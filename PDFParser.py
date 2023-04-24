@@ -17,4 +17,4 @@ def convertPDFToText(folder_path, text_out_path):
                     text_file.write(text)
             print(f'Extracted text from {pdf_path} and saved to {text_path}')
 
-convertPDFToText("downloaded_pdfs", "extracted_text")
+# convertPDFToText("downloaded_pdfs", "extracted_text")
