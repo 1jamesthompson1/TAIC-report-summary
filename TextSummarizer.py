@@ -37,16 +37,17 @@ def summarizeFiles(input_folder, output_folder, num_sentences):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
     for filename in os.listdir(input_folder):
-        print("looking at " + filename)
         if filename.endswith('.txt'):
             with open(os.path.join(input_folder, filename), 'r') as f:
                 input_text = f.read()
+                if len(input_text) < 100:
+                    continue
                 summary = summarizeText(input_text, num_sentences)
                 with open(os.path.join(output_folder, filename.replace('.txt', '_summary.txt')), 'w', encoding='utf-8') as summary_file:
                     summary_file.write(summary)
             print(f'Summarized {filename} and saved summary to {os.path.join(output_folder, filename.replace(".txt", "_summary.txt"))}')
 
-# input_folder = 'extracted_text'
-# output_folder = 'summarised'
-# num_sentences = 5
-# summarizeFiles(input_folder, output_folder, num_sentences)
+input_folder = 'extracted_text'
+output_folder = 'summarised'
+num_sentences = 5
+summarizeFiles(input_folder, output_folder, num_sentences)

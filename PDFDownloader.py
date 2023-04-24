@@ -2,10 +2,10 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-def downloadPDFs(download_dir):
+def downloadPDFs(download_dir, start_year, end_year, max_per_year):
     # Define the base URL and the range of years to scrape
     base_url = "https://www.taic.org.nz/inquiry/mo-{}-{}"
-    year_range = [(year, i) for year in range(2000, 2023) for i in range(200, 211)]
+    year_range = [(year, i) for year in range(start_year, end_year) for i in range(200, 200+max_per_year)]
 
     # Create a folder to store the downloaded PDFs
     if not os.path.exists(download_dir):
@@ -21,3 +21,4 @@ def downloadPDFs(download_dir):
             file_name = os.path.join(download_dir, f"{year}_{i}.pdf")
             with open(file_name, "wb") as f:
                 f.write(requests.get(link, allow_redirects=True).content)
+            print(f"Downloaded {file_name}")
