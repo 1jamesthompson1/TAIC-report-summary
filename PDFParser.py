@@ -35,4 +35,4 @@ def convertPDFToText(folder_path, text_out_path):
             except Exception as e:
                 print(f'Error processing {pdf_path}: {e}')
 
-convertPDFToText("downloaded_pdfs", "extracted_text")
+# convertPDFToText("downloaded_pdfs", "extracted_text")

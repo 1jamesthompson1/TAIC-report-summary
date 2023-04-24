@@ -47,7 +47,7 @@ def summarizeFiles(input_folder, output_folder, num_sentences):
                     summary_file.write(summary)
             print(f'Summarized {filename} and saved summary to {os.path.join(output_folder, filename.replace(".txt", "_summary.txt"))}')
 
-input_folder = 'extracted_text'
-output_folder = 'summarised'
-num_sentences = 5
-summarizeFiles(input_folder, output_folder, num_sentences)
+# input_folder = 'extracted_text'
+# output_folder = 'summarised'
+# num_sentences = 5
+# summarizeFiles(input_folder, output_folder, num_sentences)
