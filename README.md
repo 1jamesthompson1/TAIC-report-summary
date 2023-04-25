@@ -34,5 +34,8 @@ cd ~
 
 Lastly you need to clone the repo:
 ```
-git clone git://github.com/1jamesthompson1/TAIC-report-summary.git
+git clone https://github.com/1jamesthompson1/TAIC-report-summary.git
 ```
+
+However it might also be worth setting up a github account and then your git for good measure.
+Instructions to follow
