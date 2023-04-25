@@ -39,3 +39,16 @@ git clone https://github.com/1jamesthompson1/TAIC-report-summary.git
 
 However it might also be worth setting up a github account and then your git for good measure.
 Instructions to follow
+
+### Setting up git
+You need to give it your name and a email address:
+Set your name with:
+```
+git config --global user.name "Mona Lisa"
+```
+
+And email address with:
+```
+git config --global user.email "YOUR_EMAIL"
+```
+
