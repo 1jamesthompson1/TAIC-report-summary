@@ -2,3 +2,4 @@ downloaded_pdfs
 extracted_text
 summarised
 __pycache__
+python/.env
