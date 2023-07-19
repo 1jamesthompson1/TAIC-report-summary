@@ -19,6 +19,10 @@ def downloadPDFs(download_dir, start_year, end_year, max_per_year):
         pdf_links = [a["href"] for a in soup.find_all("a", href=True) if a["href"].endswith(".pdf")]
         for link in pdf_links:
             file_name = os.path.join(download_dir, f"{year}_{i}.pdf")
-            with open(file_name, "wb") as f:
-                f.write(requests.get(link, allow_redirects=True).content)
-            print(f"Downloaded {file_name}")
+            if not os.path.exists(file_name):
+                with open(file_name, "wb") as f:
+                    f.write(requests.get(link, allow_redirects=True).content)                
+                    print(f"Downloaded {file_name}")
+
+            else:
+                print(f"{file_name} already exists, skipping download")
