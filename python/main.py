@@ -4,7 +4,7 @@ import Extract_Analyze.TextSummarizer as TextSummarizer
 import shutil
 import os
 
-# Take cmd arguments
+
 
 download_dir = "downloaded_pdfs"
 text_dir = "extracted_text"
@@ -19,12 +19,12 @@ if not os.path.exists(output_path):
 # Change the current directory to the specified directory
 os.chdir(output_path)
 
-shutil.rmtree(download_dir, ignore_errors=True)
-shutil.rmtree(text_dir, ignore_errors=True)
-shutil.rmtree(summarized_dir, ignore_errors=True)
+# shutil.rmtree(text_dir, ignore_errors=True)
+# shutil.rmtree(summarized_dir, ignore_errors=True)
 
-PDFDownloader.downloadPDFs(download_dir, 2000,2002, 4)
-PDFParser.convertPDFToText(download_dir, text_dir)
-TextSummarizer.summarizeFiles(text_dir, summarized_dir, 5)
+# # PDFDownloader.downloadPDFs(download_dir, 2010,2020, 10)
+# PDFParser.convertPDFToText(download_dir, text_dir)
+TextSummarizer.summarizeFiles(text_dir, summarized_dir)
+
 
 os.chdir("../python")
