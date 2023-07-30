@@ -2,9 +2,7 @@ import os
 import re
 import shutil
 from OpenAICaller import openAICaller
-
-def summarizeText(input_text):
-    return "Not yet implemented"
+import pandas as pd
 
 def summarizeFiles(input_folder, output_folder):
     if not os.path.exists(output_folder):
@@ -26,16 +24,27 @@ def summarizeFiles(input_folder, output_folder):
                 os.makedirs(report_summarization_folder) 
 
             # extract contents section and output to file
-            contents_sections = extractContentsSection(input_text)
-            if contents_sections:
-                contents_section_csv = openAICaller.query(
-                    "You are reading the contents section of a report and turning it into csv. There should be two columns; title, page. Title is the title listed. Page is the page number. Note that this text is extracted from a PDF and has some weird annomalies as well as the headers which should not be included when turning to csv. Please put double quotes around the header. Please ignore the figures",
-                    contents_sections)
-                with open(os.path.join(report_summarization_folder, 'contents_section.csv'), 'w', encoding='utf-8') as text_file:
-                    text_file.write(contents_section_csv)
+            # check to see if contents section has already been extracted
+            if os.path.exists(os.path.join(report_summarization_folder, 'contents_section.csv')):
+                print("Contents section already extracted for " + filename)
+            else:
+                contents_sections = extractContentsSection(input_text)
+                if contents_sections:
+                    contents_section_csv = openAICaller.query(
+                        "Please turn this extracted content section from a pdf into a csv. Two columns one is \"title\" and the other is the \"page\". Make sure to include the header row in the CSV output and surround all cell values with double quotes. Include the header row.",
+                        contents_sections)
+                    with open(os.path.join(report_summarization_folder, 'contents_section.csv'), 'w', encoding='utf-8') as text_file:
+                        text_file.write(contents_section_csv)
+                else:
+                    print(f'Could not find contents section in {filename}')
+                    continue
 
             # Summarize the text
-            summary = summarizeText(input_text)
+            # Read csv file as a dataframe
+            df = pd.read_csv(os.path.join(report_summarization_folder, 'contents_section.csv'), on_bad_lines = "warn")
+            df['page'] = pd.to_numeric(df['page'], errors='coerce')
+
+            summary = summarizeText(re.sub(".txt", "", filename), input_text, df)
             with open(os.path.join(report_summarization_folder, "summary"), 'w', encoding='utf-8') as summary_file:
                 summary_file.write(str(summary))
             print(f'Summarized {filename} and saved summary to {os.path.join(report_summarization_folder, filename.replace(".txt", "_summary.txt"))}')
