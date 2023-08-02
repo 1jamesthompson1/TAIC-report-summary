@@ -69,3 +69,12 @@ def extractContentsSection(pdf_string):
         return None
 
     return contents_section
+def extract_text_between_page_numbers(text, page_number_1, page_number_2):
+    # Create a regular expression pattern to match the page numbers and the text between them
+    pattern = r"<< Page {} >>.*<< Page {} >>".format(page_number_1, page_number_2)
+    matches = re.findall(pattern, text, re.DOTALL)
+
+    if matches:
+        return matches[0]
+    else:
+        return None
