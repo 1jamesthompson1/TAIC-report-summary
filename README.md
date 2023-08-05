@@ -5,6 +5,9 @@
 This is a Meta Analysis project to look at the marine investigation reports made by the Transport accident investigation commission ([TAIC](https://www.taic.org.nz/)) in New Zealand.
 There will be only use of publicly available data and the reports will be summarised using a variety of techniques. The reports that will be looked can be found on there [website](https://www.taic.org.nz/inquiries?order=field_publication_date_value&sort=desc&keyword=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=&publication_date%5Bmin%5D%5Bdate%5D=&publication_date%5Bmax%5D%5Bdate%5D=&status%5B0%5D=12).
 
+This project is being completed as my final year Computer Science project for my BSc at Massey University.
+There will be additional documents that will be submitted to Massey University as part of the project. All of these documents will be found in the [Uni Project document folder](/Uni%20project%20documents/).
+
 ## Goal
 
 To be able to make meaningful connections between all the reports.
@@ -38,9 +41,14 @@ graph LR
 
 ## Setting up your environment
 
-This will help anyone setup and use this repo from scratch.
+This will help anyone setup and use this repo from scratch. This is a guide for Windows only (Tested on 11 but may work on 10).
+It is so that a complete lay person can get started and see this project working.
+
+If you konw what you are doing you can skip to [Setting up project](#setting-up-project)
 
 All of this will be done from powershell so you can open it by pressing the windows key and typing "powershell" then clicking on Windows Powershell.
+
+
 
 **This is all assumed to be done on Windows**
 
@@ -126,3 +134,38 @@ scoop install vscode
 #### Install Python extension
 
 Open vscode and press `ctrl+shift+x` and search for `python` and install the first one.
+
+## Setting up project
+
+To set the project up you will need to download some python packages and setup your openAI api.
+
+### Install python packages
+
+Here is a complete list of the packages used:
+
+- pandas
+- re
+- os
+- requests
+- bs4
+- pypdf
+- dotenv
+- openai
+
+#### Setup openAI
+For this project to work you need to have an openAI key.
+
+#### Getting your key
+
+Instructions can be found here about how to get an api key: https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/
+
+Simply put create an openAI account go to your account and create a new key
+
+#### Putting your key in the project
+
+Now that you have your key you will need to create a file called .env in the root directoy of the project.
+It needs only one with your api key in it. This means the file would look something like this
+
+> OPENAI_API_KEY=sk-xWHey2gE3BLskFJzx33cDzRbdR66hDxAhum5voMmETL8yZwy
+
+It is important however to keep this key free. As using the api costs money so if someone else got ahold of your key then they could use it and you would be charged.
