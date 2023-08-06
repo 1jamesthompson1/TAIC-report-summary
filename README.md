@@ -151,6 +151,8 @@ Here is a complete list of the packages used:
 - pypdf
 - dotenv
 - openai
+- yaml
+- random
 
 #### Setup openAI
 For this project to work you need to have an openAI key.

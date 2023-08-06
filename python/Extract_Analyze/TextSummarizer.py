@@ -1,16 +1,19 @@
 import os
+import random
 import re
-import shutil
 from OpenAICaller import openAICaller
+from Extract_Analyze.ThemeReader import ThemeReader
 import pandas as pd
 
 def summarizeFiles(input_folder, output_folder):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
+    themeReader = ThemeReader('../config.yaml')
+
     # Create the summary csv
     with open(os.path.join(output_folder, "summary.csv"), 'w', encoding='utf-8') as summary_file:
-        summary_file.write("ReportID,\"Human Error\",\"Equipment Failure\",\"Weather and Environmental Factors\",\"Operational Practices\",\"Safety Management\"\n")
+        summary_file.write("ReportID," + themeReader.get_theme_str() + "\n")
 
 
     for filename in os.listdir(input_folder):
@@ -48,7 +51,7 @@ def summarizeFiles(input_folder, output_folder):
                     print(f"  Incorrect repsonse from model retrying. \n  Response was: '{pagesToRead}'")
 
             # Summarize the text
-            summary = summarizeText(re.sub(".txt", "", filename), input_text, pagesToRead_array)
+            summary = summarizeText(re.sub(".txt", "", filename), input_text, pagesToRead_array, themeReader)
             with open(os.path.join(report_summarization_folder, "summary"), 'w', encoding='utf-8') as summary_file:
                 summary_file.write(str(summary))
 
@@ -58,7 +61,7 @@ def summarizeFiles(input_folder, output_folder):
 
             print(f'Summarized {filename} and saved summary to {os.path.join(report_summarization_folder, filename.replace(".txt", "_summary.txt"))}')
 
-def summarizeText(reportID, input_text, pagesToRead):
+def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
     print("  I am going to be reading these pages")
     print(pagesToRead)
 
@@ -67,12 +70,22 @@ def summarizeText(reportID, input_text, pagesToRead):
     for page in pagesToRead:
         text += extract_text_between_page_numbers(input_text, page, page+1)
 
+    # example weightings
+    weightings = ""
+    for i in range(0, 2):
+        weighting = []
+        for j in range(0, themeReader.get_num_themes()):
+            if j == themeReader.get_num_themes()-1:
+                weighting.append(100-sum(weighting))
+            else:
+                weighting.append(random.randint(0, 100-sum(weighting) if len(weighting) > 0 else 0))
 
-   
+        weightings += "'" + ",".join([str(weight_int) for weight_int in weighting]) + "' "
+
     while True:
         try: 
             weightings = openAICaller.query(
-                "Please read this report and determine what themes had the most contribution. Themes are: Human Error, Equipment Failure, Weather and Environmental Factors, Operational Practices, Safety Management. Your response should be 5 numbers that add up to 100. For example '25,35,10,13,17' or '0,40,50,10,0'.\n\nHere is a summary of the 5 themes:\n1. Human Error:\n\n- Inexperience: Lack of experience or training leading to mistakes.\n- Fatigue: Tiredness or sleep deprivation affecting performance.\n- Complacency: Overconfidence leading to oversight of safety procedures.\n- Distractions: External factors diverting attention from critical tasks.\n- Miscommunication: Errors in conveying or understanding information.\n\n2. Equipment Failure:\n\n- Mechanical Failure: Issues with machinery or equipment on board.\n- Electrical Failure: Problems with electrical systems and components.\n- Navigation Equipment Failure: Faulty or inaccurate navigational instruments.\n- Communication Equipment Failure: Breakdown in communication systems.\n\n3. Weather and Environmental Factors:\n\n- Rough Weather: Adverse sea conditions impacting vessel stability.\n- Visibility: Poor visibility leading to navigation challenges.\n- Ice/Icing: Ice accumulation affecting vessel performance.\n- Currents: Strong currents affecting vessel maneuverability.\n\n4. Operational Practices:\n\n- Improper Navigation: Errors in route planning or navigation execution.\n- Unsafe Speed: Operating the vessel at an unsafe speed for the conditions.\n- Improper Loading: Incorrect distribution or excessive cargo load.\n- Improper Watchkeeping: Negligence in monitoring and lookout duties.\n\n5. Safety Management:\n\n- Lack of Safety Procedures: Absence or inadequate safety protocols.\n- Non-Compliance: Failure to follow safety regulations and guidelines.\n- Safety Culture: Poor safety culture onboard or within the organization.\n- Bridge Resource Management\n\n\n",
+                "Please read this report and determine what themes had the most contribution. Your response should be " + str(themeReader.get_num_themes()) + " numbers that add up to 100. For example: " + weightings + ".\n\nHere is a summary of the 5 themes:\n" + themeReader.get_theme_description_str() + "\n",
                 text,
                 large_model = True)
 

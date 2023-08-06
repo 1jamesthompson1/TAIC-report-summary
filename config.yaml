@@ -1,0 +1,27 @@
+themes:
+  Human Error:
+    description: "Inexperience: Lack of experience or training leading to mistakes.
+Fatigue: Tiredness or sleep deprivation affecting performance.
+Complacency: Overconfidence leading to oversight of safety procedures.
+Distractions: External factors diverting attention from critical tasks.
+Miscommunication: Errors in conveying or understanding information."
+  Equipment Failure:
+    description: "Mechanical Failure: Issues with machinery or equipment on board.
+Electrical Failure: Problems with electrical systems and components.
+Navigation Equipment Failure: Faulty or inaccurate navigational instruments.
+Communication Equipment Failure: Breakdown in communication systems."
+  Weather and Environmental Factors:
+    description: "Rough Weather: Adverse sea conditions impacting vessel stability.
+Visibility: Poor visibility leading to navigation challenges.
+Ice/Icing: Ice accumulation affecting vessel performance.
+Currents: Strong currents affecting vessel maneuverability."
+  Operational Practices:
+    description: "Improper Navigation: Errors in route planning or navigation execution.
+Unsafe Speed: Operating the vessel at an unsafe speed for the conditions.
+Improper Loading: Incorrect distribution or excessive cargo load.
+Improper Watchkeeping: Negligence in monitoring and lookout duties."
+  Safety Management:
+    description: "Lack of Safety Procedures: Absence or inadequate safety protocols.
+Non-Compliance: Failure to follow safety regulations and guidelines.
+Safety Culture: Poor safety culture onboard or within the organization.
+Bridge Resource Managment"
