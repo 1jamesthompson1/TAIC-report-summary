@@ -71,7 +71,7 @@ def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
         text += extract_text_between_page_numbers(input_text, page, page+1)
 
     # example weightings
-    weightings = ""
+    example_weightings = ""
     for i in range(0, 2):
         weighting = []
         for j in range(0, themeReader.get_num_themes()):
@@ -80,24 +80,45 @@ def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
             else:
                 weighting.append(random.randint(0, 100-sum(weighting) if len(weighting) > 0 else 0))
 
-        weightings += "'" + ",".join([str(weight_int) for weight_int in weighting]) + "' "
+        example_weightings += "'" + ",".join([str(weight_int) for weight_int in weighting]) + "' "
 
     while True:
         try: 
-            weightings = openAICaller.query(
-                "Please read this report and determine what themes had the most contribution. Your response should be " + str(themeReader.get_num_themes()) + " numbers that add up to 100. For example: " + weightings + ".\n\nHere is a summary of the 5 themes:\n" + themeReader.get_theme_description_str() + "\n",
+            numberOfResponses = 5
+            responses = openAICaller.query(
+                "Please read this report and determine what themes had the most contribution. Your response should be " + str(themeReader.get_num_themes()) + " numbers that add up to 100. For example: " + example_weightings + ".\n\nHere is a summary of the 5 themes:\n" + themeReader.get_theme_description_str() + "\n",
                 text,
-                large_model = True)
+                large_model = True,
+                n=numberOfResponses)
+            
+            # Convert the responses into a list of lists
+            weightings = [[int(num) for num in response.split(",")] for response in responses]
 
-            weightings_array = [int(num) for num in weightings.split(",")]
-            if sum(weightings_array) != 100:
+            # Check that each row of weightings add up to 100
+            if any(sum(weighting) != 100 for weighting in weightings):
                 print("The numbers you provided do not add up to 100. Please try again.")
                 continue
+
+                
+            # Take the average of the weightings
+            weighting_average = [sum(weight[i] for weight in weightings) / numberOfResponses for i in range(len(weightings[0]))]
+            # Scale the average to add up to 100
+            weighting_average = [weight * 100 / sum(weighting_average) for weight in weighting_average]
+
+            if sum(weighting_average) != 100:
+                print("Error weightings should add up to 100 after scaling.")
+                continue
+
+            # Convert the weightings into a string
+            weighting_str = ",".join([str(weight_int) for weight_int in weighting_average])
+
+            print("  The weightings are: " + str(weighting_str))
             break
+
         except ValueError:
-            print(f"Incorrect repsonse from model retrying. \n  Response was: '{weightings}'")
+            print(f"Incorrect repsonse from model retrying. \n  Response was: '{responses}'")
     
-    return reportID + "," + weightings
+    return reportID + "," + weighting_str
 
 # extract the contents section of the reports
 def extractContentsSection(pdf_string):
