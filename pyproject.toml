@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "taic-report-engine"
+version = "0.1.0"
+description = "An engine to use the powers of LLMs offered by openai to help analyse and interpret the accident investigation reports."
+authors = ["James <1jamesthompson1@gmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+packages = [{include = "taic_report_engine"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+bs4 = "^0.0.1"
+pypdf = "^3.15.0"
+requests = "^2.31.0"
+tiktoken = "^0.4.0"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,7 +1,6 @@
 import Gather_Wrangle.PDFDownloader as PDFDownloader
 import Gather_Wrangle.PDFParser as PDFParser
 import Extract_Analyze.TextSummarizer as TextSummarizer
-import shutil
 import os
 
 

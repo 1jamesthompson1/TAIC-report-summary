@@ -121,6 +121,15 @@ scoop install python
 scoop install pip
 ```
 
+### Install poetry (Package and Dependency manager)
+
+More instructions can be found here: https://python-poetry.org/docs/
+
+But all you need to do is run
+```
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+```
+
 ### Setup VSCODE
 
 VScode is a IDE (Integrated Development Environment) that is used to write code and run it.
@@ -139,20 +148,14 @@ Open vscode and press `ctrl+shift+x` and search for `python` and install the fir
 
 To set the project up you will need to download some python packages and setup your openAI api.
 
-### Install python packages
+### poetry setup
 
-Here is a complete list of the packages used:
+This project uses poetry to help manage the project. Just make sure you are in the project directory then run this command:
 
-- pandas
-- re
-- os
-- requests
-- bs4
-- pypdf
-- dotenv
-- openai
-- yaml
-- random
+```
+poetry install
+```
+
 
 #### Setup openAI
 For this project to work you need to have an openAI key.

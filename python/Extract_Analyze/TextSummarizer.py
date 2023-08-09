@@ -3,7 +3,7 @@ import random
 import re
 from OpenAICaller import openAICaller
 from Extract_Analyze.ThemeReader import ThemeReader
-import pandas as pd
+
 
 def summarizeFiles(input_folder, output_folder):
     if not os.path.exists(output_folder):
