@@ -15,14 +15,19 @@ class OpenAICaller:
         pass
 
     def query(self, system, user, temp = 1, large_model = False, n = 1):
-        completion = openai.ChatCompletion.create(
-            model= self.model_large if large_model else self.model,
-            messages=[
-                {"role": "system", "content": system},
-                {"role": "user", "content": user}
-            ],
-            temperature=temp, n = n
-        )
+
+        model= self.model_large if large_model else self.model
+
+        # Check to make sure there arent too many tokens
+        enc = tiktoken.encoding_for_model(model)
+        user_enc = enc.encode(user)
+        system_enc = enc.encode(system)
+        total_length = len(user_enc) + len(system_enc) + 1
+        
+        # This is hardcoded due to there being no API way of seeing if there are too many tokens.
+        if (large_model & total_length > 16000) | ( (not large_model) & total_length > 4000):
+            print("Too many tokens, not sending to OpenAI")
+            return None
 
         if n == 1:
             return completion.choices[0].message.content

@@ -52,6 +52,10 @@ def summarizeFiles(input_folder, output_folder):
 
             # Summarize the text
             summary = summarizeText(re.sub(".txt", "", filename), input_text, pagesToRead_array, themeReader)
+            if (summary == None):
+                print(f'  Could not summarize {filename}')
+                continue
+
             with open(os.path.join(report_summarization_folder, "summary"), 'w', encoding='utf-8') as summary_file:
                 summary_file.write(str(summary))
 
@@ -62,13 +66,20 @@ def summarizeFiles(input_folder, output_folder):
             print(f'Summarized {filename} and saved summary to {os.path.join(report_summarization_folder, filename.replace(".txt", "_summary.txt"))}')
 
 def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
-    print("  I am going to be reading these pages")
-    print(pagesToRead)
+    print(f"  I am going to be reading these pages: {pagesToRead}")
 
     # Loop through the pages and extract the text
     text = ""
     for page in pagesToRead:
-        text += extract_text_between_page_numbers(input_text, page, page+1)
+        extracted_text = extract_text_between_page_numbers(input_text, page, page+1)
+        if extracted_text == None:
+            print(f"  Could not extract text from page {page}")
+            continue
+        text += extracted_text
+
+    if len(text) < 100:
+        print("  The text is too short to summarize")
+        return None
 
     # example weightings
     example_weightings = ""
@@ -91,12 +102,15 @@ def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
                 large_model = True,
                 n=numberOfResponses)
             
+            if responses == None:
+                return None
+            
             # Convert the responses into a list of lists
             weightings = [[int(num) for num in response.split(",")] for response in responses]
 
             # Check that each row of weightings add up to 100
             if any(sum(weighting) != 100 for weighting in weightings):
-                print("The numbers you provided do not add up to 100. Please try again.")
+                print("  The numbers you provided do not add up to 100. Please try again.")
                 continue
 
                 
@@ -116,7 +130,7 @@ def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
             break
 
         except ValueError:
-            print(f"Incorrect repsonse from model retrying. \n  Response was: '{responses}'")
+            print(f"  Incorrect repsonse from model retrying. \n  Response was: '{responses}'")
     
     return reportID + "," + weighting_str
 
@@ -151,7 +165,17 @@ def extract_text_between_page_numbers(text, page_number_1, page_number_2):
     pattern = r"<< Page {} >>.*<< Page {} >>".format(page_number_1, page_number_2)
     matches = re.findall(pattern, text, re.DOTALL)
 
+
     if matches:
         return matches[0]
     else:
-        return None
+        # Return everything after the first page number match
+        pattern = r"<< Page {} >>.*".format(page_number_1)
+        matches = re.findall(pattern, text, re.DOTALL)
+        if matches:
+            return matches[0]
+        else:
+            print("Error: Could not find text between pages " + str(page_number_1) + " and " + str(page_number_2))
+            return None
+
+
