@@ -38,25 +38,3 @@ def formatText(text, style):
 
     return text
 
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-
-def cleanText(text):
-    tokens = word_tokenize(text.lower())
-
-    # Remove stopwords
-    stop_words = set(stopwords.words('english'))
-    filtered_tokens = [token for token in tokens if token not in stop_words]
-
-    # Lemmatize the words
-    lemmatizer = WordNetLemmatizer()
-    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in filtered_tokens]
-
-    # Join the preprocessed tokens back into a single string
-    return' '.join(lemmatized_tokens)
