@@ -1,14 +1,20 @@
+from math import exp
 import os
+import time
 import openai
 from dotenv import load_dotenv
+import tiktoken
+
 
 load_dotenv()
+
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class OpenAICaller:
     def __init__(self):
         self.model = "gpt-3.5-turbo"
+        
         self.model_large = "gpt-3.5-turbo-16k"
     def setup(self):
         # Set up the OpenAI API credentials and other configuration options
@@ -29,9 +35,29 @@ class OpenAICaller:
             print("Too many tokens, not sending to OpenAI")
             return None
 
+        # If rate limit error happens then just wait a minute and try again
+        wait_time = 1
+        while True:
+            try:
+                completion = openai.ChatCompletion.create(
+                model = model,
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user}
+                ],
+                temperature=temp, n = n
+                )
+                break
+            except openai.error.RateLimitError:
+                print("Rate limit error, waiting 1 minute")        
+                time.sleep(exp(wait_time))
+                wait_time += 1
+                continue        
+
         if n == 1:
             return completion.choices[0].message.content
         else:
             return [choice.message.content for choice in completion.choices]
     
 openAICaller = OpenAICaller()
+
