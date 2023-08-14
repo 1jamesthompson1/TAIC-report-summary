@@ -2,28 +2,47 @@ import Gather_Wrangle.PDFDownloader as PDFDownloader
 import Gather_Wrangle.PDFParser as PDFParser
 import Extract_Analyze.TextSummarizer as TextSummarizer
 import os
+import argparse
+import shutil
 
+def download_extract(output_dir):
+    # Download the PDFs
+    PDFDownloader.downloadPDFs(output_dir, 2010,2011, 5)
 
+    # Extract the text from the PDFs
+    PDFParser.convertPDFToText(output_dir)
 
-download_dir = "downloaded_pdfs"
-text_dir = "extracted_text"
-summarized_dir = "summarised"
+def summarize(output_dir, get_cost):
+    TextSummarizer.summarizeFiles(output_dir, get_cost)
 
-# Set working directory to output folder
-output_path = "output"
-if not os.path.exists(output_path):
-    # Create the directory
-    os.makedirs(output_path)
+def main():
+    parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
+    parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
+    parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount.", action="store_true")
+    parser.add_argument("-t", "--run_type", choices=["download", "summarize", "all"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. While Summarize will summarize the downloaded text. All will do both actions.")
 
-# Change the current directory to the specified directory
-os.chdir(output_path)
+    args = parser.parse_args()
+   
+    # Set working directory to output folder
+    output_path = "output"
+    if not os.path.exists(output_path):
+        # Create the directory
+        os.makedirs(output_path)
+    elif args.refresh:
+        # Delete the directory and recreate it
+        shutil.rmtree(output_path, ignore_errors=True)
+        os.makedirs(output_path)
 
-# shutil.rmtree(text_dir, ignore_errors=True)
-# shutil.rmtree(summarized_dir, ignore_errors=True)
+    get_cost = args.calculate_cost
 
-# # PDFDownloader.downloadPDFs(download_dir, 2010,2020, 10)
-# PDFParser.convertPDFToText(download_dir, text_dir)
-TextSummarizer.summarizeFiles(text_dir, summarized_dir)
+    match args.run_type:
+        case "Download":
+            download_extract(output_path)
+        case "Summarize":
+            summarize(output_path, get_cost)
+        case "All":
+            download_extract(output_path)
+            summarize(output_path, get_cost)
 
-
-os.chdir("../python")
+if __name__ == "__main__":
+    main()

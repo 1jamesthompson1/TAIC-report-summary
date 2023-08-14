@@ -6,7 +6,6 @@ from Extract_Analyze.ThemeReader import ThemeReader
 
 
 def summarizeFiles(output_dir, get_cost):
-    print(output_dir)
     if not os.path.exists(output_dir):
         print("Output folder and hence extracted text does not exist. Reports cannot be summarized.")
         return
