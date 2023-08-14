@@ -2,13 +2,17 @@ from pypdf import PdfReader
 import os
 import re
 
-def convertPDFToText(folder_path, text_out_path):
-    if not os.path.exists(text_out_path):
-        os.mkdir(text_out_path)
-    for file_name in os.listdir(folder_path):
-        if file_name.endswith('.pdf'):
-            pdf_path = os.path.join(folder_path, file_name)
-            text_path = os.path.join(text_out_path, file_name.replace('.pdf', '.txt'))
+def convertPDFToText(output_dir):
+    if not os.path.exists(output_dir):
+        print("No reports have been downloaded so far. Please make sure that reports have been downloaded before running this function.")
+        return
+
+    for report_id in os.listdir(output_dir):
+        # Go into each folder and find the pdf
+        report_dir = os.path.join(output_dir, report_id)
+        pdf_path = os.path.join(report_dir, f'{report_id}.pdf')
+        if os.path.exists(pdf_path):
+            text_path = os.path.join(report_dir, f'{report_id}.txt')
             try:
                 with open(pdf_path, 'rb') as pdf_file:
                     reader = PdfReader(pdf_file)

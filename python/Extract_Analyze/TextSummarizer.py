@@ -5,65 +5,71 @@ from OpenAICaller import openAICaller
 from Extract_Analyze.ThemeReader import ThemeReader
 
 
-def summarizeFiles(input_folder, output_folder):
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+def summarizeFiles(output_dir, get_cost):
+    print(output_dir)
+    if not os.path.exists(output_dir):
+        print("Output folder and hence extracted text does not exist. Reports cannot be summarized.")
+        return
 
-    themeReader = ThemeReader('../config.yaml')
+    themeReader = ThemeReader('config.yaml')
 
     # Create the summary csv
-    with open(os.path.join(output_folder, "summary.csv"), 'w', encoding='utf-8') as summary_file:
+    with open(os.path.join(output_dir, "summary.csv"), 'w', encoding='utf-8') as summary_file:
         summary_file.write("ReportID," + themeReader.get_theme_str() + "\n")
 
 
-    for filename in os.listdir(input_folder):
-        if filename.endswith('.txt'):
-            with open(os.path.join(input_folder, filename), 'r', encoding='utf-8', errors='replace') as f:
-                input_text = f.read()
-            if len(input_text) < 100:
-                    continue
-                
-            print(f'Summarizing {filename}')
+    for report_id in os.listdir(output_dir):
+        report_dir = os.path.join(output_dir, report_id)
+        if not os.path.isdir(report_dir):
+            continue
+        text_path = os.path.join(report_dir, f'{report_id}.txt')
+        if not os.path.exists(text_path):
+            print(f"Could not find text file for {report_id}, skipping report.")
+            continue
+           
+        with open(text_path, 'r', encoding='utf-8', errors='replace') as f:
+            input_text = f.read()
+        if len(input_text) < 100:
+                continue
             
-            # create summarizetion folder for each report
-            report_summarization_folder = os.path.join(output_folder, filename.replace('.txt', ''))
-            if not os.path.exists(report_summarization_folder):
-                os.makedirs(report_summarization_folder)
+        print(f'Summarizing {report_id}')
 
-            # Get the pages to read
-            contents_sections = extractContentsSection(input_text)
-            if contents_sections == None:
-                print(f'Could not find contents section in {filename}')
-                continue
+        # Get the pages to read
+        contents_sections = extractContentsSection(input_text)
+        if contents_sections == None:
+            print(f'Could not find contents section in {report_id}')
+            continue
 
-            # Repeat query until valid response is given
-            while True:
-                try: 
-                    pagesToRead = openAICaller.query(
-                            "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'",
-                            contents_sections,
-                            temp = 1)
-                    pagesToRead_array = [int(num) for num in pagesToRead.split(",")]
-                    # Make the array every page between first and last
-                    pagesToRead_array = list(range(pagesToRead_array[0], pagesToRead_array[-1] + 1))
-                    break
-                except ValueError:
-                    print(f"  Incorrect repsonse from model retrying. \n  Response was: '{pagesToRead}'")
+        # Repeat query until valid response is given
+        while True:
+            try: 
+                pagesToRead = openAICaller.query(
+                        "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'",
+                        contents_sections,
+                        temp = 1)
+                pagesToRead_array = [int(num) for num in pagesToRead.split(",")]
+                # Make the array every page between first and last
+                pagesToRead_array = list(range(pagesToRead_array[0], pagesToRead_array[-1] + 1))
+                break
+            except ValueError:
+                print(f"  Incorrect repsonse from model retrying. \n  Response was: '{pagesToRead}'")
 
-            # Summarize the text
-            summary = summarizeText(re.sub(".txt", "", filename), input_text, pagesToRead_array, themeReader)
-            if (summary == None):
-                print(f'  Could not summarize {filename}')
-                continue
+        # Summarize the text
+        summary = summarizeText(report_id, input_text, pagesToRead_array, themeReader)
+        if (summary == None):
+            print(f'  Could not summarize {report_id}')
+            continue
+        
+        summary_path = os.path.join(report_dir, f"{report_id}_summary.txt")
+        with open(summary_path, 'w', encoding='utf-8') as summary_file:
+            summary_file.write(str(summary))
 
-            with open(os.path.join(report_summarization_folder, "summary"), 'w', encoding='utf-8') as summary_file:
-                summary_file.write(str(summary))
+        # Add text to overall csv
+        csv_path = os.path.join(output_dir, "summary.csv")
+        with open(csv_path, 'a', encoding='utf-8') as summary_file:
+            summary_file.write(str(summary) + "\n")
 
-            # Add text to overall csv
-            with open(os.path.join(output_folder, "summary.csv"), 'a', encoding='utf-8') as summary_file:
-                summary_file.write(str(summary) + "\n")
-
-            print(f'Summarized {filename} and saved summary to {os.path.join(report_summarization_folder, filename.replace(".txt", "_summary.txt"))}')
+        print(f'Summarized {report_id} and saved summary to {summary_path}, line also added to {csv_path}')
 
 def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
     print(f"  I am going to be reading these pages: {pagesToRead}")

@@ -1,6 +1,4 @@
-downloaded_pdfs
-extracted_text
-summarised
+output/
 __pycache__
 python/.env
 .env
