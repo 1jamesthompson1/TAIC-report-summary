@@ -18,7 +18,7 @@ def summarize(output_dir, get_cost):
 def main():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
-    parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount.", action="store_true")
+    parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
     parser.add_argument("-t", "--run_type", choices=["download", "summarize", "all"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. While Summarize will summarize the downloaded text. All will do both actions.")
 
     args = parser.parse_args()
@@ -36,11 +36,11 @@ def main():
     get_cost = args.calculate_cost
 
     match args.run_type:
-        case "Download":
+        case "download":
             download_extract(output_path)
-        case "Summarize":
+        case "summarize":
             summarize(output_path, get_cost)
-        case "All":
+        case "all":
             download_extract(output_path)
             summarize(output_path, get_cost)
 

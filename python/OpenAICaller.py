@@ -25,10 +25,7 @@ class OpenAICaller:
         model= self.model_large if large_model else self.model
 
         # Check to make sure there arent too many tokens
-        enc = tiktoken.encoding_for_model(model)
-        user_enc = enc.encode(user)
-        system_enc = enc.encode(system)
-        total_length = len(user_enc) + len(system_enc) + 1
+        total_length = sum(self.get_tokens(model, [system, user]))+1
         
         # This is hardcoded due to there being no API way of seeing if there are too many tokens.
         if (large_model & total_length > 16000) | ( (not large_model) & total_length > 4000):
@@ -58,6 +55,11 @@ class OpenAICaller:
             return completion.choices[0].message.content
         else:
             return [choice.message.content for choice in completion.choices]
-    
+        
+    def get_tokens(self, model, texts):
+        enc = tiktoken.encoding_for_model(model)
+        return [len(enc.encode(text)) for text in texts]
+        
+            
 openAICaller = OpenAICaller()
 

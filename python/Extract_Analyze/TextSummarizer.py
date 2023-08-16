@@ -3,6 +3,7 @@ import random
 import re
 from OpenAICaller import openAICaller
 from Extract_Analyze.ThemeReader import ThemeReader
+import pandas as pd
 
 
 def summarizeFiles(output_dir, get_cost):
@@ -16,6 +17,12 @@ def summarizeFiles(output_dir, get_cost):
     with open(os.path.join(output_dir, "summary.csv"), 'w', encoding='utf-8') as summary_file:
         summary_file.write("ReportID," + themeReader.get_theme_str() + "\n")
 
+
+    if get_cost:
+        # Create the cost csv
+        cost_csv_path = os.path.join(output_dir, "cost.csv")
+        with open(cost_csv_path, 'w', encoding='utf-8') as cost_file:
+            cost_file.write("ReportID,Tokens,normal,large\n")
 
     for report_id in os.listdir(output_dir):
         report_dir = os.path.join(output_dir, report_id)
@@ -33,14 +40,12 @@ def summarizeFiles(output_dir, get_cost):
             
         print(f'Summarizing {report_id}')
 
-        # Get the pages to read
+        # Get the pages that should be read
         contents_sections = extractContentsSection(input_text)
         if contents_sections == None:
             print(f'Could not find contents section in {report_id}')
             continue
-
-        # Repeat query until valid response is given
-        while True:
+        while True: # Repeat until the LLMs gives a valid response
             try: 
                 pagesToRead = openAICaller.query(
                         "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'",
@@ -53,34 +58,45 @@ def summarizeFiles(output_dir, get_cost):
             except ValueError:
                 print(f"  Incorrect repsonse from model retrying. \n  Response was: '{pagesToRead}'")
 
+        # Retrieve that actual text for the page numbers.
+        print(f"  I am going to be reading these pages: {pagesToRead_array}")     
+        text = ""
+        for page in pagesToRead_array: # Loop through the pages and extract the text
+            extracted_text = extract_text_between_page_numbers(input_text, page, page+1)
+            if extracted_text == None:
+                print(f"  Could not extract text from page {page}")
+                continue
+            text += extracted_text
+
         # Summarize the text
-        summary = summarizeText(report_id, input_text, pagesToRead_array, themeReader)
-        if (summary == None):
-            print(f'  Could not summarize {report_id}')
-            continue
+        if get_cost:
+            tokens = openAICaller.get_tokens(openAICaller.model, [text])[0]
+            with open(cost_csv_path, 'a', encoding='utf-8') as cost_file:
+                cost_file.write(f"{report_id},{tokens},{tokens/1000 * 0.0015},{tokens/1000 * 0.003}\n")
+        else:
+            summary = summarizeText(report_id, text, themeReader)
+            if (summary == None):
+                print(f'  Could not summarize {report_id}')
+                continue
+            
+            summary_path = os.path.join(report_dir, f"{report_id}_summary.txt")
+            with open(summary_path, 'w', encoding='utf-8') as summary_file:
+                summary_file.write(str(summary))
+
+            # Add text to overall csv
+            csv_path = os.path.join(output_dir, "summary.csv")
+            with open(csv_path, 'a', encoding='utf-8') as summary_file:
+                summary_file.write(str(summary) + "\n")
+
+            print(f'Summarized {report_id} and saved summary to {summary_path}, line also added to {csv_path}')
+
+    # If getting cost print out summary.
+    if get_cost:
+        cost_df = pd.read_csv(cost_csv_path)
+        print(f"Summary of API costs:\nNote this is only a lower bound\nAverage cost of summarizing a report: ${cost_df['large'].mean()}, with a total cost for all {len(os.listdir(output_dir))} reports of ${cost_df['large'].sum()}")
         
-        summary_path = os.path.join(report_dir, f"{report_id}_summary.txt")
-        with open(summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write(str(summary))
 
-        # Add text to overall csv
-        csv_path = os.path.join(output_dir, "summary.csv")
-        with open(csv_path, 'a', encoding='utf-8') as summary_file:
-            summary_file.write(str(summary) + "\n")
-
-        print(f'Summarized {report_id} and saved summary to {summary_path}, line also added to {csv_path}')
-
-def summarizeText(reportID, input_text, pagesToRead, themeReader: ThemeReader):
-    print(f"  I am going to be reading these pages: {pagesToRead}")
-
-    # Loop through the pages and extract the text
-    text = ""
-    for page in pagesToRead:
-        extracted_text = extract_text_between_page_numbers(input_text, page, page+1)
-        if extracted_text == None:
-            print(f"  Could not extract text from page {page}")
-            continue
-        text += extracted_text
+def summarizeText(reportID, text, themeReader: ThemeReader):
 
     if len(text) < 100:
         print("  The text is too short to summarize")
