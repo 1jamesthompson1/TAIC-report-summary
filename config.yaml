@@ -25,3 +25,9 @@ themes:
 services of a maritime pilot (there are sometimes exemptions). A maritime pilot is 
 an experienced and highly skilled sailor who has detailed knowledge of a 
 particular waterway."
+
+engine:
+  download:
+    start_year: 2010
+    end_year: 2023
+    max_per_year: 10 # Note that every URL is checked so you want to keep this as low as possible, as increasing this will make a non trivial increase in runtime.

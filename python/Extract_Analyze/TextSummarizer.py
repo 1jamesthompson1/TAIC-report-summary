@@ -11,7 +11,7 @@ def summarizeFiles(output_dir, get_cost):
         print("Output folder and hence extracted text does not exist. Reports cannot be summarized.")
         return
 
-    themeReader = ThemeReader('config.yaml')
+    themeReader = ThemeReader()
 
     # Create the summary csv
     with open(os.path.join(output_dir, "summary.csv"), 'w', encoding='utf-8') as summary_file:

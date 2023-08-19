@@ -4,10 +4,11 @@ import Extract_Analyze.TextSummarizer as TextSummarizer
 import os
 import argparse
 import shutil
+import ConfigReader
 
-def download_extract(output_dir):
+def download_extract(output_dir, download_config):
     # Download the PDFs
-    PDFDownloader.downloadPDFs(output_dir, 2010,2011, 5)
+    PDFDownloader.downloadPDFs(output_dir, download_config.get('start_year'), download_config.get('end_year'), download_config.get('max_per_year'))
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(output_dir)
@@ -33,11 +34,14 @@ def main():
         shutil.rmtree(output_path, ignore_errors=True)
         os.makedirs(output_path)
 
+    # Get the config settings for the engine.
+    engine_settings = ConfigReader.configReader.get_config()['engine']
+
     get_cost = args.calculate_cost
 
     match args.run_type:
         case "download":
-            download_extract(output_path)
+            download_extract(output_path, engine_settings.get('download'))
         case "summarize":
             summarize(output_path, get_cost)
         case "all":
