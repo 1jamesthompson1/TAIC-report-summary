@@ -157,7 +157,7 @@ def summarizeText(reportID, text, themeReader: ThemeReader):
 
 # extract the contents section of the reports
 def extractContentsSection(pdf_string):
-    startRegex = r'((Content)|(content)|(Contents)|(contents))([ \w]{0,30}.+)'
+    startRegex = r'((Content)|(content)|(Contents)|(contents))([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*\.{5,})'
     endRegex = r'[\.]{2,} {1,2}[\d]{1,2}'
 
     # Get the entire string between the start and end regex
