@@ -1,6 +1,6 @@
 import os
 import random
-import re
+import regex as re
 from OpenAICaller import openAICaller
 from Extract_Analyze.ThemeReader import ThemeReader
 import pandas as pd
@@ -158,7 +158,7 @@ def summarizeText(reportID, text, themeReader: ThemeReader):
 # extract the contents section of the reports
 def extractContentsSection(pdf_string):
     startRegex = r'((Content)|(content)|(Contents)|(contents))([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*\.{5,})'
-    endRegex = r'[\.]{2,} {1,2}[\d]{1,2}'
+    endRegex = r'(?<!<< Page \d+ >>[,/.\w\s]*)[\.]{2,} {1,2}[\d]{1,2}'
 
     # Get the entire string between the start and end regex
     startMatch = re.search(startRegex, pdf_string)
