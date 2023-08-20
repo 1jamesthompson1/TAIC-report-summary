@@ -28,7 +28,7 @@ class OpenAICaller:
         total_length = sum(self.get_tokens(model, [system, user]))+1
         
         # This is hardcoded due to there being no API way of seeing if there are too many tokens.
-        if (large_model & total_length > 16000) | ( (not large_model) & total_length > 4000):
+        if (large_model and (total_length > 16000)) or ( (not large_model) and (total_length > 4000)):
             print("Too many tokens, not sending to OpenAI")
             return None
 
@@ -46,7 +46,7 @@ class OpenAICaller:
                 )
                 break
             except openai.error.RateLimitError:
-                print("Rate limit error, waiting 1 minute")        
+                print(f"Rate limit error, waiting {exp(wait_time)/60} minutes and trying again")        
                 time.sleep(exp(wait_time))
                 wait_time += 1
                 continue        
