@@ -1,6 +1,6 @@
 import Gather_Wrangle.PDFDownloader as PDFDownloader
 import Gather_Wrangle.PDFParser as PDFParser
-import Extract_Analyze.TextSummarizer as TextSummarizer
+from Extract_Analyze.Summarizer import ReportSummarizer as Summarizer
 import os
 import argparse
 import shutil
@@ -14,7 +14,7 @@ def download_extract(output_dir, download_config):
     PDFParser.convertPDFToText(output_dir)
 
 def summarize(output_dir, get_cost):
-    TextSummarizer.summarizeFiles(output_dir, get_cost)
+    Summarizer(output_dir).summarize_reports(get_cost)
 
 def main():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
