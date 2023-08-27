@@ -4,14 +4,14 @@ import regex as re
 from OpenAICaller import openAICaller
 import pandas as pd
 
-from Extract_Analyze.ThemeReader import ThemeReader
-from Extract_Analyze.ReportReader import ReportReader
+from Extract_Analyze.Themes import ThemeReader
+from Extract_Analyze.OutputFolderReader import OutputFolderReader
 
 class ReportSummarizer:
     def __init__(self, output_folder):
         self.output_folder = output_folder
         self.theme_reader = ThemeReader()
-        self.report_reader = ReportReader(self.output_folder)
+        self.report_reader = OutputFolderReader(self.output_folder)
         self.open_ai_caller = openAICaller
 
         self.cost_summary_path = os.path.join(self.output_folder, "cost.csv")

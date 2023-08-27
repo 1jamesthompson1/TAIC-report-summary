@@ -1,33 +1,5 @@
-themes:
-  Fatiuge:
-    description: "Tiredness or sleep deprivation affecting performance."
-
-  Substance use:
-    description: "Alcohol or Drug use that affects performance."
-
-  Inexperience:
-    description: "Missing of essential knowledge and skills."
-
-  Crew Resource Management:
-    description: "Crew Resource Management (CRM) is a comprehensive training program and philosophy developed to enhance the teamwork, communication, decision-making, and overall effectiveness of teams, particularly in high-stakes environments."
-
-  Maintenance:
-    description: "Mainentance of equipment and systems."
-
-  Safety Management Systems:
-    description: "A collection of processes and strucutres that provide effective risk-based decision making."
-  
-  Interfaces between modes:
-    description: "The interaction between different modes of transportation. I.e level railway crossing, or a ferry terminal."
-
-  Navigation in pilotage waters:
-    description: "Pilotage waters are those areas in which a ship is usually required to use the 
-services of a maritime pilot (there are sometimes exemptions). A maritime pilot is 
-an experienced and highly skilled sailor who has detailed knowledge of a 
-particular waterway."
-
 engine:
   download:
-    start_year: 2010
     end_year: 2023
-    max_per_year: 10 # Note that every URL is checked so you want to keep this as low as possible, as increasing this will make a non trivial increase in runtime.
+    max_per_year: 10
+    start_year: 2010
