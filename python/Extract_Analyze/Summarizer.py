@@ -17,7 +17,7 @@ class ReportSummarizer:
         self.cost_summary_path = os.path.join(self.output_folder, "cost.csv")
         self.overall_summary_path = os.path.join(self.output_folder, "summary.csv")
 
-    def summarize_reports(self, get_cost):
+    def summarize_reports(self):
         if not os.path.exists(self.output_folder):
             print("Output folder and hence extracted text does not exist. Reports cannot be summarized.")
             return
@@ -25,34 +25,7 @@ class ReportSummarizer:
         with open(self.overall_summary_path, 'w', encoding='utf-8') as summary_file:
             summary_file.write("ReportID," + self.theme_reader.get_theme_str() + "\n")
 
-        if get_cost:
-            with open(self.cost_summary_path, 'w', encoding='utf-8') as cost_file:
-                cost_file.write("ReportID,Tokens,normal,large\n")
-
-            self.report_reader.process_reports(self.count_api_cost_report)
-
-            cost_df = pd.read_csv(self.cost_summary_path)
-            print(f"Summary of API costs:\nNote this is only a lower bound\nAverage cost of summarizing a report: ${cost_df['large'].mean()}, with a total cost for all {len(os.listdir(self.output_folder))} reports of ${cost_df['large'].sum()}")
-        else:
-            self.report_reader.process_reports(self.summarize_report)      
-
-    def count_api_cost_report(self, report_id, report_text):
-        print(f'Counting cost of {report_id}')
-
-        # Get the pages that should be read
-        text_to_be_summarized = ReportExtractor(report_text, report_id).extract_important_text()
-        if text_to_be_summarized == None:
-            print(f'Could not extract from {report_id} so cant count cost')
-            return
-
-        tokens = self.open_ai_caller.get_tokens(self.open_ai_caller.model, [text_to_be_summarized])[0]
-
-        cost_str = f"{report_id},{tokens},{tokens/1000 * 0.0015},{tokens/1000 * 0.003}"
-
-        with open(self.cost_summary_path, 'a', encoding='utf-8') as cost_file:
-            cost_file.write(f"{cost_str}\n")
-        print(f'  {cost_str}')
-        print(f'Counted cost of {report_id} and saved to {self.cost_summary_path}')
+        self.report_reader.process_reports(self.summarize_report)      
 
     def summarize_report(self, report_id, report_text):
         print(f'Summarizing {report_id}')

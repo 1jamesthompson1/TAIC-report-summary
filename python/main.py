@@ -2,6 +2,7 @@ import Gather_Wrangle.PDFDownloader as PDFDownloader
 import Gather_Wrangle.PDFParser as PDFParser
 from Extract_Analyze.Summarizer import ReportSummarizer as Summarizer
 from Extract_Analyze.ThemeGenerator import ThemeGenerator
+from Extract_Analyze.APICostEstimator import APICostEstimator
 import os
 import argparse
 import shutil
@@ -17,10 +18,22 @@ def download_extract(output_dir, download_config):
 def generate_themes(output_dir):
     ThemeGenerator(output_dir).generate_themes()
 
-def summarize(output_dir, get_cost):
-    Summarizer(output_dir).summarize_reports(get_cost)
+def summarize(output_dir):
+    Summarizer(output_dir).summarize_reports()
 
-    
+def printout_cost_summary(output_dir ,run_type):
+    summary_strs = APICostEstimator(output_dir).get_cost_summary_strings()
+
+    match run_type:
+        case "download":
+            print(f"Downloading does not cost anything")
+        case "summarize":
+            print(summary_strs["summarize"])
+        case "themes":
+            print(summary_strs["themes"])
+        case "all":
+            print(summary_strs["all"])
+
 
 def main():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
@@ -43,18 +56,20 @@ def main():
     # Get the config settings for the engine.
     engine_settings = Config.configReader.get_config()['engine']
 
-    get_cost = args.calculate_cost
-
+    if args.calculate_cost:
+        get_cost = printout_cost_summary(output_path, args.run_type)
+        return
+        
     match args.run_type:
         case "download":
             download_extract(output_path, engine_settings.get('download'))
         case "themes":
             generate_themes(output_path)
         case "summarize":
-            summarize(output_path, get_cost)
+            summarize(output_path)
         case "all":
             download_extract(output_path)
-            summarize(output_path, get_cost)
+            summarize(output_path)
             generate_themes(output_path)
 
 if __name__ == "__main__":

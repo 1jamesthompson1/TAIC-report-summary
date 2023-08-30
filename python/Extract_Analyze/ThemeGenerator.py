@@ -11,18 +11,17 @@ class ThemeGenerator:
         self.output_folder = output_folder
         self.open_ai_caller = OpenAICaller.openAICaller
         self.all_themes = ""
+        self.output_folder_reader = OutputFolderReader.OutputFolderReader(self.output_folder)
 
     def generate_themes(self):
-        output_folder_reader = OutputFolderReader.OutputFolderReader(self.output_folder)
-
         print("Generating themes from reports...")
 
-        output_folder_reader.process_reports(self._get_theme)
+        self.output_folder_reader.process_reports(self._get_theme)
 
         print("Themes generated from reports")
 
-        print("Reading all themes...")
-        output_folder_reader.read_all_themes(self._read_themes)
+        print("Reading all themes and summarizing...")
+        self.output_folder_reader.read_all_themes(self._read_themes)
         print("All themes read")
 
         summarised_themes = self.open_ai_caller.query(
