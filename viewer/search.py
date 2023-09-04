@@ -1,7 +1,6 @@
 import pandas as pd
 import os
-
-# import yaml
+import engine.Extract_Analyze.Themes as Themes
 
 class Search:
     def __init__(self, query: str):
@@ -24,7 +23,8 @@ class SearchResult:
 class Searcher:
     def __init__(self):
         self.input_dir = "output"
-        # self.themes = yaml.safe_load(open(os.path.join(self.input_dir, "themes.yaml"), "r",  encoding='utf-8', errors='replace'))['']
+        self.themes = Themes.ThemeReader().get_theme_titles()
+        self.summary = pd.read_csv(os.path.join(self.input_dir, "summary.csv"))
 
     def search(self, query: str) -> pd.DataFrame:
         reports = []
@@ -57,7 +57,19 @@ class Searcher:
                 continue
 
             
-            reports.append({"ReportID": dir, "NoMatches": search_result.matches(), "Theme": theme_summary})
+            report_row = {
+                "ReportID": dir,
+                "NoMatches": search_result.matches(),
+                "ThemeSummary": theme_summary,
+            }
+
+            reportID_summary_row = self.summary.loc[self.summary["ReportID"] == dir]
+            if len(reportID_summary_row) == 0:
+                continue
+            for theme in self.themes:
+                report_row[theme] = round(reportID_summary_row[theme].values[0], 6)
+
+            reports.append(report_row)
         
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
     

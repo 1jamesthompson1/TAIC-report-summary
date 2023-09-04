@@ -27,6 +27,9 @@ class ThemeReader(ThemeFile):
         for theme in self._themes:
             themes_description_str += f"{theme['title']}:\n {theme['description']}\n\n"
         return themes_description_str
+    
+    def get_theme_titles(self) -> list:
+        return [theme["title"] for theme in self._themes]
 
     def _get_themes(self) -> dict:
         if not os.path.exists(self._file_path):
