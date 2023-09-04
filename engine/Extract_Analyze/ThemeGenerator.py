@@ -1,15 +1,14 @@
 import os
 
-import Extract_Analyze.OutputFolderReader as OutputFolderReader
-import OpenAICaller
-import Extract_Analyze.Themes as Themes
-
-from Extract_Analyze.Summarizer import ReportExtractor
+from ..OpenAICaller import openAICaller
+from . import OutputFolderReader
+from .Summarizer import ReportExtractor
+from . import Themes
 
 class ThemeGenerator:
     def __init__(self, output_folder):
         self.output_folder = output_folder
-        self.open_ai_caller = OpenAICaller.openAICaller
+        self.open_ai_caller = openAICaller
         self.all_themes = ""
         self.output_folder_reader = OutputFolderReader.OutputFolderReader(self.output_folder)
 

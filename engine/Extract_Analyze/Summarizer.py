@@ -1,11 +1,11 @@
 import os
 import random
 import regex as re
-from OpenAICaller import openAICaller
+from ..OpenAICaller import openAICaller
 import pandas as pd
 
-from Extract_Analyze.Themes import ThemeReader
-from Extract_Analyze.OutputFolderReader import OutputFolderReader
+from .Themes import ThemeReader
+from .OutputFolderReader import OutputFolderReader
 
 class ReportSummarizer:
     def __init__(self, output_folder):
@@ -32,22 +32,22 @@ class ReportSummarizer:
 
 
         # Get the pages that should be read
-        text_to_be_summarized = ReportExtractor(report_text).extract_important_text()
+        text_to_be_summarized = ReportExtractor(report_text, report_id).extract_important_text()
         if text_to_be_summarized == None:
             print(f'Could not extract text to be summarized from {report_id}')
             return
         
-        summary = self.summarize_text(report_id, text_to_be_summarized, self.theme_reader)
+        summary = self.summarize_text(report_id, text_to_be_summarized)
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             return
         
-        report_summary_path = os.path.join(self.output_dir, report_id, f"{report_id}_summary.txt")
+        report_summary_path = os.path.join(self.output_folder, report_id, f"{report_id}_summary.txt")
         with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
             summary_file.write(str(summary))
 
         # Add text to overall csv
-        csv_path = os.path.join(self.output_dir, "summary.csv")
+        csv_path = os.path.join(self.output_folder, "summary.csv")
         with open(csv_path, 'a', encoding='utf-8') as summary_file:
             summary_file.write(str(summary) + "\n")
 
