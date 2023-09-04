@@ -1,6 +1,6 @@
-from Extract_Analyze.OutputFolderReader import OutputFolderReader
-from Extract_Analyze.Summarizer import ReportExtractor
-from OpenAICaller import openAICaller
+from .OutputFolderReader import OutputFolderReader
+from .Summarizer import ReportExtractor
+from ..OpenAICaller import openAICaller
 import pandas as pd
 
 class APICostEstimator:

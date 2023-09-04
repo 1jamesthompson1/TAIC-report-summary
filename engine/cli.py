@@ -1,12 +1,13 @@
-import Gather_Wrangle.PDFDownloader as PDFDownloader
-import Gather_Wrangle.PDFParser as PDFParser
-from Extract_Analyze.Summarizer import ReportSummarizer as Summarizer
-from Extract_Analyze.ThemeGenerator import ThemeGenerator
-from Extract_Analyze.APICostEstimator import APICostEstimator
+from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer
+
+from .Gather_Wrangle import PDFDownloader, PDFParser
+
+from . import Config
+
+
 import os
 import argparse
 import shutil
-import Config
 
 def download_extract(output_dir, download_config):
     # Download the PDFs
@@ -16,13 +17,13 @@ def download_extract(output_dir, download_config):
     PDFParser.convertPDFToText(output_dir)
 
 def generate_themes(output_dir):
-    ThemeGenerator(output_dir).generate_themes()
+    ThemeGenerator.ThemeGenerator(output_dir).generate_themes()
 
 def summarize(output_dir):
-    Summarizer(output_dir).summarize_reports()
+    Summarizer.ReportSummarizer(output_dir).summarize_reports()
 
 def printout_cost_summary(output_dir ,run_type):
-    summary_strs = APICostEstimator(output_dir).get_cost_summary_strings()
+    summary_strs = APICostEstimator.APICostEstimator(output_dir).get_cost_summary_strings()
 
     match run_type:
         case "download":
@@ -35,7 +36,7 @@ def printout_cost_summary(output_dir ,run_type):
             print(summary_strs["all"])
 
 
-def main():
+def cli():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
     parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
@@ -73,4 +74,4 @@ def main():
             generate_themes(output_path)
 
 if __name__ == "__main__":
-    main()
+    cli()
