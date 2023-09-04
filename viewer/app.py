@@ -13,7 +13,7 @@ app_ui = ui.page_fluid(
 
 def server(input, output, session):
     @output
-    @render.table
+    @render.table(render_links = True, escape = False)
     async def reports_table():
         input.showReports()        # Take a dependency on the button
         input.searchQuery()        # Take a dependency on the search query

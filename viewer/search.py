@@ -69,6 +69,9 @@ class Searcher:
             for theme in self.themes:
                 report_row[theme] = round(reportID_summary_row[theme].values[0], 6)
 
+            report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
+            report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
+
             reports.append(report_row)
         
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
