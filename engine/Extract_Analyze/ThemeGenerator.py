@@ -12,7 +12,7 @@ class ThemeGenerator:
         self.report_dir_template = report_dir_template
         self.report_theme_template = report_theme_template
         self.all_themes = ""
-        self.output_folder_reader = OutputFolderReader.OutputFolderReader(self.output_folder)
+        self.output_folder_reader = OutputFolderReader.OutputFolderReader()
 
     def _get_theme_file_path(self, report_id):
         return os.path.join(self.output_folder,

@@ -4,9 +4,8 @@ from ..OpenAICaller import openAICaller
 import pandas as pd
 
 class APICostEstimator:
-    def __init__(self, output_folder) -> None:
-        self.output_folder = output_folder
-        self.output_folder_reader = OutputFolderReader(self.output_folder)
+    def __init__(self) -> None:
+        self.output_folder_reader = OutputFolderReader()
         
         self.important_text_tokens = []
 

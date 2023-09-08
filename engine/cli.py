@@ -34,7 +34,7 @@ def summarize(output_dir):
     Summarizer.ReportSummarizer(output_dir).summarize_reports()
 
 def printout_cost_summary(output_dir ,run_type):
-    summary_strs = APICostEstimator.APICostEstimator(output_dir).get_cost_summary_strings()
+    summary_strs = APICostEstimator.APICostEstimator().get_cost_summary_strings()
 
     match run_type:
         case "download":
