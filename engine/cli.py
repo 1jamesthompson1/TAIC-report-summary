@@ -30,10 +30,10 @@ def generate_themes(output_dir, reports_config):
                                   reports_config.get("folder_name"),
                                   reports_config.get("themes_file_name")).generate_themes()
 
-def summarize(output_dir):
-    Summarizer.ReportSummarizer(output_dir).summarize_reports()
+def summarize(output_config):
+    Summarizer.ReportSummarizer(output_config).summarize_reports()
 
-def printout_cost_summary(output_dir ,run_type):
+def printout_cost_summary(run_type):
     summary_strs = APICostEstimator.APICostEstimator().get_cost_summary_strings()
 
     match run_type:
@@ -70,7 +70,7 @@ def cli():
         os.makedirs(output_path)
 
     if args.calculate_cost:
-        get_cost = printout_cost_summary(output_path, args.run_type)
+        get_cost = printout_cost_summary(args.run_type)
         return
         
     match args.run_type:
@@ -79,11 +79,11 @@ def cli():
         case "themes":
             generate_themes(output_path, engine_settings.get('output').get('reports'))
         case "summarize":
-            summarize(output_path)
+            summarize(engine_settings.get('output'))
         case "all":
             download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
             generate_themes(output_path, engine_settings.get('output').get('reports'))
-            summarize(output_path)
+            summarize(engine_settings.get('output'))
 
 if __name__ == "__main__":
     cli()
