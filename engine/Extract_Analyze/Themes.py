@@ -1,14 +1,16 @@
 import yaml
 import os
-
+from .. import Config
 # Example usage of class
 # theme_reader = ThemeReader()
 # print(theme_reader.get_theme_str())
 # print(theme_reader.get_theme_description_str())
 
 class ThemeFile:
-    def __init__(self, file_path = "output/themes.yaml"):
-        self._file_path = file_path
+    def __init__(self):
+        engine_config = Config.ConfigReader().get_config()['engine']['output']
+
+        self._file_path = os.path.join(engine_config.get("folder_name"), engine_config.get("themes_file_name"))
 
 class ThemeReader(ThemeFile):
     def __init__(self):

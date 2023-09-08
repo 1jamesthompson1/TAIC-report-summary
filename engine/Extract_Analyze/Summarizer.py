@@ -8,14 +8,18 @@ from .Themes import ThemeReader
 from .OutputFolderReader import OutputFolderReader
 
 class ReportSummarizer:
-    def __init__(self, output_folder):
-        self.output_folder = output_folder
+    def __init__(self, output_config):
+        self.output_folder = output_config.get("folder_name")
         self.theme_reader = ThemeReader()
-        self.report_reader = OutputFolderReader(self.output_folder)
+        self.report_reader = OutputFolderReader()
         self.open_ai_caller = openAICaller
 
-        self.cost_summary_path = os.path.join(self.output_folder, "cost.csv")
-        self.overall_summary_path = os.path.join(self.output_folder, "summary.csv")
+
+        self.overall_summary_path = os.path.join(self.output_folder, output_config.get("summary_file_name"))
+
+        self.report_dir = output_config.get("reports").get("folder_name")
+        self.report_summary_file_name = output_config.get("reports").get("summary_file_name")
+
 
     def summarize_reports(self):
         if not os.path.exists(self.output_folder):
@@ -42,16 +46,17 @@ class ReportSummarizer:
             print(f'  Could not summarize {report_id}')
             return
         
-        report_summary_path = os.path.join(self.output_folder, report_id, f"{report_id}_summary.txt")
+        report_summary_path = os.path.join(self.output_folder,
+                                           self.report_dir.replace(r'{{report_id}}', report_id),
+                                           self.report_summary_file_name.replace(r'{{report_id}}', report_id))
         with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
             summary_file.write(str(summary))
 
         # Add text to overall csv
-        csv_path = os.path.join(self.output_folder, "summary.csv")
-        with open(csv_path, 'a', encoding='utf-8') as summary_file:
+        with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
             summary_file.write(str(summary) + "\n")
 
-        print(f'Summarized {report_id} and saved summary to {report_summary_path}, line also added to {csv_path}')
+        print(f'Summarized {report_id} and saved summary to {report_summary_path}, line also added to {self.overall_summary_path}')
     
     def summarize_text(self, report_id, text) -> str:
         # example weightings

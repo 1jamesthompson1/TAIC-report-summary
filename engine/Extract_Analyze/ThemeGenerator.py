@@ -6,11 +6,18 @@ from .Summarizer import ReportExtractor
 from . import Themes
 
 class ThemeGenerator:
-    def __init__(self, output_folder):
+    def __init__(self, output_folder, report_dir_template, report_theme_template):
         self.output_folder = output_folder
         self.open_ai_caller = openAICaller
+        self.report_dir_template = report_dir_template
+        self.report_theme_template = report_theme_template
         self.all_themes = ""
-        self.output_folder_reader = OutputFolderReader.OutputFolderReader(self.output_folder)
+        self.output_folder_reader = OutputFolderReader.OutputFolderReader()
+
+    def _get_theme_file_path(self, report_id):
+        return os.path.join(self.output_folder,
+                            self.report_dir_template.replace(r'{{report_id}}', report_id),
+                            self.report_theme_template.replace(r'{{report_id}}', report_id))
 
     def generate_themes(self):
         print("Generating themes from reports...")
@@ -57,13 +64,13 @@ class ThemeGenerator:
         if report_themes is None:
             return
 
-        with open(os.path.join(self.output_folder, report_id, f"{report_id}_themes.txt"), "w") as f:
+        with open(self._get_theme_file_path(report_id), "w") as f:
             f.write(report_themes)
 
         print(f"Themes for {report_id} generated")
 
     def _read_themes(self, report_id, report_themes):
-        with open(os.path.join(self.output_folder, report_id, f"{report_id}_themes.txt"), "r") as f:
+        with open(self._get_theme_file_path(report_id), "r") as f:
             report_themes = f.read()
 
         self.all_themes += (f"Themes for {report_id}: \n{report_themes}\n")
