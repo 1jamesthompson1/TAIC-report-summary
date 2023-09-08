@@ -2,14 +2,16 @@ from pypdf import PdfReader
 import os
 import re
 
-def convertPDFToText(output_dir, pdf_file_name_template, text_file_name_template):
+from ..Extract_Analyze.OutputFolderReader import OutputFolderReader
+
+def convertPDFToText(output_dir, pdf_file_name_template, text_file_name_template, report_dir_template):
     if not os.path.exists(output_dir):
         print("No reports have been downloaded so far. Please make sure that reports have been downloaded before running this function.")
         return
 
-    for report_id in os.listdir(output_dir):
+    for report_id in OutputFolderReader()._get_report_ids():
         # Go into each folder and find the pdf
-        report_dir = os.path.join(output_dir, report_id)
+        report_dir = os.path.join(output_dir, report_dir_template.replace(r'{{report_id}}', report_id))
         pdf_path = os.path.join(report_dir, pdf_file_name_template.replace(r'{{report_id}}', report_id))
         if os.path.exists(pdf_path):
             text_path = os.path.join(report_dir, text_file_name_template.replace(r'{{report_id}}', report_id))

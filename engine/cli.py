@@ -23,7 +23,8 @@ def download_extract(output_dir, download_config, output_config):
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(output_dir,
                                 reports_config.get('pdf_file_name'),
-                                reports_config.get('text_file_name'))
+                                reports_config.get('text_file_name'),
+                                reports_config.get('folder_name'))
 
 def generate_themes(output_dir, reports_config):
     ThemeGenerator.ThemeGenerator(output_dir,

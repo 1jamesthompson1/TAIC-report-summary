@@ -1,6 +1,6 @@
 import os
 from .. import Config
-
+import regex as re
 
 class OutputFolderReader:
     def __init__(self):
@@ -8,7 +8,17 @@ class OutputFolderReader:
         self.output_folder = self.output_config.get("folder_name")
 
     def _get_report_ids(self):
-        return os.listdir(self.output_folder)
+        directory_names = os.listdir(self.output_folder)
+
+        def extract_report_id(dir_name):
+            if match := re.search(r'\d{4}_\d{3}', dir_name):
+                return match.group()
+            else:
+                return None
+
+        report_ids = map( extract_report_id,directory_names)
+
+        return list(filter( lambda ele: ele != None, report_ids))
     
     def _read_file_from_each_report_dir(self, file_name_template, processing_function):
         report_dir_template = self.output_config.get("reports").get("folder_name")
