@@ -15,13 +15,25 @@ The have been three main tasks completed so far. Framework, basic summarizer and
 
 ## Framework
 
-By framework I am referencing the whole process of downloading, parsing and then looping through all of the reports. But in general the work here can be seen in the [Gather_Wrangle](https://github.com/1jamesthompson1/TAIC-report-summary/tree/76590fc686d17bcf005f579d87f05c911150419b/engine/Gather_Wrangle) module. This module is the simplest of the three modules and is the most complete. Various other scripts/classes have been made to help speak with the openAI api and managing the various input/out files; Config, Themes and OutputFolderReader.
+By framework I am mean the whole process of downloading, parsing and then looping through all of the reports. But in general the work here can be seen in the [Gather_Wrangle](https://github.com/1jamesthompson1/TAIC-report-summary/tree/76590fc686d17bcf005f579d87f05c911150419b/engine/Gather_Wrangle) module. This module is the simplest of the three modules and is the most complete. Various other scripts/classes have been made to help speak with the openAI api and managing the various input/out files; Config, Themes and OutputFolderReader.
 
 ## Basic summarizer
 
+I have made a module  which purpose is read and summarize the reports. It has _ distinct stages
+1. Using regex to find the content section of the report
+2. Using the openAI api top read the content sectin and find the pages for the Analysis and Findings sections.
+3. Using the openAI api to read the Analysis and Findings sections and then provide summary.
+
+The summary of a report is currently only weightings of predefined themes. This means the model is provided with a list of theme titles and descriptions and then will return a percentage for each theme proportional to how important the theme was to the accident.
+
 ## Basic theme generation
 
-# Remaining tasks
+After initially hand writing the themes 
+([#3](https://github.com/1jamesthompson1/TAIC-report-summary/issues/3)) work was done to automate this process ([#14](https://github.com/1jamesthompson1/TAIC-report-summary/issues/14)). Adding in the theme generation is important but also challenging because it adds an entire other dimension to the output of the engine. Meaning that the output is not only a list of weighting for themes but the themes themselves.
+
+Theme generation works by using openAI api to create a summary of the themes present in each report. These summaries for each report are then put together and the openAI api is asked to find 3-6 themes that are present in all of the reports. These themes are then used as the themes for the engine to assign weightings to.
+
+# Remaining tasks / Challenges
 
 There are broadly three remaining tasks. 
 
@@ -29,9 +41,17 @@ There are broadly three remaining tasks.
 
 Firstly is arguably the most important. Reliability of the engine and guaranteeing the output is correct is outside the scope of the project. However making sure that the output is consistent and converges to some values will be quite important. Due to its importance this is the main goal of the second deliverable.
 
+The inconsistency is only present because of the inherent randomness of a gpt 3.5 response.
+
 ### Summarization
 
+As the goal of getting weights for each report is to do after the fact statistic analysis on the generated csv. For that analysis to have any meaning it needs to not differ each time. Fortunately as the output is numeric we can use multiple responses and take the mean of them. This helped with some variability but not enough.
+
+Moving forward I first hope that access to gpt 4 will provide more consistent answers, along with the use of the temperature parameter. If this is not enough then I will need to look into other methods to decrease the variability and create the effect of convergence.
+
 ### Theme generation
+
+The summarization and weight assigning is fully dependent on the theme generation. The theme generation is currently not converging. Each run through of the themes generates difference themes both in quantity and quality. Unlike the weightings numerical techniques cannot be used to get the "mean" response. Instead I will need to look at fine tuning the model parameters as well as moving from a one-shot approach to a few-shot approach. This will allow the model to learn from the themes that have already been generated and hopefully converge to a set of themes.
 
 ## viewer app
 
@@ -49,7 +69,16 @@ The scope of the project remains mostly unchanged. The two changes that have bee
 
 ## Shiny app
 
+In its current state there is no way for a non-technical person to easily appreciate what the engine is actually capable of and the utility it provides. The best way to fix this is by creating an example app that can be used to demonstrate an application of the engine and what it can do. Thus the goal of this app is to make the output of the engine accessible. By allowing you to search and filter the results plus visualize the generated themes and weightings.
+
 ## Engine widening
+
+Each deliverable has had a slight change in what it entails. I now expect that the goals mentioned above regarding convergence/variability and viewer app will take precednet and by the focus of the second deliverable. While the third deliverable will focus on widening the output csv and the viewer app to include more information from the reports.
+
+In theory this process should be relatively straight forward as it will simply involve asking the model to generate more simple answers to question such as "how many fatalities" or "What category of location was the accident in". Then adding these extra features to the viewer app should not be a problem.
+
+Yet rather than define it formally I will let the feedback from investigators using the viewer app to guide what more information they would like.
 
 # Conclusion
 
+As can be seen progress has been made. The engine is in a state where it can be used to generate summaries and themes. Currently consistency and accessibility are the two pain points making them the focus for the 25th of September deliverable. While the final step will be to make it more useful through more variables and a deeper viewer app. 
