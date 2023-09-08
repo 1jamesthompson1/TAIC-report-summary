@@ -25,8 +25,10 @@ def download_extract(output_dir, download_config, output_config):
                                 reports_config.get('pdf_file_name'),
                                 reports_config.get('text_file_name'))
 
-def generate_themes(output_dir):
-    ThemeGenerator.ThemeGenerator(output_dir).generate_themes()
+def generate_themes(output_dir, reports_config):
+    ThemeGenerator.ThemeGenerator(output_dir,
+                                  reports_config.get("folder_name"),
+                                  reports_config.get("themes_file_name")).generate_themes()
 
 def summarize(output_dir):
     Summarizer.ReportSummarizer(output_dir).summarize_reports()
@@ -75,13 +77,13 @@ def cli():
         case "download":
             download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
         case "themes":
-            generate_themes(output_path)
+            generate_themes(output_path, engine_settings.get('output').get('reports'))
         case "summarize":
             summarize(output_path)
         case "all":
-            download_extract(output_path)
+            download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
+            generate_themes(output_path, engine_settings.get('output').get('reports'))
             summarize(output_path)
-            generate_themes(output_path)
 
 if __name__ == "__main__":
     cli()

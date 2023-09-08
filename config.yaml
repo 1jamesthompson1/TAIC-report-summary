@@ -5,6 +5,7 @@ engine:
     start_year: 2010
   output:
     folder_name: "output"
+    themes_file_name: "themes.yaml"
     reports:
     # Report ID is the only available variable.
       folder_name: "{{report_id}}"
