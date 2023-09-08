@@ -9,9 +9,16 @@ import os
 import argparse
 import shutil
 
-def download_extract(output_dir, download_config):
+def download_extract(output_dir, download_config, output_config):
+    reports_config = output_config.get('reports')
+
     # Download the PDFs
-    PDFDownloader.downloadPDFs(output_dir, download_config.get('start_year'), download_config.get('end_year'), download_config.get('max_per_year'))
+    PDFDownloader.downloadPDFs( output_dir,
+                                reports_config.get('folder_name'),
+                                reports_config.get('pdf_file_name'),
+                                download_config.get('start_year'),
+                                download_config.get('end_year'),
+                                download_config.get('max_per_year'))
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(output_dir)
@@ -43,9 +50,13 @@ def cli():
     parser.add_argument("-t", "--run_type", choices=["download", "themes", "summarize", "all"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions.")
 
     args = parser.parse_args()
+
+        # Get the config settings for the engine.
+    engine_settings = Config.configReader.get_config()['engine']
    
     # Set working directory to output folder
-    output_path = "output"
+    output_path = engine_settings.get('output').get("folder_name")
+
     if not os.path.exists(output_path):
         # Create the directory
         os.makedirs(output_path)
@@ -54,16 +65,13 @@ def cli():
         shutil.rmtree(output_path, ignore_errors=True)
         os.makedirs(output_path)
 
-    # Get the config settings for the engine.
-    engine_settings = Config.configReader.get_config()['engine']
-
     if args.calculate_cost:
         get_cost = printout_cost_summary(output_path, args.run_type)
         return
         
     match args.run_type:
         case "download":
-            download_extract(output_path, engine_settings.get('download'))
+            download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
         case "themes":
             generate_themes(output_path)
         case "summarize":

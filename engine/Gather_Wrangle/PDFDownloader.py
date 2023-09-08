@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-def downloadPDFs(output_dir, start_year, end_year, max_per_year):
+def downloadPDFs(output_dir, report_dir_template, file_name_template, start_year, end_year, max_per_year):
     # Define the base URL and the range of years to scrape
     base_url = "https://www.taic.org.nz/inquiry/mo-{}-{}"
     year_range = [(year, i) for year in range(start_year, end_year) for i in range(200, 200+max_per_year)]
@@ -18,12 +18,14 @@ def downloadPDFs(output_dir, start_year, end_year, max_per_year):
         soup = BeautifulSoup(response.content, "html.parser")
         pdf_links = [a["href"] for a in soup.find_all("a", href=True) if a["href"].endswith(".pdf")]
         for link in pdf_links:
-            report_dir = os.path.join(output_dir, f"{year}_{i}")
+            report_id = f"{year}_{i}"
+
+            report_dir = os.path.join(output_dir, report_dir_template.replace(r"{{report_id}}", report_id))
             
             if not os.path.exists(report_dir):
                 os.mkdir(report_dir)
 
-            file_name = os.path.join(report_dir, f"{year}_{i}.pdf")
+            file_name = os.path.join(report_dir, file_name_template.replace(r"{{report_id}}", report_id))
             if not os.path.exists(file_name):
                 with open(file_name, "wb") as f:
                     f.write(requests.get(link, allow_redirects=True).content)                
