@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import engine.Config as Config
 import engine.Extract_Analyze.Themes as Themes
 
 class Search:
@@ -22,27 +23,34 @@ class SearchResult:
 
 class Searcher:
     def __init__(self):
-        self.input_dir = "output"
+        self.output_config = Config.configReader.get_config()['engine']['output']
+        self.input_dir = self.output_config.get("folder_name")
         self.themes = Themes.ThemeReader().get_theme_titles()
-        self.summary = pd.read_csv(os.path.join(self.input_dir, "summary.csv"))
+        self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
     def search(self, query: str) -> pd.DataFrame:
         reports = []
 
+        # Check to make sure that the directory of each report is just going to be the report id
+
+        if (self.output_config.get("reports").get("folder_name") != r"{{report_id}}"):
+            print("The output folder for reports is not just the report id. This is not supported by the search function.")
+            quit()
+            
         for dir in os.listdir(self.input_dir):
             report_dir = os.path.join(self.input_dir, dir)
             if not os.path.isdir(report_dir):
                 continue
             number_of_files = len(os.listdir(report_dir))
 
-            theme_summary_path = os.path.join(report_dir, f"{dir}_themes.txt")
+            theme_summary_path = os.path.join(report_dir, self.output_config.get("reports").get("themes_file_name").replace(r'{{report_id}}', dir))
             if os.path.exists(theme_summary_path):
                 with open(theme_summary_path, "r",  encoding='utf-8', errors='replace') as f:
                     theme_summary = f.read()
             else:
                 theme_summary = "Not found"
 
-            report_text_path = os.path.join(report_dir, f"{dir}.txt")
+            report_text_path = os.path.join(report_dir, self.output_config.get("reports").get("text_file_name").replace(r'{{report_id}}', dir))
             if os.path.exists(report_text_path):
                 with open(report_text_path, "r",  encoding='utf-8', errors='replace') as f:
                     report_text = f.read()
