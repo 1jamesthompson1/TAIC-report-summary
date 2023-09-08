@@ -3,3 +3,13 @@ engine:
     end_year: 2023
     max_per_year: 10
     start_year: 2010
+  output:
+    folder_name: "output"
+    reports:
+    # Report ID is the only available variable.
+      folder_name: "{{report_id}}"
+      text_file_name: "{{report_id}}.txt"
+      pdf_file_name: "{{report_id}}.pdf"
+      themes_file_name: "{{report_id}}_themes.txt"
+
+
