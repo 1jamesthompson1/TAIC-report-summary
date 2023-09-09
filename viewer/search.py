@@ -15,9 +15,10 @@ class Search:
         return self.query
 
 class SearchResult:
-    def __init__(self, report_matches: int, theme_matches: int):
+    def __init__(self, report_matches: int, theme_matches: int, theme_text_matches: str):
         self.report_matches = report_matches
         self.theme_matches = theme_matches
+        self.theme_text_matches = theme_text_matches
 
     def include(self):
         return self.matches() > 0
@@ -67,7 +68,7 @@ class Searcher:
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.matches(),
-                "ThemeSummary": theme_summary,
+                "ThemeSummary": search_result.theme_text_matches,
             }
 
             reportID_summary_row = self.summary.loc[self.summary["ReportID"] == dir]
@@ -96,18 +97,22 @@ class Searcher:
             map(lambda x: x.lower().replace("_", " "), synonyms)
         )
 
-        pattern = '|'.join(['(' + syn + ')' for syn in synonyms])
+        pattern = '(' + '|'.join(['(' + syn + ')' for syn in synonyms]) + ')'
 
         regex = re.compile(pattern)
-
-        print(pattern)
 
         report_result = regex.findall(report_text.lower())
         theme_result = regex.findall(theme_text.lower())
 
+        # highlight the theme_matches
+        theme_text_highlighted = regex.sub(r'<span style="background-color: #FFFF00">\1</span>', theme_text.lower())
+
+        print(len(theme_result))
+
         return SearchResult(
             report_matches = len(report_result),
-            theme_matches = len(theme_result)
+            theme_matches = len(theme_result),
+            theme_text_matches = theme_text_highlighted
         )
     
 
