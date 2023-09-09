@@ -1,7 +1,11 @@
 import pandas as pd
 import os
+import re
+from nltk.corpus import wordnet
+
 import engine.Config as Config
 import engine.Extract_Analyze.Themes as Themes
+from engine.Extract_Analyze.OutputFolderReader import OutputFolderReader
 
 class Search:
     def __init__(self, query: str):
@@ -31,17 +35,13 @@ class Searcher:
     def search(self, query: str) -> pd.DataFrame:
         reports = []
 
-        # Check to make sure that the directory of each report is just going to be the report id
-
-        if (self.output_config.get("reports").get("folder_name") != r"{{report_id}}"):
-            print("The output folder for reports is not just the report id. This is not supported by the search function.")
-            quit()
+        if query == "":
+            return pd.DataFrame(reports)
             
-        for dir in os.listdir(self.input_dir):
-            report_dir = os.path.join(self.input_dir, dir)
+        for dir in OutputFolderReader()._get_report_ids():
+            report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir))
             if not os.path.isdir(report_dir):
                 continue
-            number_of_files = len(os.listdir(report_dir))
 
             theme_summary_path = os.path.join(report_dir, self.output_config.get("reports").get("themes_file_name").replace(r'{{report_id}}', dir))
             if os.path.exists(theme_summary_path):
@@ -64,7 +64,6 @@ class Searcher:
             if not search_result.include():
                 continue
 
-            
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.matches(),
@@ -85,9 +84,30 @@ class Searcher:
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
     
     def search_report(self, report_text: str, theme_text: str, search: Search) -> SearchResult:
+
+        synonyms = [search.getQuery().lower()]
+
+        for syn in wordnet.synsets(search.getQuery().lower()):
+            for i in syn.lemmas():
+                synonyms.append(i.name())
+
+        
+        synonyms = set(
+            map(lambda x: x.lower().replace("_", " "), synonyms)
+        )
+
+        pattern = '|'.join(['(' + syn + ')' for syn in synonyms])
+
+        regex = re.compile(pattern)
+
+        print(pattern)
+
+        report_result = regex.findall(report_text.lower())
+        theme_result = regex.findall(theme_text.lower())
+
         return SearchResult(
-            report_matches = report_text.count(search.getQuery()),
-            theme_matches = theme_text.count(search.getQuery())
+            report_matches = len(report_result),
+            theme_matches = len(theme_result)
         )
     
 

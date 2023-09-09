@@ -9,7 +9,7 @@ engine:
     summary_file_name: "summary.csv"
     reports:
     # Report ID is the only available variable.
-      folder_name: "{{report_id}}"
+      folder_name: "{{report_id}}" # This folder name should always have the report_id variable.
       text_file_name: "{{report_id}}.txt"
       pdf_file_name: "{{report_id}}.pdf"
       themes_file_name: "{{report_id}}_themes.txt"
