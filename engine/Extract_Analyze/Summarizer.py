@@ -27,7 +27,7 @@ class ReportSummarizer:
             return
         
         with open(self.overall_summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write("ReportID," + self.theme_reader.get_theme_str() + "\n")
+            summary_file.write("ReportID," "PagesRead," + self.theme_reader.get_theme_str() + "\n")
 
         self.report_reader.process_reports(self.summarize_report)      
 
@@ -36,12 +36,12 @@ class ReportSummarizer:
 
 
         # Get the pages that should be read
-        text_to_be_summarized = ReportExtractor(report_text, report_id).extract_important_text()
+        text_to_be_summarized, pages_read = ReportExtractor(report_text, report_id).extract_important_text()
         if text_to_be_summarized == None:
             print(f'Could not extract text to be summarized from {report_id}')
             return
-        
-        summary = self.summarize_text(report_id, text_to_be_summarized)
+        summary = ",,,,,,,"
+        # summary = self.summarize_text(report_id, text_to_be_summarized)
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             return
@@ -49,12 +49,14 @@ class ReportSummarizer:
         report_summary_path = os.path.join(self.output_folder,
                                            self.report_dir.replace(r'{{report_id}}', report_id),
                                            self.report_summary_file_name.replace(r'{{report_id}}', report_id))
+        summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + summary + "\n"
+
         with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write(str(summary))
+            summary_file.write(summary_str)
 
         # Add text to overall csv
         with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
-            summary_file.write(str(summary) + "\n")
+            summary_file.write(summary_str)
 
         print(f'Summarized {report_id} and saved summary to {report_summary_path}, line also added to {self.overall_summary_path}')
     
@@ -110,7 +112,7 @@ class ReportSummarizer:
             except ValueError:
                 print(f"  Incorrect repsonse from model retrying. \n  Response was: '{responses}'")
         
-        return report_id + "," + weighting_str
+        return weighting_str
     
 
 
@@ -120,12 +122,12 @@ class ReportExtractor:
         self.report_text = report_text
         self.report_id = report_id
 
-    def extract_important_text(self) -> str:
+    def extract_important_text(self) -> (str, list):
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections == None:
             print(f'  Could not find contents section in {self.report_id}')
-            return
+            return None, None
         
         pages_to_read = self.extract_pages_to_read(contents_sections)
 
@@ -139,7 +141,7 @@ class ReportExtractor:
                 continue
             text += extracted_text
 
-        return text
+        return text, pages_to_read
 
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
@@ -183,15 +185,18 @@ class ReportExtractor:
 
         while True: # Repeat until the LLMs gives a valid response
             try: 
-                pagesToRead = openAICaller.query(
+                # Get 5 responses and only includes pages that are in atleast 3 of the responses
+                model_response = openAICaller.query(
                         "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'",
                         content_section,
-                        temp = 1)
-                pagesToRead_array = [int(num) for num in pagesToRead.split(",")]
+                        temp = 0)
+
+                pages_to_read = [int(num) for num in model_response.split(",")]
+
                 # Make the array every page between first and last
-                pagesToRead_array = list(range(pagesToRead_array[0], pagesToRead_array[-1] + 1))
+                pages_to_read = list(range(pages_to_read[0], pages_to_read[-1] + 1))
                 break
             except ValueError:
-                print(f"  Incorrect repsonse from model retrying. \n  Response was: '{pagesToRead}'")
+                print(f"  Incorrect response from model retrying. \n  Response was: '{model_response}'")
 
-        return pagesToRead_array
+        return pages_to_read
