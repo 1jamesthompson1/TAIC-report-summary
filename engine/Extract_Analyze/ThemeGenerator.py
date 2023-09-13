@@ -34,12 +34,14 @@ class ThemeGenerator:
             "Here is a list of themes received from a collection of marine accident investigation reports.\n\nThese were retrieved by reading each report and listing 3-6 causes from each report.\n\nPlease read and figure out what are the most common and important causes.\n\nEach cause should have a title and description.\n\nThere can be 5-10 main causes."
             ,
             self.all_themes,
-            large_model=True
+            large_model=True,
+            temp = 0
         )
 
         formated_themes = self.open_ai_caller.query(
             "I will give you descriptions of themes and I want to you format them into yaml.\n\nJust output the yaml structure with no extra text.\n\nThe yaml layout should follow the structure seen below where the title and description is replaced. With as many theme elements as needed.\n\nthemes:\n   - title:  theme name one\n    description: \"Description of the first theme\"\n\n  - title:  theme name two\n    description: \"Description of the second theme\"\n\n  - title:  theme name three\n    description: \"Description of the third theme\"\n\n  - title:  theme name four\n    description: \"Description of the fourth theme\"\n\n  - title:  theme name five\n    description: \"Description of the fifth theme\"\n\n  - title:  theme name six\n    description: \"Description of the sixth theme\"\n ",
-            summarised_themes)
+            summarised_themes,
+            temp = 0)
         
         Themes.ThemeWriter().write_themes(formated_themes)
 
@@ -58,7 +60,8 @@ class ThemeGenerator:
         report_themes = self.open_ai_caller.query(
             "I want to learn the causes of accidents across a collection of 50 or so accident investigation reports.\n\nTo help I would to know the causes and themes of this accident. Please give me 3- 6\n\nYour output should have a short paragraph (<50 words) per cause with an empty line separating each cause.\n",
             important_text,
-            large_model=True
+            large_model=True,
+            temp = 0
         )
 
         if report_themes is None:
