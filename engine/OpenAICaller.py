@@ -20,9 +20,10 @@ class OpenAICaller:
         # Set up the OpenAI API credentials and other configuration options
         pass
 
-    def query(self, system, user, temp = 1, large_model = False, n = 1):
+    def query(self, system, user, temp = 1, large_model = False, n = 1, gpt4 = False):
 
         model= self.model_large if large_model else self.model
+        model = "gpt-4" if gpt4 else model
 
         # Check to make sure there arent too many tokens
         total_length = sum(self.get_tokens(model, [system, user]))+1

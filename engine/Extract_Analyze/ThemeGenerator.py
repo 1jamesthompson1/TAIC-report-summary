@@ -22,7 +22,7 @@ class ThemeGenerator:
     def generate_themes(self):
         print("Generating themes from reports...")
 
-        self.output_folder_reader.process_reports(self._get_theme)
+        # self.output_folder_reader.process_reports(self._get_theme)
 
         print("Themes generated from reports")
 
@@ -33,24 +33,41 @@ class ThemeGenerator:
         with open(os.path.join(self.output_folder, "all_themes.txt"), "w") as f:
             f.write(self.all_themes)
             
-
-        summarised_themes = self.open_ai_caller.query(
-            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI will give you 3-6 themes/causes summaries for each report. \n\nPlease read all of the summaries and provide no more than 10 themes/causes that best cover all of the individual themes present.\n\nYour output should have a title and description paragraph (<= 50 words) for each general theme/cause discovered.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible."
+        print("Summarizing themes...")
+        summarized_themes = self.open_ai_caller.query(
+            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI will give you 3-6 themes/causes summaries for each report. \n\nPlease read all of the summaries and provide 5-10 themes/causes that best cover all of the individual themes present.\n\nYour output should have a title and description paragraph (<= 50 words) for each general theme/cause discovered.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible."
             ,
             self.all_themes,
             large_model=True,
-            temp = 0
+            temp = 0,
+            n=4
         )
 
-        with open(os.path.join(self.output_folder, "summarised_themes.txt"), "w") as f:
-            f.write(summarised_themes)
+        summarized_themes_str = ""
+        for i, theme in enumerate(summarized_themes, start = 1):
+                summarized_themes_str += (f"Summary {i} of all the themes\n{theme}\n\n")
 
-        formated_themes = self.open_ai_caller.query(
+        with open(os.path.join(self.output_folder, "summarized_themes.txt"), "w") as f:
+            f.write(summarized_themes_str)
+
+        print("  Getting average summary...")
+
+        average_summary = self.open_ai_caller.query(
+            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI have three summaries of all of the themes.\n\nI wanted you to take the average of all of the summaries.\n\nYour output should have a title and description of each theme/cause.\n\nNote that I want this to be reproducible and deterministic as possible.",
+            summarized_themes_str,
+            gpt4 = True,
+            temp = 0,
+        )
+
+        with open(os.path.join(self.output_folder, "average_summary.txt"), "w") as f:
+            f.write(average_summary)
+
+        formatted_themes = self.open_ai_caller.query(
             "I will give you descriptions of themes and I want to you format them into yaml.\n\nJust output the yaml structure with no extra text.\n\nThe yaml layout should follow the structure seen below where the title and description is replaced. With as many theme elements as needed.\n\nthemes:\n   - title:  theme name one\n    description: \"Description of the first theme\"\n\n  - title:  theme name two\n    description: \"Description of the second theme\"\n\n  - title:  theme name three\n    description: \"Description of the third theme\"\n\n  - title:  theme name four\n    description: \"Description of the fourth theme\"\n\n  - title:  theme name five\n    description: \"Description of the fifth theme\"\n\n  - title:  theme name six\n    description: \"Description of the sixth theme\"\n ",
-            summarised_themes,
+            average_summary,
             temp = 0)
         
-        Themes.ThemeWriter().write_themes(formated_themes)
+        Themes.ThemeWriter().write_themes(formatted_themes)
 
         print("Themes summaried and written to file")        
 
