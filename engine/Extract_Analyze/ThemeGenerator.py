@@ -30,16 +30,20 @@ class ThemeGenerator:
         self.output_folder_reader.read_all_themes(self._read_themes)
         print("All themes read")
 
-        with open(os.path.join(self.output_folder, "themes.txt"), "w") as f:
+        with open(os.path.join(self.output_folder, "all_themes.txt"), "w") as f:
             f.write(self.all_themes)
+            
 
         summarised_themes = self.open_ai_caller.query(
-            "Here is a list of themes received from a collection of marine accident investigation reports.\n\nThese were retrieved by reading each report and listing 3-6 causes from each report.\n\nPlease read and figure out what are the most common and important causes.\n\nEach cause should have a title and description.\n\nThere can be 5-10 main causes."
+            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI will give you 3-6 themes/causes summaries for each report. \n\nPlease read all of the summaries and provide no more than 10 themes/causes that best cover all of the individual themes present.\n\nYour output should have a title and description paragraph (<= 50 words) for each general theme/cause discovered.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible."
             ,
             self.all_themes,
             large_model=True,
             temp = 0
         )
+
+        with open(os.path.join(self.output_folder, "summarised_themes.txt"), "w") as f:
+            f.write(summarised_themes)
 
         formated_themes = self.open_ai_caller.query(
             "I will give you descriptions of themes and I want to you format them into yaml.\n\nJust output the yaml structure with no extra text.\n\nThe yaml layout should follow the structure seen below where the title and description is replaced. With as many theme elements as needed.\n\nthemes:\n   - title:  theme name one\n    description: \"Description of the first theme\"\n\n  - title:  theme name two\n    description: \"Description of the second theme\"\n\n  - title:  theme name three\n    description: \"Description of the third theme\"\n\n  - title:  theme name four\n    description: \"Description of the fourth theme\"\n\n  - title:  theme name five\n    description: \"Description of the fifth theme\"\n\n  - title:  theme name six\n    description: \"Description of the sixth theme\"\n ",
@@ -61,7 +65,7 @@ class ThemeGenerator:
             return
 
         report_themes = self.open_ai_caller.query(
-            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nFor this, I need your help by reading this report and telling me the 3-6 themes/causes that are present in the report.\n\nYour response should have a short paragraph (<= 50 words) for each theme/cause. With an empty line in between each paragraph.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible.",
+            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nFor this, I need your help by reading this report and telling me the 3-6 themes/causes that are present in the report.\n\nYour response should have a short paragraph (<= 30 words) for each theme/cause. With an empty line in between each paragraph.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible.",
             important_text,
             large_model=True,
             temp = 0
