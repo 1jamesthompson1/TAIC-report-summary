@@ -22,16 +22,13 @@ class ThemeGenerator:
     def generate_themes(self):
         print("Generating themes from reports...")
 
-        # self.output_folder_reader.process_reports(self._get_theme)
+        self.output_folder_reader.process_reports(self._get_theme)
 
         print("Themes generated from reports")
 
         print("Reading all themes and summarizing...")
         self.output_folder_reader.read_all_themes(self._read_themes)
         print("All themes read")
-
-        with open(os.path.join(self.output_folder, "all_themes.txt"), "w") as f:
-            f.write(self.all_themes)
             
         print("Summarizing themes...")
         summarized_themes = self.open_ai_caller.query(
@@ -47,9 +44,6 @@ class ThemeGenerator:
         for i, theme in enumerate(summarized_themes, start = 1):
                 summarized_themes_str += (f"Summary {i} of all the themes\n{theme}\n\n")
 
-        with open(os.path.join(self.output_folder, "summarized_themes.txt"), "w") as f:
-            f.write(summarized_themes_str)
-
         print("  Getting average summary...")
 
         average_summary = self.open_ai_caller.query(
@@ -58,9 +52,6 @@ class ThemeGenerator:
             gpt4 = True,
             temp = 0,
         )
-
-        with open(os.path.join(self.output_folder, "average_summary.txt"), "w") as f:
-            f.write(average_summary)
 
         formatted_themes = self.open_ai_caller.query(
             "I will give you descriptions of themes and I want to you format them into yaml.\n\nJust output the yaml structure with no extra text.\n\nThe yaml layout should follow the structure seen below where the title and description is replaced. With as many theme elements as needed.\n\nthemes:\n   - title:  theme name one\n    description: \"Description of the first theme\"\n\n  - title:  theme name two\n    description: \"Description of the second theme\"\n\n  - title:  theme name three\n    description: \"Description of the third theme\"\n\n  - title:  theme name four\n    description: \"Description of the fourth theme\"\n\n  - title:  theme name five\n    description: \"Description of the fifth theme\"\n\n  - title:  theme name six\n    description: \"Description of the sixth theme\"\n ",
