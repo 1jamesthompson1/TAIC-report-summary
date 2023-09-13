@@ -40,8 +40,8 @@ class ReportSummarizer:
         if text_to_be_summarized == None:
             print(f'Could not extract text to be summarized from {report_id}')
             return
-        summary = ",,,,,,,"
-        # summary = self.summarize_text(report_id, text_to_be_summarized)
+        
+        summary = self.summarize_text(report_id, text_to_be_summarized)
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             return
@@ -110,7 +110,7 @@ class ReportSummarizer:
                 break
 
             except ValueError:
-                print(f"  Incorrect repsonse from model retrying. \n  Response was: '{responses}'")
+                print(f"  Incorrect response from model retrying. \n  Response was: '{responses}'")
         
         return weighting_str
     
@@ -130,6 +130,10 @@ class ReportExtractor:
             return None, None
         
         pages_to_read = self.extract_pages_to_read(contents_sections)
+
+        if pages_to_read == None:
+            print(f'  Could not find the findings or analysis section for {self.report_id}')
+            return None, None
 
         # Retrieve that actual text for the page numbers.
         print(f"  I am going to be reading these pages: {pages_to_read}")     
@@ -187,9 +191,12 @@ class ReportExtractor:
             try: 
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = openAICaller.query(
-                        "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'",
+                        "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'",
                         content_section,
                         temp = 0)
+                
+                if model_response == "None":
+                    return None
 
                 pages_to_read = [int(num) for num in model_response.split(",")]
 

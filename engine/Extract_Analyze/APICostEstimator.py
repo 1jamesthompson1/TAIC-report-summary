@@ -41,7 +41,7 @@ class APICostEstimator:
         return {"summarize": summarize_str, "themes": theme_str, "all": f"The total cost of a complete run through is ${round(themes_total+summarize_cost,number_of_digits )} for {len(df)} reports. Below are summaries for each section\n\n" + summarize_str + "\n\n" + theme_str}
 
     def _process_report(self, report_id, report_text):
-        important_text = ReportExtractor(report_text, report_id).extract_important_text()
+        important_text = ReportExtractor(report_text, report_id).extract_important_text()[0]
 
         if important_text is None:
             return

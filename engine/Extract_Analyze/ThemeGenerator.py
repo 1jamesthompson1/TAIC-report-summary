@@ -50,7 +50,7 @@ class ThemeGenerator:
 
         print(f"Generating themes for report {report_id}")
 
-        important_text = ReportExtractor(report_text, report_id).extract_important_text()
+        important_text = ReportExtractor(report_text, report_id).extract_important_text()[0]
 
         if important_text is None:
             return
