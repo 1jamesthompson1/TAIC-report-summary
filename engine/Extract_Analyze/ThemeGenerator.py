@@ -30,6 +30,9 @@ class ThemeGenerator:
         self.output_folder_reader.read_all_themes(self._read_themes)
         print("All themes read")
 
+        with open(os.path.join(self.output_folder, "themes.txt"), "w") as f:
+            f.write(self.all_themes)
+
         summarised_themes = self.open_ai_caller.query(
             "Here is a list of themes received from a collection of marine accident investigation reports.\n\nThese were retrieved by reading each report and listing 3-6 causes from each report.\n\nPlease read and figure out what are the most common and important causes.\n\nEach cause should have a title and description.\n\nThere can be 5-10 main causes."
             ,
@@ -58,7 +61,7 @@ class ThemeGenerator:
             return
 
         report_themes = self.open_ai_caller.query(
-            "I want to learn the causes of accidents across a collection of 50 or so accident investigation reports.\n\nTo help I would to know the causes and themes of this accident. Please give me 3- 6\n\nYour output should have a short paragraph (<50 words) per cause with an empty line separating each cause.\n",
+            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nFor this, I need your help by reading this report and telling me the 3-6 themes/causes that are present in the report.\n\nYour response should have a short paragraph (<= 50 words) for each theme/cause. With an empty line in between each paragraph.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible.",
             important_text,
             large_model=True,
             temp = 0
