@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TAIC Report Viewer</title>
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Include your custom JavaScript code -->
+    <script>
+        $(document).ready(function() {
+            $('form').submit(function(event) {
+                event.preventDefault();  // Prevent the default form submission
+                
+                // Show the loading sign with animation
+                $('#loading').show();
+                
+                $.post('/search', $('form').serialize(), function(data) {
+                    // Update the results placeholder with the received HTML table
+                    updateResults(data.html_table);
+                    
+                    // Hide the loading sign after results are loaded
+                    $('#loading').hide();
+                });
+            });
+        });
+        
+        function updateResults(htmlTable) {
+            document.getElementById('searchResults').innerHTML = htmlTable;
+        }
+    </script>
+    
+    <!-- CSS for styling the loading sign and animation -->
+    <style>
+        #loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            color: #333;
+            animation: spin 2s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>TAIC Report Viewer</h1>
+    <form method="post" action="/search">
+        <label for="searchQuery">Search Query:</label>
+        <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter search query">
+        <input type="submit" value="Show Reports">
+    </form>
+
+    <!-- Loading sign with spinning animation -->
+    <div id="loading"><br><br>Loading...</div>
+
+    <!-- Placeholder for displaying search results -->
+    <div id="searchResults"></div>
+
+    <!-- Include JavaScript to update the results -->
+    <script>
+        function updateResults(htmlTable) {
+            document.getElementById('searchResults').innerHTML = htmlTable;
+        }
+    </script>
+</body>
+</html>

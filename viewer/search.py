@@ -107,8 +107,6 @@ class Searcher:
         # highlight the theme_matches
         theme_text_highlighted = regex.sub(r'<span style="background-color: #FFFF00">\1</span>', theme_text.lower())
 
-        print(len(theme_result))
-
         return SearchResult(
             report_matches = len(report_result),
             theme_matches = len(theme_result),

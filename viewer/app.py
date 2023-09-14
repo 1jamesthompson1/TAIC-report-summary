@@ -1,28 +1,23 @@
-from shiny import App, render, ui, reactive
-import pandas as pd
+from flask import Flask, render_template, request, jsonify
 
-import search
+import search  # Assuming this is your custom module for searching
 
-app_ui = ui.page_fluid(
-    ui.h1("TAIC Legacy Report Viewer"),
-    ui.input_text("searchQuery", "Search Query", placeholder="Enter search query"),
-    ui.input_action_button("showReports", "Show Reports"),
-    ui.output_table("reports_table"),
-)
+app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-def server(input, output, session):
-    @output
-    @render.table(render_links = True, escape = False)
-    async def reports_table():
-        input.showReports()        # Take a dependency on the button
-        input.searchQuery()        # Take a dependency on the search query
-        
-        searcher = search.Searcher()
+@app.route('/search', methods=['POST'])
+def search_reports():
+    search_query = request.form.get('searchQuery')
+    
+    searcher = search.Searcher()
+    results = searcher.search(search_query)
 
+    html_table = results.to_html(classes='table table-bordered table-hover', index=False, escape=False)
+    
+    return jsonify({'html_table': html_table})
 
-        with reactive.isolate():
-            return searcher.search(input.searchQuery())
-
-
-app = App(app_ui, server)
+if __name__ == '__main__':
+    app.run(debug=True)
