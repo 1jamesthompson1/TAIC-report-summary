@@ -15,6 +15,9 @@ def search_reports():
     searcher = search.Searcher()
     results = searcher.search(search_query)
 
+    if results is None:
+        return jsonify({'html_table': "<p class='text-center'>No results found</p>"})
+
     html_table = results.to_html(classes='table table-bordered table-hover', index=False, escape=False)
     
     return jsonify({'html_table': html_table})

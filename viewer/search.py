@@ -29,7 +29,7 @@ class SearchResult:
 class Searcher:
     def __init__(self):
         self.output_config = Config.configReader.get_config()['engine']['output']
-        self.input_dir = self.output_config.get("folder_name")
+        self.input_dir = os.path.join("viewer", self.output_config.get("folder_name"))
         self.themes = Themes.ThemeReader().get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
@@ -37,9 +37,9 @@ class Searcher:
         reports = []
 
         if query == "":
-            return pd.DataFrame(reports)
+            return None
             
-        for dir in OutputFolderReader()._get_report_ids():
+        for dir in OutputFolderReader(self.input_dir)._get_report_ids():
             report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir))
             if not os.path.isdir(report_dir):
                 continue
@@ -81,6 +81,9 @@ class Searcher:
             report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
 
             reports.append(report_row)
+
+        if len(reports) == 0:
+            return None
         
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
     

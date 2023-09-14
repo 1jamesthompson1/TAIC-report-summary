@@ -1,38 +1,15 @@
-name: Deploy to shinyapps.io
-
+name: Basic deploy
 on:
-  pull_request:
-    types: [opened, edited]
-
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  deploy:
+  EC2-Deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - id: deploy
+        uses: bitovi/github-actions-deploy-docker-to-ec2@v0.5.0
         with:
-          python-version: 3.x  # Choose the Python version you need
-
-      - name: Install rsconnect-python
-        run: pip install rsconnect-python
-
-      - name: Authorize Shinyapps.io Account
-        run: |
-          rsconnect add \
-            --account jamesthompson \
-            --name jamesthompson \
-            --token 28E6310E114B85B950CB9F023A50FA3C \
-            --secret ${{ secrets.RSCONNECT_SECRET }}
-
-      - name: Deploy Shiny App
-        run: |
-          rsconnect deploy shiny viewer --name jamesthompson --title TAIC-Viewer
-          rsconnect deploy shiny output --name jamesthompson --title TAIC-Viewer/resources
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_default_region: ${{ secrets.AWS_DEFAULT_REGION }}
