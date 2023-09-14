@@ -31,7 +31,7 @@ class ReportSummarizer:
         
         # Prepare system prompt
         number_of_themes = self.theme_reader.get_num_themes()
-        self.system_prompt = f"Please read this report and determine what themes had the most contribution. Your response should be {number_of_themes} numbers that add up to 100. For example: {ReportSummarizer.get_example_weightings(number_of_themes)}\n\nHere is a summary of the {number_of_themes} themes:\n{self.theme_reader.get_theme_description_str()}\n\n---\nNote that I want this to be repeatable and deterministic as possible."
+        self.system_prompt = f"Please read this report and determine what themes had the most contribution. Can you please provide a paragraph for each theme with how much you think it contributed to the accident? You should provide percentages for each of the {number_of_themes} themes, with all the percentages adding up to 100.\n\nHere is a summary of the {number_of_themes} themes:\n{self.theme_reader.get_theme_description_str()}\n\n---\nNote that I want this to be repeatable and deterministic as possible."
         
 
         print("Summarizing reports...")
@@ -69,8 +69,13 @@ class ReportSummarizer:
         print(f'Summarized {report_id} and saved summary to {report_summary_path}, line also added to {self.overall_summary_path}')
     
     def summarize_text(self, report_id, text) -> str:
+        examples = self.get_example_weightings()
+        max_attempts = 5
         while True:
-            numberOfResponses = 5
+            max_attempts -= 1
+            if max_attempts == 0:
+                return None
+            numberOfResponses = 1
             responses = openAICaller.query(
                 self.system_prompt,
                 text,
@@ -82,22 +87,19 @@ class ReportSummarizer:
                 return None
             
             # Convert the responses into a list of lists
-            try: 
-                weightings = [[int(num) for num in response.split(",")] for response in responses]
-            except ValueError:
-                print(f"  Incorrect response from model retrying. \n  Response was: '{responses}'")
+            if numberOfResponses == 1:
+                responses = [responses]
+
+            weightings = [self.convert_response_to_list(response, examples) for response in responses]
 
             # Convert to a pandas dataframe
             weightings = pd.DataFrame(weightings)
 
-            # Check that each row of weightings adds up to 100
-            if not weightings.sum(axis=1).eq(100).all():
-                print("  The numbers you provided do not add up to 100. Please try again.")
-                continue
-
+            # Remove all rows that dont add up to 100
+            weightings = weightings[weightings.sum(axis=1).eq(100)]
             # Get an average of all of the rows
-
             weighting_average = list(weightings.mean(axis=0))
+
             # Scale the average to add up to 100
             weighting_average = [weight * 100 / sum(weighting_average) for weight in weighting_average]
 
@@ -107,6 +109,10 @@ class ReportSummarizer:
 
             # Calculate the standard deviation of the weightings
             weighting_std = list(weightings.std(axis=0))
+
+            if weightings.shape[0] < numberOfResponses-2:
+                print(f"  Did not get enough valid responses. Retrying. \n  Responses were: {responses}")
+                continue
             
             # Convert the weightings into a string
             all_data = weighting_average + weighting_std
@@ -117,7 +123,8 @@ class ReportSummarizer:
         
         return weighting_str
     
-    def get_example_weightings(number_of_themes):
+    def get_example_weightings(self):
+        number_of_themes = self.theme_reader.get_num_themes()
         example_weightings = ""
         for i in range(0, 2):
             weighting = []
@@ -130,6 +137,30 @@ class ReportSummarizer:
             example_weightings += "'" + ",".join([str(weight_int) for weight_int in weighting]) + "' "
 
         return example_weightings
+    
+    def convert_response_to_list(self, response, examples):
+        max_attempts = 3
+        while True:
+            max_attempts -= 1
+            if max_attempts == 0:
+                print(f"  Could not convert response to list")
+                return None
+            weighting_str = openAICaller.query(
+                    f"Please convert this into a comma-separated list of percentages. Examples are: {examples}.",
+                    response,
+                    temp = 0)
+            
+            if weighting_str == None or weighting_str == "None":
+                return None
+            
+            weightings = []
+            try: 
+                weightings = [int(num) for num in weighting_str.split(",")]
+                return weightings
+            except ValueError:
+                print(f"  Incorrect response from model retrying. \n  Response from request was: '{weighting_str}' and the response to be converted was: '{response}'")
+                continue
+        
 
 
 class ReportExtractor:
