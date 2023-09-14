@@ -1,0 +1,38 @@
+name: Deploy to shinyapps.io
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x  # Choose the Python version you need
+
+      - name: Install rsconnect-python
+        run: pip install rsconnect-python
+
+      - name: Authorize Shinyapps.io Account
+        run: |
+          rsconnect add \
+            --account jamesthompson \
+            --name jamesthompson \
+            --token 28E6310E114B85B950CB9F023A50FA3C \
+            --secret ${{ secrets.RSCONNECT_SECRET }}
+
+      - name: Deploy Shiny App
+        run: |
+          rsconnect deploy shiny viewer --name jamesthompson --title TAIC-Viewer
+          rsconnect deploy shiny output --name jamesthompson --title TAIC-Viewer/resources
