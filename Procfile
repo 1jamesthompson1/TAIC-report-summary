@@ -1,0 +1,1 @@
+web: poetry run python viewer/app.py --port=$PORT --host=0.0.0.0
