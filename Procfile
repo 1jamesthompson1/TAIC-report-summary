@@ -1,1 +1,1 @@
-web: pip install poetry && poetry install && poetry run python viewer/app.py --port=5000 --host=0.0.0.0
+web: pip install poetry && poetry install && poetry run python viewer/app.py --port=$PORT --host=0.0.0.0
