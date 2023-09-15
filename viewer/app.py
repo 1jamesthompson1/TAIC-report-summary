@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-
+import os
 import search  # Assuming this is your custom module for searching
 
 app = Flask(__name__)
@@ -22,5 +22,7 @@ def search_reports():
     
     return jsonify({'html_table': html_table})
 
+port = int(os.environ.get("PORT", 5000))
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=port, host="0.0.0.0")
