@@ -3,7 +3,7 @@ import os
 import re
 from nltk.corpus import wordnet
 import nltk
-nlkt.download('wordnet')
+nltk.download('wordnet')
 
 import engine.Config as Config
 import engine.Extract_Analyze.Themes as Themes
