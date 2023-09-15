@@ -1,0 +1,1520 @@
+﻿ 
+ 
+ 
+ 
+Final report  
+Tuhinga whak amutunga  
+  
+ 
+Marine inquiry  MO-2021-205 
+Container vessel  Moana Chief  
+Serious injury to crew  member  
+Port of Auckland , New  Zealand   
+10 December 2021  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+April  2023
+
+ 
+  
+ 
+  Page i The Transport  Accident Investigation  Commission  
+Te Kōmihana Tirotiro  Aituā Waka  
+No repeat accidents – ever!  
+“The principal purpose of the Commission shall be to determine the circumstances and 
+causes of accidents and incidents with a view to avoiding similar occurrences in the future, 
+rather than to ascribe blame to any person.”  
+Transport Accident Investigation Commission Act 1990 , s4 Purpose  
+ 
+The Transport Accident Investigation Commission is an independent Crown entity and 
+standing commission of inquiry. We investigate selected maritime, aviation and rail accidents 
+and incidents that occur in New  Zealand or involve New  Zealand -registered aircraft or 
+vessels.  
+Our investigations are for the purpose of avoiding similar accidents in the  future. We 
+determine and analyse contributing factors, explain circumstances and causes, identify safety 
+issues, and make recommendations to improve safety. Our findings cannot be used to 
+pursue criminal, civil, or regulatory action.  
+At the end of every i nquiry, we share all relevant knowledge in a final report. We use our 
+information and insight to influence others in the transport sector to improve safety, 
+nationally and internationally.  
+ 
+Commissioners  
+Chief Commissioner     Jane Meares  
+Deputy Chief Com missioner    Stephen Davies Howard  
+Commissioner      Paula Rose, QSO  
+Commissioner      Richard Marchant (until 31 October 2022)  
+Commissioner      Bernadette  Arapere  (from 1 December 2022)  
+Commissioner      David Clarke  (from 1 December 2022)  
+Key Commission pe rsonnel  
+Chief Executive     Martin Sawyers  
+Chief Investigator of Accidents   Naveen Kozhuppakalam  
+Lead Investigator  for this inquiry              Avinash Figueiredo  
+Commission General Counsel    Cathryn Bridge  
+  
+ 
+Page ii Notes about Commission reports  
+Kōrero tāpiri ki  ngā pūrongo  o te Kōmihana  
+Citations and referencing  
+The citations section of this report lists public documents. Documents unavailable to the 
+public (that is, not discoverable under the Official Information Act 1982 ) are referenced in 
+footnotes. This draft  report does not cite information derived from inter views during the 
+Commission’s inquiry into the occurrence . 
+Photographs, diagrams, pictures  
+The Commission owns the photographs, diagrams and pictures in this report unless 
+otherwise specified.  
+Verbal probability expressions  
+For clarity, the Commission uses  standardised terminology where possible.  
+One example of this standardisation is the terminology used to describe the degree of 
+probability (or likelihood) that an event happened, or a condition existed in support of a 
+hypothesis. The Commission has adopt ed this terminology from the Intergovernmental Panel 
+on Climate Change and Australian Transport Safety Bureau models. The Commission chose 
+these models because of their simplicity, usability, and international use. The Commission 
+considers these models ref lect its functions. These functions include making findings and 
+issuing recommendations based on a wide range of evidence, whether or not that evidence 
+would be admissible in a court of law.  
+ 
+Terminology  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+  
+MO-2021 -205 Final Report  | Page iii 
+  
+Figure 1: Container vessel, Moana Chief  
+Credit : Swire Shipping  (NZ) Limited  
+ 
+
+ 
+Page iv | MO-2021 -205 Final Report    
+Figure 2: Location of accident , Fergusson Wharf, Port of Auckland  
+
+  
+MO-2021 -205 Final Report  | Page v 
+ Contents  
+Rārangi take  
+ 
+1 Executive summary ................................ ................................ ................................ ........................  1 
+What happened  ................................ ................................ ................................ ................................ ...............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
+What we can learn  ................................ ................................ ................................ ................................ ..........  1 
+Who may benefit  ................................ ................................ ................................ ................................ ............  1 
+2 Factual information  ................................ ................................ ................................ .......................  2 
+Telescopic accommodation ladder  ................................ ................................ ................................ ..........  2 
+Narrative ................................ ................................ ................................ ................................ .............................  3 
+Personnel information  ................................ ................................ ................................ ................................ .. 7 
+Vessel information ................................ ................................ ................................ ................................ ..........  7 
+Poop deck telescopic accommodation ladder  ................................ ................................ ....................  7 
+Regulation  ................................ ................................ ................................ ................................ .........................  8 
+Previous issues with the accommodation ladder  ................................ ................................ ...............  9 
+Poop deck telescopic accommodation ladder operations  ................................ .............................  9 
+Safety management  ................................ ................................ ................................ ................................ .... 12 
+Meteorological and ephemeral information  ................................ ................................ .....................  14 
+Recorded data  ................................ ................................ ................................ ................................ ...............  15 
+Site and wreckage information  ................................ ................................ ................................ ..............  15 
+Previous accommodation ladder occurrence  ................................ ................................ ...................  15 
+3 Analysis  ................................ ................................ ................................ ................................ .........  17 
+Introduction  ................................ ................................ ................................ ................................ ...................  17 
+Why did the accident occur  ................................ ................................ ................................ .....................  17 
+Risk assessment for retrieving the accommodation ladder  ................................ ........................  19 
+Safety Culture and Leadership  ................................ ................................ ................................ ................  22 
+4 Findings  ................................ ................................ ................................ ................................ ........  24 
+5 Safety issues and remedial action  ................................ ................................ ..............................  25 
+General ................................ ................................ ................................ ................................ .............................  25 
+6 Recommendations  ................................ ................................ ................................ .......................  28 
+General ................................ ................................ ................................ ................................ .............................  28 
+7 Key lessons  ................................ ................................ ................................ ................................ ... 29 
+8 Data summary  ................................ ................................ ................................ ..............................  30 
+ 
+Page vi | MO-2021 -205 Final Report   9 Conduct of the Inquiry  ................................ ................................ ................................ ................  31 
+Abbreviations  ................................ ................................ ................................ ................................ ....... 32 
+Glossary  ................................ ................................ ................................ ................................ ................  33 
+Citations  ................................ ................................ ................................ ................................ ...............  36 
+Appendix 1: Survey report for new accommodation ladder  ................................ ...........................  37 
+Appendix 2: N051014D Work Overside  ................................ ................................ .............................  40 
+Appendix 3: N051014C Checklist for Pilot, Accommodation, Combination Pilot Ladder  ............  42 
+Appendix 4: Moana Chief  Poop deck gangway operating procedures  ................................ ..........  43 
+Appendix 5: Risk Assessment Accommodation Ladder Rigging dated April 2021 ........................  46 
+Appendix 6: Pre -Work Meeting Form  ................................ ................................ ...............................  48 
+ 
+Figures  
+Figure 1: Container vessel, Moana Chief  ................................ ................................ ...............  iii 
+Figure 2: Location of accident, Fergusson Wharf, Port of Auckland  ................................ . iv 
+Figure 3: Side view of the te lescopic accommodation ladder  ................................ .............  2 
+Figure 4: Accommodation ladder remote control  ................................ ................................  3 
+Figure 5: Ports of Auckland Limited platform and accommodation ladder  ......................  4 
+Figure 6: Handrail ropes and chains  ................................ ................................ .......................  5 
+Figure 7: Step cut from the lower section of the ladder  ................................ ......................  6 
+Figure 8:  Location of accommodation ladders  ................................ ................................ ...... 8 
+Figure 9: Accommodation ladder in stowed position and winch ................................ ...... 10 
+Figure 10: Ladder lowered with side chains tight  ................................ ...............................  10 
+Figure 11: Ladder resting on the Port platform  ................................ ................................ .. 11 
+Figure 12: Retrieval of the ladder  ................................ ................................ .........................  12 
+Figure 13: Photos showing d amaged bottom platform of accommodation ladder  ....... 15 
+Figure 14: Accommodation ladder before the accident  ................................ ....................  17 
+Figure 15: Accommodation ladder dropped off the Port platform  ................................ .. 18 
+Figure 16: Yellow steps and green arrows marked on the accommodation ladder  ........  18 
+ 
+ 
+MO-2021 -205 Final Report  
+<< Page 1 >>
+ 
+ 1 Executive  summary  
+Tuhinga whakarāpopoto  
+What happened  
+1.1 On the morning of 1 0 December  2021, the container vessel Moana Chief  was preparing 
+to leave  the Port of Auckland . The crew had started retrieving the telescopic 
+accommodation ladder  when a crew member’s lower leg  got trapped between the 
+fixed upper ladder and the moving lower ladder, resulting in serious injur y to their leg.  
+Why it happened  
+1.2 As crew members were retrieving the accommodation ladder , it slipped off the Port 
+platform on which it was resting. The slack side chains allowed the ladder to drop and 
+the weight of the ladder was transferred to the fall wir e, which caused the lower ladder 
+to slide upwards. A crew member , who was standing in a n area that  had previously  
+been  identif ied and designated as a danger area, was seriously  injured.   
+1.3 Actions to retrieve the accommodation ladder were not consistent with the procedures 
+documented in the vessel's Safety Management System . Several control measures 
+listed in the risk assessment for deploying and retrieving the  accommodation ladder 
+were not implemented.  
+1.4 It is very likely  that the accident could have been prevented, if other crew members 
+standing in the  vicinity  had intervened and alerted the winch operator to a crew 
+member standing in the designated danger area.  
+What we can learn  
+1.5 Deploying and retrieving accommodation ladders can be  a dangerous operation , and 
+often involves ships ’ crews working  over the side of the vessel.  A telescopic 
+accommodation  ladder  has several moving parts  that further increase risk of injury . It is 
+important that users  understand how to  operate  the equipment safely in accordance 
+with the manufacturer ’s instructions .  
+1.6 Risk assessment and m anagement of a hazard does not end with the implementation 
+of risk controls . Monitoring and reviewing the effectiv eness of the  risk controls is an 
+ongoing process and should be formalised into the Safety Management System.  
+Who may benefit  
+1.7 Operators of telescopic accommodat ion ladders, vessel owners and operators, 
+maritime training facilities and shore -based emergency response agencies may all 
+benefit from the findings in this report.  
+1.8 Any organisation using a safety management system to assess risks and manage 
+hazards, including  monitori ng the effectiveness of their processes which is essential for 
+safe outcomes , may also benefit . 
+ 
+
+<< Page 2 >>
+ MO-2021 -205 Final Report   2 Factual information  
+Pārongo pono  
+Telescopic accommodation ladder  
+2.1 Typically, a  telescopic1 accommodation  ladder2 (the ladder) is made up of two parts : a 
+fixed upper ladder  and a moving lower ladder.  
+2.2 Onboard Moana Chief  (the vessel) t he top of the upper ladder was hinged on a 
+turntable mounted onto a platform attached to the ship’s deck . The bottom of the 
+upper ladder was supported by two side chains (see Figure 3).  
+2.3 The lower ladder was telescopic and could be extended or retracted . It was secured to 
+the upper ladder by an interlo cking guide and rollers. There was  an overlap between 
+the two ladders of about 1.5 met res, which provided  support  and helped maintain 
+rigidity and strength.  
+ 
+Figure 3: Side view of the telescopic accommodation ladder  
+ 
+2.4 The ladder was deployed and re trieved by a fall wire3 connected to a winch4. The winch 
+was operated by a remote -control unit on a wandering lead (see Figur e 4). 
+ 
+1 having a construction consisting of sections designed to slide over one another  
+2 a point of access to a ship’s deck for shore person nel, accommodation ladders are rigged in the fore and aft 
+direction of the ship and face astern  
+3 the steel wire rope on a winch used for lowering or lifting a load  
+4 a mechanical device used to pull in or let out or otherwise adjust the tension of a rope or  wire 
+ pper platform
+                            
+           
+ ower ladder a imum
+an le   
+de rees ide chains
+ all wire
+Collapsible handrails
+ ottom platform andrail ropes andrail chains
+                           pper platform
+ pper ladder           
+ pper ladder ide  iew of the accommodation ladder
+           
+ 
+MO-2021 -205 Final Report  
+<< Page 3 >>
+ 
+  
+Figur e 4: Accommodation ladder remote control  
+ 
+Narrative  
+2.5 On 10 December 2021 at approximately 0515 the container vessel Moana Chief  
+completed  cargo operations alongside Fergusson Wharf5 at the Port of Auckland . 
+2.6 The vessel was due to depart  at 0730 . At approximately 0700 t he duty Integrated  
+Rating (I R)6 woke the majority of the crew in preparation  for unmooring7 operations.  
+Events at the accommodation ladder  
+2.7 The accommodation ladder team  (the team) consisted of the Chief Integrated Rating8 
+(CIR), the Engine  Room  Watch Rating9 (EWR) and the Integrated Rating  (IR). The team 
+was responsible for  retrieving and  stowing the ladder in preparation for sailing.    
+ 
+5 a structure built alongside or perpendicular to the shore where ships berth for loading or discharging cargo  
+6 a crew member who can perform the functions and duties of a deck crew member on ships or a crew member in 
+a manned engine room or periodi cally unmanned engine room  
+7 a procedure to release and cast off the lines of a vessel from the fixtures to which it is moored  
+8 a boatswain, also known as a petty officer on a merchant ship , who controls the work of other seamen  
+9 a crew member in a manned engine room or periodically unmanned engine room on a ship of any propulsion 
+power in any operating area  
+
+ 
+
+<< Page 4 >>
+ MO-2021 -205 Final Report   2.8 Two additional IRs helped to remov e and stow the accommodation ladder safety net .  
+2.9 The ladder  was resting on top of a steel platform  known as the Ports of Auckland  
+Limited platform  (the Port platform ) (see Figure 5). The Port platform was  designed  to 
+keep the ladder clear from obstructions on the wharf and prevent it from impeding the 
+safe operation of the container cranes , which ran on dedicated rails  close to the side of 
+the vessel . 
+ 
+ 
+Figure 5: Port s of Auckland Limited  platform and accommodation ladder  
+ 
+2.10 The CIR was the winch operator and person in charge of rigging10 and stowing the 
+ladder.  
+2.11 The Chief Officer  and the Third Officer  were also standing in the vicinity of the l adder  
+observing the operation . 
+2.12 The team and the two additional IRs  removed and stowed the accommodation ladder  
+safety net before  the Pilot11 boarded the vessel  at about  0722. 
+2.13 After the Pilot had boarded the vessel,  the team started  retrieving the ladder . At 
+approximately 0723 , the CIR started the winch  and started  heaving on  the fall wire, 
+which in turn moved the lower ladder up by about one metre. The CIR stopped the 
+winch and directed the EWR and the IR to untie the lower ladder hand rail ropes  (see 
+Figure 6). 
+ 
+10 setting up a device or equipment  
+11 a mariner who manoeuvres ships through dangerous or congested waters, such as harbours or river mouths 
+(maritime pilot, marine pilot, harbour pilot, port pilot, ship pilot or simply pilot)  
+
+ 
+MO-2021 -205 Final Report  
+<< Page 5 >>
+ 
+ 2.14 The EWR walked down to the bottom  platform  and the IR walked down  to the top of 
+the lower ladder . They untied the hand rail ropes  but left the handrail chains in place , 
+which was  the normal procedure  (see Figure 6).  
+ 
+Figure 6: Handrail ropes and chains  
+ 
+2.15 At approximately 0724 the CIR resumed retrieving the ladder , with the IR and the EWR 
+standing on the moving lower ladder. Approximately 30 seconds later the CIR stopped 
+the winch. The EWR and the IR lowered the handrails of the lower ladder.  
+2.16 The IR then returned to the upper platfor m. The EWR stepped onto the upper ladder 
+and walked up a few steps , turned around  and placed the two handrail chains , clear of 
+any obstructions,  on the  top step of the lo wer ladder .   
+2.17 At approximately  0725 the Chief Officer  (who was standing on the poop deck ) and the 
+two additional  IRs (who had finished removing and stowing the ladder safety net ) left 
+to prepare  for sailing.   
+2.18 The CIR continued  retrieving  the ladder  until the inboard12 handrail chain got stuck 
+between the sliding  lower ladder  and the fixed upper ladder . The CIR stopped the 
+winch and the EWR freed the chain.  
+2.19 The EWR  cleared the inboard handrail chain , picked up the outboard13 handrail chain , 
+and held onto both chains to prevent them from getting caught again.   
+2.20 The CIR r esumed retrieving the ladder , while the EWR remained on the upper  ladder  
+and held onto the handrail chains.  
+2.21 At approximately 072 6, the lower ladder fell off the Port platform  on which it was 
+resting . As the ladder fell it tightened the fall wire and caused an uncontrolled upward 
+movement of the lower ladder . 
+ 
+12 towards the centre of a ship  
+13 away from the centre of a ship  
+
+ 
+
+<< Page 6 >>
+ MO-2021 -205 Final Report   2.22 The sudden upward movement of the lower ladder trapped the EWR's left leg between 
+the top step of the lower ladder and the third step of the fixed  upper ladder.  
+2.23 All work stopped immediately and the Third Officer , who was standing on the poop 
+deck nearby, informed the Master  on the bridge14 that there had been an accident.  
+Events after the accident  
+2.24 The Master saw th at the EWR was sitting on the ladde r with their left leg trapped 
+between the steps  and immediately advised the Pilot that there had been a n accident  
+and asked them to inform Harbour Control .  
+2.25 The crew wedged timber between the steps to ease the weight on the EWR’s le  and 
+prevent further injury . The crew assured t he EWR that they were doing everything 
+possible to free them from the ladder.  At approximately 0736 an ambulance was  
+requested.   
+2.26 The  essel’s crew considered various options before deciding that the safe st option to 
+free the ERW’s leg was to cut the step . At approximately 0752 the  ladder step was cut 
+away (see Figure 7) and the EWR’s  leg was freed. At about the same time the first 
+responders  boarded the vessel .   
+ 
+Figure 7: Step cut from the lower section of the ladder  
+ 
+2.27 An ambulance arrived a t approximately 0805 . A paramedic boarded the vessel  to 
+assess the condition of the injured EWR and administer ed medication. At 
+approximately 0843 the ambulance left the wharf and took  the EWR to hospital.  
+ 
+14 the place  on a ship from which  the vessel is normally controlled  
+
+ 
+MO-2021 -205 Final Report  
+<< Page 7 >>
+ 
+ Personnel  information  
+2.28 The Master  had held command15 since 1989 and had over 43 years ’ seagoing 
+experience, includ ing 19 years working on container vessels. The Master  had worked 
+for Swire  Shipping (NZ) Limited  (the operator ) since 2013 and had command of Moana 
+Chief  since October  2019.   
+2.29 The Chief Officer had a Master’s Certificate of Competency  and had joined the vessel 
+the previous day to start a four -week roster.  The Chief Officer had worked for the 
+operator  since 201 1 and had worked  on the vessel  since  February 2020 .   
+2.30 The EWR had started their seagoing  career in August 2010 . They held an Able Seafarers 
+Deck16 and Engine Room  Watch Ra ting certificate issued by Maritime New  Zealand in 
+2013.  The EWR started working on board Moana Chief  on 25 March  2020 , mostly 
+relieving engine room crew members , but occasionally  working on deck . 
+2.31 The CIR had over fifty years ’ maritime experience , working on a variety of vessels 
+including bulk carriers and liquefied natural gas vessels . The CIR had  previous 
+experience working with the telescopic accommodation ladder  on the Moana Chief . 
+2.32 The IR had over twenty years’ experience working on offshore vessels. The IR had 
+joined the vessel on 5  December  2021 for their second four-week term onboard . 
+ 
+Vessel information  
+2.33 The Moana Chief  was a container vess el. It was owned by John Swire &  Sons Limited , a 
+private company registered in the U nited Kingdom , and operated by Swire Shipping 
+(NZ) Limited . The vessel  was registered in New  Zealand  in September 2019, and its 
+home port was Auckland , New Zealand .   
+2.34 The vessel  had operated  on a fixed port rotation between Tauranga, Auckland, 
+Lyttelton, Nelson and Marsden Point  since September  2019 .  
+2.35 At the time of the accident, the vessel had a  crew of sixteen  that comprised  the Master , 
+three deck offic ers, the Chief Engineer, three engine officers, one CIR, four IRs, one 
+EWR, a cook and  a steward.  
+ 
+Poop deck telescopic accommodation ladder  
+2.36 The vessel was originally built with two telescopic accommodation ladders fitted on  the 
+main deck17, one  on each side . However, the  essel’s draught18 and the height of tide 
+often resulted in the ladder s becoming  unsuitable for use  at the ports of Auckland and 
+Lyttelton.  
+2.37 To overcome this challenge, the vessel operator  fitted a new telescopic 
+accommodation la dder to the vessel in August  2019. It was fitted on the starboard19 
+ 
+15 to have control of a ship and to be in charge  
+16 a crew member who can perform the functions and duties of a deck crew member on ships  
+17 the main continuous deck of a vessel  
+18 the depth of the hull immersed in the water  
+19 the right side of a vessel when facing forward  
+ 
+
+<< Page 8 >>
+ MO-2021 -205 Final Report   side of the poop deck , which was  one deck higher than the main deck  and allowed for 
+contingencies should the main deck ladders be come  unsuitable  (see Figure 8). 
+ 
+ 
+Figure 8: Location of accommodation ladders  
+ 
+2.38 The ladder met the requirements of the International Convention for the Safety Of Life 
+At Sea (SOLAS)20 regulation II -I/3-9 Means of Embarkation and Disembarkation from 
+Ships. The ladder was constructed  and installed a s per the guidance contained in  
+Maritime Safety Committee  circular21 1331  (11 June 2009) . 
+2.39 The installation was certified by classification society Det Norske Veritas and 
+Germanischer Lloyd ( DNV GL). See Appendix 1  for the  DNV  GL Survey Report . 
+Regulation   
+2.40 SOLAS chapter II -1 (Construction) , Part A -1 (Structure of Vessels) , regulation 3 -9 covers 
+the Means of Embarkation22 on and Disembarkation23 from Ships, and states that they 
+shall be inspected and maintained in suitable condition for their intended purpose . It 
+also states that wires used to support  the means of embarkation and disembarkation 
+shall be maintained as specified in regulation III/20.4  
+2.41 SOLAS chapter III (Life Saving Appliances and Arrangements ), Part B -III (Additional 
+requirements for cargo ships ), regulation 20 -4 states that fall  wires  shall be inspected 
+periodically , with special regard to areas passing through sheaves , and renewed when 
+necessary due to deterioratio n or at intervals of not more than five years.  
+2.42 IMO Maritime Safety Committee circular 1331 provides  guidelines on maintenance  and 
+examination of accommodation ladders. The circular states that during annual surveys 
+required by SOLAS, the suspension points, davit structures, wire and sheaves of the 
+ 
+20 International Maritime Organi zation  (IMO)’s International C onvention for the Safety Of Life At Sea governing 
+maritime safety  
+21 a statutory document issued by I O’s  aritime  afety Committee  
+22 boarding or going on a ship  
+23 leaving or getting off a ship  
+
+ 
+MO-2021 -205 Final Report  
+<< Page 9 >>
+ 
+ accommodation ladder should be thoroughly examined. The circular also states that 
+the winch, brake mechanism and remote -control systems should be examined.  
+Previous issues with the accommodation ladder  
+Fall wire  
+2.43 Since its installation in September2019, there had been ongoing challenges with the 
+fall wire including :  
+• the wire coming off the winch drum and getting jammed between the drum and the 
+winch  
+• the wire becoming jammed between the sheave24 and the cheek plate s25 at the 
+bottom platform , causing damage to t he wire .  
+2.44 The fall wire of the ladder had been replaced three times since its installation . The 
+issues with the fall wire w ere resolved in April 202 0. 
+The winch   
+2.45 In April  2021 , the accommodation ladder winch motor failed when the brake clutch 
+sheared off . The winch continued to lower the  ladder  by gravity alone.  The clutch failed 
+again i n May  2021.   
+The side chains  
+2.46 The side chains were used to support the upper ladder. They were  adjusted manually 
+to alter the ladder’s an le of inclination.  ome crew had reported that the side chains 
+were too long and were cumbersome to adjust. It was unclear if this issue was resolved 
+at the time of the accident.  
+Poop deck telescopic accommodation ladder operations  
+Deployment  
+2.47 In the stowed position the ladder rested on its ed e alon  the ship’s side (see Figure 9). 
+The ladder was designed to deploy  using gravity. By slackening the fall wire the ladder 
+rotated from its stowed position to a horizontal position out board of the ship’s siderail.  
+2.48 The ladder handrails were raised and secured manually. The side chains were then 
+manually adjusted by a crew member to the desired length to facilitate the required 
+angle of inclination.  
+2.49 Further slackening of the fall wires lowered the upper ladder until the side chains were 
+tight and were supporting the weight of the upper ladder (see  Figure 10).  
+ 
+24 a grooved wheel that spins on an axle, often used for changing the direction of a wire rope  and to lessen the 
+effects of friction  
+25 plates on each s ide of the sheave, to  prevent the wire from coming off the sheave  
+ 
+
+<< Page 10 >>
+ MO-2021 -205 Final Report    
+Figure 9: Accommodation ladder in stowed position and winch  
+ 
+ 
+Figure 10: Ladder lowered with side chains tight  
+  
+
+ 
+MO-2021 -205 Final Report  
+<< Page 11 >>
+ 
+ 2.50 When  the weight of the upper ladder was supported by the side chains, f urther 
+slackening of the wire allow ed the lower ladder to slide out  (see Figure 11). The 
+operation was complete when the lower ladder reache d the desired target area (the 
+Port platform) on the wharf .   
+ 
+ 
+Figure 11: Ladder resting on the Port platform  
+Retrieval  
+2.51 The retrieval of the ladder was controlled by a winch  used to heave in the fall wire . This 
+result ed in the lower ladder sliding up an interlock ing guide in the upper ladder  until it 
+reache d the end point  (see Figure 12).  
+2.52 Further heaving of the fall wire took the full weight of both the ladders and lifted them 
+together until the side chains became slack.  
+2.53 When the ladder reached the horizontal the crew, wea ring safety harnesses, stepped 
+onto the ladder and lowered the handrails. Further heaving lifted the ladder inwards 
+and into its stowed position at the side of the vessel.  
+2.54 In port, the ladder had to be closely monitored and adjusted to allow for changes in 
+the  essel’s drau ht and the hei ht of tide.  inor adjustments were made by usin  the 
+fall wire only. If a large adjustment was required, the ladder was retracted and the side 
+chains manually adjusted before redeploying the ladder back down to the wharf. 
+During a four -hour watch period it was normal for the crew to make between three 
+and ten minor adjustments and one or two major adjustments.  
+
+ 
+
+<< Page 12 >>
+ MO-2021 -205 Final Report    
+Figure 12: Retrieval of the ladder  
+ 
+Safety management  
+2.55 Under SOLAS , the International Safety Management (ISM) Code is mandatory for 
+vessels such as the Moana Chief . The aim of the Code is to improve safety at sea and 
+protect  the marine  environment.  
+Moana Chief  Safety Management System  
+2.56 The following section describes  the relevant  parts of the operator’s  safety 
+management system  (SMS)  that were  applicable  to this accident.  
+2.57 Retrieving and deploying the ladder required the crew  to work outside the ship’s rails , 
+over the side of the vessel. The SMS document N051014D  ‘Work Overside ’ explained 
+the need for a risk assessment , a toolbox26meeting and pre -work meeting to be 
+carried out ( see Appendix 2) before starting work . When rigging and unrigging27 the 
+accommodation ladder the crew was to use document N051014C  ‘Checklist for Pilot, 
+Accommodation, Combination Pilot Ladder ’ instead  (see Appendix 3) .  
+2.58 N051014C  required crew working on the accommodation ladder to wear a crew -saver 
+harness secured to a d esignated strong point.  The checklist  did not prompt the crew 
+to conduct a toolbox meeting or a pre -work meeting before start ing the work.  
+ 
+26 an informal safety meeting generally conducted at the job site before  the start of a job or work shift – it forms 
+part of an organi sation's overall safety program me 
+27 to stow away equipment  
+
+ 
+MO-2021 -205 Final Report  
+<< Page 13 >>
+ 
+ Poop deck gangway operating procedures  
+2.59 The vessel -specific ‘Poop deck gangway operating procedures ’ were amended in 
+August  2020 following a  similar  accident28 that occurred on a Singaporean -registered 
+ship not in the  wire  hippin  (NZ)  imited’s fleet but within the  wire  roup structure.  
+2.60 The operating procedures had four sections  (see Appendix 4) . Section One ‘Safety 
+Precautions ’ stated that the CIR was in charge of rigging and stowing the 
+accommodation ladder.  It instruct ed the crew not to stand anywhere on the telescopi c 
+part while the accommodation ladder was being raised or lowered. When setting the 
+hand rails, only one person with a fall arrest er29 was permitted to stand on the upper or 
+lower platform.  
+2.61 Section Three ‘Operation ’ highlighted the need to adjust the side chains whe n the 
+accommodation ladder was resting on a Port platform . 
+2.62 Section Four ‘Stowin g the Gangway ’ cover ed retrieving and stowing the ladder. It 
+instruct ed the operator to retrieve the lower ladder  until it reache d the end point 
+before anyone  was allowed to step on to it.  
+Risk Assessment  
+2.63 The SMS required the crew to conduct a risk assessment for routine jobs . One such risk 
+assessment was ‘Accommodation Ladder Rigging Ver 03 ’, dated April  2021. Table 1  
+highlights  some of the hazards identified in the risk assessment  and the corresponding 
+control measures  (see Appendix 5 for the full risk assessment ). 
+  
+ 
+28 refer to paragraph s 2.71–2.75 
+29 safety equipment used, when working at heights or over the side of a ship, to stop a downward free fall and 
+prevent serious harm or death  of the person  
+ 
+
+<< Page 14 >>
+ MO-2021 -205 Final Report   Table 1: Identified hazards and corresponding control measures  
+Hazard  Consequence  Initial 
+Risk Control Measures  
+Lack of 
+awareness/ 
+neglect of 
+procedures for 
+working overside  Personal injury/ 
+loss of life  Extreme 
+Risk Constant education of all crew 
+and passing on of relevant 
+information . Regular safety 
+briefing. Increase awareness. 
+Monitoring and supervision by 
+senior officers / safety officer. 
+Take all precautions as per SMS 
+rigging of accommodation 
+checklist  
+Fatigue  Loss of situational 
+awareness / 
+human error/ 
+personal injury / 
+damages  Moderate 
+Risk Make sure all personnel in the 
+operation are well rested. 
+Comply with the work and rest 
+hour requirements  
+Inexperienced 
+personnel in the 
+job Wrong operation 
+/ personal injury  High Risk  Good toolbox meeting prior to 
+start of the job to make sure all 
+understand what is to be done. 
+Most experience d persons to 
+be used for the job. Continuous 
+supervision and monitoring.  
+Inadequate PPE / 
+PPE not used.  Person falling 
+overboard / 
+personal injury / 
+loss of life  Extreme 
+Risk Adequate PPE including safety 
+harness with flotation devices 
+(Crew Saver) to be u sed. 
+Briefing of personnel involved 
+at the job to highlight the 
+dangers and precautions 
+required  
+Inadequate work 
+practice  Damage / 
+personal injury High Risk  Instructions on how to rig and 
+operate gangway should be 
+posted near operating controls  
+Fall overboard  Injury / death Extreme 
+Risk Safety wire to be rigged above 
+accommodation ladder for 
+attaching crew saver harness. 
+Gangway net to be provided  
+Meteorological and ephemeral information  
+2.64 The tidal data for Auckland on 10  December  2021 is shown in Table 2:  
+Table 2: Tidal data for Auckland 10 December 2021  
+Tide ( Auckland ) Time ( local)  Height (m)  
+High Water  0041  3.2 
+Low Water  0637  0.5 
+High Water  1312  3.3 
+Low Water  1918  0.6 
+The accident occurred about one hour after low water in the morning.  
+ 
+MO-2021 -205 Final Report  
+<< Page 15 >>
+ 
+ 2.65 At the time of the accident the temperature was about 20oC, it was mostly cloudy, with 
+light winds of about 2  metres per second  blowing from the southeast.  
+Recorded data  
+2.66 A CCTV recording taken by a security camera fitted near the  essel’s accommodation 
+ladder was recovered  following the accident . The recording allowed investigators  to 
+observe the incident as it unfolded.  
+2.67 CCTV was also recovered from the Fergusson Wharf Camera 1 . The recording helped 
+investigators confirm the hypothesis of why the ladder  fell off the Port platform.  
+Site and wreckage information  
+2.68 Before the injured EWR was safely moved to the poop deck, the bottom platform of 
+the ladder was crushed between the wharf and the  essel’s  side, when the mooring line 
+was tightened. A Ports of Auckland CCTV camera recorded the occurrence ( see Figure 
+13). 
+2.69 The ladder was retrieved and stowed after the incident. The bottom platform was badly 
+damaged, which made the ladder unsafe for any further use.  
+ 
+Figure 13: Photos s howing damaged bottom platform of a ccommodation ladder  
+Previous accommodation ladder occurrence  
+2.70 On 14 May 2020, a crew member from the Singapore registered container ship 
+MV Szechuen , operated by another company within the Swire group structure , suffered 
+serious crush and fracture injuries to both their legs .30  
+2.71 The Transport Accident Investigation Commission (the Commission) was notified of the 
+incident but  chose not to investigate as New Zealand  was in  COVID -19 Alert Level 4  
+and travel restrictions were in place . 
+ 
+30 Company investigation report received from Swire Shipping (NZ) Ltd 
+
+ 
+
+<< Page 16 >>
+ MO-2021 -205 Final Report   2.72 The accident occurred while retrieving and securing the port side telescopic 
+accommodation ladder at North Port, New  Zealand. On this occasion, the lower ladder  
+did not slide up to its end point,  stopp ing approximately 1.5  metres short.  
+2.73 A crew member stepped o nto the fixed upper  ladder to fold down the handrails. As 
+soon as the handrail on the outboard side was lowered, the lower ladder recoiled  and 
+trapped the crew member’s lower le s between the steps of the two ladder s. The c rew 
+member was subsequently removed  from the ladder and , after initial first aid, was 
+taken to a hospital in Auckland.   
+2.74 The operator  conducted an internal investigation  with the following findings.  
+• The existing practice on the vessel was to untie the handrail rope from the 
+non-shackled  end, and leave it in place, before lowering the railings. In this 
+instance, the slack handrail rope on the outboard side of the lower ladder  
+got caught between the two ladder s and prevented the lower ladder  from 
+sliding up to its ‘home’ position.  
+• The crew member was working in the line of recoil when they stepped onto 
+the fixed upper ladder , with the safety stoppers removed and the taut 
+lower ladder  not yet home. When the fouled rope dislodged, the lower 
+ladder  sprung upw ards and trapped the crew member’s le s.  
+• The officer in charge and the crew  had not identified  that e ven though the 
+ladder was nearly horizontal the lo wer ladder  had not reached its end stop. 
+They had not considered the recoil hazard that the fouled lower ladder  
+posed and continued to work in the line of fire.   
+• The design of the telescopic accommodation ladder made the 
+rigging/securing process complicated. It required personnel to step on to 
+the ladder more than once,  to remove the stoppers and manually transfer 
+the weight of the lower ladder  to the bridle while rigging and vice -versa 
+while securing.  
+• The officer in charge did not ensure that the process of securing the 
+accommodation  ladder  was done safely. The officer was also operating the 
+accommodation ladder winch control from the turntable, where they did 
+not have an overview of the entire operation.  
+• There was an operating procedure for the accommodation ladder which 
+was displayed near the location. These procedures  were inadequate and 
+did not address all the likely hazards involved with lowering and securing 
+the accommodation ladder.  
+ 
+MO-2021 -205 Final Report  
+<< Page 17 >>
+ 
+ 3 Analysis  
+Tātaritanga  
+Introduction  
+3.1 Deploying  and retrieving an accommodation ladder can be  dangerous and often involves 
+crew members working over the side of the vessel. The risks associated with th e operation 
+are well known and need to be carefully managed . A telescopic accommodation ladder 
+has several moving parts  which can increase the risk of injury . It is important that operators 
+understand the equipment and the hazards associated with it .  
+3.2 The following section analyse s the circumstances surrounding the accident  to identify 
+those factors which increased the likelihood of the event occurring or increased  the 
+severity of its outcome. It also examines any safety issues that have the potential to 
+adversely affect future operations.  
+Why did the accident occur   
+3.3 Whilst retrieving  the telescopic accommodation ladder  the crew untied the handrail 
+ropes but left t he handrail chains in place . When the  inboard handrail chain became 
+caught  between the sliding lower ladder and the fixed upper ladder the ERW stepped 
+onto the upper ladder to free it. 
+3.4 Once t he EWR had cleared the inboard handrail chain they picked up the outboard handrail 
+chain and held onto both to prevent them from getting ca ught again. While holding the 
+handrail chains t he EWR stood  on a ladder step close to the top of the fixed ladder.  
+3.5 As the CIR resumed heaving on the fall wire to retract the lower section of 
+accommodation ladder , the ladder  dropped off the Port platform . Because the side 
+chains were slack and not supporting the fixed upper ladder ( see Figure 14) the weight  
+was transferred from the Port platform and onto the fall wire. It resulted in an 
+unexpected and uncontrolled upward movement of the lower ladder.  
+ 
+Figure 14: Accommodation ladder before the accident   
+
+ 
+
+<< Page 18 >>
+ MO-2021 -205 Final Report    
+3.6 The lower ladder slid upwards in its interlocking guides  and before it reached the end 
+point  trapped the EWR’s le  between the top step of the lower ladder and the third 
+step of the fixed upper ladder  (see Figure 15).  
+ 
+ 
+Figure 15: Accommodation ladder dropped off the Port platform  
+ 
+3.7 The EWR had stood  between the two green arrows marked on the steps of the upper 
+ladder. As a result  they were positioned, and  working , in an area that had been 
+identified as unsafe  (see Figure  16). The arrows were a preventative safety action taken 
+in response to a previous accident on another vessel .  
+ 
+ 
+Figure  16: Yellow steps and green arrows marked on the accommodation ladder  
+ 
+
+ 
+MO-2021 -205 Final Report  
+<< Page 19 >>
+ 
+ 3.8 Had the state of the ladder been observed by the team before  starting its retrieval, it is 
+very likely  that the y would have noticed the slack side chains  and, depending upon 
+their knowled e and understandin  of the ladder’s operation, adjusted them . This 
+would have  ensure d that when the ladder fell off the Port platform the weight was 
+taken immediately by the side c hains and the retrieval operation was kept under safe 
+control . Importantly , the lower ladder would not have been subjected to the force 
+necessary for it to slide up the interlocking guide . 
+3.9 The slack side chains were indicative of an  accommodation ladder that had not been  
+tended or adjusted to maintain it in a safe state . When cargo operations were 
+completed, and the stevedores had left the vessel, the requirement to maintain safe 
+access to and from the vessel became less significant .  
+3.10 Had the accommodatio n ladder operating instructions  been followed, specifically that 
+no one was to step on the ladder until the green marks on the upper ladder and the 
+lower ladder fully coincide d, then the injury to the crew member could have been 
+avoided.   
+Risk assessment f or retrieving  the accommodation ladder  
+Safety issue:  The possibility of the accommodation ladder falling off the Port platform had not 
+been identified as a hazard  and risk mitigation control measures were not followed .  
+ 
+3.11 The vessel operator  had conducted in -house training for all crew  in June  2021. It was 
+therefore reasonable to expect that those crew members allocated to  deploying  and 
+retrieving the ladder would be familiar with the hazards identified in the risk 
+assessment  (see Appendix 5).  
+3.12 The operating  procedures for the  accommodation ladder were posted near the ladder  
+and were referred to in the accommodation ladder risk assessment.  
+3.13 Although the risk assessment had addressed the hazard of stored energy , it had not 
+identified all the possibl e scenarios likely to cause the lower ladder to retract in an 
+uncontrolled manner. The hazard associated with the ladder falling off the Port 
+platform was a case in point.  The consequence of retrieving the ladder whilst it was on 
+a platform and the side ch ains were slack had also not been considered . 
+3.14 A review  by the Commission of the ship’s Accommodation Ladder  Rigging  Risk 
+Assessment  found that several hazards identified during the  risk assessment process 
+might have benefitted from more robust control measures . These hazards  are 
+discussed below . 
+Supervision  
+3.15 The risk assessment had identified that a lack of awareness and neglect of procedures 
+for working overside  was considered an extreme hazard associated with operating the 
+accommodation lad der. The control measure in place to mitigate the risk and reduce it 
+to a more manageable level was :  
+‘Constant education of all crew and passing relevant info. Regular safety briefing. 
+Increase awareness. Monitoring & supervision by senior officers / Safety officer. Take all 
+precautions as per SMS rigging accommodation checklist ’ 
+ 
+
+<< Page 20 >>
+ MO-2021 -205 Final Report   3.16 Although there were severa l infringements of the accommodation ladder operating 
+procedure , there was little supervision or intervention by the person in charge of the 
+operation or by the officers  observing . It is reasonable to expect a well -trained crew to 
+exercise their judgement and call ‘stop work’ when they observe  an unsafe condition  or 
+act that may result in an accident  (refer to Part B of the form in Appendix  6).  
+3.17 It is almost certain  that the injury to the crew member c ould have been avoided had 
+the person in charge , or the officers, called ‘ stop work ’ and ensured that the crew 
+member moved to a safe position . 
+Assessing risk  
+3.18 'Inexperienced personnel in the job ’ had been identified as a hazard and was  
+considered to be a high risk . The control measure  identified to miti gate the risk and 
+reduce it to a more manageable level was : 
+‘Good toolbox meeting prior to commencement of the job to make sure all understands 
+what is to be done. Most experience persons to be used for the job. Continuous 
+supervision & monitoring ’. 
+3.19 At the time of the accident the EWR had about 44 weeks ’ experience working on the 
+vessel. Even though the EWR was not a permanent employee, they were regularly 
+rostered as relieving crew on the vessel. They were the most experienced person at the 
+scene in respect of working with the poop deck accommodation lad der. The CIR had 
+recently been appointed as CIR and had not worked with telescopic accommodation 
+ladders before. Similarly, the IR had not worked with telescopic accommodation 
+ladders until sailing on this vessel.  
+3.20 The EWR had been given a late r wakeup call  due the ir duties the previous evening . 
+When they arrived at the work site , the operation to retrieve the ladder had already 
+started . There was no evidence to show that a toolbox meeting had been conducted or 
+that checklist N051014 , ‘Checklist for Pilot, A ccommodation, Combination Ladder ’ (see 
+Appendix 3) had been  completed.  
+3.21 The Commission found that the  last pre-work  meeting  form31 for accommodation 
+ladder operations  that the ERW partici pated in was completed on 22 August 2021 , (see 
+Appendix 6 ) nearly  four months before this accident . The vessel operator  had a policy 
+for completing pre -work meeting forms for routine tasks.  However, for repetitive tasks 
+the policy stated,  “ or certain work acti ities that may be repetiti e o er a relati ely 
+short  period of time, pre -work meeting need not be conducted prior to each occasion 
+that such a task is undertaken so lon  as the hazards remain unchan ed”. The vessel 
+operator told the Commission that for these repetitive work activities, there was an 
+expectat ion that the toolbox  meetings would still be required. An example of repetitive 
+work activity was rigging / unrigging the accommodation ladder or pilot combination 
+ladder.   
+3.22 Had a toolbo x meeting  been completed  and operating instructions consulted  before 
+starting to retrieve  the accommodation ladder , the Commission considers it likely  that 
+the danger area marked on the accommodation ladder would have been discussed  
+and the dangers associated with  it highlighted . 
+ 
+31 A formal r isk assessment to evaluate and manage risks associated with an activity  
+ 
+MO-2021 -205 Final Report  
+<< Page 21 >>
+ 
+ 3.23 By not completing a toolbox  meeting before starting work , the crew missed the 
+opportunity to review the risks and mitigation strategies  and familiarise themselves 
+with their role and responsibilities before starting  a routine high -risk activit y. 
+Working overside and fall ing overboard  
+3.24 Falling overboard  had also been identified  as a hazard and was considered high risk 
+with a consequence of  injury or death.  The control measure to mitigate th e risk and 
+reduce it to a more manageable level was for a safety wire to be rigged above the 
+accommodation ladder and used by the crew to clip on a safety harness  or fall arrestor . 
+A gangway net was also to b e provided.  
+3.25 At the time of the accident the gangway net had been removed and stored away , 
+which  substantially increase d the consequence  had someone f alling overboard . It 
+reinforce d the need  for crew working over side to wear  a safety harness or fall arrestor 
+connected to a  designated anchor  point .  
+3.26 On this occasion t he designated anchor point was a wire sling rigged above the ladder. 
+The wire was manually spliced and connected across the ladder posts . There was no 
+safe workin g load marked on the wire  and nothing to show that the wire met any 
+New Zealand or international standard to withstand a shock load caused by a person 
+falling.  
+3.27 New Zealand Maritime Rules Part 49.4 governs the maintenance and inspection of 
+ships’ lifting ap pliance and loose lifting gear. The wire sling used at the 
+accommodation ladder was not part of the ship’s liftin   ear. The industry best 
+practice is that all wire slings on board a ship have an identification number and a safe 
+working load marked on them , and are inspected and maintained to a similar standard 
+as lifting gear.  
+3.28 While New  Zealand has not formalised these best practises , the United States of 
+America ha s, through  implementing U S Department of Labor Occupational Safety and 
+Health Administration (OSHA) standards 1910.184 , which state:  
+• 1910.184(c)(11): shock loading is prohibited  
+• 1910.184(c)(13): employers must not load a sling in excess of its recommended safe 
+working load as prescribed by the sling manufacturer on the identificati on markings 
+permanently affixed to the sling  
+• 1910.184(c)(14): employers must not use slings without affixed and legible 
+identification markings.  
+3.29 The standard  is accentuated by the United States Coast Guard, Marine Safety Alert, 
+04-2 ‘Verify Your Wire Rope Terminations32: Incorrect Terminations can Lead to 
+Catastrophic Failure ’. The safety alert focuses on the importance of verifying the 
+condition and manufacturing of the wire sling terminations used in a load -handling or 
+lifesaving capacity such as this one . 
+3.30 Notwithstanding the need for certified anchor points , at the time of this accident the 
+crew working over board  were not wearing either a safety harness  or a fall arrestor .  
+3.31 In respect of this accident neither  a safety harness  nor fall arrestor would have 
+prevented the accident from occurring, but it demonstrate s a gap between  the 
+ 
+32 the end or ends of a wire rope made by forming an eye through splicing or using engineered fittings  
+ 
+
+<< Page 22 >>
+ MO-2021 -205 Final Report   operator’s  risk mitigation requirements  and the equipment  and practices onboard  the 
+vessel .  
+3.32 The vessel operator had developed a ship specific accommodat ion ladder procedure, 
+supported by a risk assessment and the crew had been trained in its use.   
+3.33 Safety procedures and instructions alone cannot guarantee that a particular operation 
+is conducted safely ; to be effective crew members must follow and comply with them .  
+3.34 However, w hilst the vessel continues to operate with the same telescopic  
+accommodation ladder s the risk assessment for the operation should be revie wed and 
+procedures contained within the operator’s     updated in light of  this accident . The 
+Commission has made a recommendation in section 6 of this report to address this 
+safety issue.  
+Safety Culture and Leadership  
+Safety issue:  Non-conformance to operating procedures and a diffusion of responsibility with 
+respect to oversi ght and supervision are symptomatic of more systemic issues regarding the 
+safety culture onboard.  
+3.35 Following the operator’s own internal investigation into the MV Szechuen  accident, the 
+operator implemented  several safety actions to help prevent a similar accident . 
+3.36 To ensure fleet -wide awareness of the accident, the operator issued a safety alert that 
+highlighted the root causes and specified the preventative actions to be implemented. 
+One of the immediate c auses identified was that the crew member was in an unsafe 
+position for the task. When the lower section of the accommodation ladder recoiled, it 
+trapped the crew member, causing a serious injury.   
+3.37 The root causes identified in the safety alert  are: 
+• inade quate hazard identification and risk perception  
+• lack of situational awareness  
+• design of the accommodation ladder  with a complicated  rigging/unrigging  process.  
+• improper leadership  
+• inadequate procedures of rigging and securing the accommodation ladder . 
+3.38 The vessel’s accommodation ladder operating procedures had been amended to take 
+into consideration the root causes and preventative actions specified in the safety alert.  
+3.39 As part of the risk mitigation process, the crew received in -house training and were 
+given the  opportunity to discuss the MV Szechuen  accident . The in -house training was 
+intended to  reinforce their understanding of the risk s involved when working with the 
+accommodation ladder, and to appreciate the safety benefits of the protections 
+Implem entation is prescribed.  
+3.40 The Moana Chief  accident showed that the implementation of several safety measures 
+identified from the previous accident was ineffective . This was demonstrated by  the 
+crew not follow ing the revised procedures and the lack of interve ntion of other  crew 
+members who were observing the operation .  
+3.41 Crew t raining was an important part of the risk mitigation process . However, there 
+were no audits conducted  to assess whether the training was successful and whether 
+there had been a change in behaviour .   
+ 
+MO-2021 -205 Final Report  
+<< Page 23 >>
+ 
+ 3.42 Non-conformance to operating procedures, and a diffusion of responsibility are 
+symptomatic (indicators) of more systemic issues. The Commission believes that more 
+can be done by both the operator and the onboard management team to improve 
+safety culture and leadership and reduce at -risk behaviour and non -conformance to 
+operating procedures .  
+3.43 The Commission has made a recommendation in section 6.3 of this report to address 
+this safety issue . 
+ 
+
+<< Page 24 >>
+ MO-2021 -205 Final Report   4 Findings  
+Ngā kiteng a 
+ 
+4.1 The dynamic working of the telescopic accommodation ladder and the functions of 
+each of the components w ere not fully understood by the crew.  It is very likely  the risk 
+posed by the loose side chains during retrieval  had not been considered .  
+4.2 The possibility of the accommodation lad der falling off the Port platform during 
+retrieval  had not been considered  by the crew . 
+4.3 The person in charge  did not ensure  that crew members were wearing  the correct  
+safety harnesses and were standing in safe location s, nor that the side chains were 
+correctly adjusted  to support the ladder , before operating the winch.   
+4.4 If the team had conducted an effective risk assessment  before starting  the ladder 
+retriev al operation, it is likely  that they might  have highlighted the need to work in the 
+safe zone, a nd identified the risks associated with the loose side chains, the position of 
+the bottom platform and the need for the correct PPE to be worn.  
+4.5 On this occasion t he lessons learnt from the previous incident  (MV Szechuen ), the 
+ship-specific procedures and r isk assessment were not  adhered to . 
+4.6 The lack of intervention by crew members observing the retrieval of the 
+accommodation ladder indicated a culture of normalised deviation from documented 
+procedures and an acceptance of unsafe behaviours.  
+ 
+MO-2021 -205 Final Report  
+<< Page 25 >>
+ 
+ 5 Safety issues an d remedial action  
+Ngā take haumanu me ngā mahi whakatika  
+General  
+5.1 Safety issues are an output from the Commission’s analysis. They may not always relate 
+to factors directly contributing to the accident or incident. They typically describe a 
+system problem that has the potential to adversely affect future transport safety .  
+5.2 Safety i ssues may be addressed by safety actions taken by  a participant ; otherwise the 
+Commission may issue a recommendation to address the issue.   
+Risk assessment for rigging the accommodation ladder  
+ 
+Safety issue:  The possibility of the accommodation ladder falling off the Port platform had not 
+been identifie d as a hazard.  
+5.3 Following the accident Swire Shipping (NZ) Limited has completed the following safety 
+actions : 
+• updated their procedures for operating the accommodation ladders  to include  
+lowering procedures and stowing procedures  
+• updated the risk assessment for accommodation ladder operations  to include  the 
+possibility of the ladder falling off the Port platform  
+• implemented pre -work and toolbox meetings for each occasion the ladder is 
+deployed  
+• commissioned three  newly designed accommodation ladders  for the vessel. The new 
+design incorporated a rack and pinion system that eliminated the risk of entrapment, 
+or sudden and rapid movement of the telescopic ladder. The new ladders, winches 
+and davit arms were installed on the vessel in January  2023. The n ew gangway 
+ladders and their installation were approved by Class (DNV).  
+The safety culture and leadership  
+ 
+Safety issue:  The non -conformance to operating procedures and a diffusion of responsibility 
+with respect to oversight and supervision are symptomatic of more systemic issues regarding 
+the safety culture onboard.  
+ 
+5.4 To address this safety issue , Swire Shipping (NZ) Limited have created a new role of 
+Vessel Safety Officer. Some of the responsibilit ies of this role are: 
+• monitoring onboard safety meetings – attending meetings and providing feedback to 
+senior officers to improve safety standards/culture on vessels . 
+• join vessel for short trips to monitor crew safety, ensuring commitment and 
+competence to agreed standards, providing feedback to ship and shore 
+management . 
+• onboard safety monitoring during layups and dockings, ensuring compli ance with 
+safety policy and procedures . 
+ 
+
+<< Page 26 >>
+ MO-2021 -205 Final Report   5.5 The Commission welcomes the safety action to date. However, it believes these 
+processes need constant attention to ensure the safety of future operations. Therefore, 
+in section 6.3 the Commission has made a recommend ation to the operator to address 
+this issue.  
+Other safety action  
+5.6 Participants may take safety actions to address issues that would not normally result in 
+the Commission issuing a recommendation.  
+The following safety actions have been taken  by Swire S hippin g (NZ) Limited . 
+5.7 A Safety Alert was  issued to  all the company ’s vessels . The  safety alert was discussed at 
+the safety meetings with all crew. The CCTV of the incident was viewed  and learnings 
+discussed.  
+5.8 For crew to be involved in the accommodation ladder  operations on Moana Chief , they 
+are now required to be trained on the operation, be familiar with the operational 
+procedures  and complete a sign off .  
+5.9 Swire Shipping (NZ) Limited  has created a new role  of Vessel Safety Officer  which  
+started  in July  2022 .  The  responsibilities of the role include in -house training seminars  
+on safety awareness . Following the incident on the Moana Chief , a safety -awareness 
+seminar was run in August 2022 and was attended by all crew.  
+5.10 Other responsi bilities of the Vessel Safety Officer include:  
+Training  
+• develop training documents and facilitate safety training onboard, doing short trips 
+to carry out intensive safety campaigns on company policie s and procedures ( for 
+example,  accident/incident and near miss reporting; slips/trips/falls) and work with 
+crew to ensure that safety reporting is being done  
+• conduct training of other employees  and contractors associated with Swire Shipping 
+(NZ) Limited operations  on company policies/pro cedures , as required   
+• work with key managers in organising and facilitating required training ashore, 
+including a nnual Safety Awareness Course training for all crew  
+• organise required external training with training providers  
+• monitor and ensure compliance of required internal training. Keep records of training 
+conducted for all crew.  
+Safety monitoring  
+• monitoring onbo ard safety meetings – attending meetings and providing feedback to 
+senior officers to improve safety standards/culture on vessels   
+• join vessel for short trips to monitor crew safety, ensuring commitment and 
+competence to agreed standards, providi ng feedback to ship and shore management  
+• onboard safety monitoring during layups and dockings, ensuring compliance with 
+safety policy and procedures  
+• monitor safety procedures for work carried out in loading/unloading cargoes on 
+vessels and in port area s.  Conduct risk assessments if pr ocedures do not address 
+hazards.  
+ 
+MO-2021 -205 Final Report  
+<< Page 27 >>
+ 
+ • work with relevant parties (port authorities, stevedoring companies) to ensure that 
+Swire Shipping NZ Limited  safety requirements/practices are continually met . 
+5.11 The Vessel Safety Officer role  was filled from  19 July 2022 to 7 October  2022. Swire  
+Shipping (NZ) Limited  advised the Commission on 1 March  2023, that the role was  
+vacant, but that they were  taking steps to find a suitable replacement . 
+ 
+
+<< Page 28 >>
+ MO-2021 -205 Final Report   6 Recommendations  
+Ngā tūtohutanga  
+General   
+6.1 The Commission issues recommendations to address safety issues found in its 
+investigations. Recommendations may be addressed to organisations or people . They 
+can relate to safety issues found within an organisation or within the wider transport 
+system that have the potential to  contribute to future transport accidents and 
+incidents.  
+6.2 In the interests of transport safety, it is important that recommendation s are 
+implemented without delay  to help prevent similar accidents or incidents occurring in 
+the future.    
+New recommendations   
+6.3 On 22 March 2023,  the Commission recommended that Swire Shipping (NZ) 
+Limited review their safety mana gement system to ensure that  safety leadership 
+is developed  at all levels within the organisation  to help develop a strong safety 
+culture.  006/23.  
+ 
+6.4 On 22 March 2023,  the Commission recommended that Maritime New Zealand 
+develop and disseminate clear guidance to highlight the inherent risks associated 
+with the telescopic accommodation ladders 007/23.  
+On 29 March 2023 , Maritime New Zealand replied:  
+I write in response to  your letter of 24 May 2023 notifying Maritime New Zealand of 
+the final shape of recommendation 00 7/23; to be included in Report MO -2021 -205. 
+ 
+Whilst we have not seen the recommendation in the context of the final report, 
+Maritime New Zealand accepts  the final recommendation 007/23; as outlined in your 
+letter: “On 22  arch 2023, the Commission recommended that  aritime New Zealand 
+develop and disseminate clear guidance to highlight the inherent risks associated with 
+the telescopic accommodation ladders.”  
+ 
+Thank you again for this notification, the opportunity to comment and your careful 
+consideration of our comments.  
+ 
+ 
+MO-2021 -205 Final Report  
+<< Page 29 >>
+ 
+ 7 Key lessons  
+Ngā akoranga matua  
+ 
+7.1 The management of a hazard does not end with the implementation of risk controls . 
+Monitoring and reviewing the effectiveness of the controls is an ongoing process and 
+one which should be formalised into the SMS. It should include actively seeking and 
+considering feedback from those personnel in volved  with the hazard as part of their 
+work . 
+7.2 Safety procedures and instructions have to be  actively  and intelligently  complied with  
+for them  to be effective . By themselves t hey cannot provide assurance that a particular 
+operation is safe; safety leadership is required at all levels within an organi sation and is  
+essential to the establishment of a strong safety culture.  
+ 
+
+<< Page 30 >>
+ MO-2021 -205 Final Report   8 Data summary  
+Whakarāpopoto raraunga  
+Vehicle particulars  
+Name:  Moana  Chief  
+Type:  Container vessel  
+Limits:  Sea Areas A1, A2, A3  
+Classification:  DNV  GL (Det Norske Veritas  and Germanischer Lloyd).  
+Length:  175.47 m  
+Breadth:  27.67 m  
+Gross tonnage:  18358 tonne  
+Built:  2010  
+Propulsion:  HHM -MAN B&W 7S 60MC -C MK 16660 kW at 105 RPM  
+Service speed:  20.5 knots  
+Owner/operator:  John Swire & Sons Limited  / Swire Shipping  (NZ) 
+Limited  
+Port of registry:  Auckland , New  Zealand  
+Minimum crew:  12 
+Date and time  
+ 10 December 2021, 0726  
+Location  
+ Port of Auckland , New  Zealand  
+Persons involved  
+ Seven  
+Injuries  
+ One 
+Damage  
+ Secondary incident damage to accommodation ladder  
+ 
+MO-2021 -205 Final Report  
+<< Page 31 >>
+ 
+ 9 Conduct of the Inquiry  
+He tikanga rapunga  
+ 
+9.1 On 10 December 2021 , the Deputy Compliance Manager, Maritime New  Zealand,  
+notified the Commission of the occurrence. The Commission subsequ ently opened an 
+inquiry under section 13(1) of the Transport Accident Investigation Commission Act 
+1990  and appointed an Investigator -in-Charge.  
+9.2 On 10 December 2021  at 1350 , a protection order was issued with respect to 
+Moana  Chief  to protect evidence until the investigators arrived.  
+9.3 On 10 December 2021  at 1402 , a protection order was issued to  Ports of Auckland  to 
+protect evidence until the investigators arrived.  
+9.4 On 12 December 2021 , two investigators from the Commission boarded the 
+Moana  Chief to conduct interviews and gather further evidence.  
+9.5 On 1 4 December 2021, two investigators from the Commission visited Port s of 
+Auckland to conduct interviews and gather further evidence.  
+9.6 On 20 December 2021, two investigators from the Commission visited Port s of 
+Auckland to conduct interviews and gather further evidence.  
+9.7 On 2 1 December 2021, two investigators from the Commission visited Swire Shipping 
+(NZ) Limited at Auckland  to conduct interviews and gather further evidence.  
+9.8 On 25 July 2022 , two investigators from the Commission visited Moana  Chief  at 
+Auckland , to conduct inte rviews  with the injured person  and gather further evidence.  
+9.9 On 16 November 2022 , the Commission considered a Draft Report but deferred 
+approval  until after amendments  had been made . 
+9.10 On 7 December  2022 , the Commission considered a revised Draft Report , and 
+approved that Draft Report for circulation to  five interested parties  for their comment.  
+9.11 The Commission  received four responses , of which three were submissions and one 
+had no comment. No comments were received from one interested party.  Changes as 
+a result of the submissions  have been included in the Final Report.  
+9.12 On 22 March 2023 , the Commission approved the Final Report for publication.  
+ 
+
+<< Page 32 >>
+ MO-2021 -205 Final Report   Abbreviations  
+Whakapotonga  
+  
+CCTV  closed circuit television  
+CIR Chief Integrated Rating  
+EWR Engine Room W atch Rating  
+IMO International Maritime Organization  
+IR Integrated Rating  
+ISM International Safety Management  
+kW kilowatt  
+MSC Maritime Safety Committee  
+NZ New Zealand  
+PPE personal protective equipment  
+SMS safety management system  
+SOLAS  Safety Of Life At Sea  
+UK United Kingdom  
+  
+  
+ 
+MO-2021 -205 Final Report  
+<< Page 33 >>
+ 
+ Glossary  
+Kuputaka  
+Able Seafarer 
+Deck a crew member who can perform the functions and duties of a deck 
+crew member on ships  
+accommodation 
+ladder  a point of access to a ship’s deck for shore person nel, accommodation 
+ladders are rigged in the fore and aft direction of the ship and face 
+astern  
+bridge  the place  on a ship from which  the vessel is normally controlled  
+cheek plate s plates on each side of the sheave, to preve nt the wire from coming off 
+the sheave  
+Chief Integrated 
+Rating  a boatswain, also known as a petty officer on a merchant ship , who 
+controls the work of other seamen.  
+command  to have control of  a ship  and to be in charge  
+disembarkation  leaving or getting off a ship  
+draught  the depth of the hull immersed in the water  
+embarkation  boarding or going on a ship  
+Engine Room 
+Watch Rating  a crew member in a manned engine room or periodically unmanned 
+engine room on a ship of any propulsion power in any operating area  
+fall arrester  safety equipment used, when working at heights or over the side of a 
+ship, to stop a downward free fall and prevent serious harm or death  
+of the person  
+fall wire  the steel wire rope on a winch used for lowering or lifting a load  
+inboard  towards the centre of a ship   
+ 
+
+<< Page 34 >>
+ MO-2021 -205 Final Report   Integrated Rating  a crew member who can perform the functions and duties of a deck 
+crew member on ships or a crew member in a manned engine room 
+or periodically unmanned engine room  
+main deck  the main  continuous deck of a vessel  
+MSC Circular  a statutory document issued by I O’s Maritime Safety Committee  
+outboard  
+pre work meeting 
+form  away from the centre of a ship  
+a formal risk assess ment  to evaluate and manage risks associated with 
+an activity  
+Pilot a mariner who manoeuvres ships through dangerous or congested 
+waters, such as harbours or river mouths  (maritime pilot, marine pilot, 
+harbour pilot, port pilot, ship pilot or simply pilot ) 
+poop deck  a short, high deck located at the stern  of a ship  
+rigging  setting up a device or equipment  
+sheave  a grooved wheel that spins on an axle, often used for changing the 
+direction of a wire rope  and to lessen the effects of friction  
+SOLAS  
+Conventio n International Maritime Organi zation’s International C onvention for the 
+Safety Of Life At Sea  governing maritime safety  
+starboard  the right side of a vessel when facing forward  
+telescopic  having a construction consisting of sections designed to slide over 
+one another  
+toolbox meeting  an informal safety meeting generally conducted at the job site before  
+the start of a job or work shift  – it forms  part of an organi sation's 
+overall safety program me.  
+unmooring  a procedure  to release and cast off the lines of a vessel from the 
+fixtures to which it is moored  
+unrigging  to stow away equipment of a device  
+ 
+MO-2021 -205 Final Report  
+<< Page 35 >>
+ 
+ wharf  a structure built alongside or perpendicular to the shore where ships 
+berth for loading or disc harging cargo  
+winch  a mechanical device used to pull in or let out or otherwise adjust the 
+tension of a rope or wire  
+wire rope 
+terminations  the end or ends of a wire rope made by forming an eye through 
+splicing or using engineered fittings  
+ 
+ 
+ 
+ 
+
+<< Page 36 >>
+ MO-2021 -205 Final Report   Citations  
+Ngā tohutoru  
+Maritime and Coastguard Agency . (2015) . Code of Safe Working Practices for  
+Merchant Seafarers.  
+International Maritime Organi zation. (2020). International Convention for the Safety of Life at Sea.  
+International Maritime Organsation. (2009). Maritime Safety Committe circular 1331.  
+United States Coast Guard. (2021). Marine Safety Alert 04 -21: Verify Your Wire Rope 
+Terminations: Incorrect Terminations can Lead to Catastrophic Failure.  
+United States Dep artment of Labor. (2019). Occupational Safety and Health Administration 
+standard 1910 -184. 
+  
+ 
+  
+ 
+MO-2021 -205 Final Report  
+<< Page 37 >>
+ 
+ Appendix 1: Survey report for new accommodation 
+ladd er
+ 
+
+ 
+
+<< Page 38 >>
+ MO-2021 -205 Final Report    
+ 
+ 
+ 
+
+ 
+MO-2021 -205 Final Report  
+<< Page 39 >>
+ 
+  
+ 
+  
+
+ 
+
+<< Page 40 >>
+ MO-2021 -205 Final Report   Appendix 2: N051014D Work Overside  
+ 
+
+ 
+MO-2021 -205 Final Report  
+<< Page 41 >>
+ 
+   
+
+ 
+
+<< Page 42 >>
+ MO-2021 -205 Final Report   Appendix 3: N051014C Checklist for Pilot, 
+Accommodation, Combination Pilot Ladder  
+ 
+
+ 
+MO-2021 -205 Final Report  
+<< Page 43 >>
+ 
+ Appendix 4: Moana Chief  Poop deck gangway 
+operating procedures  
+ 
+ 
+
+ 
+
+<< Page 44 >>
+ MO-2021 -205 Final Report    
+ 
+ 
+ 
+ 
+
+ 
+MO-2021 -205 Final Report  
+<< Page 45 >>
+ 
+  
+ 
+  
+
+ 
+
+<< Page 46 >>
+ MO-2021 -205 Final Report   Appendix 5: Risk Assessment  Accommodation 
+Ladder Rigging dated April 2021  
+ 
+ 
+
+ 
+MO-2021 -205 Final Report  
+<< Page 47 >>
+ 
+  
+ 
+ 
+ 
+ 
+
+ 
+
+<< Page 48 >>
+ MO-2021 -205 Final Report   Appendix 6: Pre-Work Meeting Form  
+
+ 
+  
+  
+ 
+  Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its four kōwhaiwhai ,  āori scroll desi ns, from artist  andy Rod ers (N āti Raukawa, 
+Tūwharetoa,  acDou al).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowled e to understand transport accident tra edies and how to a oid them. A ‘waka wha i mārama’ (i te ara 
+haumaru) is ‘a  essel/ ehicle in pursuit of understandin ’. Waka is a metaphor for the Commission.  ārama 
+(from ‘te ao mārama’ – the world of li ht) is for the separation of Ran itāne ( ky  ather) and Papatūānuku 
+(Earth Mother) by their  son Tāne  āhuta ( od of man, forests and e erythin  dwellin  within), which brou ht 
+li ht and thus awareness to the world. ‘Te ara’ is ‘the path’ and ‘haumaru’ is ‘safe’ or ‘risk free’.  
+Corporate: Te Ara Haumaru - the safe and risk free path  
+ 
+The eye mo tif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of knowledge 
+that Tāne  āhuta collected from the hi hest of  the heavens to pass their wisdom to humanity. The continual 
+wave is the perpetual line of influence. The succession of humps represents the individual inquiries.  
+ andy acknowled es Tāne  āhuta in the creation of this Kōwhaiwhai.  
+Aviation: Ngā hau e whā - the four winds  
+To 
+ andy, ‘N ā hau e whā ’ (the four winds ), commonly used in Te Reo  āori to refer to people comin  to ether 
+from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, cloud, and 
+wind. There is a manu (bird) form representing the aircraft that move through Aotearoa’s ‘lon  white cloud’. 
+The letter ‘A’ is present, standin  for a ‘A iation’.  
+ andy acknowled es Ran inui ( ky father) and Tāwhirimātea (God of wind) in the creation of this Kōwhaiwhai.  
+Maritime: Ara wai - waterways  
+The 
+sections of waves flowing across the desi n represent the many different ‘ara wai’ (waterways) that ships sail 
+across. The ‘V’ shape is a ship’s prow and its wake. The letter ‘ ’ is present, standin  for  aritime.  
+ andy acknowled es Tan aroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+ 
+ 
+ 
+ 
+The desi n represents the fluid mo ement of trains across Aotearoa. ‘Rere’ is to flow or fly. ‘Whenua’ is the 
+land. The koru f orms represent the earth, land and flora that trains pass o er and throu h. The letter ‘R’ is 
+present, standin  for ‘Rail’.  
+ andy acknowled es Papatūānuku (Earth  other) and Tāne  ahuta (God of man and forests and e erythin  
+that dwells within) in the cre ation of this Kōwhaiwhai.  
+
+ 
+  
+Recent Maritime  Occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+MO-2020 -205 General cargo vessel, Kota Bahagia, cargo hold fire, Napier Port, 18 December 2020  
+MO-2021 -202 Factory fishing trawler Amaltal Enterprise Engine room fire, 55 nautical miles west of 
+Hokitika, 2 July 2021  
+MO-2021 -203 Collision between fishing vessel ‘Commission’ and container ship ‘Kota Lembah’, 84 
+nautical miles northeast of Tauranga, B ay of Plenty, New Zealand, 28 July 2021  
+MO-2021 -201 Jet boat KJet 8, loss of control, Shotover River, Queenstown, 21 March 2021  
+MO-2021 -203 Collision between fishing vessel ‘Commission; and container ship ‘Kota Lembah’, 84 
+nautical miles northeast of Tau ranga, Bay of Plenty, New Zealand, 28 July 2021  
+MO-2020 -202 Bulk log carrier Funing, Loss of manoeuvrability while leaving port, Port of Tauranga, 6 
+July 2020  
+MO-2018 -206 Bulk carrier Alam Seri , loss of control and contact with seabed, Port of Bluff, 28 
+November 2018  
+MO-2020 -201 Collision between bulk carrier Rose Harmony  and fishing vessel Leila Jo , Off Lyttelton, 12 
+January 2020  
+MO-2019 -204 Capsize of water taxi Henerata , Paterson Inlet, Stewart Island/Rakiura, 12 September 
+2019  
+MO-2019 -203 Bulk log carrier Coresky OL, Crew fatality during cargo -securing operation, Eastland Port, 
+Gisborne, 3 April 2019  
+MO-2018 -205 Fatality on board the factory trawler San Granit, 14 November 2018  
+MO-2019 -202 Fatal jet boat accident, Hollyford Ri ver, Southland, 18 March 2019  
+MO-2019 -201 Jet boat Discovery 2, contact with Skippers Canyon wall, 23 February 2019  
+MO-2018 -202 Accommodation fire on board, fishing trawler Dong Won 701, 9 April 2018  
+
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 21.00          ISSN 1173 -5597 (Print)  
+                        ISSN 1179 -9072 (Online)  

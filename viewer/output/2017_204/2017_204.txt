@@ -1,0 +1,1708 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Final report MO -2017 -204: Passenger vessel Seabourn Encore , breakaway from wharf  
+and collision with bulk cement carrier at Timaru, 12 February  2017  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that  reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of impl ementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+ 
+ 
+ 
+ 
+ 
+Final  Report  
+Marine inquiry MO-2017 -204 
+Passenger vessel Seabourn Encore  
+Breakaway  from wharf  and collision with bulk 
+cement carrier  at Timaru  
+12 February 2017  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : February 2019  
+  
+
+ 
+Transport Accident Investigation Commission  
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and  
+incidents  for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carrie s out its purpose by informing 
+members of the transport sector and the public, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents .   
+ 
+Commissioners  
+Chief Commissioner     Jane Meares   
+Deputy Chie f Commissioner    Peter McKenzie, QC  (until 31 October 2018)  
+Deputy Chief Commissioner    Stephen Davies Howard    
+Commissioner      Richard Marchant  
+Commissioner      Paula Rose, QSO  
+     
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Captain Martin Harper  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Welling ton 6143, New Zealand  
+  
+Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of  supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any proceedings with the exception of a Coroner’s inquest.  
+Owne rship of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is made 
+to the Transport Accident Investigati on Commission.  
+Citations and referencing  
+Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to industry participants only and not 
+discovera ble under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission’s inquiry that are publicly available are cited.  
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe the  degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the 
+Intergovernmental Panel on Climate 
+Change ) Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of oc currence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ 
+ 
+The Seabourn Encore  
+
+ 
+ 
+Location  of accident  
+
+Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ .....................  iii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+3.2. Sequence of mooring failure  ................................ ................................ ................................ ....... 6 
+3.3. Damage assessment  ................................ ................................ ................................ ....................  8 
+3.4. Environmental conditions  ................................ ................................ ................................ ............  8 
+3.5. Mooring arrangement alongside Number One Wharf  ................................ .............................  10 
+3.6. Mooring equipment on board the Seabourn Encore  ................................ ...............................  10 
+3.7. Number One Wharf  ................................ ................................ ................................ ....................  11 
+3.8. PrimePort Timaru – port risk assessment  ................................ ................................ ...............  13 
+3.9. PrimePort Timaru – harbour safety management system  ................................ ......................  14 
+3.10.  Previous accident  ................................ ................................ ................................ ......................  14 
+3.11.  Code of practice for the design of mooring systems  ................................ ...............................  15 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  16 
+4.1. General  ................................ ................................ ................................ ................................ ....... 16 
+4.2. What happened  ................................ ................................ ................................ .........................  16 
+4.3. Why d id some of the shore bollards fail?  ................................ ................................ .................  18 
+Forces exerted on the vessel’s mooring ropes and shore bollards  ................................ ....... 18 
+Bollard securing arrangement  ................................ ................................ ................................ . 19 
+4.4. Integrity of the bollard securing arrangement  ................................ ................................ .........  21 
+Structural condition of the wharf  ................................ ................................ .............................  21 
+4.5. Adherence to the port’s procedures for mooring and high wind warnings  ............................  24 
+5. Findings  ................................ ................................ ................................ ................................ ..................  26 
+6. Safety issues  ................................ ................................ ................................ ................................ ..........  27 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  28 
+General  ................................ ................................ ................................ ................................ ...................  28 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  28 
+8. Recommendations  ................................ ................................ ................................ ................................ . 30 
+General  ................................ ................................ ................................ ................................ ...................  30 
+Recommendation  ................................ ................................ ................................ ................................ ... 30 
+To PrimePort Timaru  ................................ ................................ ................................ .................  30 
+To the Chief Executive of Maritime New Zealand  ................................ ................................ ... 31 
+9. Key lessons  ................................ ................................ ................................ ................................ .............  32 
+Appendix 1: Mooring rope particulars  ................................ ................................ ................................ ...........  33 
+Appendix 2: Mooring rope test certificate  ................................ ................................ ................................ ..... 34 
+Appendix 3: Actual wind speeds and direction  ................................ ................................ .............................  35 
+Appendix 4 : Analysis of the loads imparted – southerly wind 45 knots  ................................ .....................  36
+Final Re port MO -2017 -204 | Page i  
+Figures  
+Figure 1  Mooring arrangement alongside Number One wharf  ................................ ...............................  3 
+Figure 2  Failure of number 26 bollard with two mooring lines attached  ................................ ...............  4 
+Figure 3  Movement of Seabourn Encore’s stern after breaking away from Number One wharf  .........  5 
+Figure 4  Damage sustained by Milburn Carrier II  (left) and Seabourn Encore  (right) ...........................  8 
+Figure 5  Bow (left) and stern (right) mooring and securing arrangement  ................................ ...........  10 
+Figure 6  Split drum mooring winch used to secure mooring lines onboard Seabourn Encore  ..........  11 
+Figure 7  Number One Wharf – ‘hit and miss’ decking under concrete  ................................ ................  12 
+Figure 8  Polar plot showing the crabbing capability - quay on port side shallow water  ......................  17 
+Figure 9  Bollard 26 after the failure showing direction of mooring lines to the ship  ..........................  20 
+Figure 10  The top (left) and bottom (right) welded bolt head plates, same design used to secure 
+bollard 26  ................................ ................................ ................................ ................................ .. 20 
+Figure 11  Decaying timber and corroded bolts supporting bollards 47 (left) and 46  
+(centre and right)  ................................ ................................ ................................ ......................  20 
+Figure 12  Under utilisation of the bollard securing arrangement  ................................ ..........................  21 
+Figure 13  Newly installed steel bollard  ................................ ................................ ................................ .... 22 
+ 
+ 
+ 
+Tables  
+Table 1  Sequence of mooring failure  ................................ ................................ ................................ ...... 7 
+Table 2  Weather forecast obtained by the Seabourn Encore  ................................ ...............................  9 
+Table 3  PrimePort Timaru weather forecast provided to the Seabourn Encore  on 11 February  ........  9 
+Table 4  PrimePort Timaru weather forecast, 12 February  ................................ ................................ .... 9 
+Table 5  Calculated loads on mooring ropes and bollards  ................................ ................................ ... 18 
+ 
+ 
+Page ii | Final Report MO-2017-204 Abbreviations  
+°  degree(s)  
+CCTV   close d-circuit television  
+ISO  International Standards Organisation  
+kgf  kilogram -force  
+m  metre (s) 
+MBL   minimum breaking load  
+mm  millimetre(s)  
+OCIMF   Oil Companies International Marine Forum  
+Opus   Opus International Consultants Limited  
+SMS   safety management system  
+ 
+  
+Final Re port MO -2017 -204 | Page iii Glossary  
+bitts paired vertical steel posts mounted on board a ship , used to secure 
+mooring lines  
+bow or stern thruster  a transverse propulsion device mounted at the bow and/or stern to help 
+make the vessel more manoeuvrable   
+classification society  a non -government organi sation that establishes and maintains technical 
+standards for the construction and o peration of ships and offshore 
+structures  
+fairlead  an opening  at the forward and aft ends of a vessel used to guide a rope , 
+usually to a tug or to the shore, keeping it clear of obstructions and 
+preventing it cutting or chafing  
+head line   mooring rope lead ing forward from the bow and secured ashore  
+knot(s)  nautical  mile(s) per hour  
+panama fairlead  a type of fairlead  specifically designed for use when  a vessel is being towed 
+through the Panama Canal , but also used for routine mooring operations  
+port the left hand side of the ship when looking forward  
+rendering load  a load applied to the mooring winch which, when the brake is applied, 
+causes the drum to rotate in the direction opposite to the driving torque.  
+roller fairlead  a type of fairlead designed to reduce the amount of friction on a rope  
+quarter (port or starboard)  the part of a vessel ’s side towards the stern  
+spring  a mooring rope leading forward or aft to help reduce th e movement of a 
+vessel in a forward or aft direction  
+starboard  the right hand  side of the ship when looking forward  
+stern line  a mooring rope  leading aft from the stern and secured ashore  
+windage area  the exposed area of one side of a vessel above the waterline  
+  
+Page iv | Final Report MO-2017-204 Data summary  
+Vehicle particulars  
+Nam e: Seabou rn Encore  
+Type : passenger ship 
+Class:  Class 1  
+Limits:  unlimited (SOLAS)  
+Classification:  Registro Italiano Navale  
+Length:  210.5 metres  
+Breadth:  28 metres  
+Gross tonnage:  41,865 
+Built:  November 2016  
+Propulsion:  two 6 ,000-kilowatt  electric propulsion motors , each turning  
+one propeller  
+Service speed:  15 knots  
+Registered owner : Seabourn Cruise Line  Limited , part of the Holland America 
+Group  
+Port of registry:  Nassau, Bahamas  
+Crew: 428 
+Date and time  
+ 12 February 2017 at about 15151 
+Location  
+ Number One Wharf – PrimePort  Timaru  
+Injuries  none 
+Damage  
+ the Seabourn Encore  sustained minor indentation damage to the 
+port quarter above the waterline  
+the Milburn Carrier II  sustained damage to the hull , causing a 
+breach of watertight integrity on the starboard side midships in the 
+vicinity of the waterline  
+PrimePort Timaru  sustained damage to Number s One and Two 
+wharfs  
+                                                        
+1 Times in this report are in New Zealand Standard Time (co -ordinated universal time + 12 hours) and are 
+expressed  in the 24 -hour format.  
+Final Re port MO -2017 -204 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 12 February 2017, the passenger ship Seabourn  Encore  was berthed at Number One 
+Wharf in PrimePort  Timaru to facilitate passenger excursions ashore.   The ship w as secured to 
+mooring bollards on the wharf using its own mooring lines.  
+1.2. During the day the weather changed rapidly and earlier than predicted.  The wind increased in 
+intensity and changed direction so as to push the ship away from the wharf.  As a result,  a 
+number of mooring bollards on the wharf  progressively failed by tearing from the wharf.  
+1.3. The resulting load on the remaining mooring lines caused them to break , and the stern of the 
+ship swung across the harbour and collided with a bulk cement carrier th at was in the process 
+of berthing at an adjacent wharf.  The Seabourn  Encore ’s crew were able to establish power to 
+the ship’s propulsion systems in time to lessen the impact and to maintain control of the ship 
+until the wind abated enough to re -secure the ship to its berth with the aid of a harbour pilot 
+and tugs.  
+1.4. As well as the damage to the wharf, t he hull of the bulk cement carrier w as holed near the 
+waterline, but the damage occurred where a water ballast tank was located so did not 
+materially affec t the ship’s stability.  The Seabourn  Encore  sustained damage to its shell 
+plating.  Nobody was injured.  
+1.5. The Transport Accident Investigation Commission  (Commission)  found  that the Seabourn  
+Encore ’s mooring lines and associated equipment were in good condi tion and were not factor s 
+contributing to the accident.  However, the mooring bollards failed because the unique 
+method with which each had been  fastened to the wharf and/or the strength of the underlying 
+wharf structure meant they were  unable to withstand  the forces imparted on them by the 
+Seabourn  Encore ’s mooring lines.  
+1.6. The Commission also found  that the port company had virtually no knowledge of the actual 
+safe working loads of the various mooring bollards on the wharf and that the mooring 
+procedures for the port were not strictly followed.  
+1.7. The Commission also found  that the documented port compa ny response to a predicted 
+weather event was not strictly followed, which was a factor  in neither the ship’s crew nor the 
+port company resources being fully prepared to respond to the predicted change in weather in 
+a timely manner.  However, the prompt actions taken by the ship’s crew when the weather 
+event occurred very likely reduced the consequences of the accident.  
+1.8. The Commission identified two safety issues : 
+ the safe working loads of the bollards on Number One Wharf were unknown and 
+therefore it was not possible to determine whether the mooring plan for any ship was 
+safe 
+ the mooring pro cedures contained in the port  company ’s safety management system 
+were not strictly adhered to and the procedure in the event of a high wind warning was 
+ineffective . 
+1.9. The Commission made a recommendation  to the port operator to address these safety issues . 
+1.10.  The key lessons identified from the inquiry into this occurrence include : 
+ port companies must be aware of the safe working load s of their mooring 
+infrastructure in order to produce safe and effective ship mooring plans  
+ procedures for monitoring and communic ating weather conditions must be robust and 
+strictly followed when harbouring ships that are prone to high winds.  
+  
+
+<< Page 2 >>
+ Final Report MO-2017-204 2. Conduct of the inquiry  
+2.1. Maritime New Zealand  notified the Transport Accident Investigation Commission (Commission) 
+of the occurrence on 12 February 2017, the day of the occurrence.  The Commission opened 
+an inquiry under section 13(1)b of the Transport Accident Investigation Commission Act 1990 
+and appointed an investigator in charge.  
+2.2. On 13 February 2017 two investigators travelled to Akaroa  where  the Seabourn Encore  was 
+lying at anchor.  They interview ed the master, obtained a download of the voyage data 
+recorder, secured documentary evidence, and took photographs of the damage .   
+2.3. On 14 February 2017 contact was established with the Bahamas Flag State administration 
+and agreement was reached that New Zealand would lead the investigation and conduct the 
+investigation on behalf of  the Bahamas.  The flag state administration had requested that the 
+operator of the Seabourn Encore  conduct an inter nal investigation.   
+2.4. On 14 February 2017 in vestigators interviewed the Canterbury harbourmaster and the master 
+of the Milburn Carrier II .  Damaged bollards from the quay and parted mooring ropes from the 
+Seabourn Encore  were secured.  
+2.5. On 16 February  2017 co mmunications were established with the Seabourn Encore ’s operator.   
+2.6. On 24 February 2017 investigators travelled to Timaru and interviewed the port marine 
+manager and the port infrastructure manager.  Documentary evidence was obtained . 
+2.7. On 27 April 2017  investigators travelled to Timaru  and conducted a second interview with  the 
+port infrastructure manager.  Interviews were also conducted with the duty pilot on the day of 
+the accident  and the chief executive officer.  PrimePort Timaru  provide d the Commiss ion with 
+a selection of sample bolts used for securing the shore bollards.  
+2.8. On 28 September 2017 an interview was conducted with the quay watchkeeper  on duty at the 
+time of the accident . 
+2.9. The Commission engaged Quest Integrity to conduct a metallurgy examin ation of the failed 
+bollard securing bolts.  
+2.10.  The operator engaged a naval architect to conduct a mooring load analysis using the Optimoor  
+software.  The Commission obtained a copy of the report  and referred to it in its draft analysis 
+of the facts  
+2.11.  On 25 Oct ober 2018 , the Commission approved the draft report to be circulated to interested 
+persons for comment.  The draft report was sent to 11 interested persons for comment.  
+2.12.  The Commission received submissions from eight  interested persons.  
+2.13.  As a result of the s ubmissions received,  the Commission engaged another  expert to conduct 
+an independent Optimoor mooring analysis.  The results of the second independent  Optimoor 
+mooring analysis were broadly consistent with the findings of the first Optimoor  mooring 
+analysis that had been commissioned by the operator.  
+2.14.  Any changes as a result of the submissions have been included in the final report.  
+ 
+ 
+ 
+  
+Final Re port MO -2017 -204 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  At 0655 on 12 February 2017, the Timaru pilot and an assistant  pilot boarded  the Seabourn 
+Encore  to assist the vessel to enter  the harbour . 
+3.1.2.  At 0711 the master -pilot exchange of information took place  on the bridge.  Based on the 
+forecast  that the wind was going to develop from the south at 15- to 20 -knots2 , it was agreed 
+that the final moorings would consist of six head  lines3 and six stern lines4, and two forward 
+springs5 and two aft springs.    
+3.1.3.  At 0718 all pre -arrival checks had been completed and no deficiencies noted.  
+3.1.4.  At 0758 the Seabourn Encore  arrived alongside at Timaru and commenced secur ing 
+starboard side alongside Number One Wharf.  At 0809 the engine control room reduce d to 
+running one diesel generator . 
+3.1.5.  At 0825  the vessel was all secure  with six head and six stern lines  and two forward and two 
+aft springs .  The line of the berth was 048/228˚ (degrees)  (see Figure 1) . 
+ 
+Figure 1 
+Mooring arrangement alongside Number One Wharf 
+ 
+3.1.6.  At approximately 0825  the shore gangway was connected at 4 deck level, inspected and 
+found safe to use.  Passengers commenced disembarking to shore shortly afterwards.  
+3.1.7.  The Seabourn Encore ’s bridge was permanently manned by bridge watchkeeping officers in 
+port.  In the same way  that the officer  of the watch assumed responsibility for the conduct of 
+the vessel while at sea, the officer of the watch was  also the master ’s representative 
+                                                        
+2 15-20 nautical miles per hour . 
+3 Mooring rope s leading forward from the bow and secured ashore . 
+4 Mooring rope s leading aft from the stern and secured ashore . 
+5 Mooring rope s leading forward or aft to help reduce the movement of a vessel in a forward or aft 
+direction . 
+ 
+
+
+<< Page 4 >>
+ Final Report MO-2017-204 responsible for the bridge watch while the ship was in port.  At 0900 , the bridge logbook 
+show ed, the wind direction was 289 °(degrees) , speed 1.6 knots.  
+3.1.8.  At 1200 the second officer was preparing to take over the bridge watch , and recorded  in the 
+deck logbook that  the wind direction  was 038° at a speed of 4.5 knots.   
+3.1.9.  At approximately 133 0 the dut y pilot was monitoring the weather information  from his home 
+computer and noticed that the wind speed in O amaru, 85 kilometres south o f Timaru , had 
+increased to 30 knots from the south about four hours earlier than predicted .   
+3.1.10.  The pilot  contacted  the security staff stationed at the entrance to Number One Wharf and 
+advised them  that a southerly wind was due in about one hour .   
+3.1.11.  A security guard noted the details on a piece of paper : “southerlies due half hour to one hour 
+2:30pm to 3:00pm, 30 knots O amaru ”.  The security guard then walked on board the 
+Seabourn Encore  and verbally passed on the message to  the ship’s staff at reception and 
+asked them to inform the bridge.   The receptionist telephoned the bridge and passed on the 
+message regarding the ap proaching weather system.  The message was not passed on to the 
+master.    
+3.1.12.  At 1400 the  officer of the watch made an entry in the deck logbook and recorded that  the 
+wind direction was from 320° at a speed of 3.5 knots.  An entry by the same officer of the 
+watch  at 1500 noted the wind direction as being from 231° a t a speed of nine knots.  
+3.1.13.  At 1500 the master visited the bridge to carry out some administrative paperwork . 
+3.1.14.  Shortly before 1515 the master was standing at  the port bridge wing  watching the Milburn 
+Carrier II  manoeuvre stern first into Number Two Wharf when  he felt the vessel heel sharply to 
+port.  He walked across to the starboard bridge wing to investigate and noticed a significant 
+change in the wind direction and strength.  The wind direction had b acked6 to the south  and it 
+had increased in strength to 22-25 knots, which was pushing the vessel off the berth.  
+3.1.15.  At 1516 the ship experienced the effects of a sudden heavy squall.  The wind remained 
+southerly , which was 135° relative  to the ship ’s head ing, gusting up to 45 knots  and pushing 
+the Seabourn Encore  off the berth.   From the bridge t he master estimated  that the stern was 
+about four metres (m)  away from the wharf .  He took charge of the ship from the officer of the 
+watch  and ordered two diesel gene rators so that a bow and stern thruster could be used to try 
+to bring the vessel b ack alongside.  He also ordered all watertight doors to be closed.   
+ 
+Figure 2 
+Failure of bollard 26 with two mooring lines attached  
+                                                        
+6 A meteorological term meaning that the wind direction changed in an anti -clockwise direction.   
+
+Final Re port MO -2017 -204 
+<< Page 5 >>
+ 3.1.16.  Seconds later  a shore mooring bollard holding a forward spring failed , rendering the mooring 
+line ineffective.  This was followed  seconds later by the failure of an aft shore mooring bollard  
+holding two stern lines  (see Figure 2). Both lines became ineffective.  Second s later the 
+bollard holding the second forward spring failed , rendering that line  also ineffective.   
+3.1.17.  At about 1520 three diesel generators were available  and one bow thruster and one stern 
+thruster became  available for manoeuvring.  The master then ordere d four diesel generators 
+in preparation for using the main propulsion.   As they were being prepared , three of the 
+remaining aft mooring lines broke  and the stern drifted away from the berth towards Number 
+Two Wharf.  Only the short est stern line remained intact.  T he additional weight  caused  it to 
+surge on the mooring bitts7 and allowed the Seaborn Encore ’s stern to drift across the 
+harbour.   
+3.1.18.  At 1521 both stern thrusters were thrusting full to starboard.  T he wind was gusting to 45 
+knots when  the Seabourn  Encore ’s port quarter8 made contact with the starboard side, 
+midships, of the Milburn Carrier II , which was in the latter stages of berthing and already had 
+mooring lines ashore  (see Figure 3).  
+3.1.19.  One minute later at 1522,  both bow and stern thrusters were available and thrusting full to 
+starboard  and t he main propulsion was available on bridge control.  
+3.1.20.  The port quarter of  the Seabourn Encore  continued swinging around, cleared  the Milburn 
+Carrier II  and came to rest on the quay side of Number Two Wharf.  The master used  all four 
+thrusters to keep the vessel wedged between Numbers One and Two Wharfs .  
+ 
+Figure 3 
+Movement of the Seabourn Encore ’s stern after breaking away from Number One Wharf 
+ 
+3.1.21.  Two head  lines parted under the additional load  and at  about 1526 t he starboard anchor was 
+let go together with two shackles9 of cable.    
+3.1.22.  At 1528 the harbourmaster was contacted and briefed on the accident .  Two tug s and a pilot 
+were requested.  
+                                                        
+7 Vertical steel  posts mounted on board a ship and used to secure mooring lines.  
+8 The part of a vessel ’s side towards the stern , termed port or starboard quarter.  
+9 A nautical unit of measurement: one shackle equals 27 metres.  
+
+
+<< Page 6 >>
+ Final Report MO-2017-204 3.1.23.  At 1531 the chi ef engineer confirmed that all four diesel generators were available and that 
+the vessel’s flooding sensors had not been activated.  At 1532 an announcement was made 
+to inform passengers about the circumstances of the accident .  
+3.1.24.  At 1552 the duty pilot boarded the vessel and by 1601 the two harbour tugs were secure on 
+the port quarter and the port bow.    
+3.1.25.  At 1806 a bridge team briefing was held . The master and pilot agreed to postpone any 
+attempt to manoeuvre back to Number One Wharf until the wind had ab ated to less than 20 
+knots.  
+3.1.26.  At 1900 the wind strength was recorded  as 11.9 knots  and by about 1955  the Seabourn 
+Encore  had re -secured to Number One Wharf to allow all passengers to re -board the vessel.   
+3.1.27.  The damage was inspected by a Maritime New Zealand  maritime officer, the harbourmaster, a 
+protection and indemnity10 surveyor and the staff captain.  It was decided to allow the vessel 
+to sail to its next port.  At 2356  the Seabourn Encore  departed Timaru for Akaroa.   
+3.2. Sequence of mooring failure  
+3.2.1.  Evidence provided by the port’s close d-circuit television  (CCTV) security camera showed that 
+the failure of shore bollards and ropes occurred in the following sequence :  
+  
+                                                        
+10 Liability insurance for practically all maritime liability risks associated with the operation of a vessel . 
+Final Re port MO -2017 -204 
+<< Page 7 >>
+ Time  
+(hr.min.sec) Bollard  failure  Rope  failure  Comment  
+15.15.43  Bollard 86 or 87  
+ Forward spring  
+ Shore bollard 
+failed  
+(Unclear  from  
+CCTV which 
+bollard failed 
+first, 86 or 87)  
+15.15.48  Bollard 26 
+ Two stern lines  Shore bollard 
+failed , and later 
+recovered from 
+the harbour  
+15.16.11  Bollard 8 6 or 87 
+ Forward spring  Shore bollard 
+failed  and rope 
+slipped off  
+(Unclear from 
+CCTV which 
+bollard failed 
+first, 86 or 87)  
+15.19.32   Stern line surging on mooring 
+bitts Rendered line 
+ineffective  
+15.19.44   Longest stern line parted   
+15.20.15   Second -longest stern line 
+parted   
+15.20.39   Third -longest stern line parted   
+15.20.58  Bollard 46 
+  Shortest aft spring  Bollard failed 
+and line slipped 
+off  
+15.21.28  Bollard 47  
+ Longer aft spring parted  Bollard started 
+to fail and line 
+parted  
+Table 1 
+Sequence of mooring failure  
+  
+
+
+<< Page 8 >>
+ Final Report MO-2017-204 3.3. Damage assessment   
+3.3.1.  A class ification society11 survey by Registro Italiano Navale  was carried out  on board  the 
+Seaborn Encore  in Melbourne, Australia on 3 March 2017.  The survey found that the damage 
+consisted of a side shell indentation on the port side between frames -11 and -13 inside the 
+marina store.  The damage extended 2 -2.5 m above the waterline and was approximately 1. 8 
+m in length and 1.6 m in height. The maximum indentation was 600  millimetres ( mm).  An 
+approved temporary repair was carried out using four steel brackets connecting two side shell 
+longitudinal  frames  and the indented hull plating.  
+3.3.2.  The Milburn Carrier I I suffered damage to the shell plating in way of the number three top wing 
+saltwater ballast tank.  The hull was penetrated and saltwater ballast was emptying into the 
+harbour from below the waterline.  The tank was pumped dry and the damage to the shell 
+plating rose above the waterline (see Figure 4).  
+ 
+Figure 4 
+Damage sustained by  the Milburn Carrier II  (left) and  the Seabourn Encore  (right)  
+ 
+3.4. Environmental conditions  
+3.4.1.  A weather forecast  was produced by Weather Routing Incorporated for  the Seabourn Encore ’s 
+visit to Timaru on 12 February 2017 ; the details are reproduced in Table 2 .  The wind pattern 
+was being generated by an anticyclone ( high pressure ) 1,020 mb (millibars) , situated 240 
+kilometres  south -east of Timaru.  The system was producing a predominantly north -westerly 
+airstream for the duration of the Seaborn Encore ’s visit.  The vessel was due to depart Timaru 
+at 1800 that evening.  
+  
+                                                        
+11 A non-government orga nisation that establishes and maintains technical standards for the construction 
+and operation of ships and offshore structures . 
+
+Final Re port MO -2017 -204 
+<< Page 9 >>
+ Local time 
+Timaru  0700  1000  1300  1600  1900  
+True wind 
+direction  North -east North  West -north-
+west West -north-
+west West -north-
+west 
+Wind speed 
+(knots) 11 6 9 15 14 
+Maximum 
+wind gust 
+(knots) 12 7 23 23 21 
+Table 2 
+Weather forecast obtained by the Seabourn Encore   
+ 
+3.4.2.  The port company, PrimePort Timaru , contracted Blue Skies Weather and Climate Services 
+Limited (Blue Skies) to produce weather forecasts for the harbour area.  The forecast for 12 
+February 2017 is reproduced in Table 3; it was emailed to the Seabourn Encore by the senior 
+pilot on 11 Februa ry 2017.   
+Period  Morning  Afternoon  Evening  Night 
+True wind 
+direction  North  North -west South 
+(developing)  North -west 
+Wind speed 
+(knots) 10 15 15-20 10 
+Table 3 
+PrimePort Timaru  weather forecast provided to the Seabourn Encore  on 11 February  
+ 
+3.4.3.  Another Blue Skies  Weather  forecast for Timaru was printed at 1041 on 12 February 2017 ; it 
+is reproduced in Table 4.  There  was no  change from  the previous day’s forecast.  
+Period  Morning  Afternoon  Evening  Night  
+True wind 
+direction  North  North-west South 
+(developing)  North -west 
+Wind speed 
+(knots) 10 15 15-20 10 
+Table 4 
+PrimePort Timaru  weather forecast , 12 February  
+ 
+3.4.4.  The actual wind speed and direction for the duration of  the Seabourn Encore ’s visit to Timaru 
+can be  found in Appendix 3.  The maximum wind speed was 36 knots and the maximum wind 
+gust 45 knots from the south.  
+3.4.5.  On 12 February, low -water Timaru occurred at 1113 , height 0.5  m, and high water at 1724 , 
+height 2.4  m.  At 1515, the time of the accident , the height of tide was 1.85  m.   
+  
+
+<< Page 10 >>
+ Final Report MO-2017-204 3.5. Mooring arra ngement alongside Number One Wharf 
+3.5.1.  Figure 5 shows the mooring arrangement s forward and aft on  the Seabourn Encore .  At the 
+bow, six of the eight mooring lines were secured on dedicated split drum winches.  The 
+remaining t wo head  lines were secured on mooring bitts.  Seven o f the eight lines were run 
+through roller fairleads12 and one head line was run through a panama fairlead .13  Similarly , at 
+the stern , six of the eight mooring lines were secured  on split drum winches and the remaining 
+two were secured to mooring bitts.  Five of the eight mooring lines were  run through roller 
+fairleads and three were  run through panama fairleads.  All the mooring lines were fairly 
+equally tensioned , and roller fai rleads were later observed to be functioning correctly.    
+              - 
+Figure 5 
+Bow (left) and stern (right) mooring and securing arrangement s  
+ 
+3.5.2.  Figure 5 shows , to scale , the mooring line configuration and the shore mooring bollards used 
+to secure the lines .  All the lines were run to separate shore bollards with the exception of two 
+stern lines placed on bollard 26.   
+3.5.3.  The mooring winches could be used in auto -tension mode or manual mode .  On the day of the 
+accident  the winches were in manual mode and the mooring ropes were secured on the brake 
+of the split drum winches  (see Figure 6).  Two additional lines forward and aft were  secured to 
+mooring bitts . 
+3.6. Mooring equipment  on board the Seabourn Encore  
+3.6.1.  The mooring equipment  on the forward and aft mooring decks includ ed winches, fairleads, 
+rollers, bitts and associated electrical installation s, which had been  certified by the Registro 
+Italiano Navale (RINA) classification society as having being tested and found to b e in 
+compliance with the requirements of RINA’s rules.    
+                                                        
+12 A fairlead is an opening at the forward and aft ends of a vessel used to guide a rope, usually to a tug or to 
+the shore, keep ing it clear of obstructions and preventing it cutting or chafing . A roller fairlead is  a type of 
+fairlead designed to reduce the amount of friction on a rope . 
+13 A type of fairlead  specifically designed for use when  a vessel is being towed through the Panama Canal,  
+but also used for routine mooring operations.  
+
+Final Re port MO -2017 -204 
+<< Page 11 >>
+  
+Figure 6 
+Split drum mooring winch used to secure mooring lines on  board the Seabourn Encore  
+3.6.2.  Each of the split drum mooring winches were designed for a synthetic rope 64mm in diameter 
+with a minimum breaking load of 59 tonnes.  The mooring winches were certified by RINA in 
+August 2015 and commissioned in December 2016.  All mooring winches supported a static 
+pull on the brake of 48 tonnes, which was 76 % of the design mooring rope  minimum breaking 
+load (MBL) fitted on the winches . 
+3.6.3.  The mooring  ropes supplied to the vessel were described as “12 Strand Eurodan ropes in 
+standard white colour with blue T.Y. with 1.8 metre canvas covered eye splice at both end s”.  
+The mooring ropes had been  supplied by Global Marine Supplies in Genoa, Italy  (Appendix 1).  
+They had been certified by classification society Det Norske Veritas – Germanischer Lloyd  
+after witnessing breaking load testing on random samples that failed  at 65 ,484 kilogram -force 
+(kgf) (Appendix  2).  The testing had complied with BS EN14 ISO 2307:2010.   Further tests had 
+been  carried out at the rope manufacturer ’s premises on 23 August 2016, witnessed and 
+certified by the Lloyd ’s Register classification society . 
+3.6.4.  Each rope had been  manufactured from a mix of polypropylene and high-tenacity15 
+polyethylene , and as such had an optimal balance between strength and  ability to stretch 
+under load .  The rope s did not absorb water, floated, and had a melting point of  170°C.  The 
+ropes were reputed to have good abrasion, chemical and ultraviolet resistance.  Each mooring 
+rope was 60 mm in diameter and had a mi nimum required breaking strength of 63,000 kgf.  
+Ropes had been  supplied in two lengths , 200 m and 220  m, and w ere compatible with the 
+mooring winch requirements.  
+3.7. Number One Wharf  
+3.7.1.  Number One Wharf was constructed in 1878  and there had  been a number of modifications, 
+additions and repairs carried out since.  With a length of 380  m and a width of 10  m, the 
+wharf had been  constructed using hardwood timber piles , timber beams and stringers, and 
+more recently a 100 mm thick concrete deck  had been laid over the wooden ‘hit and miss16’ 
+deck  (see Figure 7).  
+                                                        
+14 A BS EN is the British adoption of a European (EN) standard . 
+15 High t enacity is force divided by linear density. High tenacity is generally preferred over mid tenacity. High 
+strength from finer yarns creates a  higher yield with optimum tensile performance.  
+16 The original timber deck had been constructed without proper plann ing or skill , so its quality varie d. 
+
+
+<< Page 12 >>
+ Final Report MO-2017-204  
+Figure 7 
+Number One Wharf – ‘hit and miss ’ decking under concrete   
+ 
+3.7.2.  An engineering assessment of the wharf structure was commissioned by PrimePort Timaru  in 
+early 2016.  It was carried out by Opus International Consultants Limited (Opus) between 
+February 2016 and April 2016.  The inspection r eport was comp leted on 9 May 2016.  The 
+purpose of the inspection was to allow the port company to have a better understanding of the 
+condition of key elements of the structure and to better inform any future maintenance plan.  
+3.7.3.  The i nspection of the wharf  was limited due to access , but it did inc lude an examination of the 
+timber stringers, beams and piles down to water level . It excluded bollards, piles below water 
+level , and the outer edge of the wharf .  The outer two stringers and the ends of some beams 
+were not inspected.  
+3.7.4.  The inspection found decay in many of the stringers and beams  and identified that 
+considerable restorative work was required as a high or urgent priority .  Some areas of the 
+wharf were not to be used  until restorative work was completed.  The report identified a 
+methodology with which replacement or maintenance intervention s could be undertaken  and 
+made several recommend ations  that included : 
+ broken piles are replaced or repaired  
+ excessive decay ed beam s and stringers are replaced or repaired  
+ an inspection regime is adopted and implemented to monitor further decay across all 
+members  
+ a structured management plan to end of life is progressively developed and implemented 
+to manage residual ri sk and maintena nce requirements  
+ PrimePort Timaru  and Opus discuss access/inspection process for the seaward stringer, 
+row A piles and end of beams over row A piles for future maintenance management.  
+3.7.5.  As a result of t he inspection report the infrastructure manager commence d a risk -based 
+approach to dealing with the repairs .  By January 2017 the high -risk areas had been 
+completed, approximately 35 piles  and 40 structural beams had been replaced and parts of 
+the wharf had been down -rated.   
+3.7.6.  The engineering assessment carried out on the wharf structure in 2016 did not examine t he 
+bollard securing arrangement .  However, as structural repairs on the wharf progressed the 
+opportunity was taken to examine the tops of piles used for securing steel mooring bollards.  
+Where the timber structure under a bollard had been repaired , the Pile Repair Progress Report 
+showed that t he port company had taken the opportunity to fit new securing bolts to some of 
+
+Final Re port MO -2017 -204 
+<< Page 13 >>
+ the steel bollards (Figure 11).  Some n ew steel bollards had also been fitted approxima tely 2 
+m back from the face of the wharf , where the supporting timber structure was conside red to 
+be in better condition.  These were specifically to service cruise vessels.  
+3.7.7.  There were no technical drawings or documentation available to assist the infrastr ucture 
+manager to understand the safe working load s with which  the bollards had originally been 
+designed.  The methodology for securing the new bollards and re -securing original bollards 
+was on a ‘like for like’ basis.  
+3.7.8.  To assist the shore mooring hands17 to identify which bollards could be used , a green dot was 
+painted adjacent to each  bollard. Those that were not to be used had red dot s painted 
+adjacent to them.   
+3.8. PrimePort Timaru  – port risk assessment  
+3.8.1.  A port and harbour safety code navigational risk ass essment was carried out by Marico Marine  
+NZ Limited  in 2006 on behalf of PrimePort Timaru . The resulting report w as one of several 
+documents from which the port develop ed a harbour safety management system (SMS).   
+3.8.2.  In respect of Number One Wharf the risk assessment identified that the wharf was used for 
+handling fishing vessels and as a base for the port ’s tug and pilot boat.  
+3.8.3.  The assessment considered navigational, berthing and mooring issues , noting that PrimePort 
+Timaru  no longer maintain ed its own storm lines  and recommending that vessel s instead 
+carried sufficient lines for their needs.  It also identified that the failure of bollards was 
+considered by stakeholders to be a signif icant risk within the port area:  
+Wharf structures and mooring bollards are not surveyed for integrity beyond a 
+monthly visual inspection by the marine manager.  Bollards and piles used for 
+mooring are considered to have breaking strains of around 24 tonnes while the 
+mooring winches of containerships are capable of ap plying 40 tonnes.  
+The marine manager reported a policy to place only one line on each bollard or pile…  
+In practice, it is not always possible to achieve this policy without installing more 
+bollards.  It is understood that a programme of bollard installatio n is in place to 
+achieve the  policy.  
+3.8.4.  The assessment also exa mined the effect s of a beam wind  on a 200  m passenger vessel.  In 
+conclusion it recommended that in the event of a mooring failure in high winds ( 40-50 knots) , 
+handling a vessel would not be possi ble and would “certainly require more than a second tug ”.  
+In cost -benefit  analysis terms it was considered that the strategy of increasing the available 
+bollard disposition was a more prudent course of action.  
+3.8.5.  In conclusion , the assessment  report  referred  to the fact that the port’s policy was to retain a 
+vessel in the harbour during storm events and recommended “the ongoing introduction of 
+mooring bollards to facilitate one line per bollard a nd a periodic structural inspection of its 
+jetty facilities” .  
+3.8.6.  The 2006 port risk assessment was reviewed in 2011  and May 2013 , and in May 2015  
+another port risk assessment report was published.  It identified the risk of a bollard/wharf 
+structure failure.  Key control measures included ; regulations and legislation, c ommercial 
+vessel operations, berthing operations, and training.  The risk rating fell within the “tolerable ” 
+risk definition and action required was “Risk within the ALARP [as low as reasonably 
+practicable] area, procedures and controls to be reviewed ”.   
+3.8.7.  A further risk review was carried out in 2015, and post the accident  in 2017 .   
+  
+                                                        
+17 Port employees who handle mooring lines and place them over the shore bollards.  
+
+<< Page 14 >>
+ Final Report MO-2017-204 3.9. PrimePort Timaru  – harbour safety management system  
+3.9.1.  On 12 March 2015 the Director of Maritime New Zealand confirmed in writing that the SMS 
+for PrimePort Timaru  had been assessed and was confirmed as meeting the requirements of 
+the New Zealand Port and Harbour Marine Safety Code.  Developed jointly by Environment 
+Canterbury and the port company , the code comprised both the council’s and the port 
+company’s SMS.  
+3.9.2.  Contained with in the SMS were the i nstructions for vessel moorings .  The instructions 
+recommended that vessel s longer  than 135  m secure using four head and four stern lines and 
+two springs at each end.  
+3.9.3.  The instructions advised that in the event of a strong w ind warning , the pilot should advise the 
+master to take extra precautions such as running additional mooring lines.  
+3.9.4.  The instruction s made reference to bollards and stated that , “where possible steel bollards 
+should be used when a choice is possible.  Unless approved by the pilot the linesman should 
+adhere to one line per bollard.  It is possible to have two lines on certain steel bollards but this 
+should be avoided where possible ”.   
+3.9.5.  The SMS  also included a procedure for the actions to be taken in the  event of a high wind 
+warning.  The mar ine manager  or duty pi lot was to check the local weather forecast regularly , 
+particularly when bad weather was expected.  When winds in excess of steady north -westerly 
+35 knots were  forecast , the vessel was expected to  run extra moorings.  The tug would  be 
+readied for sea and placed on 10 minutes ’ notice.  
+3.10.  Previous accident  
+3.10.1.   On 4 February 2015  the container vessel E.R. New York  broke loose off the PrimePort Timaru 
+North Mole berth when two timber bollards failed and a sh ip’s line broke .  The vessel was 
+brought back safely alongside by two tugs within 35 minutes of  its breaking loose.  The vessel 
+had berthed in an unusual position that did not facilitate the procedure of one line per bollard 
+and the use of steel bollards.  
+3.10.2.  On that occasion n orth-westerly winds had reached 41 knots.  The lateral force imposed by 
+the wind on the vessel meant that the stern bollards were experiencing a load of more than  25 
+tonnes at the time of the failure.  
+3.10.3.  The causal factor was determined as “a lack of a mooring plan for this class of vessel at 
+Timaru and a subsequent lack of contingency planning ”.  Further contributory factors included:  
+ a lack of clear communication between pilots and mooring staff  
+ a lack of clear lines of responsibility  
+ procedural failures in training mooring staff  
+ a system failure in predicting strong winds locally . 
+3.10.4.  The port ’s internal investigation into the accident  made several recommendations , which 
+included  in part : 
+ undertake a  full analysis of the strength of steel b ollards and  the lateral capacity of the 
+wharf18 
+ establish a new vessel arrival plan for each new class of vessel arriving at the port  
+ analyse the safe working load of all steel bollards  
+ install new steel bollards (appropriately rated) at locations determine d with pilots  
+ establish local weather forecasting  
+                                                        
+18 North Mole.  
+Final Re port MO -2017 -204 
+<< Page 15 >>
+  set up clear communication and responsibility for mooring vessels  
+ ensure reiterating one line per bollard and proper communication between mooring hand 
+and pilot/master in case of deviation.  
+3.11.  Code of practic e for the design of mooring systems  
+3.11.1.  Part four of British Stan dard 6349 :1994 : Code of Practice for Design of Fendering and 
+Mooring Systems provides a reference for calculating expected horizontal loads on shore 
+mooring points (bollards).  Section 10.2 of the code  provides methods for calculating the 
+expected loads on mooring points for vessels over 20,000 tonnes ’ displacement.  In the event 
+of insufficient data being available to carry out the calculations , the standard advises that for 
+cargo vessels and bulk carriers between 20,000 and 50,000 tonnes ’ displacement  (the 
+Seabourn Encore ’s displacement was 24,397 tonnes ) a mooring point should be rated to 80 
+tonnes.  For locations with exceptional wind , the mooring point loads should be increa sed by 
+25%.   
+3.11.2.  The code also advises that the design of the mooring point should be such that if it becomes 
+overloaded the mooring equipment or its anchorage to the structure will fail before the overall 
+structure is damaged.  
+3.11.3.  Examples of various designs of mooring bollards are provided in the code , together with the 
+standard s of the material s required for manufacture.  The code does not provide advice on the 
+required arrangement for secur ing a bollard to a structure other than to say it should be 
+robust, of simple design and designed to minimi se maintenance.  The design of a securing 
+arrangement for a harbour mooring system is generally considered to be the  function of a 
+qualified structural engineer .  
+3.11.4.  Table 9 of the code provides information on the sizes and breaking load s of synthetic mooring 
+ropes normally carried by vessels.  For a cruise vessel the size of the Seabourn Encore , the 
+diameter is expected to be 64-72 mm and the breaking load  46.6 -58.4 tonnes.   The mooring 
+ropes carried on  board the Seabourn  Encore  had a breaking strength of 65 tonnes.  
+
+<< Page 16 >>
+ Final Report MO-2017-204 4. Analysis  
+4.1. General  
+4.1.1.  A large cruise vessel such as the Seabourn Encore  breaking away from its berth could have 
+had serious  consequences.  Although the ship could have been better prepared for the 
+weather event had  the message from the pilot reached the master, once the weather event 
+occurred,  the prompt  reaction  by the ship’s crew  reduced the risk of harm to people  and 
+damage to  property and the environment.  Nevertheless , the Milburn Carrier II , the Seabourn 
+Encor e and Number One and Number Two Wharves still suffered damage , and there was a 
+risk of injury to passengers and other personnel who could easily have been occupying the 
+wharf at the time . 
+4.1.2.  A similar event had occurred at the port in February 2015.  The port’s own investigation report 
+on that accident  had made several important recommendations that required addressing by 
+the port  company .  This latest accident  identified some similarities between the two events 
+and show ed that further progress is still re quired to ensure that large vessels , including cruise 
+vessels , can remain safely alongside in adverse weather conditions.  
+4.1.3.  The following analysis discusses  why the Seabourn Encore  broke away from its berth , and 
+discusses two safety issues:  
+ the safe working loads of the bollards on Number One Wharf were unknown and 
+therefore it was not possible to determine whether the mooring plan for any ship was safe  
+ the mooring procedures contained in the port’s SMS  were not strictly adhered to and the 
+proced ure in the event of a high wind warning was ineffective.  
+4.2. What happened  
+4.2.1.  The Seabourn Encore  was secured to Number One W harf using  six head  lines, six stern lines  
+and two forward and two aft springs .  This exceeded the standard securing arrangement by 
+using  an additional  two head  lines and two additional stern lines. The decision was based on 
+information in the weather forecast  and an expectation that the wind speed would be no more 
+than 2 0 knots from the south later that afternoon.   
+4.2.2.  All the mooring ropes were in good condition ; they followed good leads  from the winches  and 
+passed  through well maintained panama and roller fairleads .   
+4.2.3.  At the time of the accident  the tide was rising.  CCTV footage showed that a ll the stern lines 
+leading from wi nches were fairly equally tension ed with a small amount of slack  on two lines 
+that were turned up on sets of mooring bi tts.  
+4.2.4.  When the  wind changed toward s the south , the relative wind direction19 was about  135°  and 
+pushing on  to the vessel ’s starboard quarter .  As the wind speed increased , the effect s were  
+that the vessel tried to move bodily forward and the stern  tried  to move off the berth.  A 
+warehouse on the wharf was affording the forward half of the vessel some protection from the 
+wind.   
+4.2.5.  The weig ht on the forward springs and stern lines increased significantly , with a consequent 
+increase in the load being applied to the corresponding shore bollards .  When the wind speed 
+gusted to 45 knots, bollards 86  and 87, each holding a forward spring, and bollard 26 holding 
+two stern lines  all failed20 within about 28 seconds . 
+4.2.6.  This meant that f our of the eight mooring ropes that were providing the majority of the holding 
+power were  rendered ineffective  and the remaining mooring ropes and shore bollards were 
+now required to take significantly more load.   
+                                                        
+19 The wind direction relative to the ship’s head measured clockwise from 000° through 180° at the stern, 
+returning to 360° at the ship’s head.  
+20 The point at which the bollards could be considered unfit for purpose.  
+Final Re port MO -2017 -204 
+<< Page 17 >>
+ 4.2.7.  As the load on the remaining mooring lines increased , the stern  started to move further off the 
+berth .  The bridge team had already observed events on the wharf and progressively ordered 
+power for thrusters and main propulsion  with a view to manoeuvr ing the vessel and hold ing it 
+alongside .   
+4.2.8.  About five minutes after bollard 26 failed , all the remaining stern lines parted or slipped off 
+damaged shore bollards , with the exception of one of the stern line s that was surging on a set 
+of mooring bitt s.  As the stern started to drift off the berth , additional load came onto the two 
+aft spring lines and within one minute one of the spring lines had parted and the second  had 
+slipped off a bollard that had failed.   The stern was now free to drift across the harbour 
+toward s Number Two Wharf.  
+4.2.9.  As the bow and stern thrusters became available , an attempt was made to stop arrest the  
+stern swinging down onto  the Milburn Carrier II  and subsequently Number Two Wharf.  By 
+design the vessel was only capable of moving sideways  into a prevailing wind (from the same 
+relative direction ) of approximately 35  knots  (see the polar diagram in Figure 8).  This required 
+all thrusters and main propellers to be available.  At best it m ay have been possible to arrest 
+the swing but it was more likely to have  reduced the rate of drift toward s Number Two Wharf.  
+ 
+Figure 8 
+Polar plot showing the crabbing capability  – quay on port side  shallow water  
+4.2.10.  There were  only six minutes between bollard  26 failing and contact being made with the 
+Milburn Carrier II .  An attempt was made , via v ery-high-frequency radio , to alert  the Milburn 
+Carrier II  to the events quickly unfolding .  It could not be established what channel  was used 
+and the Milburn Carrier II ’s bridge team could not recall receiving the call.  They became 
+aware of the situation when they felt the impact of the Seabourn Encore  amidships on the 
+starboard side , while they were in the latter stages of berthing and already had mooring lines 
+ashore .   
+4.2.11.  Once the Seabourn Encore ’s stern  came to rest , the master decided  to keep it pinned  against 
+Number Two W harf using the propulsion that was available.  T he remaining head  lines and the 
+starboard anchor were used to ho ld the bow close to Number One Wharf.  In doing so the 
+vessel  was kept relatively secure  until the weather conditions improved , tugs and a pilot 
+became available , and it was  considered  safe to manoeuvre back to Number One W harf.    
+4.2.12.  This accident  show ed how quickly events unfolded and the importance of maintaining an 
+awareness of environmental surroundings.  The master was un aware of the  predicted change 
+
+
+<< Page 18 >>
+ Final Report MO-2017-204 in weather pattern .  However,  having the bridge  and engine room permanently mann ed while 
+the vessel wa s alongside  Number One Wharf  improved the reaction time  of the crew.  Once 
+the seriousness of the  situation was recognised the crew ’s actions were timely and effective  
+given the speed with which events unfolded .   
+4.2.13.  Although the duty pilot  had passed on a message, through the port security guard, advising  
+the vessel of the approaching southerly wind , the warning had failed to trigger any direct 
+response from the port and effectively left the ship to its own devices.  This is discussed later 
+in the report.  
+4.3. Why did some of the shore bollards and mooring ropes fail? 
+Forces exerted on the vessel ’s mooring ropes and shore bollards  
+4.3.1.  An analysis of the mooring arrangement at the time of the accident21 examined the load s 
+imparted on individual mooring ropes and shore bollards at a point in time when the wind had 
+changed to the south and was gusting up to 45 knots.  The analysis assumed a pretension on 
+the lines of 5 tonnes and the minimum breaking load reduced to 52 tonnes to allow for the 
+bending of mooring ropes arou nd fairleads .  The results of the analysis at around the time of 
+failure (see Table 5 ) show the approximate forces imparted o n bollards and ropes:  
+Position of 
+mooring rope  Load on the 
+mooring rope  
+(tonnes ) Bollard number  
+(as allocated by 
+the port 
+operator)  Total horizontal 
+force ( tonnes ) 
+on mooring 
+rope and 
+bollard  Percentage 
+strength of 
+reduced 
+minimum 
+breaking load 
+of mooring 
+rope  
+Forward spring  27.8 86 24.6  53 
+Forward spring  23.0 87 20.4 44 
+Stern line 1  
+(Connected to 
+same bollard 
+as stern line 
+2) 29.7  26 29.7  
+(total 59.5  
+tonnes when 
+combined with 
+stern line 2)  57 
+Stern line 2  29.8  26 29.8  57 
+Table 5 
+Calculated loads on mooring ropes and bollards  
+4.3.2.  Appendix 4 show s that at  about  the time shore  bollards  86, 87 and 26  failed, the mooring 
+ropes had not reached their minimum breaking load  and were capable of absorbing 
+considerably more load.  In respect of the four remaining intact stern lines , further analysis 
+show ed that the load on each rope increased until there was a sequential failure  of the three 
+longest lines.  The shortest stern line remained intact , but as the load increased it started 
+surging on the mooring bitts . 
+                                                        
+21 By Stronach & Co Limited, Rev G 01, November 2017.  
+Final Re port MO -2017 -204 
+<< Page 19 >>
+ 4.3.3.  Theoretically, after bollard 26 failed the remaining stern lines that were leading out from 
+winches should have rendered22 before they broke.  At least one of these stern lines was seen 
+to render, but eventually broke soon after.  
+4.3.4.  Industry good  practice in respect of safe mooring practices can be found in the Oil Companies 
+International Marine Forum (OCIMF) publication Mooring Equipment Guidelines (4th Edition).  
+4.3.5.  The OCIMF publication explains that ‘t he primary brake secures the drum, and thus th e 
+mooring line, at the shipboard end when the ship is moored.  The primary brake is designed to 
+render before the loads become excessive to reduce the risk of mooring lines breaking ’.  New 
+winch brakes are normally designed to hold about 80%, of the moorin g line minimum breaking 
+load (MBL) .  In the case of Seabourn Encore  the winches were designed to support a static 
+pull of 48 tonnes before rendering, which is 76% of the mooring lines minimum breaking load .  
+4.3.6.  The OCIMF pu blication  advise s setting the brake  in service to hold 60 % of the mooring rope  
+minimum braking load .  However , the International Standards Organisation (ISO) 3730 
+recommends that  the brake holding capacity for new equipment should be initially left at 80% 
+of the MBL .  The ISO re commendation  makes an allowance for wear and tear of the winch 
+brake  in service and so it is recommended that new equipment be set up  to hold 80 % of the 
+design MBL with a capability of adjusting the holding  load down to 60 % if required . 
+4.3.7.  The Seab ourn  Encore ’s mooring systems were almost new, having only been commissioned to 
+service three  months before the accident.  It could not be established with certainty what the 
+winches were set to render at when commissioned, but it is about as likely as not that it wo uld 
+have been at the 48 -tonnes maximum (76% of the mooring rope minimum breaking load).  
+One explanation for why the mooring ropes broke, rather than the winch rendering is the 
+typical reduction in the rope’s minimum breaking load caused by the change in d irection as 
+the rope passes around mooring leads  and fairleads  at the ship’s side .  
+Bollard securing arrangement  
+4.3.8.  The Commission recovered three of the four bolts  that had been used to s ecure bollard  26, 
+which  had recently undergone refurbishment  (Figure 9 ).  Two securing bolts  recovered  had 
+been passed through the concrete section of the wharf, and the remaining one had been 
+passed through the wooden fendering at the face of the wharf.   The bolts underwent 
+metallurgical examination to identify the failure m ode and assess their suitability .23 
+4.3.9.  The subsequent examination report concluded that:  
+ the bolts failed in shear at the weld  between the head plate  and the bolt (Figure 1 0) 
+ because of the d esign of the welded bolt head arrangement , it was estimated that the 
+bolts had an effective strength of one-half to one -third  of a normal 32  mm-diameter bolt  
+ a comparison to contempor ary bollard designs suggest ed that the use of only four such 
+welded head plate bolts to fix bollards would result in signi ficantly diminished bollard 
+capacity, well below the loading ap plied to the bollards on the day of the accident . 
+4.3.10.  The bollard bolt heads failed as a result of shear overload in the weld between the bolt shank 
+and the head plate.   The total shear area of all four bolts was 400 square millimetres,  which 
+equates to about 27 tonnes force if the load was equally distributed under the bolt head.  If 
+the loading was uneven the load could have been as low as 18 tonnes force.   As shown in  
+Table 5 , any one of the two mooring ropes attached to bollard 26 would have likely exceeded 
+the holding capability of bollard 26.  The two mooring ropes together caused a  total load on 
+the bollard of approximately 60 tonnes,  meaning failure of the bollard  was virtually certain at 
+the time of the weather event.  
+                                                        
+22 A load applied to the mooring winch which, when the brake is applied, causes the drum to rotate in the 
+direc tion opposite to the driving torque.  
+23 Quest Integrity 111352.01, dated 14 November 2017.  
+
+<< Page 20 >>
+ Final Report MO-2017-204  
+Figure 9 
+Bollard 26 after the failure , showing  the direction of mooring lines to the ship  
+ 
+Figure 10 
+The top (left) and bottom (right) welded bolt head  plates , same design used to secure  bollard 26  
+4.3.11.  The metallurgical analysis confirmed that the re was no significant loss of section due to 
+corrosion, but that the shearing had occurred at the weld material , whic h had a total area of 
+about half the cross -sectional area of the bolt shank.  The welded head had therefore become 
+the weakest point in the securing arrangement  (Figure 10 ). 
+4.3.12.  The mooring ropes had an elevation of approximately 30° to the horizontal and therefore had 
+a vertical component creating an uneven distribution of load.  It is likely that the load s being 
+applied to the bolt heads on bollard 26 were  not equal.  As a result,  it is likely that the 
+shearing force required to cause failure w as less than that envisaged at design.  
+ 
+Figure 11 
+Decaying timber  and corroded bolts  supporting bollards 47 (left) and 46 ( centre and right)  
+4.3.13.  A vessel the size of the Seabourn Encore  has a windage area24 of about 5 ,800 square  metres , 
+which  can impart significant loads on mooring lines in strong wind conditions.  On the day of 
+                                                        
+24 The exposed area of one side of a vessel above the waterline.  
+
+Final Re port MO -2017 -204 
+<< Page 21 >>
+ the accident  the loads generated by the wind on the ship and imparted by the mooring ropes 
+exceeded the holding power of some shore bollards.  The reasons for this are  discussed 
+below.  
+4.3.14.  The design used for attaching the head s of the securing bolt s was a key component in 
+providing strength to the bollar ds.  The method used to weld the head s of the bolt s to the 
+shaft s effectively reduced the cross -sectional area s of the bo lts by at least 50% .  This 
+introduced a weak point to the securing arrangement s.  Had the bolt head s been attached to 
+withstand the same load as a 32  mm-diameter bolt , they would have failed at approximately 
+57 tonnes force, nearly three times the apparent  failure load.  
+4.3.15.  Another  factor was that some bollards were secured through decaying timber at the face of 
+the wharf (Figure 11 ), which was the weakest point in the securing arrangement.  The load on 
+the mooring ropes was transferred to the bollard securing bolts  that passed through the  
+supporting timber structure .  The timber was unable to withstand the loads being applied and 
+gave way, causing the bollard s to fail .   
+4.3.16.  Another factor  was the inconsistency in how bollards were  secured.  There were a number of 
+different bollard designs and securing methods in use.  No bollard contained the maximum 
+possible number of securing bolts and the bolt head design for securing them was 
+inconsistent  (Figure 12) .  As a consequence,  the bollards were not secured in a way co nsistent 
+to achieve their designed safe working load , making it virtually impossible to establish a 
+known safe working load for each .   
+ 
+Figure 12 
+Underutilisation of the bollard securing arrangement  
+ 
+4.4. Integrity of the bollard securing arrangement  
+Safety issue – The safe working loads of the bollards on Number One Wharf were unknown  and 
+therefore  it was not possible to determine whether the mooring plan for any ship was safe.    
+Structural condition of the wharf  
+4.4.1.  The 2016 enginee ring assessment of Number One Wharf, commissioned by PrimePort Timaru  
+and carried out by Opus, identified deficiencies in the condition of the supporting timber 
+structure .  As a result of the findings PrimePort Timaru  commenced a long -term, risk -based 
+programme of re placing decaying timber.   
+4.4.2.  The engineering assessment did not examine  bollards or the outer edge of the wharf , but as 
+part of the work in progress for meeting the needs of cruise vessels PrimePort Timaru 
+commenced a programme of installing s ome new bollards  (Figure 13)  and replacing some 
+original bollard securing bolts.  
+4.4.3.  The new bollards were  set further back from the face of the wharf and had a safe working load 
+of 80 tonnes  stamped on the ir base s.  The replaced bollard securing bolts were of  the same 
+design as those described earlier in this report.  
+
+
+<< Page 22 >>
+ Final Report MO-2017-204  
+Figure 13 
+Newly installed steel bollard  
+4.4.4.  The lack of any historical records held by PrimePort Timaru  in respect of bollard design and 
+securing arrangements meant that the safe working load s or capacity of the bollards were  
+unknown.  The various bollard designs and securing methods meant that each bollard was 
+likely to have its own safe working load.   
+4.4.5.  There had never been a programme of work to load -test bollards and establish their safe 
+working load s.  As part of the risk -based approach to the  restoration and repair work being 
+undertaken it would have been appropriate for PrimePort Timaru to identify the safe working 
+load or  capacity of each bollard , including the new bollards that had been  recently fitted.  
+4.4.6.  Three of the Seabourn Encore ’s head  lines were each secured to one of the new bollards.  
+Although the mooring analysis showed that the loads on these b ollards were  less than those 
+at the stern , the bollards  were secured using the same type of securing bolt as bollard 26 .  
+Given the earlier explanation of the bolts ’ failure it is highly likely that the new bollards as 
+installed would not have met  their designed 80 -tonne capacity.  
+4.4.7.  Som e large , modern types of vessel, such as passenger and container vessels, have large  
+windage area s.  These vessels can impart significant forces on a wharf structure and mooring 
+bollards when the ship s are  exposed to h igh winds from the direction of the wharf.  The overall 
+force th at wind can impart on a ship  can be calculated , and from that the force  that the ship’s 
+mooring lines impart on the wharf bollards can be calculated.  These calculations can then be 
+compared to the safe working load s of the mooring bollards (if known) to which the mooring 
+lines are attached . 
+4.4.8.  Only when these parameters have been established can it be determined whether a berth is 
+suitable for a vessel  to lie safely alongside.  Such parameters  help to identify operational limits 
+and provide guidance as to what additional control measures may be required  for different 
+environmental conditions .  
+4.4.9.  Although PrimePort Timaru had tried to mitigate some anticipated risks of berthing cruise 
+vessels, the  arrival of  the Seabourn Encore  for the first time at Number One Wharf should 
+have prompted both the port and the ship o perator  to satisfy themselves that the allocated 
+berth and the planned mooring arrangement were  fit for purpose .   
+4.4.10.  Other Seabourn  Cruise  Line vessels had visited Timaru previously , but this was the Seabourn 
+Encore ’s first visit.  On this occasion the company had relied on its appointed commercial 
+agent to determine berth suitability. However, the agent ’s assessment had primarily focused 
+on the commercial activities of the vessel during its stay in Timaru.  
+
+Final Re port MO -2017 -204 
+<< Page 23 >>
+ 4.4.11.  Regarding  berth suitability , the New Zealand Port and Harbour Marine Safety Code , a voluntary 
+national standard,  advises a  port operator in part to :   
+ensure that all w harves, including structures, decking, berthing facilities and bollards 
+are suita ble for the ships that use them .   
+Notwithstanding t he need for a port operator to ensure that a wharf is suitable , there is also a 
+need f or ship operators to  establish with t he port operator the suitability of the wharf,  
+preferably through an  exchange of information prior to the ship visit .   
+4.4.12.  The most recent document identif ying risks within the harbour a t the time of the accident  was 
+the 2015 Timaru  pilotage area risk assessment . Prepared in accordance with the New 
+Zealand Port and Harbour Marine Safety Code , the assessment identified seven risks having 
+significant consequences requiring further scrutiny and attention to mitigations and controls.  
+Pertinent to this accident  the risks included wind and wind gusts, vessel mooring line parting 
+and bollard/wharf structural failure.  
+4.4.13.  In relation to these three risks the assessment made reference to the 2015 accident  involving 
+the E.R. New York  breaking away  from the North Mole , an accident  after  which the port had 
+made  several recommendations .  Had all of the  recommendations  from the 2015 accident  
+been implemented throughout the port,  including Number One Wharf, it is likely that this 
+accident could have bee n avoided.  Unfortunately , some measures were still being reviewed 
+and others were only considered relevant to the North Mole.  
+4.4.14.  The steady growth in the number of vessels with large windage area s visiting New Zealand has 
+predominantly reflected growth in  the cruise and container sectors .  Port operators  have to be 
+cognisant  of the fact  that some  New Zealand ports were never designed and constructed to 
+accept vessels  capable of imparting considerable loads on wharves and bollards .   
+4.4.15.  Notwithstanding the advice contained in the New Zealand Port and Harbour Marine Safety 
+Code , port operators should also  consider the integrity of the ir port infrastructure in relation to 
+the types of load that can be expected when vessels with large windage are as are  exposed to 
+strong winds.  
+4.4.16.  To ensure that all New Zealand port operators are aware of the potential implications of 
+securing vessels with large windage area s in their ports , the Commission has made a 
+recommendation to the Chief Executive of Maritime New Zealand to promulgate through the 
+Secretariat of the Port and Harbour Marine Safety Code Steering Group the findings of this 
+report , in particular the potential dangers associated with securing vessels that may be 
+capable of generating loads in excess of those that  the infrastructure can withstand .   
+4.4.17.  Whilst the risks had been identified and kept under review , they had not been made ‘as low as 
+reasonably practicable ’ for the Seabourn Encore  alongside Number One Wharf.  Previous  
+lessons learnt had not been implemented  and therefore the control measures in place at the 
+time of the accident we re not effective.   
+4.4.18.  The Commission would have made a recommendation to PrimePort Timaru to undertake a 
+thorough assessment of the port’s mooring capabilit ies to establish the suitab ility of wharf 
+structures and bollard securing arrangements for vessels approved to enter the port.  Part of 
+that assessment would have been to determine the maximum loading capacity of all bollards 
+within the port and their suitability in respect of the g uidance laid out in the Code of Practice 
+for Design of Fendering and Mooring Systems.  However, this work is currently underway and 
+is detailed in section 7 of this report.  
+4.4.19.  Until this programme of work is complete the Commission has made a r ecommend ation to 
+PrimePort Timaru  to undertake a type -specific ship -to-berth risk assessment for all vessels 
+visiting the port .  The assessment should confirm that allocated berth s are safe for the 
+vessel s, define any operational limits  or restrictions , and identify any  additional control 
+measures that may be required.  
+  
+
+<< Page 24 >>
+ Final Report MO-2017-204 4.5. Adherence to  the port’s procedures  for mooring and high wind warning s 
+Safety issue  – The mooring procedures contained in the port  company’s  SMS  were not strictly adhered 
+to and the procedure in the event o f a high wind warning was ineffective.  
+4.5.1.  Mooring procedures contained in the port’s Quality System Document had been updated to 
+reflect lessons learnt from the breakaway of E.R. New York  from the North Mole. The risk of a 
+vessel breaking away from its berth  had been considered and two key procedures had been 
+developed as an outcome : high wind warning and advice on moorings.    
+4.5.2.  In the event of a high wind warning , the procedure in part required : 
+ the marine manager and/or duty pilot to check the local weather forecast  
+ when winds in excess of 35 knots were  forecast , the marine manager or duty pilot to 
+advise the ship’s agent to inform the vessel to put out extra moorings  
+ a tug to be made ready for sea and placed on 10 minutes ’ notice .25  If a vessel require d 
+assistance the tug  was to assist by pushing up alongside.  
+4.5.3.  The above procedures only applied to vessels berthed at the North Mole.  A strong wind event 
+is relative to the size of the vessel and where it is berthed.   Every vessel must be considered 
+according  to its unique characteristics, which is why ship -specific parameters are essential so 
+that any response  can be  measured and effective.  Likewise , a wind warning procedure must 
+consider all berths and ensure that the response is appropriate.  
+4.5.4.  On this occasion t he duty pilot was monitoring the weather information  and attempt ed to alert 
+the master with advance warning of the predicted increase in wind strength .  However,  the 
+ship’s staff did not act on the information or p ass on the message to the master .  Had they 
+done so  the master would undoubtedly have been better placed to prepar e the ship for the 
+worsening weather.   
+4.5.5.  Although the ship could have been better prepared, on these sorts of occasion  it is likely that  a 
+ship’s master will also need assista nce from the port .  The port ’s own response to the high 
+wind warning was rudimentary and did not automatically trigger the type of support  and 
+resources  the master  may have required , particularly if it had been decided  to run additional 
+mooring lines (to the correct bollards) or if a pilot and /or tugs were  required at short notice .   
+4.5.6.  There were two other o ption s for the duty pilot .  One would have been to inform the vessel’s 
+commercial agent  in accordance with the instructions contained in  the high wind wa rning 
+procedure for the North Mole , and the second would have been to contact the vessel directly 
+and discuss with the master the implications of the new weather information and jointly agree 
+what action needed to be taken.     
+4.5.7.  Had the master  and the pilot discussed the situation  then  measures could have been taken  
+earlier , including running  additional mooring lines , prepar ing propulsion systems, and order ing 
+tugs.  Collectively these measures could have  reduc ed the weight on the mooring ropes and in 
+turn the load o n the shore bollards.   It is feasible  that the reduction in load may have 
+prevented the bollard  failure . 
+4.5.8.  As part of the port’s risk control measures , shore bollards had been colour coded to identify 
+those that  were suitable for use.  The mooring procedure required n o more than one mooring 
+line to be placed over a bollard , and w here possible steel bollards were to be used in 
+preference to timber bollards .  Any change in the procedure required approval fr om the duty 
+pilot.     
+4.5.9.  Although the mooring hands had been trained in the required mooring procedures , one stern 
+line had been  place d over a timber bollard , and t wo stern lines had been  placed over steel 
+                                                        
+25 Placing tugs on stand -by when large -windage vessels are on the North Mole and a high north -westerly wind 
+is forecast.  
+Final Re port MO -2017 -204 
+<< Page 25 >>
+ bollard 26, a refurbished bollard used for servic ing cruise vessels.  It was a departure from the 
+procedure and one that had not been approved by the duty pilot.   
+4.5.10.  Placing two stern lines on bollard  26 significantly  increased the load and highly likely 
+contributed to its failure .  Notwithstanding that, resu lts showed that had only one line been 
+placed on bollard 26 the load being imparted by that one line could have been sufficient to 
+cause failure anyway.  
+4.5.11.  As previously discussed , there were similarities between this accident  and the  previous  2015 
+accident .  Although control measures had been implemented and incorporated as a result  of 
+the previous accident , this accident  shows that further work is still required .  A robust port 
+response to a high wind event, the ability to promulgate  weather information effectively, and 
+tan assessment of  each  ship and its mooring arrangement for a proposed berth  would 
+improve the safety of vessels berthed at PrimePort  Timaru .   
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+<< Page 26 >>
+ Final Report MO-2017-204 5. Findings  
+5.1. The Seabourn  Encore  broke away from its berth during a weather event . The breakaway was  
+caused by  the progressive failure of the wharf mooring bollards  to which the ship’s  mooring 
+lines were attached . 
+5.2. The weather event could not have been  considered extreme or unusual for the port.  
+5.3. The moori ng bollards failed because the unique method with which each  had been  fastened 
+to the wharf and/or the strength of the underlying wharf structure meant they were  unable to 
+withstand the forces imparted on them by the Seabourn  Encore ’s mooring lines.  
+5.4. The mooring procedures for the port we re not strictly followed, which increased the 
+vulnerability of the mooring arrangement.  
+5.5. The Seabourn  Encore ’s mooring lines and associated equipment were in good condition and 
+were not factor s contributing to the accident.  
+5.6. Knowing the safe working load s of the various mooring bollards in a port is critical to safe ship 
+operations.  The port company had virtually no  knowledge of the actual safe working loads of 
+the various mooring bollards on the whar f.  
+5.7. The documented port company response to a predicted weather event was not strictly 
+followed, which resulted in neither the ship’s crew nor the port company resources being fully 
+prepared to respond in a timely manner.  
+5.8. The ship could have been better prepared for the weather event had the message  from the 
+duty pilot been passed to the master.  However, the  prompt actions taken by the ship’s crew 
+when the weather event occurred  very likely reduced the consequences of the accident.  
+  
+Final Re port MO -2017 -204 
+<< Page 27 >>
+ 6. Safety issues  
+6.1. The safe working loads of the bollards on Number One  Wharf were unknown and therefore it 
+was not possible to determine whether the mooring plan for any ship was safe .  
+6.2. The mooring procedures contained in the port’s SMS  were not strictly adhered to and the 
+procedure in the event of a high wind warning was in effective.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+<< Page 28 >>
+ Final Report MO-2017-204 7.  Safety a ctions  
+General  
+7.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  address ing safety issues identified during an inquiry  
+7.2. Since the accident PrimePort Timaru  has reported that : 
+ it has been decided not to allow cruise liners to berth at Timaru in 2019  
+ the mooring procedures  have been updated to include mooring plans for each class of 
+vessel.   The policy of ‘one line one bollard’ has been reemphasised (and trained for) in 
+that it is only permitted on explicit approval by the pilot in charge  
+ additional training of moorings sta ff, particularly the Charge Hands (crew Foreman) on 
+procedures for mooring  has been completed  
+ remote wind sensors were investigated extensively.   MetService consultants conducted a 
+site visit and we have determined that , generally , remote wind sensors were  not required , 
+with the exception of a new wind sensor to be installed on the eastern breakwater  
+ a new prediction model ‘Predict Wind ’ is now being used and MetService remote weather 
+stations are monitored when “Predict wind flags strong winds likely”  
+ high wind procedures have been updated in our pilotage procedure guide and PrimePort 
+Timaru  emergency cards  
+ shore bollards are currently being installed on the North Mole to protect container ships 
+from prevailing norwest winds.   The capex cost  is approx. $150 k 
+ shore bollards for the No1 wharf have been approved by the board and are going through 
+the final engineering design.   These bollards are intended for use by cruise ships should 
+there be any threat of high winds.   The capex cost is estimated at $600k and works are 
+planned for completion by the 2019/20 cruise season  
+ while underway  before the Seabourn accident , extensive bollard strengthening work 
+continues around the port (as below report from our Infrastructure Manager):  
+ completed a bollard condition inspe ction (including bolt systems ’ assessment) of all 
+bollards on all wharves.   Inspection sheets have been completed for every bollard on 
+each wharf  
+ a jacket system has been introduced whereby Bollards identified as “NOT to be 
+used” have a “DO NOT USE” jacket  installed over them  
+ we have removed a few more decayed timber bollards ID through the Condition 
+Inspection process  
+ since June 2017:  
+o 7 new 80T Bollards have been installed on N orth Mole 
+o 3 new 80T Bollards have been installed on number one wharf  
+o 3 new 80T Bollards have been installed on number one wharf X 
+ 20 new 80T Trelleborg Bollards are due to arrive in the next week or so to enable 
+this program me to continue  
+ the long-term plan is to ensure all bollards used by large bulk vessels and container 
+vessel s: 
+Final Re port MO -2017 -204 
+<< Page 29 >>
+ o are of a known strength (e.g. 80 tonne  Trelleborg bollards).   Many of the 
+existing steel bollards in the port have no recorded “load capacity or rating”  
+o bollard bolts with welded heads are eliminated and replaced with 32mm 
+(min) threaded rods  
+o all Bollar d bolts are in place and “tight”  
+o fastening systems are tied to the wharf in a consistent ( “engineered” 
+manner  
+o we have begun replacing all sub strength bollard systems using a risk 
+approach to prioritise replacement.   The priority wharf is North Mole – most  
+(if not all) of the regularly used bollards were replaced earlier this year.    
+7.3. Holland America Group has  reported that : 
+ an internal  investigation report on this accident was concluded in 2017  
+ in future  at all New Zealand ports that are visited by our flee t, the ship’s agent is to obtain 
+written confirmation from the port operator that the bollard capacity meets recognised 
+industry standards and is suitable in all respects for a cruise ship of the size that is being 
+booked.  The agent should request and hav e copies available of the test certificates 
+confirming the SWL (safe working load) of bollards at the assigned berth(s)  
+ when in port, any wind or weather advisory, or warning, that is received by the officer of 
+the watch is to be entered in the ship’s log.  
+ 
+  
+
+<< Page 30 >>
+ Final Report MO-2017-204 8. Recommendations  
+General  
+8.1. The Commissi on may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case , recommendations have been issued to  PrimePort Timaru and Maritime 
+New Zealand.   
+8.2. In the interests of transport saf ety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or accident s occurring in the 
+future.  
+Recommendation  
+To PrimePort Timaru   
+8.3. The r esponsibility for the safety and security of a vessel moored  alongside a harbour wharf lies 
+with both the vessel and the port operator.  Notwithstanding that joint responsibility it remains 
+an important func tion of a port to ensure that the wharf structure and mooring system is 
+adequate for any vessel that intends to use it .   
+Section 7 of this report draws attention to the work that PrimePort Timaru is currently 
+undertaking , and the work it is planning to un dertake,  to improve the condition and reliability 
+of its wharves , associated mooring systems and mooring procedures.    
+Until all of the improvement work has been completed , it is important that the port ensure s 
+that the infrastructure  and procedures in place at any given time are suitable for any vessel 
+intending to use the port.   
+On 21 February 2019  the Commission recommended to the Chief Executive of PrimePort 
+Timaru that , until all the planned improvement work is completed, a ship-to-berth risk 
+assessment be undertaken for all vessels intending to use the port.  The assessment should 
+identify whether a  berth is safe for a vessel  to remain alongside , define any operational limits 
+or restrictions  and identify any additional control me asures that may be required.   This 
+information should be passed to the ship prior to arrival.   (003/19) 
+On 8 March 2019, PrimePort Timaru replied:  
+PrimePort Timaru can confirm that recommendation 003/19 has been fully 
+implemented from February 2018.  
+As TAIC will be aware, the Harbour Master is an appointee of the regional council, 
+who is under a duty to ensure the maritime safety of ports in that region. The 
+Harbour Master regularly makes extensive enquiries of the Port and is provided with 
+the Port E ngineer's six­ monthly assessment of berths. The Harbour Master issues 
+Directions from time to time which, for example, determine the operating 
+requirements and limitations that apply to vessels using the Port and to the Port 
+itself.  
+Under these Directions , vessels must ask the Port for a berth at least 24 hours in 
+advance. The Port must receive a declaration as to the particulars of the vessel. The 
+Port will then determine if the Master holds the relevant Pilot Exemption Certificate 
+(PEC) issued by Maritim e New Zealand under Part 90 of the Maritime Rules. A PEC 
+will not normally be issued for any vessel above 120m LOA.  
+Where a PEC is held, the vessel will be directed to a berth with prior approval for that 
+vessel type from the Harbour Master under his power s contained in Part 3A of the 
+Maritime Transport Act 1994. Monthly meetings are conducted with the 
+Harbourmaster and Maritime New Zealand. Infrastructure is a topic on the agenda. 
+The Harbour Master will have regard to prior use of the berth and the port e ngineer's 
+assessment in determining the grant of approval.  
+Final Re port MO -2017 -204 
+<< Page 31 >>
+  If a PEC is not held by the Master, then a Port Assessment will be jointly completed 
+between the ship and the Port prior to arrival. Further pre -arrival information will also 
+be passed onto the Ma ster via the vessel's shipping agents.  
+The Port Assessment considers relevant factors such as wind conditions, the 
+dimensions (LOA, draft) of the largest vessel to have called at the port, and the 
+official restrictions of the Port and berths imposed by the  Harbour Master and 
+navigation safety bylaws.  
+Pilots work to a pilot procedure guide agreed by all the pilots, applying the Harbour 
+Master's Directions and navigation safety bylaws. The guide details matters relevant 
+to assessing risks such as standard moo ring guides for use at Timaru, high wind 
+procedures for each wharf and operating criteria in different environmental 
+conditions. Pilots must receive from Masters a 'Pilot Information Card' as set out in 
+the pilots' pre -movement checklist. Pilots work with Masters using the mooring guide 
+and passage plan to determine safe piloting of the vessel to an appropriate berth, 
+with Masters having the final say as to the manner in which the vessel is made and 
+declared fast.  
+The Port will also respond to specific requ ests for information or audits from vessel 
+operators such as Coastal Oil Logistics Ltd or cruise liners, using forms such as the 
+Marine Terminal Criteria & Assessment Questionnaire. Audits cover matters such as 
+jetty or berth structure, and the systems and  operations used.  
+To the Chief Executive of Maritime New Zealand  
+8.4. The port company should ensure that a berth allocated to a visiting vessel is suitable.  A 
+prerequisite for achiev ing that is port companies having  an understanding of the loads 
+capable of be ing generated by vessels with large windage areas and whether the port 
+infrastructure is capable of withstanding them.  
+On 21 February 2019  the Commission recommended that the Chief Executive of Maritime 
+New Zealand promulgate, through the Secretariat of t he Port and Harbour Marine Safety Code 
+Steering Group, the findings of this report , in particular the potential dangers associated with 
+securing vessels that may  be capable of generating loads in excess of those that  the port 
+infrastructure can withstand .  Port companies should have a thorough appreciation of the 
+loads involved for various ship types as well as the load limitations of the  port infrastructure.   
+(004/19) 
+On 8 March 2019, Maritime New Zealand replied:  
+The Port and Harbour Marine Safety Code Steering Group is a partnership between 
+Maritime NZ, regional councils and port companies. Its primary responsibility is to 
+implement the New Zealand Port and Harbour Marine Safety Code. Maritime NZ will 
+work with the Secretariat of the Steering Group to p romulgate the findings of the 
+report in that context.  
+As noted in my letter to the Commission on 6 December 2018 I agree that the issues 
+highlighted in this report will be of importance to port companies and consider that a 
+direct promulgation of these iss ues to port companies would also be appropriate in 
+the circumstances. Accordingly, we will also engage directly with port companies and 
+those who work on the ports through their associations and representatives. This will 
+enable Maritime NZ as the regulato r to make its expectations clear as to the actions 
+that port companies should be taking as a result of the findings and ensure that they 
+comply with their maritime safety obligations.  
+I believe that WorkSafe New Zealand will also have an interest in the fi ndings of the 
+final report. Maritime NZ and WorkSafe are co -regulators for health and safety 
+matters in port operations, and we work closely together on all port safety matters. 
+We will share these findings with Worksafe.  
+Once the Commission has released t he final report we will undertake the actions 
+described above. I will advise you after this has been done.   
+
+<< Page 32 >>
+ Final Report MO-2017-204 9. Key l essons  
+9.1. Port companies must be aware of the safe working load s of their mooring infrastructure in 
+order to produce safe and effective ship moori ng plans.  
+9.2. Procedures for monitoring and communicating weather conditions must be robust and strictly 
+followed when harbouring ships that are prone to high winds.  
+ 
+ 
+  
+Final Re port MO -2017 -204 
+<< Page 33 >>
+ Appendix 1: Mooring rope particulars  
+ 
+ 
+ 
+
+
+<< Page 34 >>
+ Final Report MO-2017-204 Appendix 2: Mooring rope test certificate  
+ 
+ 
+
+Final Re port MO -2017 -204 
+<< Page 35 >>
+ Appendix 3: Actual wind speeds and direction  
+
+
+<< Page 36 >>
+ Final Report MO-2017-204 Appendix 4: Analysis of the loads imparted – southerly wind 45 knots  
+ 
+  
+  
+   
+ 
+  
+ 
+ 
+Recent Marine Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+ 
+MO-2017 -203 Burst nitrogen cylinder causing fatality, passenger cruise ship Emerald Princess, 9 
+February 2017  
+MO-2017 -205 Multipurpose container vessel Kokopo Chief , cargo hold fire, 23 September 2017  
+MO-2017 -202 Passenger vessel L’Austral , grounding, Milford Sound, Fiordland, 9 February 2017  
+MO-2016 -206 Capsize and foundering of the charter fishing vessel Francie , with the  loss of eight 
+lives, Kaipara Harbour bar, 26 November 2016  
+MO-2016 -202 Passenger ship, Azamara Quest , contact with Wheki Rock, Tory Channel, 27 January 
+2016  
+MO-2017 -201 Passenger vessel L’Austral  contact with rock Snares Islands, 9 January 2017  
+MO-2016 -201 Restricted -limits passenger vessel the PeeJay V , Fire and sinking , 18 January 2016  
+MO-2016 -204 Bulk carrier, Molly Manx , grounding, Otago Harbour, 19 August 2016  
+MO-2016 -205 Fatal fall from height on bulk carrier, New Legend Pearl , 3 November 2016  
+MO-2015 -201 Passenger ferry Kea, collision with Victoria Wharf, Devonport, 17 February 2015  
+Interim Report 
+MO-2017 -203 
+ Burst nitrogen cylinder causing fatality on board the passenger cruise ship Emerald 
+Princess , 9 February 2017  
+MO-2012 -203 Fire on boa rd Amaltal Columbia , 12 September 2012  
+MO-2016 -203 Bulk log carrier Mount Hikurangi, Crew fatality, during cargo securing operation, 27 
+February 2016  
+MO-2014 -203 Fatal injury, Purse seine fishing vessel,  Captain M. J. Souza ,  24 August 2014  
+MO-2015 -202 Containership Madinah , loss of person overboard, Lyttelton Harbour entrance,  
+2 July 2015  
+MO-2016 -202 Urgent recommendation: Cruise ship Azamara Quest , contact with Wheki Rock, Tory 
+Channel, 27 January 2016  
+MO-2011 -202 Roll-on-roll-off passenger ferry Monte Stello , contact with rock, Tory Channel, 
+Marlborough Sounds, 4 May 2011  
+MO-2014 -201 Dream Weaver , flooding due to structural failure of the hull, Hauraki Gulf, 23 
+February 2014  
+MO-2010 -206 Coastal container ship Spirit of Resolution , grounding on Ma nukau Bar, Auckland,  
+18 September 2010  
+MO-2014 -202 Lifting sling failure on freefall lifeboat, general cargo ship Da Dan Xia , Wellington,  
+14 April 2014  
+11-204 Container ship MV Rena  grounding, on Astrolabe Reef, 5 October 2011  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 17.00        ISSN 1173 -5597 (Print)  
+              ISSN 1179 -9072 (Online)  

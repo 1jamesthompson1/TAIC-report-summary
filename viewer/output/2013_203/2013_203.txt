@@ -1,0 +1,2757 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Final report MO -2013 -203: DEV Aratere , fracture of starboard propeller shaft,  
+resulting in loss of starboard propeller, Cook Strait, 5 November 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission  may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+Final Report  
+Marine inquiry MO-2013-203 
+DEV Aratere ,  
+fracture of starboard propeller shaft  
+resulting in loss of starboard propeller , 
+Cook Strait,  
+5 November 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : November 2016  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and  
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inqu iries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector and the public, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.    
+ 
+Commissioners  
+Chief Commissioner     Helen Cull , QC (until 8 July 2016)  
+Deputy Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Jane Mear es 
+Commissioner      Stephen Davies Howard  
+ 
+     
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Captain I M Hill  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Welling ton 6143, New Zealand  
+ 
+  
+ 
+Important n otes 
+Nature of the final report  
+This report has been prepared in line with the principal purpo se of the Commission , which is to 
+determine the circumstances and causes of occurrences with a view to avoiding similar occurr ences in 
+the future , rather than to ascribe blame to any person .  This final report  has not been prepared for the 
+purpose of supporting any criminal, civil or regulatory action against any person or agency.  The 
+Transport Accident Investigation Commission Act 1990 makes this final report inadmissible as evidence 
+in any proceedings with t he exception of a Coroner’s inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to i ndustry participants only and not 
+discoverable under the Official Information Act 198 2 have been referenced as footnotes only.  Other 
+documents referred to during the Commission’s inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictu res 
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commission.  
+ 
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe the degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(adopted from the Intergovernmental 
+Panel on Climate Change)  Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+The Aratere  in Wellington Harbour
+Photograph courtesy of KiwiRail  
+ 
+Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Reference to expert reports  ................................ ................................ ................................ .............................  iii 
+Glossary   ................................ ................................ ................................ ................................ .....................  iv 
+Data summary  ................................ ................................ ................................ ................................ ...................  v 
+ Executive summary  ................................ ................................ ................................ ................................ ... 1 
+ Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+ Factual information  ................................ ................................ ................................ ................................ ... 4 
+ Narrative  ................................ ................................ ................................ ................................ ....... 4 
+ Vessel information  ................................ ................................ ................................ ........................  6 
+ Analysis: Overview of propeller shaft failures  ................................ ................................ ..........................  8 
+ Introduction  ................................ ................................ ................................ ................................ ... 8 
+ Propellers and propulsion systems  ................................ ................................ .............................  8 
+ The consequence of a propeller failure  ................................ ................................ ...................  11 
+ Causes of propeller shaft failure  ................................ ................................ ..............................  11 
+ Metal fatigue and stress  ................................ ................................ ................................ ...........  12 
+ Vibration  ................................ ................................ ................................ ................................ ..... 14 
+ Cavitation  ................................ ................................ ................................ ................................ ... 14 
+ Analysis: The fracture in the Aratere’s  propeller shaft ................................ ................................ .........  15 
+ What type of fracture occurred on the Aratere ? ................................ ................................ ...... 15 
+ What factors might have contributed to the fracture?  ................................ ............................  17 
+ Analysis: Weakening of the tail shaft and initiation of the crack  ................................ ........................  19 
+ Introduction  ................................ ................................ ................................ ................................  19 
+ Was t here a manufacturing fault in the tail shaft?  ................................ ................................ . 19 
+ Did fretting and/or corrosion contribute to weakening of the propeller shaf t? ....................  19 
+ Analysis: Fitting of the new propellers  ................................ ................................ ................................ .. 21 
+ Introduction  ................................ ................................ ................................ ................................  21 
+ Repla cement of the propellers  ................................ ................................ ................................ . 21 
+ Analysis: Crack propagation from vibration  ................................ ................................ ..........................  25 
+ Introduction  ................................ ................................ ................................ ................................  25 
+ Did resonance contribute to the tail shaft failure?  ................................ ................................ . 25 
+ Did misalignment of the propeller shaft contribute to the shaft failure?  ..............................  26 
+ Did the weight and balance of the propeller cause uniaxial bending forces?  .......................  28 
+ Analysis: Stress loading on the tail shaft from the propeller  ................................ ...............................  30 
+ Introduction  ................................ ................................ ................................ ................................  30 
+ Uniaxial bending as a result of variation in propeller blade pitch  ................................ ..........  30 
+ Cavitation as a result of v ariation in propeller blade pitch  ................................ .....................  31 
+ Extent of cavitation scouring on the rudders  ................................ ................................ ...........  36 
+ Cumulative effect of forces acting on the Aratere’s  starboard propeller shaft  .....................  37 
+ Analysis: ISO standards for manufacturing tolerances  ................................ ................................ ........  39 
+ The manufa cture of the Aratere  propellers  ................................ ................................ .............  39 
+ ISO standards  ................................ ................................ ................................ ............................  39 
+ Analysis: Other matters  ................................ ................................ ................................ ..........................  40 
+ Rudder stock cracking  ................................ ................................ ................................ ..............  40 
+ Oversight of the fitting of new propellers  ................................ ................................ .................  41 
+ Analysis: Summary  ................................ ................................ ................................ ................................ . 43 
+ Findings  ................................ ................................ ................................ ................................ ..................  44 
+ Safety actio ns ................................ ................................ ................................ ................................ .........  46 
+ General  ................................ ................................ ................................ ................................ ....... 46 
+ Safety actions addressing safety issues identified during an inquiry  ................................ .... 46 
+ Safety actions  addressing other safety issues  ................................ ................................ ........  46 
+ Recommendations  ................................ ................................ ................................ ................................ . 47 
+ General  ................................ ................................ ................................ ................................ ....... 47 
+ Recommendations  ................................ ................................ ................................ ....................  47 
+ To the Chief Executive of KiwiRail  ................................ ................................ ............................  47 
+ To Standards New Zealand  ................................ ................................ ................................ ....... 47 
+ Citations  ................................ ................................ ................................ ................................ ..................  49 
+Appendix 1: Port and starboard shaft alignment problems  ................................ ................................ .........  50 
+Appendix 2: ISO 484/1 -1981 accuracy classes and tolerances  ................................ ................................  51 
+Appendix 3: Pitch dimensions and deviations, starboard and port propellers  ................................ ...........  53 
+Appendix 4: Starboard and port shaft alignment – 7 March 2014  ................................ ............................  60 
+ 
+Final report MO -2013 -203 | Page i Figures  
+ 
+Figure 1  Chart of the general area of the incident  ................................ ................................ ..................  3 
+Figure 2  Tory Channel entrance with position of loss  ................................ ................................ .............  5 
+Figure 3  The parts of the propeller  ................................ ................................ ................................ ...........  9 
+Figure 4  The parts of the propeller shaft  ................................ ................................ ...............................  10 
+Figure 5  Image showing example of stress concentration  where a propeller is clamped onto  
+a shaft  ................................ ................................ ................................ ................................ ........  13 
+Figure 6  Illustration of typical bending fatigue failure in a rotating shaft  ................................ ............  15 
+Figure 7  Underwater photograph of the shaft fracture face in the Aratere  ................................ .........  16 
+Figure 8  Origin region showing surface wear/fretting and the start of the taper  ................................  18 
+Figure 9  Location of the 8 mm spacer  ................................ ................................ ................................ ... 23 
+Figure 10   Surface replicas of the cavitation pitting on the blades of the starboard propeller  .............  32 
+Figure 11  Designed cavitation diagram (top) and observed cavitation pitting on the suction side  
+of the blades of t he starboard propeller  ................................ ................................ .................  33 
+Figure 12  Comparison between the as -designed propeller and the recovered starboard propeller  ... 35 
+Figure 13  Cavitation scouring on starboard rudder  ................................ ................................ .................  36 
+Figure 14   Inboard side of the port rudder showing significantly less loss of paint than on the  
+starboard rudder  ................................ ................................ ................................ .......................  37 
+Figure 15  Fracture surfaces found on the starboard rudder stock  ................................ ........................  40 
+ 
+ 
+ 
+Tables 
+ 
+Table 1: Expert investigators referred to in this report  ................................ ................................ ..................  iii 
+Table 2: Comparison of ‘old’ and ‘new’ propellers  ................................ ................................ .......................  28 
+  
+Page ii | Final report MO -2013 -203 Abbrev iations  
+ a vessel built under the supervision of Det Norsk e Veritas  
+1A1  a vessel for which periodic surveys are stipulated in relation to special 
+(main) periodic survey intervals of five years  
+Car and Train Ferry A  a vessel with accommodation for passengers and an enclosed deck(s) 
+for the carriage of vehicles.  The vessel is intended for regular transport 
+service  
+Commission  Transport Accident Investigation Commission  
+DEV diesel electric vessel  
+DG-P  a vessel arranged f or the carriage of dangerous goods in packaged form  
+DNV-GL Det Norske Veritas  Now Det Norske Veritas – Germanischer LLoyd  
+E0 a vessel with machinery spaces for unattended operation during normal 
+service at sea as well as alongside quay  
+General Cargo Carrie r RO/RO  a roll on roll off vessel with an enclosed deck(s) and inner bottom for 
+the carriage of general dry cargoes  
+ISO International Organization for Standardization  
+kg kilogram(s)  
+mm millimetre(s)  
+Mpa mega pascal (s) 
+R2  a vessel with certain modifications  to arrangement, equipment or 
+scantlings in relation to vessels normally built for winter weather 
+conditions in the North Atlantic  
+ 
+  
+ 
+Final report MO -2013 -203 | Page iii Reference to expert reports  
+At various times f ollowing the incident, KiwiRail engaged multiple experts to undertake testing and 
+analysis. The Commission obtained several  of the expert s’ reports and its investigators were  present at 
+some  of the tests the experts undertook . For ease of reading , the table below lists the experts referred 
+to in this report  and the investigations they undertook.  
+Table 1: Expert investigat ors referred to in this report  
+Name of expert  Scope of investigations  Referred to in report  as 
+Quest Integrity 
+Group Limited  Quest undertook metallurgical investigations at 
+various times following the incident. Quest supplied 
+various reports including its March 2015 report 
+analysing the shaft failure.  Quest  
+Wärtsilä Finland Oy  Wärtsilä designed  and manufactured  the new 
+propellers for the Aratere  and produced a report 
+examining torsional  vibration calculations for the 
+Aratere .   Wärtsilä  
+DNV-GL DNV – GL is an international marine classification 
+society  that has been involved with the Aratere  since 
+its construction. Following the incident D NV-GL 
+undertook shaft alignment investigations relating to 
+the incident . DNV 
+Lloyd’s Register 
+Marine  Lloyd’s is an  international marine classification 
+society  that was engaged to carry out a range of 
+investigations. These included metallurgical and 
+vibrat ion investigations as well as ‘gap analysis ’ 
+review s of other expert reports . Lloyd’s  
+Matcor  Matcor is a metallurgical consultancy service that 
+investigated and examined the port and starboard 
+propellers  and the tail shaft fracture , in particular 
+undertaking metallurgic al condition assessment s. Matcor  
+MARIN  (Marine 
+Research Institute 
+Netherlands)  MARIN  undertook a desktop analysis of propeller 
+forces and cavitation, as well as a comparison of the 
+design and as -built geometry of the propellers . MAR IN 
+Stone Marine 
+Shipcare L imited  Stone Marine undertook initial investigations of the 
+propellers following the incident.  Stone Marine  
+Aurecon  Aurecon led KiwiRail’s internal investigation into the 
+incident and produced a ‘Final Report ’ that was 
+publish ed in December 2015.  Aurecon  
+ 
+  
+Page iv | Final report MO -2013 -203 Glossary  
+cavitation  when cavities (bubbles) of vapour form in a liquid at low pressure , when 
+the pressure increases the bubbles implode.  These implosions can 
+cause intense shock  waves that are capable of causing cyclic stress 
+and surface fatigue if near to a metal surface  
+cavitation erosion  damage resulting from the unfavourable development and collapse of 
+cavitation  
+crack initiation limit  the minimum stress required to initiate a fatigue crack in a substance  
+linish ing an engineering term that refers to the process of using grinding or belt -
+sanding techniques to improve the flatness of a surface. The flatness 
+may be two -dimensional, i.e. with a view to achieving a flat plate, or one -
+dimensional, e.g. with a view to achie ving a perfectly cylindrical shape  
+pitch  the distance a propeller would move in one revolution if it were moving 
+through a soft solid, like a screw through wood. For example, a 21 -pitch 
+propeller would move forward 21 units in one revolution  
+propeller blade the helical formed section of a propeller that transmits the rotational 
+torque of the propeller shaft into thrust to propel the vessel.  Blades are 
+designed with all kinds of profile and outline, each offering various 
+benefits in converting torque to thr ust 
+propeller blade leading edge  runs along a blade outline from the root to the tip , separating the 
+pressure suction face of the blade.  A sharp leading edge reduces the 
+load on the shaft but increases the chance of damage.  Most leading 
+edge profiles are  a trade -off between strength and load  
+propeller blade pressure face  the high -pressure side of a propeller blade facing away from the bow of 
+a vessel  
+propeller blade root  where a blade is attached to a hub.  Typically this is the thickest part of 
+the blade  
+propeller blade suction face  the low -pressure side of a propeller blade facing towards the bow of a 
+vessel  
+propeller blade tip  formed between the leading and trailing edges on a blade outline.  The 
+distance from the centre of the hub to the blade tip multiplied by 2 
+describes the propeller diameter  
+propeller blade trailing edge  runs along a blade outline from the root to the tip ; it is where the water 
+exits the blade.  The profile of the trailing edge is critical in reducing 
+noise and harmonics  
+propell er disc the area of the circle scribed by propeller blade tips  
+propeller hub the centre of a propeller . Its function is to provide a method of attaching 
+the propeller shaft to the blades  
+void-space  an area below deck enclosed by bulkheads with limited ope nings that 
+contains nothing . A void-space may also be an enclosed space   
+  
+ 
+Final report MO -2013 -203 | Page v Data summary  
+Vessel  particulars  
+ 
+                                                        
+1 Times in this report are in New Zealand Daylight Time (Co -ordinated Universal Time + 13 hours) and are 
+expressed in the 24 -hour format.  Nam e: Aratere  
+Type : passenger rail ferry  
+Class:  Det Norske Veritas 1A1 R2 Car and Train  Ferry A General 
+Cargo Carrier RO/RO DG -P E0  
+Limits:  seasonal zones for service area notation R2  
+Classification:  Det Norske Veritas  
+Length:  179.28 metres  
+Breadth:  20.27 metres  
+Gross tonnage:  17,186 
+Built:  1998 by Hijos de J Barreras S.A. Vigo, Spain  
+Propulsion:  six diesel generators driving four 2 ,600-kilowatt electric 
+motors coupled in pairs through a reduction gearbox to two 
+four-bladed , fixed -pitch propellers  
+Propeller manufacturer : Wärtsilä CME Zhenjiang Propeller Company Limited, China  
+Service  speed:  19.50 knots  
+Owner  and operator : KiwiRail  Limited  
+Port of registry:  Wellington  
+Minimum crew:  15 
+Date and time  
+ 5 November 2013 at about 19401 
+Location  
+ Cook Strait  
+Persons involved  
+ crew 39 
+passengers 114  
+Injuries  
+ nil 
+Damage  
+ fracture of starboard tail shaft  and loss of starboard propeller  
+
+ 
+Final report MO -2013 -203 
+<< Page 1 >>
+ 
+ Executive summary  
+ On 5 November 2013 the passenger and freight ferry Aratere  was in Cook Strait en-route from 
+Picton to Wellington when the starboard propeller shaft fractured and the propeller was lost .  
+The ship was  able to complete the trip using its port propulsion system only.  
+ When the ship arrived in Wellington, divers confirmed that the starboard propeller tail shaft  
+had totally fractured within its tapered section , near the forward end of the propeller.  
+ New pro pellers had been fitted to the Aratere ’s existing propeller shafts as part of a larger  
+project to lengthen the vessel more than two years prior to the incident.  The starboard 
+propeller along with the remaining section of the tail shaft  was later recovered  from the 
+seabed.  
+ The Transport Accident Investigation Commission (Commission) found that the shaft failed 
+due to a fatigue fracture that had grown ( propagated ) through the tail shaft  to a point where it 
+was unable to carry normal operating loads.  
+ The fati gue crack initiated in an area of fretting on the shaft taper just inside the  bore of the 
+propeller hub.  The fretting was likely to have been the result of a sub -optimal  fit of the new 
+propeller onto the existing tail shaft .  Fretting and corrosion weaken ed the tail shaft and made 
+it more prone to fatigue failure . 
+ The Commission found that vibration from a number of potential sources and uneven thrust 
+between the individual blades of the propeller  caused sufficient uniaxial bending forces to 
+drive the fati gue crack through the tail shaft .  The uneven thrust was the consequence of 
+minor differences in the average pitch of each blade resulting from the manufacturing 
+process, but more so due to the blades being damaged while in service.  
+ The Commission also found  a lack of documentation about the process of fitting the propellers 
+and the final fit achieved. This is significant because the fitting of the starboard propeller 
+resulted in fretting , which weakened the shaft. A recommendation has been made to the Chief 
+Executive of KiwiRail to address this issue . 
+ The Commission has also made a recommendation to Standards New Zealand  to forward the 
+report to the  International Organi zation  for Standardization  Secretariat for its  information  and 
+to consider w hether th e current standards for manufacturing large -diameter marine propellers 
+are appropriate for modern , high-efficiency propellers that operate closer to cavitation 
+margins.   
+
+<< Page 2 >>
+ Final report MO -2013 -203 
+ Conduct of the inquiry   
+ On 6 November 2013 at about 0730, the Transport Accident Inves tigation Commission 
+(Commission) was notified that an incident involving a passenger ferry, the Aratere , had 
+occurred.  
+ The Commission opened an inquiry into the occurrence under section 13(1)b of the Transport 
+Accident Investigation Commission Act 1990 an d appointed an investigator in charge.   
+ That day t wo investigators attended the vessel in Wellington , where  it was docked.  The 
+investigators conducted interviews with the crew of the vessel and collected evidence.   
+ During the next few days the investigators were involved in liaising with staff at KiwiRail 
+Limited ’s ferry operations head office and collecting further evidence , including a download of 
+the voyage data recorder and videos of the underwater inspections of the pr opeller shafting.  
+ Further information was sourced from the propeller and power train manufacturer, the 
+vessel’s classification society, metallurgists, Lloyd ’s, structural engineers and propeller 
+experts.   
+ On 23 April 2015  the Commission approved the draft  final report to be circulated to interested 
+parties.  
+ The report was distributed to 10 interested parties with a closing date for receiving 
+submissions of 30 June 2015 ; on request the closing  date  was extended to 17 July 2015.  
+Submissions were received fr om eight interested parties.  
+ The submissions were substantial and included divergent opinions from several subject -
+matter experts . 
+ After receiving  submissions , the Commission sent its draft final report to the commercial arm 
+of the Australian Maritime Coll ege (AMC Search)  for an independent peer review .  The 
+Commission received the peer review on 25 November 2015 .  The peer review recommended 
+that further work be done to resolve some of the divergent views expressed in the 
+submissions.  This work was conduc ted in the ensuing months, and the report was then 
+redrafted to incorporate the submissions received , AMC  Search ’s comments , and the results 
+of the additional research.  
+ On 27 July 2016  the Commission , considering the substantial changes made to the report,  
+approved the draft report being  sent back to interested persons for further consultation . 
+ The report was distributed to 1 1 interested p arties  with a closing date for receiving 
+submissions of 12 September 2016 ; on request the closing date was extended to 3 0 
+September 2016.  Submissions were received from four interested parties.  
+ The Commission has considered in detail all submissions made and any changes as a result 
+of those submissions have been included in the final report.  
+ On 2 November 2016  the Commissi on approved the report for publication.   
+ On 16 November the Commission received a further submission from KiwiRail  in response to  
+the final safety recommendation made to KiwiRail.   
+ On 24 November the Commission heard from KiwiRail on its submission and a ny changes as a 
+result of the further submission have been included in the final report.  
+ 
+ 
+ 
+Final report MO -2013 -203 
+<< Page 3 >>
+ Figure 1  
+Chart of the general area of the incident  
+Wellington  approximate position of propeller loss  
+Tory Channel  Picton, off chart to left  
+approximate track of Aratere  
+Part of chart NZ 463  
+‘Approaches to Wellington’.  
+Sourced from Land Information New 
+Zealand data.  
+Crown Copyright Reserved  
+NOT TO BE USED FOR NAVIGATION  
+ 
+
+<< Page 4 >>
+ Final report MO -2013 -203 
+ Factual information  
+ Narrative  
+The day of the incident  
+3.1.1.  At about 1830 o n 5 November 2013 , the rail, passenger and freight ferry Aratere  departed 
+Picton on a scheduled voyage to Wellington.  There  were 39 crew and 114 passengers  on 
+board .   
+3.1.2.  The Aratere ’s passage through the Marlborough Sounds was uneventful and at about 1934 
+the vessel was passing abeam of East Head at the entrance to Tory Channel  (see Figure 1 ).   
+3.1.3.  Once clear of the Tory Channel entrance the second mate was hand ing over the control of the 
+navigation to the third mate when they heard  two loud noises that reverberated through the 
+ship.  
+3.1.4.  The second and third mates  checked that they had not hit an object in the water .  They then 
+checked the instrumentation on the bridge and noted that no alarms had registered .  
+Everything appeared to be normal except that no load was registering for the starboard 
+propulsion system  (that is, the propulsion system was not producing any thrust) . 
+3.1.5.  The third mate  telephoned the engineer in the control room , who reported  that he knew of no 
+problem  and that no alarms had registered.  The second mate  contacted the  duty master , who 
+made his way to the bridge.  
+3.1.6.  The chief engineer was in his office when he heard the bangs.  He c hecked  outside to  see if 
+the vessel had hit anything , then returned to his office and checked his eng ine room 
+monitoring screen.  Everything lo oked normal , so he made his way to the bridge.  The chief 
+engineer then telephoned the engine control room and asked the (night ) first engineer to 
+check the couplings  between the propulsion motors and gearbox , and the propeller shaft  
+couplings .   
+3.1.7.  The chief  engineer then made his way to the engine  control  room.  As he was doing so the 
+master ordered the engines to stop until a further investigation had taken place.  
+3.1.8.  By the time the chief engineer arrived in the engine control room the first engineer on duty h ad 
+completed checking the couplings .  A low-level alarm had activated for the oil in the starboard 
+stern -tube  tank.  
+3.1.9.  The chief engineer checked the couplings in the engine room . He then enter ed void-space2 
+number eight , where  the coupling between the intermediate shafts and the tail shaft  was 
+located .  While  there he asked  that power be applied to the starboard shaft to check if it was 
+fully rotati ng.  The shaft  rotated normally , but there was no indication of the propeller 
+producing any thrust.   
+3.1.10.  Meanwhile , the first mate went down to the stern of the vessel , and as the starboard shaft 
+was being tested could see no wash being produced.   
+3.1.11.  The master and chief engineer concluded that  either  the starboard propeller had been lost or 
+the shaft was not rotat ing it .  The master decided  to continue to Wellington on the port shaft 
+and propeller alone , and advised the passengers of the situation.  
+                                                        
+3. An area below deck that contains nothing , and is enclosed by bulkheads with limited openings. A void -space 
+may also be an entirely enclosed space . 
+ 
+Final report MO -2013 -203 
+<< Page 5 >>
+ Figure 2  
+Tory Channel entrance with position of loss  
+Tory Channel  
+approximate position 
+of ship when loss 
+occurred  
+approximate position of 
+propeller on seabed  
+approximate track of Aratere  
+Part of chart NZ 6154  
+‘Tory Channel Entrance and Picton Harbour’.  
+Sourced from Land Information New Zealand 
+data.  
+Crown Copyrig ht Reserved  
+NOT TO BE USED FOR NAVIGATION  
+ 
+
+<< Page 6 >>
+ Final report MO -2013 -203 3.1.12.  The master and chief engineer then contacted the various maritime authorities and managers 
+to advise them of the situation, and of the possibility that the vessel was leaking oil through 
+the stern shaft seal .  Tugs and divers were available on the vessel’s arrival  at Wellington . 
+3.1.13.  After the Aratere  had berthed in Wellington, a team of divers inspected the underwater area at 
+the stern of the vessel .  They d iscovered that the starboard shaft had broken  aft of the stern -
+tube seal  and that the starboard propeller was missing  (refer to Figure 4 on page 9 for a 
+diagram of the parts of the propeller) . The divers took h igh-resolution photographs of the 
+fractured shaft before the shaft end was capped .3   
+Recovery of the propeller and shaft stub  
+3.1.14.  A specialist company engaged by KiwiRail found the propeller and shaft stub on the seabed on 
+23 November  2013 , and recovered them o n 10 December  2013 .  The propeller was 
+recovered close to where the Aratere ’s crew had heard the double bang . (See Figure 2.)  
+3.1.15.  The propeller was taken to the Commission’s technical  facility  in Wellington .   
+Examination of the propeller, the propeller cone and the two surfaces of the fracture  
+3.1.16.  The propeller, the propeller cone and the stub of the shaft remaining in the hub of the  
+propeller were separated .  Representatives from the Commission, KiwiRail , the propeller 
+manufacturer and the classification society  were present .   
+3.1.17.  KiwiRail engaged several experts to assist with its own investigation into why the propeller 
+shaft had frac tured .  These experts included Quest  (a consultant m etallurgist), Aurecon  (a 
+structural i ntegrity consultant) and Stone Marine  (a propeller repair expert).  At KiwiRail’s 
+request, Lloyd ’s provided a specialist. The Commission participated in various tests 
+undertaken by these experts , which included examination s and measurement s of the 
+propeller , propeller cone  and various  samples  from the propeller and tail shaft .  
+3.1.18.  Aurecon  produce d a three -dimensional laser surface scan of the propeller.  The scan was used 
+to develop a three -dimensional, computer -generated model of the propeller for examination 
+and further testing.   
+3.1.19.  The stub of the shaft was taken to a metallurgical laboratory , where Quest ’s and Lloyd’s 
+experts  exam ined and conducted metal lurgical tests on  it.  The Commission received the 
+reports of these examinations and tests.  
+3.1.20.  KiwiRail  arranged for the Aratere  to be dry-dock ed in Singapore so it could replace the 
+fractured starboard shaft  and, if possible, repair the recovered propeller.  While  the vessel was 
+in dry -dock KiwiRail engaged Matcor , which  carried out metallurgical tests and examinations 
+of the section of the fractured starboard tail shaft  left protruding from the stern tube of the 
+ship.   
+3.1.21.  The alignment of both propeller shafts was checked  by DNV  while the ship was in dry -dock .  
+ Vessel information   
+Description  
+3.2.1.  The Aratere  is a passenger and freight ferry owned and operated by KiwiRail .  When the vessel 
+was built in Spain in 1998, it was designed to comply with the International C onvention for the 
+Safety of Life at Sea 1974 as amended, a convention adop ted by the International Mariti me 
+Organiz ation.    
+3.2.2.  The Aratere  trades  on a scheduled service between Wellington and Picton with a service 
+speed of 19.5 knots .  It was initially certified to ca rry a total o f 399 persons and wa s powered 
+                                                        
+3 The damaged end of the shaft was capped to prevent oil escaping from the stern -tube seal and water from 
+entering the stern -tube. The cap helped to protect a nd preserve the fracture surface for later examination.   
+ 
+Final report MO -2013 -203 
+<< Page 7 >>
+ by up  to four diesel -driven , direct -current generators that provide d electrical power as 
+required .  This power was supplied via frequency converters to four alternating current electric 
+propulsion m otors; two to each shaft.  The two electric motors on each sha ft either singly or 
+together dri ve a fixed -pitch propeller through a reduction gearbox.   
+Vessel lengthening  
+3.2.3.  In 2010 KiwiRail began a project to lengthen the Aratere  to create extra capacity.  In April 
+2011 KiwiRail sent the Aratere  to a dry -dock facility in Singapore to have a section 
+approximately 30 metres long inserted into the mid -length of the vessel.  Also while in dry -
+dock : a new modified bow section was fitted; the stern profile was altered; two extra diesel -
+driven, direct -current generators were fitted; and two new, more efficient propellers were 
+fitted.  
+ 
+ 
+  
+ 
+
+<< Page 8 >>
+ Final report MO -2013 -203 
+ Analysis : Overview of propeller shaft failures  
+ Introduction  
+4.1.1.  In this section we explain, in general terms, propellers and propulsion systems . We discuss 
+what conditions might cause , or contribute  to, a failure of the type seen in the Aratere ’s 
+propeller tail shaft .   
+4.1.2.  The various experts’ reports contain valuable evidence and observations . The inquiry drew on 
+the reports for its own analysis .  The reports analysed the fatigue crack and shaft failure, and 
+the possible causes of the failure.  Several of the investigations  were undertaken immediately 
+following the incident whil e others, which were more comprehensive, were undertak en at later 
+stages .  
+ Propellers and propulsion system s  
+Propellers  
+4.2.1.  The report refers to  the parts of propellers , which are defined below . Some are illustrated in 
+Figure 3 . 
+ The hub is the centre of the propeller . Its function is to provide a method of attaching the 
+propeller shaft to the blades . 
+ The blade root  is where the blade is attached to the hub.  Typically,  this is the thickest 
+part of the blade . 
+ The blade  is the helical formed section of the propeller that transmits the rotational 
+torque of the propeller shaft into thrust to propel the vessel.  Blades are designed with all 
+kinds of profile and outline, each offering various benefits in converting torque to thrust . 
+The blade acts like an aerofoil, so the shap e and thickness are both critical to the 
+performance of the propeller, particularly with respect to cavitation . 
+ The blade pressure face  is the high -pressure side of the propeller blade facing away from 
+the bow of the vessel , which pushes the water away from the propeller . It is also known as 
+the ‘face’ of the propeller . 
+ The blade suction face  is the low -pressure side of the propeller blade facing towards the 
+bow of the vessel , which sucks the water towards the propeller .  It is also known as the 
+‘back ’ of the propeller . 
+ The leading edge  runs along the blade outline from the root to the tip , separating the 
+pressure and suction face s of the blade.  A sharp leading edge reduces the load on the 
+shaft but increases the chance of da mage.  Most leading edge profiles are a trade -off 
+between strength and load .   
+ The trailing edge  runs along the blade outline from the root to the tip ; it is where the water 
+exits the blade.  The profile of the t railing edge is critical in reducing noise a nd harmonics . 
+ The blade tip  is formed between the leading and trailing edges on the blade outline.  The 
+distance from the centre of the hub to the blade tip multiplied by two describes the 
+propeller diameter . 
+ The wake  is the flow of water in which the propeller acts to propel the vessel forward.  The 
+flow of water is influenced by the shape of the underwater hull of the vessel ahead of the 
+propeller.    
+ 
+ 
+Final report MO -2013 -203 
+<< Page 9 >>
+  
+Figure 3 
+The parts of the propeller  
+4.2.2.  Propeller manufacturers mark propeller s in the vicinity of each blade to differentiate between 
+them.  Wärtsilä, the propeller manufacturer, stamped the hubs of the Aratere ’s ‘new’ 
+propellers next to the root of each blade A, B, C and D.  This report uses the same lettering to 
+describe each bla de.   
+What is a propeller shaft ? 
+4.2.3.  A propeller shaft usually comprises a tail  shaft and several sections of shaft between the tail 
+shaft  and the gearbox called intermediate shafts.  Where the tail shaft  passes through the hull 
+of the vessel it is enclosed by  a stern -tube (see Figure 4). On the Aratere  the propeller shaft 
+had two main sections made up of (see Figure 4):  
+ three intermediate shafts , which had a basic diameter of 275 millimetres (mm) and 
+lengths of 4.000 metres, 6.025 metres and 6.000 metres, and  
+ the tail shaft , which had a basic diameter of 340 mm, increasing to 352 mm where it 
+passed through the aft stern -tube bearing, and was 15. 105 metres long.  
+4.2.4.  A propeller shaft transmits power from the gearbox to the propeller located at the stern of the 
+vessel outside the hull.  It also transmits the thrust back from the propeller to the thrust 
+bearing in the gearbox , which is attached to the v essel , and the thrust is what propels the 
+vessel through the water.  
+4.2.5.  The total weight of the propeller shaft is supported by bearings; these are usually located on 
+pedestals within the engine room, and inside the stern -tube.  The bearings in the stern -tube  
+are built in  to the stern -tube and the weight of the stern -tube is supported by the after -end 
+arrangements of the vessel’s structure.  The bearings are fixed in place to keep the propeller 
+shaft in the correct alignment both vertically and horizontally between the aft stern -tube seal 
+and the gearbox or engine.   
+4.2.6.  Seals are fitted at either end of the stern -tube to prevent sea  water seeping inside the vessel 
+and to stop lubricating oil from the bearings seeping into the sea.  
+
+ 
+
+<< Page 10 >>
+ Final report MO -2013 -203  
+Drawing courtesy of KiwiRail  
+Figure 4  
+The parts of the propeller shaft  
+
+ 
+Final report MO -2013 -203 
+<< Page 11 >>
+ How are propellers fitted to the propeller shaft?  
+4.2.7.  Propellers are (usually) fitted to propeller shafts by means of an ‘interfer ence fit’. In this 
+method, the fastening between the propeller and the shaft is achieved by friction after the 
+parts are pushed together.  The DNV classification society standards for an interference fit are 
+that a minimum of 70% of the propeller bore must  ‘mate’ with the propeller shaft  during the 
+’blue fitting ‘ process . 
+4.2.8.  To measure the interference fit, the taper on the shaft is coated with a thin blue grease .  The 
+propeller is then pushed onto the shaft.  The inside of the propeller bore is examined to 
+measure the percentage contact between the shaft and the propeller. If the fit is less than 
+70%, the bore of the propeller is hand -scraped to achieve a better fit.  This process is repeated 
+until the required standard is achieved. The propeller hub is then e xpanded using hydraulic 
+pressure and hydraulically pushed up the tapered tail shaft .  The hydraulic pressure is 
+released and the propeller hub shrinks onto the tail shaft , thus achieving the ‘interference fit’.  
+ The consequence of a propeller failure  
+4.3.1.  Many passenger ferries designed and built for short voyage trades (including the Aratere ) have 
+duplicate propulsion systems.   This redundancy is built in to such vessels to mitigate the risks 
+inherent in their type of operation — they operate in confined o r congested waters for a high 
+proportion of voyages and do frequent manoeuvring in and out of berths.  If one propeller is 
+lost from a vessel that has two  of them , it can continue operating  (as illustrated by the 
+incident involving the Aratere , which was able to complete its voyage despite losing a 
+propeller ). 
+4.3.2.  The fracture of a tail shaft  on a modern vessel is, however, unusual.  A high percentage of the 
+world’s shipping fleet is fitted with only a single propulsion system.  For example, in 2011 
+almost all of the approximately 3,600 large tankers in the world were propelled by single 
+propellers.  
+4.3.3.  For this reason, lessons from this incident have implications for the world shipping fleet.  
+ Causes of propeller shaft failure  
+4.4.1.  There are four basic mechanisms that can cause a shaft to fail: corrosion, wear, overload and 
+fatigue. The first two, corrosion and wear, very rarely cause shaft failures  in and of themselves , 
+and when they do they leave clear evidence.  Of the other two mechanisms, fatigue is more 
+common tha n overload failure.  Whilst corrosion and wear are  rarely  the sole cause of shaft 
+failure, corrosion and/or wear will often act in conjunction with fatigue loading to cause a 
+shaft failure   (Sachs, 2012) .  In this case there was  no evidence of failure due to wear or 
+purely overload ; instead the evidence  suggested that shaft failure as a result of fatigue was 
+likely.  Accordingly, f atigue cracking  was one of the main areas of interest in the Commission’s 
+investigation .   
+4.4.2.  A complete  fatigue fracture of a propeller shaft requires two things to have occurred:  
+ the formation of a fatigue crack  
+ the propagation of the fatigue crack through the propeller shaft , resulting in complete 
+failure.  
+4.4.3.  To understand what conditions allow  a crack to f orm then propagate , it is useful  first to 
+understand fatigue  and the related subject of stress .  
+  
+ 
+
+<< Page 12 >>
+ Final report MO -2013 -203 
+ Metal fatigue and stress  
+4.5.1.  In engineering,  metal fatigue has been defined as  the (Pook, 2007) : 
+gradual degradation and eventual failure that occur under loads which vary with 
+time, and which are lower than the  static strength  of the metallic specimen, 
+component or structure concerned. The static strength is the load which causes 
+failure in one application. The loads responsible are  called  fatigue loads . These 
+loads are cyclic in nature, but the cycles are not necessarily all of the same size 
+or clearly discernible. A fatigue load in which individual cycles can be 
+distinguished is sometimes called a  cyclic load . 
+4.5.2.  Fatigue begins when t he surface of the metal deforms because of mechanical damage, 
+allowing a crack  to develop .  An example of mechanical damage that can occur on a propeller 
+shaft is minute hammering of the tail shaft surface caused by fretting between the propeller 
+hub and the propeller shaft.  Surface defects such as manufacturing defects or corrosion pits 
+can be a mechanism for the crack initiation.  Cracks work their way into the metal from these 
+surface deformations.  As cracks develop, the metal tears.  If undetected, a c rack may 
+eventually cause catastrophic failure.  
+4.5.3.  A certain level of stress4 is required to cause fatigue.  A rotating propeller shaft is subject to 
+several stresses , which  can result from the action of many different forces .  However, not all 
+these forces necessarily act simultaneously or on the same areas of the shaft.  In addition,  the 
+level of stress resulting in fatigue is lower if any of the following factors alter the surface 
+condition of the metal :5 
+ stress concentration  
+ manufacturing or materials iss ue 
+ local stress, including residual stress and contacting stresses  
+ fretting  and corrosion . 
+Stress concentration  
+4.5.4.  Some of the stresses on a propeller shaft are unavoidable due to the method of construction. 
+An example is the clamping stress of the propeller  onto the shaft itself, which is a form of 
+stress concentration .  In Figure 5 the red represents a higher level of stress concentration 
+where the front end of the propeller boss clamps onto the propeller shaft .  Unavoidable 
+stresses e xist in most propeller and shaft assemblies, but would normally be well below the 
+crack initiation limit.6  A propeller shaft is designed to withstand these foreseen stresses.    
+                                                        
+4 Stress is a physical quantity that expresses the internal forces that neighbouring particles of a continuous 
+material exert on each other.  Stress inside a material may arise by various mechanisms , such as reaction to 
+external forces applied to the bulk material (like gravity) or to its surface (like contact forces, external 
+pressure , or friction) (Lubliner, 2008)  [as above re definition of differe nt types of stress].   
+5 Quest Integrity Group (2015). ‘ Aratere ’ Starboard Propeller Shaft Failure Investigation , section 4.1.  
+6 The minimum stress required to initiate a fatigue crack in a substance . 
+ 
+Final report MO -2013 -203 
+<< Page 13 >>
+  
+Figure 5 
+Image showing example of stress concentration  
+where a propeller is clamped onto a shaft  
+Manufacturing or material  issue  
+4.5.5.  It is possible that a manufacturing or material issue exists that causes or contributes to a 
+fatigue failure. For example, if there is a problem with the milling process of the steel it may 
+reduce the expected hardness  of the shaft  and its ability to resist fati gue stresses.  
+Local stresses  
+4.5.6.  Residual stresses can remain in a structure post manufacturing.  For example, the heating 
+and cooling of steel as a result of welding can cause the resulting structure to have residual 
+stresses in its resting state.  
+Fretting and corrosion  reduce the amount of stress required to cause fatigue  
+4.5.7.  Fretting is “a special wear process that occurs at the contact area between two materials 
+under load and subject to minute relative motion by vibration or some other force ” (ASM 
+International, 1996) . Fretting can occur as a result of a poor fit between the propeller hub and 
+the propeller shaft , resulting in unexpected movement and degradation of the contacting 
+surfaces.  “Fretting  decreases the fatigue strength of materials operating under cyclic stress. 
+The reduced fatigue strength can result in fatigue cracks initiating in the fretting zone ” 
+(Lipsom & Colwell, 1961) .  Afterwards, the crack can propagate into the shaft if sufficient 
+forces exist to allow this.  
+4.5.8.  Most  metals are vulnerable to corrosion and this is especially  so when metals are potentially 
+in contact with salt water. Like fretting, corrosion alters the surface of metals , making them 
+more susceptible to fatigue  cracking . 
+4.5.9.  Alone or in combination, fretting and corrosion  can reduce the fatigue limit to as low as one -
+tenth that in dry air, and therefore make a propeller shaft more vulnerable to fatigue.7    
+  
+                                                        
+7 Quest Integrity Group (2015). Aratere  Starboard Propeller Shaft Failure Inve stigation , section 4.1.  
+Photograph courtesy of Aurecon  
+propeller hub  
+node 2080 = 18,857,408 N/m2 
+node 114448 = 111,956,800 N/m2  
+node 106201 = 66,042.980 N/m2 
+ 
+
+<< Page 14 >>
+ Final report MO -2013 -203 
+ Vibration  
+4.6.1.  If fretting or some other cause has initiated a fatigue crack in a propeller shaft, bending in the 
+shaft can result in the crack growing.  Vibration is one of several bending stressors that can 
+emanate from different parts of the propulsion system and for different reasons.  External 
+sources can also induce vibration in the propulsion system.   
+4.6.2.  Vibration can be lateral or torsional.   Lateral vibration is movement orthogonal to (that is, at 
+right angles to) the shaft’s axis.  Torsional vibration is twisting about the shaft’s longitudinal 
+axis.  Measurement s of both are used to identify potential problems  within the propulsion 
+plant and determine the fatigue life of an individual part or assembly  within the propulsion 
+system .  The two types of vibration can be analysed separately or together .  Frequently one 
+causes the other .  For example, lateral vibration in the tail of an aircraft produces torsional 
+vibration in the fuselage, and the firing of pistons in a large marine engine can cause twisting 
+forces in the propeller shaft.  
+4.6.3.  All systems, including propulsion systems, have a natural level of vibration. Resonance occurs 
+when the natural vibration is multiplied by vibration from another source that is at the same 
+frequency as the natural vibration of the system.   
+Alignment of the  propeller shaft  
+4.6.4.  If the entire propeller shaft is incorrectly aligned, the load on the motors  increases  and the 
+bearings are subjected to increased  stress es.  The abnormal stress can result in bearing 
+damage , including breakage and increased vibration.  
+ Cavitation  
+4.7.1.  Cavitation occurs when bubbles generated by propellers collapse (implode) and create an 
+intense shock wave, which are strong enough to cause damage to moving parts.  Repeated 
+implosions near a metal surface cause cyclic stress.  More specificall y, cavitation occurs  
+(Kinnas & Young, 2003) : 
+when pressure drops below the saturated vapour  pressure of the liquid, 
+consequently resulting in the formation of gas filled or gas and vapour  filled 
+bubbles. A type of  cavitation  that is common on marine propellers is sheet  
+cavitation . It is characterized by a “continuous ” liquid/ vapour  interface which is 
+“attached ” to the blade surface. Despite its undesirable nature, some sheet (or 
+other types of)  cavitation  often has to be accepted in order to maintain efficiency. 
+Thus, accurate prediction of  cavitation  is very crucial in the design and analysis 
+of marine propellers.  
+ 
+  
+ 
+Final report MO -2013 -203 
+<< Page 15 >>
+ 
+ Analysis: The f racture in the  Aratere ’s propeller shaft  
+ What type of fracture occurred on  the Aratere ? 
+5.1.1.  Various experts8 concluded that the type of fracture that occurred on the Aratere ’s starboard 
+propeller shaft was a fatigue fracture, typical of that resulting from uni axial  bending forces  
+acting on a rotating shaft .  Shaft failures resulting from bending fatigue display a unique 
+fracture surface not seen in other types of shaft fatigue failure.  Figure 6 is a drawing of a 
+typical plane bending fatigue failure in  a rotating shaft.  The drawing shows how a crack start s 
+at the origin and slowly propagates (grows) across the fatigue zone. When the crack reaches 
+the boundary of the instantaneous zone, its growth rate increases significantly . (Sachs, 2012)  
+5.1.2.  The drawing in Figure 6 shows remarkable similarities to the photograph of the shaft fracture 
+face of the Aratere ’s propeller shaft, shown in Figure 7. 
+ 
+Illustration courtesy of www.maintenancetechnology.com  
+Figure 6 
+Illustration of typical bending fatigue failure in a rotating shaft  
+  
+                                                        
+8 Matcor (2014). Failure Analysis and Condition Assessment of Starboard and Port Propeller Shafts of Vessel 
+‘MV ARATERE’ , section  4.3. Lloyd’s Register  (2014). Metallurgical Investigation , section 2.2. Quest Integrity 
+Group (2015).  Aratere  Starboard Propeller Shaft Failure Investigation , section 4.1.  
+
+ 
+
+<< Page 16 >>
+ Final report MO -2013 -203  
+ 
+Figure 7  
+Underwater photograph of the shaft fracture face  in the Aratere  
+5.1.3.  The Commission determined  that the fracture was a fatigue fracture typical of that resulting 
+from bending forces being applied. Figure 7 demonstrates  that the fracture seen on the 
+Aratere ’s starboard propeller shaft had all the hallmarks of a bending fatigue failu re, with 
+readily identifiable fracture origin  and progression/arrest marks, and an 
+instantaneous/overload fracture zone.  
+5.1.4.  Quest described the fatigue crack in the starboard propeller shaft of the Aratere  as being 
+multi -origined , indicating that the surface  cyclic loading on the shaft was well above the 
+fatigu e limit for the material.  The amount of  stress required  to cause a fatigue failure  varies  
+depending on the level of average stress present.  Quest further concluded that as  the crack 
+propagated, the st ress concentration increased and the crack grew faster.  It was probable 
+that towards the end of the fracture the major arrest marks relate d to significant changes in 
+the operation of the vessel.  These could have been  individual sailings or specific loadings 
+where high stress was applied.9 
+5.1.5.  Other evidence also supports fatigue fractur e as a result of bending forces.  
+ The f racture plane was (aside from the area of final overload) at 90 degrees to the 
+longitudinal axis of the propeller  and had a relativel y smooth face .10 
+ Progression (b each ) marks were present , which was indicative of fatigue crack 
+propagation .11 
+ The o rientation of the crack suggest ed the involvement of bending and possible axial 
+stresses .12  
+                                                        
+9 Quest Integrity Group (2015).  Aratere  Starboard Propeller Shaft Failure Investigation , section 4.1.  
+10 Lloyd’s Register  (2014). Metallurgical Investigation, section 2.1.  
+Quest Integrit y Group ( 2015).  Aratere  Starboard Propeller Shaft Failure Investigation , section 4.1.  
+11 Matcor (2014). Failure Analysis and Condition Assessment of Starboard and Port Propeller Shafts of Vessel 
+‘MV ARATERE’, s ection  4.3. 
+12 Ibid., s ection  6.0. 
+ 
+Photograph courtesy of KiwiRail  
+ 
+Final report MO -2013 -203 
+<< Page 17 >>
+  The presence of other fatigue cracks in the vicinit y of the fracture, including an additional 
+fatigue crack that was diametrically opposite the initiation point of the fracture, was 
+indicative of reverse bending forces.13 
+Findings  
+1. The fracture was determined to be a fati gue fracture resulting from uniaxial  
+bending forces.  
+2. There had to be a source or sources present that produced bending forces 
+capable of propagating the fatigue crack through the tail shaft.  
+ 
+ What factors might have contributed to the fracture ? 
+5.2.1.  Cracks in rotating shafts leave evidence of e xisting conditions that allowed the crack s to form. 
+The factors that con tributed to the shaft failure fe ll into two categories:  
+ factors that could have weakened the shaft by altering its metal surface condition, such 
+as manufacturing or material faults, local stresses, and fretting and corrosion  
+ factors sufficient to cause fatigue cracking to start at the weakened metal surface , such 
+as vibration  and bending, from any source . 
+5.2.2.  If bending is sufficient to cause fatigue failure of the propeller shaft, the fracture would occur 
+at the point of highest bending load  on the shaft. That point is at the edge of the last bearing 
+at the end of the stern -tube.  On the Aratere , however, the fracture occurred approximately 14  
+mm inside the tapered fit of the propeller hub , the fracture began at a point between the roots 
+of blades C and D, which corresponded  with the trailing edge of blade C. In other words, the 
+failure of the propeller shaft i nside the hub could not have been the result of bending forces 
+alone.  Some other factors must have been present to cause the fatigue fracture to occur  (see 
+Figure 8) . 
+                                                        
+13 Lloyd’s R egister  (2014). Metallurgical Investigation , section 2.2.  Quest Integrity Group  (2015)  Aratere  
+Starboard Propeller Shaft Failure Investigation , section 3.3. 
+ 
+
+<< Page 18 >>
+ Final report MO -2013 -203  
+Figure 8 
+Origin region showing surface wear/fretting and the start of the taper  
+5.2.3.  The following analysis  sectio ns of this report discuss and analyse the possible factors 
+contributing to the fracture .  
+ The f irst section  (section 6)  examine s the factors that might have weaken ed 
+the Aratere ’s tail shaft  to make it  more susceptible to a crack initiating  from 
+the forces acting on the tail shaft . The Commission  found evidence of fretting 
+and corrosion.  
+ Section  7 discusses  the fitting of the propellers and whether it was a cause of 
+the fretting and corrosion.  
+ Section 8 examine s what factors might have existed that contributed to the 
+crack initiating and then growing once it had been initiated , in particular 
+vibration .  
+ Section 9 examines the stress loading on the tail sha ft as a result of 
+differences in the pitch of each of the propeller blades. The section discusses 
+whether the design and/or manufacture of the propellers  contributed to the 
+fracture.  
+ Section 10 considers the current standards for manufacturing tolerances with 
+respect to marine propellers.  
+ Section 11 consider s cracks in the Aratere ’s starboard rudder stock, and 
+oversight of the fitting of the new propellers.  
+ Section 12 is a summary of the analysis.  
+ 
+ 
+  
+ 
+Photograph courtesy of KiwiRail  
+ 
+Final report MO -2013 -203 
+<< Page 19 >>
+ 
+ Analysis: Weakening of the tail shaft  and i nitiation  of the crack  
+ Introduction  
+6.1.1.  In this part of the analysis we discuss what factors might have contributed to the weakening of 
+the Aratere ’s tail shaft  and led to the initiation of a crack.  
+ Was there a manufacturing fault  in the tail shaft ? 
+6.2.1.  Advice from Quest , and data provided by Wärtsilä , indicate d that a tail shaft  manufacturing 
+defect did not contribute to the failure.   
+6.2.2.  Quest  considered the strength of the shaft to be in accordance with the reported strength in 
+the mill certificate.  Quest  measured the ‘hardness’ of the shaft and the results showed a 
+hardness equating to a tensile strength of 640 -840 megapascals (MPa) .14  The steel mill that 
+manufactured the shaft produced a mill certificate  indicating an allowable range of 600 -650 
+MPa.  The mill certificate for the shaft recorded test results for the shaft of between 650 and 
+682 MPa.   
+6.2.3.  Quest ’s conclusion, supported by the fact that the propeller shafts had been operating 
+successful ly for some 13 years before being fitted with new propellers,  ruled out the possibility 
+of a tail shaft  manufacturing defect contributing to the failure.   
+6.2.4.  A propeller shaft is designed to withstand variable stresses. These foreseen stresses include 
+those that occur at the nodes where the end of the propeller hub is clamped to the shaft.  
+Wärtsilä (the propeller designer) provided data that the stresses at the nodes were expected 
+to be double those in the surrounding area. Testing15 following the incident calculated the 
+stresses to be as expected . This further support ed the conclusion that there was no 
+manufacturing fault in the tail shaft.  
+ Did f retting  and/or corrosion  contribute to weakening of the propeller shaft?  
+Evidence of fretting  on the starboard tail shaft  
+6.3.1.  The Aurecon ‘Final Report ’ commissioned by KiwiRail concluded that there was no evidence of 
+fretting damage in the origin area of the fatigue crack, and that fretting was unlikely to have 
+been  the primary root cause of the failure.16  However, t here was evidence of fretting  on the 
+starboard tail shaft  around the point of origin of the fatigue crack . Figure 8 shows  areas of 
+fretting around the circumference of the shaft  next to the fracture zone.  Quest  considered :17 
+This indicates that one or more of the factors to reduce the fatigue limit were 
+significant. No significant [more than 5 %] corrosion or surface defects were 
+observed on the shaft prior to the failure. However, a significant amount of fretting 
+was present. It i s probable that this was a major factor in reducing the fatigue limit. 
+However, where the fretting had occurred between the bronze and steel, the majority 
+of physical damage has occurred to the softer bronze material  [of the propeller] . This 
+was seen as fr etting pitting, fretting debris and bonding of the b ronze material onto 
+the shaft. However, in the steel shaft, even though there was only minor physical 
+evidence of fretting damage, it will have seen a significant surface hammering 
+loading which will have  modified the local surface loading. Some evidence was 
+present that this loading was in excess of the yield stress in the material and 
+localised deformation occurred.  
+                                                        
+14 The ‘hardness ’ test was conducted using the Vickers Pyramid Number (HV) . The result was 200-250 HV, 
+which equates to a tensile strength of 640 -840 MPa.  
+15 The engineering firm conducting the tests used a finite element analysis, which is a computational tool 
+that includes the use of mesh generation techniques for dividing a complex problem into small elements, as 
+well as the use of a software program coded with FEM algorithm.  
+16 Aurecon Final Report at 1, page 1.  
+17 Quest (2014). Aratere Starboard Propeller Shaft Fa ilure Investigation , section 4.1.  
+ 
+
+<< Page 20 >>
+ Final report MO -2013 -203 6.3.2.  A subsequent report carried out by Quest concluded:  
+ that the most severe fretting damage was adjacent to blade C18 
+ the presence of significant corrosion pitting19  
+ that a significant amount of fretting was present and it was probably a major factor in 
+reducing the fatigue limit.20 
+6.3.3.  The Commission ’s view , based on its analysis , is that fretting  likely  reduce d the amount of 
+stress required to initiate fatigue failure. The movement of the shaft due to the formation of 
+the fracture would have  also caused a  certain amount of the fretting ; that is, as the fracture 
+propagated through the shaft, movemen t between the fracture surfaces increased the  fretting 
+between the shaft and the propeller hub. 
+6.3.4.  This view is also supported by the peer review undertaken by AMC  Search , which concluded 
+that “on the basis of the evidence it appears safe to conclude that fre tting damage occurred 
+and is likely to have caused a stress riser that ultimately led to fatigue ”.21  
+6.3.5.  In addition to the Quest findings in respect of corrosion, Lloyd’s found evidence of corrosion on 
+the starboard propeller shaft around its circumference wi thin 100  mm of the top/forward end 
+of the taper. Lloyd’s determined  that the most likely cause of the corrosion was historical sea 
+water contamination of the stern -tube lubricating oil.22    
+Comparison with fretting  and corrosion in the port tail shaft  
+6.3.6.  Evidence of fretting and evidence of corrosion were  apparent on the port tail  shaft  as well as 
+the starboard tail shaft .  When the Aratere  was dry -docked in 2014, KiwiRail engaged Matcor  
+to assist in its investigation of the incident. Matcor  is an expert in the field of materials and 
+corrosion .  Matcor’s  report on the condition of the port shaft  included the following :23 
+The surface of the shaft at the propeller seat hub area was generally satisfactory 
+apart from the scattered presence of irregular blackish patches and copperish 
+tint particularly near the forward end of the hub. Localized corrosion in the form 
+of clusters of minute pits of up to about 1.0mm deep was observed within the 
+irregular blackish areas. The copperish tint observed at scattered areas o f the 
+shaft was essentially associated with the aluminium  bronze material of the 
+propeller hub that had smeared onto the shaft surface. The microstructure and 
+hardness condition of the shaft was generally satisfactory and consistent with the 
+material speci fication requirements.  
+6.3.7.  Both the port and starboard propeller shafts were corroding to some degree and there had 
+been fretting between both propeller  hubs and their respective propeller shafts, yet only the 
+starboard propeller shaft failed. This means  that either the starboard propeller shaft had been 
+weakened more than the port shaft, or the starboard shaft was prone to more severe vibration 
+than the port shaft, or a combination of the two.  
+ 
+  
+                                                        
+18 Quest (2015). Aratere Starboard Propeller Shaft Failure Investigation , section 3.2 .  
+19 Ibid. section 3.3.  
+20 Ibid. section 4.1 . 
+21 AMC Search (2015). Peer Review of Report into Marine Inquiry MO -2013 -203, at 1.8.  
+22 Lloyd’s  (2015). KiwiRail Holdings Ltd: Starboard Propeller Shaft Failure: Gap Analysis , section 7.1.  
+23 Matcor Technology & Services Pte L imited (2014). Failure Analysis and Condition Assessment of Starboard 
+and Port Propeller Shafts of Vessel  ‘MV ARATERE’, p.1 . 
+ 
+Final report MO -2013 -203 
+<< Page 21 >>
+ 
+ Analysis: Fitting  of the new propellers  
+ Introduction  
+7.1.1.  In the prev ious section we  presented evidence of  fretting between the propeller tail shaft s and 
+the hubs of the propeller s. As explained in paragraph 4.5.2 , fretting between the propeller tail 
+shaft s and the hubs of the propellers causes minu te hammering of the tail shaft  surface. This 
+hammering can ca use mechanical damage on the metal surfaces , causing them to deform 
+and allowing a crack to initiate.  
+7.1.2.  The fretting indicate d that the fit between the shafts and the hubs was not optimum. It was 
+therefore necessary to review the fitment of the new propellers in 2011, and whether the fit 
+achieved had been  satisfactory.  This fitting of the propellers is discussed further in this 
+section.   
+ Replacement of the propellers  
+7.2.1.  The fitting of the new propelle rs to the Aratere  was part of the project to lengthen the vessel.  
+KiwiRail instructed the shipyard undertaking the lengthening to  also fit the new propellers.  
+Replacement of propellers is a significant undertaking , and Wärtsilä advised KiwiRail that the 
+preferred  method for fitting the new propellers was to  remove the propeller shafts and fit the 
+propellers vertically. An alternative and less desirable method for fitting the propellers is 
+horizontally , which does not require  the removal of the propeller s hafts. It is a  less desirable 
+method because it is technically more difficult and entails  a higher risk of damage to the 
+propeller hub or shaft.  
+7.2.2.  Notwithstanding Wärtsilä’s recommendation, KiwiRail opted for the latter method , which 
+meant the propeller shaf ts did not need to be removed.   
+DNV rules for fitting propellers  
+7.2.3.  When new propellers were fitted to the Aratere  in 2011, they should have met standards set 
+by the classification society, DNV.  
+7.2.4.  A classification society sets technical standards for the construction and operation of ships.  
+The International Association of Classification Societies describes the aim of ship 
+classification being to  (IACS, 2016) : 
+verify the structural strength and integrity of essential parts of the ship’s hull and 
+its appendages, and the reliability and function of the propulsion and steering 
+systems, power generation and those other features and auxiliary systems which 
+have been built into the ship in order to maintain essential services on boar d. 
+Classification Societies aim to achieve this objective through the development 
+and application of their own Rules and by verifying compliance with international 
+and/or national statutory regulations on behalf of flag Administrations.  
+7.2.5.  A classification so ciety may issue a certificate of classification for a vessel designed and built 
+to its rules. The certificate does not imply a warrant of safety, fitness for purpose or 
+seaworthiness, because the classification society has no control over how the ship is o perated 
+or maintained.  
+7.2.6.  The DNV standard for fitting  propellers is that at least 70% of the propeller bore must ‘mate’  
+with the propeller shaft, which is determined through the blue -fitting process.  The DNV 
+classification society rules state ( DNV, 2013 ): 
+Prior to final pull -up, the contact area between the mating surfaces shall be not less 
+than 70% of the theoretical contact area (100%).  Non -contact bands (except oil 
+grooves) extending circumferentially around the hub or over the full length of the hub 
+are not acceptable.  At the big end there shall be a full contact band of at least 20% 
+of the taper length.   
+ 
+
+<< Page 22 >>
+ Final report MO -2013 -203 7.2.7.  DNV had changed the rules in 2006 to clarify the final requirement; that is, that at the big end 
+there was to be a full contact band of at least 20%.   
+7.2.8.  In addition to shipyard and KiwiRail staff, KiwiRail requested a representative of DNV to 
+observe the replacement of the propellers. As part of its investigations t he Commission sought  
+information relating to the fitting of the new  propeller s.  None of KiwiRail,  DNV or the shipyard  
+was able to provide any reports or notes from the propeller -fitting process.   
+7.2.9.  KiwiRail’s e ngagement of DNV to be present at the fitting suggests  that KiwiRail expect ed the 
+DNV representative to check or inspect  the fit . A job sheet provided to the Commission  state d 
+that the DNV representative was performing an ‘inspection ’, which suggests  that that person  
+was more than an observer.  
+7.2.10.  In its submission on the draft report, KiwiRail stated that it had engaged the DNV surveyor to 
+witness and sign off that the fitting of the propeller was done in accordance with DNV rules .  
+KiwiRail stated that it was not appropriate for it to specify what DNV should do or look at while 
+present , and therefore KiwiRail did not expect to have to do so .  However, i n the Commission’s 
+view, as KiwiRail undertook to complete the fitting of the starboard propeller onto the shaft 
+using its own expert and labour , the responsibility for ensuring that this task was completed 
+satisfactorily rested with KiwiRail.   Therefore, it would have been good practice for KiwiRail to 
+have ensured by seeking a report or confirmation from the DNV representative that the fitting 
+process was in accordance with the DNV Rules .  
+The quality of the fit achieved  
+7.2.11.  According to KiwiRail  staff, the initial fit of the ‘new’ propellers onto the shaft taper achieved 
+only 40%  contact with the mating surfaces .  Reportedly the majority of the ‘fit’ was at the 
+narrower end of the taper (whereas the DNV rule required the better fit to be at the w ider end 
+of the taper). Several attempts were made to achieve an adequate fit.  The repeated attempts 
+would have increased the opportunity for damage to occur to the  contact  surfaces . 
+7.2.12.  None of KiwiRail, the  shipyard  or DNV could provide the Commission with any records to show 
+whether the relevant  DNV standards were met regarding the level of ‘fit’ achieved between the 
+propeller bore and the tail shaft .24  Any fitting achieving less than 100% contact risked fretting 
+from microscopic movements between the tail shaft  and the propeller bore, which could have 
+weakened the metal surface and made it more susceptible to fatigue cracking. The 
+distribution of the contact area would have affected how much movement could occur under 
+operational loading.  In addition, it is not known whether the repeated fitting attempts caused 
+any damage to the tail shaft  or propeller hub.  
+7.2.13.  The Commission notes that the DNV rules required a full contact area of at least 20% of the 
+taper length at the big end of the hub. This is the area where fretting was observed around the 
+Aratere ’s fractured tail shaft  (see Figure 9 on page 23).  
+Longitudinal fit  
+7.2.14.  When the propeller wa s fitted onto the tail shaft  in dry -dock it should have pushed right up to 
+the end of the taper, where the propeller hub would mate with a mechanical seal on the end 
+of the stern -tube .  However, it fell about 8  mm short.  Instead of adjusting the bore of the 
+propeller hub, the propeller was withdrawn and an 8  mm spacer was inserted to achieve the 
+required mating between the propeller hub and the mechanical seal  (see Figure 9).   
+                                                        
+24 DNV was able to supply four photographs of the pro peller blueing process, but th e photographs were not 
+annotated as to which propeller they depicted  or at what stage of the blueing they had been  taken.  
+ 
+Final report MO -2013 -203 
+<< Page 23 >>
+  
+Figure 9 
+Location of the 8 mm spacer  
+7.2.15.  It is not clear whether th e 8 mm spacer was required as a result of an overall error in the size 
+of the taper in the propeller hub, or because of  high spots and imperfections in the bore 
+created during the propeller manufacturing process .  Given that only a 40% interference fit 
+was achieved on the first attempt to mate the propeller hub with the tail shaft , the latter was 
+more likely to have been  the case.  If this was the case, a substantial amount of ‘linishing ’25 
+would have been require d to achieve the minimum 70% interference fit.   Interviews with 
+KiwiRail  staff who were assisting with the fitting procedure revealed that this process of 
+blueing, fitting, removing and linishing of the propeller bore was repeated several times in an 
+attem pt to get the required interference fit.  
+Crack testing on the tail shaft s  
+7.2.16.  KiwiRail did not provide the Commission with  any record s of whether crack tests on the tail 
+shaft s had been specified or performed before the fitting of the new propellers.   Best  
+engineering  practice would have been for  KiwiRail to undertak e crack testing  of the  tail shaft s 
+to ensure  that no cracks were present before the fitting of the new propellers .   
+7.2.17.  Some evidence suggests that a test was performed.26 Further,  experts engaged b y KiwiRail 
+consider ed that  the fatigue cracks occurred after the new propellers were fitted , given that 
+there were no signs of wear on the old starboard propeller that correspond ed with the wear on 
+the tail shaft.  
+7.2.18.  Because the Commission was unable to obtain documentation confirming whether crack 
+testing had been  carried out when the new propellers were fitted , it cannot be certain about 
+                                                        
+25 An engineering term that refers to the process of u sing grinding or belt -sanding techniques to improve the 
+flatness of a surface. The flatness may be two -dimensional, i.e. with a view to achieving a flat plate, or one -
+dimensional, e.g. with a view to achieving a perfectly cylindrical shape . 
+26 An email betw een KiwiRail  and the propeller manufacturer  on 15/02/2011  noted that crack testing had 
+been budgeted for during dry -dock , and t he shafting expert engaged by KiwiRail  thought he remembered a 
+person carrying out a crack test but could not recall the outcome . 
+propeller blade  
+propeller blade  
+propeller hub  
+propeller cone  
+aft stern -tube bearing  
+stern -tube seal  
+8 mm spacer fitted  
+tail shaft  
+approximate position of fracture  
+ 
+
+<< Page 24 >>
+ Final report MO -2013 -203 when the crack occurred, but considers the  cracking was likely  to have occurred after the 
+fitting of the new prope llers.27 
+Lack of records and formal oversight  of the propeller fitting process  
+7.2.19.  In the Commission’s view it is significant that KiwiRail, and to a lesser extent DNV or the 
+shipyard, could not provide any records from the propeller -fitting process  to the Comm ission . It 
+suggests that KiwiRail had no way of knowing whether the propellers had been fitted correctly 
+and whether the relevant rules had been met.   
+7.2.20.  The r eplacement of propellers on a vessel the size of the Aratere  is a significant undertaking 
+and it would be normal for formal record s of the process to be available . There is no evidence 
+of KiwiRail following  up with DNV about its representative’s inspection or observations  of the 
+fitting process , or whether KiwiRail sought a report of that person’s inspection .  
+Finding s  
+3. Based on the physical evidence, the reason for the fretting was likely to have 
+been the  quality of the fit achieved between the tapered propeller tail shaft  
+and the propeller hub when the new propeller was fitted during the extension  
+project.  
+4. Fretting between the starboard propeller hub and the tail shaft  and corrosion 
+on the metal surface of the tail shaft  would have  likely decreased its fatigue 
+strength . 
+5. It is likely  that the fatigue crack occurred after the new propellers were fitt ed 
+as there were no signs of wear on the old starboard propeller .  
+6. It is unclear what DNV’s role or responsibilit y was in respect of the fitting 
+process and whether that responsibilit y was  met, as there were no formal 
+records made. This also meant  that it was not possible to determine the quality 
+of the fitting process.  
+ 
+ 
+  
+                                                        
+27 See section 5 where this is discussed.  
+ 
+Final report MO -2013 -203 
+<< Page 25 >>
+ 
+ Analysis: Crack propagation  from vibration  
+ Introduction  
+8.1.1.  In section 5 we presented evidence showing that it was a fatigue fracture that occurred on the 
+Aratere ’s starboard propeller . As the fatigue fracture propagated as a result of uniaxial 
+bending, it is necessary to determine what sources of uniaxial bending existed.  The main 
+source s of uniaxial bending  are vibration  and abnormal uneven thrust between individual 
+blades of the propeller . 
+8.1.2.  External sources of vibration can induce vibration in a propulsion system , but this was unlikely 
+for the Aratere  because no vibration from external sources was noted on the vessel befo re the 
+incident. Therefore,  this section examines potential sources of vibration from within the 
+Aratere ’s propulsion system to determine if vibration  was a factor .  
+ Did r esonance  contribute to the tail shaft  failure?  
+8.2.1.  In physics , elasticity is the ability  of a body to resist a distorting influence and return to its 
+original shape when the distorting influence (stress) is removed.  In this case the Aratere ’s 
+propeller shaft and propeller was an elastic body . As explained by Bhatt (2010):  
+any elastic body ca n vibrate freely.  Its vibrations are called natural vibrations.  
+Frequency of these vibrations is called natural frequency.  Each vibrating body has 
+its natural frequency . (Bhatt, 2010)  
+8.2.2.  Resonance is when a vibrating system or external force drives another system to oscillate with 
+a greater amplitude at a specific frequency.  The resonant frequency is approximately equal to 
+the natural frequency.   
+8.2.3.  For the Aratere ’s propeller shaft and propeller , there is a  critical speed of rot ation  or blade 
+pass frequency that excites the natural frequency of the propeller shaft or propeller.  As th is 
+speed of rotation approaches the propeller shaft and propeller’s  natural frequency , the 
+propeller shaft and propeller  begins to resonate , which d ramatically increases the propeller 
+shaft and propeller’s vibration .  
+8.2.4.  Following the incident , Wärtsilä and Lloyd’s produced calculations that indicated resonance 
+was unlikely to have contributed to the tail shaft  failure.  These calculation s are discussed 
+next. 
+Lloyd’s calculations  of vibration  
+8.2.5.  Lloyd’s carried out calculations of the natural frequencies of shaft -line lateral vibration for the 
+Aratere  in December 2013, after the incident. It found that  the frequency of natural vibration 
+of the shaft (where it would vibrate freely without any extra external force applied) was within 
+the normal operating revolutions of the propeller and shaft.  Thus any forced vibration induced 
+into the system at the frequency of natural vibration, for whatever reason, would h ave caused 
+a manifold increase in the amplitude of the natural vibration  (resonance ).   
+Wärtsilä’s calculation  of vibration  
+8.2.6.  In 2010  Wärtsilä designed a modification to the propeller cones (refer to the section on 
+propeller weight and balance below). At the  time Wärtsilä recommended to KiwiRail that it  
+calculate torsion and vibration.  In correspondence with Wärtsilä KiwiRail advised  that it had 
+asked a shafting expert to carry out the torsional and vibration calculations.  KiwiRail was 
+unable to produce the  calculations, so it is unknown whether the y were ever completed.   
+8.2.7.  Following the incident Wärtsilä completed torsional and vibration calculations. The 
+calculations showed torsion and vibration were within acceptable limits, and therefore unlikely 
+to have contributed to the tail shaft  failure.  
+ 
+
+<< Page 26 >>
+ Final report MO -2013 -203 8.2.8.  Cyclic stress would have ele vated lateral vibration in the part of the shaft between the face of 
+the propeller hub facing forwards and the aft stern -tube bearing, in close proximity to where 
+the fracture did occur.  If lateral vibration had been present,  it would have manifested in t he 
+place the crack initiated. Lloyd’s report indicate d that lateral vibration could not be excluded 
+as a possible  contributing factor to the formation of the fracture in the shaft.   
+8.2.9.  Lloyd’s report stated28: 
+It is likely that the shaft -line first natural fr equency of lateral vibration has been 
+within the range of blade rate29 excitation generated during normal vessel 
+operations.  The  history of problems with the port and starboard aft stern seals and 
+associated water contamination of the stern -tube lubricatin g oil are also generally 
+symptomatic of lateral vibration.  
+Resonance at the first natural frequency of lateral vibration would result in elevated 
+levels of cyclic bending stress in the shaft forward of the propeller and in way of the 
+‘A’-bracket bearing.  Vibratory amplitudes would be controlled by damping around 
+the propeller and oil film damping in the ‘A’ -bracket and auxiliary bearings.  
+8.2.10.  Therefore, it is possible that lateral vibration contributed to the failure of the Aratere ’s 
+starboard propeller shaft.  Although lateral vibration would have made only a minor 
+contribution to the failure, it would nevertheless have added to an y accumulation of other 
+factors.  
+Finding  
+7. Tail shaft  lateral vibration and/or torsional vibration was unlikely to have been 
+a major contributor to the fatigue cracking.  However, if it were present it would 
+have affected the area of the tail shaft  where the fracture occurred.  
+ 
+ Did mis alignment  of the propeller shaft contribute to the shaft failure?  
+The consequences of a misaligned shaft  
+8.3.1.  A misaligned propeller shaft increases vibration above that for a well  aligned shaft. Increased 
+vibration is likely to contribute to the bending forces that, if sufficient, initiate and propagate a 
+fatigue crack.  
+8.3.2.  Misalign ment also increases the load on the propulsion motors and generators, because more 
+power is required to rotate the shaft.  There would also be an increased load on the bearings, 
+which could lead to premature wear and possible breakage.   
+History of the ali gnment of the Aratere ’s propeller shafts  
+8.3.3.  Since being built in 1998 the Aratere  had had several problems with the alignment of both its 
+port and starboard propeller shafts, resulting in realignments on three occasions between 
+2003 and 2013. These issues are  described in more detail in Appendix 1 ; however , the 
+Commission notes that the aft stern -tube bearing had fatigue -type damage, and the starboard 
+aft stern -tube bearing had a large piece broken off that was likely to be from fatigue.30  
+8.3.4.  When the Aratere  was in dry -dock in Singapore in 2011 to lengthen the vessel, a KiwiRail 
+contractor advise d on, and deal t with, aligning and fitting the propeller shafts and new 
+propellers.   
+                                                        
+28 Lloyd’s (2014). Interislander: Calculation of Natural Frequencies of Shaftline Lateral Vibration , section 6.1 -
+6.2.  
+29 Blade rate excitation is the rotational frequency of the shaft (revolutions) multiplied by the number of blades 
+on the propeller.   
+30  Lloyd’s (2015). KiwiRail Holdings Ltd: Starboard Propeller Shaft Failure: Gap Analysis , section 6.2.  
+ 
+Final report MO -2013 -203 
+<< Page 27 >>
+ 8.3.5.  The contractor took measurements before and after the hull was  extended , which showe d 
+there was a 25 mm shift to port and 10 mm downward roll of  the hull .  The contractor also  
+supervised the realign ment of the port and starboard shafts once the vessel was afloat.  It did 
+this while the tail shaft s were in place (that is, it did not remove them from the hull, which 
+would have been the preferred practice  because it would have allowed the propeller  shafts  to 
+be aligned along their whole length ).  
+Post-incident measurements of the alignment of both propeller shafts  
+8.3.6.  In 2014, after the incident, KiwiRail sent the Aratere  to dry -dock to replace the broken tail 
+shaft  and refit the old propellers.  KiwiRail also took the opportunity to ensure that the 
+alignment of the propeller shaft and gearbox was correct.  Both propell er shafts were 
+misaligned, with the starboard shaft showing a greater degree of misalignment than the port 
+shaft. The starboard shaft would therefore have been  likely to  have more vibration than the 
+port shaft.   
+8.3.7.  Measurements of the starboard propeller sha ft alignment showed that the section of propeller 
+shaft between the gearbox and the stern -tube was well aligned  and the section of tail shaft  
+between the propeller and the stern -tube bush was also well aligned .  However, these two 
+separate sections were no t well aligned with each other .  In other words, there was an error in 
+the overall alignment of the propeller shaft between the gearbox and the propeller.  
+8.3.8.  Overall, the shaft was out of alignment with the gearbox by approximately 27 mm vertically 
+and 8 mm h orizontally (see Appendix 4 for full details).  The misalignment was most 
+pronounced between the section of the propeller shaft forward of the stern -tube bush and the 
+tail shaft  aft of the stern -tube bush.  The misalignment was most likely a consequence of  
+attempting to align the entire propeller shaft without withdrawing the tail shaft s.  
+8.3.9.  Measurements of the port tail shaft  alignment showed that the shaft was  also out of 
+alignment with the gearbox by approximately 23 mm vertically and 6 mm horizontally (see 
+Appendix 4 for full details).   
+8.3.10.  The misalignments on both propeller shafts would have:  
+ increased the load on the propulsion motors and generators, because more  power was 
+required to rotate the shaft s 
+ increased load on the bearings  (damage was found on both  aft-stern tube bearings)  
+ increased vibration.    
+8.3.11.  Three events suggest there was increased vibration in the shafting :  
+ an increase in accelerations within the s tarboard gearbox , which occurred some  time 
+after March 2012 . A KiwiRail t echnician on the Aratere  detected the increase during the 
+vibration readings that they took  quarterly . Until this  point  the technician had not 
+detected any increase in vibrations sinc e the Aratere  had been lengthened in 2011  
+ the failure of one coupling between the starboard gearbox and one propulsion motor  
+ a tear appearing in the coupling between the same (starboard) gearbox and the other 
+propulsion motor .  
+8.3.12.  The second and third events were indicative of a problem with the propeller shaft 
+arrangement.  
+  
+ 
+
+<< Page 28 >>
+ Final report MO -2013 -203 Finding s 
+8. The propeller shafts on the Aratere  had a history of misalignment and 
+associated failures that could  be expected to result from such misalignment.  
+9. Neither the port nor the starboard propeller shaft s were well aligned when the 
+new propellers were fitted during the extension project . The misalignment of 
+the starboard shaft was worse than that of the port shaft.  This misalignment  
+would have  likely  contributed to vibration with in the tail shaft  area, although 
+this factor alone should not necessarily have caused the tail shaft  to fracture . 
+ 
+ Did the weight and balance  of the propeller cause uni axial bending forces ? 
+Weight  
+8.4.1.  The new propellers fitted to the Aratere  in 2011 during the extension project were lighter  than 
+the old ones  (see Table 2) . The propeller cone was modified to accommodate this change, and 
+became heavier as a result. The Commission was  unable to determine whether the greater 
+weight of the propell er cone contributed to increased vibration in the pro peller shaft because 
+KiwiRail did  not carry out torsional or vibration calculations.  
+Table 2: Comparison of ‘old’ and ‘new’ propellers  
+ ‘Old’ propeller  
+ ‘New’ propeller as 
+designed  ‘New’ propeller as 
+certified  
+Diameter  3,950 mm  4,250 mm  4,250 mm  
+Pitch (hydrodynamic mean)  4,737 mm  4,571 mm  4,571 mm  
+Centre of mass of propeller, 
+measured from the forward -
+facing end of the propeller 
+hub 508 mm  530 mm  530 mm?  
+    
+Propeller weight  6,544 kg  5,331 kg  5,510 kg  
+Cone weight  120 kg  1,020 kg  1,150 kg  
+Combined propeller and 
+cone weight  6,664 kg  6,351 kg  6,660 kg  
+8.4.2.  In December 2010 , during the planning phase for the extension project,  Wärtsilä advised  
+KiwiRail  that, because of the de creased weight of the new propellers,  the aft  stern -tube 
+bearing would have to  be modified . Wärtsilä  advised that the modification would ensure that 
+the load on the bearing remained the same as with the original propellers , but the procedure 
+required the tail shaft s to be removed .   
+8.4.3.  KiwiRail  decided  not to remove the tail shaft s and did not inclu de their removal  in the dry-dock  
+specification .  KiwiRail  requested that Wärtsilä find another way to ensure  that the same 
+loading on the bearing  was achieved .   
+8.4.4.  Wärtsilä offered two options.  T he first was to redesign the ‘new’ propeller to be the same 
+weight as the ‘old’ propeller .  However, the efficiency gain would have been  about 0.8% less 
+than Wärtsilä’s original design , and this option would have incur red a time delay and possible 
+additional design costs.  The second option , which KiwiRail took,  was to increase the size and 
+weight of the propeller cone to give the same bearing load as before.   
+8.4.5.  Wärtsilä designed a modification to the propeller cone, increasin g the weight of the cone from 
+the original 120 kilograms (kg) to 1 ,020 kg.  This resulted in the same bearing load as the 
+original propeller and cone.  However, due to the increased weight  of the propeller cone 
+Wärtsilä advised KiwiRail  to complete a new t orsional and vibration calculation. Wärtsilä had 
+not included such a calculation in its original cost estimate.  KiwiRail  made no  request  to 
+Wärtsilä  (or any other expert) to undertake a torsional and vibration calculation . 
+ 
+Final report MO -2013 -203 
+<< Page 29 >>
+ Balance  
+8.4.6.  If the propeller cone wa s either unbalanced or fitted at an angle to the face of the propeller 
+hub, such that the centre of mass was not align ed with  the shaft and propeller, this would 
+have caused increased vibration.  This could have been a minor contributing factor to the 
+overall vibration in the propeller shaft. However, the Commission  could not determine whether  
+the propeller cone was unbalanced or fitted at an angle.  
+8.4.7.  The question of whether the propeller cone was balanced or not arose because of the 
+discovery of a rubber gasket inserted in the joint between the cone and the hub. The propeller 
+cone  was designed to mate with the back  of the propeller  hub and was designed  with a n ‘O’ 
+ring seal. The inclusion of the rubber gasket  in the joint would have made tensioning the stud 
+bolts to the correct torque more susceptible to error because of  the compression of the rubber 
+seal.  Had one part of the seal been more compressed than the rest , the cone  may have been 
+at a slight  angle to the hub, possibly inducing vibration.   
+Finding s 
+10. The method of fitting the cone to the starboard propeller  was not in accordance 
+with the manufacturer’s instructions. The Commission could not determine  
+whether the cone was in line with the tail shaft  and propeller . If it was not  in 
+line, it would likely have caused minor vibration to the tail shaft  in the region 
+where it cracked . This factor alone would  not have caused the tail shaft  to 
+fractur e.  
+ 
+  
+ 
+
+<< Page 30 >>
+ Final report MO -2013 -203 
+ Analysis: Stress loading on the tail shaft from the propeller    
+ Introduction  
+9.1.1.  The fatigue crack in the starboard tail shaft developed just within the leading edge of the 
+propeller hub.  As mentioned previously , a certain amount of stress is required for a fatigue 
+crack to form and propagate through the tail shaft.  Consequently, the performance of the 
+starboard propeller was a significant focus for the Commission.   
+9.1.2.  The fatigue crack’s origin was between the roo ts of blades C and D in line with the trailing 
+edge of blade C.31 
+9.1.3.  Typical stressors that initiate and drive the type of fatigue crack seen in the Aratere ’s tail shaft 
+are those that cause uniaxial bending of the tail shaft.  Uniaxial bending can be caused by 
+uneven thrust between the individual propeller blades.  All blades on a propeller will produce 
+uneven thrust as they rotate through the wake field comin g off the stern of the ship.  The 
+amount of uneven thrust can vary if there is an appreciable difference between the average 
+pitch of each blade.  It can also vary if cavitation causes each blade to operate at a different 
+efficiency.  
+9.1.4.  Cavitation is when cav ities (bubbles) of vapour form in a liquid at low pressure; when the 
+pressure increases the bubbles implode.  These implosions can cause intense shock waves 
+that are capable of causing cyclic stress and surface fatigue if near to a metal surface. A 
+distinc t erosion  or ‘orange peel ’ effect on metal surfaces will often be visible, and this was 
+observed on the Aratere ’s starboard propeller (see Figure 10). Where cavitation occurs over a 
+large area, a significant load can occur and can int roduce a flutter -type vibration to the 
+blade.32 
+9.1.5.  When designing ships, naval architects anticipate forces from uneven thrust and cavitation, 
+and tail shafts should be able to withstand these forces.  However, if a tail shaft is in a 
+weakened state through fr etting or corrosion, as was the case for the Aratere , such forces can 
+initiate and propagate a fatigue crack.   
+9.1.6.  Consequently, variation s in the average pitch between individual propeller blades and the 
+effects of cavitation are considered in the following sections.  
+ Uniaxial bending as a result of variation in propeller blade pitch  
+9.2.1.  The blades on the ‘new’ starboard propeller as manufactured had deviated from the design 
+pitch (as illustrated in Appendix 3). Although the differences were within the relevant IS O 
+(International Organization for Standardization) standard tolerances, it is likely  that this 
+variance in pitch produced uneven thrust and cavitation from the time the propeller was fitted.  
+9.2.2.  Following the recovery of the starboard propeller, multiple exper ts examined it and Aurecon 
+laser -scanned and measured it. The propeller had sustained damage that had altered the 
+pitch of all four of its blades and the pitch varied from the as -built pitch (see Appendix 3).  The 
+extent  of variation was different for each  blade : blade A had the largest difference between 
+the manufactured and post -incident pitch; blade B had less difference in pitch; blade C had 
+less again; and blade D had the least difference in pitch.  
+9.2.3.  DNV, as the vessel’s classification society, surveyed  the Aratere  annually and had noted 
+damage to the starboard propeller blades during a July 2013 in -water survey.  This damage 
+had not been seen in an August 2012 survey so DNV determined  that the damage had 
+occurred some time between August 2012 and July 2013. The damage sustained by the 
+                                                        
+31 Quest Integrity G roup  (2015) Aratere Starboard Propeller Shaft Failure Investigation , section 3.1.  
+32 Quest Integrity Group ( 2014 ). Aratere Starboard Propeller Shaft Failure Investigation , page 22/55 . 
+ 
+Final report MO -2013 -203 
+<< Page 31 >>
+ blades of the starboard propeller was likely to have induced increased uniaxial bending forces 
+on the propeller and shaft.  
+9.2.4.  The tail shaft had fatigue cracks that corresponded with blade A, directly opposite the origin of 
+the main fracture, which corresponded with the trailing edge of blade C.33  This would suggest  
+additional  bending forces on the tail shaft.  However, as previously mentioned, these  bending 
+forces would not usually cause fatigue  cracking without the surface of the shaft having first 
+been weakened by corrosion and fretting.  It is very likely  that the variation in blade pitch was 
+a significant factor in propagating the fatigue crack once it had been initiated.  
+ Cavitation as a resu lt of variation in propeller blade pitch  
+9.3.1.  The ‘cavitation number’ of a propeller indicates the degree of cavitation from a propeller or its 
+tendency to cavitate.  The lower the cavitation number, in general, the more likely the propeller 
+is to cavitate und er certain operating conditions.  But any deviation from the ‘as -designed’ 
+propeller could make the propeller more susceptible to cavitation.   
+9.3.2.  According to the initial design study produced by Wärtsilä, the Aratere ’s new propellers had a 
+lower cavitation number than the old ones.  Thus the ‘new’ propellers were operating closer to 
+the point of cavitation than the ‘old’ propellers.  
+9.3.3.  Erosion  from cavitation was seen on the rudders at the first dive survey following the fitting of 
+the new propellers on the Aratere.34 The blades on the ‘new’ starboard propeller as 
+manufactured had deviated from the design pitch (as illustrated in Appendix 3), so it is likely 
+that they were cavitating to some degree from the time the propeller was fitted.35  
+9.3.4.  The design of the propeller meant that a relatively small amount of damage or deviation from 
+the designed pitch could significantly affect the amount of cavitation from a blade.  Blade C of 
+the starboard propeller showed more damage and a greater degree of  cavitation erosion  than 
+the other blades (see Figure 10 and section 9.4 Extent of cavitation scouring on the rudders ). 
+The observed damage and erosion  indicate d that  blade C could have induced a greater 
+vibration load on the tail shaft. Quest noted:36 
+Cavitation damage [ erosion ] was seen on all the blades on the recovered 
+propeller to some extent. This indicates that the blades are probably designed to 
+operate close to the operational reg ion where cavitation will occur. This was as 
+reported in the design of the blades.  As a result, it may be possible that relatively 
+small changes in the blade shape could make significant changes to the 
+cavitation seen on a blade . 
+9.3.5.  The extent of cavitation erosion  on the port propeller was less than that on  the starboard 
+propeller.  When KiwiRail dry -docked the vessel in Singapore after the incident, Quest 
+reported:37  
+The amount of suction surface cavitation pitting [erosion] on the port propeller was 
+signif icantly less than seen on the starboard propeller  …  The extent of cavitation 
+was similar to the profile predicted by Wartsila in report TDH 000003044 . [See the 
+diagram at  the top of Figure 11, this report .] 
+  
+                                                        
+33 Quest Integrity Group  (2015)  Aratere Starboard Propeller Shaft Failure Investigation , section  3.3. 
+34 Aurecon Final Report 
+<< Page 1 >>
+.  
+35 Aurecon Final Report 
+<< Page 1 >>
+.  
+36 Quest Integrity Group (February 2014). Aratere  Starboard Propeller Shaft Failure Investigation , section 4.2.  
+37 Quest Integrity Group ( 2014 ). Aratere Starboard Prope ller Shaft Failure Investigation , report 105323.04. 
+page 25/112.  
+ 
+
+<< Page 32 >>
+ Final report MO -2013 -203  
+Figure 10 
+ Surface replicas of the cavitation erosion  on the blades of the starboard propeller  
+ 
+  
+blade C  
+ blade D  
+ blade B  
+ blade A  
+ 
+Final report MO -2013 -203 
+<< Page 33 >>
+  
+ 
+Figure 11 
+Designed cavitation diagram (top) and observed cavitation erosion  on the suction side of the blades of the 
+starboard propeller  
+   
+  
+blade  A 
+ 
+blade  B 
+ 
+blade  C 
+ 
+blade  D 
+ 
+area of cavitation erosion  
+area of cavitation erosion  
+area of cavitation erosion  
+area of cavitation erosion  
+ 
+
+<< Page 34 >>
+ Final report MO -2013 -203 9.3.6.  The areas of cavitation erosion  generally coincide d with the areas of difference between the 
+as-designed and the recovered propeller, including the damage sustained between 2012 and 
+2013 (see Figure 11). The variation in the patina strongly suggest ed that, at some stage, the 
+flow pattern around blade C had been  significantly different from the flow pattern around the 
+other blades. If a resonant flutter had occur red in blade C as a result, this could have caused  
+vibration stress in the shaft and explai ned the location of the fatigue crack’s origin.38  
+9.3.7.  Aurecon produced a three -dimensional laser surface scan of the propellers (see Figure 12). 
+KiwiRail engaged MARIN to analyse the propeller forces and cavitation. MARIN’s analysis 
+sought to calculate what cavitation would have resulted from the damaged propellers. MARIN 
+concluded:  
+The observed erosion pattern on the propeller blades would suggest the 
+presence of a diverging trace of bubbles originating from the lead ing-edge.  A 
+narrow ‘isolated’ band of sheet cavitation or a cavitating vortex is expected that 
+is being shed from the leading -edge.  The results of the calculations show no 
+traces of such narrow cavitation patterns starting from the leading -edge…39 
+… The l ocation and shape of the computed sheet cavitation pattern cannot be 
+linked to the observed damage on the starboard propeller blades…40 
+… The calculations did not capture the supposed erosive cavitation forms that 
+are likely responsible for the observed ero sion damage. This could be due to 
+limitations to the applied calculations procedure, the representation of the 
+propeller blade geometry and the assumed wake field of the ship.41 
+9.3.8.  MARIN’s analysis was not useful for explaining the cavitation erosion  observed on the 
+propellers and rudders.  MARIN acknowledged this was probably because the computer model 
+was unable to map the propeller accurately or accurately predict the effects of the wake field 
+coming from the stern of the ship.42 
+ 
+ 
+ 
+ 
+                                                        
+38 Quest Integrity Group ( 2014 ). Aratere Starboard Propeller Shaft Failure Investigation , report page 22/55 . 
+39 MARIN (2015), KiwiRail ‘Aratere’ Ferry Propellers: Analysis of propeller forces and cavitation , page 12 para 
+3.2.3.  
+40 MARIN (2015). KiwiRail ‘Aratere’ Ferry Propellers: Analysis of propeller forces and cavitation , page 14, May 
+2015.  
+41 MARIN (2015). KiwiRail ‘Aratere’ Ferry Propellers: Analysis of propeller forces and cavitation , page  14, May 
+2015  
+42 MARIN (2015). KiwiRail ‘Aratere’ Ferry Propellers: Analysis of propeller forces and cavitation , page 14, May 
+2015.  
+ 
+Final report MO -2013 -203 
+<< Page 35 >>
+  
+ 
+Figure 12  
+ Comparison between the as -designed propeller and the recovered starboard propeller  
+ 
+Vessel: Aratere
+Propeller: Starboard
+Face: Forward (suction side)
+Note:
+Deviation of “scanned” propeller surface from “designed” 
+propeller surface. The magnitude of the deviation shown by the 
+colours is absolute, and does not discern between a positive or 
+negative deviation. 
+For example, the areas coloured red indicate that the 
+“scanned” propeller surface was between 10mm and 30mm 
+from the “designed” surface, but does not necessarily indicate 
+whether the “scanned” surface is in-front of, or behind the 
+“designed” surface.
+“C” blade(distance in mm)
+ 
+36 
+ 
+ Extent of cavitation scouring on the rudders  
+9.4.1.  When the Aratere  dry-docked in Singapore it was found that the paint had scoured from the 
+surface of the rudder in two distinct areas (see Figure 13 and Figure 14).  This scouring was 
+characteristic of the effects of cavitation from the propeller.   
+9.4.2.  The Commission reviewed the recordings from DNV’s in -water surveys carried out between the 
+fitting of the ‘new’ propellers and the incident.  Cavitation scouring of the paint on the 
+starboard rudder was evident in both recordings, which further suggest ed that  the starboard 
+propeller had been cavitating from the time it had been fitted.  
+9.4.3.  Cavitation scouring was also present on the port rudder but not to the extent seen on the 
+starboard rudder.  
+  
+Figure 13 
+Cavitation scouring on starboard rudder  
+inboard side of starboard rudder  outboard side of starboard rudder  
+areas of cavitation scouring  
+Photographs courtesy of KiwiRail  
+ 
+Final report MO -2013 -203 
+<< Page 37 >>
+  
+Figure 14  
+Inboard side of the port rudder showing significantly less loss of paint than on the starboard rudder  
+ Cumulative effect  of forces acting on the Aratere ’s starboard propeller shaft    
+9.5.1.  In its Final Report, Aurecon place d significant weight on the manufacturing of the propeller (in 
+particular a malformed blade C) as the primary cause of the fatigue crack. The Commission 
+determined that the new starboard propeller blades had been  producing uneven thrust and 
+cavitating from t he time the propeller had been  fitted. However, the thrust and cavitation , by 
+themselves,  were  unlikely to have been sufficient to propagate the fatigue crack.  
+9.5.2.  The DNV records showed that the starboard propeller had suffered damage while in service on 
+some  date between August 2012 and July 2013.  The evidence show ed that this damage 
+resulted in a change in blade pitch for all four propeller blades.  Blades A, B and C had all 
+been within the ISO tolerances when the propeller was built.  However, when measure d after 
+the incident all three blades were found to be well outside the ISO tolerances (see Appendix 
+3).  The areas of cavitation erosion seen on all four blades (Figure 11) generally coincided with 
+the areas of difference in pitch between the propeller as  it had been  designed and when it 
+was recovered after the incident, which makes it almost certain that the damage occurred in 
+service, and not as a result of the incident.  
+9.5.3.  It is very likely that the in -service damage to the propeller induced greater uniaxi al bending 
+forces.  Also, it is very likely to have increased the cavitation and the consequential increase in 
+vibration stress loading on the tail shaft.  
+9.5.4.  In isolation, uneven thrust and cavitation should not result in catastrophic fatigue cracking in 
+tail shafts , but the Aratere ’s starboard propeller shaft was in a weakened state as a result of 
+fretting and corrosion. Uniaxial stress loading on the tail shaft would have likely increase d 
+following in -service damage and, combined with cavitation, acted on th e weakened shaft to 
+propagate the fatigue fracture until complete failure.  
+ 
+ 
+Photographs courtesy of KiwiRail  
+ 
+
+<< Page 38 >>
+ Final report MO -2013 -203 Findings  
+11. The starboard propeller blades varied from design specification and would 
+have very likely been p roducing uneven thrust and cavitation from the time the 
+new propeller was fitted.  The starboard propeller  had sustained damage in  
+service between 2012 and 2013 , resulting in further variance in blade pitch.  
+12. The variation in pitch between blades would very likely have induce d increased 
+uniaxial bending forces in the tail sha ft, which acted on the weakened shaft to 
+propagate  the fatigue crack.   
+13. Cavitation from the starboard propeller would very likely have  contribute d to 
+vibration stress loading on the tail shaft, but to what magnitude could not be 
+precisely determined.  
+  
+  
+ 
+Final report MO -2013 -203 
+<< Page 39 >>
+ 
+ Analysis: ISO standards for manufacturing tolerances  
+ The manufacture of the Aratere  propellers  
+10.1.1.  One of the most important factors in manufacturing a marine propeller to perform as 
+predicted is to reproduce the shape in the original design as closely as poss ible. 
+Manufacturers can use two methods to shape propeller blades: hand finishing or computer 
+numerical control machines. The latter usually provides a more accurate finish.   
+10.1.2.  Wärtsilä manufactured and hand finished the propellers that were fitted to the  Aratere  to 
+within the tolerances of ‘ISO standard 484/1 -1981 Class I, high accuracy ’ (Class S, ‘very high 
+accuracy’, was the only higher class of accuracy). So, for example, on the Aratere ’s propellers 
+with a mean pitch43 of 4,571 mm, a tolerance of plus or minus 1.5% at each radius mean t the 
+propellers’ actual pitch could be up to 68 mm different from the designed pitch and still be 
+‘within tolerance’.  The propellers’ mean pitch is only allowed to deviate up to 0.75% from the 
+designed value.  
+10.1.3.  As previously mentioned, the ‘cavitation number’ indicates the degree of cavitation on a 
+propeller or its tendency to cavitate.  The lower the cavitation number, in general, the more 
+likely the propeller is to cavitate under certain operating conditions  (Eisenberg, 1950) .  But 
+any deviation from the ‘as -designed’ propeller could make the propeller more susceptible to 
+cavitation.   
+10.1.4.  According to the initial design study produced by Wärtsilä, the Aratere ’s ‘new’ propellers were 
+designed for highe r efficiency and thus had a  lower cavitation number than the ‘old’ ones. 
+Thus the ‘new’ propellers were operating closer to the point of cavitation than the ‘old’ 
+propellers  under normal operating conditions . 
+ ISO standards  
+10.2.1.  The ISO sets standards for the ma nufacturing tolerances of the type of propellers that were 
+fitted to the Aratere . The relevant ISO standard is ‘Standard 484/1 Shipbuilding – Ship screw 
+propellers – Manufacturing tolerances – Part 1: Propellers of diameter greater than 2.50 m’ 
+(referred t o in this report as ‘ISO standard 484/1’).  
+10.2.2.  ISO standard 484/1 came in  to force in 1981. It set four accuracy classes, which were to be 
+selected by the customer.  Several tables set out the indications as to the accuracy (see 
+Appendix 2 for full details).  However, propeller design and manufacture has evolved since 
+1981. Propellers have become more efficient. However,  as a propeller’s efficiency increases it 
+operates closer to the point where it would cavitate.  These high -efficiency propellers therefore 
+require high -accuracy manufacture with small tolerance limits to ensure  that performance is 
+maintained and they do not cavitate. It is possible  that the tolerances contained in ISO 
+standard 484/1 are too wide for modern, high -efficiency propellers.  
+10.2.3.  The Commi ssion has made a recommendation to Standards New Zealand to forward the 
+report to the ISO Secretariat for its information on whether the current standards for 
+manufacturing large -diameter marine propellers are appropriate for modern, high -efficiency 
+propel lers that operate closer to cavitation margins.  
+Finding  
+14. The ISO standards for large -propeller manufacturing might not be suitable for 
+more modern, high -efficiency propellers that operate closer to cavitation 
+margins.   
+                                                        
+43 The pitch is the distance a propeller would move in one revolution if it were moving through a soft solid, like a screw thr ough wood. For 
+example, a 21 -pitch propeller would move forward 21 units in one revolution  
+ 
+
+<< Page 40 >>
+ Final report MO -2013 -203 
+ Analysis : Other matters  
+ Rudder stock cracking  
+11.1.1.  As described above, in 2014 KiwiRail dry -docked the Aratere  after the incident  to refit the old 
+propellers . While it was in dry -dock, KiwiRail found cracks in the starboard rudder stock .  
+Examination of rudder stocks in dry -dock  
+11.1.2.  While the Aratere  was in dry -dock after the incident , the port and starboard rudders were 
+removed so the tail shaft s could be removed and refitted . When the tail shaft s had been 
+reinstated and the rudders  were about to be refitted to the rudder stocks , a crack  was 
+observed on the starboard rudder stock  (see Figure 15).  Further investigation found the 
+rudder stock was cracked horizontally  on both the outboard and inboard faces.  An 
+examination of the port rudder stock showed it was also cracked , but to a lesser extent.    
+11.1.3.  KiwiRail had to replace the starboard rudder stock because the cracks were of a depth that 
+could not be repaired.  KiwiRail decided to replace the port rudder stock also, even though it 
+could have been repaired.   
+ 
+Figure 15 
+Fracture surfaces found on the starboard rudder stock  
+  
+Photographs courtesy of Matcor/KiwiRail  
+ 
+Final report MO -2013 -203 
+<< Page 41 >>
+ Cause of the cracking  
+11.1.4.  KiwiRail engaged Matcor to determine the cause of the cracks found in both rudder stocks, 
+with an emphasis on the starboard stock .  
+11.1.5.  Matcor determined that because of their position and depth, the cracks were most probably 
+linked to the forces applied to the starboard rudder by the cavitation from the starboard 
+propeller (see Figure 14), rather than any  defects in the structure of the metal. These forces 
+were likely to be outside those expected in normal operation s.  
+11.1.6.  Matcor  stated that the fracture surface s of the cracks in the starboard rudder stock were :44 
+generally flat with multiple fracture initiation sites along the shaft surface.  
+Fractographic examination revealed that the fracture surface was generally smeared 
+and corroded.  At some areas towards the crack tip, faint traces of striations could 
+be disc erned.  The fracture features were generally consistent with fatigue crack 
+propagation .  
+11.1.7.  Quest agreed  that t he castellations on the crack s (see F igure 15) show ed that the crack s had 
+formed due to separate smaller cracks joining together.  The crack was a m ulti–origined 
+fatigue failure where the forces applied were well above the fatigue limit.  The crack may have 
+stopped at the depth it reached due to the smaller diameter of the shaft , becau se a smaller -
+diameter shaft needs more force applied to cause a cra ck.  The orientations of the cracks on 
+the starboard shaft were  indicative that it wa s being forced from side to side.45   
+11.1.8.  Quest determined , from an examination of the photographs of the rudder stock’s metal 
+structure , that there did not appear to be any defects in the structure of the metal.  
+ 
+Finding  
+15. The cracks in the starboard rudder stock  were fatigue cracks. Owing  to their 
+position and depth they were most probably linked to cavitation forces applied 
+to the starboard rudder from the starboard propelle r. These forces were likely 
+outside  those expected in normal operations.  
+ Oversight of the fitting of new propellers  
+11.2.1.  The r eplacement of the Aratere ’s propellers  was a modification to one of the ship’s critical 
+systems .  The Commission found that advice fro m appropriate experts was either not sought 
+or not followed during the fitment operation  to ensure that the propulsion system had been 
+set up and functioning properly before the vessel re -entered service.  
+Expert advice  
+11.2.2.  In investigating the fitting of the new propellers, the Commission found examples of KiwiRail 
+not following expert advice.  
+11.2.3.  One example concerned KiwiRail’s decision to not follow Wärtsilä’s original advice to withdraw 
+the tail shaft s to modify the tail sh aft bearings as a result of the lighter  propeller s. KiwiRail’s 
+decision to not withdraw the tail shaft s led to the need to modify the propeller instead, and 
+prevented its own propeller expert achieving full alignment of the tail shaft .   
+                                                        
+44 Matcor (2014). Report 14115 – Condition Assessment of Starboard and Port Rudder Shafts of Vessel ‘MV 
+ARATERE’ . 
+45 Record of telephone conversation with Quest repres entative . 
+ 
+
+<< Page 42 >>
+ Final report MO -2013 -203 11.2.4.  A second example w as KiwiRail’s decision to not follow Wärtsilä ’s advice to carry out torsional 
+and vibration calculations before fitting the new propellers. With respect to torsional vibration 
+in propulsion systems, DNV wrote  (DNV -GL, 2016) : 
+Keeping control of vibration levels in your engines, propulsion systems and 
+generator sets is essential in order to have machinery that operates safe ly and 
+reliably. The wrong combination of individually satisfactory components may lead 
+to an inappropriate sy stem. The Torsional Vibration calculation software can 
+identify the interaction between components, an essential part of the system and 
+functionality assessment.  
+11.2.5.  Wärtsilä had advised KiwiRail to carry out torsional and vibration calculations before fitting  the 
+new propellers, but the Commission found no evidence that this was done. Wärtsilä carried 
+out torsional and vibration calculations after the incident, and concluded, “The torsional stress 
+and torque amplitudes are well within allowable levels in norma l operation ”. 
+11.2.6.  When Wärtsilä designed the new propeller cone mentioned in previous sections, it again  
+advised KiwiRail that a new torsional and vibration calculation would be required.  KiwiRail 
+wrote to Wärtsilä advising that it had asked its own propeller expert to carry out the torsional 
+and vibration calculation.  KiwiRail  was unable to produce those  calculations.  
+Documentation  
+11.2.7.  The r eplacement of  the Aratere ’s propellers was part of a wider project to lengthe n the ship 
+and mo dify its bow and stern to improve sea -keeping characteristics.  The fitting of new 
+propellers was on ly a part of this wider project; n evertheless, a ship’s  propulsion system is a 
+critical one.  It is complex , made up of many components that must be compati ble for the 
+system as a whole to work efficiently and safely.  
+11.2.8.  Given the complexity of propeller replacement and the critical nature of the propeller system, 
+the Commission expected to  be provided with  records of KiwiRail’s  decision -making process 
+and tech nical documentation  prior to and during  the fitment of the new propellers . However, 
+KiwiRail was unable to provide documentation for:  
+ the decision -making process to re -propeller the Aratere   
+ the design brief  
+ specifications and standards for the propellers  (other than the design proposed by Wärtsilä)  
+ verification that Wärtsilä’s design for the propeller was suitable for its intended use  
+ verification that a proper fit had been achieved between both  propeller s and the tail shaft , 
+despite engaging the DNV classification society to observe the fitting.   
+11.2.9.  This lack of documentation from  KiwiRail mean t the Commission had no evidence that 
+appropriate checks and balances had been  in place to ensure that the new propellers were 
+well fit ted.  As described in this report, the  Commission considers it likely  that several adverse 
+conditions  occurred  in the Aratere ’s starboard propulsion system  shortly  after the new 
+propellers were fitted .  
+  
+Finding   
+16. A lack of documentation from  KiwiRail mean t that the Commission had no 
+evidence  that appropriate checks and balances had been  in place to ensure  
+that the new propellers were well fitted . 
+17. KiwiRail did not follow the manufacturer’s advice on the best way to fit the new 
+propellers  and modify the propul sion system for optimum results .  If it had, 
+some of the conditions that contributed to the failure of the tail shaft would 
+have been less likely to occur.  
+ 
+Final report MO -2013 -203 
+<< Page 43 >>
+ 
+ Analy sis: S ummary  
+12.1.  Various experts concluded46 that the fracture that occurred on the  Aratere ’s starboard 
+propeller shaft was a fatigue fracture, typical of that resulting from uniaxial bending forces.  
+Such fractures begin with a crack in the surface of the metal that then propagat es to the 
+point where the metal can no longer withstand normal ope rating loads.  
+12.2.  For the crack to have initiated, the tail shaft must have been weakened.  The Commissio n 
+found clear evidence that fretting had occurred between the bore of the port and starboard 
+propeller hubs and their respective tail shaft s.  This fr etting, together with the presence of 
+minor surface corrosion on both tail shafts, would  have decreased the fatigue strength of the 
+tail shafts, making them more susceptible to fatigue cracking due to uniaxial (bending) forces.  
+The most likely reason for the fretting was the quality of the fit achieved between the propeller 
+hubs and the tapered section of the tail shaft s when the new propellers were fitted during the 
+extension project in 2011.  
+12.3.  The Commission found it likely that the fit of the propel lers was less than optimal, and that 
+there was an increased risk of  damage to contact surfaces. Any damage to the contact 
+surfaces  could  have  initiate d fatigue cracking on the surface of the tail shaft .  Any in-service 
+movement resulting from the sub -optim al fit would  have  very likely caused the fretting .  
+12.4.  The main types of force acting on the tail shaft  would have been uniaxial bending forces  and 
+vibration. These forces would have acted on the weakened tail shaft  to propagate the crack. 
+The Commissio n found measurable differences between the port and starboard propeller 
+systems , showing that greater uniaxial forces were acting on the starboard propeller shaft.  
+12.5.  Measurable differences between the port and starboard propulsion systems  that indicated 
+increased vibration were:  
+ the misalignment of the entire starboard propeller shaft was worse than that for the port 
+side 
+ the starboard propeller cavitation was worse than that of the port propeller  
+ the starboard propeller had been damaged in ser vice, causing a further variation in average 
+blade pitch (which would  likely have increased cavitation on the starboard side).  
+12.6  The Commission found no evidence of errors in design or manufacture or excessive forces 
+acting on the tail shaft. Neverthele ss, it fractured. None of the factors discussed in this report 
+should, alone, h ave caused a well  designed tail shaft maintained in good condition to fail.  
+The tail shaft must therefore have been in a weakened state for the fatigue crack to initiate.  
+Conv ersely, the tail shaft being weakened due to fretting and corrosion should not, alone, 
+have caused the tail shaft to fracture.  It required sufficient, albeit reduced, bending force to 
+initiate the fatigue crack.  
+12.7.  In combination , the weakened state o f the tail shaft and the levels of bending forces  resulted 
+in the failure of the tail shaft.  
+   
+                                                        
+46 Matcor (2014). Failure Analysis and Condition Assessment of Starboard and Port Propeller Shafts of Vessel 
+‘MV ARATERE’, s ection  4.3. Lloyd’s Register  (2014). Metallurgical Investigation , section 2.2. Quest Integrity 
+Group (2015).  Aratere  Starboard Propeller Shaft Failure Investigation , section 4.1.  
+ 
+
+<< Page 44 >>
+ Final report MO -2013 -203 
+ Findings  
+13.1 The fracture was determined to be a fatigue fracture resulting from uniaxial bending forces.  
+13.2 There had to be a source or sources present that produced bending forces capable of 
+propagating the fatigue crack through the tail shaft.  
+13.3 Based on the physical evidence, the reason for the fretting was likely to have been the quality 
+of the fit achieved b etween the tapered propeller tail shaft and the propeller hub when the 
+new propeller was fitted during the extension project.  
+13.4 Fretting between the starboard propeller hub and the tail shaft and corrosion on the metal 
+surface of the tail shaft would have  likely decreased its fatigue strength.  
+13.5 It is likely that the fatigue crack occurred after the new propellers were fitted as there were no 
+signs of wear on the old starboard propeller.  
+13.6 It is unclear what DNV’s role or responsibilit y was in respect of the fit ting process and whether 
+that responsibilit y was  met, as there were no formal records made. This also meant that it was 
+not possible to determine the quality of the fitting process.   
+13.7 Tail shaft lateral vibration and/or torsional vibration was unlikely to have been a major 
+contributor to the fatigue cracking.  However, if it were present it would have affected the area 
+of the tail shaft where the fracture occurred.  
+13.8 The propeller shafts on the Aratere  had a history of misalignment and associated failures tha t 
+could  be expected to result from such misalignment.  
+13.9 Neither the port nor the starboard propeller shafts were well aligned when the new propellers 
+were fitted during the extension project. The misalignment of the starboard shaft was worse 
+than that of the port shaft.  This misalignment would have  likely contributed to vibration within 
+the tail shaft area, although this factor alone should not necessarily have caused the tail shaft 
+to fracture.  
+13.10  The method of fitting the cone to the starboard propeller was n ot in accordance with the 
+manufacturer’s instructions. The Commission could not determine whether the cone was in 
+line with the tail shaft and propeller. If it was not in line, it would likely have caused minor 
+vibration to the tail shaft in the region whe re it cracked. This factor alone would not have 
+caused the tail shaft to fracture . 
+13.11  The starboard propeller blades varied from design specification and would have very likely 
+been producing uneven thrust and cavitation from the time the new propeller was fi tted.  The 
+starboard propeller sustained damage in  service between 2012 and 2013 , resulting in further 
+variance in blade pitch.  
+13.12  The variation in pitch between blades would  very likely have induced abnormal uniaxial 
+bending forces in the tail shaft , which a cted on the weakened shaft to propagate the fatigue 
+crack.   
+13.13  Cavitation from the starboard propeller would  very likely have contributed to vibration stress 
+loading on the tail shaft, but to what magnitude could not be precisely determined.  
+13.14  The ISO standard s for large -propeller manufacturing might not be suitable for more modern, 
+high-efficiency propellers that operate closer to cavitation margins.   
+13.15  The cracks in the starboard rudder stock were fatigue cracks. Owing  to their position and 
+depth they were mos t probably linked to cavitation forces applied to the starboard rudder 
+from the starboard propeller. These forces were likely outside those expected in normal 
+operations.  
+13.16  A lack of documentation  from  KiwiRail mean t that  the Commission had no evidence that 
+appropriate checks and balances had been  in place to ensure that the new propellers were 
+well fitted.  
+ 
+Final report MO -2013 -203 
+<< Page 45 >>
+ 13.17  KiwiRail did not follow the manufacturer’s advice on the best way to fit the new propellers  and 
+modify the propulsion system for optimum results . If it had, some of the conditions that 
+contributed to the failure of the tail shaft would have been less likely to occur.  
+ 
+
+<< Page 46 >>
+ Final report MO -2013 -203 
+ Safety a ctions  
+ General  
+14.1.1.  The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+ Safety a ctions  addressing safety issues identified during an inquiry  
+14.2.1.  No safety actions wer e identified . 
+ Safety a ctions  addressing other safety issues  
+14.3.1.  No safety actions  were taken.  
+  
+ 
+Final report MO -2013 -203 
+<< Page 47 >>
+ 
+ Recommendations  
+ General  
+15.1.1.  The Commissi on may issue, or give notice of  recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case , recommendations have been issued to Standards New Zealand  and 
+KiwiRail . 
+15.1.2.  In the interests of transport safety,  it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+ Recommendations  
+To the Chief Executive of KiwiRail  
+15.2.1.  The r eplacement of a large vessel’s key components, such as propellers, is a significant 
+undertaking. The Commission expected that KiwiRail would be able to provide comprehensive 
+records from the process to fit the new propeller on the Aratere , including confirmation of the 
+fit achieved.  KiwiRail provided only limited documentation.    
+15.2.2.  Fitment of the propeller was found to have likely caused weakening of the propeller shaft due 
+to fretting.  The lack of doc umentation means there is limited evidence about the quality of 
+final fit achieved when the starboard propeller was replaced.  Documentation or records could 
+have confirmed important details about the fitment process.  
+15.2.3.  The Commission recommends that the Chief Executive of KiwiRail ensure that where KiwiRail 
+makes significant  modifications to vessels, appropriate oversight is in place. Oversight 
+includes keeping comprehensive records to demonstrate  that components  are safe and 
+reliable  and compl y with the appropriate standards. [ 014/15]  
+On 6 December 2016 , KiwiRail replied:  
+We have already implemented your recommendation by ensuring that all 
+significant modifications to vessels are now always undertaken under the 
+oversight of KiwiRail’s Project Management Office which has its own strong project 
+management disciplines including good records’ management and strong 
+governance.  
+To Standards New Zealand  
+15.2.4.  The propellers were designed for high levels of efficiency and consequently had a low 
+cavitation nu mber.  This means they were operating close to the point where they would 
+cavitate in normal operations.  As a result, it may be possible that relatively small changes in a 
+blade shape will make significant changes to the cavitation seen on the blade.  
+15.2.5.  The propellers were manufactured to ISO standard 484/1 -1981 Class I (high accuracy ).  This 
+standard came in  to force in 1981 and set accuracy classes that were to be selected by the 
+customer.  
+15.2.6.  Propeller design and manufacture evolved after ISO standard 484/1 ca me into existence in 
+1981 , with a tendency towards more efficient propellers for owners to access  the benefits of 
+less power being lost within the propulsion system.  However, as propellers became more 
+efficient they were designed with a lower cavitation n umber, which means that during normal 
+operations they were closer to the point where they would cavitate.  Any deviation from the 
+design during manufacture would alter a propeller’s susceptibility to cavitate.  
+ 
+
+<< Page 48 >>
+ Final report MO -2013 -203 15.2.7.  The tolerances contained in ISO standard 484/1  may not be as relevant for modern , high-
+efficiency propellers requiring high -accuracy manufacture with very small tolerance limits to 
+ensure that their performance is not adversely affected.   
+15.2.8.  The Commission recommends that Standards New Zealand submit th e Transport Accident 
+Investigation Commission’s report MO -2013 -203 DEV Aratere , Loss of propeller , Cook Strait, 5 
+November 2013 to the ISO Secretariat for its information  and to consider  whether the current 
+standards for manufacturing large -diameter marine propellers are appropriate for modern, 
+high-efficiency propellers that operate closer to cavitation margins.  [015/15]  
+On 21 November 2016, Standards New Zealand replied:  
+I can confirm t hat Standards New Zealand will implement the Commission’s final 
+recommendation as soon as we have received the Commission’s final report.  I 
+can also confirm that, as requested, I will send the commission a further letter 
+following implementation of the re commendation.  
+ 
+  
+ 
+Final report MO -2013 -203 
+<< Page 49 >>
+ 
+ Citations  
+ASM International. (1996). International Handbookon Fatigue and Fracture. 19, 321.  
+Bhatt, P. (2010). Maximum Marks Maximum Knowledge in Physics.  Allied Publishers.  
+DNV-GL. (2016, 06 23). Torsional Vibration Software . Retrieved from DNVGL.com: 
+https://www.dnvgl.com/services/nauticus -machinery -torsional -vibration -2926  
+Eisenberg, P. (1950). On the Mechanism and Prevention of Cavitation.  Washington D.C.: Navy 
+Department, David W.Taylor Model Basin.  
+IACS. (2016, March 23). Classification Societies - What, Why and How?  Retrieved from International 
+Association of Classification Societies: www.iacs.org.uk/document/public/explained/class 
+WhatWhy&How.PDF  
+Kinnas, S. A., & Young, Y. L. (2003). Modelling of C avitating or Ventilated Flows using BEM. International 
+Journal of Numerical Methods for Heat & Fluid Flow, 13 (5/6), 672 -697.  
+Lipsom, C., & Colwell, L. V. (1961). Handbook of Mechanical Wear: Wear, frettage, pitting, cavitation, 
+corrosion.  University of Michigan Press.  
+Lubliner, J. (2008). Plasticity Theory (revised edition).  Dover Publications.  
+Maintenance Technology. (2012, 07). Failure analysis of machine shafts . Retrieved from Maintenance 
+Technology: http://www.maintenancetechnology.com  
+Pook, L. (2007). Metal Fatigue: What it is, why it matters.  Netherlands: Springer.  
+Sachs, N. (2012, July 16). Failure analysis of machine shafts.  Retrieved November 5, 2014, from 
+maintenance technology: http://www.maintenancetechnology.com/2012/07/failure -analysis -
+of-machine -shafts/  
+. 
+  
+ 
+
+<< Page 50 >>
+ Final report MO -2013 -203 Appendix 1 : Port and starboard shaft alignment problems  
+History of problems with port and starboard shafts  
+Date  Starboard shaft  Port shaft  
+2003 (dry -dock)  checked for alignment, found 
+to be out of alignment  
+no corrective action   checked for alignment, found to be 
+out of alignment  
+shaft and gearbox realign ed 
+2005 (dry -dock)  no information on alignment  shaft found to be misaligned  
+intermediate shafts found to be 
+bent and twisted  
+gearbox replaced with new  
+gearbox and motor realign ed 
+shaft realign ed 
+2007 (general service)  inboard stern -tube seal running 
+at high temperature  
+additional cooling capacity 
+added  inboard stern -tube seal running at 
+high temperature  
+additional cooling capacity added  
+high water conten t found in stern -
+tube  
+2007 (dry -dock)  alignment check with 
+propulsion motors carried out  
+misalignment between both 
+motors and gearbox  
+shaft realign ed shaft alignment checked and 
+found to be correct  
+inboard and outboard stern -tube 
+seals replaced  
+2011 (dry-dock)  shaft realign ed without 
+removal of tail shaft  
+new inboard and outboard 
+seals fitted  
+new propeller fitted  shaft realign ed without removal of 
+tail shaft  
+new inboard and outboard seals 
+fitted  
+new propeller fitted  
+2012/2013  
+(general service)  gearbox showing elevated 
+temperatures  
+gearbox bearings changed  
+bearings checked, no sign of 
+misalignment  
+vibration analysis shows higher 
+accelerations than port side  
+gearbox to propulsion motor 
+coupling torn  
+new coupling installed  
+July 2013 one blade tip o n 
+propeller found to be bent  bearings checked, no sign of 
+misalignment  
+gearbox to propulsion motor 
+coupling slight tear in material  
+ 
+ 
+  
+ 
+Final report MO -2013 -203 
+<< Page 51 >>
+ Appendix 2 : ISO 484/1 -1981 accuracy classes and tolerances  
+Accuracy classes  
+Class  Manufacturing accuracy  
+S Very high accuracy  
+I High accuracy  
+II Medium accuracy  
+III Wide tolerance  
+Tolerances on pitch  [Table 2]  
+Designation of pitch  Class  
+S I II III 
+a) Local pitch  ±1.5%  ±2.0%  ±3.0%   
+b) Mean pitch of each radius of each 
+blade  ±1.0%  ±1.5%  ±2.0%.  ±5%  
+c) Mean pitch per blade  ±0.75%  ±1.0%  ±1.5%  ±4.0%  
+d) Mean pitch for propeller  ±0.5%  ±0.75%  ±1.0%  ±3.0%  
+NOTE – The tolerances of Table 2 are expressed as percentages of the design pitch 
+corresponding to the radius for designations a) and b) and the mean design pitch for  
+designations c) and d).  
+Pitch shall be measured at least at the radii indicated below  
+Class  Radii  
+S and I  A section near the hub – 0.4R – 0.5R – 0.6R – 0.7R – 
+0.8R – 0.9R – 0.95R  
+II A section near the hub – 0.5R – 0.6R – 0.7R – 0.8R – 
+0.9R  
+III A section near the hub – 0.5R – 0.7R – 0.9R  
+Tolerances on the extreme radius of the screw propeller  
+Specification  Class  
+S I II III 
+Tolerance  ±0.2%  ±0.3%  ±0.4%  ±0.5%  
+Tolerances on the thickness of the blade section  
+Specification  Class  
+S I II III 
+Plus tolerances  
+With a minimum of  +2.0%  
+2.0 mm +2.5%  
+2.5 mm  +4.0%  
+4.0 mm  +6.0%  
+6.0 mm  
+Minus tolerances  
+With a maximum of  -1.0%  
+11 mm  -1.5%  
+-1.5 mm  -2.0%  
+-2.0 mm  -4.0%  
+-4.0 mm  
+Tolerances on the length of blade section  
+Specification  Class  
+S I II III 
+Tolerance  ±1.5%  ±2.0%  ±3.0%  ±5.0%  
+With a minimum of  7.0 mm  10.0 mm  13.0 mm  15.0 mm  
+Tolerances on rake, axial position and relative axial position of consecutive blades  
+Specification  
+ Class  
+S I II III 
+Deviation of plottings on each blade 
+at Points A, B  and C  (situated at 0.3R 
+– 0.6R – and 0.95R) with respect to 
+plane W perpendicular to the axis  ±0.5%  ±1.0%  ±1.5%  ±3.0%  
+ 
+
+<< Page 52 >>
+ Final report MO -2013 -203 Static balancing  
+When finished, all propellers shall be statically balance d. 
+The maximum permissible balancing mass p (in kilograms) at the tip of the propeller blade is defined by:  
+𝑝=𝐶𝑚
+𝑅.𝑛2 or Km, whichever is the smaller  
+Where  
+m is the mass of the propeller  
+r is the radius of blade tip in metres  
+n is the designed revolutions per minute of the propeller  
+C and K are factors depending on class given in the following table  
+Class  S I II III 
+C 15 25 40 75 
+K 0.0005  0.001  0.001  0.001  
+ 
+  
+ 
+Final report MO -2013 -203 
+<< Page 53 >>
+ Appendix 3: Pitch dimensions and deviations, starboard and port propeller s 
+ 
+Starboard propeller  
+ 
+ 
+ 
+Starboard propeller  
+
+ 
+
+<< Page 54 >>
+ Final report MO -2013 -203  
+Comparison of manufactured pitch against post -accident pitch – starboard propeller  blades    
+Starboard propeller
+( - ) ( + )
+ISO 484/1 tolerances -1.5 1.5 (%)
+Blade Radius  Designed Manufactured Deviation (%) Post Accident Deviation (%)
+A 0.5 4832 4801.5 -0.6 4770 -1.3
+0.6 4864 4851.8 -0.3 4878 0.3
+0.7 4789 4787 0.0 4833 0.9
+0.8 4592 4616.5 0.5 4689 2.1
+0.9 4306 4287.7 -0.4 4344 0.9
+0.95 4143 4187 1.1 3960 -4.4
+Sum: 0.2 Sum: -1.5
+Avg 4588 4589 0.0 4579 0.2
+B 0.5 4832 4833 0.0 4797 -0.7
+0.6 4864 4882 0.4 4887 0.5
+0.7 4789 4789.5 0.0 4815 0.5
+0.8 4592 4577.5 -0.3 4644 1.1
+0.9 4306 4318.7 0.3 4296 -0.2
+0.95 4143 4170.5 0.7 4014 -3.1
+Sum: 1.0 Sum: -1.9
+Avg 4588 4595 -0.2 4576 0.3
+C 0.5 4832 4825.3 -0.1 4842 0.2
+0.6 4864 4885 0.4 4887 0.5
+0.7 4789 4804.8 0.3 4788 0.0
+0.8 4592 4594.5 0.1 4635 0.9
+0.9 4306 4342.3 0.8 4320 0.3
+0.95 4143 4173.5 0.7 4248 2.5
+Sum: 2.3 Sum: 4.5
+Avg 4588 4604 -0.4 4620 -0.7
+D 0.5 4832 4809 -0.5 4806 -0.5
+0.6 4864 4871.5 0.2 4860 -0.1
+0.7 4789 4785.8 -0.1 4770 -0.4
+0.8 4592 4596.3 0.1 4608 0.3
+0.9 4306 4311.3 0.1 4308 0.0
+0.95 4143 4143 0.0 4176 0.8
+Sum: -0.2 Sum: 0.2
+Avg 4588 4586 0.0 4588 0.0-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade A
+Manufactured
+Post Accident
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade B
+Manufactured
+Post Accident
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade C
+Manufactured
+Post Accident
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade D
+Manufactured
+Post Accident
+ISO Tolerance-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+Radius
+Difference
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+RadiusDifference
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+RadiusDifference
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+RadiusDifferenceDifference between post accident pitch and manufactured pitch
+where: Difference = post accident pitch% -manufactured pitch% Measured deviation of blade pitch from design pitch
+ 
+Final report MO -2013 -203 
+<< Page 55 >>
+ Comparison of manufactured pitch against post -accident pitch – port propeller  blades    
+Port propeller
+( - ) ( + )
+ISO 484/1 tolerances -1.5 1.5 (%)
+Blade Radius  Designed Manufactured Deviation (%) Post Accident Deviation (%)
+A 0.5 4832 4811 -0.4 4779 -1.1
+0.6 4864 4873.8 0.2 4860 -0.1
+0.7 4789 4787.3 0.0 4788 0.0
+0.8 4592 4610.3 0.4 4572 -0.4
+0.9 4306 4309.3 0.1 4296 -0.2
+0.95 4143 4158 0.4 4140 -0.1
+Sum: 0.6 Sum: -1.9
+Avg 4588 4592 -0.1 4573 0.3
+B 0.5 4832 4823.8 -0.2 4842 0.2
+0.6 4864 4881.3 0.4 4824 -0.8
+0.7 4789 4792.5 0.1 4797 0.2
+0.8 4592 4598 0.1 4554 -0.8
+0.9 4306 4306 0.0 4296 -0.2
+0.95 4143 4164.5 0.5 4194 1.2
+Sum: 0.9 Sum: -0.3
+Avg 4588 4594 -0.1 4585 0.1
+C 0.5 4832 4845 0.3 4824 -0.2
+0.6 4864 4870.3 0.1 4905 0.8
+0.7 4789 4799.8 0.2 4788 0.0
+0.8 4592 4586 -0.1 4572 -0.4
+0.9 4306 4319 0.3 4344 0.9
+0.95 4143 4181 0.9 4230 2.1
+Sum: 1.7 Sum: 3.2
+Avg 4588 4600 -0.3 4611 -0.5
+D 0.5 4832 4838 0.1 4797 -0.7
+0.6 4864 4864.8 0.0 4851 -0.3
+0.7 4789 4792.3 0.1 4806 0.4
+0.8 4592 4588.5 -0.1 4572 -0.4
+0.9 4306 4295.3 -0.2 4308 0.0
+0.95 4143 4172 0.7 4194 1.2
+Sum: 0.6 Sum: 0.2
+Avg 4588 4592 -0.1 4588 0.0-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade A
+Manufactured
+Post Accident
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade B
+Manufactured
+Post Accident
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade C
+Manufactured
+Post Accident
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade D
+Manufactured
+Post Accident
+ISO Tolerance-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+Radius
+Difference
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+RadiusDifference
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+RadiusDifference
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1difference (%)
+RadiusDifferenceDifference between post accident pitch and manufactured pitch
+where: Difference = post accident pitch% -manufactured pitch% Measured deviation of blade pitch from design pitch
+ 
+
+<< Page 56 >>
+ Final report MO -2013 -203  
+Comparison of manufactured pitch – port and starboard propeller  blades 
+Comparison of pitch between port and starboard propellers
+( - ) ( + )
+ISO 484/1 tolerances -1.5 1.5 (%)
+Blade Radius  Designed Port Deviation (%) Starboard Deviation (%)
+A 0.5 4832 4811.0 -0.4 4801.5 -0.6
+0.6 4864 4873.8 0.2 4851.8 -0.3
+0.7 4789 4787.3 0.0 4787.0 0.0
+0.8 4592 4610.3 0.4 4616.5 0.5
+0.9 4306 4309.3 0.1 4287.7 -0.4
+0.95 4143 4158.0 0.4 4187.0 1.1
+Sum: 0.6 Sum: 0.2
+Avg 4588 4591.6 4588.6
+B 0.5 4832 4823.8 -0.2 4833.0 0.0
+0.6 4864 4881.3 0.4 4882.0 0.4
+0.7 4789 4792.5 0.1 4789.5 0.0
+0.8 4592 4598.0 0.1 4577.5 -0.3
+0.9 4306 4306.0 0.0 4318.7 0.3
+0.95 4143 4164.5 0.5 4170.5 0.7
+Sum: 0.9 Sum: 1.0
+Avg 4588 4594.4 4595.2
+C 0.5 4832 4845.0 0.3 4825.3 -0.1
+0.6 4864 4870.3 0.1 4885.0 0.4
+0.7 4789 4799.8 0.2 4804.8 0.3
+0.8 4592 4586.0 -0.1 4594.5 0.1
+0.9 4306 4319.0 0.3 4342.3 0.8
+0.95 4143 4181.0 0.9 4173.5 0.7
+Sum: 1.7 Sum: 2.3
+Avg 4588 4600.2 4604.2
+D 0.5 4832 4838.0 0.1 4809.0 -0.5
+0.6 4864 4864.8 0.0 4871.5 0.2
+0.7 4789 4792.3 0.1 4785.8 -0.1
+0.8 4592 4588.5 -0.1 4596.3 0.1
+0.9 4306 4295.3 -0.2 4311.3 0.1
+0.95 4143 4172.0 0.7 4143.0 0.0
+Sum: 0.6 Sum: -0.2
+Avg 4588 4591.8 4586.2As manufactured:
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade A
+Port
+Starboard
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade B
+Port
+Starboard
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade C
+Port
+Starboard
+ISO Tolerance
+-3.0-2.0-1.00.01.02.03.0
+0.4 0.5 0.6 0.7 0.8 0.9 1Deviation from design (%)
+RadiusBlade D
+Port
+Starboard
+ISO ToleranceMeasured deviation of manufactured  pitch from design pitch
+comparing port and starboard propellers
+ 
+Final report MO -2013 -203 
+<< Page 57 >>
+ Comparison Port and Starboard Propellers  
+ 
+Root mean square error of port and starboard propeller pitch es as manufactured when compared to designed pitch  
+The X axis in Figure 1 shows the results for each blade – A, B, C, D . 
+The Y axis in Figure 1 shows, as an absolute percentage, how much the ‘as manufactured’ propeller blade pitch deviates from d esign. For example: the average pitch 
+of blade A on the port side propeller deviates from design by about 0.3%, whereas blade A of the starboard propeller deviates from design about 0.6%. The percentage 
+was calculated using the Root Mean Square Error method described below.  
+Figure 1 shows that generally the port and starboard propellers deviate d from design  by about the same amount , although it remains to be seen whether or not this 
+magnitude of deviation from design is significant.  
+The method used to calculate the Root Mean Square Error is described with the following equation:  
+𝑅𝑜𝑜𝑡  𝑀𝑒𝑎𝑛  𝑆𝑞𝑢𝑎𝑟𝑒  𝐸𝑟𝑟𝑜𝑟 =√1
+𝑛∑(𝑑𝑒𝑣𝑖𝑎𝑡𝑖𝑜𝑛 )2𝑛
+ 
+Where 𝑛 is the number of deviation measurements, and 𝑑𝑒𝑣𝑖𝑎𝑡𝑖𝑜𝑛  is the measured deviation from design given as a percentage.  0.00.51.01.52.02.53.0
+A B C DDeviation from design (%)
+Blade
+RMSE deviation between design and manufacturePort
+Starboard
+ 
+
+<< Page 58 >>
+ Final report MO -2013 -203  
+ 
+“C” bladeVessel: Aratere
+Propeller: Starboard
+Face: suction side
+Note:
+Deviation of “scanned” propeller surface from “designed” 
+propeller surface. The magnitude of the deviation shown by the 
+colours is absolute, and does not discern between a positive or 
+negative deviation.
+For example, the areas coloured red indicate that the “scanned 
+propeller surface was between 10mm and 30mm from the 
+“designed” surface, but does not necessarily indicate whether 
+the “scanned” surface is in-front of, or behind the “designed” 
+surface.
+(distance in mm)
+  
+ 
+Final report MO -2013 -203 
+<< Page 59 >>
+  
+Vessel: Aratere
+Propeller: Port
+Face: suction side
+Note:
+Deviation of “scanned” propeller surface from “designed” 
+propeller surface. The magnitude of the deviation shown by the 
+colours is absolute, and does not discern between a positive or 
+negative deviation.
+For example, the areas coloured red indicate that the “scanned 
+propeller surface was between 10mm and 30mm from the 
+“designed” surface, but does not necessarily indicate whether 
+the “scanned” surface is in-front of, or behind the “designed” 
+surface.
+(distance in mm)
+ 
+
+<< Page 60 >>
+ Final report MO -2013 -203 Appendix 4: Starboard and port shaft alignment – 7 March 2014  
+ 
+ 
+Starboard propeller shaft alignment   
+
+ 
+Final report MO -2013 -203 
+<< Page 61 >>
+  
+Port propeller shaft alignment  
+
+ 
+  
+  
+ 
+   
+ 
+  
+  
+ 
+ 
+  
+ 
+ 
+Recent Marine Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+ 
+MO-2016 -203 Bulk log carrier Mount Hikurangi , Crew fatality, during cargo securing operation, 27 
+February 2016  
+MO-2014 -203 Fatal injury, Purse seine fishing vessel,  Captain M. J. Souza ,  24 August 2014  
+MO-2015 -202 Containership Madinah , loss of person overboard, Lyttelton Harbour entrance,  
+2 July 2015  
+MO-2016 -202 Urgent recommendation: Cruise ship Azamara Quest , contact wi th Wheki Rock, Tory 
+Channel, 27 January 2016  
+MO-2011 -202 Roll-on-roll-off passenger ferry Monte Stello , contact with rock, Tory Channel, 
+Marlborough Sounds, 4 May 2011  
+MO-2014 -201 Dream Weaver , flooding due to structural failure of the hull, Hauraki Gulf , 23 
+February 2014  
+MO-2010 -206 Coastal container ship Spirit of Resolution , grounding on Manukau Bar, Auckland,  
+18 September 2010  
+MO-2014 -202 Lifting sling failure on freefall lifeboat, general cargo ship Da Dan Xia , Wellington,  
+14 April 2014  
+11-204 Container ship MV Rena  grounding, on Astrolabe Reef, 5 October 2011  
+13-201 Accommodation fire on board the log -carrier, Taokas Wisdom , Nelson, 11 July 2013  
+13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke’s Bay, 8 August 2013  
+12-202 Fishing vessel Torea , collision with uncharted rock, Foveaux Strait, 24 August 2012  
+09-210 Bulk carrier, Taharoa Express , cargo shift, Port Taharoa, 16 December 2009  
+10-204 Inquiry 10 -204:  Bulk carrier Hanjin Bombay , grounding, Mount Maunganui, 21 June 
+2010  
+ 
+10-202 M.V. Anatoki , grounding, off Rangihaeata Head, Golden Bay, South Island, 6 May 
+2010  
+11-204 Interim Report Marine inquiry 11 -204 Containership MV Rena  grounding  
+on Astrolabe Reef 5 October 2011  
+09-202 Marine Inquiry 09 -202: Passenger vessel Oceanic Discoverer  Fatal injury,  
+Port of Napier 19 February 2009  
+11-201 Passenger vessel Volendam , lifeboat fatality,Port of Lyttelton, New Zealand,  
+8 January 2011  
+10-203 Marsol Pride , uncontrolled release of fir e-extinguishing gas into engine room,  
+Tui oil and gas field, 27 May 2010  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 25.00         ISSN 1173 -5597 (Print)  
+              ISSN 1179 -9072 (Online)  
