@@ -1,0 +1,1304 @@
+﻿ 
+ 
+ 
+ 
+ 
+Final  report  
+Marine inquiry MO-2018 -206 
+Bulk carrier Alam Seri  contact with seabed  
+Approach to Bluff Harbour  
+28 November 2018  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+October 2021  
+
+   
+ About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of 
+inquiry and an independent Crown entity responsible for inquiring into maritime, aviation 
+and rail accidents and incidents for New Zealand, and co -ordinatin g and co -operating with 
+other accident investigation organisations overseas.  
+The principal purpose of its inquiries is to determine the circumstances and causes of occurrences with a view to avoiding similar occurrences in the future. It is not the Commiss ion’s purpose to ascribe blame to any person or agency or to pursue (or to assist an 
+agency to pursue) criminal, civil or regulatory action against a person or agency. However, 
+the Commission will not refrain from fully reporting on the circumstances and f actors 
+contributing to an accident because fault or liability may be inferred from the findings.  
+   
+ Notes about Commission reports  
+Commissioners  
+ Chief Commissioner     Jane Meares  
+ Deputy Chief Commissioner    Stephen Davies Howard  
+ Commissioner      Richard Marchant  
+ Commissioner      Paula Rose, QSO  
+Key Commission personnel  
+ Chief Executive     Martin Sawyers  
+ Chief Investigator of A ccidents              Harald Hendel  
+ General Counsel     Cathryn Bridge  
+Citations and referencing  
+This report does not cite information derived from interviews during the Commission’s 
+inquiry into the occurrence.  Documents normally accessible to industry pa rticipants only and 
+not discoverable under the Official Information Act 1982 are referenced as footnotes only.  Publicly available documents referred to during the Commission’s inquiry are cited.  
+Photographs, diagrams, pictures  
+The Commission has provided,  and owns, the photographs, diagrams and pictures in this 
+report unless otherwise specified.  
+Verbal probability expressions  
+Where possible, the Commission uses standardised terminology in its reports. This is for the benefit of investigation participants, readers of its reports, and recipients of its 
+recommendations. One example of this standardisation is the terminology used to describe 
+the degree of probability (or likelihood) that an event happened, or a condition existed , in 
+support of a hypothesis.  
+This terminology, set out in the table below, has been adopted by the Commission based on the Intergovernmental Panel on Climate Change and Australian Transport Safety Bureau models. The Commission chose these models due their simplicity, usability and int ernational 
+use. The Commission considers the suitability of these models as being reflective of the 
+Commission’s functions, which include the making of findings and recommendations based 
+on a wide range of evidence received, whether or not that evidence wo uld be admissible in a 
+court of law.  
+Terminology * Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+   
+ Terminology * Likelihood  Equivalent terms  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+*Adopted from the Intergovernmental Panel on Climate Change  
+Final Report MO -2018- 206 | Page i 
+  
+Figure 1: The Alam Seri   
+(Credit:  Southland Ship Stores)
+
+Final Report MO -2018- 206 | Page ii 
+  
+Figure 2: Location of the incident  
+ 
+ 
+
+    
+ Contents   
+1 Executive summary ........................................................................................................................ 1 
+What happened  ................................ ................................ ................................ ................................ ...............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
+What we can learn  ................................ ................................ ................................ ................................ ..........  2 
+Who may benefit  ................................ ................................ ................................ ................................ ............  2 
+2 Factual information  ....................................................................................................................... 3 
+Narrative ................................ ................................ ................................ ................................ .............................  3 
+Personnel information  ................................ ................................ ................................ ...............................  10 
+Environmenta l information  ................................ ................................ ................................ ......................  11 
+Other relevant information ................................ ................................ ................................ ......................  11 
+Navigation with a pilot embarked – regulations and standards  ................................ ................  11 
+Vessel manoeuvrability  ................................ ................................ ................................ ..............................  11 
+3 Analysis  ......................................................................................................................................... 14 
+Introduction  ................................ ................................ ................................ ................................ ...................  14 
+Contact with the seabed  ................................ ................................ ................................ ...........................  14 
+Vessel manoeuvrability  ................................ ................................ ................................ ..............................  15 
+Wind  ................................ ................................ ................................ ................................ ................................ .. 15 
+Current and tidal flow  ................................ ................................ ................................ ................................  17 
+Options for recovery  ................................ ................................ ................................ ................................ ... 17 
+Bridge resource management  ................................ ................................ ................................ ................  20 
+Electronic navigational aids  ................................ ................................ ................................ .....................  21 
+Pilot training and proficiency  ................................ ................................ ................................ ..................  22 
+Readiness of critical standby equipment  ................................ ................................ ............................  24 
+4 Findings  ........................................................................................................................................ 25 
+5 Safety issues and remedial action  .............................................................................................. 26 
+General ................................ ................................ ................................ ................................ .............................  26 
+Implementation of pilot pr oficiency requirements and effective bridge resource 
+management  ................................ ................................ ................................ ................................ .................  26 
+6 Recommendation  ........................................................................................................................ 28 
+7 Key lessons  ................................................................................................................................... 30 
+8 Data summary  .............................................................................................................................. 31 
+9 Conduct of the inquiry  ................................................................................................................ 32 
+10 Report information  ..................................................................................................................... 33 
+Abbreviations  ................................ ................................ ................................ ................................ ................  33 
+    
+ Glossary  ................................ ................................ ................................ ................................ ...........................  33 
+Appendix 1  Change in vessel’s heading during the alteration into Number 2 Reach  ............... 35 
+Appendix 2  Vessel speed, wind speed and rudder angle values from the vessel’s voyage data 
+recorder  36 
+Appendix 3  Historical weather data for Bluff  ................................................................................ 37 
+ 
+ 
+    
+ Figures   
+Figure 1: The Alam Seri  (Credit: Southland Ship Stores)  ................................ ................................ ...........  i 
+Figure 2: Location  of the incident  ................................ ................................ ................................ ......................  ii 
+Figure 3: Part of the pilot’s passage plan (Credit: South Port)  ................................ ................................  4 
+Figure 4: The track of the Alam Seri into Bluff Harbour  ................................ ................................ ............  6 
+Figure 5: The Alam Seri’s track from Number 1 Reach to Number 2 Reach  ................................ ..... 8 
+Figure 6: Series of stills from CCTV recording on Tīwai Wharf  (Credit: New Zealand 
+Aluminium Smelters) ................................ ................................ ................................ ................................ ...............  9 
+Figure 7: The Alam Seri with the tugs secured, as seen on CCTV from Tīwai Wharf  (Credit: 
+New Zealand Aluminium Smelters)  ................................ ................................ ................................ ................  10 
+Figure 8: How the rudder turns a vessel  ................................ ................................ ................................ ....... 13 
+Figure 9: Profile of a typical loaded bulk carrier showing the relative positions of a beam wind influence and the vessel’s pivot point when moving ahead  ................................ ................................ . 15 
+Figure 10: The change in manoeuvring influences when the Alam Seri altered course into 
+Number 2 Reach  ................................ ................................ ................................ ................................ ....................  16 
+Figure 11: The track of the Alam Seri and the rudder angle ( °) applied durin g the transit of 
+Number 1 Reach and Number 2 Reach  (Credit: Land Information New Zealand) ......................  19 
+Figure 12: Wind direction and speed, percentage frequency for Tīwai Point, 2017, 2018 and 2019 (raw data sourced from NIWA)  ................................ ................................ ................................ .............  38 
+Figure 13: Wind data from the Number 3 channel beacon for November 2016, 2017 and 
+2018  ................................ ................................ ................................ ................................ ................................ ............  39 
+ 
+ 
+  Final Report MO -2018- 206 
+<< Page 1 >>
+ 1 Executive summary  
+What happened  
+1.1 On 28 November 2018 , the Alam Seri was entering Bluff Harbour in a strong east -
+south -easterly wind  under the conduct of a harbour pilot . Near the end of Number 1 
+Reach the vessel  had to make a turn to port into Number 2 Reach. To achieve this the 
+pilot ordered a succession of helm orders, and at about the same time order ed the 
+engine speed to be reduced from half ahead to slow ahead.   
+1.2 Shortly after entering Number 2 Reach the vessel began to veer off course to 
+starboard , despite the helmsman applying full port rudder . The pilot ordered the 
+engine speed to be increased to half ahead again to provide better steering control , 
+and called for early assistance from two harbour tugs that were routinely waiting ahead 
+to assist . However, concerned about the dec reasing available safe water , the pilot then 
+ordered the engine to be  set to  full astern and asked the crew to deploy both anchors . 
+The crew were not able to deploy either anchor in ti me to provide assistance.  
+1.3 The Alam Seri was brought under control using astern engine power  and the assistance 
+of the two  tugs,  but not before momentarily making contact with  the seabed  near the 
+Inner Davey beacon.  Both tugs  were damage d during the event and their towlines 
+parted1 while bringing  the Alam Seri under control.  
+1.4 The Alam Seri’s  underwater  hull suffered paint abrasion as a result of making contact 
+with the seabed , and above the waterline the hull was damaged as a result of contact  
+with one of the  tugs. 
+Why it happened  
+1.5 The strong east-south -easterly  wind , acting on the starboard side of the ship, was 
+creating a strong starboard turning moment  that could not be countered by the 
+application of full port rudder . The resulting turning moment to starboard  produced by 
+the wind on the accommodation block  exceeded the steering capability produced by 
+water flow over the rudder  when the engine was reduced from half to slow ahead .  
+1.6 The delayed deployment of the anchor s likely result ed in the vessel not stopping as 
+soon as it could have, although it is uncertain whether the anchors  would have 
+prevented the ship from contacting the seabed  if they were deployed when ordered.  
+1.7 The bridge team did not have a shared understanding of the manoeuvring capabilities 
+of the vessel in the weather conditions at the time, or of how the planned  turn from 
+Number 1 to Number 2 Reach would be achieved in the east -south -east conditions . 
+1.8 The absence of electro nic charting and information aids on the Alam Seri likely 
+reduced the bridge team’s situational awareness , particularly during the manoeuvres to 
+regain the channel following the incident .  
+ 
+ 
+1 Maritime term for the separation or breakage of a rope or cable.  
+ 
+  Final Report MO -2018- 206 
+<< Page 2 >>
+ What we can learn  
+1.9 Successful ship-handling2 and manoeuvring centres on balancing the forces acting on 
+the vessel . On this  occasion  the bridge team did not share a common understanding 
+with the pilot of  how the reduction in engine speed and the relative wind speed and 
+direction would affect the vessel’s steering capability.  
+1.10 Manoeuvring actions and outcomes should be discussed during the master -pilot 
+exchange and the bridge team should agree on defined parameters  for monitor ing 
+and initiat ing a challenge.  
+1.11 When s afety -critical equipment, such as  an anchor, is required to be available for 
+immediate use in the event of an emergency, any factors affecting its immediate use 
+should be communicated and discussed during the master -pilot exchange. 
+Who may benefit  
+1.12 Vessel  operators, port operators, harbour managers, pilotage providers,  flag state 
+administrators, maritime training establishments and classification societies may all 
+benefit from the information contained in this report. 
+ 
+ 
+2 Manoeuvring of a vessel in circumstances requiring precise and skilful movement of the rudder and engine.  
+ 
+  Final Report MO -2018- 206 
+<< Page 3 >>
+ 2 Factual information   
+Narrative  
+2.1 At 16483 on 28 November 2018, t he bulk carrier Alam Seri complet ed its sea  passage 
+from Bunbury, Australia  to Bluff , New Zealand.  The vessel stopped and drifted until it 
+was directed to proceed to the pilot boarding area.  
+2.2 The pilot was scheduled to board  at 1900, half an hour before the predicted time of 
+slack water4 at the harbour entrance.  At 1822 the Alam Seri commenced manoeuvring 
+toward s the pilot boarding area.  The pilot boarded at 1854 and arrived on the bridge 
+two minutes later. The bridge team consis ted of the master, third officer, helmsman 
+and pilot.  
+2.3 The master informed the pilot that th e engine was set to full ahead (see Table 1 ) and 
+the vessel’s heading was 040  degrees true ( °)5. The pilot requested a course of 020 ° 
+then commenc ed the master -pilot exchange of information.  
+Table 1: The Alam Seri’s main engine orders with corresponding revolutions per minute and 
+expected speeds  
+HARBOUR SPEED TABLE  
+Setting  Ahead  Astern6 
+ revolutions 
+per minute  knots7 revolutions 
+per minute  
+Dead slow  40 4.6 40 
+Slow  50 5.8 50 
+Half  80 9.2 80 
+Full  100 11.5 100 
+2.4 The master -pilot exchange of information included:8 
+• the vessel’s draughts and expected under -keel clearance 
+• relevant navigation marks , including leading marks9 
+• the state of the tide and the expected tidal influence on the inward passage 
+• the use of tugs  
+• the mooring configuration and the berth and its minimum working depth  
+• the requirement for crew to be standing by on the forecastle10 with both anchors 
+ready to be let go  
+ 
+ 
+3 Times in this report are in New Zealand Daylight Saving Time, Universal Coordinated Time + 13 hours.  
+4 The time at which the tidal flow changes direction, in this case from flood to ebb, during which there is a short 
+period when there is little or no tidal current.  
+5 Degrees measured clockwise from true north. Throughout this report the vessel’s heading is written as ### ⷪⷪ 
+measured in degrees from true north.  
+6 When referring t o a vessel or its engine, moving in reverse . 
+7 A speed of  one nautical mile per hour , or 1.852 kilometres per hour.  
+8 The vessel’s voyage data recorder was downloaded and provided sound recordings from the bridge and the 
+status of various navigation and technical systems on board.  
+9 Navigation lights and beacons that, when in line, indicate a vessel is on the right track . 
+10 The foremost part of a vessel’s deck.  
+ 
+  Final Report MO -2018- 206 
+<< Page 4 >>
+ • confirmation that the engine, steering gear and rudder indicators were in good 
+working order  
+• radio channels and the use of closed -loop communication  
+• the pilot’s expectation that the vessel ’s bridge team would monitor the vessel’s 
+progress, and challenge if they were unsure about any of the pilot’s actions . 
+2.5 Figure 3  shows a page from the pilot’s arrival passage plan.  It detail ed the planned 
+courses and speeds and the direction of the tidal stream.  
+ 
+Figure 3: Part of the pilot’s passage plan  
+(Credit : South Port)  
+2.6 Shortly after wards  the chief officer, the boatswain11 and two able -bodied  seamen12 
+went forward to clear  away13 the anchors and stand  by for the inward passage. On the 
+way forward the chief officer requested, and received, permission to wait inside the 
+forecastle  space , which offered protection against the wind and spray.  Once the 
+anchors had been cleared the chief officer and the forward standby team took shelter  
+in the forecastle space.  
+2.7 At approximately 1903 the pilot took the conn14 from the master  and adjusted the 
+course to bring the vessel in  line with the leading mar ks on Number 1 Reach15. At 
+1920:10, as the Alam Seri  approached Number 2 Reach, the pilot requested half  ahead 
+on the engine.  Shortly after ordering th is engine speed reduction , the pilot requested 
+ 
+ 
+11 The foreman of the deck crew.  
+12 Sailors, deck crew.  
+13 Remove lashings and dise ngage windlass gears so that the anchors are ready to be let go by opening the 
+brakes. A windlass is a h orizontally mounted mechanical winch used for anchoring operations . 
+14 The conduct of the vessel, giving orders for its speed and direction.  
+15 A nautical term that can be used to describe a designated course for a vessel to follow in a channel.  
+
+ 
+  Final Report MO -2018- 206 
+<< Page 5 >>
+ that the helm16 be placed hard to port17 to initiate the  turn into Number 2 Reach (see 
+Figure 5).  
+2.8 At 1921:50,  as the vessel’s heading passed through 020 °, the pilot requested that the 
+helm  be put a midships18 and the engine speed be reduced further to slow ahead . At 
+1922:27 the pilot ordered the helm to be put hard to starboard19 to arrest the swing  to 
+port. The pilot then requested the helmsman to steady the ship’s heading on 353 °. 
+Eight seconds later the pilot amended  this to  a heading of 352° . 
+2.9 The pilot then used the very-high-frequency radio to communicate with the tugs, the 
+Te Matua and the Hauroko . The pilot briefed the skippers of both tugs on the planned 
+requirements for manoeuvring the Alam Seri to the berth.  
+2.10 While the pilot briefed the tug skippers, the Alam Seri’ s helms man was having difficulty 
+steady ing the ship on the new heading  of 35 2°. The helmsman informed the bridge 
+team that the vessel was still turning to starboard with almost maximum port helm 
+applied.   
+2.11 At 1923:49, after verifying that the engine was set on slo w ahead , the pilot ordered half  
+ahead.  The third officer increased the engine speed to  half ahead.  
+ 
+ 
+16 The means, such as a steering wheel, by which a vessel’s steering is controlled.  
+17 The left side of a vessel when facing forward.  
+18 When a vessel’s steering is ce ntred, to attain 0 ° of rudder angle.  
+19 The right side of a vessel when facing forward.  
+ 
+  Final Report MO -2018- 206 
+<< Page 6 >>
+  
+Figure 4: The track of the Alam Seri into Bluff Harbour  
+(Credit : Land Information New Zealand)  
+2.12 The pilot then called the tugs  and told the  tug skippers  that the Alam Seri  was not 
+responding to the helm and that their assistance would be required.  Meanwhile , the 
+helmsman had  almost stopped the ship swinging to starboard (see Appendix 1 ). 
+Nevertheless, at 1924:43  the pilot ordered the engine to be stopped and th en set to 
+full astern.  The third officer carried out the orders immediately.  
+2.13 Under the combined effect of the wind and its propeller turning astern, the Alam Seri 
+began to veer to starboard east of Number 2 Reach (see Figure 6). The pilot instructed 
+the tug  skipper s to keep the tugs clear  because the ship was about to deploy an 
+anchor . At 1925:04 the pilot instructed the master to let go the port anchor.  The master 
+relayed th e order to the chief officer  and waited for confirmation that the anchor had 
+been let go.   
+2.14 Between 1925 and 1929 the vessel continued to slow under the effect of its engines 
+turning astern, but it was still closing towards the Inner Davey beacon (see F igure  5). 
+Number 1 Reach 031 °T Number 2 Reach 351 °T Number 3 Reach 313 °25’T Tīwai Wharf 
+ 
+  Final Report MO -2018- 206 
+<< Page 7 >>
+ The pilot continued giving instructions to the tug  skipper s, and frequently requested 
+speed and depth information from the bridge team .  
+2.15 Meanwhile , the crew had not succeeded in deploying the port anchor. When they had 
+released  the port anchor ’s brake the port anchor had not dropped from the hawse 
+pipe20. The master and pilot agreed to let  go the starboard anchor  instead , but when 
+the brake was released  that too failed to deploy .  
+2.16 Three minutes after the engine had been set to full astern, the Alam Seri stopped and 
+began moving  astern. By that time the forward part of the vessel had crossed the 10-
+metre  (m) sounding  line21 and the bow was very close to the Inner Davey beacon.   
+2.17 At approximately 1 929 the crew succeeded in deploying the starboard anchor, but it 
+was no longer required  and was immediately recovered.  
+2.18 A closed -circuit television camera (CCTV), located on Tīwai Wharf, recorded the 
+occurrence. Images from th e recording are s hown in Figures 6 and 7 and can be 
+referenced with t he time stamps shown in Figure 5. 
+ 
+ 
+20 A pipe in which the anchor shank is housed and through which the anchor cable passes when the anchor is 
+used. The hawse pipe runs through the forecastle from beneath t he anchor windlass to the outside of the hull.  
+21 A line joining areas of equal depth on a marine navigation chart.  
+ 
+  Final Report MO -2018- 206 
+<< Page 8 >>
+  
+Figure 5: The Alam Seri ’s track from Number 1 Reach to Number 2 Reach  
+(Credit: Land Information New Zealand)  
+wind 
+direction  course over the 
+ground  
+ 
+vessel’s actual 
+heading  
+ 
+  Final Report MO -2018- 206 
+<< Page 9 >>
+  
+ 
+ 
+ 
+Figure 6: Series of stills from CCTV recording on Tīwai  Wharf   
+(Credit : New Zealand Aluminium Smelters ) 
+2.19 The Alam Seri began to  move astern and  track  to the west of Number 2 Reach (see 
+Figure 5) towards Stirling Point.   
+1923  
+1924  
+1926  
+1928  
+ 
+  Final Report MO -2018- 206 
+<< Page 10 >>
+ 2.20 At 1933 the Hauroko  was secured to the stern of  the Alam Seri , and the Te Matua  was 
+secured  forward at 1935 (see Figure 7).  
+2.21 At 1942 the Te Matua ’s towline parted . Shortly afterwards a  replacement line was run 
+and the Te Matua  was reconnected .  
+2.22 As the pilot recover ed control of the Alam Seri , both the tugs and the Alam Seri were 
+damag ed when the tugs contacted the ship while manoeuvring at close  quarters and in 
+the rough seas .  
+2.23 At 1945, with the assistance of both tugs , the pilot conned the vessel into Bluff 
+Harbour.  At about 2010, w hile turning off the berth, the towline on the aft22 tug, the 
+Hauroko , parted.  A new towline was secured  at 2018 and the Alam Seri was secured 
+alongside Tīwai Wharf  by 2100.  
+ 
+Figure 7: The Alam Seri with the tugs secured , as seen on CCTV from Tīwai  Wharf   
+(Credit : New Zealand Aluminium Smelters ) 
+Personnel information  
+2.24 The Alam Seri’s  master had held the rank since 2007 and had worked for the vessel  
+operator for three years.  The master had joined the Alam Seri on 27 August 2018.  
+2.25 The chief officer had sailed in the rank of chief officer since 2012, and had joined the 
+Alam Seri on 25 October 2018.  
+2.26 The third officer had sailed as a boatswain for 11 years before completing deck officer 
+training and certification.  The incident voyage was the third officer’s first voyage as a 
+qualified watchkeeping officer.  
+2.27 The pilot held a New Zealand Master unlimited certificate of competency and had been 
+employed by South Port since 1995.  The pilot had been trained following  South  Port’s 
+approved pilot training and proficiency plan and attained the full qualification as an 
+unlimited pilot for Bluff Harbour in 1997.  
+ 
+ 
+22 Towards the stern or rear part of a vessel . 
+1935  
+ 
+  Final Report MO -2018- 206 
+<< Page 11 >>
+ Environmental  information  
+2.28 Pilotage in the Port of Bluff is limited by wind and tide conditions.  Vessel s have 
+opportunit ies to enter the port either side of high and low water . Pilotage is not 
+attempted when wind speed s are  consistently in excess of 35 knots.  
+2.29 Bulk carriers of the same size and type as the Alam Seri have a restricting wind limit set 
+at 35 knots.  However, the direction from which the wind is blowing and other factors 
+such as a vessel ’s draught and manoeuvrability are  taken into account when a job-
+specific pilotage plan is formulated.  
+2.30 At the time of the incident there was a strong east -south -east wind23. The wind had 
+been from the east for the previous 10 days.  
+2.31 High -water slack water at the harbour entrance was predicted to occur at around 1930.  
+The pilot had indicated on the pilotage passage plan that the Alam Seri  would transit 
+the harbour entrance reaches with the last of the flood tide.  
+Other relevant information  
+Navigation with a pilot embarked –  regulations and standards  
+2.32 In addition to gaining their seagoing qualifications under the International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW), 
+maritime pilots are trained specifically in ship -handling, tug management and 
+emergency procedures. Pilots must also retain profound knowledge of all aspects of 
+the pilotage area and its port facilities. A pilot becomes part of the bridge team for the 
+act of pilotage and their specialist skills and local knowledge enhance the capability of 
+the vessel’s bridge team. However, the presence of a pilot does not relieve the master and crew of their duties and respo nsibility for the safe navigation of the vessel.  
+2.33 The International Maritime Organization’s Resolution A.960
+24 states that:  
+masters and bridge officers have a duty to support the pilot and ensure that his/her 
+actions are monitored at all times  
+and that:  
+The master, bridge officer and pilot share a responsibility for good communications and 
+understanding of each other’s role for the safe conduct of the vessel in pilotage waters . 
+Vessel  manoeuvrability  
+2.34 A vessel ’s manoeuvrability is affected by several factors , including its intrinsic design , 
+and a number of  external influences . These factors include , but are not limited to : 
+• the relative w ind speed and direction and the surface area of the vessel exposed to 
+the wind  
+• the water current  
+ 
+ 
+23 The compass direction east -south-east is the same as 112.5 ° true. Compass directions are more commonly 
+used to describe wind directions.  
+24 International Maritime Organization Resolution A.960 Recommendations on Training and Certification and 
+Operational Procedures for Maritime Pilots other than Deep -Sea Pilots, January 2004.  
+ 
+  Final Report MO -2018- 206 
+<< Page 12 >>
+ • the depth of water below the keel  
+• the rudder  type and size and the angle  it is capable of achieving  
+• the ship’s speed through  the water  and consequential flow past the rudder  
+• the speed of the engine/propeller and the consequential flow past the rudder . 
+2.35 The resultant combination of all these forces will determine the speed, accelerations 
+and direction at which the ship will travel . The bridge team must monitor how these 
+forces are affecting the progress of the ship, and predict how they are likely to affect it 
+in the immediate future.  
+2.36 A vessel ’s rudder is the usual means by which the turning moments25 can be balanced.  
+Similar to airflow over an aircraft wing,  water mov ing past the angled aerofoil shape of 
+the rudder  creates low and high pr essure side s (see Figure 8). The resulting lift on the 
+low pressure side moves the stern in that direction  and the ship changes direction 
+around its pivot point . 
+2.37 The Alam Seri had t he typical configuration for manoeuvring  bulk carriers – one 
+propeller and one rudder.  
+2.38 The Alam Seri’s steering gear was tested in the presence of a classification society 
+surveyor and found to be in good working order.  The surveyor added a new 
+recommendation to the certificate of class : that the damage to the hull that had 
+occurred when the Alam Seri and the tug Hauroko made heavy contact undergo a 
+special examination within three months.  
+2.39 A visual examination of the anchor windlasses26 showed no immediate abnormalities or 
+modifications that could have prevented the anchors deploying.  
+ 
+ 
+ 
+25 The rudder’s force acting over the distance to the vessel’s pivot point, resulting in a turning effect.  
+26 Horizontally mounted mechanical winches used for anchoring operations.  
+ 
+  Final Report MO -2018- 206 
+<< Page 13 >>
+  
+Figure 8: How the rudder turns a vessel  
+ 
+
+ 
+  Final Report MO -2018- 206 
+<< Page 14 >>
+ 3 Analysis  
+Introduction  
+3.1 No mechanical or equipment failure contribut ed to this incident . 
+3.2 The environmental conditions when the Alam Seri  was inbound to Bluff Harbour were  
+not usual for the port, but were not exceptional either . The prevailing winds for the 
+port are from the southwest quarter . On this occasion the wind  was from the east  and 
+had been blowing from th at direction for  several days prior.  
+3.3 Numerous similar inward transits  have been successfully made , by Bluff pilots,  in 
+easterly conditions over the years . Similar transits have also been successfully practi sed 
+in a simulator  environment . 
+3.4 There was nothing unusual about  the Alam Seri ’s manoeuvring  characteristics . The 
+vessel  had a standard configuration like many other similar -sized bulk carriers . While 
+the conditions were challenging , the ship should have been capable of maki ng the 
+entrance without incident in the conditions on the day . 
+3.5 The following section  analyses the circumstances surrounding the event to identify the  
+factors that increased the likelihood of the event occurring or increased the severity of 
+its outcome. It also examines a  safety issue that had the potential to adversely affect 
+future operations.  
+Contact with the s eabed  
+3.6 On 2 December 2018 a dive company conducted an underwater inspection of the Alam 
+Seri’s hull at T īwai Point. The diver inspected from the bottom of the hull to the first 
+metre of the flat side for the entire length of the vessel.  
+3.7 The inspection was record ed on video by the diver. A subsequent report described 
+fresh scrapes on the flat bottom of the vessel at positions approximately 20 m and 30 
+m from the bow. The largest of these scrapes was 2  m by 0.4 m  and, in places, down to 
+bare steel. Additionally, th e diver found two small scrapes approximately 8 m along the 
+bottom of the stern tube. The largest of these scrapes was 0.1 m by 0.1 m. No cracks or 
+dents were evident  and there was no damage that affected the vessel’s seaworthiness . 
+3.8 The Alam Seri’s passage  plan used a program that predicted high water at 1907 local 
+time, at a height of 2.62 m. The same tidal prediction program estimated a height of tide of 2.60 m at 1930. The tide predictions published by Land Information New 
+Zealand predicted high water at  1857 local time, at a height of 2.70 m. The closest 
+charted depth to where the Alam Seri was brought to a halt measured 6.40 m which 
+meant that at the time of the incident and the location where the Alam Seri halted, 
+there was a depth of approximately 9.0 0 m to 9.10 m.  
+3.9 The Alam Seri’s draughts measured 8.76 m forward and 9.27 aft and so a mean 
+draught of 9.02 m. Given the draughts in relation to the available depth of water at the time of the incident, it is very likely that the fresh scrapes found during the diver’s 
+underwater hull inspection were caused by the vessel contacting the seabed during this incident.  
+ 
+  Final Report MO -2018- 206 
+<< Page 15 >>
+ Vessel manoeuvrability  
+Wind  
+3.10 When the Alam Seri  transited Number 1 Reach, the engine was set on full ahead and 
+the speed through the water was about 8.5 knots . The wind  was fro m the east-south -
+east at a strength of about 25 knots, gusting to 32 knots27 and the vessel’s heading 
+was approximately 031° , almost at right  angles to the wind direction . 
+3.11 The wind act ed on the starboard side of the vessel , and with the accommodation block  
+located  aft there was a greater surface area aft of the vessel’s pivot point for the  wind 
+to act on (see Figure 9).  This caused the tendency of the stern to move to port and the 
+heading of the vessel  to change to starboard , commonly referred to as ‘rounding up 
+into the wind ’ (see Figure 10) . This tendency for the ship to veer to starboard  was 
+countered  by the  helmsman applying port  rudder to maintain  the courses  ordered by  
+the pilot (see Figure 11  and Appendix 2 ). 
+3.12 The port helm required to maintain the course along N umber 1 Reach appear ed to go 
+unnoticed by the bridge team (other than the helmsman)  or at least there was no 
+discussion  among them about how it  might affect the manner in which the port turn 
+into N umber 2 Reach would be made.  
+ 
+Figure 9: Profile of a typical loaded bulk carrier showing the relative positions of a beam wind 
+influence and the vessel’s pivot point when moving ahead  
+ 
+3.13 At about 1920 the pilot ordered half ahead on the engine and a bout one minute later 
+ordered hard to port to commence making the 40 -degree turn into  Number 2 Reach.  
+When the helmsman reported that the vessel ’s head was passing through 020 ° the 
+pilot ordered  the helm to be put to amid ships , the engine speed to be reduced further 
+to slow ahead, and then the helm to be put hard  to starboard . The pilot’s intention was 
+to slow the rate of turn to port in prepa ration  for steadying up on the new course for 
+Number 2 Reach. As soon as the helmsman re ported that the rudder was hard to 
+starboard , the pilot ordered  the helmsman to  steady up on a new heading of 352 ° to 
+ 
+ 
+27 Wind data provided by NIWA (the National Institute of Water and Atmospheric Re search) to South Port, 
+recorded at Number 3 beacon in the harbour entrance channel.  These wind speeds were verified by cross -
+checking the wind speed data captured by the vessel’s instruments and saved on its voyage date recorder.  
+NOT TO SCALE  
+ 
+  Final Report MO -2018- 206 
+<< Page 16 >>
+ transit along Number 2 Reach. The swing to port halted and the vessel steadied up for 
+about t en seconds before a swing to s tarboard  developed . The helmsman applied port 
+helm to counter the swing to starboard.  
+3.14 The two successive engine reductions had two effects: they  reduced  the s peed  of the 
+vessel (see Appendix 2 ) and they reduced the propeller wash past the rudder, thereby 
+reducing the rudder’s effect iveness . As the vessel approached the new heading of 352°, 
+the force of the wind was acting more on the starboard quarter28. The wind ’s effect of 
+pushing the stern to port was therefore slightly reduced , but so too  was the water flow 
+over the rudder .  
+ 
+ 
+Figure 10: The change in manoeuvring influences when the Alam Seri altered course into  
+Number 2 Reach  
+3.15 The result was that when the helmsman attempted to steady the vessel ’s head on 352° , 
+they found that even with the rudder almost hard to port, the vessel  was still swinging 
+to starboard. The helmsman was prompt in  telling  the bridge team that the vessel  was 
+ 
+ 
+28 From the direction of between the starboard beam and right astern. The starboard beam is the area at right 
+angles to the  vessel’s fore and aft line s on the vessel’s starboard side . 
+NOT TO SCALE  
+ 
+  Final Report MO -2018- 206 
+<< Page 17 >>
+ not manoeuvring as expected , and the pilot responded promptly  by increasing the 
+engine speed to half ahead . This had the effect of increasing the propeller wash past 
+the rudder, thereby increasing the rudder’s effectiveness  
+3.16 However,  the vessel was by then coming close to leaving the channel of Number 2 
+Reach.  
+Current  and tidal flow  
+3.17 The pilot later submitted to the Co mmission that the sheer to starboard could have 
+been the result of an adverse and unusual current . Currents are generally constant 
+water flow s generated by regional weather patterns. Tidal flows occur in conjunction 
+with the rise and fall of the tides. The vertical motion of the tides near the shore causes 
+the water to move horizontally, creating tidal flows . Tidal flows are influenced  by 
+intera ctions of the Earth, sun and moon, and in Bluff generally reverse direction every 
+six hours.  
+3.18 A ship’s track through the water is the vector result ing from its  heading and speed  
+through the water . If the body of water th rough  which the ship is transiting is  moving, 
+the result of the ship’s water -track vector and the current vector will be the ship’s track 
+over the ground29. In open water the ship’s heading is usua lly unaffected by current . 
+However, in shallower waters and narrow channels, the direction and speed of the 
+current can be affected by the underwater topography . For large ships t his could result 
+in the influence of any current being different along its length. This can have an effect 
+on the heading of the shi p. The effect  is generally predic table for given tidal flows in 
+given channels . Pilots have local knowledge and will generally be aware of these effects  
+and be ready to counter them should they oc cur.  
+It is feasible , however , that the sustained wind and sea conditions from the east in  the 
+10 days prior to this event may have caused an unpredicted and unusual pattern of 
+currents  in the Bluff Harbour  entrance channel , and that this may have , in combination 
+with other factors iden tified in this report,  had some influence on the direction of the 
+ship as it m ade its turn into Number Two Reach.  
+Options for recovery  
+3.19 The bridge team had two options available to recover  the planned track : continue  with 
+increased engine speed  and improved rudder effectiveness ; or bring the vessel to a 
+stop as soon as possible and engage the assistance of the tugs.  
+3.20 The pilot was  conscious  of the limited amount of safe water  ahead  and chose the 
+second option and ordered the engine astern.  
+3.21 Evide nce from the voyage data recorder showed it was about as likely  as not  that the 
+attempt to increase speed had just started to take effect. The vessel ’s head was 
+beginning to turn back to port when the order was given to stop the vessel  (see 
+Appendix 1). However, this information  was not readily apparent  to the pilot and the 
+bridge team because the Alam Seri was operating with minimal electronic aids to 
+navigation . The d ecreasing availability of safe water ahead and the need to keep the 
+ship’s speed under control for the berthing manoeuvre close inside the harbour  likely 
+ 
+ 
+29 Ignoring any effect for wind, which introduces a leeway component . 
+ 
+  Final Report MO -2018- 206 
+<< Page 18 >>
+ influenced the pilot’s decision to stop the vessel by using astern propulsion . Given the 
+circumstances , the pilot’s decision was understandable a nd a reasonable course of 
+action . 
+3.22 The pilot ordered the engine full astern and the port anchor to be let go. The port 
+anchor could not be released and an attempt to release the starboard anchor also 
+failed. This is discussed later in the analysis. Using th e engine full astern in a timely 
+manner helped to reduce the speed sufficiently , so that when the vessel did briefly 
+ground there was no significant damage.  
+3.23 After the pilot called the tugs they were available to assist  within minutes.  The port’s 
+pilotage p assage plan and operating procedures required the tugs to be available to 
+assist inbound vessel s at Number 2 Reach and , if required,  at Number 1 Reach, but this 
+was at the pilots ’ discretion . The normal practice was for the tugs to be secured  shortly 
+after an inbound vessel  entered Number 3 Reach. Although in this case earlier tug 
+assistance may have proved beneficial, sea conditions would likely have limited the 
+tugs’ effectiveness  and increased the risk for tug operations . Even within Number  2 
+Reach, both tugs suffered damage and broken towlines while assisting  in the recovery.  
+ 
+  Final Report MO -2018- 206 
+<< Page 19 >>
+  
+Figure 11: The track of the Alam Seri  and the rudder angle  (°) applied during the transit of 
+Number 1 Reach and Number 2 Reach  
+(Credit : Land Information New Zealand)  
+ 
+Number 1 
+Reach  Number 2 
+Reach  
+ 
+  Final Report MO -2018- 206 
+<< Page 20 >>
+  
+Bridge resource  management  
+Safety issue s: The  level of bridge resource management on the bridge did not meet industry 
+good practice. The bridge team could not effectively monitor the execution of the pilotage 
+because they did not have an agreed specific pilot plan, or agreed monitoring parameters 
+appropriate to the weather conditions at the time.  
+3.24 The International Chamber of Shipping Bridge Procedures Guide describes an effective 
+bridge team as one that “will manage efficiently all the resources that are available and 
+promote good communication and teamwork”.  Bridge resource  management  is a 
+system that is used to manage the risk of a single -point failur e – whether an 
+equipment failure or a decision -based lapse or error  – leading to a navigational 
+incident. Members of the bridge team monitor the vessel’s progress against a defined 
+passage plan and they monitor the  manoeuvring inputs used to achieve the intended 
+path of the vessel.  When a member of the bridge team identifies a departure from the 
+plan, or is unsure of the intentions of the person conning the vessel, a query or 
+challenge should be raised.  
+3.25 The Internat ional Maritime Organization ’s (IMO ’s) Resolution A.96030 provides 
+guidance to pilotage authorities on managing pilot training , and outlines 
+recommended operational procedures. The IMO recommends that an  information 
+exchange between a master and a  pilot be a process that continues for the duration of 
+the pilotage. The content should include navigational procedures, local conditions and rules and the ship’s characteristics , and other information determined  as relevant  by 
+the navigation demands of the specific  pilotage operation.  
+3.26 Communication and teamwork are essential to achieving efficient bridge resource 
+management. The Alam Seri had its intended track drawn onto a paper chart , which 
+essentially followed the middle of the channel and direction on the chart for each of 
+the Reaches. These courses and distances were also described in a written passage 
+plan. The vessel’s courses were similar to those depicted on the port passage plan 
+provided by the pilot. However, the detail of how the vessel was going to achieve the 
+tracks was missing from the vessel’s plan and were generic on the pilot’s passage plan.  
+There was in effect no agreed pilotage plan specific to the exist ing conditions . The pilot 
+indicated to the Master the direction and effect of the remaining  tide. However, t here 
+was no discussion about wheel -over points and the amount of helm to achieve each 
+alteration in course. The master commented on the strong wind and the pilot and the 
+master spoke about the wind in general, but there was no indication t hat either 
+thought that the wind would adversely affect the vessel as it transited the port 
+entrance. The pilot and the vessel’s bridge team did not discuss what actions were 
+intended to execute the alteration of course into Number 2 Reach in the weather 
+conditions at the time.  
+3.27 During the master -pilot exchange prior to the incident, the bridge team were asked  to 
+challenge the pilot’s actions if they were at all concerned. In the absence of an agreed 
+ 
+ 
+30 IMO Resolution A.960(23): Recommendations on Training and Certification and Operational Procedures for 
+Maritime Pilots Other Than Deep -Sea Pilots, adopted 5 December 2003.  
+ 
+  Final Report MO -2018- 206 
+<< Page 21 >>
+ passage plan specific to the pilotage task , this request  set no boundaries and could 
+have been interpreted differently from person to person.  
+3.28 As the ship transited Number 1 Reach, the amount  of port helm  required (see Figure 
+11) to maintain the desired course should have engendered a discussion among the 
+bridge te am about the effect of the wind and how that would  affect the vessel  making 
+the turn into Number 2 Reach. There was no such discussion, so  the bridge team had 
+no way of knowing what adjustments the pilot w as making to the standard approach 
+to allow for the conditions on the day.  
+Electronic navigational aids  
+3.29 As an existing cargo vessel with a gross tonnage between 10,000 -20,000, the Alam Seri 
+was required by the International Convention for the Safety of Life at Sea to have an 
+electronic ch art display and information system (ECDIS) installed. However, the Alam 
+Seri had a compliance date of July 2018 or the date of the next survey. The Alam Seri 
+was scheduled to have an ECDIS installed during the next survey period, in December 2018. As a result the Alam Seri was not fitted with an ECDIS at the time of the incident, 
+and the vessel’s primary method of navigation was paper charts.  
+3.30 Although the port company provided  portable pilot units (PPUs) for pilots to use, the 
+pilot was not using a PPU at the time of the incident. A PPU provides a pilot with an electronic navigation display, plots a vessel’s current and past positions, and calculates the vessel’s predicted movements  based on the current detected parameters . These 
+parameters include the actu al GPS track ( speed and direction made good) of the vessel 
+and the rate of any turn resulting from  the various  influences  of rudder,  wind and 
+current. A PPU would have proved useful in the absence of any ship ECDIS or other 
+chart plotter.  
+3.31 Consequently , the only real -time means available to the bridge team for determining 
+the vessel’s exact movements were radar and visual navigation .  
+3.32 Electronic charting and information aids provide numerous benefits to bridge teams through  increas ing their situational awareness. The benefits include the ability to 
+display their vessels’ real -time positions and predicted future movements. Corridors of 
+safe navigation based on a ship’s dra ught and available depth of water can be 
+displayed on the screen, giving instant visual awareness of whether the ship has left , or 
+is predicted to leave, the safe navigation corridor. Other layers of  information can also  
+be displayed, such as contingency areas outside the safe navigation zone but where 
+the ship will not ground or contact the bottom.  
+3.33 Although traditional methods of navigation can be effective and should also be used , 
+they lack the additional features  and information outputs of electronic navigation aids. 
+Importantly, the predictive features of electronic navigation aids such as ECDISs and PPUs might have informed the bridge team  on whether, by leaving the engine speed 
+on half ahead for slightly longer, it w ould have been possible to stay clear of the 
+grounding zone  and r egain the safe navigation zone.  
+3.34 It is likely that these electronic navigation aids would have improved the bridge team’s 
+situational awareness and alerted them earlier that the vessel was unable to maintain 
+its course on Number 2 Reach. The availability of electronic charting and information 
+aids would have also likely assisted the pilot and the master to better assess the 
+options available and aided their decision- making for recovering  from the situation.  
+ 
+  Final Report MO -2018- 206 
+<< Page 22 >>
+ 3.35 Since the incident, all pilots at South Port have been issued with PPUs and trained in 
+their use. They are carried on all pilotage jobs.  
+Pilot training and proficiency  
+Safety issue: Pilot currency and proficiency assessments were not imple mented as required by 
+South Port’s pilot training and proficiency plan . 
+3.36 At the time of the incident, t he South Port S afety Management Manual (the safety 
+management manual) was considered to be  consistent with the standards of the New 
+Zealand Port and Harbo ur Marine Safety Code31. The safety management manual was 
+based on a  formal safety assessment that had been  conducted in 2003 to determine 
+guidelines and decision criteria for pilotage services and the risk management of 
+marine infrastructure.  As of 29 November 2018  the manual was in its eighth edition . 
+3.37 The safety management manual covered standard procedures for arrivals and 
+depart ures, the use of tugs, the application of decision criteria, emergency procedures 
+and other procedures deemed appropriate. One of the procedures addressed the issue 
+of a vessel not respond ing to starboard helm while transiting Number 1 Reach in west - 
+to so uth-west winds. The procedure state d that when a vessel approached  the harbour 
+entrance and started veering towards the shoreline, and did  not respond to starboard 
+helm within a reasonable period of time, the pilot “ shall cause the vessel to be stopped 
+in the water using the vessel’s engine and anchors as deemed necessary ”. 
+3.38 Although the circumstances that led to  the Alam Seri’s loss of contr ol in a south -east 
+wind were not specifically mentioned , the pilot adopted the same principle to avoid or 
+reduce the consequences of a grounding . 
+3.39 The c ontrol measures listed in the safety management manual  to prevent a loss of 
+manoeuvrability included:  
+• professional, well- trained pilot staff  
+• simulator training (crash stops)  
+• tug assistance whilst vessel under pilotage 
+• vessel to inform the pilot if there are any deficiencies in the bridge equipment, 
+engines  or anchors or any other factor that may affect safe p ilotage . 
+3.40 To ensure that pilots were well  trained and proficient, the safety management manual 
+included a pilot training and proficiency plan called the South Port Pilot and Tugmaster 
+Training Manual  (the training manual) . This had been developed by South Port to train 
+and maintain competent pilots in the Bluff and Stewart Island pil otage areas , and had 
+been approved by Maritime New Zealand. It required pilots to progress through each 
+pilot licence grade by means of practice, assessment a nd time.  
+3.41 To maintain currency for the Bluff pilotage area , the training manual required  every  
+pilot to undergo an internal annual review , which was carried out by a designated 
+South Port pilot . Additionally , a four-yearly external assessment of proficiency  was 
+required , to be carried out by a n external assessor. Maritime Rules Part 90 : Pilotage  
+also required  a pilot to complete an annual assessment  of proficiency in the preceding  
+ 
+ 
+31 Port and Harbour Marine Safety Code New Zealand, 2016 Edition, Maritime New Zeala nd. 
+ 
+  Final Report MO -2018- 206 
+<< Page 23 >>
+ 12 months to maintain currency.  In the five years prior to the incident, the pilot had 
+completed annual assessments of proficiency  at Bluff in 2013, 2015, 2016 and 2017. 
+The pilot ’s most recent annual assessment of proficiency at Bluff had been conducted 
+in April 2017, 19 months prior to  the incident , which meant they were seven months 
+overdue for their next annual assessment . The pilot  had undergone an independent 
+assessment by an external assessor within  the Fiordland pilotage  area in 2018 , during 
+the passenger cruise season. However, t hat external  assessor had not held a current 
+pilot licence for the Bluff pilotage area , so th e external assessment could not be 
+counted as an annual assessment of proficiency fo r the pilot.   
+3.42 Some aspects of a pilot’s proficiency , for example bridge resource management,  can 
+be satisfactorily assessed outside a  licensed  pilotage area . However,  aspects re lating 
+specifically to the Bluff pilotage area cannot be adequately assessed in another area32.  
+3.43 External assessments a re an important aspect of the pi lot check and audit programme . 
+They are an important mechanism for detecting and remedying  any potential bad 
+practices or habits that can form over time, ones not necessarily picked up by peers 
+who are deeply imbedded in the same system culture. This is pa rticularly important for 
+experienced pilots . 
+3.44 The training manual  also required pilots to attend simulator training every four years 
+and refresher training such as a dvanced pilots training every four years. The pilot had 
+last attended an advanced pilots training course in November 2015 and  simulator 
+training in February 2017.  Bridge resource management is a topic covered in the 
+advanced pilot course and is often practised during the simulator training courses . 
+3.45 The accumulated knowledge and experience of pilots is a major risk control measure for the safe navigation of commercial vessels in New Zealand ports.  Although pilots do 
+not take command of vessel s
+33, vessel operators still plac e a great deal of trust in 
+pilots ’ local knowledge, skills and experience.  
+3.46 An analysis of 20 years of the pilot’s operation records found that the pilot had conducted 20 inward transits in strong winds from the south -east quadrant (refer to 
+Appendix 2 for historical weather data for Bluff) . Previous simulator training exercises 
+had provided pilots with opportunities to operate in strong easterly and south- easterly 
+winds. One simulator session had been carried out to ensure that lar ge container 
+vessels would be capable of making the turn into Number 2 Reach in south- east winds.  
+These are examples  of the knowledge and experience a pilot can bring to a port 
+operation.  Additionally, g ood, active bridge resource management techniques and 
+adherence to training and development requirements can help to minimise the risk of systemic accidents.  
+3.47 The Commission has made a recommendation to the Chief Executive of South Port that 
+they ensure South Port’s safety management system develops measures to make 
+certain  that pilot training and proficiency requirements are being met as per the 
+training manual .  
+ 
+ 
+32 Determined after consultation with members of the New Zealand Maritime Pilots Association , master mariners , 
+and Maritime New Zealand.   
+33 Masters always retain command of vessels in New Zealand ports.  
+ 
+  Final Report MO -2018- 206 
+<< Page 24 >>
+ Readiness of critical standby equipment  
+3.48 The use of anchors to recover from a navigation emergency is a critical recovery 
+control to pr event adverse outcomes . Industry best practice, as contained in the 
+International Chamber of Shipping  Bridge Procedures Guide, requires operational and 
+emergency checklists  to ensure that vessel s’ equipment , such as anchors, is tested and 
+ready for use.  An important item in the pre- arrival and pre- departure checklists is a 
+verification  that anchors are clear and ready for immediate use.   
+3.49 The Alam Seri’s pre -arrival checklist at Bluff confirmed that the anchors were clear and 
+ready for use , as did the vessel ’s pilot card.  Additionally , the pilot’s job sheet, signed  by 
+the master , confirmed that the vessel  was free of defects and that the anchors were 
+ready for immediate use.  
+3.50 However, w hen the order was given to let go the port anchor , the bra ke was released  
+and the anchor did not d eploy . Three attempts were made, through  lowering and 
+heaving the anchor a short distance under power on the windlass , to try to free it 
+before the master ordered the chief officer to try the starboard  anchor.  The st arboard 
+anchor did not deploy  and had to be lowered and raised under power  before it 
+dropped on the third attempt . By this  time the vessel had stopped and the anchor was 
+no longer required .  
+3.51 The operator’s safety management system categorised  the anchor wi ndlasses as critical 
+standby equipment.  The planned maintenance schedules required greasing of the 
+windlasses every four months and brake testing every six months.   
+3.52 An analysis of the planned maintenance records showed that the windlasses had been 
+greased more frequently than required by the planned maintenance system.   
+3.53 It could not be established why the anchors did not deploy when required. The 
+starboard anchor had been used for r outine anchoring outside ports in Australia and 
+Asia during September and October  2018. However, during routine deployment there 
+is not the same urgency to stop the vessel as there is in emergency anchoring . On 
+some vessels  the anchors do not run out freely due to their design and  an anchor  may 
+require lowering from the hawse pipe prior to deployment.  If that was the case  for the 
+Alam Seri, this is information that would have been expected to be discussed during 
+the master -pilot exchange.  
+ 
+  Final Report MO -2018- 206 
+<< Page 25 >>
+ 4 Findings  
+4.1 The Alam Seri departed the channel and lightly contacted the seabed at the  entrance 
+to Bluff Harbour , likely  because a reduction in engine speed  reduced the effectiveness 
+of the rudder to a point where the rudder could not overcome the turning moment 
+created by strong wind acting on the starboard side of the ship.  
+4.2 There was n o real -time measurement of tidal current in th e entrance channel . 
+Conse quently , the possibility that unusual adverse currents in and around Number Two 
+Reach contributed to the event could not be discounted . 
+4.3 The Alam Seri’s propulsion and steering systems were operating normally and were set 
+in accordance with the pilot’s instructions.  
+4.4 The anchors had been cleared in preparation for letting go. It could not be established  
+why they did not deploy when ordered by the pilot.  
+4.5 Anchors can be an effective means of slowing a ship’s progress in an emergency . 
+Because the exact location of  the incident was not established, it was not possible to 
+determine whether the anchors would have prevented the ship touching the seabed  
+had they been deployed when ordered by the pilot.  
+4.6 The standard of bridge resource management was not in accordance with good industry practice : the pilot, master and bridge team had not discussed the pilot’s 
+intended actions to execute the passage plan and no challenge parameters had been set to guide the bridge team on when they should challenge the pilot’s  actions.  
+4.7 The pilot’s actions to recover the situation were understandable and a reasonable course of action given the circumstances . 
+4.8 Stron g south -easterly  winds, although uncommon, presented a risk to  vessel  and tug 
+operations in the approaches to Bluff H arbour  due to a lack of shelter . 
+4.9 The bridge team’s situational awareness, particularly during the recovery manoeuvres, would likely have been improved had there been an electronic chart display and information system or a portable pilot unit in use at the time of the incident.  
+ 
+4.10 The pilot was seven months overdue for a required annual assessment of proficiency , 
+meaning South Port’s pilot assessment regime for the Bluff pilotage area was not 
+meeting the requirements of its approved pilot training and proficiency plan . 
+ 
+ 
+  Final Report MO -2018- 206 
+<< Page 26 >>
+ 5 Safety issues and remedial action  
+General  
+5.1 Safety issues are an output from the Commission’s analysis. They typically describe a 
+system problem that has the potential to adversely affect future operations on a wide scale.   
+5.2 Safety issues may be addressed by safety actions taken by a participant, otherwise the Commission may issue a recommendation to address an issue.   
+Implementation of  pilot proficiency requirements and effective 
+bridge resource manag ement   
+5.3 The development of  an effective safety management manual relies on the 
+identification and assessment of hazards that could adversely affect operations. 
+Hazards need to be assessed according to their likelihood and consequences, and 
+controls implemented to prevent the hazard s resulting in adverse outcomes . The 
+provision of well -trained and proficient pilots was a vital control measure to reduce the 
+risk of navigational incidents in the Bluff pilotage area.  Pilot currency and proficiency 
+assessments were not implemented as req uired by South Port’s pilot training and 
+proficiency plan.  
+5.4 The pilot had not undergone an independent assessment by an external assessor for 
+the Bluff pilotage area in the previous five  years. Assessments by an external asses sor 
+are an important aspect of the pilot check and audit programme  and can detect and 
+remedy any potential departures from best practice not necessarily picked up by peers 
+who are deeply imbedded in the same system culture. This is particularly important for experienced pilots.  While external assessments were carried out in the Fiordland 
+pilotage area, the training manual, for the Bluff pilotage area, was silent on whether these assessments met its requirements.  
+5.5 Bridge resource management is  a fundamental skill developed to  enable pilots to work 
+well with vessels ’ bridge teams. The level of bridge resource management on the Alam 
+Seri’s bridge did not meet industry good practice.  The bridge team could not 
+effectively monitor the execution of the pilotage because they did not have an agreed specific pilot plan  or agreed monitoring parameters appropriate to the weather 
+conditions at the time.  The master and pilot  had not discussed the effect s the  south -
+easterly wind would have on the transit into Bluff Harbour , and the bridge team di d 
+not realise the likely extent of the wind’s effect s on Number 2 Reach and could not 
+assess if the  pilot’s actions and the  chosen speed profile w ere appropriate . The master 
+had commented on the wind during the master -pilot exchange, but did not engage in 
+discussion on how the wind might affect the vessel as it transited the port entrance.  
+5.6 South Port has taken the following safety  actio ns to reduce the risk of a si milar incident 
+occurring : 
+• an independent review of the port’s pilotage practices and operating parameters to 
+ensure alignment with best practices  
+• All training requirements are now recorded and managed in an automated training 
+management system. The system contains all training  and assessments  required by 
+ 
+  Final Report MO -2018- 206 
+<< Page 27 >>
+ the Pilot and Tugmaster Training Manual  and it generates automatic reminders and 
+lead times when training and assessments are due.  Responsibility for the 
+management of this system now sits with South Port’s  marine operations manager  
+• when deep -draught,  even- keel vessel movements are planned , a tug meets the 
+vessel at the entrance to the channel. The tug is positioned/fastened at centre lead 
+aft and can be used to slow or steer the vessel if required  
+• the port wind limits were revalidated during a simulation exercise completed at 
+Smart ship Australia  in Brisbane. No changes were made to the limits after this 
+exercise  
+• a 3D survey of the channel and entrance was completed as a base for a future 
+determination of cha nges in the harbour that could affect  tidal flow and direction  
+• as a precautionary measure,  the diameter of the company’s tug tow lines was 
+increased from 80  mm to 88  mm 
+• all pilots have been issued with and trained in the use of portable pilot units . They 
+are carried on all pilotage jobs.  
+5.7 Following this incident , South Port used a vessel  simulator to verify the wind limits set 
+in the safety management manual.  Three scenarios were completed with wind speeds 
+of 35 knots and above, from the southeast , east and northeast  respectively.  All three 
+port entries were completed safely under the vessel s’ own power without the necessity 
+for excessive speed or helm orders.  
+5.8 The Commission welcomes the safety action s taken  to date. However, it believes more 
+action s need to be taken to ensure the safety of future operations. Therefore, the 
+Commission has made a recommendation in section 6 to address this issue. 
+  
+ 
+  Final Report MO -2018- 206 
+<< Page 28 >>
+ 6 Recommendation   
+6.1 The Commission issue s recommendations to address safety issues  found in its 
+investigations.  Recommendations may be addressed to organisations or people, and 
+can relate to safety issues found within an organisation or within the wider transport 
+system that have the potential to contribute to future transport accidents and incidents.  
+6.2 In the interests of transport safety, it is important that recommendations are implemented without delay  to help prevent similar accidents or incidents occurring in 
+the future.  
+6.3 In this case, a recommendation has been issued to South Port , with notice of the 
+recommendation given to Maritime New Zealand.  
+New recommendation   
+6.4 On 27 September 2021, the Commission made a recommendation to South Port 
+that they ensure South Port ’s safety management system develops measures  to 
+make certain  that pilot training and proficiency requirements are being met as 
+per the South Port Pilot and Tugmaster Training Manual  and as required by 
+Maritime Rule Part 90: Pilotage . (001/21)  
+On 8 October 2021, South Port replied:  
+The Company accepts the final recommenda tion and provides the following comments 
+on actions completed and outstanding action item completion dates.  
+In February 2021, the Company reviewed its systems related to ensuring compliance with the approved South Port Safety Management Manual, with a part icular focus on 
+the South Port Pilot and Tugmaster Training Manual.  
+All training requirements are now recorded and managed in the Company’s training 
+management system “The Vault”. This system contains all training required in the 
+approved Pilot and Tugmast er Training Manual, including annual internal check pilot 
+reviews and the requirement for a four yearly external assessment.  
+“The Vault” has automated reminders and lead times for training to be completed within the specified training periods.  
+The Company’s Liaison Pilot has been appointed to manage pilots’ training. This 
+includes ensuring the Company complies with pilotage group training requirements 
+included in the approved Safety Management System.  
+Responsibility for the management of this system for the Company’s Marine Division 
+now sits with the Marine Operations Manager and Liaison Pilot.  
+A suitably experienced pilot/assessor will be engaged to complete the four yearly 
+assessments in Bluff for all licenced pilots. This will be completed by 31 December 
+2021. The external assessments undertaken as part of the Fiordland pilotage activities 
+will also continue once the cruise activities recommence. This will complement the 
+assessments to be completed in the Bluff operating environment.  
+Other Comments:  
+In 2020 the Company commissioned an external review of pilotage practices in Bluff. 
+This was completed by Marine Logistics Australia (MLA). The review recommended the 
+ 
+  Final Report MO -2018- 206 
+<< Page 29 >>
+ development of a Pilotage Operation Safety Management System (POSMS) that forms 
+part of the Com pany’s overall Port Safety Management System. Good progress is being 
+made with the development of the POSMS, with continuing oversight from MLA. All 
+aspects of pilotage in Bluff, including training and proficiency have been included. The Covid -19 pandemic and the limits this has placed on overseas travel has slowed the 
+final draft completion date. The final draft is now expected to be completed by 31 
+December 2021.  
+Notice given to the Director of Maritime New Zealand  
+6.5 On 27 September 2021 the Commission gave notice to the Director of Maritime 
+New Zealand that the Commission has recommend ed that  the Chief Executive of  
+South Port ensure s South Port ’s safety management system develops measures  
+to make certain that pilot training and proficien cy requirements are being met as 
+per the South Port Pilot and Tugmaster Training Manual  and as required by 
+Maritime Rule Part 90: Pilotage.  
+ 
+  Final Report MO -2018- 206 
+<< Page 30 >>
+ 7 Key lessons  
+7.1 Critical standby equipment , such as a vessel ’s anchors , should always be maintained in 
+accordance with s afety management requirements and be ready for immediate use 
+when required . 
+7.2 The information exchange between a  master and a pilot should be a process that 
+continues for the duration of the pilotage.  
+7.3 A pilot training and proficiency plan should be developed to ensure the competency 
+and currency of pilots . The plan must be followed to  retain the pilots ’ entitlement  to 
+exercise the privileges of their pilot licence s. 
+ 
+ 
+  Final Report MO -2018- 206 
+<< Page 31 >>
+ 8 Data summary  
+Vehicle particulars  
+Name:  Alam Seri  
+Type:  bulk carrier 
+Class:  NS* (Bulk Carrier–Type A, BC -XII, GRAB) (ESP) MNS*  
+Limits:  unlimited  
+Classification:  Nippon Kaiji Kyokai  
+Length:  163.50 m 
+Breadth:  27.00 m 
+Gross tonnage:  18,003 
+Built:  March 2011 , Shikoku Dockyard, Takamatsu, Japan  
+Propulsion:  Mitsui Man B&W 6S42MC 6150kw at 136 revolutions 
+per minute 
+Service speed:  14.2 knots  
+Owner/ Operator : Filharmony Shipmanagement, Inc 
+Port of registry:  Panama 
+Date and time  
+ 28 November 2018, 1922  
+Location  
+ approach to Bluff Harbour  
+Persons involved  
+ master , first officer, third officer, helmsman, pilot  
+Injuries  
+ nil 
+Damage  
+ hull paint abrasion, dent in stern, damage to tugs  
+ 
+  Final Report MO -2018- 206 
+<< Page 32 >>
+ 9 Conduct of the inquiry  
+9.1 On 28 November 2018 , Maritime New Zealand  notified the Commission of the 
+occurrence.  The Commission subsequently opened an inquiry under section 13(1) of 
+the Transport Accident Investigation Commission Act 1990  and appointed an 
+investigator in charge.  
+9.2 On 29 November 2018, three investigators travelled to Tīwai Point to gather electronic 
+and documentary evidence from the Alam Seri and to conduct interviews with relevant 
+members of the crew.  
+9.3 On 1 December 2018, two investigators travelled to Bluff to interview the pilot and 
+collect evidence from South Port.  
+9.4 On 5 September 2019, the Commission  appointed another investigat or in charge.  
+9.5 On 16 October 2019, further documentation was requested from Filharmony Shipmanagement , Inc. 
+9.6 On 5 November 2019, two investigators travelled to Bluff to conduct follow -up 
+discussions with staff at South Port and to meet the Southland harbourmaster . 
+9.7 On 24 April 2020, the Commission approved a draft report for circulation to  nine 
+interested persons for their comment.  Six responses were received, including five 
+submissions.  
+9.8 The Commission considered these submissions in detail and requested further 
+evidence from interested persons. New evidence was provided and was analysed 
+against the original evidence provided. Any changes as a result o f the submissions and 
+new evidence were  included in th e revised draft report.  
+9.9 During September and October 2020, a n independent nautical consultant was 
+engaged to appraise the revised draft report.  
+9.10 On 9 December 2020, the Commission approved the revised draft report for circulation to nine interested persons fo r their comment.  Four submissions were received.  
+9.11 On 28 April 2021, the pilot appeared at a formal Commission hearing and provided 
+further evidence to the Commission.  
+9.12 The Commission considered these submissions in detail. Any changes as a result of the 
+subm issions were included in the final report.  
+9.13 On 25 August 2021, the Commission  approved the final report for publication.  
+ 
+  Final Report MO -2018- 206 
+<< Page 33 >>
+ 10 Report information  
+Abbreviations  
+° degrees  true 
+CCTV  closed -circuit television camera  
+ECDIS  electronic chart display and information system  
+m metre(s) 
+mm millimetre (s) 
+PPU portable pilot unit  
+safety 
+management 
+manual  South Port Safety Management Manual  
+training manual  South Port Pilot and Tugmaster Training Manual  
+ 
+Glossary  
+aft towards the stern or rear part of a vessel  
+amidships  when a vessel’s steering is centred, to attain 0 ° of rudder angle  
+astern  when referring to a vessel  or its engine moving in reverse  
+boatswain  the foreman of a  deck crew  
+conn  the conduct of a vessel  
+forecastle  the foremost part of a vessel ’s deck  
+ 
+  Final Report MO -2018- 206 
+<< Page 34 >>
+ hard to starb oard maximum starboard rudder angle  
+hawse pipe  a pipe in which the anchor shank is housed and through which the 
+anchor cable passes when the anchor is used. The hawse pipe runs through the forecastle from beneath the anchor windlass to the outside of the hull  
+helm the means , such as a steering wheel,  by which a vessel ’s steering  is 
+controlled  
+knot a speed of one nautical mile per hour, or 1.852 kilometres per hour  
+leading mark s navigation lights and beacons that, when in line, indicate a vessel is on the right track  
+parted  maritime term for the separation or breakage of a rope or cable  
+port 
+reach  the left side of a vessel  when facing forward  
+a nautical term that can be used to describe a designated course for a vessel to follow in a channel  
+slack water  the time when the tide changes direction and the tidal influence is at 
+a minimum  
+starboard  the right side of a vessel  when facing forward  
+turning moment  the rudder’s fo rce acting over the distance to the vessel’s pivot point, 
+resulting in a turning effect  
+windlass  a horizontally mounted mechanical winch used for anchoring operations  
+ 
+ 
+ 
+  Final Report MO -2018- 206 
+<< Page 35 >>
+ Appendix 1  Change  in vessel’s heading during the alteration into Number 2 Reach  
+ 
+ 
+
+ 
+  Final Report MO -2018- 206 
+<< Page 36 >>
+ Appendix 2  Vessel speed, wind speed  and rudder angle values from the vessel’s 
+voyage data recorder  
+
+ 
+  Final Report MO -2018- 206 
+<< Page 37 >>
+ Appendix 3  Historical weather data for Bluff  
+Bluff Harbour is located on the northern side of Foveaux Strait and lies near the centre of the 
+latitude band known as the Roaring Forties. Weather patterns move from the west towards 
+the east and the prevailing winds are from the west.  
+The New Zealand Port and Harbour Marine Safety Code requires regional councils and port operators to work together to develop their respective safety m anagement systems. The 
+Bluff Harbour risk assessment, conducted for the regional council, correctly identified that westerly winds were more prevalent over Southland. It also referred to South Port’s pilotage procedures and operational limits as risk contr ol measures.  
+When easterly winds occur, they are likely to be associated with a weather pattern known as a low -index situation. A low -index situation happens when there is an intense anticyclone 
+south of New Zealand and low pressure over the Tasman Sea or  the North Island. Once 
+established, this weather pattern can cause easterly winds to persist over southern New Zealand for prolonged periods
+34. During these conditions, the wind and sea have an 
+uninterrupted flow across the approaches to Bluff Harbour. There is no shelter from the land and there is unlimited fetch
+35, resulting in rough sea conditions in the area of Number 2 
+Reach. In the more prevalent westerly wind conditions, Number 2 Reach is relatively 
+sheltered from the land and has calmer sea conditions. Therefore, easterly winds present a 
+higher risk on Number 2 Reach than the prevailing westerly wind conditions.  
+On the day of the incident , synoptic charts showed that there was an anticyclone to the 
+south of New Zealand and relatively low pressure over central New Zealand, which created 
+an easterly wind pattern. There had been strong easterly winds over Southland for the 
+previous 10 days.  
+Year-round wind observations were analysed for 2017, 2018 and 2019. Figure 12 shows that 
+the dominant wind direction at Tīwai  Point, close to the approach channel, was westerly, and 
+that winds from the southeast quadrant36 were infrequent and rarely resulted in speeds 
+exceeding a moderate to fresh breeze37. 
+The wind speed and direction in the approach channel for the month of November was also 
+analysed. Data from 2016, 2017 and 2018 (see Figure 13) showed that the winds had been 
+stronger in the approach channel than at Tīwai  Point. Although the November data over 
+three years showed that almost 25% of the re corded winds had been from the south- easterly 
+quadrant, the data show ed that in November 2018 specifically, the weather patterns over 
+Southland had produced stronger, more frequent south- easterly winds than usual.  
+ 
+ 
+34 The Climate and Weather of Southland, 2nd Editio n. Macara, G R., NIWA 2013.  
+35 The distance of water affected by wind -wave development, measured between the observer and the wind 
+origin.  
+36 Directions between east and south.  
+37 Beaufort wind scale force 4, moderate breeze (11 -16 knots), force 5, fresh bree ze (17-21 knots).  
+ 
+  Final Report MO -2018- 206 
+<< Page 38 >>
+  
+Figure 12: Wind direction and speed, percentage frequency for Tīwai  Point, 2017, 2018 and 
+2019 (raw data sourced from NIWA)  
+
+ 
+  Final Report MO -2018- 206 
+<< Page 39 >>
+  
+Figure 13: Wind data from the Number 3 channel beacon for November 2016, 2017 and 2018 
+ 
+
+
+ 
+    
+ TAIC Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ngati Raukawa, 
+Tuwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies an d how to prevent them. A ‘waka whai mārama (i te 
+ara haumaru) is ‘a vessel/vehicle in pursuit of understanding’. Waka is metaphor for the Commission. Māram  
+(from ‘te ao mārama’ – the world of light) is for the separation of Rangitāne (Sky Father) and Papa tūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling within), which brough  
+light and thus awareness to the world. ‘Te ara’ is ‘the path’ and ‘haumaru’ is ‘safe or risk free’.  
+Corporate: Te Ara Haumaru - The safe an d risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the 
+mother and child, symbolising protection, safety and guidance. The triple koru represents the three kete of 
+knowledge that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. 
+The continual wave is the perpetual line of influence. The succession of humps represent the individual 
+inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwha i. 
+Aviation: ng ā hau e wh ā - the four winds  
+ 
+To Sandy, ‘Ngā hau e whā’ (the four winds), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the 
+sky, c loud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa’s 
+‘long white cloud’. The letter ‘A’ is present, standing for aviation.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea  (God of wind) in the creation of this 
+Kōwhaiwhai.  
+Marine: ara wai - waterways  
+ 
+The sections of waves flowing across the design represent the many different ‘ara wai’ (waterways) that 
+ships sail across. The ‘V’ shape is a ship’s prow and its wake. The let ter ‘M’ is present, standing for ‘Marine’.  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+The design represents the fluid movement of trains across Aotearoa. ‘Rere’ is to flow or fly. ‘Whenua’ is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter ‘R’ is 
+present, standing for ‘Rail’.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and 
+everything that dwells within) in the creation of this Kōwhaiwhai.  
+
+ 
+     
+ 
+Recent Marine  Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+ 
+MO-2018-206 Bulk carrier Alam Seri, loss of control and contact with seabed, Port of Bluff, 28 
+November 2018  
+MO-2020-201 Collision between bulk carrier Rose Harmony and fishing vessel Leila Jo, Off Lyttelton  
+12 January 2020  
+MO-2019 -204 Capsize of water taxi Henerata ,  
+Paterson Inlet, Stewart Island/Rakiura , 12 September 2019  
+MO-2019 -203 Bulk log carrier Coresky OL , Crew fatality during cargo -securing operation,  Eastland 
+Port, Gisborne , 3 April 2019  
+MO-2018 -205 Fatality on board the factory trawler San Granit , 14 November 2018  
+MO-2019 -202 Fatal jet boat accident, Hollyford River, Southland, 18 March 2019  
+MO-2019 -201 Jet boat Discovery 2, contact with Skippers Canyon wall, 23 February 2019  
+MO-2018 -202 Accommodation fire on board, fishing trawler Dong Won 701 , 9 April 2018  
+MO-2018 -203 Grounding of container ship Leda Maersk , Otago Lower Harbour, 10 June 2018  
+MO-2018 -204 Dolphin Seeker , grounding, 27 October 2018  
+MO-2017 -204 Passenger vessel Seabourn Encore , breakaway from wharf and collision with bulk 
+cement carrier at Timaru, 12 February 2017  
+MO-2017 -203 Burst nitrogen cylinder causing fatality, passenger cruise ship Emerald Princess , 9 
+February 2017  
+MO-2017 -205 Multipurpose container vessel Kokopo Chief , cargo hold fire, 23 September 2017  
+MO-2017 -202 Passenger vessel L’Austral , grounding, Milford Sound, Fiordland, 9 February 2017  
+MO-2016 -206 Capsize and foundering of the charter fishing vessel Francie , with the loss of eight liv  
+Kaipara Harbour  bar, 26 November 2016  
+MO-2016 -202 Passenger ship, Azamara  Quest , contact with Wheki Rock, Tory Channel, 27 January 
+2016  
+MO-2017 -201 Passenger vessel L’Austral  contact with rock Snares Islands, 9 January 2017  
+MO-2016 -201 Restricted -limits passenger vessel the PeeJay  V, Fire and sinking , 18 January 2016  
+
+Price $18.00  ISSN 1173- 5597 (Print)  
+IS
+SN 1179- 9072 (Online)

@@ -1,0 +1,1051 @@
+﻿   
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Inquiry MO -2014 -202:  lifting sling failure on freefall lifeboat,  
+general cargo ship Da Dan Xia , Wellington, 14 April 2014  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to determine 
+the circumstances and causes of accidents and incidents with a view to avoiding similar occurrences in the 
+future.   Accordingly it is inappropriate that reports should be used to assign fault or blame or determine 
+liability, since neither the investigation nor the reporting process has been undertaken for that purpose.  
+ 
+The Commission may make recommendations to impro ve transport safety.  The cost of implementing any 
+recommendation must always be balanced against its benefits.  Such analysis is a matter for the regulator 
+and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing ack nowledgement is made to 
+the Transport Accident Investigation Commission.  
+   
+ 
+  
+ 
+ 
+          
+Final Report  
+Marine inquiry MO-2014-202 
+lifting  sling  failure  on freefall  lifeboat , 
+general cargo ship Da Dan Xia , Wellington  
+14 April  2014  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : February 2015  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and an 
+independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and incidents 
+for New Zealand, and  co-ordinating and co -operating with other accident investigation organisations 
+overseas .  The principal purpose of its inquiries is to determine the circumstances and causes of t he 
+occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to 
+any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action 
+against a person or agency.  The Commission carries out its purpose by informing members of the transport 
+sector and the public, both domestically and internationally, of  the lessons that can be learnt from transport 
+accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     John Marshall, QC  
+Deputy Chief Commissioner    Helen Cull, QC  
+Commissioner      Jane Meares  
+     
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Naveen Mathew Kozhuppakalam  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Welling ton 6143, New Zealand  
+ 
+  
+   
+ 
+ Important n otes 
+ 
+Nature of the final report  
+This final report has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this final 
+report inadmissible as evidence in any proceedings with the exception of a Coroner’s inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is made to 
+the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission’s inquiry into the o ccurrence is not cited in this 
+final report.  Documents that would normally be accessible to industry participants only and not discoverable 
+under the Official Information Act 1980 have been referenced as footnotes only.  Other documents referred 
+to during  the Commission’s inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report are provided by, 
+and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+The Da Dan Xia  in Wellington, April 2014
+photo courtesy  of John Hermans  
+ 
+  
+Chart NZ 4633 Wellington Harbour  
+CentrePort 
+Wellington  
+Da Dan Xia  
+Cook Strait  
+Not to be used for navigation  
+Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ .......................  ii 
+Data summary ................................ ................................ ................................ ................................ ...................  iii 
+1. Executive s ummary ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ..............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ .. 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+3.2. Launching a freefall lifeboat  ................................ ................................ ................................ ....... 5 
+4. Analysis  ................................ ................................ ................................ ................................ .....................  7 
+4.1. General  ................................ ................................ ................................ ................................ .........  7 
+4.2. Why the wire lifting slings failed  ................................ ................................ ................................ .. 7 
+4.3. Plastic (polymeric) coating of steel wires in the marine industry  ................................ ............  10 
+4.4. Certification, inspection and maintenance of the wire lifting sling  ................................ .........  11 
+4.5. Mitigat ing the risk of lifeboat drills  ................................ ................................ ...........................  13 
+5. Findings  ................................ ................................ ................................ ................................ ...................  14 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  15 
+General  ................................ ................................ ................................ ................................ ....................  15 
+Safety actions addre ssing safety issues identified during an inquiry  ................................ .................  15 
+Safety actions addressing other safety issues  ................................ ................................ .....................  15 
+7. Recommendations  ................................ ................................ ................................ ................................ . 16 
+General  ................................ ................................ ................................ ................................ ....................  16 
+Recommendation 1  ................................ ................................ ................................ ................................  16 
+Recommendation 2  ................................ ................................ ................................ ................................  16 
+8. Key lessons  ................................ ................................ ................................ ................................ .............  18 
+Appendix 1:  Defence Technology Agency report  ................................ ................................ ..........................  19 
+Appendix 2: Lifting wire rope product certificate  ................................ ................................ ..........................  24 
+Appendix 3: Stress analysis of lifting wire sling  ................................ ................................ ............................  25 
+Appendix 4: Safety Advisory No. 52 -13, Republic of the Marshall Islands  ................................ .................  26 
+ 
+   
+Final report MO -2014 -202 | Page i Figures  
+Figure 1   Location of wire slings on a similar lifeboat  ................................ ................................ ...................  3 
+Figure 2   General arrangment of davit and freefall lifeboat  ................................ ................................ .........  4 
+Figure 3   Lowering a freefall lifeboat by the secondary means of launching  ................................ ..............  5 
+Figure 4   Location of strong points on the lifeboat  ................................ ................................ ........................  6 
+Figure 5   Eight failed parts of the 4 wire slings  ................................ ................................ .............................  7 
+Figure 6   Severe corrosion on a failed wire slings  ................................ ................................ .........................  8 
+Figure 7   Parts of the wire slings  ................................ ................................ ................................ ....................  8 
+Figure 8   Wire rope concealed within the plastic sheathing  ................................ ................................ ....... 11 
+ 
+ 
+ 
+ 
+  
+Page ii | Final report MO -2014 -202 Abbreviations  
+IMO International Maritime Organiz ation  
+SOLAS  International Convention for the Safety of Life at Sea, 1974  
+  
+  
+  
+  
+ 
+ 
+ 
+Glossary  
+boatswain  an experienced petty officer who is foreman of the seamen  
+davit  a steel fitting on a ship  for the attachment of tackle for hoisting and lowering 
+a lifeboat  
+factor of safety  a term describing the structural capacity of a system beyond the expected 
+load or actual load; essenti ally, how much stronger the system is than it 
+usually needs to be for an intended load  
+falls a rope by which a boat is hoisted  or lowered  
+ferrule  a circular clamp used to hold together and attach wires  
+freefall lifeboat  an enclosed lifeboat  that is designed to slide down a ramp and off the ship 
+when the lifeboat’s  securing hook is disengaged  
+gelcoat  a material used to provide a high -quality finish on the visible surface of a 
+fibre -reinforced composite material  
+Polymer  
+ 
+thimble  
+ A polymer is a natural or synthetic compound that consists of large 
+molecules made of many chemically bonded smaller, identical molecules, 
+such as nylon and some other plastics.  
+a metal insert fitted to the inside of an eye formed at the end of a rope to 
+prevent the rope  chaffing when attached to another object  
+ 
+  
+  
+  
+ 
+   
+Final report MO -2014 -202 | Page iii Data summary  
+Vehicle particulars  
+Nam e: Da Dan Xia  
+Type : general cargo ship  
+Class:  09R0175  
+Limits:  SOLAS  
+Classification:  China Classification Society  
+Length  overall : 159.3  metres  
+Moulded breadth :  27.4 metres  
+Gross tonnage:  20,94 9  
+Built:  31 July 2008  
+Propulsion:  one direct -drive, single -screwed, reversible crosshead diesel 
+engine: Man B&W 6S40ME -B9 
+Service speed:  15.2 knots  
+Owner/operator:  COSCOL (HK) Investment and Development Co. Limited  
+Port of registry:  Hong Kong  
+Minimum crew:  14 
+Date and time  
+ 14 April 2014 , 11001 
+Location  
+ Wellington , New Zealand  
+Persons involved  
+ four 
+Injur ed 
+ one 
+Damage  
+ lifeboat  lifting sling  parted  
+                                                        
+1 Times in this report are New Zeal and S tandard Time (co -ordinated universal time +  12 hours), and are expressed in the 24 -
+hour format.  
+
+   
+Final report MO -2014 -202 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 14  April 2014 the general cargo vessel Da Dan Xia  was berthed at the port of Wellington, New 
+Zealand, preparing to load a cargo of logs.  The crew were conducting a launch -and-retrieval drill for 
+the vessel’s freefall  lifeboat2, using the “alternative ” launc hing and retrieval davit3. 
+1.2. The lifeboat was lowered into the water with no crew on board.  Four crew members then boarded 
+the lifeboat and manoeuvred it around the harbour for 10 minutes before connecting it back to the 
+retrieval davit.  A purpose -built li fting sling made up of four wire rope pennants was used to 
+connect the lifeboat to the retrieval davit.  Once the crew were seated with their restrain ts 
+fastened, hoisting the lifeboat from the water commenced.  The lifeboat had been hoisted to about 
+deck level when first one and then the remaining three wire pennants parted and the lifeboat fell 
+several metres back into the sea.  
+1.3. Meanwhile, one of the crew members had released his restraints  in anticipation of disembarking 
+the lifeboat.  He was thrown clear  of his seat and sustained a cut to the head, requiring overnight 
+hospitalisation.  None of the other three crew members was seriously injured.  The lifeboat was 
+undamaged.  
+1.4. The Transport Accident Investigation  Commission (Commission) found that the wire pe nnants 
+parted under tensile overload because they had all been significantly weakened by severe 
+corrosion.  Corrosion had gone undetected inside a plastic sheathing that the manufacturer of the 
+lifting sling had placed around the wire pennants.  
+1.5. The presenc e of the plastic sheathing encasing the wire rope meant that neither the crew nor the 
+various surveyors tasked with inspecting the launching system could inspect and maintain the wire 
+rope as required by the International Maritime Organi zation Convention for the Safety of Life at 
+Sea, 1974 . 
+1.6. The Commission found that encasing steel wire in plastic sheathing when it is to be used in the 
+marine environment has significant implications for maritime safety, especially when the wire must 
+be regularly inspected an d maintained in order to remain fit for purpose.  A recommendation  was 
+made to the Director of Maritime New Zealand to raise this safety issue through the appropriate 
+International Maritime Organi zation safety committee.  
+1.7. The Commission also recommended  that the manufacturer of the lifeboat and the lifting sling 
+cease the practice of totally encasing wire rope pennants with plastic, and inform all owners and 
+operators using its system of this accident and the danger of leaving the wires encased with plastic 
+sheathing.  
+1.8. The operator of the Da Dan Xia  took the safety action of remov ing the plastic sheathing from all 
+similar lifting slings in its fleet of ships.  
+1.9. A key safety lesson  arising from this inquiry is that seafarers and surveyors alike must not make 
+assumption s about the condition of any wire or other equipment that they cannot see, especially 
+when  the wire or other equipment has a safety -critical purpose and is required by rules, regulations 
+or procedures to be thoroughly examined.  
+ 
+ 
+  
+                                                        
+2 A freefall lifeboat is an enclosed lifeboat that is designed to slide down a ramp and off the ship when the 
+lifeboat’s securing hook is disengaged . 
+3 A davit is a steel fitting on a ship for the attachment of tackle for hoisting and lowering a lifeboat.  
+
+<< Page 2 >>
+ Final report MO -2014 -202 2. Conduct of the  inquiry  
+2.1. Maritime New Zealand notified the accident to the Transport Accident Investigation Commission 
+(Commission) at about 1400 on 14 April 2014 .  The Commission  open ed an inquiry under section 
+13(1) of the Transport Accident Investigation Commission Act  1990, and appointed an investigator  
+in charge.  
+2.2. Two investigators from the  Commission boarded the ship the same day , to gather evidence and 
+become familiar with the ship’ s freefall  lifeboat and associated equipment.  
+2.3. The master of the ship was interviewed the following day , 15 April 2014, and copies of relevant 
+documents were obtained from the ship.  
+2.4. The Commission retained the damaged wire slings  for metallurgical analysis and engaged the New 
+Zealand Defence Technology  Agency  to determine the failure mode of the wire slings.  
+2.5. Data was also sourc ed from the ma nufacturer  of the freefall  lifeboat, the ship’s owner and the 
+ship’s classification society.  
+2.6. Global research was conducted to identify other occurrences involving the failu re of plastic -
+encased wire rope.  
+2.7. On 19 November 2014  the Commission approved a draft final report for circulation to interested 
+persons.  
+ 
+ 
+  
+   
+Final report MO -2014 -202 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  On 11 April 2014 the general cargo ship Da Dan Xia  arrived at the port of Wellington.   The ship was 
+due to load a cargo of logs before departing for China.   
+3.1.2.  The master had obtained p rior permission from the harbourmaster to conduct a routine lifeboat -
+launching exercise while the ship was berthed in W ellington.  The exercise was scheduled f or 14 
+April 2014.  
+3.1.3.  On the m orning of 14 April 2014, the master and 10 crew members prepared  the ship’s free fall 
+lifeboat for the scheduled exercise .  
+3.1.4.  The lifeboat was d esigned to slide down a ramp and fall freely into the water (freefall launching) .  
+However, for training purposes it could also be lowered into the water using a galvanised wire lifting 
+sling  arrangement  (see Figure 1). 
+3.1.5.  The wire used to make the lifting sling had a fibre rope core and was galvanised.  Each wire rope 
+terminated in an e ye passed around  a thimble4 and fastened with a circular ferrule5 clamp.  The 
+length of the wire rope between the clamps was encased in a polymeric6 sheathing.  This sheathing 
+was provided to stop the steel wire scratching and damaging the lifeboat exterior . 
+3.1.6.  On the d ay of the accident , because of the proximity of the wharf and nearby ships, the master 
+decided against using the freefall launching  metho d, opting to lower the lifeboat into the water  
+using  the lifting sling . 
+ 
+Figure 1  
+Location of wire sling s on a similar lifeboat  
+(photo courtesy of Jiangyinshi Beihai LSA Co., Limited , China)  
+                                                        
+4 A thimble is a m etal insert fitted to the inside of an eye formed at the end of a rope to prevent the rope chaffing 
+when attached to another object . 
+5 A ferrule is a circular clamp used to hold together and attach wires . 
+6 A polymer is a natural or synthetic compound that consists of large molecules made of many chemically bonded 
+smaller, identical molecules, such as nylon  and some other plastics.  
+
+
+<< Page 4 >>
+ Final report MO -2014 -202 3.1.7.  The wire sling s were  attached  to the lifeboat and connected to a spreader bar  connected to the 
+ship’s lifeboat davit .  The ship’s boatswain7 was assigned to operate the  lifeboat  davit , which would 
+swing  the lifeboat clear of the ship  side (s ee the location of the davit in Figure 2).  This method did 
+not require any crew members to be on board until the lifeboat was floating in the water.  
+3.1.8.  Before the operation commenced the master inspect ed the launching equipment , including the 
+wire slings , recovery hook and high -pressure piping of the hydraulic davit.  
+3.1.9.  At about 1100 the lifeboat was lowered into  the water .  The chief officer, third officer, fourth 
+engineer and an able -bodied  seaman  then  climbed down the embarkation ladder and boarded the 
+lifeboat.  
+ 
+ 
+Figure 2  
+General arrangement  of davit and f reefall lifeboat  
+3.1.10.  The lifeboat was manoeuvred within the harbour  for about 10 minutes then  return ed to the  
+recovery point  (see Figure 2) .  Once t he wire sling s were connected to the lifeboat  davit , the chief 
+officer radioed the master and informed him that the crew were secured by their restraints  and that 
+the li feboat w as ready to be hoisted . 
+3.1.11.  The boatswain  then  raise d the lifeboat just clear of the water.  The master made a final check to 
+ensure that the wire sling s and davit hooks were all properly connected bef ore instructing the 
+                                                        
+7 A boatswain is an experienced petty officer who is foreman of the seamen . 
+
+   
+Final report MO -2014 -202 
+<< Page 5 >>
+ boatswain  to hoist the lifeboat back i nto its cradle.  The lifeboat crew remained on  board during the 
+entire recovery operation . 
+3.1.12.  The lifeboat  was just  clear ing railing  at the stern when one of the four wire sling s parted , followed 
+immediately by the three remaining wire sling s in quick succession . The lifeboat fell several metres 
+to the water.  
+3.1.13.  Some  time before the wire sling s parted, the  third officer  had removed his restraints  in preparation 
+for disembarking .  When the lifeboat fell to the water  the third officer  was thrown off his seat and 
+sustained  a head injury.  The able -bodied seaman suffered  a minor injury to his thum b.  The 
+remaining two crew members were unharmed.  
+3.1.14.  The lifeboat crew disembarked on their own  and were helped ashore by port staff and the ship’s 
+crew.  A member of the port staff  who had witnessed the incident requested an ambulance to be 
+dispatched.  
+3.1.15.  At about  1140 an ambulance arrived and the injured third officer and able -bodied seaman  were 
+transported  to hospital.  The able -bodied seaman was discharged the same day .  The third officer 
+required 12 stitches to his head  and stayed overnight in the  hospital  before being discharged .  
+3.2. Launching a freefall l ifeboat  
+3.2.1.  The International Maritime Organi zation (IMO) International Convention for the Safety of Life at 
+Sea, 1974  (SOLAS) require s a free fall lifeboat  to be lowered from its cradle at least once every 
+three  months.   All crew members are required to board the life boat , secure themselves in their 
+seats and commence launch pr ocedures , but are not required to be actual ly launch ed.  The 
+lifeboat s hould  then  be either free fall launched with only the  minimum  required operating crew o n 
+board , or lowered in to the water by the secondary mean s of launching , with or without the 
+minimum operating crew on board.   
+3.2.2.  At intervals of not more than six months, either the lifeboat has to be launched by freefall  with only 
+the minimum operating crew on board or a simulat ed launch  must to be conducted in accordance 
+with the guidelines developed by the IMO. 
+ 
+Figure 3  
+Lowering a f reefall lifeboat by the secondary means of launching  
+
+
+<< Page 6 >>
+ Final report MO -2014 -202 3.2.3.  The master of the Da Dan Xia  was conducting a  routine three -monthly lifeboat -launching drill.  He  
+had decided to lower the lifeboat by the designated  secondary means for launching.  
+ 
+Figure 4  
+Location of strongpoints on the lifeboat  
+(photo courtesy of Jiangyinshi Beihai LSA Co., Limited , China)  
+3.2.4.  This operation  required four wire sling s to be attached to three  strongpoint s on the lifeboat , two on 
+the aft and one on the forward of the lifeboat .  The wire slings  would then be hooked on to the 
+lifeboat davit spreader bar , which  could be hoisted and lowered by the davit winch . Once the 
+lifeboat connections had been made ready, the hydraulically  operated  davit would pivot about its 
+fulcrum , swinging the lifeboat clea r of the ship ’s stern .  The procedure for recovering the lifeboat  
+was the same in reverse  (Figure s 3 and 4 ). 
+
+   
+Final report MO -2014 -202 
+<< Page 7 >>
+ 4. Analysis  
+4.1. General  
+4.1.1.  Lifeboat accidents are an ongoing safety concern in the maritime industry because of their 
+potential to cause serious inj ury and loss of life.  Although  new initiatives from the IMO have made 
+significant inroads into addressing these safety concerns, launching a lifeboat still remains a 
+fundamentally high -risk operation.  
+4.1.2.  The freefall lifeboat has been generally regarded as a safe m eans of abandoning a ship.  It is 
+designed to escape the vicinity of the ship without the need for the traditional side -launching 
+applianc es and the inherent risks associated with them .  A freefall lifeboat simply  requires t he crew 
+to secure themselves on  board and activate a lever that diseng ages a release hook .  The lifeboat 
+then slides down a ramp and falls into the water by gravity .  A free fall lifeboat can also be lowered  
+into the water  by a secondary means involving a crane , a method that  is often utilised during  
+training drills as an alternative to freefall launching .  Although this method allows the life boat to 
+meet the testing requireme nts of SOLAS , it does reintroduce  some of the inherent risks associated 
+with the traditional side -launching davit systems, such as being susceptible to a single point failure.  
+4.1.3.  The following analysis discusses what caused the wire lifting sling to fail.  It also discusses a 
+broader safety issue of manufacturers encasing wire ropes in plastic or similar material s, and also 
+the importance of proper documentation for the design and testing of safety -critical arrangements 
+such as lifting sling s. 
+4.2. Why the wire lifting slings fail ed 
+4.2.1.  The Defence Te chnology Agency conducted  metallurgical and fractographic analyses of the 
+damaged components of the lifting sling shown in Figure 5 . 
+ 
+Figure 5  
+Eight failed parts  of the four wire sling s 
+(photo courtesy of Maritime New Zealand)  
+4.2.2.  The full report on the failure by the Defence Technology Agency can be seen in  Appendix 1 .  The 
+report concluded that  all four wire components of  the lifting sling  had been significantly weakened 
+by severe corrosion . Salt water had penetrated  the plastic s heath that encased  the wire rope and 
+wasted the galvanising on the steel wire, which then allowed corrosion of the steel wire  itself .  The 
+
+
+<< Page 8 >>
+ Final report MO -2014 -202 weakened wire ropes then failed by tensile overload  during the lifeboat -recovery operation  (see 
+Figure 6) .  
+ 
+Figure 6  
+Severe corrosion on a failed wire sling  
+(photo courtesy of Defence Technology Agency)  
+4.2.3.  The wire rope, where it had been encased in the polymeric sheathing, was totally devoid of any 
+lubrication or other corrosion -inhibiting subst ances.  Grease had been applied to the eyes of the 
+wire rope where it was not encased in the polymeric sheathing (see Figure 7 ). 
+ 
+Figure 7  
+ Parts of the wire slings  
+(photo courtesy of the Defence Technology Agency)  
+
+   
+Final report MO -2014 -202 
+<< Page 9 >>
+ 4.2.4.  The lifeboat manufacturer supplied  the Commission with a copy of the specification and test  
+certificate for the wire that it used for constructing the wire lifting sling (see Appendix 2).  The 
+certificate stated that the wire rope was an 18 x 19 steel wire rope (18 str ands of 19 wires each) 
+with a fibre rope core and a diameter of 20  millimetres .  However, the  failed wire slings were made 
+from wire rope of  6 x 37 construction ( six strands of 37 wires each) with fibre rope core and a 
+diameter of 18 to 18.5 millimetre s (see Appendix 1 for details).  According to the vessel’s owner, 
+the wire lifting slings had not been replaced since the ship was new, although this could not be 
+verified from records on board the ship.  The specifications mentioned in the product certificate  did 
+not match the wire sling that was fitted and used at the time of the incident.  
+4.2.5.  As can be seen in Figure 3 , the angle at which the lifeboat sat when being lifted require d the 
+components of the lifting sling to be different lengths.  The vector of force s on the lifting sling when 
+supporting the fully  loaded lifeboat meant that the forces were greater on the longer components 
+of the lifting sling.  Calculations and drawings provided by the lifeboat manufacturer show ed that 
+the maximum load on the longer components of the lifting sling was about 22.9  kilonewtons8 (refer 
+to Appendix 3 for  the manufacturer’s  calculations) .  The Defence T echnology Agency report said 
+that a reduction of two millimetres  in wire rope diameter equate d to about a 20% reduction in 
+breaking load.  The 20 -millimetre wire rope for which a test certificate was supplied had an (as 
+tested) breaking load of 232 kilonewtons .  This meant that the smaller -diameter (18 to 18.5  
+millimetres ) wire rope would have had a breaking st rain of 185.6 kilonewtons , assuming the two 
+wire ropes were of the same or similar grade and quality of steel9. 
+4.2.6.  The wire that was used to manufacture the lifting sling therefore was still  about 25% stronger than 
+that which  would have been needed to achieve  the factor  of safety10 of six required by SOLAS.  
+4.2.7.  It is nevertheless a concern that the wire stated by the lifeboat manufacturer as having been used 
+to construct the lifting sling was different from that actually used.  This is discussed further in the 
+following sections.  
+Findings  
+1. All four wire pennants on the lifting sling for the Da Dan Xia ’s freefall  lifeboat 
+parted under tensile overload because they were significantly weakened by 
+severe corrosion.  
+2. The corrosion was mainly caused by salt water penetratin g and accumulating 
+around the steel wire under a plastic sheathing that had been placed around 
+the wire pennants when the lifting sling was manufactured.  The plastic 
+sheathing also prevented the crew applying anticorrosive compounds to the 
+steel wire.  
+3. The steel wire making up the four pennants of the lifting sling had a  smaller 
+diameter and was of a different construction from that which the manufacturer 
+said had been used during construction.  However, it would still have been of 
+sufficient strength (w hen new) to support the weight of the loaded lifeboat with 
+the requisite factor of safety.  
+ 
+  
+                                                        
+8 A kilonewton is a unit of force commonly used for structural calculations.  
+9 It was not possible to determine the grade of the strength or the quality of the steel used to manufac ture the 
+failed samples.  
+10 A factor of safety is a term describing the structural capacity of a system beyond the expected load or actual 
+load; essentially, how much stronger the system is than it usually needs to be for an intended load . 
+
+<< Page 10 >>
+ Final report MO -2014 -202 4.3. Plastic (polymeric) coating of steel wires in the marine industry  
+Safety issue – Encasing wire rope in plastic sheathing prevents the wire being lubricated, maintained and 
+inspected , and can accelerate the onset of corrosion through the retention of salt water within the core of 
+the wire rope . 
+4.3.1.  The wire lifting sling  was manufactured by  the free fall lifeboat manufacturer, Jiangyinshi Beihai LSA 
+Co., Limited , China.   It had enclosed the wire rope in a plastic sheathing.  The freefall  lifeboat and 
+the wire lifting sling  were then supplied by the lifeboat manufacturer to  the Haun ghai Shipbuilding 
+yard,  China , to be fitted on  board the Da Dan Xia .  This lifeboat manufacturer has produced more 
+than 600 freefall lifeboats, all of which have been installed with the same type of wire sling that 
+parted during this accident.  
+4.3.2.  The wire slings  were secured on the exterior of the lifeboat canopy and were exposed to the 
+elements.   Seawater ingress would have taken place over time through the ends of the plastic 
+sheathing, and through any cracks or gaps that develop ed in the plastic sheathing as it aged and 
+wore .  Once salt water penetrated the wire through the plastic sheathing, the sheathing would aid 
+the corrosion process by retaining the salt water around the wire  (see Figure 8). 
+4.3.3.  The plastic sheathing may also h ave aided in entrapping the sea water and accelerating corrosion , 
+ultimately resulting in the weakening and failure of the slings .  
+4.3.4.  The existing IMO regulations  for the periodi c testing of lifeboat s require each launching appliance 
+to be so constructed that all parts requiring regular maintenance by the ship’s crew are readily 
+accessible and ea sily maintained.   
+4.3.5.  The non-transparent plastic sheathing on the  wire sling s concealed the galvanised  steel wire rope , 
+making it neither easily accessible nor maintainable  (see Figure 8).  This meant that the crew had 
+no way of visually determi ning whether the wire rope remained fit for the purpose of lowering  and 
+recovering the free fall lifeboat , other than by removing the plastic sheathing.   Encasing the wire 
+rope in plastic served no purpose other than to protect the gelcoat11 of the glass -reinforced plastic 
+of the lifeboat canopy, although the wire eyes, thimbles and lifting rings would still h ave caused this 
+problem anyway.  Since the incident the manufacturer has ceased the practice of enclosing wire 
+ropes in plastic sheathing. Instructions have also been issued to all its service stations to replace 
+the plastic -sheathed wire ropes on existing lifeboats.  
+4.3.6.  There  are other cases where a wire rope being encased in plastic sheathing has been a factor 
+contributing to the  failure of the wire.  One such case was a freefall lifeboat incident  discussed in a 
+report  released on 29 August 2013 by the maritime administrator for the Republic of the Marshall 
+Islands.  In this accident  a corroded  wire sling was used to secure a lifeboat while the crew 
+performed maintenance operations on the lifeboat -securing  hook. The wire sling subsequently 
+parted , allowin g the boat and unprepa red crew members to fall into the water. The investigation 
+determined that the corrosion on the wire sling encased in a plastic sheathing had not been 
+previously detected. ( Refer to Appendix 4 for the full report .) 
+4.3.7.  The Commission has recommended that the Director of Maritime New Zealand make a submission 
+to the IMO for the relevant subcommittee to start the process of preventing the use of plastic 
+sheathing on steel wire that is likely to be exposed to the weather or is likely to require ongoing 
+inspection  and maintenance.  
+                                                        
+11 Gelcoat is a ma terial used to provide a high -quality finish on the visible surface of a fibre -reinforced composite 
+material . 
+   
+Final report MO -2014 -202 
+<< Page 11 >>
+  
+Figure 8  
+ Wire rope concealed within the plastic sheathing  
+Finding s 
+4. The plastic sheathing that had been placed around the wire on the lifting sling 
+by the manufacturer prevented the crew and surveyors inspectin g and 
+maintaining the lifting sling to the standards required by the International 
+Maritime Organi zation Convention for the Safety of Life at Sea (SOLAS).  
+5. Totally e ncasing steel wire in plastic sheathing when it is to be used in the 
+marine environment has significant implications for maritime safety, especially 
+when the wire must be regularly inspected and maintained in order to remain fit 
+for purpose . 
+4.4. Certification , inspection and maintenance of the wire lifting sling  
+4.4.1.  Each lifting appliance on  board a ship is provided with a product certificate that details the design 
+specifications of the appliance. The IMO’s International Life-Saving Appliance Code requires a 
+minimum factor of safety  of six to be applied to suspension chains, link s, block s and falls12, 
+including wire sling s.  For this purpose various tests and inspections are condu cted before a lifting 
+appliance is initially certified by a competent authority.  This certificate must be kept on board and 
+made  available for inspection.  
+4.4.2.  The manufacturer had calculated the required load capacity for the lifting sling.  It had produced a 
+test certificate and a drawing for it as well.  However, neither the test certificate nor the drawing 
+had been supplied to the vessel .  At the time of the incident there was no certificate  on board for 
+the wire sling s and none of the crew  was aware of this . 
+                                                        
+12 A fall is a rope by which a boat is hoisted or lowered . 
+
+
+<< Page 12 >>
+ Final report MO -2014 -202 4.4.3.  As a general rule the maintenance and inspection of safety equipment  must be carried out in 
+accordance with the manufacturers ’ instructions and safety pr ecautions . A poorly drafted 
+manufacturer’s instruction manual can compound the difficulties in maintaining and operating any 
+equipment.  The Da Dan Xia  had been  provided with a detailed instructio n manual by the 
+manufacture r of the free fall lifeboat.  The manual covered six  main topics , of which t he last two 
+were on  the maintenance procedures a nd schedules for the lifeboat and its associated equipment.  
+4.4.4.  The secti on on maintenance procedures had  nine subsections , including  a topic ti tled “Lubrication s 
+and gr easing po ints. Anticorrosion maintenance ”.  However , there was no mention o f any specific 
+maintenance  plan or  recommended renewal period for th e wire sling s.  Consequently the ship’s 
+planned -maintenance program me did not address this issue either.  The manufacturer has since 
+addressed this safety issue (refer to  the “Safety actions” section of this report) . 
+4.4.5.  The safety management systems on board the Da Dan Xia  had procedures in place to test and 
+maintain the freef all lifeboat and its associated launching appliances.  They included weekly visual 
+inspections and monthly greasing routines for both the lifeboat davit falls and the wire slings.  
+There was evidence that the crew had greased the exposed areas of the wire slings around the 
+thimble and ferrule , but not the areas concealed within the plastic sheathing. Despite their inability 
+to inspect a large portion of the sling s visually , the crew continued using the wire slings assuming 
+they were still fit for purpose.  
+4.4.6.  Notwithstanding the absence of guidance from the lifeboat manufacturer on the inspection, 
+maintenance and replacement of the lifting sling, it was clearly an item that needed maintaining 
+and inspecting in accordance with best international standard s of seam anship.   
+4.4.7.  The lifeboat and its appliances had been inspected and serviced annually by a specialist service 
+provider approved by the manufacturer.  Inspecting the condition of the wires for damage such as 
+corrosion was part of the service.  However , the spec ialist service provider raised no concern s 
+regarding the plastic sheathing, which would have been preventing his properly inspecting the 
+wires making up the lifting sling.  
+Finding s 
+6. The manufacturer of the lifeboat did not provide adequate advice on the 
+arrangement and construction  of, or the maintenance and replacement 
+requirements  for, the lifeboat lifting sling.  
+7. Neither the ship ’s planned -maintenance system nor the surveyors of the 
+lifeboat -launching system appear to have recognised the safety -critical  function 
+of the lifting sling, and the fact that it could not be properly inspected and 
+maintained in accordance with the relevant SOLAS requirements . 
+ 
+  
+   
+Final report MO -2014 -202 
+<< Page 13 >>
+ 4.5. Mitigating the risk of lifeboat drills  
+4.5.1.  Launching and retrieving a lifeboat are high-risk activities,  but with proper training a ship’s 
+personnel can attain the required level of familiarity to identify and overcome  the potential risks.   
+The crew of the Da Dan Xia  were  aware of the lifeboat -launching and -recovery procedures , 
+including the need to secure themselves in their seats once on  board the lifeboat.  
+4.5.2.  In this incident the third officer  released his safety harness before the lifeboat was secured to its 
+cradle.  Once the wire ropes parted , the third officer, now unrestrained, was thrown to the forward 
+end of the lifeboat and suffered a head injury.   
+4.5.3.  The c ommander of a lifeboat is responsible for all operations connected with the lifeboat and the 
+safety of the lifeboat crew on  board.  It is important that he ensure  that all crew members remain 
+seated with their restraints  securely fastened at all times.  
+4.5.4.  Some consideration was given to the risk of retrieving the lifeboat with the minimum crew still on 
+board.  This risk would  have  been offset by the risk of removing the crew from the waterborne 
+lifeboat by rope ladder.  
+4.5.5.  The IMO published guidance to consider when conducting drills using lifeboats lowered by falls 
+(Measures to Prevent Accidents with Lifeboats,  MSC.1/Circ.1206/Rev.1).  The circula r 
+recommended that before performing drills with persons in a lifeboat the boat be first lowered and 
+recovered without persons on board, and that when  the actual drill was performed  the boat be 
+lowered into the water with only the number of persons on boar d necessary to operate the boat.  
+4.5.6.  In this case the master did order the boat to be lowered to the water with no crew on board, which 
+had the effect of testing the functioning of the lifeboat -launching syste m.  Rather than retrieve the 
+boat again to place th e crew on board, they boarded by ladder.  He had in effect tested the proper 
+functioning of the launching and retrieval system.  
+4.5.7.  As it happened, the lifting sling failed with the boat at a lesser height than it normally would have , 
+had it been launching in  the freefall  mode.  The issue  was not so much the decision to leave the 
+crew on board during the retrieval process, but the fact that the third officer removed his restraints  
+before the boat had been secured in its cradle, thereby causing him to be injured.  The master’s 
+decision to retrieve the lifeboat with the minimum boat crew on board was reasonable.  
+Finding  
+8. The third mate was injured when the lifeboat fell to the sea because he had 
+prematurely released his restraints  before the lifeboat was securely locked into 
+its stowed position ; otherwise , the manner in which the lifeboat drill was 
+conducted was reasonable . 
+ 
+ 
+  
+
+<< Page 14 >>
+ Final report MO -2014 -202 5. Findings  
+5.1. All four wire pennants on the lifting sling for the Da Dan Xia ’s freefall  lifeboat parted under tensile 
+overload because they were significantly weakened by severe corrosion.  
+5.2. The corrosion was mainly caused by salt water penetrating and accumulating around the steel wire 
+under a plastic sheathing that had been placed around the wire pennants when the lifting sling was 
+manufactured.   The plastic sheathing also prevented the crew applying anticorrosive compounds to 
+the steel wire.  
+5.3. The steel  wire making up the four pennants of the lifting sling had a  smaller diameter and was of a 
+different construction from that which the manufacturer said had been used during construction.  
+However, it would still have been of sufficient strength (when new) to support the weight of the 
+loaded lifeboat with the requisite factor of safety.  
+5.4. The plastic sheathing that had been placed around the wire on the lifting sling by the manufacturer 
+prevented the crew and surveyors inspecting and maintaining the lifting sl ing to the standards 
+required by the International Maritime Organi zation Convention for the Safety of Life at Sea 
+(SOLAS).  
+5.5. Totally e ncasing steel wire in plastic sheathing when it is to be used in the marine environment has 
+significant implications for maritime safety, especially when the wire must be regularly inspected 
+and maintained in order to remain fit for purpose.  
+5.6. The manufacturer of the lifeboat did not provide adequate advice on the arrangement and 
+construction  of, or the maintenance and replace ment requirements  for, the lifeboat lifting sling.  
+5.7. Neither the ship ’s planned -maintenance system nor the surveyors of the lifeboat -launching system 
+appear to have recognised the safety -critical function of the lifting sling, and the fact that it could 
+not be properly inspected and maintained in accordance with the relevant SOLAS requirements.  
+5.8. The third mate was injured when the lifeboat fell to the sea because he had prematurely released 
+his restraints  before the lifeboat was securely locked into its stowed  position ; otherwise , the 
+manner in which the lifeboat drill was conducted was reasonable.  
+ 
+  
+   
+Final report MO -2014 -202 
+<< Page 15 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues id entified by 
+the Commission during an inquiry that would otherwise result in the Commission issuing a 
+recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+Safety actions taken by the lifeboat manufacturer  
+6.2. The lifeboat manufacturer has updated the maintenance manual with instructions for renewing the 
+lifting sling s every three  years or when their  condition is observed to be unsatisfactory.   All new 
+lifeboats produced by the manufacturer will now be supplied with the latest version of the 
+maintenance manual. A  copy of the new manual was sent  to the owner of the Da Da n Xia . 
+6.3. Since the incident , the manufacturer has  ceased the practice of enclosing wire ropes in a plastic 
+sheathing. Instructions have also been issued to all company service stations to replace plastic -
+sheathed wire ropes on existing lifeboats.  
+Safety actions taken by the owner of the Da Dan Xia  
+6.4. The owner of the Da Dan Xia  operated 22 other ships fitted with freefall lifeboats similar to that  on 
+board the Da Dan Xia .  As a result of this incident the owner issued a circular to all ships in its fl eet 
+with the following instructions.  
+ check the condition of  the lifeboat’s  lifting wire slings   
+ any plastic sheathing encasing the lifting wire slings must be cut in half (removed)  
+ renew the lifting wire slings every 2.5 years. A certificate is required t o be obtained when 
+renewing the lifting wire slings.  
+Safety a ctions  addressing other safety issues  
+6.5. None identified.  
+ 
+ 
+  
+
+<< Page 16 >>
+ Final report MO -2014 -202 7. Recommendations  
+General  
+7.1. The Commissi on may issue, or give notice of , recommendations to any person or organisation that 
+it considers the most appropriate to address the identified safety issues, depending on whether 
+these safety issues are applicable to a single operator only or to the wider transport sector.  In this 
+case recommendations have been issued to  the Director of Maritime New Zealand.  
+7.2. In the interests of transport safety it is important that these recommendations are implemented 
+without delay  to help prevent  similar accidents or incidents occurring in the future.  
+Recommendation 1 
+7.3. The wire pennants parted under tensile overload because they had all been significantly weakened 
+by severe corrosion.  Corrosion had gone undetected inside a plastic sheathing that the 
+manufacturer of the lifting sling had placed around th e wire pennants.  
+The presence of the plastic sheathing encasing the wire rope meant that neither the crew nor the 
+various surveyors tasked with inspecting the launching system could inspect and maintain the wire 
+rope as required by SOLAS.  
+Encasing steel wi re in plastic sheathing when it is to be used in the marine environment has 
+significant implications for maritime safety, especially when the wire must be regularly inspected 
+and maintained in order to remain fit for purpose . 
+On 26 February 2015 the Commis sion recommend ed that the Director of Maritime New Zealand , 
+through the port and flag state control program me, verify that wires that re quire regular inspection 
+and maintenance by a  ship’s crew and surveyors are readily accessible and easily maintained  as 
+required by Chapter VI of the International Life-Saving Appliance Code . (001 /15)  
+7.3.1.  On 11 February 2015, Director and Chief Executive of Maritime New Zealand replied:  
+This recommendation will be incorporated into our PSC mentoring and oversight 
+program.  We a nticipate this will be integrated into our standard PSC inspections by 
+the end of 2015.  
+Recommendation 2 
+7.4. The wire pennants parted under tensile overload because they had all been significantly weakened 
+by severe corrosion.  Corrosion had gone undetected inside a plastic sheathing that the 
+manufacturer of the lifting sling had placed around the wire pennants.  
+The presence of the plastic sheathing encasing the wire rope meant that neither the crew nor the 
+various surveyors tasked with inspecting the launching system could inspect and maintain the wire 
+rope as required by SOLAS.  
+Encasing steel wire in plastic sheathing when it is to be used in the marine environment has 
+significant implications for maritime safety, especially when the wire must be regu larly inspected 
+and maintained in order to remain fit for purpose . 
+On 26 February 2015 the Commission recommend ed that the Director of Maritime New Zealand 
+submit this report to the International Maritime Organization and raise  the implications that plasti c-
+sheathed wire ropes have for maritime safety through the appropriate International Maritime 
+Organization safety committee for its consideration.  (002 /15)  
+7.4.1.  On 11 Febru ary 2015, Director and Chief Executive of Maritime New Zealand replied:  
+I can confirm tha t this recommendation is already on the Domestic and International 
+Policy team international register of work and initial consideration has commenced.  
+   
+Final report MO -2014 -202 
+<< Page 17 >>
+ As soon as Maritime NZ receives from TAIC an electronic PDF copy of the final report 
+we can upload this to the IMO’s GISIS website, thus completing the initial part of this 
+recommendation.  
+More detailed consideration is required of the second part of the recommendation 
+as this has an impact on resources and budgets, which must be considered against 
+other wor k items.  In addition the timeline for the range of options to close out the 
+second part of the recommendation varies greatly and thus it is not practicable to 
+confirm the date when the recommendation will be fully implemented.  
+  
+
+<< Page 18 >>
+ Final report MO -2014 -202 8. Key lessons  
+8.1. A key safety lesson arising from this inquiry is that seafarers and surveyors alike must not make 
+assumption s about the condition of any wire or other equipment that they cannot see, especially 
+when the wire or other equipment has a safety -critical purpose and is requi red by rules, regulations 
+or procedures to be thoroughly examined.  
+8.2. It is important for crew members to remain secured in their seats during lifeboat -launching and  
+recovery operation s.  
+  
+   
+Final report MO -2014 -202 
+<< Page 19 >>
+ Appendix 1 : Defence Technology Agency report  
+ 
+  
+
+
+<< Page 20 >>
+ Final report MO -2014 -202  
+  
+
+   
+Final report MO -2014 -202 
+<< Page 21 >>
+  
+  
+
+
+<< Page 22 >>
+ Final report MO -2014 -202  
+  
+
+   
+Final report MO -2014 -202 
+<< Page 23 >>
+  
+  
+
+
+<< Page 24 >>
+ Final report MO -2014 -202 Appendix 2: Lifting wire rope product certificate  
+ 
+ 
+  
+    
+ 
+   
+Final report MO -2014 -202 
+<< Page 25 >>
+ Appendix 3: Stress analysis of lifting wire sling  
+ 
+  
+
+
+<< Page 26 >>
+ Final report MO -2014 -202 Appendix 4: Safety Advisory No.  52-13, Republic of the Marshall Islands  
+ 
+  
+
+   
+Final report MO -2014 -202 
+<< Page 27 >>
+ 
+
+  
+  
+   
+  
+  
+  
+  
+   
+ 
+  
+ 
+ 
+Recent Marine Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+ 
+11-204 Container ship MV Rena grounding, on Astrolabe Reef, 5 October 2011  
+13-201 Accommodation fire on board the log -carrier, Taokas Wisdom, Nelson, 11 July 2013  
+13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke’s Bay, 8 August 2013  
+12-202 Fishing vessel Torea , collision with uncharted rock, Foveaux Strait, 24 August 2012  
+09-210 Bulk carrier, Taharoa Express , cargo shift, Port Taharoa, 16 December 2009  
+10-204 Inquiry 10 -204:  Bulk carrier Hanjin Bombay , grounding, Mount Maunganui, 21 June 
+2010  
+ 
+10-202 M.V. Anatoki , grounding, off Rangihaeata Head, Golden Bay, South Island, 6 May 2010  
+11-204 Interim Report Marine inquiry 11 -204 Containership MV Rena  grounding  
+on Astrolabe Reef 5 October 2011  
+09-202 Marine Inquiry 09 -202: Passenger vessel Oceanic Discoverer  Fatal injury,  
+Port of Napier 19 February 2009  
+11-201 Passenger vessel Volendam , lifeboat fatality,Port of Lyttelton, New Zealand,  
+8 January 2011  
+10-203 Marsol Pride , uncontrolled release of fire -extinguishing gas into engine room,  
+Tui oil and gas field, 27 May 2010  
+09-204 
+and  09 -207 Coastguard rescue vessel Dive! Tutukaka Rescue  collision with rocks,  
+Taiharuru River entrance Northland, 4 March 2009; Coastguard rescue vessel Trusts 
+Rescue,  heavy weather encounter,Manukau Bar, 31 May 2009  
+ 
+10-201 Bulk carrier TPC Wellington , double fatality resulting from enclosed space entry,  
+Port Marsden, Northland, 3 May 2010  
+09-201 Collision: private jet -boat/private watercraft, Kawarau River, Queenstown, 5 January 
+2009  
+08-209 Loss of the rigid inflatable boat  Mugwop , off the entrance to Lyttelton Harbour , 28 
+October 2008  
+11-201 Interim Factual report - Passenger vessel Volendam , lifeboat fatality, port of Lyttelton, 
+New Zealand, 8 January 2011  
+08-205 Fishing vessel , San Cuvier , dragged anchor and grounded , Tarakeha Point, Bay of 
+Plenty , 27 July 2008  
+08-206 Passenger ferry Monte Stello , collisions with wharfs, Picton and Wellington, 8 and 9 
+August 2008  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 16.00         ISSN 1173 -5597 (Print)  
+                 ISSN 1179 -9072 (Online)  

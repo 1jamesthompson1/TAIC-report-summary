@@ -1,4 +1,5 @@
 output/
+!viewer/output
 __pycache__
 python/.env
 .env
