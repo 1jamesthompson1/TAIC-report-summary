@@ -50,6 +50,8 @@ class Searcher:
             if os.path.exists(theme_summary_path):
                 with open(theme_summary_path, "r",  encoding='utf-8', errors='replace') as f:
                     theme_summary = f.read()
+
+                theme_summary = theme_summary.replace("\n", "<br>")
             else:
                 theme_summary = "Not found"
 
@@ -57,6 +59,7 @@ class Searcher:
             if os.path.exists(report_text_path):
                 with open(report_text_path, "r",  encoding='utf-8', errors='replace') as f:
                     report_text = f.read()
+                    
             else:
                 report_text = "Not found"
 
