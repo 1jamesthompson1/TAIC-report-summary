@@ -7,14 +7,16 @@ from .. import Config
 # print(theme_reader.get_theme_description_str())
 
 class ThemeFile:
-    def __init__(self):
+    def __init__(self, output_path: str = None):
         engine_config = Config.ConfigReader().get_config()['engine']['output']
-
-        self._file_path = os.path.join(engine_config.get("folder_name"), engine_config.get("themes_file_name"))
+        if output_path is not None:
+            self._file_path = os.path.join(engine_config.get("folder_name"), engine_config.get("themes_file_name"))
+        else:
+            self._file_path = os.path.join(output_path, engine_config.get("themes_file_name"))
 
 class ThemeReader(ThemeFile):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, output_path: str = None):
+        super().__init__(output_path)
         self._themes = self._get_themes()
 
     def get_num_themes(self) -> int:

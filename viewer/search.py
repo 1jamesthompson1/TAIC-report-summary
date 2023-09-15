@@ -30,7 +30,7 @@ class Searcher:
     def __init__(self):
         self.output_config = Config.configReader.get_config()['engine']['output']
         self.input_dir = os.path.join("viewer", self.output_config.get("folder_name"))
-        self.themes = Themes.ThemeReader().get_theme_titles()
+        self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
     def search(self, query: str) -> pd.DataFrame:
