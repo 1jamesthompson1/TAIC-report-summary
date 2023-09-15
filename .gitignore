@@ -1,6 +1,7 @@
 output/
 !viewer/output
 viewer/output/*/*.pdf
+
 __pycache__
 python/.env
 .env
