@@ -9,7 +9,7 @@ from .. import Config
 class ThemeFile:
     def __init__(self, output_path: str = None):
         engine_config = Config.ConfigReader().get_config()['engine']['output']
-        if output_path is not None:
+        if output_path is None:
             self._file_path = os.path.join(engine_config.get("folder_name"), engine_config.get("themes_file_name"))
         else:
             self._file_path = os.path.join(output_path, engine_config.get("themes_file_name"))
