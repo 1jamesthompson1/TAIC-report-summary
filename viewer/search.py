@@ -107,7 +107,7 @@ class Searcher:
 
         pattern = '(' + '|'.join(['(' + syn + ')' for syn in synonyms]) + ')'
 
-        regex = re.compile(pattern)
+        regex = re.compile(r'(\b' + pattern + ')|(' + pattern + r'\b)')
 
         report_result = regex.findall(report_text.lower())
         theme_result = regex.findall(theme_text.lower())
