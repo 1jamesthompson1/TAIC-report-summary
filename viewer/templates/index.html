@@ -22,6 +22,9 @@
                     $('#loading').hide();
                 });
             });
+            $('#advancedSearchBtn').click(function() {
+                $('#advancedSearch').toggle();
+            });
         });
         
         function updateResults(htmlTable) {
@@ -44,6 +47,10 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        #advancedSearch {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -51,6 +58,13 @@
     <form method="post" action="/search">
         <label for="searchQuery">Search Query:</label>
         <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter search query">
+        <button type="button" id="advancedSearchBtn">Search settings</button>
+        <div id="advancedSearch">
+            <label><input type="checkbox" id="simpleSearch" name="simpleSearch">Simple Search</label>
+            <label><input type="checkbox" id="searchReport"  name="searchReport" checked>Search Report</label>
+            <label><input type="checkbox" id="searchSummary"  name="searchSummary" checked>Search Summary</label>
+        </div>
+        <br>
         <input type="submit" value="Show Reports">
     </form>
 
