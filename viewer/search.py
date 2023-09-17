@@ -117,9 +117,6 @@ class Searcher:
 
             regex = re.compile(r'(\b' + pattern + ')|(' + pattern + r'\b)')
 
-
-        print(regex.pattern)
-
         report_result = regex.findall(report_text.lower())
         theme_result = regex.findall(theme_text.lower())
 
