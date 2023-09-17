@@ -11,9 +11,14 @@ def index():
 @app.route('/search', methods=['POST'])
 def search_reports():
     search_query = request.form.get('searchQuery')
+    settings = {
+        'simple_search': request.form.get('simpleSearch'),
+        'search_report_text': request.form.get('searchReport'),
+        'search_theme_text': request.form.get('searchSummary'),
+    }
     
     searcher = search.Searcher()
-    results = searcher.search(search_query)
+    results = searcher.search(search_query, settings)
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})

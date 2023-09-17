@@ -10,11 +10,15 @@ import engine.Extract_Analyze.Themes as Themes
 from engine.Extract_Analyze.OutputFolderReader import OutputFolderReader
 
 class Search:
-    def __init__(self, query: str):
+    def __init__(self, query: str, settings: dict):
         self.query = query
+        self.settings = settings
 
     def getQuery(self):
         return self.query
+    
+    def getSettings(self):
+        return self.settings
 
 class SearchResult:
     def __init__(self, report_matches: int, theme_matches: int, theme_text_matches: str):
@@ -35,7 +39,7 @@ class Searcher:
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
-    def search(self, query: str) -> pd.DataFrame:
+    def search(self, query: str, settings) -> pd.DataFrame:
         reports = []
 
         if query == "":
@@ -66,7 +70,7 @@ class Searcher:
             if theme_summary == "Not found" and report_text == "Not found":
                 continue
             
-            search_result = self.search_report(report_text, theme_summary, Search(query))
+            search_result = self.search_report(report_text, theme_summary, Search(query, settings))
             if not search_result.include():
                 continue
 
@@ -93,21 +97,28 @@ class Searcher:
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
     
     def search_report(self, report_text: str, theme_text: str, search: Search) -> SearchResult:
+        print(search.getSettings())
 
-        synonyms = [search.getQuery().lower()]
+        if search.getSettings()['simple_search']:
+            regex = re.compile(r'\b(' + search.getQuery().lower() + r')|(' + search.getQuery().lower() + r')\b')
+        else:
+            synonyms = [search.getQuery().lower()]
 
-        for syn in wordnet.synsets(search.getQuery().lower()):
-            for i in syn.lemmas():
-                synonyms.append(i.name())
+            for syn in wordnet.synsets(search.getQuery().lower()):
+                for i in syn.lemmas():
+                    synonyms.append(i.name())
 
-        
-        synonyms = set(
-            map(lambda x: x.lower().replace("_", " "), synonyms)
-        )
+            
+            synonyms = set(
+                map(lambda x: x.lower().replace("_", " "), synonyms)
+            )
 
-        pattern = '(' + '|'.join(['(' + syn + ')' for syn in synonyms]) + ')'
+            pattern = '(' + '|'.join(['(' + syn + ')' for syn in synonyms]) + ')'
 
-        regex = re.compile(r'(\b' + pattern + ')|(' + pattern + r'\b)')
+            regex = re.compile(r'(\b' + pattern + ')|(' + pattern + r'\b)')
+
+
+        print(regex.pattern)
 
         report_result = regex.findall(report_text.lower())
         theme_result = regex.findall(theme_text.lower())
@@ -116,8 +127,8 @@ class Searcher:
         theme_text_highlighted = regex.sub(r'<span style="background-color: #FFFF00">\1</span>', theme_text.lower())
 
         return SearchResult(
-            report_matches = len(report_result),
-            theme_matches = len(theme_result),
+            report_matches = len(report_result) if search.getSettings()['search_report_text'] else 0,
+            theme_matches = len(theme_result) if search.getSettings()['search_theme_text'] else 0,
             theme_text_matches = theme_text_highlighted
         )
     
