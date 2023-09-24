@@ -12,9 +12,10 @@ def index():
 def search_reports():
     search_query = request.form.get('searchQuery')
     settings = {
-        'simple_search': request.form.get('simpleSearch'),
-        'search_report_text': request.form.get('searchReport'),
-        'search_theme_text': request.form.get('searchSummary'),
+        'simple_search': request.form.get('simpleSearch') == "on",
+        'search_report_text': request.form.get('searchReport') == "on",
+        'search_theme_text': request.form.get('searchSummary') == "on",
+        'include_incomplete_reports': request.form.get('includeIncompleteReports') == "on",
     }
     
     searcher = search.Searcher()
