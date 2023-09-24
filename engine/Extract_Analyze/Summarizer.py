@@ -27,7 +27,7 @@ class ReportSummarizer:
             return
         
         with open(self.overall_summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write("ReportID," +  "PagesRead," + self.theme_reader.get_theme_str() +  "," + self.theme_reader.get_theme_str().replace('",', '_std",') + "\n")
+            summary_file.write("ReportID," +  "PagesRead," + self.theme_reader.get_theme_str() +  "," + self.theme_reader.get_theme_str().replace('",', '_std",') + ",Complete" + ",ErrorMessage" + "\n")
         
         # Prepare system prompt
         number_of_themes = self.theme_reader.get_num_themes()
@@ -46,18 +46,20 @@ class ReportSummarizer:
         # Get the pages that should be read
         text_to_be_summarized, pages_read = ReportExtractor(report_text, report_id).extract_important_text()
         if text_to_be_summarized == None:
-            print(f'Could not extract text to be summarized from {report_id}')
+            print(f'  Could not extract text to be summarized from {report_id}')
+            summary_str = report_id + "," + "Error" + "," + "N/A" + ",false" + ",Could not extract text to summarize report with" + "\n"
             return
         
         summary = self.summarize_text(report_id, text_to_be_summarized)
         if (summary == None):
             print(f'  Could not summarize {report_id}')
+            summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + "Error" + ",false" + ",Could not summarize report" + "\n"
             return
         
         report_summary_path = os.path.join(self.output_folder,
                                            self.report_dir.replace(r'{{report_id}}', report_id),
                                            self.report_summary_file_name.replace(r'{{report_id}}', report_id))
-        summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + summary + "\n"
+        summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + summary + ",true" + ",N/A" + "\n"
 
         with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
             summary_file.write(summary_str)
