@@ -4,6 +4,11 @@
     <title>TAIC Report Viewer</title>
     <!-- Include jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include DataTables CSS and JavaScript -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
     
     <!-- Include your custom JavaScript code -->
     <script>
@@ -17,18 +22,27 @@
                 $.post('/search', $('form').serialize(), function(data) {
                     // Update the results placeholder with the received HTML table
                     updateResults(data.html_table);
-                    
                     // Hide the loading sign after results are loaded
                     $('#loading').hide();
+                    
                 });
             });
             $('#advancedSearchBtn').click(function() {
                 $('#advancedSearch').toggle();
+                
             });
         });
         
         function updateResults(htmlTable) {
             document.getElementById('searchResults').innerHTML = htmlTable;
+            $('#dataTable').DataTable( {
+                paging: false,
+                searching: false,
+                "order": [ 1, 'dsc' ],
+                "columnDefs": [ 
+                    { "targets": 2, "orderable": false}
+                ]
+            } );
         }
     </script>
     
@@ -51,6 +65,7 @@
         #advancedSearch {
             display: none;
         }
+
     </style>
 </head>
 <body>
