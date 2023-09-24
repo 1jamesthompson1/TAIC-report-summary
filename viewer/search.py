@@ -83,8 +83,13 @@ class Searcher:
             reportID_summary_row = self.summary.loc[self.summary["ReportID"] == dir]
             if len(reportID_summary_row) == 0:
                 continue
+            if settings['include_incomplete_reports'] == True:
+                report_row['ErrorMessage'] = reportID_summary_row['ErrorMessage'].values[0]
+            elif reportID_summary_row['Complete'].values[0] == False:
+                continue
+
             for theme in self.themes:
-                report_row[theme] = round(reportID_summary_row[theme].values[0], 6)
+                report_row[theme] = round(reportID_summary_row[theme].values[0], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
 
             report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
             report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
@@ -97,8 +102,6 @@ class Searcher:
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
     
     def search_report(self, report_text: str, theme_text: str, search: Search) -> SearchResult:
-        print(search.getSettings())
-
         if search.getSettings()['simple_search']:
             regex = re.compile(r'\b(' + search.getQuery().lower() + r')|(' + search.getQuery().lower() + r')\b')
         else:
