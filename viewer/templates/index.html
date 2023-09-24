@@ -35,7 +35,13 @@
         
         function updateResults(htmlTable) {
             document.getElementById('searchResults').innerHTML = htmlTable;
-            $('#dataTable').DataTable();
+            $('#dataTable').DataTable( {
+                paging: false,
+                searching: false,
+                "columnDefs": [ 
+                    { "targets": 2, "orderable": false}
+                ]
+            } );
         }
     </script>
     
@@ -58,6 +64,7 @@
         #advancedSearch {
             display: none;
         }
+
     </style>
 </head>
 <body>
