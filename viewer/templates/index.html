@@ -35,11 +35,28 @@
             $(document).on('click', '.no-matches-link', function() {
                 var reportId = $(this).data('report-id');
                 var searchQuery = $('#searchQuery').val();
-                
+
                 // Call the function to open the report pop-up
                 openReportPopup(reportId, searchQuery);
             });
 
+            // Add a click event handler for the close button
+            $('#closeModal').click(function() {
+                closeModal();
+            });
+
+            // Add event listeners to close the modal when clicking outside or pressing Esc
+            $(document).on('click', function(event) {
+                if (event.target === $('#myModal')[0]) {
+                closeModal();
+                }
+            });
+
+            $(document).on('keydown', function(event) {
+                if (event.key === 'Escape') {
+                closeModal();
+                }
+            });
             // Add a click event handler for the close button
             $('#closeModal').click(function() {
                 closeModal();
