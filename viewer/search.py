@@ -108,7 +108,7 @@ class Searcher:
         theme_result = regex.findall(theme_text.lower())
 
         # highlight the theme_matches
-        theme_text_highlighted = regex.sub(r'<span style="background-color: #FFFF00">\1</span>', theme_text.lower())
+        theme_text_highlighted = regex.sub(r'<span class="match-highlight">\1</span>', theme_text.lower())
 
         return SearchResult(
             report_matches = len(report_result) if search.getSettings()['search_report_text'] else 0,
@@ -148,14 +148,15 @@ class Searcher:
             # Highlight the matching text
             report_text = self.highlight_matches(report_text, self.get_regex(Search(search_query, settings)))
 
+            report_text = report_text.replace("\n", "<br>")
+
             return report_text
 
         return "Not found"
 
     # Add this function to highlight matches
     def highlight_matches(self, text, regex):
-        regex = re.compile(re.escape(query), re.IGNORECASE)
-        highlighted_text = regex.sub(r'<span class="match-highlight">\0</span>', text)
+        highlighted_text = regex.sub(r'<span class="match-highlight">\1</span>', text)
         return highlighted_text
     
 
