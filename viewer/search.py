@@ -102,6 +102,21 @@ class Searcher:
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
     
     def search_report(self, report_text: str, theme_text: str, search: Search) -> SearchResult:
+        regex = self.get_regex(search)
+        
+        report_result = regex.findall(report_text.lower())
+        theme_result = regex.findall(theme_text.lower())
+
+        # highlight the theme_matches
+        theme_text_highlighted = regex.sub(r'<span class="match-highlight">\1</span>', theme_text.lower())
+
+        return SearchResult(
+            report_matches = len(report_result) if search.getSettings()['search_report_text'] else 0,
+            theme_matches = len(theme_result) if search.getSettings()['search_theme_text'] else 0,
+            theme_text_matches = theme_text_highlighted
+        )
+    
+    def get_regex(self, search: Search):
         if search.getSettings()['simple_search']:
             regex = re.compile(r'\b(' + search.getQuery().lower() + r')|(' + search.getQuery().lower() + r')\b')
         else:
@@ -119,18 +134,30 @@ class Searcher:
             pattern = '(' + '|'.join(['(' + syn + ')' for syn in synonyms]) + ')'
 
             regex = re.compile(r'(\b' + pattern + ')|(' + pattern + r'\b)')
+        
+        return regex
 
-        report_result = regex.findall(report_text.lower())
-        theme_result = regex.findall(theme_text.lower())
+    def get_highlighted_report_text(self, report_id, search_query, settings):
+        report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))
+        report_text_path = os.path.join(report_dir, self.output_config.get("reports").get("text_file_name").replace(r'{{report_id}}', report_id))
+        
+        if os.path.exists(report_text_path):
+            with open(report_text_path, "r", encoding='utf-8', errors='replace') as f:
+                report_text = f.read()
 
-        # highlight the theme_matches
-        theme_text_highlighted = regex.sub(r'<span style="background-color: #FFFF00">\1</span>', theme_text.lower())
+            # Highlight the matching text
+            report_text = self.highlight_matches(report_text, self.get_regex(Search(search_query, settings)))
 
-        return SearchResult(
-            report_matches = len(report_result) if search.getSettings()['search_report_text'] else 0,
-            theme_matches = len(theme_result) if search.getSettings()['search_theme_text'] else 0,
-            theme_text_matches = theme_text_highlighted
-        )
+            report_text = report_text.replace("\n", "<br>")
+
+            return report_text
+
+        return "Not found"
+
+    # Add this function to highlight matches
+    def highlight_matches(self, text, regex):
+        highlighted_text = regex.sub(r'<span class="match-highlight">\1</span>', text)
+        return highlighted_text
     
 
 
