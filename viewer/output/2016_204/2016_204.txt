@@ -1,0 +1,1960 @@
+﻿ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Final report MO -2016 -204: Bulk carrier, Molly Manx , grounding,  
+Otago Harbour, 19 August 2016  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropri ate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost  of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Tr ansport Accident Investigation Commission.  
+ 
+ 
+   
+ 
+ 
+ 
+ 
+Final  Report  
+Marine inquiry MO-2016-204 
+Bulk carrier , Molly Manx , grounding ,  
+Otago Harbour, 19 August 2016  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : October 2017  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its pu rpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector and the public, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     Jane Meares  
+Deputy Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Stephen Davies  Howard  
+Commissioner      Richard Marchant  
+Commissioner      Paula Rose , QSO  
+ 
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Captain Iain Hill  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+ 
+ 
+ Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is m ade 
+to the Transport Accident Investigation Commission.  
+Citations and referencing  
+Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to ind ustry participants only and not 
+discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission’s inquiry that are publicly available are cited.  
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe th e degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the 
+Intergovernmental Panel on Climate 
+Change ) Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+Molly Manx  in Napier  Port 
+Photograph courtesy of Tony Des Landes  
+Contents  
+ 
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ .....................  iii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Condu ct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 4 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 4 
+3.2. Environmental conditions  ................................ ................................ ................................ ............  6 
+3.3. Vessel details  ................................ ................................ ................................ ................................  7 
+3.4. Elect ronic Chart Display and Information system (ECDIS)  ................................ .........................  7 
+3.5. Passage Planning  ................................ ................................ ................................ .........................  9 
+3.6. Bridge Resource Management  ................................ ................................ ................................ . 10 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  11 
+4.1. General  ................................ ................................ ................................ ................................ ....... 11 
+4.2. What happened  ................................ ................................ ................................ .........................  11 
+4.3. Passage planning  ................................ ................................ ................................ ......................  14 
+4.4. Molly Manx  Electronic Chart Display and Information System (ECDIS)  ................................ . 15 
+4.5. Bridge resource management  ................................ ................................ ................................ .. 17 
+Implementation of BRM on board  ................................ ................................ ...........................  17 
+5. Findings  ................................ ................................ ................................ ................................ ..................  19 
+6. Safety issues  ................................ ................................ ................................ ................................ ..........  20 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  21 
+General  ................................ ................................ ................................ ................................ ...................  21 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  21 
+Safety actions addressing other safety issues  ................................ ................................ .....................  21 
+8. Recommendations  ................................ ................................ ................................ ................................ . 22 
+General  ................................ ................................ ................................ ................................ ...................  22 
+Recommendations to the Director of Maritime New Zealand  ................................ .............................  22 
+9. Key lessons  ................................ ................................ ................................ ................................ .............  24 
+Appendix 1:  Port Otago Pilot Information Sheet and the Vessel’s “Pilot Card”  ................................ .........  25 
+Appendix 2:  Standards of training, certification and watchkeeping Manila 2010, code Chapter II, table 
+A-II/1 ................................ ................................ ................................ ................................ ..........  28 
+Appendix 3:  SOLAS Chapter V Regulation 34 Safe Navigation and  Resolution A 893(21) Annex  ..........  30 
+Appendix 4:   Relevant parts of Molly Manx ’s Passage Plan – Otago Harbour  ................................ ..........  33 
+Appendix 5:  Excerpts from Anglo Eastern’s shipboard pr ocedures manual  ................................ ..............  37 
+Appendix 6: Extracts from New Zealand Port & Harbour Marine Safety Code  ................................ ...........  40 
+ 
+ 
+
+ 
+Final Report MO -2016 -204 | Page i Figures  
+ 
+Figure 1  General area of the incident  ................................ ................................ ................................ ...... 3 
+Figure 2  Diagram showing track, with times, of the Molly Manx as extracted from the voyage data 
+recorder  ................................ ................................ ................................ ................................ ....... 5 
+Figure 3   Tidal window for the berthing of the Molly Manx at Ravensbourne  assuming channel depth 
+of 7.5 m and a static under keel clearance of 0.7 m  ................................ ...............................  7 
+Figure 4  ECDIS safety settings as supplied in poster format on board Molly Manx  ..............................  9 
+Figure 5  Passage plan track of the Molly Manx  and actual track  ................................ ........................  13 
+ 
+ 
+Tables  
+Table 1   High and low water for Dunedin  ................................ ................................ ................................  6 
+Table 2   ECDIS safety settings  ................................ ................................ ................................ ...............  16 
+ 
+ 
+  
+Final Report MO -2016 -204 | Page ii Abbreviations  
+BRM  bridge resource management  
+ECDIS  electronic chart display and information system  
+IMO International Maritime Organization  
+m metres  
+OOW  officer of the watch  
+PPU portable pilotage unit  
+SOLAS  International Convention for the  Safety of Life at Sea   
+ 
+  
+ 
+Final Report MO -2016 -204 | Page iii Glossary  
+amidships  an order to a helmsman to move the wheel so that the rudder is in the 
+vessel’s fore and aft line, and has no turning effect  
+draught  the depth of a vessel’s keel below the waterline  
+ebb tide the period between high tide and low tide when the water flows away 
+from the shore  
+flood tide the period between low tide and high tide when the water flows 
+towards the shore  
+half ahead /astern  a manoeuvring  speed indication on an engine telegraph that results in 
+a set amount of engine revolutions , which in turn will give rise to a 
+certain speed for the vessel  
+knot(s)  nautical  mile(s) per hour  
+leading line beacons  fixed markers that are laterally displaced to allow a mariner to 
+navigate  a fixed course  along the preferred route. When lit, they 
+are also usable at night. Usually  the rear mark is higher than  the 
+front mark  (see Figure 1) . The mariner will know the geometry of 
+the marks/lights from the  navigational chart  and can understand 
+that when ‘open’ (not one above the other) the vessel  needs to be 
+navigated to ‘close’ the marks (so one is above the other) and be 
+in the preferred line of the channel  
+maritime document   
+port the left -hand side of vessel when facing forward  
+portable pilotage unit  a compact , portable electronic display system that gives easy access 
+to relevant navigational information, including charted data , and may 
+include access to local real -time data.  
+starboard  the right -hand side of vessel when facing forward  
+squat  when a vessel moves through shallow water, some of the  displaced  
+water rushes under the vessel to rise again at the stern. This 
+decreases the upward pressure on the hull, making the vessel sink 
+deeper in the water than normal and slowing the vessel. Squat 
+increases with the speed of the vessel  
+tidal window  a period of time in which a vessel is able to conduct a manoeuvre  
+safely , such as entering a channel or turning in a channel. During a 
+channel transit, tidal windows indicate the opening and closing times 
+for carrying out manoeuvres safely at different locations  in a safe 
+depth of water  
+under-keel clearance  the distance  between the deepest point on a vessel and the seabed in 
+still water  
+  
+Final Report MO -2016 -204 | Page iv Data summary  
+Vehicle particulars  
+Nam e: Molly Manx  
+Type : geared bulk carrier  
+Class:  NS*MNS*(Bulk Carrier type A, BC -XII, Grab 20)(ESP)(IWS)  
+Limits:  unlimited (SOLAS)  
+Classification:  Nippon Kaiji Kyokai  
+Length:  189.99 metres  (m) 
+Breadth:  32.26 m 
+Gross tonnage:  32,296  
+Built:  Tsuneishi Shipbuilding Company, Cebu , Philippines, 2010  
+Propulsion:  one Mitsui M.A.N. – B&W DE 6550MC -C (Mark 7) direct 
+reversing diesel engine  producing 8,400 kilowatts, driving a 
+single fixed -pitch propeller  
+Service speed:  14.0 knots  
+Owner/operator:  owner : Molly Marine Limited  
+manager : Anglo -Eastern Ship Management Limited  
+Port of registry:  Douglas, Isle of Man  
+Crew: 20 
+Date and time  
+ 19 August 2016 at about 07351 
+Location  
+ Otago Harbour  
+Persons involved  
+ vessel’s crew and pilot 
+Injuries  
+ nil 
+Damage  
+ light impact damage in the region of the starboard bow where 
+the protective coating system was scraped back to bare steel  
+                                                        
+1 Times in this report are in Ne w Zealand Standard Time (co -ordinated universal time + 12 hours) and are 
+expressed in the 24 -hour format.  
+ 
+Final Report MO -2016 -204 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. At about 0600 on 19 August 2016, the bulk carrier Molly Manx  arrived off Port Otago after an 
+overnight passage from Lyttelton.  A harbour pilot boarded the vessel  at about 0630 and, after 
+exchanging information with the master, the vessel  entered the narrow channel taking it to its 
+berth.  
+1.2. The Molly Manx  was the maximum permitted length for vessel s navigat ing the upper portion of 
+the channel.  
+1.3. The vessel  had just pas sed Port Chalmers and was approaching a narrow passage between 
+two islands known as  the Halfway Islands with the pilot conducting the navigation of the 
+vessel .  Two tugs were in attendance: one connected to the stern of the vessel  and one 
+ranging ahead of the vessel , waiting to assist.  
+1.4. As the vessel  neared the Halfway Islands it deviated from  the intended track and grounded on 
+a sand bank.  With the aid of the vessel ’s engine and the tug connected to the stern, the 
+vessel  was able to reverse off the sand ba nk, after which it was manoeuvred stern -first back 
+to Port Chalmers for assessment.  
+1.5. There was no breach of the hull , and damage was limited to the bottom paintwork.  Nobody 
+was injured.  
+1.6. The Transport Accident Investigation Commission  (Commission)  found  that the vessel  
+grounded because the bridge team lost situational awareness .  Because the bridge team was 
+not adequately monitoring its progress using all available means , they did  not realise that the 
+vessel  had deviated so far starboard from  the intended  track .  
+1.7. The Commission also found  that: there was no formal  shared understanding between the pilot 
+and the vessel ’s crew on what passage plan would be used ; the vessel ’s navigation equipment 
+was not correctly configured for navigating in a narrow channel;  and the standard of bridge 
+resource management on the bridge leading up to the grounding did not meet good industry 
+practice.  
+1.8. The Commission identified four safety issues  relating to the standard of passage planning and 
+the performance of the bridge team.  
+1.9. The Commission made three recommendations  to the  Director of Maritime New Zealand to 
+address those safety issues identified  
+1.10.  Key lesson s arising from this inquiry include:  
+ there must be an absolute agreement and shared understanding between the 
+vessel ’s bridge team and the pilot as to the passage plan and monitoring against that 
+plan 
+ vessel s’ bridge teams must actively promote and use the concept of bridge resource 
+management, including the incorporation of pilot s into the bridge team s, to manage 
+voyage s properly  
+ a vessel’s electronic chart display and information system ( ECDIS ) is an important 
+system for monitoring the progress of the vessel  and warning the bridge team when 
+things could go wrong.  It is essential that it be configured correctly for the ph ase of 
+navigation and the proximity to navigation hazards . 
+ 
+ 
+  
+Final Report MO -2016 -204 
+<< Page 2 >>
+ 2. Conduct of the inquiry  
+2.1. The Transport Accident Investigation Commission (Commission) was advised of the 
+occurrence by email from Maritime New Zealand on 19 August  2016 , the day of the 
+occurrence.  The Commission opened an inquiry under section 13(1)b of the Transport 
+Accident Investigation Commission Act 1990 and appointed an investigator in charge.  
+2.2. On 19 August contact was established with the Isle of Man flag administration and agree ment 
+was reached that New Zealand would lead the investigation and conduct the investigation on 
+behalf of the Isle of Man.  
+2.3. On 19 August two investigators travelled to Dunedin, where the Molly Manx  was berthed.  On 
+20 August the investigators conducted int erviews with the crew of the vessel and collected 
+evidence that included a download of the vessel’s voyage data recorder.  
+2.4. On 21 August the investigators interviewed staff from Port Otago and the acting 
+harbour master.  They also gathered further documents relating to the port operations .   
+2.5. On 22 August contact was established with the vessel’s operator , and documents relating to 
+the company operation were  obtained.  Additional  information was obtained  from  Maritime 
+New Zealand  and from the vessel.  
+2.6. On 17 Jan uary 2017 investigators conducted further interviews with  staff from Port Otago in  
+order to clarify information.  
+2.7. On 24 August 2017  the Commission approved the draft report to be circulated to interested 
+persons for comment.   
+2.8. The draft report was distribut ed to 12 interested parties on 4 September 2017 , with the 
+closing date for receiving submissions as 25 September 2017 .  Six submissions were receiv ed 
+that included comments .   
+2.9. The Commission has considered in detail all submissions made , and any changes as  a result 
+of those submissions have been included in the final report . 
+2.10.  On 25 October 2017  the Commission approved the report for publication . 
+ 
+ 
+ 
+ 
+ 
+Final Report MO -2016 -204 
+<< Page 3 >>
+ Figure 1  
+General area of the incident  
+Part of chart NZ 6612  
+‘Otago Harbour’  
+Sourced from Land Information New 
+Zealand data.  
+Crown Copyright Reserved  
+NOT TO BE USED FOR NAVIGATION  
+Port Chalmers  
+approximate position of incident  
+Halfway Islands: Goat Island and Quarantine Island  
+Beach Street Wharf  
+approximate position where tug made fast aft  
+approximate track of Molly Manx  
+to harbour entrance  
+vessel’s speed reduced  
+to manoeuvring revolutions  
+vessel’s speed approximately 8 knots  Pulling Point  
+Deborah Bay  
+leading light beacons  
+Final Report MO -2016 -204 
+<< Page 4 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  At about 0600 o n 19 August 2016 , the bulk carrier Molly Manx  arrived off Port Otago after a n 
+overnight  passage from Lyttelton.  The vessel was bound , with a cargo of phosphate rock , for 
+the Ravensbourne fertiliser t erminal , which was in the upper reaches of the harbour between 
+Port Chalmers and Dunedin.  The bridge team tested all the navigation and communication 
+equipment and tested the main engine ahead and astern .    
+3.1.2.  An Otago Harbour pilot boarded the vessel at about 0630 .  The master and pilot conducted an 
+exchange of information .  The pilot explained the Otago Harbour Passage Plan and the Otago 
+Harbour Passage Planning Guide .  The passage planning guide was the document produced 
+by the harbour authority that contain ed relevant navigational information to assist the vessel’s 
+bridge team in constructing the preferred Port Otago passage plan  into Port Otago.  The master 
+in turn explained the information contained on the vessel’s pilot card2 (see Appendix 1) .  The 
+pilot noted that the vessel’s arrival draught  was deeper than  that which  the master had 
+previously reported.  The deepest draught was 7.1 metres (m), which was still within the 
+maximum allowable draught of 7.4 m for berthin g. 
+3.1.3.  The pilot then took the con3 from the master and the vessel  headed towards the harbour 
+entrance channel .  The main engine was increased to full sea speed to achieve the optimum 
+speed of 12 knots4 for the first section of the pilotage . 
+3.1.4.  At 0719 w hen the Molly Manx  was passing Pulling Point (see Figure 1) , the pilot requested a 
+reduction in speed  from full sea speed to manoeuvring speed , and by the time the vessel 
+reached  Deborah Bay (see Figure 1) it was making  about 8 knots  over the ground . 
+3.1.5.  At about 0730 , as the vessel passed Port Chalmers , the pilot reduced the engine revolutions 
+to half ahead5.  Shortly afterwards the line of the tug Taiaroa  was secure d to the stern of the 
+vessel .  The Taiaroa  then followed behind the Molly Manx  with no weight on the line.  The tug 
+Otago  proceeded ahead of the vessel , ready to assist with berthing . 
+3.1.6.  As the Molly Manx  passed  Port Chalmers , the pilot pointed out to the master the leading line 
+beacons6 he intended to use  to guide the vessel  through th e narrow gap between Quarantine 
+and Goat Islands (referred to as Halfway Islands on the chart – see Figure 1) .  At that time the 
+leading marks showed that  the vessel  was to starboard of the intended track , which t he pilot 
+was aware of and where he planned the vessel  to be  once he had commenced the turn to 
+starboard . 
+3.1.7.  As the vessel  approached the Halfway Islands the pilot was standing at the front of the bridge 
+on or just to starboard  of the centreline of the vessel , using the  line of the  deck cranes to 
+judge the heading of the vessel .  He occasionally  left this position to check  the vessel’s speed 
+on the electronic chart display and information system (ECDIS)  located in the aft -facing 
+console behind him .  The pilot said that he could see  that the channel between the islands 
+was clear and that he was “about on the leads  [leading line beacons] ”.   
+                                                        
+2 An information card, form or checklist used to ensure that essential master -pilot exchange items are 
+covered.  
+3 Control of the speed and direction of the vessel.  
+4 Nautical  mile(s) per hour . 
+5 A manoeuvring speed indication on the engine telegraph that results in a set amount of engine revolutions , 
+which in turn will give rise to a certain speed for the vessel . 
+6 Fixed markers that are laterally displaced to allow a mariner to navigate a fixed course along the preferred 
+route. When lit, they are also usable at night. Usually the rear mark is higher than the front mark. The mariner 
+will know the geometry of the marks/lights from the  navigational chart  and can understand that when ‘open ’ 
+(not one above the other) the vessel needs to be navigated to ‘close ’ the marks (so one is above the other) 
+and be in the prefe rred line of the channel.  
+ 
+Final Report MO -2016 -204 
+<< Page 5 >>
+  
+Figure 2 
+Diagram showing  the track, with times, of the Molly Manx  as extracted from the voyage data recorder  
+3.1.8.  The members of the bridge team, including the pilot, then felt a bump that they initially 
+thought was the aft tug bumping the stern of the vessel.   
+3.1.9.  The pilot saw that the speed was reducing and he noted that the vessel’s head was swinging 
+to starboard despite the 10 degrees of port helm being applied.  Both the master and the pilot 
+realised the vessel had grounded, and ordered stop engines, half astern  and full astern in 
+quick succession.  
+
+Final Report MO -2016 -204 
+<< Page 6 >>
+ 3.1.10.  The Molly Manx  stopped in the water, aground  on sand .  The pilot called the tug Otago  ahead 
+of the vessel and ordered it to return and secure a line to the  bow.  The pilot ordered the aft 
+tug Taiaroa  to “lift off at  40 tonnes ”7.  The vessel  started to move astern , at which time  the 
+pilot ordered  the starboard anchor to be let go to one shackle8 (27.5 m) of cable in an attempt 
+to steady the bow.  
+3.1.11.  As the Molly Manx  moved astern into deeper water , the starboard anchor was raised .  The 
+pilot then manoeuvred  the vessel  stern -first back to Port Chalmers where it was  made fast 
+alongsid e Beach Street wharf.   Soundings of all the tanks and spaces on the vessel were 
+taken to ensure that the watertight integrity had not been compromised.   
+3.1.12.  At about 13 00 two pilots boarded  the Molly Manx  at Beach Street wharf and piloted it through 
+the Upper Harbour  to the fertiliser terminal at Ravensbourne.  The operator of the vessel 
+engaged a diving and salvage company to carry out an underwater inspection of the vessel to 
+determine if any damage had occurred.   
+3.2. Environmental conditions  
+3.2.1.  The climatic c onditions were described as a light northerly breeze creating a significant 
+northerly wave chop in the harbour of wind against the tide.  The visibility was good with clear 
+skies.   At the time of the grounding the sun was just rising.   
+3.2.2.  The tides for Duned in on 19 August 2016 were as tabled in the New Zealand Nautical 
+Almanac shown below:  
+High and low water times and heights for Dunedin 19 August 2016  
+High water  Low water  High water Low water 
+Time  Height 
+(m) Time  Height 
+(m) Time  Height 
+(m) Time  Height 
+(m) 
+0400  2.1 1052  0.1 1626  2.2 2318  0.1 
+Table 1  
+High and low water for Dunedin  
+3.2.3.  The vessel could berth on either the flood  tide9 or the ebb tide10 provided that there was a 
+sufficient depth of water for the vessel to turn .  Turning and berthing the vessel could only be 
+achieved between certain times before and after high water ; this is known as the tidal 
+window11 (see Figure 3).   
+3.2.4.  The length of the  Molly Manx  was the maximum permitted for vessels transi ting the Upper 
+Harbour.  It had a draught of 7.1 m, which gave it a tidal window that allowed the vessel to be 
+swung around in the Upper Harbour to berth at the Ravensbourne fertiliser berth.   
+3.2.5.  On joining the vessel,  the pilot  had used the  Port Otago pilot inf ormation sheet to confirm  that 
+the vessel  could arrive off the berth within the tidal window , which he had then  explained to 
+the master  (see Appendix 1) . 
+                                                        
+7 To pull away from the ship with a 40 -tonne bollard pull  (force).  
+8 A vessel’s anchor chain is usually divided into several sections of equal length (usually 27.5 metres or 
+thereabouts) joined by a special joining shackle.  When the anchor and connecting chain are ‘let go’ from the 
+windlass, the person in charg e on the forecastle head pays out the cable by a specified amount by counting 
+the joining shackles.  Thus one shackle on deck would have the first joining shackle secured on the 
+forecastle deck with the first 27.5 metres of cable and anchor leading through  the hawse pipe and into the 
+water.   
+9 The period between low tide and high tide when the water flows towards the shore . 
+10 The period between high tide and low tide when the water flows away from the shore . 
+11 A period of time in which a vessel is able to conduct a manoeuvre safely , such as entering a channel or 
+turning in the channel. During a channel transit, tidal windows indicate the opening and closing times for 
+carrying out manoeuvres safely at different locations in a safe depth of water.  
+ 
+Final Report MO -2016 -204 
+<< Page 7 >>
+ 3.2.6.  The height of tide at the time of the grounding at the Halfway Islands was approximately 0.7 m 
+based o n the port data for Port Chalmers, the nearby standard port.  The range of the tide was 
+that of a spring tide.   
+ 
+Figure 3  
+Tidal window for the berthing of the Molly Manx  at Ravensbourne ,  
+assuming channel depth of 7.5 m and a static under -keel12 clearance of 0.7 m etre   
+3.3. Vessel details  
+3.3.1.  The Molly Manx  was a bulk  carrier and had its own shipboard cranes.  It  had been  built in 
+Cebu, Philippines in 2010.  It was owned by Molly Marine Limited in the Isle of Man and was 
+register ed in the Isle of Man.  It was operated by Anglo -Eastern Ship Management Limited of 
+Hong Kong , and at the time of the accident it was chartered to LT Ugland Limited of the Isle of 
+Man.   
+3.3.2.  The Molly Manx  had a length overall of 189.99 m, a breadth of 32.26 m and a maximum 
+draught of 12.826 m.  It was powered by a Mitsui M.A.N. – B&W DE 6550MC -C (Mark 7) direct 
+reversing diesel engine producing 8,400 kilowatts at maximum continuous rating driving a 
+single fixed -pitch , right -hand -turning , five-bladed propeller.  
+3.3.3.  The Molly Manx  was equipped with the range of navigational equipment standard for this type 
+of vessel , including an ECDIS and backup system that was compliant with international and 
+Flag State rules and regulations.  This configuration meant that the vess el could use  the 
+ECDIS as its primary method of navigation and was not required to carry paper charts.   
+3.4. Electronic chart display and information system  
+3.4.1.  The International Maritime Organization (IMO) describe d an ECDIS in the ECDIS Performance 
+Standards (IM O Resolution A.817(19)) as:  
+                                                        
+12 The dista nce between the deepest point on the vessel and the seabed in still water.  
+
+Final Report MO -2016 -204 
+<< Page 8 >>
+ … a navigation information system which, with adequate back up arrangements, 
+can be accepted as complying with the up -to-date chart required by regulation 
+V/19 & V/27 of the 1974 SOLAS Convention13, by displaying selected 
+informa tion from navigation sensors to assist the mariner in route planning and 
+route monitoring, and by displaying additional navigation -related information if 
+required.    
+3.4.2.  The master and all navigational officers on board the Molly Manx  were correctly certified and 
+had undertaken both generic and type -specific ECDIS training.  
+3.4.3.  User -defined safety settings are an important safety function when using an ECDIS.  A failure 
+to enter the correct safety settings can allow a vessel to enter unsafe waters without alerting 
+the operator.  To achieve a safe passage plan, users of ECDIS s must understand how to 
+determine  accurately  the correct value for a safety setting , as detailed in Table 2.  
+3.4.4.  IMO specifications require d an ECDIS to trigger certain alarms for the following cond itions (see 
+Table 2  on page 1 7): 
+ if the vessel is predicted to cross the safety contour within a user -specified time  
+ if the vessel is predicted to cross the boundary of a prohibited area or an area for 
+which special conditions exist within a specified time  
+ if the vessel deviates off course by a specified amount from the planned route; cross -
+track distance  
+ if the vessel continues on its present course over a user -defined time or distance and 
+is predicted to pass closer to an object that is shallower than the  safety contour or an 
+aid to navigation.   
+ 
+                                                        
+13 The International Convention for the  Safety of Life at Sea . 
+ 
+Final Report MO -2016 -204 
+<< Page 9 >>
+  
+Figure 4 
+ECDIS safety settings as supplied in poster format on board the Molly Manx  
+ 
+3.5. Passage planning  
+3.5.1.  The IMO’s Resolution  A.893(21) , Guidelines for Voyage Planning , adopted on 25 November 
+1999  (see Appendix 3) , describe voyage (passage) planning as:  
+1.1 The development of a plan for voyage or passage, as well as the close and 
+continuous monitoring of the vessel ’s progress and position during the execution 
+of such a p lan, are of essential importance for safety of life at sea, safety and 
+efficiency of navigation and protection of the marine environment.  
+1.2 The need for voyage and passage planning applies to all vessels. There are 
+several factors that may impede the saf e navigation of all vessels and additional 
+factors that may impede the navigation of large vessels or vessels carrying 
+hazardous cargoes. These factors will need to be taken into account in the 
+preparation of the plan and in the subsequent monitoring of th e execution of the 
+plan.  
+1.3 Voyage and passage planning includes appraisal, i.e. gathering all 
+information relevant to the contemplated voyage or passage; detailed planning of 
+the whole voyage or passage from berth to berth, including those areas 
+necessit ating the presence of a pilot; execution of the plan; and the monitoring of 
+the progress of the vessel in the implementation of the plan.   
+A more detailed explanation of the requirements can be found in Appendix 3.   
+  
+
+Final Report MO -2016 -204 
+<< Page 10 >>
+ 3.6. Bridge resource management  
+3.6.1.  Bridge re source management (BRM) was adopted in the early 1990s by the maritime industry 
+as a safety and error management tool.  It has since  become an integral part of crew training 
+and is included in the International Convention on Standards of Certification and Training and 
+Watchkeeping developed by the IMO ( see Appendix 2).   
+3.6.2.  BRM is described as the effective management and utilisation of all resources, human and 
+technical, available to a bridge team, to help ensure the safe completion of the vessel’s 
+voyage.  
+3.6.3.  Some essential aspects of BRM are good closed -loop communications14, participants sharing 
+the same understanding  of a planned passage, and maintaining situational awareness.  
+  
+                                                        
+14  A technique used to avoid misunderstandings. When the sender gives a message, the receiver repeats this back. The 
+sender then confirms the message , usually by using the word ‘yes’. When the receiver incorrectly repeats the message 
+back, the sender will say “negative”, or something similar, and then repeat the correct message.  
+ 
+Final Report MO -2016 -204 
+<< Page 11 >>
+ 4. Analysis  
+4.1. General  
+4.1.1.  A vessel grounding, for however short a time, is a serious occurrence that can cause  damage 
+to the vessel and the environment.  
+4.1.2.  Many large vessels successfully complete the transit of  the Upper Harbour under pilotage 
+every year.  The following analysis discusses  why on this occasion the vessel grounded.   It also 
+discusses four safety issues:  
+ the vessel ’s bridge team and the pilot did not have a shared understanding of a 
+common passage plan before the pilotage began.  Consequently the pilot and the 
+vessel ’s bridge team had different understanding s of the planned track to be followed 
+and their respective roles in monitoring against the plan  
+ the IMO has set standards for passage planning that vessel s must adhere to , but 
+there is no corresponding requirement for the passage plans that pilots create and 
+use to meet those same standards  
+ the crew were not using the ECDIS in the correct configuration required by the IMO 
+and company standards when the grounding occurred  
+ the standard of  BRM  on board the Molly Manx  during the Otago pilotage did not meet 
+good industry practice . 
+4.1.3.  The length of the  Molly Manx  was the maximum permitted  for a vessel  transit ing the Upper 
+Harbour , and with a draught of 7.1 m there was little margin for error . This meant  it was 
+important for the transit to be carefully managed and monitored by the bridge team.  
+4.1.4.  The vessel was correctly certified and was manned with crew in excess of the safe manning 
+certificate .  The pilot who joined the vessel off the harbour entrance held a pilot’s licence  that 
+was current for piloting a vessel  of the type and size of the Molly Manx  in that port .   
+4.2. What happened  
+4.2.1.  The pilot had successfully piloted the vessel from beyond the entrance to Otago Harbour  and 
+was maintain ing a speed that would allow him to berth the Molly Manx  within the available 
+tidal window.  As the vessel approached Port Chalmers , the pilot reduced the speed of the 
+vessel as the two tugs arrived to assist .  One tug proceeded ahead of the vessel while the 
+other was secured to  the stern.   Having the  tug secured to  the stern would have allow ed the 
+pilot to use it as a means of reducing speed or to  assist with steering .  The speed of the vessel  
+and the configuration of the assisting tugs were appropriate for the passage between the 
+Halfway Islands.  
+4.2.2.  The Molly Manx  passed Port Chalmers and a log storage area and storage sheds .  The ebb 
+tide as shown on the chart  (see Figure 3)  would normally  have  push ed (set15) the vessel  from 
+left to right (port to starboard) as the vessel  approached the narrows .  However, the Otago 
+Harbour pilots were aware that during an ebb tide the vessel  would be  first affected by the 
+tidal stream emanating from behind Goat Island that would set the vessel  from right to left 
+(starboard to port) .  It was for this reason  that the pilot was comfortable with being to 
+starboard of the planned track as the vessel  was passing the storage sheds , in anticipation of 
+the vessel  being set back onto the planned track before navigating between the islands.  
+4.2.3.  When  the vessel  passed  the storage s heds , the pilot ordered starboard helm to start the turn 
+into the channel to pass between Quarantine and Goat Island s and to counteract his 
+prediction that there would be a strong set from right to left  from the ebb tide  flowing  between 
+Goat Island and the Port Chalmers peninsula  (see Figure 3) .   
+4.2.4.  The pilot was standing at the front of the navigating bridge either on the centreline of the 
+vessel or one or two paces to starboard .  From his position he  could see clear ly down the 
+                                                        
+15 Be pushed towards – set towards . 
+Final Report MO -2016 -204 
+<< Page 12 >>
+ channel between the islands  and the leading line beacons beyond .  From his position he was 
+not able to see either the radar or the ECDIS screen .  He was navigating the vessel by eye with 
+an occasional check on the vessel ’s speed  log readout on the panel above the forward bridge 
+windows .   
+4.2.5.  Using data downloaded from the vessel ’s voyage data recorder  it was possible to calculate the 
+vessel ’s heading and match that to the true course and speed over the ground  at the time 
+(see Figure 2.  The data show ed that from  0734 :20 the tidal stream between Goat Island and 
+Port Chalmers did set the vessel  from right to left as predicted by the pilot.  However , the pilot 
+adjusted the heading of the vessel  to counter this set and the vessel  remained to  starboard of 
+the planned track.  
+4.2.6.  The vessel  then enter ed the area where it began to be set in the opposite direction, from left 
+to right, the n move d further to starboard of the planned track . 
+4.2.7.  The pilot made a succession of helm orders for 5 , 10 and then 15 degrees of port helm and 
+then ordered the helm to “amidships ” in anticipation of the change in direction of the tidal set .  
+The pilot then noticed that  the vessel was to starboard of the line of the leading beacon s.  He 
+ordered 5 then 10 degrees of port  helm and then ordered the helm to amidships.  
+4.2.8.  However,  although the bow of the vessel  was pointing towards the gap between the islands, 
+the vessel  was still too far to starboard of the  planned track , and the bow of the vessel  
+entered the area of shallow wa ter inside of Goat Island and grounded.  The momentum of the 
+vessel  carried it over the shallow water, causing it to swing to starboard (see Figure 5). 
+4.2.9.  Until the pilot felt the vessel grounding, he had not appreciated how far to starboard of the 
+planned tr ack the vessel  was.  He had lost awareness of exactly where the vessel  was in the 
+channel and the influence that the tide was having on its progress.  The  risk of this happening 
+is high when navigating large vessel s in narrow channels  using only visual references to 
+monitor the vessel s’ progress.  It is why all available means by all available persons should be 
+used to monitor the progress of a vessel  along its planned track.  These points are discussed 
+in more detail in the following sections.  
+4.2.10.  The pilot realised that  something was wrong when he , along with the rest of the bridge team , 
+felt a bump .  He noticed that the speed of the vessel was slowing and the vessel’s bow was 
+swing ing to starboard despite  his havin g just applied port hel m.  He realised from these 
+indicators that the vessel was grounding  and immediately ordered the engine  to stop and then 
+astern and for the tug secured aft to pull right aft .  In doing so the  pilot was able  to manoeuvre 
+the vessel off the bank and back into  deeper water . 
+Finding s 
+1. The grounding occurred because the bridge team , including the pilot , lost 
+situational awareness and did not realise that the vessel  had deviated so far 
+starboard of the intended track . 
+2. The bridge team , including the pilot , did not realise how far the vessel  had 
+deviated from the intended track because they were not monitoring the vessel ’s 
+progress effectively and by all available means . 
+ 
+Final Report MO -2016 -204 
+<< Page 13 >>
+ Figure 5  
+Passage plan track of the Molly Manx  (green) and actual track (red)  
+  
+passage plan track  
+Molly Manx ’s ship’s head  
+ebb tide direction  
+ebb tide direction  
+port authority cargo sheds  
+ebb tide direction  
+grounding position  
+Molly Manx ’s course made 
+good  
+Final Report MO -2016 -204 
+<< Page 14 >>
+ 4.3. Passage planning  
+Safety issue: The vessel ’s bridge team and the pilot did not have a shared understanding of  a 
+common passage plan before the pilotage began.  Consequently,  the pilot and the vessel ’s 
+bridge team had different understanding s of the planned track to be followed and their 
+respective roles in monitoring against the plan.  
+Safety issue : The IMO has set standards for passage planning that vessel s must adhere to, 
+but there is no corresponding requirement for the passage plans that port authorities  create 
+and use to meet those same standards . 
+4.3.1.  When a pilot joins a vessel prior to the pilotage it is the first opportunity for the master and 
+bridge team to : talk to the pilot; clarify any issues that may have been identified during the 
+preparation of the passage plan; and ensure they are satisfied with the planned transit.  At 
+this stage the pilot needs to be fully integrated into the bridge organisation so that the whole 
+team works as a cohesive body and has a shared understanding  of the p assage plan . 
+4.3.2.  Before any pilotage act begins, it is essential that the pilot and the master (including other 
+members of the team) have a shared understanding of  the passage plan.  That did not happen 
+in this case.  As often happens, the pilot intended  to na vigate to the standard port company 
+passage plan , and the vessel  had its own passage plan, which  differed  from that of the port 
+company . 
+4.3.3.  An essential part of integrating the pilot into the bridge team is the pilot and master exchange 
+of information, a briefing that should include all members of the bridge team.  The briefing is a 
+bilateral exchange of important information where everyone is made aware of : any changes to 
+the proposed plan ; the handling characteristics of the vessel ; and any notable ‘dyna mic’ 
+information such as weather and tides  for the transit.   
+4.3.4.  The port passage plan was available over the internet from the Port Otago  website .  The 
+channel is narrow and there is little scope for deviating from the plan without leaving the 
+navigational c hannel.  The preferred courses were presented as  smooth , curved lines without 
+any marked waypoints, turn radii or off -track limits.  Without that information the vessel ’s crew 
+would not have been  able to replicate it in their own navigation systems, such a s the ECDIS .  
+The vessel  was required to plan the passage in accordance with the IMO convention standards 
+and guidelines16 (see Appendix 3) , but there was no international or New Zealand requirement 
+for the port companies and their pilots to follow the same  standards when developing their 
+own generic passage plans.  The Port Otago passage plan as presented on its website would 
+not meet the IMO  standards  or other reputable guidelines available to mariners on voyage 
+planning17.   
+4.3.5.  When the pilot joined the Molly  Manx  he and the master discussed the vessel’s characteristics 
+and went through the Otago Harbour passage  plan.  
+4.3.6.  However, the vessel  had its own passage plan loaded into the ECDIS, which differed from that 
+of Port Otago.  Because the vessel ’s plan was the p lan loaded into the ECDIS, that is what the 
+bridge team , excluding the pilot, was using to monitor the vessel’s progress.  Me anwhile , the 
+pilot was navigating the vessel  to the Port Otago  passage plan, using visual reference s as he 
+had been  trained to do .  The bridge team, which now included the pilot, was not aligned in its 
+thinking and did not share the same understanding  of the plan.  This dynamic was going to 
+make effective BRM  difficult to achieve, which is discussed in the following section.  
+4.3.7.  The New  Zealand Port and Harbour Marine Safety Code  is a voluntary national standard .  The 
+Code recommends that , “Up-to-date passage plans and guidance should be published, and be 
+available to harbour users and the masters of visiting vessel s” (see Appendix 6).  
+                                                        
+16 Chapt er V, Safety of Navigation, of the Annex to the International Convention for the Safety of Life at Sea 
+and Resolution A.893(21) Guidelines for Voyage Planning.  
+17 Other best -practice guidelines also contain valuable advice on bridge watchkeeping in general and voyage 
+planning in particular. They include: the United Kingdom’s Maritime and Coastguard Agency’s guidance on 
+Chapter V, Safety of Navigation, of the Annex to the International Convention for the Safety of Life at Sea ; the 
+Nautical Institute’s Bridge Team Management – A practical guide; and the International Chamber of 
+Shipping’s Bridge Procedures Guide.  
+ 
+Final Report MO -2016 -204 
+<< Page 15 >>
+ 4.3.8.  One method of ensuring that an approved passage plan is available on board would be for 
+port companies or harbour authorities to make available to vessel s properly constructed and 
+validated passage plan s that meet the  port-specific standards  and guidelines included in  
+Chapter V, Safety of Navigation , of the Annex to the International Convention for the Safety of 
+Life at Sea  (SOLAS) , and Resolution A.893(21) Guidelines for Voyage Planning .  Such a system 
+would assist in on-board passage planning and allow a v essel to be better prepared when the 
+pilot boards .  This action would greatly assist the smooth transition of the pilot into the bridge 
+team at a time of typically high workload and little time before the pilotage begins.  
+4.3.9.  More vessel s are using ECDIS s as the primary means of navigation , and  this will increase in 
+the future.  As it was  on board the Molly Manx , the passage plan to the berth is usually loaded 
+into the vessel ’s ECDIS.  Ideally, passage plans generated by port companies should be to the 
+same IMO standard s that vessel s are required to meet , and should be compatible for use in 
+an ECDIS.   
+4.3.10.  Many vessel s transit more than one New Zealand port.  It would greatly enhance safety if the 
+passage plans were, as far as practicable, in a standard format an d could be found at one 
+site.  Vessel s routed to several New Zealand ports would be able to access from one place 
+standardised passage plans for several ports, even before they depart ed from their previous 
+overseas port s. 
+4.3.11.  Currently there can be issues with uploading standardised passage plans into an ECDIS, 
+because ECDIS manufacturers have proprietary systems that require specific formats.  
+However,  that will shortly change.   The International Hydrographic Organization  and the 
+International Electrotechnical  Commission standard for ECDIS s (IEC 61774 Edition 4, 
+September 2015) from August 2017 includes a route exchange format that will make  it easier 
+for data transfers.  In the future it will be possible to send passage plans to all vessels in the 
+correct form at to be uploaded direct ly into the ECDIS system , thereby reducing the possibility 
+of navigating officers making errors when loading them  into ECDIS s.  However, this facility was 
+not available at the time of the accident and therefore was not able to be us ed by  the bridge 
+team on this occasion.    
+4.3.12.  The Commission has made recommendations to Maritime New Zealand to promote the use of 
+standard passage plans by all New Zealand harbour authorities.  
+4.4. Molly Manx  electronic chart display and information system  
+Safety issue : The crew were not using the ECDIS in the correct configuration required by  the 
+IMO and company standards when the grounding occurred.  
+4.4.1.  The Molly Manx  was approved to use an ECDIS as a primary means of navigation and as such 
+did not have to car ry or use paper charts for navigation.   
+4.4.2.  User -defined safety settings are an important safety function when using an ECDIS.  A failure 
+to enter the correct safety settings can allow a vessel to enter unsafe waters without alerting 
+the operator.  To achieve  a safe passage plan, users of ECDIS s must understand how to 
+determine  accurately  the correct value for a safety setting as detailed in Table 2  on page 1 6.  
+The Molly Manx ’s passage plan included settings for the deep contour, safety contour and 
+safety depth, shallow contour, cross -track limit and watch vector setting s (look ahead).   
+4.4.3.  Some of the values of user -defined ECDIS safety settings in use on board the Molly Manx  
+differed from the values stated in the vessel’s passage plan and from the usual defa ult 
+settings.   
+4.4.4.  The cross -track distance to either side of the vessel was set at 0.25 nautical miles or 463 m 
+as per the passage plan.  However, the narrowest width of the Port Otago channel was 
+approximately 100 m.  The vessel  would therefore  have been  413 m outside the channel 
+before the cross -track distance alarm would activate.  At the position of the grounding the 
+vessel was approximately 75 m off track.  The settings in the ECDIS were not appropriate for 
+the intended passage into Port Otago.  
+ 
+Final Report MO -2016 -204 
+<< Page 16 >>
+ Table 2  
+ ECDIS safety settings  
+                                                        
+18 A digital vector chart  specifically designed for use in electronic navigational systems on  board vessels . 
+19 When a vessel moves through shallow wate r, some of the displaced water rushes under the vessel to rise 
+again at the stern. This decreases the upward pressure on the hull, making the vessel sink deeper in the 
+water than normal and slowing the vessel. Squat increases with the speed of the vessel.  ECDIS safety settings  
+Name  Description  Usual and default 
+settings  Molly Manx ’s 
+passage plan  
+Safety depth  
+not coloured, used 
+as an alarm trigger  Intended as an aid 
+when appropriate 
+safety contour is 
+available in the 
+system electronic 
+navigational chart18 Usually user defined as 
+vessel’s : 
+draught+squat19+under -
+keel clearance  8.83 m 
+Safety contour  
+usually coloured 
+grey-white between 
+the deep contour 
+and safety contour 
+and light blue 
+between shallow and 
+safety contour  Marks the division 
+between safe and 
+unsafe water  Usually user defined as:  
+draught+squat+ under -
+keel clearance+height 
+of tide  
+ 
+Defaults to 30 m 8.83 m 
+ 
+Safety contour and 
+safety depth cannot 
+be individually set 
+on equipment  
+Deep contour   
+usually coloured 
+grey-white between 
+the deep contour 
+and safety cont our 
+white in deeper 
+water  Indicates the depth 
+at which a vessel 
+experience s squat  
+ Usually user defined as:  
+twice the vessel’s 
+draught  15.48 m 
+Shallow contour  
+usually coloured light 
+blue between 
+shallow and safety 
+contour, deep blue 
+inside shallow 
+contour  Highlights the 
+gradient of the 
+seabed adjacent to 
+the safety contour  Usually user defined as:  
+draught +squat or next 
+contour shallower than 
+the safety depth  7.74 m 
+Cross -track distance  
+usually shown by 
+some form of limit 
+line on either side of 
+the planned  track  
+ The distance a 
+vessel can deviate 
+from the planned 
+route before an 
+alarm activates  Usually user defined  0.25 nautical miles  
+Watch -
+vector/pred ictor 
+usually shown as a 
+vector arrow or ship 
+shape ahead of the 
+vessel  Used as an alarm 
+setting and 
+indication to the 
+user where the 
+vessel will be  Usually user defined as 
+a set distance or as a 
+distance that will be 
+covered in the set time   2 minutes  
+ 
+Final Report MO -2016 -204 
+<< Page 17 >>
+ 4.4.5.  The watch vector or predictor was required to be set for two minutes according to the passage 
+plan.  At the time of the grounding the ECDIS display showed that the vector was set at 10 
+minutes  rather than two minutes as  specified in the vessel’s passage plan .  In a winding 
+channel such as Otago Harbou r, setting the watch vector to 10 minutes would very likely 
+cause the head of the vector to be constantly outside the safe navigable water within the 
+channel, which mean s it would be in a constant state of alarm.  Apart from creating alarm 
+management issue s for the officer of the watch ( OOW ), it was unable to alert the bridge team 
+to any safety hazards ahead.   
+4.4.6.  Accurate user -defined settings are essential if an ECDIS is to provide the level of navigational 
+safety expected of it.  This accident shows how ine ffective it can become if the settings that 
+have been entered are incorrect.  
+4.5. Bridge resource management   
+Safety issue: The standard of BRM  on board the Molly Manx  during the Otago pilotage did not 
+meet good industry practice.  
+Implementation o f BRM o n board   
+4.5.1.  Achieving a high standard of BRM during the pilotage to Port Otago was going to be difficult 
+because the fundamental requirement of all working to the same passage plan had not been 
+met.  Nevertheless , effective BRM could still have prevented the groundi ng, but it was 
+essentially absent amongst the bridge team.  
+4.5.2.  The OOW  and the helmsman were part of the bridge team, but they were not included in the 
+briefing  between the master and the pilot .  The absence of the OOW , the relieving OOW  and 
+the helmsman from the briefing was  a missed opportunity to  ensure that everyone was 
+sharing the same understanding , and  reinforce d the need to engage in challenge and 
+response  and ensure that the pilot was incorporat ed into the bridge team.  
+4.5.3.  The navigable channel through Otago Harbour to Dunedin is narrow .  For a vessel  the size of 
+the Molly Manx  there are very few possible variations to the preferred  courses .  Even if the 
+OOW had been monitoring the progress of the vessel  against the vessel ’s passage plan with 
+agreed off -track limits , the vessel ’s deviation to starboard of the track could and should have 
+been noticed and raised with the master and pilot.  However, the ECDIS had not been correctly 
+configured for the transit of the narrow channel, and the OOW had not been in vited to 
+challenge the master or pilot if the vessel  deviated from the intended route.  
+4.5.4.  As the vessel entered the Otago Harbou r pilotage the OOW was relieved.  The relieving OOW 
+was not briefed by the master on what was expected of him or made aware of significant 
+information from the master -pilot exchange of information.  He was therefore not fully 
+incorporated into the bridge team.  
+4.5.5.  Despite the pilot advising the master at the master/pilot exchange that he welcomed being 
+challenge d by the bridge team , and explaining the contents of the Port Otago Master/Pilot 
+Information Exchange sheet (see Appendix 1) , which includes the notation:  
+Despite the duties and obligations of a Pilot, the Pilot’s presence on board does 
+not relieve the Master o r Officer in char ge of the navigation watch from their 
+duties and obligations for the safety of the vessel.  The Bridge Team have a duty 
+to support the Pilot and to ensure that his/her actions are monitored at all times . 
+the pilot said that after the OOWs had changed he soon realised that he was working very 
+much on his own .  It was a situation that the pilot said he was familiar with .  As difficult as it 
+will be to encourage a bridge team to engage  fully in the conduct of a vessel  when it is not 
+their normal culture to do so, a pilot should nevertheless challenge the navigation team to do 
+so, as should a navigation team do in a reciprocal situation where a pilot lapses into a one -
+person operation .  A breakdown in BRM  can never be attributable to only one of the 
+participants . 
+Final Report MO -2016 -204 
+<< Page 18 >>
+ 4.5.6.  The relieving OOW assumed  responsibility for : operating the  engine  telegraph ; monitoring the 
+helmsman  and ensuring the correct helm was applied ; checking the under -keel clearance ; and 
+checking the vessel’ s position on the ECDIS .  These were important tasks.  Both the master 
+and the OOW noticed the vessel  deviating to starboard, but neither spoke  up and alerted the 
+pilot to the vessel’s position .  There was silence on the bridge as the vessel  ran aground .     
+4.5.7.  The company ’s safety ma nagement system had comprehensive sections  on BRM and the 
+requirement  for passage planning from berth to berth (see Appendix 5) (as contained in 
+Chapter V, Safety of Navigation , of the Annex to SOLAS,  Regulation 34 Safe Navigation and  
+Resolution A.893(21) Guidelines for Voyage Planning ) (see Appendix 3 for relevant parts).   
+4.5.8.  However, i ncluding a requirement to practi se good BRM and planning the passage in a safety 
+management system  does not fulfil a company ’s and master’s obligations in that regard .  
+Puttin g the concepts into practice is the key.  Unless managers and masters  believe in, 
+promote , practi se and drive good BRM  skills , they are unlikely to  succeed . 
+4.5.9.  The Commission would normall y make a recommendation to the F lag State administration for  
+the vessel to address through Flag S tate control any deficiencies in bridge practices.  
+However, the vessel is now under different operation and has been re -registered with a 
+different Flag State.  
+Findings  
+3. The pilot and the vessel’s  bridge team did not have a shared understanding of  
+one common  passage plan to the berth before the pilotage began, which meant 
+they were not all sharing the same understanding  of the plan . 
+4. The vessel’s ECDIS was not correctly configured for navigation in a narrow 
+channel, whi ch meant the crew were not adequately monitoring the progress of 
+the vessel  in support of the pilot, who was navigating mainly by visual 
+reference s. 
+5. Neither the master nor the officer of the watch speaking up when they both 
+noticed that the vessel  was to s tarboard of the track according to their passage 
+plan was a lost opportunity to avert the grounding.  
+6. The standard of bridge resource management on the Molly Manx  bridge leading 
+up to the grounding did not me et industry good practice.  
+ 
+  
+ 
+Final Report MO -2016 -204 
+<< Page 19 >>
+ 5. Findings  
+5.1. The grounding occurred because the bridge team , including the pilot , lost situational 
+awareness and did not realise that the vessel  had deviated so far starboard of the intended 
+track.   
+5.2. The bridge team , including the pilot , did not realise how far the vessel  had deviated from the 
+intended track because they were not monitoring the vessel ’s progress  effectively  and by all 
+available means.   
+5.3. The pilot and the vessel’s bridge team did not have a shared understanding of one common 
+passage plan to the berth before the pilotage began, which meant they were not all sharing 
+the same understanding of the plan.   
+5.4. The vessel’s ECDIS was not correctly configured for navigation in a narrow channel, which 
+meant the crew were not adequately monitoring the progress of the vess el in support of the 
+pilot, who was mainly navigating by visual references.  
+5.5. Neither the master nor the officer of the watch speaking up when they both noticed that the 
+vessel  was to starboard of the track according to their passage plan was a lost opportun ity to 
+avert the grounding . 
+5.6. The standard of bridge resource management on the Molly Manx  bridge leading up to the 
+grounding did not meet industry good practice.   
+ 
+  
+Final Report MO -2016 -204 
+<< Page 20 >>
+ 6. Safety issues  
+6.1. The vessel ’s bridge team and the pilot did not have a shared understanding o f a common 
+passage plan before the pilotage began.  Consequently the pilot and the vessel ’s bridge team 
+had different understanding s of the planned track to be followed and their respective roles in 
+monitoring against the plan . 
+6.2. The IMO has set standards for passage planning that vessel s must adhere to, but there is no 
+corresponding requirement for the passage plans that pilots create and use to meet those 
+same standards.  
+6.3. The crew were not using the ECDIS in the correct configuration required  by the IMO and 
+company standards when the grounding occurred . 
+6.4. The standard of bridge resource management on board the Molly Manx  during the Otago 
+pilotage did not meet good industry practice.  
+  
+ 
+Final Report MO -2016 -204 
+<< Page 21 >>
+ 7. Safety a ctions  
+General  
+7.1. The Commission classifies  safety actio ns by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+7.2. Since the accident Anglo -Eastern Ship Management has:  
+ briefed the master about the incident citing the importance of taking overriding action 
+well in time when in doubt as to  a pilot’s advice  
+ promulgated the f indings of this incident to all company -managed ships and to 
+company training centres by a ‘One of our  ships ’ report so as to create better 
+awareness.    
+7.3. Since the accident Port Otago has  taken the following actions : 
+ all pilots have been or are being issued with their own individual PPU [ portable 
+pilotage uni ts]– Currently six of the eight  pilots (including  the pilot that had the 
+accident) have been issued with a Navicom Channel Pilot Mk 3 PPU  
+ a virtual starboard -hand beacon is to be put in over the shoal where the Molly Manx  
+ran aground. This is done through the AIS system  
+ the maximum size of bulk vessel to  be allowed to navigate in the Upper Harbour is to 
+be reduced from 190 metres LOA [length overall] to 180 metres (there will be a couple 
+of exceptions later this year as some vessels were already under charter to the 
+Ravensdown fertiliser company but we will have specific controls in place with respect 
+to the use of tugs, wind and tide limits).  
+Safety a ctions  addressing other safety issues  
+None identified . 
+ 
+ 
+  
+Final Report MO -2016 -204 
+<< Page 22 >>
+ 8. Recommendations  
+General  
+8.1. The Commissi on may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case , recommendations have been issued to Maritime New Zealand.   
+8.2. In the interests of transport safety,  it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendat ions to the Director of Maritime New Zealand  
+8.3. The IMO has set minimum standards and guidelines for passage planning that vessels should  
+adhere to, but there is no corresponding New Zealand requirement for passage plans create d 
+by port authorities  to meet those same standards .  This raises an issue for masters  of vessels  
+when pilots prefer to  conduct  the navigation of the ir vessels in accordance with port -generated 
+passage plan s that might  not meet the standard s that a vessel  should  comply  with. 
+One method of ensuring that an approved passage plan is available on board would be for 
+port authorities to make available to vessels  properly constructed and validated passage 
+plans.  The majority of the passage planning guidelines contained in  Annex  24 to Chapter V of 
+SOLAS can be encapsulated in a generic passage plan developed by a port authority, leaving 
+only the vessel -specific considerations and ‘dynamic’ information such as tide and weather 
+conditions to be discussed and agreed during the master/pilot  exchange.  
+Such a system would assist in on-board passage planning and allow a vessel to be better 
+prepared when the pilot boards.  This would greatly assist the smooth transition of the pilot 
+into the bridge team at a time of typically high workload and l ittle time before the pilotage 
+begins.  
+On 25 October 2017  the Commission recommended that the Director of Maritime New 
+Zealand use the Port and Harbour Marine Safety Code and its associated governance 
+arrangements,  or any other appropriate mechanism , to ensure that  port authorit ies produce  
+and publish passage plans f or their  respective pilotage district s that meet the port-specific 
+requirements and guidelines contained in  Chapter V, Safety of Navigation , of the Annex to 
+SOLAS  and Resolution A.893(21) Guid elines for Voyage Planning .  (029/17)  
+On 10 November 2017, Maritime New Zealand replied:  
+As outlined in my response to the Commission's draft recommendations, neither 
+the code nor the underlying statutory framework confer on the Director a 
+mechanism to ens ure that port operators or regional councils undertake specific 
+activities as contemplated in this recommendation.  
+However, I will, within six months of the Commission releasing its final report, 
+convey this recommendation to both Port operators and Region al Councils who 
+are parties to the code, for their consideration.  
+Furthermore, Maritime New Zealand will advise the Commission of any response 
+or comments received from Port operators and/or Regional Councils as to their 
+intentions.   
+8.4. More vessel s are using ECDIS s as the primary means of navigation.  This will increase in 
+future.  As it was with  the Molly Manx , the pilotage plan to the berth is usually  loaded into the 
+vessel s’ ECDIS s. 
+Currently there can be issues with uploading standardised passage pla ns into an ECDIS, 
+because ECDIS manufacturers have proprietary systems that require specific formats.  
+However, that will shortly change.  The International Hydrographic Organization  and the 
+International Electrotechnical Commission standard for ECDIS s (IEC 61774 Edition 4, 
+September 2015) from August 2017 includes a route exchange format that will make it easier 
+ 
+Final Report MO -2016 -204 
+<< Page 23 >>
+ for data transfers.  In the future it will be possible to send passage plans to all vessels in the 
+correct format to be uploaded direct ly into the  ECDIS system, thereby reducing the possibility 
+of vessel s’ navigating officers making errors when loading  into ECDIS s the passage plans 
+generated by the responsible harbour authorities.  
+Ideally, passage plans generated by responsible harbour authorities should be to the standard 
+that is required by vessel s, and should be compatible for use in an ECDIS . 
+On 25 October 2017  the Commission recommended that the Director of Maritime New 
+Zealand encourage responsible harbour authorities to  produce their passage plans in a format 
+that will in future be capable of being directly uploaded into a vessel ’s ECDIS .  (030/17)  
+On 10 November 2017, Maritime New Zealand replied:  
+I will convey this TAIC recommendation to Port operators and Regional Councils 
+through the mechanism of the Port and Harbour Marine Safety Code within six 
+months of the Commission releasing its final report. Maritime New Zealand will 
+advise the Commission of any response or comments received from Port 
+operators and/or Regional Councils as to their intentions.  
+8.5. Many vessel s transit more than one New Zealand port.  It would greatly enhance safety if the 
+passage plans were, as far as practicable, in a standardi sed format and could be found at one 
+site.  Vessel s routed to several New Zealand ports would be able access from one place 
+standardised passage plans for several ports, even before they depart ed from their previous 
+overseas port s. 
+On 25 October 2017  the C ommission recommended that the Director of Maritime New 
+Zealand provide a common official website where responsible harbour authorities can make 
+their passage plans available for download by shipping companies and vessel  masters to 
+access prior to planning  their voyages . [031/17]  
+On 10 November 2017, Maritime New Zealand replied:  
+As an additional service to any already provided by individual Port operators and 
+Regional Councils, Maritime New Zealand will investigate through the 
+mechanism of the Port and Ha rbour Marine Safety Code, providing a facility on 
+its internet site for Port operators and Regional Councils who wish to make 
+passage plans available for shipping companies and vessel masters to access 
+prior to planning their voyages.  
+The time frame to com plete this recommendation will largely depend on whether 
+or not Port operators and Regional Councils choose to accept the 
+recommendations above.  
+In my response to the Commission's draft recommendations, I referred to the 
+statutory framework within which Ma ritime New Zealand operates, and 
+limitations on the Director's powers to go beyond encouraging Port operators and 
+Regional Councils to take specific actions. I re -state my view that it would be 
+more appropriate for the Commission to address its concern dir ectly with the 
+parties that it wishes to see take action.  
+8.6. In order to fully contextualize, and to be read in conjunction with his specific responses to the 
+Commission’s recommendations 029/17, 030/17 and 031/17, the director referred to the 
+following paragraphs in response to the Commission’s draft recommendations:  
+Part 3A of the  Maritime Transport Act 1994 (MTA) provides for local regulation of 
+maritime activity and sets out the functions and powers of regional councils and 
+harbourmasters.  Under section 33C, for the purpose of ensuring maritime safety 
+in their regions, regional councils may regulate ports, harbours, waters and 
+maritime -related activities in their regions.  Section 33F sets out the powers of 
+harbourmasters for the purposes of ensuring maritime safety, or enforcing 
+navigation bylaws or regulations and rules made un der the MTA.  
+While these functions and powers are in the MTA, neither the Maritime NZ 
+Authority nor the Director has the power to direct or require regional councils or 
+harbourmasters to take the actions that TAIC has recommended.  An alternative 
+option wo uld be for the Commission to make these recommendations directly to 
+the local harbour authorities.  
+Final Report MO -2016 -204 
+<< Page 24 >>
+ 9. Key l essons  
+9.1. There must be an absolute agreement and shared understanding between the vessel ’s bridge 
+team and the pilot as to the passage plan and monitoring  against that plan.  
+9.2. Vessels ’ bridge teams must actively promote and use the concept of b ridge resource 
+management , including the incorporation of pilot s into the bridge team s, to manage voyage s 
+properly . 
+9.3. A vessel’s  ECDIS is an important system for monitori ng the progress of the vessel  and warning 
+the bridge team when things could go wrong.  It is essential that it be configured correctly for 
+the phase of navigation and the proximity to navigation hazards . 
+  
+ 
+Final Report MO -2016 -204 
+<< Page 25 >>
+ Appendix 1:  Port Otago pilot information sheet and the vessel’s ‘pilot card’ 
+ 
+  
+
+Final Report MO -2016 -204 
+<< Page 26 >>
+ 
+
+ 
+Final Report MO -2016 -204 
+<< Page 27 >>
+   
+
+Final Report MO -2016 -204 
+<< Page 28 >>
+ Appendix 2 : Standards of training, certification and watchkeeping Manila 
+2010, code Chapter II, table A -II/1 
+Table A -II/1 
+Specification of minimum standard of competence for officers in charge of a navigational watch on 
+ships of 500 gross tonnage or more  
+ 
+Function:     Navigation at the operational level  
+ 
+ Competence  Knowledge, 
+understanding and 
+proficiency   Methods for 
+demonstrating 
+competence  Criteria for 
+evaluating 
+competence  
+  
+Maintain a 
+safe 
+navigational 
+watch  
+  Watchkeeping  
+ 
+Thorough knowledge 
+of the content, 
+application and intent 
+of the  International 
+Regulations for 
+Preventing Collisions 
+at Sea , 1972, as 
+amended  
+ 
+Thorough knowledge 
+of the Principles to be 
+observed in keeping a 
+navigational watch  
+ 
+The use of routeing in 
+accordance with the 
+General Provisions on 
+Ships' Routeing  
+ 
+The use of information 
+from navigational 
+equipment for 
+maintaining a safe 
+navigational wa tch 
+ 
+Knowledge of blind 
+pilotage techniques  
+ 
+The use of reporting in 
+accordance with the 
+General Principles for 
+Ship Reporting 
+Systems and with VTS 
+procedures  
+ 
+ Examination and 
+assessment of evidence 
+obtained from one or 
+more of the following:  
+ 
+.1 approved in -service 
+experience;  
+ 
+.2 approved training 
+ship experience  
+ 
+.3 approved simulator 
+training, where 
+appropriate  
+ 
+.4 approved laboratory 
+equipment training  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assessment of 
+evidence obta ined from 
+one or more of the The conduct, handover 
+and relief of the watch 
+conforms with accepted 
+principles and 
+procedures  
+ 
+A proper look -out is 
+maintained  at all times 
+and in such a way as to 
+conform to accepted 
+principles and 
+procedures  
+ 
+Lights, shapes and 
+sound signals conform 
+with the requirements 
+contained in 
+the Interna tional 
+Regulations for 
+Preventing Collisions 
+at Sea, 1972 , as 
+amended, and are 
+correctly recognized  
+ 
+The frequency and 
+extent of monitoring of 
+traffic, the ship and the 
+environment conform 
+with accepted 
+principles and 
+procedures  
+ 
+A proper record is 
+maintai ned of the 
+movements and 
+activities relating to the 
+navigation of the ship  
+ 
+ 
+Final Report MO -2016 -204 
+<< Page 29 >>
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bridge resource 
+management  
+ 
+Knowledge of bridge 
+resource management 
+principles, inclu ding:  
+ 
+.1 allocation, 
+assignment, and 
+prioritization of 
+resources  
+ 
+.2 effective 
+communication  
+ 
+.3 assertiveness and 
+leadership  
+ 
+.4 obtaining and 
+maintaining situational 
+awareness  
+ 
+.5 consideration of 
+team experience  following:  
+ 
+.1 approved training  
+ 
+.2 approved in -service 
+experience  
+ 
+.3 approved simulator 
+training  Responsibility for the 
+safety of navigation is 
+clearly defined at all 
+times, including 
+periods when the 
+master is on the bridge 
+and while under 
+pilotage  
+ 
+Resources are allocated 
+and assigned as needed 
+in correct priority to 
+perform necessary 
+tasks  
+ 
+Communication is 
+clearly and 
+unambiguously given 
+and received  
+ 
+Questionable decisions 
+and/or actions result in 
+appropriate challenge 
+and response  
+ 
+Effective leadership 
+behaviours are 
+identified  
+ 
+Team member(s) share 
+accurate understanding 
+of current and predicted 
+vessel state, navigation 
+path, and external 
+environment  
+ 
+  
+Final Report MO -2016 -204 
+<< Page 30 >>
+ Appendix 3: SOLAS Chapter V , Regulation 34 Safe Navigation and  
+Resolution A 893(21) Annex  
+1 Prior to proceeding to sea, the master shall ensure that the intended voyage has been 
+planned using the appropriate nautical charts and nautical publications for the area 
+concerned, taking into account the guidelines and recommendations developed by the 
+Organization.*  
+2 The voyage plan shall identify a route which:  
+.1 takes into account any relevant ships' routeing systems;  
+.2 ensures sufficient sea room for the safe passage of the ship throughout the voyage;  
+.3 anticipates all known navigational hazards an d adverse weather conditions; and  
+.4 takes into account the marine environmental protection measures that apply, and avoids, 
+as far as possible, actions and activities which could cause damage to the environment.  
+Resolution A 893(21) Annex  
+DRAFT GUIDELINES  FOR VOYAGE PLANNING  
+1. Objective  
+1.1 The development of a plan for voyage or passage, as well as the close and continuous 
+monitoring of the vessel's progress and position during the execution of such a plan, are of 
+essential importance for safety of life at sea, safety and efficiency of navigation and 
+protection of the marine environment.  
+1.2  The need for voyage and passage planning applies to all vessels. There are several factors 
+that may impede the safe navigation of all vessels and additional factors th at may impede 
+the navigation of large vessels or vessels carrying hazardous cargoes. These factors will 
+need to be taken into account in the preparation of the plan and in the subsequent 
+monitoring of the execution of the plan.  
+1.3  Voyage and passage plan ning includes appraisal, i.e. gathering all information relevant to 
+the contemplated voyage or passage; detailed planning of the whole voyage or passage 
+from berth to berth, including those areas necessitating the presence of a pilot; execution 
+of the plan ; and the monitoring of the progress of the vessel in the implementation of the 
+plan. These components of voyage/passage planning are analysed below.  
+ 
+2. Appraisal  
+2.1 All information relevant to the contemplated voyage or passage should be considered. The 
+following items should be taken into account in voyage and passage planning:  
+1. .1 the condition and state of the vessel, its stability, and its equipment; any operational 
+limitations; its permissible draught at sea in fairways20 and in ports; its manoeuvring 
+data, including any restrictions;  
+2. .2 any special characteristics of the cargo (especially if hazardous), and its distribution, 
+stowage and securing on board the vessel;  
+3. .3 the provision of a competent and well -rested crew to undertake the voyage or 
+passag e;  
+                                                        
+20 Navigable  water in a channel, harbour or river . 
+ 
+Final Report MO -2016 -204 
+<< Page 31 >>
+ 4. .4 requirements for up -to-date certificates and documents concerning the vessel, its 
+equipment, crew, passengers or cargo;  
+5. .5 appropriate scale, accurate and up -to-date charts to be used for the intended voyage 
+or passage, as well as any relevant permanent or temporary notices to mariners and 
+existing radio navigational warnings;  
+6. .6 accurate and up -to-date sailing directions,  lists of lights and lists of radio aids to 
+navigation; and  
+7. .7 any relevant up -to-date additional information, including:  
+.1 mariners' routeing guides and passage planning charts, published by competent 
+authorities;  
+.2 current and tidal atlases and tide tables;  
+.3 climatological, hydrographical, and oceanographic data as well as other appropriate 
+meteorological information;  
+.4 availability of services for weather routeing (such as that contained in Volume D of 
+the World Meteorological Organization's Pub lication No. 9);  
+.5 existing ships' routeing and reporting systems, vessel traffic services, and marine 
+environmental protection measures;  
+.6 volume of traffic likely to be encountered throughout the voyage or passage;  
+.7 if a pilot is to be used, infor mation relating to pilotage and embarkation and 
+disembarkation including the exchange of information between master and pilot;  
+.8 available port information, including information pertaining to the availability of 
+shore -based emergency response arrangemen ts and equipment; and  
+.9 any additional items pertinent to the type of the vessel or its cargo, the particular 
+areas the vessel will traverse, and the type of voyage or passage to be undertaken.  
+2.2  On the basis of the above information, an overall appr aisal of the intended voyage or 
+passage should be made. This appraisal should provide a clear indication of all areas of 
+danger; those areas where it will be possible to navigate safely, including any existing 
+routeing or reporting systems and vessel traff ic services; and any areas where marine 
+environmental protection considerations apply.  
+3. Planning  
+3.1 On the basis of the fullest possible appraisal, a detailed voyage or passage plan should be 
+prepared which should cover the entire voyage or passage from be rth to berth, including 
+those areas where the services of a pilot will be used.  
+3.2  The detailed voyage or passage plan should include the following factors:  
+8. .1 the plotting of the intended route or track of the voyage or passage on appropriate 
+scale char ts: the true direction of the planned route or track should be indicated, as well 
+as all areas of danger, existing ships' routeing and reporting systems, vessel traffic 
+services, and any areas where marine environmental protection considerations apply;  
+9. .2 the main elements to ensure safety of life at sea, safety and efficiency of navigation, 
+and protection of the marine environment during the intended voyage or passage; such 
+elements should include, but not be limited to:  
+.1 safe speed, having regard to the proximity of navigational hazards along the intended 
+route or track, the manoeuvring characteristics of the vessel and its draught in 
+relation to the available water depth;  
+.2 necessary speed alterations en route, e.g.,  where there may be limitations because of 
+night passage, tidal restrictions, or allowance for the increase of draught due to 
+squat and heel effect when turning;  
+.3 minimum clearance required under the keel in critical areas with restricted water 
+depth;  
+.4 positions where a change in machinery status is required;  
+.5 course alteration points, taking into account the vessel's turning circle at the planned 
+speed and any expected effect of tidal streams and currents;  
+Final Report MO -2016 -204 
+<< Page 32 >>
+ .6 the method and frequency of position fixing, including primary and secondary 
+options, and the indication of areas where accuracy of position fixing is critical and 
+where maximum reliability must be obtained;  
+.7 use of ships' routeing and reporting systems and vessel traffic services;  
+.8 con siderations relating to the protection of the marine environment; and  
+.9 contingency plans for alternative action to place the vessel in deep water or proceed 
+to a port of refuge or safe anchorage in the event of any emergency necessitating 
+abandonment of  the plan, taking into account existing shore -based emergency 
+response arrangements and equipment and the nature of the cargo and of the 
+emergency itself.  
+3.3 The details of the voyage or passage plan should be clearly marked and recorded, as 
+appropriate, on charts and in a voyage plan notebook or computer disk.  
+3.4  Each voyage or passage plan as well as the details of the plan, should be approved by the 
+ships' master prior to the commencement of the voyage or passage.  
+4. Execution  
+4.1  Having finalized the voyage or passage plan, as soon as time of departure and estimated 
+time of arrival can be determined with reasonable accuracy, the voyage or passage should 
+be executed in accordance with the plan or any changes made thereto.  
+4.2  Factors which should be t aken into account when executing the plan, or deciding on any 
+departure therefrom include:  
+.1 the reliability and condition of the vessel's navigational equipment;  
+.2 estimated times of arrival at critical points for tide heights and flow;  
+.3 meteorologi cal conditions, (particularly in areas known to be affected by frequent 
+periods of low visibility) as well as weather routeing information;  
+.4 daytime versus night -time passing of danger points, and any effect this may have on 
+position fixing accuracy; an d  
+.5 traffic conditions, especially at navigational focal points.  
+4.3  It is important for the master to consider whether any particular circumstance, such as the 
+forecast of restricted visibility in an area where position fixing by visual means at a crit ical 
+point is an essential feature of the voyage or passage plan, introduces an unacceptable 
+hazard to the safe conduct of the passage; and thus whether that section of the passage 
+should be attempted under the conditions prevailing or likely to prevail. T he master should 
+also consider at which specific points of the voyage or passage there may be a need to 
+utilize additional deck or engine room personnel.  
+5. Monitoring  
+5.1  The plan should be available at all times on the bridge to allow officers of the navigational 
+watch immediate access and reference to the details of the plan.  
+5.2  The progress of the vessel in accordance with the voyage and passage plan should be 
+closely  and continuously monitored. Any changes made to the plan should be made 
+consistent with these Guidelines and clearly marked and recorded.  
+ 
+ 
+Final Report MO -2016 -204 
+<< Page 33 >>
+ Appendix 4 : Relevant parts of the Molly Manx ’s passage plan – Otago Harbour  
+ 
+
+Final Report MO -2016 -204 
+<< Page 34 >>
+  
+
+ 
+Final Report MO -2016 -204 
+<< Page 35 >>
+  
+
+Final Report MO -2016 -204 
+<< Page 36 >>
+  
+ 
+
+ 
+Final Report MO -2016 -204 
+<< Page 37 >>
+ Appendix 5: Excerpts from Anglo -Eastern  Ship Management ’s shipboard 
+procedures manual  
+3.2 PASSAGE PLANNING AND VOYAGE EXECUTION  
+3.2.1  Passage Planning  
+3.2.1.1.  The objective of planning is to make an appraisal of the hazards  involved in advance 
+and establish the most favourable route whilst maintaining appropriate margins of 
+safety.  
+3.2.1.2.  Passage plan shall be made berth to berth, including areas under pilotage.  
+The Master is responsible for ensuring that a comprehensive passage plan is made 
+and executed. He may delegate the Second Officer or other Navigating Officers to 
+prepare the passage plan for the voyage.  
+3.2.1.3.  Passage planning is a fundamental part of operat ing a vessel safely and hence prior to 
+departure from a berth, as much of the plan must be completed as is possible. If the 
+entire plan  cannot be completed prior to sailing, the ship may depart provided that the 
+first part of the passage plan has been comp leted. The remainder plan must be 
+completed as soon as possible after sailing. …  
+3.2.13.8  Passage Planning on Electronic Charts:   Marking/ highlighting of electronic charts can 
+be carried out in a similar way to paper charts to identify radar conspicuous  targets, 
+no-go areas, parallel index lines (essential for the monitoring stage), transit marks, 
+clearing bearings, etc.  
+It is prudent for a simulated passage to be run prior to the vessel's departure to 
+ensure that the route does not enter any alarm preset danger areas that may 
+have been overlooked. Estimated positions should be marked on both paper and 
+electronic chart for each watch, in advance.  
+3.2.14.7  Execution  and Monitoring  on electronic  charts:  Navigating  officers  must  not become 
+over-reliant on ECDIS. Frequent checks should be made of the ECDIS position fixing 
+system (normally GPS) by the use of other means. Such checks should  include:  
+• Use of radar to check the accuracy of the charted position by 
+comparing the location of the radar target against  the charted  symbol;  
+• Visual cross bearings;  
+The full functionality of ECDIS cannot be achieved when operating in the raster 
+chart21 display (RCDS) mode and thus the system should always be operated in 
+ECDIS mode. Data input from the gyrocompass, speed log, echo sounder and 
+other electronic equipment should be periodically monitored to ensure accuracy.  
+3.2.17.4  The bridge team meeting is extremely important for preventing accidents. Master must 
+motivate and promote a culture of avoiding human errors by going through the passage 
+plan seriously and officers must question  each other and question the master if there are 
+any doubts about saf ety. The company strongly recommends a de -briefing be 
+conducted upon completion of passage and any important information forwarded to 
+the office.  
+  
+                                                        
+21 An accurate digital image displayed on an electronic screen.  It is essentially an electronic  picture of a 
+paper chart . 
+Final Report MO -2016 -204 
+<< Page 38 >>
+ 3.5.3  Bridge Resource Management  
+In spite of adequate training of individual officers, accidents sometimes o ccur 
+due to the bridge team not functioning well together.  
+Bridge (Marine) Resource Management (BRM) is the effective use of the bridge 
+team and the creation of an environment where “one-person error ” is eliminated.  
+3.5.3.1  ASSIGNMENTS AND DUTIES  
+Each vessel should employ a bridge  resource management system for vessel 
+navigation, collision avoidance, and bridge administration.  
+The specific duties described  below shall be applicable: Additional lookouts may be 
+required depending upon the circumstances of the case, including but not limited 
+to the seaman on watch being utilized for hand steering. (Cadets and trainees shall 
+not form a part of the bridge watch structure other than for training purposes).  
+ Conn  Traffic  Comms  Navigation  Other Duties  Helm  Lookout  
+ 
+ 
+ 
+ 
+ 
+ 
+TASKS  Ln charge of  
+Bridge 
+Team  
+Conn Ship 
+Give Helm  
+& Engine  
+Orders  
+ 
+Take 
+Collision 
+Avoidance 
+Action  Track 
+traffic on 
+Radar & 
+ARPA  Handle 
+external 
+VHF22 
+Comms . 
+ 
+Report to 
+VTS and 
+relevant 
+authorities  Fix Ship's 
+position  
+ 
+(Verify 
+position by 
+alternative 
+means)  Tend to 
+Telegraph  
+ 
+Monitor & report 
+helm  and engine 
+response  
+ 
+Keep Logs/ 
+Check List  
+ 
+Conduct 
+equipment tests/ 
+checks  
+ 
+Internal 
+Communications  Steer 
+Ship  Keep 
+Lookout  
+LEVEL 1  OOW (AB Available on Call).  
+LEVEL 2  oow ·Qualified Helmsman and 
+/or Lookout  
+LEVEL 3  Master/ Ch  
+Officer  oow qualified  Helmsman  
+and /or Lookout  
+LEVEL 4  Master/ Ch 
+Off/ Pilot  oow qualified  
+Helmsman  Lookout  
+LEVEL 5  Master/  
+Pilot OOW 1/Pilo t OOW2  qualified  
+Helmsman  Lookout  
+ 
+3.5.3.2  PROCEDURES FOR NAVIGATING WITH A PILOT  
+The pilot is an important  part of the Bridge team.  
+The officers  and Master  must make utmost efforts to function as one team with 
+the pilot. Procedures stated under 'Navigation with the Pilot on Board' should be 
+followed.  
+3.5.3.3  RESPONSIBILITIES AND COMMUNICATION GUIDELINES IN EMERGENCIES  
+In case of emergencies  the Master must be called to the bridge immediately. The 
+procedures given in the Emergency Manual must be followed.  
+3.5.3.4  GOALS, OBJECTIVES AND PRIORITIES  
+The primary goal of all watch officers is to function cohesively, and support each 
+                                                        
+22 Very high frequency.  
+ 
+Final Report MO -2016 -204 
+<< Page 39 >>
+ other so that errors of any one person do not create a hazardous situation and the 
+same are brought to notice and rectified well in time.  
+The bridge team shall achieve this by : 
+• Discussion of passage  plan  
+• Considering the maneuvering characteristics of vessel  
+• Bridge Team I Pilot Information  exchange  
+• Creation of a Team  environment  
+• Recognition and handling of stress or  distractions  
+3.5.3.5  COMMUNICATIONS  
+The IMO Recommended Standard Marine Communication Phrases shall be used in 
+all cases where simple English communication is  not possible.  
+Verbal orders for steering/ engine movements etc. must be repeated (closed loop) 
+to ensure that they have been correctly understood.  
+3.5.3.6  REASSIGNMENT OF TASKS  
+In case of the Master being incapacitated the chief officer shall take over 
+command of the bridge. The bridge team should  be familiar with, and capable 
+of taking over, each other's tasks.  
+Final Report MO -2016 -204 
+<< Page 40 >>
+ Appendix 6 : Extracts from New Zealand Port and Harbour Marine Safet y Code  
+Port passage planning and guidance  
+The purpose of port passage planning and guidance is to ensure that everyone involved in  the 
+movement of ships in the harbour:  
+ has a clear, shared understanding of potential hazards, margins of safety, and the  ship’s 
+characteristics;   
+ has agreed on the intentions and required actions for the conduct of the port  passage, including 
+the use of tugs and their availability, and any significant deviation  should it become necessary;  
+ knows relevant details of any partic ular port passage in advance.  
+The Harbourmaster will promote the use of port passage planning and ensure guidance is  available. As 
+a minimum, passage planning should apply to all ships that take a pilot or are  under the conduct of a 
+Pilot Exemption Certifi cate (PEC) holder. Where a ship takes a pilot,  the passage plan will be used in 
+conjunction with the master/pilot exchange.  
+The risk assessment for the port and harbour may indicate that passage plans are not  needed for all 
+ships, for example recreational craft. However, if it is necessary or practicable,  passage planning can 
+still be required for such craft.  
+Passage plan guidance is usually developed by the port operator in consultation with the  Harbourmaster 
+and pilotage provider. Guidance should focus on  critical port movements and  cover matters such as:  
+ entry to the port;   
+ entry to specific berths – for example the movement of deep draught ships to a  particular berth;  
+ ship sizes and cargoes;   
+ prevailing conditions and tidal constraints;   
+ tug allocation;   
+ holding areas; and   
+ recommended tracks, as appropriate.  
+Up-to-date passage plans and guidance should be published, and be available to harbo ur users and the 
+masters of visiting ships.  
+Plans adopted for particular passages are recorded. The pilot and the m aster of the ship  keep records 
+of their port passage plans in case they are needed for an accident  investigation.  
+Port passage plans may change if a pilot needs to react to unforeseen circumstances. Any  changes 
+must first be dis cussed with the master of the ship and, if relevant, with the harbo ur radio service. The 
+reasons for any change will be recorded.
+ 
+  
+  
+   
+ 
+  
+ 
+ 
+ 
+ 
+Recent Marine Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+ 
+MO-2016 -205 Fatal fall from height on bulk carrier, New Legend Pearl , 3 November 2016  
+MO-2015 -201 Passenger ferry Kea, collision with Victoria Wharf, Devonport, 17 February 2015  
+Interim Report 
+MO-2017 -203 
+ Burst nitrogen cylinder causing fatality on board the passenger cruise ship Emerald 
+Princess , 9 February 2017  
+MO-2012 -203 Fire on board Amaltal Columbia , 12 September 2012  
+MO-2016 -203 Bulk log carrier Mount Hikurangi, Crew fatality, during cargo securing  operation, 27 
+February 2016  
+MO-2014 -203 Fatal injury, Purse seine fishing vessel,  Captain M. J. Souza ,  24 August 2014  
+MO-2015 -202 Containership Madinah , loss of person overboard, Lyttelton Harbour entrance,  
+2 July 2015  
+MO-2016 -202 Urgent recommendat ion: Cruise ship Azamara Quest , contact with Wheki Rock, Tory 
+Channel, 27 January 2016  
+MO-2011 -202 Roll-on-roll-off passenger ferry Monte Stello , contact with rock, Tory Channel, 
+Marlborough Sounds, 4 May 2011  
+MO-2014 -201 Dream Weaver , flooding due to structural failure of the hull, Hauraki Gulf, 23 
+February 2014  
+MO-2010 -206 Coastal container ship Spirit of Resolution , grounding on Manukau Bar, Auckland,  
+18 September 2010  
+MO-2014 -202 Lifting sling failure on freefall lifeboat, general cargo ship Da D an Xia , Wellington,  
+14 April 2014  
+11-204 Container ship MV Rena  grounding, on Astrolabe Reef, 5 October 2011  
+13-201 Accommodation fire on board the log -carrier, Taokas Wisdom , Nelson, 11 July 2013  
+13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke’s Bay, 8 August 2013  
+12-202 Fishing vessel Torea , collision with uncharted rock, Foveaux Strait, 24 August 2012  
+09-210 Bulk carrier, Taharoa Express , cargo shift, Port Taharoa, 16 December 2009  
+10-204 Inquiry 10 -204:  Bulk carrier Hanjin B ombay , grounding, Mount Maunganui, 21 June 
+2010  
+ 
+10-202 M.V. Anatoki , grounding, off Rangihaeata Head, Golden Bay, South Island, 6 May 
+2010  
+11-204 Interim Report Marine inquiry 11 -204 Containership MV Rena  grounding  
+on Astrolabe Reef 5 October 2011  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 24.00         ISSN 1173 -5597 (Print)  
+                 ISSN 1179 -9072 (Online)  

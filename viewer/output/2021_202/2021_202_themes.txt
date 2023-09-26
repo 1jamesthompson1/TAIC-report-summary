@@ -8,18 +8,16 @@ Themes/causes present in the report:
 
 4. Vibration and Resonance: The report discusses the potential role of forced vibration and resonance in the unscrewing of the accumulator. The presence of vibration in the engine room, caused by operating machinery, could have contributed to the disestablishment of the steel-on-steel contact between the accumulator and its connector.
 
-5. Maintenance and Supervision: The report identifies shortcomings in the maintenance process, particularly during the port turnaround in Dunedin. The lack of rigorous supervision and checks during the installation of the new accumulator is highlighted as a safety issue.
+5. Maintenance and Supervision: The report identifies shortcomings in the maintenance process, particularly during port turnarounds, which did not adequately manage the risk of leaving systems in an unsafe state. The lack of rigorous checks and sign-offs for completed tasks is highlighted as a safety issue.
 
-6. Halon System Non-Compliance: The report raises concerns about the non-compliance of the Halon system, which was located in the engine room. The risk of the system being compromised by a fire it was installed to combat is discussed, along with the need for a compliant replacement system.
+6. Halon System Non-Compliance: The report highlights that the Halon system on board the vessel was non-compliant with performance standards, as the Halon bottles were located in the engine room. This increased the risk of the system being compromised in the event of a fire.
 
-7. Response to the Fire: The crew's response to the fire is generally commended, but there are lessons to be learned to improve the standard of future emergency response. Issues such as communication, reporting to emergency assembly points, and completing headcounts are highlighted.
+7. Response to the Fire: The crew's response to the fire generally followed good industry practice, but there were lessons to be learned to improve the standard of future emergency response. Issues such as communication, reporting to emergency assembly points, and completing headcounts were identified.
 
-8. Engine Room Exhaust Fan: The failure of the No. 2 exhaust fan to shut down during the fire is identified as a safety issue. The report discusses the burnt-out shunt trip coil winding on the circuit breaker and the potential consequences of the fan continuing to operate.
+8. Engine Room Exhaust Fan: The failure of the No. 2 exhaust fan to shut down during the fire hampered the crew's efforts to close down the engine room and deprive the fire of oxygen. The burnt-out shunt trip coil winding on the electrical circuit breaker for the fan was identified as the cause of the failure.
 
-9. Halon System Usage: The decision not to activate the Halon system during the fire is discussed, along with the associated risk of the system becoming partially or fully unserviceable over time.
+9. Halon System Availability: The decision not to activate the Halon system was reasonable at the time, but it carried a degree of risk. The report highlights the importance of having sufficient Halon gas available in case the fire escalates and the system is needed.
 
-10. Maintenance Supervision: The report highlights the need for improved supervision and control of maintenance conducted by shore contractors during port turnarounds to ensure systems are not left in an unsafe state.
+10. Compliance and Certification: The report raises questions about the approval and certification process for the non-compliant Halon system, as it was approved by the Lloyds Classification Society despite not meeting performance standards.
 
-11. Halon System Compliance: The non-compliance of the Halon system with performance standards and regulations is discussed, along with the need for a compliant replacement system.
-
-12. Firefighting Response: The report acknowledges that the crew's firefighting response followed good industry practice and resulted in the successful extinguishment of the fire. However, there are lessons to be learned to improve future emergency response standards.
+11. Maintenance and Installation Manual: The report notes the absence of specific guidance in the manufacturer's maintenance and installation manual regarding the replacement interval for the bladder of the accumulator. This lack of guidance could contribute to uncertainties in maintenance practices.

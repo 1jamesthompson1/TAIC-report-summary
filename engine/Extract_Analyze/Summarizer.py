@@ -105,7 +105,7 @@ class ReportSummarizer:
             # Scale the average to add up to 100
             weighting_average = [round(weight * 100 / sum(weighting_average), ndigits =3 ) for weight in weighting_average]
 
-            if sum(weighting_average) != 100:
+            if round(sum(weighting_average),3) != 100:
                 print("Error weightings should add up to 100 after scaling.")
                 continue
 

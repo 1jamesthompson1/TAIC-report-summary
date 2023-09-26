@@ -31,14 +31,14 @@ causes of accidents and incidents with a view to avoiding similar occurrences in
 rather than to ascribe blame to any person.”  
 Transport Accident Investigation Commission Act 1990 , s4 Purpose  
 The Transport Accident Investigation Commission is an independent Crown entity and 
-standing commission of inqui ry. We investigate selected maritime, aviation and rail accidents 
+standing commission of inquiry. We investigate selected maritime, aviation and rail accidents 
 and incidents that occur in New Zealand  or involve New Zealand -registered aircraft or 
 vessels.  
 Our investigations are for the purpose of avoiding similar accidents in the future. We 
 determine and analyse contributing factors, explain circumstances and causes, identify safety 
 issues, and make recommendations to improve safety. Our findings cannot be used to 
 pursue criminal, civil  or regulatory action.  
-At the end of every inquiry, we sh are all relevant knowledge in a final report. We use our 
+At the end of every inquiry, we share all relevant knowledge in a final report. We use our 
 information and insight to influence others in the transport sector to improve safety, 
 nationally and internationally.  
  
@@ -70,13 +70,13 @@ otherwise specified.
 Verbal probability expressions  
 For clarity, the Commission uses standardised terminology where possible.  
 One example of this standardisation is the terminology used to describe the degree of 
-probability (or likelihood) that an event h appened, or a condition existed , in support of a 
+probability (or likelihood) that an event happened, or a condition existed , in support of a 
 hypothesis. The Commission has adopted this terminology from the Intergovernmental Panel 
 on Climate Change and the Australian Transport Safety Bureau models. The Commission 
-chose these models because of thei r simplicity, usability, and international use. The 
-Commission considers these models reflect its functions. These functions include making 
+chose these models because of their simplicity, usability, and international use. The 
+Commission considers these models reflect its functions. These functions in clude making 
 findings and issuing recommendations based on a wide range of evidence, whether or not 
-that evidence would be admiss ible in a court of law.  
+that evidence would be admissible in a court of law.  
  
 Terminology  Likelihood  Equivalent terms  
 Virtually certain  > 99% probability of occurrence  Almost certain  
@@ -109,7 +109,7 @@ Rārangi take
   
 1 Executive summary ................................ ................................ ................................ ........................  1 
 What happened  ................................ ................................ ................................ ................................ ...............  1 
-Why it happen ed ................................ ................................ ................................ ................................ ............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
 What we can learn  ................................ ................................ ................................ ................................ ..........  2 
 Who may benefit  ................................ ................................ ................................ ................................ ............  2 
 2 Factual information  ................................ ................................ ................................ .......................  3 
@@ -145,18 +145,18 @@ General ................................ ................................ ......
 Safety issues ................................ ................................ ................................ ................................ ...................  51 
 6 Recommendations  ................................ ................................ ................................ .......................  53 
 General ................................ ................................ ................................ ................................ .............................  53 
-Notice of recommendations  ................................ ................................ ................................ ....................  54 
-7 Key lessons  ................................ ................................ ................................ ................................ ... 55 
-8 Data summary  ................................ ................................ ................................ ..............................  56 
-9 Conduct of the Inquiry  ................................ ................................ ................................ ................  57 
-Abbreviations  ................................ ................................ ................................ ................................ ....... 59 
-Glossary  ................................ ................................ ................................ ................................ ................  61 
-Appendix 1  Wave formation and characteristics  ................................ ................................ ..........  63 
-Appendix 2  The Enchanter ’s stability information  ................................ ................................ ........  67 
-Appendix 3  Maritime Rules Part 40C  ................................ ................................ .............................  70 
-Appendix 4  Post-salvage inspection  ................................ ................................ ..............................  73 
-Appendix 5  Expert analysis of EPIRB data  ................................ ................................ .....................  75 
-Appendix 6  Rescue helicopter flight data (TracPlus data)  ................................ ...........................  88 
+Notice of recommendations  ................................ ................................ ................................ ....................  56 
+7 Key lessons  ................................ ................................ ................................ ................................ ... 57 
+8 Data summary  ................................ ................................ ................................ ..............................  58 
+9 Conduct of the Inquiry  ................................ ................................ ................................ ................  59 
+Abbreviations  ................................ ................................ ................................ ................................ ....... 61 
+Glossary  ................................ ................................ ................................ ................................ ................  63 
+Appendix 1  Wave formation and characteristics  ................................ ................................ ..........  65 
+Appendix 2  The Enchanter ’s stability information  ................................ ................................ ........  69 
+Appendix 3  Maritime Rules Part 40C  ................................ ................................ .............................  72 
+Appendix 4  Post-salvage inspection  ................................ ................................ ..............................  75 
+Appendix 5  Expert analysis of EPIRB data  ................................ ................................ .....................  77 
+Appendix 6  Rescue helicopter flight data (TracPlus data)  ................................ ...........................  90 
  
 Figures  
 Figure 1: Fishing charter vessel Enchanter  ................................ ................................ .........................  iii 
@@ -172,12 +172,12 @@ Figure 9: Organisation of the New  Zealand search and rescue system  ...........
 Figure 10: Structure of the New  Zealand SAR network and the agencies involved in it  ..............  15 
 Figure 11: Screenshot from a chart plotter, representing the skipper’s intended route around 
 Murimotu Island (taken from another company -owned vessel)  ................................ ....................  18 
-Figure 12: Part of Chart NZ51 showing the track of the EPIRB encoded GN SS positions (green 
+Figure 12: Part of Chart NZ51 showing the track of the EPIRB encoded GNSS positions (green 
 rectangles, representing location area of certainty) and Enchanter 's track as estimated by the 
 skipper (red)  ................................ ................................ ................................ ................................ .........  21 
 Figure 13: Portion of Navionics chart for North Cape showing encoded GPS positions 
-transmitted by the EPIRB marked by key tim es. ................................ ................................ ..............  22 
-Figure 14: Combined tide and current drift modelling for 20 minutes before the accident ( top) 
+transmitted by the EPIRB marked by key times.  ................................ ................................ ..............  22 
+Figure 14: Combined tide and current drift modelling for 20 minutes before the accident (top) 
 and 100 minutes after (bottom), conducted by the RCC during the SAR operation  ....................  23 
  
 Final Report MO -2022 -201 |  Page vii Figure 15: Marked up portion of Navionics chart for North Cape  ................................ ..................  27 
@@ -195,20 +195,20 @@ Figure 22: EPIRB automatic release sequence  ................................ ..
 Figure 23: Organisation chart showing the relationship between the air ambulance sector and 
 the RCC. (The green arrows represent funding lines.)  ................................ ................................ ..... 42 
 Figure 24: Coastguard Houhora vessel  ................................ ................................ ..............................  48 
-Figure 25: Significant wave height ................................ ................................ ................................ ..... 64 
-Figure 26: Changes in orbital characteristics of water when waves transition to shallow water.  65 
-Figure 27: Wave changes as waves approach the shore  ................................ ................................ .. 65 
-Figure 28: Relationship between buoyancy, weight and centre of gravity  ................................ .... 67 
-Figure 29: GZ curve for the Enchanter, representative of its  ................................ ...........................  68 
-Figure 30: Sample calculation representing a typical load case for the Enchanter  .......................  69 
+Figure 25: Significant wave height ................................ ................................ ................................ ..... 66 
+Figure 26: Changes in orbital characteristics of water when waves transition to shallow water.  67 
+Figure 27: Wave changes as waves approach the shore  ................................ ................................ .. 67 
+Figure 28: Relationship between buoyancy, weight and centre of gravity  ................................ .... 69 
+Figure 29: GZ curve for the Enchanter, representative of its  ................................ ...........................  70 
+Figure 30: Sample calculation representing a typical load case for the Enchanter  .......................  71 
 Figure 31: The Enchanter being prepared for towing after raising (top left); being winched up 
-the beach (top right); on the beach after salvage (bottom)  ................................ ............................  73 
-Figure 32: The Enchanter showing damage to bow sustained during salvage  (top); overview of 
+the beach (top right); on the beach after salvage (bottom)  ................................ ............................  75 
+Figure 32: The Enchanter showing damage to bow sustained during salvage (top); overview of 
 what had been the main saloon (middle); and detail of failed connection between the hull and 
-superstructure (bottom).  ................................ ................................ ................................ ....................  74 
-Figure 33: Flight data showing helicopter hovering over EPIRB encoded position (green dots)  88 
+superstructure (bottom).  ................................ ................................ ................................ ....................  76 
+Figure 33: Flight data showing helicopter hovering over EPIRB encoded position (green dots)  90 
 Figure 34: Close up of helicopter flight path hovering over EPIRB encoded position (green dot).
- ................................ ................................ ................................ ................................ ..............................  88 
+ ................................ ................................ ................................ ................................ ..............................  90 
  
  
 
@@ -223,7 +223,7 @@ Northland  to the Three Kings Island s with eight  passengers and two crew on bo
 20 March  2022 , it was heading  back from the Three Kings Islands  towards Murimotu  
 Island off North Cape , where the skipper  intended to anchor for the night . 
 1.2 At about 1950 the vessel was broadly  east of  Murimotu  Island when it was struck on its 
-port side by a l arge steep wave , rapidly rolling the vessel onto its side. The 
+port side by a large steep wave , rapidly rolling the vessel onto its side. The 
 superstructure comprising  the main saloon and the flybridge separate d from the hull  
 and the Enchanter  capsized . 
 1.3 The New Zealand Rescue Coordination Centre (the RCC) was alerted to the accident by 
@@ -232,27 +232,27 @@ initiated a search and rescue response.
 1.4 Only five of the ten people survived the accident. The survivors  were retrieved from the 
 upturned hull and other floating debris by the first rescue helicopter to arrive at the 
 scene . The bodies of the remaining five people  were recover ed after an almost two -day 
-search and rescue operation inv olving multiple aircraft and sur face vessels.  
+search and rescue operation inv olving multiple aircraft and surface vessels.  
 Why it happened  
 1.5 The Enchanter should easily have coped with the sea conditions off North Cape at the 
 time of the accident . However , it is about as likely as not  the vessel had strayed into 
 shallower water off Murimotu  Island , an area that  is prone to  occasional, naturally 
 occurring , larger waves peak ing as they entered  the shallow ing water .  
 1.6 When the Enchanter  rapidly rolled onto its side , the force  of the water  exceeded the 
-design parameters of the vessel’s superstructure . This  caused the  superstructure  to 
+design parameters of the vessel’s superstructure . This  caused the superstructure  to 
 separate from the hull , resulting in  the Enchanter fully capsiz ing. 
 1.7 Due to the suddenness of the capsize  none of the people were wearing or had access 
 to life jacket s, and the life raft s likely  did not automatically deploy , which  left those in 
 the water with no or limited means of flotation.  
 1.8 None of the four lifebuoy s on board had effective retro reflective tape  and only two 
 had a strobe  light attached . Add to this  the absence of life jacket s with their  strobe 
-lights and retrorefle ctive markings , it would have been  difficult to detect the missing  
+lights and retroreflective markings , it would have been  difficult to detect the missing  
 people in the water at night . 
 1.9 There was a significant delay in the search for the  five missing people while fuel for the 
 rescue helicopt ers was sourced . Three of the missing people were alive in the water  
 when last seen by the survivors but  were  later found deceased .   
 1.10 Although we cannot determine with any certainty  whether  it would have changed the 
-outcome in this particular situation, the chances of surv ival after an accident are 
+outcome in this particular situation, the chances of survival after an accident are 
 greater if search and rescue operations are conducted promptly . 
  
 Final Report MO -2022 -201 
@@ -263,10 +263,10 @@ encounter occasional waves up to twice the average size.
 1.12 Mariners should , if possible , avoid navigating in shallow water in adverse wave 
 conditions . If shallow water cannot be avoided, they should be particularly vigilant and 
 expect waves much larger and steeper than those expected in deeper water.  
-1.13 It is importa nt that passengers either practi se putting on a life jacket  or are given a 
+1.13 It is important that passengers either practi se putting on a life jacket  or are given a 
 demonstration o f how to do so during a safety briefing, rather than having to work this 
 out under the pressure of an emergency.   
-1.14 Safety will be better served if life jacket s are dis tributed in several places around a 
+1.14 Safety will be better served if life jacket s are distributed in several places around a 
 vessel where they will be more accessible in a sudden emergency.  
 1.15 Wearing an inflatable life jacket  or similar buoyancy aid will enhance the safety of 
 people when fishing from open decks in open and exposed waters.  
@@ -288,14 +288,14 @@ search and rescue operations .
 Pārongo pono  
 Background  
 2.1 The Enchanter  was a 16.2-metre  charter fishing vessel operated by Enchanter  Fishing 
-Charters , primaril y out of Mangōnui  in Northland, New Zealand . A group of eight  
+Charters , primarily out of Mangōnui  in Northland, New Zealand . A group of eight  
 people had booked a five-day fishing charter out of  Mangōnui  to the Three Kings 
 Island s, beginning on Thursday 17 March  2022 . 
 Narrative  
 2.2 The eight people  (passengers ) arrived on board the Enchanter  on Wednesday 
 16 March  2022  and spent the night on board at the berth in Mangōnui . The next 
 morning  17 March  2022 , the skipper  gave the passengers a safety briefing , which 
-included the location and operation of the various lif e-saving apparatus. The 
+included the location and operation of the various life -saving apparatus. The 
 passengers were told that all the life jacket s were stowed under the bunks in the forward 
 passenger cabin but  were not shown what they looked like or how to put them  on. 
 2.3 The Enchanter  departed Mangōnui  at about 0830  with the skipper, first mate and the 
@@ -335,13 +335,13 @@ about 20 knots from the northeast.
 to allow the passengers to open the side windows to the main saloon . They also 
 deploy ed the towed fishing lures.  
 2.10 At 1940 the skipper called  Far North Radio on the VHF radio and advised of their 
-intention  to anchor for the night ‘under ’ Murimotu  Island . It was agreed  that the 
+intention to anchor for the night ‘under ’ Murimotu  Island . It was agreed  that the 
 skipper  would call Far North Radio once the Enchanter  was anchored , in approximately 
 one hour . 
 2.11 As the Enchanter  closed with the co astline near North Cape, six of the passengers were 
 relaxing in the saloon , one was asleep in the forward cabin  and one was seated on the 
 aft deck monitoring the fishing rods. The first mate was in the galley cooking the 
-evening meal and the skipper was on the flybridge  navigating the vessel . The 
+evening meal and the skipper was on the flybridge  navigating the vessel. The 
 Enchanter  was being steered by autopilot.  During an initial interview the skipper said 
 that they had “just started to turn to get us down ” (indicating a  change in heading to 
 head more southerly). This was when the vessel was broadly north -northeast o f 
@@ -370,13 +370,13 @@ trapped there . The skipper  was able to escape from the inverted flybridge.
 2.14 Within minutes of the accident , the first mate  climbe d on top of the inverted  hull and 
 made  a headcount . Including the first mate , nine people had survived the initial 
 capsize . Two (the skipper and one passenger) had climbed on  top of the inverted  
-flybridge , the first mate and two passengers were on the inverted hull, and four 
+flybridge , the first mate and two  passengers were on the inverted hull, and four 
 passengers  were in the water.  One of those four in the water had retrieved a lifebuoy , 
 which they had placed over their head and under the ir armpits.  
 2.15 Within minutes  the first mate noticed another  of the four passengers  in the water 
 floating face down . The first mate entered  the water and attempted revival while 
 swim ming  the passenger  to the inverted flybridge . Despite the combined efforts  of 
-those on the inverted fly bridge , the passenger  remained unresponsive . Sometime  later 
+those on the inverted flybridge , the passenger  remained unresponsive . Sometime  later 
 the body drifted away from the flybridge  despite attempts to secure  it to the flybridge.  
 2.16 Sometime before 2017, the Enchanter ’s Emergency Position -Indicating Radio Beacon 
 (EPIRB )4 surfaced next to the skipper . The EPIRB had been secured in a float -free 
@@ -408,7 +408,7 @@ to a rescue coordination cent re and thus alert search and rescue authorities th
  
 Final Report MO -2022 -201 
 << Page 6 >>
- 2.20 At about  2035 the RCC briefed the Coastguard New Ze aland (Coastguard) Duty Officer , 
+ 2.20 At about  2035 the RCC briefed the Coastguard New Zealand (Coastguard) Duty Officer , 
 who was  based in Auckland . Coast guard’s northern most  unit, Coastguard  Houhora , 
 was then tasked to respond . The RCC also tasked6 the Northland Emergency Services 
 Trust (NEST )7 helicopter crew  based in Whang arei. The NEST crew  gave an estimated 
@@ -450,29 +450,29 @@ conducted a risk assessment  and then  lowered a rescue swimmer to the water . T
 three survivors were then winched on board  one-by-one, accompanied by the rescue 
 swimmer . 
 2.25 By now, New Zealand  Police (NZ Police) had been briefed and had set up a forward 
-command post at Te Hapua , the closest poi nt to the search area with road access.  At 
+command post at Te Hapua , the closest point to the search area with road access.  At 
 0013 the NEST helicopter departed the scene  and flew  the three  rescued survivors to 
 Te Hapua , where  they were transferred  to ambulance staff. While in flight the 
 helicopter crew learned from the survivors that: two people were last seen sitting  on 
 the inverted hull; three  were in the water ; one was in the water  (but likely deceased ); 
 and one was unaccounted for (but was likely trapped in the inverted hull ). 
-2.26 The NEST helicopter returned immedia tely to the scene to resume  the search. They 
+2.26 The NEST helicopter returned immediately to the scene to resume  the search. They 
 detected  another light source that proved  to be from the two passengers on  the 
 inverted hull. One of the passengers had used the light from a mobile  phone to attract 
 their attention.  They had earlier tried to make an emergency 111 call but were 
 unsuccessful because of  poor mobile coverage in the area. In a similar fashion to the 
 first retrieval the two passengers were retrieved by 0108 . The helicopter crew decided 
-to fly these two  survivors directly to Kaitaia Hospital as the helicopter was running low 
+to fly these two  survivors  directly to Kaitaia Hospital as the helicopter was running low 
 on fuel. 
 2.27 Meanwhile, the A RHT helicopter  had stopped at North Shore Aerodrome to pick up a 
 more experienced winch operator , then at Dargaville  to top up w ith fuel , and again at 
 Kaitaia Hospital to top up with fuel from the NEST trailer before heading to the scene.  
 The two helicopters passed each other in flight and exchanged information . 
-2.28 The NEST  helicopter landed at Kaitaia Hospi tal and transferred the two passenge rs to 
+2.28 The NEST  helicopter landed at Kaitaia Hospi tal and transferred the two passengers to 
 medical staff. The helicopter crew then refuelled from the fuel trailer. However, there 
 was not enough fuel remaining to return to the scene, so that helicopter remained at 
 Kaitaia Hospital.  
-2.29 The ARHT  helicopter arrived on scene at 01 30 to begin the s earch for the five missing 
+2.29 The ARHT  helicopter arrived on scene at 01 30 to begin the search for the five missing 
 people . Meanwhile, the RCC had also tasked a  Royal New Zealand  Airforce P3 Orion 
 aeroplane (P3) to assist in the search . The P3  arrived on scene at about the same time  
 as the A RHT helicopter . The RCC assigned the  P3 as on -scene coordinat or9 circling at  a 
@@ -496,14 +496,14 @@ Final Report MO -2022 -201
 operator’s fishing charter vessel s Pacific Invader  had departed Mangōnui  and arrived at 
 the search area at 0400 . A commercial fishing vessel  Florence Nightingale , which had 
 been out at the Three Kings Islands at the time of the accident , arrived soon after 0400 . 
-Another commercial fishing vessel Katrina  arrived at the search area a t about 0612. All 
+Another commercial fishing vessel Katrina  arrived at the search area at about 0612. All 
 three vessels were coordinated into a search pattern or directed to items of interest by 
 the P3 circling above.  
 2.32 At about 0710 (first light ) the body of one of the passengers  was located and 
 recovered by one of the surface search vessels . When the refuelled ARHT  helicopter 
 had returned on scene , it took over as the on-scene coordinat or from the P3 , which 
 was by then getting low on fuel . The bodies of another two passengers were recovered 
-over the next 40 minutes , leaving two people  still missing . 
+over the next 40 minutes , leaving two people still missing . 
 2.33 Meanwhile, preparing for  an extended search operation, the RCC had tasked a second 
 rescue helicopter from AHRT . This second  helicopter arrived at the forward command 
 post at 0907  and relieved the first helicopter . 
@@ -513,25 +513,25 @@ at 1110. The RCC assigned HMNZS Taupo  with the role of on-scene coordinator,  t
 with ensur ing all marine assets were searching the designated areas assigned by the 
 RCC. However, t he HMNZS Taupo  misunderstood the meaning of on-scene coordinator  
 and assumed the naval warfare role of on-scene command, effectively taking control of 
-the search away fro m RCC.  
+the search away from RCC.  
 2.35 Over  the following  hours multiple assets join ed the search including  Coast guard 
 Houhora, two other commercial helicopters from Kerikeri  and another P3.  
 2.36 At 1319 the body of a fourth  passenger was located and recovered , leaving one 
 passenger still missing.  By 1527 the RCC had realised that air assets were  not following 
 their assigned  search patterns . HMNZS Taupo  had directed all assets to search another 
-area, based on their own drift-modelling calculation s. After some discussion with  
+area, based on their own drift-modelling calculation s. After some discussion with 
 HMNZS Taupo , the RCC took back control of the search area . 
 2.37 Meanwhile the RCC had tasked the NZ P olice Dive Squad to fly up from Wellington to 
 dive on the hull in anticipation of locating the final missing passenger. The Dive Squad 
 arrived in the area  by 1953  and prepared  to dive at first light the following morning , 
 22 March  2022 .  
-2.38 By 2020 all assets on site had been stood down for the evenin g. HMNZS Taupo  had 
+2.38 By 2020 all assets on site had been stood down for the evening. HMNZS Taupo  had 
 marked the hull by attaching a  rope with a  white buoy  earlier in the afternoon. The P3  
 recorded the GPS coordinates of the hull before leaving the scene.  
 2.39 However, the following morning  the inverted  hull could not be located . A helicopter 
 was tasked with searching for the upturned hull. At 1239 the hull was located and the 
 vessel with the NZ Police D ive Squad on board was  directed to th at location. The body 
-of the last missing passenger was recovered from the hull at 1654 , mark ing the end of 
+of the last missing passenger was recovered from the hull at 1654 , marking the end of 
 the search and rescue task. 
 Salvage  
 2.40 In the days after the completion of the search and rescue task, the inverted hull of the 
@@ -539,7 +539,7 @@ Enchanter  was taken under tow , as it was considered a danger to surface naviga
  
 
 << Page 9 >>
- Final Report MO -2022 -201 However , as soon as the tow bega n, the hull rolled back upright  and then sank in 
+ Final Report MO -2022 -201 However , as soon as the tow began , the hull rolled back upright  and then sank in 
 about 24 metres water depth . 
 2.41 The tow vessel then attempted to drag the hull across the seabed into deeper water .10 
 However, the manoeuvre was unsuccessful and , according to divers who were on 
@@ -549,7 +549,7 @@ bottom of the hull as being undamaged before  it sank.
 2.42 On 31 March  2022 , the sunken hull was  raised to the surface and towed to a private 
 launching ramp just inside the entrance to Houhora  Harbour. The hull was grounded in 
 the mud at high water . When the tide receded , the hull was winched through the mud 
-to a point  where the Comm ission was able to  conduct a thorough inspection . (See 
+to a point  where the Commission was able to  conduct a thorough inspection . (See 
 Figure 5 and Appendix 4 for photographs taken during this inspection .) 
  
 Figure 5: The Enchanter ’s hull on the beach at Houhora Heads  
@@ -567,7 +567,7 @@ yielded no useful track coordinates.
  
 Final Report MO -2022 -201 
 << Page 10 >>
- Mete orological information  
+ Meteorological information  
 2.45 The location of the accident off North Cape lay between two MetService forecast sea 
 areas. The Three Kings Islands  lay within the Kaipara forecast area and the destination 
 anchorage behind Murimotu  Island lay just within the Brett forecast sea area (see 
@@ -584,7 +584,7 @@ Figure  7).
 (the evening before the accident) was:  
 Sunday 20  March  2022  
 Northeast 25 knots, rising to  35 knots this morning, changing northerly 15 knots north of 
-Kaipara Harbour this evening. Sea becoming very rough, easin g in the north. Long period 
+Kaipara Harbour this evening. Sea becoming very rough, easing in the north. Long period 
 southwest swell  2 metres developing. Northeast swell rising to 2 metres  in the north. Poor 
 visibility in scattered rain , with possible thunderstorms.  
 Monday 21  March  2022  
@@ -597,7 +597,7 @@ north.
 
 << Page 11 >>
  Final Report MO -2022 -201 2.48 The forecast for the sea area Brett issued by MetService at 2248 on 19  March  2022  (the 
-evenin g before the accident) was:  
+evening before the accident) was:  
 Sunday 20  March  2022  
 Northeast 25 knots, rising to 30 knots early afternoon . Sea becoming very rough. 
 Northeast swell rising to 2 metres.  Poor visibility in rain  with possible thunderstorms from 
@@ -621,7 +621,7 @@ weather eventuate .
 2.51 The weather conditions for the first three days of the trip were  as predicted : fine 
 weather with low swell  and little wind. The skipper frequently monitored the weathe r 
 forecast  as the trip progressed  and kept the passengers well informed.  On Saturday 
-19 March  2022 the skipper noted  that the cold f ront associated with the low pressure 
+19 March  2022 the skipper noted  that the cold front associated with the low pressure 
 in the Tasman Sea was still predicted to pass the Three Kings Islands from the 
  
 11 A USA-based National Center  for Environmental  Prediction  weather forecast model  that generates data for, 
@@ -639,7 +639,7 @@ Islands .
 northeast13 direction and dropped to 15 to 20 knots . The Enchanter  left the Princes 
 Islands  for the six-hour trip to North Cape , essentially following the weather system 
 that had passed through . 
-2.53 There are no wave -recording devices located in the sea area around North  Cape and 
+2.53 There are no wave -recording devices located in the sea area around North Cape and 
 the Three Kings Islands . The survivor s’ estimates of the wave conditions for the trip 
 back were reasonably consistent : about 2.5 metres average at the start and easing to 
 about 1.5 metres average as the Enchanter  progressed towards North Cape . (See 
@@ -670,7 +670,7 @@ of the main saloon and for two crew in a cabin behind and below the main saloon.
 15 Initially the vessel was purchased by the current owner as part of  a partnership, before forming a company.  
 16 Maritim e Rules Part 20 Operating Limits, Section 20.2(a) Coastal Limits [50 nautical miles off the coastline].  
 17 Maritime Rule s Part 20 Operating Limits, Section 20.2(a) Offshore Lim its [outside Coastal Limits out to 200 
-nautical miles off the coastline  but restricted by the surveyor in this case to l 00 nautical  miles]  
+nautical miles off the coastline  but restricted by the surveyor in this case to l 00 nautical miles]  
  
 
 << Page 13 >>
@@ -684,7 +684,7 @@ Figure 8: Map of  the New  Zealand  search and rescue region
 Category I SAR operations are coordinated by NZ Police at a local level , covering 
 searches within New Zealand  on land, inland waterways and clos e-to-shore marine 
 operations. Category II SAR operations are coordinated at a national level by the RCC. 
-These operations typically involve  missing aircraft, aircraft in distress and offshore 
+These operations typicall y involve  missing aircraft, aircraft in distress and offshore 
 marine operations within New Zealand ’s SAR region.  
 2.63 The New Zealand  Search and Rescue Council (NZSAR Council) and the NZSAR 
 Secretariat provide  strategic oversight and governance for the SAR sector. The NZSAR 
@@ -699,7 +699,7 @@ strategic coordination  (see Figure  9).
 Final Report MO -2022 -201 
 << Page 14 >>
   
-Figure 9: Organisat ion of the  New  Zealand  search and rescue system  
+Figure 9: Organisation of the  New  Zealand  search and rescue system  
 (Source : NZSAR Council)  
 2.65 SAR coordinators  are provided by NZ Police or the RCC depending on the category of 
 the SAR operation. They can task several  types of assets  provided by several agencies  
@@ -724,14 +724,14 @@ medical service helicopters  provided by NEST and ARHT . The helicopters are civ
 operated and have operational agreements with the National Ambulance Sector Office 
 (NASO) to serve as regional air ambulances.  
 2.68 For operators to maintain their NASO agreement, they must meet the criteria  outlined 
-in the NZ Ae romedical and Air Rescue Standard. This document was created by NASO 
+in the NZ Aeromedical and Air Rescue Standard. This document was created by NASO 
 to enforce standardi sation of aircraft, equipment and training among the different 
 civilian operators to better serve the health sector.  
-2.69 To better serve New Zealand , the NASO agreement al lows for air ambulances to be 
+2.69 To better serve New Zealand , the NASO agreement allows for air ambulances to be 
 used for the purposes of search and rescue when they are not being used for medical 
 purposes.  
 2.70 Other civilian operators may also be tasked for search and rescue operations 
-depending on the needs of the operation and availabilit y of aircraft . These assets may 
+depending on the needs of the operation and availability of aircraft . These assets may 
 
  
 Final Report MO -2022 -201 
@@ -746,7 +746,7 @@ crew on 24 -hour standby  and can be airborne within two hours of notification.
 Auckland. The y are  used for a variety of NZ P olice operations including search and 
 rescue . However , their uses  are limited by not being winch capable.  
 Fixed -wing aircraft  
-2.73 The RN ZAF maintain ed a fleet of P -3K2 Orion aircraft ( No. 5 Squadron), and C -130 
+2.73 The RNZAF maintain ed a fleet of P -3K2 Orion aircraft ( No. 5 Squadron), and C -130 
 Hercules aircraft (No. 40 Squadron) both of which were  long-range aircraft .18 These 
 large aircraft were  essential in providing coverage for New Zealand ’s broad search and 
 rescue region extending from Antarctica to several Pacific islands. One aircraft was on 
@@ -763,7 +763,7 @@ size and type  of which varies between locations , but the average size is betwe
 can be  deployed within 12 hours of notification.  
 2.77 NZ Police are equipped with two purpose -built response vessels , to aid in a variety of 
 police work including search and rescue operations  and NZ Police diver support . The 
-vessels are crewed by police specially tr ained in maritime operations , are located in 
+vessels are crewed by police specially trained in maritime operations , are located in 
 Auckland and Wellington  and can be deployed on 24  hour’s notice . 
 RCC asset database  
 2.78 The RCC maintain s a countrywide database  of all assets and their capabilities , which 
@@ -828,7 +828,7 @@ miles off Murimotu  Island  (about 0.8 nautical miles outside the 10  metre dept
 contour ), where the skipper intended to  begin taking  the Enchanter  south . (See 
 Figure  11 for a screenshot represen ting the skipper ’s planned  track , taken from another 
 company -owned vessel .) The skipper said they were adjusting the autopilot to broadly 
-follow this track . If the track was followe d, they would have  kept the vessel  in about  50 
+follow this track . If the track was followed,  they would have  kept the vessel  in about  50 
 metres water depth  as the Enchanter  closed with the coastline  and reached the turn  
 waypoint .24 The skipper was aware that it was risky to pass too close to the coastline 
 when sea conditions were adverse, particularly  when the waves were from the 
@@ -861,20 +861,20 @@ Turn waypoint
 << Page 19 >>
  Final Report MO -2022 -201 approximately  1950 , which was when the first mate had just looked at a mobile phone  
 to view a text message . 
-3.11 The Commission was not able to establish an accurate track  for the Enchanter  leadi ng 
+3.11 The Commission was not able to establish an accurate track  for the Enchanter  leading 
 up to the accident . The main GPS and chart plotter were in  the separated flybridge 
 structure , which was not recovered.  The Global star spot-tracking device that had been 
 installed by the owner had a habit of dropping offline. It did not transmit position 
 reports  for most of the trip from the Pri nces Islands to North Cape, except for five 
 occasions, the last two of which were at 1806 and 1906 (about 43 minutes before  the 
 accident ).  
-3.12 The second GP S unit retrieved from the skipper’s cabin  during the salvage of the hull  
+3.12 The second GPS unit retrieved from the skipper’s cabin  during the salvage of the hull  
 revealed no location data. 
 3.13 The skippe r advised the Commission that the accident happened north -northeast of 
 the awash rock  near Murimotu  Island in about 50 met res depth of water. This was 
 based on the skipper’s perception of where the vessel was , the observation s of water 
 depth using the echosounder , that they could see the gap between the mainland and 
-Murimotu Island  before  and after the capsize , and the estimated time of a rrival at  the 
+Murimotu Island  before  and after the capsize , and the estimated time of arrival at  the 
 anchorage . 
 3.14 The Commission has reached a  different  conclusion  from  the skipper  as to the location 
 of the accident . The Commission bases its view on an analysis of the EPIRB data , and 
@@ -917,18 +917,18 @@ miles east-northeast of this position  (see Figure  12).
 3.18 After t he EPIRB had surfaced , the first mate  made several attempts  to manually activate 
 the EPIRB in the dark , before  successful ly activating it between 2015 and 2016 .25. After 
 it was activated, it was tied to the floating flybridge. The RCC received the first 
-MEOSAR beacon alert at 2017 and the first transmission of the  beacon’s  encoded  GPS 
+MEOSAR beacon alert at 2017 and the first transmission of the beacon’s  encoded  GPS 
 position  at 2020. In Figure  12 the green track  shows the encoded positions  of the 
 EPIRB, and thus the location and drift direction of the flybridge , which the skipper, first 
 mate and one passenger were sitting atop.   
-3.19 The accuracy of t he encoded GPS positions transmitted by the EPIRB is also confirm ed 
+3.19 The accuracy of the encoded GPS positions transmitted by the EPIRB is also confirm ed 
 by comparing it with the TracPlus flight data26 from the first responding rescue 
 helicopter. During the initial rescue of the three surviving passengers on top of the 
 flybridge, the flight data shows the rescue helicopter  hovering  in close vicinity  to the 
-encoded position transmitted by the EPIRB at th e same time.  
+encoded position transmitted by the EPIRB at the same time.  
 3.20 Rescue helicopters are equipped with a homing device that helps locat e an activated 
 EPIRB in the event the position is not known. On the evening of 20  March  2022 , the 
-NEST rescue helicopter crew did not use their homing device . They flew to th e 
+NEST rescue helicopter crew did not use their homing device . They flew to the 
 flybridge using the encoded GPS position  transmitted by the EPIRB , which w as 
 provided to them by RCC, and visually identified the EPIRB by its flashing strobe light. 
 This demonstrates  that the encoded GPS position  transmitted by the EPIRB w as 
@@ -937,11 +937,11 @@ accurate, as it led the helicopter directly to the scene .
 track and the red shaded area represents the area where the skipper estimated the 
 accident occurred .  
 3.22 Figure  13 is an enlarged portion of Figure  12, show ing the individual times and GPS 
-positions for successi ve EPIRB encoded GNSS  transmissions to the RCC.  Figure  13 uses 
+positions for successive EPIRB encoded GNSS  transmissions to the RCC.  Figure  13 uses 
 a chart from the Navionics charting software ,27 which  show s depth contours  in more 
 detail .
  
-25 Time of activation is b ased on data received by the RCC . According to the EPIRB manufacturer , an EPIRB is 
+25 Time of activation is based on data received by the RCC . According to the EPIRB manufacturer , an EPIRB is 
 expected to transmit at approximately 50 seconds after activation.  
 26 The Trac Plus flight data is included in Appendix  6. 
 27Navionics product -SonarChartTM collects  sonar log data recorded from users  operating in the area to keep 
@@ -962,20 +962,20 @@ Figure 13: Portion of Navionics chart for North Cape showing encoded GPS  positi
 transmitted by the  EPIRB  marked by  key times.  
 Location of capsize  
 3.23 During the SAR operation the RCC w as using drift -modelling software to help 
-coordinate the search effort to the most li kely area .28 The drift modelling calculated the 
+coordinate the search effort to the most likely area .28 The drift modelling calculated the 
 net drift to be northward at the time and the location of the accident, mainly 
 influenced by the tide. High water at North Cape occurred at 2234. With the pending 
-change in tide, by 2130 (70 minutes after the  EPIRB activation) the calculated drift 
+change in tide, by 2130 (70 minutes after the EPIRB activation) the calculated drift 
 pattern turned to become easterly ( see Figure  14). 
 3.24 Objects in the water will drift in different directions depending on their characteristics. 
-A lightweight object floating on the surface is more likely to be influen ced by the wind 
+A lightweight object floating on the surface is more likely to be influenced by the wind 
 and surface wave action, whereas objects floating deeper in the water will more likely 
 be influenced by the tide and current. This phenomenon was observed during the SAR 
-operation. The hull of the upturned vessel drifted more in a southerly  direction. What is 
+operation. The hull of the upturned vessel drifted more in a southerly direction. What is 
 thought to have been a strobe light attached to a lifebuoy appeared to the survivors, 
 relative to their own drift rate, to be drifting closer to the shoreline under the influence 
-of the wind. The drift rate of the mostly submerged flybr idge was accurately tracked by 
-the EPIRB that was attached to it. The RCC drift modelling is consistent with the 
+of the wind. The drift rate of the mostly submerged flybridge was accurately tracked by 
+the EPIRB that was attached to it. The RCC drift modelling i s consistent with the 
 observed track of the EPIRB once it had been activated, which was initially northward 
 and then turned east.  
 3.25 Using the encoded positions transmitted by the EPIRB, the initial drift of the flybridge 
@@ -1014,10 +1014,10 @@ Final Report MO -2022 -201
 1 nautical mile  from where the EPIRB was activated. While this scenario was considered , 
 the mostly submerged flybridge would need to have travel led that distance in 
 30 minutes, being driven by the current at an average rate of 1.8 to 2 knots in an 
-opposing direction to t he drift modelling provided by the RCC as well as the drift of 
+opposing direction to the drift modelling provided by the RCC as well as the drift of 
 the EPIRB post activation . The Commission consider s this unlikely  given the local 
 conditions at the time of the accident . 
-3.30 The skipper ’s estimated location of capsize is in  a similar location to  where  the 
+3.30 The skipper ’s estimated location of capsize is in  a similar location to where  the 
 flybridge was located by  the NEST rescue helicopter  using the EPIRB ’s encoded 
 position , four hours later. For the skipper’s capsize location to be correct, there would 
 have had to have  either  been little to no  drift in the four-hour period between the 
@@ -1029,7 +1029,7 @@ correlated with the observed  track of the EPIRB after it had been activat ed.
 surface current s. The underwater topography can add a level of complexity to the 
 various tides and currents if near shore. These factors  add an element of  uncertainty to 
 any backdrift analysis . Reliable data source s recording  such local conditions  at North 
-Cape do not exis t. Therefore , to determine the approximate drift rate of the flybridge 
+Cape do not exist . Therefore , to determine the approximate drift rate of the flybridge 
 after EPIRB activation and the area of capsize, the Commission has  used time and 
 distance calculations based on  the only reliable data  available, the  EPIRB transmissions , 
 as these trans missions  most accurately reflect  the a pproximate  drift rate of the 
@@ -1050,7 +1050,7 @@ had been drifting above North Cape from 17 to 24  March  2022 . The other was  a
 Northland Regional Council waverider buoy located off the P urerua Peni nsular near the 
 Bay of Islands, some 70 nautical miles southeast of North Cape  and some 120 nautical 
 miles southeast of the Three Kings  Islands . The data from the Northland Regional 
-Council waverider buoy  is considered more representative of the general conditions of f 
+Council waverider buoy  is considered more representative of the general conditions off 
 Murimotu Island as it was not affected  by the weather pattern  off the west coast of 
 North Island . 
  
@@ -1082,14 +1082,14 @@ much smaller than the main waves coming from the northeast sector. Waves  from
 different directions can combine to form larger peaks and troughs . 
 3.38 Survivors from the Enchanter  estimated the main wave heights were in the range of 1.5 
 to 2 met res34 off North Cape at the time of the accident. These estimates broadly 
-correlate with  the wave heights  recorded off the Bay of Islands  as the frontal system 
+correlate with  the wave heights recorded off the Bay of Islands  as the frontal system 
 moved further south and the winds eased .  
 3.39 For a significant wave height of 2 met res in deep water , mariners can expect at least 
 one in every 3 ,000 waves (or 3 every 24 hours ) to reach 4 met res, twice the significant 
 wave  height  (see Appendix  1 for more detail on wave formation and characteristics ). In 
 deep water a wave of this size should not pose a threat to a vessel of the Enchanter ’s 
 size, construction  and stability . 
-3.40 The amount of energy a wav e possesses is representative of its height a nd length . If a 
+3.40 The amount of energy a wave possesses is representative of its height a nd length . If a 
 wave enters shallow water , its wavelength35 decreases with a consequential increase in 
 height while maintaining the same energy . When waves  reach water depths  less than 
 half of their wavelength , they interact with the seabed , causing them to slow, rise and 
@@ -1105,21 +1105,21 @@ wavelength is calculated to be about 76 metres. Such waves would begin to intera
 32 The time it takes two successive wave crests  to pass a specified point.  
 33 The wave peri od created by this weather system , in deep water , is unlikely to  change significantly over the 70 
 nautical miles  between the waverider buoy and the accident area.  
-34 These obs ervations are likely based on what they  were seeing, rather than a significant wave height.  
+34 These obs ervations are likely based on what they were seeing, rather than a significant wave height.  
 35 ,The distance from the trough in front of the wave and the trough behind the wave.  
  
 Final Report MO -2022 -201 
 << Page 26 >>
  with the seabed and start to peak at a depth of 38 metres. The shallower the water 
-gets, the more they wi ll peak until they begin to break at a water depth of about 4 
+gets, the more they will peak until they begin to break at a water depth of about 4 
 metres.  
 3.42 Only one survivor saw the wave approaching  and was able to give a detailed  
 description of the wave that capsized the Enchanter . That survivor was a passenger  
-sitting out on the aft fishi ng deck  observing the trawling lures  at the time . That 
+sitting out on the aft fishing deck  observing the trawling lures  at the time . That 
 passenger described seeing a ‘larger wave ’ approaching from the port side  from the 
 same direction as the prevailing swell . This wave’s  form did not initially cause concern , 
 but t hen as the wave neared the vessel it appeared to rise into a near -vertical wall . This 
-observation is consistent with a wave peaking as it  enter s shallow water.  
+observa tion is consistent with a wave peaking as it  enter s shallow water.  
 3.43 The underwater topography  off Murimotu  Island matches the wave performance 
 observ ed by the passenger. From seaward , the seabed off Murimotu  Island slopes 
 steeply from 50 to 10 metres water depth over 0.7 nautical miles (1300 met res). The 
@@ -1131,7 +1131,7 @@ the capsize occurred much closer i nshore and in shallow er water  than estimate
 skipper.  
 3.45 Consideration was given by the Commission  to whether the formation of what has 
 been  referred to as a ‘ rogue wave’ was a factor in the capsize. In recent decades 
-scientists have accepted t he concept of rogue waves. The United States National 
+scientists have accepted the concept of rogue waves. The United States National 
 Oceanic and Atmospheric  Administration refers to rogue waves as those  that are large, 
 unexpected and dangerous ; are nominally greater than twice the significant wave 
 height ; are very unpredictable; and often come from directions other than the 
@@ -1153,7 +1153,7 @@ discuss these safety issues in the following sections .
 
 << Page 27 >>
  Final Report MO -2022 -201     
-Figure 15: Marked up portion of Navionics chart for N orth Cape  
+Figure 15: Marked up portion of Navionics chart for North Cape  
 Vessel s tability  and construction  
 3.48 When a vessel is knocked  down by a wave and capsizes , its stability and construction  
 are factors to consider.  The Enchanter  was resurveyed for restricted offshore  limits  in 
@@ -1163,10 +1163,10 @@ Enchanter ’s stability characteristics well exceeded the minimum requirements 
 Part 40C. However, compliance with Rule s Part 40C is no guarantee against a vessel 
 capsizing. The Enchanter ’s stability manual included the following warning to the 
 master:  
-Safety I nformation  – Compliance with stability and freeboard criteria required under 
+Safety Information  – Compliance with stability and freeboard criteria required under 
 Maritime Rule [s] 40C does not ensure avoidance of capsizing regardless of the 
 circumstances. It is the master’s responsibility to execute prudence and good seamanship 
-with due reg ard to weather forecasts, navigation zone, speed, headings, load distribution 
+with due regard to weather forecasts, navigation zone, speed, headings, load distribution 
 and watertight integrity, so the vessel is operating in the safest mode possible against the 
 prevailing conditions at all times.  
 3.49 The stability analysis process involved modelling the form of the hu ll’s watertight 
@@ -1192,7 +1192,7 @@ main saloon there were openings leading to the sleeping quarters under the fored
 the engine room , and the crew ’s accommodation aft , all of which would  allow down -
 flooding40 to occur should water enter the main saloon or , as in this instance , if the 
 entire superstructure was lost when the vessel was knocked down.  
-3.51 The naval architect co nducting the stability analysis explained that the basis for 
+3.51 The naval architect conducting the stability analysis explained that the basis for 
 considering the hull as watertight was that these openings would remain above the 
 waterline when the vessel was heeled to its maximum angle before losing positive 
 stability . The three main openings through which down -flooding could occur  were all 
@@ -1210,7 +1210,7 @@ Dynamic stability in this context  is the vessel’s overall resistance to being
 in response to wav es and reaching that point of vanishing stability  (see Appendix 2 for 
 more detail on stability) . 
 3.53 A vessel with low dynamic stability is easily rolled past the point where it loses stability. 
-A vessel with high dynamic stability will take a l ot more wave energy to reach that 
+A vessel with high dynamic stability will take a lot more wave energy to reach that 
 point. The Enchanter  had relatively high dynamic stability, easily exceeding the 
 minimum requirements of Rules Part 40C.  
  
@@ -1222,14 +1222,14 @@ minimum requirements of Rules Part 40C.
 
 << Page 29 >>
  Final Report MO -2022 -201  
-Figure 17: Representati on of a vessel floating on its side with openings near the centreline  
+Figure 17: Representation of a vessel floating on its side with openings near the centreline  
 (not to scale)  
 3.54 From the  surviv ors’ accounts the Enchanter ’s final roll to starboard  was rapid . The wave 
 that struck the vessel had sufficient energy to roll the vessel immediately on to  its side 
 with sufficient force to implode the windows and structure forming  the main saloon . 
 Wave energy of this magnitude  is generated  as much from the wave’s steepness and 
 profile as its size . 
-3.55 The Enchanter ’s superstructure appears to h ave offered little resistance to the capsizing 
+3.55 The Enchanter ’s superstructure appears to have offered little resistance to the capsizing 
 energy of the wave . Within seconds the entire superstructure  separated from the hull. 
 This allowed water to down -flood  into the ‘water tight’  hull through the internal 
 opening s, thus contributing to  the total capsize.  
@@ -1250,7 +1250,7 @@ Final Report MO -2022 -201
 << Page 30 >>
          
 Figure 18: The inverted flybridge with a rescue swimmer and three  survivor s sitting atop what 
-had been the  ceiling of the main saloon and the floor of the flybridge  
+had been the ceiling of the main saloon and the floor of the flybridge  
 (Credit : Northland Emergency Services Trust ) 
 3.57 Post-salvage inspection confirmed that the separation of the superstructure from the 
 hull was not because of poor maintenance . The timber  around this connection  was in 
@@ -1264,7 +1264,7 @@ Figure 19: The Enchanter after salvag e
 3.58 We now consider whether the outcome would have been different if the superstructu re 
 had been strong enough to withstand the initial knock  down by the wave . If the 
 superstructure  had remained intact , it is about as likely as not  that the vessel would 
-not hav e capsized immediately. With the vessel floating on its side , part of the 
+not have capsized immediately. With the vessel floating on its side , part of the 
 Openings through which 
 down -flooding occurred  
  
@@ -1298,7 +1298,7 @@ their new intended purpose.
 3.62 The variation  in vessel design and purpose is therefore infinite. It would  not be 
 practicab le to have  one standard applicable to  all vessels.  
 3.63 The Enchanter ’s purpose changed several times over the life of the vessel. Each time it 
-was res urveyed and deemed fit for that purpose. T he Enchanter  was originally built for 
+was resurveyed and deemed fit for that purpose. T he Enchanter  was originally built for 
 a private owner  to a standard Haag design and method of construction . It was initially 
 designed as a motorsail er, then a Class IV launch, and ultimately was built as  a Class X 
 fishing vessel .43 Two years later in 1984 it was modified to carry passengers . Nine years 
@@ -1306,7 +1306,7 @@ later in 1993 t he Enchanter  was lengthened by two met res. It changed ownershi
 several times  (exactly how many is undetermined) . It was in commercial operation as a 
 charter sport -fishing vessel when the  curren t owner purchased the vessel  in 2004 . 
 Under its current ownership  it was resurveyed , enabling it to operate further offshore . 
-The changes required to achieve th ese new limits – an upgrade to the eq uipment to be 
+The changes required to achieve th ese new limits – an upgrade to the equipment to be 
 carried and a stability assessment – mainly related to how far from assistance  it could  
 be if an incident  occurred .  
 3.64 Charter sport -fishing vessel s are not required  to withstand a knock  down  or capsize 
@@ -1324,20 +1324,20 @@ Final Report MO -2022 -201
 suitable  weather condition s and in an appropriate manner , as emphasised by the note 
 to masters in the vessel’s stability manual .  
 3.65 In that context , the skipper had taken shelter until the adverse weather system had 
-passed over the area . The residual  sea con ditions for the trip from the Three Kings 
+passed over the area . The residual  sea conditions for the trip from the Three Kings 
 Islands  to North Cape  should have been  within the Enchanter ’s capabilities . However, 
 the vessel’s stability and structural resilience would have been tested  under the 
 prevailing conditions if operated in shallow er waters where steep breaking waves were 
 more likely to occur  and capsize the vessel.  
 3.66 Under similar circumstances  a more modern vessel of the same design  and built from 
-contemporary mat erials would be  less likely to suffer  the same degree of destruction . 
+contemporary mat erials would be less likely to suffer  the same degree of destruction . 
 However , that does not assume  the Enchanter  was not  fit for its intended purpose, 
 provided it was operated  in accordance with it s Marine Transport Operators Plan.  A 
 vessel’s survival is never reliant on the quality of its design and build  alone , nor only on 
 the way it is operated. It will always be a combination of both.  
  
 Survivability  
-Safety Issue : Maritime New Zealand ’s system for auditing and assessing the perform ance of 
+Safety Issue : Maritime New Zealand ’s system for auditing and assessing the performance of 
 accredited vessel surveyors is not ensuring they are interpreting and applying maritime rules 
 correctly  when surveying vessels.  
 3.67 The Enchanter  carried on board a variety of life-saving apparatus  for the purpose of 
@@ -1352,7 +1352,7 @@ passenger vessels that do not have to comply with SOLAS44 standards . Appendix 3
 Rules Part 40C outlines the required standards for life -saving equipment onboard.  
 Life jacket s 
 Safety Issue : New Zealand  maritime rules do not adequately address  the need for proper 
-stowage of life jackets on board passenger vesse ls so that  passengers have access to a life 
+stowage of life jackets on board passenger vessels so that  passengers have access to a life 
 jacket  in the event of a sudden catastrophic event.  
 3.69 Regardless of what other life -saving apparatus is carried on board , people will 
 inevitably  spend time in the water  if a vessel is lost or abandoned . Life jacket s45 are 
@@ -1372,7 +1372,7 @@ any onset of hypothermia  by allowing the wearer to ‘huddle ’ instead of swi
 thereby reduc ing the loss of body heat . 
 3.70 The Enchanter  had life jacket s on board for 30 people46. All 30 life jackets were stowed 
 under the bunks in the forward passenger cabin . When the sudden capsize occurred  
-nobody had time to access  the life jacket s. Consequently , none  of the  nine people who 
+nobody had time to access  the life jacket s. Consequently , none of the  nine people who 
 initially survived the capsize  was wearing a life jacket . 
 3.71 Of the five people who lost their lives, one is thought to have died almost immediately  
 in the cabin  and another soon after entering the water. For the remaining three it is not 
@@ -1407,7 +1407,7 @@ practi sed at putting on a life jacket  is a key safety lesson  arising from thi
 people should wear a life jacket  or other personal flotation device s. Under normal 
 circumstances it wouldn’t be considered necessary to wear one when occupying the 
 internal spaces of a vessel of the Enchanter ’s size and construction.  
-3.75 However, it is evident th at on these coastal and offshore  charters , fishing for large 
+3.75 However, it is evident that on these coastal and offshore  charters , fishing for large 
 species occurs on the open deck  when conditions are not calm. The risk of someone 
 falling overboard  deserves  consider ation . SOLAS life jacket s would not be suitable for 
 this type of activity  due to their bulk  and the risk of them becoming damaged . 
@@ -1418,12 +1418,12 @@ However, fully compliant inflatable life jacket s are available that would not c
 Final Report MO -2022 -201 
 << Page 34 >>
  the activity.  On the Enchanter there was no requirement to wear a life jacket  of any sort 
-when on the  open deck, and none were supplied by the skipper.  Lifebuoy s were 
+when on the open deck, and none were supplied by the skipper.  Lifebuoy s were 
 available on either side of the Enchanter  to throw to someone who may have fallen 
 overboard . However, these take time to deploy and there is no guarantee that they will 
-reach a non -swimmer i n the water in time , particularly if the vessel is trawling at the 
+reach a non -swimmer in the water in time , particularly if the vessel is trawling at the 
 time.  While not a maritime rule requirement, skippers should consider having and 
-enforcing a policy that covers when passengers must wear a life jacket  and should 
+enforci ng a policy that covers when passengers must wear a life jacket  and should 
 make them available.  
 Life raft s 
 3.76 Life raft s too are important for survival . They offer a  more effective solution than life 
@@ -1432,19 +1432,19 @@ offer  a sheltered haven free from immersion in  water , all but nega ting the r
 failure  and h ypothermia . 
 3.77 It is uncertain what  happened to the Enchanter ’s life raft s. They were not recovered and 
 there is no  evidence of them having deployed. Th ere were two life rafts secured by a 
-hydrostatic rel ease47 to the aft deck of the flybridge . The deck of the flybridge was the 
+hydrostatic release47 to the aft deck of the flybridge . The deck of the flybridge was the 
 platform to which  three of the survivors were  clingi ng when rescued . This flybridge 
 structure was also not recovered.  
 3.78 The hydrostatic release  is designed to activate and release the life rafts if they reach a 
 water depth of between 1.5 and 4 met res. If the vessel were to sink, the life rafts would 
 release , float to the surface and inflate.  However, the  flybridge broke free from the hull 
-and remained afloat. It is feasi ble that the life raft s never reached water depths of more 
+and remained afloat. It is feasible that the life raft s never reached water depths of more 
 than 1.5 metres during the capsize sequence  and thus remained attached to the 
 underside of the platform that the survivors were clinging to . If that was the case  the 
 survivors could  have , in hindsight,  reached under and manually released the life rafts.  
 3.79 Because the vessel was classed to operate in Coastal and Restricted Offshore limits, 
 maritime rules48 required that the two life raft s on board  the Enchanter  be SOLAS -type 
-rafts. However, surve y records show that both life rafts were of the non-SOLAS  type 
+rafts. However, survey records show that both life rafts were of the non-SOLAS  type 
 (see Figure  20). This non-compliance  had gone undetected by successive surveyors for 
 several  years . Although not directly relevant to this accident ( because the life raft s were 
 never deployed) , the non-compliance  is of concern. The difference between SOLAS and 
@@ -1453,11 +1453,11 @@ insulation  from temperature extremes the raft s must provide , and equipment av
 for longer -range  SAR assets to detect  the raft . 
 3.80 The Commission has made a recommendation  to the Director of Maritime 
 New Zealand  to implement a formal system of notifying surveyors of current and 
-emerging changes to maritime rules for the construction, mainten ance and surveying 
+emerging changes to maritime rules for the construction, maintenance and surveying 
 of vessel s, and provid e clarification where needed of the intent and application of 
 maritime rules . 
  
-47 A pressure -activated mechanism designed to au tomatically deploy a life raft when certain conditions are met . 
+47 A pressure -activated mechanism designed to automatically deploy a life raft when certain conditions are met . 
 48 Maritime Rules Part 42A -Safety Equipment – Life Saving Appliances  
  
 
@@ -1468,7 +1468,7 @@ Figure 20: Non-SOLAS life raft fitted to the Enchanter
 Lifebuoy s 
 3.81 Like life jacket s, lifebuoy s serve two purposes : they provide flotation and aid detection 
 by searchers through their bright orange colour , retro -reflective49 tape and, in some 
-cases,  a self -activating light.  They should be f itted with a grabline to aid retrieva l and 
+cases,  a self -activating light.  They should be fitted with a grabline to aid retrieva l and 
 to facilitate support for more than one person . Some are fitted with a buoyant line to 
 enable them to be secured to other floating items  or to enable someone to be pulled 
 towards a vessel  in the case of a person overboard . 
@@ -1478,7 +1478,7 @@ flybridge , and the other two  on top of the flybridge roof (see Figure  21).
 grabline. Two were required to be fitted with a self -igniting strobe light  and two with 
 an additional length of buoyant line.  
 3.84 Section 52 (2) of Rule s Part 40C  require s all life -saving appliances to meet the 
-perfor mance standards pre scribed in Maritime Rule s Part 42A  (Rules Part 42A)51. 
+performance standards pre scribed in Maritime Rule s Part 42A  (Rules Part 42A)51. 
 Section 4 of Rule s Part 42A – General requirements  for life-saving appliances  state s 
 that any life-saving appliance must meet  the requirements s et out in paragraphs 1.2.2.1 
 to 1.2.2.8  and paragraph 1.2.2.10 of section 1.2 of the International Life -Saving  
@@ -1489,7 +1489,7 @@ recommendations of the IMO.
 49 Reflect s light  back to its source instead of reflecting away in another direction.  
 50 Maritime Rule s Part 40C, Appendix 3, Section 3.2  – Lifebuoys  
 51 Maritime Rule s Part 42A: Safety Equipment – Life-Saving Appliances  – Performance , Maintenance and Servicing.  
-52 Code adopted by the Maritime Safety Committee of the International Maritime Organi zation  in Resolution  
+52 Code adopted by the Maritime Safety Committee of the International Maritime Organi zation  in Resolution 
 MSC.48(66)  
 Hydrostatic 
 release unit  
@@ -1504,7 +1504,7 @@ line, two did not have retro -reflective tape and two had the remnants of retro 
 reflective tape that was so deteri orated as to be ineffective .53 As with the non -
 compliant life raft s, these non-compliances  had gone undetected by successive 
 surveyors for several years . While this omission alone cannot be considered evidence 
-of a wider issue with the s tandard of surveying , the Commissio n has made a 
+of a wider issue with the s tandard of surveying , the Commission  has made a 
 recommendation  to Maritime New Zealand to ensure it has an adequate system for 
 monitoring the standards of marine surveying.  Retro -reflective tape is an important  
 feature  of life-saving  equipment . It aids in the detection of survival equipment and 
@@ -1524,7 +1524,7 @@ without direct contact from a search light.
 3.89 It cannot be said for certain  that the people in the water would have been detected 
 during the helicopter night search before they suc cumbed. However, their chances of 
 detection would have been significantly better had the various life -saving apparatus 
-been available and been appropri ately fitted with the required light sources and retro -
+been available and been appropriat ely fitted with the required light sources and retro -
 reflective tape.  
  
  
@@ -1537,16 +1537,16 @@ Figure 21: The Enchanter’s  lifebuoys (top left and right) and a typical compl
 (bottom right)  
 (Source: 2020 survey records)  
 Emergency Position -Indicating Radio Beacon (EPIRB)  
-3.90 An EPIRB is critical for  quickly and accurately  alerting  authorities  to an emergency  
+3.90 An EPIRB is critical for  quickly and accurately alerting  authorities  to an emergency  
 situation . They come in a variety of sizes and forms . There were two EPIRBs on the 
 Enchanter . The main unit was required to be float -free and automatically activate if 
 submerged . It was an upgrade requirement when the Enchanter  was resurveyed for 
 limited offshore  operations. The owner had kept the original EPIRB on board as a 
 backup  to the main one. This older unit was  stowed on a bracket in the main saloon . It 
-was not of the flo at-free type and had to be manually activated. Th is backup  EPIRB was 
+was not of the float -free type and had to be manually activated. Th is backup  EPIRB was 
 lost together with the debris of the  main saloon . 
 3.91 The main EPIRB was the unit that fortuitously surfaced next to the skipper soon after 
-escaping the inverted flybridge . It had been stored  in its float -free enclosure  next to 
+escaping the inverted flybridge . It had been stored in its float -free enclosure  next to 
 the float -free life raft s at the rear of the flybridge . Like the life raft s it was designed to 
 release from its enclosure  and float to the surface when submerged to a depth 
 between 1.5  and 4 met res (see Figure  22). 
@@ -1570,7 +1570,7 @@ the start of the search and rescue response .
 Figure 22: EPIRB automatic release sequence  
 (Source : McMurdo EPIRB user manual)  
 3.93 The failure of the EPIRB to automatically activate highlights the importance of having 
-multiple means of raising the alarm and for authori ties to have access to a vessel ’s 
+multiple means of raising the alarm and for authorities to have access to a vessel ’s 
 track history  if it is reported overdue.  As said , EPIRBs  come in a variety of types and 
 sizes. Personal locator beacons can provide a useful backup  to other alerting systems. 
 They are relatively inexpensive and small enough to fit in a pocket.  While not as robust 
@@ -1580,13 +1580,13 @@ circumstances , such as the Enchanter  accident  (safety lesson ).
 Vessel -tracking systems  
 Safety issue : There is no requirement for commercial vessels that carry passengers to be 
 fitted with any form o f tracking device such as an automatic identification system ( AIS) or 
-other commercially availab le tracking systems.  
+other commercially available tracking systems.  
 3.94 The owner of Enchanter  Fishing Charters had installed the Globalstar spot -tracking 
 device on all three of its vessels. The system was primarily to allow the owner /skipper ’s 
 partner at the shore base to track where the three vessels were . The system worked 
 most of the time , but the transmitter unit on the Enchanter  did drop offline from time 
 to time and required resetting.  Consequently , the system was of little use to the RCC 
-when coordinating the search and rescue. Had the ma in EPIRB been lost and not 
+when coordinating the search and rescue. Had the main EPIRB been lost and not 
 manually activated by the survivors, the Enchanter 's plight may not have been truly 
 understood for several  hours. It would have taken longer  for a search and rescue effort 
 to begin  based only on the Enchanter ’s missed check call with Far North Radio . 
@@ -1599,7 +1599,7 @@ and movement , either directly from the vessel to another  VHF transceiver or vi
 satellite.  This data is recorded and can be retrieved by the RCC to he lp establish a 
 vessel’s position and status  or, as in this case , the last known position.  
 3.96 The system was initially introduced worldwide to assist in collision avoidance but its 
-worth as a search and rescue t ool and a marine traffic control system was soon realised 
+worth as a search and rescue tool and a marine traffic control system was soon realised 
 and these have  become its primary use s over time . Currently, only international SOLAS 
 ships and certain classes of domestic ships are required to be fitted with AIS . Currently, 
 vessels such as the Enchanter  are not required to have it fitted.  
@@ -1615,24 +1615,24 @@ item,54 in which  the Commission suggested  that transport regulators encourage 
 where reasonable , require operators of transport vehicles to use tracking and location 
 technologies.  
 3.99 In the maritime context the watchlist item draws on two fatal maritime accidents, the 
-circumstances of which are no t too dissimilar to the Enchanter  accident ,55 In both cases 
+circumstances of which are not too dissimilar to the Enchanter  accident ,55 In both cases 
 the consequences of each accident could have been reduced had tracking 
 technologies such as an EPIRB or AIS been available.  No recommendations were made 
 in either of these reports to mandate the installation  of AIS on these small commercial 
 vessels because having it would not necessarily alert authorities that an accident had 
 occurred . 
 3.100  However, we now recognise the potential benefit of AIS as a SAR tool to guide 
-searchers directly to t he scene (as an EPIRB would  when activated ), particularly with the 
+searchers directly to the scene (as an EPIRB would  when activated ), particularly with the 
 increased use of satellite -based AIS and the much broader coverage  around the coast 
 that it affords.  AIS units have also become much smaller and cheaper to install. They 
-are increasingly be ing installed on smaller commercial and recreational craft.  
+are increasingly being  installed on smaller commercial and recreational craft.  
 3.101  The Commission has made a recommendation  to the Director of Maritime 
 New Zealand  to mandate the installation of AIS on certain categories of vessels, with a 
-focus on those that present a higher ri sk – those that carry passengers outside inshore 
+focus on those that present a higher risk – those that carry passengers outside inshore 
 limits.  
  
 54 TAIC, Watchlist, Technologies to track and locate, first published January 2015, last updated October 2021  
-55 Maritime Inquiry MO -2006 -204, Fishing Vessel Kotuku , Capsized, F oveaux Strait, 13  May 2006 (six fatalities) and 
+55 Maritime Inquiry MO -2006 -204, Fishing Vessel Kotuku , Capsized, Foveaux Strait, 13  May 2006 (six fatalities) and 
 Maritime Inquiry MO-2012-201, Fishing Vessel Easy Rider , Capsize and Foundering. Foveaux Strait, 
 15 March  2012  
  
@@ -1643,7 +1643,7 @@ Safety Issue: New Zealand  does not have readily  available  and suitable resour
 assigned to search and rescue operations in the following operational areas:  
 • helicopters that are fully equipped and crewed for extended SAR operations across 
 New Zealand  and its coastal waters  
-• medium -range fixed -wing aircra ft designed, equipped and crewed for SAR operations 
+• medium -range fixed -wing aircraft designed, equipped and crewed for SAR operations 
 across New Zealand  coastal waters and the exclusive economic zone ( EEZ) 
 • vessels that are designed, equipped and manned by crew practi sed at conduct ing SAR 
 operations out to offshore limits . 
@@ -1654,7 +1654,7 @@ joint training with the RCC to ensure consistency in knowledge of the SAR framew
 terminology.  
 3.102  It is generally accepted  that no two SAR operations are the sam e, making it difficult to 
 follow a single standard SAR procedure . Consequently, there are almost always new 
-lessons arising out of every SAR operation that can be applied to continuously improve 
+lessons arising out of every SAR operation that can  be applied to continuously improve 
 future SAR operations. The following analysis should be read in that context.  
 3.103  In New Zealand , coordinating SAR events  is made more difficult because  there are few 
 readily  available  air and surface assets fit for extended SAR operations , particularly for 
@@ -1669,7 +1669,7 @@ SAR operation  and that of the various participating parties . Whilst  there are
 lessons arising from the operation, th ese need to be taken in context of the current 
 structure of the SAR system and the challenges th is can pose for the various  
 partic ipants . 
-3.105  The NEST helicopter based at  Whangarei was the first asset to be task ed.56 NEST 
+3.105  The NEST helicopter based at  Whangarei was the first asset to be tasked .56 NEST 
 prepared the aircraft and assembled its crew based on what they had been told. They 
 assumed the worst case and took the time to prepare accordingly. It is generally 
 acknowledged that locating and winching people from the water into a helicopter in 
@@ -1677,11 +1677,11 @@ the dark  during  inclement weather  is a high -risk activity. This rescue  of t
 was probably on the edge of the helicopter and crew’s capability. The NEST  helicopter 
 crew’s expertise was instrumental in five people from the Enchanter  surviving . 
 3.106  The Enchanter  SAR operation is considered by those involved  as at the upper end of 
-challenge and complexity , and yet it only involved one 16-metre vessel with 10 peo ple 
+challenge and complexity , and yet it only involved one 16-metre vessel with 10 people 
 on board , very close to the New Zealand  coast . At any time in New Zealand , there are 
 likely to be much larger vessels with more people on board operating in even more 
 remote areas than North Cape.  The Commission has considered the accident on that 
-prem ise. 
+premise . 
 3.107  It is also important to acknowledge that very little was known in the initial stages of the 
 Enchanter  SAR operation. The operation started with a single activation of the 
  
@@ -1692,23 +1692,23 @@ Enchanter  SAR operation. The operation started with a single activation of the
  Final Report MO -2022 -201 Enchanter ’s EPIRB , with no indication  whether it was real or an inadvertent EPIRB 
 activation . Once  it had been established that  the emergency  was real , the response 
 plan was formed  – but still with little information about the  situation. The broad plan 
-evolve d and was refined as more informat ion was received.  In those initial stages there 
+evolve d and was refined as more information was received.  In those initial stages there 
 was no indication that it could  evolve into a n almost  two-day SAR operation involving 
 multiple air and surface assets.  
 SAR helicopters  
 3.108  New Zealand ’s fleet of air ambulance/rescue helicopters is primarily used for air 
 ambulance work  (95 per cent ). The other 5  per cent  is for SAR work.  The rescue 
 helicopter fleet is divided into three sectors: Helicopters South Island, Helicopters 
-Lower North Island and Helicopte rs Upper North Island . Each helicopter operator is 
+Lower North Island and Helicopters Upper North Island . Each helicopter operator is 
 contracted to the National A mbulance Sector Office (NASO) . NASO set up the Airdesk  
 mainly  to coordinate the dispatch of rescue aircraft in support of NASO  (see Figure  23). 
 3.109  The NASO  contracts outlined the availability and capability that helicopter operators 
 must provide to NASO. Consequently, rescue helicopters are of the type and 
 configuration that supports air ambulance work, rather than SAR work.  Also, air 
-ambulance work is the m ain priority. If the RCC requests a rescue helicopter to be 
+ambulance work is the main priority. If the RCC requests a rescue helicopter to be 
 tasked to a SAR operation, it may or may not be available for SAR work depending on 
 what air ambulance work  is in progress or planned . 
-3.110  When the RCC contacted the Airdesk and requested a rescue hel icopter based out of 
+3.110  When the RCC contacted the Airdesk and requested a rescue helicopter based out of 
 Whangarei, the NEST helicopter was  not engaged on air ambulance work, so was 
 immediately available . The ARHT helicopter that was requested and tasked to support 
 the NEST helicopter  was returning from a n air ambulance task and  was then made 
@@ -1722,17 +1722,17 @@ Final Report MO -2022 -201
 << Page 42 >>
      
 Figure 23: Organisation chart showing the relationship between the air ambulance sector and 
-the RCC. (The gr een arrows represent funding lines.)  
+the RCC. (The green arrows represent funding lines.)  
  
 3.112  Rescue helicopters  are limited  in size because of  the maximum  weight restriction for 
 most  hospital helipads. This affects their SAR people -carrying capability and flight 
-range . For example, when  the NEST  helicopter ret rieved the first three survivors from 
+range . For example, when  the NEST  helicopter retrieved the first three survivors from 
 the inverted flybridge, it s seating capacity  was exceeded , with one survivor having to 
 be seated  unrestrained on the floor.  There was no room for retrieving the other two 
 passengers from the inverted hull without making the return trip to the Te Hapu a 
 forward command post.  
 3.113  Another issue  is the funding of SAR specific  equipment for helicopters. The onboard 
-medical equipment is mostly funded by NASO for air ambulanc e work. Any  additional 
+medical equipment is mostly funded by NASO for air ambulance work. Any  additional 
 SAR-related equipment is funded by the helicopter operator. With SAR work providing 
 only 5  per cent  of operational time, it can be  difficult for the operator to recover the 
 additional cost  of this equipment . 
@@ -1741,11 +1741,11 @@ None of the aircraft tasked to the Enchanter  SAR operation were equipped with f
 gyro-stabilised  or portable thermal -imaging equipment , which is particularly useful 
 when searching for living people in large spans  of water. Fixed gyro -stabili sed thermal -
 imaging equipment creates  a significant weight penalty on helicopters that are often 
-already up to all -up maximum weight with the medical  equipment, medical personnel  
+already up to all -up maximum weight with the medical equipment, medical personnel  
 and patients  on board . 
 3.115  The RNZAF operate s a fleet of eight NH90 helicopters that are larger  and have a longer 
 range than most standard NASO -contracted rescue helicopters. Although winch 
-capable, they were not rated for ‘wet wi nching’57 at the time of this accident. The 
+capable, they were not rated for ‘wet winching’57 at the time of this accident. The 
 RNZAF helicopter crews are trained in and routinely practi se search and rescue. They 
 are tasked by RCC from time to time but not as often as they once were . There used to 
  
@@ -1760,7 +1760,7 @@ not be tasked when a commercial helicopter is available  and can be used . It is
 by whom  and when this policy was put in place.  
 3.116  Currently all eight NH90s are located at the RNZAF Ohakea Air Force Base in North 
 Island. The RNZAF has a performance agreement to have one NH90 helicopter always 
-available for SAR work at two hours’ notice . There  is an opportunity  to exp lore 
+available for SAR work at two hours’ notice . There  is an opportunity  to explore  
 potential  synerg ies between RNZAF and SAR to make better use of the NH90 fleet (or 
 any other fleet  operated by Defence  Joint Forces ) to enhance New Zealand ’s SAR 
 capability.  
@@ -1768,7 +1768,7 @@ SAR helicopter crews
 3.117  With  the current SAR framework , air crews  for NAS O-contracted  operators comprise  
 pilots, co -pilots, doctors  and critical care paramedics . It can at times  be unclear 
 whether a task is related to air ambulance or SAR work , or both . For example , when a 
-rescue helicopter is tasked to search for and r ecover a person known to be injured , 
+rescue helicopter is tasked to search for and recover a person known to be injured , 
 there can be an element of search and , because it is known that a per son requires 
 medical attention , there is the requirement for an air ambulance, which the helicopter 
 fulfils as well. Therefore, there  can be  an obvious crossover of roles within  the 
@@ -1786,17 +1786,17 @@ tension in assigning tasks and responsibility.
 3.120  All three  rescue helicopters tasked to the Enchanter  SAR operation encountered  issues 
 assembling  a complete crew with sufficient experience for the high -risk task . There 
 were consequential  delays . The reasons varied from there being a general shortage of 
-experienced winch operators and rescue swimmers, to several being giv en annual leave 
+experienced winch operators and rescue swimmers, to several being given annual leave 
 at the same time by their primary employer s, who are primarily concerned with 
 ambulance services .58 If the first rescue helicopter tasked  had been  responding to air 
 ambulance work, it would likely have been airborne within about 20 minutes . By the 
 time the helicopter had been transitioned from air ambulance to SAR mode and the 
 appropriate crew assembled, it departed  85 minutes after having been tasked. This is 
-not a criticism  of the crew . They were rightfully assessing the risks of the oper ation and 
+not a criticism  of the crew . They were rightfully assessing the risks of the operation and 
 doing the best allowed by the system in which they were operating.  
 3.121  Training of crew for rescue helicopters is conducted and funded  by the helicopter  
 operator  to meet the standards set out in the NASO Aeromedical and Air Rescue 
-Standard. The Stand ard provides detailed  requirements for  medical operations , but not 
+Standard. The Standard  provides detailed  requirements for  medical operations , but not 
 for winch operators and rescue swimmers . They are simply required to have 
  
 58 NRHL has since acquired full -time critical care paramedics . 
@@ -1810,21 +1810,21 @@ operator , as designated within the company’s operating exposition  approved b
 Civil Aviation Authority . 
 3.122  There is no definition of ‘current accepted practice’. There is no mandated or 
 recommended training syllabus. This means the training standards may vary 
-significantly between operators  across the country . This has  proven  to be  problematic 
+significantly between operators  across the country . This has proven  to be  problematic 
 when crew move between operators . 
 3.123  The issue arises because  of a regulatory gap. Medical staff are governed  by ambulance 
 and NASO standards. Flight crew (pilots) are governed  by civil aviation rules. Rescue 
-swimmers and winch opera tors are not governed  by any specific standards. The NZSAR 
+swimmers and winch operators are not governed  by any specific standards. The NZSAR 
 Council and the NZSAR Secretariat only provide strategic oversight and governance for 
 the SAR sector . They do not currently have the mandate to set standards for the sector.   
-3.124  In contrast , the Austr alian SAR framework operates to a strict set of standards that 
+3.124  In contrast , the Australian SAR framework operates to a strict set of standards that 
 ensure s there is consistency and safety across the entire sector . 
 Fuel supply  
  
 Safety Issue: The national availability of fuel for helicopters likely to be engaged in extended 
 SAR operations in remote areas is not well documented or understood by the SAR coordinating 
 authorities.  
-3.125  NEST had purchased a 1200 litre fuel trailer to be kep t at Kaitaia Hospital. Fuel suppl y 
+3.125  NEST had purchased a 1200 litre fuel trailer to be kept at Kaitaia Hospital. Fuel suppl y 
 for helicopters  in the Far North  was limited and its scarcity was affecting their air 
 ambulance operation, which was essentially based around Kaitaia Hospital.  This fuel 
 trailer was the furthest north permanent supply of Jet A1 fuel available to  aircraft.  
@@ -1833,10 +1833,10 @@ conduct their task s. Helicopter operators are responsib le for ensuring their t
 has a sufficient supply of fuel to support their operations. This is not difficult for 
 routine tasking. However, SAR operations are anything but routine. The Enchanter  SAR 
 operation began as a one -helicopter  and then two -helicopter operation with an 
-unknown e nd point. It grew into a multiple -aircraft multi -day operation.  
+unknown end point. It grew into a multiple -aircraft multi -day operation.  
 3.127  While individual pilots and helicopter operators can manage their fuel on a task -by-
 task basis, they do not have the oversight that the RCC has as the SAR plan evolve s. 
-There is therefore some  responsibility on the RCC’s part to prompt pilots/operators 
+There is therefore some responsibility on the RCC’s part to prompt pilots/operators 
 about  fuel supply before it becomes an issue for the aircraft it is tasking and renders 
 them inoperative with consequential delays to the SAR plan.  
 3.128  The RCC began inquiring about  sourcing fuel shortly after midnight  on the day of the 
@@ -1851,29 +1851,29 @@ which helicopters were unable to search for the remaining five people  in the wa
 
 << Page 45 >>
  Final Report MO -2022 -201 3.130  Caching fuel for extended air operations in remote areas is not straight forward. Fuel 
-has a shelf life and can det eriorate over time. The quantity and quality of fuel require 
+has a shelf life and can deteriorate over time. The quantity and quality of fuel require 
 careful management. However, there will be opportunities to synergise the 
 requirement of caching fuel in remote areas with routine aircraft operations. The 
 Commission has recommended  that the Secretary for Transport  work with SAR 
 coordinators and providers of SAR air assets across New Zealand  to identify 
 opportunities for caching  fuel for extended SAR operations in remote areas , and to 
-establish  and maintain a database of identified stored fuel  and fuel supply logistics.  
+establish  and maintain a database of identified stored fuel and fuel supply logistics.  
 Fixed -wing aircraft  
 3.131  Fixed -wing aircraft are important for SAR operations. While they do not have the 
 rescue capability of helicopters, they provide an important cost-effective search 
-function . The Enchanter  SAR operation  has hig hlighted issues  with the availability of 
+function . The Enchanter  SAR operation  has highlighted issues  with the availability of 
 suitable fixed-wing aircraft for SAR operations . 
 3.132  The P -3K2 provide d an ideal  communications platform , making it suitable as an on -
 scene coordination asset . The P -3K2 crew were able to relay information to the RCC, 
 and direct other assets to search various debris fields. The aircraft also ha d a thermal 
 imaging s uite capable of  detecting  large objects in the water such as vesse ls. However , 
-the suite was not ideally suit ed for detecting  small objects in the water such as people.  
+the suite was not ideally suited  for detecting  small objects in the water such as people.  
 The P -3K2 was ideally suited for long -range SAR operations, which is important 
 considering New Zealand ’s vast SAR area . 
 3.133  On the night of the response, rain squalls were moving through the area . The 
 associated cloud hindered the view from the P -3K2, requiring them to fly at low 
 altitude beneath the cloud.  Operating a large aircraft at low al titude at night meant it 
-had to stay  further offshore  than the actual scene , to maintain a safe clearance from  
+had to stay  further offshore  than the actual scene , to maintain a safe clearance from 
 terrain . 
 3.134  The Coast guard operate s two Cessna aircraft , one based at Ardmore in Auckland,  and 
 one based at Kerikeri in the Far North . The RCC tasked these aircraft during daylight 
@@ -1886,7 +1886,7 @@ SAR capability is limited to visual observation and radio direction -finding equ
 3.135  New Zealand  has a long coastline to cover for SAR operations . There is an opportunity 
 to introduc e a medium -sized aircraft suitably equipped for SAR operations at a lower 
 operational cost than the larger aircraft available . Such an aircraft would be better 
-suited to SAR operatio ns such as with the Enchanter  and could also prove more 
+suited to SAR operations such as with the Enchanter  and could also prove more 
 efficient for medium -range SAR operations to South Pacific islands . There is also an 
 opportunity to use these aircraft for other NZDF  operations, and those of other 
 Government departments, such as Fis heries New Zealand  and New Zealand  Customs.  
@@ -1902,7 +1902,7 @@ Commission of Inquiry  into the sinking of the interisland passenger and freight
 MV Princess Ashika  on 5 August 2009 .61 The recommendation  was: 
 [New Zealand] t o explore the possibility of dedicated search and rescue aircraft fitted with 
 SAR equipment and trained crew being made available to conduct search and rescue 
-operations in the New Zealand  and Fiji SAR areas. Such an airc raft could be multi -purpose 
+operations in the New Zealand  and Fiji SAR areas. Such an aircraft could be multi -purpose 
 to conduct other maritime and land -based activities such as customs and Fisheries.  
 3.137   Australia uses such an  aircraft for its SAR operations , which has proven successful.  The 
 Commission has made a recommendation  for the Ministry of Transport to explore this 
@@ -1913,24 +1913,24 @@ surface vessels for participating in challenging and extended SAR operations, no
 dissimilar to the issue with aviation assets  described above.  
 3.139  The NZ Police has two maritime units, one based in Auckland and one in Wellington. 
 These assets are primarily for addressing crime and support ing the NZ Police Dive 
-Squad. They are suitable for SAR operations , but their ava ilability is limited to the areas 
+Squad. They are suitable for SAR operations , but their availability is limited to the areas 
 where they happen to be  located , primarily the Greater Auckland and Wellington areas . 
 The Auckland NZ Police launch did not participate in the Enchanter  SAR operation . 
 3.140  The RNZN also has several assets suitable for SAR operations , but again their 
 availability will be determined by their current location . The RNZN’s service agreement 
 requires it to have one vessel available for deployment out of  Auckland at 12 hours’ 
 notice . 
-3.141  The HMNZS Taupo  was coincidentally operating in  the Hauraki Gulf , Auckland  at the 
+3.141  The HMNZS Taupo  was coincidentally operating in the Hauraki Gulf , Auckland  at the 
 time of the Enchanter  accident. The commander responded to the mayday relays and 
 proceeded to the area , sailing  into heavy weather  and arriving on scene at 1110  the 
 following day.  
 3.142  When the HMNZS Taupo  did arrive, the RCC handed over the on -scene coordinator 
 role to the commander . However, the RNZN  was not familiar with the term and 
 assumed the naval war fare role of on -scene commander, which effectively took control 
-away from the RCC. The issue was even tually realised  and addressed but not before the 
+away from the RCC. The issue was eventually realised  and addressed but not before the 
 coordination of the search patterns had been disrupted  for a number of hours . 
 3.143  The issue is likely due in part  to the lack of joint SAR training between the RNZN and 
-the RCC. RNZN personnel are trained in bas ic SAR techniques, but not in rescue 
+the RCC. RNZN personnel are trained in basic SAR techniques, but not in rescue 
 coordination. Ideally, it should be standard practice for organisations routinely used as 
 on-scene coordinators to be trained in and  familiar with RCC procedures , and that 
 practice be documented in the overarching SAR system. The Commission has made a 
@@ -1939,7 +1939,7 @@ recommendation  for the Ministry of Transport to address this issue.
 organisation is a charity relying  entirely on volunteers  and raises approximately 
 70 per cent of its  operating  income from donations , membership,  and grants . (The 
 remaining 30  per cent  of costs is met by a government  service level agreement .) While 
-the organisation is consid ered to be the primary SAR service in  New Zealand , most  of 
+the organisation is consid ered to be the primary SAR service in New Zealand , most  of 
  
 61 Maritime Inquiry MO-2009 -209, Final Preliminary Report prepared by the Commission for the Roya l 
 Commission of Inquiry into the sinking of the MV Princess Ashika.  
@@ -1951,10 +1951,10 @@ who have run out or towing to safety those that have broken down .
 3.145  The funding model does not support the build and operation of larger craft capable of 
 operating offshore . Consequently, t heir craft are primarily designed for inshore  event s 
 and less so for serious complex extended SAR operations, as is the training provided to 
-their volunteer crew.  That is  not a criticism  of their performance. They are renowned for 
+their volunteer crew.  That is not a criticism  of their performance. They are renowned for 
 providing a  good and  efficient service. The rescues they perform will often prevent an 
 event escalating to one requiring a SAR response.  
-3.146  There are two other limiting factor s: not all  Coastguard b oats are surveyed to operate 
+3.146  There are two other limiting factor s: not all  Coastguard boats  are surveyed to operate 
 outside of inshore or restricted coastal limits; and the qualification that Coastguard can 
 issue to their volunteer skippers  restricts them  to operat ing within 1 2 miles of the 
 coast .62 
@@ -1970,12 +1970,12 @@ that the risk of responding would be too high. The decision not to deploy was
 appropriate  in the circumstances . 
 3.150  With Coastguard Houhora unable to respond that night, HMNZS Taupo  being some 
 distance  away, and there being no commercial vessels in the immediate area, there 
-were no surface vessels available to  participate in the Enchanter  SAR operation until 
+were no surface vessels available to participate in the Enchanter  SAR operation until 
 about eight hours after the accident . 
  
  
  
-62 Coast guard vessels may be granted permis sion by Maritime New Zealand  to go beyond restricted limits for the 
+62 Coast guard vessels may be granted permission  by Maritime New Zealand  to go beyond restricted limits for the 
 purposes of SAR if required.  
 63 This has since the accident been replaced with a 10-metre  RHIB 
  
@@ -1988,21 +1988,21 @@ Commercial Vessels
 3.151  The use of commercial  vessels  of opportunity  during SAR operations is common  
 practice throughout the world as they are often  likely to be nearest to the scene.  
 International law under the United Nations Convention on the Law of the Sea 
-(UNCLOS ) Article 98 also requires masters of vessels to respond to distress  unless it 
+(UNCLOS ) Article 98 also requires masters of vessels to respond to distress unless it 
 endangers the vessel and /or its crew.  
 3.152  During a SAR operation the RCC will use any available asset that is able  to assist . The 
 lack of professionally crewed marine assets  suitable for offshore SAR operations  means 
-SAR coordinators  have  fewer opt ions for surface assets, which increas es their 
+SAR coordinators  have  fewer options  for surface assets, which increas es their 
 dependency on untrained civilian  vessels  of opportunity . Using commercial vessels in a 
 weather -related  event like the  capsize of  the Enchanter , often means that other vessels 
 may not be in the immediate area.  
 3.153  During the Enchanter  SAR operation,  the RCC had tasked five commercial vessels to aid 
 in the search. Of the five vessels , one was another charter fishing boat owned by 
-Enchanter  Fishing Charters, while the other four were commercial fishing  boats.  
+Enchanter  Fishing Charters, while the other four were commercial fishing boats.  
 3.154  The crews of these vessels (some of whom had children on board ), had the challenge 
 of searching for long periods of time and sighting and recovering deceased victims 
 from the sea.   
-3.155  Professional SAR personnel have resources and support available to help them to deal 
+3.155  Professional SAR personnel have resources and support available to help  them to deal 
 with the mental toll this type of work can take. Civilians do not necessarily have access 
 to that same support . It should be noted that at  the conclusion of the Enchanter  
 search , individuals w ho were involved were made aware of available mental health 
@@ -2021,14 +2021,14 @@ accident.
 contour off Murimotu  Island, North Cape.  
 4.3 It was not the skipper’s intention to navigate close to the shore in shallow er water. The 
 reason for the Enchanter being there was not established . 
-4.4 It was reasonable for a vessel of the Enchanter ’s size, desig n, stability  and construction 
+4.4 It was reasonable for a vessel of the Enchanter ’s size, design, stability  and construction 
 to be operating in the weather and sea conditions around North Cape at the time of 
 the accident, provided it was operated in accordance with its Maritime Transport Safety 
 System and Marine Transport Operator Plan.  
 4.5 The Enchanter  was knocked down by a wave that was larger and with a steeper profile 
 than the average wave conditions it had been encountering, because of  one or a 
 combination of the following factors:  
-• waves up to twice that of the significant wave height can n aturally occur in deep 
+• waves up to twice that of the significant wave height can naturally occur in deep 
 water  
 • the convergence of two different wave patterns can cause random large waves  
 • reflection of waves off the shoreline  
@@ -2057,24 +2057,24 @@ Final Report MO -2022 -201
 suddenness of the capsize and because all life jacket s were stowed below in the 
 forward cabin , which  was difficult to access.  
 4.11 Opportunities to increase  surviva bility  were missed for the following reasons:  
-• the life raft s likely did not automatically de ploy 
+• the life raft s likely did not automatically deploy  
 • only two of the four lifebuoy s were fitted with automatic lights  
 • two of the lifebuoy s were not marked with retro -reflective tape and the 
 reflective tape on the other two was degraded and of limited effectiveness.  
-4.12 The crew of the first helicopter on sc ene managed the high -risk task of wet winching in 
+4.12 The crew of the first helicopter on scene managed the high -risk task of wet winching in 
 the dark over water with skill. Their expertise was instrumental in saving the lives of five 
 people from the Enchanter . 
 4.13 There were delays in the deployment of rescue helicopters to the Enchanter scene 
 while appropriately qualified and experienced crew were  assembled.  
 4.14 Although helicopters were made available for the Enchanter SAR operation, the current 
-New Zealand  SAR system  does not ensure that readily  available, appropriately 
+New Zealand  SAR system does not ensure that readily  available, appropriately 
 equipped and crewed, air resources will be available for future SAR operations, 
 particularly in remote areas.  
 4.15 There was a period of 4 hours  and 36 minutes when the lack of available fuel 
-prevented heli copters searching for the remaining five people  in the water, which was 
+prevented helicopters searching for the remaining five people  in the water, which was 
 attributable in part to fuel supply being based on air ambulance services and not  on 
 extended SAR operations in remote areas.  
-4.16 The current New Zealand  SAR system does not guarantee that  dedicated, appropriately 
+4.16 The current New Zealand  SAR system does not guarantee that dedicated, appropriately 
 equipped and fixed -wing aircraft resources will be available for future SAR operations.  
 4.17 The current New Zealand  SAR system does not adequately provide for  dedicated, 
 appropriately equipped surface vessels to be available for future SAR operations.  
@@ -2085,10 +2085,10 @@ appropriately equipped surface vessels to be available for future SAR operations
 Ngā take haumanu me ngā mahi whakatika  
 General  
 5.1 Safety issues are an output from the Commission’s analysis. They may not always relate 
-to factors direct ly contributing to the acciden t or incident. They typically describe a 
+to factors direct ly contributing to the accident or incident. They typically describe a 
 system problem that has the potential to adversely affect future  transport safety.  
 5.2 Safety issues may be addressed by safety actions taken by a participant . Otherwise the 
-Commission may issue a recommendation to addr ess the issue.   
+Commission may issue a recommendation to address the issue.   
 Safety issue s 
 Safety issue – Maritime New Zealand ’s system for auditing and assessing the performance of 
 accredited vessel surveyors is not ensuring they are interpreting and applying maritime rules 
@@ -2096,20 +2096,20 @@ correctly when surveying vessels.
 5.3 The consequence of this safety issue  is the risk of vessels either intentionally or 
 inadvertently operating outside maritime rule requirements.  
 5.4 No action has been taken to address this safety issue. Therefore, the Commission has 
-made a recommendation  in Sectio n 6 to address this issue.  
+made a recommendation  in Section 6 to address this issue.  
 Safety Issue – New Zealand m aritime rules do not adequately address the need for proper 
-stowage of life jackets on board pa ssenger vessels so that passengers have access to a life 
+stowage of life jackets on board passenger vessels so that passengers have access to a life 
 jacket  in the event of a sudden catastrophic event.  
 5.5 The consequence of this safety issue is that passengers and crew will not be able to 
 access a life jacket  following a sudden and catastrophic event.  
 5.6 No action has been taken to address this safety issue. Therefore, the Commission has 
-made a recommendation  in Section 6 to address  this issue.  
+made a recommendation  in Section 6 to address this issue.  
 Safety issue – There is no requirement for commercial vessels that carry passengers to be fitted 
 with any form o f tracking device such as AIS or other commercially available tracking systems.  
 5.7 The consequence of this safety issue is potential delay in the start of SAR operations 
 and compromise in the ir efficiency.  
 5.8 No action has been taken to address this safety issue. Therefore, the Commission has 
-made a recommendation  in Section 6 to address th is issue.  
+made a recommendation  in Section 6 to address this issue.  
 Safety Issue – New Zealand does not have readily available and suitable resources that can be 
 assigned to SAR operations in the following operational areas:  
 • helicopters that are fully equipped and crewed for extended SAR operations across 
@@ -2128,16 +2128,16 @@ Final Report MO -2022 -201
 made a recommendation  in Section 6 to address this issue.  
 Safety Issue – There is currently no dedicated programme that requires organisations that 
 operate SAR assets and might routinely be assigned on -scene coordinator status to engage in 
-joint training with the RCC to ensure consistency in knowledge of the SAR framewo rk and 
+joint training with the RCC to ensure consistency in knowledge of the SAR framework and 
 terminology.  
 5.11 The potential consequence of this safety issue is a potential breakdown in the 
 framework and structure of a SAR operatio n. 
 5.12 No action has been taken to address this safety issue. Therefore, the Commission has 
-made a recommendation  in Sec tion 6 to address this issue.  
+made a recommendation  in Section 6 to address this issue.  
 Safety Issue – The national availability of fuel for helicopters likely to be engaged in extended 
 SAR operations in remote areas is not well documented and understood by SAR coordinating 
 authorities.  
-5.13 The consequence of this safety issue is that SAR operations could be de layed or 
+5.13 The consequence of this safety issue is that SAR operations could be delayed or 
 prevented because tasked assets have insufficient fuel supplies to perform their task . 
 5.14 No action has been taken to address this safety issue. Therefore, the Commission has 
 made a recommendation  in Section 6 to address this issue.  
@@ -2179,17 +2179,30 @@ Work with SAR coordination authorities to identify SAR assets  that are likely t
 routinely called on to act as on -scene coordinators and develop a joint training 
 program me that will ensure that they work to the same framework and use the same 
 terminology as the coordinating authorities.  [016/23] 
+6.4 On 15 September  2023, NZSAR  replied:  
+On the 5 September 2023, the New Zealand Search and Rescue (NZSAR) Council met 
+and discussed  the final report,  along  with your identified  safety  issues  and 
+recommendations,  from  your inquiry into the sinking of the Enchanter fishing vessel.  
+The NZSAR  Council  discussed  the report and  agreed  to accept  the search  and rescue  
+related recommendations.  
+ 
+Final Report MO -2022 -201 
+<< Page 54 >>
+ Accordingly,  I accept  the recommendations  made  in your final report:  
+a. Recommendation  012/23  – accepted  
+b. Recommendation  013/23  – accepted  
+c. Recommendation  014/23  – accepted  
+d. Recommendation  015/23  – accepted  
+e. Recommendation  016/23  – accepted.  
+I will keep  you informed  on our progress  in addressing  the recommendations.  
  
 To Maritime New  Zealand  
-6.4 On 13 July 2023,  the Commission recommended that  the Director of Maritime New 
+6.5 On 13 July 2023,  the Commission recommended that  the Director of Maritime New 
 Zealand : 
 implement s a formal system that: 
 • notifies surveyors of current and emerging chan ges to maritime rules for the 
 construction , maintenance  and surveying of vessels  
- 
-Final Report MO -2022 -201 
-<< Page 54 >>
- • clarifies, where needed , the intent  and application  of maritime rules  and other 
+• clarifies, where needed , the intent  and application  of maritime rules  and other 
 relevant standard s [017/23] 
 Ensure s that Maritime New Zealand  has an adequate system for monitoring the 
 performa nce of marine  survey ors. [018/23] 
@@ -2199,15 +2212,88 @@ not be accessible during  foreseeable events . [019/23]
 Introduce s the requirement for commercial vessels to be fitted with automatic 
 identification system ( AIS) or equivalent  when carrying passengers  outside inshore 
 limits . [020/23]. 
+6.6 On 22 August 2023, MNZ replied:  
+I write in response to your letter of 8 August 2023 advising Maritime New Zealand 
+(Maritime NZ) of final recommendation 017/23, 018/23, 019/ 23 and 020/23 in regards 
+to MO -2022 -201: Charter fishing vessel Enchanter, Capsize, North Cape, New Zealand, 
+20 March 2022 and other related correspondence.  
+We note the recommendations to Maritime NZ are that we:  
+017/23  Implement a formal system that:  
+a) notifies surveyors of current and emerging changes to maritime rules for the 
+construction, maintenance, and surveying of vessels  
+b) clarifies, where needed, the intent and application of maritime rules and other 
+relevant standards  
+ 
+018/23  Ensure that Maritime New Zealand has an adequate system for monitoring 
+the performance of marine Surveyors.  
+ 
+
+<< Page 55 >>
+ Final Report MO -2022 -201 019/23  Ensure that appropriate rules and/or guidance is available to marine surveyors 
+and vessel operators on the risk of having all life jackets stowed in one place 
+that might not be accessible during foreseeable events.  
+020/23  Introduce the requirement for commercial vessels to be fitted with automatic 
+identification system (AIS) or equivalent when carrying passengers outside of 
+inshore limits.  
+ 
+Maritime NZ is considering recommendation 017/23  
+As we indicated during discussions with your team, Maritime NZ has a number of 
+mechanisms for keeping surveyors informed about a range of areas. This includes 
+engaging closely with surveyors around rule and regulation changes and regularly 
+providing clarification around the intent of rules. Surveyors, and the rest of the sector, 
+are notified about all changes to rules (whether or not they re late to construction, 
+maintenance and surveying of vessels). We do this through regular surveyor 
+conferences, seminars and regular industry updates on rule and technology changes. 
+As well as providing technical advice and support on existing rules.  
+ 
+Maritime NZ works closely with surveyors on the development of new rules and 
+amendment to rules (through, for example expert working groups – this has been a key 
+element of our approach to our 40 series reforms and the implementation of MARPOL 
+VI). Finally , we also note that Maritime rules are currently structured with the intent and 
+application incorporated within the rule itself and Rules are notified in the gazette and 
+available on our website  
+We are therefore unsure exactly what further elements the ‘formal system’ suggested 
+under this recommendation would entail and we were disappointed to see a 
+recommendation with no recognition of what we currently do in this area. However, we 
+will continue to consider ways we can improve our information flows to surveyors.  
+  
+Maritime NZ is considering recommendation 018/23  
+Again, as highlighted in discussions with your team, Maritime NZ already assesses 
+surveyor performance when issues arise and has working relationships with surveyors 
+for training and certification.  
+As you will be aware, Maritime NZ is undertaking work to look at ways we can further 
+strengthen our oversight of third parties, including surveyors. In particular we have 
+recently completed consultation through a funding review on an increase to our 
+capaci ty to support this. We will consider your recommendation as part of this work.  
+ 
+Maritime NZ accepts recommendation 19/23  
+Maritime NZ believes that existing Maritime Rules stipulating lifejacket stowage are 
+sufficient. The rule specifies that lifejackets must be stowed in a place approved by a 
+surveyor and must be accessible in an emergency and that the stowage location of al l 
+lifejackets must be clearly and permanently marked.  
+ 
+Final Report MO -2022 -201 
+<< Page 56 >>
+ However, Maritime NZ will look to develop supporting industry communications and 
+education highlighting key messages in relation to the stowage of lifejackets for vessel 
+operators and marine surveyors to encourage compliance with the Rule.  
+We therefore accept this recommendation and expect it to be implemented by late 
+2023.  
+ 
+Maritime NZ is considering recommendation 020/23  
+The potential to mandate AIS on a larger number of vessels is already a matter that is 
+included in our rules programme for exploration. The driver for this exploration relates 
+to safety as well as security. As with all rules work, the decision to proceed w ith a rules 
+change will sit with Ministers.  
+As always, Maritime NZ welcomes this report and TAIC’s insights into this tragic event.  
 Notice of recommendations   
-6.5 The Commission has given notice to the New Zealand Search and Rescue Council  
+6.7 The Commission has given notice to the New Zealand Search and Rescue Council  
 Secretariat that it has issued recommendation s [017/23 , 018/23, 019/23 and 020/23 ] to 
 the Ministry of Transport  and that th is recommendation will require the involvement of 
 the New Zealand Search and Rescue Council . 
  
- 
 
-<< Page 55 >>
+<< Page 57 >>
  Final Report MO -2022 -201 7 Key lessons  
 Ngā akoranga matua  
  
@@ -2223,7 +2309,7 @@ work this out under the pressure of an emergency .
 where they will be more accessible in a sudden emergency . 
 7.5 Wearing a n inflatable life jacket  or similar buoyancy aid will enhance the safety of 
 people when fishing from open decks  in open and exposed waters.  
-7.6 There is so me safety benefit in wearing a personal locator beacon as a backup  to the 
+7.6 There is some safety benefit in wearing a personal locator beacon as a backup  to the 
 EPIRB s required on commercial vessels , in case  the circumstances of an accident 
 prevent the use of the EPIRB . 
 7.7 Fitting an AIS or equivalent tracking device to a vessel will significantly improve the 
@@ -2231,7 +2317,7 @@ likelihood of being found and reduce the time for being rescued, particularly if
 primary life-saving equipment fails or cannot be activated.  
  
 Final Report MO -2022 -201 
-<< Page 56 >>
+<< Page 58 >>
  8 Data summary  
 Whakarāpopoto raraunga  
 Vehicle particulars  
@@ -2264,17 +2350,17 @@ Damage
  Vessel destroyed  
  
 
-<< Page 57 >>
+<< Page 59 >>
  Final Report MO -2022 -201 9 Conduct of the Inquiry  
 He tikanga rapunga  
  
 9.1 On 21 March  2022 , Maritime New Zealand  notified the Commission of the occurrence. 
 The Commission subsequently opened an inquiry under section 13(1) of the Transport 
 Accident Investigation Commission Act 1990  and appointed an investigator -in-charge.  
-9.2 On 21  March  2022  the Commission is sued an Order to Produce and Protect the 
+9.2 On 21  March  2022  the Commission issued an Order to Produce and Protect the 
 Enchanter , including any debris,  objects or items originating from the vessel.  
 9.3 The Commission deployed a  team of four investigators  to Northland on 
-21 March  2022 , who  spent four days conducting interviews and gather ing evidence.  
+21 March  2022 , who  spent four days conducting interviews and gathering evidence.  
 9.4 On 31  March  2022 , two investigators were redeployed to Northland to oversee the 
 salvage and tow ing of the Enchanter  wreck to Ho uhora, Northland . A GPS was 
 recovered from  the wreck during the salvage and retained by the Commission for 
@@ -2290,41 +2376,41 @@ items originating from the vessel.
 conduct interviews with several companies and agencies involved in the SAR operation 
 for the Enchanter . 
 9.7 On 07  June 2022,  two investigators conducted interviews with staff from the Rescue 
-Coordination Ce ntre at Wellington.  
+Coordination Centre at Wellington.  
 9.8 On 14  June 2022, two investigators conducted an interview  with representat ives from 
 the EPIRB manufacturer.   
 9.9 From  05 to 07 July 2022 , two investigators attended a search and rescue seminar at 
-Wellington to gather further information abo ut the responsibilities and interaction 
+Wellington to gather further information about the responsibilities and interaction 
 between providers of SAR assets . During this period investigators conducted an 
 interview with staff from the Ministry of Health ’s Nationa l Ambulance Sector Office  in 
-relation to the provision of helicopter services f or SAR operations . 
+relation to the provision of helicopter services for SAR operations . 
 9.10 On 26 October  2022  the Commission approved a draft report for circulation to  ten 
 Interested Parties  for their comment.  
 9.11 Submissions were received from eight  Interested Persons , with the Ministry of 
 Transport delegating their response to the NZS AR Council . One of the submissions 
 included a report from  an independent expert . Any changes as a result of these 
 submissions have been included in the final report.  
-9.12 On 13 January  2023, investigators  engaged an expert in EPIRB data and f unctionality to 
+9.12 On 13 January  2023, investigators  engaged an expert in EPIRB data and functionality to 
 provide an analysis of the data. The expert is an employee of the EPIRB manufacturer . 
 However, their analysis is based on past experience  as an operator with the United 
 Kingdom Mission Control Centre and does not reflect the opinion of the manufacturer.  
  
 Final Report MO -2022 -201 
-<< Page 58 >>
+<< Page 60 >>
  9.13 On 22 February  2023, the Commission considered  the final report  but deferred 
 approval  pending further enquiries in relation to some further  late submissions 
 received .  
-9.14 On 22 March 2023 , the Commission approved a second draft report for ci rculation to 
+9.14 On 22 March 2023 , the Commission approved a second draft report for circulation to 
 two Interested Parties to comment on a single issue.  
 9.15 Submissions were received from one interested p arty, which included three reports  
 (one prepared by an independent expert, one by a classification society, and on e by a 
-meteorological organis ation) . Any changes as a result of th is submission have been 
+meteorological organisation) . Any changes as a result of th is submission have been 
 included in the final report.  
 9.16 On 12 July 2023 , the Commission approved the final report for publication.  
  
  
 
-<< Page 59 >>
+<< Page 61 >>
  Final Report MO -2022 -201 Abbreviations  
 Whakapotonga  
  
@@ -2348,7 +2434,7 @@ RHIB  rigid hull inflatable boat
 RNZAF  Royal New Zealand Air Force  
  
 Final Report MO -2022 -201 
-<< Page 60 >>
+<< Page 62 >>
  RNZN  Royal New  Zealand Navy  
 SAR search and rescue  
 SOLAS  
@@ -2360,7 +2446,7 @@ VHF very high frequency
   
  
 
-<< Page 61 >>
+<< Page 63 >>
  Final Report MO -2022 -201 Glossary  
 Kuputaka  
  
@@ -2368,7 +2454,7 @@ Aft The back or rear of a vessel .
 AIS Automatic Identification System is an automated, autonomous 
 tracking system designed to be capable of providing position, 
 identification and other information about the ship to other ships and 
-coast al authorities automatically.  
+coastal authorities automatically.  
 Backing (wind)  The wind direction changes or trends anticlockwise . 
 Bow The front of a vessel . 
 Bulkhead  
@@ -2377,7 +2463,7 @@ Fore and aft beam  that provides an attachment between the hull and
 the sides of cabins, hatches and cockpits  on a boat . 
 Down -flooding  The entry of seawater through any opening into an undamaged hull 
 of a vessel.  
-EPIRB  Emergency Position -Indicating Radio Beacon (EPIRB) designed  to 
+EPIRB  Emergency Position -Indicating Radio Beacon (EPIRB) designed to 
 transmit its location and verification data to a rescue coordination 
 center and thus alert SAR authorities that an emergency exists.  
 Fishing lures  Hooked objects attached to a fishing line designed to move and 
@@ -2389,7 +2475,7 @@ which has permanent means of closing all openings in it .
 Galley  Nautical term for a kitchen  
  
 Final Report MO -2022 -201 
-<< Page 62 >>
+<< Page 64 >>
  GNSS  Global Navigation Satellite System: A satellite system that provides 
 location data for navigation purposes; one of Compass, Galileo, 
 Glonass, or GPS.  
@@ -2397,7 +2483,7 @@ GPS Global Positioning System: A GNSS system that is operated by the
 United States of America . 
 MEOSAR  medium -altitude earth orbit search and rescue satellite system for 
 distress alerting and position determination of 406 MHz beacons . 
-Motorsailer  A boat designed primarily as a motor launch but fitted with r igging 
+Motorsailer  A boat designed primarily as a motor launch but fitted with rigging 
 and sails as an alternative means of prop ulsion.  
 Port Left-hand side of a vessel when looking forward . 
 Significant wave 
@@ -2408,7 +2494,7 @@ Superstructure  Structures built on top of a vessel’s freeboard deck.
 Swim failure  A person is no longer able to swim or remain afloat.  
 Watertight  Capabl e of preventing the passage of water  in any direction  under the 
 head of water likely to occur . 
-Waverider buoy  A buoy  fitted with instruments that precisely measure directional 
+Waverider buoy  A buoy fitted with instruments that precisely measure directional 
 waves  for direction, heights, periods  and energy data . 
 Wavelen gth The distance from the trough in front of the wave and the trough 
 behind the wave.  
@@ -2418,7 +2504,7 @@ Wet winching  Retrieval of people from water.
   
  
 
-<< Page 63 >>
+<< Page 65 >>
  Final Report MO -2022 -201 Appendix 1  Wave formation and characteristics  
 The survivors described the Enchanter  being knocked down by a large steep wave. The 
 following information provide s context to Section 3  of this report.  
@@ -2430,23 +2516,23 @@ the temperature of the ocean .64.
 However, wind is the primary  factor that governs  the size of the waves. Waves are 
 caused by wind blowing over the surface of the ocean and transferring energy from 
 the atmosphere to the water. The height of waves is determined by the speed of the 
-wind, how long it blows, and crucially the ‘fetch’  (the d istance that the wind blows in a 
+wind, how long it blows, and crucially the ‘fetch’  (the distance that the wind blows in a 
 single direction over the water ). 
 Bigger waves result from conditions that cause strong winds to blow for a sustained 
 period over a large expanse of ocean. The resulting waves can travel for hundreds or 
-even thousands of ki lometres , smaller waves being absorbed by larger ones , faster 
+even thousands of kilometres , smaller waves being absorbed by larger ones , faster 
 waves overtaking slower  ones, all gradually growing and arranging themselves into the 
 regular ‘sets’  or wave trains65. 
 The result of these interactions is that it is normal to experience a wide range of wave 
 heights when on the water.  
 ‘Significant wave height’ is the international convention66 used to describe  the size of 
 swell and wind waves (or ‘sea waves’) in coastal forecasts. Significant wave height is 
-defined as the average wave height, fro m trough to crest, of the highest one -third of 
+defined as the average wave height, from trough to crest, of the highest one -third of 
 the measured or observed waves.  
 Figure  25 shows that a mariner will experience a typical ‘wave spectrum’ containing a 
 low number of small waves (at the bottom) and a low number of very large waves (at 
-the top) . The greatest number of waves is indicated by the widest area of the spectrum 
-curve. The highest one -third of waves is highlighted in dark blue, and the average 
+the top). The greatest number of waves is indicated by the widest area of the spectrum 
+curve. Th e highest one -third of waves is highlighted in dark blue, and the average 
 height of waves in this group is the  significant wave height . 
  
 64 Australian Bureau of Meteorology.  
@@ -2455,7 +2541,7 @@ speed.
 66 Devised by oceanographer Walter Munk during World War II.  
  
 Final Report MO -2022 -201 
-<< Page 64 >>
+<< Page 66 >>
                     
 Figure 25: Significant wave height  
 (Source : Australian Bureau of Meteorology)  
@@ -2468,7 +2554,7 @@ Wave energy and wave changes with depth
 As the energy of a wave passes through water, the energy sets water particles into 
 orbital motion , as shown in Figure  26. Water particles near the surface move in circular 
 orbits with diameters approximately equal to the wave height. The orbital diameter, 
-and the  wave energy, decreases deeper in the water. Below a depth of half the 
+and the wave energy, decreases deeper in the water. Below a depth of half the 
 wavelength, water is unaffected by the wave energy.  
 Swells are  deep -water waves , meaning that the depth of the water is greater than half 
 the wave’s wavelength. The energy of a deep -water wave does not touch the bottom in 
@@ -2479,16 +2565,16 @@ the bottom and flatten their orbit.
 
  
 
-<< Page 65 >>
+<< Page 67 >>
  Final Report MO -2022 -201  
 Figure 26: Changes in orbital characteristics of water when waves transition to shallow water.  
 (Source  :University of Hawaii, image by Byron Inouye ) 
 Because of the friction of the deeper part of the wave with particles on the bottom, the top 
 of the wave begins to move faster than the deeper parts of the wave. When this happens, 
-the front surface of the wave gradually becomes steeper than the back surface . 
+the front surface of the wave gradually becomes steeper than the back surfa ce. 
 Waves travel ling in water where depth is less than half the wavelength but greater than one -
 twentieth the wavelength are referred to as  transitional waves , which  are often wind -
-generated waves that have move d into shallower water.  
+generated waves that have moved into shallower water.  
     
  
 Figure 27: Wave changes as waves approach the shore  
@@ -2498,7 +2584,7 @@ Figure 27: Wave changes as waves approach the shore
 
  
 Final Report MO -2022 -201 
-<< Page 66 >>
+<< Page 68 >>
  Rogue Waves – comment from the United Sta tes National Oceanic 
 and Atmospheric Administration  
 Rogue, freak or killer waves have been part of maritime  folklore for centuries but  have only 
@@ -2507,40 +2593,40 @@ Rogues, called 'extreme storm waves' by scientists, are those waves that are gre
 twice the size of surrounding waves, are very unpredictable, and often come unexpectedly 
 from directions other than prevailing wind and waves.  
 Most reports of extreme storm waves say they look like "walls of water." They are often 
-steep -sided with unu sually deep troughs.  
+steep -sided with unusually deep troughs.  
 Since these waves are uncommon, measurements and analysis of this phenomenon is 
 extremely rare. Exactly how and when rogue waves form is still under investigation, but there 
 are several known causes:  
 Constructive interference  – extreme waves often form because swells, while travel ling 
 across the ocean, do so at different speeds and directions. As these swells pass through one 
 another, their crests, troughs and lengths sometimes coincide and reinforce each other. This 
-process can f orm unusually large, towering waves that quickly disappear. If the swells are 
+process can form unusually large, towering waves that quickly disa ppear. If the swells are 
 travelling in the same direction, these mountainous waves may last for several minutes 
 before subsiding.  
-Focusing of wave energy  – when waves formed by a storm develop in a water  current 
+Focusing of wave energy  – when waves formed by a storm develop in a water current 
 against the normal wave direction, an interaction can take place that results in a shortening 
 of the wave frequency. This can cause the waves to dynamically join together, forming very 
-big 'rogue' waves. The currents where these are sometimes seen  are the  Gulf Stream  and 
+big 'rogue' waves. The currents where these are sometimes seen are the  Gulf Stream  and 
 Agulhas Current . Extreme waves developed in this fashion tend to be longer lived.  
   
  
 
-<< Page 67 >>
+<< Page 69 >>
  Final Report MO -2022 -201 Appendix 2  The Enchanter ’s stability information  
 2.1 Part of a stability analysis is to calculate what is called a GZ Curve. GZ is the theoretical 
 righting lever that forces a vessel back upright when it is heeled by any force s such as 
 wind and waves. The longer the GZ lever, the more force is imparted to return the 
 vessel upright. If a vessel has a negative GZ righting lever, then the force is acting to 
-capsize the ves sel rather than returning it upright . In Figure  28, when the vessel is 
+capsize the vessel rather than returning it upright . In Figure  28, when the vessel is 
 upright  (left) the upward thrust of buoyancy ( B) is equal to and vertically aligned with 
 the downward weight acting through the vessel’s centre of gravity  (G). The vessel is 
 floating in equilibrium when force of G equals B. 
 2.2 When the vessel heels due to wind and/or waves  (right) , the position of the vessel’s 
 centre of gravity  (G) remains the same  but the position of the centre of buoyanc y 
-moves across to the ne w centroid of the underwater volume  (B1). The upward thrust 
+moves across to the new centroid of the underwater volume  (B1). The upward thrust 
 through B1 is no longer aligned with G. A righting lever (GZ) is thus created, which in 
 this case tries to return the ship upright until G and B align again. The length of the 
-righting lever GZ ch anges  as the vessel heels through a range of angles.  
+righting lever GZ changes  as the vessel heels through a range of angles.  
  
 Figure 28: Relationship between buoyancy, weight and centre of gravity  
 2.3 For any given stability condition, a range of values for GZ can be calculated and plotted 
@@ -2548,16 +2634,16 @@ on a graph showing the length of GZ on the X axis against the angle of heel on t
 axis. This graph is the GZ curve mentioned above. Figure  29 shows the calculated GZ 
 curve for a typical stability condition that the Enchanter  had when nearing the end of a 
 voyage. The value of GZ starts off at zero when there is zero angle of heel and then 
-steadily increases as the angle of heel increases . The length of the righting lever GZ 
+steadily increases as the angle of heel increases . The length of the righting l ever GZ 
 peaks at a heel angle of 33.8 degrees  and then begins to decrease as the a ngle of heel 
-increa ses beyond 33.8 degrees.  
+increases beyond 33.8 degrees.  
 2.4 The value for GZ reaches zero at a heel angle of 77 degrees. This is known as the angle 
 of vanishing stability . If the Enchanter  heeled past 77 degrees,  the value of GZ becomes 
 negative. At that point GZ becomes a capsizing lever  and the vessel will capsize.  
 
  
 Final Report MO -2022 -201 
-<< Page 68 >>
+<< Page 70 >>
   
  
 Figure 29: GZ curve for the Enchanter, representative of its  
@@ -2568,7 +2654,7 @@ Point  of vanishing
 stability  
  
 
-<< Page 69 >>
+<< Page 71 >>
  Final Report MO -2022 -201        
 Figure 30: Sample calculation representing a typical load case for the Enchanter  
 (Source : The Enchanter ’s Stability Manual)  
@@ -2577,34 +2663,34 @@ Figure 30: Sample calculation representing a typical load case for the Enchanter
 
  
 Final Report MO -2022 -201 
-<< Page 70 >>
+<< Page 72 >>
  Appendix 3  Maritime Rules  Part 40C   
  
 
  
 
-<< Page 71 >>
+<< Page 73 >>
  Final Report MO -2022 -201  
 
  
 Final Report MO -2022 -201 
-<< Page 72 >>
+<< Page 74 >>
   
  
 
  
 
-<< Page 73 >>
+<< Page 75 >>
  Final Report MO -2022 -201 Appendix 4   Post-salvage inspection  
 Figure 31: The Enchanter being prepared for towing after raising (top left); being winched up 
 the beach (top right); on the beach after salvage (bottom)  
 
  
 Final Report MO -2022 -201 
-<< Page 74 >>
+<< Page 76 >>
   
 Figure 32: The Enchanter showing damage to bow sustained during salvage (top); overview of 
-what had been the main saloon (middle); and detail of failed co nnection between the hull and 
+what had been the main saloon (middle); and detail of failed connection between the hull and 
 superstructure (bottom).  
   
 Damage to bow sustained 
@@ -2617,21 +2703,11 @@ connecting
 superstructure to hull  
  
 
-<< Page 75 >>
+<< Page 77 >>
  Final Report MO -2022 -201 Appendix 5  Expert analysis of EPIRB data  
  
 The Enchanter  Capsize, description of EPIRB transmissions – 20  March  2022 
 (all times in UTC)
-
- 
-Final Report MO -2022 -201 
-<< Page 76 >>
- 
-
- 
-
-<< Page 77 >>
- Final Report MO -2022 -201 
 
  
 Final Report MO -2022 -201 
@@ -2681,13 +2757,23 @@ Final Report MO -2022 -201
  
 
 << Page 87 >>
+ Final Report MO -2022 -201 
+
+ 
+Final Report MO -2022 -201 
+<< Page 88 >>
+ 
+
+ 
+
+<< Page 89 >>
  Final Report MO -2022 -201  
  
   
 
  
 Final Report MO -2022 -201 
-<< Page 88 >>
+<< Page 90 >>
  Appendix 6  Rescue helicopter flight data  
       (TracPlus data)  
 Flight data from t he rescue helicopter confirms that the first rescue helicopter on scene 
@@ -2717,7 +2803,7 @@ Corporate: Te Ara Haumaru - the safe and risk free path
  
 The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
 and child, symbolising protection, safety and guidance. The triple koru represents the three kete of knowledge 
-that Tāne  Māhuta collected from the highest of the heavens to pass their wisdom to humanity. The continual 
+that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. The continual 
 wave is the perpetual line of influence. The succession of humps represents the individual inquiries.  
 Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
 Aviation: Ngā hau e whā - the four winds  
@@ -2726,17 +2812,17 @@ Aviation: Ngā hau e whā - the four winds
  
  
 To Sandy, ‘Ngā hau e whā ’ (the four winds), commonly used in Te Reo Māori to refer to people coming 
-together from across Aotearoa, was also redolent of the aviation environment. The design represent s the sky, 
-cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa’s ‘long 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind. There is a manu (bird) form representing the aircraft t hat move through Aotearoa’s ‘long 
 white cloud’. The letter ‘A’ is present, standing for a ‘Aviation’.  
-Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind ) in the creation of this Kōwhaiwhai.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this Kōwhaiwhai.  
 Maritime: Ara wai - waterways  
  
  
  
  
 The sections of waves flowing across the design represent the many different ‘ara wai’ (waterways) that ships 
-sail across. The ‘V’ shape is a ship’s prow and its wake. The letter ‘M’  is present, standing for ‘Maritime.  
+sail across. The ‘V’ shape is a ship’s prow and its wake. The letter ‘M’ is present, standing for ‘Maritime.  
 Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
 Rail: rerewhenua - flowing across the land  
  
@@ -2753,7 +2839,7 @@ that dwells within) in the creation of this Kōwhaiwhai.
  
   
 Recent Maritime  Occurrence reports published by  
-the Transport Accident Inve stigation Commission  
+the Transport Accident Investigation Commission  
 (most recent at top of list)  
 MO-2022 -206 Charter fishing vessel i -Catcher, Capsize, Goose Bay, Kaikōura, New Zealand, 10 
 September 2022  
@@ -2765,7 +2851,7 @@ Zealand, 10 December 2021
 MO-2020 -205 General cargo vessel, Kota Bahagia, cargo hold fire, Napier Port, 18 December 2020  
 MO-2021 -202 Factory fishing trawler Amaltal Enterprise Engine room fire, 55 nautical miles west of 
 Hokitika, 2 July 2021  
-MO-2021 -203 Collision between fishing vessel ‘Commiss ion’ and container ship ‘Kota Lembah’, 84 
+MO-2021 -203 Collision between fishing vessel ‘Commission’ and container ship ‘Kota Lembah’, 84 
 nautical miles northeast of Tauranga, Bay of Plenty, New Zealand, 28 July 2021  
 MO-2021 -201 Jet boat KJet 8, loss of control, Shotover River, Queenstown, 21 March 2021  
 MO-2021 -203 Collision between fishing vessel ‘Commission; and container ship ‘Kota Lembah’, 84 
@@ -2776,7 +2862,7 @@ MO-2018 -206 Bulk carrier Alam Seri, loss of control and contact with seabed, Po
 November 2018  
 MO-2020 -201 Collision between bulk carrier Rose Harmony and fishing vessel Leila Jo, Off Lyttelton, 
 12 January 2020  
-MO-2019 -204 Capsize of water taxi He nerata, Paterson Inlet, Stewart Island/Rakiura, 12 September 
+MO-2019 -204 Capsize of water taxi Henerata, Paterson Inlet, Stewart Island/Rakiura, 12 September 
 2019  
 
  
