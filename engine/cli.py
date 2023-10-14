@@ -2,7 +2,7 @@ from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer
 
 from .Gather_Wrangle import PDFDownloader, PDFParser
 
-from .Verify import ThemeComparer
+from .Verify import ThemeComparer, WeightingComparer
 
 from . import Config
 
@@ -51,6 +51,7 @@ def printout_cost_summary(run_type):
 
 def validate():
     ThemeComparer.ThemeComparer().compare_themes()
+    WeightingComparer.WeightingComparer().compare_weightings()
 
 def cli():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
