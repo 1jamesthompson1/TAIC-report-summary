@@ -2,6 +2,8 @@ from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer
 
 from .Gather_Wrangle import PDFDownloader, PDFParser
 
+from .Verify import ThemeComparer, WeightingComparer
+
 from . import Config
 
 
@@ -47,12 +49,15 @@ def printout_cost_summary(run_type):
         case "all":
             print(summary_strs["all"])
 
+def validate():
+    ThemeComparer.ThemeComparer().compare_themes()
+    WeightingComparer.WeightingComparer().compare_weightings()
 
 def cli():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
     parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
-    parser.add_argument("-t", "--run_type", choices=["download", "themes", "summarize", "all"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions.")
+    parser.add_argument("-t", "--run_type", choices=["download", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validtion check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
 
     args = parser.parse_args()
 
@@ -85,6 +90,8 @@ def cli():
             download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
             generate_themes(output_path, engine_settings.get('output').get('reports'))
             summarize(engine_settings.get('output'))
+        case "validate":
+            validate()
 
 if __name__ == "__main__":
     cli()

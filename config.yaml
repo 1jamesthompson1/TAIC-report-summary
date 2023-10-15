@@ -14,5 +14,6 @@ engine:
       pdf_file_name: "{{report_id}}.pdf"
       themes_file_name: "{{report_id}}_themes.txt"
       summary_file_name: "{{report_id}}_summary.txt"
-
-
+  validation:
+    folder_name: "validation"
+    

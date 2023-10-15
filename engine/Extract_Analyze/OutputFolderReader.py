@@ -4,8 +4,8 @@ import regex as re
 
 class OutputFolderReader:
     def __init__(self, output_folder = None):
+        self.output_config = Config.ConfigReader().get_config()['engine']['output']
         if output_folder is None:
-            self.output_config = Config.ConfigReader().get_config()['engine']['output']
             self.output_folder = self.output_config.get("folder_name")
         else:
             self.output_folder = output_folder
@@ -49,6 +49,9 @@ class OutputFolderReader:
 
     def read_all_themes(self, processing_function):
         self._read_file_from_each_report_dir(self.output_config.get("reports").get("themes_file_name"), processing_function)
+
+    def read_all_summaries(self, processing_function):
+        self._read_file_from_each_report_dir(self.output_config.get("reports").get("summary_file_name"), processing_function)
 
     def process_reports(self, processing_function):
         self._read_file_from_each_report_dir(self.output_config.get("reports").get("text_file_name"), processing_function)
