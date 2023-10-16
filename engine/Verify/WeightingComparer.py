@@ -33,13 +33,12 @@ class WeightingComparer(Comparer):
         print('==Validation summary==')
         print(f"  {num_reports} reports compared.")
         # print(f"  {[report for report in self.compared_weightings]}")
-        print(f"  Average weighting manhattan distance percentage: {sum([self.compared_weightings[report]['weightings'] for report in self.compared_weightings])/num_reports}%")
+        print(f"  Average weighting manhattan distance: {sum([self.compared_weightings[report]['weightings'] for report in self.compared_weightings])/num_reports}")
         print(f"  Average pages read jaccard similarity: {sum([self.compared_weightings[report]['pages_read'] for report in self.compared_weightings])/num_reports}")
     
 
     def compare_two_summaries(self, report_id, report_summary):
         if (report_id in self.validation_set.keys()):
-            print(f"  Found {report_id} in validation set.")
             engine_summary = self.decode_summaries(report_summary)
         else:
             return
@@ -61,7 +60,7 @@ class WeightingComparer(Comparer):
             print(f"  Validation weightings and engine weightings have different lengths. Skipping {report_id}")
             return
         
-        manhattan_weightings_similarity = sum([abs(validation_weightings[i] - engine_weightings[i]) for i in range(len(validation_weightings))])
+        manhattan_weightings_similarity = sum([abs(validation_weightings[i] - engine_weightings[i]) for i in range(len(validation_weightings))])/ThemeReader().get_num_themes()
 
         self.compared_weightings[report_id] = {"pages_read": pages_read_jaccard_similarity, "weightings": manhattan_weightings_similarity}
 

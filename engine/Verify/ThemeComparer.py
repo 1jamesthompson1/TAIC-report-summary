@@ -10,7 +10,6 @@ class ThemeComparer(Comparer):
         self.compared_themes = dict()
 
     def add_report_ID(self, report_id, report_theme):
-        print(f"  Adding {report_id} to validation set.")
         self.validation_set[report_id] = report_theme
 
     def compare_themes(self):
@@ -29,9 +28,7 @@ class ThemeComparer(Comparer):
         
 
     def compare_two_themes(self, report_id, report_theme):
-        if report_id in self.validation_set.keys():
-            print(f"  Found {report_id} in validation set.")
-        else:
+        if not report_id in self.validation_set.keys():
             return
         
         validation_theme = self.validation_set[report_id]
