@@ -9,7 +9,7 @@ packages = [{include = "engine"}, {include = "viewer"}]
 repository = "https://github.com/1jamesthompson1/TAIC-report-summary"
 
 [tool.poetry.dependencies]
-python = "^3.*"
+python = "3.*"
 openai = "^0.27.8"
 python-dotenv = "^1.0.0"
 bs4 = "^0.0.1"
