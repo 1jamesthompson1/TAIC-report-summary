@@ -6,10 +6,10 @@ authors = ["James <1jamesthompson1@gmail.com>"]
 license = "GPLv3"
 readme = "README.md"
 packages = [{include = "engine"}, {include = "viewer"}]
-repository = "www.github.com/1jamesthompson1/TAIC-report-summary"
+repository = "https://github.com/1jamesthompson1/TAIC-report-summary"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 openai = "^0.27.8"
 python-dotenv = "^1.0.0"
 bs4 = "^0.0.1"
