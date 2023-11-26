@@ -20,17 +20,21 @@ class ThemeGenerator:
                             self.report_theme_template.replace(r'{{report_id}}', report_id))
 
     def generate_themes(self):
-        print("Generating themes from reports...")
+        print("Generating themes from reports with config:")
+        print(f"  Output folder: {self.output_folder}")
+        print(f"  Report directory template: {self.report_dir_template}")
+        print(f"  Report theme template: {self.report_theme_template}")
+
 
         self.output_folder_reader.process_reports(self._get_theme)
 
-        print("Themes generated from reports")
+        print(" Themes generated for each report")
 
-        print("Reading all themes and summarizing...")
+        print(" Creating global themes")
         self.output_folder_reader.read_all_themes(self._read_themes)
-        print("All themes read")
+        print("  All themes read")
             
-        print("Summarizing themes...")
+        print("  Summarizing themes...")
         summarized_themes = self.open_ai_caller.query(
             "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI will give you 3-6 themes/causes summaries for each report. \n\nPlease read all of the summaries and provide 5-10 themes/causes that best cover all of the individual themes present.\n\nYour output should have a title and description paragraph (<= 50 words) for each general theme/cause discovered.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible."
             ,
@@ -49,7 +53,7 @@ class ThemeGenerator:
         average_summary = self.open_ai_caller.query(
             "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI have three summaries of all of the themes.\n\nI wanted you to take the average of all of the summaries.\n\nYour output should have a title and description of each theme/cause.\n\nNote that I want this to be reproducible and deterministic as possible.",
             summarized_themes_str,
-            gpt4 = True,
+            large_model=True,
             temp = 0,
         )
 
@@ -60,12 +64,12 @@ class ThemeGenerator:
         
         Themes.ThemeWriter().write_themes(formatted_themes)
 
-        print("Themes summaried and written to file")        
+        print(" Themes summaried and written to file")        
 
 
     def _get_theme(self, report_id, report_text):
 
-        print(f"Generating themes for report {report_id}")
+        print(f"  Generating themes for report {report_id}")
 
         important_text = ReportExtractor(report_text, report_id).extract_important_text()[0]
 
@@ -75,7 +79,6 @@ class ThemeGenerator:
         report_themes = self.open_ai_caller.query(
             "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nFor this, I need your help by reading this report and telling me the 3-6 themes/causes that are present in the report.\n\nYour response should have a short paragraph (<= 30 words) for each theme/cause. With an empty line in between each paragraph.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible.",
             important_text,
-            large_model=True,
             temp = 0
         )
 
@@ -85,7 +88,7 @@ class ThemeGenerator:
         with open(self._get_theme_file_path(report_id), "w") as f:
             f.write(report_themes)
 
-        print(f"Themes for {report_id} generated")
+        print(f"  Themes for {report_id} generated")
 
     def _read_themes(self, report_id, report_themes):
         with open(self._get_theme_file_path(report_id), "r") as f:

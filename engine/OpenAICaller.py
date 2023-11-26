@@ -13,23 +13,22 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class OpenAICaller:
     def __init__(self):
-        self.model = "gpt-3.5-turbo"
+        self.model = "gpt-3.5-turbo-16k"
         
-        self.model_large = "gpt-3.5-turbo-16k"
+        self.model_large = "gpt-4-1106-preview"
     def setup(self):
         # Set up the OpenAI API credentials and other configuration options
         pass
 
-    def query(self, system, user, temp = 1, large_model = False, n = 1, gpt4 = False):
+    def query(self, system, user, temp = 1, large_model = False, n = 1):
 
         model= self.model_large if large_model else self.model
-        model = "gpt-4" if gpt4 else model
 
         # Check to make sure there arent too many tokens
         total_length = sum(self.get_tokens(model, [system, user]))+1
         
         # This is hardcoded due to there being no API way of seeing if there are too many tokens.
-        if (large_model and (total_length > 16000)) or ( (not large_model) and (total_length > 4000)):
+        if (large_model and (total_length > 128000)) or ( (not large_model) and (total_length > 16000)):
             print("Too many tokens, not sending to OpenAI")
             return None
 

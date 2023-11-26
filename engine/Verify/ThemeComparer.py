@@ -38,7 +38,7 @@ class ThemeComparer(Comparer):
         system = "I am creating an engine that reads Maritime accident investigation reports. \n\nI want to compare the engine-generated themes with that were retrieved from an average human.\n\nCould you please read the two themes and give me a single percentage outcome for how similar they are.\n\n100% means that they have exactly the same themes\n50% means that about half of the themes are correct\n0% Means that there is no overlap in themes.\n\nYour reply should only include the percentage and nothing else."
         while True:
             try:
-                response = openAICaller.query(system, message, temp = 0, gpt4 = True)
+                response = openAICaller.query(system, message, temp = 0)
                 response_percentage = int(response.replace("%", "").replace(" ", ""))
                 break
             except (ValueError):
