@@ -37,19 +37,29 @@ class ReportDownloader:
 
         # Loop through each mode
         for mode in self.modes:
-            print(f"Downloading reports for mode: {mode.name}")
+            self.download_mode(mode)
             
-            # Define the base URL and report ids and download all reports for the mode.
-            mode_id_base = mode.value * 100
-            year_range = [(year, "{0:03d}".format(i)) for year in range(self.start_year, self.end_year) for i in range(mode_id_base, mode_id_base+self.max_per_year)]
+    def download_mode(self, mode):
+        print(f"Downloading reports for mode: {mode.name}")
+            
+        # Define the base URL and report ids and download all reports for the mode.
+        mode_id_base = mode.value * 100 + 1
 
-            base_url = "https://www.taic.org.nz/inquiry/{}o-{}-{}"
-            for year, i in year_range:
+        year_range = [year for year in range(self.start_year, self.end_year+1)]
+        id_range = ["{0:03d}".format(i) for i in range(mode_id_base, mode_id_base+99)]
+
+        base_url = "https://www.taic.org.nz/inquiry/{}o-{}-{}"
+        for year in year_range:
+            number_for_year = 0
+            for i in id_range:
                 url = base_url.format(mode.name, year, i)
                 report_id = f"{year}_{i}"
-                self.download_report(report_id, url)
-
+                if self.download_report(report_id, url):
+                    number_for_year += 1
                 
+                if number_for_year >= self.max_per_year:
+                    break
+
     def download_report(self, report_id, url):
         response = requests.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
@@ -60,10 +70,10 @@ class ReportDownloader:
 
         if (len(pdf_links) == 0):
             print(f"  No PDFs found for {url} assuming report {report_id} does not exist")
-            return
+            return False
         if (len(pdf_links) > 1):
             print(f"WARNING: Found more than one PDF for {report_id} at {url}. Will not download any")
-            return
+            return False
 
         link = pdf_links[0]
 
@@ -79,3 +89,5 @@ class ReportDownloader:
                 print(f"  Downloaded {file_name}")
         else:
             print(f"  {file_name} already exists, skipping download")
+        
+        return True
