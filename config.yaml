@@ -3,6 +3,7 @@ engine:
     end_year: 2023
     max_per_year: 15
     start_year: 2010
+    modes: ["a", "r", "m"]
   output:
     folder_name: "output"
     themes_file_name: "themes.yaml"

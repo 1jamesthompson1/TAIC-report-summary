@@ -15,12 +15,13 @@ def download_extract(output_dir, download_config, output_config):
     reports_config = output_config.get('reports')
 
     # Download the PDFs
-    PDFDownloader.downloadPDFs(output_dir,
+    PDFDownloader.ReportDownloader(output_dir,
                                 reports_config.get('folder_name'),
                                 reports_config.get('pdf_file_name'),
                                 download_config.get('start_year'),
                                 download_config.get('end_year'),
-                                download_config.get('max_per_year'))
+                                download_config.get('max_per_year'),
+                                download_config.get('modes')).download_all()
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(output_dir,
