@@ -73,7 +73,7 @@ class ReportSummarizer:
         # Output the weightings to a file
 
         report_weightings_path = os.path.join(report_folder_path,
-                                           self.report_summary_file_name.replace(r'{{report_id}}', report_id))
+                                           self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
         summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + weightings + ",true" + ",N/A" + "\n"
 
         with open(report_weightings_path, 'w', encoding='utf-8') as summary_file:
@@ -85,7 +85,7 @@ class ReportSummarizer:
         # Output the full summary to a file
 
         report_summary_path = os.path.join(report_folder_path,
-                                           self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
+                                           self.report_summary_file_name.replace(r'{{report_id}}', report_id))
         
         with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
             summary_file.write(full_summary)
