@@ -23,7 +23,7 @@ class ReportSummarizer:
 
     def summarize_reports(self):
         if not os.path.exists(self.output_folder):
-            print("Output folder and hence extracted text does not exist. Reports cannot be summarized.")
+            print("WARNING: Output folder and hence extracted text does not exist. Reports cannot be summarized.")
             return
         
         with open(self.overall_summary_path, 'w', encoding='utf-8') as summary_file:
@@ -31,7 +31,15 @@ class ReportSummarizer:
         
         # Prepare system prompt
         number_of_themes = self.theme_reader.get_num_themes()
-        self.system_prompt = f"Please read this report and determine what themes had the most contribution. Can you please provide a paragraph for each theme with how much you think it contributed to the accident? You should provide percentages for each of the {number_of_themes} themes, with all the percentages adding up to 100.\n\nHere is a summary of the {number_of_themes} themes:\n{self.theme_reader.get_theme_description_str()}\n\n---\nNote that I want this to be repeatable and deterministic as possible."
+        self.system_prompt = f"""
+        Please read this report and determine what themes had the most contribution. In your response you should provide some reasoning for why you think a particular safety theme was or was not important. Then are then end of your reasoning provide a percentage for that theme. Note that your percentage could be zero, if that theme had no affect what so ever.
+
+        You should provide percentages for each of the {number_of_themes} themes. It is important that the sum of all the percentages is exactly 100.
+
+        Here is a summary of the {number_of_themes} themes, this should be used to help make judgement on which are the most important for this partiulcar accident:
+
+        {self.theme_reader.get_theme_description_str()}
+        """
         
 
         print("Summarizing reports...")
@@ -51,6 +59,7 @@ class ReportSummarizer:
             return
         
         summary = self.summarize_text(report_id, text_to_be_summarized)
+        
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + "Error" + ",false" + ",Could not summarize report" + "\n"
@@ -71,17 +80,16 @@ class ReportSummarizer:
         print(f'Summarized {report_id} and saved summary to {report_summary_path}, line also added to {self.overall_summary_path}')
     
     def summarize_text(self, report_id, text) -> str:
-        examples = self.get_example_weightings()
-        max_attempts = 5
+        max_attempts = 3
+        attempts = 0
         while True:
-            max_attempts -= 1
-            if max_attempts == 0:
+            attempts += 1
+            if attempts == max_attempts+1:
                 return None
             numberOfResponses = 1
             responses = openAICaller.query(
                 self.system_prompt,
                 text,
-                large_model = True,
                 n=numberOfResponses,
                 temp = 0)
             
@@ -91,22 +99,31 @@ class ReportSummarizer:
             # Convert the responses into a list of lists
             if numberOfResponses == 1:
                 responses = [responses]
+            parsed_responses = [self.parse_weighting_response(response,self.generate_parse_template()) for response in responses]
 
-            weightings = [self.convert_response_to_list(response, examples) for response in responses]
 
-            # Convert to a pandas dataframe
+            weightings = [[theme['percentage'] for theme in response] for response in parsed_responses]
+            print(f"  The weightings are:\n  {weightings}")
             weightings = pd.DataFrame(weightings)
 
             # Remove all rows that dont add up to 100
             weightings = weightings[weightings.sum(axis=1).eq(100)]
+
+            if weightings.shape[0] == 0:
+                print(f"  WARNING: No valid responses with a sum of 100 retrying.")
+                continue
+
             # Get an average of all of the rows
             weighting_average = list(weightings.mean(axis=0))
 
+            print(f"  The average weightings are: {weighting_average}")
+            
             # Scale the average to add up to 100
-            weighting_average = [round(weight * 100 / sum(weighting_average), ndigits =3 ) for weight in weighting_average]
+            weighting_average = [round((weight * 100) / sum(weighting_average), ndigits = 3) for weight in weighting_average]
 
-            if round(sum(weighting_average),3) != 100:
-                print("Error weightings should add up to 100 after scaling.")
+            if round(sum(weighting_average)) != 100:
+                print(f"  WARNING: weightings should add up to 100 after scaling. Where it currently adds up to {round(sum(weighting_average),3)}")
+                print(f"   Weightings were: {weighting_average}")
                 continue
 
             # Calculate the standard deviation of the weightings
@@ -124,44 +141,74 @@ class ReportSummarizer:
             break
         
         return weighting_str
-    
-    def get_example_weightings(self):
-        number_of_themes = self.theme_reader.get_num_themes()
-        example_weightings = ""
-        for i in range(0, 2):
-            weighting = []
-            for j in range(0, number_of_themes):
-                if j == number_of_themes-1:
-                    weighting.append(100-sum(weighting))
-                else:
-                    weighting.append(random.randint(0, 100-sum(weighting) if len(weighting) > 0 else 0))
+        
+    def generate_parse_template(self):
+        template = ""
 
-            example_weightings += "'" + ",".join([str(weight_int) for weight_int in weighting]) + "' "
+        for theme_title in self.theme_reader.get_theme_titles():
+            template += f"xy% - {theme_title}\n[given reason here]\n\n"
 
-        return example_weightings
+        return template
     
-    def convert_response_to_list(self, response, examples):
+    def parse_weighting_response(self, response, template):
         max_attempts = 3
+        attempts = 0
+        
         while True:
-            max_attempts -= 1
-            if max_attempts == 0:
-                print(f"  Could not convert response to list")
+            attempts += 1
+            if attempts == max_attempts:
+                print(f"  WARNING: Could not convert response to list")
                 return None
-            weighting_str = openAICaller.query(
-                    f"Please convert this into a comma-separated list of percentages. Examples are: {examples}.",
+            response = openAICaller.query(
+                    f"""
+Please take this response and parse it into the specific template below.
+
+It is important that you follow the specific template as laid out below. This should be exact and there should be no extra characters before or after the template.
+
+Both the percentages and the reasoning behind the percentages should be parsed verbatim
+
+Here is the template:
+
+{template}
+                    """,
                     response,
+                    large_model=True,
                     temp = 0)
             
-            if weighting_str == None or weighting_str == "None":
+            if response == None:
                 return None
             
-            weightings = []
+            themes = response.split('\n\n')
+            result_list = []
+            
             try: 
-                weightings = [int(num) for num in weighting_str.split(",")]
-                return weightings
+                if len(themes) != self.theme_reader.get_num_themes():
+                    raise ValueError(f"  Incorrect number of themes in the response")
+                # Iterate over each theme
+                for theme in themes:
+                    lines = theme.split('\n')
+
+                    if len(lines) != 2:
+                        raise ValueError(f"  Incorrect number of lines in theme")
+                    
+                    # Extract percentage, name, and reason
+                    percentage, name = lines[0].split(' - ', 1)
+                    reason = lines[1].strip()
+
+                    # Convert percentage to integer
+                    percentage = int(percentage.strip('%'))
+
+                    # Create a dictionary and append to the result list
+                    result_list.append({'name': name.strip(), 'percentage': percentage, 'reason': reason})
+                
+                break
+
             except ValueError:
-                print(f"  Incorrect response from model retrying. \n  Response from request was: '{weighting_str}' and the response to be converted was: '{response}'")
+                print(f"  WARNING: Incorrect response from model retrying. \n  Response from request was: '{response}'\n\n\nand the response to be converted was:\n\n'{response}'")
                 continue
+
+        return result_list
+
         
 
 
