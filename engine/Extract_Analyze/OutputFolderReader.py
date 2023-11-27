@@ -51,7 +51,7 @@ class OutputFolderReader:
         self._read_file_from_each_report_dir(self.output_config.get("reports").get("themes_file_name"), processing_function)
 
     def read_all_summaries(self, processing_function):
-        self._read_file_from_each_report_dir(self.output_config.get("reports").get("summary_file_name"), processing_function)
+        self._read_file_from_each_report_dir(self.output_config.get("reports").get("weightings_file_name"), processing_function)
 
     def process_reports(self, processing_function):
         self._read_file_from_each_report_dir(self.output_config.get("reports").get("text_file_name"), processing_function)

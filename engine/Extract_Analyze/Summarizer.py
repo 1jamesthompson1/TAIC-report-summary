@@ -18,7 +18,8 @@ class ReportSummarizer:
         self.overall_summary_path = os.path.join(self.output_folder, output_config.get("summary_file_name"))
 
         self.report_dir = output_config.get("reports").get("folder_name")
-        self.report_summary_file_name = output_config.get("reports").get("summary_file_name")
+        self.report_summary_file_name = output_config.get("reports").get("full_summary_file_name")
+        self.report_weightings_file_name = output_config.get("reports").get("weightings_file_name")
 
 
     def summarize_reports(self):
@@ -65,19 +66,31 @@ class ReportSummarizer:
             summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + "Error" + ",false" + ",Could not summarize report" + "\n"
             return
         
-        report_summary_path = os.path.join(self.output_folder,
-                                           self.report_dir.replace(r'{{report_id}}', report_id),
-                                           self.report_summary_file_name.replace(r'{{report_id}}', report_id))
-        summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + summary + ",true" + ",N/A" + "\n"
+        weightings, full_summary = summary # unpack tuple response
 
-        with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
+        report_folder_path = os.path.join(self.output_folder,
+                                            self.report_dir.replace(r'{{report_id}}', report_id))
+        # Output the weightings to a file
+
+        report_weightings_path = os.path.join(report_folder_path,
+                                           self.report_summary_file_name.replace(r'{{report_id}}', report_id))
+        summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + weightings + ",true" + ",N/A" + "\n"
+
+        with open(report_weightings_path, 'w', encoding='utf-8') as summary_file:
             summary_file.write(summary_str)
 
-        # Add text to overall csv
         with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
             summary_file.write(summary_str)
 
-        print(f'Summarized {report_id} and saved summary to {report_summary_path}, line also added to {self.overall_summary_path}')
+        # Output the full summary to a file
+
+        report_summary_path = os.path.join(report_folder_path,
+                                           self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
+        
+        with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
+            summary_file.write(full_summary)
+
+        print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
     
     def summarize_text(self, report_id, text) -> str:
         max_attempts = 3
@@ -139,8 +152,8 @@ class ReportSummarizer:
 
             print("  The weightings are: " + str(weighting_str))
             break
-        
-        return weighting_str
+
+        return weighting_str, responses[0] # Currently assuming that there is only going to be one response.
         
     def generate_parse_template(self):
         template = ""
