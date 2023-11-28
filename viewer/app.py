@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import os
-from . import search
+import search  # Assuming this is your custom module for searching
 
 app = Flask(__name__)
 
@@ -46,9 +46,8 @@ def get_report_text():
 
     return jsonify({'report_id': report_id, 'highlighted_report_text': highlighted_report_text})
 
-def run():
-    port = int(os.environ.get("PORT", 5000))
-    app.run(port=port, host="0.0.0.0")
+
+port = int(os.environ.get("PORT", 5000))
 
 if __name__ == '__main__':
-    run()
+    app.run(port=port, host="0.0.0.0")
