@@ -33,13 +33,40 @@ class ReportSummarizer:
         # Prepare system prompt
         number_of_themes = self.theme_reader.get_num_themes()
         self.system_prompt = f"""
-        Please read this report and determine what themes had the most contribution. In your response you should provide some reasoning for why you think a particular safety theme was or was not important. Then are then end of your reasoning provide a percentage for that theme. Note that your percentage could be zero, if that theme had no affect what so ever.
+You will be provided with a Transport Accident investigation report. In particular you will be given the analysis and the finding sections of this report.
 
-        You should provide percentages for each of the {number_of_themes} themes. It is important that the sum of all the percentages is exactly 100.
+Please read this report and determine what safety themes had the most contribution. This means I want to find out what are the most important and relevant safety themes for this particular accident.
 
-        Here is a summary of the {number_of_themes} themes, this should be used to help make judgement on which are the most important for this partiulcar accident:
+For each safety theme can you please explain the safety factors and safety issues in this accident that are related to the safety theme. If there was nothing in the accident that is realated to the safety theme then simply say so.
+Please also assign a releative percentage to each of the safety theme indicating how related it is to this partiuclar accident. These percentages need to add up to 100. If there is no connection between the safety theme and the accident then the percentage should be zero.
 
-        {self.theme_reader.get_theme_description_str()}
+Here is a summary of the {number_of_themes} themes:
+
+{self.theme_reader.get_theme_description_str()}
+
+---
+Note that I want this to be repeatable and deterministic as possible.
+
+Definition for the terms used can be found below:
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+---
         """
         
 
@@ -66,7 +93,7 @@ class ReportSummarizer:
             summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + "Error" + ",false" + ",Could not summarize report" + "\n"
             return
         
-        weightings, full_summary = summary # unpack tuple response
+        weightings, full_summary_parsed, full_summary_unparsed = summary # unpack tuple response
 
         report_folder_path = os.path.join(self.output_folder,
                                             self.report_dir.replace(r'{{report_id}}', report_id))
@@ -88,11 +115,15 @@ class ReportSummarizer:
                                            self.report_summary_file_name.replace(r'{{report_id}}', report_id))
         
         with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write(full_summary)
+            summary_file.write("-----------------------------\n---Full Summary Unparsed---\n-----------------------------\n\n")
+            summary_file.write(full_summary_unparsed)
+            summary_file.write("\n\n-----------------------------\n---Full Summary parsed---\n-----------------------------\n\n")
+            for theme in full_summary_parsed:
+                summary_file.write(f"{theme['name']} - {theme['percentage']}% - \n{theme['reason']}\n\n")
 
         print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
     
-    def summarize_text(self, report_id, text) -> str:
+    def summarize_text(self, report_id, text) -> (str, str, str):
         max_attempts = 3
         attempts = 0
         while True:
@@ -113,6 +144,9 @@ class ReportSummarizer:
             if numberOfResponses == 1:
                 responses = [responses]
             parsed_responses = [self.parse_weighting_response(response,self.generate_parse_template()) for response in responses]
+
+            if parsed_responses is None:
+                continue
 
 
             weightings = [[theme['percentage'] for theme in response] for response in parsed_responses]
@@ -153,7 +187,7 @@ class ReportSummarizer:
             print("  The weightings are: " + str(weighting_str))
             break
 
-        return weighting_str, responses[0] # Currently assuming that there is only going to be one response.
+        return weighting_str, parsed_responses[0], responses[0] # Currently assuming that there is only going to be one response.
         
     def generate_parse_template(self):
         template = ""
@@ -170,7 +204,7 @@ class ReportSummarizer:
         while True:
             attempts += 1
             if attempts == max_attempts:
-                print(f"  WARNING: Could not convert response to list")
+                print(f"  WARNING: Could not get a parsable response in time.")
                 return None
             response = openAICaller.query(
                     f"""
