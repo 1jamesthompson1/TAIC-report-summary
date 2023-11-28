@@ -121,7 +121,7 @@ issues.
             summary_file.write(full_summary_unparsed)
             summary_file.write("\n\n-----------------------------\n---Full Summary parsed---\n-----------------------------\n\n")
             for theme in full_summary_parsed:
-                summary_file.write(f"{theme['name']} - {theme['percentage']}% - \n{theme['reason']}\n\n")
+                summary_file.write(f"{theme['percentage']}% - {theme['name']}\n{theme['reason']}\n\n")
 
         print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
     
