@@ -204,7 +204,34 @@ There are two distinct parts to this project and so running them are distnct ope
 
 Both of them however run using poetry scripts. So it will look something like `poetry run <script name>`
 
+There is also a configuration file that can be found in 'config.yaml'
+
+### Configuration
+
+This file is used to configure both the engine and the viewer. It helps them be on the same page. 
+
+There are currently three sections. 
+
+#### download
+
+This is where you control what the engine will download.
+
+There are three things you might want to change.
+
+- The year range. This can be changed by simply updating the start and ending range.
+- How many reports per year. This is the count of how many reports to download per year per mode.
+- The modes you want to analyse. There are three support modes, 'a' for aviation, 'r' for rail and 'm' for marine. It is important that when adding or removing modes that you keep the correct list syntax as seen.
+
+#### output
+
+This is just instructions on the format of the output and should not needed to be changed
+
+#### validation
+
+This is also just instructions on the format of the validation and should not need to be changed.
+
 ### engine
+
 A complete run through can be done by running the following command:
 ```
 poetry run engine -t all
@@ -216,6 +243,8 @@ Then if you want to run a specific section or do the cost calculation then you h
 ```
 poetry run engine -t summary -c
 ```
+
+Note that in the cli you can only tell the engine what to do not how to do it. All the configuration can be found in the [config file](#configuration).
 
 ### viewer
 

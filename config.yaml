@@ -3,6 +3,7 @@ engine:
     end_year: 2023
     max_per_year: 15
     start_year: 2010
+    modes: ["a", "r", "m"]
   output:
     folder_name: "output"
     themes_file_name: "themes.yaml"
@@ -13,7 +14,8 @@ engine:
       text_file_name: "{{report_id}}.txt"
       pdf_file_name: "{{report_id}}.pdf"
       themes_file_name: "{{report_id}}_themes.txt"
-      summary_file_name: "{{report_id}}_summary.txt"
+      full_summary_file_name: "{{report_id}}_summary.txt"
+      weightings_file_name: "{{report_id}}_weightings.txt"
   validation:
     folder_name: "validation"
     
