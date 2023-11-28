@@ -1,1 +1,1 @@
-web: pip install poetry && poetry install && poetry run python viewer/app.py
+web: pip install poetry && poetry install && poetry run viewer
