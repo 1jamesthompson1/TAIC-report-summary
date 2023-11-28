@@ -91,6 +91,8 @@ issues.
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + "Error" + ",false" + ",Could not summarize report" + "\n"
+            with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
+                summary_file.write(summary_str)
             return
         
         weightings, full_summary_parsed, full_summary_unparsed = summary # unpack tuple response
@@ -145,7 +147,7 @@ issues.
                 responses = [responses]
             parsed_responses = [self.parse_weighting_response(response,self.generate_parse_template()) for response in responses]
 
-            if parsed_responses is None:
+            if parsed_responses == [None]:
                 continue
 
 
@@ -230,13 +232,14 @@ Here is the template:
             
             try: 
                 if len(themes) != self.theme_reader.get_num_themes():
-                    raise ValueError(f"  Incorrect number of themes in the response")
+                    print(f"  WARNING: Incorrect number of themes in response.")
+                    raise ValueError()
                 # Iterate over each theme
                 for theme in themes:
+                
                     lines = theme.split('\n')
 
-                    if len(lines) != 2:
-                        raise ValueError(f"  Incorrect number of lines in theme")
+                    lines[1] = ' '.join(lines[1:])
                     
                     # Extract percentage, name, and reason
                     percentage, name = lines[0].split(' - ', 1)
