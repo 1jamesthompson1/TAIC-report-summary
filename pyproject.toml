@@ -30,7 +30,7 @@ nltk = "^3.8.1"
 
 [tool.poetry.scripts]
 engine = "engine.cli:cli"
-viewer = "viewer.run:run"
+viewer = "viewer.app:run"
 
 
 [build-system]
