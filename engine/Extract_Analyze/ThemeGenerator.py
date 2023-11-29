@@ -75,10 +75,45 @@ class ThemeGenerator:
 
         if important_text is None:
             return
+        
+        system_message = """
+You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation. Use the following format to cite relevant passages "quote in here" (section.paragraph.subparagraph).
+"""
+        user_message = f"""
+'''
+{important_text}
+'''
+
+Question:
+Please provide me 3 - 6 safety themes that are most related to this accident.
+For each theme provide a paragraph explaining what the theme is and reasoning as to why it is relevant to this accident. Provide evidence for your reasoning with inline quotes. More than 1 quote may be needed.
+
+----
+Here are some definition
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+"""
 
         report_themes = self.open_ai_caller.query(
-            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nFor this, I need your help by reading this report and telling me the 3-6 themes/causes that are present in the report.\n\nYour response should have a short paragraph (<= 30 words) for each theme/cause. With an empty line in between each paragraph.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible.",
-            important_text,
+            system_message,
+            user_message,
+            large_model=True,
             temp = 0
         )
 
