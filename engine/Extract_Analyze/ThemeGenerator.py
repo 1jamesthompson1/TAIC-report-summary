@@ -4,7 +4,7 @@ import yaml
 from ..OpenAICaller import openAICaller
 from . import OutputFolderReader
 from .Summarizer import ReportExtractor
-from . import Themes
+from . import Themes, ReferenceChecking
 
 class ThemeGenerator:
     def __init__(self, output_folder, report_dir_template, report_theme_template):
@@ -113,20 +113,39 @@ cover a single safety issue, or two or more related safety
 issues.
 """
 
-        report_themes = self.open_ai_caller.query(
-            system_message,
-            user_message,
-            large_model=True,
-            temp = 0
-        )
+        # report_themes = self.open_ai_caller.query(
+        #     system_message,
+        #     user_message,
+        #     large_model=True,
+        #     temp = 0
+        # )
+
+        # Temp for development
+        with open(self._get_theme_file_path(report_id), "r") as f:
+            report_themes = f.read()
 
         if report_themes is None:
             return
-
+        
         with open(self._get_theme_file_path(report_id), "w") as f:
             f.write(report_themes)
+        
+        print(f"  Themes for {report_id} generated now validating references")
 
-        print(f"  Themes for {report_id} generated")
+        report_themes = yaml.safe_load(report_themes)
+
+        referenceChecker = ReferenceChecking.ReferenceValidator(report_text)
+
+        for theme in report_themes:
+            if not referenceChecker.validate_references(theme['explanation']):
+                print(f"  Invalid reference in theme: {theme['name']} for report {report_id}")
+
+        print(f"  References for {report_id} validated now writing to file")
+
+        with open(self._get_theme_file_path(report_id), "w") as f:
+            yaml.dump(report_themes, f)
+
+        
 
     def _read_themes(self, report_id, report_themes):
         theme = yaml.safe_load(report_themes)

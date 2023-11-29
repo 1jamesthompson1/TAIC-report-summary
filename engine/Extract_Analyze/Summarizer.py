@@ -352,3 +352,37 @@ class ReportExtractor:
                 print(f"  Incorrect response from model retrying. \n  Response was: '{model_response}'")
 
         return pages_to_read
+    
+    def extract_section(self, section_str: str):
+        print(f"  Extracting section {section_str}")
+
+        split_section = section_str.split(".")
+        section = split_section[0]
+        endRegex_nextSection = f"^{int(section)+1} "
+        endRegexs = [endRegex_nextSection]
+        if len(split_section) > 1:
+            paragraph = split_section[1]
+            endRegex_nextParagraph = f"^{section}.{int(paragraph)+1} "
+            endRegexs.insert(0, endRegex_nextParagraph)
+
+        if len(split_section) > 2:
+            sub_paragraph = split_section[2]
+            endRegex_nextSubParagraph = f"^{section}.{paragraph}.{int(sub_paragraph)+1} "
+            endRegexs.insert(0, endRegex_nextSubParagraph)
+
+        startRegex = f"^{section} "
+
+        # Get the entire string between the start and end regex
+        # Start by looking for just the next subparagraph, then paragraph, then section
+        startMatch = re.search(startRegex, self.report_text, re.MULTILINE)
+
+        for endRegex in endRegexs:
+            endMatch = re.search(endRegex, self.report_text, re.MULTILINE)
+            if endMatch:
+                break
+        
+        if startMatch and endMatch:
+            section_text = self.report_text[startMatch.start():endMatch.start()]
+
+            return section_text
+
