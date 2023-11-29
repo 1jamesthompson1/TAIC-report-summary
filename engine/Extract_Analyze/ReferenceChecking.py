@@ -18,13 +18,22 @@ class Reference():
         self.text = text # This is the text that is being referenced
         self.reference = reference # This is the reference pointing to a partiuclar section, paragraph, or subparagraph.
         self.type = type
+        
 
 class ReferenceValidator():
     """
     Can be used to check if the references in a section of text are valid or not but comparing them to the original text.
     """
-    def __init__(self, original_text: str):
+    def __init__(self, original_text: str, debug=False):
         self.original_text = original_text
+        self.debug = debug
+
+    def _print(self, message):
+        """
+        Prints the given message if debug is set to true.
+        """
+        if self.debug:
+            print(message)
 
     def validate_references(self, text):
         """
@@ -33,7 +42,6 @@ class ReferenceValidator():
         references = self._extract_references(text)
         for reference in references:
             if not self._validate_reference(reference):
-                print(f"  Invalid reference: {reference.reference}")
                 return False
         return True
 
@@ -41,15 +49,16 @@ class ReferenceValidator():
         """
         Extracts all the references from the given text and returns a list of them.
         """
-        reference_regex = r'''"([^"]+)" {0,2}\((\d+\.\d+(\.\d{1,2})?)\)|([\w\d\s,':;/()$%])*\((\d+\.\d+(\.\d{1,2})?)\)'''
+        reference_regex = r'''("([^"]+)" {0,2}\((\d+\.\d+(\.\d{1,2})?)\))|(([\w\d\s,':;/()$%-])*\((\d+\.\d+(\.\d{1,2})?)\))'''
 
         references = []
-        for match in re.finditer(reference_regex, text):
-            print(f"   Found reference match {match.group(1)}")
+        for match in re.finditer(reference_regex, text.lower()):
+        
             if match.group(1) is not None:
-                references.append(Reference(match.group(1), match.group(2), ReferenceType.quote))
+                quote = match.group(2).replace("\n", "").replace("’","'").lower()
+                references.append(Reference(quote, match.group(3), ReferenceType.quote))
             else:
-                references.append(Reference(match.group(3), match.group(4), ReferenceType.citation))
+                references.append(Reference(match.group(5), match.group(7), ReferenceType.citation))
 
         return references
 
@@ -58,7 +67,7 @@ class ReferenceValidator():
         Checks if the given reference is valid or not.
         """
         source_section = ReportExtractor(self.original_text, "Not known").extract_section(reference.reference)
-        source_section = source_section.replace("\n", "") 
+        source_section = source_section.replace("\n", "").replace("’","'").lower()
 
         match reference.type:
             case ReferenceType.citation:
@@ -70,6 +79,7 @@ class ReferenceValidator():
         """
         Checks if the given citation is valid or not. Uses a llm to see if the quotation makes sense.
         """
+        self._print(f"   Validating citation: {citation.reference} with reference {citation.text}")
         system_message = """
 You are helping me check that references are correct.
 
@@ -93,12 +103,13 @@ Here is the source text:
         )
 
         if valid.lower() == "yes":
+            self._print(f"    Validated citation")
             return True
         elif valid.lower() == "no":
-            print(f"  Invalid citation: {citation.reference}")
+            self._print(f"   Invalid citation could be justified to have come from\n   {source_section}")
             return False
         else:
-            print(f"  Invalid response from model: {valid}, going to retry")
+            self._print(f"  Invalid response from model: {valid}, going to retry")
             return self._validate_citation(citation, source_section)
 
 
@@ -106,16 +117,18 @@ Here is the source text:
         """
         Checks if the given quote is valid or not. This is done by just using Regex. If the quote cant be found in the source section then it is invalid. There may be extra problems with additional spaces that can be added into the source section by the text extraction from a pdf.
         """
+        self._print(f"   Validating quote: {quote.text} with reference {quote.reference}")
         quote_regex = re.compile(quote.text, re.MULTILINE | re.IGNORECASE)
-        if re.search(quote_regex, source_section) is True:
+        if not re.search(quote_regex, source_section) is None:
+            self._print(f"   Validated quote")
             return True
-        
+
         # Add a opional space between each character in the quote
-        quote_regex = re.compile(" ?".join(list(quote.text)), re.MULTILINE | re.IGNORECASE)
-        if re.search(quote_regex, source_section) is True:
-            print("  Quote found with optional spaces")
+        quote_regex = re.compile(r"[\n ]?".join(list(quote.text)), re.MULTILINE | re.IGNORECASE)
+        if not re.search(quote_regex, source_section) is None:
+            self._print(f"   Validated quote with extra spaces")
             return True
         
-        print(f"  Invalid quote: {quote.text}")
+        self._print(f"   Invalid quote not found in\n   {source_section}")
 
         return False

@@ -122,17 +122,14 @@ issues.
 
         # Temp for development
         with open(self._get_theme_file_path(report_id), "r") as f:
-            report_themes = f.read()
+            report_themes_str = f.read()
 
-        if report_themes is None:
+        if report_themes_str is None:
             return
-        
-        with open(self._get_theme_file_path(report_id), "w") as f:
-            f.write(report_themes)
         
         print(f"  Themes for {report_id} generated now validating references")
 
-        report_themes = yaml.safe_load(report_themes)
+        report_themes = yaml.safe_load(report_themes_str)
 
         referenceChecker = ReferenceChecking.ReferenceValidator(report_text)
 
@@ -143,8 +140,7 @@ issues.
         print(f"  References for {report_id} validated now writing to file")
 
         with open(self._get_theme_file_path(report_id), "w") as f:
-            yaml.dump(report_themes, f)
-
+            f.write(report_themes_str)
         
 
     def _read_themes(self, report_id, report_themes):

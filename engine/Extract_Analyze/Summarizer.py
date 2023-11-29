@@ -354,35 +354,47 @@ class ReportExtractor:
         return pages_to_read
     
     def extract_section(self, section_str: str):
-        print(f"  Extracting section {section_str}")
-
         split_section = section_str.split(".")
         section = split_section[0]
-        endRegex_nextSection = f"^{int(section)+1} "
+        endRegex_nextSection = fr"(( {int(section)+1}.1.) {{1,3}})|((^{int(section)+1}.1.) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+        startRegex = f"^{section} "
         endRegexs = [endRegex_nextSection]
         if len(split_section) > 1:
             paragraph = split_section[1]
-            endRegex_nextParagraph = f"^{section}.{int(paragraph)+1} "
+            endRegex_nextParagraph = fr"(( {section}.{int(paragraph)+1}.) {{1,3}})|((^{section}.{int(paragraph)+1}.) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
             endRegexs.insert(0, endRegex_nextParagraph)
+            startRegex = f"^{section}.{paragraph}. "
 
         if len(split_section) > 2:
             sub_paragraph = split_section[2]
-            endRegex_nextSubParagraph = f"^{section}.{paragraph}.{int(sub_paragraph)+1} "
+            endRegex_nextSubParagraph = f"^{section}.{paragraph}.{int(sub_paragraph)+1}. "
             endRegexs.insert(0, endRegex_nextSubParagraph)
+            startRegex = f"^{section}.{paragraph}.{sub_paragraph}. "
 
-        startRegex = f"^{section} "
+        
+
+
 
         # Get the entire string between the start and end regex
         # Start by looking for just the next subparagraph, then paragraph, then section
         startMatch = re.search(startRegex, self.report_text, re.MULTILINE)
 
+        endMatch = None
+
         for endRegex in endRegexs:
             endMatch = re.search(endRegex, self.report_text, re.MULTILINE)
             if endMatch:
                 break
+
+        if endMatch.end() < startMatch.end():
+            print(f"Error: endMatch is before startMatch")
+            print(f"  startMatch: {startMatch} \n  endMatch: {endMatch}")
+            return None
         
         if startMatch and endMatch:
-            section_text = self.report_text[startMatch.start():endMatch.start()]
-
+            section_text = self.report_text[startMatch.start():endMatch.end()]
             return section_text
+
+        print(f"Error: could not find section")
+        return None
 
