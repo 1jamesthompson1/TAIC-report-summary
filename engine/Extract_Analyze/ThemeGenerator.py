@@ -1,4 +1,5 @@
 import os
+import yaml
 
 from ..OpenAICaller import openAICaller
 from . import OutputFolderReader
@@ -88,6 +89,8 @@ Question:
 Please provide me 3 - 6 safety themes that are most related to this accident.
 For each theme provide a paragraph explaining what the theme is and reasoning as to why it is relevant to this accident. Provide evidence for your reasoning with inline quotes. More than 1 quote may be needed.
 
+Please output your answer in yaml. There should be no opening or closing code block just straight yaml. The yaml format should have a name and explanation field (which uses a literal scalr block) for each safety theme.
+
 ----
 Here are some definition
 
@@ -126,8 +129,10 @@ issues.
         print(f"  Themes for {report_id} generated")
 
     def _read_themes(self, report_id, report_themes):
-        with open(self._get_theme_file_path(report_id), "r") as f:
-            report_themes = f.read()
+        theme = yaml.safe_load(report_themes)
 
-        self.all_themes += (f"Themes for {report_id}: \n{report_themes}\n")
+        # convert theme object with name and explanation to a string
+        theme_str = '\n\n'.join(f"{element['name']}\n{element['explanation']}" for element in theme)
+
+        self.all_themes += (f"Themes for {report_id}: \n{theme_str}\n")
 
