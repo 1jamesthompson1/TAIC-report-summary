@@ -1,5 +1,5 @@
 from enum import Enum
-import re
+import re, copy
 from .Summarizer import ReportExtractor
 from ..OpenAICaller import openAICaller
 
@@ -14,14 +14,65 @@ class Reference():
     """
     Reference object used as a helper in the ReferenceValidator class.
     """
-    def __init__(self, text: str, reference: str, type: ReferenceType):
+    def __init__(self, text: str, reference_str: str, type: ReferenceType):
         self.text = text # This is the text that is being referenced
-        self.reference = reference # This is the reference pointing to a partiuclar section, paragraph, or subparagraph.
+        self.reference_str = reference_str
+        self.reference = self._parse_reference(reference_str) # This is the reference pointing to a partiuclar section, paragraph, or subparagraph.
         self.type = type
         self.validated = False
+        self.invalid = False
         self.updated = False
+        self.old_reference = None
         self.unrepairable = False
+
+    def set_reference(self, reference_str: str):
+        """
+        Sets the reference to the given reference string.
+        """
+        self.reference_str = reference_str
+        self.reference = self._parse_reference(reference_str)
     
+    def _parse_reference(self, reference_str: str):
+        """
+        Parses the given reference into a list sections
+
+        The references may be in three forms
+        5.3, 5.6, 5.7
+        5.3-5.7
+        5.3
+
+        It will be parsed into a list of references like [5.3, 5.6, 5.7], for the ranges it will expanded.
+        """
+        reference = list(map(lambda str: str.strip(), reference_str.split(',')))
+        reference_is_range = reference_str.find('-') != -1
+
+        if reference_is_range:
+            reference = list(map(lambda str: str.strip(), reference_str.split('-')))
+            # Expand the range
+
+            start_section, end_section = reference
+            start_section = list(map(int, start_section.split('.')))
+            end_section = list(map(int, end_section.split('.')))
+
+            if len(start_section) == 1:
+                start_section += [0, 0]
+            elif len(start_section) == 2:
+                start_section += [0]
+            if len(end_section) == 1:
+                end_section += [0, 0]
+            elif len(end_section) == 2:
+                end_section += [0]
+
+            start_section, start_paragraph, start_subparagraph = start_section
+            end_section, end_paragraph, end_subparagraph = end_section
+
+            if start_section == end_section and start_paragraph == end_paragraph:
+                reference = [f"{start_section}.{start_paragraph}.{start_subparagraph + i}" for i in range(end_subparagraph - start_subparagraph + 1)]
+            elif start_section == end_section:
+                reference = [f"{start_section}.{start_paragraph + i}" for i in range(end_paragraph - start_paragraph + 1)]
+
+        return reference
+
     def set_validated(self):
         """
         Sets the validated value of the reference.
@@ -32,12 +83,10 @@ class Reference():
         """
         Sets the repaired value of the reference.
         """
+        self.old_reference = copy.deepcopy(self)
         self.updated = True
-        self.old_reference = self.reference
-        self.old_text = self.text
-        self.old_type = self.type
 
-        self.reference = new_reference.reference
+        self.set_reference(new_reference.reference_str)
         self.text = new_reference.text
         self.type = new_reference.type
 
@@ -46,6 +95,12 @@ class Reference():
         Sets the unrepairable value of the reference.
         """
         self.unrepairable = True
+
+    def set_invalid(self):
+        """
+        Sets the invalid value of the reference. This is to be used when it is ill formed.
+        """
+        self.invalid = True
 
     def to_string(self):
         """
@@ -56,6 +111,16 @@ class Reference():
                 return f'''"{self.text}" ({self.reference})"'''
             case ReferenceType.citation:
                 return f"{self.text} ({self.reference})"
+            
+    def to_string_old(self):
+        """
+        Returns a string representation of the reference.
+        """
+        if not self.updated:
+            print("WARNING: to_string_old called on a reference that hasn't been updated, returning to_string")
+            return self.to_string()
+
+        return self.old_reference.to_string()
 
 class ReferenceValidator():
     """
@@ -65,7 +130,7 @@ class ReferenceValidator():
         self.original_text = original_text
         self.debug = debug
 
-        self.reference_regex = '''("([^"]+)" {0,2}\((\d+\.\d+(\.\d{1,2})?)\))|(([\w\d\s,':;/()$%-])*\((\d+\.\d+(\.\d{1,2})?)\))'''
+        self.reference_regex = '''("([^"]+)" {0,2}\((\d+\.\d+(?:\.\d{1,2})?)\))|(([^."]+)\(((?:\d+\.\d+(?:\.\d{1,2})?)(?:, \d+\.\d+(?:\.\d{1,2})?)*(?: ?- ?\d+\.\d+(?:\.\d{1,2})?)?)\))'''
 
     def _print(self, message):
         """
@@ -84,18 +149,23 @@ class ReferenceValidator():
         text = text.replace("\n", "").replace("’","'")
 
         references = self._extract_references(text)
+        updated_references_counter = 0
         for reference in references:
+            if reference.invalid:
+                print(f"   Invalid formatted {reference.type}: {reference.reference_str} for text {reference.text}")
+                return None
             processed_reference = self._validate_reference(reference)
 
             if processed_reference.unrepairable:
-                print(f"   Invalid {reference.type}: {reference.reference} for text {reference.text}")
+                print(f"   Invalid {reference.type}: {reference.reference_str} for text {reference.text}")
                 return None
             if processed_reference.updated and processed_reference.type == ReferenceType.quote:
-                self._print(f"  Fixed reference: {processed_reference.old_reference} to {processed_reference.reference} for text {processed_reference.text}")
-                regex = fr'''("{processed_reference.text}" {{0,2}}\((\d+\.\d+({processed_reference.old_reference})?)\))'''
+                self._print(f"  Fixed reference: {processed_reference.old_reference.reference_str} to {processed_reference.reference_str} for text {processed_reference.text}")
+                regex = fr'''("{processed_reference.text}" {{0,2}}\((\d+\.\d+({processed_reference.old_reference.reference_str})?)\))'''
                 text = re.sub(regex, processed_reference.to_string(), text)
+                updated_references_counter += 1
 
-        return text, len(references)
+        return text, len(references), updated_references_counter
 
     def _extract_references(self, text) -> [Reference]:
         """
@@ -108,8 +178,8 @@ class ReferenceValidator():
             if match.group(1) is not None:
                 quote = match.group(2).lower()
                 references.append(Reference(quote, match.group(3), ReferenceType.quote))
-            else:
-                references.append(Reference(match.group(5), match.group(7), ReferenceType.citation))
+            elif match.group(4) is not None:
+                references.append(Reference(match.group(5), match.group(6), ReferenceType.citation))
 
         return references
 
@@ -117,20 +187,26 @@ class ReferenceValidator():
         """
         Checks if the given reference is valid or not.
         """
-        source_section = ReportExtractor(self.original_text, "Not known").extract_section(reference.reference)
-        source_section = source_section.replace("\n", "").replace("’","'").lower()
+        reportExtractor = ReportExtractor(self.original_text, "Not known")
+        source_sections = list(map(lambda reference: reportExtractor.extract_section(reference), reference.reference))
+
+        if all(v is None for v in source_sections):
+            reference.set_invalid()
+            return reference
+        
+        source_sections = "\n".join(map(lambda str: str.replace("\n", "").replace("’","'").lower(), source_sections))
 
         match reference.type:
             case ReferenceType.citation:
-                return self._validate_citation(reference, source_section)
+                return self._validate_citation(reference, source_sections)
             case ReferenceType.quote:
-                return self._validate_quote(reference, source_section, attempt_repair)
+                return self._validate_quote(reference, source_sections, attempt_repair)
 
     def _validate_citation(self, citation: Reference, source_section: str) -> bool:
         """
         Checks if the given citation is valid or not. Uses a llm to see if the quotation makes sense.
         """
-        self._print(f"   Validating citation: {citation.reference} with reference {citation.text}")
+        self._print(f"   Validating citation: {citation.reference_str} with reference {citation.text}")
         system_message = """
 You are helping me check that references are correct.
 
@@ -141,7 +217,7 @@ You will be given a citation and the source text. Return "yes" if you think that
 
         user_message = f"""
 Here is the reference:
-{citation.reference}
+{citation.text}
 
 Here is the source text:
 {source_section}
@@ -171,7 +247,7 @@ Here is the source text:
         """
         Checks if the given quote is valid or not. This is done by just using Regex. If the quote cant be found in the source section then it is invalid. There may be extra problems with additional spaces that can be added into the source section by the text extraction from a pdf.
         """
-        self._print(f"   Validating quote: {quote.text} with reference {quote.reference}")
+        self._print(f"   Validating quote: {quote.text} with reference {quote.reference_str}")
         quote_regex = re.compile(quote.text, re.MULTILINE | re.IGNORECASE)
         if not re.search(quote_regex, source_section) is None:
             self._print(f"   Validated quote")
@@ -199,7 +275,7 @@ Here is the source text:
         fixed_quote = quote_repairer._find_quote_location(quote)
 
         if fixed_quote:
-            self._print(f"   Fixed quote to be {fixed_quote.reference}")
+            self._print(f"   Fixed quote to be {fixed_quote.reference_str}")
             quote.set_repaired(fixed_quote)
             return quote
         
@@ -244,32 +320,40 @@ class QuoteRepairer():
         """
         Get the two neighbourough section to a reference.
         """
-        parts = reference.reference.split('.')
-        if len(parts) == 1:
-            # Handling sections like "5"
-            section, paragraph, subparagraph = int(parts[0]), 0, 0
-            preceding_sections = map(lambda args: self._parse_section(*args) ,[(section-i, paragraph, subparagraph) for i in range(1, 3)])
-            succeeding_sections = map(lambda args: self._parse_section(*args),[(section + i, paragraph, subparagraph) for i in range(1, 3)])
-            jump_to_next = (section + 1 ,0, 0)
-        elif len(parts) == 2:
-            # Handling sections like "5.2"
-            section, paragraph, subparagraph = list(map(int, parts)) + [0]
-            preceding_sections = map(lambda args: self._parse_section(*args) ,[(section, paragraph  - i, subparagraph) for i in range(1, 3)])
+        possible_locations = reference.reference
+        
+        sections_to_search_around = [reference.reference[0], reference.reference[-1]]
 
-            succeeding_sections = map(lambda args: self._parse_section(*args),[(section, paragraph + i, subparagraph) for i in range(1, 3)])
-            jump_to_next = (section + 1, 1, 0)
-        elif len(parts) == 3:
-            # Handling sections like "5.2.1"
-            section, paragraph, subparagraph = list(map(int, parts))
-            preceding_sections = map(lambda args: self._parse_section(*args) ,[(section, paragraph, subparagraph - i) for i in range(1, 3)])
+        sections_to_search_around
+        for location_str in sections_to_search_around:
+            parts = location_str.split('.')
+            if len(parts) == 1:
+                # Handling sections like "5"
+                section, paragraph, subparagraph = int(parts[0]), 0, 0
+                preceding_sections = map(lambda args: self._parse_section(*args) ,[(section-i, paragraph, subparagraph) for i in range(1, 3)])
+                succeeding_sections = map(lambda args: self._parse_section(*args),[(section + i, paragraph, subparagraph) for i in range(1, 3)])
+                jump_to_next = (section + 1 ,0, 0)
+            elif len(parts) == 2:
+                # Handling sections like "5.2"
+                section, paragraph, subparagraph = list(map(int, parts)) + [0]
+                preceding_sections = map(lambda args: self._parse_section(*args) ,[(section, paragraph  - i, subparagraph) for i in range(1, 3)])
 
-            succeeding_sections = map(lambda args: self._parse_section(*args),[(section, paragraph, subparagraph + i) for i in range(1, 3)])
-            jump_to_next = (section, paragraph+1, 1)
-        else:
-            # Invalid input
-            return []
+                succeeding_sections = map(lambda args: self._parse_section(*args),[(section, paragraph + i, subparagraph) for i in range(1, 3)])
+                jump_to_next = (section + 1, 1, 0)
+            elif len(parts) == 3:
+                # Handling sections like "5.2.1"
+                section, paragraph, subparagraph = list(map(int, parts))
+                preceding_sections = map(lambda args: self._parse_section(*args) ,[(section, paragraph, subparagraph - i) for i in range(1, 3)])
 
-        possible_locations = list(preceding_sections) + [reference.reference] + list(succeeding_sections) + [self._parse_section(*jump_to_next)]
+                succeeding_sections = map(lambda args: self._parse_section(*args),[(section, paragraph, subparagraph + i) for i in range(1, 3)])
+                jump_to_next = (section, paragraph+1, 1)
+            else:
+                # Invalid input
+                return []
+            
+            possible_locations.append(self._parse_section(*jump_to_next))
+            possible_locations.extend(list(preceding_sections))
+            possible_locations.extend(list(succeeding_sections))
 
         return list(dict.fromkeys(possible_locations))
 

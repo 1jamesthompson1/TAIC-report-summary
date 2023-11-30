@@ -119,6 +119,7 @@ issues.
             large_model=True,
             temp = 0
         )
+
         if report_themes_str is None:
             return
 
@@ -134,19 +135,22 @@ issues.
         referenceChecker = ReferenceChecking.ReferenceValidator(report_text)
 
         validated_themes_counter = 0
+        updated_themes_counter = 0
 
         for theme in report_themes:
             result = referenceChecker.validate_references(theme['explanation'])
 
             if not result:
                 print(f"    Unrepairable reference in theme {theme['name']}")
+                continue
 
-            processed_text, num_references = result
+            processed_text, num_references, num_updated_references = result
+            updated_themes_counter += num_updated_references
             if isinstance(processed_text, str):
                 theme['explanation'] = processed_text
             validated_themes_counter += num_references
             
-        print(f"    {validated_themes_counter} references validated across {len(report_themes)} themes")
+        print(f"    {validated_themes_counter} references validated across {len(report_themes)} themes with {updated_themes_counter} themes updated")
 
         print(f"  References for {report_id} validated now writing to file")
 

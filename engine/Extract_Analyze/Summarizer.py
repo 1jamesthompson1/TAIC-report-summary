@@ -372,9 +372,6 @@ class ReportExtractor:
             startRegex = f"^{section}.{paragraph}.{sub_paragraph}. "
 
         
-
-
-
         # Get the entire string between the start and end regex
         # Start by looking for just the next subparagraph, then paragraph, then section
         startMatch = re.search(startRegex, self.report_text, re.MULTILINE)
@@ -385,6 +382,9 @@ class ReportExtractor:
             endMatch = re.search(endRegex, self.report_text, re.MULTILINE)
             if endMatch:
                 break
+
+        if startMatch == None or endMatch == None:
+            return None
 
         if endMatch.end() < startMatch.end():
             print(f"Error: endMatch is before startMatch")
