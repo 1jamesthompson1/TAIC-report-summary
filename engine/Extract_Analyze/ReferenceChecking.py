@@ -33,6 +33,10 @@ class Reference():
         Sets the repaired value of the reference.
         """
         self.updated = True
+        self.old_reference = self.reference
+        self.old_text = self.text
+        self.old_type = self.type
+
         self.reference = new_reference.reference
         self.text = new_reference.text
         self.type = new_reference.type
@@ -43,18 +47,15 @@ class Reference():
         """
         self.unrepairable = True
 
-    def is_validated(self):
+    def to_string(self):
         """
-        Returns the validated value of the reference.
+        Returns a string representation of the reference.
         """
-        if self.validated:
-            return True
-        
-        if self.updated:
-            return Reference(self.text, self.reference, self.type)
-        elif self.unrepairable:
-            return False
-        
+        match self.type:
+            case ReferenceType.quote:
+                return f'''"{self.text}" ({self.reference})"'''
+            case ReferenceType.citation:
+                return f"{self.text} ({self.reference})"
 
 class ReferenceValidator():
     """
@@ -63,6 +64,8 @@ class ReferenceValidator():
     def __init__(self, original_text: str, debug=False):
         self.original_text = original_text
         self.debug = debug
+
+        self.reference_regex = '''("([^"]+)" {0,2}\((\d+\.\d+(\.\d{1,2})?)\))|(([\w\d\s,':;/()$%-])*\((\d+\.\d+(\.\d{1,2})?)\))'''
 
     def _print(self, message):
         """
@@ -74,24 +77,36 @@ class ReferenceValidator():
     def validate_references(self, text) -> [Reference]:
         """
         Checks if all of the references are valid or not. A single wrong references will return false for the whole text.
+
+        Returns a tuple of the processed text and the number of references that were validated.  
+        Returns None if there is any unrepairable references.
         """
+        text = text.replace("\n", "").replace("’","'")
+
         references = self._extract_references(text)
-        processed_references = []
         for reference in references:
-            processed_references.append(self._validate_reference(reference))
-        return processed_references
+            processed_reference = self._validate_reference(reference)
+
+            if processed_reference.unrepairable:
+                print(f"   Invalid {reference.type}: {reference.reference} for text {reference.text}")
+                return None
+            if processed_reference.updated and processed_reference.type == ReferenceType.quote:
+                self._print(f"  Fixed reference: {processed_reference.old_reference} to {processed_reference.reference} for text {processed_reference.text}")
+                regex = fr'''("{processed_reference.text}" {{0,2}}\((\d+\.\d+({processed_reference.old_reference})?)\))'''
+                text = re.sub(regex, processed_reference.to_string(), text)
+
+        return text, len(references)
 
     def _extract_references(self, text) -> [Reference]:
         """
         Extracts all the references from the given text and returns a list of them.
         """
-        reference_regex = r'''("([^"]+)" {0,2}\((\d+\.\d+(\.\d{1,2})?)\))|(([\w\d\s,':;/()$%-])*\((\d+\.\d+(\.\d{1,2})?)\))'''
 
         references = []
-        for match in re.finditer(reference_regex, text.lower()):
+        for match in re.finditer(self.reference_regex, text.lower()):
         
             if match.group(1) is not None:
-                quote = match.group(2).replace("\n", "").replace("’","'").lower()
+                quote = match.group(2).lower()
                 references.append(Reference(quote, match.group(3), ReferenceType.quote))
             else:
                 references.append(Reference(match.group(5), match.group(7), ReferenceType.citation))

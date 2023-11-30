@@ -70,7 +70,7 @@ class ThemeGenerator:
 
     def _get_theme(self, report_id, report_text):
 
-        print(f"  Generating themes for report {report_id}")
+        print(f" Generating themes for report {report_id}")
 
         important_text = ReportExtractor(report_text, report_id).extract_important_text()[0]
 
@@ -133,16 +133,25 @@ issues.
 
         referenceChecker = ReferenceChecking.ReferenceValidator(report_text)
 
+        validated_themes_counter = 0
+
         for theme in report_themes:
-            references = referenceChecker.validate_references(theme['explanation'])
+            result = referenceChecker.validate_references(theme['explanation'])
+
+            if not result:
+                print(f"    Unrepairable reference in theme {theme['name']}")
+
+            processed_text, num_references = result
+            if isinstance(processed_text, str):
+                theme['explanation'] = processed_text
+            validated_themes_counter += num_references
             
-            if any(reference.unrepairable for reference in references):
-                print(f"  Invalid reference in theme: {theme['name']} for report {report_id}")
+        print(f"    {validated_themes_counter} references validated across {len(report_themes)} themes")
 
         print(f"  References for {report_id} validated now writing to file")
 
         with open(self._get_theme_file_path(report_id), "w") as f:
-            f.write(report_themes_str)
+            yaml.dump(report_themes, f, default_flow_style=False, width=float('inf'), sort_keys=False)
         
 
     def _read_themes(self, report_id, report_themes):
