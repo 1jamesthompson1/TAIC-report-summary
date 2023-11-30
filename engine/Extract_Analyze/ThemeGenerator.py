@@ -113,23 +113,23 @@ cover a single safety issue, or two or more related safety
 issues.
 """
 
-        # report_themes = self.open_ai_caller.query(
-        #     system_message,
-        #     user_message,
-        #     large_model=True,
-        #     temp = 0
-        # )
-
-        # Temp for development
-        with open(self._get_theme_file_path(report_id), "r") as f:
-            report_themes_str = f.read()
-
+        report_themes_str = self.open_ai_caller.query(
+            system_message,
+            user_message,
+            large_model=True,
+            temp = 0
+        )
         if report_themes_str is None:
+            return
+
+        try :
+            report_themes = yaml.safe_load(report_themes_str)
+        except yaml.YAMLError as exc:
+            print(exc)
+            print("  Error parsing yaml for themes")
             return
         
         print(f"  Themes for {report_id} generated now validating references")
-
-        report_themes = yaml.safe_load(report_themes_str)
 
         referenceChecker = ReferenceChecking.ReferenceValidator(report_text)
 
