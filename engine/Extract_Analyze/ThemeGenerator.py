@@ -134,7 +134,9 @@ issues.
         referenceChecker = ReferenceChecking.ReferenceValidator(report_text)
 
         for theme in report_themes:
-            if not referenceChecker.validate_references(theme['explanation']):
+            references = referenceChecker.validate_references(theme['explanation'])
+            
+            if any(reference.unrepairable for reference in references):
                 print(f"  Invalid reference in theme: {theme['name']} for report {report_id}")
 
         print(f"  References for {report_id} validated now writing to file")
