@@ -108,28 +108,18 @@ class Reference():
         """
         match self.type:
             case ReferenceType.quote:
-                return f'''"{self.text}" ({self.reference})"'''
+                return f'''"{self.text}" ({self.reference_str})"'''
             case ReferenceType.citation:
-                return f"{self.text} ({self.reference})"
-            
-    def to_string_old(self):
-        """
-        Returns a string representation of the reference.
-        """
-        if not self.updated:
-            print("WARNING: to_string_old called on a reference that hasn't been updated, returning to_string")
-            return self.to_string()
-
-        return self.old_reference.to_string()
+                return f"{self.text} ({self.reference_str})"
 
 class ReferenceValidator():
     """
     Can be used to check if the references in a section of text are valid or not but comparing them to the original text.
     """
-    def __init__(self, original_text: str, debug=False):
+    def __init__(self, original_text: str, debug=True):
         self.original_text = original_text
         self.debug = debug
-
+        self.quote_repairer = QuoteRepairer(self, self.debug)
         self.reference_regex = '''("([^"]+)" {0,2}\((\d+\.\d+(?:\.\d{1,2})?)\))|(([^."]+)\(((?:\d+\.\d+(?:\.\d{1,2})?)(?:, \d+\.\d+(?:\.\d{1,2})?)*(?: ?- ?\d+\.\d+(?:\.\d{1,2})?)?)\))'''
 
     def _print(self, message):
@@ -154,7 +144,7 @@ class ReferenceValidator():
             if reference.invalid:
                 print(f"   Invalid formatted {reference.type}: {reference.reference_str} for text {reference.text}")
                 return None
-            processed_reference = self._validate_reference(reference)
+            processed_reference = self._validate_reference(reference, True)
 
             if processed_reference.unrepairable:
                 print(f"   Invalid {reference.type}: {reference.reference_str} for text {reference.text}")
@@ -183,7 +173,7 @@ class ReferenceValidator():
 
         return references
 
-    def _validate_reference(self, reference: Reference, attempt_repair: bool = False) -> bool:
+    def _validate_reference(self, reference: Reference, attempt_repair: bool) -> bool:
         """
         Checks if the given reference is valid or not.
         """
@@ -203,11 +193,11 @@ class ReferenceValidator():
 
         match reference.type:
             case ReferenceType.citation:
-                return self._validate_citation(reference, source_sections)
+                return self._validate_citation(reference, source_sections, attempt_repair)
             case ReferenceType.quote:
                 return self._validate_quote(reference, source_sections, attempt_repair)
 
-    def _validate_citation(self, citation: Reference, source_section: str) -> bool:
+    def _validate_citation(self, citation: Reference, source_section: str, attempt_repair: bool) -> bool:
         """
         Checks if the given citation is valid or not. Uses a llm to see if the quotation makes sense.
         """
@@ -238,17 +228,26 @@ Here is the source text:
             self._print(f"    Validated citation")
             citation.set_validated()
             return citation
-        elif valid.lower() == "no":
-            self._print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")
-            citation.set_unrepairable()
-            return citation
-
-        else:
+        elif valid.lower() != "no":
             self.print(f"  Invalid response from model: {valid}, going to retry")
             return self._validate_citation(citation, source_section)
+        
+        self._print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")
+        if not attempt_repair:
+            return False
+        
+        fixed_citation = self.quote_repairer._find_reference_location(citation)
+        if fixed_citation:
+            self._print(f"   Fixed quote to be {fixed_citation.to_string()}")
+            citation.set_repaired(fixed_citation)
+            return citation
+        
+        citation.set_unrepairable()
+        return citation
+            
 
 
-    def _validate_quote(self, quote: Reference, source_section: str, straight_response: bool = False) -> bool:
+    def _validate_quote(self, quote: Reference, source_section: str, attempt_repair: bool) -> bool:
         """
         Checks if the given quote is valid or not. This is done by just using Regex. If the quote cant be found in the source section then it is invalid. There may be extra problems with additional spaces that can be added into the source section by the text extraction from a pdf.
         """
@@ -266,18 +265,15 @@ Here is the source text:
             quote.set_validated()
             return quote
         
-        if not straight_response:
-            self._print(f"   Invalid quote {quote.to_string()} not found in\n{source_section}")
+
+        self._print(f"   Invalid quote {quote.to_string()} not found in\n{source_section}")
 
         # There can be a tendency to get the attributue section wrong. Therefore we will check if the quote is in one of the sections either just before or just after.
 
-        if straight_response:
+        if not attempt_repair:
             return False
 
-
-        quote_repairer = QuoteRepairer(self, self.debug)
-
-        fixed_quote = quote_repairer._find_quote_location(quote)
+        fixed_quote = self.quote_repairer._find_reference_location(quote)
 
         if fixed_quote:
             self._print(f"   Fixed quote to be {fixed_quote.reference_str}")
@@ -304,24 +300,24 @@ class QuoteRepairer():
             print(message)
 
 
-    def _find_quote_location(self, quote: Reference):
+    def _find_reference_location(self, reference: Reference):
         """
-        Search neibouring sections and find where the quote was from
+        Search neighbouring sections and find where the reference was from
         """
-        potential_locations = self._get_quote_potential_locations(quote)
+        potential_locations = self._get_potential_locations(reference)
 
         self._print(f"  Potential locations: {potential_locations}")
 
         for location in potential_locations:
-            temp_reference = Reference(quote.text, location, ReferenceType.quote)
-            if self.reference_validator._validate_reference(temp_reference,True):
+            temp_reference = Reference(reference.text, location, reference.type)
+            if self.reference_validator._validate_reference(temp_reference,False):
                 return temp_reference
 
-        self._print("  Couldn't find quote location")
+        self._print(f"  Couldn't find {reference.type} location")
 
         return False
     
-    def _get_quote_potential_locations(self, reference: Reference):
+    def _get_potential_locations(self, reference: Reference):
         """
         Get the two neighbourough section to a reference.
         """
@@ -357,8 +353,8 @@ class QuoteRepairer():
                 return []
             
             possible_locations.append(self._parse_section(*jump_to_next))
-            possible_locations.append(self._parse_section(section, paragraph+1, subparagraph))
-            possible_locations.append(self._parse_section(section, paragraph-1, subparagraph))
+            possible_locations.append(self._parse_section(section+1, paragraph, subparagraph))
+            possible_locations.append(self._parse_section(section-1, paragraph, subparagraph))
             possible_locations.extend(list(preceding_sections))
             possible_locations.extend(list(succeeding_sections))
 
