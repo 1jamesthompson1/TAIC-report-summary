@@ -192,7 +192,12 @@ class ReferenceValidator():
 
         if all(v is None for v in source_sections):
             reference.set_invalid()
-            return reference
+            if attempt_repair:
+                return reference
+            return False
+        
+        # remove all non source sections
+        source_sections = list(filter(lambda section: section is not None, source_sections))
         
         source_sections = "\n".join(map(lambda str: str.replace("\n", "").replace("’","'").lower(), source_sections))
 
@@ -234,7 +239,7 @@ Here is the source text:
             citation.set_validated()
             return citation
         elif valid.lower() == "no":
-            print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")
+            self._print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")
             citation.set_unrepairable()
             return citation
 
@@ -262,7 +267,7 @@ Here is the source text:
             return quote
         
         if not straight_response:
-            self._print(f"   Invalid quote not found in\n   {source_section}")
+            self._print(f"   Invalid quote {quote.to_string()} not found in\n{source_section}")
 
         # There can be a tendency to get the attributue section wrong. Therefore we will check if the quote is in one of the sections either just before or just after.
 
@@ -352,6 +357,8 @@ class QuoteRepairer():
                 return []
             
             possible_locations.append(self._parse_section(*jump_to_next))
+            possible_locations.append(self._parse_section(section, paragraph+1, subparagraph))
+            possible_locations.append(self._parse_section(section, paragraph-1, subparagraph))
             possible_locations.extend(list(preceding_sections))
             possible_locations.extend(list(succeeding_sections))
 
@@ -369,6 +376,4 @@ class QuoteRepairer():
 
         formatted_reference = "{}.{}.{}".format(section, paragraph, subparagraph)
 
-        self._print(f"  Formatted reference from {section}.{paragraph}.{subparagraph} to {formatted_reference}")
-    
-        return re.sub(r'.0(?!.)', "", formatted_reference)
+        return re.sub(r'\.0(?!.)', "", formatted_reference)
