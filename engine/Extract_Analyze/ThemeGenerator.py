@@ -80,15 +80,20 @@ class ThemeGenerator:
         system_message = """
 You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation.
 
-You must use the following formats exactly.
-For direct quotes:
-"quote in here" (section.paragraph.subparagraph).
-For indirect quotes: 
+You must follow these formats exactly.
+For direct quotes there can only ever be one section mentioned:
+"quote in here" (section.paragraph.subparagraph)
+For indirect quotes there may be one section, multiple or a range: 
 sentence in here (section.paragraph.subparagraph)
 sentence in here (section.paragraph.subparagraph, section.paragraph.subparagraph, etc)
 sentence in here (section.paragraph.subparagraph-section.paragraph.subparagraph)
 
-Quotes should be weaved into your answer.
+
+Example quotes would be:
+"it was a wednesday afternoon when the boat struck" (5.4)
+It was both the lack of fresh paint and the old radar dish that caused this accident (4.5.2, 5.4.4)
+
+Quotes should be weaved into your answer. 
 """
         user_message = f"""
 '''
@@ -130,6 +135,9 @@ issues.
             temp = 0
         )
 
+        # with open(self._get_theme_file_path(report_id), "r") as f:
+        #     report_themes_str = f.read()
+
         if report_themes_str is None:
             return
 
@@ -138,7 +146,7 @@ issues.
         except yaml.YAMLError as exc:
             print(exc)
             print("  Error parsing yaml for themes")
-            return
+            return self._get_theme(report_id, report_text)
         
         print(f"  Themes for {report_id} generated now validating references")
 
@@ -150,14 +158,16 @@ issues.
         for theme in report_themes:
             result = referenceChecker.validate_references(theme['explanation'])
 
-            if not result:
-                print(f"    Unrepairable reference in theme {theme['name']}")
-                continue
+            if result is None:
+                return self._get_theme(report_id, report_text)
 
             processed_text, num_references, num_updated_references = result
             updated_themes_counter += num_updated_references
             if isinstance(processed_text, str):
+                print(f"Updating theme {theme['name']}")
                 theme['explanation'] = processed_text
+
+
             validated_themes_counter += num_references
             
         print(f"    {validated_themes_counter} references validated across {len(report_themes)} themes with {updated_themes_counter} themes updated")
