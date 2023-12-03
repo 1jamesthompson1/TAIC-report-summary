@@ -78,7 +78,17 @@ class ThemeGenerator:
             return
         
         system_message = """
-You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation. Use the following format to cite relevant passages "quote in here" (section.paragraph.subparagraph).
+You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation.
+
+You must use the following formats exactly.
+For direct quotes:
+"quote in here" (section.paragraph.subparagraph).
+For indirect quotes: 
+sentence in here (section.paragraph.subparagraph)
+sentence in here (section.paragraph.subparagraph, section.paragraph.subparagraph, etc)
+sentence in here (section.paragraph.subparagraph-section.paragraph.subparagraph)
+
+Quotes should be weaved into your answer.
 """
         user_message = f"""
 '''
@@ -87,9 +97,9 @@ You will be provided with a document delimited by triple quotes and a question. 
 
 Question:
 Please provide me 3 - 6 safety themes that are most related to this accident.
-For each theme provide a paragraph explaining what the theme is and reasoning as to why it is relevant to this accident. Provide evidence for your reasoning with inline quotes. More than 1 quote may be needed.
+For each theme provide a paragraph explaining what the theme is and reasoning as to why it is relevant to this accident. Provide evidence for your reasoning with inline quotes. More than 1 quote may be needed and direct quotes are preferable.
 
-Please output your answer in yaml. There should be no opening or closing code block just straight yaml. The yaml format should have a name and explanation field (which uses a literal scalr block) for each safety theme.
+Please output your answer in yaml. There should be no opening or closing code block just straight yaml. The yaml format should have a name and explanation field (which uses a literal scalar block) for each safety theme.
 
 ----
 Here are some definition
@@ -110,7 +120,7 @@ either as Risk Controls or Organisational Influences.
 
 Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
 cover a single safety issue, or two or more related safety
-issues.
+issues. 
 """
 
         report_themes_str = self.open_ai_caller.query(
