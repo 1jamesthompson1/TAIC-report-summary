@@ -131,7 +131,7 @@ class ReferenceValidator():
     """
     Can be used to check if the references in a section of text are valid or not but comparing them to the original text.
     """
-    def __init__(self, original_text: str, debug=True):
+    def __init__(self, original_text: str, debug=False):
         self.original_text = original_text
         self.debug = debug
         self.quote_repairer = QuoteRepairer(self, self.debug)
