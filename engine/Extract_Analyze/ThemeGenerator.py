@@ -164,7 +164,6 @@ issues.
             processed_text, num_references, num_updated_references = result
             updated_themes_counter += num_updated_references
             if isinstance(processed_text, str):
-                print(f"Updating theme {theme['name']}")
                 theme['explanation'] = processed_text
 
 
