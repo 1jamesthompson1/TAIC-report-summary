@@ -354,24 +354,24 @@ class ReportExtractor:
         return pages_to_read
     
     def extract_section(self, section_str: str):
+        base_regex_template = lambda section: fr"(( {section}) {{1,3}}(?![\s\S]*^{section}) )|((^{section}) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+
         split_section = section_str.split(".")
         section = split_section[0]
-        endRegex_nextSection = fr"(( {int(section)+1}\.1\.?) {{1,3}}(?![\s\S]*^{int(section)+1}\.1\.?) )|((^{int(section)+1}\.1\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
-        startRegex = fr"(( {int(section)}\.1\.?) {{1,3}}(?![\s\S]*^{int(section)}\.1\.?) )|((^{int(section)}\.1\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+        endRegex_nextSection = base_regex_template(fr"{int(section)+1}\.1\.?")
+        startRegex = base_regex_template(fr"{int(section)}\.1\.?")
         endRegexs = [endRegex_nextSection]
         if len(split_section) > 1:
             paragraph = split_section[1]
-            endRegex_nextParagraph = fr"(( {section}\.{int(paragraph)+1}\.?) {{1,3}}(?![\s\S]*^{section}\.{int(paragraph)+1}\.?))|((^{section}\.{int(paragraph)+1}\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+            endRegex_nextParagraph = base_regex_template(fr"{section}\.{int(paragraph)+1}\.?")
             endRegexs.insert(0, endRegex_nextParagraph)
-            startRegex = fr"(( {section}\.{int(paragraph)}\.?) {{1,3}}(?![\s\S]*^{section}\.{int(paragraph)}\.?))|((^{section}\.{int(paragraph)}\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+            startRegex = base_regex_template(fr"{section}\.{int(paragraph)}\.?")
 
         if len(split_section) > 2:
             sub_paragraph = split_section[2]
-            endRegex_nextSubParagraph = fr"(( {section}\.{paragraph}\.{int(sub_paragraph)+1}\.?) {{1,3}}(?![\s\S]*^{section}\.{paragraph}\.{int(sub_paragraph)+1}\.?))|((^{section}\.{paragraph}\.{int(sub_paragraph)+1}\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
-            fr"^ "
+            endRegex_nextSubParagraph = base_regex_template(fr"{section}\.{paragraph}\.{int(sub_paragraph)+1}\.?")
             endRegexs.insert(0, endRegex_nextSubParagraph)
-            startRegex = fr"(( {section}\.{paragraph}\.{int(sub_paragraph)}\.?) {{1,3}}(?![\s\S]*^{section}\.{paragraph}\.{int(sub_paragraph)}\.?))|((^{section}\.{paragraph}\.{int(sub_paragraph)}\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
-            fr"^ "
+            startRegex = base_regex_template(fr"{section}\.{paragraph}\.{int(sub_paragraph)}\.?")
         
         # Get the entire string between the start and end regex
         # Start by looking for just the next subparagraph, then paragraph, then section
