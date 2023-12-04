@@ -284,6 +284,8 @@ Here is the source text:
         """
         Checks if the given quote is valid or not. This is done by just using Regex. If the quote cant be found in the source section then it is invalid. There may be extra problems with additional spaces that can be added into the source section by the text extraction from a pdf.
         """
+        format_punctuation = lambda text: re.sub(r'''(('')|['"‘’“”])''', r'''(('')|['"‘’“”])''' , text).replace(",", r",?")
+
         if attempt_repair:
             self._print(f"   Validating quote: {quote.text} with reference {quote.reference_str}")
         quote_regex = re.compile(quote.text, re.MULTILINE | re.IGNORECASE)
@@ -293,7 +295,7 @@ Here is the source text:
             return quote
 
         # Add a opional space between each character in the quote
-        quote_regex = re.compile(r"\s*".join(list(quote.text.strip())), re.MULTILINE | re.IGNORECASE)
+        quote_regex = re.compile(format_punctuation(r"\s*".join(list(quote.text.strip()))), re.MULTILINE | re.IGNORECASE)
         if not re.search(quote_regex, source_section) is None:
             self._print(f"   Validated quote with extra spaces")
             quote.set_validated()
