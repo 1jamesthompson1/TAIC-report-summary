@@ -166,7 +166,7 @@ class ReferenceValidator():
             citation_regex = fr'''{processed_reference} {{0,2}}\({processed_reference.reference_str}\)'''
 
             if processed_reference.unrepairable or processed_reference.invalid:
-                self._print(f"   Invalid {reference.type}: {reference.reference_str} for text {reference.text}")
+                print(f"   Invalid {reference.type}: {reference.reference_str} for text {reference.text}")
                 if processed_reference.type == ReferenceType.citation:
                     text = re.sub(citation_regex, processed_reference.to_string(), text, flags=re.IGNORECASE)
                 elif processed_reference.type == ReferenceType.quote:
