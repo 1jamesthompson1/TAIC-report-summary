@@ -166,7 +166,7 @@ class ReferenceValidator():
             citation_regex = fr'''{processed_reference} {{0,2}}\({processed_reference.reference_str}\)'''
 
             if processed_reference.unrepairable or processed_reference.invalid:
-                print(f"   Invalid {reference.type}: {reference.reference_str} for text {reference.text}")
+                self._print(f"   Invalid {reference.type}: {reference.reference_str} for text {reference.text}")
                 if processed_reference.type == ReferenceType.citation:
                     text = re.sub(citation_regex, processed_reference.to_string(), text, flags=re.IGNORECASE)
                 elif processed_reference.type == ReferenceType.quote:
@@ -236,7 +236,11 @@ You are helping me check that references are correct.
 
 Whitespace differences are too be ignored.
 
-You will be given a citation and the source text. Return "yes" if you think that the citation is correct. Return "no" if you cant find any evidence for the citation in the source text.
+You will be given a indirect quote and the source text.
+Return "yes" if you think that the indirect quote is supported by the source text.
+Return "no" if you cant find any evidence for the indirect quote in the source text.
+
+Note that the indirect quote might make claims that are treated as a given fact. The indirect quote is supported if atleast 50% of it can be proven with the source text.
 """
 
         user_message = f"""
@@ -258,7 +262,7 @@ Here is the source text:
             citation.set_validated()
             return citation
         elif valid.lower() != "no":
-            self.print(f"  Invalid response from model: {valid}, going to retry")
+            self._print(f"  Invalid response from model: {valid}, going to retry")
             return self._validate_citation(citation, source_section)
         if attempt_repair:
             self._print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")
