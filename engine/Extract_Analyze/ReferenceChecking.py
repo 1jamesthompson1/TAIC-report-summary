@@ -263,7 +263,7 @@ Here is the source text:
             return citation
         elif valid.lower() != "no":
             self._print(f"  Invalid response from model: {valid}, going to retry")
-            return self._validate_citation(citation, source_section)
+            return self._validate_citation(citation, source_section, True)
         if attempt_repair:
             self._print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")
         else:
