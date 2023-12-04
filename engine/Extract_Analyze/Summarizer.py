@@ -356,20 +356,20 @@ class ReportExtractor:
     def extract_section(self, section_str: str):
         split_section = section_str.split(".")
         section = split_section[0]
-        endRegex_nextSection = fr"(( {int(section)+1}.1.) {{1,3}})|((^{int(section)+1}.1.) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+        endRegex_nextSection = fr"(( {int(section)+1}\.1\.?) {{1,3}})|((^{int(section)+1}\.1\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
         startRegex = f"^{section} "
         endRegexs = [endRegex_nextSection]
         if len(split_section) > 1:
             paragraph = split_section[1]
-            endRegex_nextParagraph = fr"(( {section}.{int(paragraph)+1}.) {{1,3}})|((^{section}.{int(paragraph)+1}.) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+            endRegex_nextParagraph = fr"(( {section}\.{int(paragraph)+1}\.?) {{1,3}})|((^{section}\.{int(paragraph)+1}\.?) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
             endRegexs.insert(0, endRegex_nextParagraph)
-            startRegex = f"^{section}.{paragraph}. "
+            startRegex = fr"^{section}\.{paragraph}\.? "
 
         if len(split_section) > 2:
             sub_paragraph = split_section[2]
-            endRegex_nextSubParagraph = f"^{section}.{paragraph}.{int(sub_paragraph)+1}. "
+            endRegex_nextSubParagraph = fr"^{section}\.{paragraph}\.{int(sub_paragraph)+1}\.? "
             endRegexs.insert(0, endRegex_nextSubParagraph)
-            startRegex = f"^{section}.{paragraph}.{sub_paragraph}. "
+            startRegex = fr"^{section}\.{paragraph}\.{sub_paragraph}\.? "
 
         
         # Get the entire string between the start and end regex
