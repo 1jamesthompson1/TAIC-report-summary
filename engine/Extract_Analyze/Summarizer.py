@@ -1,5 +1,5 @@
 import os
-import random
+import yaml
 import regex as re
 from ..OpenAICaller import openAICaller
 import pandas as pd
@@ -21,6 +21,23 @@ class ReportSummarizer:
         self.report_summary_file_name = output_config.get("reports").get("full_summary_file_name")
         self.report_weightings_file_name = output_config.get("reports").get("weightings_file_name")
 
+        self.system_prompt = '''
+You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation.
+
+You must follow these formats exactly.
+For direct quotes there can only ever be one section mentioned:
+"quote in here" (section.paragraph.subparagraph)
+For indirect quotes there may be one section, multiple or a range: 
+sentence in here (section.paragraph.subparagraph)
+sentence in here (section.paragraph.subparagraph, section.paragraph.subparagraph, etc)
+sentence in here (section.paragraph.subparagraph-section.paragraph.subparagraph)
+
+Example quote formats would be:
+"it was a wednesday afternoon when the boat struck" (3.4)
+It was both the lack of fresh paint and the old radar dish that caused this accident (4.5.2, 5.4.4)
+The lack of consitant training different language dialects caused a breakdown in communication (3.9-3.12)
+'''
+
 
     def summarize_reports(self):
         if not os.path.exists(self.output_folder):
@@ -31,23 +48,28 @@ class ReportSummarizer:
             summary_file.write("ReportID," +  "PagesRead," + self.theme_reader.get_theme_str() +  "," + self.theme_reader.get_theme_str().replace('",', '_std",') + ",Complete" + ",ErrorMessage" + "\n")
         
         # Prepare system prompt
-        number_of_themes = self.theme_reader.get_num_themes()
-        self.system_prompt = f"""
-You will be provided with a Transport Accident investigation report. In particular you will be given the analysis and the finding sections of this report.
+        self.user_message_template = lambda report_text: f"""
+'''
+{report_text}
+'''
 
-Please read this report and determine what safety themes had the most contribution. This means I want to find out what are the most important and relevant safety themes for this particular accident.
+Question:
+Please take the provided safety themes below and assign a weighting to each of them. These weightings should be how much each safety theme contributed to the accident. All the weightings should add up to no more than 100. There should be a section for each theme even if the weightings is zero. If the cause of the accident cannot be attributed to one of the predfined safety themes you can add a "Other" theme with an explanation of what this cause is.
 
-For each safety theme can you please explain the safety factors and safety issues in this accident that are related to the safety theme. If there was nothing in the accident that is realated to the safety theme then simply say so.
-Please also assign a releative percentage to each of the safety theme indicating how related it is to this partiuclar accident. These percentages need to add up to 100. If there is no connection between the safety theme and the accident then the percentage should be zero.
+Please output your answer as straight yaml without using code blocks.
+The yaml format should have a name (must be verbatim), precentage and explanation field (which uses a literal scalar block) for each safety theme.
+Your yaml ouput should look like this:
+ - name: safety theme name
+  percentage: xy
+  explanation: |
+    multi line explanation goes here>
+    with evidence and "quotes" etc.
 
-Here is a summary of the {number_of_themes} themes:
+----
+=Here is a summary of the {self.theme_reader.get_num_themes()} safety themes=
+{self.theme_reader.get_theme_str()}
 
-{self.theme_reader.get_theme_description_str()}
-
----
-Note that I want this to be repeatable and deterministic as possible.
-
-Definition for the terms used can be found below:
+=Here are some definitions=
 
 Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
 increase the likelihood of an occurrence, and/or the
@@ -66,8 +88,7 @@ either as Risk Controls or Organisational Influences.
 Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
 cover a single safety issue, or two or more related safety
 issues.
----
-        """
+"""
         
 
         print("Summarizing reports...")
@@ -86,7 +107,7 @@ issues.
             summary_str = report_id + "," + "Error" + "," + "N/A" + ",false" + ",Could not extract text to summarize report with" + "\n"
             return
         
-        summary = self.summarize_text(report_id, text_to_be_summarized)
+        summary = self.summarize_text(text_to_be_summarized)
         
         if (summary == None):
             print(f'  Could not summarize {report_id}')
@@ -117,15 +138,11 @@ issues.
                                            self.report_summary_file_name.replace(r'{{report_id}}', report_id))
         
         with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write("-----------------------------\n---Full Summary Unparsed---\n-----------------------------\n\n")
-            summary_file.write(full_summary_unparsed)
-            summary_file.write("\n\n-----------------------------\n---Full Summary parsed---\n-----------------------------\n\n")
-            for theme in full_summary_parsed:
-                summary_file.write(f"{theme['percentage']}% - {theme['name']}\n{theme['reason']}\n\n")
+            yaml.dump(full_summary_parsed, summary_file, default_flow_style=False, width=float('inf'), sort_keys=False)
 
         print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
     
-    def summarize_text(self, report_id, text) -> (str, str, str):
+    def summarize_text(self, text) -> (str, str, str):
         max_attempts = 3
         attempts = 0
         while True:
@@ -135,8 +152,9 @@ issues.
             numberOfResponses = 1
             responses = openAICaller.query(
                 self.system_prompt,
-                text,
+                self.user_message_template(text),
                 n=numberOfResponses,
+                large_model=True,
                 temp = 0)
             
             if responses == None:
@@ -145,16 +163,31 @@ issues.
             # Convert the responses into a list of lists
             if numberOfResponses == 1:
                 responses = [responses]
-            parsed_responses = [self.parse_weighting_response(response,self.generate_parse_template()) for response in responses]
+            parsed_responses = [self.parse_weighting_response(response) for response in responses]
+            parsed_responses = [response for response in parsed_responses if response is not None]
 
-            if parsed_responses == [None]:
+            # Make sure that the response has the right number of themes and with all the correct names
+            for response in parsed_responses:                
+                if not 0 <= (len(response) - self.theme_reader.get_num_themes()) <= 1 :
+                    print(f"  WARNING: Response does not have the correct number of themes. Expected {self.theme_reader.get_num_themes()} but got {len(response)}.")
+                    parsed_responses.remove(response)
+                    continue
+                
+                for theme in response:
+                    if theme['name'] not in self.theme_reader.get_theme_titles() + ["Other"]:
+                        print(f"  WARNING: Response has a theme with an incorrect name. Expected one of {self.theme_reader.get_theme_names()} but got {theme['name']}")
+                        parsed_responses.remove(response)
+                        continue
+
+            if len(parsed_responses) == 0:
+                print(f"  WARNING: No valid responses. Retrying.")
                 continue
 
-
-            weightings = [[theme['percentage'] for theme in response] for response in parsed_responses]
-            print(f"  The weightings are:\n  {weightings}")
+            # Get the weightings from the repsonse in the same order as the themes
+            weightings_dicts = [{theme['name']: theme['percentage'] for theme in response} for response in parsed_responses]
+            weightings = [[weightings_dict[title] for title in self.theme_reader.get_theme_titles()] for weightings_dict in weightings_dicts]
+            
             weightings = pd.DataFrame(weightings)
-
             # Remove all rows that dont add up to 100
             weightings = weightings[weightings.sum(axis=1).eq(100)]
 
@@ -190,74 +223,21 @@ issues.
             break
 
         return weighting_str, parsed_responses[0], responses[0] # Currently assuming that there is only going to be one response.
-        
-    def generate_parse_template(self):
-        template = ""
-
-        for theme_title in self.theme_reader.get_theme_titles():
-            template += f"xy% - {theme_title}\n[given reason here]\n\n"
-
-        return template
     
-    def parse_weighting_response(self, response, template):
-        max_attempts = 3
-        attempts = 0
+    def parse_weighting_response(self, response):
+        if response[:3] == '```':
+            clean_response = response[7:-3]
+        else :
+            clean_response = response
+
+        try:
+            weighting_obj = yaml.safe_load(clean_response)
+            return weighting_obj
+        except yaml.YAMLError as exc:
+            print(exc)
+            return None
+
         
-        while True:
-            attempts += 1
-            if attempts == max_attempts:
-                print(f"  WARNING: Could not get a parsable response in time.")
-                return None
-            response = openAICaller.query(
-                    f"""
-Please take this response and parse it into the specific template below.
-
-It is important that you follow the specific template as laid out below. This should be exact and there should be no extra characters before or after the template.
-
-Both the percentages and the reasoning behind the percentages should be parsed verbatim
-
-Here is the template:
-
-{template}
-                    """,
-                    response,
-                    large_model=True,
-                    temp = 0)
-            
-            if response == None:
-                return None
-            
-            themes = response.split('\n\n')
-            result_list = []
-            
-            try: 
-                if len(themes) != self.theme_reader.get_num_themes():
-                    print(f"  WARNING: Incorrect number of themes in response.")
-                    raise ValueError()
-                # Iterate over each theme
-                for theme in themes:
-                
-                    lines = theme.split('\n')
-
-                    lines[1] = ' '.join(lines[1:])
-                    
-                    # Extract percentage, name, and reason
-                    percentage, name = lines[0].split(' - ', 1)
-                    reason = lines[1].strip()
-
-                    # Convert percentage to integer
-                    percentage = int(percentage.strip('%'))
-
-                    # Create a dictionary and append to the result list
-                    result_list.append({'name': name.strip(), 'percentage': percentage, 'reason': reason})
-                
-                break
-
-            except ValueError:
-                print(f"  WARNING: Incorrect response from model retrying. \n  Response from request was: '{response}'\n\n\nand the response to be converted was:\n\n'{response}'")
-                continue
-
-        return result_list
 
         
 
