@@ -1,6 +1,6 @@
 import os
 import yaml
-import regex as re
+
 from ..OpenAICaller import openAICaller
 import pandas as pd
 
@@ -24,9 +24,9 @@ class ReportSummarizer:
         self.report_weightings_file_name = output_config.get("reports").get("weightings_file_name")
 
         self.system_prompt = '''
-You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation.
+You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation. Each sentence with a new claim should be cited. It is best to have inline quotes.
 
-You must follow these formats exactly.
+You must follow these reference conventions exactly. See examples for implementation
 For direct quotes there can only ever be one section mentioned:
 "quote in here" (section.paragraph.subparagraph)
 For indirect quotes there may be one section, multiple or a range: 
@@ -34,10 +34,15 @@ sentence in here (section.paragraph.subparagraph)
 sentence in here (section.paragraph.subparagraph, section.paragraph.subparagraph, etc)
 sentence in here (section.paragraph.subparagraph-section.paragraph.subparagraph)
 
-Example quote formats would be:
+Example quotes would be:
 "it was a wednesday afternoon when the boat struck" (3.4)
 It was both the lack of fresh paint and the old radar dish that caused this accident (4.5.2, 5.4.4)
 The lack of consitant training different language dialects caused a breakdown in communication (3.9-3.12)
+
+Here are exmaples of quotes that are not valid:
+Of the "22 people onboard only 2 had experience at sea" ("3.2")
+The hazards had been indentified in the past and ignored ("4.5")
+
 '''
 
 
@@ -143,6 +148,7 @@ issues.
             yaml.dump(full_summary_parsed, summary_file, default_flow_style=False, width=float('inf'), sort_keys=False)
 
         print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
+        exit()
     
     def summarize_text(self, text) -> (str, str, str):
         max_attempts = 3
@@ -209,6 +215,20 @@ issues.
                 print(f"  WARNING: weightings should add up to 100 after scaling. Where it currently adds up to {round(sum(weighting_average),3)}")
                 print(f"   Weightings were: {weighting_average}")
                 continue
+
+            # Check references
+            referenceCheckor = ReferenceChecking.ReferenceValidator(text, True)
+
+            for theme in parsed_responses[0]:
+                result = referenceCheckor.validate_references(theme['explanation'])
+                if result is None:
+                    print(f"   No refrences in this theme: {theme['name']} to validate.")
+                    continue
+
+                processed_text, num_references, num_updated_references = result
+                if isinstance(processed_text, str):
+                    theme['explanation'] = processed_text
+
 
             # Calculate the standard deviation of the weightings
             weighting_std = list(weightings.std(axis=0))
