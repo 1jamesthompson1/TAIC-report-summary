@@ -1,6 +1,6 @@
 from enum import Enum
 import re, copy
-from .Summarizer import ReportExtractor
+from .ReportExtracting import ReportExtractor
 from ..OpenAICaller import openAICaller
 
 class ReferenceType(Enum):

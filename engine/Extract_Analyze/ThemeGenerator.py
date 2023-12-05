@@ -3,7 +3,7 @@ import yaml
 
 from ..OpenAICaller import openAICaller
 from . import OutputFolderReader
-from .Summarizer import ReportExtractor
+from .ReportExtracting import ReportExtractor
 from . import Themes, ReferenceChecking
 
 class ThemeGenerator:
