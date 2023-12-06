@@ -123,7 +123,7 @@ issues.
                 summary_file.write(summary_str)
             return
         
-        weightings, full_summary_parsed, full_summary_unparsed = summary # unpack tuple response
+        weightings, full_summary_parsed = summary # unpack tuple response
 
         report_folder_path = os.path.join(self.output_folder,
                                             self.report_dir.replace(r'{{report_id}}', report_id))
@@ -148,7 +148,6 @@ issues.
             yaml.dump(full_summary_parsed, summary_file, default_flow_style=False, width=float('inf'), sort_keys=False)
 
         print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
-        exit()
     
     def summarize_text(self, text) -> (str, str, str):
         max_attempts = 3
@@ -244,7 +243,7 @@ issues.
             print("  The weightings are: " + str(weighting_str))
             break
 
-        return weighting_str, parsed_responses[0], responses[0] # Currently assuming that there is only going to be one response.
+        return weighting_str, parsed_responses[0] # Currently assuming that there is only going to be one response.
     
     def parse_weighting_response(self, response):
         if response[:3] == '```':

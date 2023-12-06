@@ -131,7 +131,7 @@ class ReportExtractor:
 
         if endMatch.end() < startMatch.end():
             print(f"Error: endMatch is before startMatch")
-            print(f"  startMatch: {startMatch.match} \n  endMatch: {endMatch.match}")
+            print(f"  startMatch: {startMatch[0]} \n  endMatch: {endMatch.match[0]}")
             print(f"  Regexs: {startRegex} \n  {endRegex}")
             return None
 
