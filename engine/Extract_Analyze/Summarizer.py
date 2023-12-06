@@ -39,7 +39,7 @@ Example quotes would be:
 It was both the lack of fresh paint and the old radar dish that caused this accident (4.5.2, 5.4.4)
 The lack of consitant training different language dialects caused a breakdown in communication (3.9-3.12)
 
-Under no cricumstances should a citation look like these:
+Under no circumstances should a citation look like these:
 Of the "22 people onboard only 2 had experience at sea" ("3.2")
 The hazards had been indentified in the past and ignored ("4.5")
 
@@ -61,7 +61,9 @@ The hazards had been indentified in the past and ignored ("4.5")
 '''
 
 Question:
-Please take the provided safety themes below and assign a weighting to each of them. These weightings should be how much each safety theme contributed to the accident. All the weightings should add up to no more than 100. There should be a section for all the provided themes even if the weightings is zero. If the cause of the accident cannot be attributed to one of the predfined safety themes you can add a "Other" theme with an explanation of what this cause is. Your reponse should have exactly either {self.theme_reader.get_num_themes()} or {self.theme_reader.get_num_themes()+1} themes in total.
+Please take the provided safety themes below and assign a weighting to each of them. These weightings should be how much each safety theme contributed to the accident. All the weightings should add up to no more than 100. There should be a section for all the provided themes even if the weightings is zero. If the cause of the accident cannot be attributed to one of the predfined safety themes you can add a "Other" safety theme with an explanation of what this theme is. Your reponse should have exactly either {self.theme_reader.get_num_themes()} or {self.theme_reader.get_num_themes()+1} themes in total.
+
+Please remember to keep the quote format as specified.
 
 Please output your answer as straight yaml without using code blocks.
 The yaml format should have a name (must be verbatim), precentage and explanation field (which uses a literal scalar block) for each safety theme.
@@ -173,7 +175,6 @@ issues.
             parsed_responses = [self.parse_weighting_response(response) for response in responses]
             parsed_responses = [response for response in parsed_responses if response is not None]
 
-
             # Make sure that the response has the right number of themes and with all the correct names
             for response in parsed_responses:  
                 if not 0 <= (len(response) - self.theme_reader.get_num_themes()) <= 1 :
@@ -196,7 +197,7 @@ issues.
 
             # Get the weightings from the repsonse in the same order as the themes
             weightings_dicts = [{theme['name']: theme['percentage'] for theme in response} for response in parsed_responses]
-            weightings = [[weightings_dict[title] for title in self.theme_reader.get_theme_titles() + ["Other"]] for weightings_dict in weightings_dicts]
+            weightings = [[weightings_dict[title] for title in (self.theme_reader.get_theme_titles() + ["Other"])] for weightings_dict in weightings_dicts]
             
             weightings = pd.DataFrame(weightings)
             # Remove all rows that dont add up to 100
@@ -221,17 +222,22 @@ issues.
 
             # Check references
             referenceCheckor = ReferenceChecking.ReferenceValidator(text, True)
-
+            invalid_reference = False
             for theme in parsed_responses[0]:
                 result = referenceCheckor.validate_references(theme['explanation'])
                 if result is None:
                     print(f"   No refrences in this theme: {theme['name']} to validate.")
                     continue
+                elif isinstance(result, str):
+                    invalid_reference = True
+                    break
 
                 processed_text, num_references, num_updated_references = result
                 if isinstance(processed_text, str):
                     theme['explanation'] = processed_text
-
+            if invalid_reference:
+                print(f"  WARNING: Invalid reference in response. Retrying.")
+                continue
 
             # Calculate the standard deviation of the weightings
             weighting_std = list(weightings.std(axis=0))

@@ -157,7 +157,11 @@ class ReferenceValidator():
         """
         text = text.replace("\n", "").replace("’","'")
 
-        references = self._extract_references(text)
+        try: 
+            references = self._extract_references(text)
+        except Exception as e:
+            return "Invalid format"
+        
         if references is None:
             self._print(f"   No references found")
             return None
@@ -197,7 +201,7 @@ class ReferenceValidator():
         invalid_reference_regex = r'\("\d.\d{1,2}(.\d{1,2})?"\)'
         if re.search(invalid_reference_regex, text):
             self._print(f"""  Reference formatted with ("3.45") style which is not allowed.""")
-            return None
+            raise Exception("Invalid reference format")
 
         references = []
         for match in re.finditer(self.reference_regex, text.lower()):
