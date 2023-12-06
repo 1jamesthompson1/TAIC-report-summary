@@ -10,9 +10,9 @@ from .ReportExtracting import ReportExtractor
 from . import ReferenceChecking
 
 class ReportSummarizer:
-    def __init__(self, output_config):
+    def __init__(self, output_config, use_predefined_themes = False):
         self.output_folder = output_config.get("folder_name")
-        self.theme_reader = ThemeReader()
+        self.theme_reader = ThemeReader(None, use_predefined_themes)
         self.report_reader = OutputFolderReader()
         self.open_ai_caller = openAICaller
 
@@ -61,20 +61,22 @@ The hazards had been indentified in the past and ignored ("4.5")
 '''
 
 Question:
-Please take the provided safety themes below and assign a weighting to each of them. These weightings should be how much each safety theme contributed to the accident. All the weightings should add up to no more than 100. There should be a section for each theme even if the weightings is zero. If the cause of the accident cannot be attributed to one of the predfined safety themes you can add a "Other" theme with an explanation of what this cause is.
+Please take the provided safety themes below and assign a weighting to each of them. These weightings should be how much each safety theme contributed to the accident. All the weightings should add up to no more than 100. There should be a section for all the provided themes even if the weightings is zero. If the cause of the accident cannot be attributed to one of the predfined safety themes you can add a "Other" theme with an explanation of what this cause is. Your reponse should have exactly either {self.theme_reader.get_num_themes()} or {self.theme_reader.get_num_themes()+1} themes in total.
 
 Please output your answer as straight yaml without using code blocks.
 The yaml format should have a name (must be verbatim), precentage and explanation field (which uses a literal scalar block) for each safety theme.
 Your yaml ouput should look like this:
- - name: safety theme name
+ - name: |-
+    safety theme name
   percentage: xy
   explanation: |
     multi line explanation goes here>
     with evidence and "quotes" etc.
 
+
 ----
 =Here is a summary of the {self.theme_reader.get_num_themes()} safety themes=
-{self.theme_reader.get_theme_str()}
+{self.theme_reader.get_theme_description_str()}
 
 =Here are some definitions=
 
@@ -97,9 +99,7 @@ cover a single safety issue, or two or more related safety
 issues.
 """
         
-
         print("Summarizing reports...")
-        print(f"  System prompt: {self.system_prompt}")
 
         self.report_reader.process_reports(self.summarize_report)      
 
@@ -173,16 +173,20 @@ issues.
             parsed_responses = [self.parse_weighting_response(response) for response in responses]
             parsed_responses = [response for response in parsed_responses if response is not None]
 
+
             # Make sure that the response has the right number of themes and with all the correct names
-            for response in parsed_responses:                
+            for response in parsed_responses:  
                 if not 0 <= (len(response) - self.theme_reader.get_num_themes()) <= 1 :
                     print(f"  WARNING: Response does not have the correct number of themes. Expected {self.theme_reader.get_num_themes()} but got {len(response)}.")
+                    print(f"   Response was: {response}")
                     parsed_responses.remove(response)
+
                     continue
                 
                 for theme in response:
-                    if theme['name'] not in self.theme_reader.get_theme_titles() + ["Other"]:
-                        print(f"  WARNING: Response has a theme with an incorrect name. Expected one of {self.theme_reader.get_theme_names()} but got {theme['name']}")
+                    potential_theme_names = self.theme_reader.get_theme_titles() + ["Other"]
+                    if theme['name'].strip().strip("\n") not in potential_theme_names:
+                        print(f"  WARNING: Response has a theme with an incorrect name. Expected one of {potential_theme_names} but got '{theme['name']}'")
                         parsed_responses.remove(response)
                         continue
 
@@ -192,7 +196,7 @@ issues.
 
             # Get the weightings from the repsonse in the same order as the themes
             weightings_dicts = [{theme['name']: theme['percentage'] for theme in response} for response in parsed_responses]
-            weightings = [[weightings_dict[title] for title in self.theme_reader.get_theme_titles()] for weightings_dict in weightings_dicts]
+            weightings = [[weightings_dict[title] for title in self.theme_reader.get_theme_titles() + ["Other"]] for weightings_dict in weightings_dicts]
             
             weightings = pd.DataFrame(weightings)
             # Remove all rows that dont add up to 100
@@ -237,7 +241,7 @@ issues.
                 continue
             
             # Convert the weightings into a string
-            all_data = weighting_average + weighting_std
+            all_data = weighting_average[:-1] + weighting_std[:-1] # Removing the other coloumn
             weighting_str = ",".join([str(weight_int) for weight_int in all_data])
 
             print("  The weightings are: " + str(weighting_str))

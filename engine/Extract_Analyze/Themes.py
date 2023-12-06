@@ -7,23 +7,23 @@ from .. import Config
 # print(theme_reader.get_theme_description_str())
 
 class ThemeFile:
-    def __init__(self, output_path: str = None):
+    def __init__(self, output_path: str = None, use_predefined: bool = False):
         engine_config = Config.ConfigReader().get_config()['engine']['output']
         if output_path is None:
-            self._file_path = os.path.join(engine_config.get("folder_name"), engine_config.get("themes_file_name"))
+            self._file_path = os.path.join(engine_config.get("folder_name"), engine_config.get("predefined_themes_file_name") if use_predefined else engine_config.get("themes_file_name"))
         else:
-            self._file_path = os.path.join(output_path, engine_config.get("themes_file_name"))
+            self._file_path = os.path.join(output_path, engine_config.get("predefined_themes_file_name") if use_predefined else engine_config.get("themes_file_name"))
 
 class ThemeReader(ThemeFile):
-    def __init__(self, output_path: str = None):
-        super().__init__(output_path)
+    def __init__(self, output_path: str = None, use_predefined: bool = False):
+        super().__init__(output_path, use_predefined)
         self._themes = self._get_themes()
 
     def get_num_themes(self) -> int:
         return len(self._themes)
 
     def get_theme_str(self) -> str:
-        themes_str = "\"" + "\",\"".join([theme["title"] for theme in self._themes]) + "\""
+        themes_str = "\"" + "\",\"".join([theme["title"].strip("\n") for theme in self._themes]) + "\""
         return themes_str
 
     def get_theme_description_str(self) -> str:

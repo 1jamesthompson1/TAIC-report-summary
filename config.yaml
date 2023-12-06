@@ -6,6 +6,7 @@ engine:
     modes: ["a", "r", "m"]
   output:
     folder_name: "output"
+    predefined_themes_file_name: "predefined_themes.yaml"
     themes_file_name: "themes.yaml"
     summary_file_name: "summary.csv"
     reports:

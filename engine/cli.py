@@ -34,8 +34,8 @@ def generate_themes(output_dir, reports_config):
                                   reports_config.get("folder_name"),
                                   reports_config.get("themes_file_name")).generate_themes()
 
-def summarize(output_config):
-    Summarizer.ReportSummarizer(output_config).summarize_reports()
+def summarize(output_config, use_predefined):
+    Summarizer.ReportSummarizer(output_config, use_predefined).summarize_reports()
 
 def printout_cost_summary(run_type):
     summary_strs = APICostEstimator.APICostEstimator().get_cost_summary_strings()
@@ -59,6 +59,7 @@ def cli():
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
     parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
     parser.add_argument("-t", "--run_type", choices=["download", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validtion check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
+    parser.add_argument("-p", "--predefined", help="Use predefined themes that will be used for the summarize weightings. The predefined themes must follow a psecifc format, be in the outputfolder and be called predefined_themes.yaml (or whatever the config.yaml file is set it as). It will also skip the themes step if you run all.", action="store_true", default=False)
 
     args = parser.parse_args()
 
@@ -86,10 +87,11 @@ def cli():
         case "themes":
             generate_themes(output_path, engine_settings.get('output').get('reports'))
         case "summarize":
-            summarize(engine_settings.get('output'))
+            summarize(engine_settings.get('output'), args.predefined)
         case "all":
             download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
-            generate_themes(output_path, engine_settings.get('output').get('reports'))
+            if not args.predefined:
+                generate_themes(output_path, engine_settings.get('output').get('reports'))
             summarize(engine_settings.get('output'))
         case "validate":
             validate()
