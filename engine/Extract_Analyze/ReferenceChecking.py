@@ -190,6 +190,14 @@ class ReferenceValidator():
         Extracts all the references from the given text and returns a list of them.
         """
 
+        # Firstly make sure that it is using a valid convention for the references
+        # It has been noted that it could repsond will all citation formatted like ("3.54").
+
+        invalid_reference_regex = r'\("\d.\d{1,2}(.\d{1,2})?"\)'
+        if re.search(invalid_reference_regex, text):
+            self._print(f"""  Reference formatted with ("3.45") style which is not allowed.""")
+            return None
+
         references = []
         for match in re.finditer(self.reference_regex, text.lower()):
             new_referenece = None

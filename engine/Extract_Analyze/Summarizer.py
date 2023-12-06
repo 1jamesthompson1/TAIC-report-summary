@@ -39,7 +39,7 @@ Example quotes would be:
 It was both the lack of fresh paint and the old radar dish that caused this accident (4.5.2, 5.4.4)
 The lack of consitant training different language dialects caused a breakdown in communication (3.9-3.12)
 
-Here are exmaples of quotes that are not valid:
+Under no cricumstances should a citation look like these:
 Of the "22 people onboard only 2 had experience at sea" ("3.2")
 The hazards had been indentified in the past and ignored ("4.5")
 
