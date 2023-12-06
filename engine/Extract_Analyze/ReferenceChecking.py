@@ -56,6 +56,7 @@ class Reference():
                 end_section = list(map(int, end_section.split('.')))
             except:
                 self.set_invalid()
+                return None
 
             if len(start_section) == 1:
                 start_section += [0, 0]
