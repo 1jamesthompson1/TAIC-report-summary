@@ -1,6 +1,6 @@
 from enum import Enum
 import re, copy
-from .Summarizer import ReportExtractor
+from .ReportExtracting import ReportExtractor
 from ..OpenAICaller import openAICaller
 
 class ReferenceType(Enum):
@@ -155,7 +155,7 @@ class ReferenceValidator():
 
         references = self._extract_references(text)
         if references is None:
-            self._print(f"  No references found in {text}")
+            self._print(f"   No references found")
             return None
         updated_references_counter = 0
         for reference in references:
@@ -262,7 +262,7 @@ Here is the source text:
             citation.set_validated()
             return citation
         elif valid.lower() != "no":
-            self._print(f"  Invalid response from model: {valid}, going to retry")
+            self._print(f"""  Invalid response from model: \n"\n{valid}\n going to retry""")
             return self._validate_citation(citation, source_section, True)
         if attempt_repair:
             self._print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")

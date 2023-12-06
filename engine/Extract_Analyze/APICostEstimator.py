@@ -1,5 +1,5 @@
 from .OutputFolderReader import OutputFolderReader
-from .Summarizer import ReportExtractor
+from .ReportExtracting import ReportExtractor
 from ..OpenAICaller import openAICaller
 import pandas as pd
 
