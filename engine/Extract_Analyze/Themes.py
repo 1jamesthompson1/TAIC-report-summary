@@ -1,6 +1,6 @@
 import yaml
 import os
-from .. import Config
+from .. import Config, Modes
 # Example usage of class
 # theme_reader = ThemeReader()
 # print(theme_reader.get_theme_str())
@@ -15,8 +15,9 @@ class ThemeFile:
             self._file_path = os.path.join(output_path, engine_config.get("predefined_themes_file_name") if use_predefined else engine_config.get("themes_file_name"))
 
 class ThemeReader(ThemeFile):
-    def __init__(self, output_path: str = None, use_predefined: bool = False):
+    def __init__(self, output_path: str = None, use_predefined: bool = False, modes = Modes.all_modes):
         super().__init__(output_path, use_predefined)
+        self._modes = modes
         self._themes = self._get_themes()
 
     def get_num_themes(self) -> int:
@@ -40,6 +41,11 @@ class ThemeReader(ThemeFile):
             print(f"Cant read themes as {self._file_path} doesnt exist")
             return None
         themes = yaml.safe_load(open(self._file_path, 'r'))['themes']
+
+        # Filter out themes that are not in the modes
+        themes = list(filter(lambda theme: any(Modes.Mode[mode] in self._modes for mode in theme['modes']), themes))
+
+
         return themes
     
 class ThemeWriter(ThemeFile):

@@ -9,12 +9,15 @@ from .OutputFolderReader import OutputFolderReader
 from .ReportExtracting import ReportExtractor
 from . import ReferenceChecking
 
+from .. import Modes
+
 class ReportSummarizer:
-    def __init__(self, output_config, use_predefined_themes = False):
+    def __init__(self, output_config, use_predefined_themes = False, modes = Modes.all_modes):
         self.output_folder = output_config.get("folder_name")
-        self.theme_reader = ThemeReader(None, use_predefined_themes)
+        self.theme_reader = ThemeReader(None, use_predefined_themes, modes)
         self.report_reader = OutputFolderReader()
         self.open_ai_caller = openAICaller
+        self.modes = modes
 
 
         self.overall_summary_path = os.path.join(self.output_folder, output_config.get("summary_file_name"))
@@ -103,7 +106,7 @@ issues.
         
         print("Summarizing reports...")
 
-        self.report_reader.process_reports(self.summarize_report)      
+        self.report_reader.process_reports(self.summarize_report, self.modes)      
 
     def summarize_report(self, report_id, report_text):
         print(f'Summarizing {report_id}')

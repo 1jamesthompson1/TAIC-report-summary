@@ -1,7 +1,6 @@
 import os
-from .. import Config
+from .. import Config, Modes
 import regex as re
-
 class OutputFolderReader:
     def __init__(self, output_folder = None):
         self.output_config = Config.ConfigReader().get_config()['engine']['output']
@@ -23,9 +22,12 @@ class OutputFolderReader:
 
         return list(filter( lambda ele: ele != None, report_ids))
     
-    def _read_file_from_each_report_dir(self, file_name_template, processing_function):
+    def _read_file_from_each_report_dir(self, file_name_template, processing_function, filter_report = lambda report_id: True):
         report_dir_template = self.output_config.get("reports").get("folder_name")
         for report_id in self._get_report_ids():
+
+            if not filter_report(report_id):
+                continue
 
             report_dir = os.path.join(self.output_folder, report_dir_template.replace(r'{{report_id}}', report_id))
             if not os.path.isdir(report_dir):
@@ -47,11 +49,11 @@ class OutputFolderReader:
             
             processing_function(report_id, report_text)
 
-    def read_all_themes(self, processing_function):
-        self._read_file_from_each_report_dir(self.output_config.get("reports").get("themes_file_name"), processing_function)
+    def read_all_themes(self, processing_function, modes = Modes.all_modes):
+        self._read_file_from_each_report_dir(self.output_config.get("reports").get("themes_file_name"), processing_function, lambda report_id: Modes.get_report_mode_from_id(report_id) in modes)
 
     def read_all_summaries(self, processing_function):
         self._read_file_from_each_report_dir(self.output_config.get("reports").get("weightings_file_name"), processing_function)
 
-    def process_reports(self, processing_function):
-        self._read_file_from_each_report_dir(self.output_config.get("reports").get("text_file_name"), processing_function)
+    def process_reports(self, processing_function, modes = Modes.all_modes):
+        self._read_file_from_each_report_dir(self.output_config.get("reports").get("text_file_name"), processing_function, lambda report_id: Modes.get_report_mode_from_id(report_id) in modes)

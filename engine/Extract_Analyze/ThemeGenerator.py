@@ -7,13 +7,14 @@ from .ReportExtracting import ReportExtractor
 from . import Themes, ReferenceChecking
 
 class ThemeGenerator:
-    def __init__(self, output_folder, report_dir_template, report_theme_template):
+    def __init__(self, output_folder, report_dir_template, report_theme_template, modes):
         self.output_folder = output_folder
         self.open_ai_caller = openAICaller
         self.report_dir_template = report_dir_template
         self.report_theme_template = report_theme_template
         self.all_themes = ""
         self.output_folder_reader = OutputFolderReader.OutputFolderReader()
+        self.modes = modes
 
     def _get_theme_file_path(self, report_id):
         return os.path.join(self.output_folder,
@@ -27,12 +28,12 @@ class ThemeGenerator:
         print(f"  Report theme template: {self.report_theme_template}")
 
 
-        self.output_folder_reader.process_reports(self._get_theme)
+        self.output_folder_reader.process_reports(self._get_theme, self.modes)
 
         print(" Themes generated for each report")
 
         print(" Creating global themes")
-        self.output_folder_reader.read_all_themes(self._read_themes)
+        self.output_folder_reader.read_all_themes(self._read_themes, self.modes)
         print("  All themes read")
             
         print("  Summarizing themes...")
