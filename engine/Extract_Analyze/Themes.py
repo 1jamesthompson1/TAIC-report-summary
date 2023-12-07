@@ -20,21 +20,29 @@ class ThemeReader(ThemeFile):
         self._modes = modes
         self._themes = self._get_themes()
 
-    def get_num_themes(self) -> int:
-        return len(self._themes)
+    def get_num_themes(self, modes = None) -> int:
+        if modes is None:
+            modes = self._modes
+        return len(ThemeReader._filter_themes(self._themes, modes))
 
     def get_theme_str(self) -> str:
         themes_str = "\"" + "\",\"".join([theme["title"].strip("\n") for theme in self._themes]) + "\""
         return themes_str
 
-    def get_theme_description_str(self) -> str:
+    def get_theme_description_str(self, modes = None) -> str:
+        if modes is None:
+            modes = self._modes
+        return_themes = ThemeReader._filter_themes(self._themes, modes)
+
         themes_description_str = ""
-        for theme in self._themes:
+        for theme in return_themes:
             themes_description_str += f"{theme['title']}:\n {theme['description']}\n\n"
         return themes_description_str
     
-    def get_theme_titles(self) -> list:
-        return [theme["title"] for theme in self._themes]
+    def get_theme_titles(self, modes = None) -> list:
+        if modes is None:
+            modes = self._modes
+        return [theme["title"] for theme in ThemeReader._filter_themes(self._themes, modes)]
 
     def _get_themes(self) -> dict:
         if not os.path.exists(self._file_path):
@@ -43,11 +51,13 @@ class ThemeReader(ThemeFile):
         themes = yaml.safe_load(open(self._file_path, 'r'))['themes']
 
         # Filter out themes that are not in the modes
-        themes = list(filter(lambda theme: any(Modes.Mode[mode] in self._modes for mode in theme['modes']), themes))
-
-
+        themes = ThemeReader._filter_themes(themes, self._modes)
         return themes
     
+    def _filter_themes(themes, modes):
+        if not isinstance(modes, list):
+            modes = [modes]
+        return list(filter(lambda theme: any(Modes.Mode[mode] in modes for mode in theme['modes']), themes))
 class ThemeWriter(ThemeFile):
     def __init__(self):
         super().__init__()

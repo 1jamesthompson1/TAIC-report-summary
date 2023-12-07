@@ -58,7 +58,7 @@ The hazards had been indentified in the past and ignored ("4.5")
             summary_file.write("ReportID," +  "PagesRead," + self.theme_reader.get_theme_str() +  "," + ",".join([f'''"{element.strip('"')}_std"''' for element in self.theme_reader.get_theme_str().split(",")]) + ",Complete" + ",ErrorMessage" + "\n")
         
         # Prepare system prompt
-        self.user_message_template = lambda report_text: f"""
+        self.user_message_template = lambda report_text, modes: f"""
 '''
 {report_text}
 '''
@@ -81,7 +81,7 @@ Your yaml ouput should look like this:
 
 ----
 =Here is a summary of the {self.theme_reader.get_num_themes()} safety themes=
-{self.theme_reader.get_theme_description_str()}
+{self.theme_reader.get_theme_description_str(modes)}
 
 =Here are some definitions=
 
@@ -119,7 +119,7 @@ issues.
             summary_str = report_id + "," + "Error" + "," + "N/A" + ",false" + ",Could not extract text to summarize report with" + "\n"
             return
         
-        summary = self.summarize_text(text_to_be_summarized)
+        summary = self.summarize_text(text_to_be_summarized, Modes.get_report_mode_from_id(report_id))
         
         if (summary == None):
             print(f'  Could not summarize {report_id}')
@@ -154,17 +154,17 @@ issues.
 
         print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
     
-    def summarize_text(self, text) -> (str, str, str):
+    def summarize_text(self, text, mode) -> (str, str, str):
         max_attempts = 3
         attempts = 0
         while True:
             attempts += 1
             if attempts == max_attempts+1:
                 return None
-            numberOfResponses = 1
+            numberOfResponses = 3
             responses = openAICaller.query(
                 self.system_prompt,
-                self.user_message_template(text),
+                self.user_message_template(text, mode),
                 n=numberOfResponses,
                 large_model=True,
                 temp = 0)
@@ -180,15 +180,16 @@ issues.
 
             # Make sure that the response has the right number of themes and with all the correct names
             for response in parsed_responses:  
-                if not 0 <= (len(response) - self.theme_reader.get_num_themes()) <= 1 :
-                    print(f"  WARNING: Response does not have the correct number of themes. Expected {self.theme_reader.get_num_themes()} but got {len(response)}.")
+                number_expected_themes = self.theme_reader.get_num_themes(mode)
+                if not 0 <= (len(response) - number_expected_themes) <= 1 :
+                    print(f"  WARNING: Response does not have the correct number of themes. Expected {number_expected_themes} but got {len(response)}.")
                     print(f"   Response was: {response}")
                     parsed_responses.remove(response)
 
                     continue
                 
                 for theme in response:
-                    potential_theme_names = self.theme_reader.get_theme_titles() + ["Other"]
+                    potential_theme_names = self.theme_reader.get_theme_titles(mode) + ["Other"]
                     if theme['name'].strip().strip("\n") not in potential_theme_names:
                         print(f"  WARNING: Response has a theme with an incorrect name. Expected one of {potential_theme_names} but got '{theme['name']}'")
                         parsed_responses.remove(response)
@@ -199,10 +200,19 @@ issues.
                 continue
 
             # Get the weightings from the repsonse in the same order as the themes
-            weightings_dicts = [{theme['name']: theme['percentage'] for theme in response} for response in parsed_responses]
-            weightings = [[weightings_dict[title] for title in (self.theme_reader.get_theme_titles() + ["Other"])] for weightings_dict in weightings_dicts]
+            # Add in weightings as NA for themes that are not applicable
+            weightings = list()
+            for response in parsed_responses:
+                response_weighting = list()
+                weighting_dict = {theme['name']: theme['percentage'] for theme in response}
+                for theme in self.theme_reader.get_theme_titles() + ["Other"]:
+                    weighting = weighting_dict.get(theme)
+                    response_weighting.append(weighting if weighting is not None else pd.NA)
+                weightings.append(response_weighting)
             
             weightings = pd.DataFrame(weightings)
+
+            print(weightings)
             # Remove all rows that dont add up to 100
             weightings = weightings[weightings.sum(axis=1).eq(100)]
 
@@ -210,18 +220,14 @@ issues.
                 print(f"  WARNING: No valid responses with a sum of 100 retrying.")
                 continue
 
-            # Get an average of all of the rows
-            weighting_average = list(weightings.mean(axis=0))
+            # Calculate the average of each column
+            averages = weightings.mean()
 
-            print(f"  The average weightings are: {weighting_average}")
-            
-            # Scale the average to add up to 100
-            weighting_average = [round((weight * 100) / sum(weighting_average), ndigits = 3) for weight in weighting_average]
+            # Calculate the sum of the averages, ignoring NA values
+            sum_averages = averages.sum()
 
-            if round(sum(weighting_average)) != 100:
-                print(f"  WARNING: weightings should add up to 100 after scaling. Where it currently adds up to {round(sum(weighting_average),3)}")
-                print(f"   Weightings were: {weighting_average}")
-                continue
+            # Scale the averages to sum to 100, leaving NA values as they are
+            scaled_averages = averages.apply(lambda x: round((x * 100) / sum_averages, 3) if pd.notnull(x) else pd.NA)
 
             # Check references
             referenceCheckor = ReferenceChecking.ReferenceValidator(text, True)
@@ -235,7 +241,7 @@ issues.
                     invalid_reference = True
                     break
 
-                processed_text, num_references, num_updated_references = result
+                processed_text, _, _ = result
                 if isinstance(processed_text, str):
                     theme['explanation'] = processed_text
             if invalid_reference:
@@ -250,7 +256,7 @@ issues.
                 continue
             
             # Convert the weightings into a string
-            all_data = weighting_average[:-1] + weighting_std[:-1] # Removing the other coloumn
+            all_data = list(scaled_averages[:-1]) + weighting_std[:-1] # Removing the other coloumn
             weighting_str = ",".join([str(weight_int) for weight_int in all_data])
 
             print("  The weightings are: " + str(weighting_str))
