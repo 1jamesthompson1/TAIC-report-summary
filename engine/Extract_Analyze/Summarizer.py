@@ -55,7 +55,7 @@ The hazards had been indentified in the past and ignored ("4.5")
             return
         
         with open(self.overall_summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write("ReportID," +  "PagesRead," + self.theme_reader.get_theme_str() +  "," + self.theme_reader.get_theme_str().replace('",', '_std",') + ",Complete" + ",ErrorMessage" + "\n")
+            summary_file.write("ReportID," +  "PagesRead," + self.theme_reader.get_theme_str() +  "," + ",".join([f'''"{element.strip('"')}_std"''' for element in self.theme_reader.get_theme_str().split(",")]) + ",Complete" + ",ErrorMessage" + "\n")
         
         # Prepare system prompt
         self.user_message_template = lambda report_text: f"""
