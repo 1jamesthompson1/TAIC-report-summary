@@ -212,7 +212,6 @@ issues.
             
             weightings = pd.DataFrame(weightings)
 
-            print(weightings)
             # Remove all rows that dont add up to 100
             weightings = weightings[weightings.sum(axis=1).eq(100)]
 
