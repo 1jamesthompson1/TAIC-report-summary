@@ -1,5 +1,6 @@
 import os
 import yaml
+import csv
 
 from ..OpenAICaller import openAICaller
 import pandas as pd
@@ -54,8 +55,21 @@ The hazards had been indentified in the past and ignored ("4.5")
             print("WARNING: Output folder and hence extracted text does not exist. Reports cannot be summarized.")
             return
         
-        with open(self.overall_summary_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write("ReportID," +  "PagesRead," + self.theme_reader.get_theme_str() +  "," + ",".join([f'''"{element.strip('"')}_std"''' for element in self.theme_reader.get_theme_str().split(",")]) + ",Complete" + ",ErrorMessage" + "\n")
+        start = ["ReportID", "PagesRead"]
+
+        update_theme_str = lambda ending: map(lambda title: f"{title}_{ending}",self.theme_reader.get_theme_titles(self.modes))
+
+        themes_name = update_theme_str("weighting")
+        themes_names_explanation = update_theme_str("explanation")
+        themes_names_std = update_theme_str("std")
+
+        zipped_themes_titles = [item for sublist in zip(themes_name, themes_names_explanation, themes_names_std) for item in sublist]
+
+        ending = ["Complete", "ErrorMessage"]
+        
+        with open(self.overall_summary_path, 'w', newline="") as summary_file:
+            writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
+            writer.writerow(start + zipped_themes_titles + ending)
         
         # Prepare system prompt
         self.user_message_template = lambda report_text, modes: f"""
@@ -119,40 +133,44 @@ issues.
             summary_str = report_id + "," + "Error" + "," + "N/A" + ",false" + ",Could not extract text to summarize report with" + "\n"
             return
         
+        
+        report_folder_path = os.path.join(self.output_folder,
+                                                self.report_dir.replace(r'{{report_id}}', report_id))
+        
+        report_weightings_path = os.path.join(report_folder_path,
+                                            self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
+
         summary = self.summarize_text(text_to_be_summarized, Modes.get_report_mode_from_id(report_id))
         
         if (summary == None):
             print(f'  Could not summarize {report_id}')
-            summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + "Error" + ",false" + ",Could not summarize report" + "\n"
-            with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
-                summary_file.write(summary_str)
-            return
-        
-        weightings, full_summary_parsed = summary # unpack tuple response
+            summary_final = [report_id, str(pages_read).replace(",", " ")]
+            summary_final.extend(["N/A"] * (self.theme_reader.get_num_themes())*3)
+            summary_final.extend(["false", "Could not summarize report"])
+        else:
+            weightings, full_summary_parsed = summary # unpack tuple response
 
-        report_folder_path = os.path.join(self.output_folder,
-                                            self.report_dir.replace(r'{{report_id}}', report_id))
-        # Output the weightings to a file
+            summary_final = [report_id, str(pages_read).replace(",", " ")]
+            summary_final.extend(weightings)
+            summary_final.extend(["true", "N/A"])
 
-        report_weightings_path = os.path.join(report_folder_path,
-                                           self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
-        summary_str = report_id + "," + str(pages_read).replace(",", " ") + "," + weightings + ",true" + ",N/A" + "\n"
-
-        with open(report_weightings_path, 'w', encoding='utf-8') as summary_file:
-            summary_file.write(summary_str)
-
-        with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
-            summary_file.write(summary_str)
-
-        # Output the full summary to a file
-
-        report_summary_path = os.path.join(report_folder_path,
+            report_summary_path = os.path.join(report_folder_path,
                                            self.report_summary_file_name.replace(r'{{report_id}}', report_id))
         
-        with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
-            yaml.dump(full_summary_parsed, summary_file, default_flow_style=False, width=float('inf'), sort_keys=False)
+            with open(report_summary_path, 'w', encoding='utf-8') as summary_file:
+                yaml.dump(full_summary_parsed, summary_file, default_flow_style=False, width=float('inf'), sort_keys=False)
+            print(f" Saved full summary to {report_summary_path}")
 
-        print(f'Summarized {report_id} and saved full_ summary to {report_summary_path} and the weightings to {report_weightings_path}, report line also added to {self.overall_summary_path}')
+
+        with open(report_weightings_path, 'w', encoding='utf-8') as summary_file:
+            writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
+            writer.writerow(summary_final)
+
+        with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
+            writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
+            writer.writerow(summary_final)
+
+        print(f'Finished summarizing {report_id}, it was a {"success" if summary_final[-2] == "true" else "failure"}. The summary has been saved to {report_weightings_path} and the overall summary has been saved to {self.overall_summary_path}')
     
     def summarize_text(self, text, mode) -> (str, str, str):
         max_attempts = 3
@@ -202,13 +220,20 @@ issues.
             # Get the weightings from the repsonse in the same order as the themes
             # Add in weightings as NA for themes that are not applicable
             weightings = list()
+            explanations = list()
             for response in parsed_responses:
                 response_weighting = list()
+                response_explanation = list()
                 weighting_dict = {theme['name']: theme['percentage'] for theme in response}
+                explantion_dict = {theme['name']: theme['explanation'] for theme in response}
                 for theme in self.theme_reader.get_theme_titles() + ["Other"]:
                     weighting = weighting_dict.get(theme)
                     response_weighting.append(weighting if weighting is not None else pd.NA)
+                    explanation = explantion_dict.get(theme)
+                    response_explanation.append(explanation if explanation is not None else pd.NA)
                 weightings.append(response_weighting)
+                explanations.append(response_explanation)
+
             
             weightings = pd.DataFrame(weightings)
 
@@ -229,7 +254,7 @@ issues.
             scaled_averages = averages.apply(lambda x: round((x * 100) / sum_averages, 3) if pd.notnull(x) else pd.NA)
 
             # Check references
-            referenceCheckor = ReferenceChecking.ReferenceValidator(text, True)
+            referenceCheckor = ReferenceChecking.ReferenceValidator(text)
             invalid_reference = False
             for theme in parsed_responses[0]:
                 result = referenceCheckor.validate_references(theme['explanation'])
@@ -253,15 +278,13 @@ issues.
             if weightings.shape[0] < numberOfResponses-2:
                 print(f"  Did not get enough valid responses. Retrying. \n  Responses were: {responses}")
                 continue
-            
-            # Convert the weightings into a string
-            all_data = list(scaled_averages[:-1]) + weighting_std[:-1] # Removing the other coloumn
-            weighting_str = ",".join([str(weight_int) for weight_int in all_data])
 
-            print("  The weightings are: " + str(weighting_str))
+            zipped_data = [str(item) for sublist in zip(scaled_averages[:-1], explanations[0][:-1], weighting_std[:-1]) for item in sublist]
+
+            print("  The weightings are: " + str(scaled_averages))
             break
 
-        return weighting_str, parsed_responses[0] # Currently assuming that there is only going to be one response.
+        return zipped_data, parsed_responses[0] # Currently assuming that there is only going to be one response.
     
     def parse_weighting_response(self, response):
         if response[:3] == '```':
