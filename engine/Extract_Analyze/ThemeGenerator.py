@@ -7,13 +7,14 @@ from .ReportExtracting import ReportExtractor
 from . import Themes, ReferenceChecking
 
 class ThemeGenerator:
-    def __init__(self, output_folder, report_dir_template, report_theme_template):
+    def __init__(self, output_folder, report_dir_template, report_theme_template, modes):
         self.output_folder = output_folder
         self.open_ai_caller = openAICaller
         self.report_dir_template = report_dir_template
         self.report_theme_template = report_theme_template
         self.all_themes = ""
         self.output_folder_reader = OutputFolderReader.OutputFolderReader()
+        self.modes = modes
 
     def _get_theme_file_path(self, report_id):
         return os.path.join(self.output_folder,
@@ -27,43 +28,73 @@ class ThemeGenerator:
         print(f"  Report theme template: {self.report_theme_template}")
 
 
-        self.output_folder_reader.process_reports(self._get_theme)
+        self.output_folder_reader.process_reports(self._get_theme, self.modes)
 
         print(" Themes generated for each report")
 
         print(" Creating global themes")
-        self.output_folder_reader.read_all_themes(self._read_themes)
+        self.output_folder_reader.read_all_themes(self._read_themes, self.modes)
         print("  All themes read")
+
+        with open(os.path.join(self.output_folder, "all_themes.txt"), "w") as f:
+            f.write(self.all_themes)
             
         print("  Summarizing themes...")
         summarized_themes = self.open_ai_caller.query(
-            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI will give you 3-6 themes/causes summaries for each report. \n\nPlease read all of the summaries and provide 5-10 themes/causes that best cover all of the individual themes present.\n\nYour output should have a title and description paragraph (<= 50 words) for each general theme/cause discovered.\n\nNote that I want the output of this process to be consistent and repeatable. This means that I want your response to be as deterministic as possible."
+            """
+You are going to help me summarize the given source text.
+
+The source text will be provided inbetween triple quotes. Below that will be the questions and some notes.
+"""
             ,
-            self.all_themes,
+            f"""
+'''
+{self.all_themes}
+'''
+            
+Question:
+These are some safety issues and themes for each report.
+
+I would like to know the global safety themes.
+For each safety theme you need to provide a clear explanation of what this safety theme really means.
+Each safety theme will need to be given with transport modes it is applicable. These modes are a for aviation, r for rail and m for marine. Safety themes can go across multiple modes of transport are prefered.
+
+There should be no more than 15 safety themes.
+
+Your output needs to be in yaml format. Just output the yaml structure with no extra text (This means no ```yaml and ```) . It will look something like this:
+  - title: |-
+      title of the theme goes here
+    description: |
+      Multi line description of the theme goes here.
+    modes:
+      - modes that should be included. One per row
+
+
+=Here are some definitions=
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.         
+""",
             large_model=True,
-            temp = 0,
-            n=4
+            temp = 0
         )
-
-        summarized_themes_str = ""
-        for i, theme in enumerate(summarized_themes, start = 1):
-                summarized_themes_str += (f"Summary {i} of all the themes\n{theme}\n\n")
-
-        print("  Getting average summary...")
-
-        average_summary = self.open_ai_caller.query(
-            "I am trying to find the themes present across a collection of about 50 marine accident investigation reports.\n\nI have three summaries of all of the themes.\n\nI wanted you to take the average of all of the summaries.\n\nYour output should have a title and description of each theme/cause.\n\nNote that I want this to be reproducible and deterministic as possible.",
-            summarized_themes_str,
-            large_model=True,
-            temp = 0,
-        )
-
-        formatted_themes = self.open_ai_caller.query(
-            "I will give you descriptions of themes and I want to you format them into yaml.\n\nJust output the yaml structure with no extra text.\n\nThe yaml layout should follow the structure seen below where the title and description is replaced. With as many theme elements as needed.\n\nthemes:\n   - title:  theme name one\n    description: \"Description of the first theme\"\n\n  - title:  theme name two\n    description: \"Description of the second theme\"\n\n  - title:  theme name three\n    description: \"Description of the third theme\"\n\n  - title:  theme name four\n    description: \"Description of the fourth theme\"\n\n  - title:  theme name five\n    description: \"Description of the fifth theme\"\n\n  - title:  theme name six\n    description: \"Description of the sixth theme\"\n ",
-            average_summary,
-            temp = 0)
         
-        Themes.ThemeWriter().write_themes(formatted_themes)
+        Themes.ThemeWriter().write_themes(summarized_themes)
 
         print(" Themes summaried and written to file")        
 

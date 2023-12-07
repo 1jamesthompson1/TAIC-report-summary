@@ -4,14 +4,14 @@ from .Gather_Wrangle import PDFDownloader, PDFParser
 
 from .Verify import ThemeComparer, WeightingComparer
 
-from . import Config
+from . import Config, Modes
 
 
 import os
 import argparse
 import shutil
 
-def download_extract(output_dir, download_config, output_config):
+def download_extract(output_dir, download_config, output_config,modes):
     reports_config = output_config.get('reports')
 
     # Download the PDFs
@@ -21,7 +21,7 @@ def download_extract(output_dir, download_config, output_config):
                                 download_config.get('start_year'),
                                 download_config.get('end_year'),
                                 download_config.get('max_per_year'),
-                                download_config.get('modes')).download_all()
+                                modes).download_all()
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(output_dir,
@@ -29,13 +29,16 @@ def download_extract(output_dir, download_config, output_config):
                                 reports_config.get('text_file_name'),
                                 reports_config.get('folder_name'))
 
-def generate_themes(output_dir, reports_config):
+def generate_themes(output_dir, reports_config, modes):
     ThemeGenerator.ThemeGenerator(output_dir,
                                   reports_config.get("folder_name"),
-                                  reports_config.get("themes_file_name")).generate_themes()
+                                  reports_config.get("themes_file_name"),
+                                  modes).generate_themes()
 
-def summarize(output_config):
-    Summarizer.ReportSummarizer(output_config).summarize_reports()
+def summarize(output_config, use_predefined, modes):
+    Summarizer.ReportSummarizer(output_config,
+                                use_predefined,
+                                modes).summarize_reports()
 
 def printout_cost_summary(run_type):
     summary_strs = APICostEstimator.APICostEstimator().get_cost_summary_strings()
@@ -59,8 +62,12 @@ def cli():
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
     parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
     parser.add_argument("-t", "--run_type", choices=["download", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validtion check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
+    parser.add_argument("-p", "--predefined", help="Use predefined themes that will be used for the summarize weightings. The predefined themes must follow a psecifc format, be in the outputfolder and be called predefined_themes.yaml (or whatever the config.yaml file is set it as). It will also skip the themes step if you run all.", action="store_true", default=False)
+    parser.add_argument("-m", "--modes", choices=["a", "r", "m"], nargs="+", help="The modes of the reports to be processed. a for aviation, r for rail, m for marine. Defaults to all.", default=["a", "r", "m"])
 
     args = parser.parse_args()
+
+    modes = [Modes.Mode[arg] for arg in args.modes]
 
         # Get the config settings for the engine.
     engine_settings = Config.configReader.get_config()['engine']
@@ -82,15 +89,29 @@ def cli():
         
     match args.run_type:
         case "download":
-            download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
+            download_extract(output_path,
+                             engine_settings.get('download'), engine_settings.get('output'),
+                             modes)
         case "themes":
-            generate_themes(output_path, engine_settings.get('output').get('reports'))
+            generate_themes(output_path,
+                            engine_settings.get('output').get('reports'),
+                            modes)
         case "summarize":
-            summarize(engine_settings.get('output'))
+            summarize(engine_settings.get('output'),
+                      args.predefined,
+                      modes)
         case "all":
-            download_extract(output_path, engine_settings.get('download'), engine_settings.get('output'))
-            generate_themes(output_path, engine_settings.get('output').get('reports'))
-            summarize(engine_settings.get('output'))
+            download_extract(output_path,
+                             engine_settings.get('download'),
+                             engine_settings.get('output'),
+                             modes)
+            if not args.predefined:
+                generate_themes(output_path,
+                                engine_settings.get('output').get('reports'),
+                                modes)
+            summarize(engine_settings.get('output'),
+                      args.predefined , 
+                      modes)
         case "validate":
             validate()
 

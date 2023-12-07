@@ -51,8 +51,12 @@ class Reference():
             # Expand the range
 
             start_section, end_section = reference
-            start_section = list(map(int, start_section.split('.')))
-            end_section = list(map(int, end_section.split('.')))
+            try:
+                start_section = list(map(int, start_section.split('.')))
+                end_section = list(map(int, end_section.split('.')))
+            except:
+                self.set_invalid()
+                return None
 
             if len(start_section) == 1:
                 start_section += [0, 0]
@@ -153,14 +157,20 @@ class ReferenceValidator():
         """
         text = text.replace("\n", "").replace("’","'")
 
-        references = self._extract_references(text)
+        try: 
+            references = self._extract_references(text)
+        except Exception as e:
+            return "Invalid format"
+        
         if references is None:
             self._print(f"   No references found")
             return None
         updated_references_counter = 0
         for reference in references:
-            processed_reference = self._validate_reference(reference, True)
-
+            if not reference.invalid:
+                processed_reference = self._validate_reference(reference, True)
+            else:
+                processed_reference = reference
             quote_regex =  fr'''"{processed_reference.text}" {{0,2}}\({processed_reference.reference_str}\)'''
 
             citation_regex = fr'''{processed_reference} {{0,2}}\({processed_reference.reference_str}\)'''
@@ -185,14 +195,26 @@ class ReferenceValidator():
         Extracts all the references from the given text and returns a list of them.
         """
 
+        # Firstly make sure that it is using a valid convention for the references
+        # It has been noted that it could repsond will all citation formatted like ("3.54").
+
+        invalid_reference_regex = r'\("\d.\d{1,2}(.\d{1,2})?"\)'
+        if re.search(invalid_reference_regex, text):
+            self._print(f"""  Reference formatted with ("3.45") style which is not allowed.""")
+            raise Exception("Invalid reference format")
+
         references = []
         for match in re.finditer(self.reference_regex, text.lower()):
-        
+            new_referenece = None
             if match.group(1) is not None:
                 quote = match.group(2).lower()
-                references.append(Reference(quote, match.group(3), ReferenceType.quote))
+                new_referenece = Reference(quote, match.group(3), ReferenceType.quote)
             elif match.group(4) is not None:
-                references.append(Reference(match.group(5), match.group(6), ReferenceType.citation))
+                new_referenece = Reference(match.group(5), match.group(6), ReferenceType.citation)
+            else:
+                raise Exception(f"Invalid reference format see {match.group(0)}")
+
+            references.append(new_referenece) 
 
         if len(references) == 0:
             self._print(f"  Cant find any references in {text}")
@@ -262,8 +284,7 @@ Here is the source text:
             citation.set_validated()
             return citation
         elif valid.lower() != "no":
-            self._print(f"""  Invalid response from model: \n"\n{valid}\n going to retry""")
-            return self._validate_citation(citation, source_section, True)
+            self._print(f"""  Invalid response from model: \n"\n{valid}\n""")
         if attempt_repair:
             self._print(f"   Invalid citation couldn't be justified to have come from\n   {source_section}")
         else:

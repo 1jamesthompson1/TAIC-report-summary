@@ -2,25 +2,23 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from enum import Enum
+from .. import Modes
 
-class Mode(Enum):
-    a = 0 # Aviation
-    r = 1 # Rail
-    m = 2 # Marine
+
 
 class ReportDownloader:
     """
     Class that will take the output templates and download all the reports from the TAIC website
     These reports can be found manually by going to https://www.taic.org.nz/inquiries
     """
-    def __init__(self, output_dir, report_dir_template, file_name_template, start_year, end_year, max_per_year, modes: list[str]):
+    def __init__(self, output_dir, report_dir_template, file_name_template, start_year, end_year, max_per_year, modes: list[Modes.Mode]):
         self.output_dir = output_dir
         self.report_dir_template = report_dir_template
         self.file_name_template = file_name_template
         self.start_year = start_year
         self.end_year = end_year
         self.max_per_year = max_per_year
-        self.modes = [Mode[mode] for mode in modes]
+        self.modes = modes
 
     def download_all(self):
         print("Downloading reports from TAIC website with config: ")

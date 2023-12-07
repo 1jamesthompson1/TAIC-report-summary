@@ -3,9 +3,9 @@ engine:
     end_year: 2023
     max_per_year: 15
     start_year: 2010
-    modes: ["a", "r", "m"]
   output:
     folder_name: "output"
+    predefined_themes_file_name: "predefined_themes.yaml"
     themes_file_name: "themes.yaml"
     summary_file_name: "summary.csv"
     reports:
