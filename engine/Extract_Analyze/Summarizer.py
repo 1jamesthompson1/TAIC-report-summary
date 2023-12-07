@@ -145,7 +145,7 @@ issues.
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             summary_final = [report_id, str(pages_read).replace(",", " ")]
-            summary_final.extend(["N/A"] * (self.theme_reader.get_num_themes())*3)
+            summary_final.extend([pd.NA] * (self.theme_reader.get_num_themes())*3)
             summary_final.extend(["false", "Could not summarize report"])
         else:
             weightings, full_summary_parsed = summary # unpack tuple response
@@ -163,11 +163,11 @@ issues.
 
 
         with open(report_weightings_path, 'w', encoding='utf-8') as summary_file:
-            writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
+            writer = csv.writer(summary_file, quoting=csv.QUOTE_ALL)
             writer.writerow(summary_final)
 
         with open(self.overall_summary_path, 'a', encoding='utf-8') as summary_file:
-            writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
+            writer = csv.writer(summary_file, quoting=csv.QUOTE_ALL)
             writer.writerow(summary_final)
 
         print(f'Finished summarizing {report_id}, it was a {"success" if summary_final[-2] == "true" else "failure"}. The summary has been saved to {report_weightings_path} and the overall summary has been saved to {self.overall_summary_path}')
@@ -274,6 +274,7 @@ issues.
 
             # Calculate the standard deviation of the weightings
             weighting_std = list(weightings.std(axis=0))
+            weighting_std = [round(std, 3) if pd.notnull(std) else pd.NA for std in weighting_std]
 
             if weightings.shape[0] < numberOfResponses-2:
                 print(f"  Did not get enough valid responses. Retrying. \n  Responses were: {responses}")
@@ -281,7 +282,7 @@ issues.
 
             zipped_data = [str(item) for sublist in zip(scaled_averages[:-1], explanations[0][:-1], weighting_std[:-1]) for item in sublist]
 
-            print("  The weightings are: " + str(scaled_averages))
+            print("  The weightings are: " + str(list(scaled_averages)))
             break
 
         return zipped_data, parsed_responses[0] # Currently assuming that there is only going to be one response.
