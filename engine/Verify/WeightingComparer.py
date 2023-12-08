@@ -116,7 +116,7 @@ Question:
 
 Above are two explanations of how much {theme['title']} is related and contributory to a specifc accident.
 
-I want to know how similiar the reasoning is.
+I want to know how similar these explanations are. Similarity should be judged on; what references are used, what their given weighting is of the safety theme, reasoning of weighting.
 
 {theme['title']} is defined as such:
 {theme['description']}
