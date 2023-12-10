@@ -96,7 +96,7 @@ class ReportExtractor:
         return pages_to_read
 
     def extract_section(self, section_str: str):
-        base_regex_template = lambda section: fr"(( {section}) {{1,3}}(?![\s\S]*^{section}))|((^{section}) {{1,3}})(?![\w\s()]{{1,100}}\.{{2,}})"
+        base_regex_template = lambda section: fr"(( {section}) {{1,3}}(?![\s\S]*^{section}))|((^{section}) {{1,3}})(?![\S\s()]{{1,100}}\.{{2,}})"
 
         split_section = section_str.split(".")
         section = split_section[0]
@@ -131,7 +131,7 @@ class ReportExtractor:
 
         if endMatch.end() < startMatch.end():
             print(f"Error: endMatch is before startMatch")
-            print(f"  startMatch: {startMatch[0]} \n  endMatch: {endMatch.match[0]}")
+            print(f"  startMatch: {startMatch[0]} \n  endMatch: {endMatch[0]}")
             print(f"  Regexs: {startRegex} \n  {endRegex}")
             return None
 

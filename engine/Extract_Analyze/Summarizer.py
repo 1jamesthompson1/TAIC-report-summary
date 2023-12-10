@@ -13,13 +13,13 @@ from . import ReferenceChecking
 from .. import Modes
 
 class ReportSummarizer:
-    def __init__(self, output_config, use_predefined_themes = False, modes = Modes.all_modes):
+    def __init__(self, output_config, use_predefined_themes = False, modes = Modes.all_modes, discard_old= True):
         self.output_folder = output_config.get("folder_name")
         self.theme_reader = ThemeReader(None, use_predefined_themes, modes)
         self.report_reader = OutputFolderReader()
         self.open_ai_caller = openAICaller
         self.modes = modes
-
+        self.discard_old = discard_old
 
         self.overall_summary_path = os.path.join(self.output_folder, output_config.get("summary_file_name"))
 
@@ -124,6 +124,17 @@ issues.
 
     def summarize_report(self, report_id, report_text):
         print(f'Summarizing {report_id}')
+
+        ## Check if it has already been summarized
+        if not self.discard_old:
+            report_folder_path = os.path.join(self.output_folder,
+                                                self.report_dir.replace(r'{{report_id}}', report_id))
+        
+            report_weightings_path = os.path.join(report_folder_path,
+                                            self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
+            if os.path.exists(report_weightings_path):
+                print(f"  Skipping {report_id} as it has already been summarized")
+                return
 
 
         # Get the pages that should be read
