@@ -7,7 +7,7 @@ from .ReportExtracting import ReportExtractor
 from . import Themes, ReferenceChecking
 
 class ThemeGenerator:
-    def __init__(self, output_folder, report_dir_template, report_theme_template, modes):
+    def __init__(self, output_folder, report_dir_template, report_theme_template, modes, discard_old):
         self.output_folder = output_folder
         self.open_ai_caller = openAICaller
         self.report_dir_template = report_dir_template
@@ -15,6 +15,7 @@ class ThemeGenerator:
         self.all_themes = ""
         self.output_folder_reader = OutputFolderReader.OutputFolderReader()
         self.modes = modes
+        self.discard_old = discard_old
 
     def _get_theme_file_path(self, report_id):
         return os.path.join(self.output_folder,
@@ -103,6 +104,11 @@ issues.
 
         print(f" Generating themes for report {report_id}")
 
+        # Check to see if it alreaady exists
+        if os.path.exists(self._get_theme_file_path(report_id)) and not self.discard_old:
+            print(f"  Themes for {report_id} already exists")
+            return
+
         important_text = ReportExtractor(report_text, report_id).extract_important_text()[0]
 
         if important_text is None:
@@ -190,6 +196,10 @@ issues.
             result = referenceChecker.validate_references(theme['explanation'])
 
             if result is None:
+                print("  No references found in theme")
+                continue
+            elif isinstance(result, str):
+                print(f"  Invalid format")
                 return self._get_theme(report_id, report_text)
 
             processed_text, num_references, num_updated_references = result

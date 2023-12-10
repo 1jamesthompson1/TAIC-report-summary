@@ -29,16 +29,16 @@ def download_extract(output_dir, download_config, output_config,modes):
                                 reports_config.get('text_file_name'),
                                 reports_config.get('folder_name'))
 
-def generate_themes(output_dir, reports_config, modes):
+def generate_themes(output_dir, reports_config, modes, refresh):
     ThemeGenerator.ThemeGenerator(output_dir,
                                   reports_config.get("folder_name"),
                                   reports_config.get("themes_file_name"),
-                                  modes).generate_themes()
+                                  modes, refresh).generate_themes()
 
-def summarize(output_config, use_predefined, modes):
+def summarize(output_config, use_predefined, modes, refresh):
     Summarizer.ReportSummarizer(output_config,
                                 use_predefined,
-                                modes).summarize_reports()
+                                modes, refresh).summarize_reports()
 
 def printout_cost_summary(run_type):
     summary_strs = APICostEstimator.APICostEstimator().get_cost_summary_strings()
@@ -95,11 +95,11 @@ def cli():
         case "themes":
             generate_themes(output_path,
                             engine_settings.get('output').get('reports'),
-                            modes)
+                            modes, args.refresh)
         case "summarize":
             summarize(engine_settings.get('output'),
                       args.predefined,
-                      modes)
+                      modes, args.refresh)
         case "all":
             download_extract(output_path,
                              engine_settings.get('download'),
