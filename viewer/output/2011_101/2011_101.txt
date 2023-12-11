@@ -1,0 +1,1346 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Report 11-101: Wrong line running irregularity,  
+leading to a potential head -on collision, Papakura - Wiri, 14 January 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports shoul d be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any r ecommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Inves tigation Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Final  Report  
+Rail inquiry 11-101 
+Wrong line running irregularity ,  
+leading to a potential head -on collision ,  
+Papakura -Wiri,  
+ 14 January 2011  
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication: 29 March 2012  
+  
+
+Transport Accident Investigation Commission  
+About the Transport Accident Investigation Commission  
+The Transport  Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  
+co-ordinating and co -operating with other accident investigation organisa tions overseas .  The principal 
+purpose of its inquiries is to determine the circumstances and causes of occurrence s with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informing members of the transport sector, both 
+domestically and internationally, of the lessons that can be learnt from  transport accidents and 
+incidents.  
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull , QC 
+Commissioner     Captain Bryan Wyness  
+Assessor     Alan McMaster  
+ 
+ 
+Key Commission p ersonnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator -in-charge    Vernon Hoey  
+General Counsel    Rama Rewi  
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz  
+Telephone  + 64 4 473 3112 (24 h ours) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, AXA Centre, 80 The  Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to i ndustry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission’s inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictu res 
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commission.  
+ 
+ 
+ 
+Location of incident  
+  
+Source: Paper Plus New Zealand touring atlas  
+Wiri 
+Contents  
+Glossary   ................................ ................................ ................................ ................................ ......................  ii 
+Data summary  ................................ ................................ ................................ ................................ ...................  ii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+Historical background  ................................ ................................ ................................ ..................  3 
+The incident  ................................ ................................ ................................ ................................ .. 5 
+Events during the preceding 2 days  ................................ ................................ ...........................  9 
+3.2. Personnel  ................................ ................................ ................................ ................................ .. 10 
+The signaller  ................................ ................................ ................................ ..............................  10 
+The signallers’ manager  ................................ ................................ ................................ ...........  11 
+Infrastructure/Operating personnel  ................................ ................................ ........................  11 
+3.3. Audit  ................................ ................................ ................................ ................................ ...........  12 
+The NZ Transport  Agency ................................ ................................ ................................ ..........  12 
+KiwiRail  ................................ ................................ ................................ ................................ ...... 12 
+Veolia  ................................ ................................ ................................ ................................ .........  13 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  14 
+The signal box collar “blocking” procedure  ................................ ................................ ..........................  14 
+Findings  ................................ ................................ ................................ ................................ ..................  15 
+Other influences  ................................ ................................ ................................ ................................ ..... 15 
+Findings  ................................ ................................ ................................ ................................ ..................  17 
+Communication/Crew resource management  ................................ ................................ .....................  17 
+Finding   ................................ ................................ ................................ ................................ ...................  18 
+Management of signal boxes  ................................ ................................ ................................ ................  18 
+Findings  ................................ ................................ ................................ ................................ ..................  19 
+5. Findings  ................................ ................................ ................................ ................................ ..................  20 
+6. Key lessons  ................................ ................................ ................................ ................................ .............  21 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  22 
+General   ................................ ................................ ................................ ................................ ...................  22 
+Type 1 safety actions addressing safety issues identified during an inquiry  ................................ ..... 22 
+8. Recommendations  ................................ ................................ ................................ ................................ . 23 
+General   ................................ ................................ ................................ ................................ ...................  23 
+Recommendation  ................................ ................................ ................................ ................................ ... 23 
+9. Works cited  ................................ ................................ ................................ ................................ .............  24 
+ 
+
+ 
+Report 11 -101 | Page i Figures  
+Figure 1  Inside the Papakura signal box  ................................ ................................ ................................ .. 4 
+Figure 2  Track layout, protection details and train running arrangemen ts between Wiri and 
+Papakura  ................................ ................................ ................................ ................................ ..... 6 
+Figure 3  Signal 3 lever un -collared (left) and collared (right)  ................................ ................................ . 7 
+Figure 4  Looking south from Wiri  ................................ ................................ ................................ .............  9 
+ 
+Page ii | Report 11 -101 Abbreviations  
+Commission  Transport Accident Investigation Commission  
+  
+Veolia  Veolia Transport Auckland Limited  
+  
+  
+  
+  
+Glossary  
+ 
+blocking  a term that describes the process of holding a signal(s) at stop to 
+prevent a train movement entering a section of line on which 
+occupancy/authorisation has already been authorised  
+ 
+collar a hollow tube that fits over a miniature signal lever on a 
+Westinghouse power -operated signal panel  
+ 
+Mis.60  a numbered track and time authority issued by train control to 
+protect train movements where additional safeguards are 
+necessary.  This include s train movements required to travel wrong 
+line in double -line automatic signalling areas  
+ 
+Signal 3 lever  the Signal 3 lever controlle d 5 separate signals at the north end of 
+Papakura.  The signalling system automatically detected which 
+signal to clear by which way the point (s) was set.  Only one of the 5 
+signals could be cleared to proceed at any one time  
+  
+  
+Data summary  
+ 
+Date and time  
+ 14 January 2011 at 08031 
+Location  
+ Papakura , 647.02 k ilometre s, North Island Main Trunk  
+Person involved  
+ Veolia Transport Auckland Limited (Veolia) signal ler 
+Injuries  
+ nil 
+Damage  
+ nil 
+                                                        
+1 Times in this report are New Zealand daylight saving times (universal co -ordinated time plus 13 hours) and 
+are expressed in the 24 -hour mode.  
+ 
+Report 11 -101 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On Friday 14 January 2011 , a train that was supposed to be stopped at Papakura was 
+signalled to enter a section of track that another train had been authorised to enter from the 
+opposite direction.  A potential head -on collision was recognised by the person -in-charge of a 
+nearby worksite and the situation was resolved before the  second train entered the section . 
+1.2. KiwiRail was upgrading the rail track between Papakura and Wiri stations  in Auckland .  The 
+train program me had been reduced to allow this upgrade work to be undertaken , so only a 
+small number of trains were scheduled to pass alongside the worksite.  The worksite was in 
+double -track territory and one of those tracks was open to trains.  
+1.3. The train controller had planned to stop an Auckland -bound freight train at Papakura while  a 
+southbound passenger train crossed over to the northbound line for the journey from Wiri to 
+Papakura, where it was to cross back over to its own southbound line.  The procedure for the 
+southbound train to travel on the wrong line required the issue of a  Mis.60 authority.  
+1.4. Both Wiri and Papakura stations had signal boxes that could be put under the control of 
+signallers .  This  had been done for the duration of the upgrade work.  The signallers worked 
+the signals and points within their stations in accordan ce with the train controllers ’ plan.  
+1.5. Safety for the worksite between Papakura and Wiri was under the control of a person -in-
+charge, and the worksite was protected at each end by compulsory stop boards .  Every train 
+had to stop at these boards and request permission from the person -in-charge to pass.  This 
+was to ensure  that the  track workers and machinery were clear of the track.  
+1.6. The last signal controlling entry to the worksite at Papakura was Signal 3 A.  This  was 
+controlled by the Papakura signaller.  Th e compulsory stop board was placed adjacent to 
+Signal 3A.  A blocking collar was required to be placed over the lever used to change Signal 3A 
+in the signal box whenever the signal ler was instructed  to hold it at stop  (red). 
+1.7. On the day of the incident Signal 3A was supposed to be held at red for 2 reasons  – one, to 
+protect the worksite and 2, because a Mis.60 had been issued to a train coming from the 
+opposite direction .  The blocking system was not designed to cater for more than one reason.  
+1.8. Neither the driver of the northbound train nor the person -in-charge was told that the 
+northbound train was to be held at Signal 3 A for the southbound train.  The person -in-charge 
+gave the driver  of the northbound train  permission to pass the compulsory sto p board and 
+asked the signal ler to change Signal 3 A to proceed ( green ).  The signal ler forgot about the 
+other train coming down the line on a Mis.60 and removed the blocking collar and changed 
+the signal to green.  
+1.9. The Transport Accident Investigation Commi ssion (Commission)  has made findings  about poor 
+communication leading to the incident, about the design of the blocking system , and about 
+the management and resourcing of signal boxes on the Auckland metro network.  
+1.10.  A number of safety actions  were taken by KiwiRail and the train operator , Veolia , to address 
+what would otherwise have been recommendations  about the design of the blocking system , 
+the management of and monitoring of signaller performance and standards, and 
+communicati ons with all parties involved in executing an agreed plan.  
+1.11.  The key lessons  for the industry arising from  this incident are:  
+ good communication of a plan is critical to its successful outcome . 
+ standards for measuring the performance and compliance of a workfor ce will only be 
+effective if they are followed . 
+ audits will not be effective if the breaches they disclose are not acknowledged and 
+remedied.  
+  
+ 
+
+<< Page 2 >>
+ Report 11 -101 2. Conduct of the inquiry  
+2.1. The NZ Transport Agency notified the Commission on the day of the incident under section 
+13(4) of the Railways Act 2005.  The Commission opened an inquiry under section 13(1) of 
+the Transport Accident Investigation Commission Act 1990 to determine the circumstances 
+and causes of the incident  and appointed an investigator -in-charg e. 
+2.2. The investigator -in-charge travelled to Auckland to conduct an on -site investigation on Monday 
+17 January 2011 . 
+2.3. The Veolia signaller and management staff  were interviewed .  The investigator held interviews 
+with KiwiRail staff , including the signaller at Wiri, the person -in-charge protecting the closed 
+line between Wiri and Papakura , and the  drivers of Trains 210 and 201.  The investigator 
+visited the signal box facilities at Wiri, Papakura and Pukekohe.  
+2.4. The signaller ’s training records , rosters  and hou rs worked  were  obtained together with Veolia  
+fatigue management and roster p rocedures.   The status of the safety observations of all 
+signallers employed by Veolia and KiwiRail at the time of the incident was  also obtained . 
+2.5. The Commission considered a  draft final report at the Commission meeting on 23 November 
+2011 and it was approved that same day for circulation to interested person s for comment.  
+2.6. Written submissions were received from  the NZ Transport Agency, KiwiRail and Veolia.  Veolia 
+accepted an invitation to present its submission in person and this occurred during the 
+Commission meeting on 23 February 2012.  
+2.7. The Commission approved the final report for publication on 29 March 2012 .     
+ 
+ 
+Report 11 -101 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+Historical background  
+3.1.1.  In August 2004 Veolia (formerly Connex) was awarded a contract (titled Passenger Services 
+Agreement) by the Auckland Regional Council to continue the provi sion of rail passenger 
+services on the Auckland metro network.  The contract included the transfer to Veolia of the 
+Toll New Zealand Consolidated Limited (predecessor to KiwiRail) signal box operations at 
+Papakura and Pukekohe together with the certified signalling staff .  These staff members were 
+known as travel services officers and  they continued with the signalling responsibilities under 
+Veolia . 
+3.1.2.  In February 2006 the Auckland Regional Transport Authority approved a variation to the 
+agreement to recognise formally the transfer to Veolia of the signal  box operations at the 2 
+stations .  The contract stated that i t was expected that  “significant  efficiencies” would accrue  
+as a result of this transfer . 
+3.1.3.  Veolia required the signallers at the Papakura  signal box  to undertake the following general 
+duties  in addition to signalling trains : 
+ dispense daily informatio n and special bulletins to local Veolia staff  
+ liaise with the Veolia control room centre at Britomart for rolling stock allocation changes  
+ liaise with KiwiRail for vehicle maintenance  
+ undertake supervisory duties of local  Veolia staff  
+ make public address announcements of train arrivals and departures  
+ monitor overall train timekeeping performance  
+ initiate and answer calls on the local radio.  
+3.1.4.  KiwiRail co -ordinated the movement of all train s running on the controlled network from its 
+national train control ce ntre in Wellington.  KiwiRail was also responsible for train signalling  (in 
+support of train control) at most of the princip al signal boxes  on the network . 
+3.1.5.  Papakura station was located on an island platform  arrangement with main lines on either 
+side of the  platform .  The signal box was located within the station building and was equipped 
+with a Westinghouse power -operated signal panel.  The panel had been  commissioned in 
+November 1939 and was one of the largest of t his type remaining in use  (see Figure 1) . 
+ 
+
+<< Page 4 >>
+ Report 11 -101  
+Figure 1  
+Inside  the Papakura signal box  
+3.1.6.  Between 9 and 16 January 2011, m ajor infrastructure upgrade work was underway on the 
+Down Main line (Down line) between Wiri and Papakura  in preparation for the electrification of 
+the Auckland metro network.  A KiwiRail person -in-charge was responsible for protecting  the 
+worksite . 
+3.1.7.  The work required the suspension of all Veolia passenger services and a reduced KiwiRail 
+operation , with only some Up and Down freight and long -distance passenger trains timetabled 
+to run.  These trains were routed around the work area by using the adjacent Up Main line (Up 
+line).  The process for achieving this was called “wrong line running ”, an autho rised deviation 
+from normal double -line train running arrangements . 
+3.1.8.  The wrong line running and protection arrangements were detailed in a special bulletin that 
+had been issued on 7 January 2011.   Although the Up line was not being upgraded, 
+compulsory stop  boards were erected at Papakura and Wiri because machines and workers  
+involved with the Down line upgrade work  were close to the Up line. 
+3.1.9.  The signal box at Wiri station was not used often , but while th e upgrade work was in progress 
+it had to be operated so that Down trains at Wiri could be signalled from the Down line to the 
+Up line.  KiwiRail provided signaller s at Wiri because Veolia  could not .  The Papakura signal 
+box was usually operated  for 19 hours on weekdays , but during the period of the upgrade 
+work  it was operated for 24 hours each day . 
+3.1.10.  Train controllers issued the signallers at Papakura and Wiri and the drivers of Down train s at 
+Wiri with a Mis.60 wrong line running authority .  The Mis.60 was required because there were 
+no signals provided  for the Down trains  (they all faced the other way  by design ) for the journey 
+from Signal 3 ABC at Wiri to Signal 43 at Papakura , a distance of about 10 kilometres  (refer 
+Figure 2) .  The trains  were then re-routed to the Down line at Papakura by the signaller  there . 
+3.1.11.  KiwiRail’s general operating rules required the Papakura signallers to obtain specific train 
+control authority at all times (verbally given as instruction s) before Up freight train s could 
+depart Papakura  and continue running on the Up line in accor dance with signals.  
+  
+work desk  
+ 
+ signal levers 
+and panel  
+ 
+Report 11 -101 
+<< Page 5 >>
+ 3.1.12.  KiwiRail’s t rack safety rules also contained instruction s regarding the liaison needed (in this 
+case) between the signaller and person -in-charge of the worksite when it came time for an Up 
+train to pass the compulsory stop board that was erected adjacent to  Signal 3 A at Papakura .  
+All Up train s had to stop there and ask for the person -in-charge ’s permission  to pass the 
+board .  The person -in-charge could give verbal permission to do so once the worksite was 
+clear , but the train cou ld still not proceed until the signal ler had changed the signal  aspect  to 
+green.  
+3.1.13.  The signal ler could not change the signal aspect to green without first receiving permission 
+from the train controller .  While this arrangement was in place the signal ler was supposed to 
+place a red collar over  the Signal 3  lever as a reminder not to change the signal aspect 
+without receiving permission to do so.   This meant that for the entire period of the upgrade 
+work , the Signal 3 lever was supposed to have been collar ed except for when a train had been 
+authorised to pass the compulsory stop board.   The signaller only applied the collar when the 
+Mis.60 was issued . 
+3.1.14.  The collar was an elongated cap that was placed over the operating lever.  The collar did not 
+physically pr event the lever being moved , and was available in one colour and one size . 
+The incident  
+3.1.15.  At 06 30 on Friday 14 January 2011, a KiwiRail train controller , based in Wellington,  told the 
+Veolia signaller at the Papakura signal box that freight Train 210 should arrive at about 0745 .  
+The train controller instructed the  signaller to hold the train at Papakura  to allow southbound 
+passenger Train 201  to pass .  The signaller wrote the instruction  on a sheet of notepaper and 
+placed it on a clipboard located on top of a work desk ( refer Figure 1). 
+3.1.16.  The train controller  at the time  intended  to give passenger Train 201 priority to proceed along 
+the wrong line from Wiri to Papakura  ahead of freight T rain 210 (see Figure 2).  
+ 
+
+<< Page 6 >>
+ Report 11 -101 
+ 
+UP line open for Up and Down trains  
+from Wellington 0.00 km  
+ N 
+ to Auckland 681.82 km  
+Papakura 
+station 
+647.02 km  
+Wiri 
+station 
+657.60 km  
+DOWN line closed for track upgrade  
+Train 210  
+ 
+Train 201  
+24 
+ 3 
+ 43 
+ 3 
+            compulsory stop boards  
+              signals  
+ 
+ 
+planned movement for Train 201  
+ 
+unauthorised movement of Train 210   
+Figure 2  
+Track layout, protection details and train running arrangements  
+between Wiri and Papakura (not to scale)  
+ 
+  Report 11 -101 
+<< Page 7 >>
+ 3.1.17.  The train controllers changed shift at 06 30.  The new train controller telephoned the  signaller 
+at 0650 to remind her to hold Train 210 at Papakura.  The signaller radioed the person -in-
+charge  and told her of Train 210 ’s arrival  time  but did not inform her that the t rain was to be 
+held at Papakura  for Train 201 .  During the period of compulsory stop protection, t he person -
+in-charge was required to obtain specific permission from train control before the protected 
+line (the Up line in this instance ) could be obstructed .  This procedure was designed to 
+minimise disruption to train movements.  
+3.1.18.  The train controller issue d the Mis .60 to the signaller at Wiri 58 minutes later at 0748 , 
+authorising the wrong line movement of Tr ain 201 , then to the signaller at Papakura  at 0755 .  
+KiwiRail’s d ouble -line automatic signalling rule 1 (c) required the train controller to ensure that 
+the signaller had collar ed the Signal 3 lever, but this was not done . The signaller at Papakura 
+placed the Mis.60 on a clipboard  at the work desk , but beneath other documents , and pl aced 
+a red collar over  the Signal 3  lever  as required , even though she had not been instructed to do 
+so by the train controller  (see Figure 3) . 
+  
+Figure 3  
+Signal 3  lever un -collared ( left) and collared  (right ) 
+3.1.19.  The collar provided a visual reminder to the signaller to not operate the lever  without  first 
+getting the train controller ’s permission .  Track safety rule 907 in KiwiRail’s rail operating rules 
+for compulsory stop board  protection, and s ection s one and 10 in KiwiRail’s rail operating 
+procedures  for wrong line running arrangements , both  contained instructions for the use of 
+collars.  
+3.1.20.  In this instance  the red collar was supposed to remind the signaller to not change the signal to 
+green without the train controller ’s permission  because of the Mis.60 procedure (emphasis 
+added).   Since this incident , procedures have changed ; they  now require the t rain controller to 
+obtain confirmation that a signal(s) (Signal 3A at Papakura in this instance) is at stop and the 
+signal lever(s) is collared.  This confirmation must be endorsed by the train controller on their  
+copy of the Mis.60 before the authority is  issued to the applicable train driver.  
+3.1.21.  Meanwhile,  Train 2 10 arrived at Papakura and stopped at Signal 3 A at 0754 .  The driver of 
+Train 210 had not been told that his train would be held at Papakura for Train 201.  No-one 
+was required to tell the driver s of the trains that this would be the case .  The procedure has 
+since been changed to include this requirement . 
+
+ 
+
+<< Page 8 >>
+ Report 11 -101 3.1.22.  Four minutes later, the signaller overheard the driver of Train 210 radio the person -in-charge 
+seeking permission to pass the compulsory stop bo ard erected adjacent  to Signal 3 A.  The 
+person -in-charge granted permission subject to Signal 3 A being cleared to proceed by the 
+signaller.  
+3.1.23.  At 0801 , the person -in-charge radioed the signaller at Papakura and said that Train 210 ha d 
+permission to pass the compulsory stop board.  The signaller took this to mean that the 
+machines and workers  were not obstructing the Up line .  She therefore  removed the collar and 
+moved the Signal 3  lever to the “proceed ” position .  At around this time t he signaller was 
+having to deal with the following signalling and peripheral tasks:  
+ routing/signalling a berthing Veolia passenger train from Pukekohe into Papakura station  
+ acting on a request to ensure a connecting bus service waited for the berthing Veol ia 
+passenger train  
+ routing/signalling 2 track maintenance machines through another part of the station  
+ conversing with a fitter regarding the fuelling of the berthing Veolia service.  
+3.1.24.  At 0801, Train 201 stopped at Signal 3 ABC at Wiri  at about  the time the  signaller was 
+removing the collar from the Signal 3A lever at Papakura .  The train controller issued the driver 
+with the Mis.60 for Train 201 to travel to Papakura , which was acknowledged by the driver at 
+0803.  
+3.1.25.  At 0804, Train 2 10 departed Papakura  after t he aspect on Signal 3A change d to green .  At 
+about the same time, t he driver of Train 201 radioed the person -in-charge seeking permission 
+to pass the compulsory stop board at Wiri .  This request w as denied because the person -in-
+charge was aware that Train 210 had left Papakura and was travelling on the Up line towards 
+Train 201.  
+3.1.26.  Meanwhile , the signaller returned to the work desk to record the arrival time of the Veolia 
+service from Pukekohe and s aw the Mis.60.  The signaller saw that Train 210 had already l eft, 
+realised her error and notified the train controller.  
+3.1.27.  The train controller radioed the driver of Train 201, ascertained that he had not left Wiri and 
+cancelled the Mis.60 , requiring him to remain where he was . 
+3.1.28.  At about 0820 , Train 210 arrived and stopped at Signal 24ABC (at red ) on the Up line at Wiri, 
+365 metres from Signal 3 ABC where Train 201 was st anding  (see Figure 4).  
+ 
+  Report 11 -101 
+<< Page 9 >>
+  
+Figure 4  
+Looking south from Wiri  
+Events  during the preceding 2 days  
+3.1.29.  On Wednesday 12 January 2011 , 2 days before the incident, the Veolia signaller  who was 
+based at Pukekohe received a telephone call from her manager requesting that she relieve  at 
+the Papakura signal box.  The signaller re plied that she “would rather not” because she was 
+shifting her family into a new house, she was currently working 12 -hour shifts at Pukekohe 
+and she had heard that “it was full -on” at Papakura with the wrong line running and other 
+arrangements.  
+3.1.30.  The manager  tried making other arrangements but without  success .  About 30 minutes later 
+he telephoned the signaller again .  The signaller repeated that she “would rather not” and also 
+because of her lack of currency working the Papakura signal box and her limited experience 
+working with the wrong line running procedures.  The signaller  was certified to work the 
+Papakura signal box but had last worked there 6 months  earlier . 
+3.1.31.  The signaller had been involve d with the wrong line running process on 3 previous occasions  – 
+during her theory training , during a training visit to KiwiRail ’s Otahuhu signal box , and about 
+one month earlier at Pukekohe.  The signaller reminded her manager that she was in the 
+process of shifting house and together with the long h ours currently being worked, she was 
+not comfortable  relieving at Papakura .  Eventually, however,  she agree d to do this . 
+3.1.32.  After finishing her shift that day at Pukekohe , the signaller travelled to the Papakura signal box  
+to observe  its operation.  She was not able to ask questions of the signaller on duty because 
+of the high level of activity , but she stayed for a while  to familiarise herself with the 
+arrangements.  She also  took a copy of the special bulletin that detailed the wrong line 
+running arrang ements  to read  at home . 
+3.1.33.  The signaller  started duty at Papakura on Thursday 13 January 2011 .  Throughout th e day she 
+successfully dealt with 6 Mis.60s for trains running wrong line from Wiri.   She said that she 
+collar ed the Signal 3 A lever each time she received a Mis.60 .  Signal 3 A was the last manually 
+operated signal on the Up line at Papakura . 
+  
+Signal  24ABC  
+Train 201 
+standing here  
+ 
+
+<< Page 10 >>
+ Report 11 -101 3.2. Personnel  
+The signal ler 
+3.2.1.  The signaller had begun  practical training for the Papakura signal box on 14 December 2009.  
+Her training and certification  records  (certification was achieved on 26 May 2010) we re 
+endorsed with a comment that the signaller “needs practical observation as she has no 
+practical experience ” of wrong line running operations , but that she had orally met 
+requirements on  the subject .  No formal level A safety observations were conducted by Veolia 
+as required by procedures for new rail personnel.  
+3.2.2.  The signaller’s practical training and certification records (certification was achieved on 23 
+July 2010) for  the Pukekohe signal box were identical in that endorsements showed she 
+lacked practical experience with wrong line running .  No formal level A safety observations had 
+been conducted  by Veolia . 
+3.2.3.  During 2009 and 2010 KiwiRail rolled out a project to formally trai n its staff, including the 
+Veolia signallers, on recent changes to the operating rules and procedures  (Project Reset) .  
+Train controllers and signallers were retrained in blocking/collaring/tagging for track work 
+protection and in crew resource management practices.  The signaller did not  need to take 
+part in Project Reset because she had only recently completed her theory training, which 
+included all of the latest procedural training . 
+3.2.4.  The national rail system standard and rail operating procedures required  Veolia to conduct a 
+series of formal safety observations/theory assessments of the signaller at the following 
+frequency:  
+Time in role  1 - 3 months  4 - 9 months  After 9 months  
+Safety observations  monthly  bi-monthly  8-month ly 
+Theory assessments  at end of 3 months  at end of 6 and 9 months  bi-annual ly 
+3.2.5.  The formal safety observation process w as used to assess the competence of rail personnel.   
+The formal safety assessment process was graded into either level A o r level B.  Level A 
+assessments were applied by any suitably qualified manager/supervisor who held certification 
+for the tasks being evaluated.  Level B assessments were applied by a suitably qualified 
+manager/supervisor who had access to safety system documentation and could make 
+informed judgements on  the tasks being observed.  
+3.2.6.  Veolia had a total of 7 signallers /signaller assessors.  At the time of the incident 3 were 
+current, but 4  had not had formal level  A safety assessments for periods ranging from 2 to 5½ 
+years.  
+3.2.7.  In contrast, KiwiRail had 26 signallers  and only one was overdue for a formal level  A safety 
+assessment at the time of the incident.  
+3.2.8.  The following table shows  the rostered hours worked by the signaller for the 6-week period 
+leading up to the incident .  The pink boxes refer to work at the Pukekohe signal box and the 
+green box refer s to work at the Papakura signal box.  
+  
+ 
+  Report 11 -101 
+<< Page 11 >>
+  
+2010  0000  
+to 
+0200 0200  
+to 
+0400  0400  
+to 
+0600  0600  
+to 
+0800  0800  
+to 
+1000  1000  
+to 
+1200  1200  
+to 
+1400  1400  
+to 
+1600  1600  
+to 
+1800  1800  
+to 
+2000  2000  
+to 
+2200  2200  
+to 
+2400  
+Sun 5 Dec             
+Mon 6 Dec              
+Tue 7 Dec              
+Wed 8 Dec              
+Thu 9 Dec              
+Fri 10 Dec              
+Sat 11 Dec              
+Sun 12 Dec              
+Mon 13 Dec              
+Tue 14 Dec              
+Wed 15 Dec              
+Thu 16 Dec              
+Fri 17 Dec              
+Sat 18 Dec              
+Sun 19 Dec              
+Mon 20 Dec              
+Tue 21 Dec              
+Wed 22 Dec              
+Thu 23 Dec              
+Fri 24 Dec              
+Sat 25 Dec              
+Sun 26 Dec              
+Mon 27 Dec              
+Tue 28 Dec              
+Wed 29 Dec              
+Thu 30 Dec              
+Fri 31 Dec              
+2011              
+Sat 1 Jan              
+Sun 2 Jan              
+Mon 3 Jan              
+Tue 4 Jan              
+Wed 5 Jan              
+Thu 6 Jan              
+Fri 7 Jan        1400       
+Sat 8 Jan              
+Sun 9 Jan              
+Mon 10 Jan              
+Tue 11 Jan              
+Wed 12 Jan              
+Thu 13 Jan              
+Fri 14 Jan              
+3.2.9.  The signaller had been rostered to work between 1400 and 2200 at Papakura on Saturday 15 
+January , followed by a return to her normal hours and shift rotations at Pukekohe on Monday 
+17 January 2011.  
+The signallers ’ manage r 
+3.2.10.  The signallers ’ manager  had previous passenger train operations/ train control experience .  He 
+had started with Veolia  in 2007 as a service delivery manager  in the corporate office in central 
+Auckland .  The 6 signallers based at Papakura and Pukekohe  had been placed  under his 
+management because of his experience . 
+3.2.11.  In late 2009 the manager had been  promoted to a more senior role for a n interim term , but 
+retained responsibility for the signal lers and the signal boxes .  He had not seen a Veolia 
+management plan for signal box operation and was aware that the Pukekohe signaller had not 
+been observed since her initial certification for the Papakura  signal box . 
+Infrastructure/ Operating personnel  
+3.2.12.  At the time of the incident, t he KiwiRail  person -in-charge , train controller and signaller at Wiri 
+all held current certification for their roles, as did t he KiwiRail drivers o n Trains 210 and 201.  
+ 
+1245 to 2100  each day  
+0515 to 1300  each day  
+(0400 start on Monday)  
+1245 to 2100  each day  
+0550 to 1400  each day  
+1350 to 2200  each day  
+0550 to 1400 Fri  
+0550 to 1800 Sat, Sun, Mon  
+0550 to 1 430 Thu and Fri 
+ 
+0550 to 1 630 Tue  
+0550 to 1300 Wed  
+ 
+incident occurred 
+at 0803  on Friday 
+14 January 2011  
+ 
+
+<< Page 12 >>
+ Report 11 -101 3.3. Audit  
+The NZ Transport Agency  
+3.3.1.  Between 23 and 27 February 2009, the NZ Transport Agency had performed an ordinary 
+safety assessment [audit] on Veolia.  The assessment raised one “condition ” relating to 
+Veolia’s requirement to undertake internal audits in order to verify  that its activities complied 
+with its own documented intentions to meet mana gement system objectives and standards.  
+The assessment found there was no evidence of a system audit that assessed its safety case 
+and safety system or an interface audit of any key suppliers to its business.  Veolia had 
+advertised for an internal auditor  in response to this matter and at the time the assessment 
+report was produced the position remained unfilled . 
+KiwiRail  
+3.3.2.  On 18 February 2010 KiwiRail had performed operational safety audits at  the Papakura and 
+Pukekohe signal boxes.  The 2 audits reported the following summary of corrective actions 
+required from Veolia:  
+The process of ensuring on -going competency of signallers is not functioning.  This 
+matter needs urgent action to address.  During  debrief it was agreed KiwiRail 
+Network deliver Project Reset for signallers either directly or by train [sic] the trainer 
+to enable Veolia to deliver.  Going forward a system needs to be developed to ensure 
+that safety observations occur every 8 months in  accordance with rail operating 
+procedures.  Other action points are noted in the Audit form in the report.  A closure 
+verification meeting in relation to these items will be held before 1 July 2010.  
+3.3.3.  The closure verification meeting referred to above did n ot take place before this incident 
+happened.  When questioned by the Commission about the KiwiRail audit, Veolia responded:  
+We are confident we took corrective actions to become fully compliant with the 8 -
+month frequency of safety observations required by Signal Box audit.  
+The debrief for the Papakura and Pukekohe signal box audit on 10 February 2010 
+was held between Veolia’s service delivery manager and KiwiRail Network with 
+subsequent follow up documented in e -mails.  
+The service delivery manager undertook  to take corrective action on items in the 
+audit which included the arranging of signallers reset course which was completed 
+by KiwiRail Network train control trainer in July 2010 at Veolia’s offices.  
+We arranged for 4 of the 6 signallers to have Project Reset signalling refresher 
+course and all were certified by KiwiRail upon completion of the training.  The 
+remaining 2 signallers had recently attended a signaller training course (KiwiRail 
+theory course) provided by KiwiRail, as part of their initial certi fication to operate a 
+signal box.  During final sign off after [on-job training] , Veolia certified both signallers 
+with a theory examination and safety observations.  
+Once Project Reset was completed, safety observations were reset to 8 months from 
+the date  of the course.  As from 8 July 2010, all Veolia signallers had up -to-date bi -
+annual theory assessments.  
+Prior to the audit, safety observations and re -certifications were undertaken by 
+Veolia trainers on a 12 -month safety observation cycle and were tracke d and 
+recorded using a paper based system.  
+There was a misunderstanding of the requirement of section 10.3 of the rail 
+operating rules and procedures.  Once we were made aware, via the station audit of 
+this misunderstanding regarding the 8 -monthly cycle of  safety observations, we 
+adjusted our observations timetable appropriately.  
+As an outcome of a system review we have implemented a more robust system for 
+tracking all safety observations and certifications.  They are now arranged with 
+KiwiRail and recorded  in spread -sheets held by KiwiRail and Veolia.  
+ 
+ 
+ 
+  Report 11 -101 
+<< Page 13 >>
+ Veolia  
+3.3.4.  Veolia’s safety case stated that it had a system of internal audit s in order to verify that its 
+activities were undertaken in compliance with the stated documented intentions in order to 
+meet management system objectives and standards.  Veolia added that 11 internal audits 
+had been  conducted in 2010 and that one of the audi ts had been  a comprehensive risk 
+review undertaken in May with assistance f rom an external consultant.  Aspects of this audit 
+continue to be implemented withi n the organisation.  
+3.3.5.  On 24 June 2011 Veolia said that it considered the audit undertaken by KiwiRai l during 
+February 2010 to be an internal audit and that post-incident corrective actions ha d been 
+taken . 
+ 
+
+<< Page 14 >>
+ Report 11 -101 4. Analysis  
+4.1. Wrong l ine running  
+4.1.1.  The need to run a significantly different train operation between Papakura and Wiri provided a 
+number of challenges for the rail system;  however,  these challenges could have been properly 
+managed with robust established procedures.  Wrong -line running with Mis.60 authorities was  
+a recognised procedure that should  not have caused any problems  had there been good 
+communication . 
+4.1.2.  The incident in this case occurred when the Papakura signaller removed a collar that was 
+supposed to remind her to seek authorisation from train control before changing the aspect 
+on Signal 3A to green.  She did not seek that approval and inadvertently created a potential 
+head -on collision between 2 trains.  The collar form ed part  of the train signalling “blocking ” 
+procedure , which  should have provide d the desired defence against the potential  head -on 
+collision.  
+4.1.3.  The potential for a head -on collision was eventually averted by the person -in-charge of the 
+worksite who became aware of  the conflict , followed shortly afterwards by the signaller after 
+she saw the Mis.60  and realised her mistake . 
+4.1.4.  This report discusses 3 key matters:  
+ a design flaw in the “blocking ” procedure , and the external influences that could have 
+contributed to the signaller forgetting the Mis.60  
+ 
+ how poor communication  (including  communicating in “silos ”) can  create confusion  and 
+erode defences  
+ 
+ the commitment of Veolia to manage a signal box control operation that was outside its 
+core function as a train operator.  
+The signal box collar “blocking ” procedure  
+4.1.5.  The blocking process for the Papakura signal box involved putting a red collar over a control 
+lever to remind the signaller that the lever could not be moved un til another mandatory 
+function had been performed.   The collar did not physically prevent the lever  being moved so it 
+was not , in the purest sense of the word, a “lockout ”.  The collar  was available in one colour 
+and one size, therefore it could only be used for one purpose at any given time .  Blocking 
+technology differed in some other signal boxes and in train control , but t he function remained 
+the same.  
+4.1.6.  On the da y in question  the Signal 3 A lever needed to be collared for 2 reasons:  
+ to remind the signaller that permission had to  be obtained from the train controller 
+because a Mis.60 had been issued to allow a train to travel on the same line in the 
+opposite directi on 
+ 
+ to remind the signaller that permission had to  be obtained from the person -in-charge 
+before changing the signal aspect to green and  thereby  allowing a train to travel past the 
+worksite . 
+ 
+4.1.7.  The Signal 3  lever should have been collared permanently while the worksite was  active.  
+During the  upgrade work this should have been  24 hours each day .  Two KiwiRail train 
+controllers on the day of the incident had failed  to ensure that this had been done .  Further,  
+the collar should  only have been removed with the person -in-charge ’s permission .  This 
+defence  was necessary  to protect  the staff and machinery at  the worksite.  The signaller , 
+however , did not apply  the red collar for this reason  but instead applied it t o remind her that a  
+Mis.60 had been  issued.   The train controller should have reminded the signaller to collar the 
+signal lever to protect the Mis.60 operation but did not do that either.  
+ 
+  Report 11 -101 
+<< Page 15 >>
+ 4.1.8.  Using  a single blocking system where dual blocking is required is problematic.   Two different 
+people can authorise its removal for 2 different reasons.  Once the collar is removed for one 
+reason there is no longer a defence in place  for the other reason , thereby increasing the risk 
+of a signaller moving the control lever  without proper authorisation.  This appears to have 
+happened in this case.  The signaller momentarily forgot  about the train coming the other way 
+under a Mis.60  and in response to a request from the person -in-charge to clear Signal  3A, the 
+signaller remov ed the collar and changed it to green , thereby allowing Train 210 to proceed 
+along a line about to be occupied by an opposing train. 
+4.1.9.  If the KiwiRail train controllers and Veolia signallers had been  following all the relevant rules, 
+the train controller would  have asked the signaller to collar the signal leve r that had already 
+been collared.  This should  have led to the realisation that a double blocking system was 
+required before the incident occurred.         
+4.1.10.  Veolia  and KiwiRail have since introduced a double lockout system at Papakura to prevent this 
+type of occurrence  in the future .  The  Commission , therefore, is satisfied that it does not need 
+to issue a  recommendation  to address this safety issue . 
+4.1.11.  The signaller completed the Mis.60 paperwork and plac ed it on a clipboard under other 
+paperwork.  The act of writing the instructions was a good method for helping the signaller to 
+remember them; however, the signaller should also have kept the instructions  displayed in a 
+prominent place.  
+4.1.12.  Train drivers opera ting in track warrant territory receive instructions from train controllers in 
+the form of track warrant s, which  give the m authority to travel between set points.   Accidents 
+and incidents caused by drivers forgetting the limits of their track warrant s prom pted the 
+fitting of illuminated clipboards in locomotive cabs so that the warrant s were  in full view of the 
+driver s at all times .  Signal lers would benefit from the same process to complement the 
+blocking procedure provided by the dual collar system.   Veolia has altered the work desk 
+arrangement at Papakura and provided a dedicated clipboard for Mis.60  form s to be 
+displayed . 
+Findings  
+The potential for a head -on collision was created when the signaller momentarily forgot 
+about a train authorised to tra vel on the wrong line under a Mis.60 procedure , and cleared 
+a signal that allowed an opposing train on  to the same section of track.  
+The lever in the signal box that was used to change the aspect  of Signal 3 A at Papakura 
+should have had a double “blocking ” ability  to remind the signal ler that 2 authorisations 
+from 2 different people were required before she should change the signal  aspect , but the 
+system had not been designed to enable that. 
+Other influences  
+4.1.13.  Forgetfulness is a normal human trait , but there are many different influences that can cause 
+someone to forget a task .  Some of these influences relate to  individual s and others relate to  
+the robustness of the systems designed to make people remember.  The collar blocking 
+system described abo ve is one such system.  
+4.1.14.  The Commission considered some factors that could have influenced the signaller’s 
+performance on the day , including  her work roster and fatigue from extended working hours.  
+4.1.15.  Her work records show ed that she had been  working longer hours than normal  in the week 
+leading up to the incident  and had completed extra shifts at Pukekohe because some freight 
+train traffic was being transferred to road transport there.  She said that she had  had ample 
+off-duty time to rest and sleep, and that she had felt well  rested before each shift.  
+Nevertheless, she had worked 12 of the previous 13 days before the incident, including 
+transitioning from 5 late shifts to the start of early shifts with only one day off between.  
+ 
+
+<< Page 16 >>
+ Report 11 -101 4.1.16.  Best practice in roster design  optimises human performance by moving shift workers forward 
+in the shift rotation instead of back; in other words, mov ing them  from late to night shifts and 
+then to early shift s, rather than finishing late only to start again early in the morning  (Driscoll, 
+Grunstein, & Rogers, 2007) .  This is not possible to achieve when alternating between late 
+and early shifts only, with no intervening night shift.  
+4.1.17.  In Veolia’s case, signallers were normally given 2 days off before changing  shifts, but in this 
+case the signaller had only had one day off.  For this reason she may have been operating at 
+reduced performance at the start of her early shifts 8 days before the incident, but was 
+unlikely to have been suffering from fatigue at the time  of the incident due to her roster alone.  
+Reasons for this are that she was only about 2 hours into her shift , at a time when the human 
+body is naturally awake (0800)  (Driscoll, Grunstein, & Rogers, 2007) , and in the previous 2 
+days had been working normal -length shifts of 8 hours on average.  
+4.1.18.  The signaller’s shift pattern in the 8 days before the incident would have had the potential to 
+result in her becoming  fatigued if it had been  followed week in and week out, but the 
+signaller’s roster had been normal for the preceding 5 weeks and was to return to normal one 
+day after the incident.  The circumstances show that the signallers were not routinely 
+subjected to such a roster , but in th is case the need arose due to  unexpected staff sickness at 
+a time when more hours were required from Veolia signallers because  of the infrastructure 
+upgrade work.  
+4.1.19.  Although the signaller would have preferred to be at home dealing with personal matters 
+rathe r than relieving at Papakura , she said this had not been a major concern for her when 
+she was asked to relieve  at Papakura.   Instead, s he had been  more concerned about her 
+currency with the Papakura signal box.  
+4.1.20.  The signaller was nervous about managing the complexity of the work at the Papakura signal 
+box as she felt un familiar with it after not having worked there for 6 months.  The signaller 
+compensated for this by visiting the signal box the day before to observe operation s and she  
+took a copy of the work  bulletin home that night to study.  Despite her nervousness and lack of 
+familiarity with the Papakura signal box, her first day there went without incident, and she 
+successfully managed 6 cases of wrong  line running under Mis.60 s. 
+4.1.21.  The start of her  second day had been  more challenging , as she had  to deal with  several tasks 
+concurrently when Trains 210 and 201 were about to cross.   It is highly likely that t hese 
+additional tasks  that had been given to signal lers at Papakura contributed  to this incide nt.  A  
+more  experienced signal ler who was used to  the Mis.60 procedure and more familiar with the 
+signal box operation may have been able to deal simultaneously with these distractions and 
+the crossing of Trains 201 and 210 .  However, in this case,  the sig naller had only been 
+certified for 8 months and was not overly familiar with the Papakura signal box  operation . 
+4.1.22.  The amount of activity and the complexity of the operations at the Papakura signal box during 
+the upgrade work should have warranted more  resour ces being provided to the signal box 
+function by splitting the signalling duties from the other duties or , at least , should have 
+required that  only experienced signallers be rostered to work at  the signal box during those 
+times.  By comparison, s ignal lers at other similar -sized signal boxes were not required to 
+undertake these extra duties , which allowed  them to focus solely on the task of signalling 
+trains.  
+4.1.23.  Veolia submitted that the age of the signal box and the lack of currently available technology 
+for signalling trains was one cause of the incident.  The Commission does not agree.  The 
+development of new technology does not automatically render the old technology obsolete or 
+not fit for purpose.  The Papakura signal box was performing essentially the sa me function  
+that it had been  when designed about 70 years earlier .  It was not the equipment that failed, 
+but the way it was being operated.  This report has already discussed some improvements in 
+the ergonomics of the room that housed the equipment, but t he Commission has not been 
+able to find fault in the equipment itself.  If Veolia had had those concerns, it had the 
+opportunity and responsibility to raise those issues with the owner of the equipment.  
+ 
+  Report 11 -101 
+<< Page 17 >>
+ Findings  
+The signal ler was likely  to have been distra cted by other tasks that had been assigned to 
+her, which is likely to have contributed to her momentarily losing sight of the train 
+controller’s plan to cross trains at Papakura . 
+The signaller was certified and therefore qualified to operate the Papakura s ignal box, but 
+she had had only 8 months ’ total experience as a signal box controller and had not worked 
+there in the previous 6 months, which may not have been enough total and recent 
+experience to deal with the complexity of operations at the time of the  incident.  
+The signaller  had worked longer -than -normal  hours in the 8 days prior to the incident , but 
+this was not likely to have contributed to her momentarily losing sight of the train 
+controller’s plan for crossing trains 201 and 210.  
+Communication /Crew resource management  
+4.1.24.  The Commission has discussed in previous reports the importance of good communication 
+and how this can help to reduce accidents and incidents within the rail industry, particularly 
+the importance of good communication across the different sectors of the workforce  
+performing connected roles in different organisations .  Communication skills and practices 
+form a significant component of what has become known as crew resource management  in 
+other transport modes . 
+4.1.25.  In a paper presented a t the American Transportation Research Board annual meeting in 2004 
+about the extent to which  crew resource management  had been introduced across the North 
+American rail industry, the authors (Morgan, Kyte, Olsen, & Roop, 2004)  identified that most 
+applications of crew resource management up to 2004 had still strictly follow ed the crews 
+within a train.  They also identified several other groups and individuals who communicated 
+with the crews  outside the train , examples being tra in controllers, signallers and infrastructure 
+staff members.  The researchers described the potential benefit s of introducing crew resource 
+management as: 
+By creating a safe working environment, encouraging teamwork, improving 
+situational awareness, unders tanding technical proficiency, and practising error 
+management, a work force will be created that communicates better, is more 
+aware of its true situation, uses all of its available resources, and works better 
+with one another.  
+4.1.26.  The Commission believes that  all rail participants should have a goal t o create a culture in 
+which  crew resource management is not only understood, but is also practised and supported 
+by management at the highest level.  The challenge is to have all participants take part – train 
+crews, train controllers, signallers and others who are taking part in the operation.    
+4.1.27.  In spite of the Commission making, and subsequently closing off, 2 previous 
+recommendations (Recommendation 026/08 in Report 07 -110 and Recommendation 
+033/08 in Report 07 -113) for improving standards of communication and crew resource 
+management within the rail industry, this incident demonstrates that the standard has not 
+reached an acceptable level.  
+4.1.28.  There were 5 parties involved in this incident  – the train controller , the signaller , the person -in-
+charge , the driver of Train 210  and the driver of Train 201 .  Some  of them , however, were not 
+fully informed about the plan  for crossing the 2 trains .  The signaller at the Wiri signal box was 
+a potential sixth  party but was not  really involved and had little opportunity to intervene.  
+  
+ 
+
+<< Page 18 >>
+ Report 11 -101 4.1.29.  The train controller’s plan was to hold freight Train 210 at Papakura  and to give priority to 
+Train 201.  The train controller informed the signaller of this plan but neither he nor the 
+signaller told the driver of Train 210  because  the rules did not require either person to  do this.  
+As far as the driver of Train 210 was concerned , the only thing between his train and its 
+destination was the worksite.  The drive r, therefore,  stopped at the compulsory stop board, 
+asked for permission to proceed, received that permission verbally and by way of  the proceed 
+aspect on Signal 3A  began driving  his train through the worksite , unaware that another train 
+had been given authority to tra vel towards him from the opposite direction . 
+4.1.30.  The driver  of Train 210 should have been told that h e was to stay  at Signal 3 A until another 
+train had travelled down the line from  the opposite direction under a Mis.60.  The person -in-
+charge should  also have b een told this.  Instead she was simply told what time to expect Train 
+210 at h er worksite  as a courtesy .  If the person -in-charge had been given this information , 
+she would not have verbally authorised  Train 2 10 to pass the compulsory stop board and she 
+would not have requested the signaller to change Signal 3 A to green.  The potential head -on 
+collision would have been averted at that point.  
+4.1.31.  As it turned out, it was the person -in-charge who initially detected the error and withheld 
+approval for  Train 201 to pass th e compulsory stop board at the Wiri  end of h er worksite.  This 
+was a good outcome . 
+Finding  
+The KiwiRail train controller’s plan to cross Trains 2 10 and 201 at Papakura was not 
+disseminated to all the parties who needed to know.  Conseq uently at least 2 early 
+opportunities to avert the potential head -on collision were missed.  
+In spite of the Commission making, and subsequently closing off, 2 previous 
+recommendations for improving standards of communication and crew resource 
+management wi thin the rail industry, this incident demonstrates that the standard has not 
+reached an acceptable level.  
+Management of signal boxes  
+4.1.32.  Veolia had updated its safety case to reflect the 2006 contract variation  that saw it take 
+responsibility for 3 signal box es, but it had not developed a plan within its safety system to 
+show how it intended to manage the opera tion.  Rather it relied on the train control/signaller 
+experience within its management team to provide oversight of the function.  Train signalling 
+is a critical function on a railway system and any company tasked with such a responsibility 
+should resource  itself and provide adequate processes to deal with it.  Veolia had not.  
+4.1.33.  Records show that the signaller had successfully passed her theory training fo r signalling 
+operations , but gaps were noted relating to her practical training using the Mis.60 procedure.  
+This gap in her training had never been resolved.  This resulted in the signaller being less 
+prepared for that task when she was required to perform it, from the moment she gained 
+initial certification at Papakura, and subsequently at Pukekohe.  
+4.1.34.  The signaller had not undergone the required formal  level A safety observations after gaining 
+certifications at both the Papakura and Pukekohe signal boxes.  The observations would have 
+provided opportunities to address the training requirement already identified and any other 
+matters.  During her time wor king solo in the 2 signal boxes the signaller should have been 
+formally observed 5 times , but there were no records of this ever having been done.  
+4.1.35.  Safety observations are a documented process used extensively within the rail industry.  The 
+reason for perfo rming  them  is to correct unsafe and non -compliant practices, to confirm 
+competency levels and to mentor employee s in facets of the ir role with which  they may be 
+unfamiliar.  
+ 
+  Report 11 -101 
+<< Page 19 >>
+ 4.1.36.  The Papakura signal ler was not alone  in having not received the required safety observations .  
+Veolia had not performed safety observations for some of its other signallers either.  Four out 
+of 7 signallers had not been  current for a number of years.  This fact had been identified by 
+KiwiRai l in an audit of Veolia’s signal box management processes, and even though the audit 
+finding had been given a set date for closure of 1 July 2010, the issue had not been resolved 
+before this incident happened, more than 6 months later.   The follow -up of au dit findings is an 
+important part of the system.  
+4.1.37.  Veolia did not effectively manage the new function of providing signallers for part of the 
+Auckland train network because it did not have an effective system to ensure  that the training 
+and assessment of tho se signallers met industry standards , and it did not have a good system 
+for corrective action once this breach had been identified .   
+4.1.38.  The recent appointment of a national signaller assessor by KiwiRail meant that all KiwiRail 
+and the remaining Veolia signallers have a single point of contact for operational issues.  This 
+action and the fact that several of the signal boxes operated by Veolia have been , and 
+continue to be , absorbed into train control should improve performance in th e ar ea of 
+assessments . 
+Findings  
+Veolia had not properly managed the new function of providing signallers  for 3 signal boxes 
+in the Auckland metro train network because 5 of its 8 signallers , including the one 
+involved in this incident, had not undergone the re quired safety observations that were 
+designed to check knowledge, compliance with procedures and performance.  
+The audit system (internal and external) had detected the weakness in Veolia’s safety 
+system for monitoring signaller performance, but the matter had not been satisfactorily 
+addressed at the time of this incident.  
+  
+ 
+
+<< Page 20 >>
+ Report 11 -101 5. Findings  
+5.1. The potential for a head -on collision was created when the signaller momentarily forgot about 
+a train authorised to travel on the wrong line under a Mis.60 procedure , and clear ed a signal 
+that allowed an opposing train on  to the same section of track.  
+5.2. The lever in the signal box that was used to change the status of Signal 3 A at Papakura should 
+have had a double “blocking ” ability to remind the signaller that 2 authorisations from 2 
+different people were required before she should change the signal  aspect , but the system 
+had not been designed to enable that.  
+5.3. The signaller  was likely to have been distracted by other tasks th at had been assigned to her, 
+which is likely to have contributed to her momentarily losing sight of the train controller’s plan 
+to cross trains at Papakura . 
+5.4. The signal ler was certified and therefore qualified to operate the Papakura signal box, but she 
+had had only 8 months ’ total experience as a signal box controller and had not worked there 
+in the previous 6 months, which may not have been enough total and recent experience to 
+deal with the complexity of operations at the time of the incident.  
+5.5. The sign aller had worked longer -than -normal hours in the 8 days prior to the incident, but this 
+was not likely to have contributed to her momentarily losing sight of the train controller’s plan 
+for crossing Trains 201 and 210.  
+5.6. The KiwiRail train controller’s plan to cross Trains 2 10 and 201 at Papakura was not 
+disseminated to all the parties who needed to know. Consequently at least 2 early 
+opportunities to avert the potential head -on collision were missed.  
+5.7. In spite of the Commission making, and subsequently closin g off, 2 previous 
+recommendations for improving standards of communication and crew resource management 
+within the rail industry, this incident demonstrates that the standard has not reached an 
+acceptable level.  
+5.8. Veolia had not properly managed the new func tion of providing signallers for 3 signal boxes in 
+the Auckland metro train network because 5 of its 8 signallers , including the one involved in 
+this incident, had not undergone the required safety observations that were designed to check 
+knowledge, compli ance with procedures and performance.  
+5.9. The audit system (internal and external) had detected the weakness in Veolia’s safety system 
+for monitoring signaller performance, but the matter had not been satisfactorily addressed at 
+the time of this incident.  
+  
+ 
+  Report 11 -101 
+<< Page 21 >>
+ 6. Key lessons  
+6.1. Good communication of a plan is critical to its successful outcome.  
+6.2. Standards for measuring the performance and compliance of a workforce will only be effective 
+if they are followed.  
+6.3. Audits will not be effective if the breaches they disclose are not acknowledged and remedied . 
+ 
+
+<< Page 22 >>
+ Report 11 -101 7. Safety a ctions  
+General  
+7.1. The Commission classifies  safety actions  by 2 types : 
+Type 1.  Safety actions  taken by the regulator or an operator to address safety issues 
+identified by the Commission during an inquiry that would otherwise result in the 
+Commission issuing a recommendation . 
+Type 2.  Safety  actions taken by the regulator  or an operator  to address other safety issues 
+that would not normally result in the Commission issuing a recommendation.  
+Type 1 s afety a ctions  addressing safety issues identified during an inquiry  
+7.2. On 14 January 2011 KiwiRail reissued the bulletin  after the incident with added instructions 
+relating to the wrong line running procedures:  
+When an opposing train is to be crossed at Papakura the locomotive engineer of this 
+train must be advised about the Mis.60 being issued to the down train before it is 
+issued.  
+Train control must receive confirmation that the signals governing entry into the 
+Papakura -Wiri section are at stop and the signal levers  are collared.  This 
+information must be endorsed by train control on the bottom of the office copy of the 
+Mis.60 prior to being issued to the locomotive engineer.  
+7.3. On 28 March 2011 Veolia advised that the following safety actions had been taken:  
+ The red collars were redesigned . 
+ An additional yellow collar to indicate that a second blocking requirement when 
+multiple activities are in place . 
+ Work desk enlarged to allow space for a clipboard dedicated to the holding of 
+Mis.60s.  
+ 
+7.4. On 27 May 2011 KiwiRail advis ed the following:  
+Papakura signal box is scheduled to close in January 2012.  There is a small 
+possibility it may continue operating for longer to enable construction of new track 
+work at Papakura, but centralization into the  national train control centre  in 
+Wellington will occur as part of the Papakura re -constructing and re -signalling 
+project.  KiwiRail Network is currently in the confidential stages of discussing 
+transferring the management and employment of Pukekohe signallers to KiwiRail 
+Network.  No t imeframe has been defined at this point but it is our decision in 
+principle that this will occur.  
+7.5. On 27 July 2011 KiwiRail advised the following:  
+In the period following the incident, the Kiwi Rail national signaller assessor  has 
+conducted safety assessment s on Veolia’s signallers as follows:  
+ Between 2 and 4 March 2011, 3 signallers were assessed.  
+ 15 June 2011, 2 signallers assessed following absences for annual leave 
+and leave following an accident . 
+On 4 March 2011, the signaller from the incident was given a more intense 
+observation which focused practically on Rule 905 and wrong line running 
+procedures.  The incident was also discussed and advice was given about avoiding 
+distractions and applying do uble protection that used points as well.  The signaller 
+was again assessed on 15 June 2011 and is scheduled again for assessment on 15 
+September 2011.  Veolia has since employed two additional relief staff who were 
+certified for Pukekohe on 14 and 15 June  2011 . 
+  
+ 
+  Report 11 -101 
+<< Page 23 >>
+ 8. Recommendations  
+General  
+8.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case , a recommendation has been made to the NZ Transport Agency.  
+8.2. In the interests of transport safety it is important that these recommendations are 
+implemented without delay to help prevent similar accidents or incidents occurring in the 
+future.     
+Recommend ation  
+8.3. On 28 March  2012  the following recommendation was made : 
+The Commission recommends to the Chief Executive of the NZ Transport Agency  that h e 
+requires the Executive of the National Rail System Standard to develop standards to ensure 
+that all rail parti cipants meet a consistently high level of crew resource management, and 
+communication that includes the use of standard rail phraseology (002/12) . 
+8.4. On 16 April 2012, the Chief Executive of the NZ Transport Agency replied in part as follows:  
+We intend to work closely with the National Rail System Standard (NRSS) Executive 
+with an aim to implementing and closing out this recommendation as soon as 
+practicable.  The NZ Transport Agency sits of the NRSS Executive as an observer.  
+We will also cons ider a strategy for rail operators outside the NRSS coverage.       
+  
+ 
+
+<< Page 24 >>
+ Report 11 -101 9. Works cited 
+Commission report 07 -110, collision, express freight Train MP2 and Work Train 22, Ohinewai,  
+19 June 2007.  
+Commission report 07 -113,  express freight Train 239, wagons left in section at 514.9 km between  
+Te Awamutu and Te Kawa, 22 September 2007.  
+Driscoll, T. R., Grunstein, R. R., & Rogers, N. L. (2007).   A systemic review of the neurobehav ioural and 
+physiological effects of shiftwork systems. Sleep Medicines Reviews , 179 - 194.  
+KiwiRail operational safety audits at Papakura and Pukekohe signal boxes  dated 18 February 2010.  
+KiwiRail rail operating rules and procedures , dated 10 June 2010.  
+Morgan, C., Kyte, T., Olsen, L.,  & Roop, S. (2004) .  Assessment of existing teams and crew resource 
+management training within the rail industry. Transportation Research Board 2004 Annual Meeting  
+CD-ROM, 11 -14 January, Session #476.  Washington DC.  
+National Rail System Standard s (2007) . 
+The NZ Transport Agency (2009), Ordinary Safety Assessment conducted in 2009.  
+Veolia Transport Auckland Limited (2006), Rail Safety Case, initial issue.  
+ 
+   
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+08-102 Metro passenger train derailment, Sylvia Park, 14 April 2008 (incorporating inquiries 
+08-104 and 08 -107) Diesel motor fires on board metro passenger trains, 3 June 2008 
+and 25 July 2008  
+08-112 Safe working irregularity resulting in a collision and derailment at Cass Station  
+on the Midland line, 8 November 2008  
+09-102 Passenger fatality after falling between platform and passenger Train 8125, 
+Newmarket West station, 1 July 2009  
+08-109 Passenger express  Train 9113, platform overrun resulting in signal passed at danger , 
+Fruitvale Road Station, North Auckland Line, 4 September 2008  
+07-114 Derailment caused by a wheel -bearing failure, Huntly, 19 October 2007, and 11 
+subsequent wheel -bearing failures at various locations during the following 12 month 
+period  
+ 
+09-103 Passenger Train 1608, collision with slip and derailment, Tunnel 1,  
+Wairarapa Line, Maymorn, 23 July 2009 (incorporating investigation 08 -106,  
+collision with slip and derailment on the Johnsonville Line)  
+ 
+09-101 (Incorporating 08 -105): express freight train derailments owing to the failure of  
+bogie side frame s, various locations on the North Island Main Trunk ,  
+between 21 June 2008 and 7 May 2009  
+ 
+07-105 Push/pull passenger train sets overrunning platforms, various stations within the 
+Auckland suburban rail network, between 9 June 2006 and 10 April 2007  
+08-110 Train control operating irregularity, leading to  potential low -speed, head -on collision, 
+Amokura, 23 September 2008  
+08-101 Express freight train 923, level crossing collision and resultant derailment, Orari, 14 
+March 2008  
+ 
+06-111 Express freight Train 237, derailment, Utiku, 20 October 2006  
+08-113 empty push/pull passenger Train 5250 , collision with platform -end stop block, 
+Britomart  station, Auckland, 19 December 2008  
+ 
+08-103 Passenger Train 6294, electrical fire and collapse of overhead traction line,  
+Mana station, Wellington, 18 April 2008  
+08-108 Express freight Train 845, track warrant overrun, Reefton - Cronadun, 13 August 
+2008  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 28.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

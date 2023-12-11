@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import os
+import argparse
 from . import search  # Assuming this is your custom module for searching
 
 app = Flask(__name__)
@@ -30,6 +31,11 @@ def search_reports():
     
     results['NoMatches'] = results.apply(lambda row: f'<a href="#" class="no-matches-link" data-report-id="{row["ReportID"]}">{row["NoMatches"]}</a>', axis=1)
 
+    results['ThemeSummary'] = results.apply(lambda row: f'<a href="#" class="theme-summary-link" data-report-id="{row["ReportID"]}">{row["ThemeSummary"]}</a>', axis=1)
+
+    for theme in searcher.themes:
+        results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
+
 
     html_table = results.to_html(classes='table table-bordered table-hover align-middle', table_id="dataTable", justify = "center", index=False, escape=False)
     
@@ -44,14 +50,32 @@ def get_report_text():
     searcher = search.Searcher()
     highlighted_report_text = searcher.get_highlighted_report_text(report_id, search_query, settings)
 
-    return jsonify({'report_id': report_id, 'highlighted_report_text': highlighted_report_text})
+    return jsonify({'title': report_id, 'main': highlighted_report_text})
 
+@app.route('/get_weighting_explanation', methods=['GET'])
+def get_weighting_explanation():
+    report_id = request.args.get('report_id')
+    theme = request.args.get('theme')
 
+    explanation = search.Searcher().get_weighting_explanation(report_id, theme)
 
+    return jsonify({'title': f"{theme} for {report_id}", 'main': explanation})
+
+@app.route('/get_theme_text', methods=['GET'])
+def get_theme_text():
+    report_id = request.args.get('report_id')
+
+    theme_text = search.Searcher().get_theme_text(report_id)
+
+    return jsonify({'title': f"Theme summary for {report_id}", 'main': theme_text})
 
 def run():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--debug', action='store_true', help='Enable debug mode')
+    args = parser.parse_args()
+
     port = int(os.environ.get("PORT", 5000))
-    app.run(port=port, host="0.0.0.0")
+    app.run(port=port, host="0.0.0.0", debug=args.debug)
 
 if __name__ == '__main__':
     run()

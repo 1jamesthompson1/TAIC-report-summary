@@ -1,0 +1,66 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no mention of fatigue or alertness issues contributing to the accident within the provided document. The report does not attribute the grounding to physical or mental state impairments of the operators.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 40
+  explanation: The report emphasizes the breakdown in bridge team performance and specifically highlights the failure in communication and crew resource management (BRM) practices. "The Monte Stello collided with the rock because it deviated from the planned passage" and this deviation was due to "a breakdown in bridge team performance" (4.1.2). The report also notes that "the error in rudder direction was not picked up in sufficient time to prevent the grounding because the procedures for checking and cross-checking every action during critical phases of navigation, known as bridge resource management, were not being strictly followed by the bridge team" (5.4).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'The document does not indicate that a lack of training or preparedness for emergency procedures contributed to the accident. The focus is on the failure to follow bridge resource management procedures rather than emergency response.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: The report explicitly states that "There is no evidence that failure of any engineering or navigation systems contributed to the accident" (5.1), which suggests that maintenance procedures and compliance were not factors in the grounding.
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems are not mentioned in the context of the accident, indicating that they were not a contributing factor.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 20
+  explanation: The report discusses the inadequacy of the safety management system in ensuring the effective implementation of BRM practices. "the standards of navigation and bridge resource management required by kiwirail's safety management system were not being achieved by the bridge team that was on board the monte stello when the accident occurred" (5.6 (invalid formatted quote)). This indicates that regulatory compliance and safety management were significant factors in the accident.
+- name: Situational Awareness
+  percentage: 15
+  explanation: The report indicates that the bridge team lacked a shared mental model and situational awareness, which contributed to the accident. "had the bridge team been more engaged as a team, sharing the same understanding of where the ship was and what was planned next, it is more likely the helmsman and/or lookout would have recognized that for the master to give a starboard helm order in that situation would be unusual" (4.3.8 (unvalidated and unrepairable quote)).
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'There is no indication that equipment design and specifications played a role in the accident. The report does not mention any design flaws or specification issues that contributed to the grounding.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 5
+  explanation: While the report does not directly attribute the accident to a failure in risk assessment and management, it does imply that the safety management system's failure to ensure the safety of the vessel was a contributing factor (4.3.15). This suggests that risk management processes may not have been fully effective.
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'The document does not discuss emergency response planning and coordination in the context of the accident, indicating that this was not a contributing factor.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no mention of distracted operation as a contributing factor to the accident in the report.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: The report states that there was no evidence of a failure of any engineering control or propulsion systems, or of its navigation systems (4.1.2), which suggests that structural integrity and material fatigue were not factors in the accident.
+- name: Human Error and Error Management
+  percentage: 20
+  explanation: Human error played a significant role in the accident, as evidenced by the master's incorrect helm order and the subsequent failure to correct it. "The Monte Stello deviated from the passage plan because the rudder was put to starboard instead of to port at a critical time when the ship was making the left-hand turn into Tory Channel" (5.3). The report also discusses the importance of error management and the failure to contain the damaging effects of errors (4.2.1).
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'Although the report discusses the safety management system, it does not specifically address safety culture or organizational influences as direct contributing factors to the accident.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather is not mentioned as a factor in the accident, indicating that weather information dissemination and interpretation were not relevant to the grounding.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the report that contributed to the accident outside of those already defined.
+
+    '

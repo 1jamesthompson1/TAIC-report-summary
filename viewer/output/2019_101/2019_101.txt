@@ -1,0 +1,702 @@
+﻿ 
+ 
+ 
+ 
+Final  Report  
+Rail inquiry  RO-2019 -101 
+Safe-working occurrence, Westfield yard, 
+Ōtāhuhu , Auckland  
+24 March 2019  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+April  2020  
+
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of 
+inquiry and an independent Crown entity responsible for inquiring into maritime, aviation and 
+rail accidents and incidents for New Zealand, and co -ordinatin g and co -operating with other 
+accident investigation organisations overseas.  
+The principal purpose of its inquiries is to determine the circumstances and causes of 
+occurrences with a view to avoiding similar occurrences in the future.   It is not the 
+Commission’s purpose to ascribe blame to any person or agency or to pursue (or to assist an 
+agency to pursue) criminal, civil or regulatory action against a person or agency.   However, the 
+Commission will not refrain from fully reporting on the circumstances  of and factors 
+contributing to an accident because fault or liability may be inferred from the findings  
+.
+Final Report RO -2019 -101 | Page i  
+ 
+Figure 1: Location of occurrence  
+ 
+
+ 
+Page ii | Final Report RO -2019 -101 Contents  
+ 
+1 Executive summary  ................................ ................................ ................................ ............................  1 
+What happened  ................................ ................................ ................................ ................................ ........  1 
+Why it happened  ................................ ................................ ................................ ................................ ...... 1 
+What we can learn  ................................ ................................ ................................ ................................ ... 1 
+Who may benefit  ................................ ................................ ................................ ................................ ...... 2 
+2 Factual information  ................................ ................................ ................................ ...........................  3 
+Narrative  ................................ ................................ ................................ ................................ ...................  3 
+Site examination  ................................ ................................ ................................ ................................ ...... 5 
+Electronic blocking and secondary protection  ................................ ................................ ..........  6 
+Key personnel  ................................ ................................ ................................ ................................ ...........  6 
+3 Analysis  ................................ ................................ ................................ ................................ ..............  7 
+Introduction  ................................ ................................ ................................ ................................ ..............  7 
+Circumstances  ................................ ................................ ................................ ................................ ..........  7 
+The incident  ................................ ................................ ................................ ................................ ..............  7 
+Risk controls  ................................ ................................ ................................ ................................ .............  8 
+Non-technical skills  ................................ ................................ ................................ ................................ . 8 
+Other potential factors considered  ................................ ................................ ................................ ........  9 
+4 Findings  ................................ ................................ ................................ ................................ ............  10 
+5 Safety issues and remedial actions  ................................ ................................ ................................  11 
+General  ................................ ................................ ................................ ................................ ...................  11 
+6 Recommendations  ................................ ................................ ................................ ...........................  12 
+7 Key lessons  ................................ ................................ ................................ ................................ ...... 13 
+8 Data summary  ................................ ................................ ................................ ................................ .. 14 
+9 Conduct of the inquiry  ................................ ................................ ................................ .....................  15 
+10 Report information  ................................ ................................ ................................ ..........................  16 
+Abbreviations  ................................ ................................ ................................ ................................ .........  16 
+Glossary  ................................ ................................ ................................ ................................ ..................  16 
+11 Notes about Commissio n reports  ................................ ................................ ................................ .... 17 
+Appendix 1:  KiwiRail guide to rule 902  ................................ ................................ ................................ .. 18 
+Appendix 2:  Special bulletin 313  ................................ ................................ ................................ ............  19 
+ 
+Final Report RO -2019 -101 | Page iii Figures  
+ 
+Figure 1:  Location of occurrence  ................................ ................................ ................................ ...............  i 
+Figure 2:  Schematic diagram of Ōtāhuhu tr iangle  ................................ ................................ ................  3 
+Figure 3:  Satellite view of Ōtāhuhu triangle  ................................ ................................ ...........................  5 
+ 
+
+Final Report RO -2019 -101 
+<< Page 1 >>
+ 1 Executive summary  
+What happened  
+1.1. At about 1850 on Sunday 24 March 2019 , a work group was  completing rail track repairs 
+in a protected work area that had been established in KiwiRail’s Westfield yard in  
+Ōtāhuhu , Auckland .  The protected work area was in the process of being disestablished 
+before the work party depart ed from the site.  
+1.2. The rail protection officer in charge of the site was approached by a signals technician 
+who was required to carry out work within the protected work area . 
+1.3. Unaware of the  exact  nature of the signals technician’s intended work , the rail protection 
+officer lost situat ional awareness and allowed the  technician into the protected work area 
+without following the requirements  prescribed in KiwiRail ’s Rail Operating Rules and 
+Procedures.  
+1.4. As a result , the signals technician was not considered to be part of the work group and  
+was therefore not accounted for using the lock -on procedure .  The technician was still 
+working within the protected work area when , without any prior  knowledge, the 
+electronic blocking protection1 was removed , putting the technician  at risk from rail 
+traffic. 
+Why it happened  
+1.5. The Transport Accident Investigation Commission (Commission) found that it was very 
+likely that a safe-working incident occurred as a result of the electronic blocking 
+protection being removed at the rail protection officer ’s request, while the signal s 
+technician was still working on the track.  
+1.6. The Commission also found  that the rail protection officer ’s request to remove electronic 
+blocking was likely due to the rail protection officer and the signals technician not 
+utilising non -techn ical skills  effectively to develop a shared mental mode l of the work to 
+be undertaken  by the signals technician . Had both parties communicated more 
+effectively and agreed a work plan , it is highly likely that the incident could have been 
+avoided.  
+1.7. Neither p arty had a clear understanding of the other ’s intentions , nor did each 
+thoroughly question the other . Because the rail protection officer misunderstood the 
+intentions of the signals technician, it was decided that the prescribed procedure was not 
+required  to be followed .  This was contrary to KiwiRail’s Rail Operating Rules and 
+Procedures and resulted in the omission of a  key safety defence that could have 
+prevented the incident occurring.     
+What we can learn  
+1.8. The key lesson  arising from the inquiry is th at all personnel undertaking  safety -critical 
+roles should adhere to the principles of non -technical skills to ensure that they share the 
+                                                        
+1 A protection activated on the signalling system operated by train control when required to ensure that 
+signals and points are not cleared into a protected work area, or to prevent conflicting rail movements.  
+ 
+
+<< Page 2 >>
+ Final Report RO -2019 -101 same mental model s and have a clear understanding of what is required of themselves 
+and others to complete the task s safely . 
+Who may benefit  
+1.9. Rail operators and all safety -critical workers may benefit from the key lesson s of this 
+inquiry.  
+  
+Final Report RO -2019 -101 
+<< Page 3 >>
+ 2 Factual information  
+Narrative  
+2.1. At about 1850 on Sunday 24 March 2019, a KiwiRail work  group was operati ng in a 
+protected work area (PWA) that had been established  within a section of KiwiRail’s  
+Westfield yard  known as Ōtāhuhu  triangle (Figure 2).  
+2.2. The PWA had been established at 1000 on 23 March.  Its purpose was to protect the 
+work group carrying out repairs to damaged track from a minor derailment.  Although 
+the work group was not present,  the track had remained closed to rail traffic for Saturday 
+night.  
+ 
+Figure 2: Schematic diagram of Ōtāhuhu triangle  
+2.3. The repair work was planned to be completed by 1800  on 24 March , but due to delays it 
+was extended by a further hour until 1900.  
+2.4. The PWA was being managed by a rail protection officer (RPO) , who was responsible for 
+ensuring that all personnel within the worksite were  protected from rail movements . This 
+was in  accordance with KiwiRail’s Rail Operating Rules and Procedures .   
+2.5. The RPO was located near 1655 points2, in a safe area outside the PWA, so that they 
+could be approached by visitors requiring access to the worksi te (Figure 2). 
+2.6. A signals technician had also been requested to attend the worksite after a work vehicle 
+had reportedly crossed the track within the PWA , and in doing so had possibly caused 
+damage to 1666B points.  
+                                                        
+2 A movable part of the track which guides rail tr affic from one track to another  
+limits of PWA  
+diagram simplified and not to scale  
+electronic  blocking applied to 
+1666A points, 1655 points 
+and 1618 signal  
+approximate 
+location of rail 
+protection officer  
+signals technician 
+working on 1666B 
+points  
+N 
+ 
+
+<< Page 4 >>
+ Final Report RO -2019 -101 2.7. By about 1850  track repairs had been completed  and the RPO was in the process of 
+clearing the worksite of all personnel and equipment . This was  in preparation for 
+hand ing the track back to train control3 for normal operations .   
+2.8. At this time the RPO was  approached by a signals technician who was responsible for the 
+worksite  secondary protection4 (see section 2.24). The RPO and  the signals technician 
+briefly  discussed the signal s technician’s work and t he RPO agreed that the signal s 
+technician could enter the PWA .   
+2.9. At 1859 the RPO contacted train control and informed the controller that the worksite 
+was clear of all personnel and equipment and was ready to be handed back.  The train 
+controller , who was  aware that the secondary protection was still in place, questioned  the 
+RPO regarding the status of the signal s technician.  The RPO advised the train controller 
+that the signals technician was working clear of the track and was not part of the original 
+PWA . 
+2.10. The train controller again asked for verification that the signals technician was not 
+working on the track. The RPO responded that the signals technician was clear of the 
+track.  The train controller accepted this information , but asked the RPO to contact the 
+signals technician and ask them to  contact train control . 
+2.11. The train controller cancelled the track possession authority5 and removed all electronic 
+blocking around the PWA. The track was now available for normal operations , although 
+the two sets of points secured by the signals  technician  as secondary protectio n 
+remained inoperable from train control.  
+2.12. At 1908 the signals technician contacted train control. The train controller queried what 
+was happening with the secondary protection .  It became apparent to the train controller 
+that the signals technician was wor king on the track and was unaware that the RPO had 
+handed the worksite back to train control.  
+2.13. The train controller then  re-established electronic blocking  to protect the signals 
+technician for the duration o f the work.  The train controller also informed the on -duty 
+network control manager of a potential safe -working breach.  
+2.14. The network control manager  reviewed the circumstances of the incident and contacted 
+the RPO by telephone. As a result of the conversation the RPO r eturned to work and 
+underwent drug and alcohol testing.  The test delivered  a negative (clear) result.  
+2.15. There were no rail movements in the area during the period in which  the signals 
+technician was working without protection.  
+2.16. At 1952 the signals technician completed work on the points  and contacted train control  
+to confirm that work had been completed  and secondary protection removed, and that 
+the electronic blocking was no longer required.  Train control removed the electronic 
+blocking and the site returned to normal operations.  
+                                                        
+3 The national train control centre housed in Wellington Railway Station, where train movements and track 
+occupations are authorised by train controllers.  
+4 A method of cordoning off a worksite to enhance ‘primary protection’, which is the method prescribed in the 
+relevant rules and procedures that must be utilised to establish a protected work area.  
+5 The tim es and limits agreed between train control and the authority holder to take sole occupancy of a 
+section of track . 
+Final Report RO -2019 -101 
+<< Page 5 >>
+ Site examination  
+2.17. The site was located at the southern end of the Westfield yard. Three tracks consisting of 
+“the straight leg, north siding and the west leg” form ed a triangle around a large area of 
+land used for industrial storage  (Figure 3).   
+2.18. There was no direct line of sight between the RPO and the signals technician  due to the 
+curvature of the track.  
+ 
+Figure 3: Satellite view of Ōtāhuhu triangle  
+(Credit: Google Earth modified by the Transport Accident Investigation Commission ) 
+Site protection  
+2.19. The worksite was protected by utilising KiwiRail’s Rail Operating Rules and Procedures 
+rule 908 – Blocking.  There was als o a requirement for a secondary protection method, 
+which on this occasion consisted of securing the points away from the PWA . 
+2.20. In addition to  the electronic blocking protecting the worksite, the work  group itself was 
+working under KiwiRail’s Rail Operating Rules and Procedures rule 902 – Managing a 
+protected work area. Rule 902 dictates that all personnel who need to work within a PWA 
+must contact the RPO to be briefed, signed on to a worksite register and ‘locked on ’6 
+using a personal padlock (Appendix 1).  
+                                                        
+6 The terminology used to describe someone following the procedure laid down in Appendix 1.  
+1666A points (secured for 
+secondary protection)  
+locations  may not be 
+geographically exact and are 
+for illustrative purposes only  
+1655 points (secured for 
+secondary protection)  
+1666B points ( signals 
+technician  working in this 
+location)  
+RPO located near 
+1655 points  
+                 N 
+ 
+
+<< Page 6 >>
+ Final Report RO -2019 -101 2.21. Rule 902 also stated the limited circumstances in which personnel were excluded from 
+locking on in accordance with normal procedure.  The type of work the signals technician 
+was carrying out was not among the limited circumstances . 
+Electronic blocking and  secondary protection  
+2.22. Electronic blocking was the primary means of protecting the worksite , although 
+secondary protection was also required due to the possibility of rail traffic moving on 
+adjacent tracks.   
+2.23. The RPO was responsible for communicating with t rain control to gain possession of the 
+track and establish electronic blocking protection . 
+2.24. Secondary protection arrangement instructions required that the points allowing entry to 
+the worksite were secured in position by a qualified signal s technician . This was to be 
+done  in such a manner that traffic was directed away from the worksite and could not be 
+moved inadvertently towards the worksite  (Appendix 2). 
+2.25. The means of securing the points was to de -energise them from a trackside signal 
+equipment panel  by removing  the fuse to the motor that operate d the points .  
+Key personnel  
+2.26. The RPO had 18 years’ experience  in the role and held all relevant qualificati ons and a 
+current certification . 
+2.27. The signals technician  had 17 years’ experience  in the role and held all relevant 
+qualificati ons and a current  certification.  
+2.28. The train controller had two years’ experience in the role and held all relevant 
+qualifications and a current certification.  
+Final Report RO -2019 -101 
+<< Page 7 >>
+ 3 Analysis  
+Introduction  
+3.1. The safe separation and protection of track workers from rail vehicles is a fundamental 
+premise of any rail operation. It is therefore essential that  robust  and proven safe 
+methods of working are in place to prevent  potential interaction s between workers a nd 
+rail traffic .  
+3.2. On this occasion the RPO allowed a signals technician to enter the PWA without 
+following the procedure prescribed  in rule 902 and as a result a significant safety barrier 
+was breached.  
+3.3. The following analysis discusses the events and circumstances surrounding the 
+cancellation of the PWA  before it was hand ed back to train control , while a worker was 
+still present  and working on the track .  
+Circumstances  
+3.4. Immediately prior to the incident the work group was in the process of disestablishi ng 
+the worksite. Members of the work group had been required to work for an additional  
+hour past their rostered  time of 1800  to ensure that the track repair  work was complete d. 
+3.5. As soon as the worksite was handed back to train control for operational use, the work  
+group  members  were considered to have completed work for the day and were then free 
+to leave  the site .  
+3.6. However , just as the RPO was preparing to hand the site back to train control they were  
+appro ached by a signal s technician who had been instructed to inspect some trackside 
+equipment .  The  work being undertaken was within the PWA,  some distance away from 
+the RPO’s location  and out of line of sight .  
+The incident  
+3.7. The RPO reported that d uring their conversation with the signal s technician , the signals 
+technician stated  that they needed to examine a set of points , and asked the RPO 
+whether it was necessary to lock on .  The lock -on procedure  would  have allow ed the 
+signals technician to inspect the trac kside equipment safely. H owever , this would have 
+also delayed the cancellation of the PWA .   
+3.8. The RPO reported that they were unaware that the signal s technician was inspecting 
+points for potential  damage . Instead, they had  incorrectly assumed that the work was 
+related to removing the secondary protection in preparation for handing the track back 
+to train control .  As a result , the RPO responded that locking on would not be required.  
+3.9. The RPO reported  that w hen the signals technician requested access they were  focused 
+on clearing the work  group  from the PWA  so that the track could be handed back to 
+train control .  Although the RPO did not recall feeling any perceived pressure by the 
+additional time already worked by the work group, handing the track back to train 
+control would have allow ed the work  group to complete  their work .   
+3.10. The signal s technician reportedly  did not advise the RPO that the work on the points 
+could  take some time . The signals technic ian was also  of the view that the PWA c ould 
+ 
+
+<< Page 8 >>
+ Final Report RO -2019 -101 not be handed back to train control while secondary protection , which only the 
+technician could remove,  was still in place.   
+3.11. This series of misunderstandings and procedural lap ses allowed t he signal s technician to 
+commence  carrying out work in the rail corridor with a false sense of security .  Unknown 
+to the technician , the RPO believed that the technician was working clear of the track  and 
+had already advised train control that electronic blocking could be removed.   Although 
+the secondary protection was still in place , the removal of the electronic blocking 
+potentially put the signal s technician at risk from rail traffic  exiting nearby sidi ngs. 
+Risk controls  
+3.12. Several non-physical safety  barriers  were in place to prevent unauthorised access to the 
+PWA. These included:  
+ the promulgation by KiwiRail of a  special bulletin for the work being undertaken , 
+which specified the type of protection required for the duration of that work  
+(Appendix 2).  The special bulletin also  stipulated the specific rules and conditions 
+under which the work was to take place  
+ the content of the special bulletin , which  was includ ed in the pre -start safety briefing 
+attended by the RPO  
+ rules and procedures governing work within worksites , which  were in place . All 
+personnel involved were trained in these rules and were qualified to work on the track  
+ primary  protection  and secondary p rotection , which  were  established in accordance 
+with the relevant rules and procedures.  The secondary protection (securing of points) 
+was also a physical barrier preventing rail traffic entering the PWA.  
+3.13. These barriers  should have provided adequate safe -working controls. However, their 
+effectiveness was compromised by the non -technical skills employed by the involved 
+personnel.  
+Non-technical skills  
+3.14. The Rail Safety and Standards Board of the United Kingdom  defines non -technical skills 
+as “the cognitive, social and personal resource skills that complement technical skills and 
+contribute to safe and efficient task performance”. While technical skills describe what 
+you need to do and know for a given safety -critical task, n on-technical skills describe 
+how you do that task. The non -technical skill components can be broken down further 
+into sub -categories that include situational awareness, conscientiousness, 
+communication, decision -making and action, co -operation and working with others, 
+workload management and self -management.  
+3.15. All the key personnel involved in this incident had undergone  training in non -technical 
+skills.  Nevertheless , the in cident highlighted the importance of these skills in creating a 
+safe working environm ent and ensuring that there are no misunderstandings  – 
+particular ly skills in  communication, possessing a common mental model, challenge and 
+response, and situational awareness.    
+3.16. Had the signal s technician and RPO communicated more effectively regarding t he nature  
+and potential implications  of the signals technician’s intended work , they would have 
+likely shared the same mental model and understood the consequences o f the work 
+requirements.  This transfer of knowledge would have also likely improved the RPO’s 
+Final Report RO -2019 -101 
+<< Page 9 >>
+ situational awareness and led to a better understanding of the need to lock  on the 
+signal s technician.  
+3.17. There was a missed opportunity for the  signals technician to challenge the RPO  on the 
+necessity to lock on .  The challenge would have  also likely led to the RPO gaining a 
+better understanding  of and greater clarity on the proposed work.  In addition, had the 
+signal s technician advised the RPO that the work could  take some time , the RPO might  
+have been prompted to decline access to the PWA.    
+3.18. Had each been better aware of the other’s needs , a simple solution such as the signal s 
+technician arranging for their own protection directly through  train control  was possible .  
+This would then have allowed the work  group to complete their work an d depart.  
+3.19. Unfortunately , the challenge made by the train controller to the RPO requesting the 
+whereabouts of the signal s technician went unheeded . The RPO ’s mental model was that 
+the technician was working clear of the track. This challenge was a further opportunity 
+for the RPO to stop, reassess the environment and regain situational awareness . 
+3.20. All of the opportunities presented above were instances where a better use of non -
+technical skills could have minimised the likelihood of the incident occurring.  
+3.21. The Transport Accident Investigation Commission (Commission) has raised the issue of 
+non-technical skills in several rail occurrence reports , including  in a recommendation to 
+the Chief Executive of the N Z Transport Agency (002/12 ): 
+The Commission recommend s to the Chief Executive of the NZ Transport 
+Agency that (the agency) require the Executive of the National Rail System 
+Standard to develop standards to ensure that all rail participants meet a 
+consistently high level of crew resource management, and commu nication that 
+includes the use of standard rail phraseology.  
+3.22. As a result of this  recommendation  KiwiRail implemented training programmes that 
+included the principles of non -technical skills. All personnel involved in this incident had 
+been trained to some extent in these principles , but the incident highlight ed the 
+importance of continu ation training to ensure that these principles  remain  prominent in 
+the wo rkers ’ minds as an important tool  in planning for any safe -working scenario.   
+3.23. On 3 April 2017 the NZ Transport Agency said it was continuing to work with KiwiRail on 
+addressing  the recommendation.  At the time of publication  the recommendation 
+remains open.  
+3.24. The Commission  does not intend to make  a further recommendation on this matt er. 
+Other potential factors considered  
+3.25. Shift-rosters  for all personnel were received by the Commission and were compliant with 
+fatigue management standards. Although the work period was extended by one hour , 
+there was no evidence of fatigue  having been a factor in the occurrence . 
+3.26. The RPO undertook a drug and alcohol test soon after the occurrence. There was no 
+indication  of drugs or alcohol being a factor.  
+3.27. All personnel involved had received the respective training and were qualified for the  
+roles they were undertaking at the time of the occurrence.  
+  
+ 
+
+<< Page 10 >>
+ Final Report RO -2019 -101 4 Findings  
+4.1. It was very likely that a  safe-working incident  occurred as a result of electronic blocking 
+being removed at the rail protection officer ’s request, while the signal s technician was 
+still working on the track.  
+4.2. The rail protection officer ’s request to remove electronic blocking was likely due to the 
+rail protection officer  and the signals technician not utilising non -technical skills 
+effectively to develop a shared mental mode l of the work  to be undertaken by the 
+signals technician.  
+  
+Final Report RO -2019 -101 
+<< Page 11 >>
+ 5 Safety issues and remedial action s 
+General  
+5.1. Safety issues are an output from the Commission’s analysis of factors that have 
+contributed to the occurrence.  They typically describe a system problem that has the  
+potential to adversely affect future operations on a wide scale.  
+5.2. Safety issues may be addressed by safety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address an issue . 
+5.3. Recommendations are made to persons or organ isations that are considered the most 
+appropriate to address the identified safety issues.  
+5.4. In the interests of transport safety it is important that safety actions are taken, or any 
+recommendations are implemented , without delay to help prevent similar acc idents or 
+incidents occurring in the future.  
+5.5. No new safety issues or recommendations were identified during the course of this 
+investigation.  
+ 
+
+<< Page 12 >>
+ Final Report RO -2019 -101 6 Recommendations   
+General   
+6.1. The Commission may issue, or give notice of, recommendations to any person or 
+organisation that it considers the most appropriate to address the identified safety 
+issues, depending on whether  these safety issues are applicable to a single operator only 
+or to the wider transport sector.  
+6.2. In the interests of transport safety, it is important that recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in 
+the future.    
+New recommendations   
+6.3. No new recommendations  were issued.  
+ 
+  
+Final Report RO -2019 -101 
+<< Page 13 >>
+ 7 Key lesson s 
+7.1. All personnel undertaking safety -critical roles should adhere to the principles of non -
+technical skills to ensure  that they share the same mental model s and have a clear 
+understanding of what is required of themselves and others to complete the task s safely.  
+ 
+ 
+  
+ 
+
+<< Page 14 >>
+ Final Report RO -2019 -101 8 Data summary  
+Date and time  24 March 2019 , at about 18507  
+Location  Ōtāhuhu  triangle in the Westfield yard 
+Operating crew  one rail protection officer , one signals technician , one 
+train controller  
+Injuries  nil 
+Damage  nil 
+  
+  
+                                                        
+7 Times in this report are New Zealand Daylight Sa vings Times (universal co -ordinated time +13 hours) and are expressed 
+in the 24 -hour mode . 
+Final Report RO -2019 -101 
+<< Page 15 >>
+ 9 Conduct of the inquiry  
+9.1. On 26 March 2019  the NZ Transport Agency  notified the Commission of the occurrence.  
+The Commission subsequently opened an inquiry under section 13(1) of the Transport 
+Accident Investigation Commission Act 1990 and appointed an investigator in charge.  
+9.2. On 12 April 2019 Commission investigators co nducted interviews with the train controller 
+and network control manager.  
+9.3. On 30 April 2019 Commission investigators conducted a site visit and interviewed the 
+signals technician and the manager of the RPO.  
+9.4. On 21 May 2019 Commission investigators conducted an interview with the RPO.  
+9.5. The Commission obtained the following documents and records:  
+ the signalling  and interlocking diagram for Ōtāhuhu  triangle  
+ train control diagrams  relevant to the occurrence  
+ copies of incident  reports completed by personnel involve d in the occurrence  
+ witness statements  and interviews  
+ the training records  for involved parties  
+ work rosters  for the involved parties covering the lead -up to the occurrence  
+ copies of the special bulletin promulgated by KiwiRail relevant to the occurrence  
+ rules and regulations  pertaining to PWA s 
+ recordings of calls to and from train control relevant to the occurrence  
+ copies of forms  completed by the RPO during the establishment of the PWA . 
+9.6. On 2 December 2019  the Commission approved a draft report for circulation to five 
+interested persons for their comment.  
+9.7. Five submissions were received. The Commission considered the submissions, and no 
+changes were required to the final report.  
+9.8. On 3 April 2020  the Commission a pproved the final report for publication.  
+ 
+
+<< Page 16 >>
+ Final Report RO -2019 -101 10 Report information  
+Abbreviations  
+PWA  protected work area 
+RPO rail protection officer  
+Commission   Transport Accident Investigation Commission  
+Glossary  
+electronic blocking  a protection activated on the signalling system operated by train 
+control when required to ensure that signals and points are not cleared 
+into a protected work area, or to prevent conflicting rail movements  
+points  a movable part of the track which guides rail traffic from one track to 
+another.  
+protected work area  a worksite that has been cordoned off either electronically or by other 
+means to prevent unauthorised rail traffic or personnel entering the 
+area 
+secondary protection  an additional method of cordo ning off a worksite to enhance primary 
+protection  
+train control  the national train control centre housed in Wellington Railway Station, 
+where train movements and track occupations are authorised by train 
+controllers  
+ 
+ 
+Final Report RO -2019 -101 
+<< Page 17 >>
+ 11 Notes about Commission reports  
+Commiss ioners  
+Chief Commissioner     Jane Meares  
+Deputy Chief Commissioner   Stephen Davies Howard  
+Commissioner     Richard Marchant  
+Commissioner     Paula Rose, QSO  
+Key Commission personnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Aaron  Holman  
+Investigator in Charge    David Manuel  
+General Counsel     Cathryn Bridge  
+Citations and referencing  
+This final report does not cite information derived from interviews during the Commission’s 
+inquiry into the occurrence.  Documents normally accessible to industry participants only and 
+not discoverable under the Official Information Act 1982 are referenced as footn otes only.  
+Publicly available documents referred to during the Commission’s inquiry are cited.  
+Photographs, diagrams, pictures  
+The Commission has provided, and owns, the photographs, diagrams and pictures in this 
+report  unless otherwise specified.  
+Verbal probability expressions  
+This report uses standard terminology to describe the degree of probability (or likelihood) that 
+an event happened or a condition existed in support of a hypothesis. The expressions are 
+defined in the table below.  
+Terminology*  Likel ihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+*Adopted from the Intergovernmental Panel on Climate Change  
+ 
+
+<< Page 18 >>
+ Final Report RO -2019 -101 Appendix 1: KiwiRail guide to rule 902  
+ 
+ 
+
+Final Report RO -2019 -101 
+<< Page 19 >>
+ Appendix 2: Special bulletin 313  
+ 
+
+ 
+  
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+RO-2019-102 Clinton derailment, 29 March 2019  
+RO-2018-102 Freight train SPAD and wrong -routing, Taimate, 1 October 2018  
+RO-2018-101 Metropolitan passenger train, derailment, Britomart Transport Centre, Auckland, 
+9 May 2018  
+RO-2017-106 Mainline locomotives, Wrong -routing and collision with work vehicle, Invercargill, 
+16 November 2017  
+RO-2017-105 Collision between freight Train 353 and heavy motor vehicle, Lambert Road, level 
+crossing, near Kawerau, 6 October 2017  
+RO-2017-104 
+ Unauthorised immobilisation  of passenger train, at Baldwin Avenue Station, 
+Avondale, 17 September 2017  
+RO-2017-101 Signal Passed at Danger ‘A’ at compulsory stop boards protected worksite, 
+Pongakawa, Bay of Plenty, 7 February 2017  
+RO-2017-103 Potential collision between passenger trains, Wellington Railway Station, 15 May 
+2017 
+RO-2017-102 Signalling irregularity, Wellington Railway Station, 3 April 2017  
+RO-2016-101 Signal passed at danger leading to near collision, Wellington Railway Station, 28 
+May 2016  
+RO-2016-102 Train 140 passed Signal 10R at ‘Stop’, Mission Bush Branch line, Paerata, 25 
+October 2016  
+RO-2015-103 Track occupation irregularity, leading to near collision, between Manunui and 
+Taumarunui, 15 December 2015  
+RO-2014-105 Near collision between train and hi-rail excavator, Wairarapa Line near 
+Featherston, 11 August 2014  
+RO-2013-101 Derailment of freight Train 345, Mission Bush Branch line, 9 January 2013  
+ 
+
+ TAIC Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its kōwhaiwhai, Māori scroll designs, from  artist Sandy Rodgers (Ngati Raukawa, 
+Tuwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies and how to prevent them. A ‘waka whai mārama (i te 
+ara haumaru ) is ‘a vessel/vehicle in pursuit of understanding’. Waka is metaphor for the Commission. 
+Mārama (from ‘te ao mārama’ – the world of light) is for the separation of Rangitāne (Sky Father) and 
+Papatūānuku (Earth Mother) by their son Tāne Māhuta (god of man,  forests and everything dwelling 
+within), which brought light and thus awareness to the world. ‘Te ara’ is ‘the path’ and ‘haumaru’ is ‘safe or 
+risk free’.  
+Corporate: Te Ara Haumaru - The safe and risk free path  
+ 
+The eye motif looks to the future, watchi ng the path for obstructions. The encased double koru is the 
+mother and child, symbolising protection, safety and guidance. The triple koru represents the three kete of 
+knowledge that Tāne Māhuta collected from the highest of the heavens to pass their wisd om to humanity. 
+The continual wave is the perpetual line of influence. The succession of humps represent the individual 
+inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: ng ā hau e wh ā - the four winds  
+ 
+To Sandy, ‘Ngā  hau e whā’ (the four winds), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the 
+sky, cloud, and wind. There is a manu (bird) form representing the  aircraft that move through Aotearoa’s 
+‘long white cloud’. The letter ‘A’ is present, standing for aviation.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this 
+Kōwhaiwhai.  
+Marine: ara wai - waterways  
+ 
+The sect ions of waves flowing across the design represent the many different ‘ara wai’ (waterways) that 
+ships sail across. The ‘V’ shape is a ship’s prow and its wake. The letter ‘M’ is present, standing for ‘Marine’.  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+The design represents the fluid movement of trains across Aotearoa. ‘Rere’ is to flow or fly. ‘Whenua’ is the 
+land. The koru forms represent the earth, land and flora that tra ins pass over and through. The letter ‘R’ is 
+present, standing for ‘Rail’.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and 
+everything that dwells within) in the creation of this Kōwhaiwhai.  
+ 
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 13.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)   

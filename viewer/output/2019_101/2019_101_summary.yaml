@@ -1,0 +1,70 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: There was no evidence of fatigue having been a factor in the occurrence, as "shift-rosters for all personnel were received by the Commission and were compliant with fatigue management standards" (3.25).
+- name: Communication and Crew Resource Management
+  percentage: 40
+  explanation: The incident was significantly influenced by a breakdown in communication and crew resource management. The RPO and the signals technician did not effectively communicate the nature and potential implications of the work, leading to a lack of a shared mental model (3.16, 3.17). This poor communication contributed to the RPO's misunderstanding of the technician's work and the subsequent removal of electronic blocking (3.8, 3.9).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'The document does not indicate that a lack of training or preparedness for emergency procedures contributed to the incident.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: 'The document does not suggest that maintenance procedures and compliance were factors in the incident.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems are not mentioned as contributing factors in the incident.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: While there were lapses in following procedures, such as not following the procedure prescribed in rule 902 (3.2), the document does not indicate that regulatory compliance and safety management were the primary issues. However, they did play a role in the incident.
+- name: Situational Awareness
+  percentage: 30
+  explanation: The RPO's situational awareness was compromised during the incident, as they were not aware that the signals technician was inspecting points for potential damage and assumed the work was related to removing secondary protection (3.8). Additionally, the RPO believed the technician was working clear of the track when they had not (3.11).
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'There is no indication that equipment design and specifications were a factor in the incident.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that risk assessment and management were directly related to the incident.
+
+    '
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'Emergency response planning and coordination are not mentioned as contributing factors in the incident.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no mention of distracted operation contributing to the incident.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'Structural integrity and material fatigue are not mentioned as contributing factors in the incident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 20
+  explanation: Human error played a significant role in the incident, as evidenced by the misunderstandings and procedural lapses between the RPO and the signals technician (3.11). The RPO's incorrect assumption and the signals technician's failure to clarify the duration and nature of their work contributed to the incident (3.8, 3.10).
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'While the document discusses non-technical skills and communication, it does not specifically attribute the incident to safety culture or organizational influences.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather information dissemination and interpretation are not mentioned as contributing factors in the incident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the incident.
+
+    '

@@ -1,0 +1,70 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: There is no mention of fatigue or alertness as factors in the accident report. The train driver was complying with operating procedures at the time of the accident (4.1.4).
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: 'The report does not indicate any issues with communication or crew resource management contributing to the accident.
+
+    '
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'There is no information provided in the report that suggests training or preparedness for emergency procedures were factors in the accident.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: The report states that no faults were found on either the semi-trailer or the driving unit, and it is considered unlikely that a defect in either unit contributed to the accident (4.1.6).
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems are not mentioned as contributing factors in the accident report.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 0
+  explanation: 'The report does not indicate that non-compliance with regulations or safety management issues were contributing factors in the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 10
+  explanation: The truck driver's situational awareness may have been a factor, as it is unclear whether the truck driver saw or heard the train in the seconds leading up to the collision (4.2.7, 4.2.9).
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'There is no indication in the report that equipment design and specifications were deficient or contributed to the accident.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: 'The report does not discuss risk assessment and management as a contributing factor to the accident.
+
+    '
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'Emergency response planning and coordination are not mentioned as factors in the accident report.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no evidence in the report to suggest that the truck driver was distracted at the time of the accident.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'The report does not mention structural integrity or material fatigue as contributing factors to the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 20
+  explanation: Human error may have played a role, as the truck driver did not stop at the compulsory stop sign before driving onto the level crossing (4.2.12, 4.2.4).
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'The report does not provide information on safety culture or organizational influences as factors in the accident.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather is not mentioned as a factor in the accident report.
+
+    '
+- name: Other
+  percentage: 70
+  explanation: The primary contributing factors to the accident were related to the road and level crossing design, which are not covered by the predefined safety themes. Specifically, the sighting distances at the level crossing did not meet minimum standards, which could have given the truck driver insufficient time to clear the level crossing (4.3.7). Additionally, the road profile prevented the truck, set at a road-legal ground clearance height, from passing over the level crossing without becoming stuck (4.4.8). These issues are related to infrastructure design and regulatory standards, which are not explicitly covered by the provided safety themes.

@@ -1,0 +1,56 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no mention of fatigue or lack of alertness as contributing factors in the document. The pilot''s physical and mental state prior to the accident is not described in terms of fatigue or sleep deprivation.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: The document does not indicate any issues with communication or crew resource management as contributing factors to the accident. The communications between the pilot and the ground crew were described as "normal" (4.1.2).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'The document does not provide evidence that a lack of training or preparedness for emergency procedures contributed to the accident. It does not discuss the pilot''s or passengers'' training or preparedness in relation to the accident.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: The Commission found no defect with the balloon that could have contributed to the accident, and the maintenance standards and regulatory oversight of those standards were not directly linked to the cause of the accident (4.1.3, 4.1.4).
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: The document does not suggest that the fire detection and suppression systems were a factor in the accident. The fire resulted from the balloon contacting power lines, and the fire extinguisher present was not used (4.5.5).
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The document indicates that the regulatory oversight of commercial ballooning was not sufficient to ensure a safe and sustainable industry (5.12). However, this was more of an organizational issue and did not directly cause the accident.
+- name: Situational Awareness
+  percentage: 20
+  explanation: The pilot's situational awareness was compromised as he allowed the balloon to descend below the level of power lines, which he likely knew the location of and had seen before the descent (5.3). This lack of situational awareness was a significant factor in the accident.
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: The basic design and safety of the balloon were considered adequate, and improvements in the design would not have altered the outcome of this accident (5.14).
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: 'The document does not discuss risk assessment and management as a contributing factor to the accident. The pilot''s decision-making process is not described in terms of assessing and managing risks.
+
+    '
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: Emergency response services arrived promptly at the accident site, and a faster response would not have improved the survivability of the accident (4.5.10). Therefore, emergency response planning and coordination were not factors in the accident.
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no indication in the document that the pilot was distracted by non-essential activities during the operation of the balloon.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: The document does not suggest that structural integrity or material fatigue were factors in the accident. The balloon was found to be in good working order despite the fire and impact damage (4.4.3).
+- name: Human Error and Error Management
+  percentage: 50
+  explanation: The accident was caused by errors of judgement by the pilot, and the possibility that the pilot's performance was impaired as a result of ingesting cannabis cannot be excluded (5.10). This suggests that human error played a significant role in the accident.
+- name: Safety Culture and Organizational Influences
+  percentage: 10
+  explanation: The pilot did not have a current medical certificate as required by Civil Aviation Rules, showing a disregard for compliance with the rules (5.8). This indicates an issue with the safety culture and organizational influences within the pilot's operation.
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: The weather conditions were suitable for the balloon flight that morning, and there is no indication that weather information played a role in the accident (5.1).
+- name: Other
+  percentage: 10
+  explanation: The "Other" category is included to account for the pilot's use of cannabis, which is not covered by the predefined safety themes. The pilot had a post-mortem THC blood level of 2 micrograms per litre, which was likely the result of the pilot smoking cannabis shortly before the flight (5.9). This factor could have impaired the pilot's cognitive abilities and contributed to the errors in judgement that led to the accident.

@@ -1,0 +1,62 @@
+- name: Maintenance Procedures and Compliance
+  percentage: 20
+  explanation: The main parachute's packing likely contributed to its opening asymmetrically, which was a significant factor in the accident. The operator's packing records and incident reports were checked, and no evidence was found to suggest any link between the packers working that day and the main parachute opening with a line twist. However, the packer who packed the accident parachute was not tested for drug and alcohol immediately after the incident, as required by the operator's procedures (3.38, 3.39). After the accident, the operator engaged an independent parachute technician who identified several potential improvements for the main parachute repacking process (3.40).
+- name: Equipment Design and Specifications
+  percentage: 15
+  explanation: The reserve parachute developed a tension knot as it opened, which the tandem master was unable to clear. The tension knot deformed the right rear part of the canopy, resulting in the tandem pair descending in a steep, right-hand spiral turn until they struck the water at Lake Wakatipu. The cause of the tension knot forming in the suspension lines of the reserve parachute could not be conclusively determined, and there was insufficient evidence to determine if the VTC-1 reserve parachute was more susceptible to tension knots than any alternative tandem reserve parachute (4.3, 4.4, 4.5).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 15
+  explanation: The tandem master's skill and training assisted the tandem pair's chances of survival. The tandem master remained calm during the accident and kept talking to the tandem rider, which indicates that training played a role in managing the situation post-malfunction (3.6).
+- name: Emergency Response Planning and Coordination
+  percentage: 15
+  explanation: The operator's planned water emergency response did not have due regard to the minimum survival time for people immersed in cold water. The operator's plan did not ensure parachutists were rescued in a time appropriate for survival in the conditions, nor did it have a vessel to implement such a recovery (4.12).
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The Civil Aviation Rules did not set minimum safety requirements for tandem parachuting operations to mitigate the risk of a parachute landing unintentionally in water. Additionally, the Civil Aviation Rules referenced standards for life preservers and flotation devices that were generic and not specifically suitable for parachute operations (4.10, 4.11).
+- name: Risk Assessment and Management
+  percentage: 10
+  explanation: The operator had recognized that the Queenstown site posed a risk of unintentional parachute landings in the adjacent lake and had taken steps to mitigate that risk. However, the lifejacket used on this parachute descent could not be inflated sufficiently to support the rider's head above water, and the reason for the lifejacket not inflating fully could not be conclusively determined (4.6, 4.7).
+- name: Human Error and Error Management
+  percentage: 5
+  explanation: The tandem master's decision-making during the malfunction and the subsequent water landing, including the partial inflation of the lifejacket and the disconnection of the lower-right passenger harness connection, indicate that human error and error management were factors in the survivability of the incident (3.21, 3.25).
+- name: Situational Awareness
+  percentage: 5
+  explanation: The tandem master's situational awareness during the malfunction and the water landing contributed to the management of the situation. The tandem master's ability to remain calm and take appropriate actions during the accident indicates that situational awareness played a role (3.6).
+- name: Communication and Crew Resource Management
+  percentage: 5
+  explanation: While there is no direct mention of communication issues contributing to the accident, the tandem master's ability to keep talking to the tandem rider during the accident indicates that communication was maintained, which is a critical aspect of crew resource management (3.6).
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no mention in the document of fatigue or alertness being a factor in the accident.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'There is no mention in the document of fire detection or suppression systems being related to the accident.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no mention in the document of distracted operation contributing to the accident.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'There is no mention in the document of structural integrity or material fatigue being a factor in the accident.
+
+    '
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'There is no direct mention in the document of safety culture or organizational influences contributing to the accident, although the operator''s response to the incident and subsequent improvements suggest an awareness of safety culture.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'There is no mention in the document of weather information dissemination or interpretation being a factor in the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the accident outside of the predefined themes.
+
+    '

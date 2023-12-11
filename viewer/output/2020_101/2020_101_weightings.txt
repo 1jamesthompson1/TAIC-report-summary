@@ -1,0 +1,16 @@
+"2020_101","[12  13  14  15  16  17  18  19  20  21  22]","0.0","There is no mention of fatigue or alertness issues in the document. The truck driver's actions were not attributed to fatigue or lack of alertness.
+","0.0","0.0","The document does not discuss any issues related to communication or crew resource management contributing to the accident.
+","0.0","0.0","There is no information provided in the document regarding the training or preparedness for emergency procedures as a contributing factor to the accident.
+","0.0","0.0","The document states that ""no such issues were noted in the truck’s pre-accident or post-accident inspections"" (12.4), indicating that maintenance procedures and compliance were not a contributing factor.
+","0.0","0.0","Fire detection and suppression systems are not mentioned as a factor in the accident.
+","0.0","10.0","The document highlights issues with the lack of formal SFAIRP assessments for recommended risk treatments (12.7, 14.7), indicating a problem with regulatory compliance and safety management.
+","0.0","26.667","The truck driver's lack of situational awareness is evident as they were ""very likely unaware of the truck’s forward movement"" and their ""visual attention was focused downwards on some undetermined distraction within the truck’s cab"" (12.5).
+","5.774","0.0","There is no indication that equipment design and specifications played a role in the accident.
+","0.0","16.667","The document discusses the LCSIA process and the lack of documented SFAIRP assessments for level crossing risk treatments (14.7), indicating issues with risk assessment and management.
+","5.774","0.0","Emergency response planning and coordination are not discussed as factors in the accident.
+","0.0","43.333","Distracted operation is a significant factor as the truck driver was ""looking down towards, and reaching with their left arm into, the passenger side area"" and ""believed the truck to be stationary"" (12.5, 13.3).
+","5.774","0.0","The document states that ""it is therefore exceptionally unlikely that the low tread on three of the truck’s four rear tyres contributed to this accident in any way"" (12.4), indicating that structural integrity and material fatigue were not factors.
+","0.0","3.333","While human error is involved, the document does not discuss error management strategies or their failure as contributing to the accident.
+","5.774","0.0","The document does not provide information on safety culture or organizational influences as direct factors in the accident.
+","0.0","0.0","Weather conditions, such as sun-strike, were considered but judged ""very unlikely to have significantly contributed to this accident"" (13.4).
+","0.0","true","N/A"

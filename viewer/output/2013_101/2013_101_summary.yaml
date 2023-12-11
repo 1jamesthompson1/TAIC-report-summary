@@ -1,0 +1,56 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 10
+  explanation: The report indicates that fatigue and alertness were considered as potential contributing factors, especially for driver B who reported restless sleep prior to the derailment. However, it was concluded that "there was no evidence that fatigue due to accumulated sleep loss was a factor" (4.6.7 (unvalidated and unrepairable quote)). Despite this, the time of day and length of time on shift, which are related to fatigue and alertness, were likely factors affecting performance (4.6.7, 5.7). Therefore, a moderate percentage is assigned to this theme.
+- name: Communication and Crew Resource Management
+  percentage: 25
+  explanation: The report highlights several instances where communication and crew resource management failed. For example, the mill shunting staff's comments about the locomotives not working together were not communicated (4.5.5), and the required intermediate brake test was not carried out when the third locomotive was attached (4.5.5). These lapses in communication and crew resource management were directly linked to the chain of events leading to the derailment (5.6). Therefore, a significant percentage is assigned to this theme.
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 5
+  explanation: While the report does not directly address the training and preparedness for emergency procedures as a contributing factor to the derailment, it does mention that the train drivers and train examiner were qualified for their roles (4.2.1). However, driver B was overdue for his intermediate brake test assessment (4.2.2), indicating a potential gap in ongoing training. A small percentage is assigned to reflect the minor role this theme may have played.
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: The investigation did not uncover any mechanical faults with the wagons, freight loading issues, or track geometry issues that could have contributed to the derailment (4.1.5). Therefore, maintenance procedures and compliance did not contribute to the accident.
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems were not mentioned as factors in the derailment, and there is no indication that fire played any role in the incident.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 15
+  explanation: The report discusses non-compliance with train operating practices (4.1.6) and the lack of an interlock capability that would have prevented the incorrect brake setup (4.4). Additionally, KiwiRail's air brake rules required an intermediate brake test that was not performed (4.5.8). These issues indicate shortcomings in regulatory compliance and safety management, contributing to the derailment.
+- name: Situational Awareness
+  percentage: 10
+  explanation: Situational awareness was compromised as indicated by the failure to detect the incomplete electrical connection (4.3) and the incomplete coupling connection (4.1.4). These oversights contributed to the chain of events leading to the derailment.
+- name: Equipment Design and Specifications
+  percentage: 10
+  explanation: The design of the DL-class locomotives lacked an interlock capability between the two driving cabs, which allowed for the incorrect brake setup (4.4). This design issue directly contributed to the inability to control the train's brakes effectively.
+- name: Risk Assessment and Management
+  percentage: 5
+  explanation: While the report does not explicitly mention risk assessment and management as a contributing factor, the lack of an interlock feature (4.4) and the failure to perform the intermediate brake test (4.5.8) suggest that risks were not adequately managed.
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'The report does not discuss emergency response planning and coordination as factors in the derailment, and there is no indication that emergency response was a contributing factor.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no mention of distracted operation contributing to the derailment in the report.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: The report specifically states that there were no mechanical faults with the wagons or locomotives that contributed to the derailment (4.1.5), indicating that structural integrity and material fatigue were not factors.
+- name: Human Error and Error Management
+  percentage: 20
+  explanation: Human error played a significant role in the derailment, as evidenced by the incorrect brake handle setup (4.4) and the failure to perform the required brake test (4.5.8). The report also discusses the need for error management practices, such as non-technical skills, to help reduce accidents (4.5.3).
+- name: Safety Culture and Organizational Influences
+  percentage: 5
+  explanation: The report indicates that KiwiRail has been working to address non-technical skills awareness and embed these principles in its workforce (4.5.15). While not directly cited as a contributing factor to this specific derailment, organizational influences on safety culture are acknowledged as important for overall safety.
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather was not mentioned as a contributing factor to the derailment in the report.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the report that contributed to the derailment outside of those already defined.

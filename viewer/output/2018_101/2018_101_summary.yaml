@@ -1,0 +1,48 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: There is no mention of fatigue or alertness issues contributing to the derailment. The report focuses on the mechanical failure of the rail due to a manufacturing defect and does not attribute any aspect of the accident to the physical or mental state of the operators (4.3.3, 4.3.7, 4.3.9).
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: The report does not indicate that communication or crew resource management played a role in the derailment. The analysis and findings focus on the fractured rail and do not mention any communication issues among team members (4.2.2, 4.3.7).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 5
+  explanation: While the report does not directly attribute the cause of the accident to training and preparedness for emergency procedures, it does mention that the first response to rescue passengers and crew from the derailed train was conducted appropriately and in accordance with the operator's procedures (5.6). This suggests that training and preparedness played a role in the effective response to the incident, but not in the cause of the derailment itself.
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: The report does not suggest that maintenance procedures and compliance were factors in the derailment. The focus is on the rail fracture due to a manufacturing defect, rather than maintenance issues (4.3.7, 4.3.9).
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: Fire detection and suppression systems are not mentioned in the report as contributing to the derailment. The incident was a mechanical failure and did not involve a fire (4.3.7, 4.3.9).
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The report indicates that KiwiRail was unable to provide the Commission with the certificate of compliance for the rail, which suggests a potential issue with regulatory compliance and safety management. However, it could not be established whether a certificate had not been supplied or had not been retained (4.4.5). This indicates a possible safety management issue but not a direct cause of the derailment.
+- name: Situational Awareness
+  percentage: 0
+  explanation: Situational awareness is not cited as a contributing factor to the derailment. The report focuses on the physical condition of the rail and does not discuss the operators' awareness of the environment or potential hazards (4.3.7, 4.3.9).
+- name: Equipment Design and Specifications
+  percentage: 15
+  explanation: The report identifies a manufacturing defect in the rail as the point of fracture initiation, which is directly related to equipment design and specifications. The defect was introduced during the machining process and was located at a point of maximum in-service rail loading (4.3.7, 4.3.9, 4.4.3).
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: Risk assessment and management are not mentioned as factors in the derailment. The report focuses on the specific cause of the rail fracture and does not discuss the broader risk management processes (4.3.7, 4.3.9).
+- name: Emergency Response Planning and Coordination
+  percentage: 5
+  explanation: Emergency response planning and coordination are mentioned in the context of the effective first response to the derailment, but they are not cited as contributing factors to the cause of the accident. The report states that the response was conducted appropriately (5.6).
+- name: Distracted Operation
+  percentage: 0
+  explanation: Distracted operation is not mentioned in the report as a contributing factor to the derailment. The focus is on the mechanical failure of the rail (4.3.7, 4.3.9).
+- name: Structural Integrity and Material Fatigue
+  percentage: 65
+  explanation: The report concludes that the fracture was consistent with a fatigue crack and that the rail section dimensions were consistent with its specifications. The fracture initiated from a manufacturing defect at the foot of the rail, which was a chatter mark introduced during the machining process (4.3.3, 4.3.7, 4.3.9). This indicates that structural integrity and material fatigue were the primary factors contributing to the derailment.
+- name: Human Error and Error Management
+  percentage: 0
+  explanation: Human error and error management are not identified as contributing factors in the report. The derailment was caused by a mechanical failure due to a manufacturing defect, not by human error (4.3.7, 4.3.9).
+- name: Safety Culture and Organizational Influences
+  percentage: 5
+  explanation: The report mentions that KiwiRail was unable to provide a certificate of compliance and that the supply agreement did not specify a surface roughness standard for machined components, which suggests issues with safety culture and organizational influences. However, these are not directly linked to the cause of the derailment but rather to the context in which the defect occurred (4.4.4, 4.4.5).
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: Weather information dissemination and interpretation are not relevant to the derailment, as the report does not mention weather as a contributing factor. The derailment was due to a mechanical failure (4.3.7, 4.3.9).
+- name: Other
+  percentage: 0
+  explanation: The report does not indicate any other safety themes that contributed to the derailment. The cause is attributed to a specific manufacturing defect in the rail (4.3.7, 4.3.9).

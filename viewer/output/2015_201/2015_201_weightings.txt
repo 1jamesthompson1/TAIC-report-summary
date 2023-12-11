@@ -1,0 +1,16 @@
+"2015_201","[14  15  16  17  18  19  20]","0.0","There is no mention of fatigue or alertness issues contributing to the accident in the provided document.
+","0.0","1.667","There is no evidence in the document suggesting that communication breakdowns or crew resource management failures were factors in the accident.
+","2.887","28.333","The document indicates that the master had not received adequate training on the Kea's new control system and had a limited understanding of the system's functionality and the various back-up functions he could have used to regain control of the Kea (4.3.3, 4.3.15). This lack of training and preparedness for emergency procedures significantly contributed to the accident.
+","2.887","16.667","The Kea had known reliability issues with the control levers, and Fullers was aware of these issues when the vessel resumed service (4.1.2). However, there is no direct mention of maintenance procedures and compliance contributing to the accident, but the presence of known issues suggests a potential link to maintenance practices.
+","5.774","0.0","Fire detection and suppression systems were not mentioned as contributing factors in the accident.
+","0.0","11.667","Fullers did not adequately manage the risks associated with the replacement of the Kea's propulsion control system and the vessel's re-entry to service (4.4.5, 5.5). This indicates a lack of compliance with safety management practices.
+","2.887","13.333","The master's lack of awareness that he did not have control of the starboard propulsion unit until it was too late contributed to the collision (4.2.1, 4.2.9). This indicates a failure in maintaining situational awareness.
+","5.774","5.0","The design of the control system, specifically the follow-up mode and the give-away button, played a role in the accident (4.2.5, 4.2.6). However, the primary issue was the training and understanding of the equipment rather than its design.
+","0.0","15.0","Fullers' failure to undertake a proper risk assessment when reliability issues with the control system were known, and the subsequent decision to continue using the follow-up mode, contributed to the accident (4.4.1, 4.4.2, 4.4.3).
+","0.0","0.0","There is no mention of emergency response planning and coordination issues contributing to the accident in the provided document.
+","0.0","0.0","There is no evidence in the document suggesting that the master was distracted during the operation of the vessel.
+","0.0","0.0","Structural integrity and material fatigue were not mentioned as contributing factors in the accident.
+","0.0","8.333","Human error, specifically the master's failure to fully press the 'give-away' button and his misinterpretation of the aural alarms, contributed to the loss of control of the starboard propulsion system (4.2.5, 4.2.6, 5.1, 5.2).
+","2.887","0.0","While the document criticizes Fullers' training system and risk management, it does not explicitly link the accident to the broader safety culture or organizational influences.
+","0.0","0.0","Weather was not mentioned as a factor in the accident.
+","0.0","true","N/A"

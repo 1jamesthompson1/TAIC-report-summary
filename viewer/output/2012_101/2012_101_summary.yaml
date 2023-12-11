@@ -1,0 +1,72 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention fatigue or alertness as contributing factors to the accident.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention communication issues or crew resource management problems as contributing factors to the accident.
+
+    '
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss emergency procedures or preparedness in relation to the accident.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss maintenance procedures or compliance issues as contributing factors to the accident.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention fire detection or suppression systems in the context of the accident.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 30
+  explanation: The accident occurred because "the load shifted outside the standard loading gauge, and struck several track-side structures and another train, because it had not been secured in accordance with the KiwiRail Freight Handling Code" (5.1). This indicates a lack of regulatory compliance and safety management.
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention situational awareness as a contributing factor to the accident.
+
+    '
+- name: Equipment Design and Specifications
+  percentage: 20
+  explanation: The "special-movement wagon was not well equipped to secure properly the special load it was designed to convey" (4.1.3), and "the mdd class special-movement wagon allocated to transport the load from dunedin to christchurch had not been furnished with the appropriate load-securing equipment" (5.5 (invalid formatted quote)). This indicates that equipment design and specifications were contributing factors.
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss risk assessment and management practices in relation to the accident.
+
+    '
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss emergency response planning or coordination in the context of the accident.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention distracted operation as a contributing factor to the accident.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss structural integrity or material fatigue in relation to the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 50
+  explanation: The staff involved with loading and securing the load were "not sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code" (4.3, 5.4). This indicates that human error and a lack of error management were significant contributing factors.
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss safety culture or organizational influences as contributing factors to the accident.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention weather information dissemination or interpretation in the context of the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident outside of those already listed.
