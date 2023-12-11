@@ -31,6 +31,10 @@ def search_reports():
     
     results['NoMatches'] = results.apply(lambda row: f'<a href="#" class="no-matches-link" data-report-id="{row["ReportID"]}">{row["NoMatches"]}</a>', axis=1)
 
+    # Update all of the weightings to be links
+    for theme in searcher.themes:
+        results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
+
 
     html_table = results.to_html(classes='table table-bordered table-hover align-middle', table_id="dataTable", justify = "center", index=False, escape=False)
     
@@ -45,9 +49,16 @@ def get_report_text():
     searcher = search.Searcher()
     highlighted_report_text = searcher.get_highlighted_report_text(report_id, search_query, settings)
 
-    return jsonify({'report_id': report_id, 'highlighted_report_text': highlighted_report_text})
+    return jsonify({'title': report_id, 'main': highlighted_report_text})
 
+@app.route('/get_weighting_explanation', methods=['GET'])
+def get_weighting_explanation():
+    report_id = request.args.get('report_id')
+    theme = request.args.get('theme')
 
+    explanation = search.Searcher().get_weighting_explanation(report_id, theme)
+
+    return jsonify({'title': f"{theme} for {report_id}", 'main': explanation})
 
 
 def run():

@@ -89,8 +89,7 @@ class Searcher:
                 continue
 
             for theme in self.themes:
-                report_row[theme] = round(reportID_summary_row[theme].values[0], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
-
+                report_row[theme] = round(reportID_summary_row[theme + "_weighting"].values[0], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
             report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
             report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
 
@@ -159,5 +158,13 @@ class Searcher:
         highlighted_text = regex.sub(r'<span class="match-highlight">\1</span>', text)
         return highlighted_text
     
+    def get_weighting_explanation(self, report_id, theme):
+        # Search the csv file for the weighting explanation
+        
+        row = self.summary.loc[self.summary["ReportID"] == report_id]
 
+        if len(row) == 0:
+            return "Not found"
+        
+        return row[theme + "_explanation"].values[0]
 
