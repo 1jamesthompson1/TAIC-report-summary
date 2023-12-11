@@ -1,72 +1,18 @@
+/* CSS for manging the search form */
+@import "search.css";
 
-#loading {
-    display: none;
-    text-align: center;
+/* CSS for styling the results table */
+@import "results.css";
+
+body {
+    font-family: Arial, sans-serif;
     padding: 20px;
-    font-size: 24px;
-    color: #333;
-    animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-#advancedSearch {
-    display: none;
-}
-.match-highlight {
-    background-color: yellow;
-}
-
-/* The Modal */
-.modal {
-display: none;
-position: fixed;
-z-index: 1000;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: rgba(0, 0, 0, 0.7);
-overflow: auto; /* Allow modal content to be scrolled */
-}
-
-/* Modal Content */
-.modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    max-height: 80%; /* Set a maximum height for the modal content */
-    overflow-y: auto; /* Allow modal content to be scrolled */
-}
-
-/* Modal Title */
-.modal-title {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
+    background-color: #f5ecec;
+    justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
 }
 
-/* Close Button */
-.close {
-    font-size: 25px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-/* Scrollable Content */
-.scrollable-content {
-    overflow-y: auto;
-    max-height: calc(100% - 50px); /* Subtract the height of the title bar */
+h1 {
+    color: #333;
+    text-align: center;
 }

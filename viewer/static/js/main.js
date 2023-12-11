@@ -14,8 +14,11 @@ $(document).ready(function() {
         });
     });
     $('#advancedSearchBtn').click(function() {
-        $('#advancedSearch').toggle();
-        
+        if ($('#advancedSearch').css('display') == 'flex') {
+            $('#advancedSearch').css('display', 'none')
+        } else {
+            $('#advancedSearch').css('display', 'flex')
+        }
     });
         
 });
