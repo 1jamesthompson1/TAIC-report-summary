@@ -1,0 +1,68 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no mention of fatigue or alertness issues in the document. The report does not attribute the cause of the fire or the effectiveness of the firefighting response to the physical or mental state of the crew members.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 15
+  explanation: The report highlights issues with communication and crew resource management, such as the lack of an effective command and control system during the firefighting response, and the master not reporting to the bridge to take control from there (4.3.5, 4.3.7). Additionally, the crew did not muster at the muster station, and firefighting teams were assembled on an ad-hoc basis (4.3.6).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 25
+  explanation: The report identifies that the firefighting drills on board the Taokas Wisdom were not effective in ensuring that all crew members were familiar with their tasks and responsibilities in the event of a fire (4.4.3, 4.4.4). The second officer was unaware of his role in controlling ventilation during a fire, and the master was unsure of which officer was in charge of which fire party (4.4.4).
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: 'The document does not provide evidence that maintenance procedures and compliance were factors in the accident. There is no mention of maintenance issues contributing to the fire or the firefighting response.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'The document does not indicate that the fire detection and suppression systems failed or contributed to the accident. The report focuses on the response to the fire rather than the detection or suppression systems.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 20
+  explanation: The report points out that the company's safety management system did not ensure that each crew member understood their emergency responsibilities, as evidenced by the second officer's lack of awareness of his role (4.4.7, 4.4.8). This indicates a safety management issue that could affect future operations.
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There is no specific mention of situational awareness as a contributing factor to the accident in the document.
+
+    '
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'The document does not suggest that equipment design and specifications played a role in the cause of the fire or the firefighting response.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: 'The document does not discuss risk assessment and management as factors that contributed to the accident.
+
+    '
+- name: Emergency Response Planning and Coordination
+  percentage: 20
+  explanation: The report indicates that the emergency response was not well-coordinated, with no crew muster conducted and no alert to shore authorities (4.3.5). The master did not establish a command center on the bridge as required, and the firefighting response lacked structure (4.3.7).
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no indication in the document that distracted operation was a factor in the accident.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'The document does not mention structural integrity or material fatigue as contributing factors to the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 20
+  explanation: Human error is implied in the report through the ineffective firefighting response, such as the chief officer attempting to tackle the fire without proper equipment and being overcome by smoke (4.3.9). Additionally, the second officer's lack of knowledge about his role suggests a failure in error management (4.4.4).
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'While the report does mention issues with the safety management system, it does not explicitly discuss the broader safety culture or organizational influences as direct factors in the accident.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'The document does not discuss weather information as a factor in the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.

@@ -1,0 +1,60 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 15
+  explanation: The driver's mistake is considered a lapse, possibly attributable to him "being past the end of his shift late at night, with a less heightened sense of awareness because he was performing the additional task of storing an empty train for the night" (4.2.9). This indicates that fatigue and reduced alertness likely played a role in the incident.
+- name: Communication and Crew Resource Management
+  percentage: 20
+  explanation: The analysis identified ineffective non-technical skills (NTS) between the driver, the TXO, and the signaller (4.1.2). There was "no radio communication between the signaller and the relay driver before the relay train departed" (4.2.1), and "no conversation is reported to have taken place between the relay driver and the TXO once in the cab of the relay train" (4.2.7). Better communication could have prevented the incident (5.5).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that a lack of training or preparedness for emergency procedures contributed to the incident.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: 'The document does not indicate that maintenance procedures and compliance were factors in the incident.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems were not relevant to the incident described.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The Wellington Signalbox controlled area is based on 1930s' vintage signalling principles and does not meet modern design standards, lacking safety overlaps and fail-safe backup systems (4.3.4). The system is "highly reliant on drivers always stopping at a Red light" (4.3.4), indicating a need for better safety management.
+- name: Situational Awareness
+  percentage: 15
+  explanation: The driver mistook the Green signal 99 for his train instead of the Red signal 100 (4.2.4). This indicates a lack of situational awareness, which was a contributing factor to the incident.
+- name: Equipment Design and Specifications
+  percentage: 10
+  explanation: The arrows on the signals are "not illuminated or reflective and are difficult to see in the dark and the rain" (4.2.4), which contributed to the driver's confusion. The signal layout and associated control system have remained relatively unchanged since 1937 (4.3.1), indicating that equipment design and specifications are outdated and contributed to the incident.
+- name: Risk Assessment and Management
+  percentage: 10
+  explanation: The incident highlights the importance of having checks or defenses in a system to counteract the known risk of human error (4.2.10). The congested nature of the track layout and the lack of modern safety features indicate insufficient risk management (4.3.3-4.3.5).
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that emergency response planning and coordination were factors in the incident.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'The document does not indicate that the driver was engaged in any non-essential activities that could have distracted him from operating the vehicle.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'There is no mention of structural integrity or material fatigue contributing to the incident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 15
+  explanation: The driver's error in mistaking the signal and the lack of effective error management systems contributed to the incident (4.2.4, 4.2.8, 4.2.10). The system's reliance on human performance without adequate checks or defenses indicates a need for better error management (4.4.22).
+- name: Safety Culture and Organizational Influences
+  percentage: 5
+  explanation: The lack of written guidelines, instructions, or procedures for signallers (4.4.6) and the accepted practice of advancing trains to signals held at red without technical interventions (4.4.4) suggest organizational influences that did not prioritize safety as much as necessary.
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: Weather conditions were not a direct factor in the incident, although the rain made it difficult for the driver to see the non-reflective arrows (4.2.4).
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the incident.

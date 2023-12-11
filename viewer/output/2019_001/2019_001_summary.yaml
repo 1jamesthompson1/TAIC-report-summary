@@ -1,0 +1,53 @@
+- name: Equipment Design and Specifications
+  percentage: 30
+  explanation: The accident was significantly influenced by the design of the Cloudburst monsoon bucket, particularly the hook-and-loop fastener system that had the potential to come undone during operations. The investigation found that "the hook-and-loop fastener system had the potential to come undone during operations" (3.12), and that "the displaced tubular, segmented, stainless-steel ring very likely allowed the shape of the bucket to change in the airflow, resulting in the bucket suddenly moving into close proximity to the helicopter" (4.4). Additionally, the manufacturer had developed design improvements to reduce the likelihood of the hook-and-loop fastener tabs coming undone, but these modifications were not mandatory (4.5).
+- name: Maintenance Procedures and Compliance
+  percentage: 20
+  explanation: Maintenance and inspection of the monsoon bucket's components, such as the hook-and-loop fastener tabs, were critical. The investigation found that one of the tabs appeared worn, which may have contributed to the failure (3.19). Furthermore, IMS issued a Service Information Letter detailing a pre-flight checklist for the Cloudburst bucket, indicating the importance of equipment checks and maintenance (3.51).
+- name: Risk Assessment and Management
+  percentage: 15
+  explanation: The operators were required to identify risks specific to their operations and mitigate these as much as reasonably practicable (3.2). However, there was insufficient guidance available to pilots on the appropriate line length for monsoon bucket operations, which likely increased the risk of the external load coming into contact with the tail rotor (4.7, 4.8).
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The manufacturer of the Cloudburst monsoon bucket had not promulgated key operational information on and limitations of the Cloudburst monsoon bucket to operators (3.32). Additionally, there was no requirement for a manufacturer to promulgate any operational information or limitations, and IMS had not done so (3.32).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 5
+  explanation: While not directly cited as a contributing factor, the ability of the pilot to conduct a forced landing after the tail rotor was disabled (3.7) indicates that training and preparedness played a role in the outcome of the event. However, the lack of specific training on the limitations and proper use of the Cloudburst monsoon bucket could be inferred as a contributing factor (3.32).
+- name: Human Error and Error Management
+  percentage: 5
+  explanation: The reason for the hook-and-loop fastener tabs becoming undone could not be determined (4.3), which suggests the possibility of human error in the installation or maintenance of the bucket. Additionally, the operator had not reported an earlier incident with the same bucket through their internal quality and safety management system (3.46).
+- name: Situational Awareness
+  percentage: 5
+  explanation: The pilot's situational awareness was likely compromised by the unexpected change in the bucket's aerodynamic stability, which resulted in the bucket moving into close proximity to the helicopter and the lifting line striking the tail rotor (4.4).
+- name: Safety Culture and Organizational Influences
+  percentage: 5
+  explanation: The operator's safety management system had evolved since an earlier occurrence with the same bucket, and such an occurrence would now be captured and actioned appropriately (3.47). This indicates that organizational influences and safety culture played a role in the management of safety issues.
+- name: Communication and Crew Resource Management
+  percentage: 5
+  explanation: There is no direct mention of communication issues contributing to the accident. However, the lack of communication from the manufacturer to operators regarding the operational information and limitations of the Cloudburst monsoon bucket (3.32) suggests a role in the event.
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests emergency response planning and coordination were factors in the accident.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests fire detection and suppression systems were factors in the accident.
+
+    '
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests fatigue and alertness were factors in the accident.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests distracted operation was a factor in the accident.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: While the hook-and-loop fastener tabs showed signs of wear (3.19), the document does not provide evidence that structural integrity or material fatigue of the helicopter itself were factors in the accident.
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: The environmental conditions at the time of the accident were reported as good, with nearby weather stations recording about 15 knots of wind (3.9), indicating that weather information dissemination and interpretation were not factors in the accident.

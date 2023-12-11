@@ -1,0 +1,45 @@
+- name: Crew resource management
+  percentage: 30
+  explanation: The incidents at Tamaki involved poor communication and a lack of adequate crew resource management, which contributed significantly to the outcome. The report highlights multiple instances where better communication could have prevented the incidents, such as the signal box controllers not following procedures and the driver not using available systems to ensure correct signal interpretation. The report also notes the potential benefits of introducing CRM across the rail industry to improve safety outcomes (4.6.1-4.6.9).
+- name: 'Safety management systems: regulator monitoring'
+  percentage: 20
+  explanation: The established practice of not contacting train control before taking manual control of signal boxes, as was the case with the Tamaki signal box, compromised the safety of rail operations. This indicates a failure in the safety management system and a lack of effective regulator monitoring to ensure adherence to proper rail operating procedures (5.3).
+- name: Safety for workers in the rail corridor
+  percentage: 15
+  explanation: The near miss with the track worker was due to the worker not watching out in all directions as required by the individual train detection method of protection. This indicates a lack of adherence to safety procedures for workers in the rail corridor, which is a critical safety issue (4.5.1-4.5.4).
+- name: Performance impairment from fatigue or mental health
+  percentage: 10
+  explanation: The Auckland signal box controller's relief shift duties required him to switch between signal box desks multiple times within a short period, which could have contributed to his losing awareness of the trains he was signalling. This disruptive work pattern may have led to fatigue or mental strain, affecting his performance (5.4).
+- name: Technologies to track and to locate
+  percentage: 5
+  explanation: 'While not directly mentioned in the report, the use of tracking and locating technologies could have potentially mitigated the risk of the incidents by providing real-time information on train locations and movements, thus preventing the wrong route setting and subsequent events.
+
+    '
+- name: Performance impairment from substance use
+  percentage: 0
+  explanation: 'There is no mention in the report of substance use being a factor in the incidents, so it is not applicable in this case.
+
+    '
+- name: Safety at level crossings
+  percentage: 0
+  explanation: 'The incidents did not involve level crossings, so this safety theme is not applicable to the events at Tamaki.
+
+    '
+- name: Non-disclosure of medical conditions
+  percentage: 0
+  explanation: 'There is no evidence in the report to suggest that non-disclosure of medical conditions played a role in the incidents.
+
+    '
+- name: Resilience of transport infrastructure to extreme weather
+  percentage: 0
+  explanation: 'Extreme weather was not a factor in the incidents, so this safety theme is not relevant.
+
+    '
+- name: Systems for maintenance
+  percentage: 0
+  explanation: 'The report does not indicate that maintenance issues or mechanical failures were factors in the incidents, so this safety theme does not apply.
+
+    '
+- name: Other
+  percentage: 20
+  explanation: The "Other" category is introduced to account for specific procedural issues and human errors that do not fall under the predefined safety themes. This includes the signal box controller's incorrect entry of train movement in the register, misunderstanding of work bulletin information, and the driver's incorrect assumptions and failure to use the signal alert system (5.1, 5.5, 5.7, 5.9, 5.10). These issues are characteristic of organizational influences and risk controls that were not adequately managed.

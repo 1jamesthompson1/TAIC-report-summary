@@ -1,0 +1,1909 @@
+﻿ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Report 10 -101: wrong route setting, high -speed transit through turnout,  
+near miss and SPAD (signal passed at danger), Tamaki, 13 August 2010  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurren ces in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recomm endations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without cha rge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+  
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Final Report  
+Rail inquiry 10-101 
+wrong route setting, high -speed transit through turnout, near miss 
+and SPAD  (signal passed at danger) , 
+Tamaki,  13 August 2010  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication:  October 2012    
+
+Transport Accident Investi gation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission ) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New  Zealand, and  
+co-ordinating and co -operating with other accident investigation organisations overseas .  The principal 
+purpose of its inquiries is to determine the circumstances and cause s of occurrences with a view to 
+avoiding similar occurrences in the fu ture.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informing members of the transpor t sector, both 
+domestically and internationally, of the lessons that can be learnt from transport accidents and 
+incidents.   
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull, QC  
+   
+ 
+Key Commission p ersonnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator in Charge    Barry Stephenson  
+General Counsel    Rama Rewi  
+Assessor     Alan McM aster  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, AXA Centre, 80 The T errace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+  
+ 
+ Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Ac cident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any proceedings with the exception of a Coroner’s 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigati on Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission ’s inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documen ts referred to during the Commission’s inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commissio n. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Location of accident  
+Source: mapsof.net  
+ Legend  
+ Tamaki, Auckland  
+ 
+ 
+ 
+  
+  
+ 
+ 
+
+ 
+  
+General location of Tamaki  
+Tamaki Station  
+
+  
+ Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ .....................  iii 
+Data summary  ................................ ................................ ................................ ................................ ...................  v 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  3 
+3. Factual information  ................................ ................................ ................................ ................................ ... 4 
+3.1. Introduction  ................................ ................................ ................................ ................................ .. 4 
+Overview of the incidents  ................................ ................................ ................................ ............  4 
+Background information  ................................ ................................ ................................ ..............  4 
+3.2. Narrative  ................................ ................................ ................................ ................................ ....... 6 
+3.3. Description of th e track and signals at Tamaki  ................................ ................................ .........  9 
+3.4. Train control in the area  ................................ ................................ ................................ ...........  11 
+The train register  ................................ ................................ ................................ .......................  11 
+The train control mimic display  ................................ ................................ ................................  13 
+3.5. Track work at Tamaki  ................................ ................................ ................................ ...............  13 
+3.6. Other parties present  ................................ ................................ ................................ ................  15 
+3.7. Description of the passenger train (Train 2238)  ................................ ................................ .... 15 
+3.8. Personnel information  ................................ ................................ ................................ ..............  15 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  17 
+4.1. Introduction  ................................ ................................ ................................ ...............................  17 
+4.2. The wrong route setting  ................................ ................................ ................................ ............  17 
+The bulletin information was not clear to all parties  ................................ ..............................  20 
+4.3. Taking the wrong eoute at high speed  ................................ ................................ ....................  21 
+4.4. The signal passed at danger (SPAD)  ................................ ................................ .......................  24 
+4.5. Near miss with track worker  ................................ ................................ ................................ .... 25 
+4.6. Communication  ................................ ................................ ................................ .........................  26 
+Terminology  ................................ ................................ ................................ ...............................  27 
+5. Findings  ................................ ................................ ................................ ................................ ..................  29 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  31 
+Gener al  ................................ ................................ ................................ ................................ ...................  31 
+Key safety actions  ................................ ................................ ................................ ................................ .. 31 
+Other safety actions  ................................ ................................ ................................ ...............................  31 
+7. Recommendat ions ................................ ................................ ................................ ................................ . 33 
+General   ................................ ................................ ................................ ................................ ...................  33 
+Recommendations  ................................ ................................ ................................ ................................ . 33 
+8. Key lessons  ................................ ................................ ................................ ................................ .............  34 
+9. Works cited  ................................ ................................ ................................ ................................ .............  35 
+Appendix 1:  Tamaki signalling and interlocking diagram  ................................ ................................ ...........  36 
+Appendix 2: Compulsory stop protection: warning board placements ................................ ........................  37 
+Appendix 3: Daily bulletin 13 October 2010  ................................ ................................ ................................  38 
+Appendix 4: Timel ine of events  ................................ ................................ ................................ .....................  39 
+
+  
+Report 10 -101 | Page i Figures  
+Figure 1   Auckland area signal box control zones  ................................ ................................ ....................  5 
+Figure 2  Signal 16AC close and at a dist ance  ................................ ................................ .........................  7 
+Figure 3  Tamaki Signal 8B  ................................ ................................ ................................ ........................  9 
+Figure 4  Tamaki track layout  ................................ ................................ ................................ ..................  10 
+Figure 5   Signal box controller’s train register display (example from Otahuhu)  ................................ . 12 
+Figure 6   Tamaki mimic display  ................................ ................................ ................................ ...............  13 
+Figure 7  ADL/ADC Diesel Multiple Unit like Train 2238 ................................ ................................ ........  15 
+ 
+ 
+ 
+ 
+  
+Page ii | Report 10 -101 Abbrev iations  
+Abbreviation  Description  
+Commission  Transport Accident Investigation Commission  
+ 
+CRM  crew resource management  
+ 
+DMU  diesel multiple unit  
+ 
+ITD individua l train detection (method of track occupancy)  
+ 
+km/h  kilometre(s) per hour  
+ 
+m metre(s) 
+ 
+PIC person -in-charge  
+ 
+SPAD  Signal Passed at Danger  
+ 
+TAIC Transport Accident Investigation Commission  (the Commission)  
+ 
+Veolia  Veolia  Transport Auckland Limited  
+  
+  
+  
+  
+ 
+ 
+  
+  
+Report 10 -101 | Page iii Glossary  
+Term  Description  
+aspect (of a signal)  the combination of illuminated coloured lights and the 
+relative  position of the grouped display heads showing at a 
+railway signal mast. Each aspect has a particular meaning 
+to train drivers  
+ 
+blocking  a method of track protection where the signaller blocks a 
+section of track between 2 controllable points in order to 
+prevent rail movements within the blocked section and 
+allow track workers to occupy the track  
+ 
+compulsory stop protection  a method of protection for personnel working on the rail 
+network , where approaching trains are required to stop at a 
+compulsory stop s ign and obtain permission from the 
+person -in-charge  of the worksite to proceed through the 
+site. Also referred to by the rule number that describes the 
+protection method: Rule 905  
+ 
+controlled network  the part of the New Zealand operational  rail network where 
+all train movements and track occupations are controlled by 
+the national network controller ( KiwiRail ) 
+ 
+crossing  the section of a turnout where the 2 inside rails cross  over 
+as the 2 separate tracks lead away from the single entry 
+track 
+ 
+Down Main line the track in a double -line system that leads towards  a 
+nominated reference point , i.e. the track metrage 
+decreases as the train advances . (In this incident the Down 
+Main line led away from Britomart)  
+ 
+Eastern Line  a Veolia term that des cribes the railway passenger line 
+between Westfield Junction and Britomart via Glen Innes 
+(includ ing Tamaki)  
+ 
+foul time a method of protection for track workers during their track 
+occupation when they are using light tools or using vehicles 
+near to the tr ack 
+ 
+mimic display  an electronic display that simulates the status of a large, 
+widely spread or remote process on a smaller operator 
+display such as a computer screen. Mimic displays are 
+widely used in many industries and transport systems  
+ 
+metrage  a rail industry term meaning the position on a track as 
+measured in metres from the origin of that line and as 
+marked with fixed marker posts  
+ 
+person -in-charge  the name gi ven to the person -in-charge  of protect ing 
+personnel worki ng at a worksite  
+  
+points  the general name for a turnout  (may also be called a 
+switch)  
+ 
+Page iv | Report 10 -101 Term  Description  
+set back  to reverse a rail vehicle. Normal rail movements are only in 
+the forward direction so a ‘set back’ procedure must be 
+approved by the respective train control ler 
+ 
+switch  a part of a turnout , but also used as the general name for a 
+turnout  
+ 
+train register  a networked computer software system for recording train 
+movements through a particular signal box control zone  
+ 
+turnout  the proper name for a section of ra il and associated control 
+devices that provides 2 diverse route options from a single 
+track . The normal route is straight through and the reverse 
+(or alternative ) route usually turns out and away from the 
+straight -through route  
+ 
+Up Main line the track in a double -line system that leads away from a 
+nominated reference point , i.e. the track metrage increases 
+as the train advances. (In this incident the Up Main line led 
+towards Britomart)  
+ 
+ 
+  
+  
+Report 10 -101 | Page v Data summary  
+Vehicle particulars   
+Train type and number:  diesel multiple unit (DMU) Train 2238  
+Classification:  ADC 855 (leading) and ADL 805  
+Year of manufacture : 1981  
+Operator:  Veolia Transport Auckland Limited (Veolia)   
+Other operators involved:  KiwiRail  (train contr oller, signal box controllers and track workers)  
+ 
+Occurrence particulars   
+Date and time : 
+ 13 August 2010 at 1336  
+Location : 
+ Tamaki Station limits, North Island Main Trunk, Auckland  
+Persons involved : 
+ the train driver, 4 crew and approximately 100 passengers  
+Injuries : 
+ nil reported  
+Damage : 
+ nil reported  
+Time references : all times stated in this report are in New Zealand standard time 
+expressed in the 24 -hour format  
+
+ 
+Report 10 -101 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 13 August 2010 a scheduled  Auckland passenger train  (‘the passenger train’)  with about 
+100 people on board travelled  from Papakura to Britomart Station in central Auckland via 
+Westfield and Tamaki Stations .  An unscheduled shunt was signalled to follow  the passenger 
+train  from Westfield as far as Tamaki , so that it could  enter a rail siding.  
+1.2. There was a miscommunication when details of the shunt  were passed from the Otahuhu to 
+the Auckland signal box controller and as a result the Auckland signal box controller confused 
+the running order of the 2 trains.  Not realising that the shunt was behind  the passenger train , 
+he set the route at Tamaki to divert the shunt to the opposite Down Main line in preparation 
+for ent ering the rail siding from there.  This wrong route setting for the passenger train  was the 
+first of a set of 4 related incidents.  
+1.3. A worksite  had been set up within the Tamaki Station limits to enable work to be undertaken  
+by the work gang .  The Tamaki Station limits were a short distance from Panmure Station.  The 
+passenger train was supposed to stop at Panmure Station then continue through the worksite  
+along the usual Up Main line.  The driver of the passenger train was not aw are that the route 
+had been incorrectly set to divert his train to the Down Main line. His train had passed a yellow 
+signal before Panmure, which told him that the next signal around the corner and out of sight 
+from within Panmure Station was not displayin g green.  Instead the next signal was a ‘low 
+speed ’ signal , advising the driver that the points were set to divert his train to the Down Main 
+line and that his train was to be travelling at no more than 25 kilometres per hour  (km/h) . 
+1.4. The passenger train st opped and exchanged passengers at Panmure.  The train was running 
+behind schedule owing  to several small delays.  Before departing  from  Panmure Station the 
+driver called the work gang and asked for permission to pass through the worksite.  He was 
+granted p ermission to pass through ‘at normal speed ’.  The person in the work gang who 
+responded  had noticed that Points No.15 at Tamaki had moved to set the route for the next 
+train across to the  Down Main line, but did not mention this to the driver o f the passenger 
+train . 
+1.5. Keen to make up lost time on the schedule, the driver accelerated the passenger  train away 
+from Panmure Station with the intention of reaching full speed.  He appeared to have  
+forgotten that the previous signal had been yellow and was not expecting the next signal to be 
+a low -speed signal .  His train rounded the bend , where he eventually noticed the next signal.  
+Despite braking his train heavily , it went through the low-speed cross -over to the Down Main 
+line at nearly twice the m aximum speed limit  of 25 k m/h.  This was the second  incident.  
+1.6. The passenger  train reacted violently as it went through the cross -over to the other line, but 
+did not roll over or derail.  None of the people on board was injured, but some were shaken by 
+the violent movement of the train.  
+1.7. One of the track workers was walking beside the Down Main line at the time , with his back to 
+the approaching  passenger train.  As the driver was bringing his train to a stop, it narrowly 
+avoided striking the track worker.  T his was the third  incident.  
+1.8. The driver of the passenger train was also shaken by this experience , but after a short pause  
+he decided that the signal box controller’s intention must have been to re -route his train to the 
+Up Main line farther down the track,  so without speaking with the signal box controller or with 
+train control, he moved his train along the Down Main line towards the next set of points.  He 
+was not looking at the signals, but instead was looking at the railway line ahead to check that 
+the p oints were set to take his train across to the Up Main line.  When he saw that they were 
+not, he stopped his train, but not before he had passed a red signal that required him to stop .  
+This was the fourth  incident.  
+1.9. The Transport Accident Investi gation Commission’s  (the Commission’s)  findings  included that 
+the wrong route for the passenger train  had been  set through a combination of poor 
+communication and failure to adhere to standard procedures when switching Tamaki Station 
+to manual control .  If the driver had driven his train to the signals , the wrong route setting 
+should not have created any danger to his train and its occupants, but systems that had been 
+put in place to help drivers remember previous signal s were not well designed for the task  and 
+ 
+
+<< Page 2 >>
+ Report 10 -101 not routinely used by train drivers.  Opportunities for correcting or preventing all 4 of these 
+incidents were  lost through substandard levels of crew resource management (CRM) that 
+should have had all of the rail participants working as a team to man age safe railway 
+operations.  
+1.10.  A lack of clarity in the daily work bulletin issued to all rail participants and the failure to follow 
+standard procedures when switching the Tamaki Station signal box to manual contributed to 
+the signal box controllers being  unaware that a compulsory -stop-protected worksite  existed 
+within  the Tamaki Station limits.  
+1.11.  A number of safety actions  were taken  by KiwiRail to address immediate safety issues around 
+communication, and as part of the upgrade to the Auckland rail networ k the signal boxes 
+involved with this incident have been decommissioned and incorporated into the Wellington 
+National Train Control  Centre.  These safety actions have superseded the  need for other safety  
+recommendations . 
+1.12.  The Commission is making recommenda tions  to the Chief Executive of the New Zealand 
+Transport Agency to address safety issues concerning : systems to help train drivers remember 
+the status of signals their train s have already passed when having to deal with the distraction 
+of stopping at inte rvening stations ; and the clarity of daily work bulletins disseminating 
+important operating information to rail personnel . 
+1.13.  The key lessons  from the inquiry into this occurrence were:  
+ safe rail operations are reliant upon good communication between all 
+oper ating personnel  
+ all individuals and groups of individuals working in the rail industry need to 
+understand  fully and be working to a common objective before safe rail 
+operations can be achieved  
+ documents created for the purpose of providing essential inform ation to rail 
+participants should be clear, unambiguous and in a format suitable for the 
+intended recipients.  
+  
+ 
+Report 10 -101 
+<< Page 3 >>
+ 2. Conduct of the inquiry  
+2.1. This set of incidents occurred on 13 August 2010 and was verbally notified to the Commission 
+on the same day. After makin g preliminary enquiries, t he Commission opened  an inquiry on 18 
+August 2010.  
+2.2. Two Commission  investigators visited the site , then interviewed witnesses around Auckland 
+over 3 days from 24 August 2010.  After  a preliminary analysis, further interviews were 
+arranged  in Auckland  for 2 days from 2 November 2010.   
+2.3. Evidence  was gathered from various sources including train control telephone and radio audio 
+recordings, the passenger train ’s Tranzlog data recorder files, train control system record s, 
+train register system files, industry operating rules, signal ling and interlocking diagrams, 
+photographs, equipment manuals, personnel records, staff medical records, Veolia and 
+KiwiRail  operational guides and records and  Auckland metro railway CCTV (closed -circuit 
+telev ision) files.   
+2.4. An external specialist in human factors was engaged to review the human factor aspects of 
+the incidents . 
+2.5. Once  the preliminary key issues had been identified , Commission investigators met with 
+KiwiRail and Veolia operational managers , and re presentatives from the NZ Transport Agency , 
+on 16 March 2011 . This was to inform the m of  the facts of the incidents determined by the 
+Commission so far , to explain the Commission’s  process for consulting on its draft final report  
+and to discuss  potential recommendations  arising from the Commission’s inquiry .  
+2.6. The draft final report was submitted  for the Commissioners ’ consideration at the May 2011 
+Commission meeting. The Commission approved the draft final report for circulation to 
+interested persons  for co mment on 22 February 2012.  
+2.7. Comments were sought from 17 interested persons on 11 May 2012 and received from 3. 
+These submissions were considered and a number of changes made. On  29 August 2012  the 
+Commission approved a revised draft final report to be circ ulated to 2 interested persons for 
+further comment.  The final report was approved for publication with minor revis ions by the 
+Commission on 24 October 2012  
+ 
+  
+ 
+
+<< Page 4 >>
+ Report 10 -101 3. Factual information  
+3.1. Introduction  
+Overview of t he incidents  
+3.1.1.  An Auckland metro  passenger train wi th about 100 people on board was on a scheduled trip 
+from Papakura to Britomart Station in central Auckland  along the Eastern Line via Glen Innes 
+(see Figure 1). An unscheduled shunt , which had been holding at Westfield,  was signa lled by 
+the Otahuhu signal box controller to follow the passenger train to Tamaki. The Otahuhu signal 
+box controller then phoned  through  the shunt’s  details to the Auckland signal box controller to 
+set a route for it through to Tamaki.  
+3.1.2.  The Auckland signal box controller believed the shunt  was the only rail vehicle  between 
+Westfield and Tamaki , so immediately set a route for it to cross to the Down Main line at 
+Tamaki. The passenger train arrived at Tamaki first and therefore encountered a wrong route 
+that h ad been set for the shunt .  The driver of the  passenger train  did not respond to a signal 
+in time to avoid taking  the wrong route  through an ‘S’-shaped turnout at well above  the speed 
+limit, nearly hit ting a track worker before  finally  stopping  beyond a si gnal at stop.   
+3.1.3.  Passing a signal at stop is termed a SPAD (signal passed at danger) , which  is regarded  as a 
+serious incident  and initiates  a formal investigation and reporting process.  
+Background information  
+3.1.4.  The Auckland metro rail network is used by sche duled commuter rail and both scheduled and 
+unscheduled freight operations. This type of unscheduled  shunt  movement was a familiar 
+action for the signal box controllers and occurred  about 3 to 5 times per weekday. The last 
+movement had been  completed less t han 2 hours before this incident.  
+3.1.5.  On the day of the occurrence, track maintenance work was being carried out  by the work gang  
+on the Up Main line within  the Tamaki Station limits . Entry to the worksite  was controlled by a 
+compulsory stop board placed at  the north end of the Panmure Station platform. All trains on 
+the Up Main line were required to stop at this point and seek permission from the person -in-
+charge  of the worksite  before they could proceed beyond the compulsory stop board .  
+3.1.6.  A ‘wrong route se tting’ is where a train is presented with a signal aspect that is not intended 
+for it. The normal expected response  in accordance with the Rules1 is that the train driver 
+would recognise that the signal aspect was not intended for that train, the train would be  
+stopped and the driver would contact  the local train controller to resolve the situation . The 
+train control staff interviewed estimated that wrong route setting s occurred in the Tamaki area 
+about one or 2 times per month  and they were usually resol ved as described . This incident 
+was an exception.  
+                                                        
+1 Rail Operating Rules and Procedures, Section 2, Rule 10 – Obedience with Signals . 
+ 
+Report 10 -101 
+<< Page 5 >>
+   
+Figure 1  
+Auckland area s ignal box control zones  
+ 
+
+<< Page 6 >>
+ Report 10 -101 3.2. Narrative  
+3.2.1.  On 13 August 2010 , Train 2238 , a scheduled diesel multiple unit ( DMU ) passenger train  (the 
+‘passenger train ’) was travelling on the Up Main line from Papakura to Britomart via Westfield, 
+Sylvia Park and Glen Innes. It departed from Papakura at 1250 and was due to depart from 
+Westfield at 1318.  
+3.2.2.  An unscheduled shunt locomotive , Shunt L9, (the ‘shunt’)  was at Westfield yards waiting to  
+follow the pass enger train  to Tamaki . At Tamaki , the shunt  would then be routed to the Down 
+Main line so that it could be  set back to enter a siding near Panmure Station called the 
+Carbine Road  Siding.   
+3.2.3.  See the timeline ( Appendix 4) and the annotated track layout drawing  (Figure 4) for a visual 
+presentation of these event sequences.  
+3.2.4.  Tamaki Station had been ‘switched  in’2 before 1319 in order to provide blocking for the work  
+gang.  
+3.2.5.  The passenger train  was delayed for 1.5 minutes at Westfield while a fitter repaired the 
+windscreen wiper for the driver .  It then  departed from Westfield at 1320 . The shunt  departed 
+from Westfield at 1321 and followed  as close ly as the automatic signals would allow. At Sylvia 
+Park the shunt  was within lin e of sight of the passenger train .  
+3.2.6.  The Otahuhu signal box controller had sought approval from the train controller for the shunt  
+movement and manually entered a scheduled departure time of 1320 for it into his train 
+register on the Otahuhu tab. When it ha d departed at 1321 he updated his train register and 
+advised the Auckland signal box controller by phone  by saying  “Following the subby3, L9, light 
+engine, Tamaki”.  This abbreviated  verbal message was meant to convey that the shunt  was to 
+be signalled to f ollow the passenger train  as far as Tamaki. The Otahuhu signal box controller 
+did not include the departure time for the shunt  or the  train reference number  of the  
+passenger train . The signalling and safe working rules4 required the train running order to be 
+advised to the next signal box controller , but did not define how it was to be described.   
+3.2.7.  The Auckland signal box controller estimated an arrival time for the shunt  at Tamaki , then 
+manually entered its details into his train register on the Auckland ta b. A realistic estimate 
+would have been about 9 minutes, including station stops, but the Auckland signal box 
+controller allowed only 4 minutes ’ running time from Westfield to Tamaki with an  estimated  
+arrival at Tamaki of 1325 . He also  incorrectly  entered the movement  as a ‘departing ’ event for 
+the shunt  at Tamaki , when it sh ould have been entered as an ‘arrival ’ event .  
+3.2.8.  Immediately after the Auckland signal box controller entered the details on his train register, 
+he set a route for the shunt  to cross to t he Down Main line at Tamaki .  This included switching 
+Points No.15 from normal to reverse and Signal 16AC to ‘low speed ’ (red over a short -range , 
+low-speed yellow light) . Intermediate Signal 67024 automatically followed the status of Signal 
+16AC and change d from ‘clear -proceed’  (green)  to ‘caution’  (yellow) .  
+3.2.9.  At about the same time, the Auckland signal box controller phoned the train controller to seek 
+permission to send the shunt  directly back to the Carbine Road  Siding from the Tamaki Down 
+Main line rathe r than park it on the siding  that was occupied by the work  gang .  The train 
+controller approved this .   
+3.2.10.  Meanwhile the passenger train  stopped at Sylvia Park Station , where 12 wheelchair -bound  
+passengers and their minders were waiting to board. The wh eelchair pick -up had been 
+prearranged through the Veolia customer services supervisor.  The train manager on board the 
+passenger train  had been advised and he had informed his crew and the driver  to be  prepared 
+for a delay at Sylvia Park.  Normally a stati on stop would be about 30 to 40 seconds , but the 
+stop that day took 5.6 minutes.  
+                                                        
+2 Switching in the station is to switch the signals and points to manual control.  
+3 ‘Subby ’ was a local colloquial name for a suburban passenger train , as commonly used by the Auckland area signal box controllers.  
+4 Rail Operating  Procedures, Section L1.1, paragraph 1.3.3 . 
+ 
+Report 10 -101 
+<< Page 7 >>
+ 3.2.11.  Auckland Transport measure s Veolia’s on -time train performance at 3 - and 5 -minute windows 
+around the scheduled times.   The signalling and safe working rules expect scheduled t rains to 
+be running within 5 -minute windows. Veolia provided a worksheet5 schedule to drivers for 
+them to compare actual running times with the schedule at ‘timed stops ’ along the ir route s. 
+The timed stops along this section of track for the passenger trai n were the departure from 
+Otahuhu – 1316, the departure from Glen Innes – 1328 , and the arrival at Britomart – 1342. 
+The passenger train  was 6.5 minutes behind schedule when  it departed from Sylvia Park . The 
+driver had not advised the train controller or a  signal box controller of the delay to his service .  
+He said later  that he was attempting to make up time before reaching Britomart.  
+3.2.12.  The Auckland signal box controller was preparing to hand over his panel to the Newmarket 
+signal box controller , who would t hen merge it with his own and control both from the 
+Newmarket desk .  The Auckland signal box controller  had expected the shunt  to be at Tamaki 
+by this time , but it had not shown up on the mimic  display , so he rang the Otahuhu signal box 
+controller to confi rm the departure time. This was confirmed and they discussed possible 
+reasons for  the delay to the shunt .  The Auckland signal box controller then concluded that it 
+had been delayed by a compulsory -stop-protected worksite , when in fact it had been delayed 
+behind the late -running passenger train . 
+3.2.13.  As the passenger train  approached Panmure, t he driver sounded the horn at  the inner warning 
+board for the compulsory -stop-protected  work area as required . He recalled seeing  the 
+Intermediate Signal 67024 displaying a ‘caution ’ signal .  
+3.2.14.  The train stopped at Panmure Station  for 70 seconds , increasing the total  running time to an 
+estimated 7 minutes  behind schedule . The driver called the person -in-charge  of the worksite  
+on the radio for clearance to pass his compulsory stop board. The No.2 person -in-charge  
+approved this request with the phrase, “Proceed through my worksite  at normal speed” . The 
+driver read back the clearance . 
+3.2.15.  At about the same time , the Auckland signal box controller handed over his panel to the 
+Newmar ket controller and left the signal box to catch a train to Otahuhu , where he was to 
+complete his shift  relieving in the Otahuhu signal box.  The handover between signal box 
+controllers was completed just as a train was seen on their mimic  displays  going th rough 
+Points No.15 at Tamaki.   They both thought that it was the shunt , when in fact it was the 
+passenger train . 
+                                                        
+5 Called the ‘locomotive engineer suburban worksheet ’. 
+Figure 2  
+Signal 16AC close and at a distance  
+the No.2 person -in-
+charge  was 
+standing here  Signal 
+16AC  
+ 
+
+<< Page 8 >>
+ Report 10 -101 3.2.16.  The passenger train  had left Panmure Station and accelerated under full throttle towards the 
+normal 90 km/h speed limit for the line . The dista nce between the compulsory stop board at 
+Panmure platform and Signal 16AC was approximately 500 m etres (m)  and the track was on a 
+gentle  climbing gradient with a left -hand curve. Signal 16AC was placed high above the centre 
+of the 2 tracks on a gantry and visible from at least 200 m ( see Figure 2). The work  gang was 
+clear of the track , standing to the right -hand side of the driver near the eastern buttress of the 
+Morrin Road overbridge.  
+3.2.17.  When the work  gang came in to the driver’s view , he sounded the horn .  He  recalled  that he 
+received what he thought was a hand movement  in response  from the work  gang .  At about 
+this time the driver noticed that Signal 16AC was showing a ‘low speed ’ signal , which me ant 
+that his train should have been travelling at no more than 25 km/h  at the signal and he 
+should have been prepared to stop before any obstruction .  This would have appeared as a 
+red light on the top 3 -colour indicator. It meant  that Points No.15 was set  to direct his train 
+from the Up Main line to the adjacent Down Main line. The driver had been  expecting to see a 
+green light , and although he reacted quickly and braked hard , the train entered the turnout at 
+between 40  km/h and 55 km/h.  
+3.2.18.  The train swayed abnormally as it passed through the ‘S’-shaped cross -over line but remained 
+on the rails. The passengers were shaken and rolled about  but no -one reported injuries. 
+Witness accounts indicated that the train rolled on the bogies and lifted an unusual amount 
+on the suspension at the centre of the train , where the 2 cars were coupled .  A loud hiss of 
+escaping air was also heard from both inside and outside the train.  The train and the track 
+were undamaged by the incident.  
+3.2.19.  The driver slowed the train to a halt j ust past Signal 12A. The train had travelled an estimated 
+115 m in 9.5 seconds from Signal 16AC to where it stopped.  
+3.2.20.  The person -in-charge  of the worksite  had been walking north near the Down Main line towards 
+his parked vehicle . He was using a protection m ethod called individual train detection (ITD)6. 
+This was a standard method of protection during a track occupation , where the person was 
+individually responsible for their  own lookout and for their  safe clearance from moving  rail 
+vehicles.  
+3.2.21.  The person -in-charge  was facing  the direction  from which  trains normally came on the Down 
+Main line when the passenger train  approached him from behind , passed  close by and 
+stopped just in front of him.   He had not heard the train approaching nor was he aware that it 
+was approaching from behind him.  
+3.2.22.  It was unusual for a passenger train to be routed to the Down Main line at Tamaki. The driver 
+said that he was expecting to  be redirected to the Up Main line at the north end  of Tamaki 
+Station  so, having  remained stationary f or about 20 seconds , he moved the train slowly 
+towards the north end of the Tamaki Station  limits  at approximately 30 km/h .  The driver said 
+that when he realised that the north -end Points No.3 were not set to route his train to the Up 
+Main line, he braked  his train but it stopped  a few metres past the ground Signal 8B , which 
+was at stop.  This constituted a SPAD incident at Signal 8B (Figure 3).  
+3.2.23.  The driver then made a base -call7 on the radio to train control and described  his situation as 
+having been wrong  routed to the Down Main line at Tamaki.  
+3.2.24.  The train controller replied  that he thought the train was the wrong train in the wrong place 
+and asked the driver to hold where he was. The train controller contacted the Newmarket  
+signal box controller by phone t o advise him of the wrong routing .  Once the SPAD at Signal 8B 
+was realised, the driver of the passenger train  was relieved  of his duties . 
+  
+                                                        
+6 The i ndividual train detection track occupation method is described in the Rail Operating Rules and Procedures , Section 9 – Track 
+Safety Rules, Rule 917 . 
+7 Base -call is a single -button feature of the radio that sends a coded signal on the selected channel. Recipients with the matched 
+receiving equipment hear a ringing tone and the train vehicle identification number is displayed.     
+ 
+Report 10 -101 
+<< Page 9 >>
+  
+3.3. Description of the track and signals at Tamaki  
+3.3.1.  An extract from t he Tamaki track signal ling and interlocking diag ram is shown in Figure 4 and 
+the full diagram is provided in A ppendix 1 for a more detailed view of the track through Tamaki 
+Station . 
+3.3.2.  The rail track between Otahuhu and Britomart via Tamaki is a double line , with the left -hand 
+track facing north dedicated to travel towards Britomart ( the Up Main line) and the other for 
+traffic travelling away from Britomart ( the Down Main  line).  
+3.3.3.  The signals were controlled automatically under a control system  described in the Double Line 
+Automatic  Signalling Regulations. The control system detected the presence of a train on the 
+track and automatically changed the signals to maintain a safe distance between consecutive 
+trains.  
+3.3.4.  Tamaki was a decommissioned passenger station and only used for shunt m ovements. 
+Normally passenger rail traffic would pass straight through the Tamaki Station  limits in 
+accordance with the automatic signalling, without slowing or stopping. The  station would 
+normally be in automatic ( ‘switched out ’) mode .  When rail movements  were required within 
+the Tamaki Station  limits, such as the shunt , the Auckland signal box controller  would take 
+manual control of Tamaki (switch  in) and make the required control changes . The station 
+controls could be switched between automatic and manua l by clicking on a button on the 
+mimic  display .  
+3.3.5.  Within  the Tamaki Station  limits there was one siding and 2 back -shunt stub tracks to assist 
+with shunting movements. Most of t he up and Down Main line sections  within  the Tamaki 
+Station  limits were designat ed bi -directional.  
+ 
+Down Main line at Tamaki  
+Signal 8B  
+Figure 3 
+Tamaki Signal 8B  
+ 
+
+<< Page 10 >>
+ Report 10 -101 
+Figure 4 
+Tamaki track layout  
+ 
+Report 10 -101 
+<< Page 11 >>
+  
+3.4. Train control in the area 
+3.4.1.  Train operations within the Auckland metro area were controlled by the Auckland train 
+controller located in the Wellington National Train Control Centre. The operation of some high-
+activity zones within th e area was delegated to local signal box controllers  (see the shaded 
+signal box control zones in  Figure 1), but the train controller still retained overall responsibility 
+for train movements through those zones . The signal box con troller s provided a local interface 
+with train drivers , but still required approval from train control before dispatching movements 
+from a station or terminal other than scheduled passenger movements.   
+3.4.2.  The Otahuhu signal box managed local traffic passing t hrough Otahuhu and Westfield Station s 
+and the southern Auckland rail junctions to Southdown, Penrose and Tamaki. It also controlled 
+the entry of all locomotives and passenger trains from the Westfield maintenance facility  to 
+the controlled network.  
+3.4.3.  The Auckland signal box managed  the entry/exit of trains at Britomart Station  and Tamaki 
+Station .  
+The train register  
+3.4.4.  The signal box controllers used a networked computer display ( called the ‘train register ’; see 
+Figure 5) to record train mo vements  within their respective control zone s. The train controller 
+in Wellington used the information entered by the signal box controllers to plot actual rail 
+movements against scheduled times on a train control diagram. The Auckland signal box 
+controlle r’s train register display was similar to the example  from Otahuhu shown in Figure 5.  
+3.4.5.  The train register was pre-programmed with the published train timetable , but unscheduled 
+services had to be entered manually at the time  by th e respective signal box controllers. Any 
+person with access to the  networked system could look at displays for other location s, but 
+company policy was that signal box controllers  were only able to enter data for  their own 
+location s. Train movements were au tomatically sorted on the train register display by the time 
+for an event at the location . The user display  was usually scrolled to display a window , with the 
+current time near the top of the page and future times towards  the bottom.  
+3.4.6.  Tamaki was not set up  with its own location display page , so standard practice was for the 
+Auckland signal box controller to use the single Auckland display  to log movements at both 
+Tamaki and Britomart Stations . Tamaki movements would be separated from Britomart events 
+by abo ut 12 minutes ’ running time , and the signal box controller would add note s in the 
+comments column  of the Tamaki movements to note that they were not travelling the full line 
+distance to Britomart .  
+ 
+
+<< Page 12 >>
+ Report 10 -101 
+Figure 5  
+Signal box controller’s train register display (example from Otahuhu)  
+ 
+Report 10 -101 
+<< Page 13 >>
+ The train control mimic display  
+3.4.7.  The Eastern Line , whic h runs between Westfield and Britomart via Tamaki, was usually 
+controlled automatically , but the signal box control zones (as shown in Figure 1) could be 
+manually controlled. The Wellington -based train controller and the Auckland signal box 
+controller each had a mimic display that represented  Tamaki Station  (shown as one of the 
+blue zones in Figure 1) to enable them to control the zone  remotely . The rest of the Eastern 
+Line was not represented on a mimic  display for either controller.   
+3.4.8.  The mimic display show ed the real-life status of points and signals and approximate train 
+locations. The top horizontal line of the Tamaki mimic display ( Figure 6) represents the Up 
+Main line going f rom Westfield (left) to Britomart (right). The Down Main line going away from 
+Britomart is the centre line and the Tamaki siding is the bottom line. The status of all points 
+within station limits is shown by the yellow directional status lines , with the id entifying 
+number s adjacent and letter s identifying the normal (N) and reverse (R) positions . Signals are 
+represented by the signal identification number s and coloured symbol s for the current status. 
+The track segment is red when it is occupied by a train , but the length of the red segment is 
+not relative to train length.  
+ 
+Figure 6  
+Tamaki mimic display  
+ 
+3.4.9.  The status of the Tamaki mimic display shown in Figure 6 was the actual  display after the 
+passenger train  had set back to clear Points No.3 on  the day of this incident  and after the 
+SPAD . The shunt  is the red line before Signal 16AC (labelled as 16) and the passenger train  is 
+within station limits on the Down Main line but clear of Signal 8B. A passenger train that was 
+travelling from right to left is shown stopped before Signal 4 on the Down Main line. The points  
+were  in the normal position of straight through on the up and Down Main lines. The button at 
+the bottom is the controller’s Tamaki Stat ion manual/ automatic  cursor control button shown 
+in the manual control  state ( if the button was pressed the station would switch to auto).  
+3.5. Track work at Tamaki  
+3.5.1.  On the day of this incident, a  three -man track maintenance gang  (the ‘work gang’) was 
+working  within the Tamaki Station area , replacing an insulated track circuit joint on the Up 
+Main line near Forster’s Siding (see Figure 4).      
+3.5.2.  Industry safety rules required that track occupants use an approved  form of track occupation 
+protection to ensure their protection  from harm by rail vehicles.  The protection method 
+selected by the person -in-charge  was ‘compulsory stop protection ’ on the Up Main line only, as 
+defined by Rule 905 in the rail operating rules8 (see Appendix 2 ).  
+3.5.3.  This could only be applied to a single track in a double -track area where the separation 
+distance from all work personnel and t he work area was greater than 4  m to the  centre of the 
+                                                        
+8 KiwiRail Rail Operating  Rules and Procedures, Section 9  – Track Safety Rules, Rule 905 . 
+
+ 
+
+<< Page 14 >>
+ Report 10 -101 adjacent track.  If this separation could not be assured, both tracks had to be protected . The 
+required separation distance was met at the planned work area .  
+3.5.4.  Compulsory stop protection is a planned track occupation between stated times. Signs are 
+placed at specific distances from the work area in the direction from which  trains would be 
+travelling as they approach the work area , and standard actions are required as instructed by 
+these signs.  
+3.5.5.  The compulsory stop board  was placed  at the end of the Panmure Station platform , where a 
+driver could see it during passenger operations and seek clearance before moving away from 
+the platform.  
+3.5.6.  The compulsory -stop-protected  work area for this site was approved then  advise d to the 
+industry via an official b ulletin (see Appendix 3) conta ining a standard set of information. It 
+stated : the type of protection applied;  that it applied to the Up Main line only;  the metrage 
+limits  of the protected work area ; the nearest stations on both sides of the p rotected work 
+area;  the ti me and date of the  planned work;  the general type of work being carried out ; and 
+the contact details for the person -in-charge . The b ulletin did not mention that the work was 
+within  the Tamaki Station  limits . KiwiRail said that it was not its “policy at the time to mention 
+that the protected work area included station limits at a given location”.   
+3.5.7.  The driver of the passenger train , the 2 signal box controllers , the train controller  and the 
+person -in-charge  of the work gang had copies of the daily bulletin with them or in thei r 
+workplace s and were required under their respective operating licences to familiarise 
+themselves with current bulletins  at the start of each working shift.  
+3.5.8.  On the day, the work  gang completed its planned work earlier than the approved track 
+occupa tion period of 0900 to 1500 , and the person -in-charge  decided to use the remaining 
+time for a small , unplanned job to replace some loose bolts at the rail crossing near  Points 
+No.15 A.  
+3.5.9.  The full conditions for use of Rule 905 compulsory stop protect ion could not be met at the 
+new work are a because  Points No.15 A were  less than 4  m from  the adjacent track  and the 
+Down Main line would have been obstructed . 
+3.5.10.  The person -in-charge  did not request protection on the Down Main line. Instead he decided to 
+add a protect ion system to manage the risk from the less than 4  m of track separation . He 
+supplement ed the compulsory -stop-protected work area  with a protection method called 
+Individual Train Detection and used an observer.  
+3.5.11.  The person -in-charge  and his No.2  evaluat ed the job then decided they needed  additional 
+equipment and material from the vehicle before they started work . The person -in-charge  
+wanted to bring his vehicle  closer to the secondary work area , so he requested ‘foul time’9 
+protection from the Auckland s ignal box controller to apply to the Tamaki siding so he could 
+park his vehicle on the siding . Three  minutes after this conversation the controller switched 
+Points No.15 to reverse  for what he thought would be the shunt .  The work  gang was standing 
+beside the points and saw them  move.  
+3.5.12.  The person -in-charge  handed control of his compulsory -stop-protected secondary work area 
+and the radio to  his No.2 person -in-charge  and proceeded to walk along the Down Main line 
+towards his vehicle , which  was parked wit hin the Tamaki Station  limits  but clear of the tracks . 
+The No.2 person -in-charge  and the observer stood clear of the Down Main line near the Morrin 
+Road overbridge, ready to control rail traffic through the work area . They were there when t he 
+driver of the passenger train  called  to gain clearance to enter the compulsory -stop-protected  
+site.  
+  
+                                                        
+9 Foul time is defined in Rail Operating Rules and Procedures, Section 9, Rule 918.  
+ 
+Report 10 -101 
+<< Page 15 >>
+ 3.6. Other parties present  
+3.6.1.  The passenger train  was crewed by a driver, one train manager and 3 passenger operators 
+and had  approximately 100 passengers on board.   
+3.6.2.  The shun t was crewed by a driver and his assisting rail operator.  
+3.6.3.  The work  gang had one person -in-charge , the No.2 person -in-charge  and an observer . A 
+separate emergency protection person was located near the compulsory stop board at 
+Panmure Station  in case a train failed to stop at it . 
+3.6.4.  The Auckland signal box was manned by one signal box controller. This person was near a task 
+change that required him to relocate to the Otahuhu signal box. Owing  to the low workload at 
+the time,  he was able to hand  contr ol of the Auckland panel to the Newmarket signal box 
+controller (in the adjacent room) for the last 30 minutes of his duty time on the Auckland 
+panel . The Newmarket signal box controller was in control of the Auckland signal box when the 
+passenger train  passed through Points No.15.  
+3.6.5.  The Auckland desk in the National Train Control Centre at Wellington was manned by one train 
+controller . The network control manager  at the Centre had overall responsibility for national 
+rail movements conducted by all of the regional train controllers  at the Centre . 
+3.7. Description of the passenger t rain (Train 2238)  
+3.7.1.  The passenger train  was a 2 -car DMU  set. The trailer car ADC 855 was leading with the driver 
+in the cab. The motor car ADL 805 was trailing.  
+3.7.2.  The motor car had two 220-kilowatt under -slung diesel traction motors linked to the final drive 
+units in the bogies through  hydraulic transmission units.  The trailer car had a single under -
+slung diesel engine and alternator set to provide electrical power for both cars.  
+3.8. Personnel information  
+3.8.1.  The driver of the passenger train  had recently gained his operating licence  and had about 6 
+months ’ experience as a qualified driver .  His on-the-job training phase had been interrupted 
+owing  to events outside work , but the refresher training car ried out by Veolia after each break 
+Figure 7 
+ADL/ADC Diesel Multiple Unit like Train 2238  
+ 
+
+<< Page 16 >>
+ Report 10 -101 brought him back to the same stage before he continued  on-the-job training . He had passed 
+all pre -licence tests and post -licence observations to date .  
+3.8.2.  His allocated work  shift in the previous  2 weeks  had gene rally started between 0830 and 
+1300 , with two 0600 starts.  
+3.8.3.  The driver was considered to be medically fit for normal duties by the Veolia medical assessor 
+at the time of this incident.  The Rail Operating Rules and Procedures place t he responsibility 
+for daily assessment s of fitness for duty on the respective operational staff10, but the rules 
+also require  all rail personnel who have concerns  about the fitness for duty of other rail 
+personnel to report the matter s to their manager s. Managers and supervisors are expected to 
+stand down rail personnel when they have concerns  about their  current fitness for duty.  The 
+driver considered that he was fit for work when he reported for duty on the day of this incident  
+and no -one else had reporte d any concern s at the time .  
+3.8.4.  The post -incident medical assessment of the driver conducted by his employer revealed that 
+he had been undergoing long -term treatment for a condition at the time but that the condition 
+had been  under control and was not relevan t to this incident. It also revealed that he had 
+recently been experiencing overt stress symptoms , such as problems sleeping, headaches and 
+exhaustion  brought on predominantly by non -work issues . On the day prior to the incident he 
+had not experienced any problems , but o n the day of the incident he had  had a headache  that 
+he self -medicated with Panadol.  
+3.8.5.  The driver had started work at Westfield yard then travelled as a passenger into Britomart to 
+collect his first train for the day. H is first job was from Britomart to Papakura , where he had a 
+short break before driving the passenger train  from there back to Britomart. It was on this 
+second trip that these incidents  occurred.  
+3.8.6.  The Auckland signal box controller had had about 2 years’ exp erience since gaining his 
+operating certificate and was familiar with both the Auckland and Otahuhu signal box 
+operation s. He said that he  had felt rested and fit for duty that day.  
+3.8.7.  The Otahuhu signal box controller was a senior member of the team with more than  7 years’ 
+experience  as a signal box controller. At the time he was acting team leader. He said that he 
+had felt reasonably rested and fit for duty that day.   
+3.8.8.  The person -in-charge  of the work  gang and his No.2 each  had more than  25 years of ra il 
+experience. The person -in-charge  had a current licence  to operate category J  (multi -worksite)  
+for which he had completed a refresher course 11 days beforehand , and his most recent 
+safety observation had been carried out in January 2009 . 
+  
+                                                        
+10 Rail Operating Rules and Procedures, Section 1  – General Rules, Rule 8(a) – Fitness for Duty. 
+ 
+Report 10 -101 
+<< Page 17 >>
+ 4. Analysis  
+4.1. Intro duction  
+4.1.1.  This report covers 4 separate but connected incidents that occurred at Tamaki:   
+ a wrong route was set by the Auckland signal box controller  for the 
+passenger train  
+ the driver of the passenger train  respond ed to the ‘low speed ’ signal  
+too late and h is train followed the wrong route from the Up Main line 
+to the Down Main line at a dangerously high speed  
+ the driver of the passenger train  made a wrong assumption that his 
+train would be re -routed from the Down Main line to the Up Main line 
+and passed  a red signal at stop (SPAD) by several metres  
+ a track worker was not actively looking in both directions  for trains 
+while walking near the track , so narrowly avoid ed being  hit by the 
+passenger train  after it had taken the wrong route . 
+Ineffective communicatio n was a factor common to all 4 incidents.   
+4.2. The wrong route setting  
+4.2.1.  The Auckland signal box controller set a wrong route for the passenger train  because he 
+misunderstood  the correct running order of the trains adjacent to the shunt.  
+4.2.2.  When an unscheduled serv ice like the shunt was to be signalled on  to the controlled network 
+at Westfield bound for Tamaki, there was a standard procedure that should have been 
+followed. The driver of the unscheduled shunt w ould contact the Otahuhu signal box controller 
+and reques t clearance for the trip to  the Carbine Road Siding. The signal box controller would 
+seek approval from the train controller for the movement , then set the signals for the shunt to 
+depart from the Westfield yards at the approved time and conditions.  The p rocedure was 
+followed correctly up to this point.  
+4.2.3.  The Auckland signal box controller needed to take manual control of the Tamaki signal box. He 
+needed to know the correct order of the trains arriving at Tamaki and what worksite  activity 
+was occurring within the signal box control zone . 
+4.2.4.  When the shunt entered  the main line at Otahuhu bound for the Carbine Road Siding via 
+Tamaki, this information needed to be passed to the Auckland signal box controller.  In this 
+case the Auckland signal box c ontroller had already taken manual control of Tamaki because 
+he had earlier had to arrange blocking protection for the work gang, so the Otahuhu signal box 
+controller was responsible for passing on this information to him.  
+4.2.5.  The rail operating rule  (Rail Ope rating Rules and Procedures, Section L1.1, paragraph 1.3.3) 
+said:  
+When attended, it will be necessary to advise the adjacent Signalbox/Panel 
+concerned of the running order of all trains, except suburban passenger services 
+unless they are running 5 minutes or more late . 
+4.2.6.  During interviews both signal box controllers and their manager said that this  procedure  was 
+normally observed  by giving the planned or actual time the shunt entered the Up Main line and 
+the train number for the passe nger train it was following.  This would have been an effective 
+way to pass on the information.  It would have been better if the procedure  had simply said 
+this.  However, the Otahuhu signal box controller did not follow that usual practice.  He did not 
+give the departure time of the shunt from Westfield and did not even give its destination as 
+the ‘Carbine Road Siding ’.  Nor did he give the train number of the passenger train it was 
+following.  Instead he said the shunt was following the ‘subby ’.  The omission of this important 
+information was the first of several communication failures that resulted in the wrong route 
+being set for the passenger train.  
+ 
+
+<< Page 18 >>
+ Report 10 -101 4.2.7.  The Auckland signal box controller erroneously thought that the ‘subby ’ was another 
+passenger tr ain that had already passed through Tamaki, so he thought the shunt was the 
+next train to arrive at Tamaki and set the route for it to cross to the Down Main line. 
+4.2.8.  Following this incident KiwiRail  issued a safety briefing to all signal box  contro llers (on 29 
+September 2010 ). The safety briefing reinforced the correct communication protocol 
+described in the Rail Operating Rules and Procedures for use over radios11 and instructed 
+signal box co ntrollers to apply  the same princip les when using telephon es, which  the signal 
+box controllers had used in this case.  
+4.2.9.  The rail operating rules for radio communication required that all messages be acknowledged 
+and that when instructions were  issued the instructions be read back and confirmed as 
+correct by the sender.  Even if that process had been followed by the signal box controllers on 
+the telephone , this would not have resolved this situation because the Auckland signal box 
+controller would simply have repeated back the information given to him by the Otahu hu 
+signal box controller : “Following the subby, L9, light engine, Tamaki” .  He would have been 
+none the wiser for what that actually meant.  
+4.2.10.  Under different circumstances, if Tamaki had not already been switched in for manual control 
+when the shunt  left Westfield, the Auckland signal box controller should have contacted the 
+train controller before doing so  in accordance with operating rules12.  The train controller 
+should then have confirmed with the Auckland signal box controller the order of trains  arriving 
+at Tamaki .  Had this happened it is highly likely that the Auckland signal box controller would 
+have realised which passenger train the shunt was following.  The wrong routing would have 
+been avoided.  
+4.2.11.  However, there was a longstanding local proc edure that circumvented the  application of this 
+rule for Tamaki signal box .  This local procedure removed the second  opportunity to establish 
+the correct order of the trains.  It also removed an opportunity for the Auckland signal box 
+controller to understand the situation  fully regarding worksite s within  the Tamaki Station 
+limits.  
+4.2.12.  KiwiRail said that t he reason for this local procedure for Tamaki was a management 
+interpretation of a rule regarding ‘attendance ’ at a signal box  and the description of Tamaki as 
+a ‘switch out ’ station . KiwiRail’s belief was that, as the Auckland signal box controller was 
+continual ly in attendance at the Britomart main control room and as that person was also 
+responsible for Tamaki, the ‘station switch in ’ checking procedure did not apply. The rule had 
+been revised in mid-2008 to prevent such a misinterpretation , but the local proce dure for 
+Tamaki had remained in place.   
+4.2.13.  The operating  function of a  signal box is conceptually the same whether it is called  a ‘switch 
+in’ or ‘switch out ’ signal box : it facilitates manual control of the local area . Tamaki was termed 
+a ‘switch out ’ signal box and its normal state was switched out to allow the signals to operate 
+in automatic  mode . ‘Switch in ’ signal boxes were ones that had less than 24/7 attendance , so 
+the rules were intended to cover th e situation where a signal box controller would arrive  and 
+unlock the signal box then take over local signalling control for the area. Tamaki was not a 
+physical signal box but the control mimic was displayed on the Auckland signal box control 
+desk and operated from that desk when required.  Whatever the term a scribed to the type of 
+signal box, the signals within that control zone are in either automatic (switched out) or 
+manual (switched in) mode and to switch in the signal box is to take over manual control.  
+Therefore the rule (see footnote 12) about taking ma nual control of a signal box should have 
+applied  rather than the local procedure . 
+4.2.14.  The control of Tamaki was transferred from the Auckland signal box controller to the train 
+controller after this incident , removing any  future  likelihood of a recurrence  of this wrong route 
+setting . 
+                                                        
+11 Section 1 2 – Radio Procedures . 
+12 Rail Operating Rules and Procedures, Section 2 – Operating Rule s, Rule  92(b) 
+ 
+Report 10 -101 
+<< Page 19 >>
+ 4.2.15.  If the Auckland signal box controller had been  in doubt  about the train running order , he could 
+have positively identified the train in front of the shunt by any one of 4 methods : 
+1. He could have asked the Otahuhu signal box controll er for the passenger t rain 
+number . 
+2. He could have switched display tabs from his normal train register display to the 
+Otahuhu signal box tab and seen what train number had left from there ahead of the 
+shunt . 
+3. He could have asked the train controller . 
+4. He coul d have deduced the correct running order from his own Auckland train register  
+based upon his estimate of the departure time of the shunt from Westfield . 
+The Auckland signal box controller did not use any of these options to identify which train was 
+in fron t of the shunt . Instead he made an incorrect assumption that the ‘subby ’ was a train he 
+had just logged as arriving at Britomart.  
+4.2.16.  However, t he train register display was not user -friendly when it was used beyond its design 
+purpose for movements at both Tam aki and Britomart , because trains were listed in the 
+Auckland train register in the time order that they were arriving at or departing from Britomart.   
+When the train register was also used to control movements at Tamaki it required the operator 
+to interpr et the display  mentally to obtain the true running order.   For example , the shunt was 
+terminating at Tamaki but had left Westfield immediately after the passenger train , so their 
+apparent arrival times at Britomart would be in the reverse order. The passen ger train  would 
+arrive  at Britomart  in about 21 minutes and appear at the bottom of the list , while the shunt’s 
+arrival at Tamaki  would be near the top in 9 minutes.  The only indicator  that the 2 trains were 
+going to different destinations would be the Auckland signal box controller ’s notes  in the 
+comments column of his train register to identify that the shunt ’s arrival time was actually for 
+Tamaki rather than for Britomart .  
+4.2.17.  The Auckland signal box controller made 2 errors when he entered the event for  the shunt into 
+his train register for  its planned movement to Tamaki.   He entered the train  as a departing 
+event from Tamaki rather than arriving and  he only allowed 4 minutes ’ running time to 
+Tamaki , when the normal duration was about 9 minutes.  These err ors individually were  minor , 
+but they could have been  an indication that the Auckland signal box controller was not 
+focused entirely on the task at hand  or that he was confused about which signal box control 
+desk he was operating at the time . 
+4.2.18.  The Auckland signal box controller said that he was rested but his shift pattern for the period 
+immediately preceding this incident had been  different from  his normal patterns. He was 
+normally based at Otahuhu but in the previous few days he had been at Auckland (2 sep arate 
+signal boxes) for one day, Otahuhu for 2 days, then 2 days on a relief shift from 1000 to 1810 
+at all 3 signal boxes.  
+4.2.19.  The duties  in a normal shift would be to operate a single control desk for the whole 8 -hour 
+shift. The relief shift was intended to cover meal breaks for signal box controllers and 
+consisted of multiple short stints (less than 2 hours each) at different signal boxes around 
+Auckland. A person working this shift would have to settle into each new location, operate the 
+control desk for an  hour or so , then relocate to the next signal box to repeat the cycle. The fast 
+cycle pattern of the relief shift duties demanded considerably more mental effort from a 
+controller  and may have facilitated minor errors .  
+4.2.20.  On the day of the incident the Auckl and signal box controller was just about to complete his 
+fourth  separate stint in the 2 signal boxes based in the Britomart main control room in the 3.5 
+hours he had been on duty. He then had to travel by train to Otahuhu for his last stint for the 
+day.  
+4.2.21.  The Auckland signal box controller said that the mental demands of the relief shift required  
+him continually  to anticipate the next control desk he was to operate because he had to swap 
+so often between them .  
+ 
+
+<< Page 20 >>
+ Report 10 -101 4.2.22.  When considering the poor information the Auckl and signal box controller received about the 
+train running order, it is feasible that his frequent change between control desks  contributed 
+to his losing awareness of what trains he wa s dealing with and in what order . 
+The bulletin information was not clear  to all parties  
+4.2.23.  Signal box controller s are required to  read the current daily information bulletin s at the start of 
+their shift s.  The daily information bulletin issued on 13 August 2010 (see an extract from it in 
+Appendix 3) lis ted 13 protected worksite s on the Auckland metro rail network that day.  Two of 
+those sites were within the Auckland signal box controller’s zone : one at Tamaki and one at 
+Orakei.  The Auckland signal box controller said that, o n the day of this incident, he had read 
+the daily bull etin but neither he nor the Otahuhu signal box controller were  aware of the 
+compulsory -stop-protected work area on the Up Main line along the Eastern Line . 
+4.2.24.  The Auckland signal box controller said that his reason for misunderstanding the bulletin was 
+that i t did not describe the location in terms he used every day : signals, points and stations. 
+He also acknowledged that he could have found this information if required. The stations 
+either side of Tamaki were named , but even though the work area was within the Tamaki 
+Station  limits, Tamaki was not named in the bulletin.   
+4.2.25.  It is a safety issue if bulletins are sent out with important information that some recipients do 
+not comprehend or disregard as being unimportant  to them . The format of s uch an important 
+document should  be reviewed by KiwiRail  in consultation with the target audience  to ensure  
+that it clearly conveys the appropriate information . The Commission has made a safety 
+recommendation to the N ew Zealand  Transport Agency to address this safety issue.  
+ 
+Findings  
+The Auckland signal box controller set the wrong route for the passenger train  at 
+Tamaki because he confused the running order of the trains and thought that the 
+shunt was the next train to arrive at Tamaki . 
+The first reason for the Auckland signa l box controller confus ing the order of trains 
+arriving at Tamaki was that the Otahuhu signal box controller did not give him clear 
+information on which passenger train the shunt was following.   
+The proper rail operating procedure was for signal box contro llers to contact train 
+control before taking manual control of signal box es in order to obtain important 
+information such as the correct running order of approaching trains and any worksite  
+activit ies within the signal box control zones .  The established p ractice of not doing 
+this for the Tamaki signal box compromised the safety of rail operations.  
+The Auckland signal box controller ’s relief shift duties required him to switch between 
+signal box desks or move to other location s 5 times within 4 hours, which  required 
+him to adjust  mentally  to the signal box he was working while at times having to 
+anticipate his task at the next signal box.  It is possible that this disruptive work 
+pattern contributed to hi s losing awareness of the trains he was signalling  and 
+consequently the order of trains arriving at Tamaki.  
+The Auckland signal box controller would have been aware that there was a protected 
+worksite  within the Tamaki signal box control zone if the correct operating rules  had 
+been followed or he had thorough ly read the daily work bulletin before switching in the 
+signal box.  However, the daily work bulletin should have made the fact  clearer by 
+directly referring to Tamaki when describing the limits of the work area.  
+ 
+ 
+ 
+Report 10 -101 
+<< Page 21 >>
+ 4.3. Taking the wrong route  at high speed  
+4.3.1.  The train took the wrong route  at high speed  because the driver did not observe and correctly 
+respond to the signals in front of his train .  Signal 67024 before Panmure  displayed yellow, 
+which meant the driver should  not have expect ed a green signal  around t he corner ahead 
+after leaving Panmure.  On most occasions on the same route the driver would have had both 
+signals  showing green; nevertheless , on this occasion Signal 67024 was yellow,  so the driver 
+should have driven his train with the expectation that h e might have to stop at the next signal, 
+or as in this case , had his train at a low speed for crossing to the Down Main line. 
+4.3.2.  By coincidence, t he inner warning board for the compulsory -stop-protected work area was 
+positioned  next to Signal 67024.   The driv er confirmed that he had seen the  yellow  caution 
+signal .  He  said that he had associated the caution signal  on Signal 67024 with the  warning 
+board  for the compulsory -stop-protected work area within Tamaki .  He had incorrectly 
+concluded that the person  in charge was controlling the signals for access to his work area .  
+4.3.3.  The track signal and worksite warning board were independent of each other:  the signal was 
+controlling the train, and the warning board was warning of the worksite ahead.   The 
+interpretation t hat the driver expressed was unique , so it was examined further. Several driver 
+trainers at the Veolia train driving school and the company safety investigator were questioned 
+about the relationship between these 2 signalling systems , and the driver traini ng syllabus 
+and rail operating rules were reviewed.   Other drivers involved with the investigation were also 
+questioned. None of the people spoken to had made the same interpretation  as the driver of 
+the passenger train , and neither could it be inferred fr om the operating rules  or training 
+syllabus . 
+4.3.4.  A more logical or believable scenario was that the driver simply forgot that Signal 67024 was 
+displaying a yellow signal  after he had  stopped to exchang e passengers at Panmure.  It is not 
+uncommon for train drivers to forget they had pass ed a  caution signal .  For example  a driver 
+may become distracted during an intervening passenger stop .  The experience of some drivers 
+forgetting a caution signal  was one reason for installing a signal alert system  in the cabs.  
+4.3.5.  The train was fitted with a signal alert system that was intended to help drivers remember 
+when they passed an advance signal that warned that the next signal would not be green.  It is 
+a driver -activated distance -measuring  device that pulses a light and sounds a buzzer as the 
+train approaches the next signal and is intended to counteract any intervening distractions, 
+such as stopping at a station.  
+4.3.6.  Drivers were expected to  use the signal alert device s when passing signals displaying caution 
+signal s, as Signal 67024  was on this day .  The signal alert button was not in common use by 
+Veolia drivers and some drivers said they had adopted their own alternative methods  for 
+rememb ering caution signal s. The driver of the passenger train  did not use the signal alert 
+device  when he approached Panmure Station  and he said he used  no alternative system.  If 
+the driver had used the signal alert system it would have reminded him about the n ext signal 
+just after his train departed  Panmure.  
+4.3.7.  One reason that Veolia gave for drivers not using the signal alert device  was that the sound of 
+its alarm was so similar to several other in -cab alarms that drivers were reluctant to use it.   
+Another reason  given was that o nce the driver pushed the button and the train ha d travelled a 
+further 600 m, the alarm then sound ed for a full 6 second s with a  loud, piercing  warning  tone 
+that could not  be cancelled by the driver. Trains approaching Britomart sometimes  travel led 
+close behind other trains and could therefore frequently pass yellow signals.  If the signal alert 
+system had been  always used at yellow signals it would soon have lost its effectiveness as an 
+alert and become a nuisance distraction . 
+4.3.8.  While the in tention of the signal alert system  to minimise signals being passed at danger  was 
+a proactive measure designed to mitigate an identified risk, the fact that it has not been 
+successful in operation means the issue will need to be revisited.  The Commission has made 
+a safety recommendation to the New Zealand  Transport Agency to address this safety issue.  
+4.3.9.  There were  2 other sources of distraction that could possibly have contributed to the driver 
+forgetting or not realising  that the next signal ahead was no t green . They were  that the driver 
+ 
+
+<< Page 22 >>
+ Report 10 -101 was overly focused on making up the delay to his train running schedule, and the misleading 
+instruction given by the  No.2 person -in-charge  at the worksite.  
+4.3.10.  The stop at Sylvia Park was longer than normal at 5.6 minutes, al though the driver said that 
+he had not noted how long it was. The driver stated in his interview that his train running  
+behind time  was on his mind and he was intent upon making up time before arriving at 
+Britomart if at all possible.  When questioned abou t this , he understood that catching up to his 
+schedule would have been an impractical goal , but he considered that by minimising delays 
+and taking advantage of the in -built slack in the timetable, he could reduce the total delay 
+slightly by the time he rea ched Britomart.  
+4.3.11.  It was the driver’s responsibility to inform train control if his train was not running to 
+schedule14, but he had not done so. The train controller and the Auckland signal box controller 
+were not aware of the delay to the passenger train  and the next formal time check station was 
+not until after Tamaki.  
+4.3.12.  When the passenger train  was ready to depart from Panmure Station , the driver obtained 
+clearance from the  No.2  person -in-charge  to proceed past his compulsory stop board , but the 
+response wa s misleading and contrary to current procedure at the time. He gave a speed 
+reference in his clearance to the driver by using the phrase ‘normal speed ’, which meant to a 
+train driver the ‘maximum allowable speed limit ’ for the train and the track at that p oint.  The 
+correct radio procedure at the time was not to indicate any speed unless the maximum speed  
+was lower than normal speed.  
+4.3.13.  Often trains are delayed at compulsory -stop-protected worksite s as the track workers move 
+their people and equipment clear o f the track , so the driver may have expected to be delayed . 
+However,  in this case the work  gang was clear of the track and waiting for the train. The 
+incorrect phraseology used for the clearance was misleading , but the driver di d not challenge 
+it at the time. It was also compatible with  the driver’s intent  to make up time because it would 
+have allowed him to pass  quickly  through the worksite .  
+4.3.14.  At this point there w ere 2 opportunit ies for communications to change the outcome. The driver 
+could have queried the perceived speed clearance . Secondly,  the No.2 person -in-charge  was 
+not required to advise the driver about the reverse condition of the points , but had he 
+mentioned it, the information  could have challenged the driver’s min d-set that the next signal 
+was green.  
+4.3.15.  KiwiRail did not agree with the concept of the track worker giving information about the points 
+position to the driver because it could lead to “unintended safety risks ”.  By that KiwiRail 
+meant that this advice could be seen as “overriding the importance of, and reliance on, the 
+signalling system”.  The Commission does not agree.  The concept of a train driver operating 
+their train to the signals would not change. In this case the driver had already erroneously 
+anticip ated that the ne xt signal was going to be green .  Intervention by the No.2 person -in-
+charge  could have changed the driver’s expectation that the next signal would be green.  Any 
+communication that can improve the safety of the system should be encouraged.  This is 
+discussed further in the communications section of this analysis.  
+4.3.16.  The driver said that he had never had his train diverted to the Down Main line at Tamaki, and 
+he had not been informed of any wrong -line-running procedure for Tamaki at the time, so he 
+had not expect ed his train to be routed anywhere else other than along the Up Main line. 
+4.3.17.  Train drivers are trained to respond to the signals first and foremost, and not to drive 
+according to assumptions.  There could be a number of reasons for signals being held at red, 
+or in this case a t ‘low speed ’.  Regardless of why the wrong  routing occurred , if the driver had 
+responded to the signals correctly the wrong route setting should not have been a danger to 
+the train and its occupants.  
+4.3.18.  The Commission consi dered other factors that could have affected the driver’s awareness of 
+the situation.  
+                                                        
+14 Rail Operating Rules and Procedures, Section 2, Rule 90 (h).  
+ 
+Report 10 -101 
+<< Page 23 >>
+ 4.3.19.  The training records indicate d that the driver was adequately trained and familiar with the 
+route and signals he was likely to encounter on this trip.  
+4.3.20.  The driver had repo rted for duty at Westfield that morning, collected his documentation and 
+then had ample time to become familiar with the daily instructions and make his own notes 
+while he was a passenger on a train to Britomart to collect his first train to drive.  
+4.3.21.  The dri ver had been cleared as medically fit to drive at the time. The driver ’s post-incident 
+medical check indicated that he had been experiencing some symptoms of stress .  Stress is 
+something that can affect human performance  and quality of sleep , leading to fa tigue .  
+However, the driver’s shift roster was not unusual and he had just begun a normal day shift , 
+so fatigue was discounted as a contributing factor. This was supported by the train data 
+recorder , which  showed that on  the trip from Papakura  the driver h ad responded to the 
+vigilance device and sounded the horn at level crossings and stations as required.  In other 
+words he appeared to have been  driving his train normally.  
+4.3.22.  The train’s event recorder showed that the driver had accelerated to 55  km/h after departing 
+from Panmure , and track distance information showed that the brakes had been  applied 
+about 100  m before reaching the points.  Data from the  train event recorder  was consistent 
+with the driver’s explanation that he had left Panmure expecting to pr oceed through the 
+worksite at normal speed.  
+4.3.23.  When the driver did register that the signal was not as he had expected, the train data log 
+showed that he reacted correctly to reduce the throttle to idle then apply full brake. 
+Unfortunately this brake applicat ion was too late to prevent his train passing through the 
+turnout at a speed that put the train at risk of rolling over or derailing.  
+Findings  
+The passenger train  passed through the low -speed turnout at about twice the 
+allowable speed limit because the dri ver was not expecting his train to be routed to 
+the Down Main line and he did not respond correctly to the signals leading up to the 
+turnout.  
+The most likely reason  for the driver  expecting the next signal , 16AC , to be displaying 
+green was that while stopp ed at Panmure Station he forgot about the caution signal  
+displayed on the previous warning signal that was telling him that Signal 16AC was not 
+green.  
+The signal alert system  that had been  installed in the train cab to help the driver  to 
+remember if the last signal his train had passed was a caution was not used by the 
+driver on this occasion and was not widely used by other drivers because, once 
+activated , it could not be cancelled by the driver and sounded for 6 seconds with a 
+loud, piercing warning tone . 
+The non -standard phraseology used by the No.2 person -in-charge  of the work gang 
+when calling the passenger train  to the worksite area contributed to the driver’s 
+assumption that his train was clear to proceed at maximum speed from Panm ure 
+Station.  
+ 
+  
+ 
+
+<< Page 24 >>
+ Report 10 -101 4.4. The signal passed at danger (SPAD)  
+4.4.1.  The driver said he had been confused after his train crossed to the Down Main line at high 
+speed and could not clearly recall the next sequence of events. He was aware that he had 
+gone  through the turnout  above the speed  limit and that his passengers had been  concerned 
+at the unusual train movements.  
+4.4.2.  The driver had stopped his train in a safe position within the Tamaki Station  limits and did not 
+need to move immediately.  At that point t he driver should h ave contacted train control or the 
+signal box controller to find out why his train had been routed to the Down Main line against 
+his expectations , but instead he  assumed  that, if he continued, his train would be re -routed to 
+the Up Main line.  
+4.4.3.  The driver s aid that , rather than look for the signal , he had focused on the shiny rail ahead to 
+confirm that the points were set correctly to take his train back to the Up Main line. When he 
+realised that the points were still set for straight through, he stopped the  train then called train 
+control, but by that time his train had already passed Signal 8B showing red.  If the driver had 
+been travelling within the speed limit and looking for the signal, he would have had sufficient 
+time to stop the train before Signal 8B  and avoid the SPAD.  
+4.4.4.  The driver was probably not in a fit state to drive the train after experiencing the shock of the 
+initial over-speed  crossing to the Down Main line.  This is an example of where the train crew 
+should have  discussed  their situation, a nd the train manager should have intervened before 
+the driver was able to move his train on.   
+4.4.5.  Veolia submitted that it would have been  in breach of the Rail Operating Code and Rail 
+Operating Rules and Procedures for the train manager to intervene at this point , but the 
+Commission disagrees. In section 2  of the Rail Operating Rules  and Procedures , Rule 10 4 
+states  that: “In the event of unusual circumstances, the Guard/Train Manager on a passenger 
+train has a shared responsibility with the Locomotive Enginee r to provide protection for the 
+train when necessary and assist to resume normal operations”.  The Rail Operating  Rules and  
+Procedures , Section 11, Rule 6.1 define s an over -speed crossing as a “serious irregularity ” 
+and Rule 6.5 further require s the train manager to accompany  the driver in the cab while the 
+train  is moved  to a safe position and secured to await the mandatory relief driver.  On this 
+occasion the train manager was in the same car as the driver and able to meet with the driver , 
+but this is no t always possible in the Auckland metro train fleet. A train crew familiar with and 
+used to operating with good crew resource management would have handled this situation 
+better, and possibly prevented the fourth  incident, the signal passed at danger.  
+4.4.6.  Veolia also submitted that there were physical constraints on some  Auckland trains that would 
+prevent train managers talking  to driver s because there was no direct ac cess to the drivers ’ 
+cabs from all cars in the train s.  
+4.4.7.  This lack of a suitable communication system between the train driver and train manager is a 
+serious safety issue raised previously in a Commission report  on an incident that occurred in 
+2006  (TAIC, 2006)  and the subject of an existing open safety recommendation . The 
+Commission recommended  in that report that the Chief Executive of the New Zealand  
+Transport Agency  address the following safety iss ue: 
+There is no requirement for operators of passenger trains to have effective 
+communication between  the locomotive engineer and the onboard person -in-
+charge  of passenger operations that will facilitate good crew resource 
+management and be effective in emergency situations. (016/08)  
+4.4.8.  The Commission is concerned that a recommendation to address such a fund amental safety 
+issue remains open after nearly 4 years. The Commission is also concerned that Veolia as the 
+operator of passenger train services has not addressed this issue independently of the efforts  
+of the Regulator.  
+ 
+ 
+Report 10 -101 
+<< Page 25 >>
+ Findings  
+The passenger train  pass ed Signal 8B at danger (showing red) because the driver was 
+not looking for the signal. Instead he had made an incorrect assumption about the 
+route ahead set for his train without communicating with either the train controller or 
+the signal box controller . 
+The driver of the passenger train  was unlikely to have been in a fit state to drive his 
+train f arther after experiencing the shock of his train crossing to the Down Main line 
+through the low -speed turnout at about twice the permitted speed limit.  
+The trai n taking the low -speed turnout at twice the permissible speed was a serious 
+operating incident after which the driver was required to be stood down under the 
+supervision of the network control manager , and accompanied and supported in the 
+driving cab by th e train manager to a point where a relief driver could be arranged . 
+In this case the train manager was in the same rail car as the driver, so had the 
+opportunity to intervene and discuss the incident with the driver.  However, the 
+operating company had not  provided the train crew with a means of effective 
+communication  that would allow them to co -ordinate an emergency response if the 
+train manager had been  in a separate rail car.  This is a serious safety issue that the 
+Commission has previously rais ed and has yet to be resolved.  
+ 
+ 
+4.5. Near miss with track worker  
+4.5.1.  After the passenger train  sped through the turnout to the Down Main line, it passed within a 
+few metres of a track worker who was walking along the siding  with his back to the train .   
+4.5.2.  The work  gang had not started the additional work so had not formally engaged any other form 
+of protection, but the members  had decided that they were going to protect the secondary 
+work area with individual train detection  plus use an observer once work star ted. 
+4.5.3.  The track worker was alone and not inside a protected work area at the time , so he was 
+operating with individual train detection, a method of protection  that is normally used by track 
+workers when moving around railway lines. As he walked near the Down Main line he was 
+facing the direction from which he expected trains to approach, in the usual direction along 
+the Down Main line.  The track worker was unaware of the passenger train ’s presence until it 
+passed him.  He had apparently not registered when he saw Points  No.15 switch to the Down 
+Main line that any train approaching from the Up Main line would have been routed to where 
+he intended to walk.   
+4.5.4.  The track worker was nearly hit by the passenger train  because he did not follow the rules for 
+the trac k occupation method he was using at the time , which required him to “maintain a 
+vigilant lookout for, and detect the approach of, a train or track equipment moving in either 
+direction”.  
+Findings  
+The near miss between the passenger train  and a member of the  work gang occurred 
+because the track worker was not watching out in all directions as required by the 
+individual train detection method of protection that he was using when he was walking 
+near the track.  
+ 
+ 
+ 
+
+<< Page 26 >>
+ Report 10 -101 4.6. Communication   
+4.6.1.  A common  factor in these incident s was poor communication among the various participants. 
+More interactive communication  could have changed the outcome for the better . For example : 
+1. If the Otahuhu signal box controller had passed on the train number and its time of 
+departure , it is unlikel y that the Auckland signal box controller would have confused 
+the order of the trains, and unlikely therefore that he would have set  the wron g route  
+for the passenger train . 
+2. If the Auckland signal box controller had asked the train controller for permissio n to 
+switch  in Tamaki , the correct running order would have been established and the 
+signal box controller would have known about the worksite  within the Tamaki Station 
+limits . 
+3. If the driver had alerted the train controller about the delay at Sylvia Park , the 
+Auckland signal box controller may have been reminded about the passenger train ’s 
+position relative to the shunt . 
+4. If the Auckland signal box controller had questioned the person -in-charge  about what 
+he was doing at Tamaki when he applied for foul time on the siding, the signaller may 
+have found out about the protected work area and the secondary work area or 
+checked with the person -in-charge  before switch ing Points No.15 . 
+5. If the person -in-charge  had questioned the Auckland signal box controller why Poin ts 
+No.15 had been moved , the signal box controller would have been made aware of the 
+worksite within the Tamaki Station limits and made the person -in-charge  aware that 
+the station was switched in and under the signaller’s control . 
+6. If the No.2 person -in-charge  had said something to the driver of the passenger train  
+about the points being in reverse , the driver could have been alerted that the next 
+signal was not green and contacted the signal box controller or train controller to ask 
+about their intentions  for his train . 
+7. If the No.2 person -in-charge  had used the correct phraseology when calling the 
+passenger train  through the worksite, the driver might not have accelerate d his train 
+towards  the maximum line speed . 
+8. If the  crew of the passenger train  had been  acting as a team, a discussion may have 
+ensued after the over -speed crossing  to the Down Main line, and the situation 
+resolved with the train controller before the train resumed it s journey and passed a 
+red signal .  
+4.6.2.  In th e rail industry, many o f the participants are acting alone in their workspace s; train drivers 
+and signal box controllers , for example.  This places more responsibility and reliance upon the 
+person  at the controls  and more dependence upon communications between other so lo 
+operators and work groups for the combined safety of the industry.  An added challenge is that 
+individuals and groups might be working for different operators with different procedures.  
+Good communication and a common understanding will be crucial to s afe train operations.  A 
+method of achieving this  is to use the princip les of crew resource management ( CRM ).   
+4.6.3.  In the railway industry, participants from multiple organisations, operating companies and 
+crews need to interact , so the focus of any communica tions strategy to improve safety would 
+need to include all participants . In a paper presented at the American Transportation 
+Research Board annual meeting in 2004 (Morgan, Kyte, Olsen, & Roop, 2004)  about the 
+extent that CRM had been introduced across the North American rail industry , the authors 
+identified that most applications of CRM up to 2004  were still strictly following the crews 
+within a vehicle , but they also identified several other individuals who communicate d where i t 
+could be of  benefit. The researchers described the potential  benefit s of introducing CRM : 
+  
+ 
+Report 10 -101 
+<< Page 27 >>
+ By creating a safe working environment , encouraging teamwork, improving 
+situational awareness, understanding technical proficiency, and practising error 
+managemen t, a work force will be created that communicates better, is more 
+aware of its true situation, uses all of its available resources, and works better 
+with one another.  
+4.6.4.  A potential barrier is a ‘silo culture ’. Andrew Hopkins described a silo culture in his b ook about 
+the inquiry into the Glenbrook accident in Australia (Hopkins, 2004)  as a culture having 
+features of secrecy, non -co-operation, restricted communication and antagonism between 
+occupational groups and organisations ; a culture where problems were usually seen as the 
+exclusive concern of one group or another rather than as systemic problem s that they all 
+needed to resolve.  
+4.6.5.  Not all of these features of a silo culture were apparent with this incident, but some were.  For 
+a successful outcome on the day of this incident  the respective participants (such as  the train 
+driver, the respective signal box controllers, the train controller, the track workers and even 
+the other train crew ) all needed to communicate to ensure they all  understood what was 
+planned , then question each other if something in the plan changed  or was unclear . 
+4.6.6.  The various procedures were designed to link the actions of all these people to achieve the 
+desired outcome.  In some cases the procedures could have (a nd have since) been improved, 
+but for the most part they simply were not followed.  Each time this happened there was an 
+opportunity for someone to intervene , question or challenge, but this did not happen.  
+4.6.7.  CRM also depends on  a change in attitude to wards  human error; the development of a just 
+culture  that recognises  that human errors occur all the time and that everybody can make 
+errors at any time. Even the most skilled operator is subject to human error.  
+4.6.8.  If all rail participants are going to work togeth er to break down any barriers and achieve 
+uniformity in communications, they need to be operating to the same standards.  A good way 
+to achieve this is to have a common industry standard that all participants must meet.  
+4.6.9.  The Commission has already made a re commendation to the Chief Executive of the New 
+Zealand  Transport Agency to form such a standard within the framework of the National Rail 
+Safety Standards , with safety recommendation number 002 -12 issued on 28 March 2012  
+(TAIC, 2011) .  
+The Commission recommends to the Chief Executive of the NZ Transport Agency 
+that he requires the Executive of the National Rail System Standard to develop 
+standards to ensure that all rail participants meet a consistently high level of 
+crew resource management, and communication that includes the use of 
+standard rail phraseology (002/12).  
+Terminology  
+4.6.10.  A separate observation made during this investigation was the use of colloquial language  by 
+the Otahuhu signal box controllers ( both signal b ox controllers involved with this incident were 
+based at Otahuhu).  The Carbine Road Siding was called the ‘Coke ’ siding, the suburban train 
+a ’subby ’ and the length of freight trains expressed in ‘crossing totals ’ (a redundant term). 
+While the use of colloquial language was not directly relevant to the wrong -route setting in this 
+incident , it was a safety issue and it did indicate that the Otahuhu signal box controllers were 
+not following company policy.  
+4.6.11.  The safety risk of using colloquial language went  back to previous administrations , but 
+involved the same signal box. In 2005 the Commission investigated a wrong routing at 
+Westfield and discovered that the use of unofficial names in radio communications from the 
+Otahuhu signal box controller was contribu tory (TAIC, 2005) . A sa fety recommendation was 
+issued to Ontrack15 at the time to ensure that official names as noted on the signal ling and 
+interlocking diagrams were used in radio communications  (this has since been closed) . The 
+continued use of colloquial language  is a concern . 
+                                                        
+15 Safety rec ommendation 078/05 from Report 05 -107. 
+ 
+
+<< Page 28 >>
+ Report 10 -101 Findings  
+Poor communication  and specifically a lack of adequate crew resource management 
+contributed to all 4 of these incidents.  
+The examples given in this report that show the results of using colloquial language, 
+non-standard phraseology and inadequate crew resource management lend weight to 
+the Commission’s previous recommendation that the rail industry adopt a national 
+communication standard with which all rail participan ts must comply.  
+ 
+ 
+ 
+  
+ 
+Report 10 -101 
+<< Page 29 >>
+ 5. Findings  
+5.1. The Auckland signal box controller set the wrong route for the passenger train at Tamaki 
+because he confused the running order of the trains and thought that the shunt was the next 
+train to arrive at Tam aki. 
+5.2. The first reason for the Auckland signal box controller confus ing the order of trains arriving at 
+Tamaki was that the Otahuhu signal box controller did not give him clear information on which 
+passenger train the shunt was following.  
+5.3. The proper r ail operating procedure was for signal box controllers to contact train control 
+before taking manual control of signal boxes in order to obtain important information such as 
+the correct running order of approaching trains and any worksite activities within  the signal 
+box control zones.  The established practice of not doing this for the Tamaki signal box 
+compromised the safety of rail operations.  
+5.4. The Auckland signal box controller ’s relief shift duties required him to switch between si gnal 
+box desks or move to other location s 5 times within 4 hours, which required him to adjust 
+mentally to the signal box he was working while at times having to anticipate his task at the 
+next signal box.  It is possible that this disrupti ve work pattern contributed to his losing 
+awareness of the trains he was signalling and consequently the order of trains arriving at 
+Tamaki.  
+5.5. The Auckland signal box controller would have been aware that there was a protected worksite 
+within the Ta maki signal box control zone if the correct operating rules had been followed or 
+he had thoroughly read the daily work bulletin before switching in the signal box.  However, the 
+daily work bulletin should have made the fact clearer by directly referring t o Tamaki when 
+describing the limits of the work area.  
+5.6. The passenger train  passed through the low -speed turnout at about twice the allowable speed 
+limit because the driver was not expecting his train to be routed to the Down Main line and h e 
+did not respond correctly to the signals leading up to the turnout.  
+5.7. The most likely reason for the driver expecting the next signal , 16AC , to be displaying green 
+was that while stopped at Panmure Station he forgot about the caution signal  displayed o n the 
+previous warning signal that was telling him that Signal 16AC was not green.  
+5.8. The signal alert system that had been installed in the train cab to help the driver to remember 
+if the last signal his train had passed was a caution was not used by the dri ver on this 
+occasion and was not widely used by other drivers because, once activated, it could not be 
+cancelled by the driver and sounded for 6 seconds with a loud, piercing warning tone.  
+5.9. The non -standard phraseology used by the No.2 person -in-charge of t he work gang when 
+calling the passenger train to the worksite area contributed to the driver’s assumption that his 
+train was clear to proceed at maximum speed from Panmure Station.  
+5.10.  The passenger train  passed Signal 8B at danger ( showing red) because the driver was not 
+looking for the signal. Instead he had made an incorrect assumption about the route ahead 
+set for his train without communicating with either the train controller or the signal box 
+controller.  
+5.11.  The drive r of the passenger train  was unlikely to have been in a fit state to drive his train 
+farther after experiencing the shock of his train crossing to the Down Main line through the 
+low-speed turnout at about twice the permitted speed li mit. 
+5.12.  The train taking the low -speed turnout at twice the permissible speed was a serious operating 
+incident after which the driver was required to be stood down under the supervision of the 
+network control manager , and accompanied and supported i n the driving cab by the train 
+manager to a point where a relief driver could be arranged.  
+5.13.  In this case the train manager was in the same rail car as the driver, so had the opportunity to 
+intervene and discuss the incident with the driver.  H owever, the operating company had not 
+ 
+
+<< Page 30 >>
+ Report 10 -101 provided the train crew with a means of effective communication that would allow them to co -
+ordinate an emergency response if the train manager had been in a separate rail car.  This is a 
+serious safety issue th at the Commission has previously raised and has yet to be resolved.  
+5.14.  The near miss between the passenger train and a member of the work gang occurred because 
+the track worker was not watching out in all directions as required by the individual train 
+detecti on method of protection that he was using when he was walking near the track.  
+5.15.  Poor communication and specifically a lack of adequate crew resource management 
+contributed to all 4 of these incidents.  
+5.16.  The examples given in this report that show the results o f using colloquial language, non -
+standard phraseology and inadequate crew resource management lend weight to the 
+Commission’s previous recommendation that the rail industry adopt a national communication 
+standard with which all rail participants must compl y. 
+ 
+Report 10 -101 
+<< Page 31 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies safety actions by 2 types:  
+(a) safety actions taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  (key safety actions)  
+(b) safety actions taken by the regulator or an operator to address other safety issues that 
+would not normally result in the Commission issuing a recommendation  (other safety 
+actions) . 
+Key safety actions  
+6.2. Signal -box-to-signal -box communications.  KiwiRail issued a safety briefing to all signal boxes 
+on 29 September 2010. This briefing reinforced the correct communication protocol 
+described in the Rail Operating Rules and Procedures for the use of radios , and instr ucted 
+controllers to apply  the same princip les when using telephone s. 
+6.3. Local procedures contradicting standard safety rules. KiwiRail  did not change the local 
+procedure for  signal box controllers in regard to attendance  at and control of switch -in/switch -
+out stations to comply with the current version of the Rail Operating Rules and Procedures, 
+Section 2, Rule 92 , but other events eliminated the need at Tamaki. Soon after this incident 
+the responsibility for the control of Tamaki Station  was reallocated to t he train controller in 
+Wellington , then in early 2011 the Auckland signal box was shifted to Wellington.   
+6.4. Isolated signal box operators. Following the planned reorganisation of the Auckland signal 
+boxes that KiwiRail had initiated before this set of incide nts occurred, the Auckland, 
+Newmarket and Otahuhu signal boxes have been relocated to the Wellingto n National Train 
+Control Centre and the operator control desks are now adjacent to the responsible Auckland 
+area train controller’s desk. This has increased the pool of available staff to relieve the 
+Auckland signal box control desks, eliminated the safety concern about staff working the 
+‘relief shift’, and improved the working team environment for the signal box controllers.  
+6.5. The train register being used for multiple locations. KiwiRail  has shifted the s ignal box control 
+of Tamaki Station  to the Auckland area train controller. This has removed the potential 
+confusion that existed when the train register system was used to control movements at 2 
+separate locati ons and ensured that the person operating the Tamaki panel ha s full visibility 
+of approaching trains and track occupations.  
+Other s afety a ctions   
+6.6. Technology solutions to SPADs . KiwiRail advised that future planned upgrades to the Auckland 
+metro rail networ k include d automatic train protection  to the European Train Control System 
+Level 1 standard. The trackside equipment is being progressively installed in the Auckland 
+metro rail network and has been completed  where this incident occurred. T he testing of the  
+trackside system was scheduled to start in July 2012 , with a prototype rail vehicle system 
+installed in a n SA/SD train set.  The d esign of the on -board installation  for the new EMU s has 
+also started , but KiwiRail advise d that the operator was responsib le for on -train equipment . If 
+automatic train protection  system equipment  had been fitted to the passenger train  it would 
+have automatically stopped the train near Signal 8B if the driver had not already applied the 
+brake , but it would not have prevented t he SPAD.  
+6.7. KiwiRail submitted that these future enhancements specified for on -train equipment in the 
+new Auckland electric multiple units would satisfy the requirements of the safety 
+recommendation described in section 7.4 so the recommendation is not neces sary. The 
+example submitted was the Driver Machine Interface and a speed warning system that would 
+provide advance information to the driver of speed limit ahead at a turnout. It would also 
+indicate the distance to go to an advance signal at stop and a cal culated safe speed to travel 
+in order to be able to stop the train before the signal.  
+ 
+
+<< Page 32 >>
+ Report 10 -101 6.8. The Commission recognises and agrees with the potential benefit that such systems would 
+have in preventing a driver from taking a wrong route. However these systems were not in 
+existence at the time the recommendation was published and if they are installed they would 
+only be effective in the Auckland metro area and probably only on the new electric trains. 
+Safety recommendation 023/12 described in paragraph 7.4 is aimed a t a weakness in the 
+existing signal alert system as fitted to the Auckland ADL/ADC and ADK/ADB DMUs and the 
+SA/SD Push Pull trains and at addressing the general lack of use of the system by drivers. The 
+outcome is likely to have a national impact because t he system is also used in main line 
+freight locomotives.  
+6.9. Technology solutions to wrong routing. KiwiRail has installed a new train control system called 
+‘Rail 9000 ’.  This system has been installed in the majority of the Auckland metro  rail network. 
+The Rail 9000 system functions implemented by June 2012 include d visibility of all tracks to 
+train controllers between Swanson in the north and Papakura in the south, thereby eliminating 
+the gaps that had previously been automatically controlled but invisible. R ail 9000 also 
+includes a train describer.  This feature displays both the train identification number and its 
+current location to train control.  A further feature being developed will provide automatic 
+route setting for each scheduled train based on the t imetable.  The train describer will 
+automatically set the correct signals to drivers and be displayed on the mimic display for 
+controllers. Current plans are to have this system operational during  2013. The future 
+likelihood of a wrong route being set for a train has been reduced by the introduction of train 
+describer technology and will be further reduced when the automatic route -setting feature of 
+the Rail 9000 train control system has been  fully commissioned.   
+6.10.  Improved track worker safety with signals. KiwiRail  has since provided  local trackside control 
+(termed ‘lock-out’) to Auckland metro running signals at some stations , so that track workers 
+could  hold them at stop to protect their occupation. This is seen as  a positive step towards 
+providing safer conditions for track occupancies.  
+6.11.  Signal  improvements at Tamaki.  KiwiRail ha s since carried out substantial works within the 
+Tamaki Station  limits to remove the old station platform  and upgrade the s ignal s. The gro und 
+Signal 8B is now a pole mount and Signal s 67024 and 16AC have been  changed to a double -
+aspect type. This will improve the visibility of Signal 8B to make it similar to other main line 
+running signals and improve the clarity of the signalling message to  drivers  approaching 
+Tamaki on the Up Main line. The Up and Down Main lines on the Eastern Line have also been 
+upgraded to allow bi -directional traffic and the Carbine Road Siding access modified to allow 
+shunt locomotives a direct route to and from the W estfield yards without the need to cross at 
+Tamaki. The situation in this investigation that led to the wrong routing when  the shunt  was 
+following a passenger train is therefore unlikely to occur again.  
+6.12.  Recognition of driver fatigue. Veolia Transport has since revised its training on fatigue 
+management and recognition of the symptoms of fatigue. This is being provided by an outside 
+contractor specialising in the subject. The first course was carried out in March 2011 and 
+others have followed since then. Mod ules of fatigue management have also been added to 
+entry -level packages for passenger operators and the certification courses for train managers 
+and drivers. Veolia is also conducting dedicated fatigue courses to cover existing staff. The 
+intent of these c ourses is to raise awareness of the symptoms of fatigue among operational 
+staff and provide guidance on how to manage it.  
+ 
+ 
+ 
+  
+ 
+Report 10 -101 
+<< Page 33 >>
+ 7. Recommendations  
+General  
+7.1. The Commission may issue, or give notice of, recommendations to any person or organisation 
+that it consid ers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case, recommendations have been issued to the New Zealand Transpo rt 
+Agency.  
+7.2. In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendations  
+7.3. On 26 October 2012  the following recommen dations were made to the  Chief Executive of the 
+New Zealand  Transport Agency:  
+7.4. It is a kno wn risk to the rail industry that train drivers may be distracted and forget a warning 
+signal their train had recently passed.    The signal alert device that has been  installed in the 
+train cab to help the driver  to remember the last warnin g signal was not used by the driver on 
+this occasion .  It was also  not being used  widely  by other drivers because, once activated , the 
+alarm sounded for 6 seconds and could not be cancelled .  The sound can be  easily confused 
+with other ‘in-cab alarms ’.   
+The Commission recommends that the Chief Executive of the New Zealand Transport Agency 
+ensure that systems put in place by New Zealand train operators to mitigate this known risk 
+are effective and result in th e risk being eliminated or reduced to an acceptable level . 
+(023/12 ) 
+On 7th November, Man ager Rail Systems of New Zealand Transport Agency replied in part on 
+behalf of the Director:  
+… we will work with industry  to see that the risk referred to in the preamble to this 
+recommendation is eliminated, isolated or reduced.  We believe that this will 
+meet the overall objective of this recommendation.  
+7.5. The daily bulletin was not clear to the Auckland signal box controlle r on the location of the 
+worksite  within Tamaki Station and it was not user -friendly to signal box controllers because it 
+gave locations expressed in kilometres rather than points or signal names  (the language 
+typically used by signal box controllers ).   
+The Commission recommends th at the  Chief Executive of the New Zealand Transport Agency 
+ensure that the daily bulletins that convey critical information to rail participants are presented 
+in a clear and unambiguous way . (024/12 ) 
+On 7th November, Manager Rail  Systems of New Zealand Transport Agency replied on behalf 
+of the Director:  
+This recommendation is accepted.  Discussions on it will be initiated on t he 
+publication of the final report.  These discussions will include, where appropriate, 
+a projected timefr ame for implementation.  This will be advised to TAIC in due 
+course.  
+  
+ 
+
+<< Page 34 >>
+ Report 10 -101 8. Key lessons  
+ Safe rail operations are reliant upon good communication between all 
+operating personnel.  
+ All individuals and groups of individuals working in the rail industry need to 
+unde rstand  fully and be working to a common objective before safe rail 
+operations can be achieved.  
+ Documents created for the purpose of providing essential information to rail 
+participants should be clear, unambiguous and in a format suitable for the 
+intended recipients.  
+  
+ 
+Report 10 -101 
+<< Page 35 >>
+ 9. Works cited 
+Hopkins, A. (2004). Safety, Culture and Risk: The Organisational causes of Disasters.  Sydney: CCH 
+Australia Limited.  
+Morgan, C., Kyte, T., Olsen, L., & Roop, S. (2004). Assessment of existing teams and crew resour ce 
+management (CRM) training within the rail industry. Transportation Research Board 2004 
+Annual Meeting CD -ROM, 11 -14 January, Session #476.  Washington DC.  
+TAIC. (2005). 05-107 Diesel multiple unit passenger Train 3037, wrong routing, signal passed at 
+danger and unauthorised wrong line travel, Westfield.  Wellington: Transport Accident 
+Investigation Commission .  
+TAIC. (2006). 06-110 passenger Train 4045, uncontrolled movement, between Britomart station and 
+Quay Park junction,.  Wellington: Transport Accident  Investigation Commission.  
+TAIC. (2011). 11 -101: Wrong line running irregularity, leading to a potential head -on collision, 
+Papakura - Wiri, 14 January 2012.  Wellington: Transport Accident Investigation Commission.  
+ 
+ 
+ 
+ 
+ 
+
+<< Page 36 >>
+ Report 10 -101 Appendix 1:  Tamaki signal ling and interlocking diagram  
+
+ 
+Report 10 -101 
+<< Page 37 >>
+ Appendix 2: Compulsory stop protection: warning board placements
+
+ 
+
+<< Page 38 >>
+ Report 10 -101 Appendix 3 : Daily bulletin 13 October 2010  
+ 
+
+ 
+Report 10 -101 
+<< Page 39 >>
+ Appendix 4: Time line of event
+
+ 
+  
+  
+ 
+  
+  
+ 
+  
+  
+ 
+ 
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+11-104 Freight Train 261 collision with bus, Beach Road level crossing, Paekakariki, 31 
+October 2011  
+10-102 collision between 2 metro passenger trains, after one struck a landslide  and derailed 
+between Plimmerton and Pukerua Bay, North Island Main Trunk, 30 September 2010    
+07-102 (incorporating inquiry 07 -111) freight train mainline derailments, various locations on 
+the national network, from 6 March 2007 to 1 October 2009  
+11-101 Wrong line running irregularity, leading to a potential head -on collision, Papakura - 
+Wiri, 14 January 2011  
+08-102 Metro passenger train derailment, Sylvia Park, 14 April 2008 (incorporating inquiries 
+08-104 and 08 -107) Diesel motor fires on board metro passenger trains, 3 June 
+2008 and 25 July 2008  
+ 
+08-111 Express freight Train 524, derailment, near Puketutu, North Island Main Trunk, 3 
+October 2008  
+08-112 Safe work ing irregularity resulting in a collision and derailment at Cass Station  
+on the Midland line, 8 November 2008  
+09-102 Passenger fatality after falling between platform and passenger Train 8125, 
+Newmarket West station, 1 July 2009  
+08-109 Passenger express  Train 9113, platform overrun resulting in signal passed at danger , 
+Fruitvale Road Station, North Auckland Line, 4 September 2008  
+07-114 Derailment caused by a wheel -bearing failure, Huntly, 19 October 2007, and 11 
+subsequent wheel -bearing failures at various locations during the following 12 month 
+period  
+ 
+09-103 Passenger Train 1608, collision with slip and derailment, Tunnel 1,  
+Wairarapa Line, May morn, 23 July 2009 (incorporating investigation 08 -106,  
+collision with slip and derailment on the Johnsonville Line)  
+ 
+09-101 (Incorporating 08 -105): express freight train derailments owing to the failu re of  
+bogie side frame s, various locations on the North Island Main Trunk ,  
+between 21 June 2008 and 7 May 2009  
+ 
+07-105 Push/pull passenger train sets overrunning platforms, various stations within th e 
+Auckland suburban rail network, between 9 June 2006 and 10 April 2007  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 38.00          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

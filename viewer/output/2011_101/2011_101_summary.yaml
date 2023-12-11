@@ -1,0 +1,58 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 5
+  explanation: The signaller had worked longer hours than normal in the week leading up to the incident and had worked 12 of the previous 13 days, transitioning from late shifts to early shifts with only one day off between (4.1.15). However, the report suggests that fatigue from the roster alone was unlikely to have contributed to the incident, as the signaller felt well-rested and was only about 2 hours into her shift at a time when the human body is naturally awake (4.1.17). Therefore, fatigue and alertness are considered to have a minor contribution to the incident.
+- name: Communication and Crew Resource Management
+  percentage: 25
+  explanation: The incident demonstrates that the standard of communication and crew resource management has not reached an acceptable level, despite previous recommendations for improvement (5.7). The train controller's plan to cross trains was not disseminated to all parties involved, missing early opportunities to avert the potential collision (5.6). This lack of effective communication and coordination significantly contributed to the incident.
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 10
+  explanation: The signaller had gaps in her practical training, specifically with the Mis.60 procedure, which was not resolved, leaving her less prepared for the task (4.1.33). Additionally, the signaller had not undergone the required formal level A safety observations after gaining certifications, which would have provided opportunities to address training requirements and other matters (4.1.34). Inadequate training and preparedness for the situation at hand played a role in the incident.
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: There is no mention in the report of maintenance procedures and compliance being a factor in the incident. The signal equipment was not at fault, and the report specifically states that it was not the equipment that failed, but the way it was being operated (4.1.23).
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems are not relevant to the incident described in the report, as there was no fire or related hazard mentioned.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 15
+  explanation: Veolia had not properly managed the new function of providing signallers for signal boxes, as evidenced by the lack of required safety observations for signallers, including the one involved in the incident (5.8). The audit system had detected this weakness in Veolia's safety system for monitoring signaller performance, but it had not been satisfactorily addressed at the time of the incident (5.9). Regulatory compliance and safety management deficiencies were a significant contributing factor.
+- name: Situational Awareness
+  percentage: 20
+  explanation: The signaller momentarily forgot about the train authorized to travel on the wrong line under a Mis.60 procedure and cleared a signal for an opposing train, which created the potential for a head-on collision (5.1). This lapse in situational awareness was a major contributing factor to the incident.
+- name: Equipment Design and Specifications
+  percentage: 5
+  explanation: The signal lever used to change the aspect of Signal 3A should have had a double "blocking" ability to remind the signaller that two authorizations were required before changing the signal aspect, but the system was not designed to enable that (5.2). The design flaw in the "blocking" procedure contributed to the incident, although it was not the sole cause.
+- name: Risk Assessment and Management
+  percentage: 5
+  explanation: The use of a single blocking system where dual blocking was required increased the risk of the signaller moving the control lever without proper authorization (4.1.8). This indicates a gap in risk assessment and management, as the potential for such an error was not adequately mitigated.
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'The report does not indicate that emergency response planning and coordination were factors in the incident. The focus was on the prevention of the incident rather than the response to it.
+
+    '
+- name: Distracted Operation
+  percentage: 5
+  explanation: The signaller was likely distracted by other tasks assigned to her, which contributed to her momentarily losing sight of the train controller's plan to cross trains at Papakura (5.3). While not the primary cause, distraction played a role in the incident.
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'Structural integrity and material fatigue are not mentioned as factors in the incident. The report does not indicate any issues with the physical condition of the transport vehicles or infrastructure.
+
+    '
+- name: Human Error and Error Management
+  percentage: 10
+  explanation: Human error played a role in the incident, as the signaller inadvertently removed the collar and did not seek approval from train control, creating a potential head-on collision (4.1.2). Error management systems, such as the "blocking" procedure, failed to prevent this mistake (4.1.5).
+- name: Safety Culture and Organizational Influences
+  percentage: 5
+  explanation: Organizational influences, such as Veolia's management of signal box operations and the lack of a plan to show how it intended to manage the operation, contributed to the incident (4.1.32). The safety culture within Veolia did not ensure that signallers were adequately trained and observed, as required for safe operations (4.1.36).
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather information dissemination and interpretation are not relevant to the incident described in the report, as there was no mention of weather conditions being a factor.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the report that contributed to the incident outside of the predefined themes.
+
+    '

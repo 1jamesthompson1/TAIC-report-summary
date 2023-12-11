@@ -1,0 +1,66 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no mention of fatigue or alertness issues contributing to the accident in the provided document.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: 'There is no evidence in the document suggesting that communication breakdowns or crew resource management failures were factors in the accident.
+
+    '
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 30
+  explanation: The document indicates that the master had not received adequate training on the Kea's new control system and had a limited understanding of the system's functionality and the various back-up functions he could have used to regain control of the Kea (4.3.3, 4.3.15). This lack of training and preparedness for emergency procedures significantly contributed to the accident.
+- name: Maintenance Procedures and Compliance
+  percentage: 20
+  explanation: The Kea had known reliability issues with the control levers, and Fullers was aware of these issues when the vessel resumed service (4.1.2). However, there is no direct mention of maintenance procedures and compliance contributing to the accident, but the presence of known issues suggests a potential link to maintenance practices.
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems were not mentioned as contributing factors in the accident.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: Fullers did not adequately manage the risks associated with the replacement of the Kea's propulsion control system and the vessel's re-entry to service (4.4.5, 5.5). This indicates a lack of compliance with safety management practices.
+- name: Situational Awareness
+  percentage: 10
+  explanation: The master's lack of awareness that he did not have control of the starboard propulsion unit until it was too late contributed to the collision (4.2.1, 4.2.9). This indicates a failure in maintaining situational awareness.
+- name: Equipment Design and Specifications
+  percentage: 5
+  explanation: The design of the control system, specifically the follow-up mode and the give-away button, played a role in the accident (4.2.5, 4.2.6). However, the primary issue was the training and understanding of the equipment rather than its design.
+- name: Risk Assessment and Management
+  percentage: 15
+  explanation: Fullers' failure to undertake a proper risk assessment when reliability issues with the control system were known, and the subsequent decision to continue using the follow-up mode, contributed to the accident (4.4.1, 4.4.2, 4.4.3).
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'There is no mention of emergency response planning and coordination issues contributing to the accident in the provided document.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no evidence in the document suggesting that the master was distracted during the operation of the vessel.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'Structural integrity and material fatigue were not mentioned as contributing factors in the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 10
+  explanation: Human error, specifically the master's failure to fully press the 'give-away' button and his misinterpretation of the aural alarms, contributed to the loss of control of the starboard propulsion system (4.2.5, 4.2.6, 5.1, 5.2).
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'While the document criticizes Fullers'' training system and risk management, it does not explicitly link the accident to the broader safety culture or organizational influences.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather was not mentioned as a factor in the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the accident outside of those already listed.
+
+    '

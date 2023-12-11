@@ -1,0 +1,61 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 5
+  explanation: The document indicates that fatigue was not a significant factor in the accident. The deckhand on the Leila Jo was alert enough to notice the Rose Harmony on the radar, and the wheelhouse watchkeeping alarm was active, suggesting alertness was maintained (3.28). However, the document does not completely rule out fatigue as a contributing factor, hence a small percentage is assigned.
+- name: Communication and Crew Resource Management
+  percentage: 25
+  explanation: Poor bridge resource management and ineffective communication significantly contributed to the accident. The situational awareness of the bridge team on the Rose Harmony was adversely affected by poor bridge resource management, and the presence of passengers on the bridge was a distracting influence (3.10, 3.11, 3.12). Additionally, the third officer's failure to escalate communication assertively with the master when the threat was not being addressed properly indicates a breakdown in communication and crew resource management (3.19-3.20).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 15
+  explanation: The deckhand on the Leila Jo was not sufficiently familiar with the collision-prevention rules to be left in sole charge of the watch (3.25-3.27, 3.37). This lack of training and preparedness for emergency procedures contributed to the accident, as the deckhand did not take the actions required by Maritime Rules Part 22 when they detected the presence of the Rose Harmony (3.29).
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: 'There is no mention in the document of maintenance procedures and compliance being a factor in the accident. Therefore, this safety theme is not applicable.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems are not mentioned as contributing factors in the document, so this safety theme is not applicable to the accident.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The document suggests that there were issues with regulatory compliance and safety management, particularly regarding the training of deckhands in watchkeeping practices and adherence to Maritime Rules Part 31 (3.38-3.40). However, since the primary focus of the findings was on situational awareness and communication, this theme is given a moderate percentage.
+- name: Situational Awareness
+  percentage: 30
+  explanation: The low situational awareness of both the Rose Harmony and the Leila Jo's crews was a primary factor in the accident. The Rose Harmony's bridge team had low situational awareness during and after pilotage (3.3-3.4, 3.10), and the sole watchkeeper on the Leila Jo had low situational awareness as to the risk of collision (3.5, 3.29). This theme is given the highest percentage due to its repeated emphasis in the document.
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'There is no indication in the document that equipment design and specifications were a factor in the accident, so this safety theme is not applicable.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 5
+  explanation: While the document does not explicitly mention risk assessment and management as a contributing factor, the lack of proper action after detecting the risk of collision suggests a deficiency in this area (3.29, 3.37). A small percentage is assigned to acknowledge this implicit contribution.
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that emergency response planning and coordination were factors in the accident, so this safety theme is not applicable.
+
+    '
+- name: Distracted Operation
+  percentage: 10
+  explanation: Distracted operation played a role in the accident, as indicated by the presence of passengers on the bridge of the Rose Harmony, which affected the bridge team's ability to manage the conduct of the vessel effectively (3.21-3.24). This distraction contributed to the low situational awareness and the subsequent collision.
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'The document does not mention structural integrity or material fatigue as contributing factors, so this safety theme is not applicable to the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 0
+  explanation: 'Although human error is inherent in the accident, the document focuses more on specific aspects such as situational awareness, communication, and training rather than on human error and error management as broad themes. Therefore, this safety theme is not assigned a percentage.
+
+    '
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'The document does not discuss safety culture and organizational influences as direct factors in the accident, so this safety theme is not applicable.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather information is not mentioned as a factor in the accident, so this safety theme is not applicable.
+
+    '

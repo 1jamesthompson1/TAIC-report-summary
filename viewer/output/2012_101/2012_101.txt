@@ -1,0 +1,885 @@
+﻿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Inquiry 12 -101: Load shift on Train 926D struck stationary  
+Train 845, Main South line, Rolleston, 6 April 2012  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve  transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing ackno wledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+  
+ 
+ 
+ 
+ 
+Final Report  
+Rail inquiry 12-101 
+Load shift on Train 926D struck stationary  
+Train 845,  Main South line , Rolleston   
+6 April 2012  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for  Publication: March 2014   
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  
+co-ordinating and co -operating with other accident investigation organisations overseas .  The principal 
+purpose of its inquiries is to determine the circumstances and causes of the occurrence s with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose b y informing members of the transport sector, both 
+domestically and internationally, of the lessons that can be learnt from transport accidents and 
+incidents.   
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull, QC 
+     
+Key Commission p ersonnel  
+Chief Executive     Lois Hutchinson  
+General Counsel    Cathryn Bridge  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator in Charge    P G Miskell  
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hours ) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The  Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+  
+ Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual  property of the Transport Acci dent Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to i ndustry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission’s inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictu res 
+Unless otherwise specified, photographs , diagrams  and pictures included  in this final report  are 
+provided by , and owned by,  the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Location of accident  
+ 
+ 
+ 
+Legend  
+ Rolleston  
+ 
+ 
+ 
+  
+  
+ 
+ 
+Source: mapsof.net  
+  
+ Contents  
+Figures  ................................ ................................ ................................ ................................ ................................  i 
+Abbreviation  ................................ ................................ ................................ ................................ .......................  ii 
+Glossary  ................................ ................................ ................................ ................................ .............................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+4. Analysis  ................................ ................................ ................................ ................................ ......................  8 
+4.1. Introduction  ................................ ................................ ................................ ................................ ... 8 
+4.2. Why the load shifted  ................................ ................................ ................................ .....................  8 
+4.3. Training  ................................ ................................ ................................ ................................ .........  9 
+4.4. The MDD cla ss special -movement wagon  ................................ ................................ ...............  11 
+5. Findings  ................................ ................................ ................................ ................................ ..................  12 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  13 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  13 
+7. Recommendations  ................................ ................................ ................................ ................................ . 14 
+7.1. General  ................................ ................................ ................................ ................................ ....... 14 
+7.2. Recommendation 1: Maintaining staff competency  ................................ ...............................  14 
+7.3. Recommendation 2: NZ Transport Agency  ................................ ................................ ..............  15 
+8. Key lessons  ................................ ................................ ................................ ................................ .............  16 
+ 
+ 
+
+  
+Final Report 12 -101 | Page i Figures  
+Figure 1   Signal south of Ashburton (photograph from KiwiRail)  ................................ ............................  4 
+Figure 2    Damage to Moore Street level crossing barrier arms (photographs from KiwiRail)  ...............  4 
+Figure 3  Signal approaching Chertsey (photogr aph from KiwiRail)  ................................ ........................  5 
+Figure 4   Signal approaching Rolleston  ................................ ................................ ................................ .... 5 
+Figure 5  Damage to the locomotive on Train 845  ................................ ................................ ...................  6 
+Figure 6  The load overhanging the wagon at Rolleston  ................................ ................................ ..........  7 
+ 
+ 
+ 
+ 
+  
+Page ii | Final Report 12 -101 Abbreviation  
+ 
+Commission   Transport Accident Investigation Commission  
+ 
+ 
+Glossary  
+bogie  a term used for a unit consisting of 2 wheel sets, 2 side frames, a bolster and 
+the suspension and brake system.  The bogie has a central pivot point that 
+allows it to turn as  the track curves and thus guide the rail vehicle into the 
+curve. A wagon body is supported by 2 bo gies 
+edge protector   material used to stop lashings fraying  
+flat-deck wagon   a freight -carrying wagon with no sides  
+lashing  a form of securing strap applied for the purpose of restraint.  Examples are 
+chains and webbing strops  
+loading ga uge the maximum di mensions to which a vehicle can be built or loaded without risk 
+of striking a track -side structure  
+wagon body  a freight wagon with both bogies removed  
+  
+  
+Final Report 12 -101 | Page iii Data summary  
+Vehicle particulars  
+Train type and number s: express freight Train 926D  and express freight Train 845  
+Operator:  KiwiRail  
+Date and time  6 April 2012 at 02251 
+Location  Rolleston  
+Persons involved  6  
+Injuries  nil 
+Damage  moderate  
+                                                        
+1 Times in this report are New Zealand Standard Times (universal co -ordinated time + 12 hours) and are 
+expressed in the 24 -hour mode.  
+
+  
+Final Report 12 -101 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 6 April 2012 the 9.5 -tonne body of a damaged freight wagon (the load) was being carried 
+on a purpose -built “special -movement wagon ” (the wagon) .  The wagon was one of 60 on a 
+northbound  freight train travelling from Dunedin to Christchurch.  
+1.2. At some time before the train reached Ashburton  the webbing strops used to lash the load to 
+the wagon failed, allowing the load to move and overhang the side of the wagon by at least 
+one metre.  Over a distance of about 64 k ilometres  the overhanging load struck and damaged 
+or destroyed 10 track -side signals and 2 barrier arm assemblies at a road level crossing.  
+1.3. At Rolleston a nother  freight train was stationary on an adjacent track , waiting for the 
+northbound train to pass.  The overhanging load struck the locomotive of the stationary train.  
+The driver of the stationary train alerted the other driver, who stopped his train.  The stationary 
+train received minor damage.  No -one was in jured in the accident.  
+1.4. The webbing strops failed because an insufficient number of them had been used to secure 
+the load, and edge protectors , which  were required to prevent the webbing strops fraying , had 
+not been used . The load had not been secured in co mpliance with the KiwiRail Freight  
+Handling Code (issue 3, effective from 7 September 2009 ). 
+1.5. The Transport Accident Investigation Commission (Commission) found that no-one involved 
+with loading, shifting and securing the wagon body was sufficiently familia r with the KiwiRail 
+Freight Handling Code  to reali se that the securing arrangement was not compliant with the 
+Code .  The Commission has made a recommendation  to the Chief Executive of KiwiRail to 
+address this safety issue . 
+1.6. The Commission also found  that th e wagon allocated to transport the load from Dunedin to 
+Christchurch had not been furnished with the appropriate load -securing equipment.  KiwiRail 
+took the appropriate safety action  to address this safety issue.  
+1.7. Key lessons learnt from this inquiry were:  
+ poorly secured loads on trains have the potential to cause significant damage  to property  
+and injury to persons, which is why the persons responsible for securing and checking the 
+security of loads must be familiar with the requirements of the operator’s Freight 
+Handling Code  
+ the proper freight -securing equipment must be easily available to staff to ensure they can 
+correctly apply the standards of the Freight Handling Cod e. 
+  
+
+<< Page 2 >>
+ Final Report 12 -101 2. Conduct of the inquiry  
+2.1. On Friday 6 April 2012, t he NZ Transport Agency notified th e Commission of the incident .  The 
+Commission opened an inquiry under section 13(1) of the Transport Accident Investigation 
+Commission Act 1990 to determine the circumstances and causes of the incident.   An 
+investigator  in charge was appointed that same da y. 
+2.2. The investigator  in charge travelled to Rolleston on the day of the incident to examine the 
+wagon conveying the load and recover webbing str ops used to secure the load.  He  also 
+travelled 70 kilometres s outh of Rolleston to record details of 14 signal installations damaged 
+by the load shift en  route . 
+2.3. The investigator  in charge subsequently had discussions with  the following KiwiRail staff : 
+ the container terminal site manager , Dunedin   
+ the operations manager, Dunedin    
+ the container terminal oper ator 
+ the South Island regional manager  mechanical  
+ the line -haul operations manager, Christchurch . 
+2.4. On 16 December 2013  the Commission approved the draft final report for distribution to 
+interested persons for comment.  
+2.5. The Commission sent the draft final report to 16 interested persons.  Written submission s 
+were received from 2 interested persons. Those submissions were considered and changes 
+made to the report.  
+2.6. On 17 March 2014  the Commission approved the final report for publication.  
+  
+  
+Final Report 12 -101 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  On Monday 16 January 2012, a derailment occurred on the Main South line about  30 
+kilometres north of Dunedin .  The body of a derailed freight wagon (the load)  was secured on  a 
+standard flat-deck  wagon  and conveyed  from the derailment site to the container terminal at 
+Dunedin.   The load was placed  on 3 timber sleepers laid across the flat -deck wagon and 
+secured with 4 webbing  strops . 
+3.1.2.  The wagon body was eventually destined for Christchurch, but could only make the 366 -
+kilometre journey on a special -movement wagon designed for that purpose.  The flat-deck 
+wagon was stored at the Dunedin container terminal for several weeks awaiting the availability 
+of a purpose -built, special -movement wagon2.  Eventually specia l-movement wagon MDD43 
+(the wagon) became available in March 20 12.  A  container terminal operator used a fork hoist 
+to transfer t he load to the wagon . He used the same 3 wooden sleepers from the flat -deck 
+wagon and the same  4 webbing  strops to secure the load.  The KiwiRail Freight Handling Code  
+required that edge protectors be placed between the web strops and the sharp corners of the 
+load.  Edge protectors had not been used for the journey from the derailment site to Dunedin .  
+The Dunedin container termi nal operator did not use any when securing the load on the 
+wagon . 
+3.1.3.  On 3 April 2012  the wagon  was pulled from the Dunedin container terminal  and taken  to the 
+freight  yard.  The next day the wagon was placed on a freight  train for the journey  to 
+Christchurch .  A rail operator carried out the mandatory pre-departure train inspection and the 
+brake test .  He certified that all loads were secure and that the wagons on the train were in a 
+safe condition to run.  T he train departed from Dunedin at 1830 . 
+3.1.4.  The train stopped en route at Oamaru, Pukeuri  and Timaru to exchange  wagons.   On arrival at 
+Timaru a rail operator  saw that the load had shifted  on the wagon and that some of the 
+webbing strops had failed  during the 206 -kilometre journey from Dunedin .  The wagon  was cut 
+from the train  and placed in the Timaru container terminal for the load to be adjusted and re-
+secured.  
+3.1.5.  A container terminal operator at Timaru used a fork hoist to move the overhanging load  back 
+to the middle of the wagon .  He replaced 2 webbing strops  that had frayed, re-tightened 2 
+other s and added a fifth one .   
+3.1.6.  On 5 April 2012 another freight train started  the same journey from  Dunedin to Christchurch .  
+It stopped at Timaru  just after midnight on 6 April  2012 .  Nine wagons were detached from the 
+train and 17 , including the wagon with the adjusted load , were attached .  A rail operator made 
+a full inspection of those wagons added and conducted  a brake test once the train was 
+complete.  The train departed Timaru at 0030  with the wagon with the adjust ed load 20 
+wagons back from  the locomotive.  
+3.1.7.  At 0125 the train  passed through Hinds , 57 kilometres north of Timaru , without incident .  At 
+some point the load on the wagon  shifted again .  It struck and damaged a series of track -side 
+signals and level -crossing apparatus.   The first was at Ashburton some 74 kilometres north of 
+Timaru .  A signal mast head was broken off, and the ladder  was bent  (see Figure 1).  The 
+signal was on the east side of the line 2.75  metres from the centre of the track.  
+                                                        
+2 There were only 3 special -movement wagons in the KiwiRail fleet.  
+
+<< Page 4 >>
+ Final Report 12 -101  
+Figure 1 
+ Signal south of Ashburton  (photograph from KiwiRail)  
+ 
+3.1.8.  As the train continued  towards Christchurch, t he displaced load struck and destroyed the 
+south -eastern barrier arm mechanism protecting  the Moore Street level c rossing at Ashburton 
+(95.45 kilometres Main South line) .  The complete barrier mast separated at the concrete 
+block (see Figure 2).  Damage to the north -western barrier mechanism was less severe.  The 
+counterweight became separated and the securing bolt ben t.  
+  
+Figure 2 
+ Damage to Moore Street level crossing barrier arms  (photograph s from KiwiRail ) 
+3.1.9.  The displaced load struck and damaged 5 other  signals on the east side of the main line 
+within Ashburton station limits .  
+3.1.10.  At about 01 53 the displaced load struck 3 signals near  Chertsey level crossing, shear ing one 
+off at its base (see Figure 3).  
+
+  
+Final Report 12 -101 
+<< Page 5 >>
+  
+Figure 3 
+Signal approach ing Chertsey  (photo graph from KiwiRail)  
+ 
+3.1.11.  Over the next 41 kilometres t he train passed 7 signals on the east side of the main  line without 
+incident .   
+3.1.12.  When the train enter ed Rolleston Station limits, some 137 kilometres from Timaru, the displaced 
+load struck the signal on the east side of the main  line, shearing t he signal mast at the base 
+casting (see Figure 4).  
+ 
+Figure 4 
+ Signal approaching Rolleston  
+
+
+<< Page 6 >>
+ Final Report 12 -101 3.1.13.  At that time, a West Coast -bound train  was stationary  on the West Main line at Rolleston , waiting 
+to enter the Midland line .  KiwiRail pro cedures require d drivers of stationary trains to conduct “roll-
+by inspections ”3 of other train s when they cross ed4.  Once the locomotive of the northbound train 
+had passed, t he driver of Train 845 switched his headlight  to full in order to carry out the roll-by 
+inspection from his locomotive cab.  About the leading  third of the train  had gone past when  out of 
+the darkness he saw the load  protruding  over his track .  The driver was just ducking down behind 
+his driver’s  console  when the displaced load  struck  his train .  He immediately made a radio 
+broadcast saying , “926, stop, stop, stop you have hit me”  (see Figure 5) .   
+ 
+Figure 5 
+Damage to the locomotive on Train 845  
+3.1.14.  The driver of the northbound train  applied the brak es immediately.  The train controller in 
+Wellington ’s national train control centre also heard the radio broadcast and responded by 
+changing the indication of the next signal  to red ( Stop ).  The driver was able to stop his train 
+before that signal  (within 1 300 metres) .    
+3.1.15.  When the driver went back to check his train h e found the load overhanging the east  side of the 
+wagon (see Figure 6).  All 5 webbing strops used to secure the load had failed .  
+                                                        
+3 Check the other trains for any irregularity.  
+4 The Mai n South line is single track.  Trains use crossing loops or other lines within station limits to cross 
+trains travelling in the opposite direction.  
+
+  
+Final Report 12 -101 
+<< Page 7 >>
+  
+Figure 6 
+The load overhanging the wagon  at Rolleston  
+   
+
+
+<< Page 8 >>
+ Final Report 12 -101 4. Analysis  
+4.1. Introduction  
+4.1.1.  Load security on wagon s is critically important.  The safety of the rail network relies on trains 
+being within  the “loading gauge ”.  The l oading gauge defines  the maximum dimensions to 
+which a rail vehicle can be built or loaded without risk of striking a structure  beside the track, 
+including tunnel walls .  The risk is heightened when there is an adjacent track, such as in 
+double -line territory, or in this case  where there was a crossing loop to enable opposing trains 
+to pass each other . 
+4.1.2.  This accident was a good example of what can happen if a load shifts outside the loading 
+gauge.  Several track -side structures were substantially damaged and eventually the displaced 
+load struck an opposing train waiting in a crossing  loop.  
+4.1.3.  The following analysis discusses why the load shifted.  It also considers  2 safety issues:  
+ KiwiRail staff members who were responsible for loading and  securing wagons and 
+inspecting specia l loads were not sufficiently trained in and knowledgeable about  the 
+KiwiRail Freight  Handling Code.  
+ the special -movement wagon was not well equipped to secure properly the special load 
+it was designed to convey . 
+4.2. Why the load shifted  
+4.2.1.  The weight of the load was calculated to be 9.5 tonnes.  When conveying unrestrained loads, 
+the Freight Handling Code  required the combined rated strength of the lashings to be at least 
+twice the weight of the load5.  The standard railway lashing chain (bond chain) used by 
+KiwiRail had a rated strength of 10 tonnes.  If these had been used, a minimum of 2 chains 
+would have been required to lash the wagon body to the special -movement wagon . 
+4.2.2.  When wagon bodies were  transported on wagons, the “load” was regarded by KiwiRail  as a 
+steel structure.  There were  no specific rules for transporting these steel structures , but there 
+was sufficient guidance on the  securing of steel products that could and should have been 
+applied to this load6. 
+4.2.3.  KiwiRail ’s standard loading instruction s were  to use bond chains for securing steel products 
+such as  rolled product s, hollow sections, steel coil s, wrapped steel sheets , light and heavy 
+plate, coloursteel  and s teel slabs.   Bond chains fitted in the appropriate way would have been 
+a better choic e for securing the load. 
+4.2.4.  The Freight Handling Code  did allow w ebbing strops to be used to secure loads , but they had 
+to be used togeth er with edge protectors positioned between the webbing strops and where 
+they pass ed around sharp parts of the steel structure to prevent the strops fraying.  Fraying 
+significantly reduces the strength of webbing strops.  
+4.2.5.  The webbing strops used to secure the load to the wagon  had been  manufactured in 
+accordance with standard AS/NZS 4380:2001 .  They had a rated lash ing capacity of 2.5 
+tonnes.  Therefore, a minimum of 8 webbing strops with edge protectors would have been 
+required to lash the wagon body in order to meet the Code  requirements . 
+4.2.6.  Only 4 webbing strops were used w hen the wagon body was first lashed to a sta ndard flat -
+deck wagon for the trip from the derailment site to Dunedin.  N one of those was fitted  with 
+edge protectors.  When the load was transferred to the special -movement wagon  at Dunedin , 
+the container terminal operator simply transferred the lashing arrangement to the wagon.  
+                                                        
+5 KiwiRail Freight Handling Code, Section 5.7.  
+6 KiwiRail Freight Handling Code, Section 5 Load Security and  Safety, Section 13 Metallic Products, and 
+Section 13A Steel Products.  
+  
+Final Report 12 -101 
+<< Page 9 >>
+ 4.2.7.  Unsurprisingly, the webbing strops had begun  to fray and the load had shifted by the time the 
+train arrived in Timaru.  The container terminal operator there had the initiative to replace 2 
+frayed webbing strops and add one to mak e 5, but this was still 3 short of what was required, 
+and still edge protectors were not put in place to prevent them fraying . 
+4.2.8.  It was not possible to determine when and in what order the webbing strops failed, but from 
+the time the first failed the others would have failed in rapid succession as they progressively 
+had to cope with more and more of the load.  
+4.2.9.  In those final kilometres before striking the stationary train at Rolleston , the load appear ed to 
+have been almost, if not totally, unrestrained.  First  it struck several structures on the east 
+side of the train.  Then it struck the stationary train standing on the west side of the train, and 
+after striking the stationary train it was found overhanging on the east side again, with no 
+lashings left securin g it. 
+Findings  
+ 
+1. The load shifted outside the standard loading gauge , and struck several track -side 
+structures and another train, because it had not been secured in accordance with 
+the KiwiRail Freight Handling Code  
+ 
+2. Only half the required number of webbing strops had been used to secure the load  
+and none had edge protectors fitted to prevent them fraying  
+ 
+3. The use of chains would have been a more appropriate method of securing the 
+load to the wagon  
+ 
+4.3. Training  
+Safety issue  – No-one involved with loading, shifting and securing the wagon body was  sufficiently  
+familiar with the KiwiRail Freight Handling Code  to reali se that the securing arrangement was not 
+compliant with the Code . 
+4.3.1.  The Freight Handling Code  was an integral component of KiwiRail’s safety management 
+system.  It had been introduced in 1997.  The Code  was comprehensive and presented in a 
+pictorial format so that it could  be readily understood by those who need ed to learn and 
+adhere to it.  It was accessible from KiwiRail’s  website.  
+4.3.2.  However, such a code is only useful if staff members who are required to follow it are trained 
+accordingly and have ready access to it.  In this case the persons involved in clearing the 
+derailment site were not trained in the Freight Handling Co de.  Consequently the load was not 
+compliant with the Code  when it began its journey .  
+4.3.3.  The container terminal operator at Dunedin had not been trained or assessed against the 
+Code  either .  His job description stated in part:  
+As a Container Terminal Operato r your primary task is the loading and unloading 
+of trucks and rail wagons.  You will carry out your role according  to KiwiRail’s 
+health and safety and rail operating procedures as specified in the rail operating 
+code . 
+The bulk o f a container terminal oper ator’s work was loading and unloading containers 
+between trucks and trains.  However, they were  occasionally required to handle other types of 
+freight as well , so they should have been trained in the Freight Handling Code before being  
+allowed to undertake those  tasks.  So too should  their  knowledge and currency with the Code  
+have been  routinely assessed.  However, in contrast to its requirements for  other yard -
+operating staff, KiwiRail had no requirement to conduct regular formal safety observations of 
+container terminal operators.  This knowledge gap among  staff authorised to conduct these  
+important tasks is a safety issue that will need to be addressed by KiwiRail.  
+
+<< Page 10 >>
+ Final Report 12 -101 4.3.4.  In the absence of any information to the contrary, t he Dunedin container terminal operator 
+made an assumption that the method used to lash the load when it entered the yard should 
+be sufficient for when it left the yard.   Consequently the wagon  resumed its journey  still as a 
+non-compliant load. 
+4.3.5.  The next point in the journey when the error shou ld have been picked up was during the rail 
+operator’s pre -departure train inspection at the Dunedin freight terminal.   Rail operators were  
+trained in and supposed to be familiar with the KiwiRail Freight  Handling Code. 
+4.3.6.  KiwiRail’s Rail Operating Code7 set out the duties and responsibilities of personnel  carrying 
+out train inspections.  It stated  in part:  
+6.1 DUTIES AND RESPONSIBILITIES   
+Where there are no explicit instructions Rail Pers onnel must exercise their 
+own judgement, subject to the overriding consideration that no train may 
+be dispatched if any vehicle in it is not in a safe condition to run.  
+The thorough walk around  of trains is essential for service quality and safe 
+operations.  
+4.3.7.  During the walk -around on both sides of a train the rail operator  performing the train 
+inspection was required to carry out a brake test, and check the security and condition of each 
+wagon , which include d checking : 
+ the condition of brake blocks  
+ for leaking hoses  
+ that all wagons were  coupled correctly  
+ that all handbrakes had been  released  
+ the condition of wheels and springs  
+ that there was no hanging brake equipment . 
+4.3.8.  They were  also supposed to carry out a  load security check to ensure  that:   
+ the loa ds were  secure as far as visible  
+ bond chains were  secured and tight  
+ curtains/doors were  closed  
+ the twist -locks were  engaged and locked  
+ no loose [items]  such as tyres and timber were  present . 
+4.3.9.  The pre -departure train inspection was the final  opportunity to identify “out-of-Code ” loads.  In 
+this case neither the rail operator at Dunedin nor the one at Timaru identif ied that the load 
+had not been secured in compliance with the Code .  The majority of rail freight was container 
+traffic and regular bulk product s, with less special general cargo freight being conveyed.  For 
+this reason it is possible that pre-departure checks tend ed to focus on train running gear and 
+associated brake equipment, all of which were  below the level of the wagon deck s, at the 
+expense o f conducting proper assessment s of special load s such as the wagon body.  At a 
+cursory glance the wagon body would have looked reasonably well secured – not overhanging 
+and all 4 lashings tight .  It would have taken some knowledge of the Freight Handling Code, or 
+reference to it , to have understood that the load was not properly secured.  
+4.3.10.  The same safety issue arose in Timaru.   The container terminal operator at the depot had not 
+been trained in the Freight Handling Code .  Like the Dunedin container terminal  operator, he 
+lashed the load in a similar way, although in his case it should have been more obvious that 
+                                                        
+7 KiwiRail  Rail Operating Code , Section 5.3, Clause 6.1.  
+  
+Final Report 12 -101 
+<< Page 11 >>
+ the lashing arrangement was not sui table  because he found 2 webbing strops frayed , and 
+replaced them.  
+4.3.11.  The issue was not new to KiwiRail.  An internal investigation had been  carried out in August 
+2008 , following 3 separate consignments of steel beams conveyed on flat-deck wagons 
+shifting while in transit .  The findings from the investigation had  identified the training  in, 
+knowledge of and appl ication of the Freight Handling Code  as contributory factors.  
+4.3.12.  KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being 
+undertaken.  It had to  ensure that the loading and stowage of goods on railway wagons were  
+carried  out by people with the appropriate training and certification.  
+4.4. The MDD class special -movement wagon  
+Safety issue  – The MDD class special -movement wagon allocated to transport the load from Dunedin to 
+Christchurch had not been furnished  with the appropriate load -securing equipment .  
+4.4.1.  The special -movement wagon had been converted and allocated to KiwiRail’s mechanical 
+group for non -revenue, special -movement use.  Th e wagon was more than 4 metres longer 
+than the standard UK -class flat-deck wagon and ran on smaller -diameter wheels in order to 
+lower the deck height and make it  capable of carry ing high loads.  The wagons had initially 
+been used to transport passenger carriage bodies from Wellington to Dunedin.  
+4.4.2.  Wagon MDD43 had 3 chain boxes and winches  on each side.  However, when the wagon was 
+placed in the container terminal at Dunedin there were no bond chains in those boxes.   Bond 
+chains and edge protectors were not kept at the container terminal.  
+4.4.3.  A supply of the right equipment for a task is  important.  If it is not readily available , employees 
+are less likely to go out of their way to find and use it.  
+4.4.4.  On 12 July 20 13 KiwiRail advised that since this incident the fleet of MDD class wagons ha d 
+increased from 3 to 4 and another conversion was i n progress.  All of the special -movement 
+wagons were fully decked, had 8 stanchion pockets on each side and were fitted with 6 chain 
+box assemblies, 6 corresponding chain winch arrangements and lengths of 10 -millimetre 
+Grade 80 chain.   This addressed this safety issue, so the Commission has not made any  
+recommendation.  
+Finding s  
+4. None of KiwiRail’s staff  involved with loading and securing the load was 
+sufficiently familiar with the KiwiRail Freight Handling Code  to reali se that the 
+securing arrangement was not compliant with the Code  
+ 
+5. The MDD class special -movement wagon allocated to transport the load from 
+Dunedin to Christchurch had not been furnished with the appropriate load -
+securing equipment.  Consequently, if someo ne had wanted to secure the load in 
+compliance with the Freight Handling Code , they would not have been able to do 
+so 
+ 
+ 
+ 
+
+<< Page 12 >>
+ Final Report 12 -101 5. Findings  
+5.1. The load shifted outside the standard loading gauge, and struck several track -side structures 
+and another train, because it had not been secured in accordance with the KiwiRail Freight 
+Handling Code . 
+5.2. Only half the required number of webbing strops had been used to secure the load and none 
+had edge protectors fitted to prevent them fraying.  
+5.3. The use of chains would have been a more appropriate method of securing the load to the 
+wagon . 
+5.4. None of KiwiRail’s staff  involved with loading and securing the load was sufficiently familiar 
+with the KiwiRail Freight Handling Code  to reali se that the securing arrangement was not 
+compliant with the Code . 
+5.5. The MDD class special -movement wagon allocated to transport the load from Dunedin to 
+Christchurch had not been furnished with the appropriate load -secu ring equipment.  
+Consequently, if someone had wanted to secure the load in compliance with the Freight 
+Handling Code , they would not have been able to do so . 
+.
+  
+Final Report 12 -101 
+<< Page 13 >>
+ 6. Safety a ctions  
+6.1. The Commission classifies  safety actions  by 2 types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+6.2. On 13 December 2013 KiwiRail advised that all but one of the MDD  class wagons have been 
+fitted with chains and additional tie down points.  
+ 
+ 
+ 
+  
+
+<< Page 14 >>
+ Final Report 12 -101 7. Recommendations  
+7.1. General  
+7.1.1.  The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.    
+7.1.2.  In this cas e the Commission makes one recommendation  to the Chief Executive of KiwiRail as 
+it is the appropriate organisation to address the safety issues .  
+7.1.3.  The second recommendation is made to the Chief Executive of the NZ Transport Agency.  The 
+NZ Transport Agency has various powers under the Railways Act 2005 to monitor and ensure 
+rail participants’ performance and compliance.   
+7.1.4.  In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar acci dents or incidents occurring in the 
+future.  
+7.2. Recommendation  1: Maintaining staff competency  
+7.2.1.  None of KiwiRail’s  staff  involved with loading and securing the wagon body was sufficiently 
+familiar with the KiwiRail Freight Handling Code  to reali se that the secu ring arrangement was 
+not compliant with the Code . 
+KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being 
+undertaken.  It had to  ensure that the loading and stowage of goods on railway wagons were  
+carried out by people with the appropriate training and certification.  
+The Commission recommends that the Chief Executive of KiwiRail  take steps to ensure that 
+appropriate training is given to all staff involved in load security and that staff responsible  for 
+checking load security at the various stages of a train journey are discharging their duties in a 
+manner consistent with the KiwiRail Freight Handling Code .  (008/14 )   
+On 1 April 2014 , the Chief Executive of KiwiRail replied  in part : 
+KiwiRail intentds to take the following actions:  
+1. KR Operational and Training Manager have been tasked to carry out a 
+Training Needs Analysis (TNA), develop and implement a KR Training 
+package to designated KR Staff (Freight Terminals) and Third Parties (Freight 
+Staff). 
+Individual type Training Packages are to ensure that all staff involved in 
+loading, load security certifying load, accessing presented load, responsible 
+for checking load security at the various stages of a train journey are 
+discharging their duties i n accordance with the Freight Handling Code.  
+ Training Needs and Analysis (TNA) is envisioned for a completion date 
+31 May 2014.  
+ Training Development is envisioned for a completion date 31 Jul 2014  
+ Training Delivery programme is envisioned for completion da te 30 Sep 
+2014  
+2. KiwiRail will discuss with Third Parties on how best to scope and undertake 
+the training: however whilst in infancy development and the catch -all and 
+confidence assurance to KiwiRail will be 1 above.  
+3. For Audit purposes the “Training Programm e” is to electronically record the 
+individual’s course completion, competency/authorisation and ongoing 
+refresher training requirements.  Third Party Facilities to self -manage staff 
+  
+Final Report 12 -101 
+<< Page 15 >>
+ competencies post course completion notification (KiwiRail/Internal) Refer  5 
+below.  
+4. KiwiRail Freight Operations will develop an en -route monitoring programme 
+to ensure cargo remains appropriately secured and fit to travel.  Special 
+Project to be completed by 30 Sep 2014.  Refer 5 below.  
+5. KiwiRail Audit will develop and audit and revalidation programme to support 
+1 and 2 above.  
+7.3. Recommendation 2:  NZ Transport Agency  
+7.3.1.  No-one involved with loading, shifting and securing the wagon body was sufficiently familiar 
+with the KiwiRail Freight Handling Code  to reali se that the securing arrangement was not 
+compliant with the Code . 
+KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being 
+undertaken.  It had to  ensure that the loading and stowage of goods on railway wagons were  
+carried out by people with the appropriate training and certification.  
+The Commission has recommended that the Chief Executive of KiwiRail  take steps to ensure 
+that appropriate training is given to all staff involved in load security and that staff responsible 
+for checking load security at the various stages of a train journey are discharging their duties 
+in a manner consistent with the Kiwi Rail Freight Handling Code . 
+7.3.2.  It is important that KiwiRail address the above recommendation, which addresses the safety 
+issues examined in the report.  The NZ Transport Agency has various powers under the 
+Railway s Act 2005 to monitor and ensure KiwiRail’s p erformance and compliance.  
+The Commission recommends that the Chief Executive of the NZ Transport Agency  ensure 
+that KiwiRail addresses the above recommendation.  ( 009/14 ) 
+On 21 March 2014, NZ Transport Agency replied:  
+Recommendation 008/14 that the Commission have directed to the Chief 
+Executive of KiwiRail is noted.  
+Recommendation 009/14 made to the Chief Executive of the the NZ Transport 
+Agency is accepted.  
+Discussions on these recommendations will be initiated on the publication of the 
+final repor t.  These discussions will include a projected timeframe for 
+implementation.  This will be advised to TAIC in due course.  
+  
+
+<< Page 16 >>
+ Final Report 12 -101 8. Key l essons  
+8.1. Poorly secured loads on trains  have the potential to cause significant damage and injury to 
+persons, which is why the persons responsible for securing and checking the security of loads 
+must be familiar with the requirements of the operator’s Freight Handling Code . 
+8.2. The proper freight -securing equipment must be easily available to staff to ensure they can 
+correctly apply the standards of the Freight Handling Code . 
+  
+  
+  
+  
+  
+ 
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+11-105 Freight Train 228 wrong -routed, into closed section of track Wiri Junction, South 
+Auckland, 12 November 2011  
+RO-2013 -108 Near collision between 2 metro passenger trains, Wel lington, 9 September 2013  
+11-106 Hi-rail vehicle nearly struck by passenger train, Crown Road level crossing near 
+Paerata, North Island Main Trunk, 28 November 2011  
+11-102 Track occupation irregularity, leading to near head -on collision, Staircase -
+Craigi eburn, 13 April 2011  
+RO-2013 -104 Urgent Recommendations: Derailment of metro passenger Train 8219,  
+Wellington, 20 May 2013  
+11-103 Track workers nearly struck by passenger train, near Paekakariki, North Island 
+Main Trunk, 25 August 2011  
+10-101 wrong route setting, high -speed transit through turnout, near miss and SPAD 
+(signal passed at danger), Tamaki, 13 August 2010  
+11-104 Freight Train 261 collision with bus, Beach Road level crossing, Paekakariki, 31 
+October 2011  
+10-102 collision between 2 metro passenger trains, after one struck a landslide and 
+derailed between Plimmerton and Pukerua Bay, North Island Main Trunk, 30 
+September 2010    
+07-102 (incorporating inquiry 07 -111) freight train mainline derailments, various locati ons 
+on the national network, from 6 March 2007 to 1 October 2009  
+11-101 Wrong line running irregularity, leading to a potential head -on collision, Papakura - 
+Wiri, 14 Ja nuary 2011  
+08-102 Metro passenger train derailment, Sylvia Park, 14 April 2008 (incorporating 
+inquiries 08 -104 and 08 -107) Diesel motor fires on board metro passenger trains, 
+3 June 2008 and 25 July 2008  
+ 
+08-111 Express freight Train 524, derailment, near Puketutu, North Island Main Trunk, 3 
+October 2008  
+08-112 Safe working irregularity resulting in a collision and derailment at Cass Station  
+on the Midland line, 8 November 2008  
+09-102 Passenger fatality after fa lling between platform and passenger Train 8125, 
+Newmarket West station, 1 July 2009  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 13.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

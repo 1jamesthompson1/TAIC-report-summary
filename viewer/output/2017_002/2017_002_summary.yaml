@@ -1,0 +1,66 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information regarding the pilot''s fatigue or alertness levels prior to the accident.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention any issues related to communication or crew resource management as contributing factors to the accident.
+
+    '
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss the pilot''s training or preparedness for emergency procedures as a contributing factor to the accident.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 20
+  explanation: The helicopter had not been maintained in accordance with the manufacturer's instructions and the Civil Aviation Rules, and the engine showed signs of wear that were inconsistent with the hours recorded in its logbook (4.6). This indicates that maintenance procedures and compliance were a significant safety issue.
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention fire detection or suppression systems as a factor in the accident.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The pilot conducted a commercial flight, which was beyond the privileges of the pilot's private pilot licence (4.7). Additionally, the Civil Aviation Authority's regulatory and surveillance controls in place for the non-commercial aviation sector were not effective in detecting the pilot's non-compliance (4.8). This indicates that regulatory compliance and safety management were relevant safety issues.
+- name: Situational Awareness
+  percentage: 15
+  explanation: The pilot flew over densely forested terrain when alternative flight paths were available that offered less risk in the event of an aircraft emergency (4.4). This suggests that situational awareness was a contributing factor to the accident.
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide information suggesting that equipment design and specifications were a contributing factor to the accident.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss risk assessment and management practices as a contributing factor to the accident.
+
+    '
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention emergency response planning and coordination as a factor in the accident.
+
+    '
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'Insufficient information. The document does not indicate that the pilot was engaged in any distracting activities during the operation of the helicopter.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide evidence that structural integrity or material fatigue were issues in the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 15
+  explanation: The investigation was unable to determine conclusively why the helicopter struck the tree canopy and subsequently the terrain. However, it was likely due to either the engine not delivering the demanded power or the pilot inadvertently not maintaining a suitable clearance above the tree canopy (4.5). This suggests that human error was a contributing factor.
+- name: Safety Culture and Organizational Influences
+  percentage: 10
+  explanation: The document indicates multiple examples of the pilot/owner operating outside the privileges extended to a private pilot or aircraft owner and not complying with the Civil Aviation Rules (3.36). This suggests that safety culture and organizational influences were safety issues.
+- name: Weather Information Dissemination and Interpretation
+  percentage: 30
+  explanation: The environmental conditions at the time of the accident, including the possibility of a sudden tailwind gust and visual impairment due to the sun's position, had the potential to affect the safe conduct of the flight (4.2, 3.11, 3.12). This indicates that weather information dissemination and interpretation were significant contributing factors to the accident.
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident outside of the predefined themes.

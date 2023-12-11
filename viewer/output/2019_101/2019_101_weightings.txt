@@ -1,0 +1,16 @@
+"2019_101","[7  8  9  10]","0.0","There was no evidence of fatigue having been a factor in the occurrence, as ""shift-rosters for all personnel were received by the Commission and were compliant with fatigue management standards"" (3.25).
+","0.0","40.0","The incident was significantly influenced by a breakdown in communication and crew resource management. The RPO and the signals technician did not effectively communicate the nature and potential implications of the work, leading to a lack of a shared mental model (3.16, 3.17). This poor communication contributed to the RPO's misunderstanding of the technician's work and the subsequent removal of electronic blocking (3.8, 3.9).
+","0.0","0.0","The document does not indicate that a lack of training or preparedness for emergency procedures contributed to the incident.
+","0.0","0.0","The document does not suggest that maintenance procedures and compliance were factors in the incident.
+","0.0","0.0","Fire detection and suppression systems are not mentioned as contributing factors in the incident.
+","0.0","10.0","While there were lapses in following procedures, such as not following the procedure prescribed in rule 902 (3.2), the document does not indicate that regulatory compliance and safety management were the primary issues. However, they did play a role in the incident.
+","0.0","30.0","The RPO's situational awareness was compromised during the incident, as they were not aware that the signals technician was inspecting points for potential damage and assumed the work was related to removing secondary protection (3.8). Additionally, the RPO believed the technician was working clear of the track when they had not (3.11).
+","0.0","0.0","There is no indication that equipment design and specifications were a factor in the incident.
+","0.0","3.333","The document does not provide information suggesting that risk assessment and management were directly related to the incident.
+","5.774","0.0","Emergency response planning and coordination are not mentioned as contributing factors in the incident.
+","0.0","0.0","There is no mention of distracted operation contributing to the incident.
+","0.0","0.0","Structural integrity and material fatigue are not mentioned as contributing factors in the incident.
+","0.0","16.667","Human error played a significant role in the incident, as evidenced by the misunderstandings and procedural lapses between the RPO and the signals technician (3.11). The RPO's incorrect assumption and the signals technician's failure to clarify the duration and nature of their work contributed to the incident (3.8, 3.10).
+","5.774","0.0","While the document discusses non-technical skills and communication, it does not specifically attribute the incident to safety culture or organizational influences.
+","0.0","0.0","Weather information dissemination and interpretation are not mentioned as contributing factors in the incident.
+","0.0","true","N/A"

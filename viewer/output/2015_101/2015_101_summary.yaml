@@ -1,0 +1,76 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that fatigue or alertness of the pedestrian or the train driver played a role in the accident.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that communication or crew resource management contributed to the accident.
+
+    '
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that a lack of training or preparedness for emergency procedures contributed to the accident.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: The document states that "data recorders showed that the flashing lights, audible bells and physical barriers at the morningside drive road level crossing were operating correctly" (3.1.9 (invalid formatted quote)), indicating that maintenance procedures and compliance were not a contributing factor.
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that fire detection and suppression systems were relevant to the accident.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that regulatory compliance and safety management issues contributed to the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that situational awareness of the train driver was a factor; the pedestrian''s situational awareness is not addressed under this theme.
+
+    '
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that equipment design and specifications contributed to the accident.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that risk assessment and management practices contributed to the accident.
+
+    '
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that emergency response planning and coordination were factors in the accident.
+
+    '
+- name: Distracted Operation
+  percentage: 100
+  explanation: The document states that "He was seen to be using his mobile phone while he walked down the platform ramp and he had bud-style earphones inserted in his ears" (3.1.8), indicating that the pedestrian was distracted, which directly contributed to him stepping out in front of the train.
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that structural integrity and material fatigue were factors in the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 0
+  explanation: 'While the pedestrian''s actions could be considered an error, the document does not provide information on error management systems or their potential failure, so this theme is not directly applicable.
+
+    '
+- name: Safety Culture and Organizational Influences
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that safety culture and organizational influences were factors in the accident.
+
+    '
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that weather information dissemination and interpretation were factors in the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There is no need to add an "Other" safety theme as the provided themes cover the scope of the accident, and the document provides sufficient information to attribute the cause to one of the predefined safety themes, specifically "Distracted Operation".
+
+    '

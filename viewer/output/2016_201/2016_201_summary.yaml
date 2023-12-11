@@ -1,0 +1,60 @@
+- name: Human Factors - Fatigue and Alertness
+  percentage: 0
+  explanation: 'There is no mention of fatigue or alertness issues in the document. The crew''s physical and mental state is not discussed as a contributing factor to the accident.
+
+    '
+- name: Communication and Crew Resource Management
+  percentage: 5
+  explanation: While the document does not explicitly mention communication failures as a direct cause, it does highlight issues with crew training and understanding of the CO2 system, which could be related to crew resource management. "the crew were not sufficiently familiar with the principles of the co2 fixed fire-fighting system for the engine room" (4.6.5).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 20
+  explanation: The crew's lack of understanding of the CO2 fire-fighting system's principles and the importance of sealing the engine room before activation indicates inadequate training and preparedness for emergency procedures. "The crew and operators of the PeeJay V did not fully appreciate the importance of completely sealing the engine room before activating the CO2 system" (4.6.1).
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: 'The document does not provide evidence that maintenance procedures and compliance were a factor in the accident. There is no mention of maintenance issues contributing to the fire or the failure of systems.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 25
+  explanation: The absence of a fire detection and alarm system significantly contributed to the accident by reducing the crew's time to respond. "The absence of a fire detection and alarm system on the PeeJay V meant the crew had less time and opportunity to respond to the fire" (5.2). Additionally, the CO2 fire-fighting system's ineffectiveness due to the engine room not being fully sealed was a major safety issue. "The construction of the engine room did not allow the compartment to be fully sealed, which rendered the CO2 fixed fire-fighting system ineffective" (5.3).
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The vessel's lack of fire detection equipment and automatic fire alarms, despite being certified to carry up to 90 passengers, points to issues with regulatory compliance and safety management. "a vessel certified to carry up to 90 passengers and operating up to 12 nm from the coast very likely did not have fire detection equipment or automatic fire alarms installed" (4.3 (invalid formatted quote)).
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There is no specific mention of situational awareness or its failure as a contributing factor to the accident within the document.
+
+    '
+- name: Equipment Design and Specifications
+  percentage: 15
+  explanation: The design of the vessel, specifically the engine room's inability to be fully sealed and the lack of fire detection and suppression systems, contributed to the accident. "The vessel was constructed with at least two ducts into the engine room that were not possible to close or seal in the event of a fire" (4.5.4).
+- name: Risk Assessment and Management
+  percentage: 10
+  explanation: The operator's hazard register gave limited consideration to fire and other catastrophic events, indicating inadequate risk assessment and management. "The operator's hazard register focused mainly on personal injury, such as slips, trips and falls, and gave limited consideration to fire and other catastrophic events" (4.3.10).
+- name: Emergency Response Planning and Coordination
+  percentage: 5
+  explanation: The crew's response to the fire and the evacuation of passengers were decisive and efficient, suggesting that emergency response planning and coordination were not major contributing factors. However, the inability to access life-saving equipment due to the fire suggests some deficiencies. "The evacuation of passengers to their muster areas on the flybridge and foredeck was conducted by the crew decisively and efficiently" (4.7.2).
+- name: Distracted Operation
+  percentage: 0
+  explanation: 'There is no indication in the document that distracted operation played a role in the accident.
+
+    '
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: 'The document does not suggest that structural integrity or material fatigue were factors in the accident.
+
+    '
+- name: Human Error and Error Management
+  percentage: 5
+  explanation: Human error in the form of a lack of understanding of the CO2 fire-fighting system's operation may have contributed to the accident. "The crew and operators of the PeeJay V did not fully appreciate the importance of completely sealing the engine room before activating the CO2 system" (4.6.1).
+- name: Safety Culture and Organizational Influences
+  percentage: 5
+  explanation: The limited consideration of fire in the hazard register and the absence of a fire detection and alarm system suggest issues with the safety culture and organizational influences. "The operator's hazard register focused mainly on personal injury, such as slips, trips and falls, and gave limited consideration to fire and other catastrophic events" (4.3.10).
+- name: Weather Information Dissemination and Interpretation
+  percentage: 0
+  explanation: 'Weather does not appear to have played a role in the accident, and there is no mention of weather information dissemination and interpretation in the document.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident outside of the predefined themes.

@@ -1,0 +1,1144 @@
+﻿ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Final report RO -2013 -101: derailment of freight Train 345,  
+Mission Bush Branch line, 9 January 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.   The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made  
+to the Transport Accident Investigation Commission.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Final  Report  
+Rail inquiry RO-2013 -101 
+derailment of freight Train 345  
+Mission Bush Branch  line 
+9 January 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : May 2017  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiries is to dete rmine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action a gainst a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector and the public, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents . 
+ 
+Commissioners  
+Chief Commissioner     Helen Cull, QC ( until 8 July 2016)  
+Chief Commissioner     Jane Meares (from November 2016)  
+Deputy Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Stephen Davies Howard  
+Commissioner      Richard Marchant  
+Commissioner      Paula Rose , QSO  (from May 2017)  
+ 
+Key Commission p ersonnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+General Counsel     Cathryn Bridge  
+Investigator in Charge     Vernon Hoey  
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz  
+Telephone  + 64 4 473 3112 (24 h ours) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 1 1, 114 The Terrace, PO Box 10 323, Wellin gton 6143, New Zealand  
+ 
+ 
+ Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.  
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is ma de 
+to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to ind ustry participants only and not 
+discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission’s inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, picture s 
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+ 
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe the degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the 
+Intergovernmental Panel on Climate 
+Change ) Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+The derailment scene near Glenbrook  
+ 
+
+ 
+ 
+ Contents  
+ 
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ ......................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Locomotive and train coupling arrangements  ................................ ................................ ............  3 
+3.2. The intermittent electrical connection  ................................ ................................ ........................  4 
+3.3. Setting the brake controls  ................................ ................................ ................................ ............  6 
+3.4. The derailment  ................................ ................................ ................................ ..............................  7 
+3.5. Rail personnel  ................................ ................................ ................................ ...............................  8 
+ Driver A  ................................ ................................ ................................ ................................ ..........  8 
+ Driver B  ................................ ................................ ................................ ................................ .........  8 
+ Train examiner  ................................ ................................ ................................ ..............................  9 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  10 
+4.1. Introduction  ................................ ................................ ................................ ................................  10 
+4.2. The t rain drivers’ and train examiner’s actions  ................................ ................................ ....... 10 
+4.3. The incomplete electrical plug connection  ................................ ................................ ..............  11 
+4.4. Incorrect brake handle set -up ................................ ................................ ................................ .. 11 
+4.5. Non-technical skills  ................................ ................................ ................................ ...................  12 
+4.6. The train drivers’ and train examiner’s performance  ................................ ..............................  14 
+5. Findings  ................................ ................................ ................................ ................................ ..................  16 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  17 
+General   ................................ ................................ ................................ ................................ ...................  17 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  17 
+Safety actions addressing other safety issues  ................................ ................................ .....................  18 
+7. Recommendations  ................................ ................................ ................................ ................................ . 19 
+General   ................................ ................................ ................................ ................................ ...................  19 
+Recommendations  ................................ ................................ ................................ ................................ . 19 
+8. Key lessons  ................................ ................................ ................................ ................................ .............  20 
+9. Citations  ................................ ................................ ................................ ................................ ..................  21 
+ 
+
+ 
+Final Report RO -2013 -101 | Page i Figures  
+Figure 1   The three components used to join locomotives and wagons to form a train  .......................  3 
+Figure 2   The two locomotives that travelled from Auckland to Mission Bush (not to scale)  ...............  4 
+Figure 3   Examples of an engaged electrical plug, left, and a not fully engaged plug, right  ................  4 
+Figure 4   Train 345 (not to scale)  ................................ ................................ ................................ .............  5 
+Figure 5   Reoriented Train 345 (not to scale) ................................ ................................ ..........................  5 
+Figure 6   Train 345 with the third locomotive (not to scale)  ................................ ................................ ... 6 
+Figure 7   The different brake handle set -ups ................................ ................................ ..........................  7 
+Figure 8   Coupling hook and bridle security arrangements on a standard coupler mechanism  ..........  7 
+Figure 9   Old standard wagon coupler (left) and new automatic coupler (right)  ................................ . 17 
+ 
+  
+Page ii | Final Repot RO -2013 -101 Abbreviations  
+Commission   Transport Accident Investigation Commission  
+KiwiRail    KiwiRail Holdings Limited  
+km   kilometre(s)  
+km/h    kilometre(s) per hour  
+SPAD    signal passed at danger ( red/s top) 
+Glossary  
+air brakes  a braking system that maintains a designed air pressure  maxi mised to 550 
+kilopascals throughout the length of a train.  The maximum pressure holds the 
+brakes in a released position .  A manually initiated reduction by a train driver or 
+the accidental loss of that pre ssure applies braking forces throughout a moving 
+train to slow or stop its momentum  
+ammeter  a dial fitted on a locomotive’s dashboard to display the amount of current being 
+produced by the electrical generator  
+brake examination s there are two types of train brake examination use d in New Zealand : 
+ a terminal test is a detailed examination undertaken before the 
+departure  of a train from a terminal .  A person walks around both sides 
+of the train to ensure  that the continuous air brake system is operating 
+from the lead locomotive to the last wagon  
+ an intermediate test is a shorten ed examination undertaken whenever 
+locomotive (s) or wagon (s) is added  or removed during the train  journey  
+brake valves  locomotives in New Zealand are fitted with two brake valves:  
+ an automatic brake valve for operating the continuous air brake system 
+along the whole length o f a train  (hereafter referred as the train brakes)  
+ an independent brake valve for operating the air brakes on the 
+locomotive or coupled locomotives  (hereafter refe rred as the 
+locomotive brakes)  
+DC-class  locomotive  a locomotive  rebuilt from the DA class of locomotive from the 1960s.  The 
+locomotive’s gross power is 1 ,062 kilowatts with a single cab design  
+ 
+DL-class  locomotive  DL locomotives were built in the 2010s.   The locomotives ’ gross power is 2 ,700 
+kilowatts with a double cab design  
+ 
+
+ 
+Final Report RO -2013 -101 | Page iii interlock  a mechanical or electric al feature that ensures  that the operation of two linked 
+mechanisms, brake handles in this instance, cannot be independently operated 
+at the same time  
+non-technical  skills  generic operational skills that underpin and enhance technical skills.  Safety -
+critical staff such as train drivers can draw on the skills to : carry out tasks that 
+require information to be understood ; focus on tasks at hand ; make good 
+decision s; and communicate effectively with other staff .  Non-technical skills 
+were previously referred to as crew resource management  
+Tranzlog  the brand name of standard train event recorder technology installed and used 
+on KiwiRail’s locomotiv es 
+ 
+  
+Page iv | Final Repot RO -2013 -101 Data summary  
+Train type and number:  freight Train 345  
+Origin/ Destination:  
+ Mission Bush/Mount Maunganui, a distance of 217.05 
+kilometres (km)  
+Train consist:  
+ 36 wagons weighing 1 ,845 tonnes hauled by two DL-class 
+and one DC-class  diesel -electric locomotives  
+Train length:  592 metres including the three locomotives  
+Operator:  KiwiRail Holdings Limited  
+Maximum train speed:  80 k ilometres  per hour (km/h)  
+Date and time:  9 January 201 3 at 04 25 
+Occurrence:  derailment of freight T rain 345 
+Derailment site:  
+ 9.35 km, Mission Bush Branch  line, about 7.75 km from 
+Mission Bush  
+Maximum track speed at 
+derailment site : normally 70 km/h but reduced to 40 km/h on date of 
+derailment  
+Persons involved:  
+ 
+  train driver based in Auckland ( driver A) 
+ train driver based in Hamilton (driver  B) 
+ ground -based train examiner based in Mission Bush 
+(train examiner ) 
+Injuries:  nil 
+Damage:  extensive to track infrastructure, freight wagons and steel 
+product  
+ 
+Final Report RO -2013-101 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. A KiwiRail freight train consisting of three locomotives hauling 3 6 wagons departed  Glenbrook  
+bound for Mount Maunganui  at 0430 on  9 January 2013.  
+1.2. When the train departed the brakes were working only on the three locomotives, and not the 
+wagons (the train brake) due to the train braking system not being configured properly in the 
+non-driving end of the lead locomoti ve.  Also , the coupling between the sixth  and seventh 
+wagon s in the train had not been secured properly.  
+1.3. The train parted between the sixth  and seventh  wagons  while descending a grade from 
+Glenbrook .  Within a matter of seconds,  the rear portion of the tra in ran into the forward 
+portion, causing the derailment . 
+1.4. The track infrastructure  and 28 wagons carrying steel product w ere extensively damaged.  The 
+line was closed for three and a half days while repairs were completed.  
+1.5. The Transport Accident Investigation  Commission (Commission) found  that the train  was able 
+to depart with a wrongly  configured brake control system due to there being no mechanical 
+interlock  preventing it moving . 
+1.6. The Commission also found  that the fact that the train brakes were not working when the train 
+departed Glenbrook  should have been detected, but was not , because t he required brake test 
+had not been performed after a third locomotive was added to the train.  
+1.7. The Commission has made no recommendations  because of the safety actions  taken by 
+KiwiRail Holdings Limited following th e derailment and the trend of decreasing mainline 
+derailments during the period of this investigation.  
+1.8. Key lessons  identified from this inquiry are:  
+ train drive rs and train examiners need to comply with basic operating rules to ensure that 
+trains have fully functioning and continuous air brake system s at all times  
+ it is important that all operating staff  communicat e properly and effectively  and ensure 
+that proper  procedures are followed .  Should there be any departure from the plan or any 
+unusual or unexplained event occur , it must be communicated effectively  
+ shift workers need to remain alert to any situation that could affect their cognitive 
+performance, and that of their work colleagues.  
+ 
+
+<< Page 2 >>
+ Final Repot RO -2013 -101 2. Conduct of the inquiry  
+2.1. The NZ Transport Agency notified the Transport Accident Investigation Commission 
+(Commission) of the dera ilment on 9 January 2013.   The Commission gathered further 
+information, then on 14 January 2013 opened an inquiry under section 13(1) of the Transport 
+Accident Investigation Commission Act 1990 and appointed an investigator in charge.  
+2.2. An investigator trave lled to Hamilton on 15 January  2013 , where KiwiRail Holdings Limited 
+(KiwiRail) had arranged re -enactment tests with the same three locomotives from the derailed 
+train and some coupled wagons.  The re -enactment replicated the various brake control set -
+ups as applied to the derailed train’s locomotives to determine the level s of brake application 
+on the coupled wagon s. 
+2.3. The investigator interviewed the two train drivers  involved in the occurrence , and the train 
+examiner . A visit to the Mission Bush  rail termi nal was made  to gain an understanding of the 
+circumstances leading up to the derailment.  
+2.4. The Commission obtained recorded data from all three locomotives and the signalling system 
+on the Mission Bush Branch line.  The two data streams were synchronised , and in 
+conjunction with the train control diagram and voice recordings  were used to determine the 
+sequence of events leading up to the derailment.  
+2.5. The investigator also obtained a number of records and documents pertaining to the 
+derailment:  
+ training, certification, assessment and performance records  for the two train drivers and 
+the train examiner  
+ KiwiRail’s design for the brake handle set -up and the general build specifications for the 
+DL-class  locomotive1 
+ current and previous roster and tim esheet records for the two train drivers and the train 
+examiner  
+ KiwiRail’s rules pertaining to train brake testing and train drivers ’ responsibilities  
+ driver B’s2 sleep patterns in the days leading up to the derailment  
+ the results of the re -enactment tests  done at Hamilton in the week following the 
+derailment  
+ the safety actions taken by KiwiRail following the derailment  
+ KiwiRail’s current non -technical skills3 policy and associated training material.  
+2.6. On 23 February 2017  the Commission approved a draft repor t for distribution to interested 
+persons for comment.  
+2.7. Written submission s were received from five of the interested parties  between March and May 
+2017.  The Commission considered the submissions, and changes as a result of those 
+submissions have been included in the final report.  
+2.8. On 24 May 2017 the Commission approved the final report for publication.  
+ 
+                                                        
+1 DL locomotives were built in the 2010s.  The locomotives’ gross power is 2,700 kilowatts with a double cab 
+design.  
+2 The train driver based in Hamilton.  
+3 Generic operational skills that underpin and enhance technical skills.  Safety -critical staff such as train 
+drivers can draw on the skills to: carry out tasks that require information to be understood; focus on tasks at 
+hand; make good decisions; and comm unicate effectively with other staff.  Non -technical skills were 
+previously referred to as crew resource management.  
+ 
+Final Report RO -2013-101 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Locomotive and train coupling arrangements  
+3.1.1.  There are three components used to join locomotives and wagons to form a train  (see 
+Figure 1) .  The  components are: 
+ electrical connection – this arrangement allows for one train driver to  operate multiple 
+locomotives.  Electrical connections are used between locomotives only  
+ coupler – this arrangement is th e physical connection between locomotives and between 
+locomotives and wagons .  Couplers can be either automatic or standard mechanisms  
+ brake hose s – these allow compressed air to transfer from locomotives to the coupled 
+freight wagons on a train.   A train driver operates a valve in the locomotive cab  to 
+decrease air pressure to apply brakes on every coupled locomotive and wagon .  
+Conversely the train driver operates the valve to increase air pressure to release the 
+brakes on every coupled locomoti ve and wagon on a train . 
+ 
+Figure 1  
+The three components used to join locomotives and wagons to form a train  
+  
+electrical 
+connection  
+automatic 
+coupler  
+brake hoses  
+
+<< Page 4 >>
+ Final Repot RO -2013 -101 3.2. The intermittent electrical connection  
+3.2.1.  Between 1630 and 1650 on 8 January 2013, KiwiRail ’s locomotive servicing staff at Auckland 
+coupled two diesel locomotives together  and recorded details of the air brake and electrical 
+connection tests  that were carried out . 
+3.2.2.  At 1630 on the same day a KiwiRail train driver (driver A) started work to drive the two 
+locomotives from Auckland to Mission Bush, a distance of 50.5 kilometres ( km).  The 
+locomotives left Auckland at 1718 (see Figure 2).  
+Figure 2  
+The two locomotives that travelled from Auckland to Mission Bush  (not to scale)  
+3.2.3.  At 17 23 the Tranzlog4 event recorder s on the locomotives detected a n intermittent loss of 
+connectivity in the electrical connection.  The electrical plug on the second locomotive  was 
+later found not fully engaged  (see Figure 3) .  This result ed in the two locomotives not working 
+together during the journey  to Mission Bush.  Driver A  was not aware of th e issue.  
+  
+Figure 3  
+Examples of an engaged electrical p lug, left, and a not fully engaged plug , right  
+3.2.4.  The two locomotives arrived at Mission Bus h at 1832  and were coupled to a rake of loaded 
+wagons  to form freight Train 345 (the train) d estined for Mount Maunganui .  The train weighed 
+1,845 tonnes , which was within the haulage capacity of the two locomotives.  Driver A 
+transferred control of the train to the new lead locomotive (se e Figure 4) . 
+                                                        
+4 The brand name of the standard event recorder technology installed on KiwiRail’s locomotives.  
+electrical plug 
+engaged  electrical plug not 
+fully engaged  
+ 
+DL9141  
+ DC4352  
+direction of travel  
+driver’s position  
+ 
+Final Report RO -2013-101 
+<< Page 5 >>
+  
+Figure 4  
+Train 345  (not to scale)  
+3.2.5.  Air compressors on the locomotives charged the brake cylinders to full pressure on the 
+wagons throughout the train  after the brake hoses had been connected between the second 
+locomotive and the first wagon . 
+3.2.6.  Driver A, with assistance from a ground -based KiwiRail train examiner, conducted a detailed 
+test of the train’s brakes in compliance with KiwiRail’s rules a fter ma ximum air pressure had 
+been reached .  The procedure was  called a terminal brake test  and required the driver to 
+releas e air pressure  from the brake cylinders , thereby apply ing the wagon brakes , then 
+recharg e air pressure to  the brake cylinders to  release t he brakes .  The train examiner was 
+also required to check that the coupl ers throughout the train were correctly secured.  
+3.2.7.  The driver completed two basic tests during this time , which  showed  that the locomotive’s 
+brakes were working correctly and , despite the intermittent  electrical plug  connection , that 
+both locomotives were working together . 
+3.2.8.  The train was moved in readiness for departure  from Mission Bush.  S hunting staff employed 
+by the steel mill informed the train examiner  that they considered the two locomotives were 
+not working  together during this movement .  The train examiner had become busy with other 
+tasks and forgot to pass on this information to driver A.  
+3.2.9.  Meanwhile, driver A had reached his own conclusion that his locomotive was not performing  
+satisfactorily .  Although he  had walked pas t the area between the two locomotives on several 
+occasions while at Mission Bush , he had not seen that the ele ctrical plug was not fully 
+engaged on DC4352.  The two locomotives  were disconnected from the train and reoriented  
+using a  triangular  track layout  provided for this purpose  and that negated the need to break 
+the couple rs between the two locomotives  (see Figure 5) . 
+ 
+Figure 5  
+Reoriented Train 345  (not to scale)  
+3.2.10.  The two locomotives were recoupled , and the brake hoses were reconnected  to the train by 
+the train examiner .  The train driver and the train examiner conducted a shortened test on the 
+train ’s brakes in compliance with KiwiRail’s rules.   The procedure , called an intermediate 
+brake test , ensure d that the train’s brakes remained functioning  correctly .  The test was 
+successful.  
+  
+ 
+DL9141  
+ DC4352  
+direction of travel  
+driver ’s position  
+36 wagons  
+36 wagons  
+ DC4352  
+ DL9141  
+direction of travel  
+driver ’s position  
+
+<< Page 6 >>
+ Final Repot RO -2013 -101 3.2.11.  The train left Mission Bush at 2145 and took three and a half h ours to travel the 5.7 k m to 
+Glenbrook , where driver A stopped the train.  Driver A thought that the slow speed was due to 
+a fault in the lead locomotive.  Driver A had full braking control over both locomotives and the 
+36 wagons during t his period.  
+3.2.12.  The s eparate data streams from the Tranzlog event recorders on the locomotive s showed that 
+the lead locomotive was hauling the train without any power coming from the second 
+locomotive , as it would have done  if the electrical plug connection had been fully engaged .  
+The train weight exceeded the lead locomotive’s pulling capacity .  Driver A had full control o f 
+the locomotive s’ and wagon s’ brakes during this time.  
+3.2.13.  At 0118 on 9 January 2013, d river A declared to train control that the train was disabled and 
+needed additional locomotive power before the journey to Mount Maunganui could resume.  
+3.2.14.  Another train driver tasked , who later in the day would be tasked with driving the three  non-
+derailed locomotiv es away from t he derailment site , saw that the electrical connection was not 
+fully engaged on the third locomotive.  He said that he was able to fully engage  and lock the 
+electrical plug into its socket.  
+3.2.15.  Servicing staff later reported that a detailed exami nation of the control systems on DL9141 
+did not reveal any defects.  The locomotive was returned to train operations without any 
+repairs being necessary.  
+3.3. Setting t he brake control s 
+3.3.1.  Train control arranged for an assisting (third) locomotive from Auckland.   It left Auckland with a 
+Hamilton -based driver (driver B) at 0320 and travelled to Glenbrook , where it arrived at 0422 . 
+3.3.2.  The third locomotive was coupled and the brake hoses were connected.  The train examiner 
+had remained on duty and had driven by road from Mission Bush to Glenbrook to assist with 
+the recovery of the disabled train . 
+3.3.3.  The third locomotive now became the lead for the train (see Figure 6), but control had to be 
+transferred to the driver’s cab at the other end of the locomotive.  An electrica l connection 
+cable was plugged in between the two DL locomotives.  Th ese two locomotives now provided 
+sufficient tractive power to enable the train to recommence its journey to Mount Maunganui.  
+ 
+Figure 6  
+Train 345 with the third locomotive  (not to scale)  
+3.3.4.  Driver B was now in charge of the train , and he  transferred control to the other end of  the lead 
+locomotive .  He did not neutralise the two brake handles  before he left the cab , leaving  the 
+handles in the position s shown in Figure 7A.  The train would not move when driver B applied 
+power  to the train . 
+3.3.5.  Driver B returned to th e vacated cab and correctly neutralised the black handle  for the 
+locomotive brakes , but omitted to neutralise the red handle for the train brakes (see 
+Figure 7B). 
+3.3.6.  In order to transfer control to the other driving cab correctly, Driver B should have placed both 
+handles to the positions as shown in Figure 7C. 
+36 wagons  
+ DC4352  
+ DL9141  
+direction of travel  
+driver A’s position  
+DL9170  
+driver B’s position  
+ 
+Final Report RO -2013-101 
+<< Page 7 >>
+    
+Figure 7  
+The different brake handle set-ups 
+3.3.7.  The incorrect brake set -up meant that driver B had braking control o n the three locomotives 
+only, but no braking control on the 36 wagons .  An intermediate brake test required to be 
+conducted from the lead locomotive in compliance with KiwiRail’s rules was not carried out.   
+The intermediate test would have identified that there was no braking control on the wagons.  
+3.3.8.  There was no loss of air pressure to the wagon ’s brakes  during this time , and the brake  
+cylinders remained fully charged  and kept the brakes in the release position . 
+3.3.9.  At 043 5 driver B  applied power and travel led a short distance on a slight rising gradient to a 
+level crossing , where the train examiner dismount ed from the lead locomotive  to be near his 
+parked motor vehicle .  Driver B noticed  that the train was not slowing as quickly as he 
+expected because only the locomotive brakes were working.  The train examiner dismounted 
+while the train was still moving . 
+3.4. The derailment  
+3.4.1.  At 0437 :02 driver B accelerated the train away from the level crossing.  At 0440  the speed of 
+the train reached 63  km/h  on a descending gradient .  The driver applie d the train’s brakes to 
+slow the train for an upcoming 40 km/h temporary speed restriction without success .  Driver B 
+made several applications of the locomotives ’ brakes , but the speed  of the train increase d to 
+76 km/h over the speed -restricted section of track.  
+3.4.2.  At 0440:45 t he Tranzlog record ed a sudden drop in air pressure in the train ’s brakes .  The 
+wagons had surged forward on the descending gradient , causing the coupling hook to lift up 
+and t he brake hoses to separate b etween the sixth and seventh wagon s (see Figure 8) . 
+ 
+Figure 8  
+Coupling hook and bridle security arrangements on a standard coupl er mechanism  
+7A 7B 7C 
+bridle securing the 
+coupling hook  
+
+<< Page 8 >>
+ Final Repot RO -2013 -101 3.4.3.  The bridle and coupling hook were later found to be intact on the separated sixth and seventh 
+wagons.  It could not be established whether the bridle had been correctly secured between 
+the two wagons before the train left Mission Bush or whether it had lifted off while the train 
+was travelling between Mi ssion Bush and the location of the derailment.  It was normal 
+practice for the train examiner to check that all bridles were in place before a train departed.  
+3.4.4.  The two detached sections of the train travelled independently for a short distance.  
+3.4.5.  At 0440:48  the rear section caught up and collided with the front section  of the train .  The 
+Tranzlog s showed that the locomotives were travelling at 65 km/h  and c alculations showed 
+that the rear section was travelling at 76 km/h at that instant .  The collision , known as a ‘run-
+in’, cause d three wagons to derail  simultaneously in the vicinity of the 9.35 km mark , resulting 
+in track damage that caused a further 28 wagons to derail.  
+3.5. Rail personnel  
+Driver A  
+3.5.1.  Driver A was based in Auckland and his licen ce to drive trains was current.  He had been 
+driving trains for 28 years.  He was familiar with the Mission Bush Branch line and the DL 
+class of locomotive.  
+3.5.2.  Driver A  had resumed work on 8 January 2013  after the Christmas  and New Year holiday 
+period . 
+3.5.3.  Driver A had been assessed  and passed competency for KiwiRail’s non-technical skills 
+practices, alertness management and intermediate brake test procedures in 2012.  
+3.5.4.  KiwiRail did not conduct a post -accident drug and alcohol test  on driver A in accordance with 
+its own policy , which stipulated  that it would  test any member of staff directly involved in an 
+incident . 
+Driver B  
+3.5.5.  Driver B was based in Hamilton and his licen ce to drive trains was current.  He had been 
+driving trains for 39 years .  He was familiar with the Mission Bush Branch line and the DL 
+class of locomotive.  
+3.5.6.  Driver B’s  work hours during the preceding three weeks had been normal .  He had been 
+rostered off duty for five days between 4 and 8 January 2013 , but he had been called out to 
+drive overnight trains on two occasions.  Driver B said that he had suffered from restless sleep 
+in the two nights immediately leading up  to the night of the derailment because of the 
+prevailing hot and humid weather conditions.  
+3.5.7.  Driver B had been assessed and passed competency for KiwiRail’s non-technical skills 
+practices and alertness management during 2002.  His most recent intermediate brake test 
+procedure assessment for competency had taken place  during 1999 . 
+3.5.8.  Driver B underwent a post -accident drug and alcohol test, which detected no performance -
+impairing substances.  
+  
+ 
+Final Report RO -2013-101 
+<< Page 9 >>
+ Train examiner  
+3.5.9.  The train examiner was based in Mission Bu sh and his licen ce to operate was current.  He was 
+familiar with train operating practices at Mission Bush and KiwiRail’s brake examination rules.  
+The train examiner ’s work hours were normal . 
+3.5.10.  The train examiner  had been assessed  and passed competency  for KiwiRail’s intermediate 
+brake test procedures in 2012 , but he had not been trained in or assessed for K iwiRail’s non-
+technical skills p ractices and alertness management practices.  
+3.5.11.  KiwiRail did not conduct a post -accident drug and alcohol test  on the train examiner  in 
+accordance with its own policy , which stipulated that it would  test any member of staff directly 
+involved in an incident . 
+ 
+
+<< Page 10 >>
+ Final Repot RO -2013 -101 4. Analysis  
+4.1. Introduction  
+4.1.1.  Mainline derailments have the potential to cause serious harm to people , and damage  to 
+locomotives , wagons, rail infrastructure  and the freight being conveyed.   They therefore have 
+significant implications for transport safety.   This derailment occurred close to occupied farm 
+dwellings , and the extended recovery period disrupted production at the steel mill the Mission 
+Bush Branch line served.  
+4.1.2.  The actual derailm ent occurred after the train had separated when , seconds later, the rear 
+portion of 30 wagons ran into the front six wagons and three locomotives.  Evidence showed 
+that t he front portion of the train had slowed more quickly than the heavier rear portion of  the 
+train , very likely because of the heav y weight of the 30 wagons and the three l ocomotives 
+being already under braking . 
+4.1.3.  The impact of the collision forced three wagons to derail simultaneously .  Driver A had not 
+been able to apply the train’s brakes, b ut the  retained air pressure in the wagons ’ brake 
+cylinders resulted in t he wagon brakes automatically appl ying on both portions of the train 
+when the hoses separated  between the sixth and seventh wagons . 
+4.1.4.  The separation between the sixth and seventh wagon s and was very likely caused by an 
+incomplete coupling connection that had gone undetected during the terminal brake test 
+undertaken at Mission Bush before the train  depart ed.  The incomplete coupling allowed the 
+hook  to spring up when the coupling s suddenl y compressed as the train descend ed the 
+gradient from Glenbrook . 
+4.1.5.  The investigation did not uncover any mechanical faults with the wagons , any freight loading 
+issues , or any track geometry iss ues that could have contributed to the derailment.   None of 
+the three locomotives had any mechanical faults that made it unserviceable , except for the 
+underlying brake handle issue on the DL locomotives.  Subsequent tests carried out on t he 
+same three locomotives  showed that th e brakes on the wagons would not have functioned 
+with the identical brake control configuration as set  when the train left Glenbrook . 
+4.1.6.  The following analysis discusses the factors leading to the derailment , and safety issues 
+relating to non -compliance with t rain operating practices.  
+4.2. The train drivers’ and train examiner’s actions  
+4.2.1.  Both train drivers and the train examiner were qualified  for the ir roles.  With the exception of 
+driver B, they had recently demonstrated compliance with the intermediate brake test 
+procedures.  
+4.2.2.  Driver B’s most recent assessment for intermediate brake tests had been undertaken in July 
+1999.  He was therefore  12 years overdue for his intermediate brake test assessment.  This, 
+together with two other instances where driver A and the trai n examiner were overdue for their 
+biannual theory assessments , has since been addressed by KiwiRail.  
+4.2.3.  KiwiRail implemented an improved assessment management system for  its staff members  
+during July 2014 .  The system now provides all levels of KiwiRail manag ement with a 
+transparent overview of dates by which any  outstanding assessment s must be completed.  
+4.2.4.  During the investigation the Commission identified the following procedural lapses by the 
+locomotive servicing staff, the train drivers and the train examiner : 
+ the electrical connection was not fitted correctly by the servicing staff prior to the two 
+locomotives leaving Auckland  and was not subsequently identified or checked by driver A  
+ the incomplete coupling between the sixth and seventh wagons was not detected during 
+the terminal brake test prior to the train leaving M ission Bush  
+ 
+Final Report RO -2013-101 
+<< Page 11 >>
+  the brake handles in the rear cab of the lead locomotive were left in an incorrect 
+configuration . 
+4.2.5.  The Commission reviewed KiwiRail ’s procedures and instructions for these t asks  and 
+identified a number of improvements, which KiwiRail subsequently made.  
+4.3. The incomplete electrical plug connection  
+Safety issue – The incomplete electrical plug  connection went undetected by several rail staff.  
+Independently, both locomotives were performing correctly , but the incomplete  electrical  
+connection meant they were not operating together . 
+4.3.1.  The incomplete electrical connection resulted in the two locomotives  only intermittently 
+operating together .  It was this poor locomotive performance that ultimately  led to the train 
+being unnecessarily declared as disabled at Glenbrook .  This was the first in a chain of events 
+that led to the derailment.  
+4.3.2.  Had driver A checked the electrical connection before leaving Mission Bush , it could have 
+been rect ified by simply pushing home the plug on the second locomotive until the lug on the 
+top flap locked into the depression at the top of the plug ( refer  Figure 3).  
+4.3.3.  There  is no automatic alert to inform a train driver when  an electrical connection  is not fully  
+engaged.  Train drivers use their experience to monitor the performance of multiple 
+locomotives hauling trains . 
+4.3.4.  The ammeters5 in the driving cab would have shown driver A that driving amps  were being 
+generated for the traction motors  within the normal operat ing range  for both locomotive s.  This 
+would have been an indication to the train d river that both were fully functional and that there 
+was potentially a problem with the electrical connection between the two locomotives . 
+4.3.5.  The servic ing staff and the train driver were qualified for their roles and all had experience in 
+fitting and checking electrical connections bet ween locomotives .  KiwiRail reviewed its 
+locomotive servicing procedures and used this derailment to highlight the need for train 
+drivers to include visual examination s of electrical connection s when dealing with  any similar 
+locomotive performance issues .  Consequently, t he Commission has not made any 
+recommendations to KiwiRail to address this issue.  
+4.4. Incorrect brake handle  set-up 
+Safety issue – Driver B was able to set the brake handles incorrectly because there was no 
+inter lock6 capability between the two driving cabs of the DL-class locomotive s.  The incorrect 
+brake set -up resulted in  driver B not having brake control over the coupled wagons . 
+4.4.1.  The DL-class  locomotive was  the first double -cab diesel locomotive to operate in New Zealand 
+that had brake handles permanently fitted to both cabs.   It required train drivers to set the  
+locomotive  and train brake handles correctly before vacating a cab and relocating to the cab 
+at the other end.  
+4.4.2.  In comparison , the e arlier -generation double -cab diesel  and electric locomotives , and the 
+current fleet of double -cab EF -class electric locomotives , required some  or all of the brake 
+handles  to be physically transferred by the drivers when changing ends.   This meant that train 
+drivers had to isolate the brakes in a cab being vacated in order to remove the appropriate 
+handles .  The handles were then carried to the other cab , where th ey were inserted to allow 
+                                                        
+5 An ammeter is a dial fitted on a locomoti ve’s dashboard to display the amount of current being produced by 
+the electrical generator.  
+6 A mechanical or electrical feature that ensures that the operation of two linked mechanisms, brake handles 
+in this instance, cannot be independently operated at t he same time . 
+ 
+
+<< Page 12 >>
+ Final Repot RO -2013 -101 the brakes  to be controlled from that end of the locomotive .  This manual process provided a  
+reliable  interlock , prevent ing an incorrect brake handle set -up as seen in this instance . 
+4.4.3.  KiwiRail investigated several options before choosing the Tranzlog event recorder system to 
+provide an interlock capability  to prevent a similar incident .  The Tranzlog system was chosen 
+to perform  this interlock b ecause the positions of the brake handles were  already being 
+monitored by the system.  This option was successfully t ested during 2014/2015 and rolled 
+out on all the DL-class  locomotives.  In view of this work, t he Commission has not made a 
+recommendation to KiwiRail to address this issue.  
+4.4.4.  Additionally , KiwiRail has committed to provid ing a similar Tranzlog -based interlock capability  
+on all its other mainline diesel locomotives .  This work will supplement the existing manual 
+interlock and was underway at the time of the compilation of this report.  
+Finding s 
+1. The train departed Gl enbrook with only the locomotive brakes operating.  The 
+brakes on all of the wagons (the train brake) were not working because the driver 
+had omitted to configure the brake levers correctly when changing from one 
+driving cab to the other.  
+2. The driver was ab le to depart with a wrongly configured brake system because 
+there was no mechanical interlock to prevent his doing so.  
+3. The required pre -departure train brake test would have revealed that the train 
+brake was not operational, but those involved omitted to p erform the test when a 
+third locomotive was attached to the train.  
+4. The train parted when a coupling that had not been fully secured allowed the 
+hook to spring up when the couplings suddenly compressed as the train 
+descended the gradient from Glenbrook . 
+5. The derailment was caused by the rear portion of the train colliding with the 
+forward portion seconds after the train parted.  
+4.5. Non-technical skills  
+Safety issue  – When the three staff members came together to couple the third  locomotive to 
+the disabled train at Glenbrook, no challenge and confirm action s were taken to complete a 
+fundamental brake test procedure , which was designed to ensure  that the trains ’ air brakes 
+were functioning correctly.  
+4.5.1.  Non-technical skills (previously known as crew resource managemen t) are a set of practices 
+designed to create a safe working environment, encourage teamwork, improve situational 
+awareness and understand technical proficiency . 
+4.5.2.  Staff using non-technical skills will communicate more effectively , be more aware of their 
+situation, use all of its available resources  and work better with one another.   Communication 
+skills and practices form a significant component of what has become known as non -technical 
+skills in other transport modes.  
+4.5.3.  The issue of non -technical skills was raised in seven rail occurrence reports published by the 
+Commission between 2003 and 2008.  Recommendations were made to KiwiRail to establish 
+non-technical skills as a core operating practice to help reduce accidents and incidents within 
+the rail industry . 
+  
+ 
+Final Report RO -2013-101 
+<< Page 13 >>
+ 4.5.4.  The Commission had issued its most recent recommendation on non -technical skills to the NZ 
+Transport Agency during 2012.  The recommendation required  that the practice of non -
+technical skills be recognised in the National Rail System Standard s.  The re commendation 
+remained open at the time of compiling this report.  
+4.5.5.  In this instance, t he non -technical skill lapses were  that: 
+ the comments by mill shunting staff regarding the two locomotives not working 
+together were not communicated  
+ the required intermedi ate brake test was not carried out when the third locomotive 
+was attached to the train at Glenbrook.  
+4.5.6.  The train examiner forgot to pass on the information to the train driver after the mill shunting 
+staff had identified that the locomotives did not seem to be working together.  The mill 
+shunting staff were alert to the problem , and had the train examiner informed driver A of what 
+he had been told, the driver  may have been prompted to examine the electrical connection 
+and could have  found  that it was not properly connected.  
+4.5.7.  If driver A had corrected the electrical connection, the train would have had sufficient 
+locomotive power without the addition of the third locomotive . 
+4.5.8.  KiwiRail’s air brake rules stated that an intermediate brake test was required when a 
+locomotive was added to a train.  The straightforward  test involved t he train examiner 
+position ing himself alongside any wagon  on the train to observe the movement of the piston in 
+the brake cylinder when driver B applied and released the train ’s brakes  from the lead 
+locomotive . 
+4.5.9.  In this case the train examiner would have observed that the wagon’s  brake s were  not 
+working .  This would have prompted driver B to re -examine his brake handle set -up.  The train 
+would not then have departed with a non-operational  train brake.   Although driver B was 
+responsible for ensuring compliance with this task, either driver A or the train examiner should 
+have advised driver B that the intermediate test was required.  
+4.5.10.  As a result,  there w as no braking control on the loaded wag ons that weighed a total of 1,845 
+tonne s.  Driver B was unable to reduce  the speed of the train  and comply with the 40 km/h 
+restriction  shortly  after leaving the level crossing at Glenbrook.  
+4.5.11.  On 26 October 2016 KiwiRail provided the Commission with an updat ed implementation plan  
+to develop non-technical skills within its workforce.  The plan stated that non -technical skills 
+must be embedded and promoted in the workforce in order to build a strong safety culture.   
+The plan showed that b etween 2014 and 2016 the following  number of KiwiRail staff had 
+participated in training programmes that included the principles of non-technical -skills : 
+2014  2015  2016  2017 
+(proposed)  
+337 502 638 625 
+4.5.12.  On 14 December 2016 KiwiRail provided the Commission with a further update on its plan ned 
+implementation of its non-technical skills policy in the management of its core business 
+operations and practices.  KiwiRail said that current thinking internationally on the 
+management of non -technical skills with in rail and other modal transport industries has 
+shifted.  The new  policy  requires non -technical skills princip les to be embedded in all technical 
+and non -technical training, safety assessments/observations/aud its and assurance activities 
+within an organisation ’s safety management and crew management systems.  
+4.5.13.  KiwiRail has referred to extensive material produced by the Rail Safety and Standards Board  
+Limited and Network Rail in the United Kingdom.  KiwiRail said that this approach was  a big 
+step forward  because it had to have organisational alignment across all of its business groups 
+and not be restricted to above rail , as was the case when non-technical skills practices were 
+first delivered during the mid -1990s.  
+
+<< Page 14 >>
+ Final Repot RO -2013 -101 4.5.14.  KiwiRail said that o ther work done in the risk management of SPADs (signals passed at 
+danger) had seen the development and implementation of a  stabilised approach, risk- 
+triggered commentary driving and engineering supervisory controls within its safety 
+management systems .  These actions were  designed to support train driver cognition, trap 
+human error before an accident and enable recovery to a safe condition.  
+4.5.15.  These plans show that KiwiRail is continuing  to address non -technical skills awareness and 
+therefore the Commission will not be making a further recommendation on this matter.  
+Meanwhile, t he Commission ’s recommendation  002/12 made  to the NZ Transport Agency in 
+2012  remains open . 
+4.5.16.  On 3 April 2017 the  NZ Transport Agency said that it was continuing to work with KiwiRail on 
+this issue.  The agency added that it had issued a safety improvement plan notice during 
+December 2016 in accordance with section 36 of the Railways Act 2005 , requiring KiwiRail to 
+prepare a safety improvement plan to address the implementation of non -technical skills in its 
+rail operations.  
+Finding  
+6. There were several opportunities to break the chain of events leading to the 
+derailment.  However, non -technical skills (otherwise known as crew resource 
+management) were not being used to good effect.  
+4.6. The train drivers ’ and train examiner ’s performance  
+Safety issue – There were several  procedural lapses by three experienced rail staff members  
+between the coupling of the two locomotives at Auckland and the train examiner ’s 
+dismounting from the train 12 hours later . 
+4.6.1.  The Commission has considered whether  fatigue w as a contributory factor  in respect of both 
+drivers and the train examiner not carry ing out the intermediate brake test.  
+4.6.2.  Driver A was working his second day after a period of leave and the train examiner had been 
+off duty for the preceding weekend.  They had started work the previous evening at 1630 and 
+1745 respectively and said they had been feeling tired when it came to coupling the third 
+locomotive to the train at Glenbrook.  
+4.6.3.  However, based on driver A ’s and the train examiner ’s hours of work and their comments, it 
+was very unlikely that either of these two member s was suffering from fatigue.  
+4.6.4.  On the other hand, driver B reported suffering restless sl eep during the three days leading up 
+to the derailment.  Although he reported feeling well when he started work at midnight  on 8 
+January 2013, he overlooked the setting of the brake handles  only four and a half hours later . 
+4.6.5.  Driver B s aid that he had not rested well and his sleep had been light and restless.  It was 
+highly likely that he was suffering from a level of sleep iness  and was tired before starting the 
+night shift .  It was unlikely t hat he had reached a level of fatigue  based on his hours of work 
+leading up to the derailment and from his comments . 
+4.6.6.  The procedural lapses occurred during the period when circadian rhythm is at its lowest7.  Not 
+checking the correct setting of the brake ha ndles and not calling for an intermediate brake 
+test occurred at precisely 0430, the time when  cognitive performance  is typically at its lowest . 
+  
+                                                        
+7 The time in the natural body clock when performance is at its lowest and the drive for sleep is at its highest.  
+ 
+Final Report RO -2013-101 
+<< Page 15 >>
+ 4.6.7.  Research by sleep/wake experts8 has show n that t he period between 0300 and 0500, and 
+specifically 0430, is when a person’s body reaches its lowest temperature , which in turn leads 
+to reduced cognitive performance.  Recognising that  two procedural lapses occurred during 
+this critical period, it may help to explain some of the shortcomings, particularly the need for 
+driver B to call for an intermediate brake test . 
+4.6.8.  The Commission published six rail occurrence reports into freight train derailments and 
+collisions during a two-year period between September 2000 and July 2002.  Two of the 
+themes identified in the repo rts were:  
+ train driver roster management  
+ recognising the difficulties of train drivers attaining good -quality sleep during summer 
+months.  
+The Commission published , and repeated , four recommendations in those six reports to Tranz 
+Rail (the penultimate prede cessor to KiwiRail) to address these issues.  The four 
+recommendations were subsequently closed out after the Sleep /Wake Research Centre in 
+Wellington developed a best -practice policy for rostering train drivers.  
+4.6.9.  On 1 December 2013 KiwiRail and the Rail an d Maritime Transport Union issued a document 
+titled ‘Summer SPAD Awareness ’.  The document identified that the summer months 
+(December –February) were among the worst for SPADs and other safety -related incidents.  
+4.6.10.  The purpose of the document was to raise awareness of the increased risks brought on during 
+the summer months and offer advice to staff members on how to reduce the likelihood of 
+incidents.  One topic addressed was fatigue and shift work.  The document identified that 
+fatigue was exaggerated by the longer daylight hours and hotter temperatures reduc ing the 
+ability for shift  workers  to obtain adequate rest , and the ability to get good sleep during the 
+day. 
+4.6.11.  Between October and December 2016, KiwiRail engaged with its train  operating staff and 
+provided an update to its summertime fatigue management program me, address ing the 
+increased risk of incidents occurring during this period.  The programme covered matters such 
+as entering shifts prepared, situational awar eness and the ‘stop, think, act, review’ process.  
+Based on the evidence supplied , the Commission has not made any further recommendations . 
+Finding  
+7. It is likely that the time of day, when  cognitive performance is at its lowest due to 
+natural circadian rhyt hm, and the length of time on shift were factors affecting the 
+performance of those involved in setting up and checking the train.  However, 
+there was no evidence that fatigue due to accumulated sleep loss was a factor . 
+                                                        
+8 La Sapienza university and the Aeroporto Pratica di Mare of Rome.  
+
+<< Page 16 >>
+ Final Repot RO -2013 -101 5. Findings  
+5.1. The train departed Glenbrook with only the locomotive brakes operating.  The brakes on all of 
+the wagons (the train brake) were not working because the driver had omitted to configure the 
+brake levers correctly when changing from one driving cab t o the other.  
+5.2. The driver was able to depart with a wrongly configured brake system because there was no 
+mechanical interlock to prevent his doing so.  
+5.3. The required pre -departure train brake test would have revealed that the train brake was not 
+operational, b ut those involved omitted to perform the test when a third locomotive was 
+attached to the train.  
+5.4. The train parted when a coupling that had not been fully secured allowed the hook to spring 
+up when the couplings suddenly compressed as the train descended th e gradient from 
+Glenbrook.  
+5.5. The derailment was caused by the rear portion of the train colliding with the forward portion 
+seconds after the train parted.  
+5.6. There were several opportunities to break the chain of events leading to the derailment.  
+However, non -technical skills (otherwise known as crew resource management) were not 
+being used to good effect.  
+5.7. It is likely that the time of day, when cognitive performance is at its lowest due to natural 
+circadian rhythm, and the length of time on shift were factors affecting the performance of 
+those involved in setting up and checking the train.  However, there was no evidence that 
+fatigue due to accumulated sleep loss was a factor.  
+ 
+ 
+Final Report RO -2013-101 
+<< Page 17 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety  actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the r egulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+6.2. On 18 January 2013 KiwiRail  issued a Safety Briefing titl ed ‘Incorrect Brake Set-Up’.  The 
+briefing explained the consequences if either the independent or the train brake handles were 
+incorrectly set up on a freight train with any DL -class  locomotive in the lead position.  
+6.3. On 5 May 2015 KiwiRail issued a Safety Briefing titled ‘Radio Test, Servicing and Brake Set -Up 
+Card (Loco  387) ’.  The briefing detailed an update made to the Loco  387 form that required 
+servicing st aff to sign off as a check that the brake handles ha d been correctly set when 
+locomotives were coupled together for multiple operation on a train.  
+6.4. On 15 June 2015 KiwiRail issued a special bulletin titled ‘Incorrect Brake Set -Up Protection 
+Trial – DL9129 ’.  The bulletin explained that the Tranzlog system had been updated to provide 
+incorrect -brake -set-up protection.  The trial period was scheduled for a six-week period.  
+6.5. On 9 May 2016 KiwiRail issued a subsequent special bulletin titled ‘DL locomotives – Tranzlog 
+Upgrade ’.  The bulletin explained that following the successful trials on DL9129, the Tra nzlog 
+system upgrade would be rolled out to the remaining 39 DL-class  locomotives.  
+6.6. On 1 2 August 2016 KiwiRail advised that all operational DL -class  locomotives had had the 
+Tranzlog upgrades completed.  A small number of non -operational locomotives that were 
+currently having asbestos removed at its workshop facility in the Hutt Valley near Wellington 
+would have the Tranzlogs upgraded  when the repairs  were completed . 
+6.7. On 12 August 2016 KiwiRail advised that the couplers in 34% of the fleet of freight wagons  
+used to transport export steel had been converted from standard to automatic couplers to 
+mitigate against coupler partings on moving trains  (see Figure 9). 
+  
+Figure 9  
+Old s tandard wagon coupler (left) and new automatic coupler  (right)  
+  
+
+
+<< Page 18 >>
+ Final Repot RO -2013 -101 6.8. On 5 October 2016 KiwiRail advised that it was reviewing the Tranzlog upgrade designed to 
+detect an incorrect brake set -up on the DL -class  locomotives with a view to installing the 
+upgrade in its remaining single -cab diesel locomotive fleet.  
+Safety a ctions  addressing other safety issues  
+6.9. On 3 April 2017 the NZ Transport Agency said that KiwiRail  had improved its competency 
+management system  since the date of the incident.  The system had been the subject of post -
+safety assessment  remedial action s arising from the 2015 NZ Transport Agency assessment.  
+The NZ Transport Agency continues to monitor KiwiRail’s usage of t he system through the 
+agency’s safety assessment system.  
+ 
+ 
+Final Report RO -2013-101 
+<< Page 19 >>
+ 7. Recommendations  
+General  
+7.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transp ort 
+sector.  
+7.2. In the interests of transport safety,  it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendations  
+7.3. No new recommendations identified . 
+ 
+
+<< Page 20 >>
+ Final Repot RO -2013 -101 8. Key l essons  
+8.1. Train drivers and train examiners need to comply with basic operating rules to ensure that 
+trains have fully functioning and continuous air brake system s at all times . 
+8.2. It is important that all operating staff commu nicate properly and effectively and ensure that 
+proper procedures are followed.  Should there be any departure from the plan or any unusual 
+or unexplained event occur , it must be communicated effectively.  
+8.3. Shift workers need to remain alert to any situation  that could affect their cognitive 
+performance, and that of their work colleagues.  
+ 
+ 
+Final Report RO -2013-101 
+<< Page 21 >>
+ 9. Citations  
+M Casagrande, D Matella and E Di Pace from La Sapienza university and M Casagrande, F Pirri and F 
+Guadalupi from the Centro Sperimentale di Volo, Reparto Medicina Aeronautica e Spaziale, Aeroporto 
+Pratica di Mare, both entities based in Rome, Italy (published online on 25 November 2005), Orienting 
+and Alerting : Effect of 24 -Hour of Prolong ed Wakefulness . 
+  
+  
+ 
+ 
+  
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+RO-2015 -102 Electric locomotive fire at Palmerston North Terminal, 24 November 2015  
+RO-2014 -104 Express freight train striking hi -rail excavator, within a protected work area, 
+Raurimu Spiral, North Island Main Trunk line, 17 June 2014  
+RO-2013 -103 and 
+RO-2014 -103 Passenger tr ain collisions with Melling Station stop block, 15 April 2013 
+and 27 May 2014  
+RO-2015 -101 Pedestrian fatality, Morningside Drive pedestrian level crossing, West 
+Auckland, 29 January 2015  
+RO-2014 -101 Collision between heavy road vehicle and the Northern Explorer passenger 
+train, Te Onetea Road level crossing, Rangiriri, 27 February 2014  
+RO-2012 -103 Derailment of freight Train 229, Rangitawa -Maewa, North Island Main 
+Trunk,  
+3 May 2012  
+RO-2012 -105 Unsafe recovery from wrong -route, at Wiri Junction, 31 Aug ust 2012  
+RO-2013 -107 Express freight MP16 derailment, Mercer, North Island Main Trunk,  
+3 September 2013  
+RO-2012 -104 Overran limit of track warrant, Parikawa, Main North line, 1 August 2012  
+RO-2013 -104 Derailment of metro passenger Train 8219 , Wellingt on, 20 May 2013  
+Urgent 
+Recommendations 
+RO-2015 -101 Pedestrian fatality, Morningside Drive level crossing, West Auckland, 29 
+January 2015  
+RO-2013 -105 Capital Connection  passenger train, departed Waikanae Station with 
+mobility hoist deployed 10 June 2013  
+RO-2014 -102 High -speed roll -over, empty passenger Train 5153, Westfield, South 
+Auckland,  
+2 March 2014  
+RO-2013 -106 Track occupation irregularity, leading to near head -on collision,  Otira -
+Arthur’s Pass, 10 June 2013  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 14.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

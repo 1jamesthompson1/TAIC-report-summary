@@ -1,0 +1,16 @@
+"2015_101","[4  5]","0.0","There is no information in the document suggesting that fatigue or alertness of the pedestrian or the train driver played a role in the accident.
+","0.0","0.0","There is no information in the document suggesting that communication or crew resource management contributed to the accident.
+","0.0","0.0","There is no information in the document suggesting that a lack of training or preparedness for emergency procedures contributed to the accident.
+","0.0","0.0","The document states that ""Data recorders showed that the flashing lights, audible bells and physical barriers at the Morningside Drive road level crossing were operating correctly"" (3.1.9), indicating that maintenance procedures and compliance were not a contributing factor.
+","0.0","0.0","There is no information in the document suggesting that fire detection and suppression systems were relevant to the accident.
+","0.0","0.0","There is no information in the document suggesting that regulatory compliance and safety management issues contributed to the accident.
+","0.0","3.333","There is no information in the document suggesting that situational awareness of the train driver was a factor; the pedestrian's situational awareness is not addressed under this theme.
+","5.774","0.0","There is no information in the document suggesting that equipment design and specifications contributed to the accident.
+","0.0","0.0","There is no information in the document suggesting that risk assessment and management practices contributed to the accident.
+","0.0","0.0","There is no information in the document suggesting that emergency response planning and coordination were factors in the accident.
+","0.0","93.333","The document states that ""He was seen to be using his mobile phone while he walked down the platform ramp and he had bud-style earphones inserted in his ears"" (3.1.8), indicating that the pedestrian was distracted, which directly contributed to him stepping out in front of the train.
+","11.547","0.0","There is no information in the document suggesting that structural integrity and material fatigue were factors in the accident.
+","0.0","3.333","While the pedestrian's actions could be considered an error, the document does not provide information on error management systems or their potential failure, so this theme is not directly applicable.
+","5.774","0.0","There is no information in the document suggesting that safety culture and organizational influences were factors in the accident.
+","0.0","0.0","There is no information in the document suggesting that weather information dissemination and interpretation were factors in the accident.
+","0.0","true","N/A"
