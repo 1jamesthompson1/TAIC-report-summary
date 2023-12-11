@@ -66,10 +66,20 @@ The hazards had been indentified in the past and ignored ("4.5")
         zipped_themes_titles = [item for sublist in zip(themes_name, themes_names_explanation, themes_names_std) for item in sublist]
 
         ending = ["Complete", "ErrorMessage"]
-        
-        with open(self.overall_summary_path, 'w', newline="") as summary_file:
-            writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
-            writer.writerow(start + zipped_themes_titles + ending)
+
+        if os.path.exists(self.overall_summary_path) and not self.discard_old:
+            # Check to make sure that it has the same first row
+            with open(self.overall_summary_path, 'r', newline="") as summary_file:
+                reader = csv.reader(summary_file)
+                first_row = next(reader)
+                if first_row  != start + zipped_themes_titles + ending:
+                    print("WARNING: The overall summary file does not have the same first row as expected. It will be overwritten.")
+                    self.discard_old == True
+
+        if self.discard_old:
+            with open(self.overall_summary_path, 'w', newline="") as summary_file:
+                writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
+                writer.writerow(start + zipped_themes_titles + ending)
         
         # Prepare system prompt
         self.user_message_template = lambda report_text, modes: f"""
@@ -265,7 +275,7 @@ issues.
             scaled_averages = averages.apply(lambda x: round((x * 100) / sum_averages, 3) if pd.notnull(x) else pd.NA)
 
             # Check references
-            referenceCheckor = ReferenceChecking.ReferenceValidator(text)
+            referenceCheckor = ReferenceChecking.ReferenceValidator(text, True)
             invalid_reference = False
             for theme in parsed_responses[0]:
                 result = referenceCheckor.validate_references(theme['explanation'])
