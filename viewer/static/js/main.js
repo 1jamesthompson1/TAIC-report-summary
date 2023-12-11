@@ -39,6 +39,8 @@ function openReportPopup(data) {
     // Set the content of the modal
     $('#modalContent').html(data.main);
 
+    $('#modalTitle').html(data.title);
+
     // Display the modal
     $('#myModal').css('display', 'block');
 }
