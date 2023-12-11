@@ -23,11 +23,14 @@ $(document).ready(function() {
 function updateResults(htmlTable) {
     document.getElementById('searchResults').innerHTML = htmlTable;
     $('#dataTable').DataTable( {
+        autoWidth: false,
+        fixedColumns: true,
+        fixedHeader: true,
         paging: false,
         searching: false,
         "order": [ 1, 'dsc' ],
         "columnDefs": [ 
-            { "targets": 2, "orderable": false}
+            { "targets": 2, "orderable": false},
         ]
     } );
 }
