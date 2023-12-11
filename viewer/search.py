@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import yaml
 import re
 from nltk.corpus import wordnet
 import nltk
@@ -21,10 +22,9 @@ class Search:
         return self.settings
 
 class SearchResult:
-    def __init__(self, report_matches: int, theme_matches: int, theme_text_matches: str):
+    def __init__(self, report_matches: int, theme_matches: int):
         self.report_matches = report_matches
         self.theme_matches = theme_matches
-        self.theme_text_matches = theme_text_matches
 
     def include(self):
         return self.matches() > 0
@@ -50,14 +50,6 @@ class Searcher:
             if not os.path.isdir(report_dir):
                 continue
 
-            theme_summary_path = os.path.join(report_dir, self.output_config.get("reports").get("themes_file_name").replace(r'{{report_id}}', dir))
-            if os.path.exists(theme_summary_path):
-                with open(theme_summary_path, "r",  encoding='utf-8', errors='replace') as f:
-                    theme_summary = f.read()
-
-                theme_summary = theme_summary.replace("\n", "<br>")
-            else:
-                theme_summary = "Not found"
 
             report_text_path = os.path.join(report_dir, self.output_config.get("reports").get("text_file_name").replace(r'{{report_id}}', dir))
             if os.path.exists(report_text_path):
@@ -67,6 +59,8 @@ class Searcher:
             else:
                 report_text = "Not found"
 
+            theme_summary = self.get_theme_text(dir)
+
             if theme_summary == "Not found" and report_text == "Not found":
                 continue
             
@@ -74,10 +68,12 @@ class Searcher:
             if not search_result.include():
                 continue
 
+            theme_summary_obj = self.read_theme_file(dir)
+
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.matches(),
-                "ThemeSummary": search_result.theme_text_matches,
+                "ThemeSummary": "<br>".join([theme['name'] for theme in theme_summary_obj]) if theme_summary_obj is not None else "Could not be completed",
             }
 
             reportID_summary_row = self.summary.loc[self.summary["ReportID"] == dir]
@@ -106,13 +102,9 @@ class Searcher:
         report_result = regex.findall(report_text.lower())
         theme_result = regex.findall(theme_text.lower())
 
-        # highlight the theme_matches
-        theme_text_highlighted = regex.sub(r'<span class="match-highlight">\1</span>', theme_text.lower())
-
         return SearchResult(
             report_matches = len(report_result) if search.getSettings()['search_report_text'] else 0,
-            theme_matches = len(theme_result) if search.getSettings()['search_theme_text'] else 0,
-            theme_text_matches = theme_text_highlighted
+            theme_matches = len(theme_result) if search.getSettings()['search_theme_text'] else 0
         )
     
     def get_regex(self, search: Search):
@@ -167,4 +159,30 @@ class Searcher:
             return "Not found"
         
         return row[theme + "_explanation"].values[0]
+    
+    def get_theme_text(self, report_id):
+        theme_summary_obj = self.read_theme_file(report_id)
+        if theme_summary_obj is None:
+            return "Not found"
+        theme_summary = ""
+        for theme in theme_summary_obj:
+            theme_summary += f"<h4>{theme['name']}</h4>"
+            theme_summary += theme['explanation']
+            theme_summary += "<br>"
 
+        theme_summary = theme_summary.replace("\n", "<br>")
+
+
+        return theme_summary
+
+    def read_theme_file(self, report_id):
+        report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))
+
+        theme_summary_path = os.path.join(report_dir, self.output_config.get("reports").get("themes_file_name").replace(r'{{report_id}}', report_id))
+
+        if os.path.exists(theme_summary_path):
+            with open(theme_summary_path, "r", encoding='utf-8', errors='replace') as f:
+                theme_summary_obj = yaml.safe_load(f)
+            return theme_summary_obj
+        
+        return None

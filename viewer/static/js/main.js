@@ -69,6 +69,14 @@ $(document).ready(function() {
         })
     });
 
+    $(document).on('click', '.theme-summary-link', function() {
+        var reportId = $(this).data('report-id');
+
+        $.get('/get_theme_text', {report_id: reportId}, function(data) {
+            openReportPopup(data);
+        })
+    });
+
     $('#closeModal').click(function() {
         closeModal();
     });

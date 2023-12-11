@@ -31,7 +31,8 @@ def search_reports():
     
     results['NoMatches'] = results.apply(lambda row: f'<a href="#" class="no-matches-link" data-report-id="{row["ReportID"]}">{row["NoMatches"]}</a>', axis=1)
 
-    # Update all of the weightings to be links
+    results['ThemeSummary'] = results.apply(lambda row: f'<a href="#" class="theme-summary-link" data-report-id="{row["ReportID"]}">{row["ThemeSummary"]}</a>', axis=1)
+
     for theme in searcher.themes:
         results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
 
@@ -60,6 +61,13 @@ def get_weighting_explanation():
 
     return jsonify({'title': f"{theme} for {report_id}", 'main': explanation})
 
+@app.route('/get_theme_text', methods=['GET'])
+def get_theme_text():
+    report_id = request.args.get('report_id')
+
+    theme_text = search.Searcher().get_theme_text(report_id)
+
+    return jsonify({'title': f"Theme summary for {report_id}", 'main': theme_text})
 
 def run():
     parser = argparse.ArgumentParser()
