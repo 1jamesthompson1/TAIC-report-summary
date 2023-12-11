@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import os
+import argparse
 from . import search  # Assuming this is your custom module for searching
 
 app = Flask(__name__)
@@ -50,8 +51,12 @@ def get_report_text():
 
 
 def run():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--debug', action='store_true', help='Enable debug mode')
+    args = parser.parse_args()
+
     port = int(os.environ.get("PORT", 5000))
-    app.run(port=port, host="0.0.0.0")
+    app.run(port=port, host="0.0.0.0", debug=args.debug)
 
 if __name__ == '__main__':
     run()
