@@ -75,6 +75,9 @@ class Reference():
             elif start_section == end_section:
                 reference = [f"{start_section}.{start_paragraph + i}" for i in range(end_paragraph - start_paragraph + 1)]
 
+        if reference is None:
+            self.set_invalid()
+            return None
         return reference
 
     def set_validated(self):
@@ -226,6 +229,9 @@ class ReferenceValidator():
         Checks if the given reference is valid or not.
         """
         reportExtractor = ReportExtractor(self.original_text, "Not known")
+        if reference.invalid:
+            print(f"   Invalid reference (note this wa a bug fix and the program shouldnt ever make it here.) {reference.to_string()}")
+            return reference
         source_sections = list(map(lambda reference: reportExtractor.extract_section(reference), reference.reference))
 
         if all(v is None for v in source_sections):
