@@ -14,7 +14,7 @@ class Search:
     def __init__(self, query: str, settings: dict):
         self.query = query
         self.settings = settings
-
+    
     def getQuery(self):
         return self.query
     
@@ -39,7 +39,7 @@ class Searcher:
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
-    def search(self, query: str, settings) -> pd.DataFrame:
+    def search(self, query: str, settings, theme_ranges) -> pd.DataFrame:
         reports = []
 
         if query == "":
@@ -84,10 +84,19 @@ class Searcher:
             elif reportID_summary_row['Complete'].values[0] == False:
                 continue
 
+            inside_theme_range = True
+
             for theme in self.themes:
+                if not theme_ranges[theme][0] <= reportID_summary_row[theme + "_weighting"].values[0] <= theme_ranges[theme][1]:
+                    inside_theme_range = False
+                    break
+
                 report_row[theme] = round(reportID_summary_row[theme + "_weighting"].values[0], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
             report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
             report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
+
+            if not inside_theme_range:
+                continue
 
             reports.append(report_row)
 

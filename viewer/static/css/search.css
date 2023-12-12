@@ -16,10 +16,20 @@ form {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
     border-radius: 10px;
     margin: auto;
     margin-bottom: 10x;
+}
+
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form button {
+    transition: background-color 0.1s ease;
+    border: none;
+    cursor: pointer;
 }
 
 form * {
@@ -38,6 +48,8 @@ input[type="submit"] {
     color: #fff;
     border: none;
     cursor: pointer;
+    width: 60%; 
+    align-self: center;
 }
 
 input[type="submit"]:hover {
@@ -45,17 +57,58 @@ input[type="submit"]:hover {
 }
 
 #advancedSearch {
-    margin-top: 20px;
-    margin-bottom: 20px;
     display: none;
+    flex-direction: column;
+
+    align-items: center;
 }
 
-#advancedSearchBtn {
-    background-color: #202224;
-    color: #fff;
+#checkboxes {
+    order: 1;
+}
+
+/* Theme sliders */
+
+#themeSliders {
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+    align-items: center;
+    height: 200px;
+    overflow-y: auto;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d6d6d6c5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#themeSliders.expanded {
+    height: auto;
+}
+
+.slider-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: smaller;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    align-content: space-between;
+    justify-content: center;
+    height: fit-content;
+}
+
+#advancedSearchButton {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
 }
 
