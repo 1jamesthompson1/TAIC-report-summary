@@ -4,6 +4,7 @@ import argparse
 from . import search  # Assuming this is your custom module for searching
 
 import engine.Extract_Analyze.Themes as Themes
+import engine.Modes as Modes
 
 app = Flask(__name__)
 
@@ -32,14 +33,26 @@ def get_search():
         else:
             slider_values_dict[theme_stripped] = (slider_values_dict.get(theme_stripped, (None, None))[0], int(value))
 
-    return search_query, settings, slider_values_dict
+    # Modes
+    modes_list = list()
+
+    if request.form.get('includeModeAviation') == "on":
+        modes_list.append(Modes.Mode.a)
+    if request.form.get('includeModeRail') == "on":
+        modes_list.append(Modes.Mode.r)
+    if request.form.get('includeModeMarine') == "on":
+        modes_list.append(Modes.Mode.m)
+    
+    print(modes_list)
+
+    return search_query, settings, slider_values_dict, modes_list
 
 @app.route('/search', methods=['POST'])
 def search_reports():
-    search_query, settings, theme_ranges = get_search()
+    search_query, settings, theme_ranges, theme_modes = get_search()
     
     searcher = search.Searcher()
-    results = searcher.search(search_query, settings, theme_ranges)
+    results = searcher.search(search_query, settings, theme_ranges, theme_modes)
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})

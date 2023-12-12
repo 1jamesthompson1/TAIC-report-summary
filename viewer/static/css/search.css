@@ -32,10 +32,10 @@ form button {
     cursor: pointer;
 }
 
-form * {
-    border-radius: 10px;
-    margin: 10px;
+form button, #advancedSearch, form label, form input {
+    margin: 5px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 input[type="text"] {
@@ -67,6 +67,16 @@ input[type="submit"]:hover {
     order: 1;
 }
 
+/* Transport modes */
+.advancedSearchSection {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
 /* Theme sliders */
 
 #themeSliders {
@@ -74,16 +84,13 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
     order: 2;
     align-items: center;
-    height: 200px;
-    overflow-y: auto;
     height: 0;
     overflow: hidden;
     transition: height 0.5s ease;
-    margin: 0px;
-    padding: 0px;
     background-color: #d6d6d6c5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+    padding: 5px;
+    justify-content: space-evenly;
 }
 
 #themeSliders.expanded {
@@ -97,13 +104,17 @@ input[type="submit"]:hover {
     font-size: smaller;
 }
 
+.ui-slider-handle {
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
 .slider-wrapper {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
-    align-content: space-between;
     justify-content: center;
-    height: fit-content;
+    margin: 4px;
 }
 
 #advancedSearchButton {

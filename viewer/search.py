@@ -7,6 +7,7 @@ import nltk
 nltk.download('wordnet')
 
 import engine.Config as Config
+import engine.Modes as Modes
 import engine.Extract_Analyze.Themes as Themes
 from engine.Extract_Analyze.OutputFolderReader import OutputFolderReader
 
@@ -39,13 +40,19 @@ class Searcher:
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
-    def search(self, query: str, settings, theme_ranges) -> pd.DataFrame:
+    def search(self, query: str, settings, theme_ranges, theme_modes) -> pd.DataFrame:
         reports = []
 
         if query == "":
             return None
             
         for dir in OutputFolderReader(self.input_dir)._get_report_ids():
+
+            # Check to see if the report is in the correct mode
+            report_mode = Modes.get_report_mode_from_id(dir)
+            if report_mode not in theme_modes:
+                continue
+                    
             report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir))
             if not os.path.isdir(report_dir):
                 continue

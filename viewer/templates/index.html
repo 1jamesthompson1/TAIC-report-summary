@@ -28,11 +28,19 @@
         <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter search query">
         <button type="button" id="advancedSearchBtn">Search settings</button>
         <div id="advancedSearch">
-            <div id="generalCheckboxes">
+            <div id="generalCheckboxes" class="advancedSearchSection">
+                <h5>General</h5>
                 <label><input type="checkbox" id="simpleSearch" name="simpleSearch">Simple Search</label>
                 <label><input type="checkbox" id="searchReport"  name="searchReport" checked>Search Report</label>
                 <label><input type="checkbox" id="searchSummary"  name="searchSummary" checked>Search Summary</label>
                 <label><input type="checkbox" id="includeIncompleteReports"  name="includeIncompleteReports" checked>Include Incomplete reports</label>
+            </div>
+            <br>
+            <div id="transportModes" class="advancedSearchSection">
+                <h5>Transport Modes</h5>
+                <label><input type="checkbox" name="includeModeAviation" checked>Aviation</label>
+                <label><input type="checkbox" name="includeModeRail" checked>Rail</label>
+                <label><input type="checkbox" name="includeModeMarine" checked>Marine</label>
             </div>
             <br>
             <button type="button" id="expandThemeSlidersBtn">Expand/Collapse Theme Weighting Sliders</button>
