@@ -38,8 +38,31 @@ form button, #advancedSearch, form label, form input {
     border-radius: 10px;
 }
 
-input[type="text"] {
-    width: 90%;
+#reportYearRange .ui-slider-handle {
+    width: 15px;
+    height: 15px;
+}
+
+#reportYearRange .ui-slider-handle .handle-value {
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    width: 50px;
+    text-align: center;
+}
+
+#yearSlider {
+    margin: 12%;
+}
+
+.ui-slider-handle:active {
+    cursor: grabbing;
+    color: #3d3c3c;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: auto;
     border: 1px solid #ccc;
 }
 
@@ -70,9 +93,10 @@ input[type="submit"]:hover {
 /* Transport modes */
 .advancedSearchSection {
     border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 

@@ -42,17 +42,18 @@ def get_search():
         modes_list.append(Modes.Mode.r)
     if request.form.get('includeModeMarine') == "on":
         modes_list.append(Modes.Mode.m)
-    
-    print(modes_list)
 
-    return search_query, settings, slider_values_dict, modes_list
+    # Year
+    year_range = int(request.form.get('yearSlider-min')), int(request.form.get('yearSlider-max'))
+
+    return search_query, settings, slider_values_dict, modes_list, year_range
 
 @app.route('/search', methods=['POST'])
 def search_reports():
-    search_query, settings, theme_ranges, theme_modes = get_search()
+    search_query, settings, theme_ranges, theme_modes, year_range = get_search()
     
     searcher = search.Searcher()
-    results = searcher.search(search_query, settings, theme_ranges, theme_modes)
+    results = searcher.search(search_query, settings, theme_ranges, theme_modes, year_range)
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})

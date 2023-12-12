@@ -25,6 +25,34 @@ $(document).ready(function() {
     $('#expandThemeSlidersBtn').click(function() {
         $('#themeSliders').toggleClass('expanded');
     });
+    
+    $(function() {
+        const $minInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-min` });
+        const $maxInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-max` });
+        $('#yearSlider').append($minInput, $maxInput);
+        $("#yearSlider").slider({
+            range: true,
+            min: 2010,
+            max: 2022,
+            values: [2010, 2022],
+            create: function() {
+                // Add divs to the handles
+                $(this).children('.ui-slider-handle').each(function(i) {
+                    $(this).append($('<div>').addClass('handle-value').text($("#yearSlider").slider('values', i)));
+                });
+            },
+            slide: function(event, ui) {
+                // Update the text of the handle divs
+                $(this).children('.ui-slider-handle').each(function(i) {
+                    $(this).children('.handle-value').text(ui.values[i]);
+                });
+
+                // Update the hidden inputs with the slider values
+                $minInput.val(ui.values[0]);
+                $maxInput.val(ui.values[1]);
+            }
+        });
+    });
 
     // Fetch the theme titles
     $.get('/get_theme_titles', (data) => {
