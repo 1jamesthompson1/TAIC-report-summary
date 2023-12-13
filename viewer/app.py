@@ -16,9 +16,10 @@ def get_search():
 
     search_query = request.form.get('searchQuery')
     settings = {
-        'simple_search': request.form.get('simpleSearch') == "on",
+        'use_synonyms': request.form.get('useSynonyms') == "on",
         'search_report_text': request.form.get('searchReport') == "on",
         'search_theme_text': request.form.get('searchSummary') == "on",
+        'search_weighting_reasoning': request.form.get('searchWeighting') == "on",
         'include_incomplete_reports': request.form.get('includeIncompleteReports') == "on",
     }
 

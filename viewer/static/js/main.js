@@ -59,6 +59,9 @@ function createYearSlider() {
             $(this).children('.ui-slider-handle').each(function(i) {
                 $(this).append($('<div>').addClass('handle-value').text($("#yearSlider").slider('values', i)));
             });
+            // Update the hidden inputs with the slider values
+            $minInput.val($("#yearSlider").slider('values', 0));
+            $maxInput.val($("#yearSlider").slider('values', 1));
         },
         slide: function(_, ui) {
             // Update the text of the handle divs
