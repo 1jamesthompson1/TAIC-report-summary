@@ -123,7 +123,7 @@ class Searcher:
         if search.getQuery() == "":
             return SearchResult({})
         
-        regexes = self.get_regex(search)
+        regexes = Searcher.get_regex(search)
 
         matches = {
             'report_result': [],
