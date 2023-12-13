@@ -10,38 +10,50 @@ class TestRegexCreation:
     def test_basic(self):
         query = "hello"
         regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
-        assert regex.pattern == r'hello'
+        assert regex[0].pattern == r'hello'
 
     def test_basic_exact(self):
         query = '"hello"'
         regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
-        assert regex.pattern == r'\b(hello)\b'
+        assert regex[0].pattern == r'\b(hello)\b'
 
     def test_basic_or_word(self):
         query = "hello OR world"
         regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
-        assert regex.pattern == r'hello|world'
+        assert regex[0].pattern == r'hello|world'
 
     def test_basic_or_symbol(self):
         query = "hello | world"
         regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
-        assert regex.pattern == r'hello|world'
+        assert regex[0].pattern == r'hello|world'
 
     def test_basic_exclusion(self):
         query = "hello -world"
         regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
-        assert regex.pattern == r'hello(?! world)'
+        assert regex[0].pattern == r'hello(?! world)'
 
     def test_prior_exclusion(self):
         query = "-not hello world"
         regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
-        assert regex.pattern == r'(?<!not )hello world'
+        assert regex[0].pattern == r'(?<!not )hello world'
 
     def test_basic_wildcard(self):
         query = "hello*"
         regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
-        assert regex.pattern == r'hello.*'
+        assert regex[0].pattern == r'hello.*'
 
+    def test_basic_and(self):
+        query = "hello AND world"
+        regexes = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex_patterns = [regex.pattern for regex in regexes]
+        assert regex_patterns == [r'hello', r'world']
+
+    def test_and_or_combination(self):
+        query = "hello AND world OR goodbye"
+        regexes = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex_patterns = [regex.pattern for regex in regexes]
+        assert regex_patterns == [r'hello', r'world|goodbye']
+    
 class TestSearchReport:
 
     def setup_method(self):
