@@ -2,40 +2,66 @@
 <html>
 <head>
     <title>TAIC Report Viewer</title>
-    <!-- Include jQuery library -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
-    <!-- Include DataTables CSS and JavaScript -->
-    <link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-1.13.8/fc-4.3.0/fh-3.4.0/kt-2.11.0/datatables.min.css" rel="stylesheet">
- 
-    <script src="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-1.13.8/fc-4.3.0/fh-3.4.0/kt-2.11.0/datatables.min.js"></script>
-    
-    
+
 
     
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+
     <!-- Custom Stylesheets-->
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
 
     <!-- Custom JavaScript-->
     <script type="text/javascript" src="/static/js/main.js"></script>
-    
 </head>
 <body>
     <h1>TAIC Report Viewer</h1>
-    <form method="post" action="/search">
-        <label for="searchQuery">Search Query:</label>
+    <form method="post" id="searchForm" action="/search">
         <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter search query">
-        <button type="button" id="advancedSearchBtn">Search settings</button>
+        <div class="row">
+            <button type="button" id="advancedSearchBtn">Search settings</button>
+            <button type="reset" id="resetBtn">Reset</button>    
+        </div>
         <div id="advancedSearch">
-            <label><input type="checkbox" id="simpleSearch" name="simpleSearch">Simple Search</label>
-            <label><input type="checkbox" id="searchReport"  name="searchReport" checked>Search Report</label>
-            <label><input type="checkbox" id="searchSummary"  name="searchSummary" checked>Search Summary</label>
-            <label><input type="checkbox" id="includeIncompleteReports"  name="includeIncompleteReports" checked>Include Incomplete reports</label>
+            <div id="generalCheckboxes" class="advancedSearchSection">
+                <h5>General</h5>
+                <label><input type="checkbox" id="useSynonyms" name="useSynonyms">Use Synonyms</label>
+                <label><input type="checkbox" id="searchReport"  name="searchReport" checked>Search Report</label>
+                <label><input type="checkbox" id="searchSummary"  name="searchSummary" checked>Search Summary</label>
+                <label><input type="checkbox" id="searchWeightingReasoning"  name="searchWeightingReasoning" checked>Search weighting</label>
+                <label><input type="checkbox" id="includeIncompleteReports"  name="includeIncompleteReports" checked>Include Incomplete reports</label>
+            </div>
+            <br>
+            <div class="row">
+                <div id="transportModes" class="advancedSearchSection">
+                    <h5>Transport Modes</h5>
+                    <label><input type="checkbox" name="includeModeAviation" checked>Aviation</label>
+                    <label><input type="checkbox" name="includeModeRail" checked>Rail</label>
+                    <label><input type="checkbox" name="includeModeMarine" checked>Marine</label>
+                </div>
+                <div id="reportYearRange" class="advancedSearchSection">
+                    <h5>Report year range</h5>
+                    <div id="yearSlider"></div>
+                </div>
+            </div>
+
+            <br>
+            <button type="button" id="expandThemeSlidersBtn">Expand/Collapse Theme Weighting Sliders</button>
+            <div id="themeSliders"></div>
         </div>
         <br>
-        <input type="submit" value="Show Reports">
+        <input type="submit" value="Search">
     </form>
 
+    <br>
+    <br>
     <!-- Loading sign with spinning animation -->
     <div id="loading"><br><br>Loading...</div>
 

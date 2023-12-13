@@ -1,7 +1,12 @@
 from flask import Flask, render_template, request, jsonify
+from urllib.parse import parse_qs
+import json
 import os
 import argparse
 from . import search  # Assuming this is your custom module for searching
+
+import engine.Extract_Analyze.Themes as Themes
+import engine.Modes as Modes
 
 app = Flask(__name__)
 
@@ -9,22 +14,49 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def get_search():
-    search_query = request.form.get('searchQuery')
+def get_search(form):
+    search_query = form.get('searchQuery')
     settings = {
-        'simple_search': request.form.get('simpleSearch') == "on",
-        'search_report_text': request.form.get('searchReport') == "on",
-        'search_theme_text': request.form.get('searchSummary') == "on",
-        'include_incomplete_reports': request.form.get('includeIncompleteReports') == "on",
+        'use_synonyms': form.get('useSynonyms') == "on",
+        'search_report_text': form.get('searchReport') == "on",
+        'search_theme_text': form.get('searchSummary') == "on",
+        'search_weighting_reasoning': form.get('searchWeighting') == "on",
+        'include_incomplete_reports': form.get('includeIncompleteReports') == "on",
     }
-    return search_query, settings
+
+    # Theme ranges
+    slider_values = list(map(lambda tuple: (tuple[0][6:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-'), form.items())))
+
+    slider_values_dict = dict()
+    for theme, value in slider_values:
+        theme_stripped = theme[:-4]
+        if_min = theme.endswith('-min')
+        if if_min:
+            slider_values_dict[theme_stripped] = (int(value), slider_values_dict.get(theme_stripped, (None, None))[1])
+        else:
+            slider_values_dict[theme_stripped] = (slider_values_dict.get(theme_stripped, (None, None))[0], int(value))
+
+    # Modes
+    modes_list = list()
+
+    if form.get('includeModeAviation') == "on":
+        modes_list.append(Modes.Mode.a)
+    if form.get('includeModeRail') == "on":
+        modes_list.append(Modes.Mode.r)
+    if form.get('includeModeMarine') == "on":
+        modes_list.append(Modes.Mode.m)
+
+    # Year
+    year_range = int(form.get('yearSlider-min')), int(form.get('yearSlider-max'))
+
+    return search_query, settings, slider_values_dict, modes_list, year_range
 
 @app.route('/search', methods=['POST'])
 def search_reports():
-    search_query, settings = get_search()
+    search_query, settings, theme_ranges, theme_modes, year_range = get_search(request.form)
     
     searcher = search.Searcher()
-    results = searcher.search(search_query, settings)
+    results = searcher.search(search_query, settings, theme_ranges, theme_modes, year_range)
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})
@@ -43,9 +75,13 @@ def search_reports():
 
 @app.route('/get_report_text', methods=['GET'])
 def get_report_text():
-    search_query, settings = get_search()
+    form_serial = request.args.get('form')
+
+    form_data = parse_qs(form_serial)
+    form_data = {k: v[0] for k, v in form_data.items()}
+
+    search_query, settings, _, _, _ = get_search(form_data)
     report_id = request.args.get('report_id')
-    search_query = request.args.get('search_query')
 
     searcher = search.Searcher()
     highlighted_report_text = searcher.get_highlighted_report_text(report_id, search_query, settings)
@@ -68,6 +104,12 @@ def get_theme_text():
     theme_text = search.Searcher().get_theme_text(report_id)
 
     return jsonify({'title': f"Theme summary for {report_id}", 'main': theme_text})
+
+@app.route('/get_theme_titles', methods=['GET'])
+def get_theme_titles():
+    titles = Themes.ThemeReader(search.Searcher().input_dir).get_theme_titles()
+
+    return jsonify({'theme_titles': titles})
 
 def run():
     parser = argparse.ArgumentParser()

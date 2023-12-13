@@ -7,6 +7,7 @@ import nltk
 nltk.download('wordnet')
 
 import engine.Config as Config
+import engine.Modes as Modes
 import engine.Extract_Analyze.Themes as Themes
 from engine.Extract_Analyze.OutputFolderReader import OutputFolderReader
 
@@ -14,7 +15,7 @@ class Search:
     def __init__(self, query: str, settings: dict):
         self.query = query
         self.settings = settings
-
+    
     def getQuery(self):
         return self.query
     
@@ -22,15 +23,15 @@ class Search:
         return self.settings
 
 class SearchResult:
-    def __init__(self, report_matches: int, theme_matches: int):
-        self.report_matches = report_matches
-        self.theme_matches = theme_matches
+    def __init__(self, matches: {str: int}):
+        self.matches = matches
 
     def include(self):
-        return self.matches() > 0
+        # Include a report if it has at least one match for all search queries in atleast one of the three categories
+        return any([all(value) for _, value in self.matches.items()])
     
-    def matches(self):
-        return self.report_matches + self.theme_matches
+    def num_matches(self):
+        return sum([sum(self.matches[key]) for key in self.matches])
 
 class Searcher:
     def __init__(self):
@@ -39,13 +40,21 @@ class Searcher:
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
-    def search(self, query: str, settings) -> pd.DataFrame:
+    def search(self, query: str, settings, theme_ranges, theme_modes, year_range) -> pd.DataFrame:
         reports = []
 
-        if query == "":
-            return None
-            
         for dir in OutputFolderReader(self.input_dir)._get_report_ids():
+
+            # Check to see if the report is in the correct mode
+            report_mode = Modes.get_report_mode_from_id(dir)
+            if report_mode not in theme_modes:
+                continue
+
+            # Check to see if the report is in the correct year range
+            report_year = int(dir.split("_")[0])
+            if not year_range[0] <= report_year <= year_range[1]:
+                continue
+                    
             report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir))
             if not os.path.isdir(report_dir):
                 continue
@@ -64,30 +73,44 @@ class Searcher:
             if theme_summary == "Not found" and report_text == "Not found":
                 continue
             
-            search_result = self.search_report(report_text, theme_summary, Search(query, settings))
-            if not search_result.include():
-                continue
 
             theme_summary_obj = self.read_theme_file(dir)
-
-            report_row = {
-                "ReportID": dir,
-                "NoMatches": search_result.matches(),
-                "ThemeSummary": "<br>".join([theme['name'] for theme in theme_summary_obj]) if theme_summary_obj is not None else "Could not be completed",
-            }
 
             reportID_summary_row = self.summary.loc[self.summary["ReportID"] == dir]
             if len(reportID_summary_row) == 0:
                 continue
+
+            report_weighting_reasoning = [reportID_summary_row[theme + "_explanation"].values[0] for theme in self.themes]
+
+            search_result = self.search_report(report_text, theme_summary, report_weighting_reasoning, Search(query, settings))
+            if not search_result.include() and not query == "":
+                continue
+
+
+            report_row = {
+                "ReportID": dir,
+                "NoMatches": search_result.num_matches(),
+                "ThemeSummary": "<br>".join([theme['name'] for theme in theme_summary_obj]) if theme_summary_obj is not None else "Could not be completed",
+            }
+
+            inside_theme_range = True
+
+            for theme in self.themes:
+                if not theme_ranges[theme][0] <= reportID_summary_row[theme + "_weighting"].values[0] <= theme_ranges[theme][1]:
+                    inside_theme_range = False
+                    break
+
+                report_row[theme] = round(reportID_summary_row[theme + "_weighting"].values[0], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
+            report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
+            report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
+
+            if not inside_theme_range:
+                continue
+
             if settings['include_incomplete_reports'] == True:
                 report_row['ErrorMessage'] = reportID_summary_row['ErrorMessage'].values[0]
             elif reportID_summary_row['Complete'].values[0] == False:
                 continue
-
-            for theme in self.themes:
-                report_row[theme] = round(reportID_summary_row[theme + "_weighting"].values[0], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
-            report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
-            report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
 
             reports.append(report_row)
 
@@ -96,37 +119,78 @@ class Searcher:
         
         return pd.DataFrame(reports).sort_values(by=['NoMatches'], ascending=False)
     
-    def search_report(self, report_text: str, theme_text: str, search: Search) -> SearchResult:
-        regex = self.get_regex(search)
+    def search_report(self, report_text: str, theme_text: str, weighting_reasoning: str, search: Search) -> SearchResult:
+        if search.getQuery() == "":
+            return SearchResult({})
         
-        report_result = regex.findall(report_text.lower())
-        theme_result = regex.findall(theme_text.lower())
+        regexes = Searcher.get_regex(search)
+
+        matches = {
+            'report_result': [],
+            'theme_result': [],
+            'weighting_reasoning_result': []
+        }
+        for regex in regexes:
+            matches['report_result'].append(regex.findall(report_text))
+            matches['theme_result'].append(regex.findall(theme_text))
+            matches['weighting_reasoning_result'].append(regex.findall(" ".join(weighting_reasoning)))
+        
+        # Remove thuings that should not have been searched
+        if not search.getSettings()['search_report_text']:
+            matches.pop('report_result')
+        if not search.getSettings()['search_theme_text']:
+            matches.pop('theme_result')
+        if not search.getSettings()['search_weighting_reasoning']:
+            matches.pop('weighting_reasoning_result')
+
+        for key in matches:
+            matches[key] = [len(regex_result) for regex_result in matches[key]]
 
         return SearchResult(
-            report_matches = len(report_result) if search.getSettings()['search_report_text'] else 0,
-            theme_matches = len(theme_result) if search.getSettings()['search_theme_text'] else 0
+            matches
         )
     
-    def get_regex(self, search: Search):
-        if search.getSettings()['simple_search']:
-            regex = re.compile(r'\b(' + search.getQuery().lower() + r')|(' + search.getQuery().lower() + r')\b')
-        else:
-            synonyms = [search.getQuery().lower()]
 
-            for syn in wordnet.synsets(search.getQuery().lower()):
-                for i in syn.lemmas():
-                    synonyms.append(i.name())
-
-            
-            synonyms = set(
-                map(lambda x: x.lower().replace("_", " "), synonyms)
-            )
-
-            pattern = '(' + '|'.join(['(' + syn + ')' for syn in synonyms]) + ')'
-
-            regex = re.compile(r'(\b' + pattern + ')|(' + pattern + r'\b)')
+    def get_regex(search: Search):
         
-        return regex
+        split_queries = search.getQuery().split(" AND ")
+
+        regexes = []
+
+        for query in split_queries:
+
+            if search.getSettings()['use_synonyms']:
+                synonyms = [query.lower()]
+
+                for syn in wordnet.synsets(query.lower()):
+                    for i in syn.lemmas():
+                        synonyms.append(i.name())
+
+                
+                synonyms = set(
+                    map(lambda x: x.replace("_", " "), synonyms)
+                )
+            else:
+                synonyms = [query]
+
+            for i in range(len(synonyms)):
+                # Exact
+                synonyms[i] = re.sub(r'"(.*?)"', r'\\b(\1)\\b', synonyms[i])
+
+                # Or
+                synonyms[i] = synonyms[i].replace(' OR ', '|').replace(' | ', '|')
+
+                # Exclusion
+                synonyms[i] = re.sub(r'^-(\w+) ', r'(?<!\1 )', synonyms[i])
+                synonyms[i] = re.sub(r' -(\w+)', r'(?! \1)', synonyms[i])
+
+                # Wildcard
+                synonyms[i] = synonyms[i].replace('*', '.*')
+
+
+            regexes.append("|".join(synonyms))
+
+        return [re.compile(regex, re.IGNORECASE) for regex in regexes]
 
     def get_highlighted_report_text(self, report_id, search_query, settings):
         report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))
@@ -137,7 +201,9 @@ class Searcher:
                 report_text = f.read()
 
             # Highlight the matching text
-            report_text = self.highlight_matches(report_text, self.get_regex(Search(search_query, settings)))
+            report_text = self.highlight_matches(
+                report_text,
+                Searcher.get_regex(Search(search_query, settings)))
 
             report_text = report_text.replace("\n", "<br>")
 
@@ -146,8 +212,10 @@ class Searcher:
         return "Not found"
 
     # Add this function to highlight matches
-    def highlight_matches(self, text, regex):
-        highlighted_text = regex.sub(r'<span class="match-highlight">\1</span>', text)
+    def highlight_matches(self, text, regexes):
+        highlighted_text = text
+        for regex in regexes:
+            highlighted_text = regex.sub(r'<span class="match-highlight">\g<0></span>', highlighted_text)
         return highlighted_text
     
     def get_weighting_explanation(self, report_id, theme):
