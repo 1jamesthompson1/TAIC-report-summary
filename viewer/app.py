@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request, jsonify
+from urllib.parse import parse_qs
+import json
 import os
 import argparse
 from . import search  # Assuming this is your custom module for searching
@@ -12,18 +14,18 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-def get_search():
-
-    search_query = request.form.get('searchQuery')
+def get_search(form):
+    search_query = form.get('searchQuery')
     settings = {
-        'use_synonyms': request.form.get('useSynonyms') == "on",
-        'search_report_text': request.form.get('searchReport') == "on",
-        'search_theme_text': request.form.get('searchSummary') == "on",
-        'search_weighting_reasoning': request.form.get('searchWeighting') == "on",
-        'include_incomplete_reports': request.form.get('includeIncompleteReports') == "on",
+        'use_synonyms': form.get('useSynonyms') == "on",
+        'search_report_text': form.get('searchReport') == "on",
+        'search_theme_text': form.get('searchSummary') == "on",
+        'search_weighting_reasoning': form.get('searchWeighting') == "on",
+        'include_incomplete_reports': form.get('includeIncompleteReports') == "on",
     }
 
-    slider_values = list(map(lambda tuple: (tuple[0][6:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-'), request.form.items())))
+    # Theme ranges
+    slider_values = list(map(lambda tuple: (tuple[0][6:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-'), form.items())))
 
     slider_values_dict = dict()
     for theme, value in slider_values:
@@ -37,21 +39,21 @@ def get_search():
     # Modes
     modes_list = list()
 
-    if request.form.get('includeModeAviation') == "on":
+    if form.get('includeModeAviation') == "on":
         modes_list.append(Modes.Mode.a)
-    if request.form.get('includeModeRail') == "on":
+    if form.get('includeModeRail') == "on":
         modes_list.append(Modes.Mode.r)
-    if request.form.get('includeModeMarine') == "on":
+    if form.get('includeModeMarine') == "on":
         modes_list.append(Modes.Mode.m)
 
     # Year
-    year_range = int(request.form.get('yearSlider-min')), int(request.form.get('yearSlider-max'))
+    year_range = int(form.get('yearSlider-min')), int(form.get('yearSlider-max'))
 
     return search_query, settings, slider_values_dict, modes_list, year_range
 
 @app.route('/search', methods=['POST'])
 def search_reports():
-    search_query, settings, theme_ranges, theme_modes, year_range = get_search()
+    search_query, settings, theme_ranges, theme_modes, year_range = get_search(request.form)
     
     searcher = search.Searcher()
     results = searcher.search(search_query, settings, theme_ranges, theme_modes, year_range)
@@ -73,9 +75,13 @@ def search_reports():
 
 @app.route('/get_report_text', methods=['GET'])
 def get_report_text():
-    search_query, settings = get_search()
+    form_serial = request.args.get('form')
+
+    form_data = parse_qs(form_serial)
+    form_data = {k: v[0] for k, v in form_data.items()}
+
+    search_query, settings, _, _, _ = get_search(form_data)
     report_id = request.args.get('report_id')
-    search_query = request.args.get('search_query')
 
     searcher = search.Searcher()
     highlighted_report_text = searcher.get_highlighted_report_text(report_id, search_query, settings)

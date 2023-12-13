@@ -123,14 +123,14 @@ class Searcher:
         if search.getQuery() == "":
             return SearchResult({})
         
-        regexs = [Searcher.get_regex(Search(split_query, search.getSettings())) for split_query in search.getQuery().split(" AND ")]
+        regexes = self.get_regex(search)
 
         matches = {
             'report_result': [],
             'theme_result': [],
             'weighting_reasoning_result': []
         }
-        for regex in regexs:
+        for regex in regexes:
             matches['report_result'].append(regex.findall(report_text))
             matches['theme_result'].append(regex.findall(theme_text))
             matches['weighting_reasoning_result'].append(regex.findall(" ".join(weighting_reasoning)))
@@ -150,41 +150,47 @@ class Searcher:
             matches
         )
     
+
     def get_regex(search: Search):
+        
+        split_queries = search.getQuery().split(" AND ")
 
-        if search.getSettings()['use_synonyms']:
-            synonyms = [search.getQuery().lower()]
+        regexes = []
 
-            for syn in wordnet.synsets(search.getQuery().lower()):
-                for i in syn.lemmas():
-                    synonyms.append(i.name())
+        for query in split_queries:
 
-            
-            synonyms = set(
-                map(lambda x: x.replace("_", " "), synonyms)
-            )
-        else:
-            synonyms = [search.getQuery()]
+            if search.getSettings()['use_synonyms']:
+                synonyms = [query.lower()]
 
-        for i in range(len(synonyms)):
-            # Exact
-            synonyms[i] = re.sub(r'"(.*?)"', r'\\b(\1)\\b', synonyms[i])
+                for syn in wordnet.synsets(query.lower()):
+                    for i in syn.lemmas():
+                        synonyms.append(i.name())
 
-            # Or
-            synonyms[i] = synonyms[i].replace(' OR ', '|').replace(' | ', '|')
+                
+                synonyms = set(
+                    map(lambda x: x.replace("_", " "), synonyms)
+                )
+            else:
+                synonyms = [query]
 
-            # Exclusion
-            synonyms[i] = re.sub(r'^-(\w+) ', r'(?<!\1 )', synonyms[i])
-            synonyms[i] = re.sub(r' -(\w+)', r'(?! \1)', synonyms[i])
+            for i in range(len(synonyms)):
+                # Exact
+                synonyms[i] = re.sub(r'"(.*?)"', r'\\b(\1)\\b', synonyms[i])
 
-            # Wildcard
-            synonyms[i] = synonyms[i].replace('*', '.*')
+                # Or
+                synonyms[i] = synonyms[i].replace(' OR ', '|').replace(' | ', '|')
+
+                # Exclusion
+                synonyms[i] = re.sub(r'^-(\w+) ', r'(?<!\1 )', synonyms[i])
+                synonyms[i] = re.sub(r' -(\w+)', r'(?! \1)', synonyms[i])
+
+                # Wildcard
+                synonyms[i] = synonyms[i].replace('*', '.*')
 
 
-        final_query = "|".join(synonyms)
+            regexes.append("|".join(synonyms))
 
-        return re.compile(final_query, re.IGNORECASE)
-    
+        return [re.compile(regex, re.IGNORECASE) for regex in regexes]
 
     def get_highlighted_report_text(self, report_id, search_query, settings):
         report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))
@@ -195,7 +201,9 @@ class Searcher:
                 report_text = f.read()
 
             # Highlight the matching text
-            report_text = self.highlight_matches(report_text, self.get_regex(Search(search_query, settings)))
+            report_text = self.highlight_matches(
+                report_text,
+                Searcher.get_regex(Search(search_query, settings)))
 
             report_text = report_text.replace("\n", "<br>")
 
@@ -204,8 +212,10 @@ class Searcher:
         return "Not found"
 
     # Add this function to highlight matches
-    def highlight_matches(self, text, regex):
-        highlighted_text = regex.sub(r'<span class="match-highlight">\1</span>', text)
+    def highlight_matches(self, text, regexes):
+        highlighted_text = text
+        for regex in regexes:
+            highlighted_text = regex.sub(r'<span class="match-highlight">\g<0></span>', highlighted_text)
         return highlighted_text
     
     def get_weighting_explanation(self, report_id, theme):

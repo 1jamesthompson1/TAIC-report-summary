@@ -162,9 +162,9 @@ function closeModal() {
 $(document).ready(function() {     
     $(document).on('click', '.no-matches-link', function() {
         var reportId = $(this).data('report-id');
-        var searchQuery = $('#searchQuery').val();
-
-        $.get('/get_report_text', {report_id: reportId, search_query: searchQuery}, function(data) {
+        var formData = $('#searchForm').serialize();
+        
+        $.get('/get_report_text', {report_id: reportId, form: formData}, function(data) {
             openReportPopup(data);
         })
     });
