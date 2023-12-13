@@ -14,6 +14,7 @@ $(document).ready(function() {
         });
     });
     $('#advancedSearchBtn').click(function() {
+        $('#resetBtn').toggle();
         $('#advancedSearch').toggleClass('expanded')
         if ($('#advancedSearch').css('display') == 'flex') {
             $('#advancedSearch').css('display', 'none')
@@ -25,36 +26,54 @@ $(document).ready(function() {
     $('#expandThemeSlidersBtn').click(function() {
         $('#themeSliders').toggleClass('expanded');
     });
-    
-    $(function() {
-        const $minInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-min` });
-        const $maxInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-max` });
-        $('#yearSlider').append($minInput, $maxInput);
-        $("#yearSlider").slider({
-            range: true,
-            min: 2010,
-            max: 2022,
-            values: [2010, 2022],
-            create: function() {
-                // Add divs to the handles
-                $(this).children('.ui-slider-handle').each(function(i) {
-                    $(this).append($('<div>').addClass('handle-value').text($("#yearSlider").slider('values', i)));
-                });
-            },
-            slide: function(event, ui) {
-                // Update the text of the handle divs
-                $(this).children('.ui-slider-handle').each(function(i) {
-                    $(this).children('.handle-value').text(ui.values[i]);
-                });
 
-                // Update the hidden inputs with the slider values
-                $minInput.val(ui.values[0]);
-                $maxInput.val(ui.values[1]);
-            }
+
+    $(function() {
+        createYearSlider();
+        createThemeSliders();
+    
+        $('button[type="reset"]').click(function() {
+            // Remove the old sliders
+            $('#yearSlider').slider('destroy');
+            $('#themeSliders').empty();
+    
+            // Create new sliders
+            createYearSlider();
+            createThemeSliders();
         });
     });
+        
+});
 
-    // Fetch the theme titles
+function createYearSlider() {
+    const $minInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-min` });
+    const $maxInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-max` });
+    $('#yearSlider').append($minInput, $maxInput);
+    $("#yearSlider").slider({
+        range: true,
+        min: 2010,
+        max: 2022,
+        values: [2010, 2022],
+        create: function() {
+            // Add divs to the handles
+            $(this).children('.ui-slider-handle').each(function(i) {
+                $(this).append($('<div>').addClass('handle-value').text($("#yearSlider").slider('values', i)));
+            });
+        },
+        slide: function(_, ui) {
+            // Update the text of the handle divs
+            $(this).children('.ui-slider-handle').each(function(i) {
+                $(this).children('.handle-value').text(ui.values[i]);
+            });
+
+            // Update the hidden inputs with the slider values
+            $minInput.val(ui.values[0]);
+            $maxInput.val(ui.values[1]);
+        }
+    });
+}
+
+function createThemeSliders() {
     $.get('/get_theme_titles', (data) => {
         const themeTitles = data.theme_titles;
         const $themeSliders = $('#themeSliders');
@@ -84,7 +103,7 @@ $(document).ready(function() {
                         $(this).append($('<div>').addClass('handle-value').text($div.slider('values', i)));
                     });
                 },
-                slide: function(event, ui) {
+                slide: function(_, ui) {
                     // Update the text of the handle divs
                     $(this).children('.ui-slider-handle').each(function(i) {
                         $(this).children('.handle-value').text(ui.values[i]);
@@ -102,8 +121,7 @@ $(document).ready(function() {
 
         });
     });
-        
-});
+}
 
 function updateResults(htmlTable) {
     document.getElementById('searchResults').innerHTML = htmlTable;

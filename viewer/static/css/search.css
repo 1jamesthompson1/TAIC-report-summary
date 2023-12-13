@@ -61,6 +61,10 @@ form button, #advancedSearch, form label, form input {
     font-weight: bold;
 }
 
+button[type="reset"] {
+    display: none;
+}
+
 input[type="text"], input[type="number"] {
     width: auto;
     border: 1px solid #ccc;
