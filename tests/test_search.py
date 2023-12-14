@@ -145,3 +145,65 @@ class TestSearchResult:
         })
 
         assert result.include() == False
+
+class TestHighlighting:
+    
+    def setup_method(self):
+        self.searcher = search.Searcher()
+
+        self.example_report = """
+This is a boat crash.
+
+A boat crashed into a bridge.
+
+It crashed into the bridge because the driver was drunk.
+
+The driver almost drowned. The driver was not wearing a life jackets.
+"""
+    
+    def test_basic_highlight(self):
+        regexes = search.Searcher.get_regex(search.Search("boat", {'use_synonyms': False}))
+
+        highlights = self.searcher.highlight_matches(self.example_report, regexes)
+
+
+        assert highlights == """
+This is a <span class="match-highlight">boat</span> crash.
+
+A <span class="match-highlight">boat</span> crashed into a bridge.
+
+It crashed into the bridge because the driver was drunk.
+
+The driver almost drowned. The driver was not wearing a life jackets.
+"""
+    def test_no_query_highlight(self):
+        regexes = search.Searcher.get_regex(search.Search("", {'use_synonyms': False}))
+
+        highlights = self.searcher.highlight_matches(self.example_report, regexes)
+
+
+        assert highlights == self.example_report
+
+    def test_and_query_highlight(self):
+        regexes = search.Searcher.get_regex(search.Search("boat AND drunk", {'use_synonyms': False}))
+
+        highlights = self.searcher.highlight_matches(self.example_report, regexes)
+
+
+        assert highlights == """
+This is a <span class="match-highlight">boat</span> crash.
+
+A <span class="match-highlight">boat</span> crashed into a bridge.
+
+It crashed into the bridge because the driver was <span class="match-highlight">drunk</span>.
+
+The driver almost drowned. The driver was not wearing a life jackets.
+"""
+
+    def test_no_highlighting(self):
+        regexes = search.Searcher.get_regex(search.Search("pizza", {'use_synonyms': False}))
+
+        highlights = self.searcher.highlight_matches(self.example_report, regexes)
+
+
+        assert highlights == self.example_report

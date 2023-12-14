@@ -152,6 +152,9 @@ class Searcher:
     
 
     def get_regex(search: Search):
+
+        if search.getQuery() == "" or search.getQuery() is None:
+            return []
         
         split_queries = search.getQuery().split(" AND ")
 
