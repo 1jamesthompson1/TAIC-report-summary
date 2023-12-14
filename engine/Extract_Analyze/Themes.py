@@ -48,7 +48,9 @@ class ThemeReader(ThemeFile):
         if not os.path.exists(self._file_path):
             print(f"Cant read themes as {self._file_path} doesnt exist")
             return None
-        themes = yaml.safe_load(open(self._file_path, 'r'))
+        themes_file = yaml.safe_load(open(self._file_path, 'r'))
+        print(themes_file)
+        themes = themes_file['themes']
 
         # Filter out themes that are not in the modes
         themes = ThemeReader._filter_themes(themes, self._modes)
@@ -64,4 +66,4 @@ class ThemeWriter(ThemeFile):
     
     def write_themes(self, new_themes):
         with open(self._file_path, 'w') as f:
-            f.write(new_themes)
+            yaml.dump(new_themes, f, default_flow_style=False, width=float('inf'), sort_keys=False)
