@@ -1,120 +1,157 @@
-- title: |-
-    Human Factors - Fatigue and Alertness
-  description: |
-    Fatigue and alertness refer to the physical and mental state of operators, which can significantly impact their performance and decision-making abilities. Fatigue can result from inadequate rest, extended work hours, or health conditions, leading to reduced alertness and the potential for errors or accidents. Managing fatigue and ensuring operators are alert is crucial for safety across all transport modes.
+themes:
+- title: Human Factors - Fatigue and Alertness
+  description: 'Fatigue and alertness refer to the physical and mental state of operators, which can significantly impact their performance and decision-making abilities. Fatigue can result from inadequate rest, extended work hours, or health conditions, leading to reduced alertness and the potential for errors or accidents. Managing fatigue and ensuring operators are alert is crucial for safety across all transport modes.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Communication and Crew Resource Management
-  description: |
-    Effective communication and crew resource management involve the clear exchange of information, coordination, and utilization of all available resources among team members. This includes the ability to clearly convey instructions, warnings, and other critical information, as well as the capacity to work collaboratively to manage tasks and respond to situations. Breakdowns in communication can lead to misunderstandings and errors, impacting safety in aviation, rail, and marine operations.
+  - a
+  - r
+  - m
+- title: Situational Awareness
+  description: 'Situational awareness is the perception and understanding of the environment and potential hazards during operation. It involves being aware of one''s surroundings, the state of the vehicle, and any external factors that could impact safety. Maintaining high situational awareness is crucial for preventing accidents by allowing operators to anticipate and respond to changing conditions in aviation, rail, and marine operations.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Training and Preparedness for Emergency Procedures
-  description: |
-    Training and preparedness for emergency procedures ensure that personnel are equipped with the knowledge and skills to respond effectively to emergencies. This includes familiarity with safety equipment, evacuation protocols, and firefighting techniques. Regular drills and training sessions are essential to maintain readiness and ensure a swift and coordinated response in the event of an emergency in any mode of transport.
+  - a
+  - r
+  - m
+- title: Distracted Operation
+  description: 'Distracted operation refers to the engagement in non-essential activities that divert attention away from controlling the vehicle, such as using mobile devices. Distractions can significantly impair an operator''s ability to maintain control and respond to hazards, increasing the risk of accidents. Addressing distracted operation is important for enhancing safety in all modes of transport.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Maintenance Procedures and Compliance
-  description: |
-    Maintenance procedures and compliance involve adhering to established protocols for the upkeep and repair of vehicles and equipment. This includes regular inspections, timely repairs, and adherence to manufacturers' specifications. Proper maintenance is critical for ensuring the reliability and safety of transport vehicles, preventing mechanical failures that could lead to accidents.
+  - a
+  - r
+  - m
+- title: Human Error and Error Management
+  description: 'Human error and error management recognize that mistakes are an inherent part of human performance. Error management involves creating systems and procedures that anticipate, detect, and mitigate errors before they lead to accidents. This includes fostering a just culture where errors are reported and addressed without fear of undue punishment. Managing human error is essential for improving safety in aviation, rail, and marine operations.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Fire Detection and Suppression Systems
-  description: |
-    Fire detection and suppression systems are essential for early detection of fires and effective response to contain and extinguish them. These systems include smoke detectors, alarms, and firefighting equipment such as extinguishers and sprinklers. Their proper functioning is crucial for preventing the spread of fire and minimizing damage and injury in aviation, rail, and marine environments.
+  - a
+  - r
+  - m
+- title: Safety Culture and Organizational Influences
+  description: 'Safety culture and organizational influences refer to the values, attitudes, and behaviors within an organization that impact safety. A positive safety culture promotes safety as a priority, encourages reporting of safety concerns, and supports continuous improvement. Organizational influences include policies, leadership, and resource allocation that affect safety performance. Strengthening safety culture is key to enhancing safety across all transport modes.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Regulatory Compliance and Safety Management
-  description: |
-    Regulatory compliance and safety management involve adhering to laws, regulations, and industry standards designed to ensure safety. This includes the implementation of safety management systems that identify risks, enforce safety policies, and promote a culture of safety. Compliance with regulations is essential for maintaining safe operations and preventing accidents across all modes of transport.
+  - a
+  - r
+  - m
+- title: Communication and Crew Resource Management
+  description: 'Effective communication and crew resource management involve the clear exchange of information, coordination, and utilization of all available resources among team members. This includes the ability to clearly convey instructions, warnings, and other critical information, as well as the capacity to work collaboratively to manage tasks and respond to situations. Breakdowns in communication can lead to misunderstandings and errors, impacting safety in aviation, rail, and marine operations.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Situational Awareness
-  description: |
-    Situational awareness is the perception and understanding of the environment and potential hazards during operation. It involves being aware of one's surroundings, the state of the vehicle, and any external factors that could impact safety. Maintaining high situational awareness is crucial for preventing accidents by allowing operators to anticipate and respond to changing conditions in aviation, rail, and marine operations.
+  - a
+  - r
+  - m
+- title: Training and Preparedness for Emergency Procedures
+  description: 'Training and preparedness for emergency procedures ensure that personnel are equipped with the knowledge and skills to respond effectively to emergencies. This includes familiarity with safety equipment, evacuation protocols, and firefighting techniques. Regular drills and training sessions are essential to maintain readiness and ensure a swift and coordinated response in the event of an emergency in any mode of transport.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Equipment Design and Specifications
-  description: |
-    Equipment design and specifications refer to the technical aspects and standards that ensure the safe operation of transport vehicles and systems. This includes the use of appropriate materials, adherence to design criteria, and the incorporation of safety features. Proper design and specification are essential for preventing equipment failures and ensuring safety in aviation, rail, and marine transport.
+  - a
+  - r
+  - m
+- title: Emergency Response Planning and Coordination
+  description: 'Emergency response planning and coordination involve preparing for potential emergencies through planning and establishing procedures for a coordinated response. This includes the allocation of roles, communication protocols, and the availability of emergency equipment. Effective emergency response is vital for minimizing the impact of incidents and ensuring the safety of passengers and crew in aviation, rail, and marine transport.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Risk Assessment and Management
-  description: |
-    Risk assessment and management involve identifying potential hazards, evaluating the risks associated with them, and implementing measures to mitigate those risks. This process is critical for proactive safety management, allowing organizations to address potential safety issues before they result in incidents. Effective risk management is applicable across aviation, rail, and marine transport.
+  - a
+  - r
+  - m
+- title: Maintenance Procedures and Compliance
+  description: 'Maintenance procedures and compliance involve adhering to established protocols for the upkeep and repair of vehicles and equipment. This includes regular inspections, timely repairs, and adherence to manufacturers'' specifications. Proper maintenance is critical for ensuring the reliability and safety of transport vehicles, preventing mechanical failures that could lead to accidents.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Emergency Response Planning and Coordination
-  description: |
-    Emergency response planning and coordination involve preparing for potential emergencies through planning and establishing procedures for a coordinated response. This includes the allocation of roles, communication protocols, and the availability of emergency equipment. Effective emergency response is vital for minimizing the impact of incidents and ensuring the safety of passengers and crew in aviation, rail, and marine transport.
+  - a
+  - r
+  - m
+- title: Fire Detection and Suppression Systems
+  description: 'Fire detection and suppression systems are essential for early detection of fires and effective response to contain and extinguish them. These systems include smoke detectors, alarms, and firefighting equipment such as extinguishers and sprinklers. Their proper functioning is crucial for preventing the spread of fire and minimizing damage and injury in aviation, rail, and marine environments.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Distracted Operation
-  description: |
-    Distracted operation refers to the engagement in non-essential activities that divert attention away from controlling the vehicle, such as using mobile devices. Distractions can significantly impair an operator's ability to maintain control and respond to hazards, increasing the risk of accidents. Addressing distracted operation is important for enhancing safety in all modes of transport.
+  - a
+  - r
+  - m
+- title: Regulatory Compliance and Safety Management
+  description: 'Regulatory compliance and safety management involve adhering to laws, regulations, and industry standards designed to ensure safety. This includes the implementation of safety management systems that identify risks, enforce safety policies, and promote a culture of safety. Compliance with regulations is essential for maintaining safe operations and preventing accidents across all modes of transport.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Structural Integrity and Material Fatigue
-  description: |
-    Structural integrity and material fatigue concern the strength and durability of transport vehicles over time. Continuous use and exposure to operational stresses can lead to material degradation and potential structural failures. Ensuring the ongoing integrity of vehicles through regular inspections and maintenance is crucial for preventing accidents due to structural failures in aviation, rail, and marine transport.
+  - a
+  - r
+  - m
+- title: Equipment Design and Specifications
+  description: 'Equipment design and specifications refer to the technical aspects and standards that ensure the safe operation of transport vehicles and systems. This includes the use of appropriate materials, adherence to design criteria, and the incorporation of safety features. Proper design and specification are essential for preventing equipment failures and ensuring safety in aviation, rail, and marine transport.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Human Error and Error Management
-  description: |
-    Human error and error management recognize that mistakes are an inherent part of human performance. Error management involves creating systems and procedures that anticipate, detect, and mitigate errors before they lead to accidents. This includes fostering a just culture where errors are reported and addressed without fear of undue punishment. Managing human error is essential for improving safety in aviation, rail, and marine operations.
+  - a
+  - r
+  - m
+- title: Risk Assessment and Management
+  description: 'Risk assessment and management involve identifying potential hazards, evaluating the risks associated with them, and implementing measures to mitigate those risks. This process is critical for proactive safety management, allowing organizations to address potential safety issues before they result in incidents. Effective risk management is applicable across aviation, rail, and marine transport.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Safety Culture and Organizational Influences
-  description: |
-    Safety culture and organizational influences refer to the values, attitudes, and behaviors within an organization that impact safety. A positive safety culture promotes safety as a priority, encourages reporting of safety concerns, and supports continuous improvement. Organizational influences include policies, leadership, and resource allocation that affect safety performance. Strengthening safety culture is key to enhancing safety across all transport modes.
+  - a
+  - r
+  - m
+- title: Weather Information Dissemination and Interpretation
+  description: 'Weather information dissemination and interpretation involve the accurate and timely communication of weather-related hazards to operators. This includes the clarity of weather advisories, the ability of operators to understand and apply the information, and the integration of weather data into operational decision-making. Effective management of weather information is critical for safety in aviation, rail, and marine transport, where weather conditions can significantly impact operations.
+
+    '
   modes:
-    - a
-    - r
-    - m
-- title: |-
-    Weather Information Dissemination and Interpretation
-  description: |
-    Weather information dissemination and interpretation involve the accurate and timely communication of weather-related hazards to operators. This includes the clarity of weather advisories, the ability of operators to understand and apply the information, and the integration of weather data into operational decision-making. Effective management of weather information is critical for safety in aviation, rail, and marine transport, where weather conditions can significantly impact operations.
+  - a
+  - r
+  - m
+- title: Structural Integrity and Material Fatigue
+  description: 'Structural integrity and material fatigue concern the strength and durability of transport vehicles over time. Continuous use and exposure to operational stresses can lead to material degradation and potential structural failures. Ensuring the ongoing integrity of vehicles through regular inspections and maintenance is crucial for preventing accidents due to structural failures in aviation, rail, and marine transport.
+
+    '
   modes:
-    - a
-    - r
-    - m
+  - a
+  - r
+  - m
+groups:
+- title: Human Performance and Error Management
+  description: 'This group focuses on the human aspects of safety, including the physical and mental state of operators, their ability to maintain situational awareness, manage fatigue, and avoid distractions. It also encompasses the organizational culture that influences human performance and the systems in place to manage and mitigate human error.
+
+    '
+  themes:
+  - Human Factors - Fatigue and Alertness
+  - Situational Awareness
+  - Distracted Operation
+  - Human Error and Error Management
+  - Safety Culture and Organizational Influences
+- title: Communication, Coordination, and Training
+  description: 'This group addresses the importance of clear communication, effective teamwork, and the preparedness of personnel to handle emergencies. It includes the management of information and the coordination of resources to ensure a cohesive response to any situation.
+
+    '
+  themes:
+  - Communication and Crew Resource Management
+  - Training and Preparedness for Emergency Procedures
+  - Emergency Response Planning and Coordination
+- title: Safety Systems and Compliance
+  description: 'This group covers the technical and regulatory aspects of safety, including the design and maintenance of equipment, adherence to safety regulations, and the implementation of safety management systems. It also involves the assessment and management of risks to prevent accidents.
+
+    '
+  themes:
+  - Maintenance Procedures and Compliance
+  - Fire Detection and Suppression Systems
+  - Regulatory Compliance and Safety Management
+  - Equipment Design and Specifications
+  - Risk Assessment and Management
+- title: Operational Environment and External Factors
+  description: 'This group includes themes related to the operational environment and external factors that can impact safety. It involves the dissemination and interpretation of weather information, as well as the structural integrity of vehicles which can be affected by material fatigue and other environmental stresses.
+
+    '
+  themes:
+  - Weather Information Dissemination and Interpretation
+  - Structural Integrity and Material Fatigue

@@ -29,7 +29,7 @@ class ThemeGenerator:
         print(f"  Report theme template: {self.report_theme_template}")
 
 
-        self.output_folder_reader.process_reports(self._get_theme, self.modes)
+        # self.output_folder_reader.process_reports(self._get_theme, self.modes)
 
         print(" Themes generated for each report")
 
@@ -42,13 +42,13 @@ class ThemeGenerator:
             
         print("  Summarizing themes...")
         summarized_themes = self.open_ai_caller.query(
-            """
+            system="""
 You are going to help me summarize the given source text.
 
 The source text will be provided inbetween triple quotes. Below that will be the questions and some notes.
 """
             ,
-            f"""
+            user=f"""
 '''
 {self.all_themes}
 '''
@@ -94,8 +94,92 @@ issues.
             large_model=True,
             temp = 0
         )
+
+        themes_data = yaml.safe_load(summarized_themes)
+
+        while True:
+
+            theme_groups = self.open_ai_caller.query(
+                system="""
+    You are going to help me group some items.
+
+    The items will be given to you in a yaml format with triple qoutes.
+    Each item will have a name and description
+
+    You response should be in pure yaml. It will have a title, description and list of items in this group for each group.
+
+    It is important that the list of themes uses the theme titles verbatim.
+
+    The yaml should not be enclosed and folllow this exact format.
+    - title: |-
+        tile goes here
+    description: |
+        description of the group goes here
+    themes:
+        - theme1
+        - theme2
+
+    Each item can only be in one group.
+    """,
+                user=f"""
+    '''
+    {summarized_themes}
+    '''
+
+    question:
+
+    I have some safety themes that have been identifed by reading alot of accident investigation reports.
+
+    Please put these into groups of related themes. Can you please have about 4-6 groups
+
+    Here are some defintion of what the various terms might mean:
+    Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+    increase the likelihood of an occurrence, and/or the
+    severity of any adverse consequences associated with the
+    occurrence.
+
+    Safety issue - A safety factor that:
+    • can reasonably be regarded as having the
+    potential to adversely affect the safety of future
+    operations, and
+    • is characteristic of an organisation, a system, or an
+    operational environment at a specific point in time.
+    Safety Issues are derived from safety factors classified
+    either as Risk Controls or Organisational Influences.
+
+    Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+    cover a single safety issue, or two or more related safety
+    issues. 
+    """,
+                large_model=True,
+                temp = 0
+            )
+
+            groups_data = yaml.safe_load(theme_groups)
+
+            # Validate that the themes and groups are valid
+
+            all_themes = [theme['title'] for theme in themes_data]
+            groups_themes = [group['themes'] for group in groups_data]
+
+            # Check that all themes are in a group
+            for theme in all_themes:
+                if not any(theme in group for group in groups_themes):
+                    print(f"  Theme {theme} not in any group retrying grouping")
+                    continue
+            
+            break
+
+        # Sort the themes in the themes_data so that they are in the assigned groups order
+        flattened_groups = [theme for group_themes in groups_themes for theme in group_themes]
+
+        themes_data = sorted(themes_data, key=lambda theme: flattened_groups.index(theme['title']))
+
+        # Create a new dictionary with 'themes' and 'groups' branches
+        combined_data = {'themes': themes_data, 'groups': groups_data}
+
         
-        Themes.ThemeWriter().write_themes(summarized_themes)
+        Themes.ThemeWriter().write_themes(combined_data)
 
         print(" Themes summaried and written to file")        
 
@@ -171,9 +255,6 @@ issues.
             large_model=True,
             temp = 0
         )
-
-        # with open(self._get_theme_file_path(report_id), "r") as f:
-        #     report_themes_str = f.read()
 
         if report_themes_str is None:
             return
