@@ -141,3 +141,59 @@ class ReportExtractor:
 
         print(f"Error: could not find section")
         return None
+    
+    def extract_safety_issues(self):
+        """
+        Safety issues representation vary throughout the reports.
+        """
+
+        safety_regex = r's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?'
+        end_regex = r'([\s\S]*?)(?=(\d+\.(\d+\.)?(\d+)?)|(^ ))'
+        
+        # Search for safety issues throughout the report
+        safety_issues_regexes = [
+            fr'{safety_regex} -{end_regex}',
+            fr'{safety_regex}: {end_regex}'
+        ]
+        safety_issues_regexes = [re.compile(regex, re.MULTILINE | re.IGNORECASE) for regex in safety_issues_regexes]
+
+        safety_issue_matches = []
+        # Only one of the regexes should match
+        for regex in safety_issues_regexes:
+            if len(safety_issue_matches) > 0 and regex.search(self.report_text):
+                print("Error: multiple regexes matched")
+
+            if len(safety_issue_matches) == 0 and regex.search(self.report_text):
+                safety_issue_matches.extend(regex.findall(self.report_text))
+
+        # Clean the found safety issues
+        safety_issues_uncleaned = [match[0]for match in safety_issue_matches]
+
+        ## Remove excess whitespace
+        safety_issues_removed_whitespace = [issue.strip().replace("\n", " ") for issue in safety_issues_uncleaned]
+
+        ## Clean up characters with llm
+        clean_text = lambda text: openAICaller.query(
+            """
+I need you help cleaning some text.
+
+This text is from a PDF text extraction meaning that there might be extra whitespace and random characters.
+
+I would like you to remove these excessive charcters but keep the rest of the text verbatim.
+
+I will give you the text and you should only responed with the cleaned text.            
+""",
+            text,
+            large_model=True,
+            temp=0)
+
+        safety_issues_cleaned = [clean_text(issue) for issue in safety_issues_removed_whitespace]
+
+        return safety_issues_cleaned
+        
+
+
+
+
+
+        

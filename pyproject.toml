@@ -21,6 +21,7 @@ argparse = "^1.4.0"
 pandas = "^2.0.3"
 regex = "^2023.8.8"
 pytest = "^7.4.3"
+pytest-xdist = "^3.5.0"
 
 [tool.poetry.group.viewer.dependencies]
 jinja2 = "^3.1.2"
