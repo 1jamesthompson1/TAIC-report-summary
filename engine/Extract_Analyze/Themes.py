@@ -49,7 +49,6 @@ class ThemeReader(ThemeFile):
             print(f"Cant read themes as {self._file_path} doesnt exist")
             return None
         themes_file = yaml.safe_load(open(self._file_path, 'r'))
-        print(themes_file)
         themes = themes_file['themes']
 
         # Filter out themes that are not in the modes
