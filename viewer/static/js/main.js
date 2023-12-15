@@ -146,17 +146,17 @@ function updateResults(htmlTable) {
 
 function openReportPopup(data) {
     // Set the content of the modal
-    $('#modalContent').html(data.main);
+    $('#modalText').html(data.main);
 
     $('#modalTitle').html(data.title);
 
     // Display the modal
-    $('#myModal').css('display', 'block');
+    $('#modalContainer').css('display', 'block');
 }
 
 function closeModal() {
 // Hide the modal
-    $('#myModal').css('display', 'none');
+    $('#modalContainer').css('display', 'none');
 }
 
 $(document).ready(function() {     
