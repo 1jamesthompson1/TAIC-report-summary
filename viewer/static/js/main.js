@@ -146,27 +146,29 @@ function updateResults(htmlTable) {
 
 function openReportPopup(data) {
     // Set the content of the modal
-    $('#modalContent').html(data.main);
+    $('#modalText').html(data.main);
 
     $('#modalTitle').html(data.title);
 
     // Display the modal
-    $('#myModal').css('display', 'block');
+    $('#modalContainer').css('display', 'block');
 }
 
 function closeModal() {
 // Hide the modal
-    $('#myModal').css('display', 'none');
+    $('#modalContainer').css('display', 'none');
 }
 
 $(document).ready(function() {     
-    $(document).on('click', '.no-matches-link', function() {
+    $(document).on('click', '.no-matches-link', function() {    
         var reportId = $(this).data('report-id');
         var formData = $('#searchForm').serialize();
-        
+         
         $.get('/get_report_text', {report_id: reportId, form: formData}, function(data) {
+
             openReportPopup(data);
         })
+        return false;
     });
 
     $(document).on('click', '.weighting-link', function() {
@@ -176,6 +178,7 @@ $(document).ready(function() {
         $.get('/get_weighting_explanation', {report_id: reportId, theme: theme}, function(data) {
             openReportPopup(data);
         })
+        return false
     });
 
     $(document).on('click', '.theme-summary-link', function() {
@@ -184,6 +187,7 @@ $(document).ready(function() {
         $.get('/get_theme_text', {report_id: reportId}, function(data) {
             openReportPopup(data);
         })
+        return false
     });
 
     $('#closeModal').click(function() {
