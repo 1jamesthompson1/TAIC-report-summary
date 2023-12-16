@@ -1,15 +1,15 @@
 from math import exp
-import os
 import time
-import openai
+import os
+from openai import OpenAI
 from dotenv import load_dotenv
 import tiktoken
 
-
 load_dotenv()
 
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY"),
+)
 
 class OpenAICaller:
     def __init__(self):
@@ -33,23 +33,14 @@ class OpenAICaller:
             return None
 
         # If rate limit error happens then just wait a minute and try again
-        wait_time = 1
-        while True:
-            try:
-                completion = openai.ChatCompletion.create(
-                model = model,
-                messages=[
-                    {"role": "system", "content": system},
-                    {"role": "user", "content": user}
-                ],
-                temperature=temp, n = n
-                )
-                break
-            except openai.error.RateLimitError:
-                print(f"Rate limit error, waiting {exp(wait_time)/60} minutes and trying again")        
-                time.sleep(exp(wait_time))
-                wait_time += 1
-                continue        
+        completion = client.chat.completions.create(
+        model = model,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user}
+        ],
+        temperature=temp, n = n
+        )
 
         if n == 1:
             return completion.choices[0].message.content
