@@ -11,7 +11,7 @@ class ReportDownloader:
     Class that will take the output templates and download all the reports from the TAIC website
     These reports can be found manually by going to https://www.taic.org.nz/inquiries
     """
-    def __init__(self, output_dir, report_dir_template, file_name_template, start_year, end_year, max_per_year, modes: list[Modes.Mode]):
+    def __init__(self, output_dir, report_dir_template, file_name_template, start_year, end_year, max_per_year, modes: list[Modes.Mode], refresh):
         self.output_dir = output_dir
         self.report_dir_template = report_dir_template
         self.file_name_template = file_name_template
@@ -19,6 +19,7 @@ class ReportDownloader:
         self.end_year = end_year
         self.max_per_year = max_per_year
         self.modes = modes
+        self.refresh = refresh
 
     def download_all(self):
         print("Downloading reports from TAIC website with config: ")
@@ -59,7 +60,18 @@ class ReportDownloader:
                     break
 
     def download_report(self, report_id, url):
+        report_dir = os.path.join(self.output_dir, self.report_dir_template.replace(r"{{report_id}}", report_id))
+        
+        if not os.path.exists(report_dir):
+            os.mkdir(report_dir)
+
+        file_name = os.path.join(report_dir, self.file_name_template.replace(r"{{report_id}}", report_id))
         response = requests.get(url)
+
+        if not self.refresh and os.path.exists(file_name):
+            print(f"  {file_name} already exists, skipping download")
+            return True
+
         soup = BeautifulSoup(response.content, "html.parser")
 
         # Find all the links that end with .pdf and download them       
@@ -75,17 +87,9 @@ class ReportDownloader:
 
         link = pdf_links[0]
 
-        report_dir = os.path.join(self.output_dir, self.report_dir_template.replace(r"{{report_id}}", report_id))
-        
-        if not os.path.exists(report_dir):
-            os.mkdir(report_dir)
 
-        file_name = os.path.join(report_dir, self.file_name_template.replace(r"{{report_id}}", report_id))
-        if not os.path.exists(file_name):
-            with open(file_name, "wb") as f:
-                f.write(requests.get(link, allow_redirects=True).content)                
-                print(f"  Downloaded {file_name}")
-        else:
-            print(f"  {file_name} already exists, skipping download")
+        with open(file_name, "wb") as f:
+            f.write(requests.get(link, allow_redirects=True).content)                
+            print(f"  Downloaded {file_name}")
         
         return True

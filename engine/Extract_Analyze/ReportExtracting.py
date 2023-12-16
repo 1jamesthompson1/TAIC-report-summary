@@ -1,6 +1,9 @@
 from engine.OpenAICaller import openAICaller
 
+from engine.Extract_Analyze import OutputFolderReader
 
+import yaml
+import os
 import regex as re
 
 
@@ -170,10 +173,7 @@ class ReportExtractor:
                 safety_issue_matches.extend(regex.findall(self.report_text))
 
         # Collapse the tuples into a string
-        print(f"Found these safety issue matches: {safety_issue_matches}")
         safety_issues_uncleaned = [''.join(match) for match in safety_issue_matches]
-
-        print(f"Found these safety issues: {safety_issues_uncleaned}")
 
         ## Remove excess whitespace
         safety_issues_removed_whitespace = [issue.strip().replace("\n", " ") for issue in safety_issues_uncleaned]
@@ -198,8 +198,40 @@ Please just return the cleaned version of the text. Without starting with Safety
         return safety_issues_cleaned
         
 
+class ReportExtractingProcessor:
 
+    def __init__(self, output_dir, report_dir_template, file_name_template, refresh):
+        self.output_folder_reader = OutputFolderReader.OutputFolderReader()
+        self.output_dir = output_dir
+        self.report_dir_template = report_dir_template
+        self.file_name_template = file_name_template
+        self.refresh = refresh
 
+    def _output_safety_issues(self, report_id, report_text):
 
+        print("  Extracting safety issues from " + report_id)
+
+        folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
+        output_file = self.file_name_template.replace(r'{{report_id}}', report_id)
+        output_path = os.path.join(self.output_dir, folder_dir, output_file)
+
+        # Skip if the file already exists
+        if os.path.exists(output_path) and not self.refresh:
+            print(f"   {output_path} already exists")
+            return
+
+        safety_issues = ReportExtractor(report_text, report_id).extract_safety_issues()
+
+        if safety_issues == None:
+            print(f"  Could not extract safety issues from {report_id}")
+            return
+        
+        print(f"   Found {len(safety_issues)} safety issues")
+
+        with open(output_path, 'w') as f:
+            yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
+
+    def extract_safety_issues_from_reports(self):
+        self.output_folder_reader.process_reports(self._output_safety_issues)
 
         

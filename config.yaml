@@ -1,7 +1,7 @@
 engine:
   download:
-    end_year: 2023
-    max_per_year: 15
+    end_year: 2020
+    max_per_year: 1
     start_year: 2010
   output:
     folder_name: "output"
@@ -12,6 +12,7 @@ engine:
     # Report ID is the only available variable.
       folder_name: "{{report_id}}" # This folder name should always have the report_id variable.
       text_file_name: "{{report_id}}.txt"
+      safety_issues: "{{report_id}}_safety_issues.yaml"
       pdf_file_name: "{{report_id}}.pdf"
       themes_file_name: "{{report_id}}_themes.yaml"
       full_summary_file_name: "{{report_id}}_summary.yaml"

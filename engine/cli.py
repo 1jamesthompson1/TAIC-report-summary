@@ -1,4 +1,4 @@
-from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer
+from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer, ReportExtracting
 
 from .Gather_Wrangle import PDFDownloader, PDFParser
 
@@ -11,7 +11,7 @@ import os
 import argparse
 import shutil
 
-def download_extract(output_dir, download_config, output_config,modes):
+def download_extract(output_dir, download_config, output_config,modes, refresh):
     reports_config = output_config.get('reports')
 
     # Download the PDFs
@@ -21,13 +21,21 @@ def download_extract(output_dir, download_config, output_config,modes):
                                 download_config.get('start_year'),
                                 download_config.get('end_year'),
                                 download_config.get('max_per_year'),
-                                modes).download_all()
+                                modes,
+                                refresh).download_all()
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(output_dir,
                                 reports_config.get('pdf_file_name'),
                                 reports_config.get('text_file_name'),
-                                reports_config.get('folder_name'))
+                                reports_config.get('folder_name'),
+                                refresh)
+    
+    ReportExtracting.ReportExtractingProcessor(output_dir,
+                                               reports_config.get('folder_name'),
+                                                  reports_config.get('safety_issues'),
+                                                  refresh).extract_safety_issues_from_reports()
+
 
 def generate_themes(output_dir, reports_config, modes, refresh):
     ThemeGenerator.ThemeGenerator(output_dir,
@@ -91,7 +99,7 @@ def cli():
         case "download":
             download_extract(output_path,
                              engine_settings.get('download'), engine_settings.get('output'),
-                             modes)
+                             modes, args.refresh)
         case "themes":
             generate_themes(output_path,
                             engine_settings.get('output').get('reports'),
@@ -104,14 +112,14 @@ def cli():
             download_extract(output_path,
                              engine_settings.get('download'),
                              engine_settings.get('output'),
-                             modes)
+                             modes, args.refresh)
             if not args.predefined:
                 generate_themes(output_path,
                                 engine_settings.get('output').get('reports'),
-                                modes)
+                                modes, args.refresh)
             summarize(engine_settings.get('output'),
                       args.predefined , 
-                      modes)
+                      modes, args.refresh)
         case "validate":
             validate()
 
