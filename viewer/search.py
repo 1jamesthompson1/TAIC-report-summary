@@ -86,11 +86,19 @@ class Searcher:
             if not search_result.include() and not query == "":
                 continue
 
+            safety_issues_file = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', dir))
+            print(safety_issues_file)
+            safety_issues = []
+            if os.path.exists(safety_issues_file):
+                with open(safety_issues_file, "r") as f:
+                    safety_issues = yaml.safe_load(f)
 
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.num_matches(),
                 "ThemeSummary": "<br>".join([theme['name'] for theme in theme_summary_obj]) if theme_summary_obj is not None else "Could not be completed",
+                "SafetyIssues": str(len(safety_issues)) + "<!--" + "\n\n".join(safety_issues) +  "-->",
+
             }
 
             inside_theme_range = True
@@ -245,6 +253,24 @@ class Searcher:
 
 
         return theme_summary
+    
+    def get_safety_issues(self, report_id):
+        report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))
+
+        safety_issues_path = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', report_id))
+
+        if not os.path.exists(safety_issues_path):
+            return None
+    
+        with open(safety_issues_path, "r") as f:
+            safety_issues = yaml.safe_load(f)
+
+        if safety_issues is None:
+            return "No safety issues"
+        
+        return "<br><br>".join(safety_issues)
+            
+
 
     def read_theme_file(self, report_id):
         report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))

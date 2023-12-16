@@ -190,6 +190,16 @@ $(document).ready(function() {
         return false
     });
 
+    $(document).on('click', '.safety-issues-link', function() {
+        var reportId = $(this).data('report-id');
+
+        $.get('/get_safety_issues', {report_id: reportId}, function(data) {
+            openReportPopup(data);
+        })
+        return false
+        
+    });
+
     $('#closeModal').click(function() {
         closeModal();
     });
