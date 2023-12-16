@@ -41,14 +41,54 @@ response would normally focus on containing the fire and using all ava ilable re
 extinguish it.  
 3.20. The crew of the Dong Won 701  had all received approved shore -based firefighting 
 training.  They were all required to be current with the vessel's firefighting procedures.  
+to do so by FENZ, and the master was unable to confirm that all his crew were safely off 
+the vessel. Emergencies that occur in port are problematic in that regard, because not all 
+crew will necessarily be on board.  In this case only nine of the 44 crew members were on 
+board to initially contain and fight the fire.  Several important procedures were not 
+followed, of which some were  likely attributable to so few crew being available to 
+respond.  
+3.22. An important aspect of containing a fire is to deprive it of oxygen.  The s tandard 
+procedure for achieving this is to close all doors and openings to the space where the 
+fire is located.  After the retreat from the initial attempts to make a direct  attack on the 
+fire, the cabin door was left open – so too was the door leading from the passageway to 
+the open deck.  Also, the ventilation flaps supplying fresh air to the accommodation were 
+left open.  
+3.23. With a free flow of oxygen to the fire, it quickly s pread from the first engineer’s cabin to 
+engulf the accommodation spaces within a matter of minutes.  
+3.24. The master’s designated position in an emergency was on the bridge.  However, by the 
+time he was alerted to the fire the bridge was rapidly becoming engulf ed in fire.  
+Consequently the master was unable to use the communication equipment to summon 
+help.  
+3.25. The master went to the open deck aft15 of the bridge , where a number of crew had 
+mustered and attempted to organise a full muster and form teams to fight the fire.  
+However, several crew  members took their own course s of action, with some proceeding 
+to the engine room to manage the ammonia risk and others re -entering the 
+accommodation space to continue attacking the fire on an individual basis.  
+3.26. This unco ordinat ed response to the fire continued until FENZ arrived and took command 
+of the scene, having been called by a member of the public.  
+3.27. Some crew members attempted to initiate firefighting by preparing fire hoses on the 
+port and starboard side s of the upper deck .  However, they were unable to work the 
+portable emergency fire pump to pressurise the fire hoses.  
+3.28. In summary, the delay in all crew being alerted to the fire was a missed opportunity to 
+extinguish it using portable firefighting equipment before it escala ted out of control.  
+Then, because the immediate and surrounding areas were not shut down, the fire was 
+able to spread rapidly throughout the accommodation space before an effective 
 Safety issue: Inconsistencies in the application of Rule 40D may have resulted in up to 12 fishing 
 vessels operating under the New Zealand Flag not complying fully with the relevant safety 
-3.21. The crew of the Dong Won 701  had all received approved shore -based firefighting  
+                                                        
+15 At, near or towards the stern of a ship.  
+Final Report MO -2018 -202 
+<< Page 13 >>
+ standards. A further 50 fishing vessels have been afforded grandparent rights that will allow them 
+to operate indefinitely without meeting contemporary safety standards under the current 
+Maritime Rules.  
+3.29. Fishing ships entered into the Fishing Vessel Register under the Fisheries Act 1996 (the 
+Fisheries Act) are required  to meet applicable design , construction and equipment rules 
 """
         safety_issues = ReportExtractor(report_text, 'test report').extract_safety_issues()
         assert len(safety_issues) == 2
         assert safety_issues == ["Some aspects of the crew response to the fire did not follow industry good practice.",
-                                 "Inconsistencies in the application of Rule 40D may have resulted in up to 12 fishing vessels operating under the New Zealand Flag not complying fully with the relevant safety"]
+                                 "Inconsistencies in the application of Rule 40D may have resulted in up to 12 fishing vessels operating under the New Zealand Flag not complying fully with the relevant safety standards. A further 50 fishing vessels have been afforded grandparent rights that will allow them to operate indefinitely without meeting contemporary safety standards under the current Maritime Rules."]
         
     def test_basic_hypen(self):
         report_text = """
@@ -145,3 +185,27 @@ skills in other transport modes.
             "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons.",
             "When the three staff members came together to couple the third locomotive to the disabled train at Glenbrook, no challenge and confirm actions were taken to complete a fundamental brake test procedure, which was designed to ensure that the trains' air brakes were functioning correctly."
         ]
+    
+    def test_complex_colon(self):
+        report_text = """
+24 A condition that occurs in vehicles when the angle of sunligh t hitting a windscreen creates glare that is very 
+hard for a driver to see through . 
+ 
+
+<< Page 14 >>
+ Final Report RO-2020 -101 Mulcocks Road LCSIA  report and action taken  
+Safety issue: SFAIRP assessments were not being routinely carried out for risk treatments 
+recommended in LCSIA reports . No process , and minimal guidance , on SFAIRP asse ssment for 
+level crossing risk treatments was available  in industry documents.  
+Crossing closure  
+ The LCSIA report's recommended 'Criterion  1' risk treatment , closure  of Mulcocks Road 
+level crossing, would virtually certain ly have prevented this accident . 
+ The LCSIA process requires 'Criterion 1'  risk treatments be given first considera tion. Its 
+guidance document ation  provides  a flowchart , an excerpt of which is  shown in Figure 8 
+below . The path overlaid in green  show s the process  that crossing closure should have 
+followed,  arriving at 'Is treatment  suitable given constraints? ' This step represents a 
+joint SFAIRP assessment  between KiwiRail and the Council . 
+"""
+        safety_issues = ReportExtractor(report_text, 'test report').extract_safety_issues()
+        assert len(safety_issues) == 1
+        assert safety_issues[0] == "SFAIRP assessments were not being routinely carried out for risk treatments recommended in LCSIA reports. No process, and minimal guidance, on SFAIRP assessment for level crossing risk treatments was available in industry documents."

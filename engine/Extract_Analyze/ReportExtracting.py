@@ -148,12 +148,15 @@ class ReportExtractor:
         """
 
         safety_regex = r's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?'
-        end_regex = r'([\s\S]*?)(?=(\d+\.(\d+\.)?(\d+)?)|(^ ))'
+        end_regex = r'([\s\S]*?)(?=(\d+\.(\d+\.)?(\d+)?)|(^ [A-Z]))'
+        preamble_regex = r'([\s\S]{50})'
+        postamble_regex = r'([\s\S]{300})'
+
         
         # Search for safety issues throughout the report
         safety_issues_regexes = [
-            fr'{safety_regex} -{end_regex}',
-            fr'{safety_regex}: {end_regex}'
+            preamble_regex + r'(' + safety_regex + r' -' +  ')' + end_regex + postamble_regex,
+            preamble_regex + r'(' + safety_regex + r': ' +  ')' + end_regex + postamble_regex
         ]
         safety_issues_regexes = [re.compile(regex, re.MULTILINE | re.IGNORECASE) for regex in safety_issues_regexes]
 
@@ -166,8 +169,11 @@ class ReportExtractor:
             if len(safety_issue_matches) == 0 and regex.search(self.report_text):
                 safety_issue_matches.extend(regex.findall(self.report_text))
 
-        # Clean the found safety issues
-        safety_issues_uncleaned = [match[0]for match in safety_issue_matches]
+        # Collapse the tuples into a string
+        print(f"Found these safety issue matches: {safety_issue_matches}")
+        safety_issues_uncleaned = [''.join(match) for match in safety_issue_matches]
+
+        print(f"Found these safety issues: {safety_issues_uncleaned}")
 
         ## Remove excess whitespace
         safety_issues_removed_whitespace = [issue.strip().replace("\n", " ") for issue in safety_issues_uncleaned]
@@ -175,13 +181,13 @@ class ReportExtractor:
         ## Clean up characters with llm
         clean_text = lambda text: openAICaller.query(
             """
-I need you help cleaning some text.
+I need some help extracting the safety issues from a section of text.
 
-This text is from a PDF text extraction meaning that there might be extra whitespace and random characters.
+This text has been extracted from a pdf and then using regex this section was found. It contains text before the safety issue then the safety issue that starts with safety issue, follow by the some text after the safety issue. The complete safety issue will always be in the given text.
 
-I would like you to remove these excessive charcters but keep the rest of the text verbatim.
+However I would like to get just as the safety issue without any of the random text (headers footers etc and white spaces) that is added by the pdf.
 
-I will give you the text and you should only responed with the cleaned text.            
+Please just return the cleaned version of the text. Without starting with Safety issue.
 """,
             text,
             large_model=True,
