@@ -260,13 +260,10 @@ class Searcher:
         safety_issues_path = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', report_id))
 
         if not os.path.exists(safety_issues_path):
-            return None
+            return "No safety issues found.<br><br>Not that some safety issues may of been missed when extracting. Furthermore older reports <2012 do not support safety issue extracting at all."
     
         with open(safety_issues_path, "r") as f:
             safety_issues = yaml.safe_load(f)
-
-        if safety_issues is None:
-            return "No safety issues"
         
         return "<br><br>".join(safety_issues)
             
