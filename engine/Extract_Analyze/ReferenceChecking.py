@@ -158,7 +158,7 @@ class ReferenceValidator():
         Returns a tuple of the processed text and the number of references that were validated.  
         Returns None if there is any unrepairable references.
         """
-        text = text.replace("\n", "").replace("’","'")
+        text = text.replace("\n", "")
 
         try: 
             references = self._extract_references(text)
@@ -243,7 +243,7 @@ class ReferenceValidator():
         # remove all non source sections
         source_sections = list(filter(lambda section: section is not None, source_sections))
         
-        source_sections = "\n".join(map(lambda str: str.replace("\n", "").replace("’","'").lower(), source_sections)).lower()
+        source_sections = "\n".join(map(lambda str: str.replace("\n", "").lower(), source_sections)).lower()
 
         match reference.type:
             case ReferenceType.citation:
@@ -311,7 +311,7 @@ Here is the source text:
         """
         Checks if the given quote is valid or not. This is done by just using Regex. If the quote cant be found in the source section then it is invalid. There may be extra problems with additional spaces that can be added into the source section by the text extraction from a pdf.
         """
-        format_punctuation = lambda text: re.sub(r'''(('')|['"‘’“”])''', r'''(('')|['"‘’“”])''' , text).replace(",", r",?")
+        format_punctuation = lambda text: re.sub(r'''(('')|['"])''', r'''(('')|['"])''' , text).replace(",", r",?")
 
         if attempt_repair:
             self._print(f"   Validating quote: {quote.text} with reference {quote.reference_str}")
