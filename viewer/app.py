@@ -65,6 +65,8 @@ def search_reports():
 
     results['ThemeSummary'] = results.apply(lambda row: f'<a href="#" class="theme-summary-link" data-report-id="{row["ReportID"]}">{row["ThemeSummary"]}</a>', axis=1)
 
+    results['SafetyIssues'] = results.apply(lambda row: f'<a href="#" class="safety-issues-link" data-report-id="{row["ReportID"]}">{row["SafetyIssues"]}</a>', axis=1)
+
     for theme in searcher.themes:
         results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
 
@@ -105,6 +107,14 @@ def get_theme_text():
 
     return jsonify({'title': f"Theme summary for {report_id}", 'main': theme_text})
 
+@app.route('/get_safety_issues', methods=['GET'])
+def get_safety_issues():
+    report_id = request.args.get('report_id')
+
+    safety_issues = search.Searcher().get_safety_issues(report_id)
+
+    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
+
 @app.route('/get_theme_titles', methods=['GET'])
 def get_theme_titles():
     titles = Themes.ThemeReader(search.Searcher().input_dir).get_theme_titles()
@@ -116,7 +126,7 @@ def run():
     parser.add_argument('--debug', action='store_true', help='Enable debug mode')
     args = parser.parse_args()
 
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5001))
     app.run(port=port, host="0.0.0.0", debug=args.debug)
 
 if __name__ == '__main__':

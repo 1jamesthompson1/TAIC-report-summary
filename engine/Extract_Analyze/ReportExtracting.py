@@ -1,6 +1,9 @@
 from engine.OpenAICaller import openAICaller
 
+from engine.Extract_Analyze import OutputFolderReader
 
+import yaml
+import os
 import regex as re
 
 
@@ -141,3 +144,96 @@ class ReportExtractor:
 
         print(f"Error: could not find section")
         return None
+    
+    def extract_safety_issues(self):
+        """
+        Safety issues representation vary throughout the reports.
+        """
+
+        safety_regex = r's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?'
+        end_regex = r'([\s\S]*?)(?=(\d+\.(\d+\.)?(\d+)?)|(^ [A-Z]))'
+        preamble_regex = r'([\s\S]{50})'
+        postamble_regex = r'([\s\S]{300})'
+
+        
+        # Search for safety issues throughout the report
+        safety_issues_regexes = [
+            preamble_regex + r'(' + safety_regex + r' -' +  ')' + end_regex + postamble_regex,
+            preamble_regex + r'(' + safety_regex + r': ' +  ')' + end_regex + postamble_regex
+        ]
+        safety_issues_regexes = [re.compile(regex, re.MULTILINE | re.IGNORECASE) for regex in safety_issues_regexes]
+
+        safety_issue_matches = []
+        # Only one of the regexes should match
+        for regex in safety_issues_regexes:
+            if len(safety_issue_matches) > 0 and regex.search(self.report_text):
+                print("Error: multiple regexes matched")
+
+            if len(safety_issue_matches) == 0 and regex.search(self.report_text):
+                safety_issue_matches.extend(regex.findall(self.report_text))
+
+        # Collapse the tuples into a string
+        safety_issues_uncleaned = [''.join(match) for match in safety_issue_matches]
+
+        ## Remove excess whitespace
+        safety_issues_removed_whitespace = [issue.strip().replace("\n", " ") for issue in safety_issues_uncleaned]
+
+        ## Clean up characters with llm
+        clean_text = lambda text: openAICaller.query(
+            """
+I need some help extracting the safety issues from a section of text.
+
+This text has been extracted from a pdf and then using regex this section was found. It contains text before the safety issue then the safety issue that starts with safety issue, follow by the some text after the safety issue. The complete safety issue will always be in the given text.
+
+However I would like to get just as the safety issue without any of the random text (headers footers etc and white spaces) that is added by the pdf.
+
+Please just return the cleaned version of the text. Without starting with Safety issue.
+""",
+            text,
+            large_model=True,
+            temp=0)
+
+        safety_issues_cleaned = [clean_text(issue) for issue in safety_issues_removed_whitespace]
+
+        return safety_issues_cleaned
+        
+
+class ReportExtractingProcessor:
+
+    def __init__(self, output_dir, report_dir_template, file_name_template, refresh):
+        self.output_folder_reader = OutputFolderReader.OutputFolderReader()
+        self.output_dir = output_dir
+        self.report_dir_template = report_dir_template
+        self.file_name_template = file_name_template
+        self.refresh = refresh
+
+    def _output_safety_issues(self, report_id, report_text):
+
+        report_text = report_text.replace("–", "-")
+
+        print("  Extracting safety issues from " + report_id)
+
+        folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
+        output_file = self.file_name_template.replace(r'{{report_id}}', report_id)
+        output_path = os.path.join(self.output_dir, folder_dir, output_file)
+
+        # Skip if the file already exists
+        if os.path.exists(output_path) and not self.refresh:
+            print(f"   {output_path} already exists")
+            return
+
+        safety_issues = ReportExtractor(report_text, report_id).extract_safety_issues()
+
+        if safety_issues == None:
+            print(f"  Could not extract safety issues from {report_id}")
+            return
+        
+        print(f"   Found {len(safety_issues)} safety issues")
+
+        with open(output_path, 'w') as f:
+            yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
+
+    def extract_safety_issues_from_reports(self):
+        self.output_folder_reader.process_reports(self._output_safety_issues)
+
+        
