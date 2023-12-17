@@ -27,9 +27,8 @@ def convertPDFToText(output_dir, pdf_file_name_template, text_file_name_template
                         text += page.extract_text() + "\n"
 
                     text = formatText(text, 'old')
-
-                    # Cleaning up the text a bit
-                    # text = cleanText(text)
+                    
+                    text = cleanText(text)
 
                     with open(text_path, 'w', encoding='utf-8-sig') as text_file:
                         text_file.write(text)
@@ -45,6 +44,24 @@ def formatText(text, style):
     
     # Clean up page numbers
     text = re.sub(r'(\| )?(Page \d+)( \|)?', r'\n<< \2 >>\n', text)
+
+    return text
+
+def cleanText(text):
+    """Clean unusual characters from the report
+    This will involve replaces all chracters with the more usual ascii characters.
+    """
+
+    characters_to_replace = [
+        ("–", "-"),
+        ("’", "'"),
+        ("‘", "'"),
+        ("“", '"'),
+        ("”", '"'),
+    ]
+
+    for character in characters_to_replace:
+        text = text.replace(character[0], character[1])
 
     return text
 
