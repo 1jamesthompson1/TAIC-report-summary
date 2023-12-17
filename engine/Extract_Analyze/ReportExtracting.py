@@ -209,8 +209,6 @@ class ReportExtractingProcessor:
 
     def _output_safety_issues(self, report_id, report_text):
 
-        report_text = report_text.replace("–", "-")
-
         print("  Extracting safety issues from " + report_id)
 
         folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
