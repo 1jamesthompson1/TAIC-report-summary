@@ -40,14 +40,14 @@ class Searcher:
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
-    def search(self, query: str, settings, theme_ranges, theme_modes, year_range) -> pd.DataFrame:
+    def search(self, query: str, settings, theme_ranges, theme_group_ranges, transport_modes, year_range) -> pd.DataFrame:
         reports = []
 
         for dir in OutputFolderReader(self.input_dir)._get_report_ids():
 
             # Check to see if the report is in the correct mode
             report_mode = Modes.get_report_mode_from_id(dir)
-            if report_mode not in theme_modes:
+            if report_mode not in transport_modes:
                 continue
 
             # Check to see if the report is in the correct year range
@@ -87,7 +87,6 @@ class Searcher:
                 continue
 
             safety_issues_file = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', dir))
-            print(safety_issues_file)
             safety_issues = []
             if os.path.exists(safety_issues_file):
                 with open(safety_issues_file, "r") as f:
@@ -103,18 +102,39 @@ class Searcher:
 
             inside_theme_range = True
 
+            theme_weighting = {theme: reportID_summary_row[theme + "_weighting"].values[0] for theme in self.themes}
+
             for theme in self.themes:
-                if not theme_ranges[theme][0] <= reportID_summary_row[theme + "_weighting"].values[0] <= theme_ranges[theme][1]:
+                if not theme_ranges[theme][0] <= theme_weighting[theme] <= theme_ranges[theme][1]:
                     inside_theme_range = False
                     break
 
-                report_row[theme] = round(reportID_summary_row[theme + "_weighting"].values[0], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
-            report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
-            report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
+                report_row[theme] = round(theme_weighting[theme], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
 
-            if not inside_theme_range:
+
+            # Check the theme group ranges        
+            theme_groups = Themes.ThemeReader(self.input_dir).get_groups()
+
+            inside_theme_range = True
+
+            for group in theme_groups:
+                group_themes = group['themes']
+                group_themes_weighting = [theme_weighting[theme] for theme in group_themes]
+
+                min = theme_group_ranges[group['title']][0]
+                max = theme_group_ranges[group['title']][1]
+
+                any_in_range = any([min <= theme_weighting[theme] <= max for theme in group_themes])
+
+                if not any_in_range:
+                    inside_theme_range = False
+                    break
+
+            if not inside_theme_range and not inside_theme_range:
                 continue
 
+            report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
+            report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
             if settings['include_incomplete_reports'] == True:
                 report_row['ErrorMessage'] = reportID_summary_row['ErrorMessage'].values[0]
             elif reportID_summary_row['Complete'].values[0] == False:
