@@ -115,16 +115,11 @@ class Searcher:
             # Check the theme group ranges        
             theme_groups = Themes.ThemeReader(self.input_dir).get_groups()
 
-            inside_theme_range = True
-
             for group in theme_groups:
-                group_themes = group['themes']
-                group_themes_weighting = [theme_weighting[theme] for theme in group_themes]
-
                 min = theme_group_ranges[group['title']][0]
                 max = theme_group_ranges[group['title']][1]
 
-                any_in_range = any([min <= theme_weighting[theme] <= max for theme in group_themes])
+                any_in_range = any([min <= theme_weighting[theme] <= max for theme in group['themes']])
 
                 if not any_in_range:
                     inside_theme_range = False
