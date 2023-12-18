@@ -115,11 +115,11 @@ def get_safety_issues():
 
     return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
 
-@app.route('/get_theme_titles', methods=['GET'])
-def get_theme_titles():
-    titles = Themes.ThemeReader(search.Searcher().input_dir).get_theme_titles()
+@app.route('/get_theme_groups', methods=['GET'])
+def get_theme_groups():
+    titles = Themes.ThemeReader(search.Searcher().input_dir).get_groups()
 
-    return jsonify({'theme_titles': titles})
+    return jsonify({'themeGroups': titles})
 
 def run():
     parser = argparse.ArgumentParser()

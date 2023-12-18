@@ -129,7 +129,7 @@ input[type="submit"]:hover {
     gap: 20px;
     order: 2;
     align-items: center;
-    height: 0;
+    height: auto;
     overflow: hidden;
     transition: height 0.5s ease;
     background-color: #d6d6d6c5;
@@ -138,8 +138,19 @@ input[type="submit"]:hover {
     justify-content: space-evenly;
 }
 
-#themeSliders.expanded {
-    height: auto;
+
+.showIndividualThemeSlidersBtn {
+    margin-top: 20px;
+}
+
+.theme-group {
+    border-style: dotted;
+    padding: 15px;
+    display: grid;
+}
+
+.indivudalThemeSliders {
+    display: none
 }
 
 .slider-label {
