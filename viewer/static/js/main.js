@@ -42,7 +42,6 @@ $(document).ready(function() {
 });
 
 $(document).on('click', '.showIndividualThemeSlidersBtn', function() {
-    $(this).siblings('.slider-wrapper').toggle();
     $(this).siblings('.indivudalThemeSliders').toggle();
 
     if ($(this).text() == 'Expand to individual themes') {
