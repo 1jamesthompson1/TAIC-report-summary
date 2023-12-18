@@ -23,9 +23,6 @@ $(document).ready(function() {
         }
     });
     
-    $('#expandThemeSlidersBtn').click(function() {
-        $('#themeSliders').toggleClass('expanded');
-    });
 
 
     $(function() {
@@ -42,7 +39,17 @@ $(document).ready(function() {
             createThemeSliders();
         });
     });
-        
+});
+
+$(document).on('click', '.showIndividualThemeSlidersBtn', function() {
+    $(this).siblings('.indivudalThemeSliders').toggle();
+
+    if ($(this).text() == 'Expand to individual themes') {
+        $(this).text('Collapse to theme group');
+    }
+    else {
+        $(this).text('Expand to individual themes');
+    }
 });
 
 function createYearSlider() {
@@ -77,24 +84,19 @@ function createYearSlider() {
 }
 
 function createThemeSliders() {
-    $.get('/get_theme_titles', (data) => {
-        const themeTitles = data.theme_titles;
+    $.get('/get_theme_groups', (data) => {
+        const themeGroups = data.themeGroups;
         const $themeSliders = $('#themeSliders');
     
         // Create a range slider for each theme title
-        themeTitles.forEach((title) => {
-            const $label = $('<label>').text(title).addClass('slider-label');
+        themeGroups.forEach((group) => {
+            const $groupDiv = $('<div>').addClass('theme-group');
+            const $groupLabel = $('<label>').text(group.title).addClass('theme-group-label');
 
-            const $div = $('<div>').attr({ id: `theme-${title}` }).addClass('slider');
-            const $sliderWrapper = $('<div>').addClass('slider-wrapper');
+            // Add overall group slider
+            const $div = $('<div>').attr({ id: `theme-group-slider-${group.title}` }).addClass('slider');
+            const $sliderWrapper = $('<div>').addClass('slider-wrapper theme-group-slider-wrapper');
 
-            const $minInput = $('<input>').attr({ type: 'hidden', name: `theme-${title}-min` });
-            const $maxInput = $('<input>').attr({ type: 'hidden', name: `theme-${title}-max` });
-    
-            $sliderWrapper.append($label, $div, $minInput, $maxInput);
-            $themeSliders.append($sliderWrapper);
-    
-            // Initialize the range slider
             $div.slider({
                 range: true,
                 min: 0,
@@ -117,11 +119,65 @@ function createThemeSliders() {
                     $maxInput.val(ui.values[1]);
                 }
             });
-            
-            // Set text and hidden input to default value
+
+            const $minInput = $('<input>').attr({ type: 'hidden', name: `theme-group-${group.title}-min` });
+            const $maxInput = $('<input>').attr({ type: 'hidden', name: `theme-group-${group.title}-max` });
+
             $minInput.val($div.slider('values', 0));
             $maxInput.val($div.slider('values', 1));
+            $sliderWrapper.append($div, $minInput, $maxInput);
+            $groupDiv.append($groupLabel, $sliderWrapper);
 
+            const $themeSlidersDiv = $('<div>').addClass('indivudalThemeSliders')
+
+            const $expandButton = $('<button>').addClass('showIndividualThemeSlidersBtn').text('Expand to individual themes').attr({ type: 'button' });
+
+            group.themes.forEach((title) => {
+                const $label = $('<label>').text(title).addClass('slider-label');
+
+
+                const $div = $('<div>').attr({ id: `theme-${title}` }).addClass('slider');
+                const $sliderWrapper = $('<div>').addClass('slider-wrapper');
+
+                const $minInput = $('<input>').attr({ type: 'hidden', name: `theme-${title}-min` });
+                const $maxInput = $('<input>').attr({ type: 'hidden', name: `theme-${title}-max` });
+        
+                $sliderWrapper.append($label, $div, $minInput, $maxInput);
+                $themeSlidersDiv.append($sliderWrapper);
+
+        
+                // Initialize the range slider
+                $div.slider({
+                    range: true,
+                    min: 0,
+                    max: 100,
+                    values: [0, 100],
+                    create: function() {
+                        // Add divs to the handles
+                        $(this).children('.ui-slider-handle').each(function(i) {
+                            $(this).append($('<div>').addClass('handle-value').text($div.slider('values', i)));
+                        });
+                    },
+                    slide: function(_, ui) {
+                        // Update the text of the handle divs
+                        $(this).children('.ui-slider-handle').each(function(i) {
+                            $(this).children('.handle-value').text(ui.values[i]);
+                        });
+                
+                        // Update the hidden inputs with the slider values
+                        $minInput.val(ui.values[0]);
+                        $maxInput.val(ui.values[1]);
+                    }
+                });
+                
+                // Set text and hidden input to default value
+                $minInput.val($div.slider('values', 0));
+                $maxInput.val($div.slider('values', 1));
+
+            });
+
+            $groupDiv.append($expandButton,$themeSlidersDiv);
+            $themeSliders.append($groupDiv);
         });
     });
 }

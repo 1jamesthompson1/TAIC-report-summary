@@ -18,7 +18,7 @@ class ThemeReader(ThemeFile):
     def __init__(self, output_path: str = None, use_predefined: bool = False, modes = Modes.all_modes):
         super().__init__(output_path, use_predefined)
         self._modes = modes
-        self._themes = self._get_themes()
+        self._themes,self._groups = self._read_theme_file()
 
     def get_num_themes(self, modes = None) -> int:
         if modes is None:
@@ -43,17 +43,22 @@ class ThemeReader(ThemeFile):
         if modes is None:
             modes = self._modes
         return [theme["title"] for theme in ThemeReader._filter_themes(self._themes, modes)]
+    
+    def get_groups(self) -> dict:
+        return self._groups
 
-    def _get_themes(self) -> dict:
+    def _read_theme_file(self) -> dict:
         if not os.path.exists(self._file_path):
             print(f"Cant read themes as {self._file_path} doesnt exist")
             return None
         themes_file = yaml.safe_load(open(self._file_path, 'r'))
         themes = themes_file['themes']
+        groups = themes_file['groups']
 
         # Filter out themes that are not in the modes
         themes = ThemeReader._filter_themes(themes, self._modes)
-        return themes
+        return themes, groups
+    
     
     def _filter_themes(themes, modes):
         if not isinstance(modes, list):

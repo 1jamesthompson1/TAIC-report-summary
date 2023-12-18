@@ -25,16 +25,35 @@ def get_search(form):
     }
 
     # Theme ranges
-    slider_values = list(map(lambda tuple: (tuple[0][6:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-'), form.items())))
+    theme_slider_values = list(map(lambda tuple: (tuple[0][6:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-'), form.items())))
 
-    slider_values_dict = dict()
-    for theme, value in slider_values:
+    theme_slider_values_dict = dict()
+    for theme, value in theme_slider_values:
         theme_stripped = theme[:-4]
         if_min = theme.endswith('-min')
         if if_min:
-            slider_values_dict[theme_stripped] = (int(value), slider_values_dict.get(theme_stripped, (None, None))[1])
+            theme_slider_values_dict[theme_stripped] = (int(value), theme_slider_values_dict.get(theme_stripped, (None, None))[1])
         else:
-            slider_values_dict[theme_stripped] = (slider_values_dict.get(theme_stripped, (None, None))[0], int(value))
+            theme_slider_values_dict[theme_stripped] = (theme_slider_values_dict.get(theme_stripped, (None, None))[0], int(value))
+
+    # Theme group ranges
+    theme_group_slider_values = list(map(lambda tuple: (tuple[0][12:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-group-'), form.items())))
+
+    theme_group_slider_values_dict = dict()
+
+    for theme_group, value in theme_group_slider_values:
+        theme_group_stripped = theme_group[:-4]
+        if_min = theme_group.endswith('-min')
+        if if_min:
+            theme_group_slider_values_dict[theme_group_stripped] = (
+                int(value),
+                theme_group_slider_values_dict.get(theme_group_stripped, (None, None))[1])
+        else:
+            theme_group_slider_values_dict[theme_group_stripped] = (
+                theme_group_slider_values_dict.get(theme_group_stripped, (None, None))[0],
+                int(value))
+            
+    print(theme_group_slider_values_dict)
 
     # Modes
     modes_list = list()
@@ -49,14 +68,12 @@ def get_search(form):
     # Year
     year_range = int(form.get('yearSlider-min')), int(form.get('yearSlider-max'))
 
-    return search_query, settings, slider_values_dict, modes_list, year_range
+    return search_query, settings, theme_slider_values_dict, theme_group_slider_values_dict, modes_list, year_range
 
 @app.route('/search', methods=['POST'])
-def search_reports():
-    search_query, settings, theme_ranges, theme_modes, year_range = get_search(request.form)
-    
+def search_reports():    
     searcher = search.Searcher()
-    results = searcher.search(search_query, settings, theme_ranges, theme_modes, year_range)
+    results = searcher.search(*get_search(request.form))
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})
@@ -115,11 +132,11 @@ def get_safety_issues():
 
     return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
 
-@app.route('/get_theme_titles', methods=['GET'])
-def get_theme_titles():
-    titles = Themes.ThemeReader(search.Searcher().input_dir).get_theme_titles()
+@app.route('/get_theme_groups', methods=['GET'])
+def get_theme_groups():
+    titles = Themes.ThemeReader(search.Searcher().input_dir).get_groups()
 
-    return jsonify({'theme_titles': titles})
+    return jsonify({'themeGroups': titles})
 
 def run():
     parser = argparse.ArgumentParser()
