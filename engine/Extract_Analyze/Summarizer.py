@@ -65,6 +65,8 @@ The hazards had been indentified in the past and ignored ("4.5")
 
         zipped_themes_titles = [item for sublist in zip(themes_name, themes_names_explanation, themes_names_std) for item in sublist]
 
+        zipped_themes_titles.extend(["Other_weighting", "Other_explanation", "Other_std"])
+
         ending = ["Complete", "ErrorMessage"]
 
         if os.path.exists(self.overall_summary_path) and not self.discard_old:
@@ -135,16 +137,16 @@ issues.
     def summarize_report(self, report_id, report_text):
         print(f'Summarizing {report_id}')
 
-        ## Check if it has already been summarized
-        if not self.discard_old:
-            report_folder_path = os.path.join(self.output_folder,
+        report_folder_path = os.path.join(self.output_folder,
                                                 self.report_dir.replace(r'{{report_id}}', report_id))
         
-            report_weightings_path = os.path.join(report_folder_path,
+        report_weightings_path = os.path.join(report_folder_path,
                                             self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
-            if os.path.exists(report_weightings_path):
-                print(f"  Skipping {report_id} as it has already been summarized")
-                return
+
+        ## Check if it has already been summarized
+        if not self.discard_old and os.path.exists(report_weightings_path):
+            print(f"  Skipping {report_id} as it has already been summarized")
+            return
 
 
         # Get the pages that should be read
@@ -153,13 +155,6 @@ issues.
             print(f'  Could not extract text to be summarized from {report_id}')
             summary_str = report_id + "," + "Error" + "," + "N/A" + ",false" + ",Could not extract text to summarize report with" + "\n"
             return
-        
-        
-        report_folder_path = os.path.join(self.output_folder,
-                                                self.report_dir.replace(r'{{report_id}}', report_id))
-        
-        report_weightings_path = os.path.join(report_folder_path,
-                                            self.report_weightings_file_name.replace(r'{{report_id}}', report_id))
 
         summary = self.summarize_text(text_to_be_summarized, Modes.get_report_mode_from_id(report_id))
         
@@ -301,7 +296,7 @@ issues.
                 print(f"  Did not get enough valid responses. Retrying. \n  Responses were: {responses}")
                 continue
 
-            zipped_data = [str(item) for sublist in zip(scaled_averages[:-1], explanations[0][:-1], weighting_std[:-1]) for item in sublist]
+            zipped_data = [str(item) for sublist in zip(scaled_averages, explanations[0], weighting_std) for item in sublist]
 
             print("  The weightings are: " + str(list(scaled_averages)))
             break

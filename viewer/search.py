@@ -128,6 +128,9 @@ class Searcher:
             if not inside_theme_range and not inside_theme_range:
                 continue
 
+            # Add other weighting
+            report_row['Other'] = reportID_summary_row['Other_weighting'].values[0]
+
             report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
             report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
             if settings['include_incomplete_reports'] == True:
