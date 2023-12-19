@@ -8,31 +8,11 @@ $(document).ready(function() {
         $.post('/search', $('form').serialize(), function(data) {
             // Update the results placeholder with the received HTML table
             updateResults(data.html_table);
-            $('#downloadResults').show();
             // Hide the loading sign after results are loaded
             $('#loading').hide();
             
         });
     });
-
-    $('#downloadResults').click(function() {
-        var formData = $('form').serialize();
-        // Create a temporary form and submit it
-        var form = $('<form>', {
-            action: '/get_results_summary_report',
-            method: 'post'
-        });
-        $.each(formData.split('&'), function(i, v) {
-            var parts = v.split('=');
-            form.append($('<input>', {
-                type: 'hidden',
-                name: decodeURIComponent(parts[0]),
-                value: decodeURIComponent(parts[1])
-            }));
-        });
-        form.appendTo('body').submit().remove();
-    });
-
     $('#advancedSearchBtn').click(function() {
         $('#resetBtn').toggle();
         $('#advancedSearch').toggleClass('expanded')
@@ -203,19 +183,20 @@ function createThemeSliders() {
 }
 
 function updateResults(htmlTable) {
-    $('#searchResultsTableWrapper').html(htmlTable);
-    $('#dataTable').DataTable({
+    document.getElementById('searchResults').innerHTML = htmlTable;
+    $('#dataTable').DataTable( {
         autoWidth: false,
         fixedColumns: true,
         fixedHeader: true,
         paging: false,
         searching: false,
-        order: [1, 'desc'],
-        columnDefs: [
-            { targets: 2, orderable: false }
+        "order": [ 1, 'dsc' ],
+        "columnDefs": [ 
+            { "targets": 2, "orderable": false},
         ]
-    });
+    } );
 }
+
 // -----   Popups on results table ----- //
 
 

@@ -22,7 +22,6 @@ regex = "^2023.8.8"
 pytest = "^7.4.3"
 pytest-xdist = "^3.5.0"
 openai = "^1.4.0"
-reportlab = "^4.0.8"
 
 [tool.poetry.group.viewer.dependencies]
 jinja2 = "^3.1.2"

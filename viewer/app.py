@@ -1,29 +1,20 @@
-from flask import Flask, render_template, request, jsonify, send_file
+from flask import Flask, render_template, request, jsonify
 from urllib.parse import parse_qs
 import json
 import os
 import argparse
-from . import search, ReportCreation
+from . import search  # Assuming this is your custom module for searching
 
 import engine.Extract_Analyze.Themes as Themes
 import engine.Modes as Modes
 
 app = Flask(__name__)
 
-def parseFormSerial(form_serial):
-    form_data = parse_qs(form_serial)
-    form_data = {k: v[0] for k, v in form_data.items()}
-
-    return form_data
-
 @app.route('/')
 def index():
     return render_template('index.html')
 
 def get_search(form):
-    if form is None or len(form) == 0:
-        print("No form data")
-
     search_query = form.get('searchQuery')
     settings = {
         'use_synonyms': form.get('useSynonyms') == "on",
@@ -103,7 +94,10 @@ def search_reports():
 
 @app.route('/get_report_text', methods=['GET'])
 def get_report_text():
-    form_data = parseFormSerial(request.args.get('form'))
+    form_serial = request.args.get('form')
+
+    form_data = parse_qs(form_serial)
+    form_data = {k: v[0] for k, v in form_data.items()}
 
     search_query, settings, _, _, _, _ = get_search(form_data)
     report_id = request.args.get('report_id')
@@ -143,15 +137,6 @@ def get_theme_groups():
     titles = Themes.ThemeReader(search.Searcher().input_dir).get_groups()
 
     return jsonify({'themeGroups': titles})
-
-@app.route('/get_results_summary_report', methods=['POST'])
-def get_results_summary_report():
-    form_data = request.form
-
-    search_results = search.Searcher().search(*get_search(form_data))
-    generated_report = ReportCreation.ReportGenerator(search_results).generate()
-
-    return send_file(generated_report, download_name='report.pdf')
 
 def run():
     parser = argparse.ArgumentParser()
