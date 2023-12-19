@@ -1,62 +1,48 @@
 - name: Human Factors - Fatigue and Alertness
   percentage: 0
-  explanation: 'There is no mention of fatigue or alertness issues affecting the pilot''s performance in the provided document.
-
-    '
-- name: Communication and Crew Resource Management
-  percentage: 0
-  explanation: 'The document does not indicate any issues with communication or crew resource management contributing to the accident.
-
-    '
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 10
-  explanation: The pilot's training and preparedness for emergency procedures were relevant, as he was able to perform an autorotative descent and ditch the helicopter successfully, indicating some level of preparedness. However, the pilot experienced disorientation before escaping from the inverted and submerged helicopter, which might have been lessened had he undertaken a course in helicopter underwater escape training (4.3.6).
-- name: Maintenance Procedures and Compliance
-  percentage: 20
-  explanation: While no technical reason was found for the reported engine speed decrease (5.2), there were discrepancies and inconsistencies in maintenance control procedures that did not meet the standards required by Civil Aviation Rules (4.2.14). This suggests that maintenance procedures and compliance could have been a contributing factor, although not directly linked to the accident.
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'There is no mention of fire detection or suppression systems being a factor in the accident.
-
-    '
-- name: Regulatory Compliance and Safety Management
-  percentage: 10
-  explanation: The pilot operated over water without having a life jacket on board, contrary to Civil Aviation Rules (5.3). This non-compliance with regulations reduced his chances of survival and indicates a lapse in safety management.
+  explanation: There is no mention of the pilot's physical or mental state, fatigue, or alertness as contributing factors in the report. The pilot's actions during the emergency were appropriate and there was no evidence of fatigue-related errors (4.2.1-4.2.6).
 - name: Situational Awareness
   percentage: 0
-  explanation: 'The document does not provide evidence that situational awareness was a contributing factor to the accident.
-
-    '
-- name: Equipment Design and Specifications
-  percentage: 0
-  explanation: 'There is no indication that equipment design and specifications played a role in the accident.
-
-    '
-- name: Risk Assessment and Management
-  percentage: 10
-  explanation: The pilot's decision to fly without arranging flight-following and without a life jacket indicates a lack of risk assessment and management, which could have contributed to the severity of the situation post-accident (4.3.1, 4.3.2).
-- name: Emergency Response Planning and Coordination
-  percentage: 10
-  explanation: The lack of a flight plan or arranged flight-following, and the absence of an emergency radio call due to the pilot's limited time and capacity, suggest that emergency response planning and coordination were not adequately addressed (4.3.2).
+  explanation: The pilot maintained situational awareness by taking immediate action upon hearing a noise and observing the N2 decrease, and by executing an autorotative descent and ditching maneuver (4.2.1, 4.2.4).
 - name: Distracted Operation
   percentage: 0
-  explanation: 'There is no evidence in the document that the pilot was distracted during the operation of the helicopter.
-
-    '
-- name: Structural Integrity and Material Fatigue
-  percentage: 0
-  explanation: 'The document does not suggest that structural integrity or material fatigue were factors in the accident.
-
-    '
+  explanation: There is no indication in the report that the pilot was distracted or that distracted operation played a role in the accident (4.1.1-4.2.6).
 - name: Human Error and Error Management
   percentage: 0
-  explanation: There was no evidence that any act or omission of the pilot contributed to the loss of engine performance (5.1), indicating that human error was not a contributing factor.
+  explanation: The report explicitly states that there was no evidence that any act or omission of the pilot contributed to the loss of engine performance (5.1).
 - name: Safety Culture and Organizational Influences
+  percentage: 10
+  explanation: The report mentions discrepancies and inconsistencies in maintenance records, indicating that some past maintenance control procedures did not meet the standards required by Civil Aviation Rules (4.2.14). This suggests organizational influences and safety culture may have played a role.
+- name: Communication and Crew Resource Management
+  percentage: 0
+  explanation: The report does not indicate any issues with communication or crew resource management as factors in the accident. The pilot was operating the helicopter alone, so crew resource management is not applicable (4.1.1-4.2.6).
+- name: Training and Preparedness for Emergency Procedures
+  percentage: 5
+  explanation: The pilot's training for emergency procedures is not directly mentioned as a contributing factor, but the report suggests that helicopter underwater escape training might have lessened disorientation during the escape (4.3.6).
+- name: Emergency Response Planning and Coordination
+  percentage: 5
+  explanation: The lack of flight-following and the absence of a life jacket on board indicate gaps in emergency response planning (4.3.1, 4.3.2, 4.3.3).
+- name: Maintenance Procedures and Compliance
   percentage: 20
-  explanation: The logbook discrepancies and maintenance control procedures not meeting Civil Aviation Rules standards (4.2.14) suggest issues with the safety culture and organizational influences within the maintenance operations.
+  explanation: The report discusses the possibility of maintenance-related issues, such as the condition of the pneumatic lines and the fuel control unit, although no definitive technical reason for the engine speed decrease was found (4.2.7-4.2.13).
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: There was no fire reported in the incident, so fire detection and suppression systems are not relevant to this accident (4.1.1-4.2.14).
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: The pilot operated over water without a life jacket on board, which is contrary to Civil Aviation Rules, indicating a lack of regulatory compliance (5.3).
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: There is no information in the report suggesting that the design and specifications of the helicopter or its equipment contributed to the accident (4.1.1-4.2.14).
+- name: Risk Assessment and Management
+  percentage: 0
+  explanation: The report does not provide information on risk assessment and management practices that could have contributed to the accident (4.1.1-4.2.14).
 - name: Weather Information Dissemination and Interpretation
   percentage: 0
-  explanation: Weather was not considered a factor in the accident as the weather was acceptable for the nature of the flight (4.1.2).
+  explanation: Weather was not a factor in the accident, as the weather was acceptable for the nature of the flight (4.1.2).
+- name: Structural Integrity and Material Fatigue
+  percentage: 0
+  explanation: There is no mention of structural integrity or material fatigue issues contributing to the accident. The helicopter was able to ditch successfully without significant fuselage damage (4.2.4).
 - name: Other
-  percentage: 20
-  explanation: The "Other" category is assigned to the undetermined cause of the reported engine N2 reduction (4.4.1). Since the exact cause of the power loss was not identified, it is necessary to allocate a percentage to account for this unknown factor.
+  percentage: 50
+  explanation: '"Other" encompasses the unidentified cause of the engine N2 reduction, as the report concludes that the cause of the reported engine N2 reduction was not determined (4.4.1). This represents a significant unknown factor in the accident.'

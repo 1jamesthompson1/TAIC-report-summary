@@ -1,66 +1,64 @@
 - name: Human Factors - Fatigue and Alertness
   percentage: 0
-  explanation: 'There is no mention of fatigue or alertness issues contributing to the accident in the provided document. Therefore, this theme is assigned a 0% weighting.
+  explanation: 'There is no mention of fatigue or alertness issues contributing to the accident in the provided document. The report does not discuss the physical or mental state of the operators as a factor in the incident.
 
     '
-- name: Communication and Crew Resource Management
-  percentage: 30
-  explanation: The report highlights significant issues with communication and crew resource management. "The bridge audio recording from the voyage data recorder revealed little effective communication between the master and the navigation officer" (4.3.4). Additionally, "there was no agreement of a plan and nothing in the way of expectations from the master to the navigation officer and nothing in return from her" (4.3.4). This lack of effective communication and resource management was a contributing factor to the accident.
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 0
-  explanation: 'The document does not provide information suggesting that a lack of training or preparedness for emergency procedures contributed to the accident. Therefore, this theme is assigned a 0% weighting.
-
-    '
-- name: Maintenance Procedures and Compliance
-  percentage: 0
-  explanation: There is no evidence in the document that maintenance procedures and compliance were factors in the accident. The vessel had up-to-date paper and electronic charts (4.1.1). Therefore, this theme is assigned a 0% weighting.
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'Fire detection and suppression systems are not mentioned as contributing factors in the accident report. Therefore, this theme is assigned a 0% weighting.
-
-    '
-- name: Regulatory Compliance and Safety Management
-  percentage: 10
-  explanation: The report indicates that the vessel "was not permitted to operate L'Austral within 300 m of the shoreline under the conditions of its coastal permit" (4.2.5), and yet it did so. This breach of regulatory compliance indicates a safety management issue, contributing to the accident.
 - name: Situational Awareness
-  percentage: 25
-  explanation: The master's loss of situational awareness was a significant contributing factor. "The master was very likely focused on the recovery of the RHIBs, he did not notice that the ship had moved so far to the west, entered this area and made contact with the uncharted rock" (4.2.4). This lack of situational awareness directly led to the vessel entering an area it was meant to avoid and making contact with the rock.
-- name: Equipment Design and Specifications
-  percentage: 0
-  explanation: 'There is no indication in the document that equipment design and specifications were deficient or contributed to the accident. Therefore, this theme is assigned a 0% weighting.
-
-    '
-- name: Risk Assessment and Management
-  percentage: 15
-  explanation: The Department of Conservation did not conduct a formal risk assessment with appropriate maritime expertise when granting the coastal permit (4.5.4), and the vessel's ECDIS was not used to its full potential to manage navigation risks (4.4.19). These shortcomings in risk assessment and management contributed to the accident.
-- name: Emergency Response Planning and Coordination
-  percentage: 0
-  explanation: 'The document does not discuss emergency response planning and coordination as factors in the accident. Therefore, this theme is assigned a 0% weighting.
-
-    '
+  percentage: 30
+  explanation: The master of L'Austral lost situational awareness, which was a significant contributing factor to the accident. "The master succumbed to the normal human tendency to become focused on the task at hand and he lost awareness of the bigger picture, specifically where his ship was in relation to navigational hazards" (4.3.8). Additionally, "the master was focused on three activities" to the detriment of maintaining situational awareness (4.3.5).
 - name: Distracted Operation
   percentage: 0
-  explanation: 'There is no mention of the master or crew being engaged in non-essential activities that could have distracted them from operating the vessel. Therefore, this theme is assigned a 0% weighting.
-
-    '
-- name: Structural Integrity and Material Fatigue
-  percentage: 0
-  explanation: 'Structural integrity and material fatigue are not cited as factors in the accident. The contact was with an uncharted rock, not due to a failure of the vessel''s structure. Therefore, this theme is assigned a 0% weighting.
+  explanation: 'There is no evidence in the document that the master or crew were engaged in non-essential activities that could be classified as distractions leading to the accident.
 
     '
 - name: Human Error and Error Management
   percentage: 20
-  explanation: Human error played a significant role in the accident. The master's decision-making and the navigation officer's monitoring were flawed, as "there was no briefing from the master, the navigation officer had no clear understanding of where the master planned to position the vessel" (4.3.6). This lack of error management contributed to the accident.
+  explanation: Human error played a role in the accident, as the master did not notice the ship had moved into an area to be avoided and made contact with an uncharted rock (4.2.4). Error management was also lacking, as there was no agreed plan or effective communication on the bridge to detect and remedy errors (4.3.1, 4.3.4).
 - name: Safety Culture and Organizational Influences
+  percentage: 10
+  explanation: The operator's safety management system did not ensure that the voyage planning and bridge resource management met IMO standards (4.3), and the ECDIS operation did not meet good practice (4.4). These organizational influences affected the safety culture and contributed to the accident.
+- name: Communication and Crew Resource Management
+  percentage: 15
+  explanation: The lack of effective communication and crew resource management on the bridge was a contributing factor. "There was no agreement of a plan and nothing in the way of expectations from the master to the navigation officer and nothing in return from her" (4.3.4). This led to a situation where the bridge team members were reluctant to intervene with the actions of the master (4.3.7).
+- name: Training and Preparedness for Emergency Procedures
   percentage: 0
-  explanation: 'While the report does mention issues with bridge resource management and the operator''s understanding of ECDIS capabilities, there is no direct mention of organizational culture as a contributing factor. Therefore, this theme is assigned a 0% weighting.
+  explanation: 'The document does not provide information suggesting that a lack of training or preparedness for emergency procedures contributed to the accident.
 
     '
+- name: Emergency Response Planning and Coordination
+  percentage: 0
+  explanation: 'There is no mention of emergency response planning and coordination issues contributing to the accident in the provided document.
+
+    '
+- name: Maintenance Procedures and Compliance
+  percentage: 0
+  explanation: 'The document does not indicate that maintenance procedures or compliance issues were a factor in the accident.
+
+    '
+- name: Fire Detection and Suppression Systems
+  percentage: 0
+  explanation: 'Fire detection and suppression systems are not relevant to the nature of this accident, as there was no fire involved.
+
+    '
+- name: Regulatory Compliance and Safety Management
+  percentage: 10
+  explanation: Regulatory compliance and safety management were issues, as the operator's system for providing and managing the ECDIS did not meet IMO standards (4.4.7, 4.4.19), and the Department of Conservation granted a coastal permit without conducting a formal risk assessment (4.5.4, 4.5.9).
+- name: Equipment Design and Specifications
+  percentage: 0
+  explanation: 'There is no indication that the design and specifications of the ship''s equipment contributed to the accident.
+
+    '
+- name: Risk Assessment and Management
+  percentage: 15
+  explanation: The lack of a formal risk assessment by the Department of Conservation when granting the coastal permit (4.5.4, 4.5.9) and the absence of an agreed plan for the vessel's positioning (4.3.3) indicate shortcomings in risk assessment and management.
 - name: Weather Information Dissemination and Interpretation
   percentage: 0
-  explanation: Weather conditions were suitable for the operations being conducted, and there is no indication that weather information played a role in the accident (4.1.1). Therefore, this theme is assigned a 0% weighting.
-- name: Other
+  explanation: Weather conditions were suitable and did not contribute to the accident, so this theme is not applicable (4.1.1).
+- name: Structural Integrity and Material Fatigue
   percentage: 0
-  explanation: 'There are no additional safety themes identified in the document that contributed to the accident outside of those predefined. Therefore, this theme is assigned a 0% weighting.
+  explanation: 'The accident was not related to structural integrity or material fatigue, as it was caused by contact with an uncharted rock.
 
     '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.
