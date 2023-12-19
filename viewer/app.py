@@ -99,7 +99,7 @@ def get_report_text():
     form_data = parse_qs(form_serial)
     form_data = {k: v[0] for k, v in form_data.items()}
 
-    search_query, settings, _, _, _ = get_search(form_data)
+    search_query, settings, _, _, _, _ = get_search(form_data)
     report_id = request.args.get('report_id')
 
     searcher = search.Searcher()
