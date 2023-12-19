@@ -55,3 +55,9 @@
 .match-highlight {
     background-color: yellow;
 }
+
+#downloadResults {
+    display: none;
+    border-style: dotted;
+    border-width: 1px;
+}
