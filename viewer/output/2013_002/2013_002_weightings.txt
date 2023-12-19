@@ -1,16 +1,17 @@
-"2013_002","[8  9  10  11  12  13  14  15]","0.0","There is no mention of fatigue or alertness issues affecting the pilot or maintenance personnel in the document. The pilot was found to be ""appropriately qualified and licensed to fly the helicopter on passenger operations"" (4.1.1).
-","0.0","0.0","The document does not indicate any issues with communication or crew resource management contributing to the incident.
-","0.0","0.0","There is no evidence in the document suggesting that a lack of training or preparedness for emergency procedures contributed to the incident. The pilot responded appropriately to the loss of engine power (4.1.1).
-","0.0","70.0","The document indicates that the most likely cause of the engine power loss was a malfunction of the engine's right magneto due to an oil slinger being omitted during a maintenance procedure (5.1). Additionally, the imported second-hand engine and its accessories had not been subjected to the inspections and maintenance required for continued airworthiness before they were released to service (5.2). The standards of maintenance and inspection for the import and eventual release to service of the helicopter engine did not meet the standards of aviation maintenance best practice (4.3.9).
-","0.0","0.0","There is no mention of fire detection or suppression systems being a factor in the incident.
-","0.0","20.0","The document highlights that the regulator's guidelines for inspecting used parts of unknown origin were not well defined, and the company's approved procedures developed from these guidelines were not adequate in this case (5.3). The Civil Aviation guidelines (AC 00-1) for importing aircraft parts from overseas and determining their acceptability had not been followed (4.3.9).
-","0.0","0.0","The document does not suggest that situational awareness was a contributing factor to the incident.
-","0.0","0.0","There is no indication that the design and specifications of the helicopter equipment were at fault. The issue was related to maintenance errors and omissions (4.3.15).
-","0.0","0.0","The document does not discuss risk assessment and management as a contributing factor to the incident.
-","0.0","0.0","There is no evidence in the document to suggest that emergency response planning and coordination were factors in the incident.
-","0.0","0.0","The document does not mention distracted operation as a contributing factor to the incident.
-","0.0","0.0","The document does not indicate that structural integrity or material fatigue played a role in the incident.
-","0.0","10.0","Human error in the form of a maintenance oversight, specifically the omission of an oil slinger during reassembly of the right magneto, was a significant contributing factor to the incident (5.1).
-","0.0","0.0","While the document criticizes the standards of maintenance and inspection and the lack of adherence to guidelines, it does not explicitly discuss safety culture or organizational influences as direct contributing factors to the incident.
-","0.0","0.0","Weather was not mentioned as a factor in the incident.
+"2013_002","[8  9  10  11  12  13  14  15]","0.0","There is no mention of fatigue or alertness issues affecting the pilot's performance in the provided document. The pilot was ""appropriately qualified and licensed to fly the helicopter on passenger operations"" (4.1.1).
+","0.0","0.0","The pilot demonstrated good situational awareness by responding appropriately to the helicopter losing power and entering autorotation towards shallow waters (4.1.1).
+","0.0","0.0","There is no evidence in the document that suggests the pilot was distracted at the time of the incident (4.1.1).
+","0.0","10.0","The omission of the oil slinger during the reassembly of the right magneto is a human error that contributed to the engine power loss (4.2.9).
+","0.0","30.0","The standards of maintenance and inspection for the import and eventual release to service of the helicopter engine did not meet aviation maintenance best practices. The engine's history and lack of appropriate documentation should have led to more rigorous inspections (4.3.9). The company's approved procedures developed from the regulator's guidelines were not adequate (4.3.3).
+","0.0","0.0","There is no indication that communication or crew resource management issues contributed to the incident. The analysis focuses on mechanical and maintenance factors (4.1-4.3).
+","0.0","0.0","The pilot's response to the power loss indicates appropriate training and preparedness for emergency procedures (4.1.1).
+","0.0","0.0","The document does not provide information on emergency response planning and coordination as a contributing factor to the incident (Insufficient information).
+","0.0","50.0","The engine and its accessories had not been subjected to the inspections and maintenance required for continued airworthiness before they were released to service (5.2). Mandatory service bulletins for engine components had not been recorded or carried out (4.3.9).
+","0.0","0.0","Fire detection and suppression systems are not mentioned as factors in the incident (Insufficient information).
+","0.0","10.0","The regulator's guidelines for inspecting used parts of unknown origin were not well defined, and the company's approved procedures were not adequate (5.3).
+","0.0","0.0","There is no indication that the design and specifications of the helicopter equipment were at fault. The issue was related to maintenance errors (4.2.9).
+","0.0","0.0","The document does not discuss risk assessment and management as a contributing factor to the incident (Insufficient information).
+","0.0","0.0","Weather is not mentioned as a factor in the incident (Insufficient information).
+","0.0","0.0","The incident was not caused by structural integrity or material fatigue issues but by a maintenance error (5.1).
+","0.0","0.0","There are no additional safety themes identified in the document that contributed to the accident.
 ","0.0","true","N/A"

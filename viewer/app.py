@@ -84,7 +84,7 @@ def search_reports():
 
     results['SafetyIssues'] = results.apply(lambda row: f'<a href="#" class="safety-issues-link" data-report-id="{row["ReportID"]}">{row["SafetyIssues"]}</a>', axis=1)
 
-    for theme in searcher.themes:
+    for theme in searcher.themes + ["Other"]:
         results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
 
 
@@ -99,7 +99,7 @@ def get_report_text():
     form_data = parse_qs(form_serial)
     form_data = {k: v[0] for k, v in form_data.items()}
 
-    search_query, settings, _, _, _ = get_search(form_data)
+    search_query, settings, _, _, _, _ = get_search(form_data)
     report_id = request.args.get('report_id')
 
     searcher = search.Searcher()

@@ -86,10 +86,6 @@ def cli():
     if not os.path.exists(output_path):
         # Create the directory
         os.makedirs(output_path)
-    elif args.refresh:
-        # Delete the directory and recreate it
-        shutil.rmtree(output_path, ignore_errors=True)
-        os.makedirs(output_path)
 
     if args.calculate_cost:
         get_cost = printout_cost_summary(args.run_type)
