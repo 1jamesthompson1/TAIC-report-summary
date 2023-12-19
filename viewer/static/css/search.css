@@ -27,17 +27,7 @@ form {
 }
 
 
-form button:hover {
-    background-color: #0056b3;
-}
-
-form button {
-    transition: background-color 0.1s ease;
-    border: none;
-    cursor: pointer;
-}
-
-form button, #advancedSearch, form label, form input {
+#advancedSearch, form label, form input {
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
