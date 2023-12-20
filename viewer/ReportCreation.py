@@ -1,4 +1,4 @@
-from jinja2 import Environment, PackageLoader
+from jinja2 import Environment, PackageLoader, BaseLoader
 import weasyprint
 from io import BytesIO
 from datetime import datetime
@@ -16,8 +16,6 @@ class ReportGenerator:
         data = {"date": datetime.today().strftime('%d-%m-%Y'), "search_info": self.generate_string_search()}
         html_out = template.render(data)
 
-        print(html_out)
-
         # Convert the HTML to PDF
         pdf = weasyprint.HTML(string=html_out).write_pdf()
 
@@ -27,31 +25,74 @@ class ReportGenerator:
         return buffer
     
     def generate_string_search(self):
-        # unpack
+        # template 
+
+        template = Environment(loader=BaseLoader()).from_string("""
+<div>
+    <h2>Search Information</h2>
+    <div style="display: flex;">
+    <div style="flex: 1;">
+        <p>Search query: {{search_query}}</p>
+        <h3>Search settings:</h3>
+        {% for setting in settings %}
+            <p>{{ setting.name }}: {{ setting.value }}</p>
+        {% endfor %}
+        <h3>Filters:</h3>
+        {% for filter in filters %}
+            <p>{{ filter.name }}: {{filter.value}}</p>
+        {% endfor %}
+    </div>
+    <div style="flex: 1;">
+        <h3>Theme sliders:</h3>
+        <p>Note that only the sliders that have been changed from their default values are shown.</p>
+        <h4>Group theme sliders:</h4>
+        {% for slider in theme_group_sliders %}
+            <p>{{ slider.name }}: {{ slider.value }}</p>
+        {% endfor %}
+    
+        
+        <h4>Individual theme sliders:</h4>
+        {% for slider in theme_individual_sliders %}
+            <p>{{ slider.name }}: {{ slider.value }}</p>
+        {% endfor %}
+    </div>
+</div>
+""")
+
+        # unpack search
         search_query, settings, theme_slider_values_dict, theme_group_slider_values_dict, modes_list, year_range = self.search
 
-        if search_query == "":
-            search_string = "No search query<br>"
-        else:
-            search_string = f"Search query: {search_query}<br>"
+        search_query = search_query if search_query else "No search query used"
 
-        search_string += f"Settings:<br>"
-        for setting, value in settings.items():
-            search_string += f"\t{setting}: {value}<br>"
 
-        # Only include theme slider values if they are not 0-100
-        if not all([value == (0, 100) for value in theme_slider_values_dict.values()]):
-            search_string += f"Theme slider values:<br>"
-            for theme, value in theme_slider_values_dict.items():
-                search_string += f"\t{theme}: {value}<br>"
-
-        # Only include theme group slider values if they are not 0-100
-        if not all([value == (0, 100) for value in theme_group_slider_values_dict.values()]):
-            search_string += f"Theme group slider values:<br>"
-            for theme_group, value in theme_group_slider_values_dict.items():
-                search_string += f"\t{theme_group}: {value}<br>"
-
-        search_string += f"Modes: {[mode.as_string(mode) for mode in modes_list]}<br>"
-        search_string += f"Year range: {year_range}<br>"
+        # Filters
+        filters = [
+            {'name': "Allowed modes", 'value': [mode.as_string(mode) for mode in modes_list]},
+            {'name': "Year range", 'value': year_range}
+        ]
         
-        return search_string
+        # Settings
+        settings = [
+            {'name': n, 'value': v} for n,v in settings.items()
+        ]
+
+        # Theme sliders process
+        dict_to_filtered_list = lambda dict: list(
+            filter(
+                lambda obj: obj['value'] != (0,100),
+                [{'name': n, 'value': v} for n,v in dict.items()]
+            )
+        )
+
+        # Theme
+        theme_individual_sliders = dict_to_filtered_list(theme_slider_values_dict)
+        theme_group_sliders = dict_to_filtered_list(theme_group_slider_values_dict)
+
+        print(settings)
+        
+        return template.render(settings=settings, 
+                               search_query=search_query,
+                               filters=filters,
+                               theme_individual_sliders=theme_individual_sliders,
+                               theme_group_sliders=theme_group_sliders)
+        

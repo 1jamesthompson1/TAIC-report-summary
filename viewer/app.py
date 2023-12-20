@@ -34,7 +34,9 @@ def get_search(form):
     }
 
     # Theme ranges
-    theme_slider_values = list(map(lambda tuple: (tuple[0][6:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-'), form.items())))
+    theme_slider_values = list(map(
+        lambda tuple: (tuple[0][6:], tuple[1]),
+        filter(lambda tuple: tuple[0].startswith('theme-') and not tuple[0].startswith('theme-group'), form.items())))
 
     theme_slider_values_dict = dict()
     for theme, value in theme_slider_values:
@@ -44,6 +46,8 @@ def get_search(form):
             theme_slider_values_dict[theme_stripped] = (int(value), theme_slider_values_dict.get(theme_stripped, (None, None))[1])
         else:
             theme_slider_values_dict[theme_stripped] = (theme_slider_values_dict.get(theme_stripped, (None, None))[0], int(value))
+
+    print(theme_slider_values_dict)
 
     # Theme group ranges
     theme_group_slider_values = list(map(lambda tuple: (tuple[0][12:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-group-'), form.items())))
