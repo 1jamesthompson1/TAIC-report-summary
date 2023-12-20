@@ -4,9 +4,7 @@
     <title>TAIC Search Result Summary</title>
     <style>
         body { font-family: Helvetica; }
-        h1 { font-size: 24px; }
-        h2 { font-size: 16px; }
-        p { font-size: 12px; }
+        p { font-size: 0.9em; } 
 
         .section { 
             padding: 10px;
@@ -56,12 +54,17 @@
         {{ safety_issues }}
     </div>
     
-    <h2 style="page-break-before: always;" id="appendix">Appendix</h2>
+    <h2 id="appendix">Appendix</h2>
 
     <div class="section">
         <h3 id="search_info">Search Information</h3>
         {{ search_info }}
     </div>
-    
+
+    <div class="section">
+        <h3 id="predefined_themes">Predefined Themes</h3>
+        {{ safety_themes_for_weighting }}
+    </div>
+
 </body>
 </html>

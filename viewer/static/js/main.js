@@ -16,11 +16,14 @@ $(document).ready(function() {
     });
 
     $('#downloadResults').click(function() {
+        $('#loading').show();
+
         var formData = $('form').serialize();
         // Create a temporary form and submit it
         var form = $('<form>', {
             action: '/get_results_summary_report',
-            method: 'post'
+            method: 'post',
+            target: '_blank' // Open in a new tab
         });
         $.each(formData.split('&'), function(i, v) {
             var parts = v.split('=');
@@ -32,6 +35,7 @@ $(document).ready(function() {
         });
         form.appendTo('body').submit().remove();
 
+        $('#loading').hide();
     });
 
     $('#advancedSearchBtn').click(function() {
