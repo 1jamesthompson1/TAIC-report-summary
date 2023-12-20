@@ -8,22 +8,19 @@ $(document).ready(function() {
         $.post('/search', $('form').serialize(), function(data) {
             // Update the results placeholder with the received HTML table
             updateResults(data.html_table);
-            $('#downloadResults').show();
+            $('#searchResultsHeader').show();
             // Hide the loading sign after results are loaded
             $('#loading').hide();
             
         });
     });
 
-    $('#downloadResults').click(function() {
-        $('#loading').show();
-
+    $('#downloadResultsSummary').click(function() {
         var formData = $('form').serialize();
-        // Create a temporary form and submit it
         var form = $('<form>', {
             action: '/get_results_summary_report',
             method: 'post',
-            target: '_blank' // Open in a new tab
+            target: '_blank'
         });
         $.each(formData.split('&'), function(i, v) {
             var parts = v.split('=');
@@ -34,8 +31,23 @@ $(document).ready(function() {
             }));
         });
         form.appendTo('body').submit().remove();
+    });
 
-        $('#loading').hide();
+    $('#downloadResultsCSV').click(function() {
+        var formData = $('form').serialize();
+        var form = $('<form>', {
+            action: '/get_results_as_csv',
+            method: 'post'
+        });
+        $.each(formData.split('&'), function(i, v) {
+            var parts = v.split('=');
+            form.append($('<input>', {
+                type: 'hidden',
+                name: decodeURIComponent(parts[0]),
+                value: decodeURIComponent(parts[1])
+            }));
+        });
+        form.appendTo('body').submit().remove();
     });
 
     $('#advancedSearchBtn').click(function() {

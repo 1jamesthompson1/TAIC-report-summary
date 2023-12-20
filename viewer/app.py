@@ -4,6 +4,7 @@ import json
 import os
 import argparse
 from . import Search, ReportCreation
+import tempfile
 
 import engine.Extract_Analyze.Themes as Themes
 import engine.Modes as Modes
@@ -165,6 +166,21 @@ def get_results_summary_report():
         ).generate()
 
     return send_file(generated_report, download_name='report.pdf')
+
+@app.route('/get_results_as_csv', methods=['POST'])
+def get_results_as_csv():
+    search_data = get_search(request.form)
+
+    search_results = Search.Searcher().search(*search_data)
+
+        # Create a temporary file
+    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+
+    # Write the CSV data to the file
+    search_results.to_csv(temp.name, index=False)
+
+    # Send the file
+    return send_file(temp.name, as_attachment=True, download_name='search_results.csv')
 
 def run():
     parser = argparse.ArgumentParser()

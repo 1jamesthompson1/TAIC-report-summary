@@ -56,8 +56,14 @@
     background-color: yellow;
 }
 
-#downloadResults {
+#searchResultsHeader {
     display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#searchResultsHeader button {
     border-style: dotted;
     border-width: 1px;
 }

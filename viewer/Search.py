@@ -111,6 +111,7 @@ class Searcher:
                     break
 
                 report_row[theme] = round(theme_weighting[theme], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
+                report_row["Complete"+theme+"Reasoning"]  = reportID_summary_row[theme + "_explanation"].values[0]
 
 
             # Check the theme group ranges        
