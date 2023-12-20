@@ -79,14 +79,12 @@ def get_search(form):
 
     return search_query, settings, theme_slider_values_dict, theme_group_slider_values_dict, modes_list, year_range
 
-@app.route('/search', methods=['POST'])
-def search_reports():    
+def format_search_results(results):
     searcher = search.Searcher()
-    results = searcher.search(*get_search(request.form))
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})
-    
+
     results['NoMatches'] = results.apply(lambda row: f'<a href="#" class="no-matches-link" data-report-id="{row["ReportID"]}">{row["NoMatches"]}</a>', axis=1)
 
     results['ThemeSummary'] = results.apply(lambda row: f'<a href="#" class="theme-summary-link" data-report-id="{row["ReportID"]}">{row["ThemeSummary"]}</a>', axis=1)
@@ -100,6 +98,12 @@ def search_reports():
     html_table = results.to_html(classes='table table-bordered table-hover align-middle', table_id="dataTable", justify = "center", index=False, escape=False)
     
     return jsonify({'html_table': html_table})
+
+@app.route('/search', methods=['POST'])
+def search_reports():    
+    results = search.Searcher().search(*get_search(request.form))
+
+    return format_search_results(results)
 
 @app.route('/get_report_text', methods=['GET'])
 def get_report_text():
@@ -146,10 +150,11 @@ def get_theme_groups():
 
 @app.route('/get_results_summary_report', methods=['POST'])
 def get_results_summary_report():
-    form_data = request.form
 
-    search_results = search.Searcher().search(*get_search(form_data))
-    generated_report = ReportCreation.ReportGenerator(search_results).generate()
+    search_data = get_search(request.form)
+
+    search_results = search.Searcher().search(*search_data)
+    generated_report = ReportCreation.ReportGenerator(search_results, search_data).generate()
 
     return send_file(generated_report, download_name='report.pdf')
 

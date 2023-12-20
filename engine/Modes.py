@@ -6,6 +6,17 @@ class Mode(Enum):
     r = 1 # Rail
     m = 2 # Marine
 
+    @classmethod
+    def as_string(cls, mode):
+        if mode == cls.a:
+            return "Aviation"
+        elif mode == cls.r:
+            return "Rail"
+        elif mode == cls.m:
+            return "Marine"
+        else:
+            return None
+
 all_modes = [Mode.a, Mode.r, Mode.m]
 
 def get_report_mode_from_id(report_id: str):
@@ -14,3 +25,4 @@ def get_report_mode_from_id(report_id: str):
         return report_mode
     else:
         return None
+

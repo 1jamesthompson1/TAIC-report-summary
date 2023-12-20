@@ -31,6 +31,7 @@ $(document).ready(function() {
             }));
         });
         form.appendTo('body').submit().remove();
+
     });
 
     $('#advancedSearchBtn').click(function() {
