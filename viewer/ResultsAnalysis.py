@@ -47,6 +47,13 @@ I have a list of safety issues found in each accident investigation report.
 Can you please read all of these and respond with a list of all the unique safety issues identified. Note that each the same safety issue may be written in a slightly differnet way.
 
 For each unique safety issue can you add what reports it is found in.
+
+The format should look like
+
+- description: "abc"
+  reports:
+    - 2019_201
+    - etc
 """
         )
 
@@ -55,5 +62,5 @@ For each unique safety issue can you add what reports it is found in.
         except yaml.YAMLError as exc:
             print(response)
             print(exc)
-            sleep(1)
-            self.analyze_safety_issues
+            time.sleep(1)
+            self.analyze_safety_issues()

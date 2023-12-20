@@ -28,7 +28,7 @@ class ReportGenerator:
             data = {"date": datetime.today().strftime('%d-%m-%Y'),
                     "search_info": self.generate_search_parameter_string(),
                     "general_information": self.generate_general_information(),
-                    "safety_themes_weightings": self.generate_safety_themes_summary(),
+                    "safety_themes": self.generate_safety_themes_summary(),
                     "safety_issues": self.generate_safety_issues_summary()
                     }
         html_out = template.render(data)
@@ -108,20 +108,63 @@ class ReportGenerator:
                                theme_individual_sliders=theme_individual_sliders,
                                theme_group_sliders=theme_group_sliders)
         
-    def generate_safety_issues_summary(self):
+    def generate_safety_themes_summary(self):
         # template 
 
         template = Environment(loader=BaseLoader()).from_string("""
+Each report was compared against {{ num_themes }} to find which safety theme contributed most to an accident.
+                                                                
+<h4>Summary of all safety themes and average weighting for each report:</h4>                                       
+<style>
+.num-summary th {
+    font-size: 0.6em;
+}
+.num-summary td {
+    padding: 0.5em;
+}
+</style>
+<div id="num-summary">{{ num_summary}}</div>
+                                                                
+<h4>Top 5 most common safety themes:</h4>
+{{ common_themes}}
+                                                                
+<h4>Top 5 most impactful safety themes:</h4>
+{{ impactful_themes }}
 """)
+        # Get 5 number summary of each theme column
+        num_summary = self.results_analysis.theme_weightings.describe().loc[['min', '25%', '50%', '75%', 'max']].round(2).T.to_html()
+
+        # Common themes
+        common_themes = self.results_analysis.theme_weightings.map(lambda x: 1 if x > 1 else 0).sum().sort_values(ascending=False).head(5)
+        common_themes_df = common_themes.reset_index()
+        common_themes_df.columns = ['Theme', 'Occurences in accidents']
+        common_themes_html = common_themes_df.to_html(index=False)
+
+        # Impactful themes
+        impactful_themes = self.results_analysis.theme_weightings.mean().sort_values(ascending=False).head(5)
+        impactful_themes_df = impactful_themes.reset_index()
+        impactful_themes_df.columns = ['Theme', 'Average weighting']
+        impactful_themes_html = impactful_themes_df.to_html(index=False)
 
         
-        return template.render()
+
+        return template.render(num_summary=num_summary,
+                               common_themes=common_themes_html,
+                               impactful_themes=impactful_themes_html)
     
 
-    def generate_safety_themes_summary(self):
+    def generate_safety_issues_summary(self):
 
         template = Environment(loader=BaseLoader()).from_string("""
+<em>NOTE: The safety issue extraction is not perfect (see <a href="https://github.com/1jamesthompson1/TAIC-report-summary/issues/101">issue #101</a>) and so the results below may not be accurate.</em>
+                                                                
+<h4>Top ten most common safety issues:</h4>
+{{ safety_issues_summary }}
 """)
+        
+        
+        
+
         
         return template.render()
     
@@ -138,17 +181,13 @@ class ReportGenerator:
         found_modes = set([Modes.Mode.as_string(Modes.get_report_mode_from_id(report_id)) for report_id in self.search_result['ReportID']])
 
         # safety themes
-        top_three_safety_themes = self.results_analysis.theme_weightings.mean(axis=0).sort_values(ascending=False).head(3)
-
-        # Get just hte theme names
-        top_three_safety_themes = "<br>- " + "<br>- ".join(top_three_safety_themes.index.to_list())
-
+        present_themes = self.results_analysis.theme_weightings.map(lambda x: 1 if x > 1 else 0).sum().loc[lambda x: x > 0]
 
         facts = [
             {'name': "Number of reports", 'value': len(self.search_result)},
             {'name': "Found modes", 'value': found_modes},
             {'name': "Number of unqiue safety issues", 'value': len(self.results_analysis.safety_issues)},
-            {'name': "Top three most important safety themes", 'value': top_three_safety_themes},
+            {'name': "Number of Safety themes present", 'value': len(present_themes)},
         ]
         
         return template.render(facts = facts)
