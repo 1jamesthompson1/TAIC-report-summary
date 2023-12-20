@@ -3,7 +3,7 @@ from urllib.parse import parse_qs
 import json
 import os
 import argparse
-from . import search, ReportCreation
+from . import Search, ReportCreation
 
 import engine.Extract_Analyze.Themes as Themes
 import engine.Modes as Modes
@@ -84,10 +84,13 @@ def get_search(form):
     return search_query, settings, theme_slider_values_dict, theme_group_slider_values_dict, modes_list, year_range
 
 def format_search_results(results):
-    searcher = search.Searcher()
+    searcher = Search.Searcher()
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})
+    
+    # Remove extra columns that are not needed
+    results = results.filter(regex='^(?!Complete)')
 
     results['NoMatches'] = results.apply(lambda row: f'<a href="#" class="no-matches-link" data-report-id="{row["ReportID"]}">{row["NoMatches"]}</a>', axis=1)
 
@@ -105,7 +108,7 @@ def format_search_results(results):
 
 @app.route('/search', methods=['POST'])
 def search_reports():    
-    results = search.Searcher().search(*get_search(request.form))
+    results = Search.Searcher().search(*get_search(request.form))
 
     return format_search_results(results)
 
@@ -116,7 +119,7 @@ def get_report_text():
     search_query, settings, _, _, _, _ = get_search(form_data)
     report_id = request.args.get('report_id')
 
-    searcher = search.Searcher()
+    searcher = Search.Searcher()
     highlighted_report_text = searcher.get_highlighted_report_text(report_id, search_query, settings)
 
     return jsonify({'title': report_id, 'main': highlighted_report_text})
@@ -126,7 +129,7 @@ def get_weighting_explanation():
     report_id = request.args.get('report_id')
     theme = request.args.get('theme')
 
-    explanation = search.Searcher().get_weighting_explanation(report_id, theme)
+    explanation = Search.Searcher().get_weighting_explanation(report_id, theme)
 
     return jsonify({'title': f"{theme} for {report_id}", 'main': explanation})
 
@@ -134,7 +137,7 @@ def get_weighting_explanation():
 def get_theme_text():
     report_id = request.args.get('report_id')
 
-    theme_text = search.Searcher().get_theme_text(report_id)
+    theme_text = Search.Searcher().get_theme_text(report_id)
 
     return jsonify({'title': f"Theme summary for {report_id}", 'main': theme_text})
 
@@ -142,13 +145,13 @@ def get_theme_text():
 def get_safety_issues():
     report_id = request.args.get('report_id')
 
-    safety_issues = search.Searcher().get_safety_issues(report_id)
+    safety_issues = Search.Searcher().get_safety_issues(report_id)
 
-    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
+    return jsonify({'title': f"Safety issues for {report_id}", 'main': "<br><br>".join(safety_issues)})
 
 @app.route('/get_theme_groups', methods=['GET'])
 def get_theme_groups():
-    titles = Themes.ThemeReader(search.Searcher().input_dir).get_groups()
+    titles = Themes.ThemeReader(Search.Searcher().input_dir).get_groups()
 
     return jsonify({'themeGroups': titles})
 
@@ -157,8 +160,11 @@ def get_results_summary_report():
 
     search_data = get_search(request.form)
 
-    search_results = search.Searcher().search(*search_data)
-    generated_report = ReportCreation.ReportGenerator(search_results, search_data).generate()
+    search_results = Search.Searcher().search(*search_data)
+    generated_report = ReportCreation.ReportGenerator(
+        search_results,
+        search_data
+        ).generate()
 
     return send_file(generated_report, download_name='report.pdf')
 

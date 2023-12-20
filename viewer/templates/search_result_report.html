@@ -7,11 +7,34 @@
         h1 { font-size: 24px; }
         h2 { font-size: 16px; }
         p { font-size: 12px; }
+
+        .section { padding: 10px; }
     </style>
 </head>
 <body>
     <h1>TAIC Search Result Summary</h1>
     <p>Date: {{ date }}</p>
-    {{ search_info }}
+
+    <div style="border-style: dotted; border-width: 2px;" class="section">
+        <h2>Quick facts</h2>
+        {{ general_information }}
+    </div>
+
+    <div>
+        {{ safety_themes_weightings }}
+    </div>
+    
+
+    <div>
+        {{ safety_issues }}
+    </div>
+    
+    <h2 style="page-break-before: always;">Appendix</h2>
+
+    <div>
+        <h3 name="search_info">Search Information</h3>
+        {{ search_info }}
+    </div>
+    
 </body>
 </html>

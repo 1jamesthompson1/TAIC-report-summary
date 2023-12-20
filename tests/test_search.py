@@ -1,63 +1,63 @@
-import viewer.search as search
+import viewer.Search as Search
 
 
 class TestRegexCreation:
     
     def setup_method(self):
-        self.searcher = search.Searcher()
+        self.searcher = Search.Searcher()
 
     
     def test_basic(self):
         query = "hello"
-        regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         assert regex[0].pattern == r'hello'
 
     def test_basic_exact(self):
         query = '"hello"'
-        regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         assert regex[0].pattern == r'\b(hello)\b'
 
     def test_basic_or_word(self):
         query = "hello OR world"
-        regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         assert regex[0].pattern == r'hello|world'
 
     def test_basic_or_symbol(self):
         query = "hello | world"
-        regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         assert regex[0].pattern == r'hello|world'
 
     def test_basic_exclusion(self):
         query = "hello -world"
-        regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         assert regex[0].pattern == r'hello(?! world)'
 
     def test_prior_exclusion(self):
         query = "-not hello world"
-        regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         assert regex[0].pattern == r'(?<!not )hello world'
 
     def test_basic_wildcard(self):
         query = "hello*"
-        regex = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regex = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         assert regex[0].pattern == r'hello.*'
 
     def test_basic_and(self):
         query = "hello AND world"
-        regexes = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regexes = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         regex_patterns = [regex.pattern for regex in regexes]
         assert regex_patterns == [r'hello', r'world']
 
     def test_and_or_combination(self):
         query = "hello AND world OR goodbye"
-        regexes = search.Searcher.get_regex(search.Search(query, {'use_synonyms': False}))
+        regexes = Search.Searcher.get_regex(Search.Search(query, {'use_synonyms': False}))
         regex_patterns = [regex.pattern for regex in regexes]
         assert regex_patterns == [r'hello', r'world|goodbye']
     
 class TestSearchReport:
 
     def setup_method(self):
-        self.searcher = search.Searcher()
+        self.searcher = Search.Searcher()
 
         self.example_report = """
 This is a boat crash.
@@ -89,11 +89,11 @@ Life jackets are important.
         }
     
     def test_non_search(self):
-        result = self.searcher.search_report(self.example_report, self.example_theme, self.example_reasoning, search.Search("", self.settings))
+        result = self.searcher.search_report(self.example_report, self.example_theme, self.example_reasoning, Search.Search("", self.settings))
         assert result.matches == {}
 
     def test_basic_search(self):
-        result = self.searcher.search_report(self.example_report, self.example_theme, self.example_reasoning, search.Search("boat", self.settings))
+        result = self.searcher.search_report(self.example_report, self.example_theme, self.example_reasoning, Search.Search("boat", self.settings))
         assert result.matches == {
             'report_result': [2],
             'theme_result': [1],
@@ -101,7 +101,7 @@ Life jackets are important.
         }
 
     def test_basic_and_search(self):
-        result = self.searcher.search_report(self.example_report, self.example_theme, self.example_reasoning, search.Search("boat AND drunk", self.settings))
+        result = self.searcher.search_report(self.example_report, self.example_theme, self.example_reasoning, Search.Search("boat AND drunk", self.settings))
         assert result.matches == {
             'report_result': [2,1],
             'theme_result': [1,2],
@@ -111,7 +111,7 @@ Life jackets are important.
 class TestSearchResult:
     
     def test_simple_include(self):
-        result = search.SearchResult({
+        result = Search.SearchResult({
             'report_result': [2],
             'theme_result': [1],
             'weighting_reasoning_result': [1]
@@ -120,7 +120,7 @@ class TestSearchResult:
         assert result.include() == True
     
     def test_simple_exclude(self):
-        result = search.SearchResult({
+        result = Search.SearchResult({
             'report_result': [0],
             'theme_result': [0],
             'weighting_reasoning_result': [0]
@@ -129,7 +129,7 @@ class TestSearchResult:
         assert result.include() == False
 
     def test_and_query_include(self):
-        result = search.SearchResult({
+        result = Search.SearchResult({
             'report_result': [2,1],
             'theme_result': [1,2],
             'weighting_reasoning_result': [0,1]
@@ -138,7 +138,7 @@ class TestSearchResult:
         assert result.include() == True
 
     def test_and_query_exclude(self):
-        result = search.SearchResult({
+        result = Search.SearchResult({
             'report_result': [2,0],
             'theme_result': [1,0],
             'weighting_reasoning_result': [0,0]
@@ -149,7 +149,7 @@ class TestSearchResult:
 class TestHighlighting:
     
     def setup_method(self):
-        self.searcher = search.Searcher()
+        self.searcher = Search.Searcher()
 
         self.example_report = """
 This is a boat crash.
@@ -162,7 +162,7 @@ The driver almost drowned. The driver was not wearing a life jackets.
 """
     
     def test_basic_highlight(self):
-        regexes = search.Searcher.get_regex(search.Search("boat", {'use_synonyms': False}))
+        regexes = Search.Searcher.get_regex(Search.Search("boat", {'use_synonyms': False}))
 
         highlights = self.searcher.highlight_matches(self.example_report, regexes)
 
@@ -177,7 +177,7 @@ It crashed into the bridge because the driver was drunk.
 The driver almost drowned. The driver was not wearing a life jackets.
 """
     def test_no_query_highlight(self):
-        regexes = search.Searcher.get_regex(search.Search("", {'use_synonyms': False}))
+        regexes = Search.Searcher.get_regex(Search.Search("", {'use_synonyms': False}))
 
         highlights = self.searcher.highlight_matches(self.example_report, regexes)
 
@@ -185,7 +185,7 @@ The driver almost drowned. The driver was not wearing a life jackets.
         assert highlights == self.example_report
 
     def test_and_query_highlight(self):
-        regexes = search.Searcher.get_regex(search.Search("boat AND drunk", {'use_synonyms': False}))
+        regexes = Search.Searcher.get_regex(Search.Search("boat AND drunk", {'use_synonyms': False}))
 
         highlights = self.searcher.highlight_matches(self.example_report, regexes)
 
@@ -201,7 +201,7 @@ The driver almost drowned. The driver was not wearing a life jackets.
 """
 
     def test_no_highlighting(self):
-        regexes = search.Searcher.get_regex(search.Search("pizza", {'use_synonyms': False}))
+        regexes = Search.Searcher.get_regex(Search.Search("pizza", {'use_synonyms': False}))
 
         highlights = self.searcher.highlight_matches(self.example_report, regexes)
 
