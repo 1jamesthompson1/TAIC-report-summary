@@ -52,9 +52,11 @@ The format should look like
 
 - description: "abc"
   reports:
-    - 2019_201
+    - "2019_201"
     - etc
-"""
+""",
+large_model=True,
+temp=1
         )
 
         try: 
@@ -64,3 +66,44 @@ The format should look like
             print(exc)
             time.sleep(1)
             self.analyze_safety_issues()
+
+        self.safety_issues_summary = OpenAICaller.openAICaller.query(
+            """
+I want you to help me summarize a list of items I have.
+
+You are to read the given text between the triple quote and repsond to the question at the bottom.
+""",
+f"""
+'''
+{response}
+'''
+
+Question:
+Please read this list of safety issues and provide a summary of the common trends and issues found. THis should be prose and not use any lists.
+
+I would like your answer to be concise and only have about 300 words.
+
+Here are some useful defintions:
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+""",
+large_model=True,
+temp=0
+        )
+        

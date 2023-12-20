@@ -158,15 +158,42 @@ Each report was compared against {{ num_themes }} to find which safety theme con
         template = Environment(loader=BaseLoader()).from_string("""
 <em>NOTE: The safety issue extraction is not perfect (see <a href="https://github.com/1jamesthompson1/TAIC-report-summary/issues/101">issue #101</a>) and so the results below may not be accurate.</em>
                                                                 
-<h4>Top ten most common safety issues:</h4>
-{{ safety_issues_summary }}
+<h4>Top {{ number_of_common_safey_issues }} most common safety issues:</h4>
+<em>NOTE: only showing safety issues that are present in more than one report. Up to 10 safety issues will be shown</em>
+{% for issue in common_safety_issues %}
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 50%;">
+            <p>- {{ issue.description }}</p>
+        </div>
+        <div style="width: 50%;">
+            <p>Present in these reports:</p>
+            <ul>
+            {% for report in issue.reports %}
+                <li>{{ report }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endfor %}
+                                                                
+<h4>Short AI generated summary of safety issues present:</h4>
+<p>{{ safety_issues_summary }}</p>
 """)
         
-        
-        
+        sorted_safety_issues = sorted(self.results_analysis.safety_issues, key=lambda x: len(x['reports']), reverse=True)
 
+        common_safety_issues = list(filter(
+            lambda x: len(x['reports']) > 1,
+            sorted_safety_issues)
+        )[:10]
+
+
+    
         
-        return template.render()
+        return template.render(
+            number_of_common_safey_issues = len(common_safety_issues),
+            common_safety_issues=common_safety_issues,
+            safety_issues_summary=self.results_analysis.safety_issues_summary.replace("\n", "<br>"))
     
     def generate_general_information(self):
         
