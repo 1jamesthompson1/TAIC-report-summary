@@ -101,8 +101,6 @@ class ReportGenerator:
         # Theme
         theme_individual_sliders = dict_to_filtered_list(theme_slider_values_dict)
         theme_group_sliders = dict_to_filtered_list(theme_group_slider_values_dict)
-
-        print(settings)
         
         return template.render(settings=settings, 
                                search_query=search_query,
@@ -136,15 +134,21 @@ class ReportGenerator:
 {% endfor %}
 </div>
 """)    
-        print(len(self.search_result))
         
         found_modes = set([Modes.Mode.as_string(Modes.get_report_mode_from_id(report_id)) for report_id in self.search_result['ReportID']])
+
+        # safety themes
+        top_three_safety_themes = self.results_analysis.theme_weightings.mean(axis=0).sort_values(ascending=False).head(3)
+
+        # Get just hte theme names
+        top_three_safety_themes = "<br>- " + "<br>- ".join(top_three_safety_themes.index.to_list())
+
 
         facts = [
             {'name': "Number of reports", 'value': len(self.search_result)},
             {'name': "Found modes", 'value': found_modes},
             {'name': "Number of unqiue safety issues", 'value': len(self.results_analysis.safety_issues)},
-            {'name': "Top three most important safety themes", 'value': "TODO"},
+            {'name': "Top three most important safety themes", 'value': top_three_safety_themes},
         ]
         
         return template.render(facts = facts)

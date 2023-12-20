@@ -47,7 +47,6 @@ def get_search(form):
         else:
             theme_slider_values_dict[theme_stripped] = (theme_slider_values_dict.get(theme_stripped, (None, None))[0], int(value))
 
-    print(theme_slider_values_dict)
 
     # Theme group ranges
     theme_group_slider_values = list(map(lambda tuple: (tuple[0][12:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-group-'), form.items())))
@@ -66,7 +65,6 @@ def get_search(form):
                 theme_group_slider_values_dict.get(theme_group_stripped, (None, None))[0],
                 int(value))
             
-    print(theme_group_slider_values_dict)
 
     # Modes
     modes_list = list()

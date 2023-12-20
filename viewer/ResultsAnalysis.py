@@ -1,6 +1,7 @@
 from engine import OpenAICaller
 
 import yaml
+import time
 
 class ResultsAnalyzer:
     def __init__(self, results):
@@ -8,7 +9,10 @@ class ResultsAnalyzer:
 
     def run_analysis(self):
         self.analyze_safety_issues()
+        self.analyze_safety_themes()
 
+    def analyze_safety_themes(self):
+        self.theme_weightings = self.results.loc[:, 'CompleteSafetyIssues':'PDF'].iloc[:, 1:-1]
     
     def analyze_safety_issues(self):
         all_safety_issues = self.results['CompleteSafetyIssues'].to_list()
@@ -46,6 +50,10 @@ For each unique safety issue can you add what reports it is found in.
 """
         )
 
-        self.safety_issues = yaml.safe_load(response)
-
-        print(safety_issues_str)
+        try: 
+            self.safety_issues = yaml.safe_load(response)
+        except yaml.YAMLError as exc:
+            print(response)
+            print(exc)
+            sleep(1)
+            self.analyze_safety_issues
