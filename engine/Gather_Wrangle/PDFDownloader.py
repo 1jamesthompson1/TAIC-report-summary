@@ -65,9 +65,6 @@ class ReportDownloader:
 
     def download_report(self, report_id, url):
         report_dir = os.path.join(self.output_dir, self.report_dir_template.replace(r"{{report_id}}", report_id))
-        
-        if not os.path.exists(report_dir):
-            os.mkdir(report_dir)
 
         file_name = os.path.join(report_dir, self.file_name_template.replace(r"{{report_id}}", report_id))
         response = requests.get(url)
@@ -93,6 +90,9 @@ class ReportDownloader:
             return False
 
         link = pdf_links[0]
+
+        if not os.path.exists(report_dir):
+            os.mkdir(report_dir)
 
 
         with open(file_name, "wb") as f:
