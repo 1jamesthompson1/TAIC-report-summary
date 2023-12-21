@@ -212,7 +212,7 @@ class ReferenceValidator():
             if match.group(2) and match.group(3):
                 quote = match.group(2).lower()
                 new_referenece = Reference(quote, match.group(3), ReferenceType.quote)
-            elif match.group(4) and match.group(5):
+            elif match.group(5) and match.group(6):
                 new_referenece = Reference(match.group(5), match.group(6), ReferenceType.citation)
             else:
                 raise Exception(f"Invalid reference format see {match.group(0)}")
