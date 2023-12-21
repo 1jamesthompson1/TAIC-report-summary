@@ -8,8 +8,12 @@ class ResultsAnalyzer:
         self.results = results
 
     def run_analysis(self):
+        print("Running analysis")
         self.analyze_safety_issues()
+        print("Analyzed safety issues")
         self.analyze_safety_themes()
+        print("Analyzed safety themes")
+
 
     def analyze_safety_themes(self):
 
