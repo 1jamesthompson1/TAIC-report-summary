@@ -12,7 +12,11 @@ class ResultsAnalyzer:
         self.analyze_safety_themes()
 
     def analyze_safety_themes(self):
+
         self.theme_weightings = self.results.loc[:, 'CompleteSafetyIssues':'PDF'].iloc[:, 1:-1]
+
+        # Remove all columsn that start with Complete
+        self.theme_weightings = self.theme_weightings.filter(regex='^(?!Complete)')
     
     def analyze_safety_issues(self):
         all_safety_issues = self.results['CompleteSafetyIssues'].to_list()
