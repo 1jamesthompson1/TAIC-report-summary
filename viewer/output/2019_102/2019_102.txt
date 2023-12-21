@@ -1,0 +1,874 @@
+﻿ 
+ 
+ 
+ 
+ 
+Final  Report   
+ 
+Rail inquiry RO-2019 -102 
+Clinton derailment  
+29 March 2019  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Februa ry 2020
+
+ 
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail acci dents and 
+incidents for New Zealand, and co -ordinating and co -operating with other accident investigation 
+organisations overseas.  
+The principal purpose of its inquiries is to determine the circumstances and causes of occurrences with 
+a view to avoiding sim ilar occurrences in the future. It is not the Commission's purpose to ascribe blame 
+to any person or agency or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action 
+against a person or agency. However, the Commission will not re frain from fully reporting on the 
+circumstances and factors contributing to an accident because fault or liability may be inferred from the 
+findings.   
+ 
+Final report RO -2019 -102 | Page  i  
+Figure 1: Location of accident
+
+ 
+ 
+Page ii | Final report RO-2019-102  Contents  
+1 Executive summary  ................................ ................................ ................................ ................................ .. 1 
+2 Factual information  ................................ ................................ ................................ ................................ . 2 
+Narrative  ................................ ................................ ................................ ................................ ...................  2 
+Key personnel  ................................ ................................ ................................ ................................ ...........  4 
+The derailment site  ................................ ................................ ................................ ................................ .. 4 
+Post -incident mechanical inspection  ................................ ................................ ................................ .... 4 
+Track geometry  ................................ ................................ ................................ ................................ .........  5 
+Previous occurrence  ................................ ................................ ................................ ................................  6 
+3 Analysis  ................................ ................................ ................................ ................................ .....................  7 
+Introduction  ................................ ................................ ................................ ................................ ..............  7 
+Factors contributing to the derailment  ................................ ................................ ................................ . 7 
+Speed  ................................ ................................ ................................ ................................ ...........  7 
+Centre of gravity of the loaded coal wagons  ................................ ................................ .............  9 
+Mechanism of derailment  ................................ ................................ ................................ ....................  10 
+Non-contributing factors  ................................ ................................ ................................ ......................  11 
+Fatigue  ................................ ................................ ................................ ................................ ...... 11 
+Loading  ................................ ................................ ................................ ................................ ...... 11 
+Rolling stock  ................................ ................................ ................................ .............................  11 
+Previous derailment at the Clinton crossing loop  ................................ ................................ .............  12 
+4 Findings  ................................ ................................ ................................ ................................ ..................  13 
+5 Safety issues and remedial action  ................................ ................................ ................................ ...... 14 
+General  ................................ ................................ ................................ ................................ ...................  14 
+Safety action  ................................ ................................ ................................ ................................ ..........  14 
+6 Recommendations  ................................ ................................ ................................ ................................  15 
+New recommendations  ................................ ................................ ................................ .........................  15 
+7 Key lessons  ................................ ................................ ................................ ................................ ............  16 
+8 Data summary  ................................ ................................ ................................ ................................ ....... 17 
+9 Conduct of the inquiry  ................................ ................................ ................................ ..........................  18 
+10 Report information  ................................ ................................ ................................ ................................  19 
+Abbreviations  ................................ ................................ ................................ ................................ .........  19 
+Glossary  ................................ ................................ ................................ ................................ ..................  19 
+11 Notes about Commission reports  ................................ ................................ ................................ ........  21 
+Commissioners  ................................ ................................ ................................ ................................ ...... 21 
+Key Commission personnel  ................................ ................................ ................................ ..................  21 
+Citations and referencing ................................ ................................ ................................ .....................  21 
+Photographs, diagrams, pictures  ................................ ................................ ................................ ........  21 
+Verbal probability expres sions  ................................ ................................ ................................ ............  21 
+Appendix 1:  Train driver briefing  ................................ ................................ ................................ .................  22 
+Appendix 2:  Extract from KiwiRail Semi -Permanent Bulletin No. 913  ................................ ...................  23 
+ 
+ 
+Final report RO -2019 -102 | Page  iii Figures  
+Figure 1: Location of accident  ................................ ................................ ................................ .........................  i 
+Figure 2: Clinton crossing loop  ................................ ................................ ................................ .....................  2 
+Figure 3: Location of derailed wagons at Clinton  (map source: Google)  ................................ ...............  3 
+Figure 4: Wagon with two coal containers  ................................ ................................ ................................ .. 3 
+Figur e 5: Point of derailment  ................................ ................................ ................................ .........................  4 
+Figure 6: Wagon and bogie layout  ................................ ................................ ................................ ...............  5 
+Figure 7: Track twist graph  ................................ ................................ ................................ ............................  6 
+Figure 8: Point of derailment  ................................ ................................ ................................ .........................  9 
+Figure 9: Effect of centre of gravity on stability  ................................ ................................ ........................  10 
+Figure 10: New priority berth ing instruction at Clinton  ................................ ................................ ...........  14 
+ 
+ 
+ 
+ 
+  
+
+ 
+Final report RO -2019 -102 
+<< Page 1 >>
+ 1 Executive summary  
+1.1. On 29 March 2019, the three rear wagons of a KiwiRail Holdings Limited freight train 
+derailed as the train exited a crossing loop at Clinton en route from Invercargill to  
+Dunedin.  Two of the three derailed wagons overturned onto their sides, causing damage 
+to the wagons, track and a signal.  
+1.2. The Transport Accident Investigation Commission (Commission) found that the freight 
+train had exceeded the maximum permissible track  speed when exiting the crossing loop 
+due to the driver becoming distracted and the downhill gradient of the track allowing 
+the train to accelerate to above the maximum permissible line speed.   
+1.3. The Commission also found that a phenomenon known as dynamic  interaction was very 
+likely the cause of the derailment, where the excessive speed combined with the track 
+geometry at the point of derailment and the centre of gravity of the fully loaded coal 
+wagons caused the wagon to oscillate from side to side.  One or more wheels then lift ed 
+and climb ed the rail, resulting in derailment.  
+1.4. The wagon condition and loading were found to be within KiwiRail's maximum 
+permissible limits.  
+1.5. A similar derailment had occurred at the Clinton crossing loop in 2016, which was n ot 
+investigated by the Commission.  At that time KiwiRail took a number of safety actions 
+after the incident, including speed monitoring and track repair.  However, a procedural 
+control measure to ensure that loaded trains did not use the crossing loop was  not 
+adopted.    
+1.6. As a result of this occurrence, KiwiRail has taken a number of safety actions that address 
+the issues raised in this report.  Therefore, no new recommendations have been made.  
+1.7. The key lessons arising from this inquiry are:  
+ a train driver can become distracted even when carrying out tasks specific to the ir role 
+which, if poorly timed, can have  unintended consequences  
+ to avoid repeat accidents and incidents it is important to learn from previous 
+incidents.  This requires a focus on implement ing corrective action in accordance with 
+the hierarchy of controls.  However, when procedural control measures have been 
+identified they should be implemented, checked and monitored properly to ensure 
+the desired results are achieved.  
+ 
+  
+ 
+ 
+
+<< Page 2 >>
+ Final report RO -2019 -102 2 Factual informatio n 
+Narrative  
+2.1. On Friday 29 March 2019 a Dunedin -based train driver drove a KiwiRail freight train 
+(Train 927) southbound from Dunedin to Clinton.   
+2.2. Arriving at Clinton with a train consisting  mainly of empty wagons, the driver brought the 
+train to a stop on the main  line1 to await the arrival of an opposing train  (Train 920) .  The 
+opposing train entered the Clinton crossing loop2  (see Figure 2) and stopped.  Both  
+drivers then changed trains ready to commence their return journeys . 
+ 
+Figure 2: Clinton crossing loop  
+2.3. At 0258 train control3 issued a track warrant4 to the driver  of Train 920  in preparation for 
+taking the fully lade n train to Dunedin . The driver  acted on the track warrant and started 
+to drive  the train out of the Clinton crossing loop.  The points5 between the crossing 
+loop and the main  line to Dunedin have a maximum speed limit of 25  kilometres per 
+hour ( km/h). 
+2.4. At 0302 the train departed from the crossing loop. As it traversed the level crossing on 
+State Highway 93 it start ed to descend a downhill gradient.  The driver checked the 
+official route paperwork for the journey and while doing so the speed of the train 
+increased to 34 km/h.   
+2.5. At 0309 the train lost air pressure , which caused the brakes to be applied automatically .  
+This was an indication that the train may have parted6. 
+2.6. The driver contacted train control to report the situation and advised that the intention 
+was to take a portable radio and walk the length of the train to investigate the cause of 
+                                                        
+1 The principal track on a railway.  
+2 A loop of track alongside the main line in single -track areas, used by opposing trains to cros s each 
+other safely.  
+3 The national train control centre in Wellington, where the movements of trains and maintenance track 
+occupancies are authorised by train controllers.  
+4 A systematised permission used on some rail lines to authorise trains' use of the  lines.  Train controllers 
+issue the permissions to drivers of trains instead of using signals.  The drivers generally receive track 
+warrants by radio.  
+5 An assembly of switches and crossings that are designed to divert trains from one road to another.  
+6 Where rail rolling stock has become uncoupled from the adjoining rail vehicle whilst the train was in 
+motion. This causes a loss of brake pipe pressure, which causes the train brakes to apply automatically.  
+
+ 
+Final report RO -2019 -102 
+<< Page 3 >>
+ the loss of air pre ssure.  Train control advised the driver that the local fire service, located 
+adjacent to the level crossing, had contacted it to report that they were at the scene and 
+that the rear of the train had derailed.  
+2.7. As the driver approached the rear of the train , it became evident that the last three 
+wagons had derailed.  The third and second last wagons had derailed before the level 
+crossing, but had remained attached to the train until they overturned onto their left 
+sides about 300 metres after passing over th e level crossing.   
+2.8. The front bogie of the last wagon had derailed but the wagon was upright and had not 
+passed over  the level crossing (see Figure  3).   
+ 
+Figure 3: Location of derailed wagons at Clinton   
+(map source: Google)  
+2.9. The level crossing was clear of wreckage, but the bells and barriers continued to activate.  
+Each of the three derailed wagons were carrying two containers of coal (see Figure 4).   
+ 
+Figure 4: Wagon with two coal containers  
+2.10. The driver  liaised with the fire service and train control, and ascertained that a signals 
+engineer was en route to Clinton to deactivate the level crossing alarms and barriers.   
+
+ 
+ 
+
+<< Page 4 >>
+ Final report RO -2019 -102 2.11. The driver underwent compulsory testing for drugs and alcohol, which returned a 
+negati ve (clear) result.  
+Key personnel  
+2.12. The train driver had 40 years' rail experience, initially based at Invercargill and then at 
+Dunedin.  The driver held current certification for the role.  
+The derailment site  
+2.13. Witness marks7 on the rail indicated that, when facing the direction of travel, a left -side 
+wheel on a right -hand bend had climbed and then ridden along the rail head8 for 
+approximately five metres before dropping off the outside edge of the rail (see Figure 5). 
+ 
+Figure 5: Poin t of derailment  
+Post -incident mechanical inspection  
+2.14. The first wagon to derail was also one of the two wagons that overturned onto their 
+sides.  Both the wagons were extensively damaged, such that their decks were written off 
+and no attempt was made to repa ir them.  Maintenance records for the wagons did not 
+indicate any pre -derailment issues.  
+2.15. The bogies from the first wagon to derail were seized by the Commission. They 
+subsequently underwent post -incident inspections.  Both bogies were transported to 
+KiwiRa il's Hutt Workshops facility, where they were systematically taken apart and all the 
+                                                        
+7 Physical marks such as those made on a rail by a  derailed wheel.  
+8 The bulbous upper part of a rail section.  
+
+ 
+Final report RO -2019 -102 
+<< Page 5 >>
+ critical measurements were recorded.  No broken components were found during the 
+strip-down and all the key dimensions were found to be within specification.  
+2.16. One anomaly was found during the inspection : one wheelset9 out of the four was fitted 
+with wheels that were thicker th an the other three (see Figure 6).  The wheels on axle 
+four, the rear axle , were 130  millimetres  (mm) thick compared with 115 mm for the other 
+axles . The thi nner wheels are an older design.   
+ 
+Figure 6: Wagon and bogie layout  
+2.17. The fitting of different -thickness wheels on an axle to make a wheelset is not allowed.  
+Wheelsets with different -thickness wheels on an individual bogie  are allowed in the 
+specification but discouraged and considered undesirable.   
+2.18. It is likely that this bogie had previously been damaged and had been repaired with the 
+replacement of a single wheelset at a remote depot.  It should be noted that each 
+indiv idual wheelset did have matching -thickness wheels at each end.  The anomaly 
+across the four axles was not considered contributory to the derailment.  
+Track geometry  
+2.19. KiwiRail use a dedicated Track Evaluation Car rail vehicle, known as EM80, to measure 
+critic al dimensions of track geometry around the New Zealand rail network, using laser 
+scanning, transducers, accelerometers and camera systems.  The track inspection 
+programme is determined by the frequency of track use.  It can vary from four 
+inspections a yea r on a metropolitan commuter network to one inspection a year at 
+crossing loops similar to that at Clinton.   
+2.20. The track geometry at Clinton had most recently been measured on 19 September 2018, 
+six months before the March 2019 derailment.  At that time the  track geometry showed a 
+fault, which was programmed for rectification.  The rectification work was completed on 
+12 October 2018.  
+2.21. After the derailment, a manual measure ment  of the track geometry either side of the 
+point of derailment showed a track twist10, which  was just within the acceptable 
+maintenance toleran ce limit (see Figure 7).  This level of track twist required no action to 
+be taken ; however , once it deteriorated to the tolerance , maintenance would be planned 
+to bring the track geometry back withi n limits . 
+                                                        
+9 Two rail wheels mounted on a joining axle.  
+10 The difference in height of two rails.  On a curve the outer rail is generally higher than the inner rail to 
+allow trains through the curve at highe r speeds.  
+
+ 
+ 
+
+<< Page 6 >>
+ Final report RO -2019 -102  
+Figure 7: Track twist graph  
+Previous occurrence  
+2.22. In 2016 a northbound freight train hauling 49 wagons derailed at the same location 
+when departing the Clinton crossing loop.  On that occasion the train parted in five 
+places.  The rear six wagons, which were carrying coal, derailed and five overturned onto 
+their sides.  There was extensive wagon and track damage but no injuries.  This incident 
+was not investigated by the Commission.  
+2.23. The KiwiRail investigation found that , at the time of the derailment, the train was 
+travelling at 32  km/h, 7  km/h above the maximum permissible  speed limit when exiting 
+the Clinton crossing loop.  The track geometry was found to be within code11 at normal 
+line speed.  However , when the excess spe ed was factored in , the maximum permissible 
+cant deficiency12 limit had been exceeded and was deemed to have caused the 
+derailment.  
+2.24. After the 2016 Clinton derailment, KiwiRail completed an audit of crossing loop exit 
+speeds and put in place a monitoring pro gramme to determine the level of compliance 
+with the speed limit.  Additionally, the track condition was measured and all issues 
+rectified.  There was a suggestion to allow only empty Invercargill -bound services to use 
+the crossing loop at Clinton, thereby  removing two potential contributory factors - the 
+downhill gradient and the high centre of gravity of a full coal wagon.  However, the 
+suggestion was not subsequently formalised for a variety of reasons beyond the scope of 
+this investigation.  
+                                                        
+11 Section 8 Manual Y+Track Geometry Maintenance Tolerances of KiwiRail Track Standard Track 
+Geometry standard T -ST-AM-5120.  
+12 Cant is the designed amount that one rail is raised above the other on a curve.  Cant deficiency is the 
+theoretical amou nt the high rail must be raised to restore equilibrium for a train travelling at speed on a 
+curve with a given cant.  
+
+ 
+Final report RO -2019 -102 
+<< Page 7 >>
+ 3 Analysis  
+Introduction  
+3.1. The derailment of a freight train is a serious event and has the potential to cause 
+significant damage and injury.  Derailments do therefore have significant implications for 
+transport safety.  Following this derailment two of the derailed wagon s passed over a 
+level crossing, potentially creating a significant risk to the public waiting for the train to 
+cross.  
+3.2. The following analysis discusses the possible factors that contributed either directly or 
+indirectly to the derailment, and the factors th at were evaluated and found to be non -
+contributory.  
+Factors contributing to the derailment  
+3.3. Train derailments can be caused by a single factor or a combination of factors that may 
+include track condition, rolling stock condition and train handling.  
+3.4. The Co mmission found that it was very likely the excessive speed, combined with a track 
+twist that was within code and the high centre of gravity of the load on the derailed 
+wagons  that led to the derailment . In the past the Commission has investigated a series 
+of derailments similar to this incident, the latest one being rail inquiry RO -2012 -103.  The 
+report highlighted the effect of a phenomenon known as dynamic interaction.  Dynamic 
+interaction was very likely the cause of this derailment.  It has been describ ed in previous 
+reports and is worthy of repetition;  
+A train derailment attributed to dynamic interaction occurs when the 
+track geometry, wagon condition, wagon loading and train speed are 
+individually within tolerance limits, or marginally in excess, but not to an 
+extent that each variation on its own is sufficient to be a prime cause of 
+the derailment. However, when in combination these conditions can 
+result in a derailment.  
+Speed  
+3.5. An examination of the train's on -board Tranzlog data recorder showed the p osition of 
+the train controls and speed of the train as it exited the crossing loop at Clinton.   
+3.6. The data recorder showed that as the train  exited the crossing loop it accelerated to a 
+speed of 21 km/h , slightly  below  the maximum  permissible  crossing loop  exit speed of 
+25 km/h .  However, the train reached 31 km/h when it  was allowed to coast13 while the 
+driver checked the paperwork for the northbound journey to Dunedin.  
+3.7. When the train exited the Clinton loop, heading north towards Dunedin, it was running 
+on a section of the main line that had a downhill gradient of 1:65.  Once the locomotives 
+had cleared the level crossing the train was put into coast and travelled under its own 
+momentum.  The downhill track gradient then provided favourable conditions for t he 
+train to accelerate slowly.   
+                                                        
+13 Movement when no power or braking is applied and the train is allowed to continue under its own 
+momentum.  
+ 
+ 
+
+<< Page 8 >>
+ Final report RO -2019 -102 3.8. At the same time as the train started to accelerate the driver took the opportunity to 
+read the relevant route paperwork associated with the journey to Dunedin.  With the 
+driver's attention now focused on reading the paperw ork the train continued to 
+accelerate. The remainder of the train was still exiting the Clinton loop and as the 
+wagons progressively joined the main line, they added momentum.  
+3.9. The first indication the driver had that something was wrong was when the train 
+emergency brake automatically applied.  The data recorder showed that at the time the 
+brake was applied the speed of the train had risen to 37 km/h.  
+3.10. When the first of the last three wagons derailed leaving the crossing loop, the train 
+speed was recorded a t 34 km/h, which was 9 km/h or 36% over the maximum 
+permissible line speed at the crossing loop.   
+3.11. The investigation found that the forces created by excessive speed while the wagons 
+were passing over a curved section of track w ere a contributory factor t o the derailment 
+and part of the phenomenon known as dynamic interaction.  
+3.12. The driver chose to check the route paperwork, which is a normal train -driving task, while 
+the train was still leaving the crossing loop.  It was a critical time when it was essent ial to 
+control the train speed on a downhill gradient through low speed points.  The driver's 
+distraction was not deliberate, but it does demonstrate the ease with which a momentary 
+distraction can lead to unintentional consequences.  
+Track condition  
+3.13. Witnes s marks confirmed that the point of derailment (see Figure 5) was on the left -hand 
+rail in the direction of travel, betwee n 7B and 7A points (see Figure 2), a section of track 
+that was still within the crossing l oop (see Figure 8).  
+  
+ 
+Final report RO -2019 -102 
+<< Page 9 >>
+  
+Figure 8: Point of derailment  
+3.14. It can be seen from Figure 6 that the manual measurement of track geometry post -
+accident identified a track twist just before the point of derailment.  The twist was just 
+within KiwiRail's tolerance limits and was not co nsidered severe enough to have caused 
+the derailment directly.  
+3.15. The effect of a track twist in relation to derailment is for the twist to start a rocking 
+motion, of the wagons particularly.  When the cause of derailment is considered in terms 
+of dynamic in teraction, it is very likely that a rocking motion on the wagons created by 
+the track twist was a contributory factor but was not sufficient in itself to have caused the 
+derailment.   
+Centre of gravity  of the loaded coal wagons  
+3.16. The higher the centre of gra vity of a loaded coal wagon, the greater the destabilising 
+effect of any lateral force acting on the wagon, such as centripetal force, created when a 
+wagon is following a curve in a track.  In a worst -case scenario the lateral force may 
+cause the centre of  gravity to move beyond the pivot point (see Figure 9) and become 
+unstable.  A part -filled coal wagon, with a much lower centre of gravity than a full coal 
+wagon, will require a greater lateral force to move the centre of gravity beyond the pivot 
+point for  it to become unstable.  
+
+ 
+ 
+
+<< Page 10 >>
+ Final report RO -2019 -102  
+Figure 9: Effect of centre of gravity on stability  
+3.17. By design, the coal wagons that were involved in the accident had, at maximum capacity, 
+a centre of gravity of 1,849 mm above rail level.  The maximum pe rmissible centre of 
+gravity is 2,000 mm above rail level.  The loading of the coal wagons involved in this 
+derailment was below the maximum permissible and therefore within tolerance.   
+3.18. The relatively high centre of gravity of the loaded coal wagons was wi thin permissible 
+limits and is not considered to have caused the derailment by itself.  When considering 
+the effect of a lateral force being applied to the centre of gravity of a loaded wagon, 
+such as centripetal force generated by travelling around a curv e or a rolling motion force 
+generated by a track twist, the overall effect will be to destabilise the wagon.   
+3.19. It is considered likely that in this derailment, once a lateral force was applied, the high 
+centre of gravity of the wagons and the resulting red uced stability further contributed to 
+the overall effect of dynamic interaction.   
+Mechanism of derailment  
+3.20. The Commission has previously investigated derailments that have involved the 
+phenomenon of dynamic interaction .  These reports  includ e rail inquiry  RO-2007 -10214 
+and RO -2012 -10315. 
+3.21. In this derailment the dynamic interaction of speed, track geometry and reduced stability 
+caused by the high centre of gravity of the load very likely led to a wagon  oscillating 
+from side to side , creating the ideal condition s for wheel climb16 to occur .  When viewed 
+in the direction of travel , the oscillating motion very likely  resulted in the outer left -hand 
+wheel  of the rear bogie  of the first wagon derail ing and  climb ing up onto the top of the 
+rail head . 
+                                                        
+14 Rail inquiry RO2007 -102 freig ht train main line derailments, various locations on the national rail 
+network.  
+15 Rail inquiry RO2012 -103 derailment of freight Train  229 Rangitawa -Maewa . 
+16 When the lateral force on a rail wheel flange exceeds the downwards force (axle load).  There shoul d 
+be twice as much downward force holding the wheel to the rail as lateral force to prevent the wheel 
+climbing up onto the top of the rail.  
+
+ 
+Final report RO -2019 -102 
+<< Page 11 >>
+ 3.22. The wheel then cont inued to travel along the top of the rail for approximately five 
+metres.  The wheel flange created witness marks on the rail head before it dropped off 
+the outside edge of the rail. The subsequent effect was that a further two wagons 
+derailed until the las t wagon parted from the train, severing the air supply and 
+automatically applying the train brakes.  
+Non-contributing factors  
+3.23. The Commission examined several other factors but determined that they were not 
+contributory to the derailment.  
+Fatigue  
+3.24. While many shift workers tend to sleep directly before a nightshift and utilise the time 
+after the shift for normal daily activities, this driver retired to bed immediately after a 
+nightshift, slept for seven hours and then woke nine hours before the next nightshift to 
+undertake normal daily activities before starting work.  
+3.25. This could be considered an unusual sequence of work, relax and sleep.  However, it was 
+the driver's usual routine and the driver's roster provided ample opportunity between 
+shifts for adequate re st and recovery.  There were no indications that driver fatigue 
+played a part in this derailment.    
+Loading  
+3.26. The process used for loading the coal wagons was carefully examined to see if it was 
+possible to overload the coal containers or to load them with a significant weight bias 
+front to back or left to right, which could contribute to the instability of a wagon.   
+3.27. Coal was loaded into each coal container with a front loader excavator fitted with a 
+weight -monitoring system, allowing the operator to fill t he containers to capacity 
+accurately.  The container was clearly marked internally with a maximum capacity line 
+and the loading company had robust documented procedures in place to manage the 
+loading process.  
+3.28. The Commission found that the coal loading proc ess and weight distribution were 
+unlikely to have contributed to the derailment.  
+Rolling stock  
+3.29. The three wagons that derailed, carrying a total of six coal containers, were UKK class 
+wagons. The bogies fitted to them were standard Type 14.  Both the class of wagon and 
+the type of bogie are overrepresented in KiwiRail's derailment statistics.   
+3.30. Type 14 bogies represent approximately 40% of rail traffic (based on kilometres 
+travelled) but were involved in 80% of (8 out of 10) derailments in 2018.  UKK wagons 
+make up around 12% of rail traffic but featured in 70% (7 out of 10) of these derailments.   
+3.31. However, the systematic, detailed examination of the bogies did not reveal anything out 
+of tolerance or identify any parts that were unfit for purpose.  The Commis sion found no 
+evidence to suggest that the Type 14 bogies or the wagon design contributed to the 
+accident.  
+ 
+ 
+
+<< Page 12 >>
+ Final report RO -2019 -102 Previous derailment at the Clinton crossing loop  
+3.32. This incident was effectively a repeat of the derailment in 2016, which was not 
+investigated by the Commission.  The actions taken in response to that accident had 
+included track repair and crossing loop exit speed monitoring.   
+3.33. Post the 2016 investigation by KiwiRail, there was a suggestion from the operations 
+department to prevent the heavier train usi ng the crossing loop.  This would have meant 
+that coal -laden trains bound for Dunedin would always use the main line to pass an 
+opposing train at Clinton.  The empty coal wagon trains bound for Invercargill would 
+therefore use the crossing loop and would b enefit from the uphill gradient assisting to 
+keep the train speed down.  
+3.34. Unfortunately this suggestion was not adopted and therefore the existing system 
+continued.  KiwiRail has now adopted the idea and formally implemented it; see section 
+7 of this report .
+ 
+Final report RO -2019 -102 
+<< Page 13 >>
+ 4 Findings  
+4.1. There was no single  factor that caused the derailment, rather it was a combination of 
+speed , the effects of track twist that was within tolerance and the relatively high centre of 
+gravity of the coal wagons . 
+4.2. The phenomenon known as dynamic int eraction was very likely the cause of this 
+derailment.  
+4.3. The forces created by excessive speed while the wagons were passing over a curved 
+section of track were  a contributory factor to the derailment and part of the 
+phenomenon known as dynamic interaction.  
+4.4. In terms of dynamic interaction, it is very likely that an oscillating motion on the wagons 
+created by a track twist that was within tolerance. This contributed to the derailment 
+occurring, but was not sufficient in itself to cause the derailment.  
+4.5. It is li kely that once a lateral force was applied to the wagons, their high centre of gravity 
+and resulting reduced stability further contributed to the overall effect of dynamic 
+interaction.  
+4.6. The train driver became distracted reading the route paperwork.  It oc curred at a critical 
+time in the journey , which , combined with the downhill gradient leaving the crossing 
+loop, allowed the speed of the train to increase and exceed the maximum permissible 
+crossing loop exit speed.  
+ 
+ 
+Final report RO -2019 -102 
+<< Page 14 >>
+ 5 Safety issues and remedial action  
+General 
+5.1. Safety Issues are an output from the Commission's analysis. They typically describe a 
+system problem that has the potential to adversely affect future operations on a wide 
+scale.   
+5.2. Safety Issues may be addressed by safety actions taken by a participant , otherwise the 
+Commission may issue a recommendation to address the issue.   
+Safety action  
+5.3. In response to the 2019 Clinton derailment, KiwiRail took a number of actions to address 
+the issues found to have contributed to it. 
+5.4. A briefing was issued to all tr ain drivers re inforcing the need to adhere to speed limits 
+when  passing through turnouts/points, for example when departing  crossing loops  (see 
+Appendix 1) . 
+5.5. A redesign of the  points configuration at Clinton is planned  which is intended t o change 
+the curve alignment and reduce the effect  of excess ive speed.  
+5.6. A new local instruction ha s been formalised to ensure that fully laden coal trains heading 
+to Dunedin use only the main  line when passing through Clinton.  This means that the 
+speed of empty Invercargill bound trains entering the loop is reduced  by the uphill 
+geometry of the track.  It also avoids  fully laden train s having to proceed  through the 
+crossing loop points  (see Figure 10). 
+ 
+Figure 10: New priority berthing instruction at Clinton  
+5.7. The new instruction  was published in KiwiRail 's Semi -Permanent Bulletin No. 913 - dated 
+27 September 2019  (see Appendix 2) . It included:   
+Crossing Trains at Clinton (new instruction)  
+Up Trains must be berthed on the Main at Clinton when crossing D own 
+Trains. Exception: Light Locomotives, EM80, MTMV's travelling as a train, and 
+Work Trains may be berthed on the Loop when travelling in the Up direction. 
+It is essential that Down Trains are given priority to berth when trains 
+approach Clinton in close  sequence. This is to facilitate the berthing on the 
+uphill gradient at the north end of Clinton, and to minimise the operation of 
+the level crossings warning devices over Main Road (SH1) at the north end of 
+Clinton.    
+
+ 
+Final report RO -2019 -102 
+<< Page 15 >>
+ 6 Recommendations  
+General   
+6.1. The Commissi on may issue, or give notice of, recommendations to any person or 
+organisation that it considers the most appropriate to address the identified safety 
+issues, depending on whether  these safety issues are applicable to a single operator only 
+or to the wider  transport sector. In this case, a recommendation has been issued to the 
+Director of Civil Aviation, with notice of the recommendation given to the Secretary of 
+Transport.    
+6.2. In the interests of transport safety, it is important that this recommendation is 
+implemented without  delay  to help prevent similar accidents or incidents occurring in 
+the future.    
+New r ecommendations  
+6.3. No new recommendations have been made as a result of this inquiry.  
+  
+ 
+ 
+
+<< Page 16 >>
+ Final report RO -2019 -102 7 Key l essons  
+7.1. A train driver can become distracted even when carrying  out tasks specific to the role 
+which, if poorly timed, can have  unintended consequences.   
+7.2. To avoid repeat accidents and incidents it is important to learn from previous incidents.  
+This requires a focus on implementing corrective action in accordance wit h the hierarchy 
+of controls.  However, when procedural control measures have been identified they 
+should be implemented, checked and monitored properly to ensure the desired results 
+have been achieved.  
+ 
+Final report RO -2019 -102 
+<< Page 17 >>
+ 8 Data summary  
+Vehicle particulars  
+Train type and 
+number : freight Train 920 consisting of 42 wagons  
+Train length:  
+Train weight:  
+Classification:  740 metres  
+1,643 tonnes  
+DXC 5258 (lead) and DFT 7092 (trail)  
+Operator:  KiwiRail Holdings Limited  
+Date and time  29 M arch 2019  0000  
+Location  Clinton  crossing loop on the Main South Line  
+Operating crew  train driver  
+Injuries  none  
+Damage  significant damage to two derailed wagons as well as 
+damage to the track and a sig nal post  
+ 
+ 
+ 
+
+<< Page 18 >>
+ Final report RO -2019 -102 9 Conduct of the inquiry  
+9.1. The accident occurred at about 0309 on Friday 29 March 2019.  The NZ Transport 
+Agency (the Agency) notified the Transport Accident Investigation Commission 
+(Commission).  The Commission opened an inquiry under section 13( 1) of the Transport 
+Accident Investigation Commission Act 1990 to determine the circumstances and causes 
+of the incident and appointed an investigator in charge.  
+9.2. On 29 March 2019 , the Commission issued a protection order restricting persons from 
+moving or transporting the bogies of the first wagon to derail.  The bogies were 
+subsequently transported to KiwiRail Holdings Limited's ( KiwiRail's ) Hutt Workshops with 
+the Commission's approval.  
+9.3. Commission investigators travelled to the accident site on Tuesday 2  April 2019 to 
+commence the investigation.   
+9.4. Commission investigators interviewed the:  
+ train driver  
+ track maintenance workers . 
+9.5. The Commission obtained the following documents and records for analysis:  
+ the maintenance and condition records for the track and  rolling stock  
+ the training records for the driver  
+ the roster details for the driver  
+ the event recorder download data from the lead locomotive  
+ recordings of the communications between the train controller and the train driver . 
+9.6. On 9 May 2019 , Commission in vestigators, with assistance from KiwiRail staff, 
+systematically stripped down the bogies from the first wagon to derail at KiwiRail's Hutt 
+Workshops.  
+9.7. On 23 October 2019,  the Commission considered a draft report and approved it to be 
+sent to interested pe rsons for consultation.  
+9.8. Three  written submissions were received. The Commission considered the submissions, 
+and changes as a result of those submissions have been included in the final report.  
+9.9. On 19 February 2020, the Commission approved the final repor t for publication.  
+ 
+Final report RO -2019 -102 
+<< Page 19 >>
+ 10 Report information  
+Abbreviations  
+CoG  centre of gravity  
+KiwiRail   KiwiRail Holdings Limited  
+km/h   kilometre(s) per hour  
+mm  millimetre(s)  
+m  metre(s)  
+NZTA   New Zealand Transport Agency (The Agency)  
+POD  point of derailment  
+TAIC  Transpor t Accident Investigation Commission (Commission)  
+Glossary  
+bogie  a metal frame equipped with two or three wheelsets and able to rotate 
+freely in plan, used in pairs under rail vehicles to improve ride quality 
+and better distribute forces to the track  
+cant deficiency  cant is the designed amount that one rail is raised above the other on a 
+curve.  Cant deficiency is the theoretical amount the high rail must be 
+raised to restore equilibrium for a train travelling at speed on a curve 
+with a given cant  
+coast  movement when no power or braking is applied and the train is allowed 
+to continue under its own momentum  
+crossing loop  a loop of track alongside the mainline in single -track areas, used by 
+opposing trains to cross each other safely  
+dynamic interaction  occurs  when the track geometry, wagon condition, wagon loading and 
+train speed are individually within tolerance limits, or marginally in 
+excess, but not to an extent that each variation on its own is sufficient to 
+be a prime cause of the derailment. However, wh en in combination these 
+conditions can result in a derailment  
+main line  the principal track on a railway  
+parted  where rail rolling stock has become uncoupled from the adjoining rail 
+vehicle whilst the train was in motion, This causes a loss of brake pipe 
+pressure, which causes the train brakes to apply automatically  
+points  an assembly of switches and crossings that are designed to divert trains 
+from one road to another  
+ 
+ 
+
+<< Page 20 >>
+ Final report RO -2019 -102 rail head  the bulbous upper part of a rail section  
+track twist  the difference in height  of two rails.  On a curve the outer rail is 
+generally higher than the inner rail to allow trains through the curve at 
+higher speeds  
+track warrant  a systematised permission used on some rail lines to authorise a trains' 
+use of the lines.  Train controller s issue the permissions to drivers of 
+trains instead of using signals.  The drivers generally receive track 
+warrants by radio  
+train control  the national train control centre in Wellington, where the movements of 
+trains and maintenance track occupancies are  authorised by train 
+controllers  
+wheel climb  occurs when the lateral force on a rail wheel flange exceeds the 
+downwards force (axle load).  There should be twice as much downward 
+force holding the wheel to the rail as lateral force to prevent the wheel 
+from climbing up on to the top of the rail.  
+wheelset   two rail wheels mounted on a joining axle  
+witness marks   physical marks such as those made on a rail by a derailed wheel  
+ 
+Final report RO -2019 -102 
+<< Page 21 >>
+ 11 Notes about Commission reports  
+Commissioners  
+ Chief Commissioner     Jane Meares  
+ Deputy Chief Commissioner    Stephen Davies Howard  
+ Commissioner      Richard Marchant  
+ Commissioner      Paula Rose, QSO  
+Key Commission personnel  
+ Chief Executive     Lois Hutchinson  
+ Chief Investigator of Accidents   Aaron Holman  
+ Investigator in Charge     Chris Asbery  
+ General Counsel     Cathryn Bridge  
+Citations and referencing  
+This draft report does not cite information derived from interviews during the Commission's 
+inquiry into the occurrence.  Documents normally accessible to industry participants only an d 
+not discoverable under the Official Information Act 1982 are referenced as footnotes only.  
+Publicly available documents referred to during the Commission's inquiry are cited.  
+Photographs, diagrams, pictures  
+The Commission has provided, and owns, the pho tographs, diagrams and pictures in this 
+report unless otherwise specified.  
+Verbal probability expressions  
+This report uses standard terminology to describe the degree of probability (or likelihood) that 
+an event happened, or a condition existed in support of a hypothesis. The expressions are 
+defined in the table below.  
+Terminology*  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probabili ty Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+*Adopted from the Intergovernmental Panel on C limate Change  
+ 
+ 
+ 
+ 
+
+<< Page 22 >>
+ Final report RO -2019 -102 Appendix 1 : Train driver briefing  
+ 
+
+ 
+Final report RO -2019 -102 
+<< Page 23 >>
+ Appendix 2:  Extract from KiwiRail Semi -Permanent 
+Bulletin No. 913  
+ 
+
+ 
+  
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+RO-2018-102 Freight train SPAD and wrong -routing, Taimate, 1 October 2018  
+RO-2018-101 Metropolitan passenger train, derailment, Britomart Transpo rt Centre, Auckland, 9 
+May 2018  
+RO-2017-106 Mainline locomotives, Wrong -routing and collision with work vehicle, Invercargill, 
+16 November 2017  
+RO-2017-105 Collision between freight Train 353 and heavy motor vehicle, Lambert Road, level 
+crossing, near Ka werau, 6 October 2017  
+RO-2017-104 
+ Unauthorised immobilisation of passenger train, at Baldwin Avenue Station, 
+Avondale, 17 September 2017  
+RO-2017-101 Signal Passed at Danger 'A' at compulsory stop boards protected worksite, 
+Pongakawa, Bay of Plenty, 7 Fe bruary 2017  
+RO-2017-103 Potential collision between passenger trains, Wellington Railway Station, 15 May 
+2017 
+RO-2017-102 Signalling irregularity, Wellington Railway Station, 3 April 2017  
+RO-2016-101 Signal passed at danger leading to near collision, We llington Railway Station, 28 
+May 2016  
+RO-2016-102 Train 140 passed Signal 10R at 'Stop', Mission Bush Branch line, Paerata, 25 
+October 2016  
+RO-2015-103 Track occupation irregularity, leading to near collision, between Manunui and 
+Taumarunui, 15 December 2015 
+RO-2014-105 Near collision between train and hi -rail excavator, Wairarapa Line near 
+Featherston, 11 August 2014  
+RO-2013-101 Derailment of freight Train 345, Mission Bush Branch line, 9 January 2013  
+RO-2015-102 Electric locomotive fire at Palmerston  North Terminal, 24 November 2015  
+RO-2014-104 Express freight train striking hi -rail excavator, within a protected work area, 
+Raurimu Spiral, North Island Main Trunk line, 17 June 2014  
+ 
+
+ 
+ TAIC Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ngati Raukawa, 
+Tuwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to und erstand transport accident tragedies and how to prevent them. A 'waka whai mārama (i te 
+ara haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separa tion of Rangitāne (Sky Father) and Papatūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling within), which brought 
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe or risk free'.  
+Corporate: Te Ara Haumaru - The safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the th ree kete of 
+knowledge that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. 
+The continual wave is the perpetual line of influence. The succession of humps represent the individual 
+inquiries.  
+Sandy acknowledges Tāne M āhuta in the creation of this Kōwhaiwhai.  
+Aviation: ng ā hau e wh ā - the four winds  
+ 
+To Sandy, 'Ngā hau e whā' (the four winds), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation enviro nment. The design represents the sky, 
+cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for aviation.  
+Sandy acknowledges Ranginui (Sky father) and Tā whirimātea (God of wind) in the creation of this 
+Kōwhaiwhai.  
+Marine: ara wai - waterways  
+ 
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wak e. The letter 'M' is present, standing for 'Marine'.  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere' i s to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and for ests and everything 
+that dwells within) in the creation of this Kōwhaiwhai.  
+  
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 13.00          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  
+ 

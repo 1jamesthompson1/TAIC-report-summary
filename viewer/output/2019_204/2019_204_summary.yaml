@@ -1,0 +1,53 @@
+- name: Weather Conditions and Decision Making
+  percentage: 30
+  explanation: The skipper's decision to proceed despite adverse weather conditions was a significant factor in the accident. The report states that "Sea conditions were worse than the skipper expected when the Henerata entered steep and unpredictable seas" (4.1). Additionally, the operator's Maritime Transport Operator Plan (MTOP) had no defined weather criteria to assist the skipper's decision to sail (4.3), and the skipper had to make a critical safety decision on the weather without any criteria against which to assess it (3.26). This lack of predefined weather criteria contributed to the skipper's decision to sail in conditions that ultimately led to the vessel's capsize (3.25-3.27).
+- name: Risk Management and Analysis
+  percentage: 20
+  explanation: The operator did not assess the risk of a capsize occurring, resulting in no documented controls for preventing one or for minimizing the consequences should one occur (3.28). This lack of risk assessment and control measures contributed to the severity of the accident's outcome.
+- name: Regulatory Oversight and Compliance
+  percentage: 15
+  explanation: The absence of stability data for small commercial craft, as required by regulation, meant that the operator had insufficient stability information to make informed decisions (3.29, 3.35). This regulatory gap contributed to the operator's inability to fully assess the risk of capsize (4.4).
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The operator's safety management system was not supported by an effective assessment of the risk of vessel capsize, or criteria for the weather in which the vessel could be operated safely (5.4). This indicates a lack of a robust safety culture that emphasizes proactive safety assessments and adherence to safety procedures.
+- name: Emergency Response Preparedness
+  percentage: 5
+  explanation: The passengers were not wearing lifejackets at the time of the capsize (4.7), and the EPIRB was not activated during the capsize (3.17). This lack of preparedness for an emergency situation contributed to the risk to the passengers' safety.
+- name: Training and Competency
+  percentage: 5
+  explanation: While not directly cited as a contributing factor, the skipper's decision-making in adverse weather conditions suggests potential gaps in training and competency regarding risk assessment and decision-making in changing conditions (3.6, 3.10).
+- name: Adherence to Safety Procedures
+  percentage: 5
+  explanation: The absence of predefined weather criteria in the MTOP resulted in the skipper having to make a critical safety decision without any criteria against which to assess it (3.26). This indicates a lack of adherence to safety procedures that could have provided guidance on when to sail.
+- name: Communication Breakdown
+  percentage: 5
+  explanation: The lack of communication facilities at Freshwater Hut contributed to a self-perceived pressure to operate the water taxi service, as passenger pick-up services from Freshwater Hut were rarely canceled (4.5). This communication breakdown influenced the decision to proceed with the operation.
+- name: Crew Resource Management
+  percentage: 5
+  explanation: The report does not directly address CRM, but the skipper's decision to proceed without re-examining the risks or preparing passengers for emergency conditions suggests potential CRM issues (3.13-3.14).
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'There is no specific mention of human error or assumptions as a contributing factor in the report.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'Fatigue is not mentioned as a contributing factor in the report.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The report does not indicate that a lack of training or familiarity with equipment contributed to the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The vessel was found to have no anomalies that would have prevented it from operating correctly, and the engine had no defects (3.15). Therefore, maintenance and inspection regimes were not contributing factors.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'Automation was not mentioned as a contributing factor in the report.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: While situational awareness is critical, the report does not specifically cite a loss of situational awareness as a contributing factor to the accident.

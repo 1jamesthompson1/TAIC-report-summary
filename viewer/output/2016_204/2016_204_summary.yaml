@@ -1,0 +1,61 @@
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: The grounding occurred because the bridge team, including the pilot, lost situational awareness and did not realize that the vessel had deviated so far starboard of the intended track (5.1). The pilot and the vessel's bridge team did not have a shared understanding of one common passage plan to the berth before the pilotage began, which meant they were not all sharing the same understanding of the plan (5.3). This indicates a significant contribution of human error and assumptions to the accident.
+- name: Crew Resource Management
+  percentage: 25
+  explanation: The standard of bridge resource management on the Molly Manx bridge leading up to the grounding did not meet industry good practice (5.6). The pilot and the vessel's bridge team did not have a shared understanding of one common passage plan (5.3), and neither the master nor the officer of the watch spoke up when they noticed the deviation, which was a lost opportunity to avert the grounding (5.5). These points highlight the failure in crew resource management as a major contributing factor.
+- name: Training and Familiarity with Equipment
+  percentage: 15
+  explanation: The vessel's ECDIS was not correctly configured for navigation in a narrow channel, which meant the crew were not adequately monitoring the progress of the vessel in support of the pilot, who was navigating mainly by visual references (5.4). This indicates a lack of training and familiarity with the equipment, contributing to the accident.
+- name: Situational Awareness
+  percentage: 20
+  explanation: The bridge team, including the pilot, did not realize how far the vessel had deviated from the intended track because they were not monitoring the vessel's progress effectively and by all available means (5.2). This loss of situational awareness was a direct contributor to the grounding.
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The crew were not using the ECDIS in the correct configuration required by the IMO and company standards when the grounding occurred (4.4). This indicates a lack of adherence to safety procedures, which contributed to the accident.
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The IMO has set standards for passage planning that vessels must adhere to, but there is no corresponding requirement for the passage plans that pilots create and use to meet those same standards (4.3). This gap in regulatory oversight and compliance contributed to the accident by allowing the use of non-standard passage plans.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: 'The analysis of the accident did not directly attribute the cause to a failure in risk management and analysis. However, the lack of a shared understanding of a common passage plan and the incorrect configuration of the ECDIS suggest that risk management processes may not have been fully effective.
+
+    '
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the cause of the accident to the organizational safety culture.
+
+    '
+- name: Training and Competency
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the cause of the accident to training and competency issues.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the cause of the accident to fatigue management issues.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the cause of the accident to emergency response preparedness.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the cause of the accident to maintenance and inspection regimes.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the cause of the accident to the use of automation.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the cause of the accident to weather conditions and decision making.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: There is insufficient information in the document to directly attribute the cause of the accident to communication breakdown.

@@ -175,16 +175,16 @@ Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
 action against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes 
-this final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+this final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
 Ownership of report  
 This report remains the intellectual  property of the Transport Acci dent Investigation Commission.   
 This report may be reprinted in whole or in part without charge, provided that acknowledgement is m ade 
 to the Transport Accident Investigation Commission.  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to industry participants only and not 
 discoverable under the Official Information Act 198 2 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cited.  
+documents referred to during the Commission's inquiry that are publicly available are cited.  
 Photographs, diagrams , pictu res 
 Unless otherwise specified, photographs , diagrams  and pictures included  in this final report  are provided 
 by, and owned by,  the Commission.  
@@ -273,7 +273,7 @@ Figure 5  Schematic of train movements  ................................ .......
 Figure 6  Conges ted track area north of Wellington Station  ................................ ................................ .... 7 
 Figure 7  Old searchlight vs modern LED signals  ................................ ................................ .....................  8 
 Figure 8  Route Indicator  ................................ ................................ ................................ ............................  8 
-Figure 9  Addition of third main line – bi-directional in 2010  ................................ ................................ .. 8 
+Figure 9  Addition of third main line - bi-directional in 2010  ................................ ................................ .. 8 
 Figure 10  A low speed light below two Red lights  ................................ ................................ ....................  10 
 Figure 11  Annual patronage Wellington rail commuter network  ................................ ............................  11 
 Figure 12  Track indication arrows  ................................ ................................ ................................ ............  14 
@@ -312,13 +312,13 @@ a station platform  to a storage yard or maintenance facility
 route indicator  an illuminated display typically found below the signal heads that  tell the 
 driver which route the train is taking, displayed  with one or two characters. 
 The meaning of the charac ters is specific to each signal, but usually follows 
-conventions such as ‘D’ for Down Main  
+conventions such as 'D' for Down Main  
 safety overlap  the section of track  beyond  a signal that is considered to be part of the 
 track before the signal , and acts as a  safety buffer in which a SPAD  train 
 can safely stop   
 SPAD A  when a train passes a perfectly displayed STOP signal without 
 authorisation  
-Tranz log an on-board data recorder that logs details of a train ’s speed, location, 
+Tranz log an on-board data recorder that logs details of a train 's speed, location, 
 control settings, etc (see www.otari.co.nz)  
 Train Examiner  Operations   the role responsible for coupling, uncoupling , brake testing of trains and 
 shunting duties around rail depots and stations  
@@ -334,7 +334,7 @@ Manufacturer : electric multiple unit
 Hyundai Rotem, Korea   
 Operator:  KiwiRail  until July 20161 
 Date and time  28 May 201 6 at 00072 
-Location  Wellington Railway Station  – Signal 100  
+Location  Wellington Railway Station  - Signal 100  
 Persons involved  relay train driver and Train Examiner  Operations ,3 Upper Hutt 
 train with 79 passengers , signalman  
 Injuries  none  
@@ -421,13 +421,13 @@ the relative positions of the two trains.
 time of the incident  
  driver of the Upper Hutt service  
  signalman on duty at the time of the incident  
- KiwiRail’s sig nalling engineers . 
+ KiwiRail's sig nalling engineers . 
 2.5. The C ommission obtained the following documents and records for analysis , including : 
  closed -circuit television recordings from the cameras  on board the relay and Upper 
 Hutt trains  
  signals data from the Wellington Station signalling system  
  training records and medical details  
- KiwiRail’s Crew Res ource Management document ation  
+ KiwiRail's Crew Res ource Management document ation  
  historical signal passed at danger ( SPAD ) data for the Wellington Station area  
  roster details for the relay driver  
  Tranzlog5 data from both the relay train and the Upper Hutt service train  
@@ -443,7 +443,7 @@ in the preparation of the final repor t.
                                                         
 4 A relay train is one that is being moved into or out of service either to or from a storage or servicing facility to deal wit h 
 differences in peak and off -peak demands . 
-5 On-train data reco rder that logs speeds, control settings etc (similar to an aeroplane ’s black box). 
+5 On-train data reco rder that logs speeds, control settings etc (similar to an aeroplane 's black box). 
  
 Final Report RO -2016 -101 
 << Page 3 >>
@@ -453,7 +453,7 @@ Final Report RO -2016 -101
 Consequently , the track layout with the required cross -over points between the main lines on 
 the approaches to the station are congested due to the  limited area available.  The close 
 proximity of the train storage yard and train maintenance facility contribute to  a high  number of 
-train ‘relay’ movements passing through this congested area.  
+train 'relay' movements passing through this congested area.  
 3.1.2.  The majority of r elay movements around  Wellington Station are empty train movements  into 
 and out of the train storage  yard to facilit ate the demands of peak and off -peak times .  
 However , other types of relays include moving trains from one platform to another, taking a 
@@ -470,7 +470,7 @@ relay train.  Also a Waikanae service (depicted in yellow on Figure 2 above) was
 depart Platform 8 at 0014 for the Middle Main , by which time the relay should have been 
 completed . 
 3.1.5.  The trains were all being controlled by a signalbox controller (the signaller) from the Wellington 
-Signal box, locally know as ‘A Box ’ (depicted in red on Figur e 2 above) . 
+Signal box, locally know as 'A Box ' (depicted in red on Figur e 2 above) . 
  
   
 
@@ -485,36 +485,36 @@ left-hand seat but played no part in the relay train movement.
 3.2.2.  It was dark at the time and light r ain was falling.  The driver was using the windscreen wipers on 
 the train , which he reported were working well . 
 3.2.3.  The signaller had pre -set the signals for all three trains departing Wellington.  For the Upper 
-Hutt service from Platform 5 all signals were se t to ‘Green – Proceed’  to the Up Main.  The Relay 
-was signalled to leave Platform 7 with a ‘Yellow – Caution -to-Stop’ signal while the next signal 
-(100) was set to ‘All Red – Stop’.  The Waikanae service was held on Platform  8 by an ‘All Red – 
-Stop’ signal , but the next signal (99) was pre-set to ‘Green – Proceed’ with its route indicator 
-displaying ‘M’ for the Middle Main (see Figure 3).  
+Hutt service from Platform 5 all signals were se t to 'Green - Proceed'  to the Up Main.  The Relay 
+was signalled to leave Platform 7 with a 'Yellow - Caution -to-Stop' signal while the next signal 
+(100) was set to 'All Red - Stop'.  The Waikanae service was held on Platform  8 by an 'All Red - 
+Stop' signal , but the next signal (99) was pre-set to 'Green - Proceed' with its route indicator 
+displaying 'M' for the Middle Main (see Figure 3).  
  
 Figure 3 
 Signal set -up for signals 99 and 100 that the relay driver saw  
 (for full image of signal set -up for all three trains see Appendix 1 ) 
-3.2.4.  The rel ay departed from Platform 7 authorised by the signal displaying a ‘Yellow over Red – 
-Caution -to-Stop’ indica tion.  This meant  the next signal at that time was  set at ‘All Red – Stop’ . 
+3.2.4.  The rel ay departed from Platform 7 authorised by the signal displaying a 'Yellow over Red - 
+Caution -to-Stop' indica tion.  This meant  the next signal at that time was  set at 'All Red - Stop' . 
 3.2.5.  Within seconds  of the relay departing the platform, the passenger service destined for Upper 
 Hutt departed  Platform 5 with 79 passengers on board.  
 3.2.6.  At 0007 , the relay approached signal 100 on the left -hand side  of the track, which was still  
-displaying an ‘All Red – Stop’ indication .   However,  signal 99 on the right -hand side of the track 
-was displaying a ‘Green – Proceed’ indication .  Although it had  a route indicator displaying an 
-‘M’ for the Middle Main , the relay driver mistook the signal  on his right to be  for h is relay and 
+displaying an 'All Red - Stop' indication .   However,  signal 99 on the right -hand side of the track 
+was displaying a 'Green - Proceed' indication .  Although it had  a route indicator displaying an 
+'M' for the Middle Main , the relay driver mistook the signal  on his right to be  for h is relay and 
 
  
 Final Report RO -2016 -101 
 << Page 5 >>
- did not stop his train, passing signal 100 at  ‘All Red – Stop’  (see Figure 4) .  Passing a signal 
+ did not stop his train, passing signal 100 at  'All Red - Stop'  (see Figure 4) .  Passing a signal 
 displaying this indication is classed as a SPAD A6 (signal passed at danger category A). 
  
 Figure 4 
 Signal 100 (left) and  99 (right) as seen by the relay driver  
  
-3.2.7.  The relay driver realised his mistake as he drew level with the ‘Stop’ signal and applied the train 
+3.2.7.  The relay driver realised his mistake as he drew level with the 'Stop' signal and applied the train 
 brakes, bringing the relay movement to a full stop 30 metres (m) beyond the signal.  
-3.2.8.  Simultaneously , the signaller noticed that the relay train had passed the signal at ‘Stop’  and 
+3.2.8.  Simultaneously , the signaller noticed that the relay train had passed the signal at 'Stop'  and 
 waved vigorously  out of the window in an attempt to get the relay movement to stop.  
 3.2.9.  The Upper Hutt service crossed through the set of points directly in front of the relay train 13 
 seconds a fter it had stopped.   (see Figure 5)  
@@ -522,7 +522,7 @@ seconds a fter it had stopped.   (see Figure 5)
 3.2.11.  The incident was reported to Train Control and the driver was relieved of the relay train and 
 taken fo r drug and alcohol testing .
                                                         
-6 SPAD means passing a STOP signal without authorisation.  A ‘SPAD A’ is passing a perfectly displayed STOP signal 
+6 SPAD means passing a STOP signal without authorisation.  A 'SPAD A' is passing a perfectly displayed STOP signal 
 without authorisation.  
 
 
@@ -538,14 +538,14 @@ Final Report RO -2016 -101
 3.3.1.  Both the relay and Upper Hutt service drivers, plus the signaller and TXO , were all certified for  
 their respective roles at the time of the incident.  
 3.3.2.  The relay driver had been certified to drive Matangi units 12 months prior to the incident.  
-3.3.3.  The relay driver was not familiar with the Wellington driver adage used by some that is ‘left 
-leaving  – right arriving ’.  This means  that when leaving Wellington Station  the signals for the 
+3.3.3.  The relay driver was not familiar with the Wellington driver adage used by some that is 'left 
+leaving  - right arriving '.  This means  that when leaving Wellington Station  the signals for the 
 route will be on the left -hand side of the track , and w hen arriving into Wellington the signals are 
 on the right -hand side of the track .  However, when leaving platform 7 both signals 99 and 100 
 appear from the left hand side of the driver until approximately 30 m away , when it becomes 
 clear the train will pass between the two signals and signal 100 is on the left hand side of the 
 train.  
-3.3.4.  The signaller had a total of 41 years’ experience  in Wellington rail, completing the last 11 years 
+3.3.4.  The signaller had a total of 41 years' experience  in Wellington rail, completing the last 11 years 
 as a signaller in Wellington Signalbox, after four years as a signaller in Taita Signalbox.  
 3.3.5.  Following the incident, the relay driver underwent a KiwiRail post -incident drug and alcohol test, 
 which returned a negative (clear) result.  
@@ -581,7 +581,7 @@ to assist drivers to identify which signal is controlling which track
 (see Figure 9) to improve flexibility into and out of Wellington Statio n.  
  
 Figure 9 
-Addition of third main line – bi-directional in 2010  
+Addition of third main line - bi-directional in 2010  
   
 
  
@@ -619,9 +619,9 @@ mistook the Green signal 99 on his right as being for his train and continued pa
 signals had a placard with a white arrow on a black background pointing towards the track to 
 which they applied  (see Figure 4) .  However, the arrow s are not illuminated or reflective and are 
 difficult to see in the dark and the rain.  
-4.2.5.  Additionally, the signal required to get from the platform to the storage yard would be a ‘Red 
-over Red light with a Low Speed Yellow light ’, so the driver should not have taken a ‘Green 
-Proceed ’ indication on either signal (see Figure 10).   
+4.2.5.  Additionally, the signal required to get from the platform to the storage yard would be a 'Red 
+over Red light with a Low Speed Yellow light ', so the driver should not have taken a 'Green 
+Proceed ' indication on either signal (see Figure 10).   
 
 << Page 10 >>
  Final Report RO -2016 -101  
@@ -631,19 +631,19 @@ A low speed light below two Red lights
 thereby narrowly averting a collision w ith the Upper Hutt train, which passed through the cross -
 over 13 seconds later.  
 4.2.7.  No conversation is reported to have taken place between the relay driver and the TXO once in 
-the cab  of the relay train , so the TXO ’s presence  in the cab  did not directly contribute to the 
+the cab  of the relay train , so the TXO 's presence  in the cab  did not directly contribute to the 
 incident .  While in the cab, the TXO could have helped prevent the incident  had he been calling 
 the signals . 
 4.2.8.  The relay train driver had completed similar relay movements before and was familiar with the 
 signals that were applicable to th e possible  route s.  Evidence of this was his immediate 
 recogni tion of his error as he passed the Red signal.   
-4.2.9.  In human factor terms the driver’s mistake is considered a lapse, possibly attributable to him 
+4.2.9.  In human factor terms the driver's mistake is considered a lapse, possibly attributable to him 
 being past the end of his shift late at night, with a less heightened sense of awareness because 
 he was performi ng the additional task of storing  an empty train for the night.  
 4.2.10.  The incident highlights the importance of having checks or defences in a system to counteract 
 the known risk of human error.  This is di scussed in more detail in the following sections.  
 4.3. Suitab ility of the track layout facilitating a modern timetable  
-Safety issue – There is a heightened risk of trains colliding within the approaches to Wellington 
+Safety issue - There is a heightened risk of trains colliding within the approaches to Wellington 
 Station because limited space mak es the track layout congested . 
 4.3.1.  The track layout and associated control system between Wellington Station platforms, and the 
 lines into and out of Wellington and those to the surrounding storage yards or maintenance 
@@ -663,7 +663,7 @@ Final Report RO -2016 -101
 << Page 11 >>
  movem ents.  Computer Based Interlocking  allows complex logic to be implemented, whereas 
 this is considerably more difficult  for lever and relay based interlocking . 
-4.3.4.  The Wellington Signalbox  controlled area is based on 1930s ’ vintage signalling principles and 
+4.3.4.  The Wellington Signalbox  controlled area is based on 1930s ' vintage signalling principles and 
 the associated interlocking is appropriate for a lever based system of this vintage, and remains 
 fit for purpose , although it does not meet modern design standards8. The fundamental 
 principles are the same as those deploy ed today with the exception that more modern computer 
@@ -687,11 +687,11 @@ means the likelihood  of collisions  is increase d, but the potential consequenc
  
 Figure 11 
 Annual patronage Wellington rail commuter  networ k 
-4.3.9.  Compar ing the relatively modern 2010 Britomart Auckland  design  to the 1930s ’-design ed 
+4.3.9.  Compar ing the relatively modern 2010 Britomart Auckland  design  to the 1930s '-design ed 
 Wellington Signalbox controlled area shows some similarities and differences between the two .  
 Both are terminating station s and have the highest patronage in their respective areas.  
 4.3.10.  Operationally , Britomart Auckland has five platforms fed from two tracks compared to 
-Wellington ’s four tracks fe eding nine platform s.  Additionally , Britomart has maintenance 
+Wellington 's four tracks fe eding nine platform s.  Additionally , Britomart has maintenance 
 depots located some distance away, there are no requirement s for relays, the signals and 
                                                         
 8 Modern design features could include safety overlaps, Automatic Train Protection and the European Train 
@@ -739,7 +739,7 @@ strategy for the metropolitan rail system , with a view to addressing the issues
 Meanwhile, there is a need to further mitigate the r isks that the current system poses , and t his 
 issue is discussed in the following sections . 
 4.4. Risk management  
-Safety issue – There are a number of reasonable measures that had not been taken to further 
+Safety issue - There are a number of reasonable measures that had not been taken to further 
 reduce the risk of trains colliding withi n the approaches  to Wellington Station, such as : 
 providing better recognition of signals; standard procedures for signalling trains through the 
 area; and better communication between train drivers and persons controlling the trains.  
@@ -771,7 +771,7 @@ SPAD) .
 Final Report RO -2016 -101 
 << Page 13 >>
  4.4.5.  It had also become  accepted practice for signallers to pre-set part of the route ahead for a 
-service and hold the train at the platform on  a Red signal to help spread the signaller ’s 
+service and hold the train at the platform on  a Red signal to help spread the signaller 's 
 workload .  
 4.4.6.  KiwiRail had  no written guidelines, instructions or procedures on how early  a signaller  can pre-
 set part of the route prior to a planned departure . 
@@ -785,14 +785,14 @@ driver boarded his train and moved off with no knowledge of what other movements
 affecting the movement of his train  or what the route to his destination would be . 
 4.4.9.  The holding of a relay at the platform with a Red signal until the driver is on board and ready to 
 depart would ensure the driver would need to call the signaller to request a light to depart.  This 
-would give the signaller the opportunity to confirm with the driver his train’s destina tion, the 
+would give the signaller the opportunity to confirm with the driver his train's destina tion, the 
 route it will take and any priority constraints .  In this case, if it was deemed necessary to move 
-the relay train off the platform  and up to signal  100, typical information could read ‘cleared to 
-depart Platform 7 for the yard in accordance with  signals  – likely  hold at signal 100 for passage 
-of the Upper Hutt Service departing Platform 5 ’.  Such communication would put the driver on 
+the relay train off the platform  and up to signal  100, typical information could read 'cleared to 
+depart Platform 7 for the yard in accordance with  signals  - likely  hold at signal 100 for passage 
+of the Upper Hutt Service departing Platform 5 '.  Such communication would put the driver on 
 alert that there was a conflicting movement in parallel and crossing his train.  
-4.4.10.  KiwiRail’s ‘Local Instructions – Operating Procedures Tranz Metro Wellington’ (Rev 9 dated 
-2/9/15) document states in section ‘5.4 Platform/Platform Relays’:  
+4.4.10.  KiwiRail's 'Local Instructions - Operating Procedures Tranz Metro Wellington' (Rev 9 dated 
+2/9/15) document states in section '5.4 Platform/Platform Relays':  
 Before taking a relay movement from the platform, the Locomotive Engineer must call A Box for the intended 
 movement . 
 It is unclear why th ere is a  requirement for a driver to interact with the signaller only for  
@@ -806,7 +806,7 @@ focus on the correct signal , thereby averting the incident.
 4.4.12.  Finally, when the signaller realised there  had been a SPAD , his spontaneous  reaction was to 
 wave out of the window of the Wellington Signalbox to try and attract the attention of the relay 
 train driver in the dark and rain .  A more eff ective  way to have communicated the problem 
-would have been to use the available radio and call ‘stop, stop, stop ’, thereby stopping both 
+would have been to use the available radio and call 'stop, stop, stop ', thereby stopping both 
 trains . 
 Signal definition  
 4.4.13.  The potential for a driver to confuse  signals 99 and 100 was partially address ed in 2005 by the 
@@ -850,8 +850,8 @@ Final Report RO -2016 -101
   
 Figure 13 
 Possible parallel movements and associated track zones  
-4.4.19.  This meant that the signal for the Upper Hutt service , displaying a ‘Green – Proceed’ indication , 
-did not revert to ‘All Red – Stop’ despite the incursion of the relay movement towards the same 
+4.4.19.  This meant that the signal for the Upper Hutt service , displaying a 'Green - Proceed' indication , 
+did not revert to 'All Red - Stop' despite the incursion of the relay movement towards the same 
 convergence of points.  It is debatable whether  the Upper Hutt  service would have had time to 
 stop before colliding with the relay train if the relay had continued into the conflict area .  
 However, had the signals for the Upper Hutt bound train reverted to Red as soon as the relay 
@@ -865,7 +865,7 @@ stop before it occupies the points area.  However, in this case the driver was a
 train just short of the conflict zone and avoid a potential collision.  There may therefore be some 
 safety benefi t from having such devices installed in some cases.  
                                                         
-12 A signal trip is an arm which automatically raises when a signal is at ‘All Red – Stop’ .  It catches on the brake trip lever 
+12 A signal trip is an arm which automatically raises when a signal is at 'All Red - Stop' .  It catches on the brake trip lever 
 mount ed low on the side of a train and automatically applies the train brakes if the train passes a signal at  red. 
 
 
@@ -875,7 +875,7 @@ Figure 14
 A signal trip installed at Signal 39 (left) and the brake trip lever on a Matangi train (right)  
 4.4.21.  KiwiRail has said that  the current mitigation actions against  train collisions and minimising 
 damage to passengers and rolling stock in the event of a collision in this area are: 
- for the driver to always stop at an ‘All Red – Stop’ signal  
+ for the driver to always stop at an 'All Red - Stop' signal  
  a 20 kilometre -per-hour  speed restriction in the area to ensure any collision is at a 
 relatively low speed  
  the crashworthiness of the various train vehicle designs to minimise impact damage 
@@ -924,13 +924,13 @@ recommendation; and
 (b) safety  actions taken by the regulator  or an operator  to address other safety issues that would 
 not normally result in the Commission issuing a recommendation.  
 Safety a ctions  addressing safety issues identified during an inquiry  
- KiwiRail held  a Signal’s Sighting Committee r eview of signal s in this A Box controlled area  
+ KiwiRail held  a Signal's Sighting Committee r eview of signal s in this A Box controlled area  
 (see Appendix 4)  
  Transdev Wellington has: 
 o undertaken some re training of the relay driver   
-o added the relay dr iver to the ‘at-risk register ’ for increased frequency of safety 
+o added the relay dr iver to the 'at-risk register ' for increased frequency of safety 
 observations and supervision  
-o reminded  all staff of the requirements of Rule 117  (October 2017 staff briefing – 
+o reminded  all staff of the requirements of Rule 117  (October 2017 staff briefing - 
 see Appendix 5). 
  
   
@@ -967,8 +967,8 @@ Notice in accordance with section 36 of the Railways Act 2005 requiring KiwiRail
 prepare a Safety Improvement Plan to address the implementatio n of non -technical 
 skills into its rail operations.   
 On 1 November 2017, the NZ Transport Agency updated the Commission as follows:  
-The Transport Agency approved KiwiRail’s Safety Improvement Plan regarding non -
-technical skills in April 2017. In their most  recent update on the Non –Technical 
+The Transport Agency approved KiwiRail's Safety Improvement Plan regarding non -
+technical skills in April 2017. In their most  recent update on the Non -Technical 
 Skills project KiwiRail reported that the project is on time, within budget and meeting 
 the project specifications. As of 13 October 2017, the Transport Agency has also 
 agreed to the integration of stabilised approach an d risk -triggered commentary 
@@ -1117,7 +1117,7 @@ Final Report RO -2016 -101
 Recent railway occurrence reports published by  
 the Transport Accident Investigation Commission  
 (most recent at top of list)  
-RO-2016 -102 Train 140 passed Signal 10R at ‘Stop’, Mission Bush Branch line, Paerata, 
+RO-2016 -102 Train 140 passed Signal 10R at 'Stop', Mission Bush Branch line, Paerata, 
 25 October 2016  
 RO-2015 -103 Track occupation irregularity, leading to near collision, between Manunui 
 and Taumarunui, 15 December 2015  

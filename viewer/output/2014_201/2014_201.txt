@@ -183,7 +183,7 @@ Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
 action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
-makes this final report inadmissible as evidence in any proc eedings with the exception of a Coroner’s 
+makes this final report inadmissible as evidence in any proc eedings with the exception of a Coroner's 
 inquest.  
  
 Ownership of report  
@@ -192,10 +192,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 made to the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be a ccessible to industry participants only and not 
 discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cited.  
+documents referred to during the Commission's inquiry that are publicly available are cited.  
  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
@@ -265,7 +265,7 @@ MetService  Meteorological Service of New Zealand
  
 Glossary  
 bilge  a well into which seepage drains to be pumped away  
-bow-pulpit  an extension  of the deck, usually encircled by a ‘U’ shaped handrail that 
+bow-pulpit  an extension  of the deck, usually encircled by a 'U' shaped handrail that 
 opens to the deck.  The pulpit may house navigation lights, cleats, the anchor 
 roller and  the anchor as well as provid e a place to stand at the very forepart of 
 the vessel  
@@ -280,7 +280,7 @@ footwell  a boxed opening  in the deck of a small vessel affording more comforta
 seating for passengers  
 FRP tabbing  a typical vessel construction , which invol ves bonding structures to the hull 
 with strips of fibreglass cloth wetted with resin  
-gunwale  the upper edge of a vessel’s hull  
+gunwale  the upper edge of a vessel's hull  
 knuckle line a small step in the surface of a hull shell, usually inserted for cosmetic 
 reasons.  It provides discontinuity in the structure that can act to concentrate 
 the stresses acting on a laminate, which in turn increase s the likelihood of a 
@@ -293,7 +293,7 @@ scupper  an opening cut through the bulwarks of a vessel so that water falling o
 may flow overboard  
 shoulder  an area of a vessel between the bow and the main width of the vessel , usually 
 where the hull widens as in a shoulder on a person  
-slamming  a term that describes the heavy contact of a ship’s forepart when pitching in a 
+slamming  a term that describes the heavy contact of a ship's forepart when pitching in a 
 seaway. This is a violent co ntact and may cause ship damage . The effect of 
 slamming  can usually be tempered  by a reduction in speed  
 squall  a sudden, violent wind often accompanied by rain  
@@ -339,7 +339,7 @@ Final report MO -2014 -201
  1. Executive summary  
 1.1. At about 1000 on Sunday 23 February 2014, the charter passenger catamaran2 Dream 
 Weaver  departed Westhaven Marina in Auckland f or a dolphin - and whale -watching trip in 
-Auckland’s Hauraki Gulf.  There were 36 passengers and a crew of four on board, comprising 
+Auckland's Hauraki Gulf.  There were 36 passengers and a crew of four on board, comprising 
 the master, the manager, the deckhand and a hospitality worker.  
 1.2. The weather conditions were forecast to deteriorate througho ut the day, with winds predicted 
 to reach 40 knots from the southwest by evening.  
@@ -356,31 +356,31 @@ compartment of the port hull.
 1.6. The suction pipe on the primary bilge pum p had become blocked with debris and the 
 deckhand had not been trained to operate the secondary bilge -pumping arrangement.  With 
 the master committed  to controlling  the vessel, the crew were unable to pump out the water.  
-1.7. The master made a “Mayday ” distress  call as he sought shelter by taking the Dream Weaver  
+1.7. The master made a "Mayday " distress  call as he sought shelter by taking the Dream Weaver  
 closer to the shore.  Several Royal New Zealand  Coastguard vessels and the New Zealand 
 Police launch responded.  The Dream Weaver  reached the shelter of a bay, where the 
 passengers were transferred to t he Police launch and taken back to Auckland.  With the help 
 of salvage pumps from the Coastguard, the Dream Weaver  was able to continue to the nearby 
 Gulf Harbour Marina, where it was lifted out of the water  for inspection and repair.  
 1.8. The Transport Acciden t Investigation Commission (Commission) found that after 16 years of 
-continu al operation the Dream Weaver ’s hull had failed in a typically high stress area for 
-catamaran vessels  – in the bridge deck structure near the bow; and that the Dream Weaver  
+continu al operation the Dream Weaver 's hull had failed in a typically high stress area for 
+catamaran vessels  - in the bridge deck structure near the bow; and that the Dream Weaver  
 had bee n driven too hard, outside its permitted wave -height/speed limits, for the sea 
 conditions at the time, causing the hull to rupture at its most vulnerable point , the weakened 
 areas near the bow.   
-1.9. The Commission also found that the operator’s Safe Ship M anagement system  (prescribed by 
+1.9. The Commission also found that the operator's Safe Ship M anagement system  (prescribed by 
 Maritime New Zealand)  had not addressed the following safety issues:  
- poor ‘housekeeping ’ practices on board that prevented the bilge -pumping system working  
+ poor 'housekeeping ' practices on board that prevented the bilge -pumping system working  
  a lack of sufficient crew training for emergency equipment, meaning the crew were 
 unable to control the flooding  
  the wave -height/speed operating restrictions for the vessel were not  conspicuously 
 promulgated and enforced.  
 1.10.  One recommendation has been  made to the Director of Maritime New Zealand for him to 
-ensure that the Dream Weaver  is fit for its intended purpose and that the operator’s safety 
+ensure that the Dream Weaver  is fit for its intended purpose and that the operator's safety 
 management system is working as it should.  
                                                         
 2 A vessel with two hulls of equal length . 
-3 A term that describes the heavy contact of a ship’s forepart when pitching in a seaway. This is a violent 
+3 A term that describes the heavy contact of a ship's forepart when pitching in a seaway. This is a violent 
 contact and may cause ship damage. The effect of slamming can usually be tempered by a reduction in 
 speed . 
 4 A well into which seepage drains to be pumped away.  
@@ -390,8 +390,8 @@ speed .
  because of their qualities and characteristics , catamarans can easily  be operated outside 
 their design parameters with catastrophic consequences.  It is paramount that skippers 
 be aware of and keep within any operating restrictions  
- fibre-reinforced  plastic’s strength degrades with cyclic loading, which is usually 
-synonymous  with a vessel’s age.  Operators and surveyors should factor in vessel s’ ages 
+ fibre-reinforced  plastic's strength degrades with cyclic loading, which is usually 
+synonymous  with a vessel's age.  Operators and surveyors should factor in vessel s' ages 
 when inspecting, maintaining and setting operating parameters for such vessels  
  heading in the same direction as the wind and waves in a boat can be deceptively benign.  
 When on r eturn trip s, skippers must be absolutely aware of how their vessel s will perform 
@@ -415,7 +415,7 @@ learned through the media of an accident involving the passenger vessel Dream We
 had occurred on Sunday 23 February 2014 at about 1340.   
 2.2. The Commission opened an inquiry into the occurrence under section 13(1) of the Transport 
 Accident Investigat ion Commission Act 1990 , and appointed an investigator in charge.   
-2.3. On 24 February two  investigators accompanied by the Commission’s general counsel  travelled 
+2.3. On 24 February two  investigators accompanied by the Commission's general counsel  travelled 
 to Auckland.  On 25 February the investigators inspected the vessel ; collected evidence ; and 
 interviewed the master and the manager of the vessel .  One of t he investigators remained 
 behind for another day to complete the remainder of the interviews with the crew.  
@@ -446,8 +446,8 @@ Dream Weaver  departs Westhaven
 Marina at 1000  
 dolphin watching takes place in this area  
 master decides to return to marina  
-Part of chart NZ 532 ‘Approaches 
-to Auckland ’. 
+Part of chart NZ 532 'Approaches 
+to Auckland '. 
 Sourced from Land Information 
 New Zealand data.  
 Crown Copyright Reserved  
@@ -457,7 +457,7 @@ Dream Weaver  anchors
 to disembark 
 passengers  
 in Okoromai Bay  
-master notices vessel “heavy” on port 
+master notices vessel "heavy" on port 
 bow 
 Whangaparoa Passage  
 Kawau Island  
@@ -470,7 +470,7 @@ Final report MO -2014 -201
  3. Factual information  
 3.1. Narrative  
 3.1.1.  During the evening of Saturday 22 February 2014, the manager of the Dream Weaver  
-contacted the vessel’s master to discuss if the weather forecast was suitable for the trip 
+contacted the vessel's master to discuss if the weather forecast was suitable for the trip 
 planned for the next day .   
 3.1.2.  The manager  and the master of the vessel decided to dela y the decision until 0600 the next 
 day, when a better estimate of the weather could be made . 
@@ -501,7 +501,7 @@ weather, and then at about 1315 brought the vessel on  to a course that was appr
 south -southwest  towards the Whangaparaoa Passage  (see Figure 1) .  Within a few minutes of 
 bringing the vessel on to the new course , the vessel  was engulfed in a rain squall5.  During the 
 squall the master slowed the vessel and adjusted its course to encounter the waves on the 
-vessel’s shoulder6.   
+vessel's shoulder6.   
 3.1.9.  Once the squall had passed the master continued on his course to the Whangaparoa  Passage  
 and increased the speed  of the vessel .  The vess el was heading into the seas  and started 
 taking water over the bow.  Two of the passengers who were sitting outside in the foredeck  
@@ -532,7 +532,7 @@ space .  The deckhand attempted to arr ange this but h e was unsure which valves
 so he returned to the wheelhouse and told the master . 
 3.1.13.  Around this time the master issued a distress (Mayday) call on very -high-frequency radio 
 channel 16 , which was logged by Auckland Maritime Radio at 1 340.  Auckland Maritime Radio 
-answered the master’s call and issued a Mayday relay call for the Auckland region .  At 1342 
+answered the master's call and issued a Mayday relay call for the Auckland region .  At 1342 
 the Coastguard responded to the Mayday relay call .   
 3.1.14.  The master later said that during this period his whole focus had been  on getting the vessel 
 close to land so that he could beach the vessel if necessary .  The crew  handed out the 
@@ -540,7 +540,7 @@ lifejackets and ensured that everyone donned the lifejackets correctly.  The dec
 returned to the engine compartment to try to get the bilge pumps s tarted , but was 
 unsuccessful.  
 3.1.15.  At 1348 a Coastguard vessel was alongside the Dream Weaver , with other Coas tguard vessels  
-nearby responding.  A Police launch from Auckland a nd a harbourmaster’s launch  were also 
+nearby responding.  A Police launch from Auckland a nd a harbourmaster's launch  were also 
 responding .  The first Coastguard vessel escort ed the Dream Weaver  into Okoromai Bay (see 
 Figure 1) where the master anchored the vessel.  
 3.1.16.  Once the Dream Weaver  was anchored in Okoromai Bay the passengers were transferred by 
@@ -556,7 +556,7 @@ Final report MO -2014 -201
 << Page 7 >>
  3.2. Post-accident  examination and testing  
 Structural  
-3.2.1.  The examination of the Dream Weaver’s  hull and superstructure revealed  that: 
+3.2.1.  The examination of the Dream Weaver's  hull and superstructure revealed  that: 
  the underside of the bridgedeck had damage to the fibr e-reinforced  plastic (FRP) 
 laminate on both sides of the centre bow , including a rupture of the hull  skin that had 
 allowed water to enter the port hull (see Figure 3) 
@@ -578,7 +578,7 @@ repair
  in the lower port cabin a non -structural plywood frame had broken away from the hul l 
 where the FRP tabbing13 had delaminated , and the frame itself had snapped at either 
 end. 
-3.2.2.  The examination also noted the following ‘housekeeping ’ issues:  
+3.2.2.  The examination also noted the following 'housekeeping ' issues:  
  the port forward bilge well was partially filled with a bucket, cardboard and other small , 
 loose items.  Some of this matter was blocking the bilge pump strainer (see Figures 6 and 
 7)  
@@ -591,10 +591,10 @@ Figure 8).
                                                         
 7 A small hydrofoil located between the two hulls of a catamaran to lift the vessel and reduce resistance and 
 so improve the performance  of the vessel . 
-8 The upper edge of a vessel’s hull . 
+8 The upper edge of a vessel's hull . 
 9 A compartment  where the chain or cable of an anchor is stowed when the anchor is raised . 
 10 A boxed opening  in the deck of a small vessel affording more comfortable seating for passengers . 
-11 An extension  of the deck, usually encircled by a ‘U’ shaped handrail that opens to the deck.  The pulpit may 
+11 An extension  of the deck, usually encircled by a 'U' shaped handrail that opens to the deck.  The pulpit may 
 house navigation lights, cleats, the anchor roller and  the anchor as well as provid e a place to stand at the 
 very forepart of the vessel . 
 12 An elevate d metal guardrail extending around the bow or stern of a yacht or other small vessel . 
@@ -634,7 +634,7 @@ and delamination
 red line shows approximate 
 shape and location of hull skin 
 rupture.  Red dots show where 
-the hull skin was ‘torn’  
+the hull skin was 'torn'  
 centre bow  
 knuckle line  
 knuckle line  
@@ -709,7 +709,7 @@ Final report MO -2014 -201
 << Page 13 >>
  4. Analysis  
 4.1. Introduction  
-4.1.1.  The Dream Weaver ’s hull design was typical for the period in which  it was built.  The bridge  
+4.1.1.  The Dream Weaver 's hull design was typical for the period in which  it was built.  The bridge  
 deck was closer to the waterline than more modern -style catamarans, which typically have  
 bridge deck s higher out of the water to reduce wave slamming forces .  
 4.1.2.  The hull was constru cted of single -skin FRP laminate with timber structural components.  
@@ -736,7 +736,7 @@ Ageing
 4.2.1.  The Dream We aver was built in about 1997 and , from what records were available , it had 
 been in continu al operation  since , other than  for the usual periods of layover for maintenance.  
 Thus the Dream Weaver  had spent approximately 16 years in operation.   
-4.2.2.  The general degradation and delamination of the Dream Weaver ’s hull shell laminate was 
+4.2.2.  The general degradation and delamination of the Dream Weaver 's hull shell laminate was 
 symptomatic of the fatigue failure mechani sm described by Eric Greene Associates.  
 4.2.3.  Eric Greene is a pre -eminent expert in marine composites.  He noted in his publication Marine 
 Composites:  
@@ -764,7 +764,7 @@ of the vessel, be it a sailing yacht or a high -speed power craft.
 4.2.5.  A glass laminate being only 20% of its original strength does not , however , mean that it will 
 fail.  Vessels are generally designed with suf ficient scantlings16 to absorb normal operating 
 forces as the ir strength deteriorates  with age and use.   
-4.2.6.  It is difficult to estimate the number of  load cycles  to which  the Dream Weaver ’s bow structure 
+4.2.6.  It is difficult to estimate the number of  load cycles  to which  the Dream Weaver 's bow structure 
 would have been subjected in 16 years.  It would  have  depend ed, on average, on how often 
 and how hard the vessel was driven and in what sea conditions.  It is safe to say , however, 
 that the glass laminate in the bow region was significantly less strong than when it had been  
@@ -788,7 +788,7 @@ Tensile fatigue comparison of materials (Gougeon Brothers)
 Final report MO -2014 -201 
 << Page 15 >>
  displayed on the bridge that shows the limits for speed and wave height in which 
-the craft can operate. It is the master’s responsibility to ensure that the craft 
+the craft can operate. It is the master's responsibility to ensure that the craft 
 stays within those limits.     
 [Catamarans] CAN be driven outsi de their permitted envelope, but they MUST not 
 be.  Operating a [catamaran] is much more like flying an airplane, or even driving 
@@ -797,7 +797,7 @@ to go too fast for the conditions, and br eak the ship, capsize, or otherwise en
 catastrophically. (Chris B McKeeson, 2009)   
 4.2.9.  With respect to the forces acting on the structure in a catamaran design , McKeeson says the 
 forces on the structure are driven by dynamic events rather than static conditions.  That is to 
-say, the forces on the structure are dominated by the vessel ’s response to waves.  Owing  to 
+say, the forces on the structure are dominated by the vessel 's response to waves.  Owing  to 
 the high accelerations there is high pressure and the dominant forces are localised.   
 4.2.10.  There are two origins of fatigue in the bridgedeck structure between the bows:  
  cyclic loading due to the buoyancy of the two hulls responding to waves 
@@ -810,7 +810,7 @@ slams.
 shape of the hull shell.  Figure s 2 and 4  show the two areas of general laminate degradation 
 along the knuckle lines18 either side of the centre bow structure, of which one fail ed or 
 ruptured totally in this accident.  These areas are  likely to be where (for the Dream Weaver ) 
-the cyclic stress field overwhelm ed the ‘fatigue endurance limit ’ of the hull shell laminate.  The 
+the cyclic stress field overwhelm ed the 'fatigue endurance limit ' of the hull shell laminate.  The 
 fatigue endurance limit describes the structural performa nce of a material over time.  It is a 
 function of the magnitude of stress applied to a material, and the number of cycles in which 
 that stress can be applied before  the failure of the material.  For example , a typical fatigue 
@@ -828,7 +828,7 @@ of the two hydrofoil tie rods had been bent.  This damage was indicative of the 
 a submerged object , rather than normal operating forces .  This possibly resulted  from one of 
 the two groundings known to have occurred since it had been  fitted.  
 4.2.15.  The hydrofoil usually exert s an upward force on the hull throu gh the attachment points on the 
-port and starboard hulls and through the central strut into the vessel ’s longitudinal centre 
+port and starboard hulls and through the central strut into the vessel 's longitudinal centre 
 bulkhead . 
 4.2.16.  However , it is unlikely that the hydrofoil contributed directly to the hull shell laminate failure 
 that resulted in the f looding , because the hull ruptured at a different place from where the 
@@ -853,11 +853,11 @@ of over -side openings or remov ing the washboards in inclement weather.
 Speed  and wave height  
 4.2.19.  The MetService weather forecast for the day and sea area where the accident occurred was 
 for wind from the southwest 15 knots rising to 25 knots , gusting 35 knots around midday, and 
-to 30 knots gu sting 40 knots in the  evening  – sea becoming rough around midday.  
+to 30 knots gu sting 40 knots in the  evening  - sea becoming rough around midday.  
 4.2.20.  The weather between 1300 and 1400 ( the time of the accident) , recorded  at the Tiritiri 
 Matangi Island automatic weather st ation , was a 23 -knot south -south west wind with average 
 gusts of 31 knots and a maximum gust of 33 knots , very similar to what had been forecast.  
-4.2.21.  The company ’s written procedures were silent on the maximum wind speed or sea state  in 
+4.2.21.  The company 's written procedures were silent on the maximum wind speed or sea state  in 
 which  the vessel could operate .  The decision on whether a trip would proceed was left to t he 
 master alone.  
 4.2.22.  Putting aside passenger comfort, it is the sea state that most ly affects the safety of catamaran 
@@ -867,7 +867,7 @@ degrees when operating in and around inshore waters.  Relatively smooth seas can
 in the lee of land even when the wind is strong.  The greater the distance the wind blows 
 across the sea uninterr upted by land, the bigger the waves will become19. 
 4.2.23.  The topography of the Hauraki Gulf is such that when the wind blows  from the southwest the 
-seas get rougher the farther out into the G ulf a vessel g oes.  The master’s decision to proceed 
+seas get rougher the farther out into the G ulf a vessel g oes.  The master's decision to proceed 
 with the trip in th e forecast weather conditions was not inappropriate provided he intended to 
 stay within the inner Hauraki Gulf, the area where the vessel had made contact and interacted 
 with the pod of dolphins.  
@@ -878,15 +878,15 @@ current opposes the direction of the wave s, the waves shorten, rise up and stee
 more difficult conditions for small vessels.  
 4.2.25.  It was highly likely that the observable wave height at the time and place of the accident 
 exceeded 2.2 metres, as evidenced by the recorded weather condition s and the statements 
-from the passengers and crew.  A t that time  the Dream Weaver ’s speed should have been 
+from the passengers and crew.  A t that time  the Dream Weaver 's speed should have been 
 kept to under 10 knots, and heavy slamming forces under the bow region should have been 
 avoided.  The deckhand recalled seeing on the GPS readout tha t the speed at that time was 
 about 11.7 knots.  
 4.2.26.  The skipper was vaguely aware of the wave -height/speed restriction table, but rarely 
 considered it when operating the Dream Weaver .  This is unsurprising given that the table had 
                                                         
-19 The length of water over which a given wind has blown is referred to as the ‘fetch’.  
-20 The National Institute of Water and Atmospheric Res earch ’s tide forecaster program predicted the time of 
+19 The length of water over which a given wind has blown is referred to as the 'fetch'.  
+20 The National Institute of Water and Atmospheric Res earch 's tide forecaster program predicted the time of 
 high water near Tiritiri Matangi Island for 1400.  
  
 Final report MO -2014 -201 
@@ -952,11 +952,11 @@ Weaver .  The storage of the LPG gas bottle on the deck was one.
 Final report MO -2014 -201 
 << Page 19 >>
  5. Findings  
-5.1. The Dream Weaver ’s hull ruptured in one of two areas weakened by general degradation and 
+5.1. The Dream Weaver 's hull ruptured in one of two areas weakened by general degradation and 
 delamination of hull shell laminate near the centre bow, allowing seawater to flood the port 
 forward hull compartment.  
 5.2. The f ibre-reinforced  plastic used in earlier boat -building  times  loses strength due to cyclic 
-loading over time.  After 16 years of continu al operation the Dream Weaver ’s hull failed in a 
+loading over time.  After 16 years of continu al operation the Dream Weaver 's hull failed in a 
 typically high stress  area for catamaran vessels : in the bridge deck structure near the bow . 
 5.3. The Dream Weaver  was being driven too hard , outside its permitted wave -height/speed 
 limitations,  for the sea conditions at the time, causing the hull to rupture at its most 
@@ -964,7 +964,7 @@ vulnerable point : the weakened areas near the bow.
 5.4. The master and crew were unable to pump out the flooded bow compartment for two reasons:  
  the bilge suctions were blocked by arti cles and debris  
  the crew had not been trained in the operation of the bilge -pumping arrangement s. 
-5.5. The operator ’s safety management system for the Dream Weaver  did not ensure  that: 
+5.5. The operator 's safety management system for the Dream Weaver  did not ensure  that: 
  wave -height/speed operating restrictions for the vessel were conspicuously p romulgated 
 and enforced  
  the crew were adequately trained for emergency procedures  
@@ -1009,12 +1009,12 @@ These safety issue s collective ly show that the Safe Ship Management  for the D
 operation was not functioning as it should.  
 On 28 October 2015  the Commission recommended that the Chief Executive of Maritime New 
 Zealand review the Dream Weaver  operation with a view to ensuring  that the Dream Weaver  is 
-fit for its inten ded purpose and that the operator’s safety management system , or the 
+fit for its inten ded purpose and that the operator's safety management system , or the 
 succeeding MOSS system , is operating as it should. (016/15)  
 6.3.1.  On 17 November 2015, Maritime New Zealand replied:  
 Subsequent to this accident, the Dream Weaver operation entered the MOSS 
 system.  It was through this process that Maritime New Zealand reviewed the 
-Dream Weaver’s fitness for purpose and the operator’s safety management 
+Dream Weaver's fitness for purpose and the operator's safety management 
 system to ensure it was operating as it should.  
  
   
@@ -1025,8 +1025,8 @@ Final report MO -2014 -201
 7.1. Because of their qualities and characteristics , catamarans can easily be operated outside 
 their design parameters with catastrophic consequences.  It is paramount that skippers be 
 aware of and keep within any operating restrictions.  
-7.2. FRP’s strength degrades with cyclic loading, which is usually synonymous  with a vessel’s age.  
-Operators and surveyors should factor in vessel s’ ages when inspecting, maintaining and 
+7.2. FRP's strength degrades with cyclic loading, which is usually synonymous  with a vessel's age.  
+Operators and surveyors should factor in vessel s' ages when inspecting, maintaining and 
 setting operating parameters for such vessels.  
 7.3. Heading in the same direction as the wind and waves in a boat can be deceptively benign.  
 When on return trip s, skippers must be absolutely aware of how their vessel s will perform 
@@ -1254,7 +1254,7 @@ MO-2014 -202 Lifting sling failure on freefall lifeboat, general cargo ship Da D
 14 April 2014  
 11-204 Container  ship MV Rena grounding, on Astrolabe Reef, 5 October 2011  
 13-201 Accommodation fire on board the log -carrier, Taokas Wisdom, Nelson, 11 July 2013  
-13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke’s Bay, 8 August 2013  
+13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke's Bay, 8 August 2013  
 12-202 Fishing vess el Torea , collision with uncharted rock, Foveaux Strait, 24 August 2012  
 09-210 Bulk carrier, Taharoa Express , cargo shift, Port Taharoa, 16 December 2009  
 10-204 Inquiry 10 -204:  Bulk carrier Hanjin Bombay , grounding, Mount Maunganui, 21 June 

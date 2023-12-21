@@ -1,0 +1,2256 @@
+﻿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Final Report  AO-2013-003: Robinson R66, ZK -IHU,  
+Mast bump and in -flight break -up, Kaweka Range, 9 March 2013  
+ 
+ 
+ 
+Double engine power loss , Near Springston, Canterbury , 5 May 2014  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor  the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the  
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Final Report  
+Aviation inquiry AO-2013-003 
+Robinson R66, ZK -IHU 
+Mast bump and in-flight break -up 
+Kaweka Range, 9 March 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : April 2016  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for  inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  
+co-ordinating and co -operating with other accident investigation organisations overseas .  The principal 
+purpose of its inquiries is to determine the circumstances and causes of occurrence s with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informing members of the transport sector, both 
+domestically and internationally, of the lessons that can be learnt from transport accidents and 
+incidents.   
+ 
+Commissioners  
+Chief Commissioner    Helen Cull, QC  
+Deputy Chief Co mmissioner   Peter McKenzie, QC  
+Commissioner     Jane Meares  
+Commissioner     Stephen Davies Howard   
+ 
+Key Commission personnel  
+Chief Executive       Lois Hutchinson  
+Chief Investigator of Accidents     Captain Tim Burfoot  
+Investigator in Charge      Peter R Williams  
+General Manager Legal and Business Services   Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+  
+Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any p roceedings with the exception of a Coroner's inquest.  
+ 
+Ownership of report  
+This report remains the intellectual  property of the Transport Acci dent Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that ac knowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally b e accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs , diagrams, pictures  
+Unless otherwise specified, photographs , diagrams  and pictures included  in this final report  are provided 
+by, and owned by,  the Commission.  
+ 
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe the degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  >  99% probability of occurrence  Almost certain  
+Very likely  >  90% probability  Highly likely, very probable  
+Likely  >  66% probability  Probable  
+About as likely as not  33 to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly  unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+Robinson Helicopter R66, ZK -IHU 
+Photograph provided by the operator
+
+  
+ 
+Location of accident  
+ 
+  
+Legend  
+ Northern Kaweka Range  
+  
+  
+  
+ 
+ 
+ 
+  
+  
+ 
+Source: mapsof.net  
+Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ ............................  iii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+Safety issues  ................................ ................................ ................................ ................................ .............  1 
+Findings   ................................ ................................ ................................ ................................ ...................  2 
+Recommendations  ................................ ................................ ................................ ................................ .... 2 
+Key Lessons  ................................ ................................ ................................ ................................ ...............  3 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  4 
+3. Factual information  ................................ ................................ ................................ ................................ ... 5 
+3.1. Narrative  ................................ ................................ ................................ ................................ .... 5 
+3.2. Personnel  information  ................................ ................................ ................................ ..............  5 
+3.3. Aircraft information  ................................ ................................ ................................ ...................  7 
+ General  ................................ ................................ ................................ ................................ ...... 7 
+ Flight recorders  ................................ ................................ ................................ .........................  8 
+3.4. Meteoro logical information  ................................ ................................ ................................ ...... 9 
+3.5. Wreckage and impact information  ................................ ................................ ...........................  9 
+3.6. Medical and pathological information  ................................ ................................ ..................  10 
+3.7. Survival aspects  ................................ ................................ ................................ .....................  11 
+3.8. Organisational and management information  ................................ ................................ ..... 11 
+3.9. Special training requirements for pilots of Robinson helicopters  ................................ ....... 11 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  14 
+4.1. Introduction  ................................ ................................ ................................ ............................  14 
+4.2. What happened?  ................................ ................................ ................................ ....................  14 
+4.3. Safety issues  ................................ ................................ ................................ ..........................  16 
+4.4. Certification process for the R66  ................................ ................................ ..........................  17 
+ Helicopter response to low G  ................................ ................................ ................................  17 
+ Main rotor blade to fuselage clearance  ................................ ................................ ................  18 
+ Summary of certification issue  ................................ ................................ ..............................  19 
+4.5. Flight manual references to hazardous practices and conditions  ................................ ...... 20 
+4.6. Dynamic behaviour of th e Robinson main rotor system  ................................ ......................  22 
+4.7. Civil Aviation Authority audits  ................................ ................................ ................................  24 
+5. Findings  ................................ ................................ ................................ ................................ ..................  26 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  27 
+General   ................................ ................................ ................................ ................................ ................  27 
+Safety actions a ddressing safety issues identified during an inquiry  ................................ .................  27 
+Safety actions addressing other safety issues  ................................ ................................ .....................  27 
+7. Recommendations  ................................ ................................ ................................ ................................ . 28 
+General   ................................ ................................ ................................ ................................ ................  28 
+Recommendations  ................................ ................................ ................................ ................................ . 28 
+To the Director of Civil Aviation  ................................ ................................ ................................ ..... 28 
+  
+To the Administrator, Federal Aviation Administration.  ................................ ...............................  29 
+8. Key lessons  ................................ ................................ ................................ ................................ .............  30 
+9. Works cited  ................................ ................................ ................................ ................................ .............  31 
+Appendix 1: ZK -IHU maintenance and post -accident testing  ................................ ................................ ...... 32 
+1. Recent maintenance  ................................ ................................ ................................ ..............  32 
+2. Post-accident testing  ................................ ................................ ................................ .............  33 
+ Engine monitoring unit  ................................ ................................ ................................ ...........  33 
+ Engine and engine accessories  ................................ ................................ .............................  33 
+ Main rotor control hydraulic servos  ................................ ................................ ......................  33 
+ Main rotor drive shaft  ................................ ................................ ................................ ............  33 
+Appe ndix 2: Further accident site information  ................................ ................................ .............................  35 
+Appendix 3: The NTSB special investigation of Robinson accidents  ................................ ..........................  38 
+Appendix 4: Participants in the helicopter forum, 9 May 2013  ................................ ................................ .. 41 
+Appendix 5: Robinson R66 fatal accidents  ................................ ................................ ................................ .. 42 
+Appendix 6: Robinson Safety Notice SN -32 (revised May 2013)  ................................ ................................  43 
+Appendix 7: Robinson Safety Notice SN -32 (revised February 2016)  ................................ ........................  44 
+ 
+
+  
+Final report AO -2013 -003 | Page i Figures  
+Figure 1  Wreckage of fuselage  ................................ ................................ ................................ ..................  6 
+Figure 2  R66 main rotor head  ................................ ................................ ................................ ...................  8 
+Figure 3  Main rotor head, showing severed drive shaft  ................................ ................................ .........  10 
+Figure 4  Accident site  ................................ ................................ ................................ ...............................  36 
+Figure 5  Distribution of major wreckage  ................................ ................................ ................................ . 37 
+ 
+ 
+ 
+ 
+  
+Page ii | Final report AO -2013 -003 Abbreviations  
+OC   degree (s) Celsius  
+OT  degree(s) true  
+AD  airworthiness directive  
+CAA  Civil Aviation Authority of New Zealand  
+Commission  Transport Accident Investigation Commission  
+FAA  Federal Aviation Administration  (United States)  
+FAR  Federal Aviation Regulation (United S tates)  
+MGT   measure d gas temperature  
+NTSB   National Transportation Safety Board  (United States)  
+R22  Robinson Helicopter Company helicopter type R22  
+R44  Robinson Helicopter Company helicopter type R44  
+R66  Robinson Helicopter Company helicopter type R66  
+Robinson  Robinson Helicopter Company  
+RPM   revolution (s) per minute  
+SFAR   Special  Federal Aviation Regulation  (United States)  
+ 
+  
+  
+Final report AO -2013 -003 | Page iii Glossary  
+centre of gravity  the single point in a helicopter through which the weight ( or force of gravity) acts  
+cyclic stick  one of two main rotor controls.  Movement of the cyclic stick causes the rotor blad e 
+pitch angles to change, which causes the rotor 'disc' to tilt in the same direction in 
+which the pilot has put the stick.  The helicopter then moves in that direction. This can 
+be sideways, forwards or backwards (aft) or any direction  
+exposition  a description of an operator's organisation al structure , and the means and methods 
+for ensuring ongoing compliance with Civil Aviation Rules , which is provided to the Civil 
+Aviation Authority of New Zealand  in support of an operator's application for a 
+certificate   
+flapping  (in the case of the Robinson main rotor blades) the vertical movement of a blade 
+about a  hinge  perpendicular  to the blade span  
+flight envelope  (or operating envelope) the range of airspeed , load factor  and altitude for an aircraft, 
+as est ablished by the design and verified during certification testing  
+fractography  the examination  of the cause of a material failure by studying the characteristics of 
+the fracture surface s 
+knot a speed of one nautical mile per hour  
+low G  or reduced G; an acceleration less than that due to the force of gravity  
+mast  the main rotor drive shaft  on a helicopter , or (depending on context) the aerodynamic 
+fairing installed around  the drive shaft  to reduce drag and improve appearance  
+mast bump  contact between the inboard end of a main rotor blade or the rotor hub and the main 
+rotor drive shaft  
+moderate turbulence  turbulence that causes: (1) changes in aircraft altitude or attitude; (2) 
+variations in indicated airspeed; or (3) aircraft occupants to feel definite str ain against 
+seat belts  
+servo  an hydraulic actuator attached to a main rotor flight control to reduce the effort 
+required by the pilot to change the rotor tilt or blade pitch angle  
+spindle  the pitch change bearing of a main rotor blade  
+sprag clutch  transfe rs the engine torque to the main rotor transmission.  In the event of an engine 
+failure the sprags withdraw, allowing the rotor to continue to turn so that the 
+helicopter can autorotate to a landing  
+teeter ing the see -saw movement of a two -bladed,  centrally  mounted rotor hub  
+type rating  the authorisation associated with a pilot's licence that states the pilot is qualified to fly 
+a specific aircraft type  
+  
+ 
+ 
+   
+Page iv | Final report AO -2013 -003 Data summary  
+Aircraft  particulars   
+Aircraft registration : ZK-IHU 
+Type and serial number:  Robinson Helicopter Company R66, 0078  
+Number and type of engines:  one Rolls -Royce 250C -300 turbo -shaft , serial number RRE 
+200082  
+Year of manufacture:  2011  
+Operator:  Helisika Limited  
+Type of flight:  commercial air transport  
+Persons on board:  one 
+Pilot's licence:  commercial pilot licence (helicopter)  
+Pilot's age:  39 
+Pilot's total flying experience:  492 hours, of which 420 hours were in helicopters and 154 
+hours  of those hours  were in the R66  
+Date and time  
+ 9 March 2013, 13021 
+Location  
+ Kaweka Range  
+latitude:  39° 07' 44.78" south  
+longitude:  176° 12 ' 34.30" east  
+Injuries  
+ one fatal  
+ 
+Damage  
+ destroyed  
+                                                        
+1 Times in this report are New Zealand Daylight Time ( co-ordinated universal time  + 13 hours) and expressed in 
+the 24 -hour format.  
+  
+Final rep ort AO -2013003 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 9 March 2013 a Robinson Helicopter Company (Robinson)  R66 helicopter crashed  in the 
+North Island's Kaweka Range  after  experiencing  an occurrence known as a 'mast bump '.  A 
+main rotor blade then struck the fuselage , causing the helicopter to break up in flight.   The 
+pilot, who was the only person on board, was killed.  
+1.2. The weather was suitable for the flight, which was conducted under visual flight rules in 
+uncontrolled airspace.  However, t he wind strength had increased during the day , leading to 
+patches of mod erate turbulence in the mountainous terrain.   It was very likely that turbulence 
+was a factor in the accident.  The helicopter' s light gross weight and  relatively high speed at 
+the time would have exacerbated the  effects of any turbulence . 
+1.3. The Commission found that this accident, when consid ered alongside four other R66 
+accidents that have occurred globally  in the five years since  the helicopter type was 
+introduced into service  in 2010 , suggested that the R66 was as vulnerable as the smaller 
+Robinson R22 and R44 types to a catastrophic mast bump under certain conditions.   The R66 
+has the same main rotor system design  as the R 22 and  the R 44. 
+1.4. The R66 was certificated by the Federal Aviation Administration of the United States without 
+any special training requirements like th ose that are mandated for pilots of the R22 and  the 
+R44 to reduce the risk of mast bump accidents .  That was i n spite of having the same main 
+rotor design and a similar  response to low G conditions as the R22 and R44 .  The Civil Aviation 
+Authority of New Zealand accepted the Federal Aviation Administration  type certificate for the 
+R66 in April 2011, and also d id not require special training for R66 pilots.  
+1.5. A safety issue arose  as a result  of there being no special training.    A helicopter pilot (or 
+trainee) with no prior experience  of flying one of the smaller Robinson types  could  fly the R66  
+without necessarily having the knowledge and training that the Federal Aviation Administration  
+acknowledged was essentia l for pilots of all Robinson types .  There was also a risk that a pilot 
+who did have prior R22 or R44  experience would  infer , from  the lack of a ny special training 
+requirement , that the R66 d id not require the same careful handling  as the smaller types . 
+1.6. Recommendations were made to the Administrator of the Federal Aviation Administration  and 
+the Director of Civil Aviation to require additional  training as a prerequisite for an R66 type 
+rating . 
+1.7. It is likely that  mast bump accidents with Robinson helicopters will continue to happen  unless 
+the dynamic behaviour of the main rotor preced ing such a catastrophe is fully understood.  A 
+recommendation was made to the Administrator of the Federal Aviation Administration  to 
+reinstate uncompleted research into the dynamic behaviour of lightweight helicopter main 
+rotor systems.  
+1.8. A further recommendation was made to the Director of Civil Aviation to publicise the recent 
+amendments to the Robinson R66 and R44 Pilot's Operating Handbooks that caution against 
+flight in high winds and turbulence.  
+Safety issues  
+1.9. The following safety issues  were identified in this investigation:  
+ Four of the seven fatal R66 accidents that have occurred globally since the type was 
+introduced into service in 2010  were mast bump or low -main -rotor --speed  accidents .  
+These are  accident  types  seen with the smaller R22 and R44 , which have  the same  main 
+rotor design .  However, t he R66 was certificated without any  special  pilot training 
+requirements to mitigate the risk of th ese types  of accident . 
+ At the time of this accident the flight manuals for Robinson helicopters d id not adequately 
+warn pilots of the hazard ous operating practices and environmental conditions that can 
+lead rapidly to  a catastrophic mast bump . 
+
+<< Page 2 >>
+ Final report AO -2013 -003  Earlier research into the flight control systems and dynamic behaviour of the main rotor 
+of lightweight helicopters, for example,  the design used by Robinson, wa s not completed 
+as intended.  Until the behaviour of such rotor system s in conditions of low G and 
+turbulence is fully understood, it is possible that not all of the causal factors of mast 
+bump  accident s will be identified . 
+Findings  
+1.10.  The Commiss ion made the following findings : 
+ The in-flight break -up was caused by a mast bump and main rotor blade contact with the 
+fuselage . 
+ The mast bump very likely occurred when the helicopter encountered moderate or greater  
+turbulence, which likely resulted in a condition of low G.2  The effect of any turbulence 
+would have been exacerbated by the helicopter's light weight and  estimated  airspeed  of 
+115 knots . 
+ The possibility that an intentional or inadvertent control input by the pilot contributed to 
+the mast bump cannot be excluded . 
+ The R66 global accident history , in the five years since the type  was introduced into 
+service in 2010 , suggests that th e R66 is as vulnerable as the smaller R22 and R44 to a 
+catastrophic mast bump  under certain conditions . 
+ The R66 was c ertificated without any special  pilot training requirements to mitigate the 
+risk of a catastrophic mast bump . 
+ At the time of the accident, the Robinson helicopter flight manuals d id not adequately 
+warn pilots of the hazardous operating practices and environmental conditions that can 
+lead rapidly to a catastrophic mast bump .  This type of accident is strongly associated 
+with turbulen t conditions . 
+ There is insufficient industry  knowledge of why Robinson helicopters are particularly 
+vulnerable to catastrophic mast bump events . 
+ In spite of the lack of reference in the operator's exposition to mountain flying training, 
+the pilot's training was unlikely to have been a factor in the accident.  
+Recommendations  
+1.11.  The Commission made the following recommendations : 
+To the Administrator of the Federal Aviation Administration : 
+ That he extend the knowledge and training requirements of Special Federal Aviation 
+Regulation No.  73 to pilots of the Robinson R66 helicopter . 
+ That he reinstate research into the dynamic behaviour of two-bladed, teetering ,3 
+underslung rotor systems, taking full advantage of available technology, with the aim of 
+achieving the original goal of N ational Transportation Safety Board (United States ) 
+recommendation A-96-12. 
+To the Director of Civil Aviation:  
+ That he include the knowledge and training requirements of Special Federal Aviation 
+Regulation No.  73, or an equivalent requirement,  as a prerequisite for the issue of a  
+Robinson R66 type rating . 
+ That he promptly publicise the recent amendments to the Robinson R66 and R44 Pilot's 
+Operating Handbooks that caution against flight in high winds and turbulence, and which 
+advise pilots to reduce power and speed if turbulence is expected or encountered.  
+                                                        
+2 A low-G condition occurs when an object is subjected to a net vertical force less than the force of gravity.  
+3 Teetering is the see -saw movement of a two -bladed, centrally mounted rotor hub . 
+  
+Final rep ort AO -2013003 
+<< Page 3 >>
+ Key lessons  
+1.12.  The key lessons  identified from  the inquiry into this accident  were:  
+ Pilots must be familiar with the complete Pilot's Operating Handbook for each  aircraft 
+type that they fly, as well as  the approved flight manuals . 
+ Pilots of Robinson helicopters, regardless of their experience, should avoid  areas of high 
+winds  or turbulence, and closely adhere to the manufacturer's advice to reduce airspeed 
+if turbulence is encountered.  
+
+<< Page 4 >>
+ Final report AO -2013 -003 2. Conduct of the inquiry  
+2.1. On Saturday 9 March 2013 the Civil Aviation Authority of New Zealand ( CAA) notified the 
+Transport Accident Investigation Commission (the Commission) that an R66 was overdue from 
+a flight  and that a search was underway .  After the accident site had been located later that 
+day, t he Commission opened an inquiry  under section 13(1) of the Transport Accident 
+Investigation Commission Act 1990 . 
+2.2. On 10 March 2013 t wo Commission investigators began an  inspection of the accident site .  
+Most of the wreckage was recovered by 12 March 2013, but the main rotor hub and blades  
+were not found until 13 March  2013.   The wreckage was taken to the Commission's storage 
+facility near Wellington.  
+2.3. On 11 March 2013, the National Transportation Safety Board (United States)  (NTSB ) 
+appointed a staff member to be the Accredited Representativ e4 of the United States, the State 
+of Manufacture of the helicopter and the engine .  The Accredited Representative 's advisers , 
+from Robinson Helicopter Company (Robinson)  and Rolls -Royce  (the engine manufacturer ), 
+assist ed the Commission's investigators with a wreckage examination conducted between 15 
+and 18 March 2013.  
+2.4. The engine was disassembled and examined on 1 May 2013 at the Rolls -Royce factory  in the 
+United States , under the supervision of the NTSB on behalf of the Commission .  The flight 
+control h ydraulic servos5 and the  engine -transmission clutch were examined at  the Robinson 
+factory in the United States , again under NTSB supervision.  
+2.5. On 9 May 2013 Commission investigators hosted a forum to further their understanding of 
+issues relating to the performance and handling of Robinson helicopters, and the training 
+provided to pilots of Robinson helicopters.  At the time the Commission had th ree open 
+investigations into accidents that involved Robinson helicopters.  The forum participants 
+comprised  six experienced helicopter instructors, three CAA staff  and five Commission staff.   
+2.6. Two engine accessories, the power turbine governor and the fuel control unit , were examined 
+on 14 May 2013 at the premises of their manufacturer  in the United States, under the 
+supervision of a Federal Aviation Administration  (United States)  (FAA) inspector acting for the 
+NTSB . 
+2.7. The pathologist who conducted the post -mortem examination of the pilot inspected the 
+helicopter wreckage at the Commission's storage facility.  
+2.8. The Commission contracted the Defence Technology Agency of the New Zealand Defence 
+Force to determine the failure mode  of the main rotor drive shaft.  
+2.9. On 13 June  2013 , after advice that other items of wreckage had been found, the accident site 
+was re-visited  with the support of the Royal New Zealand Air Force,  and a small amount of 
+material was recovered.  
+2.10.  The Commission obtained information from the NTSB, Robinson and the FAA at various times 
+throughout the inquiry.  
+2.11.  On 24 September 2015  the Commission approved the draft final report for circulation to 
+interested persons  for their comment .  Submissions were received from three  of the 
+interested persons.  The  Commission has considered all submissions , and any changes as a 
+result of those submissions have been included in this final report.  
+2.12.  On 27th April 2016  March 2016 the Commis sion approved publication of the final report.  
+                                                        
+4 In accordance with Annex 13 to the Convention on International Civil Aviation.  
+5 A servo is an hydraulic actuator attached to a main rotor flight control to reduce the effort required by the pilot to 
+change the rotor tilt or the blade pitch angle.  
+  
+Final rep ort AO -2013003 
+<< Page 5 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  On Saturday 9 Ma rch 2013 , a Robinson R66 helicopter (the helicopter) was being used to 
+ferry hunters and fishermen to and from  remote sites in th e Kaweka and Kaimanawa Range s.  
+The pilot had commenced duty at about 0900 and had made five return flights during the 
+morning carrying passengers to or from various landing sites . 
+3.1.2.  The flights were conducted under visual flight rules  in uncontrolled airspace .  The weather was 
+generally clear and warm but, according to the passenger s, some turbulence had been 
+experienced on every  flight  that day . 
+3.1.3.  On the last flight  before the accident flight  the pilo t flew two hunters to the Mangat aramea 
+Hut.  The hunters were familiar with helicopters: one ha d been a pilot  for a different operator , 
+and the other ha d also flown in this helicopter twice  before .  They described the pilot as 
+engaging and conscientious.  They said the flight was "normal " and the conditions "a little 
+gusty " with a "bump " when they cross ed one saddle, but otherwise they had no  concern .  
+3.1.4.  Having  delivered the hunters to the hut, the pilot was returning alone via the Waitawhero 
+Saddle and the Oamaru River valley to the operator's base at Poronui Station .  The last data 
+transmitted from a n on-board 'S pidertracks' unit6 was as follows:  
+ time:   0001:30 co-ordinated universal time  (1301 :30 New Zealand Daylight 
+  Time)  
+ position:  39o 8.23' south, 177o 11.898' east  
+ altitude:  4,006 feet7 (1,221 metres)  
+ ground speed:  124 knots8 
+ heading:  033 degrees true (OT).9 
+3.1.5.  When the helicopter was 30 minutes overdue at the base , the operator's chief pilot promptly 
+commenced a search , guided by the last Spidertracks  position .  No signal was received from 
+the on -board emergency locator transmitter .  Although the search was hampered by strong 
+winds and turbulence, t he accident  site was located later that day  in dense bush , 
+approximately 1,500 metres  after  the last transmitted position  (see Figure 1) .  The fatally 
+injured pilot was found the next morning , about 30 metres from the fuselage .  The main rotor, 
+which had separated from the mast ,10 was found three  days later . 
+3.1.6.  Based on the last ground speed  transmitted by an on -board tracking device , the accident 
+occurred at around  1302 in daylight , 600 metres south of the Oamaru River , at an elevation of 
+approximately  3,400 feet (1,040 metres)  above mean sea level.  
+3.2. Personnel information  
+3.2.1.  The pilot had obtained a private pilot licence (aeroplane) in 1996 , then taken  a break from 
+flying  until he commenc ed helicopter training in January 2012  on the Robinson R22 .  Prior to  
+his first solo flight in the R22 he had completed the special awareness  and flight  training  
+(special training)  required for all R22 pilots.11  He had obtained a private pilot licence 
+                                                        
+6 Spidertracks is a proprietary tracking system that sends the global positio ning system -derived position of the unit 
+by text message to a satellite constellation and then to a ground -based server.  
+7 Vertical distances in aviation are still expressed in imperial units.  
+8 A knot is a speed of one nautical mile per hour.  
+9 This was taken to be the track over the ground, rather than the helicopter heading.  
+10 The drive shaft is sometimes called the 'mast', although that term may also be applied to the aerodynamic 
+fairing installed around  the drive shaft  to reduce drag and improve appearance . 
+11 Section 3.9 describes this requirement.  
+
+<< Page 6 >>
+ Final report AO -2013 -003 (helicopter) in March 2012 and a commercial pilot licence (helicopter) in May 2012.  While 
+training for the commercial licence he had also obtained a  Robinson  R44 type rating .12 
+3.2.2.  The operator had hired the pilot  on 6 June 2012 , on the recommendation of his instructor .  
+The operator's appr oved external flight examiner had conducted the  pilot's initial crew 
+competency check on 15 June 2012, in conjunction with the pilot obtaining an R66 type 
+rating.  The examiner had marked the pilot as competent in all of the tested flight tasks, and 
+for 'mountainous terrain awareness'.  
+ 
+Figure 1 
+Wreckage of fuselage  
+3.2.3.  For the first three months after starting with the operator , the pilot had flown  only the R44 , 
+mainly o n scenic flights from the company's Taupo base .  The chief pilot had flown  with the 
+pilot until he was familiar with the company's procedures and the many remote landing sites . 
+3.2.4.  For the next three months the pilot had mainly flown  the R66, but he  had also obtained a type 
+rating for the Hughes  500, another  type in the operator 's fleet .  According to the operator's 
+records, the pilot had been  due for  recurrent training in April 2013.  
+3.2.5.  The pilot had 492 hours ' flight experience, of which 420 hours were in helicopters .  The 
+helicopter  hours  included  350 in Robinson types , with nearly 160 hours in the R66.   In the 90 
+days before  the accident he had flown  approximately 148 hours, split evenly between the R66 
+and the Hughes 500.  
+3.2.6.  His last days free of duty had been 2 March and 3 March 2013.  In the next five days he had 
+been  on duty for 47 hours and flown  10.8 hours , including about four hours on 9 March .  
+Those who spoke with him on 9 March 2013 said he appeared to be well, alert and fit to fly . 
+                                                        
+12 A type rating is the authorisation associated with a pilot's licence that states the pilot is qualified to fly a specific 
+aircraft type.  
+
+  
+Final rep ort AO -2013003 
+<< Page 7 >>
+ 3.2.7.  The chief pilot said the pilot had been  cautious, disciplined and highly motivated.   Amateur 
+videos made by passengers earlier in 2013 showed the pilot flying t he R66 conservative ly. 
+3.2.8.  The pilot's medical certificate was valid until 15 May 2013 and had no restrictions, 
+endorsements or limitations.  
+3.3. Aircraft information  
+General  
+3.3.1.  The R66 is a five-seat, turbine -powered  light helicopter that is manufactured by Robinson  in 
+the United States .  The R66  was certificated by the FAA in October 2010.  In many  respects it 
+is a larger variant  of Robinson's four-seat R44, which itself evolved from the two-seat 
+Robinson  R22.13 
+3.3.2.  The R66 is powered by a Rolls -Royce 250C -300 (RR300) turbo -shaft engine, also 
+manufactured in the United States.  The 300 -horsepower engine was certificated by the FAA in 
+December 2007.   
+3.3.3.  All three Robinson types have two-blade, teeter ing main rotor s.  The blades have independent 
+flapping hinges, a feature unique to Robinson14 (see Figure 2).   Helicopters with two-blade, 
+teetering main rotor systems must avoid low -G conditions ,15 because these  can cause the 
+helicopter to roll without its pilot making a control  input ( an uncommanded roll ) if the tail rotor  
+(sideward)  thrust acts  at a distance well above the helicopter's centre of gravity .16  The R66 
+flight manual prohibited intentional low -G manoeuvres.  
+3.3.4.  The R66 main rotor controls , like those of the R44 and R22,  are considered to be sensitive .  
+This is  reflected in the following  limitation in the flight manual  (Robinson Helicopter Company, 
+2010, p. 2.5) : 
+CAUTION  
+Abrupt control inputs may produce high 
+fatigue stresses and cause catastrophic 
+failure of a critical component.   
+3.3.5.  The Pilot's Operating Handbook  comprised  the mandatory FAA-approved flight manual , as well 
+as a section of "Safety Tips  and Notices"  issued by Robinson.  These safety tips and notices 
+are applicable to all Robinson types .  Several of the  safety notices  provided guidance to pilots 
+on how to avoid a potentially catastrophic 'loss of control' of the main rotor.  'Loss of control' 
+refers to the main rotor blades flying a path that might be d ifferent from  that intended by the 
+pilot, perhaps because of a low -G condition or because the rotor revolutions per minute (RPM) 
+have decreased well below the specified, narrow range.  
+3.3.6.  The helicopter involved in this accident had been  manufactured in Novemb er 2011 and 
+bought by the operator that month.  The engine had been  manufactured in 2010.  
+3.3.7.  Records indicated that the helicopter had been maintained in accordance with the approved 
+maintenance manual and instructions (see Appendix 1 for details of recent m aintenance).  
+The technical log and daily flight record, which were required to be carried in the helicopter, 
+were  not found.  According to the operator's records the helicopter would have accrued 
+approximately 739 flight hours, and the engine 786 cycles, up to the day before the accident.  
+3.3.8.  The pilot had recorded a fuel endurance of 1.2 hours before departing on the outward leg of 
+the last flight.  The typical consumption was 100 litres per hour.  Approximately 102 litres of 
+fuel were  removed from the helico pter tank after the accident.  Using that volume, the gross 
+                                                        
+13 This report refers often to the R44 and R22 because they have  the same main rotor system design as the R66 , 
+and have had similar types of accident.   
+14 Flapping is the vertical movement of the blade about a hinge perpendicular to the blade span.  The blades flap 
+as a normal action throughout each revolution.  Extreme  flapping that can result in a mast bump is not normal.  
+15 A low -G condition occurs when an object is subjected to a net vertical force less than the force of gravity.  When 
+the vertical force is zero, the object is described as being 'weightless '. 
+16 The centre of gravity is the single point in a helicopter through which the weight (or force of gravity) acts.  
+
+<< Page 8 >>
+ Final report AO -2013 -003 weight of the helicopter at the time of the accident was estimated to have been 756 
+kilograms.  The permitted weight range was 635 to 1 ,225 kilograms.  
+3.3.9.  The longitudinal centre of gravity was calcul ated to have been 101.8 inches rearward of the 
+datum, which was within the allowable range.17  The lateral centre of gravity was within limits.  
+ 
+Figure 2 
+R66 main rotor head  
+Flight recorders  
+3.3.10.  There was no requirement for the helicopter to be fitted with a flight data recorder, and none 
+was fitted.  However, a developmental engine monitoring unit was fitted and it  recorded the 
+following parameters once every second:  
+ gas producer (compressor) speed  
+ power turbine speed  
+ torque (the primary indicator of the power being demanded from the engine)  
+ measured gas temperature.  
+3.3.11.  The recorded  parameters had been  within the fligh t manual limits until the accident.   After 
+comparing the accident flight  with previous  flights  that day , Rolls -Royce concluded that the 
+engine had been operating normally until the accident  (see Appendix 1 for more details).  
+3.3.12.  The Spidertracks unit transmitted  the helicopter's position, altitude, ground  speed and 
+heading , nominally every four minutes.18  Therefore , the data gave a coarse approximation of 
+the flight path.  The helicopter was approximately 840 feet (256 metres) above ground level at 
+the last position transmitted.   The Spidertracks data for all of the flights on 9 March 2013 
+indicated that the pilot had complied with the rules for minimum height above ground.  
+                                                        
+17 The allowable range (given in Imperial units) was 91.0 inches to 102.5 inches . 
+18 Refer paragraph 3.1.4.  
+teeter hinge  bolt 
+blade spindle boot  
+flapping  hinge  bolt 
+rotor hub  
+hinge  
+pitch change link  
+  
+Final rep ort AO -2013003 
+<< Page 9 >>
+ 3.3.13.  A Garmin 'GPSmap 196' receiver  that used a separate antenna to the Spidertracks unit was 
+also fitted to the helicopter.  The Garmin unit , for an undetermined reason, did not record the 
+last flight.  However,  the data for the previous flights that day were reviewed.   
+3.4. Meteorological information  
+3.4.1.  On 9 March 2013 a high pressure system had split into separate centres either side of the 
+country and a weak cold front was moving up the North I sland.  The MetService19 aviation 
+forecast issued at 0503 for the morning of 9 March 2013 for the Central Platea u area, in 
+which the accident site was located, included the following : 
+wind at 3 ,000 feet above sea level  140OT 15 k nots 
+wind at 5 ,000 feet  130OT 30 k nots, temperature +11  degrees 
+Celsius (OC) 
+freezing level     14,000 f eet 
+areas of broken cloud at 5 ,000, to 9,000 feet e ast of Taupo, but clearing in the 
+morning.  Nil significant weather.  
+At 1123 the forecast was amended to  add "isolated moderate turbulence20 expected below 
+6,000 feet ". 
+3.4.2.  The MetService mountain forecast issued at 0435 on 9 March 2013 predicted  southeast 
+winds, "strong about and north of the Ruahine Range ".  The Kaweka Range is the next range 
+north of the Ruahine Range .  At 1204 MetService amended the  forecast to put the strong 
+winds north of the Kaweka Range . 
+3.4.3.  Visual meteorological conditions pr evailed , with no rain .  The chief pilot of the operator said 
+that at its base the wind had been from the southeast at 10  to 15 k nots.  Over the ranges the 
+wind was from the southeast at 15 k nots,  gusting to 25 knots, and stronger to the east .  A 
+passenger picked up at 1100 from a hut that was  approximately 15 kilometres south of the 
+accident site and 3,000 feet  (914 metres)  above sea level said the air temperature there was 
+about 25OC.21 
+3.4.4.  Local pilots estimated that t he wind speed at the mountain  tops was about 25 k nots in the 
+morning, increasing during the middle of the day and abating that evening.  The chief pilot 
+said that when he began searching for the helicopter , the wind was no more than about 15 
+knots.  Pilots who had searched  later  said they encountered  moderate turbulence.  A hunter 
+who was in the Oamaru River valley  and heard the crash,  said the wind gusts had broke n off 
+twigs.  That suggested gusts of more than 34 k nots.22  A video taken by a passenger on an 
+earlier flight that day showed small trees at a Mohaka River landing site (approximately 13 
+kilometres northeast of the accident site) swaying strongly, which suggested a wind of about 
+20 k nots. 
+3.5. Wreckage and impact information  
+3.5.1.  The wreckage trail was approximately 300 metres long,  across a steep, forested ridge that 
+was on the expected route  from the Mangataramea Hut to the operator's base  (see Appendix  
+2 for further information on the wreckage ).  The first items in the trail were pieces of Perspex, 
+lightweight cabin structure and objects from the cabin .   
+3.5.2.  The fuselage, apart from the tail boom and attached tail rotor , had fallen at a steep angle to 
+land at the base of a  tree.   The tail boom was caught in the top of another tree.  There was no 
+fire. 
+                                                        
+19 MetService was the certificated provider of aviation meteorological information.  
+20 Moderate turbulence is regarded as turbulence that causes: (1) changes in aircraft altitude or attitude; (2) 
+variations in indicated airspeed; and (3) aircraft occupants to feel definite strain against seat belts.  
+21 The passenger had a wristwatch that sensed air temperature and pressure, but to unknown accurac y. 
+22 The Beaufort Wind Scale relates wind speeds to physical effects.  See http://metservice.com/help/help -
+warning .    
+
+<< Page 10 >>
+ Final report AO -2013 -003 3.5.3.  One main rotor blade had struck the front right corner of the cabin.  Later examination showed 
+that th is blade had fractured completely at approximately two-thirds  span as it bent under the 
+forward landing skid cross tube.  Paint transfer marks showed that  the detached outboard 
+section of blade had then struck the tail boom while that was still attached to the fuselage.    
+3.5.4.  There was clear evidence of a heavy mast bump .23  The main rotor drive shaft was severed 
+approximately 15 centimetres below the hub (see F igure 3).  The hub and main rotor blades 
+(apart from the separated outboard end of the blade that hit the tail boom) landed 
+approximately 300 metres from the fuselage, to the right of the line of flight.  
+3.5.5.  Specialists examined the drive shaft fracture, the e ngine and two of its accessories,  and the 
+main rotor control hydraulic servos (see Appendix 1).   
+3.6. Medical and pathological information  
+3.6.1.  A post-mortem examination determined that the pilot had died as a result of multiple injuries.  
+The pathologist's report stated that some of the injuries were "indicative of restraint against a 
+lap-type seat belt.  The other injuries are likely to have been sustained in a fall from the 
+helicopter ". 
+3.6.2.  The Commission considered the pathologist's report and noted that there was n o evidence of 
+abuse of  alcohol or other commonly screened -for drugs .  
+ 
+Figure 3 
+Main rotor head, showing severed drive shaft  
+  
+                                                        
+23 A mast bump is contact between the inboard end of a main rotor blade or the rotor hub and the main rotor drive 
+shaft .  
+
+  
+Final rep ort AO -2013003 
+<< Page 11 >>
+ 3.7. Survival aspects  
+3.7.1.  The search for the accident site took five hours  because  no signal was detected from the 
+emergency locator beacon.24  Search pilots said that a fter the accident site had been located, 
+they heard in the vicinity a weak signal on frequency 121.5 megahertz .  It was later  found that 
+the co-axial antenna cable had separated from the beacon  in the crash.   The Kannad 406 
+beacon , serial number 2619364 -0217, had been tested on 21 February 2013  and its battery 
+was due for replacement in February 2014.  
+3.7.2.  The position reports from the flight tracking unit fitted to the h elicopter  greatly reduced the 
+size of the initial search area .  Not all aircraft are fitted with tracking device s, and their 
+usefulness depends in part on the selected interval between  position reports.   
+3.7.3.  The Commission has previously made recommend ations regarding the  use of flight tracking 
+devices and improve ments to  the crashworthiness of emergency locator beacons.25  On 26 
+February 2014 the Commission recommended that the Director of Civil Aviation:  
+a. encourage the use of flight tracking devices, espec ially for use in aircraft 
+operating in remote areas around New Zealand (005/14)  
+b. continue to support the international work underway to improve the crash 
+survivability of ELTs and to include GPS information in the data transmitted by 
+such devices (006/1 4). 
+3.7.4.  On 5th March 2014, the Director replied, in part:  
+005/14 - In our draft recommendation response 31 January 2014, the Director 
+commented that the CAA provide for the fitment of Flight Tracking Devices (FTDs) 
+by operators and this can be achieved in acc ordance with the relevant provisions 
+of AC 43 -14. The CAA will continue to encourage operators to fit FTDs in this 
+manner. The CAA considers the action sufficient to satisfy the closure of the 
+Commission's recommendation.  
+006/14 - in the same response let ter, the Director commented that the CAA 
+already supports in principle the ICAO and manufacturers' efforts to improve the 
+crash survivability of ELTs and accuracy of position reporting. The work is ongoing 
+and in this context the CAA requests that the reco mmendation be closed.  
+3.8. Organisational and management information  
+3.8.1.  The operator was certificated by the CAA to perform air operations under Civil Aviation Rules 
+Part 135 , Air Operations - Helicopters and Small Aeroplanes .  The certificate had been  re-
+issued on 26 February 2013 . 
+3.8.2.  The operator had established  the base at  Poronui Station in 1988 , primarily to fly  hunters and 
+fishermen to remote locations  in the Kaimanawa and Kaweka Ranges .  Four pilots were 
+employed on a roster basis.  The chief pilot had held th e position since 1996 .  On the day of 
+the accident the chief pilot and the accident pilot had shared the flying tasks .  
+3.8.3.  The fleet comprised the R66, an R44 and a Hughes 500.  The operator's chief pilot said that 
+the lighter weight  and high maximum cruise speed of the R66 were attractive features , and 
+training the company's pilots to fly the R66 had been  straightforward  because of the type's 
+similarities with the R44 . 
+3.9. Special t raining  requirements for pilots  of Robinson helicopters  
+3.9.1.  The history of mast bump accident s with the smaller R22 and R44, and the actions taken to 
+reduce their incidence , is pertinent to this  R66 investigation, because the three types have the 
+same  main rotor system design and a similar response to low G.   In 1996 the NTSB co mpleted  
+                                                        
+24 An emergency locator beacon transmits a primary signal on 406 meg ahertz for detection by search and rescue 
+satellites.  A lower -power, longer -duration secondary signal on 121.5 megahertz is to assist search aircraft to home 
+to the site.  
+25 Refer to Commission inquiry  11-003, in -flight break -up, ZK -HMU, Robinson R22, near Mount Aspiring, 27 Apri l 
+2011.   
+
+<< Page 12 >>
+ Final report AO -2013 -003 a special investigation into R22 mast bump accidents.26  An overview of th at investigation and 
+the actions taken by the FAA in response is in Appendix 3.  
+3.9.2.  During  the NTSB  investigation  the FAA committed to establishing Flight Standardization 
+Board s that would determine  the operational and training requirements for pilots  of future  
+helicopter s.27  The requirements were to include any additional knowledge or skills n ecessary 
+for a typical pilot to handle the normal and emergency procedures  applicable to a new  type. 
+The first Flight Standardization Boards  were established in February 1995 for the R22 and 
+R44.  The Boards recognised the knowledge and skill gaps that existed, stating that any 
+person who wish ed to operate either type  (FAA, 1995a, p. 7) , (FAA, 1995b, p. 7) : 
+should complete a training program designed to enhance awareness of the 
+hazards associated with certain characteristics of light helicopters.  Flight 
+conducted in normal operat ing conditions may cause an encounter with such 
+hazards  [emphasis added].  
+3.9.3.  The Boards determined that it was necessary  for R22 and R44 pilots  to understand the effects 
+of low G  and how to make a safe recovery  from a low-G condition .  Those topics are releva nt 
+for any helicopter with a two -bladed, teetering, underslung rotor system, but in 1995 t hey were 
+not in the  helicopter pilot licence training syllab us of the FAA (nor that of th e CAA) .  They have 
+since been added to training syllabuses .28 
+3.9.4.  To formalise the Boards' determinations , the FAA in March 1995 published Special Federal 
+Aviation Regulation No. 73 ( SFAR 73 ), which mandated 'Special Training and Experience 
+Requirements' for all pilots of R22 and R44 helicopters, including pilots who were already 
+qualified  to fly either  type. 
+3.9.5.  On 29 June 2009 the FAA concluded that SFAR 73  should be permanent  for both the R22 and 
+the R44 , even though, by then, pilot training syllabuses included the relevant topics .  However,  
+in New Zealand the requirement for R44 pilots to have the special training had been 
+unintentionally deleted  in 2004 as a result of a CAA  flight manual amendment.29 
+3.9.6.  The R66 Flight Standardization Board  considered the relevance of SFAR 73 when it assessed 
+the R66.  Its report stated  (FAA, 2010, Part 2, S ection 6) :30 
+Of primary concern to the Flight Standardization Board in evaluation of the R66 is 
+the published [SFAR 73] specifying training, testing and  checking requirements 
+for the R22 and R44.  Because the R66 is a growth variant of the R4 4 and R22 
+… the [Board ] elected to evaluate the R66 for operational suitability, specific 
+flight characteristics, and specific training, testing and checking requirements for 
+pilots.  
+3.9.7.  The R66 Flight Standardization Board  confirmed that the awareness topics listed in SFAR 73 
+for R22 and R44 pilots applied equally to R66 pilots, by stating (FAA, 2010, Part 1, section 6) : 
+Pilot awareness of certain aerodynamic factors with this type of rotor system is 
+essential.  This include s awareness of low 'G' operations and recovery 
+techniques, rotor blade stall potential, energy management, and low RPM 
+recovery techniques.  
+                                                        
+26 At the time, loss -of-main -rotor -control accidents accounted for more than a third of R22 accidents in the United 
+States .  During the special investigation the scope was widened to include similar R44 accidents.  
+27 A Flight Standardization Board's  role is distinct from that of the FAA's Aircraft Evaluation Group, whose test pilots 
+evaluate the handling characteristics of new helicopters and confirm that they comply with airworthiness 
+requirements.  
+28 See, for example, Advisory Circular 61-3, www.caa.govt.nz/Advisory_Circulars/AC061_3.pdf , p. 106 and the CAA 
+Helicopter Flight Instructor Manual, www.caa.govt.nz/Publications/Other/Heli_Flt_Inst_Manual.pdf , p. 93.  
+29 The requirement was reinstated during the course of this inquiry.  See paragraph 3.9.14 . 
+30 Flight Standardization Board  report, Robinson R -66 Helicopter, 13 October 2010.  Accessed from 
+http://fsims.faa.gov/wdocs/fsb/robinson%20r -66%20fsb.pdf . 
+  
+Final rep ort AO -2013003 
+<< Page 13 >>
+ 3.9.8.  A member of the R66 Flight Standardization Board explained that 'this type of rotor system ' 
+meant any two-blade d, teetering, underslung main rotor sy stem.31  However, no similar pilot 
+training requirement has been mandated for any other helicopter  manufacturer . 
+3.9.9.  The R66 Flight Standardization Board noted th at the R66, R44 and R22 had similar rotor 
+designs .  Robinson has described the R66 flight characteristics  as 'substantially similar' to 
+those of the R44 .32  Despite that , the Board determined that  there was no need for R66 pilots 
+to have the special training or  any minimum flight  experience .  The Board's report stated, in 
+part (FAA, 2010, Part 2, Section 6):  
+The R66 did not demonstrate unique or unusual handling characteristics in the 
+subject areas specified in the SFAR 73 … the R66 does not require specific 
+training for unique flight characteristics … R66  inclusion in SFAR 73 is 
+inappropriate.  
+3.9.10.  In May 2013 Commission investigators conducted a forum with senior helicopter instructors 
+and expert staff of the CAA to gain a better understanding of the situation in New Zealand 
+regarding the training of Robinson helicopter pilots and the operational experience with the 
+helicopters (see Appendix 4). 
+3.9.11.  The forum instructors, of whom two had given R66 flight instruction, were of the view that R66 
+pilots ought to have the same training and experience requirements as R22 and R44 pilots 
+because the rotor design, limitations and response to low G  of the three types were essentially 
+the same .  However, a t present, a  trainee helicopter pilot in New Zealand or the United States 
+could complete their initial training for a licence on an R66, with no requirement for any 
+special training and experience like that mandated for R22 and R44 pilots.   
+3.9.12.  Between March 2014 and March 2015, the CAA conducted a review of SFAR 73 in the context 
+of the NZ aviation system.  This was in response to a recommendation made by  the 
+Commission during an inquiry into an R22 accident  (see footnote 25 ).  The review conclu sions 
+included the following:33 
+d) …as a result of the similarities of [the R22, R44 and R66] combined with New 
+Zealand accident data it is important that R44 and R66 pilots have a clear 
+understanding of [the topics  covered  in the Robinson special training]  and 
+mitigation strategies  
+e) However … there is currently no mechanism for requiring that those flying the 
+R44 and R66 have had that training.  
+3.9.13.  In April 2015 the CAA issued a consultation document, 'Robinson Helicopter Fleet ', that 
+describ ed its proposals for regulatory change to : standardise the conduct, and improve the 
+oversight, of the special Robinson training in New Zealand; restore the special training 
+requirement for R44 pilots (that had been  inadvertently removed in 2004)34; and to make the 
+SFAR 73 special  training applicable to R66 pilots.  
+3.9.14.  Following the public consultation of the proposed changes, the Director applied to the Court in 
+October 2015 for a Warrant of Authority to Impose Conditions on the operation of R 22 and 
+R44 helicopters.  One of the operating conditions  that the Court granted reinstate d SFAR 73 
+special  training for New Zealand R44 pilots, with effect from 6 November 2015 . 
+3.9.15.  The Director did not apply to the Court for an authority to impose conditions on the operation 
+of the R66.  The CAA stated at the time that the Director would monitor the outcome of this 
+inquiry and any recommendations that the Commission might make.  
+                                                        
+31 Teleconference, Transport Accident Investigation Commission , NTSB, FAA; 30 January 2014.  
+32 Email to the Commission, 12 June 2015, from the Robinson Certification Manager . 
+33 At the time of the CAA's review, New Zealand did not require SFAR 73 training for R44 pilots.   
+34 The background to the removal of the requirement for R44 pilots was given in Commission re port 11 -003, in-flight break -
+up, ZK -HMU, Robinson R22, near Mount Aspiring, 27 April 2011 . 
+
+<< Page 14 >>
+ Final report AO -2013 -003 4. Analysis  
+4.1. Introduction  
+4.1.1.  This accident was the first in New Zealand to involve an R66.  It was the fourth fatal R66 
+accident globally since the type's certification in 2010, and the second in which the main rotor 
+had separated in  flight (see Appendix 5).35  At the time, approximately 300 R66 helicopters 
+had been manufactured, with five of them registered in New Zealand.  
+4.1.2.  The damage  showed  that a mast bump had preceded  the in-flight break -up.  A mast bump is  
+usually  a result of the blades having exceeded the allowable range of flapping.   Robinson 
+noted in its Safety Notice SN -11 that "severe in -flight mast bumping usually results in main 
+rotor shaft separation and/or rotor blade contact with the fuselage " (Robinson Helicopter 
+Company, 2010) . 
+4.1.3.  Previous investigations and advice in the Pilot' s Operating H andbook s indicate d that t he 
+causal factors of mast bump  accidents involving Robinson helicopters include d: 
+ abrupt flight control inputs by a pilot  
+ a decrease in the ma in rotor RPM below the allowable flight range  
+ a low -G condition.  
+4.2. What happened?  
+4.2.1.  There was  clear evidence of a severe mast bump and that a main rotor blade had struck  the 
+cabin .  The main rotor drive shaft separated under a combination of bending,  torsional  and 
+inertial effects, resulting from its  being driven by the engine while the blades were prevented 
+from  turning  because they had struck  the fuselage.  
+4.2.2.  The recorded engine parameters  (see Appendix 1 ) indicated t hat the engine had been  
+operating normally and within limits.  Damage to the engine and attached components 
+showed that it was still operating at impact .  The steady engine operation m eant it was very 
+unlikely that the mast bump followed a low -rotor -RPM state.  Some minor maintenance 
+inconsistencies were identified, but no pre-existing technical defect that could have preceded 
+the mas t bump event was found.   Nor was any evidence found of an unusual event, such as 
+incapacitation, involving the pilot.  
+4.2.3.  The data transm itted by the Spidertracks unit and the recorded global positioning system  
+tracks indicated that the pilot had flown the expected flight paths at safe heights.  Based on 
+the last data transmitted by the Spidertracks  unit, and witnesses ' observations , the 
+environmental and aircraft conditions were assumed to be as follows:  
+ altitude:   4,000 feet (1,219 metres)  
+ ground speed:   124 k nots 
+ track :   033OT 
+ air temperature:  15OC 
+ wind:    135OT, 20 knots . 
+4.2.4.  Using t hese values , the helicopter's i ndicated airspeed was estimated to have been  115 k nots 
+shortly before the accident.36,37  The maximum permitted air speed in smooth air under the 
+same conditions was 123 k nots.38  Therefore, although relatively high, the airspeed was within 
+limits.  
+                                                        
+35 There have since been three more  fatal R66 accidents, of which one likely  involved a mast bump.  
+36 Calculated with an Airtour CRP -5 flight computer (circular slide rule).  
+37 Robinson conducted a test flight in Janu ary 2016 under almost identical conditions and recorded an indicated 
+airspeed of 118 knots with 75% torque , the approximate power at the time of the accident (see Appendix 1) . 
+38 The maximum indicated airspee d was 140 knots for gross weights below 998 kilograms  when at sea level, but it 
+reduced with increasing altitude or air temperature.  
+  
+Final rep ort AO -2013003 
+<< Page 15 >>
+ 4.2.5.  Turbulent conditions persisted all day , with strong wind gusts near t he middle of the day .  The 
+conditions were generally as forecast, including the shift  northwards of the area affected by 
+strong wind.  Experienced local p ilots who had been flying around the time of the accident, or 
+who took part in the search, said conditions were unpleasant.  
+4.2.6.  Most of the R66 passengers that day said they had not been both ered by the turbulence and 
+had experienced worse conditions , but o ne had commented to the pilot that they were "getting 
+knocked around a bit, more than in the Hughes 500 ".  The pilot had agreed and said he would 
+have preferred to be in the Hughes.  The chief pilot later said the Hughes was available if the 
+pilot had considered it would have been more suitable.  
+4.2.7.  The following observations were made by p assengers on four different flights:  
+ The seat belt felt tighter as the helicopter en countered a bump . 
+ The pilot was "countering gusts, which were mainly sideways rather than vertical ". 
+ One noticed the pilot "whack the joystick to the left aggressively " to counter a "lurch to 
+one side" as the helicopter came over a ridge (but the other person on that flight did 
+not recall that) . 
+ The hunters on the flight before the accident said conditions had been  gusty.  
+4.2.8.  Moderate turbulence  can result in mo mentary conditions  of low G.  A seat belt feeling tighte r 
+during a gust  or bump is consistent with  that effect .  If the pilot had indeed moved the cyclic39 
+stick "to the left aggressively ", he w as ver y likely correcting a right roll.   The roll might h ave 
+been caused by a gust, but the  helicopter could also roll right if a significant low -G condition  
+were  encountered at high speed or with high power .  The right roll is  cause d by the tail rotor 
+thrust line acting above the helicopter's centre of gravity.   Robinson cautioned that if an 
+uncommanded right roll occur red during a low-G condition, aft cyclic had to be applied before 
+applying any left cyclic to stop the roll .  Applying left cyclic first would change the plane of 
+rotation of the main rotor blades without the underslung fuselage following, and that risked a 
+mast bump.  
+4.2.9.  Robinson ha s for a long time recommend ed that pilots reduce airspeed if turbulence is 
+encountered , because t he reduced speed (and power) lessen the effect of turbulence and the 
+chance of an uncommanded right roll developing .  That advice was contained  in Safety Notice  
+SN-32, which was  in the P ilot's Operating Handbook for each  Robinson helicopter type (see 
+Appendix 6) .  When it was first issued in 1998, and at the time of this accident, the opening 
+sentence of Safety  Notice SN-32 stated:  
+Flying in high winds or turbule nce should be avoided . 
+That sentence was replaced  in May 2013 (shortly after this accident) with: 
+A pilot's improper application of control inputs in response to high winds or 
+turbulence can increase the likelihood of a mast bump accident . 
+The new sentence  shifted the emphasis  of the safety notice from a dvising pilots to a void 
+hazardous weather conditions,  to suggesting that "improper" handling was the cause of mast 
+bump  accidents  in high winds and turbulence.   The notice recommended that pilots who 
+encount ered turbulence should reduce power and the airspeed to between 60 and 70 k nots if 
+the turbulence was "significant ".  It also stated  that pilots should not over -control,  but 
+removed the  earlier  advice to "avoid large or abrupt control movements ".  The revi sed notice  
+added th at a light ly-loaded helicopter was more susceptible to turbulence.  
+4.2.10.  In February 2016 Robinson revised  Safety Notice SN-32 again;  restoring the advice to avoid 
+flight in high winds or turbulence , and emphasising the need to reduce speed if turbulence 
+was encountered while operating at light -weight (see paragraph 6.4 and Appendix 7).  
+                                                        
+39 The cyclic stick is one of two main rotor controls.  Movement of the cyclic stick causes the rotor blade pitch 
+angles to change, which causes the rotor 'disc' to tilt in the same direction in which the pilot has put the stick.  The 
+helicopter then moves in  that direction. This can be sideways, forwards or backwards (aft) or any other direction.  
+
+<< Page 16 >>
+ Final report AO -2013 -003 4.2.11.  The weight of the helicopter at the time of the accident was estimated to have been 756 
+kilograms, which was at the light end of the allowable range of 635 to 1 ,225 kilograms.  The 
+airspeed about 30 seconds before the accident was  approximately 115 k nots, well above the 
+recommended speed of 60 to70 knots for 'significant' turbulent conditions . 
+4.2.12.  The statements of w itness es on earlier flights and in other helicopters  indicate d that  it was 
+very likely the helicopter  encountered moderate  or greater  turbulence  on the return trip when 
+the accident occurred .  The light weight , and possibly a relatively high speed , would have 
+exacerbated the effect of the turbulence.  If the pilot had reacted to the turbulence with an 
+inappropriate flight control  input  - for example, an abrupt input, or by applying left cyclic in 
+response to a right roll when experiencing  low G  - that could have caused  the mast bump and 
+the main rotor blade contact with the fuselage.  
+Finding s 
+1. The in-flight break -up was caused by a mast bump and main rotor blade 
+contact with the fuselage . 
+2. The mast bump very likely occurred when the helicopter encounter ed 
+moderate or greater  turbulence , which likely resulted in a condition of low G.  
+The effect of any turbulence would have been exacerbated by the helicopter's 
+light weight and  estimated  airspeed  of 115 knots . 
+3. The possibility that an intentional or inadvertent control input by the pilot 
+contributed to the mast bump cannot be excluded.  
+4.3. Safety issues  
+4.3.1.  While it was very likely that turbulence and  the helicopter 's speed and weight  contributed to 
+the accident , the Commission also identified the following safety issues:  
+ four of the seven fatal R66 accidents that have occurred globally since the type was 
+introduced into service in 2010  were mast bump or low -main -rotor -RPM accidents, 
+accident types seen with the smaller R22 and R44, which have the same  main r otor 
+design .40  However, the R66 was certificated without any special pilot training 
+requirements  or operating restrictions such as the minimum pilot experience and 
+maximum wind strength  that apply to the R22  
+ the flight manuals for Robinson helicopters d id not adequately warn pilots of the 
+hazardous operating practices and environmental conditions that can lead rapidly to a 
+catastrophic mast bump  
+ earlier research into the flight control systems and dynamic behaviour of the main rotor 
+of lightweight helicopt ers, such as  the design used by Robinson, was not completed as 
+intended.  Until the behaviour of such rotor system s in conditions of low G and 
+turbulence  is fully understood, it is possible that not all of the causal factors of mast 
+bump accidents will be identified . 
+4.3.2.  These issues, and some observations about CAA audits , are discussed  below.  
+  
+                                                        
+40 As of 24 November 2015, more than 650 R66 helicopters had been delivered.  
+  
+Final rep ort AO -2013003 
+<< Page 17 >>
+ 4.4. Certification process for  the R66  
+4.4.1.  A general requirement for the certification of a light helicopter ( or 'rotorcraft') was that a pilot 
+of average skill must be able to take off, climb, turn, land and otherwise manoeuvre the 
+helicopter without any danger of over -stressing it.  Federal Aviation  Regulation (FAR) Part 27 
+stated this requirement as follows:  
+§27.1 41   General .  
+The rotorcraft must —… 
+(b) Be able to maintain any required flight condition and make a smooth 
+transition from any flight condition to any other flight condition without 
+exceptional piloting skill, alertness, or strength, and without danger o f exceeding 
+the limit load factor under any operating condition probable for the type.  
+4.4.2.  The FAA advised that the 'required flight conditions' and 'operating conditions probable for the 
+type' meant typical flight manoeuvres, not environmental  conditions .  The only environmental 
+considerations relevant to FAR 27.141 were the altitude and temperature ranges in which the 
+manufacturer expected the helicopter to operat e.  Another FAR41 considered the effect s of 
+wind , but only in regard to the helicopter's controllability wh en hovering.   
+Helicopter response to low G  
+4.4.3.  Since th e R66 was certificated in 2010, the flight man ual Limitations section has contained  
+the following caution against making control inputs that could cause a low G condition and 
+result in a mas t bump:  
+CAUTION  
+A pushover (forward cyclic maneuver) performed from level 
+flight or following a pull -up causes a low -G (near weightless) 
+condition which can result in catastro phic loss of lateral control 
+… 
+4.4.4.  Turbulence can also cause a  hazardous low-G condition .  However, turbulence, unlike altitude 
+and temperature, is a n environmental condition that cannot be predicted or controlled under 
+test conditions.  The FAA advised that the only consideration of a helicopter's behaviour in 
+turbulence was the te st pilot's qualitative assessment of the amount of cyclic control available 
+to overcome a moderate gust.42  As two -bladed, teetering main rotor systems like that used by 
+Robinson were  not intended for low-G flight, the FAA did not consider low G to be an 'o perating 
+condition probable for the type'.  Therefore,  the R66 certification programme was not required 
+to test the helicopter's response to low G.   
+4.4.5.  Some turbulence is not uncommon when flying, and prudent flying suggests that it ought to be 
+anticipated  in mountainous areas.  The New Zealand experience is that mast bump  accidents 
+are more likely to occur in mountainous terrain .  Although  turbulence is not an operating 
+condition contemplat ed by FAR 27.141 , it is a normal operating hazard .  A low-G conditio n, 
+which  can result  from turbulence,  is one of the hazards  that the Flight Standardization Boards 
+included in the special training  for the R22 and R44 . 
+4.4.6.  Following the Kaweka R66 accident, a very experienced New Zealand helicopter instructor 
+reported having been surprise d when an R66 rolled at a high rate in a low (but positive) G 
+condition.  When the FAA was asked whether this characteristic was seen during the R66 
+certification programme, it replied it had not, stating:43  
+Right roll characteristics were not  described in any certification flight test reports 
+released to the Fort Worth [Aircraft Evaluation Group] or the [Flight 
+Standardization Board] for the R66.   Uncommanded right roll did not manifest 
+itself during any maneuvers specified in the [Practical T est Standards] during 
+                                                        
+41 FAR 27.143, Controllability and maneuverability.  
+42 FAA AC27 -1B, section 27.143 refers.  
+43 Email, 18 Dec ember  2013, from FAA Accident Investigation Division.  
+
+<< Page 18 >>
+ Final report AO -2013 -003 performance of the [Flight Standardization Board], nor in any of the certification 
+flight test conducted by the [Los Angeles Aircraft Certification Office] (LACO).  
+4.4.7.  A representative of the FAA Los Angeles Aircraft Certification Office confirmed that the general 
+flight characteristics tested during the R66 certification had not specifically consider ed the 
+type's response to low G.44  Yet Robinson considered that t he various R66 certification flight 
+tests had include d "every likely manoeuvre to be performed in service, including manoeuvres 
+that exceeded flight limitations ", a reference to push -over (low-G) manoeuvres  that were 
+otherwise prohibited for all three Robinson types.  
+4.4.8.  The lowest recorded G during the certification flight tes ts was +0.4 G (Robinson Helicopter 
+Company, 2014, p. 3.18) .  That became the target minimum G for the R66 Main Rotor 
+Flapping Angle Survey  conducted in May 2014, one year and two months a fter the Kaweka 
+accident  and more  than three years after the R66 Flight Standardization Board met .  That 
+survey recorded a minimum G of +0.33 (Robinson Helicopter Company, 2014, p. 4.7) . 
+4.4.9.  Although the FAA stated that none of its test pilots had encountered uncommanded right roll 
+during the R66 certification  programme  and that Robinson had not provided any evidence to 
+the FAA of this characteristic, videos of the rotor flapping survey flights  showed that roll does 
+occur  with low G .  However , in each case the test pilot initiated recovery action as soon as the 
+anticipated roll began . The survey showed that the R66 responds to low G in the same way as 
+the R22 and R44.  
+Main r otor blade to fuselage clearance  
+4.4.10.  Robinson's Safety Notice SN-11 noted that a sever e mast bump could  lead to main rotor blade 
+contact with the fuselage .  A catastrophic accident is almost inevitable  after blade contact .  It 
+is obvious that the main ( and tail) rotor s must remain clear of the helicopter structure  under  
+all operational conditions . That requirement is covered by the following certification 
+requirement : 
+§27.661    Rotor blade clearance.  
+There must be enough clearance between the rotor blades and other parts of the 
+structure to prevent the blades from striki ng any part of the structure during any 
+operating condition.  
+4.4.11.  Following the NTSB's special investigation into R22 mast bump and low -main -rotor -RPM 
+accidents, of which  most  involved a main rotor blade striking the fuselage, the NTSB  stated 
+that it was concer ned that "other highly responsive helicopters are likely to be designed and 
+built that may have characteristics similar to the R22 " and that "there is a need for the FAA to 
+consider the responsiveness of helicopters (especially lightweight, high performanc e 
+helicopters such as the R22) as part of the certification process " (NTSB, 1996, p. 27) .  As a 
+result of this concern, the NTSB  recommended in 1996 that the FAA:  
+Require helicopter manufacturers to provide data on the response of helicopters 
+to flight control inputs to be used as part of the certification process, and require 
+operational limitations or other measures for those helicopters that are highly 
+responsive ( recommendation A-96-11). 
+4.4.12.  The NTSB changed the status o f that recommendation to 'Closed - Acceptable  Action ' in 2000 
+after the FAA stated that its rev ised guidance to manufacturers addressed large control inputs 
+by pilots and low-G manoeuvres  that may affect blade -fuselage clearance45 [emphasis added].  
+4.4.13.  The R66 has the same main  rotor design and some similar flight characteristics to the R22 
+and the R44 , and t he R66 certification programme took advantage of these similarities.  For 
+example, the FAA a ccepted the results of the earlier R44 rotor flapping survey as 
+complementary evidence that the R66 met the certification blade  clearance requirement.   
+Robinson explained the rationale for that approach :46 
+                                                        
+44 Teleconference, 30 January 2014, FAA, NTSB, Transport Accident Investigation Commission . 
+45 Published in Advisory Circular 27 -1, as amended.  
+46 Email to the Commission, 12 June 2015, from the Robinson Certification Manager.  
+  
+Final rep ort AO -2013003 
+<< Page 19 >>
+ Compliance with 14 CFR 27.661 was demonstrated in conjunction with flight 
+testing for demonstration of compliance with the flight requirements of 14 CFR 
+Part 27, and in -flight strain measurements for demonstration of compliance with 
+the fatigue requirements of §27.571 …  
+The maneuvers included in the flight tests … are considered to include every 
+likely maneuver to be performed in service, including maneuvers that exceed 
+flight limitations.   The main rotor flight strain survey included push -over 
+maneuvers that induced low -g conditions similar to those documented in the 
+[R66] Main Rotor Flapping Angle Survey report (RTR 673) [see paragraph  
+4.4.7 ].  While the results of these flight tests did not include measurements of 
+blade clearance, the absence of any unusual blade behavior in the course of the 
+flight tests was considered sufficient for demonstration of compliance with  
+§27.661.  
+As the flight characteristics and geometry of the R66 are substantially similar to 
+those of the R44, and comprehensive blade clearance data was available for the 
+R44 indicating blade clearance margins are large, direct measurements of blade 
+clear ance were not considered necessary for the R66.  
+4.4.14.  The FAA considered the R66 main rotor flapping survey to have confirmed th at th e type 
+compli ed with rotor clearance requirements.  The Robinson  survey report concluded:  
+Based on the test data in this report, it is clear that the R66 rotor system will not 
+stall, exceed teeter limits, or allow blade contact with the airframe when the 
+aircraft is flown within the approved operating envelope (Robinson Helicopter 
+Company, 2014, p. 4.2 8).47 
+4.4.15.  While t he R66 rotor flapping survey demonstrated rotor  clearance and that the helicopter had 
+an acceptable response to control reversals  (a form of abrupt controlling) , the report made the 
+following comments that  illustrate d a difference between test flying and what an average pilot 
+might experience, and that flight test results might not be transferable between similar types : 
+Although control reversal flight characteristics may be similar between Robinson 
+models, small changes in airspeed and pilot technique may produce large 
+changes in flight characteristics and component loads during the maneuver …  
+While control reversals we re performed during the original R66 certification 
+program, they were generally performed quickly enough such that rapid roll rates 
+were not generate d (Robinson Helicopter Company, 2014, p. 3.13) . 
+Although low G flight c haracteristics may be similar between Robinson models, 
+the exact boundary between 'safe recovery can be performed' and catastrophic 
+mast bumping cannot be predicted .  Small changes in entry speed and pilot 
+technique may produce large changes in roll rates  (Robinson Helicopter 
+Company, 2014, p. 3.19)  [emphasis added].  
+4.4.16.  This acknowledged fine line between safe and unsafe outcomes clearly illustrates the hazard 
+a low-G condition  poses for a Robinson helicopter.  F light in mod erate or greater turbulence  
+can result in a low G condition, which means flight in turbulence is a risk that needs be 
+mitigated .  It also brings into question another conclusion in the Robinson blade flapping 
+survey report : that the rotor system will not allow blade contact with the fuselage when the 
+helicopter is flown within the approved limits .  This issue is discussed in section  4.6. 
+Summary of certification issue  
+4.4.17.  The R66 certification programme was not required to test the helicopter's response to low G , 
+in spite of low G being known to present a serious risk of mast bump for the  R22 and R44.  
+Robinson  stated that  the R66 certification flights included manoeuvres that induced low-G 
+conditions similar to those in the main  rotor flapping survey, but the effects , if any,  were not 
+documented .  The rotor flapping survey videos confirmed that the R66 respond ed to low G in 
+the same way as the R22 and R44 .  For all three types, an incorrect pilot reaction to an 
+uncommanded roll c ould result in  a catastrophic mast bump.  
+                                                        
+47 The operating, or flight, envelope is the range of speed, load factor  and altitude for an aircraft, as established by 
+the design and verified during certification testing .  
+
+<< Page 20 >>
+ Final report AO -2013 -003 4.4.18.  The similarity of the three Robinson types in their response to low G shows a need for similar 
+knowledge and skill requirements for the pilots of any of the types. The Flight Standardization 
+Boards for all three Robinson types considered that it was essential for pilots to have an 
+understanding of the helicopter s' response to l ow G , but the R66 Board declined to require 
+special training for R66 pilots.48    
+4.4.19.  Therefore , at present , a person with no prior piloting exp erience can train for a helicopter pilot 
+licence on the R66.  The Flight Standardization Board  expected R66 pilots to have the same 
+essential knowledge regarding Robinson flight and handling characteristics as pilots of the 
+R22 and R44, but no special training was mandated  for the R66 .49  Insufficient pilot 
+knowledge and experience has been indicated as  a likely factor in the South Dakota and 
+Colombia R66 accidents  (see Appendix 5) . 
+4.4.20.  Pilots (like the pilot in this accident) who are qualified to fly the R22 or  R44 could infer from 
+the lack of any special training for the R66 that the R66 does not require the same careful 
+handling as the smaller types.  The emerging accident trend and instructional experience to 
+date suggest that the R66 does require the same ca reful handling.  
+4.4.21.  This accident and many others reinforce the need for pilots of Robinson helicopters , including 
+the R66,  to understand fully the need for careful handling to avoid low G , have  a clear 
+appreciation of the danger of flight in turbulent conditi ons, which can also cause low G , and 
+understand the importance of reducing airspeed if turbulence is encountered.  
+4.4.22.  When the R66 Flight Standardization Board met, the type had not entered operational service.  
+The R66 accident history to date indicates that the Boards ' decision not to recommend an 
+extension of SFAR 73 to R66 pilots should be re considered .  The Commission is 
+recommending  that the Administrator of the FAA extend the knowledge and training 
+requirements of SFAR 73 to pilots of the R66.50 
+4.4.23.  Following  a review of Robinson safety training in New Zealand, t he CAA issued a consultation 
+document outlining its intention to require pilots to complete, in essence, the SFAR 73 training 
+as part of  an R66 type rating, and also its intention to reinstate the SFAR  73 training for R44 
+pilots.  Following industry consultation, the Director of Civil Aviation (the Director) obtained 
+Court authority to reinstate the SFAR 73 training for the R44, but no application was made to 
+the Court in respect of the R66 .  Therefore , the Commission is recommending that the D irector  
+require pilots to complete the SFAR 73 training , or an equivalent  requirement, as a 
+prerequisite for the issue of an R66 type rating.  
+Findings  
+4. The R66 global accident history , in the five years since the ty pe was introduced 
+into service in 2010 , suggests that the R66 is as vulnerable as the smaller 
+R22 and R44 to a catastrophic mast bump  under certain conditions . 
+5. The R66 was certificated without any special  pilot training requirements to 
+mitigate the risk of a catastrophic mast bump . 
+ 
+4.5. Flight manual reference s to hazardous practices and conditions  
+4.5.1.  The available information on the fatal R66 accidents to date suggested that not all of the  
+involved  pilots had flown the smaller R22 or R44  and received the SFAR 73 training applicable 
+to those types .  But  even those pilots who did have R22 or R44 experience were unable to  
+avoid their  accident s. 
+                                                        
+48 Refer sectio n 3.9, Special training requirements for pilots of Robinson helicopters .  
+49 Robinson submitted that the pilot training syllabus in the United States covered all of the awareness topics in 
+SFAR 73 , including low G . 
+50 Refer to s ection 3.9 of this report.   
+  
+Final rep ort AO -2013003 
+<< Page 21 >>
+ 4.5.2.  If a flight condition is so critical that any exceedance could be catas trophic, such as the low G 
+pushover de scribed in paragraph 4.4.3, the flight manual  should contain an explicit  'warning' , 
+using  the terminology  that has become standard in aviation and other technical industr ies.51  
+The FAA guidelines recommended the use of  'warning' if there was a risk of death or injury, 
+and use d 'caution' for situations with a risk of equipment damage.52  However, Robinson's 
+flight manuals follow ed the United States General Aviation Manufacturers Association 's 
+Specification No.1, which did  not define 'warnings', 'cautions' and 'notes'.   Instead, Robi nson 
+defined 'caution' to include the risk of death or injury as well as equipment damage . 
+4.5.3.  Robinson provide d good, plain -language guidance for various aspects of flight operations, in 
+the Safety Tips and Notices section  of the Pilot's Operating Handbook s.  For example, Safety 
+Notice SN -32, High Winds or Turbulence ( see Appendix 6) contain ed critical information  to 
+help pilots avoid mast bumps.  The information deserved  to be headed 'Warning' , because a 
+mast bump would likely be catastrophic.  However, the safety notices w ere not a part of the 
+FAA-approv ed flight manual.  Therefore,  apart from the conditional limits in airworthiness 
+directive 95 -26-04 for the R22, there was no referenc e to turbulence in any FAA-approved 
+Robinson flight manual  at the time of this accident.  
+4.5.4.  Since 2008, in addition to this accident, the Commission has inquired into two R22 and one 
+R44 mast bump accidents, in circumstances where turbulence was a factor.  Th e CAA has also 
+investigated another two R22 accidents of this sort in that period.  
+4.5.5.  For this reason , the Commission disagree d with an industry view, expressed at  the May 2013 
+flight instructors' forum , that th e lack of an explicit warning about the sensitivity of Robinson 
+helicopters to turbulence  was not a safety  issue .  The accident record indicate d that it is an 
+issue and that the hazard  should be explicitly s tated  and appropriate mitigation put in place . 
+4.5.6.  In January 2015 Robinson increased the a ttention given to the hazard of turbulence by adding 
+the following Caution to  the Normal Procedures sections  of the R66 (and R44) flight manuals:  
+CAUTION  
+ If turbulence is expected, reduce power  
+ and use a slower than normal cruise speed.  
+4.5.7.  Each pilot of an aircraft shall, before beginning a flight, be familiar with the aircraft flight 
+manual.53  That requires pilots  to be aware of any changes to the manual.  Amendments are 
+normally notified by manufacturers to registered owners of the aircraft type and to sub scribers 
+to an amendment notification service for the type.  The full, current content of each Robinson 
+Pilot's Operating Handbook is  also freely available on -line. 
+4.5.8.  The addition of the above Caution to the Robinson R66 and R44 flight manuals, and the 
+chang es made in February 2016 to Safety Notice SN -32, ha s significantly increased the 
+attention given to the hazard of turbulence and could help reduce the incidence of mast 
+bumps , provided pilots are made aware of and understand the significance of this important 
+information .  Given the critical importance these latest 'Cautions' published by Robinson 
+helicopters  have for improving the safety of Robinson helicopter flight safety in New Zealand , 
+the Commission consider s these changes warrant wider publicit y within New Zealand .  
+Accordingly, the Commission recommended to the Director of Civil Aviation that he promptly 
+publicise the changes to the New Zealand helicopter community.  
+4.5.9.  In April 2015 the Commission recommended that the Administrator of the FAA requ ire 
+Robinson to use the term ' warning' for those operating conditions and practices that involve a 
+risk of personal injury or loss of life.54  On 1 7 November 2015 t he FAA replied that Robinson 
+flight manuals included a definition of 'Caution' that was a com bination of the traditional 
+                                                        
+51 This issue was discussed in Commission inquiry report 11 -003, in -flight break -up, ZK -HMU, Robinson R22, near 
+Mount Aspiring, 27 April 2011; and inquiry report 13 -005, in -flight loss of control, Robinson R22, ZK -HIE, near New 
+Plymouth, 30 March 2013.  
+52 FAA Advisory Circular 27 -1 refers.  
+53 Civil Aviation Rule 91.219.  
+54 Recommendation 007/15, in inquiry report 13 -005.   
+
+<< Page 22 >>
+ Final report AO -2013 -003 (industry practice) definitions of Warning and Caution.  The FAA believed "there would be little 
+added value in having Robinson change its flight manuals" and therefore it considered the 
+recommendation "Closed Not Adopted".  
+Finding 
+6. At the time of the accident, t he Robinson helicopter flight manuals d id not 
+adequately warn  pilots  of the hazardous operating practices and 
+environmental conditions that can lead rapidly to a catastrophic mast bump .  
+This type of accident is strongly associated with turbulen t conditions . 
+4.6. Dynamic behaviour of the Robinson main rotor system   
+4.6.1.  The R66 main rotor flapping survey report, like that for the R44 and the earlier FAA special 
+certification reviews of the R22  (see Appendix 3) , concluded that the r otor system will not 
+allow blade contact with the fuselage when the helicopter is flown within the approved limits .   
+Investigations into in-flight break -up accidents , which typically show evidence of a mast bump,  
+have rarely proven  that the pilots  mishand led the helicopter or exceeded the flight manual 
+limits .  Causal factors other than pilot handling and the operating environment may have been 
+involved.  Therefore, p reventive actions other than pilot training , operational limitations  and 
+flight manual clarit y may be required.  
+4.6.2.  The recommendation made in 1996 by the NTSB to the FAA to examine the design and the 
+dynamic behaviour of the Robinson main rotor  (as the exemplar lightweight rotor system)  for 
+any possible contribution to  such  accidents was closed before the research was completed.   
+The Georgia Institute of Tech nology  found  in their theoretical study  that "gusts under 
+moderate conditions seem not to be a problem ", but they recommend ed further study of the 
+problem  (see Appendix 3,  paragraph 10).  The lack of exact knowledge on the dynamics of 
+main rotor blade behaviour persists.  
+4.6.3.  The introduction to the FAA's airworthiness directive  95-26-04 (for the R22) inferred that the 
+FAA anticipated corrective design changes to reduce or elimi nate this type of accident.  The 
+airworthiness directive stated, in part:  
+Until the FAA completes its research into the conditions and aircraft 
+characteristics that lead to main rotor blade / fuselage contact accidents, and 
+corrective type design changes a nd operating limitations are identified …  
+4.6.4.  Robinson made c hanges to the engine controls to reduce the risk of low rotor RPM, but the 
+main rotor system design  remains unchanged .  The NTSB special investigation "found no 
+direct evidence of an unstable blade or rotor system design.  The extensive operational 
+history, the wreckage evidence, flight tests, and computer simulations indicate that a 
+dynamically unstable [R22] main rotor system is unlikely " (NTSB, 1996, p. 25) .  The NTSB 
+recognised that there could be other  explanations for the accidents.  
+4.6.5.  The avoidance of conditions that might cause a main rotor to strike the fuselage  relies 
+primarily  on pilots maintain ing the correct rotor RPM , and their diligent observ ance of  the 
+prohibition against deliberate low G and the caution to "avoid abrupt control inputs ".  Pilots 
+should learn w hat constitutes an 'abrupt'  control input during their initial training .  The NTSB 
+noted that the 1995 flight test s of the R44 rotor flapping  angles "were not (and could not 
+safely be) conducted to determine the helicopter's response to large, abrupt cyclic inputs " and 
+"the flight test did not provide the data needed to determine the mechanism for the blade 
+diverging into the body " (NTSB, 1996, p. 23) . 
+4.6.6.  Post-certification flight testing of the R22 (in 1982) and the R44 (1995) by Robinso n and the 
+FAA concluded that each  helicopter  was safe when "flown within its approved limitations " and 
+"could safely perform any nominal flight activity without main rotor divergence tendencies " 
+(NTSB, 1996, p. 23) .  However,  a helicopter could be  operating within the approved limits , but 
+unintentionally exceed a design limitation without a pilot input ; for example , when  
+encountering low G or in turbulence . The R22 and R44 Flight Standardization Boards in 1995 
+  
+Final rep ort AO -2013003 
+<< Page 23 >>
+ noted that "flight conducted in normal operating conditions may cause an encounter with such 
+hazards ". 
+4.6.7.  Robinson submitted that turbulence alone cannot  lead to low G mast bump ing, adding that  an 
+improper input or reaction by the pilot was also required .  Although it is clear from operational 
+experience that Robinson helicopters can be operated safely in some degree of turbulence, 
+the Commission considers  that Robinson h as not proven conclusively that a pilot input is 
+necessary  for a mast bump , for the following reasons:  
+ The rotor system behaviour in turbulence has not been fully teste d. 
+ The low G  conditions that have been tested were  planned manoeuvres as part of  
+blade flapping surveys.  In those tests, the test pilot initiated recovery action 
+immediately the helicopter began the expected right roll , thereby avoiding any 
+subsequent dynamic response . 
+ No minimum G is specified for Robinson helicopters, and little cognisance is given to 
+the counter -intuitive response required of a pilot (who is unlikely to be  a test pilot) 
+faced with an un -commanded right roll under low G. 
+ Many of the fatal Robinson mast bump accidents in N ew Zealand  have occurred in 
+turbulent conditions, and it was impossible to state what control inputs were or might 
+have been  made  immediately prior to  the mast bumps.   
+4.6.8.  The critical and sensitive nature of the flight controls was made cle ar in the R66 rotor flapping 
+survey report , which stated  "the exact boundary between 'safe recovery can be performed ' 
+and catastrophic mast bumping cannot be predicted ".  Studies by the NTSB and 
+manufacturers have shown that , due to the relative movement o f the main rotor blades and 
+the fuselage  during manoeuvres, the required separation can be lost completely  in less than a 
+second .  All of the conditions that can lead to a Robinson main rotor blade striking the 
+fuselage have not been  fully explained, but it is too dangerous to  explore the problem  with 
+flight tests .  Until the dynamic behaviour of the rotor system under conditions of low G is fully 
+understood, it is likely that not all of the causal factors in accidents of this type will be 
+identified, and therefore the appropriate recommendations to prevent a recurrence might not 
+be made.  
+4.6.9.  Since 1995, computational sciences and aerospace e ngineering have advanced to such a 
+degree that a fuller  understanding of the dynamic behaviour of lightweight, teetering,  
+underslung rotor systems ought to be possible.   For example, instrumented, remotely 
+controlled  helicopter s could provide data on the rotor behaviour under conditions  that are too 
+dangerous for test pilots .  Such a project could help  to eliminat e mast bump  accidents.  
+4.6.10.  Therefore , the Commission is recommending that the Administrator of the FAA r einstate 
+research into the dynamic behaviour of two-bladed, teetering, underslung rotor systems, 
+taking full advantage of the technology now available, with the aim of  achieving the intended 
+goals of NTSB recommendation A -96-12. 
+Finding  
+7. There is insufficient industry  knowledge of why Robinson helicopters are 
+particularly vulnerable to catastrophic mast bump events.  
+ 
+  
+
+<< Page 24 >>
+ Final report AO -2013 -003 4.7. Civil Aviation Authority  audit s 
+4.7.1.  The pilot  was effectively making his own operational decisions because he flew alone, but he 
+was still under the close supervision of the chief pilot .  The operator was required to have a 
+training programme that ensured its pilots were competent to perform their as signed duties.55  
+The relevant  advisory circular, 119-3, specified that the programme should include a 
+mountain flying element if the area of operations included mountainous terrain.  Most of the 
+operator's work was in a designated mountainous area.  
+4.7.2.  The CAA issued a specific  approval to persons and certificated training organisations who 
+could conduct advanced mountain training.  Neither the operator nor its authorised flight 
+training provider held that approval.  
+4.7.3.  An operator's training programme could  be varied, but the reason had to be noted in the 
+affected pilot's training record.  The operator's records did not show that the pilot in this case 
+had completed or been excused from mountain flying training relevant to his role.  However, 
+the training re cords did show that he had been supervised over most of the operator's routes 
+and into most landing sites, including the Mangatarame a Hut.  The chief pilot explained that  
+those flights had included demonstration s of and discussion s about mountain flying 
+procedures , as had the pilot's R66 type rating training and his initial competency check with 
+the external flight examiner .  Although the operator's records did not show that the pilot had 
+been given  mountain flying training specific to the role, it is highl y likely that he had  receiv ed 
+such training .  Therefore , the Commission determine d that the pilot's training  was unlikely to 
+have been a factor in the accident.  
+4.7.4.  The safety of the New Zealand civil aviation system relies, in part, on the effectiveness and 
+reliability of the CAA's risk -based surveillance system .  The p rimary tools in this system 
+include d the routine audits and spot checks of operators' adherence to the standards and 
+conditions of their aviation documents.  The focus of the audits is "on what is actually 
+happening versus the procedures that the organisation has documented to show how it 
+carries out its activities " (CAA, 2012, p. 8) . 
+4.7.5.  The CAA conducted a routine audit of the operator in March 2010.  The operator was re-
+certified in February 2013, two weeks before the accident.   
+4.7.6.  A further routine audit was conducted in  March 2014 .  The report of that  audit , in line with the 
+CAA's policy , contained  no commentary by the auditors on the operator's performance or 
+relat ive safety risk .  The report included a summary of approximately 480 rules (or sections of 
+rules) "that were tested during this audit ", all of which were  ticked to show that the operator 
+was "found to b e compliant ".  The size of the list was so inordinatel y large for an audit as to 
+call into question the integrity of the audit.   The CAA later agreed56 that:  
+this audit report is unlikely to portray an accurate representation of the rules 
+sampled … staff are now more conscious of the expectation and importance  of 
+only marking off the rules that were checked.  
+4.7.7.  The Surveillance Risk Assessment Form prepared prior to that audit had a recommendation, 
+made on 20 February 2014 by the CAA unit manager, for auditors to "conduct an in -depth 
+audit of the [operator's] pilot training and competency programme " and to "review the 
+company's approach to mountain flying training ".  These were  appropriate instructions  to 
+make  following the Kaweka accident.  The post -audit report stated that the operator's 
+exposition57 complied with Rule 135.553(a) regarding training programmes .  However, the 
+Commission 's staff  found  no reference to mountain flying training in the exposition  as late as 
+July 2015.  As a result of the Commission asking for this anomaly to be explained , the CAA in 
+August 2015 asked  the operator to submit a revised training programme.  
+                                                        
+55 Civil Aviation Rule 135.553(a) refers.  
+56 Email from CAA Manager Safety Investigation, 20 August 2015.  
+57 An exposition is a description of an operator's organisational structure, and the means and methods for 
+ensuring ongoing compliance with Civil Aviation Rules, which is provided to the CAA  in support of an operator's 
+application for a certificate . 
+  
+Final rep ort AO -2013003 
+<< Page 25 >>
+ 4.7.8.  Regardless  of the audit errors, the  Commission determined that the pilot's training , and 
+specifically his training for mountain flying,  was unlikely to have been a factor in the accident.   
+Findings  
+8. In spite of the lack of reference in the operator's exposition to mountain flying 
+training, the  pilot's training was unlikely to hav e been a factor in the accident.  
+  
+
+<< Page 26 >>
+ Final report AO -2013 -003 5. Findings  
+5.1. The in -flight break -up was caused by a mast bump and main rotor blade contact with the 
+fuselage.  
+5.2. The mast bump very likely occurred when the helicopter encountered moderate or greater 
+turbulence, which likely resulted in a condition of low G.  The effect of any turbulen ce would 
+have been exacerbated by the helicopter's light weight and  estimated  airspeed  of 115 
+knots . 
+5.3. The possibility that an intentional or inadvertent control input by the pilot contributed to the 
+mast bump cannot be excluded.  
+5.4. The R66 global accident hist ory, in the five years since the type was introduced into service 
+in 2010 , suggests that the R66 is as vulnerable as the smaller R22 and R44 to a 
+catastrophic mast bump  under certain conditions . 
+5.5. The R66 was certificated without any special  pilot training r equirements to mitigate the risk 
+of a catastrophic mast bump . 
+5.6. At the time of the accident, t he Robinson helicopter flight manuals d id not adequately warn 
+pilots of the hazardous operating practices and environmental conditions that can lead 
+rapidly to a catastrophic mast bump .  This type of accident is strongly associated with 
+turbulen t conditions . 
+5.7. There is insufficient industry  knowledge of why Robinson helicopters are particularly 
+vulnerable to catastrophic mast bump events.  
+5.8. In spite of the lack of refe rence in the operator's exposition to mountain flying training, the 
+pilot's training was unlikely to have been a factor in the accident . 
+ 
+  
+Final rep ort AO -2013003 
+<< Page 27 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result  in the Commission issuing a  recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+6.2. In January 2015, the following was added to the Normal Procedures section of the R66 (and 
+R44) fli ght manuals:  
+CAUTION  
+If turbulence is expected, reduce power  
+and use a slower than normal cruise speed.  
+6.3. On 29 October 2015, the Director of Civil Aviation was granted a Warrant of Authority to 
+Impose Conditions on the operation of Robinson R22 and R44 helicopters  in New Zealand .  
+The conditions included re instate ment of the  SFAR 73 training for R44 pilots .  For the full list 
+of conditions, see https:/www.caa.govt.nz/pilots/robinson_conditions.pdf   
+6.4. In February 2016, Robinson amended Safety Notice SN-32, 'High winds or turbulence' .  One of 
+the changes reinstated  the previous advice that 'flying in high winds or turbulence should be 
+avoided'  (see Appendix 7) .   
+Safety a ctions  addressing other safety issues  
+6.5. Nil. 
+ 
+ 
+  
+
+<< Page 28 >>
+ Final report AO -2013 -003 7. Recommendations  
+General  
+7.1. The Commission may  issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider trans port 
+sector.   In this case, recommendations have been issued to the Director of Civil Aviation (New 
+Zealand) and to the Administrator of the F AA (United States) . 
+7.2. In the interests of transport safety it is important that these recommendations are 
+implemente d without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendations  
+7.3. The CAA adopted the requirements of SFAR 73 for both the R22 and the R44 when the SFAR  
+was first issued in 1995 .  The FAA made SFAR 73  permanent in 2009 , for both  R44 and R22  
+pilots . 
+7.4. The R66 main rotor system is the same design as those  of the R22 and R44 .  Therefore, and 
+with the knowledge that four of seven fatal R66 accidents to date have been mast bump or 
+low-main -rotor -RPM accidents, the 'essential' aerodynamic and handling knowledge and 
+training that are prescribed in SFAR 73 for R22 and R44 pilots should be thoroughly 
+understood and observed by R66 pilots .  This goal would be achieved by the FAA extending  
+SFAR 73 to include R66 pilots .  It would be appropriate for t he CAA to take that action, 
+regardless of the FAA's response.  
+7.5. The addition to the Robinson R66 (and R44) flight manuals, in January 2015, of a Caution 
+concerning flight in turbulence, and the changes made in February 2016 to Safety Notice SN -
+32, significantly increased the attention given to turbulence.  Although the  changes w ould 
+have been notified to most registered owners of Robinson helicopters and subscribe rs to an 
+amendment notification service, and are available on the Robin son website, their wider 
+publication could help reduce the incidence of mast bump accide nts in New Zealand . 
+7.6. The inherent risks involved with flight testing lightweight helicopters with two -bladed, 
+teetering, underslung rotor systems have precluded a full understanding of how the main rotor 
+dynamics might have contributed to mast bump  accident s.  Mathematical modelling  about 20 
+years ago made a contribution to this knowledge , but the model was not completely validated .  
+Advances in technology  since then , including the use of remotely piloted helicopters,  provide 
+an opportunity to comp lete this research . 
+To the Director of Civil Aviation  
+7.7. On 25 February 2016  the Commission recommended to the Director of Civil Aviation that he : 
+7.7.1.  Include the knowledge and training requirements of Special Federal Aviation Regulation No.  
+73, or an equivalent requirement,  as a prerequisite for the issue of a Robinson R66 type 
+rating . (002/16 ). 
+On 8 March 2016, the Civil Aviation Authority replied in part:  
+On the basis that the FAA has twice rejected the inclusion of the Robinson R66 
+model in SFAR 73, the Direct or will not implement the recommendation, but will 
+continue to monitor advice from Robinson Helicopters and the FAA with respect 
+to the operation of R66 helicopters.  
+7.7.2.  Promptly publicise the recent changes to the Robinson R66 (and R44) Pilot's Operating 
+Handbooks that caution against flight in high winds and turbulence , and which advise pilots 
+to reduce power and speed if turbulence is expected or encountered  (011/16).  
+ 
+  
+Final rep ort AO -2013003 
+<< Page 29 >>
+ On 1 April 2016 , the Civil Aviation Authority replied:  
+The Director does not consider  it necessary to promptly publicise the recent 
+changes to the Robinson R66 (and R44) Pilot's Operating Handbooks that 
+caution against flight in high winds and turbulence, and which advises pilots to 
+reduce power and speed if turbulence is expected or encou ntered.  
+The amended safety notice by Robinson is freely available on their website.  In 
+addition, operators of Robinson helicopters are required to regularly amend their 
+Pilot's Operating Handbooks and this activity includes incorporating changes to 
+inform ation such as safety notices.  
+To the Administrator, Federal Aviation Administration.  
+7.8. On 25 February 2016  the Commission recommended to the Administrator, F AA that he:  
+7.8.1.  Extend the knowledge and training requirements of Special Federal Aviation Regulation No.  
+73 to pilots of the Robinson R66 helicopter . (004/16 ) 
+7.8.2.  Reinstate research into the dynamic behaviour of two-bladed, teetering, underslung rotor 
+systems, taking full advantage of available  technology, with the aim of achieving the original 
+goal of NTSB reco mmendation A -96-12. (005/16) 
+On 9 June 2016, the FAA replied:  
+The FAA received this safety recommendation on May 4, 2016.  We are 
+evaluating the recommendation and will propose an action plan, if appropriate.  
+We will coordinate with Robinson Helicopters during this process and provide an 
+update by August 1, 2016.   
+
+<< Page 30 >>
+ Final report AO -2013 -003 8. Key lessons  
+8.1. Pilots must be familiar with the complete Pilot's Operating Handbook for each  aircraft type 
+that they fly, as well as  the approved flight manuals.  
+8.2. Pilots of Robinson helicopters, regardless of their experience, should avoid  areas of high winds 
+or turbulence, and closely adhere to the manufacturer's advice to reduce airspeed if 
+turbulence is encountered.    
+  
+Final rep ort AO -2013003 
+<< Page 31 >>
+ 9. Works cited  
+CAA. (2012). Civil Aviation Authority Surveillance Policy.  Wellington: CAA.  
+Civil Aviation Authority. (2011). Advisory Circular AC119 -3. Wellington: CAA.  
+Defence Technology Agency . (2013). Technical Memorandum C1281; Main rotor drive sh aft failure of 
+R66 ZK -IHU. Auckland: Defence Technology Agency.  
+FAA. (1995a). Robinson R -22 Flight Standardization Board Report.  Fort Worth, Texas: Federal Aviation 
+Administration.  
+FAA. (1995b). Robinson R -44 Flight Standardization Board Report.  Fort Worth , Texas: Federal Aviation 
+Administration.  
+FAA. (1995c). Robinson R -22/R44 Special Training and Experience Requirements.  Washington, D.C.: 
+Federal Aviation Administration.  
+FAA. (2010). Flight Standardization Board Report, Robinson R -66 Helicopter.  Fort Wort h, Texas: Federal 
+Aviation Administration.  
+NTSB. (1996). Robinson Helicopter Company R22 Loss of Main Rotor Control Accidents, SIR -96/03.  
+Washington, D.C.: National Transportation Safety Board.  
+NTSB. (1996). Special Investigation Report NTSB/SIR -96/03.  Washington, D.C. 20594: National 
+Transportation Safety Board.  
+Robinson Helicopter Company. (2010). R66 Pilot's Operating Handbook, RTR661.  Torrance, CA: Robinson 
+Helicopter Company.  
+Robinson Helicopter Company. (2014). RTR 673, Main rotor flapping angle surve y, R66 helicopter.  
+Torrance, CA.: Robinson Helicopter Company.  
+Schrage, D. P. (1995). Simulation of Robinson R22 helicopter for the investigation of in -flight rotor 
+dynamics.  Atlanta: Georgia Institute of Technology.  
+ 
+ 
+ 
+  
+
+<< Page 32 >>
+ Final report AO -2013 -003 Appendix 1: ZK -IHU maintenance and post -accident testing  
+1. Recent maintenance  
+1.1. The previous scheduled maintenance was a 100 -hour check completed on 21 February 2013 at 
+699 flight hours.  At that check the main rotor swash plate lower scissor link ball -end was 
+replaced because of wear.  Earlier airframe maintenance of note included the following:  
+Date  Flight hours  Action  
+9 July 2012  354 main rotor blade spindle boots58 replaced due oil leak.  
+6 October 2012  406 (1) spindle boots replaced again, because of contact 
+with main rotor hub  
+(2) main rotor pitch links upper rod ends and lower 
+links replaced because of wear.  
+18 January 
+2013  601 spindle boot (blade serial number 0217) replaced 
+again due wear from contact with the main rotor hub.  
+ 
+1.2. Robinson advised that the cause of spindle boots rubbing  on the hub was likely to be improper 
+spindle boot  installation or a flight event that included excessive coning and/or teetering .  The 
+company that usual ly maint ained the helicopter said the replacement frequency was high, but not 
+unheard of  in the smalle r R44, which uses similar parts.  
+1.3. Robinson R66 Service Letter 06, issued on 21 December 2012, recommended a check of the tail 
+rotor drive shaft damper assembly for incorrect installation during manufacture.  The check was 
+to be done when the drive shaft was  next removed, but no opportunity for that had arisen before 
+the accident.  Later inspection showed that the damper had been installed incorrectly.  Robinson 
+advised that incorrect installation did not affect damper performance.  
+1.4. In September 2012 the engin e oil filter went into bypass mode after being blocked by carbon 
+particles.  Rolls -Royce advised that the degree of contamination was normal for the type of oil 
+being used.  The oil and filter element were replaced, the magnetic chip plugs were checked and  
+a satisfactory ground run was carried out.  Another oil filter bypass occurred in October 2012, but 
+no contamination was found.  As the oil filter case was suspected of being defective, it was 
+replaced.  No further problems were reported with the oil syst em. 
+1.5. Robinson R -66 Service Bulletin 05B, issued on 21 December 2012, required  the replacement of 
+the engine -to-gearbox sprag clutch retaining bolt, which eliminated play between the engine 
+power take -off shaft and the clutch splines.59  The bulletin required the task to be completed 
+within the next 100 flight hours after receipt of the bulletin or by 31 March 2013 , whichever 
+occurred first.  The helicopter accrued approximately 180 hours, and had two 100 -hour 
+inspections, between 22 Decem ber 2012 and the time of the accident, without the bolt having 
+been replaced.  The primary maintenance provider attributed the hours ' overrun to changing 
+parts requirements and availability caused by two revisions in 18 days to the original bulletin.  
+1.6. When  the clutch was removed from the helicopter after the accident, it did not turn freely in the 
+freewheel direction.  The clutch was examined at the Robinson factory on 10 May 2013, under 
+the supervision of the NTSB.  The report on the examination commented that the damage to the 
+clutch was typical of impact damage.60 
+1.7. The next annual review of airworthiness was due on 4 December 2013.  
+  
+                                                        
+58 The spindle is the pitch change bearing of t he main rotor blade .  The boots are flexible covers that retain the 
+bearing lubricant.  
+59 A sprag clutch transfers the engine torque to the main rotor transmission.  In the event of an engine failure, the 
+sprags withdraw, allowing the rotor to continue to t urn so that the helicopter can autorotate to a landing.    
+60 The Commission consider ed that  the sprag clutch maintenance was not a factor in the accident .  
+  
+Final rep ort AO -2013003 
+<< Page 33 >>
+ 2. Post-accident testing  
+Engine monitoring unit  
+2.1. The engine monitoring unit recorded the following parameters once every second:  
+ gas producer (compressor) speed ('N1')  
+ power turbine speed ('N2')  
+ torque (the primary indicator of the power being demanded from the engine)  
+ measured gas temperature (MGT).  
+2.2. During the 10 seconds prior to the end of the recorded data, when the data became a nomalous, 
+the average values of the parameters were:  
+Torque (%)61 N1 (%)  N2 (%)  MGT (OF) 
+75 93 100 1130  
+ 
+2.3. According to the flight manual, t he maximum allowable MGT for 75% torque (at a pressure 
+altitude of 4 ,000 feet and an assumed temperature of 15OC) was  approximately 645OC 
+(1,193OF).  Therefore the engine parameters were within the flight manual limits until 
+immediately prior to the accident.  
+Engine and engine accessories  
+2.4. Under the supervision of an NTSB investigator, Rolls -Royce disassembled and examined the 
+engine at its manufacturing plant in the United States.  The Rolls -Royce report noted that 
+"nothing was discovered which would prohibit normal engine operation " and th at all observations 
+were "consistent with engine operation at impact ". 
+2.5. The power turbine governor62 and fuel control unit63 were disassembled and inspected by their 
+manufacturer, Honeywell, at its plant in the United States.  These inspections were performed  
+under the supervision of an FAA inspector, acting for the NTSB.  For both items, the Honeywell 
+report stated, in part:  
+discounting impact damage, no condition could be found that would prevent 
+normal operation.  
+Main rotor control hydraulic servos  
+2.6. Pilot co ntrol of the main rotor pitch was assisted by three hydraulic servos.  The servos were 
+examined under the supervision of the NTSB on 10 May 2013 at the Robinson factory, where 
+they had been manufactured.  The servo that had been installed in the forward le ft position (one 
+of the two cyclic servos) operated smoothly but, because of impact damage, it could not be tested 
+against production specifications.  For each of the other two servos, Robinson's examination 
+report stated:  
+A functional test was performed a nd the servo operated within production 
+specifications.  
+Main rotor drive shaft  
+2.7. The Defence Technology Agency of the New Zealand Defence Force conducted a metallurgical 
+and fractographic64 examination of the main rotor drive shaft to determine the failure mode.  The 
+Agency's report65 commented:  
+                                                        
+61 The torque was recorded by the monitoring unit in units of pressure, but was displayed to pilots as  a percentage.  
+The recorded data was converted using a formula provided by Robinson.  
+62 Model AL -AA2 Part number 2549170 -2, serial number HR49120.  
+63 Model DP -N2, part number 2549196 -1, serial number HR60017.  
+64 Fractography is the examination of the cause o f a material failure by studying the characteristics of the fracture 
+surface.  
+65 Technical Memorandum C1281, Main rotor drive shaft failure of R66 ZK -IHU, 19 June 2013.  
+
+<< Page 34 >>
+ Final report AO -2013 -003 Failure occurred by overload and the nature of the fracture indicates that 
+significant bending and torsional loads were applied … The direction of to rsional 
+loading was consistent with power being applied to the rotor while the rotor was 
+abruptly decelerated, perhaps through contact with the airframe or some other 
+object . 
+2.8. The Agency's report included the following conclusions:  
+ fracture of the main roto r drive shaft was due to excessive loading with no 
+evidence of pre -existing cracking or defect  
+ fracture of the mast exhibits evidence that severe mast bending combined 
+with torsional loading from the power train caused the overload failure  
+ mast wall thickn esses were found to be essentially consistent with those 
+specified for the R66 mast.  Analysis indicated that the shaft material was 
+consistent with the specified material (4340 steel).  
+ 
+  
+  
+Final rep ort AO -2013003 
+<< Page 35 >>
+ Appendix 2: Further accident site information  
+1. The location of the accident is shown in Figure 4 and the distribution of the major wreckage in 
+Figure  5. 
+2. Both landing skids were attached to the fuselage, but the snowshoe -type heels were separated 
+and the toe of the left skid had also fractured.  
+3. The tail  rotor drive shaft had separated at the forward flexible coupling, and the tail boom had 
+separated aft of the oil cooler.  The tail rotor blades had minor impact damage only, indicative of 
+little or no rotation when the tail boom fell into the trees.  The tail rotor guard and the lower 
+vertical stabili ser were damaged, but most likely during the recovery of the tail boom.  
+4. The main transmission could be turned without obvious noise or restriction.  The engine -to-
+transmission drive shaft had fractured at the forward flexible coupling.  The surrounding braided 
+oil lines were wrapped around the drive shaft along its length.  Damage to the engine casings was 
+caused by external impacts.  Damage to the pneumatic lines precluded a thorough checking of 
+that system.  
+5. Fuel flow was demonstrated from the fuel tank to the fuel pump, and from the pump to the fuel 
+nozzle on the engine combustor.  The nozzle was found to be satisfactory during the later tear -
+down examination of the engine.  Both magnetic plugs were visibly cl ean. 
+6. The push -pull rods under the cockpit floor for the collective, lateral cyclic and tail rotor controls 
+were severed as a result of the main rotor blade strike.66  The fore -aft cyclic control was bent.  
+Control continuity was established from rearward of  the underfloor disruption to the hydraulic 
+servos.  No conclusions could be drawn as to the pre -impact positions of the flight controls.  
+7. Owing  to the extensive damage to the cockpit instrument pedestal, no significant information was 
+obtained from the ins truments.  The wreckage was examined for any evidence of a bird strike, but 
+none was found.  
+8. The fuel tank was made of a puncture -resistant, flexible material that was not damaged, even 
+though adjacent structure and panels were torn and disrupted.  
+                                                        
+66 The collective lever and the cyclic stick are two of a pilot's controls for the main r otor.  The collective lever is 
+used to change the main rotor blade pitch angles collectively, which causes the helicopter to climb or descend.  
+Cyclic stick movement causes the rotor blade pitch angles to change at the same point during their rotation cycl e, 
+which causes the rotor to tilt in the direction that the pilot has put the stick.  The helicopter then moves in that 
+direction.  
+
+<< Page 36 >>
+ Final report AO -2013 -003  
+Figure 4 
+Accident site  
+  
+see Figure 5 for 
+distribution of major 
+wreckage  
+approximate direction of flight   
+ 
+  
+Final rep ort AO -2013003 
+<< Page 37 >>
+  
+Figure 5 
+Distribution of major wreckage
+approximate direction of flight.  
+Actual displacement of flight 
+path from line of wreckage is not 
+known  
+
+<< Page 38 >>
+ Final report AO -2013 -003 Appendix 3: The NTSB special investigation of Robinson accidents  
+1. In 1994, concerned  by the number of unexplained R22 accidents  that involved a mast bump or 
+low main rotor RPM ('loss of main rotor control') , the NTSB commenced a special investigation to 
+examine those accidents and the certification history and handling qualities of the R2 2.  The 
+investigation was later expanded to include similar R44 accidents.  
+2. In response to the initial recommendations made by the NTSB during the investigation, the FAA 
+issued airworthiness directives (ADs) that limited R22 and R44 operations in high winds  and 
+turbulence.  The final versions, AD 95 -26-04 for the R22 and AD 95 -26-05 for the R44, were 
+issued in 1996.  AD 95 -26-04 was later made permanent, but AD 95 -26-05 was rescinded in 
+2004 after a review of the R44 in -service experience.67 
+3. AD 95 -26-04 inclu ded, in part, the following information:  
+ Until the FAA completes its research into the conditions and aircraft characteristics 
+that lead to main rotor blade / fuselage contact accidents, and corrective type design 
+changes and operating limitations are iden tified, Model R22 pilots are strongly urged 
+to become familiar with the following information and comply with these 
+recommended procedures.  
+ Main Rotor Stall : …  Any flight condition that creates excessive angle of attack on the 
+main rotor blades can produce a stall.  Low main rotor RPM, aggressive manoeuvring, 
+high collective angle (… high density altitude, over -pitching … during climb, or high 
+forward airspeed) … The effect of these conditions can be amplified in turbulence.  
+ Mast Bumping : Mast bumpin g may occur with a teetering rotor system when 
+excessive main rotor flapping results from low 'G' … or abrupt control input … High 
+forward airspeed, turbulence and excessive sideslip can accentuate the adverse 
+effects of these control movements.  
+ To avoid t hese conditions, pilots are strongly urged to follow these recommendations:  
+ Maintain cruise airspeeds between 60 [k nots] and less than 0.9 [of maximum 
+permitted airspeed] …  
+ Avoid large, rapid forward cyclic inputs in forward flight, and abrupt control inputs in 
+turbulence.  
+4. The FAA also issued SFAR 73 in 1995 to mandate specified awareness and flight training for all 
+pilots of R22 and R44 helicopters.  SFAR 73 required that the special training be delivered by an 
+authorised instructor and completed by ev ery pilot before "manipulating the controls " of a 
+Robinson helicopter.  The SFAR 73 also stipulated that an annual flight review be undertaken in 
+the applicable helicopter type until a specified minimum experience was attained, after which 
+biannual flight reviews, in the relevant type, were required.68  SFAR 73 was made permanent in 
+June 2009.  
+5. The NTSB special investigation report noted that the FAA had conducted three  special 
+certification reviews of the R22 between 1982 and 1994.  Each review had concluded  that the 
+R22 was safe "when flown within its operating limitations ".  However, the NTSB found no 
+evidence that the FAA had acted on internal recommendations regarding the certification testing 
+of light helicopters and their dynamic stability during manoeu vres (NTSB, 1996, pp. 20,21) . 
+6. Robinson conducted flight tests of the R22 in 1982 to survey rotor teeter clearances and the 
+response to flight control inputs, and concluded that the R22 main rotor system "would not stall , 
+exceed its teeter clearance, or contact the tail boom when the aircraft is flown within its approved 
+limitations " (NTSB, 1996, p. 23) .  Similar tests conducted with the R44 in 1995 concluded that 
+"the R44 could safely pe rform any nominal flight activity without main rotor divergence 
+tendencies"  (NTSB, 1996, p. 23) .  However, because "the tests were not (and could not safely be) 
+conducted to determine the [R44's] response to large, abrupt cyclic inputs … the flight test did 
+                                                        
+67 Robinson took other action to improve the R22, including installation of an electronic fuel control governor (which 
+helps t o control main rotor speed), a more powerful engine, and an automatic carburettor heat control.  
+68 On 11 June 2015, Robinson published a tutorial on SFAR 73 at www.gyronimosystems.com/SFAR . 
+  
+Final rep ort AO -2013003 
+<< Page 39 >>
+ not provide the data needed to determine the mechanism for the blade diverging into the body"  
+(NTSB, 1996, p. 23) . 
+7. The obvious constraints on hazardous flight testing led to a mathematic al simulation model of 
+R22 main rotor dynamics being developed by the Georgia Institute of Tech nology  School of 
+Aerospace Engineering  (Schrage, 1995) .69  The project ended due to a lack of funds before the 
+model was fully validate d or had research ed all of the area s of interest (for example, divergent 
+modes of the rotor that led to blade -fuselage strikes)  (NTSB, 1996, p. 24) .  However, for those 
+areas of the flight envelope that were  validated, the model verified the theory that push -overs 
+(which cause a low-G condition) could  lead to a main rotor blade striking the fuselage.  
+8. The Georgia Institute of Tech nology  report stated that "within the scope of this investigation no 
+[static droo p] stop contact or rotor/tail boom strikes occurred in the normal operating range of 
+the helicopter", but some of the scenarios did produce notional mast bumps and hub contact 
+with the droop stop  (Schrage, 1995, p. 127) . 
+9. The report concluded, in part  (Schrage, 1995, p. 133) : 
+The results from the cases executed in this report fall into three basic categories: (i) 
+cases where no excessive flapping was observed, (ii) cases where larger than normal 
+flapping behavior was observed, and the various limits of the blade and hub were 
+exceeded, and (iii) cases where there was indication of a definite tail boom strike.  
+The primary objective of many of the cases executed in this investigation was to f ind 
+as many flight conditions as possible which fall in the last category.  As one would 
+expect these cases correspond to maneuvers with large pilot inputs, cases where 
+rotor stall is a factor, severe gusts among others.  Thus, some cases have been 
+identif ied, where the simulation model seems to indicate a potential failure mode.  
+These are primarily related to rotor stall at lower rpm …  In case of pushover 
+scenarios, simulation results indicate a sensitivity to abrupt aft cyclic under 
+conditions of deep r otor stall.  Gust under moderate conditions, seems not to be a 
+problem even at high gross weights.  
+10. The Georgia Institute of Tech nology  report recommended further areas of study, but the FAA 
+confirmed in 2013 that the intended research had not been complete d. 
+11. Studies by the NTSB and manufacturers have shown that a low -inertia main rotor blade can strike 
+the fuselage in just a few revolutions.  That would take  less than half a second for an R66 main 
+rotor operating at the normal speed of 408 RPM.  
+12. The NTSB's s pecial investigation "found no direct evidence of an unstable blade or rotor system 
+design.  The extensive operational history, the wreckage evidence, flight tests, and computer 
+simulations indicate that a dynamically unstable main rotor system is unlikely " (NTSB, 1996, p. 
+25).  The NTSB recognised that many factors, including large, abrupt pilot control inputs, were 
+possible explanations for the accidents.  
+13. The summary of the NTSB special investigation report stated, in part (NTSB, 1996, p. 27) : 
+The Board is also concerned that in the future, other highly responsive helicopters 
+are likely to be designed and built that may hav e characteristics similar to the R22.  
+Consequently, the Safety Board believes that as a part of the certification process for 
+highly responsive helicopters, the FAA should establish operational requirements, 
+student pilot training requirements, and instru ctor pilot requirements, such as those 
+imposed on the R22 and R44, to ensure that pilots at all levels of qualification and 
+skills can adequately operate the helicopter.  The Safety Board concludes that 
+although the response rate of the R22 to cyclic input  is not unsafe so long as the 
+special operating rules remain in place, there is a need for the FAA to consider the 
+responsiveness of helicopters (especially lightweight, high performance helicopters 
+such as the R22) as part of the certification process to determine if special operating 
+rules or guidance are necessary.  Thus, the Safety Board believes that the FAA 
+should require helicopter manufacturers to provide data on the response of 
+helicopters to large, abrupt cyclic inputs as a part of the certificati on process and 
+                                                        
+69 Retrieved 15 December 2014 from http://hdl.handle.net/1853/52548 .  
+
+<< Page 40 >>
+ Final report AO -2013 -003 require operational limitations or other measures for those helicopters that are more 
+responsive, such as the R22.  
+14. The NTSB made the following recommendations to the FAA at the conclusion of its special 
+investigation  (NTSB, 1996, p. 31) : 
+Ensure that Special Federal Aviation Regulation 73, the Flight Standardization Board 
+specifications, and the airworthiness directives applicable to the operation of the 
+R22 and R44 are made permanent (A -96-9) 
+Establish, for f uture certification of highly responsive helicopters, operational 
+requirements, student pilot training requirements, and instructor pilot requirements, 
+such as those imposed for the R22 and R44, necessary to ensure that pilots of all 
+levels of qualificatio n and skills can adequately operate the helicopter (A -96-10) 
+Require helicopter manufacturers to provide data on the response of helicopters to 
+flight control inputs to be used as part of the certification process, and require 
+operational limitations or ot her measures for those helicopters that are highly 
+responsive (A -96-11) 
+In conjunction with the National Aeronautics and Space Administration, continue  the 
+development of the simulator model of lightweight helicopters, using flight tests and 
+whirl tower te sts as needed to validate the model, to create a national resource tool 
+for the study of flight control systems and main rotor blade dynamics.  If any unusual 
+main rotor blade system characteristics are found, ensure that the information and 
+data gathered are disseminated to the appropriate agencies and industry (A -96-12). 
+15. The status of recommendation A -96-9 was changed to 'Closed -acceptable action' in December 
+1996 after the FAA agreed to make the listed documents permanent.  
+16. The status of recommendation A-96-10 was also changed to 'Closed -acceptable action' in 
+December 1996 after the FAA committed to establish ing a Flight Standardization Board for each 
+newly certificated helicopter to determine the operational and pilot training requirements . 
+17. In response to recommendation A -96-11, the FAA twice amended A dvisory Circular 27-1, 
+Certification of Normal Category Rotorc raft.  The changes added guidance to manufacturers on a 
+means of compliance with regulation 14CFR27.661, which requires rotor -fuselage clearance  "for 
+any operating condition ".  In a letter to the NTSB seeking closure of the recommendation, the FAA 
+stated that the guidance material addressed large control inputs by pilots and low-G manoeuvres.  
+As a result, on 17 March 2000 the NTSB changed the rec ommendation status to 'Closed -
+acceptable action'.  
+18. Recommendation A -96-12 was closed by the NTSB in  1998 after  it received a submission from 
+the FAA, which read in part:70 
+The FAA has reviewed the merits of developing a simulation tool for aiding the 
+certifi cation of future helicopter flight control systems/blade dynamics and has 
+determined that such a tool would have limited application.  This determination 
+considered the actions that have already been accomplished and the status of the 
+NASA initiative.  The  behavior of certain rotor system configurations may become 
+unpredictable and dangerous beyond certain boundaries.  For this reason, the FAA 
+established a certified operating envelope.  Due to the combination of extremely 
+complex  flight control inputs, non -linear environmental gust effects and the inherent 
+difficulties in various rotor blade airfoil/hub designs, development of a single generic 
+mathematical model to predict acceptable flight limitations would have limited 
+application.  Subsequent validation of the math model would involve extensive 
+testing with significant risk to flight safety.  
+19. The NTSB accepted t hat "the bulk of the effort towards continued math modelling of lightweight 
+rotor systems will be conducted by [ the National Aeronautics and Space Administration] and the 
+FAA has reached the limits of its technical involvement ". 
+  
+                                                        
+70 www.ntsb.gov/safety/safety -recs/_layouts/ntsb.recsearch/Recommendation.aspx?Rec=A -96-012, accessed 17 
+July 2015.  
+  
+Final rep ort AO -2013003 
+<< Page 41 >>
+ Appendix 4: Participants in the helicopter forum, 9 May 2013  
+Name  Position  Experience and expertise  
+Larry Bennett  Former Chief Executive and Chief 
+Pilot,  
+North Shore Helicopters  Airline transport pilot licence (helicopter) 
+(ATPL(H) ) 
+Category A instructor  
+General aviation flight examiner  
+15,500 flight hours  
+Paul Breuilly  CAA, Team Leader, Safety 
+Investigation Unit   
+Tim Burfoot  Transport Accident Investigation 
+Commissi on, Chief Investigator of 
+Accidents   
+Jim Finlayson  Chief Pilot, Ice Aviation  ATPL(H) and ATPL (aeroplane)  
+Category A instructor  
+General aviation flight examiner  
+David Gill  CAA, Team Leader Airworthiness   Bachelor of Engineering (Mechanical)  
+Ian McClelland  Transport Accident Investigation 
+Commission , Investigator of Accidents   
+Andy McKay  CAA, Aviation Examiner  Category A and D instructor  
+General aviation flight examiner  
+Rama Rewi  Transport Accident Investigation 
+Commission , General Counsel   
+Neil Scott  Chief Pilot,  Garden City Helicopters  ATPL(H), commercial pilot licence 
+(aeroplane)  (CPL(A))  
+Category A, D and E instructor for both 
+helicopters and aeroplanes  
+General aviation flight examiner for both 
+helicopters and aeroplanes  
+24,800 flight hours  
+Dave Sowman  Head of Training - Utility , HNZ New 
+Zealand  CPL (helicopter ) (CPL(H)) and CPL(A)  
+Category A, D and E instructor  
+General aviation flight examiner  
+7,600+ rotary wing flight hours  
+Simon Spencer -
+Bower  Chief Executive and Chief Flying 
+Instructor , Wanaka Helicopters  CPL(H) and CPL(A)  
+Category A helicopter instructor  
+Category D aeroplane instructor  
+General aviation flight examiner  
+21,000 flight hours, 18,600 on 
+helicopters, 15,000 on Robinsons  
+Barry Stephenson  Transport Accident Investigation 
+Commission , Investigator of Accidents   
+Ian Wakeling  Chief Executive and Chief Pilot , 
+Aviation Development  CPL(H) and CPL(A)  
+Category B instructor  
+General aviation flight examiner  
+Former Vice President and production 
+test pilot, Fairchild -Hiller Helicopters  
+16,000 flight hours  
+Peter Williams  Transport Accident Investigation 
+Commission , Deputy Chief 
+Investigator of Accidents   
+  
+
+<< Page 42 >>
+ Final report AO -2013 -003 Appendix 5:  Robinson R66 fatal accidents  
+Date  Location  Registration  Circumstances  
+12 July 2011  Santiago Vila 
+de Giradot,  
+Colombia  N810AG  Unauthorised instruction by pilot with little 
+Robinson experience.  Low RPM rotor stall 
+and main rotor strike on fuselage.  
+1 October 2011  Philip, South 
+Dakota, USA  N266CY  In-flight break -up; main rotor detached. 
+Benign weather. Pilot's experience on 
+Robinsons undetermined, but R66 
+training not completed.  
+3 January 2013  Caraguatatuba, 
+São Paulo,  
+Brazil  PR-DUB Report not available, but indications of 
+loss of control after flying into cloud.  
+9 March 2013  Kaweka Ran ge, 
+New Zealand  ZK-IHU In-flight break -up; main rotor detached.  
+Likely moderate turbulence.  Low -time 
+pilot with R22 and R44 experience.  
+27 July 2013  Noxen, PA,  USA N646AG  Night -time, loss of control after flying into 
+fog. 
+22 November 2013  Guaiba Island - 
+Mangaratiba, 
+Brazil  PR-MXM  Report not available, but indications of 
+main rotor separation in turbulence.  
+28 June 2014  Temnolesskaya, 
+Russia  RA-1588G  Report not available, but indications of 
+loss of control after flying into cloud.  
+ 
+  
+Final rep ort AO -2013003 
+<< Page 43 >>
+ Appendix 6: Robinson Safety Notice SN -32 (revised May 2013)  
+ 
+ 
+ 
+ 
+  
+
+
+<< Page 44 >>
+ Final report AO -2013 -003 Appendix 7: Robinson Safety Notice SN -32 (revised February 2016)  
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2014 -002 Kawasaki BK117 B -2, ZK -HJC, Double engine power loss, Near Springston, 
+Canterbury, 5 May 2014  
+AO-2013 -006 Misaligned take -off at night, Airbus A340, CC -CQF, Auckland Airport, 18 May 2013  
+AO-2010 -009 Addendum to Final Report: Walter Fletcher FU24, ZK -EUF, loss of control on take -off 
+and impact with terrain, Fox Glacier aerodrome, South Westland, 4 September 2010  
+AO-2012 -002 Airbus A320 ZK -OJQ, Bird strike and subsequent engine failure, Wellington and 
+Auckland International Airports, 20 June 2012  
+AO-2013 -005 In-flight loss of control, Robinson R22, ZK -HIE, near New Plymouth, 30 March 2013  
+AO-2013 -007 Boeing 737 -838, ZK -ZQG, stabiliser trim mechanism damage, 7 June 2013  
+AO-2013 -009 RNZAF Boeing 757, NZ7571, landing below published minima, Pegasus Field, 
+Antarctica, 7 October 2013  
+AO-2013 -002 Robinson R44, ZK -HAD, engine power loss and ditching, Lake Rotorua,  
+24 February 2013  
+11-007 Descent below instrument approach minima, Christchurch International Airport, 29 
+October 2011  
+11-006 Britten -Norman BN.2A Mk.III -2, ZK -LGF, runway excursion, Pau anui Beach 
+Aerodrome, 22 October 2011  
+ 
+11-003 In-flight break -up ZK -HMU, Robinson R22, near Mount Aspiring, 27 April 2011  
+ 
+12-001 Hot-air balloon collision with power lines, and in -flight fire, near Carterton,  
+7 January 2012  
+ 
+11-004 Piper PA31 -350 Navajo Chieftain, ZK -MYS, landing without nose landing gear 
+extended, Nelson Aerodrome, 11 May 2011  
+ 
+11-005 Engine compressor surges, 18 September 2011  
+11-001 Bell Helicopter Textron 206L -3, ZK -ISF, Ditching after engine power decrease, Bream 
+Bay, Northl and, 20 January 2011  
+ 
+11-002 Bombardier DHC -8-311, ZK -NEQ, Landing without nose landing gear extended  
+Woodbourne (Blenheim) Aerodrome, 9 February 2011  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 17.00                                          ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online)  

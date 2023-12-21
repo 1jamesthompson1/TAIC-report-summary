@@ -1,0 +1,50 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the accident in the provided document. Insufficient information.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: The skipper made an assumption about the number of passengers based on previous interactions with the trip leader, which led to carrying more passengers than permitted ("The trip leader had arranged several similar charters before and because of this the master assumed that the leader was aware of the maximum 20-person limit" (4.3.1)). Additionally, the skipper assumed he was navigating into clear water based on previous tracks, which resulted in the collision ("the master put the throttle forward and turned to the east into what he believed to be clear water" (4.2.4 (invalid formatted quote))).
+- name: Training and Competency
+  percentage: 0
+  explanation: The crew held the appropriate qualifications to operate the vessel, indicating that training and competency were not contributing factors to the accident ("The crew held the appropriate qualifications to operate the Torea on commercial passenger fishing charters" (4.1.2)).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: There is no indication that a lack of training or familiarity with equipment contributed to the accident. The document states that there was no malfunction of machinery or navigation equipment ("There was no malfunction of the machinery installation or navigation equipment on the day" (4.1.3)).
+- name: Crew Resource Management
+  percentage: 10
+  explanation: While the crew's actions during the emergency were well-coordinated ("The actions of the crew in resolving the situation were well thought out and co-ordinated" (4.1.4)), there was a failure in crew resource management before the accident, as the crew did not verify the number of passengers boarding the vessel ("When the passengers arrived on the wharf, they were allowed to board without any of the crew checking how many there were" (4.3.3)).
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The skipper and crew did not adhere to safety procedures regarding passenger count, which is a critical safety procedure for the operation of the vessel ("It is a serious safety issue when skippers of commercial vessels are not aware that their vessels are carrying more than the maximum permitted number of persons" (4.3.7)).
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The lack of verification of passenger numbers suggests a lapse in the safety culture of the organization, as it was the skipper's responsibility to ensure the vessel was not carrying more passengers than permitted ("Nevertheless, it was the skipper's responsibility to ensure that his vessel was carrying no more than the permissible number of passengers" (4.3.5)).
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The skipper was aware of the risks associated with navigating close to rocks and took some measures to mitigate these risks, but the accident occurred due to a misjudgment of the situation ("the skipper was targeting blue cod species for his passengers... one of the risks with this type of operation is incurring what is usually slow speed bumps and scrapes on rocks" (4.2.1 (unvalidated and unrepairable quote))).
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: The vessel was carrying more passengers than it was certified to carry, which is a non-compliance with regulatory requirements ("there were 24 passengers on board the torea when it was only certified to carry 20 passengers" (4.3 (invalid formatted quote))).
+- name: Situational Awareness
+  percentage: 10
+  explanation: The skipper's situational awareness was compromised when he navigated the vessel into what he believed was clear water, resulting in the collision with the rock ("he determined from his previous tracks where he knew uncharted rocks existed... the master put the throttle forward and turned to the east into what he believed to be clear water" (4.2.4 (invalid formatted quote))).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: The emergency response was rapid and followed good procedures, indicating that emergency response preparedness was not a contributing factor to the accident ("The response from emergency services was rapid and followed good search and rescue procedures" (4.1.4)).
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: There is no mention of maintenance or inspection issues contributing to the accident. The vessel had a current survey and carried more than the correct lifesaving equipment ("The Torea had a current survey and carried more than the correct lifesaving equipment for its operation" (4.1.3)).
+- name: Use of Automation
+  percentage: 0
+  explanation: The document does not indicate that automation or its misuse contributed to the accident. The navigation system was functioning and interfaced with the echo sounder ("This navigation system was interfaced with the echo sounder and plotted the depth of water under the vessel for each saved track" (4.2.3)).
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: Weather conditions were suitable for the trip and did not contribute to the accident ("The weather conditions were therefore suitable for the trip" (4.1.1)).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: While there was a failure to communicate the correct number of passengers, this was more an issue of assumptions and lack of verification rather than a breakdown in communication systems or protocols ("the master said that he had assumed that the copy faxed to the gatehouse at south port new zealand had 20 passengers on it" (4.3.2 (unvalidated and unrepairable quote))).
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident. All relevant factors have been addressed within the predefined safety themes.

@@ -49,7 +49,7 @@
  
  
  
- Final report MO -2017 -201: Passenger vessel L’Austral  contact with rock Snares Islands,  
+ Final report MO -2017 -201: Passenger vessel L'Austral  contact with rock Snares Islands,  
 9 January 2017  
  
  
@@ -111,7 +111,7 @@ to the Transport Accident Investigation Commission.
  
 Final Report  
 Marine inquiry MO-2017 -201 
-Passenger vessel L’Austral  contact with rock Snares Islands ,  
+Passenger vessel L'Austral  contact with rock Snares Islands ,  
 9 January 2017  
  
  
@@ -178,16 +178,16 @@ Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
 against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
-final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
 Ownership of report  
 This report remains the intellectual property of the Transport Accident Investigation Commission.   
 This report may be reprinted in whole or in part without charge, provided that acknowledgement is m ade 
 to the Transport Accident Investigation Commission.  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this draft report.  Documents that would normally be accessible to ind ustry participants only and not 
 discoverable under the Official Information Act 198 2 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cited.  
+documents referred to during the Commission's inquiry that are publicly available are cited.  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs, diagrams and pictures included in this report  are provided by, 
 and owned by, the Commission.  
@@ -210,7 +210,7 @@ Exceptionally unlikely  < 1% probability
  
  
  
-L’Austral  docking in Dunedin , January 2017  
+L'Austral  docking in Dunedin , January 2017  
  
 
  
@@ -257,18 +257,18 @@ Appendix 2: Extracts from IMO guidance for good prac tice (ECDIS)  .............
  
 Final Report MO -2017 -201 | Page i Figures  
 Figure 1   The general area of the accident  ................................ ................................ ..............................  4 
-Figure 2   Stern of L’Austral showing the ‘marina’  ................................ ................................ ...................  5 
-Figure 3   GPS position of L’Austral , ship delineation to scale  ................................ ...........................  6 
+Figure 2   Stern of L'Austral showing the 'marina'  ................................ ................................ ...................  5 
+Figure 3   GPS position of L'Austral , ship delineation to scale  ................................ ...........................  6 
 Figure 4   Chart showing location of Auckland Island  ................................ ................................ ..............  8 
 Figure 5   Location of penetrated void space  ................................ ................................ .........................  10 
 Figure 6   Damage inside the void space  ................................ ................................ ................................  10 
 Figure 7   Radar screengrab from the time of the accident stored in the voyage data recorder  ........  15 
 Figure 8   Extract of paper chart NZ 2411, in use at the time of the accident  ................................ ..... 16 
-Figure 9   Photograph showing the CATZOC of the unofficial ENC loaded in L’Austral’s  ECDIS  ..........  18 
+Figure 9   Photograph showing the CATZOC of the unofficial ENC loaded in L'Austral's  ECDIS  ..........  18 
 Figure 10   Description of ECDIS depth parameters  ................................ ................................ ................  19 
 Figure 11   Description of ECDIS time and distance safety parameters  ................................ .................  19 
 Figure 12   Photograph of ECDIS parameters displayed on the bridge  ................................ ...................  20 
-Figure 13   Screenshot from vessel’s ECDIS after the accident  ................................ ..............................  21 
+Figure 13   Screenshot from vessel's ECDIS after the accident  ................................ ..............................  21 
 Figure 14   Extract from Proposed Regional Coastal Plan: Kermadec and sub -Antarctic islands,  
  Snares Islands (at the time of the accident)  ................................ ................................ ..........  22 
  
@@ -298,7 +298,7 @@ Category Zone  of Confidence
 (ECDIS s) for displaying the accuracy of the underlying data  for a 
 displayed chart (see Appendix 1) 
 classification society  an organi sation that publishes its own classification rules (includin g 
-technical standards ’ requirements) for the design, construction and 
+technical standards ' requirements) for the design, construction and 
 survey ing of ships  
 Chart datum  The level of water that charted depths displayed on a nautical chart 
 are measured from  
@@ -315,22 +315,22 @@ the chart catalogue
 No-go zone  A way of visually representing an area the navigator does not 
 want the vessel to enter  
 Officer  of the watch  a deck officer assigned the duties of watch -keeping and navigation 
-on a ve ssel’s bridge  
+on a ve ssel's bridge  
 overfalls , eddies  and breakers  a turbulent stretch of water caused by a strong current or tide over a 
 submarine ridge, or by a meeting of currents  
 raster navigation al chart  essentially an image or a photo of a paper chart  
 Sonar  A system for the detection of objects under water . 
-Voyage  data recorder  a computer system containing a record of a vessel ’s operation and 
+Voyage  data recorder  a computer system containing a record of a vessel 's operation and 
 configuration for the purpose of accident investigation  
   
  
 Page iv | Final Report MO -2017 -201 Data summary  
 Vehicle particulars  
-Nam e: L’Austral  
+Nam e: L'Austral  
 Type : passenger vessel  
 Class:  Bureau Veritas  
 Limits:  unlimited  
-Classification:  I ✠ HULL ✠ MACH passenger ship – unrestricted navigation 
+Classification:  I ✠ HULL ✠ MACH passenger ship - unrestricted navigation 
 COMF -NOISE 1, COMF -VIB 1, ✠ VeriSTAR -HULL, ✠ AUT-UMS , 
 ✠ AUT-PORT , MON -SHAFT, CLEANSHIP, ICE CLASS IC, ✠ ALP, 
 ✠ ALM  
@@ -351,7 +351,7 @@ Date and time  9 January 2017 at about 15081
 Location  south of Alert Stack , Snares Islands  
 Persons involved  156 crew and 200 passengers  
 Injuries  nil 
-Damage  loss of hull’s  watertight  integrity  through piercing and cracking into 
+Damage  loss of hull's  watertight  integrity  through piercing and cracking into 
 one void space  
                                                         
 1 Times in this report are in New Zealand Daylight Time (Co -ordinated Universal Time + 13 hours) and are 
@@ -360,38 +360,38 @@ expressed in the 24 -hour format
 Final Report MO -2017 -201 
 << Page 1 >>
  1. Executive summary  
-1.1. L’Austral was a French -registered passenger vessel that was operating a 16 -night cruise of 
-New Zealand ’s South Island , including its sub-Antarctic  islands .  On 7 January 2017 L’Austral 
+1.1. L'Austral was a French -registered passenger vessel that was operating a 16 -night cruise of 
+New Zealand 's South Island , including its sub-Antarctic  islands .  On 7 January 2017 L'Austral 
 sailed from Lyttelton with 200 passengers and 156 crew on board, bound for the Snares 
 Islands , south of New Zealand . 
-1.2. L’Austral  arrived off the Snares Islands early on the morning of 9 January 2017.  The 
+1.2. L'Austral  arrived off the Snares Islands early on the morning of 9 January 2017.  The 
 passengers spent the morning making shoreline excursions in rigid-hulled inflatable boats , 
 observing  the wildlife.  That afternoon the weath er became unsuitable for small -boat 
-excursions , so L’Austral  rendezvoused with the boats in the sheltered water to the south of the 
+excursions , so L'Austral  rendezvoused with the boats in the sheltered water to the south of the 
 islands to take them back on board.  
 1.3. While t he master was focused on manoeuvring the ship to facilitate the safe recovery  of the 
 rigid-hulled inflatable boats,  the ship  drifted into a 300 -metre  unauthorised zone, where it 
 contacted an uncharted rock.  The rock pierced the hull in an empty void tank, which flooded 
-with water.  The damaged compartment had little effect on the ship’s stability, and the ship 
+with water.  The damaged compartment had little effect on the ship's stability, and the ship 
 was a ble to continue to another sub-Antarctic island before returning to New Zealand for 
 temporary repairs.  Nobody was injured.  
-1.4. The Transport Accident Investigation Commission (Commission) found  that L’Austral 
+1.4. The Transport Accident Investigation Commission (Commission) found  that L'Austral 
 inadvertently entered the 300-metre unauthorised  zone , which the ship was not permitted to 
 enter and in which the chart s noted the existence of overfalls , eddies and breakers.  
 1.5. The uncharted rock was in an area  that the Commission considers was not suitable for the 
-safe navigation of ships the size of L’Austral . 
-1.6. The Commission also found : that the activity to recover the ship’s rigid -hulled inflatable boats 
-was not well planned; that the ship’s position was not being adequately monitored; and that 
-the standard of bridge resource management on board  L’Austral did not meet good industry 
+safe navigation of ships the size of L'Austral . 
+1.6. The Commission also found : that the activity to recover the ship's rigid -hulled inflatable boats 
+was not well planned; that the ship's position was not being adequately monitored; and that 
+the standard of bridge resource management on board  L'Austral did not meet good industry 
 practice.  
 1.7. The Commission identified three safety issues : 
  the voyage planning f or the time in the Snares Islands and the standard of bridge resource 
 management on the bridge leading up to the contact did not meet the International 
 Maritime Organi zation standards  or follow the guidelines published in other leading 
 industry publication s 
- the operation of L’Austral ’s electronic chart display  and information system  did not meet 
+ the operation of L'Austral 's electronic chart display  and information system  did not meet 
 good practice as defined in the  International Maritime Organi zation guidance  or the 
-standards set out in the operator’s safety management system  
+standards set out in the operator's safety management system  
  The Department of Conservation had insufficient maritime expertise applied to assessing 
 the risks to ships and the environment.  
 1.8. The Commission made two recommendations  to the operator to address the safety issues 
@@ -409,7 +409,7 @@ means of navigation can c ontribute to, rather than prevent , accidents
  
 
 << Page 2 >>
- Final Report MO -2017 -201  every part of a ship ’s voyage must be planned , and all members of the bridge team must 
+ Final Report MO -2017 -201  every part of a ship 's voyage must be planned , and all members of the bridge team must 
 be fully  familiar with and agree to the plan . This  is a cornerstone of good bridge resource 
 management  
  good bridge resource management relies on a culture where challenge is welcomed and 
@@ -425,18 +425,18 @@ Final Report MO -2017 -201
 by email from Maritime New Zealand on 13 January 2017, four days after the occurrence.  
 The Commission opened an inquiry under section 13(1)b of the Transport Accident 
 Investigation Commission Act 1990,  and appointed an investigator in charge.  
-2.2. On 13 Janu ary 2017 two investigators deployed to Bluff where  L’Austral had berthed  the 
+2.2. On 13 Janu ary 2017 two investigators deployed to Bluff where  L'Austral had berthed  the 
 previous day.   The t wo investigators interviewed the master and gathered perishable evidence.  
-2.3. On 13 January  2017  contact was established with the Bureau d ’Enquêtes sur les Événements 
+2.3. On 13 January  2017  contact was established with the Bureau d 'Enquêtes sur les Événements 
 de Mer, (BEAmer)  the French safety investigation authority. It was agreed  that New Zealand 
 would lead the marine safe ty investigation  in accordance with  the International Maritime 
 Organization  (IMO) Casualty Investigation Code , Chapter 7.  
-2.4. On 14 January 2017  L’Austral had temporary repairs completed  and was cleared by Maritime 
+2.4. On 14 January 2017  L'Austral had temporary repairs completed  and was cleared by Maritime 
 New Zealand  to sail .  
-2.5. On 24 January 2017 t wo investigators met  L’Austral when it berthed  in Dunedin. They 
+2.5. On 24 January 2017 t wo investigators met  L'Austral when it berthed  in Dunedin. They 
 conducted further interviews with  the master,  the officer of the watch2 and the chief engineer.  
 2.6. On 3 April 2017 and 4 May 2017 two investigators interviewe d Department of Conservation 
-employees in relation to permits granted to  L’Aust ral. 
+employees in relation to permits granted to  L'Aust ral. 
 2.7. On 26 October 2017  the Commission approved the draft report for distribution to interested 
 persons for comment . 
 2.8. The draft report was circulated to nine interested persons.  Seven responses were received.  
@@ -444,7 +444,7 @@ persons for comment .
 been included in the final report.  
 2.10.  The Commission approved the final report for publication on 21 February 2018.
                                                         
-2 A deck officer assigned the duties of watch -keeping and navigation on a vessel’s bridge.  
+2 A deck officer assigned the duties of watch -keeping and navigation on a vessel's bridge.  
  
 
 << Page 4 >>
@@ -454,8 +454,8 @@ The g eneral area of the accident
 approximate 
 point of 
 contact  
-Part of Chart NZ 2411 ‘Snares 
-Islands/Tini Heke ’ 
+Part of Chart NZ 2411 'Snares 
+Islands/Tini Heke ' 
 Sourced from Land Information 
 New Zealand data.  
 Crown Copyright Reserved  
@@ -470,32 +470,32 @@ Final Report MO -2017 -201
   
 3. Factual information  
 3.1. Background  
-3.1.1.  L’Austral was a French -registered passenger vessel that was operating a 16 -night luxury cruise of 
-New Zealand ’s South Island  and the UNESCO  World Heritage Site3 sub-Antarctic islands.  With  a 
+3.1.1.  L'Austral was a French -registered passenger vessel that was operating a 16 -night luxury cruise of 
+New Zealand 's South Island  and the UNESCO  World Heritage Site3 sub-Antarctic islands.  With  a 
 draught  of five metres (m), it was capable of positioning close inshore, from where its own small , 
 rigid-hulled inflatable boats (RHIBs) were used to get passengers close inshore to observe wildlife 
 and scenery.  
 3.2. Narrative  
-3.2.1.  On 7  January 2017  L’Austral sailed  from Lytt elton with 200 passengers and 156 crew on board.   
+3.2.1.  On 7  January 2017  L'Austral sailed  from Lytt elton with 200 passengers and 156 crew on board.   
 The navigation officer4 joined the ship in Lyttelton.  It was her first time on the ship  as navigation 
 officer . 
-3.2.2.  During the  departure  from  Lyttelton the master alter ed the vessel’s schedule to call  first at  the 
+3.2.2.  During the  departure  from  Lyttelton the master alter ed the vessel's schedule to call  first at  the 
 Snares Islands  due to a favourable weather forecast . 
  
 Figure 2  
-Stern of L’Austral showing the ‘marina ’ 
+Stern of L'Austral showing the 'marina ' 
   
                                                         
-3 An area that reflects the world’s cultural and natural diversity and is of outstanding universal value.  
+3 An area that reflects the world's cultural and natural diversity and is of outstanding universal value.  
 4 The d eck officer res ponsible for planning navigation, maintaining the chart catalogue,  making decisions on 
 steering and manoeuvring the ship, and controlling navigation and communications . 
-the ‘marina’  
+the 'marina'  
  
 
 << Page 6 >>
- Final Report MO -2017 -201 3.2.3.  L’Austral arrived  off North East  Island  in the Snares Island s group  at about 0600 on 9 January 
+ Final Report MO -2017 -201 3.2.3.  L'Austral arrived  off North East  Island  in the Snares Island s group  at about 0600 on 9 January 
 2017 .  Whilst the vessel manoeuvred  close inshore , the passengers  embarked onto the RHIBs 
-from the stern platform (referred to on board as the marina  – see Figure 2 ).  The RHIBs then  
+from the stern platform (referred to on board as the marina  - see Figure 2 ).  The RHIBs then  
 cruised around the east coast of the island , allowing the passengers to view the wildlife . 
 3.2.4.  The master took control5 of the vessel from the officer of the watch while  the vessel was 
 manoeuvring  off North East Island .  
@@ -509,17 +509,17 @@ route for repositioning the vessel  south of the island (see Figure 3).  The mas
 navigation officer  then took the vessel  from the east side of the  islan d around to the s outh bay .  A 
 helmsman  steer ed the ship manually for this short  trip. 
 3.2.8.  However, t he weather conditions  were deteriorating , so the  master cancelled the post -lunch 
-passenger excursions . L’Austral’s  crew  then started  to recover the RHIB s back on board , but due 
+passenger excursions . L'Austral's  crew  then started  to recover the RHIB s back on board , but due 
 to the prevailing weather condition s the recovery took longer than normal.   To obtain the best sea 
 conditions for recovering the RHIBs , the master  manoeuvred the ship to maintain a southerly 
 heading  whilst  drifting sideways to the west , as shown in Figure 3 . 
  
 Figure 3  
-GPS position of L’Austral , ship delineation  to scale  
+GPS position of L'Austral , ship delineation  to scale  
                                                         
 5 Directing the navigation of the vessel.  
-Part of Chart NZ 2411 ‘Snares 
-Islands/Tini Heke ’ 
+Part of Chart NZ 2411 'Snares 
+Islands/Tini Heke ' 
 Sourced from Land Information 
 New Zealand data.  
 Crown Copyright Reserved   
@@ -540,10 +540,10 @@ contact
  
 Final Report MO -2017 -201 
 << Page 7 >>
- 3.2.9.  L’Austral eventually drifted into an area marked  on charts  as overfalls , eddies  and breakers6 
+ 3.2.9.  L'Austral eventually drifted into an area marked  on charts  as overfalls , eddies  and breakers6 
 south of Alert Stack.  At about 1508 the master and the navigation officer  both heard an  unusual 
-sound at the stern , but thought  it was caused by a wave “slamming ” under the boarding platform 
-at the stern .  The navigation officer  plotted the  ship’s position on the paper chart at this time.   
+sound at the stern , but thought  it was caused by a wave "slamming " under the boarding platform 
+at the stern .  The navigation officer  plotted the  ship's position on the paper chart at this time.   
 3.2.10.  At about 1510 both the port and the starboard flooding alarms sounded in the engine control 
 room , indicating a flood in number 8C void space , which was forward of the engine ro om and 
 near the longitudinal centre of the vessel . 
@@ -558,8 +558,8 @@ underwater object that must have pierced the hull .
 board. 
 3.2.14.  At about 1630 the damage control team briefed  the master .  They confirmed  that the adjacent 
 compartments were dry and that flooding had been contained to just one  void space .  They 
-recalculated the stability of the vessel , which confirmed  that the ship’s stability  was not adversely 
-affected by the flooded void  space .  The master contacted the vessel ’s operator , Compagnie du 
+recalculated the stability of the vessel , which confirmed  that the ship's stability  was not adversely 
+affected by the flooded void  space .  The master contacted the vessel 's operator , Compagnie du 
 Ponant (Ponant ), to report the damage  and it in turn contacted the French authorities. The master 
 then  decide d to continue the passage  to Auckland I sland , about 140 nautical miles south of the 
 Snares Islands (Figure 4) . 
@@ -576,20 +576,20 @@ water in the void space.
 Figure 4  
 Chart showing location of Auckland Island  
  
-3.2.15.  L’Austral arrived  at Auckland Island  on the morning of 10 January 2017.  Two of the crew 
+3.2.15.  L'Austral arrived  at Auckland Island  on the morning of 10 January 2017.  Two of the crew 
 members used self -contained underwater breathing apparatus to dive under the vessel and take 
 photographs of the breach in the hull.  
 3.2.16.  The master  was subsequently  briefed on the d amage and updated the report to the operator .  
-The operator  then directed  the master to sail L’Austral to Bluff for repairs.  
-3.2.17.  On the morning of 11 January 2017 , L’Austral sailed  south to Musgrave I nlet (Figure 4)  so the 
+The operator  then directed  the master to sail L'Austral to Bluff for repairs.  
+3.2.17.  On the morning of 11 January 2017 , L'Austral sailed  south to Musgrave I nlet (Figure 4)  so the 
 passengers could  cruise the inlet  in RHIBs . The vessel then sailed  for Bluff.  
-3.2.18.  L’Austral arrived  in Bluff  (Figure 4)  on the evening of 12 January 2017 , where a  class ification 
+3.2.18.  L'Austral arrived  in Bluff  (Figure 4)  on the evening of 12 January 2017 , where a  class ification 
 society9 surveyor and an underwater repair team  were assembled to survey the damage and 
 make temp orary repairs .  
  
  
                                                         
-9 An organi sation that publishes its own classification rules (including technical standards ’ requirements) for the 
+9 An organi sation that publishes its own classification rules (including technical standards ' requirements) for the 
 design, construction and survey ing of ships . 
 Snares Islands  
  
@@ -597,8 +597,8 @@ Auckland Island
  
 Musgrave Inlet  
  South Island  
- Part of Chart NZ28 ‘Stewart 
-Island/Rakiura to Macquarie Island ’ & 
+ Part of Chart NZ28 'Stewart 
+Island/Rakiura to Macquarie Island ' & 
 Chart NZ25 New Zealand South Island . 
 Sourced from Land Information New 
 Zealand data.  
@@ -611,19 +611,19 @@ Final Report MO -2017 -201
 << Page 9 >>
  3.2.19.  Maritime New Zealan d inspected the vessel and detained it  for the purpose of conducting a  
 maritime compliance investigation.   
-3.2.20.  On 14 January 2017 Maritime New Zealand release d L’Austral from the detention order s. 
-L’Austral sailed from Bluff and continue d the cruise to the sub-Antarctic  islands . 
+3.2.20.  On 14 January 2017 Maritime New Zealand release d L'Austral from the detention order s. 
+L'Austral sailed from Bluff and continue d the cruise to the sub-Antarctic  islands . 
 3.3. Vessel details  
-3.3.1.  L’Austral was a passenger vessel built by Fincantieri , Ancona in Italy in 2010.  The registered  
+3.3.1.  L'Austral was a passenger vessel built by Fincantieri , Ancona in Italy in 2010.  The registered  
 owner was  Ounas SAS  in France  and it was operated by Ponant.  
-3.3.2.  L’Austral had a length overall of 142.1 m, a breadth of 18 m and a maximum  draught of 4. 8 m.  It 
+3.3.2.  L'Austral had a length overall of 142.1 m, a breadth of 18 m and a maximum  draught of 4. 8 m.  It 
 was powered by four diesel -electric generators supplying two electric motors , each connected to a 
 single fixed -pitch propeller.   It had two high -lift Becker10 rudders  and a single 800-kilowatt  bow-
 thrus ter11. 
-3.3.3.  L’Austral was fitted with a Class 1 dynamic positioning  system that allowed the vessel to 
+3.3.3.  L'Austral was fitted with a Class 1 dynamic positioning  system that allowed the vessel to 
 automatically  maintain its position and heading  with a high degree of accuracy .  The dynamic 
 positioning system was not in use a t the time of the accident.  
-3.3.4.  L’Austral was equipped with a long -range , forward -looking sonar, a system for detecting  objects 
+3.3.4.  L'Austral was equipped with a long -range , forward -looking sonar, a system for detecting  objects 
 under water.   The sonar was not in use at the time of the accident.  
 3.4. Environmental conditions  
 3.4.1.  The coastal marine forecast  on 9 January 2017 for the area  six nautical miles north of the  Snares 
@@ -638,7 +638,7 @@ the movement of the vessel.
 3.5.1.  The accident resulted in a number of penetrations  to the hull , the main one being 600 x 80 
 millimetres  in size .  Two keel plate s were  slightly bent .  One frame was distorted i nside the 
 penetrated void space . 
-3.5.2.  The penetrati on damage was confined to void space  8C (Figure 5) in the vessel ’s double -bottom13 
+3.5.2.  The penetrati on damage was confined to void space  8C (Figure 5) in the vessel 's double -bottom13 
 arrangement . There was no pollution  reported . 
                                                         
 10 Rudder s fitted with articulated trailing -edge flap s that increase the air foil shape of the rudder s and improve 
@@ -680,67 +680,67 @@ penetration  void space 8C
  
 Final Report MO -2017 -201 
 << Page 11 >>
- operator ’s safety management system .  He had also been the training manager for two years.   In 
-January 2016  he had been  the master of Le Soléal , a vessel similar to L’Austral , when it 
+ operator 's safety management system .  He had also been the training manager for two years.   In 
+January 2016  he had been  the master of Le Soléal , a vessel similar to L'Austral , when it 
 conducted a sub-Antarctic  islands  cruise.  
 3.6.2.  The navigation  officer held an STCW II/1 certificate  of competency  unlimited for both deck and 
 engine room operations .  She  had worked at sea for four years.   In April 2015 , before leaving her 
 last vessel,  she had completed type -specific ECDIS training.   The navigation officer had joined 
-L’Austral in January 2017 , having been ashore for 20  months .  At the time of the accident  it was 
-the navigati on officer’s  third bridge watch on L’Austral .   
+L'Austral in January 2017 , having been ashore for 20  months .  At the time of the accident  it was 
+the navigati on officer's  third bridge watch on L'Austral .   
   
  
 
 << Page 12 >>
  Final Report MO -2017 -201 4. Analysis  
 4.1. Introduction  
-4.1.1.  The operator of L’Austral  had first begun offering its sub-Antarctic  island cruise in 2015.  The 
+4.1.1.  The operator of L'Austral  had first begun offering its sub-Antarctic  island cruise in 2015.  The 
 master had previous operating experience in the area.  The operator  held all of the necessary 
 permits required from the Department of Conservation  (see section 4.5) and had up -to-date 
 paper and electronic charts for the area .  The predicted and actual weather conditions were 
 suitable for conducting passenger RHIB excursions off North East Island .  
-4.1.2.  The rock with which  L’Austral made contact was uncharted, having not been detected during a  
+4.1.2.  The rock with which  L'Austral made contact was uncharted, having not been detected during a  
 hydrographic survey of the islands in 1999 .   
 4.1.3.  The following analy sis discusses  the circumstances that led to the vessel making contact with the 
 uncharted rock.  Also discussed is one contributing and two non -contributing safety issues : 
  the voyage planning for the time in the Snares Islands and the standard of bridge resource 
 management o n the bridge leading up to the contact  did not meet the  IMO standards  or follow 
 the guidelines published in other leading industry publications  
- The operation  of L’Austral’s ECDIS did not meet good practice as defined in the IMO guidance 
-or the standards set out in the operator’s safety management system.  
+ The operation  of L'Austral's ECDIS did not meet good practice as defined in the IMO guidance 
+or the standards set out in the operator's safety management system.  
  The Department of Conservation had insufficient maritime expertise applied to assessing the 
 risks to ships and the environment.  
 4.2. What happened  
-4.2.1.  L’Austral’s  passengers had  been cruising the east coast of North East Island  in RHIBs  on the 
+4.2.1.  L'Austral's  passengers had  been cruising the east coast of North East Island  in RHIBs  on the 
 morning of 9 January.  
 4.2.2.  The weather was likely to be too uncomfortable for the passengers in the afternoon , so the RHIBs 
 needed to be stowed  back on  board the vessel .  To pick up the RHIBs from the south of the island 
 the navigation officer first had to plan a route to the position where the vessel  would meet the 
 RHIBs.  This plan consisted of six waypoint s on the ECDIS and three p arallel indexes16 created on 
-the radar.  These tools allowed the navigation officer to monitor the vessel ’s progress on the 
+the radar.  These tools allowed the navigation officer to monitor the vessel 's progress on the 
 route and make any corrections needed if the vessel  deviated from the plan.  
-4.2.3.  When  L’Austral arrived at the south bay, t he master  began  manoeuvring the vessel  in order to 
+4.2.3.  When  L'Austral arrived at the south bay, t he master  began  manoeuvring the vessel  in order to 
 facilitate the recovery of the RHIBs  in the shelter provided by the South Promontory of the island 
-(see Figure 3).  There were  only two people on the bridge – the master and the navigati on officer.  
+(see Figure 3).  There were  only two people on the bridge - the master and the navigati on officer.  
 Once the master took control of the ship  there was no agreed plan for where the vessel was to be 
 or any areas to be avoided . 
 4.2.4.  The master had made a mental note to avoid the area of overfalls , eddies and breakers depicted 
 on the charts for the area south of Alert Stack.   However , while  the master was  very likely  focused 
 on the recovery of the RHIBs , he did not notice that the ship had moved so far to the west , 
 entered this area and made contact with the uncharted rock . 
-4.2.5.  The operator was not permitted to operate  L’Austral within 300 m of the shoreline under the 
-conditions of its coastal permit.  The uncharted rock with which L’Austral made contact was 
+4.2.5.  The operator was not permitted to operate  L'Austral within 300 m of the shoreline under the 
+conditions of its coastal permit.  The uncharted rock with which L'Austral made contact was 
 closer than 300  m to the shore.  
 4.2.6.  Although the rock was un charted, the  description of the waters and the charted depth contours in 
-the area were warning enough for operators of ships the size of  L’Austral to give it a wide berth.  
+the area were warning enough for operators of ships the size of  L'Austral to give it a wide berth.  
                                                         
-16 An offset electronic navigation  line(s) set up on a radar screen parallel to a ship’s heading , used to monitor 
-the ship’s distance from prominent points.  
+16 An offset electronic navigation  line(s) set up on a radar screen parallel to a ship's heading , used to monitor 
+the ship's distance from prominent points.  
  
 Final Report MO -2017 -201 
 << Page 13 >>
  4.2.7.  The position of the uncharted rock was calculated from the GPS (global positioning syst em) 
-posit ion recorded in the ship ’s voyage data recorder17. The horizontal accuracy of the GPS was 
+posit ion recorded in the ship 's voyage data recorder17. The horizontal accuracy of the GPS was 
 recorded as being ±0.9 m. The hull penetration was 52  m behind the GPS antenna. It was very 
 likely that the uncharted rock was within the 300  m exclusion zone.  
 4.2.8.  The un intentional breach of the coastal permit and the ship entering an area where the master 
@@ -748,7 +748,7 @@ had decided not to take it are indicative of a safety issue with the standard of
 bridge resource management.  This is discussed in the following section . 
  
 4.3. Voyage planning and c onduct of n avigation   
-Safety issue – The voyage planning for the time in the Snares Islands and the standard of bridge 
+Safety issue - The voyage planning for the time in the Snares Islands and the standard of bridge 
 resource management on the bridge leading up to the contact did not meet the IMO standards  or 
 follow the guidelines published in other leading industry publications . 
 Bridge resource management  
@@ -758,13 +758,13 @@ communication  are important aspects of bridge resource management .  The bridge
 build a shared understanding of what the plan is and how it is to be implemented.  In that way 
 any deviations from the plan ca n be challenged and errors can be detected and remedied without 
 an accident occurring . 
-4.3.2.  The recovery of the RHIBs so close to the shore would normally be considered ‘manoeuvring’.  
-The operator’s safety management system detail ed the safe manning for the br idge when 
-manoeuvring  as “Master and Staff Captain, and one qualified navigational watch keeping rating”. 
+4.3.2.  The recovery of the RHIBs so close to the shore would normally be considered 'manoeuvring'.  
+The operator's safety management system detail ed the safe manning for the br idge when 
+manoeuvring  as "Master and Staff Captain, and one qualified navigational watch keeping rating". 
 The safety management system  describe d this as three individuals sharing the workload to 
 ensu re safe navigation and lookout.  
 4.3.3.  At the time of the accide nt there were  just the master and the navigati on officer  on th e bridge, 
-less than the required complement .  Notwithstanding the operator’s bridge manning 
+less than the required complement .  Notwithstanding the operator's bridge manning 
 requirements, the task could still have been achieved safely had the master and navigation 
 officer had  an agreed plan and been  communicating effectively.  
 4.3.4.  However, t he bridge audio recording from the voyage data recorder revealed little effective 
@@ -773,15 +773,15 @@ the 20-minute perio d prior to the grounding .  There was no agreement of a plan
 the way of expectations from the master to the navigation officer and nothing in return from  her. 
  
                                                         
-17 A computer system containing a record of a vessel ’s operation and configuration for the purpose of accident 
+17 A computer system containing a record of a vessel 's operation and configuration for the purpose of accident 
 investigation.  Finding s 
-1. L’Austral inadvertently entered a 300 -metre exclusion zone , which  the ship was 
+1. L'Austral inadvertently entered a 300 -metre exclusion zone , which  the ship was 
 not authorised to enter and in which the chart s noted the existence of overfalls , 
 eddies and breakers.  
-2. L’Austral made contact with an uncharted rock  inside the 300 -metre exclusion 
+2. L'Austral made contact with an uncharted rock  inside the 300 -metre exclusion 
 zone.  
 3. The uncharted rock was in an area the Commission considers would not be 
-suitable for the safe navigation of ships the size of  L’Austral  without having a 
+suitable for the safe navigation of ships the size of  L'Austral  without having a 
 high level of confidence in the accuracy of available hydrographi c information.  
  
  
@@ -793,7 +793,7 @@ high level of confidence in the accuracy of available hydrographi c information.
  manoeuvring the vessel . 
 It is very likely that the master became  focused on  these activities to the detriment of  maintaining  
 situational awareness.  
-4.3.6.  The navigation officer  was responsible for monit oring the vessel ’s progress, ensuring the master’s 
+4.3.6.  The navigation officer  was responsible for monit oring the vessel 's progress, ensuring the master's 
 actions had the desired effect s, and challenging  the actions of the master if necessary.  Because 
 there was no briefing from the master , the navigation officer had no clear understanding of where 
 the master planned to position the vessel, so she was unsure of what and when to challenge.  
@@ -807,16 +807,16 @@ hazards.  Situations like this are easily rectified using a team approach , wher
 common plan.  
 Radar  
 4.3.9.  Figure 7 shows a screengrab18 captured from the  primary radar at the time of the accident. The 
-dashed ring labelled ‘variable range marker  1’ was set at 300  m or 0.162 nautical miles to help 
-ensure the vessel did not go within 300 m of the shoreline as defined in the operator’s  coastal 
-permit.  The master was surprise d to learn that  L’Austral had breached the 300  m limit.  This is 
+dashed ring labelled 'variable range marker  1' was set at 300  m or 0.162 nautical miles to help 
+ensure the vessel did not go within 300 m of the shoreline as defined in the operator's  coastal 
+permit.  The master was surprise d to learn that  L'Austral had breached the 300  m limit.  This is 
 explainable because the  centre of the 300  m circle is the radar scanner , which is positioned 
 above the bridge.  The distance from the radar scanner to the stern is abo ut 90 m.  For the 
 variable range marker  to have been  used as a useful monitor to ensure the vessel did not go 
 within 300  m of the shoreline, it would  have been appropriate to set it to at least 390  m. 
 4.3.10.  The radar was set to a 1.5 -nautical -mile range  scale .  Given the close proximity of the island , a 
 smaller range scale such as 0.75 nautical miles would have better aided position monitoring.  
-4.3.11.  While the radar gave an indication of the ship’s distance from  the shoreline, it alone was not a 
+4.3.11.  While the radar gave an indication of the ship's distance from  the shoreline, it alone was not a 
 definitive tool for continuously mo nitoring where the ship lay in relation to navigation al hazards 
 not detectable by radar.  A more appropriate tool for position  monitoring would have been the 
 ECDIS and the paper ch art.  The use of these is discussed below.  
@@ -830,13 +830,13 @@ Figure 7
 Radar screengrab from the time of the accident stored in the voyage data recorder  
  
 Position monitoring on paper charts  
-4.3.12.  The area where  L’Austral struck the submerged ro ck was surveyed in 1999 to a ±50  m positional 
+4.3.12.  The area where  L'Austral struck the submerged ro ck was surveyed in 1999 to a ±50  m positional 
 accuracy and a ±1.6  m depth accuracy.   Within these parameters it  was possible that a rock 
 pinnacle would  not have been  captured.   The information captured during this survey was used to 
 produce the paper chart NZ  2411 . 
-4.3.13.  The vessel ’s primary means of navigation was the ECDIS , comprising a  primary unit and a back -
-up planning unit .  The operator ’s safety management system referred to  French law  requiring  
-L’Austral to have a paper  chart  back -up in addition to the secondary ECDIS unit.  However, the 
+4.3.13.  The vessel 's primary means of navigation was the ECDIS , comprising a  primary unit and a back -
+up planning unit .  The operator 's safety management system referred to  French law  requiring  
+L'Austral to have a paper  chart  back -up in addition to the secondary ECDIS unit.  However, the 
 operator had misinterpreted the legislation .  Article 221 -V/19 in French law state d that back -up 
 devices for ECDIS s could  be paper or electron ic.  This was not a safety issue as such, as the ship 
 had more than the minimum requirement, that  being a primary and a secondary ECDIS, and a 
@@ -846,9 +846,9 @@ was compatible with the situation.  There were issues with the way in which the 
 used on board, which are discussed in the following section.  However, there were  also issues 
 with the way in which the paper charts were used.  
 4.3.15.  Figure 8 shows two position fixes on the paper chart that was in use at the time of the accident. 
-The operator ’s safety management system  state d that  the officer o f the watch shall “plot the 
-ship’s position on t he appropriate chart and check at sufficiently frequent intervals dependi ng on 
-the prevailing conditions ”.   
+The operator 's safety management system  state d that  the officer o f the watch shall "plot the 
+ship's position on t he appropriate chart and check at sufficiently frequent intervals dependi ng on 
+the prevailing conditions ".   
 variable 
 range 
 marker 1  1.5 
@@ -856,22 +856,22 @@ nm
 radar 
 scale 
 AlertStack  
-vessel’s  track 
+vessel's  track 
  
 
 << Page 16 >>
  Final Report MO -2017 -201 4.3.16.  The vessel was manoeuvring very close to land, which  was a high -risk activity  requiring precise 
-navigation techniques to monitor the vessel ’s posit ion.  Approximately 30 minutes passed 
+navigation techniques to monitor the vessel 's posit ion.  Approximately 30 minutes passed 
 between  the time the vessel arrived at the south bay and the time the vessel struck the rock. 
 Position 2 was added after the navigation officer  heard the sound of the impact.  P rior to this 
 there was only one  position marked on the chart.  
 4.3.17.  An activity requiring constant manoeuvring of a ship close to a shoreline would normally be 
-subjected to almost constant monitoring of the ship’s position .  This can be achieved with a 
-combination of monitoring by radar, backed up by frequent fixing of the ship’s position on a paper 
+subjected to almost constant monitoring of the ship's position .  This can be achieved with a 
+combination of monitoring by radar, backed up by frequent fixing of the ship's position on a paper 
 chart.  Apart from the position  fix at 1431 (see Figure 8) , the radar was only being used to 
-monitor the  ship’s  distance off the  shoreline to ensure there was no breach of the coastal permit 
-restrictions, rather than to monitor the ship’s position in relation to navigational hazards.  
-4.3.18.  An ECDIS is ideally suited to constantly monitoring a ship’s position, provided it is properly 
+monitor the  ship's  distance off the  shoreline to ensure there was no breach of the coastal permit 
+restrictions, rather than to monitor the ship's position in relation to navigational hazards.  
+4.3.18.  An ECDIS is ideally suited to constantly monitoring a ship's position, provided it is properly 
 configured  and utilised .  
  
 Figure 8  
@@ -879,14 +879,14 @@ Extract of paper chart NZ 2411, in use at the time of the accident
  
   
  Finding s 
-4. The portion of the voyage plan related to recover ing the ship’s rigid-hulled 
+4. The portion of the voyage plan related to recover ing the ship's rigid-hulled 
 inflatable boats was not well planned in accordance with the International 
 Maritime Organization  standards and the guidelines given in leading industry 
 publications.  
-5. L’Austral inadvertently entered an unauthorised zone and an area the master 
-had int ended to avoid because the ship’s position was not being adequately 
+5. L'Austral inadvertently entered an unauthorised zone and an area the master 
+had int ended to avoid because the ship's position was not being adequately 
 monitored . 
-6. The standard of bridge resource management on board  L’Austral  did not meet 
+6. The standard of bridge resource management on board  L'Austral  did not meet 
 good industry practice.  
 position 2  
  position 1  
@@ -894,27 +894,27 @@ position 2
 Final Report MO -2017 -201 
 << Page 17 >>
  4.4. Electronic chart display and information system  (ECDIS)  
-Safety issue – The operation of  L’Austral’s  ECDIS  did not meet good practice as defined in the 
-IMO guidance or the standards set out in the operator’s safety management system . 
+Safety issue - The operation of  L'Austral's  ECDIS  did not meet good practice as defined in the 
+IMO guidance or the standards set out in the operator's safety management system . 
 Chart accuracy  
 4.4.1.  The existence of uncharted dangers to navigation is a foreseeable risk for mariners.  Paper chart s 
-are printed with ‘source diagram s’ that show the degree of accuracy  of, or the level of confidence 
+are printed with 'source diagram s' that show the degree of accuracy  of, or the level of confidence 
 that a mariner can have in , that chart.  ECDIS charts display  Category Zone of Confidence  
 (CATZOC)19 symbols, which give visual repre sentation s of the accuracy  of underlying data . A table 
 detailing the different CAT ZOC values can be found in Appendix 1.   
 4.4.2.  SOLAS20 chapter V , regulation 2.2 describes  an electronic navigation chart (ENC) or paper chart  
-as one : “issued officially by or on the  authority of a Government, authorized Hydrographic Office 
+as one : "issued officially by or on the  authority of a Government, authorized Hydrographic Office 
 or other relevant government institution and is designed to meet the requirements of marine 
-navigation”. The operator had a responsibility to ensure that all charts and ENC s delivered to the 
+navigation". The operator had a responsibility to ensure that all charts and ENC s delivered to the 
 vessel  were  official nautical publications.   
 4.4.3.  Land Information New Zealand (LINZ) is the recogni sed hydrographic office of New Zealand.  It 
 produces the paper chart NZ 2411 and the raster  navigational chart21 NZ 241102 .  LINZ had not 
 created  an ENC for the area of the Snares Islands  at the time of the accident . 
-4.4.4.  The ECDIS on  board  L’Austral was loaded with an unofficial ENC for the Snares Islands, which 
+4.4.4.  The ECDIS on  board  L'Austral was loaded with an unofficial ENC for the Snares Islands, which 
 had been  produced by C-MAP, a Norwegian company.   The C-MAP ENC was derived from 
 published electronic raster navigational charts where the local hydrographic office s had not 
 produced ENC s.  The ENC that was in use at the ti me of the accident is shown in F igure 9.  The 
-CATZOC U symbols denote that the “the quality of the bathymetric  data has yet to be assessed”22.  
+CATZOC U symbols denote that the "the quality of the bathymetric  data has yet to be assessed"22.  
 This low-confidence marker was also used as an indicator that it had not been  produced by the 
 local national hydrographic office, in this case L INZ.   
 4.4.5.  The paper chart had a scale  of 1:25 ,000, and in the area of the accident the underlying survey 
@@ -931,35 +931,35 @@ that the ENC had been produced by an unofficial source.
 << Page 18 >>
  Final Report MO -2017 -201             
 Figure 9  
-Photograph showing the CATZOC of the unofficial ENC loaded in  L’Austral’s  ECDIS  
+Photograph showing the CATZOC of the unofficial ENC loaded in  L'Austral's  ECDIS  
  
 4.4.6.  There is a requirement for shore -based personnel who have a responsibility to outfit ships with 
 ECDIS ENCs to have undergone the IMO generic ECDIS training , to ensure they are familiar with 
 the IMO requirements.  The provision of the  C-MAP  chart portfolio  containing unofficial ENCs  for 
-loading into L’Austral’s  ECDIS should have been accompanied by an alert , warning that some of 
+loading into L'Austral's  ECDIS should have been accompanied by an alert , warning that some of 
 the charts had not been produced by official hydrographic source s. 
-4.4.7.  The bridge team on  L’Austral did not appreciate that the CATZOC of U shown on their ECDIS at the 
+4.4.7.  The bridge team on  L'Austral did not appreciate that the CATZOC of U shown on their ECDIS at the 
 time of the accident indicated that it had been  produced by C -MAP, not by LINZ .   
-4.4.8.  The master and deck officers  of L’Austral had all received  IMO mandatory generic ECDIS training , 
+4.4.8.  The master and deck officers  of L'Austral had all received  IMO mandatory generic ECDIS training , 
 and addition ally they had completed type -specific training  for the Sperry VisionMaster FT as fitted 
-to the L’Austral .  The IMO requires this training to be supplied  by the ECDIS manufacturer, or its 
+to the L'Austral .  The IMO requires this training to be supplied  by the ECDIS manufacturer, or its 
 designated providers.  However , the navigation officer  had received this training in -house from  a 
-captain who had undergone the manufacturer ’s training .  This training may or may not have been 
+captain who had undergone the manufacturer 's training .  This training may or may not have been 
 adequate.  It met the French  flag requirement for type -specific  training ; however , it did not comply 
 with the IMO standard23.   
 4.4.9.  The navigation officer had completed the type -specific training in April 2015, just prior to 
 spending 20 months ashore. The  International Safety Management ( ISM) Code  includes a 
 requirement for operators to ensure that shipboard crew are thoroughly familiar with the systems 
 and equipment with which they are working.  T here had been  a strong case for the ship operator 
-to arrange refresher training for the navig ation officer before she joined L’Austral to ensure full 
+to arrange refresher training for the navig ation officer before she joined L'Austral to ensure full 
 familiarity with the ECDIS.  There is no expiry date for type-specific training ; however , considering 
 the complexity of  the ECDIS and that this officer had  had little opportunity to utilise what she had 
 learnt,  it is likely that she would have benefited from some refresher  training.  
 4.4.10.  The Sperry Vision Master FT ECDIS allows the user to set safety parameters and configure  when a 
-warning alarm  will be activated .  On L’Austral the master had stipulated that permanent ECDIS 
+warning alarm  will be activated .  On L'Austral the master had stipulated that permanent ECDIS 
 safety parameter s were to be used ( see F igure 12).  By defining the safety parameters the bridge 
                                                         
-23 IMO MSC.1/Circ.1503 ECDIS – Guidance for good practice, extracts included in Appendix 2.  
+23 IMO MSC.1/Circ.1503 ECDIS - Guidance for good practice, extracts included in Appendix 2.  
 CATZOC U  
  
 Final Report MO -2017 -201 
@@ -970,11 +970,11 @@ constrained by the information and warnings it provid ed them.
 the ship is navigating at a lower level of risk and to give the bridge team longer to react to any 
 hazards.  However, w hilst in coastal areas i t is normal  to change the look -ahead to a shorter time 
 period in recognition that the navigati on officers are operating at a heightened level of vigilance 
-and to reduce the number of ‘nuisance’ alarms.   Similarly, when  operating close to navigation al 
+and to reduce the number of 'nuisance' alarms.   Similarly, when  operating close to navigation al 
 hazards the  look-ahead and shallow contour depth  should be set relative  to the topography of the 
-seabed to visualise change s in depths  and reduce the number of ‘nuisance’ alarms . 
+seabed to visualise change s in depths  and reduce the number of 'nuisance' alarms . 
 4.4.12.  Alarms  are configured by using a number of parameters , which  are explained i n Figures 10 and 
-11. They  are triggered when a ‘virtual region ’ defined by  time, distance or depth  around a ship is 
+11. They  are triggered when a 'virtual region ' defined by  time, distance or depth  around a ship is 
 predicted  to cross a charted danger.   
 safety 
 depth
@@ -1025,8 +1025,8 @@ time
 Figure 12   
 Photograph of ECDIS parameters displayed on the bridge  
  
-4.4.14.  The operator’s  safety management system  required  that the  ECDIS  safety  parameters , or the 
-“antigrounding  [sic] settings” , be ad apted to the type of navigation: offshore, coastal  or port 
+4.4.14.  The operator's  safety management system  required  that the  ECDIS  safety  parameters , or the 
+"antigrounding  [sic] settings" , be ad apted to the type of navigation: offshore, coastal  or port 
 approach .  However , the prescribing of permanent safety  parameters indicate d that there was no t 
 a clear understanding of how the parameters could best be used to improve safety in different 
 navigation al situations . 
@@ -1041,7 +1041,7 @@ warning  or alarmed  when the vessel  was predicted to cross the 30 m contour.
 4.4.17.  There were no prohibited areas defined in the  ECDIS  to the south of North East Island .  User -
 defined prohibited areas are areas where the navigation officer does not wish the vessel to enter , 
 similar to a no -go zone24 on a paper chart .  The master said that he did not want the vessel to 
-enter the area indicated in Figure 13 as the chart showed  the ‘overfalls, eddies and breakers ’ 
+enter the area indicated in Figure 13 as the chart showed  the 'overfalls, eddies and breakers ' 
 symbol.  Had this area been  identified as a no -go area , the ECDIS would have  alarmed as the 
 vessel manoeuvred , affording the  bridge team time to  take avoiding action.  
                                                         
@@ -1052,24 +1052,24 @@ Final Report MO -2017 -201
 << Page 21 >>
   
 Figure 13  
-Screenshot from vessel ’s ECDIS after the accident  
+Screenshot from vessel 's ECDIS after the accident  
  
 4.4.18.  In summary, the ECDIS would have been an ideal aid to navigation when manoeuvring close to 
-the Snares Islands.  It could have been used to monitor the ship’s position  continuously  in 
+the Snares Islands.  It could have been used to monitor the ship's position  continuously  in 
 relation to chosen parameters , could have warned the bridge team that the ship was not where 
-they wanted it to be , and draw n the master’s attention away from the task of recovering the 
-RIHBs to the more immediate concern – preventing the ship grounding.  
-4.4.19.  Although the ECDIS was designated as the ship’s primary navigation system, it was not being 
+they wanted it to be , and draw n the master's attention away from the task of recovering the 
+RIHBs to the more immediate concern - preventing the ship grounding.  
+4.4.19.  Although the ECDIS was designated as the ship's primary navigation system, it was not being 
 used as such and not being used to its full potential.  It is likely that this was in part due to the 
 concept of ECDIS not being fully understood by both the operator and the bridge team on the day.  
  
   
  Finding s 
-7. The operator’s system for providing and managing the provision of the electronic 
-chart display and information system  on board  L’Austral did not meet the intent 
+7. The operator's system for providing and managing the provision of the electronic 
+chart display and information system  on board  L'Austral did not meet the intent 
 of the International Maritime Organi zation standards . 
 8. The electronic chart display and information system  was the primary means of 
-navigation on board  L’Austral , yet the operating crew were not fully familiar with 
+navigation on board  L'Austral , yet the operating crew were not fully familiar with 
 the capabilities and the limitations of th e equipm ent, and were not making best 
 use of it . 
  
@@ -1077,7 +1077,7 @@ overfalls ,
 eddies 
 and 
 breakers  
-vessel ’s 
+vessel 's 
 track 
  30 m 
 contour  
@@ -1085,7 +1085,7 @@ contour
 
 << Page 22 >>
  Final Report MO -2017 -201 4.5. Department of Conservation permits  
-Safety issue – The Department of Conservation had insufficient maritime expertise applied to 
+Safety issue - The Department of Conservation had insufficient maritime expertise applied to 
 assessing the risk s to ships and the environment.   
 To operate the sub-Antarctic  cruise , that the operator offered, it had to obtain three  types of 
 permit from the Department of Conservation : 
@@ -1097,18 +1097,18 @@ islands  Allowed the operator  to conduct guided
 walks up to two times a year at approved 
 sites, subject to the terms of the entry 
 permit  6 years 3 months  
-Coastal permit  Allowed L’Austral access to the coastal 
+Coastal permit  Allowed L'Austral access to the coastal 
 marine area of the sub-Antarctic  islands  by 
 a vessel longer  than 125  m, up to 300  m 
 from the shore  5 years 9 months  
 Entry permit to 
 Campbell and Auckland 
-Island nature reserves  Allowed L’Austral to land passengers on 
+Island nature reserves  Allowed L'Austral to land passengers on 
 these islands for guided walks within the 
 nature reserves  1 year 3 months  
 Table 1 
 Detai ls of Department of Conservation permits  
-4.5.1.  In January 2016  L’Austral had been  granted a coastal permit that prevented  it navigating within  
+4.5.1.  In January 2016  L'Austral had been  granted a coastal permit that prevented  it navigating within  
 600 m of the mean high water springs mark (the shoreline) of any sub-Antarctic  island.  The 600 
 m limit did not allow the vessel to enter harbours  at the Auckland and Campbell Islands . As a 
 result  passengers  had to be transferred from outside the harbour  limits  to the landing sites by 
@@ -1122,13 +1122,13 @@ Extract from Proposed Regional Coastal Plan: Kermadec and sub-Antarctic  islands
 4.5.2.  The ship operator had become  concerned about the safety of trans ferring passengers to  and from 
 landing sites in RHIBs  in what was sometimes rough water , so in 2016 the company applied for a 
 new coastal permit , requesting  that the vessel be allowed to navigate up to 300  m from the 
-shoreline.  This would allow the ship to enter the harbours, thereby reduc ing passenger’s 
+shoreline.  This would allow the ship to enter the harbours, thereby reduc ing passenger's 
 exposure to rough water . 
 4.5.3.  As the relevant rules in the Proposed Regional Coastal Plan had not come into force , the operator 
 could  apply for a discretionary permit allowing the ship to navigate up to 300  m from the 
 shoreline . This would have been prohibited if the coastal plan had been in force .  Section 
 87B(1)(c) of the Resource Management Act  1991  states that if a rule is not in operation , the 
-activity  “it is to be treated as discretionary ”. This mean t that the operator could  apply for a coastal 
+activity  "it is to be treated as discretionary ". This mean t that the operator could  apply for a coastal 
 permit for any of the pro hibited areas listed in Figure 14. 
 
  
@@ -1138,8 +1138,8 @@ Final Report MO -2017 -201
 discre tionary coastal permit,  it had no internal  maritime  expertise to assess the  additional  risks to 
 ships and the environment in allowing the ship to navigate up to 300  m from the  shoreline. The 
 Department of Conservation  had an informal agreement with a marit ime professional who 
-advised it that,  “considering the capabilities of this modern vessel it is unlikely that this activity 
-poses a significant risk of a grounding incident ”.  This person  was contacted on an informal basis 
+advised it that,  "considering the capabilities of this modern vessel it is unlikely that this activity 
+poses a significant risk of a grounding incident ".  This person  was contacted on an informal basis 
 and was not employed by the Department of Conservation .  No formal risk assessment  process 
 was conducted . 
 4.5.5.  The Minister of Conservation (through the Department of Conservation ) has some of  the 
@@ -1154,7 +1154,7 @@ islands .
   
                                                         
 25 Resource Management Act 1991, section 31A(1)(a).  Finding  
-9. The Department of Conservation  granted a coastal permit allowing  L’Austral  to 
+9. The Department of Conservation  granted a coastal permit allowing  L'Austral  to 
 navigate up to 300  metres from the shoreline  in all of the sub-Antarc tic islands , 
 without conducting a formal risk assessment using the appropriate maritime 
 expertise to ensure that the necessary risk controls were in place.  
@@ -1163,26 +1163,26 @@ expertise to ensure that the necessary risk controls were in place.
 
 << Page 24 >>
  Final Report MO -2017 -201 5. Findings  
-5.1. L’Austral inadvertently entered a 300 -metre exclusion zone , which  the ship was not authorised to 
+5.1. L'Austral inadvertently entered a 300 -metre exclusion zone , which  the ship was not authorised to 
 enter and in which the chart s noted the existence of overfalls , eddies and breakers . 
-5.2. L’Austral made contact with an uncharted rock inside the 300 -metre exclusion zone . 
+5.2. L'Austral made contact with an uncharted rock inside the 300 -metre exclusion zone . 
 5.3. The uncharted rock was in an area the Commission considers would not be su itable for the safe 
-navigation of ships the size of  L’Austral  without having a high level of confidence in the accuracy 
+navigation of ships the size of  L'Austral  without having a high level of confidence in the accuracy 
 of available hydrographic information . 
-5.4. The portion of the voyage plan  that related to recover ing the ship’s rigid-hulled inflatable boat s 
+5.4. The portion of the voyage plan  that related to recover ing the ship's rigid-hulled inflatable boat s 
 was not well planned in accordance with the International Maritime Organization  standards and 
 the guidelines given in leading industry publications . 
-5.5. L’Austral inadvertently entered an unauthorised zone and an area the master had intended to 
-avoid because  the ship’s position was not being adequately monitored . 
-5.6. The standard of bridge resource management on board  L’Austral did not meet good industry 
+5.5. L'Austral inadvertently entered an unauthorised zone and an area the master had intended to 
+avoid because  the ship's position was not being adequately monitored . 
+5.6. The standard of bridge resource management on board  L'Austral did not meet good industry 
 practice . 
-5.7. The operator’s system for providing and managing the provision of the electronic chart display and 
-information system  on board L’Austral did not meet the intent of the International Maritime 
+5.7. The operator's system for providing and managing the provision of the electronic chart display and 
+information system  on board L'Austral did not meet the intent of the International Maritime 
 Organi zation standards . 
 5.8. The electronic chart display and information system  was the primary means of navigation on 
-board  L’Austral , yet the operating crew were not fully familiar with the capabilities and the 
+board  L'Austral , yet the operating crew were not fully familiar with the capabilities and the 
 limitations of the equipment, and were not making best use of it  
-5.9. The Department of Conservation granted a coastal permit allowing  L’Austral to navigate up to 300 
+5.9. The Department of Conservation granted a coastal permit allowing  L'Austral to navigate up to 300 
 metres from the shoreline in all of the sub-Antar ctic islands , without conducting a formal risk 
 assessment using the appropriate maritime expertise to ensure  that the necessary risk controls 
 were in place . 
@@ -1196,8 +1196,8 @@ Final Report MO -2017 -201
 6.1. The voyage planning for the time in the Snares Islands and the standard of bridge resource 
 management on the bridge leading up to the contact did not meet the IMO standards  or follow the 
 guidelines published in other leading industry publications . 
-6.2. The oper ation of  L’Austral’s  ECDIS did not meet good practice as defined in the IMO guidance or 
-the standards set out in the operator’s safety management system . 
+6.2. The oper ation of  L'Austral's  ECDIS did not meet good practice as defined in the IMO guidance or 
+the standards set out in the operator's safety management system . 
 6.3. The Department of Conservation had insufficient maritime expertise applied to assessing the risk s 
 to ships and the environment .  
   
@@ -1244,7 +1244,7 @@ responsibilities, duties and powers that a regional council has under the Resour
 Act 1991  in respect of the sub-Antarctic  islands.  When a regional council is responsible for a port 
 or harbour it usually appoint s a harbour master who is responsible for enforcing regulations and 
 ensuring safe navigation and security.  
-The Department of Conservation granted a coastal permit allowing  L’Austral to navigate up to  
+The Department of Conservation granted a coastal permit allowing  L'Austral to navigate up to  
 300 m o ff the shoreline in all of the sub-Antarctic  islands , without conducting a formal risk 
 assessment using the appropriate maritime expertise to ensure  that the necessary risk controls 
 were in place.  
@@ -1263,7 +1263,7 @@ Subantarctic (and Kermadec ) Islands, albeit that  the appointment will not be m
 pursuant to the Maritime  Transport Act 1994 . 
 The Department intends to take the following actions in the first instance:  
 a. Obtain advice from Ma ritime New Zealand as to what qualifications and experience 
-are necessary for a  “suitably qualified person” to deliver harbourmaster  functions 
+are necessary for a  "suitably qualified person" to deliver harbourmaster  functions 
 for the Subantarctic (and Kermadec)  Islands. Advice will also be sought on which  
 harbourmaster functions are relevant to the  Subantarctic (and Kermedec) Island s. 
 b. Request the s ame advice from Environment Canterbury Harbourmaster, an 
@@ -1282,39 +1282,39 @@ advise when we  anticipate this will be fully implemented.
 << Page 28 >>
  Final Report MO -2017 -201 To the operator  
 8.4. Taking into consideration that:  
- the portion of the voy age plan that related to recover ing the ship’s RHIB s was not well planned 
+ the portion of the voy age plan that related to recover ing the ship's RHIB s was not well planned 
 in accordance with the IMO standards and the guidelines given in leading industry 
 publications, and  
- L’Austral inadvertently encroached an exclusion zone and an area the master had in tended to 
-avoid because the ship’s position was not being adequately monitored, and  
- the standard of bridge resource management on board L’Austral did not meet good industry 
+ L'Austral inadvertently encroached an exclusion zone and an area the master had in tended to 
+avoid because the ship's position was not being adequately monitored, and  
+ the standard of bridge resource management on board L'Austral did not meet good industry 
 practice.  
-On 23 February 2018  the Commission recommended that  the Directeur D’exploitation at Ponant 
-review the safety management system  on board  L’Austral and upgrade it to ensure that the 
+On 23 February 2018  the Commission recommended that  the Directeur D'exploitation at Ponant 
+review the safety management system  on board  L'Austral and upgrade it to ensure that the 
 standards of voyage planning, the standards of navigation and the level of bridge resource 
 management met the requirements of the International  Maritime Organisation  and follow ed the 
 guidelines in leading industry publications.  (002/18)  
 8.4.1.  On 15 March 2018, Ponant replied, in part:  
-Ponant’s Voyage Planning procedure was reviewed on 15 December 2017.  This new 
+Ponant's Voyage Planning procedure was reviewed on 15 December 2017.  This new 
 procedure has been communicated to all C aptains.  
 Specific BRM training sessions provided by the French Marine Academy have been 
 rolled out, starting from January 2017.  To date 21 Ponant officers have undergone the 
 training, 13 more are scheduled to undergo this training in 2018.  
 8.5. Taking into con sideration that:  
- the operator’s system for providing and managing the provision of  the ECDIS on board 
-L’Austral did not meet the intent of the International Maritime Organisation standards , and  
- the ECDIS was the primary means of navigation on board  L’Austr al, yet the operating crew 
+ the operator's system for providing and managing the provision of  the ECDIS on board 
+L'Austral did not meet the intent of the International Maritime Organisation standards , and  
+ the ECDIS was the primary means of navigation on board  L'Austr al, yet the operating crew 
 were not fully familiar with the capabilities and the limitations of the equipment, and were not 
 making best use of it . 
-On 23 February 2018  the Commission recommended that the Directeur D’exploitation at Ponant 
+On 23 February 2018  the Commission recommended that the Directeur D'exploitation at Ponant 
 review  the procedures for the setting up, training in and ongoing support for ECDIS systems on all 
-of its ships, and ensure that all comply with mandatory requirements and that the ships ’ crews 
+of its ships, and ensure that all comply with mandatory requirements and that the ships ' crews 
 are fully conversant with good industry practice for the use of ECDIS.  (003/18 ) 
 8.5.1.  On 15 March 2018, Ponant  replied, in part:  
 Ponant has also started obtaining additional ECDIS training session program for its 
 officers.  Eleven officers received this training in 2016 and 2017 and we plan to train 15 
 more during 2018.  
-We also plan to develop a specific Ponant’s ECDIS training with e -learning methods, we 
+We also plan to develop a specific Ponant's ECDIS training with e -learning methods, we 
 are in the process of researching the best way of doing this.  We intend to complete this 
 by the end of 2018.  We will provide TAIC with an update once we have completed this 
 interna l training program.  
@@ -1327,7 +1327,7 @@ Final Report MO -2017 -201
 9.1. ECDIS is a valuable aid to navigation.  However, mariners need to understand  fully and be familiar 
 with all aspects of the system, otherwise relying on the ECDIS as a primary means of navigation 
 can contribute to, rather than prevent , accidents .  
-9.2. Every part of a ship ’s voyage must be planned , and all members of the bridge team be fully 
+9.2. Every part of a ship 's voyage must be planned , and all members of the bridge team be fully 
 familiar with and agree to the plan. This is a cornerstone of good bridge resource management.  
 9.3. Good bridge resource management relies on a culture where challenge is welcomed and 
 responded to, regardless of rank, personality or nationality . 
@@ -1340,8 +1340,8 @@ Hydrographic Office
 Cartographers use Category Zone of Confidence (CATZOC) values to highlight the accuracy of data 
 presented on charts. The following table outlines the positon accuracy, depth accurac y and seafloor 
 coverage for each ZOC value to help you manage the level of risk when navigating in particular geographic 
-area. The information and values use in this table has been taken from the IHO’s ‘Regulations of the IGO 
-for International Charts and c hart specifications of the IHO’ white paper.  
+area. The information and values use in this table has been taken from the IHO's 'Regulations of the IGO 
+for International Charts and c hart specifications of the IHO' white paper.  
 ZOC 1  
 Position 
 Accuracy 2 Depth Accuracy 3  
@@ -1491,8 +1491,8 @@ MSC.1/Circ.1503
 24 July 2015  
  
  
-ECDIS – GUIDANCE FOR GOOD PRACTICE  
-The Maritime Safety Committee, at its ninety -fifth session (3 to 12 June 2015), approved the ECDIS – 
+ECDIS - GUIDANCE FOR GOOD PRACTICE  
+The Maritime Safety Committee, at its ninety -fifth session (3 to 12 June 2015), approved the ECDIS - 
 Guidance for Good Practice, as set out in the annex, drawing together relevant guidance from seven previous 
 ECDIS circul ars into a single, consolidated  document.  
 The undeniable safety benefits of navigating with Electronic Chart Display and Information  Systems  
@@ -1515,7 +1515,7 @@ needed to be consolidated, where possible, to have ECDIS -related guidance withi
 which could be easily kept up to date without duplication or need for continual cross -referencing. Suc h 
 consolidation of information offers clear and unambiguous understanding of the carriage 
 requirements and use of  ECDIS.  
-The consolidated guidance termed " ECDIS – Guidance for Good Practice " is set out in  the annex  to this 
+The consolidated guidance termed " ECDIS - Guidance for Good Practice " is set out in  the annex  to this 
 circular  (referred  to as "Guidance"  hereafter).  Ship operators,  masters  and deck officers on ECDIS -
 fitted ships are encouraged to use this guidance to improve their understanding and facilitate safe 
 and effective use of ECDIS.  
@@ -1543,7 +1543,7 @@ integration. The ongoing safe and effective use of ECDIS involves many stakehold
 seafarers,  equipment manufacturers, chart producers, hardware and software maintenance providers, 
 shipowners and operators, and training providers. It is important that all these stakeholders have a 
 clear and common understanding of their roles and responsibilities in relation to  ECDIS.  
-This ECDIS – Guidance for Good Practice , referred to as "Guidance" hereafter, draws together relevant 
+This ECDIS - Guidance for Good Practice , referred to as "Guidance" hereafter, draws together relevant 
 guidance from seven previous ECDIS circulars into a single, consolidated  document.  
 It has been laid out in seven sections, namely:  
 Chart carriage requirement of  SOLAS  
@@ -1563,7 +1563,7 @@ IMO ECDIS -related  circulars  that have  been  replaced  and the other IMO circ
 provided in the reference  section.  
 CHART CARRIAGE REQUIREMENT OF  SOLAS  
                                                         
-26 An internationally agreed regime for the inspection of foreign vessels in other nation’s ports . 
+26 An internationally agreed regime for the inspection of foreign vessels in other nation's ports . 
  
 Final Report MO -2017 -201 
 << Page 33 >>
@@ -1673,8 +1673,8 @@ Companies  should also maintain evidence of the familiarization training in comp
 Convention regulati on I/14, paragraph  1.5; 
 Administrations should inform their port State control officers of the requirements for ECDIS training 
 as detailed in paragraph 7 above;  and 
-attention is also dra wn to STCW.7/Circ.16 – Clarification of transitional provisions  relating  to the 2010  
-Manila  Amendments  to the STCW  Convention and Code and STCW.7/Circ.17 – Advice for port State 
+attention is also dra wn to STCW.7/Circ.16 - Clarification of transitional provisions  relating  to the 2010  
+Manila  Amendments  to the STCW  Convention and Code and STCW.7/Circ.17 - Advice for port State 
 control officers on transitional arrangements leading up to the full implementation of the requirements  
 of the 2010  Manila  Amendments  to the STCW  Convention  and Code on 1 January 2017.
  
@@ -1717,7 +1717,7 @@ MO-2014 -202 Lifting sling failure on freefall lifeboat, general cargo ship Da D
 14 April 2014  
 11-204 Container ship MV Rena  grounding, on Astrolabe Reef, 5 October 2011  
 13-201 Accommodation fire on board the log -carrier, Taokas Wisdom , Nelson, 11 July 2013  
-13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke’s Bay, 8 August 2013  
+13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke's Bay, 8 August 2013  
 12-202 Fishing vessel Torea , collision with uncharted rock, Foveaux Strait, 24 August 2012  
 09-210 Bulk carrier, Taharoa Express , cargo shift, Port Taharoa, 16 December 2009  
 10-204 Inquiry 10 -204:  Bulk carrier Hanjin Bombay , grounding, Mount Maunganui, 21 June 

@@ -1,0 +1,56 @@
+- name: Adherence to Safety Procedures
+  percentage: 30
+  explanation: The accident analysis indicates that the aeroplane's center of gravity was at least 0.122m rear of the maximum permissible limit, which was a significant factor contributing to the accident (5.7). The pilots did not follow the safety procedures for conducting weight and balance calculations, resulting in the aeroplane being routinely flown overweight and outside the aft center of gravity allowable limit whenever it carried 8 parachutists (5.9). This lack of adherence to safety procedures was a major contributor to the accident.
+- name: Training and Competency
+  percentage: 20
+  explanation: Although the pilot was experienced and had completed conversion training, the analysis suggests that the pilot and the aeroplane owner did not conduct weight and balance calculations on the aeroplane, which would have shown that carrying 8 people in the back of the Walter Fletcher took it close to its aft center of gravity limit (4.4.7, 4.4.9). This indicates a gap in training and competency regarding the specific weight and balance requirements for the modified aircraft.
+- name: Organizational Safety Culture
+  percentage: 15
+  explanation: The aeroplane owner did not comply with civil aviation rules and did not follow good, sound aviation practice by failing to conduct weight and balance calculations, using incorrect fuel reserves, removing the flight manual from the aeroplane, and not formulating their own standard operating procedures before using the aeroplane for commercial parachuting operations (5.11). This reflects an organizational safety culture that did not prioritize adherence to safety procedures and regulatory compliance.
+- name: Regulatory Oversight and Compliance
+  percentage: 15
+  explanation: The Director of Civil Aviation delegated the task of assessing and overseeing major modifications without adequately monitoring compliance with civil aviation rules and guidance (5.12). The CAA's oversight and surveillance of commercial parachuting were not adequate to ensure that operators were functioning in a safe manner (4.6.16). This lack of regulatory oversight and compliance with safety regulations contributed to the accident.
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The weight and balance of the aeroplane, with its center of gravity at least 0.122m outside the maximum aft limit, would have caused serious handling issues for the pilot and was the most significant factor contributing to the accident (5.7). This indicates a failure in risk management and analysis, as the risks associated with the center of gravity were not adequately identified or mitigated.
+- name: Maintenance and Inspection Regimes
+  percentage: 5
+  explanation: While no technical defects were identified that may have contributed to the accident (5.1), the engineering company that modified the aeroplane for parachuting operations did not follow proper processes required by civil aviation rules and guidance (5.4). This suggests that maintenance and inspection regimes were not fully compliant with safety standards, although it was not a direct cause of the accident.
+- name: Human Error and Assumptions
+  percentage: 5
+  explanation: The pilot's decision-making ability was not impaired, and no reason was offered that might have suggested his decision-making ability was impaired (4.2.5). However, the pilot should have been aware of the center of gravity being well aft and needed to avoid any abrupt maneuvers, especially at low speed (4.2.6). This indicates a human error in not recognizing or responding to the risk posed by the aft center of gravity.
+- name: Fatigue Management
+  percentage: 0
+  explanation: The pilot was reported as fit and healthy, and with a short break before the accident flight, he should not have been fatigued (4.2.5). Therefore, fatigue management was not a contributing factor to the accident.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: The pilot had recently completed conversion training that included several parachute-drop flights under the observation of an instructor and was current as a parachuting pilot (4.6.7). Therefore, lack of training and familiarity with equipment was not a contributing factor to the accident.
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no indication in the document that crew resource management issues contributed to the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'The document does not provide evidence that situational awareness was a contributing factor to the accident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: Emergency response preparedness was not a contributing factor to the accident, as the impact was not survivable regardless of emergency response (4.8.2).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not mention any issues related to the use of automation as a contributing factor to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: The weather was fine and calm, and there was no evidence that weather conditions and decision-making were contributing factors to the accident (4.2.2).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'The document does not provide evidence that communication breakdown was a contributing factor to the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.

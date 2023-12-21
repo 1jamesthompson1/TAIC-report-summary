@@ -49,7 +49,7 @@
  
  
  
- Final report RO -2017 -101: Signal Passed at Danger ‘A’ at compulsory stop boards protected 
+ Final report RO -2017 -101: Signal Passed at Danger 'A' at compulsory stop boards protected 
 worksite, Pongakawa, Bay of Plent y, 7 February 2017  
  
  
@@ -113,7 +113,7 @@ made to the Transport Accident Investigation Commission.
  
 Final  Report  
 Rail inquiry RO-2017-101 
-Signal Passed at Danger ‘ A’ at 
+Signal Passed at Danger ' A' at 
 compulsory stop board s protected worksite  
 Ponga kawa , Bay of Plenty  
 7 February  2017 
@@ -174,17 +174,17 @@ Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
 action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
-makes this final report inadmissible as evidence in any proceedings with the  exception of a Coroner’s 
+makes this final report inadmissible as evidence in any proceedings with the  exception of a Coroner's 
 inquest.  
 Ownership of report  
 This report remains the intellectual property of the Transport Accident Investigation Commission.   
 This report may be reprinted in whole or in part without charge, provided that acknowledgement is mad e 
 to the Transport Accident Investigation Commission.  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to indus try participants only and not 
 discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cited.  
+documents referred to during the Commission's inquiry that are publicly available are cited.  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs, diagrams and pictures included in this report  are provided 
 by, and owned by, the Commission.  
@@ -316,9 +316,9 @@ speed restriction bulletin
 Train Control  the National Train Control Centre in Wellington railway station , where 
 the movement s of trains and maintenance track occupancies are 
 authorised by train controller s 
-Tranzlog  an on-board data recorder that logs details of a train ’s speed, 
+Tranzlog  an on-board data recorder that logs details of a train 's speed, 
 location, control settings, etc  
-warning boards  sometimes referred to as ‘outer warning boards’ , a series of boards 
+warning boards  sometimes referred to as 'outer warning boards' , a series of boards 
 placed ahead of compulsory stop boards to indicate to a train driver 
 that the train is approaching a worksite and it will need to  be stopped 
 at the compulsory stop boards (see Figure 8 for the standard 
@@ -327,7 +327,7 @@ work group  a group  of infrastructure workers who repair and upgrade track and
 infrastructure  
 Page iv | Final Report RO -2017 -101 Data summary   
 Vehicle particulars  
-Train type and number:  DL9262 – Train 371  from Mount Ma unganui to Kawerau  
+Train type and number:  DL9262 - Train 371  from Mount Ma unganui to Kawerau  
 Classification : 
 Manufacturer:  diesel-electric freight locomotive  
 Dalian , China   
@@ -369,7 +369,7 @@ speed to 25 kilometres per hour shortly before crossing the bridge without autho
 1.3. The rail maintenance workers were working under t he bridge at the time, about to remove one 
 of the support piles.  Nobody was injured and there was no damage to the train or bridge.  
 1.4. The Transport Accident Investigation Commission (Commission) found  it likely that the driver 
-was experiencing ‘microsleeps ’ at the time the train passed the warning and stop boards.  The 
+was experiencing 'microsleeps ' at the time the train passed the warning and stop boards.  The 
 driver was later diagnosed as suffering  from a sleep disorder that affect s the quality of  sleep .  
 Additionally, the driver  had had difficulty sleeping the evening prior to the incident due to  the 
 hot ambient temperature.  The fact  that the driver  had been awake for more than  10 hours 
@@ -378,12 +378,12 @@ through the night and was nearing the end of the shift was also a factor .
 should have automatically applied the train brakes when the train failed to stop at the 
 compulsory stop board s.  The Commission found  that this safety  defence failed due to an 
 unnoticed error within the device on board this particular locomotive that was preventing it 
-utilising  the global positioning  system ’s location of the worksite . 
+utilising  the global positioning  system 's location of the worksite . 
 1.6. The Commission identified three safety issues:  
  the KiwiRail medical assessment process did not ensure that the employee being 
 assessed completed the online medical ques tionnaire themselves.  There is some 
 evidence that the system could potentially allow managers or others to complete the 
-questionnaire on employees ’ behalf  
+questionnaire on employees ' behalf  
  KiwiRail did not have a mature fatigue risk management system to ensure  that relevant 
 personnel perf ormed at adequate levels of alertness  
  the eProtect KMC module  on this locomotive had been transmitting error messages for 
@@ -410,19 +410,19 @@ the Transport Accident Investigation Commission (Commissio n) soon after the inc
 occurred.   The Commission opened an inquiry under section 13(1) of the Transport Accident 
 Investigation Commission Act 1990 to determine the circumstances and causes of the incident 
 and appointed an investigator in charge.  
-2.2. Commis sion investigators travelled to KiwiRail’s Mount Ma unganui  terminal and the Pongakawa 
+2.2. Commis sion investigators travelled to KiwiRail's Mount Ma unganui  terminal and the Pongakawa 
 incident site on Wednesday  8 February  to conduct the site investigation .   
 2.3. Commission investigators interviewed:  
  the locomotive engineer (train driver)  
  the bridge work gr oup2 
  the manufacturer of the eProtect3 system  
- KiwiRail ’s eProtect database system administrator . 
+ KiwiRail 's eProtect database system administrator . 
 2.4. The investigators  obtained documents and records for analysis , including : 
  Tranzlog4 data from the train  
  a copy of the eProtect activity database  
  documentation related to the  specification, development, testing  and introduction  of, 
 training  in and rollout of the eProtect system  
- records of the train driver ’s post-incident sleep study . 
+ records of the train driver 's post-incident sleep study . 
 2.5. The KMC  (Kupe Mobile Controller ) module5 from on board the locomotive was seized  by the 
 Commission for forensic software and hardware analysis.  
 2.6. On 19 April 2018 the Commissioners considered a draft report and approved it to be sent to 12 
@@ -439,7 +439,7 @@ and changes as a result of those submissions  have been included in the final re
 3 A system that detects whether a locomotive has failed to stop before reaching a compulsory stop board. If 
 this occu rs it automatically activates the emergency brakes on the locomotive, bringing the train to a forced 
 stop, thereby providing an independent backup to the driver.  
-4 An on-board data recorder that logs details of a train’s speed, location, control settings, etc. 
+4 An on-board data recorder that logs details of a train's speed, location, control settings, etc. 
 5 An electronic module on each locomotive of a train that  monitors the current location of the train against 
 the locations of worksites across New Zealand, which it receives over the mobile phone network.  It is p art of 
 the eProtect system . 
@@ -471,13 +471,13 @@ either side of the worksite , at which the train had to  stop and gain permissio
 the worksite .  Outer caution boards and whistle boards were erected before the compulsory 
 stop boards.  The purpose of the outer caution boards was to al ert the driver to the compulsory 
 stop boards ahead.  The whistle boards were a prompt for the driver to sound the train whistle 
-to warn the work group  of the train ’s approach (see section 3.3  for more detail ).  
+to warn the work group  of the train 's approach (see section 3.3  for more detail ).  
 
 
 << Page 4 >>
  Final Report RO -2017 -101  
 Figure 3 
-Map of key journey locations ( Image source – Google Maps )  
+Map of key journey locations ( Image source - Google Maps )  
 
  
 Final Report RO -2017 -101 
@@ -507,7 +507,7 @@ provided to drivers in a daily speed restriction bulletin.
  Final Report RO -2017 -101  
 Figure 5 
 Location of Bridges 105 and 107   
-(Image source – Google Maps ) 
+(Image source - Google Maps ) 
 3.2.5.  After crossing Bridge 105 the train was allowed to gather speed before the driver started to 
 slow again for another longstanding 40  km/h speed restriction over Bridge 107.  
 3.2.6.  The driver did not notice either the outer caution boards or the whis tle boa rds, and  did not 
@@ -539,7 +539,7 @@ Figure 6
 Location of bridge work group members when the train  crossed Bridge 107 
 3.2.13.  The train had passed the compulsory stop boards by 1.6  kilometres ; it passed through the 
 worksite and nearly reached  the far side of the protected area when it  stopp ed.  Passing 
-compulsory stop boards without permission is classed as a Signal Passed at Danger ‘A’10. 
+compulsory stop boards without permission is classed as a Signal Passed at Danger 'A'10. 
 3.2.14.  The locomotive was fitted with  an automatic system  called eProtect, which was supposed to 
 have alerted the driver when the train was approaching the worksite .  The same system was 
 designed to automatically apply the brakes on the train if it did not stop at the compulsory stop 
@@ -579,7 +579,7 @@ Highlights made by driver invo lved in the incident
  
 Final Report RO -2017 -101 
 << Page 9 >>
- 3.3.3.  On the day of the incident the worksite  was protected  using KiwiRail Rule 905 – Compulsory 
+ 3.3.3.  On the day of the incident the worksite  was protected  using KiwiRail Rule 905 - Compulsory 
 Stop Protection .  The rule require d two sets of warning boards  to be erected alongside the track 
 to warn a ll train driver s that they are approac hing a set of c ompulsory stop board s.  The train is 
 required to  stop at the compulsory stop boards (see Figure 8).  The w orksite was also protected 
@@ -603,16 +603,16 @@ Extract from daily information bulletin , 7 February 2017
  Final Report RO -2017 -101 3.4. eProtect system  
 3.4.1.  eProtect is a safety  defence  that utilises the real -time GPS (global positioning system) position  
 of a train alongside technology  on board the locomotive to warn the driv er that the train is 
-approaching a worksite .  It automatically applies the train’s brakes if it approaches too fast or 
+approaching a worksite .  It automatically applies the train's brakes if it approaches too fast or 
 fails to stop at a set of  compulsory stop board s.  
 3.4.2.  On 21 July 2016 KiwiRail issued Semi Permanent Bulletin No. 489 , which stated:  
 eProtec t is a system on locomotives that uses GPS technology to monitor the speed 
 of trains approaching Compulsory Stop Boards, and penalty brakes the train if it does 
 not stop at the Compulsory Stop Boards.  
 The bulletin  stated  that the eProtect system would be g oing live on all lines as the training of 
-“affected drivers and applicable Rail Protection Officers was complete d”. 
-3.4.3.  The eProtect system utilises existing technology on board KiwiRail’s locomotives, tak ing the 
-trains ’ real-time GPS position s and compar ing them with  the latest information on worksite 
+"affected drivers and applicable Rail Protection Officers was complete d". 
+3.4.3.  The eProtect system utilises existing technology on board KiwiRail's locomotives, tak ing the 
+trains ' real-time GPS position s and compar ing them with  the latest information on worksite 
 locations  around New Zealand .  The locations of the worksites are sent to all locomotives over 
 the mobile phone network (see Figure 10).   
  
@@ -626,7 +626,7 @@ GPS positions back to Train Control .  The KMC module was modified to receive an
 store locations of worksites aroun d New Zealand  via the mobile network , and 
 monitor the position of the locomotive in relation to the location s of the worksite s 
 iii. a Tranzlog event recorder , which  monitors and records the details of the 
-locomotive’s  control settings .  The Tranzlog can automatically apply the brakes if it 
+locomotive's  control settings .  The Tranzlog can automatically apply the brakes if it 
 receives a signal from the KMC module  to do so.  
 
  
@@ -660,7 +660,7 @@ when approaching a compulsory -stop-board -protected worksite.
 
 << Page 12 >>
  Final Report RO -2017 -101 3.5. The train driver  
-3.5.1.  The train driver was based at Kawerau , and  at the time of the incident had seven years ’ 
+3.5.1.  The train driver was based at Kawerau , and  at the time of the incident had seven years ' 
 experience driving freight trains  for KiwiRail .  The d river held current certification and had a 
 good driving record  at the time of the incident . 
 3.5.2.  The driver had returned to work following  two rostered days off .  In prep aration for the night 
@@ -692,7 +692,7 @@ factors that likely contributed to the driver not see ing the warning and compul
  the KiwiRail medical assessment process did not ensure that the employee  being 
 assessed completed the online medical questionnaire themselves.  There is some 
 evidence that the system could potentially allow  manage rs or others to complete  the 
-questionnaire on employees ’ behalf  
+questionnaire on employees ' behalf  
  KiwiRail did not have a mature fatigue risk managem ent system to ensure  that relevant 
 personnel perform ed at adequate levels of alertness  
  the eProtect KMC module on board the locomotive  had been transmitting error 
@@ -701,7 +701,7 @@ monitor ed for this type of error .
 4.2. What happened  
 4.2.1.  At the start of the shift the driver collected a copy of the daily information bulletin from the 
 Kawerau depot.  The driver  noted the planned worksite  at Bridge 107 and highlighted the entry 
-because it would affect the route for the train ’s return journey  that day  (see Figures 6 and  7).  
+because it would affect the route for the train 's return journey  that day  (see Figures 6 and  7).  
 This was almost nine hours before the train entered the worksite  without authorisation.  
 4.2.2.  In that nine hours the driver took trains from Kawerau to Murupa ra, then from Murupa ra to 
 Moun t Mau nganui, which involved crossing Bridge 107 at night before the worksite  was 
@@ -714,7 +714,7 @@ but the driver later did  not remember seeing any of the warning and compulsory 
 Distraction from some source might cause driver s to miss one set of warning boards.  However, 
 it would be  unlikely to cause them  to miss three.  A review of mobile phone records showed no 
 activity leadin g up to the incident.  
-4.2.5.  The driver ’s description of events suggest ed that the driver  was very likely  experiencing 
+4.2.5.  The driver 's description of events suggest ed that the driver  was very likely  experiencing 
 microsleeps when the train was passing the warning  and compulsory stop  boards.  Microsleeps 
 are described as brief interruption s of consciousnes s that last from a few seconds up to a few 
 minutes when the brain ceases to process visual or audio inputs until the person is 
@@ -730,8 +730,8 @@ beside  the track near  Bridge  107.  There had been a longstanding speed rest r
 over both Bridges 105 and 107 that the driver was well aware of.  The train event recorder 
 confirmed that the driver had reduced the speed of the train to 40 k m/h before passing over  
 Bridge 105.  
-4.2.7.  The driver’s first reaction on seeing the hi-rail vehicle at Bridge 107 was to refer  briefly  to the 
-‘speed restrictions ’13 sheet whilst  slow ing the train to 25  km/h as a precaution.  By then the 
+4.2.7.  The driver's first reaction on seeing the hi-rail vehicle at Bridge 107 was to refer  briefly  to the 
+'speed restrictions '13 sheet whilst  slow ing the train to 25  km/h as a precaution.  By then the 
 train was so close to the bridge that this was all the driver  had time to do.   
 4.2.8.  The incident show ed that Rule 905 relies heavily on human performance  to be effective.  The 
 introduction of the eProtect system was a good initiative for providing a further technical 
@@ -745,10 +745,10 @@ functioning correctly.  Drivers do not rely on the system as it does not prevent
 compulsory stop board s; instead it m inimises the distance that a  train can pass them and 
 therefore the potential consequences.  
 4.3. Human factors  
-Safety issue – the KiwiRail medical assessment process did not ensure that the employee 
+Safety issue - the KiwiRail medical assessment process did not ensure that the employee 
 being assessed completed the online medical questionnaire them selves.  There is some 
 evidence that the system could potentially allow managers or others to complete the 
-questionnaire on  the employees ’ behalf.  
+questionnaire on  the employees ' behalf.  
 4.3.1.  The Commission considered whether fatigue could have been a factor contributing to the driver 
 missing the wa rning and compulsory stop boards.  
 4.3.2.  Fatigue is described as a complex state characterised by a lack of alertness and reduced 
@@ -764,14 +764,14 @@ consequences include:
  poor assessment of risk or failure to ap preciate consequences of action  
  operator inefficiencies . 
 4.3.3.  The Commission used a Fatigue and Risk Analysis  model  (Health and Safety Executive UK, 
-2013)  to analyse  the driver’s work roster for the period leading up to the incident .  The model 
+2013)  to analyse  the driver's work roster for the period leading up to the incident .  The model 
                                                         
 13 A separate daily information sheet that lists the v arious permanent and temporary speed restrictions for 
 that line.  
  
 Final Report RO -2017 -101 
 << Page 15 >>
- revealed that the driver’s roster was unlikely to have, on its own, caused the driver to be 
+ revealed that the driver's roster was unlikely to have, on its own, caused the driver to be 
 fatigue d.  The pattern of the roster afforded ample time for rest and restora tive sleep.  
 4.3.4.  Having just completed two days off duty , the driver had ample opportunity to sleep before 
 commencing the shift.  However, opportunity for sleep is not a guarantee that adequate sleep is 
@@ -779,8 +779,8 @@ obtained.  Lifestyle choices and the quality of sleep are important factors as w
 4.3.5.  The driver reported having  had a poor -quality  sleep  before starting the shift due to it being a hot 
 and humid night.  
 4.3.6.  Subsequent to the incident the driver was examined by a doctor  and referred to Waikato 
-Hospital to under go a controlled sleep study.  The hospital’s Respiratory Services Sleep 
-Laboratory’s sleep specialists completed a Level III sleep study .  They diagnosed the driver as 
+Hospital to under go a controlled sleep study.  The hospital's Respiratory Services Sleep 
+Laboratory's sleep specialists completed a Level III sleep study .  They diagnosed the driver as 
 suffering from mild obstructive sleep apnoea. 
 4.3.7.  Obstructive sleep apn oea is the most common type o f sleep apnoea and is caused by the 
 complete or partial blocking of the upper airway during sleep .  This reduction in airflow and 
@@ -791,8 +791,8 @@ result in an  individual  falling asleep for brief periods during  the course of
 4.3.9.  There were three factors that very likely contributed to the risk of the driver having sleepiness 
 episodes leading up to the incident:  
  the accumulative effects of sleep apnoea  
- the stated poor quality of sleep prior to the driver’s shift  
- the 10 -plus hours that the driver  had been ‘time awake ’ and driving train s during  the 
+ the stated poor quality of sleep prior to the driver's shift  
+ the 10 -plus hours that the driver  had been 'time awake ' and driving train s during  the 
 early hours of the morning.  
 4.3.10.  It is difficult to weight these factors in order of effect, but collectively they meant it was likely 
 that the driver was experiencing microsleeps when the train passed the warning and  
@@ -801,12 +801,12 @@ compul sory stop boards leading up to the worksite .
 for the permanent speed restriction over both bridges.  However, the evidence suggest s that the 
 driver  then lapsed i nto one or more microsleeps, which ended or were interrupted when  the hi -
 rail vehicle trackside  was sighted . 
-4.3.12.  Currently, KiwiRail’s periodic medical screening programme requires health assessment s of 
+4.3.12.  Currently, KiwiRail's periodic medical screening programme requires health assessment s of 
 staff in safety -critical roles  every five years up to the  age of 50 , every two  years up to the age of 
 60, and annually thereafter.  The programme consists of an online health questionnaire , to be 
 completed  by an employee before a visit to a KiwiRail -approved medical officer for a physical 
 examination.  
-4.3.13.  The Austra lian National Transport Commission’s  national standard for health assessment of rail 
+4.3.13.  The Austra lian National Transport Commission's  national standard for health assessment of rail 
 safety workers has been adopted by the New Zealand National Rail Safety Standards Executive, 
 and is therefore utilised  by KiwiRail .  The standard has been developed from r oading standards 
 in Australia, and is formally reviewed every four years.  
@@ -843,7 +843,7 @@ utilises  the Epworth Slee piness Scale set of questions  to assess the sleepine
 as an initial screening test for sleeping disorders .  Respondents are asked to rate their usual 
 chances of dozing off or falling asleep whilst engaging in eight different activities . 
 4.3.17.  KiwiRail acknowledge d that the screening tests for sleeping disorders have relatively low validity 
-in clinical trials  (Satya Krishna Ramachandran MD, 2009) .  Consequently , KiwiRail’s rail 
+in clinical trials  (Satya Krishna Ramachandran MD, 2009) .  Consequently , KiwiRail's rail 
 medical officers15 put more weight on th e clinical indications of sleeping disorders , such  as BMI 
 and high blood pressure  referred to above . 
 4.3.18.  Notwithstanding the fact that the driver did not  personally complete the pre-medical 
@@ -857,7 +857,7 @@ detection of sleep disorders and the importance of education on lifestyle s for 
 Commission makes a recommendation to KiwiRail to ensure that the periodic medical check 
 system captures data directly from the intended subject s. 
 4.4. Fatigue management  
-Safety issue – KiwiRail did not have a mature fatigue risk management system to ensur e that 
+Safety issue - KiwiRail did not have a mature fatigue risk management system to ensur e that 
 relevant personnel perform ed at adequate levels of alertness.  
 4.4.1.  In section 1 of the New Zealand Rail Operating Rules and Procedures , rail personnel are 
 deemed unfit for duty if they:  
@@ -866,16 +866,16 @@ ii. have any illness or cond ition, mental or physical, which affects alertness,
 coordination, reaction or safety  
 iii. have not sufficiently rested to remain alert during their work . 
 4.4.2.  As with most operators of transport vehicles,  train driver s are required to self-certif y whether 
-they are ‘ fit for duty’  before attending their allocated shift s.  Due to issues on a national scale 
+they are ' fit for duty'  before attending their allocated shift s.  Due to issues on a national scale 
 associated with earthquakes that KiwiRail was dealing with at the time , the driver felt self-
-pressure d to attend work, despite having had a poor night ’s sleep .  The d river was also 
+pressure d to attend work, despite having had a poor night 's sleep .  The d river was also 
 concerned that call ing in unfit for work would leave little time to arrange a replacement driver to 
 cover the shift.  
 4.4.3.  Currently KiwiRail use s a FAID software system to assess its master rosters for potential fatigue 
 issues and also for post -incident analysis.  This type of software aims to ensure  that each roster 
 position gives the individual ample opportunity to sleep between shifts, and that the roster is 
 compiled according to current good roster design princ iples , which include providing cover 
-drivers16.  The driver’s roster was considered normal and was not a factor in this incident.  
+drivers16.  The driver's roster was considered normal and was not a factor in this incident.  
 4.4.4.  A number of other safety -critical transport sectors have introduced simple checklists or prompts 
 (CAA, 2018)  as part of their fatigue awareness  training and education, to assist individuals in 
 determin ing if  they are fit for duty (see Figure 1 4). 
@@ -903,7 +903,7 @@ performance and continuous improvement.  A fatigue risk management system i s ma
 four parts:  
 i. organisational components  
  fatigue risk management policy and documentation  
- fatigue risk management promotional processes – education and training  
+ fatigue risk management promotional processes - education and training  
 ii. operational components  
  fatigue risk management processes  
  fatigue risk management safety assurance processes . 
@@ -918,7 +918,7 @@ driver  to evaluate their  condition better before attending the shift.
 risk management system continues to be  developed and fully implemented within the 
 organisation.  
 4.5. Technical factors  
-Safety issue – The eProtect KMC module on the locomotive  had been transmitting  error 
+Safety issue - The eProtect KMC module on the locomotive  had been transmitting  error 
 messages  for three weeks before the incident , but the activity database was not being  
 monitor ed for this type of error . 
 4.5.1.  An interrogati on of the eProtect activity database logs  from KiwiRail  showed  that the KMC 
@@ -930,7 +930,7 @@ Final Report RO -2017 -101
  from  16 January 2017, three weeks before the incident.  The error messages indicated that the 
 KMC module was capable of receiv ing worksite positions from Train Control , but it was unable 
 to write the m to memory.   This meant the KMC module had no worksite details with which to  
-compare the train ’s current GPS position and could not take action when the train passed the 
+compare the train 's current GPS position and could not take action when the train passed the 
 compulsory stop board s. 
 4.5.2.  The Commission obtained the eProtect KMC module from  the locomotive involved in the  
 incident.  The module was forensic ally examin ed with assistance provided by  the KMC module 
@@ -989,12 +989,12 @@ driver was likely experiencing microsleeps at the time.
 following factors:  
  the driver suffered from mild obstructive sleep apnoea, which was affecting the quality 
 of sleep  
- the driver  had experienced a poor night’s sleep before beginning the night shift , due to 
+ the driver  had experienced a poor night's sleep before beginning the night shift , due to 
 the hot ambient temperature  
  the driver  had been awake for more than  10 hours and was nearing the end of a 10½ -
 hour night shift.  
 5.4. The safety benefits derived from the KiwiRail safety -critical worker health assessment were not 
-fully realised by those involved, and as a resul t the driver ’s sleep apnoea had gone  undetected.  
+fully realised by those involved, and as a resul t the driver 's sleep apnoea had gone  undetected.  
 5.5. KiwiRail has a draft fatigue risk management system policy  that is still under development. Had 
 the current system been able to provide a dditional guidance to driver s, it may have helped them  
 to evaluate their condition better before attending shift s.  
@@ -1018,10 +1018,10 @@ issuing a recommendation
 (b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
 would not normally result in the Commission issuing a recommendation.  
 Safety a ctions  addressing safety issues identified du ring an inquiry  
-6.2. In response to the incident KiwiRail has introduced a proactive ‘polling’ system that interrogates 
+6.2. In response to the incident KiwiRail has introduced a proactive 'polling' system that interrogates 
 the event log on each locomotive every two hours and highlights any locomotives that have 
 logged more than 10 error events in that  two-hour  period .  An email is then generated for any 
-such locomotives, which are then  flagged as ‘Not To Run’ until the fault has been investigated  
+such locomotives, which are then  flagged as 'Not To Run' until the fault has been investigated  
 and resolved at a maintenance facility . 
 6.3. Since 2016 Kiwi Rail has had a Fatigue Safety Action Group to establish and run  a fatigue risk 
 management system and its integration with the other parts of the organisation.  
@@ -1044,7 +1044,7 @@ Recommendations  made to KiwiRail
 7.3. The KiwiR ail medical assessment process did not ensure that the employee being assessed 
 completed the online medical questionnaire themselves.  There is some evidence that the 
 system could potentially allow managers or others to complete the questionnaire on the 
-employees ’ behalf.  
+employees ' behalf.  
 On 23 August 2018  the Commission recommended that the Chief Executive of KiwiRail  improve 
 the health assessment syste m to ensure  that the periodic medical check system capture s data 
 directly from the subject . (018/18)  
@@ -1130,7 +1130,7 @@ RO-2017 -103 Potential collision between passenger trains, Wellington Railway St
 RO-2017 -102 Signalling irregularity, Wellington Railway Station, 3 April 2017  
 RO-2016 -101 Signal passed at danger leading to near collision, Wellington Railway Station, 28 
 May 2016  
-RO-2016 -102 Train 140 passed Signal 10R at ‘Stop’, Mission Bush Branch line, Paer ata, 25 
+RO-2016 -102 Train 140 passed Signal 10R at 'Stop', Mission Bush Branch line, Paer ata, 25 
 October 2016  
 RO-2015 -103 Track occupation irregularity, leading to near collision, between Manunui and 
 Taumarunui, 15 December 2015  

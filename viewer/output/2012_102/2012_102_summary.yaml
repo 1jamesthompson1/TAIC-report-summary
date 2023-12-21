@@ -1,0 +1,57 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue management contributing to the incident in the provided document.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 10
+  explanation: The incident involved human error in the design and installation of the emergency power distribution system, which did not properly discriminate between circuit breakers, leading to a wider power outage than necessary (4.2.7).
+- name: Training and Competency
+  percentage: 15
+  explanation: The project team lacked the appropriate expertise for designing and installing the emergency power supply system (4.3, 5.3). Additionally, KiwiRail technicians were not familiar with the operation of the UPS and had not been trained on the equipment (4.5.1).
+- name: Training and Familiarity with Equipment
+  percentage: 15
+  explanation: KiwiRail technicians responsible for the maintenance of the facility were not familiar with the operation of the UPS and had not been trained on the equipment (4.5.1).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no mention of Crew Resource Management issues contributing to the incident in the provided document.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 5
+  explanation: The document does not explicitly mention a lack of adherence to safety procedures as a contributing factor, but it does imply that the design and installation did not follow the UPS manufacturer's recommendations (4.2.7).
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: KiwiRail's Risk Management Policy did not give proper consideration to the safety of passengers and crew when a core service such as train control failed (4.4, 5.4). This indicates a potential issue with the organizational safety culture.
+- name: Risk Management and Analysis
+  percentage: 20
+  explanation: The Risk Management Policy did not properly consider the safety of passengers and crew for continuity of core services (4.4, 5.4). Additionally, the design did not achieve an appropriate level of redundancy for an essential service (4.3.9).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no mention of regulatory oversight and compliance issues contributing to the incident in the provided document.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There is no mention of situational awareness issues contributing to the incident in the provided document.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: There is no mention of emergency response preparedness issues contributing to the incident in the provided document. The train control systems defaulted to safe mode, and the situation was well controlled by the train operator (4.1.2, 4.1.4).
+- name: Maintenance and Inspection Regimes
+  percentage: 15
+  explanation: The management and maintenance of the emergency power supply system were not sufficient to ensure the reliability of what had been designated an "essential service" (4.5, 5.5).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention of issues with the use of automation contributing to the incident in the provided document.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions did not play a role in the power failure incident as described in the provided document.
+
+    '
+- name: Communication Breakdown
+  percentage: 10
+  explanation: While not explicitly stated as a communication breakdown, the document mentions that the design team in Auckland responsible for the rest of the train control system was not involved in the Wellington project (4.3.12), which could imply a lack of communication between relevant parties.

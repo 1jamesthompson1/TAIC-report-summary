@@ -144,7 +144,7 @@ Important n otes
 Nature of t he final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
 against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
-final report inadmissible as e vidence in any proceedings with the exception of a Coroner’s inquest.  
+final report inadmissible as e vidence in any proceedings with the exception of a Coroner's inquest.  
  
 Ownership of report  
 This report remains the intellectual property of the Transport Accident Investigation Commission.   
@@ -152,10 +152,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 to the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to industry participants only and not 
 discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cit ed. 
+documents referred to during the Commission's inquiry that are publicly available are cit ed. 
  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
@@ -209,7 +209,7 @@ Data summary  ................................ ................................ 
  Closed loop communication  ................................ ................................ ................................ .........  9 
  Red Zone  ................................ ................................ ................................ ................................ ....... 9 
  Pilot/Co -pilot system  ................................ ................................ ................................ ..................  10 
-4.3. The Monte Stello ’s approach to Tory Channel  ................................ ................................ .........  10 
+4.3. The Monte Stello 's approach to Tory Channel  ................................ ................................ .........  10 
  Wrong -way helm  ................................ ................................ ................................ .........................  10 
  Summary  ................................ ................................ ................................ ................................ .... 11 
 4.4. Safety management system  ................................ ................................ ................................ ..... 12 
@@ -227,7 +227,7 @@ Appendix 1:   Tory Channel Eastern Entrance Inbound Approach  ..................
  
 Final report MO -2011 -202 | Page i Figures  
  
-Figure 1  Part of chart NZ 6154 showing the Monte Stello’s planned passage , actual postitions 
+Figure 1  Part of chart NZ 6154 showing the Monte Stello's planned passage , actual postitions 
 and  current  ................................ ................................ ................................ ...........................  5 
 Figure 2  Tidal stream at Tory Channel entrance  ................................ ................................ ................  6 
  
@@ -288,7 +288,7 @@ Injuries
  nil 
 Damage  
  the starboard propeller was damaged and indenting of hull plating. 
-The hull’s watertight integrity was not compromised  
+The hull's watertight integrity was not compromised  
                                                         
 1 Times in this report are in New Zealand Standard Time (Co -ordinated Universal Time +12 hours) and are 
 expressed in the 24 -hour format.  
@@ -305,7 +305,7 @@ the eastern entran ce.  The bridge team comprised the master (acting as pilot) ,
 wrong direction, causing the ship  to deviate from the planned track.  The error was soon 
 realised and corrective action taken, but not soon enough to prevent the ship glancing off a 
 rock on the northern side of the channel.  
-1.4. The rock caused indenting of the hull plating but did not penetra te the hull.  One of the vessel’s 
+1.4. The rock caused indenting of the hull plating but did not penetra te the hull.  One of the vessel's 
 two propellers sustained damage when it also struck the rock.  The ship was able to complete 
 the voyage to Picton unaided.  No-one was injured in the accident.  
 1.5. The Commission found that the error in rudder direction was no t picked up in sufficient time to 
@@ -313,7 +313,7 @@ prevent the grounding because the procedures for checking and cross -checking ev
 during critical phases of navigation, known as bridge resource management, were not being 
 strictly followed by the bridge team.  
 1.6. The Commission also found that the standards of navigation and bridge resource management 
-required by KiwiRail’s safety management system were not being achieved by the bridge team 
+required by KiwiRail's safety management system were not being achieved by the bridge team 
 that was on board the Monte Stello  when the accident occurred . 
 1.7. The Commission m ade one recommendation to KiwiRail to address this safety issue.  
 1.8. A key lesson  arising from the inquiry was that bridge resource management is not something 
@@ -343,7 +343,7 @@ circumstances and causes of the accident, and appointed an investigator in charg
 2.2. The fo llowing day, when the vessel returned to Wellington from Picton, t wo investigators 
 attended the vessel.  The investigators conducted interviews with the crew and collected 
 evidence.   
-2.3. Over  the next three  weeks  the investigators liais ed with staff at KiwiRa il’s ferry operations 
+2.3. Over  the next three  weeks  the investigators liais ed with staff at KiwiRa il's ferry operations 
 head office,  collecting further evidence , including  additional  interviews  and photographs  of the 
 underwater inspections of hull damage . 
 2.4. Early analysis revealed an urgent safety issue, the standard of bridge resource management 
@@ -351,7 +351,7 @@ with th e bridge team involved in the accident, which  would  normally result in
 making recommendations.  Discussions were held with the operator and corrective action was 
 instigated to address the issue.  
 2.5. In October 2011 the container ship Rena  ran ag round on Astrolabe Reef near Tauranga, 
-consuming most of the Commission’s maritime resource s for the following three  years.   A 
+consuming most of the Commission's maritime resource s for the following three  years.   A 
 decision was made to prioritise the Rena  inquiry  ahead of this inquiry.  
 2.6. On 8 October 2011  the operator  returned the Monte Stello  to its owner.  The owner has since 
 sold the ship.  
@@ -382,23 +382,23 @@ took over the watch from the second mate.
 Channel, and visibility was restricted by light rain and/or mist.  The third mate called the 
 master, who arrived on the bridge shortly before 0540.  The third mate then ran through the 
 checklist Tory Channel Eastern Entrance Inbound Approach.  As part of that checklist he 
-briefed the bridge team on the Monte Stel lo’s status, environmental conditions, and other ship 
+briefed the bridge team on the Monte Stel lo's status, environmental conditions, and other ship 
 movements within the Marlborough Sounds.  The master then took over the control of the 
 vessel at about 0540, approximately 12 minutes before  the Monte Stello  entered the 
-Controlled Navigation Zone2 at the entrance to Tory Channel (see Figure 2).  The “Change of 
-watch checklist”  was also completed at the same time.  
+Controlled Navigation Zone2 at the entrance to Tory Channel (see Figure 2).  The "Change of 
+watch checklist"  was also completed at the same time.  
 3.1.7.  The Monte Stello  entered the Tory Channel Controlled Navigation Zone at about 05 52. 
 3.1.8.  Once the master had control of the vessel he confirmed it was aligned with the leading lights3 
 into Tory Channel.  He then turned off the auto -pilot and the helmsman took over helming 
-duties using the ship’s wheel, acting on the master’s orders.  The m aster then began to 
+duties using the ship's wheel, acting on the master's orders.  The m aster then began to 
 prepare for the controlled -radius -turn4 to port once the Monte Stello  had passed West Head.  
 3.1.9.  As the Monte Stello  came abreast of West Head light at about 0554, the master gave a helm  
-order of “port 1 0”5.  The helmsman repeated the order and as he put the helm 10 degrees to 
+order of "port 1 0"5.  The helmsman repeated the order and as he put the helm 10 degrees to 
 port the master acknowledged this correct confirmation.  The master then asked the third 
 mate to go to the port bridge wing to look out for the light on Scraggy Point.  As the third mate 
 walked across the bridge he look ed up at the rudder indicator to confirm it had indeed gone to 
 port 10 degrees.  
-3.1.10.  The master later said he then gave a helm order of “port 15”, which the third mate later 
+3.1.10.  The master later said he then gave a helm order of "port 15", which the third mate later 
 confirmed that had he heard.  However, the third mate did not recall the helmsman 
                                                         
 2 The Controlled Navigation Zone is defined in bylaws and shown on the chart.  It is intended to ensure th at 
@@ -408,22 +408,22 @@ and elevation, so that when they are ali gned, with one above the other, they pr
 navigation.  
 4 A controlled -radius -turn is where the rate of turn of the vessel is controlled by a constant radius ; that is to  
 say, the path taken by the vessel is an arc.  
-5 A helm order of “port 10” means that the rudder should be put to 10 degrees to port; this will cause the 
+5 A helm order of "port 10" means that the rudder should be put to 10 degrees to port; this will cause the 
 vessel to turn to port.  
 
 << Page 4 >>
- Final report MO -2011 -202 respo nding.  The helmsman thought the master gave a helm order of “starboard 15”, and 
+ Final report MO -2011 -202 respo nding.  The helmsman thought the master gave a helm order of "starboard 15", and 
 placed the helm over to starboard 15 degrees.  The lookout said later during his interview that 
-he heard “starboard 15”.  The third mate was by then on the bridge wing outside  the 
+he heard "starboard 15".  The third mate was by then on the bridge wing outside  the 
 wheelhouse looking for the Scrag gy Point light.  He was not therefore monitoring the rudder 
 indicator.  
 3.1.11.  The master soon realised that the ship was not responding as he expected and so he checked 
 the ECDIS6, which showed the Monte Stello  was to starboar d of the intended track.  He gave a 
-helm ord er of “starboard 20”; he realised he had misspoken and immediately corrected 
-himself by giving the order “midship”, which means to put the rudder to the centre.  The 
-lookout also challenged his “starboard 20” ord er. 
-3.1.12.  The master then ordered “hard a -port”.  He moved to the engine control and stopped the port 
-engine and reduced the starboard engine to “ 4”7. He then put the port engine to astern and 
+helm ord er of "starboard 20"; he realised he had misspoken and immediately corrected 
+himself by giving the order "midship", which means to put the rudder to the centre.  The 
+lookout also challenged his "starboard 20" ord er. 
+3.1.12.  The master then ordered "hard a -port".  He moved to the engine control and stopped the port 
+engine and reduced the starboard engine to " 4"7. He then put the port engine to astern and 
 the Monte Stello  began rapidly turning to port.  
 3.1.13.  At about 0555 the sta rboard quarter8 of the Monte Stello  collided with a rock, which was felt 
 by all personnel  on the bridge.  
@@ -434,7 +434,7 @@ ingress.   The master also conversed with the engine room crew on the telephone.
 in the vessel and the rudder appeared to be oper ating effectively.  The master proceeded 
 slowly, and gradually increased vessel speed up to 16 knots.  
 3.1.16.  The Monte Stello  continued down Tory Channel without issue.  When it reached Diffenbach 
-Point the master ordered “port 10”; however, the helmsman put the rudder to starboard.  The 
+Point the master ordered "port 10"; however, the helmsman put the rudder to starboard.  The 
 master corrected him, after which the helmsman put the rudder to port and the Monte Stello  
 continued on to berth in Picton without further incident.  
 3.1.17.  The Monte Stello  was berthed in Picton at 0724.  Once berthed, a preliminary dive  survey 
@@ -452,7 +452,7 @@ Scraggy Point
 lightrockleading lights
 Passage plan
 Part of chart NZ 6154
-“Tory Channel Entrance and Picton Harbour”
+"Tory Channel Entrance and Picton Harbour"
 Sourced from Land Information New Zealand data
 Crown Copyright reserved
 NOT TO BE USED FOR NAVIGATIONturn to port 
@@ -464,11 +464,11 @@ starboard
 West Head 
 light 
 Figure 1 
-Part of chart NZ 6154 showing the Monte Stello’s planned passage, actual postitions and  current
+Part of chart NZ 6154 showing the Monte Stello's planned passage, actual postitions and  current
 
 << Page 6 >>
  Final report MO -2011 -202 3.2. Crew profile  
-3.2.1.  The master began his seafaring career in Great Britain in 1960.  He gained a ma ster’s 
+3.2.1.  The master began his seafaring career in Great Britain in 1960.  He gained a ma ster's 
 certification in 1974.  He was granted a New Zealand certificate of competency as Master of a 
 Foreign -going Ship in 2002.  He began working at KiwiRail as first mate in 2003, and was 
 promoted to master in 2006.  He began sailing as master on the  Monte Stello  on 12 April 
@@ -516,14 +516,14 @@ the ISM Code.  This certificate is named the Safety Management Certificate.
 bareboat charter.  Under this arrangement KiwiRail paid a daily hire rate to the owners and in 
 return took full possession of the vessel with respect to maintenance and operation.  The 
 charter agreement was signed on 17 March 2011.  Thus KiwiRail Limited was responsible for 
-the Monte Stell o’s safety management system.    
+the Monte Stell o's safety management system.    
 3.4.5.  Maritime N ew Zealand had audited and issued a Document of Compliance to certify the safety 
 management system of KiwiRail Limited on 18 February 2011.  Maritime New Zealand had 
 also audited and issued an Interim Safety Management Certificate for the Monte Stello  on 2 8 
 March 2011.  An Interim Safety Management Certificate is granted to vessels that are new to 
 the operator, because there is insufficient record of operation to grant a full Safety 
 Management Certificate.  Both certificates were valid at the time of the gr ounding.  
-3.4.6.  This inquiry focused on the aspects of the KiwiRail and Monte Stello ’s safety management 
+3.4.6.  This inquiry focused on the aspects of the KiwiRail and Monte Stello 's safety management 
 system relating to navigation and bridge resource management.  These aspects are discussed 
 in the following analysis section.  
  
@@ -541,7 +541,7 @@ further into the turn then it could have resulted in the hull being penetrate d.
 was no evidence of a failure of any engineering control or propulsion systems,  or of its 
 navigation systems.  There was, however, evidence that the deviation fr om the planned 
 passage was due to a breakdown in bridge team performance.  
-4.1.3.  The following analysis discusses the Monte Stello  and Kiwi Rail’s safety management systems 
+4.1.3.  The following analysis discusses the Monte Stello  and Kiwi Rail's safety management systems 
 and how, together, they were supposed to ensure procedures were in place to minimise the 
 opportunity of accidents such as this happening.  Section 4.2 describes the concept of bridge 
 resource management and how it was intended to work.  Section 4.3 describes what 
@@ -552,23 +552,23 @@ contributed to the accident.
 4.2. Bridge resource management  
 4.2.1.  The safe navigation of a vessel is dependent on the performance of the bridge team.  However, 
 human error is ubiquitous and inevitable, a fact noted by Professor James Reason9.  Professor 
-Reason said, “ Error  management has two components: limiting the incidence of dangerous 
-errors and  – since this will never be wholly effective  – creating systems that are better able to 
-tolerate the occurrence of errors and contain their damaging effect s10.”  That is to say , human 
-error will occur and so a primar y driver in the vessel’s safety management sy stem is to prevent 
+Reason said, " Error  management has two components: limiting the incidence of dangerous 
+errors and  - since this will never be wholly effective  - creating systems that are better able to 
+tolerate the occurrence of errors and contain their damaging effect s10."  That is to say , human 
+error will occur and so a primar y driver in the vessel's safety management sy stem is to prevent 
 and correct any errors that are made .  
-4.2.2.  The Monte Stello ’s safety management system incorporated the practices of bridge r esource 
+4.2.2.  The Monte Stello 's safety management system incorporated the practices of bridge r esource 
 management (BRM).  BRM is the name given to an industry -recognised methodology and 
 behaviour covering all aspects of bridge operations.  The key safety aspect of BRM is that it 
 uses al l available resources, including people, procedures and equipment, to provide 
-safeguards against accidents of the “ one-person -error”11 type.  
-4.2.3.  Three procedures manuals relevant to this incident were KiwiRail’s Fleet Operating 
+safeguards against accidents of the " one-person -error"11 type.  
+4.2.3.  Three procedures manuals relevant to this incident were KiwiRail's Fleet Operating 
 Procedures, its Fleet Passage Pl an, and the Procedures Manual for Monte Stello . 
 Fleet Operation Procedures  
 4.2.4.  The Fleet Operating Procedures manual described the principles and procedures that should 
-be applied by all crew across the KiwiRail Limited fleet.  Section 2 was titled “Bridge Ope rating 
-Procedures” and contains various subsections describing, for example, the “Principles of 
-Watchkeeping” and what the officer -of-the-watch must do.  A review of this document did not 
+be applied by all crew across the KiwiRail Limited fleet.  Section 2 was titled "Bridge Ope rating 
+Procedures" and contains various subsections describing, for example, the "Principles of 
+Watchkeeping" and what the officer -of-the-watch must do.  A review of this document did not 
 identify any issues that contributed to the grounding.  
 Fleet Passage  Plan 
 4.2.5.  The Fleet Passage Plan contained detailed passage plans for the passages between 
@@ -595,35 +595,35 @@ understanding of the operation to be performed and the teamwork involved.  Thus 
 member deviates from what is expected, then other tea m members will notice, challenge and 
 correct the error.  
 4.2.8.  The concept of a shared mental model across the bridge team is critical to bridge resource 
-management, and is encapsulated within the Monte Stello ’s safety management system.  An 
+management, and is encapsulated within the Monte Stello 's safety management system.  An 
 example of this is br idge team briefings.  The Tory Channel Eastern Entrance Inbound 
-Approach checklist states: “This checklist is intended to be completed jointly by the [officer of 
-the watch], master and bridge team… .”  The checklist states that the entire bridge team must 
-be briefed at the same time on a number of points including (but not limited to) “traffic and 
+Approach checklist states: "This checklist is intended to be completed jointly by the [officer of 
+the watch], master and bridge team… ."  The checklist states that the entire bridge team must 
+be briefed at the same time on a number of points including (but not limited to) "traffic and 
 weather, tidal flow at entrance, sea state, hand steering engaged and checked, and confirm 
-master or officer -of-the-watch has [control of the vessel]”.  
+master or officer -of-the-watch has [control of the vessel]".  
 Closed loo p communication  
 4.2.9.  Another example of ensuring a shared mental model is with respect to communication.  The 
-Fleet Operating Procedures manual says: “Closed loop [communications] shall always be used 
-when communicating with or within the bridge.  For example – between the pilot and 
+Fleet Operating Procedures manual says: "Closed loop [communications] shall always be used 
+when communicating with or within the bridge.  For example - between the pilot and 
 helmsman when altering to a new course…:  
 Pilot:    course zero two one  [the pilot states the new course to  
      steer]  
 Helmsman:   course zero two one  [the helmsman acknowledges the new 
      course to steer]  
 Pilot:    yes   [the pilot  completes the closed loop 
-     and confirms the helmsman’s  
+     and confirms the helmsman's  
      interpretation of what he said is  
-     correct]”  
+     correct]"  
 Red Zone  
-4.2.10.  The Monte Stello ’s safety management system provided procedures for high risk operations, 
+4.2.10.  The Monte Stello 's safety management system provided procedures for high risk operations, 
 where the tolerance for error is low, and  the consequence of failure is high.  The entrance to 
 Tory Channel involved strong currents, a tight turn to port (left), and limited room for the vessel 
 to manoeuvre.  The safety management system recognised this as high risk and classified the 
-entrance t o Tory Channel as a “Red Zone”.  The passage plan stated the “Red Zone begins 10 
-minutes prior to entering Tory Channel Controlled Navigation Zone” and extended all the way 
+entrance t o Tory Channel as a "Red Zone".  The passage plan stated the "Red Zone begins 10 
+minutes prior to entering Tory Channel Controlled Navigation Zone" and extended all the way 
 to the berth at Picton.  One of the prompts on the Tory Channel Eastern Entrance In bound 
-Approach checklist was to “declare Red Zone”.  
+Approach checklist was to "declare Red Zone".  
 4.2.11.  The declaration of a Red Zone was intended to trigger a heightened level of crew vigilance and 
 safety for operations.  The areas covered by Red Zones were defined within the Fleet Passage 
 Plan, and the Fl eet Operating Procedures manual described the required bridge procedures 
@@ -638,13 +638,13 @@ Pilot/Co -pilot system
 4.2.12.  The pilot was the officer who had the c ontrol of the vessel.  The pilot initia ted all manoeuvres, 
 ensu red the co -pilot was well informed about planned actions, and was responsible for the 
 successful execution of the passage plan.  In this case, the master was the pilot.  
-4.2.13.  The co -pilot was an offi cer responsible for “following up all manoeuvres and navigation made 
-by the pilot”, and also “[review] all actions taken by the pilot and keep himself aware of all 
-planned actions in order to be able to take over their duties at any time”.  The co -pilot wa s also 
+4.2.13.  The co -pilot was an offi cer responsible for "following up all manoeuvres and navigation made 
+by the pilot", and also "[review] all actions taken by the pilot and keep himself aware of all 
+planned actions in order to be able to take over their duties at any time".  The co -pilot wa s also 
 responsible for other duties including (but not limited to) communication external to the bridge 
-team and monitoring the ship’s position relative to the plan. In this case, the third mate was 
+team and monitoring the ship's position relative to the plan. In this case, the third mate was 
 the co -pilot.  
-4.3. The Monte Stello ’s approach to Tory Channel  
+4.3. The Monte Stello 's approach to Tory Channel  
 4.3.1.  The third mate was the officer -of-the-watch as the Monte Stello  approached the entrance to 
 Tory Channel.  He called the master to the bridge as planned.  When the master arrived on the 
 bridge, the other three crew members were already there.  At about 054 0 the third mate and 
@@ -653,7 +653,7 @@ Inbound Approach checklist in the presence of the other bridge team members.  Th
 team at that time was the master (as pilot), third mate (as co -pilot), helmsman, and lookout.  
 4.3.2.  Once the master had control of the vessel, he began monitoring its track against the leading 
 lights, which provided a lead for the vessel through the entrance and into Tory Channel.  He 
-turned the auto -pilot off and the helm sman began steering by hand to the master’s orders.  
+turned the auto -pilot off and the helm sman began steering by hand to the master's orders.  
 4.3.3.  The master planned for the Monte Stello  to pass through the heads and then begin a 
 controlled -radius -turn to port in accordance with the passage plan.  Although the two required 
 checklists were used, ther e was no significant discussion or briefing on the imminent entry to 
@@ -662,39 +662,39 @@ that entering Tory Channel was a routine manoeuvre which he expected the other b
 mem bers would be familiar with.  The master did not think it necessary for the helmsman to 
 know details of the plan, as his role was simply to execute whatever helm order the master 
 gave him.  Similarly the helmsman felt he did not need to know, as he was foc used solely on 
-following the master’s helm orders.   
+following the master's helm orders.   
 4.3.4.  However, the accident voyage was the first time the bridge team had worked together to 
 transit Tory Channel.  Prior to the accident voyage, the helmsman had neither acted as 
 helmsman on the Monte Stello , nor acted as helmsman on any other vessel through the 
 entrance to Tory Channel.  Neither the lookout nor the helmsman had sailed with the master 
 before.  This unfamiliarity should not necessarily have been an issue  if good BRM practices 
 were being followe d.  However, neither the master nor the helmsman had engaged with the 
-principles of good BRM: one questioning the other’s need to know, and the other questioning 
+principles of good BRM: one questioning the other's need to know, and the other questioning 
 why he needed to know.  
 Wrong -way helm  
 4.3.5.  When the Monte Stello  was abreast of West Head, the mas ter (acting as pilot) initiated the 
-controlled -radius -turn to port by speaking the helm order “port 10”.  The helmsman repeated 
+controlled -radius -turn to port by speaking the helm order "port 10".  The helmsman repeated 
 the order, which the master confirmed.  The process they followed was a textbook example of 
-closed loop communication as describ ed in KiwiRail’s Fleet Operating Procedures manual.  
+closed loop communication as describ ed in KiwiRail's Fleet Operating Procedures manual.  
 The third mate (who was co -pilot) monitored the rudder indicator to ensure it went to port 10, 
-and in doing so fulfilled his duty to follow up on the master’s intentions.  Through this process 
+and in doing so fulfilled his duty to follow up on the master's intentions.  Through this process 
 there coul d be no misunderstanding or practical mistake between what the master planned to 
 happen and what did happen.  The Monte Stello  began to turn to port.   
 Final report MO -2011 -202 
 << Page 11 >>
  4.3.6.  Due to the design of the bridge, the master did not have a clear view out the side of the bridge 
 and so he sent the third mate out to the port bridge wing to watch for the light on Scraggy 
-Point.  From that position the co -pilot was not able to monitor the master’s actions and 
+Point.  From that position the co -pilot was not able to monitor the master's actions and 
 outcomes, and so from that time the pilot/co -pilot system ceased to have effect.  An option 
 open to the master was to ask the lookout to look for the Scraggy Point light.  The practical 
-outcome was that henceforth no -one monitored the master’s orders, nor the rudder indicator, 
+outcome was that henceforth no -one monitored the master's orders, nor the rudder indicator, 
 to ensure they were correct.  This included the master.  Dep ending on the circumstances, it is 
 good practice for the pilot (the master in this case) to glance at the rudder indicator for each 
 order given to ensure it is moving to the expected position.  
 4.3.7.  The Monte Stello  was still to starboard of the planned track an d so the master intended to 
-increase the rate -of-turn by increasing the rudder angle.  The master said he ordered “port 
-15”, which the third mate said he heard as he walked across the bridge to the port bridge 
-wing, but both the helmsman and lookout later said the master had ordered “starboard 15”.  
+increase the rate -of-turn by increasing the rudder angle.  The master said he ordered "port 
+15", which the third mate said he heard as he walked across the bridge to the port bridge 
+wing, but both the helmsman and lookout later said the master had ordered "starboard 15".  
 The helmsman turned the rudder to starboard.  He did not repeat the order nor did the master 
 follow up to confirm his order was understood.  Closed loop communication was not used and 
 hence the opportunity to co rrect the error was lost.  Because the third mate had gone to the 
@@ -713,18 +713,18 @@ unusual.
 4.3.9.  The Monte S tello deviated further from the planned turn to port due to the wrong -way helm12. 
 At that point the master did not realise the rudder had gone the wrong way, and he thought 
 the problem was that the angle of rudder to port was still insufficient.  He intende d to increase 
-that angle further to port.  However, he misspoke and said “starboard 20”.  He immediately 
-realised his mistake and corrected himself by saying “midships”, and then “hard a -port”.   
+that angle further to port.  However, he misspoke and said "starboard 20".  He immediately 
+realised his mistake and corrected himself by saying "midships", and then "hard a -port".   
 Summary    
 4.3.10.  The safety management system provided four proced ures that should have helped prevent the 
 helm being put the wrong way:  
  the pre -manoeuvre briefing for the bridge team  
- the declaration of “Red Zone” to heighten the crew’s awareness and vigilance  
+ the declaration of "Red Zone" to heighten the crew's awareness and vigilance  
  the pilot/co -pilot system  
  the closed loop communication.  
 4.3.11.  The pre-manoeuvre briefing (completion of the Tory Channel Eastern Inbound Approach 
 checklist) did not include any discussion about the actual planned passage, nor reminders 
-about responsibilities (for example pilot/co -pilot), nor was “Red Zone” declared.  The  first two 
+about responsibilities (for example pilot/co -pilot), nor was "Red Zone" declared.  The  first two 
 points were not included in the checklist.  However, they are an integral part of effective BRM 
 practice.  The briefing did not result in a shared mental model across the bridge team.  
                                                         
@@ -732,11 +732,11 @@ practice.  The briefing did not result in a shared mental model across the bridg
 where the officer of the watch ordered the rudder to port, but the rudder was put to starboard.  
 
 << Page 12 >>
- Final report MO -2011 -202 4.3.12.  The declaration of “Red Zone” was intended to provide a heig htened level of vigilance. 
+ Final report MO -2011 -202 4.3.12.  The declaration of "Red Zone" was intended to provide a heig htened level of vigilance. 
 However, it appears to have had little effect on the actions of the bridge team other than the 
 increased manning level.  
 4.3.13.  The pilot/co -pilot system was rendered ineffective when the co -pilot was ordered to a location 
-where he was u nable to monitor the pilot’s actions and outcomes and to some extent there 
+where he was u nable to monitor the pilot's actions and outcomes and to some extent there 
 might have been an overreliance on it, as evidenced by the master not routinely checking that 
 what he had asked for was actually happening.  
 4.3.14.  Bridge team members later said that close d loop communication was not always used, 
@@ -765,8 +765,8 @@ those practices and behaviours.
 had received formal BRM traini ng.  Some of their actions and discussions following the 
 accident indicated they had not wholly embraced the concept.  The other two had picked up 
 some concepts via exposure to it as a part of their roles on the bridge.  For example, they 
-understood what “ closed loop communication” meant.  Thus the effective implementation of 
-the safety management system was almost wholly reliant on the officers’ explanation and 
+understood what " closed loop communication" meant.  Thus the effective implementation of 
+the safety management system was almost wholly reliant on the officers' explanation and 
 enforcement of the practices and behaviours of BRM, which clearly did not happen in this 
 case.  This issue was compounded by the fact that this bridge team had not sailed together 
 before, and the helmsman was not a regular bridge team member.  
@@ -783,17 +783,17 @@ Final report MO -2011 -202
  4.4.5.  KiwiRail audited the BRM procedures of the three vessels in its fleet in December 2008.  The 
 auditors travelled with the ships and observed the bridge team performance.  KiwiRail found 
 that bridge team briefing sessions across all three vessels were carried out in a meaningful 
-and positive manner.  On one vessel it found that “robust BRM procedures were observed to 
-be in use as routine procedure”, and on another it found that it was time ly to initiate another 
+and positive manner.  On one vessel it found that "robust BRM procedures were observed to 
+be in use as routine procedure", and on another it found that it was time ly to initiate another 
 round of BRM courses due to significant change of staff.  
 4.4.6.  In January 2010 Maritime New Zealand auditors completed one round trip with each of the 
 three vessels to assess the operation of the bridge team; the auditors then produced a B ridge 
 Resource Management Assessment report.  The report found that generally the masters and 
-senior officers “were confident of their powers of discretion and empowerment”.  In particular, 
-bridge lookouts were “well briefed in their role and responsibilit ies”, and “best practice closed 
-loop bridge communication was consistent at all times”.  However, the audit report also raised 
+senior officers "were confident of their powers of discretion and empowerment".  In particular, 
+bridge lookouts were "well briefed in their role and responsibilit ies", and "best practice closed 
+loop bridge communication was consistent at all times".  However, the audit report also raised 
 a question about how the skill and experience of the master and senior officers were passed 
-on to junior officers.  In the report  the auditors “wished” that  bridge resource management 
+on to junior officers.  In the report  the auditors "wished" that  bridge resource management 
 training be considered by KiwiRail for all deck officers as a further process improvement.   
 4.4.7.  Both internal and external audits found that generally BRM practices were operating 
 effectively.  However, they also both raised questions about the level of BRM training given to 
@@ -818,9 +818,9 @@ the fleet, all of the time.
 Findings   
 5. The standard of bridge resource management on the Monte Stello  leading up 
 to the grounding was not as high as that found operating on the other three 
-vessel s operated under KiwiRail’s safety management system.  
+vessel s operated under KiwiRail's safety management system.  
 6. The standards of  navigation and bridge resource management required by 
-KiwiRail’s safety management system were not being achieved by the bridge 
+KiwiRail's safety management system were not being achieved by the bridge 
 team that was on board the Monte Stello  when the accident occurred.  
  
  
@@ -839,9 +839,9 @@ because the procedures for checking and cross -checking every action during crit
 navigation, know n as bridge resource management, were not being strictly followed by the 
 bridge team.  
 5.5. The standard of bridge resource management on the Monte Stello  leading up to the grounding 
-was not as high as that found operating on the other t hree vessel s operated under KiwiRail’s 
+was not as high as that found operating on the other t hree vessel s operated under KiwiRail's 
 safety management system.  
-5.6. The standards of navigation and bridge resource management required by KiwiRail’s safety 
+5.6. The standards of navigation and bridge resource management required by KiwiRail's safety 
 management system were not being achieved by the bridge team that was on board the 
 Monte Stello  when t he accident occurred . 
  
@@ -861,19 +861,19 @@ would not normally result in the Commission issuing a recommendation.
 across all ships and all crews  by Australasian Maritime Safety Solutions Pty Limited (Australia) 
 to verify compliance with industry best practice, including bridge team management practices 
 and resource management, and identify areas for improvement.  The audit results have been 
-used to target areas for inclusion within KiwiRail’s initiative in creating its own BRM/ bridge 
+used to target areas for inclusion within KiwiRail's initiative in creating its own BRM/ bridge 
 team management a nd ship handling courses at Smartship Australia¹ (in Brisbane), and 
 ensure a consistent approach to and execution of BRM within the fleet.  KiwiRail has been 
 carrying out various human factors type training courses for its crews.   There is a tiered 
 approac h to this:  
- MRM – maritime resource management training, through the Swedish Club programme 
+ MRM - maritime resource management training, through the Swedish Club programme 
 (www.swedishclub.com/academy/maritime -resource -management -mrm ).  This will 
 ultim ately be delivered to all Interislander staff (including terminal and office staff)  
- BRM – bridge resource management training, through various providers, targeting bridge 
+ BRM - bridge resource management training, through various providers, targeting bridge 
 officers.   This is essentially very similar to the MRM courses  
- BTM – bridge team mana gement training, through Smartship in Brisbane 
+ BTM - bridge team mana gement training, through Smartship in Brisbane 
 (www.smartshipaustralia.com.au ).  This will be delivered to specific bridge teams from each 
-of KiwiRail’s ships.  
+of KiwiRail's ships.  
 6.2.2.  For the Smartship Simulator centre, toget her with the ports and Strait Shipping, KiwiRail 
 commissioned detailed route models for Wellington and Picton, including its berths.   It also 
 paid to have each of its ships modelled so that the ship models will handle similarly to the real 
@@ -962,7 +962,7 @@ MO-2014 -202 Lifting sling failure on freefall lifeboat, general cargo ship Da D
 14 April 2014  
 11-204 Container ship MV Rena  grounding, on Astrolabe Reef, 5 October 2011  
 13-201 Accommodation fire on board the log -carrier, Taokas Wisdom , Nelson, 11 July 2013  
-13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke’s Bay, 8 August 2013  
+13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke's Bay, 8 August 2013  
 12-202 Fishing vessel Torea, collision with uncharted rock, Foveaux Strait, 24 August 2012  
 09-210 Bulk carrier, Taharoa Express , cargo shift, Port Taharoa, 16 December 2009  
 10-204 Inquiry 10 -204:  Bulk carrier Hanjin Bombay , grounding, Mount Maunganui, 21 June 

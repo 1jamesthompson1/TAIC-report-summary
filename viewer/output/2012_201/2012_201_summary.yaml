@@ -1,58 +1,62 @@
-- name: Regulatory Compliance and Safety Management
+- name: Human Error and Assumptions
   percentage: 20
-  explanation: The Easy Rider was not in compliance with maritime regulations, as it was operating as a commercial fishing vessel without the skipper holding the required qualification (4.6.15). The owner and skipper did not meet their safe ship management obligations, which included ensuring the vessel was operated safely and that all personnel had appropriate qualifications (4.6.25). The vessel was also overloaded, which is a direct violation of safety management practices (5.2).
-- name: Training and Preparedness for Emergency Procedures
+  explanation: The skipper of the Easy Rider did not hold the qualification required to be in charge of the vessel on the accident voyage, which indicates a lack of understanding of ship stability principles. This lack of knowledge led to the vessel being overloaded and poorly loaded, with too much weight too high up on deck, which was the prime factor leading to its capsize (5.15, 5.16).
+- name: Training and Competency
+  percentage: 20
+  explanation: The skipper's lack of formal training on the fundamentals of vessel stability, which would have been covered in the inshore launch master's certificate that he did not possess, contributed to the improper loading of the vessel. This directly affected the vessel's stability and was a significant factor in the accident (4.6.30, 4.6.31).
+- name: Adherence to Safety Procedures
   percentage: 15
-  explanation: The skipper lacked the necessary knowledge of ship stability, which is a fundamental requirement for any commercial operator (4.6.30). This lack of understanding was a prime factor leading to the vessel's capsize (5.16).
-- name: Equipment Design and Specifications
+  explanation: The Easy Rider did not have sufficient life-saving equipment for the nine persons on board, and the life-raft was not able to float free to the surface because it became lodged between the wheelhouse and the bulwarks as the vessel was sinking. This non-adherence to safety procedures reduced the chances of survival for those not wearing lifejackets (5.5, 5.10).
+- name: Organizational Safety Culture
   percentage: 15
-  explanation: The Easy Rider had low stability reserve when it departed, and the extra load of cargo and passengers raised the center of gravity, making the vessel "tender" and at serious risk of capsize (4.3.7, 4.3.8).
-- name: Situational Awareness
-  percentage: 15
-  explanation: The skipper's decision to embark on the voyage despite the forecasted weather conditions demonstrated a lack of situational awareness (4.4.2). Additionally, the vessel's direction of travel into the wind, waves, and swell would not have been rolling as much if the waves had been coming from the side, indicating a lack of understanding of the environmental conditions (4.3.12).
-- name: Weather Information Dissemination and Interpretation
+  explanation: The owner of the Easy Rider did not understand the principles of safe ship management, and the skipper did not show a willingness to comply with the rules. This indicates a poor safety culture within the organization, which failed to prioritize the safe operation of the vessel as required by the Maritime Transport Act and Maritime Rules (5.13, 5.14).
+- name: Regulatory Oversight and Compliance
   percentage: 10
-  explanation: The weather conditions were not suitable for the Easy Rider to venture across Foveaux Strait at night with marginal stability and passengers on board (5.3). The forecasted and actual sea conditions were not appropriate for a vessel the size of the Easy Rider with marginal reserve stability (4.4.10).
-- name: Maintenance Procedures and Compliance
+  explanation: The vessel was operating as a commercial fishing vessel without the skipper having the necessary maritime qualification, and passengers were carried on board contrary to regulations. This lack of compliance with maritime regulations contributed to the unsafe conditions that led to the accident (5.11, 5.12).
+- name: Risk Management and Analysis
   percentage: 5
-  explanation: Although there was no evidence that maintenance deficiencies directly contributed to the accident, the vessel had undergone various modifications over the years, and the stability information had been superseded, which could have affected its stability characteristics (4.6.3).
-- name: Human Factors - Fatigue and Alertness
+  explanation: The skipper's decision to embark on the voyage despite the forecasted and actual adverse weather conditions demonstrated a failure in risk management. The vessel's marginal stability was not suitable for the conditions, and the decision to proceed increased the risk of capsizing (5.3, 5.4).
+- name: Weather Conditions and Decision Making
   percentage: 5
-  explanation: There is no direct mention of fatigue or alertness as contributing factors in the document. However, the decision-making process of the skipper could have been influenced by fatigue, given the late departure and the night voyage (4.4.2).
-- name: Communication and Crew Resource Management
+  explanation: The actual sea conditions on the night of the accident were not suitable for a vessel the size of the Easy Rider with marginal reserve stability. The skipper's decision to continue with the planned departure despite the weather conditions contributed to the vessel's vulnerability to capsizing (5.3, 5.4).
+- name: Emergency Response Preparedness
   percentage: 5
-  explanation: The document does not explicitly mention communication issues among the crew as a contributing factor. However, the skipper's failure to communicate his intentions and the vessel's status effectively to the Maritime New Zealand inspector could be considered a communication issue (4.6.37).
-- name: Risk Assessment and Management
-  percentage: 5
-  explanation: The skipper's decision to sail despite the weather forecast and the vessel's loading condition indicates a failure in risk assessment and management (4.4.2, 4.6.30).
-- name: Emergency Response Planning and Coordination
-  percentage: 5
-  explanation: The vessel did not have sufficient life-saving equipment for the number of persons on board, and the life-raft was not able to float free to the surface, indicating a lack of emergency response planning (5.5, 5.10).
-- name: Fire Detection and Suppression Systems
+  explanation: The lack of sufficient life-saving equipment and the failure of the life-raft to float free to the surface affected the emergency response capability. This lack of preparedness reduced the chances of survival for the individuals involved in the accident (5.5, 5.10).
+- name: Maintenance and Inspection Regimes
   percentage: 0
-  explanation: 'There is no mention of fire detection or suppression issues contributing to the accident.
+  explanation: 'There was no evidence found in the document that maintenance and inspection regimes directly contributed to the accident.
 
     '
-- name: Distracted Operation
+- name: Crew Resource Management
   percentage: 0
-  explanation: 'There is no mention of the skipper or crew being distracted by non-essential activities leading to the accident.
+  explanation: 'There was no evidence found in the document that crew resource management directly contributed to the accident.
 
     '
-- name: Structural Integrity and Material Fatigue
+- name: Training and Familiarity with Equipment
   percentage: 0
-  explanation: 'The document does not indicate that structural integrity or material fatigue were factors in the accident.
+  explanation: 'There was no evidence found in the document that a lack of training and familiarity with equipment directly contributed to the accident.
 
     '
-- name: Human Error and Error Management
+- name: Fatigue Management
   percentage: 0
-  explanation: 'While human error in the form of poor decision-making by the skipper was a factor, it is encompassed within other themes such as regulatory compliance, training, and situational awareness.
+  explanation: 'There was no evidence found in the document that fatigue management directly contributed to the accident.
 
     '
-- name: Safety Culture and Organizational Influences
+- name: Use of Automation
   percentage: 0
-  explanation: 'The document does not provide information on the safety culture or organizational influences within the company that owned the Easy Rider.
+  explanation: 'There was no evidence found in the document that the use of automation or over-reliance on automated systems directly contributed to the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There was no evidence found in the document that a loss of situational awareness directly contributed to the accident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There was no evidence found in the document that a communication breakdown directly contributed to the accident.
 
     '
 - name: Other
-  percentage: 0
-  explanation: All contributing factors to the accident have been covered by the predefined safety themes. There is no need to introduce an additional theme.
+  percentage: 5
+  explanation: The "Other" category is included to account for any additional factors not covered by the predefined safety themes. In this case, the "Other" category includes the historical lack of common and good-standard practice for keeping ship operation and safety records, which resulted in the loss of important information about the Easy Rider that could have been relevant to the vessel's stability and safety (5.16).

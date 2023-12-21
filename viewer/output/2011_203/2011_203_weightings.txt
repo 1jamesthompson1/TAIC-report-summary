@@ -1,0 +1,17 @@
+"2011_203","[11  12  13  14  15  16  17  18]","0.0","There is no mention of fatigue management contributing to the accident within the provided document.
+","0.0","10.0","Human error played a role in the emergency response, where ""the engineer only fired the starboard CO2 bottle into the engine room because he associated the failure of the starboard engine with that of the catamaran configuration, forgetting that both engines were in fact in the same space"" (4.4.4). This error could have had serious consequences if a sustained fire had occurred.
+","0.0","1.667","There is no direct evidence in the document that suggests a lack of training and competency contributed to the accident.
+","2.887","5.0","The engineer's mistake in releasing only one of the two required CO2 cylinders suggests a lack of familiarity with the mono-hull vessel's fire-suppression system, which differs from the catamaran-style vessels in the fleet (4.4.4).
+","0.0","0.0","There is no indication in the document that crew resource management was a contributing factor to the accident.
+","0.0","0.0","The document does not provide evidence that a lack of adherence to safety procedures contributed to the accident.
+","0.0","0.0","There is insufficient information in the document to determine if organizational safety culture was a contributing factor to the accident.
+","0.0","0.0","The document does not provide evidence that risk management and analysis practices contributed to the accident.
+","0.0","0.0","There is no mention of regulatory oversight and compliance issues contributing to the accident within the provided document.
+","0.0","0.0","The document does not indicate that situational awareness was a factor in the accident.
+","0.0","6.667","The emergency response was generally well-executed, but the error in releasing only one CO2 bottle indicates a potential gap in preparedness for dealing with engine room fires on mono-hull vessels (4.4.4).
+","2.887","70.0","The document indicates that the engine failed after running for 6000 hours since its last overhaul, and the engine manufacturer had recommended reducing the interval between overhauls from 16,000 to 6000 hours for vessels operating similarly to the Jet Raider (5.3). Although it was not clear if Fullers' deviation from the manufacturer's recommended maintenance schedule contributed to the engine failure, the timing aligns with the recommended maintenance interval (4.3.10, 4.3.11).
+","0.0","0.0","There is no mention of automation contributing to the accident within the provided document.
+","0.0","0.0","Weather conditions were not a factor in the accident as per the information provided in the document.
+","0.0","0.0","The document does not indicate that communication breakdown was a factor in the accident.
+","0.0","6.667","The ""Other"" category is assigned to account for the possibility of factors not covered by the provided safety themes. The document suggests that the exact cause of the engine failure could not be determined due to the severity of the damage (5.2). Additionally, there were similarities in the failure of this and another engine of the same type that could not be excluded as contributing factors (5.2). This category acknowledges the potential for unidentified or unexplored factors that may have contributed to the accident.
+","5.774","true","N/A"

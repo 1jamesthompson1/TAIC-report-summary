@@ -1,0 +1,60 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the accident within the document. Therefore, it is not applicable as a safety theme in this case.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'The document does not provide evidence that the accident was caused by human error or assumptions. The analysis focused on mechanical failure, pilot incapacitation, and the execution of a low-level maneuver, rather than errors based on assumptions.
+
+    '
+- name: Training and Competency
+  percentage: 20
+  explanation: The document indicates that the operator did not have written procedures or guidelines on how to carry out stock clearing and had not given its pilots flight training in the maneuver ("The operator believed that stock clearing was permitted, but had no written guidelines and had not given its pilots flight training in the manoeuvre" (4.5.14-4.5.18)). This lack of training and competency in performing low-level stock-clearing maneuvers contributed to the accident.
+- name: Training and Familiarity with Equipment
+  percentage: 5
+  explanation: While the document does not explicitly state that lack of familiarity with equipment was a direct cause, it does mention that the airspeed indicator had scales in both mph and knots, which could have led to confusion ("The airspeed indicators in the other aeroplanes the pilot regularly flew were calibrated in knots only" (4.5.11)). This suggests a potential lack of familiarity with the specific equipment in the accident aircraft, which may have contributed to the accident.
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'Crew Resource Management does not appear to be a factor in the accident as per the document. The focus of the investigation was on the pilot''s actions and the aircraft''s condition, rather than on crew dynamics or resource management.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 15
+  explanation: The document indicates that the operator did not have written procedures for stock clearing and that pilots had not been given flight instruction or assessed for competency in carrying out the maneuver ("The operator did not have any written procedures for or guidelines on how to carry out stock clearing" (4.5.16)). This lack of adherence to safety procedures is a contributing factor to the accident.
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The document suggests that the operator's safety culture may not have been robust, as evidenced by the lack of written guidelines for stock clearing and the varied views among pilots on how to perform the maneuver ("The Chief Pilot's verbal instructions about stock clearing were either unclear or being ignored" (4.5.18)). This indicates that the organizational safety culture did not effectively prioritize safety and standardization, which contributed to the accident.
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: 'The document does not explicitly discuss risk management and analysis as a contributing factor. However, the lack of procedures for stock clearing and the decision to perform a low-level maneuver without clear guidelines suggest inadequate risk management practices within the organization, which likely contributed to the accident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: The document highlights a lack of clarity in the Civil Aviation Rules regarding stock clearing, which suggests that regulatory oversight and compliance were contributing factors to the accident ("There was a lack of clarity on whether stock clearing was a permissible activity under the Civil Aviation Rules" (4.6.1-4.6.9)).
+- name: Situational Awareness
+  percentage: 20
+  explanation: The document indicates that the pilot may not have been aware of the rising terrain during the low-level maneuver, which contributed to the stall and subsequent crash ("The pilot may not have seen the terrain from his position on the left-hand side of the aeroplane" (4.5.6)). This lack of situational awareness was a significant factor in the accident.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no mention of emergency response preparedness as a factor in the accident within the document. The focus was on the events leading up to the stall and crash, rather than on the response after the accident occurred.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The document confirms that there was no evidence of a pre-existing mechanical failure, and the aircraft's maintenance was not identified as a contributing factor to the accident ("No evidence of a pre-existing mechanical failure was found" (4.3.1)).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'Automation does not appear to be a relevant factor in the accident as per the document. The analysis focused on pilot actions and aircraft conditions, not on the use of automated systems.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 5
+  explanation: While the document does not heavily emphasize weather as a contributing factor, it does mention that the wind conditions present at the time could have affected the flight path and required the pilot to increase the rate of turn or climb to avoid terrain ("The dashed yellow line at the bottom of the figure represents the expected flight track of a turn carried out in the wind conditions present at the time" (4.5.4)). This suggests that weather conditions may have played a minor role in the decision-making process during the maneuver.
+- name: Communication Breakdown
+  percentage: 5
+  explanation: The document does not directly attribute the accident to a communication breakdown. However, it does mention that the pilot did not call to check the condition of the airstrip at Poolburn, which could indicate a lack of communication that may have contributed to the situation ("According to the owner of the Poolburn airstrip, no-one telephoned to ask about the condition of the airstrip" (4.4.3)).
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that are not already covered by the predefined themes. Therefore, no "Other" category is needed.

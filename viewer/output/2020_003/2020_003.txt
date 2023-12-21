@@ -1,0 +1,1573 @@
+﻿ 
+ 
+ 
+ 
+Final report  
+Tuhinga hukihuki   
+ 
+ 
+ 
+Aviation inquiry  AO-2020-003 
+Eurocopter EC120 -B, ZK -HEK 
+Loss of control  in flight and collision with terrain  
+Kekerengu , 50 k ilometres  northeast of Kaikoura  
+15 December  2020  
+ 
+ 
+ 
+ 
+ 
+ 
+March  2023   
+
+ 
+  
+ 
+Final Report AO -2020 -003 | Page i The Transport Accident  Investigation Commission  
+Te Kōmihana Tirotiro Aituā Waka  
+No repeat  accidents - ever!  
+"The principal purpose of the Commission shall be to determine the circumstances and 
+causes of accidents and incidents with a view to avoiding similar occurrences in the future, 
+rather than to ascribe blame to any person."  
+Transport Accident Investigation Commission Act 1990 , s4 Purpose  
+ 
+The Transport Accident Investigat ion Commission is an independent Crown entity and 
+standing commission of inquiry. We investigate selected maritime, aviation and rail accidents 
+and incidents that occur in New Zealand  or involve New Zealand -registered aircraft or 
+vessels.  
+Our investigatio ns are for the purpose of avoiding similar accidents in the future. We 
+determine and analyse contributing factors, explain circumstances and causes, identify safety 
+issues, and make recommendations to improve safety.  Our findings cannot be used to 
+pursue c riminal, civil, or regulatory action.  
+At the end of every inquiry, we share all relevant knowledge in a final report. We use our 
+information and insight to influence others in the transport sector to improve safety, 
+nationally and internationally.  
+ 
+Commiss ioners  
+Chief Commissioner     Jane Meares  
+Deputy Chief Commissioner    Stephen Davies Howard      
+Commissioner      Paula Rose, QSO  
+Commissioner      Richard Marchant (until 31 October 2022)  
+Commissioner      Bernadette Arapere (from 1 December 2022)  
+Commissi oner     David Clarke (from 1 December 2022)  
+Key Commission personnel  
+Chief Executive     Martin Sawyers  
+Chief Investigator of Accidents   Naveen Kozhuppakalam  
+Investigator -in-Charge  for this inquiry  Ian McClelland  
+Commission General Counsel    Cathryn Bridge  
+ 
+Page ii | Final Report AO -2020 -003 Notes about Commission reports  
+Kōrero tāpiri ki ngā pūrongo  o te Kōmihana  
+Citations and referencing  
+The citations section of this report lists public documents. Documents unavailable to the 
+public (that is, not discoverable under the Official Information Act 1982) are referenced in 
+footnotes. Information derived from interviews during the Commission's inquiry into the 
+occurrence is used without attribution.   
+Photographs, diagrams, pictures  
+The Commission owns the photographs, diagrams and pictures in this report unless 
+otherwise specified . 
+Verbal probability expressions  
+For clarity, the Commission uses standardised terminology where possible.  
+One example of this standardisation is the terminology used to describe the degree of 
+probabil ity (or likelihood) that an event happened, or a condition existed in support of a 
+hypothesis. The Commission has adopted this terminology from the Intergovernmental Panel 
+on Climate Change and Australian Transport Safety Bureau models. The Commission chos e 
+these models because of their simplicity, usability, and international use. The Commission 
+considers these models reflect its functions. These functions include making findings and 
+issuing recommendations based on a wide range of evidence, whether or not  that evidence 
+would be admissible in a court of law.  
+ 
+Terminology  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+  
+  Final Report AO -2020 -003 | Page iii  
+Figure  1: EC120 -B, ZK -HEK 
+(Credit: Previous owner ) 
+ 
+ 
+  
+
+ 
+Page iv | Final Report AO -2020 -003   
+Figure 2: Location of accident  
+(Credit:  Land Information New Zealand ) 
+
+  
+  Final Report AO -2020 -003 | Page v Contents  
+Rārangi take  
+ 
+1 Executive summary ................................ ................................ ................................ ........................  1 
+What happened  ................................ ................................ ................................ ................................ ...............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
+What we can learn  ................................ ................................ ................................ ................................ ..........  1 
+Who may benefit  ................................ ................................ ................................ ................................ ............  1 
+2 Factual information  ................................ ................................ ................................ .......................  2 
+Narrative ................................ ................................ ................................ ................................ .............................  2 
+Personnel information  ................................ ................................ ................................ ................................ .. 4 
+Pilot ................................ ................................ ................................ ................................ ................................ ...... 4 
+Pilot medical information  ................................ ................................ ................................ ............................  4 
+Other occu pants  ................................ ................................ ................................ ................................ ..............  4 
+Aircraft information  ................................ ................................ ................................ ................................ ....... 4 
+Meteorological information  ................................ ................................ ................................ ........................  5 
+Recorded data  ................................ ................................ ................................ ................................ ..................  6 
+Flight recorders  ................................ ................................ ................................ ................................ ................  6 
+Video recordings  ................................ ................................ ................................ ................................ .............  6 
+Site and wreckage information  ................................ ................................ ................................ .................  7 
+Site ................................ ................................ ................................ ................................ ................................ ........ 7 
+Wreckage  ................................ ................................ ................................ ................................ ...........................  7 
+Examination  ................................ ................................ ................................ ................................ .......................  9 
+Survival aspects  ................................ ................................ ................................ ................................ ............  11 
+Helicopter control  ................................ ................................ ................................ ................................ ........ 11 
+Unanticipate d yaw  ................................ ................................ ................................ ................................ ....... 12 
+Fenestron tail rotors  ................................ ................................ ................................ ................................ .... 12 
+Safety advice  ................................ ................................ ................................ ................................ ..................  12 
+3 Analysis  ................................ ................................ ................................ ................................ .........  15 
+Introduction  ................................ ................................ ................................ ................................ ...................  15 
+What happened  ................................ ................................ ................................ ................................ ............  15 
+Mechanical and med ical factors  ................................ ................................ ................................ ............  16 
+Mechanical  ................................ ................................ ................................ ................................ ......................  16 
+Medical  ................................ ................................ ................................ ................................ ............................  17 
+Helicopter design  ................................ ................................ ................................ ................................ ........ 17 
+ 
+Page vi | Final Report AO -2020 -003  Accidents related to Fenes tron tail rotors  ................................ ................................ ..........................  18 
+Downwind approaches  ................................ ................................ ................................ ..............................  18 
+Response of manufacturers  ................................ ................................ ................................ .....................  19 
+Pilot training  ................................ ................................ ................................ ................................ ..................  20 
+Qualifications  ................................ ................................ ................................ ................................ .................  20 
+Training  ................................ ................................ ................................ ................................ ............................  21 
+Wind  ................................ ................................ ................................ ................................ ................................ . 22 
+Pilot intentions  ................................ ................................ ................................ ................................ ..............  23 
+Pilot age  ................................ ................................ ................................ ................................ ..........................  24 
+Survivability  ................................ ................................ ................................ ................................ ....................  24 
+4 Findings  ................................ ................................ ................................ ................................ ........  26 
+5 Safety issues and remedial action  ................................ ................................ ..............................  27 
+General ................................ ................................ ................................ ................................ .............................  27 
+6 Recommendations  ................................ ................................ ................................ .......................  28 
+General ................................ ................................ ................................ ................................ .............................  28 
+7 Key lessons  ................................ ................................ ................................ ................................ ... 29 
+8 Data summary  ................................ ................................ ................................ ..............................  30 
+9 Conduct of the Inquiry  ................................ ................................ ................................ ................  31 
+Abbreviations  ................................ ................................ ................................ ................................ ....... 32 
+Glossary  ................................ ................................ ................................ ................................ ................  33 
+Citations  ................................ ................................ ................................ ................................ ...............  34 
+Appendix 1  Airbus information notices  ................................ ................................ .........................  35 
+Appendix 2  Previous unanticipated yaw occurrences  ................................ ................................ .. 43 
+ 
+Figures  
+Figure 1: EC120 -B, ZK -HEK ................................ ................................ ................................ ................................ .. iii 
+Figure 2: Location of accident  ................................ ................................ ................................ ............................  iv 
+Figure 3: Flightpath of ZK -HEK ................................ ................................ ................................ ...........................  3 
+Figure 4: Images and soundtrack from video recording  ................................ ................................ ...........  7 
+Figure 5: Righted wreckage  ................................ ................................ ................................ ................................ .. 8 
+Figure 6: Engine -to-transmission driveshaft  ................................ ................................ ...............................  10 
+Figure 7: Pedal position  ................................ ................................ ................................ ................................ ...... 13 
+Figure 8: Tail rotor control  ................................ ................................ ................................ ................................ . 20 
+Figure 9: Helicopter attitude  ................................ ................................ ................................ .............................  23 
+Figure 10: Impact forces  ................................ ................................ ................................ ................................ ..... 25 
+ 
+   
+  Final Report AO -2020 -003 
+<< Page 1 >>
+ 1   Executive  summary  
+Tuhinga whakarāpopoto  
+What happened  
+1.1. On Tuesday 15 December  2020, the pilot was using  EC120-B helicopter ZK -HEK to fly 
+their family and a friend from Rangiora to Kekerengu north of Kaikoura for lunch  at a 
+café. Flying towards  the beach , the helicopter suddenly  started yawing1 left and 
+descending. The helicopter crashed on the beach . 
+1.2. The two adults , including the pilot,  were killed  and the helicopter was destroyed . The 
+three children  were seriously  or moderately  injured but  survived.   
+Why it happened  
+1.3. The weather was suitable for the flight with a moderate northeasterly onshore breeze 
+blowing. The pilot had not landed at the café before and was conducting a 
+reconnaissance  of the intended landing area.  The helicopter slowed as it was t urned 
+towards the beach and downwind for a second pass at low  level. The slow airspeed 
+combined with increasing power caused the helicopter to suddenly yaw uncontrolled 
+to the left, very likely  startling the pilot.  
+1.4. The rate of  yaw increased,  and the pilot was unable to regain control before the 
+helicopter crashed onto the b each. The impact forces were determined  to be  non-
+survivable . However, the three children did survive, albeit with serious  or moderate  
+injuries, very likely  because of their smaller physical size and mass .  
+1.5. The investigation determined that the pilot did not pick up o n the visual indicat ions 
+about  the pe rformance of the helicopter, resulting in  it slowing at a critical phase of 
+the flight. The pilot's inexperience was a key factor.  
+1.6. The Commission made no new recommend ations .  
+What we can learn  
+1.7. A pilot qualification , licence or aircraft -type rating  does not  in itself confer expertise. 
+Pilots need to be familiar with the aircraft they are flying and their own capability as 
+they gain experience. Pilots also need to ensure they are fully aware of the increa sed 
+risks of flying at low level and monitor the performance of their aircraft accordingly.  
+Who may benefit  
+1.8. All pilots, including instructors and examiners, may benefit from the findings and 
+lessons in this report.  
+ 
+1 Yawing  or yaw  is movement of an aircraft about its vertical axis. In effect, for a single rotor helicopter it rotates 
+below the main rotor.  
+ 
+
+<< Page 2 >>
+ Final Report AO -2020 -003  2   Factual information  
+Pārongo pono  
+Narrative  
+2.1. At 1124 on Tuesday  15 December  2020, the owner and pilot (the pilot) of ZK-HEK, an 
+EC120 -B helicopter (the helicopter), took off from the pilot's home base near Rangiora. 
+On board were the pilot, the pilot's partner, their two children and a frie nd of one of 
+the children. The purpose of the flight was to take the family to a café at Kekerengu, 50 
+kilometres (km) northeast of Kaikoura for lunch. The pilot had earlier called the café to 
+confirm the weather conditions were suitable  for the flight . 
+2.2. The pilot initially flew to Rangiora Aerodrome where they uploaded 200 litres of fuel. 
+The helicopter left Rangiora at 1138 , with the pilot flying north , inland of Cheviot , 
+before reaching the coast about  10 km north of Kaikoura. Near  the Clarence River 
+mout h the pilot started a shallow descent from about 2000 feet (60 0 metres  (m)) above 
+mean sea level ( amsl) towards Kekerengu.  
+2.3. At 123 7:45, the pilot  started manoeuvring the helicopter seaward of  the coast , to a 
+position about 250 m offshore (400 m east of the café).  The helicopter had a 
+groundspeed of about 75 knots (135 kilometres per hour  (km/hr )) as it crossed the 
+coastline . The helicopter entered a left turn s oon after passing abeam2 the café , 
+remaining seaward of the coast . This put the café and landi ng area on the right  side of 
+the helicopter , the side the pilot was seated  (see figure 3 ).3  
+2.4. The helicopter initially remained level at about 300 feet (90 m) ams l in the early stages 
+of the left turn . After passing abeam the café flying  south the helicopter descended to 
+about 200 feet  (60 m) amsl. The helicopter continued in the left turn, with the turn 
+tightening and the gro undspeed of the helicopter reduc ing. As the helicopter turned 
+left towards  north  for a second time, the groundspeed had reduced t o about 25 knots 
+(about 45 km/hr ). The helicopter was now between 150 and 165 feet (45 -50 m) amsl.   
+2.5. Witnesses at the café and in the local area then saw the helicopter continue the left 
+turn back towards th e beach for a second time. As the helicopter approached  the 
+beach the witnesses described it start ing to spin to the left. The rate of spin increased , 
+and the helicopter then descend ed rapidly to crash on the beach at about the low tide 
+mark.  
+2.6. Witnesses im mediately rushed to the helicopter to render assistance. The witnesses 
+gained access to the helicopter through the doors and broken front window and 
+removed the occupants. The witnesses, along with the help of several locals who had 
+arrived shortly after, provided first aid until emergency services arrived. The three 
+children were taken by air ambulance to hospital and treated for moderate -to-serious 
+injuries. The pilot and pilot's partner did not survive.  
+  
+ 
+2 At right  angles to the helicopter's line of flight.  
+3 For figure 3 , the tracking information was sourced from the onboard Garmin GP S and TracPlus ™ tracking 
+systems and Airways New Zealand's tracking data. The EC120 -B helicopter pictured in the diagram is not to 
+scale  but demonstrates  the orientation of the helicopter relative to the wind direction as it conducted the 
+second orbit . 
+   
+  Final Report AO -2020 -003 
+<< Page 3 >>
+ Figure 3: Flightpath of ZK -HEK 
+ 
+  
+
+ 
+
+<< Page 4 >>
+ Final Report AO -2020 -003  Personnel  information  
+Pilot  
+2.7. The pilot, aged 60 years, started flying training  on helicopters  in January  2019, nearly 
+two years before the accident. All of the pilot's early flying was on a Guimbal Cabri  G2, 
+a two -seat light helicopter. The pilot purchased  a Cabri G2 soon after starting flying 
+lessons. The pilot was issued  a private pilot licence (helicopter)4 on 5 March  2020, 
+having accrued 84.5 hours  of flight time by this stage .5 The pilot continued to gain 
+experience and did additional training with an instructor after the issuing of  the 
+licence.  
+2.8. In mid-2020, the pilot was seeking a larger helicopter  and initially trialled and then 
+purchased ZK-HEK, an EC120 -B helicopter . The pilo t obtained an EC120 -B type rating  
+on 31  July 2020, having flown 7.7 hours on the type, including transit time. After 
+leasing out the Cabri,  the pilot then flew only ZK -HEK. Shortly before the accident  
+flight , the pilot had a second set of flight controls i nstalled  so they could   undertake 
+further training .  
+2.9. At the time of the accident the pilot had accrued a total of 170 flying hours . The pilot's 
+logbook recorded 81 hours of dual instruction6 and 89 hours as pilot -in-command. The 
+pilot had flown 32 hours o n ZK-HEK. 
+Pilot medical information  
+2.10. The pilot held a class 2 medical certificate valid until 27  May 2022. The  certificate 
+required the pilot to wear spectacles . There were no known medical conditions 
+identified that may have contributed to the accident. Commission investigators 
+interviewed s everal witnesses who had interacted with the pilot during the morning of 
+the accident. N one of the witnesses reported any concerns about  the pilot 's health  or 
+fitness to fly . Photograph s taken shortly before departing on the flight , show  the pilot 
+wearing glasses  and a baseball cap . 
+2.11. The pilot's autopsy results were negative for any performance -impairing substances  
+and did not identify any health issues that may have contributed to the accident . The 
+injuries sustained were consistent with the pilot operating the flight controls at the 
+time of impact.    
+Other occupants  
+2.12. The other occupants in the helicopter at the time of the accident included a 12 -year 
+old in the front left seat, the pilot's partner in the rear left seat, a n 11-year old in the 
+rear centre seat and a five-year old in the right rear  seat.    
+Aircraft infor mation  
+2.13. ZK-HEK was a Eurocopter (now Airbus Helicopters ) EC120 -B helicopter ,7 serial number 
+1023, constructed in December  1998.  The helicopter was i mported into New Zealand  in 
+ 
+4 The licence  permitted the pilot to carry passengers , but not conduct commercial operations.  
+5 The pilot's next check, a biennial flight review or BFR, was therefore not due until 5 March 2022.  
+6 Flying with an instructor.  
+7 The EC120 -B was nicknamed the C olibri or Hummingbird.  
+   
+  Final Report AO -2020 -003 
+<< Page 5 >>
+ February  2004  and had several owners before the pilot took possession on 
+9 Octob er 2020.   
+2.14. The EC120 -B is a five -seat, high-performance , light -to-medium weight helicopter ,8 
+powered by a single Turbomeca Arrius 2F turboshaft engine. The EC120 -B is 
+certificated for five seats, two in the front and three in the rear of the cabin. The pilot is 
+typically  seated in the front  right seat , but with a second set of flight controls installed 
+it could also be flown from the left seat .  
+2.15. The EC120 -B was fitted with a Fenestron t ype of tail rotor . See paragraphs 2.58 to 2.65 
+for further discussion on this tail rotor.  Some 700 EC120 -Bs were manufactured 
+between 1995 and 2017.9  
+2.16. The helicopter was issued a certificate of airworthiness in the standard category after 
+arrival in New Zealand . The certificate was non -terminating , provided the helicopter 
+was maintained and operated in accordance with the prescribed documents.  A review 
+of the maintenance records for the helicopter recorded it was maintained as required.  
+2.17. The last scheduled maintenance check on the helicopter before the accident was a 
+500-hour/12-month inspection carried out on 21  July 2020. At the same time, the then 
+owner took the opportunity to replace the engine with another Turbomeca Arrius 2F 
+engine, serial number 34021.  A review of airworthiness was signed as having been 
+completed on 22  July 2020 .   
+2.18. On 11  August  2020, a 'pre -purchase inspection ' of the helicopter was undertaken at 
+the direction of the pilot. This included an engine ground run to check  engine 
+parameters.    
+2.19. The technical log for the helicopter  was not recovered after  the accident.10 The last 
+entry in the aircraft maintenance logbook was on 9  November  2020. This was for a 
+scheduled tail rotor re-torque check. It was calculated  from this and the pilot's logbook 
+that the helicopter flew a further 4.3 hours until the accident , the helicopter ha ving 
+flown a total of 2626 hours at t his time. The helicopter was  therefore determined  to 
+have some 27 hours to run until the next scheduled maintenance check. At the time of 
+the accident there were no outstanding airworthiness directives or service bulletins  
+from the manufacturer . There were also no recorded or reported concerns about  the 
+performance of the helicopter.  
+2.20. The helicopter had a recorded basic weight of 1070 kilograms  (kg) and a maximum 
+certificated weight of 1715 kg. Using the known weights of each of the occupants ,11 
+and assuming a full fuel load at Rangiora, the helicopter wa s calculated to have 
+weighed 1612 kg and was within the approved centre of gravity range as it started it s 
+flight  north .   
+Meteorological  information  
+2.21. On 1 5 December  2020, a strong anti -cyclone was covering the country. A weak front 
+was approaching the Sout h Island, but this had yet to affect the weather north of 
+Invercargill.  
+ 
+8 Intermediate helicopters are considered to be between 3500 and 7000 pound s (1590 and 3175 k ilograms ).  
+9 Including the H120 variant.  
+10 A technical log provides a running written record of daily flying hours and serviceability stat e. 
+11 Obtained from medical and hospital records.  
+ 
+
+<< Page 6 >>
+ Final Report AO -2020 -003  2.22. The Meteorological Service forecast s for the coastal areas between Wellington and 
+Christchurch over the duration of the flight  predicted northeasterly sur face winds of  5-
+10 knots, nea r unlimited visibility and no cloud.    
+2.23. The automated weather report for Kaikoura Aerodrome issued at 1 230 recorded the 
+surface wind as 040° at 9 knots , varying between 3 20° and 070°. Visibility was 1 9 km, 
+and the temperature 1 8°C with no cloud detected.  The conditions remained similar for 
+the next few hours.  The weather  reports for Wellington, Woodbourne (Blenheim) and 
+Christchurch all re corded similar light northeasterly surface wind s. 
+2.24. Witness accounts, video recordings and several farm and vineyard weather stations all 
+reported or recorded similar conditions. These included a light -to-moderate onshore 
+breeze from the northeast  with no  cloud  present. The wind was strong enough to 
+generate 'white -caps'  (about 10-15 knots , 20-30 km/hr ). 
+Recorded data  
+2.25. The helicopter was fitted with Garmin GPS and TracPlusTM navigation and tracking 
+systems  that recorded its flightpath . The flightpath of the he licopter was also recorded 
+by Airways  New Zealand 's tracking systems. However, Airway s' recording of the flight 
+was intermittent at lower altitudes.  The tracking systems, supported by witness 
+observations, provided an accurate record of the helicopter's flightpath for the 
+duration of the flight . 
+Flight recorders  
+2.26. The helicopter was not fitted with a fli ght data recorder or a cockpit voice recorder, nor 
+was it required to be. However, the helicopter was fitted with a Vehicle and Engine 
+Multifunction  Display  (VEMD) , which is designed  to record a range of engine -related 
+parameters, including any exceedances .  
+2.27. The VEMD from the helicopter was badly damaged in the accident. The VEMD was 
+removed and sent to the Bureau d'Enqu êtes et d'Analyses (BEA), the French Bureau of 
+Enquiry and Analysis for Civil Aviation Safety, to determine if any information could be 
+extracted.12 The BEA was able to download the engine performance data for the last 30 
+flights. The data identified nothing unusual for the 30 flights, including the accident 
+flight.  There were no recorded engine exceedances or malfunctions.  
+Video recordings  
+2.28. Two witnesses to the accident collectively took three short video clips of the helicopter 
+as it approached the beach , and as it started to spin  and descend onto it. The two 
+witnesses were on the eastern side of the café and had an unobstruc ted v iew of the 
+helicopter until it disappeared behind some bushes.   
+2.29. The three video recordings also included audio . The final video captured the sound of 
+the helicopter as it descended behind the bushes and crashed on the beach.  The audio 
+clips were analysed  to identify , among other things, the main rotor and tail rotor 
+speeds  (see figure 4). 
+ 
+12 BEA is the representative for the state (France) in which the helicopter and engine  were manufactured . 
+   
+  Final Report AO -2020 -003 
+<< Page 7 >>
+  
+Figure 4: Images and soundtrack from video recording  
+(Credit: Witness /Airbus Helicopters ) 
+Site and wreckage information  
+Site 
+2.30. Helicopters regularly landed on the grass area adjacent to the café. The grass area was 
+bounded by the café and trees  to the west and south , and the beach and low bushes 
+to the east and north. The  grass area was large enough to land at least six helicopter s, 
+more with some coordination.  There were no other helicopters on the landing area at 
+the time  of the accident  and, according to witnesses, the grass area was clear of any 
+café patrons  or other people .  
+2.31. The helicopter had crashed on the stony  beach in front of the café , below the high -tide 
+mark and just above the low -water mark . The helicopter, after hitting the b each, had 
+come to rest on its right side. Witnesses who render ed assistance reported removing 
+some of the panels or doors from the left side to gain access. They were also able to 
+partly enter through the open front of the helicopter. The panels were later  collected 
+and secured.  
+2.32. Because of the incoming tide, the helicopter was towed by witnesses  and police some 
+40 m etres  across and up the beach. The wreckage was covered with tarpaulins and the 
+site secured until the arrival of Commission investigators the next morning. The 
+Commission was provided  with images of the scene taken during the moving of the 
+helicopter.  
+Wreckage  
+2.33. Initial examination of the wreckage identified that the main area of damage was at the 
+forward section  of the helicopter. The front of t he helicopter had broken away from the 
+cabin above the front two seats. The floor of the helicopter remained attached but was 
+deformed in several places . The  instrument panel remained attached by its wiring  only.  
+2.34. One of the three main rotor blades had sep arated from the rotor head during impact. 
+This was found washed up on the beach some 110 m to the north , the current moving 
+in this direction. The outer portions of the two remaining blades were severely 
+
+ 
+
+<< Page 8 >>
+ Final Report AO -2020 -003  damaged, with blade fragments found washed up along the beach. Alerted by a 
+witness, a main rotor blade tip weight was found below the guard rail of a road bridge 
+some 230 m west of the accident site. The tip weight had penetrated the guard rail 
+before falling onto the surface below. Otherwise,  all major or critical components of 
+the helicopter were accounted for  at the site . 
+2.35. While there was birdlife a bout  the site, no evidence of a bird strike on the helicopter  
+was found . A search of the general area locate d one dead seabird. The bird was intac t 
+and appeared to have been dead for several days. The video recordings showed no 
+birds near the helicopter.  
+2.36. The helicopter was lifted upright  for safer access  and eventual removal  (see figure 5) . 
+The fuel tank was confirmed intact and still contained fuel . Nearly 300 litres w ere later 
+drained from the tank. The fuel was determined to be of the correct type  with no 
+identifiable contamination . The fuel supplier for the installation at Rangiora Aerodrome 
+confirmed that following the accident the installation was examined and that testing of 
+the fuel found no anomalies.  
+2.37. The emergency locator transmitter (ELT) had been removed  and the helicopter battery 
+disconnected . Helicopter e mergency response personnel were reported to have  
+performed these functions after t heir arrival on scene . See paragraphs 2.50 and 2.51 for 
+further information . 
+2.38. The wreckage was removed from the site and taken to the Commission's technical 
+facility for further detailed examination.  
+ 
+Figure 5: Righted wreckage  
+ 
+
+   
+  Final Report AO -2020 -003 
+<< Page 9 >>
+ Examination  
+2.39. Both landing gear skids were splayed outwards and had broken at the ir rear cross -tube 
+attachments , which were bent backwards. Scrap e marks along the right side of the 
+fuselage were consistent with the helicopter being towed up the bea ch on its right 
+side.  
+2.40. The tail boom was still attached but displayed crumpling near the fuselage attachment 
+area and sagged downwards . The tail rotor drive from the transmission was broken at 
+the fo rward end of the tail boom. There was rotational scoring in this area, indicating 
+the drive was turn ing at the time of separation .  
+2.41. The empennage ,13 containing an enclosed Fenestron tail rotor , was mostly undamaged . 
+There were some scor e marks on the inside of the fairing surrounding the tail rotor 
+blades w here the tips of the blades had rubbed.  There was also some damage on the 
+fairing where a rope had been attached to tow the wreckage up the beach.  There was 
+no damage to the tail rotor blades.  
+2.42. The main rotor head displayed rotational damage consistent with the main rotor 
+turning at speed at the time of it striking the beach.  The transmission mounts were 
+intact but had bent from excessive movement of the main rotor and transmission.  
+2.43. The coupling between t he engine and the transmission , termed the main gear box on 
+the EC120 -B, had broken. The direction of twisting of the coupling components was 
+consistent with the engine continuing to try to drive the transmission (which in turn 
+drives the main and tail rotor) until separation.  There was evidenc e of heat damage at 
+the engine end of the  coupling  as the now unrestrained engine oversped  until it 
+stopped. This was consistent with witness reports of hearing a high -pitched noise 
+immediately after the accident and a light-coloured  smoke coming from the engine 
+bay area  for a few minutes after wards . There was no other evidence of fire  (see figure 
+6).  
+ 
+ 
+13 The tail assembly, including the vertical fin, horizontal stabili ser and tail rotor.  
+ 
+
+<< Page 10 >>
+ Final Report AO -2020 -003   
+Figure 6: Engine -to-transmission driveshaft  
+2.44. Commission investigators checked the magnetic chip plugs  for the engine, 
+transmission and tail rotor oils . The plugs are designed to collect any fine metal 
+material  carried in the oil that may indicate a failure of a component. An accumulation 
+of material  will result in a n electrical circuit being made , activating a caution light to 
+alert the pilot.  The plugs were clear of any contaminants.   
+2.45. Commission investigators confirmed t he integrity of the cyclic  and collective flight 
+controls , despite the control rods being broken under the cabin floor where the floor 
+had folded upwards.  The operation of the tail rotor pedals corresponded to the corr ect 
+movement of the tail rotor blades. The three hydraulic servo controls  for the flight 
+controls were all intact with no evidence of deformation or  leakage .   
+2.46. The right set of tail rotor pedals were in their usual operating position , while the left set 
+of pedals were in their fully ext ended position. This position would normal ly be used to 
+help keep them clear of a passenger seated in the front of the helicopter , or for a very 
+long-legged pilot . 
+2.47. The collective lever was found in the partially up position and the engine throttle was 
+found in the fully ON position. The flight and  engine instruments provided no useful 
+information.  
+Cabin and seating  
+2.48. The cabin floor was severely distorted . There was an  approximately 30 ° bend upwards 
+forwar d of the bulkhead at the rear of the cabin. The three seats across the back of the 
+cabin had als o been bent upwards. Forward of this, in line with the rear of the front two 
+seats, the floor was bent downwards by about 80°.14 The two front seats remained 
+attached to their floor mountings but had been forced over to the right by about 15 -
+20°.   
+ 
+14 This was when the helicopter was su spended by the rotor head.  
+evidence  
+of heat  
+twisted driveshaft  
+   
+  Final Report AO -2020 -003 
+<< Page 11 >>
+ 2.49. The seat belts were all found intact but undone . According to witnesses, the be lts had 
+been released to help extract the occupants. The seats belts were checked and found 
+to operate as designed.        
+Survival aspects  
+2.50. The helicopter was fitted with an  ELT designed to activate in a heavy impact. The ELT 
+activated as intended  with the Rescue Coordination Centre New Zealand receiving an 
+alert signal  at 1240. This, along with numerous 111 calls , resulted in activation of the 
+emergency services  that attended , including the Police , St John, Fire and Emergency 
+New Zealand  and helicopter rescue . The ELT and helicopter battery were disconnected 
+soon after the arrival of the first rescue helicopter.     
+2.51. At the request of the Commission, the three video clips , plus detailed  measurements  
+and images of the cabin  and seating , were  passed to Airbus Helicopters  through the 
+French BEA . Airbus  undertook a review of the evidence to assess  the damage 
+sustained to determine the likely forces involved and the survivability of the accident. 
+Airbus produced a report to this effect, which was reviewed by the BEA and provided 
+to the Commission. Elements of that report have been incorporated into this report.    
+Helicopter control  
+2.52. A helicopter generates lift using its ma in rotor blades , the blades acting much like the 
+wing of an aeroplane. A pilot controls th e direction of the lift or rotor thrust , and 
+therefore the direction of flight , by the use of a cyclic cont rol. To move forward or  back 
+the cyclic is moved forward  or back . The more the cyclic is moved in a certain direction, 
+the fa ster the helicopter will move in that direction.  
+2.53. The amount of lift generated by the main rotor is determined by the pitch of the m ain 
+rotor blades , which are in turn controlled by the pilot's collective lever.15 As the main 
+rotor is tilted in the direction the pilot intends to move, more lift or rotor thrust is 
+required to prevent the helicopter from descending. The greater the rotor thrust 
+required, the greater the amount of engine power needed  to ensure the main rotor 
+remains within its operating parameters.   
+2.54. The main rotor is driven from a single point that generates a torque reaction , which  
+causes the fuselage to yaw or turn in the opposite direction  to the main rotor . For the 
+EC120 -B, the main rotor  rotates clockwise when viewed from above. The fuselage 
+would there fore yaw  left when power was applied.16 The g reater the power, the greater 
+the torque effect. To mana ge this a pilot uses the tail rotor to generate a counter force. 
+The tail rotor thrust is controlled through  the tail rotor pedals, also call ed anti-torque 
+pedals.   
+2.55. For the EC120 -B, to maintain the same heading as power is increased a pilot needs to  
+increase  right pedal  input , most strongly in the hover or at low airspeed. At higher 
+airspeeds the vertical fin at the rear of a helicopter provides a slipstream effect and 
+mitigates  the requirement for large pedal input s.  
+ 
+15 The main rotor is designed to operate within a specific speed  range . Engine power is used to help ensure that 
+speed is maintained.  For the EC120 -B, the normal operating range was 390 -415 rpm, with an optimum of 412 
+rpm for the cruise.  
+16 The main rotor blades of a  large percentage  of European helicopters , mainly French -manufactured helicopter s, 
+rotate clockwise , while the main rotors of all North -American -manufactured helicopter s rotate anti -clockwise.   
+ 
+
+<< Page 12 >>
+ Final Report AO -2020 -003  2.56. With experience the need for pedal input becomes more natural and intuitive : a pilot 
+instinctively  anticipat es pedal changes as they increase or decrease power.  With less 
+experienced  pilots pedal inputs can be mechanical and often after the helicopter has 
+started to yaw. Greater pedal input is therefore required to return the helicopter to its 
+original heading.  
+Unanticipated yaw  
+2.57. Unantic ipated yaw, sometime s referred to as uncommanded yaw or loss of tail rotor 
+effectiveness (LTE) ,17 is the term used to describe the unexpected  and sudden  rotation 
+of a helicopter about its vertical  axis.18 A single rotor helicopter , when compared to a 
+twin rotor helicopter, is more susceptible to unanticipated yaw  through  a combination 
+of high-power -generating , high-main -rotor torque , low airspeed and adverse relative 
+wind.  For a helicopter like the EC120 -B, the unanticipated yaw would be to the left  as 
+viewed by a pilot .    
+Fenestron tail rotor s 
+2.58. The EC120 -B helicopter , like the Cabri G2 the pilot was initially trained on,  was f itted 
+with a Fen estron  tail rotor . The Fenestron is a shrouded type of tail rotor mainly found 
+on French -manufactured helicopters. By comparison , a conventional tail rotor has 
+exposed blades , typical of North Americ an manufacturers.  There are advantages and 
+disadvantages to both types.  
+2.59. To support pilot training on the Cabri G2, the manufacturer had produced a range of 
+training material s on flying with Fenestron -equipped helicopters. The material noted 
+that the Fenestron on the Cabri G2 was very powerful but behaved differently from a 
+conventional tail rotor. Pilots were told to remember:  
+• if rotor rpm is in the green, full right pedal will stop spinning to the left  
+• excessive right pedal cannot cause any harm, NEVER  hesitate to push FULL 
+RIGHT PEDAL  
+• be particularly careful when wind comes from the right side during the approach  
+• anticipate the power increase and the los s of fin efficiency, NEVER  let the nose 
+go to the left .19 
+An additional note advised th at "25% of all accidents are due to insufficient right 
+pedal input leading to loss of control in yaw ." 
+2.60. The organisation that trained the pilot held cop ies of this material  and advised that 
+they had formed part of the pilot's training .  
+Safety advice  
+Eurocopt er/Airbus Helicopters  
+2.61. On 4 February  2005 , Eurocopter  issued Service Letter No.1673 -67-04, about  yaw 
+control of helicopters with a main rotor rotating clockwise .20 A similar service letter was 
+ 
+17 The term LTE was first  by the US Army .  
+18 The term 'unanticipated yaw' is preferred as the yaw is unexpected  despite the tail rotor continuing to prov ide 
+thrust . 
+19 Bold e mphasis in the original.  
+20 Service letters were typically emailed to registered recipients , which included the training provider. It was 
+unknown whether the pilot was on the mailing list.   
+   
+  Final Report AO -2020 -003 
+<< Page 13 >>
+ issued at the same time for helicopters with m ain rotor rotating  anti-clockwise. Both 
+letters referred to the Fenestron tail rotor , stating that:  
+With a Fenestron , when changing from cruise to hover flight,21 be prepared for a 
+significant movement of the foot to the right .22 
+Insufficient application of pedal would result in a leftward  rotation of the aircraft 
+during the transition to hover .  
+2.62. On 3 July 2019, A irbus Helicopters issued Safety Information Notice N o.3297 -S-00. On 
+4 September  2020 , the service letter referred to in paragraph 2. 61 was supers eded by 
+Airbus Helicopters  Information Notice No.3539 -I-00. The two notice s informed pilots of 
+the differences between a Fenestron  tail rotor and a conventional tail rotor . See 
+appendi x 1 for the two notices.23 The 2020 notice stated that:  
+Transitioning from cruise to hover flight on a helicopter equipped with a 
+Fenestron requires adding more right pedal than with a conventional tail  rotor .24  
+The notice also included a diagram showing a comparison between a conventional tail 
+rotor and a Fenestron when in hover and in cruise  (see figure 7).  
+ 
+Figure 7: Pedal position  
+(Credit: Airbus Helicopters)  
+2.63. Similar mater ial on unanticipated yaw was produced by other helicopter 
+manufacturers, regulators and safety organisations.  For example , on 7 February  1995 
+(updated on 8 August  2022 ), the United States Federal Aviation Administr ation issued 
+Advisory Circula r 90-95 Unanticipated Right Yaw in Helicopters . In March  2017, the 
+United States National Transportation Safety Boa rd (NTSB) issued Safety Alert  SA-062 
+'Loss of Tail Rotor Effectiveness in Helicopters . 
+ 
+21 Bold e mphasis in the original.  
+22 The second service letter referred to the left not right.  
+23 See the Airbus Helicopters web site https://www.airbus.com/en/products -services/helicopters  for the current 
+notices . 
+24 Bold e mphasis  in the original.  
+(Conventional Tail Rotor ) 
+ 
+
+<< Page 14 >>
+ Final Report AO -2020 -003  EC120 -B operational evaluation  
+2.64. On 16  May 2012 , the European Union Aviation Safety Agency ( EASA ), the airworthiness 
+authority that approved the type certificate for the EC120 -B helicopter, issued a n 
+operational evaluation report on the Eurocopter EC120 -B. The repo rt updated 
+recommended type rating requirements , includ ing theoretical and flight training . The 
+report recommended that for an initial type rating on the EC120 -B a minimum of five 
+hours  of dual instruction  be flown . The five hours was to include system, normal and 
+emergency procedures. The requirement reduced to three hours if a pilot already held 
+a "single engine turbine pilot type rating".  For ZK -HEK, the pilot's logbook  record s the 
+pilot flying 12 hours under instruction before flying as pilot -in-command of the 
+helicopter.  
+Previous unanticipated yaw occurrences  
+2.65. The NTSB safety alert referred to in paragraph 2. 63 stated that during the 10 -year 
+period from 2004 to 2014 it had investigated 55 accidents involving LTE (unanticipated 
+yaw). It went on to describe three example s of accidents where the pilot was unable to 
+recover from  an unanticipated yaw situation. Detailed in appendix 2 are a selection of 
+examples from New Zealand  and overseas , the latter group all involving the EC120 -B 
+helicopter.   
+   
+  Final Report AO -2020 -003 
+<< Page 15 >>
+ 3   Analysis  
+Tātaritanga  
+Introduction  
+3.1. To be a safe pilot, a person needs to possess both ability and skill .25 There are a range  
+of traits that underpin this, including:  
+• attention to detail  - small mistakes can make a big impact , be it a checklist 
+item or knowing what the wind is doing  
+• self-confidence  - the willingness and ability to take  control of a situation  and 
+not let it get further out of control , but not be over -confi dent, allied with the 
+ability to remain calm under pressure  
+• situational awareness  - an accurate understanding of what is going on  and 
+projecting forward  
+• humility  - knowing one's limitations , admitting mistakes  and that there's 
+always room for improvement  
+• good communication skil ls - the ability to accurately and clearly transmit and 
+receive information  
+• knowledge and the d esire to lear n - knowledge of the aircraft being flown, 
+the operating rules and t he willingness to continue improv ing personal 
+knowledge and skills .26  
+3.2. Many of these characteristics relate to personal attitudes  and abilities  that may be 
+challenging  to change . However, through training and experience a pilot should gain 
+knowledge and become increasingly  skilful  and safe.  
+3.3. This accident occurred on what would be described as a good day for flying. It also 
+involved a newly qualified private pilot in the early stages of their flying experience. 
+Pilot experience has often been equated to the number of flying hours a pilo t has 
+flown. This ignores the quality aspect of the flight time.  Pilot qualification s are 
+therefore both competency - and experience -based. A pilot must not only a ccrue a 
+minimum number of hours for a particular licence or rating, but also demonstrate to a 
+flight examiner that they have the competency to safely fly an aircraft in accordance 
+with the rules and limitations, both aircraft and personal . 
+3.4. The following analyses the circumstances surrounding the event , including pilot 
+experience, to identify those factors  that increased the likelihood of the event 
+occurring or increased the severity of its outcome. It also examines any safety issues 
+that have the potential to adversely affect future operations.  
+What happened  
+3.5. The purpose of the flight was for the pi lot to fly the ir family and a friend from near 
+Rangiora to  Kekerengu for lunch and return. The weather was suitable for the flight , 
+ 
+25 Abilities are inherent or inherited  characteristics that enable a person to accomplish or perform a given action . 
+Skills are activities that have been either learnt or acquired  and result in a predictable  and often better outcome .  
+26 Qualities identified by a range of organisations , including the United States Airc raft Owners and Pilots 
+Association and S kybrary.  
+ 
+
+<< Page 16 >>
+ Final Report AO -2020 -003  with essentially clear skies and a light -to-moderate northe asterly onshore  wind . The 
+flight north proceeded without incident until approaching  Kekerengu . 
+3.6. Approaching Kekerengu , the pilot positioned the helicopter out to se a before turning  
+left to place the intended landing area on the right side of the helicopter.  This would 
+have enable d the pilot to have  an unrestricte d view of the landing area, to check it was 
+suitable and clear.  
+3.7. As the pilot continued the turn back towards the shore a second time, the helicopter 
+slowed  and started to yaw to the left. The rate of yaw increased  and the helicopter 
+descended rapidly , crashing into the beach in a steep nose -down attitude. The three 
+children on board suffered moderate -to-serious injuries , but the pilot and the second 
+adult in the rear seat did not survive.    
+Mechanical and medical factors  
+3.8. Witness es described the helicopt er suddenly and rapidly yawing to the left as it 
+approached the beach. This was not normal and indicates that there was a loss of 
+control,  possibly  because of either a mechanical problem or pilot incapacitation.   
+Mechanical  
+3.9. The damage to the airframe was consistent with the helicopter crashing onto the 
+beach nose first, stopping the rotation of the main rotor and transmission  and severely 
+distorting the cabin . The damage to the main rotor blades, rotor head and the tip 
+weight  of one of the blades puncturing a hole in the bridge guardrail some 230 m 
+away all confirm that the main rotor was operating at high speed when it struck the 
+beach.  
+3.10. The above evidence is supported by the analysis of the video recordings , which  
+captured b oth main rotor and tail rotor speeds. These confirm that both were 
+operating at their designed speeds as the helicopter descended and crashed onto the 
+beach.  
+3.11. Immediately after the main rotor blades struck the beach , the engine continued to try 
+to drive th e transmission, resulting in the coupling between the two breaking. The 
+unrestrained engine then oversped . This resulted in the high -pitched noise , the 
+transmission coupling displaying evidence of overheating and the light-coloured 
+smoke observed by the wi tnesses immediately after impact.  
+3.12. The absence of damage to the rear of th e helicopter , in particular the  tail rotor blades , 
+does not indicate there was a problem with the tail rotor. The sudden stoppage of the 
+main rotor combined with the mass of the still turning tail rotor caused the tail rotor 
+drive shaft from the transmission to break . The score marks inside the tail boom show 
+that the tail rotor and the section of connected  drive shaft  conti nued to rotate for 
+several revolutions after the initial impact of the main rotor.  The direction of the break 
+and score marks support this sequence of events.  
+3.13. There was no evidence of a pre -existing fault that may have contributed to the loss of 
+control . The flight controls, including the tail rotor controls , function ed as designed.  
+3.14. The position  of the left front seat  (nearly fully aft ) and tail rotor pedals (fully  forward) 
+meant that it was exceptionally unlikely  that the occupant of this seat could have 
+interfered with the controls.  
+   
+  Final Report AO -2020 -003 
+<< Page 17 >>
+ Medical  
+3.15. There was no evidence of any form of pilot incapacit ation. Wreckage evidence , autopsy 
+results, toxicology  and w itness accounts, including from survivors , indicate it was very 
+likely  that the pilot was operating the flight control s at the time of impact.  However, 
+some form of partial  incapacitation  in the final seconds could not be fully excluded.  
+3.16. The possibility of a bird strike affecting the pilot or helicopter was considered 
+exceptionally unlikely . There was no evidence found of a bird strike  and no witnesses 
+or survivors reporting seeing birds close to the helicopter. The slow speed of the 
+helico pter as it approached the beach the second time was considered too slow for a 
+bird strike  that could cause an y damage or injury. 
+3.17. Pilot age is discussed further in paragraph 3.56.   
+Helicopter design  
+3.18. The unique advantage o f a helicopter is its ability to operate in remote and confined 
+landing sites. However, helicopter design and performance vary significantly  between 
+different types , resulting in a wide range of handling or operating characteristics.  
+3.19. The EC120 -B, like the  Cabri the pilot initially trained on,  was fitted with a Fenestron tail 
+rotor . The Fen estron is a multi -bladed ducted fan placed in the tail of a helicopter. The 
+Fenestron offers  some a dvantages over a conventional tail rotor, including : 
+• increased safety  - the tail rotor blades are surrounded by ducting or a fairing 
+that provides i ncrease d protection and safety on or near the ground  
+• increase d efficiency  - the fairing reduces tip vort ices on the ends of the blades 
+and increases the slipstream  effect of the tail during cruise   
+• reduced noise levels  - the larger number of blades27 at different s pacings 
+spread and reduce noise levels.   
+3.20. The Fen estron also has some disadvantages , including:  
+• increase d weight  and drag  - the ducted fan is heav ier and larger than a 
+conventional two- or four -bladed  tail rotor   
+• increased cost  - a Fenestron is  more expensive to construct    
+• more power required  at low speeds  - this is particularly so in the hover.  
+3.21. Regardless of which design pilots fly, tail rotor input is still required for changes in 
+airspeed and power  to counter the main rotor to rque effect.  
+3.22. From a pilot's perspective , the designed differences between a Fenestron tail rotor and 
+a conventional tail rotor are most noticeable in the tail rotor peda l inputs required  as a 
+helicopter is accelerated  from a hover  to cruise flight and back to a hover. For a 
+conventional tail rotor , the relationship between tail rotor pedal input and tail rotor 
+thrust is near linear. By comparison, when a Fenestron  equippe d helicopter  is slowed to 
+the hover , a pilot needs to apply a larger amount of tail ro tor pedal for the same 
+amount of tail rotor thrust  (see figure 7 ). 
+ 
+27 ZK-HEK was fitted with eight tail rotor blades.  
+ 
+
+<< Page 18 >>
+ Final Report AO -2020 -003  3.23. The helicopter starting to yaw left as it fl ew towards the beach a second time was 
+symptomatic of insufficient tail rotor thrust , and not enough right pedal being applied 
+to counter the torque effect of the main rotor as the helicopter slowed .  
+Accidents related to Fenestron tail rotors  
+3.24. The accidents d escribed in appendix 2 are examples of unanticipated yaw  that 
+occurred as the helicopters were moving very slowly , often when approaching land . In 
+addition to the accidents described, there have been numerous other accident s 
+involving Fenestron  equipped helicopters.  
+3.25. The investigation reports for the unanticipated yaw accidents involving Fenestron  tail 
+rotors identi fied a range of causes. These included pilots who had previously flown 
+helicopters with a main rotor that turned in the opposition d irection and as a result 
+had subconsciously applied the incorrect pedal as the helicopter was slowed. There 
+were accidents where pilots had not anticipated the requirement for more right pedal 
+input as they slowed down. As a result,  the helicopter s started  yawing left and the 
+pilots possibly became  disorientated and/or did not apply a full right pedal  to counter 
+the yaw.  
+3.26. In the investigation of an unanticipated yaw accident in 2015 involving an EC130 
+helicopter ,28 the BEA conducted a simulation to determine  the effectiveness of the tail 
+rotor in recovering from the situation. The report stated:  
+A flight on a helicopter of the same type under similar conditions but at an 
+altitude  of 500 ft was used to evaluate the effect of the Fenestron tail rotor on 
+the yaw rate. At an angular rate to the left of 100 degrees per second (when the 
+pilot begins to decrease the collective pitch to land the aircraft), pushing the 
+right rudder pedal to  70% of its travel stops the yaw rotation of the aircraft in 
+three seconds.29    
+3.27. The video recording of ZK-HEK shows that the rate of yaw increased  from when it first 
+started to turn  and continued until it descended from view behind b ushes. The yaw 
+rate fo r the first full turn was determined to average about 90° per second , increasing 
+to over 120° per second  for the second full turn . The yaw rate was approaching 180 ° 
+per second for the last h alf turn before the helicopter went from  view.   
+Downwind approaches  
+3.28. It is preferable to land any aircraft into wind , as this assists in the control of the aircraft . 
+Many of the accidents described the helicopters approaching the landing areas either 
+downwind or crosswind30. This had the potential to affect the h elicopters in several 
+ways.  For a downwind approach,  a helicopter's airspeed would be less than its 
+groundspeed. This would result in more power required earlier in the approach . An 
+increase in power causing an increase in main rotor torque would result in  the 
+helicopter yawing.  If pilot s were not prepared for this, perhaps by not using the 
+available visual cues , it could catch them un awares .   
+3.29. A second effect of  not approaching a landing site directly into wind  is direction al 
+control.  As a helicopter slows and airspeed reduces, the slipstream design of a 
+ 
+28 Similar to the EC120 -B, but larger . 
+29 BEA Investigation Report 0647: Accident involving Airbus Helicopter EC130 B4 registered F -GOLH on 24 
+October  2015 at Meg ève (74) . 
+30 Wind direction from the side.  
+   
+  Final Report AO -2020 -003 
+<< Page 19 >>
+ helicopter will result in it trying to turn into the prevailing wind if no pilot action is 
+taken .  
+3.30. For an out -of-wind approach, t he requirement for increased power  and directional 
+stabi lity can occur simultaneously. This can result in a helicopter suddenly yawing , 
+startling a pilot. This startle effect was cited in several investigations where there 
+appeared to be no recovery action taken after the initial yaw.  In this accident, there was 
+no obvious recovery action initiated and the  rate of yaw continued to increase  as the 
+helicopter descended . It therefore indicates that the pilot was very likely  startled by 
+the initial sudden left yaw.31 
+3.31. Out-of-wind approaches, however, can offe r some advantages. For a helicopter with a 
+main rotor that turns clockwise, like ZK -HEK, approaching a landing area with the wind 
+on the right side of a helicopter can reduce the power required for an approach . As the 
+helicopter is slowed, it will attempt to yaw right into the prevailing wind. This results in 
+a pilot needing to use left pedal to continue to align the helicopter with the approach 
+path. Left pedal reduces the power demand on the engine. It also ensures there is 
+sufficient right pedal availabl e when power is increased approach ing the hover  (see 
+figure  8). 
+3.32. However, pilots need to be careful when performing this manoeuvre. If directional 
+control is not maintained, a helicopter could yaw left sufficiently to then place the wind 
+on its left side. This would cause the yaw rate to suddenly increase  further .  
+Response of m anufacturer s  
+3.33. Emergency training is an integral part of gaining a pilot licence qualification and 
+aircraft type training . For helicopters , this includes various tail rotor emergences that 
+might occur , such as jammed pedals or loss of tail rotor thrust. The incidence of 
+unanticipated yaw accidents , including those involving Fenestron tail rotors , resulted  in 
+manufacturers , regulators and safety organisations providing safety notices  and 
+educational and training material , to help better prepare pilots for this eventuality  
+should it occur . The manufacturers of the Cabri and EC120 -B types of helicopter s were 
+no different.  See paragra phs 2.58 to 2.65 . 
+3.34. The investigation into this accident determined it was very likely  the pilot of ZK -HEK 
+was informed and trained in various tail rotor emergencies, including unanticipated 
+yaw scenarios. The training included  the pilot need ing to anticipate the requirement of 
+right pedal as power was increased when a helicopter  took off or approached land ing. 
+Also, should an unanticipated yaw event occur, the pilot should apply full right pedal 
+and, if possible , reduce power and/or fly away.  
+ 
+31 For further information on the startle effect see https://skybrary.aero/  
+ 
+
+<< Page 20 >>
+ Final Report AO -2020 -003   
+Figure 8: Tail rotor control  
+(Credit:  Airbus Helicopters ) 
+3.35. However, to be able to safe ly escape an unanticipated yaw event, a pilot also needed 
+to be able to recognise it and react immedi ately and appropriately.  Early in a pilot's 
+flying, the response was likely  to be very mechanical , which  meant  that they would 
+first need to recognise the yaw before determining what action was required and then 
+applying right pedal. With training and experience, this would become more intuitive , 
+with a pilot anticipating the need for pedal input.  For further information on the 
+Fenestron tail rotor, see the Citations  section .  
+Pilot training  
+Qualifications  
+3.36. The pil ot of ZK -HEK held a private pilot licence and at the time of the accident had 
+flown  a total of 1 69.5 hours, including 32 hours on the EC120 -B. The pilot was 
+therefore deemed legally able  to fly the helicopter  but was still in the early stages of 
+gaining experience. However , as discussed in paragraph  3.3, flying hours alone do not 
+tell the full story.  
+3.37. To obtain the private pilot licence  (helicopter) , the pilot was required  to have flown a 
+total of at least 50 hours . This includ ed 20 hours o f dual instruct ion, 15 hours solo  and 
+five hours of mountain flying .32 The pilot then needed to complete a flight te st with an 
+ 
+32 CAA Advisory Circular AC61-3 Pilot Licences  and Ratings - Private pilot licence .  
+
+   
+  Final Report AO -2020 -003 
+<< Page 21 >>
+ appropriately qualified instructor or flight examiner. The pilot met these requirements 
+with a total of 84.5 hours. The next flight  after the flight test , nearly two weeks later , 
+was with an instructor and included training  on several more advanced manoeuvres.   
+3.38. The pilot, after obtaining their licence, flew a further 85 hours before the accident. This 
+included some 42 hours after completing the type rating on the EC120 -B. The 42 hours 
+were spread over about 24 flights and included cross -country flights with passengers, 
+often to off -aerodrome landing sites, and additional advanced training with instructors. 
+The pilot had recently ha d the second set of flight controls installed in anticipation of 
+further training.  
+3.39. To obtain the type rating on the EC120 -B type helicopter, the pilot was required to  
+pass a 'basic turbine knowledge examination', show  satisfactory technical knowledge of 
+the aircraft , fly one hour of instruction a nd demonstrate appropriate pilot skills.33 The 
+pilot obtained their type rating after having flown 7.7 hours  with an instructor . The 
+pilot then flew a further 4.3 hours  with the instructor before completing their fi rst flight 
+as pilot-in-command. The pilot's logbook records that the 4.3 hours  included  heavy -
+weight , high-altitude landings  and mountain flying . 
+3.40. The number of hours the pilot flew before obt aining their  licence and type rating 
+exceeded the minimum requirement. However, this was not considered to be a 
+consequence of  the pilot's ability  or skill. Rather , it reflected the pilot's availability to 
+undertake training and , according to those who were involved in the training, their 
+wish to be competent  and safe .   
+Training  
+3.41. The pilot's instructor and flight examiner both described the pilot as a good  or average 
+private pilot. They considered the pilot to be conscientious, had listened to advice and 
+was keen to learn. Evidence was provided that soon after obtaining their licence, the 
+pilot was considering purchasing an AS350 Squirrel helicopter . The training provider 
+dissuaded the pilot from this, recommend ing that it would be "very benefi cial to get 
+experience before going to a bigger machine ." The pilot subsequently trialled the 
+smaller EC120 -B a month later.    
+3.42. The pilot's training records  and l ogbook recorded that they received instruction on , 
+among other topics, crosswind operations, wind awareness, confined areas, mountain 
+operation s, cross -country , hazards and emergencies.  The logbook record ed that the 
+pilot had not landed at Kekerengu before , but had flown past it on at least four 
+occasions.  The most recent time was two months before the accident flight.  The 
+training provider advised that the pilot was competent in cross -country flying and 
+operating into remote , but easily accessible , landing sites.  
+  
+ 
+33 CAA Advisory Circular AC 61-10 Pilot Licences and Ratings - Type ratings . 
+ 
+
+<< Page 22 >>
+ Final Report AO -2020 -003  Remote operations  
+3.43. During helicopter training  for remote, confined -area34 or off -aerodrome operations , 
+pilots are instructed to conduct  reconnaissance or recce passes to determine that the 
+site is suitable to approac h and land. Pilot s will typically use the acronym of the '7 Ss' 
+to help in the assessment.35 These are:  
+• Size - is it big eno ugh (subject to experience) ? 
+• Shape  - does the shape favour an approach from a particular direction  (wind)? 
+• Slope  - is the ground level enough for landing?  
+• Surface  - what is the surface of the area ? are there any hidden hazards  or 
+could the surface be a hazard, such as dust or snow?  
+• Surrounds  - is the area around the landing site free of hazards, including 
+approach and departure paths  (wires)? 
+• Sun - might t he sun  restrict visibility on final approach or hide  hazards lurking 
+in the shadows ? 
+• Select  - choose the touchdown spot.36 
+3.44. Early in a helicopter pilot's training, the assessment of the intended landing sit e would 
+be performed over several  passes, typically referred to as an initial or high rec ce and a 
+low recce . With experience and competence, the number of passes may be reduced . 
+Wind  
+3.45. Fundamental to the assessment is knowing the wind direction . There was amp le 
+opportunity for the pilot of ZK -HEZ to be able to assess  the wind conditions during the 
+flight north.37 The approach and departure paths the pilot flew at their home base and 
+Rangiora were all flown into the same north easterly wind.  
+3.46. The northerly onshore wind was constant along the coast . The pilot would likely  have 
+had good indications of this , either visually or by comparing indicated  airspeed 
+readings  with the various navigation groundspeed  displays available  as the flight 
+progressed n orth.  
+3.47. Approaching Kekerengu, the wind was strong eno ugh to generate white -caps, and 
+very likely  other indications  on the water or bushes . There was also a dark -coloured 
+flag on a pole above the café building. The presence of white -caps indicates  a wind 
+velocity of between 10 and 15 knots was present . These potential indicators should 
+have left the pilot in no doubt about  the wind direction at the landing site.  
+3.48. The optimal approach to the landing area in the conditions would have been directly 
+from the south. This would have kept the flightpath clear of the road and building s. It 
+would also have placed the wind to the front right of the helicopter , possibl y slightly to 
+the right , thereby ensuring th at there  was ample power and pedal con trol available .  
+ 
+34 A 'confined area ' is a site where the flightpath of a helicopter is limited by terrain and/or obstructions.   
+35 CASA Australia and CAA New Zealand Helicopter Flight Instructor Manual , Issue 3, March  2012.  
+36 For aeroplane s an eighth  'S' could apply - Stock  (cattle or sheep grazing on a grass airstrip) . 
+37 Such indicators might include the Christchurch terminal weather report broadcast over the radio, windsocks  at 
+Rangiora  and possibl y smoke or dust along the route . 
+   
+  Final Report AO -2020 -003 
+<< Page 23 >>
+ Pilot intentions    
+3.49. In preparation for the flight the pilot had contacted staff at the café to confirm the 
+weather conditions were suitable  for it, which they were. The pilot had flown past 
+Kekerengu before , but never landed there. So, a fter reaching the area the pilot  
+positioned out to sea, turned left and completed one pass of the intended landing 
+area. The helicopter was being turned back towards the beach  a second time when it 
+suddenly commenced yawing left. The video recordings show the helicopter was nose 
+low as it started to yaw. A nose -down attitude is an indicator  of a helicopter being 
+accelerated into forward flight  (see figure 9) .  
+3.50. It was therefore considered very likely  that the pilot was undertaking a second low -
+level reconnaissance of the landing site when the helicopter  started to yaw . The pilot 
+likely  intend ed to fly to the south for a short distance before reversing the turn and 
+approaching the landing area into the prevailing wind .  
+ 
+Figure 9: Helicopter attitude  
+(Credit: Airbus Helicopters)  
+3.51. The left turn towards the beach resulted in  the helicopter flying  downwind . The result 
+of the helicopter's airspeed combined with the tailwind component  should have 
+generated an increase in the groundspeed compared with flying into wind . However, i f 
+a pilot is not alert to this, there can be a n unintentional influence to maintain the same 
+visual movement over the ground and so allow the airspeed to reduce . This is 
+especially important  when flying at low levels  as the safety margins are reduced.  
+3.52. In this case, t he tracking data shows the helicopter slowing as it turned downwind . This 
+was indicative of the pilot not monitor ing the airspeed -groundspeed relationship  by 
+looking at the airspeed indicator on the instrument panel. It was therefore considered 
+very likely  that as the helicopter was turned towards the beach the pilot was focused 
+on looking outside at the intended landing area  to confirm it was still suitable  and was 
+not aware of the reducing airspeed.  The reducing airspeed requir ed more power to 
+remain level.  
+
+ 
+
+<< Page 24 >>
+ Final Report AO -2020 -003  3.53. The pilot  lowered the nose and increased power to  accelerate away. This increase in 
+power (and therefore torque ), combined with the low airspeed and already high  power 
+setting, was sufficient to start the helicopter yawing. The helicopter only had to yaw left 
+through about 20 ° before the wind started to come from the rear left side of the 
+helicopter. Once the wind was on the left side , the rate of yaw would speed up further.  
+This yaw, along with the nose of the helicopter rising up and then down as it yawe d 
+suddenly and rapidly  about the rotor , would  have been sufficient to startle and 
+disorientat e the pilot. As discussed in paragraph 3.30, this was considered to be very 
+likely .   
+3.54. There was very likely  insufficient height available for the pilot to reorientate 
+themselves and recover  by: 
+• levelling the attitude of the helicopter and  applying full right pedal  
+• lowering the collective  lever  to reduce the power and therefore the rotation  
+• cyclic-ing away38 and increasing the forward speed of the helicopter and 
+slipstream effect  
+• a combination of the above.     
+3.55. The pilot , instead of flying the left-hand pattern  out to sea, could have flown a right -
+hand pattern  around the café. This would have placed the  intended la nding area on 
+the pilot's right , the side they were seated, while flying into wind. Th e lower 
+groundspeed  would have given  the pilot more time to assess the conditions . However, 
+the pilot may not have considered this practical in the sit uation because of the steep 
+terrain j ust west of the landing area and it  would have resulted in the helicopter flying 
+close  to hous es and people.  
+Pilot age  
+3.56. The pilot was aged 60  and started flying 18 months earlier.  While cognitive function 
+may decline with age, likely owing to a decrease in working memory, there are many 
+other human factors that can also affect pilot performance , with  pilot attitude being a 
+significant factor.  There was no evidence that the pilot's age was a contributing factor 
+to this accident.39 The pilot was considered by their instructor and training organisation 
+to be a diligent and keen student . This was demonstrated  by the pilot undertaking 
+additional training  before and after obtaining their licence , listening to  the advice not 
+to purchas e a large r AS350 helicopter  and planning further training.         
+Survivability  
+3.57. All five occupants were retained in their seats following the helicopter crashing on the 
+beach.  Three children  survived the a ccident. The pilot seated in the front right  and the 
+adult  seated in the rear left did not.  
+3.58. The force and angle of impact resulted in the cabin being severely deformed. This 
+reduced the survivable space available, especially for the two adults . Also, the higher 
+mass of the pilot , when compared to the other occupants, resulted in greater distortion 
+ 
+38 Moving the cyclic control, normally forward, to accelerate the helicopter.  
+39 The Commission investigated the role of pilot age in Inquiry 11 -007: Descent below instrument approach 
+minima, Christchurch International Airport, 29  October  2011.  
+   
+  Final Report AO -2020 -003 
+<< Page 25 >>
+ of their sea t. It also meant that the deceleration was not able to be absorbed by the 
+seat to the same degree .  
+3.59. The smaller physical size of the children meant that the disruption to th e cabin was 
+also not as critical. There was still survivable space available. Also , the smaller mass of 
+the three children meant that their seats were able to better absorb the impact forces . 
+Nevertheless , they still sustained a range of moderate -to-seriou s injuries.  The prompt 
+action of the witnesses and emergency services a ssisted in  managing  their injuries.   
+3.60. Airbus Helicopters' a nalysis of the damage  determined that t he impact forces were  well 
+beyond the level of crash protection for aircraft , including  for helicopter s, 
+recommended by the  United States Federal Aviation  Administration  (see figure 10).  
+ 
+Figure 10: Impact forces  
+(Credit: United States Federal Aviation Administration , 1985 ) 
+ZK-HEK 
+ 
+
+<< Page 26 >>
+ Final Report AO -2020 -003  4   Findings  
+Ngā kitenge  
+4.1. The weather was suitable for the flight and the pilot, while qualified , was in the early 
+stages of gaining experience and skill . 
+4.2. The pilot was very likely  conducting a reconnaissance of the intended landing area in 
+preparation for landing.   
+4.3. The hel icopter slow ed as it was turned downwind towards  the beach.  
+4.4. The slow airspeed combined with increasing power caused the helicopter to suddenly 
+yaw uncontrolled to the left, very likely  startling the pilot.  
+4.5. The rate of yaw increased,  and the pilot was unable to re gain control before the 
+helicopter struck  the beach.     
+4.6. The impact forces far exceeded the recommended level of crash protection for aircraft . 
+4.7. The two adults received fatal injuries , but the three children survived, largely because 
+of their smaller physical size and mass.   
+4.8. There were no medical or mechanical issues identified that may have contributed to 
+the loss of control.  
+4.9. The pilot  did not adequately monitor the performance of the helicopter , in particular 
+the airspeed -groundspeed relationship , resulting in t he helicopter slowing at a critical 
+phase of the flight . 
+ 
+   
+  Final Report AO -2020 -003 
+<< Page 27 >>
+ 5   Safety issues and remedial action  
+Ngā take haumanu me ngā mahi whakatika  
+General  
+5.1. Safety issues are an output from the Commission's analysis. They typically describe a 
+system problem that has the potential to adversely affect future operations on a wide 
+scale.   
+5.2. Safety i ssues may be addressed by safety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address the issue.   
+5.3. The Commission  identified no new safety issues . 
+ 
+
+<< Page 28 >>
+ Final Report AO -2020 -003  6   Recommendations  
+Ngā tūtohutanga  
+General  
+6.1. The Commission issues recommendations to address safety issues  found in its 
+investigations. Recommendations may be addressed to organisations or people and  
+can relate to safety issues found within an organisation or within the wider transport 
+system that have the potential to contribute to future transport accidents and 
+incidents.  
+6.2. In the interests of transport safety, it is important that recommendation s are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in 
+the future .  
+6.3. The Commission identified no new recommendations.  
+   
+  Final Report AO -2020 -003 
+<< Page 29 >>
+ 7   Key lessons  
+Ngā akoranga matua  
+ 
+7.1. Pilots need to be aware of the operating characteristics of the aircraft they are flying.  
+7.2. Pilots need to know their limitations and ensure they retain an adequate margin of 
+safety as they gain experience and competence.  
+7.3. Pilots need to continually monitor the performance of their aircraft when flying, 
+including the airspeed -groundspeed relationship when operating at low level.  
+ 
+
+<< Page 30 >>
+ Final Report AO -2020 -003  8   Data summary  
+Whakarāpopoto raraunga  
+Aircraft particulars  
+Aircraft registration : ZK-HEK 
+Type and serial number:  Airbus Helicopters EC120 -B, 1023  
+Number and type of 
+engines:  one Turbomeca Arrius 2F turboshaft engine  
+Year of manufacture:  1998  
+Operator:  private  
+Type of flight:  private cross -country  
+Persons on board:  five  
+Crew particulars  
+Pilot's licence:  private pilot licence (helicopter)  
+Pilot's age:  60  
+Pilot's total flying 
+experience:  170 hours (32 hours on type)  
+Date and time  15 December 2020, 1240  
+Location  Kekerengu, 50 km northeast of Kaikoura  
+latitude:  42° 00.2´ south  
+longitude:  174° 00.7´ east 
+Injuries  two fatal, two serious , one moderate  
+Damage  helicopter destroyed  
+   
+  Final Report AO -2020 -003 
+<< Page 31 >>
+ 9   Conduct of the Inquiry  
+He tikanga rapunga  
+9.1. At 1310 on 15  December  2020 , the Rescue Coordination Centre  New Zealand  notified 
+the Commission of the occurrence . The Commission subsequently opened an inquiry 
+under section 13(1) of the Transport Accident Investigation Commission Act 1990  and 
+appointed an Investigator -in-Charge.  Following the removal of the occupants , the 
+accident site was secured  until t he arrival of the Commission 's investigation team the 
+next morning.  
+9.2. Over the next three days Commission investigators examined the site and conducted 
+witness interviews. The wreckage was then removed to Commission facilities where a 
+more detailed examinat ion of the wrec kage was undertaken.  
+9.3. On 16  December  2020, the Commission notified th e Bureau d'Enqu êtes et d'Analyses  
+(BEA), the French Bureau of Enquiry and Analysis for Civil Aviation Safety , as the 
+representative for the state of manuf acturer (France) where the EC120 -B helicopter and 
+Arrius  engine  were manufactured . Later that same day, the BEA appointed a non -
+travell ing accredited representa tive to the investigation  in accordance with Annex 13 to 
+the Convention on International Civil A viation . The accredited representative  was 
+assisted by technical advisors from Airbus Helicopters , Safran  Helicopter Engines and 
+the European Union  Aviation Safety A gency  (EASA).  
+9.4. Over the next few weeks the Commission investigators gathered helicopter - and pilot -
+related document ation and conducted further witness interview s. Several items were 
+removed from the wreckage and sent to the BEA for examination . 
+9.5. On 26 October  2022 , the Commission approved a draft report for circulation to  five 
+interested parties  for their comment.  
+9.6. The Commission received five submissions, and changes  as a result of these have been 
+included in the final report.  
+9.7. On 25 January 2023 , the Commission approved the final report for publication.  
+ 
+
+<< Page 32 >>
+ Final Report AO -2020 -003  Abbreviations  
+Whakapotonga  
+ 
+amsl above mean sea level  
+BEA Bureau d'Enqu êtes et d'Analyses  
+CAA Civil Aviation Authority of New Zealand  
+EASA  European Union Aviation Safety Agency  
+ELT emergency locator transmitter  
+GPS global positioning system  
+kg kilogram(s)  
+km kilometre (s) 
+km/hr  kilometres per hour  
+LTE loss of tail rotor effectiveness  
+NTSB  United States National Transportation Safety Board  
+m metre(s)  
+TAIC Transport Accident Investigation Commission  
+US FAA  United States Federal Aviation Administration  
+VEMD  vehicle and engine multifunction display  
+  
+   
+  Final Report AO -2020 -003 
+<< Page 33 >>
+ Glossary  
+Kuputaka  
+ 
+abeam  at right angles to the helicopter's direction  of flight.  
+abilities  inherent or inherited characteristics that enable a person to 
+accomplish or perform a given action.  
+cyclic -ing away  moving the cyclic control, normally forward, to accelerate the 
+helicopter . 
+LTE loss of tail rotor effectiveness - when a tail rotor is unable to carry out 
+its function, often because of adverse wind conditions.  This term was 
+first used by the US Army.  
+skills  activities that have been either learnt or acquired and result in a 
+predicta ble and often better outcome.  
+technical log  provides a running written record of daily flying hours and 
+serviceability state.  
+yaw movement of an aircraft about its vertical axis.  In effect, for a single 
+rotor helicopter it rotates below the main rotor.  
+ 
+
+<< Page 34 >>
+ Final Report AO -2020 -003  Citations  
+Ngā t ohutoru  
+ 
+Accident Investigation Board Norway (2018). Report Skogn Airport, Trondelag, 25 May 2018, 
+Airbus Helicopters EC120B, LN -OTO. 
+Air Accidents Investigation Branch [United Kingdom] (2011 ). EC120B Colibri, G -FEDA, Redhill 
+Aerodrome, Surrey. 4 June 2011. Bulletin 9/2011 . 
+Australian Transport Safety Bureau (2018 ). Safety Report AO -20180026 Loss of control and 
+collision with water invol ving Eurocopter EC120B, VH -WII, Hardy Reef, 72 km north -north -
+east of Hamilton Island Airport, Queensland on 21 March 2018 . 
+Transport Accident Investigation Commission  (1991 ). Aircraft Accident Report 91 -004 
+Robinson R22 Beta, ZK -HDD off Piercy Island, Bay of Islands, 21 February 1991.  
+Transport Accident Investigation Commission  (2008 ). Report 08 -005, Kawasaki -Hughes 369D, 
+ZK-HWE, uncommanded yaw and loss of control, Maori Saddl e, near Haas t, Westland, 11 
+August 2008.  
+Transport Accident Investigation Commission (21xx).  Report 11-007: Descent below 
+instrument approach minima, Christchurch International Airport, 29  October  2011 . 
+Transport Accident Investigation Commission (2017 ). Aviation inquiry AO -2017 -004, MBB 
+BK117 A -3 helicopter, ZK -IED, Loss of control, Porirua Harbour, 2 May 2017.   
+United States Federal Aviation Administration (1985). Analysis of rotorcraft crash dynamics 
+for development of improved crashworthiness design crit eria, DOT/FAA/CT -85/11, Final 
+Report, June 1985 . 
+ 
+For further information on the EC120 -B and the Fenestron tail rotor, see the following:  
+Airbus  Helicopters.  Safety in Operations, variou s notices  
+https://www.airbus.com/en/safety/safety -in-operations  
+Europea n Aviation Safety Agency  (2012 ). Operational Evaluation Board Report, Eurocopter 
+EC120B, 16 May 2012 .  
+Hindawi (2020). Aerodynamic characteristics of helicopter with ducted fan tail rotor in hover 
+under low-speed crosswind, Nahyeon Roh , 27 October  2020. International Journal of 
+Aerospace Engineering, volume  2020, article 7059209 .  
+ 
+  
+   
+  Final Report AO -2020 -003 
+<< Page 35 >>
+ Appendix 1  Airbus information notices  
+ 
+
+ 
+
+<< Page 36 >>
+ Final Report AO -2020 -003   
+
+   
+  Final Report AO -2020 -003 
+<< Page 37 >>
+  
+
+ 
+
+<< Page 38 >>
+ Final Report AO -2020 -003   
+
+   
+  Final Report AO -2020 -003 
+<< Page 39 >>
+  
+
+ 
+
+<< Page 40 >>
+ Final Report AO -2020 -003   
+
+   
+  Final Report AO -2020 -003 
+<< Page 41 >>
+  
+
+ 
+
+<< Page 42 >>
+ Final Report AO -2020 -003   
+ 
+ 
+
+   
+  Final Report AO -2020 -003 
+<< Page 43 >>
+ Appendix 2  Previous unanticipated yaw occurrences  
+New  Zealand  
+Accident involving a Robinson R22, Bay of Islands, New  Zealand  on 21  February  1991  
+The helicopter was being used to take touris m promotion al photographs. The helicopter was 
+being positioned in a high hover, estimated to be about 250 feet above the sea, when the 
+low rotor rpm warning horn sounded. The helicopter descended rapidly into the sea, killing 
+one person and seriously injuring a second.   
+The Commission investigation found that the probable cause of this accident was  the 
+absence of any prescribed training in uncommanded yaw from the training syllabus for 
+helicopter pilots. In consequence, the pilots lacked knowledge of the hazardous situa tion in 
+which they were placing the aircraft. Contributory factors were the lack of reserve of power 
+while hovering due to out-of-ground effect and its operation in the Avoid Curve. ( Transport 
+Accident Investigation Commission , 1991)  
+ 
+Accident involving a  Kawasaki -Hughes 369D, Maori Saddle near Haast, New  Zealand  
+on 11  August  2008  
+The helicopter was being used to insert track  maintenance workers into a remote site. The 
+pilot approached the landing site downwind when it started an uncommanded right yaw. 
+The helicopter struck trees and fell to the ground, substantially damaging the helicopter and 
+seriously injuring the pilot and one passenger.   
+The Commission investigation found that  the pilot attempted the recommended recovery 
+action, but that was unsuccess ful because they did not apply full yaw pedal in the direction 
+opposite the turn. The pilot was aware of the problem of LTE [unanticipated yaw] and how to 
+avoid it , but did not correctly assess the likely effect of the wind prior to the approach. 
+(Transpor t Accident Investigation Commission , 2008)  
+   
+Accident involving a BK117 A -3 on Porirua Harbour, New  Zealand  on 2 May 2017  
+The BK117 helicopter was transporting power poles, and when approaching the drop off 
+point the pilot began to lose control of the helicopter. The pilot made an emergency landing 
+into shallow water and escaped with minor injuries. The helicopter was substantially 
+damaged.  
+The Commission investigation found tha t the directional control of the helicopter was lost, 
+likely due to unanticipated right yaw. ( Transport Accident Investigation Commission , 2017)  
+Overseas  
+Accident involving an EC120 -B, Redhill Aerodrome, England on 4  June  2011  
+Control of the helicopter was  lost during a turn whil e hover taxiing in gusty wind conditions. 
+The right skid contacted the ground, causing the helicopter to roll onto its side. The Air 
+Accident Investigations Board of the United Kingdom determined that  the pilot believed an 
+initial l eft turn had allowed the helicopter's tail to be pushed by the wind, rotating it further 
+and more rapidly than intended. The pilot applied insufficient right pedal to compensate, 
+allowing the rate of turn to accelerate sufficiently for control to be lost. (Air Accidents 
+Investigation Branch [United Kingdom] , 2011)  
+ 
+Accident involving an EC120 -B, Skogn Airport, Norway on 25  May 2018  
+The EC120 -B helicopter rolled over during landing, resulting in substantial damage. The one 
+passenger suffered minor injuries.  The Accident Investigation Board Norway investigation 
+found that  it was probable that the phenomenon of loss of tail rotor effectiveness (LTE) may 
+have occurred after the commander failed to correct the helicopter using the right pedal.  
+ 
+
+<< Page 44 >>
+ Final Report AO -2020 -003  The pilot reported applying full right pedal input to oppose the left yaw and then lifted the 
+collective  lever , which required additional power , and increased the yaw to the left. It was 
+believed that limited  experience contributed to the situation. ( Accident Investigation Board 
+Norway , 2018)  
+ 
+Accident involving an EC120 -B, Hardy Reef, Australia on 21  March  2018  
+The helicopter was being used for a  scenic charter flight, returning to land on a pontoon 
+when the accident occurred. Just above the surface of the pontoon, the helicopter started to 
+yaw to the left. The pilot initiated an overshoot , but at about 30 -40 feet the helicopter 
+suddenly and rapid ly yawed to the left. Pilot control inputs did not stop the yaw and the 
+helicopter struck the water. Two of the five occupants did not survive the ditching.  
+The Australian Transport Safety Bureau investigation into the accident found that  the 
+helicopter wa s close to its maximum allowable weight. This , and the requirement to make a 
+slow approach to the pontoon to scare away birds before landing, meant that the pilot was 
+using near full power as the helicopter approach ed the pontoon.  
+The pilot was following the operator's normal practice of turning left when about to land, to 
+place the 20 knot (nearly 40 kilometres per hour ) wind on the right side of the helicopter. 
+However, while the left turn required less power than a right turn, it increased the 
+susceptib ility of an unanticipated left yaw if the left turn was not controlled.  
+While yawing the helicopter left into the intended landing position, the pilot elected to 
+conduct a go -around. The helicopter yawed slowly to the left, and the pilot very likely did no t 
+apply sufficient right pedal to correct the developing yaw. This was followed by a sudden 
+and rapid yaw to the left. The pilot, despite lowering the collective  lever , very likely did not 
+immediately apply full and sustained opposite (right) pedal input. The pilot's limited flying 
+experience was also identified as a contributing factor. ( Australian Transport Safety Bureau,  
+2018 )    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its four kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ng āti Raukawa, 
+Tūwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to u nderstand transport accident tragedies and how to avoid them. A 'waka whai mārama' (i te ara 
+haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is a metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the sep aration of Rangitāne (Sky Father) and Papatūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling within), which brought 
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe' or 'risk fre e'.  
+Corporate: Te Ara Haumaru - the safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of knowledge 
+that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. The continual 
+wave is the perpetual line of influence. The succession of humps represent s the individual inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: Ngā h au e wh ā - the four winds  
+ 
+ 
+ 
+ 
+To Sandy, 'Ngā hau e whā ' (the four winds ), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind.  There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for a  'Aviation '.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this K ōwhaiwhai.  
+Maritime: Ara wai - waterways  
+ 
+ 
+ 
+ 
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for ' Maritime .  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+ 
+ 
+ 
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere ' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and everything 
+that dwells within) in the creation of this Kōwhaiwhai.  
+  
+
+   
+  
+Recent Aviation Occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2019 -006 Cessna 185A, ZK -CBY and Tecnam P2002, ZK -WAK, Mid -air collision, near Masterton, 
+16 June 2019  
+AO-2020 -002 Pacific aerospace Cresco 08 -600, ZK -LTK, impact with terraine, Kourarau Hill, 
+Masterton, 24 April 2020  
+AO-2019 -003 Diamond DA42 aeroplane, impact with terrain, 22 nautical miles south -southeast of 
+Taupo, Kaimanawa Ranges, 23 March 2019  
+AO-2018 -005 MD Helicopters 600N, ZK -ILD, Engine control malfunction and forced landing, 
+Ngamatea Station, 14 June 2018  
+AO-2018 -001 Tandem parachute UPT Micro Sigma, registration 31Z, Double malfunction, 
+Queenstown, 10 January 2018  
+AO-2018 -006 Robinson R44, ZK -HTB Loss of control Stevensons Arm, Lake Wanaka 21 July 2018  
+AO-2017 -009 and 
+AO-2017 -010 Commission resolution to close aviatio n inquiries Boeing 787, near Auckland, New 
+Zealand, 5 and 6 December 2017  
+AO-2019 -001 Airbus Helicopters AS350, ZK -HEX, Forced landing, Wakefield, Nelson, 17 February 
+2019  
+AO-2017 -004 MBB BK117 A -3 helicopter, ZK -IED, Loss of control, Porirua Harbour, 2 May 2017  
+AO-2017 -002 Robinson Helicopter Company R22, ZK -IHA, Impact with terrain, Near Reefton, 27 
+March 2017  
+AO-2017 -003 ATR72, ZK -MCY, Landing gear failure, Nelson, 9 April 2017  
+AO-2015 -003 Robinson R44, Main rotor blade failure, Waikaia, Southland, 23 January 2015  
+ 
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 19.00                                         ISSN 1179 -9080 (Print)   
+         ISSN 1179 -9099 (Online)  
+ 

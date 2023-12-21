@@ -1,0 +1,870 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Final report RO -2017 -106: Mainline locomotives, Wrong -routing and  
+collision with work vehicle, Invercargill, 16 November 2017  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations t o improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, provid ing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+ 
+ 
+ 
+ 
+Final  Report  
+Rail inquiry RO-2017 -106 
+Mainline locomotives  
+Wrong -routing and collision with work vehicle  
+Invercargill  
+16 November 2017  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : February 2019  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector and the public, both domesti cally and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     Jane Meares   
+Deputy  Chief Commissioner    Stephen Davies Howard  
+Commis sioner      Richard Marchant  
+Commissioner      Paula Rose, QSO  
+     
+Key Commission p ersonnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Chris Asbery  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to in dustry participants only and not 
+discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+Photographs, diagrams, picture s 
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe t he degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the 
+Intergov ernmental Panel on C limate 
+Change)  Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ 
+ 
+Location of incident  - Invercargill  
+ 
+ 
+  
+Source s: mapsof.net  and Google Maps  
+Contents  
+ 
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ .....................  iii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+3.2. Key personnel  ................................ ................................ ................................ ...............................  6 
+4. Analysis  ................................ ................................ ................................ ................................ ......................  7 
+4.1. Introduction  ................................ ................................ ................................ ................................ ... 7 
+4.2. What happened  ................................ ................................ ................................ ............................  7 
+4.3. Rules and procedures  ................................ ................................ ................................ ..................  8 
+Protection for the maintenance depot  ................................ ................................ .......................  8 
+Piloting trains  ................................ ................................ ................................ ...............................  9 
+Refuelling procedures  ................................ ................................ ................................ .................  9 
+Summary  ................................ ................................ ................................ ................................ ... 10 
+5. Findings  ................................ ................................ ................................ ................................ ..................  11 
+6. Safety issue  ................................ ................................ ................................ ................................ ............  12 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  13 
+General  ................................ ................................ ................................ ................................ ...................  13 
+Safe ty actions addressing safety issues identified during an inquiry  ................................ .................  13 
+8. Recommendations  ................................ ................................ ................................ ................................ . 15 
+General  ................................ ................................ ................................ ................................ ...................  15 
+Recommendations  ................................ ................................ ................................ ................................ . 15 
+9. Key lessons  ................................ ................................ ................................ ................................ .............  16 
+ 
+ 
+
+Final Report RO -2017 -106 | Page i Figures  
+ 
+Figure 1  Final position of the lead locomotive, the maintenance truck and the freight wagon  ...........  iv 
+Figure 2  Schematic of train movements  ................................ ................................ ................................ .. 3 
+Figure 3  Points for maintenance depot correctly set away from depot  ................................ .................  4 
+Figure 4  Manually operated points for maintenance depot, refuelling bay and storage yard  ..............  4 
+Figure 5  Left - damaged stop -disc Right - dislodged derailer in ballast under locomotive  ................  5 
+Figure 6  Final position of locomotives and maintenance truck, and frontal damage to truck  .............  5 
+ 
+ 
+ 
+ 
+  
+Page ii | Final Report RO -2017 -106 Abbreviations  
+Commission  Transport Accident Investigation Commission  
+SPAD   Signal Passed At Danger  
+ 
+ 
+  
+Final Report RO -2017 -106 | Page iii Glossary  
+coupler  A device used to connect two rail vehicles together.  
+cowcatcher  Som etimes known as an obstacle def lector  it is a strong , angle d, metal plate, 
+similar in appearance to a snow plo ugh, fitted to the front and rear of a 
+locomotive.  Its purpose is to reduce the risk of derailment in the event of a 
+collision between the locomotive  and a large obstacle on the track  
+derailer  a rail-mounted device used  to derail a train, particularly one attempting to 
+make an unauthorise d movement.  Often used to protect against unauthorised 
+access to depots, sidings and other areas  
+lead locomotive  the locomotive at the front in the direction of travel  
+manual ly operated  points  a manually operated set of rail switches designed to divert ra il vehicles 
+from one line to another  
+pilot a qualified person who ensures the safety of a train mov ement during a 
+setback (reversing ) movement , when the locomotive driver is unable to see 
+clearly behind the rail vehicle in the direction of travel  
+non-interlocked  sidings where points and signalling are hand operated and are not arranged to 
+prevent conflicting movements.  
+setback  to move a train backwards (reverse) a short distance  
+siding  a low-speed track not fitted with signals , typically used for ma rshalling  
+SPAD A  when a train passes a perfectly displayed STOP signal without authorisation.  
+Stop -disc a red metal disc sign equivalent to a red signal.  It means 'STOP ' and no trains 
+are all owed to pass while the stop-disc is erected  
+Track Warrant  System atized permissions used on some rail lines to authorize a train's use of 
+the line.  Train Controllers issue these permissions to drivers of trains instead 
+of using signals.  The drivers generally receive track warrants  by radio.  
+Trail locomotive  The locomo tive at the rear in the direction of travel.  
+Train Control  based at Wellington Railway Station in New Zealand , the centralised location of 
+signallers or train controllers who authorise train movements throughout New 
+Zealand in the absence of local signal  boxes 
+   
+Page iv | Final Report RO -2017 -106 Data summary  
+Vehicle particulars  
+Train type and number:  light locomotives DXC5258 (trail) and DXC5419 (lead)   
+Classification:  diesel electric l ocomotive  
+Manufacture r: General Electric  
+Operator:  KiwiRail  Holdings Limited  
+Date and time  16 November 2017  at about 15031 
+Location  Invercargill  maintenance depot  
+Persons involved  train driver, pilot, m aintainer  
+Injuries  none 
+Damage  front and rear damage to maintenance truck  
+ 
+Figure 1 
+Final position of the lead locomotive , the maintenance truck  and the freight  wagon
+                                                        
+1 Times in this report are New Zealand Daylight Saving Time (Co -ordinated Universal Time +13 hours) and are 
+expressed in the 24 -hour mode.  
+
+Final Report RO -2017 -106 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. At 1503 o n Thursday 16 November 2017, two coupled  mainline locomotives were being 
+moved from the main line to a refuelling area  at Invercargill .  However, the points  were not set 
+for the intended route and the locomotives were instead diverted into the  rail maintenance 
+depot . 
+1.2. The locomotives collided wit h a truck that was parked outside  the maintenance depot, 
+propelling it into a freight wagon that was parked in side the depot for repair work.  Both ends 
+of the truck were damaged, but nobody was injured.  
+1.3. A protective derailing device had been placed on to the rail outside the maintenance depot.  
+The device was designed to derail any rail vehicle inadvertently entering the track that led to 
+the depot.  However, the cowcatcher on the front of the lead locomotive dislodged the derailer  
+and prevented it derailin g the locomotive.  
+1.4. The Transport Accident Investigation Commission  (Commission)  found that the locomotives 
+were wrong -routed off the intended route and  into the maintenance depot siding because the 
+necessary checks to ensure that the points were set in the correct position for the movement 
+were not made.  
+1.5. The Commission also found  that the procedures in the Invercargill Joint Operating Plan for 
+protecting the maintenance depot from unintended rail movements did not conform  fully with 
+the KiwiRail rules, and that there were indications that staff were routinely not complying with 
+the procedures set out in the plan. 
+1.6. The level of audit and compliance testing of the Invercargill Joint Operating Plan w as not 
+robust in detecting and address ing compliance issu es within the Invercargill yard.  
+1.7. The Commission identified one safety issue - that the level of audit and compliance testing of 
+the Invercargill Joint Operating Plan w as not robust in detecting and address ing compliance 
+issues within the Invercargill yard.  
+1.8. KiwiRail Holdings Limited took a number of safety actions  to address th is safety issue .  
+Consequently , the Commission has made no recommendations arising from this inquiry . 
+1.9. Key lesson s arising from th is inquiry include : 
+ it is important to ensure that documented rules, policies and procedures are compatible 
+and consistent across all places of work in the rail network  
+ a culture of non -compliance can quickly develop if staff are not prompted to follow the 
+proper procedures when undertaking their duties, a nd do not  challenge their work 
+colleagues if they observe them not following procedures.  
+  
+
+<< Page 2 >>
+ Final Report RO -2017 -106 2. Conduct of the inquiry  
+2.1. The incident occurred at about 1503 on Thursday 16 November 2017.  The NZ Transport 
+Agency notified the Transport Accident Investigation Commission (Commission) on Friday 17 
+November.  The Commission opened an inquiry under section 13(1) of the Transport Accident 
+Investigation Commission Act  1990 to determine the causes and circumstances of the 
+occurrence and appointed an investigator in charge.  
+2.2. Commission investigators travelled to Invercargill on Saturday 18 November 2017 and 
+conducted a site examination.  
+2.3. Commission  investigators interviewe d the:  
+ train driver  
+ pilot2 for the setback movement  
+ maintainer who was  present inside the maintenance depot at the time of the 
+incident  
+ Invercargill Operations Manager . 
+2.4. The Commission obtained the following documents and records for analysis:  
+ the closed -circuit television recordings from the refuelling bay  camera  
+ the Joint Operating P lan for the KiwiRail Invercargill facility  
+ the training records for the driver and pilot  
+ the roster details for the driver and pilot  
+ the event recorder download data from the  locomotives  
+ the recording  of radio communication s between the train driver and Train Control3 
+before and after the incident . 
+2.5. On 21 November 2018  the Commissioners considered this draft report and approved it to be 
+sent to interested persons for consultati on.  
+2.6. Two written submissions were received.  The Commission considered the submissions, and 
+changes as a result of those submissions have been included in the final report.  
+2.7. On 21 February 2019  the Commission approved the fi nal report for publication.  
+ 
+ 
+  
+                                                        
+2 A qualified person who ensures the safety of a train movement during a setback (reversing) movement, 
+when the locomo tive driver is unable to see clearly behind the rail vehicle  in the direction of travel . 
+3 Based at Wellington Railway Station in New Zealand , the centralised location of signallers and train 
+controllers who authorise train movements throughout New Zealand  in the absence of local signal box es. 
+Final Report RO -2017 -106 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  At approximately 1455 on 16 November 2017, a  freight train consisting of two locomotives 
+and a number of freight wagons  arrived at Invercargill .  The driver contacted Train Control,  
+cancell ed the track warrant4 and obtained a p roceed signal for a setback5 movement  onto the 
+Bluff m ain line to disconnect the wagons .  The setback movement was under the control of a 
+pilot.  The driver  radioed the p ilot and obtained  permission to setback . 
+ 
+Figure 2 
+Schematic of train movements  
+ 
+3.1.2.  The train then setback onto the Bluff main line , where  the pilot disconnected  the wagons from 
+the locomotives (position i in Figure 2) .  The pilot then told the driver to contact Train Control 
+and request  a signal to move the locomotives  forward  past a set of  points that would give the 
+locomotives access to the siding6 that branched into  the storage yard, the refuelling area and 
+the maintenance depot.  The intention was to move the locomotive s into the refuelling area .  
+When  the correct signal was obtained  the driver moved the locomotives forward and  stopp ed 
+beyond the points (position ii in Figure 2 ). 
+3.1.3.  With the locomotives clear of the points to the Bluff Main Line  (position ii in Figure 2) , the pilot 
+was able to  set the points  and authoris e the locomotives to setback to  enter the siding for the 
+refuelling area .  Once in the siding the locomotives had to pass through two more sets of 
+points in order to reach the refuelling area .  The first set of points could  direct trains to the 
+maintenance depot and the second set could direct  trains to either the storage yard or the 
+refuelling area . 
+3.1.4.  The pilot walked from the Bluff main  line, where the wagons had been disconnected,  directly 
+to the second set of points to set them for the locomotives to enter  the refuelling area  (see 
+Figure 3).   The pilot observed  that on the adjacent maintenance depot line a derailer7 and 
+stop-disc8 were in place , protecting the maintenance depot .  In the pilot 's previous experience 
+the presence of the depot protection meant that the first set of points was not directing rail 
+vehicles  to the maintenance depot, so did not visually  check the setting of the points . 
+                                                        
+4 Systematised permissions  used on some rail lines to authori se trains ' use of the line s.  Train controllers 
+issue these permissions  to drivers of trains instead of using signals.  The drivers generally receive track 
+warrants  by radio.  
+5 A move ment of  a train backwards (reverse) for a short distance.  
+6 A low -spee d track not fitted with signals, typically used for marshalling . 
+7 A rail -mounted device used to derail a train, particularly one attempting to make an unauthorised 
+movement.  Often used to protect against unauthorised access to depots, sidings and other areas.  
+8 A red metal disc sign equivalent to a red signal.  It mean s 'STOP' and no trains are allowed to pass while the 
+stop-disc is erected.  
+
+
+<< Page 4 >>
+ Final Report RO -2017 -106  
+ 
+Figure 3 
+Points for maintena nce depot correctly set away from  depot  
+ 
+3.1.5.  The pilot advised the driver that the points were  set and authorised the driver  to setback 
+towards  the refuel ling area .  However, the first set of points were  set for rail vehicles  to enter 
+the maintenance depot (see Figure 4).  The driver  was positioned in the trail  locomotive9 so 
+could not see ahead in the direction of travel , but proceeded to reverse  the locomotives at 
+about  15km/h  under the instruction of the p ilot.  As the locomotives  setback , the pilot used a 
+road vehicle  to drive approxi mately 150 metres to the refuelling area  to meet the locomotives  
+and call a halt to the movement.  
+ 
+Figure 4 
+Manual ly operated  points10 for maintenance depot, refuelling bay and storage yard  
+ 
+3.1.6.  As the locomotives reversed the driver noticed  they had diverted and were heading  toward s 
+the maintenance depot instead of the refuelling area  (position iii in Figure 2 ).  The lead 
+locomotive11 overcame  the maintenance depot protection  by knock ing the stop -disc flat and 
+                                                        
+9 The loc omotive at the rear in the direction of travel.  
+10 A manually operated set of rail switches designed to divert rail vehicles from one line to another.  
+11 The locomotive at th e front in the direction of travel.  
+
+Final Report RO -2017 -106 
+<< Page 5 >>
+ dislodging the derailer , which instead of derailing the locomotive as it was designed to, 
+became dislodged from the rail and dragged along the ballast (see Figure 5). 
+ 
+Figure 5 
+Left - damaged stop -disc 
+Right - dislodged derailer in ballast under locomot ive 
+3.1.7.  The driver applied the locomotive brakes and brought them  to a stop , but not before the lead 
+locomotive had collided with a maintenance truck parked on the track outside  the depot.  
+3.1.8.  The maintenance truck had been parked in neutral over the track leading  to the maintenance 
+depot , with the handbrake  lightly applied.  The coupler12 at the rear of the locomotive s struck  
+the maintenance truck . 
+3.1.9.  The truck was propelled13 back approximately 15 metres and collided  with the coupler of a 
+freight wagon that was chocke d14 inside the ma intenance facility (see Figure 6).  The 
+maintainer  was in another room in the depot when the collision occurred .  The front and rear 
+of the truck suffered  moderate  impact damage.  
+ 
+Figure 6 
+Final position of locomotives and maintenance truck, and frontal damage to truck  
+ 
+  
+                                                        
+12 A device used to connect two rail vehicles.  
+13 The momentum of the locomotives caused the truck to move backwards after the impact.  
+14 To use a chock to prevent the movement of the wheels and therefore the wagon.  
+
+
+<< Page 6 >>
+ Final Report RO -2017 -106 3.2. Key personnel  
+3.2.1.  The driver was based at Invercargill  and had 38 years' experience  driving trains .  The driver 
+held current  certification for the role , and according to KiwiRail records  had not  been involved 
+in any incidents . 
+3.2.2.  The maintainer was based in Dunedin and worked at the Invercargill maintenance depot part -
+time, two days every fortnight.  The maintainer had 12 years' rail experience  and held current 
+certification for the role.  
+3.2.3.  The pilot  had 35 years ' rail experience  and held current  certification for the role .  According to 
+KiwiRail records the pilot  had not been involved in any previous incidents . 
+3.2.4.  In accordance with the operator's policy, all three personnel underwent a post -incident dr ug 
+and alcohol test .  All produced negative (clear)  result s. 
+3.2.5.  The train driver and pilot worked for KiwiRail Operations, and the maintainer worked for 
+KiwiRail Mechanical.  
+Final Report RO -2017 -106 
+<< Page 7 >>
+ 4. Analysis  
+4.1. Introduction  
+4.1.1.  The wrong -routing of the locomotives occurred because the points had been incorrectly set for 
+the intended movement.  Once the locomotives diverted towards the maintenance depot, the 
+derailer device should have caused the lead locomotive to derail and prevented its unintended 
+entry to the maintenance depot.  
+4.1.2.  The following  analy sis discusses the circumstances that led to the collision .  It also discusses 
+the safety issue  whereby the level of audit and compliance testing of the Invercargill Joint 
+Operating Plan was not robust in detecting and address ing compliance issues in the 
+Invercargill yard , including : 
+ procedures for the completion of safety -critical tasks were either poor or missing  
+ there was poor adherence to existing safety procedures . 
+4.2. What happened  
+4.2.1.  The maintainer  arrived at the Invercargill maintenance depot  and check ed the work schedule 
+for the day .  A shunt  locomotive was scheduled  to arrive at the depot later in the day  to have 
+the driver's seat  repair ed.  
+4.2.2.  While  working on the  freight wagon inside the  depot , the maintainer  received a phone call 
+advising that  the shunt locomotive  would arrive at Invercargill after midday . 
+4.2.3.  The maintainer left the depot around midday to collect welding gas  cylinders .  While away from 
+the depot  the maintainer received a further phone call advising  that the shunt locomotive  had 
+arrived in Invercargill.  Rather than wait for the shunt locomotive to be delivered to the 
+maintenance depot , the maintainer drove to where the shunt  locomotive was located , 
+removed the driver's seat and took it back to the maintenance depot to repair it.  
+4.2.4.  On return ing to the maintenance depot the maintainer noticed  that the derailer and stop -disc 
+had been removed  by someone , most likely  in preparation for bringing the shunt locomotive 
+into the maintenance depot , which was now no longer required .  It could not be established 
+who had removed the protection ; however , the maintainer was the only person authorised to 
+do so.  The maintainer reinstated  the st op-disc and plac ed the derailer back on the track  
+without padlocking it in place .   
+4.2.5.  The design of the derailer meant it could be padlocked in place, and a padlock was provided 
+for this purpose.  The maintainer had been trained in the use of the derailer padlock ; however, 
+the Invercargill Joint Operating Plan  did not document a require ment for  the derailer to be 
+padlocked in place .  
+4.2.6.  The Invercargill Joint Operating Plan  detailed how staff from KiwiRail Mechanical and KiwiRail  
+Operations worked together in and around the maintenance depot.   While the maintainer was 
+responsible for remo ving and reinstating  the derailer and stop -disc depot protection, 
+operations staff , in this case the pilot , were  responsible for setting the poin ts correct ly.   
+4.2.7.  After completing the repair to  the driver's  seat, the depot maintainer drove  back to the shunt 
+locomotive and refitted it .  The maintainer then r eturn ed to the maintenance depot and 
+parked the  maintenance truck on the track outside the doorway to the building.  
+4.2.8.  Meanwhile, a djacent to the maintenance depot , the pilot and train driver were preparing to 
+move  the locomotives to the refuelling area.  The pilot walked across and confirmed  that the 
+points to the refuelling bay were set correctly , but did not check that the points to the 
+maintenance depot were set  correctly .  The pilot assumed that they were set correctly because 
+he saw  the d erailer and stop -disc in place.  
+
+<< Page 8 >>
+ Final Report RO -2017 -106 4.2.9.  Once the train driver was authorised to setback to the refuelling area, t he pilot drove to the 
+refuelling bay  as the locomotives setback .  When  piloting from a vehicle, Rule 4.2.1 of the New 
+Zealand Rail Operating Code states in part that:  
+4.2.1 Range of Vision  
+Maintaining a Range of Vision when Piloting by Quad bike or Vehicle  
+o Travel a safe distance ahead of the movement immediately adjacent to and clear 
+of the intended route  
+4.2.10.  Due to the setback movement being a relatively short distance, the pilot dr ove ahead to the 
+refuelling area  in order to be in the desired place to call the rail movement to a halt when the 
+locomotives arrived .  This was an accepted and normal action among  pilots.  However, b y not 
+travelling the inten ded route  just ahead and  clear of the locomotives , the pilot missed the 
+opportunity to observ e the locomotives divert ing towards  the maintenance depot.  
+4.2.11.  A post -incident re -enactment revealed that the derailer protruded sufficiently above the rail  to 
+make contact with  the cowcatcher15 of the leading locomotive.  T he design specification  of the 
+derailer permitted  it to have  a height of up to 120 millimetres  above the top of the rail , while 
+the cowcatcher was permitted to have a height above the rail as low as 100 millimetres .  As a 
+result the cowcatcher tore  the derailer off its mounts before it could perform its purpose of 
+derail ing the locomotives  (see Figure 8) .  KiwiRail is undertaking a review of the suitability of 
+its derailers for its current rolling stock.  
+ 
+Figure 8  
+Derailer (pictured during post -incident re -enactment)  
+4.3. Rules and p rocedures  
+Safety issue - The level of audit and compliance testing of the Invercargill Joint Operating Plan were not 
+robust in detecting and  address ing compliance issues in the Invercargill yard . 
+Protection for the maintenance depot  
+4.3.1.  As previously discussed, the procedures in the Joint Operating Plan specified that operations 
+staff were responsible for all rail rolling stock movements and mechanical personnel were 
+responsible for the placement  and removal of the derailer and stop -disc. 
+                                                        
+15 A strong , angled metal plate, similar in appearance to a snow plough, fitted to the front and rear of a 
+locomotive.  Its purpose is to reduce the risk of derailment in the event of a collision between the locomotive  
+and a large obstacle on the track . It is sometimes known as an obstacle deflector . 
+
+Final Report RO -2017 -106 
+<< Page 9 >>
+ 4.3.2.  This split of responsibility required operations staff  to liaise with mechanical staff to have  the 
+maintenance depot protection removed before any rail movement s into or out of the 
+maintenance depot siding could take place.  
+4.3.3.  The design of the derailer allo wed it to be padlocked in place to prevent unauthorised 
+removal .  However, t he Joint Operating Plan did not mention the need to use a padlock and 
+therefore the derailer was often left unlocked.  In not using the padlock it was easy for any 
+staff to remove the derailer for rail vehicle movements into and out of the depot.  Even when it 
+was locked the key was easily accessible, which meant the  protection  could be removed by 
+anyone, including o perations personnel.   
+4.3.4.  The practice of operational  staff removing a nd reinstating the depot protection was a violation 
+of the instructions in the Joint Operating Plan.  The practice had never been identi fied by the 
+site management . 
+4.3.5.  Rule 909 of the New Zealand Rail Operating Rules and Procedures refers to w orking in non -
+interlocked16 area s, where the movement of a rail vehicle is controlled by manually operated 
+points and authorised by a pilot .  The rule states  (in part ): 
+If points can be set to prevent entry into the track(s) being protected they must be 
+locked/spiked or bolted in this position . 
+The Joint Operating Plan had not considered using the points leading to the maintenance 
+depot building as part of the depot protection.   
+4.3.6.  Subsequent to this incident the use of the derailer has been discontinued and the points 
+leading to the maintenance depot siding are now set away from the depot and padlocked in 
+this position.  The maintainer now controls the use of the padlock key and the system now 
+complies with Rule 909.  
+Piloting trains  
+4.3.7.  When piloting a rail vehicle , Rule 124 of the New Zealand Rail Operating Rules and 
+Procedures states in part that the pilot must:  
+Check that any points are correctly set between the train and the agreed 
+feature/location (destination) . 
+4.3.8.  As previously mentioned, the pilot did not fully c heck the setting of the points to the 
+maintenance depot to ensure that they were set for the intended movement , instead making 
+an assumption that they were correctly set based on the presence of the stop -disc and 
+derailer protection.  
+4.3.9.  The Commission  noted t hat Rule 124 is titled ' Propelling of V ehicles on Main Line', however it 
+found that  pilots are trained to apply this rule to all lines including depots, terminals, yards 
+and sidings.   In the field,  pilots actively demonstrate  the principle of applying Rule  124 to all 
+lines.  KiwiRail are aware that  Rule 124's  wording is not aligned with current practice and are 
+working to updat e the rulebook . 
+Refuelling procedures  
+4.3.10.  As the original plan was for the locomotives to be taken  to the refuelling area  for refuelling, the 
+Commission sought to review the procedures for this task, but there were no procedures .  
+Refuelling is a  task that has potential environmental and safety risks.  Although not a factor 
+contributing to this incident, it  is another example  of a system that would benefit from another 
+level of audit and control . 
+                                                        
+16 Sidings where points and signalling are hand operated and are not arranged to prevent conflicting 
+movements.  
+
+<< Page 10 >>
+ Final Report RO -2017 -106 Summary  
+4.3.11.  The incident highlights the importance of having clear , documented procedures  in place that 
+conform with any overarching rules and/or standards . It also highlights the importa nce of  
+following procedures  that are in place , namely:  
+ had the set of points leading to the maintenance depot been controlled in accordance with 
+Rule 909, it is very likely that they would have been set in the co rrect position for the 
+movement  
+ had the set of points to the maintenance depot been checked before the locomotives 
+entered the siding, it is virtually certain that it would have been noticed that they were set  
+incorrectly  
+ notwithstanding these first two points, had the moving locomotives bee n within sight of the 
+pilot, it is about as likely as not that the wrong -routing would have been noticed in time to 
+avoid a collision at the maintenance depot  
+ had the incompatibility  between the design s of the derailer and the cowcatcher on the lead 
+locomo tive been identified, it would have been known that  without a redesign  the derailer 
+would not have performed its function and derailed the lead locomotive before it reached 
+the maintenance depot . 
+4.3.12.  An effective check and audit regime ought to have identified  one or more of these issues, and 
+the incident avoided.  Indications are that there was little in the way of auditing the Invercargill 
+Joint Operating Plan .  Consequently the non -conformities and examples of non -compliance 
+found within the yard went unchec ked. 
+4.3.13.  KiwiRail has since undertaken safety action s to address this safety issue at the Invercargill 
+yard and to improve compliance  in other yards throughout its New Zealand network .  
+Final Report RO -2017 -106 
+<< Page 11 >>
+ 5. Findings  
+5.1. The locomotives were wrong -routed into the maintenance depot because the necessary 
+checks to ensure that the points were set correctly for the movement were not made.  
+5.2. The procedures in the Invercargill Joint Operating Plan  for protecting the maintenance de pot 
+from unin tended rail movements did not conform with the KiwiRail rules. 
+5.3. Indications are that staff were routinely not complying with the procedures set out in the 
+Invercargill Joint Operating Plan . 
+5.4. The level of audit and compliance testing of the Inver cargill Joint Operating Plan  were not 
+robust in detecting and address ing compliance issues in the Invercargill yard.  
+ 
+ 
+ 
+  
+
+<< Page 12 >>
+ Final Report RO -2017 -106 6. Safety issue  
+6.1. The level of audit and compliance testing of the Invercargill Joint Operating Plan  were  not 
+robust in detecting and address ing compliance issues in the Invercargill yard.  
+  
+Final Report RO -2017 -106 
+<< Page 13 >>
+ 7. Safety a ctions  
+General  
+7.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+7.2. In response to this  incident , and due to the recent high number of collisions in yards,  KiwiRail  
+introduced a  maximum speed limit  of 15km/h  for all movements within yards, terminals and 
+sidings.  
+7.3. On 21 November 2017 KiwiRail held a one -hour safety stop meeting at each facility to discuss 
+with all staff the reasons for shunting collisions occur ring and to identify ideas for preventing 
+collisions.  A total of 472 pieces of feedback were  received, including  369 regarding  why 
+collisions might be occurring and 72 ideas to prevent collisions.   
+7.4. On 11 June 2018 a follow -up safety stop meeting was held to feed  back on progress made 
+from the initial meeting and to share ideas across different teams and locations.  
+7.5. The safety stop meetings were used to reinforce the New Zealand Rail Operating Code , 
+Section 5.1, Shunting Procedures  - Rule 4.2.1 : 
+4.2.1 Range of Vision  
+Range of vision means that a member of the shunt crew must signal the movement 
+from a position at or near the head of the movement in the direction of travel; this 
+will ensure a clear view of the intended route.  
+The range of vision will be influenced by things like weather, buildings, grade and 
+time of day and may require significant movement on the part of the shunter in order 
+to maintain range of vision.  
+Maintaining a Range of Vision when Piloting by Quad bike or Vehicle  
+o Travel a safe distance ahead of the movement immediately adjacent to and 
+clear of the intended route  
+o Pilot vehicles must be restricted to designated road vehicle route when 
+piloting  
+o The movement must be stopped and the way must be clear before driving 
+across or fouling the track on which the vehicles are moving  
+ When driving a quad bike approved hands -free equipment must be 
+used if operati ng a radio or cell phone . 
+7.6. Additionally, New Zealand Rail Operating Code , Section 5.1  - Rule 5.3.2 Radio Commands 
+was reinforced:  
+5.3.2 Radio Commands  
+When shunting and piloting:  
+o The pilot / shunter MUST maintain radio contact with the Locomotive Operator  
+o The pilot / shunter MUST initiate radio communications at 10 second intervals  
+o The movement is to be stopped if there is no communication, or 
+communication is broken . 
+The initial instruction to move must:  
+
+<< Page 14 >>
+ Final Report RO -2017 -106 o Advise where the movement is to move from taking acc ount of position of the 
+locomotive and where it is to end.  In other words the direction and distance to 
+travel must be identified.  
+o The person receiving the information must repeat it back to confirm the 
+instruction is understood before the movement commen ces. 
+o Where appropriate the actual road or siding name is to be used.  
+o The Locomotive Operator must have a clear understanding of what direction to 
+move in given their knowledge of the yard layout.  
+The Locomotive Operator must be advised if the movement is i nto an empty or 
+occupied road.  If the movement is into an occupied road the distance to the 
+stationary vehicles must be called.  
+The Pilot / Shunter must start calling lengths to go towards a ny stationary object 
+with a wago n "countdown" as follows:  
+10 - 8 - 6 - 4 - 2 - 1 - ½ - STOP  
+(Repeat the command "STOP" several times until the Locomotive Operator has 
+responded to the call.)  
+Terms such as "Steady", "Stop", "Ease Up", and "Out Short" will apply when a 
+member of the shunting gang is giving instructions to  the Locomotive Operator for 
+example bogies to go . 
+The other members of the gang are to maintain radio silence to enable the 
+Locomotive Operator to hear the instructions.  
+7.7. The protection of the Invercargill maintenance depot building was changed, with the use of the 
+derailer discontinued and replaced by padlocking the points to the depot building siding.  The 
+depot mechanical staff have sole control of the padlock key.  The Joint Operation Plan has 
+been updated to document the new depot protection regime.  
+7.8. Based on the design interference that led to the derailer being torn from its sleeper mounts by 
+the locomotive cowcatcher during this incident, KiwiRail is undertaking a rev iew of the 
+suitability of derailers for its current rolling stock.  
+7.9. Based on the lack of formal review or auditing of the Joint Operating Plan at the Invercargill 
+maintenance depot, KiwiRail's Zero Harm Assurance team ha s established a programme 
+whereby the Joint Operating Plan  and associated documents, policies and procedures will be 
+reviewed on a formal rolling basis to ensure they are fit for purpose and being adhered to in 
+practice.  This is on top of the existing  five-year formal review of Joint Operati ng Plan s. 
+ 
+ 
+  
+Final Report RO -2017 -106 
+<< Page 15 >>
+ 8. Recommendations  
+General  
+8.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   Due to the s afety actions taken by KiwiRail subsequent to this incident, no new 
+recommendations have been made as a result of this inquiry . 
+Recommendations  
+8.2. Due to the safety actions taken by KiwiRail  subsequent to this incident, no new 
+recommendations have been made as a result of this inquiry.  
+  
+
+<< Page 16 >>
+ Final Report RO -2017 -106 9. Key l essons  
+9.1. It is important to ensure that  documented rules, policies and procedures are compatible and 
+consistent across all places of work in the rail netw ork. 
+9.2. A culture of non -compliance can quickly develop if staff are not prompted to follow the proper 
+procedures when undertaking their duties, and do not  challenge their work colleagues if they 
+observe them not following procedures.  
+  
+ 
+  
+   
+ 
+  
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+RO-2017 -105 Collision between freight Train 353 and heavy motor vehicle, Lambert Road 
+level crossing, near Kawerau, 6 October 2017  
+RO-2017 -101 Signal Passed at Danger 'A' at compulsory stop boards protected worksite, 
+Pongakawa, Bay of Plenty, 7 February 2017  
+RO-2017 -103 Potential collision between passenger trains, Wellington Railway Station, 15 
+May 2017  
+RO-2017 -102 Signalling irregularity, Wellington Railway Station, 3 April 2017  
+RO-2016 -101 Signal passed at danger leading to near collision, Wellington Railway Station, 
+28 May 2016  
+RO-2016 -102 Train 140 passed Signal 10R at 'Stop', Mission Bush Branch line, Paerata, 
+25 October 2016  
+RO-2015 -103 Track occupation irregularity, leading to near collision, between Manunui and 
+Taumarunui, 15 December 2015  
+RO-2014 -105 Near collision between train and hi -rail excavator, Wairarapa Line near 
+Featherston, 11 August 2014  
+RO-2013 -101 Derailment of freight Train 345, Mission Bush Branch line, 9 January 2013  
+RO-2015 -102 Electric locomotive fire at Palmerston North Terminal, 24 November 2015  
+RO-2014 -104 Express freight train striking hi -rail excavator, within a protected wor k area, 
+Raurimu Spiral, North Island Main Trunk line, 17 June 2014  
+RO-2013 -103 
+and RO -2014 -
+103 Passenger train collisions with Melling Station stop block, 15 April 2013 and 
+27 May 2014  
+RO-2015 -101 Pedestrian fatality, Morningside Drive pedestrian level crossing, West 
+Auckland, 29 January 2015  
+RO-2014 -101 Collision between heavy road vehicle and the Northern Explorer passenger 
+train, Te Onetea Road level crossing, Rangiriri, 27 February 2014  
+RO-2012 -103 Derailment of freight Train 229, Rangitawa -Maewa, North Island Main Trunk,  
+3 May 2012  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 13.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

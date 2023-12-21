@@ -1,0 +1,68 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue management contributing to the incident in the provided document.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'The document does not indicate that human error or assumptions played a role in the engine failure or the subsequent handling of the situation.
+
+    '
+- name: Training and Competency
+  percentage: 0
+  explanation: 'The document does not suggest that a lack of training or competency among the crew or maintenance personnel contributed to the incident.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no evidence in the document to suggest that a lack of training or familiarity with equipment was a factor in the incident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: Crew Resource Management does not appear to be a contributing factor, as the crew's actions were in accordance with the quick reference handbook checklist (4.5.2).
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: The engineer followed the prescribed procedure for a bird strike and performed additional actions to identify any damage (4.1.2). There is no indication that a lack of adherence to safety procedures contributed to the incident.
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that the organizational safety culture was a contributing factor to the incident.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: Risk management and analysis were performed by the engine manufacturer and supported the use of the fly-on allowance, which was not a direct cause of the incident (4.2.10, 4.2.15).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'The document does not indicate that regulatory oversight and compliance were issues in this incident.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There is no indication that a lack of situational awareness by the crew contributed to the incident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: Emergency response preparedness is not mentioned as a contributing factor, and the crew managed the situation according to the quick reference handbook checklist (4.5.2).
+- name: Maintenance and Inspection Regimes
+  percentage: 100
+  explanation: The engine failure was the result of continued operation of the engine damaged in the earlier bird strike (4.1.1). Although the engineer followed the prescribed procedure for a bird strike, no damage was found, and the aeroplane was released back into service (4.1.2). The failure of established detection systems to alert the crew or MOC to a potential problem is a concern (4.1.3).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The use of automation is not identified as a contributing factor in the document.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions and decision making are not cited as factors in the engine failure or the crew''s handling of the incident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: While there were issues with the non-transmission and non-receipt of engine condition reports, these did not contribute to the engine failure itself. The programming logic errors in the automated engine condition report system did not allow MOC to detect indications of the right-hand engine's poor performance, but even if they had, it is unlikely that any subsequent action would have prevented the engine compressor stall event (4.3.1, 4.3.4).
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the incident.
+
+    '

@@ -1,0 +1,17 @@
+"2019_102","[7  8  9  10  11  12  13]","0.0","The document states that ""There were no indications that driver fatigue played a part in this derailment"" (3.25). Therefore, fatigue management did not contribute to the accident.
+","<NA>","20.0","The driver's distraction due to reading the route paperwork at a critical time contributed to the derailment by allowing the train to exceed the maximum permissible speed (3.12). This human error was a significant factor in the accident.
+","<NA>","0.0","There is no mention in the document of inadequate training or lack of competency as contributing factors to the derailment.
+","<NA>","0.0","The document does not provide information suggesting that a lack of training or familiarity with equipment contributed to the derailment.
+","<NA>","0.0","Crew Resource Management does not appear to be a factor in the derailment as there is no mention of teamwork, communication, or leadership issues contributing to the accident.
+","<NA>","20.0","The driver's failure to adhere to the maximum permissible speed while exiting the crossing loop was a direct violation of safety procedures and contributed to the derailment (3.10, 3.11).
+","<NA>","10.0","The suggestion to prevent heavier trains from using the crossing loop was not adopted after a previous incident, which indicates a potential issue with the organization's safety culture (3.33, 3.34). This lack of action on known safety suggestions may have indirectly contributed to the accident.
+","<NA>","0.0","The document does not indicate that inadequate risk management and analysis were factors in the derailment.
+","<NA>","0.0","There is no evidence in the document to suggest that regulatory oversight and compliance, or lack thereof, were factors in the derailment.
+","<NA>","20.0","The driver's loss of situational awareness while reading paperwork and not monitoring the train's speed contributed to the derailment (3.12). This lack of situational awareness was a critical factor.
+","<NA>","0.0","The document does not discuss emergency response preparedness as a contributing factor to the derailment.
+","<NA>","0.0","Maintenance and inspection regimes were not identified as contributing factors, as the track twist was within tolerance limits and did not directly cause the derailment (3.14, 3.15).
+","<NA>","0.0","There is no mention of automation playing a role in the derailment within the document.
+","<NA>","0.0","Weather conditions are not mentioned as a factor in the derailment, and there is no indication that weather influenced decision-making.
+","<NA>","0.0","The document does not indicate that communication breakdown was a factor in the derailment.
+","<NA>","30.0","The phenomenon of dynamic interaction, which includes the combined effects of speed, track geometry, and the high center of gravity of the wagons, was identified as the primary cause of the derailment (4.1, 4.2, 4.3, 4.4, 4.5). This theme encompasses the interplay of multiple factors that individually would not cause a derailment but together resulted in the accident.
+","<NA>","true","N/A"

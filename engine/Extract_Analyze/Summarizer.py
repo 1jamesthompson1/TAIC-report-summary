@@ -161,7 +161,7 @@ issues.
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             summary_final = [report_id, str(pages_read).replace(",", " ")]
-            summary_final.extend([pd.NA] * (self.theme_reader.get_num_themes())*3)
+            summary_final.extend([pd.NA] * (self.theme_reader.get_num_themes()+1)*(3))
             summary_final.extend(["false", "Could not summarize report"])
         else:
             weightings, full_summary_parsed = summary # unpack tuple response

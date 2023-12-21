@@ -1,70 +1,74 @@
-- name: Human Factors - Fatigue and Alertness
+- name: Fatigue Management
   percentage: 40
-  explanation: The driver's fatigue and reduced alertness were significant contributors to the incident. The driver likely experienced microsleeps due to a combination of factors including mild obstructive sleep apnoea, poor sleep quality prior to the shift, and being awake for over 10 hours during a night shift (5.2, 5.3). These factors impaired the driver's ability to observe and respond to the warning and compulsory stop boards, leading to the unauthorised entry into the worksite.
-- name: Human Error and Error Management
-  percentage: 30
-  explanation: Human error played a critical role in the incident. The driver did not see the warning and compulsory stop boards due to microsleeps, which is a form of human error. Additionally, the eProtect system, which was supposed to provide a safety defense, failed due to a technical error that was not detected and rectified by KiwiRail staff (5.6). The lack of a full failure mode analysis for the eProtect system before it was put into service indicates a gap in error management (5.7).
-- name: Equipment Design and Specifications
-  percentage: 15
-  explanation: The eProtect system's failure due to a technical error in the processing unit on board the locomotive contributed to the incident. The system did not alert the driver or apply the train brakes when the train did not stop at the compulsory stop boards (5.6). The lack of a full failure mode analysis and the specific mode of failure not being monitored indicate issues with the equipment design and specifications (5.7).
-- name: Regulatory Compliance and Safety Management
-  percentage: 5
-  explanation: The driver's undetected sleep apnoea and the subsequent failure to manage the risk of fatigue highlight issues with regulatory compliance and safety management. KiwiRail's health assessment process did not ensure that the driver completed the online medical questionnaire themselves, which could have identified the sleep disorder earlier (5.4). Additionally, KiwiRail's fatigue risk management system was still under development and not fully implemented at the time of the incident (5.5).
-- name: Safety Culture and Organizational Influences
-  percentage: 5
-  explanation: The incident revealed that the importance and safety benefits of KiwiRail's health assessment program were not fully realized by those involved (5.4). The driver felt pressured to attend work despite poor sleep, indicating potential issues with the organization's culture regarding fitness for duty (4.4.2). The lack of active monitoring of the eProtect activity database for specific types of errors also points to organizational influences affecting safety performance (4.5.7).
-- name: Training and Preparedness for Emergency Procedures
+  explanation: The driver's fatigue was a significant contributing factor to the incident. The driver was likely experiencing microsleeps due to a combination of factors including mild obstructive sleep apnoea, poor sleep quality prior to the shift, and being awake for over 10 hours during a night shift (5.3). The driver's condition was not detected by KiwiRail's health assessment, and the fatigue risk management system was still under development, which could have provided additional guidance (5.4, 5.5).
+- name: Human Error and Assumptions
   percentage: 0
-  explanation: 'There is no evidence in the document that suggests training and preparedness for emergency procedures were factors in the incident.
+  explanation: 'There is no direct mention of human error and assumptions as a contributing factor in the provided document.
 
     '
-- name: Maintenance Procedures and Compliance
+- name: Training and Competency
   percentage: 0
-  explanation: 'The document does not provide information that maintenance procedures and compliance were factors in the incident.
+  explanation: 'There is no evidence in the document suggesting that a lack of training and competency contributed to the incident.
 
     '
-- name: Fire Detection and Suppression Systems
+- name: Training and Familiarity with Equipment
   percentage: 0
-  explanation: 'Fire detection and suppression systems were not relevant to the incident as there was no fire involved.
+  explanation: 'The document does not indicate that a lack of training or familiarity with equipment was a contributing factor to the incident.
 
     '
-- name: Communication and Crew Resource Management
+- name: Crew Resource Management
   percentage: 0
-  explanation: 'There is no indication that communication and crew resource management were issues in this incident.
+  explanation: 'Crew Resource Management does not appear to be a relevant factor in the incident as per the provided document.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: 'The document does not suggest that a failure to adhere to safety procedures was a contributing factor to the incident.
+
+    '
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The organizational safety culture at KiwiRail may have contributed to the incident, as the importance and safety benefits of the medical assessment program were not fully realized by those involved (5.4). Additionally, the driver felt pressured to attend work despite poor sleep, indicating potential cultural issues regarding fitness for duty (4.4.2).
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'There is no indication in the document that inadequate risk management and analysis were contributing factors to the incident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'The document does not indicate that regulatory oversight and compliance were issues in the incident.
 
     '
 - name: Situational Awareness
   percentage: 0
-  explanation: 'While the driver''s situational awareness was affected by fatigue, the specific theme of situational awareness is not separately addressed as it is encompassed within the themes of Human Factors - Fatigue and Alertness, and Human Error and Error Management.
+  explanation: 'The document does not suggest that a lack of situational awareness was a contributing factor to the incident.
 
     '
-- name: Risk Assessment and Management
+- name: Emergency Response Preparedness
   percentage: 0
-  explanation: 'The document does not provide evidence that risk assessment and management, as separate themes, were factors in the incident.
+  explanation: 'Emergency response preparedness does not appear to be a relevant factor in the incident as per the provided document.
 
     '
-- name: Emergency Response Planning and Coordination
+- name: Maintenance and Inspection Regimes
   percentage: 0
-  explanation: 'Emergency response planning and coordination were not factors in the incident as there was no emergency response required.
+  explanation: 'The document does not indicate that maintenance and inspection regimes were contributing factors to the incident.
 
     '
-- name: Distracted Operation
+- name: Use of Automation
+  percentage: 50
+  explanation: The eProtect system, an automated safety defense, failed to prevent the train from entering the worksite due to a technical error that was not detected and rectified by KiwiRail staff (5.6). The eProtect system had not been subjected to a full failure mode analysis before being put into service, and the specific mode of failure was not being monitored (5.7).
+- name: Weather Conditions and Decision Making
   percentage: 0
-  explanation: 'The document does not indicate that the driver was engaged in any distractions, such as using mobile devices, that contributed to the incident.
+  explanation: 'Weather conditions and decision-making were not mentioned as factors in the incident.
 
     '
-- name: Structural Integrity and Material Fatigue
+- name: Communication Breakdown
   percentage: 0
-  explanation: 'There is no evidence in the document that structural integrity and material fatigue were factors in the incident.
-
-    '
-- name: Weather Information Dissemination and Interpretation
-  percentage: 0
-  explanation: 'Weather was not a factor in the incident, and there is no mention of weather information dissemination and interpretation issues.
+  explanation: 'There is no evidence in the document suggesting that communication breakdown was a contributing factor to the incident.
 
     '
 - name: Other
-  percentage: 5
-  explanation: 'The "Other" category accounts for any unidentified or unquantified factors that may have contributed to the incident but are not explicitly mentioned or detailed in the document.
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the incident.
 
     '

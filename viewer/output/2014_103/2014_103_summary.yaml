@@ -1,0 +1,56 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: There is no indication in the document that fatigue played a role in the accidents. Both drivers were reported to have had light duty schedules with adequate periods of rest prior to the accidents, and cell phone records showed they were not engaged in text or voice communications at the time, making fatigue and distraction very unlikely factors (4.2.10).
+- name: Human Error and Assumptions
+  percentage: 5
+  explanation: While human error is mentioned, it is not highlighted as a significant contributing factor. The drivers were handling their trains normally and were within the speed limit, and there was no evidence of impairment for the driver of Melling 1. The driver of Melling 2 tested positive for cannabis, but it was not possible to determine if he was impaired at the time of the accident (4.1.4, 4.2.7, 4.2.9).
+- name: Training and Competency
+  percentage: 15
+  explanation: The training provided to drivers transitioning from the Ganz Mavag to the Matangi trains was insufficient, particularly regarding the differences in braking systems and operation in low-adhesion conditions. This lack of information may have affected the drivers' ability to respond effectively to the low-adhesion conditions (4.5.2, 4.5.8).
+- name: Training and Familiarity with Equipment
+  percentage: 15
+  explanation: The drivers were not adequately informed about the differences between the Ganz Mavag and Matangi braking systems, especially in low-adhesion conditions. This lack of familiarity with the equipment's operation in such conditions contributed to the accidents (4.5.2, 4.5.8).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no mention of crew resource management issues in the document, and the accidents involved single drivers, not crews, so this theme is not applicable.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: 'The document does not indicate that a failure to adhere to safety procedures was a factor in the accidents.
+
+    '
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The document suggests that the risk of trains operating into terminating stations had not kept pace with industry changes, implying that organizational safety culture may not have been proactive in addressing emerging risks (4.1.8).
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The operating risk and potential consequences of a train overrunning the platform at Melling Station and colliding with the stop block had not been adequately considered, indicating a lack of effective risk management and analysis (4.3.1, 5.4).
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: The National Rail System Standards did not require the Matangi braking system to be tested under slippery track conditions against an appropriate standard, which is a regulatory oversight issue that contributed to the accidents (4.1.6, 5.7).
+- name: Situational Awareness
+  percentage: 0
+  explanation: There is no indication that a lack of situational awareness contributed to the accidents. Both drivers were alert, focused, and not distracted (4.2.10).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'The document does not discuss emergency response preparedness as a contributing factor to the accidents.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: There was nothing in the condition of the train wheels or the profile of the rail that would have adversely affected the wheel-to-rail contact patch, indicating that maintenance and inspection were not contributing factors (4.1.3).
+- name: Use of Automation
+  percentage: 20
+  explanation: The automated braking systems did not perform as well as they could have in low-adhesion conditions, and the wheel-slide protection systems were unable to regain an effective rate of deceleration. This reliance on automation without optimal performance tuning contributed significantly to the accidents (4.1.5, 4.2.2, 4.2.6, 5.5).
+- name: Weather Conditions and Decision Making
+  percentage: 15
+  explanation: Weather conditions, specifically the formation of dew on the rail after several dry days, created low-adhesion conditions that were a significant factor in both accidents. The drivers' decision-making was based on normal conditions, not accounting for the reduced adhesion (4.2.14, 4.2.15, 5.1).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no evidence in the document of communication breakdown contributing to the accidents.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accidents beyond those already listed.

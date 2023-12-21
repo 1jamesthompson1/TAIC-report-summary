@@ -1,0 +1,70 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the accident within the document. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'The document does not provide evidence that human error or assumptions played a role in the accident. The investigation focused on mechanical and environmental factors.
+
+    '
+- name: Training and Competency
+  percentage: 20
+  explanation: The instructor on board the helicopter was possibly unaware of how critical and unsafe it was to fly the R22 helicopter at high altitude, at near maximum weight, and in conditions of moderate to extreme turbulence (4.3.4, 4.3.30, 4.3.31). This indicates a potential lack of training and competency in understanding the limitations of the helicopter under such conditions.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no evidence in the document to suggest that a lack of training or familiarity with the helicopter''s equipment contributed to the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'The document does not provide information on crew resource management issues or teamwork failures that contributed to the accident.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: 'The document does not indicate that a failure to adhere to safety procedures was a factor in the accident.
+
+    '
+- name: Organizational Safety Culture
+  percentage: 15
+  explanation: The New Zealand regulatory oversight provided insufficient guidance and mandatory requirements for instructors, pilots, and operators of the Robinson type R22 and R44 helicopters to minimize the known risk of exceeding the helicopters' limitations (4.3.5, 4.3.18, 4.3.25). This suggests issues with the organizational safety culture that could have contributed to the accident.
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'The document does not provide evidence that inadequate risk management and analysis were factors in the accident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 15
+  explanation: 'The New Zealand regulatory system has not provided sufficient mandatory requirements and guidance for instructors, pilots, and operators of the Robinson type R22 and R44 helicopters to minimize the known risk of exceeding the helicopters'' capabilities (4.1.4.1, 4.3.5, 4.3.18). This lack of regulatory oversight and compliance is a contributing factor to the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 10
+  explanation: The instructor was possibly unaware of how critical and unsafe it was to fly the R22 helicopter at high altitude, at near maximum weight, and in conditions of moderate to extreme turbulence (4.3.4, 4.3.30, 4.3.31). This indicates a lack of situational awareness regarding the environmental conditions and the helicopter's limitations.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no mention in the document of emergency response preparedness being a factor in the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The document states that an inspection of the maintenance records for the helicopter revealed nothing of concern (4.2.23). Therefore, maintenance and inspection regimes were not a contributing factor to the accident.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not discuss the use of automation as a contributing factor to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 40
+  explanation: The helicopter was operating in conditions of reduced power margin where it was near to the maximum allowable weight, and flying at relatively high altitude in strong wind and moderate to extreme turbulence, at the time it broke up in flight (5.1). Weather conditions and decision making were significant contributing factors to the accident.
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'The document does not indicate that communication breakdown was a factor in the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the accident outside of the predefined themes.
+
+    '

@@ -1,48 +1,48 @@
-- name: Human Factors - Fatigue and Alertness
+- name: Fatigue Management
   percentage: 0
-  explanation: There is no mention of the pilot's physical or mental state, fatigue, or alertness as contributing factors in the report. The pilot's actions during the emergency were appropriate and there was no evidence of fatigue-related errors (4.2.1-4.2.6).
+  explanation: There is no mention of fatigue or overwork contributing to the accident within the provided document. Therefore, this theme is not applicable to the accident (4.1.1-4.4.3).
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: The report explicitly states that "there was no evidence that any act or omission of the pilot contributed to the loss of engine performance" (5.1). This suggests that human error and assumptions were not contributing factors in the accident.
+- name: Training and Competency
+  percentage: 0
+  explanation: The document does not provide any information suggesting that a lack of training or competency on the part of the pilot contributed to the accident. The pilot's actions during the emergency were appropriate (4.2.2-4.2.4).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: There is no indication in the document that a lack of training or familiarity with the helicopter's equipment contributed to the accident. The pilot's actions suggest he was familiar with the emergency procedures (4.2.2-4.2.4).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: Crew Resource Management does not appear to be a factor in this accident as there is no mention of crew interactions or teamwork issues affecting the outcome (4.1.1-4.4.3).
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The pilot did not have a life jacket on board, which was contrary to Civil Aviation Rules, and this reduced his chances of survival (5.3). This indicates a lack of adherence to safety procedures that could have affected the outcome post-accident.
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: There were discrepancies and inconsistencies in maintenance control procedures and logbooks, indicating that some past maintenance control procedures had not met the standards required by Civil Aviation Rules (4.2.14). This suggests issues with the organizational safety culture that could potentially affect safety.
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: The document does not provide evidence that inadequate risk management and analysis contributed to the accident. The cause of the engine N2 reduction was not determined (4.4.1).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The pilot operated over water without having a life jacket on board, which is against Civil Aviation Rules (5.3). This indicates a lack of regulatory compliance that could have affected survival, not the accident itself.
 - name: Situational Awareness
   percentage: 0
-  explanation: The pilot maintained situational awareness by taking immediate action upon hearing a noise and observing the N2 decrease, and by executing an autorotative descent and ditching maneuver (4.2.1, 4.2.4).
-- name: Distracted Operation
+  explanation: There is no indication that a lack of situational awareness contributed to the accident. The pilot responded appropriately to the emergency situation (4.2.1-4.2.4).
+- name: Emergency Response Preparedness
   percentage: 0
-  explanation: There is no indication in the report that the pilot was distracted or that distracted operation played a role in the accident (4.1.1-4.2.6).
-- name: Human Error and Error Management
+  explanation: The document does not suggest that emergency response preparedness was a factor in the accident. The pilot's actions during the emergency were appropriate, and the lack of emergency equipment did not contribute to the engine issue (4.2.1-4.2.4).
+- name: Maintenance and Inspection Regimes
   percentage: 0
-  explanation: The report explicitly states that there was no evidence that any act or omission of the pilot contributed to the loss of engine performance (5.1).
-- name: Safety Culture and Organizational Influences
-  percentage: 10
-  explanation: The report mentions discrepancies and inconsistencies in maintenance records, indicating that some past maintenance control procedures did not meet the standards required by Civil Aviation Rules (4.2.14). This suggests organizational influences and safety culture may have played a role.
-- name: Communication and Crew Resource Management
+  explanation: Although there were some maintenance discrepancies noted, there was no technical reason found for the reported engine speed decrease, and no significant defect was found during inspections of the fuel control unit and the power turbine governor (5.2, 4.2.10).
+- name: Use of Automation
   percentage: 0
-  explanation: The report does not indicate any issues with communication or crew resource management as factors in the accident. The pilot was operating the helicopter alone, so crew resource management is not applicable (4.1.1-4.2.6).
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 5
-  explanation: The pilot's training for emergency procedures is not directly mentioned as a contributing factor, but the report suggests that helicopter underwater escape training might have lessened disorientation during the escape (4.3.6).
-- name: Emergency Response Planning and Coordination
-  percentage: 5
-  explanation: The lack of flight-following and the absence of a life jacket on board indicate gaps in emergency response planning (4.3.1, 4.3.2, 4.3.3).
-- name: Maintenance Procedures and Compliance
-  percentage: 20
-  explanation: The report discusses the possibility of maintenance-related issues, such as the condition of the pneumatic lines and the fuel control unit, although no definitive technical reason for the engine speed decrease was found (4.2.7-4.2.13).
-- name: Fire Detection and Suppression Systems
+  explanation: The document does not mention any issues related to the use of automation that could have contributed to the accident (4.1.1-4.4.3).
+- name: Weather Conditions and Decision Making
   percentage: 0
-  explanation: There was no fire reported in the incident, so fire detection and suppression systems are not relevant to this accident (4.1.1-4.2.14).
-- name: Regulatory Compliance and Safety Management
-  percentage: 10
-  explanation: The pilot operated over water without a life jacket on board, which is contrary to Civil Aviation Rules, indicating a lack of regulatory compliance (5.3).
-- name: Equipment Design and Specifications
+  explanation: Weather was not considered a factor in the accident as the weather was acceptable for the nature of the flight (4.1.2).
+- name: Communication Breakdown
   percentage: 0
-  explanation: There is no information in the report suggesting that the design and specifications of the helicopter or its equipment contributed to the accident (4.1.1-4.2.14).
-- name: Risk Assessment and Management
-  percentage: 0
-  explanation: The report does not provide information on risk assessment and management practices that could have contributed to the accident (4.1.1-4.2.14).
-- name: Weather Information Dissemination and Interpretation
-  percentage: 0
-  explanation: Weather was not a factor in the accident, as the weather was acceptable for the nature of the flight (4.1.2).
-- name: Structural Integrity and Material Fatigue
-  percentage: 0
-  explanation: There is no mention of structural integrity or material fatigue issues contributing to the accident. The helicopter was able to ditch successfully without significant fuselage damage (4.2.4).
+  explanation: There is no evidence of communication breakdown contributing to the accident. The pilot did not make an emergency radio call due to the rapid development of the situation, not because of a communication failure (4.3.2).
 - name: Other
-  percentage: 50
-  explanation: '"Other" encompasses the unidentified cause of the engine N2 reduction, as the report concludes that the cause of the reported engine N2 reduction was not determined (4.4.1). This represents a significant unknown factor in the accident.'
+  percentage: 80
+  explanation: The cause of the reported engine N2 reduction was not determined (4.4.1), and no technical reason was found for the engine speed decrease (5.2). Since the document does not provide sufficient information to attribute the cause of the accident to any of the predefined safety themes, the majority of the weighting is assigned to "Other," which encompasses the undetermined technical or mechanical factors that led to the power loss.

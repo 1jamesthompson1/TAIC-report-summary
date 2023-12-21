@@ -1,0 +1,1483 @@
+﻿  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Aviation inquiry 10 -005 
+Cessna A152, ZK -NPL and Robinson R22  Beta, ZK -HIE near -collision  
+New Plymouth Aerodrome  
+10 May 2010  
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view  to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted i n whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+     
+ 
+ 
+ 
+ 
+Final Report  
+Aviation inquiry 10-005 
+Cessna A152 , ZK-NPL and Robinson R22 Beta, ZK-HIE 
+near -collision  
+ 
+New Plymouth Aerodrome  
+10 May 2010  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for public ation :  October 2011    
+
+ 
+    Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accid ents and incidents for New Zealand, and  
+co-ordinating and co -operating with other accident investigation organisations overseas .  The principal 
+purpose of its inquiries is to determine the circumstances and causes of occurrence s with a view to 
+avoiding sim ilar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informi ng members of the transport sector, both 
+domestically and internationally, of the lessons that can be learnt from transport accidents and 
+incidents.   
+ 
+Commissioners  
+Chief Commissioner     John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull, QC  
+Commissioner     Captain Bryan Wyness   
+Assessor     Pat Scotter  
+    
+ 
+Key Commission personnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator in Charge    Peter R Williams  
+General Counsel    Rama Rewi  
+  
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16 , AXA Centre , 80 The Terrace , PO Box 10 323 , Wellington 6143 , New Zealand  
+ 
+  
+ Important n otes 
+Nature of th is report  
+This report has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 prohibit s the 
+report from being admi tted as evidence in any proceedin g except  for a Coroner's inquest.  
+Ownership of report  
+The report remains the intellectual property of the Transport Accident Investigation Commission.  It may 
+be reprinted in whole or in part, provided acknowledgement is made to the Transport Accident 
+Investigation Commission.  
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+the report.  Documents that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in th e report  are provided by, 
+and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+    
+Cessna A152, ZK -NPL 
+(photograph courtesy of New Plymouth Aero Club)  
+ 
+ 
+Robinson R22 Beta, ZK -HIE 
+
+ 
+     
+Location of the incident  
+ 
+ 
+Legend  
+ New Plymouth Aerodrome  
+  
+  
+  
+Source: mapsof.net  
+  
+   Contents  
+1. Executive summary  ................................ ................................ ................................ ................................ ..... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ................................ . 3 
+3. Factual information  ................................ ................................ ................................ ................................ ..... 4 
+3.1. Histories of the flights  ................................ ................................ ................................ ....................  4 
+3.2. Personnel information  ................................ ................................ ................................ ...................  7 
+3.3. Aircraft information  ................................ ................................ ................................ ........................  8 
+3.4. Aerodrome information  ................................ ................................ ................................ .................  8 
+3.5. Air traffic control  ................................ ................................ ................................ ............................  9 
+General  ................................ ................................ ................................ ................................ ...........  9 
+Aerodrome joining procedures  ................................ ................................ ................................ ...... 9 
+Traffic information  ................................ ................................ ................................ .......................  11 
+ATC services to VFR aircraft  ................................ ................................ ................................ ........  12 
+3.6. See-and-avoid principle  ................................ ................................ ................................ ...............  12 
+3.7. Other occurrences  ................................ ................................ ................................ .......................  13 
+4. Analysis  ................................ ................................ ................................ ................................ ......................  15 
+Simultaneous opposed circuits  ................................ ................................ ................................ ................  15 
+The overhead circuit joining procedure  ................................ ................................ ................................ ... 17 
+The see -and-avoid principle  ................................ ................................ ................................ ......................  18 
+Air traffic control of VFR aircraft  ................................ ................................ ................................ ...............  21 
+5. Findings  ................................ ................................ ................................ ................................ .....................  22 
+6. Safety actions  ................................ ................................ ................................ ................................ ............  23 
+General  ................................ ................................ ................................ ................................ ......................  23 
+7. Recommendations  ................................ ................................ ................................ ................................ .... 24 
+General  ................................ ................................ ................................ ................................ ......................  24 
+Recommendations  ................................ ................................ ................................ ................................ .... 24 
+8. Key lesso ns ................................ ................................ ................................ ................................ ................  25 
+9. Citations  ................................ ................................ ................................ ................................ .....................  26 
+Appendix 1:   Limitations of the see -and-avoid concept  ................................ ................................ ..............  27 
+ 
+
+  
+  Report 10 -005 | Page  i Figures  
+Figure 1      Location of New Plymouth Aerodrome  ................................ ................................ ........................  4 
+Figure 2      New Plymouth Aerodrome  ................................ ................................ ................................ ............  6 
+Figure 3      Conflicting flight paths ................................ ................................ ................................ ..................  7 
+Figure 4      Aerodrome traffic circuit ................................ ................................ ................................ .............  11 
+ 
+ 
+ 
+ 
+  
+ 
+Page ii | Report 10 -005    Abbreviations  
+Airways   Airways Corporation of New Zealand Limited  
+ATC  air traffic control  
+ 
+CAA  Civil Aviation Authority  
+Commission  The Transport Accident Investigation Commission  
+ 
+Director   The Director of Civil Aviation  
+ 
+ft  feet 
+ 
+ICAO   International Civil Aviation Organization  
+IFR  instrument flight rules, or a flight conducted in accordance with those rules  
+ 
+UTC  coordinated universal time    
+ 
+VFR  visual flight rules , or a flight conducted in accordance with those rules  
+ 
+Glossary  
+aerodrome control service  an air tr affic control ( ATC) service provided for the control of aerodrome 
+traffic  
+ 
+aerodrome traffic circuit  the pattern flown by aircraft operating i n the vicinity of an aerodrome  
+ 
+ATC clearance  authorisation for an aircraft to proceed under condition s specified by 
+an ATC unit  
+ 
+ATC instruction  a directive issued by ATC for the purpose of requiring a pilot to take a 
+specific action  
+ 
+autorotation  the condition of flight during which a helicopter's  main rotor is driven 
+only by aerodynamic forces, with no power from the engine control zone
+ controlled airspace extending upwards from the surface of  the 
+earth to a specified limit  
+ 
+controlled aerodrome  an aerodrome at which an ATC service is provided to a erodrome traffic  
+ 
+instrument flight rules prescribed operating procedures for flight that may be conducted solely 
+by reference to aircraft instruments  
+ 
+move ment  a take -off or landing  
+ 
+separation  the prescribed spacing of aircraft to achieve their safe move ment in 
+flight and whi le taking off and landing  
+ 
+tower  the ATC  unit at an aerodrome  
+ 
+traffic inform ation  information issued by an air traffic service unit to alert a pilot to other 
+known or observed air traffic, which may be in proximity to the position, 
+or intended route of flight, and to help t he pilot to avoid a collision  
+ 
+visual flight rules  prescribed operating procedures for flight in meteorological conditions 
+that are expressed in terms of visibility, distance from cloud, and ceiling 
+equal to or bet ter than specified minima     
+  
+  Report 10 -005 | Page  iii Data summary  
+ 
+Aircraft registration : ZK-NPL ZK-HIE 
+Type and serial number:  Cessna A152  Aerobat, 0921  Robinson R22 Beta, 3724  
+Number and type of 
+engines:  one reciprocating Textron 
+Lycoming O-235 L2C  one reciprocating Textron 
+Lycoming  O-360-J2A 
+Year of manufacture:  1979  2004  
+Operator:  New Plymouth Aero Club  Ice Aviation  Limite d 
+Type of flight:  VFR - training  VFR - training  
+Persons on board:  2 2 
+Pilot's licence:  commercial pilot licence 
+(aeroplane)  airline transport pilot licence 
+(helicopter)  
+Pilot's age:  49 47 
+Pilot's total flying 
+experience:  1348 hours (1250 hours on type)  6235 hours (146 hours on type)  
+Date and time : 10 May 2010 , 10011 
+Location : New Plymouth Aerodrome  
+latitude:  39° 00.5´ south    longitude: 174° 10.7´ east  
+Injuries : nil 
+Damage : nil 
+  
+                                                        
+1 Times in this report are New Zealand Standard Time (UTC + 12 hours) and expressed in the 24 -hour format . 
+
+  
+  Report 10 -005 
+<< Page 1 >>
+  
+1. Executive summary  
+1.1. On 10 M ay 2010, a light helicopter and a light aeroplane, both of which were being used for  
+dual pilot training , had a near -collision overhead New Plymouth Aerodrome.  
+1.2. The pilots of both aircraft were operating under VFR and in accordance with their  respective 
+ATC clearances.  The aeroplane was descending from overhead using the standard circuit 
+joining procedure  for a left -hand circuit for  runway 14, the runway in use , whereas the 
+helicopter was operating above the normal circuit altitude i n a right -hand circuit for the same 
+runway .  The aeroplane descended through the downwind leg of the helicopter's  circuit.  
+1.3. The Transport Accident Investig ation Commission (the Commission ) made the following 
+findings:  
+ the air traffic controller's (the controller's) instructions were valid for Class D airspace, 
+but he did not manage the increased risk of collision presented by the aeroplane 
+descending to circ uit altitude in the opposite direction  
+ the aviation community, including  the regulator , Airways  Corporation of New Zealand 
+Limited (Airways) , aerodrome operators and aircraft  operators, does not have a 
+consistent approach to reduc ing the collision risk s associated with simultaneous 
+opposed circuits at aerodromes  
+ Civil Aviation Rule 91.223 c an be interpreted ambiguously in non -standard traffic 
+situations, which could contribute to the collision risk at aerodromes  
+ the descriptions of and requirements for t he standard overhead circuit joining 
+procedure that are published in Civil Aviation Rule s, the Aeronautical Information 
+Publication New Zealand (Aeronautical Information Publication) and the Flight 
+Instructor 's Guide can be misinterpreted or misapplied in non-standard traffic 
+situations.  This could contribute to the collision risk at aerodromes  
+ the controller recognised the potential for a conflict, but he provided traffic information 
+to the pilots of the aeroplane only , and not to the pilots of the helico pter 
+ the incident would not have occurred had either of the aeroplane pilot s stopped the 
+descent when he lost sight of the helicopter  
+ the incident would have been less likely to occur had the aeroplane pilots immediately 
+broadcast that they had lost sight of the helicopter  
+ local aerodrome user groups benefit their participants by providing information about 
+their respective activities.  Aerodrome operators , in order to manage their operational 
+risks, should require  their relevant tenants and users to partic ipate fully in such groups  
+ the see -and-avoid principle continues to have relevance, provided pilots and controllers 
+counter its well-known  limitations by the appropriate sharing of traffic information  
+ some VFR pilots continue to misconstrue ATC traffic information and instructions in 
+Class C and D airspace as the provision of traffic separation . 
+1.4. The Commission made the following recommendation : 
+That the Director of Civil Aviation takes  action to address  the following safety issues:  
+ the aviation community, including  the regulator , Airways, aerodrome operators and 
+aircraft  operators, d oes not have a consistent approach to reducing the collision risk s 
+associated with simultaneous opposed circuits at aerodro mes.   Simultaneous opposed 
+circuits can exist as a result of locally  agreed procedures at uncontrolled aerodromes, 
+and also at controlled aerodromes under some  conditions  
+ 
+
+<< Page 2 >>
+ Report 10 -005    
+ ATC, having cleared an aircraft to make a non -standard circuit , is not prevented from  
+concurrently clear ing a following  aircraft to join the circuit by the standard overhead 
+joining procedure, even though th at could lead to a head -on traffic conflict  
+ the descriptions of and requirements for the standard overhead circuit joining 
+procedure t hat are published in the Civil Aviation Rule s, the Aeronautical Information 
+Publication  and the Flight Instructor 's Guide can be misinterpreted or misapplied , 
+particularly if a preceding aircraft is operating in a non -standard circuit, which could 
+contribu te to the collision risk at aerodromes  
+ in controlled airspace where separation is not provided between aircraft  operating 
+under VFR , a VFR aircraft that is instructed to follow another aircraft is not explicitly 
+required to advise ATC promptly if visual co ntact  is lost with the relevant traffic  
+ the present voluntary and informal nature of aerodrome user groups restricts their 
+potential for improving operational safety at aerodromes . 
+1.5. The key lessons  from the inquiry into this occurrence were:  
+ the aviation community must take concerted and consistent action to re duce  the 
+collision risk associated with simultaneous opposed circuits at aerodromes  
+ controllers must be alert to situations that warrant the issuing of mutual traffic 
+information  
+ to minim ise the risk of collision, p ilots must combine an effective look -out with an 
+attentive radio listen -out, especially in the vicinity of aerod romes  
+ pilots should advise, by broadcast if appropriate, when relevant traffic is no longer in 
+sight  and take any ne cessary action to ensure the safety of the ir flight s 
+ the see -and-avoid principle continue s to have relevance, provided pilots and controllers 
+counter its well-known  limitations by the appropriate sharing of traffic information  
+ Civil Aviation Rules and Aeronautical Information Publications must be written carefully 
+and explained clearly to students to avoid ambigu ity 
+ pilots must understand that, under most circumstances, ATC does not provide 
+separation between VFR traffic in Clas s C and Class D airspace , even when clearances 
+are issued  
+ aerodrome operators have a responsibility to manage their operational risks.  A useful  
+tool for risk management is an effective user group that includes all tenants and regular 
+aircraft operators at  the aerodrome.   
+  
+  Report 10 -005 
+<< Page 3 >>
+ 2. Conduct of the inquiry  
+2.1. On 10 May 2010  Airways, the national air traffic services provider, notified the Civil Aviation 
+Authority (CAA) of this serious incident.  The CAA notified the Commission  prompt ly and the 
+Commission opened an inquiry the next day. 
+2.2. On 17 May 2010  the involved pilots and the controller were interviewed a t New Plymouth 
+Aerodrome .  Enquiries were also made of the New Plymouth Aero Club, the aerodrome 
+operator, other aircraft operators , and specialist staff of the C AA and Airways.  
+2.3. On 25 August 2011 the Director of Civil Aviation (Director) and 2 senior managers met the 
+Commission to discuss pertinent aspects of the inquiry, including the CAA's responsibilities 
+and action it had taken or intended to take in regard to aerodrome safety.  
+2.4. On 13 September  2011 the Commission approved a draft final report for circulation to 
+interested persons.   Submissions were received from the Director; Airways, on behalf of the 
+Corporation and the controller; and the New Plymouth Aero Clu b on behalf of the club and the 
+aeroplane instructor.  These submissions were considered when preparing the final report.  
+2.5. On 26 October 2011  the Commission approved the publication of the final report.  
+ 
+  
+ 
+
+<< Page 4 >>
+ Report 10 -005    3. Factual information  
+3.1. Histories of the flights  
+3.1.1.  On 10  May 2010 at 0916, a Cessna 152 registered ZK -NPL ( the aeroplane ) departed from 
+runway 052 at New Plymouth Aerodrome with an instructor and student on board for a training 
+area east of the aerodrome (see Figure  1).  The purpose of the flight , which was conducted 
+under VFR, was consolidation before a  flight test for the iss ue of a private pilot licence.  
+ 
+3.1.2.  At 0927, a Robinson R22 Beta helicopter, registered ZK -HIE ( the helicopter ) and also 
+operating under VFR, entered the control zone from New Plymouth city with an instructor and 
+student pilot on board to conduct pre -solo training at the aerodrome.  The controller later 
+cleared the helicopter  to operate in the runway 14 circuit, a  published left -hand circuit (see 
+Figure 2).  
+ 
+ 
+Figure 1 
+Location of New Plymouth Aerodrome  
+3.1.3.  At 0952, the helicopter instructor was cleared to fly circuits at 1500 feet (ft) , rather than the 
+normal 1100 ft,  to facilitate training in forced landings without engine power (autorotations ).  
+Two minutes later, to assist in sequencing a passenger  aeroplane  approaching from the north 
+to land on runway 23, the controller instructed the helicopter  to operate in a right -hand circuit 
+for runway 14.   He later asked the helicopter  to ‗keep the circ uit tight and continue in a right 
+hand circuit '. 
+3.1.4.  At 0955, the pilots of the aeroplane  requested to return to the aerodrome for a ‗standard 
+overhead re-join'.  Neither the pilots nor the controller mentioned the runway in use.  The 
+controller cleared the aeroplane  to fly to the aerodrome  via the town of Brixton at 2000 ft and 
+to report at Brixton and again when overhead  the aerodrome .  This clearance was correctly 
+read back.  
+3.1.5.  At about 1000, when just north of the threshold of runway 14, the aeroplane  reported 
+overhead  the aerodrome at 2000 ft.  The controller asked the aeroplane  to ‗report sighting a 
+Robinson R22 just climbing out runway 14 to enter a right -hand circuit at 1500 feet' .  The 
+student  pilot, sitting in the left seat of the aeroplane , repo rted ―Traffic in sight' .  The controller 
+then cleared the aeroplane  for a ‗standard overhead re-join runway 14', which was read back 
+correctly.  The pilots of the aeroplane  had the anti -collision beacon  selected on , but could  not 
+recall whether the forward -facing landing light  was on . 
+                                                        
+2 The runway designation is the magnetic heading in the take -off direction, rounded to the nearest 10 degrees.  
+Source:Map Toaster, n.d.
+approximate 
+training area 
+of aeroplane 
+training  
+aerodrome  
+the helicopter 
+came from west 
+of city  
+  
+  Report 10 -005 
+<< Page 5 >>
+ 3.1.6.  The aeroplane instructor said that while they were turning left before descending the 
+helicopter  was well clear, but then it ‗just seemed to disappear against that background' and 
+he did not see it again until the near -miss.  While turning, the aeroplane's high wing obscured 
+the pilots' view in the direction where the helicopter  had last been seen.  
+3.1.7.  About 30 seconds after being cleared  for the joining procedure , the aeroplane  reported 
+‗descending non -traffic side to join left -hand downwind 14'.  A left -hand circuit was opposite to 
+the circuit  direction being flown by the helicopter.  The controller then instructed the aeroplane  
+to report when downwind.  The controller  could no t see either aircraft at this stage, because 
+his view was obscured by the control tower roof.  
+3.1.8.  The pilots of the helicopter  and of the aeroplane  were aware of each  other' s radio 
+transmissions .  No position report was made by the helicopter pilots on the downwind leg of 
+that circuit .  The controller later said th at th e pilots of the helicopter  had been making the 
+required downwind calls,  but they  tended to be made at a late stage . 
+3.1.9.  The aeroplane instructor said that he knew  they would descend through the helic opter's 
+circuit , but he was not concerned  when he could no longer see the helicopter , because it had 
+been well clear when  last s een.  He told his student to aim for the upwind threshold of runway 
+14, thinking that would keep the aeroplane  closer to the runway and inside the helicopter 's 
+circuit pattern.  Neither aeroplane pilot told the other that he had lost sight of the helicopter , 
+nor asked the controller for its position.  
+3.1.10.  After the aeroplane  had been cleared for a ‗standard overhead rej oin runway 14', the 
+helicopter instructor realised the aeroplane would descend through the helicopter 's circuit.  As 
+the student (who was sitting in the right seat) began the right  turn for the crosswind leg, the 
+instructor told him to look for the aeropla ne.  The helicopter anti -collision beacon was on, but 
+the instructor said he thought th at th e landing light, which was angled downwards for 
+optimum use at night, was probably not on.  
+3.1.11.  The helicopter was passing about 1400 ft on the climbing turn to the down wind leg  when  the 
+instructor saw the aeroplane  close above, heading towards him, so he took control and 
+descended the helicopter  straight ahead  (see Figure 3) .  The helicopter student could not 
+recall all of  the earlier transmissions from the aeroplane  and he did not see the aeroplane 
+until the instructor took control .  The instructor asked the controller whether the aeroplane  
+had had the helicopter in sight, to which one of the aeroplane pilots replied ‗affirm[ative]'.  
+3.1.12.  Both instructors said the incident was serious.  The aeroplane instructor and student met the 
+controller after they had landed.  The helicopter instructor did not discuss the incident further 
+with the controller, but met the aero club chief instructor and the aeroplane instructor and 
+student later.  They agreed that aero club staff and students were unfamiliar with how tight  
+the circuits of light helicopter s could be .  Following the incident , the helicopter instructor gave 
+some aero club instructors familia risation flights in the Robinson R22 . 
+ 
+
+<< Page 6 >>
+ Report 10 -005     
+Figure 2 
+New Plymouth Aerodrome  
+
+  
+  Report 10 -005 
+<< Page 7 >>
+  
+Figure 3 
+Conflicting flight paths  
+3.2. Personnel information  
+3.2.1.  The aeroplane instructor had obtained a commercial pilot licence (aeroplane) in October 1999  
+and a C-category instructor rating in December 2007.  He had been a part -time employee of 
+the aero club since July 2008 , and on 6 October 2009 obtained a B -categor y instructor rating 
+and completed his biennial flight review .  His total flight time was 1350 hours, about 1200 
+hours of which w ere on C152  aeroplanes operating from New Plymouth Aerodrome .  He had 
+no helicopter experience.  
+3.2.2.  The aeroplane student had commen ced flight training in 2009 and by  10 May 2010  he had 
+accrued 54 hours ' flight experience, of which about 18 hours  had been  solo flying.   During the 
+previous week he had had 2 dual flights and 2 solo cross -country flights.   He passed the flight 
+test for th e issue of a private pilot licence 2 days after this incident.  
+3.2.3.  The helicopter instructor was normally employed in Australia as a  helicopter instructor.  Since 
+December 2009  he had owned , and operated , between duty periods with his employer, a 
+flight training business using the helicopter .  He held an airline transport pilot licence 
+(helicopter) issued in 2003 and an A -category helicopter instructor rating.  He also held a 
+commercial pilot licence (aerop lane) issued in 1986  and a C-category aeroplane instructor 
+rating.  His most recent flight crew competency check had been conducted by his employer on 
+26 April 2010 and his previous biennial flight review had been conducted in New Zealand on 
+12 August 2009 . 
+helicopter  
+circuit  
+aeroplane  
+joining 
+overhead  
+ 
+
+<< Page 8 >>
+ Report 10 -005    3.2.4.  The helicopter student had received 19 hours of dual training only since commenc ing training 
+in February 2010 .  He had last flown, before the incident flight, on 23 April 2010.  
+3.2.5.  All of the pilots considered they had been  fit to fly  on 10 May 2010 . 
+3.2.6.  The con troller had been an air traffic controller since 1981.  H is most recent  proficiency 
+assessment had been conducted on 10 August 2009 .  On 10 May 2010 the controller 
+operated the morning shift, commencing at 0630 and ending at 1310.  The controller 
+considere d he had been  fit for duty .  Around the time of the incident he was controlling 4 
+aircraft.  
+3.3. Aircraft information  
+3.3.1.  The Cessna 152 i s a high -wing light aeroplane that seats  2 persons  and is commonly used in 
+basic flight training.  ZK-NPL was painted white wit h red trim.  
+3.3.2.  The Robinson R22 is a light helicopter that seat s 2 persons and is popular for basic flight 
+training.  ZK-HIE was painted dark grey. 
+3.3.3.  Both aircraft were using the New Plymouth tower radio frequency during these flights.  Neither 
+was fitted with an airborne collision a voidance  system, nor were they required to be so fitted.  
+3.4. Aerodrome information  
+3.4.1.  New Plymouth Aerodrome has a main runway, 05/23, and a s econdary runway 14/32.  
+Although runway 23 was in use initially on 10 May 2010 , both directions of  the main runway, 
+as well as grass runway 14, were used at different times during the hour preceding the  
+incident. The standard circuit elevation is 1100 ft.  
+3.4.2.  Apart from scheduled airline flights and those of a helicopter operator that flew medium 
+helicopte rs in support of the off -shore petroleum industry, movements at the aerodrome were 
+primarily those of a pilot training organisation  affiliated to the local aero club .  Basic  helicopter 
+pilot training had commenced, on an occasional basis,  at th e aerodrome in December 2009 .  
+The off -shore helicopter operator's flight procedures were similar to  those for aeroplanes in 
+regard to arrivals and departures , so most of the pilot training school and aero club pilots were 
+unfamiliar with the tight circuits typically flown by light helicopters.  
+3.4.3.  Aerodrome user groups were encouraged by the CAA, but at the time of the incident they had a 
+voluntary and informal status.   A user group did exist  at New Plymouth , but  even a year after 
+the incident  the helicopter instructor did not know that.  Prior to  the incident , the integration of 
+helicopter and aeroplane training patterns had not been considered an issue.  
+3.4.4.  The CAA advised that it had begun the process of amend ing Civil Aviation Rule Part 139, 
+Aerodrome - certification, operation and use to require aerodrome operators  to pro-actively 
+assess and manage risks within their areas of responsibility  and to give the CAA the necessary 
+tools to monitor aerodrome performance .  To assist aerodrome operators  to manage their 
+operational risks , in February 2011 the CAA issued Advisory Circular 139 -15, Aeronautical 
+studies for aerodrome operators  (CAA, 2011b) . 
+3.4.5.  The advisory circular described an aeronautical study as a tool that should be a par t of an  
+aerodrome operator's s afety  management system  and that could be us ed to review the 
+appropriateness and adequacy of aerodrome and local airspace processes and procedures .  
+Risk management was a  key goal .  As decisions made to mitigate one risk could  affect other 
+facets of aerodrome  operations, the best results were likely if k ey stakeholders  (often 
+represented by a user group) had broadly agreed with the outcomes of such a  study.  
+  
+  
+  Report 10 -005 
+<< Page 9 >>
+ 3.5. Air traffic control  
+General  
+3.5.1.  The International Civil Aviation Organisation (ICAO) states that the prim e objective  of ATC is to 
+prevent collisions between aircraft .  A seconda ry purpose is to expedite and maintain a  safe 
+and efficient flow of air traffic  (ICAO, 2001, section 2.2) . 
+3.5.2.  Airspace  is classified  according to the services and separation between aircraft that ATC 
+provide s, as well as certain operating requirements .  New Plymouth Aerodrome  lies within the 
+New Plymouth control zone, which is Class  D airspace.  In Class  D airspace ATC d oes not 
+provide separat ion between VFR flights , but does give traffic information  to enable pilots to 
+look for possible conflicting traffic .3  ATC separat es runway movements for all aircraft at 
+controlled aerodromes and provides wake  turbulence separation  in most circumstances . 
+3.5.3.  The direction of runway  circuit s is left-hand unless  promulgated otherwise  for a particular 
+runway , or the pilot is otherwise authorised or instruc ted by ATC .4  The Manual of Air Traffic 
+Services authorise s a controller  to instruct  an aircraft to fly a non -standard circuit if the 
+manoeuvre is not specifically precluded and adequate traffic control c an be maintained.  Such 
+a clearance  is specific to the aircraft  so cleared .  A controller  can also vary the circuit altitude  
+to fit  weath er, traffic separation or specific operational requirements ( Airways , Manual of Air 
+Traffic Services, p.RAC 4 -1, effective 20 November 2008).  
+3.5.4.  The Manual of Air Traffic Services  require s a clearance to ‗contain all the elements needed for 
+separation, provision of traffic information and traffic management as appropriate'.  In Class  D 
+airspace , a clearance ha s to ‗provide for the safe and orderly management of traffic, and the 
+prevention o f collisions by the provision of effective traffic information' ( Airways, Manual of Air 
+Traffic Services , p.RAC 3 -13, effective 8 April 2010).  
+Aerodrome joining procedures  
+3.5.5.  The procedures for operations at unattended and attended (controlled) aerodromes are given 
+in the Aeronautical Information Publication .  A key requirement is that pilots ‗enteri ng or  flying  
+within the circuit [are to make all turns ] in the direction appropriate to the runway -in-use' 
+(Airways, A eronautical Information Publication,  p.AD1.5 -2, 2 September 2004).   The 
+Aeronautical Information Publication  gives guidance on simultaneous circuits at unattended 
+aerodromes, and parallel (sam e direction) runway operations at controlled aerodromes.   
+Generally, the first aircraft t o form  a traffic cir cuit ha s priority.  
+3.5.6.  The pilots of the aeroplane  requested a ‗standard overhead re-join', examples of which are 
+shown in Figure 4.  The standard procedure should be followed at unattended aerodromes or 
+at any aerodrome when a pilot is unfamiliar with the aerodrome layout or uncertain of the 
+circuit traffic.  The procedure require s, in part, for the joining pilot to ‗pass overhead the 
+aerodrome in order to observe wind, circuit traffic…' .  Once the circuit in use or most suitable 
+to use  has been determined, the standard procedure is to ‗make all subsequent turns in th e 
+direction  of th e traffic  circuit ' (Airways, A eronautical Information Publication , p.AD1.5 -4, 14 
+February 2008) . 
+3.5.7.  The Aeronautical Information Publication  describes the over head circuit joining procedure as a 
+way of compl ying with C ivil Aviation Rule 91.223 , Operating on and in the vicinity of an 
+aerodrome , which state s in part5: 
+(a) Except as provided in paragraph (b), a pilot of an aeroplane operating on or in 
+the vicinity of an aerodrome must — 
+(1) observe other aerodrome traffic for the purpo se of avoiding a collision; 
+and 
+                                                        
+3 Separation  is provided by ATC in some cases of aircraft operating as special VFR flights (in poor meteorological 
+conditions) and in all cases between special VFR flights and flights operating under IFR . 
+4 Civil Aviation Rule Part 93 prescribes the processes for the approval and disestablishment of right -hand circuits.  
+5  Sub-section (b) dealt with operations at an aviation event.  
+ 
+
+<< Page 10 >>
+ Report 10 -005    (2) unless otherwise authorised or instructed by ATC, conform with or avoid 
+the aerodrome traffic circuit formed by other aircraft; and  
+(3) per form a left -hand aerodrome traffic circuit when approaching for a 
+landing at and after take -off from an aerodrome that is  published in the 
+[Aeronautical Information Publication] NZ unless — 
+(i) the pilot is otherwise authorised or instruc ted by ATC; or  ... 
+3.5.8.  Civil Aviation Rule  91.223 correspond s to an ICAO standard  for the avoidance of collisions, 
+which state s, in part  (ICAO, 2005, section 3.2.5) : 
+An aircraft operated on or in the vicinity of an aerodrome shall, whether or not 
+within an aerodrome traffic zone : 
+a) observe other aerodrome traffic for the purpose of avoiding collision;  
+b) conform with or avoid the pattern of traffic formed by other aircraft in 
+operation;  
+c) make all turns to the left, when approaching for a landing and after taking off, 
+unless ot herwise instructed .  
+3.5.9.  The CAA Flight Instructor's Guide states, ‗The standard overhead join procedure is the 
+standard  [emphasis in original] method for joining the traffic circuit at an aerodrome' (CAA, 
+2003, p.193).  The guide further states, ‗ When  joining  at a controlled aerodrome, the pilot -in-
+command always has the option of requesting a standard overhead join' ( ibid, p.199), or ATC 
+could instruct a pilot to follow the procedure.  
+3.5.10.  The CAA Flight Instructor's Guide confirms  the priority of established traffic in setting the 
+circuit direction, stating  (CAA , 2003, p.195):  
+Determine the runway in use by reference to the windsocks, or other traffic 
+established in the circuit.  All subsequent turns ar e made in the circuit directi on 
+and  
+Aircraft already in the circuit have right of way.   This means if aircraft in the circuit 
+are using a runway considered unsuitable for your operation, the responsibility of 
+avoiding conf lict is on the joining aircraft . 
+3.5.11.  The controller said that he expected th e aeroplane  to join for a left-hand circuit  from the 
+overhead  position .  The pilot's next radio call t hat they were ‗descending non -traffic side to join 
+left-hand downwind 14' was consistent with the controller's expectation.  However, the 
+aeropl ane instructor later said he would not have flown a circuit contrary to that of the 
+preceding traffic when at an uncontrolled aerodrome.  
+3.5.12.  In an issue of Vector magazine published after th e New Plymouth  incident,  the CAA cautioned 
+that a ‗standard' overhead rejoin might not be the safest option under all circumstances (CAA, 
+2010 b, p.15 ).  The article primarily concerned joining the circuit at an  unattended aerodrome 
+and gave examples of when a standard join might not be prudent , for example  when an 
+opposed  circuit was in use or helicopters were conducting autorotation training.  The article , in  
+stressing the importance of pilots communicating their positions and intentions, stated : 
+… only continue with an overhead join if there is no potential for a traffic c onflict 
+while descending to circuit height .  If you see or hear any traffic on the ―non -
+traffic‖ side of the runway you have chosen to use - do not descend in 
+accordance with t he standard overhead join plan . 
+3.5.13.  In a later, short article in Vector,  the CAA  stressed the importance of complying with the 
+published circuit direction  when conducting an overhead joining procedure (CAA, 2011a, p.3).  
+  
+  Report 10 -005 
+<< Page 11 >>
+ 3.5.14.  The importance of joining a circuit correctly was illustrated by the CAA flight test standards 
+stating that a pilot who joined contrary to preceding traffic and who failed to maintain sight of 
+the traffic would be declared ‗not yet competent' in that criterion.6 
+ 
+Figure 4 
+Aerodrome traffic circuit  
+(Examples of the standard overhead  circuit joining procedure are highlighted ) 
+Traffic information  
+3.5.15.  ATC does not  provide separation  between  VFR aircraft in Class D airspace, but at times it 
+would  be appropriate to provide t he aircraft with t raffic information, the purpose of which is to:  
+alert a pilot to other known… traffic, which may be in proximity to the position or 
+intended route of the flight, thereby helping the pilot avoid a collision .  The 
+provision of traffic information is not inte nded to relieve the pilot of the 
+responsibility of conti nued vigilance to see and avoid other aircraft; it is intended 
+to assist visual surveillance by drawing attention to possible conflicting traffic  
+(Airways, Manual of Air Traffic Services  advisory circular Nr 12, 2 June 2011) . 
+3.5.16.  That ATC advisory circular lists ‗integration into a traffic pattern' and 'positioning for the 
+purpose of sequencing' as aerodrome control ‗situations where traffic information may be 
+provided for the purpose of situ ational awareness or the prevention of collision' .  The circular 
+also states:  
+When separation within controlled airspace is not applicable, prevention of 
+collision is collaborative between ATC and each affected pilot ... It is achieved by 
+the provision of a n ATC clearance… supported by traffic information that will 
+enable each pilot , as far as practicable, to comprehend the relative position of 
+other aircraft, and if necessary to sight and avoid each other  [emphasis added].  
+                                                        
+6 CAA Flight Test Standards Guide, Recreational and Private Pilot Licence Issue and Biennial Flight Review (BFR). 
+Aeroplane, Revision 7, Se ptember 2010, pp.78, 94.  
+Source: Aeronautical Information Publication  
+ 
+
+<< Page 12 >>
+ Report 10 -005    3.5.17.  The ATC advisory circular further states that ‗ the provision of traffic information is an essential 
+component of the provi sion of a n [air traffic service ], therefore where a threat of collision 
+exists, it must be passed '. 
+3.5.18.  ‗Traffic avoidance advice ' is described as an enhancement of traffic  information that ‗pre -
+supposes an awareness, either by a pilot or a controller, of a high er risk of collision'.   Traffic 
+avoidance advice could include vectoring, re routing, holding or an altitude change.  
+3.5.19.  Although VFR aircraft are not separat ed in Class  D (or Class C)  airspace, some provisions  of 
+the Manual of Air Traffic Services  in regard to separation  could be useful ly observed by VFR 
+pilots when  instructed to report sighting or to follow an  aircraft  (Airways, Manual of Air Traffic 
+Services , p.RAC  5-7, 15 February 2007) .  For example : 
+The acceptance of a clearance to… ―follow‖ another aircraft is an 
+acknowledgement that the pilot will keep the other aircraft continuously in sight 
+and maintain adequate separation from that aircraft . 
+and 
+When instruc ted to… ―follow‖ another aircraft, a pilot is required to promptly 
+advise ATC … if visual contact is lost . 
+ATC services to VFR aircraft  
+3.5.20.  The helicopter instructor  said that in his experience ATC instructions to VFR aircraft in Class D 
+airspace often amount ed to ‗fairly positive separation' , especially between VFR aircraft  and 
+those aircraft operating under I FR.  However, he believed the onus for collision avoidance was 
+on pilots who acknowledged traffic information.  
+3.5.21.  The aeroplane instructor understood that he  was responsible for his own separation from 
+other traffic in Class D airspace.  However, he recalled occasions when ATC had delayed 
+approval for a manoeuvre or required him to orbit to fit into a VFR traffic sequence , which 
+instructions he took to be, in effect, the provision of separation.  
+3.5.22.  The CAA sought to dispel that sort of  misconception with an article in the Vector magazine that 
+emphasised VFR aircraft were not , apart from specific exceptions,  separated from other VFR 
+aircraft (CAA, 2010c, p.13) .  The article , written before this incident but published afterwards,  
+commented that ‗it can be surprising for a VFR pilot to realise that even though they have 
+been given a clearance by a control tower… they are not being separated from other VFR 
+traffic ‖.  This situation  also applied to VFR traffic in Class C airspace.  
+3.5.23.  The Vector  article stresse d that traffic avoidance for pilots of VFR aircraft depend ed on the ir 
+having a good lookout, making proper position reports, having correct situational awareness 
+and adhering to the general flight  rules  published  in the Civil Aviation Rules . 
+3.5.24.  On 4 May 2010, the CAA issued Advisory Circular  172-2, Air traffic services at controlled 
+aerodromes  to provide guidance to controllers and pilots because the rules, which  general ly 
+met ICAO standards and recommended practices, were often imprecise.  A second aim was to 
+ensure that Airways provided a ‗consistent and predictable' service at similar air traffic service 
+units .  Audits of air traffic service units ha d shown that local adaptations ha d in some cases 
+deviated from the intended  procedures .  The advisory circular state d, in part:  
+1.3.3 The level of air traffic service that is to be provided at an aerodrome 
+depends on the classification of the airspace designated for the control zone. … 
+An inconsistent level of aerodrome control service may lead a pilot to 
+misinterpreting the ATC se parations being applied in a particular classification of 
+airspace and, in the worst case, expect separation when none is provided.  
+3.6. See-and-avoid principle  
+3.6.1.  See-and-avoid is an established operating principle for reducing the risk of a collision, 
+particular ly in uncontrolled airspace, but the method is applicable at all times when flying in 
+visual meteorological conditions.  Civil Aviation Rule 91.229, Right -of-way rules,  is typical of 
+national civil aviation rules in requiring that:  
+  
+  Report 10 -005 
+<< Page 13 >>
+ A pilot of an aircraft… must, when weather conditions permit, regardless of 
+whether the flight is performed under IFR or under VFR, maintain a visual lookout 
+so as to see and avoid other aircraft…  
+3.6.2.  As well as conducting an active visual scan for other aircraft, pilots are alerted  where to look 
+by the content of radio transmissions.  Therefore, it is essential that pilots pay attention to 
+others' radio transmissions.  The importance of an active look -out and listen -out must be 
+explained to student pilots on their first day of train ing and emphasised continually thereafter.  
+3.6.3.  However, many studies, including one by the Australian Bureau of Air Safety Investigation in 
+1991, have confirmed that the see -and-avoid concept has many limitations.  Examples of 
+these are given in Appendix 1.  T hese limitations should be well known to licensed pilots and 
+have been re -stated by the CAA7 and in previous accident reports of the Commission.8 
+3.6.4.  When a pilot has doubt about the location of a threat aircraft, a simple solution is to radio ATC 
+or to broadc ast, ‗Where is the traffic?' .  Similarly, if ATC has advised a pilot of another aircraft 
+that is a collision risk (which implies it should be kept in sight), the pilot should advise ATC 
+when the traffic is no longer seen.  
+3.6.5.  Technological solutions to minimis e the collision risk include airborne collision avoidance 
+systems of varying complexity and cost.  These systems are most effective if the conflicting 
+aircraft are fitted with ATC transponders with an altitude -reporting function, which are now 
+mandatory in  all controlled airspace in New Zealand.  
+3.7. Other  occurrences  
+3.7.1.  In 2009, the Commission published its report of an inquiry into a fatal collision that had 
+occurred on 17 February 2008 between a light aeroplane and a light helicopter in the vicinity 
+of Paraparaumu Aerodrome , an uncontrolled aerodrome .  The helicopter was established in 
+one circuit when the aeroplane joined overhead for a parallel runway with an opposite -
+direction circuit pattern.  T wo pertinent f indings in th e Commission's report were  (the 
+Commission , 2009, p.33):  
+The design of the aerodrome circuit pattern, with counter -rotating circuit 
+directions around parallel runways, together with the standard overhead joining 
+procedure, was flawed in that it created the potential for 2 aircraft in different 
+circuits to be at the same height at the same place.  
+The relative speeds involved, difficulty in visually detecting other aircraft under 
+certain conditions, and the natural limitations of human performance meant  that 
+the concept of ―see and avoid ‖ cannot  be relied on as the only defence for 
+preventing mid -air collisions.  As well as radio communications, aerodrome circuit  
+design and other technologies  should be considered by regulators and 
+aerodrome operators to lessen the risk. 
+3.7.2.  As a result of the  Paraparaumu accident, th at aerodrome operator  amended the published 
+aerodrome information to discourage the use of the standard overhea d circuit joining 
+procedure .  The amended information also noted that ‗helicopters will be much closer to the 
+aerodrome during autorotation practice than during a normal circuit' ( Airways, Aeronautical 
+Information Publication , p.NZPP AD 2 -35-1).  The CAA published an article in its Vector 
+magazine  to remind pilots of the correct proced ures at unattended aerodromes  (CAA, 201 0b, 
+p.15 ). 
+3.7.3.  The Commission in its report on the Paraparaumu accident made 3 recommendations to the 
+Director aimed  at reducing the risk of collision , particularly  at non-certificated aerodromes  as 
+Paraparaumu was at the time, and which are uncontrolled .  One of those recommendations 
+was that the Director  ‗review the operations at other aerodromes around New Zealand that 
+have oppos ing circuits, to assess an d minimise the potential for mid -air collisions' . 
+                                                        
+7 CAA, 2009, p.4 . 
+8 For example , Report 08 -001, mid -air collision, Paraparaumu, 17 February 2008 . 
+ 
+
+<< Page 14 >>
+ Report 10 -005    3.7.4.  On 11 September 2009, i n reply, the Director noted  that ‗the Aeronautical Information 
+Publication Volume 1 AD 1.5 clearly provides advice on the issue of Standard Overhead Circuit 
+Joining procedures' .  He did not accept the recommendation as written, but he undertook  (the 
+Commission , 2009, p.36) : 
+… to make aerodrome operators aware of the TAIC recommendation, and their 
+responsibilities with respect to the formation of aerodrome user groups/safety 
+committees.  
+and 
+… to make aerodrome operators aware of the risks associated with a ‗ mix' of 
+operational activitie s, and their need to develop appropriate local procedures to 
+minimise the risk of mid -air collisions.  
+3.7.5.  The CAA advised at that time that it had reviewed the procedures published for  all New 
+Zealand aerodromes  and had not identif ied any safety issues as socia ted with opposed circuit 
+directions as  long as pilots complied with the Civil Aviation Rule s and the aerodrome 
+operational conditions . 
+3.7.6.  On 1 November 2010 the CAA was notified of an incident  that had occurred  on 22 October 
+2010 at Palmerston  North Aerodrome in which a large freight aeroplane joined downwind left -
+hand while light training aeroplane s were operating in the published right -hand circuit.   The 
+pilot of the freight aeroplane reported taking avoiding action after one of the light aer oplane 
+pilots, who was confused and unfamiliar with the situation, carried out an orbit late on the 
+downwind leg.  The incident occu rred at night outside the ATC hours of service . 
+3.7.7.  The p rocedures that were in place at Palmerston North had been agreed in Nov ember 2008 
+by the aerodrome u ser group , which comprised representatives of the aerodrome operator, 
+Airways , the Royal New Zealand Air Force, scheduled airlines,  and operators based at 
+Palmerston North Aerodrome .  The procedures  were intended to satisfy  recommendations 
+made by the Director after a March 2008 C AA study of the Palmerston North  airspace , but  the 
+CAA was not a party to the agreement and had not known th at the procedures had a provision 
+for simultaneous opposed circuits.  
+3.7.8.  On 23 February 2011, as noted above, the CAA published Advisory Circular 139 -15, 
+Aeronautical studies for aerodrome operators , as a guide for the management of operational 
+risks , such as a mix of different activities . 
+ 
+ 
+  
+  
+  Report 10 -005 
+<< Page 15 >>
+ 4. Analysis  
+4.1. This serious incident occ urred when the pilots of the aeroplane , who were co nduct ing an 
+overhead circuit joining procedure , descended through the downwind leg of the circuit of the 
+helicopter , which  was established in a  non-standard circuit fo r the same runway.  The pilots of  
+both aircraft had been cleared by ATC f or their respective procedures , and they and the 
+controller had recognised  that th e aeroplane 's descent  could  conflict with the helicopter 's 
+circuit . 
+4.2. The controlle r issued the clearance to the aeroplane after its  pilots said they had the  
+helicopter in sight .  Within Class D airspace  such as th e New Plymouth control zone, 
+separation was not applied by ATC between VFR aircraft , therefore each pilot-in-command was 
+responsible for seeing and avoiding the other  aircraft .  The situation increase d the risk of a 
+collision , but there was an expectation that the risk would be mitigated by the aeroplane p ilots 
+performing the joining procedure safely  and all of the pilots exercising an effective lookout . 
+4.3. However, both of the aeroplane pilots lost sight of the helicopter before beginning the descent  
+and continued with  the procedure with out advising each other or ATC.  The helicopter pilots 
+were unable to look for the aeroplane until they were on the cross wind leg of their circu it, and 
+the controller  had not specifically advise d them that the aeroplane was relevant traffic.  
+4.4. This incident occurred at a  controlled aerodrome, and although no collision resulted, some of 
+the circumstances were similar to those of the collision  at the uncontrolled Paraparaumu  
+Aerodrome  in 2008 .  After that accident, the Commission made r ecommendations  that were 
+intended to prevent a recurrence .  However, the present  investigation found that t he aviation 
+community , from regulator to operators,  had not acted in concert or consistently to reduc e the 
+mid-air collision risk at aerodromes . 
+4.5. The following  safety issues were identified and are discussed more fully below:  
+ the simultaneous use of opposed  circuits  
+ the correct interpretation of the overhead circu it joining procedure.  
+4.6. The following factors are also discussed:  
+ the limitations of the see -and-avoid principle for collision avoidance  
+ pilots' understanding of the ATC services provided to VFR aircraft.  
+4.7. Environmental and aircraft factors were relevant only to the extent that they affected the 
+conspicuity of the helicopter and hence the effectiveness of the see -and-avoid principle.  
+Simultaneous opposed  circuits  
+4.8. Apart from the passenger aeroplane that had l anded, the helicopter  and the training 
+aeroplane  were the only 2 aircraft in the vicinity of the aerodrome.  The controller expected 
+that the aeroplane  would fly a le ft-hand pattern to runway 14, which  he recognised  could lead 
+to a conflict with the helicopter .  The controller  mitigated thi s risk to some extent by informing 
+the aeroplane pilots  that the helicopter was in a right -hand circuit and asking the pilots if they 
+had it in sight before he cleared them f or the joining procedure .  Although not s pecifically 
+stated, t he traffic information  was intended to  caution t he pilots  of the aeroplane  that a 
+descent on the ‗non-traffic ' side of the left-hand circuit would pass through the altitude and 
+downwind leg of the helicopter's circuit.  
+4.9. After passing th e traffic information to the aeroplane pilots, t he controller could have avoided 
+the identified potential conflict had he instructed them to ‗pass behind the helicopter ', or 
+instructed them  to join for a right -hand circuit, a variation with which  a student  pilot about to 
+sit their flight test should have easily coped.  
+4.10.  However, after the aeroplane pilots reported that the helicopter  was in sight, the weight of 
+responsibility for collision avoidance shifted from the controller to them .  If the helicopter 
+ 
+
+<< Page 16 >>
+ Report 10 -005    pilots had sighted the aeroplane  early enough , the collision risk should have  reduce d further , 
+but they did not see it until a collision nearly  occurred.  
+4.11.  The instructor in the aeroplane  said he would not have flown a circuit opposed to that of the 
+precedin g traffic if he had be en at an uncontrolled aerodrome .  However, compliance with Civil 
+Aviation Rule  91.2 23 was required at uncontrolled and controlled aerodromes.   Therefore, it 
+appeared that the instructor's instinct to reduc e the collision risk was overridden by his 
+understanding of how  to comply with the clear ance for the standard joining procedure.  
+4.12.  The incident drew attention to what should be an obvious threat: a situation of simultaneous 
+opposed circuits means there is no ‗non -traffic side' for a joi ning aircraft to descend to circuit 
+altitude, which increases the risk of collision.  While controllers need to have the flexibility to 
+direct a specific aircraft to operate contrary to a published circuit, they should not do so if that 
+creates a n unmanageable  risk of collision, and a ll affected  pilots should be  aware of such an 
+abnormal situation .  Unless a controller is providing  separation , the situations when an aircraft 
+can be safely cleared to perform an opposed circuit will be limited . 
+Findin g  
+The controller's instructions were valid for Class D airspace, but he did not manage 
+the increased risk of collision presented by the aeroplane descending to circuit 
+altitude in the opposite direction . 
+ 
+4.13.  That such a situation could be ‗set up' at a controlled aerodrome suggested that the lessons 
+of the Paraparaumu accident  in 2008  had not been understood by all pilots and controllers .  
+After the Paraparaumu accident , the Director indicated that he would encourage the formation 
+of aerodrome user groups and expect them to develop local procedures to minimis e the risk of 
+collisions.  Ironically , it was a user group that developed a local procedure incorporating 
+opposed circuits that were a factor in the incident at Palmerston North in October 2010 . 
+4.14.  The Commission's recommendations after the Paraparaumu accident might have been 
+interpreted by some industry participants as applying to uncontrolled aerodromes  only.  
+However, the role of ATC in the New Plymou th incident and the industry cross -section that was 
+involved in formulating the Palmerston North user group procedures suggested t hat the 
+aviation community ha d not fully understood  or taken effective action at all aerodromes to 
+remove , or at least reduce,  the co llision risk associated with opposed circuits . 
+4.15.  In September 2009 , the CAA advised the Commission that it had not identified any safety 
+issues as sociated with opposed circuits as  long as pilots complied with the Civil Aviation Rule s 
+and the aerodrome  operational conditions .  In a submission made to the Commission during 
+the present inquiry, the CAA stated  its preference for aerodrome operators to take more 
+responsib ility for assessing and mitigating the operational risks at their aerodromes , rather 
+than have the CAA intervene.  The use of  opposed  circuits to segregate a mix of aircraft types 
+or activities  was one such risk to be managed .  This preference of the CAA was in line with the  
+proposed amendment to Civil Aviation Rule s Part 139 .  In the interim, t he CAA has worked 
+with some aerodrome operators and Airways  to mitigate identified risks (see  section 6.2 ). 
+Finding  
+The aviation community, including  the regulator , Airways, aerodrome operators and 
+aircraft  operators, does not have a con sistent approach to reducing the collision risk s 
+associated with simultaneous opposed circuits at aerodromes.  
+4.16.  The requirements of sub -sections (a)(2) and (a)(3) of Civil Aviation Rule  91.2 23 could be read 
+as conflict ing, when applied to the circumstances  of th e New Plymouth  incident.  The rule 
+stated, in part:  
+  
+  Report 10 -005 
+<< Page 17 >>
+ (a) Except as provided in paragraph (b), a pilot of an aeroplane operating on or in the  
+vicinity of an aerodrome must — 
+(1) observe other aerodrome traffic for the purpo se of avoiding a collision; 
+and 
+(2) unless otherwise authorised or instructed by ATC, conform with or avoid 
+the aerodrome traffic circuit formed by other aircraft; and  
+(3) perform  a left -hand aerodrome traffic circuit when approaching for a 
+landing at and after take -off from an aerodrome that is  published in the 
+[Aeronautical Information Publication] NZ unless — 
+    (i) the pilot is otherwise authorised or instruc ted by ATC; or...  
+4.17.  As the controller had not instruct ed the aeroplane  to fly a different circuit from that of  the 
+helicopter , its pilots would seem to have been required by (a)(2)  to fly the same right-hand 
+circuit  as the helicopter  (or remain clear ), but (a)(3) also appeare d to require them to fly the 
+published left-hand circuit  for runway 14 . 
+4.18.  Specialist ATC staff of the CAA and Airways  advised that a non-standard circuit required  a 
+specific clearance,  so in their view the pilots of the aeroplane  were correct in joining for the 
+published  left-hand circuit, in a ccordance with sub -section (a)(3 ).  As a left-hand circuit did not 
+conform with th at of the helicopter , the pilots of the aeroplane  were therefore obliged by sub -
+section (a)( 2) to avoid the helicopter' s circuit.  In pra ctice, th ey might  have achieve d that by 
+judging  carefull y the timing and flight path of the ir descen t from 2000 ft  to the circuit altitude . 
+4.19.  Although Civil Aviation Rule  91.223(a)(2) reflected the corresponding ICAO standard  and the 
+involved persons in the New Plymouth incident had the same expectation of which way the 
+aeroplane  would turn, the correct applica tion of the  rule to a situation like that, in which the 
+aircraft ahead was flying a non -standard circuit, was un clear .  The ATC specialists disagreed, 
+noting that the controller  had not given specific alternative instructions to the aeroplane .  
+However, i f an ATC presence was required to understand  the rule, the rule was less likely to be 
+applied correctly at an uncontrolled aerodrome .  An u nclear rule for right-of-way procedures 
+and collision avoidance w as a safet y issue that needed  address ing. 
+Finding  
+Civil Aviation Rule 91.22 3 can be interpreted ambiguously  in non -standard traffic 
+situations , which could contribute to the collision risk at aerodromes.  
+The o verhead  circuit  joining procedure  
+4.20.  Although ATC c ould instruct an aircraft to join a circuit via the overhead procedure in order to 
+establish or maintain a traffic sequence, the procedure was c arried out more often at 
+uncontrolled aerodromes.  The pilots of the aeroplane  requested the procedure to practi se 
+what the s tudent  would likely be required to demonstrate on his flight test .  New Plymouth 
+Aerodrome was controlled at the time  of the incident and the pilots had been listening to the 
+tower frequ ency , so they knew the conditions and traffic before reaching the overhead .  The 
+benefit s of the practi ce were primarily in the student sighting the traffic and flying the correct 
+pattern.  
+4.21.  The Aeronautical Information Publication 's description of the stand ard overhead joining 
+procedure required a pilot, having determined the runway in use, to ‗make all subsequent 
+turns in the direction of the traffic circuit ' (Aeronautical Information Publication , p.AD1.5 -4) 
+[emphasis added] .  There was potential for the direction of the joining procedure to be 
+mistaken  because of the subtle distinction between the direction of the traffic circuit , which 
+implied preceding traffic, and th e general circuit procedure of making all turns ‗in the direction 
+appropriate to the ru nway in use ' [emphasis added] .  When there was preceding traffic, Civil 
+Aviation Rule  91.2 23 required the joining aircraft to conform with or avoid the established 
+circuit , but the rule did not address  the possibility of the preceding aircraft being in a non-
+standard circuit . 
+ 
+
+<< Page 18 >>
+ Report 10 -005    4.22.  The di fferent interpretations of required turn direction are shown by the controller and the 
+involved pilots expecting the aeroplane  to join for the left-hand circuit , appropriate to t he 
+runway  in use, while the direction of the traffic circuit  flown by the helicopter  was right -hand .  
+Specialist ATC staff of the CAA insisted that the correct interpretation of the joining procedure 
+was that the runway in use was determined by the pilot of the first aircraft to arrive, or by ATC, 
+and the circuit direction was then that published for the chosen runway .  At a controlled 
+aerodrome, specific clearance was required for an aircraft to fly a non -standard circuit.  
+Therefore, the specialists advised, as the helicopter  was operating in the ru nway 14 circuit, 
+the correct circuit direction for the aeroplane  was left -hand, unless cleared otherwise by ATC . 
+4.23.  The pilot of a n aircraft joining from overhead need s to identify the  non-traffic side of the circuit 
+so th at th e descent to circuit altitude c an be acc omplished safely.  As an aircraft joins a circuit  
+before operating in the circuit, it could be argued that  if the traffic conditions cause a conflict , 
+the joining requirement to ‗make all subsequent turns in the direction of the traffic circuit'  
+should have precedence  over the general circuit procedure of making all turns in the direction 
+appropriate to the runway in use .  At New Plymouth, had the pilots of the aeroplane  advised 
+that they would follow the helicopter  and join for a  right -hand circu it, or had they requested or 
+been instructed to do so, the potential conflict that th ey all recognised  likely would have been 
+eliminated . 
+4.24.  Discussion s with some very experienced flight instructors confirmed different opinion s 
+regarding the correct way to join in  circumstances like those of this incident.  The lack of 
+agreement could be due to the Aeronautical Information Publication  and Civil Aviation Rule  
+interpretations noted earlier , but the CAA Flight Instructor 's Guide was clear in stating that the 
+circuit direction for a joining aircraft was th e same as that  being flown by an aircraft already i n 
+a circuit , and that the aircraft ahead had priority.  The CAA had discussed the overhead joining 
+procedure in a Vector  article (C AA, 2010b, p.15), but as there were continuing 
+misunderstandings in regard to a common flight manoeuvre, which ha s been implicated in 
+collisions, the relevant Civil Aviation Rule  and references in the Aeronautical Information 
+Publication  and Flight Instruc tor's Guide should be clarified . 
+Finding  
+The descriptions of and requirements for the standard overhead circuit joining 
+procedure that are published in Civil Aviation Rule s, the Aeronautical Information 
+Publication  and the Flight Instructor 's Guide can be  misinterpreted or misapplied in 
+non-standard traffic situations .  This could contribute to the collision risk at 
+aerodromes.  
+ 
+The see -and-avoid principle  
+4.25.  The controller and instructors of both aircraft realised  that the aeroplane , in joining overhead 
+for a left -hand circuit , might conflict with the helicopter  operating in a right -hand circuit for the 
+same runway.  Reducing that risk depended on the pilots of both aircraft applying the see-and-
+avoid principle and, in particular, the pilots of the aeropl ane keep ing the helicopter  in sight.  
+4.26.  Pilots should be taught from their earliest instructional flights how to combine a thorough look -
+out with an attentive  radio  listen -out in order to form an accurate understanding of the traffic 
+situation .  Pilots learnt  how to project the flight paths of other aircraft and to alternate looking 
+out for the traffic with the performing of essential activities within the cockpit, such as 
+completing checks.  If there was a heightened risk of collision, continuous sighting of the 
+traffic was required.  
+4.27.  Pilots are assisted in looking for traffic by receipt of traffic  information  from ATC , when an air 
+traffic service is provided, combined with their own  continuous radio listening watch.   
+However, i n practice pilots tend  to var y the attention given to others' transmissions , 
+particularly i f a transmission does not contain the pilot's call -sign or if the y are engaged in 
+flight instruction  or dealing with an emergency.  
+  
+  Report 10 -005 
+<< Page 19 >>
+ 4.28.  The Manual of Air Traffic Services  described collision a voidance in Class D airspace as a 
+‗collaborative exercise' between ATC and pilots, but it also required controllers to avoid conflict  
+situations and to pass traffic information to all affected aircraft.  The controller at New 
+Plymouth expected the pilots o f the helicopter  to have overheard him when he advised their 
+position to the aeroplane .  However, th e situation was one of  recognised potential conflict , and  
+mutual traffic information  should have been passed.  Although the helicopter pilots started 
+looking for the aeroplane as soon as they could,  it was unlikely, even with specific advice,  that 
+they would have seen it any earlier.  
+Finding  
+The controller recognised the potential for a conflict, but he provided traffic 
+information to the pilots of the aeroplane only , and not to the pilots of the helicopter . 
+ 
+4.29.  The controller had provided a height buffer between the joining aeroplane and the helicopter 
+circuit, and the aeroplane pilots should have maintained that buffer until they were assured 
+that their descent would remain clear of the helicopter.  They did not have to descend as soon 
+as ATC had cleared them for the procedure.  
+4.30.  The pilots of the aeroplane  reported seeing the helicopter  when advised by ATC and when the 
+helicopter  was on the crosswind leg of its circuit.   However, as the aeroplane  continued its left 
+turn before start ing the descent, the helicopter ‗just disappeared'.  It was possible  that as the 
+2 aircraft turned towards each other, there was a period of no apparent relative motion .  
+Movement is one of the strongest cues for detecting another aircraft.  Each aeroplane pilot 
+should have realised as soon as he lost sight of the helicopt er that unless the other pilot still 
+had the helicopter in sight,  it would not be  safe to descend .  However, they both lost sight of it 
+and did not tell each other, and commenced the descent.  
+4.31.  The lowered wing of the aeroplane  would have obscured  the helico pter, which was flying a 
+circuit pattern  much closer  to the runway than aeroplanes flew.  In addition, the controller had 
+asked the helicopter pilots to keep their circuit ‗tight', so  the aeroplane pilots, being unfamiliar 
+with helicopter circuit s anyway , misjudged where to look to re -sight the helicopter . 
+Finding  
+The incident would not have occurred had either of the aeroplane pilots stopped the 
+descent when he lost sight of the helicopter.  
+4.32.  If a pilot was asked by ATC to report sighting certain traffic before being cleared for a 
+procedure, it was impli ed that the cleared pilot had to k eep the traffic in sight .  That was an 
+explicit requirement under IFR, and if visual contact was lost with the aircraft ahead, ATC had 
+to be advised.  However , a VFR pilot is not explicitly required to do so .  The instructor in the 
+aeroplane  did not ensure that he or his student kept the helicopter  in sight during the joining 
+manoeuvre, even though he recognised the increased risk of collision initially ; and when he 
+did lose  sight of the helicopter , he mistook the spacing of the helicopter's downwind leg.  The 
+correct action would have been to advise ATC that the helicopter  was no longer in sight  and to 
+have discontinued the descent . 
+Finding  
+The incident would  have  been less likely to occur had the aeroplane pilots 
+immediately broadcast that they had lost sight of the helicopter.  
+4.33.  The aeroplane instructor's unfamiliarity with the light helicopter circuit was likely due to the 
+low frequency of helicopter training at the aerodr ome.  The aerodrome users might have been 
+ 
+
+<< Page 20 >>
+ Report 10 -005    more aware of helicopter characteristics had the helicopter instructor joined the user group 
+when he started business and informed the group of his planned activity . 
+4.34.  The planned establishment of a new flight training business at an aerodrome was an example 
+of a potential change in risk profile that the CAA believed an aerodrome operator should 
+identify and assess.  The involvement of aerodrome user groups in aeronautical s tudies 
+should ensure greater awareness of planned changes and improved safety.  The p roposed  
+amendment to Civil Aviation Rule Part 139 w as intended to assist the CAA and operators 
+towards that goal.       
+Finding  
+Local aerodrome user groups benefit their participants by providing information about 
+their respective activities.  Aerodrome operators , in order to manage their operational 
+risks, should require  their relevant tenants and users to participate fully in such 
+groups . 
+4.35.  Once the aeroplane  and the helic opter  entered the cone of invisibility above the tower, the 
+controller w ould have been restricted in his ability to  offer traffic avoidance advice, even if  the 
+aeroplane  pilots had advised losing sight of the helicopter .  The potential for the controller t o 
+lose sight of the traffic would appear to be another reason to provide m utual traffic 
+information . 
+4.36.  The see -and-avoid principle, in spite of its well documented limitations, was effective  in 
+prevent ing a collision in this case .  The principle  remain s an essential tool for collision 
+avoidance, particularly  where there is  low relative speed , but its application require s pilots and 
+controllers to seek, share and use the best available information regarding other traffic . 
+4.37.  Even for aircraft fitted with air borne collision avoidance system s, the first action by the pilot s 
+on receipt of a ‗traffic advisory' is to try to sight the other traffic.  Furthermore, airborne 
+collisi on avoidance systems do not generat e traffic advisor ies under some  conditions , 
+especial ly at low heights,  therefore  pilots still  have to look for and sight potentially conflicting 
+traffic.  
+Finding  
+The see -and-avoid principle continue s to have relevance, provided pilots and 
+controllers counter its well-known  limitations by the appropriate sharing of traffic 
+information.  
+ 
+  
+  
+  Report 10 -005 
+<< Page 21 >>
+ Air traffic control of VFR aircraft  
+4.38.  At controlled aerodromes  in New Zealand , which were designated Class C or Class D airspace, 
+ATC procedures for sequencing VFR traffic were formalised an d applied with little variation . So 
+it was not surprising that procedures that were intended to achieve s afe operations and 
+expeditious traffic flow  often had the same outcome as formal separation standards . 
+4.39.  For example, by requiring the aeroplane  to join overhead at 2000 ft, rather than the usual 
+1600 ft  (which was 500 ft above the circuit altitude), the controller created  a 500 ft buffer 
+between the aeroplane  and helicopter  circuit altitude s.  The pilot s of the aeroplane  were 
+required  to comply w ith the instruction , which separat ed them  from the helicopter , until the y 
+had sighted the helicopter  and were cleared for the joining procedure .  The controller called 
+this ‗segregation'  rather than separation . 
+4.40.  ATC does not separate  VFR aircraft9, apart fr om runway and wake turbulence separation .  
+However , the involved instructors were not alone in observing that ATC instructions often gave 
+an impression of being de facto  separation.  The CAA acknowledged this in a recent Vector  
+article (CAA, 2010c, p.13 ) and in Advisory Circular 172 -2. 
+4.41.  The aerop lane instructor's comment that his  application of Civil Aviation Rule  91.2 23 
+depended on whether ATC was in attendance  was a correct interpretation of the rule,  to a 
+point .  However, the comment, and his not advisi ng ATC that visual contact with the helicopter  
+had been lost , might have re flected a misplaced reliance on ATC and a misunderstanding  that 
+an ATC instruction  to a VFR aircraft meant se paration  was being applied . 
+4.42.  The CAA has attempted , with an article in Vector, to clarify pilots' understanding of the 
+services provided to VFR traffic in different classes of airspace , and has taken action in 
+conjunction with Airways as described in section 6.2(b) . 
+Finding  
+Some VFR pilots continue to misconstrue ATC traffic information and instructions in 
+Class C and D airspace as the provision of traffic separation.  
+  
+                                                        
+9 With the exception of Special VFR aircraft in control zones under specified meteorological conditions.   
+ 
+
+<< Page 22 >>
+ Report 10 -005    5. Findings  
+5.1. The controller's  instructions were valid for Class D airspace, but he did not manage the 
+increased risk of collision presented by the aeroplane desc ending to circuit altitude in the 
+opposite direction . 
+5.2. The aviation community, including  the regulator , Airways, aerodrome operators and aircraft  
+operators, d oes not have a consistent approach to reducing the collision risk s associated with 
+simultaneous opposed circuits at aerodromes . 
+5.3. Civil Aviation Rule 91.2 23 can be interpreted ambiguously  in non -standard traffic situations , 
+which could contribute to the collision risk at aerodromes . 
+5.4. The descriptions of and requirements for  the standard overhead circuit joining procedure that 
+are published in Civil Aviation Rule s, the Aeronautical Information Publication  and the Flight 
+Instructor 's Guide can be misinterpreted or misapplied in non -standard traffic situations .  This 
+could contribute to the collision risk at aerodromes . 
+5.5. The controller recognised the potential for a conflict, but he provided traffic information to the 
+pilots of the aeroplane only , and not to the pilots of the helicopter . 
+5.6. The incident would not have occurred h ad either of the aeroplane pilot s stopped the descent 
+when he lost sight of the helicopter . 
+5.7. The incident would have been less likely to occur had the aeroplane pilots immediately 
+broadcast that they had lost sight of the helicopter . 
+5.8. Local aerodrome user gr oups benefit their participants by providing information about their 
+respective activities.  Aerodrome operators , in order to manage their operational risk s, should 
+require  their relevant tenants and users to participate fully in such groups . 
+5.9. The see -and-avoid principle continues to have relevance, provided pilots and controllers 
+counter its well-known  limitations by the appropriate sharing of traffic information . 
+5.10.  Some VFR pilots continue to misconstrue ATC traffic information and instructions in Class C 
+and D airspace as the provision of traffic separation . 
+ 
+  
+  Report 10 -005 
+<< Page 23 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies safety actions by 2 types:  
+(a) safety actions taken by the regulator or an operator to address safety issues identified 
+by the Commission duri ng an inquiry , and which  would otherwise have result ed in the 
+Commission issuing a recommendation  
+(b) safety actions taken by the regulator or an operator to address other safety issues that 
+would not normally have result ed in the Commission issuing a reco mmendation.  
+6.2. Safety actions  addressing safety issues identified during this inquiry : 
+(a) on 15 July 2011, the CAA advised that its Aeronautical Services Unit, in conjunction with 
+the CAA Aviation Safety Advisers, was working with a number of aerodrome operators to 
+address specific issues identified with local procedures .  In particular, the  Memo rand um 
+of Understanding  of the Palmerston North aerodrome user group was being reviewed to 
+address the identified deficiencies .  The CAA was to review any amendments for 
+acceptability  
+(b) on 15 July 2011, the CAA advised that the Director had requested Airways  to undertake 
+a safety and risk review of all its regional tower operations , to be completed before 
+October 2011 .  (The CAA later advised that the target date had been extended to 
+November 2011.)  The review followed CAA audits conducted in 2008 that identified 
+inconsistencies in the level of air traffic management procedures at regional towers.  
+The r elatively high r ates of reported airspace and aerodrome incidents at some regional 
+aerodromes w ere considered by the CAA to give concern for the level of  safety at th ose 
+aerodromes.  
+6.3  Safety actions addressing other safety issues : 
+Nil. 
+ 
+ 
+  
+ 
+
+<< Page 24 >>
+ Report 10 -005    7. Recommendations  
+General  
+7.1. The Commission may issue, or give notice of , recommendations to the person s or 
+organisation s that it considers most appropriate to addre ss the  identified safety issues.  
+7.2. In the interests of transport safety , it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents.  
+Recommendations  
+On 26 October 2011 , the Commission recommended to the Director of Civil Aviation that he 
+take action to address the following safety issues:  
+7.3. The aviation community, including  the regulator , Airways, aerodrome operators and aircraft  
+operators, does not have a consistent approach to reducing the risk of simulta neous opposed 
+circuits at aerodromes .  Simultaneous opposed circuits can exist as a result of locally  agreed 
+procedures at uncontrolled aerodromes, and also at controlled aerodromes under some  
+conditions .  (020/11)  
+7.4. ATC, having cleared an aircraft to make a  non-standard circuit, is not prevented from  
+concurrently clear ing a following  aircraft to join the circuit by the standard overhead joining 
+procedure, even though th at could  lead to a head -on traffic conflict .  (021/11)  
+7.5. The descriptions and requirements f or the standard overhead circuit joining procedure that 
+are published in the Civil Aviation Rule s, the Aeronautical Information Publication  and the 
+Flight Instructor 's Guide can be misinterpreted or misapplied , particularly if a preceding 
+aircraft is operating in a non -standard circuit, which  could contribute to th e collision risk at 
+aerodromes.   (022/11)  
+7.6. In controlled airspace where separation is not provided between aircraft  operating under VFR, 
+a VFR aircraft that is instructed to follow another aircraft is not explicitly required to advise ATC 
+promptly if visual contact is lost with the relevant traffic.  (023/11)  
+7.7. The present voluntary and informal nature of aerodrome user groups restricts the ir potential 
+for improving operational safety at aerodromes .  (024/11)  
+  
+  
+  Report 10 -005 
+<< Page 25 >>
+ 8. Key lessons  
+8.1 The investigation findings provided reminders of the following practices that contribute to 
+aviation safety:  
+ the aviation community must take concerted and consistent action to reduce the 
+collision risk associated with simultaneous opposed circuits at aerodromes  
+ controllers must be alert to situations that warrant the issuing of mutual traffic 
+information  
+ to minimise the risk of collision, pilots must combine an effecti ve lookout with an 
+attentive radio listen -out, especially in the vicinity of aerodromes  
+ pilots should advise, by broadcast if appropriate, when relevant traffic is no longer in 
+sight and take any necessary action to ensure the safety of their flights  
+ the see-and-avoid principle continues to have relevance, provided pilots and controllers 
+counter its well-known  limitations by the appropriate sharing of traffic information  
+ Civil Aviation Rules and Aeronautical Information Publications must be writte n carefully 
+and explained clearly to students to avoid ambiguity  
+ pilots must understand that, under most circumstances, ATC does not provide 
+separation between VFR traffic in Class C and Class D airspace, even when clearances 
+are issued  
+ aerodrome operators  have a responsibility to manage their operational risks.  A useful 
+tool for risk management is an effective user group that includes all tenants and regular 
+aircraft operators at the aerodrome.   
+ 
+  
+ 
+
+<< Page 26 >>
+ Report 10 -005    9. Citations  
+ 
+Airways .  (n.d.) .  Aeronautical Information Publication  New Zealand.  Wellington: Airways Corporation of 
+New Zealand Limited.  
+Airways.  (n.d.) .  Manual of air traffic services.  Wellington: Airways Corporation of New Zealand Limited.  
+Bureau of Air Safety Investigation.  (1991).  Limitations of the S ee-and-Avoid Principle.  Retrieved 8 June 
+2010 from http://www.atsb.gov.au/publications/1991/limit_see_avoid.aspx . 
+CAA.  (2003).  Flight instructor's guide; Good aviation practic e.  June 2003.  Wellington . 
+CAA.  (2008).  Joining the circuit at an uncontrolled aerodrome.  Vector, July/August 2008.  Wellington.  
+CAA.  (2009).  See and avoid - Limitations of this principle.   Vector, July/August 2009.  Wellington.  
+CAA.  (2010 a).  Advisory Circular 172-2, Air traffic services -aerodrome air traffic control .  Wellington . 
+CAA.  (2010b).   Standard, but is it safest?   Vector, November/December 2010 .  Wellington . 
+CAA.  (2010c).  Separation anxiety.  Vector, May/June 2010.  Wellington.  
+CAA.  (2011 a).  Circuit direction.  Vector, Jan/Feb 2011.  Wellington  
+CAA.  (2011b).  Advisory Circular 139 -15, Aeronautical studies for aerodrome operators .  Wellington.  
+ICAO.  (2001).   Annex 11 to the Convention on international civil aviation - Air traffi c services.  13th ed.  
+Montreal.  
+ICAO.  (2005).  Annex 2 to the Convention on international civil aviation - Rules of the air.  10th ed.  
+Montreal.  
+TAIC.  (2009).   Report 08 -001, Cessna 152 ZK -ETY and Robinson R22 ZK -HGV, mid -air collision, 
+Paraparaumu , 17 February 2008.  Wellington: Transport Accident Investigation Commission . 
+  
+  
+  Report 10 -005 
+<< Page 27 >>
+ Appendix 1 :  Limitations of the see -and-avoid concept  
+ 
+The effectiveness of see -and-avoid can be limited by many  factors  that include , but are not limited to : 
+1. Factors affecting  looking for the traffic  
+workload  
+crew numbers  
+behaviour in glass cockpits, whether heads -down  
+diffusion of responsibility , and  
+whether alerted by radio or not . 
+ 
+2. Factors affecting the visual search itself  
+physiology of the eye: foveal and peripheral vision , blind -spot, age, empty -field myopia  
+glare  
+whether day or night , and  
+search method used . 
+ 
+3. Factors that obstruct the field of view  
+cockpit visibility  and 
+other o n-board o bstructions . 
+ 
+4. Target characteristics (conspicuity)  
+colour scheme  
+lighting  
+contrast  with background  
+lack of relative motion , where the aircraft are on lines of constant (relative) bearing , and  
+subtended visual angle . 
+ 
+ 
+Adapted from Bureau of Air Safety Investigation. (1991). Limitations of the See -and-Avoid Principle . 
+ 
+
+  
+   
+  
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+10-005 Cessna A152, ZK -NPL and Robinson R22 Beta, ZK -HIE near -collision .  
+New Plymouth Aerodrome , 10 May 2010  
+ 
+10-003 Cessna C208 Caravan ZK -TZR engine fuel leak and forced landing, Nelson, 10 
+February 2010  
+ 
+10-006 Runway Incursion, Dunedin International Airport, 25 May 2010  
+10-001 Aerospatiale -Alenia ATR 72 -212A , ZK-MCP  and ZK -MCJ, severe turbulence 
+encounters , about 50 nautical miles north of Christchurch , 30 December 2009  
+09-002 ZK-DGZ, Airborne XT -912, 9 February 2009,  and commercial microlight aircraft 
+operations  
+ 
+10-009 Interim Factual: Cessna C152 ZK -JGB and Cessna C152 ZK -TOD, mid -air 
+collision, near Feilding, Manawatu, 26 July  2010  
+09-007 Piper PA32 -260, ZK -CNS, impact with ground following a loss of control after 
+take-off, near Claris, Great Barrier Island, 29 Septem ber 2009  
+09-005 Cessna 182N ZK -FGZ and Bombardier DHC -8 Q311 ZK-NEF,  
+loss o f separation and near collision, Mercer , 40 km south of Auckland , 9 August 
+2009  
+ 
+08-007 Robinson Helicopter Company , R22 Alpha  ZK-HXR, loss of control,   
+Lake Wanaka, 1 November 2008  
+ 
+09-006 Cessna 207, ZK-DEW  aircraft starting incident resulting in runway incursion, 
+Queenstown Aerodrome. 5 September 2009   
+09-004 Britten Norman BN2A -Mk III Trislander , ZK-LOU loss of engine propeller 
+assembly , near Claris, Great Barrier Island , 5 July 2 009 
+08-005 Kawasaki -Hughes 369D , ZK-HWE , un-commanded yaw and loss of control , Maori 
+Saddle, near Haast, Westland , 11 August 2008  
+08-001 Cessna 152 ZK -ETY and Robinson R22 ZK -HGV, mid -air collision, Paraparaumu, 
+17 February 2008  
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 32.00                                         ISSN 1179 -9080 (Print)  
+         ISSN 1179 -9099 (Online)  
+ 

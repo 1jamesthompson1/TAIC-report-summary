@@ -1,0 +1,1 @@
+- The radio communication between the train controller and the train driver was open loop, and after it had ended neither party really understood the other's intentions.

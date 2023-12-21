@@ -1,0 +1,1141 @@
+﻿i 
+ 
+ 
+ 
+Final Report  
+Rail inquiry RO -2019 -103 
+Derailment of Train 626  
+Palmerston North  
+4 April 2019  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+April 2020  
+
+About the Transport Accident Investigation Commission  
+The Transport  Accident Investigation Commission (Commission) is a standing commission of 
+inquiry and an independent Crown entity responsible for inquiring into maritime, aviation and 
+rail accidents and incidents for New Zealand, and co -ordinating and co -operating with other 
+accident investigation organisations overseas.  
+The principal purpose of its inquiries is to determine the circumstances and causes of 
+occurrences with a view to avoiding similar occurrences in the future . It is not the 
+Commission's purpose to ascribe blame to any person or agency or to pursue (or to assist an 
+agency to pursue) criminal, civil or regulatory action against a person or agency. However, the 
+Commission will not refrain from fully reporting on t he circumstances and factors contributing 
+to an incident  because fault or liability may be inferred from the findings.  
+  
+Final Report RO -2019 -103 | Page i  
+Figure 1: Location of accident
+
+ 
+Page ii | Final Report RO -2019 -103 Contents  
+1 Executive summary  ................................ ................................ ................................ ................................ .. 1 
+What happened  ................................ ................................ ................................ ................................ ........  1 
+Why it happened  ................................ ................................ ................................ ................................ ...... 1 
+What we can learn  ................................ ................................ ................................ ................................ ... 2 
+Who may benefit  ................................ ................................ ................................ ................................ ...... 2 
+2 Factual information  ................................ ................................ ................................ ................................ . 3 
+Narrative  ................................ ................................ ................................ ................................ ...................  3 
+Site examination  ................................ ................................ ................................ ................................ ...... 5 
+Track inspections  ................................ ................................ ................................ ................................ ..... 7 
+Wagon UKN143  ................................ ................................ ................................ ................................ ........  7 
+Key personnel  ................................ ................................ ................................ ................................ ........  10 
+Previous similar occ urrences investigated by the Commission  ................................ ......................  10 
+Inquiry RO -2003 -114 ................................ ................................ ................................ ...............  10 
+Inquiry RO -2005 -103 ................................ ................................ ................................ ...............  10 
+Inquiry RO -2007 -115 ................................ ................................ ................................ ...............  11 
+3 Analysis  ................................ ................................ ................................ ................................ ..................  12 
+Introduction  ................................ ................................ ................................ ................................ ...........  12 
+Safety factors contr ibuting to the derailment  ................................ ................................ ...................  12 
+The effect of track condition and speed on the derailment  ................................ .............................  13 
+Effect of the track condition  ................................ ................................ ................................ .... 13 
+Effect of train speed  ................................ ................................ ................................ .................  15 
+Combined eff ect of track and speed  ................................ ................................ ......................  15 
+The post -derailment condition of wagon UKN143  ................................ ................................ ............  16 
+Post -derailment examination of wagon UKN143 bogies  ................................ ................................ .. 16 
+Wagon inspection requirements  ................................ ................................ ................................ .........  18 
+Cent re of gravity of the loaded wagon  ................................ ................................ ................................  18 
+Non-contributing factors  ................................ ................................ ................................ ......................  19 
+Loading  ................................ ................................ ................................ ................................ ...... 19 
+Fatigue  ................................ ................................ ................................ ................................ ...... 19 
+4 Findings  ................................ ................................ ................................ ................................ ..................  21 
+5 Safety issues and remedial actions  ................................ ................................ ................................ .... 22 
+General  ................................ ................................ ................................ ................................ ...................  22 
+Measurement of cyclic trac k conditions  ................................ ................................ ............................  22 
+Other safety action  ................................ ................................ ................................ ...............................  22 
+6 Recommendations  ................................ ................................ ................................ ................................  23 
+7 Key lessons  ................................ ................................ ................................ ................................ ............  24 
+8 Data summary  ................................ ................................ ................................ ................................ ....... 25 
+9 Conduct of the inquiry  ................................ ................................ ................................ ..........................  26 
+10 Report information  ................................ ................................ ................................ ................................  27 
+Abbreviations  ................................ ................................ ................................ ................................ .........  27 
+Glossary  ................................ ................................ ................................ ................................ ..................  27 
+ 
+Final Report RO -2019 -103 | Page iii 11 Notes about Commissio n reports  ................................ ................................ ................................ ........  29 
+Appendix 1:  Train driver notice  ................................ ................................ ................................ ....................  30 
+Appendix 2:  Post -derailment wagon examination  ................................ ................................ ....................  31 
+ 
+  
+ 
+Page iv | Final Report RO -2019 -103 Figures  
+ 
+Figure 1: Location of accident  ................................ ................................ ................................ .........................  i 
+Figure 2: Planned route for the freight train  ................................ ................................ ...............................  4 
+Figure 3: Derailed wagons (photograph provided by KiwiRail)  ................................ ................................  5 
+Figure 4: 29B set of points  ................................ ................................ ................................ .............................  6 
+Figure 5: Derailed wagons  ................................ ................................ ................................ .............................  6 
+Figure 6 : Diagram of bogie bolster ................................ ................................ ................................ ...............  8 
+Figure 7: Measurement of side bearer float  ................................ ................................ ................................  9 
+Figure 8: Point of derailment  ................................ ................................ ................................ .......................  13 
+Figure 9: Output graph of twists over 4 m (provided by KiwiRail)  ................................ .........................  14 
+Figure 10: Leading bogie from UKN143 before examination  ................................ ................................ . 16 
+Figure 11: Centre bowl liner on leading bo gie ................................ ................................ ..........................  17 
+Figure 12: Fractured inner springs  ................................ ................................ ................................ ..............  18 
+Figure 13: Wagon and bogie layout  ................................ ................................ ................................ ...........  31 
+ 
+ 
+Final Report RO -2019 -103 
+<< Page 1 >>
+ 1 Executive summary  
+What happened  
+1.1. On Thursday  4 April 2019 , Train 626, an express freight train  consisting of two 
+locomotives and 37 loaded wagons , was travelling  north  from Palmerston North to 
+Napier.  
+1.2. Because of the imminent arrival of a southbound train,  the train controller routed Train 
+626 (the train) from the yard onto the Palmerston North -Gisborne line via the north 
+arrival/departure road and number 29 crossover po ints. 
+1.3. The train was travelling at the maximum authorised line speed of 25 kilometres per hour 
+when the lead locomotive entered  the crossover points.  At about the same time , the 
+driver applied more power by selecting power  notch five while the train continu ed to 
+descend the 1 -in-120 gradient.  
+1.4. The train speed had increased to 32 kilometres per hour  when there was a sudden loss of 
+brake pipe pressure.  A few seconds later the train's brakes were applied automatically , 
+indicating to the driver that the train had  parted.  
+1.5. The driver  radioed  train control1 and was told that the traction overhead power line had 
+been brought down . Shortly afterwards the train examiner2 confirmed that the train had 
+also derailed.   
+Why it happened  
+1.6. The Transport Accident Investigation Commission  (Commission)  found  there was 
+insufficient vertical load3 on the leading bogie4 of log -carrying wagon  UKN143 to 
+prevent it climbing the outer right -hand curved rail on 29B set of points.  
+1.7. The Commission  also found  that no single factor led to this derailment. Instead, it is very 
+likely that a combination of factors contributed to the wheel climb that resulted in the 
+derailment :  
+ the track condition and its alignment  
+ the train travelling above the authorised line sp eed  
+ the condition of the wagon's suspension system and its sensitivity to the track 
+conditions  
+ the multiple cyclic track twists5 before the point of derailment  
+ the high, but within limits, cent re of gravity of the loaded log  wagon . 
+                                                        
+1 The national train control centre housed in the Wellington Railway Station, where train movements and 
+track occupations are authorised by train controllers.  
+2 A person qualified to carry out a full terminal brake test - a pre -departure inspection above an d below 
+all the wagon decks while a train is stationary - before issuing a certificate to the driver as confirmation 
+that the train is safe to run to its destination.  
+3 The downward force on an individual wheel, which can vary as a wagon travels along a tr ack. When the 
+vertical load is low compared to the lateral force, the wheel can climb the rail, potentially leading to a 
+derailment.  
+4 A metal frame equipped with twin wheelsets and able to rotate freely, used in pairs under rail vehicles 
+to improve ride q uality and better distribute forces to the track.  
+5 Variations in cant (the height of one rail relative to another) over a base length of four metres.  
+ 
+
+<< Page 2 >>
+ Final Report RO -2019 -103 What we can learn  
+1.8. The Commission identified a safety issue  where there was no procedure for identifying, 
+evaluating and rectifying track twists of a repetitive cyclic nature. As such, the 
+Commission recommended  that the Chief Executive of KiwiRail Holdings Limited identify 
+cyclic track conditions on the national rail network and develop a standard that 
+prioritises actions to be taken in order to reduce the likelihood of a derailment.  
+1.9. Planned and preventive maintenance is a key safety requirement for any transport -
+related operation.      
+1.10.  A train driver must keep the train under control at all times.  
+Who may benefit  
+1.11. Rail operators may benefit from the key lessons of this inquiry.  
+ 
+Final Report RO -2019 -103 
+<< Page 3 >>
+ 2 Factual information  
+Narrative  
+2.1. On Thursday 4 April 2019 , Train 626 , an express freight train , was travelling north from 
+Palmerston North to Napier.  The 638-metre  (m) long  train consist ed of two DL-class 
+locomotives hauling 37 loaded wagons , of which t he rear 21 wagons carried  logs.  
+2.2. The train had been made up in the  Palmerston North  freight yard , and its inspection and 
+terminal brake test6 were  underway w hen t he train driver booked  on for work at about 
+2130, approximately  45 minutes before the scheduled start time for  the shift . The driver 
+picked up the train documentation7 and talked to the team leader before boarding and 
+checking the locomotive.  
+2.3. The driver set up the 'D river Advisory System  (DAS) '8 then r adioed the train examiner at 
+2145:069 to confirm that  the train was "all set to go".  The train examiner moved to  a safe  
+place ahead of the lead locomotive before  the train movement started about 10 seconds 
+later. Because of the imminent  arrival of a southbound train from the North Island Main 
+Trunk line  onto the Branch Main line , the t rain control ler routed the train from the yard 
+onto the Palmerston North -Gisborne line via the north arrival/departure road and 
+number 29  crossover points (see Figure 2).  
+2.4. The train was travelling at 22 kilometres per hour (km/h) when the train examiner 
+radioed the drive r to say that the complete train had passed  and the terminal roll -by 
+train inspection10 was complete, and there were no issues with the train. At the end of 
+the radio communication the driver applied additional locomotive power by moving the 
+throttle handle from power setting notch one to notch three of the eight power -setting 
+notches availa ble.  
+2.5. A few seconds later the train controller authorised the train to traverse number 29 
+crossover points by changing the indication on Signal 28RC/30RB (see Figure 2) to 
+'proceed ', and changing the setting of the crossover points from normal to reverse.  
+Although the train was nearly 900 m from the signal at that time, the driver saw the 
+signal aspect change to green then applied more power by moving the throttle control 
+from notch three to notch four.  
+ 
+ 
+                                                        
+6 A terminal brake test must be carried out when any locomotive hauled train is made up or any wagon 
+adde d to a train.  The test involves checking both sides of each wagon on the train to ensure the braking 
+system is connected correctly and functioning in both application and release.  
+7 Documentation that includes speed restriction advice for the route, train work orders, details of 
+locomotive numbers, a list of wagons in standing order, the train -end monitor number, train weight and 
+length graphs and the train inspection certificate.  
+8 A computer touch -screen mounted in the locomotive cab that is connected to the locomotive power 
+supply, global positioning system and cellular antennae. It provides a visual output of topographical and 
+network data along with suggested speeds and operating modes.  
+9 Times and speeds relating to the train operation have been downl oaded from the locomotive's event 
+recorder.  
+10 An inspection intended to detect rail vehicle irregularities that are not so apparent when the vehicle is 
+stationary. Potential irregularities include wheels derailed during the loading process, loose backing 
+rings or hot bearings, skids or flat spots on wheels, and dragging equipment.   
+ 
+
+<< Page 4 >>
+ Final Report RO -2019 -103  
+ 
+Figure 2: Planned route  for the freight train  
+2.6. The train was travelling at the maximum authorised line speed of 25 km/h when the lead 
+locomotive  entered the crossover points.  At about the same time the driver applied more 
+power by select ing power notch five while  the train  contin ued to descend  a 1-in-120 
+gradient . 
+2.7. The downloaded data from the train's event recorder11 showed the train speed had 
+increased to 32 km/h when there was a sudden loss of brake pipe pressure further back 
+on the train . The train brakes were applied automatically after the train parted. The driver 
+moved the power control handle back to idle before the train movement stopped at 
+2152:07. The  train's vigilance system12 detected the sudden loss of brake pipe pressure 
+and initiated an emergency radio call t o inform train control.  
+2.8. Once the train had come to a stop, the  driver radioed train control and reported that the 
+train had parted.  The train controller told the driver  to stay in side the locomotive  cab 
+because the traction overhead power line had been brought down near the Railway 
+Road overbridge  (see Figure 3). The driver radioed the train examiner and told them that 
+the train had derailed . The driver stayed in the locomotive cab for nearly  two hours  until 
+traction staff confirmed that the traction overhead power line had been earthed and 
+isolated . A relief driver then arrived to take the front portion of the train on to Napier . 
+ 
+                                                        
+11 A device that continuously captures and stores train systems' data.  The d ata stored  typically  includes 
+location, speed, brake pressure, dynamic brake, whistle activation, vigilance activation and cancellation.  
+The data is  used to evaluate incidents and accidents . 
+12 A system fitted to locomotives for the protection of crew. The system can carry out a number of 
+functions, including apply ing the brakes automatically when a train separates .  
+
+ 
+Final Report RO -2019 -103 
+<< Page 5 >>
+  
+Figure 3: Derailed wagons  (photograph provided by KiwiRail)  
+Site examination  
+2.9. The point of derailment13 (POD) was on the outer rail  of the rail for 29B crossover points  
+in the direction of travel (see Figure 4).  
+2.10. The 29B set of points had been laid in 1984, using heavyweight rail fixed to treated Pinus 
+radiata  sleepers with standard fastenings.  The timber sleepers and fastenings were in fair 
+condition, with signs of some sleeper deterioration.    
+2.11. A witness mark14 on the rail indicated that the leading bogie of wagon UKN143, 28 
+wagons behind the locomotives, climbed the right -hand -side curved rail, in the direction 
+of travel, and dropped into the ballast on the outside of the rail. The derailed wagon was 
+dragged through two more sets of points before it came to rest on its side about 155 m 
+past the POD.  During the derailment sequence, the three wagon s immediately behind 
+wagon UKN 143 also derailed (see Figure 5 ). There was a separation of about 136 metres 
+between the last wagon of the front portion of the train and wagon UKN143.  
+                                                        
+13 The exact location where the firs t wheel flange loses guidance from the rail.   
+14 A physical mark that is made when a wheel flange climbs up and across a railhead (the bulbous upper 
+part of a rail section).    
+
+ 
+
+<< Page 6 >>
+ Final Report RO -2019 -103  
+Figure 4: 29B set of points  
+ 
+Figure 5: Derailed wagons  
+  
+
+ 
+Final Report RO -2019 -103 
+<< Page 7 >>
+ Track inspections  
+2.12. Track inspections are carried out to ensure a track is safe for the passage of rail vehicles 
+at the authorised line speed  until the next scheduled inspection.  Elements of t he multi -
+tiered inspection regime for an arrival/departure road are carried out at defined intervals 
+that include : 
+ a visual and detailed inspection , either by foot or from a slow -moving hi -rail vehicle , 
+every 13 weeks   
+ a track evaluation car15 run annually to measure, record and analyse defined 
+geometric parameters such as cant16, cyclic line s17, gauge18, line19, top20 and twist  
+ a detailed engineering insp ection  of the track asset  condition annually .  
+2.13. KiwiRail had no record to show that it had inspected the north  arrival/departure road at 
+13-week  intervals.  The most recent recorded combined visual /detailed track inspection 
+of the north arrival/departure road had been carried out in April 2018, nearly 12 months 
+before the derailment.  The work order created from  that inspection had required the 
+tightening of  loose bolts on 29B set of points.  The service request had been reported 
+closed on 28 June 2018.  There were no other open service requests for the set of 29B 
+points at the  time of the derailment .  
+2.14. The track evalu ation car had last recorded the north arrival/departure road on 16 August 
+2018 . Three  maintenance work orders  within the 29B set of points had been created  
+following th at recording , including two  line exceedance s and a 20-millimetre ( mm) track 
+twist on approach to the set of points .  
+2.15. The KiwiRail Holdings Limited (KiwiRail) Track Geometry Standard T-ST-AM-5120 
+required these exceedances to be fixed  within six months.  The three work orders  had not 
+been reported  closed at the time of the derailmen t.  
+Wagon UKN143  
+2.16. The fleet of six UKN -class wagons had been operating on the rail network  since  2011.  
+The wagons are permitted to carry  three bundles of logs  weighing  up to 11 tonnes each . 
+The wagon class is fitted with  Type 14 bogies and restricted to a maximum gross laden 
+weight of 55 tonnes.  The distance between bogie centres is 12.192 m.  
+2.17. Wagon UKN143  had standard bogies that were commonly used on freight wagons 
+around the world.  The three main pieces of the bogie are one bolster (see Figure 6 ) and 
+two side frames. The bolster is supported by two sets of two inner and outer coil springs 
+at each end.  The coil springs provide the vertical support and are  the primary suspension.  
+                                                        
+15 The track evaluation car uses a system with sensors to measure the track geomet ry, and  computer 
+software to continually analyse the measurements.  The system produces a real -time exception report that 
+identifies location, type and priority wherever follow -up maintenance is required.     
+16 The height of one rail relative to another.  
+17 Alignment faults that are repeated at similar spacing .  
+18 The distance between the inside faces  of the railheads , measured 16 millimetres  below the running 
+surface . 
+19 The horizontal or lateral position of the track measured on both rails.  
+20 The longitudina l level of the running surfaces of the rail measured on both rails.  
+ 
+
+<< Page 8 >>
+ Final Report RO -2019 -103 Bolster s also have small -diameter wedge springs fitted to reduce the oscillatio n 
+(movement back and forth in a regular rhythm) of the moving wagon (see Figure 6).  
+ 
+Figure 6: Diagram of bogie bolster  
+2.18. The wagon was c arrying  three bundles of logs with a declared nett weight of 29.28 
+tonnes for a gross laden weight of about 49 tonnes. The wagon had not passed over a 
+weighbridge  after it was loaded  to confirm its actual  gross weight.  However, KiwiRail 
+records showed the loading company's declared weights had in the past  been consistent 
+with weighbridge readings.   
+2.19. The KiwiRail Mechanical Code M2000 require s all freight wagons to be inspected at the 
+following intervals:  
+ a pre -departure check  
+ a B-Check, whenever two or more brake blocks are changed  
+ a C-Check,  every two years  
+ a detailed inspection of the body -mounted brake cylinders, every 10 years  
+ a full overhaul  bogie check when the ride control element (wedge height) reach es the 
+condemning limit  of 39 mm, normally about every 10 years.   
+2.20. A qualified person ca rries out the pre-departure check immediately before a train 
+depart s from a terminal.  It cover s a full terminal brake test  and a check of the condition 
+of brake hoses, confirms that all handbrakes are released and secure, observes draw -gear 
+connections, wheels, springs, loose/hanging brake equipment, loads , and the end -of-
+train marker is working.  The person carrying out the check then signs a train inspection 
+
+ 
+Final Report RO -2019 -103 
+<< Page 9 >>
+ certificate to confirm that the train is in a proper condition for safe running.  The train 
+certif icate is attached to the train work orders and remain s in the locomotive cab until 
+the train reache s its destination.   
+2.21. The two-yearly  C-Check is to ensure that all maintenance has been  carried out to 
+specification so that a wagon can be released in a relia ble, fit -for-service condition.  The 
+check includes a full structural inspection of the wagon  and a  detailed examination of the 
+couplers21, braking system, wheelsets22 and bogies.    
+2.22. The most recent C -Check on wagon UKN143 had occurred  at Palmerston North during 
+March  2019. The Mechanical Code  requires  float23 readings for a wagon (see Figure 7 ) to 
+be the same on each side of the wagon and when added together to be within the range  
+of 6-10 mm at the handbrake end and 12 -16 mm at the non -handbrake end.   
+ 
+Figure 7: Measurement of side bearer float  
+2.23. Float measurements recorded at the handbrake end were 5 mm on the A -side and 5 mm 
+on the B -side, making a total of 10 mm , which was at the upper limit.  The measurements 
+recorded for the no n-handbrake end  were 5 mm on the A -side and 8 mm on the B -side. 
+While the float of 13 mm at the non -handbrake end of the wagon was within tolerance 
+limits, the respective measurements were not the same .  
+2.24. During the C -Check, wedge heights on the leading bog ie were recorded as  
+30 mm on the A -side and 31 mm on the B -side (see Figure 13 in Appendix 2).  Wedge 
+heights on the trailing bogie were recorded as 30 mm on the A -side and 29 mm on the 
+B-side.  
+                                                        
+21 A device used to connect wagons for haulage purposes.  
+22 A wheelset is two rail wheels mounted on a joining axle . 
+23 The clearance between the float block  on a bogie bolster and the corre sponding block on the wagon 
+underframe.  
+
+ 
+
+<< Page 10 >>
+ Final Report RO -2019 -103 2.25. A team leader had completed the final sign -off for the wagon's C -Check on 11 March 
+2019.  The sign -off confirmed that all items on the check sheet had been inspected, 
+recorded and signed and that all items complied with Mechanical Code requirements.  
+2.26. The team leader  had identified significant surface defects on  wheelset 4 and 
+subsequently arranged a wheelset change -out. All four wheelsets on the wagon had 
+been replaced with new wheels on a mix of new and refurbished axles  before the wagon 
+was returned to service on  29 March 2019 , a week before the derailment .  
+2.27. The leading bogie from wagon UKN143 had  had its most recent  full overhaul check in 
+March 2007 , 12 years before the derailment.  
+Key personnel  
+2.28. The train driver had operated a hi -rail excavator for two years before starting the formal 
+train driver  training  programme in November 2012.  Full and final certification for train 
+driver duties had been achieved on 3 March 2014.  The train driver had worked out of the 
+Palmerston North depot during his  on-the-job practical training and since certification.  
+The driver' s safety observations and certification were current for the role.   
+2.29. The driver's mandatory post -accident drug and alcohol test returned a negative result.  
+Previous similar occurrences investigated by the Commission  
+Inquiry RO -2003-114 
+2.30. On Friday 21 November 2003, express freight Train 220 derailed near Shannon on the 
+North Island Main Trunk line.   
+2.31. Post-derailment track measure ments  identified opposing cyclic track twists , within 
+acceptable maintenance tolerance limits, before the POD.   
+2.32. An examination  of the derailed wagon identified worn friction wedges24 but they were  
+within Mechanical Code  limits.  The wagon float at the handbrake end was found to be  
+2 mm outside the code limit, not enough on its own to cause the derailment.  
+Inquiry RO -2005 -103 
+2.33. On Th ursday 20 January 2005, express freight Train 237 derailed near Hunterville on the 
+North Island Main Trunk line.  
+2.34. Post-derailment track measurements  identified two contributory track conditions, 
+previously identified by the track evaluation car but not repa ired. Individually, the track 
+exceedances would not have caused the derailment.  
+2.35. An examination of the derailed wagon found two inner wedge springs and one outer 
+spring shorter than the minimum length required for reuse.  
+                                                        
+24 Wedges perform a similar function to shock absorbers in a car by controlling the bounce when a 
+wagon passes over undulating track.  They also hold the bolster perpendicular to the side frames to 
+provide better steering and a longer wheel life.   
+ 
+Final Report RO -2019 -103 
+<< Page 11 >>
+ 2.36. The Commission made r ecommendations to the Chief Executives of Ontrack and Toll Rail 
+(predecessors of KiwiRail) to critically review current track and Mechanical Code 
+standards and maintenance tolerances to ensure they were compatible and minimised 
+the potential for derailment s caused by dynamic interaction25 (009/05 and 010/05).  
+Codes and standards for the track and wagons have since been changed and the status 
+of the  recommendations changed to 'closed acceptable '.   
+Inquiry RO-2007 -115 
+2.37. On Wednesday 7 November 2007 , express fre ight Train 533 derailed on the Stratford -
+Ōkahukura line.  
+2.38. The Commission was unable to determine  conclusively  the cause of the derailment . 
+However, both the track condition and the condition of the derailed wagon were at or 
+near the code tolerance  limits  and were considered to be contributory factors.   
+2.39. The Commission made a  recommendation to the Chief Executive of the NZ Transport 
+Agency to address the issue of the current track and mechanical standards and 
+maintenance tolerances not being compatible, and  there remained a high risk of 
+derailments caused by dynamic interaction (029/09).  In view of the actions taken in 2. 36 
+above, the status of this recommendation has been changed to 'closed acceptable '.   
+ 
+ 
+ 
+ 
+                                                        
+25 Dynamic interaction occurs when the track geometry, wagon condition, wagon loading and train 
+speed are individually within tolerance limits, or marginally in excess, but not to an extent that each 
+variation on its own i s sufficient to be a prime cause of a derailment. However, when in combination 
+these conditions can result in a derailment.  
+ 
+ 
+
+<< Page 12 >>
+ Final Report RO -2019 -103 3 Analysis  
+Introduction  
+3.1. While the overall likelihood  of a freight train derailment is low, a derailment can 
+potentially cause significant damage and injury.  In this accident  the derailed wagons 
+ripped up a section of track and points, damaged traction  masts and brought down an 
+overhead traction li ne while passing under an overbridge supporting a major roadway.  
+3.2. The first wagon to derail was a UKN -class wagon  converted from a general -purpose  UK-
+class, container -carrying , flat-deck wagon  with standard Type 14 bogies. The UK-class 
+wagon s had been  assembled in New Zealand from kits supplied from Japan  between 
+1971 and 1981 .   
+3.3. Wagons fitted with Type  14 bogies  featured more fr equently  in the KiwiRail derailment 
+statistics.  For the year ending  30 June 2019, wagons fitted with  Type 14 bogies ran 40% 
+of the total track  kilometres yet featured in  eight  of the 10 (80%)  derailments  on the rail 
+network . The Commission found no evidence to suggest that the Type 14 bogies ' design 
+contributed to the derailment.  
+3.4. The following analysis discusses  the safety factors that contributed to the derailment and 
+the safety factors  that were considered but found to be non -contributory.  
+Safety f actors contributing to t he derailment   
+3.5. The movement of any type of wagon at speed along a track cause s a range of motions  
+and oscillations, of which some are undesirable.  The amplitude and effect depend on 
+many factors including  the condition of the track, the train speed, the wagon design, the 
+condition  of the wagon suspension systems , and the height of the centre of gravity of a 
+loaded wagon .  
+3.6. Often, oscillations result from track irregularitie s, which can be accentuated on wagons 
+with excessive float tolerances and/or broken  suspension  springs.  
+3.7. In respect of this derailment , the Commission found there was an insuffi cient vertical 
+load on the leading bogie of log-carrying wagon UKN143 to prevent it climb ing the 
+outer (right -hand) curved r ail on the 29B set of points  (see Figure 8).  
+3.8. The POD was confirmed by a light, 1 m long wheel flange witness mark across the 
+railhead.  The absence of scuff markings on the inside of the rail indicated that the wheel 
+lifted suddenly onto the railhead before dropping on the outside of the rail.  
+3.9. The Commission found that no single factor led to this derailment. Instead, it is very 
+likely that a combination of factors contributed to the wheel climb that resulted in the 
+derailment:  
+ the track condition and its alignment  
+ the train travelling at nearly 36% above the authorised line speed , which was close to 
+its critical rocking speed26  
+                                                        
+26 The speed at the boundary of stable and unstable bogie running.  
+ 
+Final Report RO -2019 -103 
+<< Page 13 >>
+  the condition of the wagon's suspension system and its sensitivity to the track 
+conditions  
+ the multiple cyclic twists that accentuated the wagon oscillation  
+ the high, but nevertheless within limits, centre of gravity of the loaded log wagon . 
+ 
+Figure 8: Point of derailment  
+The effect of t rack  condition  and speed on  the derailment   
+Effect of the track condition  
+Safety issue: There was no procedure for identifying, evaluating and rectifying track twists of a 
+repetitive cyclic nature.  
+3.10. An analysis of the post-derailment  manual  track measure ments  showed the following 
+(see Figure 9):  
+ -20 mm twist, 31 m before the POD  
+ +8 mm twist, 24 m before the POD  
+ -18 mm twist, 19 m before the POD  
+ +7 mm twist, 12 m before the POD  
+ -18 mm twist, 6  m before the POD  
+ +14 mm twist, 2 m past the POD  
+ -17 mm twist, 6 m past the POD  
+
+ 
+
+<< Page 14 >>
+ Final Report RO -2019 -103  +21 mm twist, 16 m past the POD . 
+ 
+Figure 9: Output graph of twists over 4 m (provided by KiwiRail)  
+3.11. The KiwiRail  Standard T -ST-AM-5120, Track Geometry, effective since 3 March 2017, 
+categorise s manually  found twists within a yard environment of 1 7-19 mm as Priority 4 , 
+requiring the condition  to be fixed  within 26 weeks.  Twists of 20 -23 mm are deemed to 
+be Priority 3 , requiring the repair to be completed within four weeks.  The standard refers 
+to individual track twists but makes no reference to the effect s of cyclic twists.  
+3.12. It was unlikely that each twist wou ld have been identified during a scheduled visual 
+inspectio n. The post -derailmen t track measure -up showed that the value of each twist 
+did not meet the threshold for immediate repair action . However, the twists' combined 
+effect s and contribution to wagon oscillation were not analysed . Currently there is no 
+procedu re for identifying, evaluating and rectifying track twists of a repetitive cyclic 
+nature that promote the unintended oscillation of wagons , potentially resulting in a 
+derailment.  A recommendation has been made to the Chief Executive of KiwiRail to 
+address this issue.   
+  
+
+ 
+Final Report RO -2019 -103 
+<< Page 15 >>
+ Effect of train speed  
+3.13. Safe operation through a set of points requires a driver to comply with the authorised 
+line speed in order to reduce the likelihood of wheel climb.  Although the set of crossover 
+points was designed for a maximum of 40 km/h running, these points were sited within 
+Palmerston North station limits , where train speeds were permanently restricted to a 
+maximum 25 km/h.  The set of crossover points within the yard environment was 
+maintained to standards appropriate for train speed s of 25 km/h.    
+3.14. The driver was starting their third consecutive identical shift  departing from Palmerston 
+North Yard with Train 626 . Although the maximum authorised line speed was 25 km/h 
+for all three departures, the routes  were not  the same . For the first two departures t he 
+train was routed  along the Branch Main line, which  did not require it to pass over 
+number 29 crossover points.   
+3.15. On the third departure , just prior to the derai lment,  the train had been routed along the 
+arrival and departure road , which required it to pass over number 29 points ( see Figure 
+2). The train was travelling at the maximum authorised line speed when the lead 
+locomotive passed over the crossover points . At about the same time, the driver applied 
+more power . A combination of a gentle down gradient and the additional power allowed 
+the train speed to increase to 34 km/h when the first wagon derailed .  
+3.16. Train drivers who are trained and certified in the use of  'DAS' are required to use the 
+system on all trains where the route s have been verified and the locomotive s are 
+equipped with fully functional unit s. The system provides a visual output of 
+topographical and network data and provides driver s with information that include s the 
+length of a train, the suggested speed and the operating mode. Speed restrictions are 
+updated automatically into the DAS server.  
+3.17. The KiwiRail Rail Operating Code required the driver to use the locomotive speedometer 
+at all times to determine train speed , as the DAS global positioning system had not been 
+approved.  At the time of the derailment the locomotive's speedometer was displaying a 
+1% error.  The driver had not ensured  that the rear of the train was clear of station limits 
+before the train speed could  exceed 25 km/h.  In this case the train was travelling at 9 
+km/h or 36% above the maximum authorised line speed when it derailed, still within 
+station limits.  
+Combined effect of track and speed  
+3.18. In most cases wagon oscill ation is minimal at speeds below 50 km/h . However,  a 
+combination of track irregularities and the natural roll frequency of  a loaded wagon  can 
+result in unstable running conditions  and wagon oscillation .   
+3.19. Although the cyclic twists referred to in 3 .10 were individually at the lower end of the 
+allowed tolerances , they were  evenly s paced at 12 m , corresponding to the distance 
+between bogie centres . The combined effect of the train speed and the natural roll 
+frequency of the wagon  was at the boundary of in stability and likely produced a low 
+speed 'rock and roll' motion.  
+3.20. On straight track, the oscillating  motion is unlikely to result in a derailment , as there is no 
+lateral force applied when the wheel load is reduced.  However, on this occasion the 
+applied lateral force increased as the wagon traversed  the curved rail on the set of 
+ 
+
+<< Page 16 >>
+ Final Report RO -2019 -103 points.  At the same time , the oscillating motion reduced the wheel load on the outside 
+rail, which caused the wheel to lift onto and then pass over the railhead .  
+The post -derailm ent condition of  wagon UKN143  
+3.21. All rail wagons have some form of damping to minimise the amount of bounce 
+associated with external  influences such as track condition . The bogies of the UKN -class 
+wagon  use a suspension arrangement where by the vertical m ovement is damped by 
+friction. The key components are spring s and friction wedges.  
+3.22. The KiwiRail Mechanical C ode requires all wagons that derail , along with the wagon s 
+immediately in front of and behind the derailed wagons , to be examined and 
+measurements  recorded . The post-derailment recorded measurements for wagon 
+UKN143 can be found in Appendix 2. The post-derailment examination showed  that the 
+float on both bogies exceed ed the allowable range  and that there was a significant  
+difference in values on either side  of the wagon.  Float above the prescribed value s 
+increase s the possibility of a derailment .  
+Post -derailment examination  of wagon UKN143 bogies   
+3.23. Following the derailment , the bogies were transported to KiwiRail's Hutt Workshops for 
+further examination  (see Figure 10). On 9 May 2019 the bogies were dismantled , their 
+components were examined , and critical measurements of the components were 
+recorded.  
+ 
+Figure 10: Leading bogie from UKN143 before examination   
+3.24. The centre bowl liner on the leading bogie showed significant wear and distortion  
+(see Figure 11). The trailing bogie was relatively undamaged. It was likely that the 
+damage to the bowl liner on the leading bogie was sustained during the derailment 
+sequen ce.   
+
+ 
+Final Report RO -2019 -103 
+<< Page 17 >>
+ 3.25. Further examination of the leading bogie revealed two broken inner cylindrical helical 
+springs on the right -hand side in the direction of travel.  Both failures had occurred at 
+similar heights, about one turn from the top (see Figure  12). The signific ant levels of 
+corrosion on the fracture surfaces indicated that the springs had very likely fractured 
+before the derailment.  
+3.26. A similar fracture  of an inner spring had also occurred on the right -hand side of the 
+trailing bogie.  
+3.27. The two broken inner springs on the leading bogie would have reduced the effectiveness 
+of its suspension stiffness by about 8.5%.  The reduced spring performance and its 
+detrimental effect s on the suspension would have likely contributed to the wagon's 
+inability to recover from an osci llation and , in doing so, likely contributed to the 
+derailment.    
+ 
+Figure 11: Centre bowl liner on leading bogie  
+ 
+
+ 
+
+<< Page 18 >>
+ Final Report RO -2019 -103  
+Figure 12: Fractured inner springs  
+Wagon i nspection requirements  
+3.28. The bogies from UKN143 were subject to routine  maintenance and  inspections , of which 
+one was a C -Check, which was performed every two years. The C -Check inspection was 
+less rigorous than a full overhaul. It included a visual inspection of the springs but did 
+not include a comple te breakdown of the bogie or any spring measurements. A full 
+overhaul was only required when the C -Check identified wedge height measurements 
+above 39 mm . 
+3.29. The full bogie overhaul required a full breakdown of the bogie and an examination and 
+measurement of the column liners, checking that the paired side frames were of the 
+same length, and checking that no part s of the springs were broken or cracked and each 
+spring passe d the minimum -length te st.  
+3.30. Records provided by KiwiRail showed  that the leading bogie from wagon  UKN143 had 
+last undergone a full overhaul in March 2007 . The wedge height measurements  from the 
+most recent C -Check  were between 29 mm and 31 mm . This  showed that the ride -
+control e lements were at about mid -life, with an expected five more years of operation 
+before the next full bogie overhaul was required.    
+Centre of gravity  of the loaded wagon  
+3.31. A key objective when loading wagons is to maximise the load stability by keeping the 
+centre of gravity as close to the wagon deck as possible.  The higher the centre of gravity 
+of a loaded log wagon, the greater the destabilising effect from the lateral force created 
+when the wagon follows a curve such as that found at a set of points.  The destabilising 
+effect increases the chance of the wagon starting to oscillate and thereby increas es the 
+likelihood of a derailment.   
+
+ 
+Final Report RO -2019 -103 
+<< Page 19 >>
+ 3.32. The National Rail System Standard , Section 6, Engineering Interoperability Standards, 
+Clause 7.4 stated in part:  
+The cen tre of gravity should be as low as practicable.  
+The centre of gravity height for any vehicle loading condition must not 
+exceed 2.0 m above rail level for bogie vehicles.  
+3.33. Because the centre  of gravity  of a loaded log wagon  can be relatively high , it can have  
+the effect of lowering the speed at which a wagon can derail.   
+3.34. The calculated combined centre of gravity for wagon UKN143, the log cradles and its 
+declared load was about 1.75 m above rail level, within the maximum allowable 2.0 m.  
+While within the allowa ble limits, the relatively high centre of gravity of wagon UKN143 
+was about as likely as not to have had a destabilising effect , which assisted its ability to 
+climb the rail and lift onto and then pass over the railhead .  
+Non-contributing factors  
+Loading  
+3.35. The KiwiRail Freight  Handling Code set the maximum load capacity for UKN -class 
+wagons at 33.0 tonnes. Although logs  are generally of variable low density , it is unlikely 
+that load capacity is exceeded on this class of wagon.  In this case , the declared weig ht of 
+29.28 tonnes was 88.7% of the maximum  permitted  load. However, the distribution of 
+the load was unknown because the loaded wagon had not passed over a weighbridge.    
+3.36. The Commission found that the log -loading process and nett weight of the logs were 
+unlikely to be contributory to the derailment.  
+Fatigue  
+3.37. Fatigue is generally defined as a physiological state of reduced mental or physical 
+performance capability resulting from sleep loss , extended wakefulness, circadian phase 
+and/or workload that can impair a person's alertness and ability to perform  safety -
+related operational  duties27.  
+3.38. It was the train driver's practice to sleep soon after finishing a night shift.  In this case , the 
+driver had finished the previous night's six-hour 10-minute shift and was asleep shortly 
+after 0400.  The driver was expecting visitors  later that morning so woke shortly after 
+0800.  The driver recalled having a two-hour  sleep later that day and waking at 1700. The 
+driver had an evening meal at home before making the 30-minute drive to work, arriving 
+at about 2130 . Therefore, the driver had been awake for about five hours prior to the 
+derailment .  
+3.39. The driver self -reported as 'fit for duty' on arrival at work and the derailment occurred 
+within the Palmerston North stati on limits about 20 minutes after the driver had booked 
+on for work and at a time when the workload was not overly high.   
+3.40. At interview , the driver confirmed feeling  alert but may have been 'a bit lagged ' due to 
+not having their usual sleep .  
+                                                        
+27 ICAO Doc 9966 - Manual for the Oversight of Fatigue Management Approaches.  
+ 
+
+<< Page 20 >>
+ Final Report RO -2019 -103 3.41. The driver's qu antity of sleep was less than normal and this was the driver's third 
+consecutive night shift ; both increased the potential for them  to be experiencing the 
+effects of fatigue . However, the low workload at the time of and prior to the derailment , 
+and the sho rt time on shift , countered this potential. Therefore, the Commission was 
+unable to determine if fatigue contributed to the driver's actions.  
+ 
+ 
+Final Report RO -2019 -103 
+<< Page 21 >>
+ 4 Findings  
+4.1. There was insufficient  vertical  load on the leading bogie of wagon UKN143 to prevent  it 
+climbing onto and then over the right -hand rail when viewed in the direction of travel.    
+4.2. No single factor caused the derailment . It was a combination of cyclic twists in the track, 
+ineffective wagon damping, train speed , and the relatively high centre of gravity  of the  
+log wagon.  
+4.3. The combined effect of the train travelling at about 36% above the maximum authorised 
+line speed  and the natural roll frequency of the wagon was at the boundary of instability 
+and likely accentuated harmonic oscillations.  
+4.4. A combination of three  broken springs and out -of-code float readings resulted in wagon 
+UKN143 having ineffective damping on its leading bogie . 
+4.5. More than 12 years had passed since a full overhaul check had taken place on wagon 
+UKN143 .   
+4.6. Currently  there is no procedure for i dentifying, evaluating and rectifying track twists of a 
+repetitive cyclic nature.  
+  
+ 
+
+<< Page 22 >>
+ Final Report RO -2019 -103 5 Safety issue s and remedial action s 
+General  
+5.1. Safety issues are an output from the Commission's analysis. They typically describe a 
+system problem that has the potential to adversely affect future operations on a wide 
+scale.   
+5.2. Safety issues may be addressed by safety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address the issue.   
+Measurement of cyclic track conditions  
+5.3. The Commission found that recent wheel -climb derailments on the network had had a 
+similar combination of contributing factors, including but not limited to:  
+ track parameters at the low end of the priority action requirement  
+ cyclic track twists approaching the POD  
+ degraded wagon damping performance  
+ train speed s in the range of 25  to 35 km/h.  
+5.4. The Commission has therefore made a recommendation to KiwiRail to identify the extent 
+of cyclic track conditions on the rail network that could potentially contribute to future 
+derailments, and to develop timescales for inspections and safety actions in order to 
+reduce the likelihood of future derailments.   
+Other safety action  
+5.5. Participants may take safety action s to address issues that would not normally result in 
+the Commission  issuing a recommendation.  
+5.6. The following safety action has been taken:  
+ in response to the accident , KiwiRail issued a notice , dated 1 August 2019,  reinforcing 
+the need for train drivers and remote -control operators to adhere to maximum 
+authorised line speed s until the complete train s had cleared the section s of track to 
+which those speed s applie d. The reason was that  the end -of-train speed is critical, and 
+that any over  speed , particularly at a set of points , will result in wagons becoming 
+unstable and increase the risk of a derailment  (see Appendix 1)  
+ on 4 February 2020, KiwiRail stated  that the following work was being undertaken to 
+prevent future derailments:  
+­ the adoption of AS7509 , the rolling stock dynamic performance standard . This 
+specifically includes evaluation s of the design against cyclic track defects  
+­ Type 14 bogie fleet being retired as new wagons are introduced.  The bogies on the 
+new wagons have higher, load -proportional damping by design and are laterally 
+stiffer due to cross -bracing and  are showing a much lower derailment rate than the 
+Type 14  
+­ prohibiting the re -use of inner springs on Type 14 bogies at overhaul.  However, 
+given  that the number of Type 14 bogies is reducing and the lifespan of a bogie 
+means many will be retired before reaching overhaul , this is  going to have a very 
+small impact on the risk.   
+ 
+Final Report RO -2019 -103 
+<< Page 23 >>
+ 6 Recommendations   
+General   
+6.1. The Commission may issue, or give notice of, recommendations to any person or 
+organisation that it considers the most appropriate to address the identified safety 
+issues, depending on whether  these safety issues are applicable to a single operator only 
+or to the wider transport sector.  
+6.2. In the interests of transport safety, it is important that recommendations are 
+implemented without delay  to help prevent similar accidents or incidents occurring in 
+the future.   
+6.3. In this case, a recommendation has been issued  to the Chief Executive of KiwiRail.  
+New recommendations   
+6.4. On 6 April 2020  the Commission recommended that the Chief Executive of KiwiRail 
+identif y cyclic track conditions on the national rail network and develop a standard 
+that prioritises actions to be t aken in order to reduce the likelihood of a 
+derailment . (003/20) 
+On 20 April 2020, the Chief Executive of KiwiRail replied:  
+KiwiRail  accepts the recommendation as presented, noting that there is 
+already a cyclic line exceedance that is detected by the Track Evaluation Car 
+for action by site staff as per Track Standard T -ST-AM-5120 Track Geometry.  
+The same equipment on this vehicle has the potential to detect cyclic top 
+exceedances such as that identified as part of the KiwiRail investigation into 
+the Palmerston North derailment. Further investigation is required to 
+determine if the equipment is suitable, including any modifications that  may 
+be required whilst ensuring that any changes to the equipment does not 
+affect its current capability.  
+Upon determination of the above, a process to develop relevant standards 
+and exceedance levels will be instigated involving third party modelling, si te 
+testing, and consultation. It is expected that the conclusion of this work will 
+take approximately 18 -24 months.  
+ 
+
+<< Page 24 >>
+ Final Report RO -2019 -103 7 Key lessons  
+7.1. Planned and preventive maintenance is a key safety requirement for an y transport -
+related operation.      
+7.2. A speed limit is a key risk-control measure that helps to reduce the likelihood and 
+consequence s of an incident on the rail network.  It is therefore essential that , in order to 
+avoid an unintended consequence , a train driver keeps the train 's speed  under control at 
+all times.  
+  
+ 
+Final Report RO -2019 -103 
+<< Page 25 >>
+ 8 Data summary  
+Vehicle particulars  
+Train type and 
+number:  express freight Train 626  consisting of two DL -class 
+locomotives hauling 37 wagons  
+Train length : 638 metres  
+Train weight : 1,681 tonnes (including the locomotives)  
+Operator:  KiwiRail Holdings Limited  
+Date and time  4 April 2019 at 2151:3728 
+Location  0.912 kilometres29 Palmerston North -Gisborne line  
+Operating crew  one train driver  
+Injuries  nil 
+Damage  significant damage to the rail infrastructure and rolling 
+stock  
+  
+                                                        
+28 Times in this report are New Zealand Daylight Savings Times (universal co -ordinated time + 13 hours) and 
+are expressed in the 24 -hour mode.  
+29 The location of the derailment is the distance from a reference point within the Palmerston North Ya rd. 
+ 
+
+<< Page 26 >>
+ Final Report RO -2019 -103 9 Conduct of the inquiry  
+9.1. On 4 April 2019, the N Z Transport Agency notified the Commission of the occurrence.  
+The Commission subsequently opened an inquiry under section 13(1) of the Transport 
+Accident Investigation Commission Act 1990 (the Act) and appointed an investigator in 
+charge.  
+9.2. Commission investigators arrived on site early the next day to examine the accident site.  
+An order was issued under section 12(1)( c) and (d) of the Act to protect the site and the 
+derailed wagons.  A non -tampering order was placed on the four derailed wagons, and 
+on the wagon s directly in front of and behind the derailed wagons.  
+9.3. The train driver was interviewed by Commission in vestigators on 10 April  2019.  
+9.4. The Commission obtained the following records and documents for analysis:  
+ the data downloaded from the train's event recorder  
+ the train control diagram  
+ the signal data  
+ recordings of the communication between the train controller and the train driver  
+ the train driver's training records and timesheets  
+ track inspection and maintenance records  
+ wagon inspection and maintenance records.  
+9.5. On 9 May 2019 Commission investigators,  with assistance from KiwiRail, methodically 
+stripped down the bogies from the first wagon to derail at KiwiRail's Hutt Workshops.   
+9.6. On 11 December 2019  the Commission approved a draft report for circulation to three 
+interested persons for their comment.  
+9.7. Submissions were received from the three interested persons. The Commission 
+considered the submissions and any changes as a result of those submissions have been 
+included in this final report.   
+9.8. On 2 April 2020  the Commission approved the final report for publication.   
+ 
+Final Report RO -2019 -103 
+<< Page 27 >>
+ 10 Report information  
+Abbreviations  
+Commission   Transport Accident Investigation Commission  
+KiwiRail   KiwiRail Holdings Limited  
+km/h    kilometre (s) per hour  
+m   metre(s)  
+mm   millimetre (s) 
+POD   point of derailment  
+Glossary  
+ 
+bogie  a metal frame equipped with twin wheelset s and able to rotate freely 
+used in pairs under rail vehicles to improve ride quality and better 
+distribute forces to the track  
+cant the height of one rail relative to another  
+coupler  a device used to connect wagons f or haulage purposes  
+driver advisory system  a computer touch -screen mounted in the locomotive cab that is 
+connected to the locomotive power supply, global positioning system 
+and cellular antennae. It provides a visual output of topographical and 
+network dat a along with suggested speeds and operating modes.  
+dynamic interaction  occurs when the track geometry, wagon condition, wagon loading and 
+train speed are individually within tolerance limits, or marginally in 
+excess, but not to an extent that each variati on on its own is sufficient 
+to be a prime cause of a derailment. However, when in combination 
+these conditions can result in a derailment  
+float the clearance between the float block on a bogie bolster and the 
+corresponding block on the wagon underframe  
+friction wedges  wedges that perform a similar function to shock absorbers in a car by 
+controlling the bounce when a wagon passes over undulating track.  
+They also hold the bolster perpendicular to the side frames to provide 
+better steering  and longer wheel life  
+point of derailment  the exact location where a first wheel flange loses guidance from the 
+rail 
+terminal brake test  a terminal brake test must be carried out when any locomotive hauled 
+train is made up or any wagon added to a train.  The t est involves 
+ 
+
+<< Page 28 >>
+ Final Report RO -2019 -103 checking both sides of each wagon on the train to ensure the braking 
+system is connected correctly and functioning in both application and 
+release  
+track twist  the variation in cant over a base length of four metres  
+train control  the national t rain control centre housed in the Wellington Railway 
+Station, where train movements and track occupations are authorised 
+by train controllers  
+train event recorder  a device that continuously captures and stores train systems ' data.  The 
+data stored  typically  includes location, speed, brake pressure, dynamic 
+brake, whistle activation, vigilance activation and cancellation.  The data 
+is used to evaluate incidents and accidents   
+train examiner  a person qualified to carry out a full terminal brake test  - a pre -departure 
+inspection above and below all the wagon decks while a train is stationary  
+- before issuing a certificate to the driver as confirmation that the train is 
+safe to run to its destination  
+vertical load  the downward force on a n individual whe el, which varies as a wagon 
+travels along a track.  When the vertical load is low compared to the 
+lateral force , the wheel could climb the rail, potentially leading to a 
+derailment  
+wheelset  two rail wheels mounted on a joining axle  
+witness mark  a physical mark that is made when a wheel flange climbs up and across 
+the railhead  
+ 
+   
+ 
+Final Report RO -2019 -103 
+<< Page 29 >>
+ 11 Notes about Commission reports  
+Commissioners  
+Chief Commissioner    Jane Meares  
+Deputy Chief Commissioner  Stephen Davies Howard  
+Commissioner    Richard Marchant  
+Commissioner    Paula Rose, QSO  
+Key Commission personnel  
+Chief Executive    Lois Hutchinson  
+Chief Investigator of Accidents  Aaron Holman  
+Investigator in Charge    Peter Miskell  
+General Counsel    Cathryn Bridge  
+Citations and referencing  
+This final report does not cite information derived from interviews during the Commission's 
+inquiry into the occurrence.  Documents provided to the Commission in the course of its 
+investigation that  are protected under the Transport Accident Investigation Commission Act  
+are referenced as footnotes only . Publicly available documents referred to during the 
+Commission's inquiry are cited.  
+Photographs, diagrams, pictures  
+The Commission has provided, and owns, the photographs, diagrams and pictures in this 
+report unless otherwise specified.  
+Verbal probability expressions  
+This report uses standard terminology to describe the degree of probability (or likelihood) that 
+an event happened or a condition existed  in support of a hypothesis. The expressions are 
+defined in the table below.  
+ 
+Terminology*  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+*Adopted from the Intergovernmental Panel on Climate Change  
+ 
+
+<< Page 30 >>
+ Final Report RO -2019 -103 Appendix 1:  Train driver notice  
+ 
+ 
+
+ 
+Final Report RO -2019 -103 
+<< Page 31 >>
+ Appendix 2:  Post -derailment w agon examination  
+Table 1 contains the measurements for wagon UKN143, the first wagon to derail.  
+'Z' is the thickness of the solid wheel rim.  The c ondemning limit is 16. A low value is a thin rim.  
+'X' is the wheel flange thickness. A high 'X' value means a thin flange. The c ondemning limit is 
+40.  
+Float is measured on both sides of the bolster and the two figures are added together  (see 
+Figure 8). The a cceptable float limit for the bogie at the handbrake end is 6 -10 mm, and it is 
+12-16 mm for the bogie at the non -handbrake end.  
+The w edge height depot condemning limit is 39 mm and above.  
+Figure 13 is a schematic showing the wagon and bogie layout.   
+ 
+Figure 13: Wagon and bogie layout  
+ Wheel  
+From 
+(HB) Wheel  
+'Z' [mm]  Wheel  
+'X' [mm]  Wedge  
+[mm]  Float  
+[mm]  Wedge  
+[mm]  Wheel  
+'X' [mm]  Wheel  
+'Z' [mm]  Wheel  
+A1 54 2    2 54 B1 
+   28 4 +12  30    
+A2 54 2    2 54 B2 
+         
+A3 54 2    2 54 B3 
+   28 4 + 16  29    
+A4 54 2    2 54 B4 
+Table 1: Measurements for wagon UKN143  
+
+ 
+  
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most  recent at top of list)  
+RO-2019-101 Safe-working occurrence, Westfield yard, Ōtāhuhu, Auckland, 24 March 2019  
+RO-2019-102 Clinton derailment, 29 March 2019  
+RO-2018-102 Freight train SPAD and wrong -routing, Taimate, 1 October 2018  
+RO-2018-101 Metropolitan passenger train, derailment, Britomart Transport Centre, Auckland, 9 
+May 2018  
+RO-2017-106 Mainline locomotives, Wrong -routing and collision with work vehicle, Invercargill, 
+16 November 2017  
+RO-2017-105 Collision between freight Train 353 and  heavy motor vehicle, Lambert Road, level 
+crossing, near Kawerau, 6 October 2017  
+RO-2017-104 
+ Unauthorised immobilisation of passenger train, at Baldwin Avenue Station, 
+Avondale, 17 September 2017  
+RO-2017-101 Signal Passed at Danger 'A' at compulsory stop boards protected worksite, 
+Pongakawa, Bay of Plenty, 7 February 2017  
+RO-2017-103 Potential collision between passenger trains, Wellington Railway Station, 15 May 
+2017 
+RO-2017-102 Signalling irregularity, Wel lington Railway Station, 3 April 2017  
+RO-2016-101 Signal passed at danger leading to near collision, Wellington Railway Station, 28 
+May 2016  
+RO-2016-102 Train 140 passed Signal 10R at 'Stop', Mission Bush Branch line, Paerata, 25 
+October 2016  
+RO-2015-103 Track occupation irregularity, leading to near collision, between Manunui and 
+Taumarunui, 15 December 2015  
+RO-2014-105 Near collision between train and hi -rail excavator, Wairarapa Line near 
+Featherston, 11 August 2014  
+RO-2013-101 Derailment of freight  Train 345, Mission Bush Branch line, 9 January 2013  
+ 
+
+ 
+ TAIC Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ngati Raukawa, 
+Tuwharetoa, MacDougal).  Sandy began from thinking of the Commis sion as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies and how to prevent them. A 'waka whai mārama (i te 
+ara haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) and Papatūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling within), which brought 
+light and thus awareness to the world. 'Te ar a' is 'the path' and 'haumaru' is 'safe or risk free'.  
+Corporate: Te Ara Haumaru - The safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of 
+knowledge that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. 
+The continual wave is the perpetual line of influence. The succession of humps represent the individual 
+inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: ng ā hau e whā - the four winds  
+ 
+To Sandy, 'Ngā hau e whā' (the four winds), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa , was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for aviation.  
+Sandy  acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this 
+Kōwhaiwhai.  
+Marine: ara wai - waterways  
+ 
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for 'Marine'.  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+The design represents the fluid mo vement of trains across Aotearoa. 'Rere' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth M other) and Tāne Mahuta (God of man and forests and everything 
+that dwells within) in the creation of this Kōwhaiwhai.  
+  
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 15.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

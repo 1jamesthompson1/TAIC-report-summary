@@ -1,0 +1,60 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue management contributing to the accident in the provided document. Insufficient information.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: The accident was caused by human error, specifically the omission of fitting retaining split pins on two bolts that secured the spring park brake assembly to the bogie (5.2). This error was due to the lack of documented task instructions and a system to record progress, which allowed for the omission to be missed (5.3).
+- name: Training and Competency
+  percentage: 10
+  explanation: While there is no direct mention of inadequate training, the lack of documented task instructions suggests that there may have been gaps in training and competency regarding the maintenance of the Ganz Mavag fleet (5.3, 5.4).
+- name: Training and Familiarity with Equipment
+  percentage: 10
+  explanation: The absence of documented task instructions for maintaining the Ganz Mavag fleet implies that there may have been insufficient training and familiarity with the equipment, which contributed to the omission of the split pins (5.3, 5.4).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no mention of Crew Resource Management issues contributing to the accident in the provided document. Insufficient information.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 30
+  explanation: The accident was directly related to the failure to adhere to safety procedures, as the maintenance staff did not secure the bolts with split pins as required (4.1.2, 4.2.2). This lack of adherence to safety procedures was a significant factor in the accident.
+- name: Organizational Safety Culture
+  percentage: 15
+  explanation: The organizational safety culture at the Wellington metro maintenance depot was lacking, as evidenced by the reliance on institutional knowledge rather than documented procedures for safety-critical tasks (4.2.1). This culture likely contributed to the accident.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: There was a failure in risk management and analysis, as no systematic assessment had been undertaken to identify safety-critical systems and their components, which would have included the spring park brake assembly (4.2.3).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The lack of mandatory checks by independent individuals suggests a gap in regulatory oversight and compliance, which contributed to the accident (4.2.3).
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There is no mention of situational awareness issues contributing to the accident in the provided document. Insufficient information.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: The emergency response to the accident was considered appropriate and is not cited as a contributing factor to the accident itself (4.1.6). Insufficient information.
+- name: Maintenance and Inspection Regimes
+  percentage: 5
+  explanation: The maintenance and inspection regimes were inadequate, as evidenced by the lack of documented task instructions and independent checks for safety-critical systems (4.2.1, 4.2.3).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention of automation contributing to the accident in the provided document. Insufficient information.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a factor in the accident in the provided document. Insufficient information.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no mention of communication breakdown contributing to the accident in the provided document. Insufficient information.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the provided document that contributed to the accident. Insufficient information.

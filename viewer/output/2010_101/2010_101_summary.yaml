@@ -1,66 +1,62 @@
-- name: Human Factors - Fatigue and Alertness
+- name: Fatigue Management
   percentage: 5
-  explanation: The Auckland signal box controller's shift pattern had been different from his normal patterns, which may have contributed to a loss of awareness regarding the trains he was signaling (4.2.18-4.2.21). However, fatigue was discounted as a contributing factor for the train driver, as he had just begun a normal day shift and appeared to have been driving his train normally (4.3.21).
-- name: Situational Awareness
+  explanation: Fatigue was considered as a potential factor affecting the driver's performance. However, the report indicates that "the driver's shift roster was not unusual and he had just begun a normal day shift, so fatigue was discounted as a contributing factor" (4.3.21). Therefore, while fatigue management is a relevant safety theme, it had a minimal impact on the incidents described in the report.
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: Human error and assumptions played a significant role in the incidents. The Auckland signal box controller set the wrong route due to confusion about the running order of the trains (5.1), and the driver of the passenger train made incorrect assumptions about the signal and the route his train would take (5.6, 5.7, 5.10). These errors were pivotal in the unfolding of the events.
+- name: Training and Competency
+  percentage: 10
+  explanation: The report does not indicate a lack of training or competency as direct contributors to the incidents. However, it does mention that the driver was adequately trained and familiar with the route and signals (4.3.19), suggesting that while training and competency are always relevant, they were not the primary issues in this case.
+- name: Training and Familiarity with Equipment
+  percentage: 5
+  explanation: The report mentions that the signal alert system installed in the train cab was not used by the driver (5.8), indicating a potential lack of familiarity or reluctance to use the equipment. However, this was not the main cause of the incidents but rather a contributing factor to the driver's failure to respond correctly to the signals.
+- name: Crew Resource Management
   percentage: 20
-  explanation: The Auckland signal box controller set the wrong route for the passenger train due to confusion about the running order of the trains (5.1). The driver of the passenger train did not respond correctly to the signals leading up to the turnout, likely because he forgot about the caution signal displayed on the previous warning signal (5.7). Additionally, the track worker was nearly hit by the passenger train because he was not watching out in all directions as required (5.14).
-- name: Distracted Operation
-  percentage: 0
-  explanation: 'There is no evidence in the document that suggests the operators were engaged in non-essential activities that diverted their attention from controlling their respective responsibilities.
-
-    '
-- name: Human Error and Error Management
+  explanation: Poor crew resource management contributed significantly to the incidents. The report highlights the lack of effective communication and coordination among the train crew, signal box controllers, and track workers (4.6.1). The absence of CRM principles such as teamwork and communication was evident in the failure to prevent the wrong route setting and the subsequent incidents (5.12, 5.13).
+- name: Adherence to Safety Procedures
   percentage: 15
-  explanation: Human error played a significant role, with the Otahuhu signal box controller not providing clear information to the Auckland signal box controller (5.2), and the driver of the passenger train making incorrect assumptions about the route ahead without verifying with the signal box controller or train controller (5.10).
-- name: Safety Culture and Organizational Influences
-  percentage: 10
-  explanation: The established practice of not contacting train control before taking manual control of signal boxes, specifically for the Tamaki signal box, compromised the safety of rail operations (5.3). Additionally, the daily work bulletin did not make clear the presence of a protected worksite within the Tamaki signal box control zone (5.5).
-- name: Communication and Crew Resource Management
-  percentage: 25
-  explanation: 'Poor communication and inadequate crew resource management contributed to all four incidents. Examples include the lack of clear information exchange between signal box controllers, the driver not alerting the train controller about the delay, and the train manager not intervening after the over-speed crossing to the Down Main line (4.6.1-4.6.9, 5.12).
-
-    '
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 0
-  explanation: 'The document does not provide evidence that a lack of training or preparedness for emergency procedures contributed to the incidents.
-
-    '
-- name: Emergency Response Planning and Coordination
-  percentage: 0
-  explanation: 'There is no information in the document that suggests emergency response planning and coordination were factors in the incidents.
-
-    '
-- name: Maintenance Procedures and Compliance
-  percentage: 0
-  explanation: 'The incidents described do not appear to be related to maintenance procedures or compliance issues with vehicles or equipment.
-
-    '
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'Fire detection and suppression systems were not relevant to the incidents described in the document.
-
-    '
-- name: Regulatory Compliance and Safety Management
-  percentage: 10
-  explanation: The incidents occurred partly due to non-compliance with established rail operating procedures, such as the failure to follow proper communication protocols and the established practice of not contacting train control before taking manual control of signal boxes (5.3).
-- name: Equipment Design and Specifications
-  percentage: 0
-  explanation: 'There is no indication that equipment design and specifications were a factor in the incidents.
-
-    '
-- name: Risk Assessment and Management
+  explanation: The failure to adhere to safety procedures was a critical factor. The established practice of contacting train control before taking manual control of signal boxes was not followed (5.3), and the signal box controller did not thoroughly read the daily work bulletin (5.5). These deviations from safety procedures directly contributed to the incidents.
+- name: Organizational Safety Culture
   percentage: 5
-  explanation: Risk assessment and management appear to have been insufficient, as evidenced by the lack of awareness of the protected worksite within the Tamaki signal box control zone and the failure to follow established procedures that could have prevented the incidents (5.5).
-- name: Weather Information Dissemination and Interpretation
-  percentage: 0
-  explanation: 'Weather conditions were not mentioned as a factor in the incidents.
+  explanation: 'While the report does not explicitly discuss organizational safety culture, the incidents suggest issues with communication and adherence to procedures that could be indicative of broader cultural problems within the organizations involved. However, there is insufficient information to determine the extent to which safety culture influenced the incidents.
 
     '
-- name: Structural Integrity and Material Fatigue
+- name: Risk Management and Analysis
   percentage: 0
-  explanation: 'There is no mention of structural integrity or material fatigue issues contributing to the incidents.
+  explanation: 'The report does not provide evidence that risk management and analysis were factors in the incidents. There is no mention of inadequate risk assessments or safety plans contributing to the events.
 
     '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no indication in the report that a lack of regulatory oversight or non-compliance with regulations was a contributing factor to the incidents.
+
+    '
+- name: Situational Awareness
+  percentage: 5
+  explanation: The driver's loss of situational awareness contributed to the incidents, particularly when he forgot about the caution signal displayed on the previous warning signal (5.7). However, this was one aspect of a broader set of communication and human error issues.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'Emergency response preparedness was not a factor in the incidents as they did not involve an emergency response situation.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'The report does not suggest that maintenance or inspection regimes were related to the incidents.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'Automation was not mentioned as a factor in the incidents. The report does not discuss any issues related to automated systems or their operation.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions were not a factor in the incidents, as there is no mention of weather affecting the events or decisions made.
+
+    '
+- name: Communication Breakdown
+  percentage: 5
+  explanation: Communication breakdown was a significant factor, as evidenced by the failure to effectively exchange information among the signal box controllers, train driver, and track workers (4.6.1). However, this theme is closely related to human error and assumptions, and CRM, which have been given more weight due to their more direct impact on the incidents.
 - name: Other
-  percentage: 10
-  explanation: The use of colloquial language and non-standard phraseology by the Otahuhu signal box controller, such as referring to the suburban train as a 'subby', contributed to the confusion and miscommunication that led to the wrong route being set for the passenger train (4.6.10). This represents a safety issue related to communication standards and practices within the organization.
+  percentage: 0
+  explanation: There are no additional safety themes identified in the report that contributed to the incidents beyond those already defined.

@@ -1,62 +1,60 @@
-- name: Human Factors - Fatigue and Alertness
+- name: Fatigue Management
   percentage: 0
-  explanation: There is no mention of fatigue or alertness issues in the document. The pilot's lack of recent experience and training is discussed, but there is no indication that fatigue or alertness was a factor ("the pilot lacked recent experience and training on the aircraft type" (4.1.2)).
-- name: Communication and Crew Resource Management
-  percentage: 0
-  explanation: 'The document does not indicate that communication or crew resource management played a role in the incident. The focus is on the pilot''s actions and the systems of the helicopter, rather than on communication with crew or other personnel.
+  explanation: 'There is no mention of fatigue or overwork contributing to the incident in the provided document. Therefore, this theme is not applicable to the accident.
 
     '
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 10
-  explanation: The pilot's lack of recent experience on the BK117 helicopter and the absence of recent training or competency checks on this aircraft type contributed to the incident ("A possible reason for the pilot's omission was his lack of recent experience on the BK117 helicopter" (4.2.3), "the pilot in volved in this incident had not been tested or checked in this way, and according to his training records had not been assessed for his aircraft type knowledge or checked for competency on the BK117 since 2009" (4.5.2)).
-- name: Maintenance Procedures and Compliance
-  percentage: 0
-  explanation: The incident was not related to maintenance procedures or compliance. The inquiry found no mechanical reason for the engines' loss of power, and the power losses were due to fuel starvation, not maintenance issues ("The inquiry found no mechanical reason for the engines' loss of power on the incident flight" (4.1.1)).
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'There is no mention of fire detection or suppression systems in relation to the incident. The issue was related to fuel management and not fire safety.
-
-    '
-- name: Regulatory Compliance and Safety Management
+- name: Human Error and Assumptions
   percentage: 20
-  explanation: The operator's system for maintaining oversight of its pilots' proficiency and currency was not robust enough to ensure that the pilot was proficient and sufficiently current to fly the BK117, which is a regulatory compliance and safety management issue ("The operator's system for maintaining oversight of its pilots' proficiency and currency was not robust enough to ensure that this pilot was proficient and sufficiently current to fly the BK117" (5.3)).
-- name: Situational Awareness
+  explanation: The pilot's lack of recent experience on the BK117 and his familiarity with the AS350's simpler fuel system likely led to the mismanagement of the BK117's fuel system, causing fuel starvation ("The following analysis discusses the circumstances leading up to and contributing to the double engine power loss" (4.1.2), "A possible reason for the pilot's omission was his lack of recent experience on the BK117 helicopter" (4.2.3), "The pilot could have inadvertently applied the more familiar fuel management technique for the AS350" (4.2.4)).
+- name: Training and Competency
+  percentage: 25
+  explanation: The pilot had not been assessed for his aircraft type knowledge or checked for competency on the BK117 since 2009, and he lacked recent experience on the aircraft type, which directly contributed to the incident ("The pilot should not have operated the flight because he had not been assessed for his type-specific knowledge or checked for competency on the BK117 in the previous five years, and he lacked recent experience on the aircraft type" (5.2)).
+- name: Training and Familiarity with Equipment
   percentage: 15
-  explanation: The pilot's situational awareness was likely compromised due to the modification of the cockpit lighting, which affected the readability of the caution lights during daylight, and the absence of an aural warning for low fuel levels in the supply tanks ("the modification of the cockpit lighting adversely affected the readability of the caution lights during daylight, when the dimmer was on" (4.1.2), "the helicopter was not designed to generate an aural warning of a critically low fuel level in the supply tanks" (5.5)).
-- name: Equipment Design and Specifications
+  explanation: The pilot's unfamiliarity with the BK117's fuel system due to lack of recent experience and training on this aircraft type was a contributing factor to the incident ("A possible reason for the pilot's omission was his lack of recent experience on the BK117 helicopter" (4.2.3), "The pilot could have inadvertently applied the more familiar fuel management technique for the AS350" (4.2.4)).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'Crew Resource Management does not appear to be a factor in this incident as it was a single-pilot operation and there is no mention of teamwork, communication, or decision-making with other crew members in the provided document.
+
+    '
+- name: Adherence to Safety Procedures
   percentage: 15
-  explanation: The design of the BK117 fuel system, which allowed both engines to lose power nearly simultaneously due to fuel mismanagement, and the lack of an aural warning for low fuel levels contributed to the incident ("the design of the BK117 fuel system meant that both engines would lose power at nearly the same time if a pilot mismanaged the fuel system and did not see the low-fuel-level warnings" (4.1.2), "The BK117 was not designed to have an aural warning to alert pilots to low fuel levels in the supply tanks" (4.3.1)).
-- name: Risk Assessment and Management
+  explanation: The pilot did not use the starting-engine checklist, which would have prompted him to switch on the fuel transfer pumps and switch off the fuel prime pumps after engine start, contributing to the fuel starvation ("The starting-engine checklist for the helicopter included prompts for the pilot to switch off the fuel prime pumps and switch on the fuel transfer pumps after engine start. The pilot did not use this checklist" (4.2.7)).
+- name: Organizational Safety Culture
   percentage: 10
-  explanation: The operator's lack of a robust system to ensure pilot proficiency and currency represents a failure in risk assessment and management, as it did not adequately mitigate the risk of a pilot lacking recent experience on a specific aircraft type ("The operator's system for maintaining oversight of its pilots' proficiency and currency was not robust enough" (5.3)).
-- name: Emergency Response Planning and Coordination
+  explanation: The operator's system for maintaining oversight of its pilots' proficiency and currency was not robust enough to ensure that the pilot was proficient and sufficiently current to fly the BK117, indicating issues with the organizational safety culture ("The operator's system for maintaining oversight of its pilots' proficiency and currency was not robust enough to ensure that this pilot was proficient and sufficiently current to fly the BK117" (5.3)).
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: While there is no direct mention of risk management and analysis processes, the lack of a robust system to ensure pilot proficiency and currency could be indicative of inadequate risk management within the organization ("The operator's system for maintaining oversight of its pilots' proficiency and currency was not robust enough" (5.3)).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The operator did not have additional requirements or procedures above the legal currency required under CAR Part 61, and the pilot had flown the BK117 type on five occasions without meeting these currency requirements, indicating issues with regulatory oversight and compliance ("The operator in this case did not have any additional requirements or procedures above or beyond the legal currency required under CAR Part 61" (4.5.4)).
+- name: Situational Awareness
+  percentage: 5
+  explanation: The pilot's situational awareness was likely compromised due to the modification of the cockpit lighting, which affected the readability of the caution lights during daylight when the dimmer was on, and the lack of an aural warning for low fuel levels in the supply tanks ("A cockpit lighting modification to the helicopter had adversely affected the readability of the caution lights during daylight, when the dimmer switch was on" (5.4)).
+- name: Emergency Response Preparedness
   percentage: 0
-  explanation: 'The document does not discuss emergency response planning and coordination as a contributing factor to the incident.
+  explanation: 'There is no mention of emergency response preparedness or its impact on the incident in the provided document. Therefore, this theme is not applicable to the accident.
 
     '
-- name: Distracted Operation
+- name: Maintenance and Inspection Regimes
   percentage: 0
-  explanation: 'There is no evidence in the document to suggest that the pilot was distracted by non-essential activities during the operation of the aircraft.
+  explanation: The inquiry found no mechanical reason for the engines' loss of power, indicating that maintenance and inspection regimes were not a contributing factor to the incident ("The inquiry found no mechanical reason for the engines' loss of power on the incident flight" (4.1.1)).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The incident was not related to the use of automation, as it was a result of the pilot''s mismanagement of the fuel system and not an automated system failure.
 
     '
-- name: Structural Integrity and Material Fatigue
+- name: Weather Conditions and Decision Making
   percentage: 0
-  explanation: The incident was not related to structural integrity or material fatigue. The engines lost power due to fuel starvation, not structural or material failure ("The inquiry found no mechanical reason for the engines' loss of power on the incident flight" (4.1.1)).
-- name: Human Error and Error Management
-  percentage: 30
-  explanation: 'Human error played a significant role in the incident, as the pilot failed to switch on the fuel transfer pumps after starting the engines, and did not use the checklist that would have prompted him to do so ("Both engines lost power due to fuel starvation, because the pilot did not switch on the fuel transfer pumps after starting the engines" (5.1), "the pilot did not refer to a written checklist; had he done so he would have been prompted to: switch the fuel transfer pumps on, which would have prevented the fuel starvation" (5.6 (invalid formatted quote))).'
-- name: Safety Culture and Organizational Influences
-  percentage: 0
-  explanation: 'While the operator''s system for maintaining pilot proficiency and currency was inadequate, the document does not specifically discuss safety culture or organizational influences as a direct contributing factor to the incident.
+  explanation: 'Weather conditions are not mentioned as a contributing factor to the incident in the provided document.
 
     '
-- name: Weather Information Dissemination and Interpretation
+- name: Communication Breakdown
   percentage: 0
-  explanation: 'Weather was not mentioned as a factor in the incident. The focus was on fuel management and the pilot''s actions.
+  explanation: 'There is no mention of communication issues contributing to the incident in the provided document, as it was a single-pilot operation and the focus was on the pilot''s actions and omissions.
 
     '
 - name: Other
-  percentage: 0
-  explanation: 'There are no additional safety themes identified in the document that contributed to the accident outside of the predefined themes.
-
-    '
+  percentage: 5
+  explanation: The design of the BK117 fuel system, which allowed both engines to lose power nearly at the same time due to fuel mismanagement, and the lack of an aural warning for low fuel levels contributed to the incident ("the design of the BK117 fuel system meant that both engines would lose power at nearly the same time if a pilot mismanaged the fuel system and did not see the low-fuel-level warnings" (4.1.2), "The BK117 was not designed to have an aural warning to alert pilots to low fuel levels in the supply tanks" (4.3.1)).

@@ -1,0 +1,17 @@
+"2015_009","[12  13  14  15  16  17  18  19  20  21  22  23  24]","0.0","There is no evidence in the document that fatigue management contributed to the incidents. Fatigue and illness were discounted as factors (4.2.12).
+","0.0","15.0","The controller's actions, such as trying to accommodate all pilot requests and not achieving an orderly flow, indicate human error (4.2.3). Additionally, the controller's nervousness about the assessment and the lack of a proper pre-assessment briefing may have led to assumptions about the assessment process (4.2.13, 4.3.7).
+","0.0","16.667","The controller had been working at the Hamilton ATC unit for about 18 months and had been assessed multiple times, indicating adequate training. However, the controller's actions on the day were uncharacteristic and did not reflect their normal standard of proficiency (4.2.10, 4.2.16).
+","5.774","1.667","There is no mention in the document of issues related to training and familiarity with equipment contributing to the incidents.
+","2.887","20.0","The standard of team resource management in the Hamilton ATC tower did not match good industry practice, and there was a breakdown in the team approach to managing traffic, which was a significant factor contributing to the series of incidents (4.4, 5.3).
+","0.0","8.333","The controller allowed the Beechcraft 1900 to conduct a low approach and overshoot in an already busy circuit, which could have been declined to avoid an unnecessary increase in workload and disruption (4.2.4).
+","2.887","8.333","The document discusses the importance of a just culture and the need for a clear vision of preferred behavior and professional responsibilities within the team, which was lacking (4.4.1, 4.4.3).
+","2.887","5.0","The document mentions the need for risk management in the context of the Hamilton ATC unit's high turnover and the predominance of inexperienced controllers, which had the potential to raise the risk profile of the ATC unit (4.4.4).
+","0.0","5.0","The document discusses the CAA's role in investigating incidents and the need for compliance with safety regulations, but there is no direct evidence that regulatory oversight and compliance were factors in the incidents (4.5.1, 4.5.7).
+","0.0","15.0","The controller lost situational awareness of the aircraft within the control zone, which was the primary reason for the series of incidents (5.1).
+","5.0","0.0","There is no mention in the document of emergency response preparedness being a factor in the incidents.
+","0.0","0.0","There is no mention in the document of maintenance and inspection regimes contributing to the incidents.
+","0.0","0.0","The document does not provide evidence that the use of automation was a factor in the incidents.
+","0.0","0.0","Weather conditions were not a factor in this incident, as the weather on the day was fine and clear (4.2.11).
+","0.0","5.0","The document mentions issues with over-controlling and excessive traffic information, which created radio congestion and difficulties for pilots, particularly those for whom English was their second language (4.5.18, 4.5.20).
+","5.0","0.0","There are no additional safety themes identified in the document that contributed to the incidents.
+","0.0","true","N/A"

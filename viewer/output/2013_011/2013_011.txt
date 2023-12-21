@@ -1,0 +1,704 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Final Report  AO-2013-011: Runway excursion, British Aerospace Jetstream 32,  
+ZK-VAH, Auckland Airport, 2 November 2013  
+ 
+ 
+ 
+Double engine power loss , Near Springston, Canterbury , 5 May 2014  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents  and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+under taken for that purpose.  
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+These rep orts may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Final  Report  
+Aviation inquiry AO-2013-011 
+ 
+Runway excursion  
+British Aerospace  Jetstream 32 , ZK-VAH 
+Auckland Airport  
+2 November 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : February 2017  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a  standing commission of inquiry and 
+an independent Crown entity responsible for inquiring i nto maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiries is to determine the circumstances and 
+causes of th e occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Comm ission carries out its purpose by informing 
+members of the transport sector  and the public , both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     Jane Meares  
+Deputy  Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Stephen Davies  Howard  
+Commissioner      Richard Marchant  
+ 
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Ian McClelland  
+General Manager Legal & Business Services  Cathryn Bridge  
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 1 1, 114 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+ 
+Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any p roceedings with the exception of a Coroner's inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally  be accessible to industry participants only and not 
+discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photograp hs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+ 
+Verbal probability expressions  
+The expressions listed in the following table are used in thi s report to describe the degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the Intergov ernmental 
+Panel on Climate Change)  Likelihood of the 
+occurrence/outcome  Equivalen t terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+  
+British Aerospace  Jetstream 32 , ZK-VAH 
+
+ 
+ 
+ 
+Location of the incident  
+ 
+Legend  
+ Auckland Airport  
+ 
+ 
+ 
+  
+  
+ 
+ 
+Source: mapsof.net  
+ Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ .............................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive s ummary  ................................ ................................ ................................ ................................ .. 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ..............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ .. 3 
+3.1. The flight  ................................ ................................ ................................ ................................ ... 3 
+3.2. Personnel information  ................................ ................................ ................................ .............  4 
+3.3. Aircraft information  ................................ ................................ ................................ ..................  5 
+Maintenance defect history  ................................ ................................ ................................ ..... 5 
+3.4. Recorder information  ................................ ................................ ................................ ...............  5 
+3.5. Testing of nose wheel steering system  ................................ ................................ ...................  6 
+4. Analysis  ................................ ................................ ................................ ................................ .....................  8 
+Runway excursions  ................................ ................................ ................................ ...................  8 
+What happened  ................................ ................................ ................................ ........................  8 
+Steering system failure  ................................ ................................ ................................ ............  8 
+Steering selector overhaul history  ................................ ................................ ...........................  8 
+Similar incident ................................ ................................ ................................ .........................  9 
+The 2 November 2013 failure  ................................ ................................ ................................ . 9 
+5. Findings  ................................ ................................ ................................ ................................ ...................  10 
+6. Safety issues ................................ ................................ ................................ ................................ ...........  11 
+7. Safety ac tions  ................................ ................................ ................................ ................................ .........  12 
+General   ................................ ................................ ................................ ................................ .................  12 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  12 
+Safety actions addressing other safety issues  ................................ ................................ .....................  12 
+8. Recommendation  ................................ ................................ ................................ ................................ ... 13 
+General   ................................ ................................ ................................ ................................ .................  13 
+9. Key lesson  ................................ ................................ ................................ ................................ ...............  14 
+ 
+ 
+Final report AO -2013 -011 | Page i Figures  
+Figure 1  Taxi path to the runway  ................................ ................................ ................................ ..............  3 
+Figure 2  The aeroplane where it stopped  ................................ ................................ ................................  4 
+Figure 3  Steering components (looking rearward)  ................................ ................................ ..................  6 
+ 
+ 
+ 
+ 
+  
+Page ii | Final report AO -2013 -011 Abbreviations  
+Commission  Transport Accident Investigation Commission  
+m   metre(s)  
+V1  take-off decision speed  
+ 
+ 
+ 
+ 
+Glossary  
+asymmetric power or braking  a difference in engine power or braking between the left and right  
+     engines or  brakes  
+knot     a speed of one nautical mile per hour, equal to 1.85 kilometres per  
+      hour  
+runway excursion   when an aeroplane leaves the runway surface, either at the end of the  
+  runway (a n overrun) or off the side (a veer -off) 
+take-off decision speed  the speed by which a decision to reject a take -off must be made, 
+usually referred to as V 1 
+ 
+   
+ 
+Final report AO -2013 -011 | Page iii Data summary  
+Aircraft  particulars  
+Aircraft registration : ZK-VAH 
+Type and serial number:  British Aerospace  Jetstream 32 , 967  
+Number and type of engines:  two Garrett AiResearch TPE331 turbo -propeller  
+Year of manufacture:  1992  
+Operator:  Vincent Aviation  Limited  
+Type of flight:  scheduled domestic passenger  
+Persons on board:  16 
+Pilot's licence:  airline transport pilot licence (aeroplane)  
+Pilot's age:  38 
+Pilot's total flying experience:  5,131 hours (2 ,212 hours on type)  
+ 
+Date and time  
+ 2 November 2013, 15011 
+Location  
+ Auckland Airport  
+latitude:  37° 00.5´ south  
+longitude:  174° 47.5´ east  
+Injuries  
+ nil  
+Damage  
+ nil  
+                                                        
+1 Times in this report are in New Zealand Daylight Time (Co -ordinated Universal Time + 13 hours) and 
+expressed in the 24 -hour format.  
+
+ 
+Final report AO -2013 -011 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 2 November 2013 a British Aerospace  Jetstream 32  aeroplane  taking off  from Auckland 
+Airport started to veer left from the runway centreline.  The captain was initially able to co rrect  
+the heading change , but at about 90 knots the turn became unc ontrollable.  The aeroplane 
+slowly ran off the left side of the runway before the captain could bring it to a stop.  No-one 
+was injured and there was no  damage  to the aeroplane or any airport infrastructure . 
+1.2. The Transport Accident Investigation Commission (Commission) made the following findings : 
+ the uncommanded turn to the left during take -off was caused by a faulty steering selector  
+ the defective component within  the steering s elector could not be determined  because of 
+incomplete overhaul records  
+ the isolated nature of the component failure in this occurrence, and the actions the 
+manufacturer had previously undertaken, meant that additional changes to the relevant 
+maintenance procedures were not warranted.  
+1.3. The Commission made no recommendation  as a result of its inquiry.   
+1.4. The key lesson  identified  from the inquiry into this occurrence w as: 
+ prompt action by a pilot on recognising a loss of directional control during take -off or 
+landing will minimise the risk of a runway excursion . 
+  
+
+<< Page 2 >>
+ Final report AO -2013 -011 2. Conduct of the inquiry  
+2.1. The Civil Aviation Authority  of New Zealand  notified the Transport Accident Investigation 
+Commission (Commission) of the incident at 1520 on Saturday 2 November 2013 , 
+approximately 20 minutes after it had  occurred.  The Commission gave p ermission for the 
+aeroplane to be removed from the side of the runway and to be taken to a secure hangar.  
+Two Commission investigators travelled to Auckland the next day to examin e the aeroplane .   
+2.2. The steering jack and steering selector, t wo components of the nose  wheel steering system , 
+were removed and sent to repair and overhaul facilities in the United States for examination.  
+Samples of the steering system h ydraulic f luid w ere taken for analysis .  The flight data 
+recorder was sent to a facility in Sydney, Austra lia, for downloading.   Relevant records were 
+obtained from a ir traffic control and the aerodrome operator . 
+2.3. On 4 November 2013 the two pilots were interviewed at  the operator's base in  Wellington , 
+and various  aeroplane and operator records  obtained.  
+2.4. In early 2014 the reports on the examinations of  the two steering components were received 
+and follow -up enquiries were made . 
+2.5. On 28 September 2016  the Commission approved this report for circulation to interested 
+persons for comment.   One submission was re ceived and the final report has considered that 
+submission . 
+2.6. On 22 February 2017  the Commission approved this  final report for publication .  
+ 
+ 
+ 
+  
+ 
+Final report AO -2013 -011 
+<< Page 3 >>
+ 3. Factual information  
+3.1. The flight  
+3.1.1.  On Saturday 2 November 2013, a British Aerospace2 Jetstream 32 ZK-VAH (the aeroplane) 
+was being used for scheduled services to and from Auckland .  At about midday a  replacement 
+crew arrived from Wellington to complete the remainder of the day's flying .  The outgoing crew 
+informed the replacement crew that there were  no fault s or concerns  with the aeroplane . 
+3.1.2.  At 1455, with 14 passengers  on board , the engines were started  for a flight to Taupo .  A tight 
+turn to the left through about 180º was required in order to leave  the terminal parking area.  
+The captain said a combination of full nose  wheel steering, asymmetric power3 and 
+asymmetric brak ing was  required to turn  the aeroplane . The aeroplane was then taxied to 
+runway 23  Left (see Figure 1).  
+ 
+Figure 1 
+Taxi path  to the runway  
+3.1.3.  At about  1501 the aeroplane was given clearance to take  off.  The weather was fine with a 
+light crosswind from the left.  The captain said that the power was increased progressively on 
+both engines and the aeroplane accelerate d normally.  She kept the aeroplane on the runway 
+centreline initially by the use of nose  wheel steering.  
+3.1.4.  After the first officer had made the standard '70 knots '4 airspeed  check call , the captain 
+transferred direc tional control from the nose  wheel steering to the rudder pedals.  At about 
+this time the crew notic ed a slight swing to the left .  This was corrected  by applying some right 
+rudder .  The aeroplane subsequently start ed to veer left again .  The captain  was unable to 
+counter the second veer to the left using full right rudder, and the aeroplane drifted towards 
+the edge of the runway . 
+3.1.5.  The captain called "stopping " as she  closed both power  levers .  She then u sed a combination 
+of nose  wheel steering and asymmetric braking to try to keep  the aeroplane on the runway.  
+The first officer relayed the "stopping" call to the control tower  during this time .  The aeroplane 
+came  to a stop in the grass about 15 metres (m) from the runway  (see Figure 2) . 
+                                                        
+2 British Aerospace merged with Marconi Electronic Systems in 1999 to become BAE Systems.  
+3 A difference in power or thrust  between the left and right engines.  
+4 A knot is a speed of one nautical mile per hour, equal to 1.85 kilometres per hour . 
+gate 46  
+runway 23 Left  taxi path 
+gate 46  
+
+<< Page 4 >>
+ Final report AO -2013 -011 3.1.6.  The engines were shut down  and the passengers kept on board until emergency services 
+arrived.  No-one was injured and there was no  damage to the aeroplane or ground 
+installations as a result of the runway  excursion .5  The aeroplane was later towed to a hangar  
+to await the arrival of Commission investigators.   
+ 
+Figure 2 
+The aeroplane  where it stopped   
+3.2. Personnel information  
+3.2.1.  The captain held an air transport pilot licence (aeroplane) issued in 2007 and a current class 
+one medical certificate.  She had obtained her Jetstream 32 type rating in November 2005  
+and joined the operator in July 2012 as a captain .  At the time of the oc currence she had 
+accrued 5,131 flight hours, including 2 ,212 hours on the Jetstream 32.  
+3.2.2.  The captain 's previous  line check had been  on 18 June 2013.  She  had flown  22 hours in the 
+preceding 30 days and 2.2 hours in the preceding seven  days.  She had had a rest day on the 
+day before the occurrence and said that s he had been  well rested and fit to fly  on the day of 
+the occurrence . 
+3.2.3.  The first officer held a commercial pilot licence (aeroplane) issued in 2008, and a current 
+class one medical certificate.   He had obtained his Jetstream 32 rating in September 2012, 
+soon after joining the operator.  At the time of the occurrence the first officer had accrued 
+1,250 fl ight hours, including 320 hours on the Jetstream 32.  
+3.2.4.  The first officer's previous  line check had been  on 17 December 2012.   He had flown  32 
+hours in the 30 days preceding the occurrence  and 10 hours in the preceding seven days.  
+The two days prior to the occurrence had been  free of duty .  He said he had been  well rested 
+and fit to fly on the day of the occ urrence . 
+  
+                                                        
+5 A runway excursion occurs when an aeroplane leaves the runway surface, either at the end of the runway 
+(an overrun) or off the side  (a veer -off). 
+
+ 
+Final report AO -2013 -011 
+<< Page 5 >>
+ 3.3. Aircraft information  
+3.3.1.  The Jetstream 32 was a development of the Jetstream 31 that had been  first certificated in 
+1982.  It was powered by two Garrett AiResearch6 TPE331 turbo -propeller engines and 
+capable of carrying a two -pilot crew and 19 passengers.  
+3.3.2.  The aeroplane had been  manufactured in the United Kingdom in 1992 and flown for seven 
+years in the United States  before being sold to an operator in New Zealand and  then to one in 
+Australia .  In June 2012 the aeroplane had been  returned to New Zealand , registered as ZK -
+VAH and join ed with three other Jetstream aeroplanes in the operator 's fleet .7 
+3.3.3.  Nose wheel steering was controlled through a tiller (handle) located on  the left side of the 
+cockpit next to the captain's seat.  A mechanical linkage connected the tiller to the steering 
+selector, which directed hydraulic pressure to a steering actuator mounted on the nose gear 
+housing (see Figure 3).  The actuator turned th e nose wheel.  A feedback loop ensured that 
+the nose wheel position matched the tiller movement and position.  
+Maintenance defect history  
+3.3.4.  On 8 February  2013, 10 months before the incident , a pilot had reported that during take -off 
+the aeroplane "yawed [turned] left significantly".  Full right rudder had been  used to keep the 
+aeroplane aligned with the runway.  During an examination of the aeroplane a nose  wheel axle 
+nut was found to be cracked and the steering jack determined to be faulty.  Th ose items were 
+replaced .  No other fault was found with the  steering system , so the aeroplane was returned to 
+service .  At the time it  had flown 18,724 hours and completed 29,646 landings ( cycles ). 
+3.3.5.  On 9 August 2013,  three months before the incident , a crew had repor ted that during take -off 
+the aeroplane drifted left .  Loose play was found in several components of the nose wheel 
+steering system .  The steering jack was bled  of any trapped air and the main wheel brake units 
+were swapped around.  The flight deck steering  hand le was also replaced.  Testing was unable 
+to replicate the problem and the aeroplane was returned to service.  P ilots were asked to 
+report any further concerns .  On 18 October 2013, two months before the incident , with no 
+furthe r problems reported, th e defect was recorded as rectified . 
+3.3.6.  On the day of the occurrence, 2 November 2013, the aeroplane had accrued 18,909 fl ight 
+hours and 29,978 landings.  
+3.4. Recorder information  
+3.4.1.  The aeroplane was fitted with a flight data recorder  that recorded 11 parameters , including 
+the heading, airspeed and the torque and propeller  speed of both engines .  The recorder was 
+removed and sent for downloading of the data .  The cockpit voice recorder was not accessed.  
+3.4.2.  The data show ed that the first veer to the left occurred as the aeroplane speed approached 
+about 7 0 knots.  The second veer left started at about 90 knots. The engine power  was 
+reduced to flight idle at about  100 knots.  
+3.4.3.  The data show ed that power was increased simultaneously on both engines for the take -off 
+and th at there was no asymmetric power  as the aeroplane accelerated.  After the captain 
+commenced the rejected take -off, more reverse power was applied to the right engine than to 
+the left engine  as the captain  attempt ed to turn the aeroplane back to the right.   
+3.4.4.  Aerodrome ground surveillance data showed that during the attempted take -off the aeroplane 
+maintained the runway centreline for about 200 m before starting to move left.  The move to 
+the left was corrected for about 100 m and the aeroplane was returned to near the centreline , 
+                                                        
+6 Later Honeywell Aerospace.  
+7 In October 2014 the operator ceased all operations . 
+ 
+
+<< Page 6 >>
+ Final report AO -2013 -011 where it stayed for about the next 200 m.  The aeroplane then veered increasingly to the left 
+and ran off the runway about 600 m from the start of the take -off roll.  
+3.5. Testing  of nose  wheel steering system  
+3.5.1.  An initial examination of the a eroplane identified no engine, main undercarriage or brake 
+system anomalies.  T he focus of the investigation then moved to the nose  wheel steering 
+system . 
+3.5.2.  The nose  wheel was placed on a greased plate to enable it to turn easily while it supported a 
+normal load.  The hydraulic system was then pressurised.  Repeated movement s of the nose  
+wheel tiller were  unable to produce  an uncommanded left turn.  No abnormalities were 
+identified  by this test . 
+3.5.3.  Samples of hydraulic f luid were taken  for analysis, including from the hydraulic line close to 
+where the steering jack and steering selector were located.  The samples were subjected to a 
+spectroscopic analysis , which confirmed that the fluid was of the correct type with no 
+anomalies.  
+3.5.4.  The steering jack and steering sel ector were then removed for detailed examination by two 
+different approved overhaul facilities  in the United States . 
+ 
+Figure 3 
+Steering components  
+(looking rearward)  
+3.5.5.  A functional check and disassembly of the steering jack found no fault that may have 
+contributed to the uncommanded left turn.  
+3.5.6.  The overhaul facility  that examined the steering selector  identified two related faults during 
+testing .  Following "full counter -clockwise input to the selector, upon release the valve would 
+stick and allow fluid to continually flow from [a] port "8; and "excessive internal valve leakage 
+was observed" .  The overhaul facility then  disassembl ed the selector and found that the faults 
+were caused by 'spring  boxes' being out of adjustment .  The spring boxes balance d the 
+hydraulic pressure between the control pressure commanded by the pilot and the resultant 
+steering forces  from the nose wheel position .   
+3.5.7.  The overhaul facility stated that b ecause the steering selector locking tabs were still intact  
+before disassembly , the misadjustment " must have been  directly related to the springs ".  
+These faults would direct hydraulic pressure to go to the left -turn side of the steering actuator .  
+The overhaul facility further commented in its report that "the probable cause of the spring 
+                                                        
+8 This was the port that commanded a left turn.  
+steering jack  steering selector  
+nose wheel leg  
+jack 
+ 
+Final report AO -2013 -011 
+<< Page 7 >>
+ boxes being out of adjustment is due to fatigue of the spring" and that from its experience this 
+was "an isolated incident ".  
+
+<< Page 8 >>
+ Final report AO -2013 -011 4. Analysis  
+Runway excursions  
+4.1. The Int ernational Civil Aviation Organization considers a runway excursion , which can occur 
+during take -off or landing,  to be a 'serious incident'9, because it has  the potential to cause 
+significant  damage and fatal injuries.  
+4.2. In this incident  there were no injuri es or damage because the crew responded appropriately  
+and the aeroplane departed the runway at slow speed.  There was also a flat, grassed area , 
+free of obstructions , beside the runway , which  provided a safe run -off area.  
+4.3. The following analysis discuss es what happened  and why the steering system failed.  
+What happened  
+4.4. The taxi from the parking spot, which included several tight turns, and the initial line -up on the 
+runway were normal.  During the take -off the captain used the nose  wheel steering tiller to 
+control the heading and remain on the runway centreline .  Small directional changes d uring 
+the early phase of a take-off roll  are not unusual and can have  a number of causes , including 
+starting the take -off with the nose  wheel not aligned with the runway  heading , an uneven 
+application of engine power , and a crosswind.  T here was no indication of a control problem 
+until the aeroplane started to veer  left at about 70 knots .   
+4.5. The uncommanded and unexpected turn to the left occurred below the take -off decision  
+speed .10  The captain 's decision to stop the take -off was timely  and correct .  The captain then 
+control led the aeroplane using  a combination of nose wheel steering, rudder , asymmetric  
+braking and asymmetric reverse thrust as it approached the edge  of the r unway.  The prompt 
+response ensure d that  the aeroplane was at a slow speed when it left the runway . 
+Steering system failure  
+4.6. The uncommanded turn to the left was determined to have been caused by a faulty steering 
+selector.  The steering selector had been  instal led on 20 July 2012 to replace another selector 
+removed for scheduled overhaul.11  At the time of the incident  the selector had accrued 575.7 
+hours in service over a period of 16 months and 931 landings .  The allowable service life was 
+10,000 landings  or six years, whichever came first.  
+4.7. The e xamination of the steering selector after the incident traced the fault to incorrect  spring 
+tensions within the spring box of the steering selector , which affected the internal  hydraulic 
+pressure.  This fault inter mittently allowed uncontrolled hydraulic fluid to flow from the 
+selector to the steering actuator , but only in the direction that turned the aeroplane to the left.  
+4.8. The spring tension s and differential pressure can only be adjusted  before  the final assembly  of 
+the steering selector  during manufacture or after  overhaul .  To ensure  that the steering 
+selector operates  as intended, it is subjected to a full functional test  after assembly .  If the 
+spring tension is incorrect, it should be identified during the fu nctional test  and be corrected 
+before the steering selector is released for service.   
+Steering selector overhaul history  
+4.9. The operator  held records for the selector that dated back to June 2006.   The steering 
+selector had been  most recently overhauled in the United States by  the same  approved 
+overhaul facility  that did the examination after the occurrence .  The overhaul facility's  records 
+state d that the steering selector had been  received on 13 January 2012, disassembled and 
+cleaned.  A ll seals, O-rings a nd backing rings had been  replaced.  There was no record that the 
+                                                        
+9 International Civil Aviation Organization  Annex 13 to the Convention on International Civil Aviation, 
+Attachment C: List of Examples of Serious Incidents.  
+10 The speed by which a decision to reject a take-off must be made , usually referred to as V 1. 
+11 The overhaul returned the selector to an 'as new' condition.  
+ 
+Final report AO -2013 -011 
+<< Page 9 >>
+ springs in the spring box  were replaced at this time .  According to the overhaul facility the 
+reuse of springs was common practice  and permitted by the maintenance manual .  Therefore , 
+it was virtually certain  that the previously fitted  springs were reused.  On 22 May 2012 the 
+selector was reassembled, tested and "found to be operating within all prescribed limits".  It 
+was then returned to the operator.  
+4.10.  The overhaul facility advised tha t it was not its practi ce to retain test records following 
+reassembly.  If a steering selector  failed the functional test, it was disassembl ed and any fault 
+rectifi ed before reassembl y and a second t est.  If the springs had been incorrectly adjusted 
+during  the reassembly of the steering selector, this would very likely have been detected 
+during the functional testing, which was not the case.   The overhaul facility stated that the only 
+other reason for the spring tensions to be out of limits was that the springs had become worn 
+or had lost their elasticity.  
+Similar incident  
+4.11.  The investigation was able to identify only one other similar occurrence.  O n 30 June 1998  a 
+Jetstream 31 was taking off from London (Stansted) Airport in England when it star ted to veer 
+to the left.  The pilot was unable to correct the left veer and the aeroplane ran off the side of 
+the runway .12   
+4.12.  The investigation of that occurrence had determined the fault to be "worn rocker spring 
+plunger s" in the steering selector .  (The s prings and rocker spring plungers are both contained 
+within the steering selector and work in conjunction, but are separate components.)  The wear 
+resulted in excess clearances that resulted in a small valve offset and allowed fluid to 
+continue to flow to the actuator.  This prevented the rocker returning to a null position from 
+left steer input s by the pilot.  As a result  of that incident , the aeroplane manufacturer had 
+amended the time between overhaul s of the ste ering selector from 10,000 hours to 10,000  
+landings or six years, whichever came first.13  
+The 2 November 2013 failure  
+4.13.  The fault was confirmed as originating in the steering selector.  The overhaul facility stated  
+that the fault was with the springs and in its experience an isolated occurrence.  However, 
+British Aerospace stated that there was "no data that suggests any issue with the life of the 
+spring[s]". The aeroplane manufacturer further advised that the  manufacturer of the steering  
+selector had stated that since 2006 it had not had to replace the springs  because of fatigue or 
+any other fault .   
+4.14.  Because the overhaul facility's test and inspection reports lacked sufficient detail, i t could not 
+be determined whether the springs or the rocker  spring plungers  were the cause of the 
+steering incident at Auckland .   
+4.15.  This occurrence was the only recorded  such failure of a steering selector since 1998.  
+Therefore there was insufficient evidence to warrant a change in maintenance practices 
+beyond the change s made  in 1999.        
+  
+                                                        
+12 Air Accident Investigation Branch Bulletin No:1/2000, Jetstream 31, G -LOVA runway excursion at London 
+(Stansted) Airport on 30 June 1998.  
+13 British Aerospace, Jetstream Series 3100 & 3200 Service Bulletin, Civil Aviation Authority Mandatory, 32 -
+JA980841 e ffective 15 July 1999.  
+
+<< Page 10 >>
+ Final report AO -2013 -011 5. Findings  
+5.1. The uncommanded turn to the left during take -off was caused by a faulty steering selector.  
+5.2. The defective component within  the steering selector could not be determined  because of 
+incomplete overhaul records . 
+5.3. The isolated nature of the component failure  in this occurrence,  and the actions the 
+manufacturer had previously undertaken, meant that additional changes to the relevant 
+maintenance procedures were not warranted.      
+ 
+ 
+  
+ 
+Final report AO -2013 -011 
+<< Page 11 >>
+ 6. Safety issues  
+6.1. No safety issues were identified.  
+ 
+ 
+  
+
+<< Page 12 >>
+ Final report AO -2013 -011 7. Safety a ctions  
+General  
+7.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result  in the Commission issuing a  recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+7.2. Nil. 
+Safety a ctions  addressi ng other safety issues  
+7.3. Nil. 
+ 
+  
+ 
+Final report AO -2013 -011 
+<< Page 13 >>
+ 8. Recommendation  
+General  
+8.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safe ty issues are applicable to a single operator only or to the wider transport 
+sector.   In this case no recommendation was made .   
+  
+
+<< Page 14 >>
+ Final report AO -2013 -011 9.  Key lesson  
+9.1. Prompt action by a pilot on recognising a loss of directional control during take -off or landing 
+will minimise the risk of a runway excursion .  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2014 -006 Robinson R44 II, ZK -HBQ, mast -bump and in -flight break -up, Kahurangi National 
+Park, 7 October 2014  
+Interim Report 
+AO-2016 -007 Collision with terrain, Robinson R44, ZK -HTH, Glenbervie Forest, Northland, 31 
+October 2016  
+AO-2014 -004 Piper PA32 -300, ZK -DOJ, Collision with terrain, Near Poolburn Reservoir, Central 
+Otago, 5 August 2014  
+AO-2015 -002 Mast bump and in -flight break -up, Robinson R44, ZK -IPY, Lochy River, near 
+Queenstown, 19 February 2015  
+AO-2013 -008 Boeing 737 -300, ZK -NGI, Loss of cabin pressure, near Raglan, Waikato,  
+30 August 2013  
+AO-2013 -003 Robinson R66, ZK -IHU, Mast bump and in -flight break -up, Kaweka Range,  
+9 March 2013  
+AO-2014 -002 Kawasaki BK117 B -2, ZK -HJC, Double engine power loss, Near Springston, 
+Canterbury, 5 May 2014  
+AO-2013 -006 Misaligned take -off at night , Airbus A340, CC -CQF, Auckland  Airport, 18 May 2013  
+AO-2010 -009 Addendum to Final Report : Walter Fletcher FU24, ZK -EUF, loss of control on take -off 
+and impact with terrain, Fox Glacier aerodrome, South Westland, 4 September 2010  
+AO-2012 -002 Airbus A320 ZK -OJQ, Bird strike and subsequ ent engine failure , Wellington and 
+Auckland International Airports, 20 June 2012  
+AO-2013 -005 In-flight loss of control, Robinson R22, ZK -HIE, near New Plymouth, 30 March 2013  
+AO-2013 -007 Boeing 737 -838, ZK -ZQG, stabiliser trim mechanism damage, 7 June 20 13 
+AO-2013 -009 RNZAF Boeing 757, NZ7571, landing below published minima , Pegasus Field, 
+Antarctica, 7 October 2013  
+AO-2013 -002 Robinson R44, ZK -HAD, engine power loss and ditching, Lake Rotorua,  
+24 February 2013  
+11-007 Descent below instrument approach  minima,  Christchurch International Airport, 29 
+October 2011  
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 13.00                                          ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online)  
+ 

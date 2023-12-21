@@ -1,0 +1,70 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on fatigue management contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on human error and assumptions contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Training and Competency
+  percentage: 20
+  explanation: '"The Commission was unable to conclude whether the standard of flight training in New Zealand presents risks to flight training safety" (7.4). Although there is no direct evidence of gaps in training and competency, the lack of research and data makes it difficult to fully assess the safety performance within the New Zealand flying training system (6.6, 23).'
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on training and familiarity with equipment contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on Crew Resource Management contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on adherence to safety procedures contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on organizational safety culture contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 20
+  explanation: '"There is a lack of data and research examining factors that might or that have contributed to occurrences in flying training operations in New Zealand and overseas" (22). The limitations in the CAA''s occurrence database and the absence of comprehensive safety reviews make it difficult to assess and manage risks effectively (6.3, 6.4).'
+- name: Regulatory Oversight and Compliance
+  percentage: 20
+  explanation: '"The CAA has not widely or periodically published any comprehensive safety reviews of aviation in New Zealand" (6.3). The lack of regulatory oversight and comprehensive safety data analysis contributes to the difficulty in identifying appropriate safety strategies (6.6).'
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on situational awareness contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on emergency response preparedness contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on maintenance and inspection regimes contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on the use of automation contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide any specific information on weather conditions and decision making contributing to flying training accidents or incidents in New Zealand.
+
+    '
+- name: Communication Breakdown
+  percentage: 20
+  explanation: '"Anecdotal evidence suggests that poor English language proficiency and comprehension of English may have been contributing factors in some New Zealand occurrences" (7.9). Although there is no conclusive data, communication issues are suggested as a potential contributing factor.'
+- name: Other
+  percentage: 20
+  explanation: '"There was virtually no recent research in New Zealand or overseas that examined the factors contributing to occurrences specifically in the context of flying training" (6.2). The lack of specific research into flying training safety factors means that there may be other unidentified contributing factors to accidents and incidents that are not captured by the existing safety themes.'

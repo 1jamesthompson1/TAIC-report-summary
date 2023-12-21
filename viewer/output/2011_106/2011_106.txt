@@ -1,0 +1,1306 @@
+﻿  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Inquiry 11 -106: Hi -rail vehicle nearly struck by passenger train,  
+Crown Road level crossing near Paerata,  
+North Island Main Trunk, 28 November 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+The Commission may make recommendations to improve transport safet y.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is mad e 
+to the Transport Accident Investigation Commission.  
+  
+ 
+        
+ 
+ 
+ 
+ 
+ 
+Final Report  
+Rail inquiry 11-106 
+Hi-rail vehicle nearly struck by passenger train, Crown Road level 
+crossing near Paerata,  
+North Island Main Trunk, 28 November 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : October 2013   
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  
+co-ordinating and co -operating with other accident investigation organisations overseas .  The principal 
+purpose of its inquiries is to determine the circumstances and causes of occurr ence s with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informing members of the transport sector, both 
+domestically and internationally, of the lessons that can be learnt from transport accidents and 
+incidents.   
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Com missioner   Helen Cull, QC  
+Commissioner     Howard Broad , CNZM  
+     
+Key Commission p ersonnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator in Charge    Peter Miskell  
+General Counsel    Rama Rewi  
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone   + 64 4 473 3112 (24 hours ) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand   
+  
+ 
+ Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any p roceedings with the exception of a Coroner's 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual  property of the Transport Acci dent Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that ac knowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally b e accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs , diagrams, pictures  
+Unless otherwise specified, photographs , diagrams  and pictures included  in this final report  are 
+provided by , and owned by,  the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Location of incident  
+ 
+ 
+Legend  
+ Paerata  
+ 
+ 
+ 
+  
+  
+ 
+ 
+Source: mapsof.net  
+  
+ 
+  
+The Crown Road level crossing  
+(located near Paerata)   
+ 
+ 
+ 
+ 
+  
+
+Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ ............................  iii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  3 
+3. Factual information  ................................ ................................ ................................ ................................ ... 4 
+3.1. Circumstances leading to the incident  ................................ ................................ ........................  4 
+3.2. Personnel information  ................................ ................................ ................................ ..................  6 
+4. Analysis  ................................ ................................ ................................ ................................ ......................  7 
+4.1. Introduction  ................................ ................................ ................................ ................................ ... 7 
+4.2. Assumptions about the locations of trains and other rail vehicles  ................................ ...........  7 
+4.3. Knowing where trains are on the rail network  ................................ ................................ ............  9 
+4.4. Train controller wellbeing - nutrition and rest breaks  ................................ ............................  11 
+4.5. Communication  ................................ ................................ ................................ .........................  13 
+5. Findings  ................................ ................................ ................................ ................................ ..................  15 
+6. Key lessons  ................................ ................................ ................................ ................................ .............  16 
+7. Safety acti ons ................................ ................................ ................................ ................................ .........  17 
+General  ................................ ................................ ................................ ................................ ...................  17 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  17 
+8. Recommendations  ................................ ................................ ................................ ................................ . 22 
+8.1. General  ................................ ................................ ................................ ................................ ....... 22 
+ New recommendations  ................................ ................................ ................................ .............  22 
+8.2. Recommendation 1: Assumptions about the locations of trains  ................................ ...........  22 
+8.3. Recommendation 2: NZ Transport Agency  ................................ ................................ ..............  23 
+ Previous recommendations  ................................ ................................ ................................ ...... 23 
+8.4. Train controller wellbeing -nutrition and rest breaks  ................................ .............................  23 
+8.5. Train visibility  ................................ ................................ ................................ .............................  24 
+9. References  ................................ ................................ ................................ ................................ .............  25 
+ 
+ 
+  
+Final report 11 -106 | Page i 
+ Figure  
+Figure 1  Up Main line and Down Main line from Papakura to Pukekohe  ................................ ............  10 
+ 
+ 
+ 
+ 
+  
+Page ii | Final report 11 -106 Abbreviations  
+Commission  Transport Accident Investigation Commission  
+km  kilometre(s)  
+  
+  
+Final report 11 -106 | Page iii 
+ Glossary  
+blocking  a method of track protection that involves  holding a signal at " stop" to 
+prevent train s entering a section of track  
+controlled rail network  the rail network controlled by train control  
+dark territory  sections of the controlled rail network  in which the train  control ler cannot 
+electronically observe train m ovements  
+Down Main line the rail track that trains  and other rail vehicles  use when travelling south 
+from Papakura to Pukekohe  
+information bulletin  a KiwiRail bulletin wi th information about activities such as planned track 
+work and changes  to train services .  Information bulletins  are distributed 
+to staff likely to be affected , including train controllers, signallers, train 
+drivers and infrastructure maintenance personnel  
+mimic screen  an electronic display that each train controller has showing  the location s 
+of trains  on sections of the controlled rail network  
+on-track  the process of transitioning a hi -rail vehicle from the road on to a rail track  
+person -in-charge  the person responsible for the safe operation of a hi -rail vehicle 
+movement  or a track occupation  
+signaller at Papakura      the person who directly controls signals within Papakura Station limits  
+track occupation   
+authorisation  an authority from train control for infrastructure personnel to occupy a 
+section of the controlled rail network to carry out track inspections , 
+maintenance  or other track activities  
+training shuttle  a non-revenue  passenger train used for driver training .  The train 
+operation is supervised by a minder driver   
+train register  an electronic register that a signaller uses to record the arrival and 
+departure times of trains  
+Up Main line the rail track that trains and other rail vehicles use when travelling north 
+from Pukekohe to Pa pakura  
+  
+Page iv | Final report 11 -106 Data summary  
+Vehicle particulars  
+Train type and number : suburban passenger t rain 3121  
+Classification : diesel  multiple unit  powered by coach A ustralian diesel 
+locomotive 806 leading , with unpowered coach A ustralian 
+diesel coach 856 trailing .  The train was 42.2 metres long and 
+had a tare we ight of 78.72 tonnes  
+Year of manufacture : built by A. Goninian Limited , New South Wales, Australia in 
+1985 
+Operator : Veolia Transport Auckland  Limited  
+Date and time  28 November 2011 at 10401 
+Location  633.572 kilometres North Island Main Trunk , Crown Road level 
+crossing  
+Persons involved  a driver, a train manager, a passenger operator and 7 
+passengers  
+Injuries  nil 
+Damage  nil  
+                                                        
+1  Times in this report are New Zealand Daylight Times ( universal co -ordinated time  + 13 hours) and are 
+expressed in the 24 -hour mode.   
+2  The distance was from a reference point at Wellington Station.  
+  
+Final report 11 -106 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. Summary of the incident  
+1.1.1.  On 28 November 2011 a track maintenance gang arrived at the Crown Road level crossing 
+near Paerata to relocate an 11 -tonne hi -rail excavator from there to Pukekohe Station Yard 
+about 5 k ilometres  (km) away.  
+1.1.2.  A scheduled  passenger train  with 7 people on board  was due to pass through the Crown Road 
+level crossing  on its way to Pukekohe .  The train controller had authorised  an unscheduled 
+"training shuttle " train  to proceed to Pukekohe several minutes ahead of the scheduled 
+passenger train.  The training shuttle looked just like the scheduled passenger train.  
+1.1.3.  Sever al minutes after the training shuttle had passed over the Crown Road level crossing , the 
+person -in-charge of the track maintenance gang radioed  the train controller and told him that 
+"a subby [which was meant to be a reference to the scheduled suburban passenger train ] had 
+just gone past" and he requested track time to take the hi -rail excavator to Paerata . 
+1.1.4.  The train controller assumed that the person -in-charge was referring to the passenger train 
+and, without checking, authorised him to place a hi-rail veh icle and the hi-rail excavator on the 
+tracks in front of the approaching passenger train.  
+1.1.5.  A short time later the train controller noticed the passenger train appear on his mimic screen 
+and realised his error.  He alerted the person -in-charge, who managed t o get the hi -rail vehicle 
+clear of the track just seconds before the passenger train passed, narrowly avoiding a 
+collision.  
+1.1.6.  The train controller 's mistake was failing to check  the whereabouts of the passenger train .  He 
+did not make that check , because he made an assumption based on the person -in-charge of 
+the worksite saying a "subby" had just passed his location.  
+1.1.7.  The Transport Accident Investigation Commission (Commission) has identified 3 safety issues 
+that contributed to the inciden t:  
+ the train controller  acted on an assumption rather than follow ing proper procedures 
+before authorising the  track  occupation ahead of the passenger train  
+ the passenger train was travelling through a section of track where it was not 
+electronically visible to the train controller when he authorised the track occupation  
+ the train controller had not consumed any food for about 15 hours before the incident  and 
+it could not be excluded that his performance was affected by his having a low blood 
+glucose level . 
+1.1.8.  The repor t also discusses another factor that contributed to the incident.  The driver of the 
+passenger train  had reduced  the volume on his train radio  to a lower level , so he was not 
+aware that the train controller had authorised  the maintenance gang to occupy the  section of 
+track ahead of his train.   This meant that  the driver missed the opportunity to alert the train 
+controller to the potential collision.  
+1.2. Other incidents involving train control  
+1.2.1.  This is the second time within recent months that the Commission has looked closely at train 
+control.  In September  2013 the Commission completed an inquiry into a near -collision 
+incident between Staircase  and Craigieburn involving a loaded coal train with 2 people on 
+board and an alicart  driven by a track engineer .  The Staircase/ Craigieburn  incident occurred 
+about 7 months before this one .  It involved  a train controller  failing to  check the location of 
+the loaded coal train before  authoris ing the track engineer to "on-track " his alicart and travel 
+towards the loaded coal train  on the same section of track.   The collision was avoided after a 
+
+<< Page 2 >>
+ Final report 11 -106 structures inspector in the general area overhea rd the radio conversation between the train 
+controller and the track engineer  and raised the alarm .  
+1.2.2.  As a result of its inquiry into the Staircase/Craigieburn  incident, the Commission became 
+concerned about  a number of wider systemic issues that it  had found within train control , 
+including :  
+ the lack of a proper risk assessment  of the merger of 2 train control desks  
+ poor supervision  of and support for the train controller in that case , who had 
+become increasingly stressed and mentally fatigued during her shift  
+ the standard protocol of not allowing scheduled breaks for train controllers.  
+1.2.3.  Although the safety issues identified in the Stair case/Craigieburn incident are not precisely 
+the same  as those in this incident , both incidents raised concern with the performance of  train 
+control.  
+1.2.4.  The Commission has made one new recommendation to the Chief Executive of KiwiRail and 
+referenced 2 existin g open recommendation s from the earlier Staircase/Craig ieburn report to 
+address the safety issues identified in this report.  It has also made one new recommendation 
+to the Chief Executive of the N Z Transport Agency to ensure that KiwiRail address the safety 
+issues.  
+1.2.5.  The key lessons learnt from the inquiry into this  occurrence  were:  
+ train controllers need to verify all information before authorising a track occupations.  If 
+they cannot see trains by some electronic means , they must make radio contact with the 
+drivers to verify the trains' locations in order to give authorisations  
+ the risk of train controllers making assumptions must be managed on an on -going basis  
+ train controllers who are significan tly fatigued (mentally) during their shifts can be a ris k to 
+public transport safety.  Having a proper diet and nutrition , and taking rest breaks during 
+shifts are crucial for minimising this risk  
+ food must be easily accessible by train controllers, and tr ain controllers must be given 
+adequate breaks during their shifts to enable them to eat and to rest.  
+  
+  
+Final report 11 -106 
+<< Page 3 >>
+ 2. Conduct of the inquiry  
+2.1. The NZ Transport Age ncy notified the Commission of the near  collision on the day it occurred .  
+After making preliminary enquiries,  the Commission opened an inquiry under section 13(1) of 
+the Transport Accident Investigation Commission Act 1990 to determine the circumstances 
+and causes of the incident .  An investigator  in charge was assigned to investigate the incident.  
+2.2. On 30 November  2011  the investigator  in charge travelled to the Crown Road  level crossing 
+and examine d the incident site.  He subsequently  interviewed  the: 
+ train controller  
+ driver of the passenger train  
+ 2 minder drivers and 4 trainee drivers from the training shuttle  
+ person in charge  
+ driver of the hi-rail vehicle .   
+2.3. The Commission's investigator also obtained and reviewed a number of record s and 
+documents from KiwiRail,  including:  
+ the train controller's training and personal records , including the results of his previo us 
+performance assessments  
+ KiwiRail's operating rules and procedures for train control  
+ various incident reports and signalling records.   
+2.4. On 26 August 2013  the Commissioners finalised a draft final report regarding the incident and 
+approved it for distribu tion to interested persons for comment.  
+2.5. Written submissions were received from the NZ Transport Agency, KiwiRail and the train 
+controller .  These submissions were considered and changes made to the report.   
+2.6. On 24 October 2013 the Commission approved the f inal report for publication.    
+ 
+ 
+  
+
+<< Page 4 >>
+ Final report 11 -106 3. Factual information  
+3.1. Circumstances leading to the incident  
+3.1.1.  On Sunday 27 November 2011,  a track maintenance gang  carried out maintenance work on 
+the Up Main line of the North Island Main Trunk,  near Paerata .  After completing this work they 
+left an 11-tonne  hi-rail excavator  near the Crown Road  level crossing  overnight . 
+3.1.2.  The next day the maintenance  gang, including the person -in-charge, returned to  the Crown 
+Road  level crossing to relocate the hi-rail excavator .  The maintenance gang  timed its arrival to 
+coincide with the off -peak suburban passenger train timetable , which would normally have 
+provided a work -window of about 75 minutes between scheduled southbound trains .  The 
+person -in-charge  intended to on-track  the hi-rail excavator  and a hi -rail vehicle on to the Down 
+Main line at the Crown Road  level crossing , then  travel south to Pukekohe Station Yard  about  
+5 km  away .   
+3.1.3.  Between 0900 and 1500 that day,  however,  driver training operations were  scheduled  to take 
+place between Waitak ere and Pukekohe .  Part of this training program me would involve  a non -
+revenue passenger train (training shuttle) making 2 return trips between Papakura and 
+Pukekohe.  These training operations were noted in the information bulletin for that day , which 
+stated in part : 
+Veolia, Driver Training, Waitakere - Pukekohe:  
+Veolia driver training, (VT1), may operate between Waitakere and Pukekohe all lines, 
+in accordance with KiwiRail ROC Section L1 Instruction 1.1, as directed by Train 
+Control and as required by the Training Supervisor for training purposes. Hours: 
+0900 to 1500.  
+3.1.4.  The person -in-charge  of the track occupation said that although  he had read the information 
+bulletin that morning , he had not consider ed that his plan to relocate the hi-rail excavator 
+would be affected by  the driver training operations . 
+3.1.5.  At about  1012 the signaller  at Papakura contacted  the train controller and told  him that  the 
+traini ng shuttle (otherwise known as VT1) had arrived at Papakura , and that its  driver wished  
+to return  to Pukekohe.  The Papakura signaller added that as there were  no further rail 
+movements  at that time, the training shuttle  could  travel ahead of Train 3121 (the passenger 
+train ) on the Down Main line.   
+3.1.6.  At about  1019 the  training shuttle  departed from Papakura .  The train contr oller agreed and 
+authorised the movement .  About 9 minutes later the passenger train departed from Papakura 
+on the Down Main line, and  started travelling  behind the training shuttle.   
+3.1.7.  At about 1020 the maintenance gang , including the person -in-charge,  arrived at the Crown 
+Road  level crossing .  They were not aware  that the training shuttle was travelling on the Down 
+Main l ine towards the Crown Road  level crossing at that time . 
+3.1.8.  At about  1029 the training shuttle  crossed  the Crown Road  level crossing on the Down Main 
+line.  The person -in-charge , who was near the crossing, saw it, but assumed that it was a 
+scheduled passenger train  rather than a training shuttle  because : 
+ he was not aware that the training shuttle  was in the area  
+ the training shuttle looked like  a passenger train  
+ the training shuttle crossed  the level crossing close to the time that the passenger train  
+was expected to cross . 
+3.1.9.  About  1036  (i.e. a bout 7 minutes after seeing the training shuttle pass the Crown Road  level 
+crossing)  the person -in-charge  radioed  train control  and said : 
+  
+Final report 11 -106 
+<< Page 5 >>
+ 46293 [his call number].  I'm sitting at 663 and a half.  A subby ha s just gone past 
+on the Down Main  and I want 30 minutes to go to 8L [Signal D in paragraph 4.3.4, 
+the bo undary between Auckland  and Waikato train control desks] …   
+3.1.10.  By this time the training shuttle had already reached Pukekohe and was now travelling  back to 
+Papakura on the Up Main line. 
+3.1.11.  The train controller said that he had thought  the person -in-charge 's comment  ("A subby has 
+just gone past on the Down Main ") meant that a  suburban passenger train had just gone past 
+that second  rather than  minutes earlier .  He therefore  assumed that the "subby " was the 
+passenger train , and that the track between the Crown Road  level crossing and Signal D at 
+Paerata was now clear.   He said that he had made this assumption because the person -in-
+charge's comment was made around the time that he expected  the passenger train to be 
+passing  the Crown Road  level crossing.    
+3.1.12.  With th is mind -set the train controller contacted the signaller at Papakura and instructed him 
+to apply blocking to protect the person -in-charge 's movement on the Down Main line.  The 
+Papakura signaller confirmed that the blocking had been applied.   
+3.1.13.  The train co ntroller  then authorised the person -in-charge's  track occupation , stating that :  
+1037 is the time, I understand a subby has just gone past you on the Down Main 
+at 633 and a half.  Yourself and [46]843 to proceed from there through to 8L 
+Signal Paerata.   Blocking applied at 44 Signal, Down Main line at Papakura.  
+Clearance time at 1110, over.  
+3.1.14.  Upon receiving this authorisation, t he person -in-charge  recorded the details on the required 
+form (a  pro-forma Mis 71 , "Track Occupancy  Cross Check " form ).  He then  read back the 
+details of the authorisation to the train controller .  The train controller confirmed the person -in-
+charge 's read -back  then  ended the radio communication .  By now , the passenger train was 
+only about 2  minutes away from  the Crown Road  level crossing.   
+3.1.15.  The driver of the passenger train  said that he  had not hear d the train controller authorising  the 
+person -in-charge  to occupy the section of track ahead of his train , even though he was on the 
+same radio frequency .  He said that he had trained himself to focus only on those calls made 
+to his call sign , and to  ignore all other radio communication s.  
+3.1.16.  Upon receiving his authorisation, the  person -in-charge  radioed the operator of the hi -rail 
+excavator to confirm the details of their  track occupation authorisation .  The plan was to move 
+the hi -rail vehicle on  to the track first , followed by  the hi -rail excavator.  The person -in-charge  
+began  doing this, instructing the driver to position the hi-rail vehicle on to the track.  This put 
+the hi-rail vehicle directly in the path of  the approaching passenger train.  
+3.1.17.  The train controller said that shortly  after confirming  the person -in-charge 's track occupation, 
+he had had a feeling that something was not right.  His unease had been  heightened  when he 
+looked at his mimic screen  and saw that the passenger train (which had only just appeared on 
+the screen)  had not in fact  passed  the Crown Road  level crossing , as he had assumed,  but 
+was instead approaching  it.  The train controller  called  the person -in-charge  and asked him if 
+the "subby " that had passed over  the Crown Road  level crossing had done so within the 
+previous  few seconds.  The person -in-charge  said no , that the subby had passed  several  
+minutes earlier .  The train controller then infor med the person -in-charge  that the train that had 
+passed  earlier was in fact the training shuttle , and that another subby (the passenger train) 
+was now approaching Paerata  on the Down Main l ine. 
+3.1.18.  A few seconds later  (while the train controller and the person -in-charge were still speaking to 
+each other) , the warning bells  at the Crown Road  level crossing began ringing as the 
+passenger train approached .  The person -in-charge  immediately signalled for  the hi -rail vehicl e 
+to be driven from the Down Main  line.  This was done  a few seconds be fore the passenger 
+train passed , narrowly avoiding a collision.   
+ 
+
+<< Page 6 >>
+ Final report 11 -106 3.2. Personnel information  
+Train controller  
+3.2.1.  The train controller  had started work with KiwiRail  in a Wellington -based track maintenance 
+gang on 1 August 2005 .  On 26 June 2008, after  completing  his train control training , 
+including  a period of on -the-job training , the train controller  had been  certified to perform train 
+control duties on the  Bay of Plenty desk.   On 30 March 2009 he had been  certified to perform 
+train control duties on the Waikato desk , and on 21 May 2010 the  Auckland desk.  His train 
+control certification for the Auckland desk was current at the time of the incident.  
+3.2.2.  During the 10 -day period before the  incident, the train controller had worked the following 
+roster :  
+Date - 2011  Posted roster hours  Train control desk  
+18 November  Annual leave  x 
+19 November  0650 to 19003 Merged desks  
+20 November  Annual leave  x 
+21 November  Annual leave  x 
+22 November  2240 to 0650  Central and E ast Coast Main 
+Trunk  merged desks  
+23 November  2240 to 0650  Central and E ast Coast Main 
+Trunk  merged desks  
+24 November  2240 to 0650  Central and E ast Coast main 
+trunk  merged desks  
+25 November  Rostered day off  x 
+26 November  Rostered day off  x 
+27 November  Rostered day off  x 
+28 November  (day of incident)  0640 to 1450  Auckland  
+ 
+3.2.3.  The train controller had not been working excessive hours prior to this incident .  He had been  
+either on annual leave or rostered off duty for 6 of the 10 days before the incident.  A post -
+incident urine specimen provided by the train controller was tested by the Institute of 
+Environmental Science and Research as part of KiwiRail's standard protocol s.  The specimen 
+tested negative for drugs and alcohol.   
+Person -in-charge  
+3.2.4.  The person -in-charge  had worked  for KiwiRail 's infrastructure maintenance provider since  23 
+March 2002 .  On 6 September 2004 h e had become  a track ganger for a track maintenance 
+work group  based  at Pukekohe .  His  most recent biennial  refresher training had been  
+completed on 15 May 2009 , and on 3  August 2010 he  had undertaken  further track safety 
+training .  On 31  March 2011 the person -in-charge  had been trained  in the Alternative Track 
+Safety Rules  and Pilot for Automatic Signalling Rules that were introduced  within  the Auckland 
+suburban network  from  8 May 2011 .   
+Driver of the passenger train  
+3.2.5.  The scheduled 2 -car diesel multiple unit passenger train was crewed by a  driver, one train 
+manager and one passenger operator.  The driver had 7 years' experience driving diesel 
+multiple units on the Auckland suburban rail network.  His certification was current.  
+  
+                                                        
+3  The train control roster schedules a merged -desk, 12 -hour shift on a Saturday when scheduled rail traffic 
+and track maintenance activities are normally less frequent than at other times of the week.  
+  
+Final report 11 -106 
+<< Page 7 >>
+ 4. Analysis   
+4.1. Introduction   
+4.1.1.  The passenger train nearly collided with the hi -rail vehicle because  the train controller 
+mistakenly authoris ed the person -in-charge to place a hi-rail vehicle and hi-rail excavator on to 
+the section of track on which the passenger train was travelling .  The train controller made this 
+mistak e because he did not verify the location of the passenger train .  He made an 
+assumption  based on what he was told by  the person -in-charge of the worksite that a "subby", 
+which he assumed was the passenger train, had already and only just passed his locatio n.  
+The passenger train was in fact about 2  minutes away, approaching  the Crown Road  level 
+crossing where the person -in-charge had begun to on -track his hi-rail vehicle.  
+4.1.2.  This incident highligh ted 3 safety issues , namely:  
+ assumptions about the location s of the trains  - the train controller made an assumption 
+about the location of the passenger train and did not verify  this location before authorising 
+the person -in-charge's track occupation.  Assumptions by train controllers about the 
+location s of trains and other rail vehicles are a real and constant risk  that must be 
+continu ally and properly managed  
+ knowing where trains are on the rail network  - the passenger train was not electronically 
+visible to the train controller when he authorised the person -in-charge's track occupation.  
+A significant portion  of the controlled rail network  and therefore a large number  of rail 
+movements and track activities  are not electronically  visible to train control  at any given 
+time .  Although mechanisms are available to help train controllers anticipate and verify 
+these movements and track activities , these mechanisms require train controllers to 
+interpret, analyse and understand information  (or the absence of information) , often in  
+split-second s and while under pressure.  This makes their job complex and demanding.  A 
+high reliance on human input means that the system will always be a t risk from human 
+error .  The Commission raised this issue in its Staircase/Craigieburn  report4 
+ nutrition and rest breaks  - the train controller had not eaten for about 15 hours before 
+the incident.  T rain controllers who do not eat properly and regularly during their shift s 
+and/or who do not take rest breaks during their shift s may become mentally fatig ued, 
+which can contribute to their making errors.  The Commission  also raised this issue in its 
+Staircase/Craigieburn report .  Although there is no objective evidence to support the train 
+controller's mental performance  being  affected by the lack of rest breaks or the lack of 
+food before and during his shift, research has shown that insufficient nutrition can 
+nevertheless affect human performance.   
+4.1.3.  Each of these safety issues is discussed in the following sections . 
+4.2. Assumptions  about the location s of trains and other rail vehicles  
+Safety issue:  The train controller made an assumption about the location of the passenger 
+train and did not confirm this location before authorising the person -in-charge's track 
+occupation.  Assumptio ns made by train controllers about the location s of trains and other rail 
+vehicles are a real and constant risk  that must be continu ally and properly managed.  
+4.2.1.  KiwiRail's Track Safety Rules required train controllers to verify all train movements before 
+granting track occupation authorisations.  Rule 915(b) stated:  
+Train Control will ensure that the proposed movement will not conflict with rail vehicle 
+movements (trains, hi -rail vehicles, etc).  
+The location of conflicting rail vehicle movements must be verified by Train Control prior to the 
+movement being authorised5. 
+                                                        
+4  Commission report 11 -102.  
+5  Rule 915(b), Rail Operating Rules: Section 9: Track Safety Rules.  Ontrack.   25 November 2008.  
+
+<< Page 8 >>
+ Final report 11 -106 4.2.2.  Rule 915(b)(i) was specifically concerned with on -tracking.  It stated:  
+When a train is in the vicinity where the on tracking is to take place:  
+Train control must verify that train's position to ensure that it has [passed ] the on -tracking location, 
+prior to authorising the Trolley /Hi -rail movement.  
+4.2.3.  These rules were further repeated in KiwiRail's Operating Instructions for Train Control6.  
+Clause 14.1.2, for example, stated:  
+Pre Authorisation check and use of Train Control Diagram for Track Occupancy  
+Before track occupation is authorised the Train Controller must establish positively whether any 
+conflict exists with either existing occupations, tra ck maintenance machinery or trains within any 
+part of the area requested.  
+All movements and work authorised must be plotted on the Train Control Diagram as prescribed in 
+instruction 2.1 and 2.2 [plotting convention]  
+4.2.4.  On 13 April 2011 (about 7 months before the incident) KiwiRail issued a safety briefing notice 
+to train control personnel reminding them about the importance of verifying train movements 
+before granting track occupation authorisations.  This safety briefing notice was issued 
+following potential conflicts, which had been created as a result of train controllers authorising 
+track occupations.  The safety briefing notice specifically alerted personnel to the danger of 
+making assumptions about the location s of trains without verifying where they were .  It 
+concluded by saying:  
+In summary, be aware that you can make semi -conscious assumptions and believe that it is safe 
+to authorise occupancy when it is not.  The defence is to consistently apply checks fully with 
+verification, and then verbalise what yo u understand and are authorising.  
+4.2.5.  The train controller made 3 assumptions7 based on the comment from  the person -in-charge 
+that " A subby has just gone past on the Down Main ". 
+ he assumed that  the "subby " was in fact the passenger train when in fact it was th e 
+training shuttle  
+ he assumed that the passenger train (which was actually the training shuttle) had only just 
+passed the Crown Road level crossing on the Down Main line, when in fact it had done so 
+several minutes earlier  
+ he assumed that the Down Main line between the Crown Road level crossing and Signal D 
+was now clear for a 30 -minute track occupation for the person -in-charge to travel on , 
+when it was not.  
+4.2.6.  The train controller made these assumptions because he thought  that the person -in-charge's 
+commen t, "A subby has just gone past on the Down Main ", meant that the passenger train 
+had just gone past that second , rather than a few minutes earlier .  Th e request for the track 
+occupation was made within a few minutes of the time the train controller expecte d the 
+passenger train to be passing  the Crown Road level crossing.  
+4.2.7.  Despite KiwiRail's Track Safety Rules and the safety briefing notice , the train controller did not 
+verify the location of the passenger train , but instead relied on his assumptions  about  what 
+train was being referred to, and that it had just gone past .  In his submission to the 
+Commission, the train controller implied  that relying on the practice of field staff providing 
+additional information  to train controllers was normal practice.  He im plied that in this case, 
+relying on the information that the "subby had just gone past" was appropriate.   However, 
+train controllers must use all means available to verify the locations of trains before 
+authorising track occupations.  
+                                                        
+6  Rail Operating Procedures: Section 10.1: Operating Instructions for Train Control.  Ontrack.  23 November 
+2009.  
+7  The Concise Oxford English Dictionary (11th edition) defines an "assumption" as something that is 
+accepted as true wit hout proof.  
+  
+Final report 11 -106 
+<< Page 9 >>
+ 4.2.8.  The risk of human error will always be present whenever a process or a system requires a 
+person to make a decision or to perform an act.  This risk can be effectively managed and 
+minimised if the right level of attention and commitment is given to it.  
+4.2.9.  Train controllers must not make assumptions.  They should only act on verified information.  
+KiwiRail could ensure that train controllers do not make assumptions by the following means : 
+ repeatedly reminding train controllers (through regular safety briefing notices or 
+announcements) to follow proper protocols when authorising track occupations, including 
+verifying the location s of trains and other hi -rail vehicles rather than relying on 
+assumptions  
+ locating visual reminders throughout train control (e.g. on p osters or messages in each 
+train control room and in the common areas) reminding train controllers not to make 
+assumptions  
+ ensuring that train controllers' formal training (initial and ongoing training) covers the risks 
+of making assumptions and include s strategies to help train controllers avoid making 
+them . 
+4.2.10.  Managing the risk of train controllers making assumptions should be a daily priority, not an 
+occasional exercise.  
+Findings  
+1. The train controller authorised a track occupation o n a section of track in fr ont of 
+an advancing passenger train because he did not first check the whereabouts of all 
+other trains in the area as required by KiwiRail rules and procedures.  
+2. The train controller did not check  the location of the passenger train because he 
+made an assum ption about its location,  based on additional information given  by 
+the person -in-charge  of the track maintenance  group .   
+3. KiwiRail must take all available steps to ensure  that train controllers do not make 
+assumptions.  Train controllers must authorise tra ck occupations on verified 
+information only.  
+4. The person -in-charge provided additional information when he said , "A subby has 
+just gone past on the Down Main".  This information confused the train controller . 
+4.3. Knowing where trains are on the rail network  
+Safety issue:  The passenger train was not electronically visible to the train controller when he 
+authorised the person -in-charge's track occupation.  A significant portion of the controlled rail 
+network, and therefore a large number  of rail movements and track activitie s, is not 
+electronically visible to train control at any given time.  
+4.3.1.  In New Zeal and, only about 40 % of the entire controlled rail network  is configured to display 
+the location s of trains on train controllers ' mimic screen s.  For areas under track warrant 
+control this has become colloquially  know n as "dark territory ".  This term is used in this report 
+to describe any area that is not visible on a mimic screen.  In order to monitor  rail movements 
+and track activities  on a section  of track (particularly within  dark territory) , train controllers rely 
+on a number of mechanisms, including their paper -based train control diagram s, information 
+from the electronic train register, compulsory radio calls from train drivers confirming their 
+locations,  and the read -back .  
+4.3.2.  Not all of these mechanisms, however,  can provide a train controller  with the exact location s 
+of all rail vehicles throughout dark territory ; usually only their most likely  location s.  Also,  in 
+order to determine this likely location, a train controller must  interpret , analys e and 
+understand  not only  information  that they see or receive from these various mechanisms but 
+also information that may not be obvious because, for example, it may not be displayed on a 
+
+<< Page 10 >>
+ Final report 11 -106 mimic screen .  Based on this inf ormation (or the absence of it) , a train controller must then 
+form a view about where a train or other rail vehicle is  on the controlled rail network at any 
+given time .   
+4.3.3.  In this case, the train controller said that he had checked his mimic screen before issuing the 
+track occupation authorisation , and saw the training shuttle travelling on the Up Main line.  
+However , for some reason (which the train controller said he could not explain) he did not 
+register the fact that the passenger train was not displayed on his mimic  screen.  The absence 
+of the passenger train from the mimic screen was important .  It was telling the train controller 
+(albeit in a complicated way) that the passenger train was still travelling through  dark territory  
+between Signal A and Signal B .  This m eant that:    
+ the passenger train had not yet passed  the Crown Road  level crossing, as the train 
+controller had assumed  
+ the section of track between  the Crown Road  level crossing and Signal D was not free for 
+the person -in-charge to on-track his hi -rail vehicle and hi -rail excavator.  
+4.3.4.  Figure 1 shows the Up Main line and the Down Main line between Papakura and Pukekohe, 
+and the location of the Crown Road  level crossing near Paerata.  It also shows the 4 signals 
+between Papakura and Paerata : 
+ the 44 signal (645.59  km) south of Papakura ( Signal A ) 
+ the 636.55  km interm ediate signal ( Signal B ) 
+ the 634.71  km intermediate signal north of the Crown Road  level crossing ( Signal C ) 
+ the 8L signal (632.97  km) south of the Crown Road  level crossing near Paerata ( Signal D ).  
+This signal identifie d the boundary between Auckland and  Waikato train control.  
+Figure 1 
+Up Main line and Down Main line from Papakura to Pukekohe  
+ 
+4.3.5.  Trains travelling between Signal B and Pukekohe were continuously displayed on the mimic 
+screen, enabling train controllers to see where they were.  However, trains travelling between 
+Signal A and Signal B were not, meaning that their movements on this section of track 
+(approximately 9  km long) were not electronically visible to train control (dark territory).  In 
+these cases, train control lers had to anticipate train movement s by plotting  progress on their 
+paper train control diagram s, with the help of other information such as information from the 
+train register.  
+4.3.6.  When the location s of train s are not electronically visible to train controll ers, it can be  difficult 
+for them  to interpret and understand the significance of information, particular ly when they 
+ 
+ 
+Paerata  
+Pukekohe  
+Station  
+to Auckland  
+Crown Road l evel crossing 633.57 km  
+Papakura  
+Station  
+Signal D  
+632.97 
+km  
+Signal  B 
+636.55 
+km  
+Signal A  
+645.59 km  
+ Signal C   
+634.71 km  
+ 
+ 
+ 
+ 
+train movements  
+along this 9 km 
+track not displayed  
+in train  control  
+Up Main  
+line 
+Down 
+Main line  
+  
+Final report 11 -106 
+<< Page 11 >>
+ are under pressure.  The Commission is aware that global position ing technology is available 
+within KiwiRail that will enable train controllers to see a ll train movements in real time.  
+However, this technology has not been formally introduced as an aid to controlling trains 
+across the entire rail network .  If the train co ntroller in this case could have seen  in real time  
+all train movements between Auckland and Pukekohe, and  if he had looked  at the screen 
+before issuing the track occupa tion authority to the person -in-charge, he would have seen that 
+the passenger train had not passed the Crown Road level crossing.  
+4.3.7.  This does not mean  that the mechanisms that train control uses  to monitor rail movements 
+and track activities  on the controlled rail network are  inadequate  for tracking trains and other 
+rail vehicles or for determ ining their location s.  The fact that the majority of rail movements 
+and track activities  have op erated on the network without incident  supports this.  However,  
+these mechanisms  do require more input from train controllers , who must interpret and 
+analyse the information that these mechanisms provide  or do not show .   
+4.3.8.  A train controller's job would be easier , and public safety would be improved , if all trains and 
+hi-rail vehicles on the controlled rail network  were electronic ally visible to them at all times.  
+That way they could see at a glance all rail movements and track activities  on a particular 
+section of track at any given time.  Train visibility through global positioning technology  will 
+reduce the risk of collisions o ccurring .   
+4.3.9.  Since this incident, KiwiRail has developed a system that shows train controllers the locations 
+of all trains over 95% of its controlled network with a reasonable level of accuracy.  The 
+system , known as "GeVis" , uses global positioning technol ogy.  A similar system using global 
+positioning technology to identify the locations of all hi -rail vehicles is currently being 
+designed .    
+Findings  
+5. The passenger train was not displayed on the train controller's mimic screen when 
+he authorised the person -in-charge's track occupation.  A visual representation of 
+the passenger train's location  would have reduced the risk of the train controller 
+inadvertently creating a potential collision between the passenger train and the hi -
+rail vehicles . 
+6. Train controllers must determine where trains and other rail vehicles are on the 
+controlled rail network at any given time, by interpreting, analysing and 
+understanding  not only  information that they see but also information that is not 
+obvious or displayed .  A train controller's job would be made easier , and public 
+safety would be improved,  if all trains and hi -rail vehicles were electronically visible 
+to train control  at all times.  If the train controller had had access to this technology 
+at the time of the in cident , he would have seen (at a glance) that it was not safe to 
+authorise the person -in-charge's track occupation.  This would have prevented the 
+incident occurring.  
+4.4. Train controller wellbeing  - nutrition and rest breaks  
+Safety issue:  The train controller had not consumed any food for about 15 hours before the 
+incident.  Train controllers who do not eat properly and regularly during their shift s and/or 
+who do not take rest breaks during their shift s may become mentally fatigued.  In these 
+circumstances, train controllers are more likely to make mistakes .  
+4.4.1.  Train control is a mentally demanding  and stressful  role. Train controllers are required to 
+make  numerous quick  decisions during their shifts  and t o get these right  all the time .  To do 
+this train controllers  must  be in peak mental form throughout their shift s.  A lapse of 
+concentrati on could result in an accident , with consequent loss of life and/or significant 
+damage to property  and/or the environment .   
+
+<< Page 12 >>
+ Final report 11 -106 4.4.2.  To ensure that train controllers are mentally and physically fit to perform their duties, the 
+Commission believes that there  are 2 basic , but important,  principles  that train controllers 
+must  follow as a matter of standard practi ce, namely : 
+ train controllers must have sufficient  nutrition before  and regularly during their shifts  
+ train controllers must take regular rest breaks .  
+4.4.3.  Research shows that in order for the brain to sustain optimal performance, the body needs a 
+specific lev el of glucose.  Food  is a key  way to provide the body with this.   A modest reduction 
+in available glucose (through inadequate nutrition) can have a measurable effect on the speed 
+with which the brain responds to, and processes, information (De Feo et al., 1988).  
+4.4.4.  In this case, the train controller's most recent  meal had been  about 15 hours before the 
+incident  (i.e. his dinner the night before ).  When he awoke around 0445 on the day of the 
+incident , he did not have breakfast .  Nor could he recall eating anything at work before the 
+incident.  In both cases the train controller  chose not to  eat, at least intentionally in the first 
+case because he preferred  not to have breakfast so early, and  in the second case  because he  
+had not yet got around to doing  so. 
+4.4.5.  The train controller said that about 4 0 minutes before the incident he had had a mild 
+headache , although it was not severe enough for him to consider discontinuing his shift .  He  
+nevertheless  had told the Network Control Manager  about it, then returned t o his desk  to 
+continue his work .  Once the Network Control Manager was aware of the train controller's 
+ailment, he had a responsibility to determine the extent of the ailment and put in place a 
+process to monitor the train controller's wellbeing.  In this case no such action was taken.     
+4.4.6.  It is unclear if  the train controller's headache was due to  his lack of food intake or some other 
+factor .  It is also unclear  if his headache  affected his performance in any way (there was no 
+evidence to enable the  Commis sion to determine this ).  Given that the train controller had not 
+consumed any food for about 15 hours before he made his error, low blood glucose levels 
+could not be excluded as a factor contributing to his performance.  
+4.4.7.  Train controllers have a responsib ility to ensure that they are mentally fit to perform their 
+duties.  This means eating properly and regularly  during  shifts.  This is not something that train 
+controllers should  treat  casually or with indifference , because  they are performing a safety -
+critical role  that requires high mental and cognitive  performance .   
+4.4.8.  KiwiRail  also has a responsibility  to ensure that its train controllers  are properly educated  to 
+treat  diet and nutritio n seriously .  It also has a responsibility to ensure  that they have  
+opportunit ies to rest and take in nutrition .  Safety briefings and safety notices reminding train 
+controllers of the importance of proper nutrition are important .  
+4.4.9.  Rest breaks were  a matter that the Commission examined in its Staircase -Craigieburn rail 
+inquiry8.  In that case the train controller 's significant work load meant that she felt she could 
+not leave her room during  her 5 -hour shift to get something to eat  or to have a break .  The 
+Commission found that it was likely that the train controller , in that case, was mentally 
+fatigued  immediately before, and  at the time, she made an error . 
+4.4.10.  Standard protocol within train control is not to provide train controllers with scheduled breaks 
+within their shifts  because of the need for them to be near their desk s at all times to hear and 
+respond to calls.  Rather, the practice is for informal breaks and interactions, including meal, 
+toilet and  rest breaks , to be  taken as and when opportunit ies arise, mainly during quiet 
+period s.  In most  cases then, train controllers eat at their desks, and have rest and toilet 
+breaks as and when their workloads allow them to.  
+                                                        
+8  Commission re port 11 -102.  
+  
+Final report 11 -106 
+<< Page 13 >>
+ 4.4.11.  The Accident Investigation Board in Norway and Australian Rail Track Corporation Limited9 
+both confirmed similar arrangements in t heir respective countries , where train controller shifts 
+are 8 ho urs without scheduled breaks.  
+4.4.12.  Notwithstanding this, there are risks when  people who perform safety -critical  functions work  
+long hours without scheduled breaks, particularly if the work required is complex and mentally 
+demanding , such as train control.  The fact that someone else may be doing the same thing is 
+not a good reason  for continuing with a high -risk procedure involvi ng a safety -critical  function .  
+4.4.13.  There is a wealth of cases in which long and irregular working hours have contributed to 
+people making errors or that have been associated with a range of physical and mental health 
+and injury risks (International Labour Organisation , 2011).  Eight hours without a scheduled 
+break is a long time in which to expect a person to remain fully alert and in optimal mental 
+form.  
+4.4.14.  The Commission does not accept that KiwiRail's approach to train control, where its train 
+controllers work their 8-hour shift s10 without scheduled breaks, is safe - certainly  not without 
+proper processes in place to manage and mitigate the risk s of workplace fatigue and stress  
+effectively .  This is a significant  safety issue that must  be properly assessed  from a risk 
+perspective . 
+4.4.15.  KiwiRail has since introduced a range of measures to improve the health and wellbeing of its 
+train controllers.  These are detailed i n the "Safety action s" section of this report.  
+Finding s  
+7. Given that the train controller had not consumed any food for about 15 hours 
+before he made his error , low blood glucose levels could not be excluded  as a 
+factor contributing to the train controller's performance.  
+8. Train controllers must ensure that they eat properly and regularly during shifts.  
+This cannot be treated casually or w ith indifference , when they are performing 
+such a safety -critical  role.   
+9. KiwiRail must ensure that train controllers treat diet and nutrition seriously, that 
+food is easily accessible by train controllers during their shifts and that train 
+controllers are given breaks to rest and have adequate nutrition .   
+10. KiwiRail's approach  to train control, where its train controllers work 8 -hour shift s 
+without scheduled breaks, is not safe unless processes are in place to manage 
+and mitigate the risks of fatigue and stress  effectively .  
+ 
+4.5. Communication  
+4.5.1.  This incident highlights the importance of clear communication and the need for train 
+controllers, and those who communicate with train control, to check and clarify their 
+understanding of communications.  
+4.5.2.  The driver of the passenger train said that he had not hear d the train controlle r authorising the 
+person -in-charge to occupy the section of track ahead of his train , even though he had been  
+on the same radio frequency.  He said that he had reduced the volume on his train radio and 
+had trained himself to focus only on those calls made to his call sign, and to ignore all other 
+radio communications.  Although there was no rule requiring the train driver to listen to all 
+                                                        
+9  Australian Rail Track Corporation L imited  is responsible for the management of over 8500 route of 
+standard -gauge interstate track in South Australia, Victoria, Western Australia, Queensland and New 
+South Wales.  It also manages the Hunter Valley coal rail network, and other regional rail links, in New 
+South Wales.  
+10  Shifts are nominally 8 hours, but can be up to 12 hours during weekends.  
+
+<< Page 14 >>
+ Final report 11 -106 radio communications, best practice and good crew resource management11 dictated that he 
+and other drivers do this.  The fact that he did not "tune in " to the radio conversation between 
+the train controller and the person -in-charge in this case meant that an opportunity was lost to 
+alert train control to the potential conflic t involving his own train.  
+4.5.3.  The Commission made reference to the need for good communication and crew resource 
+management in its report on a near -head -on collision near Papakura on  14 January 2011 .  In 
+that report the Commission recommended that the Chief E xecutive of the NZ Transport Agency 
+require the Executive of the National Rail System Standard to develop standards to ensure 
+that all rail participants meet a consistently high level of crew resource management and 
+communication that includes the use of s tandard rail phraseology.  
+4.5.4.  On 16 April 2012 the Chief Executive of the NZ Transport Agency replied that he intended to 
+work closely with the National Rail System Standard Executive with an aim of implementing 
+and closing out this recommendation as soon as p racticable.  He also said that the NZ 
+Transport Agency sat on the National Rail System Standard  Executive as an observer and that 
+he would  also consider a strategy for rail operators outside the National Rail System Standard  
+coverage.  
+4.5.5.  The recommendation re mains open pending suitable action on this safety issue . 
+Finding  
+11. The passenger train driver could have heard the train controller authorising a track 
+occupation directly in the path of his train and intervened to prevent the conflict, 
+but he lost that oppo rtunity because he routinely turned down the volume on his 
+train radio and only actively listened for radio traffic in which  his train number was 
+mentioned.  
+                                                        
+11  Crew resource management can be defined as a management system that makes optimum use of all 
+available resources (e.g. equipment, procedures and people) to promote safety and enhance the 
+efficiency of operations.  It encompasses a wide range of knowledge, skills and attitudes , including 
+communications, situational awarene ss, problem -solving, decision -making and teamwork.   
+ 
+  
+Final report 11 -106 
+<< Page 15 >>
+ 5. Findings  
+5.1. The train controller authorised a track occupation on a section of track in front of an 
+advancing passenger train because he did not first check the whereabouts of all other trains 
+in the area as required by KiwiRail rules and procedures.  
+5.2. The trai n controller did not check the location of the passenger train because he made an 
+assumption about its location , based on additional information given  by the person -in-charge 
+of the track maintenance group.   
+5.3. KiwiRail must take all available steps to ensur e that train controllers do not make 
+assumptions.  Train controllers must authorise track occupations on verified information only.  
+5.4. The person -in-charge provided additional information when he said , "A subby has just gone 
+past on the Down Main".  This info rmation confused the train controller.  
+5.5. The passenger train was not displayed on the train controller's mimic screen when he 
+authorised the person -in-charge's track occupation.  A visual representation of the passenger 
+train's location would have reduced th e risk of the train controller inadvertently creating a 
+potential collision between the passenger train and the hi -rail vehicles.  
+5.6. Train controllers must determine where trains and other rail vehicles are on the controlled rail 
+network at any given time, by  interpreting, analysing and understanding  not only  information 
+that they see but also information that is not obvious or displayed.  A train controller's job 
+would be made easier, and public safety would be improved, if all trains and hi -rail vehicles 
+were electronically visible to train control at all times.  If the train controller  had had access to 
+this technology at the time of the incident , he would have seen (at a glance) that it was not 
+safe to authorise the person -in-charge's track occupation.  Thi s would have prevented the 
+incident occurring.  
+5.7. Given that the train controller had not consumed any food for about 15 hours before he made 
+his error , low blood glucose levels could not be excluded as a factor contributing to the train 
+controller's performa nce. 
+5.8. Train controllers must ensure that they eat properly and regularly during shifts.  This cannot be 
+treated casually or with indifference , when they are performing such a safety -critical  role.   
+5.9. KiwiRail must ensure that train controllers treat diet and  nutrition seriously, that food is easily 
+accessible by train controllers during their shifts and that train controllers are given breaks to 
+rest and have adequate nutrition.   
+5.10.  KiwiRail's approach to train control, where its train controllers work 8 -hour s hifts without 
+scheduled breaks, is not safe unless processes are in place to manage and mitigate the risks 
+of fatigue and stress  effectively .  
+5.11.  The passenger train driver could have heard the train controller authorising a track occupation 
+directly in the p ath of his train and intervened to prevent the conflict, but he lost that 
+opportunity because he routinely turned down the volume on his train radio and only actively 
+listened for radio traffic in which  his train number was mentioned.  
+
+<< Page 16 >>
+ Final report 11 -106 6. Key lessons  
+6.1. Train controllers need to verify all information before authorising track occupation s.  If they 
+cannot see trains on the ir mimic screen s, they must make radio contact with the driver s to 
+verify the trains ' location s in order to give authorisation s. 
+6.2. The risk of train controllers making assumptions must be managed on an ongoing basis.  
+6.3. Train controller s who are significantly fatigued  (mentally)  during their shift s can be  a risk to 
+public transport safety.  Having a  proper diet  and nutrition and taking rest breaks during shifts 
+are crucial for minimising this risk.  
+6.4. Food must be easily accessible by train controllers, and train controllers must be given 
+adequate breaks during their shifts to enable them to eat and to rest. 
+  
+  
+  
+Final report 11 -106 
+<< Page 17 >>
+ 7. Safety actions  
+General  
+7.1. The Commission classifies  safety actions  by 2 types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  address ing safety issues identified during an inquiry  
+7.2. On 18 July 2013 KiwiRail advised that KiwiRail Network Operating Procedures, Train Control, 
+Section 10.1 , Instructions 14.1.2 and 14.1.3 will be amended by information bulletin effective 
+from 1 August 2013 .  These amendments and covering letter stated:  
+
+<< Page 18 >>
+ Final report 11 -106  
+
+  
+Final report 11 -106 
+<< Page 19 >>
+ 
+
+
+<< Page 20 >>
+ Final report 11 -106  
+
+  
+Final report 11 -106 
+<< Page 21 >>
+  
+7.3.  On 15 October 2013 KiwiRail stated in part:  
+Following on from Commission's investigation report 11 -102, KiwiRail has 
+introduced new initiatives recently including a 'step away for 5' initiative 
+encourag ing Train Controllers to take mini breaks.  We now provide fresh fruit, 
+nutitional bars and milk beverages in Train Control.  [ National Train Control 
+Centre} NTCC records the data on breaks.  In addition Network Control Managers 
+regularly walk the centre t o check on the wellbeing of staff.  This is also recorded.  
+KiwiRail has also introduced a wellness portal which provides employees 
+information on health and wellbeing.  
+ 
+ 
+
+
+<< Page 22 >>
+ Final report 11 -106 8. Recommendations  
+8.1. General  
+8.1.1.  The Commission may issue, or give notice of,  recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   
+8.1.2.  In this cas e the Commission makes 3 recommendations to the Chief Executive of KiwiRail.  
+The Commission believes that KiwiRail is the appropriate organisation to address the safety 
+issues reflected in these recommendations , as the issues arose from the operations of one of 
+its business units (train control).   
+8.1.3.  The final recommendation is made to the Chief Executive of the N Z Transport Agency.  The N Z 
+Transport Agency has various powers under the Railways Act 2005 to monitor and ensure rail 
+parti cipants ' performance and compliance.  The Commission, therefore, recommends that the 
+NZ Transport Agency exercise all appropriate powers to ensure that KiwiRail is taking all 
+appropriate steps to implement its recommendations.     
+8.1.4.  In the interests of trans port safety it is important that these recommendations are 
+implemented without delay to help prevent similar accidents or incidents occurring in the 
+future.  
+New recommendations  
+8.2. Recommendation 1 : Assumptions about the location s of trains  
+8.2.1.  The train controlle r in this  case made an assumption that the passenger train had passed a 
+particular location based on information from the  person -in-charge.  Rather than verifying the 
+train's location, the train controller acted on his assumption and authorised the person -in-
+charge to occupy a section of track that the passenger train was approaching.  
+Train controller s must not  make assumption s about the location s of trains without first 
+verifying their location s.  Unless KiwiRail and train controllers remain alert to this risk and take 
+all appropriate steps to minimise the likelihood of train controllers making assumptions, 
+further incidents could occur, perhaps with more serious consequences . 
+The Commission recommen ds that the Chief Executive of KiwiRail  ensure  that appropriate 
+mechanisms are in place, and are being applied, to  minimise the likelihood of train controllers 
+making assumptions ab out the location s of trains and other rail vehicles . (025/13)  
+On 7 November 2013 the Chief Executive of KiwiRail replied  in part : 
+Following on from the Commission's investigation report 11 -102, KiwiRail has made 
+significant changes in respect to mitigating the risk of Train Controllers making 
+assumptions by introducing enhanced "Block to be clear" verification process, 
+implemented on 1 August 2013 by Bulletin 449 [refer below].  
+Where track safety rules require train control to verify the position of a train 
+to ensure that it is passed the on -tracking location, this must be performed 
+by: 
+ Observing all track circuits are clear within the on -tracking location 
+when within station limits of an interlocked station, or  
+ Observing all track circuits are clear between adjacent stations for 
+any continuously detected block sercion, or 
+ Obtaining verbal advice and confirmation of a trains position form 
+the Locomotive Engineer that it is clear of the next station (incl 
+Metro Platforms & Intermediate Boards) when the on -tracking 
+  
+Final report 11 -106 
+<< Page 23 >>
+ location is in dark territory or non -continuously detected (DLAS, 
+TWC, SLAS, ASR)  
+This new procedure has been reinforced by the Manager Network Operations by way 
+of a Safety Briefing and a personal letter to all Train Control Personnel, outlining the 
+change in procedure.  
+Compliance with the new process is monitore d through our safety observation 
+process.  
+8.3. Recommendation 2: NZ Transport Agency  
+8.3.1.  It is important that KiwiRail address es the above recommendation, which is aimed at 
+addressing the safety issues examined in this report.  The N Z Transport Agency has various 
+powers under the Railways Act 2005 to monitor and ensure KiwiRail's performance and 
+compliance.   
+The Commission recommends that the Chief Executive of the N Z Transport Agency  take all 
+appropriate steps to ensure that KiwiRail  addresses the above recommendation . (026/13)  
+On 7 November 2013  the acting Manager Rail Safety at  New Zealand Transport Agency  
+replied:  
+Recommendation 025/13 that the Commission has direct to the Chief Executive of 
+KiwiRail is noted.  Recommendation 026/13 m ade to the Chief Executive of the NZ 
+Transport Agency is accepted.  Discussions on these recommendations will be 
+initiated on the publication of the report.  These discussions will include a projected 
+timeframe for implementation.  This will be advised to TAIC in due course.  
+Previous recommendation s 
+8.4. Train controller wellbeing  -nutrition  and rest breaks  
+At the time that the train controller made his error, he had not eaten anything for about 15 
+hours.  It is likely then that his glucose levels were low when he authorised the person -in-
+charge's track occupation.  Train controllers have a responsibility to ensure that they are 
+mentally fit to perform their duties.  This means eating properly and regularly during their 
+shifts.  KiwiRail also has a responsibility to ensure that food is easily accessible by train 
+controllers during their shifts and that train controllers are gi ven breaks to enable them to eat 
+this food and to rest.  
+This safety issue was identified in the Crown's Staircase/Craigieburn inquiry , where the train 
+controller in that case worked a 5 -hour shift without eating or having a break.  In its 
+Staircase/Craigi eburn report, the Commission made the following recommendation:  
+The Commission recommends that the Chief Executive of KiwiRail ensure that  train control 
+management has appropriate mechanisms in place to : 
+ detect and manage stress and fatigue, including appropriate training and education  
+ remind train controllers about  the importance of eating properly and regularly during 
+their shifts;  and 
+ provide train controllers  with certainty of reasonable  breaks  during their shifts . 
+(014/13)  
+The same recommendation a nd the safety issue it addresses appl y to this report.  
+  
+
+<< Page 24 >>
+ Final report 11 -106 8.5. Train visibility  
+8.5.1.  Only about 40% of the controlled rail network is configured to display the location s of trains on 
+train control mimic screen s.  This makes it challenging for train controllers to determine the 
+exact location s of rail movements and track activities on the network in all cases.  The best 
+they can do is to determine the most likely location s using a range of mechanisms, including 
+train control diagram s, mimic screens, information from  the electronic train register, 
+compulsory radio calls and the read -back of communications.  For the most part, these 
+mechanisms work well.  
+8.5.2.  However, rail vehicles not being visible  will always present a challenge to train controllers who 
+must interpret, a nalyse and understand information .  This makes their job complex and 
+demanding.  A high reliance on human input means that there will always be a risk of human 
+error.  
+8.5.3.  Since this incident, global positioning technology has become  available that would enable  
+train controllers to monitor train movements in real time across 95% of the controlled network 
+with a reasonable level of accuracy.  KiwiRail intends to extend this technology to other rail 
+vehicles operating on the controlled network.    
+8.5.4.  Had the train con troller in this case had access to this technology and been able to see , at a 
+glance, all train movements between Auckland and Pukekohe in real time, and if he had 
+glanced at the screen before issuing the track occupation authority to the person -in-charge,  he 
+would have seen that the passenger train had not yet passed the Crown Road level crossing .   
+8.5.5.  This same safety issue was identified in the Commission's Staircase/Craigieburn inquiry.  In 
+that report the Commission made the following recommendation :  
+The Commission recommends that the Chief Executive of KiwiRail  take all appropriate steps 
+to ensure that all rail vehicles travelling on the controlled rail network are electronically visible 
+to train control . (016/13)  
+8.6. The same recommendation and the safet y issue it addresses appl y to this report.  
+  
+  
+Final report 11 -106 
+<< Page 25 >>
+ 9. References  
+De Feo et al., (1988) Modest decrements in plasma glucose concentration cause early impairment 
+in cognitive function and later activation of glucose conterregulation in the absence of hypoglycaemic 
+symptoms in normal man.  J Clin Invest, 28: August, 436 -444.  
+ 
+International Labour Organisation, (2011), The effects of working time on productivity and firm 
+performance; a research synthesis paper. Conditions of Work and Employment Series No.33.  
+ 
+Ontrack, R ail Operating Procedures: Section 10.1: Operating Instructions for Train Control.  Ontrack.  
+23 November 2009.  
+ 
+Ontrack, Rail Operating Rules and Procedures: Section 12: Radio Communication.  Ontrack.  30 June 
+2008.  
+ 
+Ontrack, Rail Operating Rules: Section 9: Track Safety Rules.  Ontrack.  25 November 2008.  
+ 
+Transport Accident Investigation Commission, Inquiry 11 -102: Near collision between a loaded coal 
+train and an alicart between Staircase and Craigieburn, 13 April 2011.  
+ 
+Transport Accident Investigation Commission, Rail occurrence report 07 -108.  Express freight train 
+720; track warrant overrun at Seddon, Main North Line.  12 May 2007  
+ 
+ 
+  
+  
+  
+ 
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+11-102 Track occupation irregularity, leading to near head -on collision, Staircase -
+Craigieburn, 13 April 2011  
+RO-2013 -104 Urgent Recommendations: Derailment of metro passenger Trai n 8219,  
+Wellington, 20 May 2013  
+11-103 Track workers nearly struck by passenger train, near Paekakariki, North Island 
+Main Trunk, 25 August 2011  
+10-101 wrong route setting, high -speed transit through turnout, near miss and SPAD 
+(signal passed at danger),  Tamaki, 13 August 2010  
+11-104 Freight Train 261 collision with bus, Beach Road level crossing, Paekakariki, 31 
+October 2011  
+10-102 collision between 2 metro passenger trains, after one struck a landslide and 
+derailed between Plimmerton and Pukerua Bay, North Island Main Trunk, 30 
+September 2010    
+07-102 (incorporating inquiry 07 -111) freight train mainline derailments, various locations 
+on the national network, from 6 March 2007 to 1 October 2009  
+11-101 Wrong line running irregularity, leading to a potential head -on collision, Papakura - 
+Wiri, 14 January 2011  
+08-102 Metro passenger train derailment, Sylvia Park, 14 April 2008 (incorporating 
+inquiries 08 -104 and 08 -107) Diesel motor fires on board metro passenger trains, 
+3 June 2008 and 25 July 2008  
+ 
+08-111 Express freight Train 524, derailment, near Puketutu, North Island Main Trunk, 3 
+October 2008  
+08-112 Safe working irregularity resulting in a collision and derailment at Cass Station  
+on the Midland line, 8 November 2008  
+09-102 Passenger fatality after falling between platform and passenger Train 8125, 
+Newmarket West station, 1 July 2009  
+08-109 Passenger express  Train 9113, platform overrun resulting in signal passed at 
+danger , Fruitvale Road Station, North Auckland Line, 4 September 2008  
+07-114 Derailment caused by a wheel -bearing failure, Hunt ly, 19 October 2007, and 11 
+subsequent wheel -bearing failures at various locations during the following 12 
+month period  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 15.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

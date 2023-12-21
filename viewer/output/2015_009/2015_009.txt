@@ -1,0 +1,1688 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Final Report AO -2015 -009: Air traffic control incidents,  
+Hamilton aerodrome,  17 December 2015  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropri ate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost  of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Tr ansport Accident Investigation Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+Final  Report  
+Aviation inquiry AO-2015 -009 
+Air traffic control incidents  
+Hamilton aerodrome  
+17 December 2015  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : August 2018  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a  standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other acci dent investigation 
+organisations overseas .  The principal purpose of its inquiries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector  and the public , both domestically and international ly, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     Jane Meares   
+Deputy Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Stephen Davies Howard  
+Commissioner      Richard Marchant  
+Comm issioner      Paula Rose, QSO  
+ 
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Barry Stephenson  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+ 
+Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is m ade 
+to the Transport Accident Investigation Commission.  
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to ind ustry participants only and not 
+discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe th e degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the 
+Intergovernmental Panel on Climate 
+Change ) Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33%  to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ 
+Hamilton aerodrome control tower
+
+ 
+ 
+ 
+Location of incident (s) 
+ 
+Legend  
+ Hamilton  
+ 
+ 
+ 
+  
+  
+ 
+ 
+Source: mapsof.net  
+Contents  
+Abbreviations  ..................................................................................................................................................... ii 
+Glossary  ............................................................................................................................................................ iii 
+Data summary  .................................................................................................................................................. iv 
+1. Executive sum mary  ...................................................................................................................................1  
+2. Conduct of the inquiry  ...............................................................................................................................2  
+3. Factual information  ...................................................................................................................................3  
+3.1. Introduction  ...............................................................................................................................3  
+3.2. Backgro und information  ...........................................................................................................3  
+Hamilton aerodrome traffic  ......................................................................................................3  
+Hamilton ATC  .............................................................................................................................4  
+Proficiency assessments  ..........................................................................................................4  
+3.3. Narrative  ....................................................................................................................................5  
+Before the duty shift  .................................................................................................................5  
+The first set of incidents (shift start plus one minute)  ............................................................6  
+The second incident (shift start plus five minutes)  .................................................................6  
+The third set of incidents (shift start plus 45 minutes)  ..........................................................6  
+The fourth incident (shift start plus 58 to 64 minutes)  ..........................................................6  
+Resolution  ..................................................................................................................................7  
+3.4. Personnel inf ormation  ..............................................................................................................7  
+The controller  ............................................................................................................................7  
+The assessor  .............................................................................................................................8  
+The first planner  ........................................................................................................................8  
+The second planner  ..................................................................................................................8  
+3.5. Aircraft information  ...................................................................................................................8  
+3.6. Aerodrome information  .......................................................................................................... 10 
+Circling procedure  .................................................................................................................. 11 
+4. Analysis  ................................................................................................................................................... 12 
+4.1. Introduction  ............................................................................................................................ 12 
+4.2. What happened  ...................................................................................................................... 12 
+Related factors  ....................................................................................................................... 13 
+4.3. The air traffic control assessment process  .......................................................................... 14 
+Proficiency expectations  ........................................................................................................ 14 
+This assessment  .................................................................................................................... 15 
+4.4. Team resource management  ................................................................................................ 16 
+Operational teamwork  ........................................................................................................... 16 
+Team resource management in the cab  ............................................................................... 17 
+Team dynamics at the Hamilton ATC unit ............................................................................. 17 
+4.5. The wider safety issues for Hamilton aerodrome  ................................................................ 19 
+The aerodrome safety system was ineffective  ..................................................................... 19 
+The zone was too large and  boundaries not clearly defined  ............................................... 20 
+ATC over -controlling and excessive traffic information  ........................................................ 21 
+ 
+Language barriers  .................................................................................................................. 22 
+IFR circling proce dure  ............................................................................................................ 22 
+Circuit booking system  ........................................................................................................... 22 
+Summary conclusions  ............................................................................................................ 23 
+5. Findings  .................................................................................................................................................. 24 
+6. Safety issues  .......................................................................................................................................... 25 
+7. Safety actions  ......................................................................................................................................... 26 
+General   ................................................................................................................................................ 26 
+Safety actions addressing safety issues identified during an inquiry  ................................................. 26 
+Safety actions addressing other safety issues  ..................................................................................... 26 
+8. Recomme ndations  ................................................................................................................................. 27 
+General   ................................................................................................................................................ 27 
+Recommendation to th e CAA  ................................................................................................................. 27 
+Recommendation to Airways  ................................................................................................................. 27 
+9. Key lessons  ............................................................................................................................................. 29 
+10. Works cited  ............................................................................................................................................. 30 
+Appendix 1:   Hamilton VFR arrival (as at 2015)  ....................................................................................... 31 
+ 
+
+ 
+Final Report AO -2015- 009 | Page i Figures  
+Figure 1  The aircraft involved  ................................................................................................................... 9 
+Figure 2  Standard left -hand circuit pattern  ........................................................................................... 10 
+ 
+ 
+ 
+ 
+  
+Page ii | Final Report AO -2015- 009 Abbreviations  
+AIPNZ  Aeronautical Information Publication  
+Airways  Airways Corporation of New Zealand Limited  
+assessment  annual proficiency assessment  
+ATC air traffic control  
+CAA Civil Aviation Authority of New Zealand  
+Commission  Transport Accident Inve stigation Commission  
+CTC CTC Aviation Training (NZ) Limited  (since renamed L3 Commercial Training 
+Solutions)  
+IFR instrument flight rules  
+movement  air traffic movement  
+nm nautical mile (s) 
+Runway 18L  Runway 18 Left  
+TRM  team resource management  
+VFR visual flight rules  
+zone  control zone  
+  
+ 
+Final Report AO -2015- 009 | Page iii Glossary  
+air traffic 
+movement  a take -off or a landing  
+cab the air traffic control room on top of a control tower  
+circuit booking  a local system where training aircraft were booked to conduct circuit training in 
+half-hour slots  
+human factors  the application of psychological and physiological principles to the (engineering 
+and) design of products, processes and systems.   The goal of human factors is 
+to reduce human error, increase productivity and enhance safety and comfort , 
+with a specific focus on the interaction between the human and the thing of 
+interest  
+IFR flight  a flight conducted in accordance with the instrument  flight rules , during which 
+an aircraft is piloted solely by reference to instruments and wi thout external 
+reference points.  Visibility may be limited due to weather or time of day, or be 
+suitable for VFR flight  
+left-hand circuit  a circuit in which each turn in the circuit pattern is to the left . In a right -hand 
+circuit the turns are to the right  
+Local Unit Orders  an Airways operational manual containing orders specific to the operation of a 
+particular air traffic control  unit 
+nautical mile  a unit of measurement defined as exactly 1,852 metres   
+Runway 18 Left  a runway aligned due south at 180 degrees magnetic, and the left -hand runway 
+of two parallel runways . Runway 18R (18R) is the right -hand runway 
+VFR flight  a flight conducted in accordance with the visual flight rules , when meteorological 
+conditions expressed in terms of visibility, distance from cloud, and ceiling are 
+equal to or better than specified minima  
+  
+ 
+ 
+   
+Page iv | Final Report AO -2015- 009 Data summary  
+Aerodrome controller 's details  
+Controller's  licence:  aerodrome controller, validated for Hamilton  
+Controller's  age: 22 
+Controller's  total control  
+experience:  18 months since validation at Hamilton  
+Date and time  17 December 2015 at 1 213 New Zealand Daylight Saving 
+Time   
+Location  
+ Hamilton aerodrome  
+latitude:  37° 51´ 59" S 
+longitude:  175° 20´ 07" E  
+Injuries  nil 
+Damage  nil 
+ 
+Final Report AO -2015- 009 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On Thursday 17 December 2015, an aerodrome controller (the controller) was undergoing an 
+annual proficiency assessment in the Hamilt on air traffic control tower.  A two -person w atch 
+was on duty in the tower and a ir traffic in the circuit  patterns was high but normal for the peak 
+period of the day.  A planner was working with the controller , and an assessor sat behind to 
+observe and record the controller's actions.  
+1.2. During the asse ssment , a series of four incidents occurred that related to the controller's 
+management of air traffic in the vicinity of the aerodrome.  Following the fourth incident, the 
+assessor stopped the assessment and took over as the aerodrome controller to resolv e the 
+situation.  There were no collisions and nobody was injured.  
+1.3. The Transport Accident Investigation Commission  (Commission)  found  that the incidents 
+occurred because the controller became overwhelmed by the circumstances on the day and 
+lost situational  awareness of the aircraft within the  control  zone .   
+1.4. The Commission also found  that the usual briefing procedure before  conducting the 
+assessment was not  fully followed, and that this likely affected the team dynamics in the 
+control tower.  
+1.5. At a broader le vel the Commission found  that Airways  Corporation of New Zealand Limited's 
+tradition of posting  recently  qualified controllers with limited experience to Hamilton 
+aerodrome , one of the busiest in the country, had the potential to raise the risk profile of the 
+air traffic control unit . 
+1.6. The Commission identified the following  safety issue s: 
+• the standard of team resource management in the Hamilton air traffic control tower did 
+not match good  industry practice   
+• some aerodrome controllers are 'over -controlling' visual flight rules traffic in and around 
+the control zone, which is unnecessarily congesting the radio frequencies and risks  
+causing difficulties for inexperienced pilots and those for whom English is thei r second 
+language.  
+1.7. The Commission also identified the following safety issue  in relation to the wider issues for 
+Hamilton aerodrome : 
+• changes in the size and shape of the Hamilton control zone have shifted some visual flight 
+rules traffic congestion to prom inent points outside the control zone , and likely increased 
+the risk of collision in those areas.  
+1.8. A number of safety actions were taken and the Commission made two recommendations  to 
+address key safety issues.  
+1.9. The key lessons  arising from the inquiry were : 
+• operational assessments in a team situation have the potential to alter the normal team 
+dynamics.  It is essential that assessments are properly managed and that every team 
+member is clear on their responsibilities and their involvement in the assessment process  
+• clear , succinct and short radio communication between air traffic control and aircraft is 
+pivotal to safe operations . 
+  
+
+<< Page 2 >>
+ Final Report AO -2015- 009 2. Conduct of the inquiry  
+2.1. The C ivil Aviation Authority  of New Zealand  (CAA) advised the Transport Accident Investigation 
+Commission (Commission) of this occurrence  on 17 December 2015 .  The Commission  
+open ed an inquiry in accordance with the Transport Accident Investigation Commission Act 
+1990 , section 13 (1)b, and appointed an investigator in charge .  
+2.2. Two investigators travel led to  Hamilton on 21 December 2015 to conduct initial interviews 
+and gather evidence.   
+2.3. One investigator returned on 26 January 2016 to conduct further interviews.  
+2.4. The Commission engaged a clinical psychologist to assist with the human performance line of  
+inquiry.  
+2.5. Two investigators interviewed relevant staff at the CAA on 29 February 2016 . 
+2.6. Two investigators v isited the Airways  Corporation of New Zealand Limited  (Airways) office in 
+Christchurch on 8 March 2016 to gather further evidence and conduct inte rviews with 
+managers and tutors from the air traffic controller training centre . 
+2.7. Status updates were sought through telephone conversations and emails with some 
+participants during Dec ember  2017 . 
+2.8. On 20 June 2018 the Commission approved this draft report for circulation to seven 
+interested persons for comment.   Seven submissions were received .  The Commission 
+considered the submissions, and any changes as a result of those submissions have been 
+included in the fina l report.  
+2.9. On 22 August 2018 the Commission approved the final report for publication . 
+ 
+ 
+ 
+  
+ 
+Final Report AO -2015- 009 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Introduction  
+3.1.1.  On Thursday 17 December  2015 , a series of air traffic control (ATC) related incidents  occurred 
+at Hamilton aerodrome while it was under the control of one aerodrome controller ( the 
+controller) .  The last of these incidents happened a t 1213, when two light aircraft on training 
+flights at Hamilton aerodrome were directed by the controller into a head -on converging path. 
+The aircraft we re a Diamond DA42 Twin  Star (Twin  Star) conducting an instrument approach 
+and a Diamond DA20 Katana (Katana) flown by a pilot on their first solo flight.  
+3.1.2.  The aeroplanes were both sequenced to land  on R unway 18  Left1 (Runway 18 L).  The y were 
+flying on  the final leg of the circuit (Figure 2) at about two nautical miles2 (nm) from the 
+runway threshold3 and about 600 feet  (183 metres)  above ground  level . 
+3.1.3.  Both pilots saw the other during this loss of separation occurrence and turned away to avoid a 
+collision , but the ir aircraft  came within 0.5 nm of each other.  
+3.1.4.  The controller was about one hour into an annual proficiency  assessment  (assessment)  at the 
+time of the occurrence .  The assessor immediately relieved the controller  from duty  and took 
+over as the aerodrome controller . 
+3.2. Background information  
+Hamilton aerodrome traffic  
+3.2.1.  Hamilton aerodrome has the highest number of air traffic movements4 operating under visual 
+flight rules5 (VFR) in the country, the highest number of movements operating under 
+instrument flight rules6 (IFR) for a regional aerodrome, and the second -highest total number of 
+movements for any aerodrome.  The average number of movements per year in 2014 and 
+2015 was 100,000 VFR movements and  30,000 IFR  movements .  For comparison , there were 
+about 1 50,000 total movements each year at Auckland International Airport during the same 
+period.  
+3.2.2.  Most of the a ir traffic  at Hamilton comprised training flights using light aircraft .  The rest was 
+made up of: regular public transport ; agricultural operations;  private aircraft; and the 
+occasional military aircraft . 
+3.2.3.  A pilot operating under VFR  is responsible for their separation  from other aircraft , whereas 
+under IFR, ATC provide s that  separation .  
+3.2.4.  The main physical difference between air traffic landing under VFR and IFR rules  at this 
+aerodrome was how they join ed the circuit pattern.   A VFR aeroplane  would usually fly a box 
+pattern around the runway , with the pilot maintaining visual reference to the runway.  A  
+suitably qualified IFR pilot would typically  conduct a straight -in approach using instruments 
+and in accordance with a published procedure.   The IFR pilot  would pass a reporting point at 
+                                                        
+ 
+ 
+1 A runway aligned due south at 180 degrees magnetic, and the left -hand runway of two parallel runways. 
+Runway 18 Right (18R) is the right -hand runway.   
+2 A unit of measurement defined as exactly 1,852 metres . 
+3 See point 1 in Figure 2.  
+4 A take -off or a la nding.  
+5 A flight conducted in accordance with the visual flight rules , when meteorological conditions expressed in 
+terms of visibility, distance from cloud, and ceiling are equal to or better than specified minima . 
+6 A flight conducted in accordance with the instrument flight rules,  during which an aircraft is piloted solely by 
+reference to instruments and without external reference points. Visibility may be limited due to weather or 
+time of day, or be suitable for a VFR flight . 
+
+<< Page 4 >>
+ Final Report AO -2015- 009 about 12 nm out along the extended runway centreline , where they would expect to receive 
+clearance  before continuing  to land .  
+3.2.5.  IFR operations were often conducted at Hamilton when the weather was also suitable for VFR 
+aircraft to be operating.  The aerodrome controller had to manage the mixed flow of IFR and 
+VFR aircraft  safely . 
+Hamilton ATC 
+3.2.6.  In 2015  the Hamilton control  zone  (zone) covered an area 20 nm long and 8 nm wide centred 
+over the runway (see Appendix 1).  The controlled airspace was classified as a Class D7 zone 
+that extended from ground level up to 2 ,500 feet  (760 metres)  above mean sea level .  ATC 
+was responsible for providing separation between IFR aircraft within the zone.  It was also 
+responsible for managing  circuit traffic and join tly responsible with pilots for avoid ing 
+collisions .  ATC would achieve this by providing traffic information to conflicting aircraft or 
+issuing instructions to pilots.  
+3.2.7.  During peak periods, up to three staff  could be working in the cab8.  An aerodrome controller 
+would be responsible for controlling  the air traffic within the zone  and could be assisted by a  
+planner , who would  also be a qualified aerodrome controller .  The planner would organise  
+aircraft entering  the zone in to an orderly flow .  Aerodrome controllers and planners were 
+tasked with working  as a team to keep traffic flowing at a safe rate that they could  both 
+manage.   A flight data assistant could also be present to  assist the aerodrome controller  with 
+related administration tasks and circuit booking9 during  peak periods.   
+3.2.8.  The duty rosters were arranged so that each aerodrome controller rotated through  the 
+aerodrome controller  and planner roles during each shift.  The shifts overlap ped to maintain a 
+two-person watch during peak hours and allow a person being relieved to take a break before 
+returning for the next period .  In off-peak periods, a single aerodrome controller  was on watch . 
+3.2.9.  The primary tool used to manage the traffic within the zone was t he flight progress  board.  The 
+details of each aircraft were displayed on a dedicated  flight strip .  The aerodrome controller  
+would move these strips around the flight progress  board to help visualise where aircraft  were 
+within the zone , and annotate them with progress details.  The aerodrome controller  also had 
+two surveillance radar displays that were  usually set at different ranges to help identify aircraft 
+positions.   
+3.2.10.  Aerodrome c ontrollers in  the cab could talk directly to each other .  The y used a telephone-type 
+handset to communicate over the radio or phone  and both radio channels were connected to 
+loudspeakers.   
+Proficiency  assessments  
+3.2.11.  Each aerodrome controller was required to undergo an annual proficiency  assessment.  They 
+had to  demonstrate their competence with a standard set  of performance indicators to retain 
+their operational status .  
+                                                        
+ 
+ 
+7 Airspace is classified by  a letter from A to G, which refers to the level of control provided by ATC. G is 
+uncontrolled.  
+8 The air traffic control room on top of the tower.  The tower included equipment rooms and offices for 
+managers, other staff and technicians associated with the operation of the ATC unit.  
+9 A local system where training aircraft were booked to conduct circuit training in half -hour slots.  
+ 
+Final Report AO -2015- 009 
+<< Page 5 >>
+ 3.2.12.  Each assessment was  conducted by an assessor. Before they start ed, the assessor  was  
+required  to follow the guidance provided in CAA Advisory Cir cular  AC65 -910, which include d 
+carrying out a brief ing with  the aerodrome controller undergoing assessment .  The assessor 
+was also to advise any others in the cab who could be affected by the assessment  that an 
+assessment was  about to take place .  The Advisory Circular further advise d that the pre-brief 
+should be conducted in an appropriate environment to help alleviate any pre -assessment 
+stress and to allow time for the assessor  to determine if the people involved  were  ready for 
+the assessment.    
+3.2.13.  The a ssessor  was  not part of the operational team on duty at the time , but had the capability 
+and currency to operate in the position being assessed.  The assessment would be conducted 
+over a period of at least five hours.  The assessor would sit  behind the aerodrome controller to 
+listen and observe and record how that person performed .  
+3.2.14.  Some discussion could occur , but generally the aerodrome controller  was encouraged to act 
+as if the assessor were not present .  If the assessor needed to comment about the ae rodrome 
+controller's performance or suggest improvements to meet the standard , this would  normally 
+be done  during a scheduled break period.  
+3.2.15.  Assessors were selected from a pool of experienced ATC instructors11, then went through 
+additional training to be as sessor s12.  They follow ed written guidelines for the process and 
+assess ed aerodrome controllers ' performance against a standard set of competencies.  
+3.2.16.  Generally, an assessment was simply a confirmation that a n aerodrome  controller was 
+performing to the standard. It rarely resulted in their  being relieved of duty for not meeting the 
+standard , but if it did , a specific training plan was developed to address any concerns and 
+help that person to return to active duty  as soon as possible.  
+3.3. Narrative  
+Before the duty shift  
+3.3.1.  The Hamilton tower was in operation with a two -person watch consisting of an aerodrome 
+controller  and a planner  only.  Runway s 18L and 18  Right (18 R) were  in use with a left -hand 
+circuit13.  The controller was scheduled to commence the shift in  the aerodrome controller  role 
+at 1110, but  arrived early to allow time to meet the assessor.   The controller waited in the cab , 
+listening to the  aerodrome  controllers and gaining an appreciation of the traffic in preparation 
+for the shift.  
+3.3.2.  The assessor arrived  just before the controller was due to start the shift and did not conduct 
+the usual briefing before an  assessment , but mentioned to the controller something to the 
+effect that it would just be like " a normal day ".  The assessor was a regular staff member at 
+the ATC unit , so there was no need for personal introductions.  The  other aerodrome 
+controllers  said later that they had realised an assessment  was about to take place when the 
+assessor arrived , but th e assessor had not discuss ed the process with them .  
+                                                        
+ 
+ 
+10 CAA document AC65 -9 (CAA, 2016)  describes this requirement in terms of the performance criteria for ATC 
+instructors. The docume nt is an 'Advisory Circular', which describes an acceptable means of compliance with 
+the rules and legislation.  
+11 ATC instructors are called Instructors (OJTI), for 'on the job training instruction'. The instructors are ATCs 
+with rating s to carry out on -the-job training instruction . 
+12 'Assessor' is the term used in this report, but the Airways term is Instructor (CHK) for 'instructor check'. The 
+instructor has a rating to carry out proficiency assessments.  
+13 A circuit in which each turn in the circuit patte rn is to the left. In a right -hand circuit the turns are to the 
+right.  
+
+<< Page 6 >>
+ Final Report AO -2015- 009 The first set of incidents (shift start plus one  minute)  
+3.3.3.  A normal handover took place from the previous aerodrome controller  to the controller .  The 
+assessor plugged into the controller's audio to listen to  radio and telep hone conversations , 
+then sat behind to observe and record the controller's performance.  
+3.3.4.  Traffic was moderate , with f our aircraft already in the circuit  and one other cleared to join the 
+circuit from near Cambridge.  A helicopter was operating at low level within the zone near the 
+start of the downwind leg.  Four IFR aircraft were under approach control , waiting to enter the 
+zone.  A Beech craft  1900 twin -engine turboprop had returned from a local VFR test flight and 
+was lining up from a right -hand circuit as number two to land  (see Figure 1 for photos of the 
+aircraft and Figure 2  for the circuit pattern) .   
+3.3.5.  The Beech craft  1900 pilot then made a request to  make  a "low approach and overshoot  if 
+available " rather than cont inue to land .  The Beechcraft  1900  has higher operating speeds 
+than light aircraft and is classified as a medium -weight aircraft .  The controller approved the 
+request on the condition that the Beechcraft  1900 remain in the circuit.  
+3.3.6.  The controller  then issued instructions to several other VFR aircraft in the circuit to 
+accommodate  the Beechcraft  1900 pilot's request .  The controller was also required under 
+these circumstances to warn following light aircraft of possible wake turbulence, but did not 
+do so . 
+The second incident (shift  start  plus five  minutes)  
+3.3.7.  One light aircraft (a Katana ) had intended to depart to the east , but  been instructed to do a 
+right -hand circuit  to make space for the Beechcraft  1900.  The controller then instructed the 
+Katana to orbi t at Rukuhia14 and wait for a clearance to cross the runway to the east.  The 
+Katana was  then instructed to leave the zone to the east by crossing overhead the tower  at 
+circuit altitude , which put it  on a conflicting path with another light aircraft in the downwind leg 
+of the left -hand circuit (a Robin) .  If the  aircraft  had maintained their headings , the Katana 
+would have pass ed just behind the Robin.  
+3.3.8.  This potential conflict was pointed out to the controller by the planner .  The pilot of the Robin 
+also ask ed the controller's intentions for the approaching Katana.  The controller then 
+instructed the Robin to orbit to the right,  which instead of resolving the potential conflict 
+placed the two aircraft on a potential head -on collision course .  After a comment from the 
+assessor, t he controller instruct ed the Robin to "turn left now and extend downwind until 
+advised" . 
+The third set of incidents  (shift start plus 45 minutes)  
+3.3.9.  At this stage the previous aerodrome controller  had returned from a break and take n over the 
+planner position (and is hereafter referred to as the 'second planner').  The surveillance radar 
+system included a 'conflict alert' system to  alert aerodrome controller s if a projected path of 
+two aeroplanes  was likely to lead to a collision.  Aerodrome controllers' task was  to sequence 
+aircraft in a way that avoid ed such alerts.  Two conflict alerts occurred within a few minutes of 
+each other as the controller sequenced separate pairs of IFR aeroplanes  on approach .  Both  
+conflicts involved  an aeroplane approaching to land and one ahead  completi ng a circling 
+manoeuvre.  A description of this manoeuvre is given in section 3.6 .3. 
+The fourth  incident (shift start plus 58 to 64 minutes)  
+3.3.10.  The controller was dealing with eight aircraft in three circui t patterns at this time.  Four  
+aeroplanes were in the left -hand circuit , with  one of the  pilots  on their first solo  flight .  Two 
+                                                        
+ 
+ 
+14 A visual reporting point to the west of the runway (see Appendix 1).  
+ 
+Final Report AO -2015- 009 
+<< Page 7 >>
+ other aeroplanes were in a right -hand circuit  and a further t wo IFR aeroplanes  were on  an 
+instrument approach .  A further 10 aircraft were holding outside the zone awaiting clearance 
+to enter.  
+3.3.11.  A Twin Star had been approved to land on Runway 18L and was turning right on  to final  after 
+completing a circl ing manoeuvre .  A Katana flown by a pilot on  their first solo flight was 
+estab lished on final at the same height as the Twin Star , sequenced to land behind it .  The 
+controller then instructed the Twin Star  to extend downwind, which required it to  turn left , back  
+towards the approaching Katana. Soon after wards the controller  had a chang e of mind and 
+instructed the Twin Star  to continue with the right -hand orbit , then immediately instructed the 
+Katana to orbit left  to avoid the Twin Star .  These two aircraft came within 0.5 nm of each 
+other  on a near  head -on converging path .  At this  point t he assessor took control  and assumed 
+the p osition of aerodrome controller . 
+Resolution  
+3.3.12.  The assessor and second planner worked together to resolve the conflicts  and called the unit 
+manager to the cab to take over .  Soon after taking over, the unit ma nager was satisfied that 
+the second planner could manage the traffic  alone , so the unit manager merged both 
+positions and handed the solo  watch to the second planner until further relief could be 
+arranged.  
+3.3.13.  After discussing what had happened during the assessment , the unit manager  stood down the 
+assessor and the controller . 
+3.3.14.  Airways' policy does not require p ost-incident drug and alcohol testing for minor incident s.  
+These incidents were initially classified as minor , so the controller and assessor were r eleased 
+without being  tested.  Upon receipt of further information later in the day, the main incident 
+was upgraded to major.  
+3.4. Personnel information  
+The controller  
+3.4.1.  The controller  had gained high pass marks on all subjects at the Airways air traffic controller 
+training centre in Christchurch . The basic training lasted  nine months  then the trainee 
+controller  was posted to an operational training hub at Palmerston North for consolidat ion 
+training and practical experience.     
+3.4.2.  The Palmerston North ATC unit ha d a similar traffic composition as Hamilton but with fewer  
+movements per year.  Trainees were first introduced to task -sharing and teamwork for the two -
+person watch during their consolidation training.   The controller met the pr oficiency  standard 
+to be licensed as an aerodrome controller , but had to remain a trainee until the minimum age 
+of 21.   After gaining an ATC  licence and aerodrome controller  rating, the controller was posted 
+to the Hamilton ATC unit .  
+3.4.3.  A licensed aerodrome controller  must also have a validation for the ir ATC unit before being 
+able to operate alone. Validation training at Hamilton took six months , during which time a 
+new aerodrome controller  became familiar with the L ocal U nit Orders15, reporting points, 
+arrival and departure sectors, instrument procedures and general aerodrome operations 
+specific to the Hamilton  ATC unit.  This training  also included the Hamilton procedures for 
+operating a two -person watch.  
+3.4.4.  Once competent with operating at Hamilton, the contr oller went through the final proficiency  
+assessment then  commenced a regular roster .  Newly validated aerodrome controllers at 
+                                                        
+ 
+ 
+15 An Airways operational manual containing orders specific to the operation of a particular ATC unit.  
+
+<< Page 8 >>
+ Final Report AO -2015- 009 Hamilton were reassessed a fter six month s, then join ed the standard annual assessment 
+cycle .  The controller had a current ATC licence and had gained validation at Hamilton in May 
+2014 , then  passed the six -month  reassessment on 19 December 2014.  These incidents 
+occurred during the controller's second assessment after validation at Hamilton.  
+3.4.5.  The controller had a current Class 3 medical certificate that was valid through to mid -2016 
+with no restrictions, conditions or endorsements.  
+The assessor  
+3.4.6.  The assessor was a n air traffic controller with 10 years of experience  in several control towers 
+in New Zealand and Australia.   The assessor had gained an initial on -the-job-instructor rating 
+in 2009 and had been upgraded to a check  instructor rating in May 2014 .  The assessor had 
+about 18 month s' experience as an assessor at the time of this assessment .  
+3.4.7.  The assessor was the Hamilton ATC unit's senior air traffic controller and training manager.  
+The first planner  
+3.4.8.  The first planner started the early shift at 0540 and was due to finish at 1220.   The first 
+planner remained in  position with the controller for th e first 30 minutes , then left the building 
+soon after handing over to the second planner .     
+3.4.9.  The first planner had about two and a half  years' experience as an aerodrome controller in 
+Hamilton and about six months'  experience at Palmerston North.  
+The second planner  
+3.4.10.  The second planner started a shift at 0820. The second planner was in the aerodrome 
+controller  position when the controller arrived , and handed over to the controller at 1110.   The 
+second planner took a scheduled 30 -minute break then relieve d the first planner at 1140.   
+3.4.11.  The second planner had about one year of experience at Hamilton as an aerodrome controller . 
+3.5. Aircraft information  
+3.5.1.  The aircraft involved in the final incident were a Diamond DA20 Katana single -engine trainer 
+and a Diamond DA42 Twin Star  light twin -engine trainer.   
+3.5.2.  The Beechcraft  1900 was the aircraft that did the low approach and overshoot .  The two 
+aircraft that were directed into conflict with  each other in the downwind leg  were a  Robin and 
+a Katana . 
+ 
+Final Report AO -2015- 009 
+<< Page 9 >>
+  
+Figure 1 
+The aircraft involved  
+ 
+Diamond  DA40 - Katana  
+Robin  
+Beechcraft 1900 (photo by 
+Zanmat0 at English Wikipedia)  
+Diamond DA42 - Twin  Star  
+
+<< Page 10 >>
+ Final Report AO -2015- 009  
+3.6. Aerodrome information  
+ 
+Figure 2 
+Standard left -hand circuit pattern  
+(from CAA website ) 
+3.6.1.  The zone at Hamilton  aerodrome  is shown in Appendix 1.  The runway s in use at the time were  
+Runway 18L, which was sealed for 2, 059 metres, and the parallel Runway 18R , which was 
+sealed for 630 metres.  
+3.6.2.  The downwind leg  for the left -hand circuit started at point 4 in Figure 2 .  Aeroplanes following 
+the visual circuit pattern would  normally turn onto final 1 -2 nm out from the threshold at point 
+7.  IFR aircraft would also enter this circuit pattern  at point 7 after  a straight -in approach from 
+a reporting point 12  nm out (off the bottom of Figure 2).  The right -hand circuit traffic would 
+follow a mirror version of the left -hand circuit and also enter the final leg at point 7. 
+
+ 
+Final Report AO -2015- 009 
+<< Page 11 >>
+ Circling procedure  
+3.6.3.  Circling is a standard IFR procedure that may be used when the final  instrument approach 
+track  does not align with the landing direction .  Circling is conducted so that the pilot keeps in 
+sight the end of the runway that is to be used for landing .  The pil ot training syllabus for an 
+instrument rating  includes practice in the circling manoeuvre .   
+3.6.4.  The Hamilton flight training organisations and ATC had agreed to a non -standard circling 
+procedure after an IFR straight -in approach .  An IFR training aeroplane would request a circling 
+procedure on the flight plan .  The pilot would then reconfirm with the aerodrome controller  
+during the approach that it was still acceptable.  
+3.6.5.  The circling procedure followed a standard instrument approach from about 10 nm out.  At 
+around point 7 on Figure 2 , at about 8 00 feet (245 metres) above sea level  and with the 
+runway in sight , the pilot would overshoot and maintain that altitude to the runway threshold 
+(point 1) , or another point nominated by the aerodrome controller, where they would 
+commence a right -hand circle.  This would bring the aircraft back to point 7 for  a normal 
+landing.  Usually the pilot would be cleared to land next , but they could also be instructed to 
+extend downwind or reposition for a different sequence.  
+3.6.6.  Although the circling manoeuvre was flown with visual reference to the ground, the aircraft  
+was still an IFR flight .  ATC was required to provide separation between a n IFR aeroplane 
+performing a  circling manoeuvre and other IFR traffic , and to advise IFR t raffic of the 
+whereabouts of nearby VFR traffic .  
+
+<< Page 12 >>
+ Final Report AO -2015- 009 4. Analysis  
+4.1. Introduction  
+4.1.1.  An aerodrome controller's prime objective is  to maintain a safe flow of air traffic within the 
+vicinity of the aerodrome and to provide clearances, instructions and information to pil ots in 
+order to prevent collisions.  This is generally achieved in standard circuit patterns by 
+sequencing aircraft to minimise speed differentials and allow pilots maximum time to identify 
+and avoid other aircraft.  
+4.1.2.  Any loss of  separation betw een aircraft is of concern, but it is more so when ATC actions 
+intended to prevent a collision are responsible for creating the potential conflict . 
+4.1.3.  The following safety issue s are discussed : 
+• the standard of team resource management  (TRM)  in the Hamilton ATC 
+tower did not match good industry practice  
+• changes in the size and shape of the Hamilton zone have shifted some 
+VFR traffic congestion to prominent points outside the zone , and likely 
+increased the risk of collision in those areas  
+• some aerodrome controll ers are 'over -controlling ' VFR traffic in and 
+around the zone, which is unnecessarily congesting the radio frequencies 
+and risks causing difficulties for inexperienced pilots and those for who m 
+English is their second language.   
+4.1.4.  The Commission also considered previous ly reported  airspace  incidents and  issues 
+that had been raised in  the CAA's  public consultation on a  review of the Hamilton 
+airspace  for their  potential influence  on this incident .  The flight activity at Hamilton 
+was the most intensive  in the country , with a high  number of airspace incident  
+notifications .  It was not clear whether th e number of incidents was due to a 
+diligent reporting culture among the flight training organisations, was due to the 
+volume of air traffic , or reflected und erlying safety issues.   
+4.1.5.  The significant issues that ha ve been of concern to users of the Hamilton airspace are 
+described in section 4.5 , along with action s that have been taken to address them . 
+4.2. What happened  
+4.2.1.  The controller arrived about 30 minutes before the shift with the expectation that there would 
+be time to discuss the assessment process with the assessor.  The assessor  arrived  five 
+minutes before the shift was due to start  and met the controller in the cab.  T he briefing was 
+reduced to a short exchan ge in the cab as the controller prepared for the handover.  The 
+assessor made comments along the lines of  it just being " a normal day" .  However, the other 
+two aerodrome  controllers in the cab were not part of this discussion, so the usual 'setting of 
+the scene' and agreeing on team expectations were not achieved before the assessment 
+began.  
+4.2.2.  The traffic remained moderate for the first 30 minutes,  with a constant demand from aircraft 
+wanting to enter the zone.   It then increased because most IFR training aircraft had requested 
+circling approaches , which slowed the circuit flow  and increased the controller's workload . 
+Circuit training was also taking place with up to four aircraft at a time.  
+4.2.3.  Soon after accept ing the handover as aerodrome controller , there were  indicat ions that the 
+controller was not in total control of the situation.  The situation became increasingly worse 
+until the assessor relieved the controller.  The controller had tried to accommodate all p ilot 
+requests, but in doing so had not achieved  an orderly flow , anticipated  conflict or managed  the 
+number of aircraft within the circuit. The controller had also been unable to keep  the flight 
+strips current  to reflect traffic in the circuits and  the instrument approach . 
+4.2.4.  The first incident began when the controller allow ed the Beechcraft  1900 to conduct a low 
+approach and overshoot  in an already moderately busy circuit . The Beechcraft  1900 pilot's  
+ 
+Final Report AO -2015- 009 
+<< Page 13 >>
+ request could have been declined , which would have avo ided an unnecessary increase  in the 
+controller's workload  and a disruption to aircraft already in the circuit .  The controller then 
+omitted to advise two light aircraft following the Beechcraft  1900 of the risk of wake 
+turbulence.  
+4.2.5.  In the second incident the controller issued instructions that brought the Katana and Robin 
+unnecessarily into conflict .  When the potential conflict was pointed out by the planner, the 
+controller reacted by issuing an instruction that further increased the ri sk of a collision.  
+4.2.6.  In the third set of incidents the radar conflict alert warnings were indicating that the  final 
+approach area was congested.  T he controller  had approved consecutive  IFR aircraft to do 
+circling approaches , then sequenced them too close t o each other .  The first one was circling 
+back to line up when the radar detected the potential conflict as the next one approached.  
+4.2.7.  An analysis of the ATC recordings revealed t he controller 's pace of speech increas ing near to 
+the end of the assessment per iod.  The controller also spoke more often in an effort to provide 
+traffic information to the pilots  of all the aircraft under control .  Trainee pilots had less time to 
+comprehend and respond to the controller's instructions and others were  blocked from 
+transmitting.  
+4.2.8.  The fourth incident included two serious aspects.  The first was a  loss of separation for an IFR 
+aeroplane under the controller's instructions and the second was the non -standard  
+instructions given to a VFR student pilot who was on their  first solo  flight .  It was normal 
+protocol at Hamilton for aerodrome controllers to provide a clear space around first solo flights 
+to allow the pilot s to concentrate on their flying.   The VFR student's flight instructor had 
+advised the controller that this st udent was on their first solo  flight  and the controller had 
+acknowledged  this before the instructor left the aircraft . 
+4.2.9.  At this point t he assessor took over as aerodrome controller  and cleared all aircraft from the 
+approach area for the VFR student pilot to be the first to land.  The second planner assisted 
+the assessor to identify and resolve traffic conflicts and to re -establish an orderly flow.    
+Related factors   
+4.2.10.  The controller had been working at the Hamilton ATC unit for about 18 months. The controller 
+had been assessed multiple times during the initial six -month validation training.  The most 
+recent assessment had been the first during op erational duty at six months' experienc e, and 
+the assessment  on this day was  the second .  The controller had worked the afternoon shift on 
+the day before without incident . The controller's actions on this day were uncharacteristic.  
+4.2.11.  The weather conditions on the day were fi ne, clear  and not a factor in this incident.  The 
+amount of traffic was not out of the ordinary for Hamilton, nor was it unmanageable.  The 
+controller had managed situations like this safely before.  Shortly after the controller was 
+relieved, the unit manager was c onfident that the less experienced second planner could take 
+over as a solo watch until a relief could be arranged . The air traffic movement frequency 
+remained  similar to that during the incident.  
+4.2.12.  The Monday and Tuesday before the incidents had been schedu led days off for the controller , 
+then the controller  worked the Wednesday afternoon shift.  The controller had received private 
+flying lessons on Monday, Tuesday and Wednesday morning.  The controller later admitted not 
+feeling the best at the start of  the Thursday shift , but had felt well enough to not call in sick. 
+For these reasons,  fatigue and illness were discounted as factors.  
+4.2.13.  However, t he controller was nervous about the assessment  and wanted  time to discuss this 
+with the assessor before the assessment began .  When th e pre -briefing was replaced with a 
+short exchange in the cab , the controller was concerned .  The controller was anxious to 
+demonstrate proficiency.  The issue of how the assessment was performed is discussed in  the 
+following sections.  
+4.2.14.  It was evident from the four incidents noted in this report  and the written comments from the 
+assessor that the controller was reacting to pilot requests rather than being in control of 
+
+<< Page 14 >>
+ Final Report AO -2015- 009 managing the traffic flow and the team.  The rapid issuing of traffic information and increased 
+rate of speech late in the assessment were both indicators that the controller was feeling 
+under pressure  (EATCHIP, 1997, p. 31) . 
+4.2.15.  The Commission engaged a clinical psy chologist16 to assist at interviews of key participants 
+and to analyse the controller's actions from a psychological perspective.  The psychologist's 
+assessment of the controller's actions stated, in part:  
+The controller appears to have experienced 'choking  under pressure', a 
+phenomen on defined as "a critical deterioration in the execution of habitual 
+processes as a result of elevation in anxiety under perceived pressure, leading to 
+substandard performance" (Mesagno, Harvey, & Janelle, 2012) .  The effect is 
+commonly observed in athletes and students and characterised by levels of 
+performance which are below those that would normally be expected.  While 
+such an event may be embarrassing rather than life -threatening in a sporting 
+event, its occurrence in an aviation context represents a potential risk to safety. 
+4.2.16.  For a number of reasons, the controller did not achieve  their  normal standard of proficiency  on 
+that day .  However, one person's actions or inactions should not result in accidents or 
+incidents  if other preventive measures are in place .  Properly followed policies  and procedures 
+and, above all else, teamwork should prevent an accident or incident occurring.  The following 
+sections discuss other  safety issues with the wider system in which the controller was working.  
+Finding  
+1. The series of incidents occurred because the controller became overwhelmed by the 
+circumstances on the day then lost situational awareness of the aircraft within the control  
+zone .  
+ 
+4.3. The air traffic control assessment process  
+Proficiency expectations  
+4.3.1.  The ATC assessment  process includes 10 competencies that a n aerodrome  controller  must 
+demonstrate. The top three core competencies are: apply situational awareness; manage the 
+traffic situatio n to achieve an orderly flow; and critically analyse traffic for potential conflict 
+and apply timely resolutions.  These core competencies provide the foundation skills that an 
+aerodrome  controller needs  to manage air traffic  safely .  
+4.3.2.  An aerodrome controller  develops their primary situational awareness by looking for aircraft 
+out of a window and listening to local radio frequencies.  Their main tool is t he flight progress 
+board with which they track aircraft through sectors and stages of arrival and  departure.  They 
+can also use  the surveillance radar to confirm the identity of a distant visual contact and to 
+check on aircraft position s. 
+4.3.3.  An aerodrome controller  also manage s the operational team's workload.   That is, they manage 
+their own performance and any interpersonal factors that might prevent the team performing 
+in a supportive manner.  In the broader sense, this means the aerodrome controller  must be 
+aware of each individual's workload and set the pace of traffic flow to match the team 
+capacity.   
+                                                        
+ 
+ 
+16 Keith McGr egor, Personal Psychology NZ Ltd, Lower Hutt  
+ 
+Final Report AO -2015- 009 
+<< Page 15 >>
+ 4.3.4.  By the time a n aerodrome  controller has gained their licence, they will have progressed 
+through a rigorous training system with regular progress assessments and tests followed by a 
+period of on -the-job instruction.  After further check observations and simulated assessments,  
+they are assessed for their licence.   By the time they are licensed , validated and operational at  
+an active  ATC unit, they are considered to  be acting competently and responsibly.  
+4.3.5.  Consequently, a  proficiency assessment  would normally be  a routine process resulting in 
+minor changes to improve  their  technique .  It would therefore be unusual for an assessment 
+to be terminated for operational reasons . 
+4.3.6.  Individual aerodrome controllers  may react differe ntly to the same stimulus.  In order to 
+conduct a fair assessment of proficiency, the assessment process must not impose an 
+artificial pressure on the person being assessed  or the operational team.   The CAA Advisor y 
+Circular AC65 -9 contains a checklist of items against which an instructor is assessed to 
+become an assessor.  The list covers for example, the instructor's ability : to conduct a pre -
+assessment briefing17 with the person to be assessed  in an appropriate env ironment; to 
+reduce stress the person being assessed  may be feeling; and to advise others who may be 
+affected by the assessment that it is going to take place, including any special requirements 
+the assessor may have for them.  
+This assessment  
+4.3.7.  Due to the assessor 's time of arrival, the standard pre -assessment briefing  was replaced by  a 
+brief conversation in  the cab , then  the assessment started with the handover of ATC to the 
+controller . The assessor did not  conduct the required key de -stressing actions before the 
+assessment  began  or determine whether the controller was ready  to be assessed .  
+4.3.8.  The assessor noticed a degree of tension in the cab upon arrival .  The assessor attributed the 
+tension to something between the three aerodrome controllers.  The oth er two aerodrome 
+controllers  in the cab were unaware until then that an assessment was to be performed.  In 
+the absence of a formal briefing, the others were left to assume what the assessor expected 
+of them  during the assessment .  
+4.3.9.  The assessor became  increasingly uncomfortable with the controller's performance during the 
+assessment , particularly the management of potential traffic conflicts .  The assessor had been 
+involved with the controller's training at the Hamilton ATC unit and was familiar with t he 
+controller's style.   It was clear to the assessor that the controller was not operating normally or 
+to the required standard, but the assessor was unsure if the assessment could be terminate d 
+early.   The assessor  intended to discuss  this with the unit m anager at  the next schedul ed 
+break.  
+4.3.10.  According to a  senior Airways ATC examiner at the air traffic controller training centre , if a 
+person being assessed does not meet any one of the 10 competencies, they are not 
+competent to remain in control and the assessment should be terminated.   The examiner also 
+said that an  assessor should not let a situation develop to an extent that an incident occurs  
+but acknowledged that it " was a subjective judgement call ".  The examiner further explained 
+that " the aerodrom e environment is particularly tricky as things happen so much more quickly 
+and aeroplanes are much closer to each other ".  
+4.3.11.  Based on these comments from the examiner , it would have been good practice  to stop the 
+assessment or withdraw the controller from th eir active position within the first 30 minutes . 
+Other qualified aerodrome controllers were present at the time to take over .  The unit manager 
+could also have been signalled to go to the cab if required . 
+                                                        
+ 
+ 
+17 The assessment briefing is outlined in Appendix C of AC65 -9 and the guidance provided in  the 
+International Civil Aviation Organization's Air Traffic Services Planning Manual (Doc 9426 -AN/924)   
+
+<< Page 16 >>
+ Final Report AO -2015- 009 4.3.12.  Airways submitted that it  "will undertake a review of the assessment procedure to determine 
+any further improvements across Airways on how assessment should be carried out, including 
+steps to support staff to make better judgement calls in such assessment situations ". 
+4.3.13.  The circumstan ces of the assessment appear to have affected the team  dynamics  in the cab ; 
+this is addressed in the following section.   
+4.4. Team resource management  
+Safety issue : The standard of team resource management in the Hamilton ATC tower did not match 
+good industry p ractice .  
+Operational team work  
+4.4.1.  Airways say s that it operates with a 'just culture' in which  people are encouraged to provide 
+essential safety -related information. A just culture is defined as:  
+One where front line operators are not punished for actions, omissions or 
+decisions taken by them which are commensurate with their experience and 
+training but where gross negligence, wilful violations and destructive acts are not 
+tolerated (EUROCONTROL, 2018) .  
+4.4.2.  The European Air Traffic Control Harmonisation and Integration Programme18 has been co -
+ordinating ATC standards across Europe  for more than 20  years and has an extensive library 
+on related human factors19. In 2009, EUROCONTR OL identified that teamwork was one of the 
+top 10 priority areas for ATC that needed further work if it was  going to improve on the current 
+level of safety.   It produced a guideline for good TRM in ATC  (EUROCONTROL, 2015) .  The 
+International Civil Aviation Organization ( ICAO ) introduced a n associated framework , called 
+'Threat and Error Management' (ICAO, 2008) , to help ATC managers understand and manage 
+system and human performance in operational conte xts to enhance aviation safety.  
+4.4.3.  The aim of  TRM  is to provide a strategy for air navigation service providers , such as Airways, to 
+make the best use of all available resources (information, equipment and people) to optimise 
+the safety and efficiency of air traffic services  (EUROCONTROL, 2007) .  In such an 
+environment, a member of an operational team should feel free to raise a safety concern with 
+another member of the team during a situation  and that person should be able to accept and 
+use that feedback to improve the team performance.   To be effective, the team must also 
+have a clear vision of what behaviour is preferred and what is unacceptable in terms of their 
+professional responsibilities  and standards .  The team members must also understand and 
+put into practice the human factors concepts that contribute to an efficient team  and 
+teamwork . 
+4.4.4.  Airways trains aerodrome controllers to be competent in solo -watch position s.  Teamwork, 
+interpersonal communication and other teamwork -related human factors are covered in the 
+basic ATC course , then again through the aerodrome controller course  in Christchurch .  During 
+the on -the-job instruction phase in Palmerston North, they learn to task share with planner s, 
+but this is specific to Pa lmerston North.  During the validation training at Hamilton they are 
+taught the specific task -sharing for that ATC unit.  However, task -sharing is not the same as 
+TRM or teamwork.  
+4.4.5.  The aerodrome controller  is in charge of the operational team, which includ es a planner for 
+dual watch periods and may include a flight data assistant.   Both aerodrome controllers  are 
+                                                        
+ 
+ 
+18 This was one o f the initiatives launched in 1990 by the member states of the European Union to create a 
+seamless European ATC system.  
+19 Human factors is the application of psychological and physiological principles to the (engineering and) 
+design of products, processes,  and systems. The goal of human factors is to reduce human error, increase 
+productivity, and enhance safety and comfort with a specific focus on the interaction between the human 
+and the thing of interest.  
+ 
+Final Report AO -2015- 009 
+<< Page 17 >>
+ qualified in each role and they usually swap roles during a shift.   Although an assessor was 
+present for this incident, the assessor is not normally part of the operational team.  However, 
+in an emergency the assessor is able to perform the aerodrome controller  or planner role and 
+is a resource available to the operationa l team.  The assessor's presence can also ha ve an 
+effect on the operational team dynamics.   
+4.4.6.  Airways had developed a training course to improve teamwork and raise the professional 
+standards of controllers , but at the time of this incident none of the Hamilt on controllers had 
+completed the course . 
+Team  resource management  in the cab  
+4.4.7.  Both planners were familiar with the controller's style and recognised that the controller was 
+not performing well  at the time.  The second planner was of the view that it was the  
+controller's licence at sta ke and did not see that as a shared responsibility .  The assessor had 
+not clarified with the two planners what was expected of them during the assessment .  
+4.4.8.  There were some elements of co -operation and some advice given to the controller , but overall 
+the circuit patterns were regularly overloaded , which indicated that  the team had not 
+manage d the traffic flow  well .  
+4.4.9.  At one point while on  a rest break at the rear of the cab , the second planner observed  the 
+emerging situation that resulted in the second incident.  The second planner voiced their  
+concern to  both  the first planner and the assessor.   The first planner relayed th at concern to  
+the controller .  The controller then attempted to resolve the conflict  but was not successful in 
+doing so .  
+4.4.10.  The second planner  said later that both planners had suggested to the controller at different 
+times that they land some of the aeroplanes on circuit training  to ease the workload , but that 
+did not happen .  Landing some of the c ircuiting aircraft was  a standard tool used by 
+aerodrome controllers at Hamilton to relieve traffic congestion.   The planner organise d aircraft 
+waiting to enter the zone so was  usually more in touch than the aerodrome controller with the 
+immediate future traffic demand and able to advise the controller  if a peak was due.  
+4.4.11.  When the assessor eventually took control , the team dynamics suddenly changed .  The 
+second planner immediately became more co-operative and took proactive steps to assist the 
+assessor to  reduce congestion in the zone.   There could have been several reasons for this 
+change , such as the assessment having been terminated or the immediate risk of further 
+incidents.  However , it also emphasised how the team had not worked during the assessment.  
+4.4.12.  The incident highlighted the importance of working together as a team.  It also emphasised 
+the importance of setting the scene for the team before an assessment.  Normally, regardless 
+of who is in control, it would be a team responsibility to manage traffi c in a zone.  This should 
+not change when an assessment is being conducted.   Although an assessment may be 
+focused on an individual's proficiency, it should also include the proficiency of other members 
+of that  team in support ing the team objectives.  
+Team dynamics  at the  Hamilton ATC  unit 
+4.4.13.  A well performing team needs to put personal differences aside and work together.  However, 
+some of the interpersonal dynamics at the ATC unit were likely to have influenced the 
+operational team's performance on this day.  
+4.4.14.  The unit manager had been in  the role  for just over three years at the time  of these incidents 
+and had  previous management training and experience  as a manager  with Airways and other 
+employers.  The unit manager  said that Airways had provided  management s upport and 
+guidance  in the current role .  The unit manager was responsible for all activities within the ATC 
+unit, including operational standards,  training , recruiting and maintaining the unit's business 
+relationships with other users and customers.  The unit manager had attempted 
+unsuccessfully to resolve personality conflicts between several aerodrome controllers .  The 
+
+<< Page 18 >>
+ Final Report AO -2015- 009 last measure  was to separate those aerodrome  controllers to some extent with roster 
+adjustments.  
+4.4.15.  Hamilton employ ed only qualified aer odrome controllers , and most were recently licensed 
+through the Airways ATC training system .  During an aerodrome controller's last stage of 
+training at the Palmerston North ATC unit, the unit manager there spent  a lot of time in the 
+cab working with the t rainees and offering mentoring advice and guidance.   The Hamilton ATC 
+unit manager was unable to provide this level of support in the cab , and relied on other 
+methods of feedback to check on service delivery and team performance.  
+4.4.16.  The unit manager  had attempted to roster more experienced aerodrome controllers to work 
+alongside the new ones as unofficial mentors , but it had not always  been  possible  with a high 
+proportion of inexperienced  aerodrome  controllers working in the Hamilton ATC unit, nor had  it 
+been effective .  For example, i n one situation, well  intended mentoring advice had led to 
+conflict .  
+4.4.17.  The Commission was informed repeatedly that the Hamilton ATC unit was an undesirable 
+place for  aerodrome  controllers to work . This  was claimed to be mainl y associated with the 
+heavy workload  at Hamilton compared to other locations where aerodrome controllers had  the 
+same employment conditions .  Consequently, staff  turnover  was high and tenure was short at 
+Hamilton . Replacements proved difficult  to engag e and, overall, the workload had a 
+detrimental effect on staff.   The main source of replacements was the Airways training centre , 
+where graduates had little  choice for their first post ing.   
+4.4.18.  This default  influx of recent graduate s lower ed the average experience level of aerodrome 
+controllers at Hamilton.   Once qualified, a n aerodrome  controller gains experience in the role 
+but will take time to develop judgement to handle situations that are different from their 
+training environments.   It was  difficult  for the unit manager to manage this risk when there 
+were  only eight aerodrome controllers in the establishment and more than 50% had less than 
+two years' experience as licen sed aerodrome controller s.  The unit manager had employed 
+aerodrome controllers fr om overseas at times in order to meet the unit's  minimum -experience 
+target.  
+4.4.19.  The aerodrome operator20 was concerned about the relative inexperience of aerodrome 
+controllers and their high turnover rate. It  had recommended in its  aeronautical study in 2012  
+(refer to section 4.5.5 ) that Airways "consider options associated with ensuring aerodrome 
+controller turnover is minimised ".  CTC Aviation Training (NZ) Limited ( CTC) , the major flight 
+training operator at Hamilton, had raised the risk rating for its  Hamilton operations in 
+December 2017 as a consequence of its concern about the average experience of the 
+aerodrome controllers.  
+4.4.20.  The potential risk presented by the la ck of experienced aerodrome controllers at Hamilton and 
+the predominance of recent graduates appears to have reduced with the introduction of a 
+mentoring role.   This risk is well known and a focus point within the aerodrome safety system.  
+Airways submitted that the relevant practices at the Hamilton unit did not differ because of  the 
+level of aerodrome controller experience.   However, others operating at the aerodrome 
+disagreed .  As the existing aerodrome safety systems have been further developed , this issue 
+can be managed at a local level.  For th is reason , a safety recommendation has not been 
+issued  to Airways .  
+4.4.21.  Actions taken by Airways , including an organisation al restructure and training provided to the 
+unit manager and aerodrome contro llers, is expected to improve teamwork and free up some 
+of the unit manager's time to raise service delivery standards.  This has alleviated the need for 
+a safety recommendation  to Airways in relation to teamwork . 
+                                                        
+ 
+ 
+20 Waikato Regional Airport Limited.  
+ 
+Final Report AO -2015- 009 
+<< Page 19 >>
+ Findings  
+2. The assessment that was being conducted of the controller affected the normal team 
+dynamics in the control tower , partly because a standard pre -assessment briefing was not 
+conducted  and the expectations of the team during the assessment were not explained . 
+3. During the assessment there  was a breakdown in the team approach to managing the 
+traffic in the aerodrome circuit, which was a significant factor contributing to th is series of 
+incidents .  
+4. Airways ' practice of posting a high proportion of recently qualified aerodrome controllers 
+with limited experience to Hamilton aerodrome, one of the busiest in the country, had the 
+potential to raise  the risk profile of the ATC unit . 
+4.5. The wider safety issues for Hamilton aerodrome  
+4.5.1.  Participants in the aviation system are required by Civil Aviation Rules Part 12 , Accidents, 
+Incidents, and Statistics,  to notify the CAA of accidents and certain incidents.  They are also 
+required to investigate incidents that they notif y and to provide the CAA with the results of 
+those investigations.  Hamilton aerodrome  had a high rate of  incident notifications to the CAA.  
+The CAA 's involvement  with the aerodrome safety system had been  largely confined to 
+monitoring events, until it was  prompted to examine the aerodrome safety system after a 
+near -collision i n 2013.  
+4.5.2.  The Commission had also been  monitoring the incidence of airspace notifications at Hamilton .  
+This inquiry provided an opportunity for the Commission to examine  the underlying  issues in  
+the wider aerodrome safety system.  The more significant safety issues that were  of concern 
+to participants at Hamilton aerodrome are described below . 
+The aerodrome safety system  was ine ffective  
+4.5.3.  In 2005  CTC started up operations at Hamilton aerodrome .  The high number of trainee pilots 
+greatly increased the workload for aerodrome controllers. During 2015 CTC had about 15 
+aircraft in the air during the peak training period each day, with several in the circuit at any 
+time.  
+4.5.4.  The CAA encourages t he creation of u ser groups  to improve safety at aerodromes where there 
+are multiple users , often  with different airspace requirements.  Airways took the lead in setting 
+up a user group at Hamilton  and ran it until the aerodrome operator took over . 
+4.5.5.  In 2011 , as a result of a safety concern , the CAA require d the aerodrome  operator to conduct 
+an aeronautical study21 under C ivil Aviation Rules Part 139, Aerodrome -  Certification, 
+Operation and Use .  The study wa s intended to review the aerodrome and operations  to 
+ensure that appropriate  safety criteria were in place .  The aerodrome  operator provided the 
+aeronautical study report to the CAA in May 2012.  
+4.5.6.  The CAA used the incident data notified by aerodrome participants in accordance with Civil 
+Aviation Rules Part 12  to prepare  statistical safety performance data for each  aerodrome .  An 
+aerodrome operator needed to know the relevant data and analyses in order to fulfil its 
+responsibilities in accordance with Civil Aviation Rules Part 139.  Until 2014 the CAA had not 
+provided aerodrome operators with this data .  The Hamilton aerodrome operator had obta ined 
+                                                        
+ 
+ 
+21 An aeronauti cal study is defined in CAA Advisory Circular  AC139- 15. 
+
+<< Page 20 >>
+ Final Report AO -2015- 009 copies of th e information from Airways .  The  CAA now sends monthly incident data report s to 
+all Part 139 aerodrome operators.  
+4.5.7.  In January 2013 the CAA investigated a near -collision  at Hamilton , which led to an 
+investigation of wider issues related to the airspace incidents22.  The safety investigation 
+revealed a strained relationship between Airways and CTC  and a failure by participants to 
+identify the root causes  of th e incidents .  The CAA assisted the parties to resolve these issues 
+and in May 2013 conducted a two -day workshop at Hamilton with all users.   The parties 
+changed their behaviour  and by the end of th at year the aerodrome  operator had taken over 
+its responsibility under Part 139 to lead the aerodrome  safety system .  
+4.5.8.  The previous  user group was  disbanded and replaced with a structured governance group with  
+sub-committees for aerodrome  management,  safety and operations . Meetings were held 
+regular ly, and minutes  produced with action items to complete for the next meeting.  Airways 
+and CTC rebuilt  their damaged relationship and  were  foster ing their future co -operation . 
+4.5.9.  By 2017 aerodrome users were report ing that the aerodrome operator's safety management 
+system was an effective platform for resolving local safety issues.  
+The zone was too large and boundaries not clearly defined  
+Safety issue - Changes in the size and shape of the Hamilton zone have shifted s ome VFR traffic 
+congestion to prominent points outside the zone , and likely increased the risk of collision in those 
+areas . 
+4.5.10.  The zone covered the aerodrome  and the instrument approach paths to  the north  and south .  
+VFR entry and exit sectors were located on  the e astern and w estern sides.  It was  classified as  
+Class D airspace , which required  ATC to provide separation between IFR traffic and between 
+IFR and special VFR traffic. VFR traffic was responsible for its own separation.  
+4.5.11.  The size of the zone was claimed by some users as  too large , because it resulted in one 
+aerodrome controller  having too many aircraft to manage .  Another concern was that  the 
+boundary of the zone was  difficult to identify from the air .  There w as also criticism that  the 
+Hamilton zone was depicted across  the edges  of adjacent navigation  charts , which was a  
+challeng e for novice pilots  as they swapped between charts in busy airspace.  
+4.5.12.  The CAA conducted a review and public consultation as part of its continuing airspace review 
+conducted under Civil Aviation Rules Part 71 , Design and Classification of Airspace .  In late 
+2016  the zone was redesigned and reduced in size .  The chart issue was still being 
+considered . 
+4.5.13.  After these changes were promulgated, the rate of airspace occurrences started to decrease. 
+Data for the 12 months following  the airspace changes show ed a significant and sustained 
+drop in airspace occurrences at Hamilton. 
+4.5.14.  However, the changes had the effect of shifting congestion to uncontrolled airspace , and 
+some features of the proposed circular flow in the circuit were not implemented.  The crucial 
+benefit that the CAA expected from the airspace changes was a more efficient circuit traffic 
+flow, but this has not been achieved.  According to CTC, d epartures ha d improved , but arrivals 
+are still directed to join at the start of the downwind leg or late downwind , only to  be extended 
+further downwind.  This has led  to a concentration  of VFR aircraft just outside the zone near  
+easily recognisable landmarks , and has likely increased the risk of a collision near those 
+points . 
+                                                        
+ 
+ 
+22 CAA internal investigation, draft 13/SIP/0003 Hamilton Aerodrome.  
+ 
+Final Report AO -2015- 009 
+<< Page 21 >>
+ 4.5.15.  Consequently, t he airspace design around Hamilton and the traffic density have created a 
+hazard  in uncontrolled airspace.   The VFR arrival procedures described in the Aeronautical 
+Information Publication  (AIP NZ)23 draw pilots to a reporting area within a 300 -foot (91 -metre) 
+height band adjacent to the lower limit of the 2, 000-foot  (609 -metre) control area above the 
+aerodrome.   This height band is further limited if a pilot wishes to stay clear of the overhead 
+control area with a self -imposed safety buffer.  Multiple VFR aircraft could be holding in this 
+narrow band , with the pilots keeping a look out for other aircraft.  
+4.5.16.  There is no guidance for VFR pilots on  a safe approach procedure to the zone while awaiting 
+clearance to enter.  Nothing is mentioned in the VFR arrival charts or documented in the 
+Hamilton control tower Local Unit Orders  for aerodrome controllers  to manage pote ntial 
+queues of aircraft hold ing outside the zone .  Local users ha ve asked the CAA to produce a 
+'Good Aviation Practice ' booklet for the Hamilton area,  but one has not  yet been written .  Local 
+users mitigate this congestion through  their own operational pr ocedures, but itinerant  users of 
+the aerodrome are unlikely to be aware of them and are not bound by them .  
+4.5.17.  The airspace changes have reduced the rate of incident reports in the zone , but it is apparent 
+from user feedback obtained in late 2017 for this investigation that not all issues have been 
+resolved and that the CAA needs to remain actively involved  with the aerodrome safety groups .  
+A safety recommendation to the CAA has been made to this effect.  
+ATC over -controlling  and excessive traffic information  
+Safety issue - Some aerodrome controllers are 'over -controlling ' VFR traffic in and around the zone, 
+which is unnecessarily congesting the radio frequencies and risks causing difficulties for inexperienc ed 
+pilots and those for who m English is their second language.  
+4.5.18.  During 2010 a CAA audit of the Hamilton ATC unit found that it was providing separation 
+between  VFR aircraft inside the Class D airspace zone.  This was  not part of the required 
+service for C lass D airspace and it created the possibility for pilots to misinterpret  what to 
+expect from ATC .  Users also claimed  that ATC was often over -controlling.   
+4.5.19.  Over -controlling was also found to be occurring by the CAA investigation in 2013 , which also 
+noted incidents of non -standard phraseology, overly long communications and ambiguous 
+messages . The audio records reviewed during th is series of incidents in 2015 identified that 
+the aerodrome controllers were passing excessive traffic information to  aeroplanes when  
+there was no  need .  CTC continue d to raise similar concerns about over -controlling in 2017 
+through the aerodrome safety system , and emphasise d that protracted traffic information was  
+a challenge for most trainees, including those with English as their  first language .  
+4.5.20.  The majority of air traffic in the  Hamilton zone is VFR , for which  ATC does not provide 
+separation .  ATC is required to provide information or instructions to pilots within the zone 
+when necessary , to help them to avoid collisions  and to create a patterned and sequenced 
+flow.  Many of the aircraft in the Hamilton circuit patterns would be irrelevant to a pilot about 
+to join downwind for the left -hand circuit , when that pilot would just expect a sequence and to 
+be able to identify the aerop lane ahead.  
+4.5.21.  The guidance provided in AIP NZ Gen 3.3 .1324 states that traffic information is issued " to alert 
+a pilot to other known or observed air traffic that may be in proximity to the position or 
+intended route of flight and to help the pilot avoid a collision ". This is the same as the 
+definition for traffic information in Airways ' Manual of Air Traffic Services.  
+                                                        
+ 
+ 
+23 AIPNZ AD 2 -  pages 35.4 and 35.5.  
+24 Aeronautical Information Publication (AIPNZ), published by the CAA.  
+
+<< Page 22 >>
+ Final Report AO -2015- 009 4.5.22.  However, t he text within Airways ' Manual of Air Traffic Services  has a broader interpretation  for 
+when ATC is required to provide information .  It states25 that pilots shall be advised of "traffic 
+operating in the 'vicinity of the aerodrome ' that may constitute a hazard to the aircraft 
+concerned " and leaves it to the judgement of the aerodrome controller  to determine when it is 
+necessary in the interests of safety.  The ' vicinity ' of the aerodrome includes all aircraft within 
+the circuit patterns and the zone.    
+4.5.23.  The CAA investigation in 2013 found several anomalies between the interpretation of written 
+procedures and  the requirements for A TC services in documents produced by the CAA, Airways 
+and ICAO. It also found that Airways ' Local Unit Orders for the Hamilton ATC unit were the 
+responsibility of the unit manager , which opened the possibility of different interpretations for 
+the same airs pace category around the country.  
+4.5.24.  As the issue of aerodrome controllers over -controlling and passing excessive information is 
+still evident at Hamilton, the cause seems to be embedded in the ATC training system and the 
+predominance of inexperienced aerodr ome controllers  at the Hamilton ATC unit, as referred to 
+in previous sections.   A safety recommendation has been made to Airways to address this 
+issue.  
+Language barriers  
+4.5.25.  Most of the pilot trainees at Hamilton come from outside New Zealand , and for many English 
+is not their first language.  They have to be able to communicate in English before they can 
+start training , but accents remain strong. This can hinder communication with ATC and 
+highlights the importance of standard phraseology  and pace of deliver y.  
+4.5.26.  Language was a concern to Airways , but CTC considered that a  greater risk  was to ignore  the 
+cultural differences . Some cultures are reluctant to express  difference s of opinion and some 
+pilot trainees may attempt to comply explicitly with ATC instructio ns.  The concern was that 
+such obedience could expose a pilot to exceeding their own abilities or their aircraft's 
+capa bilities if an  ATC instruction  were impractical.  
+IFR circling procedure  
+4.5.27.  The IFR training syllabus was  required to cover the circling pro cedure after an instrument 
+approach .  The l ocal arrangement  for this procedure required an IFR pilot to become visual 
+with the runway and conduct a right -hand circle from the threshold  of Runway 18 at 800 feet  
+(245 metres) above  sea level .  If traffic al lowed  they would be sequenced as number one,  but 
+otherwise they would be required to extend downwind at low level away from the threshold to 
+join with  a different  sequence.  
+4.5.28.  As an exercise, this local procedure  did not instil  the correct procedure  for circli ng because the 
+pilot lost sight of  the runway  and then came back to the same vector .  More importantly, as 
+seen during these incidents, the orbit in the final approach area  created congestion and a 
+collision risk .  
+4.5.29.  The parties involved have since agreed on a more practical and realistic method that positions  
+aircraft into the normal active circuit pattern.  
+Circuit booking system  
+4.5.30.  In order to help reduce the peak  number  of aircraft doing circuit training, a booking sys tem 
+was established  to spread circuit use  across the day .  CTC has three ' slots ' and Waikato 
+Aviation  one slot .  The slots are managed online , with aircraft being booked for half-hour slots. 
+When th e allotted  time is up, the pilot land s or leave s the circu it pattern.   CTC and Waikato 
+                                                        
+ 
+ 
+25 Manual of Air Traffic Services  RAC 4, section 4.1.2.  
+ 
+Final Report AO -2015- 009 
+<< Page 23 >>
+ Aviation may  sometimes negotiate more slots from  each other 's allocation , but four  aircraft in 
+the circuit at once is the maximum available .  
+4.5.31.  Airways may reduce traffic density by instructing a pilot  on circuit training  to land for a period .  
+This allows the aerodrome controller to clear the traffic peaks within  the zone.  
+4.5.32.  CTC agreed to fund a flight data assistant part -time in the tower to assist the aerodrome 
+controllers with administration tasks and managing the circuit  booking system.   This funding 
+was increased during 2017  to employ the flight data assistant five days per week.  
+Summary conclusions  
+4.5.33.  Hamilton aerodrome  has had many issues over many years that have caused acrimony 
+between users and led to airspace incident s.  By 2017 the aerodrome operator, Airways and 
+other users ha d made significant progress  in resolving those issues and improving aerodrome 
+safety .  Some issues still remain , but these  can be managed through the aerodrome safety 
+system  with assistance from  the CAA.  
+4.5.34.  CAA statistical data indicate that there has been a significant safety improvement at Hamilton 
+since late 2016, one year after the incident that initiated this inquiry.  This improvement  is 
+coincident with changes introduced to the Hamilton zone by the CAA and Airways.  
+Finding s 
+5. Airspace incidents  within  the Hamilton control zone  have reduced since airspace 
+changes , but not all user concerns have been resolved and the risk of a conflict outsi de 
+the zone has increased  as a result . 
+6. Some aerodrome controllers at Hamilton were passing more traffic information to pilots 
+than was necessary, which instead of improving aviation safety was creating radio 
+congestion and difficulties for pilots, particul arly those for whom English was their second 
+language . 
+  
+
+<< Page 24 >>
+ Final Report AO -2015- 009 5. Findings  
+5.1. The series of incidents occurred because the controller became overwhelmed by the 
+circumstances on the day  then  lost situational awareness of the aircraft within the control 
+zone .  
+5.2. The assessment that was being conducted of the controller affected the normal team 
+dynamics in the control tower, partly because a standard pre -assessment briefing was not 
+conducted and the expectations of the team during the assessment were not explained . 
+5.3. During the assessment  there was a breakdown in the team approach to managing the traffic 
+in the aerodrome circuit, which was a significant factor contributing to th is series of incidents .  
+5.4. Airways ' practice of posting a high proportion of recent ly qualifi ed aerodrome controllers with 
+limited experience to  Hamilton aerodrome, one of the busiest in the country, had the potential 
+to raise  the risk profile of the ATC unit . 
+5.5. Airspace incidents within the Hamilton control zone have reduced since airspace changes , but 
+not all user concerns have been resolved and the risk of a conflict outside the zone has 
+increased as a result.  
+5.6. Some aerodrome controllers at Hamilton were passing  more traffic information to pilots than 
+was necessary, which instead of improving aviation safety wa s creating radio congestion and 
+difficulties for pilots, particularly those for who m English was their second language.  
+  
+ 
+Final Report AO -2015- 009 
+<< Page 25 >>
+ 6. Safety issues  
+6.1. The standard of team resource management in the Hamilton ATC t ower did not match good 
+industry practice . 
+6.2. Changes in the size and shape of the Hamilton zone have shifted some VFR traffic congestion 
+to prominent points outside the zone , and likely increased the risk of collision in those areas.  
+6.3. Some aerodrome controlle rs are 'over -controlling ' VFR traffic in and around the zone, which is 
+unnecessarily congesting the radio frequencies and risks causing difficulties for inexperienced 
+pilots and those for whom  English is their second language.   
+ 
+  
+
+<< Page 26 >>
+ Final Report AO -2015- 009 7. Safety a ctions  
+General  
+7.1. The Commission classifies safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result  in the Commission issuing a  recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+7.2. Subsequent action taken b y Airways gave  it the confidence to return the controller to full 
+operational duty at Hamilton.  The controller has passed at least two annual proficiency 
+assessments since this series of incidents, and has since been posted to another ATC unit.  
+7.3. Airways in troduced a n aerodrome  controller mentoring system at Hamilton and is considering 
+rolling it out nationwide.  
+7.4. All aerodrome controllers at Hamilton have attended an Airways -developed course called 
+Coaching on the Go , which  is intended to improve professional working standards and ethical 
+conduct. It has  recently been reported that the team is working together better and that other 
+aerodrome controllers are now more open to being posted to Hamilton.   
+7.5. Airways restructured it s national management in early 2016. This separated Airways ' business 
+development and national training functions from the responsibility of unit managers.  This 
+change should relieve  the Hamilton unit manager of some administrative tasks and allow 
+them to  focus on managing the team and maintaining operational standards.  
+7.6. The circling procedure has been reviewed by the parties involved and a new method of 
+conducting this exercise has been agreed.   The change removes the low -level orbit and 
+sequence congestion near the final leg of the circuit.  
+Safety a ctions  addressing other safety issues  
+7.7. The CAA completed its revision of the Hamilton airspace after public consultation , and 
+promulgated the new zone boundary in November 2016.   It was adjusted two more  times 
+during 2017 in response to user feedback.   
+ 
+ 
+ 
+  
+ 
+Final Report AO -2015- 009 
+<< Page 27 >>
+ 8. Recommendations  
+General  
+8.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.  In this case, recom mendations have been issued to Civil Aviation Authority and 
+Airways . 
+8.2. In the interests of transport safety,  it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+futur e. 
+Recommendation  to the CAA 
+8.3. The CAA has conducted public consultations to address safety issues with the Hamilton zone 
+and promulgated changes.  These changes have  focused on problems within the zone but 
+have  also  created new hazards  outside the zone.  Th e high VFR  traffic volumes around 
+Hamilton create a risk of mid -air collisions near the common entry routes to the zone that local 
+operators cannot manage effectively without CAA involvement .  One suggestion from the local 
+users to manage this risk is for the CAA to publish  a 'Good A viation Practice ' booklet that 
+explains the best practice for VFR entry to and exit from the zone.  
+On 23 August 2018  the Commission is therefore recommendin g that the Director of Civil 
+Aviation  raise public awareness of the VFR traffic around the Hamilton area and work closely 
+with aerodrome safety groups to resolve congestion hazards and traffic flow routes into and 
+out of the zone.   (020/18)  
+On 12 September 2018, Civil Aviation Authority rep lied:  
+The CAA in its accepta nce of final recommendation 020/18, will carry out the 
+following:  
+1 The ongoing proactive liaison will continue with the user group for the purposes 
+of supporting active airspace risk mitigation.  
+2 In the longer term, a GAP booklet that will focus on the a irspace in and around 
+Hamilton will be compiled with a publishing date envisaged by August 2020.  
+Recommendation to Airways  
+8.4. The situation where some aerodrome controllers at the Hamilton ATC unit have been 'over -
+controlling' by providing VFR pilots with excessive and unnecessary traffic information was 
+described by the CAA in a 2013 report. Evidence of it still occurring was found during this 
+inquiry in 2015 and it was  still being  raised as a safety issue through the aerodrome safety 
+system and CAA notifications in 2017 .  It presents an ongoing safety risk to the high number 
+of trainee pilots based in Hamilton.  
+On 23 August 2018  the Commission is therefore recommending that the Chi ef Executive 
+Officer of Airways review the current practices of aerodrome control at Hamilton  to ensure  that 
+the level of ATC service is consistent with C AA rules and the aerodrome safety system.   
+(021/18)  
+On 6 September 2018, Airways replied : 
+Airways wish es to confirm that it will implement the final recommendation of the 
+Transport Accident Investigation Commission pertaining to the Hamilton ATC unit. 
+Much has already been done by way of changes made to the Hamilton airspace to 
+reduce potential confliction s and the need for traffic information, however the 
+following additional actions along with a proposed timeline will be undertaken.  
+ 
+
+<< Page 28 >>
+ Final Report AO -2015- 009 Action  Task  Completion 
+date 
+1 A senior Performance Coach to conduct an 
+independent live observations audit of current 
+traffic information provision practice. This audit 
+will also include:  
+• A review of national and local unit training and 
+operational guidance material to ensure it 
+adequately sets expectations of the required 
+performance outcome.  
+• Measure current traffic information provision 
+compliance against regulatory expectations. 
+• Canvasing local users for evidence of specific 
+areas of non - compliance 
+• Making recommendations where necessary 
+that would ensure compliance and best 
+practice expectations are meet. 31 Octobe r 
+2018  
+ 
+Hamilton  
+2 Conduct a program of remote random radio 
+telephone sampling of unit transmissions to 
+measure actual performance against 
+expectations. This sampling will include at least 3 
+sets of at least 10 transmissions each month for a 
+period of 3 months. Feedback supplied to unit and 
+improvement action plan agreed where necessary. 31 December  
+2018  
+ 
+Hamilton  
+3 A review of Radio Telephone performance 
+(including the provision of Traffic Information) to 
+be included as a standard agenda item for the 
+quarterly Hamilton Safety Sub Committee 
+Meetings for a period of 6 months. Where 
+deficiencies in performance are identified a plan 
+is to be agreed by the committee that will 
+address area of deficiency at the root cause level 
+to ensure best practice is achi eved by ATC and 
+Pilots alike.  31 March  
+2019  
+4 Report summary compiled of actions 1 -3 above 
+including relevant evidence for the CEO Airways 
+to satisfy the Commission that actions have 
+been completed and that best practice in 
+relation to the provision of Traffic Information is 
+in place at Hamilton.  30 April 2019  
+I [Airways] will advise you when these actions have been completed in accordance 
+with your requirements.  
+  
+ 
+Final Report AO -2015- 009 
+<< Page 29 >>
+ 9. Key lessons  
+9.1. Operational  assessments in a team situation have the potential to alter the normal team 
+dynamics.  It is essential that assessments are properly managed and that every team 
+member is clear on their responsibilities and their involvement in the assessment process.  
+9.2. Clear, succinct and short radio communication between ATC  and aircraft is pivotal to safe 
+operations .  
+  
+
+<< Page 30 >>
+ Final Report AO -2015- 009 10. Works cited  
+CAA. (2016). Air Traffic Service Personnel Licences and Ratings -  Air Traffic Services Instructor Ratings. 
+Advisory Circular AC65 -9. New Zealand: Civil Aviation Authority.  
+EATCHIP. (1997, March 14). Human Factors Module, Interpersonal communication. 
+HUM.ET1.ST13.1000 -REP-02, European Air Traffic Control Harmonisation and Integration 
+Programme . EUROCONTROL.  
+EUROCONTROL. (2007, March 19). TRM  Leaflet.  Retrieved from EUROCONTROL: 
+https://www.eurocontrol.int/sites/default/files/field_tabs/content/documents/nm/safety/tea
+m-resource -management.pdf  
+EUROCONTROL. (2015, March 18). EUROCONTROL Guidelines for TRM Good Practices . 
+EUROCONTROL. (2018, Apri l 20). Just Culture. Retrieved from EUROCONTROL: 
+http://www.eurocontrol.int/articles/just -culture  
+ICAO. (1984). Air Traffic Services Planning Manual, ICAO Doc 9426.  Montreal: International Civil 
+Aviation Organization.  
+ICAO. (2008). Threat and Error Managem ent (TEM) in Air Traffic Control, Cir 314.  Quebec: International 
+Civil Aviation Organization.  
+Mesagno, C., Harvey, T. H., & Janelle, C. M. (2012, January). Choking under pressure: The role of fear of 
+negative evaluation. Psychology of Sport and Exercise (13), 60 -68. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Final Report AO -2015- 009 
+<< Page 31 >>
+ Appendix 1 :  Hamilton VFR arrival (as at 2015)  
+ 
+ 
+
+ 
+  
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2017 -001 Eurocopter AS350 BA, ZK -HKW, Collision with terrain, Port Hills, Christchurch, 14 
+February 2017  
+Interim Report 
+AO-2017 -004 Forced landing into Porirua Harbour (Pauatahanui Arm), MBB BK117A -3 Helicopter, 
+ZK-IED, 2 May 2017  
+Interim AO -2017 -
+009 and  
+AO-2017 -010 AO-2017 -009: Boeing 787 -9, registration ZK -NZE, Trent 1000 -J2 engine failure near 
+Auckland, 5 December 2017; and AO- 2017 -010: Boeing 787- 9, registration ZK -NZF, 
+Trent 1000 -J2 engine failure, near Auckland, 6 December 2017  
+AO-2016 -006 Eurocopter AS350 -B2, ZK -HYY, Collision with terrain during scenic flight, M ount Sale, 
+near Arrowtown, 12 September 2016  
+AO-2015 -003 Robinson R44, Main rotor blade failure, Waikaia, Southland, 23 January 2015  
+AO-2014 -005 Eurocopter AS350 -B2 (ZK -HYO), collision with terrain, during heli -skiing flight, Mount 
+Alta, near Mount Aspiring National Park, 16 August 2014  
+AO-2015 -005 Unplanned interruption to national air traffic control services, 23 June 2015  
+AO-2016 -004 Guimbal Cabri G2, ZK -IIH, In -flight fire, near Rotorua Aerodrome, 15 April 2016  
+AO-2015 -001 Pacific Aerospace Li mited 750XL, ZK -SDT, Engine failure, Lake Taupō, 7 January 
+2015  
+AO-2013 -010 Aérospatiale AS350B2 'Squirrel', ZK -IMJ, collision with parked helicopter, near 
+Mount Tyndall, Otago, 28 October 2013  
+Addendum to final 
+report  
+AO-2015 -002 Mast bump and in-flight break -up, Robinson R44, ZK -IPY, Lochy River, near 
+Queenstown, 19 February 2015 
+Interim Report 
+AO-2017 -001 Collision with terrain, Eurocopter AS350 -BA, ZK -HKW, Port Hills, Christchurch, 14 
+February 2017  
+AO-2013 -011 Runway excursion, British Aero space Jetstream 32, ZK -VAH, Auckland Airport,  
+2 November 2013  
+AO-2014 -006 Robinson R44 II, ZK -HBQ, mast -bump and in -flight break -up, Kahurangi National 
+Park, 7 October 2014  
+Interim Report 
+AO-2016 -007 Collision with terrain, Robinson R44, ZK -HTH, Glenber vie Forest, Northland, 31 
+October 2016 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 17.00                                         ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online) 

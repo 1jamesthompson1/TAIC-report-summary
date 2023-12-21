@@ -1,0 +1,66 @@
+- name: Fatigue Management
+  percentage: 15
+  explanation: The train controller had not eaten for about 15 hours before the incident, which could have contributed to mental fatigue, potentially affecting his performance and decision-making abilities. "the train controller had not consumed any food for about 15 hours before the incident" (4.4.4 (unvalidated and unrepairable quote)). Although there is no objective evidence to support the train controller's mental performance being affected by the lack of rest breaks or the lack of food, research has shown that insufficient nutrition can affect human performance (4.1.2).
+- name: Human Error and Assumptions
+  percentage: 40
+  explanation: The train controller made several assumptions about the location of the passenger train without verifying its actual position, directly leading to the near-collision. "The train controller made an assumption about the location of the passenger train and did not verify this location before authorising the person-in-charge's track occupation" (4.2, 4.2.7). This was a critical factor in the incident as it was the immediate cause of the near-miss.
+- name: Training and Competency
+  percentage: 5
+  explanation: While there is no direct mention of inadequate training or competency contributing to the incident, the train controller's failure to adhere to KiwiRail's Track Safety Rules and Operating Instructions suggests a potential gap in training effectiveness or competency in applying the rules. "KiwiRail's Track Safety Rules required train controllers to verify all train movements before granting track occupation authorisations" (4.2.1).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that a lack of training or familiarity with equipment contributed to the incident.
+
+    '
+- name: Crew Resource Management
+  percentage: 5
+  explanation: The incident highlights the importance of clear communication and checking the understanding of communications, which are components of Crew Resource Management. However, the primary issue was the train controller's assumptions rather than a broader failure of CRM. "This incident highlights the importance of clear communication and the need for train controllers, and those who communicate with train control, to check and clarify their understanding of communications" (4.5.1).
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The train controller did not follow KiwiRail's Track Safety Rules and Operating Instructions, which required verification of train locations before authorising track occupations. "The train controller authorised a track occupation on a section of track in front of an advancing passenger train because he did not first check the whereabouts of all other trains in the area as required by KiwiRail rules and procedures" (5.1).
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: 'The document does not provide explicit evidence of organizational safety culture contributing to the incident, but the train controller''s assumptions and failure to follow procedures suggest potential underlying issues with safety culture within the organization.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that risk management and analysis directly contributed to the incident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that regulatory oversight and compliance directly contributed to the incident.
+
+    '
+- name: Situational Awareness
+  percentage: 10
+  explanation: The train controller lacked situational awareness of the passenger train's location, which was a contributing factor to the incident. "The passenger train was not electronically visible to the train controller when he authorised the person-in-charge's track occupation" (4.3).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that emergency response preparedness contributed to the incident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that maintenance and inspection regimes contributed to the incident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that the use of automation contributed to the incident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that weather conditions and decision making contributed to the incident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: Although communication was a factor, it was not a breakdown but rather the train controller's misinterpretation of the communication that contributed to the incident. "The person-in-charge provided additional information when he said, 'A subby has just gone past on the Down Main'. This information confused the train controller" (5.4).
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the incident.
+
+    '

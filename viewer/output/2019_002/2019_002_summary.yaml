@@ -1,0 +1,58 @@
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: The flight crew of LINK285 misidentified JST290 as the aircraft they were supposed to follow, which was actually LINK235. This critical error in visual identification led to the aircraft being on a converging flight path with LINK235, triggering the safety alerts and the potential for a serious incident. The crew's confirmation bias and reliance on visual identification without cross-checking with other available resources, such as the Traffic Collision Avoidance System (TCAS), contributed to this error ("The flight crew of LINK285 mistakenly visually identified an A320 on its final approach as a Dash-8 on the base leg" (3.20), "the flight crew's reliance on the visual identification of the aeroplane they had been directed to follow, without considering alternative sources of verification, led to their misidentifying that aeroplane" (3.40 (unvalidated and unrepairable quote))).
+- name: Situational Awareness
+  percentage: 25
+  explanation: The flight crew of LINK285 did not have a complete mental image of the aircraft relative to their position in the landing pattern before assuming responsibility for maintaining visual separation. The conditions at the time and the limitations of the human eye made it difficult for the crew to visually identify the preceding aircraft. This lack of situational awareness was a significant contributing factor to the incident ("The flight crew of LINK285 had not developed a complete mental image of other aircraft relative to their own position in the landing pattern before they took over responsibility for maintaining their visual separation from the aeroplane they had identified ahead" (4.4), "The lighting and visual conditions prevailing at the time, and the known limitations of the human eye, made it more difficult for the LINK285 flight crew to identify the preceding aeroplane visually" (4.5)).
+- name: Adherence to Safety Procedures
+  percentage: 15
+  explanation: The flight crew of LINK285 did not adhere to safety procedures by failing to verify the aircraft they were following. Additionally, after the incident, the cockpit voice recorders (CVRs) were not isolated as required by the operator's standard operating procedures and Civil Aviation Rules, leading to the loss of critical voice recordings ("the flight crew of link285 were not provided with a position in the approach sequence when the visual approach clearance was issued and did not ask for one" (3.45 (unvalidated and unrepairable quote)), "after this serious incident, neither the flight crews from link235 and link285 nor the operator's ground crew isolated the cockpit voice recorders immediately after the incident flight" (4.9 (invalid formatted quote))).
+- name: Communication Breakdown
+  percentage: 10
+  explanation: There was a communication breakdown when the approach controller was unable to contact LINK285 after the flight crew switched to the tower frequency, which delayed the resolution of the conflict. Additionally, the lack of communication regarding the aircraft's position in the landing sequence contributed to the misidentification ("The approach controller was unable to contact LINK285 on the radio because the flight crew were in the process of transitioning from approach to tower frequency as instructed and were no longer monitoring the approach controller's frequency" (3.15), "The current air traffic rules are inconsistent on the minimum information controllers are required to provide to pilots conducting a visual approach" (3.43)).
+- name: Use of Automation
+  percentage: 5
+  explanation: The Traffic Collision Avoidance System (TCAS) functioned correctly and alerted both flight crews to the potential mid-air collision. However, the flight crew of LINK285 did not utilize the TCAS information effectively until after they visually detected an unexpected aircraft. The reliance on visual identification over the use of available automation contributed to the incident ("The last safety barrier to take effect was the TCAS. It worked as designed and alerted both flight crews to a potential mid-air collision" (3.19), "The pilots in LINK285 said they did not check their TCAS display until after they saw an unexpected object to their left" (3.39)).
+- name: Training and Competency
+  percentage: 5
+  explanation: While the flight crew of LINK285 had the appropriate experience and licenses, the incident suggests a potential gap in training regarding the verification of aircraft identification during visual approaches. The crew's misidentification indicates a need for improved training in situational awareness and the use of available resources to verify visual identifications ("The flight crew were experienced pilots attempting to identify an aeroplane that was the same as the one they were flying and operated by the same company" (3.20), "The LINK285 flight crew's reliance on the visual identification of the aeroplane they had been directed to follow, without considering alternative sources of verification, led to their misidentifying that aeroplane" (3.40)).
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The failure to isolate the CVRs after the incident suggests a lapse in the safety culture of the organization, as the importance of preserving critical information was not adequately recognized or acted upon by the crew or ground staff. This indicates a need for strengthening the safety culture to ensure adherence to safety procedures and the protection of safety-related information ("the captain of link285 was aware of this requirement but was focused upon communicating to crew and duty staff" (3.53 (unvalidated and unrepairable quote)), "the commission is concerned that operators are not recognizing the importance of cvr records and the value they can provide to post-incident and -accident investigations and learning" (3.59 (unvalidated and unrepairable quote))).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: 'The incident highlights the need for clearer regulatory requirements regarding the provision of approach sequence information to flight crews conducting visual approaches and the management of radio frequency transitions. Compliance with existing regulations regarding the preservation of CVR records was not followed, indicating a need for improved regulatory oversight and compliance ("The current air traffic rules are inconsistent on the minimum information controllers are required to provide to pilots conducting a visual approach" (3.43), "Civil Aviation Rules 12.103, Preservation of Records stated: The holder of a certificate of registration of an aircraft that is involved in a serious incident or accident must preserve all records" (3.54)).'
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the extent to which risk management and analysis processes were a factor in the incident. The document does not provide details on whether there were any shortcomings in the identification, assessment, or mitigation of risks related to visual approaches or the misidentification of aircraft.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the extent to which Crew Resource Management (CRM) was a factor in the incident. The document does not provide details on the crew''s teamwork, communication, decision-making, or leadership during the incident.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the extent to which training and familiarity with equipment were factors in the incident. The document does not provide details on the crew''s proficiency with the Traffic Collision Avoidance System (TCAS) or other relevant equipment.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: Fatigue was not a contributing factor in this incident. Both pilots in LINK285 had adequate rest since their previous duty time and stated they were alert and focused on the tasks at hand ("both pilots in link285 had had adequate rest since their previous duty time and said they were alert and focused on the tasks at hand" (3.22)).
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: Weather conditions were not a contributing factor in this incident. The weather was fine with suitable visibility for visual flight conditions, and the flight crew were not dealing with any sort of emergency situation or system failure ("the weather was fine with scattered cloud clearing from the south of wellington" (3.22)).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the extent to which emergency response preparedness was a factor in the incident. The document does not provide details on the readiness of personnel and systems to respond to the TCAS alerts.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the extent to which maintenance and inspection regimes were factors in the incident. The document does not provide details on the condition of the aircraft or any maintenance-related issues.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the incident. The provided themes cover the factors mentioned in the analysis of the incident.

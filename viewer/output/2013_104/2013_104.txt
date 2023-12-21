@@ -1,0 +1,1089 @@
+﻿     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Inquiry RO -2013 -104: Derailment of metro passenger Train 8219  
+Wellington, 20 May 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transp ort Accident Investigation Commission.  
+ 
+ 
+ 
+ 
+ 
+Final Report  
+  
+ 
+Rail inquiry RO-2013-104  
+Derailment of metro  passenger Train 8 219 Wellington  
+ 20 May 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : August  2015  
+ 
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission and this report  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, avia tion and rail accidents and 
+incidents for New Zealand, and co -ordinating and co -operating with other accident investigation 
+organisations overseas.  The principal purpose of its inquiries is to determine the circumstances and 
+causes of occurrence s with a v iew to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its  purpose by informing 
+members of the transport sector  and the public , both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+It would not be appropriate then to use this urgent recommendation  to pursue criminal, civil or 
+regulatory action against any person or agency.  The Transport Accident Investigation Commission Act 
+1990 makes this preliminary  report inadmissible as evidence in any proceedings.  A full report will be 
+released on completion of t he inquiry.  
+ 
+Commissioners  
+Chief Commissioner    Helen Cull, QC  
+Deputy Chief Commissioner   Peter McKenzie, QC  (since August 2015)  
+Commissioner     Jane Meares  
+Commissioner     Stephen Davies Howard  (since August 2015)  
+ 
+Key Commission personnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator  of Accidents   Captain Tim Burfoot  
+Investigator in Charge    Peter Miskell  
+General Counsel    Cathryn Bridge  
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 h ours) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+ 
+ 
+ 
+ Important notes  
+ 
+Nature  of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible  as evidence in any proceedings with th e exception of a Coroner's 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual  property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to in dustry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commission.  
+  
+  
+ 
+   
+Train 8219 showing rear derailed coach   
+
+ 
+ 
+  
+  Legend  
+ Wellington  
+  
+  
+  
+ 
+ 
+ 
+  
+  
+Source: mapsof.net  
+Location of accident  
+
+ 
+  Contents  
+Data summary  ................................ ................................ ................................ ................................ ...................  ii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Condu ct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+3.2. Site examination  ................................ ................................ ................................ ..........................  5 
+3.3. Maintenance history  ................................ ................................ ................................ ....................  8 
+3.4. Personnel information  ................................ ................................ ................................ .................  9 
+The evening -shift mechanical engineer  ................................ ................................ ......................  9 
+The day -shift team leader  ................................ ................................ ................................ .........  10 
+The mechanical engineer's trade assistant  ................................ ................................ ............  10 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  11 
+4.1. Introduction  ................................ ................................ ................................ ...............................  11 
+4.2. Maintenance procedures  ................................ ................................ ................................ .........  11 
+5. Findings  ................................ ................................ ................................ ................................ ..................  13 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  14 
+General  ................................ ................................ ................................ ................................ ...... 14 
+Safety actions addressing safety issues identified during the inquiry  ................................ .. 14 
+7. Safety recommendations  ................................ ................................ ................................ .......................  15 
+7.1. General  ................................ ................................ ................................ ................................ ...... 15 
+7.2. Urgent reco mmendations  ................................ ................................ ................................ .........  15 
+KiwiRail  ................................ ................................ ................................ ................................ ...... 15 
+NZ Transport Agency  ................................ ................................ ................................ .................  17 
+8. Key lesson  ................................ ................................ ................................ ................................ ..............  18 
+Appendix 1: Safety -critical maintenance tasks for Ganz Mavag fleet  ................................ .........................  19 
+Appendix 2:  An example of a safety -critical task instruction  ET brake cylinder replacement  .................  20 
+Appendix 3: Shift handover sheet  ................................ ................................ ................................ .................  26 
+ 
+ 
+Final report RO -2013 -104 | Page i Figures  
+Figure 1  Under -slung air compressor intruding into passenger compartment  ................................ ...... 4 
+Figure 2  Underside of coach arrangement  ................................ ................................ ..............................  5 
+Figure 3  Spring park brake mounting bracket with part of piston  ................................ ..........................  6 
+Figure 4  Air reservoirs jammed under air compressor  ................................ ................................ ............  7 
+Figure 5  Undamaged hangers either side of brake disc  ................................ ................................ .........  7 
+Figure 6  Hole in bogie frame where spring park brake assembly had been welded  ............................  8 
+ 
+  
+ 
+Page ii | Final report RO -2013 -104 Data summary  
+ 
+Vehicle particulars  
+Train type and number:  Train 8 219 consist ing of passenger coaches  EM1367 leading  and 
+ET3367, EM1309 and ET3309 trailing.  The train was 86 metres 
+long and had a tare weight of 144 tonnes  
+Manufacture r: 
+Year of manufacture:  Ganz Mavag in Hungary  
+1982  
+Operator:  
+Train owner:  Tranz Metro, a business unit of KiwiRail  
+ 
+Greater Wellington Rail Limited, a business unit of the Greater 
+Wellington Regional Council   
+ 
+ 
+ 
+Date and time  
+ 20 May 2013 at 08061   
+Location  
+ the point of derailment was at 1.906 k ilometres2 on the North Island 
+Main Trunk line between Wellington  and Kaiwharawhara  Station s  
+Persons involved  
+ a train crew of three  (a driver , a train manager and  a passenger 
+operator ) and 315 passengers  
+Injuries  
+ four minor  
+Damage  
+ major damage to disc brake assembly, air reservoirs and air 
+compressor , and structural damage to  the floor of derailed  
+passenger coach ET3309  
+ 
+ 
+ 
+ 
+ 
+                                                        
+1 Times in this report are New Zealand Standard Times (universal co -ordinated time + 12 hours) and are 
+expressed in the 24 -hour mode.  
+2 Distance from a datum marker at Wellington Station.  
+ 
+Final report RO -2013 -104 
+<< Page 1 >>
+ 1. Executive summary   
+1.1. On Monday 20 May 2013, Train 8219 was the scheduled Tranz Metro passenger train 
+travelling from Porirua to Wellington.  The train was an electric multiple unit consisting of  
+four passenger coaches.  
+1.2. At 0743 the rear coach of the train derailed as it was e ntering Wellington Station limits.  Four 
+of the 315 passengers on board the train received minor injuries.  The derailed coach 
+remained upright but sustained extensive damage to machinery underneath  the coach floor.  
+An air compressor was forced up through  the coach floor into the passenger compartment.  
+1.3. A component from the train 's braking system had fallen onto the track and jammed against 
+the underslung machinery with sufficient force to cause the derailment.  
+1.4. The Transport Accident Investigation Commissio n (Commission) found  that the component fell 
+because , more than 10 weeks before the accident , maintenance staff had omitted to fit 
+retaining split pins to bolts that were holding the component in place.  
+1.5. The maintenance staff had not been given specific tas k instructions to fol low and against 
+which to record progress.  Because of this, when the task of fitting the brake component was 
+interrupted by an overnight change in shift, the omission of fitting the retaining split pins was 
+easily missed.  
+1.6. Before it s inquiry was complete the Commission made urgent recommendations  to the Chief 
+Executive of KiwiRail to address safety issues with the way maintenance was conducted in its 
+Wellington maintenance depot.  The Commission also recommended that the Chief Executive 
+of the N Z Transport Agency monitor the progress of KiwiRail's response to the 
+recommendations.  
+1.7. The Commission iden tified the following key lesson  arising from this inquiry:  
+ maintenance staff must be given clear instructions for all maintenance tasks and 
+record progress against every important step of the instruction s.  If a task involves 
+safety -critical systems , there must be an independent check by a responsible person 
+before the train is released back into service.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+<< Page 2 >>
+ Final report RO -2013 -104 2. Conduct of the inquiry  
+2.1. On Monday 20 May 2013 at about 0830, the NZ Transport Agency notified the  Transport 
+Accident Investigation  Commission (Commission) of th e accident  under section 13(4) of the 
+Railways Act 2005.  The Commission immediately opened an inquiry under section 13(1) of 
+the Transport Accident Investigation Commission Act 1990, to determine the circumstan ces 
+and causes of the accident.  A n investiga tor in charge was appointed and he and two other 
+investigators arrived  at the derailment site within 30 minu tes of receiving  the notification.  
+2.2. A site examination was conducted and critical components from the debris trail behind the 
+derail ed train  were taken to the Commission's wreckage facility  for further examination.  
+2.3. On 2 2 May 2013 investigators examined the maintenance records for the derailed trailer 
+coach , ET3309.  
+2.4. On 23 May 2013 the Commissioners visited KiwiRail's maintenance facility to examine the 
+coach  that had derailed.  
+2.5. On 23 May 2013 investigators conducted interviews with the train crew.  
+2.6. On 24 May and 27 May 2013 , telephone interviews were held with a total of 15 passengers 
+who had been  on board the derailed passenger car . 
+2.7. The Commissio n received data from t he train's event recorder and from the signals log.  This 
+data was analysed  to determine  the location s and the speed s of the train at specific times . 
+2.8. On 7 June 2013 investigators held separate discussions  with the mechanical engineer who on 
+7 March 2013 had carried out component replacement work on the derailed passenger 
+coach , and with the mechanical engineer who had released the repaired coach  back into 
+service the following day.   
+2.9. On 7 June 2013 a discussion was conducted with the person who had carried out the annual 
+airbrake code test on the derailed passenger coach on 25 March 2013.  
+2.10.  Two d raft urgent recommendations were prepared , one to KiwiRail and one to the NZ 
+Transport Agency,  and o n 1 August 2013  the Commi ssion approved the draft urgent 
+recommendations for circulation to interested persons for comment.  
+2.11.  Written submissions were received  from  the NZ Transport Agency, KiwiRail  and the 
+mechanical engineer who had carried out the spring park brake replacement on the derailed 
+passenger coach.   KiwiRail's submission included its response to the recommendations.  This 
+response has been included in the report.  
+2.12.  The Commission approved  the urgent safety reco mmendations for publication on  
+25 September 2013 .  
+2.13.  On 24 June 2015  the Commissioners considered  a draft final report on the accident and 
+approved it for distribution to interested persons for comment .  
+2.14.  On 26 August 2015  the Commissi on considered written submissions from KiwiRail , Greater 
+Wellington Regional Council  and the NZ Transport Agency .  Changes were made to the report 
+where appropriate.   
+2.15.  On 26 August 2015 t he Commission approved the report for publication .     
+ 
+  
+ 
+Final report RO -2013 -104 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  On Monday 20 May 2013, Train 8 219 (the train)  was the scheduled 0743  Tranz Metro 
+passenger train travelling from Porirua to Wellington .  The train was an electric multiple unit  
+consist ing of four coaches.  
+3.1.2.  The train  departed from Pori rua with a crew of three  (a driver , a train manager and a 
+passenger operator ) and 49 passengers3.  The train  made scheduled stops en route at 
+Kenepuru, Linden, Tawa, Redwood, Takapu Road and Kaiwharawhara Stations to exchange 
+passengers . 
+3.1.3.  The train departed from Kaiwharawhara  Station at 0805:45 , the last passenger stop before 
+Wellington .  By then there  were 315 passengers4 on board .   
+3.1.4.  At 0806:35 t he train  was travelling  at just under  the maximum authorised line speed of 60 
+kilometres per hour  when the train's brake pressure dropped suddenly  and the brakes applied 
+automatically .  One second later the driver moved the throttle from the powering position to 
+coast.  The train  stopp ed 17 seconds  after the brake pipe pressure started to drop , during 
+which time it travelled 151  metres . 
+3.1.5.  The leading bogie5 of the rear coach  (ET3309 ) had derailed and an air compressor had been 
+forced up through the floor of the passenger compartment  (see Figure 1).  Passengers sitting 
+in the coach that derailed said that they first heard intermittent "scraping noises" coming from 
+under the coach soon after the train departed from Porirua.   
+ 
+                                                        
+3 The number of passengers was recorded on the train manager's report form Mis. 7b.   
+4 The number of passengers was recorded on the Emergency Services Incident Report log at 08:41:42, 
+before the train evacuation began.  The number of passengers recorded on  the train manager's report form 
+Mis. 7b was 345.    
+5 The term used for the unit consisting of a frame, the wheels, the suspension and the brake system.  
+ 
+
+<< Page 4 >>
+ Final report RO -2013 -104  
+Figure 1 
+Under -slung air compressor protruding  into passenger compartment  
+3.1.6.  A KiwiRail employee and a contractor were  standing nearby  when they heard a loud bang.  The 
+employee turned and saw a three -metre-high water vapour cloud disperse from under the rear 
+passenger coach. He watched the rear coach  oscillate from side to side  before it derailed.   
+3.1.7.  At 0807:46 the emergency  services received a 111 call from one of the passengers , who 
+reported that the train on which he was travelling had derailed at the entrance to Wellington 
+Station.   Two other passengers called the emergency services within the next minute.   
+3.1.8.  The first Fire Service crew was dispatched from Thorndon  to Wellington Station at 0809:23.  A 
+second crew was dispatched from the Wellington depot a few seconds later . Both Fire S ervice 
+crews arrived at Wellington Station's Platform 9 and were then redirected to the derail ed train,  
+about 1.9 kilometres north of Platform 9.  A total of f our specialist Fire Service crews attended  
+the passenger train derailment .  
+3.1.9.  At 0819:11 a member o f the New Zealand  Police was established as the Scene Commander, 
+responsible for the site safety and the co -ordination of the passenger evacuation.    
+3.1.10.  At 0826:41 KiwiRail's train controller  informed the e mergency services communication centre 
+that although  the overhead power had been switched off at the control centre, the overhead 
+line had to  be treated as 'live' until they were informed otherwise.  
+
+ 
+Final report RO -2013 -104 
+<< Page 5 >>
+ 3.1.11.  Meanwhile,  the driver had inspected his train and established that the overhead traction line 
+had not been damaged.  He took the precaution of lowering the train pantographs6 to isolate 
+the train  from the overhead power.  Paramedics  were then allowed to board the train to attend 
+to the injured .   
+3.1.12.  KiwiRail's incident controller  informed t he Police Scene Commande r at 09 10 that t he 
+overhead power had been e arthed and isolated  and that it was now safe for the passengers to 
+disembark.  The passengers were then evacuated from the train and were escorted to a Police 
+control command centre at Ki wiRail's passenger ferry terminal on Aotea Quay , where a further 
+triage assessment was conducted .  
+3.1.13.  All passengers were  evacuated from the train by 0950.  Four passengers received minor 
+injuries during the derailment.  
+3.2. Site examination  
+3.2.1.  Each  passenger coach ha d two bogies;  one at each end.  Ea ch bogie ha d two sets of wheels .  
+The derailed coach was a trailer  class of coach that was fitted with  disc brak es.  There were  
+two spring park brake  assemblies  fitted to each bogie , meaning the derailed coach was fitted 
+with four of t hese assemblies.  
+3.2.2.  Immediately behind the leading bogie were two low-pressure air reservoirs strapped 
+underneath the coach floor .  Immediately behind th em sat the main air compressor , which  
+kept the air reservoirs pressuri sed (s ee Figure 2).  A third high -pressure air reservoir s at still 
+further back .  The three  air reservoirs collectively  suppl ied air to the train brake  system and 
+other train services . 
+ 
+ 
+Figure 2 
+Underside of  coach arrangement  
+3.2.3.  The debris trail extended as far back as eight  kilometres  before the point of derailment , where 
+a section of disc pad from the spring park brake assembly was recovered.  The spring park 
+brake assembly was part of the disc brake system.   It normally hung from two brake -force 
+reaction arms (hangers) on either side of the brake disc and the opposite end ha d a mounting 
+                                                        
+6 A pantograph is an apparatus mounted on the roof of an electric train to collect power through conta ct with 
+the overhead traction line.  
+brake disc  
+air 
+reservoirs  
+air compressor  
+ bogie  
+ 
+
+<< Page 6 >>
+ Final report RO -2013 -104 plate that was welded directly to the bogie frame.  A bolt7 and split pin assembly secure d the 
+spring park brake assembly t o the hangers  (see Figure 5).   
+3.2.4.  The rear of the train was 1.83 kilometre s from Wellington Station when the train stopped.  A 
+spring park brake assembly from the rear (derailed ) coach  was found between the rails some 
+113 m etres  back from  the rear of the train (see Figure 3).  The spring park brake assembly 
+was extensively damaged , with parts of the brake cylinder having separated from the main 
+assembly . 
+ 
+Figure 3 
+Spring park  brake mounting bracket with part of the brake cylinder  
+3.2.5.  The two main air reservoirs had broken free of their mounts and were extensively damaged. 
+They had both been jack-knifed rearwards through 180 degrees and were jammed under the 
+air compress or, forcing  the air compressor up through the floor and into the passenger 
+compartment ( see Figure 4). 
+                                                        
+7 The bolt did not have a thread (and is often referred to as a clevis pin).  Instead the spring park brake 
+assembly was secured by a washer and split pin.  
+remains of brake 
+cylinder  
+disc brake pad 
+backing plate  
+ 
+Final report RO -2013 -104 
+<< Page 7 >>
+  
+Figure 4 
+Air reservoirs jammed under air compressor  
+3.2.6.  An examination of the number 3 spring park brake assembly from the deraile d coach (found 
+113 metres back from the point of derailment) showed that neither the lug that normally took 
+the bolt and split pin to secure it to the bogie hangers nor the hangers themselves were 
+damaged , except that the inner sleeve was missing from the bolt hole on the inboard hanger 
+(see Figure 5).  The two bolts and their split pins were missing and were not found, despite an 
+extensive search of the rail track between the accident site and Porirua.  
+ 
+Figure 5 
+Undamaged hangers either side of brake disc  
+(Inset - bolt and split pin securing spring park brake assembly to hanger)  
+inner sleeve 
+missing from 
+the inboard 
+hanger  
+bolt and 
+split pin  
+hanger  
+brake disc  
+ 
+
+<< Page 8 >>
+ Final report RO -2013 -104 3.2.7.  The opposite  end of the spring park brake assembly was normally attached to a mounting 
+plate, which was welded directly to the bogie frame.  This mounting plate had torn away from 
+the bogie (see Figure 6).  
+ 
+Figure 6 
+Hole in bogie frame where spring park brake mounting plate  had been welded  
+3.2.8.  The fact that the spring park brake assembly was torn away from its location without 
+damagin g the lug or hangers to which  it should have been attached is an indication that the 
+two bolts and split pins were not present when the train derailed.   This led the Commission to 
+examine the maintenance history of the coach.  
+3.3. Maintenance history   
+3.3.1.  Scheduled mechanical inspections and maintenance work on the Ganz Mavag fleet were  
+carried out by KiwiRail staff at the Wellington metro maintenance depot  under contract to the 
+fleet owner, the Greater Wellington Regional Council.  Issue 8 of KiwiRail's Me chanical Code 
+M2000 (the Code) outlined the policy and procedures for conducting the maintenance.  
+3.3.2.  A terminal brake test and an in-cab vigilance test had been  carried out before the passenger 
+train enter ed service  on 20 May 2013.  The test had showed that t he braking system operated 
+correctly.   
+3.3.3.  The Code determined that scheduled inspection s be carried out on the Ganz Ma vag fleet at 
+intervals of not more than 15,000 kilometres .  The most recent scheduled inspection of the 
+coach before the derailment had been  made about four months earlier on 26 January 2013.  
+During that inspection one of the four spring park brake assemblies on the trailer coach was 
+found to be not functioning.  The coach was put back into service and the replacement of the 
+defective spring p ark brake was scheduled for a later date.  
+3.3.4.  KiwiR ail's Mechanical Design Report 80130_3, EM/ET Park Brake Minima, dated 16 March 
+2011, concluded that only three of eight park brake assemblies were required to hold an 
+EM/ET class multiple unit set on the stee pest gradient in the Wellington rail network.  The 
+report recommended that , while it was preferable that a set had eight functioning spring park 
+brake assemblies , a two -coach set  could be released from the depot with a minimum of  four 
+serviceable spring park brakes.  This was  as long as each  passenger coach had a minimum of  
+two spring park brake assemblies functioning.  
+3.3.5.  The r eplacement of the defective spring park brake assembly on the trailer coach was 
+scheduled for  7 March 2013 .  A mechanical engineer and his trade assistant started the 
+change -out of the spring park brake assembly during the evening shift on that day .  They were  
+bogie frame  
+hole in bogie frame 
+where mounting plate 
+had been welded  
+ 
+Final report RO -2013 -104 
+<< Page 9 >>
+ unable to complete the task and test the componentry before the end of their shift  at 2300 .  
+The mechanical engineer then went on six days of annual leave .   
+3.3.6.  As part of the depot handover procedure t he mechanical engineer sent an email to other 
+senior maintenance depot staff  before he left the depot .  The email stated (in part):  
+Em1309 [the motor coach] we have put the SPBC [spring park brake 
+cylinder] in place with wheel set back to get the set back into depot.  
+All that needs to be done is - lock wire bottom bolts - release pin split pin 
+and test for correct function  
+We have check[ed] and recorded the T/m earth brushes on No. 3 + 4  T/m 
+so only 1 + 2 T/m earth brushes to do  
+[Name of trade assistant] is on duty Friday and know s what stage Em 1309 
+[the motor coach] is at  
+3.3.7.  Owing  to staff leave requirements,  the trade assistant started  work at 0900 the next day, after  
+he had observed a minimum 10 -hour rest period .   
+3.3.8.  The day -shift team leader responsible for completing the spring park b rake assembly 
+replacement work had read the email from the mechanical engineer.  He assumed that the 
+trade assistant would have completed the work on the  spring park brake assembl y.  He 
+thought that he had asked the trade assistant if all the work was complete, and that he had 
+received an affirmative response.  The trade assistant could not recall being asked, and 
+confirmed that he had not completed the wo rk by fitting the split pins to the bolts8. 
+3.3.9.  The day -shift team leader  signed the 'release  from depot sheet ' for the  coach at 1130 on 8 
+March 2013 , without  having first examin ed it to confirm  that all the outstanding work  had 
+been completed  to a satisfactory standard . 
+3.3.10.  On 25 March 2013 , some two weeks after the number 3 spring park brake assembly  was 
+replaced , the two -coach set was scheduled f or its annual airbrake and pneumatic inspection 
+and testing to KiwiRail's Code supplement M9309.  The resul ts of the inspection and test ing 
+were  recorded and signed off as being complete on 28 March 2013.  This test was designed 
+to ensure the correct functioning of the systems, so did not include a check of all the 
+mechanical linkages, such as the presence of s plit pins in the spring park brake assembly.  
+3.4. Personnel information  
+The evening -shift m echanical engineer  
+3.4.1.  The evening -shift mechanical engineer who started  the spring park brake replacement on 7 
+March 2013 had been employed by KiwiRail  and its predecessors since 1972 .  He had spent 
+time in Hungary with a Ganz Mavag commissioning and verification unit before the fleet 
+entered service on the Wellington network during  1982.  Since then he had been actively 
+involved in the inspection and ma intenance of the Ganz Mavag fleet.  
+3.4.2.  He had been appointed to a variety of roles in the metro maintenance depot , having had more 
+than 25 years' experience as a team leader, service co -ordinator and acting depot manager.  
+His certification was current for th e work he was performing.  
+ 
+  
+                                                        
+8 Both the team leader and the trade assistant were recalling e vents that had happened 10 weeks before the 
+accident.  
+ 
+
+<< Page 10 >>
+ Final report RO -2013 -104 The day -shift team leader  
+3.4.3.  The day-shift team leader  had about 40 years' maintenance experience , of which  12 years 
+had been within  the rail industry.  He had worked at the metro maintenance depot for the 
+previous six  years and he had been appointed to a team leader position early in 2012.  He 
+said that about 60% of his work time was spent maintaining the  Ganz Mavag fleet .  The 
+remaining 40%  of his work was spent maintaining its replacement third -generation 'Matangi ' 
+electric mul tiple units that  had progressively entered service since 2011.  
+The m echanical engineer's trade assistant  
+3.4.4.  The person assisting the mechanical engineer with the spring park brake assembly  
+replacement had had more than 42 years' work experience with KiwiRail .  He had worked at 
+several mechanical depots within the Wellington area .  He had worked with a  team leader at 
+the metro maintenance depot maintaining the Ganz Mavag fleet  for the previous  12 years . 
+  
+ 
+Final report RO -2013 -104 
+<< Page 11 >>
+ 4. Analysis  
+4.1. Introduction  
+4.1.1.  The download ed data from the train's event recorder showed that the train was travelling 
+below the authorised line speed at the time of the derailment .  There is nothing to suggest 
+that the way the train was being driven contributed to the accident.  
+4.1.2.  It is almost certain that the trailer passenger coach had been put back into service on 8 March 
+2013 without the bolts that connected the spring park brake assembly to their hangers being 
+either lock -wired or having their split pins fitted.  
+4.1.3.  Without anythin g to secure the bolts in place, they worked loose over the following 10 weeks 
+in service  and eventually dropp ed out.  Without being supported by  the hangers , the entire 
+weight of the assembly was taken on its welded connection to the bogie frame .  The main  
+purpose of the connection between the spring park brake assembly and the hangers was to 
+absorb the rotational force applied by the brake  pads to the brake disc when  the brakes were 
+applied.  Without the hanger pins in place to react against the braking fo rces, the application 
+of the brake would have exerted higher -than -normal forces on the welded connection, which 
+was already supporting the entire weight of the spring park brake assembly.  
+4.1.4.  Eventually the welded connection failed , allow ing the spring park  brake assembly to fall to the 
+track, where it jammed on the underslung air rese rvoirs  and air compressor .  The forces 
+involved pushed the air compressor up through the coach floor and were  sufficient to derail 
+the train.  
+4.1.5.  Passengers on the derailed coach reca lled hearing scraping noises before the accident.  
+These were most likely associated with the spring park brake  assembly  being forced 
+down wards  when the driver made brake applications.  
+4.1.6.  The Commission considered the emergency response  to the accident and concluded that , 
+under the circumstances , it was appropriate.  For first responders to a train accident there will 
+inevitably be a delicate balance between the need to provide assistance immediately  and the 
+risks associated with a derai led train in contact with  a high-voltage overhead traction  contact 
+wire.   
+4.1.7.  The high -voltage overhead traction contact wire  was not damaged in the derailment, and the 
+driver took the initiative to lower the pantographs that connected the train to the overhe ad 
+line.  As a precaution the evacuation was delayed until it was confirmed that the overhead 
+traction line had been isolated  and earthed .  Given the minor nature of the injuries it was 
+reasonable  to hold the passengers on board until there was absolutely certain ty of no risk to 
+passengers and first -response rescue teams.  
+4.1.8.  The safety issue s arising from this accident relates  to the standard of maintenance for a  
+safety -critical braking system , in particular  the procedures for ensuring that maintenance was 
+conducted in accordance with best engineering practice  and that there were  independent final 
+check s of critical systems bef ore electric multiple units  were  released back into service.  
+4.2. Maintenance procedures  
+4.2.1.  The Wellington metro maintenance depot had various procedures for each type of check.  
+However, there were no documented task instructions setting out how safety -critical task s 
+were  to be performed on the Ganz Mavag fleet , and no means of record ing progress  against 
+the individual steps in the task .  Instea d, for the previous  30 years depot management had 
+relied on the institutional knowledge and experience of its staff to conduct proper 
+maintenance and  ensure that trains  were  fit for purpose  when returned to service .   
+4.2.2.  The brakin g system on a train is a saf ety-critical system, as are its components.  A simple 
+check by an appropriate person to confirm that the split pins had been inserted in the hanger 
+bolts would have prevented this accident.  
+ 
+
+<< Page 12 >>
+ Final report RO -2013 -104 4.2.3.  However, n o systematic assessment had been undertaken to identify safety -critical systems 
+and their components.  Also, there were no mandatory  check s by people  independent of those 
+doing the work  that the  work had been performed in accordance with the Code. 
+4.2.4.  The Commission has reported on a similar safety issue involving the maintenance of the 
+Auckland metropolitan train fleet.  Following a series of maintenance -related occurrences9, in 
+2007 the Commission made a safety recommendation to the Director of Land Transport New 
+Zealand (now the NZ Transport Agenc y) aimed at improving the standards of maintenance 
+conducted in the Auckland metro maintenance depot.  The recommendation was for the 
+Director to ensure that:  
+ engineering standards consistent with world standard practice are identified and adhered 
+to 
+ manufacturers' inspection, repair and maintenance instructions are documented and 
+followed  
+ safety -critical components are identified and documented  
+ work instructions are issued for maintaining safety -critical equipment  
+ work on safety -critical components i s signed off by someone other than the maintainer  
+ all maintenance work is recorded.  
+4.2.5.  The previous recommendation to address the Auckland situation is equally applicable to the 
+safety issue identified with the Wellington metro maintenance depot  during this i nquiry .  
+Accordin gly, on 13 August 2013, before this inquiry was complete, the Commission made  the 
+same  urgent recommendation to the Chief Executive of KiwiRail to address th e same issues 
+identified in its Wellington metro maintenance depot .  The Commissio n also made a 
+recommendation to the Chief Executive of the N Z Transport Agency to monitor KiwiRail's 
+implementation of the Commission's recommendation ( refer to the recommendation s section 
+of this report for the full recommendations and responses).  
+4.2.6.  KiwiRai l made  a number of improvements to its Wellington depot maintenance procedures as 
+the Commission's inquiry progressed.  Refer to Section 6 ( 'Safety actions ') for a full 
+description of the timing and nature of those improvements.  
+  
+                                                        
+9 Commission report 06 -101, diesel multiple unit passenger Train 3163, fire in diesel auxiliary engine, 
+Manurewa, 15 March 2006, Recommendation 015/07.  
+ 
+Final report RO -2013 -104 
+<< Page 13 >>
+ 5. Findings   
+5.1. A spring park brake assembly became disconnected underneath the passenger coach  and 
+caused sufficient  disrupt ion to  the underfloor air compressor and reservoirs to cause the 
+train to derail . 
+5.2. The spring park brake assembly disconnected underneath the passen ger coach because , 
+more than 10 weeks before the accident, maintenance staff  had omitted to fit  retaining 
+split pins on two bolts that secured  it to the bogie . 
+5.3. Maintenance staff had omitted to fit the retaining split pins to the bolts securing the spring 
+park brake assembly because the staff member who was fitting it did not have 
+documented task instruction s to follow and against which to record progress , so when the 
+task was interrupted by an overnight change in shift  the step of fitting the split pins was 
+easily missed.  
+5.4. In the Wellington metro maintenance depot there was a universal absence of documented 
+task instructions for maintaining the Ganz Mavag fleet , and no requirement for work on 
+safety -critical systems , and thei r components , to be checked and signed off by people  not 
+directly involved in the work.  Had there been it is highly likely that the omission would have 
+been avoided, or at least detected and rectified , before the coach was released to service.  
+  
+ 
+
+<< Page 14 >>
+ Final report RO -2013 -104 6. Safety ac tions  
+General  
+6.1  The Commission classifies safety actions by two types:  
+(a) safety actions taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuin g a recommendation  
+(b) safety actions taken by the regulator or an operator to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety actions addressing safety issues identified during the inquiry  
+6.2 Post-derailment fleet inspection and corrective action  
+KiwiRail withdrew the other 24 Ganz Mavag sets from service immediately after the 
+derailment.  Brake cylinder security check s covering the pins, bolts and welds associated with 
+the spring park brake assembl ies were  carried out on all trailer coach es. These  includ ed for 
+each set :   
+• inspecting both sides of  the horizontal pedestal for weld integrity before brushing  
+• wire brush ing the pedestal and repeating the inspection  
+• inspecting the four  pedestal mounting bolts  
+• inspecti ng all other mounting pins and bolts  
+• inspecti ng all other lock wire s and split pins to confirm that they were in place  
+• a general inspection of the brake cylinder assembly.  
+6.3 KiwiRail's Mechanical Code M2000 stated in part:  
+Brake Rigging  
+a) All rigging including safety straps and chains must be secure and correctly 
+positioned.  
+b) Any lever, rod, brake beam or hanger, or any pin or pin hole or chain link 
+may not be worn beyond 75% of its original cross -sectional area,  cracked, 
+broken or missing.  All pins shall be secured in place by welding, or with 
+cotters, nuts, split pins or R -clips, and all replacement split pins shall have 
+each leg splayed at least 20º and preferably 45º.  
+6.4 The post -derailment special inspecti ons revealed that four coaches had some split pins 
+splayed at non -compliant angles.  Loose pedestal bolts were either replaced or tightened on 
+six other coaches.  Corrective action s were  taken at the time of the inspections.  Seventeen 
+two-car Ganz Mavag coach  sets were passed out as fit for service on the day of the 
+derailment.  Seven more two-coach sets were available for service the following day.  
+6.5 KiwiRail implemented a programme to replace all split pins associated with the brake rigging 
+assemblies in the entire Ganz Mavag fleet at the next scheduled maintenance service check s. 
+6.6 On 6 August 2013 the shift handover instruction s were amended by adding more detail for 
+team leader s to record , includ ing updating the status of all work orders.  If any j ob had not 
+been completed the work order had to show  clearly  the stage  of the work , and all work orders 
+were required to be stapled  to the completed handover sheet. In addition, the depot service 
+delivery manager and breakdown team leader had to review the  previous night's work and 
+plan the completion of the outstanding tasks.  In view of the action taken, no recommendation 
+will be made to address this issue.      
+  
+ 
+Final report RO -2013 -104 
+<< Page 15 >>
+ 7. Safety  recommendati ons  
+7.1. General  
+7.1.1.  The Commission may issue, or give notice of,  recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case  recommendations have been issued to KiwiRail  with notice of these 
+recommendations given to the NZ Transport Agency.   
+7.1.2.  In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar acci dents or incidents occurring in the 
+future.  
+7.2. Urgent recommendations  
+KiwiRail  
+7.2.1.  There were two safety issues identified with the Wellington maintenance depot processes : 
+ there were no individual task instructions on how each job was to be done  
+ there was no chec k sheet associated with each task to record that important steps and 
+checks for the task had been completed.  
+Instead t he depot relied on the knowledge of the depot staff to com plete each task 
+satisfactorily.  
+These shortcomings in maintenance control could be indicators of other safety issues in the 
+wider maintenance system at the Wellington maintenance depot . 
+On 13 August 2013  the Commission recommended that the Chief Executive of KiwiRail 
+urgently address this safety issue by ensuring that at the Wellingto n maintenance depot, and 
+other maintenance depots under KiwiRail control:  
+ maintenance is undertaken in accordance with good railway engineering practice  
+ manufacturers' inspection, repair and maintenance instructions are documented and 
+followed  
+ safety -critical component s are identified and documented  
+ work instructions are issued for maintaining all equipment  
+ work on safety -critical components is signed off by someone other than the person 
+responsible for carrying out the maintenance work  
+ all maintenanc e work  is recorded . (020/13)  
+On 28 August 2013 KiwiRail replied, in part:  
+As a consequence of the derailment and our internal investigation the following 
+actions have already been completed by the Wellington EMU [electric multiple unit] 
+depot management:  
+1. Manufacturers' inspection, repair and maintenance instructions are 
+documented and followed  
+Engineers audited the Ganz Mavag  manufacturers' documentation on Friday 16 
+August to establish what information and/or references are required in 
+documentation and work instructions . 
+ 
+ 
+ 
+
+<< Page 16 >>
+ Final report RO -2013 -104 2. Safety -critical components are identified and documented  
+Staff notice #24 has been issued to detail the  safety critical jobs and the 
+information is also in poster form around the depot . 
+3. Work instructions are issued for maintaining all equipment  
+Based on the audit of the Ganz manufacturers' documentation, work 
+instructions for the Ganz fleet are being develo ped starting with the safety 
+critical tasks.  There are not currently work instructions for repairs.  
+4. Work on safety -critical components is signed off by someone other than the 
+maintainer  
+Safety -critical tasks are now identified and individually checked and  signed off 
+by an appropriately qualified staff member who has not completed the job.  
+Requirement for a counter -sign has been added to the work sheets.  
+5. All maintenance is recorded  
+SAP is used to record all maintenance and that data was supplied to TAIC [the 
+Commission] during the investigation.  
+ 
+The TAIC preliminary report has also made a much more general recommendation 
+that Maintenance is undertaken in accordance with good railway engineering 
+practice .  This is already the case as much as can be practica bly expected within the 
+profile of the railway fleet.  It is unclear to us at this stage that it would be practical 
+to, for example create detailed work instructions for locomotives that are in some 
+cases several decades old.  In some cases the assets will  end their operational life 
+before such a task could be completed.  However, we will put in place a review of 
+this and where it is practical to put this in place - we will.  Where it is not we will 
+instead put in place the best practical mitigation.  
+7.2.2.  On 1 M ay 2015 the Commission received from KiwiRail a copy of a poster that identi fied nine 
+safety -critical maintenance tasks relating to the Ganz Mavag fleet (see Appendix 1).  The tasks 
+include d: 
+ [resistor ] bank change  
+ bogie stabiliser change  
+ Compessor  replacement  
+ EM brake cylinder replacement  
+ ET brake cylinder replacement  
+ ET wheel set change  
+ MA replacement  
+ signal trip change  
+ traction motor and EM wheelset replacement . 
+A set of step -by-step instructions and associated photographs  had been produced for each of 
+the identified safety -critical maintenance tasks .  One such safety -critical task instruction, the 
+ET brake cylinder replacement , is shown in Appendix 2.   
+7.2.3.  The back page  of the task instruction had to  be signed by the mechanical engineer  after 
+compl eting the work.  An appropriately qualified person who was not part of the work team 
+had to  carry out a visual check of defined key components and test that the main brake 
+cylinder and spring park brake  assembly  applie d and release d correctly .  The indepen dent 
+checker then certifie d that the inspection and test were  complete.   
+  
+ 
+Final report RO -2013 -104 
+<< Page 17 >>
+ NZ Transport Agency  
+7.2.4.  The Commission has made an  urgent recommendation to the Chief E xecutive of KiwiRail that 
+he ensure that at the Wellington maintenance depot, and other maintenance depots under 
+KiwiRail control:  
+ maintenance is undertaken in accordance with good railway engineering practice  
+ manufacturers' inspection, repair and maintenance instructions are documen ted and 
+followed  
+ safety -critical components are identified and documented  
+ work instructions are issued for maintaining all equipment  
+ work on safety -critical components is signed off by someone other than the maintainer  
+ all maintenance  work  is recorded . 
+It is important that KiwiRail addresses th is urgent safety recommendation.  The NZ Transport 
+Agency has various powers under the Railways Act 2005 to monitor and ensure KiwiRail's 
+performance and compliance.   
+The Commission recommends that the Chief Executi ve of the NZ Transport Agency take all 
+appropriate steps to ensure that KiwiRail add resses the above recommendation . (021/13) 
+On 11 October 2013,  the NZ  Transport Agency replied:  
+The urgent recommendation that the Commission have directed to the Chief 
+Executive of KiwiRail is noted.  The urgent recommendation made to the Chief 
+Executive of the NZ Transport Agency is accepted.  Discussions on it will be initiated 
+with KiwiRail on th e publication of the urgent recommendations.  These discussions 
+will include, where appropriate, a projected timeframe for implementation.  This will 
+be advised to TAIC in due course.  
+7.2.5.  On 19 August  2015, the NZ Transport Agency stated in part:  
+The Transport Agency has reviewed the evidence supplied by KiwiRail to date and 
+would submit that KiwiRail has greatly improved the maintenance controls and 
+systems used at the Wellington maintenance depot since and as a consequence of 
+this accident.  
+The T ransport Agency has sought some further assurance from KiwiRail regarding 
+the risk assessment/analysis used to identify the nine 'Safety Critical Jobs' and 
+whether further detail needs to be added to the Safety Critical Task Instructions 
+regarding the plac ement of 'all split pins'.  
+A request has also been made to KiwiRail for evidence that demonstrates that there 
+are similar controls and systems working in practice at 'other maintenance depots 
+under KiwiRail control'.  
+  
+ 
+  
+ 
+
+<< Page 18 >>
+ Final report RO -2013 -104 8. Key lesson  
+8.1. Maintenance staff must be given clear instructions for all maintenance tasks and record 
+progress against every important step of the instructio ns.  If a task involves safety -critical 
+systems , there must be an independent check by a responsible person before the train is 
+released  back into service.  
+   
+ 
+Final report RO -2013 -104 
+<< Page 19 >>
+ Appendix 1 : Safety -critical maintenance tasks for Ganz Mavag fleet   
+
+ 
+
+<< Page 20 >>
+ Final report RO -2013 -104 Appendix 2 : An example of a safety -critical task instruction   
+ET brake  cylinder replacement   
+ 
+ 
+ 
+ 
+ 
+
+ 
+Final report RO -2013 -104 
+<< Page 21 >>
+  
+
+ 
+
+<< Page 22 >>
+ Final report RO -2013 -104  
+
+ 
+Final report RO -2013 -104 
+<< Page 23 >>
+  
+
+ 
+
+<< Page 24 >>
+ Final report RO -2013 -104  
+
+ 
+Final report RO -2013 -104 
+<< Page 25 >>
+  
+  
+
+ 
+
+<< Page 26 >>
+ Final report RO -2013 -104 Appendix 3 : Shift handover sheet  
+ 
+
+ 
+  
+  
+ 
+4   
+  
+ 
+ 
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most  recent at top of list)  
+ 
+Urgent 
+Recommendations 
+RO-2015 -101 Pedestrian fatality, Morningside Drive level crossing, West Auckland,  
+29 January 2015  
+RO-2013 -105 Capital Connection  passenger train, departed Waikanae Station with mobility 
+hoist deployed 10 June 2013  
+RO-2014 -102 High -speed roll -over, empty passenger Train 5153, Westfield, South Auckland,  
+2 March 2014  
+RO-2013 -106 Track occupation irregularity, leading to near head -on collision,  Otira -Arthur's 
+Pass, 10 June 2013  
+RO-2012 -102 Train control power failure, 26 April 2012  
+Interim Report RO -
+2014 -103 Metropolitan passenger train, collision with stop block, Melling Station, 
+Wellington, 27 May 2014  
+RO-2013 -108 Near collisio n between 2 metro passenger trains, Wellington, 9 September 
+2013  
+11-106 Hi-rail vehicle nearly struck by passenger train, Crown Road level crossing 
+near Paerata, North Island Main Trunk, 28 November 2011  
+11-102 Track occupation irregularity, leading to near head -on collision, Staircase -
+Craigieburn, 13 April 2011  
+RO-2013 -104 Urgent Recommendations: Derailment of metro passenger Train 8219,  
+Wellington, 20 May 2013  
+11-103 Track workers nearly struck by passenger train, near Paekakariki, North Island 
+Main Trunk, 25 August 2011  
+10-101 wrong route setting, high -speed transit through turnout, near miss and SPAD 
+(signal passed at danger), Tamaki, 13 August 2010  
+11-104 Freight Train 261 collision with bus, Beach Road level crossing, Paekakariki, 
+31 October 201 1 
+10-102 collision between 2 metro passenger trains, after one struck a landslide and 
+derailed between Plimmerton and Pukerua Bay, North Island Main Trunk, 30 
+September 2010    
+  
+ 
+4   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 15.00         ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

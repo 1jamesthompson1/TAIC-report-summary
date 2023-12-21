@@ -1,0 +1,1674 @@
+﻿ 
+  
+ 
+ 
+Final  report   
+Tuhinga  whakamutunga  
+Aviation inquiry  AO-2019-002 
+Bombardier s DHC-8-311, ZK -NEH and ZK -NEF 
+'Loss of separation ' near Wellington,  
+New Zealand  
+12 March  2019  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+April  2022
+
+ 
+  
+ 
+ Final Report AO -2019 -002 | Page i The Transport Accident  Investigation Commission  
+Te Kōmihana Tirotiro Aituā Waka  
+No repeat  accidents - ever!  
+"The principal purpose of the Transport Accident Investigation Commission (TAIC) shall be to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding 
+similar occurrences in the future, rather than to ascribe blame to any person."  
+Transport Accident Investigation Commission Act 1990 , s4 Purpose  
+ 
+The Transport Accident Investigat ion Commission is an independent Crown entity and 
+standing commission of inquiry. We investigate selected maritime, aviation and rail accidents 
+and incidents that occur in New Zealand or involve New Zealand -registered aircraft or 
+vessels.  
+Our investigatio ns are for the purpose of avoiding similar accidents in the future. We 
+determine and analyse contributing factors, explain circumstances and causes, identify safety 
+issues, and make recommendations to improve safety. Our findings cannot be used to 
+pursue c riminal, civil, or regulatory action.  
+At the end of every inquiry, we share all relevant knowledge in a final report. We use our 
+information and insight to influence others in the transport sector to improve safety, 
+nationally and internationally.  
+ 
+Commiss ioners  
+Chief Commissioner     Jane Meares  
+Deputy Chief Commissioner    Stephen Davies Howard  
+Commissioner      Richard Marchant  
+Commissioner      Paula Rose, QSO  
+Key Commission personnel  
+Chief Executive     Martin Sawyers  
+Chief Investigator of Accidents   Harald Hendel  
+Investigator -in-Charge for this inquiry  Barry Stephenson  
+Commission General Counsel    Cathryn Bridge  
+ 
+Final Report AO -2019 -002 | Page ii Notes about Commission reports  
+Kōrero tāpiri ki ngā pūrongo  o te Kōmihana  
+Citations and referencing  
+The citations section of this report lists public documents. Documents unavailable to the 
+public (that is, not discoverable under the Official Information Act 1982) are referenced in 
+footnotes. Information derived from interviews during the Commission's inquiry into the 
+occurrence is used wit hout attribution.   
+Photographs, diagrams, pictures  
+The Commission owns the photographs, diagrams and pictures in this report unless 
+otherwise specified.  
+Verbal probability expressions  
+For clarity, the Commission uses standardised terminology where possible.  
+One example of this standardisation is the terminology used to describe the degree of 
+probability (or likelihood) that an event happened, or a condition existed in support of a 
+hypo thesis. The Commission has adopted this terminology from the Intergovernmental Panel 
+on Climate Change and Australian Transport Safety Bureau models. The Commission chose 
+these models because of their simplicity, usability, and international use. The Commi ssion 
+considers these models reflect its functions. These functions include making findings and 
+issuing recommendations based on a wide range of evidence, whether or not that evidence 
+would be admissible in a court of law.  
+ 
+Terminology  Likelihood  Equivale nt terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+  
+ Final Report AO -2019 -002 | Page iii  
+Figure 1: ZK-NEF Bombardier DHC -8-311 - Air New Zealand  
+  
+ 
+ 
+ 
+ 
+
+ 
+Final Report AO -2019 -002 | Page iv  
+Figure 2: Location of occurrence  
+  
+Wellington Airport  
+ Wellington Airport  
+Wellington Airport  
+incident location  
+  
+ Final Report AO -2019 -002 | Page v Contents   
+Rārangi take  
+ 
+1 Executive summary ................................ ................................ ................................ ........................  1 
+What happened  ................................ ................................ ................................ ................................ ...............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
+What we can learn  ................................ ................................ ................................ ................................ ..........  2 
+Who may benefit  ................................ ................................ ................................ ................................ ............  2 
+2 Factual information  ................................ ................................ ................................ .......................  3 
+Narrative ................................ ................................ ................................ ................................ .............................  3 
+Personnel information  ................................ ................................ ................................ ................................ .. 9 
+Aircraft information  ................................ ................................ ................................ ................................ ....... 9 
+Meteorological information  ................................ ................................ ................................ .....................  10 
+Aerodrome and airspace information  ................................ ................................ ................................ .. 10 
+Lyall waypoint  ................................ ................................ ................................ ................................ ...............  10 
+Traffic Collision Avoidance System (TCAS)  ................................ ................................ ........................  11 
+Visual approach under IFR  ................................ ................................ ................................ .......................  12 
+ATC sepa ration responsibilities  ................................ ................................ ................................ ..............  13 
+Recorded data  ................................ ................................ ................................ ................................ ...............  14 
+3 Analysis  ................................ ................................ ................................ ................................ .........  15 
+Introduction  ................................ ................................ ................................ ................................ ...................  15 
+What happened  ................................ ................................ ................................ ................................ ............  15 
+How did the flight crew of LINK285 mistakenly identify JST290 as LINK235?  .....................  17 
+Visual approach position in the landing sequence.  ................................ ................................ ........ 21 
+Radio frequency management  ................................ ................................ ................................ ...............  22 
+Cockpit voice recorders  ................................ ................................ ................................ .............................  22 
+4 Findings  ................................ ................................ ................................ ................................ ........  25 
+5 Safety issues and remedial action  ................................ ................................ ..............................  26 
+General ................................ ................................ ................................ ................................ .............................  26 
+Safety issues ................................ ................................ ................................ ................................ ...................  26 
+Other safety action  ................................ ................................ ................................ ................................ ...... 27 
+6 Recommendations  ................................ ................................ ................................ .......................  29 
+7 Key lessons  ................................ ................................ ................................ ................................ ... 30 
+8 Data summary  ................................ ................................ ................................ ..............................  31 
+9 Conduct of the inquiry  ................................ ................................ ................................ ................  33 
+ 
+Final Report AO -2019 -002 | Page vi Abbreviations  ................................ ................................ ................................ ................................ ....... 34 
+Glossary  ................................ ................................ ................................ ................................ ................  35 
+Citations  ................................ ................................ ................................ ................................ ...............  37 
+Appendix 1  Wellington International Airport (NZWN), New Zealand Aerona utical Information 
+Publication (NZAIP) ................................ ................................ ................................ .............................  38 
+Appendix 2  Timeline  ................................ ................................ ................................ ........................  40 
+Appendix 3  Air Nelson Standard Operating Procedures Extract - Flight Recorders and TCAS  41 
+Appendix 4  Air New Zealand serious incident list  ................................ ................................ ........  44 
+ Figures  
+Figure 1: ZK -NEF Bombardier DHC -8-311 - Air New Zealand  ................................ ..........................  iii 
+Figure 2: Location of occurrence  ................................ ................................ ................................ .........  iv 
+Figure 3: Wellington Airport, traffic pattern Runway 34  ................................ ................................ ... 4 
+Figure 4: Positions of JST290, LINK235 and LINK285 at 1730:45  ................................ .....................  5 
+Figure 5: Positions of aircraft at STCA 1732:4 5 ................................ ................................ ..................  7 
+Figure 6: Collins TCAS -94 Resolution Advisory Indication  ................................ ..............................  11 
+Figure 7: Airways radar - positions of JST290, LINK235 and LINK285 at 1730:45  ........................  19 
+Figure 8: Wellington Aerodrome  (credit NZAIP)  ................................ ................................ .............  38 
+Figure 9: Area navigation STAR RWY 34 (2)  (Credit: NZAIP)  ................................ .........................  39 
+ 
+ 
+ 
+  
+  Final Report AO -2019 -002 
+<< Page 1 >>
+ 1 Executive summary  
+Tuhinga whakarāpopoto  
+What happened  
+1.1. On 12 March 2019, three aeroplane s on scheduled passenger flights were sequenced 
+to land on Runway 34 at  Wellington International Airport. The first aeroplane in the 
+sequence, an Airbus A320, was approaching from the south -west. The other two 
+aeroplanes, both Bombardier DHC -8-311s (Dash -8s), were joining from the north -east.  
+1.2. When  the first Dash -8 aeroplane (callsign  LINK235) was parallel with  the runway,  the 
+flight crew  requested approval for a visual approach, rather than a full instrument 
+procedure . This was approved and the aeroplane continued downwind to position 
+behind the A320.  
+1.3. The second Dash -8 (callsign  LINK285) , following about two minutes behind  the first, 
+also requested a visual approach . This was approved to follow the first Dash -8. 
+However , the second Dash -8 identified the A320 as the Dash -8, then turned towards 
+the runway  to position behind the A320 . This put it into a conflicting flight path with 
+the first Dash -8. 
+1.4. As the two Dash -8s approached each other, the air traffic controllers were alerted to a 
+potential conflict by an automatic  short -term  conflict alert warning presented on their 
+radar display s. The approach controller tried to resolve the conflict but could not 
+contact the second Dash -8. They then contacted the Wel lington tower controller. The 
+Wellington tower controller broadcast a message to resolve the conflict . At about the 
+same time  the respective Dash -8 flight crews saw each other , and both took evasive 
+action to ensure adequate separation was maintained . While taking this evasive action , 
+the flight crews of both Dash -8s received automat ically generated , traffic -collis ion-
+avoidance alert messages from their onboard systems  that advis ed them to take 
+evasive action  to avoid conflict .  
+1.5. Both Dash -8 flight crews avoided the potential conflict  and all three aeroplanes landed 
+without further incident.  
+Why it happened  
+1.6. The Transport Accident Investigation Commission (Commission) found  that the crew 
+of LINK285  mistakenly identified another aeroplane in the sequence to land for the 
+preceding aeroplane they had been instructed to follow . The Commission found that 
+the flight crew had insufficient situation al awareness  in relation to their position in the 
+circuit pattern before they took  on the responsibility of maintaining their visual 
+separation from the aeroplane ahead . The lighting and visual conditions prevailing at 
+the time made it more difficult for the LINK285 flight crew to visua lly identif y the 
+preceding aeroplane , and they had not use d other means they had available to validate  
+their visual  interpretation . 
+1.7. In addition, the Commission found  that the automatic and human defences  
+incorporated into the air traffic control and aircraft systems  detected the potential 
+conflict  and prevented the situation escalating . 
+ 
+Final Report AO -2019 -002 
+<< Page 2 >>
+ 1.8. The Commission found three safety issues . Two safety issues were related to the 
+situation where a flight operating under instrument flight rules changed to make a 
+visual approach to l and. The first of these was that c ritical information for a flight crew 
+to conduct a visual approach was not required to be passed on to the flight crew . The  
+second was that air traffic control procedures could create a situation where an 
+approach controller would be  unable to contact a flight crew when the  controller was 
+still responsible  for monitoring that flight crew's compliance with an instruction . A third 
+safety issue was that, after a serious incident, the operator's current practice  allowed 
+potentially critical evidence  contained in two separate aircraft cockpit voice recorder s 
+to be lost . 
+1.9. The Commission considered that the actions taken by the respective operators 
+adequately addressed these  safety issues , so has not made any safety 
+recommendation s.  
+What we can learn  
+1.10. The v isual identification of other aircraft can be challenging . Pilots should use  all 
+available resources to build situation al awareness . 
+1.11. When a controller issues a clearance, it is important  to monitor the flight crew's initial 
+compliance to check it has been interpreted as intended . 
+1.12. Traffic Collision Avoidance System  equipment is an effective  defence against mid-air 
+collisions , and its display is also a useful instrument  that flight crew can use for their  
+situational awareness.  
+Who may benefit  
+1.13. Commercial p ilots, air service operators , air traffic service  providers  and air traffic 
+controllers  will benefit from this report.  
+  
+  Final Report AO -2019 -002 
+<< Page 3 >>
+ 2 Factual information   
+Pārongo pono  
+Narrative  
+2.1. On 12 March 2019  at 17321, three aeroplanes on scheduled passenger flights were 
+sequenced to land on Runway 342 at Wellington International Airport. The first 
+aeroplane in the sequence, was an Airbus A320 . Two Bomba rdier DHC-8-311 (Dash -8) 
+aeroplanes  operated by Air Nelson  (the operator) were conducting a  visual approach3 
+under instrument flight rules4 (IFR) to follow the Airbus . The rear aeroplane in the 
+approach  sequence of three mistakenly turned base early ; this set its flight path  to 
+conflict with the aeroplane  ahead .  
+2.2. The air traffic controllers were alerted to the potential conflict but were unable to 
+contact the rear aeroplane's flight crew . The onboard  Traffic Collision Avoidance 
+System s5 (TCAS s) fitted to the Dash -8 aeroplanes detected the potential for a collision 
+and issued TCAS Resolution Advisory6 (TCAS -RA) message s to the flight crew s to take 
+evasive  action . A collision was avoided and both aeroplanes landed without further 
+incident.  
+2.3. Both  aeroplanes  were scheduled passenger flights operating under IFR  in Class C 
+airspace .7  
+The approach sequence   
+2.4. The two Dash -8 aircraft  were following an IFR approach on a standard arrival route  
+(STAR ) called DOGAD THREE ALFA  to Runway 34 ( see Appendix 1 ). The last phase of 
+the STAR from  the TURAK waypoint was changed to a visual approach  with a standard 
+right -hand joining  pattern . This continued the  downwind leg  from TURA K followed by 
+a right turn onto the base leg then right again onto a final leg that would line up the 
+aeroplane  for the runway centreline (see Figure 3). The circular marked points in Figure 
+3 identify waypoints used by air traffic controllers to manage air traffic in the ir areas. In 
+this incident a third aeroplan e was sequenced  ahead of the two Dash -8 aeroplanes . 
+The approach controller had set the landing s equence for Runway 34  with an  Airbus 
+ 
+1 Times are in New Zealand daylight time (co -ordinated universal time + 13 hours) and expressed in the 24 -hour 
+format.  
+2 Runways are identified by their magnetic alignment, rounded to the nearest 10° increment. Runway 34 is 
+aligned about 340° magnetic.  
+3 An approach to a runway at an airport conducted under  instrument flight rules , but where the pilot proceeds by 
+visual ref erence with the ground and clear of clouds to the airport.   
+4 Rules that allow a properly equipped aircraft to be flown under instrument meteorological conditions  
+(conditions expressed in terms of visibility, distance from cloud, and ceiling less than the minima specified for 
+visual meteorological conditions ).  
+5 A Traffic Collision Avoidance System is based on secondary surveillance radar (SSR) transponder signals, and 
+operates independently of ground -based equipment to provide advice to pilots on pote ntial conflicting aircraft 
+that are equipped with SSR transponders .  
+6 An indication given to flight crew recommending a manoeuvre intended to provide separation from all threats; 
+or a manoeuvre restriction intended to maintain existing separation . 
+7 Class  C airspace  is a type of controlled airspace . For more details see Civil Aviation R ule 71 .105. 
+https://www.aviation.govt.nz/assets/rules/consolidations/Part_071_Consolidation.pdf   
+ 
+Final Report AO -2019 -002 
+<< Page 4 >>
+ A320  (JST290 ) as 'number one ', the Dash -8 LINK2358 as 'number two ' and the rear 
+Dash -8 LINK285 as 'number three '.  
+ 
+Figure 3: Wellington Airport, traffic pattern Runway 34   
+  
+Positions immediately before the conflict  
+2.5. The following descriptions are of the aircraft positions at 1730:45 as shown in Figure 4. 
+A more detailed timeline is provided for reference in Appendix 2.  
+JST290 (No.1)  
+2.6. The first aeroplane  in the approach sequence was JST290 , an Airbus A320  scheduled 
+flight  from Christchurch to Wellington. JST290 was cleared to approach via a different 
+STAR from the south -west to land on Runway 34.  
+2.7. At 1730: 45 JST290 was established on its final approach  and about  seven  nautical 
+miles9 (nm) from the threshold of Runway 34 . It was on a northerly heading , 
+descending through  an altitude of 2,275 fe et.10  
+ 
+8 This report has referred to the aircraft involved by their call signs rather than their flight numbers to match 
+extracts taken from controller recording s. 
+9 Distances in  aviation are measured in nautical miles . One nautical mile =1.852 kilometres . 
+10 Altitude is referenced to feet above mean sea level , in accordance with Annex 2  to the Convention on 
+International Civil Aviation . 
+Wellington 
+Airport  
+TURAK  
+LYALL  final leg to 
+Runway 34  
+downwind leg 
+base leg 
+
+  
+  Final Report AO -2019 -002 
+<< Page 5 >>
+ LINK235  (No.2)  
+2.8. The second aeroplane  in the sequence was LINK235 , a Dash -8 scheduled flight  from 
+Rotorua to Wellington.  LINK235 had been cleared to approach from the north -east via 
+the DOGAD  THREE ALFA  STAR .  
+2.9. LINK235 was following the STAR when the Wellington approach controller  advised that  
+a visual approach11 was available. Once the flight crew of LINK235 were satisfied that 
+visual conditions were suitable, the pilot flying12 requested a visual approach13 to 
+Runway 34 . This would require the flight crew to maintain their own visual separation 
+from the aircraft ahead. The controller  cleared LINK235 for a visual approach behind 
+JST290, routing via the LYALL14 waypoint with the instruction to contact Wellington 
+tower when turning  base. 
+2.10. After passing  over the T URAK  waypoint , LINK235 turned onto  a southerly heading to 
+extend downwind to sequence behind JST290. At 1730:45 LINK235 was approximately 
+3.5 nm south of T URAK  at an altitude of 3 ,950 feet .  
+ 
+Figure 4: Positions of JST290, LINK235 and LINK285 at 1730:45  
+  
+2.11. LINK235 then turned right onto the base leg to intercept the extended runway 
+centreline , and changed the active radio frequency to contact  Wellington tower .  
+LINK285  (No.3)  
+2.12. The third aeroplane  in the approach sequence was LINK285 , a Dash -8 scheduled flight  
+from Gisborne to Wellington.  LINK285 had also been cleared to approach from the 
+ 
+11 An approach when either part or all of an instrument approach procedure is not completed and the approach is 
+executed with visual reference to the terrain . 
+12 The pilot responsible for controlling the aeroplane . 
+13 Civil Aviation Rules Part 172.255 provides for visual separation between aircraft provided that a specific request 
+is made by the pilot   
+14 This was an historic waypoint but no longer used formally. See section 2.42 for an explanation of th e history of 
+this waypoint . 
+Wellington 
+Airport  
+1. JST290  
+2. LINK235 
+3. LINK285 
+LYALL  - 6 nm 
+TURAK 
+ 
+Final Report AO -2019 -002 
+<< Page 6 >>
+ north -east via the DOGAD THREE ALFA STAR.  At 1730:45 LINK285 was 4.3  nm north-
+east of  TURAK , on a south -westerly heading at 6 ,800 feet.  
+2.13. The approach controller gave LINK285 a standard descent clearance to continue along 
+the STAR. That clearance was follow ed with a description of the traffic ahead : "… and 
+the company Dash just turning onto base, ahead of you by about 6 miles ". The crew 
+responded with , "Visual Dash ahead, LINK285 ." This was positive confirmation to the 
+controller that the flight crew had seen and identified the relevant aeroplane ahead.  
+2.14. The approach controller  offered  the option of a visual approach : "is available to follow. 
+Advise? ". The flight crew of LINK285 then  requested a visual approach.  
+2.15. The approach controller 's clearance for the visual approach required LINK285 to 
+"extend downwind as required to follow the Dash -8 ahead then to route via LYALL ". 
+After confirming  the readback was correct, the approach controller said, "When turning 
+base leg, contact Wellington tower  on 118.8  [megahertz ]." The approach controller 
+then attended to another aircraft on their screen that was approaching from the south -
+west.  
+2.16. LINK285 flew ov er the T URAK  waypoint at 1732:00 then commence d a right turn onto 
+the base leg and chang ed radio frequency to contact the tower controller .  
+Air traffic control short-term conflict alerts 
+2.17. LINK285's right turn onto the base leg brought it into potential conflict with LINK235. 
+The conflicting flight paths triggered short -term  conflict alert s (STCA s) at 1732.45 on 
+the approach controller's and Wellington tower controller's screens , which drew their 
+attention back to LINK285.  
+2.18. Approach and tower  controller radar displays (see Figure 5) show outline s of the terrain 
+overlaid with the controlled airspace boundari es. Aircraft within an approach 
+controller's area of responsibility are displayed as moving targets , representing their 
+actual position s. A data block was displayed for each target with relevant information 
+related to that target  (such as  the flight call sign, altitude, speed, aircraft type, 
+destination, flight plan and controller's notes ). A two -minute speed vector shows where 
+the target will be in two minutes at the current speed  and heading . 
+  
+  Final Report AO -2019 -002 
+<< Page 7 >>
+  
+Figure 5: Positions of aircraft at STCA 1732:45  
+(Credit: Airways)  
+2.19. An STCA (or 'CA' in Figure 5 ) is a software conflict alert system built into the air traffic 
+control (ATC) system. The system constantly monitors aircraft  predicted trajector ies 
+and raises a conflict  alert on a responsible controller 's display if any target vectors are 
+convergent .15 
+2.20. Five seconds after the STCA  (at 1732:50 ), LINK285 broadcast on the Wellington tower 
+frequency that it was  "right base for 34, visual approach, visual Dash ahead" .  
+2.21. The approach controller attempted to call LINK285 on the approach frequency at 
+1732:51 , but the  flight crew  were not monitoring it at th at time. The approach 
+controller then contacted the tower controller by phone , at 1732:55.  
+2.22. The tower controller answere d the telephone call from the approach controller and did 
+not respond to the radio call from LINK285.  
+2.23. On the conclusion of the phone call between the controller s, the tower controller 
+broadcast at 1733:07 to LINK285: "Essential traffic16 on your left is a Dash -8 on a nine -
+mile final [approach] descending through 2 ,400 feet, maintain 3 ,000 feet."  
+2.24. The flight crew of LINK285 did not respond on the radio to the 'essential traffic' 
+warning from the tower controller , but commenced a left -hand t urn to the south  within  
+10 seconds of that call.  
+2.25. A subsequent attempt by the approach controller to contact LINK285 on the approach 
+frequency  also went unanswered.  
+TCAS Resolution Advisory  
+2.26. At 1733:25, five seconds after commencing the left turn, LINK285's onboard TCAS 
+issued an audible message (Resolution Advisory) to the flight crew to "climb climb ". At 
+ 
+15 Airways Corporation of New Zealand  Manual of Air Traffic Services  (MATS) , Rules of the Air and Air  Traffic 
+Services (RAC)  6, section 23 . 
+16 Essential traffic  is defined in the Civil Aviation Rule  172.3  as "Any controlled traffic that is not separated by the 
+prescribed minima in relation to other controlled flights where separation is required. " 
+LINK235 LINK285 
+STCA 
+indications  intersection of 2 -
+minute speed vector 
+for LINK235 and 
+LINK285  
+target data block  
+(LINK235)  target data block  
+(LINK285)  JST290  
+ 
+Final Report AO -2019 -002 
+<< Page 8 >>
+ the same time the TCAS on  board LINK235 issued an audible message (Resolution 
+Advisory) fo r that flight crew to "descend , descend ". The flight crew s of both LINK235 
+and LINK285 took evasive action as directed by their TCAS s. 
+2.27. LINK235 advised the tower controller of a TCAS -RA, which the tower controller 
+acknowledged. LINK285 then acknowledged the  same by stating its call sign,  
+"LINK285 ". 
+2.28. Air traffic radar records showed  that the two aeroplanes came within 0.8 nm (1.5 km) of 
+each other horizontally and 475 feet (145 m ) vertically.  
+2.29. At 1733:44 LINK235  advised the tower  controller  that it was  clear of conflict . That was 
+followed  immediately with a similar message from LINK285.  
+2.30. The tower controller then instructed LINK285 to contact the approach controller on 
+122.3 MHz and for LINK235 to continue on to land.   
+2.31. 122.3 MHz was a published Wellingto n alternate  approach frequency  on the STAR . At 
+the time it was being used by the departure controller17, who sat immediately adjacent 
+to the approach controller at the Wellington control desk in Christchurch.  The 
+departure controller was aware of the STCA  incident due to their proximity to the 
+approach controller , and immediately assumed control of LINK285  without comment . 
+The departure controller directed LINK285 to continue heading south , then 
+repositioned it for a visual approach behind LINK235 . Once LINK285 was established 
+on its final approach , it was passed back to the tower controller for a landing clearance.  
+2.32. All aeroplanes  involved landed without further incident .  
+  
+ 
+17 The air traffic control position responsible for flights departing a terminal area . 
+  
+  Final Report AO -2019 -002 
+<< Page 9 >>
+ Personnel inform ation  
+Pilot experience  
+ LINK235  LINK285  
+ Captain  First Officer  Captain  First Officer  
+Licence held ATPL(A)  CPL(A)  ATPL(A)  CPL(A)  
+Licence issued  2014  2017  2017  2018  
+Total hours 4,000 2,550 4,200 2,500 
+Hours on type 3,500 500 1,300 250 
+Last flight review  28 Jan 2019  4 Jan 2019  15 Dec 2018  18 Jan 2019  
+With operator since  2011  2018  2016  
+(upgrade to 
+Captain Dec 
+2018)  Jan 2019  
+Role for this flight  Pilot 
+monitoring18 Pilot flying  Pilot flying  Pilot 
+monitoring  
+Note: Licences above are: airline trans port pilot licence (aeroplane ) and commercial 
+pilot licence ( aeroplane) . 
+Controller experience   
+2.33. The approach  controller  had more than 20 years' experience as a controller at the time 
+of the incident.  The approach controller was located at the Christchurch national ATC 
+centre  at the Wellington sector control work station. Three controllers operated that 
+workstation.  
+2.34. The tower  controller  had more than 20  years' experience as a controller at the time of 
+the incident.  The tower controller was located in the Wellington control tower near 
+Wellington A irport.  
+Aircraft information  
+Dash -8 
+2.35. LINK235  and LINK285 were both Bombardier DHC -8-311 aeroplane s being operated 
+by Air Nelson . The Bombardier DHC -8-311, commonly called a  Dash -8 after its 
+developmental history , is a twin -engine turboprop aeroplane  operated by two pilots 
+and with seating capacity for 50 passengers.  
+2.36. Both  aeroplanes  were fitted with Collins TCAS -94 TCAS II, Traffic Alert Collision 
+Avoidance System s (TCAS II s). 
+A320  
+2.37. The A320 was a twin-turbine passenger jet aircraft manufactured by Airbus  and 
+operated by Jetstar A irways , with a seating capacity of 180.  
+ 
+18 The pilot responsible for monitoring the flight management and aeroplane control actions of the pilot flying, 
+and carrying out support duties s uch as communications and checklist reading.  
+ 
+Final Report AO -2019 -002 
+<< Page 10 >>
+ Meteorological  information  
+2.38. The Wellington aerodrome automatic terminal  information  service  (ATIS) broadcast  the 
+conditions at the time as : 
+• surface wind 340 ° magnetic  at 14  knots19 varying between 280 ° magnetic  and 360 ° 
+magnetic  
+• cloud broken (5/8ths - 7/8ths coverage) with the cloud base at 1 ,700 feet  
+• visibility 20 kilometres  
+• temperature 21 ° Celsius  
+• dew point 16 ° Celsius  
+local barometric pressure (QNH) 1 ,015 hectopascals .  
+2.39. Sunset on 12 March 2019  was at 1947 . At 1730:45  the sun was  low in the west at  24° 
+above the horizon.  
+Aerodrome  and airspace  information  
+2.40. Wellington International Airport is located on the south-east side of Wellington city 
+(see Appendix 1).  The airport  has a single runway  aligned approximately north  to south 
+named runway  34 or 16 respectively.  The terminal control zone extend s from the 
+surface to 2,500 feet, and 10 nm to the south.  
+2.41. The Wellington terminal area sits above the control zone  and provides  defined air 
+corridors  to the control zone  from upper cruising levels . Both these sections of airspace 
+are designated Class C. 
+Lyall waypoint  
+2.42. The LYALL waypoint was a GPS waypoint located six nm from the threshold of Runway 
+34. It was a flyby point used to establish a standard route on a visual approach . It was 
+once publishe d on a visual arrival chart,  but that chart has since been discontinued. It 
+also existed as a designated waypoint but was not depicted on any approach charts.  
+Controllers used it for domestic traffic.  
+2.43. Air New Zealand advised that LYALL was not programmed i nto the Q300 or ATR72 
+flight management systems. Flight crew must rely upon crew knowledge and 
+experience  when ATC issued a clearance through LYALL and it required the crew to 
+manually program the point rather than selecting a pre -set waypoint . The final f ix 
+(point F134) for an instrument landing to Runway 34 was 0.2 nm away from LYALL and 
+sometimes used instead.  
+2.44. Airways reviewed the LYALL  waypoint after this incident and it has since been deleted 
+from the Air Navigation Register.  
+ 
+19 One knot = one nautical mile per hour . 
+  
+  Final Report AO -2019 -002 
+<< Page 11 >>
+ Traffic Collision Avoidance System (TCAS)  
+2.45. The Collins TCAS -94, TCAS II identifi es and display s potential and predicted collision 
+threats. The system protect s a volume of airspace around an aircraft by interrogating 
+transponders20 in nearby aircraft  and provide appropriate aural and visual advisories to 
+a flight crew when another aircraft is predict ed to infringe  on the protected airspace.   
+2.46. TCAS s provide two advisory levels to flight crew. The first  advisor y level,  Traffic 
+Advisory , displays  and annunciates the relative positions of intruding aircraft that are 
+12 nm (approximately 40 seconds) from the closest point of approach. A Traffic 
+ 
+20 Electronic device s that produce  response s when they receive  radio -frequency interrogation. Aircraft have 
+transponders to assist in their identif ication  on air traffic control radar.  
+Figure 6: Collins TCAS -94 Resolution Advisory Indication  
+ 
+Final Report AO -2019 -002 
+<< Page 12 >>
+ Advisory  provides the flight crew with adequate time to visually locate the intruding 
+aircraft and initiate evasive manoeuv res. The second advisory level , Resolution 
+Advisory , displays  and annunciates  a vertical manoeuvre that increase s separation 
+when the intruding aircraft is approximately 25 seconds from the closest point of 
+approach. When in receipt of a TCAS -RA the flight  crew must initiate evasive 
+manoeuvres based on the TCAS -RA unless compliance is unsafe.21 If both aircraft have 
+TCAS s, the equipment  coordinate s avoidance advisories to maximise separation , for 
+example  by instructing one aircraft to climb and the other to  descend.  
+Visual approach under IFR  
+2.47. Under an IFR approach procedure, the flight crew may request to fly all or part of the 
+procedure  by maintaining their own visu al separation from other aircraft , rather than 
+continue with the published procedure  where  the controller provid es the  separation . 
+Approval is conditional , among other things, on certain meteorological  conditions 
+existing. In this incident , changing to a visual approach meant that the last two 
+waypoints , RONGO and UMAGA ( see Appendix 1) , could be excluded.  
+2.48. Visual approach es while under IFR are available at  controlled aerodromes when 
+meteorological conditions are suitable . The benefits can include  reduc ing controller 
+and flight crew workload and reduc ing time and costs with a shorter flight path over 
+the ground. One consequence of chang ing to a visual approach is the flight crew 
+should  have a full appreciation of the ir position  in the sequenc e and take responsibility 
+for their own separation  from aircraft  they have been instructed to follow .  
+2.49. The air traffic rules for IFR flight are based on internationally agreed standards and 
+recommended practices , which are then usually incorporated into local rules for each 
+jurisdiction.  New Zealand aligns the Civil Aviation Rules for air traffic management with 
+ICAO's standards and recommended practices prescribed in Annex 11 and 2 to the 
+Convention. These Annexe s govern the application of the Procedures for Air 
+Navigation Services - Air Traffic Management (Doc 4444) and the Regional 
+Supplementary Procedures - Rules of the Air and Air Traffic Services (Doc 7030), which 
+are incorporated into Airways' Manual of Air Traffic Services . The International Civil 
+Aviation Organi zation (ICAO) Document 4444, Procedures for Air Navigation Services , 
+states that:  
+6.5.3.1…  clearance for an IFR flight to execute a visual approach may be 
+requested by a flight crew or initiated by t he controller. In the latter case, the 
+concurrence of the flight crew shall be required.  
+6.5.3.4 Separation shall be provided between an aircraft cleared to execute a 
+visual approach and other arriving and departing aircraft.  
+6.5.3.5 For successive visual approaches, separation shall be maintained by the 
+controller until the pilot of a succeeding aircraft reports having the preceding 
+aircraft in sight. The aircraft shall then be instructed to follow and maintain own 
+separation from the preceding aircraft22 (ICAO, 2016) . 
+2.50. ICAO Document 4444 is incorporated into the New Zealand publications to define 
+airspace control in this country. Airways Corporation of New Zealand  (Airways)  
+provide s a Manual of Air Traffic Services (MATS) for gu idance for its controllers. MATS 
+ 
+21 Air New Zealand Flight Crew Operating Manual Vol. 2 . 
+22 ICAO Doc 4444, 16 th edition, 2016, p.133 . 
+  
+  Final Report AO -2019 -002 
+<< Page 13 >>
+ state s that the controller is responsible for ensuring that "there is no possibility of 
+incorrect identification"  when giving clearance to operate by visual separation.23 
+2.51. MATS also state s that:  
+when requiring a pilot to sight another aircraft prior to the application of visual 
+separation, controllers shall provide such of the following information that is 
+available and appropriate to the situation:  
+• Aircraft type  
+• Position of the other aircraft relative to a navigation aid or prominent 
+geographic feature, a procedure or traffic circuit being flown, or a 
+relative bearing (clock reference) and distance  
+• Level information, relative height, or Mode C24 readout  
+• Any other pertinent information such as direction of flight, company 
+name, colour, intentions, etc. in circumstances where there might be a 
+possibility of error in sighting the correct aircraft.  
+Due to recognised difficulties in sighting another aircraft, such as size, colour, 
+aspect, speed, sun position, background contrast , etc., controllers should not 
+give sighting information until the aircraft are known or believed to be within 
+10nm of one another.25 
+ATC separation responsibilities  
+2.52. Airways has standard operating pr ocedures26 for the control of aircraft movements in 
+and out of Wellington and for the handover of control responsibility to each IFR 
+aircraft as it crosses control boundaries.   
+2.53. When IFR aircraft are sequenced to land at Wellington , the approach controller 
+determines the sequence and is responsible  for separation between these aircraft until 
+landing . An exception to thi s exists when an IFR aircraft has been cleared for a visual 
+approach and has agreed to follow a preceding IFR aircraft, in which case the 
+responsibility for separation is passed to the flight crew  of the following aircraft. 
+Aircraft on a visual approach can be released from approach control to tower control 
+by various means, allowing tower control to resolve conflicts with VFR traffic in the 
+control zone.   
+2.54. The tower controller takes responsibility for provid ing visual separation within 5 nm of 
+the threshold , but only to ensure that the runway is clear and available for each aircraft 
+sequenced to land.  The tower controller issues the sequenced aircraft  a clearance to 
+land if the runway is clear .  
+2.55. The flight crew on a visual approach  are responsib le for maintaining their separation 
+from the aircraft they have been directed to follow , including for wake turbulence . They 
+are also required under  right-of-way rules27 to maintain a visual lookout at all times to 
+see and avoid other aircraft.  
+ 
+23 MATS 202.2 V isual separation beyond the vicinity of aerodromes . 
+24 The altitude encoded data sent by a secondary radar transponder in response to ATC interrogation signals.  
+25 MATS 202.7 P ilot sighting of other aircraft . 
+26 Wellington Terminal Procedures, 28 February 2019, RAC  part 2, sections A and C . 
+27 Civil Aviation Rules 91.229 . 
+ 
+Final Report AO -2019 -002 
+<< Page 14 >>
+ 2.56. In this incident, LINK285 was still within the approach controller 's area of responsibility 
+to maintain IFR separation  between it and other aircraft  when the STCA and TCAS 
+events occurred.  
+Recorded data  
+2.57. The flight data recorder (FDR) data records of both aeroplanes were downloaded 
+under the  Transport Accident Investigation Commission's ( Commission 's) supervision.  
+These records covered the entire incid ent flight s for both aeroplanes .  
+2.58. The cockpit voice recorder (CVR) system s fitted in both aeroplanes were  capable of 
+recording two hours of crew communications in a continuous loop format.28 The 
+previous recording was progressively overwritten by the next two -hour period. The 
+CVRs in both aeroplanes were  not disabled until the end of the next leg . As a result  the 
+incident flight record for LINK285 was lost and only the last 12 minutes of the incident 
+flight for LINK235 were  available for analysis . 
+2.59. Airways  provided recorded sur veillance data compiled from Secondary Surveillance 
+Radar (SSR) and Automatic Dependent Surveillance -Broadcast (ADS -B) flight track ing 
+data, audio recordings and images of the radar controller's display screens to the 
+Commission for analysis.  
+ 
+28 This was for the cockpit -area microphone and combined individual channels. The captain, first officer and 
+public address channels were on a 30 -minute cycle.  
+  
+  Final Report AO -2019 -002 
+<< Page 15 >>
+ 3 Analysis  
+Tātaritanga  
+Introduction  
+3.1. The main purpose of controlled airspace , air traffic control and IFR is to create safe 
+pathways for air traffic  and to avoid potential collisions. Therefore, when two aircraft 
+converg e too close ly in controlled airspace , causing the activation of aircraft or ATC-
+based alerts, it is classified as a serious incident.  
+3.2. This incident resulted in a STCA alert to the air traffic controllers followed by  a TCAS -
+RA warning to the two flight crew s involved . The automated activation of these 
+important  safety warning systems  is evidence that they worked correctly in the 
+background and as intended  to prevent accidents.  
+3.3. The potential  aircraft conflict was detected and avoided . The two aircraft subsequently 
+landed without further incident and the passengers  were  very likely  unaware  of what 
+had occurred .  
+3.4. This analysis examines the circumstances and events leading up the TCAS activation 
+and why the aeroplanes  were on conflicting flight paths within controlled airspac e. It 
+looks at  the circumstances  and factors that increased the likelihood of the event 
+occurring and those that were intended to preven t the incident . It also considers if any 
+safety issues exist that could have the potential to adversely affect future operations.  
+3.5. Three safety issue s were  identified :  
+• the approach sequence position is critical information for pilots conducting visual 
+approach es under IFR, but controllers are not required  to provide  that information i n 
+a visual approach clearance  
+• the association of radio handover to a tower controller with other clearance actions 
+can result  in an approach controller losing  radio contact with IFR traffic in their sector  
+• the operator did not preserve and protect potentially critical evidence contained in 
+the CVRs immediately after this serious incident .29 
+What happened  
+3.6. LINK2 85 was following a STAR  to Runway  34 when the approach controller advised 
+that a visual approach would be available.  The weather at the time was suitable for a 
+visual approach into Wellington  and t he flight crew had visually identified an aeroplane 
+ahead.  
+3.7. The pilot flying  subsequently requested a vis ual approach. Once approved, the pilot set 
+a course to follow the aeroplane  they had identified  ahead.  
+3.8. The flight crew of LINK285 had mistakenly identified JST290 as the aeroplane ahead  
+that they were to follow in the STAR procedure . They had not seen LIN K235 , which was 
+also ahead and was the aeroplane they were meant to follow . The flight crew 
+proceeded to position LINK285 with appropriate separation, behind JST290. They 
+ 
+29 An incident with  a high probability of leading to an accident. A sample list is provided in ICAO Annex 13, 
+Attachment C  (ICAO, 2016) . 
+ 
+Final Report AO -2019 -002 
+<< Page 16 >>
+ turned onto the base leg and changed frequency , then called Wellington tower in 
+accor dance with their clearance.  
+3.9. This movement took LINK285 onto a flight path that would conflict with LINK235's 
+flight path , and it activated the STCA. The STCA drew the approach controller's 
+attention back to LINK285, just as it was intended to do. As the f light crew had 
+changed to the tower frequency, the approach controller could not make radio contact 
+with LINK285.  
+3.10. In the meantime, LINK235 was on its final approach  behind JST290. The flight crew 
+were scanning their instruments and saw the other Dash -8 app ear on the TCAS display 
+within their airspace and approaching  from their right -hand  side. They were planning 
+to descend below glideslope30 to increase separation clearance.  
+3.11. The crew of LINK285 reported to the Commission that they saw an unexpected aircraft 
+on a conflicting flight path from their left and that they immediately commenced a left 
+turn to avoid it. The flight recorder data confirmed that the aeroplane started a left 
+turn approximately five seconds before the T CAS-RA activation.  
+3.12. The left turn by LINK285 initially brought the two aircraft into more direct conflict , but 
+as the turn progressed it took them further apart. The TCAS activated in both Dash -8s, 
+and the respective flight crews took action as the systems directed to avoid the 
+conflict.  
+Responsibility for separation  of aircraft  
+3.13. There are several safety barriers  to prevent regular passenger transport aircraft flying 
+too close to other aircraft . Pilots and air traffic controllers  are responsible for managing  
+the safety barriers that are applicable to their  operational areas. In this case t he first 
+responsibility was with the approach controller. In Class C airspace, the controller is 
+responsible for maintaining separation between IFR aircraft and between IFR aircraft 
+and all other air traffic . This changed when the flight crew of LINK285 decided to  
+accept responsibility for their separation from the aircraft ahead and conduct a visual 
+approach. The approach controller 's responsibility was now to monitor that LINK285 
+was complying with their instruction , so maintained a general awareness of LINK285's 
+progress.  
+3.14. Once t he flight crew of LINK285  were  cleared for the visual approach , they were 
+primarily res ponsible for ensuring their own separation from the aeroplane  they had 
+been instructed to follow . For this to work , they had to  identif y the correct aeroplane to 
+follow. When the flight crew misidentified the aircraft ahead and followed the wrong 
+aeroplane, the remaining safety bar riers came  into effect . 
+3.15. The next safety barrier  to take effect was the automatic STCA . It was successful in 
+detecting a potential conflict between LINK285 and LINK235 and in drawing the 
+attention of both  the approach and the tower controllers to it in sufficient  time for the 
+approach controller to act . However, t he approach controller was unable to contact 
+LINK285 on the radio  because the flight crew were  in the process of transitioning from 
+approach to tower frequency as instructed and were no longer monitoring the 
+approach controller 's frequency.  This delayed  the approach controller in re-
+ 
+30 An instrument landing system that indicates the proper path of descent for an aircraft preparing to land  
+  
+  Final Report AO -2019 -002 
+<< Page 17 >>
+ establishing contact and potentially issuing traffic information or instructions to resolve 
+the conflict . 
+3.16. The tower controller was also aware that the STCA had activated and was assessing  the 
+situation .  When the STCA activated, LINK285 had not yet contacted the tower  
+controller . Normal procedure for handover between controllers is that aircraft released 
+to th e tower will have a suitable form of separation in place with no action required by 
+the tower controller. The STCA created doubt for the two controllers about the 
+sequence  and separation .  
+3.17. The next safety barrier  to take effect was the tower controller advising LINK285 of 
+'essential traffic'  in its vicinity . This call was initiated by the approach controller's 
+telephone conversation with the tower controller. It was successful in further raising 
+the LINK285 flight crew's awarenes s of the conflict . The tower controller 's message 
+included guidance actions for the flight crew  to avoid the conflict .  
+3.18. The next safety barrier  to take effect was the 'see and avoid' actions of the respective 
+flight crew s. These were  also effective , as the  flight crews of LINK235 and LINK285 saw 
+each other and initiated their own avoiding action slightly before their respective 
+TCAS s had warned them of the potential conflict . 
+3.19. The last safety barrier  to take effect was the TCAS . It work ed as designed and alerted 
+both flight crews  to a potential mid-air collision and provid ed visual and aural 
+instructions for them to avoid it.   
+How did the flight crew of LINK285 mistakenly identify JST290 as 
+LINK235 ? 
+3.20. The flight crew of LINK285  mistakenly visually  ident ified an A320 on its final approach  
+as a Dash -8 on the base leg.  This may seem improbable  given  that t he A320 is a low-
+wing , twin-engine  jet aeroplane, while a Dash -8 is a high wing, T -tail, twin-engine 
+turboprop aeroplane. The flight crew were experienced pilots attempting  to identify an 
+aeroplane  that was  the same as the one they were flying  and operated by the same 
+company . They were also familiar where aircraft would be on each leg of the approach 
+pattern into Wellington Airport .  
+3.21. This section discusses the possible factors that contribut ed to the flight crew of 
+LINK285  misidentifying the aeroplane that the approach controller had instruct ed them 
+to follow. It also outlines the rules in place for this situation and the defences in place 
+intended to prevent one aeroplane  getting too close to another .  
+Possible contributing factors that were excluded  
+3.22. Several factors could have contributed to this incident , but t here was no evidence to 
+support the following  items , so they were rejected.  
+• Licensing: The LINK285 flight crew had the appropriate experience and licences to fly 
+the aeroplane.  
+• Workload: The weather was fine and the flight crew were not dealing with any sort of 
+emergency situation or system failure. There were  only two other aircraft in the 
+approach tr affic. The cockpit was reported by the flight crew to have been 'sterile' with 
+no distractions. This situation would have been  unlikely  to present a high workload for 
+experienced pilots.  
+ 
+Final Report AO -2019 -002 
+<< Page 18 >>
+ • Fatigue: Both pilots in LINK285 had had adequate rest since their pre vious duty time 
+and said they were alert and focused on the tasks at hand.  
+• Familiarity: The flight crew stated they had briefed for the approach at the top of the 
+descent and were both expecting a standard instrument terminal -arrival route through 
+the way points to Runway 34. Although they had not briefed for a visual approach that 
+could deviate from the IFR route, they had both  flown visual approaches to Wellington 
+along this route  before . 
+• Weather: The weather was fine  with scattered cloud  clearing from  the south of 
+Wellington. The v isual clearance from cloud was assured and the horizontal visibility 
+distance was suitable for visual flight conditions.  
+• Pilot interactions: The captain and first officer both said they worked well as a team. 
+Neither pilot expressed any concern about their working relationship in the cockpit.   
+Situational awareness  
+3.23. LINK285 was on a planned IFR descent profile31 under the control of the approach 
+controller. The approach controller was , at that time, responsible for ensuring 
+appropriate separation from other aircraft,  but the flight crew were  about to transition 
+to a visual approach . 
+3.24. The flight crew  needed to update their awareness  of other aircraft in the approach 
+pattern  in preparation for conducting a visual approach . A pilot gains situational 
+awareness by their perce ption and interpretation  of the information they receive 
+through their senses. This includes  from visually scanning outside, scanning the flight 
+instruments  and listening to radio chatter . Where an aircraft has two pilots, they share 
+the workload and confer on their respective observations.  This helps them to build a 
+shared picture  of other aircraft in the airspace around them.  
+3.25. The flight crew of LINK285 said, during an interview, that they were listening to the 
+Wellington approach frequency and heard instructions being issued to LINK235 and 
+JST290. This indicate d that there were at least two preceding aircraft in the approach 
+sequence  before they went  visual .  
+3.26. According to  the ICAO proced ures for an IFR flight , to make a visual approach32 the 
+pilot needs to positively identify aircraft they have been instructed to follow and the 
+controller needs to monitor the pilot's actions. The guidance for controllers is stated in 
+MATS33 as: 
+After clea ring an aircraft for a visual approach and to follow another aircraft 
+visually, radar controllers should continue to monitor the aircraft in order to 
+confirm that the correct aircraft is being followed.  
+3.27. At 1730:45, two minutes before the TCAS -RA, the radar  display for the Wellington 
+approach showed LINK235 approximately 8  nm ahead and slightly to the left of  the 
+track of LINK285, while JST290 was approximately 9  nm ahead and slightly to the right 
+of the track of LINK285 (see Figure 7). 
+3.28. The flight crew were required to identify the aeroplane ahead that was just turning 
+onto base. JST290 was on  its final approach  at the time. The flight crew o f LINK285 and 
+ 
+31 A path with set vertical limits and heights to be at when passing each waypoint . 
+32 ICAO Document 4444, Section 6.5.3 - Visual approach . 
+33 MATS RAC 6, section 17.7 . 
+  
+  Final Report AO -2019 -002 
+<< Page 19 >>
+ the approach controller were  both confident that LINK235 had been correctly 
+identified  as the aircraft ahead . The approach controller then switch ed their attention  
+to another aircraft arriving at Wellington on the other side of their screen.  
+ 
+Figure 7: Airways radar - positions of JST290, LINK235 and LINK285 at 1730:45  
+  
+3.29. While the relative positions of aircraft on the radar screen  were clear to the approach 
+controller, the pilots in LINK285 did not have the same perspective .  
+3.30. At 1730:45 , when the LINK285 flight crew stated they had LINK235 in sight ahead, the 
+sun was approximately 24 ° above the horizon and to their right. The pilot flying  
+recalled that conditions were suitable for a visual approach . There was s ome cloud  
+around but the sun was low in the sky and it was clearer of cloud to the south. The 
+pilot monitoring  had noted that co lour clarity was poor.  
+3.31. At that time LINK235 was approximately 6 nm ahead, 2,800 feet below and flying 
+directly away from LINK285 (see Figure 4). It would have presented as a small cross -
+sectional area with little to no sun reflection and have had very little contrast or relative 
+movement against the background. It would have been difficult for the flight crew of 
+LINK285 to see and visually identify the other Dash -8. 
+3.32. Conve rsely, JST290 was about the same distance away from LINK285 but lower down 
+and slightly to its right -hand side and flying towards it. The sun would  likely  have been 
+highlighting the upper surfaces of JST290 against the contrasting darker sea, making 
+its re lative movement more obvious.  
+3.33. At 6 nm a pilot would be challenged to distinguish an other  aircraft's details and colour 
+scheme. The human eye could detect an object's movement and distinguish that it was 
+an aircraft at that distance,  but the visual acuity of details may not be as clear.   
+3.34. The image derived by a human eye may seem convincing and true to the eye's owner, 
+but the human eye is well known to have imperfections and be subject to illusionary 
+effects at times.  
+Link285  
+Link235  
+JST290  
+2-minute range line  
+aircraft information  
+15 nm finals track  
+(1 nm increments)  
+ 
+Final Report AO -2019 -002 
+<< Page 20 >>
+ 3.35. In the book, Fundamentals of Aerospace Medicine (Davis, Johnson, Stepanek, & 
+Fogarty, 2008) , the visual function of the eye is described as:  
+The visual apparatus, stimulated by light, must primarily perform three basic 
+function s. It must be able to perceive an object by the detection of light emitted 
+or reflected from it; this is known as light discrimination. Second, it must be able 
+to perceive the details of an object; this is known as visual acuity. Third, it must 
+allow one t o judge distances from objects and to perceive movement in the 
+field of vision. These latter two functions combined are known as spatial 
+discrimination.  
+3.36. The flight crew in L INK285 looked ahead for LINK235 where they expected it to be and 
+saw an aeroplane . They agreed it was LINK235  but they had likely  experienced 
+confirmation bias.  
+Confirmation Bias is the tendency to look for information that supports, rather 
+than rejects, one's preconceptions, typically by interpreting evidence to confirm 
+existing beliefs while rejecting or ignoring any conflicting data  (Noor, 2020) . 
+3.37. Both the pilot flying  and pilot monitoring  LINK285 recalled in separate interviews that 
+the pilot flying  had located the aircraft ahead (this was J ST290) and pointed it out to 
+the pilot monitoring . The pilot flying  recalled that, initially , the pilot monitoring  had 
+had difficulty identifying the aircraft ahead, but eventually they had both believed it 
+was LINK235.  
+3.38. The LINK285 flight crew had other information  available that conflicted with their 
+agreed identification of LINK235  at this time, but they did not focus their attention on 
+it. For example:  
+• the LINK285 flight crew heard the approach controller pass the control of JST 290 to  
+the tower  immediately before receiving their own clearance to descend. That meant 
+they were one of three aircraft in the landing sequence.  They had identif ied one 
+aeroplane in front, but where was the othe r? 
+• the Dash -8 ahead was described by the approach controller as turning onto  base leg , 
+but the A320 that they thought was LINK235  was on its final approach . This was a 
+different position in the landing pattern,  and it was heading in a different direction  
+from  LINK235  
+• there is a significant difference between  the shape  of a Dash -8 and  that of  an A320.  
+3.39. The TCAS  would have displayed information that also conflicted with  the crew's  mental 
+model . The TCAS range was set to detect and display other aircraft with transponders 
+in a 12 nm radius of airspace around the aeroplane. Both JST290 and LINK235 were 
+about 6 nm away from LINK285 and their targets would have been visible  on the TCAS 
+display as open or solid , cyan-coloured diamond s. The pilots in LINK285 said they did 
+not check t heir TCAS display until after they saw an unexpected object to their left . 
+They used the TCAS to confirm  it was an aircraft  target . 
+3.40. The LINK285 flight crew's reliance on  the visual identification of the aeroplane they had 
+been directed to follow , without considering  alternative sources of verification , led to 
+their misidentif ying that aeroplane. Once the flight crew  had convinced themselves 
+they were following the correct aircraft to land, the sudden realisation that they were 
+  
+  Final Report AO -2019 -002 
+<< Page 21 >>
+ wrong had a startle effect34 on them.  All participants in this incident were stood down 
+from duty afterwards, to allow them to recover .  
+Visual approach position in the landing sequence.  
+Safety issue:  While  ATC sequence s an IFR a eroplane to land and approve s the flight crew to 
+conduct a visual approach, current air traffic rules do not require controllers to provide flight 
+crew with their position s in the approach sequence. This information can be crucial to a flight 
+crew conducti ng a visual approach for them to maintain their situational awareness.  
+3.41. The procedure for a flight crew on an IFR flight to make a visual approach to land is a 
+recognised procedure and provided for in both international and New Zealand air-
+traffic -managemen t procedures. In this incident, LINK285 sought and was approved to 
+make a visual approach to land at Wellington  Airport  in accordance with the 
+procedure.  
+3.42. While MATS currently does not require a controller to provide a landing sequence for 
+IFR aircraft conducting a visual approach, it does suggest that controllers provide such 
+information that is available and appropriate to the situation. The approach controller 
+clearly described the position of the aeroplane ahead in the circuit pattern that 
+LINK285 was to follow by stating that it was,  "just turning onto base ". LINK285's 
+position number in the sequence was known by the controller but not passed  on to the 
+flight crew.  
+3.43. The current air traffic rules are inconsistent on the minimum information co ntrollers are 
+required to provide to pilots conducting a visual approach. The requirement s depend 
+on whether the aircraft is operated under IFR or visual flight rules ( VFR). In both 
+situations the flight crew are responsible for maintaining their own visua l separation 
+from an aircraft ahead and need to develop an awareness of other aircraft in the 
+landing pattern. In both situations the aeroplane's position in the landing sequence is 
+information that the flight crew need to develop their situational awarene ss, but MATS 
+only requires the sequence to be provided to a VFR flight when that pilot is issued with 
+a clearance to follow another.  
+3.44. When aircraft are flying in a rectangular pattern in a sequence to land, several aircraft 
+could be visible to the rear pil ots in that sequence. Some aircraft may  be joining the 
+sequence from another direction or lining up for another runway. Some may have 
+changed to a tower frequency for landing. Those on the tower frequency may not be 
+audible to pilots still under approach c ontrol. Therefore, when an IFR flight is 
+conducting a visual approach to land, the aeroplane's position in the sequence 
+becomes a significant factor in the pilots' situational awareness.  
+3.45. Despite there being no formal requirement for a controller to provide  a flight crew with  
+information on  their position in a landing sequence, there is no barrier to a flight crew 
+asking for that information if they think  they need it. In this case, the LINK285 flight 
+crew were not provided with a position in the approach sequence when the visual 
+approach clearance was issued and did not ask for one . 
+ 
+34 An uncontrollable, automatic reflex that is elicited by exposure to a sudden , intense event that violates a pilot's 
+expectations.  Federal Aviation Administration  Advisory Circular 120 -111, 14 April 2015 . 
+ 
+Final Report AO -2019 -002 
+<< Page 22 >>
+ Radio frequency managemen t  
+Safety issue: When an IFR aeroplane is approved to conduct a visual approach to land, current 
+ATC procedures can allow the flight crew to change their radio to the tower frequency 
+dependent on their other clearance actions. This can create a situation wher e the approach 
+controller is unable to contact that flight crew when the  controller is still responsible for 
+monitoring that flight crew 's compliance with an  instruction .  
+3.46. The flight crew of LINK285 were instructed to follow the Dash -8 ahead and maintain 
+separation from it. Their next instruction was to change to tower frequency when they 
+were on base leg. The point when the flight crew changed radio frequency was 
+therefore left up to the flight crew to determine based on their decision  when they 
+would  turn onto base leg.  
+3.47. Usually this type of instruction would suffice , but it depends on the recipient 
+identifying correct ly the  aircraft they are being instructed to follow. In this case t he 
+approach controller did not realise the flight cr ew's mistake until the STCA  drew 
+attention to a potential conflict . They then  found that the flight crew were not 
+contactable because they  were  no longer on the approach frequency. This inability for 
+the approach controller to communicate with LINK285 incr eased the risks by delaying  
+corrective actions.  
+3.48. According to the local Wellington air traffic operating procedures defined in MATS, the 
+radio -frequency changeover point is near Baring Head or the TURAK reference point. 
+This is close to where the actual ra dio frequency changeover took place. The  transfer of  
+control from the approach controller to the tower controller , commenced  when 
+LINK285 flight crew called the tower while on base leg . The transfer of control was not 
+completed because the tower controller  did not respond.   
+3.49. The approach controller remained responsible for ensuring  that IFR separation with 
+aircraft other than the preceding  traffic, was applied to LINK285 until the control 
+transition. MATS also instruct s tower controllers not to accept control of an 
+approaching IFR aircraft unless appropriate separation can be applied. The approach 
+controller  in this case  therefore made the first attempts to resolve the potential conflict 
+but then had to relay through the  tower controller.  
+Cockpit voice recorder s 
+Safety issue: Potentially c ritical information on a serious  incident , recorded in two separate 
+CVRs, was lost because  the recording s were not protected .  
+3.50. Both flight crew s responded to TCAS -RA alert message s generated in their aeroplane s. 
+This type of incident, where an avoidance manoeuvre is required to avoid a collision, is 
+listed in ICAO Annex 13 as an example of a serious incident. Actions taken in this case 
+demonstrated that it was also considered a serious incident. Airways stood down both 
+controllers , and the tower controller passed a message to both flight crews to report to 
+the duty manager after shutdown. Both captains discussed the incident with the duty 
+manager before they left the c ockpit , then both flight crews were stood down . 
+3.51. A CVR record s the last two hours of voice communications in a cockpit. The record ing 
+is made in a continuous loop , so a recording older than two hours is overwritten by the 
+current period. The first 30 minutes are recorded on four separate channels , but 
+everything older than 30 minutes is blended onto a single channel from multiple 
+microphone inputs.  
+  
+  Final Report AO -2019 -002 
+<< Page 23 >>
+ 3.52. In this incident  the operator allowed both aircraft to fly their next leg s before the CVRs 
+were disabled . Both aircraft were on the ground for about 30 minutes after landing , 
+then flew the next flight leg s of about 40 minutes ' duration.  As a result of these delays 
+in isolating the CVRs, critical voice recordings from the time of the incident were lost 
+and others were difficult to separate and interpret.  
+3.53. The Civil Aviation  Rules and the operator's standard operating procedures  both 
+required the CVR  records to be protected a fter this serious incident.  The captain of 
+LINK285 was aware of th is requirement but was focussed upon communicating to crew 
+and duty staff.  Air New Zealand pointed out that it was a matter of jud gement 
+whether an incident reached the threshold of 'serious'  as described in the company 
+standard operating procedures. The investigation could not conclusively determine 
+why the CVR circuit breakers were not pulled on each of the aircraft immediately after 
+the incident at Wellington.  
+3.54. Civil Aviation  Rules 12.103 , Preservation of Records stated:  
+The holder of a certificate of registration of an aircraft that is involved in a 
+serious incident or accident must preserve all records, including all recording 
+media maintained for the operation and maintenance of the aircraft, for at least 
+14 days after the serious incident or accident unless otherwise notified by the 
+Authority.  
+3.55. Air New Zealand Standard Operating Policies35 stated : 
+To preserve the recording of any serious incident occurring within the recording 
+duration prior to landing, the crew should:   
+On completion of the aircraft shutdown checklist deactivate the CVR by pulling 
+the circuit -breaker.   
+Make an entry in the Technical Log that the CVR circuit -breaker has been pulled. 
+A Safety Report must be submitte d.  
+Note:   
+Except as provided above, CVR circuit -breakers shall remain in at all times.  
+3.56. The failure to preserve the CVR recording s also meant that the operator and the flight 
+crew lost an opportunity to reflect on and learn from this incident.  
+3.57. This issue has been a problem for other airline operators and investigation agencies for 
+some time . International  safety organisations have made steps towards increas ing the 
+CVR recording period . The United States National Transportation Safety Board  (NTSB) 
+adopted  its safety recommendation report , Extended Duration Cockpit Voice Recorders 
+(ASR -18-04) in 2018 . In the same year  it made two safety recommendations to the 
+Federal Aviation Administration  (FAA)36 to increase the recording duration of CVR 
+records to at least 2 5 hours  for all new aircraft that require d CVRs and to retrofit  
+existing aircraft CVRs to the same recording duration by 2024 .  
+3.58. Subsequent to 2018 , the FAA technical standard order for CVRs (TSO -C123c) has been 
+aligned with a European Organisation for Civil Aviation Equipment  (EUROCAE ) 
+document , ED-112A, Minimum Operational Performance Specificat ion for Crash 
+Protected Airborne Recorder Systems . ICAO has also revised its requirements for large 
+ 
+35 Air New Zealand/ Air Nelson Standard Operating Policies , DHC8 -300 (Q300) , Chapter 4, Section 2 , Cockpit voice 
+recorder (CVR) . (Revision 22, Nov 08, 2018 ) (See Appendix 3 ).  
+36 NTSB Safety Recommendation A -18-030 and A -18-031 
+ 
+Final Report AO -2019 -002 
+<< Page 24 >>
+ passenger aircraft : ICAO Annex 6 - Operation of Aircraft - Part 1 requires that new 
+aircraft certified for a take -off mass greater than 27,000 kilogram s and first registered 
+after January 2022 be equipped with CVR s that retain at least the last 25 hours of their 
+operation.  New CVRs are available today  (2021 ) with the extended -duration recording 
+period of 25 hours.  
+3.59. The Commission is concerned that operators are not  recognising the importance of 
+CVR records and the value they can provide to  post-incident and -accident 
+investiga tions and learning . In 2009 the Commission made a recommendation to the 
+New Zealand Civil Aviation Authority ( CAA) about a late notification of a runway 
+excursion at New Plymouth  by a Metroliner operated by Life Flight NZ . The delay  
+allowed the aircraft to resume  operations after the incident and the CVR records to be 
+overwritten (TAIC, 2009) . In 2017 a  Nelson -based ATR72 operated by Mount Cook 
+Airline landed at Palmerston North with an undercarriage prob lem. The aeroplane was 
+shut down on the runway and the CVR isolated by a Commission investigator after the 
+incident . Ground crew subsequently repowered the CVR  when they started up the 
+aeroplane to taxi it off the runway for repair. The CVR recording of the incident was 
+overwritten  with ground crew conversations (TAIC, 2017) .  
+ 
+  
+  Final Report AO -2019 -002 
+<< Page 25 >>
+ 4 Findings  
+Ngā kitenge  
+4.1. When the flight crew of LINK285 transitioned to a visual approach while on an  IFR 
+flight  into Wellington Internation al Airport , they  mistakenly identified the first 
+aeroplane in the sequence of three to land as the preceding aeroplane  to theirs . 
+4.2. The flight crew  of LINK285 (No.3) then positioned their aeroplane behind the first 
+aeroplane in the sequence of three , which put them on a converging flightpath  with 
+the second aeroplane  in the sequence . 
+4.3. The human defence layers , supplemented by automation incorporated into the air 
+traffic control system , the aircraft systems  and the pilots' training,  meant the potential 
+conflict  was detected and successfully resolved .  
+4.4. The flight crew of LINK285 had not developed a complete mental image of other 
+aircraft  relative to their own position in the landing pattern before they took over 
+responsibility for maintaining th eir visual separation from the aeroplane they had 
+identified ahead.  
+4.5. The lighting and visual conditions prevailing at the time , and the known limitations of 
+the human eye , made it more difficult for the LINK285 flight crew to identify the 
+preceding aeroplan e visually .  
+4.6. Further resources , such as Traffic Collision Avoidance Systems  and the air traffic control  
+guidance available to the flight crew to help validate  their mental model s of their 
+situation , were  not used.  
+4.7. It was standard air-traffic -control procedure at the time to provide pilots on visual 
+approach es with sufficient information to allow them to sequence correctly . This did 
+not necessarily include the ir position in an approach procedure , but in t his case the 
+position would have been crucial information for the pilot s' situational awareness.  
+4.8. By allowing a flight crew on a visual approach to change radio frequency at their 
+discretion , based on other clearance actions , meant the approach controller was 
+unable to establish immediate communication with an aircraft within their control 
+sector  and provide information about conflicting traffic .  
+4.9. After  this serious incident, n either the flight crews from LINK235 and LINK285 nor the 
+operator's ground crew isolated the cockpit voice recorder s immediately after the 
+incident flight . This action was  required by the operator's standard operating 
+procedures and by Civil Aviation Rules .  
+ 
+Final Report AO -2019 -002 
+<< Page 26 >>
+ 5 Safety issues and remedial action  
+Ngā take haumanu me ngā mahi whakatika  
+General  
+5.1. Safety issues are an output from the Commission's analysis. They typically describe a 
+system problem that has the potential to adversely affect future operations on a wide 
+scale.   
+5.2. Safety i ssues may be addressed by saf ety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address the issue.   
+Safety issues  
+ATC handover on visual approach  
+5.3. The minimum information a controller is required to pass to an IFR flight crew about to 
+commence a visual approach to land does not include their position in the landing 
+sequence. This information significantl y aids  pilots in develop ing their situational 
+awareness and maintain ing their visual separation from other aircraft .  
+5.4. Airways  review ed this safety issue  through an internal working group and made 
+changes  to address  the residual risk . This work resulted in an update to MATS Advisory 
+Circular (MAC 7) to controllers , which  was p romulgated on 31 December 2020 . It 
+included  a new section on visual approach procedures  that outlined the potential risk s 
+and described best practice to prevent a reoccurrence . Therefore, the Commission has 
+not made a recommendation.  
+Radio frequency management  
+5.5. The ATC practice of allowing an IFR flight making a visual approach into Wellington to 
+change radio frequency at the pilot's discretion based on other clearance actions, can 
+result in the approach controller losing radio contact with the flight while it is sti ll 
+within their control sector.  
+5.6. Airways  reviewed this safety issue through an internal working group and made 
+changes to address the residual risk. This work resulted in an update to MATS Advisory 
+Circular (MAC 7) to controllers that was promulgated on 31  December 2020. It 
+included a new section on visual approach procedures that outlined the potential risk s 
+and described best practice to prevent a reoccurrence. Therefore, the Commission has 
+not made a recommendation.  
+Cockpit voice recorder s 
+5.7. The flight cre ws of LINK235 and LINK285  and the operator's supporting ground crew  at 
+Wellington Airport failed to comply with both CAA rules and the operator's standard 
+operating procedures regarding  protecting potentially critical evidence after a serious 
+incident.  
+5.8. Air New Zealand submitted that since this occurrence Air Nelson, the operator of the 
+two Dash -8 aircraft, has been integrated with Air New Zealand and now come under 
+the one common Air Operator Certificate (AOC). Air New Zealand has reviewed 
+procedures and training requirements as part of this transition.  Flight crew technical  
+  
+  Final Report AO -2019 -002 
+<< Page 27 >>
+ refresher and recurre nt training and new flight crew  training for the Dash -8 (Q300) 
+aircraft from 2022  will include specific reminders to pilots about isolating the CVR after 
+a serious incident. Exampl es of serious incidents that match those recommended in 
+Attachment C of Annex 13 to the Convention on International Civil Aviation are listed  
+with the new training instruction  (see Appendix 4) . 
+5.9. Air New  Zealand also stated th at all new Airbus A321 and Bo eing B787 aircraft 
+delivered to Air New Zealand will have 25 -hour CVRs installed.  
+5.10. The Commission would have made a safety  recommendation to address this issue . 
+However, the Commission consider s that t he actions taken by Air New Zealand since 
+this incident have adequately address ed this safety issue.  Therefore, the Commission 
+has not made a safety recommendation.  
+Other safety action  
+5.11. Participants may take safety actions to address issues that would not n ormally result in 
+the Commission issuing a recommendation  or in anticipation of a recommendation . 
+The operator's safety actions  
+5.12. The operator investigated this incident  and provided a copy of their report37 to the 
+Commission .  
+5.13. The operator  issued a safety bulletin to their flight crew s during April 2019  that 
+describ ed the factual details of th is event.  This was followed by a safety briefing and 
+workshop to review this incident and identify the human factors and lessons for other 
+flight crew .  
+5.14. A separate human factors workshop was convened in May 2019  for the operator's 
+safety  team . Safety actions from that workshop were incorporated into the regional 
+airlines ' human factors training.   
+5.15. The operator considered there was  potential for confusion between  the LINK235  and 
+LINK285  call signs because they were scheduled to arrive at Wellington  at similar times 
+each day . They renamed the flight number s of LINK285  to LINK289 to minimise th is 
+possibility in future . 
+5.16. The operator raised several other points subsequent to the initial event about 
+radiotelephony phraseology , controller actions , ATIS broadcasts  and the use of 
+reporting point s38 that were not officially defined.  Some of these points were also 
+raised in the Airways investigation.  
+5.17. The operator's report did not mention the failure to isolate the CVR s in both 
+aeroplanes .  
+Airways safety action  
+5.18. Airways investigated this incident and provided a copy of its report39 to the 
+Commission.  Airways ' findings matched some that th e operator had raised about 
+phras eology , controller actions , ATIS and reporting points.  Airways  also raised the issue 
+of radio communications where the approach controller could not contact LINK285.  
+ 
+37 TCAS Resolution Advisory Event, RLK235/RLK285, NZWN. Korusafe safety investigation 04262 -19. 
+38 A specified (named) geographical location in relation to which the position of an aircraft can be reported . 
+39 Airways operational safety investigation report 04 19-19. 
+ 
+Final Report AO -2019 -002 
+<< Page 28 >>
+ 5.19. The Airways report listed 11 safety actions , with projected completion dates ranging 
+from November 2019 to 30 March 2020.  These included : 
+• review visual approach procedures  
+• review the conditions for changing radio frequency  on approach  
+• review 'essential traffic ' phraseology  
+• revise controller training for rec overing from a loss of separation  
+• review the Wellington tower 's local unit orders instructions for updating ATIS  with 
+cloud  
+• consider METAR  (METeorological Aerodrome Report ) data for cloud  
+• review local waypoints L YALL  and RIDGE  
+• review traffic information provided to aircraft on visual approach . 
+  
+  Final Report AO -2019 -002 
+<< Page 29 >>
+ 6 Recommendations  
+Ngā tūtohutanga  
+General   
+6.1. The Commission may issue, or give notice of, recommendations to any person or 
+organisation that it considers the most appropriate to address the identified safety 
+issues, depending on whether  these safety issues are applicable to a single operator 
+only or to the wider transport sector.  
+6.2. In the interests of transport safety, it is important that recommendations are 
+implemented without delay  to help prevent similar accidents or incidents occurri ng in 
+the future.   
+6.3. For this incident, the operator and Airways carried out their own internal investigations  
+and took action to address safety issues  they had identified .  The Commission would 
+have issued safety recommendations,  but the action s taken by the operator and 
+Airways had already addressed those safety issues. Therefore, the Commission has not 
+made any safety recommendations.  
+ 
+Final Report AO -2019 -002 
+<< Page 30 >>
+ 7 Key lessons  
+Ngā akoranga matua  
+7.1. The v isual identification of other aircraft can be challenging . Pilots should u se all 
+available resources to build situation al awareness .  
+7.2.  When a controller issue s a clearance , it is important  to monitor the flight crew's initial 
+compliance  to check it has been interpreted as intended.  
+7.3. TCAS equipment is an effective defence against mid -air collisions , and its display is also 
+a useful instrument that flight crew can use for their situational awareness . 
+7.4. Establishing criteria through recurrent messaging and training for flight crew on the 
+definitions of what constitutes a seriou s incident is an important and continuous safety 
+function for airlines. This will ensure that reporting and securing of safety data (such as 
+from on -board recorders) occurs for all serious incidents and lessons are learned to 
+avoid repeat occurrences . 
+ 
+  
+  Final Report AO -2019 -002 
+<< Page 31 >>
+ 8 Data summary  
+Whakarāpopoto raraunga  
+Aircraft particulars  
+Aircraft registration : ZK-NEF. Flight RLK285 is referred to throughout this 
+report by its callsign  (LINK285) . 
+Type and serial number:  Bombardier DHC -8-311, serial number 620  
+commonly known as a Dash -8 or Q300 , it is r eferred 
+to as a Dash -8 throughout this report  
+Number and type of 
+engines:  two turboprop s 
+Year of manufacture:  2006  
+Operator:  Air New Zealand40 trading as Air Nelson  
+Type of flight:  regular passenger transport  
+  
+Aircraft registration : ZK-NEH. Flight RLK235 is referred to throughout this 
+report by its callsign (LINK2 35). 
+Type and serial number:  Bombardier DHC -8-311, serial number 623  
+commonly known as a Dash -8 or Q300, it is referred 
+to as a Dash -8 throughout this report  
+Number and type of 
+engines:  two turboprop s 
+Year of manufacture:  2006  
+Operator:  Air New Zealand  trading as Air Nelson  
+Type of flight:  regular passenger transport  
+  
+Crew particulars - LINK285  
+Pilot's licence:  airline trans port pilot licence (aeroplane ), issued 2017  
+Pilot's age:  44 
+ 
+40 Air Nelson is a wholly owned subsidiary of Air New Zealand ; all operating approvals and senior staff positions 
+are held by Air New Zealand. Any reference to Air Nelson in this report is a reference to Air New Zealand . 
+ 
+Final Report AO -2019 -002 
+<< Page 32 >>
+ Pilot's total flying 
+experience:  4,200 hours  
+  
+First officer's licence:  commercial pilot licence ( aeroplane ), issued 2018  
+First officer's age:  36 
+First officer's total flying 
+experience:  2,500 hours  
+Crew particulars - LINK235  
+Pilot's licence:  airline trans port pilot 
+licence (aeroplane ), 
+issued 2014  
+Pilot's age:  36 
+Pilot's total flying 
+experience:  4,000 hours  
+  
+First officer 's licence:  commercial pilot 
+licence ( aeroplane) , 
+issued 2017  
+First officer 's age:  33 
+First officer 's total flying 
+experience:  2,550 hours  
+Date and time  12 March 2019,  1733:25  
+Location  location  near Wellington, New 
+Zealand  
+latitude:  41° 28´ south  
+longitude:  174°49 ´ east 
+Injuries  nil 
+Damage  nil 
+  
+  Final Report AO -2019 -002 
+<< Page 33 >>
+ 9 Conduct of the inquiry  
+He tikanga rapunga  
+9.1. On 12 March 2019  at 2046 , the CAA notified the Commission of this incident . The 
+Commission subsequently opened an inquiry under section 13(1) of the Transport 
+Accident Investigation Commission Act 1990 and appointe d an investigator in charge.  
+9.2. The Commission issued urgent instructions to the operator to protect the CVR 
+recordings , but by the time the Commission had been notified of the incident, the 
+aircraft had departed on their next leg s. The operator had not ground ed either aircraft  
+immediately following the incident flight . The CVRs were not protected until after the 
+end of the next leg . Consequently information about the incident was overwritten  and 
+lost. 
+9.3. The flight crew  from the two Dash -8s were interviewed  in Auckland , and the air traffic 
+controllers were interviewed at their home bases in Wellington and Christchurch.  
+9.4. Airways ' recordings of the radio and telephone conversations from the respective 
+control desks were obtained. The recorded radar replay was examined at the Airways 
+facilities in Christchurch and still screenshots taken at key points.   
+9.5. An internal draft report was completed in November 20 20 but due to staff changes , 
+held for a separate external review . A revised draft was submitted to the Commi ssion in 
+July 20 21. Further work was required to recognise actions taken by interested persons .   
+9.6. On 27 October 2021  the Commission approved a draft report for circulation to  eight 
+interested persons for their comment.  Submissions were received on 21 December 
+2021 . 
+9.7. Submissions were considered during January 2022 and a revised final draft report 
+presented to the Commission for consideration in February 2022 . 
+9.8. The final draft was approved in February 2022 and published on 14 April 2022. 
+ 
+Final Report AO -2019 -002 
+<< Page 34 >>
+ Abbreviations  
+Whakapotonga  
+ATC air traffic control  
+ATIS automatic terminal information service  
+ATPL  airline transport pilot's licence  
+CPL commercial pilot's licence  
+CVR cockpit voice recorder  
+FDR flight data recorder  
+ICAO  International Civil Aviation Organi zation  
+IFR instrument flight rules 
+MATS  New Zealand Manual of Air Traffic Services  
+nm nautical mile 
+RA Resolution Advisory  
+STAR  standard instrument arrival route 
+STCA  short-term conflict alert 
+TCAS  Traffic Collision Avoidance System  
+TCAS -RA TCAS  Resolution Advisory  
+VFR visual flight rules 
+  
+  Final Report AO -2019 -002 
+<< Page 35 >>
+ Glossary  
+Kuputaka  
+approach controller  the air traffic control position responsible for flights arriving at 
+a terminal area  
+approach sequence  the order a controller arranges aircraft to approach to land at 
+an airport. The sequence helps provide adequate time and 
+distance  between each aircraft until they have landed and 
+clear ed from the runway.  
+base leg A flight path leg of a rectangular circuit pattern to an 
+aerodrome that approaches the extended runway centre line at 
+a perpendicular angle  across the wind direction . It forms a base 
+line from the end of downwind leg until the start of the turn for 
+the final leg  
+Class C airspace  airspace in which IFR and VFR flights are permitted, all flights 
+are provided with air traffic control service s and IFR flights are 
+separated from other IFR flights and from VFR flights. VFR 
+flights are separated from IFR flights and recei ve traffic 
+information in respect of other VFR flights  
+departure controller  the air traffic control position responsible for flights departing a 
+terminal area  
+downwind leg a flight path leg of a rectangular circuit pattern to an 
+aerodrome  that commences to one side of  the upwind  end of 
+the runway , runs parallel to the runway in the downwind 
+direction to the turn onto base leg  
+essential traffic  any controlled traffic that is not separated by the prescribed 
+minima in relation to other controlled flights where separation 
+is required  
+final approach  the last flight path leg of a rectangular circuit pattern  to an 
+aerodrome that  follows  the extended runway centreline, and 
+proceeds into wind  to the beginning of the landing flare  
+instrument flight rules rules  that allow properly equipped aircraft to be flown under 
+'instrument meteorological conditions ' (conditions expressed in 
+ 
+Final Report AO -2019 -002 
+<< Page 36 >>
+ terms of visibility, distance from cloud, and ceiling less than th e 
+minima specified for visual meteorological conditions ) 
+LYALL  the final approach  waypoint , 6 nm from the threshold of 
+Runway 34  
+loss of separation  This occurs when aircraft are separated both vertically and 
+horizontally at less than the specified minimu m for that 
+controlled airspace.  
+pilot flying  the pilot responsible for controlling the aeroplane  
+pilot monitoring  the pilot responsible for monitoring the flight management and 
+aeroplane control actions of the pilot flying, and carrying out 
+support duties such as communications and checklist reading  
+Resolution Advisory  an indication given to flight crew recommending a manoeuvre 
+intended to provide separation from all threats; or a manoeuvre 
+restriction intended to maintain existing separatio n 
+tower controller  an air traffic control position responsible for movements at a 
+controlled aerodrome  
+Traffic Collision 
+Avoidance System  an aircraft system based on secondary surveillance radar (SSR) 
+transponder signals , which operates independently of ground -
+based equipment to provide advice to pilot s of potential 
+conflicting aircraft that are equipped with SSR transponders  
+An SSR is a surveillance radar system that uses 
+transmitters/receivers (interrogators) and transpo nders  
+transponder  Electronic devices that produce responses when they receive 
+radio -frequency interrogation. Aircraft have transponders to 
+assist in their identification on air traffic control radar  
+TURA K  A STAR waypoint near Turakirae Head, located app roximately 8 
+nautical miles south -east of Wellington Airport  
+visual approach  an approach to a runway at an airport conducted under  
+instrument flight rules, but where the pilot proceeds by visual 
+reference and clear of clouds to the airport  
+  
+  Final Report AO -2019 -002 
+<< Page 37 >>
+ Citations  
+Ngā tohutoru  
+ 
+Airways Corporation of New Zealand Ltd. (2019, January 31). Manual of Air Traffic Services. 
+Airways Corporation of New Zealand Manual of Air Traffic Services, Amendment NR 
+186. Christchurch: Airways Corporatio n of New Zealand Ltd.  
+Casad, B. J. (2016, August 01). Confirmation Bias . Retrieved from Encyclopaedia Britannica: 
+https://www.britannica.com/science/confirmation -bias 
+Davis, J. R., Johnson, R., Stepanek, J., & Fogarty, J. A. (2008). Fundamentals of Aerospa ce 
+Medicine.  Wolters Kluwer Health | Lippincott Williams & Wilkins.  
+Flight Safety Foundation. (2018, October 19). NTSB Recommends extended -duration CVRs.  
+Retrieved from Flight Safety Foundation: https://flightsafety.org/ntsb -recommends -
+extended -duration -cvrs/ 
+Hobbs, A. (1991, April). Limitations of the See -and-Avoid Principle.  Retrieved from Australian 
+Transport Safety Bureau: 
+https://www.atsb.gov.au/media/4050593/see_and_avoid_report_print.pdf  
+ICAO. (2016, July). Annex 13: Aircraft accident and investigati on, Eleventh edition. 
+International Standards and Recommended Practices . International Civil Aviation 
+Organization.  
+ICAO. (2016). Document 4444 Procedures for Air Navigation Services, Sixteenth Edition. Air 
+Traffic Management (PANS -ATM) . International Civi l Aviation Organisation.  
+ICAO MIDANPIRG ATM Sub Group. (2018, May 03). MIDANPIRG ATM Sub Group - ATM Safety 
+Matters.  Retrieved from International Civil Aviation Organization: 
+https://www.icao.int/MID/Documents/2018/ATM%20SG4/WP21.pdf  
+Lawrence, R. (2015, Fe bruary 16 -18). EUROCONTROL Call Sign Similarity Project.  Retrieved 
+from International Civil Aviaiton Organisation: 
+https://www.icao.int/MID/Documents/2015/CSC%20WG1/1 -
+CSS%20Project%20Overview.pdf  
+New Zealand Civil Aviation Authority. (n.d.). Rules . Retriev ed from CAA and Avsec: 
+https://www.aviation.govt.nz/rules/  
+Noor, I. (2020, June 10). Confirmation bias . Retrieved from Simply Psychology: 
+https://www.simplypsychology.org/confirmation -bias.html  
+TAIC. (2009). AO-2009 -003, Fairchild Metroliner runway excursi on, New Plymouth, 31 March 
+2009.  Wellington: TAIC.  
+TAIC. (2017). AO-2017 -003, ATR Landing gear failure, Nelson, 9 April 2017.  Wellington: TAIC.  
+UK CAA. (2000, April). ACCESS - Aircraft Call Sign Confusion Evaluation Safety Study.  
+Retrieved from Civil Aviation Authority (UK): 
+https://publicapps.caa.co.uk/modalapplication.aspx?catid=1&appid=11&mode=detai
+l&id=1244  
+ 
+ 
+Final Report AO -2019 -002 
+<< Page 38 >>
+ Appendix 1  Wellington International Airport 
+(NZWN), New Zealand Aeronautical 
+Information Publication (NZAIP)  
+ 
+Figure 8: Wellington Aerodrome   
+(credit NZAIP)  
+ 
+ 
+
+  
+  Final Report AO -2019 -002 
+<< Page 39 >>
+  
+Figure 9: Area navigation  STAR RWY 34 (2)  
+(Credit: NZAIP)  
+Wellington  
+(Runway 34)  
+Turak waypoint  
+Dogad waypoint  
+- Start of STAR  
+ 
+Final Report AO -2019 -002 
+<< Page 40 >>
+ Appendix 2  Timeline  
+  
+
+ 
+  Final Report AO -2019 -002 
+<< Page 41 >>
+ Appendix 3  Air Nelson Standard Operating Procedures 
+Extract - Flight Recorders and TCAS  
+  
+
+ 
+Final Report AO -2019 -002 
+<< Page 42 >>
+  
+  
+
+ 
+  Final Report AO -2019 -002 
+<< Page 43 >>
+  
+  
+
+ 
+Final Report AO -2019 -002 
+<< Page 44 >>
+ Appendix 4  Air New Zealand serious incident  list 
+The following list of incidents that Air New Zealand consider serious was submitted to the Commission as 
+an example  extracted  from their revised  2022 , Q300  flight crew annual technical refresher training  modules .  
+The first bullet point describes the subject incident for this report  (note that  the revision status of the source 
+document for this submitted extract  was not provided  at the time ). 
+
+ 
+   
+ 
+ Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its four kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ngāti Raukawa, 
+Tūwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies and how to avoid them. A 'waka whai mārama' (i te ara 
+haumaru) is 'a vessel/vehicle in pursuit of un derstanding'. Waka is a metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) and Papatūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling with in), which brought 
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe' or 'risk free'.  
+Corporate: Te Ara Haumaru - the safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of knowledge 
+that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. The continual 
+wave is the perpetual line of influence. The succession of humps represent s the individual inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: Ngā h au e wh ā - the four winds  
+ 
+ 
+ 
+ 
+To Sandy, 'Ngā hau e whā ' (the four winds ), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for a  'Aviation '.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of t his Kōwhaiwhai.  
+Maritime: Ara wai - waterways  
+ 
+ 
+ 
+ 
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for 'Maritime .  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+ 
+ 
+ 
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and everything 
+that dwells wi thin) in the creation of this Kōwhaiwhai.  
+ 
+
+ 
+  
+Recent Aviation Occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2020 -002 Pacific a erospace Cresco 08 -600, ZK -LTK, impact with terraine, Kourarau Hill, 
+Masterton, 24 April 2020  
+AO-2019 -003 Diamond DA42 aeroplane, impact with terrain, 22 nautical miles south -southeast of 
+Taupo, Kaimanawa Ranges, 23 March 2019  
+AO-2018 -005 MD Helicopters 600N, ZK -ILD, Engine control malfunction and forced landing, 
+Ngamatea Station, 14 June 2018  
+AO-2018 -001 Tandem parachute UPT Micro Sigma, registration 31Z, Double malfunction, 
+Queenstown, 10 January 2018  
+AO-2018 -006 Robinson R44, ZK -HTB Loss of control Stevensons Arm, Lake Wanaka 21 July 2018  
+AO-2017-009 and 
+AO-2017 -010 Commission resolution to close aviation inquiries Boeing 787, near Auckland, New 
+Zealand, 5 and 6 December 2017  
+AO-2019 -001 Airbus Helicopters AS350, ZK -HEX, Forced landing, Wakefield, Nelson, 17 February 
+2019  
+AO-2017 -004 MBB BK117 A -3 helicopter, ZK -IED, Loss of control, Porirua Harbour, 2 May 2017  
+AO-2017 -002 Robinson Helicopter Company R22, ZK -IHA, Impact with terrain, Near Reefton, 27 
+March 2017  
+AO-2017 -003 ATR72, ZK -MCY, Landing gear failure, Nelson, 9 Ap ril 2017  
+AO-2015 -003 Robinson R44, Main rotor blade failure, Waikaia, Southland, 23 January 2015  
+AO-2015 -007 Airbus Helicopters AS350BA, ZK -HKU, Collision with terrain, Fox Glacier, 21 November 
+2015  
+ 
+  
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 19.00                                        ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online)  

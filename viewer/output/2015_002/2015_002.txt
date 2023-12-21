@@ -1,0 +1,2152 @@
+﻿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Final Report  AO-2015-002: Mast bump and in -flight break -up, 
+Robinson R44, ZK -IPY, Lochy River, near Queenstown, 19 February 2015  
+ 
+ 
+ 
+Double engine power loss , Near Springston, Canterbury , 5 May 2014  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that  reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of impl ementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+   
+ 
+ 
+ 
+ 
+ 
+Final  Report  
+Aviation inquiry AO-2015-002 
+Mast bump and in -flight break -up, 
+Robinson R44, ZK -IPY 
+Lochy River, near Queenstown,  
+19 February 2015  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : July 2016  
+
+ 
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a  standing commission of inquiry and  
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inqu iries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector  and the public , both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.    
+  
+Commissioners  
+Chief Commissioner     Helen Cull , QC (until 8 July 2016)  
+Deputy Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Jane Meares  
+Commissioner      Stephen Davies  Howard  
+ 
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Ian McClelland  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Welling ton 6143, New Zealand  
+ 
+  
+ Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that  are p ublic ly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+ 
+Verbal probability expressions  
+The expressions listed  in the following table are used in this report to describe the degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis . 
+Terminology  
+(adopted from the Inter governmental  
+Panel on Climate Change)  Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ 
+R44 Raven II ZK -IPY 
+(Courtesy of Over The Top ) 
+
+  
+ 
+Location of accident  
+ 
+Legend  
+ Lochy River, near 
+Queenstown  
+ 
+ 
+ 
+  
+  
+ 
+ 
+Source: mapsof.net  
+ 
+Contents  
+Abbreviations   ................................ ................................ ................................ ................................ ..............  ii 
+Glossary   ................................ ................................ ................................ ................................ .............  iii 
+Data summary   ................................ ................................ ................................ ................................ .............  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 4 
+3.1. Narrative  ................................ ................................ ................................ ................................ .... 4 
+3.2. Site info rmation  ................................ ................................ ................................ .........................  6 
+3.3. Aircraft information  ................................ ................................ ................................ ...................  9 
+Wreckage examination  ................................ ................................ ................................ ..............  9 
+3.4. Personnel information  ................................ ................................ ................................ ...........  12 
+3.5. Meteorological information  ................................ ................................ ................................ ... 14 
+3.6. Operator information  ................................ ................................ ................................ .............  14 
+3.7. Additional information  ................................ ................................ ................................ ...........  15 
+Robinson helicopters  ................................ ................................ ................................ .............  15 
+Rotor head design  ................................ ................................ ................................ ..................  15 
+Mast bumping  ................................ ................................ ................................ .........................  17 
+4. Analysis   ................................ ................................ ................................ ................................ ...........  20 
+4.1. Introduction  ................................ ................................ ................................ ............................  20 
+4.2. What happened  ................................ ................................ ................................ ......................  21 
+Engine or transmission failure  ................................ ................................ ...............................  22 
+Component failure  ................................ ................................ ................................ ..................  23 
+4.3. Mast bumping  ................................ ................................ ................................ ........................  23 
+Low rotor RPM  ................................ ................................ ................................ ........................  23 
+Turbulence  ................................ ................................ ................................ ..............................  23 
+Pilot-induced low -G ................................ ................................ ................................ .................  24 
+Helicopter speed/power setting  ................................ ................................ ............................  25 
+Training and awareness  ................................ ................................ ................................ .........  26 
+4.4. Emergency locator transmitter (ELT)  ................................ ................................ ....................  27 
+5. Findings   ................................ ................................ ................................ ................................ ...........  28 
+6. Safety action s ................................ ................................ ................................ ................................ .........  29 
+General   ................................ ................................ ................................ ................................ ................  29 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  29 
+Safety actions addressing other safety issues  ................................ ................................ .....................  30 
+7. Recommendations  ................................ ................................ ................................ ................................ . 31 
+General   ................................ ................................ ................................ ................................ ................  31 
+Recommendation  ................................ ................................ ................................ ................................ ... 31 
+8. Key lesson identified  ................................ ................................ ................................ ..............................  33 
+9. Citations   ................................ ................................ ................................ ................................ ...........  34 
+Appendix 1:   Review of mast bumping accidents in New Zealand  ................................ .....................  35 
+Appendix 2:   Robinson Helicopter Fleet Consultation Document  results  ................................ ..........  37 
+ Appendix 3:    Detailed summary of wreckage examination and testing  ................................ .............  38 
+Appendix 4:   Robin son Safety Notices  ................................ ................................ ................................ .. 42 
+ 
+ 
+
+Final report AO -2015 -002 | Page i Figures  
+Figure 1  Tracking data for R44 ZK -IPY ................................ ................................ ................................ ...... 5 
+Figure 2  Accident site  ................................ ................................ ................................ ................................ . 6 
+Figure 3  Lochy River  - looking downstream (north -east)  ................................ ................................ ........  7 
+Figure 4  Main items of wreckage  ................................ ................................ ................................ ..............  8 
+Figure 5  Main rotor head showing broken components and extreme flap ping of blades  ...................  11 
+Figure 6  Main rotor blade damage  ................................ ................................ ................................ ..........  12 
+Figure 7  R44 rotor head  ................................ ................................ ................................ ...........................  17 
+Figure 8  Main rotor blade strike on rear of left skid  ................................ ................................ ...............  21 
+Figure 9  Track presentation and accident location  ................................ ................................ ................  25 
+Figure 10  Main rotor head showing broken components and extreme flapping of blades  ...................  40 
+Figure 11  Main rotor blade damage  ................................ ................................ ................................ ..........  40 
+ 
+ 
+ 
+ 
+  
+ 
+Page ii | Final report AO -2015 -002 Abbreviations  
+ATSB   Australian Transport Safety Bureau  
+CAA  Civil Aviation Authority of New Zealand  
+Commission  Transport Accident Investigation Commission  
+ELT  emergency locator transmitter  
+FAA  Federal Aviation Administration (of the United States)  
+ICAO   International Civil Aviation Organi zation  
+km  kilometre(s)  
+m  metre(s)  
+NTSB   National Transportation Safety Board  (of the United States)  
+Robinson  Robinson Helicopter Company  
+RPM   revolution (s) per minute  
+SFAR   Special Federal Aviation Regulation  (United States)  
+ 
+ 
+  
+Final report AO -2015 -002 | Page iii Glossary  
+airworthiness directive  a mandatory instr uction to ensure the continued airworthiness of an aircraft or  
+    component  
+autorotation  a condition of flight when the main rotor system is driven by the flow of air up 
+through the main rotor blades , instead of by the engine  
+centre of gravity   the single point in the helicopter through which the weight (and force of gravity)  
+    acts  
+chord    the distance from the centre of radius of a leading edge to the centre of radius  
+    of a trailing edge of a wing or blade  
+collective  lever  the control th at changes the pitch angle of the main rotor blades  by the same 
+amount and at the same time, which changes the total rotor thrust, usually to 
+effect a climb or descent  
+coning  the angle formed between the span -wise length of the main rotor blades and 
+their  tip path plane , the plane scribed by the tips of the rotors .  The angle  varies 
+according to the result ant of the centri fugal force due to revolutions per minute  
+and the lift that is demanded  
+cyclic control  sometimes call ed the cyclic stick, is the control  that changes the pitch angle of 
+the main rotor blades at the same point of their rotation cycle, which causes 
+the rotor disc to tilt in the direction that the pilot has put the stick.  The 
+helicopter then moves in that direction  
+flapping    (in the case of  the Robinson main rotor blades) the vertical movement of a  
+    blade about a hinge (coning bolt) perpendicular to the blade span  
+knot   a speed of one nautical mile per hour  
+low-G   or 'reduced g '; an acceleration less than that due to the force of gravity  
+mast    the main rotor drive shaft  
+mast bump  contact between an inner part of a main rotor blade or a rotor hub and the 
+main  rotor drive shaft  
+rotor disc   the area swept by the rotor blades each revolution  
+swashplate   a device that translates cycli c and collective control inputs to the main rotor  
+teeter    the see -saw movement of a two -bladed rotor about the teeter bolt or centrally  
+    mounted rotor hub  
+ 
+  
+ 
+Page iv | Final report AO -2015 -002 Data summary  
+Aircraft  particulars  
+Aircraft registration : ZK-IPY 
+Type and serial number:  Robinson Helicopter Company R44 Raven II, 10555  
+Number and type of engines:  one IO -540-AE1A5  normally aspirated, reciprocating  
+Year of manufacture:  2004  
+Operator:  Over The Top Limited  
+Type of flight:  training  
+Persons on board:  two 
+Instructor 's licence:  commercial pilot licence (helicopter)  
+Instructor 's age:  42 
+Instructor 's total flying 
+experience:  
+Student 's total flying 
+experience : 4,703 hours, including 4 ,527 on helicopters and  950 
+hours on type  
+10 hours  
+Date and time  
+ 19 February 2015 , 13421  
+Location  
+ Lochy River, near Queenstown  
+latitude:  45° 11.15 ´ south  
+longitude:  168° 35.7´ east  
+Injuries  
+ two fatal  
+Damage  
+ helicopter destroyed  
+                                                        
+1 Times in this report are in New Zealand Daylight Time (co -ordinated universal time + 13 hours) and 
+expressed in the 24 -hour format.  
+Final report AO -2015 -002 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 19 February 2015, a Robinson R44 helicopter was returning to Queenstown from a 
+training flight  when it broke up in mid -air and crashed in bush near the Lochy River, killing the 
+instructor and student.   
+1.2. The helicopter broke up in mid -air when one of the main rotor blades struck the cabin, which 
+was caused by a phenomenon known as mast bumping , when the inne r part of a main rotor 
+blade or the rotor hub contacts the main rotor drive shaft . 
+1.3. Mast bumping is typically caused by one or a combination of the following factors:  
+ low main rotor revolutions per minute (RPM)  
+ the helicopter entering a low-Gravity (low-G) condition (where the occupants might get 
+the feeling of lightness or weightlessness)  
+ turbulence  
+ the pilot making large and abrupt movements with the helicopter controls . 
+1.4. The Transport Accident Investigation Commission ( Commission ) could not conclusively 
+determine what caused the mast bumping event .  We found that it was unlikely to have been a 
+low main rotor RPM event  and could find no mechanical defect or failure that could have 
+contributed to the accident . 
+1.5. The student was about as  likely  as not  to have be en flying the helicopter when the accident 
+occurred and the speed of the helicopter  was about as likely as not to have been 102 knots or 
+greater as it flew down the valley, returning to Queenstown . 
+1.6. Although the weather was generally calm and suitable for t he training flight , it was about as  
+likely as not  that there were  pockets of light to moderate turbulence in the area.  Light to 
+moderate turbulence should not on its own cause mast bumping, but when combined with a 
+relatively high speed and a pilot's control response to any turbulence, there is a high risk of 
+the helicopter entering a low -G condition, rolling rapidly to the right and suffering a mast bump 
+event  before the pilot can react.  
+1.7. The Commission comments on the safety issue  whereby the true c auses of mast bumping and 
+in-flight break -ups are often not able to be determined because the accidents are usually fatal 
+and the consequent destructive nature of the accidents makes it difficult to either eliminate or 
+confirm mechanical failure as a cause . 
+1.8. The Commission has made a recommendation  to the  Secretary for Transport and given notice 
+to the  Director of the New Zealand Civil Aviation Authority to promote , through the appropriate 
+International Civil Aviation Organi sation  forum, the need for cockpit  video recorders and/or 
+other forms of data capture in the cockpit s of certain classes of helicopter to address this 
+safety issue.  
+1.9. The key lesson  arising from th is inquiry  is that helicopter pilots must be fully aware that a 
+condition of low -G (feeling of lightness or weightlessness) can result in : a rapid right roll; mast 
+bumping; and in -flight break -up before even the most experienced pilot can react and recover 
+the situation.  Pilots need to fly in a manner that avoids low -G conditions rather than allow 
+them  to develop and then expect that they can recover from them . 
+ 
+  
+ 
+
+<< Page 2 >>
+ Final report AO -2015 -002 2. Conduct of the inquiry  
+2.1. At about 1600 on Thursday 19 February 2015, the Civil Aviation Authority (CAA) notified the 
+Transport Accident Investigation Commission  (Commission)  of the  accident .  The Commission 
+opened an inquiry under section 13(1)b of the Transport Accident Investigation Commission 
+Act 1990, because it believed that the circumstances of the accident had or were likely to 
+have implications for transport safety , and because the Co mmission was already inquiring into 
+two other break -ups involving Robinson helicopters . 
+2.2. An investigation team  travelled to Queenstown on the morning of Friday 20 February  2015 .  
+The team was given an initial briefing by the Police  and arrived at the accide nt site by 
+helicopter at about 1320 .  The Police  assist ed with  the site examination  and two CAA safety 
+investigators were given approval to conduct a parallel site investigation . 
+2.3. The wreckage was removed from the accident site late on 21 February  2015 and transported 
+to the Commission's examination and storage facility.  Commission investigators remained in 
+the Queenstown area for several days, interview ing witnesses , the operator  (Over The Top 
+Limited) and the families of the two victims .  Records for the h elicopter  maintenance  and for 
+the pilots' training and experience were collected from the operator.  
+2.4. On 21 February 2015  the National Transportation Safety Board of the United States (NTSB)  
+appointed an Accredited Representative to the inquiry in accor dance with the provisions of 
+Annex 13 to the Convention on International Civil Aviation .2  The Accredited Representative 
+appointed two senior air safety investigators from Robinson Helicopter Company (Robinson ) as 
+technical advisors, one of wh om travelled to New Zealand  to assist with the examination of the 
+wreckage.  
+2.5. One of the main rotor blades had fractured  near the change in chord3 - the point where the 
+blade dimensions changed.  The CAA investigators identified that this fracture was in a sim ilar 
+location  to that of a suspected fatigue failure in another R44 that the CAA was investigating  at 
+the time .  On 22 February 2015 the CAA issued an airworthiness directive4 that ground ed  
+R44s fitted with the C016 -7 model of main rotor blades  in New Zea land.  On 23 February  
+sections of the fractured blade  from ZK -IPY were taken to a laboratory , where a metallurgist 
+determined that the failure was impact  related  and not due to fatigue. T he CAA then cancelled 
+the airworthiness directive.  
+2.6. On 26 and 27 February 2015 the investigation team and a Robinson  technical advisor 
+examined the wreckage of the helicopter more closely  at the Commission's storage facility .  On 
+5 March 2015 the engine was taken to a maintenance facility where a complete t eardown 
+examination was performed in the presence of a Commission investigator.  The examination  
+included the testing of engine accessories.  
+2.7. The clutch was subsequently examined by a licen sed engineer familiar with the R44 and 
+clutch assembly.  
+2.8. On 11 March 2015 a representative of the operator was permitted to inspect and photograph 
+the wreckage, under supervision, at the Commission's examination and storage facility.  
+2.9. On 25 March 2015 the CAA files on the operator, helicopter and instructor were reviewed.  A  
+meeting was also held on the same day with CAA staff to discuss this accident and other 
+related Robinson helicopter accidents.  
+                                                        
+2 International Civil Aviation Organisation Annex 13 Aircraft Accident and Incident Investigation, Participation 
+in the Investigation, Rights , paragraph 5.18.  
+3 The chord is the distance from the centre of radius of a leading e dge to the centre of radius of a trailing 
+edge of a wing or blade . 
+4 An airworthiness directive is a mandatory instruction to ensure the continued airwo rthiness of an aircraft or 
+component . 
+Final report AO -2015 -002 
+<< Page 3 >>
+ 2.10.  On 8 June 2015 the Commission requested specialist assistance from  the Australian 
+Transport Safety Bureau (ATSB) , which  opened a n investigation and appointed an Accredited 
+Representative  and a technical advisor.  Both personnel were experienced in accidents 
+involving Robinson helicopters .  The technical advisor , a senior investigator,  held a licen sed 
+aircraft maintenance engineer qualification  and a Diploma of Transport Safety Investigation, 
+had completed the Robinson helicopter maintenance course and was trained in fracture 
+analysis . 
+2.11.  On 1 6-18 June 2015 the ATSB technical advisor examin ed the wreckage  with the investigation 
+team .  In the period  8-10 July 2015 the Chief Investigator of Accidents , the investigator in 
+charge , the ATSB Accredited Representative and his technical advisor  analysed the available 
+evidence and examined various hypotheses for the accident . Further enquir ies w ere initiated 
+as a result.  
+2.12.  On 31 July 2015 the fracture d surfaces of the  main rotor blades were sectioned off and sent 
+to the ATSB for examination.   On 14 September  2015  the ATSB provided a report to the 
+Commission on th at examination.  
+2.13.  On 9 November 2015, on behalf of the operator , a licen sed aircraft maintenance engineer 
+with air accident investigation experience examined the wreckage .  This took place  under the 
+supervision of Commission investigators at the Commission's examination and storage facility . 
+2.14.  The helicopter had been  fitted with a TracPlus5 satellite tracking system.  Recorded 
+information from this system was used to help determine the flight path of the helicopter.  
+2.15.  On 27 April 2016  the Commission approved this report  for circulation to intereste d persons  for 
+comment.   Eight submissions were received and considered by the Commission.  Any changes 
+as a result of those submissions have been included in this final report.   
+2.16.  On 4 July 2016 the emergency locator transmitter  (ELT)  installed in the helic opter was 
+examined by the New Zealand agent for the manufacturer (K annad) to establish whether it 
+performed as designed.   
+2.17.  The Commission approved this final report for publication on 27 July 2016 .   
+ 
+ 
+ 
+  
+                                                        
+5 TracPlus Global Limited.  
+ 
+
+<< Page 4 >>
+ Final report AO -2015 -002 3. Factual information  
+3.1. Narrative  
+3.1.1.  The Robinson R44 heli copter registered  ZK-IPY (the helicopter ) was owned and operated  by 
+Over  The Top Limited  (the operator ), based in Queenstown.  The helicopter was typically  used 
+for local scenic flights  for two or three passengers , and for familiarisation flights .  On Thursday 
+19 February 2015 the helicopter was not being used and was available for training.  
+3.1.2.  One of the operator's pilots, who was also an instructor, a pproached the son of the company 
+owner  during the morning and asked if he would like to go flying.  They had flown together the 
+day before as part of ad hoc  training for the son (referred to hereafter as the student) .  The 
+student accepted the offer as this was likely to be the last opportunity for a flight before he 
+headed overseas  to university . 
+3.1.3.  At ab out 1225 the helicopter was started and hover -taxied to a nearby refuelling pump , where  
+it was shut down and  94.2 litres of  fuel were added.  At about 12 40 the student called 
+Queenstown tower requesting a take -off clearance.6  The helicopter wa s cleared for take-off 
+and instructed to vacate the control zone to Collins Bay not above 6 ,500 feet.    
+3.1.4.  The a ir traffic service 's surveillance system showed that the helicopter  departed the 
+aerodrome at 1243 , flying initially to the south before turning right to cross Lake Wakatipu to 
+the north end of Collins Bay.  The helicopter steadily climbed to an altitude7 of 3,050 feet - 
+about 2,000 feet above the lake.   
+3.1.5.  Approaching the far shore , the helicopter descended to about 500 feet above the lake and 
+turned right to fly along the shoreline .  The helicopter flew northwest for about one kilometre  
+(km)  before reversing direction to fly in a southeast  direction just inland  of the shore .   
+3.1.6.  A witness , who  was herding some sheep close to  the shoreline , saw the helicopter 
+approaching  after it had crossed the lake .  He recognised the helicopter 's paint scheme  
+because  the operator regularly conducted training at locations around the farm and adjoining 
+propert ies.  The helicopter flew above the witness before return ing back towards the 
+southeast .  As the helicopter approached the second time  the instructor called the witness by 
+mobile phone.  They talked briefly , including  comment ing on the good weather.  As the 
+helicopter continued along the shoreline, it climbed steadi ly before turning inland.   
+3.1.7.  The last surveillance  record of the helicopter was at 1252 , when  the helicopter was  flying up 
+Collins Creek , behind Collins Bay, heading toward s the Lochy River valley about 3 km  away.  
+The helicopter was maintaining  about 2,350 feet above mean sea level  (about 1,000 feet or 
+300 metres [m] above the floor of the valley  at this point ), flying at a groundspeed of about 
+100 knots .8  
+3.1.8.  The helicopter was fitted with a satellite tracking system that  every  two minute s provided a  
+report of the helicopter's position, altitude and groundspeed.  (See paragraph 4.3.19 and on  
+for more information on the tracking system and data. )  The tracking data was sent 
+automatically to the operator's base where it could  be displayed on a monitor.  The data 
+showed th at the helicopter enter ed the Lochy River valley and fl ew approximately 15 km up 
+the river before conducting various  manoeuvres  (see Figure 1) .  
+                                                        
+6 Before departure the student was observed sitting in the right seat and the ins tructor in the left seat.  These 
+were the normal seating positions for an instructional flight.  
+7 Altitudes in this report are referenced to mean sea level, while heights are above the terrain.  
+8 A knot is a speed of one nautical mile per hour . 
+Final report AO -2015 -002 
+<< Page 5 >>
+  
+Figure 1 
+Track ing data f or R44 ZK -IPY 
+3.1.9.  A farmer and farmhand , who were  working several kilometres further up the Lochy River from 
+where  the helicopter was operating,  observed it flying in what w ere described as 'circuit -like' 
+manoeuvres.  The helicopter would descend and slow, coming to a hover in an open area for a 
+period before taking off and flying around again.   These manoeuvres continued for about 35 
+minutes.   
+3.1.10.  At 1338 the helicopter started flying down the river  towards Quee nstown , climbing as it 
+followed the valley.   The last tracking report was made at 1340:30 , when  the helicopter was at 
+an altitude of about 2 ,900 feet , or about 1 ,200 feet above the ground, and near the centre of 
+the valley.   The helicopter groundspeed was 102 knots o n a track of 032° True  at this time .   
+3.1.11.  The instructor needed to be back in  Queen stown by 1400 to meet a potential buyer for one of 
+the operator's other helicopters.  The potential buyer was to arrive at this time and after 
+inspecting the helicopter go for a flight  with the instructor .  At 1347  a staff member called the 
+instructor  on the radio to advise that the flight had been cancelled.  The staff member was 
+unable to raise a response , so checked the tracking display .  She saw that  the tracking had 
+stopped  some six minutes earlier  when the helicopter was still in the Lochy River valley .  The 
+staff member talked to  management , who had also become concerned about the flight .  The 
+staff member then  sent a text message to  the instructor and student, and phon ed the 
+aerodrome tower controller to see if they had contact with the helicopte r.  The staff member 
+also started  an 'Overdue Aircraft Checklist' during this time.  
+3.1.12.  At 1411 three of the operator's staff took off in a second helicopter and head ed to the last 
+recorded position of the helicopter.  The Police were informed and, in conjunction with the 
+Rescue Coordination Centre, started organising a search.   At 1416 t he operator's se arch 
+helicopter entered the Lochy  River  valley , and shortly after wards  started a  search of the area .  
+After finding nothing the operator's se arch helicopter proceeded up the Lochy R iver valley 
+where the  pilot and passengers  located the farmer and farmhand  who were returning down 
+the valley along a track.  The operator's search helicopter landed near the pair , who advised 
+that the helicopter  was last se en heading down the valley .   
+3.1.13.  The farmer  was familiar with helicopters  and boarded the operator's search helicopter to 
+assist  with the search .  The farmhand continued down the track and remained in contact 
+using  a hand -held radio.  The operator's  search helicopter spent the next 70 minutes 
+
+ 
+
+<< Page 6 >>
+ Final report AO -2015 -002 searching the valley and side gullies.  The pilot and passengers on the operator's  search 
+helicopter hear d a faint ELT signal  over the radio , but were unable to obtain a bearing on the 
+weak and  intermittent sign al.  At about 1540  the operator's search helicopter was joined by a 
+second helicopter organised by the Rescue Coordination Centre . At about this time  the 
+farmhand radioed that he had found  some wreckage  near the track .  The main wreckage  was 
+found soon afterwards  (see Figure 2) .  The bodies of the two pilots were found close to the 
+main wreckage.  They had died from severe traumatic injuries.  
+ 
+Figure 2 
+Accident site  
+3.2. Site information  
+3.2.1.  The accident site was 12 nautical miles (21 km) southwest of Queenstown airport (see Figure 
+3).  The site was on the western side (true left) of the Lochy  River, in a narrow section of the 
+valley at an altitude of approximately 1 ,450 feet (440 m).  The immediate area was covered in 
+beech trees approximately 80 feet (25 m)  high.  The wreckage was spread over an area 
+approximately 200 m by 200 m (see Figure 4 ).  A farm track ran through the centre of the 
+accident site.   
+3.2.2.  From the last known position of the helicopter to the accident site, the first item in the 
+wreckage trail was a rear section of the left skid.  To the right of this on the river bed was a 
+radio controller box that had been installed at the base of the instrument panel at the front of 
+the helicopter.  The main wreckage, consisting of the fuselage, tail boom, engine, transmission 
+and most of the main rotor, was 110 m further on, approximately 30 m north of the farm 
+track.  
+3.2.3.  Between the start of the wreckage trail and the main wreckage was a range of helicopter 
+components and personal items.  These included individual instruments, the upper instrument 
+console, the left cyclic control  handle , a tail rotor pedal and footwear.  Approximately 100 m to 
+the east of the main wreckage and near the river were  the main fuel tank and the outboard 
+part of (red) main rotor 
+blade - still attached  
+farm track  
+main rotor  
+blade  (blue)  
+tail boom  
+fuselage  
+outboard 
+section missing  
+Final report AO -2015 -002 
+<< Page 7 >>
+ 2.3 m of the red main rotor blade.9  Pieces of Perspex and cabin structure were found 
+throughout the accident site.  
+3.2.4.  Several items were seen suspended in the tree canopy.  The largest was a section of fuselage 
+panel from above the engine and behind the main rotor mast .10  This was recovered by using 
+the rotor downwash from a helicopter to blow the panel free.   
+3.2.5.  The main f uselage was resting nearly upright on the forest floor.  It lay against a tree that had 
+significant gouging down one side, consistent with the fuselage having slid down the side of 
+the tree.  The tail boom remained partially attached but bent at nearly 90º  to the fuselage.  
+The tail rotor assembly and empennage from just forward of the tail rotor gear box had 
+separated and lay 2 -3 m from the end of the boom.  
+ 
+Figure 3 
+Lochy River  - looking downstream (northeast)  
+ 
+ 
+                                                        
+9 The two m ain rotor blades were identified in the logbook as the blue blade (serial # 3761) and the red 
+blade (serial # 3709).  
+10 The mast is the main rotor drive shaf t. 
+accident site  
+North  
+farm track  
+8 
+  
+Figure 4 
+Main items of wreckage  
+
+9 
+ 3.2.6.  The engine, transmission, mast and main rotor hub assembly were still connected but had 
+twisted to the left.  The blue main rotor blade had broken off 1.4 m out from the hub.  The 
+outboard section, approximately 3.5 m long, lay about 5 m from the fuselage.   The red main 
+rotor blade had two 90º downward bends at 0.6 m and 2.5 m from the hub.  The blade had 
+separated 0.4 m outboard of the second bend.  The separated tip end was found near the 
+river.   
+3.2.7.  The student and instructor had been flung forward from the ir seats during impact. When the 
+fuselage was lifted, the right handle for the cyclic control was found under where the fuselage 
+had been.  Both of the pilots' lap -diagonal seatbelts were found buckled but had failed where 
+the straps that held the release lever s were anchored to the airframe between the two seats.  
+The inertia reels functioned normally.  
+3.2.8.  The damage to the trees, the ground markings and the wreckage damage and its spread were 
+consistent with the wreckage having fallen nearly vertically throug h the forest canopy in a near 
+level or flat attitude.  
+3.2.9.  Several pieces of broken instruments and a section of the front canopy bow were found after 
+the helicopter wreckage had been removed from the accident site.  
+3.3. Aircraft information  
+3.3.1.  ZK-IPY was a Robinson R44 Raven II helicopter , serial number 10555, manufactured in 
+November 2004 .  It was powered by a single Textron Lycoming IO -540-AE1A5 normally 
+aspirated engine, serial number L -29707 -48A.  The helicopter was imported into New Zealand 
+and registered by the  operator in January 2005.  
+3.3.2.  At the time of the accident the helicopter had accrued a total of 1 ,529 hours .  Records 
+showed that the helicopter was being maintained in accordance with the approved 
+maintenance manual and Robinson instructions.  The last maint enance inspection had been  a 
+scheduled 50 -hour check carried out on 9 February 2015, 10 days before the accident.  An 
+annual review of airworthiness had been  completed at the same time.  The helicopter had 
+since flown 19 hours without any reported defects .   
+3.3.3.  Maintenance requirements for the helicopter included a daily inspection of the tail rotor 
+blades and main rotor blades for potential fatigue cracking.  Aircraft documentation and 
+interviews with other pilots who had flown  the helicopter showed that  these requirements had 
+been  complied with.  
+3.3.4.  The weight and centre of gravity11 of the helicopter when it departed Queenstown w ere 
+calculated using the recorded basic weight of the helicopter , the reported weights of the two 
+pilots , and the weight of fuel  and additional survival items carried on board. It was determined 
+that the helicopter had departed with  full fuel tanks.  The take -off weight was calculated to be 
+987 kilograms  - the maximum allowable weight was 1,134 kilograms.  The centre of gravity 
+was calculated to be 245.36 c entimetres  aft of the datum ; within the allowable range of 
+between 234 and 257.8 c entimetres .  The lateral centre of gravity was within limits, close to 
+the centreline of the helicopter.  
+3.3.5.  The helicopter centre of gravity continued to be within the limits for the duration of the flight.   
+The weight at the time of the accident was calculated to be about 940 kilograms.    
+Wreckage examination  
+3.3.6.  Appendix 3 gives a more detailed account of the wreckage examination.  All major 
+components of the helicopter, including flight and engine controls, main rotor and tail rotor 
+assembl ies, landing skids and fuselage were accounted for at the site and  removed for further 
+examination.   
+                                                        
+11 The centre of gravity is the single point in the helicopter through which the wei ght (and force  of gravity)  
+acts. 
+ 
+
+<< Page 10 >>
+ Final report AO -2015 -002 Flight controls  
+3.3.7.  Dual  flight controls had been installed.12  The cyclic control  or stick had broken off near the 
+floor.   Both the left and the right cyclic extension  handles  had been broken off, with the left 
+extension  handle  having  an impact mark that matched the  curve of the  leading edge of a main 
+rotor blade.   
+3.3.8.  The c onnectivity of the flight controls through to the main rotor and tail rotor was established.  
+No evidence of pre -impact failure or problems was found.  
+Engine and controls  
+3.3.9.  The engine cooling fan displayed scoring around its perimeter and on the inlet cone surfaces , 
+indicating that it was turning at the time of the accident sequence .   
+3.3.10.  The drive belts were intact, although  one had a partial longitudinal split.  There was no 
+evidence that the belts had rolled off .  The clutch was found to lock and free -wheel normally.   
+The clutch was subsequently examined by a licen sed engineer familiar with the R44 and 
+clutch assembly.  The clutch assembly showed "virtually no sign of in -service wear" .  Tear 
+damage was found on the  inner race, which matched marks on the same end of each pall.  
+The damage was in the direction of drive . 
+3.3.11.  The engine was removed and taken to an approved  aircraft engine  overhaul facility and  
+subjected to a bulk strip inspection13 under the supervision of a Commission investigator.  
+Maintenance records matched the engine and all applicable airworthiness directives were 
+found to have been embodied . 
+3.3.12.  Engine accessories, including the magnetos, fuel control unit and fuel pump were all removed 
+and tested, with no defects found.  The fuel c ontrol unit was free of any contamination. The 
+testing of the fuel flow divider did identify a "slightly restricted flow due to tiny metallic particle 
+contamination " for the #5 nozzle.  
+3.3.13.  In summary, the engineering company determined that "no evidence was fo und of any pre 
+impact defect that would have affected the engine's ability to run.  The restriction in the #5 
+nozzle may have caused the engine to run slightly rough with minor power loss ". 
+3.3.14.  Both fuel tanks had separated from the fuselage and had significan t deformation.  Both tanks 
+had bladders installed and their caps were in place.  The tanks were found empty .  However , 
+the smell of fuel about the wreckage and the heavy ground indent where the main tank had 
+landed indic ated that both tanks had contained s ome fuel on impact. The main fuel filter 
+('gascolator ') was intact and found to contain fuel that was consistent with the correct fuel for 
+the helicopter.  The filter screen was clean and vent lines free of obstruction.  
+Main and tail rotor s  
+3.3.15.  Both of the pitch change links , which  connect the swashplate to the main rotor blades and 
+control the pitch angle of the blades, had failed in overload14, likely  after  a reverse bending 
+motion  (see Figure 5).  Both teeter stops were split horizontally through the middle,  and the ir 
+retention brackets were bent.   
+3.3.16.  Both main rotor blades had fractured  (see Figure 6) .  Because the f racture of the red blade 
+was near the point where another R44 blade had failed , which the CAA suspected had been 
+due to  fatigue, the Commission had this blade examined by a metallurgist at the earliest 
+opportunity.  The metallurgist's  initial assessment was that the blade had failed in  overload. 
+Subsequent detailed examination by the same laboratory and a further examination by an 
+                                                        
+12 A second set of flight controls to permit instruction from the left seat.  
+13 The disassembly of the engine to its individual components.  
+14 Overload is the common term used to describe the mode of failure where the force sustained excee ds the 
+material's physical strength or design load.    
+Final report AO -2015 -002 
+<< Page 11 >>
+ ATSB metallurg ist confirmed this .  The ATSB also determined that the failure of the blue blade 
+was the result of overload and not fatigue , with the blue blade exhibiting "significant plastic 
+deformation in the region of the fracture surface consistent with an overstress fai lure" .  Both  
+blades were examined for signs of any pre -existing delamination or dis-bonding,  and none was 
+found.15 
+ 
+Figure 5 
+Main rotor head showing broken components and extreme flapping of blades  
+                                                        
+15 The earlier R44 'Dash 2' and 'Dash 5' blades were subject to a Continuing Airworthiness Notice following 
+several cases of dis -bonding near the blade tip.  The Dash 7 blades fitted to ZK -IPY were not subject to the 
+same inspection requirement.  
+pitch change 
+links  
+coning or 
+flapping bolts  
+teeter or hinge bolt   
+crushed teeter 
+stops 
+blue blade  red blade  
+(rotated past 90º)  drive yoke 
+assembly  
+ 
+
+<< Page 12 >>
+ Final report AO -2015 -002  
+Figure 6 
+Main rotor blade damage  
+3.3.17.  The intermediate and aft flex ible couplings were bent and separated. The gearbox and tail 
+rotor assembly had separated .  The gearbox was able to be rotate d freely.   
+Instruments and readings  
+3.3.18.  The upper instrument console, found near the start of  the wreckage trail, had a deformation 
+consistent with having been  struck by a main rotor blade.  The instruments normally held by 
+the upper console had been dislodged, with the exception of the  vertical speed indicator.  
+Most of the warning lights at the top of the console were either broken or missing.  The only 
+light showing evidence of 'hot stretch'16 was the clutch light.  None of the temperature 
+indication stickers on gear boxes and the hydr aulic pump showed any evidence of excessive 
+heat having been generated in these components.  
+3.4. Personnel information  
+3.4.1.  The instructor was aged 42 years.  He had begun his piloting  career  with the British Royal 
+Marines  in March 1998 .  In September 2003 he migrat ed to New Zealand, obtaining his New 
+Zealand commercial pilot licence on helicopters in November 2003.  The instructor flew the 
+Robinson R22 in preparation for his commercial flight test.  During this time he also 
+completed the required Robinson safety awa reness training .17   
+3.4.2.  The instructor joined the operator in August 2004  and obtained his R44 and AS350 Squirrel 
+helicopter rating s shortly afterwards.  He occasionally flew the R44, but predominantly flew 
+the AS350 on local area scenic flights .  On 23 August  2005 the instructor completed further 
+Robinson safety awareness training as part of his annual competency check , which was flown 
+on the R44.   
+3.4.3.  In June 2007 the instructor left the operator and  joined another helicopter company that 
+performed flight traini ng.  As part of the instructor's R22 re -familiarisation and instructor 
+training, he again completed Robinson safety awareness refresher training.  He obtained his 
+C-category instructor qualification  on 9 July 2007.  He then instructed on both the R22 and 
+                                                        
+16 When a bulb is illuminated, the filament is heated and therefore ductile.  When subjected to a sudden and 
+large load, the filament will stretch before breaking.  The result is 'hot stretch', sometimes termed a  bird's 
+nest.  The opposite is a cold, brittle failure with no filament stretch.    
+17 Comprising ground and flight training.  
+hub 
+cuts made  
+post-accident  
+red blade  
+overload fracture  ground impact 
+damage  
+ 
+blue blade  
+Final report AO -2015 -002 
+<< Page 13 >>
+ R44 helicopters.  On 13 November 2008 the instructor obtained his B -category instructor 
+qualification.  
+3.4.4.  In July 2010 the instructor returned to fly with the operator for two years.  During this time he 
+completed further Robinson safety awareness refresher training, which includ ed a flight in an 
+R22.  He also presented safety awareness training on several occasions.  He then flew 
+helicopters in Papua New Guinea for  20 months before returning to New Zealand and re -
+joining the operator in August 2014.  
+3.4.5.  At the ti me of the accident the instructor had accrued a total of 4,703 flying hours, including 
+4,527 hours flying helicopters.  He had flown 2 ,145 hours on Robinson helicopters, including 
+950 hours on the R44.  The instructor's logbooks recorded that he had flown 2,435 hours of 
+mountain flying and 1 ,380 hours of instruction, nearly all in Robinson helicopters  and most ly 
+in the R22.   He had flown about 37 hours in the R44 since re -joining the operator in August 
+2014, including giving 13 hours of instruction.  
+3.4.6.  The ins tructor's last competency  check and biennial flight review had been  conducted on 29 
+August 2014 and was flown in an AS350 Squirrel. On 29 September 2014  he completed his 
+B-category instructor renewal  in R44 ZK -IPY, the accident helicopter .   
+3.4.7.  The instructor  held a current class 1 medical certificate valid until  21 February 2015.  He had 
+attended a medical examination on 4 February 2015 for the renewal of his certificate and 
+been assessed as fit .  The replacement certificate was in the process of being issued  at the 
+time of the accident.  
+3.4.8.  In the 48 -hour period preceding the accident , the instructor had flown three flights totall ing 
+5.2 hours, including a training flight with the student on the day before the accident.  This was 
+recorded in the student's logbook  as transitions and introduction to the circuit.18  In the seven -
+day period he had flown six flights totall ing 10.3 hours.  Th ese included 2.5 hours in the R44, 
+of which 1.7 hours were giving instruction.  The instructor was observed to be fit and healthy 
+on the day of the accident.  
+3.4.9.  The student was aged 18 years.  Since the age of about eight  years he had often accompan ied 
+pilots while they were undertaking commercial passenger flights on the operator's helicopters.  
+His pilot logbook recorded that he had flo wn a total of 10 hours  of training flight in the R44  
+helicopter .  The first flight had been a 'familiarisation ' flight in 2005.  He had next flown twice 
+in 2012.   
+3.4.10.  The frequency of the student's flying had increased from April  2014 until the accident flight , 
+when he flew nine flights and accumulated a further seven hours of flying experience .  He flew 
+one flight in December 2014, involving take -offs and landings and an introduction to flying 
+'the circuit '.  During February 2015 he flew four flights , three with the instructor and one with 
+another of the operator's pilots who was also a B -category instructor.  The four flights flown on 
+11, 13, 15 and 18 February totalled three  hours of dual instruction  and were all in the 
+accident helicopter .  The exercis es that were flown included transitions, hovering, introduction 
+to the circuit and autorotations.19     
+3.4.11.  The student was reported to be in good health on the morning of the accident . 
+3.4.12.  The toxicology re sults for the instructor and student  were negative for any  performance -
+impairing substances .   
+  
+                                                        
+18 Moving from the hover into forward flight and from forward flight into a hover.  
+19 Transition is the term used to describe a helic opter moving from a hover into forward flight or from forward 
+flight to a hover.  Autorotation is when the main rotor system is driven by the flow of air up through the rotors, 
+instead of by the engine.   
+ 
+
+<< Page 14 >>
+ Final report AO -2015 -002 3.5. Meteorological information  
+3.5.1.  The New Zealand Meteorological Service area forecast predicted light northwest winds from 
+the surface to 10,000 feet  for the period of the flight .  The cloud was predicted to be broken20 
+with a base of 5,000 feet, lowering to 3,500 feet in rain showers .  Isolated cumulous nimbus 
+or towering cumulous were forecast to develop during the afternoon and to dissipate in the 
+evening.  These would be associated with isolated showers.  Isolated mo derate turbulence 
+during the morning was expected to ease in the afternoon.  
+3.5.2.  The three witnesses who observed the helicopter after it crossed the lake and as it flew into 
+the valley said the day was fine and warm.  The wind conditions on the ground were generally 
+calm or near calm, with an occasional light gust passing through.  The witnesses aboard the 
+helicopters involved in the subsequent search reported similar conditions.  
+3.5.3.  Air traffic service staff  at Queenstown airport re corded the surface wind  during the late 
+morning an d early afternoon  as southwest at between three and seven knots .  The other 
+conditions included:  50 km visibility, FEW cloud21 at 4,500 feet  and 5 ,500 feet,  temperature 
+about 19º Celsius  and pressure varying between  1,018 and 1 ,020 hectopascals.  At 1413 a n 
+updated  report  record ed an increase in the wind at Queenstown airport to southwest ( 220º 
+magnetic ) at 15 knots, maximum 20 knots.  The other parameters remained  similar .   
+3.5.4.  The aerodrome meteorological conditions  recorded  automatically every 30 minutes show ed 
+that between 1230 and 1330 the wind was from the southwest at between 9 and 11 knots.  
+The report issued at 1400 recorded the wind varying  between  southwest and west at 14 
+knots.  Subsequent reports record ed the wind be ing steady from the southwest at between 7 
+and 10 knots.  
+3.5.5.  Another s ource of accurate wind data for the Queenstown area was the Meteorological 
+Service's recordings taken every minute at its aerodrome  site.  The data showed that during 
+the afternoon the wind  direction was from the southwest (between about 235 º and 255º 
+True) .  Wind strength fluctuated between about 5 and 10 knots , with occasional increases to a 
+maximum of 20 knots.  The aerodrome was 21 km from the accident site, approximately  
+downwind.  
+3.6. Operator  information  
+3.6.1.  Over The Top was established in 1986  and was certificated by the CAA to carry out air 
+operations under Civil Aviation Rules Part 135, Air Operations - Helicopters and Small 
+Aeroplanes.  The previous  safety audit by the CAA had been  undertaken on 15 May 2014 , 
+when three minor findings were issued.  The findings related to lapses in documentation 
+concerning  management and maintenance  practices , and were soon rectified .  The CAA's risk 
+assessment of the operator continued to place it in the lower or lowest risk assessment band 
+for this type of operator.  
+3.6.2.  At the time of the accident Over  The Top operat ed the Robinson R44 helicopter involved in the 
+accident and six turbine -powered Airbus22 helicopters  available for charter operations around 
+the Southern Lakes and southw est Fiordland area.  The operator also offered a 'U-Fly 2' 
+experience, where a customer could 'fly' the R44 under the supervision of one of its 
+instructors.  The operator had three B -category instructor pilots a ble to perform  this work.  
+3.6.3.  The company owner held the  following  senior positions within the organisation : 
+ CEO 
+ responsib ility for 'competency assessment'  
+ responsibility for crew training  
+ responsibility for flight and ground operation s. 
+ 
+                                                        
+20 Cloud is reported in oktas  (eighths).  Broken is 5 -7 oktas.  
+21 FEW is 1 -2 oktas.  
+22 Formerly Eurocopter and Aerospatiale.  
+Final report AO -2015 -002 
+<< Page 15 >>
+ An external training organisation conducted pilot competency checks , typically alternat ing 
+between the  different helicopter  types to help ensure pilots  were competent to  operate each 
+type.  
+3.6.4.  The operator was the recipient of safety awards  issued by national and international  
+organisations, and the CAA .23  Pilots were encouraged by the operator to gain recognition  of 
+their flying and safety efforts .  On 3 May 2012 the instructor had received  a New Zealand 
+Helicopter Association Silver Safety Award, rec ognising "more than 10 years'  continuous 
+service without accident  to self, passengers or crew ".  
+3.7. Additional information  
+Robinson helicopters  
+3.7.1.  The R44 is a four -seat development of the R22, and was first delivered in 1993.  The R44 and 
+R22, and the later R66, share a common two -bladed teetering24 rotor system unique to 
+Robinson.  In 2002 the R44 Raven II version was introduced and offered hydraulically assisted 
+controls, a more powerful engine and improved main rotor blades.  This resulted in an 
+increase in performance and maximum allowable weight.  More than  5,000 R44 helicopters 
+have been delivered, making it one of the most common helicopters currently in use in the 
+world.25  At the end of 2014, according to CAA data, 40% of the helicopter fleet in New 
+Zealand comprised  Robinson helicopters, with 144 R22s, 186 R44s and five R66s.   
+3.7.2.  During the 1980s t he R22  was involved in a disproportionate number of accident s when 
+compared with other helicopter types , so the United States Federal Aviation Administration 
+(FAA) and NTSB initiated  several studies regarding the certification and opera tion of the type.  
+One of the outcomes of the studies  was the issuing of FAA Special Federal Aviation Regulation 
+(SFAR) 73 in 1995 , which set pilot experience and training requirements for the R22.  The 
+requirements were extended to include the R44 because  of similar concerns.  However, in 
+New Zealand SFAR 73 was applicable to the R22 only.  See Commission  reports 11 -003 and 
+13-005 for further information on SFAR  73 (TAIC 2011 and TAIC 2013 a). 
+3.7.3.  The minimum experience and training requirements, plus the fitment of an engine speed 
+governor as standard equipment, also in 1995, resulted in a decrease in the accident rate.  
+Rotor head design    
+3.7.4.  The basic teetering rotor head design26 has been  used on a number of  two-bladed main rotor 
+systems  - for example t he B ell 47 , developed in 1946 , and the Bell UH -1 Iroquois (204/205) , 
+developed in 1956, which were  both successful helicopters .27  Both types also incorporate a 
+stabiliser bar positioned at 90º to the main rotor blades to increase main rotor stability .  In the 
+1970s a significant number of helicopter accidents were being attributed to mast bumping , 
+where the main rotor teete rs excessively and the hub strikes  the mast. If the bumping were 
+sufficiently violent, the damaged mast could fail totally and the main roto r separate.  
+Excessive teetering , possibly compounded by pilot input to the controls, could  place excessive 
+loads on the pitch change links that control led blade angle.  Once the pitch change links 
+failed, the blades were  free to rotate and be driven into the fuselage of the helicopter s.  Either 
+scenario usually had disastrous consequences.    
+ 
+ 
+                                                        
+23 Organisations included the New Zealand Helicopter Association and the Helicopter Association 
+International . 
+24 Teetering is the see -saw movement of a two -blade d rotor about the teeter bolt or centrally  mounted rotor 
+hub. 
+25 Some 4,600 R22s of various models have been manufactured.  
+26 Sometimes called a semi -rigid rotor head because it is rigid in the plane of rotation, but can still flap.  
+27 Some 5,600 Bell 47 and 16,000 Bell UH -1 helicopters were produced.   
+ 
+
+<< Page 16 >>
+ Final report AO -2015 -002 3.7.5.  Three main factors were identified as leading to mast bumping:  
+ low-G28 
+ centre of gravity outside limits  
+ abrupt and excessive control  inputs.  
+3.7.6.  Military flight manuals were amended to prohibit low-G manoeuvres and flight into severe or 
+extreme turbulence.29 The equivalent manuals for the civil versions of the UH -1 Iroquois, the 
+Bell 205, were briefer and contained no similar restrictions.30    
+3.7.7.  The Robinson rotor head design is unique in that it incorporates coning or flapping hinges31 as 
+well as a teeter hinge (see Figure 7).  The teeter hinge allows the rotor system to tilt in a 
+particular direction, thus inclining the rotor thrust in that d irection.  The coning hinge allows 
+individual blades to flap up and down.  Flapping32 is a normal function of flight and is the 
+result of the lift of a blade changing in response to changes in airspeed and angle of attack as 
+the blades rotate.  It is also c ommon during start -up and shutdown in windy conditions , where 
+the slow rotation of the blades provide s insufficient centrifugal force and stability to maintain 
+the blades in the same plane of rotation.  Static or teeter stops are used to control excessive 
+teeter and prevent damage to the mast during this time.    
+3.7.8.  The Robinson main rotor blades are regarded as being lightweight, low -inertia blades when 
+compared with the heavier blades found on other  helicopters.  While the low -inertia blades 
+offered advantages, one disadvantage was the potential rapid decay in rotor RPM , perhaps in 
+response to poor throttle control , overpitching  of the rotor blades  or engine failure and slow 
+entry to autorotation.  To help address this concern, Robinson provided an automatic 
+carburettor heat control and a more powerful engine, modified the main rotor blades and 
+installed an electronic fuel control governor to help control engine and main rotor speed . 
+                                                        
+28 G, sometimes identified as 'g', is the acceleration due to gravity.  Low-G is a net force less than the force of 
+gravity.  When zero the object is described as weightless . 
+29 United Sta tes Army and Royal New Zealand Air Force flight manuals for the UH -1 Iroquois included the 
+figure of 0.5g  as the minimum load factor.  
+30 According to Bell Helicopters, the relevant military organisation was the airworthiness authority for its 
+helicopters, n ot the civil regulator.  The restrictions reflected the types of operation being undertaken.  
+31 Robinson uses the term coning hinge.  
+32 Flapping is the vertical movement of a blade about a hinge (coning bolt) perpendicular to the blade span . 
+Final report AO -2015 -002 
+<< Page 17 >>
+  
+Figure 7 
+R44 rotor head  
+(Courtesy of English Wikipedia)  
+Mast bumping  
+3.7.9.  Mast bumping is th e result of extreme teetering .  Extreme teetering  is when the main rotor, 
+often described as the disc  because of the shape it describes , diverges significantly from the 
+normal plane of rotation.33  This can occur when either the disc or the fuselage moves 
+excessively relative to each other.  There are several factors that can , in combination  and in 
+some cases singularly, initiate  excessive teetering  and mast bumping .  These are:  
+ low-G 
+ turbulence  
+ large, abrupt control movements by the pilot 
+ low main rotor speed or  RPM . 
+  Low -G 
+3.7.10.  Low-G flight is a situation when the occupants feel a sensation of reduced weight.  It can be 
+induced by a pilot moving the cyclic control  stick  forward.  In a helicopter with a teetering rotor 
+head, b ecause of the position of the helicopter's centre of gravity and the tail rotor thrust line, 
+if the pitch forward is sufficiently strong enough and the tail rotor thrust line moves high enough, 
+a roll to the right can be induced.34  Because of the teetering rotor head design  and the 
+gyroscopic stability of the main rotor , the disc attitude will remain stationary or slowly lag behind 
+the fuselage roll.  In effect, the pilot will observe the helicopter starting to roll righ t, but the dis c 
+may still be about level.  If the pilot applies  left cyclic to counter the apparent roll, the angle 
+between the disc and the mast on the left side will be reduced even further - possibly to the 
+point where the spindle (see Figure 7)  contacts the mast  (mast bumping) .   
+                                                        
+33 Often referred  to as main rotor divergence.  See Air Accidents Investigation Branch (AAIB, United Kingdom) 
+Bulletin 2/2013, G -CHZN.  
+34 For a main rotor, like that of the Robinson types, which turn anti -clockwise when viewed from above.  
+pitch change link pitch horn  main rotor hub  coning (flapping) bolts  teeter bolt  
+pitch change link  pitch horn  teeter stops  
+swashplate  main rotor 
+shaft (mast)  spindle  
+ 
+
+<< Page 18 >>
+ Final report AO -2015 -002 3.7.11.  A higher power setting  will result in more  rotor torque being generated , requiring  more tail rotor 
+thrust to balance th e torque  effect.  The refore , the higher the power setting  the greater will be 
+the rate of roll.  At a high speed  there is a high power setting and a high tail rotor position .   
+3.7.12.  The R44 Pilot's Operating Handbook35 limitations section stated "Low-G cyclic pushovers 
+prohibited ".  Immediately following this, a caution36 alerted pilots that low-G condition "can 
+result in catastrophic loss of later al control ".  Pilots were instructed that should low-G be 
+encountered they were to apply gentle aft cyclic , and should a right roll commence  they should  
+apply gentle aft cyclic to reload the disc before applying lateral cyclic to stop the roll.  
+3.7.13.  The Pilot's Operating Handbook  Section 10 Safety Tips and Notices contained the following 
+tip: 
+Never push the cyclic forward to descend or to terminate a pull -up (as you would in 
+an [aeroplane] ).  This may produce low -G (near weightless) con dition which can 
+result in a main rotor blade striking the cabin.  Always use the collective to initiate a 
+descent.  
+A safety notice also discussed low-G and stated that pilots should never demonstrate or 
+experiment with low-G as even highly experienced tes t pilots had been killed investigating this 
+flight condition (see Safety Notice SN -11 in Appendix 4). 
+Turbulence  
+ 
+3.7.14.  Turbulence is rated  as light, moderate, severe or extreme , according to the effect on the 
+aircraft and its occupants .  Light turbulence is when the aircraft experiences slight erratic 
+changes in attitude or altitude , whereas  extreme turbulence  may cause  structural damage.  
+The assessment can be subjective .  For example , it would not be unusual for the same 
+turbulen t con ditions  to be  described as moderate by the pilot of a light helicopter , but as light 
+by the  pilot of a large aeroplane.   
+3.7.15.  Turbulence is a known contributor to ma st bumping . A large downward gust will unload the  
+rotor disc37, resulting in low-G.  Conversely,  an upward gust  will increase the angle of attack of 
+the blades, causing the blades to flap.  Inappropriate or inadvertent pilot inputs or over -
+controlling can exacerbate the effects of the turbulence. The P ilot's Operating Handbook  
+contained no limitation  for flight in turbulence.  Safety Notice SN-32 warned pilots that the 
+improper application of control inputs in turbulence could  increase the likelihood of mast 
+bumping.38   
+3.7.16.  The notice described the procedures to be followed when encountering turbulence, principally 
+to reduce speed.  This had the twin benefit s of lowering the tail rotor thrust line, thereby 
+reducing the likelihood of an uncommanded right roll  and, secondly, reducing the tail rotor 
+thrust, such that if the heli copter should start to roll right, it would  be at a slower rate.  The 
+notice also stated that p ilots should tighten their seat belt s and firmly rest their right forearm s 
+on their right legs to prevent unintentional control inputs. The notice noted that the  helicopter 
+was more susceptible to turbulence at light weight (see Appendix 4).         
+   
+  
+                                                        
+35 The Pilot's Operating Handbook i ncluded the approved flight manual.  This document contained, among 
+other things, limitations in the operating of an aircraft and various safety tips and notices.  
+36 The Pilot's Operating Handbook used the terms Caution  and Note, with Caution  being defined as 
+"Equipment damage, injury, or death can result if procedure or instruction is not followed".  
+37 The rotor disc is the area swept by the rotor blades each revolution . 
+38 This has since been amended to advise that "Flying in high winds or turbulence should be avoided".  
+Final report AO -2015 -002 
+<< Page 19 >>
+ Large , abrupt control movements  
+   
+3.7.17.  The R44, like the R22, is very responsive to pilot control inputs.  The cyclic control  stick in 
+particular  requires only light forces to achieve the full range of movement.  The hydraulically 
+boosted controls also mean that a pilot has little feedback and thus limited feel of what's 
+happening to the main rotor . 
+3.7.18.  Any large and/ or abrupt movement of the cyclic  stick  will cause the disc to teeter .  Excessive 
+movement will  result in  main rotor movement relative to the mast , reducing  the margin 
+between the hub and mast  and leading to possible mast bumping.  The Pilot's Operating 
+Handbook 's limitations section  and a safety tip both advised pilots to avoid abrupt control 
+inputs as these produce d high fatigue loads and could lead to the failure of a critical 
+component.   An NTSB  study of R22 accidents  involving  loss of main rotor control found that 
+"large, abrupt control inputs can lead  directly to mast bumping… " (NTSB 1996) . 
+Low main rotor RPM  
+  
+3.7.19.  The coning angle39 of the disc is the result of the interaction between the lift being generated 
+by the blades and the centrifugal force from their rotation.  With the helicopter on the ground 
+at normal operating RPM  and with no collective pitch applied, the disc will be flat.  In hover the 
+blades will be coned upwards in response to the increase in lift being generated .  Were the 
+RPM  to decrease  while holding the same hover position , the blades w ould cone upwards 
+because of the reduced centrifugal forces.  A secondary effect of the reduced RPM  is reduced 
+lift. The collective lever40 would t herefore need to be  raise d to maintain the same amount of 
+lift.  Th e resulting increase  in blade pitch angle i ncreases the  drag on the rotor blades and, if 
+not countered, will reduce rotor RPM  even further.  
+3.7.20.  If the situation described above continues, the blades will stall - lift will suddenly reduce.  The 
+blades will then flap down .  In forward flight the stall will not be symmetrical and the retreating 
+blade will stall first.41  This situation will lead to main rotor divergence , with the stalled 
+retreating blade potentially striking the mast and/or the airframe.   
+3.7.21.  A Pilot's Operating Handbook  safety tip state d: "Never allow rotor RPM to become dangerously 
+low.  Most hard landings will be survivable as long as the rotor is not allowed to stall ".  The 
+Pilot's Operating Handbook  also contained two safety notices, SN -10 and SN -24, relating to 
+low rotor RPM  and fatal accidents (see Appendix 4).  
+  
+                                                        
+39 The coning angle is the angle formed between the span -wise length of the main rotor blades and their tip 
+path plane .  The angle varies according to the resultant of the centrifugal force due to RPM and the lift that is 
+demanded . 
+40 The collec tive lever is the control that changes the pitch angle of the main rotor blades  by the same 
+amount and at the same time, which changes the total rotor thrust, usually to effect a climb or descent . 
+41 Because of the relative airspeed over the blades, to generate the same amount of lift the retreating blade 
+will be at a higher pitch angle than the advancing blade.  
+ 
+
+<< Page 20 >>
+ Final report AO -2015 -002 4. Analysis  
+4.1. Introduction  
+4.1.1.  The Commission determine d that it was virtually certain the helicopter experienced a mast 
+bump event, which resulted in the main rotor blades striking the fuselage .  Thereafter the 
+helicopter broke up in flight.  
+4.1.2.  The Commission has not been able to establish conclusively what initiated or contributed to 
+the mast bump.  The uncertainty around the circumstances of this accident is not unique.  The 
+nature of mast bump accidents is th at they are usually fatal, leaving  no one to explain what 
+was happening at the time.  In -flight break -ups are destructive, making it difficult to determine 
+with certainty whether a mechanical failure of some kind could have initiated the mast bump.  
+4.1.3.  There h ave been many other fatal mast bump accidents involving Robinson helicopters in New 
+Zealand and around the world  that have gone largely unexplained .  It is difficult to identify  the 
+lessons from an accident and make meaning ful recommendations to prevent si milar 
+accidents if the underlying causes cannot be determined.  This is a serious safety issue that  
+the industry , including pilots, operators, the manufacturer and the regulator,  will need to 
+address . 
+4.1.4.  A remedy for the lack of reliable data concerning specific accidents is to record flight data and 
+cockpit video.  At present International Civil Aviation Organi sation (ICAO ) standards do not 
+require flight data recorders to be installed in small and medium  helicopters.  However, 
+lightweight and affordable recorders are available and are installed as standard equipment in 
+some helicopters.  In addition, technical means are available for detecting, and therefore 
+recording, the positions of flight and engine c ontrols on helicopter types that have previously 
+been unsuited for the collection of digital data.  
+4.1.5.  The Commission has therefore made a recommendation to the Secretary for Transport, and 
+given notice of that recommendation to the Director of the CAA, to pro mote through the 
+appropriate  ICAO forum the need for cockpit video recorders and/or other forms of data 
+capture in the cockpit s of certain classes of helicopter to address this safety issue.  
+4.1.6.  Since 1996 the Commission and the CAA have collectively investiga ted 12 accidents or 
+incidents involving R22, R44 and R66 helicopters where mast bumping occurred.  Some 
+common themes were identified  (refer to Appendix 1 for details) . 
+4.1.7.  In six of the 12 accidents  the helicopter s had very likely encountered turbulence.  In cases 
+where  turbulence had not been severe, high speed, high engine power and/or over -controlling 
+by the pilot s were considered to be possible contributing factors .  Eight of the accidents 
+occurred in mountainous or hilly terrain.  Five of the occurrences involved pilot training of 
+some form.  Six occurred while the helicopter s were  in transit between two locations , and a 
+seventh was during cross -country navigation training.  Of the accidents where the main rotor 
+blade s struck the helicopter s, five were to the fuselage  and five to the tail boom . The 
+remaining two were  mast bump incidents where  the main rotor blade s did not  strike  the 
+helicopter s. 
+4.1.8.  On 9 March 2013 a Robinson R66 helicopter suffered a mast bump and in -flight break -up in 
+the Kaweka  Ranges.  (See Commission report AO -2013 -003.)  As a result of that inquiry , on 25 
+February 2016 the Commission recommended to the Administrator, Federal Aviation 
+Administration of the United States that he "reinstate research into the dynamic behaviour of  
+two-bladed, teetering, underslung rotor systems, taking full advantage of available technology, 
+with the aim of achieving the original goal of NTSB recommendation A -96-12.  (005/16)" .    
+4.1.9.  The following analysis discusses  in more detail what happened .  Ther e are generally four 
+factors  that, usually in combination,  can potentially lead to mast bumping.  They are:  
+ low-G 
+ turbulence  
+Final report AO -2015 -002 
+<< Page 21 >>
+  large, abrupt control movements by the pilot 
+ low main rotor speed or RPM .  
+Each of these has been considered  in relation to the cir cumstances of this accident.  
+4.2. What happened  
+4.2.1.  The crushing of the teeter stops found on the rotor head was a clear indication  of a mast 
+bump.  Other rotor head damage found included broken pitch change links, a bent rotor shaft 
+and scoring on the inside of the hub from excessive movement of the spindle tusks.  This 
+damage was a typical signature of a significant mast bump.  
+4.2.2.  A significant mast bump event often result s in the main rotor blades striking the fuselage .  In 
+this case one of the main rotor blades (the red blade) struck  the cabin area of the fuselage  
+twice .  The first strike was through the top left side of the cabin.  The second strike, as little as 
+0.15 seconds after the first42, hit the upper instrument console and left handle of the cyclic 
+control  stick .  The blade then swung under the fuselage to strike the rear of the left skid.  The 
+tip bent around the skid and separated to the right of the flight path (see Figure 8).  The main 
+fuel tank located on th e left side was dislodged early in the sequence and also ejected  out to 
+the right of the flight path.  
+   
+ 
+Figure 8 
+Main rotor blade strike on rear of left skid  
+4.2.3.  The spread of the wreckage on the ground was typical of an in -flight break -up initiated by a 
+mast bump and the main rotor blades striking the fuselage . 
+4.2.4.  It is clear that mast bumping in itiated the in-flight break -up of the helicopt er.  What is not so 
+clear is what caused the mast bump.  Several possibilities were examined.  
+                                                        
+42 At a main rotor speed of 408 RPM or 6.8 revolutions per second, the red blade would tak e 0.15 seconds 
+for one rotation.  
+rear section of left 
+skid, found early in 
+the wreckage trail  
+area of heavy gouging 
+on underside of blade  
+
+ 
+
+<< Page 22 >>
+ Final report AO -2015 -002 Engine or transmission failure  
+4.2.5.  An engine or transmission failure was unlikely to ha ve contributed to this accident.   A normal 
+pilot response to this type of failure would be to enter the helicopter into autorotation by 
+lowering the collective  lever , thus avoiding low rotor RPM  (one of the known causes of mast 
+bumping) .  The frequent p ractice of an  autorotation  after a s imulated engine failure  forms part 
+of the helicopter pilot training syllabus.  The instructor was an experienced helicopter pilot.  It 
+would therefore have been  unlikely for him to allow an engine or transmission failure to result 
+in a low rotor RPM, even if the student was flying at the time.  
+4.2.6.  In support of this hypothesis , the teardown examination of the engine revealed no faults.  The 
+'trapped' engine readings and the scoring marks on the engine cooling fan and adjacent areas 
+confirm ed that the engine had been  operating at the time of the in -flight break -up.  It could 
+not, however , be established how much power the engine was delivering at the time.  
+4.2.7.  The restricted fuel flow to the #5 nozzle and cylinder was not significant and at worst would 
+have caused only minor rough running of the engine, which may not have even been 
+notice able to the pilots.  There would have been ample power available to fly the helicopter 
+back to Queenstown.  It would be unusual for a r ough -running  engine  alone  to result in 
+reduced main rotor RPM . 
+4.2.8.  The fuel control unit was examined as part of the investigation and  determined to have been 
+functioning correctly at the time of the accident.  It was considered very unlikely to have 
+contributed to the accident for a number of reasons.  Firstly, an examination of the unit found 
+no fault.  Secondly, the engine was still operating at the time of impact.  And thirdly, a fuel 
+control unit failure, even to f ull flow, should have been easily handled by the instructor  and at 
+worst resulted in a forced landing  - not an in -flight break -up.    
+4.2.9.  A drive belt or clutch failure was unlikely to have contributed to the accident.  Power is 
+transmitted from the engine to the rotor drive system through vee -belts and a clutch 
+arrangement.   One of the two V -belts was partially split but both  were otherwise intact, with no 
+evidence of their having rolled off their pulley s or excessive slippage.  The longitudinal split in 
+one o f the drive belts matched rubber transfer marks on an adjacent section of the engine 
+frame , making it  virtually certain that the split occurred when the helicopter broke apart and 
+caused the engine frame to make contact with the drive belt.  
+4.2.10.  The clutch lock ed and free -wheeled normally and the transmission rotated freely.   The internal 
+damage found in the clutch assembly was consistent with the engine continuing to try to drive 
+the transmission and main rotor when the red blade struck the fuselage.  
+4.2.11.  When a pil ot engages the clutch switch , an electric actuator raises the upper drive sheave to 
+tension the belts that drive the main and tail rotors.  When the belts are properly tensioned, 
+the actuator automatically switches off.  
+4.2.12.  The hot stretch found in the 'clutch caution light' filament was evidence that the light was 
+illuminated when the control panel was disrupted.  However, this would not have been  
+unusual because the clutch caution light illuminates whenever the actuator aut omatically 
+energises to re -tension the belts in flight, and stays on until the belts are properly tensioned.  
+For this reason, "occasional illumination of the clutch light during flight is not uncommon " 
+(Pilot Operating Handbook).  Additionally, any relati ve movement between an engine and the 
+transmission during a break -up sequence is likely to affect  momentarily the tension of the 
+drive belts, causing the actuator to energise and the caution light to illuminate.   
+4.2.13.  Fuel starvation or contamination was unlik ely to have been a factor in the accident.  The main 
+fuel tank had contained fuel and, based on the calculated fuel load at the start of the flight, 
+there should have been sufficient fuel for a further two hours of flying.  The main fuel filter  
+contained f uel and had no  obvious contaminants.  The fuel lines from the tank to the engine 
+were free of any obstruction and the engine was operating at the start of  the break -up 
+sequence .  The aerodrome fuel supply was tested for quality and the fuel found to have met 
+the required quality . 
+Final report AO -2015 -002 
+<< Page 23 >>
+ Component failure  
+4.2.14.  The fracture of the red main rotor blade was close to the change in chord , which was where a 
+fatigue failure had occurred the previous month on another R44 helicopter .43  However , the 
+fractures where both the blue and red main rotor blades separated from the helicopter were  
+confirmed by metallurgical examinations to be the result of overload failure , not fatigue  failure.   
+That is , they were torn from the helicopter by the forces in volved during the in -flight break -up 
+or from impact with trees and the ground.   The two near -90º downward bend s of the blade 
+were examined and determined to be the result of overload  resulting  from  the initial rotor 
+divergence and mast bump.   
+4.2.15.  An examinatio n of the main rotor and tail rotor drives also found no pre -existing fault s.  All 
+other d amage to the helicopter can reasonably be attributed to the sequence of in -flight break -
+up and impact with the surrounding terrain .  Staff from the Ins titute of Enviro nment al Science 
+and Research (E SR) examined both main rotor blades for evidence of a bird strike.  None was 
+found .   
+4.3. Mast bumping  
+4.3.1.  As mentioned above , low-G, turbulence , large, abrupt control movements by a pilot , and low 
+main rotor speed or RPM  are all factors or conditions known to contribute to mast bumping.   
+Some o f these factors  can be  interrelated.  A helicopter can momentarily enter low-G due to 
+turbulence.  Pilots can cause low-G by their control input alone.  A pilot's  incorrect flight c ontrol 
+response to a helicopter being buffeted by turbulence can exacerbate rather than alleviate a 
+low-G situation, and thus create a mast bump situation that otherwise might not have 
+occurred.  
+4.3.2.  In Robinson 's opinion, turbulence alone does not cause mast b umping, but rather it is a pilot's 
+control input in response to turbulence that creates the problem.  However, this hypothesis 
+has not been tested.  
+4.3.3.  Another  key factor is the speed of the helicopter at the time.  An increase in the  spee d or 
+power setting will increase the onset of the event and reduce  the time for the pilot to make the 
+correct response  (paragraph 3.7.11) . 
+Low rotor RPM  
+4.3.4.  Low rotor RPM was unlikely to have been a factor in this accident .  As mentioned above there 
+is no evidence that supports any major issue with the engine or transmission that could have 
+resulted in a significant drop in main rotor RPM.  
+4.3.5.  Low rotor RPM can be induced by pilots when helicopter s are  engaged in tight manoeuvres, 
+such as stock mustering and hunting activities.  Howe ver, in this case the helicopter was as 
+likely as not being flown  directly down the valley on its return  to Queenstown  in order for the 
+instructor to make his next appointment.  
+4.3.6.  A third argument is provided by Robinson , which  says, "Experience has generally  been that 
+low-G mast bumping usually results in the rotor blade or blades contacting the cabin, and low 
+RPM rotor stall usually results in the rotor blade or blades contacting the tail  cone [tail boom].  
+There are exceptions to this… ".  In this case the m ain rotor blades contacted the cabin.  
+4.3.7.  A fourth  and more definitive argument is that low main rotor RPM events result in both main 
+rotor blades coning upwards, which usually results in a similar creasing of the upper blade 
+surface on both main rotor blades.  There was no evidence of this signature damage on the 
+two main rotor blades recovered from the accident site.  
+Turbulence  
+4.3.8.  The wind conditions were reported by witnesses on the ground as calm or light.  However, 
+what was experienced by the witnesses on the ground may not have been the same as those 
+                                                        
+43 This occurrence is still being investigated by the Commission (Inquiry AO -2015 -003).  
+ 
+
+<< Page 24 >>
+ Final report AO -2015 -002 at 1,000 feet above the valley floor and several kilometres away.  Similarly, the conditions that  
+the people in the searching helicopters expe rienced may not have been the same as the 
+conditions an hour or more earlier.  
+4.3.9.  The New Zealand Meteorological Service data recorded at Queenstown aerodrome was not an 
+exact representation of the conditions in the valley at the time.  However, what the data does 
+show is that while the wind direction remained steady, there were constant variations in the 
+strength of the wind.  The 15 -20 knots recorded at Queenstown could have been enough to 
+generate light turbulence .  Mountainous terrain can cause wide variati ons in turbulence from 
+one area to the next .  Therefore it was about as likely as not that  there was light or even 
+moderate  turbulence in the valley at times.  
+4.3.10.  The weather conditions were certainly suitable for the flight.  If turbulence were  a factor, whic h 
+of the  two pilots  was flying at the time could be relevant.  The instructor was an experienced 
+helicopter pilot with 2 ,145 hours on Robinson helicopters, including 950 hours on the R44 
+type.  None of the scenarios presented so far should have caused him any concern.  
+4.3.11.  There is some evidence to suggest that the student was controlling the helicopter at the time  
+of the accident .  The helicopter was fitted with dual controls, which include d an extension see -
+saw handle arrangement on top of the main cyclic control stick.  The pilot flying pulls the 
+extension handle down to a comfortable position in order to fly the helicopter.  The other end 
+of this extension is consequently in a raised position.  
+4.3.12.  The angle at which the main rotor blade entered  the cabin and struck the cyclic control  stick  
+suggest ed that the cyclic extension handle was angled down to the right as it would have been  
+had the student been flying.  While not conclusive , it is about as likely as not that the student 
+was flying at the time.  
+Pilot-induced low-G 
+4.3.13.  Low-G can be induced by pilot s, perhaps  inadvertent ly when transitioning from a climb to level 
+or descending flight , or deliberately  - for example if an instructor is demonstrat ing to a 
+student the me thod for recovering from a low -G condition .   
+4.3.14.  In-flight demonstration s of low -G are prohibited for Robinson helicopters, yet there is strong 
+evidence that in New Zealand some  instructors are demonstrating  to students  the onset of the 
+characteristic right roll that will occur if a helicopter enters  a low -G situation.  This evidence 
+comes from an expert conference the Commission hosted in relation to another accident 
+involving a Robinson helicopter, and also from New Zealand industry training forums hosted 
+by Robinson.  
+4.3.15.  There is no evidence to suggest  that such a demonstration was being made at the time of this 
+accident.  However, it is known that the  instructor had demonstrate d the procedure to at least 
+one student in the past.  
+4.3.16.  Eight former students of the instructor and several fe llow pilots were que stioned about his 
+flying and whether  he had performed low-G demonstration s.  Only one student said that the 
+instructor had demonstrated the lead -up to low -G with the helicopter becoming "light", but 
+they said that this stopped before it started to roll.  All the students and pilots agreed that the 
+instructor had been  a very thorough and professional instructor and pilot, and had  had a good 
+empathy with his students.  They said he had not and would not  have  undertake n any random 
+manoeuvre that would have knowi ngly endanger ed the helicopter.  
+4.3.17.  It would have been  unusual for the instructor to be demonstrating to this student the effect of 
+entering low -G at his stage of learning, with only 10 hours ' flying logged.  Additionally , the 
+circumstances discussed above indicate that the practical part of the instruction flight was 
+essentially over, with the helicopter simply returning to base  within an expected timeframe .  It 
+is therefore very unlikely that the instructor was demonstra ting low -G. 
+Final report AO -2015 -002 
+<< Page 25 >>
+ Helicopter speed/power setting  
+4.3.18.  The speed of the helicopter and how it was being manoeuvred at the time of the accident is 
+important for understanding the possible factors that contribute d to the mast bumping.   
+4.3.19.  The helicopter was fitted with a TracPlus satellite tracking system.  The system transmitted a 
+message via satellite every two minutes to the operator's base, where it was displayed and 
+recorded.  If satellite connectivity was momentarily lost for some reason , the unit would 
+continue trying to establish a link.  Once the link was re -established, updated data would be 
+transmitted.  
+4.3.20.  Each transmission included the time the message had been  sent and received by the satellite  
+and the helicopter's position, groundspeed and altitude at that point in time.  The approximate 
+track the aircraft was flying at this time was also calculated and presented in degrees True.  
+4.3.21.  The system calculated the straight -line speed and direction at the time of  transmission.  Any 
+deviation or manoeuvres that took place between the transmissions  or any changes in speed 
+could not be shown .  
+4.3.22.  A review of the tracking data showed that, with a few exceptions, information was being 
+transmitted about every two mi nutes for the duration of the flight.  During the flight into the 
+operating area the groundspeed ranged between 80 and 100 knots, with a maximum of 108 
+knots.  While in the Lochy River valley the helicopter was performing semi -regular orbits, and 
+occasiona lly becoming stationary as if in hover.   This was consistent with the  observations of 
+the witnesses on the ground.  
+4.3.23.  Before starting to leave the valley the helicopter likely flew a left orbit , followed by a nearly 
+180º turn before heading down the valley (s ee Figure 9).  The straight -line distance from the 
+last data report made at 1340:30 to the start of the wreckage field was two nautical miles 
+(3.73 km).  
+ 
+Figure 9 
+Track presentation and accident location44 
+4.3.24.  The tracking data shows that, at the last recorded position, the pilot had climbed  the 
+helicopter to a sufficient height above the terrain to be able to enter autorotation and select 
+                                                        
+ 
+
+ 
+
+<< Page 26 >>
+ Final report AO -2015 -002 the most suitable area to land had a problem been encountered .45  It also showed the 
+helicopter  was then flying at a moderate groundspeed of  102 knots.  The almost calm wind 
+conditions in the area meant the airspeed would have been similar to  the groundspeed .  At 
+this speed  it would have taken about one minute and 10 seconds to travel from the last 
+recorded  position to overhead the accident site.  However, the precise timing of the accident is 
+not known, so the track data can tell us nothing other than  that the helicopter was proceeding 
+back towards Queenstown and had been travelling at a speed of 102 k nots in the two minutes 
+before the accident .   
+4.3.25.  The instructor would have still been under the impression that he needed to return to 
+Queenstown by 1400  for his next scheduled flight .  At a groundspeed of 102 knots the 
+helicopter would have reached the aero drome at about 1350.  It is likely therefore that the 
+helicopter was  flying directly back to Queenstown  rather than conducting further flight training 
+manoeuvres or deviating for any other reason . 
+4.3.26.  As mentioned above , the higher the speed, the greater  is the risk of encountering a low-G 
+situation for whatever reason, and the pilot has less opportunity to recognise and respond 
+appropriately to the situation.  Robinson has recognised this risk and recommended that 
+speed be reduced to below 70 knots if turbu lence is encountered.  
+4.3.27.  Flying at 100 knots or more  and encountering a pocket of unexpected turbulence while under 
+the control of a low -flying -time student pilot is a reasonably high-risk situation.  A helicopter 
+could  feasibly  enter a low-G condition and su ffer mast bumping in less than one second.  An 
+instructor would be  unlikely to have time to intervene.  
+Training and awareness  
+4.3.28.  Accidents involving ma st bumping  occur worldwide and are not unique to New Zealand .  Both 
+New Zealand and Australia were considered by R obinson  to have high er rates of these types 
+of accident than  other countries .  Discussions with ATSB staff identified some significant 
+differences in the accident signatures.  Most of the Australian accidents had involved low rotor 
+RPM  or ex cessive control input .  These were often related to intense manoeuvring of the 
+helicopter s close to the ground, for example during cattle mustering.  The New Zealand 
+accidents were more commonly related to turbulence and low-G, often resulting in the mast s 
+separating , an event  rarely seen in Australia.   
+4.3.29.  About 60% of New Zealand 's terrain is designated as mountainous46, the rest is mostly 
+undulating and hilly.  Turbulence generated by the wind moving over rough terrain is therefore 
+a common feature of flying  around New Zealand at low levels .  Pilots are trained to be aware 
+of turbulence, recognise its potential affects and avoid or mitigate them where possible.  
+However, by its very nature the presence or intensity of turbulence cannot always be 
+predicted.   Refer paragraph 3.5.1.  
+4.3.30.  The Pilot's Operating Handbooks for each of Robinson's t hree  helicopter  models contained the 
+same safety tips and notices relating to low-G, low rotor RPM  and turbulence .  The introduction 
+of SFAR 73 with its pilot experience and trai ning requirements helped to reduce the incidence 
+of low-G and low RPM accidents around the world , including in countries with mountainous 
+terrain  similar  to New Zealand's .  The same reduction was not evident in New Zealand, 
+perhaps due in part to the t errain.  Operators and pilots therefore need to be aware that there 
+is a minimal margin for safety when operating in mountainous regions, at light weight, at high 
+speed and/or at high power  and in turbulent conditions . 
+4.3.31.  Another possible factor was how SFAR 73 was being implemented, including different 
+minimum experience requirements and safety awareness training.  A discussion involving  
+senior instructors on Robinson helicopters, CAA representatives and Commission 
+                                                        
+45 The last two data points showed that the helicopter had been climbed at an average rate of about 350 feet 
+per minute.  
+46 Aeronautical Information Publication (AIP New Zealand), GEN 3.3 -17 and 3.3 -18, effective 12 May 2005.  
+Final report AO -2015 -002 
+<< Page 27 >>
+ investi gators47 found that the content, understanding and delivery of the Robinson safety 
+awareness training varied between instructors in New Zealand  (see Commission reports 11 -
+003 and AO -2013 -005, TAIC 2011, 2013b ).  A recommendation to the New Zealand Director 
+of Civil Aviation was made on the subject.48  The safety actions section of this report gives an 
+update on progress.  
+4.3.32.  Robinson has expressed a view that New Zealand instructors who attempt to demonstrate 
+low-G could be one reason for the high rate of mast bu mp accidents in New Zealand involving 
+Robinson helicopters.  The rationale for its view is that a demonstration of low -G does not 
+replicate the true situation and could engender a false sense of security  in the pilot  about  their 
+ability to recover from a l ow-G situation.  Pilots may believe that it is easy to recover from a 
+low-G situation, when in fact, if it happens, the roll is very rapid, leaving the pilot (no matter 
+how experienced) virtually no time to react before a mast bump occurs.  A severe mast b ump 
+is usually fatal.  
+4.4. Emergency  locato r transmitter (ELT)  
+4.4.1.  Although this accident was not survivable, the non -performance of the ELT is of interest.  The 
+ELT is fitted to guide search and rescue to an accident site in a timely manner.  For any case  
+where the occupants survive  the accident , the performance of the ELT could mean the 
+difference between survival and not. 
+4.4.2.  In this case the force of the accident was sufficient to activate the ELT but also to tear it from 
+its mount, thereby disconnecting it from its external aerial.  The internal aerial operated as 
+intended, but the weaker signal was unable to be detected by the geostationary satellite 
+positioned to the north of New Zealand.  This was likely the result of a combination of the 
+satellite's low angle, the mountainous terrain and bush cover.  A low -Earth -orbit satellite did 
+detect a signal message from the ELT approximately one hour and 35 minutes after the 
+accident.  With no GPS (global positioning  system) data, a second satellite pass would have 
+been required to provide a more accurate position.  The ELT also activated a secondary 
+signal49 that was heard by a searching helicopter, but the signal was faint and too weak to 
+provide a homing signal.  
+4.4.3.  The ELT was found to have made 192 burst transmissions between activating and being 
+turned off by rescue personnel.  A burst occurred every 50 seconds, confirming that the ELT 
+was active for two hours and 43  minutes, plus or minus a minute.  Because the exact  time for 
+which  the ELT was switched off was not known, the time of the accident could not be refined 
+any more than that derived from the helicopter's tracking system.  
+4.4.4.  The Commission has previously commented on the performance of ELTs and made safety 
+recom mendations to the C AA on the need to improve the performance of ELTs and promote 
+the use of other tracking technologies (TAIC, 2011).  The Commission has also made 
+comment on technologies to locate vessels and rail vehicles.  This accident reinforces  those  
+still-active recommendations.   
+ 
+  
+                                                        
+47 Forum hosted by the Commission on 9 May 2013.  
+48 Report 11 -003, recommendation 003/14.  
+49 A signal transmitted on 121.5 megahertz that carried an audible alert tone.  
+ 
+
+<< Page 28 >>
+ Final report AO -2015 -002 5. Findings  
+5.1. The helicopter suffered a mast bumping event that resulted in a main rotor blade contacting 
+the cabin area and initiated an in -flight break -up. 
+5.2. An examination of the wreckage revealed no pre -existing defect s or mechanical failure s that 
+would have resulted in mast bumping.  However, the damage to the helicopter meant that 
+some kind of mechanical issue contributing to the accident could not be fully excluded.  
+5.3. The weather was generally calm and suitable for the training flight .  There were  about as likely  
+as not  to have been pockets of light to moderate turbulence in the area, but this alone should 
+not have resulted in significant mast bumping.  
+5.4. The airspeed of the helicopter as it flew down the valley returning t o Queenstown  was as likely 
+as not at least 102 knots when the accident occurred . 
+5.5. The student was about as likely as not to have been flying the helicopter when the mast 
+bumping occurred.  
+5.6. The cause of the mast bumping event that initiated the in -flight brea k-up could not be 
+conclusively determined . 
+5.7. The causes and circumstances of helicopter mast bumping accidents are unlikely to be fully 
+understood until a means of recording cockpit imagery  and/or other data is made available.  
+  
+Final report AO -2015 -002 
+<< Page 29 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result  in the Commission issuing a  recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+6.2. The CAA advised that i n resp onse to previous Commission recommendations, several reviews 
+were conducted between March 2014 and March 2015.50  The reviews included:  
+(a) an examination of existing requirement s in New Zealand, the USA and Australia  
+(b) an examination of current Robinson accident  data  
+(c) an examination of current Robinson safety awareness training in New Zealand and the 
+USA 
+(d) meetings with the Commission , Robinson, the FAA, experienced flight examiners and 
+instructors, and the New Zealand Helicopter Association.  
+The results of the revi ews are included in a Robinson Helicopter Fleet Consultation Document,  
+and were published on the CAA's website: 
+https://www.caa.govt.nz/pilots/robinson_helicopter_safety.html .  The document's conclusions 
+and proposed actions are listed in Appendix 2. 
+On 6 November 2015 the CAA announced that the District Court  at Wellington  had given 
+approval for the Director  of Civil Aviation  to introduc e special conditions for pilots of R22 and  
+R44 helicopters , with effect from 1 July 2016 .  This action will bring New Zealand into line with 
+FAA requirements and will "improve the level and consistency of training delivered by the 
+aviation industry" .  Key elements of the training include  that: 
+ a new syllabus of R22/R44 'ground ' and 'in-flight training ' is prescribed  
+ it will be completed by CAA certified 119 and 141 organisations or operators that have  
+ approved Robinson safety course s 
+ it will be delivered by suitably approved and qualified A or B c ategory  instructors  
+ a general aviation examiner with Robinson safety awareness privileges must approve  
+  the A and B cat egory  instructors delivering the awareness training  
+ the training will be required when new pilots are type -rated  
+ ongoing refresher training will be required every 24 months  
+ the amount of dual instruction a student requires before flying solo on the R22 and 
+ R44 has been lifted to 20 ho urs 
+ CAA recognises the existing Robinson factory safety course . 
+The full list of conditions approved by the Court is also available at 
+https://www.caa.govt.nz/pilots/robinson_conditions.pdf .  An Advisory Circular was also to be 
+released in early 2016.   
+                                                        
+50 CAA email dated 22 October 2015.  
+ 
+
+<< Page 30 >>
+ Final report AO -2015 -002 6.3. In February 2016 Robinson amended Safety Notice SN -32 by inserting an introductory 
+sentence that had been deleted in May 2013.  The sentence stated that: "Flying in high winds 
+or turbulence should be avoided."  The amendment also advised pilots to "reduce speed" 
+when flying solo or lightly loaded.  
+Safety a ctions  addressing other safety issues  
+6.4. Nil. 
+ 
+ 
+ 
+  
+Final report AO -2015 -002 
+<< Page 31 >>
+ 7. Recommendations  
+General  
+7.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case , recommendations have been issued to  the Secretary for Transport , with 
+notice of these recommendations given to the Director of Civil Aviation.  
+7.2. In the interests of transport safety,  it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendation  
+7.3. The Commission has not been able to establish conclusively what initiated or contributed to 
+the mast bump event.  The uncertainty around the circumstances of this accident are not 
+unique.  The nature of mast bump accidents is that they are usually fatal, leaving no one to 
+explain what was happening at the time.  In -flight break -ups are destructive, making it difficult 
+to determine with certainty whether mechanical failure s of some kind could have initiated the 
+mast bump s. 
+There have been many other fatal mast bump accidents involving Robinson helicopters in New 
+Zealand and around the world that have gone largely unexplained.  It is difficult to identify the 
+lessons from an accident and make meaning ful recommendations to prevent similar 
+accidents if the underlying causes cannot be determined.  This is a serious safety issue that 
+the industry will need to address.  
+A remedy for the lack of reliable data concerning specific accidents is to record flight data and 
+cockpit video.  At present ICAO standards do not require flight data recorders to be installed in 
+small and medium helicopters.  However, lightwei ght and affordable recorders are available 
+and are installed as standard equipment in some helicopters.  In addition, technical means 
+are available for detecting, and therefore recording, the positions of flight and engine controls 
+on helicopter types that  have previously been unsuited for the collection of digital data.  
+7.3.1.  On 27 July 2016  the Commission recommended to the Secretary for Transport that he 
+promote , through the appropriate ICAO forum, the need for cockpit video recorders and/or 
+other forms of dat a capture in the cockpit s of certain classes of helicopter to address this 
+safety issue.  (014/16)  
+On 18th August 2016, the Ministry of Transport replied:  
+The Ministry considers that such a recommendation is premature as the costs 
+and benefits of such a rec ommendation have not been canvassed.  The Ministry 
+appreciates that the Commission may have been minded to make such a 
+recommendation because of the lack of available data.  The Ministry suggests 
+that prior to making a recommendation, some more work should  be undertaken 
+to determine the benefits and costs of flight data and video recording in cockpits.  
+7.3.2.  On 27 July 2016  the Commission gave notice to the Dir ector of Civil Aviation that a 
+recommendation has been made to the Secretary for Transport that he promo te, through the 
+appropriate ICAO forum, the need for cockpit video recorders and/or other forms of data 
+capture in the cockpit s of certain classes of helicopter to address this safety issue . (015/16)  
+On 11 August 2016, the Civil Aviation Authority replied:  
+The Director has considered the recommendation and in view of the Secretary for 
+Transport's response to the Commission on the matter of cockpit video recorders 
+and/or other forms of data capture, the Director is prepared to accept the 
+recommendation but w ith a caveat that reflects the Secretary's response, i.e, 
+That the Director of Civil Aviation conduct a safety and cost benefit exercise of 
+installing flight data and/or cockpit video in certain classes of helicopters.  
+ 
+
+<< Page 32 >>
+ Final report AO -2015 -002 In that regard the Director will ini tiate an issue assessment paper on recording 
+devices for certain classes of helicopters. Given the timeframe of such a study is 
+likely to be lengthy; the Director cannot provide a completion date at this stage.  
+ 
+  
+Final report AO -2015 -002 
+<< Page 33 >>
+ 8. Key lesson  identified  
+8.1. Helicopter pilots must be fully aware that a condition of low -G (feeling of lightness or 
+weightlessness) can result in : a rapid right roll; mast bumping; and in -flight break -up before 
+even the most experienced pilot can react and recover the situation.  Pi lots need to fly in a 
+manner that avoids low -G conditions rather than allow them  to develop and then expect that 
+they can recover from them . 
+  
+ 
+
+<< Page 34 >>
+ Final report AO -2015 -002 9. Citations  
+AAIB, 2013.  Air Accidents Investigation Branch Bulletin 2/2013 (Robinson R22) G -CHZN  
+   EW/C2012/01/01 . 
+NTSB, 1996.  National Transportation Safety Board Special Investigation Report NTSB/SIR -96/03 , 
+   Robinson Helicopter Company R22 Loss of Main Rotor Control Accidents, adopted  
+   2 April 1996 . 
+TAIC, 2011.  Transport Accident Investigation Commission Inquiry 11 -003: In -flight break -up  
+   ZK-HMU, Robinson R22 near Mount Aspiring, 27 April 2011.  
+TAIC, 2013 a. Transport Accident Investigation Commission Aviation Inquiry AO-2013 -003  
+   Robinson R66, ZK -IHU Inflight break -up Kaweka Range, 9 March 2013.  
+TAIC, 2013b.  Transport Accident Investigation Commission Aviation Inquiry AO -2013 -005: In -flight  
+   loss of control, Robinson R22, ZK -HIE, near New Plymouth, 30 March 2013.  
+ 
+ 
+ 
+Final report AO -2015 -002 
+<< Page 35 >>
+ Appendix 1:  Review of mast bumping accidents in Ne w Zealand   
+Investigation  
+reference  Report t itle Operation  Terrain  Weight  Blade 
+strike 
+location  Handling 
+likely a 
+factor  Turbulence  
+likely a 
+factor  Experience  
+likely a 
+factor  Helicopter  
+performance  
+likely a factor  
+TAIC 91 -001 Robinson R22 Beta ZK -HDC, main rotor 
+separation after mast bumping in turbulence, 
+near Hukerenui, North Auckland, 4 January 1991  Transiting at low 
+level  Hilly Heavy  Fuselage  Yes Yes Yes No 
+CAA 96/3239  Robinson R22 Beta ZK -HDD, Matawai, Gisborne, 
+5 December 1996  Night transit  Mountainous  Medium  Tail boom  Yes No Yes No 
+CAA 02/71  Robinson R22 Beta ZK -HEZ,  Balfour Range, near 
+Fox Glacier,  14 January 2002  Venison recovery  Mountainous  Heavy  Tail boom  Yes No No Yes 
+CAA 03/127  Robinson R22 Beta ZK -HUL, Masterton, 17 
+January 2003  Training  - solo Flat Light  Fuselage  Yes No Yes No 
+CAA 04/39  Robinson R22 Beta ZK -HXT, 10 km north -east of 
+Taupo, 10 January 2004  Transiting at low 
+level  Flat Heavy  Fuselage  Yes No Yes No 
+TAIC 08 -007 Robinson R22 Alpha ZK -HXR, loss of control, 
+Lake Wanaka, 1 November 2008  Transiting  Mountainous  Light  Fuselage  Yes Yes No No 
+CAA 10/3987  Robinson R22 Beta ZK -HIP, loss of rotor RPM, 
+Bluff Harbour, 14 October 2010  Training  - dual Flat Heavy  Fuselage  Yes No Yes No 
+TAIC 11 -003 Robinson R22 Beta ZK -HMU, inflight break -up, 
+near Mt Aspiring, 27 April 2011  Training - dual 
+cross -country  Mountainous  Heavy  Tail boom  No Yes No Yes 
+CAA 12/4957  Robinson R22 Beta ZK -HCG, loss of main rotor 
+control,  Cardrona Valley, Wanaka, 8 November 
+2012  Transiting  Mountainous  Light  Tail boom  Yes Yes Yes No 
+TAIC AO -
+2013 -003 Robinson R66 ZK -IHU, inflight break -up, Kaweka 
+Range, 9 March 2013  Transiting  Mountainous  Light  Fuselage  Yes Yes Yes No 
+TAIC OA -
+2013 -005 R22 Beta ZK -HIE, inflight loss of control, near 
+New Plymouth, 30 March 2013  Training  - dual Flat Medium  (Mast 
+bump 
+only)  Yes No ? No 
+ 
+
+<< Page 36 >>
+ Final report AO -2015 -002 Investigation  
+reference  Report t itle Operation  Terrain  Weight  Blade 
+strike 
+location  Handling 
+likely a 
+factor  Turbulence  
+likely a 
+factor  Experience  
+likely a 
+factor  Helicopter  
+performance  
+likely a factor  
+CAA 15/1229  Robinson R22 Beta ZK -HMW, mast bump, 
+Clevedon, 19 March 2015  Training  - dual Mountainous  Heavy  (Mast 
+bump 
+only)  Yes No Yes No 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Final report AO -2015 -002 
+<< Page 37 >>
+ Appendix 2:  Robinson Helicopter Fleet Consultation Document  results  
+The CAA's Robinson Helicopter Fleet Consultation Document  concluded that:  
+(a)  There is an absence of rigour in the regulatory oversight of Robinson safety awareness 
+training, in that the CAA has no way of conducting oversight of those giving the training, or 
+the content of the training that is given;  
+(b)  Similarly, there is no mec hanism for ensuring that those providing Robinson safety 
+awareness training have been assessed as appropriate for conducting that training;  
+(c)  Robinson safety awareness training is necessary for the safe operation of the R22;  
+ 
+(d)  Although the R44 and  R66 are less susceptible than the R22 to the risks focused on in 
+Robinson safety awareness training, as a result of the similarities of these aircraft types 
+combined with New Zealand accident data it is important that R44 and R66 pilots have a 
+clear under standing of these risks and mitigation strategies;  
+(e)  However, despite that, there is currently no mechanism for requiring that those flying the 
+R44 and R66 have had that training;  
+(f)  The 10 -hour minimum flight experience requirement for first solo f light in the R22 does not 
+match the 20 hour period required in the SFAR;  
+(g)  The current R22 flight manual contains seemingly contradictory statements concerning 
+Low G hazard training, which is now prohibited by Robinson; and  
+(h)  The flight manual incl udes requirements as to enhanced autorotation which, while 
+consistent with the SFAR, are redundant in New Zealand due to our generic helicopter 
+training requirements.  
+ 
+The CAA proposed to:  
+ 
+(a)  Require all Robinson safety awareness training to be done un der the authority of either a 
+Part 119 or Part 141 certificate;  
+(b)  Require the training given to be acceptable to the Director;  
+(c) Require those persons delivering Robinson safety awareness training to have been approved 
+to do so by a flight examiner;   
+(d)  Require Robinson safety awareness training as part of the type rating requirements for the 
+R44 and R66;  
+(e)  Require Robinson safety awareness training to be completed by all pilots who hold R44 and 
+R66 type ratings and who wish to exercise the pri vileges of those type ratings;  
+(f)  Increase the minimum flight experience for first solo flight in an R22 from 10 hours to 20 
+hours;  
+(g)  Amend the R22 flight manual to remove references to Low 'G' flight demonstration and 
+enhanced autorotations.  
+  
+ 
+
+<< Page 38 >>
+ Final report AO -2015 -002 Appendix 3:    Detailed summary of wreckage examination and testing  
+All major components of the helicopter, including flight and engine controls, main rotor and tail rotor 
+assembles, landing skids, and fuselage were accounted for at the site and removed fo r further 
+examination.  
+Flight controls  
+ 
+Dual flight controls had been installed.51  The cyclic control  stick  had broken off near the floor.  Both the 
+left and the right cyclic extension  handles  had been broken off, with the left extension handle having an 
+impact mark that matched the curve of the leading edge of a main rotor blade.  The collective lever was 
+nearly fully down.  However, the distance between the slider slot and the centre of the friction bolt 
+corresponded to the collective lever having been ra ised about 15% when the bolt was broken.  The tail 
+rotor pedals had broken off at the push -pull tubes below the cabin floor.  
+Connectivity of the flight controls through to the main rotor and tail rotor was established.  No evidence 
+of pre -impact failure or  problems was found.  
+Engine and controls  
+ 
+The mixture control in the cockpit was found in the full rich position, while the mixture control lever on 
+the fuel control servo was in a position close to full lean.  The throttle twist grip on the right -seat 
+collective lever was close to fully off, while the throttle arm on the fuel control servo was in a position 
+beyond full throttle.   These anomalies were considered to be a result of the major disruption to the 
+assemblies during the in -flight break -up and impac t with the ground.  
+The engine cooling fan displayed scoring around its perimeter and on the inlet cone surfaces.  Similar 
+scoring marks were found on the steel tubing adjacent to the upper drive belt sheave and on the 
+forward end of the tail cone's bottom surface.  The marks on the steel tubing were parallel to the 
+direction of sheave  rotation,  and the marks at the forward end of the tailcone were parallel  to the 
+direction of rotation of the engine cooling fan.  The right oil cooler had a series of dents that matched 
+the starter ring gear.  
+The drive belts were intact, except  one that had a partial split.  There was no evidence that the belts had 
+rolled off.  The belt tension actuator was fractured between the anti -rotation scissors.  The distance 
+between the anti -rotation scissors was measured to be 0.9 inches.  When tensioned  normally the 
+distance is between 0.8 inches and 1.1 inches.  The upper and lower belt tension actuator bearings 
+rotated freely.   
+The clutch was examined and found to lock and free wheel normally.  The temperature alerting decal on 
+the clutch showed no re cord of any excessive stress.  The clutch was examined by a licen sed engineer 
+familiar with the R44 and clutch assembly.  The clutch assembly was fitted with a Revision 'H' sprag and 
+showed "virtually no sign of 'in service ' wear" .  Tear damage was found o n about one -third of the 
+circumference of the inner race .  This m atched marks on the same end of each pall.  The damage was 
+in the direction of drive.   The main rotor gearbox rotated freely, despite the main rotor drive shaft being 
+bent about 10º.  
+The engi ne was removed and taken to an approved aircraft engine overhaul facility and subjected to a 
+bulk strip inspection52 under the supervision of a Commission investigator.  Maintenance records 
+matched the engine and all applicable airworthiness directives were  found to have been embodied.  
+The numbers 3 and 5 cylinders had impact damage, including pieces of wood embedded between the 
+cylinders.53  However, all cylinders were able to be removed for examination.  The valve train, piston 
+assemblies and spark plugs we re found to be serviceable.  The crank shaft and connecting rods were all 
+able to be turned without restriction.  No contamination was found in any of the filters.  
+                                                        
+51 A second set of flight controls to permit instruction from the left seat.  
+52 The disassembly of the engine to its individual components.  
+53 This was the side of the engine that was leaning against the tree.  
+Final report AO -2015 -002 
+<< Page 39 >>
+ Engine accessories, including the magnetos, fuel control unit and fuel pump were all removed  and 
+tested, with no defects found.  The fuel control unit was free of any contamination. The testing of the 
+fuel flow divider did identify a 'slightly restricted flow due to tiny metallic particle contamination' for the 
+#5 nozzle.  
+In summary, the engineer ing company determined that 'no evidence was found of any pre impact defect 
+that would have affected the engine's ability to run.  The restriction in the #5 nozzle may have caused 
+the engine to run slightly rough with minor power loss'.   The instructor and  student were very unlikely to 
+have noticed any difference in helicopter performance.  
+Main rotor  
+ 
+Both of the pitch change links, which connect the swashplate to the main rotor blades and control the 
+pitch angle of the blades, had failed in overload ,54 likely after a reverse bending motion (see Figure 10).  
+Both teeter stops were split horizontally through the middle, and their retention brackets were bent.  
+The droop stops and tusks were intact.  There was arc -shaped scoring on both sides of the hub and 
+denting above the blade spindles.  The denting was deeper above the blue blade than the red blade.  
+The red blade had rotated more than 90º with the pitch horn found sitting above the head.  The drive 
+collar/yoke for the upper swashplate had rotated about 90 º anti -clockwise on the shaft.55 
+Both main rotor blades had fractured  (see Figure 11) .  Because the f racture of the red blade was near 
+the point where another R44 blade had failed, which the CAA suspected had been due to fatigue, the 
+Commission had this bla de examined by a metallurgist at the earliest opportunity.  The metallurgist's 
+initial assessment was that the blade had failed in overload. Subsequent detailed examination by the 
+same laboratory and a further examination by an ATSB metallurgist confirmed this.  The ATSB also 
+determined that the failure of the blue blade was also the result of overload and not fatigue.  Both 
+blades were examined for signs of any pre -existing delamination or dis -bonding, and none was found.56 
+The red blade (serial #3709) had an initial 90º downward bend approximately 0.6 m from the hub.  A 
+second 90º twisting downward bend a further 1.9 m along the blade matched where the leading edge 
+spar had fractured.  The rest of the blade had fractured a further approximately 30 c entimetres along, 
+near the change in chord . There was significant scoring of the blade's lower surface around this area.  
+The marks were multi -directional.  The tip of the blade was folded upward about 75º for about 20 
+centimetres  behind the leading edge spar.  
+The blue blade (serial #3761) had fractured about 1.4 m from the hub. A further approximately 1.5 m of 
+the trailing edge doubler had been torn out from the outboard portion of the blade.  The blade was 
+mostly straight with an approximately 30º upward bend about 0.6 m from the hub.  
+ 
+                                                        
+54 Overload is the common term used to describe the mode of failure where the force sustained exceeded 
+the material's physical strength or design load.    
+55 The normal direction of rotation of the main rotor is anti -clockwise when viewed from above.  
+56 The ea rlier R44 'Dash 2' and 'Dash 5' blades were subject to a Continuing Airworthiness Notice following 
+several cases of disbonding near the blade tip.  The Dash 7 blades fitted to ZK -IPY were not subject to the 
+same inspection requirement.  
+ 
+
+<< Page 40 >>
+ Final report AO -2015 -002  
+Figure 10 
+Main rotor head showing broken components and extreme flapping of blades  
+ 
+Figure 11 
+Main rotor blade damage  
+ 
+  
+pitch change 
+links  
+coning or 
+flapping bolts  
+teeter or hinge bolt   
+crushed teeter 
+stops 
+hub 
+cuts made  
+post-accident  
+red blade  
+overload fracture  ground impact 
+damage  
+ 
+blue blade  red blade  
+(rotated past 90º)  drive yoke 
+assembly  
+blue blade  
+Final report AO -2015 -002 
+<< Page 41 >>
+ Tail rotor  
+ 
+The intermediate and aft flexible couplings were bent and separated. The gearbox and tail rotor 
+assembly had separated, with the gearbox able to be rotated freely.  One tail rotor blade was essentially 
+straight while the second had two large bends along its length.  There was no rotational damage found 
+on the drive assembly aft of the main transmission.  The drive shaft was bent but intact.  
+Fuselage  
+ 
+The airframe and cabin was severely distorted and displaced/bent to the left.  Some components, for 
+example the windshield centre frame bow and sections of the doors, had separated from the main 
+wreckage.  The instrument console was broken in several places.  There was evidence of a main rotor 
+blade having struck the instrument console and the windshield  bow and the cabin roof above the left 
+windshield also displayed distortions that approximated to the leading edge of a main rotor blade.   
+The two left side doors when reassembled had a fracture line that ran through the upper portion of the 
+doors.  Both fuel tanks had separated from the fuselage and had significant deformation.  Both tanks 
+had bladders installed and their caps were in place.  The tanks were found empty, however the smell of 
+fuel about the wreckage and the heavy ground indent and smell whe re the main tank had landed, 
+indic ated both tanks contained some fuel on impact. The main fuel filter was intact and found to 
+contain fuel that was consistent with the correct fuel for the helicopter.  The filter screen was clean and 
+vent lines free of obs truction.  
+The tail boom was straight with two large impact marks, one on the underside near the fuselage 
+attachment and a second on the upper surface near the empennage.  The empennage had broken off 
+with damage on the horizontal and upper vertical stabil izers.  
+The left skid and the toe or front section of the right skid had broken from the landing gear.  The left 
+skid was recovered in four sections.  The section located between the two cross -tubes, displayed a 
+deformation on the underside that matched the  shape of a main rotor blade leading edge.  
+Instruments and readings  
+ 
+The upper instrument console, found near the start of the wreckage trail, had a deformation consistent 
+with having been struck by a main rotor blade.  The instruments normally held by the  upper console had 
+been dislodged, with the exception of the vertical speed indicator.  Most of the warning lights at the top 
+of the console were either broken or missing.  The only light showing evidence of 'hot stretch'57 was the 
+clutch light.  None of th e temperature indication stickers on gear boxes and the hydraulic pump showed 
+any evidence of excessive heat having been generated in these components.  
+The ignition was in the OFF position with the key broken off at the switch face.  The clutch switch had 
+lifted and was disengaged.  The governor and fuel valve were on.  Trapped engine instrument readings 
+included oil pressure about 25 [psi], oil temperature about 75 [°F] and cylinder head temperature 
+about 200 [°F].  The rotor tachometer needle was on the b ottom peg, while the engine needle was bent 
+at a reading of about 58%.  The vertical speed indicator read 300 feet per minute down.   
+ 
+ 
+ 
+  
+                                                        
+57 Hot stretch can i ndicate that the filament was hot, and therefore illuminated, at the time of impact.    
+ 
+
+<< Page 42 >>
+ Final report AO -2015 -002 Appendix 4:   Robinson Safety Notices  
+ 
+Safety Notice SN -10 
+Issued: Oct 82 Rev: Feb 89; Jun 94  
+ 
+FATAL ACCIDENTS CAUSED BY LOW RPM ROTOR STALL  
+ 
+A primary cause of fatal accidents in light helicopters is failure to maintain  
+rotor RPM. To avoid this, every pilot must have his reflexes conditioned  
+so he will instantly add throttle and lower collective to maintain RPM in any  
+emergency.  
+ 
+The R22 and R44 have demonstrated excellent crashworthiness as long  
+as the pilot flies the aircraft all the way to the ground and executes a flare  
+at the bottom to reduce his airspeed and rate of descend. Even when going  
+down into rough terr ain, trees, wires or water, he must force himself to lower  
+the collective to maintain RPM until just before impact. The ship may roll  
+over and be severly [sic] damaged, but the occupants have an excellent  
+chance of walking away from it without injury.  
+ 
+Power available from the engine is directly proportional to RPM. If the RPM  
+drops 10%, there is 10% less power. With less power, the helicopter will  
+start to settle, and if the collective is raised to stop it from settling, the RPM  
+will be pulled down e ven lower, causing the ship to settle even faster.  
+If the pilot not only fails to lower collective, but instead pulls up on the  
+collective to keep the ship from going down, the rotor will stall almost  
+immediately. When it stalls, the blades will either "blow back " and cut off the  
+tail cone or it will just stop flying, allowing the helicopter to fall at an extreme  
+rate. In either case, the resulting crash is likely to be fatal.  
+ 
+No matter what causes the low rotor RPM, the pilot must first roll on  
+throttle and lower the collective simultaneously to recover RPM before  
+investigating the problem. It must be a conditioned reflex. In forward flight,  
+applying aft cyclic to bleed off airspeed will also help recover lost RPM.  
+ 
+Safety Notice SN -11 
+Issued: O ct 82 Rev: Nov00  
+ 
+LOW -G PUSHOVERS - EXTREMELY DANGEROUS  
+ 
+Pushing the cyclic forward following a pull -up or rapid climb, or even from level flight,  
+produces a low -G (weightless) flight condition.  If the helicopter is still pitching forward  
+when the pilot  applies aft cyclic to reload the rotor, the rotor disc may tilt aft relative to  
+the fuselage before it is reloaded.  The main rotor torque reaction will then combine with  
+tail rotor thrust to produce a powerful right rolling moment on the fuselage.  Wit h no lift  
+from the rotor, there is no lateral control to stop the rapid right roll and mast bumping  
+can occur.  Severe in -flight mast bumping usually results in main rotor shaft separation  
+and/or rotor blade contact with the fuselage.  
+ 
+The rotor must b e reloaded before lateral cyclic can stop the right roll.  To reload the rotor,  
+apply an immediate gentle aft cyclic, but avoid any large aft cyclic inputs.  (The low -G  
+which occurs during a rapid autorotation entry is not a problem because lowering coll ective  
+reduces both rotor lift and rotor torque at the same time.)  
+ 
+Never attempt to demonstrate or experiment with low -G maneuvres [sic], regardless of your  
+skill or experience level.  Even highly experienced test pilots have been killed investigating  
+the low -G flight condition.  Always use great care to avoid any maneuvre [sic] which could  
+result in a low -G condition.  Low -G mast bumping accidents are almost always fatal.  
+ 
+  NEVER PERFORM A LOW -G PUSHOVER!!  
+Final report AO -2015 -002 
+<< Page 43 >>
+  
+ 
+
+ 
+
+<< Page 44 >>
+ Final report AO -2015 -002  
+______________________________________________________________________________________  
+ 
+Safety Notice SN -32 
+Issued March 1998   Revised May 2013  
+HIGH WINDS OR TURBULENCE  
+A pilot's improper application of control inputs in response to high winds or turbulenc e  
+can increase the likelihood of a mast bumping accident.  The following procedures are  
+recommended:  
+1. If turbulence is expected, reduce power and use a slower than normal cruise  
+speed.  Mast bumping is less likely at lower airspeeds.  
+2. If significant turbu lence is encountered, reduce airspeed to 60 - 70 knots.  
+3. Tighten seat belt and firmly rest forearm on right leg to prevent unintentional  
+control inputs.  
+4. Do not over -control.  Allow aircraft to go with the turbulence, then restore level flight  
+with smooth,  gentle control inputs.  Momentary airspeed, heading, altitude, and  
+RPM excursions are to be expected.  
+5. Avoid flying on the downwind side of hills, ridges, or tall buildings where the  
+turbulence will likely be most severe.  
+The helicopter is more susceptible to turbulence at light weight.  Use caution when flying  
+solo or lightly loaded .
+
+  
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2013 -008 Boeing 737 -300, ZK -NGI, Loss of cabin pressure, near Raglan, Waikato,  
+30 August 2013  
+AO-2013 -003 Robinson R66, ZK -IHU, Mast bump and in -flight break -up, Kaweka Range,  
+9 March 2013  
+AO-2014 -002 Kawasaki BK117 B -2, ZK -HJC, Double  engine power loss, Near Springston, 
+Canterbury, 5 May 2014  
+AO-2013 -006 Misaligned take -off at night, Airbus A340, CC -CQF, Auckland Airport, 18 May 2013  
+AO-2010 -009 Addendum to Final Report: Walter Fletcher FU24, ZK -EUF, loss of control on take -off 
+and impact with terrain, Fox Glacier aerodrome, South Westland, 4 September 2010  
+AO-2012 -002 Airbus A320 ZK -OJQ, Bird strike and subsequent engine failure, Wellington and 
+Auckland International Airports, 20 June 2012  
+AO-2013 -005 In-flight loss of control, Ro binson R22, ZK -HIE, near New Plymouth, 30 March 2013  
+AO-2013 -007 Boeing 737 -838, ZK -ZQG, stabiliser trim mechanism damage, 7 June 2013  
+AO-2013 -009 RNZAF Boeing 757, NZ7571, landing below published minima, Pegasus Field, 
+Antarctica, 7 October 2013  
+AO-2013 -002 Robinson R44, ZK -HAD, engine power loss and ditching, Lake Rotorua,  
+24 February 2013  
+11-007 Descent below instrument approach minima, Christchurch International Airport, 29 
+October 2011  
+11-006 Britten -Norman BN.2A Mk.III -2, ZK -LGF, runway ex cursion, Pauanui Beach 
+Aerodrome, 22 October 2011  
+ 
+11-003 In-flight break -up ZK -HMU, Robinson R22, near Mount Aspiring, 27 April 2011  
+ 
+12-001 Hot-air balloon collision with power lines, and in -flight fire, near Carterton,  
+7 January 2012  
+ 
+11-004 Piper PA31 -350 Navajo Chieftain, ZK -MYS, landing without nose landing gear 
+extended, Nelson Aerodrome, 11 May 2011  
+ 
+11-005 Engine compressor surges, 18 September 2011  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 20.00                                         ISSN 1179 -9080 (Print)  
+         ISSN 1179 -9099 (Online)  

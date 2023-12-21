@@ -1,0 +1,64 @@
+- name: Crew Resource Management
+  percentage: 30
+  explanation: The report emphasizes that the standard of crew resource management (CRM) on board the Hanjin Bombay was significantly below international best practice, which contributed to the grounding. CRM is crucial for ensuring that all crew members share a common understanding of the passage plan, maintain situational awareness, and communicate effectively during operations. The lack of effective CRM was evident in the master's failure to communicate in English, the working language of the ship, which left the pilot and other bridge team members unaware of the developing engine issue. This lack of communication and coordination within the bridge team was a significant factor in the grounding (4.4.9, 4.4.5, 4.4.4).
+- name: Communication Breakdown
+  percentage: 25
+  explanation: Communication breakdown was a critical factor in the accident. The master's discussions with the chief engineer were in Korean, excluding the pilot and other bridge team members from understanding the problem. This breach of emergency management protocols contributed to the grounding, as the pilot was not informed about the engine issues in a timely manner, preventing effective response measures (4.4.5, 4.9).
+- name: Training and Competency
+  percentage: 15
+  explanation: The report indicates that the master's actions during the emergency suggest a lack of understanding of the engine control systems, particularly the function of the override button. This lack of knowledge could be attributed to inadequate training and competency, which is critical for preventing accidents. The master's uncertainty about the automatic engine slowdown and whether to reduce engine speed points to a gap in training and understanding of the vessel's safety systems (4.3.11, 4.9).
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The risk assessment conducted by Port of Tauranga Limited did not fully address the risk of departing vessels experiencing propulsion and maneuvering system failures at critical locations in the entrance channel. This oversight in risk management and analysis contributed to the accident, as the potential for such an event was not adequately mitigated (4.5.1, 4.11).
+- name: Maintenance and Inspection Regimes
+  percentage: 10
+  explanation: The malfunction of the 3-way valve, which was likely caused by debris, indicates a potential lapse in maintenance and inspection regimes. Although the valve was found to be in good condition during post-incident inspection, the presence of detritus in the cooling water system suggests that regular maintenance and inspection may not have been sufficient to prevent the malfunction that led to the engine shutdown (4.2.5, 4.2.6, 4.1).
+- name: Emergency Response Preparedness
+  percentage: 5
+  explanation: The report suggests that the bridge team's response to the engine shutdown was not adequately prepared for the emergency. The master's lack of action regarding the override button and the delayed deployment of anchors indicate a lack of emergency response preparedness, which could have mitigated the grounding (4.3.9, 4.3.12).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The master's failure to communicate in English during the emergency, despite it being the official working language of the ship, represents a breach of regulatory compliance. This non-compliance with emergency management protocols contributed to the grounding by preventing effective communication and coordination during the critical situation (4.4.5, 4.9).
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: 'There is insufficient information in the document to suggest that non-adherence to safety procedures was a direct contributing factor to the accident. The report does not indicate any specific safety procedures that were not followed, which directly led to the grounding.
+
+    '
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'The document does not provide enough information to assess the impact of organizational safety culture on the accident. While the report mentions the operating company''s responsibility for safe vessel management, it does not directly link the grounding to the broader safety culture of the organization.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'The report does not provide specific instances where human error or assumptions made by the crew directly contributed to the grounding. The main issues highlighted relate to communication and CRM rather than individual errors or assumptions.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'Fatigue is not mentioned as a contributing factor in the report. There is no indication that fatigue management, or lack thereof, played a role in the grounding of the Hanjin Bombay.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'While there were issues with the master''s understanding of the engine control system, the report does not specifically attribute the accident to a lack of familiarity with equipment. The broader theme of training and competency has been addressed separately.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'The report does not indicate that a loss of situational awareness was a contributing factor to the grounding. The issues highlighted pertain more to communication and CRM rather than situational awareness.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The use of automation is not identified as a contributing factor in the grounding. The engine shutdown was a result of a mechanical malfunction rather than an issue with automation.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a contributing factor to the grounding. The report focuses on mechanical and communication issues rather than decision-making related to weather.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the report that contributed to the accident outside of those predefined. The report provides a comprehensive analysis of the factors that led to the grounding, which are covered by the existing safety themes.

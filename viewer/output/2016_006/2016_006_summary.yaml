@@ -1,0 +1,56 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: The pilot was "in good health and well rested" (4.1.1), indicating that fatigue management did not contribute to the accident.
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: The pilot made an incorrect assumption about the wind direction, expecting a westerly crosswind when it was actually from the north, leading to a downwind landing approach (4.3.1). This human error significantly contributed to the accident.
+- name: Training and Competency
+  percentage: 10
+  explanation: Although the pilot was experienced and the operator's pilots had the correct training and qualifications (4.6.2), the accident suggests a possible gap in applying training to operational decisions, such as wind assessment and approach planning.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: There is no indication in the document that a lack of training or familiarity with the helicopter equipment contributed to the accident. The pilot was experienced with the aircraft and the site (4.1.1, 4.1.2).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'The document does not provide information on crew interactions or resource management issues that could have contributed to the accident.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The pilot did not conform with the operator's stated principle of conducting constant attitude approaches (5.6), and the final approach checks might not have been completed as expected (4.7.6). This lack of adherence to safety procedures was a contributing factor.
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The operator had four serious landing accidents in three years, suggesting possible issues with the safety culture (4.7.7). However, the operator took actions to improve operational standards after the accident (4.7.3).
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The pilot's decision-making during the approach did not effectively mitigate the risks associated with the wind conditions and approach path (4.3.1, 4.3.7).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'The document does not suggest that a lack of regulatory oversight or non-compliance with regulations contributed to the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 10
+  explanation: The pilot's situational awareness regarding the wind direction was incorrect, leading to a downwind approach (4.3.1). This loss of situational awareness was a critical factor in the accident.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: Emergency response preparedness did not contribute to the accident itself, but the failure of the emergency locator transmitter had the potential to affect survivability (5.8).
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The helicopter had no mechanical or controllability defect that might have contributed to the accident (5.1), indicating that maintenance and inspection regimes were not a factor.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not mention any issues related to the use of automation that could have contributed to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 10
+  explanation: The pilot's decision-making was adversely affected by his incorrect assessment of the weather conditions, specifically the wind direction (4.3.1).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no evidence in the document of a communication breakdown contributing to the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.

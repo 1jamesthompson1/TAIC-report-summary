@@ -1,0 +1,1331 @@
+﻿ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Report 10 -102: collision between 2 metro passenger trains  
+after one struck a landslide and derailed between Plimmerton and Pukerua Bay,  
+North Island Main Trunk, 30 September 2010   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports be used to assign fault or blame or 
+determine liability, since neither the investigation s nor the reporting process are undertaken for that 
+purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+                                        
+  
+ 
+  
+ 
+ 
+ 
+Final Report  
+Rail inquiry 10-102 
+collision between 2 metro passenger trains after 
+one struck a landslide and derailed between 
+Plimmerton and Pukerua Bay,  
+North Island Main Trunk    
+30 September 2010  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication:  May 2012  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  
+co-ordinating and co -operating with other accident investigation organisations over seas .  The principal 
+purpose of its inquiries is to determine the circumstances and causes of occurrence s with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informing members of the transport sector, both 
+domestically and internationally, of the lessons that can be learnt from transport  accidents and 
+incidents.   
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull, QC  
+Commissioner     Captain Bryan Wyness  
+     
+Key Commission p ersonnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator in Charge    Peter  Miskell  
+General Counsel    Rama Rewi  
+     
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, AXA Centre, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+  
+ 
+ Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner's 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pict ures 
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+  
+ 
+Location of accident  
+ 
+ 
+ 
+Legend  
+ Plimmerton  
+ 
+ 
+Source: mapsof.net  
+ 
+ Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ .............................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  3 
+3. Factual information  ................................ ................................ ................................ ................................ ... 4 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 4 
+3.2. Emergency response  ................................ ................................ ................................ ....................  6 
+3.3. Severe weather actions  ................................ ................................ ................................ ................  7 
+Actions upon receipt of a severe weather warning message ................................ ....................  7 
+Area manager's assessment  ................................ ................................ ................................ ....... 8 
+This severe weather warning  ................................ ................................ ................................ ...... 8 
+3.4. Rainfall information  ................................ ................................ ................................ ......................  9 
+3.5. Site and operating information  ................................ ................................ ................................ . 10 
+3.6. Slope risk assessment  ................................ ................................ ................................ ..............  12 
+3.7. Track inspections  ................................ ................................ ................................ ......................  12 
+3.8. Ganz electric multiple units  ................................ ................................ ................................ ...... 13 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  14 
+4.1. Introduction to issues  ................................ ................................ ................................ ................  14 
+4.2. Evaluating risk of the landslide  ................................ ................................ ................................  14 
+4.3. Operational response to risk of the landslide  ................................ ................................ ..........  15 
+4.4. Communication  ................................ ................................ ................................ .........................  18 
+4.5. Crashworthiness  ................................ ................................ ................................ ........................  19 
+5. Findings  ................................ ................................ ................................ ................................ ..................  21 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  22 
+General  ................................ ................................ ................................ ................................ ...................  22 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  22 
+7. Recommendations  ................................ ................................ ................................ ................................ . 23 
+General  ................................ ................................ ................................ ................................ ...................  23 
+Recommendations  ................................ ................................ ................................ ................................ . 23 
+8. Key lessons  ................................ ................................ ................................ ................................ .............  24 
+ 
+ 
+ 
+ 
+Report 10 -102 | Page i Figures  
+ 
+Figure 1  Driving compartment of derailed Train 6250 after being struck by Train 6247  ....................  5 
+Figure 2   Driving compartment of Train 6247 after impact  ................................ ................................ ..... 6 
+Figure 3  Location of rainfall monitoring gauge close to the landslide  ................................ .................  10 
+Figure 4   Extent of the landslide  ................................ ................................ ................................ ..............  11 
+ 
+ 
+ 
+ 
+  
+ 
+Page ii | Report 10 -102 Abbreviations  
+Ganz    Ganz Mavag  
+km   kilometre(s)  
+km/h    kilometre (s) per hour  
+m   metre(s)  
+mm   millimetre(s)  
+NIMT    North Island Main Trunk  
+regional council   Greater Wellington Regional Council  
+t   tonne(s)  
+UTC   universal co -ordinated time       
+ 
+ 
+ 
+ 
+Glossary  
+ganger  the person responsible for a group of track workers maintaining a defined 
+section of track.  The ganger carr ies out special inspection s on their  section  of 
+track under the direction of the area manager  
+essential feature  a structure or section of track that is considered to present a greater risk to 
+   operations than normal so is included on the "essential features list ".  The 
+   items listed are always checked when carrying out a special  inspection required 
+   in a sever e weather event  
+selcall  a selective call feature built into a radio network that suppresses the squelch 
+function to prevent non -intended recipients on the same channel hearing a 
+broadcast message.  The selcall system is used to send a vehicle number and a 
+status or alarm indication to train control  
+   
+   
+ 
+Report 10 -102 | Page iii Data summary  
+Vehicle particulars  
+Train type s and number s: Train 6250 consist ed of passenger cars ET3010 leading, EM1010, 
+ET3154 and EM1154 . The train was 86 metres (m) long and had a 
+tare weight of 144 tonnes  (t) 
+Train 6247  consist ed of passenger cars EM1223 and ET3223 .  The 
+train was 43 m long and had a tare weight of 72 t  
+Classification:  electric multiple units  
+Year of manufacture : Built by Ganz Mavag  (Ganz) , Hungary, and entered service in 1982 -
+1983  
+Operator:  
+Owner:  Operated by Tranz Metro, a KiwiRail  business unit .   
+Ownership of the Wellington commuter rail fleet was transferred 
+from KiwiRail to Greater Wellington Rail Limited on 1 July 2011  
+  
+Date  and time  30 September 2010 at 15031 
+Location  about 26.9 kilometres ( km) North Island Main Trunk  (NIMT) , 
+between Plimmerton and Pukerua Bay  
+Persons involved  Train  6250 was carrying 44 passengers and 3 crew , Train 6247 was 
+carrying 14 passengers  and 3 crew  
+Injuries  minor injuries to 2 passengers  
+Damage  substantial damage to the passenger cars  
+                                                        
+1 Times in this report are New Zealand Daylight Times (UTC + 13 hours) and are expressed in the 24 -hour mode.   
+
+ 
+Report 10 -102 
+<< Page 1 >>
+ 1. Executive summary  
+1.1 On Thursday 30 September 2010 , Ganz passenger  Train 6250  was travelling from Wellington 
+to Paekakariki  on the northbound main line with 44 passengers on board .  It was raining 
+heavily and had been for several hours.  A landslide had come down from a cutting above the 
+rail corridor and covered the northbound line with debris between Plimmerton and Pukerua 
+Bay.  The train was travelling at 60 kilometres per hour ( km/h ) when it rounded a curve  and 
+the driver saw the landslide.  He made a full brake application but his train was still  travelling 
+at 59 km/h  when it struck the landslide and derailed in the direction of the adjacent 
+southbound main l ine. 
+1.2 Train 6247  was another Ganz passenger train travelling  from Paekakariki to Wellington on the 
+southbound main line with 14 passengers on board.  The driver saw the other train strike the 
+landslide and derail when his train was about 250 m away from it.   He made a full -service  
+brake application but his train was still travelling at 54 km/h when it struck the then stationary 
+derailed train a glancing blow, stopping about 75 m past the point of impact.  Train 6247 did 
+not derail.  
+1.3 The driving compartment s on both t rains were  on the right -hand side s and these absorbed 
+most of the impact.  Both drivers had predicted this and had left their driving compartments to 
+escape injury and warn the passengers of the pending collision.  The passenger 
+compartments suffered broke n windows and major structural damage.  Nobody was seriously 
+injured in the collision.  
+1.4 The landslide had occurred some time after 2 other trains had passed the location , 28 minutes 
+earlier . 
+1.5 MetService had issued a severe weather warning the day before, forecasting  heavy rainfall for 
+the Wellington area.  The KiwiRail network control manager had received the warning and 
+passed it on to the Wellington area manager, who had then passed it on to his gangers  
+responsible for maintaining various section s of tra ck within the area.   Instead of the area 
+manager deciding what to do , he left his gangers to decide whether to carry out any special 
+track inspections or impose any speed restrictions for their respective sections of track.  
+1.6 No special track inspections wer e made in the area of the landslide and no speed restrictions 
+were put in place.  The Commission  made findings  that a special  track inspection  might  have 
+revealed signs that a landslide was about to  occur a nd that had a speed restriction been put 
+in place, the initial derailment might not have been as severe and the opposing train would 
+highly likely have been able to stop before meeting the derailed train; in other words the 
+collision would have been avoide d.  
+1.7 The cutting where the landslide occurred was on a n "essential  features  list" because of 
+previous landslides that had occurred there.  The slip site had been assessed by a KiwiRail 
+geologist as part of a nationwide assessment of at -risk sites and had be en identified as 
+ranking 31 out of a list of 180 identified sites within the Wellington metro area.  As such,  the 
+order of priority would not have seen remedial  work at this site for at least another 2 years.   
+1.8 The rainfall at the time of the landslide was calculated to have been an event expected to 
+occur once in 15 years and the total rainfall recorded for the month of September was the 
+highest since recording at the site began in 1991.  
+1.9 The Commission made othe r findings  about shortcomings in the design of the radio 
+equipment on board the Ganz trains that meant train control was not automatically alerted to 
+the accident when the drivers made emergency brake applications, and about the need to 
+improve the crashwo rthiness of older trains that are going to be kept in service for any 
+appreciable time.  
+  
+ 
+
+<< Page 2 >>
+ Report 10 -102 1.10 Since this accident, KiwiRail 's safety actions  have been to  establish a series of online rainfall 
+monitoring sites within the Wellington rail network .  An interim decis ion-making matrix has 
+been developed to assist area managers and gangers to decide when to undertake special 
+track inspections and impose speed restrictions . 
+1.11 The Commission made recommendations  to address the safety issues of the crashworthiness 
+of older t rains and the fitting of modern radio equipment that will automatically alert train 
+control when a train driver make s an emergency brake application.  
+1.12 The key lessons  from this inquiry are : 
+ in order to undertake an adequate risk assessment there must be a clearly mapped 
+out methodology that should be followed  
+ good, effective communication in any form is essential for preventing accidents 
+occurring and essential for minimising the consequences if  one does occur  
+ people with designated responsibility must exercise that responsibility or delegate to 
+another person to ensure important decisions are made at the right time.  
+  
+ 
+Report 10 -102 
+<< Page 3 >>
+ 2. Conduct of the inquiry  
+2.1. On Thursday 30 September 2010  at about 1515 , the NZ Transport Agency notified the 
+Commission of the accident under section 13(4) of the Railways Act 2005 . The Commission 
+opened an inquiry under section 13(1) of the Transport Accident Investigation  Commission  Act 
+1990 to determine the circumstances and causes o f the accident , and appointed an 
+investigator  in charge.  
+2.2. An investigation team was assembled and  attended the accident site that afternoon while the 
+recovery operation was still underway.  Interviews were conducted with the train crews, the 
+train controller, the network control manager , the on -site rail incident controller  and KiwiRail  
+Network2's engineering geologist and area manager.  On 12 October 2010 the investigators 
+attended an incident debrief conducted by New Zealand Police.   
+2.3. Eviden ce was gathered from train control records, on -board data recorders , operational staff 
+reports, KiwiRail operating procedures and rules , KiwiRail's internal accident investigation 
+report, rainfall data provided by Greater Wellington Regional Council  (the r egional council)  and 
+Police communication records.  
+2.4. The Commissioners, executive management team and investigators  attend ed a presentation 
+by the KiwiRail investigation team  on 20 October 2010 . 
+2.5. On 18 April 2012  the Commission approved the draft final report 10 -102 for circulation to 
+interested persons for comment, who included train crews,  other  operating staff, KiwiRail and 
+the regulator.  
+2.6. Submissions were received from KiwiRail, the NZ  Transport Agency, Greater Wellington Rail 
+Limited and KiwiRail's area manager.  Those  comments have been considered and included in 
+the final report where appropriate.  
+2.7. On 31 May 2012  the Commission approved the final report for publication.  
+ 
+ 
+ 
+ 
+ 
+  
+                                                        
+2 KiwiRail Network was a business unit of KiwiRail that managed train operations and network maintenance, upgrades and 
+infrastructure projects.  
+ 
+
+<< Page 4 >>
+ Report 10 -102 3. Factual information  
+3.1. Narrative  
+3.1.1.  Tranz Metro is a business unit of KiwiRail and is responsible for operating the Wellington 
+passenger commuter train fleet for the r egional council .  On 1 July 201 1 ownership of the 
+Wellington rail commuter fleet was transferred from KiwiRail to Greater Wellington Rail 
+Limited, a busines s unit of the r egional council.   
+3.1.2.  On Thursday 30 September 2010, Train 6250 was a Tranz Metro passenger service 
+scheduled to travel  from Wellington to Paekakariki  on the NIMT .  The 4-car train  departed from 
+Wellington at 1430  with a crew of 3.  
+3.1.3.  The journey from Wellington to Plimmerton was uneventful , although it was raining heavily .  
+The train  departed from Plimmerton Station on time at 1500  bound for Pukerua Bay with 44 
+passengers on board . 
+3.1.4.  At about 1503 the train was  climbing  a 1 in 57 grade  through a right -hand curve that then led 
+into a left-hand  curve . Because of the track geometry, t rain speeds on the curves were 
+restricted to a maximum of 60 km/h .  The train was travelling at about 60 km/h as it entered 
+the left-hand  curve , and was still under po wer.   
+3.1.5.  When Train 6250 rounded the curve  the driver  saw that the track about 70 m ahead was 
+covered with landslide  debris . 
+3.1.6.  At 1503:17 the driver  made a full -service brake application when the train was travelling at  
+64 km/h about 54 m from the debris .  Two seconds later , he moved the throttle to the 
+emergency brake position . 
+3.1.7.  At 1503:20, the train was travelling at 59 km/h when it ran into the landslide .  The driver  felt 
+the front of the train  lift, plough  through  the debris  and derail to the right, towards the parallel 
+Down Main line.  Before the train stopped , the driver  saw the headlight of a train approaching 
+on the adjacent track and he sensed  that a collision was inevitable.  H e jumped out of the 
+driving seat and ran back into the passenger comp artment and told  passengers to get into the 
+brace position  because there was going to be a collision . The leading end of  
+Train 6250 stopped 53 m past the landslide.  
+3.1.8.  The other train was passenger Train 6247 .  When it was about 2 30 m away , the driver  saw 
+Train 6250  hit the slip , lift up  and slew towards his track .  At 1503:21 he made a full -service 
+brake application and 2 seconds later he moved the throttle into the emergency brake 
+position.  The driver  of Train 6247 also realised that a collision was immi nent, so he vacated 
+his driving compartment,  instructed the train manager and his assistant to leave the dog box3, 
+and followed them into the passenger car.  The driver  reached the first set of doors and held 
+on to the vertical support bars.  He repeatedly  warn ed the passengers to hold on because the 
+train was going to crash.  
+3.1.9.  At 1503:30 Train  6247  was travelling at 54 km/h when it struck the then stationary Train 
+6250  (see Figure 1) . 
+3.1.10.  After the collision, the driver  and passenger operator of Train 6250 walked through the train 
+and asked the passengers whether they had suffered any injury.  After being told that there 
+were no serious injuries, the crew brought  all passengers together in the rear passenger car .  
+The crew told the passengers that the overhe ad line was considered to be live and they were 
+to wait on the train until the overhead line had been  isolated . 
+                                                        
+3 The dog box is a colloquial term for the storage compartment on the left -hand side of the driving position on the ET passenger car.    
+ 
+Report 10 -102 
+<< Page 5 >>
+  
+Figure 1 
+Driving compartment of derailed Train 6250  after being struck by Train 6247   
+ 
+3.1.11.  Train 6247  was a 2 -car set and had  a crew of 3 and 14 passengers on board .  It did not derail 
+during the collision sequence.  The train  stopped about 74 m past the point of impact  (see 
+Figure 2) .  After  the collision , the pantograph on EM1223 automatically retracted  from the 
+overhead contact wire . The back -up battery system  was damaged in the collision , so the train 
+was left with no electrical power.  
+3.1.12.  As soon as Train 6247 came to a stop, the driver and the train manager asked the passengers 
+whether any of th em had been hurt during the collision.  After determining that none of the 
+passengers had suffered any serious injury, they were directed to the Wellington end of the 
+train where they waited to be assessed by ambulance staff.  
+ 
+driving position  
+ 
+
+<< Page 6 >>
+ Report 10 -102  
+Figure 2  
+Driving compartment of Train 6247  after impact  
+ 
+3.2. Emergency response  
+3.2.1.  KiwiRail's Joint Crisis Management Plan contained the company response to any crisis that 
+affect ed the viability and survival of its assets .  The Plan was aligned to the National Civil 
+Defence Emergency Management Plan.  Any incident management team controller could 
+request the chief executive to activate the Plan.  While activation of the Plan was considered , 
+it was not requested on this occasion.  Instead, KiwiRail's response to the accident was 
+managed and co -ordinated locally under  the respective Tranz Metro and KiwiRail Network 
+Incident Management  Plans.     
+3.2.2.  At 15:05:05  (95 seconds after impact) , the train manager from Train 6247 used his mobile 
+phone to call the Wellington train control ler and told him that  his train had collided with a 
+northbound train .  He identif ied the location  of the 2 trains , confirmed that the overhead 
+traction lines appeared to be intact and reported  that no passengers on  his train  had suffered 
+serious injuries.  A few seconds later, the driver  from Train 6250 made a radio call to train 
+control confirming that his train had hit a slip , derailed  and then  been  struck by a southbound 
+train .  Immediately after receiving the ra dio call, th e train controller informed the network 
+control manager  of the accident . 
+3.2.3.  By 1507 the passenger operator from Train 6247 had telephoned the Tranz Metro customer 
+services manager and the central region communications emergency centre to report the 
+accident .  He identified the location as being near Taupo Swamp and that t he recommended  
+vehicle access to the accident site was from  the Airlie Road  over bridge , north of the accident 
+site.  He confirmed that there was a combined total of about 50 passengers on the 2 trains, 
+reported that there were no  serious injur ies and requested immediate assistance from all 
+emergency services.  
+3.2.4.  At 1508  the train controller stopped all other trains enterin g the area .     
+  
+driving 
+compartment  
+ 
+Report 10 -102 
+<< Page 7 >>
+ 3.2.5.  The first Police officer arrived at the Airlie Road over bridge  at about 1518 .  Fire appliances 
+and ambulances were  waiting for the access gate to the maintenance service track to be 
+unlocked so that they could drive to the disabled trains.  Two Police officers and an ambulance 
+officer travelled in one vehicle from Airlie Road to the accident site.  When they reached the 
+accident site , the y were met by Fire Service personnel from Plimmerton and ambulance staff 
+who had gained access from the southern end  of the access road .  
+3.2.6.  The Fire Service personnel had conducted a n initial  site hazard assessment while they were 
+travelling to the accident site .  They had become aware th at there were double train track s 
+and were aware of the potential danger posed by  overhead traction lines.   
+3.2.7.  The train crew s had conducted a n initial triage assessment and had assembled all passengers 
+in the southern passenger car on each  train  before emergency staff arrived.  Emergency 
+timber ladders , carr ied on the trains,  were already in position to facilitate people getting on 
+and off the trains.  
+3.2.8.  The ambulance medics made a triage check of all passengers on both trains.  
+3.2.9.  The senior Police officer who initially took charge of the on-site emergency response was 
+approached by a KiwiRail Network employee , who advised  that the overhead traction system 
+was still to be treated as live and that  traction line personnel  were already on their way to 
+make the overhead power system safe .   
+3.2.10.  The passeng ers were briefed by the person in charge of  the accident site  about  the intended 
+rescue and evacuation plan, and told to remain where they were  assembled until rescue 
+vehicles arrived.  Passengers were kept updated  as the rescue effort developed.  
+3.2.11.  At about 1548 the Police area commander arrived at the accident scene and received  a 
+briefing before taking over the role of incident controller.  He soon relocated the incident 
+command post from Airlie Road to the Plimmerton Domain at the southern approach to the 
+accident site .  A KiwiRail manager was assigned to the command post  to provide a  KiwiRail 
+interface with the Police and the other emergency services , as all parties operated on 
+separate  radio frequencies .   
+3.2.12.  The first vehicle used to evacuate passengers arr ived at the maintenance access road off 
+Airlie Road  at 1545 .  The evacuation began a bout an hour later using Police vans.  Passengers 
+were first taken to the command post  for further medical assessment s, after which they were 
+offered counselling from Victim Support . 
+3.2.13.  At 1711 , once all the passengers and crew had been evacuated safely , the incident controller  
+handed  control of the accident site back to KiwiRail . 
+3.2.14.  By 2350 Train 6247 had been recovered and the  Down Main line between Pukerua Bay and 
+Plimmer ton had been re -opened.  The Up Main line between Plimmerton and Pukerua Bay  was 
+declared safe for traffic at reduced speed  by 1200 the next day . 
+3.3. Severe weather actions  
+3.3.1.  The process for manag ing severe weather warnings was described in KiwiRail's Rail Operating  
+Rules and Procedures, Section 1, Rule 6 (b) . The general process is described below.  
+Actions upon receipt of a severe weather warning message  
+3.3.2.  A severe weather event starts when MetService issues a severe weather warning to 
+subscribers to its service.  Thi s message is received by the national train control centre in 
+Wellington and assessed by the duty network control manager.  In relation to this accident, t he 
+initial message was treated as a level 14 severe weather warning.  The network control 
+manager is required to start and maintain an event log.  
+                                                        
+4 A level 1 severe weather warning arises when the forecast weather condition s may result in damage to the track that co uld result in a 
+significant safety risk for drivers, maintenance personnel or the public.  
+ 
+
+<< Page 8 >>
+ Report 10 -102 3.3.3.  The network control manager directs the message to the relevant rail track areas and train 
+control desks.  The essential content of the message is then re written as a text message and 
+sent to standard severe -weather -warning recipients via a web -based text distribution message 
+system using a pre -programmed distribution list.   
+3.3.4.  The severe weather warning message is entered into the speed restriction and condi tion 
+notification , which  is distributed automatically to all persons affected .  For Tranz Metro, the 
+advice is normally made available from a printer within the operations office and passed on.  
+However, on this occasion no such notification was available b ecause of a printer software 
+issue.   
+3.3.5.  The network control manager also contacts the area managers responsible for the affected 
+track section s to inform them that a severe weather warning ha s been issued.  This call (date 
+and time) is recorded on a Severe We ather Warning Aid Memoire.   
+3.3.6.  The train controllers responsible for the affected track lengths are then advised by the 
+network control manager and mark the train control diagram with blue highlighter for the 
+period of the warning.  
+Area manager's assessment  
+3.3.7.  After receiving notification of a severe weather warning, each area manager assess es the risk 
+to operations within their area.  There was no guidance in the Rules on how to make this 
+assessment , but KiwiRail's Emergency Procedures required that the level b e raised to level 25 
+Adverse should any of the following conditions exist:  
+ reports from the field indicate an immediate escalation was required  
+ the line is blocked due to an incident.  
+3.3.8.  The area manager should normally advise what speed restriction to apply,  and whether any 
+additional special inspections are required before the next and following trains enter the 
+affected section of track.  The area manager  did not do so on this occasion, but instead left 
+those decisions for his ganger s to make.  It was t he area manager 's responsibility  to contact 
+the network control manager if the response level was to be raised from level 1 to level 2 . 
+This severe weather warning  
+3.3.9.  At 1016 on the day before the slip occurred ( Wednesday  29 September) , MetService sent the 
+netwo rk control centre a severe weather warning  by facsimile.  The warning had been issued 
+by MetService at 0952 and included a forecast of 70 millimetres ( mm) to 120 mm of rain 
+falling about the hills of Hutt Valley and Kapiti Coast from Thursday morning until  early Friday.  
+At 1625 the  network control manager  sent the severe weather  warning  to the respective area 
+managers , including the Wellington area manager.  Within minutes of receiving the warning 
+the Wellington area manager redirected the message to all h is gangers . 
+3.3.10.  Later the same day at 2058, the network control centre received an updated severe weather 
+warning from MetService issued at 2024 , forecasting 70 mm to 100 mm of rain falling 
+through to late Thursday on the hills of Hutt Valley and Kapiti Coast.   The updated severe 
+weather warning was not forwarded to the area manager.  
+3.3.11.  A special condition "severe weather warning " was added to the temporary speed restriction 
+documentation report effective from 2100 on 29 September , warning of heavy rain on the 
+Wairarapa Line and on the NIMT be tween Wellington and Taihape.  The KiwiRail computerised 
+message distribution system was supposed to have sent t his updated report to all driver 
+"book -on" depots in Wellington, Masterton and Palmerston North.   However, t he aut o-print 
+function within the computer system failed to send the print message to the printer located in 
+the Tranz Metro operations office, so no Tranz Metro drivers were issued with the updated 
+                                                        
+5 A level 2 adverse weather condition is an escalation of the level 1 severe weather condition made by the area manager after a ssessing 
+reports from the field.  Upon  escalation, all trains are stopped within the affected area until a special track inspection has been carried 
+out and a safe running speed determined.       
+ 
+Report 10 -102 
+<< Page 9 >>
+ speed restriction and condition report that made reference to t he active severe weather 
+warning.  
+3.3.12.  The computer error was later traced to a recent software upgrade where the system did not 
+recognise the start time for the severe weather warning because it was retrospective.  The 
+system had been configured to only send and print information for future events  and the issue 
+time for the severe weather warning was in the past.  
+3.3.13.  On Thursday 30 September at 0841, the network control centre received a further updated 
+severe weather warning from MetService issued at 0810 forecas ting 50 mm to 90 mm of rain 
+falling on the hills of Wellington and Kapiti Coast from Thursday morning through to Friday.  
+The active KiwiRail heavy rain warning was not updated on receipt of the latest MetService 
+warning.   
+3.3.14.  At the time of the landslide, th ere were no current severe -weather -related temporary speed 
+restrictions posted within the Wellington metro area, and no special track inspections had 
+been carried out between Plimmerton and Pukerua Bay.  
+3.4. Rainfall information  
+3.4.1.  The regional council had a rainfall monitoring site near Taupo Stream at Whenua Tapu  
+Cemetery , about a kilometre north of the landslide (see Figure 3).    
+3.4.2.  The major rainfall event that preceded the slip started at about 1900 on 29 September and 
+ended at 0200 o n 1 October.  During the 31 hours, there were  103 mm of rainfall recorded at 
+the Whenua Tapu Cemetery monitoring site.  The landslide occurred after 20 hours of rainfall , 
+by which time 80 mm of rain had been recorded.   
+3.4.3.  The regional council calculated the return period for the one-day rainfall on 30 September to 
+be equivalent to an event expected to occur once in 15 years.  
+3.4.4.  A cumulative total of 209.5 mm of rainfall was recorded by the regional council during the 
+month of September.  This total was the highe st September rainfall recorded since the site 
+was commissioned in 1991.  During those 20 years the average September rainfall recorded 
+was 94.2 mm.  A comparison of cumulative rainfall data recorded at Whenua Tapu Cemetery 
+between 1 April and 30 September 2010 confirmed that 2010 had the second -wettest winter 
+rainfall on record , with rainfall exceed ing the median for the period by almost 30%.  
+ 
+
+<< Page 10 >>
+ Report 10 -102  
+Figure 3 
+Location of rainfall monitoring gauge close to th e landslide  
+Source: Avis Wellington street directory  
+ 
+3.5. Site and operating information  
+3.5.1.  The track from Wellington to South Junction and from North Junction to McKays Crossing   
+(42 km) was double track, with Up Main and Down Main line s.  Trains travelled on the left -
+hand line in the direction of travel .  Train movements were  managed from KiwiRail's national 
+train control centre in Wellington under double -line automatic signalling regulations.  
+3.5.2.  The location of  the landslide was thought to have been excavated when the corridor was 
+widened to accommodate double tracking about 60 years ago .  The vegetated cutting was 
+about 17 m high and was laid back with a batter6 of about  45 degrees . 
+3.5.3.  The 20  m wide  landslide was centred at the 26.887 km mark with the headsc arp7 about 16 m 
+above rail level  (see Figure 4).  The maximum depth of the landslide was about 2 m below the 
+pre-existing ground surface.  The toe8 of rupture of the landslide varied between 5  m and  
+10 m upslope from the base of the slope.  Below this level, landslide debris consisting of 
+saturated colluvial soils made from silty sands and clay flowed to cover the Up M ain line. 
+3.5.4.  The volume of the landslide material was estimated to be about 110 cubic metres.  
+3.5.5.  The toe of the landslide and lower part of the landsl ide were  located within weathered 
+greywacke rock  commonly referred to as mudstone.   Fine sand/silt was exposed in the 
+headscarp s of both lobes.  
+                                                        
+6 Batter is the slope face of the cutting . 
+7 Headscarp is the top of the landslide . 
+8 Toe is the l ocation of the lower portion of the landslide . 
+rainfall gauge  
+landslide  
+ 
+Report 10 -102 
+<< Page 11 >>
+ 3.5.6.  KiwiRail confirmed that there had been previous slips and slumps within the cutting.  An 
+examination of histori cal aerial photographs showed that in 1977 there had been recent 
+benching earthworks at the head of the cutting on which this landslide occurred.  Again, o n  
+14 September 1996, the track was closed temporarily when  slip material covered the Up Main 
+line near the 26.9 km  mark . 
+ 
+Figure 4 
+ Extent of the landslide  
+ 
+3.5.7.  On the same day and s oon after the collision  happened , there were 3 other land slides  within 
+the Wellington rail commuter network that resulted in temporary line closure s: 
+ at about 1525 the track scoured under the Up Main line near 31 km on the 
+NIMT .  The line was closed for 2 days until  remedial work was completed  
+ at about 1600 a driver reported landslide material cover ing a section of track 
+on the Johnsonville Line .  The train stopped short of the obstruction and waited 
+for it to be cleared  
+ at about 1745 a n on -site safety observer reported a  landslide near  the 
+entrance to Tunnel 2 on the NIMT . Train services continued on t he Down Main 
+line until the obstruction was cleared . 
+ 
+ 
+  
+headscarp  
+toe  
+ 
+
+<< Page 12 >>
+ Report 10 -102 3.6. Slope risk assessment  
+3.6.1.  Since  2009 KiwiRail Network had adopted a methodology f or the assessment and rating of 
+slope s adjacent to the track .  Slopes were rank ed in order of the risk level.  The higher the risk, 
+the sooner the slope was programmed for remedial work .   
+3.6.2.  The slope ranking system was points  based .  The maximum ranking that a slope could be 
+assigned was 653 , and the minimum was zero.  Points were assigned on the basis of several  
+factors , including :   
+ the slope height and angle  
+ the distance of the track from the toe or crest of the slope  
+ the history of landslide movement  
+ the evidence of active failure  
+ the vegetation cover  
+ the condition of the drainage  
+ the assessment of the local geological conditions  
+ the number of trains per week  passing the site  
+ the line speed and available view lines; track gradient; train stopping distance; 
+double track v single track; passenger v freight -only line; and the 
+consequences of a derailment.  
+3.6.3.  The 324 m  long cutting  where the landslide  occurred  had been  assessed by a KiwiRail 
+Network engineering geologist on 17 November 2009.  
+3.6.4.  The final slope rating for the cutting had been  assessed to be  193, placing it as the thirty -first 
+highest priority of approximately 180 sites around the Wellington rail commuter network.  On 
+the basis of the ranking order , it was unlikely that any engineered works to reduce the level of 
+risk would have been considered for at least another 2  years . 
+3.6.5.  As part of the assessment , a consequence  of a derailment at the site was recorded as "the 
+train could overturn onto the Down Main line ".  
+3.7. Track inspection s  
+3.7.1.  Track inspections were  carried out to ensure that the track, structures and formation were  
+safe for the passag e of trains at authorised speeds until the next scheduled inspection.   Track 
+inspections were carried out by qualified track staff by walking the track , from a slow -moving 
+hi-rail vehicle  or from a train cab . 
+3.7.2.  There were 3 type s of inspection that were relevant to this investigation : a general inspection, 
+a detailed engineering inspection , and a special inspection.  The general inspection was 
+carried out twice per week, while the engineering inspection was undertaken annually.  
+Special inspections were carried out by the section track ganger when there was a concern 
+that the track  may have been damaged or be at risk from environment -related events such as 
+high-intensity rainfall, strong winds or after an earthquake .  Special inspe ctions focused on 
+identified at -risk sites recorded on an essential features list.  The critical features were  
+checked to confirm that they remained serviceable for the line to remain open.   
+3.7.3.  The essential features list was an electronic record .  A copy wa s printed and carried by the 
+person performing the track inspection .  The process for reviewing and updating the essential 
+feature s list was that it had to be reviewed by senior management at regular intervals.   The 
+track in the area of the cutting  had bee n first recorded on the essential features list on 4 
+November 2002 and was to be inspected at times of heavy rainfall.  The accompanying 
+comment indica ted that slips had occurred at the location but none had been reported during 
+2010 .  
+ 
+Report 10 -102 
+<< Page 13 >>
+ 3.7.4.  On the same day as t he landslide,  a special inspection was carried out by another track 
+ganger on the Johnsonville Line before the first scheduled train.  A similar special inspection 
+was also undertaken from Featherston to Upper Hutt on the Wairarapa Line separately .  A 
+special inspection had not been carried out on the NIMT section of the Wellington commuter 
+network before Train 6250 departed from Wellington.  
+3.8. Ganz electric multiple units  
+3.8.1.  The 44 two -car Ganz fleet  of electric multiple units had been used on the Wellingto n 
+commuter network since  the early 1980s.  The fleet was the mainstay of the Wellington metro 
+service , with a capacity  of 6512 seat ed passengers .  Eleven 2 -car and five 3 -car English 
+electric sets up to 70 years old provided an additional 2408 seats.   The regional council 
+intend ed to retire the English sets as the new Matangi fleet of 48 two -car electric sets were  
+commissioned.  
+3.8.2.  The regional council anticipate d that the new Matangi fleet would  operate peak and most off -
+peak services and the Ganz fleet would  operate specific peak services where necessary.  
+3.8.3.  The Ganz  vehicle was considered by industry to be  a well-balanced  passenger rail vehicle with 
+primary systems based on sound railway engineering practice s at the time of build .  The 
+vehicle was built with ver y high static strength and met the crashworthiness standards of its 
+day. 
+3.8.4.  Early crashworthiness standards for passenger rolling stock were based on specified static 
+loads that represented typical crash scenarios, often using an average collision speed of 
+about 30 km/h.  Present -day computing technology allows rolling stock manufacturers to do 
+more complex non -linear energy absorption analysis to model the gross collapse of the entire 
+vehicle structure.  
+3.8.5.  At the time of the collision a prototype refurbishment of one 2 -car Ganz set  was nearing 
+completion and it has since re -entered service for evaluation.  Structural improvements 
+undertaken as part of this refurbishment included:   
+ the inspect ion and restor ation of the structural integrity of the mounting points  
+ the fitting of an anti -climb device to the driving cab at under frame  level (the 
+most structurally significant location on the train ends, but which is not at a 
+height consistent with anti -climb devices fitted to locomotives).  An anti -climb 
+device reduces the risk of "over -riding9" another unit in the event of a front -on 
+collision.  
+3.8.6.  Following this accident, KiwiRail reviewed the structural performance of the Ganz  fleet , and 
+recommended to Greater  Wellington Rail Limited that the following structural improvements 
+be undertaken on any future Ganz refurbishments : 
+ inspect and restor e the structural integrity of the mounting points  
+ fit a "face mask " kitset of increased material thickness on the driving  end to  
+provide greater  resistance to tearing and rupture , and increas e the strength of 
+the connections between the driving cab and  the under frame   
+ fit an anti -climb device to the driving cab at a height consistent with anti -climb 
+devices already fitted to locomotives.   
+ 
+ 
+  
+                                                        
+9 Term used to describe one vehicle riding up and over another during a collision.  
+ 
+
+<< Page 14 >>
+ Report 10 -102 4. Analysis  
+4.1. Introduction to issues  
+4.1.1.  The topography around much of the Wellington metropolitan rail network is hilly.  Nature has a 
+way of both creating and eroding hills over time.  Landsl ides are a natural event; they are one 
+mechanism of erosion.  If a road or railway track is cut into a hillside, the risk of landslide will 
+always be present.  The risk can be mitigated using good design and drainage of the slope 
+above, and also by good op erational practice.  
+4.1.2.  The landslide was a predictable event because heavy rain could  trigger landslides and they 
+had occurred at that site before.  The report discusses the system for evaluating the risks 
+created by a landslide at the accident site , whether it had been reasonably predicted, and 
+what operational factors, if any, could have prevented or minimised the impact with the 
+landslide.  
+4.1.3.  Both trains in this event were being operated within allowable parameters.  The landslide had 
+occurred since the last t rain had passed through the area 28 minutes before the arrival of 
+Train 6250.  There was little more the driver could have done to prevent his train striking it.  
+The arrival of Train 6247  from the other direction about 2 seconds after Train 6250 had 
+derai led and stopped was unfortunate timing ; a few minutes later and the derailment could 
+have been reported and all other trains stopped.  Communication after an accident is 
+therefore important.  The report discusses this issue in respect of train design and e mergency 
+preparedness.  
+4.1.4.  None of the passengers and crew w as seriously injured in the collision.  The report discusses 
+why that was, but also discusses the crashworthiness of the Ganz trains and how that might 
+be enhanced to improve safety for passengers and  crew in future.  
+4.1.5.  The emergency response to any accident can affect the outcome.  Nobody was seriously 
+injured in this accident; nevertheless, under different circumstances they could have been , so 
+the inquiry looked into this aspect in some detail.  Some o f this detail has been included in the 
+factual section of this report.  It is unlikely that any 2 emergency responses will be identical , so 
+inevitably there will be lessons to take away from every response.  The Commission has found 
+that in this case the emergency response was effective and well-co-ordinated , and that any 
+lessons were  identified in the debrief that followed.  
+Finding : 
+The emergency response to the accident was effective and generally well-co-ordinated .  
+Improvements were identified in the subsequent emergency response debrief for 
+inclusion in the relevant emergency response plans.  
+4.2. Evaluating risk of the  landslide  
+4.2.1.  An ex amination of historical aerial photographs and records confirmed that this event was not 
+the first landslide to occur within the cutting.  Indeed , KiwiRail had taken into account such 
+historical events when assessing the slope stability and assigning a slope rating to the cutting.  
+4.2.2.  The fundamental question to ask was: why did the landslide event occur on this particular day 
+and not during previous periods of heavy rainfall?  There were several factors that could have 
+contributed.  Based on KiwiRail's geotech nical assessment , the most likely causes were a 
+combination of the following:  
+ the relative steep angle of the cut slope for the material  types  
+ the moderately high rainfall throughout the day combined with the highest April 
+to September cumulative rainfall recorded in the previous 20 years    
+ 
+Report 10 -102 
+<< Page 15 >>
+ 
+ the local groundwater flow collecting and being trapped in a localised 
+depression formed wher e the relatively free -draining sand/silt surface material  
+was in contact with the underlying clay-dominated weathered rock . 
+4.2.3.  When taking into account previously reported landslide events within the cutting, this 
+landslide was likely to have been a reactivation of an existing flow feature rather than a new 
+event.   
+4.2.4.  In the 2 years leading up to the collision , KiwiRail  had adopted a system atic approach with its 
+assessment and rat ing of slopes adjacent to the corridor to identify those slopes within the 
+Wellington metro area where there was a risk of slope failure  that could affect the safe 
+running of trains .  It used  a points -based system : the higher the rating , the higher the level of 
+risk.   
+4.2.5.  When the cutting where the landslide occurred was rated  there were 30 slopes within the 
+Wellington metro network  that had been  assessed with a higher rating .  Since then KiwiRail 
+either has implemented mitigation strategies or has work currently underway on 15 of the 
+higher -rated sites.   
+4.2.6.  As a result of this accident KiwiRail has  given some priority to  the 324 m long cutting wher e 
+the landslide occurred, and remedial work is well underway to stabilise the slope, which 
+mean s the Commission has not needed to make a recommendation for it to do so.  
+4.3. Operational response to risk of the landslide  
+4.3.1.  When the network control manager informed  the area manager of the severe weather 
+warning, the KiwiRail process made it the area manager's responsibility to determine whether 
+a special inspection was required anywhere within his area.  On this occasion the area 
+manager was told at 1625 the day bef ore the predicted rain.  The area manager did send the 
+information to his track staff, but instead of making any decision himself, he left it to the 
+individual track gangers to decide for the respective sections of track they maintained.  Some 
+decided to m ake special inspection s, but not the ganger in charge of the section of track 
+between Plimmerton and Pukerua Bay where the landslide occurred.   
+4.3.2.  Given that the location where the accident happened was listed as an "essential feature " 
+because of previous lan dslides that had occurred there, a special inspection should have 
+been called for and that decision should have come from the area manager in consultation 
+with the section ganger.  That does not mean that the derailment would have been prevented 
+had one be en carried out, but it might  have  resulted i n a temporary speed restriction, which 
+would have reduced the risk . 
+4.3.3.  The network control manager did not send any of the updates to the severe weather warning 
+to the area manager as he should have done.  Whether this would have changed the area 
+manager's response is a matter of conjecture, but it would have reinforced to him that the 
+severe weather warning was real and was specifically targeted at his area of responsibility.  
+4.3.4.  The landslide occurred some time within the 28 minutes before the arrival of Train 6250.  We 
+know this because 2 other trains had crossed in the area 28 minutes before the accident 
+happened.  T he 2 train drivers might not necessarily have notice d any precursor to a landslide 
+as their trains pass ed the cutting, but a properly trained inspector who knew  what to look for 
+and knew  that the cutting was on the essential features list might have at least picked up 
+signs of a pending landslide.  In that case a speed restriction could have been put in pla ce or 
+the site closely monitored, or both .  For example, a 5 km long temporary speed restriction was 
+in place between Upper and Maymorn on the same day following a special track inspection.    
+4.3.5.  A speed restriction would probably not have prevented Train 625 0 striking the landslide 
+because of the limited view the driver had of the track ahead.  A slower speed , however , might 
+have resulted in less displacement from the track when the train derailed, which would have 
+lessened the impact of the collision.  
+ 
+
+<< Page 16 >>
+ Report 10 -102 4.3.6.  More i mportantly however, Train 6247 coming from the opposite direction would also have 
+been travelling at a reduced speed .  The driver of this train had an almost 500  m sighting 
+distance to the derailed train ahead of him.  The National Rail System Standard (Se ction 6) 
+required Ganz trains travelling at 100 km/h to stop within 460 m on flat and level track, even 
+in wet conditions.  Even though Train 6247 was travelling down a 1 in 57 gradient , it is highly 
+likely that the driver would have been able to stop his train within the clear distance ahead.  A 
+speed restriction therefore would have created 2 opportunities to either prevent or minimise 
+the seriousness of this collision.  
+4.3.7.  KiwiRail 's Rule 6 require d the network control manager to arrange for the special cond itions in 
+the speed restriction system to be updated when MetService  issue d a severe weather 
+warning.  
+4.3.8.  At the time of the derailment there was a severe weather warning in place that covered the 
+Wellington metro network.  KiwiRail's network control centre had first received a warning from 
+MetService  at 1016 the previous day (Wednesday 29 September) , forecasting 70 mm to  
+120 mm of rain to fall  in the Wellington metro area from Thursday morning to early Friday .   
+4.3.9.  Later on that same day the network control ma nager had added the severe weather warning 
+condition status to the speed restriction system effective from 0900 the next day.  This action 
+should have sent an auto -print command  to the printer in the Tranz Metro operations office.  
+However, the automatic p rinting of the pending restrictions did not occur  because of the 
+software problem . This system error could have been avoided had complete end -to-end testing 
+been undertaken when changes were made to the software.   
+4.3.10.  At 2100 that day  the network control manager received an update d MetService severe 
+weather warning  and a t 2115  updated  the condition status within the speed restriction 
+system  to bring forward the start time for the severe weather warning period to 2100 .  Again , 
+the updat e failed to create an auto -print command to the Tranz Metro operations office 
+printer.  
+4.3.11.  Because the automatic print function failed to operate, no drivers of the passenger trains were 
+aware that a severe weather warning had been issued.  This situation is concerning but is not 
+likely to have affected the outcome of this accident.  It was the fact that a speed restriction 
+had not been put in place for the area of the cutting that is more concerning.  When a speed 
+restriction is put in place, speed boards are  placed before the affected area and train drivers 
+already on the network are verbally informed by train control.  
+4.3.12.  Commission inquiry 06 -108 reported on an incident in which passenger Train 9328 travelling 
+from Wellington to Johnsonville struck a slip and d erailed.  At the time, MetService had issued 
+a severe weather warning but the network control manager had yet to promulgate the 
+warning.  
+4.3.13.  The Commission identified the lack of effective severe/adverse weather forecasting and real -
+time monitoring of rainfall  in the Johnsonville Line and other areas as a safety issue .  The 
+Commission recommended that the Director of the NZ Transport Agency  address th at safety 
+issue.  
+4.3.14.  During 2011 KiwiRail established a series of rainfall monitoring sites within the Wellington 
+metro  network where there was a high risk of landslide failure.  The forecast rainfall could  
+then be reconciled with real -time gauge data  and responsive action taken . The Commission 
+closed its recommendation "acceptable" based on that follow -up action .  An interim decision -
+making  matrix has now been developed to facilitate decision -making  in the event of either 
+forecast high -intensity rainfall or actual rainfall recorded during the previous  28 days.   This 
+matrix is shown below.  
+  
+ 
+Report 10 -102 
+<< Page 17 >>
+ Rainfall forecast for 
+the n ext  
+24 hours  Rainfall recorded during 
+preceding 4 -week period   Rainfall recorded during 
+preceding 4 -week period  
+ < 150 mm  > 150 mm  
+< 25 mm  Condition 0: Normal operation  Condition 1: General warning  
+25-50 mm  Condition 2: General warning  Condition 3: Track inspection  
+50-75 mm  Condition 4: Track inspection  Condition 5: Track inspection 
+and 40 km/h speed restriction  
+> 75 mm  Condition 6: Track inspection 
+and 40 km/h speed restriction  Condition 7: Track inspection 
+and 25 km/h speed restric tion 
+ General warning : Notification to line managers of elevated risk due to either 
+    saturation of soils or a specific predicted event  
+ Track inspection:  Periodic track inspection s in areas of elevated risk. The  
+    frequency and location s of inspections will depend on the 
+    geotechnical hazard , train schedule and severity of the event  
+ Speed restriction:  Graduated speed restrictions depending on the risk level and 
+    location  
+ Stop train movements:  This action would be a direct response t o a reported event.   
+Had the interim decision -making  matrix been operational at  the time of this accident, a special 
+track inspection would have been required and the maximum permitted line speed reduced to 
+25 km/h . 
+Findings : 
+A 25 km/h temporary train spe ed restriction would  likely have prevented Train 6247 
+colliding with the stationary derailed Train 6250.  
+A 25 km/h temporary train speed restriction might  not have allowed the driver of  
+Train 6250 to stop the train short of the landslide debris , but it wou ld have reduced the 
+risk of a derailment and the subsequent collision.  
+The location of the landslide where the derailment and collision happened was prone to 
+landslides during periods of heavy rain and ground saturation.  Given the predicted 
+rainfall for t he area , and that the location was on the essential features list, a special 
+track inspection should have been made and a speed restriction should have been put in 
+place.  
+KiwiRail's  slope ranking system for evaluating the landslide risk on the rail network was 
+an effective tool for prioritising remedial work at locations that were prone to landslides . 
+However,  KiwiRail had not conduct ed a complete risk assessment for each identified 
+location to identify what action could be taken to reduce the risk in the meantime, such as 
+monitoring rainfall, applying temporary speed restrictions and conducting special track 
+inspections.  
+ 
+ 
+
+<< Page 18 >>
+ Report 10 -102 The KiwiRail rainfall monitoring system and risk management framework put in place 
+since the accident, which  includes information from the slope ranking system , is a more 
+effective tool for managing the risk of landslides . 
+  
+4.4. Communication  
+4.4.1.  Radio communication is an important component of a safe rail operation.  The National Rail 
+System Standard required all locomotives and self -propelled rail vehicles to be fitted with 
+radio equipment capable of transmi tting communi cation s to, and receiving communication s 
+from, train controllers and other rail vehicles on the networ k.  
+4.4.2.  For a single -person train operation on the rail network, the lead motive power unit must be 
+fitted with a very-high-frequency E -band radio  equipped with at least 4 channels.  Channel 1 is 
+dedicated to short -range communication , including to a driver on a different train, a signal box 
+controller and train examination and maintenance personnel.   
+4.4.3.  The Standard required the driving cabs of all rail vehicles to be equipped with vigilance 
+system s to monitor driver alertness by requiri ng the driver s to respond to indicator lights 
+and/or audible warning devices within a maximum period of 70 seconds.   
+4.4.4.  The vigilance cycle is reset when the driver presses the vigilance cancellation button , makes a 
+change to either the air brake or throttle  control setting or sound s the whistle.  If the vigilance 
+system is not cancelled by the driver within 10 seconds of the in -cab alarm sounding, the air 
+brake is applied automatically and the train is stopped and an alert sent to train control.  
+4.4.5.  Brake pipe p ressure is monitored continuously and when a sudden reduction of air pressure 
+from 550 kilopascals to 350 kilopascals in less than 10 seconds is detected , such as when an 
+emergency brake application is made, the vigilance system automatically sends an emer gency 
+vigilance alarm  to train control through the radio system.  When the alarm activates , the 
+scanner sends the alarm signal until train control acknowledges by calling the driver.  The 
+alarm sequence is repeated every 30 seconds, up to 30 times.  For th is to occur the radio 
+must be capable of "selective calling " (selcall).  
+4.4.6.  When receiving an emergency alarm , the train controller is required to contact the driver 
+immediately to determine the reason for the activation.  Should the first attempt be 
+unsuccess ful, the train controller is required to make further calls during the next 2 minutes.  
+If there is still no response, the train controller is required to send a person to the train to find 
+out what caused the alarm activation.  
+4.4.7.  At the time the Ganz fleet w as commissioned, selcall radios were not available.  When they did 
+become available  later , they were fitted to main  line locomotives as a safety precaution when 
+the "second  person " was removed from locomotive -hauled freight trains in 1987.  KiwiRail's  
+predecessors determined that the operation of the passenger trains on the Wellington 
+commuter network was not a single -person operation because the passenger train  had a crew 
+of at least 2 people, namely  a driver and a train manager , plus passenger operat ors 
+depending on the number of passenger cars on a train.  The consequence of this was that the 
+radio system fitted to the fleet of Ganz units did not have a selcall capability.  Therefore 
+despite emergency brake applications having been made on Train 6250  and Train 6247 
+before the collision, train control did not and could not receive the a lerts automatically.   
+4.4.8.  The Tranzlog event recorder s from the leading and trailing ends of  Train 6247 shut down  0.6 
+seconds after the collision.  The driving compartment on EM1223  was damaged to such an 
+extent that the train radio equipment was unusable , and because the battery supply failed, all 
+electrical power was lost throughout the train.  With no electrical power, the radio equipment 
+in the undamaged  driver's cab at the trailing end  was also unusable.   
+  
+ 
+Report 10 -102 
+<< Page 19 >>
+ 4.4.9.  The absence of selcall capability on the Wellington passenger fleet meant there was a delay in 
+train control being made aware of the collision and in turn calling the emergency services.  In 
+this case the next train coming from the opposite direction arrived  at about the same time that 
+the derailment occurred.  In other circumstances a delay in train control becoming aware of 
+such an event in double -track territory is a lost opportunity to warn  other trains in the vicinity.  
+The delay can be overcome by fitting an improved radio system with selcall capability to the 
+Wellington commuter rail fleet .  A recommendation has been made to address th is issue.  
+Findings : 
+Most of the passenger trains in th e Wellington commuter fleet are not equipped with 
+selcall -capable radio equipment, which means that in the event of an emergency brake 
+application or other event that causes a rapid reduction in air brake pipe pressure , there 
+could be a critical delay in train control being alerted in time to prevent the event 
+escalating . 
+ 
+4.5. Crashworthiness  
+4.5.1.  Crashworthiness is a term used to describe a vehicle 's ability to absorb impact forces  and 
+protect the occupants from serious injury .  The leading passenger vehicle of n orthbound Train 
+6250 hit the landslide material, derailed and 2 seconds after stopping  was struck by 
+southbound Train 6247 , travelling at 54 km/h on the adjacent line.  Train 6247 stopped  
+about 77 m past the initial point of impact  and remained on the trac k. 
+4.5.2.  The driving compartment s of both trains were  severely deformed during the collision 
+sequence , with significant loss of what is known as driver surviva ble space.  Had both drivers 
+not evacuate d their driving position s, they would likely have been at leas t seriously injured . 
+4.5.3.  When commissioned  nearly 30 years ago , the Ganz train was considered to be a well-designed  
+and well-built vehicle with appropriate crashworthiness features  for the time .  However, w hen 
+compared with current design standards , the Ganz units lack the same structural energy 
+absorption at the corner and end posts, and do  not have the same " anti-climb " features . 
+Corner posts and end posts either side of the central end door are an integral part of modern 
+passenger vehicle design .  The purpo se of corner posts is to deflect corner impacts and 
+contain damage to energy -absorbing deformation.  These c orner posts are particularly 
+important on these vehicles where  the driver position is offset to  the right , which means the 
+driver is closer to  trains approaching on the adjacent main line.  Additionally, because the 
+commuter network is also used by freight trains , the corner post  helps  to protect the driver 
+from  any overhanging  load on a passing train . 
+4.5.4.  At the time of the collision both trains we re lightly loaded with all passengers seated. None of 
+the passengers suffered serious injury . 
+4.5.5.  Since the collision, i mprovements to the rupture resistance of the Ganz fleet have been 
+recommended to be included as part of the scope for any future refurbishme nts.  These would 
+include the  fitting of an "end mask ". 
+4.5.6.  The anti -climb feature that is typically found on modern passenger cars provide s some 
+protection against over -riding, considered by the industry to be the most dangerous accident 
+scenario.  These features have been present  on the New Zealand locomotive fleet since the 
+1980s and on the SD driving trailer cars used on the diesel -hauled , push/pull commuter trains 
+that have been operating on the Auckland com muter rail network since 2004.   They also 
+feature on the newer Matangi fleet introduced to the Wellington network in 2011.  
+  
+ 
+
+<< Page 20 >>
+ Report 10 -102 4.5.7.  While it might not be economically feasible to modify the older fleet to meet the 
+crashworthiness standards of modern trains, project s such as trialling end masks on the Ganz 
+fleet, installing anti -climb devices and restoring structural attachment points to original or 
+better standards should be included in any future upgrade if the fleet is to remain in service 
+for any appreciable leng th of time.   A recommendation has been made to address this safety 
+issue.  
+Findings : 
+The driving compartments on Trains 6250 and 6247 were damaged during the collision 
+sequence to such an extent that had the drivers not vacated their driving positions befor e 
+impact they would likely have been fatally  injured.  
+The Ganz  trains were generally strong  and well-built and had met the crashworthiness 
+standards at the time of build some 30 years earlier , but they did not perform as  well as  a 
+modern train during a similar front -end collision , thereby increasing the risk of injury to 
+the driver s and possibly passengers seated near the ends of the train s. 
+ 
+Report 10 -102 
+<< Page 21 >>
+ 5. Findings  
+5.1. The emergency response to the accident was effective and generally well-co-ordinated .  
+Improvements were identified in the subsequent emergency response debrief for inclusion in 
+the relevant emergency response plans.  
+5.2. A 25 km/h temporary train speed restric tion would  likely have prevented Train 6247 from 
+colliding with the stationary derailed Train 6250.  
+5.3. A 25 km/h temporary train speed restriction might  not have allowed the driver of Train 6250 to 
+stop the train short of the landslide debris , but it would ha ve reduced the risk of a derailment 
+and the subsequent collision.  
+5.4. The location of the landslide where the derailment and collision happened was prone to 
+landslides during periods of heavy rain and ground saturation.  Given the predicted rainfall for 
+the ar ea, and that the location was on the essential features list, a special track inspection 
+should have been made and a speed restriction should have been put in place.  
+5.5. KiwiRail's slope ranking system for evaluating the landslide risk on the rail network was an 
+effective tool for prioritising remedial work at locations that were prone to landslides . However,  
+KiwiRail had not conduct ed a complete risk assessment for each identified location to identify 
+what action could be taken to reduce the risk in the meanti me, such as monitoring rainfall, 
+applying temporary speed restrictions and conducting special track inspections.  
+5.6. The KiwiRail rainfall monitoring system and risk framework put in place since the accident, 
+which  includes information from the slope ranking system , is a more effective tool for 
+managing the risk of landslides.  
+5.7. Most of the passenger trains in the Wellington commuter fleet are not equipped with selcall -
+capable radio equipment, which means that in the event of an emergency brake application or 
+other event that causes a rapid reduction in air brake pipe pressure , there could be a critical 
+delay in train control being alerted in time to prevent the event escalating . 
+5.8. The driving compartments on Trains 6250 and 6247 were damaged during the collision 
+sequence to such an extent that had the drivers not vacated their driving positions before 
+impact they would likely have been fatally injured.  
+5.9. The Ganz trains were generally strong  and well-built and had met the crashworthiness 
+standards at the time of build some 30 years earlier , but they did not perform as well as a  
+modern train during a similar front -end collision, thereby increasing the risk of injury to the 
+driver s and possibly passengers seated near the ends of the train s. 
+  
+ 
+
+<< Page 22 >>
+ Report 10 -102 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety actions  by 2 types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise resu lt in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+6.2. KiwiRail has taken action by improving slope stability to reduce the risk of a landslide 
+occurring at the accident site.   
+6.3. Online, r eal-time rainfall measuring and recording sites have been established at 6 identified 
+at risk s ites within the Wellington rail commuter network  and a  decision -making matrix has 
+been established to reduce the risk created by landslide.  
+ 
+ 
+  
+ 
+Report 10 -102 
+<< Page 23 >>
+ 7. Recommendations  
+General  
+7.1. The Commission may issue, or give notice of; recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case, recommendations have been issued  to NZ Transport Agency.   
+7.2. In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendations  
+7.3. On 31 May 2012  the following recommendation was made to the Chief Executive of the NZ 
+Transport Agency:  
+7.4. KiwiRail's predecessors determined that the Wellington rail electric multiple unit commuter 
+service was not a single -person operation.  Irrespective of whether these trains were a "single -
+person" or a "two-person " operation, as a consequence,  the radio system fitted to these trains  
+did not have selcall capability and could not send an alert to train control automatically when 
+there was a rapid drop in brake pipe pressu re such as when the driver ma kes an emergency 
+brake application.   Any delay in train control being alerted to an accident or incident within the 
+double -tracked commuter network is a safety issue.  The Commission recommends to the 
+Chief Executive of NZ Tran sport Agency that he address this  safety issue . (021/12)  
+On 13 June 2012, the Manager Rail Systems, replied in part:  
+The NZTA intends to work closely with the rail industry with an aim to addressing 
+and closing this recommendation as soon a s practicable.  
+7.5. The driving compartments on Trains 6250 and 6247 were damaged during the collision 
+sequence to such an extent that had the drivers not vacated their driving positions before 
+impact it was likely that they would have been at least seriously injured.  Althoug h the Ganz 
+Mavag trains were generally strong  and well-built and had met the crashworthiness standards 
+at the time of build some 30 years earlier , they did not perform as a more modern train would 
+have been expected to perform during a similar front -end collision, thereby increasing the risk 
+of injury to the driver and possibly passengers seated near the ends of the train s. 
+The Commission recommends that the Chief Executive of the NZ Transport Agency monitor the 
+development of current prototype improvemen ts in crashworthiness for the Ganz Mavag rail 
+fleet and require s that such improvements be adopted for any trains that are to remain in 
+service for an appreciable time . (022/12)  
+On 13 June 2012, the Manager Rail Systems, replied in part:  
+The NZTA will moni tor the development of modifications to the Ganz Mavag rail 
+fleet, taking into account the length of time the Ganz Mavag fleet may remain in 
+service.  
+ 
+  
+ 
+
+<< Page 24 >>
+ Report 10 -102 8. Key lessons  
+8.1. In order to undertake an adequate risk assessment there must be a clearly mapped out 
+methodology that should be followed . 
+8.2. Good , effective communication in any form is essential for preventing accidents occurring and 
+essential for minimising the consequence s if one does occur.  
+8.3. People with designated responsibility must exercise that responsibility or delegate to another 
+person to ensure important decisions are made at the right time.  
+ 
+  
+  
+ 
+  
+  
+ 
+ 
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+07-102 (Incorporating inquiry 07 -111) freight train mainline derailments, various locations on 
+the national network, from 6 March 2007 to 1 October 2009  
+11-101 Wrong line running irregularity, leading to a potential head -on collis ion, Papakura - 
+Wiri, 14 January 2011  
+08-102 Metro passenger train derailment, Sylvia Park, 14 April 2008 (incorporating inquiries 
+08-104 and 08 -107) , diesel motor fires on board metro passenger trains, 3 June 
+2008 and 25 July 2008  
+08-111 Express freight Train 524, derailment, near Puketutu, North Island Main Trunk, 3 
+October 2008  
+08-112 Safe working irregularity resulting in a collision and derailment at Cass Station  
+on the Midland Line, 8 November 2008  
+09-102 Passenger fatality after falling between platform and passenger Train 8125, 
+Newmarket West Station, 1 July 2009  
+08-109 Passenger express  Train 9113, platform overrun resulting in signal passed at danger , 
+Fruitvale Road Station, North Auckland Line, 4 September 2008  
+07-114 Derailment caused by a wheel -bearing failure, Huntly, 19 October 2007, and 11 
+subsequent wheel -bearing failures at various locati ons during the following 12 -month 
+period  
+ 
+09-103 Passenger Train 1608, collision with slip and derailment, Tunnel 1,  
+Wairarapa Line, Maymorn, 23 July 2009 (incorporating investigation 08 -106,  
+collision with slip and derailment on the Johnsonville Line)  
+ 
+09-101 (Incorporating 08 -105) express freight train derailments owing to the failure of   
+bogie side frame s, various locations on the North Island Main Trunk ,  
+between 21 June 2008 and 7 May 2009  
+ 
+07-105 Push/pull passenger train sets overrunning platforms, various stations within the 
+Auckland suburban rail network, between 9 June 2006 and 10 April 2007  
+08-110 Train control operating irregularity, leading to potential low -speed, head -on collision, 
+Amokura, 23 September 2008  
+08-101 Express freight Train 923, level crossing collision and resultant derailment, Orari, 14 
+March 2008  
+ 
+06-111 Express freight Train 237, derailment, Utiku, 20  October 2006  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 30.00          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  
+ 
+ 

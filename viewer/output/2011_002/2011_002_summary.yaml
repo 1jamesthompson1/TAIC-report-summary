@@ -1,0 +1,66 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the accident within the provided document.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'The document does not indicate that the accident was caused by human error or assumptions made by the crew or maintenance personnel.
+
+    '
+- name: Training and Competency
+  percentage: 30
+  explanation: The accident was significantly influenced by the lack of adequate training and competency. The report states that "The training that Air Nelson gave its pilots on the alternate landing gear extension procedure did not include key information provided by Bombardier concerning the release handle forces, and there was no guidance in the QRH procedure" (5.6). Additionally, pilots were not familiar with the actual force required to release the uplock during the alternate landing gear extension procedure (4.13, 4.18).
+- name: Training and Familiarity with Equipment
+  percentage: 30
+  explanation: The accident was also influenced by the pilots' lack of familiarity with the equipment, specifically the force required to release the landing gear uplocks manually. The report indicates that "the simulator did not accurately simulate or differentiate the forces required in the aeroplane" (4.21), and "had the simulator more closely represented the actual forces required, it is likely that the first officer would have succeeded with the procedure and that the occurrence would have been avoided" (4.23).
+- name: Crew Resource Management
+  percentage: 5
+  explanation: While CRM was not a direct cause of the accident, there were opportunities for more effective communication between the pilots, and between them and other airline staff, which could have potentially influenced the outcome (4.35-4.37).
+- name: Adherence to Safety Procedures
+  percentage: 5
+  explanation: 'The report suggests that there were minor errors made in reading the QRH procedures, which did not contribute to the accident, but highlights the importance of adherence to safety procedures (4.27-4.29, 5.8).
+
+    '
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The organizational safety culture at Air Nelson may have contributed to the accident, as the report indicates that the airline's training and simulator did not accurately represent the forces required for the alternate landing gear extension, which is a reflection of the organization's approach to safety and training (4.13, 4.21, 4.23).
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The report highlights that the Minimum Equipment List provision that allowed a flight to commence without an operative nosewheel steering system was based on operational considerations only and did not consider the possibility of a related system failure (5.3). This indicates a lack of thorough risk management and analysis.
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no indication in the document that regulatory oversight and compliance were factors in the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'The document does not suggest that a lack of situational awareness contributed to the accident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that emergency response preparedness was a factor in the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 10
+  explanation: The faulty inhibit switch, which was a maintenance issue, was the initial cause of the accident, as it led to the loss of nosewheel steering and the failure of the landing gear to extend normally (5.1, 5.2).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not indicate that the use of automation was a factor in the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions and decision-making were not mentioned as contributing factors in the accident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: Although there were communication issues highlighted in the report, such as the cumbersome relaying of information between the pilots and technical staff, these did not directly contribute to the accident (4.39).
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the accident.
+
+    '

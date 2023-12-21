@@ -1,0 +1,64 @@
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: The grounding of the Rena was significantly influenced by human error and incorrect assumptions made by the crew. The second mate deviated from the passage plan to take the Rena closer to Astrolabe Reef to save time, which "unnecessarily increased the risk of the ship running aground and contributed directly to the grounding" (5.3). Additionally, the Rena grounded because the bridge crew progressively adjusted the automatic pilot to an incorrect heading without making allowance for any leeway, set, or gyrocompass error, and not monitoring the progress of the ship against the deviation directly contributed to the grounding (5.4).
+- name: Adherence to Safety Procedures
+  percentage: 25
+  explanation: The crew's failure to adhere to safety procedures and standards for navigation and watchkeeping as documented in the CIEL safety management system and the IMO Voyage Planning Guidelines was a direct contributor to the accident (5.5, 5.6). The Rena's passage plan from Napier to Tauranga did not meet the required standards, and the crew did not follow industry best practice guidelines for making and executing the passage plan on the accident voyage (5.2).
+- name: Training and Competency
+  percentage: 15
+  explanation: The training and competency of the crew, particularly the master and second mate, were called into question due to deficiencies identified in the Philippines' maritime education, training, and certification system during the period in which the crew received training. Although the Commission could not definitively link the crew's training to the accident, broader issues about the transparency of seafarer training standards under the STCW Convention were raised, which may have broader safety implications for marine transport (4.6.7, 4.6.8).
+- name: Fatigue Management
+  percentage: 10
+  explanation: Fatigue was identified as a potential factor affecting the performance of both the master and the second mate during the work period leading up to the grounding. While there was insufficient evidence to determine whether their actions leading up to the grounding were attributable to fatigue, the master's and second mate's work and sleep schedules placed them at risk of cognitive performance impairment due to fatigue (5.10, 5.11, 5.12).
+- name: Situational Awareness
+  percentage: 5
+  explanation: Loss of situational awareness was evident as the crew failed to recognize the imminent danger of collision with Astrolabe Reef. The Rena's crew did not adequately monitor and fix the ship's position as it approached the reef and the port of Tauranga, contributing to the grounding (4.3.3, 4.3.9).
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The safety culture within the organization, as reflected by the CIEL safety management system, was not effective in ensuring compliance with mandatory rules and regulations. The number of port state control deficiencies identified against the Rena and its detention indicated that the safety management system as applied on board was not meeting the objectives of the ISM Code (5.13, 5.14).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The Liberian Registry's recognition of certificates issued by the Philippines, despite independent audits finding that the Philippines' training system did not meet STCW standards, indicates a lack of regulatory oversight and compliance with international training and certification standards (4.6.30, 4.6.31).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to deficiencies in Crew Resource Management.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to a lack of training and familiarity with equipment.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to deficiencies in risk management and analysis.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to a lack of emergency response preparedness.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to deficiencies in maintenance and inspection regimes.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to issues related to the use of automation.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to weather conditions and decision-making.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to a communication breakdown.
+
+    '
+- name: Other
+  percentage: 5
+  explanation: The "Other" category includes factors such as the absence of a light beacon on Astrolabe Reef, which, if present, likely would have alerted the bridge team to the presence of the reef and prevented the grounding. However, this needs to be seen in the context of the availability of modern navigation systems and the cost versus benefits of fitting and maintaining light beacons on all such rocks and reefs (5.17). Additionally, the absence of a simple stand-alone chart plotter or a chart plotter integrated with the radar, which would have visually alerted the Rena's bridge team to the ship's proximity to Astrolabe Reef, is included in this category (5.18).

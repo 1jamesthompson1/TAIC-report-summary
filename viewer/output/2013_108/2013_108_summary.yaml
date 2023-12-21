@@ -1,0 +1,59 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the incident in the provided document.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 60
+  explanation: The driver of the passenger train "had completely missed seeing that Signal 38 was displaying red" (2.1.8) and "acknowledged that he had not seen Signal 38 displaying red" (3.1.2). This indicates a significant human error and assumption that the signal would be green as it "was almost always showing green" (3.1.2).
+- name: Training and Competency
+  percentage: 0
+  explanation: 'There is no indication in the document that inadequate training or lack of competency played a role in the incident.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The document does not suggest that a lack of training or familiarity with equipment contributed to the incident.
+
+    '
+- name: Crew Resource Management
+  percentage: 10
+  explanation: The driver was "engrossed in his conversation with the train manager" (3.1.2), which indicates a lapse in crew resource management, particularly in maintaining focus on operational duties.
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The driver and train manager were "aware that they should not have been engaging in idle conversation" (3.3.3), which shows a failure to adhere to safety procedures outlined in KiwiRail's operating rules (3.3.1).
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The incident suggests a potential issue with safety culture, as there was a history of "signals being passed at red" and "42% were partly or wholly attributable to driver distraction" (3.3.3), indicating a broader issue that may relate to organizational practices and culture.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: There was no automatic protection at Signal 38 to prevent collisions in the event of a signal overrun (4.2.1), indicating a gap in risk management and analysis.
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that non-compliance with regulations was a factor in the incident.
+
+    '
+- name: Situational Awareness
+  percentage: 10
+  explanation: The driver's failure to observe the red signal indicates a loss of situational awareness, which is a critical factor in the incident (2.1.8, 3.1.2).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: Emergency response preparedness does not appear to be a factor in the incident, as the near collision was avoided due to the signaller's actions (2.1.9).
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is no mention of equipment failure due to lack of maintenance or inspection contributing to the incident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not indicate that automation or its misuse played a role in the incident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a contributing factor to the incident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: There was no breakdown in communication that contributed to the incident; in fact, the signaller's communication helped to prevent the collision (2.1.9).

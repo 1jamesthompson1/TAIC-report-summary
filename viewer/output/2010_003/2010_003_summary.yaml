@@ -1,0 +1,62 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the incident in the provided document.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 60
+  explanation: The incident was primarily caused by human error, where the fuel-transfer tubes were improperly cleaned with a milling solution, leading to damage and fuel leaks ("The fuel leak was confirmed as being from the fuel-transfer tubes" (4.2)). Additionally, there was an assumption that the occurrence was minor, leading to a misclassification and delayed response ("by not selecting the 'major' classification option when entering the occurrence into the safety information system, the classification defaulted to 'minor'" (4.8)).
+- name: Training and Competency
+  percentage: 10
+  explanation: While the document does not explicitly mention inadequate training as a cause, it does state that aircraft maintainers were taught not to clean critical-fit anodized alloy engine parts using a milling solution ("Aircraft maintainers were taught not to clean critical-fit anodised alloy engine parts using a milling solution" (4.3)). This suggests that the error may have occurred due to a lack of adherence to training or a gap in competency.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests a lack of training or familiarity with equipment contributed to the incident.
+
+    '
+- name: Crew Resource Management
+  percentage: 5
+  explanation: The document suggests that the pilot could have made better use of available resources, such as making a distress call to ensure priority landing and alerting emergency services ("It would, therefore, have been more prudent for the pilot to make a distress call" (4.6)).
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The cleaning of the fuel-transfer tubes in a milling solution was contrary to good engineering practice and the manufacturer's approval, indicating a failure to adhere to safety procedures ("This had had the effect of removing the anodised coating and shrinking the overall dimensions of the tubes" (4.2)).
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The inability to identify the facility where the non-approved cleaning occurred suggests a potential issue with safety culture, as there was no record or accountability for the improper maintenance practice ("despite a review of maintenance records... the facility where the tubes had been removed and cleaned in a non-approved manner could not be identified" (4.2 (unvalidated and unrepairable quote))).
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: The misclassification of the incident as minor due to the data registrar not selecting the "major" classification option indicates a failure in risk management and analysis ("by not selecting the 'major' classification option when entering the occurrence into the safety information system, the classification defaulted to 'minor'" (4.8)).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no mention of a lack of regulatory oversight or non-compliance with regulations as a contributing factor to the incident.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: The pilots identified the issue with the engine performance and the smell of fuel, indicating that situational awareness was not a contributing factor to the incident ("The implications of reduced engine performance and the strong smell of fuel in the cabin were soon identified by the pilots" (4.6)).
+- name: Emergency Response Preparedness
+  percentage: 5
+  explanation: The pilot's decision not to make a distress call could indicate a lack of emergency response preparedness, as it would have ensured priority landing and alerted emergency services ("It would, therefore, have been more prudent for the pilot to make a distress call" (4.6)).
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests maintenance and inspection regimes were a contributing factor to the incident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not mention automation as a contributing factor to the incident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a factor in the incident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: While there was a reluctance to use appropriate radio phraseology, this did not contribute to the cause of the incident but rather to the response to the emergency ("The recent examples of miscommunication cited show that some pilots are reluctant to use appropriate radio phraseology" (4.7)).
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the incident.
+
+    '

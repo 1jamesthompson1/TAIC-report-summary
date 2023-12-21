@@ -1,0 +1,1040 @@
+﻿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Inquiry RO -2013 -107: express freight MP16 derailment,  
+Mercer, North Island Main Trunk, 3 September 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports shoul d be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any r ecommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Inves tigation Commission.  
+     
+ 
+ 
+ 
+ 
+Final  Report  
+Rail inquiry RO-2013 -107 
+express freight MP16 derailment  
+Mercer, North Island Main Trunk  
+3 September 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication :  February 2016  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing Commission of inquiry  
+and an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its pu rpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector and the public, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner      Helen Cull , QC  
+Deputy Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Jane Meares  
+Commissioner      Stephen Davies Howard  
+     
+Key Commission p ersonnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Peter Miskell  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16 , 80 The Terrace , PO Box 10 323 , Wellington 6143 , New Zealand  
+  
+ Important n otes 
+ 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner's 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to i ndustry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictu res 
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Location of accident  
+ 
+ 
+ 
+Legend  
+ Mercer  
+ 
+ 
+ 
+  
+  
+ 
+ 
+Source:  mapsof.net  
+ Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ ......................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ........  3 
+3.2. Site insp ection and research  ................................ ................................ ................................ ....... 4 
+ Track  ................................ ................................ ................................ ................................ ..............  4 
+ Derailed Wagon PKK321  ................................ ................................ ................................ .............  5 
+3.3. Wheel -bearings  ................................ ................................ ................................ .............................  6 
+3.4. Mainline derailments  ................................ ................................ ................................ ....................  8 
+4. Analysis  ................................ ................................ ................................ ................................ ......................  9 
+4.1. Introduction  ................................ ................................ ................................ ................................ ... 9 
+4.2. The derailment  ................................ ................................ ................................ ..............................  9 
+4.3. Wheel -bearings  ................................ ................................ ................................ ..........................  10 
+4.4. Bearing acoustic monitors  ................................ ................................ ................................ ........  12 
+5. Findings  ................................ ................................ ................................ ................................ ..................  16 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  17 
+General  ................................ ................................ ................................ ................................ ...................  17 
+Safety actions addre ssing safety issues identified during an inquiry  ................................ .................  17 
+7. Recommendations  ................................ ................................ ................................ ................................ . 18 
+General  ................................ ................................ ................................ ................................ ...................  18 
+Recommendation made to KiwiRail  ................................ ................................ ................................ ...... 18 
+8. Key lesson  ................................ ................................ ................................ ................................ ..............  19 
+Appendix 1:  Post-derailment wheel measurements for Wagon PKK321  ................................ ..................  20 
+Appendix 2:  KiwiRail wagon maintenance schedule  ................................ ................................ ...................  22 
+ 
+
+Final report RO -2013 -107 | Page i Figures  
+Figure 1  Photograph of wagon and contai ners fouling State Highway  ................................ ...................  3 
+Figure 2  Railhead markings from the derailed wagon  ................................ ................................ .............  4 
+Figure 3  Axle journal  ................................ ................................ ................................ ................................ ... 5 
+Figure 4  "Screwed" axle journal from the derailed wa gon ................................ ................................ ...... 6 
+Figure 5   Wheel -bearing components  ................................ ................................ ................................ ........  7 
+Figure 6      History of mainline derailments  ................................ ................................ ................................ .. 8 
+Figure 7  The location of RailBAM sites ................................ ................................ ................................ .... 13 
+Figure 8  Profile of rail wheel  ................................ ................................ ................................ ....................  21 
+ 
+ 
+Table  
+Table 1  Intervention action at the time of the derailment  ................................ ................................ .... 14 
+ 
+ 
+ 
+ 
+  
+Page ii | Final report RO -2013 -107 Abbreviations  
+Commission   Transport Accident Investigation Commission  
+RailBAM   railway bearing acoustic monitoring system  
+ 
+ 
+ 
+Glossary  
+dynamic braking  a braking system where the traction motors are used to provide the braking 
+force  
+event recorder  a device that records data about the operation of the locomotive controls and 
+performance in response to those controls  
+hot box  the overheating of the bearing/axle journal assembly  
+newton  metres  force multiplied by distance  
+screwed  axle journal  the catastrophic failure of a wheel -bearing  assembly and the consequential 
+separation of the wheelset from the axle jo urnal on which the bearing was fitted  
+train brake  the driver's train brake contr ol uses compressed air to apply the brakes on 
+each wagon  
+train controller  an operator within KiwiRail's national train control centre, Wellington, 
+authorising train movements and track occupations on a defined section of 
+track  
+wagon B -check  a visual inspec tion of safety -critical items performed whenever two or more 
+brake blocks are changed or after an incident  
+wagon C -check  carrying out outstanding field modifications, and defined maintenance work on 
+the braking system , and inspecting safety -critical compo nents at two -yearly 
+intervals  
+water etching  rusting with pitting and corrosion from exposure to moisture  
+   
+Final report RO -2013 -107 | Page iii Data summary  
+Vehicle  particulars  
+Train type and number:  express freight Train MP16  
+Origin /destination : Tauranga /Auckland  
+Train weight : 
+Train length:  1708 tonnes  
+688 metres  
+Operator:  KiwiRail  Limited  
+Date and time  3 September 2013 at 030 31  
+Location  609.361 kilometres North Island Main Trunk line, within 
+station limits Mercer  
+Persons involved  
+ the driver of northbound Train MP16  
+the driver of southbound Train 145  
+Injuries  nil 
+Damage  significant damage to wagons and infrastructure   
+                                                        
+1 Times in this report are New Zealand Standard Times (Co -ordinated Universal Time +12 hours) and are 
+expressed in the 24 -hour mode.  
+
+Final report RO -2013 -107 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On Tuesday 3 September 2013  an express freight train operated by KiwiRail was travelling 
+from Tauranga to Auckland.  The train consisted of a single locomotive hauling 36 wagons, 14 
+of which were conveying hazardous goods.  
+1.2. At about 0300, as the train was approaching Mercer, a wheel -bearing  on the 20th wagon 
+behind the locomotive failed, resulting in that wagon derailing  and tipping onto the adjacent 
+southbound track .  The following two wagons also derailed, one of them spilling its container 
+and contents onto the adjacent State  Highway One Expressway.  
+1.3. Nobody was injured but significant damage occurred to the derailed wagons , their  cargo  and 
+the rail infrastructure.  
+1.4. Not enough of the failed wheel -bearing could be found to make a meaningful analysis of why it 
+failed.  However, the re is some indication that previous issues with the wagon's braking 
+system were a factor contributing to the failure.  
+1.5. KiwiRail had installed a wheel -bearing acoustic monitoring system at three locations on the 
+rail network to gather data on , and detect any  signs of , pending wheel -bearing failure.   
+1.6. The Commission found  that the wheel -bearing acoustic monitoring system had detected 
+impending problems with the failed wheel -bearing.  However, because the system had yet to 
+be fully implemented and resourced , the impending failure was not acted on in time to prevent 
+the derailment.  
+1.7. The Commission noted  the poten tially serious consequences of mainline train derailments, 
+particularly in double track areas and where the rail track comes close to roads and public 
+areas.  However, it also note d the trend of decreasing mainline derailments since the 
+installation of the wheel -bearing acoustic monitoring system.  
+1.8. One recommendation  has been made to the chief  executive  of KiwiRail to improve the 
+accuracy of recording event s involving train braking system failures to provide  another 
+predictive tool for detecting and preventing premature wheel -bearing failure.  
+1.9. A key lesson  arising from the inquiry is that , in order to achieve the full benefit of new 
+technology introduced for the purpose of increasing rail safety , proper processes for applying 
+the technology must also be introduced and sufficient staff provided who are fully conversant 
+with those processes.  
+  
+
+<< Page 2 >>
+ Final report RO -2013 -107 2. Conduct of the inquiry  
+2.1. The derailment  occurred at 0303 on Tuesday 3 September 2013.  The NZ Transport Agency 
+notified the Transport Accident Investigation Commission ( Com mission) soon after the 
+derailment occurred.  The Commission opened an inquiry under section 13(1) of the Transport 
+Accident Investigation Commission Act 1990 to determine the circumstances and causes of 
+the occurrence  and appointed an investigator in charge . 
+2.2. The investigator in charge , assisted by two Commission investigators , arrived at the 
+derailment site at 1230  on 3 September .  They inspected the derai led wagons , examined the 
+track leading up to the point of derailment2 and photographed the accident site.     
+2.3. The Commission's investigators interviewed the train driver and KiwiRail's mechanical 
+engineer responsible for reviewing the output data from the railway bearing acoustic 
+monitoring system ( RailBAM )3 located at Te Puna , near Tauranga.   
+2.4. The Commission obtained records and documents from KiwiRail  that included:  
+ the  driver's train work orders and dangerous goods documentation  
+ the download data from the train's event recorder  
+ the maintenance records for the first wagon to derail  
+ the track inspection records  
+ the output data from the  RailBAM .  
+2.5. Data from the train event recorder was analysed and used to determine events leading up to 
+and including the d erailment.  
+2.6. On 28 October 20 15 the Commissioners considered a  draft report and approved it to be sent 
+to interested persons for consultation .   
+2.7. Submissions were received from two of the interested persons.  The Commission has 
+considered all submissions and any changes as a result of those submissions have been 
+included in this final report.  
+ 
+  
+                                                        
+2 The point of derailment is the place  where  the first wheel loses contact with the running rail.   
+3 RailBAM is the registered name for Trackside Intelligence's railway bearing acoustic monitoring system.  
+Final report RO -2013 -107 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  On Tuesday 3  September 2013  the train  was travelling from Tauranga to Auckland .  The train 
+consist ed of a single locomotive hauling 36 wagons , 14 of which were conveying hazardous 
+goods . 
+3.1.2.  The train had undergone the standard checks on departure from Tauranga.  No defects or 
+abnormal conditions were found . 
+3.1.3.  An Auckland -based driver took over the running of the train at Hamilton , and it departed from 
+there  at 0206 . 
+3.1.4.  Nothing untoward occurred during the trip until it was approaching Mercer .  The train was 
+travelling at about 73 kilometres per hour approaching  Mercer Station when the driver began 
+slowing the train for a 40 kilometre  per hour temporary speed restriction at the north end of 
+Mercer  Station . 
+3.1.5.  The 20th wagon behind the locomotive  derailed within  Mercer Station limits  (Wagon PKK321) .  
+The derailed wagon was dragged about 600 metres to a set of "trailing points " for the 
+crossover between the northbound and southbound tracks at the north end of Mercer.  The 
+derailed wagon and its container tipped towards the right  side, obstructing the southbound 
+track.  The following two wagons also derailed at the crossover points.  Containers separated 
+from the second wagon to derail and spilt out onto southbound State Highway One 
+Expressway , blocking one lane (see Figure 1).  
+ 
+Figure 1 
+Photograph of wagon and containers fouling State Highway One  
+(image provided by Ki wiRail)  
+3.1.6.  The train parted after the derail ed wagon struck a set of  crossover points, causing  the train 
+brakes  to apply automatically . 
+  
+
+
+<< Page 4 >>
+ Final report RO -2013 -107 3.1.7.  At about the same time , another train was  approaching Mercer on the adjacent southbound 
+line.  The derailment had tripped the track circuit for the southbound line, causing the 
+approach signal to revert to red (stop).  The driver of the southbound train saw the signal 
+change and made an emergency brake application , stopping the train before the signal.  The 
+driver of the derailed train radioed the train controller to tell him that his train had stopped 
+automatically and that he w ould walk back to inspect his train.  The train controller then 
+instructed the driver of the southbound train to remain stopped at the red signal .   
+3.1.8.  The driver of the northbound train radioed his findings to the train controller when he reached 
+the derailed wag ons, which  were about 200 metres behind the front portion of the train.  The 
+train control ler then informed him that the emergency services had already been called .  The 
+driver applied handbrakes to secure the rear of the train and then positioned himself in a safe 
+place alongside the highway to alert  road traffic to the danger ahead.  
+3.2. Site inspection  and research  
+Track  
+3.2.1.  Marks on the head of running rail  confirmed that the point of derailment was at 609.361 
+kilometres, North Island Main Trunk line , within st ation limits at Mercer (see Figure 2). 
+ 
+Figure 2 
+Railhead markings from the derailed wagon  
+3.2.2.  The track at the point of derailment consisted of 50 kilogram per  metre continuous welded rail 
+fastened to concrete sleepers that were manufactured in 1976.  The point of derailment, 
+within Mercer Station limits, was on a 1 in 882 rising gradient within a 1200 metre  radius 
+right -hand curve.   
+3.2.3.  The track evaluation car had measured and recorded the track geometry on the northbound 
+line through Mercer  on 22 August 2013, 11 days before the derailment.  The track evaluation 
+car recorded track geometry that included : the gauge, the line, the top and the cant.  The 
+recorded inf ormation was compared against defined maintenance parameters and an 
+exception report was generated to identify the location and the severity of the track geometry 
+fault.  The track evaluation car did not identify any track geometry faults leading up to the  
+point of derailment.  
+3.2.4.  The track inspector had not identified any track issues on the northbound line through Mercer 
+Station limits while he was carrying out his twice -weekly runs during August 2013.  
+
+Final report RO -2013 -107 
+<< Page 5 >>
+ 3.2.5.  A manual track geometry measure over 120 metres before an d 20 metres past the point of 
+derailment was carried out on the day of the derailment.  No track condition was found that 
+would have contributed to the derailment.  
+Derailed Wagon PKK321  
+3.2.6.  The derailed wagon  was built in 1980 and first entered service as PK1866 , which was a PK 
+wagon class  developed to carry combinations of three, six and 12 m etre long containers.  The 
+wagon had a tare weight of 13.1 tonnes and was designed to carry a maximum load of 44 
+tonnes .  
+3.2.7.  The wagon rides on two standard three -piece bogies.  Each bogie consists of two wheelsets 
+and two connecting side frames.  A wheelset assembly consists of two wheels, pressed onto 
+an axle4, and two roller bearing assemblies pressed onto the axle journal s5 (see Figure 3) .   
+ 
+Figure 3 
+Axle journal  
+3.2.8.  The w agon was conveying one 12.2 metre container.  The container and its content s weighed 
+16.6 tonnes, within its total load capacity.  
+3.2.9.  The handbrake on the derailed wagon was trailing in the direction of travel.  The bearing on 
+the left -side trailing axle of the leading bogie (referred to as the A3 bearing) had failed  (see 
+Figure 4).  The axle closest to the handbrake is axle 1 and the wh eels on the handbrake side 
+of the wagon are referred to as the A -side.  
+3.2.10.  The wagon's wheel dimensions measured after the derailment showed that they were all 
+within limits (refer to Appendix 1 for details) . 
+                                                        
+4 The axle is a circular shaft connecting two whee ls to form a wheelset.  
+5 The axle journal is the part of the axle in contact with a bearing.  
+
+
+<< Page 6 >>
+ Final report RO -2013 -107  
+Figure 4 
+"Screwed " axle journal from the derailed wagon  
+3.2.11.  Maintenance records showed that the scheduled two-yearly C-check inspections had been 
+completed on 15 March 2013, 4 July 2011, 17 July 2007, 29 December 2005 and  
+19 May 2005.  The 10 -year brake check was last carried out at  the same time as the 2011  
+C-check.  A bearing condition survey was carried out o n the wagon  on 20 May 2008 ( see 
+Appendix 2 for inspection schedule).  
+3.2.12.  The inspection record from the most recent C -check on the wagon  showed that all bearing s on 
+every wheel h ad been reported as passing the visual inspection.    
+3.2.13.  The wagon had a history of frequent brake block replacement .  The wagon maintenance 
+records showed that two or more brake blocks had been replaced on nine separate occasions 
+from 28 January 2013, n amely  19 August, 14 August, 10 July, 24 June, 19 June, 4 June, 15  
+May, 15 March and 28 January.  
+3.3. Wheel -bearings  
+3.3.1.  Tapered roller bearings are fitted to the entire fleet of KiwiRail's bogie freight wagons.  The 
+packed wheel -bearing type fitted to the axle was to Association of American Railroads Class C 
+Stan dard.  The life span of these wheel -bearing s was in most cases determined by the wear 
+limits of the wheel thickness, usually reached after about 10 years of normal running.  The 
+wheelset inspection check -sheet showed that new wheels were fitted to a new axle  at 
+KiwiRail's Hutt Workshop  on 16 December 2005.  The bearings were fitted the next day and 
+on 19 December the wheelset ( which later became  derailed wh eelset number 3) was checked 
+and certified by the team leader as compliant with the standard.   
+3.3.2.  A wheel -bearing assembly consists of an outer cup which houses two tapered roller cone 
+assemblies separated by a spacer.  Each cone assembly consists of a racew ay, rollers and a 
+cage.  Inboard and outboard seals, seal wear rings, a backing ring and an end cap complete 
+the bearing assembly.  The cup, rollers and cones are case hardened with precision finishes to 
+ensure closely matched mating surfaces.  The cage is  essentially a spacer that retains the 
+rollers in place within the cone assembly.  The entire assembly is pressed on an axle journal, 
+and is retained by an end cap secured with three cap screws fixed in place by a locking plate 
+(see Figure 5). 
+
+Final report RO -2013 -107 
+<< Page 7 >>
+  
+ 
+Figure 5  
+Wheel -bearing components  
+(source Timken  bearing parts)   
+
+
+<< Page 8 >>
+ Final report RO -2013 -107 3.4. Mainline derailments  
+3.4.1.  Fifty-five mainline derailments occurred on the rail network in the financial year end ing 30 
+June 2005.  Since then, t here has been a downward trend in the number of mainline 
+derailments recorded , with seven derailments recorded during the financial year end ing 30 
+June 2015 (see Figure 6).  On 3 July 2015  KiwiRail confirme d that since the RailBAM systems 
+were commissioned there had been one other derailment attributed to a bearing failure , which  
+had occurred on 14 February  2014 on the Main South Line .    
+ 
+Figure 6    
+ History of mainline derailments  02468101214161820
+0102030405060
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015Derailment and bearing failures 2005 -2015
+Number of derailment
+Number of bearing
+failures
+Final report RO -2013 -107 
+<< Page 9 >>
+ 4. Analysis  
+4.1. Introduction  
+4.1.1.  Mainline derailments  not only result in damage to rolling stock and rail infrastructure 
+equipment but can present significant risk to people and the environment.  Freight trains 
+travel close to major state highways, past station platforms and across some 1600 level 
+crossings on the rail network.   This accident occurred in the early hours of the morning, when 
+traffic volume on the normally congested expressway was low.  
+4.1.2.  There is an additional risk associated with double trac k areas, where a derailment on one line 
+can affect trains travelling on the adjacent line, as happened on this occasion.  
+4.1.3.  There was nothing in the way the driver was handling his train that should have caused the 
+derailment .  Nor was t here any track abnorma lity that contributed to the derailment . 
+4.1.4.  The evidence points clearly to a wheel -bearing failure resulting in a "screwed " axle journal and 
+the consequential dropping  of the bogie side  frame  onto the rail .  This sequence is described 
+in more detail in the fo llowing analysis.  
+4.1.5.  The following analysis also discusses  the safety issue with derailments in general, and the 
+processes in place to mitigate the risks of wheel -bearing  failures , which often result in a 
+derailment.   
+4.1.6.  A safety issue arising from the derailmen t was t he high incidence of brake block replacement , 
+which can contribute to premature bearing failure. T he wagon that suffered the wheel -bearing  
+failure had a higher than normal brake block replacement, yet it was not put under an 
+enhanced monitoring and inspection schedule.   
+4.2. The derailment  
+4.2.1.  Evidence from site observations showed  that the bearing journal had separated from the left -
+hand side of the number 3 axle of Wagon PKK321 as the train  approached Mercer.   The first 
+impact marks from the derailment were evident on the rail .  The train came to a stop 630 
+metres  further on . 
+4.2.2.  The bearing that failed was destroyed completely and most of the components were not 
+found.  Therefore, the evidence that may have indicated the probable cause of the failure was 
+either not available or destroyed.   
+4.2.3.  An ax le journal screwing6 off in the man ner described and shown in Figure 3 is a typical result 
+of a total bearing seizure .  Once the bearing journal is separated from the axle, the bogie side 
+frame and axle are no longer able to maintain their configuration.  The bogie side frame then 
+drop s onto the rail .  This then allows the unrestrained wheel to lift and derail.   The markings 
+on the rail at the accident site are consistent with this scenario.  
+4.2.4.  The train continued and eventually the derailed wagon turned on its side after the derailed 
+wheelset struck the north end crossover points at Mercer.  The rear of the train continued to 
+push into the derailed wagon, forcing the following two wagons to also derail.  The wagon 
+behind came to rest on the highway 6.4 metres from the track centreline.  Its two  container s 
+separated from the wagon with the extremity of one container some 8.1 metres from the 
+centre of the track .  One wheelset of the second  wagon back also derailed  but that wagon 
+remained upright . 
+4.2.5.  This derailment is an example of the potential co nsequences of a mainline derailment.  It was 
+fortuitous that the bearing failure and consequential derailment occurred when the train was 
+slowing for a 40 kilomet re per hour speed restriction.  If it had occurred at a higher speed, the 
+damage to the train, i ts cargo and the rail infrastructure would almost certainly have been 
+worse.  This would also have been the case  if the southbound train on the adjacent track had 
+                                                        
+6 The term "screwed journal" is a rail industry term that describes the failure of a wheel -bearing and the 
+consequential separation of the wheelset from the axle journal on which the bearing was fitted.  
+
+<< Page 10 >>
+ Final report RO -2013 -107 been travelling at the normal line speed.  The southbound train would be less likely to have 
+been able to stop before colliding with the derailed wagon that was obstructing its track.   
+4.2.6.  Because the derailment occurred during the early hours of the morning, the road traffic on the 
+adjacent State Highway One Expressway was relative ly light.  Wagons and containers spilling 
+onto the road pose  a significant risk to road users.  
+4.3. Wheel -bearings  
+4.3.1.  There are a number of reasons why a wheel -bearing may fail in service:  
+ inadequate lubrication  
+ inadequate overhaul standards  
+ inadequate fitting practices  
+ leaving the  bearing in service too long  
+ overheating  
+ shock loading caused by wheel flats . 
+4.3.2.  The inspection of rail bearings has traditionally been of a visual nature only.  If the bearing did 
+not show any external signs of damage or grease leakage then the internal components of the 
+bearing were assumed to be in working condition.  It was only when the wheel profile reached 
+the condemning limit , or the wagon was due  for its 10 -year check , that the bearing condition 
+was checked internally.  As a general rule however, a complete wheelset change out was 
+performed at the 10 -year check.  
+4.3.3.  The scheduled inspections of the derailed wagon had been carried out at the required 
+frequency.  Additionally, ni ne B -check inspections had been carried out on the wagon in 20 13, 
+with the most recent on 19 August 2013, 14 days before the derailment.  
+4.3.4.  Neither the pre -departure inspection of the stationary train nor the roll -by inspection of the 
+train as it departed fro m Tauranga noted any visual or audible signs of the impending bearing 
+failure.    
+4.3.5.  The bearing that failed was fitted to a new axle at KiwiRail's Hutt Workshop on 17 December 
+2005.  The bearing check -sheet showed that the package bearing  installation compli ed with 
+KiwiRail's Wheelset Manual M6000 in that:  
+ the press force to fit the bearing  of 45 tonnes  was at the maximum allowable range of 
+40 to 45 tonnes  
+ the bearing cap bolt torque7 was to the required 220 newton metres  
+ the bearing lateral end play of seve n thousandth s of an inch was within the allowable 
+range of between one and fifteen thousandth s. 
+4.3.6.  Records show that the bearing had been in  use since  mid-2006 (about seven  years)  and the 
+wagon had travelled  330,000 kilometres before the bearing failed . 
+4.3.7.  Packaged bearings are fitted as a sealed unit and do not require re -greasing while in service. 
+The normal running temperature for wheel -bearing was between 30 and 50 degrees 
+centigrade.  Generally, when a wheel -bearing assembly becomes too hot to be touche d it is 
+considered to be running over temperature and the wagon should be withdrawn from service 
+for further inspection.  A "hot box "8 will develop when the wheel -bearing is permitted to 
+operate at excessive temperatures.  If a hot box is not identified an d the wagon continues 
+                                                        
+7 Torque is a measure of the turning force applied to an object such as a bolt.  The magnitude of torque 
+depends on the force applied, the length of the lever arm and the angle between the force and the lever arm.  
+8 A hot box is the overheating of the bearing/axle journal assembly.  
+Final report RO -2013 -107 
+<< Page 11 >>
+ running, the bearing may seize and develop a "screwed journal " and then the wagon will 
+eventually derail if permitted to continue running.  
+4.3.8.  The enclosed arrangement of a packaged bearing ma kes it impossible to visually inspect its 
+internal moving parts without disassembly, which only occurred nominally every 10 ye ars 
+when a wheelset overhaul was required because the wheel profile was at condemning limits.   
+A study of overheated roller bearing data for 2008 to 2010 conducted by the Asso ciation of 
+American Railroads concluded that the following defects accounted for more than 90% of 
+confirmed overheated roller bearing failures:  
+ fatigue spalling  31.9%  
+ water etching9 25.8%  
+ mechanical damage 14.6%  
+ loose bearing  10.9%  
+ [bearing] adapter defect  4.6%  
+ wheel defect 3.7% . 
+4.3.9.  The derailed wagon had between two and eight brake blocks replaced on nine separate 
+occasions, as well as other repairs to the braking system twice in the eight  months leading up 
+to the derailment.  Only the total number of brake b locks changed on the wagon was recorded 
+when replacement was carried out.  It was therefore not possible to determine whether or not 
+the A3 brake block (failed bearing) was replaced more often than on any of the other seven 
+wheels on the wagon.  
+4.3.10.  Given the frequency of the unscheduled work required on the wagon 's brake system during 
+2013, it is surprising that the wagon was not placed on a "watch list " or removed from service 
+until the primary cause of the braking issue was determined and rectified.  KiwiRail has 
+addressed this issue with the reintroduction of a "rogue wagon " list (see section 6). 
+4.3.11.  A 2015 report by Indian Railways Rolling Stock Maintenan ce Inc. into brake binding10 stated 
+that failure s in the braking system and the operation of the braking system are the major 
+causes of brake binding that then damages the wheels and the bearings.   
+4.3.12.  As previously mentioned , not enough of the destroyed beari ng could be recovered to make a 
+meaningful analysis of what ultimately caused it to fail.  However, t he high number of brake 
+block replacements on the derailed wagon compared with other similar wagons on the train 
+raises the question of whether the conditi on of the braking system and brake block 
+replacement frequency could have been a factor contribut ing to the premature bearing failure.  
+Brake binding  can cause high wheel temperatures, which can transmit to the wheel -bearing , 
+and can also cause wheel flats , which are also known to contribute to premature wheel -
+bearing failure .  The Indian Rail ways  study concluded that there was evidence  that brake 
+binding  can contribute to premature wheel -bearing failure.  Therefore, the Commission is 
+recommending that Kiwi Rail consider recording brake block faults by wheel to provide another 
+predictive tool for preventing premature wheel -bearing failure.  
+4.3.13.  The t ime from when the first visual signs of bearing failure become evident to total bearing 
+failure can be short.  The regime of visual inspection is not therefore an effective means of 
+managing and preventing total wheel -bearing failure.  This accident  is evidence in support of  
+that hypothesis .  None of the routine or departure checks made on the wagon detected the 
+impending failure.  
+  
+                                                        
+9  Water etching is the rusting with pitting and corrosion from exposure to moisture.   
+10 Brake binding occurs whenever a brake block grips the wheel with excessive braking force, and/or  does 
+not release properly.  
+
+<< Page 12 >>
+ Final report RO -2013 -107 4.4. Bearing acoustic monitors   
+4.4.1.  The issue of a trackside detection system to reduce the risk of bearing failures was referre d to 
+in Commission report 04 -130, Express freight train derailments due to axle bearing failures, 
+various locations .  The report referred to four express freight train derailments attributed to 
+axle bearing failures between 5 November 2004 and 21 March 200 5.  Toll Rail (KiwiRail's 
+predecessor ) evaluated  at that time that the cost of installing a trackside detection system 
+outweighed the cost/risk of wheelset bearing r elated  failures.   
+4.4.2.  In 2007  the Commission investigated another mainline derailment , where a  failed wheel -
+bearing caused the  derailment of a freight train near  Huntly11.  There  were 11 subsequent 
+wheel  bearing failures at various locations over the following 12 months .  The Commission  
+issued an urgent recommendation to the chief executive of the Land Transport Safety 
+Authority (now NZ Transport Agency ) on 4 March 2008, stating in part:   
+The Commission considers it a safety issue that the New Zealand rail network is 
+not equipped with an integrated acoustic bearing monitoring system compatible 
+with current international practice.  The Commission recommends the Chief 
+Executive of Land Transport NZ urgently addresses this safety issue. (008/08)  
+4.4.3.  Work then began on planning for a network of bearing acoustic monitors.  On 12 November 
+2010  KiwiRail confirm ed the first  RailBAM system with an in-motion weighbridge had been 
+installed at Rolleston, near Christchurch .  Two other RailBAM systems were  about to be 
+installed at Te Puna , near Tauranga , and Bunnythorpe, near Palmerston North  (see Figure 7).  
+KiwiRail determined that these strategic locations had the potential to record the condition of 
+more than 90% of the wagon fleet on a regular basis.  The system relies on every wagon in 
+KiwiRail's fleet being fitted with a unique identification tag.  KiwiRail advis ed that about 65% 
+of the wagon fleet had been fitted with identification tags at that time . 
+4.4.4.  KiwiRail reported that the three RailBAM systems became fully operational from early 2012.   
+ 
+                                                        
+11 Report 07 -114, Derailment caused by a wheel -bearing failure, Huntly, 19 October 2007, and 11 
+subsequent wheel -bearing failures at various locations during the following 12-month  period.  
+Final report RO -2013 -107 
+<< Page 13 >>
+  
+Figure 7 
+The location of RailBAM sites  
+ 
+4.4.5.  The RailBAM system is a condition monitor, rather than a failure detector.  The system 
+provides data for both fault trending and an immediate alert to remove a wagon from service.  
+The system is designed to detect and rank axle bearing faults, and provide con dition 
+monitoring reports and an advance warning of potential bearing failure s, unlike a "hot box " 
+detector , which  typically gives up to 60 minutes ' warning between a fault being detectable and 
+a complete bearing failure.   
+4.4.6.  Sampled real -time data is analys ed by a computerised data acquisition and analysis unit 
+during and immediately after the train has passed the RailBAM system.  The RailBAM system 
+extracts bearing fault and wheel flat "signatures " from extraneous noise, enabling fault 
+identification and se verity classification  (refer to Table 1 below) .  The data for individual 
+bearings is stored in the RailBAM trending database.  The outputs are compared with the 
+
+
+<< Page 14 >>
+ Final report RO -2013 -107 bearing standard and an exception report is generated.  However, the acoustic measurement 
+can be affected by environmental noise that may result in either missed faults or false alarms.   
+4.4.7.  When a "Bearing severity level" of 4 is reached, an auto -email is sent  (see Table 1 below for 
+intervention action  at the tim e of this derailment) .  "Bearing severity " has a step scale where 
+RS1 (bearing running surface fault) represents the highest fault types t hroug h to RS3 for the 
+lowest  fault , and also a no fault found (NFF).  Other categories are LF ( looseness/fretting ) and  
+WHLFLT (wheel  flat).  The step scale also has prefix descriptors to reduce the confidence of 
+the fault level e.g. N OISY - unknown extraneous noise, FBS - flanging, braking or slamming , 
+or SHRK - tonal noise (r emoved before bearing analysis).  
+Table 1: Intervention action at the time of th e derailment  
+Bearing severity level  Intervention action  
+4 Auto -email sent and the wagon removed from 
+service  
+3 Analyst uses a longer data period to determine 
+whether the condition is a bearing fault or 
+random noise.  If a fault, the wagon is 
+examined at the maintenance depot and 
+corrective action taken    
+2 Noted by the analyst  
+1 Noted by the analyst  
+4.4.8.  The C-class bearings fitted to wheelsets on KiwiRail's wagon fleet had a tendency to generate 
+an "extraneous noise"  fault .  Because the system had been operating for nearly two years and 
+generated a large number of noisy bearing  faults,  none of which had resu lted in a bearing 
+failure, the condition was treated as acceptable and no further action was taken.   
+4.4.9.  The reported unknown extraneous noise on the rolling surface was mostly at level 1 only.  Had 
+the bearing severity been reported as a level "4" and sent a n auto -alert, it was likely that the 
+wagon would have been withdrawn from service and investigated for the source of noise. 
+During the early phases of commissioning the RailBAM , a sample of wagons with noisy RS1 
+faults were withdrawn for service and closer  examination.  No faults relating to  the bearing 
+noise were detected.    
+4.4.10.  KiwiRail's investigation identified loose bearing keeps as contributing to the extraneous 
+environmental noise.  On 25 February 2014 document TG -BO-113 Axle Keep Bolt Assembly 
+was revi sed and issued to all field maintenance staff to ensure proper assembly and tightened 
+to a minimum torque standard.   
+4.4.11.  Over a period of 23 days before the derailment, the Te Puna RailBAM had generated 20 fault 
+records12 for the failed wheelset A3  (which  held the bearing that eventually failed ); 15 were 
+reported as bearing severity level 2, with the other five reported as bearing severity level 1 .  
+KiwiRail took no action to remove the wagon from service for closer examination at the time .  
+KiwiRail's rat ionale was that the recordings generated a maximum bearing severity of a level 2 
+fault , and  the sampling examinations carried out during the commissioning of the system had 
+shown no history of faults of this magnitude that had resulted in a catastrophic be aring failure.  
+The high total number of bearing severity level 2 faults generated on a daily basis was such 
+that only wagons having level 3 and above bearing severity level were determined to require 
+further examination.  
+4.4.12.  At the time of the derailment , the position of a dedicated RailBAM analyst  had not been 
+created , nor was there an agreed RailBAM process that set out  the responsibilities associated 
+with the monitoring and reviewing of the RailBAM data and the actions to be taken.   Instead , 
+the data genera ted was perused by the man ager in charge of the project, who did not have the 
+time to properly  analyse the data produced by the RailBAM system.  KiwiRail has since 
+                                                        
+12 NOISY (RS1), FBS (RS1) and RS1.  
+Final report RO -2013 -107 
+<< Page 15 >>
+ addressed this issue so no recommendation has been made  in this report  (see section 6, 
+safety actions).   
+4.4.13.  Before this derailment KiwiRail's practice was to keep a wagon in service unless the evaluator 
+was sure that it had a faulty bearing.  From 28 November 2013  KiwiRail's instruction required  
+the RailBAM analyst to review the RailBAM data fr om the previous day or weekend every week 
+day.  The RailBAM analyst is required to sort, on a daily basis, data by the worst case bearings.  
+All level 3 alert faults are analysed using a longer data period.  When the analyst is able to 
+identify clear fault s, the wagon is added to the watch list and monitored on a weekly basis.  
+The wagon is immediately coded as a "Bad Order ", and an email forwarded to the 
+maintenance depot  with a description of the findings and any remedial action required.  When 
+the analys t finds random noise on a wagon, an instruction is sent to the asset maintainers to 
+inspect, investigate and undertake corrective action  (see section 6, safety actions).   Level 2 
+alerts are analysed in a similar manner.  
+4.4.14.  The fault developing in the wheel -bearing had been detected by the bearing acoustic monitor.  
+Under the procedures adopted since this derailment there is a greater likelihood that the 
+wagon would have been taken out of service for inspection and remedial work  before the 
+failure occurred , thus preventing this derailment .   
+4.4.15.  Also supporting the effectiveness of the bearing acoustic monitoring system is the number of 
+mainline derailments recorded on the national rail network  which  has trended downward from 
+55 to seven over a 10-year period, a reduction of 87%.  While not all wagons pass over a 
+RailBAM unit on a regular basis, more than 90% of the fleet does.  More importantly , the "high 
+use" wagons on unit trains such as the MetroPort fleet that shuttle between  Tauranga and 
+Auckland pass over the RailBAM daily in both directions , providing valuable information on 
+bearing condition that enables scheduling of preventative maintenance . 
+
+<< Page 16 >>
+ Final report RO -2013 -107 5. Findings  
+5.1. The derailment was caused by the failure of a wheel -bearing on th e 20 th wagon back from the 
+locomotive.  
+5.2. It could not be determined what caused the wheel -bearing to fail, but there were indications  
+that problems with the wagon's braking systems leading to an unusually high number of fused 
+brake block events led to wheel and wheel -bearing damage.  
+5.3. Mainline derailments can be high consequence accidents, particularly when they occur in 
+areas of double track , where  opposing trains are put at risk, and particularly when they occur 
+at or close to the roading system or in built -up areas.  
+5.4. The wheel-bearing acoustic monitoring system that had been installed on the rail network had 
+the potential to have detected  the pending failure of the wheel -bearing and trigger the removal 
+of the wagon from service before the bearing failed.  How ever, the system had not been fully 
+implemented and was not adequately resourced to have achieved that outcome.  This has 
+since been addressed by KiwiRail.  
+ 
+ 
+ 
+ 
+Final report RO -2013 -107 
+<< Page 17 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+6.2. On 2 July 2015 KiwiRail identified the following actions  taken to address the safety issues : 
+ creating the position of RailBAM analyst ( 30.9.13 ) 
+ formalising the process of managing the RailBAM information  (28.11.13)  
+ amending TG -BO-113 maintenance standard for axle keep bolt assembly (25.2.14)  
+ all mechanical depo ts instructed to comply with TG -BO-113 
+ changes to the bearing evaluation methodology.  Now, when assessing RS1 potential 
+faults, an instruction is sent to the maintenance depot to inspect the bearing before 
+taking the bearing out of service  
+ the instructio n for field inspection must include a visual check, completing a "rumble 
+test" in the depot, inspect ing and correct ing loose bearing keeps and inspect ing the 
+wheel surface for flat spots as a possible source of the noise generation  
+ a documented process was  created to identify steps to be taken in the event of 
+background bearing noise present that includes the creation of maintenance and "Bad 
+Order" codes to  manage the process  
+ KiwiRail has continued to work with Track I ntelligance  (provider of the RailBAM system) 
+to improve the system functionality   
+ review ing the train inspection training to ensure it adequately covers noise generated 
+by failing wagon components during the roll -by inspection.  
+ 
+ 
+  
+
+<< Page 18 >>
+ Final report RO -2013 -107 7. Recommendations  
+General  
+7.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, dep ending on 
+whether these safety issues are applicable to a single operator only or to t he wider transport 
+sector.   In this case, recom mendations have been issued to KiwiRail . 
+7.2. In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring i n the 
+future.  
+Recommendation  made to KiwiRail  
+7.3. An Indian Railways rolling stock study concluded that a failure in the braking system is the 
+major cause of brake binding that then damage s the wheels and the bearings.  The derailed 
+wagon had a higher than no rmal number of brake block s replace d during the eight months 
+leading up to the derailment  compared with other wagons on the dedicated MetroPort fleet.   
+The Commission recommends that the chief executive of KiwiRail closely monitor the 
+replacement of brake  block s on individual wagons  to provide another predictive tool for 
+preventing premature wheel -bearing failure s. (001/16 ) 
+On 31 March 2016, the Chief Executive of KiwiRail replied:  
+We accept this safety recommendation and we are in the process of 
+implement ing changes within the business to allow the completion of the 
+required actions.  In due course we will provide evidence to demonstrate that 
+the recommended actions have been implemented.  
+ 
+ 
+ 
+  
+Final report RO -2013 -107 
+<< Page 19 >>
+ 8. Key l esson  
+8.1. In order to achieve the full benefit of new technology introduced for the purpose of increasing 
+rail safety, proper processes for applying the technology must also be introduced and 
+sufficient staff provided who are fully conversant with those processes.  
+   
+
+<< Page 20 >>
+ Final report RO -2013 -107 Appendix 1 : Post-derailment wheel  measurements for Wagon PK K321   
+1. (All measurements are in millimetres): A larger X reading indicates a thinner wheel flange.  
+Wheel  Wheel "Z" 
+Solid rim 
+thickness  Wheel "X" 
+Flange 
+thickness  Wheel "X" 
+Flange 
+thickness  Wheel "Z"  
+Solid rim 
+thickness  Wheel  
+A1 46 2 20 44 B1 
+      
+A2 46 1 16 46 B2 
+      
+A3 46 6 8 44 B3 
+      
+A4 48 10 2 48 B4 
+ 
+2. The flange wear limits set out in KiwiRail's Wheelset Manual M6000 Mechanical Code states 
+in part  that:  
+ the wheel is programmed for attention at 24 millimetres  
+ attention must be given at 30 millimetres  
+ the maximum limit allowed after wheel profiling is 40 millimetres.  
+3.  The solid wheel rim limits set out in the Wheelset Manual require s that: 
+ a new solid wheel fitted to a Type 14 bogie has a Z  reading of 57 millime tres 
+ the diameters of two wheels on the same axle must not differ by more than one 
+millimetre (Z gauges are not to be used for this purpose)  
+ the diameters of wheels on the same bogie must not differ by more than 20 
+millimetres  
+ the condemning limit for a solid  wheel on a Type  14 bogie is a Z reading of 16 
+millimetres.    
+Final report RO -2013 -107 
+<< Page 21 >>
+  
+Figure 8 
+Profile of rail wheel  
+(provide d by KiwiRail)  
+  
+
+
+<< Page 22 >>
+ Final report RO -2013 -107 Appendix 2:  KiwiRail wagon maintenance schedule  
+1. The purpose of KiwRail's Mechanical Code  M2000 ( the Code) is to ensure that all rail vehicles 
+including locomotives, freight wagons and passenger rolling stock complied with both its 
+operating licence and the National Rail System Standards, as well as meeting its safety and 
+commercial expectations.  The Code defines minimum in -service parameters for reliable, 
+efficient and safe operation.    
+2. The Code set s out the inspection requirements for all freight wagons , which  included:  
+ systematic random inspections as set out in KiwiRail's M920213 
+ a B-check to M9202   
+ a C-check to M9202, every two years or brought forward if a wagon ha s been involved in 
+a collision or derailment.  
+3. A wagon B -check is a visual inspection of the safety -critical items whenever two or more brake 
+blocks are replaced or after an incident.  The inspection manual requires the following 
+bogie/suspension components to be inspected and the results recorded , including:  
+Bearing adapters:   In place, with no visual signs of damage  
+Dampers:    Secure, no excessive oil leaks  
+Bearings:  No sign of overheating, cap bolts in place, 
+backing rings secure and no excessive grease 
+leakage  
+Brake blocks:  Within wear limits.      
+4. If the wagon passes the check, a "B-check completed " is recorded in the maintenance 
+management system together with any work done.  If further work is required a "Bad Order " 
+status is recorded in KiwiRail's integrated train operating and management system.   
+5. A wagon C -check is carried out every two years.  It requires the completion of all outstanding 
+field modifications, carrying out defined maintenance work on the braking system and 
+inspecting safety -critical components.   The visual inspection of the bogie/suspension 
+components for a C-check is the same as that for a B-check.  If the wagon passes the check, a 
+"C-check completed " is recorded in the maintenance management system together with any 
+work done.    
+                                                        
+13 Mechanical Engineering Inspection Manual M9202 sets out the inspection criteria for freight wagons and 
+containers owned by KiwiRail.     
+ 
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+RO-2012 -104 Overran limit of track warrant, Parikawa, Main North line, 1 August 2012  
+RO-2013 -104 Derailment of metro passenger Train 8219 , Wellington, 20 May 2013  
+Urgent 
+Recommendations 
+RO-2015 -101 Pedestrian fatality, Morningside Drive level crossing, West Auckland, 29 January 
+2015  
+RO-2013 -105 Capital Connection  passenger train, departed Waikanae Station with mobility 
+hoist deployed 10 June 2013  
+RO-2014 -102 High -speed roll -over, empty passenger Train 5153, Westfield, South Auckland,  
+2 March 2014  
+RO-2013 -106 Track occupation irregularity, leading to near head -on collision,  Otira -Arthur's 
+Pass, 10 June 2013  
+RO-2012 -102 Train control power failure, 26 April 2012  
+Interim Report RO -
+2014 -103 Metropolitan passenger train, collision with stop block, Melling Station, 
+Wellington, 27 May 2014  
+RO-2013 -108 Near collision between 2 metro passenger trains, Wellington, 9 September 2013  
+11-106 Hi-rail vehicle nearly str uck by passenger train, Crown Road level crossing near 
+Paerata, North Island Main Trunk, 28 November 2011  
+11-102 Track occupation irregularity, leading to near head -on collision, Staircase -
+Craigieburn, 13 April 2011  
+RO-2013 -104 Urgent Recommendations: Derailment of metro passenger Train 8219,  
+Wellington, 20 May 2013  
+11-103 Track workers nearly struck by passenger train, near Paekakariki, North Island 
+Main Trunk, 25 August 2011  
+10-101 wrong route setting, high -speed transit through turnout, near miss a nd SPAD 
+(signal passed at danger), Tamaki, 13 August 2010  
+11-104 Freight Train 261 collision with bus, Beach Road level crossing, Paekakariki, 31 
+October 2011  
+10-102 collision between 2 metro passenger trains, after one struck a landslide and 
+derailed be tween Plimmerton and Pukerua Bay, North Island Main Trunk, 30 
+September 2010    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 14.00          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  
