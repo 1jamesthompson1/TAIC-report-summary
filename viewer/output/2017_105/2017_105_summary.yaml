@@ -1,0 +1,64 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: There is no evidence in the document that fatigue played a role in the accident. The toxicology results showed no impairment, and it was unlikely that the truck driver was fatigued because the work involved day shifts only, and the driver had only recently returned to work from having been on leave (4.2.11).
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: The Commission concluded that it was very likely that the truck did not stop before proceeding over the level crossing (4.1.3). Additionally, the Commission could only conclude that the driver did not consistently stop at the level crossing, with one explanation being a low expectation of encountering a train at the level crossing (4.2.13). This indicates a significant contribution of human error and assumptions to the accident.
+- name: Training and Competency
+  percentage: 0
+  explanation: There is no information provided in the document that suggests a lack of training or competency contributed to the accident. The truck driver was familiar with the route and had worked Lambert Road many times before (4.2.9).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The document does not provide any information that suggests a lack of training or familiarity with equipment contributed to the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'Crew Resource Management does not appear to be a factor in this accident, as there is no mention of crew interactions or resource management issues in the document.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The truck did not stop at the level crossing, which was protected by a compulsory stop sign (4.2.2). This indicates a lack of adherence to safety procedures, contributing to the accident.
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'There is insufficient information to determine whether organizational safety culture played a role in the accident.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'The document does not provide any information that suggests a lack of risk management and analysis contributed to the accident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: There is no indication in the document that a lack of regulatory oversight and compliance contributed to the accident. The signage and paint markings on the road were in good condition and in accordance with the railway and road authority standards (4.2.9).
+- name: Situational Awareness
+  percentage: 20
+  explanation: The sighting distance for road users of the Lambert Road level crossing did not meet the minimum standard, and it was possible that drivers of long motor vehicles that did stop at the stop sign would not have had sufficient time to clear the level crossing if a train were just out of view (5.6). This indicates that situational awareness was compromised, contributing to the accident.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests emergency response preparedness was a factor in the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 30
+  explanation: Vegetation growth on the boundary of a private property adjacent to the level crossing had grown to a height of about two meters, reducing the maximum sighting distance available to the truck driver from 423 meters to 83 meters (4.4.8). This indicates that maintenance and inspection regimes were not adequate, contributing to the accident.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not provide any information that suggests the use of automation contributed to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'There is no mention of weather conditions affecting the accident in the document.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no evidence of communication breakdown contributing to the accident in the document.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.

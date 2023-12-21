@@ -1,64 +1,66 @@
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 30
-  explanation: The accident was significantly influenced by the lack of training and preparedness of KiwiRail staff. The staff responsible for loading, securing, and inspecting the wagons were not sufficiently trained in the KiwiRail Freight Handling Code, which led to the load not being secured in accordance with the code (4.3, 4.3.2, 4.3.3, 4.3.10, 4.3.12). This lack of training directly contributed to the accident, as the load shifted outside the standard loading gauge and struck several track-side structures and another train (5.1).
-- name: Safety Culture and Organizational Influences
-  percentage: 25
-  explanation: The organizational culture and influences at KiwiRail did not ensure that safety was a priority, as evidenced by the lack of regular formal safety observations of container terminal operators and the absence of a requirement for staff to be trained in the Freight Handling Code (4.3.3). This contributed to the accident by allowing the load to be improperly secured and transported, ultimately leading to the collision (5.4).
-- name: Maintenance Procedures and Compliance
-  percentage: 15
-  explanation: The MDD class special-movement wagon used to transport the load was not furnished with the appropriate load-securing equipment, such as bond chains and edge protectors, which are part of the necessary maintenance and compliance procedures (4.4.2, 4.4.3). This lack of equipment made it impossible for staff to secure the load in compliance with the Freight Handling Code, even if they had been properly trained (5.5).
-- name: Equipment Design and Specifications
-  percentage: 10
-  explanation: The design and specifications of the equipment, specifically the special-movement wagon, were not adequate for the task of securing the load. The wagon lacked the necessary chain boxes and winches, and bond chains were not available at the container terminal, which contributed to the inability to secure the load properly (4.4.2, 4.4.3).
-- name: Human Error and Error Management
-  percentage: 10
-  explanation: Human error played a role in the accident, as the staff involved in the loading and securing of the wagon body did not comply with the Freight Handling Code due to a lack of knowledge and training. The error management systems in place were insufficient to detect and mitigate these errors before they led to the accident (4.3, 4.3.2, 4.3.3, 4.3.10).
-- name: Communication and Crew Resource Management
-  percentage: 5
-  explanation: There was a breakdown in communication and resource management, as the container terminal operator in Dunedin assumed that the lashing method used when the load entered the yard was sufficient for its departure, and this incorrect method was not communicated or corrected by the rail operators during pre-departure inspections (4.3.4, 4.3.5, 4.3.9).
-- name: Regulatory Compliance and Safety Management
-  percentage: 5
-  explanation: KiwiRail's compliance with safety management practices was inadequate, as the staff were not trained in the Freight Handling Code, which is a regulatory requirement for securing loads. This lack of compliance contributed to the improper securing of the load and the subsequent accident (4.3.2, 4.3.3).
-- name: Human Factors - Fatigue and Alertness
+- name: Fatigue Management
   percentage: 0
-  explanation: 'There is no mention in the document of fatigue or alertness issues contributing to the accident.
+  explanation: 'There is no mention of fatigue management as a contributing factor in the accident report. Insufficient information.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: Human error and assumptions played a significant role in the accident. The report indicates that the container terminal operator at Dunedin "made an assumption that the method used to lash the load when it entered the yard should be sufficient for when it left the yard" (4.3.4). Additionally, the rail operators during pre-departure inspections did not identify the non-compliance with the Freight Handling Code, possibly due to a focus on train running gear rather than load security (4.3.9).
+- name: Training and Competency
+  percentage: 30
+  explanation: The lack of training and competency among KiwiRail staff was a significant factor. The report states that "No-one involved with loading, shifting and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code" (4.3), and that the staff involved in clearing the derailment site, the container terminal operator at Dunedin, and the rail operators were not trained in the Freight Handling Code (4.3.2, 4.3.3, 4.3.5).
+- name: Training and Familiarity with Equipment
+  percentage: 10
+  explanation: The report indicates that the MDD class special-movement wagon was not furnished with the appropriate load-securing equipment, which suggests a lack of familiarity with the equipment necessary to secure the load properly (4.4.2, 4.5).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no mention of issues related to Crew Resource Management in the accident report. Insufficient information.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The accident occurred because the load was not secured in accordance with the KiwiRail Freight Handling Code, indicating a lack of adherence to safety procedures (5.1).
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The report suggests an organizational safety culture issue, as KiwiRail staff were not sufficiently familiar with the Freight Handling Code, and there was no requirement for regular formal safety observations of container terminal operators (4.3.3, 4.3.12).
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'The report does not provide specific information on risk management and analysis as a contributing factor to the accident. Insufficient information.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no mention of regulatory oversight and compliance as a contributing factor in the accident report. Insufficient information.
 
     '
 - name: Situational Awareness
   percentage: 0
-  explanation: 'The document does not provide information suggesting that a lack of situational awareness contributed to the accident.
+  explanation: 'The report does not discuss situational awareness as a contributing factor to the accident. Insufficient information.
 
     '
-- name: Distracted Operation
+- name: Emergency Response Preparedness
   percentage: 0
-  explanation: 'There is no evidence in the document that distracted operation was a factor in the accident.
+  explanation: 'The report does not discuss emergency response preparedness as a contributing factor to the accident. Insufficient information.
 
     '
-- name: Emergency Response Planning and Coordination
+- name: Maintenance and Inspection Regimes
   percentage: 0
-  explanation: 'The document does not discuss emergency response planning and coordination as a contributing factor to the accident.
+  explanation: 'The report does not discuss maintenance and inspection regimes as a contributing factor to the accident. Insufficient information.
 
     '
-- name: Fire Detection and Suppression Systems
+- name: Use of Automation
   percentage: 0
-  explanation: 'Fire detection and suppression systems were not relevant to the cause of the accident as described in the document.
+  explanation: 'The report does not discuss the use of automation as a contributing factor to the accident. Insufficient information.
 
     '
-- name: Risk Assessment and Management
+- name: Weather Conditions and Decision Making
   percentage: 0
-  explanation: 'The document does not indicate that risk assessment and management practices, or the lack thereof, were a contributing factor to the accident.
+  explanation: 'The report does not discuss weather conditions and decision making as contributing factors to the accident. Insufficient information.
 
     '
-- name: Weather Information Dissemination and Interpretation
-  percentage: 0
-  explanation: 'Weather conditions were not mentioned as a contributing factor to the accident.
-
-    '
-- name: Structural Integrity and Material Fatigue
-  percentage: 0
-  explanation: 'There is no mention of structural integrity or material fatigue issues contributing to the accident.
-
-    '
+- name: Communication Breakdown
+  percentage: 10
+  explanation: Communication breakdown is implied as a contributing factor, as the report indicates that the staff did not communicate or verify the correct load securing methods in accordance with the Freight Handling Code (4.3.2-4.3.12).
 - name: Other
   percentage: 0
-  explanation: There are no additional safety themes identified in the document that contributed to the accident.
+  explanation: There are no additional safety themes identified in the report that contributed to the accident. Insufficient information.

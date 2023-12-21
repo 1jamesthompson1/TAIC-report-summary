@@ -1,0 +1,66 @@
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: The incident was significantly influenced by human error and assumptions, particularly the incorrect power connections for the MPLS and IPMux network equipment, which "had likely existed since installation, before the network outage in 2015" (3.17, 4.4). This indicates a failure to verify the correct setup of critical systems, leading to a single point of failure when UPS A failed.
+- name: Adherence to Safety Procedures
+  percentage: 25
+  explanation: There was a lack of adherence to safety procedures, as Airways did not conduct the required maintenance checks on their aeronautical telecommunications network equipment in accordance with their preventative maintenance action procedures (3.20). This neglect directly contributed to the outage by not detecting the incorrect power connections.
+- name: Maintenance and Inspection Regimes
+  percentage: 20
+  explanation: The maintenance and inspection regimes were inadequate. Airways had intended to conduct annual UPS power outage checks but did not do so (3.19). The management's decision to defer these checks in 2018 and 2019 due to perceived risks of conducting them (3.22) resulted in the missed opportunity to identify and correct the power connection issues (3.23).
+- name: Organizational Safety Culture
+  percentage: 15
+  explanation: The organizational safety culture at Airways appears to have been deficient, as evidenced by the decision to defer essential maintenance checks due to the perceived risk of causing an outage (3.22). This indicates a culture that may have prioritized short-term operational continuity over long-term safety and reliability.
+- name: Training and Familiarity with Equipment
+  percentage: 5
+  explanation: There may have been a lack of training and familiarity with the equipment, as the incorrect power connections suggest that the technicians who installed or maintained the equipment were not fully aware of the correct configuration (3.17). However, the document does not provide explicit information on the training or competency levels of the technicians involved.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: Risk management and analysis processes were not effectively applied, as the potential risk of incorrect power connections was not adequately mitigated (3.17). The failure to conduct UPS power outage checks, despite being a defined maintenance procedure, indicates a failure in managing and analyzing the risks associated with power supply redundancy (3.21, 3.22).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the role of regulatory oversight and compliance in the incident. The document does not mention any specific regulatory failures or non-compliances that contributed to the outage.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'The document does not provide information on crew resource management issues or how they may have contributed to the incident. CRM typically involves teamwork and communication during operations, which does not appear to be directly related to the cause of the power outage.
+
+    '
+- name: Training and Competency
+  percentage: 0
+  explanation: 'There is insufficient information in the document to assess the impact of training and competency on the incident. The document does not discuss the training programs or the competency levels of the personnel involved in the maintenance or operation of the power supply systems.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'Fatigue management does not appear to be a contributing factor in this incident. The document does not mention fatigue or overwork as factors in the failure to conduct maintenance checks or the incorrect power connections.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'The document does not provide evidence that situational awareness, in the context of understanding the current environment and projecting future status, was a factor in the power outage incident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'Emergency response preparedness is not discussed as a contributing factor to the initial power outage. The document focuses on the causes leading to the loss of power rather than the response to the emergency.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The use of automation is not mentioned as a contributing factor in the document. The outage was due to power supply issues and incorrect manual connections, not the failure of automated systems.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions and decision making are not relevant to the power outage incident as described in the document. The outage was caused by technical failures and maintenance issues, not by weather-related decisions.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no indication in the document that a communication breakdown among personnel contributed to the incident. The issues stemmed from maintenance and power supply system failures.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: No additional safety themes were identified in the document that contributed to the accident. The provided themes and the information in the document sufficiently cover the factors that led to the outage.

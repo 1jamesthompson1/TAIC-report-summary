@@ -178,7 +178,7 @@ Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
 against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
-final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
  
 Ownership of report  
 This report remains the intellectual property of the Transport Accident Investigation Commission.   
@@ -186,10 +186,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 to the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Information derived from interviews during the Commission ’s inquiry into the occurrence is  not cited in 
+Information derived from interviews during the Commission 's inquiry into the occurrence is  not cited in 
 this final report.  Documents that would normally be accessible to industry participants only and not 
 discoverable under the Official Information Act 198 2 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are p ublicly available are cited.  
+documents referred to during the Commission's inquiry that are p ublicly available are cited.  
  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
@@ -255,7 +255,7 @@ Final report RO -2015 -101 | Page i Figures
 Figure 1   The fenced platform ramp at the eastern end of Morningside Station  ................................ .. 3 
 Figure 2   Plan of Morningside Station and the Morningside Dr ive level crossings (not to scale)  ........  5 
 Figure 3   A pedestrian maze  ................................ ................................ ................................ .....................  6 
-Figure 4   NZ Transport Agency’s ‘look for trains’ sign  ................................ ................................ .............  9 
+Figure 4   NZ Transport Agency's 'look for trains' sign  ................................ ................................ .............  9 
  
 Page ii | Final report RO -2015 -101 Abbreviations  
 ALCAM    Australian Level Crossing Assessment Model  
@@ -308,7 +308,7 @@ Maximum authorised train speed : 90 km/h
 Final report RO -2015 -101 
 << Page 1 >>
  1. Executive summary  
-1.1. Morningside Station in Auckland consists of an ‘island platform’ where the north bound  and 
+1.1. Morningside Station in Auckland consists of an 'island platform' where the north bound  and 
 southbound rail tracks pass either side of the platform.  At one end of the platform 
 pedestrians  have to walk down a fenced ramp to join a pedestrian level crossing , which  is part 
 of the Morningside Drive road level crossing.  At the bottom of the  platform ramp pedestrians  
@@ -365,13 +365,13 @@ Morningside Station , which included travelling over the Morningside Drive level
 level crossings to assess the various layouts and safeguards installed .  The investigator also 
 visited t hree similar island platform stations with ramps connected to pedestrian crossings 
 within the Wellington metro2 network  for the same reasons . 
-2.4. The Commission obtained recorded data from the Waitākere -bound train’s event recorder, the 
+2.4. The Commission obtained recorded data from the Waitākere -bound train's event recorder, the 
 signalling system  that showed the precise times when  the two train s travelled across the 
 Morningside Drive level crossing s, and the closed -circuit television system at Morningside 
-Station  that showed the pedestrian’s movements .  The three data streams were synchronised 
+Station  that showed the pedestrian's movements .  The three data streams were synchronised 
 and used to determine the sequence of events leading up to the accident.  
 2.5. The investigator also obta ined a number of records and documents pertaining to the  accident : 
- the train driver ’s recent performance records  
+ the train driver 's recent performance records  
  historical records for the level crossing that included the dates of previous pedestrian 
 accidents  
  lease agreements between Auckland Transport and KiwiRail New Zealand Limited 
@@ -380,8 +380,8 @@ accidents
 Drive level crossing s 
  engineering records of the warning systems i nstalled for both vehic ular and pedestrian 
 movements over the Morningside Drive level crossing s 
- the NZ Transport Agency’s Traffic Control Devices Manual  – Part 9  – Level Crossings  and 
-KiwiRail’s Operations Group Infrastructure Code Supplement /Company Procedure for level 
+ the NZ Transport Agency's Traffic Control Devices Manual  - Part 9  - Level Crossings  and 
+KiwiRail's Operations Group Infrastructure Code Supplement /Company Procedure for level 
 crossings.  
 2.6. On 27 August 2015  the Commission issued three urgent recommendations to the Chief 
 Executive of the NZ Transport Agency to address safety issues identified early in the inquiry . 
@@ -407,12 +407,12 @@ these tracks and a siding track close to the eastern end of the station platform
 crossing is protected by flashing lights, bells and barrier arms directed at road and pedestrian 
 traffic following Morningside Drive.  
 3.1.2.  The station platform transforms into a fenced p latform  ramp at its eastern  end leading down 
-to a ‘T’ intersection with one of two pedestrian level crossings for Morningside Drive.  The bells 
+to a 'T' intersection with one of two pedestrian level crossings for Morningside Drive.  The bells 
 for the Morningside Drive level crossing are audible under usual circumstances to pedestrians 
 walking down the ramp to j oin the pedestrian  level crossing.  
 3.1.3.  The flashing lights and barrier arms, however, are directed at vehicle drivers and pedestrians 
 who are following Morningside Drive.  The only visual cue warn ing pedestrians walking down 
-the platform ramp  to ‘look for trai ns’ is a yellow sign.  
+the platform ramp  to 'look for trai ns' is a yellow sign.  
 3.1.4.  At 1840 on 29 January 2015, a 24-year-old male (the pedestrian) alighted from a Britomart -
 bound  Transdev passenger train at Morningside Station platform.  
 3.1.5.  The pedestrian walked alone along the platform to the eastern -end electronic ticket register , 
@@ -444,7 +444,7 @@ pedestrian level crossing
 was facing the direction of the approaching  Waitākere -bound train.  He turned right through an 
 opening and stepped out in front of the train .  The  train struck the pedestrian at 1841:24 and 
 he was fatally injured . 
-3.1.8.  The pedestrian ’s movements were captured by  several of  the platform -mounted closed -circuit 
+3.1.8.  The pedestrian 's movements were captured by  several of  the platform -mounted closed -circuit 
 television cameras.   He was seen to be using his mobile phone while he walked  down the 
 platform  ramp and he had bud -style earphones inserted in his ears .  The earphones were 
 connected to his mobile phone.  
@@ -505,7 +505,7 @@ Figure 3
 A pedestrian maze  
 3.3. The train driver  
 3.3.1.  The train driver underwent a post -accident drug and alcohol test in accordance with 
-Transdev’s policy and procedures.  The test results were positive for cannabinoids.  Further 
+Transdev's policy and procedures.  The test results were positive for cannabinoids.  Further 
 laboratory analysis provided a positive result for cannabis.  
  
 
@@ -525,12 +525,12 @@ with infrastructure changes and increasing patronage on metro passenger trains .
 4.2. What happened  
 4.2.1.  The weather  at the time of the accident was fine and clear .  The sun was behind the 
 pedestrian after he alighted from his train , so it was very unlikely to have obscured the train 
-from the pedestrian ’s view .  There was no one else walking on the platform ramp at the time 
+from the pedestrian 's view .  There was no one else walking on the platform ramp at the time 
 and there were no fixed structures that would have totally obstructed his view of the train.  
 4.2.2.  The train had its forward -facing upper and lower headlights illuminated.  The lower headlights 
-were known as ‘ditch’ lights  and were mounted low down on each side of the driv ing trailer.  
+were known as 'ditch' lights  and were mounted low down on each side of the driv ing trailer.  
 They flash ed alternate ly for 20 seconds  whenever the train whistle was sounded  in order to 
-draw atten tion to the train’s  presence.  These lights were operational and would have been 
+draw atten tion to the train's  presence.  These lights were operational and would have been 
 flashing for the eight -second  period from when the driver first sounded the train whistle  until 
 the time of the accident.   Therefore , a clear view of the train headlights  would have been  
 available to the pedestrian had he been looking in that direction . 
@@ -564,9 +564,9 @@ could not be excluded .
 << Page 8 >>
  Final report RO -2015 -101 4.2.8.  The use of mobile devices  by pedestrians  has been found to make them less aware of hazards 
 around them. A research paper written by Marc Green (Green, M (2004) ), Inattentional 
-Blindness and Conspicuity , found that “mobile -phone -using pedestrians were less likely to 
+Blindness and Conspicuity , found that "mobile -phone -using pedestrians were less likely to 
 notice other obj ects in their environment ; they were also less likely to look for traffic  before 
-starting to cross a road  or street ”.  This finding can equally be applied to pedestrian s crossing  
+starting to cross a road  or street ".  This finding can equally be applied to pedestrian s crossing  
 a railway  track  and is very likely to have been a factor in the present case . 
 Use of performance -impairing drugs  
 4.2.9.  The driver undertook a drug and alcohol screening test  following the accident , which returned 
@@ -589,7 +589,7 @@ when he stepped out in front of the train.
 could in the time available to warn the pedestrian  that the train was 
 approaching . 
 4.3. Morningside Drive pedestrian level crossing  
-Safety issue  – There were no active visual alarms or physical barriers to prevent pedestrians 
+Safety issue  - There were no active visual alarms or physical barriers to prevent pedestrians 
 exiting the Morningside Station platform and inadvertently entering the Morningside Drive 
 pedestrian level crossing when trains approach ed. 
 4.3.1.  Morning side Station was one of 20 stations in  Auckland where the train tracks ran either side 
@@ -618,14 +618,14 @@ commonplace.  It is very likely that the pedestrian looking at, and possibly lis
 mobile phone was a factor contributing to the accident.   Transport operators need to factor  in 
 this risk when considering the protection of the travelling public.  
 4.3.6.  In this case t he only visual cue installed on the platform ramp to warn pedestrians was the 
-yellow sign warning them  to ‘look for trains’ as provided for in the NZ Transport Agency’s 
-Traffic  Control Devices Manual  – Part 9  – Level Crossings  (see Figure 4).  There were no active 
+yellow sign warning them  to 'look for trains' as provided for in the NZ Transport Agency's 
+Traffic  Control Devices Manual  - Part 9  - Level Crossings  (see Figure 4).  There were no active 
 visual warning lights or barriers installed on the platform ramp  to prevent people inadvertently 
 stepping out in front of a train . 
  
 Figure 4  
-NZ Transport Agency ’s ‘look for trains’ sign 
-4.3.7.  KiwiRail’s records show ed that there had been no accidents between trains and motor 
+NZ Transport Agency 's 'look for trains' sign 
+4.3.7.  KiwiRail's records show ed that there had been no accidents between trains and motor 
 vehicles at the Morningside Drive road level crossing since 1965, the year th e barriers were 
 installed.  Therefore , the activation of the barrier arms, together with the illuminated flashing 
 lights and audible alarms , had been an effective safeguard in preventing motor vehicles 
@@ -655,20 +655,20 @@ approaching trains.
 
 << Page 10 >>
  Final report RO -2015 -101 4.4. Responsibility for protecting pedestrians  
-Safety issue – The regulatory and operational accountabilities of the Auckland metro system 
+Safety issue - The regulatory and operational accountabilities of the Auckland metro system 
 do not expressly deal with responsibility for safety and control at the boundar ies between 
 station platforms and the rail corridor.  
 4.4.1.  During this inquiry it became apparent  that there was uncertainty about  what entity  was 
 responsib le for protecting pedestrians at the boundar ies between station platforms and the 
 rail corridor.  
-4.4.2.  KiwiRail is required to have a rail licence and an approved ‘ Safety Case5’ outlining its rail 
+4.4.2.  KiwiRail is required to have a rail licence and an approved ' Safety Case5' outlining its rail 
 activities  under the Railways Act 2005 .  KiwiRail has a resultant safety system that details 
 how it will operate safely in accordance with its Safety Case. 
 4.4.3.  KiwiRail considered that it owned and controlled all pedestrian level crossings in New Zealand, 
 including those on the Auckland and Wellington metro networks  in its Safety Case dated 1 
 August 2013 .  Pedestrian lev el crossing boundaries were recorded .  However, t he Safety Case 
 did not consider who controlled the movement of pedestrians across the boundaries.  
-4.4.4.  KiwiRail’s safety system6 was not explicit on who was responsible for, and who controlled , the 
+4.4.4.  KiwiRail's safety system6 was not explicit on who was responsible for, and who controlled , the 
 boundaries between the rail corridor and adjacent land owners, which in the case of 
 Morningside Drive was Auckland Transport.  KiwiRail explained i n a submission dated 17 June 
 2015 that it considered Auckland Transport to be  responsible for controllin g safety at the 
@@ -688,7 +688,7 @@ maintain s the electric trains.
 responsibilities and obligations in relation to safety controls at pedestrian level crossing 
 boundaries.  Consequently , the parties were  operating on differing understandings about their 
 responsibilities in relation to this issue.  
-4.4.8.  The Commission considers th ere were  differences between KiwiRail’s Safety Case and the 
+4.4.8.  The Commission considers th ere were  differences between KiwiRail's Safety Case and the 
 lease agreements that gave rise to uncertainty.  In particular, the lease agreements gave a 
 broad overview of which stakeholder held safety responsibilities for the Morningside Drive 
 level crossings, but did not expressly articulate which party (or parties) was responsible for 
@@ -714,7 +714,7 @@ in which to do this.  This will involve engaging with a number of relevant parti
 a process that will take time.  We will advise the Commission of o ur progress in 
 due course.  
 4.5. Risk assessments for pedestrian level crossings  
-Safety issue  – The level of protection for people using pedestrian level crossings in the 
+Safety issue  - The level of protection for people using pedestrian level crossings in the 
 Auckland metro network is currently  inadequate  because the risk assessment process for 
 pedestrian level  crossings is not keeping pace with the infrastructure changes and increasing 
 patronage.  
@@ -734,7 +734,7 @@ data used to make the assessment  will warrant a new risk assessment being under
 that level crossing.  
 4.5.4.  Record s also show ed that monthly passenger numbers on the Auckland network increased 
 from 300,000  in July 2005 to 1 .5 million i n March 2015 .  These figures compare closely with 
-Auckland Transport ’s forecast  increase made in the early 2000s.  Auckland Transport and 
+Auckland Transport 's forecast  increase made in the early 2000s.  Auckland Transport and 
 KiwiRail ha d undertaken the following upgr ades to the metro network  in recent years  in 
 preparation for the  planned increase in passenger numbers : 
  most of the network had been  multi -tracked  
@@ -757,7 +757,7 @@ Thursday , and to 145 on Friday s.
 << Page 12 >>
  Final report RO -2015 -101 4.5.6.  Using the Morningside Drive level crossing as an example, the first ALCAM assessment was 
 undertaken during May 2007.  The site assessment was not repeated until  December 2014, 
-seven weeks  before the accident.  During  those seven and a half  years’  significant changes 
+seven weeks  before the accident.  During  those seven and a half  years'  significant changes 
 occurr ed in the Auckland metro system  that resulted in changes to the parameters that were 
 used in making the first risk assessment.  During that same period the ALCAM database  was 
 only updated for the number of trains per day travelling over the level crossing, which was only 
@@ -767,13 +767,13 @@ with the changes affecting safety at the Morningside Drive level c rossing.
 Agency in March 2013 , stated that the pedestrian accident risk was about 10 times higher in 
 the Auckland and Wellington regions than in  the rest of the country.  The report concluded  that 
 the increased risk was due to metro systems operating in both cities.  
-4.5.8.  Auckland Transport’s d raft Regional Land Transport Plan 2015 -2025 recognised that rail 
+4.5.8.  Auckland Transport's d raft Regional Land Transport Plan 2015 -2025 recognised that rail 
 infrastructure investment was needed to addres s safety issues at level crossings .  However,  
 the report did not elaborate on the nature of those safety issues and how they would be 
 addressed.  
 4.5.9.  An example of how the changes to the rail infrastructure have potentially compromised 
-pedestrian safety is the design of existing pedestrian mazes .  The NZ Transport Agency’s 
-Traffic Control Devices Manual – Part 9  – Level Crossings  states that mazes  have been 
+pedestrian safety is the design of existing pedestrian mazes .  The NZ Transport Agency's 
+Traffic Control Devices Manual - Part 9  - Level Crossings  states that mazes  have been 
 constructed to force pedestrians to face in the direction of approaching trains before they turn 
 and cross the tracks.  With the ability for trains in the Auckland metro area to be routed in 
 either direction along bi -directional lines, trains co uld now potentially be approaching from 
@@ -790,9 +790,9 @@ work is being undertaken by a variety of rail participants and agenc ies. This w
 encompasses level crossing infrastructure, planning, funding, risk review and risk 
 mitigation.  
 4.6. Other pedestrian level crossing s 
-Safety issue – A large percentage of pedestrian level crossing s located in provincial areas do 
-not fully conform with guidelines within  the NZ Transport Agency ’s Traffic  Control Devices 
-Manual – Part 9 – Level Crossings . 
+Safety issue - A large percentage of pedestrian level crossing s located in provincial areas do 
+not fully conform with guidelines within  the NZ Transport Agency 's Traffic  Control Devices 
+Manual - Part 9 - Level Crossings . 
 4.6.1.  Three further level crossing  accidents , involving two pedestrians and a cyclist , occurred in 
 other  regions during the period  of this investigation : 
  on 6 August 2015  a pedestrian was fatally injured after being struck by a Papakura -bound 
@@ -810,21 +810,21 @@ Zealand there was an annual average of eight  fatal /serious injuries to motor v
 occupants involved in level crossing accidents .  During the same period covered in the report 
 there was an annual average of three  fatal/serious injuries to pedestrians involved in level 
 crossing accidents.  
-4.6.3.  The r eport also stated that of 605 pedestrian level crossing s on KiwiRail’s provincial network , 
-50% were located near schools  and 77% did not conform  fully with the NZ Transport Agency ’s 
-Traffic Control Devices Manual – Part 9  – Level Crossings .  The manual contains a suite of 
+4.6.3.  The r eport also stated that of 605 pedestrian level crossing s on KiwiRail's provincial network , 
+50% were located near schools  and 77% did not conform  fully with the NZ Transport Agency 's 
+Traffic Control Devices Manual - Part 9  - Level Crossings .  The manual contains a suite of 
 guidelines within the traffic control devices manual prepared by the NZ Transport Agency and 
 used by rail providers and road controlling authorities that have road and pedestrian level 
 crossings within their jurisdictions . 
 4.6.4.  However, t he NZ Transport Agency advised  that currently minor non -conformance s, for 
-example  a narrow line marking , can trigger the ‘non -compliance flag’ within the survey process 
+example  a narrow line marking , can trigger the 'non -compliance flag' within the survey process 
 and the ALCAM reports do not  explain or itemise what the specific non -compliance s might be.  
 Consequently, the nature of the non -conformances, as indicated in the 2013 ALCAM Level 
 Crossing Sta tistical Report , are not fully understood . 
 4.6.5.  Therefore , the Commission is recommend ing to the Chief Executive of the NZ Transport 
 Agency  that he liaise with KiwiRail and relevant road control ling authorities to assess and 
 confirm which provincial level crossings have significant safety issues that  do not align with  
-the NZ Transport Agency’s Traffic Control Devices  Manual – Part 9  – Level Crossings , then 
+the NZ Transport Agency's Traffic Control Devices  Manual - Part 9  - Level Crossings , then 
 work with the  authorities to  ensure safety improvements are prioritised and implemented . 
 Finding s 
 5. Uncertainty existed over which entity was responsible for controlling pedestrian 
@@ -833,9 +833,9 @@ metro network .
 6. The process for assessing risk s at pede strian level crossings  around the 
 Auckland , and to a lesser extent  the Wellington , rail corridors has not kept up 
 with the pace of change in these rail systems.  
-7. Seventy -seven  percent of pedestrian level crossings in KiwiRail’s provincial  
-network did  not conform fully  with the NZ Transport Agency ’s Traffic Control 
-Devices Manual – Part 9  – Level Crossing s.  However, the extent of  the non -
+7. Seventy -seven  percent of pedestrian level crossings in KiwiRail's provincial  
+network did  not conform fully  with the NZ Transport Agency 's Traffic Control 
+Devices Manual - Part 9  - Level Crossing s.  However, the extent of  the non -
 conformances has not been fully analysed . 
  
  
@@ -856,8 +856,8 @@ between station platforms and the rail corridor in the Auckland metro network .
 5.6. The process for assessing risk s at pedestrian level crossings  around the Auckland , and to a 
 lesser extent  the Wellington , rail corridors has not kept up with  the pace of change in these rail 
 systems.  
-5.7. Seventy -seven  percent of pedestrian level  crossings in KiwiRail’s provincial network did  not 
-conform fully  with the N Z Transport Agency’s Traffic Control Devices Manual – Part 9  – Level 
+5.7. Seventy -seven  percent of pedestrian level  crossings in KiwiRail's provincial network did  not 
+conform fully  with the N Z Transport Agency's Traffic Control Devices Manual - Part 9  - Level 
 Crossing s.  However, the extent of  the non -conformances has not been fully analysed . 
  
  
@@ -885,7 +885,7 @@ crossings
 at the Morningside Drive level crossings in conjunction with KiwiRail and the NZ Transport 
 Agency before the passenger train frequency increase on the North Auckland Line between 
 Newmarket and Swanson:  
- new level crossing ‘keep track clear ’ signage installed at the pedestrian mazes  
+ new level crossing 'keep track clear ' signage installed at the pedestrian mazes  
  vegetation cleared from around the level crossing perimeters  
  road markings upgraded on the road surface at the boundaries and over the level 
 crossing 
@@ -901,26 +901,26 @@ program me during a six -week stand -down period after the accident
  the train driver returned a negative test for cannabinoids in his system at the end of his 
 rehabilitation on 11 March 2015  
  the train driver returned to driving duties on 12 March 2015 . 
-6.3.3.  The NZ Transport Agency’s Rail Safety team conducted a review of Transdev ’s guidelines, 
+6.3.3.  The NZ Transport Agency's Rail Safety team conducted a review of Transdev 's guidelines, 
 policies and procedures pertaining to drug and alcohol use by employees  upon notification 
 that the train driver had tested positive for performance -impairing drugs .  The review 
-examined Transdev’s Safety Case and safety system documentation to ensure  that its 
+examined Transdev's Safety Case and safety system documentation to ensure  that its 
 processes were being adhered to and were fit for purpose.  
  
 
 << Page 16 >>
- Final report RO -2015 -101 6.3.4.  The NZ Transport Agency’s findings were as follows:  
- Transdev ’s independent investigation of the Morningside fatality, which included 
+ Final report RO -2015 -101 6.3.4.  The NZ Transport Agency's findings were as follows:  
+ Transdev 's independent investigation of the Morningside fatality, which included 
 discussions with staff who dealt with the train driver on the day, and the management 
-team who supervised him generally, suggested  that the train driver ’s behaviour provided 
+team who supervised him generally, suggested  that the train driver 's behaviour provided 
 no indicatio n that he had been undertaking his role while under the influence of either 
 drugs or alcohol  
  Transdev was adhering to its guidelines, policies and procedures pertaining to drug and 
 alcohol use by employees, and as outlined in its Safety Case and safety sys tem, but they 
 were not well defined or concise  
  Transdev h ad a multi -layered approach for mitigating the risk of drug and alcohol use by 
-staff performing safety -critical roles , which it believed was controlling the risk to “as low 
-as reasonably practicable” .  The proposed introduction of random testing would be a 
+staff performing safety -critical roles , which it believed was controlling the risk to "as low 
+as reasonably practicable" .  The proposed introduction of random testing would be a 
 further important layer that would act as a deterrent, and may identify staff who had not 
 come to attention for drug and alcohol use by any other means  
  Transdev did not have a system for employees t o discreetly report concerns relating to 
@@ -940,13 +940,13 @@ with notice of the recommendations issued to KiwiRail, Auckland Transport and Tr
 implemented without delay to help prevent similar accidents or in cidents occurring in the 
 future.  
 7.2. Recommendation one  
-Safety issue – There  were no active visual alarms or physical barriers to prevent pedestrians 
+Safety issue - There  were no active visual alarms or physical barriers to prevent pedestrians 
 exiting the Morningside Station platform and inadvertently entering the Morningside Drive Up 
 pedestrian level crossing when trains approached.  
 7.2.1.  The active warning lights, bells and barrier arms protecting the Morningside Drive level 
 crossing are positioned to warn vehicle drivers and pedestrians on Morningside Drive.  
 Pedestrians exiting Morningside Station platform to the south have only a yellow sign 
-reminding them to ‘look for trains’.  The platform pedestrian egress can be used by a high 
+reminding them to 'look for trains'.  The platform pedestrian egress can be used by a high 
 number of passengers during peak periods.  
 7.2.2.  There has been  one previous pedestrian fatality at the Morningside Drive leve l crossing , in 
 2002.  On 8 April 2015 the driver of a Waitākere -bound passenger train said that his train had 
@@ -993,10 +993,10 @@ gaps.
 7.2.6.  The NZ Transport Agency is currently awaiting confirmation from KiwiRail and Auckland 
 Transport that some minor outstanding work has been completed . 
 7.3. Recommendation two  
-Safety issue  – The regulatory and operational accountabilities of the Auckland metro system 
+Safety issue  - The regulatory and operational accountabilities of the Auckland metro system 
 do not expressly deal with responsibility for safety and control at the boundar ies between 
 station platforms and the rail corrido r. 
-7.3.1.  KiwiRail is required to have a rail licence and an approved ‘ Safety Case’ outlining its rail 
+7.3.1.  KiwiRail is required to have a rail licence and an approved ' Safety Case' outlining its rail 
 activities  under the Railways Act 2005 .  KiwiRail has a safety system that details how it will 
 operate safely in accordance with its Safety Case. 
 7.3.2.  Auckland Trans port is the owner of the Auckland metro passenger trains  and leases the 
@@ -1027,7 +1027,7 @@ due course.
 Final report RO -2015 -101 
 << Page 19 >>
  7.4. Recommendation three  
-Safety issue  – The level of protection for people using pedestrian level crossings in the 
+Safety issue  - The level of protection for people using pedestrian level crossings in the 
 Auckland metro network is unlikely to be adequate because the risk assessment process for 
 pedestrian level  crossings is not keeping pace with the infrastructure changes and increasing 
 patronage . 
@@ -1078,17 +1078,17 @@ recommendation.
 
 << Page 20 >>
  Final report RO -2015 -101 7.5. Recommendation four  
-Safety issue – A large percentage of pedestrian level crossings located in provincial areas do 
-not fully conform with guidelines within  the NZ Transport Agency ’s Traffic Control Devices 
-Man ual – Part 9  – Level Crossings  
-7.5.1.  There are 605 pedestrian level cross ings on KiwiRail’s provincial network outside the 
+Safety issue - A large percentage of pedestrian level crossings located in provincial areas do 
+not fully conform with guidelines within  the NZ Transport Agency 's Traffic Control Devices 
+Man ual - Part 9  - Level Crossings  
+7.5.1.  There are 605 pedestrian level cross ings on KiwiRail's provincial network outside the 
 Auckland and Wellington metro networks covered in previous sections.  Records show that 
 50% of these level crossing are located near schools and 77% of th ese level crossings do not 
 conform fully with the NZ  Transport Agency guidelines . 
 7.5.2.  On 25 August 2016  the Commission recommend ed to the Chief Executive of the NZ Transport 
 Agency that he liaise with  KiwiRail and  relevant road control ling authorities to assess and 
 confirm which provincial level crossings have significant safety issues that do not align  with 
-the NZ Transport Agency’s Traffic Control Devices Man ual – Part 9  – Level Crossings , then 
+the NZ Transport Agency's Traffic Control Devices Man ual - Part 9  - Level Crossings , then 
 work with the  authorities to  ensure that safety improvements are prioritised and implemented . 
 (018/16)  
 7.5.3.  On 8 Sept ember 2016 the National Manger, Rail Safety  of the NZ Transport Agency replied : 
@@ -1097,8 +1097,8 @@ the appropriate entities, including KiwiRail and advise them of the
 recommendation 018/16 and request that they advise the Agency of how they 
 plan to:  
 1. Review the level crossings in their areas to establish if there are safety 
-issues that need addressing – in alignment with the NZ Transport Agency’s 
-Traffic control devices manual – Part 9 – Level Crossings  
+issues that need addressing - in alignment with the NZ Transport Agency's 
+Traffic control devices manual - Part 9 - Level Crossings  
 2. Ensure safety improvements are prioritised and implemented.  
 We will ensure the Commission is kept informed of the progress made relating to 
 this recommendation.  
@@ -1130,16 +1130,16 @@ rights to the Rail Network.
 Deed of Lease, Morningside Station, between the Minister of Finance, the Minister for State -Owned 
 Enterprises and New Zealand Railways Corporation as the lessor, and Auckland Regional Transport 
 Network Limited dated 29 September 2003 . 
-KiwiRail ’s Operations Group Infrastructure Code Supplement/Company Procedure Number CSG 417 -
+KiwiRail 's Operations Group Infrastructure Code Supplement/Company Procedure Number CSG 417 -
 Q517 approved on 18 December 1997.  
-KiwiRail’s Safety Case approved by the NZ Transport Agency on 1 August 2013.  
+KiwiRail's Safety Case approved by the NZ Transport Agency on 1 August 2013.  
 Marc Green (Green, M (2004), Inattentional Blindness and Conspicuity . 
 Paul Metaxatos and P S Sriraj 2016, Pedestrian Safety at Rail Grade Crossings: Focus Areas for 
 Research and Intervention . 
 Terms of Lease incorporated by reference between the Minister of Finance, the Minister for State -
 Owned Enterprises and New Zealand Railways Corporation as the lessor, and Auckland Regional 
 Transport Network Limited dated 29 September 2003.  
-The NZ Transport Agency ’s Traffic Control Devices Manu al – Part 9  – Level Crossings effective from 
+The NZ Transport Agency 's Traffic Control Devices Manu al - Part 9  - Level Crossings effective from 
 December 2012.  
  
  
@@ -1168,7 +1168,7 @@ RO-2014 -102 High -speed roll -over, empty passenger Train 5153, Westfield, Sout
 Auckland,  
 2 March  2014  
 RO-2013 -106 Track occupation irregularity, leading to near head -on collision,  Otira -
-Arthur’s Pass, 10 June 2013  
+Arthur's Pass, 10 June 2013  
 RO-2012 -102 Train control power failure, 26 April 2012  
 Interim Report  
 RO-2014 -103 Metropolitan passenger train, collision with stop block, Melling Station, 

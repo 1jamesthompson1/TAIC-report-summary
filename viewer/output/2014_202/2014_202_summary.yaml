@@ -1,0 +1,60 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the accident in the provided document. Therefore, it is assumed that fatigue management was not a factor in this incident.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: The document does not provide evidence that human error or assumptions played a role in the failure of the wire slings. The master and boatswain conducted checks before the operation ("Before the operation commenced the master inspected the launching equipment" (3.1.8), "The master made a final check to ensure that the wire slings and davit hooks were all properly connected" (3.1.11)).
+- name: Training and Competency
+  percentage: 0
+  explanation: There is no indication in the document that a lack of training or competency among the crew contributed to the accident. The boatswain, an experienced petty officer, was operating the lifeboat davit (3.1.7).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: The document does not suggest that a lack of training or familiarity with the equipment was a contributing factor. The boatswain, who operated the davit, is described as an experienced petty officer (3.1.7).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: There is no evidence in the document to suggest that poor crew resource management contributed to the accident. The crew followed a procedure that involved communication and coordination ("the chief officer radioed the master and informed him that the crew were secured by their restraints and that the lifeboat was ready to be hoisted" (3.1.10)).
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: The document does not indicate any deviation from safety procedures that could have contributed to the accident. The master inspected the launching equipment before the operation commenced (3.1.8).
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine if organizational safety culture was a factor in the accident.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'The document does not provide information on risk management and analysis practices that could have contributed to the accident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: There is no mention of non-compliance with regulations as a contributing factor to the accident. The document outlines the requirements for launching a freefall lifeboat according to SOLAS (3.2.1).
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'The document does not suggest that a lack of situational awareness was a contributing factor to the accident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: Emergency response preparedness does not appear to be a contributing factor to the accident itself, but it was relevant to the response after the accident occurred ("A member of the port staff who had witnessed the incident requested an ambulance to be dispatched" (3.1.14)).
+- name: Maintenance and Inspection Regimes
+  percentage: 100
+  explanation: The accident was caused by the failure of the wire slings, which suggests a possible issue with the maintenance and inspection of the equipment. All four wire slings parted in quick succession, indicating that they may not have been in good working condition ("The lifeboat was just clearing railing at the stern when one of the four wire slings parted, followed immediately by the three remaining wire slings in quick succession" (3.1.12)).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention of automation being a factor in the accident within the provided document.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a contributing factor to the accident in the document.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: The document does not indicate that communication breakdown was a contributing factor to the accident. Communication between the chief officer and the master was reported ("the chief officer radioed the master and informed him that the crew were secured by their restraints and that the lifeboat was ready to be hoisted" (3.1.10)).
+- name: Other
+  percentage: 0
+  explanation: There is no need to add an "Other" safety theme as the provided document suggests that the accident was caused by the failure of the wire slings, which is covered under the "Maintenance and Inspection Regimes" safety theme.

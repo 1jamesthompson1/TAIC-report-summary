@@ -1,0 +1,1604 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Final report  AO-2013-010: Aérospatiale AS350B2 'Squirrel', ZK -IMJ,  
+collision with parked helicopter , near Mount Tyndall, Otago , 28 October 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+    
+ 
+ 
+ 
+ 
+Final  Report  
+Aviation inquiry AO-2013-010 
+ 
+Aérospatiale AS350B2 'Squirrel ', ZK-IMJ,  
+collision with parked  helicopter  
+near Mount Tyndall, Otago  
+28 October 2013  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : June 2017       
+ 
+Trans port Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a  standing commission of inquiry  and 
+an independent Crown entity .  It is  responsible for inquirin g into maritime, aviation and rail accidents 
+and incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiries is to determine the circumstances and 
+causes of  the occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The C ommission carries out its purpose by informing 
+members of the transport sector  and the public , both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     Jane Mea res 
+Deputy Chief Commissioner    Peter McKenzie , QC 
+Commissioner      Stephen Davies Howard  
+Commissioner      Richard Marchant  
+Commissioner      Paula Rose ( from May 2017)  
+ 
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Acc idents    Captain Tim Burfoot  
+Investigator in Charge     Peter R Williams  
+General Manager Legal & Business Services  Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 11, 114 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+Important notes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any proceedings with the exception of a Coroner's 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part  without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.   Documents that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1982  have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that  are public ly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commission.  
+ 
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe the degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the Intergovernmental 
+Panel on Climate Change ) Likelihood of t he 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or l ess likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ 
+The accident scene, with ZK -IMJ in  the foreground and ZK -HAE in the background  
+ 
+Location  of the acciden t 
+Contents  
+ 
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ ............................  iii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iv 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ .... 3 
+3.2. Injuries to persons  ................................ ................................ ................................ ....................  5 
+3.3. Damage to aircr aft ................................ ................................ ................................ ....................  5 
+3.4. Personnel information  ................................ ................................ ................................ ..............  6 
+3.5. Aircraft information  ................................ ................................ ................................ ...................  7 
+Weight and balance  ................................ ................................ ................................ ..................  8 
+3.6. Meteorological information  ................................ ................................ ................................ ...... 8 
+3.7. Wreckage and impact information  ................................ ................................ ...........................  9 
+3.8. Medical and pathological information  ................................ ................................ ..................  10 
+3.9. Survival aspects  ................................ ................................ ................................ .....................  10 
+3.10.  Organisational and mana gement information  ................................ ................................ ..... 11 
+3.11.  Other occurrence ................................ ................................ ................................ ....................  12 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  13 
+4.1. Introduction  ................................ ................................ ................................ ............................  13 
+4.2. The possibility of the pilot misjudging the separation  ................................ .........................  13 
+4.3. The possibility of a loss of visual refe rence  ................................ ................................ ..........  15 
+First approach  ................................ ................................ ................................ ........................  15 
+Second approach  ................................ ................................ ................................ ...................  15 
+4.4. The possibili ty of a loss of control  ................................ ................................ .........................  16 
+Helicopter defect  ................................ ................................ ................................ ....................  16 
+Performance limit  ................................ ................................ ................................ ...................  17 
+4.5. The possibility of a medical or psychological condition  ................................ .......................  18 
+Medical condition  ................................ ................................ ................................ ...................  18 
+Potential psychological condition  ................................ ................................ ..........................  19 
+4.6. Summary of potential causes  ................................ ................................ ................................  20 
+5. Safety issues  ................................ ................................ ................................ ................................ ..........  21 
+Flight -following  ................................ ................................ ................................ .......................  21 
+Disembarking while rotors are turning  ................................ ................................ .................  22 
+6. Findings  ................................ ................................ ................................ ................................ ..................  23 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  24 
+General   ................................ ................................ ................................ ................................ ................  24 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  24 
+Safety actions addressing other safety issues  ................................ ................................ .....................  24 
+8. Recommendation  ................................ ................................ ................................ ................................ ... 25 
+General   ................................ ................................ ................................ ................................ ................  25 
+Recommendation  ................................ ................................ ................................ ................................ ... 25 
+9. Key lessons  ................................ ................................ ................................ ................................ .............  26 
+10. Citations  ................................ ................................ ................................ ................................ ..................  27 
+Appendix 1: Weight and balance calculation  ................................ ................................ ...............................  28 
+Appendix 2: Ironic processes of mental control - Key points from research on unwanted outcomes  .... 29 
+References ................................ ................................ ................................ ................................ ..............  29 
+ 
+Final Report AO -2013 -010 | Page i Figures  
+Figure 1  The parked helicopter as seen on the go -around from first approac h ..............................  4 
+Figure 2  The helicopter after the accident (with de -fuelling kit alongside)  ................................ ...... 5 
+Figure 3  Typical damage to the main rotor bl ades of the parked helicopter  ................................ ... 6 
+ 
+ 
+ 
+ 
+ 
+Page ii | Final Report AO -2013 -010 Abbreviations  
+CAA Civil Aviation Authority of New Zealand  
+Commission  Transport Accident Investigation Commission  
+ELT emergency locat or transmitter  
+kg kilogram(s)  
+m metre(s)  
+the pilot  the pilot of ZK -IMJ, which collided with the parked helicopter  
+the senior pilot  the pilot of ZK -HAE, the parked helicopter  
+Final Report AO -2013 -010 | Page iii Glossary  
+airworthiness directive  a man datory instruction, issued by the CAA, to ensure the continued 
+airworthiness of an aircraft or c omponent  
+blowing snow  loose snow present after fresh snow has fallen, especially if the temperatures 
+are cold and the snow has not yet bonded . Loose snow o bscures  ground 
+reference s when rotors are in ground effect  (see below)  
+bright -out a phenomenon caused  by excessive reflection of sunlight off the snow surface, 
+resulting in a lack of depth perception, most common when the sun is high in 
+the sky and the snow is fresh  
+centre of gravity   the single point in an object through which the weight (force of gravit y) acts  
+collective lever  the control that changes the pitch angle of a helicopter's  main rotor blades by 
+the same amount and at the same time, which changes the total rotor thrust, 
+usually to effect a climb or descent  
+cyclic stick  the control that changes  the pitch angle of a helicopter's  main rotor blades at 
+the same point of their rotation cycle, which causes the rotor disc  (see below)  
+to tilt in the direction in which  the pilot has put the stick.  The helicopter then 
+moves in that direction  
+elevation   height above mean sea level  
+flare  to apply aft cyclic , which  produce s a rearward rotor thrust component that 
+slow s a helicopter  
+flight -following  the process of maintaining awareness of an aircraft's position and intentions so 
+that a timely response can be made in the event of an incident or the aircraft 
+being overdue  
+go-around  to discontinue a landing approach and re -circuit for another attempt  
+ground effect  a helicopter is 'in ground effect' when the downwash from the main rotor  
+strikes the surface and gen erates an increase in pressure, which effectively 
+creates a cushion of air that reduces the power required to hover.  The effect 
+reduces as the helicopter moves away  from the surface, with the result that 
+more power is required.  At a height equivalent to approximately half of the 
+rotor diameter, there is little  effect and the helicopter is then 'out of ground 
+effect'  
+Mayday  the internationally recognised signal sent by an aircraft or vessel that is in 
+distress and needs immediate assistance .  The call incl udes the aircraft 
+identification, its location and the assistance required  
+rotor disc    the area swept by a helicopter's  rotor blades each revolution   
+Page iv | Final Report AO -2013 -010 Data summary  
+Aircraft  particulars  
+Aircraft registration : ZK-IMJ 
+Type and serial number:  Aérospatiale A S350B2, 9057  
+Number and type of engines:  one Turbomeca 'Arriel ' 1D1 turbo -shaft  
+Year of manufacture:  2002  
+Operator:  The Helicopter Line Limited  
+Type of flight:  air transport - scenic  
+Persons on board:  seven  
+Pilot's licence:  commercial pilot licence ( helicopter)  
+Pilot's age:  52 
+Pilot's flying experience:  7,327 flight hours total, 1,454 hours on helicopter s, of 
+which  465 hours were on the A érospatiale AS350  
+Date and time  
+ 28 October 2013, 15 081 
+Location  
+ near Mount Tyndall, Otago  
+latitude:  44°33.1 ´ south  
+longitude:  168° 37.9 ´ east 
+Injuries  
+ one serious, six  minor  
+Damage  
+ destroyed  
+                                                        
+1 Times in this report are New Zealand Daylight Time ( universal co -ordinated time  + 13 hours) and expressed in the 
+24-hour format.  
+Final Report AO -2013 -010 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 28 October 2013 a party of 12 tourists was taken in two AS350 Squirrel helicopters 
+operated b y The Helicopter Line from Queenstown aerodrome to a snowfield  approximately two 
+kilometres southeast of Mount Tyndall in Otago province.  The first helicopter landed .  The 
+second helicopter  was about to land  but the pilot carried out a go -around .  During  the go-around 
+the helicopter came close to colliding with the main rotors of the parked helicopte r. 
+1.2. On the second approach  the helicopter drifted towards the parked helicopter  and its tail 
+contacted the main rotor blades  of the parked helicopter.  Th e blad es severed the lower vertical 
+stabiliser and part of the tail rotor of the airborne helicopter .  The rest of the tail rotor assembly 
+and vertical stabiliser detach ed immediately . 
+1.3. The helicopter was uncontrollable w ithout the tail rotor assembly .  It spun r apidly a number of 
+times before climbing slightly  then  crash ing about 70 metres in front of the parked helicopter .  
+The pilot received a serious injury and all of his passengers received minor injuries.  
+1.4. The Transport Accident Investigation Commission  (Com mission)  found that  blowing snow very 
+likely contribut ed to the near collision during the go -around , but it was unable to determine the 
+cause of the collision.  The Commission made findings  that excluded technical, helicopter 
+performance and other environm ental factors as causes of the collision .  The possibility that the 
+pilot misjudged his approach , causing the accident , could not be excluded .  There was no 
+evidence to suggest that the pilot  had a medical condition that contributed to the accident, but 
+that possibility c ould not be excluded . 
+1.5. The Commission identified the following  safety issue s during the inquiry:  
+ when pilots  do not inform their flight -following organisation s of change s to their route s or 
+destination s, any search and rescue action that is required c ould be delayed or 
+misdirected  
+ the widespread pr actice of allowing passengers to leave and return to a helicopter parked 
+on snow while the rotors are turning  is hazardous . 
+1.6. A recommendation  was made to the Director of Civil Aviation that he ensure  that helicopter 
+operators who conduct snow landings  address in their safety management systems the hazard 
+of passenger disembarkation  and embarkation  during snow landings while the rotors are 
+turning.  
+1.7. The key lessons  identified during the inquiry into thi s occurrence were:  
+ transport operators should  keep  formal records of concerns about operational staff and 
+how they are dealt with.  Record  keeping is consistent with the safety management 
+system goal of improving system quality  
+ pilots should ensure  that they inform  their flight -following  organisation s of any change s to 
+their operating area s or destination s. 
+ 
+
+<< Page 2 >>
+ Final Report AO -2013 -010 2. Conduct of the inquiry  
+2.1. At 1630 on 28 October 2013 t he Civil Aviation Authority (CAA) informed the Transport Accident 
+Investigation Commission (Commiss ion) of the accident.  The Commission opened an inquiry 
+that day . 
+2.2. Before  the Commission's investigators arrived on site  early in the afternoon of 29 October 
+2013 , the Commission gave permission for both helicopter s to be de-fuelled and for the cabin 
+of the  parked helicopter t o be stripped in preparation for  removal from the site.   Investigators 
+examined bo th helicopters briefly on site , ahead of a  forecast  deterioration in the weather.  The  
+helicopters  were lifted by helicopter to Wanaka  later that day.  
+2.3. Both helicopters were examined at Wanaka before the helicopter  that had been parked during 
+the collision  was returned to the operator.   The landing helicopter, ZK -IMJ, was t aken  to the 
+Commission's technical facility in Wellington .2 
+2.4. Between 29 October and 1 N ovember 2013 investigators interviewed t he operations manager 
+and chief pilot of The Helicopter Line Limited ( the operator) , the pilot of the parked helicopter, 
+and the passengers who had been  in ZK -IMJ.  Other witnesses were intervie wed by phone in 
+Novemb er 2013.  
+2.5. The pilot of ZK -IMJ was not fit to be interviewed until 4 December 2013.   Owing  to the nature of 
+his injury, t he interview was conducted in the presence of a medical rehabilitation specialist.   
+The Commission's medical consultant reviewed the pilot's medical records made before and 
+after the accident.  
+2.6. On 4 September 2014 the investigator in charge  re-interviewed the operations manager and  the 
+chief pilot. 
+2.7. The documented policies and procedures  of the operator , the training records it held for the 
+pilot and the maintenance records for the helicopter were reviewed during the investigation.  
+2.8. There were no fatalities among the passengers, all of whom were from the People's Republic of 
+China.  New Zealand was not obliged by Annex 13 , Aircraft Accident and  Incident Investigation,  
+to the Convention on International Civil Aviation to notify China of the accident.  However, the 
+New Zealand Ministry of Foreign Affairs and Trade and a Chinese consular official were 
+informed of the accident and investigation.   
+2.9. France, the State of Manufacture of the helicopter and the engine , did not formally participate 
+in the initial investigation , but an expert from the manufacturer  assist ed with a further review of 
+the wreckage on 27 January 201 6. 
+2.10.  On 14 December 2016 the Commi ssion approved a draft report for circulation to  interested 
+persons  for comment .  Written s ubmissions were received from three interested persons.   The 
+Commission considered the submissions and in May 2017 circulated an amended draft report 
+to two interest ed persons for comment . 
+2.11.  Written submissions on the amended draft report were received from both interested persons.  
+The Commission considered the submissions , and changes made as a result of those 
+submissions have been included in the final report . 
+2.12.  On 28 June 2017  the Commission approved the final report for publication . 
+ 
+                                                        
+2 Except for the landing skids , which , after inspection,  were removed for convenience  and returned to the operator.  
+Final Report AO -2013 -010 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  On Monday 28 October 2013 a Squirrel helicopter registered ZK -IMJ (the helicopter) was 
+assigned to the pilot who had the accident  later that day  (the pilot) .  At 0910 h e departed on hi s 
+first flight of the day, taking six passengers from the operator's main base at Queenstown 
+aerodrome for a 'snow landing experience' in mountains to the north.3  The flight returned to 
+Queenstown at 1012.  
+3.1.2.  At 1036 the pilot carried out  a passenger flight to Milford Sound , where the helicopter was shut 
+down for two hours.  While at Milford Sound the pilot had a light lunch.  On the return flight they 
+landed briefly in deep , fresh  snow near  the Humboldt Glacier , before arriving at  Queenstown at 
+1413.  
+3.1.3.  At 144 8 the pilot departed Queenstown  in company with another Squirrel4 to take a tour group  
+for a scenic flight and snow landing  in the Lochnagar Saddle area, south of  Mount Tyndall.  Each 
+helicopter had  six passengers .  The pilot  led the way .  At 1504 he radioed the Queenstown base 
+to say they were landing at Lochnagar Saddle .  However, the more experienced pilot (the senior 
+pilot) of the second helicopter radioed  that the snow looked better further north .  The senior 
+pilot then took the lead and flew to the expansive snowfield above Snowy Creek, also referred to 
+as the Tyndall Glacier.  
+3.1.4.  The senior  pilot said he made a shallow approach  because  he was alert to the possibility of a 
+slight tailwind and of the main rotor downwash causing 'blowing snow '.5  A video taken by a 
+front -seat passenger in the helicopter that later crashed (ZK-IMJ) (the video)  showed that  the 
+lead helicopter came to a hover  before landing , with no discernible blowing s now.  The senior 
+pilot said the wind appeared to be calm.  
+3.1.5.  The pilot of ZK -IMJ made an approach to the right of the parked helicopter .  The video  showed 
+that initially there was adequate lateral s eparation from the parked helicopter .  None of the 
+passengers spoke English as a first language, but one said that the pilot was talking to them 
+over the intercom as they approached to land , and that his voice was steady and did not 
+suggest that he had any  concern s. 
+3.1.6.  The v ideo showed that there was b lowing snow as the helicopter came within about 20 metres  
+(m) of the parked helicopter .  On the video t he visibility decrease d to the extent that detail of the 
+parked helicopter was barely visible , but a still photograph taken at the same time was much 
+clearer  (see Figure 1) .6 
+3.1.7.  Instead of landing , the pilot carried out a go-around7 and, according to the senior pilot, radioed 
+that this was because he had been  too high  on the approach .  The video showed the helicopter 
+moving towards the parked helicopter in blowing s now, then turning left to cross close ly in front 
+of it.  The senior  pilot said he rebuked  the pilot for flying too close  to his helicopter , but the pilot 
+did not reply. 
+3.1.8.  The re -circuit took about one minute.  The video record stopped when the helicopter was 
+approximately 50 m from the parked helicopter, and did not  show the collision.8  The senior 
+pilot said the helicopter  was about 10 m behind his tail  when it began moving towards him.  He 
+                                                        
+3 Times are taken from the air traffic control and Rescue Coordination Centre New Zealand logs where available; 
+otherwise they are from the operator's log . 
+4 Another A érospatiale AS350B2, serial number 3625, registered ZK -HAE.  
+5 The operator described blowing snow as "loose snow present after fresh snow has fallen, especially if the 
+temperature s were cold and the snow has not yet bonded together, obscures ground reference when rotors are in 
+ground effect ".  (The Helicopter Line, Operations Manual, section 5.26 , Snow landings affected by weather 
+phenomena .) 
+6 The still photograph had a greater pi xel count than a standard video camera.  
+7 In a go -around the pilot discontinue s a landing approach and re -circuit s for another attempt . 
+8 It was likely that the video recorder memory buffer was affected by the impact.  
+
+<< Page 4 >>
+ Final Report AO -2013 -010 saw little or no blowing snow  on the second approach , although some of the passengers said 
+they saw it .  One of them said the h elicopter was "swaying ", which made him think it was windy . 
+3.1.9.  The helicopter  continued to move towards  the parked helicopter  until its lower vertical stabiliser 
+and tail rotor hit the main rotor blades of the parked helicopter .  The tail rotor assembly and 
+vertical fin separated  from the helicopter and fell in front of and to the right of the parked 
+helicopter . 
+ 
+Figure 1 
+The p arked helicopter as seen on the go -around from first approach  
+(Still photograph  taken by a  passenger ) 
+3.1.10.  Without  a tail rotor, the helicopter  climbed slightly and spun rapidly before tipping forward .  It 
+came to rest on its right side about 70 m in front of the parked helicopter .  There was no fire.  
+3.1.11.  Because of the location t he senior pilot could not contact the Quee nstown  base directly by radio 
+to advise it of the accident.  He shut down his helicopter's engine, told his passengers to remain 
+seated and we nt to the crashed helicopter .  He shut down the engine on th e crashed helicopter  
+and provided first aid to the  passengers , but the  pilot was unresponsive . 
+3.1.12.  The senior pilot returned to his helicopter , broadcast a Mayday call9, to which there was no 
+response , and activated the emergency locator transmitter  (ELT)  for his helicopter .  The  search 
+and rescue satellite syste m detected the ELT signal at 1514 and notified the Rescue 
+Coordination Centre  New Zealand  at 1521 .  The Rescue Coordination Centre called the operator 
+at about 1523 to advise that an ELT alert had been received from the parked helicopter.  
+3.1.13.  The senior pilot , in the meantime , alternated between helping the injured and going back to his 
+helicopter to broadcast  further Mayday call s.  At about 1530 a pilot many kilometres away  
+heard one of the Mayday calls and relayed it to air traffic control.  At approximately  1555 t he 
+first rescue helicopter arrived at the s ite. 
+                                                        
+9 Mayday is the internationally recogn ised signal sent by  an aircraft or vessel that is in distress and need s 
+immediate assistance.   The call includes the aircraft identification, its location and the assistance required.  
+Final Report AO -2013 -010 
+<< Page 5 >>
+ 3.1.14.  The accident occurred in daylight at approximately 1508, on a broad snow shelf at the head of 
+Snowy Creek, south east of the Tyndall  Glacier .  The elevation (height above mean sea level ) was 
+approximatel y 2,050 m . 
+3.2. Injuries to persons  
+3.2.1.  The pilot received a severe brain injury and some minor fractures , and  was in hospital for 39 
+days .  The brain injury caused him a lengthy period of post -traumatic amnesia .  He was 
+subsequent ly unable to recall the accident and had limited recall of  the two months prior to the 
+accident.  
+3.2.2.  All of the passengers in the helicopter  were injured .  Three passengers  required hospital 
+treatment , with two of th em remain ing in hospital for two nights.  
+3.2.3.  No-one in the parked helicopter was i njured.  
+3.3. Damage to aircraft  
+3.3.1.  The helicopter  came to rest on its right side (see Figure  2).  The main rotor blades were 
+attached but had shattered from striking the snow while under power .  The tail assembly had 
+fallen about 1 5 m in front of and to the right of the parked helicopter.  The severed lower 
+vertical stabiliser was located, but the removed  section of tail rotor blade was not found.  The 
+front -left cabin door was  detached in the ground impact.  
+ 
+Figure 2 
+The helicopter after the accident (with de -fuelling kit alongside)  
+3.3.2.  The visible damage to the parked helicopter  was confined to the outermost half-metre  of each 
+of the three main rotor blades (see Figure  3).  The main rotor head and main transmission were  
+subjected to s hock loa ding when the main rotor struck the airborne helicopter , and had to be 
+replace d. 
+
+<< Page 6 >>
+ Final Report AO -2013 -010  
+ 
+Figure 3 
+Typical damage to the main rotor blades of  the parked helicopter  
+3.4. Personnel information  
+3.4.1.  The pilot  had obtained a private pilot licence (ae roplane) in 1982 and a commercial licence in 
+1984.  His flying career had primarily involved seasonal scenic flying , mainly in aeroplanes.  This 
+had included ski planes, on which he  had logged more than 1 ,100 snow landings, and float 
+planes .10  He had logge d approximately 5 ,870 aeroplane hours , with his last aeroplane flight 
+being in July 2012 .  He held a C -category aeroplane instructor rating.  
+3.4.2.  The pilot had begun  helicopter training in 1999 on the Robinson R22.  He had been  issued with 
+a private pilot licen ce (helicopter) in 2000 and a commercial pilot licence (helicopter) in 2001.  
+He had obtained a type rating for the Hughes 500 in 2001 and for the Robinson R44 and  the 
+Bell 47G in 2002 .  He had flown  helicopter s only occasionally at first and log ged no  helicopter 
+flying  between  July 2002 and May 2004.  He  had obtained a night rating in July 2005, but then  
+followed another gap in flying until October 2006 when he flew a few frost -protection flights in a 
+Robinson R44.  He  had logged no  helicopter flying betwe en November 2006 and June 2008.  
+3.4.3.  In October  2008 , when the pilot had 140 hours of helicopter experience,  he had been  hired by a 
+scenic flying  company in Rotorua to fly a Robinson R44 .  The company had given  him 3.5 hours 
+of dual instruction and 5.7 hours of  command under supervision before allowing him to be a  
+pilot in command.  He had obtain ed an AS350  Squirrel type rating with that company  in 
+November 2011 .  During  the next 10 months  he had flown  the Squirrel and the R44 
+intermitte ntly, as well as a float plane . 
+3.4.4.  In September 2012 , when he had accrued approximately 1 ,050 hours of helicopter time,  The 
+Helicopter Line had hired him as a full-time Squirrel pilot .  He had flown  6.8 hours under  
+training  before being  approved  to act as a pilot  in command .  His tra ining had included 2.65 
+                                                        
+10 The first entry in the only logbook of aeroplane flying made available  had been  in May 2005, by which time  the 
+pilot had accrued 5 ,000 hours.  
+Final Report AO -2013 -010 
+<< Page 7 >>
+ hours of  mountain flying instruction.   The record of h is final route check  noted that he had 
+performed  "multiple landings in challenging  blowing snow and flat light conditions ". 
+3.4.5.  Although the pilot had had experience  in ski-plane operations, the operator's policy  had 
+required him to be based on the West Coast of the South Island to gain more experience of 
+helicopter operations on snow .  The operator's record s indicated that his training progress had 
+been  satisfactory .  According to th e operator, the pilot 's colleagues generally thought him to be 
+a steady  pilot with "solid  skill and judg ement ". 
+3.4.6.  In February 2013 the pilot had returned to the Queenstown base and been  upgraded to B 
+category in the internal competency scheme  then in use by the operator . The B category 
+permitted a pilot t o use any landing site, although all flying remained under the supervision of a 
+Lead Pilot . 
+3.4.7.  The pilot's total helicopter experience at the date of the accident was 1 ,454 hours, of which 
+465 hours had been  on the Squirrel.   His logbook  showed that he had landed many times in  the 
+Lochnagar Saddle area, but record ed only one  landing at the Tyndall Glacier.  
+3.4.8.  The operator's chief pilot said that in August 2013 fellow pilots had expressed  concern that the 
+pilot had  misjudg ed his separation from another helicopter while on a photographic flight , and 
+that he had made a landing approach that was unnecessarily fast .  The chief pilot said that he 
+had responded by  brief ing the pilot  on general flying standards, but he had not formally 
+record ed the concerns or the action taken . 
+3.4.9.  The chief pilot had been  an observer on  the pilot's next flight crew competency check flight , 
+conducted on 22 August 2013 .  The pilot had passed the check , but the chief pilot had 
+remained concerned th at the pilot, like some other pilots at the time, had let his standard s slip 
+and was display ing a degree of complacency . 
+3.4.10.  Subsequently  the pilot had flown  a snow experience flight  in the company of the chief pilot in a 
+second Squirrel .  The chief pilot said  that he "could find no fault with [the pilot's] flying or 
+airmanship " on that occasion.   As a result , and after favourable comments from  other s about  
+the pilot's flying standard , the chief pilot  had considered that the previous  specific performance  
+issues  had been rectified . 
+3.4.11.  The counselling by way of the briefing from the chief pilot and the monitoring by way of the 
+observed check flight were not recorded in the pilot's personal file.  T he operator had no other 
+record of the pilot  having receiv ed counselli ng or needing specific retraining.   The chief pilot 
+said that it was not unusual  for operational or management issue s that arose  with pilots to be 
+dealt with and not recorded, but he agreed later that  the concerns and the action taken  in this 
+case  ought to have been recorded.  
+3.4.12.  The pilot and his family and associates considered him to be very healthy, fit and active , and 
+with no known concerns .  The night before the accident he had gone to bed before 2130.   
+Those who saw him on the day of the accident said he  had appeared fit to fly.  
+3.4.13.  The senior pilot of the parked helicopter had been employed by the operator for more than 20 
+years and had more than 10,6 00 hours of helicopter experience.  He was the Lead Pilot at the 
+Queenstown base and had authorised the fligh ts that ended with the accident.  He was very 
+familiar with the snowfield  used.  He s aid he had chosen his landing site so that the pilot of the 
+second helicopter would have ampl e room to choose his own, suitab le landing site . 
+3.5. Aircraft information  
+3.5.1.  The Aéro spatiale11 AS350B2 Squirrel helicopter was a higher -gross -weight version of the 
+original model designed and manufactured in France in 1974.  It was certified to carry a pilot 
+and up to five passengers, but a supplemental type certificate was later approved that allowed 
+                                                        
+11 The company was later named Eurocopter, and at the time of this report was known as Airbus Helicopters . 
+
+<< Page 8 >>
+ Final Report AO -2013 -010 the replacement of the single passenger seat next to the pilot with a two -place seat.  The six -
+passenger configuration was widely used for air transport flights.  
+3.5.2.  The helicopter had been  imported from Australia , on lease to the operator , and entered into the 
+New Zealand aircraft register on 26 August 2013.   An airworthiness certificate  in the standard 
+category had been  issued on 30 August 2013 .  The certificate was non -terminating as long as 
+the helicopter was maintained and operated in accordan ce with Civil Aviation Rules .  The 
+helicopter had been  maintained in accord ance with  the approved maintenance programme .  
+There had been n o recorded maintenance defects since 16 September 2013.  
+3.5.3.  The helicopter had flown 3 7 hours since it was imported, and h ad accrued 3,055. 2 hours at the 
+time of the accident .  The next scheduled maintenance was a 100 -hour check due at 3 ,118.4 
+hours.  
+3.5.4.  The Turbom eca 'Arriel ' 1D1 turbo -shaft engine had accrued 3 ,338.15 total hours  at the time of 
+the accident . 
+3.5.5.  The helicopter was equipped with a Garmin GNS  430 satellite navigation system, a model that 
+did not store recoverable data.  
+3.5.6.  The helicopter was equipped with a Kannad 406  AF-H model ELT, appropriate to helicopter 
+installation.  The ELT had been inspected and tested in accorda nce with the applicable 
+requirements in August 2013, but it did not activate during the accident . 
+3.5.7.  The helicopter was not fitted, and was not required to be f itted, with a flight recorder.  
+Weight and balance  
+3.5.8.  The operator had standard loading plans for its scenic flights .  Its operational documentation12 
+stated that if passengers were seated in accordance with a standard plan, the helicopter would 
+comply with the limitations for all -up weight and centre of gravity position.13 
+3.5.9.  The standard loading plan used a st andard weight of 80 kilograms (kg) for each passenger.  
+That weight, which had been determined by the operator after conducting a CAA -approved 
+survey, avoided the need  to weigh each passenger.  
+3.5.10.  The operator had a computer program that could be used to  calcu late the weight and centre of 
+gravity position of a loaded helicopter .  The program displayed pictorially the centre of gravity 
+position with reference to the allowable range of centre of gravity positions and would generate 
+an alert if a weight limit w ere breached.  
+3.5.11.  The operator's procedures14 stated that a  weight and balance calculation was not required for 
+any flight that was loaded in compliance with a standard loading plan.  The accident flight was 
+loaded in compliance with a standard plan for scenic fli ghts.  
+3.5.12.  The procedures also stated that p ilots were not required to calculate separately the helicopter's 
+weight and balance if a standard loading plan were  used and the passengers were seated 
+according to the plan . 
+3.6. Meteorological information  
+3.6.1.  The accident occurred on the first fine day after two days of heavy snow fall.  The passenger 
+video confirmed the excellent flying conditions . 
+3.6.2.  There was no cloud and li ttle or no wind  at the time of the accident .  The senior pilot said that 
+the wind rose to between five a nd eight knots from the south while they waited for rescue.  The 
+                                                        
+12 The Helicopter Line Operations Manual, 9.1 , Passenger weights and passenger loading; and form Ops 30 B2.  
+13 The centre of gravity is the single point in an object through which the weight (force of gravity) acts.  
+14 The Helicopter Line Operations Manual, 9. 2, Weight & Balance Calculations & Passenger Manifests.  
+Final Report AO -2013 -010 
+<< Page 9 >>
+ pilots of the rescue helicopters said that th e wind was  not more than a slight breeze .  They said 
+the temperature was between zero and plus  five degrees Celsius , and the air pressure 1 ,013 
+hectopascals . 
+3.6.3.  The helicopters approached the landing site on a northerly heading , which put the sun high and 
+to the left of the approach direction . 
+3.7. Wreckage and impact information  
+3.7.1.  The accident occurred on a large snowfield above Snowy Creek, at an elevation of 2,050 m  on 
+the south side of Mount Tyndall.   The field had unobstructed approaches from the southeast , 
+and sloped down from right to left  when viewed from the approach direction used . 
+3.7.2.  The geometry of the collision was estimated from the senior pilot's r ecollection and by 
+measuring the angles at which the helicopter's lower vertical fin and one tail rotor blade had 
+been severed.  As the landing skids, the lowest part of the helicopter, were not struck by the 
+main rotor of the parked helicopter, the helico pter must have been to the front right of the 
+parked helicopter at the instant of collision.  
+3.7.3.  The helicopter came to rest on its right side approximately 70 m in front  of the parked 
+helicopter , heading 90 degrees  left of the approach direction.  
+3.7.4.  The cabin wa s intact, although some seat squabs had been removed and used to support the 
+occupants while they waited for rescue.  The buckling of the passenger bench seat supports 
+and a ground scar from a main rotor blade strike indicated that the helicopter had hit heavily on 
+its left side before it  rolled o n to its right side .  The windscreen right pillar was broken near the 
+grab handle used by pilots when getting into and  out of their seat.  
+3.7.5.  The senior pil ot had turned off the battery and fuel  when he first got to th e helicopter .  The 
+hydraulic switch on the collective lever15 was in the guarded (on) position, as was normal.  
+3.7.6.  Two of the three main rotor blades were visible; the third was buried in the snow.  The main 
+rotor head was shattered  and the blades buckled , whic h indicated that the engine had been 
+delivering high power when the rotor blades hit the snow.  
+3.7.7.  The engine compressor and turbine showed evidence of having been operating at impact.  The 
+power -demand anticipator  for the fuel control unit , which was cable  driven by collective lever 
+movement, operat ed correctly.  
+3.7.8.  The circumstances of the accident and the damage to the main and tail rotors provided clear 
+evidence that the engine had been delivering high power prior to the collision . So the engine 
+was not examine d further.  The helicopter manufacturer  agreed with that reasoning.  
+3.7.9.  The tail boom was almost completely severed where it attached to the cabin.  The horizontal 
+stabilisers were largely undamaged , except the left stabiliser had a tear and bend that had very 
+likely  been  caused by a main rotor blade.  
+3.7.10.  At Wanaka, the correct movement of the main rotor flight controls was confirmed from the 
+pilot's seat to the swash plate.  The tail rotor drive was continuous from the transmission to the 
+point where the tail boom  separated.  The tail rotor drive shaft aft of the break showed evidence 
+of having been under power when it broke.  The tail rotor drive was thereafter continuous to the 
+point where the tail rotor assembly had detached.  The continuity and correct movement  of the 
+yaw pedals were  shown, allowing for the break in the tai l boom.   The t ail rotor pitch change 
+movement was correct.  
+3.7.11.  There was no leakage  of fluid from any component of the hydraulic system that powered the 
+flight controls .  The hydraulic pump drive belt was in good condition and the pump turned .  The 
+                                                        
+15 Collective lever is  the control that changes the pitch angle of a helicopter's main rotor blades by the same 
+amount and at the same time, which changes the total rotor thrust, usually to effect a climb or descent.  
+
+<< Page 10 >>
+ Final Report AO -2013 -010 hydraulic system filter bypass indicator was not 'popped', indicating that the filter was not 
+blocked.  All visible damage was assessed as being a result of the crash.  
+3.7.12.  While the wreckage was at Wanaka, t he warning and caution annunciator panel and the Garmin 
+GNS 430 integrated communications, navigation and GPS receiver were removed from the 
+instrument panel for further examination.   No useful information was obtained from this.  
+3.7.13.  The visible damage to the parked helicopter was confined to the outermost half -metre  of each 
+main rotor blade.  However, later examination determined that the main transmission and mast 
+needed replacement.  
+3.8. Medical and pathological information  
+3.8.1.  The pilot  had most recently completed a n examination for a CAA medical certificate  on 5 
+September 2013.  The issued certificate included a require ment that he have half -spectacles 
+readily available  for near -vision  correction . 
+3.8.2.  The pilot had informed the  CAA medical examiners that he took medicat ion for occasional 
+severe hay fever , but he was reportedly not affected by it on the day of the accident .  Although a 
+very low level of a non-sedative hay fever medication16 was detected in a blood sample taken 
+after the accident , medical opinion17 was that the medicine would have been t aken more than 
+24 hours before  the accident  and that the pilot was very unlikely to have been affected by any 
+potentially adverse side  effect s. 
+3.8.3.  The operator had a drugs and alcohol policy that permitted random testing, and post-incident 
+testing of staff with their consent .  The pilot had passed a random test in June 2013.  An 
+analysis of blood and urine samples taken when the pilot was admitted to hospital did not 
+detect any alcohol  or illicit drugs.18 
+3.8.4.  The Commission's medical c onsultant19 reviewed the notes held by the pilot's general 
+practitioner at the time of the accident and assessed them as containing nothing of potential 
+relevan ce to the accident .  The consultant also reviewed the hospital records pertaining to the 
+injuries  the pilot received and his treatment . 
+3.9. Survival aspects  
+3.9.1.  The passengers  were from China and  only a few of them underst ood English.  The operator's 
+staff had given  the passengers a pre-flight safety briefing in English, supplemented with briefing 
+cards writt en in Chinese .  However, some passengers said that they still had not underst ood the 
+briefing .  The Commission has recognised previously the difficulty for transport operators of 
+ensuring that non -English -speaking passengers receive meaningful pre -trip saf ety briefings.20 
+3.9.2.  The safety briefing that was given  included information on the survival and emergency 
+equipment carried on board, which was sufficient to supp ort seven people for 72 hours . 
+3.9.3.  The first passenger to escape after the crash said that her seat be lt had been  adjusted tightly 
+and was hard to undo  with the helicopter on its side.  She could not free the pilot, whose belt 
+was too tight .  In helping the others out, she noted t hat the ir seat belts  were loosely fastened.   It 
+was not determined whether so me passengers had had loose seat belts from the start of the 
+flight or they had loosened  them  subsequently . 
+3.9.4.  The senior pilot  was concerned that his own passengers should remain protected i n his 
+helicopter  until he had assessed the situation .  He asked if any of them had first aid training, 
+                                                        
+16 Levrix brand.  
+17 That of the pathologist and the Commission' s medical consultant.  
+18 The analysis considered that drugs would have been administered to the pilot after the accident.  
+19 Dr Rob Griffiths MB, ChB(Hons), FAFPHM, FAFOM, MMP, DIH, DipAvMed, FFOM(RCP), FACASM, FACOEM . 
+20 Commission report 2008 -207, Commercia l jet boat Kawarau Jet No. 6, roll -over, confluence of the Kawarau and 
+Shotover Rivers, 25 September 2008 . 
+Final Report AO -2013 -010 
+<< Page 11 >>
+ but he was not understood.  None of his passengers was involved in helping the injured.   The 
+first aid kits and survival packs from both helicopters were used as required.  
+3.9.5.  The R escue Coordination Centre  was alerted  to the  accident at 1521 .21  No ELT signal was 
+received from the crashed helicopter.22  An aircraft maintenance engineer who arrived on site 
+while the rescue was underway said the ELT remote control switch in the cockpit of the crashed 
+helicopter was in the 'armed ' position, but the indicator light was not flashing , which meant t hat 
+no signal  was be ing transm itted.  The engineer  moved the remote switch to ' on', saw the light 
+flash and then left the switch  armed . 
+3.9.6.  Later testing showed that the six -axis activation swit ch was satisfactory, but there was no output 
+on the primary frequency of 406 megahertz.  The cause of this was not determined.  The output 
+of the secondary frequency of 121.5 megahertz was satisfactory.  
+3.9.7.  The operator provided flight -following23 with its  trained staff at the Queenstown base, but the 
+accident was in an area with poor  radio contact .  Thirty minutes without communication was 
+allowed before th e Overdue Aircraft procedure  was to be initiated.  That limit was reached at 
+about the time that the Rescu e Coordination Centre informed  the operator  of the beacon  alert . 
+3.10.  Organisational and management information  
+3.10.1.  The Helicopter Line had been  incorporated in 2002 and was one company in a group  that 
+provid ed a range of services to tourists, including helicopter and aeroplane flights.  At the time 
+of the accident the company  operated from three  primary bases and two satellite bases in the 
+South Island with a fleet of 20 helicopters, mainly the AS350 Squirrel , and 31 pilots , including 
+five on a casual basis . 
+3.10.2.  The operations manager  was responsible for the overall conduct of air operations and their 
+supporting ground operations .  The chief pilot  was responsible for crew training and competency 
+assessment s and maintaining operating standards .  The chief pilot at the ti me had been  
+appointed in March 2013.  
+3.10.3.  The operations manager  stated that  the operator's three biggest  operational risks were:  
+ roll-over while landing in flat -light conditions  
+ heli-skiing operations  
+ a mid -air collision , due to the number of aircraft in popul ar tourist areas.  
+These were aggregated under the heading 'Accidents -aviation' in the operator's risk register, 
+with generic risk controls that included standard operating procedures, checks and training.  
+The operations manager  said that the pilot categor isation scheme was another control that 
+was intended to  mitigate the se risks. 
+3.10.4.  The operator's procedures listed approximately 30 off -base landing sites, with brief notes on the 
+physical attributes of the sites and any precautions to be taken when using the m.24  The list did 
+not include the snowfield where the accident occurred , nor any site on the Lochnagar Saddle  
+where the pilot had initially ch osen to land .  The two areas  were within the concession area 
+granted to the operator by the Department of Conservat ion, which managed the region.25 
+3.10.5.  On 17 October 2013 the operator had completed the CAA's re -certification process, which 
+recur red every five years and require d 100% compliance with the applicable Civil Aviation Rules.  
+The operator  had recognised that its o rganisational changes in the previous four years could 
+                                                        
+21 The unique identification of  ELTs meant that it was initially thought that the parked helicopter had crashed.  
+22 The ELT was a Kannad 406 AF -H model. 
+23 Flight -following is t he process of maintaining awareness of an aircraft's position and intentions so that a timely 
+response can be made in the event of an incident or the aircraft being overdue . 
+24 The Helicopter Line, Line Station Procedure , section QT N 1.2, Queenstown helibase procedures - bases, 
+helipads and landing areas.  
+25 The operator added details  for a Lochnagar S addle landing site , but not for the snowfield,  in June 2014.  
+
+<< Page 12 >>
+ Final Report AO -2013 -010 have created new risks, but the CAA's routine surveillance had not disclosed any significant 
+operational concerns.  The CAA 's most recent audit prior to the re -certification had been  
+completed on 26  November 2012  and made two minor maintenance -related findings . 
+3.11.  Other occurrence  
+3.11.1.  On 9 January 2014  another of the operator's  Squirrel helicopter s was about to land on the 
+Richardson Glacier when  the skid contacted the snow, causing the helicopter to roll on  to its 
+side.26,27  The helicopter was destroyed, but the pilot28 and four passengers were uninjured.  
+3.11.2.  That accident  occurred at an altitude  of 2,286 m  on a relatively level  glacial snowfield.  The 
+stated  weather conditions were  unlimited visibility with neglig ible cloud and no wind.  Snow 
+had fallen the previous day and  contributed to bright conditions.  
+3.11.3.  According to  the pilot 's report, as he had been  about to land  the surface became less visible in 
+the bright light and because of bl owing snow moving ahead as th e helicopter slowed.  The pilot 
+had lost sight of his reference points, so he commenced a  go-around.  As he did so t he landing 
+skids contacted the snow, causing the machine to roll over  abruptly . 
+                                                        
+26 The Commission was notified of the accident, but decided not to open a s eparate inquiry . 
+27 CAA occurrence number 14/52.  
+28 This was not the pilot involved in the  28 October 2013 accident.  
+Final Report AO -2013 -010 
+<< Page 13 >>
+ 4. Analysis  
+4.1. Introduction  
+4.1.1.  The accident occurred in weather cond itions that fellow pilots said were "perfect ".  The pilot 
+was familiar with the helicopter, the type of o peration and the general  area  where they landed .  
+The accident was ver y unusual  in that it was preceded by a near -collision during the prior go-
+around . 
+4.1.2.  The pilot's injury prevented his recalling the flight.  Therefore the evidence of the senior pilot 
+and the video taken by a passenger  were invaluable for the analysis .  The senior pilot was 
+seated on the right side of the parked helicopter and had a clear  view of the helicopter during 
+the go -around, the last 30 m of the second approach , and the collision.  
+4.1.3.  The analysis considers the following possible causes of the collision : 
+a. the pilot might have misjudged the approaches and separation  
+b. the pilot might have lost visual reference with the other helicopter  
+c. the pilot might have lost control because : 
+1) of a helicopter defect  or 
+2) a helicopter performance  limit was reached  
+d. the pilot might have been affected by a medical or psychological condition . 
+4.1.4.  In addition, the fol lowing two safety issues identified during this inquiry are discussed:  
+ when pilots do not inform their flight -following organisation s of changes to their route s or 
+destination s, any search and rescue action that is required c ould be delayed or 
+misdirected  
+ the widespread practice of allowing passengers to leave and return to a helicopter parked 
+on snow while the rotors are turning  is hazardous . 
+4.2. The possibility of the pilot  misjudg ing the separation  
+4.2.1.  The landing site that the pilot chose initially was very likely where he  had landed that morning, 
+because a passenger on that flight said they had landed on a ridge, not a wide snowfield .  
+Although the pilot had logged only one landing at the Tyndall Glacier, it was possible that he 
+had made other landings there but had logged them as Lochnagar Saddle.  The flight was a 
+standard snow experience flight, for which pilots had flexibility as to where to land.  Landing on 
+such an expansive snowfield , with another helicopter as a focal point,  should not have  been 
+demandin g for one of the operator's B -category pilots.   Given these circumstances, the lack of 
+a description of the Lochnagar Saddle and Tyndall Glacier landing sites in the operator's 
+procedures at the time was almo st certainly not a factor in the accident.  
+4.2.2.  It wa s very unlikely that the pilot would have minded  the senior pilot taking the lead prior to 
+arriving at the landing site.  It could not be determined how often the pilot had followed 
+another helicopter to a snowfield landing.  The operator had not specified  a procedure for 
+landing multiple helicopters at a single landing area , except that , for snow landings , all of the 
+helicopters had to have landed before any passengers would be allowed to disembark.  There 
+was no prescribed  minimum spacing between parked h elicopters.  The chief pilot said the rule 
+of thumb was one and a half rotor diameters between the rotor discs29, and that rule 
+appeared to have been generally followed .  As the main rotor diameter of the AS350 Squirrel 
+was 10.7 m, th e rule would give nearl y 27 m between the centres of adjacent landing sites.  
+4.2.3.  By comparison, the recommended minimum distance between the centres of adjacent landing 
+sites at a heliport intended to serve Squirrel helicopters was 14.6 m (CAA, 2007).  The 
+concrete landing pads at t he operator's Queenstown base were a minimum of 14 m apart.  
+                                                        
+29 A rotor disc is the area swept by a helicopter's  rotor blades each revolution.  
+
+<< Page 14 >>
+ Final Report AO -2013 -010 Therefore the  pilot's normal 'picture' of a  close,  adjacent helicopter was of one that was only 
+14 m away, on a clearly defined landing site.  He was sufficiently experienced in operations 
+onto u nmarked landing sites, such as  snowfields, and into confined areas that it should have 
+been second nature to ensure a safe separation.  
+4.2.4.  Having another helicopter land first gives the following pilot a clear reference point in an 
+otherwise unmarked landing area, and early warning of a blowing snow problem.  The se 
+advantages enable  the following  pilot to ensure a safe separation from the one ahead . 
+4.2.5.  There was plenty of space for the helicopter to land to the right of the parked helicopter, 
+without encroaching o n the steeper upslope further to the right.  The parked helicopter was an 
+excellent visual reference to assist the pilot in judging his rate of closure and spacing.  
+4.2.6.  The initial alignment of the pilot's first approach appeared  well spaced, but  the senior pi lot 
+thought it was  too fast if the pilot intended to land alongside his helicopter.  The senior pilot 
+might have interpreted the blowing snow as a sign that the pilot had had to slow abruptly from  
+a high speed.  However, other experienced  pilots of the ope rator considered the pilot's 
+approaches , as seen on the video, to be at an appropriate angle and speed.  
+4.2.7.  A go-around is usually an undemanding manoeuvre in a helicopter , but the pilot might have 
+been annoyed with himself for having had to do so .  Whether th is or the rebuke by the senior 
+pilot was a factor in the subsequent accident was discussed with the Commission's consultant 
+psychologist .30  In his opinion, if  the pilot had been  in a negative frame of mind he could have 
+had a degraded ability to focus on t he landing and simply misjudged the second approach.   
+However, the chief pilot was of the opinion that it was in the pilot's nature to have accepted 
+the rebuke and to have responded positively.  
+4.2.8.  There were aspects of the pilot's performance during the go-around and the accident itself 
+that were  similar to the misjudgement s reported  two months earlier  (see paragraph 3.4.9). 
+This is a strong indication that this accident  might have been  the result of the pilot having 
+made  similar misjudgements , although the pi lot could not recall any such events or having 
+been reprimanded for such a concern .  The reported errors in judgement  were serious and  the 
+operator ought to have had a written record of  them  and any remedial training that had taken 
+place . 
+Finding s 
+1. The pilo t's training and the monitoring of his performance  were in accordance 
+with the operator's training policy and procedures.  
+2. In the absence of any other explanation, the possibility that the pilot had 
+reverted to his previously reported behaviour and misjudge d his approach 
+could not be excluded.  
+3. The operator's standard of  record keeping for this pilot's training and 
+performance monitoring did not meet generally accepted best practice . 
+4. The weather and snow conditions were favourable  and t he parked helicopter 
+provided an excellent visual reference for the pilot  to ensure a safe 
+separation.  
+5. It could not be determined whether the senior pilot's rebuke adversely 
+affected the pilot's concentration or spatial judgement on the following 
+approach.  
+                                                        
+30 Keith McGregor, BSc, MNZPsS, CMIOP . 
+Final Report AO -2013 -010 
+<< Page 15 >>
+ 4.3. The possibility of a  loss of visual reference  
+4.3.1.  The operator's operations manual guided pilots in coping with ' bright -out'31, blowing snow  and 
+a lack of spatial reference.  The manual  stated  that pilots should make an initial approach and 
+plan to go around unless conditions clea rly allowed a landing. The manual further 
+recommended that:  
+In conditions of reduced surface visibility the pilot should not continue an 
+approach without visual reference to the snow surface unless reference can be 
+achieved by the presence of objects such as flags, rocks, helicopters…  
+First approach  
+4.3.2.  The surface of the deep, powder snow was easily discerned.  The senior pilot said that he had 
+not encounter ed blowing snow  when he landed , and none could be  seen in the video.  His 
+approach had been terminated w ithout an obvious flare .32 
+4.3.3.  It was very likely that as the pilot of the following helicopter was reducing his speed , the rotor 
+downwash lifted the surface snow.  The blowing snow was not so dense as to obscure the 
+parked helicopter, but it may have made the rotor disc of the parked helicopter difficult  to 
+discern.  
+4.3.4.  The accident pilot watched the video five weeks after the accident and commented that the 
+blowing snow on the first approach appeared to be  "not too bad".  A photograph taken by a 
+rear-seat passenge r showed the parked helicopter more clearly than the video did, and was 
+very likely  more representative of  what the pilot saw.33 
+4.3.5.  The operator's management  pilots considered  that the amount of blowing snow raised on the 
+first approach would have been easily within the pilot's capabilit ies and experience to see 
+through and land safely.  The fact that he did not land was not especially significant, but it 
+indicated that he made a conscious decision to go around.   The senior pilot said that after the 
+pilot began  the go -around the pilot had transmitted what sounded like "too high".  The audio 
+on the passenger video was analysed but the pilot's comments could not be determined.  
+4.3.6.  A go-around from this position required a climb straight ahead before making a left turn  away 
+from the rising terrain.  The pilot misjudged when he had passed  the parked helicopter and 
+could turn left .  It was very likely that he  did not realise that he had  converg ed towards the 
+parked helicopter during the approach.  In addition, the blowing  snow may have been dense 
+enough that  he could not discern the edge of the parked helicopter's rotor disc.  
+Finding  
+6. It was very likely that the pilot carried out the go -around because he lost his 
+depth perception and sight of the other helicopter in blowing  snow . 
+ 
+Second approach  
+4.3.7.  The passengers in the helicopter said that the blowing snow at the end of  the second 
+approach was worse  than on the first approach , but the senior pilot di sagreed.  Although the 
+video stopped before the accident, the senior pilot watched  the approach of the helicopter, 
+which he said was similar in angle and speed to the first approach.  The senior pilot saw the 
+                                                        
+31 Bright -out was descr ibed as " a phenomenon caused by excessive reflection of sunlight off the snow surface, 
+resulting in a lack of depth perception, most common when the sun is high in the sky and the snow is fresh ". (The 
+Helicopter Line, Operations Manual, section 5.26 , Snow landings affected by weather phenomena .) 
+32 In a flare the pilot applies aft cyclic, which produces a rearward rotor thrust component that slows a helicopter.  
+33 Because the still photograph had a greater pixel count than that of a standard video camera.  
+
+<< Page 16 >>
+ Final Report AO -2013 -010 helicopter almost come abeam before it seemed  to turn  towards him and a collision became  
+imminent.  
+4.3.8.  The attitude of the heli copter at the point of collision could not be determined accurately 
+without knowing whether the main rotor disc of the parked helicopter was level.  However, it 
+was more likely than not  that the parked helicopter's disc was level , in readiness for the 
+pass engers ' disembark ation .  If so, t he airborne helicopter was in a more -or-less-level attitude 
+at the time of the collision, as determined by the angle at which its vertical stabiliser was 
+severed.  A level attitude suggests  that the pilot was not flaring th e helicopter to reduce speed, 
+or accelerating for another go -around  or bank ing significantly to the left .  The landing skids, 
+which are more than half a metre  below the lowest point of the tail, were not hit by the rotor 
+disc, which indicat ed that the heli copter did not directly overfly the parked helicopter.  
+4.3.9.  The environmental conditions in this accident had some similarities to the accident on the 
+Richardson Glacier a few months later  (see paragraph 3.11.1) : the relatively high altitude; 
+clear and bright c onditions; fresh, flat snow; and blowing snow as the helicopter was about to 
+land.  However, i n the accident  near Mount Tyndall  the pilot had the parked helicopter as a 
+strong visual re ference during both approaches.  
+Finding s  
+7. It was unlikely that blowing snow s ignificantly  affected the pilot's view of 
+the parked helicopter during the second approach.  
+ 
+4.4. The possibility of a loss of control  
+4.4.1.  The pilot's flying, judging from the video, was smooth.  That, and the absence of any radio 
+communication from him to t he contrary, indicated strongly that the helicopter 's technical 
+performance was normal.  No performance limitation was identified .  The passengers' 
+evidence did not indicate that the pilot was distracted or that anything interfered with his 
+control during either approach.  
+Helicopter defect  
+4.4.2.  There was nothing in the  passenger video , which began prior to the passengers boarding at 
+Queenstown,  to suggest that there was a technical problem or that the pilot had difficulty at 
+any stage with controlling the helico pter. 
+4.4.3.  The helicopter behaviour, in climbing and spinning after the tail rotor assembly separated, was 
+evidence of ample power being delivered to the transmission at the time of the collision.  An 
+expert from Airbus Helicopters confirmed that the damage to the main rotor system was 
+strong evidence that the rotor had been  under high power when the helicopter struck the 
+ground.  For these reasons the engine was not subjected to further examination.  
+4.4.4.  The flight controls moved correctly , and continuity of the collective, cyclic and tail rotor 
+controls  was shown as far as impact damage allowed.  The hydraulic system (which power ed 
+the flight control servo actuators) had no obvious defects  and was not tested further.  
+Finding  
+8. No technical defect was found that might have contributed to the close go -
+around or to the collision.  
+ 
+Final Report AO -2013 -010 
+<< Page 17 >>
+ Performance limit  
+4.4.5.  Three of the key parameters that affect an aircraft 's performance are:  
+ its total weight  
+ the altitude  
+ the air temperature.  
+The location of the centre of gravity primarily affe cts stability and controllability.  
+4.4.6.  The empty weight of the helicopter was recorded in the helicopter logbook  as 1,327.7 kg .  The  
+fuel load on departure from Queenstown was 50% of tank capacity, or 213 kg.34  Using the 
+assumptions of the operator's standard loading plan35, the take-off weight of the helicopter 
+was later calculated to be 2,129 kg, which was under the maximum permitted weight of 2,250 
+kg. 
+4.4.7.  No-one calculated the weight or the centre of gravity position before the flight, because one of 
+the operato r's procedures waived the requirement when using a standard loading plan.  Had 
+the weight and balance calculator been used, the pictorial display would have indicated that 
+the centre of gravity was ahead of the forward limit.  
+4.4.8.  The passengers were not weighe d before the flight or after the accident.  However, they were 
+observed to be lightly framed and generally of short stature.  Therefore, their average weight 
+was very likely to have been less than the operator's standard weight of 80 kg.   Using 
+hypothetica l passenger weights of up to 75 kg, t he take -off weight was re -estimated  as 2,079 
+kg, with the centre of gravity on the forward limit.  Allowing for fuel used during the flight , the 
+weight at the time of the accident was estimated to have been  2,037 kg, with the centre of 
+gravity then behind the forward limit ( and therefore within limits ) (see Appendix 1).  
+4.4.9.  According to the flight manual, at a landing weight of 2 ,037 kg and with an air temperature of 
+plus five degrees Celsius , the helicopter could have hover ed out of ground effect36 at a 
+pressure altitude of 2 ,700 m, which was about 650 m above the accident site.   This hover 
+capability showed that there would have been  adequate power and control for the normal 
+manoeuvres associated with landing and take -off at  the lower altitude of the accident site.  
+4.4.10.  Although the helicopter weight and centre of gravity position were likely to have been within 
+limits for this flight, the operator's procedures risked pilots taking off with their helicopter s 
+outside permissible li mits. For example, if six passengers of standard weight were carried with 
+a standard 60% fuel load and a pilot weighing 95 kg, the centre of gravity would remain  ahead 
+of the forward limit, even with the maximum possible ballast carried in the rear of the 
+helicopter.   If pilots checked the weight and balance calculator for every flight, they would be 
+alerted  to the actual balance condition.  
+4.4.11.  Therefore, the operator's standard loading plans did not guarantee that the weight and centre 
+of gravity position woul d be within permissible limits.  As the operator's procedures waived a 
+calculation of weight and balance when a standard loading plan was used, and did not require 
+pilots to verify weight and balance if a standard loading plan was used, it was very likely that 
+potential loading errors could go undetected.  
+4.4.12.  The pilot -in-command of an aircraft is required37 to assess the weight and balance information 
+and to ensure that the aircraft will remain for the duration of the flight within the limits 
+                                                        
+34 The fuel quantity indicator scale showed intervals of 10%.  Fuel weights are for a specific gravity of 0.79.  
+35 Except 75 kg was used for each front -seat passenger  in order to comply with t he seat weight limit.  
+36 A helicopter is 'in ground effect' when the d ownwash from the main rotor  strikes the surface and generates an 
+increase in pressure, which effectively creates a cushion of air that reduces the power required to hover.  The 
+effect reduces as the helicopter moves away from the surface, with the result t hat more power will be required.  At 
+a height equivalent to approximately half of the rotor diameter, the effect is considered to be nil and the helicopter 
+is then 'out of ground effect '. 
+37 Civil Aviation Rule 135.305 (b).  
+
+<< Page 18 >>
+ Final Report AO -2013 -010 specified in the f light manual.  The procedures used by the operator in 2013 meant that its 
+pilots often did not assess this information, and instead relied on the implied guarantee that 
+the standard loading plans would keep them within the limits . 
+4.4.13.  The CAA, in allowing the use of standard passenger weights, emphasised that flight manual 
+limitations must be observed.38  The operator has since amended its procedures to require an 
+actual weight and balance calculation for every flight.  
+4.4.14.  Experience with the Squirrel helicopter had  shown  that care was needed to ensure that the 
+centre of gravity was not ahead of the forward limit when a dual seat was fitted  and six 
+passengers were  carried.39  On 27 November 2015, in an action  unrelated to this accident, 
+the CAA issued an airworthiness  directive40 that required the actual weight and balance to be 
+calculated before every flight of a Squirrel helicopter when people or cargo occupied the two -
+place front seat.41 
+Finding s 
+9. The helicopter's weight and centre of gravity position were estimated to  
+have been within flight manual limits at the time of the accident.  
+10. The operator's procedures regarding the use of standard load ing plans did 
+not ensure compliance with the Civil Aviation Rule that on all occasions 
+helicopters are to be  flown within the li mitations published in the flight  
+manual .  In this case the use of the standard load ing plan did not cause or 
+contribute to the accident.  
+ 
+4.5. The possibility of a medical or psychological condition  
+4.5.1.  There was no obvious explanation for an experienced pilot, performing  a routine and familiar 
+flight  in a serviceable helicopter under ideal weather conditions , having a serious collision risk 
+twice in a short space of time.  The possibility that t he pilot  misjudg ed the separation between 
+the helicopters because  of a medical or psychological condition  was considered . 
+Medical condition  
+4.5.2.  The medical notes held by the CAA and the pilot's general practitioner contained nothing t o 
+suggest that a pre-existing medical condition could have been a factor .  His use of h ay fever  
+medication was considered not pertinent, and tests for illicit drugs and alcohol were negative.  
+4.5.3.  A passenger on the morning snow landing flight to the Lochnagar Saddle area said that they 
+thought the pilot had been  "good, safe and secure , and aware of ever ything ".  A passenger o n 
+the later Milford Sound flight  knew the pilot  and said his demeanour had been  "okay ", with 
+nothing unusual  noted .  None of the passengers on the accident flight, and no ne of the staff 
+who saw the pilot during the day, said they had  noticed anything of concern about the pilot . 
+4.5.4.  Before departing Queenstown on the accident flight , the pilot was wearing a cap with 
+sunglasses resting above the peak.  It is not known whether he was wearing the sunglasses at 
+the time of the accident.  Durin g the approaches to the Tyndall Glacier, the sun w ould have 
+been ahead and a bove , and slightly to the left .  Without  sunglasses, glare from the bright snow 
+                                                        
+38 See, for example, Advisory Circ ular 119 -4, 
+<< page 15 >>
+.  
+39 See, for example, Commission report 94 -023, Aérospatiale AS350B, ZK -HWV , collision with terrain , near Fox 
+Glacier, 29 October 1994.  
+40 An airworthiness directive is a mandatory instruction, issued by the CAA, to ensure the continued a irworthiness 
+of an aircraft or component . 
+41 Airworthiness Directive DCA/AS350/128 Forward two -place seat - Operating limitations.   Where weighing 
+passengers was not practical  (e.g. when uplifting passengers in remote locations) , it was permissible to use e ach 
+passenger's declared weight plus 6 kg. 
+Final Report AO -2013 -010 
+<< Page 19 >>
+ could  have been a problem .  However, t he parked helicopter  would have provided  a good 
+contrast with the snow . 
+4.5.5.  The pilot's  vision had been checked at a routine CAA medical examination less than two 
+months previously .  The requirement that he have half -spectacles available was a common 
+age-related requirement, primarily for reading charts and manuals, and not pertinent to this 
+flight.  Therefore  it was  unlikely that he had a vision problem  at the time of the accident . 
+4.5.6.  The accident pilot did not advise the senior pilot that he was unwell or having  any difficulty  
+flying the helicopter .  During  the go -around, the pilot was reported to have said only  that he 
+had misjudged his approach angle ; that he was too high .  He did not respond to the senior 
+pilot's rebuk e for coming too close .  Had the pilot been affected by a medical condition t hat 
+prevented him making a radio call, it would have been very unlikely that he could have mad e a 
+steady  approach to land . 
+4.5.7.  The video did not show the last 10 seconds or so before the collision, but what was recorded 
+suggest ed that the pilot was in full control of the helicopter  on both approaches.   Some 
+passengers s aid it was "windy " or that the helicopter was "rocky " or "swaying " on the second  
+approach , but the senior pilot said it was not windy.  The passengers may have mistaken 
+blowing snow - and possibly the normal vibration that is felt when  a helicopter slows down - 
+as an indication of wind.  
+4.5.8.  If the passengers' recall of events was not confused by the collision, their description of a 
+"rocky " or "swaying " approach could have meant the pilot was over-controlling.   However, the 
+senior pilot observed the impending and actual collision and did not see any evidence of over-
+controlling . 
+4.5.9.  Some neurological disturbances, such as a severe migraine or  a transient ischaemic attack 
+('mini -stroke'), can cause impairment or be ongoing risks of incapacitation (CAA, 2010).  It can 
+be difficult to prove that such an event ha s occurred , because the re might not be any  
+'artefact', or physical evidence.   However, i n the opinion of t he pilot's rehabilitation medical 
+consultant , apart from the traumatic h ead injury , "there was no discrepancy in his 
+presentation to suggest that there was any other medical/neurological diagnosis that had 
+occurred around the time of the crash ". 
+Finding  
+11. There was no evidence to suggest  that the pilot had a medical condition  
+that contributed to the accident , but that possibility cannot be excluded.  
+Potential psychological condition  
+4.5.10.  Having been unable to identif y any direct caus e of the accident, the Commission co nsidered 
+the possibility of an obscure p sychologic al factor.  
+4.5.11.  The i nvestigation considered  whether the pilot might have tried so hard to stay clear of the 
+parked helicopter  on the second approach that he  experienced an 'ironic process  of mental 
+control '.  The theory of this psychological effect , which might  cause  a person  to do exactly 
+what they were trying to avoid, is summarised  in Appendix  2.  An example that illustrates the 
+theory is a cyclist  hitting an obstruction that they were trying strenuously to avoid . 
+4.5.12.  The possible relevance of the theory  is as follows.  The pilot would have been aware that the 
+go-around was delaying the snow experience for both groups of passengers.  One would 
+expect him to have want ed to complete the go -around quickly  and to make a tidy landing near 
+the parked helicopter.  If he had been overly  intent on making a 'perfect' landing  close  to the 
+other helicopter, he might have tried too hard to avoid getting  too close and, ironically , flown 
+into it. 
+
+<< Page 20 >>
+ Final Report AO -2013 -010 4.5.13.  However, t he circumstances did not fit the theory well.  Ironic effects require some a dverse 
+mental  load.  The go -around might have created some time pressure and the pilot may ha ve 
+felt driven to make a better  approach, but those pressures were unlikely to have been of 
+sufficient intensity or duration t o provoke an ironic effect.  
+4.5.14.  A further  reason to do ubt the applicability of th is theory comes from Wegner's view on the role 
+of 'automaticity ' in resisting ironic effects  (Wegner, 1994, p.48) .  Even an experienced pilot 
+must give close attention to the desired touchdown point and prevailing conditions, but  the 
+manipulation of the controls to achieve the landing is essentially an automatic skill.  The pilot 
+was very familiar with landing in confined areas and on landing sites with the minimum 
+separation from adjacent sites  (for example, at the operator's bas e).  It was very unlikely  that 
+he would have been trying 'too hard' to land close to the parked helicopter  when the parked 
+helicopter provided a highly visible point of reference and there was ample space . 
+4.6. Summary  of potential causes  
+4.6.1.  The analysis considere d the following potential causes of the collision:  
+a. misjudge ment by the pilot of his separation  from the parked helicopter  
+b. loss of  visual reference with the other helicopter  
+c. loss of control because  of a helicopter defect or  because a  performance  limit was 
+reached  
+d.  the pilot being affected by a medical or psychological condition . 
+4.6.2.  The pilot w as experienced in flying onto unmarked landing sites, such as snowfields, and into 
+confined areas such that it should have been second nature for him to ensure a safe 
+sepa ration.  The landing site was expansive  and the p arked helicopter was an excellent visual 
+reference .  The pilot clearly misjudged his spacing twice , but only the first instance c ould be  
+explained.  
+4.6.3.  The first helicopter landed  without raising any blowing sno w, which might have misled the pilot 
+into not reducing his speed sufficiently early on his first approach .  When the pilot did go 
+around  because of the blowing snow his helicopter raised, he did not discern the parked 
+helicopter's rotor disc and turned too  soon, passing close in front of it. 
+4.6.4.  No evidence was found of a mechanical problem with the helicopter, or of its pe rformance 
+being  adversely affected .  No medical reason was identified to explain the  pilot's actions .  An 
+obscure psychological effect was c onsidered unlikely to have been a contributing factor . 
+4.6.5.  The fact that within three months the operator had two accidents during snow landings did not 
+necessarily indicate that the operator's standards or training were inadequate.  Snow landings 
+are inherent ly hazardous and the operator 's pilots were trained to anticipate blowing snow 
+and to perform go-around s if they los t essential visual references.  The nature of helicopter 
+operations mean s that they routinely operate close to other aircraft and structures .  Therefore 
+it is reasonable to assume that pilots will normally maintain  a safe separation from other 
+helicopters and structures throughout every approach and landi ng. 
+Finding  
+12. The cause of the collision was not determined.  
+ 
+ 
+Final Report AO -2013 -010 
+<< Page 21 >>
+ 5. Safety issues  
+5.1. The following  safety issues were identified during this inquiry:  
+ when pilots do  not inform their flight -following organisation s of changes to their route s 
+or destination s, any search and rescue action that is required c ould be delayed or 
+misdirected  
+ the widespread practice of allowing passengers to leave and return to a helicopter 
+parked on snow while the rotors are turning is hazardous.  
+ Flight -following  
+5.2. The failure of an ELT on a crashed aircraft to transmit a signal, or for the signal to be not 
+heard, can have potent ially fatal consequences .  If the alarm  is not raised some other way , 
+which fortunately did happen in this case, search and rescue action will not begin until the 
+operator determine s that the flight is overdue.  
+5.3. Therefore  it is imperative that a flight -following system ha ve accurate information regarding 
+the route, destination and intended actions of a flight  being monitored .  An unannounced 
+change to the information that was last advised could result in a search  of the wrong  area.   In 
+this case the pilot ra dioed the operator's base that the two helicopters were about to land at 
+the Lochnagar Saddle, but the actual landing took place about three  kilometres away.   The 
+Commission has highlighted this as a key lesson arising from this investigation.  
+5.4. The poor rel iability of ELTs is a global issue.   However, t he varied circumstances of aircraft 
+crashes mean that 100% reliability might never be achieved.  Severe damage, fire or an 
+obstructed or broken antenna are common reasons for signals not being received  after a  
+crash . 
+5.5. Apart from manufacturers improving the reliability of their ELTs , operators could reduce the 
+consequences of un-alerted accident s in remote site s by fitting GPS flight tracking device s.  
+Tracking devices have prove d their worth time and again  when ELTs have failed .  At the time, 
+the operator had flight trackers  fitted to some of its helicopters , but ne ither of the helicopters 
+involved in  this accident had one fitted.42 
+5.6. The Commission drew attention to the benefits of flight tracking devices and the poor 
+reliab ility of ELTs when it r ecommend ed to the Director of Civil Aviation  on 26 February 2014 
+that he43: 
+ encourage the use of flight tracking devices, especially for use in aircraft operating in 
+remote areas around New Zealand (005/14)  
+ continue to suppo rt the international work underway to improve the crash survivability 
+of ELTs and to include GPS information in the data transmitted by such devices 
+(006/14).  
+On 5 March 2014 the CAA replied, in part:  
+ (005/14) In our draft recommendation response 31 Januar y 2014, the Director 
+commented that the CAA provide for the fitment of Flight Tracking Devices (FTDs) by 
+operators and this can be achieved in accordance with the relevant provisions of AC 43 -
+14.  The CAA will continue to encourage operators to fit FTDs in  this manner. The CAA 
+considers the action sufficient to satisfy the closure of the Commission's 
+recommendation  
+ (006/14) In the same response letter, the Director commented that the CAA already 
+supports in principle the ICAO [International Civil Aviation O rganization] and 
+                                                        
+42 Since April 2014 the operator had installed flight tracking device s in all of its helicopters , and all of its operating 
+bases had dedicated monitoring screen s. 
+43 Inquiry report 11 -003, in -flight break -up, ZK -HMU , Robinson R22, near Mount Aspiring, 27 April 2011 .  
+
+<< Page 22 >>
+ Final Report AO -2013 -010 manufacturers' efforts to improve the crash survivability of ELTs and accuracy of 
+position reporting. The work is ongoing and in this context the CAA requests that the 
+recommendation be closed.  
+5.7. Both safety recommendations remain open.  The Commission has also promoted the benefits 
+of flight tracking devices in its  Watch List  item: Technologies to track and locate .44 
+ Disembarking while rotors are turning  
+5.8. Although not a factor in this accident, a further safety issue identified during the inq uiry was 
+the widespread practice of allowing passengers to leave and return to helicopter s parked on 
+snow while the rotors are turning.  Frequently the pilot will also disembark to guide the 
+passengers while they move under the main rotor disc.  There is a  serious risk to people on 
+the ground if  a helicopter has settled into fresh snow or it breaks through an apparently hard 
+surface crust .  Should this happen  the clearance between the rotor disc and people walking 
+beneath could reduce sufficiently for someo ne to be struck by the rotor blades . 
+5.9. The risk persist ed in spite of  the operator , in common with other operators, having taken steps 
+to reduce it by fitting snowshoes to helicopter landing skids and by training pilots in the correct 
+snow landing technique s. 
+5.10.  The Director of Civil Aviation informed the Commission of  proposed  Civil Aviation Rules t hat, if 
+passed, could  address  the hazard of leaving helicopters unattended w ith the rotors t urning 
+under power.45  However, there is no certainty that the proposed ru les will be implemented . 
+5.11.  Therefore , the Commission recommend ed that the Director of Civil Aviation ensure that  
+helicopter operators that conduct snow landings  address in their safety management systems 
+the hazard of passenger disembarkation and embarkation  during those  landings while the 
+rotors are turning.  
+ 
+                                                        
+44 See www.taic.org.nz/Watchlist2016/Technologiestotrackandtolocate/tabid/297/language/en -NZ/Default.aspx . 
+45 Notice of Proposed Rule Making (NPRM 17 -02), Small Issues Rules Amendment . 
+Final Report AO -2013 -010 
+<< Page 23 >>
+ 6. Findings  
+6.1. The pilot's  training and the monitoring of his performance were in accordance with  the 
+operator's training policy and procedures . 
+6.2. In the absence of any other explanation, the possibility that the pilot had reverted to his 
+previously reported behaviour and misjudged his approach could not be excluded . 
+6.3. The operator's standard of record  keeping for this pilot's training and performance monitoring 
+did not meet generally accepted best practice . 
+6.4. The weather and snow conditions were favourable  and t he parked helicopter provided an 
+excellent visual reference for the pilot to ensure a safe separation.  
+6.5. It could not be determined whether the senior pilot's rebuke adversely affected the pilot's 
+concentratio n or spatial judgement on the following approach.  
+6.6. It was very likely that the pilot carried out the go -around because he lost his depth perception 
+and sight of the other helicopter in blowing snow.  
+6.7. It was unlikely that blowing snow s ignificantly  affected t he pilot's view of the parked helicopter 
+during the second approach.  
+6.8. No technical defect was found that might have contributed to the close go -around or to the 
+collision . 
+6.9. The helicopter's weight and centre of gravity position w ere estimated to have been wi thin flight 
+manual limit s at the time of  the accident . 
+6.10.  The operator's procedures regarding the use of standard loading plans did not ensure 
+compliance with the Civil Aviation Rule that on all occasions helicopters are to be  flown within 
+the limitations pub lished in the flight manual.   In this case the use of the standard loading plan 
+did not cause or contribute to the accident.  
+6.11.  There was no evidence to suggest  that the pilot had a medical condition that contributed to the 
+accident , but that possibility cann ot be excluded . 
+6.12.  The cause of the collision was not determined.  
+ 
+
+<< Page 24 >>
+ Final Report AO -2013 -010 7. Safety a ctions  
+General  
+7.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result  in the Commission issuing a  recommendation.  
+Safety  actions  addressing safety issues identified during an inquiry  
+7.2. On 27 November 2015 the CAA issued an airworthiness directive that required the weight and 
+balance to be calculated before every flight of a Squirrel helicopter when people or cargo 
+occupied th e two -place front seat.46 
+Safety a ctions  addressing other safety issues  
+7.3. None identified . 
+ 
+ 
+                                                        
+46 Airworthiness Dire ctive DCA/AS350/128 Forward two -place seat - Operating limitations.  
+Final Report AO -2013 -010 
+<< Page 25 >>
+ 8. Recommendation  
+General  
+8.1. The Commission may issue, or give notice of , recommendation s to any person or organisation 
+that it considers the most appropriate to address t he identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case a recommendation ha s been issued to the Director of Civil Aviation , with 
+notice of the recommenda tion given to the New Zealand Helicopter  Association.  
+8.2. In the interests of transport safety,  it is important that recommendations are implemented 
+without delay  to help prevent  similar accidents or incidents occurring in the future.  
+Recommendation  
+8.3. A safety i ssue identified during the inquiry was the widespread practice of allowing passengers 
+to leave and return to helicopters parked on snow while the rotors are turning.  Frequently the 
+pilot will also disembark to guide the passengers while they move under th e main rotor disc.  
+There is a serious risk to people on the ground if a helicopter has settled into fresh snow or it 
+breaks through an apparently hard surface crust.  Should this happen the clearance between 
+the rotor disc and people walking beneath could  reduce sufficiently for someone  to be struck 
+by the rotor blades.  
+8.4. On 25 May 2017  the Commission recommend ed that th e Director of Civil Aviation ensure that  
+helicopter operators who conduct snow landings address in their safety management systems 
+the hazar d of passenger disembarkation and embarkation during those  landings while  the 
+rotors are turning . (009/17) 
+8.5. On 11 July 2017 the Director of Civil Aviation replied:  
+In accordance with the provisions of Civil Aviation Rules Part 119: Air Operator - 
+Certificat ion, helicopter operators have until 1 February 2021 to introduce a 
+Safety Management System.  Given that timeline, the Director accepts the 
+recommendation and will ensure that when  operators' Safety Management 
+Systems are certificated all significantr av iation risks are identified and managed.  
+ 
+ 
+
+<< Page 26 >>
+ Final Report AO -2013 -010 9. Key lessons  
+9.1. Transport operators should  keep  formal records of concerns about  operational staff  and how 
+they are dealt with .  Record  keeping is consistent with the safety management system goal of 
+improving system  quality.  
+9.2. Pilots should ensure  that they inform their flight -following organisation s of any changes to 
+their operating area s or destination s. 
+ 
+Final Report AO -2013 -010 
+<< Page 27 >>
+ 10. Citations  
+CAA. (2007, April 27). Chapter 3 - Physical characteristics.  Retrieved from Advisory Circular AC139 -8, 
+Aerodrome Design: Heliports: 
+http://www.caa.govt.nz/assets/legacy/Advisory_Circulars/AC139_8.pdf  
+CAA. (2010, Deecember). MIS 011 Strokes and Transient Ischaemic Attacks.  Retrieved from CAA : 
+http://www.caa.govt.nz/assets/legacy/medical/Med_Info_Sheets/MI S011.pdf  
+Wegner, D. M. (1994). Ironic processes of mental control. Psychological Review , Vol.101, No.1, 34 -52. 
+Wegner, D. M., Ansfield, M., & Pilloff, D. (1998). The putt and pendulum: ironic effects of the mental 
+control of action. Psychological science , Vol.9, No.3, May 1998.  
+ 
+ 
+
+<< Page 28 >>
+ Final Report AO -2013 -010 Appendix 1 : Weight and balance calculation  
+These calculations use passenger weights that are closer to the ir probable weights than the standard 
+80 kg used then by the operator.  
+Take -off from Queenstown  
+AS350 W&B  Weight  Arm  Moment  
+    Pilot  85 1.55  131.75  
+Dual front  140 1.55  217 
+Rear pax  290 2.54  736.6  
+Side locker  2 3.2 6.4 
+Fuel 50%  213 3.48  741.24  
+Survival kit  17 4.6 78.2  
+Boot  4 4.6 18.4  
+Total load  751 
+ 1,929.59 
+    Empty helo  1,328 3.532  4,689.44 
+TOTAL depart  2,079 3.184 6,619.03 
+     [Forward limit at this weight is ~ 3.184] 
+ 
+Arrival at landing site  
+AS350 W&B  Weight  Arm  
+ 
+    Pilot  85 1.55  131.75  
+Dual front  140 1.55  217 
+Rear pax  290 2.54  736.6  
+Side locker  2 3.2 6.4 
+Fuel 40%  171 3.48  595.08  
+Survival kit  17 4.6 78.2 
+Boot  4 4.6 18.4  
+Total load  709 
+ 1,783.43 
+    Empty helo  1,328 3.532  4,689.44 
+TOTAL land  2,037 3.178  6,472.87 
+     [Forward limit at this weight is ~ 3.175] 
+ 
+Reference:  AS350B2 flight manual, section 2.1, 
+<< page 2 >>
+.  
+ 
+Final Report AO -2013 -010 
+<< Page 29 >>
+ Appendix 2: Ironic processes of me ntal control  - Key points from research on 
+unwanted outcomes  
+Wegner (1994)  propose s the theory of 'ironic processes of mental control' to explain why people 
+sometimes make the error of doing exactly that which they are trying to avoid.  These errors are mo re 
+likely to happen under mental load (such as stress, time pressure, distraction).  An example of an ironic 
+error is when efforts to fall asleep result in wakefulness.  
+The theory suggests that when we consciously try to produce a desired thought or action , we also 
+unconsciously monitor for the unwanted thought or action.  The purpose of this 'ironic monitoring' is to 
+ensure that we actively avoid the unwanted state.  
+As Wegner explains (Wegner, 2009, p.48), "The conscious search for distractions and the unc onscious 
+search for the unwanted thought work together to achieve suppression  - the conscious search doing 
+the work and the unconscious search checking for errors ".  Mental load, such as stress or distraction, 
+can impair the conscious effort to produce the  wanted state.  But the unconscious search for errors 
+requires less effort and therefore remains less affected when mental load increases.  So the search for 
+errors continues and, through the process of cognitive priming, can produce the very state to be 
+avoided.  
+LoRusso (2009, p.4) cite s research providing evidence for the theory of ironic processes in several 
+areas of mental control: the control of sleep (Ansfield, Wegner & Bowser, 1996), the control of anxiety 
+(Koster, Rassin, Crombez & Naring, 2003), wh en trying to relax when under stress (Wegner, Broome & 
+Blumberg, 1997 ) and in mood control (Wegner, Erber & Zanakos, 1993).  
+Less research has been found in the area of ironic effects of the mental control of action, although 
+some has been conducted in rela tion to sporting performance.  For example, Wegner, Ansfield and 
+Pilloff (1998) conducted an experiment involving golf putting, and concluded that "distraction can 
+undermine motor control to produce not only erroneous movement, but precisely the least want ed 
+movement " (p.199).  LoRusso (2009), who used tennis players as subjects, concluded that "trying not 
+to perform some action under pressure can bring about those exact unwanted actions " (p.ix).  
+Being relaxed and avoiding distractions helps to avoid counte r-intentional effects.  Wegner also 
+suggest s that the "automatization " of the operating process raises the resistance to ironic effects 
+(Wegner, 1994, p.48).  Skilled behaviour follows training and repeated practice in intentional actions to 
+the point that  they become automatic.  The actions become easier  and require less thought and the 
+results are more accurate (fewer errors).  However, when conscious attention is given to exactly what 
+one is doing during an otherwise automatic action, the error count oft en increases.  Wegner suggest s 
+that when attention is given to the details of an action, it becomes intentional rather than automatic, 
+and as a result the resistance to errors is lost.  
+An alternative to the theory of ironic processes is that of overcompens ation.  De la Peña, Murray and 
+Janelle (2008, cited in Toner, Moran & Jackson, 2013) propose the "implicit compensation hypothesis ".  
+Toner et al. (2013) contrast the two theories.  They explain that the theory of ironic processes of mental 
+control suggest s that an instruction not to act in a particular way may result in that very action being 
+taken, especially under cognitive load; however, the implicit overcompensation hypothesis predicts that 
+instructions to avoid a behaviour lead to the opposite action regardless of cognitive load.  Toner et al. 
+(2013) conclude d from their research (using golfers as subjects) that unskilled players were more likely 
+to overcompensate than more experienced players.  
+Transport Accident Investigation Commission  research, 26 F ebruary 2014  
+References  
+LoRusso, J. E. (2009). Ironic Processes of Mental Control of Action in Tennis.  (MS, Master of Science), 
+Florida State University. Retrieved from http://diginole.lib.fsu.edu/etd/1037 .   
+Toner, J., Moran, A.  P. & Jackson, R. (2013). T he effects of avoidant instructions on golf putting 
+proficiency and kinematics . Pre-publication version of article published in Psychology of Sport 
+and Exercise , 14(4), 501 -507. Retrieved from 
+
+<< Page 30 >>
+ Final Report AO -2013 -010 http://researchrepository.ucd.ie/bitstream/handle/10197/4295/To ner,_Moran_%26_Jackson_
+2013.pdf?sequence=1 . 
+Wegner, D. M. (1994). Ironic processes of mental control. Psychological Review, 101 (1), 34 -52.  
+Wegner, D. M. (2009, 3 July 2009). How to  think, say, or do precisely the worst thing for any occ asion. 
+Science, 325 , 48-50. 
+Wegner, D. M., Ansfield, M. & Pilloff, D. (1998). The putt and the pendulum: ironic effects of the 
+mental control of action. Psychological Science, 9 (3), 196 -199.  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transpo rt Accident Investigation Commission  
+(most recent at top of list)  
+ 
+Addendum to final 
+report  
+AO-2015 -002 Mast bump and in -flight break -up, Robinson R44, ZK -IPY, Lochy River, near 
+Queenstown, 19 February 2015  
+Interim Report 
+AO-2017 -001 Collision with terra in, Eurocopter AS350 -BA, ZK -HKW, Port Hills, Christchurch, 14 
+February 2017  
+AO-2013 -011 Runway excursion, British Aerospace Jetstream 32, ZK -VAH, Auckland Airport,  
+2 November 2013  
+AO-2014 -006 Robinson R44 II, ZK -HBQ, mast -bump and in -flight break -up, Ka hurangi National 
+Park, 7 October 2014  
+Interim Report 
+AO-2016 -007 Collision with terrain, Robinson R44, ZK -HTH, Glenbervie Forest, Northland, 31 
+October 2016  
+AO-2014 -004 Piper PA32 -300, ZK -DOJ, Collision with terrain, Near Poolburn Reservoir, Central 
+Otag o, 5 August 2014  
+AO-2015 -002 Mast bump and in -flight break -up, Robinson R44, ZK -IPY, Lochy River, near 
+Queenstown, 19 February 2015  
+AO-2013 -008 Boeing 737 -300, ZK -NGI, Loss of cabin pressure, near Raglan, Waikato,  
+30 August 2013  
+AO-2013 -003 Robinson R6 6, ZK -IHU, Mast bump and in -flight break -up, Kaweka Range,  
+9 March 2013  
+AO-2014 -002 Kawasaki BK117 B -2, ZK -HJC, Double engine power loss, Near Springston, 
+Canterbury, 5 May 2014  
+AO-2013 -006 Misaligned take -off at night, Airbus A340, CC -CQF, Auckland Air port, 18 May 2013  
+AO-2010 -009 Addendum to Final Report: Walter Fletcher FU24, ZK -EUF, loss of control on take -off 
+and impact with terrain, Fox Glacier aerodrome, South Westland, 4 September 2010  
+AO-2012 -002 Airbus A320 ZK -OJQ, Bird strike and subsequent engine failure, Wellington and 
+Auckland International Airports, 20 June 2012  
+AO-2013 -005 In-flight loss of control, Robinson R22, ZK -HIE, near New Plymouth, 30 March 2013  
+AO-2013 -007 Boeing 737 -838, ZK -ZQG, stabiliser trim mechanism damage, 7 June 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 16.00                                          ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online)  
+ 

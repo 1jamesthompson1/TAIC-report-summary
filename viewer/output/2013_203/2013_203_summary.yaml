@@ -1,0 +1,76 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue management contributing to the incident in the provided document. Fatigue management typically involves strategies to prevent accidents due to individuals being tired or overworked, but the document does not attribute the propeller shaft failure to such factors.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: The document does not indicate that human error or assumptions were a direct contributing factor to the propeller shaft failure. The failure was attributed to a combination of factors including the weakened state of the tail shaft due to fretting and corrosion, and increased uniaxial bending forces and cavitation ("The Commission determined that the new starboard propeller blades had been producing uneven thrust and cavitating from the time the propeller had been fitted" (9.5.1)).
+- name: Training and Competency
+  percentage: 0
+  explanation: 'The document does not provide evidence that a lack of training and competency among personnel was a contributing factor to the accident. The focus of the analysis was on the physical condition of the propeller shaft and the forces acting upon it.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no indication in the document that a lack of training or familiarity with equipment contributed to the propeller shaft failure. The analysis centered around the mechanical and structural aspects of the propeller shaft and the forces exerted on it.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'Crew Resource Management (CRM) was not identified as a contributing factor in the document. CRM typically involves teamwork, communication, and decision-making, which were not cited as issues in the failure of the propeller shaft.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: 'The document does not suggest that a failure to adhere to safety procedures was a cause of the incident. The analysis focused on the condition of the propeller shaft and the fitting process, rather than procedural adherence.
+
+    '
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'Organizational safety culture is not directly mentioned as a contributing factor to the accident. The document does not discuss the values, beliefs, or behaviors within the organization that may have influenced the outcome.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'Risk management and analysis are not cited as factors in the propeller shaft failure. The document does not discuss the identification or mitigation of risks prior to the incident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no evidence in the document to suggest that a lack of regulatory oversight and compliance contributed to the accident. The focus was on the physical failure of the propeller shaft rather than regulatory issues.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'Situational awareness was not identified as a contributing factor in the document. The failure was related to the physical state of the propeller shaft and not to the perception or understanding of the environment by the crew.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'Emergency response preparedness is not mentioned as a contributing factor to the propeller shaft failure. The document does not discuss the readiness to respond to emergencies in relation to the incident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'The document does not indicate that inadequate maintenance and inspection regimes were a cause of the propeller shaft failure. The analysis focused on the condition of the propeller shaft and the forces acting upon it, rather than maintenance practices.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The use of automation is not discussed as a contributing factor to the accident. The document does not mention reliance on automated systems in the context of the propeller shaft failure.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions and decision making are not cited as factors in the propeller shaft failure. The document does not discuss environmental factors or their impact on the safety of operations.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'Communication breakdown is not mentioned as a contributing factor to the accident. The document does not discuss failures in the exchange of information or its impact on the incident.
+
+    '
+- name: Other
+  percentage: 100
+  explanation: The propeller shaft failure was attributed to a combination of factors including the weakened state of the tail shaft due to fretting and corrosion, and increased uniaxial bending forces and cavitation ("The Commission determined that the new starboard propeller blades had been producing uneven thrust and cavitating from the time the propeller had been fitted" (9.5.1)). Additionally, the misalignment of the propeller shaft and the fitting of the cone to the starboard propeller not being in accordance with the manufacturer's instructions likely contributed to minor vibration in the region where the tail shaft cracked ("The method of fitting the cone to the starboard propeller was not in accordance with the manufacturer's instructions" (13.10)). These factors, along with the variation in pitch between blades, induced abnormal uniaxial bending forces in the tail shaft, which acted on the weakened shaft to propagate the fatigue crack ("The variation in pitch between blades would very likely have induced abnormal uniaxial bending forces in the tail shaft" (13.12)).

@@ -1,0 +1,982 @@
+﻿  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Inquiry 11 -105: Freight Train 228 wrong -routed, into closed section of track  
+Wiri Junction, South Auckland, 12 November 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to determine 
+the circumstances and causes of accidents and incidents with a view to avoiding similar occurrences in the 
+future.  Accordingly it is inappropriate th at reports should be used to assign fault or blame or determine 
+liability, since neither the investigation nor the reporting process has been undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of im plementing any 
+recommendation must always be balanced against its benefits.  Such analysis is a matter for the regulator 
+and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made to 
+the Transpor t Accident Investigation Commission.  
+  
+  
+ 
+ 
+ 
+ 
+Final Report  
+Rail inquiry 11-105 
+Freight Train 228 wrong -routed  
+into closed section of track  
+Wiri Junction , South Auckland  
+12 November 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication :  December 2013    
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity responsible 
+for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  co-ordinating and 
+co-operating with other accident investigation organisations overseas .  The principal purpose of its inquiries 
+is to determine the circumstances and causes of occurrence s with a view to avoidin g similar occurrences in 
+the future.  Its purpose is not to ascribe blame to any person or agency  or to pursue (or to assist an agency to 
+pursue) criminal, civil or regulatory action against a person or agency.  The Commission carries out its 
+purpose by in forming members of the transport sector, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.  
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull, QC  
+Comm issioner     Howard Broad , CNZM  
+ 
+Key Commission p ersonnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator in Charge    Vernon Hoey  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone   + 64 4 473 3112 (24 h ours) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+  
+ Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this final 
+report inadmi ssible as evidence in any proceedings with the exception of a Coroner's inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part witho ut charge, provided that acknowledgement is made to 
+the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in this 
+final report.  Docu ments that would normally be accessible to industry participants only and not discoverable 
+under the Official Information Act 1980 have been referenced as footnotes only.  Other documents referred 
+to during the Commission's inquiry that are publicly availa ble are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided by, 
+and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Train 228 stopped on the closed northbound track at Puhinui  
+ 
+crane straddling  
+northbound track  
+KiwiRail picture  
+open southbound 
+track on this side 
+of platform  
+  
+ Contents  
+Glossary  ................................ ................................ ................................ ................................ ..............................  ii 
+Data summary ................................ ................................ ................................ ................................ ...................  iii 
+1. Executive summary ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ..............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ .. 3 
+3.1. Events before the incident  ................................ ................................ ................................ ..........  3 
+3.2. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+3.3. Personnel information  ................................ ................................ ................................ .................  7 
+4. Analysis  ................................ ................................ ................................ ................................ .....................  8 
+4.1. Introduction  ................................ ................................ ................................ ................................ .. 8 
+4.2. What happened  ................................ ................................ ................................ ............................  8 
+4.3. Protection of work area - Control blocking  ................................ ................................ ................  9 
+4.4. Crew resource management  ................................ ................................ ................................ ..... 10 
+4.5. Presentation of bulletins  ................................ ................................ ................................ ...........  11 
+5. Findings  ................................ ................................ ................................ ................................ ...................  13 
+6. Safety lessons  ................................ ................................ ................................ ................................ .........  14 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  15 
+General  ................................ ................................ ................................ ................................ ....................  15 
+Safety actions addre ssing safety issues identified during an inquiry  ................................ .................  15 
+Safety actions addressing other safety issues  ................................ ................................ .....................  16 
+8. Recommendations  ................................ ................................ ................................ ................................ . 17 
+General  ................................ ................................ ................................ ................................ ....................  17 
+Recommendations  ................................ ................................ ................................ ................................ . 17 
+9. References  ................................ ................................ ................................ ................................ ..............  18 
+Appendix 1:   Special bulletin No.959  ................................ ................................ ................................ ........  19 
+ 
+ 
+
+  
+Final report  11-105 | Page i Figures  
+Figure 1   Track layout between Papakura and Westfield (not to scale)  ................................ .........................  5 
+Figure 2   Wiri Junction with a crane working off -track at Puhinui in  the background  ................................ ... 6 
+  
+Tables  
+Table 1: Hours worked by train controller and train driver in week before incident  ................................ ............  7 
+  
+ 
+Page ii | Final report 11 -105 Glossary  
+block entry board  an operating demarcation point in lieu of a signal that defines the wrong -
+line-running entr ance  into, or exit from , a block section  that extends 
+between 2 stations equipped for the crossing of train s 
+compulsory stop boards  a protection system that applied to the open southbound track to ensure 
+that members working on the closed track were clear of the open track 
+when any train was to travel between Papakura and Westfield  
+control blocking  a method of track protection by holding a signal at "stop" to prevent trains 
+from entering a section of track  
+northbound track  the left-hand track in direction of travel from Papakura to Westfield.  
+KiwiRail defined the northbound track as the Up main line  
+person -in-charge  the person designated to take overall charge of track workers and 
+machines on the closed track  
+rail protection officer  the person designated to ensure safety between train movements on the 
+open track and track workers and machines on the (mostly parallel) 
+closed track  
+special bulletin  a document detailing train service alterations and planned infrastructure 
+work information.  Bulletins are distributed to train controllers, signallers, 
+train drivers and infrastructure maintenance staff  
+southbound track  the right -hand track in direction of travel from Papakura to Westfield.  
+KiwiRail defined the southbound track as the Down main line  
+train c ontrol  the national train control centre in Wellington , which directs the 
+movement of all trains and authorises all levels of track occupations on 
+the control led network  
+Train 228  an overnight northbound express freight service scheduled to run on the 
+North Island Main Trunk from Wellington to Westfield (KiwiRail's principal  
+domestic freight distribution terminal for Auckland)  
+Wiri/Wiri Junction  a temporary track layout that provided a defined boundary between a new 
+signalling system north of Wiri Junction and an old signalling system south 
+of Wiri.  Special instructions were in place for the working of trains over 
+the short distance between the adj oining stations  and between the 2 
+signalling systems  
+  
+  
+Final report  11-105 | Page iii Data summa ry 
+Date and time  12 November 2011 at 1213  
+Location  Wiri Junction, 658.40 kilometres, North Island Main Trunk  
+Persons involved  KiwiRail train controller and train driver  
+Injuries  nil 
+Damage  nil 
+
+  
+Final report  11-105 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On Saturday 12 November 2011 major rail infrastructure and maintenance work was under way on 
+the section of track between Papakura and Westfield in South Auckland.  One of the 2 tracks was 
+closed for the works  (the northbound track ).  A train controller in the national train control centre in 
+Wellington was managing the flow of trains through the work area using the adjacent  southbound  
+track .  Metropolitan passenger train services had been cancelled for the weekend to relieve 
+congestion through the work area, but the freight train schedule was maintained.  
+1.2. At about 11 00 freight Train 228 was travelling north from Papakura to Westfield on the adjacent 
+southbound track .  The train was operating under an exemption from the train controller to travel in 
+the wrong direction for that track  as far as Westfield, a process called "wrong -line-running ". 
+1.3. However, the train controller mistakenly set the route for the train to cross back over to the closed 
+northbound track  at Wiri Junction (before Westfield).  The train driver did not question the train 
+controller on the apparent change in plan.  Around the corner from Wiri Junction, a mobile crane 
+was straddling the northbound  track  as it worked on re moving a pedestrian overbridge.  The train 
+crossed over to the closed northbound track , and as it rounded the corner the driver saw the crane 
+blocking the track  ahead.  He immediately applied the brakes and stopped his train 97 metres 
+from the crane.  
+1.4. The train controller was supposed to have applied "control blocking " to all signals and/or points 
+where trains could potentially enter the closed work area, but he d id not do this.  Control b locking 
+the signals /points was a process designed to prevent the train controller inadvertently setting the 
+route for a train to enter the work area.  
+1.5. The Transport Accident Investigation Commission (Commission) could not identify the reason  why 
+the train contro ller made the errors.  However, safety -critical systems should be safeguarded 
+against one person's error resulting in an incident or an accident.  
+1.6. The Commission identified 3 safety issues  that either contributed to, or could have prevented , the 
+incident:  
+ the KiwiRail rules did not require a cross -check confirmation that appropriate control blocking 
+had been applied to protect the section of track closed for maintenance work  
+ the train driver was reluctant to, and did not , chall enge the train controller when he was given 
+an instruction that he thought was not correct  
+ the information provided in special work bulletins was not clear.  
+1.7. KiwiRail immediately addres sed the first safety issue.  T he Commission has made 
+recommendations in previous inquiries which  have addressed the other 2 safety issues.  These 2 
+recommendations are still open, awaiting the completion of corrective action s from the NZ 
+Transport Agency and KiwiRail.  No new recommendations have been made.  
+1.8. Key safety lesso ns arising from this incident include:  
+ rail work areas must be fully protected from all other rail activities before work begins, and 
+there must be a positive confirmation between train controllers and persons in charge of work 
+areas that the appropriate p rotections have been put in place  
+ all rail staff must communicate properly and be prepared to challenge other staff, including 
+perceived and actual superiors, if the plan is not proceeding as they understand it should  
+ The KiwiRail Visitor Procedure Policy is an appropriate policy to protect the responsibilities of 
+train controllers .  KiwiRail should reinforce the importance of compliance with the Visitor 
+Procedure Policy with train control employees.  
+  
+ 
+
+<< Page 2 >>
+ Final report 11 -105 2. Conduct of the in quiry  
+2.1. On Monday 14 November 2011 t he NZ Transport Agency notified the Commission of the incident 
+under section 13(4) of the Railways Act 2005.  The Commission opened an inquiry under section 
+13(1) of the Transport Accident Investigation Commission Act 1990  to determine the 
+circumstances and causes of the incident , and appointed an investigator -in-charge.  
+2.2. On 16 and 17 November 2011 the investigator -in-charge travelled to Wiri, Wiri Junction and 
+Puhinui and examined the accident site .  He interviewed the  train driver  and the person in charge  
+of the work sites . 
+2.3. The train controller was interviewed in Wellington on 18 November 2011.  
+2.4. The Commission also obtained and reviewed a number of records and documents from KiwiRail 
+including:  
+ KiwiRail general Rule  24 and track safety Rules 900 to 918 inclusive  
+ the special bulletin  
+ the written work permit for the closed track and the wrong -line-running authorit y for Train 228 
+issued by the train controller  
+ training and person nel records, including the results of previous performance assessments for 
+both the train controller and train driver  
+ the roster, hours of work and operating incident history for both the train controller and the 
+train driver  
+ data downloads from t he train control voice recording system , the event recorder from 
+locomotive DL9066 on Train 228  and the Wiri Junction signalling system .  This data was used 
+to determine the sequence of events that occurred prior to and during the movement of Train 
+228 from Papakura to Puhinui . 
+2.5. On 23 October 2013  the C ommission approved a draft final report on the incident for distribution 
+to interested parties for comment . 
+2.6. On 17 December 2013  the Commission revi ewed the submissions and changes to the draft report 
+were made where appropriate.  The Commission approved the final report for publication on the 
+same date.  
+  
+  
+Final report  11-105 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Events before the incident  
+3.1.1.  Significant rail track development and maintenance work  had been underway in the  Auckland 
+metro politan  (metro)  area .  The next stage of the work was planned for the weekend of 12 and 13 
+November 2011 . 
+3.1.2.  The planned work meant the  closure of the northbound  rail track  from Papakura to Westfield  to 
+provide uninterrupted access for machines and workers at several work sites along a 17.5 -
+kilometre  section  of track .  A person -in-charge was delegated to oversee all the work sites on the 
+closed section of track.  One of the work sites involved removing an old footbridge at Puhinui  
+station , between Wiri Junction and Westfield.   It was necessary for a mobile cr ane to straddle the 
+northbound track to complete the work . 
+3.1.3.  All north and southbound trains were required to use the southbound  rail track  for the period of the 
+works.  All metro  passenger trains were cancelled  for the weekend to alleviate congestion .  The 
+usual  freight  train schedule was , however , maintained.  
+3.1.4.  The work on the closed northbound track  and the special train running and associated protection 
+arrangements for the open southbound track were detailed in a 7-page special bulletin issued by 
+KiwiRail on 10 November 2011  (refer Appendix 1). 
+3.2. Narrative  
+3.2.1.  The KiwiRail train controller started his shift at the national train control centre in Wellington on 12 
+November 2011  at 0650 .  He was controlling trains and authorising track occupations in the 
+Auckland metro area and down as far as Hamilton . 
+3.2.2.  The train controller had been briefed by the outgoing train controller during the change of shift 
+about a work permit that was required to be  issued at 0800 to formal ly close the n orthbound track 
+from Papakura to W estfield.  The train controller acknowledged  the closure limits and confirmed 
+that everything would be running on the  southbound track.  
+3.2.3.  At 0810  the train controller filled out the work permit  document , drew its limits on the train control 
+diagram and issue d the permit to the person in charge  of the work site .  KiwiRail rule s governing 
+the work permit  process required the train controller to protect the entry points to the closed 
+section of track.  However,  the rules did not require a confirmation with the person -in-charge that 
+the protection arrangements had been applied . 
+3.2.4.  There were 3 entry points to the closed section of track that required protecting:  
+ at the Papakura end (within the Papakura signal box area)  
+ at the Westfield end  
+ at the 1851 crossover poin ts at Wiri Junction . 
+3.2.5.  The train controller ought to have arrange d for the signals to be  control blocked at each of the entry  
+points  to the work area1.  He did not do this.  Instead he arranged control blocking on the signals 
+controlling rail vehicles leaving  the work area at Papakura and Westfield and did not apply blocking 
+on the 1851 crossover points at Wiri Junction.  
+3.2.6.  At about 1020 t he train controller plotted the path for the next northbound freight Train 228 (the 
+freight train ) from Papakura  to Westfield  on the train control diagram .  He plotted it travelling from 
+Papakura to Wiri Junction only.  From there he intended  to route the freight train  back  to the 
+northbound track , where , unbeknown to the train controller,  the crane was straddling the t rack at 
+Puhinui . 
+                                                        
+1 KiwiRail Rule  24, Mis.60 proced ures. 
+ 
+
+<< Page 4 >>
+ Final report 11 -105 3.2.7.  The train controller verbally issued  a wrong -line-running authority2 to the signaller at the Papakura 
+signal box .  This authority allowed the freight train  to enter the southbound track . 
+3.2.8.  At 10 53 the train controller change d the setting of the 1851 crossover points at Wiri Junction to 
+route the freight train  from the open track to the closed northbound track (see Figure 1). 
+3.2.9.  At 1110 the freight train arrived at Papakura.  At 1121 the train controller verbally issued the driver 
+with his copy of the wrong -line-running authority  through to Westfield .  The driver repeated the 
+authority back to the train controller and a few minutes later the freight train left Papakura and 
+crossed over to  the open southbound track . 
+3.2.10.  At 1133 the train controller an swered a mobile phone call from  a family member .  He then left the 
+cubicle and returned 9 minutes later with a group of unauthorised visitors3. 
+ 
+                                                        
+2 KiwiRail SWA 01.  
+3 It was against KiwiRail policy for unauthorised visitors to enter the train control cubicles.  
+  
+Final report  11-105 
+<< Page 5 >>
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Papakura  
+Wiri 
+Junction  
+Westfield  
+northbound trains required special running 
+authority to travel from Papakura to Wiri  
+northbound trains travel led in accordance 
+with signals  from Wiri Junction to Westfield  
+N 
+Puhinui  
+open southbound track  
+ closed n orthbound track  
+Wiri 
+crane working 
+on track here  
+ Train 228 scheduled to follow the solid 
+black line from Papakura to Westfield  
+Block Entry 
+Board No.4  
+Block Entry 
+Board No.2  
+the 1851 
+points  
+Figure 1  
+Track layout between Papakura  and Westfield (not to scale)  
+ 
+
+<< Page 6 >>
+ Final report 11 -105 3.2.11.  At 1203 the driver stopped his freight train at a red signal a t Wiri4 and called the train controller, 
+asking for permission to pass the signal at "Stop ".  The train controller granted permission and also 
+gave  verbal authority for the driver to pass Block Entry Board No.45, which was up ahead.  The train 
+controller requested the driver  to call him when stopped at Block Entry Board  No.2 further ahead at 
+Wiri Junction . 
+3.2.12.  At 1204 the unauthorised visitors left the tr ain control cubicle.  
+3.2.13.  At 1207  the driver stopped his freight train at a compulsory stop board and requested  permission 
+from the rail protection officer to pass the board .  The board had been placed there to protect the 
+track maintenance workers working on the adjacent closed track , just in case any equipment or 
+personnel were obstructing the open track .  The rail protection officer  gave the driver permission to 
+pass the compulsory stop board  and continue travelling on the southbound track  to Westfield.  
+3.2.14.  The freight train  moved off and soon arrived at Block Entry Board No.2, where the driver stopped 
+his train and requested the train controller 's authority to proceed (see Fig ure 2).  The train 
+controller verbally authorised the freight train driver to pass the board  and told him that the route 
+was set for him to travel from the southbound track to the northbound track . 
+ 
+Figure 2  
+Wiri Junction with a crane working off -track at Puhinui in the background  
+                                                        
+4 Signal 2 1A. 
+5 A marker point at which trains running wrong -line are required to stop and obtain specific train control authority.  
+the 1851  
+crossover points  
+southbound 
+track  
+northbound 
+track  
+  
+Final report  11-105 
+<< Page 7 >>
+ 3.2.15.  The driver was surprised  by the instruction from the train controller because he understood the 
+northbound track was closed all the way to Westfield  and his authority was to travel wrong -line all 
+the way to Westfield .  He was expecting to continue along  the southbound track.  The driver did not 
+challenge the train controller because he believed the train controller had the authorit y to deviate 
+from the plan . 
+3.2.16.  The freight train  moved past Block Entry Board No.2 at 1213 and reached a speed of 23 
+kilometres per hour through the 1851 crossover points , and onwards to Puhinui  on the closed 
+northbound track .  A site protector radioed the dr iver t o stop at the same time that he (the driver ) 
+saw the crane st raddling the track in front of him at Puhinui .  He stopped the train at 1216 hours.  
+3.2.17.  The freight train had travelled about 750 metres from Block Entry Board No.2 and stopped 97 
+metres short of the crane.   The driver radioed the train controller to inform him of the incident.  
+3.2.18.  Both t he train controller and the freight train driver were relieved of their duties  pending an internal 
+KiwiRail investigation.  
+3.3. Personnel information  
+3.3.1.  Both t he trai n controller and train driver were experienced in their respective roles .  Both were 
+appropriately qualified  and held current  licen ces to operate .  Following the incident both underwent 
+post-incident drug and alcohol testing.  Both returned negative result s. 
+3.3.2.  The following table shows the hours worked by the train controller and train driver during the week 
+leading up to the incident:  
+Table 1: Hours worked by train controller and train driver in week before incident  
+Date : 
+November  Train controller's 
+hours worked  Train driver's 
+hours worked  
+Sunday 6  off duty  off duty  
+Monday 7  0640 to 1450  off duty  
+Tuesday 8  0640 to 1450  0001 to 0845  
+Wednesday 9  0640 to 1450  0001 to 0845  
+Thursday 10  0640 to 1450  off duty  
+Friday 11  off duty  0220 to 1145  
+Saturday 12  0650 to 1900  0220 to 1145  
+The previous weeks' rosters for both the train controller and train driver were unremarkable . 
+  
+ 
+
+<< Page 8 >>
+ Final report 11 -105 4. Analysis  
+4.1. Introduction  
+4.1.1.  The train controller made error s that resulted in his wrong -routing the freight train from  the open 
+southbound track across to the closed northbound track , which  was obstructed by the mobile 
+crane . 
+4.1.2.  Transport systems should be de signed to mitigate the risk of h uman error .  Human error  is not 
+something tha t can be totally eliminated.  
+4.1.3.  In this case  the train controller's error s could have been detected if in the first instance he had 
+used control blocking of the signals that protected  the closed section of track, and in the second 
+instance if he had been required to  cross -check  with the person -in-charge that control blocking was 
+in place . 
+4.1.4.  The train driver also had the opportunity to avert the incident.  He was aware that his train should 
+have been continuing to Westfield on the southbound track , but he did not voice his concern to the 
+train controlle r when the train controller told him that the  route  ahead had been set for  his train to 
+cross back onto the northbound track . 
+4.1.5.  The following analysis discusses the reasons for the train controller's error s, and raises 3 safety 
+issues:  
+ the KiwiRail rules did  not require a cross -check confirmation that appropriate blocking had 
+been applied to protect the section of track closed for maintenance work  
+ the train driver was reluctant to, and did not , challenge the train controller when he was given 
+an instruction that he thought was not correct  
+ the information provided in special work bulletins was not clear.  
+4.2. What happened  
+4.2.1.  The handover between the 2 train controllers was uneventful and the track closu re/wrong -line-
+running detail was acknowledged verbally during the process.  The train controller was made fully 
+aware during the handover that the work area on the northbound track  extended from Papakura to 
+Westfield.  
+4.2.2.  KiwiRail procedures for train control stated that before starting duty each train controller must read 
+and understand all bulletins, instructions and information relevant to the shift.  The train 
+controllers were to show that they had done this  by signing the train control diagram when  they 
+took over the shift6.  The train controller signed the train control diagram when he accepted the 
+shift.  At that time the work area extending from Papakura to Westfield  had already been marked  in 
+coloured pencil  on the train control diagram . 
+4.2.3.  When the train controller issued the permit7 closing the section of the northbound track  between 
+Papakura and Westfield, he correctly marked in pen  the limits on the train control diagram , as he 
+was required to do .  This was 2 hours and 20 minutes before he marked  the in tended route for the 
+freight train up to  Wiri Junction  only. 
+  
+                                                        
+6  KiwiRail procedures for Tr ain Control, Section 3.0 Duties of train controllers . 
+7 Rule 24, Mis .60 procedures . 
+  
+Final report  11-105 
+<< Page 9 >>
+ 4.2.4.  At some time during that 2 hours and 20 minutes the train controller developed a mind -set that the 
+work area and closed section of track ended at Wiri Junction , instead of Westfield.  The train 
+controller mentioned that he had been on duty during a similar major work occupation the previous 
+weekend.  On that occasion the work area ended at Wiri Junction.  It is possible that this could 
+have influenced his thinkin g on the day.  Nevertheless, had he been monitoring his train control 
+diagram as he was required to do, he would have seen that the closure extended to Westfield on 
+this occasion.  
+4.2.5.  The special work bulletin covering the work closure also referred to Westfie ld as the northern lim it 
+of the work area.  However,  it was not clea rly expressed and required interpretation by the reader 
+to establish the overall limits.  This safety issue is discussed in a following section . 
+4.2.6.  The Commission considered whether the unaut horised visitors in train control could have been a 
+distracting influence.  The train controller had already made preparations for the freight train to re -
+join the closed track  at Wiri Junction before receiving the unauthorised visitors in the train contro l 
+cubicle.  Their presence therefore is unlikely to have influenced his thinking that the work area 
+extended only as far as Wiri Junction . 
+4.2.7.  However, the visitors  were present while he was authorising  the freight train to pass  signals and 
+block entry boards shortly before informing  the driver that his train was routed across to the closed 
+track  at Wiri Junction.  Their presence could have prevented him from conducting a final check of 
+the train control diagram before authorising the final movement .  Regardles s of their influence on 
+the incident, it is of concern that family and members of the public were allowed to visit train 
+control contrary to  company rules.  
+4.3. Protection of work area  - Control blocking  
+Safety issue: KiwiRail's general rule for track closure permits did not require a cross -check 
+confirmation between a train controller and a person in charge of a work site that control blocking 
+protection  for the work area  had been applied .  
+4.3.1.  KiwiRail 's rules require train controllers to protect a gainst rail vehicles inadvertently entering a 
+work area when a track closure permit is issued.  Rule 24 stated in part that:  
+Train control must arrange for signals at the entrance to the affected section to be 
+held at Stop during the period the permit is i n operation.  If the panel is a computer 
+based system, a control tag must be entered for the signal or station concerned.  
+4.3.2.  For some reason the controller  did not apply blocking to any of the signals controlling entry  to the 
+work area.  Instead he applied bl ocking on the 2 signals controlling the exit from the work area at 
+Papakura and Westfield .  This meant that protection was applied to prevent vehicles within the 
+work area from leaving at these 2 points, but not against trains entering the work area.  
+4.3.3.  The third  entry point at Wiri Junction was not protected either way.   This failure to apply any kind of 
+blocking to the points at Wiri Junction would normally be  consistent with a mind -set that the work 
+area only extended as far as Wiri Junction.  However, at the same time that the train controller 
+should have applied control blocking at Wiri Junction, he had applied control blocking at Westfield, 
+albeit in the wrong direction.  The train controller was at a loss to explain these lapses . 
+4.3.4.  The KiwiRail "900 serie s of track protection rules " had been revised in November 2008  to include 
+the requirement for the persons in charge of smaller work areas to cross -check with train control 
+that the signals protecting their work area had been blocked.  The 900 series of rul es was typically 
+used for smaller work areas that were within the local Channel one radio coverage.  
+4.3.5.  However, Rule 24 outlined  protection arrangements for larger work areas like the one involved in 
+this incident .  It had not been revised in the same way.  C onsequently, there was no requirement 
+for the person in charge of the work area between Papakura and Westfield , and th e train controller , 
+to confirm that the required signals /points  had been blocked.  This was a serious oversight.  
+ 
+
+<< Page 10 >>
+ Final report 11 -105 4.3.6.  The oversight meant that an error made by one person ( the train controller) went undetected for 
+more than 2 hours until the incident occurred.  Following this inci dent KiwiRail immediately 
+amend ed Rule 24 to require the same cross -check required of the 900 series of rules (refer t o 
+Safety action s section of this report).  
+Findings:  
+1. The potential collision between the freight train and a mobile crane was the result of 
+the train controller making  2 errors:  
+ he thought that the limits of the work area and closed section of track 
+extended only as far as Wiri Junction because he did not check his train 
+control diagram  
+ he did not apply the required control blocking to  signals preventing trains 
+from entering the work area.  
+2. The train controller's error s went unnoticed for more than 2 h ours because KiwiRail's 
+rules for track closure permits did not require the person -in-charge to confirm with the 
+train controller that control blocking had been applied to protect the work area . 
+4.4. Crew resource management  
+Safety issue: The train driver did not challenge the train controller when told by him that his train 
+was routed to cross over onto what he had known was a section of track closed for maintenance 
+work . 
+4.4.1.  KiwiRail described its crew resource management practices as "using available staff within a group 
+involved with a specific task or operation to improve safety .  A safe and efficient operation is one 
+where all participants (the crew) are aware of the plan and then use all available resources to 
+execute it safely and efficiently ".  Plans can and do change, which should not be  an issue  as long 
+as those involved are aware of the change.  
+4.4.2.  In this case the plan was described in the special bulletin.  The train controller, the people involved 
+in protecting the work area and the train dr iver all read and understood the operating 
+arrangements around the work area.  There were no changes to that original plan.  
+4.4.3.  The train driver said later that he was "alarmed" when he was told by the train controller that the 
+route had been set for his train  to cross over to the northbound track  at Wiri Junction.  He was 
+alarmed because he was expecting to continue on the open southbound track  to Westfield, which 
+had just been verified by the rail protection officer 5 minutes befor ehand , when he had stopped h is 
+train at the compulsory stop board.  
+4.4.4.  The driver later said that he did not challenge the train controller because he knew him to be a 
+senior and experienced controller who had authority to amend the plan.  A challenge at th at point 
+could well have influe nced the train controller to check his train control diagram  and other 
+documents .  The potential collision would have been averted.  
+4.4.5.  The Commission has been alerting the rail industry for several years about the need to fully 
+embrace and promote the concept  of crew resource management , including good communication , 
+as a means of improving safety  across the rail industry . 
+  
+  
+Final report  11-105 
+<< Page 11 >>
+ 4.4.6.  The most recent was o n 28 March 2012, when the Commission made a recommendation8 to the 
+Chief Executive of the NZ Transport Agency that  the National Rail System Standard  executive 
+develop standards to ensure that all rail participants meet a consistently high level of crew 
+resource management and  communication that includes the use of standard rail phraseology .  A 
+standard has yet to be developed.  Consequently the safety recommendation still has an open 
+status at the time this report was published . 
+Finding:  
+3. The train driver had the opportunity to avert the potential collision between his train 
+and the mobile crane by challenging the trai n controller's information that the route 
+was set for his train to cross over to the northbound track  (to enter the closed work 
+area ). 
+4.5. Presentation  of bulletins  
+Safety issue : The special bulletin outlining the plan for the major infrastructure and maintenance 
+work did not present information to maintenance and operational staff in a clear and logical 
+format.  
+4.5.1.  KiwiRail defined a bulletin, including special bulletins, as a document containing supplementary 
+information to documented rules and regulation s, such as some of its track safety rules in this 
+instance.  
+4.5.2.  KiwiRail had  standards for the format, content, layout and the inclusion or otherwise of information 
+in bulletins.  KiwiRail s tated  that bulletins must be clearly set out, readily understood and not over -
+padded with information already contained in rules and regulations.  
+4.5.3.  This special bulletin contained a lot of information for several different stakeholders:  
+ track maintenance staff (i ncluding maintenance vehicle operators and contractors)  
+ work site protection staff  
+ train controllers  
+ train drivers . 
+4.5.4.  The instructions were not intuitive for train drivers and train controllers.  The train driver said that 
+he had to read the special bulletin  several times before he understood how his train would be 
+affected  because information relevant to train operations between Papakura and Westfield "was 
+not all together ; was across several pages; and didn't flow".  
+4.5.5.  For the train controller the information related to the wrong -line-running of trains between 
+Papakura and Westfield was contained on several pages.  The relevant instructions were on the 
+bottom of 
+<< page 2 >>
+ and the top of 
+<< page 4 >>
+ ( highlighted in Appendix 1).   Information specific to 
+signalling arrang ements at Wiri and Wiri Junction was repeated 4 times on the first 4 pages of the 
+bulletin.  Without careful reading, it would be feasible for a train controller to mistake the limits of 
+the work area as Wiri rather than Westfield.  
+4.5.6.  In such cases it would b e helpful to have a section dedicated to each of the stakeholders to avoid 
+any confusion or ambiguity.  
+  
+                                                        
+8 Commissi on report 11 -101 Papakura -Wiri, Recommendation 002/12.  
+ 
+
+<< Page 12 >>
+ Final report 11 -105 4.5.7.  On 5 September 2011 risk and safety management solution consultan ts produced a report that 
+KiwiRail had commissioned on the matter of rail construction , safety and efficiency.   The 
+consultancy report concluded by recommending that KiwiRail reviews and updates the processes 
+and technology used in preparing and distributing the bulletins issued by the network control 
+centre in Wellington.  
+4.5.8.  On 26 October 201 2 the Commission made a recommendation to the Chief Executive  of the NZ 
+Transport Agency in its Tamaki rail inquiry9 report that he ensures bulletins that convey critical 
+information to rail participants are presented in a clear and unambiguous way.  
+4.5.9.  The NZ  Transport Agency accepted the recommendation.  Joint KiwiRail and NZ Transport Agency 
+meetings held during  2013 acknowledged that there was "a lot of information given out to staff 
+that don't need it (such as train drivers) and it is important that information is targeted to the 
+audience".  
+4.5.10.  Following this incident  KiwiRail took some safety action with its bulle tin processes (refer to Safety 
+actions section of this report).  At the time of publication of this report the Commission's 
+recommendation still had an "open " status.  
+Finding:  
+4. The special bulletin outlining the plan for the major infrastructure and maintenance 
+work did not present information to maintenance and operational staff in a clear and 
+logical format.  
+   
+                                                        
+9 Commission report 10 -101,  Tamaki, Recommendation 024/12.  
+  
+Final report  11-105 
+<< Page 13 >>
+ 5. Findings  
+5.1. The potential collision between the freight train and a mobile crane was the result of the train 
+controller making 2 errors:  
+ he thought that the limits of the work area and closed section of track extended only as far as 
+Wiri Junction because he did not check his train control diagram  
+ he did not apply the required control blocking to signals preventing tr ains from entering the 
+work area.  
+5.2. The train controller's errors went unnoticed for more than 2 hours because KiwiRail's rules for 
+track closure permits did not require the person -in-charge to confirm with the train controller that 
+control blocking had been  applied to protect the work area.  
+5.3. The train driver had the opportunity to avert the potential collision between his train and the mobile 
+crane by challenging the train controller's information that the route was set for his train to cross 
+over to the nort hbound track  (to enter the closed work area).  
+5.4. The special bulletin outlining the plan for the major infrastructure and maintenance work did not 
+present information to maintenance and operational staff in a clear and logical format.  
+ 
+ 
+
+<< Page 14 >>
+ Final report 11 -105 6. Safety  lessons  
+6.1. Rail work areas must be fully protected from all other rail activities before work begins, and there 
+must be a positive confirmation between train controllers and persons in charge of work areas that 
+the appropriate protections have been put in place.  
+6.2. All rail staff must communicate properly and be prepared to challenge other staff, including 
+perceived and actual superiors, if the plan is not proceeding as they understand it should . 
+6.3. The KiwiRail Visitor Pr ocedure Policy is an appropriate policy to protect the responsibilities of train 
+controllers .  KiwiRail should reinforce the importance of compliance with the Visitor Procedure 
+Policy with train control employees.  
+  
+  
+Final report  11-105 
+<< Page 15 >>
+ 7. Safety actions  
+General  
+7.1. The Commission classifies safety actions by 2 types:  
+(a) safety actions taken by the regulator or an operator to address safety issues identified by 
+the Commission during an inquiry that would otherwise result in the Commission issuing a 
+recommendation  
+(b) safety actions taken by the regulator or an operator to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety actions addressing safety issues identified during an inquiry  
+7.2. On 14 May 2013 KiwiRail adv ised that the following safety actions had been taken as a result of 
+the incident:  
+ bulletins covering major work events are issued [by limited distribution] in a draft format 10 
+days in advance of the planned work occurring.  Bulletins covering major work in the Auckland 
+metro area are subjected to a conference call between key operating managers prior to the 
+bulletins being finalised.  Final bulletins are issued 3 days in advance of the planned work 
+occurring to ensure the information is available in suffi cient time for members to become 
+familiar with the content.  Preparatory work for the writing up of documentation in train control 
+is now done by train controllers on previous shifts in readiness for the work occurring  
+ a "Safe Working Procedures for Major Work Areas " booklet, issued on 23 December 2011, 
+requires the implementation of a secondary protection level.  The booklet contain s the 
+following instruction:  
+Points within the work area - securing of points during planned work  
+ When planning protection, a risk assessment must be carried out to identify which 
+points are required to be secured from movement b y either:  
+o Securing the points machines in accordance with a special instruction  
+o Control tags being applied by the Signaller  
+ When establishing protection for the work area, the rail protection officer must 
+ensure that the points identified in the risk assessment have either been secured or 
+the train controller has applied the control tags.  
+ Before moving the points, the train controller must obtain permissio n of the rail 
+protection officer.  
+ a full upgrade of the signalling system at Wiri/Wiri Junction was commissioned during October 
+2012.  This action removed the temporary signalling arrangements and also the 2 block entry 
+boards  
+ KiwiRail advised that in the time between the incident and the compilation of the report no 
+further significant unauthorised train movements have occurred at Wiri, with either the old or 
+new signalling systems.  
+7.3. On 28 May 2013 KiwiRail said that all bulletins are now displayed on the c ompany's intranet 
+website.  Limited access to the website is available for some users with mobile connectivity, and 
+online  access is available for most contractors.  
+  
+ 
+
+<< Page 16 >>
+ Final report 11 -105 Safety actions addressing other safety issues  
+7.5. On 14 May 2013 KiwiRail advised that the following safety actions had been taken as a result of 
+the incident:  
+ train control diagram conventions were updated for the plotting of wrong -line-running 
+movements in [old] double line automatic signalling systems and reverse direction running in 
+[new] au tomatic signalling areas.  
+  
+  
+Final report  11-105 
+<< Page 17 >>
+ 8. Recommendations  
+General  
+8.1. The Commission may issue, or give notice of , recommendations to any person or organisation that 
+it considers the most appropriate to address the identified safety issues, depending on whether 
+these safety  issues are applicable to a single operator only or to the wider transport sector.    
+Recommendations  
+8.2. There are no recommendations.  
+  
+ 
+
+<< Page 18 >>
+ Final report 11 -105 9. References  
+KiwiRail Q011 R ail Operating Rules and Procedures  dated 10 June 2010 . 
+KiwiRail Safe Working Procedures for Major  Work Areas (trial) dated 23 December 2011 . 
+"Impac t Risk and Safety Management Solutions " report titled  Rail Construction Safety and Efficiency Report 
+for KiwiRail dated 5 September 2011 . 
+Commission report 10 -101: wrong route setting, high speed transit through turnout, near miss and signal 
+passed at danger , Tamaki, 13 August 2010 . 
+Commission report 11 -101: wrong line running irregularity, leading to potential head -on collision, Papakura -
+Wiri, 14 January 2011 . 
+  
+  
+Final report  11-105 
+<< Page 19 >>
+ Appendix 1 :  Special bulletin No.959  
+ 
+  
+
+ 
+
+<< Page 20 >>
+ Final report 11 -105  
+  
+ 
+  
+Final report  11-105 
+<< Page 21 >>
+  
+  
+
+ 
+
+<< Page 22 >>
+ Final report 11 -105  
+  
+ 
+  
+Final report  11-105 
+<< Page 23 >>
+  
+  
+
+ 
+
+<< Page 24 >>
+ Final report 11 -105  
+  
+
+  
+Final report  11-105 
+<< Page 25 >>
+  
+ 
+ 
+  
+  
+  
+ 
+  
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most  recent at top of list)  
+ 
+RO-2013 -108 Near collision between 2 metro passenger trains, Wellington, 9 September 2013  
+11-106 Hi-rail vehicle nearly struck by passenger train, Crown Road level crossing near 
+Paerata, North Island Main Trunk, 28 November 2011  
+11-102 Track occupation irregularity, leading to near head -on collision, Staircase -
+Craigieburn, 13 April 2011  
+RO-2013 -104 Urgent Recommendations: Derailment of metro passenger Train 8219,  
+Wellington, 20 May 2013  
+11-103 Track workers nearly struck by pass enger train, near Paekakariki, North Island Main 
+Trunk, 25 August 2011  
+10-101 wrong route setting, high -speed transit through turnout, near miss and SPAD (signal 
+passed at danger), Tamaki, 13 August 2010  
+11-104 Freight Train 261 collision with bus, Beach  Road level crossing, Paekakariki, 31 
+October 2011  
+10-102 collision between 2 metro passenger trains, after one struck a landslide and 
+derailed between Plimmerton and Pukerua Bay, North Island Main Trunk, 30 
+September 2010    
+ 
+07-102 (incorporating inquiry  07-111) freight train mainline derailments, various locations 
+on the national network, from 6 March 2007 to 1 October 2009  
+11-101 Wrong line running irregularity, leadi ng to a potential head -on collision, Papakura - 
+Wiri, 14 January 2011  
+08-102 Metro passenger train derailment, Sylvia Park, 14 April 2008 (incorporating 
+inquiries 08 -104 and 08 -107) Diesel motor fires on board metro passenger trains, 
+3 June 2008 and 25  July 2008  
+ 
+08-111 Express freight Train 524, derailment, near Puketutu, North Island Main Trunk, 3 
+October 2008  
+08-112 Safe working irregularity resulting in a collision and derailment at Cass Station  
+on the Midland line, 8 November 2008  
+09-102 Passenger fatality after falling between platform and passenger Train 8125, 
+Newmarket West station, 1 July 2009  
+08-109 Passenger express  Train 9113, platform overrun resulting in signal passed at 
+danger , Fruitvale Road Station, North Auckland Line, 4 September 2008  
+07-114 Derailment caused by a wheel -bearing failure, Huntly, 19 October 2007, and 11 
+subsequent wheel -bearing failures at various locati ons during the following 12 
+month period  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 15.00          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

@@ -1,0 +1,2886 @@
+﻿ 
+ 
+ 
+ 
+Final  report  
+Tuhinga whakamutunga  
+ 
+Aviation inquiry AO -2019 -005 
+BK117 -C1, ZK-IMX 
+Controlled Flight into Terrain ( Water )  
+Auckland Islands  
+22 April 2019  
+ 
+ 
+ 
+ 
+ 
+ 
+April 2023  
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+  
+ 
+ 
+ Final Report AO -2019 -005 | Page i The Transport Accident  Investigation Commission  
+Te Kōmihana Tirotiro Aituā Waka  
+No repeat  accidents - ever!  
+"The principal purpose of the Commission shall be to determine the circumstances and 
+causes of accidents and incidents with a view to avoiding similar occurrences in the future, 
+rather than to ascribe blame to any person."  
+Transport Accident Investigation Commission Act 1990 , s4 Purpose  
+ 
+The Transport Accident Investigation Commission (Commission) is an independent Crown 
+entity and standing commission of inquiry. We investigate selected maritime, aviation and 
+rail accidents and incidents that occur in New Zealand or involve New Zealand -registered 
+aircraft or vessels.  
+Our investigations are for the purpose of avoiding similar accidents in the future. We 
+determine and analyse contributing factors, explain circumstances and causes, identify safety 
+issues, and make recommendations to improve s afety. Our findings cannot be used to 
+pursue criminal, civil, or regulatory action.  
+At the end of every inquiry, we share all relevant knowledge in a final report. We use our 
+information and insight to influence others in the transport sector to improve sa fety, 
+nationally and internationally.  
+  
+Commissioners   
+Chief Commissioner     Jane Meares  
+Deputy Chief Commissioner    Stephen Davies Howard  
+Commissioner      Richard Marchant (until 3 1 October 2022)  
+Commissioner      Paula Rose, QSO  
+Commissioner      Bernad ette Arapere (from 1 December 2022)  
+Commissioner      David Clarke (from 1 December 2022)  
+Key Commission personnel  
+Chief Executive     Martin Sawyers  
+Chief Investigator of Accidents    Naveen  Kozhuppakalam  
+Investigator -in-Charge for this inquiry  Barry Stephenson  
+Commission General Counsel    Cathryn Bridge  
+   
+Page ii | Final Report AO -2019 -005  Notes about Commission reports  
+Kōrero tāpiri ki ngā pūrongo  o te Kōmihana  
+Citations and referencing  
+The citations section of this report lists public documents. Documents unavailable to the 
+public (tha t is, not discoverable under the Official Information Act 1982) are referenced in 
+footnotes. Information derived from interviews during the Commission's inquiry into the 
+occurrence is used without attribution.   
+Photographs, diagrams, pictures  
+The Commissio n owns the photographs, diagrams and pictures in this report unless 
+otherwise specified.  
+Time  
+All time statements in this report are expressed in 24-hour  format using New Zealand 
+Standard Time (NZST) . This time is the same as Universal Time Coordinated (UTC) plus 12 
+hours.  
+Verbal probability expressions  
+For clarity, the Commission uses standardised terminology where possible.  
+One example of this standardisation is the terminology used to describe the degree of 
+probability (or likelihood) tha t an event happened, or a condition existed in support of a 
+hypothesis. The Commission has adopted this terminology from the Intergovernmental Panel 
+on Climate Change and Australian Transport Safety Bureau models. The Commission chose 
+these models because of their simplicity, usability, and international use. The Commission 
+considers these models reflect its functions. These functions include making findings and 
+issuing recommendations based on a wide range of evidence, whether or not that evidence 
+would be  admissible in a court of law.  
+ 
+Terminology  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not 33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ Final Report AO -2019 -005 | Page iii  
+Figure 1: Aircraft, ZK -IMX 
+(Credit: Southern Lakes Helicopters)  
+  
+
+   
+Page iv | Final Report AO -2019 -005   
+Figure 2: Location of accident  
+
+ 
+ Final Report AO -2019 -005 | Page v Contents   
+Rārangi take  
+ 
+1 Executive summary ................................ ................................ ................................ .......................  1 
+What happened  ................................ ................................ ................................ ................................ ...............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
+What we can learn  ................................ ................................ ................................ ................................ ..........  2 
+Who may benefit  ................................ ................................ ................................ ................................ ............  2 
+2 Factual information  ................................ ................................ ................................ ......................  3 
+Narrative ................................ ................................ ................................ ................................ .............................  3 
+The task plan  ................................ ................................ ................................ ................................ ...............  3 
+The flight  ................................ ................................ ................................ ................................ .......................  3 
+Post-impact  ................................ ................................ ................................ ................................ ..................  5 
+The rescue  ................................ ................................ ................................ ................................ .....................  5 
+Personnel information  ................................ ................................ ................................ ................................ .. 7 
+Pilot ................................ ................................ ................................ ................................ ................................ . 7 
+Paramedic  ................................ ................................ ................................ ................................ ....................  7 
+Winch operator  ................................ ................................ ................................ ................................ ...........  8 
+Aircraft information  ................................ ................................ ................................ ................................ ....... 8 
+Weight and balance  ................................ ................................ ................................ ................................ .. 9 
+Meteorological information  ................................ ................................ ................................ ........................  9 
+Communication s and aids to navigation  ................................ ................................ ............................  11 
+Recorded data  ................................ ................................ ................................ ................................ ...............  11 
+Site and wreckage information  ................................ ................................ ................................ ..............  11 
+Flight path  ................................ ................................ ................................ ................................ .................  11 
+Wreckage  ................................ ................................ ................................ ................................ ...................  11 
+Survival aspects  ................................ ................................ ................................ ................................ ............  15 
+Night vision imaging systems (NVIS)  ................................ ................................ ................................ ... 16 
+Night vision goggle (NVG) helicopter operations  ................................ ................................ ..........  19 
+Aviation rules  ................................ ................................ ................................ ................................ ...........  19 
+Equipment requirements  ................................ ................................ ................................ ......................  19 
+NVIS pilots  ................................ ................................ ................................ ................................ .................  20 
+NVIS crew members  ................................ ................................ ................................ ...............................  21 
+Risk management for NVIS operations  ................................ ................................ ...........................  22 
+Tests and research  ................................ ................................ ................................ ................................ ....... 22 
+   
+Page vi | Final Report AO -2019 -005  Previous occurrences  ................................ ................................ ................................ ................................ .. 23 
+Organisational information  ................................ ................................ ................................ ......................  24 
+Emergen cy locator transmitter  ................................ ................................ ................................ ...............  24 
+3 Analysis  ................................ ................................ ................................ ................................ ........  25 
+Introduction  ................................ ................................ ................................ ................................ ...................  25 
+What happened  ................................ ................................ ................................ ................................ ............  25 
+Why did the helicopter impact the sea surface?  ................................ ................................ .............  27 
+Flight planning  ................................ ................................ ................................ ................................ ......... 27 
+Pilot had minimal NVG recency  ................................ ................................ ................................ ........ 28 
+Unstable descent near the surface  ................................ ................................ ................................ .... 28 
+Other factors  ................................ ................................ ................................ ................................ .............  30 
+Single -pilot VFR operations into the Southern Ocean  ................................ ................................ .. 30 
+Definition of crew member  ................................ ................................ ................................ ..................  32 
+Present regulatory void for NVIS and ai r ambulance operations ................................ ..............  33 
+United States of America  ................................ ................................ ................................ ......................  34 
+Australia  ................................ ................................ ................................ ................................ .....................  34 
+European Union and United Kingdom  ................................ ................................ ............................  35 
+Flight Safety Foundation  ................................ ................................ ................................ ......................  35 
+Radio altimeter requirements  ................................ ................................ ................................ .............  35 
+Summary  ................................ ................................ ................................ ................................ ...................  37 
+CRM training for helicopter operations  ................................ ................................ ..............................  38 
+CAA rules  requirements for CRM  ................................ ................................ ................................ ....... 38 
+The benefit from CRM in small size aircraft  ................................ ................................ ..................  38 
+What is the role of a non -pilot crew member during NVIS operations?  .............................  39 
+Who can teach and assess CRM for NVIS operations?  ................................ ..............................  40 
+NVIS requirements for jurisdictions outside of New Zealand  ................................ ..................  40 
+Summa ry ................................ ................................ ................................ ................................ ...................  42 
+Helicopter loading  ................................ ................................ ................................ ................................ ....... 42 
+Life-raft and survival equipment  ................................ ................................ ................................ ............  44 
+4 Findings  ................................ ................................ ................................ ................................ ....... 46 
+5 Safety issues and remedial action  ................................ ................................ .............................  47 
+General ................................ ................................ ................................ ................................ .............................  47 
+Single -pilot VFR operations into the Southern Ocean  ................................ ................................ .. 47 
+Regulatory void for NVIS and air ambulance operations  ................................ .............................  47 
+CRM training for helicopters  ................................ ................................ ................................ ...................  48 
+ 
+ Final Report AO -2019 -005 | Page vii Helicopter loading  ................................ ................................ ................................ ................................ ....... 49 
+Life-raft and survival equipment  ................................ ................................ ................................ ............  49 
+6 Recommendations    ................................ ................................ ................................ .....................  51 
+7 Key lessons  ................................ ................................ ................................ ................................ ... 53 
+8 Data summary  ................................ ................................ ................................ ..............................  54 
+9 Conduct of the Inquiry  ................................ ................................ ................................ ...............  55 
+Abbreviations  ................................ ................................ ................................ ................................ ...... 56 
+Glossary  ................................ ................................ ................................ ................................ ...............  59 
+Citations  ................................ ................................ ................................ ................................ ..............  61 
+Appendix 1  Standard medivac loading  ................................ ................................ .............................  63 
+Appendix 2  Calculated loading  ................................ ................................ ................................ ..........  64 
+Appendix 3  Weather analysis from noon 22 April 2019 (NZST)  ................................ .....................  65 
+Appendix 4  Estimated Illumination (UK Met Office)  ................................ ................................ ........  66 
+Appendix 5  Descent rate into Auckland Islands  ................................ ................................ ...............  67 
+Appendix 6  Overwater Night HNVGO operations  ................................ ................................ ............  68 
+ 
+Figures  
+Figure 1: Aircraft, ZK -IMX ................................ ................................ ................................ ...... iii 
+Figure 2: Location of accident  ................................ ................................ ................................  iv 
+Figure 3: Wreckage location  ................................ ................................ ................................ ... 6 
+Figure 4: Flight path  ................................ ................................ ................................ ...............  13 
+Figure 5: Exterior damage  ................................ ................................ ................................ ..... 14 
+Figure 6: Masthead damage  ................................ ................................ ................................ .. 14 
+Figure 7: Instrument panel damage  ................................ ................................ .....................  15 
+Figure 8: Winch operator's seat belt  ................................ ................................ ....................  16 
+Figure 9: Generation III NVG  ................................ ................................ ................................ . 18 
+ 
+
+ 
+  Final Report AO -2019 -005 
+<< Page 1 >>
+ 1 Executive summary  
+Tuhinga whakarāpopoto  
+What happened  
+1.1. On 22 April 2019 , the operator was conducting a medical evacuation flight under 
+visual flight rules  (VFR) with a BK117 -C1 helicopter , registration ZK -IMX. On board 
+was the pilot, a paramedic in the front left-hand  seat, and a wi nch operator in the rear 
+cabin. The helicopter was to position south of New Zealand at Auckland Islands that 
+day (the positioning flight ). After camping overnight  on Enderby Island , the helicopter  
+crew would  rendezvous  with a fishing ship next day to heli winch1 and evacuate a sick 
+crew member back to New Zealand . 
+1.2. The positioning flight was intended to arrive during daylight , but unexpected delays 
+to the departure time resulted in them arriving after dark. The crew carried night 
+vision goggles ( NVGs ) and donned them during the positioning flight to continue 
+under VFR using NVGs.  
+1.3. The hills and coastline  around Port Ross and part of Enderby Island were  visible  
+through NVGs , but the pilot believed that the landing area was covered in cloud . The 
+pilot planned an alternative approach  to descend in the clear area to below the cloud  
+and then follow the coastline back to the landing area.  
+1.4. The pilot descended and was turning back towards the landing area when the crew 
+member (paramedic in front left -hand seat) alerted them to cliffs rising immediately 
+ahead . The pilot reacted , but the helicopter impacted the sea.  
+1.5. The crew were able to escape while the helicopter was partly submerged , but it sank 
+soon after. They were all wearing immersion suits that kept them afloat  and enabled 
+them to make  their way to shore . After  shelter ing under cover overnight , they were 
+spotted the next day by one of the rescue helicopters and brought back to 
+Invercargill to be checked in the hospital.   
+1.6. The winch operator in the rear cabin was knocked unconscious  during the impact , but 
+was able to be evacuated by another crew member . They regained consciousness 
+during the swim to shore. Otherwise, the crew only suffered minor injuries .  
+1.7. The helicopter was recovered about three  weeks later . 
+Why it happened  
+1.8. The helicopter was operating normally at the time of the accident.   
+1.9. The Commission found that the pilot had misinterpreted the image seen through the 
+NVGs  as cloud covering the landing area  when it was very likely  to have been fog 
+near the sea surface  and downwind of the shore . The planned descent and approach 
+in the clear area was made using visual reference outside and to the global 
+positioning system ( GPS) map display. However , the helicopter's descent rate became 
+high as the pilot, relying primarily on  visual  depth perception,  believed the helicopter 
+was further from the surface of the sea than it was.  When the crew did see an image 
+through the NVGs it was the 20-metre high cliffs several hundred metres ahead  and 
+ 
+1 See Glossary . 
+ 
+Final Report AO -2019 -005 
+<< Page 2 >>
+   above them . During the manoeuvre  to avoid the cliffs , the helicopter impacted the 
+sea. 
+1.10. The Commission found that the operator's exposition2 for single pilot VFR operations 
+into the Southern Ocean  was inadequate at the time to manage the risks associated 
+with such operations.  The operator has  since made significant improvements , 
+including engaging an external auditor  and introducing a new standard operating 
+procedure for Sub Antarctic Island flights . Therefore , the Commission considered that 
+no safety recommendations to the operator  were necessary . 
+1.11. The Commission also identified regulatory gaps in the New Zealand Civil Aviation 
+Rules (CARs) regarding minimum saf ety requirements for helicopters  operating under 
+Part 119 and Part 135 air operator certificates (AOCs). The gaps related to : 
+• Helicopter air ambulance (HAA) operations . 
+• Night vision imag ing systems (NVIS) and operations . 
+• Crew resource management (CRM) for operations conducted with  multi -
+pilot or a single pilot with a non-pilot crew . 
+• Pilot logging of NVG flight time.  
+1.12. The Commission made two safety recommendations to the Civil Aviation Authority 
+(CAA) in section 6 to address these safety issues.  
+What we c an learn  
+1.13. The key lessons from this investigation are listed in section 7. In summary they are  
+that: 
+• The minimum requirement for NVG currency does not equate to  
+proficiency .  
+• Helicopter underwater escape training (HUET)  and immersion suits can 
+increase surv ivability .  
+• If the operation needs crew to wear immersion suits, they should also 
+carry essential emergency items on their person . 
+• All crew with flight -related duties need to be aware of the importance of 
+radio altimeters when conducting NVIS operations and how to interpret 
+the instrument and  its alerts.  
+• Pilots should ensure their NVG flight time is separately logged . 
+• Overloading helicopters is a safety hazard.  
+• To be effective, emergency equipment such as a life -raft must also be 
+accessible in  an emergency and deployable for the crew to use.   
+Who may benefit  
+1.14. Pilots  and operators involved with HAA operations , those using NVIS , and the 
+regulator may benefit from the findings and recommendations in this report.  
+ 
+2 The content of an exposition is described in the Glossary.  
+ 
+  Final Report AO -2019 -005 
+<< Page 3 >>
+ 2 Factual information   
+Pārongo pono 
+Narrative  
+The task plan 
+2.1. On 22 April 2019, a Kawasaki Heavy Industries (KHI)  BK117 -C1 helicopter, registered 
+ZK-IMX (the helicopter) , was tasked by Southern Lakes Helicopters (the operator) for 
+a medical evacuation (medivac) in the Southern Ocean off Auckland Islands. A crew  
+member on board a fishing vessel required urgent hospital treatment and the first aid 
+stocks on the vessel needed replenishment .  
+2.2. The helicopter was based in Te Anau. The vessel was 210 nautical miles ( nm) south of 
+Auckland Islands, but intended  to make way  towards this destination  where it would 
+anchor in a sheltered area for the medivac transfer . The vessel was expected to arrive 
+at the rendezvous point at about 0750 on 23 April 2019.  
+2.3. The flight was to be conducted under VFR . Due to a  frontal weather system 
+approaching New Zealand  from south of Auckland Islands , the operator planned to 
+position the helicopter at this destination  prior to the front arriving  there . They would 
+stay overnight and then comple te the medivac  and return to Invercargill the next day .  
+2.4. The helicopter crew would stay at a hut on Enderby Island  where the  operator  had a 
+fuel store . The plan was to take minimal equipment out to the rendezvous point and 
+initially bring the patient back to the hut . The patient would be transferred to a more 
+comfortable stretcher  and stabilised, and the helicopter refuelled and then prepared 
+for the return flight to Invercargill.  The vessel needed to replenish the medical 
+supplies used to treat the patient and these would be delivered during the patient 
+transfer.  
+2.5. The task was approved by the operator to proceed,  and the crew of one pilot, a 
+paramedic and a winch operator was selected. The paramedic and winch operator  
+were both trained  and current  'NVIS crew members '.3 They  decided that t he 
+paramedic would sit in the front  with the pilot and perform the role of NVIS crew 
+member on the flight down . The return flight would be in daylight .  
+2.6. The winch operator was some distance away from base at the time,  but was in transit 
+by road back to Te Anau . They would be picked up by the helicopter on its way to 
+Invercargill.  
+2.7. The pilot and paramedic prepared the helicopter and loaded the equipment, but the 
+release of the required medical supplies and d elivery to the helicopter delayed the 
+departure time.  The original plan had been to arrive at Enderby Island in daylight, but 
+the crew were now committed to a night -time arrival.  
+The flight  
+2.8. The flight left Te Anau at 154 3 for Invercargill with the pilot an d paramedic on board , 
+and they picked the winch operator up on the way  at Athol . They refuelled at 
+Invercargill and the crew put on their immersion suits and life-jackets. They rechecked 
+ 
+3 This is a term for crew trained to assist a pilot with NVIS . See Glossary and paragraph 2.70 for explanation of 
+NVIS.  
+ 
+Final Report AO -2019 -005 
+<< Page 4 >>
+   that the ir NVGs were working and the  pilot fitted theirs  to their helmet . The pilot was 
+in the front right seat and the paramedic in the front left  and they both had green 
+phos phorus NVGs . The winch operator was sitting in the back next to the left-hand  
+side door.  
+2.9. The flight departed Invercargill at 1703  and the pilot filed a verbal flight plan with the 
+local air traffic controller. The Invercargill air traffic control zone extended south to 
+near Stewart Island and the service would go off wat ch before this flight terminated. 
+The flight duration to Enderby Island was expected to be about three hours from 
+Invercargill.  The pilot  updated the local air traffic controller when the flight departed 
+the control zone with an estimated time of arrival ( ETA) at Enderby Island of 1944.  
+They initially set off at about 6000 -7000 feet, but dropped down to cruise under 3000 
+feet most of the way because the wind was more favourable at that altitude.   
+2.10. The operator provided their own flight following and communications service for all 
+its oper ations , and was monitoring this flight with  a satellite tracking system 
+(TracPlus ) fitted to the helicopter . The flight following service was provided from its 
+base office at Te Anau  during working hours  and by the chief pilot  from their  home 
+after hours.  They also had very high frequency ( VHF) radio contact for part of the 
+route through the operator's repeater at Stewart Island and by satellite phone 
+beyond that . The pilot regularly called back to base during the flight with pos ition 
+and operational reports.  
+2.11. At about 90  nm from Enderby  Island , at approximately 1850 , the pilot contacted the 
+chief pilot to discuss the flight's progress and decide if it was suitable  to continue. 
+They were still in daylight at their altitude and could see the cloud with the 
+approaching frontal system on the horizon . After a discussion with the chief pilot , 
+they decided to continue . 
+2.12. Civil t wilight4 had ended  in their location at 183 1, and the pilot and paramedic 
+confirmed in a situation report to base logged at 1858 that they were on NVGs. They 
+could see the hills of Auckland Islands on the horizon  about 60 nm ahead. The winch 
+operator in the back was not using NVGs, and recalled it being pitch black.  
+2.13. The pilot discussed their view of the  approach to the landing point with the 
+paramedic. They both recalled that a  large bank of cloud covered the landing point 
+and extended to the south , but that there was a clear area over Port Ross extend ing 
+out toward the north west. If they could not follo w the coastline,  they had alternative 
+landing points on the island s programmed into the GPS that they could land at and 
+camp out for the night. The pilot pointed out the area clear of cloud  and advised the 
+paramedic that they would continue to head south past Ewing Island, descend in the 
+clear area , and fly back along the beach to the planned landing point  on Enderby 
+Island . They turned south at 1934, passing 1.5 nm to the east of the landing point . 
+2.14. The pilot said they set the radio altimeter5 reference to 1000 feet and started a 
+descent . After reaching the set height, the pilot reset the reference to 500 feet and 
+contin ued to descend. The pilot then reset the radio altimeter  to 250 feet and slowed 
+to 75 knots , but continued  to desce nd on a westerly heading about 0.25 nm south of 
+ 
+4 Night is defined as beginning at the end of civil twi light, which is when the centre of the setting sun's disk is 6 
+degrees below the horizon.  
+5 The radio altimeter does not use air pressure. It measures the height above the surface below using a radio 
+signal  reflected from that surface. The manually set reference height  with the height setting bug,  activates an 
+alert when the aircraft descends be low that setting.  See Glossary  for more on altimetry.  
+ 
+  Final Report AO -2019 -005 
+<< Page 5 >>
+ Ewing Island . The paramedic alerted the pilot to some  cliffs that appeared directly 
+ahead  in their flight path. The pilot flared to slow the helicopter and started to turn 
+north to avoid the cliffs. T he helicopter stopped suddenly when it hit the water  at 
+1937 . 
+Post -impact  
+2.15. The helicopter had impacted the water at speed and flipped upside down, but initially 
+remained partially submerged at the surface. It was dark , but there was enough light 
+for the crew to see each other and make out their surroundings. The two front seat 
+crew escaped underwater and gathered on the northern side of the helicopter. The 
+winch operator had been knocked unconscious in the accident and was dragged out 
+of the helicopter by the paramedic. The NVGs the front seat crew were wearing had 
+been lost in the accident. The crew recalled that the sea state was dead calm. Some 
+floating items were collected , and after extracting the winch operator the paramedic 
+re-entered the rear of the cab in with the intention of retrieving the life -raft. However, 
+in the darkness it was difficult to identify the various items and a gear -bag was 
+mistakenly taken instead. The helicopter sank shortly after along with the emergency 
+bag. 
+2.16. None of the crew had an emergency beacon or survival equipment on their person or 
+in their immersion suit pockets. They had packed all their personal locator beacons 
+(PLBs) and other survival gear into an emergency grab-bag that was stowed in the 
+rear cabin and this was lost with the helicopter when it sank.  
+2.17. The crew could see the outline of the cliffs about 100 metres away and were 
+supported in their immersion suits without needing to inflate their life -jackets. They 
+paddled as a group to the cliffs and climbed through a kelp bed onto the rocks. The 
+winch operator had regained consciousness, but needed assistance from the other 
+two. They made their way along the coastline to the north and found shelter in the 
+bush for th e night.  
+2.18. The crew heard an Orion aircraft fly overhead at times during the night, but were not 
+able to make a signal to attract attention. They also saw vessels out off the coast at 
+times, but again could not attract attention.  
+The rescue  
+2.19. The chief pilot  was monitoring the flight and immediately noticed the flight following 
+signals had stopped updating . After attempting to contact the helicopter crew on the 
+satellite phone , and confirming with the TracPlus call centre that it was not a system 
+fault, the c hief pilot notified the Rescue Coordination Centre  New Zealand (RCC NZ) at 
+2008. 
+2.20. RCCNZ tasked  a Royal New Zealand Air Force  (RNZAF ) P3 Orion aircraft to conduct a 
+visual search near the last known point.  The P3 Orion left from RNZAF Base 
+Whenuapai at 2251  and arrived on scene early next morning at 0120. Cloud cover 
+prevented a close search at low level so an  infrared scan was conducted searching for 
+life forms . Flares were dropped along the east coa st of Auckland Island s. The P3  
+Orion continued to patrol the search area  during the night  and then  departed the 
+scene  at 0815 for RNZAF Base Ohakea to  refuel and change crew.  
+ 
+Final Report AO -2019 -005 
+<< Page 6 >>
+   2.21. RCCNZ also tasked five fishing vessels operating nearby to assist with a sea search. 
+The first fishing vessel arrived in the area on 22 April at 2323 . The Antarctic Discovery6 
+also headed to the area , but then diverted to Bluff with their patient . The f ive fishing 
+vessels remained on scene and conducted a coordinated search in the designa ted 
+search area . This extended south  of Ewing Island towards  and beyond  Yule Island . At 
+0803 , one of the fishing vessels found the left -hand  sliding cargo  door from the 
+helicopter floating within the search area.   
+2.22. Three rescue helicopters departed New Zeal and at about 1015 on 23 April 2019. The 
+first arrived on scene at 1142 and saw the three crew  mem bers in their brightly 
+coloured immersion suits walking on a beach near Crozier Point at 11 45. The other 
+two rescue helicopters dispatched from Dunedin arrived a few minutes later . After 
+providing first aid to the three crew and refuelling, the rescue helicopters  flew the 
+crew to Invercargill  hospital . 
+2.23. The wreck was observed in the water just off the  north east coast  of Auckland Island s 
+near Ewing Island . It was upside down in water about 15  metres de ep.  
+ 
+ 
+Figure 3: Wreckage location  
+(taken from rescue helicopter  by the Operator ) 
+2.24. Most of the wreckage was retrieved 18 days later by a private operation and taken to 
+Bluff for inspection  by Commission investigators . The tail boom and main rotors were 
+not retrieved. The wreckage  was later transported to  the Commission 's technical 
+facility in Wellington . 
+ 
+6 The fishing vessel with patient on board . 
+Wreckage  
+Looking northwest 
+towards Port Ross 
+ 
+  Final Report AO -2019 -005 
+<< Page 7 >>
+ Personnel  information  
+Pilot  
+2.25. The pilot held a commercial pilot licence for helicopters CPL(H) from  2006 with 
+approximately 6673 hours  logged  before the accident flight  and was rated for VFR 
+only. Recent flights included 43 hours on the BK117 ty pe of helicopter during the last 
+90 days and 135 hours on all types in the same period. The pilot held a Class 1 
+medical certificate valid to 26 August 2019  and was required to have spectacles 
+readily available with a spare set.  
+2.26. All required competency assessments were complete and current in accordance with 
+CARs and the operator's exposition.  The pilot's f light crew check and training for NVG 
+(AC91 -13), sling load (Part 133) and air operations (Part 135)  were revalidated in 
+December 2018 and current until 27 December 2020.  
+2.27. The operator arranged other training specific for their operations. The pilot had 
+completed HUET  training in July 2013.  In 2014, the pilot completed a specialist 
+helicopter CRM training course for low -level helicopter operations. This was run in 
+New Zealand by an organisation  from the United States of America  (USA) , Utilities 
+Aviation Specialists . In 2018, the pilot attended a two-hour human factors course 
+based on the Federal Aviation Administration ( FAA) Handbook AMT -8083 -30, 
+Chapter 14  (FAA, 2018) . 
+2.28. The pilot received initial NVG ground training in 2013  and then completed  a pilot-
+specific NVG training course later that year.  At the time of the accident flight, the 
+pilot had about 73 hours of total flight time at night . The pilot did not distinguish 
+between n ight VFR or night VFR flight on NVGs  in their l ogbook, but said all recent 
+night flight time with the operator was on NVGs .  
+2.29. The pilot had logged 0.5 hours on NVG s in the last seven days before the accident 
+and another 0.4 in the last 90 days. Both  night flights  started as a daytime flight, but 
+returned at night. The p ilot advised that they ensured each recent night flight 
+included three take -offs and landings on NV Gs to maintain their curren cy.7 The pilot 
+did not hold an instrument flight rules (IFR) rating, nor was this required for NVIS 
+operations. The pilot's total  instrument time recorded i n their logbook was 10.2 
+hours.  
+Param edic 
+2.30. The paramedic was employed by another company and flew as crew with the 
+operator when required for medical services. The operator trained the paramedic to 
+be an NVIS crew member and ensure d they remained curren t for that role  (see NVIS 
+crew members ).  
+2.31. The paramedic had undergone a nnual NVG crew training  and records were sighted 
+back to 2015. They were current in accordance with the operator's exposition , with 
+the last revalidation check  14 days before the accident  flight . The paramedic had a 
+total logged time on NVGs at the time of accident of 198 hours.  
+2.32. The paramedic had completed their last HUET training on 18 May 2018 with over a 
+year to the ir next refresher course after this accident.  The paramedic had received 
+ 
+7 See 2.89 for NVG currency requirements.  
+ 
+Final Report AO -2019 -005 
+<< Page 8 >>
+   'emergency training ' in accordance with the Operator's exposition for flight over 
+water that included life-raft operation, the ditching procedure and  aircraft evacuation . 
+2.33. The paramedic had also attended the helicopter C RM training course run by  Utilities 
+Aviation Specialists for the low-level environment  in August 2014 . 
+Winch operator  
+2.34. The winch operator was a casual  employee  to operate the winch when needed . The 
+operator had also trained the winch operator as an NVIS crew member and ensured 
+they remained current for both  roles. Their last revalidation check for operating the 
+winch fitted to the helicopter was completed in June 2017.  
+2.35. Their total time on NVGs was 120 hours and they h ad completed a n NVIS crew 
+member revalidation check in November 2018.  
+2.36. The winch operator last completed a  HUET refresher course in September 2013 , 
+which included 'emergency training' in accordance with the Operator's exposition for 
+flight over water . That  training  included life -raft operation, the ditching procedure 
+and aircraft evacuation . They had also completed  the low -level environment CRM 
+training course held in 2014.  
+Aircraft information   
+2.37. The BK117 -C1 helicopter was constructed in 1996 by KHI in Japan . It was  imported to 
+New Zealand with the certificate of airworthiness completed on 5 May 2016 at 5387 
+hours. It was purchased by the operator on 6 July 2017 .  
+2.38. The helicopter 's last recorded total flight time was 6558 .95 hours at 23 March 2019 , 
+30 days before the accident. The helicopter's Technical Log , where more recent flights 
+were recorded, was lost at sea. The helicopter had been maintained in accordance 
+with the operator's approved maintenance programme  for KHI B K117 -C1. The 
+maintenance logbooks showed that all scheduled maintenance had been carried out 
+as required, and the helicopter had no recorded defects at the time of the accident.  
+2.39. The BK117 has a four -bladed rigid rotor system that rotates anti-clockwise (wh en 
+viewed from above) . The pilot sits on the right -hand  side. The helicopter had two 
+Turbomeca Arriel 1E2 engines rated at 692 shaft horsepower each.  
+2.40. The helicopter had NVIS compatible instrument lighting installed in April 2017, which 
+was certified in sim ulated blackout conditions by the CAA in December 2017. The 
+helicopter was listed on the operator's AOC as being NVIS compatible and that NVIS 
+certification was current at the time of the accident.  
+2.41. The helicopter was fitted with a radio altimeter that had a single display in the pilot's 
+console . It had a manually adjusted height alert setting8 with a visual indication light 
+that illuminated when the helicopter was at , or below , the selected height. It did not 
+have an aural alert signal.  The radio altimeter display was visible from the left-hand  
+seat, but any person seated there  would need to lean towards the pilot to read 
+heights without parallax error. The helicopter also had an autopilot system.  
+ 
+8 The height setting bug  
+ 
+  Final Report AO -2019 -005 
+<< Page 9 >>
+ Weight and balance  
+2.42. The helicopter's emp ty weight recorded in the logbook on 21 February 2019 was 
+2101 kilograms. The helicopter 's type certificate stated that the maximum certified 
+take-off weight was 3350 kilograms.  
+2.43. The operator had a set of standard helicopter loading guides to enable pilots to 
+quickly check the loading was correct. In this case the appropriate guide was called 
+'Weight Loading Guide - BK117 -C1 Medivac Configuration ' (see Appendix 1 ).  
+2.44. The exposition9 required  pilots to use a weight and balance application on their 
+phone,  or a company iPad call ed iBal Rotary , and to email the loading file to the 
+office  for flight following . Alternatively,  they could use the guides. In this case the 
+pilot used the iBal Rotary  application on their phone,  but did not email a copy to the 
+office. The helicopter loading was checked for this investigation by using the standard 
+weight loading guide . 
+2.45. The operator 's standard loading guide for  a medivac operation in this helicopter  
+allowed for  a typical medivac configuration, from which the pilot could then select 
+the appropriate fuel loa ding. In this case, the aircraft was configured with full fuel, 
+plus two full external range extender fuel pods  for a flight duration of 3.4 hours  plus 
+internal cargo  and three crew . The return flight would have an additional medivac 
+passenger .  
+2.46. According to the guide, 166 kilograms was available for cargo , including  a 100 -
+kilogram pilot and the standard medivac  equipment  of seating, oxygen, stretchers , 
+life-raft and life -jackets . Items recovered post -accident were taken to the 
+Commission's technical facili ty and weighed. The weights of m issing items that were 
+known to be on board  were estimated. In  this case , the excess cargo  included : a 
+winch, the associated  winch  stretcher and gear, a long-distance  internal stretcher, 
+additional medical equipment, a fuel transfer pump, the crew's survival kit, three 
+NVGs  and their containers , camping gear , food  for three people overnight, and the 
+two crew members with their immers ion suits and helmets  (see Appendix 2  for 
+calculated weight ). 
+2.47. The exposition  at the time stated that the final loading check was for the pilot to 
+conduct a dynamic  power and control check in the hover position before 
+continuing.10 
+Meteorological  information  
+2.48. The flight was conducted as a Commercial Transport Operation (CTO) under VFR . This 
+meant that the pilot was required to manoeuvre the helicopter so that other traffic 
+and any obstructions  could be observed in time to avoid a collision . The night 
+approach into Enderby Island required meteorological conditions of not less than a 
+2000 foot AGL cloud ceiling and a flight visibility of not less than 5 kilometres.11   
+ 
+9 Exposition, weight and balance, item 3 (Version V17.21) . 
+10 Exposition , operations, weight and balance, item 7 (Version V17.21) . 
+11 CAR Part 135.155 . 
+ 
+Final Report AO -2019 -005 
+<< Page 10 >>
+   2.49. The MetService provided the Commission with a description of the weather situation 
+for the 48-hour period covering the accident12 from 000 0 NZST13 22 April 2019 to 
+0000 NZS T 24 April 2019 : 
+At the start of the period a narrow ridge lay over the southern South Island, and 
+a weak warm front over the Auckland Islands. The observations from Enderby 
+Island suggest that there was low st ratus and drizzle over the Auckland Islands 
+at this time. The weak warm front moved away to east and weakened further 
+around mid -morning on 22 April 2019.  
+The Enderby Island observations show that the drizzle ceased at this time, 
+however the relatively humidity remain ed high and the air temperature w as 
+close to the sea surface temperature. This would suggest that sea fog or low 
+stratus persisted about the Auckland Islands from mid -morning on 22 April 
+2019 until the early morning of the 23 April 2019.  
+A cold front then arrived from the west crossing the Auckland Islands around 
+0800 NZST 23 April and continued northeast, passing through Invercargill 
+around 1800 NZST 23 April 2019. The Enderby Island observations showed a 
+period of rain from 0300 to 0930 NZST 23 April 2019 associated with this cold 
+front. Following the cold front, it was initially fine over the Auckland Islands, but 
+cloud periods gradually increased and it is possible that there were a few light 
+showers.  
+Sea: 1m occasional 1.5m, but eased  for a time around dawn on 22 April 2019, 
+and rose to 1.5m occasional 2.2m from the afternoon of 23 April.  
+Swell: Westerly between 2.5 to 3m through the period, sheltered east of the 
+Islands.  
+2.50. The situation at the time of the accident is shown  on the synopt ic chart in Appendix 
+3. This cover ed the period from midday when the flight planning started to after their 
+departure.  
+2.51. The operator had found from experience that standard aviation weather forecast 
+information was not reliable for the Southern Ocean. They obtained their own 
+weather information from several different but well-known  sources, including the 
+automatic weather station ( AWS ) on Enderby Island , then made th eir own 
+assessment . In this case, they were aware of the cold front approaching  Auckland 
+Islands and had planned to arrive before it and weather out the night on the ground.  
+The medivac would take place the next morning on 23 April and the return flight 
+north back to Invercargill would be in the clearer air behind the cold front.  
+2.52. The sun set at Auckland Islands at 1757 that day and civil twilight ended at 1831. The 
+moon phase  was in its third day after full moon  with 94 per cent illumination (in 
+relation to full moon at 100 per cent) . The moon  was still below the horizon at the 
+time of the accident  and rose at 1949  (Timeanddate.com, 2022) . The predicted night 
+illumination levels at Auckland Island for the time of arrival was not available to the 
+pilot. Subsequent research found that the illumination level was at its minimum at the 
+time of arrival  (see Tests and research ).  
+2.53. The record from the MetService AWS at Enderby  Island  showed that for at least 20 
+hours prior to the accident the temperature and dew point were less than 1°C apart 
+at about 11 °C. This had resulted in  a steady relative humidity of between 97 per cent 
+ 
+12 The accident occurred at 1937 on 22 April . 
+13 NZST means New Zealand Standard Time at Universal Time Coordinated plus 12 hours.  
+ 
+  Final Report AO -2019 -005 
+<< Page 11 >>
+ and 99 percent.  The wind at the time of the accident was trending from 290 degrees 
+through to 310 degrees True and was steady near 11 knots with maximum gust s to 
+18 knots . The pressure was  steady at  1022 hectopascals  and it was not raining . This 
+AWS does not measure cloud base or record video.  
+Communic ations and aids to navigation  
+2.54. The helicopter  had VHF communications through the operator's repeater network 
+and the Airways aviat ion infrastructure.  The coverage did not extend for the full flight 
+distance. The helicopter was also fitted with a satellite phone for communications 
+outside normal radio coverage.  
+2.55. The pilot used a Garmin 296 GPS with map display to navigate.  
+Recorded data  
+2.56. The helicopter was fitted with a TracPlus , satellite -based , flight following system . This 
+system report ed the helicopter 's GPS position  and height every minute  to a computer 
+server via the Iridium satellite network . The operator connected to the server  to 
+monitor the helicopter's progress . The last reported position was less than a minute 
+before the accident  and was made available for the search and rescue efforts . The 
+Commission obtained recent records of the helicopter 's flight track s for this  
+investigation . 
+2.57. The helicopter was also fitted with a Garm in 296 GPS with moving map display. This 
+unit was recovered with the helicopter and transported to the Commission's 
+laboratory in Wellington. The unit was dried and cleaned,  and the memory chip 
+removed and connected to a chip reader. The GPS flight track14 was recovered from 
+the memory chip . The data records covered the entire flight at a sample rate of 
+between one and 20 seconds,  including six points after the last known position from 
+the TracPlus  (see Figure 4). 
+Site and wreckage information  
+Flight path  
+2.58. The he licopter's flight path data from the GPS and the flight tracking system  is 
+presented in Figure 4. The orange points are from the Trac Plus logged at 1 minute  
+intervals and the blue points from the GPS logged  at less than 10 second  intervals  
+(varies depending on GPS operating firmware ). The GPS derived altitude at several 
+points is marked in Figure  4. The last reported position on TracPlus was at just over 
+800 feet near Ewing Isl and, about one minute before the accident.  
+Wreckage  
+2.59. The wreckage had been lying on the sea floor for 18 days  and sustained additional 
+dama ge during that time. The sea floor was rocky with rough gravel and coarse  sand 
+and covered with a light kelp forest .  
+ 
+14 Flight track include d: Time, position, GPS derived altitude and heading. Ground speed is calculated from the 
+data.  
+ 
+Final Report AO -2019 -005 
+<< Page 12 >>
+   2.60. The helicopter had been upside down, firmly  resting on the sea floor,  but able to 
+sway  with the water currents . The tail boom and tail rotor assembly had separated  
+from the main body of the helicopter  and drifted away . They were not recovered,  but 
+were sti ll attached immediately after the accident  (as see n in Figure 3Error! 
+Reference source not found. ). The left-hand  sliding cargo door detached during the 
+accident. It was  found floating on the surface by a search vessel several nautical miles 
+south , retrieved , and then returned when the  vessel  next berthed in New Zealand.  The 
+emergency exit window  was sti ll in place  and had not been opened . 
+2.61. The transmission and rotor head assembly and the remains of the main rotor blade s 
+attached to the rotor hea d had separated  on impact . The transmission and rotor head 
+assembly dropped about 20 -30 metres away from the mai n wreckage . Three  of the 
+main rotor blade  stubs  had been ground down  by abrasive movement with the sea 
+floor . The splintered stub of the other one remained  (see Figure 6). The main rotor 
+blades were not retrieved.  The pitch links had snapped at one end . The drive link 
+attachment bolts  to the rotor head had sheared  and the drive link was distorted . 
+2.62. The panels around the nose, front windows and instrument mountings were 
+damaged by water impact. The cockpit floor had been forced upwards slightly and  
+pivoted around a point in the floor where the front cross -brace for the skid 
+penetrates, back towards the rear of t he front door frame at station 320015 (see 
+Figure 5). Some instruments had slid aft in their panel mounting very likely  due to 
+the impact -induced  water pressure in the nose area  behind them  (see Figure 7). 
+2.63. Damage to  the wreckage was consistent with  the helicopter impact ing the water at 
+speed , with the power on , and in a shallow angle of descent with a slight right -hand  
+bank.  The helicopter would have tipped forward until the main rotor blades contacted 
+the water. This action would have rotated the helicopter fuselage up and around and 
+then hard down onto the left-hand  side. The transmission and rotor head  and the two 
+left-hand doors  would likely  have departed during this stage of the impact.  
+ 
+15 See Glossary  for explanation of station  marker lines on an aircraft . 
+ 
+  Final Report AO -2019 -005 
+<< Page 13 >>
+  
+149 ft  
+1920  ft 
+817 ft 
+Intended 
+destination 
+for the 
+night   
+866 ft 
+Intended 
+rendezvous 
+point  
+Figure 4: Flight path  
+ 
+Final Report AO -2019 -005 
+<< Page 14 >>
+    
+ 
+ 
+ 
+ 
+ 
+ 
+Pilot's door (RHS)  
+Front, r ight-hand side  
+ Station 3200  
+Drive link  
+separated  
+Main rotor 
+blade  Figure 5: Exterior damage   
+(images rotated except the rear view)  
+ 
+Figure 6: Masthead damage  
+ 
+  Final Report AO -2019 -005 
+<< Page 15 >>
+  
+Survival aspects  
+2.64. The crew were wearing immersion suits and helmets. The suits kept them warm in the 
+cold water (about 10 °C) and provided sufficient flotation for them not to activate 
+their inflatable life -jackets.  
+2.65. The helicopter flipped end -for-end and lay partially subme rged for a short period of 
+time. The co ckpit was underwater, but the rear cabin was only partially under. The 
+front crew were restrained to some extent by their harnesses . Both made their way 
+out of the  helicopter from underwater. All crew were trained and  experienced in the 
+techniques of escaping from a helicopter while u nderwater.16 
+2.66. The winch operator was sitting in the cabin  sideways  to the direction of impact  with 
+their back to the left side and seated just aft of the sliding door opening. Their seat 
+was a standard KHI  high-density , three -person  seat running along the side wall of the 
+cabin. The seats  were designed to withstand forces of 4  G (front, back, left and right), 
+1.5 G (upward ) and 8 G (downwar d) with up to three persons  weighing 80 kilograms.  
+Each seat had a four -point harness with central quick release.17 The load capacity of 
+the seat belts was 6.865 kN  and the snap -on bracket was 15 kN. The winch operator's 
+left-hand seat belt snap -on steel bracket broke in overload  where it attached to the 
+seat base (see Figure 8) .  
+2.67. The winch operator was flung forward and knocked unconscious.  The sliding door 
+detached  in the accident sequence . The paramedic evacuated from the front left seat , 
+and found  the winch operator floating on their back  in the cargo cabin  and dragged 
+them out of the helicopter.  
+ 
+16 Known as HUET .  
+17 The seat belt harnesses were replaced in accordance with Supplemental Type Certificate 5/21E /29 issued to 
+National Aircraft Interiors Ltd, Nelson . 
+Post-impact 
+instrument damage  
+Radio altimeter   
+set 250  ft 
+Figure 7: Instrument panel damage  
+ 
+Final Report AO -2019 -005 
+<< Page 16 >>
+   2.68. A four-person life -raft was in the helicopter,  but proved difficult to identify in the 
+darkness and was  not retrieved before it sank.  The approved  life-raft was an EAM -T4 
+type18 manufactured in accordance with FAA TSO -C70a , Type II .19 It was lying in 
+amongst other cargo in a standard EAM container  coloured 'International Y ellow '.   
+2.69. The crew had emergency PLBs and other emergency gear in a grab -bag in the ba ck 
+cabin of the helicopter.  It was not found before the helicopter sank. They did not 
+have any emergency items on their person,  except one crew member had a 
+pocketknife  and torch . 
+ 
+Night vision i maging systems (NVIS)  
+2.70. An NVIS collectively refers to each of the elements that are required to safely operate 
+an aircraft using NVGs. In addition to the NVG unit itself, NVIS elements include the 
+following:  
+• Components on board the aircraft to support the use of NVG s, such as 
+compatible lighting systems , external illumination lighting , and radio 
+altimeters to indicate clearance height from the surface . 
+• Operational procedures, including flight planning and risk management to 
+ensure NVG flights are conducted when environmental condi tions are 
+suitab le (eg, not less than VFR meteorological  minima  and illumination 
+criteria) . 
+• Training, competency and currency requirements for personnel using 
+NVGs .  
+ 
+18 EAM is the manufacturer Eastern Aero Marine . 
+19 This is the FAA Technical Standard Order that specifies the minimum performance standards for this type of 
+life-raft. 
+Seat buckle 
+attached here  
+Figure 8: Winch operator's seat belt   
+ 
+ 
+  Final Report AO -2019 -005 
+<< Page 17 >>
+ • Airworthiness (maintenance) requirements for both the aircraft 
+components and NVG equipment, including pre -flight procedures to 
+ensure functionality.  
+2.71. NVG use enhances a pilot's  ability to operate in dark and low -light conditions by 
+receiving and intensifying ambient light, resulting in an amplified light image that is 
+presented to the e ye (Parush, 2011) . The intensifier tube section of NVGs has a 
+maximum respon se within the i nfrared light range that is not visible to the human 
+eye. The amplified electron stream generated within the intensifier tube is  then 
+focused onto a phosphor screen,  which reproduces the image in shades of green 
+light that is visible to the eye . (The recent option  of white phosphor offers some 
+improvement in clarity) .  
+2.72. The device is head -mounted and self -contained by way of a battery pack that is 
+positioned at the rear of the head to counter the weight of the goggles sitting over 
+the operator's eyes  (see Figure 9). Additional weights can be added inside the battery 
+pack to balance for individuals.  Used correctly, in most conditions NVGs provide a 
+pilot with a significantly enhanced means of distinguishing the horizon, objects, 
+terrain  and weather when compared to unaided night vision.  
+2.73. Advancements in NVG technology have improved both physical comfort and image 
+quality compared to earlier generation models. There are, however, inherent 
+limitations associated with NVGs. These include:  
+• Visual acuity: This is related to the luminance of the NVG screen , which 
+varies as a function of the ambient light (eg, full moon versus overcast 
+starlight). NVG -assisted acuity declines with decreasing celestial 
+illumination. Acuity is also related to targ et contrast and deteriorates more 
+rapidly for low -contrast items when illuminance levels decline.   
+• Monochromatic image: Colour differences between components in a 
+scene aids recognition of objects and discriminating between them, as 
+well as assists with d epth perception and distance estimation. The lack of 
+colour variation in the NVG image (shades of white or green) degrades 
+these capabilities to varying degrees.  
+• Limited field of view (FOV): In normal vision, an unaided FOV covers an 
+elliptical area of app roximately 120 degrees laterally and 80 degrees 
+vertically. This is reduced to around a 40 -degree circular area when 
+wearing NVGs, significantly reducing peripheral vision in particular.20 
+• Physiological implications: While NVG units and helmets are adjust able to 
+an individual , muscle fatigue, neck strain and headaches can occur , 
+particularly with prolonged use.  They can also conflict with other apparel 
+such as flying jackets, immersion suits and life -jackets.  
+2.74. NVG image quality is variable, depending on the operating environment, atmospheric 
+conditions and the degree of illumination . All NVGs require some illumination of the 
+subject and reflectance of that illuminance back to the NVG lens to produce an 
+image. For example, light rain or mist is generall y not as easily perceived when 
+compared to dense clouds and large rain droplets, but will affect contrast, distance 
+estimation and depth perception. Featureless terrain (such as large bodies of water) 
+ 
+20 While FOV is limited, because NVGs are helmet -mounted the user can move their head to scan a wider area. 
+The total area that can physic ally be scanned is called field of regard (FOR) and is mainly dependent on the 
+physiology of head movement and cockpit design ( eg, seat location, blind spots etc).  
+ 
+Final Report AO -2019 -005 
+<< Page 18 >>
+   have a distinct lack of contrast, particularly when the re are no distinguishable white 
+caps or enough surface disturbance to reflect light  back to the NVG observer  (CASA, 
+2022) . 
+ 
+2.75. Illumination can be either artificially or naturally acquired. The moon provides the 
+greatest source of illumination, and both the phase and elevation will determine ho w 
+much moonlight will be available. Lunar illumination is expressed in percentages (100 
+per cent illumination being a full moon) . Information about illumination levels can be 
+obtained from  the moon data  in the 'Time and Date ' website  (Timeanddate.com, 
+2022)  or through a dedicated software package such as Met Office Night Illumination 
+Model (MONIM) from the UK Met Office.  Sky glow21 also contributes to natural 
+lighting levels and is dependent on latitude and the time of year. Cultural lighting , or 
+the artificial lighting sources common with  human habitation , also contributes to 
+night illumination.  
+2.76. Due to the many possible combination s of the variables that will affect image quality, 
+NVG users require techniques to help interpret images in different circumstances. 
+Such techniques include an understanding of how to use terrain features ,22 to aid 
+visual recognition and the ability to det ermine distance information, depth 
+perception and closure rates. Given that NVIS operations take place at night (albeit 
+with better visual acuity than unaided night operations ), the limitations associated 
+with NVG use means that pilots and crew are still s usceptible to the visual illusions 
+typical of night VFR  that can affect loss of a reference horizon .    
+ 
+21 Effects of solar light present in the sky until the sun is approximately 18 degrees below the horizon.  
+22 This includes cues such as object size, shape, contrast and shadows.  
+Green 
+phosphorus  
+White 
+phosphorus  
+Dual battery 
+pack 
+Figure 9: Generation III NVG   
+(details  sourced from the internet)  
+ 
+  Final Report AO -2019 -005 
+<< Page 19 >>
+ Night vision goggle (NVG) helicopter operations  
+Aviation rules  
+2.77. There are currently no CARs regulating  the equipment or conditions of use of NVGs 
+during flight within New Zealand. Instead, information about the standards, practices 
+and procedures for the safe use of NVGs is provided by way of a n Advisory Circular 
+(AC), AC91 -13 Night Vision Imaging Systems - Helicopter.23 The CAA formalise NVIS 
+operations through the ir approval process for issuing  an operator's AOC.   
+2.78. The AC states that it relates to helicopter operations conducted under CAR Parts 91, 
+119 and 135 . All references to rules are from within the AC (eg, the content of an 
+AOC, equi pment standards and  maintenance requirements). The rules do not make 
+any cross -reference back to the AC  or mention the terms NVIS or NVG . At the time of 
+the accident, AC91 -13 had undergone one revision  and this was effective as of 20 
+June 2011  (CAA, 2011) . The initial issue date was not published.  
+2.79. The AC includes  information on the acceptable technical standards for a n NVIS and 
+the associated aircraft installations . It also  provides guidance for appropriate operator 
+procedures, training programmes, pilot competency and currency requirements, and 
+the maintenance requirements to safely utilise NVGs during night VFR flight  in 
+helicopters.  
+2.80. Each operator who wishes to use NVIS is expected to define their own NVG operating 
+procedures , which they may base on the AC  or not. The AC list s three Radio Technical 
+Commission for Aeronautics (RTCA) documents that formed the foundation of civil 
+NVG operations in the USA and Europe and would be acceptable to CAA for use in 
+New Zealand.  
+2.81. This operator had integrated the requirements of AC91 -13 in to their exposition . 
+2.82. Similarly, there were  no CARs  covering  Helicopter Air Ambulance ( HAA)24 operations 
+within New Zealand. The CAA  clarified this by stating that:  
+There are no specific Civil Aviation Rules (CARs) for Helicopter Emergency 
+Medical Services (HEMS) operations. However, all operators that engage in 
+HEMS operations operate in accordance with CAR Pt 119, CAR Pt 135, CAR Pt 91 
+and CAR Pt 133.  
+Equipment requirements  
+2.83. The primary helicopter equipment required for NVIS is an internal and external 
+lighting system, both of which must be specifically compatible for NVG use. 
+Installation of a n NVIS into a helicopter is deemed to be a 'major modification' and 
+must include a Flight Manual Supplement. For the holder of an AOC, evidence of a n 
+NVIS compatibility inspection is recorded on the Operations Spec ification  and it 
+expires after two ye ars.  
+2.84. The helicopter  was listed on the operator's AOC and the NVIS inspection was current 
+to 20 December 2020.  
+2.85. The AC adopts the FAA standards referred to in FAA AC27 -1B with differences for 
+New Zealan d. The AC also lists a ncillary equipment for an NVIS  equipped helicopter 
+ 
+23 The AC was developed as a means of facilitating the introduction of NVIS into the New Zealand civil aviation 
+environment and draws extensively on documentation from the R TCA and the FAA.  
+24 This term is preferred to HEMS by the FAA and has been adopted for this report.  
+ 
+Final Report AO -2019 -005 
+<< Page 20 >>
+   as being: a radio altimeter,25 skid/slip indicator, gyroscopic attitude indicator, 
+gyroscopic direction indicator or equivalent, and vertical speed indicator. Given the 
+reduced FOV a pilot has when 'goggled up', these instruments are required to be 
+positioned in such a way so as to reduce the amount of head movement required to 
+view them and therefore minimise the potential for spatial disorientation.  Instruments 
+and cockpit displays must be capable of being viewed with unaided vis ion (ie,  for the 
+crew to look at them under neath  their NVG s).   
+2.86. The radio altimeter fitted  to the helicopter had a maximum range of 2500 feet  and 
+single display in the pilot's instrument console . The pilot co uld select the height 
+setting  bug to any height under the maximum range  and a visual alert would 
+illuminate while the helicopter was less than that  height  from  the surface . It did not 
+have an audio alert  function  (See Glossary for altimetry) .  
+NVIS pilots  
+2.87. The recommended requirements for pilots wishing to become certified for  NVG use 
+are described  in AC 91-13 under NVIS Pilot Prerequisites.  The minimum licence 
+requirement is a private pilot licence (PPL), but the flight experience and performance 
+parameters are broadly based on those that are required for the issue of a CPL wi th a 
+night endorsement. This includes the ability to demonstrate instrument flight 
+proficiency , and the AC notes the following:  
+…the emphasis is for a pilot flying night VFR utilising NVIS to obtain, and 
+maintain, proficiency in instrument flying skills. It is recommended, but not 
+essential for the pilot to hold an instrument rating. The holder of an instrument 
+rating will be better placed to cope with the night VFR/NVIS environment.  
+2.88. Pilots must complete an approved NVIS ground training course with a minim um 
+syllabus outlined in the AC . Generic topics include aeromedical, NVG theory, 
+interpretation of NVG imaging, environmental factors and NVIS flight planning. 
+Operator -specific training is also covered , as is aircraft ground training for 
+familiarisation of NVIS equipment on the helicopter. There are no recommended 
+teaching times specified for any of the subject matter.  
+2.89. A minimum of five hours of approved NVIS flight training is required. Once a pilot has  
+passed their initial flight check, their logbook will be certified with a night flight 
+endorsement to use NVIS.  
+2.90. NVIS currency requirements include recency of NVIS experience  and an annual 
+proficiency check with a n NVIS certified flight instructor or exami ner. The AC refers to 
+CAR 61.37 Recent Flight Experience , which  defines that to remain current a pilot must 
+complete at least three take -offs and landings at night within the last 90  days.  
+2.91. Recurrent training consisting of the initial flight check sylla bus and selected elements 
+of the initial ground theory course is required to be conducted on an annual basis. 
+The proficiency check must represent a typical NVG flight operation and include 
+demonstration of the ability to cope with both a NVG malfunction a nd recovery from 
+inadvertent IMC26 penetration.  
+ 
+25 An electronic device capable of measuring the height of an aircraft above the terrain immediately below it. The 
+radio (or radar ) altimeter is independent from the barometric altimeter system .  
+26 Instrument meteorological conditions (or visibility has redu ced to an extent that visual reference of the horizon 
+is lost) . 
+ 
+  Final Report AO -2019 -005 
+<< Page 21 >>
+ 2.92. CAR 61.29 describes the requirements for pilots to record their flight time in their 
+logbook . There is no requirement to differentiate between VFR night flight and NVIS 
+night flight using NVGs.  
+NVIS crew members  
+2.93. In addition to the minimum requirement of having at least one NVIS trained pilot 
+when operating with NVGs , the AC allows an  operator to utilise  a second trained 
+NVIS crew member when considered necessary for safe operations.  
+2.94. The AC  defines a n NVIS flight crew member as being a trained crew member who is 
+required to perform essential inflight duties to ensure safe operation of the aircraft 
+during NVG flight operations.  
+2.95. A crew member may be a second NVIS trained pilot, but this is not a requirement. 
+According to NVIS Crew Member Training Prerequisites  in the AC , the minimum 
+qualification and experience for a person wishing to become a n NVIS crew mem ber 
+are only those specified by the operator and documented within their exposition.  
+2.96. To become a certified NVIS crew member, individuals must complete the same NVG 
+ground theory syllabus as pilots. Once completed, a crew member must undertake a 
+minimum of two hours of NVIS flight training and checking with an approved 
+organisation.27 The flight training syllabus covers selected elements of the more 
+extensive syllabus for pilots, specifically preparation, emergency procedures, CRM 
+and post -flight procedures.  Any special procedures specific to the type of operation 
+(eg, winch training) must also be covered.   
+2.97. Once a helicopter crew member has been endorsed as a qualified NVIS crew member, 
+this is acknowledged by way of a certificate,28 which is to be retained in the operator's 
+files. Crew are not to act as a n NVIS crew member unless they have either completed 
+three NVG flights in the preceding 120 days or  have completed their initial or 
+recurrent training within that time. Recurrent training consisting of the initial flight 
+check syllabus and selected elements of the initial ground theory course is required 
+to be conducted annually . 
+2.98. Each operator must ensur e that crew members are trained and competent to perform 
+their assigned duties.29 Section 3.2.1 NVIS Crew Member  of the AC  states  the 
+following about  the duties a crew member is expected to perform as part of a n NVIS 
+operation:   
+An NVIS crew member needs t o - Participate in crew briefings prior to each shift 
+to: 
+• become familiar with the general weather conditions  
+• confirm that the NVIS equipment has been pre -flight checked  
+• know any restrictions to NVIS flight operations; and  
+• participate in crew briefings pri or to a NVG flight operation to:  
+ 
+27 A Part 141 certified training organisation or an air operator certified in accordance with Part 119 provided the 
+certification authori ses NVIS training and checking.  
+28 As NVIS crew members a re not required to be pilots, a certificate takes the place of a logbook endorsement.  
+29 In accordance with Subpart I ( Training ) CAR Part 135 . 
+ 
+Final Report AO -2019 -005 
+<< Page 22 >>
+   o obtain a general knowledge of the weather conditions along the 
+route of the flight  
+o obtain a general knowledge about obstacles and significant 
+terrain along the route of flight; and  
+• during a NVG flight operation:  
+o use crew resource management principles to maintain crew 
+situational awareness; and  
+o maintain appropriate cockpit and other aircraft lighting 
+discipline.  
+Risk management for NVIS operations  
+2.99. As part of NVIS operations, the AC recommends an operational risk asses sment be 
+performed before any NVG flight,30 with at least the following points  being 
+considered :    
+• Illumination level of the flight environment . 
+• Forecast and reported weather conditions along the intended route and 
+at the intended destination.  
+• Recency of experience for pilot and crew.  
+• Crew composition.  
+• Operator/crew experience with NVG flight operations.  
+• PIC field of regard.  
+• PIC/crew rest condition and health.  
+• Aircraft serviceability (MEL & Tech Log).  
+• Windshield/window condition.  
+• NVG tube perfor mance/battery condition.  
+• Types of operation allowed and applicable standard operating 
+procedures.  
+• External lighting environment.  
+ 
+2.100.  The operational risk assessment is covered as part of the Preparation  component of 
+the flight training syllabus for pilots. It is also taught during the NVIS Flight Planning  
+component of the ground theory syllabus and is a selected element required to be 
+repeated during ground theory recurrency.  
+Tests and research  
+2.101.  The illum ination level at Auckland Islands at the time of arrival could be predicted. 
+One method was to use a software product available from the United Kingdom (UK)  
+Met Office , but there is also information published on public websites.  
+2.102.  The UK Met Office was conta cted by the Commission  to obtain an illumination 
+prediction for Auckland Islands around the time of the planned medivac flight arrival. 
+ 
+30 AC91 -13 3.3 Operational Risk Management Procedures.  
+ 
+  Final Report AO -2019 -005 
+<< Page 23 >>
+ They used their product MONIM ,31 which supersedes their previous versions called 
+'Night Illumination ' as used by the RNZ AF. The UK Met Office provided a graph of the 
+predicted night illumination at Auckland Islands , which showed that the natural 
+illumination was least at about 1930  (see Appendix 4 ). At that time, it was predicted 
+to be about 0.3 millilux. It would rise to over 10 millilux after 2200 , but actual 
+illumination was still dependent on cloud cover, so could be less.  
+2.103.  Illumination of one lux (1000  millilux) is that of a candle projected onto a flat surface 
+1 metre  square at 1 metre distance from the candle. A typical level of illumination on 
+the ground at night from a full moon is about 300 millilux , which drops to about 1 
+millilux when the moon is below the horizon.  
+Previous occurrences  
+2.104.  Some previous occurrences with relevant conditions are described below.  
+2.105.  New Zealand, 17 December 2020, CAA inci dent 20/6775 , BK117 B -2, Gowan bridge . 
+During a patient transfer at night using NVGs  in a single -pilot VFR operation the pilot 
+lost spatial orientation . The NVIS crew member , who had by chance decided to sit in 
+the front left seat , assisted the pilo t to recover and land . There were four people on 
+board with no injuries . The CAA's investigation concluded tha t the contributing  
+factors were the pilot's unfamiliarity with that helicopter, a distracting source of light , 
+very low natural illuminance, and a higher-than-usual mental workload  maintaining 
+visual reference with traffic on a road .  
+2.106.  USA, 10 December 2015, NTSB WPR16FA037, Bell 407, McFarland, California. An HAA 
+flight was on a patient transfer VFR operation at ni ght using NVGs. The helicopter 
+began to descend and then entered a left descending turn. The ground speeds were 
+fluctuating, and the descent rate was about 2210 ft/min until impact. There were four 
+fatalities. Conditions at the time were likely to include fog and rain. The pilot had an 
+instrument rating, but with only 2.3 hours on NVGs in the last seven months before 
+the accident and 11 hours on the helicopter. The National Transportation Safety 
+Board ( NTSB ) investigation concluded that the  probable cause w as that the pilot lost 
+control while attempting a course reversal after inadvertently entering an area of 
+reduced visibility. The pilot's lack of recent NVG experience was considered to have 
+contributed.  
+2.107.  Baltic Sea , 28 February 2014 , BFU 3x006 -14, BK117 C -1, 3 nm north of Prerow. During 
+VFR night -hoist training with two pilots (both Airline Transport Pilot Licence  (ATLP)  
+holders) the helicopter collided with the sea  with three fatalities and one survivor. The 
+pilots were not using NVGs . The German Federal Bureau of Aircraft Accident 
+Investigation32 BFU investigation concluded that the contributing factor s included:  
+lack of experience with this type of operation, airspeed and rate of descent were not 
+stabilised , insufficient monitoring o f instruments , loss of situational awareness in 
+combination with loss of control , and non-reaction to visual and audio altitude 
+warnings on the radio altimeter.    
+2.108.  USA, 5 Februar y 2010, NTSB CEN10FA113 , AS350, El Paso, Texas. Pilot and two 
+paramedics on a simu lated night pick -up in the  desert . The helicopter banked about 
+45 degrees then entered a steep nose -down attitude and impacted the ground. Three 
+ 
+31 Met Office Night Illumination Model . 
+32 Bundesstelle für Flugunfalluntersuchung  
+ 
+Final Report AO -2019 -005 
+<< Page 24 >>
+   fatalities. Pilot was using NVGs and a non -NVG spotlight to illuminate the ground. It 
+was a 0 per cent moonlit night with very little cultural lighting and low contrast. The 
+pilot had recently completed training with NVGs, but it had been on nights with more 
+moonlight.  The NTSB investigation concluded tha t the probable cause was the pilot's  
+loss of situational awareness due to unfamiliarity with the hazards of low -contrast 
+area while using NVGs.   
+Organisational information  
+2.109.  The operator's exposition defined their authorised  operations as Part 135 air 
+transport and CTOs in New Zealand and Antar ctica that included VFR day and night 
+and NVG flight operations. The operator had also been approved to conduct CTOs  
+beyond the New Zealand flight information region (NZFIR)  over the previous 20 
+years.  
+2.110.  Helicopters operated by the company included eight on the company register and six 
+leased. The types operated included BK117, AS 350 , R44 and EC120.  
+Emergency l ocator t ransmitter  
+2.111.  The helicopter was fitted with an emergency locator transm itter (ELT) model Artex 
+C406 -1HM. The ELT is designed to activate automatically on detection of impact G -
+forces more than 2.3 G in the forward  direction of crash impact and 12 .5 G in the 
+other five perpendicular axes (rear, left, right, up and down ). Units  made after 2019 
+have a sensor with a lower threshold of 6 G to 8 G . It would then start transmitting  an 
+emergency signal within the next 60 seconds. The unit is mounted at the base of the 
+tail boom and the antenna on the cabin roof.  It will transmit a low -power amplitude 
+modulated signal on 121.5 and 243 MHz and a digital signal burst on 406 .025 MHz.  
+2.112.  No alert signal was received from the ELT by the RCCNZ . 
+2.113.  Weak signals were occasionally detected by the  searching  RNZAF Orion aircraft on 
+406.125  Mhz and suspected to be from the ELT, but a location fix could not be 
+obtained.  This was approximately 12 hours after the accident . The helicopter had 
+sunk and was lying upside down on the sea floor at the time at a depth of about 15 
+metres.  
+2.114.  The manufacturer believed it unlikely  that the ELT would have radiated a signal from 
+the antenna while underwater.  
+2.115.  The crew had PLBs on board  in a gra b-bag, but they were lost when the helicopter 
+sank. 
+ 
+  Final Report AO -2019 -005 
+<< Page 25 >>
+ 3 Analysis  
+Tātaritanga  
+Introduction  
+3.1. The operator regula rly flew helicopter operations in the Southern Ocean down to 
+Auckland Islands and Campbell Islands  so had established a procedure with remote 
+accommodation and fuel replenishment facilities . This flight was similar  in that it was 
+a long-distance  positioning flight over water to a remote base where they would 
+conduct shorter local flights . At the completion of the local flights , they would 
+prepare and conduct  the long return flight . The helicopter's GPS navigation system 
+already had t he waypoints and local landmarks stored in its database for these 
+Southern Ocean flights . 
+3.2. The pilot had appropriate flight experience with the operator, including meeting the 
+minimum recency with NVGs and the required company authorisations to conduct 
+this flight . They had also flown the route once before  in daylight . 
+3.3. The pilot and crew members were trained and proficient in underwater escape 
+techniques from a submerged helicopter and they were wearing full immersion suits. 
+These safety considerations kept the crew  alive and buoyant  in the co ld water.  
+3.4. The following section describes what happened and then analyses the circumstances 
+surrounding the event to identify those factors that increased the likelihood of the 
+event occurring or increased the severity of its outcome. It also examines any safety 
+issues that have the potential to adversely affect future operations. Safety issues that 
+influenced th is accident were identi fied as:  
+• Single -pilot VFR operations into the Southern Ocean . 
+• Regulatory void for NVIS and air ambulance operations . 
+• CRM training in helicopters . 
+3.5. Lastly,  two safety issue s regarding helicopter loading and survival equipment are  
+explained. These safety issu es were  identified during the investigation as safety 
+factors that increased risk, but were  not consider ed to have had a causal effect on the 
+accident. However, they are regarded as safety issues because of their systemic 
+nature and risk to other helicopter operations.  
+What happened  
+3.6. The impact forces and damage to the nose area showed that the helicopter had 
+impacted the sea at a shallow angle , but at a speed  that was consistent with the 
+crew's accounts . Post-accident inspection of t he helicopter, supported by interviews 
+of the crew, showed that the helicopter was operating normally with the main rotors 
+being driven by the engines when they were suddenly stopped by impact with the 
+water. It was also determined that the helicopter had  sufficient fuel remaining to 
+safely land.  
+3.7. The helicopter arrived at Auckland Islands after dark at about 1930  and the pilot was 
+using NVGs , as was the paramedic who was acting as NVIS crew member for the 
+flight . The islands are uninhabited  so had no artificial lighting  to assist the NVG 
+illumination. The only illumination was from the celestial night sky,  but that was 
+ 
+Final Report AO -2019 -005 
+<< Page 26 >>
+   limited by local cloud and atmospheric conditions . The moon had not risen by this 
+time and the predicted night -time illumination was at  its lowest level for the night.  
+3.8. Both the pilot and NVIS crew member said they saw the hills as they approached 
+Auckland Islands and a cloud layer  over the landing area  with an opening wedge 
+from the northwest . The pilot recalled seeing the outline of Por t Ross and part of 
+Enderby Island.  They also both recall ed seeing the cliffs a few seconds before the 
+accident. The winch operator in the rear cabin did not have NVGs on and recalled 
+that it was too dark to see outside.  This shows that the NVGs were functioning and 
+complementing  the front seat crew's night  vision at the time of the accident.  They 
+also recalled that after the accident, while swimming  around the helicopter and 
+recovering items  from the wreckage , there was s ufficient ambient light for them to 
+see the cliffs 100 metres away with unaided vision.  
+3.9. The pilot saw cloud that covered the landing point and a very dark area adjacent that 
+they interpreted to have been clear of cloud.  The pilot expressed this opinion to the 
+NVIS crew member  who accepted that explanation. The cloud was below their current 
+altitude of between 1500 and 2000 feet  and was very likely  to have been sea fog. 
+The dark area would very likely  have been an absence of reflected light from the 
+calm sea surface to the crew.  
+3.10. The pilot describe d their intention to the NVIS crew member to descend in the area 
+clear of cloud  and then follow the coastline  back towards the landing point. If that 
+was not possible, they would head to a higher landing point and camp out the night.  
+The GPS had several suitable landing points  saved in memory from previous trips.  The 
+pilot said that the coastline  is usually more clearly defined through NVGs due to the 
+greater light scatter from the rough surface.  
+3.11. The pilot set the radio altimeter  reference to 1000  feet and started a descent . 
+According to the GPS log , this descent rate from 2000  feet to 1000  feet was slightly 
+over 500 ft/min  and at approximately 1 25 knots  (see Appen dix 5 ). The NVIS crew 
+member started  to read out the altimeter heights. The pilot did not expect the crew 
+member to do this , ask for it , question the source of the information, or stop it.  The 
+NVIS crew member was reading from the left-hand  barometric altimeter, which  was 
+still set at the reference pressure for their departure at Invercargill. While the local 
+QNH33 for Auckland Islands was available  to the operator , this was not provided to 
+the pilot . Based on the pressure difference, the barometric altimeter would have been 
+displaying  about 50 feet higher than the helicopter actually was above the sea 
+surface.   
+3.12. After reaching 1000 feet, the  pilot had slowed to about 80 knots  and maintained 
+about 900  feet for about three minutes  (see GPS flight record in Appendix 5 ). The 
+helicopter was making  a gentle turn from south through west towards a final track to 
+the north. The pilot reset the radio altimeter  to 500 feet and continued to descend . 
+According to th e GPS , the descent rate was above 1200 ft/min,  which is consistent 
+with the pilot's account of descending into the clear area . The NVIS crew member was 
+concerned about the descent rate and called out to the pilot to check their "speed ". 
+The NVIS crew member was not a pilot, or trained to have any flying capability such 
+as the reading  and interpretation of instruments , or trained in the use of correct 
+ 
+33 The pressure set on the subscale of the altimeter so that the instrument indicates its height above sea level.  Q-
+Codes are a standard set of three letter codes starting with the letter Q , each with a specific meaning.  
+ 
+  Final Report AO -2019 -005 
+<< Page 27 >>
+ aviation terminology. The pilot was confused by the call (see paragraph 3.30), but 
+happy with the airspeed so carried on.  
+3.13. After reaching 500 feet, the pilot reset the radio altimeter  to 250 feet  and continued 
+to descend. This height above sea level would have been clear of the local terrain. The 
+pilot recalled seeing the radio altimeter alert light illuminate, but said that they did 
+not continue to monitor the height .  
+3.14. The NVIS crew member was reading out the barometric altitude  as they descended,  
+and it became steady at 200 feet  for several calls. The NVIS crew member was also 
+looking out and noticed a cliff face directly ahead  that they were closing in on very 
+fast. These were the cliffs to the south of Croz ier Point . The  cliffs were 20 metres high 
+above the beach (66 feet) and then the land is almost flat  from there  across the 
+peninsular  to Port Ross . The NVIS cre w member  immediately alerted  the pilot  who 
+also saw the cliffs  and started to flare and bank  right  to avoid hitting them . Without 
+any further warning , the helicopter impacted the sea.  
+Why did the helicopter impact the sea surface?  
+3.15. The Commission found that several factors contributed to this accident. Each of those 
+factor s is described below under separate headings.   
+Flight p lanning  
+3.16. This flight was initially planned to have been completed in daylight.  
+3.17. The operator's exposition included helicopter flights deep into the Southern Ocean 
+from New Zealand to Auckland Islands and Campbell Islands.  They  also operated 
+local flights in  the Antarctic. They had established procedures , remote bases  and the 
+infrastructure to support these types of operations.  
+3.18. The pilot was experienced in the company's operations in New Zealand , the Antarctic, 
+and had flown once before to Auckland Islands.  The pilot had about 73 hours of 
+experience flying at night  and met the operator's minimum NVG currency of three 
+take-offs and landings within the last 90 days.  They were also current with  their 
+knowledge of the company's operational procedures, NVIS competency  and the Part 
+135 operations flight crew competency check.   
+3.19. The NVIS crew member was trained and current in NVG operations , HUET and CRM . 
+They had flown two previous medivac flight s to Auckland Islands with another pilot . 
+They had also flown  one local NVG medivac with this pilot from  a Southland site a 
+few days before.  The NVIS crew member had just under 200 hours of experience in 
+that role on NVGs.  
+3.20. The risk profile changed as the day progressed, but the plan remained the same . The 
+first step cha nge to the risk profile was due to the delay  in departure while waiting for 
+the medical supplies  to arrive . This delay meant that the landing at Enderby Island 
+would be at night  and it required the illumination level at the destination to be 
+considered,34 along with a night descent procedure over water on NVGs.   
+3.21. One of the known risks while using NVGs is the potential loss of contrast that a flat 
+calm sea creates. It makes height judgement more difficult and the sea surface may 
+ 
+34 See later at Single -pilot VFR operations into the Southern Ocean . 
+ 
+Final Report AO -2019 -005 
+<< Page 28 >>
+   not be visible through NVGs. These types of situations are described in AC91 -1335 
+and in the operator's exposition36 (See Appendix 6  for the extracted text from the 
+Exposition ). It is possible to gain a significant improvement in safety by the NVIS crew 
+member contributing to the pilot's situational awareness in a more effective way. This 
+is explained later in the section on CRM.   
+Pilot had minim al NVG recency  
+3.22. The flight was progressing normally as they flew south in daylight. The situation 
+changed after night fell and the crew were wearing NVGs. The second  step change in 
+risk profile  occurred when the crew realised that the landing point was covered in 
+cloud.  
+3.23. It was getting near to the maximum duty time for the pilot. The exposition allowed 
+for up to 8.5 hours flying in any 11-hour period,  but had no weighting for NVG time . 
+AC119 -337 provides examples for flight and duty time and suggests a weighting 
+multiplier  of 2.3 for every hour flown on NVGs.  The pilot had completed a short flight 
+in the morning  before this operation. It had been  about four hours of flying  since 
+they left Te Anau with about three hours of planning and waiting for medical supplies 
+before tha t. As there was not enough fuel to return to the mainland , the crew were 
+committed to landing somewhere on Auckland Islands.   
+3.24. Although the pilot met the minimum requirement to remain current with NVGs , the 
+actual logged flight time on NVGs over the last 90 days was less than one hour.  The 
+required three take -offs and landings  had been part of two separate flights  that had 
+extended into night , and the take -offs and landing s were not needed for the 
+opera tions,  but were made after dark to remain current wi th night VFR . The pilot's 
+last flight crew competency check on NVGs was conducted four  months before the 
+accident flight. Low-level flight over water was not checked in that flight check.  
+3.25. CAR 61.29 defines what information pilots must log in their logbooks . It does not 
+differentiate between VFR or IFR night flight and night flight using NVGs. It just 
+requires a record of flight at night  for both VFR and IFR . The pilot did not record their  
+NVG flight  time separately  and some of that total night -time include d an initial night 
+VFR rating. T he two separate VFR night flight record s could be merged for any pilot 
+and a pilot's logged night flight is therefore ineffective to determine recent fligh t 
+experience in either  night VFR or NVG at night .  
+3.26. With more currency on NVGs , the pilot may have question ed their impression of a 
+dark area beyond the cloud . With a different expectation from the CRM, the NVIS 
+crew member may have been more effective  in challenging the pilot's perception. 
+They had experienced a low layer of fog about an hour earlier in the flight during 
+daylight. At th at time the sea surface state and the wind direction would have been 
+visible and may have helped to anticipate conditions at their destination.  
+Unstable  descent near the surface  
+3.27. The next step change in the risk profile occurred when the pilot made a steep descent 
+near the surface  on NVGs  and conti nued below their selected reference height .   
+ 
+35 CAA AC91 -13, section 3.2.3 Overwater operations . 
+36 SLH Exposition V17.21, Overwater Night HNVGO operations.  
+37 AC119 -3 Air operation certification  - Part 135 operat ions. 
+ 
+  Final Report AO -2019 -005 
+<< Page 29 >>
+ 3.28. The exposition38 stated that the maximum descent rate on NVGs was 300  ft/min and 
+for pilots to use the radio altimeter  both on descent and while in the area, setting the 
+decision height alarm accordingly.  The G PS record showed that the pilot descended 
+initially at about 500  ft/min down to 1000 feet above the surface, then at over 1300  
+ft/min until just before impact.  
+3.29. The last radio altimeter setting was found to have been 250 feet. A controlled descent 
+and level off at this height would have allowed the pilot to search for visible ground 
+references through the NVGs or use the pilot-controlled  spotlight to assist. The p ilot 
+said they set the decision height on the radio altimeter,  but then did not control the 
+helicopter to remain above that set height.  The pilot recalled that they were primarily 
+looking outside  while noting the NVIS crew member's  calls and judging the 
+helicopter 's height using depth perception . When the pilot saw the cliffs, they 
+recalled being surprised that the helicopter was lower than expected,  indicating a 
+disparity between their situational awareness and the actual position of the 
+helicopter.   
+3.30. The N VIS crew member became  concerned about the descent rate and attempted to 
+challenge  the pilot. However,  the terminology used did not convey that message to 
+the pilot. The word "speed" directs a pilot to verify  the aircraft's airspeed (forward 
+speed through the air) and they would do this by  looking at the airspeed indicator . To 
+draw a pilot's attention to the aircraft's rate of descent, the correct terminology would 
+be "descent rate", which is shown on the vertical speed indic ator. The NVIS crew 
+member 's training was limited to observing for obstacles during take-off and landing 
+and providing direction al clearance information  to the pilot . With more appropriate 
+CRM training,39 the NVIS crew member 's assistance could have been more eff ective  
+as a risk control.  
+3.31. The pilot did not have an instrument rating . Not having an IFR rating  meant they  
+were likely  more reliant on external visual references for flight attitude than  referring 
+to instruments.  A descent at night on NVGs with minimal celestial lighting required 
+more reliance on the radio altimeter and GPS  and familiarity with their use . With the 
+reduced FOV through NVGs, i t is also likely  that the pilot was fixated on looking 
+outside for ground reference to the detriment of an instrument scan inside . It is 
+possible that the descent would have been better controlled if the pilot also had an 
+instrument rating and was proficient at switching between visual and instrument 
+reference systems.   
+3.32. An extra ct below from the Australian CASA Advisory  Circular , Multipart AC  91-13 
+(CASA, 2022)  describes scanning procedures while flying with NVGs . Under high 
+workload s, CRM  is an effective safety measure  with scanning . The AC  states that for a 
+multi -crew environment, coordination of scan responsibilities is vital.  
+ 
+38 SLH Exposition V1 7.21, Overwater Night HNVGO operations . 
+39 See later at CRM training  for helicopter  operations . 
+ 
+Final Report AO -2019 -005 
+<< Page 30 >>
+    
+Other factors  
+3.33. Two other factors also contributed to this accident  - single -pilot VFR operations into 
+the Southern Ocean and CRM. They  are covered later in more detail .  
+Single -pilot VFR operations into the Southern Ocean  
+Safety issue: The operator's procedures for single -pilot VFR operations into the Southern Ocean 
+were not complete or ade quate at the time of this accident to safely manage the flight.  
+3.34. This type of operation carried a significant amount of risk over more common 
+medivac operations within the  NZFIR . The helicopter had a normal duration on 
+internal tanks  of two hours, but the flight south was beyond that range. Extra fuel had 
+to be carried in external pods and the helicopter needed to be refuel led just before 
+leaving the NZFIR. Cargo weight was critical with extra gear needed for the helicopter 
+winch extraction, patient care , passage over the sea, overnight stay and remote 
+refueling . The weight of the cargo was limited by the extra fuel carried and would be 
+further constrained with the patient weight on return (see Helicopter loading ). 
+3.35. The crew were aware that they would be landing after dark and would be using NVGs 
+for the approach and landing to an unlit and uninhabited remote island. They needed 
+additional skills and equipment to conduc t this flight and to be current in its use. 
+They also needed to assess the weather at the landing point and if they had time to 
+reach it while the visibility conditions and illumination levels were still suitable for 
+night VFR.  
+
+ 
+  Final Report AO -2019 -005 
+<< Page 31 >>
+ 3.36. At some point along the way  they would reach a decis ion point from where they 
+could still return and land safely. A little later they would reach a point where they 
+could not return from40 and they would be committed to continuing and landing at 
+Auckland Islands. They could see Auckland Islands before th e decision  point and were 
+able to visually assess if the weather was suitable to proceed. They also had access 
+through their base  support  to weather information from MetService's AWS  located 
+on Enderby Island.   
+3.37. The operator had c onducted flights into the Southern Ocean before and the situation 
+was included in the exposition under 'Offshore air operations for flights beyond the 
+NZFIR '. That procedure listed minimum conditions for such flights before they could 
+proceed  includi ng: ai rcraft type, minimum height, fuel endurance, weather minima, 
+emergency equipment, crew briefing, flight following and HUET training . 
+3.38. Another procedure in the exposition  under 'Flights over water ' described the 
+requirements for long -range offshore flights. The procedure permitted VFR flights if 
+they were less than 100  nm from the shore, but beyond that distance they had to be 
+IFR. By using Stewart Island, Snares Island and Auckland Islands, the flight could 
+remain within the 100 nm distance limit all the way  to Campbell Islands.  
+3.39. The chief pilot and the pilot had discussed the proposed flight before the task was 
+approved. The pilot was already authorise d by the operator for long -range offshore 
+operations. They had decided that the crew composition, pilot curre ncy, and the risks 
+of landing at night at Enderby Island using NVGs were adequately managed and that 
+the task should proceed.  
+3.40. Pre-flight planning was led by the pilot using the operator's standard flight planning 
+mnemonic (GSMEACQ )41 and based on the general content from the exposition . This 
+planning procedure was inadequate for an NVG operation and for this long-distance  
+flight over water for several reasons.  
+• The illumination level at the time of expected arrival was not considered 
+and the operator did not have a means of obtaining that information.  The 
+operator's exposition describes the extra planning and risk assessment 
+procedures required for an NVG operation under  'Overwater Night 
+HNVGO42 Operations ' where it stated , "illumination levels to be 
+considered".  The requirement is also in  AC91-13 as described in section 2 
+of this report under the heading Risk management for NVIS operations .  
+• The NVGs were reportedly checked and then packed  away until they were 
+donned prior to departure from Invercargill. The check did not discover 
+the missing battery pack weights. On the flight down, the pilot's NVG 
+battery pack was too light and being pushed up by the rolled hood in 
+their immersion suit co llar. The NVIS crew member swapped their heavy 
+battery pack with the pilot's light pack to fix that problem. The balance 
+weight in the pilot's battery pack had been used by another pilot and not 
+replaced.  
+• The immersion suits were reportedly checked at Te A nau before 
+departure . According to the exposition,43 the pilot should have had flares, 
+ 
+40 The point of no return or PNR . 
+41 GSMEACQ means Ground, Situation, Mission, Execution, Admin, Command, Questions.  
+42 HNVGO means helicopter night vision goggle operations . 
+43 SLH Exposition V 17.21, Offshore air operations for flights beyond the NZFIR . 
+ 
+Final Report AO -2019 -005 
+<< Page 32 >>
+   a PLB and a cut -away knife in their immersion suit, but had none of these.  
+Another crew member  had a pocketknife and torch in their immersion 
+suit, but none of the crew had a PLB. 
+• The helicopter was loaded above the maximum weight limit and a flight 
+plan load sheet was not submitted  to the operator's base .  
+3.41. The flight would leave the NZFIR within 30 minutes after leaving Inver cargill. The 
+operator had their own flight monitoring system in place to arrange flight following, 
+weather information, advice , and to initiate search and rescue if that was required.  
+3.42. The CAA had placed a restriction on the operator's AOC that did not per mit CTOs 
+outside the NZFIR  at the time of this flight . The operator was unaware of this 
+limitation and had not been consulted . The CAA had approved the operator for the 
+last 20 years to operate beyond the NZFIR. It was later discovered to have been a n 
+admi nistrative error by the CAA when the limitation was introduced in a n updated  
+AOC dated 28 September 2018. The CAA corrected the error  on 25 February 2020  
+with a revised AOC . Consequently, no action was taken against the operator for 
+conducting this flight beyond the NZFIR  and outside their current AOC . 
+3.43. While t he operator had substantial procedure manuals for major operations, such as 
+flying in the Antarctic or when working with the local search and rescue organisation , 
+the guidance procedures for this high -risk type of operation was spread across 
+several sections of the exposition. Much of the operator's experience had yet to be 
+documented .  
+3.44. The operator  had started a document called the 'Southern Ocean Safety Plan ' to 
+describe all aspects of planning and conducting VFR flights into the Southern Ocean. 
+It would eventually provide a comprehensive guide and set the standard required for 
+pilots to conduct such flights, but it was in draft form at the time of this accide nt and 
+had not been made available to all pilots. The operator later provided a copy of  their 
+Southern Ocean Safety Plan dated 1 December 2019 . 
+Definition of crew member  
+3.45. The definition of a crew member in the CARs  is not without  ambiguity .44 The CAA 
+issued  a Legal Information Bulletin  No.4 (LIB 4)  to clarify to operators the CAA's 
+interpretation of the term  'crew member' for Part 135 operations. However, LIB 4  
+means that a lthough an operator may consider and assign a person to be a 'crew 
+member' , including training them appropriately for the role, the CAA might classify 
+them differently as a passenger, or a  'passenger performing a task'. This scenario  can 
+arise with  paramedic s and wi nch operator s.  
+3.46. Furthermore, t he term 'NVIS crew member' is defined in the AC 91-13, but not the 
+CARs, creating ambiguity as to whether such a person is a crew member or 
+passenger. Questions can also arise as to  whether a n NVIS crew member's role could 
+change from being a crew member to a passenger based on their actions  durin g 
+flight . For example,  during the flight to Auckland Islands, whether the paramedic was 
+a passenger until they donned the NVGs.   
+3.47. The Commission considers that the differences in status of persons on board aircraft 
+continue s to be a source of confusion  for pilots and operators . 
+ 
+44 The Commission had consider ed the crew status in investigation AO -2018 -005 ( MD600N forced landing at 
+Ngamatea Station) .   
+ 
+  Final Report AO -2019 -005 
+<< Page 33 >>
+ Present r egulatory void for NVIS and air ambulance operations  
+Safety issue: There are no formal risk controls in New Zealand for helicopter NVIS  or air 
+ambulance operations unlike other jurisdictions that have set minimum standards in response 
+to the high accident rate in this sector .  
+3.48. As described earlier  (See ' Aviation rules '), there is no formal regulation or 
+performance  standard for NVIS or for HAA operations in New Zealand.  Presently, the 
+CAA can impress a discretionary level of control  through  the CAA's approval process 
+for an operator when they apply  to add these types of operations to their AOC.  This 
+operator had voluntarily adopted much of the content from the AC 91-13 into their 
+operating procedures.  
+3.49. The most recent issue of the AC was in 2011 . Activity in the HAA and NVIS  aviation 
+sectors in New Zealand has increased  significantly since that time  as it has overseas.  
+Trends with overseas regulators have been to increase the requirements for crew 
+training, CRM, operational recency , aircraft equipment , and to require pilots to be 
+instrument rated.  
+3.50. In New Zealand , the lack of formal  regulation or performance standards  for HAA  
+operations  remains , but has been somewhat compensated for  by the activities of 
+consumer  and interested sector bodies . Ambulance New Zealand and the NZ 
+Helicopter Association (a division of Aviation N ew Zealand)  developed a joint 
+standard called the 'New Zealand Aeromedical and Air Rescue Standard'  (NZAARS) .45 
+This came into use during the early 2000s with its first three -year review being 
+completed in December 2012.  All contracted helicopter operators provid ing 
+helicopter services to Health New Zealand must comply with this standard and be 
+independently audited against it .46 
+3.51. The goal of the NZAARS is to ensure the quality of service provided by aeromedical 
+services  and air rescue se rvices in New Zealand and that it promotes safety , 
+consistency and is patient - or recipient -focused. From an aviation perspective, the 
+standard  defines the minimum crew experience for each group47 of aircraft operation, 
+the aircraft  type suitable for those  operations, minimum equipment  and crew training 
+requirements.  It also sets out criteria for human factors and CRM  that must be part of 
+the operator's  wider safety management system  (SMS) .  
+3.52. For the NVIS requirements , the NZAARS  defers to the CAA AC91 -13, but also adds 
+criteria aimed at recency and refresher training that is greater than required in the AC . 
+Radar (radio) altimeters are required for some group operations as minimum 
+equipment , but there are no other expectations.  This standard is , in effect, like the 
+Basic Aviation Risk Standard s (BARS ) requirements described later under Flight Safety 
+Foundation  and fits within the category of a mandated change driven by customers in 
+the 'HEMS Industry Risk Profile '.48 
+ 
+45 See the full citation  to access a copy of this standard (Ambulance New Zealand, 2018) . 
+46 As this flight was a privately -funded medical evacuation, the NZAARS did not apply . 
+47 Helicopter aircraft groups defined in the standard are: Group 1 - IFR multi -engine  turbine for aeromedical and 
+SAR; Group 2 - VFR multi -engine  turbine for same as operations as Group 1 ; Group 3 - VFR s ingle engine 
+turbine for SAR ; Group 4 - VFR single engine for SAR . 
+48 See the full citation to access a copy of this risk profile (Flight Safety Foundation, 2009) . 
+ 
+Final Report AO -2019 -005 
+<< Page 34 >>
+   United States of America  
+3.53. In 2006, the NTSB published a special investigation report on emergency medical 
+services operations  (NTSB, 2006) . This was after investigating 55 accidents in the HAA 
+sector. NVIS was new to civil aviation at the time,  but the report concluded that 
+proper use of NVGs could help pilots avoid hazards at night.  
+3.54. New Zealand's CARs are structured like those of the FAA, with FAA Part 13549 used for 
+CTOs.  The FAA uses OpsSpecs  for specific activities in CTOs  so an operator may have 
+Part 135 certification then add other activities to their operating certificate . HAA 
+operations were  covered under OpsSpec A021 and NVIS under OPsSpec A050. In 
+2014, the FAA revised several rules and  the HAA requirements were shifted to Part 
+135, Subpart L. The FAA said about the new rules release that it addressed many of 
+the concerns the NTSB had with HAA operations.  
+3.55. Two aviation phrases were formalised with the new rules and in FAA documentation. 
+The changes were  to: 
+• Replace helicopter emergency medical service (HEMS) with the term HAA. 
+• Discourage the use of the term "mission" because of it s implication of 
+acceptable losses in military aviation.  
+3.56. In 2017, the FAA instructed that all HAA Pilots -in-Command  (PICs) must have a 
+current instrument rating.  
+3.57. In 2022, the FAA updated OpsSpec A050 for NVIS operations. One of the changes 
+was a significant increase in the NVG recency  requirement for pilots  before they 
+could fulfill the role of PIC. The requiremen t for three take -offs and landings in the 
+last 90 days  was increased  and the period reduced . The take -offs and landings were 
+extended to a full departure , cruise and approach  to land. Area departure and arrivals 
+were included and transitions to and from aided flight (using NVGs ). They also 
+needed to have completed six NVG operations  in the period to remain current . 
+Australia  
+3.58. The Civil Aviation Safety A uthority ( CASA ) had issued a simila r advisory document in 
+2007 as the New Zealand CAA AC91 -13 with the CASA Civil Aviation  Advisory 
+Publication CAAP 174 -01. However, in Australia it  was enforced with Civil Aviation 
+Order CAO 82.6.  The process for operators was to use the CAAP 174 -01 as a guide to 
+make the necessary changes to their operation procedures  to meet the requirements 
+of the CAO and  then to apply to CASA for approval to use NVGs.  
+3.59. In 2021, the rules in Australia were change d and now all the requirements for the use 
+of NVGs are included within the new rules structure  CASA Part s 61, 133 and 138.  A 
+new multi -part manual of standards is out for consultation and the multi -part 
+Advisory Circular AC 91-13, AC133 -09, AC138 -06 was issued in 2022  (CASA, 2022) . The 
+CAO 8 2.6 and CAAP  174-01 were  repealed . 
+3.60. Pilots are required to have a night VFR rating and then may gain a n NVIS rating for 
+their licence  in accordance with Part 61 , Subpart P . To maintain that rating  a pilot 
+must complete an annual proficiency check . 
+ 
+49 USA Title 14  of the Code of Federal Regulations (14CFR) , Part 135 . 
+ 
+  Final Report AO -2019 -005 
+<< Page 35 >>
+ European Union and United Kingdom  
+3.61. The European Union (EU) Commission Regulation 216/2008 was issued in 2008 to 
+provide the common rules  for air operations in each member country. This was 
+revised in 2012 with Regulation 965/2012  (European Union, 2012)  that contained 
+Specific Approvals  (SPA). The SPAs related to additions to a basic AOC.  
+3.62. Subpart J of the 2012 r egulation was the SPA for helicopter emergency medical 
+services  called SPA.HEMS.100 . Subpart H was the SPA for helicopter NVIS operations 
+called SPA.NVIS.100.  
+3.63. A helicopter intended for use at night with NVGs must have a specific airworthiness 
+approval for NVIS in accordance with Regulation 1702/2003 . 
+3.64. In 2014, the UK CAA issued a Safety Directive (UK CAA, 2014)  that added specific 
+requirements to both the EU Commission Regulations for emergency medical services 
+and NVIS operations  conducted within UK . This Safety Directive increased the 
+minimum requirements for pilots, to only allow single -pilot HEMS to proceed if the 
+pilot held a valid  instrument rating.  
+Flight Safety Foundation  
+3.65. The Fl ight Safety Foundation50 publishes a set of BARS that they provide for guidance 
+to aviation sector operators.  In a standard intended for organisations  that contract 
+aviation services from air operators is a set of minimum standards for NVIS 
+operations  called 'Contracted Aircraft Operations '. 
+3.66. Appendix  5 of that BA RS covers NVG operations. It describes the known risks in a 
+Bowtie risk model format , with each of the threats and appropriate controls  given . 
+The listed threats are: NVG failure, Flight considerations (pre -planning), Helicopter 
+compatibility, Flight crew experience, Flight crew recency and General NVG 
+considerations.  
+3.67. The BARS  has a higher requirement than New Zealand AC91 -13 for: the radio 
+altimeter , the minimum crew experience and CRM , and the flight crew recency  of 
+experience . 
+3.68. In 2009 , the Flight Safety Foundation published an industry risk profile  for helicopter 
+emergency medical services (Flight Safety Foundation, 2009) . The profile focuses on 
+the voluntary change that the industry sector can control  to manage risk , but 
+recogni ses that input from  other participants  in the system may also be required  to 
+minimise  that risk. Those other participants are government legislators , regulator y 
+bodies  and customer s. The profile lists 26 high-level risks that have been determined 
+from HAA industry data and analysis and outlines the appropriate risk treatment 
+strategies  to reduc e the risk level.  
+Radio altimeter requirements  
+3.69. The New Zealand requirement for radio altimeters is in AC91 -13. The AC requires that 
+a radio altimeter  is fitted, but the specifications are very general and say that : 
+It is recommended that the radar altimeter be equipped with an audio and/or 
+visual warning device that can be triggered at a pilot selectable height.  
+ 
+50 The Flight Safety Foundation is an independent, non -profit international organi sation for research, education, 
+advocacy and communications in the field of aviation safety  (Flight Safety Foundation, 2016) . 
+ 
+Final Report AO -2019 -005 
+<< Page 36 >>
+   3.70. The BARS 'Implementation Guidelines ' have a section on helicopter offshore 
+operation . It relates mostly to oil rig support helicopter operations with two -pilot 
+crew who are  both instrument rated,  but it does indicate the ideal situation  about 
+preventing controlled flight into terrain (or water) (CFIT)  through the appropriate use 
+of radio altimeters . The standard states at section 21.6 : 
+The aircraft operator must document in the Operations Manual or MEL51 a 
+requirement for at least one radio altimeter with dual displays, both  of which 
+must be serviceable at the time of dispatch for any offshore  flight at night or 
+flight conducted under IFR.52 Aircraft operator procedures  should address the 
+requirement for setting any aural alerting systems on  the radar altimeter and 
+the procedures to be followe d in the event of an  unexpected alert  (Flight Safety 
+Foundation, 2014) . 
+3.71. A later BARS document in 2021 for offshore helicopter operations safety performance 
+requirements  describes  one of the accident prevention  goals for prevent ing CFIT 
+accidents as a radio altimeter  with dual displays . The difference from the ir 2014 
+standard is that each display should provide  an analogue indication  with a visual alert 
+and automated voice alerting device capability.  It emphasises  that the operator must 
+have procedures for any user adjustable voice alert features and for actions to be 
+taken by the flight crew in the event of an alert (Flight Safety Foundation, 2021) . 
+3.72. By having a radio altimeter fitted w ith a visual alert capability, the helicopter complied 
+with the recommendation contained within AC91 -13. However, the fact that the AC 
+only required either  an aural alert or a visual alert makes it differ from  some overseas 
+jurisdictions which require both  forms of alert, including that the visual indication 
+(light) is displayed at both crew stations, not just for the PIC.53 Some also require 
+separate  altitude displays at those crew stations . 
+3.73. From an information -processing perspective, visual cues rely on the visual processing 
+channel , and to work they must, in the first instance, be seen. Because FOV is 
+significantly restricted when using NVGs, cues that may be readily seen with normal 
+periphe ral vision require the pilot to be looking at, or very near to, a particular 
+instrument to receive that information. The auditory processing channel, however, 
+does not have this limitation since sound is omnidirectional and therefore the 
+auditory sense can  receive input from any direction.  
+3.74. Despite physiological and ergonomic limitations, the pilot's FOR will, at any time, be 
+dependent on their scan technique. This in turn, will be determined by the phase of 
+flight and associated workload of the pilot at the  time. During busy periods, where 
+attention is required to be distributed across multiple (and potentially complex) tasks, 
+pilot scan rates can slow or even become fixated on a particular instrument to the 
+detriment of other flight parameters.  
+3.75. The increase d demands NVGs place on a pilot's visual system can be assisted by the 
+utilisation  of other sensory modes  (Wickens, 2022) .54 In the final stages of the 
+ 
+51 MEL is Minimum Equipment List for an aircraft to remain operational.  
+52 IFR is instrument flight rules . 
+53 EASA AMC1 SPA.NVIS.110(b) Equipment requirements for NVIS operations, CASA Manual of Standards Part 133 
+11.64 Minimum equipment for NVIS flight.  
+54 Redundantly coding a target across modalities (such as coupling an aural alert with a visual warning) improv es 
+the accuracy of information processing. Auditory stimuli are particularly effective in alerting attention as they 
+not only target the auditory processing channel, but they also cue an individual's visual attention. Further, the 
+short -term auditory store  (echoic memory) is longer than that for vision meaning individuals can not only 
+register the alert , but return to examine/process it after approximately three to six  seconds.  
+ 
+  Final Report AO -2019 -005 
+<< Page 37 >>
+ approach toward Enderby  Island , the pilot was mostly focused on the outside 
+environment to navigate visually around the cloud cover and maintain their bearing 
+regarding  a suitable landing spot. During the post -accident interview, the pilot 
+mentioned that it had been helpful having the crew member call out  the altitude  
+readings,55 as their attention was primarily outside of the cockpit at that time.  
+3.76. Whether this accident  would have been prevented had the radio altimeter been fitted 
+with an aural alert is unknown. It is possible that the pilot may have been more 
+conscious of the he licopter's position above the sea surface as the aural alert 
+generally encourages more  active engagement with the instrument itself as opposed 
+to passive monitoring .56 Potentially, it could also have made the fact that the NVIS 
+crew member was calling inco rrect altitudes more readily apparent as there would 
+have been a discrepancy between their call -outs and the aural alert sounding.  
+3.77. While it cannot be determined to what degree the lack of an aural alerting function 
+contributed to this accident, not requir ing what is a well -recognised  safety measure 
+for NVIS operations puts the CAA's risk controls out of step with other oversea s 
+regulators and NVG operational best practice.  
+Summary  
+3.78. The introduction of NVIS operations for the commercial helicopter sector wi thin New 
+Zealand was intended to improve safety. The lack of a robust regulatory framework to 
+support this activity, however, meant that some of the risks associated with NVG use 
+were not sufficiently managed. Technical standards and practices used in New 
+Zealand for NVIS operations are still based on those common in the early 2000s when 
+NVGs were first used in civil aviation. Externally from the regulator , the HAA sector 
+has introduced a higher standard for NVIS operators  through contracted HAA 
+services with the NZAARS  standard,  but it only applies to selected operators . 
+3.79. While the major regulators  in the international community have recognised the 
+benefit of NVIS helicopter operations for rescue and air ambulance operations , they 
+have also addressed the significant risks by providing appropriate guidance and 
+performance expectations. The CAA is still reliant on a non -transparent57 and possibly 
+unique individual arrangement they have with each operator through their air 
+opera tor certification process.  The international community has advanced 
+considerably and the CAA's guidance on NVIS helicopter operations is no longer fit 
+for purpose.  
+ 
+55 At the time , the pilot did not know whether the readings were from the barome tric altimeter or the radio 
+altimeter .  
+56 The aural alert can be cancelled whil e the light would remain on until being reset for a different height.  
+57 Two separate operators could have very different conditions  they must meet for CAA through their respect ive 
+AOC approval process es.  
+ 
+Final Report AO -2019 -005 
+<< Page 38 >>
+   CRM training  for helicopter  operations  
+Safety issue:  The lack of comprehensive C RM training qualifications for non -pilots acting  as 
+crew members, combined with a lack of guidelines on crew members assist ing a pilot during 
+NVIS operations, creates an ongoing  risk that helicopter NVIS crews will not have effective CRM.  
+CAA rules requirements for CRM  
+3.80. CRM is typically defined as the effective use of all the resources available to crew 
+members, including each other, to achieve a safe and efficient flight. While CRM falls 
+within the broader field of human fact ors, it is considered a specialised  subject 
+regarding  training and assessing competency standards as acknowledged in AC121 -4 
+The Training and Assessment of Human Factors and Crew Resource Management58 
+(CAA, 2013) . 
+3.81. Given most two -pilot operations occur within an airline environment, CRM training is 
+graduated across the different licensing levels. Within the Private Pilot Licence (PPL) 
+Human Factors theory syllabus, a student is simply required to explain how outside 
+resources can contribute to the management of a flight. The CPL Human Factors 
+theory syllabus builds on this, covering 25 items under the heading s of Social 
+Psychology and Flight Deck Management. The theory for ATPL  Human Factors is 
+broadly similar to that for the CPL l icensing requirements.  
+3.82. Within New Zealand, air operators conducting operations under CAR Part 121 Air 
+Operations - Large Aeroplanes  (CAA -1, 2020)  and CAR Part 125 Air Operations - 
+Medium Aeroplanes  (CAA -2, 2020)  are required to have programmes in place for CRM 
+training and a means by which to assess CRM competency on an ongoing basis as 
+part of recurrency/proficiency checks.59 There are no such requirements for 
+operations  under CAR Part 135 Air Operations - Helicopters and Small Aeroplanes  
+(CAA, 2019) . 
+The benefit from CRM in small size aircraft  
+3.83. The reason NVIS helicopter operations allow for the utilisation  of a non -pilot crew 
+member is to pr ovide additional safety. For this to be achieved, however, both pilot 
+and crew member must be highly proficient in all aspects of CRM . The NVIS crew 
+member on the accident flight used an incorrect term for "rate of descent"  by calling 
+"speed ". A central ten et of CRM is the ability to draw the pilot's attention to flight 
+path deviations. If a crew member uses the incorrect terminology, the pilot might  
+focus their attention on the incorrect parameter, potentially to the detriment of a 
+more critical one - in this case the vertical speed of the helicopter.   
+3.84. Effective CRM results in all crew members sharing a common mental model of their 
+situation , which  is essential for the pilot to be able to make the best decision(s) with 
+the information provided. T o assist in forming a shared mental model of the 
+environment, it is imperative all crew members understand from which source flight 
+data is being provided. When the NVIS crew member was calling out altitudes during 
+the final stages of descent, the pilot as sumed that it was  from the radio altimeter . The 
+NVIS crew member would need to have leaned over to read the radio altimeter 
+ 
+58 Part 121 is applicable to Air Operations Large Aeroplanes (seating configuration of more than 30 seats or 
+payload capacity of more than 3410  kilograms ). 
+59 Competency assessment for 'soft' or non -technical skills such as CRM is significantly complex. Best p ractice, 
+such as that encouraged by AC121 -4, requires assessment of individual behavio ural markers by qualified 
+examiners trained in specific, well -developed methodologies , including inter -rater reliability.  
+ 
+  Final Report AO -2019 -005 
+<< Page 39 >>
+ accurately. If the information provided was incongruent with the pilot's own mental 
+model, it would be  potentially more dangerous th an receiving no information at all 
+from that crew member.  
+3.85. The ability for flight crew to communicate effectively is critical to flight safety . 
+Numerous accidents due to poor communication and misunderstandings on the 
+flight deck is the fundamental reason the concept of CRM was developed within the 
+airline industry. While CRM programmes - and the associated check -and-training 
+components associated with them - are considerably advanced, the requirements to 
+implement these within New Zealand are dependent on the particular Part 119 
+certificate an operator holds. In the case of a helicopter CTO, there was no CAA rule 
+requiring  comprehensive CRM trainin g as required by other multi -crew operations 
+under Parts 121 and 125.  
+What is the role of a non -pilot crew member during NVIS operations?  
+3.86. When interviewed about their duties following the accident, the NVIS crew member 
+stated that in addition to their obstacle clearance responsibilities, they liked to call 
+out altitude information to pilots, but if a particular pilot didn't necessarily want that 
+information, then they did not have to listen. The chief pilot said they were  not clear 
+on exactly w hat CRM training a non -pilot crew member would have received, but that 
+those who were more familiar with cockpit instrumentation could prove quite helpful 
+to the pilot during flight.  
+3.87. According to AC91 -13, the purpose of a n NVIS  crew member is to perform "e ssential 
+inflight duties to ensure safe operation of the aircraft during NVG operations" and 
+that they should "use CRM principles to maintain crew situational awareness". The AC 
+does not define what constitutes an essential inflight duty and therefore it i s unclear 
+which CRM principles might be applied on board. Potentially, this could include 
+reading cockpit instrumentation and providing that information to the pilot for 
+situational awareness purposes.   
+3.88. While the AC is silent on this role definition, Appendix 1 of the AC  points to an 
+operator's exposition  to list the responsibilities and authorities of a n NVIS crew 
+member. In doing so, this allows individual operators to define how, and to what 
+extent , a non -pilot can interact with the pilo t and participate during safety critical 
+phases of flight. In this case the operator 's exposition  allowed a crew member to 
+"offer timely suggestions and opinions",  "critique faulty decisions " and " advocate for a 
+different position, if necessary, to ensure the safety of the flight ". Whether this could 
+include interpretation of flight data from the instrument  panel and verbalisation  of 
+those interpretations to the pilot appears ambiguous . However,  evidence would 
+suggest that there was certainly variation a mongst different NVIS crew members and 
+pilots within the organisation and that expectations were not clearly defined either in 
+the exposition  or during pre -flight briefings.  
+3.89. Crew members were required to communicate " effectively''  using " standard"  or 
+"gene rally accepted " aviation terminology, yet the exposition contained only examples 
+of such terminology specific to defined manoeuvres. If this was intended to mean 
+that non -pilot crew members were not to offer advice outside of this particular list, 
+this was  not clearly specified. Despite this, had the pilot felt that the crew member's 
+called heights  were causing an unnecessary distraction or risk, the correct course of 
+ 
+Final Report AO -2019 -005 
+<< Page 40 >>
+   action would have been to request that the NVIS crew member to stop. That did not 
+occur.  
+Who can teach and assess CRM for NVIS operations?  
+3.90. The CAA  provides no guidance on how to teach CRM principles  for use with NVIS 
+crew, or how practical competency ought to be assessed and graded. For licensing, 
+an NVIS flight instructor is o nly required to hold a CPL , and as such may have covered 
+only the rudimentary elements of CRM as part of their CPL human factors theory 
+course. To then be in a position to not only teach, but also assess , CRM competency 
+and standards in a multi -crew enviro nment (including for personnel who are not 
+pilots themselves) poses a significant risk to flight safety.  
+NVIS requirements for jurisdictions outside of New Zealand  
+3.91. New Zealand Civil Aviation requirements to become a n NVIS crew member are 
+considerably less rigorous that those required by some other jurisdictions, such as the 
+European Union Aviation Safety Agency ( EASA ) and CASA (see Table 1 below ). AC91 -
+13 permits any personnel who are a necessary part of a commercial helicopter 
+operation (eg, winch crew, paramedics) to qualify as a n NVIS crew member if they are 
+using NVGs to su pport a single -pilot operation. Aside from the NVIS endorsement 
+itself, there are no additional requirements to be able to act in this capacity apart 
+from what an operator may themselves choose to put in their exposition. Essentially, 
+this means that a non -pilot is permitted to occupy a control seat of a helicopter and 
+give flight guidance commands to the PIC without the additional training.  
+3.92. Table 1 compares the reg ulatory pre -requisites for NVIS flight crew member training 
+in three different jurisdictions.  
+  
+ 
+  Final Report AO -2019 -005 
+<< Page 41 >>
+  
+Table 1: Comparison  for NVIS flight crew training  
+CAA (NZ)  CASA (Australia)  EASA (European Union)  
+Meet the experience, 
+competency, recency and 
+qualification requirements as 
+specified in the operator's 
+exposition, including any 
+physical and medical 
+specifications ( AC91 -13 4.5.1 
+Crew Member Training 
+Prerequisites ) Certificate IV in Aviation or 
+equivalent  prior to occupying a 
+helicopter control seat and 
+assisting with cockpit duties 
+(CASA EX131/19 Helicopter 
+Aircrew Members Instrument 
+2019 ) 
+  
+Any experience, recency and 
+qualifications stipulated in the 
+operator's manual, including 
+any physical and medical 
+specifications ( CASA Multi -part 
+AC91 -13, AC133 -09 and 
+AC138 -06) 
+  
+50 hours of flight time as an 
+aircrew member ( CASA Multi -
+part AC91 -13, AC133 -09 and 
+AC138 -06) 
+  
+The qualifications and 
+certification required by the 
+operator for any advanced 
+operational sequences (such as 
+winching) before undergoing 
+NVIS training for that sequence 
+(CASA Multi -part AC91 -13, 
+AC133 -09 and AC138 -06) 18 years of age ( ORO.TC.105 ) 
+  
+Medical assessment , including 
+cardiovascular, central nervous 
+system, visual acuity, hearing, 
+ear/nose/throat, psychological 
+(GM1 ORO.TC.105 ) 
+  
+Completed all applicable 
+training required by Annex III 
+(Part ORO) Subpart TC: 
+Technical Crew in HEMS, HHO 
+or NVIS Operations* 
+  
+Have been checked as 
+proficient to perform all 
+assigned duties in accordance 
+with procedures specified in 
+the operator's manual 
+(ORO.TC.105 ) 
+  
+ 
+* This includes CRM training, 
+checking and assessment as 
+specified in AMC1 ORO.FC.115,  
+ORO.FC.115  and ORO.FC215.  
+Essentially this entails CRM 
+training by a qualified CRM 
+trainer to the standard 
+required for multi -crew airline 
+operations, including 
+appropriate checking and 
+assessment. Should a technical 
+crew member not have 
+previously received theoretical 
+training in human factors to 
+the ATPL level, this must also 
+be completed as p er Annex I to 
+Regulation (EU) No 1178/2011  
+ 
+3.93. As well as requiring more extensive qualifications, the duties that non -pilot crew 
+members can partake in during NVIS operations are well defined in CASA and EASA 
+legislation. In addition to obstacle clearance d uties, Australia, for example, allows an 
+aircrew member to assist with navigation, radio communication, tuning navigational 
+aids, helping  with checklist use, and assisting the pilot monitor their systems and 
+instrumentation. To do the latter, dedicated training is required to:  
+ 
+Final Report AO -2019 -005 
+<< Page 42 >>
+   …adequately recognize, identify, announce, and provide verbal correction (the 
+con) to the pilot for drift, rates of climb or descent, obstacle avoidance, and 
+ground hazards for example dust and debris  (CASA, 2022) . 
+3.94. EASA regulations60 also list the specific duties a HEMS technical crew member can 
+fulfil. Like CASA, in addition to the primary task of collision and obstacle avoidance, 
+EASA certified crew members can also partak e in the following duties: navigation, 
+radio communication and radio navigation aid selection, reading of checklists and 
+monitoring of flight parameters. To assist the pilot with flight monitoring, EASA 
+regulations61 require a crew member to be trained in instrument flight techniques, 
+specifically: instrument scanning, role of instrumentation in NVIS flight, and unusual 
+attitude recovery procedures. In addition, one hour of blind cockpit drills must be 
+performed.  
+Summary  
+3.95. Having a non -pilot crew member wearing NVG and assisting the pilot was intended 
+to be an additional safety feature that reduced the risk associated with single -pilot 
+NVIS operations. For this to be effective, thorough training and a clear expectation 
+aroun d the extent of a non -pilot NVIS crew member's duties is required,  but this 
+guidance  does not exist  in New Zealand .  
+3.96. At the time of this accident, there were no prerequisites to become a n NVIS  crew 
+member, the definition of what that role entailed was ambi guous, and the rules did 
+not require CRM training to an y defined level of competence .  
+3.97. In this case, the accident crew were generally able to work together using the broad 
+principles of CRM . However , they did not have the depth of training , or share a 
+common  understanding and use of aviation phraseology , to support  the CRM 
+techniques required to manage high -risk situations more effectively . 
+Helicopter loading  
+Safety Issue : The helicopter was loaded above its maximum certified weight limit for the rescue 
+flight  and would have further exceeded it on the return flight.  
+3.98. This accident is another example of where a helicopter was overloaded, but where 
+that action was considered unlikely to have influenced the accident.  The Commission 
+has found  in previous accident investigations62 that helicopter s were  loaded above 
+the maximum certified weight limits  for the accident flight. The Commission has also 
+found that although an operator's procedures may clearly describe what is required , 
+and an operato r has provide d the tools to ensure that a helicopter's maximum all up 
+weight is not exceeded , pilots routinely violate their procedures .  
+3.99. The operator had procedures and quick loading guides to reduce the workload for 
+pilots. The guide in Appendix 1  was the applicable quick guide for this flight. It was 
+arranged with the percentage of maximum fuel loads and the associated maximum 
+cargo loads. The base weight included an allowance for the role equipment. 
+ 
+60 AMC1 SPA.HEMS.130(e) Crew requirements . 
+61 GM2 SPA.NVIS.130(f) Crew requirements . 
+62 For example,  two recent accidents reported in  TAIC reports  are: AO-2014 -005, Collision with terrain, Mt Alta , 
+and AO -2015 -007, Collision with terrain, Fox Glacier , (TAIC, 2014)  and (TAIC, 2015) , respectively . 
+ 
+  Final Report AO -2019 -005 
+<< Page 43 >>
+ Ultimately, the pilot held responsibility to ensur e that the helicopter was not loaded 
+above the maximum limits specified  in the type certificate.  
+3.100.  Misuse of standard loading guides , or omissions of certain items  or underestimated 
+weights  in a loading calculation, may result in an apparent ly acceptable load . It could 
+mean the difference between a departure now or a delay  to weigh  items  or leave 
+some items behind . If the load is above limits slightly, f uel burn will eventually bring it 
+back into normal loading limits. The final test for pilots is often made with a dynamic 
+check. This is where the pilot slowly lifts off into a low hover , while check ing that the 
+load is not limiting control movement to hold the helicopter level and there is still a 
+margin of power available.  
+3.101.  The type certificate limits are defined for many reasons and are not necessarily the 
+same as the maximum load that can be lifted in the environmental conditions at the 
+time. Exceeding the aircraft weight limitations introduces fatigue  that may then 
+shorten the operational life of some components. Some helicopter  type certificates  
+allow a higher loading if part of the load is external and can be jettisoned  (not 
+applicable to the BK117) . Some helicopters also have sufficient power at sea level to 
+lift more than the maximum rated internal load. Therefore, a dynamic check will 
+establish that the helicopter can be flown, but not if it  is overloaded.  
+3.102.  The pilot said that their iBal Rotary  calculation of weight and balance for the accident 
+flight was on their phone lost and at sea. They recreated one from memory . The 
+recreated loading calculation showed that the he licopter was within weight and 
+balance limits,  but it did not match the actual weights . Table 2 below shows the main 
+differences  between the pilot's recreated estimate and the calculated loading shown 
+in Appendix 2.   
+Table 2: Diffe rences in loading estimates  
+Item Pilot estimate  Measured or estimate d 
+Main fuel  520 kg - 90% capacity  576 kg -100%  capacity  
+Extended range tank  162 kg (1 external pod with 
+100%  fuel plus an extra 9 kg ) 320 kg (2 external pods with 
+100%  fuel in both ) 
+Cargo  280 kg 353 kg 
+ 
+3.103.  The medivac configuration loading guide (Appendix 1) showed the maximum load 
+that could be carried over the standard role equipment fitted for that configuration 
+and remain within  the helicopter's  loading limits . The guide included an allowance of 
+100 kilograms for the pilot.  With 100 per cent fuel and two external long-range fuel 
+pods , also with 100 pe r cent fuel, this additional discretionary load was 166 kilograms 
+of cargo .  
+3.104.  The recovered items were weighed and the weight of other  items  not available were 
+estimated from discussions with the operator. The calculated helicopter loading is 
+given  in Appendix 2  and shows that it was approximately 295 kilograms over the 
+maximum allowable weight of 3350 kilograms when the helicopter departed 
+Invercargill . It would take approximately one  hour of flight time to burn that excess 
+weight  in fuel.  
+3.105.  The overload was slightly less at  initial take -off from Te Anau because the winch 
+operator was not on board. After the 27 -minute flight to Athol, the fuel burn would 
+ 
+Final Report AO -2019 -005 
+<< Page 44 >>
+   have c ompensated for the winch operator boarding so the helicopter would again be 
+similar to the take -off weight at Te Anau .   
+3.106.  Assuming that all fuel tanks would have been refilled to 100 per cent for the return 
+flight  from Auckland Islands , the weight of the me divac patient would have been 
+additional to that calculated loading.  
+3.107.  The task was at the limits of the helicopter's capability and endurance . With the 
+amount of fuel required for the long-distance  flight to Auckland Islands , and the crew 
+and equipment carried on board , the flight was only possible by exceeding  the 
+maximum certified all -up weight.  
+3.108.  The airworthiness and life -cycle of an aircraft structure and its components are 
+evaluated by aircraft manufacturers based on operations within the prescribed 
+limitations found documented in the Aircraft Flight Manual. Exceeding  aircraft weight 
+limitations increases the risk of fatigue failures occurring at a lower life limit or 
+inspection interval than that published by the manufacturer . 
+Life-raft and survival equipment  
+Safety issue: For a  life-raft to be an effective device for increasing the chance of survival in the 
+event of a ditching, it must also be easily extracted from the aircraft so it may be deployed 
+when needed in an emergency . 
+3.109.  The life-raft was a n aviation -style life-raft. Certification under FAA TSO -C70a  meant 
+that it had a survival kit inside  with food and other emergency items . As a 'Type II ' 
+life-raft it was intended for CTOs , but not for transport category aircraft  (passenger s), 
+and it was therefore correctly matched to this type of  operation.  
+3.110.  The TSO -C70 includes requirements for the life-raft and container , its colour  and 
+marking . The operating instructions must be printed on the outside of the container 
+and visible when stowed.  The retaining line  is usually attached to the aircraft to 
+prevent the life -raft from floating away . The life -raft pack is then thrown away from 
+the aircraft . A survivor must reach the floatin g life -raft pack, lift the cover flap to 
+expose  a red handle attached to a lanyard, and pull the red handle until the life -raft 
+inflates.  
+3.111.  CAR rule 91.525 sets out the requirements for New Zealand air operations over water.  
+It states that life preservers, l ife-rafts, signalling devices, ELT(S) and Emergency 
+Position -Indicating Radio ( EPIRB ) must be installed in conspicuously identified 
+locations and must be easily accessible in the event of an aircraft ditching . Life 
+preservers, including constant wear anti -exposure overalls (immersion suits) , must 
+meet the requirements set out in Appendix A.14 of CAR Part 91.  
+3.112.  In this accident, impact with the water was at night, unexpected  and sudden.  The 
+helicopter lay semi -submerged in an inverted attitude for a short period  and then 
+sank. The life -raft was loaded into the rear cargo area amongst the rest of the 
+provisions for that rescue flight.  After rescuing the winch operator, the paramedic  
+tried to extract the life -raft from the cargo area , but could not find it  before the 
+helicopter sank.  The crew were wearing full im mersion suits and life -jackets.  
+3.113.  The crew had emergency location and communications  devices  in a grab -bag in the 
+cargo area , but no t on their person. This grab -bag was also lost with the helicopter.  
+ 
+  Final Report AO -2019 -005 
+<< Page 45 >>
+ 3.114.  This raises several safety factors  with over -water operations that operators need to 
+address. They must ensure that emergency equipment is available for the crew to use 
+in an emergency and that all survival equipment can be used effectively. The safety 
+factors include:  
+• The type of life-raft that would be most suitable for an operation  
+• Where that life-raft (or raft s) will be stowed and how it will be attached  to 
+the aircraft  
+• If any additional visual aids are required to make a stowed life -raft visible 
+in an emergency, such as a water -activated light or highly reflective tape , 
+or an activated glowstick  
+• What training crew will require and what refresher interval is needed to 
+ensure  all crew are familiar with where to find a stowed life -raft and how 
+to deploy it  
+• What personal survival equipment will be required and where it should be 
+stowed.  
+ 
+ 
+Final Report AO -2019 -005 
+<< Page 46 >>
+   4 Findings  
+Ngā kiteng a 
+4.1. The helicopter was operating normally as the pilot descended to land at  a remote 
+island at night . While the pilot was using the GPS map display  for navigation  and 
+NVGs to help maintain  visual reference , the helicopter  unexpectedly impacted the 
+sea. The pilot had lost vertical reference and controlled the flight into terrain (CFIT). 
+4.2. The winch operator's left -hand seat belt snap -on steel bracket  broke in overload 
+where it attached to the seat base.  
+4.3. The crew's training and skill in helicopter underwater  escape techniques , the wearing 
+of flight helmets and full immersion suits , and their survival skills were significant 
+factors in their survival from this accident.   
+4.4. The helicopter was fitted with an ELT model Artex C406 -1HM , but no alert signal was 
+received from the ELT by the RCCNZ.  
+4.5. The pilot met the minimum recency  requirement for NVG operations, but was likely  
+deceived by a well -documented visual illusion with NVGs caused by  a low contrast 
+surface . It is commonly experienced  over calm water  and can affect  judgement of 
+height and spatial orientation .   
+4.6. The operator's exposition for single -pilot VFR operations into the Southern Ocean 
+was inadequate at the time to manage the risks associated with such operations.  
+4.7. The risk profile for the flight  changed significantly with the delay in departure  time. 
+This should have initiated  a thorough operational risk assessment for an NVIS  flight  
+operation .    
+4.8. The New Zealand CAA risk controls that defin e the minimum safety requirements for 
+HAA and NVIS opera tions  significantly lag other jurisdictions and are no longer fit for 
+purpose . 
+4.9. The aircra ft's rad io altimeter was not required to be fitted with an aural alert ing 
+function . This function  provides significant safety protections for pilots wearing NVGs.  
+4.10. The potential for CRM to be an effective risk control with non -pilot NVIS crew 
+member s in a single -pilot, VFR, Part 135 operation  is undermined by the current rule. 
+CAR Pa rt 135 does not set a clear expectation about  the role and duties of a non-
+pilot NVIS crew member , or define an appropriate level of CRM competence  that 
+could  contribute to the safety of a n NVIS  flight.  
+4.11. The CAA requirements for pilots to log flight time did not require a pilot to 
+differentiate between night flight and night flight using NVGs.  This makes NVG 
+recency experience difficult to assess.  
+4.12. The helicopter departed for this flight in an overloaded condition , exceed ing the 
+maximum certified weight limit by almost 3 00 kg  (approx imately 9 per cent of 
+maximum certified take -off weight ).  
+4.13. Although the helicopter and crew were provided with the appropriate emergency 
+survival equipment and crew training  for this operation , they we re unable to locate 
+some of this equipment , despite it being accessible . The only emergency survival 
+equipment that was effective was what they had on their person at the time of the 
+accident . 
+ 
+  Final Report AO -2019 -005 
+<< Page 47 >>
+ 5 Safety issues and remedial action  
+Ngā take haumanu me ngā mahi whakatika  
+General  
+5.1. Safety issues are an output from the Commission's analysis. They may not always 
+relate to factors directly contributing to the accident or incident . They typically 
+describe a system problem that has the potential to adversely affect future transport 
+safety .  
+5.2. Safety i ssues may be addressed  by safety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address the issue.   
+Single -pilot VFR operations into the Southern Ocean  
+5.3. At the time of this accident, the operator had a draft standard operat ing procedure to 
+conduct single -pilot VFR operations into the Southern Ocean , but it was not in use . 
+The current procedures were spread through the exposition and were inadequate for 
+this flight . They pose d an ongoing risk for the operator and flight crew when used to 
+conduct Southern Ocean flights.  
+5.4. The updated procedure63 has since been provided to the Commission to demonstrate 
+the improvements made to safely conduct such operations. The Commission is also 
+concerned about the CRM training for non -pilots supporting VFR pilots on NVG 
+operations.  
+5.5. The appropriate approval pro cess for the draft Southern Ocean standard operating 
+procedures and any changes with CRM training or crew allocation on VFR flights into 
+the Southern Ocean are for the regulator to decide.  
+5.6. The Commission welcomes the safety action to date. However, it beli eves that if the 
+operator wishes to continue single -pilot VFR operations into the Southern Ocean, 
+their draft procedures need to be approved by CAA for use within their air operating 
+certificate .  
+5.7. It should also be noted that since this accident, the opera tor has implemented a CAA 
+approved safety management system (SMS) in accordance with CAR Part 100. It is 
+likely  that their SMS will mitigate the safety factors identified in this report and  
+prevent a reoccurrence.  
+Regulatory void for NVIS and air ambulance  operations  
+5.8. There is no formal requirement  in New Zealand for a minimum safe standard of 
+performance for helicopter operations using NVGs or as air ambulance s. The current 
+sector co ntrols are defined by each individual operator using an AC as guidance and 
+as approved  by CAA  in their respective AOC expositions. This could result in different 
+minimum safe  standards of performance by  different operators.  
+5.9. HAA and search and rescue operations are of ten conducted at night in marginal 
+visual conditions  and, while  not applicable in this accident, under pressure to attend 
+ 
+63 Standard Operating Procedures (SOP) - Sub Antarctic Islands , 01 December 2019.  
+ 
+Final Report AO -2019 -005 
+<< Page 48 >>
+   to a patient 's needs .64 NVGs  are being used more often to assist aircrew to see in 
+these marginal VFR conditions.  
+5.10. While operators may have developed very sound procedures to manage such 
+situations and base them in accordance with international best practice, there is no 
+obligation . The threshold is set by an internal CAA review proce ss for each operator 's 
+AOC using an outdated Advisory Circular and with no external assurance of 
+consistency .  
+5.11. Additionally, there is no requirement for pilots to log their night VFR and NVG flight 
+time separately , making it difficult to verify actual curr ency in either.  
+5.12. While New Zealand is fortunate not to have a long public history of accidents or 
+incidents in this sector , the country and its people are not unique . Based on the 
+accidents  and regulatory trends  in this sector overseas , and the CAA's comments in 
+their incident report 20/6775 , current reporting to the CAA may not reveal an 
+accurate  image of the sector's performance.   
+5.13. This accident was not fatal and the crew were fortunate to have survive d an 
+unexpected impact in cold water at a remote location at night , but it could easily 
+have been fatal.  The investigation has identified safety issues with the lack of 
+minimum performance requirements and operating standards  that can still impact 
+upon this sector . Regulators  in other jurisdictions have already addressed the increase 
+in sector activity and made changes to improve the safe operation of the sector.   
+5.14. In response to the draft report, t he CAA advised that it has sc heduled a new rules 
+project in 2022 that will include addressing NVIS operations.  CAA stated that : 
+We currently have work on the Transport Rules programme that will address 
+part of this issue. The current work will help provide clarity about the use of 
+NVIS; and is currently programmed for consultation in 2023. Part of the project 
+includes an amendment to the rules to accommodate NVIS usage in New 
+Zealand and to provide an appropriate level of regulatory oversight. The 
+Assorted Issues is next in line for ru les drafting, with consultation envisaged in 
+2023.  
+Additionally, the NVIS related AC91 -13 is undergoing a substantive rewrite to 
+ensure appropriate up -to-date and fit -for-purpose guidance is provided to NVIS 
+approved operators. The Authority is aiming to w ork on updates to the Rules 
+and AC91 -13 in tandem with drafts of documents going out for consultation 
+together.  
+5.15. The New Zealand HAA sector is growing fast and has recently seen significant 
+reorganisation and consolidation into regional centres of operation  with a customer -
+driven performance standard (Ambulance New Zealand, 2018) .  
+5.16. The Commission welcomes the safety action to date. However, it believes more action 
+needs to be taken to ensure the safety of future operations. Therefore, the 
+Commission has made a recommendation in section 6 to address this issue.  
+CRM training for helico pters  
+5.17. The introduction of NVIS operations for the commercial helicopter sector within New 
+Zealand was intended to improve safety. However, t he lack of clear guidance on 
+ 
+64 See the Flight Safety HEMS Industry Risk Profile , particularly  risks 10,  12, 16 and 20 . 
+ 
+  Final Report AO -2019 -005 
+<< Page 49 >>
+ appropriate CRM competencies to support  this activity has meant that some of the 
+risks associated with NVG use were not sufficiently managed.  
+5.18. The current guidelines in AC91 -13 allow a non -pilot crew member to wear NVGs and 
+assist the pilot to ensure clearance from obstacles and other assistance as required.  
+However, there is little expectati on about  training of non -pilot crew members , the 
+extent of their role , or ongoing training in CRM with the pilots.  
+5.19. CAR Part 135 sets out the conditions and requirements for helicopter CTOs applicable 
+to air ambulance and NVIS operations, but has no expect ations for CRM with single 
+or multi -pilot operations  or NVIS crew members . It is a safety issue that such a 
+significant benefit  in accident and incident prevention is not defined, trained  and 
+regularly practi sed. 
+5.20. No action has been taken to address this safety issue. Therefore, the Commission has 
+made a recommendation in section 6 to address this issue.  
+Helicopter loading  
+5.21. The issue  of overloaded helicopters is not new to the Commission. While the 
+helicopter may remain controllable and able to be flow n, overloading it adds 
+unnecessary risk .  
+5.22. In all cases  the Commission has  investigated, o perators had processes in place to 
+prevent overloading,  but some pilots continued to do so , indicating a normalisation 
+of deviance .65 The CARs  and aircraft flight manu als also prohibit the practice of 
+internal overloading.  
+5.23. While the Commission has not made a recommendation in this report addressing 
+these routine violations , operators and pilots must rem ain aware that overloading a 
+helicopter is adding risk to the operation and potentially may cause associated issues 
+that could  be cumulative  or present later as an unexpected failure .   
+Life-raft and survival equipment  
+5.24. The helicopter was carrying the required life -raft f or this type of operation . The crew 
+were wearing full immersion suits  and life -jackets  and had appropriate emergency 
+equipment and location devices stowed  in a grab -bag in the cargo area. After 
+escaping from the upturned , semi -submerged  helicopter , the only survival equipment 
+readily available to the crew was what  they each had on their person  (an immersion 
+suit and a life -jacket ). 
+5.25. The immersion suits and life -jackets were significant factor s in the crew's survival,  but 
+the rest of the survival equipment was ineffective because it was not able to be 
+retrieved  after the accident . 
+5.26. The operator has developed a new standard operating procedure for flights into the 
+Southern Ocean  and the CAA will be involved in its review and approval.  
+5.27. While t he Commission has not made a recommendation to address  this safety issue , 
+carrying the required safety equipment on board an aircraft does not necessarily 
+make it effective in an emergency . Operators planning extended flights over water 
+ 
+65 A term used to describe a situation where operations outside of a rule or regulation become a standard 
+practice or social norm within an orgnaisation  or industry .  
+ 
+Final Report AO -2019 -005 
+<< Page 50 >>
+   need to consider the emergency equipment required , where it is stowed , and ensure  
+that the crew are trained in its use . This is highlighted as a key lesson  in section 7 .   
+ 
+  Final Report AO -2019 -005 
+<< Page 51 >>
+ 6 Recommendations   
+Ngā tūtohutanga  
+ 
+General   
+6.1. The Commission issues recommendations to address safety issues  found in its 
+investigations. Recommendations may be addressed to organisations or people, and 
+can relate to safety issues found within an organisation or within the wider transport 
+system that have the potential to contribute to future transport accidents and 
+incidents.  
+6.2. In the interests of transport safety, it is important that recommendations are 
+implemented as soon as practicable  to help prevent  similar accidents or incidents 
+occurrin g in the future.    
+New recommendations   
+6.3. On 7 March 2023,  the Commission recommended that  the Civil Aviation 
+Authority  of New Zealand  address the growing gap between New Zealand 's 
+minimum performance requirements and technical standards for NVIS and 
+helicopter air ambulance operations and current international best practice s. 
+(021/22) 
+6.4. CRM  competency is not yet an effective safety measure  for helicopters operating 
+under CAR Part 135.  On 22 February 2023,  the Commission recommended 
+that the Civil Aviation Authority of New Zealand address  this safety issue . 
+(022/22) 
+6.5. On 27 March 2023 the Civil Aviation Authority replied:  
+You have  asked  if the Authority  can advise  its position  in relation  to the 
+implementation of the above recommendations, including the actions 
+taken (or to be taken) and the estimated timeframe.  
+Existing  work  
+The Authority  has two existing  programmes  of work  that relate  to the 
+recommendations.  
+The first is that as part the Authority's rule development work, (the 
+Transport Rules Programme)  AC91 -13 (Night  Vision  Imaging  Systems  - 
+Helicopter)  is being  redrafted  to align the AC with new technology and 
+ICAO Standards.1 
+When  the redraft  is complete,  it will be released  for consultation.  However,  
+the timing  of that release is yet to be determined and so I cannot give you a 
+specific timeframe, but will update you further, as below.  
+The second  is that the Authority  will, through  its monitoring  and 
+inspection  function, continue  to both  promote  international  best  practice  
+and assess  operators'  ability  to identify and appropriately manage the 
+risk of using NVIS against best practice.  
+The above  are clear  steps  that will address  the issues  identified,  and form  part of our 
+response  to the Commission's  inquiry.  
+ 
+Final Report AO -2019 -005 
+<< Page 52 >>
+   New  work  
+In addition, to ensure that any other gaps that the Authority should resolve 
+in this area are  identified  and responded  to, the Authority  will commence  a 
+gap analysis  to identify  if any further work is appropriate in the areas of crew 
+competency and performance/standards in the helicopter air  ambulance 
+space  to support  giving effect to recommendations 021/22 and 022/22.  
+You have  asked  that we respond  to you further  on our 
+response  to your recommendations and we are happy to 
+do so.  
+Timeframes  
+For an update  on the gap analysis,  and the AC9-31 consultation  timeframe,  
+we expect  to give you an update in early September.  
+ 
+ 
+ 
+ 
+ 
+ 
+  Final Report AO -2019 -005 
+<< Page 53 >>
+ 7 Key lessons  
+Ngā akoranga matua  
+ 
+7.1. The minimum requirements for NVG currency  do not equate to proficiency. A pilot 
+needs to also feel comfortable flying with NVGs and confident about their own 
+knowledge and skill  with NVIS operations.   
+7.2. The benefit of underwater  escape techniques training and immersion suits to 
+helicopter crew flying over water cannot be emphasised enough. They are lifesa ving. 
+7.3. If you need to wear an immersion suit  because of the risk  presented by your 
+operating environment , also carry a PLB and other selected survival items  on your 
+person  to support your survival chances and expedite a  rescue .  
+7.4. When operating helicopters using NVGs, radio altimeters become  an essential 
+instrument . Their effective use at low level and crew awareness of what actions to 
+take with height alerts should be a standard flight crew and NVIS crew member  
+recurrency training  exercise.   
+7.5. Pilots should log their NVG flight time in a separate column of their logbook.  
+7.6. Overloading the internal load  capacity  of a helicopter is a safety hazard that can 
+affect  the material integrity of the structure and components and it consequently 
+reduces  flight safety margin s. Pilots and operators should be alert to  this risk and 
+actively prevent  this practice . 
+7.7. Regulators and operators must remain aware that when operating aircraft  over water, 
+carryi ng the required emergency equipment on board does not make them  effective 
+emergency safety device s. To be effective, emergency equipment (such as a life -raft) 
+must  not only  be accessible , but must be locatable in an emergency and deployable  
+for the crew to  use.  
+ 
+Final Report AO -2019 -005 
+<< Page 54 >>
+   8 Data summary  
+Whakarāpopoto raraunga  
+Aircraft particulars  
+Aircraft registration : ZK-IMX 
+Type and serial number:  Kawasaki Heavy Industries BK117 -C1 s/n: 1108  
+Number and type of 
+engines:  2x Turbomeca  Arriel 1E2 , serial numbers #18054 and 
+#18055  
+Year of manufacture:  1996  
+Operator:  Southern Lakes Helicopters  Limited  
+Type of flight:  Commercial transport operation , day and night VFR 
+with NVGs , helicopter air ambulance  
+Persons on board:  3 
+Crew particulars  
+Pilot's licence:  Commercial pilot licence  (helicopter ) - CPL(H)   
+Pilot's age:  50 
+Pilot's total flying 
+experience:  6683 hours  
+Date and time  22 April 2019 at 1937 NZST  
+Location  Location  Between Auckland and Frenchs Islands  
+Latitude:  50° 32´ 28.08" South 
+Longitude:  166° 17´ 14.40" East  
+Injuries  Minor  
+Damage  Substantial  
+ 
+  Final Report AO -2019 -005 
+<< Page 55 >>
+ 9 Conduct of the Inquiry  
+He tikanga rapunga  
+9.1. On 23 April 2019 , the CAA formally notified the Commission of the occurrence  from  
+the evening before.  The Commission subsequently opened an inquiry under section 
+13(1) of the Transport Accident Investigation Commission Act 1990  and appointed an 
+Investigat or-In-Charge.  
+9.2. A protection order was placed to cover the wreckage off Auckland Islands and the 
+door found floating and retrieved by a search vessel.  Another protection order was 
+issued to the operator to protect evidence related to the aircraft, the pilot and the 
+planning records for the operation . 
+9.3. The Commission advis ed the Japan Transport Safety B oard of the accident,  and they 
+appointed an accredited representative as the State of Manufacture  in accordance 
+with ICAO Anne x 13 on 8 May 2019.  
+9.4. Two investigators travelled to Te Anau on 24 April 2019 to conduct interviews and 
+recover evidence.  The helico pter maintenance manuals were secured and collected 
+from Queenstown on the way back. The crew were back in Te Anau and were 
+interviewed that week along with other key personnel associated with the operator.  
+The investigators left on 26 April 2019.  
+9.5. The wreckage was recovered by the operator under a protection order from the 
+Commission . Once the wreck was returned to Invercargill, it was examined by two 
+TAIC investigators on 13 May 2019 and then arrangements were made to recover the 
+wreckage to Wellington . The GPS was recovered and immersed in fresh water and 
+then safe handed to Wellington.  
+9.6. The GPS was cleaned and dried and the memory chip removed for data extraction  
+process . The log file was obtained and validated.   
+9.7. The final analysis of this investigatio n was presented to the Commission on 21 
+October 2020 .  
+9.8. On 5 September 2022,  the Commission approved a draft report for circulation to 
+seven  individuals and organisations  for their comment  in accordance with the 
+Transport Accident Investigation Commission A ct 1990 . 
+9.9. The Commission received  and considered seven  responses , including four 
+submissions . The other three parties had  no comment .  
+9.10. On 18 January 2023, the Commission approved further consultation on some 
+changed extracts of its draft report. Four responses  were received and considered . 
+That includ ed one submission and three responses with no comment on this extract 
+document . Changes resulting from the second round of submissions have been 
+included in the final report.  
+9.11. On 7 March 2023 , the Commission approved the final report for publication .  
+  
+ 
+Final Report AO -2019 -005 
+<< Page 56 >>
+   Abbreviations  
+Whakapotonga  
+ 
+AC Advisor y Circular  
+AOC Air operator  certificate  
+ATPL  Airline transport pilot licence 
+AWS  Automatic weather station  
+BARS  Basic Aviation Risk Standard s (Flight Safety Foundation ) 
+CAA Civil Aviation Authority  (of New Zealand)  
+CAAP  Civil Aviation Advisory Publication (Australia)  
+CAO Civil Aviation Order (Australia)  
+CAR Civil Aviation R ule 
+CASA  Civil Aviation Safety Authority (Australia)  
+CFIT Controlled flight into terrain  
+CPL Commercial pilot licence , (H) for helicopter  
+CRM  Crew resource management  
+CTO Commercial Transport Operation  
+EASA  European Union Aviation Safety Agency  (European Union)  
+ELT Emergency locator transmitter  
+ 
+  Final Report AO -2019 -005 
+<< Page 57 >>
+ ETA Estimated time of arrival  
+EPIRB  Emergency Position -Indicating  Radio Beacon  
+EU European Union  
+FAA Federal Aviation Administration (USA)  
+FOR Field of regard  
+FOV Field of view  
+NZAARS  New Zealand Aeromedical and Air Rescue Standard  
+NZFIR  New Zealand  flight information region  
+GPS Global positioning system  
+HAA Helicopter air ambulance  
+HEMS  Helicopter emergency medical service  
+HUET  Helicopter underwater escape training  
+HNVGO  Helicopter night vision goggle operation s 
+IFR Instrument flight rules  
+KHI Kawasaki Heavy Industries (the helicopter manufacturer ) 
+m Metres  
+MEL Minimum equipment list  
+nm Nautical miles  
+ 
+Final Report AO -2019 -005 
+<< Page 58 >>
+   NTSB  National Transport ation Safety Board (USA)  
+NVGs  Night vision goggles  
+NVIS  Night vision imaging system  
+NZST  New Zealand Standard Time  
+OpsSpec  Operations specification ( USA)  
+PIC Pilot-in-Command  
+PLB Personal locator beacon  
+PPL Private Pilot Licence  
+RCCNZ Rescue Coordination Centre  New Zealand  
+RTCA  Radio Technical Commission for Aeronautics  
+RNZAF  Royal New Zealand Air Force  
+SPA Specific approvals ( European Union)  
+TAIC Transport Accident Investigation Commission  
+UK United Kingdom  
+USA United States of America  
+UTC Universal Time Coordinated  
+VFR Visual flight rules  
+VHF Very high frequenc y 
+  
+ 
+  Final Report AO -2019 -005 
+<< Page 59 >>
+ Glossary  
+Kuputaka  
+Advisory 
+Circular  CAA advisory circulars (ACs) contain information about standards, 
+practices, and procedures that the Director has found to be an 
+acceptable means of compliance with the associated rule.  Advisory 
+circulars are numbered after the rule part that they refer to.  For example,  
+AC91 -13 is associated with CAR Part 91.  
+Altimetry  Altimeters are used to display an aircraft's vertical location above the 
+earth's surface. A baromet ric altimeter measures distance from sea level 
+using air pressure , which  decreases as altitude increases and vice versa. 
+As air pressure differs across geographic regions , and as temperature 
+changes, the pilot must set the local barometric pressure (correc ted to 
+sea level) for the displayed altitude to be accurate. If this does not occur, 
+then the barometric altimeter will either over - or under -read as shown 
+below (sourced from  internet) . 
+ 
+ 
+A radio (or radar) altimeter does not rely on air pressure; it measures the 
+height of an aircraft above the ground by timing how long it takes a 
+beam of radio waves to travel to the ground and reflect up to the 
+aircraft's receiver  as shown below (sourced from internet) . 
+
+ 
+Final Report AO -2019 -005 
+<< Page 60 >>
+    
+CFIT A category of accident where an airworthy aircraft under complete 
+control of the pilot is flown into terrain, water, or an obstacle.  
+Exposition  A set of documents required from an operator that the CAA need to 
+approve to issue that operator with an air operat or certificate .  The 
+document set  is signed by the operator's chief executive and must 
+describe  a specific set of information in accordance with the CAA Rule  
+Part applicable to that air operation . It includes how the operator will 
+comply with requirements in the CAA rules, the senior persons 
+responsible for compliance and operation, the activities of the operation , 
+the aircraft being used and the standard operating procedures.    
+Heli winch  A helicopter operation involving the use of a hoist mechanism with cab le 
+and hook that allows a lowering and/or pick up of an external 
+load/cargo/person from the side of the helicopter.  
+NVG/NVIS  Night vision googles (NVGs) are an item of equipment that, together 
+with other elements (such as aircraft lighting and approved operating 
+procedures ), form a night vision imaging system (NVIS). NVIS operations 
+allow a pilot to have enhanced vision while flying at night under visual 
+meteorological conditions (VMC). The use of NVGs does not alter the 
+requirement for minimum visual flight rules (VFR) conditions to be 
+present for the flight to proceed. A pilot is not required to have an 
+instrument flight rules (IFR) rating to use NVGs.  
+Station  Fuselage station numbers identify locations fore and aft along an 
+aircraft's fuselag e with the numbers being measured from a reference 
+datum (station zero).  
+ 
+  
+
+ 
+  Final Report AO -2019 -005 
+<< Page 61 >>
+ Citations  
+Ngā tohutoru  
+ 
+ 
+Ambulance New Zealand. (2018). New Zealand Aeromedical and air rescue standard  (Version 
+3.0 ed.). Ambulance New Zealand.  
+CAA. (2011, June 20). Advisory Circulars AC91 -13 - Night vision imaging systems - Helicopter.  
+Retrieved from www.aviation.govt.nz: https://www.aviation.govt.nz/rules/advisory -
+circulars/show/AC91 -13 
+CAA. (2013, Dec ember 3). Advisory Circular AC121 -4 - The training and assessment of human 
+factors and crew resource management.  Retrieved from www.aviation.govt.nz: 
+https://www.aviation.govt.nz/rules/advisory -circulars/show/AC121 -4 
+CAA. (2019, May 10). Part 135 Air opera tions helicopters and small aeroplanes.  Retrieved from 
+www.aviation.govt.nz: 
+https://www.aviation.govt.nz/assets/rules/consolidations/Part_135_Consolidation.pdf  
+CAA-1. (2020, December 1). Part 121 Air operations large aeroplanes.  Retrieved from 
+www.aviatio n.govt.nz: 
+https://www.aviation.govt.nz/assets/rules/consolidations/Part_121_Consolidation.pdf  
+CAA-2. (2020, December 1). Part 125 Air operations medium aeroplanes.  Retrieved from 
+www.aviation.govt.nz: 
+https://www.aviation.govt.nz/assets/rules/consolidatio ns/Part_125_Consolidation.pdf  
+CASA. (2022, January 27). Night vision imaging - helicopters. Multi -Part Advisory Circular 91 -
+13, AC133 -09, and AC138 -06. Retrieved from www.casa.gov.au: 
+https://www.casa.gov.au/search -centre/advisory -circulars  
+European Union. (2012, October 5). Commercial air transport operations, Commission 
+Regulation (EU) No 965/2012.  Retrieved from EUR -Lex.europa.eu: https://eur -
+lex.europa.eu/legal -content/EN/AUTO/?uri=celex:32012R0965  
+FAA. (2018). FAA handbooks and manuals, FAA-H-8083 -30A, Aviation maintenance technician 
+handbook - general.  Retrieved from www.faa.gov: 
+https://www.faa.gov/regulations_policies/handbooks_manuals/aviation?msclkid=55b
+0dcaccffd11eca0e37e2b17a29343  
+Flight Safety Foundation. (2009). Helicopter emerge ncy medical services (HEMS) - Industry Risk 
+Profile.  Flight Safety Foundation.  
+Flight Safety Foundation. (2014, May). Basic aviation risk standard: Implementation 
+guidelines. Alexandria, Virginia, United States of America.  
+Flight Safety Foundation. (2016, May). Basic aviation risk standard - Contracted aircraft 
+operations, Version 6. Alexandria, Virginia, United States of America.  
+Flight Safety Foundation. (2021, May). Basic aviation risk standard - Offshore safety 
+performance requirements, Version 5. Alexa ndria, Virginia, United States of America.  
+ 
+Final Report AO -2019 -005 
+<< Page 62 >>
+   NTSB. (2006). Aviation special investigation report, NTSB/SIR -06/01.  Retrieved from National 
+Transportation Safety Board, USA: https://www.ntsb.gov/safety/safety -
+studies/Documents/SIR0601.pdf  
+Parush, A. G. (2011).  The human factors of night vision goggles: Perceptual, cognitive, and 
+physical factors. Reviews of Human Factors and Ergonomics , 7:238.  
+TAIC. (2014). Aviation Inquiry AO -2014 -005, Collision with terrain, Mt Alta.  Retrieved from 
+Transport Accident Investig ation Commission: www.taic.org.nz  
+TAIC. (2015). Aviation inquiry AO -2015 -007, Collision with terrain, Fox Glacier.  Retrieved from 
+Transport Accident Investigation Commission: www.taic.org.nz  
+Timeanddate.com. (2022, May 10). Lunar calendar for Auckland Isla nds, New Zealand . 
+Retrieved from Timeanddate: 
+https://www.timeanddate.com/moon/phases/@2193727?year=2019  
+UK CAA. (2014, October 15). Civil Aviation Safety Directive number: SD -2014/003. Safety 
+Directive SD -2014/003 . United Kingdom: UK CAA.  
+Wickens, C. H. ( 2022). Engineering psychology and human performance. Fifth edition.  New 
+York: Routledge.  
+ 
+ 
+  
+ 
+  Final Report AO -2019 -005 
+<< Page 63 >>
+ Appendix 1   Standard medivac loading  
+ 
+ 
+ 
+
+ 
+Final Report AO -2019 -005 
+<< Page 64 >>
+   Appendix 2   Calculated loading  
+ 
+ 
+ 
+
+ 
+  Final Report AO -2019 -005 
+<< Page 65 >>
+ Appendix 3  Weather analysis from noon 22 April 2019  (NZST)  
+ 
+
+ 
+Final Report AO -2019 -005 
+<< Page 66 >>
+   Appendix 4  Estimated Illumination (UK Met Office)  
+ 
+ 
+
+ 
+  Final Report AO -2019 -005 
+<< Page 67 >>
+ Appendix 5  Descent rate into Auckland Islands  
+
+ 
+Final Report AO -2019 -005 
+<< Page 68 >>
+   Appendix 6  Overwater Night HNVGO operations  
+This is an extract from the Operator's Exposition V17.21  
+Operational Planning and procedures  
+1. When HNVGO (helicopter night vision goggles operation) is to be conducted low level 
+over water, the potential for impact with water, due to the loss of situational awareness is 
+ever present.  
+ 
+• To avoid this continued diligence must be paid to the Sea State, Wind velocity, Hover 
+references and Surface definition.  
+• Crew must be able to maintain continuous visual contact with known reference points 
+in the area such as islands, shorelines or boats.  
+• Request or ascertain the availability of sufficient water/surface distu rbance and/or 
+surface objects which may provide adequate surface contrast to maintain depth 
+perception which may assist the crew in maintaining a safe height.  
+2. Escape routes if unanticipated weather is encountered to known reference points.  
+ 
+3. Use of Ra dar Altimeter both during approach to the area as well as during time in area, 
+setting decision height alarm accordingly. Maximum Rate of descent not to exceed 300 feet 
+per minute.  
+ 
+4. During overwater flight, one of the most critical are as of concern is the texture of the 
+water surface. The texture of the water surface will vary from extremely rough during high 
+winds to a mirror -like surface when the winds are calm. The rougher of the water, the easier 
+it is to judge altitudes above the w ater. A smooth water surface may induce many illusions 
+because pilots cannot sense motion or determine the height of the aircraft above the water. 
+When the surface of the water is smooth, the aircraft may have to be flown higher. Radar 
+altimeter cross chec k also must be completed more frequently. Smooth surfaces may induce 
+the sensation of being too high above the water. The pilot may react by placing the aircraft 
+into a descent toward the water. Spatial disorientation also may occur over smooth water 
+becau se of the reflection of the stars in the water. To prevent vertigo when flying over 
+smooth surfaces, pilots must trust the radar altimeter and their other flight instruments.
+ 
+    
+  
+ 
+   Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its four kōwhaiwhai, Māori  scroll designs, from artist Sandy Rodgers (Ngāti Raukawa, 
+Tūwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies and how to avoid them. A 'waka whai māram a' (i te 
+ara haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is a metaphor for the Commission. 
+Mārama (from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) and 
+Papatūānuku (Earth Mother) by their son Tā ne Māhuta (god of man, forests and everything dwelling 
+within), which brought light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe' or 
+'risk free'.  
+Corporate: Te Ara Haumaru - the safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the 
+mother and child, symbolising protection, safety and guidance. The triple koru represents the three kete of 
+knowledge that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. 
+The continual wave is the perpetual line of influence. The succession of humps represents the individual 
+inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: Ngā h au e whā - the four winds  
+To Sandy, 'Ngā hau e whā ' (the four winds ), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the 
+sky, cloud, and wind. The re is a manu (bird) form representing the aircraft that move through Aotearoa's 
+'long white cloud'. The letter 'A' is present, standing for a 'Aviation'.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this 
+Kōwha iwhai.  
+Maritime: Ara wai - waterways  
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that 
+ships sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for Maritime.   
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+ 
+ 
+ 
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere ' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and 
+everything that dwells within) in the creation of this Kōwhaiwhai.  
+
+ 
+    
+ 
+ 
+Recent Aviation Occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2020 -003 Eurocopter EC120 -B, ZK -HEK, Loss of control in flight and collision with terrain, 
+Kekerengu, 50 kilometres northeast of Kaikoura, 15 December 2020  
+AO-2019 -006 Cessna 185A, ZK -CBY and Tecnam P2002, ZK -WAK, Mid -air collision, near Masterton, 
+16 June 2019  
+AO-2020 -002 Pacific aerospace  Cresco 08 -600, ZK -LTK, impact with terraine, Kourarau Hill, 
+Masterton, 24 April 2020  
+AO-2019 -003 Diamond DA42 aeroplane, impact with terrain, 22 nautical miles south -southeast of 
+Taupo, Kaimanawa Ranges, 23 March 2019  
+AO-2018 -005 MD Helicopters 600N, ZK -ILD, Engine control malfunction and forced landing, 
+Ngamatea Station, 14 June 2018  
+AO-2018 -001 Tandem parachute UPT Micro Sigma, registration 31Z, Double malfunction, 
+Queenstown, 10 January 2018  
+AO-2018 -006 Robinson R44, ZK -HTB Loss of control Stevensons Arm, Lake Wanaka 21 July 2018  
+AO-2017 -009 and 
+AO-2017 -010 Commission resolution to close aviation inquiries Boeing 787, near Auckland, New 
+Zealand, 5 and 6 December 2017  
+AO-2019 -001 Airbus Helicopters AS350, ZK -HEX, Forced landing, Wakefield, Nelson, 17 February 
+2019  
+AO-2017 -004 MBB BK117 A -3 helicopter, ZK -IED, Loss of control, Porirua Harbour, 2 May 2017  
+AO-2017 -002 Robinson Helicopter Company R22, ZK -IHA, Impact with terrain, Near Reefton, 27 
+March 2017  
+AO-2017 -003 ATR72, ZK-MCY, Landing gear failure, Nelson, 9 April 2017  
+
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 55.47                                    ISSN 1179 -9080 (Print)   
+         ISSN 1179 -9099 (Online)  
+ 

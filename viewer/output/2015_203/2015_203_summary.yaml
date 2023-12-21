@@ -1,0 +1,52 @@
+- name: Human Error and Assumptions
+  percentage: 15
+  explanation: The crew's potential oversight in leaving the deck wash hose running and the fish hatch open could be attributed to human error and assumptions. "It was about as likely as not that the cause of the fish hold flooding was water from a deck wash hose that had been left running through an open hatch" (4.3.34-4.3.38). This indicates a possible lapse in following procedures or assumptions about the state of the equipment, contributing to the accident.
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The absence of a visual indicator in the wheelhouse to alert the crew when the bilge pump was running meant that the bilge pumping system was non-compliant with Maritime Rules (4.3.39). This lack of adherence to safety procedures likely contributed to the crew's unawareness of the rising water level in the fish hold, which was a significant factor in the sinking.
+- name: Training and Familiarity with Equipment
+  percentage: 10
+  explanation: The crew's potential lack of familiarity with the bilge pumping system's configuration, which was found set to draw from the engine room bilge, suggests a training issue. "Why the crew set this bilge pump to draw from the engine room is unclear" (4.3.16). This lack of understanding may have contributed to the inability to manage the situation effectively.
+- name: Organizational Safety Culture
+  percentage: 15
+  explanation: The absence of a bilge alarm in the fish hold and the lack of a visual alarm at the steering position indicate a possible deficiency in the organizational safety culture. "the bilge pumping system on the jubilee was not fitted with any means of automatically alerting the crew when the water in the fish hold reached an abnormal level" (4.3.40). This organizational oversight likely played a role in the accident.
+- name: Emergency Response Preparedness
+  percentage: 10
+  explanation: The crew's inability to escape from the wheelhouse during the emergency suggests a lack of emergency response preparedness. "The means of escape from the Jubilee's wheelhouse in the event of an emergency afforded the crew too few options for escaping in the event of capsize or sinking" (4.4.1-4.4.21). This lack of preparedness for emergency situations was a contributing factor.
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: The vessel's means of escape did not fully comply with the intent of the Maritime Rules, indicating issues with regulatory oversight and compliance. "The means of escape from the Jubilee's wheelhouse and accommodation space may not have met the intent of the Maritime Rules for providing escape for crew in the event of fire" (4.4.10-4.4.18). This non-compliance may have hindered the crew's ability to evacuate safely.
+- name: Maintenance and Inspection Regimes
+  percentage: 5
+  explanation: While the vessel's maintenance and inspection regimes were not directly cited as a cause, the condition of the non-return valve, which leaked back a small amount under mains water pressure, suggests that maintenance practices could have been a factor. "The engine room bilge non-return valve was recovered from the vessel. When tested it was found to leak back a small amount under mains water pressure" (4.3.15). This could have contributed to water ingress into the engine room.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: The lack of risk management and analysis is evident in the absence of a bilge alarm in the fish hold, which would have alerted the crew to the abnormal water level. "the absence of a visual indicator in the wheelhouse that would have alerted the crew when the bilge pump was running meant that the bilge pumping system was non-compliant with maritime rules" (4.3.40). This oversight in risk management contributed to the sinking.
+- name: Crew Resource Management
+  percentage: 5
+  explanation: The report does not provide specific details on the crew's resource management during the incident. However, the fact that the crew did not escape suggests possible deficiencies in CRM, such as decision-making and leadership during the emergency. "it could not be established when and for how long the crew were aware of their predicament" (4.4.2 (invalid formatted quote)). This lack of evidence leads to a lower percentage allocation.
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no direct evidence in the report suggesting that fatigue management was a contributing factor to the accident. The crew were described as experienced, and there were no indications of fatigue-related issues.
+
+    '
+- name: Training and Competency
+  percentage: 0
+  explanation: The report does not indicate that a lack of training or competency among the crew was a contributing factor to the accident. The crew were all experienced fishermen (4.1.1).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The report does not suggest that the use of automation or over-reliance on automated systems was a contributing factor to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: Weather conditions were moderate and not cited as a contributing factor to the accident. "The loss of a relatively new fishing vessel and all of its crew in moderate weather conditions is unusual and unexpected" (4.1.1).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: There is no evidence of a communication breakdown contributing to the accident. The crew made a distress call, and the skipper attempted to contact the sister vessel (4.4.1).
+- name: Situational Awareness
+  percentage: 5
+  explanation: The crew's situational awareness may have been compromised due to being asleep or distracted, as suggested by the report. "Someone who was asleep or distracted by using a mobile phone would have been less likely to notice any unusual attitude or movement of the vessel as it was taking on water" (4.2.5). This could have delayed their response to the emergency.
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the report that contributed to the accident outside of those already listed.

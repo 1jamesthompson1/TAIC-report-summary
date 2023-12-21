@@ -1,0 +1,53 @@
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: The incident involved a "mismatch between the understanding of pilots and ATC in regard to their respective operational practices" (4.4). Specifically, "the pilots of the Pacific Blue aeroplane had a different understanding from the controller of what they would do in the event of commencing a missed approach from a circling manoeuvre" (4.5). This indicates that assumptions were made by both parties without proper verification, contributing to the safety issue.
+- name: Adherence to Safety Procedures
+  percentage: 15
+  explanation: There was a lack of adherence to safety procedures, as evidenced by the "long-standing acceptance of circling approaches that at times cannot be in compliance with the Rules" (4.57). Additionally, the "non-compliance had probably become routine because of the impracticality of achieving a landing at Queenstown if one were to observe the Rule strictly" (4.24). This deviation from standard operating procedures increased the risk of the incident.
+- name: Training and Competency
+  percentage: 10
+  explanation: The incident suggested that "the procedures were not as well understood by pilots generally as they should have been" (4.20). This indicates a gap in training and competency regarding the understanding of instrument approach procedures and the implications for obstacle clearance and missed approach procedures.
+- name: Situational Awareness
+  percentage: 15
+  explanation: The pilots had difficulty determining the height of the cloud tops and assessing the meteorological conditions correctly (4.7). This lack of situational awareness contributed to their decision to descend below the approach minimum descent altitude, which was not suitable due to low cloud behind Deer Park Hill (5.1).
+- name: Communication Breakdown
+  percentage: 10
+  explanation: There was a communication breakdown between the pilots and ATC regarding the protection of the missed approach and the expected actions in the event of not landing (5.12). The "controllers and the pilots of the Pacific Blue aeroplane did not share the same understanding" (5.12), which led to a lack of clarity and increased risk.
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The figure-8 circuit procedure "should have had the approval of the Director because it was intended as a permanent change that introduced or varied right-hand circuits" (5.10). This lack of regulatory oversight and compliance with the process for introducing new procedures contributed to the safety issue.
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The incident reflects a safety culture where "some operational practices appear to have 'drifted' from the original specifications" (4.57). This drift and the tacit acceptance of non-compliant procedures (4.19) indicate an organizational safety culture that may not prioritize strict adherence to safety standards.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: The controllers could have protected the missed approach for Pacific Blue by more positive means if they had realized that the low cloud around the aerodrome made the visual circuit unsuitable for a jet aeroplane (5.11). This indicates a gap in risk management and analysis, as the potential hazard of low cloud was not adequately mitigated.
+- name: Weather Conditions and Decision Making
+  percentage: 10
+  explanation: The weather conditions, specifically the low cloud behind Deer Park Hill, were a critical factor in the incident. The pilots' decision to descend below the instrument approach minimum altitude despite marginal conditions (4.7) highlights the impact of weather on decision-making.
+- name: Crew Resource Management
+  percentage: 5
+  explanation: The incident involved a situation where the pilots had to execute an escape maneuver, which was achieved safely because they were able to keep the terrain in sight (4.21). This suggests that while CRM was effectively utilized during the escape maneuver, there may have been earlier opportunities for better resource management to prevent the situation from arising.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the role of training and familiarity with equipment in the incident.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the role of fatigue management in the incident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the role of maintenance and inspection regimes in the incident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is insufficient information in the document to determine the role of the use of automation in the incident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: There is insufficient information in the document to determine the role of emergency response preparedness in the incident.

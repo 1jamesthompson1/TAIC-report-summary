@@ -1,56 +1,45 @@
-- name: Human Factors - Fatigue and Alertness
+- name: Fatigue Management
   percentage: 0
-  explanation: There is no mention of fatigue or alertness issues contributing to the accident. The report specifically states that "the actions of the jet boat driver were not contributory" to the accident (3.3, 4.1).
+  explanation: There is no mention of fatigue or overwork contributing to the accident in the provided document. The report does not discuss the state of alertness or work hours of the individuals involved, such as the jet boat driver or maintenance personnel (3.1-3.39).
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: The report specifically states that "the actions of the jet boat driver were not contributory" to the accident (3.3, 4.1). There is no indication that human error or assumptions played a role in the incident.
+- name: Training and Competency
+  percentage: 0
+  explanation: The report does not indicate that a lack of training or competency among the personnel was a factor in the accident. The focus is on mechanical failure and maintenance issues rather than on the skills or instruction of the individuals involved (3.1-3.39).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: There is no evidence in the report to suggest that a lack of training or familiarity with the equipment contributed to the accident. The mechanical failure was due to maintenance issues, not operator unfamiliarity (3.1-3.39).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: Crew Resource Management does not appear to be a factor in the accident, as the report does not discuss issues related to teamwork, communication, or leadership skills in the context of the incident (3.1-3.39).
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The report identifies a lack of adherence to safety procedures, specifically the failure to use a torque wrench to tighten the nuts on the stud-bolts to the specified value recommended by the manufacturer (4.4). This lack of adherence to the maintenance procedures contributed to the mechanical failure that led to the accident.
+- name: Organizational Safety Culture
+  percentage: 20
+  explanation: The operator's maintenance system did not ensure that maintenance was carried out in accordance with manufacturers' specifications (4.5). Additionally, the operator's hazard identification and mitigation system failed to recognize the risk of propulsion and steering system failure (4.6). These issues suggest a lack of a strong safety culture within the organization.
+- name: Risk Management and Analysis
+  percentage: 20
+  explanation: The operator's hazard identification system did not identify the risk of a critical system failure, and there were no risk mitigation measures in place for the jet unit failure (4.6). This indicates a deficiency in risk management and analysis.
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: While the report does not directly criticize regulatory oversight, it does mention that the operator was subject to Maritime Rules and that the boat had current certification (3.39). However, the accident demonstrates that compliance with minimum standards was not sufficient to prevent the accident, suggesting a need for improved regulatory oversight and compliance.
 - name: Situational Awareness
   percentage: 0
-  explanation: The accident was not attributed to a lack of situational awareness. The report indicates a mechanical failure was the cause, not the driver's perception or understanding of the environment (3.3, 4.2).
-- name: Distracted Operation
+  explanation: The accident was not caused by a lack of situational awareness. The mechanical failure was due to maintenance issues, not the driver's perception or understanding of the environment (3.1-3.39).
+- name: Emergency Response Preparedness
   percentage: 0
-  explanation: There is no evidence in the report suggesting that distracted operation played a role in the accident. The driver's actions were found to be non-contributory (3.3, 4.1).
-- name: Human Error and Error Management
-  percentage: 0
-  explanation: The report does not indicate that human error, in terms of the driver's actions, was a factor in the accident. The mechanical failure was due to maintenance issues, not operational errors (3.3, 4.4).
-- name: Safety Culture and Organizational Influences
+  explanation: The report commends the actions of the jet boat driver and the operator's response to the accident as both efficient and effective (3.25). Therefore, emergency response preparedness was not a contributing factor to the accident.
+- name: Maintenance and Inspection Regimes
   percentage: 30
-  explanation: The operator's maintenance system did not ensure adherence to manufacturers' specifications, indicating a potential issue with safety culture and organizational influences on maintenance practices (4.5). Additionally, the operator's hazard identification system failed to recognize the risk of propulsion and steering system failure (4.6).
-- name: Communication and Crew Resource Management
+  explanation: The mechanical failure was directly attributed to inadequate maintenance and inspection regimes. The stud-bolts failed due to fatigue cracking caused by insufficient pre-tension, which was a result of not using a torque wrench during routine maintenance (4.3, 4.4). The operator's maintenance program did not ensure that critical maintenance was carried out according to the manufacturer's specifications (4.5).
+- name: Use of Automation
   percentage: 0
-  explanation: There is no indication that communication or crew resource management were factors in the accident. The report focuses on mechanical failure and maintenance practices (3.3-3.9).
-- name: Training and Preparedness for Emergency Procedures
+  explanation: The report does not discuss the use of automation as a contributing factor to the accident. The focus is on mechanical failure and maintenance practices (3.1-3.39).
+- name: Weather Conditions and Decision Making
   percentage: 0
-  explanation: The report does not discuss the role of training and preparedness for emergency procedures in the context of the accident's cause. It does mention effective actions post-accident (3.25).
-- name: Emergency Response Planning and Coordination
+  explanation: Weather conditions and decision-making were not mentioned as factors in the accident. The report focuses on mechanical failure and maintenance issues (3.1-3.39).
+- name: Communication Breakdown
   percentage: 0
-  explanation: Emergency response was not a contributing factor to the accident, although the report notes that the response to the accident was efficient and effective (3.25).
-- name: Maintenance Procedures and Compliance
-  percentage: 50
-  explanation: 'The accident was directly caused by a mechanical failure due to inadequate maintenance, specifically the failure to apply the correct torque to the stud-bolts as per the manufacturer''s specifications (3.5-3.8, 4.4, 4.5).
-
-    '
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'Fire detection and suppression were not related to the accident, as there was no fire involved (Insufficient information).
-
-    '
-- name: Regulatory Compliance and Safety Management
-  percentage: 20
-  explanation: 'The operator''s failure to comply with maintenance regulations and the lack of a comprehensive safety management system that identified the risk of mechanical failure contributed to the accident (3.10-3.12, 3.20-3.21, 4.5, 4.6).
-
-    '
-- name: Equipment Design and Specifications
-  percentage: 0
-  explanation: While there were issues with the equipment's maintenance, the design and specifications of the equipment itself were not cited as contributing factors to the accident (3.9, 3.13).
-- name: Risk Assessment and Management
-  percentage: 0
-  explanation: The operator's hazard identification system did not identify the risk of propulsion and steering system failure, but this is more directly related to safety management rather than the broader concept of risk assessment and management (4.6).
-- name: Weather Information Dissemination and Interpretation
-  percentage: 0
-  explanation: 'Weather was not a factor in the accident, as the report focuses on mechanical failure and maintenance issues (Insufficient information).
-
-    '
-- name: Structural Integrity and Material Fatigue
-  percentage: 0
-  explanation: Although the stud-bolts failed due to fatigue, this is more directly related to maintenance procedures and compliance rather than the broader theme of structural integrity and material fatigue (3.7, 3.8).
-- name: Other
-  percentage: 0
-  explanation: There are no additional safety themes identified in the report that contributed to the accident. The report clearly attributes the cause to maintenance issues and the lack of proper hazard identification and mitigation (3.3-3.9, 4.4-4.6).
+  explanation: There is no indication in the report that communication breakdown contributed to the accident. The report focuses on mechanical failure and does not mention issues with information exchange (3.1-3.39).

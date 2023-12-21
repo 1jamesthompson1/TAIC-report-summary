@@ -1,0 +1,50 @@
+- name: Human Error and Assumptions
+  percentage: 15
+  explanation: The incident report indicates that there was no discussion among the bridge team about the effect of the wind and how it would affect the vessel making the turn into Number 2 Reach (3.28). This lack of discussion suggests that there may have been assumptions made about the vessel's ability to handle the conditions without adequately considering the impact of the strong wind. Additionally, the bridge team did not have an agreed pilotage plan specific to the existing conditions, which could have led to incorrect judgments based on incomplete information (3.26).
+- name: Training and Competency
+  percentage: 20
+  explanation: The pilot was seven months overdue for a required annual assessment of proficiency, meaning South Port's pilot assessment regime for the Bluff pilotage area was not meeting the requirements of its approved pilot training and proficiency plan (4.10). This lack of up-to-date assessment could have affected the pilot's performance during the incident. Furthermore, the pilot had not undergone simulator training exercises that could have prepared them for the strong easterly and south-easterly winds experienced during the incident (3.46).
+- name: Crew Resource Management
+  percentage: 20
+  explanation: The standard of bridge resource management was not in accordance with good industry practice. The pilot, master, and bridge team had not discussed the pilot's intended actions to execute the passage plan, and no challenge parameters had been set to guide the bridge team on when they should challenge the pilot's actions (4.6). This lack of effective CRM could have contributed to the incident by not fully utilizing the collective knowledge and skills of the bridge team.
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The report does not explicitly mention a failure to adhere to safety procedures as a contributing factor to the incident. However, the lack of a specific pilotage plan for the existing conditions and the absence of a discussion about the effect of the wind on the vessel's maneuverability suggest that there may have been a deviation from best practices in safety procedures (3.26, 3.28).
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The pilot's overdue proficiency assessment and the absence of a specific pilotage plan indicate potential issues with the organizational safety culture at South Port. A strong safety culture would ensure that training and proficiency requirements are consistently met and that operational procedures are adapted to the prevailing conditions (4.10).
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: The report suggests that the sustained wind and sea conditions from the east in the days prior to the event may have caused an unpredicted and unusual pattern of currents in the Bluff Harbour entrance channel, which may have influenced the direction of the ship (3.18). This indicates that there may have been a lack of comprehensive risk management and analysis regarding the potential impact of unusual weather patterns on the vessel's maneuverability.
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: There is no indication in the report that a lack of regulatory oversight and compliance contributed to the incident. The vessel's propulsion and steering systems were operating normally and were set in accordance with the pilot's instructions (4.3).
+- name: Situational Awareness
+  percentage: 10
+  explanation: The bridge team's situational awareness, particularly during the recovery maneuvers, would likely have been improved had there been an electronic chart display and information system or a portable pilot unit in use at the time of the incident (4.9). The lack of these aids may have contributed to the incident by delaying the recognition that the vessel was unable to maintain its course.
+- name: Emergency Response Preparedness
+  percentage: 5
+  explanation: The anchors, which are critical for emergency response, did not deploy when ordered by the pilot (4.4). This failure could have affected the emergency response and contributed to the vessel's contact with the seabed.
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The report does not indicate that maintenance and inspection regimes were a contributing factor to the incident. The planned maintenance records showed that the windlasses had been greased more frequently than required by the planned maintenance system (3.52).
+- name: Use of Automation
+  percentage: 0
+  explanation: The use of automation is not mentioned as a contributing factor in the incident report. The vessel was not fitted with an ECDIS at the time of the incident, and the pilot was not using a PPU (3.29, 3.30).
+- name: Weather Conditions and Decision Making
+  percentage: 5
+  explanation: The report indicates that the wind was from the east-southeast at a strength of about 25 knots, gusting to 32 knots, and the vessel's heading was almost at right angles to the wind direction (3.10). While the conditions were challenging, the ship should have been capable of making the entrance without incident in the conditions on the day (3.4). However, the wind's effect on the vessel's maneuverability was not adequately considered in the planning and execution of the transit, which suggests that weather conditions and decision-making were contributing factors.
+- name: Communication Breakdown
+  percentage: 0
+  explanation: The report does not indicate that a communication breakdown between the bridge team and the pilot contributed to the incident. However, the lack of discussion about the effect of the wind on the vessel's maneuverability could be seen as a failure to effectively exchange information (3.28).
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention in the report of fatigue management being a contributing factor to the incident. The report does not provide any information on the work hours or rest periods of the individuals involved.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: The report does not suggest that a lack of training and familiarity with equipment was a contributing factor to the incident. The vessel's propulsion and steering systems were operating normally and were set in accordance with the pilot's instructions (4.3).
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the report that contributed to the incident. The provided themes cover the factors mentioned in the report.

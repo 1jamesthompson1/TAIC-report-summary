@@ -1,0 +1,1272 @@
+﻿ 
+ 
+ 
+ 
+ 
+Final  Report   
+Aviation inquiry AO-2018 -005 
+MD Helicopters 600N, ZK -ILD 
+Engine control malfunction and forced landing  
+Ngamatea Station  
+14 June 2018  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+June 2021  
+
+ 
+ About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of 
+inquiry and an independent Crown entity responsible for inquiring into maritime, aviation 
+and rail accidents and incidents for New Ze aland, and co -ordinating and co -operating with 
+other accident investigation organisations overseas.  
+The principal purpose of its inquiries is to determine the circumstances and causes of 
+occurrences with a view to avoiding similar occurrences in the future . It is not the 
+Commission's purpose to ascribe blame to any person or agency or to pursue (or to assist an 
+agency to pursue) criminal, civil or regulatory action against a person or agency.  However, 
+the Commission will not refrain from fully reporting on the circumstances and factors 
+contributing to an accident because fault or liability may be inferred from the findings.  
+
+
+ 
+  Final Report AO -2018 -005 | Page iii Contents     
+1 Executive summary ................................ ................................ ................................ ........................  7 
+What happened  ................................ ................................ ................................ ................................ ...............  7 
+Why it happened  ................................ ................................ ................................ ................................ ............  7 
+What we can learn  ................................ ................................ ................................ ................................ ..........  7 
+Who may benefit  ................................ ................................ ................................ ................................ ............  8 
+2 Factual information  ................................ ................................ ................................ .......................  9 
+Narrative ................................ ................................ ................................ ................................ .............................  9 
+Site and wreckage examin ation  ................................ ................................ ................................ .............  10 
+Personnel information  ................................ ................................ ................................ ...............................  12 
+Aircraft information  ................................ ................................ ................................ ................................ .... 12 
+Loading and performance  ................................ ................................ ................................ ........................  13 
+Engine control  ................................ ................................ ................................ ................................ ...............  14 
+Meteorological information  ................................ ................................ ................................ .....................  16 
+Recorded data  ................................ ................................ ................................ ................................ ...............  16 
+Survival aspects  ................................ ................................ ................................ ................................ ............  16 
+Tests and resear ch ................................ ................................ ................................ ................................ ....... 17 
+3 Analysis  ................................ ................................ ................................ ................................ .........  18 
+Introduction  ................................ ................................ ................................ ................................ ...................  18 
+What happened  ................................ ................................ ................................ ................................ ............  18 
+ECU failure  ................................ ................................ ................................ ................................ ......................  18 
+Ground strike and subsequent injuries  ................................ ................................ ................................  19 
+Source of FADEC system faults  ................................ ................................ ................................ ...............  19 
+Previous FADEC system faults with the accident helicopter  ................................ .......................  20 
+Fault diagnosis process ................................ ................................ ................................ ..............................  20 
+First reco rded primary channel failure  ................................ ................................ ................................ . 21 
+Second recorded primary channel failure  ................................ ................................ ..........................  22 
+Continuation of flight with degraded FADEC system  ................................ ................................ .... 22 
+The possibility that the FADEC system malfunction was not indicated to the pilot by the 
+caution and warning system  ................................ ................................ ................................ ....................  24 
+The possibility that the pilot did not observe the caution and warnings  ...............................  24 
+The possibility that the pilot observed the caution and warnings and elected to continue 
+the flight  ................................ ................................ ................................ ................................ ..........................  25 
+Management of the fuel flow fixed mode  ................................ ................................ .........................  25 
+The effects of startle and surprise  ................................ ................................ ................................ ......... 26 
+Knowledge and understanding of the FADEC system  ................................ ................................ ... 26 
+ 
+Page iv | Final Report AO -2018 -005 Pilots' concern about using manual mode  ................................ ................................ ........................  27 
+Training requirements and guidance  ................................ ................................ ................................ ... 28 
+Use of helmets  ................................ ................................ ................................ ................................ ..............  29 
+4 Findings  ................................ ................................ ................................ ................................ ........  30 
+5 Safety issues and remedial action  ................................ ................................ ..............................  31 
+General ................................ ................................ ................................ ................................ .............................  31 
+Awareness of flight training risk.  ................................ ................................ ................................ ...........  31 
+Awareness of the benefits of wearing of helmets  ................................ ................................ ...........  32 
+6 Key lessons  ................................ ................................ ................................ ................................ ... 33 
+7 Data summary  ................................ ................................ ................................ ..............................  34 
+8 Conduct of the Inquiry  ................................ ................................ ................................ ................  35 
+9 Report information  ................................ ................................ ................................ .....................  36 
+Abbreviations  ................................ ................................ ................................ ................................ ................  36 
+Glossary  ................................ ................................ ................................ ................................ ...........................  37 
+Citations  ................................ ................................ ................................ ................................ ..........................  38 
+10 Notes about Commission reports  ................................ ................................ ..............................  39 
+ 
+ 
+  Final Report AO -2018 -005 | Page v Figures  
+Figure 1: MD Helicopters 600N, ZK -ILD ................................ ................................ ................................ ...........  i 
+Figure 2: Location of accident  ................................ ................................ ................................ .............................  ii 
+Figure 3: Example of cabin arrangement  ................................ ................................ ................................ ..... 10 
+Figure 4: Accident site  ................................ ................................ ................................ ................................ ......... 11 
+Figure 5: Approximate location of major helicopter components  ................................ .....................  11 
+Figure 6: MD 600N Collective with ECU auto/manual switch  ................................ ..............................  13 
+Figure 7: Simplified Schematic of the FADEC system  ................................ ................................ ..............  15 
+Figure 8: Approximate accident flight path  ................................ ................................ ................................  23 
+ 
+
+ 
+  Final Report AO -2018 -005 
+<< Page 7 >>
+ 1 Executive summary  
+What happened  
+1.1 On 14 June 2018, a visual survey flight over N gamatea Station was being conducted by 
+a pilot with four additional occupants  on board a n MD Helicopters 600N helicopter.  
+1.2 During the survey flight t he helicopter's electronic engine control unit detected and 
+recorded a number of faults, resulting in the  'full authority digital engine control ' 
+system  changing  to 'fuel flow fixed ' mode . The fuel flow fixed mode resulted in the 
+rotor speed varying beyond  normal operating parameters. The pilot was not able to 
+control the varying rotor speed and a forced landing ensued.  
+1.3 The helicopter struck the ground hard and remained upright, while the engine 
+continued to produce high power. This , combined with an imbal ance in the rotor 
+system from the ground impact damage, resulted in a severe shaking of the airframe, 
+which destroyed the helicopter.  
+1.4 One occupant  seated in the front -left position received fatal injuries. The pilot and one 
+other occupant  received serious injuries; the remaining two occupants  seated in the 
+centre of the cabin received minor injuries.  
+Why it happened  
+1.5 The Transport Accident Investigation Commission (Commission) found  that the 
+automatic governing of the engine power failed due to an undetermined intermittent 
+fault. This fault had previously occurred  but had not been rectified, likely due to its 
+intermittent nature. The full authority digital engine control system was n ot switched to 
+manual mode, which would have allowed the pilot to control the engine power. This 
+was likely influenced by the pilot's misunderstanding of manual mode and emergency 
+procedures . The pilot's misunderstandings were likely due to the local train ing 
+provided in respect of the engine control system.  
+1.6 The Commission found  that local training for the pilot 's type rating did not include an 
+in-flight demonstration of the actions to be taken in the event of an engine control 
+unit failure. This was likel y due to the perceived  risks associate d with this particular 
+procedure .  This likely contributed to the pilot's reluctance to select the engine control 
+system's manual mode in flight.  
+1.7 In addition, the Commission found  that the pilot and occupants  were not wearing 
+helmets throughout the accident flight, likely due to the operator not having a formal 
+policy on the wearing of helmets.  
+What we can learn  
+1.8 It is well publicised1 that with the right training and preparation pilots can be ready for 
+any unexpected situation that arises . Instructors can make better decisions when 
+appropriate information for conducting training exercises is available. When this 
+information is unavailable, misconceptions about the risk s involved may prevail. The 
+Commission f ound that a lack of awareness of the risks associated  with in-flight 
+ 
+1 Refer to Emergency Procedures Training , Federal Aviation Administration Safety Team (FAASTeam  [see 
+https://www.faasafety.gov/]) (see citations).  
+ 
+
+<< Page 8 >>
+ Final Report AO -2018 -005 demonstration s of engine control unit failures during training was a safety issue . 
+Therefore, the Commission recommended  that the Director of Civil Aviation publish 
+an educational article raising awareness of the importance of pilot type training being 
+sufficiently comprehensive to mitigate any risk s presented by particular  helicopter 
+characteristics.  
+1.9 There are well  documented benefits for aircraft pilots and occupants  wearing 
+appropriate helmets , when practicable and when operational conditions indicate 
+potential benefit s (p.g. 89, RO PWG2). The Commission identified a safety issue  in the 
+operator's lack of a formal policy related to the wearing of helmets. Si nce the accident 
+the operator has implemented a policy for its pilots to wear helmets on all flights. The 
+Commission believes a recommendation  made to the Director of Civil Aviation to 
+promote  educational awareness of the benefits of aircraft pilots and oc cupants wearing 
+appropriate helmets , when practicable and when operational conditions indicate a 
+potential benefit , is warranted.  
+1.10 A key lesson  of this inquiry was that a pilot's technical knowledge and understanding 
+of aircraft systems is essential to their interpretation of and response to malfunctions.  
+Who may benefit  
+1.11 Operators, flight instructors, pilots and aircraft occupants  may all benefit  from the 
+lessons of this inquiry.  
+ 
+2 Rotorcraft  Occupant Protection Working Group . 
+ 
+ 
+  Final Report AO -2018 -005 
+<< Page 9 >>
+ 2 Factual information   
+Narrative  
+2.1 On 14 June 2018, the pilot of a n MD Helicopters 600N  helicopter , registered ZK -ILD 
+(the helicopter) , was tasked with transporting personnel for the purposes of  
+conducting a n aerial  visual survey of farmland at Ngamatea Station.  
+2.2 At about 0742 the helicopter departed from Onga onga with the pilot and a n occupant  
+(who was another company pilot but not rated on this helicopter type) on board. The 
+helicopter arrived at Ngamatea Station a bout 20 minutes later to pick up three more 
+occupants to participate in the visual survey .  
+2.3 While on the ground, the pilot conducted a safety briefing and removed the front -left 
+door. However, the safety briefing  was most likely insufficient to fulfil all the elements 
+required under Civil Aviation Rules Part 91.211.  
+2.4 The original front -seat occupant  relocated to the rear-right seat. The N gamatea Station 
+manager sat in the front -left side next to the pilot. T he other t wo occupants sat in the 
+centre seats . The helicopter, with the pilot  and four  occupants  on board, departed at 
+about 0817 to begin the visual survey.  
+2.5 Approximately 24 minutes  after departure and while descending  at about 300 feet  (91 
+metres)3 above ground level, the pilot informed the occupan ts by intercom of a 
+problem  with the helicopter. The pilot continued to fly on a relatively straight flight 
+path for about another 1 ,300 metres , before  turning the helicopter to the left and 
+descend ing to land. The pilot did not inform the occupants  that t hey were about to 
+land. 
+2.6 The helicopter struck the ground heavily in an upright orientation. The helicopter 
+became airborne again and rotated about 90 degrees to the right before it hit the 
+ground again. The helicopter began to shake violently. Two of the o ccupants estimated 
+that this shaking continued for approximately 30 seconds.  
+2.7 The pilot and  occupant seated in the front of the helicopter received severe head 
+injuries and were unconscious when it came to rest. The pilot had no recollection of 
+the accident flight, and the occupant  in the front of the helicopter died in hospital the 
+following day . The other company pilot seated in the rear -right  seat of the helicopter 
+also received severe head injuries, but later was able to recall the accident flight .  
+2.8 The two occupants seated in the centre seats reported remaining conscious 
+throughout the accident sequence and received minor injuries. After the accident 
+sequence they vacated the helicopter, observed a fire in the engine compartment and 
+subsequently remo ved the other occupants from the helicopter. They then 
+extinguished the fire with a hand -held fire extinguisher.  
+ 
+3 Civil Aviation Rule 91.311 provides scope for flight below 500 feet (152 metres) above ground level if certain 
+conditions are met and there is a bona fide reason for the lower height.  
+
+
+ 
+
+<< Page 12 >>
+ Final Report AO -2018 -005 Personnel information  
+2.19 The pilot held a commercial pilot licence at the time of the accident and  a current 
+medical certificate. The pilot was type rated for the MD 600N , with 45 hours on type 
+and 9 ,659 hours total helicopter time.  
+2.20 The pilot  had begun training for the MD 600N helicopter type rating on 13 April 2018, 
+about two months prior to the accide nt. The type rating had been  conducted in the 
+accident helicopter by a  suitably licensed flight instructor operating under Civil 
+Aviation Rules P art 61 : Pilot Licences and Ratings . The training consisted of 2.3 flight 
+hours of dual instruction, followed by  an additional 2.2 flight hours conducted under 
+direct supervision4.  
+2.21 The instructor had a total flight time on helicopters of approximately 7,000 hours , with 
+approximately 250 hours logged on the MD 600N. The instructor held a category D 
+instructor rating and ratings for multiple other  helicopter types.  
+Organisational and management information  
+2.22 The pilot was also the chief executive of the operator and the senior person 
+responsible for flight and ground operations.  
+2.23 The operator held Civil Aviation Rules Part 135 : Air Operations Helicopters and Small 
+Aeroplanes and Part 137 : Agricultural Aircraft  Operations  air operating certificates 
+allowing for both commercial helicopter and agricultural operations. The operator was 
+mostly  engaged in  agricultural operations, in support of local farming and forestry.   
+2.24 The helicopter was listed under the operator 's Civil Aviation Rules Part 137 certificate . 
+There was an intention to certify the accident helicopter for Part 135 operat ions, at the 
+time of the accident5. 
+2.25 The fleet included four helicopters . The accident helicopter had been included in the 
+operator's fleet four months prior to the accident and was its first and only MD 600N.  
+2.26 The operator had a drug and alcohol policy that required testing after an incident. The 
+pilot underwent testing after the  accident, and this returned a negative  (clear)  result.  
+Aircraft information  
+2.27 The MD 600N was an eight -seat helicopter , powered by a single Rolls -Royce 250 -
+C47M turbine engine . It had been type certified by the United States Federal Aviation 
+Administration  in May 1997 . The N ew Zealand  Civil Aviation Authority  (CAA) had 
+issued a type acceptance certificate on 10 October 2003  to permit the helicopter type 
+to operate in New Zealand . 
+2.28 The MD 600N used the NOTAR® anti-torque system instead of a conventional tail 
+rotor and had a fully articulated six -blade main rotor system.  
+ 
+4 Having an authorised and qualified pilot occupying a crew seat in the helicopter to monitor the flight . 
+5 The CAA prosecuted the operator as a result of the accident .  One of the charges was on the basis that the 
+operator had two non -essential passengers on board a survey flight being conducted under  the operators  Part 
+137 Certificate .   
+
+ 
+
+<< Page 14 >>
+ Final Report AO -2018 -005 2.35 The longitudinal -centre -of-gravity position was calculated to be 2 ,336 millimetres , 
+which was within the al lowable window of 2 ,311-2,464 millimetres . 
+2.36 Performance charts for the helicopter indicated there would have been a sufficient 
+power margin available for the intended flight.  
+Engine control  
+2.37 The helicopter was equipped with a 'full authority digital engine control ' (FADEC)  
+system . A switch on the end of the collective lever allowed the pilot to  select  between 
+automatic and manual modes. In normal operations the FADEC system  would be in 
+auto mo de, where the engine power was controlled to maintain a constant rotor 
+speed. The FADEC system also provided automatic engine starting, temperature and 
+over-speed protection, and fault detection. Any FADEC system malfunctions were 
+displayed to the pilot on the cockpit warning panel . Critical caution s and warnings 
+were also linked to an audible message in the pilot's headset.  
+2.38 The FADEC system consisted of two major components: a hydro -mechanical uni t 
+(HMU) ; and an electronic control unit (ECU). The HMU was connected to the ECU via 
+the 'engine' wiring harness. A second 'airframe' wiring harness connected various 
+airframe sensors and components to the ECU ( Figure 7).  
+2.39 The HMU was responsible for delivering the required fuel flow to the engine. A 
+metering valve in the HMU was either adjusted mechanically by setting the throttle 
+twistgrip while in manual  FADEC mode , or driven by a stepper motor10 from the ECU 
+when operating in automatic FADEC mode.  
+2.40 The ECU had two control channels: a primary channel ; and a reversionary governor11. 
+Normally the primary channel  would control the fuel flow , but if the FADEC  system 
+detected a problem, the reversionary governor  would take over control . When the 
+primary channel failed , the FADEC system illuminated three separate amber  caution  
+lights to indicate degraded  operation . The reversionary governor did not provide the 
+same level of automated engine protection but  did provide basic electronic governing  
+of main rotor speed . Both ECU control channels used the same stepper motor in the 
+HMU to adjust the fuel flow.  
+2.41 If the FADEC system subsequently detected that both ECU control channels were 
+unable to control the fuel flow , it would illuminate  a red warning  light indicating 'ECU 
+Fail' and initiate an audible message for the pilot : 'Fuel Flow Fixed '12. The stepper 
+motor would hold in the current position to maintain the engine running . 
+2.42 The FADEC system would  remain  in this state of failure with a fuel flow  fixed  setting 
+until the pilot selected manual FADEC mode  using the dedicated switch on the 
+collective lever  and took over control with  the twistgrip on the throttle.  There would be 
+a short delay after the FADEC system was switched to manual  mode  before manual 
+control was affected .  
+ 
+10 An electric motor that can rotate incrementally.  
+11 Part of the ECU that provides degraded engine control, in  the event of a primary governor failure.  
+12 A fuel flow fixed mode is a FADEC system fail -safe mode in which, in the event of an engine control unit failure, 
+the quantity of fuel being delivered to the engine is fixed at a constant rate until the pilot sw itches to 'manual' 
+mode.  
+
+ 
+
+<< Page 16 >>
+ Final Report AO -2018 -005 • Advise maintenance.  
+2.46 If the ECU's reversionary governor also fail ed, the MD 600N rotorcraft flight manual 
+emergency and malfunction procedures stated:  
+• Do not change power setting.  
+• Reset ECU by momentarily placing the auto/manual  switch to MANUAL and then 
+back to AUTO (2 reset attempts allowed).  
+• Auto/manual switch to MANUAL  at pilot's discretion.  
+• Twistgrip: immediately reduce a given amount based on power setting.  
+• Twistgrip manually control Np/Nr15 at 100%.  
+• Land as soon as practical .  
+• Advise maintenance.   
+Meteorological information  
+2.47 A weather station located 29 kilometres west of the accident site recorded a light and 
+variable wind of two to three knots16 from the south east, and a temperature of five 
+degrees Celsius.   
+2.48 Photographs and video taken by the occupants  showed that the weather was good in 
+the immediate area at the time of the accident.  
+2.49 The pilot of the first emergency response helicopter to arriv e at the scene estimated 
+the wind to be approximately 10 knots from the west and reported that the conditions 
+were clear at the time.  
+Recorded data  
+2.50 Electronic devices including mobile phones were recovered and their recorded data 
+analysed as part of the ac cident investigation.  
+2.51 One of the occupants  seated in the middle of the cabin filmed segments of the flight 
+with a mobile phone. The final video segment, which was three minutes and 23 
+seconds in duration, ended approximately 40 seconds and 400 metres before the first 
+ground strike.  
+2.52 The videos and associated audio information were analysed , and the final video 
+segment provided  information about the groundspeed and height of the helicopter 
+above the ground, the ground track, and the helicopter engine and rotor speeds in the 
+lead-up to the accident.  
+2.53 The helicopter was equipped with a satellite -based  flight -tracking device . This was 
+configured to transmit the helicopter's position, height, groundspeed and direction of 
+travel every two minutes.  
+Survival aspects  
+2.54 The airframe structure remained upright,  and the rear cabin area remained generally 
+intact throughout the accident sequence, providing some protection for the rear 
+occupants  and allowing them to exit the helicopter  quickly . 
+ 
+15 Np/Nr is the ratio of the engine turbine speed to the main rotor speed . 
+16 A measurement of speed, in nautical miles per hour, equivalent to 1.85 kilometres per hour . 
+ 
+  Final Report AO -2018 -005 
+<< Page 17 >>
+ 2.55 Four-point seat harnesses secured all the occupants.  
+2.56 The front two seats had an energy -attenuating structure, intended to deform and 
+absorb vertica l impact forces. The left seat base partially deformed while the right side 
+remained intact.  
+2.57 The left-side skid assembly splayed outboard while the right -side assembly remained 
+relatively straight, indicating that higher forces were experienced on the lef t side.  
+2.58 None of the occupants was wearing a helmet. The pilot later reported usually wearing 
+a helmet while flying but  was not able to recall why one had not been worn on the 
+accident flight. Other pilots employed by the operator advised that pilots wore h elmets  
+on agricultural spraying operations, but not normally while conducting passenger 
+flights17. There was no written policy to this effect in the operator's documentation.  
+Tests and research  
+2.59 The ECU data was downloaded by a Rolls Royce advisor appointe d by the National 
+Transport Safety Board 's (NTSB 's) Accredited Representative18. The ECU data contained 
+operational and fault records for the accident flight and previous flights.  The download 
+was carried out at the Transport Accident Investigation Commiss ion's (the 
+Commission's) premises and the data was analysed with the assistance of engineers 
+from both Rolls -Royce and the manufacturer of the ECU.   
+2.60 The ECU and HMU were also sent to their manufacturer s in the United States for 
+inspection and testing. This process was carried out while being observed by  the NTSB 
+and Rolls -Royce representatives.  
+2.61 The ECU and HMU were subjected to routine acceptance test procedures. The ECU was 
+tested extensively, but the t ests were unable to recreate the faults recorded on the 
+accident flight. The ECU was installed on simulation equipment to test the correct 
+activation of caution and warning lights19. It performed correctly without any faults.  
+2.62 Tests and inspections were al so carried out of the main wiring harnesses by a lice nsed 
+aircraft maintenance engineer (LAME) with an a vionics  rating . Although some external 
+tooling damage was observed on the connector between the ECU and the airframe 
+wiring harness, no faults were iden tified with the functionality of either wiring harness.  
+ 
+ 
+17 The operator had a range of helicopters, some were certified under Civil Aviation Ru le Part 135 to carry 
+passengers.  
+18 The Commission follows the International Civil Aviation Organization Annex 13 Accredited Representative 
+procedures in the conduct of its inquiries .  
+19 Depending on the severity of the malfunction, warning lights were red and caution lights were yellow.  
+ 
+
+<< Page 18 >>
+ Final Report AO -2018 -005 3 Analysis  
+Introduction  
+3.1 During a visual survey flight over Ngamatea Station, the pilot experienced a n engine 
+control  problem and as a result  conducted a forced landing. The helicopter struck the 
+ground  heavily  and the main rotor blades struck the tail  boom. The helicopter became 
+airborne again before settling on the ground. While on the ground, the helicopter 
+shook violently due to the now out -of-balance , damaged rotor system being driven at 
+high power by the engine. As a result,  the helicopter  broke  up and parts  were 
+propelled  some distance  from the main wreckage . The pilot and two occupants  
+received severe head injuries and became unconscious. One of those occupants died in 
+hospital t he followin g day . 
+3.2 The following section analyses the circumstances surrounding the occurrence to 
+identify those factors, which increased the severity of its outcome. It also examines any 
+safety issues, which have the potential to adversely affect future operations.    
+What happened  
+3.3 The data records from the FADEC system showed that approximately 17 minutes after 
+commencing the survey flight, the ECU primary channel failed. The ECU reverted to the 
+reversionary governor and continued to provide automatic engine governin g for a 
+further eight minutes before it also failed. The FADEC system subsequently reverted to 
+fuel flow fixed mode and remained in that mode for another 68 seconds until after the 
+helicopter struck the ground.  
+ECU failure  
+3.4 The ECU primary channel compared fuel -flow measurements from two different 
+sources within the HMU. The ECU data showed that during the accident flight the 
+difference between these two measurements exceeded a predefined value. This 
+discrepancy caused the primary channel to declare  a 'step count fault'20 and then fail, 
+at which point the  FADEC system changed to the  reversionary governor  mode .  
+3.5 The reversionary governor measured the rate of engine speed change using two sets 
+of measurements. About seven minutes and 55 seconds after t aking control, the 
+difference between these two measured values exceeded limit s, resulting in the 
+reversionary governor also failing.  
+3.6 With both the ECU's primary channel and the reversionary governor having failed, the 
+FADEC system reverted  to fuel flow f ixed mode, as designed.  
+3.7 The pilot needed to select manual , using the auto/manual switch on the collective to 
+be able to control the main rotor speed , with the FADEC system in fuel flow fixed 
+mode . The recorded ECU data showed that the auto/manual  switch on the collective 
+lever was not selected to manual  at any stage  during the accident flight .  
+ 
+20 A fault relating to the incremental positioning of a stepper motor.  
+ 
+  Final Report AO -2018 -005 
+<< Page 19 >>
+ Ground strike and subsequent injuries  
+3.8 One of the occupants described the initial ground strike as "not overly substantial". 
+This observation was supported by the energy -absorbing seat bases only partially 
+collapsing. The occupants survived the initial impact. However, the ground strike had 
+likely resulted in the rotor system becoming imbalanced due to the rotor blades 
+striking the tail boom.  
+3.9 The ECU data showed that  the FADEC system remained in fuel flow fixed mode until 
+approximately five seconds after the initial ground strike, at which point the ECU 
+experienced an electrical power interruption. This power interruption caused the 
+FADEC system to revert to manual  mode. The position of the throttle at that time 
+resulted in a rapid increase in fuel flow and consequently high engine and rotor 
+speeds. The engine power turbine subsequently burst from an over-speed 
+approximately two seconds later.  
+3.10 The high rotor speed and  imbalanced rotor system likely resulted in the destruction of 
+the helicopter and the severe post-impact injuries. The two occupants seated in the 
+middle row of the cabin estimated  that the entire ground shaking sequence lasted for 
+about 30 seconds.  
+3.11 The en gine could have been shut down by moving the throttle twistgrip completely to 
+the cut -off position or by pulling the fuel shut -off valve located on the left side of the 
+console. However, the fuel shut -off valve was found in the open position and the 
+record ed ECU data showed the throttle remained open. It could not be positively 
+determined why the pilot did not shut  down  the engine post the helicopter striking the 
+terrain . It is as likely as not that the severe vibration  created by the imbalanced rotor 
+syste m, may have hindered  the pilot actions .  
+3.12 The engine suffered a catastrophic overspeed after the helicopter struck the terrain , 
+resulting in an uncontained failure of the power turbine. Parts of the power turbine 
+disc and blades were ejected through the side of the engine and associated airframe 
+structure . This resulted in combustion section flame escaping from the engine and 
+causing localised bur ning of the surrounding external airframe structure.  Source of 
+FADEC system faults  
+The manufacturer of the ECU and HMU analyse d the recorded data and advised that 
+the initial step count fault and the reversionary governor fault were "indirectly 
+related , in that both indicate d a problem controlling the one stepper motor ". 
+3.13 During the post -accident testing of the FADEC system components, the HMU (which 
+included the stepper motor) underwent multiple tests in an attempt to recreate the 
+faults that were recorded on the accident flight. These faults could not be recreated 
+and the reason  for the recorded faults could not be identified.  
+3.14 At the time of the accident  the heli copter was compliant with all required airframe and 
+engine  Service Bulletins (SBs). There was on e engine  SB21 relating to the ECU 
+reversionary governor, that was due for compliance with the SBs instructions  at the 
+next removal of th e ECU from the helicopter engine  for any reason .  
+ 
+21 Rolls -Royce CEB 73 -6063 (Triumph SB73 -12). 
+ 
+
+<< Page 20 >>
+ Final Report AO -2018 -005 3.15 The SB requirement did not make the ECU unserviceable for continued operation . The 
+post-accident testing of the ECU did not replicate any of the data fault codes 
+associated with the fault the ECU SB was aimed at addressing.  
+Previous FADEC system faults with the accident helicopter  
+3.16 The ECU data showed that the pri mary channel had failed on two prior occasions  since 
+the operator had acquired the helicopter.  In the first instance the primary channel had 
+failed, the reversionary governor had not take n control and the engine had 
+transitioned directly to fuel flow fixed  mode. In the second instance the primary 
+channel had failed,  and the reversionary  governor had taken over control and 
+continued to operate until it also failed. The helicopter's maintenance records 
+contained no entries of any diagnostic or corrective maintenance associated with these 
+earlier two faults. The Commission sought to understand the fault diagno sis process 
+and the circumstances surrounding the faults.  
+3.17 The ECU data also recorded three collective potentiometer22 faults. A collective 
+potentiometer fault had degraded the ECU's governing ability but  had not result ed in 
+the primary channel failing. Th e pilot in command recalled being alerted to these 
+potentiometer faults by the illumination of a caution light, and had subsequently 
+landed and called the LAME.  All three occurrences of the potentiometer faults and 
+associated corrective actions had been  documented in the helicopter's maintenance 
+records. The engine manufacturer advised that they had not been related to the step 
+count faults.  
+Fault diagnosis process  
+3.18 When a helicopter is electrically powered up , the ECU conducts a self -test. If the ECU 
+detec ts a fault at that time,  it illuminates a caution light in the cockpit. The LAME can 
+then interrogate the ECU using a computerised maintenance tool to identify the fault.   
+3.19 The LAME did not have access to a computerised maintenance tool, and therefore used 
+the flashing light method to diagnose FADEC system faults . This required the LAME to 
+observe a sequence of flashing caution lights . The LAME then  had to compare  the 
+sequence  of flashing lights  to a list of  faults in the maintenance manual .  
+3.20 Only the current and 'last engine run '23 faults could be displayed using the flashing 
+light method. This method also relied on the position of the throttle twistgrip. If the 
+twistgrip were  positioned to cut -off, both current and last-engine -run faults were 
+present ed; if the throttle were  positioned to 'ground idle '24, only current faults were 
+presented.  
+3.21 The discrepancy in fuel flow rates that initiated the step count faults could not  have 
+been  a current fault without the engine running. Therefore, when the ECU powe red up, 
+the fault could only have been recorded as a last -engine -run fault and would have 
+resulted in the caution light illuminating only if the twistgrip were positioned at cut -off. 
+ 
+22 A device that measures the position of the collective lever and provides that information to the ECU to assist 
+with computing power requirements.  
+23 The engine run immediately prior to the engine run for which the fault diagnosis is being conducted.  
+24 A low engine and rotor speed state at wh ich the helicopter cannot take off.  
+ 
+  Final Report AO -2018 -005 
+<< Page 21 >>
+ First recorded primary channel failure  
+3.22 During interviews, the LAME and th e pilot both recalled an incident while carrying out 
+one of the first ground runs of the helicopter after  its initial reassembly in New 
+Zealand.  
+3.23 The helicopter engine had been started using an external electrical power source. After 
+start-up and with the engine stabilised at ground idle, the aircraft had been switched 
+to its own electrical power source and the ground power had been removed. At that 
+time the engine had momentarily shut down before automatically relighting. The 
+shutdown and r elight process had lasted less than a second and  resulted in some 
+aircraft instrumentation being reset.  
+3.24 The engine had then been advanced to flight idle, where the engine and rotor RPM 
+were both at the normal flight speed of 100%. The LAME  had then carrie d out the 
+intended checks.  
+3.25 After the checks had been completed, the pilot commenced the shutdown procedure 
+by returning the throttle twistgrip to the ground idle position; however, the engine had 
+remained at flight idle. The LAME and the pilot had collect ively referred to the flight 
+manual, after which they decided to switch the engine control to manual mode. The 
+pilot had adjusted the twistgrip  and moved the auto/manual  switch to the manual  
+position, after which the engine had quickly accelerated. The pil ot had reduced the 
+throttle twistgrip to stop the engine acceleration before any limitations were exceeded, 
+then continued to shut down the engine.  
+3.26 Neither the pilot nor the LAME recall ed any caution or warning lights illuminating while 
+the engine was at flight idle25. The LAME recalled  that the three FADEC caution lights 
+had been  illuminated after the engine was reduced to ground idle.  
+3.27 After the engine had been  shut down, the LAME had interrogated the ECU fault 
+records by utilising the flashing light meth od. Three faults had been  presented at that 
+time, of which one was a step count fault26.  
+3.28 The LAME had discussed this incident and the fault codes that had been presented 
+with the chief engineer and the pilot. The LAME  had then reviewed the fault codes by 
+utilising the flashing light method once more. At that time the fault codes had no 
+longer presented.  
+3.29 The chief engineer had emailed the helicopter manufacturer seeking more information 
+on the uncommanded shutdown when the ground power was removed. The response 
+from the manufacturer had advised:  
+Basically put, it is normal. The flameout occurs due to the split -second 
+between power sources when moving the switch. The Permanent Magnet 
+Alternator (PMA) on the ECU does not provi de power until about 85% N2 
+so the split second of switching at idle makes the ECU reset.  
+The flameout should not occur if the start is done on battery power.  
+ 
+25 With the engine running in fuel flow fixed  mode, the flight manual specified that the "ECU FAIL" warning light 
+would be illuminated.  
+26 The LAME recalled that one of the other faults was a temperature exceedance, but th ey could not remember 
+what the third fault was. The LAME attributed both  faults to the momentary engine shutdown and resetting of 
+the electronic instrumentation.  
+ 
+
+<< Page 22 >>
+ Final Report AO -2018 -005 3.30 There was also a note in the normal procedures section of the flight manual providing 
+similar inf ormation. That note stated:  
+If aircraft electrical power is interrupted at ground idle speed, engine 
+flameout may occur. If flameout occurs return twistgrip to CUTOFF.  
+3.31 With the feedback provided by  the manufacturer and the fault codes no longer 
+present, th e LAME, chief engineer and pilot  had reasoned that the engine being locked 
+at flight idle, and the fault codes identified, were connected. The group had believed 
+that these anomalies were a result of the power interruption after starting the engine.   
+3.32 The p ilot had conducted several  subsequent ground runs and no further anomalies or 
+fault codes had been observed for the remainder of the ground run and test flight 
+process. The helicopter had then been released to service.  
+Second recorded primary channel failu re 
+3.33 The same fault had been recorded in the ECU data 14 engine hours after the first step 
+count fault. The helicopter 's and the pilot's logbooks showed that this step count fault 
+had occurred during a day that included two hours of flying time in the helico pter and 
+three separate engine starts.  
+3.34 The data showed that, when the fault had been detected, the primary channel had 
+failed and the ECU  had transitioned control to the reversionary governor. The 
+reversionary governor  had continued to operate for 11 minut es and 28 seconds before 
+it also stopped controlling . The ECU manufacturer had advised that the  reversionary 
+governor had likely stopped controlling after the helicopter landed and the engine 
+RPM decreased to ground idle, as the reversionary governor would  not have 
+function ed when the engine RPM was below 85%.  
+3.35 Neither the pilot nor the LAME had reported being aware of this step count fault 
+occurring , therefore no ECU interrogation or rectification had been carried out and no 
+relevant entries had been made into the helicopter 's maintenance records.  
+3.36 The investigation had been unable to determine if the caution light had illuminated 
+and the pilot had not observe d it, or if a fault within a common part of the F ADEC 
+system  had resulted in the light not illuminating.  
+Continuation of flight with degraded FADEC  system   
+3.37 Earlier in the accident flight, when the primary channel failed and control transitioned 
+to degraded FADEC system under the reversionary governor, the helicopter was flying 
+over open farmland. Several  options for a precautionary landing were available at t he 
+time, including a return to the point of departure , which  was less than two minutes 
+away. However, t he pilot continued toward a more remote area with fewer options for 
+a safe precautionary landing and no practical mode of communication from ground 
+level. 
+
+ 
+
+<< Page 24 >>
+ Final Report AO -2018 -005 The possibility that the FADEC system malfunction was not indicated to the pilot by the 
+caution and warning system  
+3.41 When the earlier two step count faults caused the primary channel to fail, the pilot had 
+experienc ed both the reversionary governor and the fuel flow fixed modes. Although 
+the pilot was unable to recall the accident flight, the pilot did remember the first 
+primary channel failure when the FADEC system had reverted to fuel  flow fixed mode 
+during the gro und run. Neither the pilot nor the LAME had recalled any caution or 
+warning lights illuminating as described in the flight manual.  
+3.42 The pilot also reported being unaware of the second primary channel failure. In that 
+instance, when the reversionary governo r had taken  control, the flight had continued 
+as normal. On the accident flight, when the reversionary governor was in control, the 
+pilot's actions replicated those of that preceding occurrence by continuing the flight as 
+planned.  
+3.43 The ECU was installed on  test equipment during the post -accident inspection and 
+testing. During this testing, the caution and warning system functioned correctly.  
+3.44 It was not possible to test the components together within the accident airframe after 
+the accident. Therefore,  the functioning of the caution and warning system as it was 
+installed within the accident airframe could not be fully determined.  
+3.45 A light dimmer switch was also installed on the MD 600N instrument panel. This was a 
+dual-function switch ; when rotated left and r ight it modulated the brightness of the 
+instrument lights. When pushed inward the amber caution lights were dimmed 
+(excluding the red warning lights). The caution lights did not return to bright until 
+electrical power was removed , either by switching power to the helicopter off or by 
+pulling the applicable circuit breaker.  
+3.46 Neither the pilot  in command  nor any other MD 600N pilots interviewed throughout 
+the inquiry were aware of the caution light dimming function. However, it was unlikely 
+that the pilot would have inadvertently pushed the dim mer switch on multiple 
+occasions, coinciding with the ECU faults.  
+The possibility that the pilot did not observe the caution and warnings  
+3.47 Studies on the topic of inattentional blindness28 have identified th at during times of 
+high mental workload, cognitive resources can reach a saturation point and fail to 
+register information that is not subconsciously deemed a priority  (Mack, 1998) .  
+3.48 Inattentional blindness would correspond wit h a situation where a pilot's mental 
+workload is high. On  the accident flight the reversionary governor took control during 
+a phase of flight coinciding with a comparatively low mental -workload requirement . 
+Therefore,  if the caution and warning lights had illuminated  it is unlikely that  the pilot  
+would have  suffered  inattentional blindness . 
+3.49 Due to the pilot not being able to recall the accident flight, the investigation was 
+unable to determine if the pilot observed any illuminated caution and warning lights . 
+ 
+28 A phenomenon where  there is an inability to perceive. This sighted blindness (observed during tests) seemed to 
+be caused by the fact that subjects did not attend to a critical stimulus but instead attend ed to something else  
+that acted as a d istractor (Mack, 1998).  
+ 
+  Final Report AO -2018 -005 
+<< Page 25 >>
+ The possibility that the pilot observed the caution and warnings and elected to continue 
+the flight  
+3.50 The FADEC system transitioning to reversionary governor should not on its own 
+jeopardise flight safety. The ECU data showed that the reversionary governor 
+continued to provide automatic governing of power delivery within normal operating 
+parameters.  
+3.51 The MD 600N flight manual procedure applicable to the reversionary governor being 
+in control advised pilots to "land as soon as practical ", which was further defined as:  
+Extended flight is not recommended. Whether to complete the 
+planned flight is at the discretion of the pilot -in-command. 
+However, the nature of the specific problem or malfunction may 
+dictate termination of the flight before reaching the destination29.  
+3.52 On the previous flights, when the ECU had detected the collective potentiometer faults 
+and illuminated the 'ECU DE -GRADE' caution light  (refer to  paragraph 3.17), the pilot 
+elected to return, land the helicopter and contact the  LAME for rectification. It is likely 
+that the pilot would have repeated this response and returned to land if they had been 
+presented with and observed the three caution lights indicating that the reversionary 
+governor was in control. There was no reason to suppose that the pilot would have 
+acted differently if presented with other caution lights.  
+Management of the fuel flow fixed mode   
+3.53 Whether or not the fuel flow fixed mode  was correctly indicated to or observed by the 
+pilot, the diverging rotor RPM during the final minute of flight would have been 
+apparent to the pilot. The first paragraph in the 'FADEC Malfunctions' section of the 
+MD 600N rotorcraft flight manual stated:  
+Not all FADEC system failure modes are annunciated to the pilot via 
+the warning/caution indicator panel or voice warning system. 
+Should abnormal rotor/engine control occur without cockpit 
+annunciation, the pilot should take necessary action to avoid 
+exceedin g limits. Refer to "Other FADEC Malfunctions" at the end of 
+this paragraph.  
+3.54 The MD 600N rotorcraft flight manual procedure for 'Other FADEC Malfunctions' was 
+essentially the same as for the fuel flow fixed mode : 
+• Adjust collective as necessary to control ro tor RPM  
+• Auto/Manual switch to MANUAL  
+• Twistgrip: immediately reduce a given amount based on power 
+setting  
+• Twistgrip: manually control Np/Nr at 100%  
+• Land as soon as practical  
+3.55 The helicopter was at about 300 feet (91 metres) above ground level and had an 
+airspeed of between 80 and 100 knots when the FADEC system transitioned to fuel 
+flow fixed mode. The engine power output  at that time was not enough  to maintain a 
+ 
+29 This means landing as soon as possible in an open area where a safe landing can be conducted.  
+ 
+
+<< Page 26 >>
+ Final Report AO -2018 -005 straight and level flight ; however , it was sufficient for the h elicopter to remain airborne 
+for at least one minute while the helicopter descended. There would have been time 
+for the pilot to select manual mode and reconfigure the helicopter to maintain 
+controlled flight to a suitable landing site. The following were considered as possible 
+factors contributing to why this did not happen:  
+• the effects of 'startle' and 'surprise'  
+• the k nowledge and understanding of the FADEC system . 
+The effects of startle and surprise  
+3.56 Startle and surprise are normal human reactions to une xpected stimulus30. Where the 
+stimulus is appraised as threatening, the activation of the sympathetic nervous system 
+institutes widespread changes in the body. This arousal, which is also associated with 
+the acute stress reaction, is generally known as the  fight or flight reaction and has been 
+shown to have significant effects on cognitive and psychomotor processes  (Martin, 
+Murray, & Bates) .  
+3.57 On the accident flight, the engine control reverting to fuel flow fixed mode and the 
+consequences of that would likely have been unexpected. It could not be determined 
+whether such a physiological phenomenon would have affected the pilot's ability to 
+interpret and respond to the malfunction.  
+Knowledge and understanding of the FADEC system  
+3.58 The nature of the head injury sustained by the pilot meant that two months elapsed 
+before an interview was possible . The pilot had no memory of the accident flight , but 
+was able to recall the earlier training and experiences with the accident helico pter. At 
+the time of that initial interview the pilot did not describe correctly some aspects of the 
+MD 600N FADEC system and the prescribed response s to various malfunctions.  
+3.59 The pilot expressed a reluctance to use the manual mode in flight and could not 
+describe its operation  correctly .  
+3.60 During the earlier ground -running incident ( refer to paragraph 3.23), when the pilot 
+had moved the auto/manual  switch to the manual  position, the throttle had not 
+immediately reduced as required, resulting in the engine quickly accelerating. No 
+limitations had been exceeded, but it is likely that this incident contributed to the 
+pilot's reluctance to use manual en gine control in flight and the misunderstanding of 
+when its use would be appropriate.  
+3.61 The pilot had completed a written examination as part of the MD 600N type rating. 
+One question in the examination had asked them to detail the action to be taken with 
+the illumination of the 'ECU fail ' light (indicating fuel flow fixed mode). The pilot's 
+written answer had made no mention of the correct actions required involving the 
+auto/manual  switch or the use of manual throttle control  in the specified situation.  
+3.62 The pilot's answer in this exam had been  marked as incorrect and no correction had 
+been  annotated on the exam by the instructor. The instructor had completed the 
+ 
+30 The terms 'startle' and 'surprise' are often used interchangeably in various academic and technical reports; 
+however , there are distinct differences between the startle reflex and the surprise emotion. The article ' Startle 
+and Surprise on the Flight Deck: Similarities, Differences, and Prevalence ' (Rivera, Talone, Boesser, Jentsch, & 
+Yeh, 2014)  provides  a more detailed definition of the two as well as an analysis of their usage in previous 
+occurrence investigation reports.  
+ 
+  Final Report AO -2018 -005 
+<< Page 27 >>
+ required CAA form31. Under the heading Emergency Procedures - Other, an entry 
+'FADEC/ECU ' had been written in and initialled as indicating the pilot had been  
+assessed as competent.  
+3.63 There was only a small number of pilots with MD 600N experience in New Zealand. The 
+pilot had been communicating with some of them in an effort to gain knowledge.  
+3.64 Two pilots in this group with whom Commission investigators spoke, including the 
+pilot's instructor, were not aware of the existence of the reversionary governor, and 
+both expressed a re luctance to use the manual mode in the event of a malfunction or 
+during training.  
+3.65 The pilot of the accident flight had significantly more experience  in flying other light 
+helicopters powered by non -FADEC variants of the RR -250 engine. On the accident 
+flight, while the helicopter was flying in fuel flow fixed mode, the pilot reduce d the 
+throttle on the collective twistgrip, as shown by the ECU data . This was the prescribed 
+procedure for a fuel control system malfunction resulting in a high rotor RPM with th e 
+non-FADEC RR -250 engine variants.  
+Pilots' concern about  using manual mode  
+Safety issue: There was not an appropriate means for pilots to gain experience in match ing 
+throttle position and required engine speed when transitioning to FADEC manual mode.  
+3.66 A NASA (National Aeronautics and Space Administration) study of airline crew 
+performance found that 85 % of "textbook" emergencies (those that crews had trained 
+for) were handled well, while only 7% of "new" emergency situations were handled with 
+the same deg ree of success (Peterson, 2007) . 
+3.67 The pilot of the accident helicopter and the two other MD 600N pilots interviewed 
+expressed some concern regarding the use of, and training in, manual mode. This 
+concern was predominantly associ ated with the risk of over -speeding the engine  and 
+rotor32 when transitioning from automatic to manual mode.  
+3.68 The MD 600N rotorcraft flight manual procedure advised pilots to:  
+Immediately reduce the twistgrip (throttle) a given amount based 
+on power settin g. 
+3.69 An additional note advised:  
+The amount of twistgrip reduction required is based on power 
+setting (torque). Low power settings require a larger reduction to 
+prevent Np/Nr overspeed . 
+3.70 However, the flight manual provided no guidance as to how much physical movement 
+of the twistgrip the "given amount" represented. With no reference to a corresponding 
+twistgrip position, when the FADEC system completed the transition to manual mode 
+there was the possibility of the engine and rotor speeds rapidly increasing bey ond 
+allowable limits , as occurred in the incident described in paragraph 3.25. 
+ 
+31 CAA form 24061 /21 - 'Helicopter Competency Demonstration Records' . 
+32 Over -speeding the engine and rotor systems can result in damage and requires a specific maintenance 
+inspection after an overspeed event.  
+
+<< Page 28 >>
+ Final Report AO -2018 -005 Training requirements and guidance  
+Safety issue: The helicopter manufacturer did not provide information to assist instructors in 
+training for flying in manual mode.  
+3.71 The requirements and guidelines for the issuing of a helicopter type rating are 
+described in CAA documents , including : Civil Aviation Rules Part 61 ; Advisory Circular 
+61-10: Pilot Licences and Ratings - Type Ratings;  and Demonstration of Competency -
+Type Rating - Helicopter.
+3.72 For the simulation of emergency procedures training, the Demonstration of 
+Competency guide allowed some discretion to demonstrate 'knowledge of' rather than 
+the performance of actual emergency procedure s, which was not always practical. 
+There were some eme rgency procedures for which simulation s posed greater risk s 
+than the likelihood of the emergencies themselves . 
+3.73 Both the pilot and the pilot's instructor said that  in-flight practice on the use of manual 
+throttle was not performed by the pilot during traini ng, due to the perceived risk of 
+over-speeding the  engine and  rotor.  
+3.74 The instructor had spoken about this procedure with the Category A flight instructor 
+who issued the instructor 's type rating  in 2003 , and the Category A flight instructor  had 
+advised that the procedure  should not be practised by the pilot . The pilot and the 
+instructor only discussed the procedure for the rating assessment, because of th e 
+perceived  risk. 
+3.75 The 'emergency procedures' section of the CAA standard form CAA 24061/21 , 
+Helicopte r Competency Demonstration R ecord , completed by the instructor during the 
+pilot's type rating, had a handwritten entry 'FADEC/ECU' , and the competency 
+demonstration column had been signed  by the instructor.  This record had been sent to 
+the CAA after the ra ting was issued.  
+3.76 The helicopter manufacturer advised the Commission that a procedure existed for 
+training pilots in the use of manual mode. However, this procedure was proprietary 
+information and not available outside the manufacturer's own training organ isation.  
+3.77 To assist in training, some other helicopter types are equipped with a throttle position  
+indicator.  This assists  the pilot to more accurately select the required throttle setting 
+when conducting emergency procedures training.  
+3.78 The manufacturer also advised that it had no record of any accidents or incidents 
+related to the transitioning to,  or the use of, manual mode control during training. 
+3.79 It was likely that the reluctance of the instructor to practise the use of manual mode in 
+the MD 600N during training was perpetuated by a lack of information and guidance , 
+resulting in a perceived high  level of risk.  
+3.80 The content of the  instructor's technical examination (refer to paragraph  3.75), 
+completed by the pilot for the type rating , had previously been accepted by the CAA 
+on 20 October 2003. However, the depth of flight training provided to the pilot was at 
+the discretion of the flight instructor.   
+3.81 The MD 600N  has systems that are  technically advanced . The Commission believes this 
+is an example of a helicopter type that likely warranted  more emphasis  by the 
+instructor on the need to conduct practical demonstration s of the manual fuel control 
+as part of the  flight training syllabus .  
+ 
+  Final Report AO -2018 -005 
+<< Page 29 >>
+ Use of helmets  
+Safety issue: The tendency to not  wear  helmets  increased the risk of injury . 
+3.82 Neither the pilot nor any of the occupants were weari ng helmet s on the accident flight. 
+The pilot was unable to recall why this was the case. Other pilots from the operator 
+advised that pilots wore helmets  on agricultural spraying operations, but not normally 
+while conducting passenger flights. However, ther e was no written policy in the 
+operator's documentation. The re was no  Civil Aviation Rule  to mandate the wearing  of 
+helmets.  
+3.83 Due to the complex sequence of events that occurred in this accident, the Commission 
+was unable to determine if the use of helmet s would have minimised the severity of 
+the injuries received by the pilot and the occupants .  
+3.84 A significant amount of research exists on the benefits of aircraft occupants wearing 
+appropriate helmets . MD Helicopters (2019), the CAA (CAA, p.g. 9 , 2013 ), the Transport 
+Safety Board of Canada (TSB 1997 and n.d .) and the United States Federal Aviation 
+Administration, through the Rotorcraft Occupant Protection Working Group (ROPWG , 
+2018 ), have all documented the benefits of wearing helmets on board helicopt ers to 
+prevent head injuries . This is especially so for pilots during occurrence events, when 
+they need to maintain awareness and act quickly . The ROPWG (p.g. 89, 2018) 
+documents the issue well :  
+Blunt impact injury to the head has also been identified as one of the most 
+common and severe types of injuries sustained by occupants in survivable 
+helicopter crashes. While numerous studies have documented the 
+effectiveness of helmets in preventing injury in military helicopter crashes 
+and motorcycle and bicycle crashes, flight helmets are unfortunately not as 
+widely used in helicopter flight operations as the ROPWG believes they 
+should be.  
+3.85 After the accident the operator implemented a formal policy for its pilots to wear 
+helmets on all flights.  
+ 
+
+<< Page 30 >>
+ Final Report AO -2018 -005 4 Findings  
+4.1 An intermittent fault in the 'full authority digital engine control ' (FADEC ) system almost 
+certainly resulted in a loss of automatic governing of the engine power. The source of 
+this fault could not  be determined.  
+4.2 The intermittent fault had occurred on pre vious occasions. It was likely that it had not 
+been rectified due to its intermittent nature  and the difficulty  in performing fault 
+diagnosi s using the flashing light method .  
+4.3 The pilot did not switch the FADEC system to manual mode . It could not be 
+determ ined whether the pilot was aware that the FADEC system had failed.   
+4.4 A forced landing was carried out without control of the engine power , and the 
+helicopter landed heavily.  
+4.5 The occupants ' injuries were very likely the result of the engine continuing to run, after 
+the heavy landing, at high power with a damaged rotor system.  
+4.6 The limited local training provided regarding the MD 600N FADEC system likely 
+contributed to the pilot's misunderstan ding of aspects of the FADEC system and 
+emergency procedures. The instructor  used discretion when electing not to  conduct a 
+practice of switching to manual mode in flight.   
+4.7 There was no means for pilots to match throttle position and engine speed when 
+transitioning to the FADEC system's manual mode. This likely contributed to the pilot's 
+stated reluctance to select the FADEC system's manual mode in flight.  
+4.8 Information regard ing the training procedures  of an in -flight ECU failure was not 
+distributed outside the manufacturer's own training organisation.  
+4.9 The pilot and occupants were  not wearing helmet s throughout the accident flight . The 
+operator  did not have a formal policy on  the wearing of helmets.  
+ 
+  Final Report AO -2018 -005 
+<< Page 31 >>
+ 5 Safety issues and remedial action  
+General  
+5.1 Safety issues are an output from the Commission's analysis of factors that have 
+contributed to the occurrence. They typically describe a system problem that has the 
+potential to adversely affect future operations on a wide scale.  
+5.2 Safety issues may be addressed by safety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address the issue.  
+5.3 Recommendations are made to persons or organisations that are considered the most 
+appropriate to address the identified safety issues.  
+5.4 In the interests of transport safety, it is important that safety actions are taken, or any 
+recommendations are implemented without delay to help prevent similar accidents or 
+incident s occurring in the future.  
+Awa reness of flight training risk. 
+5.5 Helicopters have various levels of complexity , and certain helicopter types present 
+higher risk s than others  when particular procedures are  demonstrated during flight 
+training  and assessment s. The Commission believes this warrants increased awareness  
+among  pilots, instructors and operators  of the risks involved in  flight training 
+associated with  these helicopter types and the need to take steps to mitigate these 
+associated  risks.  
+5.6 On 27 May 2021  the Commission recommended that the Director of Civil 
+Aviation publish an educational article raising awareness of the  import ance  of 
+pilot  type  training being  sufficiently comprehensive to  mitigate any risk s 
+presented by particular  helicopter characteristics.  (004/21)  
+On 23 June 2021, the Civil Aviation Authority replied:  
+The Authority will accept recommendation 004/21. The Authority agrees with publishing 
+educational articles, such as those published in Vector to raise awareness of  the 
+importance of comprehensive pilot type training to mitigate the risks presented by 
+different helicopter characteristics. The Authority will update the Commission when an 
+educational article is published.  
+Furthermore, guidance material for helicopter t ype ratings is contained in Advisory 
+Circular (AC) 61 -10. It references a suitable syllabus of training covering normal, 
+abnormal and emergency procedures for each type. On 8 March 2019, the Authority gave 
+greater clarity in Revision 10 of AC 61 -10 around the measure that should be referenced 
+in creating training programmes. This was to further assist operators and instructors in 
+developing suitable training programmes.  
+This revision directed operators and instructors to the OEM (original equipment 
+manufact urer) and OSD (operational suitability data) training syllabus for complex and 
+Multi engine type ratings. This has been further emphasised in Revision 11 dated 6 June 
+2021 (still in draft as it's out for consultation) which gives further direction to look at the 
+Federal Aviation Administration Flight Standardization Board reports.  
+The OEM, as the manufacturer of  the helicopter, offers the best training guidance on the 
+conduct of abnormal and emergency procedures for each of its helicopter types.  
+ 
+
+<< Page 32 >>
+ Final Report AO -2018 -005 Further dev elopment work continues by the Authority with closer liaison with the OEMs. 
+More guidance is required for single -engine helicopters and is under review . 
+Awareness of the benefits of wearing helmets  
+5.7 The benefits of wearing appropriate helmets have been well documented  by MD 
+Helicopters and aviation reg ulators . This is especially so for pilots during occurrence 
+events, when they need to maintain awareness and act quickly. The operator did not 
+have a formal policy on the wearing of helmets, and this exposed the pilot and 
+occupants  to the risk of suffering head injuries , when operational conditions indicated 
+there were  potential safety benefit s in wearing them.    
+5.8 Since the accident the operator has implemented a formal policy for its pilots to wear 
+helmets on all flights. The Commission believes it is beneficial for all aircraft operators 
+to have polic ies on the wearing of helmets.  This would provide confidence that the 
+risks relating to head injury are being managed by the aviation  industry.   
+5.9 On 27 May 2021  the Commission recommended that the Director of Civil 
+Aviation promote education awareness of the benefit of aircraft pilots and 
+occupants wearing appropriate helmets when practicable and when operational 
+conditions indicate a poten tial benefit . (005/21)  
+On 23 June 2021, the Civil Aviation Authority replied , in part : 
+The Authority believes that Civil Aviation Part 100 Safety Management and the Health 
+and Safety at Work Act 2015 already sufficiently require operators to consider their  risks 
+and whether the use of personal protective equipment (including a flight helmet) is 
+appropriate for use during operations. Specifically, CAR 100.3 requires certificated 
+organisations to implement a process for risk management that identifies hazards  to 
+aviation safety, and that evaluates and manages the associated risks. Hazards, incidents, 
+and accidents must be internally reported and analysed, and actions must be taken to 
+prevent recurrence. Likewise, section 30 of HSWA requires the elimination of risks to 
+health and safety, so far as is reasonably practicable; and if it is not reasonably practicable 
+to eliminate risks to health and safety, to minimise those risks so far as is reasonably 
+practicable.  
+ 
+ 
+  Final Report AO -2018 -005 
+<< Page 33 >>
+ 6 Key lessons  
+6.1 A pilot's technical knowledge and u nderstanding of aircraft systems is essential to their 
+interpretation  of and response to malfunctions.  Attending an aircraft manufacturer's 
+endorsed flight training course gives  pilots  a more consistent and practical experience  
+in understanding helicopter characteristics  and the ir associated malfunctions.   
+6.2 Civil Aviation Rules provide the minimum level s of safety. Operators must determine 
+their safety requirements relative to their operations and  consider the use of 
+appropriate  helmets for aircraft pilots and occupants , when practicable and operational 
+conditions indicate potential benefit s. 
+ 
+
+<< Page 34 >>
+ Final Report AO -2018 -005 7 Data summary  
+Aircraft particulars  
+Aircraft registration : ZK-ILD 
+Type and serial number:  MD Helicopters 600N, 0058  
+Number and type of 
+engines:  one Rolls -Royce 250 -C47M turbine  
+Year of manufacture:  2000  
+Operator:  Helicopters Hawkes Bay Limited  
+Type of flight:  commercial charter  
+Persons on board:  five 
+Crew particulars  
+Pilot's licence:  commercial pilot licence (helicopter)  
+Pilot's age:  45 
+Pilot's total flying 
+experience:  9,659 flight hours (45 hours on type)  
+Date and time  14 June 2018, 0842  
+Location  location  Ngamatea Station  
+latitude:  39° 20.1´ South  
+longitude:  176° 4.5´ East  
+Injuries  one fatal  
+two serious  
+two minor  
+Damage  helicopter destroyed  
+ 
+  Final Report AO -2018 -005 
+<< Page 35 >>
+ 8 Conduct of the Inquiry  
+8.1 On 14 June 2018 the CAA notified the Commission of an accident involving an MD 
+Helicopters 600N helicopter (MD 600N). The Commission opened an inquiry under 
+section 13(1) of the Transport Accident Investigation Commission Act 1990  and 
+appointed an investigator in charge.  
+8.2 On 14 J une 2018, in accordance with Annex 13 to the Convention on International Civil 
+Aviation, the Commission notified the state of aircraft and engine manufacture, the 
+NTSB. On 15 June 2018 the NTSB appointed an Accredited Representative for the 
+United States a nd appointed MD Helicopters and Rolls -Royce as its Technical Advisers.  
+8.3 On 15 June 2018 three Commission investigators conducted an examination of the 
+accident site.  
+8.4 On 16 June 2018 the wreckage was removed from the accident site. On 18 June 2018 
+the wrecka ge was transported to the Commission's technical facility in Wellington for 
+further detailed examination.  
+8.5 Between 16 and 28 June 2018 interviews were conducted with witnesses, the first 
+responders, the operator and the maintainer. Relevant documentation re lating to 
+maintenance and the operator was obtained.  
+8.6 On 9 and 10 July 2018, an examination of the wreckage was conducted by Commission 
+investigators with Rolls -Royce and MD Helicopters technical advisors present. 
+Additionally, data was downloaded from the helicopter's engine control system.  
+8.7 Commission investigators conducted interviews with other New Zealand -based pilots 
+experienced with the MD 600N helicopter type.  
+8.8 On 17 August 2018 Commission investigators interviewed the pilot , who had not been  
+able to be interviewed previously due to injuries received during the accident.  
+8.9 During 2019 various engine components were inspected and tested in the United 
+States under the supervision of the NTSB and Rolls -Royce.  
+8.10 On 18 November  2020  the Commission appr oved the draft report for circulation to 
+eight interested persons for their comment.  
+8.11 The Commission received two submissions  from interested persons , and in 
+consideration of the submissions  changes were included in the final report.  
+8.12 On 26 May 2021 the Com mission approved the final report f or publication.  
+ 
+
+<< Page 36 >>
+ Final Report AO -2018 -005 9 Report information  
+Abbreviations  
+CAA New Zealand Civil Aviation Authority  
+Commission  Transport Accident Investigation Commission  
+ECU electronic control unit  
+FADEC  full authority digital engine control  
+HMU  hydro -mechanical unit  
+LAME  licensed aircraft maintenance engineer  
+NTSB  National Transportation Safety Board  (United States)  
+RPM revolution(s) per minute  
+  
+ 
+  Final Report AO -2018 -005 
+<< Page 37 >>
+ Glossary  
+collective 
+potentiometer  a device that measures the position of the collective lever and 
+provides that information to the ECU to assist with computing power 
+requirements  
+exposition  the documentation provided to the CAA  by an aircraft operator , which 
+defines the organisation, identifies the approved senior persons and 
+details the means of compliance with the Civil Aviation Rules 
+applicable to the operator  
+flight manual  a controlled document accessible to a pilot from within the cockpit , 
+which provide s information including system descriptions, limitations  
+and normal and em ergency procedures  
+fuel flow fixed 
+mode  a FADEC  fail-safe mode in which,  in the event of an engine control 
+unit failure , the quantity of fuel being delivered to the engine is fixed 
+at a constant rate until the pilot switches to 'manual' mode  
+knot (s)  a measurement of speed, in nautical miles per hour, equivalent to 1.85 
+kilometres per hour  
+land as soon as 
+practical  land as soon as possible in an open area where a safe landing can be 
+conducted  
+NOTAR®  a helicopter system that avoids the use of a tail rotor  
+step count fault  a fault relating to the incremental positioning of a stepper motor  
+stepper motor  an electric motor that can rotate incrementally  
+throttle twistgrip  A handgrip style engine control located on the collective lever used to 
+select cut off, ground idle and flight idle. If the FADEC system is in 
+manual mode, the throttle twistgrip is used to modulate engine and 
+rotor RPM    
+   
+ 
+
+<< Page 38 >>
+ Final Report AO -2018 -005 Citations  
+CAA. (2012) The Heli copter Flight Instructor Manual . 
+CAA. (2013). Flight Helmets are Good Insurance. Vector September / October . 
+Crowley, J. S. (1992). Flight Helmets: How They Work and Why You Should Wear One. Fort 
+Rucker: United States Army Aeromedical Research Laboratory.  
+FAA Safety Team (FAAST eam), General Aviation Joint Steering Committee . (2018 ) Emergency  
+Procedure s Training . 
+https://www.faa.gov/news/safety_briefing/2018/media/SE_Topic_18_03.pdf . 
+Freeman, R. (n.d.). Helicopter Safety Helmets - A Hard S(h)ell. Transport Canada.  
+Mack, A. (1998). Inattentional Blindnes s. MIT Press.  
+Martin, W. L., Murray, P. S., & Bates, P. R. (n.d.). Startle, Freeze and Denial: An Analysis of 
+Pathological Pilot Reactions during Unexpected Events. Griffith University, Australia.  
+M.D. Helicopters . (2019)  Operational Safety Notice OSN2019 -002.     
+Peterson, B. D. (2007) . Emergency Procedures : Safety Advisor. Operations and Proficiency No. 
+12. AOPA Air Safety Foundation.  
+Rivera, J., Talone, A. B., Boesser, C. T., Jentsch, F., & Yeh, M. (2014). Startle and Surprise on the 
+Flight Deck: Similarities, Differences, and Prevale nce. Human Factors and Ergonomics Society.  
+Rotorcraft Occupant Protection Working Group  (2018) Final Analysis Report to the Aviation 
+Rulemaking Advisory Committee. 
+https://www.faa.gov/regulations_policies/rulemaking/committees/documents/media/ROPW
+G%20Task%206%20Final%20Report%20Revised%202018 -09-27.pdf . 
+TSB. (1997). Do Helmets Really Save Lives? Vector Issue 4 , 1-3. 
+TSB. (n.d.). Low Usage of Head Protection by Hel icopter Pilots. Transportation Safety Board of 
+Canada.  
+ 
+  
+
+ 
+ TAIC Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ngati Raukawa, 
+Tuwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies an d how to prevent them. A 'waka whai mārama (i te 
+ara haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) and Papa tūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling within), which brought 
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe or risk free'.  
+Corporate: Te Ara Haumaru - The safe an d risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of 
+knowledge that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. 
+The continual wave is the perpetual line of influence. The succession of humps represent the individual 
+inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwha i. 
+Aviation: ng ā hau e wh ā - the four winds  
+ 
+To Sandy, 'Ngā hau e whā ' (the four winds ), commonly used in Te  Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for aviation.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this 
+Kōwhaiwhai.  
+Marine: ara wai - waterways  
+ 
+The sections of waves flowing across the design represent  the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for 'Marine'.  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhe nua - flowing across the land  
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and everything 
+that dwells within) in the creation of this Kōwhaiwhai.  
+  
+
+ 
+  
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2018 -001 Tandem parachute UPT Micro Sigma, registration 31Z, Double malfunction, 
+Queenstown, 10 January 2018  
+AO-2017 -009 and 
+AO-2017 -010 Commission resolution to close aviation inquiries Boeing 787, near Auckland, New 
+Zealand, 5 and 6 December 2017  
+AO-2019 -001 Airbus Helicopters AS350, ZK -HEX, Forced landing, Wakefield, Nelson, 17 February 
+2019  
+AO-2017 -004 MBB BK117 A -3 helicopter, ZK -IED, Loss of control, Porirua Harbour, 2 May 2017  
+AO-2017 -002 Robinson Helicopter Company R22, ZK -IHA, Impact with terrain, Near Reefton, 27 
+March 2017  
+AO-2017 -003 ATR72, ZK -MCY, Landing gear failure, Nelson, 9 Ap ril 2017  
+AO-2015 -003 Robinson R44, Main rotor blade failure, Waikaia, Southland, 23 January 2015  
+AO-2015 -007 Airbus Helicopters AS350BA, ZK -HKU, Collision with terrain, Fox Glacier, 21 
+November 2015  
+AO-2017 -007 Airbus A320 VH -VGY, Descent below clearance limit, Christchurch, 6 August 2017  
+AO-2016 -007 Collision with terrain, Robinson R44, ZK -HTH, Glenbervie Forest, Northland, 31 
+October 2016  
+Interim Report 
+AO-2018 -009 MDHI (Hughes) 369D, registration ZK -HOJ, Wanaka, 18 October 2018  
+Interim Report 
+AO-2018 -006 Robinson R44, ZK -HTB, Stevensons Arm, Lake Wanaka, 21 July 2018  
+AO-2016 -008 Robinson R66 helicopter, Partial power loss - forced landing, Hokonui Hills, 
+Southland, 14 November 2016  
+AO-2015 -009 Air traffic control incidents, Hami lton aerodrome,17 December 2015  
+AO-2017 -001 Eurocopter AS350 BA, ZK -HKW, Collision with terrain, Port Hills, Christchurch, 14 
+February 2017  
+Interim Report 
+AO-2017 -004 Forced landing into Porirua Harbour (Pauatahanui Arm), MBB BK117A -3 Helicopter, 
+ZK-IED, 2 May 2017  
+ 
+ 
+ 
+ 
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 16.00                                          ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online)  

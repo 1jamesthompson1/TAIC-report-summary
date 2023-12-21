@@ -1,0 +1,986 @@
+﻿ 
+ 
+ 
+ 
+Final Report  
+ 
+Rail inquiry RO -2018 -102 
+Freight train SPAD and wrong -routing  
+Taimate  
+1 October 2018  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+December 2019
+
+ 
+About the Transport  Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of 
+inquiry and an independent Crown entity responsible for inquiring into maritime, aviation and 
+rail accidents and incidents for New Z ealand, and co -ordinating and co -operating with other 
+accident investigation organisations overseas.  
+The principal purpose of its inquiries is to determine the circumstances and causes of 
+occurrences with a view to avoiding similar occurrences in the futur e, rather than to ascribe 
+blame to any person. It is not the Commission's purpose to ascribe blame to any person or 
+agency or to pursue (or to assist an agency to pursue) criminal, civil or regulatory action 
+against a person or agency. However, Commission will not refrain from fully reporting on the 
+circumstances and factors contributing to an accident because fault or liability may be inferred 
+from the findings.  
+ 
+ 
+ 
+  
+  
+  
+Location of incident  
+Source: LINZ NZ Topo250 Map and Geographx NZ Landcover  
+ 
+
+ 
+Contents  
+1. Executive summary  ................................ ................................ ................................ ................................ .. 1 
+What happened  ................................ ................................ ................................ ................................ ....................  1 
+Why it happened  ................................ ................................ ................................ ................................ .................  1 
+What we can learn and who may benefit  ................................ ................................ ................................ ... 1 
+2. Factual information  ................................ ................................ ................................ ................................ . 2 
+Narrative ................................ ................................ ................................ ................................ ................................ .. 2 
+Key personnel ................................ ................................ ................................ ................................ ........................  4 
+3. Analysis  ................................ ................................ ................................ ................................ .....................  6 
+Introduction  ................................ ................................ ................................ ................................ ...........................  6 
+What happened  ................................ ................................ ................................ ................................ ....................  6 
+4. Findings  ................................ ................................ ................................ ................................ ..................  13 
+5. Safety issues and r emedial action  ................................ ................................ ................................ ...... 14 
+General ................................ ................................ ................................ ................................ ................................ .. 14 
+Safety issues ................................ ................................ ................................ ................................ ........................  14 
+Safety actions  ................................ ................................ ................................ ................................ .....................  14 
+Recommendations  ................................ ................................ ................................ ................................ ...........  15 
+6. Key lessons  ................................ ................................ ................................ ................................ ............  17 
+7. Data Summary  ................................ ................................ ................................ ................................ ....... 18 
+Vehicle particular s ................................ ................................ ................................ ................................ ............  18 
+8. Conduct of the Inquiry  ................................ ................................ ................................ ..........................  19 
+9. Report information  ................................ ................................ ................................ ................................  20 
+Abbreviation s ................................ ................................ ................................ ................................ .....................  20 
+Glossary  ................................ ................................ ................................ ................................ ................................  20 
+10. Notes about Commission reports  ................................ ................................ ................................ ........  22 
+Appendix 1: Crossing loop operation  ................................ ................................ ................................ ..........  23 
+Appendix 2:  Train Control diagram  ................................ ................................ ................................ .............  24 
+Appendix 3:  KiwiRail Rule of the Week - 25 January 2019  ................................ ................................ .... 25 
+Appendix 4:  KiwiRail Rule of the Week - 11 January 2019  ................................ ................................ .... 26 
+Appendix 5:  KiwiRail Rule of the Week - 14 December 2018  ................................ ................................  27 
+Appendix 6:  KiwiRail Toolbox Talk 16 Janua ry 2019  ................................ ................................ ................  28 
+Appendix 7:  KiwiRail Staff Briefing - Warrant Stations  ................................ ................................ ...........  29 
+ 
+  
+ Figures  
+Figure 1:  Crossing loop layout (not to scale)  ................................ ................................ .........................  2 
+Figure 2:  Track machines stored overnight at Taimate  ................................ ................................ .........  3 
+Figure 3:  Approach and route of wrong -routed freight train  ................................ ..............................  4 
+Figure 4:  Crossing loop layout  ................................ ................................ ................................ .................  7 
+Figure 5:  Hierarchy of control and communications at multiple worksites protected work area  ... 8 
+Figure 6:  Train control diagram conventions  ................................ ................................ .........................  9 
+Figure 7:  Rule 422, actions on Red signal at a crossing loop  ................................ .............................  11 
+Figure 8:  Stabilised approach braking key points  ................................ ................................ ...............  12 
+ 
+ 
+ 
+ 
+  
+
+  
+Final Report RO -2018 -102 
+<< Page 1 >>
+ 1. Executive summary  
+What happened  
+1.1. On 1 October 2018, three  track maintenance g roup s were repairing the track in the area 
+between Seddon and Ward.  At the end of the shift one of the work g roup s parked three 
+heavy track maintenance rail vehicles in the crossing loop at Taimate.  
+1.2. There was a set of rail points coming off the adjacent main line at each end of the loop . 
+The points  were supposed to have been isolated and manually set for the  main line to 
+prevent trains travelling on the main  line entering the loop and colliding with the mobile 
+track maintenance vehicles.  
+1.3. Later that evening a freight train passing through Taimate on the main line was diverted 
+into the loop at a speed of about 20 km/h.  The  freight train  driver at the last moment 
+noticed the points were set to divert  the train into the loop .  The driver  applied 
+emergency braking but was unable to stop the train before it had travelled some 80 
+metres into the loop line towards the parked maintenance vehicles.  There was no 
+collision and nobody was injured.  
+Why it happened  
+1.4. The Transport Accident  Investigation Commission (Commission) found  that the freight 
+train was wrong -routed into the crossing loop because a staff member had inadvertently 
+left the points in the wrong position, and there was no  independent verification to 
+confirm  that the required protection had been put in place.  
+1.5. A SPAD (signal passed at danger) occurred when the driver slowed the train rather than 
+stopping at the Red signal. This was likely due to a confirmation bias that the points were 
+correctly set. Confirmation bias is a common human factor  where individuals interpret 
+information in a way that affirms a prior belief .  Had the train stopped at the Red signal, 
+it was likely that the driver would have noticed the incorrectly set points and stopped the 
+train before it was wrong routed.  
+1.6. The Commission also found  that a number of procedural errors had been made in the 
+two days prior to the incident that were factors in the incident, and that a better system 
+of check and challenge, and good communication , could have prevented the train being 
+wrong -routed into the loop.  
+1.7. The report refers to a previous recommendation  the Commission made in an earlier 
+report that is equally applicable to this incident .  KiwiRail has taken  a number of safety 
+actions that address the issues  raised in this report.  Therefore, no new recommendations 
+have been made . 
+What we can learn  and w ho may benefit  
+1.8. The key lessons  arising from  this inquiry are: 
+ knowledge and strict following of rail operating rules and procedures is key to safe rail 
+operations and will help prevent incidents  and accidents  
+ train drivers have an obligation to confirm for themselves that the information they 
+have had from other parties is correct, and drive with caution until the information is 
+confirmed . 
+  
+ 
+
+<< Page 2 >>
+ Final Report RO -2018 -102 2. Factual information  
+Narrative  
+2.1. On Sunday 30 September 2018, the Kaikōura earthquake rail -recovery work on the Main 
+North Line was underway in preparation for the reopening of the line to passenger 
+trains.  There were three track maintenance groups working between Seddon and Ward 
+under the protection of a single track warrant1 issued that morning by train control2.  The 
+track warrant was held by the  rail protection o fficer (RPO) who was located at one of the 
+worksites  (Wharanui ).  The RPO  was responsible for the safety of all three work groups.  
+2.2. At the end of the work shi ft, two of the work groups stabled3 their track maintenance 
+vehicles in sidings4 at Wharanui and Lake Grassmere.  Because there were no sidings 
+located in the Taimate area, t he Taimate  work group stabled their maintenance vehicles 
+on the main line crossing  loop at Taimate  (see Figure s 1 and 2 ).  The RPO relayed this 
+information t o train control.  T he team leader for the work group at Taimate also 
+informed train control that their track maintenance vehicles were stabled on the loop.  
+ 
+Figure 1: Crossing loop layout (not to scale)  
+  
+                                                        
+1 A systematised permission used on some rail lines to authorise trains' use of the lines.  Train controllers 
+issue the permissions to drivers of trains instead of using signals.  The drivers generally receive track 
+warrants by radio.  
+2 Referred to as a multiple worksite protected work area.  
+3 To park track machines, rail vehicles and trains whilst the y are not in use, typically overnight, or until 
+they are next needed.  The vehicles are placed out of service, made inaccessible to the public and usually 
+have all systems on them switched off  
+4 Sections of track clear of the main line and main line crossi ng loops.  
+
+  
+Final Report RO -2018 -102 
+<< Page 3 >>
+  
+ 
+Figure 2: Track machines stored overnight at Taimate  
+2.3. Around 0930 the next day , 1 October 2018 , the work group returned to  Taimate crossing 
+loop5 along with their site protector .  Again, they worked under a tr ack warrant held by 
+the RPO at Wharanui, covering three separate worksites.  After a daily safety briefing 
+they 'locked on'6 and prepared7 the three rail maintenance vehicles . 
+2.4. At the end of their shift at approximately 1730 , the work group returned to Taimate and 
+stabled the maintenance vehicles in the crossing loop.  Once all the rail maintenance 
+vehicles  were secur ed, the work group 'locked off'.  T he site protector  then contacted the 
+RPO at Wharanui  by m obile phone and  report ed the track machines at Taimate  as "off 
+and clear of the main  line" and stabled in the loop , after which the site protector left the 
+site. 
+2.5. After  the site protector  had left , the team leader of the work group radioed train control 
+to report that the track machines were stabled on the crossing loop at Taimate 
+overnight.  The train controller asked for confirmation that the points at both ends of the 
+crossing loop had been set to protect the equipment st abled on the loop.  The team 
+leade r had not been asked to do this on  the previous day.  
+2.6. The team leader sent the second -in-command of the work group to set the northern end 
+points  manually  to the 'normal' position to prevent rail vehicles diverting from the main 
+line into  the crossing loop  (see Figure 2) .  The second -in-command left the points  
+isolated8 so they no longer worked automatically  (see section  4.2.5 for more detail) .  The 
+team leader drove to the southern end of the crossing loop to set and  isolate the points 
+there.  However, the  team leader inadvertently left the points set in the 'reverse' position, 
+which would direct northbound rail traffic into the crossing loop.  After a short radio 
+conversation with the second -in-command , the team leader informed train control that 
+both sets  of points were correctly set and isolated in the 'nor mal' position.  
+                                                        
+5 Loop of track alongside the mainline in single track areas, used by opposing trains to cross each other 
+safely  
+6 A system for ensuring track workers are clear of the rail corridor before a train is allowed to pass 
+through a worksite.  
+7 Preparin g rail maintenance vehicles include conducting daily checks on vehicle safety systems, such as 
+brakes and communication equipment.  
+8 Manually disconnected the points from automatic operation.  Points need to be manually operated 
+when in the isolated state.  
+
+ 
+
+<< Page 4 >>
+ Final Report RO -2018 -102 2.7. The radio conversation between the team leader and the train controller was overheard 
+by the train driver who would  be taking the next northbound  train through the area later 
+that night.  The train driver  made a mental note that the points at Taimate were correctly 
+set for trains to pass through on the mainline.  
+2.8. At approximately 2205 the train driver took over the train at Pines and  train control 
+issued a track warrant to the train driver for the train to continue  northbound .  The track 
+warrant  authoris ed the train to proceed from Pines to Seddon .  The track warrant 
+referenced the maintenance vehicles stabl ed on the crossing loop at Taimate.  The train 
+driver confirmed with the train controller what they had overheard earlier in the day,  that 
+the points at Taimate were set and isolated for the freight train to pass through on the 
+main  line. 
+2.9. At about  2250 the freight train went past  the Taimate 'crossing loop ahead ' sign (see 
+Figure 3 ) at approximately 65 kilometres per hour ( km/h ).  The train driver started to 
+apply the train brakes  and by  the time the train was 400 metres  (m) from the southern 
+set of points for the crossing loop the train driver  had slowed the train to around 25  
+km/h and released  the brakes .  The train was tr avelling at around 23  km/h when  the train 
+driver observed that the points ahead were not correctly set for the main  line, and 
+immediately applied  full emergency brake.  
+ 
+Figure 3: Approach and route of wrong -routed freight train  
+2.10. The train passed  through the points,  entered the crossing loop  and stopped  
+approximately 80 m beyond the points , but well short of the track machine s at the other 
+end of the crossing loop (see Figure 3) .  The train driver radioed  train control to report 
+the incident.   
+Key personnel  
+2.11. The train driver was based at Picton  and had 40 years' experience driving trains.  The  
+train driver held current certification for the role.  
+2.12. The track machine work group team leader  had 36 years' rail experience and  the other 
+members of the work group had 33, 31 and 15 years' rail experience respectively.  All 
+held current certification for their  roles.  
+
+  
+Final Report RO -2018 -102 
+<< Page 5 >>
+ 2.13. The train controller on duty when the work group  repor ted that the track  machines had 
+been stabled  on the Taimate crossing loop  had 18 months ' train control  experience .  The 
+train controller on duty when the freight train was wrong -routed into the Taimate 
+crossing loop had 45 years' rail experience.  Both held current certification for the role.  
+2.14. In accordance with the operator 's policy, the train driver  underwent a post -incident drug 
+and alcohol test.  The members of the track work group were all dr ug and alcohol tested 
+the next day .  All returned clear (negative) result s. 
+2.15. The RPO worked for a subcontractor to KiwiRail and had seven  years' rail experience .  
+The site protector at Taimate also worked for the same subcontractor and had 10 years' 
+rail ex perience.  Both held current certification for the ir roles.   Neither was drug and 
+alcohol tested because KiwiRail considered  their actions were not likely to be factor s 
+contributing to  the incident.  
+ 
+
+<< Page 6 >>
+ Final Report RO -2018 -102 3. Analysis  
+Introduction  
+3.1. The wrong -routing of the freight train into the crossing loop was a serious event.  A 
+collision between a loaded freight train and heavy track maintenance rail vehicles has the 
+potential to cause significant  damage , and injury to persons.  In examining the various 
+KiwiRail rules and stand ard operating procedures, it appears that if they had all been 
+followed  correctly , the route for the train would not have been set for the loop, and even 
+if it had been, the train driver would have stopped the train before it entered the loop . 
+3.2. The following analysis discusses the circumstances that led to the incident , and several 
+factors that either directly or indirectly contributed to the incident . 
+ 
+What happened  
+Crossing loops  
+3.3. Crossing loops allow trains travelling in opposite directions on a single -track section of 
+line to cross safely.  Train control issues track warrant s that specify which crossing loops 
+will be used to cross opposing trains.  The track warrant s tates  which train will use the 
+main line and which will enter the loop.  The crossing loops of the type at Taimate are 
+semi-automatic .  Train control has no visibility of how the points are set or what the 
+signals  are displaying .  Some manual input is required from train drivers to activate the 
+points to enter a crossing loop.   
+3.4. When a train is required to enter a crossing loop for an opposing train, the train driver 
+stops the train short of the signal and unlocks the manual input box (see Figure 4).  The 
+train will have activat ed the track circuit9 located 400 m back from  the cro ssing loop .  The 
+train driver is able to press the 'loop' button to set the points to access to the loop.  A n 
+'L' illuminates on the signal when the points are set.  Once the train has entered the loop, 
+the points and signals automatically reset to allow t he opposing  train to pass on the 
+adjacent main  line.  When the opposing  train has passed clear of the crossing loop track 
+circuits , the points and signals automatically reset to allow the train sitting in the loop to 
+depart  through the opposite end of the loop. 
+3.5. The points then automatically reset to their standard position , for trains to pass straight 
+through on the main  line.  All signals then return to Red until the next  train triggers one 
+of the track circuits within 400  m of the crossing loop.  See Appendix 1 for diagrams.  
+                                                        
+9 An insulated joint separating two adjacent lengths of rail track that enables sensors to detect when a 
+train moves from one section of rail across the insulated joint to the next section of rail.  At a crossing 
+loop within a Track Warrant controlled are a, only those tracks within 400m of loop are fitted with 
+sensors.  
+  
+Final Report RO -2018 -102 
+<< Page 7 >>
+  
+Figure 4: Crossing loop layout  
+3.6. With track maintenance machines stabled in the crossing loop , the points at both ends 
+were supposed to have been  manually set for trains to pass straight through on the main  
+line, and isolated (left in manual operation mode).  This  would have  prevent ed the 
+crossing loop automatically setting the points to allow the maintenance equipment out 
+of the loop after a train had passed by.   
+3.7. Points isolation is accomplished by removin g a crank handle from the locked crank 
+handle box (see Figure 4)  by the points and hand winding10 them into the correct 
+position, before placing the crank handle loosely in the bottom of the crank handle box.  
+This means the crossing loop is no longer autom atic, and train drivers approaching the 
+crossing loop encounter a Red signal that does not automatically change to yellow as the 
+trains approach.   The team leader of the workgroup had overall responsib ility for 
+ensuring that the points were  correctly set and isolated11. 
+3.8. Stabling track machines on a crossing loop is an acceptable practice within the rail 
+operating rules . However , in doing so operating flexibility may be compromised by 
+leaving one less cro ssing point  available , which  could  have an effect on s chedules and 
+production.  When possible , it is preferable to stable track machines in a siding or other 
+such area and leave crossing loops clear.   Utilising sidings also means the equipment is 
+further removed from the mainline and therefore reduc es risk. 
+                                                        
+10 Sometimes referred to as 'hand winding points'; refers to manually operating a set of points by 
+utilising a hand crank or lever to set the route.  
+11 Rule 914 of the New Zealand Rail Operati ng Rules and Procedures: Mobile Track Maintenance 
+Vehicles (MTMVs) (e) Safeguards.  
+
+ 
+
+<< Page 8 >>
+ Final Report RO -2018 -102 The worksite - communications and responsibilities  
+3.9. Train control has overall responsibility for the safe movement of rail vehicles and track 
+access on the controlled network.  This includes directing and recording the movements 
+of all trains on a train control diagram (see Appendix 2), as well as authorising 
+maintenance work groups to work on track.   
+3.10. Within track w arrant territory, train control authorises an RPO of a multiple worksite  
+protected work area  to occupy the appropriate section of track by iss uing a track 
+warrant12.  If a train is required to pass through the track warrant controlled area, the 
+train driver liaise s with the RPO to ensure  that the track is safe and clear before the 
+movement is authorised  to enter the protected area . 
+3.11. When the RPO c alls train control and cancels  the track warrant , this only confirms that 
+the mainline is clear and available for normal traffic to resume.  A track warrant does not 
+cover sidings, yards or other non -main -line areas such as crossing loops.  
+3.12. KiwiRail Rule 90213 explains the  flow of information through a multiple worksite 
+protected work area (see Figure 5).  Each individual worksite has a site protector who co -
+ordinates with the RPO,  who in t urn communicates directly with train c ontrol to control 
+the movement  of rail vehicles through the protected work area . 
+ 
+ 
+Figure 5: Hierarchy of control and communications at multiple worksites  protected work area  
+  
+                                                        
+12 Section 10.1 Train Control, 12.0 Track Warrant Control (TWC) of the New Zealand Rail Operating Rules 
+and Procedures.  
+13 Rule 902 Managing a Protected Work Area (PWA) of the  New Zealand Rail Operating Rules and 
+Procedures.  
+
+  
+Final Report RO -2018 -102 
+<< Page 9 >>
+ 3.13. RPOs and site protector s are not required to be trained or authorised to operate signals 
+or points , but work group team leader s and the drivers of maintenance rail vehicles  are.  
+Staff who are  appropriately trained within work groups liaise directly with train control to 
+obtain permission to , in this case,  stable equipment on a crossing loop.  It is then their 
+responsibility to ensur e that  the points at both ends of the loop are properly set and 
+isolated, and pass this information to train control (see Figure 5 - dotted blue line).  
+The day before the incident  
+3.14. The above procedure was not carried out the day before  the incident.  The equipment 
+was stabled on the Taimate crossing loop without the points being manually set and 
+isolated.  When the team leader called train control to let them know  that the 
+maintenance vehicles were occu pying the loop for the night, the train controller on duty 
+at the time did not confirm  the status of the points with them  and did not mark the 
+status of the points on the train control diagram.  Consequently, the crossing loop was 
+left in semi -automatic mo de for the entire night , with maintenance vehicles essentially 
+unprotected .  Fortunately,  no trains were scheduled through the area that night.  
+3.15. The train controller  did not confirm the status of the points with the workgroup team 
+leader based on an  interpret ation  that the points had not failed and were not subject to 
+an outage  (see Figure 6) .  That controller' s interpretation was not shared by other senior 
+controllers who were asked which was the correct procedure to apply .  Correct practice 
+would se e the  train controller  confirm  with the workgroup  the points were correctly set 
+and isolated, and then mark the train control diagram accordingly.  
+ 
+Figure 6: Train control diagram conventions  
+3.16. Even if there was some doubt, it would  have been good non -technical -skills practice  to 
+confirm anyway, rather than relying on an assumption that the points were set for trains 
+to pass by on the main line.  
+The day of the incident  
+3.17. On the day of the incident, the work group at Taimate called the train controller on 
+duty14 to say the track machines were stabled on the crossing loop.  The train controller 
+reminded the work group  that they needed to manually set and isolate the points to 
+protect the track machines15 (as per Rule 914).  Once this protection was confirmed, the 
+                                                        
+14 A different controller from the one who was on duty the previous day.  
+15 Rule 914(e) Mobile Track Maintenance Vehicles (MTMV)  of the New Zealand Rail Operating Rules and 
+Procedures - Safeguards - "When ber thed/stabled … in a siding, the operator in charge of the MTMV(s) 
+[track machinery] must ensure all practicable steps are taken to protect the machine(s) from collisions, 
+
+ 
+
+<< Page 10 >>
+ Final Report RO -2018 -102 train controller  noted on the train control diagram that the track machines were on the 
+loop and that the points had been set and isolated in the normal (main  line only) 
+position.  
+3.18. The correct proc edure was applied on this day.  The is sue was that the team leader had  
+inadvertently set the points in the wrong direction, so the information passed to the train 
+controller was incorrect.  This failure in human factors terms is called a lapse , and was a 
+failure in the first procedure designed to protect the stabled vehicles from collision .  The 
+fact that nobody else was cross -checking such an important task is a failure in itself.  
+Human s make mistakes, and if the system requires no alternative means of ve rification, 
+these one -person errors can result in incidents (in this case) or accidents in other 
+circumstances.   The potential for the same error to occur at the opposite end of the 
+crossing loop also existed without a second person confirmation.  
+The train  driver's perspective  
+3.19. The train driver was travelling in a car when the train controller and the team leader were 
+discussing the status of the Taimate crossing loop  points  on the radio .  The car had a 
+KiwiRail portable radio  inside , so the train driver ove rheard the conversation.  The 
+conversation was of interest to  the train driver because they would be taking the next 
+northbound train  through Taimate  later that evening.  The train driver noted  that the 
+workgroup team leader and train controller confirm ed that the route w as set for all trains 
+to travel straight through on the main line.  
+3.20. The train driver took over the freight train and was later issued with a track warrant by 
+the same train controller , authorising the train to proceed from  Pines to Seddon, through 
+Taimate and several other locations .  Despite having overheard the earlier conversation 
+between the team leader  at Taimate and the train controller, the train driver still 
+confirmed with the train controller that the points at Taimate had been "isolated in the 
+correct normal position ". 
+3.21. The train driver had then twice received confirmation that the route would be set straight 
+through Taimate on the main line.   The conversation  the train driver overheard  between 
+the workgroup and train control contained incorrect information, which was later  
+repeated by train control directly to the train driver.  
+3.22. The signal at the crossing loop was Red, and that was what t he train driver was expecting 
+to see.  Effectively , the track warrant authorise d the train to pass the Red signal without 
+further communication with train control , but only after the train driver had complied 
+with Rule 422 of the Operating Rules and confirm ed that the route was correctly set.   
+3.23. Rule 422 states that on encountering a Red Stop signal with no 'A' light illuminated at a 
+crossing loop , the first action should be to stop at the signal before confirming the 
+reason for the signal being at Red  (see Figure 7) .  In this case the train drive r had 
+received several  reports confirm ing that  the signal was Red due  to the points being 
+manually set for the correct mainline route . 
+  
+                                                        
+including but not limited to 'Setting a diverging route'.  When MTMVs [track machiner y] are required to 
+berth on a crossing loop … Train Control permission must first be obtained".  
+  
+Final Report RO -2018 -102 
+<< Page 11 >>
+ Signal display  Meaning/Actions  
+Red over Red  Stop  
+No 'A' light illuminated  Points may be incorrectly set  
+ A 'Stop' push button may have been operated  
+Figure 7: Rule 422, actions on Red signal at a crossing loop  
+3.24. Even though the  train driver expected the route to be set correctly, t he train approached 
+the Taimate crossing loop  signal cautiously  at about 20 km/h.  However, the  train driver 
+had stopped braking and was preparing to let the train coast through the station when 
+he noticed in the locomotive headlights that the points ahead were set for the loop.  The 
+driver had receiv ed information th at the points were correctly set  on two previous 
+occasions and as a result  likely  had confirmation bias16, which resulted in  the decision to  
+not stop at the Red light .  The train c oasted through the Red signal and in doing so it 
+resulted in  a SPAD  (signal passed at danger) .  
+3.25. The result was that the train was not able to stop before entering the loop, in spite of the 
+emergency brakes being applied.  In other words , the train was travelling too fast to st op 
+in the visual distance ahea d, a second  failure in defences designed to protect the vehicles 
+stabled on the loop.  
+Summary  
+3.26. There were a number of procedural failures, of which some did not directly contribute to 
+the incident but are nevertheless of concern.  
+3.27. The day before the incident, the correct procedures for protecting the rail vehicles 
+stabled in the loop had not been followed by the work group, and the ir error had not 
+been picked up or challenged by the train controller on duty at the time.  
+3.28. It is about as likely as not that the same would have  occurred on the day of the incident 
+had it not been for a different train controller on duty challenging the work group into 
+following the proper procedure .  In spite of the work group being reminded of the proper 
+procedure, an error resulted in the south -end points being left in the wrong position 
+anyway.  
+3.29. The train driver, having twice received confirmation that the points would be correctly set 
+for the train, then assumed that to be the case and did not slow the train sufficiently to 
+stop, resulting  in a SPAD . 
+3.30. KiwiRail undertook a range of safety actions to address those procedural errors, negating 
+the need for the Commission to make safety recommendations  (see section 6). 
+3.31. There were several examples in the incident sequence where better communication and 
+the practice of good non -technical skills could have detected one or more of the errors 
+made and prevented the incident.  The Commission has previously commented on the 
+standard of non -technical skills in the rail industry in its report RO 2011 -10117.  This  
+recommendation is repeated in section 7 of this report . 
+Stabilised approach technique  
+3.32. The stabilised braking approach is a relatively new KiwiRail initiative where  train drivers  
+are taught to reduce the speed of their train s to certain targets at specifie d distances 
+                                                        
+16 The tendency to interpret information in a way that affirms a prior belief or hypothesis.  
+17 Inquiry RO 2011 -101, Wrong line running irregularity, leading to a  potential head -on collision, 
+Papakura - Wiri, 14 January 2011.  
+ 
+
+<< Page 12 >>
+ Final Report RO -2018 -102 from a desired or potential stopping.   Figure 7 provides  an example set of target speeds 
+that can be adjusted according to the prevailing  circumstances of the situation , including  
+weather, visibility  and the weight/length of the train.   This staged braking technique 
+ensures  that the train driver has the train under control and able to stop , in this case  
+before the signal at Red Stop.  
+Position   F1 F2 F3 Stop  
+Distance  (m) 800 500 400 200 50 
+Speed  (km/h)  80 60 40 20 0 
+Figure 8: Stabilised approach braking key points  
+3.33. In this case the  train driver had achieved the desired speed of 20 km/h about 200m out 
+from the signal.  In the absence of trackside distance markers , the train driver had to rely 
+on route knowledge to know when to start reducing  the speed of the train to stop 
+before reaching the signal.  The stabilised approach initiative could be enhanced by 
+placing distance markers at appropriate distance s from potential stopp ing points  where 
+drivers' view s are restricted by terrain.  
+  
+  
+Final Report RO -2018 -102 
+<< Page 13 >>
+ 4. Findings  
+4.1. The freight train was wrong -routed into the crossing loop at Taimate because a staff 
+member had  inadvertently left the points in the wrong position , and there was no 
+independent verification to confirm  that the required protection had been put in place.  
+4.2. A SPAD  (signal passed at danger)  occurred when the driver slowed the train rather than 
+stopping at the Red signal. This was likely due to a confirmation bias that the points were 
+correctly set , based on information that the driver had received on two previous 
+occasions.  Had the train stopped at the Red signal, it was likely that the driver would 
+have noticed the incorrectly set points and stopped the train before it was wrong route d. 
+4.3. A number of procedural errors were made in the two days before  the incident that are of 
+concern but did not necessarily directly contribute to the incident . 
+4.4. There were  situations where better check and challenge, and better communication , 
+could have prevented the train being wrong -routed into the loop.  
+ 
+
+<< Page 14 >>
+ Final Report RO -2018 -102 5. Safety issues and remedial action  
+General  
+5.1. Safety Issues are an output from the Commission's analysis of factors that have 
+contributed to the occurrence.  They typically describe a system pro blem that has the 
+potential to adversely affect future operations on a wide scale.  
+5.2. Safety Issues may be addressed by safety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address the issue  
+5.3. Recommendations are made to  persons or organisations that are considered the most 
+appropriate to address the identified safety issues.  
+5.4. In the interests of transport safety, it is important that safety actions are taken, or any 
+recommendations are implemented without delay to help pr event similar accidents or 
+incidents occurring in the  future.  
+Safety issues  
+5.5. No new safety issues identified.  
+Safety a ctions  
+General  
+5.6. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues 
+identified by the Commission during an inquiry that would otherwise result in the 
+Commission issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues 
+that would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+5.7. In response to the Taimate crossing loop incident, KiwiRail has initiated some 
+revalidation and retraining of both the workgroup and the train driver involved.  
+Additionally, the work  group and KiwiRail have developed an 'end of day' checklist to 
+ensure a standardised approach to leaving a worksite each day.  
+5.8. On 14 Dece mber 2018  and 11 and 25 January 2019 KiwiRail issued 'Rule of the Week' 
+discussion documents related to the Taimate incident for discussion at team Toolbox 
+and/or Tailgate safety briefings  (see Appendi ces 3 to 5 ). 
+5.9. On 14 January 201 9 KiwiRail issued a Staff Briefing to all freight train drivers regarding 
+the extension of the Arrival Signal track circuits from 400  m to 800  m, where there is an 
+unobstructed range of vision.  This document also reinforced the requirement for drivers 
+to have their train s under such control as to be able to stop before a signal or other 
+feature if the need arose  (see Appendix 7 ). 
+5.10. On 16 January 201 9 KiwiRail Zero Harm issued a Toolbox message regarding the 
+isolation procedure for Nippon points  (see Appendix 6).  These were the type s of points 
+incorrectly set and isolated at Taimate.  
+  
+Final Report RO -2018 -102 
+<< Page 15 >>
+ 5.11. Additionally KiwiRail is: 
+ reviewing and auditing the track warrant system for the effective control of stabilising 
+equipment in crossing loops  
+ auditing communication to ensure poi nts' isolation s are advised and processed in a 
+standardised way  
+ reviewing current utilised communication -recording technology to understand the 
+best method to ensure standardised communication across the rail network . 
+Recommendations  
+General  
+5.12. The Commission  may issue, or give notice of , recommendations to any person or 
+organisation that it considers the most appropriate to address the identified safety 
+issues, depending on whether these safety issues are applicable to a single operator only 
+or to the wider t ransport sector.   In this case, no new recommendations have been 
+issued.  
+5.13. In the interests of transport safety it is important that any recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in 
+the future.  
+Previous r ecommendations  
+5.14. Good , positive communication is key to the safety of train operations.  There were 
+several examples in the incident sequence where better communication and the practice 
+of good non -technical skills could have detected one or more of t he errors made and 
+prevented the incident.   
+5.15. In 2012, as part of inquiry RO-2011 -101, the Commission issued a recommendation 
+(002/12) to the Chief Executive of the NZ Transport Agency that they require: the 
+Executive of the National Rail System Standards (NRSS) to develop standards to ensure 
+all rail participants meet a consistently high level of Crew Resource Management (now 
+non-technical skills ); and communication to staff which includes the us e of standard rail 
+phraseology.  
+On 31 March 2017 the NZ Transport Agency updated the Commission as follows:  
+It is noted that the Commission issued its most recent recommendation on 
+non-technical skills to the Transport Agency in 2012 and that this is still  
+open. The recommendation required that the practice of non -technical skills 
+be recognised in the National Rail System Standards. The Transport Agency 
+continues to work with KiwiRail on this issue, and in December 2016 issued a 
+Safety Improvement Plan Noti ce in accordance with section 36 of the 
+Railways Act 2005 requiring KiwiRail to prepare a Safety Improvement Plan 
+to address the implementation of non -technical skills into its rail operations.  
+On 1 November 2017 the NZ Transport Agency updated the Commis sion as follows:  
+The Transport Agency approved KiwiRail's Safety Improvement Plan 
+regarding non -technical skills in April 2017. In their most recent update on 
+the Non -Technical Skills project KiwiRail reported that the project is on time, 
+within budget and  meeting the project specifications. As of 13 October 2017, 
+the Transport Agency has also agreed to the integration of stabilised 
+ 
+
+<< Page 16 >>
+ Final Report RO -2018 -102 approach and risk -triggered commentary driving into the scope of the Safety 
+Improvement Plan requirements.   
+  
+  
+Final Report RO -2018 -102 
+<< Page 17 >>
+ 6. Key l essons  
+6.1. Knowledge and strict following of rail operating rules and procedur es is key to safe rail 
+operations and will help prevent incidents and accidents.  
+6.2. Train drivers have an obligation to confirm for themselves that the information they have 
+had from other parties is correct, and drive with caution until the information is 
+confirmed . 
+ 
+ 
+
+<< Page 18 >>
+ Final Report RO -2018 -102 7. Data Summary  
+Vehicle particulars  
+Train type and 
+number:  Freight train 736  
+Classification:  DXR8007 and DXR8022 locomotives hauling 33 wagons  
+Years of manufacture:  1972 -76 
+Operator:  KiwiRail  Holdings Limited  
+Date and time  1 October 2018 at about 225418 
+Location  Taimate  
+Operating crew  freight train driver  
+Injuries  none  
+Damage  none  
+ 
+ 
+ 
+                                                        
+18 Times in this report are New Zealand Daylight Saving Time (Co -ordinated Universal Time +  13 hours) and are 
+expressed in the 24 -hour mode . 
+  
+Final Report RO -2018 -102 
+<< Page 19 >>
+ 8. Conduct of the Inquiry  
+8.1. The incident occurred at about 2254 on Monday 1 October 2018.  The NZ Transport 
+Agency (the Agency) notified the Transport Accident Investigation Commission 
+(Commission) on 3 October 2018.  The Commission opened  an inquiry under section 
+13(1) of the Transport Accident Investigation Commission Act 1990 to determine the 
+circumstances and causes of the incident and appointed an investigator in charge.  
+8.2. Commission investigators travelled to the incident site on 8 Octo ber 2018 to commence 
+the investigation.   
+8.3. Commission investigators interviewed the:  
+ freight train driver  (the train driver)  
+ train controllers  
+ track maintenance workers  
+ Rail Protection Officer (RPO) 19 and site protector 20 
+ train driver trainer  
+ train controlle r trainer  
+ RPO and site protector trainer.  
+8.4. The Commission obtained the following documents and records for analysis:  
+ documents detailing how crossing loops of the type at Taimate function  
+ the training records for the train driver, the track workers and the train controllers  
+ the roster details for the train driver, the track workers and the train controllers  
+ the event recorder download data from the lead locomotive  
+ recorded  communications between the train controllers and the track maintenance 
+group, and betw een the train controller and the train driver.  
+8.5. On 22 May 2019  the Commissioners considered the draft report and approved it to be 
+sent to interested persons for consultation.  
+                                                        
+19 A person with overall responsibility for providing  rail protection for a protected work area.  They 
+advise all site protectors and operators/drivers on the details of the protection arrangements before 
+commencing work or entering the area, authorise movements to enter or proceed through the area, co -
+ordin ate the movement of rail vehicles within the area, communicate with train control and supervise 
+site protectors when more than one worksite is operating.  The rail protection officer's name and contact 
+details are shown on the Daily Bulletin, which details  the location and operating times of worksites 
+around the rail network.  
+20 A person with similar responsibilities to an RPO's but responsible for the safety of equipment and 
+personnel at a single worksite within a protected work area .  They liaise with the RPO on movements 
+through the protected work area to confirm all equipment and personnel are clear of the rail lines.  
+ 
+
+<< Page 20 >>
+ Final Report RO -2018 -102 9. Report information  
+Abbreviations  
+km/h   kilometre(s) per hour  
+m  metre(s)  
+MTMV   mobile track maintenance vehicle  
+NTS  Non-Technical Skills  
+NZTA   New Zealand Transport Agency (The Agency)  
+PWA   Protected Work Area  
+RPO  rail protection officer  
+SPAD   Signal Passed At Danger  
+TAIC  Transport Accident Investigation Commission (Commission)  
+Glossary  
+confirmation bias  the tendency to interpret information in a way that affirms a prior belief 
+or hypothesis  
+crossing loop  loop of track alongside the mainline in single track areas, used by 
+opposing trains to cross each other safely  
+human factors  the science of human behaviour and its influence on the occurrence of 
+human errors  
+isolate points  to manually disconnect points from automatic operation.  Points need 
+to be manually operated when in the isolated state  
+mainline  the principle track on a railway  
+mobile track maintenance vehicles  rail vehicles specifically designed and used for 
+maintaining rail tracks (can also be referred to as rail 
+maintenance vehicles or rail maintenance machines)  
+non-technical skills  formerly known as 'Crew Resource Management ', these skills 
+complement technical skills and include the interpersonal skills of 
+communication, leadership and teamwork and the cognitive skills of 
+decision - making, situational awareness and task management.  Non -
+technical skills are part of human fact ors and bolster the success of 
+threat and error management   
+Rail Protection Officer  a person with overall responsibility for providing rail protection for a 
+Protected Work Area (PWA).  They advise all site protectors and 
+operators/drivers on the details o f the protection arrangements before 
+  
+Final Report RO -2018 -102 
+<< Page 21 >>
+ commencing work or entering the area, authorise movements to enter 
+or proceed through a PWA, co -ordinate the movement of rail vehicles 
+within the PWA, communicate with Train Control and supervise site 
+protectors when mo re than one worksite is operating.  The RPO's name 
+and contact details are shown on the Daily Bulletin, which details the 
+location and operating times of worksites around the rail network  
+sidings  sections of track  clear of the main line and main line cross ing loops  
+site protector  a person with similar responsibilities to a rail protection officer but 
+responsible for the safety of equipment and personnel at a single 
+worksite within a protected work area.  They liaise with the rail 
+protection officer on movem ents through the protected work area to 
+confirm that all equipment and personnel are clear of the rail lines  
+stable  to park track machines, rail vehicles and trains whilst they are not in 
+use, typically overnight, or until they are next needed.  The vehicl es are 
+placed out of service, made inaccessible to the public and usually have 
+all systems on them switched off  
+track circuit joint  An insulated joint separating two adjacent lengths of rail track that 
+enables sensors to detect when a train moves from one section of rail 
+across the insulated joint to the next section of rail.  At a crossing loop 
+within a Track Warrant controlled area, only those tracks within 400m 
+of loop are fitted with sensors.  
+track warrant  a systematised permission used on some rail lines to authorise a trains' 
+use of the lines.  Train controllers issue the permissions to drivers of 
+trains instead of using signals.  The drivers generally receive track 
+warrants by radio  
+SPAD  passing a Red Stop signal without authorisation  
+winding points  sometimes referred to as 'hand winding points'; refers to manually 
+operating a set of points by utilising a hand crank or lever to set the 
+route  
+ 
+  
+ 
+
+<< Page 22 >>
+ Final Report RO -2018 -102 10. Notes about Commission reports  
+Commissioners  
+Chief Commissioner    Jane Meares  
+Deputy Chief Commissi oner  Stephen Davies Howard  
+Commissioner     Richard Marchant  
+Commissioner     Paula Rose, QSO  
+Key Commission personnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Aaron Holman  
+Investigator in Charge    Chris Asbery  
+General Counsel     Cathryn Bridge  
+Citations and referencing  
+This draft report does not cite information derived from interviews during the Commission's 
+inquiry into the occurrence.  Documents normally accessible to industry participants only and 
+not discoverable under the Official Information Act 1982 are referenced as footnotes only.  
+Publicly available documents referred to during the Commission's inquiry are cited.  
+Photographs, diagrams, pictures  
+The Commission has provided, and owns, the photographs, diagrams and pictures in this 
+report unless otherwise specified.  
+Verbal probability expressions  
+This report uses standard terminology to describe the degree of probability (or likelihood) tha t 
+an event happened, or a condition existed in support of a hypothesis. The expressions are 
+defined in the table below.  
+ 
+Terminology*  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+*Adopted from the Intergovernmental Panel on Climate Change  
+ 
+  
+Final Report RO -2018 -102 
+<< Page 23 >>
+ Appendix 1 : Crossing loop operation  
+ 
+ 
+
+ 
+
+<< Page 24 >>
+ Final Report RO -2018 -102 Appendix 2:  Train Control diagram  
+
+  
+Final Report RO -2018 -102 
+<< Page 25 >>
+ Appendix 3:  KiwiRail Rule of the Week - 25 January 
+2019  
+ 
+
+ 
+
+<< Page 26 >>
+ Final Report RO -2018 -102 Appendix 4:  KiwiRail Rule of the Week - 11 January 
+2019  
+ 
+
+  
+Final Report RO -2018 -102 
+<< Page 27 >>
+ Appendix 5:  KiwiRail Rule of the Week - 14 
+December 2018  
+ 
+
+ 
+
+<< Page 28 >>
+ Final Report RO -2018 -102 Appendix 6:  KiwiRail Toolbox Talk 16 January 2019  
+ 
+
+  
+Final Report RO -2018 -102 
+<< Page 29 >>
+ Appendix 7:  KiwiRail Staff Briefing - Warrant 
+Stations  
+ 
+
+ 
+
+<< Page 30 >>
+ Final Report RO -2018 -102  
+
+  
+ 
+  
+  
+ 
+  
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+RO-2018-101 Metropolitan passenger train, derailment, Britomart Transport Centre, Auckland, 9 
+May 2018  
+RO-2017-106 Mainline locomotives, Wrong -routing and collision with work vehicle, Invercargill, 
+16 November 2017  
+RO-2017-105 Collision between freight Train 353 and heavy motor vehicle, Lambert Road, level 
+crossing, near Kawerau, 6 October 2017  
+RO-2017-104 
+ Unauthorised immobilisation of passenger train, at Baldwin Avenue Station, 
+Avondale, 17 September 2017  
+RO-2017-101 Signal Passed at Danger 'A' at compulsory stop boards protected worksite, 
+Pongakawa, Bay of Plenty, 7 February 2017  
+RO-2017-103 Potential collision between passenger trains, Wellington Railway Station, 15 May 
+2017 
+RO-2017-102 Signalling irregularity, Wel lington Railway Station, 3 April 2017  
+RO-2016-101 Signal passed at danger leading to near collision, Wellington Railway Station, 28 
+May 2016  
+RO-2016-102 Train 140 passed Signal 10R at 'Stop', Mission Bush Branch line, Paerata, 25 
+October 2016  
+RO-2015-103 Track occupation irregularity, leading to near collision, between Manunui and 
+Taumarunui, 15 December 2015  
+RO-2014-105 Near collision between train and hi -rail excavator, Wairarapa Line near 
+Featherston, 11 August 2014  
+RO-2013-101 Derailment of freight  Train 345, Mission Bush Branch line, 9 January 2013  
+RO-2015-102 Electric locomotive fire at Palmerston North Terminal, 24 November 2015  
+RO-2014-104 Express freight train striking hi -rail excavator, within a protected work area, 
+Raurimu  Spiral, North Island Main Trunk line, 17 June 2014  
+RO-2013-103 and 
+RO-2014-103 Passenger train collisions with Melling Station stop block, 15 April 2013 and 27 
+May 2014  
+
+  
+ 
+ TAIC Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its kōwhaiwhai, Māori scro ll designs, from artist Sandy Rodgers (Ngati Raukawa, 
+Tuwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies and how to prevent them. A 'waka whai mārama ( i te 
+ara haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) and Papatūānuku 
+(Earth Mother) by their son Tāne Māh uta (god of man, forests and everything dwelling within), which brought 
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe or risk free'.  
+Corporate: Te Ara Haumaru - The safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of 
+knowledge that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. 
+The continual wave is the perpetual line of influence. The succession of humps represent the individual 
+inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: ng ā hau e whā - the four winds  
+ 
+To Sandy, 'Ngā hau e whā' (the four winds), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind. The re is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for aviation.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this 
+Kōwhaiwha i. 
+Marine: ara wai - waterways  
+ 
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for 'Marine'.  
+Sand y acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere' is to flow or fly. 'Whenua' is the 
+land. The koru forms rep resent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and everything 
+that dwells within) in the creation of  this Kōwhaiwhai.  
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 15.00          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

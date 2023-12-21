@@ -1,0 +1,1164 @@
+﻿ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Report 11 -104: Freight Train 261 collision with bus,  
+Beach Road level crossing, Paekakariki, 31 October 2011  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+The Commission may make  recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+These reports may be reprinted in whole or in part witho ut charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+ 
+  
+ 
+ 
+ 
+ 
+Final Report  
+Rail inquiry 11-104 
+Freight Train 261  collision with bus , 
+Beach Road level crossing, Paekakariki  
+31 October 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication:  August 2012   
+
+ 
+ Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and 
+co-ordinating and co -operating with other accident investiga tion organisations overseas.  The principal 
+purpose of its inquiries is to determine the circumstances and cause of occurrences with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency 
+or to pu rsue (or to assist an agency to pursue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informing members of the transport sector, both 
+domestically and internationally, of the lessons that can be  learnt from transport accidents and 
+incidents.   
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull, QC  
+ 
+ 
+Key Commission p ersonnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim B urfoot  
+Investigator in Charge    Vernon Hoey  
+General Counsel    Rama Rewi  
+ 
+ 
+ 
+Email:   inquiries@taic.org.nz  
+Web:   www.taic.org.nz  
+Telephone:  + 64 4 473 3112 (24 h ours) or 0800 188 926  
+Fax:  + 64 4 499 1510  
+Address:  Level 16, AXA Centre, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+  
+  
+ 
+ Important n otes 
+ 
+Nature of the final report  
+This final report has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evid ence in any proceedings with the exception of a Coroner's 
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.  
+This report may be reprinted in whole or in part without charge, provi ded that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would  normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report are  
+provided by, and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Location of collision  
+  
+ Source: Avis Wellington Street Directory  
+Beach Road 
+level crossing  
+passenger 
+tranship 
+location  
+
+  
+ 
+ Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ .............................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive summary  ................................ ................................ ................................ ......................  1 
+ General  ................................ ................................ ................................ ................................ ..........  1 
+2. Conduct of the inquiry  ................................ ................................ ................................ .................  2 
+3. Factual information ................................ ................................ ................................ ......................  3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+ Beach Road ra il level crossing  ................................ ................................ ................................ ..... 5 
+ Beach Road/State Highway 1 intersection  ................................ ................................ .................  6 
+3.2. The NZ Transport Agency  ................................ ................................ ................................ .............  7 
+ Traffic Control Devices Manual ................................ ................................ ................................ .... 7 
+ The bus  ................................ ................................ ................................ ................................ ..........  8 
+3.3. KiwiRail Limited  ................................ ................................ ................................ ............................  8 
+4. Analysis  ................................ ................................ ................................ ................................ .........  9 
+4.1. Introduction  ................................ ................................ ................................ ................................ ... 9 
+4.2. The bus becomes stuck  ................................ ................................ ................................ ...............  9 
+4.3. Stacking distances  ................................ ................................ ................................ ....................  10 
+4.4. Preventing the collision  ................................ ................................ ................................ .............  12 
+4.5. The road and rail regulatory interface  ................................ ................................ ......................  12 
+5. Findings  ................................ ................................ ................................ ................................ ..... 14 
+6. Key lessons  ................................ ................................ ................................ ...............................  15 
+7. Safety actions ................................ ................................ ................................ ............................  16 
+ General  ................................ ................................ ................................ ................................ ....... 16 
+ Safety actions addressing safety issues identified during an inquiry  ................................ .... 16 
+8. Recommendations  ................................ ................................ ................................ ....................  17 
+8.1. Gener al ................................ ................................ ................................ ................................ ....... 17 
+8.2. Historical recommendations made regarding stacking distances between rail level 
+crossings and road intersections  ................................ ................................ .............................  17 
+8.3. Urgent recommendations made during this inquiry  ................................ ................................  18 
+ Compatibility of super -low-floor buses with Beach Road level crossing profile  .....................  18 
+ Waiting (stacking) distance between Beach Road level crossing and State Highway 1  ....... 19 
+ Stacking distances at other public level crossings  ................................ ................................ . 19 
+8.4. Further recomme ndations  ................................ ................................ ................................ ........  20 
+9. Citations  ................................ ................................ ................................ ................................ .... 21 
+ 
+
+ 
+Report 11 -104 | Page i Figures  
+ 
+Figure 1   Photograph of the collision aftermath (looking south)  ................................ ............................  4 
+Figure 2   An elevation of the bus stopped over the level crossing (not to scale)  ................................ .. 4 
+Figure 3   Photograph showing the level crossing with the bus's intended movement shown in blue  . 6 
+Figure 4   Photograph of a truck stopped over a level crossing in South Auckland  .............................  11 
+ 
+  
+ 
+Report 11 -104 | Page ii Abbreviations  
+ 
+Commission  Transport Accident Investigation Commission  
+km/h  kilometre(s) per hour  
+m metre(s)  
+  
+Glossary  
+ 
+stacking distance  distance between a road intersection and a railway level crossing  
+short stacking  a road layout where a long vehicle could block a level crossing 
+when waiting at an intersection  
+stub axle an axle arrangement located either in front of or behind the drive 
+axle on a heavy road vehicle  to provide stability and distribute the 
+axle loading on the road .  The stub axle on the bus involved in the 
+collision was fitted w ith brakes but was non-powered  
+train replacement  the general description and usual destination display carried on 
+buses undertaking urban passenger train replacement work in the 
+Greater Wellington Regional Council area  
+Tranz Metro  a business unit of KiwiRail responsible for the Wellington urban 
+passenger train operation on behalf of the Greater Wellington 
+Regional Council  
+super -low-floor urban bus a bus designed with a n internal low-level floor to facilitate the 
+carriage of mobility -impaired passengers  
+  
+ 
+Report 11 -104 | Page iii Data summary  
+Train particulars  
+Type and number:  Express freight Train 261  
+Origin/destination:  Palmerston North -Wellington  
+Train weight : 771 tonne s including locomotive  
+Train length:  340 metres including locomotive  
+Operator:  
+Bus particulars  KiwiRail Limited  
+Type and registration number:  Zonda super -low-floor urban bus, registration GAN105  
+Bus tare weight /length : 12 tonne s/12.59 metres  
+Seating:  47 (46 passengers plus one driver)  
+Owner:  Suburban Buses Limited , Nelson  
+Operator:  Tranzit Coachlines (Wellington) Limited , Wellington  
+Date and time  31 October 2011 22:29  
+Location  Beach Road level crossing, 38.62 k ilometre s, 
+North Island Main Trunk, Paekakariki  
+Persons on train  at time of collision  one (train driver ) 
+Person s on bus  prior to collision  7 (6 passengers and one bus driver ) 
+Injuries  nil 
+Damage to train  moderate to locomotive and minor to trailing wagons 
+and containers  
+Damage to bus  major  
+  
+
+ 
+Report 11 -104 
+<< Page 1 >>
+ 1. Executive summary  
+General  
+1.1. On Monday 31 October 2011,  a "super -low-floor " urban bus crossed the Beach Road level 
+crossing at Paekakariki, 38.62 kilometres north of Wellington , and stopped at the road 
+intersection with State Highway 1, where it became stuck .  There were 3 sets of tracks at the 
+level crossing and the bus encroached on 2 of these tracks .  There were 6 passengers plus the 
+driver on the bus.  
+1.2. The driver tried various methods to free the bus but did not succeed.  After about 5 minutes a 
+freight train approached the level crossing at about 70 kilometres per hour ( km/h ) and collided 
+with the r ear of the bus.  The driver and passengers had seen the train approaching and 
+vacated the bus  moments before the collision.  The train driver was the only person on board 
+the train.  Nobody was injured in the collision .  The bus was extensively damaged and  the train 
+was slightly damaged.  The train did not derail.  
+1.3. Had the bus not become stuck it could have pulled forward far enough to just clear the train on 
+the main line when stopped at the stop sign, but there was not sufficient "stacking distance " 
+availa ble to ensure the bus was clear of the third  set of tracks.  
+1.4. The Transport Accident Investigation Commission  (Commission)  found  that the bus complied 
+with the Land Transport Rule: Vehicle Dimensions and Mass for heavy road vehicles, but that 
+the profile of the level crossing and short section of road leading up to the road intersection 
+was not compatible with long and low road vehicles as required by the NZ Transport Agency 
+Rules. 
+1.5. The Commission also found that there was not a sufficient stacking distance for road vehicles 
+longer than about 10 metres  (m) to stop at the intersection as required and  still remain clear of 
+the level crossing.  There are some 251 other level crossings in New Zealand with similar 
+stacking distance iss ues. 
+1.6. As a consequence of the collision, t he bus operator has included the emergency telephone 
+number for the National Train Control Centre in its vehicle operating plan, and has advised 
+other bus operators of this safety action through an industry magazine .  The Commission 
+recommended  that the Chief Executive of the NZ Transport Agency advise other operators of 
+large road vehicles  that their drivers should carry the National Train Control Centre emergency 
+telephone number so that the y can alert the train controller in any similar situation . 
+1.7. The Commission made other recommendations  about the layout, profile and stacking distance 
+issues at the Beach Road level crossing , as well as with other level crossings and road 
+intersections throug hout New Zealand with similar issues.  It also recommended  that the NZ 
+Transport Agency ensure that formal consultation takes place between key rail and road 
+industry participants and regulators before changes are made to legislation that could affect 
+othe r users.  
+1.8. The key lessons  from this inquiry are:  
+ changes to rules and standards for road transport can compromise safety at rail level 
+crossings.  Groups responsible for setting standards for road vehicles and rail level 
+crossings should therefore consider the consequences for other users before making those 
+changes  
+ drivers of long road vehicles need to know if there is not enough room for their vehicles 
+between a road intersection and a rail level crossing.  
+  
+ 
+Report 11 -104 
+<< Page 2 >>
+ 2. Conduct of the inquiry  
+2.1. The accident happened on 31 October 2011  at 2229 .  The NZ Transport Agency notified the 
+Commission  of the accident under section 13(4) of the Railways Act 2005  the following day, 1 
+November 2011 .  The Commission opened an inquiry under section 13(1) of the Transport 
+Accident Inves tigation Commission Act 1990 to determine the circumstances and causes of 
+the collision . 
+2.2. Commission investigators  travelled to Paekakariki to conduct an on -site investigation on 1 
+November 2011 .  The investigators conducted  a survey of the gradients and measured 
+distances on Beach Road from State Highway 1 to the level crossing . 
+2.3. The bus driver and the bus company's management /supervisory  staff were interviewed  and 
+the bus driver 's duty log book examined .  An investigator also visited the railway workshops in 
+Lower Hutt to examine the damaged locomotive and visited the bus company's Masterton 
+maintenance depot to examine the damaged bus.  
+2.4. An investigator interview ed the KiwiRail train driver  and an off-duty track  worker  who had been  
+a passenger on the bus .  Recorded data from KiwiRail's locomotive and signalling systems 
+was secured for analysis . 
+2.5. The investigators  convened a meeting  with NZ Transport Agency road vehicle engineers  and 
+the NZ Transport Agency  rail regulation unit .  A subsequent meeting was held with a KiwiRail 
+Infrastructure and Engineering signals engineer  to discuss safety issues that had been 
+identified .  Following th ose meeting s the Commission issued 3 urgent recommendations to 
+the NZ Transport Agency on 16 December 2011.  
+2.6. On 31 May 2012  the Commission approved this draft final report  for circulation to interested 
+persons for comment.  
+  
+ 
+Report 11 -104 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  KiwiRail was undertaking a long -term project to upgrade the Wellington electric overhead 
+traction wires and ancillary infras tructure  in the Kapiti area .  Some of this work was 
+undertaken at night between 2000 and 0500 to minimise disruption to Tranz Metro 's electric 
+passenger train services.  
+3.1.2.  Tranz Metro replace d its late evening  trains with buses  between Porirua and Waikanae for the 
+week beginning Sunday 30 October 2011, in order to meet its service -level agreement  with 
+the Greater Wellington Regional Council.  KiwiRail's diesel -locomotive -hauled freight trains 
+continued operating during this upgrade work.  
+3.1.3.  Tranz Metro had contra cted Tranzit Coachlines (Wellington)  Limited to provide buses and 
+drivers for the train replacement work.  Tranzit Coachlines was a bus -operating company that 
+provided charter and urban services using a fleet of 400 vehicles throughout the North Island.  
+3.1.4.  Tranzit Coachlines leased a  Zonda super -low-floor bus for the train replacement work 
+beginning on Sunday 30 October 2011.  The Tranzit Coachlines  bus driver was based in 
+Wellington and held an appropriate NZ Transport Agency heavy traffic driver's licence.  He had 
+been driving buses since February 2010.  He  had joined Tran zit Coachlines in July 2011 . 
+3.1.5.  The bus driver said that he had received an indu ction to the Zonda bus when he booked on for 
+his train replacement duty on Sunday 30 October 2011.  This  had included an overview of the 
+vehicle and a supervised driving exercise with a Tranzit Coachlines -approved appraiser around 
+some suburban streets nea r its Wellington depot.  The Sunday assignment was the bus 
+driver 's first solo occasion with the Zonda bus.  
+3.1.6.  On that first day the bus driver  had to stop at Paekakariki on one occasion.  He said that he 
+had felt the back of the bus scrap e the road surface when he drove over  the Beach Road level 
+crossing and up to the intersection at State Highway 1.  He estimated that he had had 20 
+passengers on board at that t ime. 
+3.1.7.  The next day, Monday 31 October, the bus driver drove the same Zonda bus and completed 3 
+retur n journeys between Paekakariki and Paraparaumu without incident.  His fourth  and final 
+journey for the evening was from Waikanae to Porirua.  
+3.1.8.  At about 2220 the bus turned right from State Highway 1 to Beach Road at Paekakariki and 
+proceeded to the passenger  tranship location on Ti lley Road (refer map on page iv).  After 
+exchanging passengers the bus left the tranship location with 6 passenger s on board , of 
+whom one was an off -duty KiwiRail track  worker seated in a back -row seat.  
+3.1.9.  The bus turned on  to Beach Ro ad, travelled over the level crossing and stopped about 2 m 
+short of the compulsory stop limit lines at the intersection with State Highway 1.  The driver 
+thought that he had stopped in  about  the same position as  on the day before, but this time 
+had let hi s bus roll back slightly.  
+3.1.10.  The level crossing comprised 3 sets of tracks: an Up main line, a Down main line and a Loop 
+line.  When the bus stopped , its back end  encroached over the Loop line and the Down main 
+line.  The wheels of the stub axle were positioned on the Loop line and the drive axle was 
+positioned over a covered drain on the outside of the Loop line (see Figure s 1 and  2). 
+ 
+Report 11 -104 
+<< Page 4 >>
+  
+Figure 1  
+Photograph of t he collision  aftermath  (looking south)  
+ 
+loop  
+ drain  
+Down main  
+16 
+ 
+14 
+ 12 
+ 10 
+ 8 
+ 6 
+ 4 
+ 2 
+ 0 
+ 
+Train  
+261 
+elevation rise of 719 mm  from drain  
+metres from  nearest intersection limit line  
+off-duty track 
+worker sitting here  
+elevation rise of 40 mm from drain  
+ 
+Figure 2  
+An elevation of the bus stopped over the level crossing  (not to scale)  
+3.1.11.  The drive axle was suspended from the bus under -frame , with the wheels having limited 
+traction with the road surface.  
+3.1.12.  The driver tried to drive the bus forward , but the driving wheels were spinning  and the bus did 
+not move .  He tried to reverse the bus but it did not  move then either .  He left the bus to 
+review his predicament.  He was aware that his bus had encroached on the Down main line, 
+but was not concerned because he assumed that no trains we re running because his bus was 
+replacing the train service s. 
+courtesy of N ew Zealand  Police  
+drive wheels 
+low down in 
+wheel arch  
+stub wheels 
+high up in 
+wheel arch  
+train heading away from photographer  
+ 
+Report 11 -104 
+<< Page 5 >>
+ 3.1.13.  The driver re -entered his driving position , lower ed the bus  using the kneeling function and 
+repeated the drive options, again without success . 
+3.1.14.  The bus had been stuck on the level crossing for abo ut 5 minutes when t he off -duty track  
+worker saw a nearby railway signal on the Down  main line change from red to green.  Seconds 
+later he saw the headlight of an approaching southbound train (freight Train 261).  He called 
+out a warning to the bus driver , who immediately ordered the passengers from the bus via the 
+front door.  
+3.1.15.  The automatic warning devices for the Beach Road level crossing started to activate while the 
+passengers were vacating the bus.  
+3.1.16.  The driver  of Train 261 saw the bus and initially thought it was moving.  He saw the bus driver 
+waving his arms in the air when he got closer and realised that the rear of the bus was 
+stopped over the Down main line on which  his train was travelling.   The train driver applied 
+emergency braking  and took sh elter on the locomotive cab floor .  The train event recorder 
+showed that the train was travelling at 71 km/h  when the brakes were applied . 
+3.1.17.  Train 261 collided with the empty bus 8 seconds later at a speed of 69 km/h .  The train took 
+320 m to stop  after the collision , with the second -to-last wagon standing adjacent to the bus.  
+The train driver was showered with broken glass from the locomotive 's windscreen s, but he 
+was not injured.  Nobody from the bus was injured.  The rear of the bus was shunted about 
+one metre southwards and was extensively damaged.  The train did not derail and damage to 
+it was minor.  
+Beach Road rail level crossing  
+3.1.18.  Paekakariki station opened  at about the same time that the Wellington and Manawatu 
+Railway Company 's line was built through t he area  in 1886 .  The line through Paekakariki was 
+double -tracked  some time in the late 1930s and was electrifi ed in 1940 . 
+3.1.19.  Records showing t he date on which  the Beach Road level crossing was opened and when it 
+was equipped with flashing lights and bells could not be found , but a utomatic half -arm 
+barriers were fitted during an upgrade in May 1962 .  There had been no reported train/vehicle 
+accidents at the level crossing since that date . 
+3.1.20.  Figure 3 shows the general layout of the level crossing and the inters ection of Beach Road and 
+State Highway 1. 
+ 
+Report 11 -104 
+<< Page 6 >>
+  
+Figure 3  
+Photograph showing the level crossing with the bus's intended movement shown in blue  
+3.1.21.  The maximum speed of all trains travelling on the Up and Down main lines over the Beach 
+Road level crossing was 70 km/h .  The m aximum train speed on the Loop line was 25 km/h.  
+Road traffic on Beach Road was authorised to travel at up to 50 km/h.  
+3.1.22.  Road traffic signage was erected to warn road users of the level crossing, but there was no 
+signage to warn road users of the short stacking situation . 
+Beach Road/ State Highway 1 intersection  
+3.1.23.  In 199 6 the Commission published a report into a collision between passenger Train 903 and 
+a truck and trailer unit at Kirk Road level crossing near Christchurch on 17 May 1996.  The 
+Commission found that there was a lack of stacking distance for long road vehicl es between 
+the level crossing and State Highway 1. 
+3.1.24.  In December 1996 t he Commission recommended to the Director, Land Transport Safety 
+Authority that he liaise with Transit New Zealand (both entities were predecessors to the NZ 
+Transport Agency), Tranz Rail  Limited and the appropriate local authorities .  The 
+recommendation was that  a review be initiated to define all public level crossings where the 
+stacking distance for long road vehicles was insufficient to ensure safe entry to or exit from 
+the crossing s, and to ensure that appropriate action was taken, consistent with the frequency 
+of use and the potential consequences of collision . 
+3.1.25.  During May 2001 Transit N ew Zealand  carried out m inor roadwork improvements to the 
+Beach Road/State Highway 1 intersection.  The stacking distance between the edge of the 
+level crossing and the intersection compulsory stop lines was extended by 2 m to 10.5 m as a 
+result of the work . 
+3.1.26.  In 2002 the Commission published a report into a near collision between passenger Train 700 
+and a  petrol tanker at Vickerman  Street level crossing near Blenheim on 25 April 2002.  The 
+Commission found that there was a lack of stacking distance for long road vehicles between 
+the level crossing and State Highway 1.  The Commission repeated the 199 6 recommendation 
+to the Director of the Land Transport Safety Authority .  Details of the recommendation s and 
+the Director's responses can be found in the recommendation section of this report, together 
+with 3 urgent safety recommendations made to the Chief Executive of the NZ Transport 
+Agency earlier in this inquiry.  
+Up main  
+Down main  
+ Loop line  
+south  
+ 
+Report 11 -104 
+<< Page 7 >>
+ 3.1.27.  In 2005 a conceptual study report comparing the costs and improvement programmes of the 
+current State Highway 1 route and the proposed Transmission Gully route was produced for 
+Transit N ew Zealand and the Greater Wellington Regional Council .  The report described  the 
+Beach Road/State Highway 1 intersection as having a poor  safety rating  and proposed the 
+elimination of both the intersection and the level crossing . 
+3.1.28.  A 2007 Transit N ew Zealand report , which  propos ed a redesign , described the intersection  as 
+being a major safety problem.   The redesign included the installation of an acceleration /entry 
+slip lane controlled by give -way signs (where the stop signs are currently erected) for right -
+turning road traffic moving from Beach Road to State Highway 1. 
+3.1.29.  Neither th e 2005 conceptual study report  nor the 2007 proposal  was implemented . 
+3.1.30.  A 2009 joint assessment of the Beach Road/State Highway 1 level crossing conducted by 
+KiwiRail and the NZ Transport Agen cy using the "Australian Level Crossing Assessment Model" 
+included a comment that short stacking was an issue because the available space for road 
+traffic was less than 20 m from the nearest rail edge.  
+3.2. The N Z Transport Agency  
+Traffic Control Devices Manual  
+3.2.1.  The NZ Transport Agency  produced a Traffic Control Devices Manual  (dated 20 08 and draft 
+dated 20 11).  P art 9 of the Manual provided guidelines on industry good practice  for level 
+crossings , and also referenced some  mandatory practice s.  The Manual provi ded guidelines  
+for the installation of road -traffic -control devices.  It also provided guidelines  on operational 
+policies affecting road traffic movement s across, and activit ies on or adjacent to , railway level 
+crossings . 
+3.2.2.  The Manual comment ed that level crossing s were different from road intersections in that the 
+overall risk was skewed toward low -probability but high -consequence events (particularly on 
+passenger train routes).  In addition there were few level crossing accidents  in comparison  
+with road vehicle accidents , meaning that any prioritisation of level crossing s need ed a more 
+proactive approach.  
+3.2.3.  The Manual included a policy statement that appropriate signage should only be considered 
+where the distance between the level crossing and t he intersection was less than 30 m.  This 
+distance allow ed a 20 m long vehicle (25 m long with an individual permit) to stop at the 
+intersection and stay clear of the railway line.  The Manual said that a n escape lane or clear 
+zone should be provided w here the departure of a long vehicle from a level crossing was 
+blocked by a nearby intersection.  
+3.2.4.  The Manual stated that the road pavement should be sloped away (from  the level crossing) at 
+a minimum gradient of 1 in 50 for at least 5 m from the centreline of the railway line .  The 5 m 
+was the default boundary between the road and rail  corridor ( Railways Act 2005 ).  The 
+reasons for this w ere to ensure that surface water drained away from the level crossing and to 
+help avoid road traffic inadvertently rolling  on to a level crossing . 
+3.2.5.  The Manual further stated that fo r uphill , steep road approaches either side of a railway line, 
+the risks of long vehicles grounding on the railway lines should be assessed and , where 
+necessary, long vehicle restrictions applied.  
+  
+ 
+Report 11 -104 
+<< Page 8 >>
+ 3.2.6.  The Manual stated that where there were instances of short stacking , consideration should be 
+given to providing  the following treatments : 
+ auxiliary road space (slip lanes or shoulder widening) to allow a vehicle to escape or 
+wait clear of the railway line  or road traffic  
+ where an alternative route exists, partial closure (to vehicles over a defined length) or 
+complete closure  
+ channeli sation , realignment or relocation of the road  
+ realignment of the railway line  
+ active control of the level crossing and inter section . 
+3.2.7.  The Manual stated that w here queues of traffic block ed the level crossing, the third  and fifth 
+bullet points would be indicated.  If the intersection and level crossing had signals , the 
+intersection signals and railway circuits should be linked.  
+The bus  
+3.2.8.  The NZ Transport Agency's  Land Transport Rule: Vehicle Dimensions and Mass describe d the 
+legal requirements for the registration of heavy road vehicles, including buses, using New 
+Zealand roads.  The Rule came into force on 1 May 2002  and extended t he maximum length 
+of buses from 12.6 0 m to 13.5 0 m.  The change w as made to recognise "as of right " longer 
+buses that had previously been allowed to operate , by exemption , for several years.  
+3.2.9.  The Zonda bus involved in the collision had recently been imported from China in a built -up 
+condition and received its NZ Transport Agency road certification on 18 August 2011  in 
+Nelson .  The bus was 12.59 m long with a rear overhang of 3.92 m behind  the rear most  (stub) 
+axle.  The maximum rear overhang was 4.50 m.  The c learance between the underside of the 
+bus (taken behind the rear axle) and the ground was measured at 170 millimetres.  The legal 
+minimum ground clearance for a heavy vehicle was 100 millimetres .  The bus therefore met 
+all of the Rule requirements.  
+3.2.10.  The Zonda bus was fitted with a differential lock arrangement o n the driving axle.  The drive 
+axle suspension system allowed a 75 millimetres  downward movement of the axle before it 
+would lift off the road surface  and lose all traction . 
+3.3. KiwiRail Limited  
+3.3.1.  KiwiRail's current infrastructure code supplement document G 417 , dated January 1998 , 
+detailed its responsibilities for the provision, overview and maintenance of the 13 34 public  
+level crossings (as at May 2012) in New Zealand.  
+3.3.2.  The following table shows th e number of train/road vehicle collisions recorded at public level 
+crossings  between 2002 and 2011 .  KiwiRail use d this information to update and monitor its 
+level crossing priority list  for warning device system upgrades . 
+2002  2003  2004  2005  2006  2007  2008  2009  2010  2011  Total  
+30 31 33 36 16 23 20 31 22 13* 255 
+*up to 25 November 2011  only. 
+3.3.3.  There were 2 train/bus  collision s included in the total of 255.  KiwiRail ha d also recorded a 
+75% reduction between 2002 and 2011  in the number of level crossing s at which 2 or more 
+collisions ha d occurred  within one calendar year, down to 5 in 2011 . 
+ 
+Report 11 -104 
+<< Page 9 >>
+ 4. Analysis  
+4.1. Introduction  
+4.1.1.  The bus inv olved in this accident complied  with all aspects of the Land Transport Rule: Vehicle 
+Dimensions and Mass .  It was shorter than the max imum allowable length.  The rear overhang 
+and the ground clearance behind the rear axle were both  within the allowable limits.  
+4.1.2.  The design of the intersection did not allow bus drivers any appreciable variation in the path 
+they drove over the level crossing  and up to the stop sign  at the intersection with State 
+Highway 1.  The driver in this case  drove his bus over the level crossing , where it became 
+stuck  after  stopping  at the intersection . 
+4.1.3.  The train that struck the stationary bus was being driven at about the maximum allowable 
+speed as it approached the level crossing.  There was little the train driver could have done to 
+prevent the collision.   Even if the bus had not become stuck, there was not sufficient room for 
+it to wait at the stop sign and remain cl ear of the Loop line at the level crossing.  
+4.1.4.  The following analysis discusses how and why the bus became stuck with its back end fouling 
+the level crossing, what could have been done to prevent the collision once it became stuck, 
+and the interface between t he road and rail regulatory systems that contributed to the bus 
+becoming stuck.  Also discussed is the issue of stacking distance between level crossings and 
+road intersections.  
+4.2. The bus becomes stuck  
+4.2.1.  The most recent  major road upgrade works around the Beac h Road intersection had been  
+completed in 2001, about 10 years before this accident.  The layout of the intersection and 
+the profile of the road across the level crossing leading up to it had therefore not changed 
+appreciably in that time.  
+4.2.2.  There had not be en any recorded accidents at the level crossing in that 10 -year period , but the 
+potential was there for a long  and low road vehicle to become stuck on the crossing.  The bus 
+involved in this accident had scraped its underside on the level crossing the prev ious evening 
+and it is possible that other low buses had done so before.  A bus scraping its rear overhang 
+would not feature in road accident databases.  
+4.2.3.  The difference between negotiating the level crossing the previous evening and getting stuck 
+on this oc casion possibly came down to where the bus stopped  after rolling back slightly .  On 
+this occasion the bus stopped 2 m short of the stop markings on the edge of State Highway 1, 
+with its driving wheels suspended over the drain, the lowest point  in the road profile .  The bus 
+had possibly stopped closer to the stop line on the previous evening, its momentum carrying 
+the driving wheels through the dip formed by the drain.  
+4.2.4.  Being a new bus , the Zonda was possibly the first of its type and configurati on to pass over the 
+level crossing.  The bus met the current dimensions and mass rule, but that was  no guarantee 
+that it could  travel on all roads without becoming stuck.  There will be numerous roads or 
+locations where such a bus would  become stuck, as wo uld a lot of modern low -slung cars.  
+Such an event can be disruptive to other road users, but other road users have the ability to 
+stop, whereas trains do not.  That is why rail level crossing and adjacent road intersections 
+deserve special considerat ion b y the relevant road  authorit ies. 
+4.2.5.  Super -low-floor buses are designed more for scheduled urban routes  to facilitate the carriage 
+of mobility -impaired passengers , where the route s are  usually  fully assessed for suitability 
+before buses can operate on them .  Using such a bus on ad hoc routes  will carry some risk, 
+especially on those where rail level crossings are involved.  
+ 
+ 
+Report 11 -104 
+<< Page 10 >>
+ 4.2.6.  In this case the profile of the road coming off the level crossing was not well suited to long and 
+low road vehicles.  Had this been consid ered as recommended in the Traffic Control Devices 
+Manual , signage warning motorists should have been erected as a minimum.  Both Tranz  
+Metro, which  specified the use of super -low-floor buses on the route, and the bus operator 
+should have checked the route  before operating buses on it . 
+Finding s: 
+The bus became stuck because its drive wheels lost traction with the road when the 
+rear of the bus or its non -driving wheels were still on the rise of the level crossing.  
+The profile of the Beach Road level crossing and the adjacent section of road leading 
+up to the intersection with State Highway 1 were not well  suited for long and low road 
+vehicles.  
+The bus complied with all aspects of the Land Transport Rule: Vehicle Dimensions and 
+Mass.  
+4.3. Stackin g distances  
+4.3.1.  A short s tacking issue  is created when  a long road vehicle  is unable to clear a rail level 
+crossing while waiting for road traffic at the intersection.  It usually arises when a road 
+intersection  is close to a rail level crossing .  It is not a new issue.  The Commission  has raised 
+it in 2 rail reports, one  in 1996 and another in 2002  (report 96-106 dated 19 February 1 997 
+and report 02 -113 dated 2 October 2002) .  In 1996 and again in 2002 the Commission 
+recommended that the safety issue be resolved ( refer the historical recommendations in 
+section 8 of this report).  
+4.3.2.  The short stacking distance at the Beach Road level crossing did not necessarily contribute to 
+this accident.  If the bus had been able to pull forward to the stop markings on the  road, its 
+back end would have been clear of the Down main line and the collision would not have 
+occurred .  However, the bus would have been  unable to clear the Loop line even if it had 
+pulled right forward to the stop markings.  
+4.3.3.  The bus was only 12 .59 m long, whereas the maximum allowable length for a road vehicle is 
+20 m (25 m with a special permit).  A 20  m vehicle would not be able to clear the Down main 
+line when waiting  at the stop markings on the road.  Technically no vehicle over about 10 m 
+could leg ally use the Beach Road intersection when turning right to State Highway 1.  To do so 
+would mean that either it could not stop at the stop sign or , if stopped, it would encroach on 
+the rail corridor.  This is a safety issu e that the Commission has recommended  that the Chief 
+Executive of the NZ Transport Agency address (Recommendation 030/11).  
+  
+ 
+Report 11 -104 
+<< Page 11 >>
+ 4.3.4.  An example of a short stacking distance  issue was witnessed by Commission investigators  in 
+South Auckland a few weeks after the collision at Paekakariki .  In this instance the vehicle was 
+stopped over a level crossing for some minutes while waiting to turn on  to an adjacent 
+provincial highway  (see Figure 4) .  The rear trailer wheels were standing over a main line along  
+which frequently timetabled Auckland metr o passenger trains were authorised to travel  
+ at 100 km/h.  
+ 
+Figure 4  
+Photograph of a truck stopped over a level crossing in South Auckland  
+4.3.5.  KiwiRail records  show  there are another 25 1 level crossings where there is an insufficient  
+stacking distance to accommodate long road vehicles .  This represent s about 19% of all 
+recorded level crossings.   The level crossing shown in Figure 4 was one of those listed.   The 
+overall risk for each of the level crossings would depend on a number of f actors , such as:  
+ the number of road vehicles using the level crossing  
+ the number of trains using the level crossing  
+ train speeds at the level crossing  
+ the length of road vehicle using the road and level crossing  
+ existing vehicle length restrictions  
+ traffic  volumes on adjacent roads  
+ slip lanes, road shoulders  and emergency escape zones that allow road vehicles to get 
+out of the way.  
+4.3.6.  Generally, the longer a  road vehicle , the heavier it is.  A train colliding with a heavy vehicle is a 
+serious safety issue.  No t only are the occupants of the road vehicle at risk, so too is the  train 
+crew because the potential for damag ing or derail ing a train is higher.  The Commission  has 
+issue d an urgent recommendation  to the Chief Executive of the NZ Transport Agency to 
+addre ss the stacking distance issues at the se other  identified level crossings  
+(Recommendation 031/11) . 
+Finding s: 
+The Beach Road/ State Highway 1 intersection did not have a sufficient stacking 
+distance to accommodate this bus, and any other road vehicle over ab out 10 m in 
+length, without those vehicles encroaching on the rail corridor at the Beach Road level 
+crossing.  
+Any road vehicle over about 10 m in length could not  safely  use the Beach Road/ State 
+Highway 1 intersection when turning right to State Highway 1 from Beach Road.  
+About 19% of all rail level crossings have insufficient stacking distance s available for 
+long road vehicles using adjacent road intersections.  
+
+ 
+Report 11 -104 
+<< Page 12 >>
+ 4.4. Preventing the collision  
+4.4.1.  The bus driver could have contacted the train controller if he had been aware of the freephone  
+emergency number .  KiwiRail had erected  a small placard on a signal ling equipment shelter 
+near the level crossing that included the phone number , but it was intended for rail 
+employees.  It would not have been  immediately obvious to a road vehicle driver or a member  
+of the public.  
+4.4.2.  If the bus driver had known of the number and called train control , the train controller  could 
+have called  the train driver to s top his train , or he could have changed  the signal s at 
+Paekakariki to red until it was reported that the bus had been moved away fr om the crossing.  
+4.4.3.  Even though on this occasion the bus driver erroneously assumed that no trains were running, 
+he could  have cont acted train control if  the telephone number  had been imm ediately to hand .  
+Someone else  not under that assumption  might also have made the call ; the off -duty track  
+worker , for example.  
+4.4.4.  Following the incident Tranzit Coachlines updated the emergency plans carried on all of its  
+buses to include the train control emergency number.  The company also arranged for an 
+article detailing the lessons it had learnt to be included in an  industry magazine .  The article 
+encouraged other bus operators to update their emergency plans  also.  The Commission has 
+made a recommendation to the Chief Executive of the NZ Transport Agency to extend the 
+lesson s learned to other operators of large road vehicles.  
+Finding:  
+The collision could have been prevented if the bus driver had known  how to contact 
+train control , and had immediately done so . 
+ 
+4.5. The road and rail regulatory interface  
+4.5.1.  The rail regulation unit within the NZ Transport Agency was small in comparison with the road 
+regulatory unit.  From discussions with the 2 units it was apparent that an improving level of 
+consultation has taken place over the last 10 years between the 2 regulatory modal units 
+regarding changes in their respective legislation.   Discussions regard ing all aspects of the 
+road/rail interface at level crossing s are now occurring during the formal Level Crossing 
+Working Groups  meetings.  
+4.5.2.  The rail industry uses a co -regulatory approach, with the main rail participants developing the 
+industry st andards  and systems they intend to adopt .  The rail regulatory unit approves, 
+monitors and provides  oversight  of those standards .  On the other hand, road transport is 
+singularly regulated  by the NZ Transport Agency . 
+4.5.3.  If communication between the NZ Transport Agen cy regulatory units and the rail industry is not 
+good , the potential exists for the respective standards to become incompatible.  An example of 
+how this could happen is in the relationship between road vehicle length, stacking distance 
+and level crossing p rofiles.   There are standards and guidelines for profile s of level crossings 
+in relation to long and low road vehicles  
+4.5.4.  .The maximum length of road vehicles has increased over the years.  This increase has been 
+by "creep " to meet the  needs of the road transport industry.  The 20 02 amendment to the  
+Land Transport Rule: Vehicle Dimensions and Mass  rule was an example of this : the 
+permissible length  of a bus was increased to reco gnise longer buses that had  already  been 
+operating under ex emption for several years.  
+4.5.5.  Changes to the permissible length s and road clearance s for buses have had  2 consequences, 
+of which both were relevant to this accident.  The first is that level crossing profiles that were 
+ 
+Report 11 -104 
+<< Page 13 >>
+ once  suitable for current road vehicles might not be now.  Secondly, the number of level 
+crossings that ha ve issues with stacking distance s has likely increased.  
+4.5.6.  The importance of level crossings being compatible with vehicle and road standards cannot be 
+under stated.  The rail corridor has been created to give trains the absolute right of way, 
+because trains cannot stop quickly , and  not as quickly as road vehicles.  
+4.5.7.  Any policy or  legislation that could affect the safety of trains or vehicles that must cross the rail 
+corridor should only be made following formal consultation with the relevant entities.   
+However, st andards and guidelines for traffic control devices at level crossings (first issued in 
+2008) that include the movement of long and low road vehicles  now exists in the NZ Transport 
+Agency's documentation management system . 
+Finding s: 
+Level crossings warrant special consideration when setting road vehicle standards , 
+because trains have the right of way along the rail corridor and cannot stop for road 
+vehicles in their path.  
+Changes in the Land Transport Rule: Vehicle Dimensions and Mass  have been made 
+with little formal consideration for the compatibility of long and low road vehicles with 
+existing rail level crossings  throughout New Zealand.  
+ 
+Report 11 -104 
+<< Page 14 >>
+ 5. Findings  
+5.1. The bus became stuck because its drive wheels lost traction with the road when the rear of 
+the bus or its non -driving  wheels were still  on the rise of the level crossing.  
+5.2. The profile of the Beach Road level crossing and the adjacent section of road leading up to the 
+intersection with State Highway 1 were not well  suited for long and low road vehicles.  
+5.3. The bus complied with all aspects of the  Land Transport Rule: Vehicle Dimensions and Mass . 
+5.4. The Beach Road/ State Highway 1 intersection did not have a sufficient stacking distance to 
+accommodate this bus, and any other road vehicle over about 10 m in length, without those 
+vehicles encroaching on the rail corridor at the Beach Road level crossing.  
+5.5. Any road vehicle over about 10 m in length could not safely use the Beach Road/ State 
+Highway 1 intersection when turning right to State Highway 1 from Beach Road.  
+5.6. About 19% of all rail level crossings have insufficient available stacking distance s available for 
+long road vehicles using adjacent road intersections.  
+5.7. The collision could have been prevented if the bus driver had known  how to contact train 
+control , and h ad immediately done so . 
+5.8. Level crossings warrant special consideration when setting road vehicle standards , because 
+trains have the right of way along the rail corridor and cannot stop for road vehicles in their 
+path.  
+5.9. Changes in the Land Transport Rule: Veh icle Dimensions and Mass  have been made with little 
+formal consideration for the compatibility of long and low road vehicles with existing rail level 
+crossings throughout New Zealand.  
+  
+ 
+Report 11 -104 
+<< Page 15 >>
+ 6. Key lessons  
+6.1. Changes to rules and standards for road transport can comp romise safety at rail level 
+crossings.  Groups responsible for setting standards for road vehicles and rail level crossings 
+should therefore consider the consequences for other users before making those changes.  
+6.2. Drivers of long road vehicles need to know if there is  not enough room for their vehicle s 
+between a road intersection and a rail level crossing.  
+ 
+ 
+Report 11 -104 
+<< Page 16 >>
+ 7. Safety a ctions  
+General  
+7.1. The Commission classifies  safety actions  by 2 types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+The following s afety actions are not listed in any order of priority . 
+Safety a ctions  addressing safety issues identified during an inquiry  
+7.2. On 8 December 20 11 Tranzit C oachlines advised the Commission that the following article (in 
+part) was included in the December 2011 issue of the Circular, a monthly industry magazine 
+published and circulated by the Bus and Coach Association New Zealand Incorporated  to its 
+members . 
+Tranzit Coachlines has begun an internal investigation and an initial outcome of the 
+investigation has been to ensure the rail emergency 0800 number is included in 
+their vehicle emergency plan.  Tranzit is encouraging other bus operators to include 
+this co ntact number in their emergency contacts list.  The 0800 number connects 
+with KiwiRail's national train control centre.  
+KiwiRail Emergency Contact : 0800 808 400  
+  
+ 
+Report 11 -104 
+<< Page 17 >>
+ 8. Recommendations  
+8.1. General  
+8.1.1.  The Commission may issue or give notice of recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case, 3 recommendations were  issued under urgency to the Chief Executive of 
+the NZ Transport Agency  on 1 6 December 2011 . 
+8.1.2.  In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurr ing in the 
+future.  
+8.2. Historical recommendations made regarding stacking distance s between rail level crossings 
+and road intersections  
+8.2.1.  On 19 December 1996 the Commission recommended to the Director, Land Transport Safety 
+Authority, that he  liaise with Transit  New Zealand, Tranz Rail and the appropriate local 
+authorities to initiate a review to define all public level crossings where the stacking distance 
+for long road vehicles was insufficient to ensure safe entry to or exit from the crossing s, and to 
+ensure t hat appropriate action was taken, consistent with the frequency of use and the 
+potential consequences of collision.  
+8.2.2.  The Director, Land Transport Safety Authority, responded inter alia  that:  
+The Land Transport Safety Authority (LTSA) acknowledges the TAIC r ecommendation 
+regarding the safety of railway level crossings for long vehicles and will liaise with 
+Transit New Zealand, Tranz Rail Ltd and other road controlling authorities 
+appropriately. The LTSA will request road controlling authorities to identify al l level 
+crossings within their districts where stacking distances for long road vehicles are 
+insufficient to ensure safe entry or exit from the crossings, and develop and 
+implement appropriate road or rail strategies to minimise risk of collision.  
+For the information of the Commission, the LTSA has received a copy of a Ministry of 
+Transport document entitled "Road Management, Options for Reform", submissions 
+on which close on 31 July 1997.  The LTSA plans to address the issue of 
+responsibilities and account abilities for road safety actions in our submission on the 
+paper to the Ministry of Transport.  
+8.2.3.  On 10 June 2002  the Commission repeated the 1996 recommend ation.  
+8.2.4.  On 27 June 2002 the Director, Land Transport Safety Authority responded to the repeated 
+recommen dation in part as follows:  
+Since the recommendation was first made in 1996 there has been some progress 
+on this aspect of rail safety.  During the intervening years [period ] the Land 
+Transport Safety Authority, Transit New Zealand, and Tranz Rail Ltd and a ppropriate 
+local authorities have concentrated on improving the general standard of sign 
+posting required at all level crossings believing this to be the most appropriate area 
+for attention.  The programme has now been substantially completed.  
+There are cu rrently a range of signs used to warn drivers of limited stacking length 
+between the rail and a nearby intersection.  However, these provide only general 
+warning and do not specify actual stacking lengths.  Transit and Land Transport 
+Safety Authority have been considering methods of effectively providing such 
+specific information but have yet to arrive at a satisfactory solution.  It is recognised 
+that warning signs are only one avenue for addressing concerns in this area but 
+most others involve disruption to access or major costs.  
+The Land Transport Safety Authority is to convene a special working group, to be 
+entitled the Rail -Road Level Crossing Safety Forum, and its first meeting is planned 
+before the end of August 2002.  The Forum is to be made up of re presentatives of 
+rail service operators, Transit and other interested parties including the Road 
+Transport Forum.  
+ 
+Report 11 -104 
+<< Page 18 >>
+ The Forum will be tasked with investigating, recommending or proposing projects or 
+practices to improve safety at rail -road level crossings.  It will assist the Land 
+Transport Safety Authority and the constituent members in defining, prioritising and 
+implementing projects and programmes.  
+8.2.5.  On 2 September 2002 the Manager, Rail Safety, Land Transport Safety Authority, wrote in part 
+as follows:  
+With  references to your recommendation 036/02 to the Land Transport Safety 
+Authority regarding a review of road stacking distances at level crossing s and our 
+subsequent response; I now can advise that the inaugural meeting of the Land 
+Transport Safety Authorit y Level Crossing Forum was held on 22 August  [2002] .  All 
+those attending the Forum considered it very useful, with a variety of issues, 
+including stacking distances being discussed.  
+At this stage the Forum considers there is a need to quantify the scale of the issue 
+of road stacking distances, so that site -specific options for solutions or mitigation 
+can be identified.  
+8.2.6.  On 20 August 2012 the NZ Transport Agency supplied copies of the T erms of Reference and 
+minutes of most of the annual meetings of the Leve l Crossing Wor king Grou p Forum recorded 
+between 200 2 and 2012.  It was advised that since the 2008 merger  of the Land Transport 
+Safety Authority (initial rail regulatory body) and Tran sit New Zealand (road transport funding 
+agency), the opportunity for communication issues  to arise between the rail and road  
+regulatory di visions has somewhat diminished.  
+8.3. Urgent recommendations made during this inquiry  
+Compatibility of super -low-floor buses with Beach Road level crossing profile  
+8.3.1.  The profile (specifically th e rate  of change in gradient) of the Beach Road level crossing at  
+Paekakariki on the State Highway 1 side has been formed in such a way that those super -low-
+floor buses like the one involved in th e Beach Road level crossing accident (or of similar 
+design) are at risk of becoming stuck with their back end s foul of the railway tracks when they 
+stop, as they are required to, at the stop sign before turning right to State Highway 1.  In other 
+words th e same or a similar accident could happen again.  
+The Commission recommends to the Chief Executive of the NZ Transport Agency that as a 
+matter of urgency he address this safety issue (Recommendation 029/11).  
+On 2 February 2012 the Chief Executive of the NZ Transport Agency responded:  
+Following this collis ion incident, staff from the NZ Transport Agency, MWH 
+(infrastructure consultants), KiwiRail and Kapiti Coast District Council met and 
+implemented the following actions:  
+The NZ Transport Agency has erected a surveillance camera on -site and is currently 
+monitoring the usage of this crossing by heavy vehicles, driver behaviour and the 
+number of incidents caused by road profiling and/or stacking distances;  
+The design and profiling of the level crossing have been assessed.  As a result, 
+remedial work covering re-profiling the intersection and redesign of the splitter 
+island to create room for a large vehicle to make a left turn in the situation when a 
+right turn is not possible is underway.  Works are expected to be completed by 16 
+May 2012 as part of a program med carriageway rehabilitation scheme.  
+Aspects of the bus design have also been considered.  
+The Land Transport Rule: Vehicle Dimensions and Mass (the Rule) in table 4.1 
+specifically sets ground clearance requirements for all heavy vehicles based on a 
+desig n to adequately clear level rail crossings and similar.  The required clearance is 
+the greater of 100 millimetres or 6% of the distance from the nearest axle to the 
+point where the ground clearance is measured.  The actual ground clearance of the 
+bus does comply.  It is noted that the bus has a manual override to lower the bus to 
+facilitate ease of boarding by lowering passenger floor height.  This feature is 
+permitted under Rule when the vehicle is loading or unloading.  
+ 
+Report 11 -104 
+<< Page 19 >>
+ The NZ Transport Agency has also not ed that a circular produced by the Bus and 
+Coach Association has been distributed following this collision.  It highlights this 
+incident and particularly the Train Control emergency contact number.  We are also 
+aware that the Train Control emergency number  has been added to the list of 
+emergency contact numbers in all buses operated by the company involved in the 
+collision.  
+Waiting (stacking) distance between Beach Road level crossing and State Highway 1 
+8.3.2.  The distance between the compulsory stop line and the  rail corridor at the Beach Road level 
+crossing at Paekakariki is 10.5 m.  The bus involved in this accident was 12.6 m long.  Many 
+other buses and various configurations of trucks are longer than 10.5 m.  This means that 
+when one of these long vehicles st ops at the stop sign (as it is required to do) the back of the 
+vehicle will foul the rail corridor and be at risk of being struck by a train.  Technically  then , any 
+such vehicles intending to turn right to State Highway 1 cannot comply with the road rules  
+when using this level crossing .  Any long vehicle would be at risk of being struck by a train 
+when waiting at the stop sign for a break in the traffic travelling on State Highway 1.  
+Additionally, there is no signage at the level crossing warning drivers of long vehicles that 
+there is only a 10.5 m stacking distance.  
+The Commission recommends to the Chief Executive of the NZ Transport Agency that  as a 
+matter of urgency  he address this safety issue (Recommendation 030/11).  
+8.3.3.  On 2 February 2012 the Chief Execu tive of the NZ Transport Agency responded:  
+The stacking distance issue applying to right turning traffic exiting/entering Beach 
+Road from State Highway One  [one] is acknowledged.  However a solution to this is 
+problematic.  
+Restriction of turning movements out of Beach Road is not favoured by the Kapiti 
+Coast District Council.  However, the prohibition of right turns out of Hill Road would 
+simplify movements at the intersection and might aid right turns out of Beach Road.  
+This option will be investigated fu rther.  
+Installation of traffic signals is a high cost option requiring land acquisition.  
+Although this is favoured by the Kapiti Road District Council, it has the potential to 
+impose significant delays on the State Highway resulting in queuing and the 
+potential to increase the collision risk.  The current crash record at the intersection 
+is low and it is likely that this option would increase it.  
+Further to the above, the NZ Transport Agency has been advised by the Greater 
+Wellington Regional Council  that it [the Council] is considering the mandating of 
+shorter buses at the Beach Road level crossing.  
+Stacking distances at other public level crossings  
+8.3.4.  KiwiRail is aware of 264 other public level crossings in New Zealand that have the same or 
+similar issues wi th stacking distances for long road vehicles as that encountered at the Beach 
+Road level crossing at Paekakariki.  
+The Commission recommends to the Chief Executive of the N Z Transport Agency that as a 
+matter of urgency he address this safety issue . (Recommendation 031/11)  
+8.3.5.  On 2 February 2012 the Chief Executive of  the NZ Transport Agency responded:  
+KiwiRail has provided information that there are now 252 level crossings with less 
+than 23 metres distance between the centreline of the nearest railway li ne and the 
+continuity/edge li ne at an adjacent intersection where road traffic from the railway 
+does not have right of way.  I have attached a register for your information.  The 
+register of crossings has been coded according to collision history in the la st ten 
+years.  There are nine crossings that had two or more collisions.  Of these five had 
+alarm upgrades during this period and there have been no further collisions.  
+Further analysis by KiwiRail  indicates that average collision rates (adjusted for the 
+level of both road and rail traffic) at crossings where there are adjacent intersections 
+within 23 metres are only 6% higher tha n collision rates at crossings with no nearby 
+intersection.  This sugg ests that it is where there is a high level of traffic on the 
+parallel road that risk of collision significantly increases.  This matter is subject to 
+ 
+Report 11 -104 
+<< Page 20 >>
+ further discussion between KiwiRail and NZ Transport Agency to determine further 
+options.  
+The NZ Transpor t Agency takes this situation seriously and will continue to discuss 
+these situations with external parties to explore new solutions for the improvement 
+of rail and road safety.  
+8.3.6.  On 28 February 2012 the NZ Transport Agency responded:  
+Significant work and co nsultation has been undertaken since this incident occurred 
+in October 2011, and has continued following receipt of your [TAIC] letter.  Meetings 
+have been conducted between representatives from the NZ Transport Agency, the 
+Kapiti Coast District Council an d KiwiRail.  
+8.4. Further recommendation  
+8.4.1.  Operators and drivers of large road vehicles should have quick access to the emergency 
+telephone number of the National Train Control Centre for alerting the train controller if there 
+is any issue with their vehicles that could compromise the rail corridor.  
+The Commission recommends that the Chief Executive of the NZ Transport Agency advise 
+other operators of large road veh icles that their drivers should carry the train control 
+emergency telephone number so that they can alert the train controller in any similar 
+situation . (Recommendation 026/12)  
+8.4.2.  On 8 August 2012, the Chief Executive  of the NZ Transport Agency responded.  
+This recommendation is accepted.  We intend to notify large road vehicle operators 
+of the emergency contact number of the National Train Control Centre.  The NZ  
+Transport Agency  aims to implement this recommendation as soon as practicable.  
+When this notification is completed, we will submit appropriate  evidence with a view 
+to closing out this safety recommendation.  
+  
+ 
+Report 11 -104 
+<< Page 21 >>
+ 9. Citations  
+Western Corridor Transport Study, Cost and Programme Review Update ; Transmission Gully Motorway 
+and Coastal Route , compiled for Transit New Zealand and the Greater Wellington Regional Council , 
+dated August 2005.  
+A Transit New Zealand -sponsored report regarding the State Highway 1 intersection with Beach Road  at 
+Paekakariki , dated Jun e 2007 . 
+NZ Transport Agency  Rule , Vehicle Dimensions and Mass : Guide to the factsheet series (Factsheet 13) , 
+published April 2011.  
+NZ Transport Agency , Traffic Control Devices Man ual, Part 9 Level crossings , dated December 2008 and 
+draft update dated July 2011.  
+Commission report 96 -106, Passenger Train 903, Southerner  and truck and trailer unit, collision,  
+Kirk Road level crossing near Christchurch, 17 May 1996.  
+Commission report 02 -113, Passenger Train 700 , TranzCoastal  and petrol tanker, near collision, 
+Vickerman Street level crossing near Blenheim, 25 April 2002.  
+KiwiRail Infrastructure Code Supplement (G 417) Company Procedure (Q517) , dated December 1997.  
+ 
+  
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Recent railway occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+10-102 Collision between 2 metro passenger trains, after one struck a landslide and derailed 
+between Plimmerton and Pukerua Bay, North Island Main Trunk, 30 September 2010    
+07-102 (incorporating inquiry 07 -111) freight train mainline derailments, various locations on 
+the national network, from 6 March 2007 to 1 October 2009  
+11-101 Wrong line running irregularity, leading to a potential head -on collision, Papakura - 
+Wiri, 14 January 2011  
+08-102 Metro passenger train derailment, Sylvia Park, 14 April 2008 (incorpor ating inquiries 
+08-104 and 08 -107) Diesel motor fires on board metro passenger trains, 3 June 
+2008 and 25 July 2008  
+08-111 Express freight Train 524, derailment, near Puketutu, North Island Main Trunk, 3 
+October 2008  
+08-112 Safe working irregularity resu lting in a collision and derailment at Cass Station  
+on the Midland line, 8 November 2008  
+09-102 Passenger fatality after falling between platform and passenger Train 8125, 
+Newmarket West station, 1 July 2009  
+08-109 Passenger express  Train 9113, platform overrun resulting in signal passed at danger , 
+Fruitvale Road Station, North Auckland Line, 4 September 2008  
+07-114 Derailment caused by a whee l-bearing failure, Huntly, 19 October 2007, and 11 
+subsequent wheel -bearing failures at various locations during the following 12 month 
+period  
+ 
+09-103 Passenger Train 1608, collision with slip and derailment, Tunnel 1,  
+Wairarapa Line, Maymorn, 23 July 20 09 (incorporating investigation 08 -106,  
+collision with slip and derailment on the Johnsonville Line)  
+ 
+09-101 (Incorporating 08 -105): express freight train derailments owing to the failure of  
+bogie side frame s, various locations on the North Island Main Trunk ,  
+between 21 June 2008 and 7 May 2009  
+ 
+07-105 Push/pull passenger train sets overrunning platforms, various stations within the 
+Auckland subu rban rail network, between 9 June 2006 and 10 April 2007  
+08-110 Train control operating irregularity, leading to potential low -speed, head -on collision, 
+Amokura, 23 September 2008  
+08-101 Express freight train 923, level crossing collision and resultant d erailment, Orari, 14 
+March 2008  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 28.00          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

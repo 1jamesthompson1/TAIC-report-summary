@@ -1,0 +1,1370 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Inquiry AO -2013 -005: In-flight loss of control , Robinson R22,  
+ZK-HIE, near New Plymouth , 30 March 2013   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in  the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part witho ut charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Final Report 
+Aviation inquiry AO-2013-005 
+In-flight loss of control  
+Robinson R22, ZK -HIE 
+near New Plymouth  
+30 March 2013  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for circulation : May 2015       
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a  standing Commission of inquiry  and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquiri es is to determine the circumstances and 
+causes of the occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector  and the public , both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents .   
+ 
+Commissioners  
+Chief Commissioner     Helen Cull , QC  
+Commissioner      Jane Meares  
+ 
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Peter R Williams  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.t aic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+ 
+Important n otes 
+ 
+Nature  of the f inal report  
+This final report has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible  as evidence in any proceedings with the exception of a Coroner's  
+inquest.  
+ 
+Ownership of report  
+This report remains the intellectual  property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to industry participants o nly and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that  are public ly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise s pecified, photographs, diagrams and pictures included in this final report  are 
+provided by, and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+Robinson R22, ZK -HIE 
+(Photograph provided by Ice Aviation)
+
+ 
+ 
+ 
+Location of the accident  
+  
+Legend  
+ New Plymouth  
+ 
+ 
+ 
+  
+  
+ 
+ 
+Source: mapsof.net  
+
+Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ .............................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ .... 3 
+3.2. Damage to aircraft  ................................ ................................ ................................ ....................  5 
+3.3. Personnel information  ................................ ................................ ................................ ..............  7 
+3.4. Aircraft information  ................................ ................................ ................................ ...................  7 
+3.5. Special training for Robinson helicopter pilots  ................................ ................................ ....... 9 
+3.6. Helicopter instructors' forum ................................ ................................ ................................ . 10 
+3.7. Previous inquiry  ................................ ................................ ................................ ......................  11 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  13 
+4.1. Introduction  ................................ ................................ ................................ ............................  13 
+4.2. The cause of the un -commanded roll  ................................ ................................ ...................  13 
+4.3. Conducting the special training  ................................ ................................ .............................  15 
+4.4. Flight manual (clarity of critical information)  ................................ ................................ ........  16 
+5. Findings  ................................ ................................ ................................ ................................ ..................  18 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  19 
+General   ................................ ................................ ................................ ................................ ................  19 
+7. Recommendations  ................................ ................................ ................................ ................................ . 20 
+General   ................................ ................................ ................................ ................................ ................  20 
+Recommendations  ................................ ................................ ................................ ................................ . 20 
+8. Key lesson  ................................ ................................ ................................ ................................ ..............  21 
+9. Citations  ................................ ................................ ................................ ................................ ..................  22 
+Appendix 1:  Participants in forum held 9 May 2013  ................................ ................................ ...............  23 
+Appendix 2:  Earlier safety reviews and actions concerning the R22  ................................ ......................  24 
+Appendix 3:   Robinson Safety Notice S N-11 ................................ ................................ ..............................  26 
+ 
+ 
+Final report AO -2013 -005 | Page i Figures  
+Figure 1  Blade spindle, showing evidence of mast contact ................................ ................................ .... 5 
+Figure 2  Crushed and split teeter stop  ................................ ................................ ................................ ..... 6 
+Figure 3  R22 main rotor head components (Image used with permission of Burkhard Domke)  ........  7 
+Figure 4  Typical R22 dual flight controls ................................ ................................ ................................ .. 8 
+Figure 5  Forces acting on a helicopter fuselage ................................ ................................ ......................  9 
+ 
+ 
+ 
+ 
+  
+Page ii | Final report AO -2013 -005 Abbreviations  
+CAA  Civil Aviation Authority  of New Zealand  
+Commission  Transport Accident  Investigation Commission  
+FAA  Federal Aviation Administration  (United States)  
+G  the acceleration (9.8 metres per second per second) due to the force of gravity    
+NTSB   National Transportation Safety Board  (United States)  
+RPM   revolutions per minute  
+SFAR   Special Federal Aviation Regulation (United States)  
+UTC  co-ordinated universal time  
+ 
+Glossary  
+attitude  the orientation of an aircraft, usually with respect to Earth  as the  frame of reference.  
+Examples: inverted, rolled to the left, diving  
+collective lev er one of two main rotor controls.  This  control change s the main rotor blade pitch angles 
+collectively, which  caus es the helicopter to climb or descend  
+cyclic stick  one of two  main rotor control s.  The cyclic stick  causes the rotor blade pitch angles to 
+change at the same point during their rotation cycle , which  causes the rotor disc to tilt 
+in the same direction that the pilot has put the stick .  The helicopter then move s in that 
+direction.  This can be sideways , forwards or backw ards (aft) or any direction  
+flap forward  a normal response of the main rotor disc to an airspeed or power decrease , which  
+causes the rotor disc to pitch down  
+flapping  the vertical movement of the rotor blade about an axis at right angles to  the blade span  
+low-G or reduced G ; an acceleration less th an that due to the force of gravity .  The force on an 
+object equals the product of the mass of the object and the acceleration being 
+experienced .  For a given  mass, the force  is often expressed as a multiple of, or 
+compared with, the value of G   
+mast bump  a mast bump (on the R22) occurs when the inboard end of a main rotor blade spindle 
+  strikes the main  rotor drive shaft (sometimes called the mast)  
+moment  the turning or lever effect of a force acting about a point  
+rotor disc  the area swept by the rotor blades each revolution  
+teeter  the see -saw movement of a two-bladed, centrally mounted rotor hub  
+  
+ 
+Final report AO -2013 -005 | Page iii Data summary  
+Aircraft  particulars  
+Aircraft registration : ZK-HIE 
+Type and serial number:  Robinson Helicopter Company R22 Beta II , 3724  
+Number and type of engines:  one Textron  Lycoming O -360-J2A, reciprocating  
+Year of manufacture:  2004  
+Operator:  Ice Aviation Limited  
+Type of flight:  pilot training  
+Persons on board:  two 
+Pilot's licence:  airline transport pilot licence (helicopter)  
+Pilot's age:  50 
+Pilot's flying experience:  7141 hours total, including 462 hours on type  
+Date and time  
+ 30 March 2013, 13001 
+Location  
+ near New Plymouth  
+latitude:  39° 02´ south  
+longitude:  174° 12´ east 
+Injuries  
+ nil 
+Damage  
+ moderate  
+                                                        
+1 Times in this report are in New Zealand Daylight Time (UTC+13 hours) and expressed in  the 24-hour format.  
+
+ 
+Final report AO -2013 -005 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. This accident occurred during a dual training flight to re vise handling procedures prior to the 
+student pilot being tested for the initial issue of a private pilot licence.   One of the exercises to 
+be revised was the recommended recovery procedure in the e vent of an un -commanded right 
+roll, as might occur when subjected to a n acceleration (or force)  less than th at due to gravi ty 
+(G).  The instructor had no intention of deliberately caus ing a low-G condition.  
+1.2. The instructor first demonstrated an unrelated he licopter flight characteristic, main rotor flap -
+forward  that is a normal reponse to  a speed reduction , during the climb .  He had just 
+completed that demonstration and was about to commence the roll -recovery exercise when 
+the helicopter suddenly rolled to the right and pitched down.  In spite of being confronted with 
+an un -commanded right roll , the instructor did not follow the recovery procedure  he had been 
+about to discuss .  However , he did re gain c ontrol of the helicopter and was able to land safely.  
+The occurrence  caused a mast bump and damage that required the replacement of many of 
+the main rotor system components.  
+1.3. A mast bump event in a Robinson  Helicopter Company (Robinson)  helicopter usually  has a 
+fatal outcome.  The Transport Accident Investigation Commission  (Commission ) has inquired 
+into other  mast -bump and loss -of-main -rotor -control accidents in Robinson helicopters and 
+was concerned that the incidence of such accidents had not decreased.   Therefore, this safe 
+recovery was an opportunity to understand the circumstances  and determine the causes  of 
+the temporary loss of control .  The intended exercise was part of mandated safety awareness 
+training, but when the helicopter did commence an un -commanded right roll,  the instructor did 
+not follow the procedure recommended in that training . Therefore the inquiry also considered 
+the content and delivery of the mandated training.  
+1.4. The Commission made the following findings : 
+ no environmental condition or helicopter defect caused the un -commanded roll  
+ it was probable that the un -commanded roll was caused by an inadvertent reduction in 
+G during the transition from the flap -forward demonstration to the next exercise, while 
+the engine power was at a relativ ely high setting  
+ the section of the United States Special Federal Aviation Regulation No. 73 , which  
+requires Robinson helicopter pilots to have dual flight instruction  in the effects  of low -G 
+manoeuvring , appears to contradict  the R22 helicopter  flight man ual, which prohibits 
+the demonstration of low -G conditions  
+ the importance of some critical safety information in Robinson flight manuals was likely 
+to have been diminished by Robinson's use of "Caution ", rather than "Warning ", for 
+operating conditions and practices that involve a risk of personal injury or loss of life . 
+1.5. The Commission is making  the following recommendation s to the Administrator, Federal 
+Aviation Administration  (FAA)  of the United States, which certificates Robinson helicopters : 
+ that he amen d section 2(b) of Special Federal A viation  Regulation  No. 73 - Robinson R -
+22/R -44 Special Training and Experience Requirements to make it clear that dual 
+instruction in the "effects of low G maneuvers " is limited to discussion only, and to 
+reiterate that deliberate  in-flight reduced G condition s are  prohibited ; 
+ that he require Robinson Helicopter Company to amend its flight manuals to include the 
+use of "Warning " for those operating conditions and practices that involve a risk of 
+personal injury or loss of life 
+1.6. The key lesson  learnt from the inquiry into this occurrence w as: 
+Pilots, particularly flight instructors, must be alert to conditions that could result in an 
+inadvertent breach of a flight manual prohibition of low G.  
+  
+
+<< Page 2 >>
+ Final report AO -2013 -005 2. Conduct of the inquiry  
+2.1. The accident happened on 30 March 2013.  The pilot instructor (the instructor) involved in 
+this occurrence informed the Commission of the circumstances on 3 April 2013 , prior to 
+notif ying the Civil Aviation Authority (CAA) .  The Commission opened a n inquir y the next day .  
+The damage to ZK -HIE meant  that the occurrence met one of the criteria for  an accident  
+(section 2 of the Civil Aviation Act 1990 ).2 
+2.2. The instructor  owned  the helicopter .  He and his contracted  maintenance engineer inspected 
+the helicopter soon after the occurrence . The main rotor was removed in prep aration for  
+commenc ing repairs .  This was  the condition of the helicopter when the Commission 's 
+investigators inspected it at New Plymouth aerodrome on 8 April 2013.  
+2.3. The student pilot (the studen t) was interviewed at New Plymouth on 8 April 2013.  The 
+instructor  was overseas on business at the time.  He  was interviewed by telephone on 24 April 
+2013.  Other correspondence with the instructor complemented the interviews.  
+2.4. On 9 May 2013 Commission investigators  hosted a forum to further their  understanding  of 
+issues relat ing to the performance and handling of Robinson helicopters , and the mandated 
+special training and experience requirements for Robinson pilots  and how that training was 
+delivered .  The forum  participants included five  experienced New Zealand helicopter 
+instructors, three CAA officials and five Commission staff .3  Robinson was not asked to 
+participate.   The instructor provided details of the accident to the forum.  
+2.5. On 6 August 2014 the National Transportation Sa fety Board (NTSB) of the United States, the 
+country that manufactured the helicopter, appointed an accredited representative  in 
+accordance with Annex 13 to the Convention on International Civil Aviation.  
+2.6. On 29 October 2014  the Commission approved th e draft report for circulation to interested 
+persons  for their comment . 
+2.7. Submissions were received from the instructor, Robinson, the CAA, and four of the other 
+helicopter instructors who attended the forum held on 9 May 2013.   The  submissions w ere 
+considered by the Commiss ion and the report revised where appropriate.  
+2.8. On 25 February 2015, after considering the revised report, the Commission requested a 
+section to be added dealing with the clarity of critical safety information in Robin son flight 
+manuals .  On 26 February 2015, the Commission approved the new draft report for circulation 
+to interested persons for their comment.  
+2.9. Further submissions were received from the CAA and the NTSB  only.  The NTSB's submission 
+did not indicate that i t was made on behalf of th e FAA Administrator  or Robinson.  
+2.10.  On 28 May 2015  the Commission approved this report for publication.  
+ 
+ 
+  
+                                                        
+2 An occurrence in which the aircraft sustains  damage or structural failure that adversely affects the structural strength, 
+performance or flight characteristics of the aircraft and would normally require a major repair or replacement of the 
+affected compone nt. 
+3 See Appendix 1 for details of participants.  
+ 
+Final report AO -2013 -005 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  On the morning of 30 March 2013 the student had two local training flights , one solo and one 
+dual,  from New Plymouth aerodrome in a Robinson  R22 helicopter , registered ZK -HIE (the 
+helicopter).   This was the second successive day of consolidation training before  the student 
+would sit  a flight test the following week for the issue of a private pilot  licence.  
+3.1.2.  At about 13 00 the student and the instructor  departed on another dual training flight, one 
+purpose  of which was to review the recovery action for an un-commanded right roll , which 
+might occur when the helicopter was subjected to a force less than that of gravity (low -G).4  
+The instructor had previously covered this exercise w ith the student after about 18 flight hours 
+of training.  
+3.1.3.  The low-G condition could only be discussed , because the R22 flight manual included the 
+following prohibit ions (CAA, 1996, p.2 -6):   
+ FLIGHT AND MANEUVER LIMITATIONS  
+ Aerobatic flight prohibited.  
+ Low-G cyclic pushovers prohibited.  
+CAUTION  
+A pushover (forward cyclic maneuver) performed from level flight or 
+following a pull -up causes a low -G (near weightless) condition which can 
+result in a catastrophic loss of lateral control.  To eliminate a low_G 
+condition, immediately apply gentle aft cyc lic.  Should a right roll 
+commence during a low -G condition, apply gentle aft cyclic to reload rotor 
+before applying lateral cyclic to stop the roll.  
+NOTE  
+Low G hazards training shall NOT 
+under any circumstances be 
+demonstrated or practised in the air.  
+ 
+3.1.4.  The hazard  of low-G flight in the helicopter  was an element of  the mandatory special training 
+and experience for Robinson R22 pilots (the special training).   The special training was initially  
+mandated by the FAA and largely adopted by other countries, including New Zealand.5  Pilots 
+needed  to know how to recover from an un -commanded r ight roll under conditions of low  G 
+because t he recommended action was counter -intuitive .  If the recovery action s were  
+performed i ncorrectly or abruptly , a mast bump could occur .6 
+3.1.5.  The previous day the instructor and student  had reviewed a video that was part of the special 
+training , and the intended recovery actions  were briefed immediately before th is flight .  The 
+instructor  said he emphasised that he would induce a slow roll to the right, without any 
+reduc tion in  G, then hand control to the student for him to perform  the recovery.   The student  
+recalled  that the instructor said he would demo nstrate "a low-G push -over without actually 
+going low  G". 
+                                                        
+4 An object experiences low G when the  net downward force is less than the force of gravity ("one G").  Occupants of an 
+aircraft experiencing low G will tend to rise in their seats and feel the strain of their  seat belts.   If the net downward force 
+is zero, the occupant or object is sometimes said to be weightless.    
+5 The special training is described in section 3.5 and Appendix 2. 
+6 A mast bump occurs when the inboard end of a main rotor blade spindle  strikes the main rotor drive shaft . 
+
+<< Page 4 >>
+ Final report AO -2013 -005 3.1.6.  The student had control of the helicopter for  the lift-off and the initial climb.  The pilots said 
+the flight conditions were smooth , with a light wind and no cloud in the vicinity , although a n 
+hour earlier  there had been  local rain showers and scattered cloud below 2000 feet.  
+3.1.7.  At about 1000 feet  above the aerodrome , while still climbing  at about 60 knots airspeed , the 
+instructor took control  to first review the effect of main rotor flap -forward  following a speed 
+reduction during the climb .7  The instructor said that the purpose of the review was to 
+illustrate that flap forward  under some circumstances , if not checked, could become excessive 
+and potentially lead to a reduction in G and an un -comm anded roll.  
+3.1.8.  The student was not required to  "follow through " on the controls  during th is or the following 
+exercise .  The instructor initially applied and held a small amount of aft cyclic  to raise the 
+nose , which reduced  the airspeed .  The  main rotor disc responded by flapping forward .8  This 
+exercise was completed at about 1 500 feet altitude.  
+3.1.9.  The instructor said he reduced the engine power to  "approximately 22" inches of manifold 
+pressure, which was close to a cruise power setting, for the next exercise.  He said that t he 
+helicopter had stopped pitching and was close to level flight  and in balance before he was 
+about to induce  a right roll .  Without warning , and before the instructor  had initiated the 
+exercise , the hel icopter rolled rapidly to the right and pitched down  steeply .  However, t he 
+student said he thought that the helicopter pitch ed down first, and was then rolled by what 
+seemed  to him to be "another force ".  The student  said he felt  a slight reduction in G, perhaps 
+about half of the reduction normally  experienced when entering autorotation from level flight , 
+but the instructor did not feel that . 
+3.1.10.  The instructor estimated t hat th e initial roll rate was 120 degrees per second .  He said that 
+because an extreme angle of bank was reached quickly , he did not apply the recommended 
+recovery action that he had been  about to review .  That action was to apply  aft cyclic gradually 
+to ensure the rotor disc was subjected to positive G before rolling level using  left cyclic .  He 
+said he had previously considered what he would  do if the helicopter unexpectedly entered an 
+extreme attitude9, and had decided the safest action  would be to try to keep the rotor disc at 
+right angles to the mast .  Accordingly, in this case,  he applied right cyclic to "follow " the roll. 
+3.1.11.  The pilots  described the helicopter rolling over and pitching  downwards  until it was point ing 
+almost vertically down , although neither pilot was certain of the exact flight path.  The 
+instructor saw that the airspeed was high and rapidly  increasing .  The student thought the 
+helicopter was "twitching " during this stage.  He (but not the instructor) recalled hearing the 
+warning horn for low main rotor revolutions per minute ( RPM ) and then seeing the RPM at 
+about 90%.10  The student  immediately reached for his collective lever and pushed it down  a 
+little bef ore stopp ing because he was not the pi lot in control.11  The instructor did not recall 
+whether he moved the collective lever himself during the manoeuvre.  
+3.1.12.  The instructor was very aware of the potential for a mast bump if he counter ed the abrupt roll 
+with left cyclic, and also that the main rotor could strike the tail boom if he applied too much 
+aft cyclic , or applied it too abruptly .  He was also concerned that the high airspeed might lead 
+to retreating blade stall.12  He said he attempt ed to keep the rotor disc at right angles  to the 
+                                                        
+7 Flap-forward is a normal response of the main rotor disc to an airspeed or power decrease , which  and cause s the rotor 
+disc to helicopter to  pitch down.   
+8 The rotor disc is the area swept by the rotor blades each  revolution . 
+9 The orientation of the helicopter with respect to Earth.  
+10 The alarm sounds when the main rotor RPM decreases below 97%.    
+11 Lowering the collective lever was the appropriate response to a low -rotor -RPM warning.  
+12 The retreating blade is the blade moving in the opposite direction to the direction of flight.  To avoid dissymmetry of lift 
+caused by the resultant airflow being slower over the retreating blade than it is over the advancing blade, the retreating 
+blade fl aps downwards, which increases its angle of attack and hence the lift.  Higher forward speeds (and their 
+associated greater power demands) require further increases in the retreating blade angle of attack, until a speed is 
+reached  at which part of the retr eating blade reaches its stall angle.   The speed at which retreating blade stall becomes a 
+problem is one of a number of factors that determine a helicopter's maximum speed.  
+ 
+Final report AO -2013 -005 
+<< Page 5 >>
+ mast  throughout the manoeuvre.  The helicopter descended 800 or 900 feet before he was 
+able to  regain c ontrol and pull out of the dive  to straight and level flight . 
+3.1.13.  The training flight was terminated , with n o technical abnormalities noted during the return  to 
+the aerodrome .  Neither pilot was injured.  
+3.1.14.  The instructor believed that they recovered from the unusual attitude  because he was familiar 
+with extreme flight attitudes from aerobatic training in aeroplanes, and because he was 
+acutely aware of the need to "fly" the main rotor disc so that it didn't contact the fuselage .    
+3.2. Damage to aircraft  
+3.2.1.  The mainte nance engineer had made an initial inspect ion of the rotor head and removed the 
+main rotor blades  before the Commission's investigators arrived , but that  did not affect the 
+investigation.  The  rotor  head showed clear evidence of a mast bump .  The main rotor blade 
+spindles had contact marks and the teeter stops were crushe d and split (see Figure s 1 and 2). 
+3.2.2.  The manufacturer  advised the engineer of the special inspection s to be made  after a mast 
+bump .  The main rotor blades did not require replacement , but the following major parts were 
+replaced  (see Figure 3) : 
+ main rotor hub  
+ main rotor gearbox  and rotor drive shaft  
+ droop stops and teeter stops  
+ main rotor blade spindles  
+ main rotor teeter and coning (or "flapping ") bolts  
+ main rotor blade pitch links.  
+ 
+Figure 1 
+Blade spindle, showing evidence of mast contact  
+marks from 
+contact with mast  
+
+<< Page 6 >>
+ Final report AO -2013 -005  
+Figure 2 
+Crushed and split teeter stop  
+  
+
+ 
+Final report AO -2013 -005 
+<< Page 7 >>
+ 3.3. Personnel information  
+3.3.1.  The instructor was a military -trained, car eer helicopter pilot with more than  7100 flight hours .  
+He held an A -category instructor rating and a general aviation helicopter flight examiner  rating .  
+He had instructed for approximately 1900 hours, most ly in two-bladed, teetering rotor 
+helicopters.  
+3.3.2.  The instructor had obtained his R22 type rating in 2003  and had since accrued 462 hours on 
+the type.   His initial R22 training had included the mandatory special  training  and that  had 
+been refreshed during subsequent  biennial flight reviews .  In November 2 011 he had 
+attend ed a pilot safety  course conducted by Robinson in the United States . 
+3.3.3.  The instructor said that he had experienced an un-commanded right roll during a low-G 
+condition  in an R22 on four other  occasions, but each of them had involved a gentle onset 
+and a slow roll rate.  Two occasions had been when other instructor s were demonstrating the  
+cond ition and the required recovery  action .  The other two times  had occurred inadvertently 
+while he was training .  He said that in each  case the roll had been gentle  and easily corrected 
+with a small amount of  aft cyclic.  
+3.3.4.  The student had begun his helicopter training with the instructor in June 2011 .  He  had 
+completed the initial requirements of the special training  on 1 April 2012 , short ly before his 
+first solo flight .  On 30 March 2013  the student  had accrued approximately 62 flight hours, all 
+of them in the same helicopter . 
+3.4. Aircraft information  
+3.4.1.  The two-seat R22 light helicopter was manufactured by Robinson in the United States  and was 
+first certificated by the FAA in 1979.  The two blades of the underslung, teetering main rotor 
+can flap independently, a design feature that was unique to Robinson helicopters  (see  
+Figure 3) . 
+ 
+Figure 3 
+R22 main rotor head components  
+(Image used with permission  of Burkhard Domke ) 
+3.4.2.  The helicopter is popular for basic helicopter pilot training , for which purpose it is equipped 
+with dual flight controls.  These include a collective lever and tail rotor pedals for each pilot, 
+and a centrally  mounted cyclic stick (see Figure 4).  The main rotor disc tilts in the same 
+main rotor hub  
+teeter bolt  
+ coning bolt  
+pitch link 
+pitch change 
+horn (partially 
+obscuring other 
+coning bolt)  
+rotor drive shaft 
+("mast")  
+
+<< Page 8 >>
+ Final report AO -2013 -005 direction that  the cyclic pitch control is moved.  If the cyclic is moved forward,  the rotor disc 
+tilts forward; if the cyclic is moved aft, the disc tilts aft, and so on.  
+3.4.3.  Student helicopter pilots learn the "effects of controls " in their first training lesson. The natura l 
+response to  counter  an un-commanded  roll - for example, in gusty wind conditions  - is to 
+apply the cyclic stick in the opposite direction  to the roll .  However, if an un -commanded right 
+roll occurs during a low-G condition , the flight manual 's recommende d action is to apply gentle 
+aft cyclic to "load" the main rotor before  applying left cyclic.   That response is counter -intuitive, 
+particularly for a low -time helicopter pilot.   If left cyclic is first applied to correct an un -
+commanded right roll during a low-G condition, a mast bump c an occur, especially if the cyclic 
+stick  movement is large or abrupt.  A strong mast bump can sever the mast with an obvious  
+fatal consequence.  Therefore Robinson pilots  had to understand correctly the rec ommended 
+recovery te chnique  (see section 3.5) . 
+ 
+Figure 4 
+Typical R22 dual flight controls  
+3.4.4.  The tail rotor thrust counters the normal tendency of the fuselage to turn in the opposite 
+direction to the main rotor.  When more power is put into the main rotor, for example, to climb 
+or to go faster, the fuselage torque increases and t he tail rotor must also produce more thrust 
+in order to keep the helicopter on the same heading  (see Figure 5) . 
+3.4.5.  If the tail rotor thrust acts above the helicopter's  centre of gravity, it can have  a secondary 
+effect  of creating a rolling moment .13  This is normally  countered through design or by applying 
+opposite cyclic.  The higher th at th e tail rotor thrust line acts above the centre of gravity , and 
+the greater the tail rotor thrust, the greater the rolling moment.  
+3.4.6.  In a condition of low  G, the main rotor disc still responds to cyclic control inputs .  Therefore an 
+attempt  to counter a right roll with left cyclic will tilt the rotor disc to the left, but the 
+                                                        
+13 A moment is the turning or lever effect of a force acting about a point.  In th is case the tail rotor thrust 
+creates a moment about the helicopter's centre of gravity.  
+centrally mounted 
+cyclic stick  
+tail rotor pedals 
+(each side)  
+collective levers, to left of 
+each pilot  (right-seat 
+collective is out of sight 
+between the seats ) 
+ 
+Final report AO -2013 -005 
+<< Page 9 >>
+ underslung fuselage may not follow (depending on the G loading at the time).  In such a  case, 
+if the l eft movement of the disc combined with the right roll of the fuselage reach es the limits 
+of the rotor hub geometry, a mast bump  can occur .   
+3.4.7.  The helicopter involved in the accident was manufactured in 2004 and had accrued 3735 
+flight hours a t the time of the accident.  A review of the log books showed that it had been 
+maintained in accordance with the approved maintenance programme.  There was no 
+deferred defect rectification.  
+3.4.8.  Both pilots we ighed less than 80 kilograms and the  fuel on board w as less than three -quarters  
+of the full capacity .  The helicopter's weight and balance were estimated to  have been within 
+the flight manual limits.  
+ 
+Figure 5 
+Forces acting on a helicopter fuselage  
+(Image from FAA Helicopter Flying  Handbook, 2012)  
+3.5. Special training for Robinson helicopter  pilots  
+3.5.1.  During the 1980s and early  1990s there was concern in the United States about  the number 
+of R22 accidents that appeared to have involve d a loss of main rotor control followed by in-
+flight break -up of the helicopter s.  During this period  the FAA conducted three  special 
+certification reviews of the helicopter and the NTSB conducted  a special investigation of the 
+problem .14 
+3.5.2.  In 1995 the FAA took action in an attempt to reduce the incidence of mast bump accidents.  
+An airworthiness directive limited the operation of the R22 in wind or turbulence above 
+specified levels, and provided a recommended procedure should turbulence or low G be 
+encounte red.  That airworthiness directive , amended to apply particularly to pilots with little 
+                                                        
+14 NTSB SIR -96/03, Robinson Helicopter Company R22 loss of main rotor control accidents, 2 April 1996 . 
+
+
+<< Page 10 >>
+ Final report AO -2013 -005 experience, remains in force as at the date of this report.15  The CAA adopted, with some 
+changes, the FAA airworthiness directive  and later amendments.  
+3.5.3.  In 1995 the FAA also issued Special Federal Aviation Regulation No. 73 (SFAR 73 ) - 
+"Robinson R -22/R -44 Special Training and Experience Requirements " to address the pilot 
+training and proficiency  issues that had been  identified during the above reviews.16  SFAR 73 
+introduce d minimum experience requirements  for pilots  of the R22 (and the larger Robinson 
+R44) and more stringent biennial flight review requirements for pilots of both types .  SFAR  73 
+also required speci fied awareness training  and aeronautical experience (the special training ) 
+to improve the knowledge and handling skills  of pilots of Robinson helicopters .  SFAR 73 was 
+made permanent on 29 June 2009.  The CAA adopted most of  the SFAR 73 requirement s by 
+adding them  to the Limitations section  of the New Zealand R22 flight manual.  
+3.5.4.  Prior to the initial issue of SFAR 73 , there had been no mandated requirement for pilots to 
+have knowledge of mast bumping and low -G hazards  before they were issued with helicopter 
+licence s.  SFAR  73 introduced the requirement for "awareness training " in these and other 
+hazards, and for  "aeronautical experience ", that is, in -flight dual instruction, on the "effects of 
+low-G manoeuvres and proper recovery procedures ".  The exercise about to be conducted  
+when this accident happened was  intended to meet that special training  requirement . 
+3.5.5.  However, also in 1995 and shortly after SFAR 73 was issued , the FAA issued an emergency 
+airworthiness directive that prohibit ed deliberate  low-G manoeuvres.17  That action  was 
+prompted  by an FAA analysis of Robinson flight test data  that indicated a low-G cyclic push -
+over could  result  in mast bumping on the R22.  A similar directive was made for the R44 .  
+Both directives  remain  in force  as at the date of this report .  However, in spite  of SFAR 73 
+having been reviewed twice since  1995 , the aeronautical experience section of SFAR  73 has 
+not been amended to reflect th e prohibition . 
+3.5.6.  The usual practice when training an R22 pilot was for the instructor to introduce the special 
+training  topics at appropriate lev els for the stage s of the student's training.  For example, a 
+student had to  be competen t in controlling the rotor RPM well before their first solo flight; and 
+had to  understand how to avoid and recover from low-G conditions prior to the first solo 
+navigation exercise.  The total time spent on the special training  during initial training could be 
+two or three hours, depending on the pilot's prior helicopter experience.   Qualified pilots were 
+required to review the key aspects of the special training  at each biennial flight review.  
+3.6. Helicopter instructors ' forum  
+3.6.1.  On 9 May 2013 Commission investigators  hosted a forum of exper t New Zealand helicopter 
+instructors  and CAA staff for the purpose of gaining an understanding o f the handling 
+behaviour of Robinson helicopters  and how the special training  was conducted  in practice .18  
+At the time the Commission had three open inquiries into Robinson helicopter accidents, 
+including th at which is th e subject of this report . 
+3.6.2.  It was a greed  at the forum that the full benefits of the special training  and the lessons learned 
+from investigations into fatal accidents had not been well disseminated  in New Zealand , even 
+to the most experienced helicopter instructors.  As a consequence, the in tended knowledge 
+transfer had not always occurred  and it was very likely that there were helicopter instructors 
+who did not fully understand the requirements of , and rationale for , the training.  
+3.6.3.  A criticism made  at the forum  was that the instruction on the  recover y from an un -commanded 
+right roll was unconvincing , given that  demonstration s of low-G conditions are prohibit ed.  
+Anecdotes were heard at the forum, and subsequently, of in -flight demonstrations of low G in 
+spite of the prohibition.  
+                                                        
+15 United States airworthiness directive 95 -26-04, dated 26 Januar y 1996.  
+16 See Appendix 2 for further information on the development of the special regulations.  
+17 United States airworthiness directive 95 -11-09, dated  14 July 1995.  
+18 See Appendix 1 for details of  participants.  
+ 
+Final report AO -2013 -005 
+<< Page 11 >>
+ 3.6.4.  The senior instructors  at the forum expressed concern  about  the number of  less-experienced 
+instructors whom  they had examined for instructor categorisation upgrade s who had not fully 
+understood the low-G problem  and what they were trying to teach.  The forum instruct ors 
+agreed that the CAA ought to have adopted the FAA requirement  specifically  to endorse 
+instructors who would  conduct  the special training , in part to standardise the quality of the 
+special  training . 
+3.6.5.  The expert instructors also discussed the effectiveness and intuitiveness of the procedure that 
+Robinson  recommended for recovery from an un -commanded right roll , and alternative 
+recovery procedures.  The CAA  later published an article written by one of the participants, 
+which descri bed the problem of un -commanded right roll in low-G conditions and commented 
+on alternative recovery procedure s.19 
+3.6.6.  The forum was also concerned about  the difference s between New Zealand and the United 
+States regard ing pilot currency requirements for  Robinson helicopters.  The FAA, in SFAR 73, 
+required pilots of Robinson helicopters to have current biennial flight review s in the model s 
+(R22 or R44) flown .  If this had been  adopted by the CAA , a pilot who was rat ed on both 
+models would have had to have  a separate flight review in each type.  However, t he CAA 
+permitted a flight  review to be conducted on any helicopter type for which the pilot was rated .  
+Some flight examiners in New Zealand had chosen to meet the spirit of the SFAR 73 
+requirement by cond ucting, for pilots who were rated on Robinson s and one or more other 
+types, alternate flight reviews in Robinson s.  The forum agreed that the New Zealand 
+requirement possibly  reduced the effectiveness of the special training  and potentially put at 
+risk pil ots who flew R22 s infrequently.   
+3.6.7.  The forum participants generally supported  the following views : 
+ there was no standard in New Zealand for how the special training  was delivered  
+ the special training  should be delivered in New Zealand by endorsed instructors who 
+work with in a certificated flight training organisation  
+ Robinson R22 (and  R44) helicopters should not be flown by pilots who do not have 
+curren t biennial flight review s completed in one of those types . 
+3.7. Previous inquiry  
+3.7.1.  In a previous inquiry20 the Commission noted that the incidence of R22 accident s in New 
+Zealand had not decreased  to the same extent as in the United States, particularly following 
+the CAA's approval in 1998 of flight manual operating and training provisions tha t were less 
+stringent than those in SFAR 73.  Since 1998 there had been an average of one R22 in -flight 
+break -up accident every 18 months  in New Zealand . 
+3.7.2.  The Commission made the following findings  in its report on the previous  inquiry : 
+ the New Zealand regulatory system has not provided sufficient mandatory requirements 
+and guidance for instructors, pilots and operators of the Robinson type R22 and R44 
+helicopters to minimise the known risk of exceeding the helicopters' capabilities  
+ the rate of R22 in -flight break -up accidents in New Zealand has not been reduced by 
+the New Zealand version of the FAA hazard mitigation measures intended to prevent 
+such accidents.  
+3.7.3.  On 26 February 2014 the Commission recommended that the Director of Civil Avia tion: 
+a. conduct a review of Robinson safety awareness training in New Zealand and facilitate 
+the development and adoption of best practice across the sector, including a level of 
+consistency in the way instructors deliver the safety awareness training (003/1 4) 
+                                                        
+19 Spencer -Bower, S.  'Low -g Effects - A New Perspective'. Vector, Nov/Dec 2013. Civil Aviation Authority, Wellington.  
+20 Report 11 -003, In -flight break -up, Robinson R22, ZK -HMU, near Mt. Aspiring, 27 April 2011 . 
+
+<< Page 12 >>
+ Final report AO -2013 -005 b. review FAA SFAR 73 in the context of the New Zealand aviation system and adopt 
+relevant improvements that would likely enhance the operational safety of Robinson 
+aircraft in New Zealand (004/14).  
+3.7.4.  On 5 March 2014 the Director replied, in part:  
+003/14 - the recommendations will be implemented in the form of a review by the 
+Personal Licencing  and Flight Training Unit, along with the Helicopter and Agricultural 
+Operations Unit of the CAA.  The review is envisaged to take approximately 12 to 15 
+months to comp lete. 
+004/14 - the recommendation will be implemented in the form of a review by the 
+Helicopter and Agricultural Operations Unit.  The review is envisaged to take 
+approximately 12 to 15 months to complete . 
+ 
+Final report AO -2013 -005 
+<< Page 13 >>
+ 4. Analysis  
+4.1. Introduction  
+4.1.1.  This accident  occurred  during a n instructional flight that was to review  the recognition of and 
+recovery from an un -commanded right roll, with an assumed condition of low  G.  The instructor 
+understood the theory of th e effect  and had safely carried out the intended exercise  many 
+times, including with the student earlier in his training and another student the day before the 
+accident flight.   The very thing that was meant to be avoided  happened  instead.  
+4.1.2.  The instructor recognised  that the extreme attitude s reached by the helico pter during the 
+event present ed a great risk of a substantial mast bump or of the main rotor  contacting the 
+fuselage , either of which could have been catastrophic .  The damage to the rotor head  showed 
+that a mast bump did occur . 
+4.1.3.  There have been  few occasions when an R22 has landed safely after a significant mast bump.  
+However, in this case the pilot was able to regain control of the helicopter by gentle control 
+inputs.  The fortunate outcome provided an opportunity  to identify  with greater confidenc e the 
+possible contributing factors.  
+4.1.4.  There were a number of reasons for the inquiry also consider ing the content and conduct  of 
+the special training : 
+ the number of Robinson helicopter accidents in New Zealand had not decreased as 
+expected  following the introduction of the special training for pilots  
+ all of the pilots involved in the recorded accidents had received  the special training  
+ the intended e xercise  was a required part of the special training  
+ the exercise  involved an experienced helicopter instructor  
+ although the recovery was successful, the instructor had not follow ed the 
+recommended procedure  for an un -commanded roll that he had been about to review 
+with the student . 
+4.2. The c ause of th e un-commanded roll  
+4.2.1.  The weather on 30 March 2013 was benign .  There was no t urbulence that could  have caused 
+an inadvertent  low-G condition.  There w ere n o technical defects  with the helicopter . 
+4.2.2.  The instructor said that at the completion of th e flap -forward  demonstration the helicopter was 
+almost in level flight  when  it rolled before he made any control movement  to start the next 
+exercise .  However,  if the helicopter  had been still pitching down due to the flap -forward effect 
+or the instructor  had hastened t he level -off (by moving the cyclic stick forward)  in preparation 
+for the roll-recovery practice , the G could have reduced slightly.  The student , but not the 
+instructor,  recalled the G reduc ing noticeably before the roll . 
+4.2.3.  The instructor said the engine power was approximat ely 22 inches of manifold pressure, or a 
+little less than the normal cruise setting .  Therefore the pitch of the main rotor blade s would 
+have been in the normal range and the main rotor RPM was very likely at 100% with the 
+instructor in control.  The stude nt did not hear the low -RPM warning horn until after the roll 
+had begun . 
+4.2.4.  Most of the expert instructor s at the forum held in May 2013 had been shown the exercise 
+and had demonstrated it themselves  prior to the flight manual amendment that prohibited 
+demonstrations of the effects of low G.  The  expert  instructors suggested that the power 
+setting they had used for the exercise  had probably not exceed ed 18 to 20 inches of manifold 
+pressure , in order t o minimise  the tail rotor thrust that was the cause of  the rolling moment .  
+Some of them were of the view that the higher power used by the instructor in this case would 
+have been a factor in the  high rate of roll , if there had been a coincident reduction in G .  The 
+instructor accepted th eir view  that the relatively high power could have been a contributing 
+
+<< Page 14 >>
+ Final report AO -2013 -005 factor .  However, there is no published guidance on a suitable exercise or recommended 
+power setting, because the  hazard should now  be a discussion topic only.  
+4.2.5.  It was not possible to verify t he precise conditions and control inputs immediately before the 
+sudden roll.  The instructor was in current flying and instructional practice, and he met the CAA 
+requirements for  him to conduct  the special training .  He understood the usual  cause of an un -
+commanded r ight roll, and had attended the manufacturer's safety  course 16 months earlier.  
+It was very unlikely that he would have  made an abrupt movement  of the flight controls . 
+4.2.6.  The circumstances of this accident suggest that it was probable  that a reduced G condition 
+was induced inadvertent ly during the transition from the flap -forward demonstration to the 
+roll-recovery exercise.  A reduced G condition would have been very unlikely  had the instructor 
+completed the flap -forward review and positively achieved stable, straight and level flight 
+before starting the next exercise . 
+4.2.7.  The forum  instructors considered that the onset of a low -G roll in the R22 was usually benign  
+and control was easily recovered , if the roll  occurred at a low airspeed with a low engine power 
+setting .  That was also th is instructor's experience.  However, he and the student emphasised  
+that in this case the onset of the roll was sudden and the rate of roll was high .  The instructor , 
+with the R22 accident history in mind, suggested  that the alarming  rate at which the helicopter 
+had departed from controlled flight  indicated that another  factor , such as main rotor 
+divergence,  could have been  involved.   However, unless either pilot had made a sudden 
+control input , the sudden roll was more likely to have been caused by  an unintended reduction 
+in G combined with  a relatively high power setting while  the tail rotor was above the vertical 
+centre of gravity.  
+4.2.8.  Both pilots said that an extreme angle of bank occurred before any recovery  was attempted.  
+The recommended procedure was designed as the response  to a more benign onset of right 
+roll.  It has not been possible to determine whether the recommended procedure  would have 
+been successful in recovering the helicopter after it had reached  an extreme a ngle of bank . 
+4.2.9.  The instructor said he did not perce ive reduced G at the time , so he assessed the situation to 
+have been different from  the condition he had been  about to review.   As a result, and because 
+an extreme angle of bank was reached  so quickly , he reacted with his previously considered  
+response  to an unusual attitude .  He judged it to be of critical importance to "fly" the main 
+rotor so that it would not  strike the fuselage .  That rationale w as indirectly supported later by a 
+very experienced instructor wh en comment ing on the low-G article  in the CAA magazine  (see 
+paragraph 3.6.5): "The overriding goal for a pilot in a negative G event, especially when 
+accompanied by un -commanded roll, must always be to keep the disc parallel to fuselage 
+floor ".  The writer added , "this is not to say that the recommended recovery procedure should 
+not be applied " (CAA, 2014, p.22).  
+4.2.10.  Although the instructor did not perceive   a low -G condition, his  reaction  to the sudden roll  was 
+reasonable under the circumstances and not an intentional  disregard for a recommended 
+procedure.   
+Finding s 
+1. No environ mental condition or helicopter defect  caused the un -commanded roll.   
+2. It was probable  that the un-commanded roll was caused by an inadvertent reduction 
+in G during the transition from the flap -forward demonstration to the next exercise, 
+while the  engine power was at a relatively high setting . 
+  
+ 
+Final report AO -2013 -005 
+<< Page 15 >>
+ 4.3. Conducting  the special training  
+4.3.1.  The phenomenon of un -commanded right  roll and the potential hazard of mast bumping  are 
+not confined  to Robinson helicopters , but they are more likely to be encountered with 
+helicopters, like the Robinson designs, that have two -bladed underslung main rotor s.  
+Knowledge of these hazards is now included in  the helicopter pilot  training  syllab i in New 
+Zealand and the United States , but the special training  applies only to pilots of the R22 (and, 
+in the United States, to pilots of the R44). 
+4.3.2.  The NTSB credit ed the special training  required by  SFAR 73 with having reduced the incidence 
+of loss -of-main -rotor -control accidents in the United States  (NTSB, p.27) .  Such accidents still 
+occur there , but less often.  Although  the FAA require s instructors who conduct  the special 
+training to be specifically endorsed , the CAA d oes not have  that requirement . 
+4.3.3.  The expert instructors  at the  forum  supported the specific endorsement of instructors because 
+of their sense that the standard and effectiveness of the training had become  "diluted " over 
+successive generations of helicopter pilots.   The experts  offered, in support of that view, their 
+observation that too many candidates for instructor rating upgrades did not understand fully 
+all of the special training  theory and requir ements.  However, the experts' discussion on the 
+effectiveness of recovery methods, while offering valuable insight s into the problem of low -G 
+effects, showed that there were  diverse opinions regarding the special training requirements .. 
+4.3.4.  The R22 flight manual has prohibited  demonstrations  of low G  since 1995 , but SFAR 73 still 
+shows a  requirement for dual flight instruction  in "the effects of low -G maneuvers and proper 
+recovery procedures ".  New Zealand adopted SFAR 73 by inserting most of the sam e text into 
+the R22  flight manual .  Instructors could potentially interpret the wording of SFAR 73 as 
+sanctioning the demonstration of low -G situations when conducting dual  flight instruction.   
+There is evidence that in -flight demonstrations have continued  to take place in New Zealand, 
+and not always without incident.  Of particular concern are reports of demonstrations that 
+amount to experimentation.  Anecdotal evidence suggests that some of the pilots asked for 
+further instruction in the recovery procedur e from a low-G roll to restore their confidence after 
+what has seemed to be a spate of accidents involving R22 helicopters.  
+4.3.5.  The Commission  is recommending  that the Administrator of the FAA resolve what could 
+potentially be contradicting  requirements of SFA R 73 and the R22 flight manual . 
+4.3.6.  The discussion at  the expert instructors' forum suggest ed that  there could be industry support 
+for the following changes to the delivery of the special training  in New Zealand:  
+ standardised content and techniques  
+ delivery by  endorsed instructors working within a certificated flight training organisation  
+ a specific requirement for Robinson helicopter pilots to have current biennial flight review s 
+in a Robinson  helicopter . 
+4.3.7.  These conclusions complement  the recommendations made b y the Commission to the 
+Director of Civil Aviation after  inquiry 11 -003 (TAIC, 201 4).  SFAR 73 prescribed  a 
+comprehensive training response to reduce the incidence of R22 accidents, but the CAA 
+adopted  the requirements with some variations.   The lack of st andardisation in instructor 
+technique and lesson content , identified in report 11 -003,  likely  led to variations in pilot 
+understanding of the special training  goals, and could have been an un recognised systemic  
+factor in earlier  R22 accidents in New Zealan d. 
+4.3.8.  Although t he recommendations in inquiry 11 -003 were made by the Commission after the 
+date of this accident, the circumstances of this accident underline the urgency for the CAA to 
+take effective action.  On 28 August 2014  the CAA advised that progress was being made in 
+response to th ose recommendations.   Accordingly, no finding or recommendation has been 
+made in this inquiry  regarding the content or conduct of the special training . 
+ 
+
+<< Page 16 >>
+ Final report AO -2013 -005 Finding  
+3. The section of the United States  Special Federal Aviation Regulation No. 73, which  
+require s Robinson helicopter pilots to have dual flight instruction  in the effects  of low-
+G manoeuvring , appears to contradict  the R22 hel icopter  flight manual, which 
+prohibits the demonstration  of low-G condi tions.  
+4.4. Flight manual (clarity of critical information)  
+Safety issue - The Robinson helicopter flight manual s do not conform to the aviation industry 
+practice for the use of "Warnings " to emphasise flight conditions and operating practices that 
+can cause death or serious injury . 
+4.4.1.  The purpose of the helicopter  flight manual  "is to provide an authoritative source of 
+information considered … necessary for or likely to promote safe operation  of the helicopter " 
+(FAA, 1999, p.  G33) .   It is an operating guide for pilots and contain s the material required by 
+national regulation s to be made available to pilots, as well as supplemental information 
+provided by the manufacturer.  Required information includes the helicopter  limitations, the 
+emergency procedures , the normal procedures and data necessary for a pilot to determine the 
+helicopter performance under various condi tions of, (for example ) weight, altitude and air 
+temperature .  The supplem ental information  includes syst ems descriptions and the means to 
+calculate the weight and balance of the  helicopter .  Pilots are required to have a thorough 
+knowledge of the flight manual, which must be carried on board.  
+4.4.2.  The R22 flight manual contain s the information  required by the reg ulations .  Robinson 
+Helicopters includes a n additional section in the manual that contain s "Safety Tips and 
+Notices ".  The safety tips provide generic advice for the safe operation of helicopters like the 
+R22.  Many of t he safety notices , which have been issued by Robinson "as a result of various 
+accidents and incidents ", also have generic application, but some of them specifically address 
+hazards that are more likely to affect Robinson helicopters ; for example, low rotor RPM and 
+low-G pushovers  (see Appendix 3) .  The key messages in some of these notices  have been 
+repeated in the "Limitations " section of the flight manual.  The avoidance of a low -G condition 
+is one such example.  
+4.4.3.  The Commisison has previously commented that Robinson helicopter fli ght manuals d id not 
+always contain the text and emphasis expected for certain safety critical conditions.21  For 
+example, in 1995 the FAA  restricted  the R22 airspeed in turbulent conditions to 70% of the 
+maximum permitted speed. 22  In 1998 Robinson issued a safety notice on the subject of 
+flight in high winds and turbulence, which  noted the potential for a mast bump under such 
+conditions.  The flight manual ha s been revised several times since 1995, but none of the 
+FAA-approved sections of the manual refers  to the airspeed restriction , or even mention s 
+"turbulence ". 23  As flight in turbulent conditions has been cited as a possible cause for a  
+number of R22 in-flight break -up accidents , it would have been  appropriate to have 
+recognised the importance  of the airspeed restrictions by includ ing them in the Limitations  
+section of the flight manual . 
+4.4.4.  The instructor in th is accident had no intention of demonstrating a low -G condition .  He was 
+familiar with the flight manual "caution " (paragraph 3.1.3 ) and un derstood the hazard.  
+However,  anecdotal evidence suggested th at, in spite of safety awareness training that all 
+pilots of Robinson helicopters must  complete, not all pilots  fully appreciate that a low-G 
+condition in a Robinson helicopter can be fatal .  One reason for this could be that  the 
+consequences ( personal  injury or death) of entering a low -G condition are not being clearly 
+articulated in the Robinson helicopter flight manuals, because the manuals are not following 
+the aviation industry norm for the use of "warnings ". 
+                                                        
+21 Inquiry 11 -003, in -flight break -up, ZK -HMU, Robinson R22, near Mount Aspiring, 27 April 2011.  
+22 Airworthiness Directive  95-26-04. 
+23 As at February 2015.  
+ 
+Final report AO -2013 -005 
+<< Page 17 >>
+ 4.4.5.  FAA Advisory Circular 27-1B describes the acceptable means of compliance for meet ing the 
+certification requirements  of Federal Aviation Regulation 27 , Certification of Normal Category 
+Rotorcraft .24  In regard to Regulation 27.1585, which deals with  the section on operating 
+procedures  in a flight manual , the advisory circular states, in part:  
+Notes, cautions, and warnings may be used to emphasize specific instructions or 
+information in general accord with the following.  
+ (i) "Note" should be used with respect to matters not directly related to safety 
+but which are particularly important  …  
+(ii) "Caution" should be used with respect to safety matters of a secondary order 
+not immediately imminent  …  
+(iii) "Warning" should be used with respect  to safety matters of a primary order or 
+immediately imminent .   
+4.4.6.  The aviation industry has generally interpreted the above words to mean the following :25 
+Note : an operating procedure, technique or maintenance condition which is 
+considered essential to empha sise 
+Caution : an operating procedure, technique or maintenance practice which may 
+result in damage to equipment if not carefully followed  
+Warning : an operating procedure, technique or maintenance practice which may 
+result in personal injury or loss of life  if not carefully followed.  
+4.4.7.  Robinson , however,  does not use Warning s in its flight manuals , even though they contain 
+references to conditions or practices that could lead to "a catastrophic loss of control ", which 
+clearly suggests the likelihood of loss of  life.  Instead, Robinson  uses the following definition : 
+CAUTION  Equipment damge, injury , or death can result if procedure or 
+instruction is not followed.  
+4.4.8.  Robinson 's choice  for distinguishing  between Warning and Caution is not in accord  with the 
+advisory circular and with aviation industry . 
+4.4.9.  Many investigations into loss -of-control accidents that involved Robinson helicopters have 
+been concluded without a definite cause being established.  In spite of the special training  
+that has  been required sin ce 1995  for pilots of Robinson helicopters , many experienced pilots 
+have lost control and  their lives .  It is possible that some of those accidents occurred because 
+the pilots involved had not appreciated the significance of critical safety information in the 
+flight manuals .  Robinson's avoidance of the term Warning was likely to have dimi nished the 
+perceived importance of some critical safety information . 
+4.4.10.  Therefore, the Commission is recommending that the FAA require Robinson to amend its flight 
+manuals to include the use of "Warning " for those operating conditions and practices that 
+involve a risk of personal injury or loss of life .   
+Finding:  
+4. The importance of some critical safety information in Robinson flight manua ls was 
+likely to h ave been diminished by Robinson's use of "Caution ", rather than "Warning ", 
+for operating conditions and practices that involve a risk of personal injury or loss of 
+life. 
+ 
+                                                        
+24 FAA Advisory Circular 27 -1B, Certification of Normal Category Rotorcraft, 30 September 1999.  
+25 Example taken from the flight manual for the Pacific Aerospace Limited 750 XL aeroplane.  
+
+<< Page 18 >>
+ Final report AO -2013 -005 5. Findings  
+5.1. No environmental condition or helicopter defect caused th e un-commanded roll.  
+5.2. It was probable that the un -commanded roll was caused by an inadvertent reduction in G  
+during the transition from the flap -forward demonstration to the next exercise, w hile the 
+engine power was at a relatively high setting . 
+5.3. The section  of the United States  Special Federal Aviation Regulation No. 73, which  requires 
+Robinson helicopter pilots to have dual flight instruction  in the effects  of low-G manoeuvring , 
+appears to contradict  the R22 helicopter  flight manual, which prohibits the dem onstration of 
+low-G conditions.  
+5.4. The importance of some critical safety information in Robinson flight manuals was likely to 
+have been diminished by Robinson's use of "Caution ", rather than "Warning ", for operating 
+conditions and practices that involve a risk of personal injury or loss of life . 
+ 
+Final report AO -2013 -005 
+<< Page 19 >>
+ 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result  in the Commission issuing a  recommendation.  
+Safety a ctions  address ing safety issues identified during an inquiry  
+6.2. The recommendations made to the Director of Civil Aviation by the Commission in its inquiry 
+11-003, regarding th e special training required by the United States SFAR 73, were issued 
+after the date of this acci dent .  The circumstances of this accident underline d the urgency for 
+the CAA to take effective action.  
+6.3. On 23 April 2015, in response to those recommendations, the CAA published a consultation 
+document , "Robinson helicopter fleet" , that identified issues wi th the way that Robinson 
+safety awareness training was conducted in New Zealand.  The CAA proposed the following 
+actions to address the identified issues:  
+a. require all Robinson safety awareness training to be done under the authority of either 
+a Part 119 or  Part 141 certificate  
+b. require the training given to be acceptable to the Director [of the CAA]  
+c. require those persons delivering Robinson safety awareness training to have been 
+approved to do so by a flight examiner  
+d. require Robinson safety awareness train ing as part of the type rating requirements for 
+the R44 and R66  
+e. require Robinson safety awareness training to be completed by all pilots who hold R44 
+and R66 type ratings and who wish to exercise the privileges of those type ratings  
+f. increase the minimum f light experience for first solo flight in an R22 from 10 hours to 
+20 hours  
+g. amend the R22 flight manual to remove references to low "G" flight demonstration and 
+enhanced autorotations.  
+Safety a ctions  addressing other safety issues  
+6.4. Nil. 
+  
+
+<< Page 20 >>
+ Final report AO -2013 -005 7. Recommendations  
+General  
+7.1. The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case, two recommendation s have been issued to the Administrator of the FAA , 
+with notice of the recommendation s given to the Director of the CAA . 
+7.2. In the interests of transport safety it is important that th ese recommendation s are  
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendations  
+7.3. On 23 April 2015 t he Commission recommend ed to the Administrator, Federal Aviation 
+Administration, that he: 
+7.3.1.  Amend section 2(b) of Special Federal Aviation Regulation  No. 73 - Robinson R -22/R -44 
+Special Training and Experience Requirements to make it clear that dual instruction in the 
+"effects of low-G maneuvers " is limited to discussion only, and to reiterate that deliberate in -
+flight reduced G conditions are prohibited . (003/15) 
+7.3.2.  Require Robinson Helicopter Company to amend its flight manuals to include the use of 
+"Warning " for those operating conditions and practices that involve a risk of personal injury or 
+loss o f life. (007/15)  
+7.4. No response was available from the Administrator at the time this report was published.  
+ 
+  
+ 
+Final report AO -2013 -005 
+<< Page 21 >>
+ 8. Key lesson  
+8.1. Pilots, particularly flight instructors, must be alert to conditions that could result in an 
+inadvertent breach of a flight manual prohibition of low G.  
+  
+
+<< Page 22 >>
+ Final report AO -2013 -005 9. Citations  
+CAA. (1996 ), Air 2140 , Rotorcraft flight manual, Robinson R22 ; Civil Aviation Authority, Wellington . 
+CAA. (2014). Low -g response. Vector , Mar/Apr 2014.  Civil Aviation Authority, Wellington.   
+FAA. (1995). Robinson R -22 Flight Standarization Board Report; FAA Aircraft Evaluation Group, Fort 
+Worth, Texas. FAA. (1996, Januar y 26). Federal Aviation Administration \Airworthiness 
+Directives.  Retrieved March 8, 2013, from Current Airworthiness Directives by product Type: 
+http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgAD.nsf/0/91BE0874983FB92686256A
+4D0061449D?OpenDocument  
+FAA. (1999). AC27 -1B, Certification of Normal Cateogory Rotorcraft.  Washington, D.C.: Federal Aviation 
+Administration.  
+FAA FSB. (1995). FAA R22 Flight Standardization Board Report, Aircraft Evaluation Group,.  Fort Worth, 
+Texas: Fedral Aviation Administration.  
+NTSB. (1996). Special Investigation Report NTSB/SIR -96/03.  Washington, D.C. 20594: National 
+Transportation Safety Board.  
+NTSB. (1996 ). Robinson Helicopter Company R22 loss of main rotor control accidents. SIR -96/03. 
+Washington, DC.  
+Spencer -Bower, S. (2 013). Low -g Effects - A New Perspective. Vector , Nov/Dec 2013. Civil Aviation 
+Authority, Wellington.  
+TAIC. (2014 ). Inquiry 11 -003, In -flight break -up, Robinson R22, ZK -HMU, near Mt. Aspiring, 27 April 
+2011. Transport Accident Investigation Commission, Wellington.  
+ 
+ 
+  
+ 
+Final report AO -2013 -005 
+<< Page 23 >>
+ Appendix  1: Participants in forum held 9 May 2013  
+Name  Position  Experience and expertise  
+Larry Bennett  Former C hief Executive and Chief Pilot,  
+North Shore Helicopters  Airline Transport Pilot Licence (helicopter ) 
+(ATPL(H)  
+Category A instructor  
+General Aviation flight examiner  
+15,500 flight hours  
+Paul Breuilly  CAA, Team Leader ,  
+Safety Investigation Unit  
+  
+Tim Burfoot  TAIC, Chief  Investigator of Accidents   
+David Gill  CAA, Team Leader Airworthiness   Bachelor of Engineering  (Mech anical ) 
+Ian McClelland  TAIC, Investigator of Accidents   
+Andy McKay  CAA, Aviation Examiner  Category A and D instructor  
+General Aviation flight examiner  
+Rama Rewi  TAIC, General Counsel   
+Neil Scott  Chief Pilot,  
+Garden City Helicopters  ATPL(H), C ommercial Pilot Licence (CPL) 
+(aeroplane ) 
+Category A, D and E instructor  for both 
+helicopters and aeroplanes  
+General Aviation flight examiner for both 
+helicopters and aeroplanes   
+24,800 flight hours  
+ 
+Dave Sowman  Head of Training - Utility  
+HNZ New Zealand  CPL(H) and  CPL(A)  
+Category A, D and E instructor  
+General Aviation flight examiner  
+7600+ rotary wing flight hours  
+ 
+Simon Spencer -Bower  Chief Executive and Chief Flying 
+Instructor  
+Wanaka Helicopters  CPL(H) and CPL(A)  
+Category A helicopter instructor  
+Category D aeroplane instructor  
+General Aviation  flight examiner  
+21,000 flight hours, 18,600 on 
+helicopters, 15,000 on Robinson s 
+ 
+Barry Stephenson  TAIC, Investigator of Accidents   
+Ian Wakeling  Chief Executive and Chief Pilot  
+Aviation Development Ltd  CPL(H) and CPL(A)  
+Category B instructor  
+General Aviation flight examiner  
+Former V ice President and  production test 
+pilot, Fairchild -Hiller Helicopters  
+16,000 flight hours  
+ 
+Peter Williams  TAIC, Deputy Chief Investigator of 
+Accidents   
+ 
+  
+
+<< Page 24 >>
+ Final report AO -2013 -005 Appendix  2: Earlier safety reviews and action s concerning the R22  
+The R22 was certificated by the FAA in  1979.  The type accrued an unusually high incidence of in -flight 
+break -up accident s, which led the FAA to conduct special certification reviews of the helicopter in 1982, 
+1988 an d 1994.   In essence, these reviews concluded that the R22 was safe if the flight manual 
+limitations were observed.26 
+A further review by an FAA Flight Standardization Board in 1995, convened to consider training 
+requirements for R22 pilots, reported (FAA, 1995, p. 6) : 
+The Robinson R -22 has characteristics which makes [sic] awareness of certain 
+aerodynamic factors mandatory.  The awareness of low "G" operations, rotor 
+blade stall potential, energy management, and low rotor RPM recovery 
+techniques are  [sic] critical.  
+The 1995  Flight Standardization Board report set out stringent training and currency requirements for 
+R22 (and R44) pilots and instructors , and suggested areas of research into pertinent areas of helicopter 
+design and operation .  Two outcomes of t his work were the issuing of airworthiness directives 
+concerning Robinson helicopter operations , and SFAR  73, which deals with training  and the special 
+training .  Those pertaining to the R22 , as amended, remain current today . 
+In 1992 the NTSB was prompted by a perplexing fatal accident (the "Richmond , California " accident) to 
+open a special investigation into R22 loss -of-main -rotor -control accidents (NTSB, 1996) .  During the 
+course of its investigation the NTSB issued 11 safety recommendations  dealing with helicopter 
+equipment and operations.  Those recommendations were closed by the time the investigation ended in 
+1996 . 
+The final report on the NTSB's special investigation  included another six recommendations , including 
+one that the special training  requirement be made permanent.  The FAA accepted that 
+recommendation.  The NTSB continued to have concerns about  the following issues:  
+ control of rotor RPM - there is a very short time (less than one second) available for a pilot to 
+take corrective action if the main rotor RPM reduce s below the normal range  
+ mast bumping - if the main rotor blade spindles contact the mast, one or both of the main rotor 
+blades could contact the fuselage or separate from the mast  
+ main rotor divergence and loss of control - the precise cause of the R22 main rotor diverg ing 
+from its normal plane of rotation and strik ing the fuselage is unknown.  The NTSB and the FAA 
+accepted that flight tests to ex amine this problem were too high ri sk.  A mathematical model 
+developed t o simulate main rotor dynamic conditions was terminated (due to a lack of funding) 
+before the extreme s of the  dynamic conditions were validated  
+ low-G conditions  -under low G the R22 can roll unexpectedly to the right  and the intuitive 
+response c an cause a mast bump.  The recommended recovery action is counter -intuitive.  The 
+flight manual Limitations section cautions pilots that a low-G condition  may not  be 
+demonstrated or practised.  
+The CAA accepted the FAA rotorcraft type certificate when the f irst R22 was imported  in 1985 .  As the 
+type certificate include s the FAA -approved flight manual, the CAA was obliged to accept amendments to 
+the flight manual.  The initial issue of SFAR 73 amended the Limitations section of the flight manual, but 
+the CAA' s amendment of the New Zealand version of the flight manual did not adopt fully the same text . 
+The FAA considered the knowledge issues to be so critical that , when SFAR 73 was first issued, R22 and 
+R44 pilots were required to complete the training before t heir next flight s.  The CAA allowed a more 
+gradual introduction.  Pilots, such as the instructor's own instructor, who a lready had R22 type rating s 
+met the initial training requirement s at a subsequent instructor seminar or through training conducted 
+by visiting Robinson instructors.  
+                                                        
+26 This appendix provides a very brief summary of the reports, reviews and studies mentioned.  Refer to the source 
+documents for full information . 
+ 
+Final report AO -2013 -005 
+<< Page 25 >>
+ A significant  difference between the United States and New Zealand regarding  SFAR 73 and the special 
+training  is that the FAA specifically endorsed R22 instructors to conduct  the special training , whereas 
+the CAA required only that instructors who conducted  the training had themselves completed it 
+beforehand.  The CAA requirement was essentially meaningless , because the flight instructors , being 
+rated on the helicopter , would  have already complete d the special training .27  With no other requirement 
+for external standardisation of the standard or content of the special training , its effectiveness was 
+bound to be "diluted " over generations of pilots.  
+Other differences between the FAA and CAA requireme nts were th at the CAA did not require pilots to 
+have current biennial flight review s in the specific type s flown, and did not make the special training  
+permanent for R44 pilots.  
+ 
+  
+                                                        
+27 This might not have been the case when the special training  was introduced, but it  would have quickly become so.  
+
+<< Page 26 >>
+ Final report AO -2013 -005 Appendix 3:  Robinson Safety Notice SN -11 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2013 -007 Boeing 737 -838, ZK -ZQG, stabiliser trim mechanism damage, 7 June 2013  
+AO-2013 -009 RNZAF Boeing 757, NZ7571, landing below published minima,Pegasus Field, 
+Antarctica, 7 October 2013  
+AO-2013 -002 Robinson R44, ZK -HAD, engine power loss and ditching, Lake Rotorua,  
+24 February 2013  
+11-007 Descent below instrument approach minima, Christchurch International Airport, 29 
+October 2011  
+11-006 Britten -Norman BN.2A Mk.III -2, ZK -LGF, runway excursion, Pauanui Beach 
+Aerodrome, 22 October 2011  
+ 
+11-003 In-flight break -up ZK -HMU, Robinson R22, near Mount Aspiring,  27 April 2011  
+ 
+12-001 Hot-air balloon collision with power lines, and in -flight fire, near Carterton,  
+7 January 2012  
+ 
+11-004 Piper PA31 -350 Navajo Chieftain, ZK -MYS, landing without nose landing gear 
+extended, Nelson Aerodrome, 11 May 2011  
+ 
+11-005 Engine compressor surges, 18 September 2011  
+11-001 Bell Helicopter Textron 206L -3, ZK -ISF, Ditching after engine power decrease, Bream 
+Bay, Northland, 20 January 2011  
+ 
+11-002 Bombardier DHC -8-311, ZK -NEQ, Landing without nose landing gear extended  
+Woodbo urne (Blenheim) Aerodrome, 9 February 2011  
+10-010 Bombardier DHC -8-311, ZK -NEB, landing without nose landing gear extended,  
+Woodbourne (Blenheim) Aerodrome, 30 September 2010  
+12-001 Interim Factual: Cameron Balloons A210 registration ZK -XXF, collision with power 
+line and in -flight fire, 7 January 2012  
+10-009 Walter Fletcher FU24, ZK -EUF, loss of control on take -off and impact with terrain, Fox 
+Glacier aerodrome, South Westland, 4 September 2010  
+10-007 Boeing 737 -800, ZK -PBF and Boeing 737 -800, VH -VXU airspace incident, near 
+Queenstown Aerodrome, 20 June 2010  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 15.00                                         ISSN 1179 -9080 (Print)  
+         ISSN 1179 -9099 (Online)  

@@ -1,0 +1,64 @@
+- name: Human Error and Assumptions
+  percentage: 40
+  explanation: 'The driver''s familiarity with the crossing and the low frequency of trains likely led to the assumption that no train would be present, contributing to the accident: "drivers who are familiar with a railway crossing are more likely to be involved in a crossing incident than drivers unfamiliar with the crossing" (3.9 (invalid formatted quote)). The driver''s habitual behavior and lack of expectation of encountering a train also played a role: "the driver did not expect to encounter a train on the crossing" and "it is also unlikely that they had previously encountered a train on the crossing" (3.28 (invalid formatted quote)).'
+- name: Situational Awareness
+  percentage: 30
+  explanation: 'The driver''s attention was likely focused on the road traffic ahead rather than the level crossing warning devices, leading to a lack of situational awareness: "an attentional focus on oncoming road traffic may have contributed to the driver not seeing or registering level crossing warning devices on clevely line" (3.21 (invalid formatted quote)). Additionally, the driver''s situational expectation and established habits may have interfered with their ability to detect and perceive the threat of the train (3.17).'
+- name: Adherence to Safety Procedures
+  percentage: 15
+  explanation: 'The driver''s behavior at the level crossing likely followed a habitual pattern without the practice of stopping, which if done, could have reduced the risk of collision: "had the driver been in the habit of stopping at the crossing, it is likely that the risk of a collision with a train would have been reduced" (3.30 (invalid formatted quote)).'
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: 'Amendments to road legislation in 2009 removed the requirement for passenger service vehicles to stop at level crossings with active protection, which may have contributed to the accident: "road legislation was amended in 2009 to remove the requirement for passenger service vehicles to stop before traversing a level crossing where active protection was present" (4.4 (invalid formatted quote)). The amendments did not consider the risks to road and rail users at level crossings near road intersections, potentially increasing risks (3.38-3.39).'
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: 'There was no evidence that the rail industry had been consulted on legislative changes affecting the safety of the rail corridor, indicating a possible lack of a safety culture that includes all stakeholders in safety-related decisions: "there was no evidence that the rail industry had been consulted on legislative changes affecting the safety of the rail corridor" (3.34 (invalid formatted quote)).'
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the driver''s actions in the provided document.
+
+    '
+- name: Training and Competency
+  percentage: 0
+  explanation: 'There is no mention of inadequate training or lack of competency contributing to the accident in the provided document.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no mention of a lack of training or familiarity with equipment contributing to the accident in the provided document.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no mention of crew resource management issues contributing to the accident in the provided document.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'There is no mention of a failure in risk management and analysis contributing to the accident in the provided document.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no mention of emergency response preparedness or its lack thereof contributing to the accident in the provided document.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'The level crossing warning devices were found to be working correctly at the time of the accident, indicating that maintenance and inspection were not contributing factors: "the level crossing warning devices were working correctly at the time of the accident" (4.1 (invalid formatted quote)).'
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention of automation or its misuse contributing to the accident in the provided document.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'The Commission found no evidence that factors such as sunstrike contributed to the accident, indicating that weather conditions were not a contributing factor: "the commission found no evidence that other factors, such as sunstrike or the driver being distracted by passengers on the bus, contributed to the accident" (3.5 (invalid formatted quote)).'
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no mention of communication breakdown contributing to the accident in the provided document.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the provided document that contributed to the accident.

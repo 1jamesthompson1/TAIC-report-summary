@@ -40,7 +40,7 @@ class ReportExtractor:
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
         pattern = r"<< Page {} >>.*<< Page {} >>".format(page_number_1, page_number_2)
-        matches = re.findall(pattern, self.report_text, re.DOTALL)
+        matches = re.findall(pattern, self.report_text, re.DOTALL | re.IGNORECASE)
 
 
         if matches:

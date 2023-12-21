@@ -1,0 +1,929 @@
+﻿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Final report MO -2012 -203: Fire on board Amaltal Columbia   
+12 September 2012  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an  independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or d etermine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced ag ainst its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+  
+ 
+ 
+ 
+ 
+Final  Report  
+Marine inquiry MO-2012-203 
+Fire on  board  Amaltal Columbia   
+12 September 2012  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : February 2017  
+       
+
+ 
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The principal purpose of its inquirie s is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue) criminal, civil or 
+regulat ory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector and the public, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     Jane Meares  
+Deputy Chief Commissioner    Peter McKenzie, QC  
+Commissioner      Stephen Davies Howard  
+Commissioner      Richard Marchant  
+     
+Key Commission personnel  
+Chief Executive      Lois Hutchinson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Robert Thompson  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 1 1, 114 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+  
+Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmi ssible as evidence in any proceedings with the exception of a Coroner's inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part witho ut charge, provided that acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Docu ments that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly availa ble are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+ 
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe the degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(adopted from the Intergovernmental 
+Panel on Climate Change)  Likelihood of t he 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+The Amaltal Columbia  (image supplied by  Talley's Group Limited)
+
+ 
+ 
+Location of accident  
+ 
+Legend  
+ Approximate location of 
+accident  
+  
+  
+  
+ 
+ 
+ 
+  
+  
+ 
+Source: mapsof.net  
+Contents  
+ 
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary   ................................ ................................ ................................ ................................ ......................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Narrative  ................................ ................................ ................................ ................................ ....... 3 
+3.2. Firefighting and fire detection appliances aboard Amaltal Columbia  ................................ ....... 6 
+3.3. Maritime Rule Part 40D Design, Construction, and Equipment - Fishing ships  ......................  6 
+4. Analysis  ................................ ................................ ................................ ................................ ......................  7 
+4.1. Introduction  ................................ ................................ ................................ ................................ ... 7 
+4.2. The fire  ................................ ................................ ................................ ................................ ..........  7 
+ Potential sources of ignition that were discounted:  ................................ ................................ ... 8 
+ Potential sources of ignition that could not be discounted:  ................................ ......................  8 
+4.3. Crew response  ................................ ................................ ................................ ...........................  10 
+4.4. Detec ting the fire  ................................ ................................ ................................ .......................  10 
+4.5. Containing the fire  ................................ ................................ ................................ .....................  11 
+4.6. Fuelling the fire  ................................ ................................ ................................ ..........................  13 
+4.7. Risk ................................ ................................ ................................ ................................ .............  13 
+5. Findings  ................................ ................................ ................................ ................................ ..................  15 
+6. Safety actions  ................................ ................................ ................................ ................................ .........  16 
+General  ................................ ................................ ................................ ................................ ...................  16 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  16 
+Safety actions addressing other safety issues  ................................ ................................ .....................  16 
+7. Recommendations  ................................ ................................ ................................ ................................ . 17 
+General  ................................ ................................ ................................ ................................ ...................  17 
+Recommendations  ................................ ................................ ................................ ................................ . 17 
+8. Key lessons  ................................ ................................ ................................ ................................ .............  18 
+ 
+  
+Final report MO -2013 -203 | Page i Figures  
+Figure 1  General Arrangement of the Amaltal Columbia  ................................ ................................ ........  4 
+Figure 2  Fishmeal bagging room of Amaltal Columbia 's sister vessel  ................................ ...................  7 
+Figure 3  Photo showing fishmeal bagging room of Amaltal Columbia , taken from approximately 
+same position as Figure 2  ................................ ................................ ................................ ..........  8 
+Figure 4   Ventilator opening with ventilator damper in open position  ................................ ..................  12 
+Figure 5   Ventilator opening with strut hanging down obstructing the damper from closing  ..............  12 
+Figure 6  Photo taken within fish processing factory deck  ................................ ................................ .... 13 
+ 
+ 
+ 
+ 
+  
+Page ii | Final report MO -2012 -203 Abbreviations  
+CO2     carbon dioxide  
+SCBA      self-contained breathing apparatus  
+ 
+ 
+ 
+Glossary  
+bulkhead  a dividing wall between compartments on a ship  
+self-contained breathing apparatus  a breathing device worn by firefighters that provide s breathable 
+air in an atmosphere  dangerous to health  
+grandfathering  a provision in which an old rule continues to apply to a n 
+existing  vessel  while a new rule will  apply to all future vessel s. 
+Those exempt from the new rule are said to have  grandfather 
+rights  
+ 
+ 
+   
+  
+Final report MO -2013 -203 | Page iii Data summary  
+Vehicle particulars  
+Nam e: Amaltal Columbia  
+Type : fishing factory freezer trawler   
+Class:  Lloyd's Register  
+Limits:  unlimited  
+Classification:  stern trawler, ice class 1D, +100A1, LMC  (Lloyd's Machinery 
+Certificate ), UMS  (Unmanned Machinery Space ) 
+Length:  64 metres  
+Breadth:  13 metres  
+Gross tonnage:  1,899 tonnes  
+Built:  1991  
+Propulsion:  2,460 kilowatts  driving single propeller  
+Service speed:  12.5 knots  
+Owner/operator:  Talley 's Group Limited   
+Port of registry:  Nelson  
+Minimum crew:  10 
+Date and time  
+ 12 September 2012  at about 05001 
+Location  
+ 43° 13.8S 173° 46.1E  
+Persons involved  
+ 41 crew members  
+Injuries  
+ two crew suffered minor  smoke inhalation  
+Damage  
+ extensive heat and smoke damage to the fish processing factory 
+deck, and extensive smoke damage to the accommodation areas 
+of the vessel  
+                                                        
+1 Times in  this report are in New Zealand Daylight Time (U niversal Co -ordinated Time + 13 hours) and are 
+expressed in the 24 -hour mode.  
+
+  
+Final report MO -2013 -203 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. In the early hours of 12 September 2012, the fishing factory trawler Ama ltal Columbia  was 
+fishing off the Canterbury coast when fire broke out in the fishmeal bagging room on the fish 
+processing deck.  
+1.2. The master made a Mayday call, and two nearby fishing vessels were requested to stand  by 
+the Amaltal Columbia  to assist.  
+1.3. Despite the fire -fighting efforts of the crew, it was necessary for them to abandon ship.  The 
+entire crew were transferred to the assisting vessels, one of which took the Amaltal Columbia  
+under tow to the port of Lyttelton.  
+1.4. The New Zealand Fire Service met the vessel on arr ival and subsequently declared the fire 
+'out'.  Nobody was seriously injured but the vessel was extensively damaged.  
+1.5. The Commission found  that the fire was seated amongst bales of polypropylene bags that 
+were stored in the fishmeal bagging room, but was unable to establish with any certainty what 
+started the fire.  
+1.6. The Commission also found  that the Amaltal Columbia 's design and systems for the 
+prevention, detection, containment and fighting of a fire met the standards of the applicable 
+maritime rules; howev er, there were some aspects that could have been improved , and the 
+consequences of the fire could have been lessened , with a more risk -based approach to 
+operations.  
+1.7. Key lessons  arising from this accident included:  
+ the e arly detection of fires is critical to preventing their taking hold and spreading  
+ older-style fluorescent light fittings are more prone to failure and likely to start a fire than 
+more modern fittings.  Operators of older ships should consider the risk of not re placing 
+such lights with more modern and safer lights  
+ arrangements that are designed to close off a space and contain a fire need to be quick, 
+easy and intuitive to use, taking account of the conditions the crew are likely to encounter 
+in a real fire  
+ the use of fire -retardant materials in the construction and fit -out of spaces on board ships 
+will help to prevent the ignition and spreading of fires.  
+ 
+ 
+  
+
+<< Page 2 >>
+ Final report MO -2012 -203 2. Conduct of the inquiry  
+2.1. At about 0700 on 12 September 2012 the Transport Accident Investigation Commission 
+(Commission) was notified by the Rescue Coordination Centre New Zealand that a fire had 
+occurred on  board the fishing vessel Amaltal Columbia  approximately 85 kilometres north -east of 
+Lyttelton.  
+2.2. The Commission opened an inquiry under section 13(1)b of the  Transport Accident Investigation 
+Commission Act 1990 and appointed an investigator  in charge . 
+2.3. On 13 September 2012 two investigators travelled to Lyttelton to conduct a site investigation  on 
+board the vessel , collect evidence and conduct interviews of the  crew.  
+2.4. The investigation  of the s cene  of the fire was conducted jointly by  representatives from the 
+Commission, the New Zealand Fire Service and the vessel's insurance company . The Commission 
+referenced the Fire Service investigation report while  prepar ing this report. Fire-damaged electronic 
+items were uplifted and subsequently examined by the New Zealand Police E -Crime  Laboratory  as 
+potential source s of the fire.  
+2.5. On 20 September two investigators travelled to Nelson to conduct further interviews of some of the 
+Amaltal Columbia 's crew and members of the Amaltal Columbia 's shore management.  
+2.6. The Maritime Operations Centre keep s a 24 -hour watch on all the stations in the radio network. 
+The operators respond to distress calls, handle  trip reports and broadcast safety information.  The 
+Maritime Operations Centre 's log of events was obtained and used to collate a timeline of events.  
+2.7. On 2 November 2016  the Commission approved the draft final report to be circulated to interested 
+persons for comment. Four submissions were received  and any changes resulting from those 
+submissions have been reflected in this final report . 
+2.8. On 22 February 2017 the Commission approved the final report for publication.  
+ 
+ 
+ 
+ 
+  
+  
+Final report MO -2013 -203 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Narrative  
+3.1.1.  The Amaltal Columbia  is a deep -sea factory trawler2 built in 1991.  It was purchased new and 
+operated by Talley's Group Limited  from its home port of Nelson.  
+3.1.2.  In the early morning of 19 August 2012 the Amaltal Columbia  departed from Nelson to fish 
+waters to the  east of New Zealand.   Fishing commenced on the night of 19 August.  Fishing 
+continued for the next three  weeks without incident.  
+3.1.3.  At about 0 230 on 12 September , the crew shot  the net3 and began trawling.  The swell was 
+about four metres  and the wind strength about 45 knots  (about 83 kilometres per hour) . 
+3.1.4.  The Amaltal Columbia  was equipped with a fishmeal plant , which  render ed fish processing 
+waste into dry fishmeal powder.  Fishmeal is a by -product of fish processing.  The waste (fish 
+heads etc) from t he fish processing factory is dried and ground into powder.  
+3.1.5.  The actual rendering machine was located aft of and below the fish processing factory  (see 
+Figures 1).  The dried fishmeal was  fan-blown in powder form through ducting  from the 
+rendering machine t o the bagging room, which was  a purpose -built room on the same level as 
+and forward of the fish processing factory , sectioned off by a steel -framed plywood bulkhead . 
+3.1.6.  The fishmeal plant and the fishmeal bagging room were operated by one crew  member ( the 
+fishmeal plant operator).  The fishmeal plant operator  was working in a different part of the 
+vessel when a t about 0445 he went to prepare and start the fishmeal plant (shown in Figure 
+1).  Starting the fishmeal plant also started the transfer fan in th e bagging room.  He had not 
+been  to the bagging room  before  the time the fire was discovered.  
+3.1.7.  At about 0500 the second mate was making his way forward through the factory deck  (see 
+Figure 1) .  Workers on the fish processing packing line told him they could  smell  smoke.   He 
+continued  forward and noticed smoke coming out of the open door of the fishmeal bagging 
+room .  The smoke increased in intensity as he got closer.  
+3.1.8.  The second mate immediately r eturned  to the fish processing packing line and notified  the 
+crew working there  that there was a fire in the fishmeal  bagging room .  There was a fire hose 
+located close to the fishmeal baggin g room door .  Two of the crew connected  the hose to a 
+hydrant , charged  it and began to fight the fire .  
+3.1.9.  The second mate notified the watchkeeper on the bridge of the fire.   The watchkeeper had 
+already  been alerted to the fire by the automatic fire detection alarm panel on the bridge , 
+which had  activated the vessel 's fire alarm system .  By the time the second mate had finish ed 
+talking to the watchkeeper on the bridge , the thick , black smoke  billowing out of the bagging 
+room door had filled the room  down to knee level.  
+3.1.10.  The two crew  attempt ed to fight the fire while the second mate withdrew a nd proceeded to the 
+emergency muster station on the deck aft of the bridge. 
+                                                        
+2 A factory trawler is a fishing vessel that has an on -board fish processing plant.  
+3 Deploying the trawl net from the vessel to begin trawling is known as 'shooting' the net.  
+
+<< Page 4 >>
+ Final report MO -2012 -203 
+door to fishmeal bagging roomfishmeal plant fishmeal bagging roommuster station
+fish processing factory seat of fire 
+Figure 1 
+General arrangement of the Amaltal Columbia  
+  
+Final report MO -2013 -203 
+<< Page 5 >>
+ 3.1.11.  The master proceeded to the bridge.  Once on the bridge the master realised that a SCBA 
+(self-contained breathing apparatus4) team would be required to fight the fire .  A two-man 
+SCBA team was identified and briefed by the master .  They prepar ed to fight the fire  with two 
+handheld carbon dioxide ( CO2) extinguishers .  A hose party w as deployed to boundary -cool the 
+area surrounding the fire . 
+3.1.12.  The chief engineer and two other  crew members man ned the engine room .  The remainder  of 
+the crew muster ed at the  emergency muster station behind  the wheelhouse.   
+3.1.13.  At about 0519, s hortly after the master had arrived on the bridge , he transmitted a Pan-Pan5 
+urgency message on the very -high-frequency radio, channel 16 .  The Pan -Pan message  was 
+acknowledged by Kaikoura R adio6.  About five minutes later  the fire was growing more 
+intense , so the master transmitted a Mayday7 signal .  The Mayday  signal was acknowledged 
+by Kaikoura Radio, which  broadcast a Mayday  relay .  The crew began preparations to abandon 
+ship.   
+3.1.14.  At about 0610 two other fishing vessels i n the area , the San Discovery  and the Ivan Goublets , 
+were requested by the Maritime Operations Centre  to assist the Amaltal Columbia .  
+3.1.15.  Meanwhile, t he SCBA team returned to the wheelhouse after they had  discharged  the two CO 2 
+fire extinguishers into the fishmeal  bagging room.  Visibility was very poor on the factory deck 
+due to the thick smoke.   They attempted to contain the fire by closing the fishmeal bagging 
+room door, but were unable to close it fully. 
+3.1.16.  They collected another two fire extinguishers , one CO 2 and one dry powder , returned to the 
+factory deck  and discharged both extinguishers into the fishmeal  bagging room.  They then 
+withdrew from the factory deck , exchanged their SCBA  air tanks and returned to fight the fire 
+with a fire hose.  
+3.1.17.  Fire-fighting ceased when the SCBA  team had used all but one of the air tanks.   The 
+firefighters joined the  rest of  crew at the muster station  and prepared to  abandon ship . 
+3.1.18.  By 0800  the fire had damaged propulsion and steering control system lines between the 
+wheelh ouse and the engine  room.   As a result  the Amaltal Columbia 's speed reduced and it 
+would not respond to the helm .  The vessel  had lost the ability to manoeuvre .  
+3.1.19.  Although  it appeared that the fire had died down and the smoke was significantly less,  the 
+master ordered the crew to abandon ship . The rescue boat was launched and shortly 
+after wards  the fir st of three life rafts was towed by the rescue boat  towards the Ivan Goublets . 
+All the crew were transferred from the Amaltal Columbia  except for the master and chief 
+engineer.  
+3.1.20.  At about 1013 the master and chief engineer transferred  to the San Discovery , where they 
+planned further emergency response and vessel recovery operations.  
+3.1.21.  Once all the crew were safe , and all arrangement s were in place  to take the vessel under tow,  
+the mayday  was cancelled at 1035.  The fire had not been  confirmed  as extinguished at that 
+time.  The master and four crew subsequently returned to the Amaltal Columbia  to begin 
+preparations for taking the vessel under to w. 
+3.1.22.  The Amaltal Columbia  was taken under tow during the afternoon of 12 September  2012 , and 
+berthed  at Lyttelton  Port at about 0100  on 13 September  2012 . 
+                                                        
+4 A self-contained breathing apparatus  is a breathing device worn by firefighters that provides breathable air 
+in an atmosphere dangerous to health . 
+5 The radio tele phone urgency signal 'Pan -Pan' is used to indicate that a vessel has a very urgent message to 
+transmit about its safety (for example, fire on board).  
+6 Kaikoura Radio is operated by the Maritime Operations Centre.  
+7 The radio telephone urgency signal 'Mayd ay' is used to indicate that a vessel faces a grave and imminent 
+threat and requires immediate assistance.  
+
+<< Page 6 >>
+ Final report MO -2012 -203 3.1.23.  The Fire Service attended the vessel on its arrival at Lyttelton  Port and at about 1200 on 14 
+September determined that the fire had been extinguished.   
+3.2. Firefighting  and fire -detection  appliances aboard  the Amaltal Columbia  
+3.2.1.  The Amaltal Columbia  had an automatic fire detec tion and fire alarm system.  On the factory 
+deck there were  one smoke detector and two manual call points in the vicinity of the fish 
+processing plant.  There were another six smoke detectors located in other compartments on 
+the factory deck.   There was no fire detector inside  the fis hmeal bagging room, although there 
+was one outside adjacent to  the door . 
+3.2.2.  Portable extinguishers were positioned at various location s throughout the vessel and 
+included ABE  dry powder8, CO 2 and water. There w ere also fire hydrants and hoses positioned 
+at va rious locations throughout the vessel.   A fixed Halon firefighting system was installed in 
+the engine room and ammonia room, and a CO 2 flood system was installed in the auxiliary 
+engine room.   There wa s no fixed firefighting system on the fish processing d eck or in the 
+bagging room.  
+3.2.3.  There were six SCBA  sets on board and nine spare 1,800-litre SCBA  cylinders .  Two complete 
+sets of firefighting  clothing were available for the SCBA  team to use.  
+3.2.4.  The firefighting appliances on  board were in -date and had been serviced and tested regularly 
+by an independent organisation.  The appliances used  to fight the fire functioned correctly.   
+3.3. Maritime Rule s Part 40D Design, Construction and Equipment - Fishing Ships 
+3.3.1.  The Amaltal Columbia  had been  brought into the L loyd's Register safe ship management 
+system in November 1997 , at which time  it was classed as L loyd's Register  Class +100A19.  
+Although the vessel had been  built to  the Lloyd 's Register' s Rules and Regulations , it was also 
+subject to the New Zealand Maritime Rules .  
+3.3.2.  Maritime Rule s Part 40D prescribe d the requirements for the design, construction and 
+equipment of New Zealand fishing ships registered under the Fisheries Acts of 1983 and 
+1996.  
+3.3.3.  Maritime Rule s Part 40D covered  the Amaltal Columbia 's fire protection. The rule had come  
+into force in February 2000 but the Amaltal Columbia  had been  built in 1991 .  In accordance 
+with Part 40D.7 the Amaltal Columbia  had been  approved as compliant via a survey that 
+found it fit for its intended service.  
+3.3.4.  Classification societies10 require that vessels ' machinery and hull s, built under their rules , be 
+surveyed every five years.   It can be an onerous workload to survey all items  on a vessel  during 
+a single inspection at five-yearly intervals. Another approach is to distribute  survey s of items 
+over several years, such that all individual items are surveyed on a five -yearly cycle, but not 
+necessarily at the same time  (called a continuous survey ).  The Amaltal Columbia  was 
+subjected to a continuous survey for  both  machinery and hull.  
+ 
+ 
+                                                        
+8 An ABE t ype dry powder fire extinguisher is a general -purpose fire extinguisher.   
+9 LR +100A1 UMS ( Unmanned Machinery Space ) means it was built un der special survey, out of steel to 
+Lloyd's Register's Rules and Regulations, with on -board mooring and anchoring equipment. UMS means the 
+control engineering equipment has been arranged and installed to allow the vessel to be operated with the 
+machinery s pace unattended.  
+10 A classification society establishes and maintains technical standards for the construction and operation 
+of marine vessels and offshore structures.   
+  
+Final report MO -2013 -203 
+<< Page 7 >>
+ 4. Analysis  
+4.1. Introduction  
+4.1.1.  A fire of this magnitude on board a vessel has t he potential for loss of life, serious injury and 
+significant damage to the vessel .  
+4.1.2.  Ship systems and procedures must deal with the prevention, detection, contain ment and 
+fighting of a fire, without the aid of external emergency services.  Early detection and action 
+are paramount.   In this case the shipboard response to the fire followed standard procedures 
+and was well  conducted by the crew.  
+4.1.3.  The Commission has n ot been able to determine  conclusively  the cause of the fire .  However, 
+several safety issues have been identified that either did hamper or could have hampered the 
+detection of and response to the fire:  
+ the location of fire detector sensors  
+ the flammability  of some materials used on the fish processing deck  
+ the design of the closures on the ventilation grilles around the fish processing deck . 
+4.1.4.  The following sections discuss  the potential sources of ignition for the fire and each of these 
+safety issues.  
+4.2. The fi re 
+4.2.1.  The seat of the fire was in the fishmeal bagging room located at the forward port side of the 
+fish processing factory (shown in Figure 1). The fishmeal bagging room of the Amaltal 
+Columbia 's sister vessel is nearly identical  in layout and content .  A photograph of it is 
+reproduced i n Figure 2. 
+ 
+fishmeal fan blower 
+and electric motor
+bales of fishmeal bagsaft bulkhead of 
+fishmeal bagging roomport hull topside lining
+approximate seat of 
+fire
+ 
+Figure 2 
+Fishmeal bagging room of the Amaltal Columbia 's sister vessel  
+4.2.2.  The seat of the fire was identified by accounts from the  crew who first saw the fire, and the 
+pattern of the burn damage assessed during the scene examination .  
+
+<< Page 8 >>
+ Final report MO -2012 -203 
+bales of fishmeal bags
+fishmeal blower and
+electric motoraft bulkhead of 
+fishmeal bagging room
+approximate seat of fire 
+Figure 3 
+The fishmeal bagging room of the Amaltal Columbia , from approximately the same position as Figure 2  
+4.2.3.  There were six potential sources of ignition identified ; three were discounted as causal and 
+the remaining three  were inconclusive . 
+Potential sources of ignition that were discounted  
+4.2.4.  A fan powered by an electric motor was used to  move fishmeal from the processing plant to 
+the bagging room.  It would have been  possible for the electric motor to overheat  and catch 
+fire, and for burning debris to fall onto the bales of empty polypropylene fishmeal bags stored 
+below .  However, the interior of the electric motor was undamaged ; the damage to the electric 
+motor was  to its exterior as a result of the fire.  The Commission determined that the electric 
+motor for the fishmeal fan  was not the source of ignition.  
+4.2.5.  Two luggage bags  were stored on top of the bales of fishmeal bags.  One bag contained 
+clothing .  The other bag contained a laptop computer.  Although the battery of the laptop  
+computer  could have been  a potential source of ignition , the laptop was neither plugged in nor 
+being charged .  An examination of the laptop showed that the battery and other internal  parts  
+of the computer had  not failed .  The only damage it had suffered was external damage caused 
+by the fire.  The Commission determined that the laptop  was not the so urce of ignition . 
+4.2.6.  It is known that f ishmeal  stored in bulk can spontaneously  combust from the heat generated 
+by oxidation of the fishmeal.   However, full bags of fishmeal were not stored in the bagging 
+room .  The only fishmeal present in the bagging room would have been any residue within the 
+bagging plant  or small amounts on the deck .  The Commission determine d that spontaneous 
+combustion of fishmeal was not a source of ignition.  
+Potential sources of ignition  that could not be discounted  
+Fluorescent lights  (safety issue)  
+4.2.7.  The bagging room was lit by fluorescent lights.  Fluorescent light fittings rely on an internal 
+component called 'ballast', which  protect s the light s from variations in electrical voltage.  Th e 
+ballast in some fluorescent light fittings manufactured before 2000 was made of pitch.  Such 
+light fittings have been known to malfunction and overheat.  Overheating can cause the pitch 
+to liquefy and ignite , which in turn may result in burning pitch fal ling onto whatever is below 
+  
+Final report MO -2013 -203 
+<< Page 9 >>
+ the light fitting11.  The Amaltal Columbia  had been  built in 1991 and the fluorescent light 
+fittings installed then.   
+4.2.8.  The bales of polypropylene bags used for the fishmeal were stored under the fluorescent light 
+fitting.  Polypr opylene is a highly flammable material and would have provided a good source 
+of fuel for the fire.  It also burns with a thick , black , acrid smoke, similar to what was observed 
+on the fish processing deck in the early stages of the fire.  
+4.2.9.  The ballast in flu orescent lights is known to fail for a number of reasons, including: leaving 
+burned -out tubes in the fitting ; using the wrong -sized tubes ; incorrect wiring ; incorrect line 
+voltage ; operation at temperatures below or above the rated limits ; power surges ; and age.  
+4.2.10.  There was no conclusive evidence that the fluorescent light fitting was the source of ignition 
+because the light fitting was totally consumed by the fire.  However, for the reasons given 
+above the possibility could not be ruled out.  
+4.2.11.  Modern  fluore scent light fittings use a different type of ballast.  H owever, there has never 
+been a requirement to replace the older type  on existing ships.  
+4.2.12.  Safety management systems (and more recently MOSS  [Maritime Operator Safety System] ) 
+require ship owners to take  a risk -based approach to their ship operations.  The risk to any 
+vessel that is still fitted with these older -style fluorescent light fittings could  be high.   Therefore 
+ship owners should consider checking and/or replacing them on a voluntary basis, as th ey 
+represent a safety issue for any ship where they are fitted.  
+Electrical extension lead  (safety issue)  
+4.2.13.  An electrical extension lead had been run from a power outlet  in the fish processing factory , 
+along behind a locker and then  through a redundant pipe duct in the steel -framed wooden 
+bulkhead that formed the fishmeal bagging room.  The extension lead had been permanently 
+rigged to supply power to a knife sharpener inside the bagging room .  
+4.2.14.  Electrical cables on ships are normally run in conduits or secured to cable tracks to prevent 
+the vibration associated with operating ships at sea damaging the insulation. The extension 
+lead did not comply with industry best practice.  It was not secured a long its length  and was 
+free to abrade against the bulkhead or where it passed through the pipe duct.  
+4.2.15.  Under Maritime Rules 40D.30 and 32, changes to the electrical system were subject to plan 
+approval, class surveys and inspection.  The system was also su bject to routine planned 
+maintenance. However, because of the ad -hoc nature of fitting the extension lead there was 
+no record of it in the planned maintenance system.  The presence of the cable was not 
+immediately obvious, so it is possible  that its condit ion had not been checked since fitting.  
+4.2.16.  Using an electrical extension lead on board a vessel is not necessarily unsafe, as long as it is 
+fit for purpose  and fitted to industry best practice and its condition is regularly examined as 
+part of a planned maint enance routine.  
+4.2.17.  Worn insulation can result in an earth -fault or short -circuiting and consequent arcing or a 
+build -up of heat.  Any build -up of heat can cause ignition if a suitable source of combustible 
+material is present, such as residual fishmeal or pol ypropylene  bags .  However , the most likely 
+location for abrasion to insulation to occur was not in the immediate vicinity of combustible 
+material , and no equipment was plugged in to the extension lead at the time .  Therefore, the 
+Commission concluded , it was very unlikely that the power lead was the ignition source for the 
+fire, but the possibility could not be excluded.  
+ 
+                                                        
+11 Case Studies: PCBs/Ballast Burnout in Schools , Crandall, Elliott, and Votaw, Applied Occupational and 
+Environmental Hygiene  Vol. 5, Iss. 9, 1990 . 
+ 
+
+<< Page 10 >>
+ Final report MO -2012 -203 The fishmeal fan unit  
+4.2.18.  The fishmeal fan  was fitted with drive belts  to transfer torque from the electric motor to the 
+fan.  The electr ic motor, the drive belts and the fan were enclosed within the fan -blower 
+casing.  If the fan seized or was prevented from turning for any reason, the electric motor 
+would be driving the rubberised fan belts around a stationary pulley .  Slipping drive belt s can 
+cause significant heat, sufficient to begin a fire if combustible material is present .  There was 
+evidence of charred remains within the fan casing, but it could not be established whether 
+they were the cause or a result of the fire.  
+4.2.19.  The Fire Service  report found this potential source of ignition to be  the "most probable cause"  
+but still concluded that the cause of the fire was "unknown".   The Commission concluded that 
+there was insufficient evidence to determine whether the fan unit was the ignition source for 
+the fire, but that it could not be excluded.  
+Finding s 
+1. The seat of the fire was located within bales of empty polypropylene bags 
+stored in the fishmeal bagging room on the fish processing deck.  
+2. The Commission was not able to establish conclusively the source of ignition 
+for the fire.  However, it was about as likely as not to have been either the 
+failure of a fluorescent light fitting or a failure within a fan unit, both of which 
+were located above the seat of the fire.  
+4.3. Crew response  
+4.3.1.  The crew performed a fire drill once per trip.  When interviewed the crew were aware of their 
+responsibilities should a fire occur.   When they discovered the fire the crew responded quickly 
+and their actions were in accordance with the instructions containe d in the Safe Ship 
+Management Manual.  
+4.3.2.  First responders began fighting the fire with appliances immediately to hand.  One crew 
+member notified the bridge and officer  of the watch of the situation, and the remainder of the 
+crew began mustering.  
+4.3.3.  The Commiss ion did not identify any safety issues arising from the actions of the crew. The 
+crew responded with decisive command and control of the situation.  
+4.4. Detecting the f ire  
+4.4.1.  The l ocation of fir e detectors in the fish processing factory was not prescribed under  Maritime 
+Rule s Part 40D .  The vessel was designed with the fishmeal bagging room separated from the 
+fish factory by a plywood bulkhead , and hence  it could be totally enclosed .  It was not required 
+by the Maritime Rules to be treated as a separate compartment with respect to the fire plan.  
+There was a fire detector located outside the compartment and another above the fish 
+processing plant , but none had been fitted inside the bagging room.  
+4.4.2.  How the fire started , and how much ti me elapsed b efore the crew noticed smoke, were  not 
+determined.  When the crew noticed smoke the fire had taken hold and spread quickly .  The 
+early detection of fires is critical for preventing their spreading and thereby minimising the 
+damage caused.  Had a fire detector been fitted in the  fishmeal  bagging room it would have 
+alerted the crew earlier and may have improved their chances of successfully extinguishing 
+the fire  before it spread to the rest of the fish processing deck .  
+4.4.3.  The arrangement was compli ant with Maritime Rules.  However, fire protection rules are a 
+minimum standard and do not exclude a vessel's managers and crew from making their own 
+assessment s of the risks and exceeding the minimum requirements in the interests of safety.  
+  
+Final report MO -2013 -203 
+<< Page 11 >>
+ 4.5. Contain ing the fire  
+4.5.1.  A critical aspect of fire fighting is starv ing the fire of oxygen. This is achieved by closing off all 
+openings through which air can enter a space.  In this case there were  32 ventilation ducts 
+that allow ed air to be suppli ed to the various compa rtments in the vessel.  Three of these  
+supplied air to the fish processing deck.  Each ventilation duct  had a hinged flap that could be 
+closed to shut off the flow of air. The flap was normally propped open by a strut , which was  
+attached to the inside of t he flap.  When the strut was dislodged it w ould naturally hang down 
+and prevent the flap being fully closed.  In order to close and secure the flap  fully, the free end 
+of the strut had to  be folded up behind the flap . 
+4.5.2.  Figure 4 shows t he ventilator flap in its fully open position .  The ventilator flap is hinged at the 
+top and gravity allows  it to swing shut , provided the strut is folded up behind the flap as it 
+swings down.  
+4.5.3.  The operation and inspection of the ventilator flaps were  included in the planned mai ntenance 
+system and the flaps were regularly checked by the crew.  They were also operated during 
+planned fire drills.  
+4.5.4.  During the post -fire examination the flaps were able to be closed and secured as designed , 
+and the master said they had been closed duri ng the firefighting effort.   However, during the 
+fire the crew found it difficult to close the flaps  when unable to see the mechanism through 
+the dense smoke, and were hindered further by the intense heat and  their manoeuvrability 
+being hampered by the fir efighting suits and breathing apparatus.   
+4.5.5.  Fighting fires on board a ship is a time of high stress for the crew, who are working under 
+difficult conditions, as this case demonstrates.  For this reason mechanisms for shutting down 
+ventilators in the event of  fire should be quick, easy and intuitive to operate.  The design of the 
+ones on board the Amaltal  Columbia  did not meet these criteria.  
+4.5.6.  The vessel had been  built before the current Maritime Rule s Part 40D came into force in 
+2000, and the rule applied to new-builds and vessels undergoing major refit, neither of which 
+applied to  the Amaltal Columbia .  
+4.5.7.  When the vessel was allowed to be 'grandfathered'12 into the safe ship management system , 
+compliance  with Maritime Rule s 40D was accepted.   
+4.5.8.  Regardless of whet her the fire flaps were compliant with the Maritime Rules or not, from a risk 
+perspective the owner should have consider ed altering the design of the flaps to make them 
+quick, easy and intuitive to use.  
+4.5.9.  Owing  to the damage caused by the fire, it could not be established why the crew were unable 
+to close the door to the fishmeal bagging room when fighting the fire.  Fully closing the door 
+would have helped to prevent the spread of fire.  
+                                                        
+12 'Grandfathering' is a provision in which an old rule continues to apply to an existing vessel  while a new rule 
+will apply to all future vessels . Those exempt from the new rule are said to have  grandfather rights . 
+
+<< Page 12 >>
+ Final report MO -2012 -203 
+Ventilator openingVentilator damper
+Ventilator damper 
+strut
+Ventilator dogs 
+Figure 4 
+ Ventilator opening with ventilator flap in open position  
+ventilator flap hanging 
+down
+ 
+Figure 5  
+Ventilator opening with strut hanging down , obstructing the flap from closing  fully 
+ 
+  
+Final report MO -2013 -203 
+<< Page 13 >>
+ 4.6. Fuelling  the fire  
+4.6.1.  The fish processing factory was lined with plastic sheeting as required by the rules for food 
+safety.   However, t he rules only consider food safety and not  the consequences in the event of 
+a fire.   
+4.6.2.  The plastic lining melted and appeared to have burnt during the fire , producing thick , acrid 
+smoke that hindered initial firefighting effort s.  An example of the burnt and melted plastic 
+lining can be seen in Figure 6.  Most plastics are highly flammable and will accelerate the 
+spread of  a fire. 
+4.6.3.  Nobody knew  the fire  rating of the plastic lining .  Current maritime rules require that such 
+materials are fire retardant so as to slow or help prevent the spread of fire.  As with the other 
+aspects of ship design referred to above , the vessel had been  built before Pa rt 40D came into 
+force, and requirements around fire -retardant linings had not applied.   
+4.6.4.  From a risk perspective, operators should consider the fire -retardant qualities  of materials  
+used in all areas of a ship prone to fire, especially when changing or refitting any space.  
+melted plastic liningmelted plastic lining
+ 
+Figure 6 
+Photo taken in fish processing factory  
+4.7. Risk 
+4.7.1.  Maritime rules lay out a set of minimum standards with which  ships must comply.  As lessons 
+are learnt from accidents and incide nts, and advances in technology prompt safer systems, 
+the maritime rules evolve to reflect these advances.  
+4.7.2.  As maritime rules change or evolve, there are inevitably grandfathering provisions to avoid 
+unrealistic costs being imposed on owners of existing ves sels.  However, a concept of safety 
+management systems is that owners and operators should take a risk -based approach to their 
+
+<< Page 14 >>
+ Final report MO -2012 -203 operations.  Hazards must be identified  and risks must be assessed and reduced to as low as 
+reasonably practicable to prevent dam age to property and harm to people.  
+4.7.3.  This means that owners and operators cannot rely solely on compliance with the minimum 
+technical standards laid out in maritime rules for meeting their obligations under the other 
+various rules and regulations . 
+4.7.4.  Several e xamples have been  given above of equipment and systems comply ing with the rules 
+of the day but where , if a risk -based approach had been take n, several improvements could 
+have been made that may have prevented or minimised the consequences of this fire.  
+4.7.5.  The fire on  board the Amaltal Columbia  occurred during the time that safe ship managemen t 
+systems were used to manage  the safety of vessels.  Since that time Maritime New Zealand's 
+Maritime Operator Safety System (MOSS) has come into effect.  Since MOSS was i ntroduced 
+Maritime New Zealand has been actively encouraging operators to take a robust, risk -based 
+approach to managing the risks in their operations.  Maritime N ew Zealand  has been 
+promoting this message through education material and publications as wel l as active  
+engagement with operators. The Commission acknowledges Maritime New Zealand 's 
+approach and does not make a recommendation on this issue.   
+ 
+Findings  
+3. The crew had difficulty  completely closing the flaps on the ventilation ducts 
+to the fish processing deck where the fire was located, which would have 
+hindered their  attempts to contain the spread of the fire.  
+4. The fire flaps designed for closing off ventilation ducts in the even t of a fire 
+met the minimum standards prescribed in maritime rules and were capable 
+of being fully closed and secured.  However, their design meant they were 
+not quick, easy and intuitive to operate.  
+5. From a risk perspective, the operator should consider am ending the design 
+of the closing arrangement on all the ventilation ducts to allow quick and 
+easy closing in the event of a fire.  
+6. It could not be established whether the material  used to line the fish 
+processing deck  had fire -retardant properties , but it a ppeared to have 
+burned and likely  accelerated the spread of fire.  
+7. The Amaltal Columbia 's design and systems for the prevention, detection, 
+containment and fighting of a fire met the standards of the applicable 
+maritime rules; however, there were some  aspects that could have been 
+improved with a more r isk-based approach to operations.  
+ 
+  
+  
+Final report MO -2013 -203 
+<< Page 15 >>
+ 5. Findings  
+5.1. The seat of the fire was located within bales of empty polypropylene bags stored in the 
+fishmeal bagging room on the fish processing deck.  
+5.2. The Commission was  not able to establish  conclusively  the source of ignition for the fire.  
+However, it was about as likely than not to have been either the failure of a fluorescent light 
+fitting or a failure within a fan unit, both of which were located above the seat of t he fire.  
+5.3. The crew had difficulty  completely closing the flaps on the ventilation ducts to the fish 
+processing deck where the fire was located, which would have hindered their  attempts to 
+contain the spread of the fire.  
+5.4. The fire flaps designed for closing o ff ventilation ducts in the event of a fire met the minimum 
+standards prescribed in maritime rules and were capable of being fully closed and secured.  
+However, their design meant they were not quick, easy and intuitive to operate.  
+5.5. From a risk perspective,  the operator should consider amending the design of the closing 
+arrangement on all the ventilation ducts to allow quick and easy closing in the event of a fire.  
+5.6. It could not be established whether the material  used to line the fish processing deck had fir e-
+retardant properties , but it appeared to have burned and likely accelerated the spread of fire.  
+5.7. The Amaltal Columbia 's design and systems for the prevention, detection, containment and 
+fighting of a fire met the standards of the applicable maritime rules ; however, there were 
+some aspects that could have been improved with a more risk -based approach to operations.  
+  
+
+<< Page 16 >>
+ Final report MO -2012 -203 6. Safety a ctions  
+General  
+6.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+None identified . 
+Safety a ctions  addressing other safety issues  
+None identified . 
+ 
+ 
+  
+  
+Final report MO -2013 -203 
+<< Page 17 >>
+ 7. Recommendations  
+General  
+7.1. The Commissi on may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case, recommendations have been issued to the Director of Maritime New 
+Zealand . 
+7.2. In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendations  
+No new recommendations identified . 
+ 
+  
+
+<< Page 18 >>
+ Final report MO -2012 -203 8. Key l essons  
+8.1. The e arly detection of fires is critical to preventing their taking hold and spreading.  
+8.2. Older -style fluorescent light fittings are more prone to failure and to start a fire than more 
+modern fittings.  Operators of older ships should consider the risk of not replacing such lights 
+with more modern and safer lights . 
+8.3. Arrangements that are designed to c lose off a space and contain a fire need to be quick, easy 
+and intuitive to use, taking account of the conditions the crew are likely to encounter in a real 
+fire. 
+8.4. The use of fire -retardant materials in the construction and fit -out of spaces on board ships will 
+help to prevent the ignition and spreading of fires.  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+Recent Marine Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+MO-2016 -203 Bulk log carrier  Mount Hikurangi, Crew fatality, during cargo securing operation, 27 
+February 2016  
+MO-2014 -203 Fatal injury, Purse seine fishing vessel,   Captain M. J. Souza ,  24 August 2014  
+MO-2015 -202 Containership Madinah , loss of person overboard, Lyttelton Harbour entrance,  
+2 July 2015  
+MO-2016 -202 Urgent recommendation: Cruise ship Azamara Quest , contact with Wheki Rock, Tory 
+Channel, 27 January 2016  
+MO-2011 -202 Roll-on-roll-off passenger ferry Monte Stello , contact with rock, Tory Channel, 
+Marlborough Sounds, 4 May 2011  
+MO-2014 -201 Dream Weaver , flooding due to structural failure of the hull, Hauraki Gulf, 23 
+February 2014  
+MO-2010 -206 Coastal container ship Spirit of Resolution , grounding on Manukau Bar, Auckland,  
+18 September 2010  
+MO-2014-202 Lifting sling failure on freefall lifeboat, general cargo ship Da Dan Xia , Wellington,  
+14 April 2014  
+11-204 Container ship MV Rena  grounding,  on Astrolabe Reef, 5 October 2011  
+13-201 Accommodation fire on board the log -carrier, Taokas Wisdom , Nelson, 11 July 2013  
+13-202 Bulk carrier, IDAS Bulker , pilotage incident Napier, Hawke's Bay, 8 August 2013  
+12-202 Fishing vessel Torea , collision with uncharted rock, Foveaux Strait, 24 August 2012  
+09-210 Bulk carrier, Taharoa Express , cargo shift, Por t Taharoa, 16 December 2009  
+10-204 Inquiry 10 -204:  Bulk carrier Hanjin Bombay , grounding, Mount Maunganui, 21 June 
+2010  
+10-202 M.V. Anatoki , grounding, off Rangihaeata Head,  Golden Bay, South Island, 6 May 
+2010  
+11-204 Interim Report Marine inquiry 11 -204 Containership MV Rena  grounding on Astrolabe 
+Reef 5 October 2011  
+09-202 Marine Inquiry 09 -202: Passenger vessel Oceanic Discoverer  Fatal injury,  
+Port of Napier 19 February 2009  
+11-201 Passenger vessel Volendam , lifeboat fatality,Port of Lyttelton, New Zealand, 8 January 
+2011  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 13.00         ISSN 1173 -5597 (Print)  
+                 ISSN 1179 -9072 (Online)  

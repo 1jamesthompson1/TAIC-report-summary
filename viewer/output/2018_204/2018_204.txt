@@ -1,0 +1,792 @@
+﻿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Final report MO -2018 -204: Dolphin Seeker , grounding, 27 October 2018  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports shoul d be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any r ecommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Inves tigation Commission.  
+  
+  
+ 
+ 
+ 
+ 
+Final Report  
+Marine inquiry MO-2018 -204 
+Dolphin Seeker , grounding  
+27 October 2018  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : July 2019 
+ 
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is a standing commission of inquiry and 
+an independent Crown entity responsible for inquiring into maritime, aviation and rail accidents and 
+incidents for New Zealand, and  co-ordinating and co -operating with other accident investigation 
+organisations overseas .  The princ ipal purpose of its inquiries is to determine the circumstances and 
+causes of occurrence s with a view to avoiding similar occurrences in the future.  Its purpose is not to 
+ascribe blame to any person or agency  or to pursue (or to assist an agency to pursue ) criminal, civil or 
+regulatory action against a person or agency.  The Commission carries out its purpose by informing 
+members of the transport sector and the public, both domestically and internationally, of the lessons 
+that can be learnt from transport accidents and incidents.   
+ 
+Commissioners  
+Chief Commissioner     Jane Meares   
+Deputy Chief Commissioner    Stephen Davies Howard  
+Commis sioner      Richard Marchant  
+Commissioner      Paula Rose, QSO  
+     
+Key Commission personnel  
+Chief Executive      Lois Hutch inson  
+Chief Investigator of Accidents    Captain Tim Burfoot  
+Investigator in Charge     Robert Thompson  
+General Counsel     Cathryn Bridge  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 1 6, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+ Important n otes 
+Nature of the final report  
+This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
+against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
+Ownership of report  
+This report remains the intellectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is m ade 
+to the Transport Accident Investigation Commission.  
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to ind ustry participants only and not 
+discoverable under the Official Information Act 1982 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
+by, and owned by, the Commission.  
+Verbal probability expressions  
+The expressions listed in the following table are used in this report to describe th e degree of probability 
+(or likelihood) that an event happened or a condition existed in support of a hypothesis.  
+Terminology  
+(Adopted from the 
+Intergov ernmental Panel on Climate 
+Change)  Likelihood of the 
+occurrence/outcome  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ 
+Dolphin Seeker  (image courtesy of Fullers GreatSights )
+
+ 
+   
+Location of accident  
+
+Contents  
+Abbreviation   ................................ ................................ ................................ ................................ ......................  ii 
+Glossary   ................................ ................................ ................................ ................................ ......................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive summary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  2 
+3. Factual information  ................................ ................................ ................................ ................................ ... 3 
+3.1. Background  ................................ ................................ ................................ ................................ ... 3 
+3.2. Narrative  ................................ ................................ ................................ ................................ ....... 5 
+3.3. The Dolphin See ker ................................ ................................ ................................ ......................  7 
+3.4. The safety management system  ................................ ................................ ................................ . 7 
+3.5. Navigation  ................................ ................................ ................................ ................................ ..... 7 
+3.6. Electronic navigation aids  ................................ ................................ ................................ ............  8 
+3.7. The skipper  ................................ ................................ ................................ ................................ ... 8 
+4. Analysis  ................................ ................................ ................................ ................................ ......................  9 
+4.1. General  ................................ ................................ ................................ ................................ ..........  9 
+4.2. What happened  ................................ ................................ ................................ ............................  9 
+4.3. Electronic navigation aids  ................................ ................................ ................................ .........  10 
+5. Findings  ................................ ................................ ................................ ................................ ..................  11 
+6. Safety issue  ................................ ................................ ................................ ................................ ............  12 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  13 
+General  ................................ ................................ ................................ ................................ ...................  13 
+Safety actions addressing safety issues identified during an inquiry  ................................ .................  13 
+Safety actions addressing other safety issues  ................................ ................................ .....................  13 
+8. Recommendations  ................................ ................................ ................................ ................................ . 14 
+General  ................................ ................................ ................................ ................................ ...................  14 
+Recommendations  ................................ ................................ ................................ ................................ . 14 
+9. Key lesson  ................................ ................................ ................................ ................................ ..............  15 
+ 
+ 
+Final Report MO -2018 -204 | Page i Figures  
+ 
+Figure 1  Fullers  GreatSights' tourist map of the Bay of Islands, showing locations of intere st .............  4 
+Figure 2  Excerpt from chart of the Bay of Islands showing the morning voyage of the Dolphin Seeker  5 
+Figure 3  Excerpt of chart of the Bay of Islands showing the afternoon voyage of the Dolphin Seeker  .. 6 
+ 
+ 
+ 
+ 
+  
+Page ii | Final Report MO -2018 -204 Abbreviation  
+AIS   Automatic Identification System  
+Fullers GreatSights  Fullers GreatSights L imited 
+ 
+Glossary  
+EROAD  a proprietary , GPS-based tracking and monitoring system commonly used to 
+track and monitor land -based vehicles  
+Knot  a knot is  equal to one nautical mile  per hour , or about 1.8 kilometres per hour
+   
+  
+Final Report MO -2018 -204 | Page iii Data summary  
+Vehicle particulars  
+Nam e: Dolphin Seeker  
+Type : passenger  
+Limits:  Restricted Limits  (inshore)  
+Length:  23.38  metres  
+Breadth:  7.80  metres  
+Built:  2001 
+Propulsion:  two MTU 378kW single screw  
+Service speed:  18 knots  
+Owner/ Operator : Fullers GreatSights  Limited 
+Port of registry:  Bay of Islands  
+Minimum crew:  two 
+Date and time  
+ 27 October 2018  at approximately 14141  
+Location  
+ Bay of Islands  
+Persons involved  
+ skipper and five crew, and 47 passengers  
+Injuries  
+ none reported  
+Damage  
+ minor  damage  to the vessel's hull, extensive damage to both 
+propellers  
+                                                        
+1 Times in this report are New Zealand Daylight Saving Time (Co -ordinated Universal Time + 13 hours), and 
+are expressed in the 24 -hour mode.  
+
+Final Report MO -2018 -204 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. During the afternoon of 27 October 2018, the restricted -limits passenger catamaran Dolphin 
+Seeker  was on its second dolphin -watching tourist trip of the day in the Bay of Islands , with six 
+crew and 47 passengers on board.  
+1.2. The skipper had located a pod of dolphins near the Brampton Bank area and was 
+manoeuvring the Dolphin Seeker  to stay with the pod, at the same time as giving a 
+commentary over the public address system, when the vessel ran aground on rocks at slow 
+speed.  
+1.3. Nobody was injured, but the vessel sustained significant damage to both propellers and minor 
+damage to its hull.  The passengers were transferred to another company vessel.  The Dolphin 
+Seeker  was re -floated on the rising tide and towed back to its berth.  
+1.4. The Transport Accident Investigatio n Commission (Commission) found  that the grounding 
+occurred because the skipper did not notice  that the vessel had moved into shallow waters 
+while focusing on giving a passenger commentary at the same time as manoeuvring the 
+vessel to maintain proximity to  the pod of dolphins.  
+1.5. The Commission also found that the skipper was effectively working alone in a high -risk 
+situation . There were  few or no defences in place to prevent the one-person errors  that 
+result ed in the grounding, such as fully utilising the fea tures of the vessel's electronic 
+navigation equipment.  
+1.6. The Commission identified a safety issue  that the operator's safety management system did 
+not fully address the risk of vessel groundings and collisions where its skippers were  in effect 
+working alone  in the wheelhouse . 
+1.7. The operator took safety actions  to address this safety issue.  Therefore no new 
+recommendations were required.  
+1.8. A key lesson  arising from th is inquiry is that when skippers are operating vessels alone in high -
+risk situations, there shou ld be adequate measures in place to minimise the risk of one -
+person errors resulting in maritime accidents and incidents.  
+ 
+  
+
+<< Page 2 >>
+ Final Report MO -2018 -204 2. Conduct of the inquiry  
+2.1. On 27 October  2018  the Rescue Coordination Centre New Zealand notified the Transport 
+Accident Investigation Commission that the Dolphin Seeker  had run aground in the Bay of 
+Islands.  
+2.2. On 27 October 2018 t he Commission opened an  inquiry under section 13(1)b of the Transport 
+Accident Investigation Commission Act 1990, and appointed an investigator in charge .  
+2.3. On 28 October 2018, three investigators were deployed to the Bay of Islands  to conduct a site 
+investigation .  
+2.4. The investigators interviewed:  the operator 's general manager  and operations manager, the 
+vessel 's skipper, a vessel crew member , and the operator 's training skipper. The investigators 
+also gathered evidence from the vessel  and company offices , including photographs, 
+documents and electronic data.  
+2.5. On 22 May 2019 the Commission approved the draft report for circulation to interested 
+persons. A joint submission was received by three of the interested persons.  
+2.6. On 24 July 2019 the Commission approved the final report for publication.   
+ 
+ 
+ 
+  
+Final Report MO -2018 -204 
+<< Page 3 >>
+ 3. Factual information  
+3.1. Background  
+3.1.1.  Fullers Bay of Islands Limited  trading as Fullers GreatSights  is a subsidiary company of 
+Inter City Group (NZ) L imited. Fullers GreatSights operates 10 passenger vessels and a coach 
+service , providing mainly tourist trips in and around the Bay of Islands, New Zealand.  
+3.1.2.  The Dolphin Seeker  was one of the vessels operate d by Fullers GreatSights .  On the day of the 
+accident  the Dolphin Seeker  was delivering one of Fullers GreatSights ' tourism products , the 
+'Hole in the Rock Dolphin Cruise '.  The cruise was offered twice per day , the first departing 
+Paihia at 0900, and the second at 1330.  
+3.1.3.  Passengers embarked at Paihia , then the vessel made the short trip to Russell to pick up 
+other passengers before  beginning the  cruise through the Bay of Islands towards the Hole in 
+the Rock.2  There were several tourist features along the way, where the skipper slowed the 
+vessel and deliver ed commentary related to the point s of interest  (see Figure 1).  
+3.1.4.  During the cruise  the crew  would keep a look -out for dolphins.  If a pod of dolphins were 
+spotted , the skippe r could  deviate from the  planned  track to intercept and follow the pod , 
+giving commentary over the public address system.
+                                                        
+2 A renowned feature of Piercy Island in the outer Bay of Islands; there is a hole through the middle of the 
+island large enough for tourist vessels to pass through.  
+
+<< Page 4 >>
+ Final Report MO -2018 -204 
+ 
+Figure 1 
+Fullers  GreatSights'  tourist map of the Bay of Islands , showing locations of interest  
+Final Report MO -2018 -204 
+<< Page 5 >>
+ 3.2. Narrative  
+3.2.1.  On the morning of 27 October 2018, t he Dolphin Seeker  was at its overnight berth in Ōpua 
+(see Figure 2) .  The skipper and crew went on board  and prepared the vessel for the day . 
+3.2.2.  At about 0 805 the Dolphin Seeker  departed its berth in Ōpua for Paihia , where it board ed 100 
+passengers.  The vessel then  departed Paihia for Russell , where it boarded another 30 
+passengers.   The Dolphin Seeker  then departed Russell at about 0920 for the morning 'Hole 
+in the Rock Dolphin Cruise '.  The trip was completed without incident. During the trip the 
+skipper had a radio call from another vessel , informing them  that dolphins were in the region 
+of Brampton  Bank . 
+Brampton Bank
+Russell
+ŌpuaPaihiaHole in the 
+RockTrack of 
+Dolphin Seeker
+(knots)
+ 
+Figure 2 
+Excerpt from chart of  the Bay of Islands showing the morning voyage of the Dolphin Seeker  
+3.2.3.  The skipper navigated the Dolphin Seeker  to Brampton Bank , where they slowed  the vessel  to 
+enable the passengers to watch dolphins at about  1105. After the  passengers  had spent 
+some time dolphin watching , the Dolphin Seeker  returned to Paihia and then Russell to 
+disembark passengers. The Dolphin Seeker  was alongside back in Paihia by 1250.  
+3.2.4.  The reported weather during the afternoon was small waves and a gentle  breeze.  
+3.2.5.  Passengers embarked in Paihia for the afternoon voyage at about 1315.   The Dolphin Seeker  
+then went to Russell , where  more passengers  boarded . 
+
+<< Page 6 >>
+ Final Report MO -2018 -204 
+PaihiaBrampton Bank
+Russellgroundingstarted 
+following 
+dolphins  
+Figure 3 
+Excerpt of chart of  the Bay of Islands showing  the afternoon voyage of the Dolphin Seeker  
+3.2.6.  The Dolphin Seeker  departed Russell for its afternoon voyage at about 1346 , with 47 
+passengers on  board . The skipper took the vessel directly to the area near  Brampton Bank 
+where they had found the dolphins on the morning  trip (see Figure 3) .  A pod of dolphins was 
+located at about 1400.  
+3.2.7.  The skipper , who  was alone in the wheelhouse , slowed the vessel and b egan following the pod 
+of dolphins at a low speed  of up to about 5  knots  at times .  At the same time the skipper  
+began delivering the tourist commentary about the dolphins over the public address system . 
+3.2.8.  Having been following the dolphins for about 15 minutes,  the Dolphin Seeker  entered an area 
+of shallow water and ran aground  on rocks at low speed.  The  skipper was not able to 
+manoeuvre the vessel off the rocks.  The crew made an internal  inspection of the hull s and 
+found no evidence that the vessel was taking on water.  
+3.2.9.  The skipper contacted Fullers GreatSights ' management and notif ied them of the grounding.  
+Because there were other company  vessels in the vicinity  and the Dolphin Seeker  appeared to 
+be resting stabl y on the rocks , the skipper did not make a radio distress call.  They agreed to 
+transfer the passengers to another Fullers GreatSights  vessel of a similar size to the Dolphin 
+Seeker , the Te Maki . 
+3.2.10.  The Te Maki  and a smaller company vessel  the Tutunui  were standing  by, ready to assist the 
+Dolph in Seeker , by about 1430.  The Tutunui  was used to transfer a ll the passengers to the Te 
+Maki .  The transfer operation was complete and the passengers disembarked at the wharf in 
+Paihia by 1540 , one hour and 40 minutes after the vessel ran aground . There w ere no reports 
+of passenger or crew injury .  
+Final Report MO -2018 -204 
+<< Page 7 >>
+ 3.2.11.  The time of the grounding was about two hours before low water.  The incoming tide lifted the 
+Dolphin Seeker  off the rocks  at about 1830 , whereupon  it was towed back to its berth in 
+Ōpua.  
+3.2.12.  An underwater inspection revealed that t he grounding had caused minor damage to the hull s, 
+but both propellers were significantly damaged.  
+3.3. The Dolphin Seeker  
+3.3.1.  The Dolphin Seeker  was a 23. 38-metre catamaran constructed of aluminium.  The vessel had 
+been built in 2001. 
+3.3.2.  The Dolphin Seeker 's operating limit was Restricted Limits (inshore )3 in the Northland, 
+Auckland and Great Barrier Island areas .  
+3.3.3.  The minimum safe crewing certificate issued by Maritime New Zealand allowed the Dolphin 
+Seeker  to carry up to 230 passengers . The minimum number of crew members required on  
+board was dependent on how many passengers there were. One of the crew members had to  
+hold an Inshore Launch Master certificate or higher , and one of the crew members had to  hold 
+a Marine Engineer Class 6 certifi cate or higher. The same crew member could  hold both 
+certificates.  There were six crew  members  on board during the voyage in which the vessel  
+grounded .  
+3.3.4.  Paper charts were carried on board .  The vessel was equipped with the following e lectronic 
+navigation  and monitoring systems : 
+ SIMRAD NSS12 evo2 series  incorporating  a chart plotter with AIS , depth sounder  
+and r adar  
+ MTU4 engine displays  
+ two very-high-frequency radios  
+ an EROAD5 unit  
+ autopilot.  
+3.4. The safety management system  
+3.4.1.  Fullers GreatSights  was subject to Maritime Rule s Part  19, Maritime Transport Operator - 
+Certification and Responsibilities.  Under this rule Fullers GreatSights  operated under a 
+Maritime Operator Safety System . 
+3.4.2.  Underpinning the safety system is an operator's  Maritime Transport Operator Plan, which must 
+be audited and approved by Maritime N ew Zealand . 
+3.4.3.  Once a plan has been approved , Maritime N ew Zealand  issues the operator with a Maritime 
+Transport Operator Certificate.   Each vessel in an operator's fleet is  issued  with a certificate of 
+survey by a M aritime New Zealand  authorised surveyor.  
+3.4.4.  The Maritime Transport Operator Plan contained all the various policies, guidelines and 
+requirements of the Dolphin Seeker . 
+3.5. Navigation  
+3.5.1.  The skipper was solely responsible for the Dolphin Seeker 's navigational watch , that is to say 
+the skipper was routinely alone in the wheelhouse  during the voyage. The skipper was also 
+responsible for delivering the tourist commentary as necessary.   At the discretion of the 
+                                                        
+3 Restricted Limits (inshore) means within five nautical miles of the coast in certain area s. 
+4 MTU is a manufacturer of commercial internal combustion engines  
+5 A proprietary, GPS -based tracking and monitoring system commonly used to track and monitor land -based 
+vehicles.  
+
+<< Page 8 >>
+ Final Report MO -2018 -204 skipper , other crew would occasionally deliver the tourist commentary instead of the skipper, 
+usually for the purpose of training the crew .  
+3.5.2.  The Dolphin Seeker 's standing orders stated:  
+LOOK -OUT Every Skipper must at all times maintain a proper look out by sight 
+and hearing as well  as by all available means appropriate in the prevailing 
+circumstances and conditions, so as to make full appraisal of the situation and 
+the risk of collision . 
+3.5.3.  The Dolphin Seeker 's safe navigation policy stated:  
+At certain times the need to provide commentary could distract the Skipper from 
+the safe navigation of the vessel. At such times the commentary is to be 
+suspended until conditions are such that it is safe for the commentary to resume.  
+3.5.4.  The operator prohibited skippers d elivering  tourist commen tary at certain times as the risk to 
+navigation was considered too high.  Those times included when its vessels transited the Hole 
+in the Rock.  
+3.6. Electronic navigation aids  
+3.6.1.  In 2014 Maritime New Zealand  had introduced SeaCert, a new certification framework fo r 
+seafarers.  As part of transitioning older qualifications to the new system Maritime New 
+Zealand had run  training workshops to refresh and update the knowledge of those holding the 
+older qualifications.  The workshop s had included training for electronic  navigation aids.  
+3.6.2.  The skipper  had attended one of the workshop s, following which  the company had decided  to 
+improve the use of electronic navigation aids  on its vessels .  Fullers GreatSights  had adopted 
+a standardised electronic chart navigation system across its fleet and engaged an external 
+provider to provide additional training for its skippers on its use.   The skipper of the Dolphin 
+Seeker had received this additional training.  
+3.6.3.  The Dolphin Se eker's safe navigation policy stated:  
+Electronic navigational aids such as GPS, Chart Plotter, Radar and AIS  [automatic 
+identification system ], are to be used to assist with the safe navigation of the 
+vessel; however there is to be no over reliance on thes e aids in lieu of 
+maintaining a n efficient visual lookout and reference to the proper navigational 
+charts for the area.  
+3.7. The skipper  
+3.7.1.  The s kipper had been  issued  with a Commercial L aunch  Master certificate in 1998 and a 
+Marine Engineer C lass 5 certificate in 2008. Both the Commercial Launch Master and the 
+Marine Engineer Class 5  certificates were  higher qualifications than those required by the 
+minimum safe crewing certificate .  
+3.7.2.  The skipper had started working at Fullers GreatSights  in 2000  and had been involved in all 
+areas of sea -going operations.  
+3.7.3.  Maritime New Zealand had issued the skipper  with a Pilotage Exemption Certificate for the 
+Bay of Islands in 2011 , which the skipper  required to pilot  Fullers GreatSights ' largest 
+passenger vesse l. A Pilotage Exemption Certificate confirms  that the skipper has a thorough 
+navigational knowledge of the  local area and has met the requirements for piloting vessel s 
+larger than 500 gross tonnes in designated pilotage areas ; they are exempt from the 
+requ irement to use  an independent marine pilot.  The Pilotage Exemption Certificate had 
+expired in 2016 , and had not been renewed due to the large vessel being retired from the 
+fleet. 
+ 
+Final Report MO -2018 -204 
+<< Page 9 >>
+ 4. Analysis  
+4.1. General  
+4.1.1.  The Dolphin Seeker  grounded on rocks at low speed and in benign weather conditions.  
+Although nobody was injured and the watertight integrity of the  vessel remained  intact, any  
+grounding of a passenger vessel is of concern.  It is an indication that the safety system ha s 
+not necessarily worked .  System failures increase the likelihood of repeat accidents , 
+potentially with serious consequences.  
+4.1.2.  There is no suggestion that mechanical or equipment failure contributed to the grounding .  It 
+is very likely that the skipper became distracted by the simultaneous tasks of following the 
+pod of dolphins and giving the passenger commentary over the public address system, to the 
+detriment of monitoring the progress of the vessel in relation to navigation dangers.  
+4.1.3.  The following analysis considers  the circumstances leading up to the grounding , and the 
+safet y issue that the operator's safety management system did not fully address the risk of 
+vessel groundings and collisions where its skippers were  in effect working alone  in the 
+wheelhouse . 
+4.1.4.  The operator has taken a number of safety actions to address this safety issue.   Consequently, 
+there was no need for the Commission to make a recommendation.  
+4.2. What happened  
+4.2.1.  The skipper had ample experience driving the Dolphin Seeker  and was familiar with th e format 
+of the trips and the general routes that were covered.  When the Dolphin Seeker  neared  the 
+pod of dolphins, the skipper followed the usual routine of maintaining proximity  with but 
+keeping clear of the pod to avoid disturbing the dolphins.  This t ask involved frequent 
+manoeuvring of the vessel by engaging and disengaging the engines from time to time.  In 
+itself the task was not onerous.  
+4.2.2.  The second simultaneous task for the skipper was to give the commentary over the public 
+address system, again no t in itself an onerous task.  
+4.2.3.  However, the dolphins were in an area close inshore and in the shallows.  The skipper appears 
+to have become fully engaged with keeping the Dolphin Seeker  close to  the pod and delivering 
+the commentary, to the detriment of moni toring the vessel's proximity to navigation hazards.  
+4.2.4.  In human factors terms the skipper lost situational awareness, and did not realise that the 
+vessel was navigating close to rocks  until it ran aground on them.   Once a person loses 
+situational awareness t heir ability to realise th at fact diminishes with time, unless they are 
+prompted by someone or by some form of alarm .  There was nobody else in the wheelhouse to 
+prompt the skipper.  The potential for the electronic navigation system to have alerted the 
+skipper is discussed in the following section.  
+4.2.5.  The operator had identified the risk of skippers becoming distracted by giving commentary, 
+but had only really identified the risk in certain situations , such as transiting the Hole in the 
+Rock. The nature of the trips meant that skippers were expected to take their vessels off the 
+routes between known tourist points of interest in order to fulfil a key feature of the trips, 
+watching dolphins.  Within the Bay of Islands t he operator applied  few restrictions on where 
+the vessels could go.  Therefore, it was foreseeable that its vessels could and would from time 
+to time navigat e close to navigational dangers in order to connect with and follow pods of 
+dolphins.  
+4.2.6.  The operator has partially addressed this risk by prohibiting all skippers within its fleet from  
+deliver ing significant commentary while navigating vessel s, thus allowing skippers to 
+concentrate solely on manoeuvring their vessels and staying clear of navigational hazards and 
+other vessels , and also require d a second crew member to assist in the wheelhouse in those 
+cases . 
+
+<< Page 10 >>
+ Final Report MO -2018 -204 4.3. Electronic navigation aids  
+4.3.1.  The skipper of the Dolphin Seeker  lost situational awareness and put the vessel into shallow 
+water on a collision course with the rocks . That error was not identif ied or rectified before the 
+vessel grounded.  
+4.3.2.  Human error is inevitable , regardless of an individual's experience and expertise, so a primary 
+aim of safety management is to put defences in place to ' trap' and rectify those errors before 
+they contribute  to an accident.  Electronic navigation aids can be a good way to improv e 
+navigation safety.  
+4.3.3.  The operator's initiative to standardise the electronic aids on all vessels in its fleet was a 
+positive action .  It meant skippers transferring between vessels w ould already be familiar with 
+the navigation equipment.  
+4.3.4.  The skipper was competent in using the electronic navigation aids on the Dolphin Seeker , and 
+they were switched  on and available for immediate use.  However,  the skipper did not 
+routinely  use them  to full effect and neither did  some  of the operator's other skippers.  
+4.3.5.  One reason for some skippers not routinely using the electronic aids was that most operations 
+were tourism based and only occurred in good weather.  The skippers were fully familiar with 
+the Bay of Islands area and they usually navigated visually.  Adequate r isk mitigation appeared 
+to be  in place, and the Maritime  Transport Operator Plan requirement appeared to be 
+satisfied,  because the electronic navigation aids were available immedi ately should they be 
+required  for any reason .  
+4.3.6.  However, a key component of using electronic navigation aids effectively is that the users 
+must be fully current and practi sed in their use so that they can seamlessly switch back and 
+forth between visual and electronic navigation.  That ability  depends on their routine and 
+frequent use of the equipment , and the equipment being set up for the conditions at the time.   
+4.3.7.  The Commission has raised the issue of ineffective or improper use of electronic navigation 
+aids in  two other recent inquiries .6  In one case  the electronic navigation aids were not 
+configured correctly for im mediate use.  In both cases the alarms were either not set or 
+silenced, or were noticed by the crew and not acted on.  Although both these cases involved 
+large ocean -going ships, the proper and effective use of electronic navigation aids is equally 
+applicable to smaller , restricted -limit vessels.  
+4.3.8.  There were at least two available features of electronic navigation equipment that could have 
+been used to improve navigation  safety , and either  would likely have prevented this grounding : 
+ the chart  plotter could have been used to effectively 'geo-fence ' hazards such as the 
+rocks .  In geo-fencing, certain geographic areas are defined in the chart plotter and set 
+up so  that an alarm is given  when a vessel moves into that area.  The equipment 
+onboard the Dolphin Seeker could have been used to set a proximity alarm around a 
+way point located  on particu lar hazards such as the reef.   Due to the repetitive nature of 
+the Dolphin Seeker 's mission , and the common equipment across the fleet,  it would be 
+achievable to geo-fence most navigational hazards  within the Bay of Islands  
+ the depth sounder could have  had an alarm set to alert the skipper  when the vessel 
+moved into shallow  water . 
+4.3.9.  Since  this grounding  the operator has require d all vessels in its fleet to set the depth sounder 
+to alarm if the depth of water under th e keel reduces to a pre -set value.    
+  
+                                                        
+6 Inquiry MO -2016 -204 Molly Manx  (grounding) and inquiry MO -2017 -201 L'Austral  (collision with rock).  
+Final Report MO -2018 -204 
+<< Page 11 >>
+ 5. Findings  
+5.1. The Dolphin Seeker  ran aground on rocks because the skipper became focused on giving a 
+passenger commentary at the same time as manoeuvring the vessel to maintain proximity to a 
+pod of dolphins, and did not notice the vessel had moved into shallow  waters.  
+5.2. The skipper was effectively working alone in a high -risk situation , with little or no defences in 
+place to prevent the one-person errors that result ed in the grounding.  
+5.3. There were features of the various electronic navigation aids on board the Dolphin Seeker  
+that, if utilised, could have prevented this grounding.  
+5.4. The operator has taken a number of safety actions to minimise the risk of skippers becoming 
+distracted from the core task of navigation safety.  
+ 
+  
+
+<< Page 12 >>
+ Final Report MO -2018 -204 6. Safety issue  
+6.1. The operator's safety management system did not fully address the risk of vessel groundings 
+and collisions where its skippers were  in effect working alone  in the wheelhouse .  
+  
+Final Report MO -2018 -204 
+<< Page 13 >>
+ 7. Safety actions  
+General  
+7.1. The Commission classifies  safety actions  by two types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission during an inquiry that would otherwise result in the Commission 
+issuing a recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally result in the Commission issuing a recommendation.  
+Safety a ctions  addressing safety issues identified during an inquiry  
+7.2. Safety action s taken by the operator post -incident are outlined below:  
+ internal investigation was carried out , which included individual interviews with all 
+involved and group debriefs  
+ a hazard review was carried out around skippers giving commentary and maintaining a 
+navigational watch  
+ implemented compulsory use of depth alarms where  fitted  
+ changes to policies and procedure s across the company's  Maritime  Transport Operator 
+Plan 
+ management oversight of conduct out on the water has been increased with the use of 
+electronic tools within the EROAD  suite of products  
+ in March 201 9 Maritime New Zealand carried out a M aritime Operator Safety System  
+audit . The M aritime New Zealand  auditor commented that the crew's "reaction to 
+emergency procedures was of a very good standard" .   
+Safety a ctions  addressing other safety issues  
+7.3. None identified . 
+  
+
+<< Page 14 >>
+ Final Report MO -2018 -204 8. Recommendations  
+General  
+8.1. The Commissi on may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.    
+8.2. In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recommendations  
+8.3. No new recommendations  were  issued . 
+  
+Final Report MO -2018 -204 
+<< Page 15 >>
+ 9. Key l esson  
+9.1. When skippers are operating vessels alone in high -risk situations, there should be adequate 
+measures in place to minimise the risk of one -person errors resulting in maritime accidents 
+and incidents.  
+  
+  
+  
+  
+   
+  
+ 
+ 
+ 
+ 
+Recent Marine Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+ 
+MO-2017 -204 Passenger vessel Seabourn Encore. breakaway from wharf and collision with bulk 
+cement carrier  at Timaru, 12 February 2017  
+MO-2017 -203 Burst nitrogen cylinder causing fatality, passenger cruise ship Emerald Princess, 9 
+February 2017  
+MO-2017 -205 Multipurpose container vessel Kokopo Chief , cargo hold fire, 23 September 2017  
+MO-2017 -202 Passenger vessel L'Austral , grounding, Milford Sound, Fiordland, 9 February 2017  
+MO-2016 -206 Capsize and foundering of the charter fishing vessel Francie , with the loss of eight 
+lives, Kaipara Harbour bar, 26 November 2016  
+MO-2016 -202 Passenger ship, Azamara Quest , contact with Wheki Rock, Tory Channel, 27 January 
+2016  
+MO-2017 -201 Passenger vessel L'Austral  contact with rock Snares Islands, 9 January 2017  
+MO-2016 -201 Restricted -limits passenger vessel the PeeJay V , Fire and sinking , 18 January 2016  
+MO-2016 -204 Bulk carrier, Molly Manx , grounding, Otago Harbour, 19 August 2016  
+MO-2016 -205 Fatal fall from height on bulk carrier, New Legend Pearl , 3 November 2016  
+MO-2015 -201 Passenger ferry Kea, collision with Victoria Wharf, Devonport, 17 February 20 15 
+Interim Report 
+MO-2017 -203 
+ Burst nitrogen cylinder causing fatality on board the passenger cruise ship Emerald 
+Princess , 9 February 2017  
+MO-2012 -203 Fire on board Amaltal Columbia , 12 September 2012  
+MO-2016 -203 Bulk log carrier Mount Hikurangi, Crew  fatality, during cargo securing operation, 27 
+February 2016  
+MO-2014 -203 Fatal injury, Purse seine fishing vessel,  Captain M. J. Souza ,  24 August 2014  
+MO-2015 -202 Containership Madinah , loss of person overboard, Lyttelton Harbour entrance,  
+2 July 2015  
+MO-2016 -202 Urgent recommendation: Cruise ship Azamara Quest , contact with Wheki Rock, Tory 
+Channel, 27 January 2016  
+MO-2011 -202 Roll-on-roll-off passenger ferry Monte Stello , contact with rock, Tory Channel, 
+Marlborough Sounds, 4 May 2011  
+MO-2014 -201 Dream Weaver , flooding due to structural failure of the hull, Hauraki Gulf, 23 
+February 2014  
+MO-2010 -206 Coastal container ship Spirit of Resolution , grounding on Manukau Bar, Auckland,  
+18 September 2010  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 13.00        ISSN 1173 -5597 (Print)  
+                ISSN 1179 -9072 (Online)  

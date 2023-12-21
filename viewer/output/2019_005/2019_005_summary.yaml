@@ -1,0 +1,62 @@
+- name: Situational Awareness
+  percentage: 30
+  explanation: The pilot's loss of situational awareness was a critical factor in the accident. The report states that "the pilot was likely deceived by a well-documented visual illusion with nvgs caused by a low contrast surface" (4.5 (unvalidated and unrepairable quote)). This illusion affected the pilot's judgment of height and spatial orientation, leading to controlled flight into terrain (CFIT) (4.1). The pilot's reliance on GPS for navigation and NVGs to maintain visual reference was not sufficient to prevent the unexpected impact with the sea (4.1).
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: Human error and assumptions played a significant role in the accident. The pilot was deceived by the visual illusion of a calm sea surface, which is a known issue with NVGs (4.5). Additionally, the NVIS crew member used incorrect terminology ("speed" instead of "rate of descent"), which did not effectively communicate the critical information to the pilot (3.30). This miscommunication contributed to the pilot's confusion and failure to control the descent rate (3.30).
+- name: Crew Resource Management
+  percentage: 15
+  explanation: Ineffective Crew Resource Management (CRM) was a contributing factor. The NVIS crew member's training was limited, and they used incorrect terminology, which failed to convey the message about the descent rate to the pilot (3.30). The lack of comprehensive CRM training for non-pilots acting as crew members and unclear guidelines on their role during NVIS operations created a risk that the NVIS crew would not have effective CRM (3.95).
+- name: Training and Competency
+  percentage: 10
+  explanation: The pilot's minimal recent experience with NVGs was a contributing factor. Although the pilot met the minimum recency requirement for NVG operations, their actual logged flight time on NVGs over the last 90 days was less than one hour (3.24). This lack of recent experience may have affected the pilot's ability to question their impression of the dark area beyond the cloud (3.26).
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: The report identified a lack of robust regulatory framework to support NVIS activity in New Zealand, with risk controls for HAA and NVIS operations significantly lagging behind other jurisdictions (4.8). The CAA's guidance on NVIS helicopter operations was deemed no longer fit for purpose (3.79).
+- name: Adherence to Safety Procedures
+  percentage: 5
+  explanation: The helicopter was overloaded, exceeding the maximum certified weight limit by approximately 300 kg (3.102). This indicates a failure to adhere to safety procedures regarding aircraft loading, although it was considered unlikely to have influenced the accident directly (3.98).
+- name: Emergency Response Preparedness
+  percentage: 5
+  explanation: The crew was unable to locate some of the emergency survival equipment, despite it being accessible (3.113). This indicates a lack of preparedness in ensuring that survival equipment could be used effectively in an emergency.
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The operator's exposition for single-pilot VFR operations into the Southern Ocean was inadequate to manage the associated risks (4.6). This suggests issues with the organizational safety culture in terms of documenting and communicating procedures for high-risk operations.
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention in the report of fatigue being a contributing factor to the accident.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The report does not indicate that a lack of training or familiarity with equipment contributed to the accident.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'While risk management and analysis are important, the report does not specifically attribute the accident to a failure in this area.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is no evidence in the report to suggest that maintenance and inspection regimes were a factor in the accident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The accident was not attributed to issues related to the use of automation.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions did not directly contribute to the accident, as the report focuses on the visual illusion experienced by the pilot using NVGs and not on adverse weather impacting the flight.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'Although there was a communication issue between the pilot and the NVIS crew member, it is more accurately described under the theme of Human Error and Assumptions and Crew Resource Management.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the report that contributed to the accident.

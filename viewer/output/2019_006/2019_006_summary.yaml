@@ -1,0 +1,58 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: The investigation found that "both pilots were fit and healthy, and fatigue was not a factor" (3.10). Therefore, fatigue management did not contribute to the accident.
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: The pilot of ZK-CBY "did not see ZK-WAK in time to avoid the collision" (4.6), and the pilots "either did not consider the other aeroplane to be a threat or they were not actively listening to the content of the calls" (3.24). This indicates that human error and assumptions played a significant role in the accident.
+- name: Training and Competency
+  percentage: 10
+  explanation: The pilot of ZK-CBY "did not meet the flight time requirement for the issue of a commercial parachute drop rating" (4.2), but this was not considered a contributing cause of the mid-air collision. However, the pilot was flying a non-standard and non-compliant join, as they had been instructed during training (4.3), indicating that training and competency were contributing factors.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no mention in the document of issues related to training and familiarity with equipment contributing to the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that crew resource management was a factor in the mid-air collision.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 30
+  explanation: The pilot of ZK-CBY was "flying a non-standard and non-compliant join" (4.3), and this non-standard procedure had become an "accepted routine practice at Masterton" (3.36). The lack of adherence to safety procedures was a significant contributing factor to the accident.
+- name: Organizational Safety Culture
+  percentage: 15
+  explanation: The "passive acceptance of the non-compliant behaviour" and "the resistance to adopting an aerodrome SMS indicate that the safety culture at Masterton was deficient" (3.39). This suggests that organizational safety culture was a contributing factor to the accident.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: While the document does not explicitly state that risk management and analysis were factors, the existence of a non-compliant procedure that was not addressed (3.36) suggests a lack of effective risk management.
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: The document indicates that there was a lack of regulatory oversight and compliance, as evidenced by the non-standard joining procedure that had become accepted practice (3.36) and the lack of communication between CAA and other bodies regarding responsibilities for safe operation of unattended aerodromes (4.13).
+- name: Situational Awareness
+  percentage: 10
+  explanation: The pilots' lack of situational awareness contributed to the accident, as they did not see each other in time to avoid the collision (3.3, 3.27).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that emergency response preparedness was a factor in the mid-air collision.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: Both aeroplanes were in an airworthy condition and no mechanical issues were identified (3.10), indicating that maintenance and inspection regimes were not contributing factors.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention in the document of automation being a factor in the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: The weather was "fine and calm with nearly unlimited visibility" and was not a factor in the accident (3.10).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: Although the pilots made appropriate radio calls (3.10), there was a failure to effectively communicate and respond to each other's position and intentions (3.24, 3.27). However, this is more closely related to human error and assumptions, and situational awareness, rather than a breakdown in the communication system itself.
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the accident outside of the predefined themes.
+
+    '

@@ -178,7 +178,7 @@ Address   Level 16, 80 The  Terrace, PO Box 10 323, Wellington 6143, New Zealand
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
 action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
-makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s 
+makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner's 
 inquest.  
  
 Ownership of report  
@@ -187,10 +187,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 made to the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to i ndustry participants only and not 
 discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cited.  
+documents referred to during the Commission's inquiry that are publicly available are cited.  
  
 Photographs, diagrams, pictu res 
 Unless otherwise specified, photographs , diagrams  and pictures included  in this final report  are 
@@ -294,7 +294,7 @@ Final Report 12 -101
 << Page 1 >>
  1. Executive summary  
 1.1. On 6 April 2012 the 9.5 -tonne body of a damaged freight wagon (the load) was being carried 
-on a purpose -built “special -movement wagon ” (the wagon) .  The wagon was one of 60 on a 
+on a purpose -built "special -movement wagon " (the wagon) .  The wagon was one of 60 on a 
 northbound  freight train travelling from Dunedin to Christchurch.  
 1.2. At some time before the train reached Ashburton  the webbing strops used to lash the load to 
 the wagon failed, allowing the load to move and overhang the side of the wagon by at least 
@@ -319,7 +319,7 @@ took the appropriate safety action  to address this safety issue.
 1.7. Key lessons learnt from this inquiry were:  
  poorly secured loads on trains have the potential to cause significant damage  to property  
 and injury to persons, which is why the persons responsible for securing and checking the 
-security of loads must be familiar with the requirements of the operator’s Freight 
+security of loads must be familiar with the requirements of the operator's Freight 
 Handling Code  
  the proper freight -securing equipment must be easily available to staff to ensure they can 
 correctly apply the standards of the Freight Handling Cod e. 
@@ -433,18 +433,18 @@ Figure 4
 
 << Page 6 >>
  Final Report 12 -101 3.1.13.  At that time, a West Coast -bound train  was stationary  on the West Main line at Rolleston , waiting 
-to enter the Midland line .  KiwiRail pro cedures require d drivers of stationary trains to conduct “roll-
-by inspections ”3 of other train s when they cross ed4.  Once the locomotive of the northbound train 
+to enter the Midland line .  KiwiRail pro cedures require d drivers of stationary trains to conduct "roll-
+by inspections "3 of other train s when they cross ed4.  Once the locomotive of the northbound train 
 had passed, t he driver of Train 845 switched his headlight  to full in order to carry out the roll-by 
 inspection from his locomotive cab.  About the leading  third of the train  had gone past when  out of 
 the darkness he saw the load  protruding  over his track .  The driver was just ducking down behind 
-his driver’s  console  when the displaced load  struck  his train .  He immediately made a radio 
-broadcast saying , “926, stop, stop, stop you have hit me”  (see Figure 5) .   
+his driver's  console  when the displaced load  struck  his train .  He immediately made a radio 
+broadcast saying , "926, stop, stop, stop you have hit me"  (see Figure 5) .   
  
 Figure 5 
 Damage to the locomotive on Train 845  
 3.1.14.  The driver of the northbound train  applied the brak es immediately.  The train controller in 
-Wellington ’s national train control centre also heard the radio broadcast and responded by 
+Wellington 's national train control centre also heard the radio broadcast and responded by 
 changing the indication of the next signal  to red ( Stop ).  The driver was able to stop his train 
 before that signal  (within 1 300 metres) .    
 3.1.15.  When the driver went back to check his train h e found the load overhanging the east  side of the 
@@ -467,7 +467,7 @@ The load overhanging the wagon  at Rolleston
  Final Report 12 -101 4. Analysis  
 4.1. Introduction  
 4.1.1.  Load security on wagon s is critically important.  The safety of the rail network relies on trains 
-being within  the “loading gauge ”.  The l oading gauge defines  the maximum dimensions to 
+being within  the "loading gauge ".  The l oading gauge defines  the maximum dimensions to 
 which a rail vehicle can be built or loaded without risk of striking a structure  beside the track, 
 including tunnel walls .  The risk is heightened when there is an adjacent track, such as in 
 double -line territory, or in this case  where there was a crossing loop to enable opposing trains 
@@ -487,11 +487,11 @@ the Freight Handling Code  required the combined rated strength of the lashings 
 twice the weight of the load5.  The standard railway lashing chain (bond chain) used by 
 KiwiRail had a rated strength of 10 tonnes.  If these had been used, a minimum of 2 chains 
 would have been required to lash the wagon body to the special -movement wagon . 
-4.2.2.  When wagon bodies were  transported on wagons, the “load” was regarded by KiwiRail  as a 
+4.2.2.  When wagon bodies were  transported on wagons, the "load" was regarded by KiwiRail  as a 
 steel structure.  There were  no specific rules for transporting these steel structures , but there 
 was sufficient guidance on the  securing of steel products that could and should have been 
 applied to this load6. 
-4.2.3.  KiwiRail ’s standard loading instruction s were  to use bond chains for securing steel products 
+4.2.3.  KiwiRail 's standard loading instruction s were  to use bond chains for securing steel products 
 such as  rolled product s, hollow sections, steel coil s, wrapped steel sheets , light and heavy 
 plate, coloursteel  and s teel slabs.   Bond chains fitted in the appropriate way would have been 
 a better choic e for securing the load. 
@@ -539,13 +539,13 @@ and none had edge protectors fitted to prevent them fraying
 load to the wagon  
  
 4.3. Training  
-Safety issue  – No-one involved with loading, shifting and securing the wagon body was  sufficiently  
+Safety issue  - No-one involved with loading, shifting and securing the wagon body was  sufficiently  
 familiar with the KiwiRail Freight Handling Code  to reali se that the securing arrangement was not 
 compliant with the Code . 
-4.3.1.  The Freight Handling Code  was an integral component of KiwiRail’s safety management 
+4.3.1.  The Freight Handling Code  was an integral component of KiwiRail's safety management 
 system.  It had been introduced in 1997.  The Code  was comprehensive and presented in a 
 pictorial format so that it could  be readily understood by those who need ed to learn and 
-adhere to it.  It was accessible from KiwiRail’s  website.  
+adhere to it.  It was accessible from KiwiRail's  website.  
 4.3.2.  However, such a code is only useful if staff members who are required to follow it are trained 
 accordingly and have ready access to it.  In this case the persons involved in clearing the 
 derailment site were not trained in the Freight Handling Co de.  Consequently the load was not 
@@ -553,10 +553,10 @@ compliant with the Code  when it began its journey .
 4.3.3.  The container terminal operator at Dunedin had not been trained or assessed against the 
 Code  either .  His job description stated in part:  
 As a Container Terminal Operato r your primary task is the loading and unloading 
-of trucks and rail wagons.  You will carry out your role according  to KiwiRail’s 
+of trucks and rail wagons.  You will carry out your role according  to KiwiRail's 
 health and safety and rail operating procedures as specified in the rail operating 
 code . 
-The bulk o f a container terminal oper ator’s work was loading and unloading containers 
+The bulk o f a container terminal oper ator's work was loading and unloading containers 
 between trucks and trains.  However, they were  occasionally required to handle other types of 
 freight as well , so they should have been trained in the Freight Handling Code before being  
 allowed to undertake those  tasks.  So too should  their  knowledge and currency with the Code  
@@ -571,9 +571,9 @@ made an assumption that the method used to lash the load when it entered the yar
 be sufficient for when it left the yard.   Consequently the wagon  resumed its journey  still as a 
 non-compliant load. 
 4.3.5.  The next point in the journey when the error shou ld have been picked up was during the rail 
-operator’s pre -departure train inspection at the Dunedin freight terminal.   Rail operators were  
+operator's pre -departure train inspection at the Dunedin freight terminal.   Rail operators were  
 trained in and supposed to be familiar with the KiwiRail Freight  Handling Code. 
-4.3.6.  KiwiRail’s Rail Operating Code7 set out the duties and responsibilities of personnel  carrying 
+4.3.6.  KiwiRail's Rail Operating Code7 set out the duties and responsibilities of personnel  carrying 
 out train inspections.  It stated  in part:  
 6.1 DUTIES AND RESPONSIBILITIES   
 Where there are no explicit instructions Rail Pers onnel must exercise their 
@@ -596,14 +596,14 @@ wagon , which include d checking :
  curtains/doors were  closed  
  the twist -locks were  engaged and locked  
  no loose [items]  such as tyres and timber were  present . 
-4.3.9.  The pre -departure train inspection was the final  opportunity to identify “out-of-Code ” loads.  In 
+4.3.9.  The pre -departure train inspection was the final  opportunity to identify "out-of-Code " loads.  In 
 this case neither the rail operator at Dunedin nor the one at Timaru identif ied that the load 
 had not been secured in compliance with the Code .  The majority of rail freight was container 
 traffic and regular bulk product s, with less special general cargo freight being conveyed.  For 
 this reason it is possible that pre-departure checks tend ed to focus on train running gear and 
 associated brake equipment, all of which were  below the level of the wagon deck s, at the 
 expense o f conducting proper assessment s of special load s such as the wagon body.  At a 
-cursory glance the wagon body would have looked reasonably well secured – not overhanging 
+cursory glance the wagon body would have looked reasonably well secured - not overhanging 
 and all 4 lashings tight .  It would have taken some knowledge of the Freight Handling Code, or 
 reference to it , to have understood that the load was not properly secured.  
 4.3.10.  The same safety issue arose in Timaru.   The container terminal operator at the depot had not 
@@ -624,9 +624,9 @@ knowledge of and appl ication of the Freight Handling Code  as contributory fact
 undertaken.  It had to  ensure that the loading and stowage of goods on railway wagons were  
 carried  out by people with the appropriate training and certification.  
 4.4. The MDD class special -movement wagon  
-Safety issue  – The MDD class special -movement wagon allocated to transport the load from Dunedin to 
+Safety issue  - The MDD class special -movement wagon allocated to transport the load from Dunedin to 
 Christchurch had not been furnished  with the appropriate load -securing equipment .  
-4.4.1.  The special -movement wagon had been converted and allocated to KiwiRail’s mechanical 
+4.4.1.  The special -movement wagon had been converted and allocated to KiwiRail's mechanical 
 group for non -revenue, special -movement use.  Th e wagon was more than 4 metres longer 
 than the standard UK -class flat-deck wagon and ran on smaller -diameter wheels in order to 
 lower the deck height and make it  capable of carry ing high loads.  The wagons had initially 
@@ -643,7 +643,7 @@ box assemblies, 6 corresponding chain winch arrangements and lengths of 10 -mill
 Grade 80 chain.   This addressed this safety issue, so the Commission has not made any  
 recommendation.  
 Finding s  
-4. None of KiwiRail’s staff  involved with loading and securing the load was 
+4. None of KiwiRail's staff  involved with loading and securing the load was 
 sufficiently familiar with the KiwiRail Freight Handling Code  to reali se that the 
 securing arrangement was not compliant with the Code  
  
@@ -665,7 +665,7 @@ Handling Code .
 had edge protectors fitted to prevent them fraying.  
 5.3. The use of chains would have been a more appropriate method of securing the load to the 
 wagon . 
-5.4. None of KiwiRail’s staff  involved with loading and securing the load was sufficiently familiar 
+5.4. None of KiwiRail's staff  involved with loading and securing the load was sufficiently familiar 
 with the KiwiRail Freight Handling Code  to reali se that the securing arrangement was not 
 compliant with the Code . 
 5.5. The MDD class special -movement wagon allocated to transport the load from Dunedin to 
@@ -702,12 +702,12 @@ sector.
 it is the appropriate organisation to address the safety issues .  
 7.1.3.  The second recommendation is made to the Chief Executive of the NZ Transport Agency.  The 
 NZ Transport Agency has various powers under the Railways Act 2005 to monitor and ensure 
-rail participants’ performance and compliance.   
+rail participants' performance and compliance.   
 7.1.4.  In the interests of transport safety it is important that these recommendations are 
 implemented without delay  to help prevent  similar acci dents or incidents occurring in the 
 future.  
 7.2. Recommendation  1: Maintaining staff competency  
-7.2.1.  None of KiwiRail’s  staff  involved with loading and securing the wagon body was sufficiently 
+7.2.1.  None of KiwiRail's  staff  involved with loading and securing the wagon body was sufficiently 
 familiar with the KiwiRail Freight Handling Code  to reali se that the secu ring arrangement was 
 not compliant with the Code . 
 KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being 
@@ -735,8 +735,8 @@ discharging their duties i n accordance with the Freight Handling Code.
 2. KiwiRail will discuss with Third Parties on how best to scope and undertake 
 the training: however whilst in infancy development and the catch -all and 
 confidence assurance to KiwiRail will be 1 above.  
-3. For Audit purposes the “Training Programm e” is to electronically record the 
-individual’s course completion, competency/authorisation and ongoing 
+3. For Audit purposes the "Training Programm e" is to electronically record the 
+individual's course completion, competency/authorisation and ongoing 
 refresher training requirements.  Third Party Facilities to self -manage staff 
   
 Final Report 12 -101 
@@ -761,7 +761,7 @@ for checking load security at the various stages of a train journey are discharg
 in a manner consistent with the Kiwi Rail Freight Handling Code . 
 7.3.2.  It is important that KiwiRail address the above recommendation, which addresses the safety 
 issues examined in the report.  The NZ Transport Agency has various powers under the 
-Railway s Act 2005 to monitor and ensure KiwiRail’s p erformance and compliance.  
+Railway s Act 2005 to monitor and ensure KiwiRail's p erformance and compliance.  
 The Commission recommends that the Chief Executive of the NZ Transport Agency  ensure 
 that KiwiRail addresses the above recommendation.  ( 009/14 ) 
 On 21 March 2014, NZ Transport Agency replied:  
@@ -778,7 +778,7 @@ implementation.  This will be advised to TAIC in due course.
  Final Report 12 -101 8. Key l essons  
 8.1. Poorly secured loads on trains  have the potential to cause significant damage and injury to 
 persons, which is why the persons responsible for securing and checking the security of loads 
-must be familiar with the requirements of the operator’s Freight Handling Code . 
+must be familiar with the requirements of the operator's Freight Handling Code . 
 8.2. The proper freight -securing equipment must be easily available to staff to ensure they can 
 correctly apply the standards of the Freight Handling Code . 
   

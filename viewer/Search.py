@@ -80,7 +80,11 @@ class Searcher:
             if len(reportID_summary_row) == 0:
                 continue
 
+            if reportID_summary_row['Complete'].values[0] == False:
+                continue
+
             report_weighting_reasoning = [reportID_summary_row[theme + "_explanation"].values[0] for theme in self.themes]
+            
 
             search_result = self.search_report(report_text, theme_summary, report_weighting_reasoning, Search(query, settings))
             if not search_result.include() and not query == "":
@@ -137,8 +141,6 @@ class Searcher:
             report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
             if settings['include_incomplete_reports'] == True:
                 report_row['ErrorMessage'] = reportID_summary_row['ErrorMessage'].values[0]
-            elif reportID_summary_row['Complete'].values[0] == False:
-                continue
 
             reports.append(report_row)
 
@@ -152,6 +154,7 @@ class Searcher:
             return SearchResult({})
         
         regexes = Searcher.get_regex(search)
+        all_weight_reasoning = ' '.join(filter(lambda x: isinstance(x, str), weighting_reasoning))
 
         matches = {
             'report_result': [],
@@ -161,7 +164,7 @@ class Searcher:
         for regex in regexes:
             matches['report_result'].append(regex.findall(report_text))
             matches['theme_result'].append(regex.findall(theme_text))
-            matches['weighting_reasoning_result'].append(regex.findall(" ".join(weighting_reasoning)))
+            matches['weighting_reasoning_result'].append(regex.findall(all_weight_reasoning))
         
         # Remove thuings that should not have been searched
         if not search.getSettings()['search_report_text']:

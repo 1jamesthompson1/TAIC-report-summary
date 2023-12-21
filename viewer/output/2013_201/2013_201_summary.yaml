@@ -1,68 +1,60 @@
-- name: Human Factors - Fatigue and Alertness
-  percentage: 0
-  explanation: 'There is no mention of fatigue or alertness issues in the document. The report does not attribute the cause of the fire or the effectiveness of the firefighting response to the physical or mental state of the crew members.
-
-    '
-- name: Communication and Crew Resource Management
-  percentage: 15
-  explanation: The report highlights issues with communication and crew resource management, such as the lack of an effective command and control system during the firefighting response, and the master not reporting to the bridge to take control from there (4.3.5, 4.3.7). Additionally, the crew did not muster at the muster station, and firefighting teams were assembled on an ad-hoc basis (4.3.6).
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 25
-  explanation: The report identifies that the firefighting drills on board the Taokas Wisdom were not effective in ensuring that all crew members were familiar with their tasks and responsibilities in the event of a fire (4.4.3, 4.4.4). The second officer was unaware of his role in controlling ventilation during a fire, and the master was unsure of which officer was in charge of which fire party (4.4.4).
-- name: Maintenance Procedures and Compliance
-  percentage: 0
-  explanation: 'The document does not provide evidence that maintenance procedures and compliance were factors in the accident. There is no mention of maintenance issues contributing to the fire or the firefighting response.
-
-    '
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'The document does not indicate that the fire detection and suppression systems failed or contributed to the accident. The report focuses on the response to the fire rather than the detection or suppression systems.
-
-    '
-- name: Regulatory Compliance and Safety Management
+- name: Training and Competency
   percentage: 20
-  explanation: The report points out that the company's safety management system did not ensure that each crew member understood their emergency responsibilities, as evidenced by the second officer's lack of awareness of his role (4.4.7, 4.4.8). This indicates a safety management issue that could affect future operations.
+  explanation: The report indicates that the crew's response to the fire and interviews following the incident suggested that the fire drills on board the Taokas Wisdom might not have been effective in ensuring that all crew were familiar with their tasks and responsibilities in the event of a fire (4.4.3). The second officer, despite having been on board for 9 months and attending at least 9 firefighting drills, was unaware that his team was responsible for controlling ventilation in the event of a fire (4.4.4). This lack of knowledge and training contributed to the ineffectiveness of the firefighting response, as the supply of air to the cabin where the fire was located had not been shut down (5.2).
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The crew did not follow established safety procedures during the incident. The master did not report to the bridge to take control from there, no crew muster was conducted, and no one from the ship alerted the shore authorities to the fire (4.3.5). Additionally, not all crew reported to the muster station, and firefighting teams were assembled on an ad-hoc basis (4.3.6). This lack of adherence to safety procedures likely reduced the effectiveness of the shipboard firefighting response (5.2).
+- name: Emergency Response Preparedness
+  percentage: 20
+  explanation: The crew's emergency response was not adequately prepared, as evidenced by the lack of an effective command and control of the firefighting response and the fire not being contained within the cabin until the firefighting teams were fully ready to engage (5.2). The master's failure to assume control from the bridge and the absence of a structured response to the fire could have resulted in a more serious outcome had the fire not been brought under control (4.3.7).
+- name: Organizational Safety Culture
+  percentage: 15
+  explanation: The safety management system on board the Taokas Wisdom had procedures and instructions for emergency shipboard operations, including lifesaving and firefighting (4.4.6). However, the internal ISM audit found that "each crew member understands his emergency responsibilities and duties as assigned in [the] muster list," which the findings of the report contradicted (4.4.7-4.4.8). This discrepancy indicates a potential issue with the safety culture within the organization, as the crew was not familiar with their responsibilities in the event of a fire (5.3).
+- name: Crew Resource Management
+  percentage: 15
+  explanation: The lack of effective crew resource management was evident in the crew's response to the fire. There was no structured firefighting response, and the master did not take control from the bridge (4.3.5). The crew did not muster, and firefighting teams were assembled on an ad-hoc basis (4.3.6). This lack of coordination and teamwork likely reduced the effectiveness of the firefighting response (5.2).
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: While the report does not directly address risk management and analysis, the failure to identify and mitigate the risks associated with the fire, such as not shutting down the supply of air to the cabin, suggests that risk management practices may not have been fully effective (5.2).
+- name: Human Error and Assumptions
+  percentage: 5
+  explanation: Human error and assumptions may have played a role in the incident, as the crew did not follow established safety procedures, and there was a lack of knowledge regarding responsibilities during an emergency (4.3.5, 4.4.4). These errors and assumptions likely contributed to the reduced effectiveness of the firefighting response (5.2).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: There is no specific mention in the report of a failure in regulatory oversight and compliance contributing to the incident. The ship was conducting monthly firefighting drills as required by SOLAS (4.4.2), indicating compliance with regulations.
 - name: Situational Awareness
   percentage: 0
-  explanation: 'There is no specific mention of situational awareness as a contributing factor to the accident in the document.
+  explanation: 'The report does not provide information that suggests a lack of situational awareness contributed to the incident. The focus is on the crew''s response and training rather than their awareness of the environment.
 
     '
-- name: Equipment Design and Specifications
+- name: Maintenance and Inspection Regimes
   percentage: 0
-  explanation: 'The document does not suggest that equipment design and specifications played a role in the cause of the fire or the firefighting response.
+  explanation: The report does not indicate that maintenance and inspection regimes were a contributing factor to the incident. The cause of the fire could not be conclusively identified (5.1), and there is no mention of equipment failure due to poor maintenance.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no indication in the report that the use of automation or reliance on automated systems contributed to the incident.
 
     '
-- name: Risk Assessment and Management
+- name: Weather Conditions and Decision Making
   percentage: 0
-  explanation: 'The document does not discuss risk assessment and management as factors that contributed to the accident.
+  explanation: 'Weather conditions do not appear to have played a role in the incident, as the report focuses on the internal response to the fire and does not mention environmental factors.
 
     '
-- name: Emergency Response Planning and Coordination
-  percentage: 20
-  explanation: The report indicates that the emergency response was not well-coordinated, with no crew muster conducted and no alert to shore authorities (4.3.5). The master did not establish a command center on the bridge as required, and the firefighting response lacked structure (4.3.7).
-- name: Distracted Operation
+- name: Communication Breakdown
   percentage: 0
-  explanation: 'There is no indication in the document that distracted operation was a factor in the accident.
+  explanation: 'Although communication breakdowns may have occurred, the report does not specifically attribute the incident to a failure in communication. The focus is on the lack of adherence to procedures and inadequate training.
 
     '
-- name: Structural Integrity and Material Fatigue
+- name: Fatigue Management
   percentage: 0
-  explanation: 'The document does not mention structural integrity or material fatigue as contributing factors to the accident.
+  explanation: 'There is no mention of fatigue management or crew fatigue as a contributing factor to the incident in the report.
 
     '
-- name: Human Error and Error Management
-  percentage: 20
-  explanation: Human error is implied in the report through the ineffective firefighting response, such as the chief officer attempting to tackle the fire without proper equipment and being overcome by smoke (4.3.9). Additionally, the second officer's lack of knowledge about his role suggests a failure in error management (4.4.4).
-- name: Safety Culture and Organizational Influences
+- name: Training and Familiarity with Equipment
   percentage: 0
-  explanation: 'While the report does mention issues with the safety management system, it does not explicitly discuss the broader safety culture or organizational influences as direct factors in the accident.
-
-    '
-- name: Weather Information Dissemination and Interpretation
-  percentage: 0
-  explanation: 'The document does not discuss weather information as a factor in the accident.
+  explanation: 'The report does not specifically mention a lack of training or familiarity with firefighting equipment as a contributing factor. The focus is on the broader issues of training and competency and adherence to safety procedures.
 
     '
 - name: Other
   percentage: 0
-  explanation: There are no additional safety themes identified in the document that contributed to the accident.
+  explanation: There are no additional safety themes identified in the report that contributed to the incident. The provided themes cover the factors mentioned in the report.

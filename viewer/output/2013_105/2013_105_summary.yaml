@@ -1,0 +1,62 @@
+- name: Human Error and Assumptions
+  percentage: 25
+  explanation: The train manager assumed that all was in order for departure after receiving a green light indication, without verifying the status of the mobility hoist and the luggage van doors. This assumption led to the premature departure of the train with passengers still on the hoist. "The train manager did check the passenger activity on the platform, at which time there was none because the mobility hoist had not been deployed onto the platform" (4.1). Additionally, "It was most likely that the train manager, when he gave 'right away' clearance to the driver at Waikanae, had forgotten that one wheelchair passenger and her support person would be leaving the train there" (4.5).
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The train manager did not adhere to a comprehensive departure procedure that included checking the status of the mobility hoist, as "the operation of the mobility hoist had not been written into the departure procedure being followed by the train manager" (5.1). This lack of adherence to a complete safety procedure contributed to the incident.
+- name: Communication Breakdown
+  percentage: 20
+  explanation: There was no effective means for the train attendant, who was operating the mobility hoist, to communicate with the train manager. This communication breakdown meant that the train manager was unaware that the hoist was in use, leading to the premature departure. "There was no means provided for the train attendant in the luggage van to communicate with the train manager near the front of the train" (4.2).
+- name: Training and Familiarity with Equipment
+  percentage: 10
+  explanation: The train manager's familiarity with the mobility hoist operation was based on memory rather than a formal procedure, which is not a reliable method in safety-critical operations. "The operation of the mobility hoist relied on the train manager knowing and/or remembering the stations at which any passengers in wheelchairs were to alight" (4.4).
+- name: Situational Awareness
+  percentage: 10
+  explanation: The train manager's situational awareness was compromised due to the distance from the luggage van, the low ambient light conditions, and the lack of high-visibility marking on the hoist. "Under similar conditions it would have been difficult for the train manager to see the mobility hoist even if it had been deployed onto the platform" (4.7).
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: KiwiRail's safety culture did not ensure that the operation of the mobility hoist was included in the Rail Operating Code after the second issue of Section 1 came into effect, indicating a lapse in maintaining safety-critical procedures. "KiwiRail did not have a procedure to cover the operation of the mobility hoist" (4.3).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The absence of a procedure for the mobility hoist operation in the Rail Operating Code suggests a gap in regulatory oversight and compliance with safety procedures. "The instructions had been removed from the Rail Operating Code when the second issue of Section 1 (Passenger Rolling Stock Restrictions) came into effect" (4.3).
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: There was a failure in risk management as the potential hazard of the mobility hoist operation was not adequately assessed or mitigated in the train manager's pre-departure checks. "The stowing of the mobility hoist and securing of the luggage van doors did not feature in the train manager's pre-departure checks" (4.2).
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide specific details on the crew''s resource management or teamwork that directly contributed to the incident.
+
+    '
+- name: Training and Competency
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide specific details on the training and competency of the train manager or attendant that directly contributed to the incident.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention fatigue as a contributing factor to the incident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'Insufficient information. The document does not discuss emergency response preparedness in relation to the incident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'Insufficient information. The document does not mention maintenance or inspection issues as contributing factors to the incident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'Insufficient information. The document does not provide details on the use of automation as a contributing factor to the incident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Insufficient information. The document does not indicate that weather conditions directly influenced the decision-making process in this incident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident outside of those already listed.

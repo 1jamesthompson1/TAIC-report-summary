@@ -1,0 +1,58 @@
+- name: Fatigue Management
+  percentage: 20
+  explanation: The train controller was "highly stressed and mentally fatigued during her shift without anyone being aware of, or anticipating, this" (4.4.7 (unvalidated and unrepairable quote)). She had worked "5 hours without a break or food" and was managing a workload "higher than usual" (4.4.5 (unvalidated and unrepairable quote)). This fatigue likely impaired her cognitive functions, contributing significantly to the incident.
+- name: Human Error and Assumptions
+  percentage: 15
+  explanation: The incident occurred because the train controller "did not check the location of the coal train and mistakenly authorised the track engineer to on-track his alicart" (4.1.1). This mistake was a direct result of human error and assumptions about the train's location.
+- name: Training and Competency
+  percentage: 10
+  explanation: There was "minimal training and education about detecting and managing stress and fatigue" provided to the train controller (4.4.8). The lack of adequate training in these areas contributed to the train controller's inability to manage her stress and fatigue effectively.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no specific mention in the document of issues related to training and familiarity with equipment contributing to the incident.
+
+    '
+- name: Crew Resource Management
+  percentage: 5
+  explanation: The workplace culture "did not encourage train controllers to ask for help" (4.3.2 (unvalidated and unrepairable quote)), indicating a lack of effective crew resource management where support and teamwork could have mitigated the error.
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The train controller's action was "contrary to standard protocol" (4.1.1), and the lack of adherence to safety procedures directly led to the near-collision incident.
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The organizational culture at the time "did not encourage train controllers to ask for help" and expected them to "sort out their own problems" (4.3.2, 4.5.8), which contributed to the train controller not seeking assistance when overwhelmed.
+- name: Risk Management and Analysis
+  percentage: 15
+  explanation: KiwiRail "did not properly assess the implications of merging the Otira/Rolleston section and the West Coast area during the daytime" (5.3), and there was a lack of proper risk management strategies in place (4.2.8).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that regulatory oversight and compliance were factors in the incident.
+
+    '
+- name: Situational Awareness
+  percentage: 5
+  explanation: The train controller's situational awareness was likely compromised due to stress and mental fatigue (4.4.6), contributing to her failure to check the coal train's location.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no indication in the document that emergency response preparedness was a factor in the incident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'The document does not suggest that maintenance and inspection regimes were contributing factors to the incident.
+
+    '
+- name: Use of Automation
+  percentage: 5
+  explanation: While not directly contributing to the incident, the "single-line automatic signalling" system increased the complexity of the train controller's job (4.8.1), and the lack of electronic visibility of trains in certain areas was a noted safety issue (4.8.5).
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a contributing factor to the incident in the document.
+
+    '
+- name: Communication Breakdown
+  percentage: 5
+  explanation: Although not explicitly stated as a communication breakdown, the train controller's failure to verify the coal train's location before authorizing the track engineer indicates a lapse in communication protocols (4.1.1).
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the incident.

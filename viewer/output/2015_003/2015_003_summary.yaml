@@ -1,0 +1,70 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue management issues in the document. The analysis and findings focus on mechanical and operational factors rather than individual fatigue.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'The document does not provide evidence of human error or assumptions contributing to the incident. The focus is on the mechanical failure of the rotor blade and operational factors.
+
+    '
+- name: Training and Competency
+  percentage: 0
+  explanation: 'There is no indication in the document that a lack of training or competency among the personnel was a contributing factor to the incident.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The document does not suggest that a lack of training or familiarity with equipment was a factor in the incident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'Crew Resource Management does not appear to be a relevant factor in the incident as described in the document.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The document mentions that operators and pilots may not always adhere to the published limitations for their aircraft, which has been raised in a previous Commission report (4.1.5). This suggests that non-adherence to safety procedures could contribute to incidents.
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The document discusses the possibility of a culture within the wider helicopter sector of operating outside the manufacturers' published and placarded 'never exceed' limitations, which could have become normalized (4.3.15). This indicates that organizational safety culture may have played a role.
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'The document does not provide evidence that inadequate risk management and analysis were factors in the incident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 10
+  explanation: The document suggests that there may have been issues with regulatory oversight and compliance, as the design organization's stress analysis during the spray system's design and testing did not take into account the increased loads and cycles imposed on the dynamic components of a helicopter used for agricultural flying (4.6.7).
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'There is no mention of situational awareness issues in the document. The analysis and findings focus on mechanical and operational factors rather than situational awareness.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'Emergency response preparedness is not discussed as a factor in the incident within the document.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 10
+  explanation: The document discusses the importance of metallurgical inspections and examinations, and while it was found that there were no manufacturing defects in the materials or in the construction of the blade (4.2.3), the focus on inspections suggests that maintenance and inspection regimes are relevant to safety.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The use of automation is not mentioned as a contributing factor in the incident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions and decision making are not discussed as factors in the incident within the document.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no evidence in the document of communication breakdown contributing to the incident.
+
+    '
+- name: Other
+  percentage: 60
+  explanation: The primary contributing factors to the incident as described in the document are related to mechanical and design issues, as well as operational factors specific to agricultural flying. These include the fatigue cracking of the main rotor blade (5.2), the helicopter being flown mostly on spraying operations at high power settings (5.3), the types of turns used during spraying (5.4), the helicopter not being designed specifically for agricultural flying (5.5), and the small radius in the trailing edge chord length transition of the rotor blades (5.6). These factors do not fit neatly into the predefined safety themes, hence the allocation of the remaining percentage to "Other".

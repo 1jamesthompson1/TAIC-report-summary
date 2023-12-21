@@ -1,0 +1,66 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the incident in the provided document. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 5
+  explanation: The flight crew's decision to recycle the landing gear was "outside documented procedures" (3.38, 3.40), which could be considered a human error. However, this action did not affect the outcome of the occurrence (3.41), so its contribution to the accident is minimal.
+- name: Training and Competency
+  percentage: 0
+  explanation: 'There is no evidence in the document to suggest that a lack of training or competency among the personnel involved contributed to the accident.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The document does not indicate that a lack of training or familiarity with the equipment was a factor in the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that Crew Resource Management deficiencies contributed to the accident.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 5
+  explanation: The flight crew's action of recycling the landing gear was not in accordance with the checklists (3.38, 3.40), indicating a deviation from safety procedures. However, since this did not affect the outcome (3.41), its contribution is considered minimal.
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'There is no information in the document that suggests the organizational safety culture was a contributing factor to the accident.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'The document does not provide evidence that inadequate risk management and analysis were factors in the accident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no indication that a lack of regulatory oversight or non-compliance with regulations contributed to the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 0
+  explanation: 'The document does not suggest that a loss of situational awareness was a factor in the accident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: Emergency response preparedness is not mentioned as a contributing factor, and the crew's preparation for the emergency landing was "well conducted" (3.47 (unvalidated and unrepairable quote)).
+- name: Maintenance and Inspection Regimes
+  percentage: 90
+  explanation: The failure of the locking springs due to corrosion cracking was the primary cause of the accident (4.1, 4.2). The maintenance inspection program was unlikely to detect the corrosion cracking (4.5), and there was no preventive maintenance required to limit corrosion damage (4.6). This indicates a significant issue with the maintenance and inspection regimes.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not indicate that automation or its misuse played a role in the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: Weather conditions did not contribute to the accident, as the decision-making regarding weather was sound and did not affect the outcome (3.35).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: Although there was only one interphone for cabin crew communication (3.45), this did not contribute to the accident. The document does not suggest that communication breakdown was a factor.
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.

@@ -1,66 +1,62 @@
-- name: Human Factors - Fatigue and Alertness
-  percentage: 0
-  explanation: 'There is no mention of fatigue or alertness issues in the document. The truck driver''s actions were not attributed to fatigue or lack of alertness.
-
-    '
-- name: Communication and Crew Resource Management
-  percentage: 0
-  explanation: 'The document does not discuss any issues related to communication or crew resource management contributing to the accident.
-
-    '
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 0
-  explanation: 'There is no information provided in the document regarding the training or preparedness for emergency procedures as a contributing factor to the accident.
-
-    '
-- name: Maintenance Procedures and Compliance
-  percentage: 0
-  explanation: The document states that "no such issues were noted in the truck's pre-accident or post-accident inspections" (12.4 (invalid formatted quote)), indicating that maintenance procedures and compliance were not a contributing factor.
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'Fire detection and suppression systems are not mentioned as a factor in the accident.
-
-    '
-- name: Regulatory Compliance and Safety Management
-  percentage: 10
-  explanation: The document highlights issues with the lack of formal SFAIRP assessments for recommended risk treatments (12.7, 14.7), indicating a problem with regulatory compliance and safety management.
+- name: Human Error and Assumptions
+  percentage: 40
+  explanation: The accident was significantly influenced by the truck driver's actions, which can be attributed to human error. The Commission's analysis determined that "the truck's slow forward crawl towards the level crossing in the lead-up to the collision was very likely due to its driver not applying sufficient pressure to the brake pedal" (12.4 (invalid formatted quote)). Additionally, the driver was "very likely unaware of the truck's forward movement" and their attention was focused on "some undetermined distraction within the truck's cab" (12.4, 13.3). This indicates a lapse in the driver's situational awareness and a failure to maintain control of the vehicle, which are elements of human error and assumptions.
 - name: Situational Awareness
   percentage: 30
-  explanation: The truck driver's lack of situational awareness is evident as they were "very likely unaware of the truck's forward movement" and their "visual attention was focused downwards on some undetermined distraction within the truck's cab" (12.5 (invalid formatted quote)).
-- name: Equipment Design and Specifications
+  explanation: The truck driver's lack of situational awareness was a critical factor in the accident. The Commission found it "very likely that the truck driver's peripheral vision cues outside of the cab were restricted" and that they were "unable to detect the truck's subtle forward movement" (12.5 (invalid formatted quote)). Furthermore, the driver believed the truck to be stationary and felt it safe to divert their attention from the truck's surroundings (13.3). This loss of situational awareness directly contributed to the truck moving onto the level crossing and into the path of the train.
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: While the report does not explicitly mention a breach of safety procedures by the truck driver, the law prohibits the use of mobile phones while driving, and the Commission was unable to determine if the truck driver was using the hands-free mounting at the time of the accident (13.4). The potential use of a mobile phone could indicate a lack of adherence to safety procedures, which may have contributed to the driver's distraction and subsequent accident.
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The report identifies issues with risk management and analysis, particularly in the context of level crossing safety. It was noted that "sfairp assessments were not being routinely carried out for risk treatments recommended in lcsia reports" (14.7 (invalid formatted quote)). Although this did not directly cause the accident, it is a safety issue that affects the overall risk at level crossings and could contribute to future incidents.
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The report indicates a lack of formal SFAIRP assessment for recommended risk treatments, which suggests issues with regulatory oversight and compliance (14.7). While this did not directly contribute to the accident, it is a systemic issue that could affect the safety of level crossings and the effectiveness of safety measures.
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The absence of documented SFAIRP assessments for level crossing risk treatments indicates a potential issue with the organizational safety culture within the entities responsible for managing level crossing risks (14.7). This reflects on the collective approach to safety and risk management, which, while not a direct cause of the accident, is a safety issue that could influence future safety outcomes.
+- name: Fatigue Management
   percentage: 0
-  explanation: 'There is no indication that equipment design and specifications played a role in the accident.
+  explanation: 'There is no mention of fatigue or overwork contributing to the truck driver''s actions in the report, so it is not possible to attribute any of the accident''s cause to fatigue management.
 
     '
-- name: Risk Assessment and Management
-  percentage: 20
-  explanation: The document discusses the LCSIA process and the lack of documented SFAIRP assessments for level crossing risk treatments (14.7), indicating issues with risk assessment and management.
-- name: Emergency Response Planning and Coordination
+- name: Training and Competency
   percentage: 0
-  explanation: 'Emergency response planning and coordination are not discussed as factors in the accident.
+  explanation: 'The report does not provide information on the truck driver''s training and competency, so there is insufficient information to attribute this as a contributing factor to the accident.
 
     '
-- name: Distracted Operation
-  percentage: 40
-  explanation: Distracted operation is a significant factor as the truck driver was "looking down towards, and reaching with their left arm into, the passenger side area" and "believed the truck to be stationary" (12.5, 13.3).
-- name: Structural Integrity and Material Fatigue
+- name: Training and Familiarity with Equipment
   percentage: 0
-  explanation: The document states that "it is therefore exceptionally unlikely that the low tread on three of the truck's four rear tyres contributed to this accident in any way" (12.4 (invalid formatted quote)), indicating that structural integrity and material fatigue were not factors.
-- name: Human Error and Error Management
-  percentage: 0
-  explanation: 'While human error is involved, the document does not discuss error management strategies or their failure as contributing to the accident.
+  explanation: 'There is no indication in the report that a lack of training or familiarity with the truck contributed to the accident, so this theme is not considered a contributing factor.
 
     '
-- name: Safety Culture and Organizational Influences
+- name: Crew Resource Management
   percentage: 0
-  explanation: 'The document does not provide information on safety culture or organizational influences as direct factors in the accident.
+  explanation: 'Crew Resource Management does not appear to be a relevant factor in this accident, as the situation involved a single truck driver and there is no mention of teamwork or resource management issues.
 
     '
-- name: Weather Information Dissemination and Interpretation
+- name: Emergency Response Preparedness
   percentage: 0
-  explanation: Weather conditions, such as sun-strike, were considered but judged "very unlikely to have significantly contributed to this accident" (13.4 (invalid formatted quote)).
+  explanation: 'The report does not discuss emergency response preparedness as a contributing factor to the accident, so it cannot be considered in the weighting.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The truck's mechanical condition, including its braking system, was not a factor in the accident, as "no such issues were noted in the truck's pre-accident or post-accident inspections" (12.4 (invalid formatted quote)).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The use of automation is not mentioned as a contributing factor in the accident, and there is no evidence to suggest that automated systems played a role in the truck''s movement onto the level crossing.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: Although the position of the sun may have limited the truck driver's peripheral vision cues, it is judged "very unlikely to have significantly contributed to this accident" (13.6 (invalid formatted quote)).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no evidence of communication breakdown contributing to the accident, as the issue was related to the truck driver''s individual actions and situational awareness.
+
+    '
 - name: Other
   percentage: 0
-  explanation: 'There are no additional safety themes identified in the document that contributed to the accident.
-
-    '
+  explanation: There are no additional safety themes identified in the report that contributed to the accident outside of those already defined.

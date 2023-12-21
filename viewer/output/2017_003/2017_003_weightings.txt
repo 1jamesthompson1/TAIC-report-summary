@@ -1,0 +1,16 @@
+"2017_003","[12  13  14  15  16  17  18  19  20  21]","0.0","There is no mention of fatigue or overwork contributing to the incident in the provided document. Therefore, this theme is not applicable to the accident.
+","0.0","5.0","The flight crew's decision to recycle the landing gear was ""outside documented procedures"" (3.38, 3.40), which could be considered a human error. However, this action did not affect the outcome of the occurrence (3.41), so its contribution to the accident is minimal.
+","0.0","0.0","There is no evidence in the document to suggest that a lack of training or competency among the personnel involved contributed to the accident.
+","0.0","0.0","The document does not indicate that a lack of training or familiarity with the equipment was a factor in the accident.
+","0.0","0.0","The document does not provide information suggesting that Crew Resource Management deficiencies contributed to the accident.
+","0.0","5.0","The flight crew's action of recycling the landing gear was not in accordance with the checklists (3.38, 3.40), indicating a deviation from safety procedures. However, since this did not affect the outcome (3.41), its contribution is considered minimal.
+","0.0","0.0","There is no information in the document that suggests the organizational safety culture was a contributing factor to the accident.
+","0.0","0.0","The document does not provide evidence that inadequate risk management and analysis were factors in the accident.
+","0.0","0.0","There is no indication that a lack of regulatory oversight or non-compliance with regulations contributed to the accident.
+","0.0","0.0","The document does not suggest that a loss of situational awareness was a factor in the accident.
+","0.0","0.0","Emergency response preparedness is not mentioned as a contributing factor, and the crew's preparation for the emergency landing was ""well conducted"" (3.47).
+","0.0","90.0","The failure of the locking springs due to corrosion cracking was the primary cause of the accident (4.1, 4.2). The maintenance inspection program was unlikely to detect the corrosion cracking (4.5), and there was no preventive maintenance required to limit corrosion damage (4.6). This indicates a significant issue with the maintenance and inspection regimes.
+","0.0","0.0","The document does not indicate that automation or its misuse played a role in the accident.
+","0.0","0.0","Weather conditions did not contribute to the accident, as the decision-making regarding weather was sound and did not affect the outcome (3.35).
+","0.0","0.0","Although there was only one interphone for cabin crew communication (3.45), this did not contribute to the accident. The document does not suggest that communication breakdown was a factor.
+","0.0","0.0","There are no additional safety themes identified in the document that contributed to the accident.","0.0","true","N/A"

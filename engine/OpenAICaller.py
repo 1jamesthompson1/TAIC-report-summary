@@ -29,7 +29,7 @@ class OpenAICaller:
         
         # This is hardcoded due to there being no API way of seeing if there are too many tokens.
         if (large_model and (total_length > 128000)) or ( (not large_model) and (total_length > 16000)):
-            print("Too many tokens, not sending to OpenAI")
+            print(f"Too many tokens {total_length}, not sending to OpenAI")
             return None
 
         # If rate limit error happens then just wait a minute and try again
@@ -39,7 +39,8 @@ class OpenAICaller:
             {"role": "system", "content": system},
             {"role": "user", "content": user}
         ],
-        temperature=temp, n = n
+        temperature=temp, n = n,
+        max_tokens=2000,
         )
 
         if n == 1:

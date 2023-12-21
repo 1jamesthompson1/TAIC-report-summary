@@ -1,0 +1,16 @@
+"2013_011","[8  9  10]","0.0","There is no mention of fatigue or overwork contributing to the incident in the provided document.
+","0.0","0.0","The document does not indicate that human error or assumptions played a role in the incident.
+","0.0","0.0","There is no evidence in the document suggesting that inadequate training or lack of competency contributed to the incident.
+","0.0","0.0","The document does not suggest that a lack of training or familiarity with equipment was a factor in the incident.
+","0.0","0.0","Crew Resource Management does not appear to be a factor, as the crew responded appropriately to the incident (4.2).
+","0.0","0.0","The document does not indicate any deviation from safety procedures by the crew.
+","0.0","0.0","There is no information provided that suggests the organizational safety culture was a contributing factor to the incident.
+","0.0","0.0","The document does not discuss risk management and analysis as a contributing factor to the incident.
+","0.0","0.0","There is no mention of a lack of regulatory oversight or non-compliance with regulations contributing to the incident.
+","0.0","0.0","The document does not suggest that a loss of situational awareness was a factor in the incident.
+","0.0","0.0","Emergency response preparedness is not mentioned as a contributing factor, and the crew's response was appropriate (4.2).
+","0.0","100.0","The incident was caused by a faulty steering selector, which had been installed after an overhaul (4.6). The fault was traced to incorrect spring tensions within the spring box of the steering selector, affecting the internal hydraulic pressure (4.7). The maintenance and inspection regimes are directly implicated as the overhaul facility's records did not indicate that the springs in the spring box were replaced, and it was virtually certain that the previously fitted springs were reused (4.9). Additionally, the overhaul facility's test and inspection reports lacked sufficient detail to determine the cause of the steering incident (4.14).
+","0.0","0.0","The document does not indicate that the use of automation was a factor in the incident.
+","0.0","0.0","Weather conditions are not mentioned as a contributing factor to the incident.
+","0.0","0.0","There is no evidence of communication breakdown contributing to the incident in the document.
+","0.0","0.0","<NA>","<NA>","true","N/A"

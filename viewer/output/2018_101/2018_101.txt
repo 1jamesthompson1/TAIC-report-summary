@@ -170,16 +170,16 @@ Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
 against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
-final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
 Ownership of report  
 This report remains the intellectual property of the Transport Accident Investigation Commission.   
 This report may be reprinted in whole or in part without charge, provided that acknowledgement is m ade 
 to the Transport Accident Investigation Commission.  
 Citations and referencing  
-Information derived from interviews during the Commission ’s inquiry into the occurrence is  not cited in 
+Information derived from interviews during the Commission 's inquiry into the occurrence is  not cited in 
 this final report.  Documents that would normally be accessible to industry participants only and not 
 discoverable under the Official Information Act 198 2 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are p ublicly available are cited.  
+documents referred to during the Commission's inquiry that are p ublicly available are cited.  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
 by, and owned by, the Commission.  
@@ -311,7 +311,7 @@ which caused the leading passenger car  to derail.
 platforms .  Nobody was injured, but there was moder ate damage to the train and  the track. 
 1.3. The Transport Accident Investigation Commission (Commission) found  that the first response 
 to rescue passengers and crew from the derailed train was conducted appropriately an d in 
-accordance with the operator’s procedures.  
+accordance with the operator's procedures.  
 1.4. The Commission found  that the rail from which the rail points had been manufactured met the 
 required specification s.  The fracture had initiated at a machining defect on the foot of the rail , 
 which was introduced during the procedure for manufacturing the set of points.   The defect  
@@ -351,12 +351,12 @@ delivered to Quest Integrity NZL Limited (Quest) to perform the following tasks 
 500 millimetres of  the fracture face  
  determine the material composition of the rail section .   
 2.6. The Commission obtained the following records and documents for analysis:  
- the data downloaded from the train’s event recorder  
+ the data downloaded from the train's event recorder  
  the train control diagram  
- the train controller’s voice recordings  
- the train driver’s tr aining records and timesheets  
- the train manager’s training records and timesheets  
- the Interfleet Technology ‘Axle Counter Risk Analysis’ for the Auckland commuter network  
+ the train controller's voice recordings  
+ the train driver's tr aining records and timesheets  
+ the train manager's training records and timesheets  
+ the Interfleet Technology 'Axle Counter Risk Analysis' for the Auckland commuter network  
  a data summary of the ultrasonic rail flaw detection reports covering the previous  10 
 years  
  the technical specification s for the supply of steel rail  
@@ -375,7 +375,7 @@ Final Report RO -2018 -101
 line.  The underground station has five dead -end platform roads and is constrained by a  
 426-metre -long, double -track entrance tunnel.  Britomart wa s opened to passengers in  
 July 2003.  The platform tracks  were subsequently electrified in March 2014 as part of a 
-major upgrade of Auckland’s commuter rail network.  All commuter trains serving Britomart 
+major upgrade of Auckland's commuter rail network.  All commuter trains serving Britomart 
 since July 2015 have been AM -class electric multip le units.    
 3.1.2.  On 9 May 2018 at about 0935, a six -car electric multiple unit passenger train approached 
 Britomart with about 130 passengers on board. The train , operated by Transdev  Auckland 
@@ -431,12 +431,12 @@ network controller at 1102 .
 Final Report RO -2018 -101 
 << Page 5 >>
  3.3. Key personnel  
-3.3.1.  The train driver worked out of the drivers’ depot at Wiri  and had nearly four  years’ driving 
-experience , which included  in both diesel and electric multiple units .  The driver’s operating 
+3.3.1.  The train driver worked out of the drivers' depot at Wiri  and had nearly four  years' driving 
+experience , which included  in both diesel and electric multiple units .  The driver's operating 
 certification was current.   
 3.3.2.  The train driver underwent  a post -incident drug and alcohol test that returned a negative 
 result for both.  
-3.3.3.  The train manager  had about 13 years’ experience in the role and had been  regularly trained 
+3.3.3.  The train manager  had about 13 years' experience in the role and had been  regularly trained 
 in emergency scenarios , including tunnel evacuation s training.  
 3.3.4.  The RIC was an experienced train driver , and for the previous  four years had been performing 
 the role of train crew manager based in the headquarters of Transdev Auckland.   
@@ -488,14 +488,14 @@ fractured switch rail
 
 << Page 8 >>
  Final report RO -2018 -101 4.2.3.  There was  a complete lateral fracture in the left -hand switch rail, which likely occurred when it 
-was placed into the ‘normal ’4 position for an incoming and outgoing train movement on 
+was placed into the 'normal '4 position for an incoming and outgoing train movement on 
 platform 2.  Neither of these train movements traversed the broken switc h rail and they were 
 therefore not at risk of derailment (see Figures 5 and 6).  
  
 Figure 6 
 Still image taken from the on -board c losed -circuit television of train approaching point of derailment  
 4.2.4.  Although t he left-hand  switch rail had broken into  two sections , the design of the switching 
-equipment  meant that the first portion of the switch rail was mo ved into the correct ‘reverse’ 
+equipment  meant that the first portion of the switch rail was mo ved into the correct 'reverse' 
 position by the spreader bars  (see Figure 7). In doing so, the elect rical circuit  was complete  
 and this allowed the signalling system to provide a proceed signal into the damaged section .  
 However, the switch rail at the platform end of the  fracture remain ed in the normal position  as 
@@ -520,8 +520,8 @@ Final Report RO -2018 -101
  4.2.6.  With the wheel flange  no longer being guided by the rails, the train could  travel in a direct line  
 along the top of t he left -hand fixed  rail for a short distance , before departing the track and 
 dropping onto the ballast between the two tracks .   
-4.2.7.  The driver immediately realised  that something was wrong and activated the  train’s 
-emergency brake . The train’s event recorder download data showed that the emergency brake 
+4.2.7.  The driver immediately realised  that something was wrong and activated the  train's 
+emergency brake . The train's event recorder download data showed that the emergency brake 
 application was made at 0936:42 .  The leading car of the six-car train stopp ed 16 metres  
 from  the point of derailm ent and c ame to rest approximately three centimetres short of a 
 vertical concrete wall between platforms 1 and 2.   
@@ -567,7 +567,7 @@ of th e manufacturing  standard, i.e. ultimate tensile strength of 1083 MPa and
 1067 MPa for the two samples was grea ter than the minimum  980 MPa .  
 The ductility (elongation percentage) of 10.2 % and 12.9 % was greater than the 
 minimum 9% specified.  
-Chemical analysis indicated that the material was compliant with KiwiRail’s 
+Chemical analysis indicated that the material was compliant with KiwiRail's 
 specification for U75V material .  
 The rail as man ufactured met all standards and specifications required.  
 The fracture initiated from a chatter mark7 at the foot of the switch rail 
@@ -619,15 +619,15 @@ established on 1 October 2008.
 
 
 << Page 12 >>
- Final report RO -2018 -101 supplier , with agreement from O NTRACK,  used Chinese standard TB/TT412, ‘Technical rule 
-for turnouts of standard gauge railway’, which specified a surface roughness of Ra11 25µm.  
+ Final report RO -2018 -101 supplier , with agreement from O NTRACK,  used Chinese standard TB/TT412, 'Technical rule 
+for turnouts of standard gauge railway', which specified a surface roughness of Ra11 25µm.  
 Surface roughness was only applicable to a normal machined surface, not  to abnormal and 
 undesirable machining defects such as chatter marks , which were irregular  and usually 
 assessed against presence  and depth.    
 4.4.5.  It was a requirement of the spec ification s that the supplier  of the points  provide d a certificate 
 of compliance for each order.  KiwiRail was unable to  provide the Commission with the 
 certificate of compliance .  Consequently it could not be established wheth er one had not been 
-supplied or whether one had been supplied and not been retained in KiwiRail’s recordkeeping 
+supplied or whether one had been supplied and not been retained in KiwiRail's recordkeeping 
 system.    
 4.4.6.  The supply ag reement provided a one -year warranty period with the supply of each individual 
 order.  Although the set of points had bee n operating for more than five years, the fatigue 
@@ -719,8 +719,8 @@ system .
 4.7. Other potential factors considered  
 4.7.1.  Once the derailed train came to a stop the driver made a conscious decision, because of the 
 unknown status of the overhead line, to use the radio system to make an emergency call to 
-train control , rather than activate the emergency red button, commonly called the ‘ emergency 
-mushroom’.  
+train control , rather than activate the emergency red button, commonly called the ' emergency 
+mushroom'.  
 4.7.2.  Had the emergency mushroom been activated when the driver realised that the train had 
 derailed, the following actions would have occurred almost simultaneously:  
  the emergency brake is applied  
@@ -729,7 +729,7 @@ derailed, the following actions would have occurred almost simultaneously:
 4.7.3.  In this case the train was approaching the platform at about 25 kilometres per hour and 
 stopped five seconds after it derailed.  Had the driver activated the  emergency  mushroom to 
 stop the train, train control  would have been alerted to the incident appr oximately five 
-seconds earlier  irrespective of the driver’s condition after a potential impact.   The response to 
+seconds earlier  irrespective of the driver's condition after a potential impact.   The response to 
 this rare and unusual circumstance was likely to have been appropriate on this occasion 
 because the additional  time that would have been requir ed to activate the emergency 
 mushroom may have resulted in the driving cab striking the end of the concrete wall.  
@@ -739,7 +739,7 @@ control, inform the train manager and passengers, keep crew and passengers on th
 until confirmation is received that the overhead line has been earthed and isolate d, and wait 
 for assistance.  
 4.7.5.  The Com mission considered the effectiveness and safety of the train evacuation and found 
-that it was carried out safely and in accordance with Transdev’s evacuation procedures.  
+that it was carried out safely and in accordance with Transdev's evacuation procedures.  
 Passengers were kept informed by the train crew as to what to expect and when.   The 
 Commission found no safety issues with the first response to the accident.   
                                                         
@@ -760,7 +760,7 @@ between two sleeper supports.
 5.5. There was no evidence that the manufacturing defect was representative of a wider quality 
 issue.  
 5.6. The first response to rescue passengers and crew from the derailed train was conducted 
-appropriately and in accordance with the operator’s procedures .  
+appropriately and in accordance with the operator's procedures .  
 
 << Page 16 >>
  Final report RO -2018 -101 6. Safety issues  
@@ -780,7 +780,7 @@ would not normally result in the Commission issuing a recommendation.
 7.2.1.  No safety issues identified . 
 7.3. Safety actions addressing other safety issues  
 7.3.1.  The KiwiRail track inspection regime has moved from a reactive inspection  to predictive 
-assurance in accordance with Track Standard T –ST–IN– 5109 . 
+assurance in accordance with Track Standard T -ST-IN- 5109 . 
 7.3.2.  An independent wheel/rail interface working group has been established to resolve any 
 potential rail wear issues within the Auck land passenger network.  
   
@@ -825,14 +825,14 @@ level crossing, near Kawerau, 6 October 2017
 RO-2017 -104 
  Unauthorised immobilisation of passenger train, at Baldwin Avenue Station, 
 Avondale, 17 Septemb er 2017  
-RO-2017 -101 Signal Passed at Danger ‘A’ at compulsory stop boards protected worksite, 
+RO-2017 -101 Signal Passed at Danger 'A' at compulsory stop boards protected worksite, 
 Pongakawa, Bay of Plenty, 7 February 2017  
 RO-2017 -103 Potential collision between passenger trains, Wellington Railway Station, 15 
 May 2017  
 RO-2017 -102 Signalling irregularity, Wellington Railway Station, 3 April 2017  
 RO-2016 -101 Signal passed at danger leading to near collision, Wellington Railway Station, 
 28 May 2016  
-RO-2016 -102 Train 140 passed Signal 10R at ‘Stop’, Mission Bush Branch line, Paerata,  
+RO-2016 -102 Train 140 passed Signal 10R at 'Stop', Mission Bush Branch line, Paerata,  
 25 October 2016  
 RO-2015 -103 Track occupation irregularity, leading to near collision, between Manunui and 
 Taumarunui, 15 December 2015  

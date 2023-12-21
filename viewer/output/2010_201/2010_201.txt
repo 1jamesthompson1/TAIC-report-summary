@@ -181,7 +181,7 @@ Page ii | Report 10 -201 Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
 action against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes 
-this final report inadmissible as evidence in any proceedings with the exception of a Coroner’s inquest.  
+this final report inadmissible as evidence in any proceedings with the exception of a Coroner's inquest.  
  
 Ownership of report  
 This report remains the intellectual  property of the Transport Acci dent Investigation Commission.   
@@ -189,10 +189,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 of the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Informatio n derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Informatio n derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to industry participants only and not 
 discoverable under the Official Information Act 1980 have be en referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cited.  
+documents referred to during the Commission's inquiry that are publicly available are cited.  
  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs , diagrams  and pictures included  in this final repo rt are 
@@ -253,10 +253,10 @@ General   ................................ ................................ ....
 General   ................................ ................................ ................................ ................................ ...................  21 
 8. Key lessons  ................................ ................................ ................................ ................................ .............  22 
 9. Citations  ................................ ................................ ................................ ................................ ..................  23 
-Appendix 1 – Section 3 of the Code of Safe Practice for Solid Bulk Cargoes (BC Code)  ...........................  24 
-Appendix 2 – Appendix 7 of the Code of Safe Practice for S olid Bulk Cargoes (BC Code)  ........................  26 
-Appendix 3 – Procedure for enclosed space entry and enclosed space entry permit TPC Korea Limited 34 
-Appendix 4 – Maritime New Zealand Safety Bulletin Issue 21 – September 2009 – Enclosed Spaces  . 38 
+Appendix 1 - Section 3 of the Code of Safe Practice for Solid Bulk Cargoes (BC Code)  ...........................  24 
+Appendix 2 - Appendix 7 of the Code of Safe Practice for S olid Bulk Cargoes (BC Code)  ........................  26 
+Appendix 3 - Procedure for enclosed space entry and enclosed space entry permit TPC Korea Limited 34 
+Appendix 4 - Maritime New Zealand Safety Bulletin Issue 21 - September 2009 - Enclosed Spaces  . 38 
  
   
 Page vi | Report 10 -201 Figures  
@@ -296,7 +296,7 @@ Prevention
  
 m metre(s)  
 m3 cubic metre(s)  
-MAIIF  Marine Accident Investigator’s International Forum  
+MAIIF  Marine Accident Investigator's International Forum  
 MSC  Maritime Safety Committee  
  
 SMS  Safety Management Sys tem 
@@ -312,7 +312,7 @@ Type : bulk c arrier
 Class:  SOLAS  
 Limits:  unlimited  
 Classification:  Korean Register   
-KRS1 – bulk carrier ESP HC/E (hold Nos 2 & 4 may be empty)  
+KRS1 - bulk carrier ESP HC/E (hold Nos 2 & 4 may be empty)  
                                   ENV(IOPP, IAPP, ISPP, IAFS) CHA LI  
 KRM1  
 Length:  179.99 metres (m)  
@@ -348,7 +348,7 @@ Summary
 Marsden, Northland. When the chief officer entered a cargo hold that was full of logs that had 
 been loaded at  a previous port , he rapidly lost useful consciousness (lost the ability to hold on 
 to the ladder) and fell from the ladder onto the cargo below.   
-1.2. The ship’s bosun had accompanied the chief officer to the cargo hold access and when the 
+1.2. The ship's bosun had accompanied the chief officer to the cargo hold access and when the 
 chief officer fell he alerted nearby deck crew before leaving to collect rescue equipment.  One 
 of the nearby crew members went to the hold access and on seeing the unconscious chief 
 officer below, entered the hold with the intention of rescuing him.  He too rapidly lost use ful 
@@ -366,7 +366,7 @@ TPC Wellington , but in spite of this the high risk this posed to the crew had n
 no specific training had been given to the crew members to heighten thei r awareness of the 
 risk, and no emergency drills had been conducted in recent times for rescue from enclosed 
 spaces.  
-1.5. The emergency response by the ship’s crew to the accident was not well co -ordinated, which 
+1.5. The emergency response by the ship's crew to the accident was not well co -ordinated, which 
 reduced the possibility of saving the lives of t he 2 men in the cargo hold.  
 1.6. Internationally a disproportionately high number of deaths attributable to entry into enclosed 
 spaces has prompted a review by the International Maritime Organisation of what can be done 
@@ -390,7 +390,7 @@ berthed at Port Marsden, Northland.
 2.2. The circumstances reported were that the vessel had been loading a car go of logs  and 2 of 
 the crew  had died when they entered a cargo hold that was full of logs.  A third crew member 
 had nearly succumbed during the attempted rescue of the first 2.  
-2.3. As the accident fell into the category of a ―very serious accident‖ as defined  in the IMO’s 
+2.3. As the accident fell into the category of a ―very serious accident‖ as defined  in the IMO's 
 casualty investigation code , which requires states to conduct investigation s under the code , 
 the Commission opened an inquiry into the occurrence.  
 2.4. The Commission contacted the flag state of the vessel, Panama .  The Commission and the 
@@ -399,7 +399,7 @@ would produce a report as part of a joint investigation into the occurrence.  On
 report had been produced by the Commission, Pan ama would present the report to the IMO.   
 2.5. On 4 May 2010 , an investigator from the Commission travelled from Wellington to Port 
 Marsden.  On arrival  the investigator was met and briefed by Maritime New Zealand 
-investigators, the New Zealand Police, the Cor oner and a member of the port’s management 
+investigators, the New Zealand Police, the Cor oner and a member of the port's management 
 team.   That same day the investigator examined the scene of the accident .   
 2.6. During the next 2 days the investigator interviewed witnesses who had been involved in the 
 rescue and in the events leading up to the acc ident.  Others involved in the operation of the 
@@ -428,16 +428,16 @@ Report 10 -201
 Korea.  The vessel was a 5 -hold ―handy size‖ bulk carrier equipped to carry logs.  The vessel 
 commenced loading logs  at about 0900 until about  1830 on 28 April 2010.  The vessel sailed 
 for Tauranga at about 1945 that evening.   
-3.1.2.  While the vessel was in Napier the vessel’s agency stat ement of facts noted that number 5 
+3.1.2.  While the vessel was in Napier the vessel's agency stat ement of facts noted that number 5 
 cargo h old was worked between 0700 on 27 April and 1830 on 28 April.  The statement of 
 facts also noted showers (of rain ) between 1900 on 27 April and 0700 on 28 April.   While in 
 Napier the TPC Wellington  loaded a total o f about 13 991 cubic metres (m3) of logs of which 
 about 4184 m3 were loaded in number 5  cargo hold.  
 3.1.3.  The TPC Wellington  arrived in Tauranga  during the morning of 30 April and car go operations 
-commenced at about 0700 .  The vessel’s Agency statement of facts noted that cargo was 
+commenced at about 0700 .  The vessel's Agency statement of facts noted that cargo was 
 worked in number 5 cargo hold from 0700 on 30 April  until about 1530 on 1 May  when 
 number 5 cargo hold was full and the hatch lids were closed .  Cargo work continued until 
-2200 on 1 May.  The weather was reported as being fine througho ut the vessel’s stay in 
+2200 on 1 May.  The weather was reported as being fine througho ut the vessel's stay in 
 Tauranga.  While in Tauranga the TPC Wellington  loaded a total of about 13  091 m3 of logs , of 
 which about 963 m3 were loaded in number 5 cargo hold and 2369 m3 of logs were loaded on 
 the deck at number 5 cargo hatch.   
@@ -457,10 +457,10 @@ needed to be removed before fumigation could take place.  Also the [rubber] seal
 on No .5 aft access door needed to be replaced.   
 3.1.7.  The master called the chief officer to his cabin and a discussion followed on what could be 
 done to remove the moisture from the hatches.  The master then spoke to the chief officer in 
-their native tongue (Korean ), after which the chief officer left the master’s cabin.  The master 
+their native tongue (Korean ), after which the chief officer left the master's cabin.  The master 
 later said that  he: 
-… didn’t know where  he [the chief officer]  was going or what he [the chief officer] 
-was planning to do.  We hadn’t made any decisions, and I hadn’t given him any 
+… didn't know where  he [the chief officer]  was going or what he [the chief officer] 
+was planning to do.  We hadn't made any decisions, and I hadn't given him any 
 orders.  
 3.1.8.  The chief officer was next seen at the port gangway station by some  crew members .  The chief 
 officer asked  the bosun, who was assisting with adjusting the gangway, to go with him to 
@@ -500,10 +500,10 @@ access way.
 the gangway the bosun made his way to the aft  mooring station to get a rope suitable for 
 hauling the chief officer out of the hold access.   
 Rescue phase  
-3.1.12.  The second officer , who was at the gangway, on hearing the bosun’s shouts for help alerted 
+3.1.12.  The second officer , who was at the gangway, on hearing the bosun's shouts for help alerted 
 the captain by using his portable radio transceiver.  One of the deck crew  at the gangway ran 
 into the accommodation to raise the alarm  verbally .  The third officer who was working in the 
-ship’s office heard the deck crew member  shouting the alarm , and tried to follow him to the 
+ship's office heard the deck crew member  shouting the alarm , and tried to follow him to the 
 accident site ; however, the crew member  had disappeared from view , so the third officer 
 made his way to the main deck and went to the port side of number 4 cargo hatch as he was 
 unsure where the accident had occurred . 
@@ -537,12 +537,12 @@ the al arm.
 Figure 1) on the main deck, retrieved a br eathing apparatus set and took it to the accident 
 scene.  The third  officer arrived at  the emergency equipment locker  and took another  
 breathing apparatus set to the accident scene.  The second  officer then made his way to the 
-ship’s hospital where he readied the oxygen therapy set for use an d then took it to the 
+ship's hospital where he readied the oxygen therapy set for use an d then took it to the 
 accident scene .   
 3.1.17.  The master then made his way back to his cabin where he informed the Marsden fumigation 
 supervisor  of the accident , then to the wheelhouse , stopping on the way to inform the chief 
 engineer of the accident.  On arrival in the wheelhouse the master activated the general 
-emergency alarm to muster the vessel’s crew.   
+emergency alarm to muster the vessel's crew.   
 3.1.18.  The Marsden fumigation supervisor  called the emergency services on his mobile t elephone 
 and asked for an ambulance.  He then telephoned the staff at Port Marsden security gate 
 house to advise them of the accident and requested that they also telephoned the ambulance 
@@ -619,7 +619,7 @@ Testing of hold access atmosphere
 tested by a member of the Marsden Point refinery operations team in the  presence of 2 
 Maritime New Zealand i nvestigators.  The Marsden Point r efinery employee was using a ITX 
 gas monitor , which had been calibrated on 22 April 2010 and was valid until 21 July 2010 , in 
-preference to the vessel’s oxygen meter .  A normal reading is 20.95% oxygen by volume in the 
+preference to the vessel's oxygen meter .  A normal reading is 20.95% oxygen by volume in the 
 atmosphere ; the alarm on the monitor sounds at 19% oxygen in the atmosphere.  T he results 
 were as shown:  
 Oxygen readings  
@@ -634,7 +634,7 @@ Table 1
  Oxygen readings of atmosphere in No.5 c argo hold entrance 3 May 2010  
 The access door was then closed and was not opened until the next day , when at 1435 the 
 door was reopened and the atmosphere t ested again by a Marsden Po int refinery employee in 
-the presen ce of the Maritime New Zealand i nvestigators and the Commission ’s investigator . 
+the presen ce of the Maritime New Zealand i nvestigators and the Commission 's investigator . 
 The results were as follows:  
   
                                                         
@@ -662,14 +662,14 @@ time (Wikipedia) .
 millimetres of mercury  Time of useful 
 consciousness at rest  
 21%  160 Infinite  
-10%  78 20 – 30 minutes  
-7.7%  60 3 – 5 minutes  
-6% 47 1 – 2 minutes  
-4.9%  38 30 – 60 seconds  
-3.8%  30 15 – 20 seconds  
-3.3%  26 9 – 12 seconds  
-2.3%  18 9 – 12  seconds  
-1% 8 9 – 12 seconds  
+10%  78 20 - 30 minutes  
+7.7%  60 3 - 5 minutes  
+6% 47 1 - 2 minutes  
+4.9%  38 30 - 60 seconds  
+3.8%  30 15 - 20 seconds  
+3.3%  26 9 - 12 seconds  
+2.3%  18 9 - 12  seconds  
+1% 8 9 - 12 seconds  
 Griffiths R, 2011 , adapted from Fundamentals of Aerospace Medicine 4th Edition 2008  
 Table 3  
 Time of useful conciousness under reduced inspired oxygen conditions  
@@ -681,7 +681,7 @@ registered in Panama and had valid certificates issued by the Panamanian Governm
 Korean Register classification society  
 3.2.2.  The TPC Wellington  was a steel hulled bulk carrier with an overall length of 179.99  m and a 
 breadth of 30.50  m.  The vessel had an international gross registered tonnage of 23  257.   
-3.2.3.  The vessel’s cargo carrying spaces  were divided into 5 holds .  Number 5 hold had a capacity 
+3.2.3.  The vessel's cargo carrying spaces  were divided into 5 holds .  Number 5 hold had a capacity 
 of about 9,822 m3 and the other 4 holds had capacities ranging between 8830 m3 and 
 11 344 m3 giving a total capacity of about 52  145 m3.  Each cargo hold was covered by 
 segmented steel hatch c overs.  When closed the hatch covers  provided a weathertight 
@@ -708,18 +708,18 @@ Wellington  for the previous 5 months.
 3.3.2.  The chief officer of the TPC Wellington  was a 56 -year-old Korean ma le.  He had been chief 
 officer for several years and was experienced in the carriage of bulk cargoes including logs.  
 He had been on board the vessel for about one month.  
-3.3.3.  The chief officer’s work hours for the previous 3 days were obtained from the compute r 
+3.3.3.  The chief officer's work hours for the previous 3 days were obtained from the compute r 
 records on  the vessel , which showed that he had worked the following:  
 Date  Times  Hours worked  Total Hours  
-30 April 2010  0800 – 0930  1.5 
-8.5 1530 – 1730  2.0 
-1800 – 1900  1.0 
-2000 – 2400  4.0 
-1 May 2010  0945 – 1400  4.25  
-8.75  1630 – 1930  3.0 
-2230 – 2400  1.5 
-2 May 2010  0000 – 0430  4.5 
-8.5 1600 – 2000  4.0 
+30 April 2010  0800 - 0930  1.5 
+8.5 1530 - 1730  2.0 
+1800 - 1900  1.0 
+2000 - 2400  4.0 
+1 May 2010  0945 - 1400  4.25  
+8.75  1630 - 1930  3.0 
+2230 - 2400  1.5 
+2 May 2010  0000 - 0430  4.5 
+8.5 1600 - 2000  4.0 
 Table 4  
 Chief officer's hours of work preceeding 3 days  
 The hours the chief officer worked after the TPC Wellington  arrived in Port Marsden until the 
@@ -736,7 +736,7 @@ vessel for about one month.  He had first gone  to sea in 1998 and had sailed on
 vessels .   
 3.3.7.  The a ble bodied seaman who died  was a 33 -year-old Myanma r male .  He had been on board 
 the vessel for about 5 months.  He had served as a seaman at sea for several years.   
-3.3.8.  The deceased  seaman ’s work hours for the previous 3 days were obtained from the vessel ’s 
+3.3.8.  The deceased  seaman 's work hours for the previous 3 days were obtained from the vessel 's 
 computer records  which showed that he had worked the foll owing:  
   
                                                         
@@ -746,20 +746,20 @@ tight.
 Report 10 -201 
 << Page 11 >>
  Date  Times  Hours worked  Total Hours  
-30 April 2010  0400 – 0800  4.0 
-8.0 1600 – 2000  4.0 
-1 May 2010  0400 – 0800  4.0 
-9.5 1600 – 2000  4.0 
-2230 – 2400  1.5 
-2 May 2010  0400 – 0800  4.0 
-8.0 1600 – 2000  4.0 
+30 April 2010  0400 - 0800  4.0 
+8.0 1600 - 2000  4.0 
+1 May 2010  0400 - 0800  4.0 
+9.5 1600 - 2000  4.0 
+2230 - 2400  1.5 
+2 May 2010  0400 - 0800  4.0 
+8.0 1600 - 2000  4.0 
 Table 5  
 ABC's hours of work preceeding 3 days  
 The hours the able bodied seaman  had worked after the TPC Wellington  arrived in Port 
 Marsden until the time of the accident.  Were estimated to be 4 hours from 0400 to 0800 on 
 3 May then one hour from 1600 until 1700 t he approximate time of the accident.   
 3.4. Injuries  
-3.4.1.  The autopsy report found that the cause of the chief o fficer’s death was  consistent with 
+3.4.1.  The autopsy report found that the cause of the chief o fficer's death was  consistent with 
 asphyxia due to oxygen deprivation.  The autopsy report found that the chief officer was 
 suffering from focal atherosc lerosis of the coronary arteries which may have increased his 
 vulnerability to hypoxia.  A toxicological examination revealed no findings of significance.    
@@ -784,11 +784,11 @@ on board.
 under the authority of the Government of the Republic of Panama and was found to comply 
 with the requirements of the ISM Code.  The owner was issued with a document of compliance  
 certificate, which was renewed, after verification of continued compliance, at regular intervals.   
-3.5.3.  On 14 September 2008, the TPC Wellington  had been audited and the vessel’s SMS had been 
+3.5.3.  On 14 September 2008, the TPC Wellington  had been audited and the vessel's SMS had been 
 found to comply with the requirements of the ISM Code.  The vessel had been  issued with a 
 safety management certificate on 14 September 2008, which remained valid, subject to 
 periodic verification, until 13 September 2013.   
-3.5.4.  A part of the ship’s SMS  on board was the vessel procedures manual in which the operating 
+3.5.4.  A part of the ship's SMS  on board was the vessel procedures manual in which the operating 
 company laid out the procedures to be followed to operate the vessel. The manual was broken 
 down into eight sections namely:  
  shipboard duties  
@@ -807,14 +807,14 @@ the chief officer.  Shipboard safety work included referenc e to enclosed space 
 personal protective equipment required should emergency entry into an enclosed space be 
 required, and an entire chapter on the procedure for enclosed space entry  (see Appendix 3) .  
 Section  one of the ship operation manual included a requirement for the master to ensure 
-that cargo information was obtained, in accordance with the IMO’s Code of Safe Practice for 
+that cargo information was obtained, in accordance with the IMO's Code of Safe Practice for 
 Solid Bulk Cargoes ( BC Code), including any hazard that might  occur from the transportation of 
 the cargo and the man agement of dangerous cargoes.  Cargo handling included a chapter on 
 log handling.   
 3.6. Cargo information and properties  
 3.6.1.  The TPC Wellington  was chartered to transport logs, predominantly Monterey p ine ( Pinus 
 radiata ) from New Zealand to Korea and China.   
-3.6.2.  The carriage of logs at sea and in bulk was covered in the IMO’s BC Code which was first 
+3.6.2.  The carriage of logs at sea and in bulk was covered in the IMO's BC Code which was first 
 published in 1965.  The C ode ha d been revised and republished several times since then.   
 3.6.3.  Section 3 of the BC C ode was concerned with the safety of personnel and ship s and gave  
 general information on the safety precautions to be taken and information to be passed to the 
@@ -1021,7 +1021,7 @@ Accident Investigators International Forum (MAIIF) .  In 2009 it submitted a doc
 IMO calling for a revision of the procedures and citing at least 101 enclosed space incidents 
 resulting in 93 deaths and  96 injuries since the recommendations had been  adopted (Marine 
 Accident Investigator's International Forum, 2009) .  In 2009, Maritime NZ issued Safety 
-Bulletin Issue 21 – September 2009, Enclosed and Confined S paces Can Kill highlighting to 
+Bulletin Issue 21 - September 2009, Enclosed and Confined S paces Can Kill highlighting to 
 the maritime industry the dangers of enclosed spaces (see Appendix 4).   
   
 Report 10 -201 
@@ -1034,13 +1034,13 @@ staff on board who have the res ponsibility for ensuring compliance on board, th
 the crew who are performing the procedure.  It is this chain of responsibility that is espous ed 
 in the ISM Code, and if the chain is broken in some way the crew who are most likely to 
 encounter  an enclosed space scenario are at higher risk of having an accident.   
-4.4.5.  The TPC Wellington ’s shipboard management manual and systems had been audited and 
+4.4.5.  The TPC Wellington 's shipboard management manual and systems had been audited and 
 approved by Korean Register under the ISM Code.  The manual contained references to the 
 requirements to  be followed when loading log cargoes, the dangers associated with the cargo 
 and procedures to be taken if entry into an enclosed space was required.  However, TPC Korea 
 Company Limited , although identifying the need for education and training onboard for 
 emergency response training and drills in the vessel procedures manual had not identified the 
-need for an enclosed space rescue drill in the ship’s emergency response drill matrix.  
+need for an enclosed space rescue drill in the ship's emergency response drill matrix.  
 4.4.6.  The SSM  failed to mitigate what was known to be a high-risk to the crew.  N o record could be 
 found of specific training for the crew to highlight the danger of entering enclosed cargo holds, 
 nor had an enclosed space drill been held.  Of the crew who had been made aware of the 
@@ -1054,8 +1054,8 @@ been included in his certificated training (International Maritime Organization,
 Finding s 
  
 Being a dedicated log carrier , the risk of death by entering closed cargo holds containing 
-logs and rescue from enclosed spaces should have been high on the ship’s emergency 
-response training program me, yet no evidence could be found in the  vessel’s records for 
+logs and rescue from enclosed spaces should have been high on the ship's emergency 
+response training program me, yet no evidence could be found in the  vessel's records for 
 the previous 3 months that such a drill or training had been performed.  
  
 It could not be established why the chief officer, a veteran of the sea , and senior officer 
@@ -1102,7 +1102,7 @@ could have become a casualty.
  
 Finding  
  
-The rescue response from the vessel’s master and crew was not well coor dinated or 
+The rescue response from the vessel's master and crew was not well coor dinated or 
 practis ed, taking some 15 to 20 minutes to remove the bodies from the cargo hold and 
 attempt resuscitation.  Given the survival time in the cargo hold atmosphere, any rescue 
 attempt would have had to be immediate and efficient for either of the deceased to 
@@ -1128,8 +1128,8 @@ logs and toxic gases such as CO, CO2 and H2S may also have been present, phenome
 known to the shipping industry and one s that w ere documented in the cargo -handling 
 procedures on board the TPC Wellington  
 5.4. Being a dedicated log carrier the risk of death by entering enclosed cargo holds containing 
-logs and rescue from enclosed spaces should have been high on the ship’s emergency 
-response training program me, yet no evidence could be found in the vessel ’s records for the 
+logs and rescue from enclosed spaces should have been high on the ship's emergency 
+response training program me, yet no evidence could be found in the vessel 's records for the 
 previou s 3 months that such a drill or training had been performed.  
 5.5. It could not be established why the chief officer, a veteran of the sea and a senior officer on 
 board would have ignore d the warnings given by the b osun and enter ed the cargo hold, 
@@ -1139,7 +1139,7 @@ needing water removed.
 hazards of entering closed cargo hold s, but he might not have been aware of why the chief 
 officer was unconscious, or may simply have been overwhelmed by an emotional urge to 
 perform the rescue in spite of the danger to himself.  
-5.7. The rescue response from the vessel ’s master and crew was not well coordinated or practi sed, 
+5.7. The rescue response from the vessel 's master and crew was not well coordinated or practi sed, 
 taking some 15 to 20 minutes to remove the bodies from the cargo hold and attempt 
 resuscitation.  Given the survival time in the cargo hold atmosphere, any rescue attempt 
 would have had to be immediate and efficient for either of the deceased to surviv e, which 
@@ -1164,7 +1164,7 @@ Over the last 12 -18 months, MNZ has been working to educate the wider
 maritime community, including sm all boat operators, about the dangers of 
 entering confined spaces. Following the initial development and distribution of 
 Safety Bulletin No.21 in September 2009, we again highlighted the problem in 
-three successive issues of MNZ’s Lookout magazine — June 2 010, September 
+three successive issues of MNZ's Lookout magazine — June 2 010, September 
 2010 and March 2011. Lookout has a wide distribution within the commercial 
 sector and, to a lesser extent, the recreational sector.  
 In addition, MNZ highlighted the issue in its September 2010 surveyor newsletter 
@@ -1235,7 +1235,7 @@ http://en.wikipedia.org/wiki/Time_of_useful_consciousness
   
 
 << Page 24 >>
- Report 10 -201 Appendix 1 – Section 3 of the Code of Safe Practice fo r Solid Bulk Cargoes 
+ Report 10 -201 Appendix 1 - Section 3 of the Code of Safe Practice fo r Solid Bulk Cargoes 
 (BC Code)  
 Safety of personnel and ship  
 3.1 General requirements  
@@ -1330,13 +1330,13 @@ Pesticides in Ships, set out in Appendix 8 of this Code.
   
 
 << Page 26 >>
- Report 10 -201 Appendix 2 – Appendix 7 of the Code of Safe Practice for Sol id Bulk Cargoes 
+ Report 10 -201 Appendix 2 - Appendix 7 of the Code of Safe Practice for Sol id Bulk Cargoes 
 (BC Code)  
 RECOMMENDATIONS FOR ENTERING  
 ENCLOSED SPACES ABOARD SHIPS  
 Preamble  
 The object of these recommendations is to encourage the adoption of safety procedures  aimed at 
-preventing casualties to ships’ personnel entering enclosed spaces where there may be  an oxygen -
+preventing casualties to ships' personnel entering enclosed spaces where there may be  an oxygen -
 deficient, flammable and/or toxic atmosphere.  
 Investigations into the circumstances of casualties that have occurred have shown that  accidents on 
 board ships are in most cases caused by an insufficient knowledge of, or disregar d for, the need to take 
@@ -1420,13 +1420,13 @@ The precautions in .6 and .7 may not apply to every situation described in this 
 authorizing entry should determine whether an attendant and the positionin g of rescue  equipment at 
 the entrance to the space is necessary.  
 5.2 Only trained personnel should be assigned the duties of entering, functioning as  attendants, or 
-functioning as members of rescue teams. Ships’ crews should be drilled  periodically in resc ue and 
+functioning as members of rescue teams. Ships' crews should be drilled  periodically in resc ue and 
 first aid.  
 5.3 All equipment used in connection with entry should be in good working condition and   inspected 
 prior to use.  
 6 Testing the atmosphere  
 6.1 Appropriate testing of the atmosphere of a space should be carried out with properly  calibrated 
-equipment by persons trained in the use of the equipment. The manufacturers’  instructions should 
+equipment by persons trained in the use of the equipment. The manufacturers'  instructions should 
 be strictly followed. Testing should be carried out before any person enters  the space, and at 
 regular intervals thereafter until all work is completed. Where appropriate, the  testing of the space 
 should be carried out at as many different levels as is necessary to obtain a  representative sample 
@@ -1654,7 +1654,7 @@ Report 10 -201
 
 
 << Page 34 >>
- Report 10 -201 Appendix 3 – Procedure for enclosed space entry and enclosed space entry 
+ Report 10 -201 Appendix 3 - Procedure for enclosed space entry and enclosed space entry 
 permit TPC Korea Limited  
  
   
@@ -1678,8 +1678,8 @@ Report 10 -201
 
 
 << Page 38 >>
- Report 10 -201 Appendix 4 – Maritime New Zealand Safety Bulletin Issue 21 – September 
-2009 – Enclosed Spaces  
+ Report 10 -201 Appendix 4 - Maritime New Zealand Safety Bulletin Issue 21 - September 
+2009 - Enclosed Spaces  
  
   
 

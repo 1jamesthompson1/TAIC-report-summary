@@ -1,0 +1,59 @@
+- name: Training and Competency
+  percentage: 30
+  explanation: The pilot had not been properly trained and did not have the appropriate level of experience expected under the operator's categorisation scheme to fulfill the role and responsibilities expected of a senior (A-category) pilot in this type of operation (5.7). The operator's system for training its pilots was ill-defined and did not comply fully with the Civil Aviation Rules (5.8). These deficiencies in training and competency were significant factors contributing to the accident.
+- name: Organizational Safety Culture
+  percentage: 25
+  explanation: The operator's training system did not have sufficient oversight by the designated senior persons, which allowed the pilot to be assigned roles and responsibilities without the proper training and experience (5.9). The operator's senior management oversight of the operation was lacking, particularly in the oversight of its pilot training system and the degree of supervision provided for its pilots (4.7.1). This lack of a strong safety culture within the organization was a critical factor in the accident.
+- name: Regulatory Oversight and Compliance
+  percentage: 20
+  explanation: The Civil Aviation Authority had identified significant and repetitive non-compliance issues with the operator's training system and managerial oversight that warranted intervention long before this accident occurred (5.10). The CAA's failure to decisively respond to the information provided by its surveillance unit allowed the operator to continue with little change to improve its training and management system (4.7.4). This lack of effective regulatory oversight and compliance contributed to the accident.
+- name: Situational Awareness
+  percentage: 15
+  explanation: It is very likely that when the helicopter took off from Chancellor Shelf and descended down the valley, the pilot's perception of the helicopter's height above the terrain was affected by conditions such as cloud, precipitation, flat light conditions, and condensation on the helicopter's front windscreen (5.6). The loss of situational awareness was a direct contributing factor to the accident.
+- name: Weather Conditions and Decision Making
+  percentage: 10
+  explanation: The weather conditions on the day were unstable and unsuitable for conducting a scenic flight. The localized weather conditions in the area were very likely to have been frequently below the minimum criteria required by the Civil Aviation Rules (5.5). The pilot's decision to continue the flight under these conditions was imprudent and contributed to the accident (4.4.9).
+- name: Human Error and Assumptions
+  percentage: 0
+  explanation: 'There is insufficient information in the document to directly attribute the accident to human error and assumptions. The document focuses more on systemic issues such as training, oversight, and situational awareness.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: There is no mention of fatigue or overwork contributing to the accident in the document. The pilot had three days off duty prior to the accident, and witnesses said that the pilot's behavior and demeanor on the day of the accident were normal (4.3.2).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The document does not provide specific information on the pilot''s familiarity with the helicopter equipment as a contributing factor to the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no mention of issues related to Crew Resource Management contributing to the accident in the document.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 0
+  explanation: 'The document does not provide specific information on the adherence to safety procedures as a contributing factor to the accident.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'The document does not provide specific information on risk management and analysis as a contributing factor to the accident.
+
+    '
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'The document does not provide specific information on emergency response preparedness as a contributing factor to the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The document does not indicate that maintenance and inspection regimes were a factor in the accident. It states that an examination of the recovered components revealed no pre-existing failure (5.3).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not discuss the use of automation as a contributing factor to the accident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: The document does not provide specific information on communication breakdown as a contributing factor to the accident.

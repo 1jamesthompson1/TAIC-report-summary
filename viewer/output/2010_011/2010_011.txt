@@ -1,0 +1,2242 @@
+﻿ 
+ This report for inquiry 10-011 is suppressed  
+ 
+until 10.00am on 28 March 2013  
+ 
+Pursuant to its powers, including in sections 11, 14B(2) and 14K of the Transport 
+Accident Investigation Commission Act 1990, the Transport Accident Investigation 
+Commission directs that this report is provided to you in confidence and that its contents 
+are supressed and must remain confidential until its public release at 10.00am on 28 
+March 2013.  
+ 
+Any illegitimate disclosure of this report and/or its contents before this publication time 
+in contravention of the suppression order is an offence.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Inquiry 10 -011: Report into flying training safety in New Zealand  
+ 
+ 
+ 
+ 
+1.1.1.1   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken for that purpose.  
+ 
+The C ommission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These reports may be reprinted in who le or in part without charge, providing acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+  
+ 
+  
+  
+ 
+ 
+ 
+ 
+Transport Accident Investigation Commission  
+Te Komihana Tirotiro Aitua Waka  
+ 
+ 
+ 
+Inquiry  10-011 
+Report into flying training safety  
+in New Zealand  
+ 
+ 
+ 
+ 
+ 
+ 
+Released March 2013  
+  
+
+Transport Accident Investigation Commission  
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission  (the Commission)  is a standing commission of 
+inquiry responsible for inquiring into maritime, aviation and rail accidents and incidents in New 
+Zealand, a nd co -ordinating and co -operating with other accident investigation organisations overseas.  
+Its principal purpose is to determine the circumstances and causes of occurrence s with a view to 
+avoiding similar occurrences in the future rather than to ascribe blame.  The Commission carries out 
+this purpose by informing members of the transport sector, both domestically and internationally, of 
+the lessons that can be learnt from transport occurrences.   
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Depu ty Chief Commissioner   Helen Cull, QC  
+ 
+Key Commission personnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+General Counsel    Rama Rewi  
+Senior Research Analyst    Robert Spies  
+Senior Researcher    Ken Quarrie  
+ 
+ 
+Email   inquiries@taic.org.nz    
+ 
+Web  www.taic.org.nz  
+ 
+Telephone  +64 4 473 3112 (24 hrs) or 0800 188 926  
+ 
+Fax  +64 4 499 1510  
+ 
+Address   Level 16, 80 The  Terrace, PO Box 10 323, Wellington 6143, New Zealand   
+ 
+ Important notes  
+ 
+Nature of this report  
+ 
+This inquiry report is the result of the Commission's inquiry into flying training safety in New Zealand.  
+The Commission opened  this inquiry under section 8(2)(a) of the Transport Accident Investigation 
+Commission Act 1990 after it became concerned that previous occurrences involving flying training 
+(including a near mid -air collision in New Plymouth on 10 May 2010 and a mid -air c ollision near 
+Feilding on 26 July 2010 ) might be symptomatic of systemic or widespread matters affecting flying 
+training safety in New Zealand.   The purpose of this inquiry was to ascertain whether or not there were 
+common factor s or trends  that may have  contributed to  the cause s of these previous occurrences . 
+ 
+Ownership of report  
+ 
+This report is the Commission's  intellectual property.  It may be reprinted in whole or in part without 
+charge, provided that acknowledgement is made to the Commission.  
+Acknowledgements  
+The Commission is grateful to those individuals and organisations who prepared written submissions 
+and those who appeared as witnesses.  Their contributions assisted the Commission considerably in 
+its research .  
+Contents  
+ 
+Glossary and abbreviations  ................................ ................................ ................................ ...................  ii 
+1 Executive summary  ................................ ................................ ................................ ........................  1 
+2 Scope of report  ................................ ................................ ................................ ...............................  3 
+3 Conduct of inquiry  ................................ ................................ ................................ ..........................  5 
+4 Flying  training safety performance in New Zealand  ................................ ................................ .... 7 
+5 Issues applicable to flying training safety in New Zealand  ................................ .......................  15 
+6 Data and research  ................................ ................................ ................................ .......................  32 
+7 Findings  ................................ ................................ ................................ ................................ ........  33 
+8 Recommendations  ................................ ................................ ................................ .......................  36 
+9 References  ................................ ................................ ................................ ................................ ... 37 
+ 
+ 
+Report 10 -011 | Page i 
+ Figures  
+Figur e 1  Fatalities per 100 000 flying training hours flown, 2000 to 2011   
+(CAA, n.d. [unpublished data])  ................................ ................................ ..........................  7 
+Figure 2   Fatal accidents per 100 000 flying hours flown, 2 000 to 2011   
+(CAA, n.d. [unpublished data])  ................................ ................................ ..........................  8 
+Figure 3   Number of reported flying training mid -air collision and aircraft separation 
+occurrences, 1993 to 2011 (CAA , n.d. [unpublished data])  ................................ ..........  9 
+Figure 4   Reported fatal flying training mid -air collision accident rate, 1995 to 2011  
+(CAA, n.d. [unpublished data])  ................................ ................................ .......................  10 
+Figur e 5   Reported flying training aircraft separation incident rate, 1995 to 2011   
+(CAA, n.d. [unpublished data])  ................................ ................................ .......................  11 
+Figure 6   Flying training fatality rates by country, 1999 to 2009   
+(CAA, n.d. [unpublished data]; ATSB, 2010a; FAA, 1999; NTSB, n.d.)  ........................  13 
+Figure 7   Private flying and flying training fatality rates, Australia 1999 to 2009  
+(ATSB, 2010a)  ................................ ................................ ................................ ................  14 
+Figur e 8   Initial issue flight test failure rates, 2005 to 2012 (ASL, n.d.)  ................................ ... 16 
+Figure 9   Number of possible collisions with increasi ng air traffic (ATSB, 1991)  ......................  18 
+ 
+  
+Page ii | Report 10 -011 Glossary and abbreviations   
+ 
+ab-initio training  
+ the very first stage of flight training . 
+Advisory Circulars  
+ most Civil Aviation Rule s are accompanied by Advisory Circulars  published  by 
+the C ivil Aviation Authority , which provide explanatory information and 
+examples of acceptable means of compliance with the Rules. 
+ 
+Aerosafe  
+ Aerosafe Risk Management  is an Australian -based aviation specialist 
+company  that the Civil Aviation Authority  commissioned  in 2011 to complete 
+an independent review of New Zealand's flight training industry . 
+ 
+AIA Aviation Industry Association . 
+ 
+Airways  Airways Corporation of New Zealand . 
+ASL  Aviation Services Limited  holds a delegation from the Director of Civil Aviation 
+to conduct flight crew  licence written examinations, including International 
+Civil Aviation Organization  English language proficiency assessments.   Its 
+parent company is ASPEQ Limited . 
+ 
+ATSB  Australian Transport Safety Bureau . 
+ 
+BASI  Bureau of Air Safety Investigation  (Australia) . 
+ 
+CAA Civil Aviation Authority  of New Zealand . 
+ 
+CAA's occurrence 
+database  
+ the CAA's database , which contains data about aviation occurrences in New 
+Zealand  reported to the CAA . 
+CA Rules  
+ 
+CASA  Civil Aviation Rules . 
+ 
+Civil Aviation Safety Authority (Australia) . 
+ 
+EFTS  equivalent full-time student . 
+FAA Federal Aviation Administration  (United States) . 
+ 
+GAO United States General Accounting Office . 
+ICAO  International Civil Aviation Organiz ation . 
+MetFlight 
+Commercial /MetJet  enhanced web-based aviation weather information service s owned by 
+MetService and provided to commercial air transport operation  subscribers, 
+including flight training organisations . 
+ 
+MetFlight -GA an enhanced web -based aviation weather information service owned by 
+MetService and provided to non-commercial pilots for pre -flight weather 
+planning . 
+ 
+NTSB  National Transportation Safety Board  (United States) . 
+NZALPA  New Zealand Air Line Pilots ' Association . 
+occurrence  
+ an aviation accident or incident, as defined under section 2 of the Civil 
+Aviation Act 1990 . 
+ 
+Report 10 -011 | Page iii 
+ TCAS  Traffic Collision Avoidance System .  TCAS  is an aircraft collision -avoidance 
+system  that monitors the airspace around an aircraft for other aircraft 
+equipped with corresponding active transponder s, and gives warning s of 
+possible collision risks . 
+ 
+TEC Tertiary Education Commission . 
+ 
+
+ 
+Report 10 -011 
+<< Page 1 >>
+ 
+ 1 Executive summary  
+New Zealand 's flying training sector  
+1.1 The New Zealand flying training sector is diverse, with pilot training opportunities ranging from 
+recreational qualifications to advanced professional qualifications such as the air transport 
+pilot licence.  The sector has grown significantly in the past d ecade , from approximately 98  
+000 total training hours in 2000 to approximately 133  000 hours in 20111 (although this total 
+has fluctuated widely year  on year).  In 2011, 12% of these hours were for helicopter training , 
+with the remainder being for fixed -wing aeroplane training (C ivil Aviation Authority  [CAA] , n.d. 
+[unpublished data]).   
+ 
+1.2 There is a wide spectrum of flight training organisations catering to both domestic and 
+international students , ranging from large com mercial operators providing airline -structured 
+ab-initio cadetships through to individual flying schools and aero clubs.  The larger training 
+organisations tend to be concentrated in certain geographical areas , such as around 
+Auckland, Hamilton, Manawatu a nd Christchurch.  The number of flying training 
+establishments declined from 273 in 2000 to 174 in 2011 (CAA, n.d. [unpublished data]).   
+ 
+1.3 Private sector providers deliver theory and practical flight training for the initial issue of flight 
+crew licences a nd ratings .  Aviation Services Limited ( ASL) provides theory testing under a 
+delegation from the Director of Civil Aviation , and approved flight examiners conduct flight 
+tests.   
+The Commission's inquiry into flying training safety in New Zealand  
+1.4 In July 2 010 the Transport Accident Investigation Commission (the Commission) became 
+concerned that systemic or widespread matters might be affecting flying training safety in New 
+Zealand.  This concern arose after a number of fatal and near -fatal occurrences in New 
+Zealand involving flying training, including a near mid-air collisi on overhead New Plymouth 
+Aerodrome on 10 May 2010 and a mid -air collision near F eilding on 26  July 2010.    
+ 
+1.5 After making initial inquiries into these 2 occurrences , the Commission  review ed previous 
+occurrences involving flying training and analys ed occurrence data held by the CAA.  As a 
+result of this preliminary work , the Commission opened an inquiry under  section 8(2)(a) of the 
+Transport Accident Investigation Commission Act 1990  to ascertain whether or not there were 
+common factors or trends  that may have contributed to the cause s of these previous 
+occurrences.  
+ 
+1.6 The first part of the Commission's inquiry  involved  it looking at whether flying training safety 
+performance in New Zealand had improved or  deteriorated .  Occurrence data and research 
+from the CAA and other overseas jurisdictions were  analysed to help examine this area of 
+interest . 
+ 
+1.7 The next part of its inquiry  involved the Commission looking at specific issues  relating to flying 
+training safety in New Zealand , which were identified from written and oral submissions and 
+from the Commission's  own e nquiries .  In examining each of these issues, the Commission 's 
+primary objective was to determine  whether these issues were affecting, or could potentially 
+affect , flyin g training sa fety in New Zealand in any way.  If yes, then to what extent?    
+ 
+1.8 This report sets out the findings of the Commission's  research into each of these issues .  It 
+draws on data and research from the CAA and overseas agencies .  It also draws on  
+                                                           
+1 Based on actual training hours flown reported to the Civil Aviation Authority  by flying training operators.  
+
+<< Page 2 >>
+ Report 10 -011 information from written and oral submissions that the Commission received as part of its  
+public  consultation.  
+1.9 The Commission's research findings are set out in Section 7.  One key finding is that based on 
+a preliminary analysis of occurrence data, it is not possible  to conclude statistically whether 
+flying training in New Zealand is less or more safe no w than it used to be.    
+ 
+1.10 A recurring theme underpinning many of the findings  is the lack of data and research 
+examining  factors that might have contribut ed to occurrences in flying training operations in 
+New Zealand and overseas , and the limitations of the CAA's safety occurrence reporting 
+system, which made it difficult for the Commission to analyse  flight training accident causal 
+factors and safety trends  accurately .  The CAA is aw are of these limitations and  has advised 
+that it  is "considering a range  of actions  associated with its underlying safety information  and 
+data systems  … that should enable easier  submission and recording of safety information " 
+(CAA, n.d.2 [unpublished data] ).   
+ 
+1.11 The Commission's recommendations are set out in Section 8 .  In summary, it is recommend ed 
+that the Director of Civil Aviation : 
+ 
+(a) review the CAA's data systems and processes, particularly regarding flying training 
+data, including the information collected and the way this information is collected, 
+categorised, record ed in the CAA's occurrence database and analysed to ensure that 
+meaningful and complete data on flying training in New Zealand is available ; 
+ 
+(b) undertake and publish further quantitative research and causal analysis of flying 
+training -related accidents and i ncidents held in the CAA's occurrence database to 
+assess fully and identify any potential systemic safety issues, trends and risks, so that 
+appropriate safety strategies can be adopted to improve safety performance within 
+the New Zealand flying training system ; 
+ 
+(c) take all appropriate steps to ensure that information about flight instructor 
+demographics (e.g. qualifications, experience levels, age) and flight instructor 
+performance and competency levels is regularly collected, categorised and recorded  
+in a way that will enable it to be analysed  meaningfully ; 
+ 
+(d) complete , as a matter of priority, the tasks that the CAA is required to do to progress 
+the proposed amendments to CA Rule Part 141 (Aviation Training Organisations - 
+Certification) and to CA Rule Part 61 (Pilot Licences and Ratings) .   
+ 
+  
+                                                           
+2 n.d. = no date of publication available or applicable.  
+ 
+Report 10 -011 
+<< Page 3 >>
+ 
+ 2 Scope  of report  
+Scope of this report  
+2.1 This report focuses on flying training in New Zealand involving aeroplane and helicopter 
+aircraft .  Data and research examined  as part of the Commission's review  of flying training 
+safety , and discussed in this report , include:  
+ 
+(a) occurrence data held by the CAA and overseas agencies ; 
+ 
+(b) investigation reports and research literature published by the CAA and overseas 
+agencies ; 
+ 
+(c) inquiry  reports published by the Commission ; 
+ 
+(d) information provided by organisations in response to requests from the Commission ; 
+ 
+(e) written and verbal submissions made to the Commission as part of its research ; 
+  
+(f) information and research held in the public domain about the flying training sector.  
+ 
+2.2 For the purposes of this report, "flying training" generally means flying under instruction from 
+an appropriately licensed  and rated flight instructor or flight examiner that is being conducted 
+for the issue or the renewal of a licence or rating.  Flying training includes all approved and 
+supervised solo training, including solo navigation exercises conducted as part of the training.   
+ 
+2.3 This report focuses  on solo and dual flight instructional activity undertaken by a student or 
+trainee pilot as part of the ir training towards a private or commercial pilot licence .  It does not 
+examine  flying training involving agricultural flying and adventure and sports aviation such as 
+gliding, parachuting, hot air ballooning, paragliding, hang gliding and microlight  operations.  
+Nor does it examine p ilot training towards advanced qualifications such as the airline 
+transport pilot licence , instrument ratings, or aircraft type endorsements and recurrent 
+training.  
+Caveats  
+2.4 This report is subject to the following caveat s: 
+ 
+(a) the data sourced from  the CAA  and other agencies  involve d a relatively small data 
+sample.  Any quantitative analysis based on this data, therefore, must be done  with 
+care.  Although broad differences between periods can be established, any detailed 
+analysis of changes in rates over time is difficult to make ; 
+ 
+(b) unless otherwise stated, occurrence statistics are based on data derived from the 
+CAA's Mandatory O ccurrence  Information System ; 
+ 
+(c) the Commission 's inquiry  into flying training in New Zealand involved a high -level 
+descriptive analysis of selected data and research to try to gauge whether potential 
+safety issues regarding flying training were valid and, i f so, to what extent.  A 
+significant amount of data and research came from published material , mostly 
+international .  Other  data was requested from relevant organisations such as the CAA, 
+ASL, the Tertiary Education Commission  (TEC)  and Airways  Corporation of New 
+Zealand (Airways) ; 
+ 
+
+<< Page 4 >>
+ Report 10 -011 (d) the Commission focused on a selected  range  of aviation safety performance 
+indicators (for example, flying training fatalities and fatal accidents) for the purposes 
+of this report .  This select range, plus the limited  occurrence data and research 
+available,  made it difficult for the Commission to gain a complete picture of trends in 
+flying training safety .  
+ 
+Report 10 -011 
+<< Page 5 >>
+ 
+ 3 Conduct of inquiry  
+Inquiries into flying  training occurrences   
+3.1 The Commission and the CAA have separately investigated a number of fatal and non -fatal 
+flying training occurrences  in recent years.   These have include:  
+ 
+(a) an "impact with terrain accident" in the Ruahine Ranges on 12 July 2010 , involving a 
+commercial pilot licence flight test where the instructor and student pilot were both 
+seriously injured ; 
+ 
+(b) a mid -air collision near Paraparaumu Aerodrome on 17 February 2008 , between a 
+light aeroplane flown by a student pilot and a light helico pter with an instructor and 
+student pilot on board .  All three pilots were killed;  
+ 
+(c) an "impact with terrain accident" near Cass Saddle on 16 January 2008 , involving a 
+cross -country training flight , where the 2 trainee pil ots on board were killed ; 
+ 
+(d) an "impact with terrain accident" in the Urewera  Ranges  on 26 October 2007 , where 
+the instructor was killed and the student pilot was seriously injured after the ir aircraft 
+struck the ground .   
+ 
+3.2 These investigations highlighted a range of safety issues , including  loss of pilot and air traffic 
+controller situational awareness,  pilot failure  to maintain an effective visual lookout, and 
+insufficient training for flying in mountainous terrain .  In response  to these safety issues , the 
+Commission has made findings and issued recommendations to various parties , including to 
+the Director of Civil Aviation , to minimise the risk to public safety .   
+ 
+3.3 On 10 May 2010 a helicopter and a light aeroplane almost  collided overhead New Plymouth 
+Aerodrome.  Each aircraft had an instructor and student pilot on board.  The aeroplane 
+student pilot was preparing for a private pilot licence flight test and the helicopter student 
+pilot had yet to have his first solo flight . 
+ 
+3.4 Both aircraft were being operat ed under visua l flight rules and the pilots act ed in accordance 
+with their respective air traffic control clearances.  The aeroplane descended from overhead 
+using the standard circuit joining procedure for a left -hand circuit for the runway.  The 
+helicopter was operatin g above the normal circuit altitude in a right -hand circuit for the same 
+runway.  The aeroplane descended through the downwind leg of the helicopter's circuit.  
+ 
+3.5 The Commission found that air traffic control had not properly manage d the increased risk of 
+collision presented by the aeroplane's descending circuit altitude.  It also found that the 
+incident would not have occurred had the instructor or student pilot of the aeroplane stopped 
+their descent after losing sight of the helicopter (Transport Accident I nvestigation Commission 
+[TAIC] , 2011 a). 
+ 
+3.6 About 11 weeks later (on 26 July 2010) , 2 training aeroplanes collided near Feilding .  An 
+instructor and a pilot student were on one of the a eroplanes , which crashed , killing both 
+occupants .  The solo student pilot of the other  aeroplane  successfully landed the aeroplane at 
+the nearby aerodrome and was uninjured .  The Commission immediately opened an  inquiry 
+after being informed of this accident  (TAIC, 201 2).  
+Examination of flying  training safety  in New Zealand  
+3.7 As a result of these previous  occurrences  involving flying  training , particularly the New 
+Plymouth and F eilding occurrences in 2010 , the Commission became concerned that 
+systemic or widespread matters might  be affecting flying training safety.  It therefore opened 
+
+<< Page 6 >>
+ Report 10 -011 an inquiry under section 8(2)(a) of the Transport Accident Investigation Commission Act 1990 
+to ascertain whether or not there were common factors or trends  that may have contributed to  
+the cause s of these previous occurrences.   This inquiry  involved the Commission looking at 
+whether flying training safety performance had deteriorated, as well as examining specific 
+issues identified from written and oral public submissions , and from the Commission's own 
+enquiries.    
+ 
+3.8 In November 2010 the Commission invited public submissions.  In total, 54 written 
+submissions were received  - 34 from private individuals and 20 from organisations and 
+clubs, mostly from the aviation sector.  Some submissions raised issues outside the scope of 
+the Commission's inquiry, including, for example, the noise levels around aerodr omes.  
+Notwithstanding these, the Commission fully considered all submissions, many of which 
+raised common themes and issues.  These included : 
+ 
+(a) the standard of flying training in New Zealand ; 
+ 
+(b) the effect s of increasing air traffic ; 
+ 
+(c) the level of  English language proficiency ; 
+ 
+(d) radiotelephony communications ; 
+ 
+(e) the failure of pilots to maintain situational awareness  and to exercise effective see-
+and-avoid ; 
+ 
+(f) the government funding structure for pilot  training in New Zealand ; 
+ 
+(g) access to weather  information ; 
+ 
+(h) the flying training  regulatory system.  
+ 
+3.9 These i ssues are discus sed in Section 5 of this report .  In examining each of these issues, the 
+Commission 's primary objective was  to determine  whether these issues were affecting, or 
+could potentially affect, flying training sa fety in New Zealand .  If yes, then to what extent ? 
+ 
+3.10 In addition to  calling for submissions , the Commission's investigator -in-charge of the F eilding 
+inquiry met with representatives from the CAA, ASL, the Aviation Industry Association  (AIA), the 
+TEC, the New Zealand Qualifications Authority, the Royal New Zealand Aero Club, Air Nelson 
+and Eagle Airways to obtain their comments about flying traini ng safety in New Zealand .  The 
+key themes arising from these meetings were similar to those raised in the written 
+submissions.  
+ 
+3.11 In October 2011 Commissioners held a hearing to examine  in more detail  the key  issues  
+identified during its enquiries  to date .  This hearing comprised 3 separate meetings with the 
+CAA, the TEC and the AIA.  The AIA was represented by its Chief Executive and representatives  
+from CTC Aviation Training, Ardmore Flying School, Air Hawke 's Bay Limited, Air Manawatu, 
+Nelso n Aviation College, Mainland Aviation  College  and Nelson Marlborough Institute of 
+Technology .  The main themes from these meetings are include d in the discussion in Section 
+5 of this report . 
+ 
+3.12 The Commission also reviewed an extensive range of published material from a range of 
+sources, including the CAA, the Australian Transport Safety Bureau ( ATSB ), the Bureau 
+d'Enquêtes et d'Analyses pour la Sécurité de l'Aviation Civile  the Federal Aviation 
+Administration ( FAA) and the National Transportatio n Safety Board (NTSB).  It also  requested 
+data from the CAA, ASL, the TEC and Airways.  
+ 
+  
+ 
+Report 10 -011 
+<< Page 7 >>
+ 
+ 4 Flying training  safety performance in New Zealand  
+4.1 The comments received by the Commission as part of its inquiry into flying training safety in 
+New Zealand indicated a general  view among submitters based on anecdotal evidence  that 
+flying training in New Zealand is less safe than it used to be.  The Commission sought to test 
+this view  by examining relevant statistics on flying training  occurrences .  In doing this , it asked 
+3 questions:  
+ 
+(a) is flying training in New Zealand less safe  than it used to be?  
+ 
+(b) how safe is flying training in New Zealand compared with other countries?  
+ 
+(c) how safe is flying training compared with other aviation activities?  
+ 
+Is flying training in New Zealand less safe  than it used to be?  
+ 
+Fatality rate for flying training  
+ 
+4.2 Figure 1 shows the annual rate of flying training fatalities in New Zealand between 2000 and 
+2011.  The highest rate was in 2010 when 2.6 fatalities occurred per 100  000 flying training 
+hours flown.  Between 2000 and 2002 , and 2004 and 2005 , the fatality rate was zero, while  
+in the remaining years the rate ranged  from 0.5 to 2. 2 fatalities per 100  000 hours.  
+ 
+4.3 Overall, the rate gradually trended upwards , with flying training recording an average of 0.9 
+fatalities per 100  000 hours flo wn annually.  In total, there were 1 6 fatalities during the 
+period, with an average of 1.6 deaths  per fatal accident.  
+ 
+  
+Fatal accident rate for flying training  
+ 
+4.4 Figure 2 shows  the annual fatal accident  rate for flying training between 2000 and 201 1.  It 
+shows a similar pattern  to that in Figure 1 , with the highest annual fatal accident rate 
+occurring  in 200 3 with 2.2 fatal accidents  per 100  000 hours flow n.  Between  2000  and 
+2002 , and 2004 and 2005, the annual fatal accident rate was zero.   Although there was 0.00.51.01.52.02.53.0
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011Rate per 100,000 hours flown  
+Year  
+Fatalities (flying training)
+Figure 1 
+Fatalities per 100 000 flying training hours flown, 2000 to 2011  
+(CAA, n.d. [unpublished data])  
+
+<< Page 8 >>
+ Report 10 -011 some variability  between 2000 and 2011, overall the rate slowly trended upwards , with t he 
+annual average rate of fatal accidents being 0.6 per 100  000 hours flown.  
+ 
+4.5 Overall , there were 10 fatal flying training  accidents3 between 2000 and 201 1 involving 4 
+helicopters and 9 aeroplanes (i.e. 3 accident s in 2003, one in 2006, one in 2007, one in 
+2008, one in 2009, 2 in 2010  and one in 2011 ).  The fatal accidents involved  7 solo training 
+flights , 5 dual instruction  flights, and one flight test4.   
+ 
+4.6 In the preceding period 1988 -1999 , there were 4 training accidents with 4 fatalities 
+compared with 10 accidents with 1 6 fatalities between 2000  and 2011.  Although  there was 
+an increase  during 2000 -2011 in the number of fatal accident s and fatalities, the 
+Commission could not determine  if a significant long-term trend had start ed to develop.  
+ 
+Flying training occurrences  
+ 
+4.7 The rate of reported occurrences  for flying trainin g steadily increased from 80  per 100  000 
+hours flown in 2000 to 20 0 reported occurrences per 100  000 hours flown in 2010  (Aerosafe  
+Risk Management [Aerosafe] , 2011) .  This increase must be viewed with care as it  may reflect 
+a growth in flying training activity and an improvement in the reporting culture s of aviation 
+participants , rather than a decline in the overall safety performance  for the flying training 
+sector. 
+ 
+4.8 The Commission reviewed controlled airspace incidents involving training aircraft that were 
+reported to the CAA by Airways between 2000 and 2012  (Airways, 2011  [unpublished data] ).  
+This data showed a substantial increase in the number of incidents reported between 2009 (6 
+incidents) and 2010 (73 incidents).  Data for 2011 exhibited a continual rise , with 135 
+incidents reported .  The  initial data for the first quarter of 2012 show ed 66 reported incidents.  
+These figures suggest that controlled airspace incidents are becoming a significant proportion 
+of total flying training airspace incidents , with the majority occurring around Hamilton  where 
+                                                           
+3 A mid-air collision  is counted as one accident.  
+4 Care should be exercised when viewing the data in Figures 1 and 2.  The annual fatality and fatal accident rates between 2000  and 
+2011 are based on very small numbers, with 5 of those years recording a rate of zero.  Although broad differences between periods 
+may be observed from these rates, any significant safety trends would be difficult to see, particularly as the small numbers cause  the 
+rates to be very volatile and to change substantially from year  to year.   
+ 00.511.522.5
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011Rate per 100,000 hours flown  
+Year  
+Fatal accidents (flying training)
+Figure 2  
+Fatal accidents per 100 000 flying hours flown, 2000 to 2011  
+(CAA, n.d. [unpublished data])  
+ 
+Report 10 -011 
+<< Page 9 >>
+ 
+ flying training activity is heavily conc entrated .  Further data, research and causal analysis 
+would help to determine if this is a developing safety issue (it is possible, for example, that the 
+observed increase may be the result of a stronger reporting practice by Airways).  
+ 
+4.9 In terms of all incident types reported to the CAA, according to  Aerosafe (2011 ), the number of 
+uncontrolled and controlled airspace -related incidents5 attributable to flying training had 
+significantly increased.  For example, there was a noticeable rise from 2006 onwards , while 
+other incident types remained relatively constant in the period.  Generally, there had been a 
+long-term upward trend in all airspace incident rates attributable to pilots and air traffic 
+service s (CAA, 2011 a). 
+ 
+4.10 Aerosafe's  (2011) research also found that airspace incidents had accounted for 55% of solo 
+training occurrences and 30% of dual training  occurrences .  Further analysis indicated that 
+"unauthorised airspace incursion" followed by "breach of other clearance" were the most 
+frequently recor ded airspace incidents for flying training.  Aerosafe also  noted that this could 
+have been due to the training schools being located in areas of high air traffic and increased 
+flying training in controlled airspace.   The recent large -scale expansion of fly ing training at 
+Hamilton is a good example.   Equally, controlled aerodromes  would be less tolerant of 
+breaches than uncontrolled aerodromes  
+ 
+Flying training mid-air collisions   
+ 
+4.11 Figure 3 shows the number of reported flying training mid -air collision6 and aircraft separation  
+occurrences7 in New Zealand between 1993 and 2011 involv ing at least one aircraft 
+conducting either solo or dual training (including flight tests).   
+ 
+ 
+                                                           
+5 An airspace -related incident mean s an incident involving a deviation from, or shortcomings of, the procedures or rules for avoiding a 
+collision between aircraft or avoiding a collision between aircraft and other obstacles when an aircraft is being provided with an air 
+traffic service.  
+ 
+6  A mid -air collision occurrence  is where at least 2 aircraft come in  to contact with each other while both are airborne.   
+ 
+7 An aircraft separation occurrence  is either a "near collision " or a "loss of separation ", as reported on the CAA's Occurrence Report  
+(Form CA005) and is classed as an airspace incident.  Advisory Circular AC12 -1 describes a near collision as a "serious incident 
+requir ing an avoidance manoeuvre to avoid a collision or an unsafe situation or when an avoidance action would have been 
+appropriate ". 1 1 1 2 6 
+3 6 
+3 8 8 
+7 
+3 8 
+9 11 
+8 10 13 
+01234567891011121314Number of occurrences  
+Year  Aircraft separation occurrences
+Mid-air collision occurrences
+Figure 3  
+Number of reported flying training mid -air collision and aircraft separation occurrences, 1993 to 2011 
+(CAA, n.d. [unpublished data])  
+
+<< Page 10 >>
+ Report 10 -011  
+4.12 In particular, Figure 3 shows 3 fatal flying training mid-air collision accidents  between 2006 
+and 2 0108.  Thes e mid-air collision accidents accounted for about  2% of all flying training 
+accidents between 2000 and 2010 , but approximately 33 % of all fatal accidents involving 
+flying training aircraft.  In the same period, 50% of the dual and 57 % of the solo flights that 
+were involved in flying training fatal accidents  were mid -air collisions .  
+ 
+4.13 The average mid-air collision frequency rate for all loc ations from 1993 to 2011 was 0.2  
+collisions per annum, with an average of 2.3 fatalities per collision (or 1.2 fatalities per 
+training flight involved ), resulting in an average fatality rate of 0.4  per annum.   The number of 
+hours flown per collision  for flying training aircraft  in the period 1995 -2011  was 361 883 
+hours .   
+ 
+4.14 Figure 4 shows the annual fatal mid-air collision accident rate for flying training between 
+19959 and 2011 , with an average annual rate of 0.1 per 100  000 hours flown.   Although 
+there appears to have been a marked increase in flying training mid-air collisions from 2006  
+onwards , the elevated rate is due to the relatively quick succession of 3 mid-air collisions 
+between 2006 and 2010 .  CAA records indicate that during the preceding 13 -year period, 
+there had been no reported flying training mid-air collisions .  The Commission coul d not 
+identify any systemic issues to account for this trend.  
+ 
+ 
+Figure 4  
+Reported fatal flying training mid -air collision accident rate, 1995 to 2011  
+(CAA, n.d. [unpublished data])  
+4.15 The very low frequency of flying training mid-air collisions does not enable reliable  conclusions 
+to be drawn about any future long -term safety trend.   Nor does the actual mid-air collision 
+data provide a reliable overall indication of the mid-air collision  risk associated with flying 
+training in New Zealand.  A meaningful comparison of mid-air collision rates with other types 
+of general aviation activity in New Zealand , to assess any potential increase or decrease in 
+flying training mid-air collision risk over time , was not cons idered feasible owing  to the very 
+small number of occurrences  that would be expected .  
+ 
+4.16 The Ambidji Group (2009) experienced the same issue when analysing mid-air collision  data in 
+Australia , noting that "the small number of accidents means that any statistical trend analysis 
+                                                           
+8 These took place in Shannon (20 06), Paraparaumu (2008) and Fei lding (2010).  
+9 Total flying training hours flown not available for 1993 and 1994.  0.00.20.40.60.81.01.2Rate per 100,000 hours flown  
+Year  
+Reported fatal mid-air collision accidents (flying training)
+ 
+Report 10 -011 
+<< Page 11 >>
+ 
+ should be treated with caution as 'runs ' of two or three accidents in a short period could be 
+due to statistical bunching or 'random chance ', rather than an accurate prediction of an 
+increase in long term accident rates ". 
+ 
+Flying training aircraft separation incidents  
+ 
+ 
+4.17 Figure 3 above  shows that 105 aircraft separation  incidents  (reported as either near collision s 
+or a loss of separation)  occurred between 1993 and 2011 , involving  at least one flying 
+training aircraft where the safety of both aircraft may have been compromised.  
+ 
+4.18 On average, there were 5.5 aircraft separation  incidents  per annum from 1993 to 2011, with 
+near collisions accounting for 48% and  a loss of separation for 52% of incidents .  As a 
+proportion of total flying training reported airspace incidents  in 2010 , aircraft separation  
+incidents  accounted for approximately 8%.   
+ 
+4.19 Figure 5 shows that since 1995 there has been a sustained  upwards trend in the rate of 
+aircraft separation incidents  recorded each year involving flying training aircraft.  For example, 
+the rate of reported incidents increased from zero in 1995 /96 to a peak of 9.8  per 100  000 
+hours flown in 2011.  Notably, there was a wide fluctuation in the trend from year  to year.  The 
+average flying training annual aircraft separation incident  rate was 4.6 per 100 000 hours 
+flown between 1995 and 2011.  
+    
+4.20 It was difficult to determine if the increasing rate of reported aircraft separation  incidents 
+represented a positive or negative outcome for flying training safety.  When analysing the data 
+and considering overseas studies, the following was found:  
+ 
+(a) a flying training aircraft involved in a n aircraft separation incident  did not 
+necessarily mean that the pilot of that aircraft or the other conflicting aircraft had 
+done something wrong.  In several incidents , for example, it was apparent that 
+actions by air traffic controllers were a contributing factor ; 
+ 0.001.002.003.004.005.006.007.008.009.0010.00Rate per 100,000 hours flown  
+Year  
+Reported aircraft separation incidents (flying training)
+Figure 5  
+Reported flying training aircraft separation incident rate, 1995 to 2011  
+(CAA, n.d. [unpublished data])  
+
+<< Page 12 >>
+ Report 10 -011 (b) it was not possible to assess from the CAA data the extent to which the incidents  
+involved training -aircraft -to-training -aircraft conflicts.  As such , the incr easing trend 
+may not necessarily  be training specific but  could  involve other forms of aviation ; 
+ 
+(c) the significant increase in the number of reported aircraft separation incidents  
+could have been due to an improved awareness of and a greater willingness by the 
+aviation industry to report, particularly in the aftermath of a mid-air collision.  For 
+example, the FAA observed that near mid-air collision reports could be influenced 
+by factors not ea sily quantified, including the "heightened awareness caused by 
+the recency and notoriety of aviation accidents and pilots' interest in filing NMAC 
+[near mid -air collision] reports " (United States General Accounting Office  [GAO] , 
+1989) , and that  following a serious mid-air collision or near collision  reporting 
+tended to increase, sometimes substantially, but then decline over time to near 
+previous levels.  Similar reporting behaviour has been seen in regard to other 
+incident categories; for example, fire, smoke and fume events following the 
+Swissair M D-11 accident off Nova Scotia in 1998.  Accordingly, the rise in aircraft 
+separation incidents  observed since  2006 could have been partly attributable to 
+the 3 mid-air collisions in 2006, 2008 and 2010, all of which attracted media and 
+industry attention ; 
+ 
+(d) a pilot-filed aircraft separation  report  is effectively a written account of a pilot 's 
+perception that, when airborne, "another aircraft came dangerously close and a 
+potential for collision existed " (GAO, 1989).  The ATSB ( 2012)  has noted that 
+aircraft separation  incident report s from general aviation pilots "are not clear on 
+'how close' the aircraft got, and it is difficult to determine what the likeli hood of a 
+mid-air collision was ". 
+ 
+Conclusion  
+ 
+4.21 Based on a preliminary analysis of the occurrence data above , it is not possible to conclude 
+statistically that flying training in New Zealand is less safe now than it used to be.  Although 
+the rates of fatalit y and fatal accident have steadily  increased over time, the actual number of 
+fatal accidents is very low (from zero to 3 per annum) .  With such low numbers, caution needs 
+to be exercised in drawing statistical conclusions  as to whether there has been any significant 
+underlying change in the rates of fatalit y or fatal accident .  As numbers have fluctuated during  
+the reported period, it is difficult to discern any long -term safety trends for flying training.  
+ 
+How safe is flying training in New Zealand compared with other countries?  
+ 
+4.22 Time and resources meant that the Commission could not undertake an extensive 
+comparable analysis of flying training safety performance indicators from multiple overseas 
+jurisdictions.  Accordingly, the Commission limited its research to data from the ATSB  in 
+Australia  and the NTSB  and the FAA in the United States.  This data indicates that the overall 
+rates of flying training fatalit y and fatal accident in New Zealand are broadly comparable with 
+the rates found in Australia and the United States for the pe riod 1999 -2009.  
+ 
+4.23 For example, Figure 6 shows New Zealand's fatality rate for flying training in the period 1999 -
+2009 against those of Australia and the United States.  Error bars show the year -to-year 
+fluctuation s in the rate.  Because New Zealand has a much smaller flying training industry 
+than Australia and the United States, its rate of fatalities is much more affected by random 
+fluctuation.  Its error bar therefore has a wider span.  
+ 
+4.24 Figure 6 also indicates that flyin g training in New Zealand is probably just as safe as  it is in 
+Australia and the United States.  Although the variability in the rate of fatalities in New 
+Zealand is much greater than  in Australia and the United States because the flying training 
+industry is smaller, the overall fatality rates for all 3 countries for the 1999 -2009 period 
+appear to be broadly similar . 
+ 
+ 
+Report 10 -011 
+<< Page 13 >>
+ 
+  
+Figure 6  
+Flying training fatality rates by country, 1999 to 2009  
+(CAA, n.d.  [unpublished data]; ATSB, 2010a; FAA, 1999; NTSB, n.d.)  
+How safe is f lying training compar ed with other aviation activities ? 
+4.25 Data and r esearch reviewed by the Commission indicate that in comparison with other modes 
+of aviation, flying training is generally one of the safest forms of flying  activity .  This was 
+confirmed by CAA (2005) research, which compared fatal fixed -wing accident rates for 
+different operational groups in New Zealand between 1995 and 2004.  This research showed 
+that flying traini ng (solo and dual) was on average safer  than any other form of flying and that 
+it produced  relatively few accidents compared with other types of operation.  This was possibly 
+due to  training taking  place in controlled environment s, with attention to safety  procedures, 
+and sometimes with instructor s creating safe learning environment s for the student s.   
+ 
+4.26 More recent data, as shown in Figure 7, also suggests that flying training is much safer than 
+other forms of flying in Australia .  Between 1999 and 2009 there were 28.7 fatalities per 
+million flight hours for private flying compared with 4.2 fatalities per million flight hours for 
+flight training.   0123456789
+New Zealand Australia USAFatalities per million  hours flown  
+
+<< Page 14 >>
+ Report 10 -011  
+Figure 7  
+Private flying and flying training fatality rates, Australia 1999 to 2009 (ATSB, 2010a)  
+Findings  
+1. Based on a preliminary analysis of occurrence data, it is not possible to conclude  statistically  
+whether flying training in New Zealand is less or more safe now than it used to be.   
+2. The rate of fatalities changes from year to year much more in New Zealand than it does in 
+other countries , because the flying training industry is smaller.  Overseas d ata, however, 
+indicates that the overall rate of flying training fatalities and fatal accidents in New Zealand is 
+broadly com parable with the rates found in Australia and the United States for the period 
+1999 -2009.  
+3. Research and data from the CAA and the ATSB indicate that flying training is likely to be safer 
+than  other forms of flying.  
+ 
+  
+
+ 
+Report 10 -011 
+<< Page 15 >>
+ 
+ 5 Issues applicable to flying training safety  in New Zealand  
+Introduction  
+5.1 Enquiries made by the Commission and written and oral submissions received from interested 
+persons identified several aspects of the New Zealand flying training system and flying in 
+general that could be affectin g safety .  The following discussion  looks at each of th ese aspects  
+in turn , drawing on  comments from submitters, where appropriate , to highlight particular 
+issue s.  In examining each of these issues, the Commission's primary objective was to 
+determine whether these issues are affecting, or could potentially affect, flying training safety 
+in New Zealand in any way  (as suggested by submitters or anecdotal ly).  If yes, then to what 
+extent?   
+Standard of flying training in New Zealand  
+5.2 The Commission received considerable and varied  feedback about the overall standard of 
+flying instruction in New Zealand , with some submitters  (mostly training organisations)  
+commending the quality of training , and others (mostly individuals) expressing concern s about 
+a range of aspects of flying training , including  the low experience levels of flight instructors 
+and the difference s between flight schools regarding the quality of training , the method of 
+teaching and the material taught.  
+ 
+5.3 Unquestionably, t he quality of flying instruction is fundamental to the long -term safety 
+performance of aviation.  A multitude of factors acting in combination influence the correct 
+knowledge, skills, attitudes and behaviours acquired during flight training  to ensure that  pilots 
+operate safely and exhibit good airmanship.  The quality of the training given to flight 
+instructors and flight examiners is just as important.  
+ 
+5.4 The Commission  did not find  any specific research examining  the quality of the flight  training 
+system in N ew Zealand .  If research in this area were to be conducted, a closer analysis of the 
+results of flight tests and written examinations  would be useful  to determine if there is a link 
+between examination performance and the frequency and severity of occurr ences during and 
+after training .  This was recommended by Aerosafe  (2011) , which noted that this type of 
+analysis might  "reveal a trend between student  pilot performance in examinations and 
+performance in the air, during and post training ".  Such an exercise might also help to identify 
+any weaknesses in certain areas of the training syllabus , such as theory, knowledge and 
+practical airmanship.  This, in turn, might provide  a general indicator of training standards and 
+performance in New Zealand .   
+ 
+5.5 Although the Commission did not examine this matter in any detail, it did receive data from 
+ASL (ASL, 21 February 2011)  showing  the 2010 pass rate s for the private pilot licence  written 
+exam (75% ), the commercial pilot licence  exam  (71%) and the airline transport pilot licence  
+exam  (78%) .  These  pass rates were similar to those in Australia  (Civil Aviation Safety Authority  
+[CASA] , 201 1).   
+ 
+
+<< Page 16 >>
+ Report 10 -011 5.6 The Commission also looked at  published data from ASL showing the quarterly initial issue 
+flight test results since 2005 for commercial pilot licences (aeroplane and helicopter) and for 
+Category B and C Flight Instructor Ratings (aeroplane only)  (ASL, n.d. ).  These appear in Figure 
+8, and show that t he fail rates for each  group  were  generally constant between 2005 and 
+2012 (to date).  The  average quarterly fail rate for the commercial pilot licence (aeroplane) 
+was 32% , and for the commercial pilot licence (helicopter)  it was 24%.  The average quarterly 
+fail rate for Category B instructors was 21% , and for Category C  instructors it was 26% .  In 
+comparison,  in 2010 the fail rate for the initial issue of Flight Instructor Ratings  tests 
+(aeroplane and helicopte r) in Australia was approximately 24 % (CASA, 2010) .  
+ 
+5.7 At a high level, the information  in Figure 8 indicates that there  has been a consistent  standard 
+of pilot training achieved in New Zealand , but an ongoing  analysis  is required to identify  
+opportunities to improve student pilots' pass/fail rate performance.  For example, the more 
+recent rise in the fail rate for commercial helicopter pilot licences would warrant monitoring.    
+ 
+5.8 Overall, the Commission did not find any evidence of significant gaps with the flying  training 
+programme.  This is not to say that gaps (significant or otherwise) do not exist.  It simply 
+means that the Commission did not find any evidence of this.   
+ 
+5.9 The Commission also  requested data from the CAA , including information  about flight 
+instructor demographics (e.g. qualifications, experience levels, age)  and flight instructor 
+performance and competency levels .  However, this  information was either not available  (i.e. 
+because the CAA did not collect it) or not easily accessible (i.e. because of the way the 
+information had been recorded in the CAA's databas e).  This lack of basic information  is 
+concerning.  General information of this nature  is important and should be collected and 
+analysed as a matter of practice.  The CAA, as the regulator, seems the most  appropriate 
+agency to do  this. 
+  05101520253035404550
+Mar-05
+Jun-05
+Sep-05
+Dec-05
+Mar-06
+Jun-06
+Sep-06
+Dec-06
+Mar-07
+Jun-07
+Sep-07
+Dec-07
+Mar-08
+Jun-08
+Sep-08
+Dec-08
+Mar-09
+Jun-09
+Sep-09
+Dec-09
+Mar-10
+Jun-10
+Sep-10
+Dec-10
+Mar-11
+Jun-11
+Sep-11
+Dec-11
+Mar-12% Fail Rate  
+Category C Flight Instrutor Rating (Aeoplane) Category B Flight Instructor Rating (Aeroplane)
+Commercial Pilot Licence (Aeroplane) Commercial Pilot Licence (Helicopter)
+Figure 8  
+Initial issue flight test failure rates, 2005 to 2012 (ASL, n.d.)  
+ 
+Report 10 -011 
+<< Page 17 >>
+ 
+ Findings  
+4. The Commission was unable to conclude whether the standard of fl ight training in New 
+Zealand present s risks to flight training safety.  It did not find any specific research examining 
+the quality of the flight training system in New Zealand  or any evidence of significant gaps 
+with the flying training programme.  This is not to say that gaps (significant or otherwise) do 
+not exist.  It simply means that the Commission did not find any evidence of this.  
+5. General information about flight instruc tor demographics  (e.g. qualifications, experience 
+levels, age) , performance and competency levels is difficult to obtain, with no one agency 
+responsible for collecting this.  This data gap should be addressed .  
+ 
+Effect s of increas ing air traffic  
+ 
+5.10 A common issue identified by a number of submitters was the increase in student pilot 
+numbers and air traffic in the past 10 years, and how this might be contributing to flying 
+training occurrences.  
+ 
+5.11 The pilot training market in New Zealand, particularly t hat catering for international students, 
+is a high -growth market.  In 2008 an article in the CAA 's industry magazine, Vector,  noted  an 
+increase in  the number of students training for commercial pilot licences from about 300 to 
+more than  800 per year  ("Flight Training Growing Pains" , 2008) .  In 2010 a CAA paper noted 
+that the capacity of the training sector was estimated to be in the region of 500 trainee pilots 
+a year (CAA, 2010), and a further paper found that approximately 448 aircraft were being 
+used for training purposes in New Zealand as at 2010 (Knotridge  Limited , 2010).   
+ 
+5.12 Notwithstanding some consolidation in the past few years , the flying  training industry in New 
+Zealand is optimistically forecast to nearly double in value by 2015 , with oversea s students 
+accounting for most of the revenue growth and their contribution increasing to $56 million  
+(Knotridge  Limited , 2010) .  It is reasonable to assume that flying training activity and the 
+aircraft training fleet will increase commensurately at a time when other forms of aviation 
+activity will expand .  
+ 
+5.13 Several international studies have analysed the relationship between specific occurrence 
+types and increasing air traffic.  For example, when considering the mid -air collision po tential 
+in Australia, the ATSB  hypothesised that the probability (likelihood) of a collision in any given 
+airspace would grow more quickly  than the growth in traffic  (ATSB, 1991) . 
+ 
+
+<< Page 18 >>
+ Report 10 -011  
+Figure 9  
+Number of possible collisions with inc reasing air traffic (ATSB, 1991)  
+ 
+5.14 Figure 9 illustrates the theoretical increase in potential collision  pairs (each involving 2 
+aircraft) as a result of increasing traffic density .  For example, with 5 aircraft in the area  there 
+are 10 possible collision pairs  and with 10 aircraft there are 45  (ATSB, 1991) .  
+ 
+5.15 If this model were to reflect reality  accurately , and with  all other things being equal, even a 
+modest increase in the number of aircraft flying could result in a disproportionately large 
+increase in potential and actual occurrences.  This , however,  assumes that no mitigation 
+measures are implemented to prevent mid -air collisions in a period.  
+ 
+5.16 Another ATSB study found a positive relationship between the number of runway incursions 
+and the level of aero drome traffic  (ATSB, 2004 a).  A similar trend was documented in a 
+Transport Canada report , which  noted  that as aerodrome traffic increased there was a rise in 
+the potential risk of incursions that could in turn result in a rise in actual incursions  (Transp ort 
+Canada, 2000) .  The report attributed the increase in traffic and potential risk to the use of 
+capacity -enhancing aerodrome procedures (e.g. parallel runways).  
+ 
+5.17 However, the results of these studies must be viewed with caution.  It would be over simpl istic 
+to assume that there will be a positive correlation between occurrences and air traffic 
+volume s.  The second ATSB report noted above, citing Australian and  United States  
+occurrence data, deduced that an increase in incursions in some years was not so lely due to 
+an underlying increase in aircraft activity.   A further ATSB discussion paper reported that there 
+had been  37 mid -air collisions at a static rate of about one collision per year since 1968, 
+despite the growth in aviation experienced in Australia  (ATSB, 2004 b).   
+ 
+5.18 The Commission did not find any data or research specific to flying training  or general aviation 
+in New Zealand  on this matter .  Accordingly, it is not clear to what extent increasing air traffic  
+could be a problem or what the o ngoing trends are  in New Zealand.  It is clear though that 
+increased traffic density may not be the only  explanation for the number of  occurrences to 
+increas e in the flying training sector.   Other contributing factors could be relevant , such as  
+pilot demographics, the inherent difficulties of pilots sighting other aircraft in time to avoid 
+collision s, and the configuration of aerodromes, including  the type and mix of air traffic  at 
+those aerodromes , traffic separation standards and their use of c apacity -enhancing 
+procedures.  Even the increased presence of ground vehicles could be a factor as an 
+aerodrome expands its infrastructure to meet increased aviation demand.  Having said that, 
+increasing aerodrome traffic is certainly likely to increase the risk of occurrences.  010203040506070
+1 2 3 4 5 6 7 8 9 10 11 12Aircraft movements  
+Number of aircraft in area  
+ 
+Report 10 -011 
+<< Page 19 >>
+ 
+ Findings  
+6. The effect s of increasing aviation activity in New Zealand on flying training and aviation safety 
+in general are uncertain.  There is insufficient data and research on this matter . 
+7. International research (which is limited and not conclusive) shows that  increas ing traffic is 
+likely to be a contributing factor but not a dominant cause  of flying training occurrences .  
+Accidents do not happen solely because there is an increase in traffic , although  the risk is 
+likely to be elevated.   
+English language proficiency  
+5.19 Several submissions commented on the level of English language proficiency required by 
+students and pilots, including an industry trade body , which  wrote:  
+ 
+At these [non -air traffic control] airports, aircraft transmissions are recorded primarily for the 
+purpose of obtaining information for invoicing landing fees.  Notwithstanding, considerable difficulty 
+is often experience [d] when attempting to recover the transmissions from  the recording system as 
+the standard of radio procedure is frequently poor with many important calls often unintelligible.  Of 
+particular concern is the inability of many student pilots, principally from overseas countries, to 
+enunciate the phonetic alpha bet and accordingly pass clearly their aircraft registration, or call sign, 
+and the relevant information pertaining to their intentions.  
+ 
+5.20 Another submitter (a pilot organisation) highlighted another aspect of this issue, stating that:  
+ 
+It also appears tha t the large number of foreign students being trained in this country now days  [sic] 
+creates its own issues, particularly from English proficiency students.  The concept of "pay an 
+amount and get a PPL  [private pilot licence]  or CPL  [commercial pilot licenc e]" often encourages the 
+instructors at large training schools to release students at a planned point in time rather than on a 
+competency basis and includes that instructor's acceptance that English proficiency has been 
+achieved yet for the majority of the se students, that is not the case.  If a student is struggling with 
+standard phraseology in English then the extent to which that student has understood the 
+instructional flying training to become a competent aviator is doubtful.   
+ 
+English language profic iency requirements  
+5.21 In 2008 the International Civil Aviation Organization ( ICAO ) promulgated English language 
+proficiency standards for radiotelephony communications in international air transport  (ICAO, 
+2010), following several high -profile accidents where  insufficient English language proficiency 
+by the pilot s or air traffic controller s was a contributing factor.  These requirements were 
+designed to improve the level of English language proficiency in civil aviation and to reduce 
+the frequency of communica tion errors.  They focus ed on oral communication only rather than 
+on writing and reading ability, and they cover ed 6 areas of proficiency: pronunciation, 
+structure, vocabulary, fluency, comprehension and interactions.  
+ 
+5.22 ICAO introduced a 6-level English lan guage proficiency rating scale , ranging from Level 1 
+(Preliminary) to Level 6 (Expert), and mandated  Level 4 (Operational) as the minimum 
+proficiency skill level required by licensed pilots to fly safely.   
+ 
+5.23 In New Zealand, these ICAO requirements are larg ely incorporated in CA Rule Part 61  (Pilot 
+Licences and Ratings) for private pilot licence holders and above .  For example, Part 61.11(b)  
+requires an applicant for a pilot licence to have sufficient ability to speak, understand and 
+communicat e in the English language to enable that applicant to exercise the privileges of 
+their  licence adequately (CAA, 2011 b).  An applicant must demonstrate this level of 
+compliance by demonstrating proficiency to at least ICAO Level 4 (Operational) and 
+completin g a number of other tasks such as communicating  effectively in voice -only 
+(radiotelephone) communications  and using a dialect or accent that is intelligible to the 
+aeronautical community.   If, at any time, the Director of Civil Aviation believes on reasona ble 
+
+<< Page 20 >>
+ Report 10 -011 grounds that a pilot's English language ability is inadequate, the pilot may be required to 
+undertake a language proficiency assessment10. 
+ 
+5.24 A student pilot may also demonstrate their English proficiency to at least ICAO Level 4 , 
+although this is not mandatory  under Part 61 until applying for a private pilot licence .  When a 
+flight instructor is satisfied that a student pilot has met an accepted  English language 
+assessment requirement, the flight instructor must endorse the studen t pilot's log book.  
+ 
+5.25 Two forms of ICAO English language proficiency assessment are available .  These involve  
+supervised listening and speaking telephone tests .  Both assessments are  designed to 
+measure a pilot's ability to communicate  accurately  in English .  A person's "spoken aviation 
+English" and general English skills, as specified by ICAO, are assessed.  "Aviation English" 
+includes standard radiotelephony phraseology and common language relevant to the 
+aeronautical environment.   
+ 
+5.26 For Levels 4 and 5, th e "Formal Language Evaluation " assessment is more suitable for 
+persons who are not fully proficient in English.  It includes a semi -automated test and a live 
+interview.  The "Level 6 Proficiency Demonstration " assessment is designed to confirm that 
+native or very proficient non -native English speakers can clearly meet ICAO's Level 6 language 
+criteria.  This assessment is suitable for persons who are confident that they are able to 
+communicate fluently at Level 6 in all respects.  Even native English -speaker s who have 
+speech defect s or strong regional accent s that  could render communication difficult with air 
+traffic control or pilots of other aircraft may not qualify for Level 6.  
+ 
+Accidents and related research  
+5.27 Statistics published by ICAO indicate that during the period 1976 -2000, more than  1100 
+people lost their lives worldwide in aviation accidents in which  a lack of understanding of the 
+English language was a contributing factor  ("English Language Proficiency", 2007) .  In 
+addition, ICAO found that mul tiple incidents and near misses resulting from language 
+problems were reported annually  (ICAO , 2010 ).     
+ 
+5.28 A study by the FAA looked at the types and frequency of communication problems experienced 
+by airline pilots who may or may not have had English as t heir primary or official language  
+(FAA, 2008) .  The findings revealed that when the registry of an aircraft was foreign and its 
+primary or official language was not English, not only did pilots spend more time 
+communicating with air traffic control but they also exchanged more transmissions and had 
+more communication problems.  It was reported that English language proficiency was a 
+factor in 75% of the sampled communication problems among the foreign , non-native English 
+aircraft and 29% involving United  States -English aircraft.   
+ 
+5.29 Another FAA  study found that non -English  speaking airline pilots were at a disadvantage when 
+flying into countries where their primary or native language was not spoken  (FAA, 2009) .  The 
+report indicated that although there wer e fewer foreign aircraft in the communication sample, 
+proportionally, the pilots of these aircraft made more communication errors . 
+ 
+5.30 This research also noted that a pilot's general English proficiency, especially accent, often 
+resulted in the traffic contro ller not being able to understand completely what the pilot was 
+attempting to say.  Although more problematic for foreign pilots, it was noted that 
+dysfluencies11 were a fairly common factor for English -speaking pilots too.  Notably for all 
+pilots, accent a ffected the intelligibility of 40% of pilot messages.   
+ 
+                                                           
+10 Part 61.43(a)  of the CA Rules.  
+11 Speech that is not smoothly delivered or grammatically well formed.  
+ 
+Report 10 -011 
+<< Page 21 >>
+ 
+ 5.31 Within New Zealand there is a lack of data on, and no perceivable trend about , the prevalence 
+of occurrences attributable to English language proficiency problems in either controlled or 
+uncontrolled airspace, or to student pilots being unable to communicate because of their 
+inadequate knowledge of the English language.  Although  numerous overseas studies have 
+looked at this safety issue, the Commission was not able  to find any that specifically looked at 
+English language proficiency in the context of flying training.  
+ 
+5.32 A review of the CAA's occurrence database revealed a total of 8 incidents between 1986 and 
+2012 that, to judge by the occurrence description s, involve d poor English language 
+proficiency.  Of these, 5 were training flights that involved foreign student pilots.  It was not 
+possible to conclude if the student pilot s were  English -speaking  or non -English -speaking.  
+There were no fatalities or injuries as a r esult of these incidents.  The last  notified  incident 
+occurred in 2000.   
+ 
+5.33 The Commission has investigated only one aviation incident where the English language 
+proficiency of the flight crew may have been a contributing factor.  This incident occurred in 
+2004 (before ICAO introduced its English language proficiency requirements) and it involved 
+an international scheduled airline operator.  In that case the Commission found that the effect 
+of English as a second language on the flight crew 's competency and compliance was a safety 
+issue (TAIC  (a) n.d.).    
+ 
+Findings  
+8. International  studies have found that poor English language proficiency has played a 
+contributing role in a number of significant international accidents.  
+9. Anecdotal evidence suggests that poor English language proficiency and comprehension of 
+English may have been contributing factor s in some New Zealand occurrences .  However, with 
+the exception of one occurrence that it investigated, the Commission did not find any data or 
+research  to support this.   
+10. New Zealand has a pertinent and specific framework for testing English language proficiency 
+in civil aviation , as required by ICAO .  The Commission found no evidence to suggest that th is 
+testing regime is not providing reliable, valid and practical evaluation s of pilot language 
+proficiency in accordance with ICAO criteria.  
+ 
+Radiotelephony communications  
+5.34 Several written submissions raised concerns about non -standard radio calls, the inappropriate 
+use of radio equipment and inadequate training in radiotelephony.  One submitter (an airport 
+operator) wrote:  
+ 
+Generally our experienced staff have  had difficulty in understanding pilots who do not have English 
+as their first language.  There is also an issue with the radio procedure employed by local pilots 
+through either familiarity or complacency.  The major issue centres on pilots not speaking cl early, 
+rushing their communications (particularly call signs) and not being clear about their location and 
+intentions.  Within the circuit normal "Base" or "Finals" calls are frequently omitted along with the 
+intentions of the pilot.  Overall the standard of radio procedure is generally poor.  
+ 
+Radiotelephony communication requirements  
+5.35 In its simplest form, radiotelephony provides the means by which pilots and ground personnel 
+communicate with each other.  Radiotelephony is essential for the safe operation of aircraft in 
+a busy environment.  
+
+<< Page 22 >>
+ Report 10 -011  
+5.36 In the past 50 years ICAO has promulgated standards, recommended practices and guidance 
+material to harmoni se radiotelephony speech and to improve the use of standard aviation 
+phraseology in international aviation.   
+ 
+5.37 New Zealand, like many other countries, has incorporated ICAO requirements and 
+international best practice in its aviation legislation, for  both  international and domestic air 
+transport operations.  For example, under CA Rule Part 61 .105(a)(5) , a flight instructor must 
+certify that their  student has received instruction and demonstrated competence in practical 
+flight radiotelephony before permitting that student to fly solo.  Before receiving a private pilot 
+licence a student pilot must pass a written exam that requir es a good knowledge of the 
+applicable rules and radio procedures.  As part of the private pilot licence flight test, a student 
+pilot must successfully demonstrate to the flight examiner competency in radiotelephony 
+procedures and ph raseology.   
+ 
+5.38 In addition to the CA Rules , the CAA has produced a number of Advisory Circulars and 
+guidance material containing information about the standards, practices and procedures to 
+facilitate compliance with the radiotelephony communication rules.  The New Zealand 
+Radiotelephony Manual contains a compendium of clear, concise, standardised phraseology 
+and associated guidelines for radiotelephony communication in New Zealand  (CAA, 2011 c).   
+ 
+New Zealand occurrence  data and research  
+5.39 The Commission could not clearly identify radiotelephony communication occurrences  in New 
+Zealand that were specific to flying training.  A review of the CAA's occurrence database for 
+the period 1993 -2012 found approximately 290 incidents  that, judging fro m the occurrence 
+description s, may have involved radiotelephony miscommunication event s of some nature.  
+These incidents typically resulted in the following occurrence types being recorded : 
+unauthorised airspace incursion, loss of separation, unauthorised altitude penetration, and 
+breach of other clearance.  None of the incidents resulted in fatalities or injuries.  Notably, 
+there was a prevalence of incidents involving  air traffic controllers using non -standard 
+radiotelephony phraseology.  
+ 
+5.40 Neither the CAA nor Airways has closely examined the role of radiotelephony errors in flying 
+training incidents or generally.  Nor could the Commission find any other data, research or 
+analysis conducted on the prevalence of radiotelephony communication -related incidents in 
+New Zealand.   
+ 
+5.41 Notwithstanding this, when the CAA met with Commissioners in October 2011, it 
+acknowledged an issue with phraseology and the practice and use of radiotelephony in 
+aircraft.  In promoting its 2012 series of AvKiwi safety seminars for pilots, it  commented that 
+poor radio calls could lead to airspace infringements , blocked runways, near misses and 
+collisions  (CAA, 2012 b).  It also noted that in  2011 there were almost 300 incidents of aircraft 
+reported as being in the wrong place in New Zealand skies, often with poor communication as 
+the cause.  
+ 
+5.42 The Commission has previously investigated incidents involving non -adherence to standard 
+procedures for radiotelephony use , and made recommendations regarding compliance with 
+published radiotelephony techniques.  Two of these incidents, which involved scheduled air 
+transport operations , resulted in critical runway in cursions but no fatalities, injuries o r damage  
+(TAIC  (b) n.d.).  
+ 
+5.43 In 2011 the Commission recommended "that the Director of Civil Aviation promote to all pilots 
+and operators , through the best means available,  the need to use appropriate phraseology to 
+declare a level of urgency or distress that  reflects the true nature of an emergency  (001/11) " 
+(TAIC, 2011 b).  In response to this recommendation the CAA used its 2012 series of AvKiwi  
+safety seminars to promote the use of correct phraseology in various situations.  The seminars 
+covered the principles of good radiotelephony, radiotelephony discipline and phraseology , with 
+ 
+Report 10 -011 
+<< Page 23 >>
+ 
+ practical examples of good and bad radio calls plus an electronic  interactive education radio 
+course called Plane Talking .  The CAA also produced a new guide to good radio operating 
+practice  titled Plane Talking , A Guide to Good Radio Use  (CAA, 2012 a).   
+ 
+International occurrence  data and research  
+5.44 Cushing  (1994)  examined problems with radiotelephony and cited many instances, worldwide, 
+where occurrences  had happened  because of:  
+(a) pilots turning  down  their radio volumes either intentionally or unintentionally  
+(b) pilots forgetting to use their radios  
+(c) pilots mistakenly turning to the wrong frequenc ies 
+(d) pilots using their radio s for unnecessary communications  
+(e) pilots using incorrect phraseology.  
+ 
+5.45 Data from the United Kingdom suggested that the 3 main types of communication error were 
+read -back and hear -back errors, call sign confusion and non -adherence to radiotelephony 
+standards.  Communication errors were present in 40% of United Kingdom  runway incursions  
+in 2005  (National Air Traffic Services , 2006) . 
+ 
+5.46 A United States survey  of general aviation incidents during dual instruction revealed that one -
+third of these incidents were associated with communication difficulties  (Etem & Patten, 
+1998 ).  These problems included failure to comply with air traff ic control clearances, 
+communication equipment malfunctions and poor radio technique.  The study also found a 
+prevalence of tower -communication reports , reinforcing the notion that the effective 
+management of instructional communications while monitoring t ower frequencies was crucial 
+to the effective and safe conduct of dual training operations.   
+ 
+5.47 In 2006/07 the ATSB reviewed surface movement control frequency tapes in response to 
+industry concerns about the use of excess and non-standard phraseology in re ad-backs, 
+resulting in radio congestion  (ATSB, 2007 a).  The review identified a high level of compliance 
+with the aeronautical information publication read -back requirements , but it noted that the 
+use of pleasantries was commonplace.  Although these did no t appear to affect frequency 
+congestion adversely, in times of high traffic density they were considered inappropriate.  
+ 
+5.48 The ATSB's review also noted 2 other key points : that despite technological advancements 
+(e.g. digital datalink systems) verbal communi cation remained the most common form of 
+communication in the air traffic system ; and that the use of standard radiotelephony phrases 
+and procedures, such as read -backs, was one of the inherent risk controls in pilot -controller 
+communications.  
+ 
+Findings  
+11. Aviation investigation authorities and civil aviation regulators worldwide acknowledge 
+that radiotelephony communication -related occurrences are a significant risk to 
+aviation safety.   
+12. Anecdotal evidence suggests that radiotelephony miscommunication may have been 
+a contributory factor in some New Zealand occurrences ; however, the Commission did 
+not find any data  or research  to support the concern that a significant problem exists 
+with radiotelephony communications in the New Zealand flying training se ctor or in 
+general.  Overall, reported radiotelephony communication -related incidents in New 
+Zealand account for only a very small proportion of total reported occurrences 
+
+<< Page 24 >>
+ Report 10 -011 (statistically insignificant).    
+13. New Zealand has a pertinent and specific regime for teaching and testing 
+radiotelephony communications, which is consistent with ICAO's standards and 
+recommended practices.  The Commission found no evidence to suggest that this 
+regime is not providing reliable, valid and practical evaluation s of pilot radiotelephony 
+proficiency in accordance with ICAO criteria.  
+ 
+Situational awareness and see -and-avoid  
+5.49 Several written submissions commented on situational awareness, particularly the need for 
+greater training in this area and the effect s of cockpit workload on pilots' ability to keep track 
+of where they are.  Other written submissions commented on the effectiveness of the see -and-
+avoid principle , with 2 submitters referencing a French study (Bureau d'Enquêtes et 
+d'Analyses pour la Sécurit é de l'Aviation Civile, n.d.) to support their conclusion s that the see -
+and-avoid principle is flawed.   
+ 
+5.50 Factors that limit  the see -and-avoid principle include : "diffusion of responsibility ", where a 
+pilot might assume that another pilot in the cockpit is  keeping watch ; cockpit workload , where 
+pilots are tempted  to keep their heads down rather than look out their windows; aircraft 
+design features or ergonomics , where cockpit layout and windshield obstructions prevent 
+proper view s outside the aircraft; pilo ts' visual blind spots; and pilots not being able to actually 
+see aircraft owing  to sun glare.    
+ 
+5.51 The problem with cockpit workload was noted by a pilot organisation in its written submission 
+to the Commission.  It wrote:  
+Also, because of the growing numb er of glass cockpit aircraft being used in the training arena these 
+days plus the natural lean towards automated navigation equipment etc [it] seems to be resulting in 
+student pilots concentrating more [on the] inside [of] the cockpit than out which negate s both the 
+"see and avoid" principle and situational awareness which are crucial in congested airspace, 
+particularly when uncontrolled.  
+5.52 It was also noted by the CAA when it met with Commissioners in October 2011  that: 
+ 
+… the technology that is coming into those sorts of VFR  [visual flight rules]  aircraft is astonishing…  
+But we are increasingly seeing a generation of pilots who are operating now heads down in the 
+cockpit managing the technology.  
+ 
+5.53 Despite these known limitations, the see -and-avoid principle remains a fundamental element 
+of good airmanship.  It is generally accepted that it does work effectively in the vast majority of 
+situations , prevent ing many collisions , although time and resourc es meant that the 
+Commission could not fully examine the extent to which this was the case.  In some situations 
+it is the best, if not the only, form of ensuring separation between aircraft.  A 1979 study, 
+however, did estimate that without air traffic ser vices and in the absence of any ability to see -
+and-avoid there would be 34 times more mid -air collisions en -route and 80 times more mid -air 
+occurrences in terminal areas  (Machol, 1979) .   
+ 
+New Zealand occurrence  data and research  
+5.54 Anecdotal evidence suggests  that the number of occurrences involving a loss of situational 
+awareness or the failure to use proper see -and-avoid is potentially high ; however, the 
+Commission was unable to verify this.  Apart from Commission and CAA investigation  reports 
+where a loss of situational awareness was a factor during training, the Commission did not 
+find any relevant research specific to flying training in New Zealand.  
+   
+ 
+Report 10 -011 
+<< Page 25 >>
+ 
+ 5.55 In addition, the Commission found it  difficult to ascertain the number of occurren ces in New 
+Zealand where pilot s had failed to apply the see -and-avoid principle effectively or where 
+losses of situational awareness contributed to occurrence s.  This was partly because of the 
+CAA's taxonomy for recording occurrences in its occurrence data base , which  did not 
+specifically require it to record these 2 events as contributing factors .  Also, a nalysing  the 
+CAA's occurrence database to  identify and quantify the number of occurrences would have 
+been a considerable task for the Commission.     
+ 
+5.56 As a crude indication, the Commission examined flying training occurrences held in the CAA's 
+occurrence database between 1970 and 2012.  This revealed 7 incidents where a loss of 
+situational awareness was reported and 2 incidents where the pilot did not us e proper see -
+and-avoid.  However, for a number of these incidents the pilot s-in-command of the training 
+aircraft were  not at fault.  In these cases, it was determined that the pilot s of the  non-training 
+aircraft  had lost situational awareness , thereby resu lting in the training flight s having to take 
+evasive action.  In one incident the air traffic controller lost situational awareness, while in 
+another incident the pilot of a dual training flight failed to see -and-avoid a ground obstruction 
+while manoeuvrin g the aircraft on the ground in the aerodrome.  
+ 
+International occurrence  data and research  
+5.57 A review of international literature showed that a loss of situational awareness was a 
+significant factor in a high number of occurrences .  Situational awareness was typically 
+categorised as a human factor issue, and research by the ATSB, for example, found that 
+human factors were a contributing cause in around 70 -80% of all incidents and accidents  
+(ATSB, 2007 b).  
+ 
+5.58 Further ATSB research det ermined that see -and-avoid conflicts where situational awareness 
+errors were involved made up about 15%  of all occurrences at non -towered aerodromes 
+between 2003 and 2008  (ATSB, 2010 b).  Furthermore, there were 60 serious incidents in 
+which an accident alm ost occurred, mostly owing  to a lack of communication between pilots 
+or an insufficient awareness of nearby traffic.  In 87 occurrences a Traffic Collision Avoidance 
+System ( TCAS ) alert occurred when a potential separation issue arose.  In over half of these 
+cases the pilots were unaware of the potential separation issue until the TCAS alert was 
+generated . 
+Findings  
+14. International data shows that a loss of situational awareness and the failure of, or failure to 
+use, proper see -and-avoid techniques were  significant factors in a high number of 
+occurrences .   
+15. Anecdotal evidence suggests that the re may be a high  number of occurrences  in New Zealand  
+involving a loss of situational awareness and/ or the failure of, or failure to use , proper see -
+and-avoid  techniques.   However, the Commission did not find any data or research specific to 
+flying training in New Zealand  or in general  to support  this.   
+ 
+Government funding structure for pilot training  
+5.59 Several submissions highlighted potential  negative effects of the current government funding 
+structure for flying training , commenting that:  
+ 
+(a) a misalignment exists between funding and employment outcomes  
+ 
+(b) flight training schools have an incentive to enrol students up to their equivalent full-
+time student ( EFTS ) level but not to make sure that the training given is relevant to 
+employers  
+
+<< Page 26 >>
+ Report 10 -011  
+(c) the decision criteria for the allocation of EFTS funding to providers are not 
+transparent  
+(d) the government funding level is inadequate and therefore has the potential to 
+reduce safety margins for businesses.  Training organisations' ability to invest in new 
+technology is constrained , thereby resulting in small or non -existent p rofit margins.  
+This leads to financial business decisions influencing operational decisions, which 
+may have an  impact on training and training safety.  
+ 
+Funding system for pilot training  
+5.60 The arrangements for government funding of pilot training for domestic students in New 
+Zealand were significantly changed in 2011 for all new student enrolments from 2012 
+onwards.  These changes were implemented following a significant review of aviation pilot 
+training by the TEC. 
+ 
+5.61 The total amount of funding is det ermined annually as part of the government's Vote 
+Education budget process.  Also, course tuition fees are capped annually in accordance with 
+the Annual Maximum Fee Movement policy, and were reduced in 2012.  The government also 
+reduced the EFTS cap for go vernment -funded pilot training courses from 600 to 450 EFTS.   
+ 
+5.62 Government funding only covers a proportion of the cost s of pilot training.  The remainder is 
+made up with student loan contributions.  Students are eligible for student loans if the flight 
+training they receive is offered in conjunction with recognised tertiary education provider s.   
+ 
+Potential implications for aviation safety  
+5.63 Several submitters identified a range of issues regarding the government's funding structure 
+for flying training.  Many of these  issues , although legitimate, did not raise  safety issues for 
+flying training in New Zealand  or were outside the scope of the Commission's inquiry .  They 
+included issues such as  the student loan process.  
+ 
+5.64 The recent changes to government funding resulted from several independent reviews of pilot 
+training funding undertaken on behalf of the TEC and followed a period of industry 
+consultation .  The government's review of pilot training was prompted by a number of 
+concerns about the efficacy and value  for money of the public investment in pilot training, 
+including high student debt levels.   
+ 
+5.65 The government's decision was also informed by findings and recommendations made in the 
+Strategic Training Plan and Map of Provision, a joint industry and governm ent agenc y initiative 
+led by the Aviation Travel and Tourism Industry Training Organisation.  Although these reviews 
+considered issues related to the efficiency and effectiveness of the pilot training funding 
+system, they did not specifically consider the potential impact s of the proposed changes on 
+aviation safety per se .  However, it is a precondition of government funding that flight training 
+organisations meet minimum aviation safety standards.    
+ 
+5.66 The Commission did not find any other research that considered the impact s of pilot training 
+funding arrangements on flying training safety.  Nor did its own air accident inquiry reports 
+raise any safety findings or recommendations in relation to government funding of pilot 
+training.  
+ 
+5.67 Anecdotally, however,  a number of potential issues could arise from the recent changes to the 
+funding structure for flight training.  In its submission to the Ministry of Education in 2011, the 
+New Zealand Air Line Pilots ' Association ( NZALPA ) was concerned that quality traini ng 
+providers, who were facing higher overheads, would be placed under significant financial 
+pressure to reduce costs and thereby reduce safety margins (e.g. cutting costs on 
+ 
+Report 10 -011 
+<< Page 27 >>
+ 
+ maintenance to meet minimum training requirements , or deferring investments in new  aircraft 
+and technology)  (NZALPA, n.d.).   
+ 
+5.68 The NZALPA also noted that the changed funding arrangements could result in fewer students 
+being trained or more students being less inclined to self -fund.  This could provide an 
+incentive to training organisati ons to complete training in the minimum number of hours.  This 
+problem was noted by the Australian Bureau of Air Safety Investigation ( BASI ) in relation to the 
+economic effects of a recession on flying training  (BASI, 1996) .  BASI considered  that training 
+organisations would either accept additional flying hours at no additional cost to student s or 
+graduate its students at lower level s of skill than might otherwise have been the case.  
+ 
+5.69 A 2010 report for New Zealand Trade and Enterprise acknowledged the chal lenge for the 
+training sector to maintain profitability given that the current EFTS funding level had been 
+fixed at 2003 levels and that operational costs, particularly fuel costs, had increased  
+(Knotridge  Limited , 2010) .  As a result, most of the training  organisations were under severe 
+financial pressure.  Conversely, the report noted that New Zealand had a number of 
+competitive advantages to drive future growth in the sector, predominantly by attracting 
+international pilot students who do not rely on gov ernment funding.  
+ 
+Findings  
+16. The Commission found no evidence that the government funding structure for 
+domestic pilot training is affecting flying training safety in New Zealand.   
+17. The Commission found no  data or research about the impact s of pilot training funding 
+arrangements on flying training safety.  Nor was it able to establish from occurrence 
+data any connection between pilot training funding and flying training safety in New 
+Zealand.  
+ 
+Accessibility of weather information  
+5.70 Some submissions raised concerns about the accessibility of weather information, 
+commenting that the user -pays model for MetFlight -GA was discouraging pilots and other 
+aviation participants from accessing pertinent pre -flight weather information.  Members of th e 
+AIA, in particular, noted that without this information pilots were putting themselves and their 
+aircraft at risk.  A consultant with the AIA, for example, stated:  
+ 
+I actually think it's a huge downgrade of safety.  While the flight training organisation s - they will 
+actually pay for the weather because, really, they have to, there will be a lot of general aviation 
+pilots flying around that I know don't…  
+ 
+History of MetFlight -GA 
+5.71 MetFlight -GA is an enhanced web -based aviation weather information service av ailable to non-
+commercial pilots for pre -flight weather planning.  It was introduced in 2004 and was entirely 
+owned and operated on a commercial basis by the Meteorological Service of New Zealand 
+(MetService ).  As a safety initiative, the CAA agreed to spo nsor MetFlight -GA.  The aviation 
+community, specifically recreational pilots and flight training organisations, was therefore able 
+to access this service free  of charge.  Neither MetService nor the CAA was funded to support 
+this service.  
+ 
+5.72 The CAA's initial  financial support was only intended to be short term until MetService was 
+able to find other funding or sponsorship.  It nevertheless continued its sponsorship for about 
+
+<< Page 28 >>
+ Report 10 -011 7 years until 30 June 2011, at a total cost of about $650  000.  During this period MetService 
+was unable to secure an alternative source of funding for MetFlight -GA. 
+ 
+5.73 From 1 August 2011 MetService continued to make MetFlight -GA available to non -
+commercial , recreational (private) licenced pilots but for an annual fee of $95 plus GST.  
+Com mercial air transport operation subscribers, including flight training organisations, were 
+required by MetService to switch  to either MetFlight Commercial or MetJet (both available for 
+a fee).  By 1 August 2011 the more significant flight training establis hments in New Zealand 
+had already done this.  For example, MetService statistics show that the number of flight 
+training organisations registered to access MetFlight Commercial or MetJet before the 
+switchover was 17 (as at 30 June 2011).  As at March 2012 approximately 2 6% of flight 
+training organisations had subscribed to access MetFlight Commercial or MetJet (up from 17 
+organisations in June 2011 to 46 in March 2012).  
+ 
+5.74 In terms of the effect s of moving from a funded to a user -pays model for MetFlight -GA on 
+subscriptions , MetFlight -GA had 3991 registered users  in 2007, which b y 30 June 2011 (just 
+before the CAA's sponsorship ended) had increased to 5779 users (consisting of individual , 
+recreational , private pilot users as well as flight training organisatio ns and their staff, and 
+other commercial operators)  (CAA, n.d. [unpublished data]) .   
+ 
+5.75 However, a s at March 2012, according to MetService , there were 570 registered users of 
+MetFlight -GA comprising individual recreational users and some smaller commercial operators 
+granted special dispensation to continue utilising MetFlight -GA.  This represented a significant 
+fall in subscriptions , by approximately 90%.  As a rough guide, 570 users re present 
+approximately 10 -16% of the potential number of active pilot licence holders exercising 
+private pilot licence (recreational) privileges in New Zealand12. 
+ 
+Potential impact s on flying training safety  
+5.76 A review of the CAA's occurrence database revealed  only one incident since 1993 where the 
+pilot-in-command did not obtain a weather briefing.  The Commission did not find any 
+comparable situations overseas where a fully funded weather information service had been 
+replaced by a user -pays model.  Although other countries did provide free access to some 
+form of pre -flight weather information, it was beyond the scope of this inquiry  to compare 
+others' information sources, service delivery methods and charging mechanisms with those of  
+MetFlig ht-GA.   
+ 
+5.77 Overseas research and investigation reports, however, did indicate that pilots failing to access 
+pre-flight weather information did contribute to fatal occurrences.  An ATSB study , which 
+looked at fatal accidents in private operations between 1999 and 2008, found that problems 
+with pilots assessing and planning were the most common contributing factor s and were 
+present in nearly half of the fatal accidents (46%)  (ATSB, 2010 c).  These included accidents 
+where the pilot s had failed to check the w eather forecast before the flight s.  Also, recent 
+research by the FAA found that failure to get a pre -flight weather briefing, or a briefing from 
+only a low -grade (non -aviation -orientated) source , seemed to constitute a problem for 5% of 
+United States general aviation pilots  (FAA, 2010) . 
+ 
+5.78 The Commission did not find evidence to show that free access to MetFlight -GA incrementally 
+improved safety in New Zealand after its introduction in 2004.  Conversely, it did not find 
+evidence to show that the withdraw al of free access to MetFlight -GA had an adverse impact on 
+the level of flying training safety in New Zealand (although this is not surprising given that the 
+change occurred less than a year ago).   
+ 
+5.79 In the long term it is unlikely that the user -pays model  will have adverse impact s on flying 
+training safety because student pilots and flight training organisations are required to have 
+                                                           
+12 Based on CAA published statistics (as at March 2012)  retrieved from www.caa.govt.nz.  
+ 
+Report 10 -011 
+<< Page 29 >>
+ 
+ access to weather forecasts.  Even though the number of flight training organisations 
+subscribing to MetFlight Commercial and MetJet remains low , some can access MetFlight -GA 
+using personal logons from staff to provide pre -flight weather information  to students in 
+training .  Others may also have access to alternative  information sources  or suppliers (e.g. 
+Airways) .  Notwithstanding this, it is important  that the CAA remain alert to  any possible trends 
+that may develop as a direct consequence of the user -pays model . 
+ 
+Findings  
+18. The Commission found no evidence  to show that free access to MetFlight -GA 
+incrementally improved safety in New Zealand after its introduction in 2004.  
+19.  Conversely, the Commission found no evidence to show that the level of flying training 
+safety in New Zealand was adversely affected by MetFlight -GA changing from a free to 
+a user -pays weather information service.  Flight training organisations must always 
+access weather information in some form.   
+ 
+Flying training regulatory system  
+5.80 Some submitters made general comments about the New Zealand regul atory system for flying 
+training and, in particular, questioned whether there were  any significant gaps or issues with 
+this system  that could be affecting flying training safety.  Although no specific concerns or 
+issues were raised by submitters about the regulatory system, the Commission nevertheless  
+looked at this, for completeness .  
+ 
+5.81 Flying training in New Zealand operates within a reg ulatory system governed by the C ivil 
+Aviation  Act 1990 .  Th is Act provides minimum safety standards  that aviation participants 
+(also referred to as aviation document holders) must meet.  These safety standards are 
+further prescribed in CA Rules  and support ed by Advisory Circulars and guidance material.  In 
+many cases, these rules reflect standards set by ICAO.  
+ 
+5.82 The CAA issues licences and ratings and sets the minimum standard s of skill and knowledge 
+required by aviation document holders to operate safely within the civil aviation system.  The 
+CA Rules set out what pilots and flight instructors must do in order to gain, and to continue 
+exercising the privileges of, their licence s and ratings.  Typically , this involves their periodically 
+demonstrating their flying skills and knowledge to CAA -approved flight instructor s or 
+examiner s.  Flight training organisations are also subject to surveillance and monitoring by the 
+CAA.  
+ 
+5.83 The CA A is responsible for formulating the theory and practical assessment syllabi to enable 
+applicants to undergo the skills and knowledge training needed to attain the required 
+minimum standards.  In turn, the flight training industry develops structured train ing and 
+course material that pilots follow to achieve the required minimum standards.  
+ 
+5.84 After reviewing the relevant legislation  and other supporting material regarding flying training, 
+the Commission did not find any significant gaps in the regulatory syst em for flying training in 
+New Zealand .  Again , this is not to say that gaps (significant or otherwise) do not exist.  It 
+simply means that the Commission did not find any evidence of this.   
+ 
+5.85 What the Commission did find is that New Zealand has designed a competency -based flying 
+training model and licensing system that meets or exceeds ICAO minimum standards and 
+international best practice.  The regulatory licensing minima for pilots and aviation training 
+
+<< Page 30 >>
+ Report 10 -011 personnel are generally in accord with proficiency  and currency standards in Europe, the 
+United Kingdom, the United States and Australia.  
+ 
+5.86 The Commission also found that New Zealand has a well  respected training system that, by all 
+accounts, is producing competently trained pilots.  Given that the minimum  standards 
+required to obtain pilot qualification s reflect the standards set by ICAO, it is reasonable to 
+expect that a person who successfully completes the prescribed training and meets these 
+minimum standards will have the qualifications and skills need ed to exercise the privileges of 
+their licence.  If this were not the case , the international recognition of CAA-issued licences 
+would be at risk.   The New Zealand pilot qualification continues to be recognised by 
+international aviation authorities  and is considered to be of good standing.  
+Proposed Civil Aviation Ru le amendments  
+5.87 When meeting with Commissioners, the CAA identified expected improvements to the flying 
+training system through proposed amendments to CA Rule s Part 61 ( Pilot Licen ces and 
+Ratings ) and Part 141 ( Aviation Training Organisations  - Certification ), which appl y to flight 
+crew licensing and flight training operators respectively.   
+ 
+5.88 The proposed amendments to Part 61 are intended to legally formalise specific training 
+requirements for pilot licensing, which are already incorporated into the training syllabi , and 
+eligibility requirements for gaining private pilot and commercial pilot l icence s.  These 
+requirements, which will introduce English language proficiency requirements , mountain flying 
+and terrain awareness training , and threat and error management training , are expected to 
+raise training standards, promote consistency and improve levels of safety in the flying 
+training sector.  The Part 61 rule -making project commenced in 2000 and was being 
+progressed at the time of writing this report.  The proposed amendm ents are expected to 
+come into force in 2013.   
+ 
+5.89 The proposed amendments to Part 141 are intended to require all flight training organisations 
+conducting certain training activities to be certificated.  At present, only a limited range of 
+training and asse ssments must be conducted by organisations approved under Part 141.  
+This is in contrast to Australia and the U nited Kingdom , where all flying training for pilot 
+licences must be conducted by authorised certificate holder s.  ICAO also recommends13 that 
+pilot training be conducted by organisations approved by the Contracting State.  The CAA has 
+commented that u ntil all flight training organisations are certificated , there will continue to be 
+a varied and inconsistent approach to flight training in terms of regulatory oversight, 
+organisational supervision , training delivery and outcomes.  In addition, non -certificated 
+training organisations may not be held to account under the CA Rules for the quality of the 
+training that they provide to students.  
+ 
+5.90 It is uncl ear when the proposed amendments to Part 141 will be completed.  The Part 141 
+rule-making project commenced in 2001 but it was removed from the annual rules 
+development programme in 2011 following comments from the Ministry of Transport that the 
+CAA needed  to conduct further regulatory impact and safety analysis.  Until further work is 
+done to address these comments, the rule change programme for Part 141 may be deferred 
+indefinitely  (CAA, 2011 d).   
+ 
+5.91 If the proposed amendments to Part 61 and Part 141 are ex pected to improve safety within 
+the New Zealand flying training system (and there appears to be general agreement within the 
+aviation sector that they will) , every effort should be made to complete both rule change 
+programmes without further significant delay.  The Commission therefore recommends, as a 
+matter of priority , that the CAA complete the work required to progress the proposed 
+amendments to Part 141 and that it also  complete draft final rule -making to implement 
+proposed amendments to Part 61 for submission to the Minister of Transport for approval.  
+                                                           
+13 See Annex 1 to the Convention on International Civil Aviation  - Personnel Licensing.  
+ 
+Report 10 -011 
+<< Page 31 >>
+ 
+ Findings  
+20. The Commission did not identify any significant gaps in the design of the regulatory system for 
+flying training in New Zealand.  This is not to say that gaps (significant or otherwise) do not 
+exist.  It simply means that the Commission did not find any evidence of this.  
+21. Proposed amendments to CA Rules Part 61 and Part 141 are expected to improve safety 
+within the New Zealand flying training system ; however, both amendments have been 
+delayed.  Every effort should be made to complete both rule change programmes without 
+further significant delay.  
+ 
+  
+
+<< Page 32 >>
+ Report 10 -011 6 Data  and research  
+6.1 In researching  flying training safety in New Zealand , the Commission examined relevan t CAA 
+occurrence data  on flying training accidents and incidents in New Zealand.  The Commission  
+also completed a wide -ranging literature review  to identify any relevant empirical research on 
+the subject of flying  training  safety in New Zealand and other countries . 
+6.2 Although the Commission found a large amount of international research that looked at some 
+of the saf ety issues it was considering, there was virtually no recent research  in New Zealand 
+or overseas that examined  the factors contributing  to occur rences specifically in the context of 
+flying training.   This made it difficult for the Commission to draw any firm conclusions on the 
+state of flying training in New Zealand.  
+6.3 It is also notable that , compared with other countries, the CAA has not widely or periodically 
+published any comprehensive safety reviews of aviation in New Zealand  (of which flying 
+training is one activity ) that have a major emphasis  on accident and incident trends , and 
+analys es of precursors,  contributing  factors and lessons learned , in order to enhance 
+stakeholders' safety focus .   
+6.4 The Commission's own review of the data in the CAA's occurrence  database highlighted 
+limitations in the CAA's existing safety occurrence reporting and monitoring system , which 
+prevented  an accurate and meaningful analysis of flying training accident causal factors and 
+historical safety trends.   These include d limitations with the analysis the CAA conducts and the 
+comprehensiveness of the safety data it collects, as  well as an absence of data in some areas  
+where it appears that key data is missing or was not reported.  For example, in contrast to 
+other countries the CAA  does not have clear definitions of, or a risk assessment process for 
+categorising or analysing , aircraft loss -of-separation events in controlled and uncontrolled 
+airspace.        
+6.5 The CAA is aware of these limitations .  In 2011  it commissioned an independent review of 
+New Zealand's flying training industry as part of its efforts to understand fully and resolve 
+concerns about the sector's safety performance.  In response  to a recommendation from this 
+review , the CAA noted that  (n.d.) : 
+NZ [New Zealand ] will always suffer from relative data scarcity compared to other jurisdictions , 
+because of the size o f the civil aviation activity , which  in turn will always impose some limitations on 
+the type of statistical analysis that can be undertaken, including regular statistical and other types 
+of quantitative  analysis on an ongoing basis .   
+ 
+6.6 Notwithstanding its comments , it is important that the CAA commit s to strengthen ing the 
+collation , analysis and reporting of safety data  for specific aviation sub -sectors, including flying 
+training , otherwise it will continue to be  difficult to assess fully and identify any p otential 
+systemic safety issues, trends  and risks with flying training in New Zealand.  This in turn will 
+make it  difficult to identify appropriate safety strategies that can help to improve safety 
+performance within the New Zealand flying training system.  
+Findings  
+22. There is a lack of data and research examining factors that might  or that have contributed to 
+occurrences  in flying training operations in New Zealand and overseas .  There are also  
+limitations with the CAA's occurrence database, which make it difficult to analyse flight 
+training accident causal  factors and safety trends  accurately.  
+23. Quantitative research and a causal analysis of flying training -related occurrences  held in the 
+CAA's occurrence database  are needed to assess fully and identify any potential systemic 
+safety issues, trends and risks so that appropriate safety strategies can be adopted to 
+improve safety performance within the New Zealand flying training system.  
+ 
+Report 10 -011 
+<< Page 33 >>
+ 
+ 7 Findings  
+Flying training safety performance in New Zealand  
+7.1 Based on a preliminary analysis of occurrence data, it is not possible to conclude statistically 
+whether flying training in New Zealand is less or more safe now than it used to be.  
+ 
+7.2 The r ate of fatalities changes  from  year to year much more in New Zealand than it does in 
+other countries , because the flying training industry is smaller.  Overseas data, however, 
+indicates that the overall rate of flying training fatalities and fatal accident s in New Zealand is 
+broadly comparable with the rates found in Australia and the United States for the period 
+1999 to 2009.  
+ 
+7.3 Research and data from the CAA and the ATSB indicate that flying training is likely to be safer 
+than other forms of flying.  
+Standard of flying training in New Zealand  
+7.4 The Commission was unable to conclude whether the standard of flight training in New 
+Zealand presents risks to flight training safety.  It did not find any specific research examining 
+the quality of the flight training system in New Zealand  or any evidence of significant gaps with 
+the flying training programme.  This is not to say that gaps (significant or otherwise) do not 
+exist.  It simply means that the Commission did not find any evidence of this.  
+ 
+7.5 General i nformation about flight instructor demographics (e.g. qualifications, experience 
+levels, age), performance and competency levels is difficult to obtain, with no one agency 
+responsible for collecting this.  This data gap should be addressed.  
+Effect s of inc reasing air traffic  
+7.6 The effect s of increasing aviation activity in New Zealand on flying training and aviation safety 
+in general are uncertain.  There are insufficient data and research on this matter.  
+ 
+7.7 International research (which is limited and not conc lusive) shows that increasing traffic is 
+likely to be a contributing factor but not a dominant cause of flying training occurrences.  
+Accidents do not happen solely because there is an increase in traffic, although the risk is 
+likely to be elevated.   
+English language proficiency  
+7.8 International studies have found that poor English language proficiency has played a 
+contributing role in a number of significant international accidents.  
+ 
+7.9 Anecdotal evidence suggests that poor English language proficiency and comp rehension of 
+English may have been contributing factor s in some New Zealand occurrences.  However, with 
+the exception of one occurrence that it investigated, the Commission did not find any data or 
+research to support this.   
+ 
+7.10 New Zealand has a pertinent a nd specific framework for testing English language proficiency 
+in civil aviation, as required by ICAO.  The Commission found no evidence to suggest that this 
+testing regime is not providing reliable, valid and practical evaluation s of pilot language 
+profic iency in accordance with ICAO criteria.  
+ 
+ 
+
+<< Page 34 >>
+ Report 10 -011 Radiotelephony communications  
+7.11 Aviation investigation authorities and civil aviation regulators worldwide acknowledge that 
+radiotelephony communication -related occurrences are a significant risk to aviation safety.   
+7.12 Anecdotal evidence suggests that radiotelephony miscommunication may h ave been a 
+contributory factor in some New Zealand occurrences ; however, the Commission did not find 
+any data or research to support the concern that a significant problem exists with 
+radiotelephony communications in the New Zealand flying training sector or in general.  
+Overall, reported radiotelephony communication -related incidents in New Zealand account for 
+only a very small proportion of total reported occurrences (statistically insignificant).    
+ 
+7.13 New Zealand has a pertinent and specific regime for te aching and testing radiotelephony 
+communications, which is consistent with ICAO's standards and recommended practices.  The 
+Commission found no evidence to suggest that this regime is not providing reliable, valid and 
+practical evaluation s of pilot radiote lephony proficiency in accordance with ICAO criteria.  
+Situational awareness and see -and-avoid  
+7.14 International data shows that the loss of situational awareness and the failure of, or failure to 
+use, proper see -and-avoid techniques were significant factors i n a high number of 
+occurrences.   
+ 
+7.15 Anecdotal evidence suggests that there may be a high number of occurrences in New Zealand 
+involving a loss of situational awareness and/or the failure of, or failure to use, proper see -
+and-avoid techniques.  However, the Commission did not find any data or research specific to 
+flying training in New Zealand or in general to support this.   
+Government funding structure for pilot training  
+7.16 The Commission found no evidence that the government funding structure for domestic pil ot 
+training is affecting flying training safety in New Zealand.   
+ 
+7.17 The Commission found no data or research about the impact s of pilot training funding 
+arrangements on flying training safety.  Nor was it able to establish from occurrence data any 
+connectio n between pilot training funding and flying training safety in New Zealand.  
+Accessibility of weather information  
+7.18 The Commission found no evidence to show that free access to MetFlight -GA incrementally 
+improved safety in New Zealand after its introduction i n 2004.  
+ 
+7.19 Conversely, the Commission found no evidence to show that the level of flying training safety 
+in New Zealand was adversely affected by MetFlight -GA changing from a free to a user -pays 
+weather information service.  Flight training organisations must always access weather 
+information in some form.   
+Flying training regulatory system  
+7.20 The Commission did not identify any significant gaps in the design of the regulatory system for 
+flying training in New Zealand.  This is not to say that gaps (significant or otherwise) do not 
+exist.  It simply means that the Commission did not find any evidence of this.  
+ 
+7.21 Proposed amendments to CA Rules Part 61 and Part 14 1 are expected to improve safety 
+within the New Zealand flying training system ; however, both amendments have been 
+delayed.  Every effort should be made to complete both rule change programmes without 
+further significant delay.  
+ 
+ 
+Report 10 -011 
+<< Page 35 >>
+ 
+ Data and research  
+7.22 There is a lack of data and research examining factors that might or that have contributed to 
+occurrences in flying training operations in New Zealand and overseas.  There are also 
+limitations with the CAA's occurrence database, which make it difficult to analyse flight 
+training accident causal factors and safety trends accurately.  
+ 
+7.23 Quantitative research and a causal analysis of flying training -related occurrences held in the 
+CAA's occurrence database are needed to assess fully and identify any potential sy stemic 
+safety issues, trends and risks so that appropriate safety strategies can be adopted to 
+improve safety performance within the New Zealand flying training system.   
+
+<< Page 36 >>
+ Report 10 -011 8 Recommendations  
+8.1 On 13 December  2012 the Commission recommended to the Director of Civi l Aviation that he:  
+ 
+(a) review the CAA's data systems  and processes , particularly regarding flying training 
+data , including the information collected and the way this information is collected, 
+categorised, recorded in the CAA's occurrence database and analysed to ensure that 
+meaningful and complete data on flying training in New Zealand is available ; 
+(032/12)  
+ 
+(b) undertake and publish further quantitative research and causal analys es of flying 
+training -related accidents and incidents held in the CAA's occurrence database to 
+assess fully and identify any potential systemic safety issues, trends and risks, so 
+that appropriate safety strategies can be adopted to improve safety performance  
+within the New Zealand flying training system ; (033/12)  
+ 
+(c) take all ap propriate steps to ensure that information about flight instructor 
+demographics (e.g. qualifications, experience levels, age ) and flight instructor 
+performance and competency levels is regularly collected, categorised and recorded 
+in a way that will  enable  it to be  analysed  meaningfully ; (034/12  
+ 
+(d) complete, as a matter of priority, the tasks that the CAA is required do  to progress 
+the proposed amendments to CA Rule Part 141 ( Aviation Training Organisations - 
+Certification ) and to CA Rule Part 61 ( Pilot Licen ces and Ratings ). (035/12)  
+ 
+  
+ 
+Report 10 -011 
+<< Page 37 >>
+ 
+ 9 References  
+Aerosafe Risk Management (2011, August). Civil Aviation Authority of New Zealand: Flight 
+Training Review.  Retrieved from http://www.caa.govt.nz  
+ 
+Australian Transport Safety Bureau (1991, April).  Research Report: Limitations of the See -
+and-Avoid Principle.  Retrieved from http://www.atsb.gov.au  
+ 
+Australian Transport Safety Bureau (2004b, May).  Research Report: A review of Midair 
+Collisions Involving General Aviation Aircraft in Australia between 1 961 and 2003 .  
+Retrieved from http://www.atsb.gov.au  
+ 
+Australian Transport Safety Bureau (2004a, June).  Aviation Safety Research Paper:  Runway 
+Incursions: 1997 to 2003 .  Retrieved from http://www.atsb.gov.au  
+ 
+Australian Transport Safety Bureau (2007 b, 30 January).  Human Factors Analysis of 
+Australian Aviation Accidents and Comparison with the United States .  (ATSB 
+Transport Safety Investigation Report: Aviation Research and Analysis Report  - 
+B2004/0321 Final .)  Retrieved from http://www.atsb.gov.au  
+ 
+Australian Transport Safety Bureau (2007 a, June).  Radiotelephony Readback Compliance 
+and its Relationship to Surface Movement Control Frequency Congestion.  ATSB 
+Transport Safety Report: Aviation Research and Analysis Report 20060053 Final.  
+Retrieved fro m http://www.atsb.gov.au  
+ 
+Australian Transport Safety Bureau (2010 a).  Aviation Occurrence Statistics 1999 to 2009.  
+(ATSB Transport Safety Report: Aviation Research and Analysis Report - AR-2009 -
+016(3) Final .)  Retrieved from http://www.atsb.gov.au  
+ 
+Australian Transport Safety Bureau (2010 c, 23 June).  Improving the Odds: Trends in Fatal 
+and Non-fatal Accidents in Private Flying Operations .  (ATSB Transport Safety Report: 
+Aviation Research and Analysis Report  - AR-2008 -045 Final .)  Retrieved from 
+http://www.atsb.gov.au  
+ 
+Australian Transport Safety Bureau (2010 b, 10 November).  Safety in the Vicinity of Non-
+towered Aerodromes .  (ATSB Transport Safety Report:  Aviation Research and Analysis 
+Report AR -2008 -044(2) Final .)  Retrieved from http://www.atsb .gov.au  
+ 
+Australian Transport Safety Bureau (2012, 29 May).  Aviation Occurrence Statistics 2002 to 
+2011.   (ATSB Transport Safety Report: Aviation Research and Analysis Report AR -
+2012 -025 Final .)  Retrieved from http://www.atsb.gov.au  
+ 
+Aviation Services Limited (n.d.).  Quarterly Flight Test Pass Rates.   Retrieved March 2012 
+from http://www.aviation.co.nz  
+ 
+Bureau d'Enquêtes et d'Analyses pour la Sécurité de l'Aviation Civile (n.d.).  Mid-Air Collisions 
+1989 -1999: Safety Study .  Retrieved from http://www.bea.aero  
+ 
+Bureau of Air Safety Investigation (1996, 21 January).  Flying Training in Australia .  (Research 
+Paper SAB/RP/91/09 .)  Retrieved from http://www.atsb.gov.au  
+
+<< Page 38 >>
+ Report 10 -011  
+Civil Aviation Authority (n.d.).  CAA Actions in Response to Aerosafe Report .  Retrieved March 
+2012 from http://www.caa.govt.nz  
+ 
+Civil Aviation Authority (2005).  New Zealand Fixed Wing Aviation Accidents.  A Review of All 
+Reported New Zealand Registered Aeroplane Accidents from 1995 to 2004 .  
+Retrieved from http://www.caa.govt.nz  
+ 
+Civil Aviation Authority (2007, September/October, p. 8 -9).  English Language Proficiency.  
+Vector .  Retrieved from http://www.caa.govt.nz  
+ 
+Civil Aviation Authority (2008, September/October, p. 10 -11).  Flight Training Growing Pains .  
+Vector .  Retrieved f rom http://www.caa.govt.nz  
+ 
+Civil Aviation Authority (2010, 12 October).  Review of CAA Funding: Consultation Supporting 
+Document B General Information .  Retrieved from http://www.caa.govt.nz  
+ 
+Civil Aviation Authority (2011a , 29 November ).  Aviation Safety Summary Report, 1 July to 30 
+September 2011 .  Retrieved from http://www.caa.govt.nz  
+ 
+Civil Aviation Authority (2011 d, 5 May, p. 3-4.).  Civil Aviation Rules Register Information 
+Leaflet (CARRIL) .  Retrieved from http://www.caa.govt.nz  
+ 
+Civil Aviatio n Authority (2011 c, 20 September).  Radiotelephony Manual.  Advisory Circular 
+91-9 & Advisory Circular 172 -1.  Retrieved from http://www.caa.govt.nz   
+ 
+Civil Aviation Authority (2011b, 3 November).  Pilot Licences and Ratings - General.  Advisory 
+Circular 61-1.  Retrieved from http://www.caa.govt.nz   
+ 
+Civil Aviation Authority (2012 a, February).  Plane Talking , A Guide to Good Radio Use, Good 
+Aviation Practice .  Retrieved from http://www.caa.govt.nz  
+ 
+Civil Aviation Authority (2012 b, 28 February).  AvKiwi Safety Seminars for Pilots [press 
+release].  Retrieved from http://www.caa.govt.nz  
+ 
+Civil Aviation Safety Authority (2010).  Submission to the Senate Standing Committee on 
+Rural Affairs and Transport: Pilot Training and Airline Safety Consideration of the 
+Transport Safety Investigation Amendment (Incident Reports) Bill 2010 .  Retrieved 
+from http://www.aph.gov.au  
+ 
+Civil Aviation Safety Authority (2011 ).  Annual Report 2010 -11.  Retrieved from 
+http://www.casa.gov.au   
+ 
+Cushing , S. (1994).  Fatal Words: Communi cation Clashes and Aircraft Clashes .  Chicago: 
+University of Chicago Press.  
+ 
+Etem, K., & Patten, M. (1998, December).  Communications -related Incidents in General 
+Aviation Dual Flight Training.  ASRS Directline, Issue No. 10 .  Retrieved from 
+http://asrs.ar c.nasa.gov  
+ 
+ 
+Report 10 -011 
+<< Page 39 >>
+ 
+ Federal Aviation Administration (1999).  General Aviation and Air Taxi Activity (GAATA) Survey 
+CY1999 .  Retrieved from http://www.faa.gov  
+ 
+Federal Aviation Administration (2008, October).  Pilot English Language Proficiency and the 
+Prevalence o f Communication Problems at Five U.S. Air Route Traffic Control Centers 
+(DOT/FAA/AM -08/21) .  Retrieved from http://www.faa.gov  
+ 
+Federal Aviation Administration (2009, May).  The ICAO English Language Proficiency Rating 
+Scale Applied to Enroute Voice Commun ications of U.S. and Foreign Pilots 
+(DOT/FAA/AM -09/10) .  Retrieved from http://www.faa.gov  
+ 
+Federal Aviation Administration (2010, September).  Causes of General Aviation Weather -
+Related, Non -Fatal Incidents: Analysis September 2010 Using NASA Aviation Safety 
+Reporting System (ASRS) Data .  (Final Report  DOT/FAA/AM -10/13 .)  Retrieved from 
+http://www.faa.gov  
+ 
+International Civil Aviation Organization (2010).  Manual on the Implementation of ICAO 
+Language Proficiency Requirements (Doc 9835 AN/453) . Retrieve d from 
+http://www.icao.int  
+ 
+Knotridge Limited (2010, 15 June).  New Horizons: A Report on New Zealand's Aviation 
+Industry .  Retrieved from http://www.aviationnz.co.nz  
+ 
+Machol, R.E. (1979, February).  Effectiveness of the Air Traffic Control System.  Journa l of the 
+Operational Research Society , 30, 111 -119.   doi:10.1057/jors.1979.24  
+ 
+National Air Traffic Services Limited  (2006). Communication Error  [DVD]  
+ 
+National Transportation Safety Board ( n.d.).  Aviation Accident Database.  Retrieved from 
+http:// www. ntsb.gov  
+ 
+New Zealand Air Line Pilots' Association (n.d. , p. 18 ).  Tertiary Funding Cut s Have Potential to 
+Impact Pilot Supply and Training.  Pacific Wings  
+ 
+The Ambidji Group Pty Ltd. (2009, 30 June).  Utility of General Aviation Aerodrome Procedures 
+to Australian -Administered Airspace: Report to the Civil Aviation Safety Authority 
+Office of Airspace Regulation .  Retrieved from http://www.casa.gov.au  
+ 
+Transport Accident Investigation Commission (a) (n.d.).  Boeing 777, HL 7497, landed short of 
+displaced t hreshold, Auckland International Airport, 16 November 2004.  Aviation 
+Occurrence Report no. 04 -006.  Wellington: Transport Accident Investigation 
+Commission  
+ 
+Transport Accident Investigation Commission (b) (n.d.).  Raytheon 1900D, ZK -EAN and Saab -
+Scania SF 340A, ZK -FXA, critical runway incursion, Auckland International Airport, 29 
+May 2007.  Occurrence Report  no. 07 -005 INCORPORATING Raytheon 1900D, ZK -
+EAH and Raytheon 1900D, ZK -EAG, critical runway incursion, Auckland International 
+Airport, 1 August 2007.  Occurrence  Report no. 07 -009.  Wellington: Transport 
+Accident Investigation Commission  
+ 
+
+<< Page 40 >>
+ Report 10 -011 Transport Accident Investigation Commission (2010, September).  Interim Factual Report: 
+Cessna C152 ZK -JGB and Cessna C152 ZK -TOD, mid -air collision, near Feilding, 
+Manawatu, 26 July 2010.  Aviation Inquiry Report no. 10 -008.  Wellington: Transport 
+Accident Investigation Commission  
+ 
+Transport Accident Investigation Commission (2011 b, February).  Final Report: Cessna C208 
+Caravan, ZK -TZR, engine fuel leak and forced la nding, Nelson, 10 February 2010.  
+Aviation Inquiry Report  no. 10 -003.  Wellington: Transport Accident Investigation 
+Commission  
+ 
+Transport Accident Investigation Commission (2011 a, October).  Final Report: Cessna A152, 
+ZK-NPL and Robinson R22 Beta, ZK -HIE n ear-collision , New Plymouth Aerodrome , 10 
+May 2010.  Aviation Inquiry  Report no. 10 -005.  Wellington: Transport Accident 
+Investigation Commission  
+ 
+Transport Accident Investigation Commission (2012, October ).  Final Report: Cessna C152 
+ZK-JGB and Cessna C15 2 ZK -TOD, mid -air collision, near Feilding, Manawatu, 26 July 
+2010.  Aviation Inquiry Report no. 10 -008.  Wellington: Transport Accident 
+Investigation Commission  
+ 
+Transport Canada (2000, 14 September).  National Civil Aviation Safety Committee: Sub -
+Committ ee on Runway Incursions Final Report .  Retrieved from http://www.tc.gc.ca  
+ 
+United States General Accounting Office (1989, 30 June ).  Air Traffic Control  FAA's Interim 
+Actions to Reduce Near  Mid-Air Collisions: Report to the Chairman, Subcommittee on 
+Transportation and Related Agencies, Committee on Appropriations, U.S. Senate .  
+GAO/RCED -89-149.  Retrieved from http://www.gao.gov  
+ 
+(n.d. = no date)  
+ 
+ 
+  
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most  recent at top of list)  
+ 
+11-002 Bombardier DHC -8-311, ZK -NEQ, Landing without nose landing gear extended  
+Woodbourne (Blenheim) Aerodrome, 9 February 2011  
+10-010 Bombardier DHC -8-311, ZK -NEB, landing without nose landing gear extended,  
+Woodbourne (Blenheim) Aerodrome, 30 September 2010  
+12-001 Interim Factual: Cameron Balloons A210 registration ZK -XXF, collision with power 
+line and in -flight fire, 7 January 2012  
+10-009 Walter Fletcher FU24, ZK -EUF, loss of control on take -off and impact with terrain, Fox 
+Glacier aerodrome, South Westland, 4 September 2010  
+10-007 Boeing 737 -800, ZK -PBF and Boeing 737 -800, VH -VXU airspace incident, near 
+Queenstown Aerodrome, 20 June 2010  
+10-005 Cessna A152, ZK -NPL and Robinson R22 Beta, ZK -HIE near -collision.  
+New Plymouth Aerodrome, 10 May 2010  
+ 
+10-003 Cessna C208 Caravan ZK -TZR engine fuel leak and forced landing, Nelson, 10 
+February 2010  
+ 
+10-006 Runway Incursion, Dunedin International Airport, 25 May 2010  
+10-001 Aerospatiale -Alenia ATR 72 -212A , ZK-MCP and ZK -MCJ, severe turbulence 
+encounters , about 50 nautical miles north of Christchurch , 30 December 2009  
+09-002 ZK-DGZ, Airborne XT -912, 9 February 2009, and commercial microlight  aircraft 
+operations  
+ 
+10-009 Interim Factual: Walter Fletcher FU24, ZK -EUF, loss of control on take -off and impact 
+with terrain, Fox Glacier aerodrome, South Westland, 4  September 2010  
+10-008 Interim Factual: Cessna C152 ZK -JGB and Cessna C152 ZK -TOD, mid -air collision, 
+near Feilding, Manawatu, 26 July 2010  
+09-007 Piper PA32 -260, ZK -CNS, impact with ground following a loss of control after take -
+off, near Claris, Grea t Barrier Island, 29 September 2009  
+09-005 Cessna 182N ZK -FGZ and Bombardier DHC -8 Q311 ZK-NEF,  
+loss of separation and near collision, Mercer, 40 km south of Auckland, 9 August 
+2009  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 23.00                                          ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online)  

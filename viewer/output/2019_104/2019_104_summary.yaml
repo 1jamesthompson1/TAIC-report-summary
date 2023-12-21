@@ -1,0 +1,57 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the incident in the provided document. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: The RPO's incorrect application of Rule 902 by telling site protectors not to lock off personnel removed a key safety defense ("However, both the site protectors, the pilot and several staff from each workgroup recalled the RPO telling them that personnel were not required to lock off" (3.5)) and the misidentification of a radio call by the southern site protector ("The southern site protector misidentified a radio call, believing that workgroup 4 was clear of the track" (4.4)) are clear examples of human error and assumptions contributing to the incident.
+- name: Training and Competency
+  percentage: 15
+  explanation: The document indicates that there were experienced personnel present who did not challenge the RPO's incorrect instruction ("None of them challenged the RPO's instruction or supported the southern site protector's challenge" (3.10)). This suggests a potential gap in training and competency, particularly in non-technical skills such as challenge and response, which are part of crew resource management (3.9-3.12).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests a lack of training or familiarity with equipment contributed to the incident. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 15
+  explanation: The failure of the crew to effectively challenge and respond to the RPO's unsafe instruction ("None of them challenged the RPO's instruction or supported the southern site protector's challenge" (3.10)) and the lack of effective communication and teamwork ("The southern site protector misidentified a radio call" (4.4)) indicate deficiencies in CRM that contributed to the incident.
+- name: Adherence to Safety Procedures
+  percentage: 25
+  explanation: The RPO's failure to follow Rule 902 ("The rail protection officer very likely instructed the site protectors to not lock off workgroups" (4.2)) and the southern site protector's authorization of the work train through the worksites while the track was still occupied ("The southern site protector authorised the work train through the worksites while the track was still occupied" (3.16)) demonstrate a lack of adherence to safety procedures, which was a significant contributing factor to the incident.
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The document does not provide explicit evidence of organizational safety culture contributing to the incident. However, the fact that experienced personnel did not challenge the RPO's instruction ("None of them challenged the RPO's instruction or supported the southern site protector's challenge" (3.10)) could suggest an underlying issue with the safety culture, albeit not directly mentioned.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: The lack of documented procedures for the protection of workers when a work train was carrying out work ("It was likely that the lack of documented procedures for the protection of workers when a work train was carrying out work had led to the development of locally adopted procedures" (3.21)) indicates a shortfall in risk management and analysis.
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The ambiguity in Rule 902 regarding work train movements ("The rules and procedures at the time of the incident did not define whether a train was a work train for the purpose of the rules when it departed from its depot" (3.22)) suggests a need for better regulatory oversight and compliance.
+- name: Situational Awareness
+  percentage: 5
+  explanation: The misinterpretation of radio communication by the southern site protector ("However, it was likely that the southern site protector overheard a radio conversation between the other workgroups and misinterpreted this as workgroup 4 providing confirmation" (3.17)) indicates a lack of situational awareness.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no mention of emergency response preparedness or its impact on the incident in the provided document. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'The document does not indicate that maintenance or inspection regimes were factors in the incident. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention of automation or its role in the incident in the provided document. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a contributing factor to the incident in the provided document. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Communication Breakdown
+  percentage: 5
+  explanation: The incident involved a communication breakdown, as evidenced by the southern site protector's misinterpretation of radio communication ("However, it was likely that the southern site protector overheard a radio conversation between the other workgroups and misinterpreted this as workgroup 4 providing confirmation" (3.17)) and the lack of unique identifiers or call signs for communicators ("On this occasion, only the site protectors had allocated call signs, which likely resulted in confusion when workgroups were communicating on the radio" (3.18)).

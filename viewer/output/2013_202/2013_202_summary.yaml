@@ -1,0 +1,64 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the incident in the provided document. Therefore, this theme is not applicable to the accident.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 10
+  explanation: The pilot incorrectly perceived that the master of the IDAS Bulker was endangering his vessel by navigating towards a known navigational danger, which was not the case (4.1.1). This indicates a human error and assumption on the part of the pilot. However, the master had already mitigated the risk (4.1.1), so the impact of this error on the accident was limited.
+- name: Training and Competency
+  percentage: 0
+  explanation: 'There is no evidence in the document suggesting that a lack of training or competency among the crew or pilot contributed to the incident.
+
+    '
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'The document does not indicate that a lack of training or familiarity with equipment played a role in the incident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that crew resource management issues contributed to the incident.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 30
+  explanation: The pilot handed control of the navigation of the IDAS Bulker to the master while the vessel was still in the compulsory pilotage area, without an arrangement for remote pilotage (4.4.4, 4.4.5). This is a clear deviation from safety procedures and Maritime Rules, which contributed significantly to the incident.
+- name: Organizational Safety Culture
+  percentage: 20
+  explanation: The Port of Napier's Outward Pilotage procedures had not been aligned with the appropriate rules and legislation since 2003 (4.4.6). Additionally, no one in the Regional Council or the Port Authority, and none of the pilots themselves, realized that the procedures for outward pilotage were in error (4.5.6). This indicates a lack of a strong safety culture that could have prevented the incident.
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The master of the IDAS Bulker mitigated the risk of navigating closer to Pania Reef by confirming his assessment with the second officer and fixing the position of the vessel more frequently (4.2.8). This shows that some level of risk management was in place, but the overall incident suggests that there were shortcomings in the risk management and analysis processes, particularly in the adherence to pilotage procedures.
+- name: Regulatory Oversight and Compliance
+  percentage: 20
+  explanation: The incident occurred due to non-compliance with Maritime Rules, specifically the requirement to have a licensed pilot in control of the vessel within the pilotage area (4.4.4). The Port of Napier's practices were in breach of these rules (4.4.4), and the pilots were unaware of the requirement to provide a pilotage service throughout the whole of the Napier Pilotage Area (4.5.1). This lack of compliance with regulatory requirements was a significant factor in the incident.
+- name: Situational Awareness
+  percentage: 10
+  explanation: The pilot's incorrect perception of the master's actions (4.1.1) and the master's decision to navigate south of North Pania Buoy (4.2.1) indicate issues with situational awareness. However, since the master had mitigated the risk and the weather did not contribute to the incident (4.1.3), the impact of situational awareness on the accident was somewhat limited.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that emergency response preparedness was a factor in the incident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'There is no mention of maintenance or inspection issues contributing to the incident in the provided document.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not indicate that the use of automation played a role in the incident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: The weather did not contribute to the incident as it was reported to be good and did not affect the situation (4.1.3).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'Although there was a communication between the pilot and the master, the document does not suggest that a breakdown in communication was a contributing factor to the incident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.

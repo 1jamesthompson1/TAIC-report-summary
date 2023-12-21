@@ -1,0 +1,1406 @@
+﻿ 
+ 
+     
+ 
+ 
+Final  report   
+Tuhinga whakamutunga  
+ 
+Aviation inquiry  AO-2020-002 
+Glider , Schleicher ASK21 , ZK-GTG 
+Impact with Terrain  
+Mount Tauhara, Taupō  
+31 May 2020  
+ 
+ 
+ 
+ 
+ 
+ 
+November  2023   
+
+ 
+  
+ 
+Page i The Transport Accident  Investigation Commission  
+Te Kōmihana Tirotiro Aituā Waka  
+No repeat  accidents - ever!  
+"The principal purpose of the Commission shall be to determine the circumstances and 
+causes of accidents and incidents with a view to avoiding similar occurrences in the future, 
+rather than to ascribe blame to any person."  
+Transport Accident Investigation Commission Act 1990 , s4 Purpose  
+ 
+The Transport Accident Investigation Commission is an independent Crown entity and 
+standing commission of inquiry. We investigate selected maritime, aviation and rail accidents 
+and incidents that occur in New Zealand or involve New Zealand -registered aircr aft or 
+vessels.  
+Our investigations are for the purpose of avoiding similar accidents in the future. We 
+determine and analyse contributing factors, explain circumstances and causes, identify safety 
+issues, and make recommendations to improve safety.  Our findings cannot be used to 
+pursue criminal, civil, or regulatory action.  
+At the end of every inquiry, we share all relevant knowledge in a final report. We use our 
+information and insight to influence others in the transport sector to improve safety, 
+nationally and internationally.  
+ 
+Commissioners  
+Chief Commissioner     Jane Meares  
+Deputy Chief Commissioner    Stephen Davies Howard  (Recused)  
+Commissioner      Richard Marchant (until 31 October 2022)  
+Commissioner      Paula Rose, QSO  
+Commissioner  Bernadette Roka Arapere (from 1 December 
+2022)  
+Commissioner      David Clarke (from 1 December 2022)  
+Assessor      Christopher Thorpe  
+ 
+Key Commission personnel  
+Chief Executive     Martin Sawyers  
+Chief Investigator of Accidents    Naveen Kozhuppa kalam  
+Investigator -in-Charge  for this inquiry  Barry Stephenson  
+Commission General Counsel    Cathryn Bridge  
+ 
+Page ii Notes about Commission reports  
+Kōrero tāpiri ki ngā pūrongo  o te Kōmihana  
+Citations and referencing  
+The citations section of this report lists public documents. Documents unavailable to the 
+public (that is, not discoverable under the Official Information Act 1982) are referenced in 
+footnotes. Information derived from interviews during the Commission's inquir y into the 
+occurrence is used without attribution.   
+Photographs, diagrams, pictures  
+The Commission owns the photographs, diagrams and pictures in this report unless 
+otherwise specified . 
+Verbal probability expressions  
+For clarity, the Commission uses standardised terminology where possible.  
+One example of this standardisation is the terminology used to describe the degree of 
+probability (or likelihood) that an event happened, or a condition existed in support of a 
+hypothesis. The Commission has adopted this terminology from the Intergovernmental Panel 
+on Climate Change and Australian Transport Safety Bureau models. The Commission chose 
+these models because of their simplicity, usability, and international use. The C ommission 
+considers these models reflect its functions. These functions include making findings and 
+issuing recommendations based on a wide range of evidence, whether or not that evidence 
+would be admissible in a court of law.  
+ 
+Terminology  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+ 
+  
+ 
+Page iii He Whakamihi  
+Acknowledgment  
+ 
+E mihi ana te Kōmihana ki a Tauhara Maunga, ōna  tāngata, me te iwi o Ngāti Tūwharetoa i 
+mahi tahi i raro i te rangapū me te Kōmihana i te uruparetanga ki tēnei aituā. Ka mihi hoki 
+ngā Kaikōmihana ki te Tarahiti mō Tauhara Maunga, te kaitiaki o Tauhara Maunga i runga i 
+te mōhio he tipuna maunga tēnei nō  ngā hapū o Tauhara. E whakamaioha ana te Kōmihana 
+mō te āwhina kia uru atu ki taua wāhi, me te tautoko kia arohia te tikanga i te 
+whakahaeretanga o tana whakatewhatewha.  
+  
+The Commission acknowledges Tauhara Maunga , its people, and the people of Ngāti 
+Tūwharetoa for their partnership in responding to this tragic event. The Commissioners 
+thank the Tauhara Mountain Trust, the kaitiaki for Tauhara Maunga which it recognises as an 
+ancestor for ngā hapū o Tauhara. The Co mmission extends their appreciation for assistance 
+in access to the site and support to conduct its investigation in a culturally appropriate way.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Page iv | Final Report AO-2020 -002  
+Figure  1: Alexander Schleicher ASK21 Glider, ZK -GTG 
+(Credit: Taup o Gliding Club )  
+
+ 
+ Final Report AO-2020 -002 | Page v Figure 2: Location of accident  - Mount Tauhara near Taupō  
+(Credit: LINZ Topo map)  
+Taupo Gliding Club  
+base 
+Mount Tauhara, 
+Taup ō 
+ 
+Page vi | Final Report AO -2020 -002 Contents  
+Rārangi take  
+ 
+1 Executive summary ................................ ................................ ................................ ........................  1 
+What happened  ................................ ................................ ................................ ................................ ...............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
+What we can learn  ................................ ................................ ................................ ................................ ..........  1 
+Who may benefit  ................................ ................................ ................................ ................................ ............  2 
+2 Factual information  ................................ ................................ ................................ .......................  3 
+Narrative ................................ ................................ ................................ ................................ .............................  3 
+Personnel information  ................................ ................................ ................................ ................................ .. 4 
+Aircraft information  ................................ ................................ ................................ ................................ ....... 5 
+Meteorological information  ................................ ................................ ................................ ........................  6 
+Communications and aids to navigation  ................................ ................................ ...............................  6 
+Aerodrome information  ................................ ................................ ................................ ...............................  6 
+Recorded data  ................................ ................................ ................................ ................................ ..................  6 
+Site and wreckage information  ................................ ................................ ................................ .................  7 
+Ridge soaring  ................................ ................................ ................................ ................................ ...................  8 
+Soaring the ridges on Mount Tauhara  ................................ ................................ ................................  10 
+Medical and pathology information  ................................ ................................ ................................ ..... 11 
+Organisational information  ................................ ................................ ................................ ......................  11 
+Trial flights  ................................ ................................ ................................ ................................ ......................  12 
+3 Analysis  ................................ ................................ ................................ ................................ ....... 13 
+Introduction  ................................ ................................ ................................ ................................ ...................  13 
+What happened  ................................ ................................ ................................ ................................ ............  13 
+Avenues of inquiry  ................................ ................................ ................................ ................................ ...... 13 
+Airworthiness  ................................ ................................ ................................ ................................ .................  13 
+Weight and balance  ................................ ................................ ................................ ................................ .... 14 
+Medical  ................................ ................................ ................................ ................................ ............................  14 
+Flight path over Mount Tauhara  ................................ ................................ ................................ ............  14 
+Glider positioning relative to the mountain  ................................ ................................ ......................  15 
+Speed control  ................................ ................................ ................................ ................................ ................  16 
+Control of glider  ................................ ................................ ................................ ................................ ...........  17 
+Pilot competency associated with ridge soaring  ................................ ................................ .............  17 
+Other factors  ................................ ................................ ................................ ................................ ..................  18 
+ 
+ Final Report AO -2020 -002 | Page vii Conclusion  ................................ ................................ ................................ ................................ ......................  18 
+Other factors that affect safety  ................................ ................................ ................................ ...............  18 
+Instructor training at Taupō  ................................ ................................ ................................ .....................  18 
+Competency reviews  ................................ ................................ ................................ ................................ ... 18 
+GNZ audits  ................................ ................................ ................................ ................................ ......................  19 
+4 Findings  ................................ ................................ ................................ ................................ ....... 21 
+5 Safety issues and remedial action  ................................ ................................ ..............................  22 
+General ................................ ................................ ................................ ................................ .............................  22 
+Safety issues ................................ ................................ ................................ ................................ ...................  22 
+Pilot competency associated with ridge soaring  ................................ ................................ .............  22 
+Instructor training at Taupō  ................................ ................................ ................................ .....................  22 
+6 Recommendations  ................................ ................................ ................................ .......................  24 
+General ................................ ................................ ................................ ................................ .............................  24 
+New recommendations  ................................ ................................ ................................ .............................  24 
+7 Key lessons  ................................ ................................ ................................ ................................ ... 26 
+8 Data summary  ................................ ................................ ................................ ..............................  27 
+9 Conduct of the inquiry  ................................ ................................ ................................ ................  28 
+Abbreviations  ................................ ................................ ................................ ................................ ....... 29 
+Glossary  ................................ ................................ ................................ ................................ ....... 30 
+Citations  ................................ ................................ ................................ ................................ ....... 31 
+Appendix 1  Centennial Park Aerodrome  ................................ ................................ .......................  32 
+Appendix 2  Beaufort scale  ................................ ................................ ................................ ..............  33 
+Appendix 3  Glider launch trend data 2006 -2020  ................................ ................................ ..........  34 
+Appendix 4  Requirements for passenger flights  ................................ ................................ ...........  35 
+ 
+Figures  
+Figure 1: Alexander Schleicher ASK21 Glider, ZK -GTG ................................ ................................ ..... iv 
+Figure 2: Location of accident - Mount Tauhara near Taupō  ................................ ............................  v 
+Figure 3: Likely glider path immediately before impact  ................................ ................................ .... 3 
+Figure 4: Glider impact path (looking south)  ................................ ................................ ......................  7 
+Figure 5: Left -wing tip damage  ................................ ................................ ................................ ............  7 
+Figure 6: Wreckage and impact path (red arrow) - top of photo is north  ................................ ....... 8 
+Figure 7: Using ridge lift  (Graphic copied from a Gliding New Zealand training document)  ....... 9 
+Figure 8: Mount Tauhara  ................................ ................................ ................................ ....................  10 
+Figure 9: Estimated ridge soaring beats for the first flight, from video (Base picture from 
+Google Earth Pro)  ................................ ................................ ................................ ................................  15 
+ 
+Final Report AO-2020 -002 |  
+<< Page 1 >>
+ 1 Executive  summary  
+Tuhinga whakarāpopoto  
+What happened  
+1.1 On 31 May 2020, a n instructor  from the Taupo Gliding Club  conducted a trial flight  
+with a short -term member (the student ). The flight was the second of the day for the 
+instructor , who had previously flown a similar trial flight with another short -term 
+member . 
+1.2 The instructor  flew over the Mount Tauhara walking track near the southeastern face of 
+the mountain. The glider was  observed by witnesses walking the track  from  near the 
+trig station  on the summit . The glide r was last seen flying past the trig  station  at about 
+the same height  as the trig  station , but on the downwind side  and with the left wing 
+down . The witnesses saw and heard t he glider's left wing strike scrub  and, as it 
+subsequently went out of their sight , they heard further sounds of impact . Neither  
+occupant survived the  accident . 
+Why it happened  
+1.3 The Transport Accident Investigation  Commission found that the glider impacted 
+terrain while the instructor  was likely  attempting to escape from a situation where the 
+glider  was at a low height above the mountain and downwind of the ridge face. 
+Despite the instructor's efforts to manoeuvre  the glider away from rising terrain on the 
+right -hand side, a collision with the terrain became unavoidable.  
+1.4 The Commission found that the Taupo Gliding Club  had limited systems in place to 
+positively verify that pilots had an appropriate level of competency to soar on Mount 
+Tauhara . 
+1.5 The Commission also found that the Taupo Gliding Club  procedures for instructor 
+training and ongoing competency were not in accordance  with Gliding New Zealand 's 
+Manual of Approved Procedures .  
+1.6 The Commission made two safety recommendations : 
+• One to the Taupo Gliding Club  to develop a system to ensure local instructors 
+are able to positively verify that pilots have appropriate level s of competency 
+to ridge soar on Mount Tauhara and safely conduct training flights on the 
+ridge .  
+• One to Gliding New Zealand to review how gliding club instructors are trained 
+and clubs are audited, and then take corrective action to ensure that all new 
+instructors are consistently trained to the standards set out in the Manual of 
+Approved Procedures .  
+What we can learn  
+1.7 Ridge soaring has inherent risks due to factors such as turbulent wind conditions, 
+unpredictable updrafts and  proximity to terrain , and pilots must be competent in the 
+correct techniques in order to manage these risks.  
+ 
+
+<< Page 2 >>
+ Final Report AO-2020 -002 1.8 Trial flights should be conducted in environment s that meet the intent of the flight s 
+without introducing unnecessary risk s. 
+Who may benefit  
+1.9 Gliding clubs, glider pilots , instructors and personnel involved with glider flying 
+activities and aviation regulation within New Zealand will benefit from this report.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 3 >>
+ 2 Factual information  
+Pārongo pono  
+Narrative  
+2.1 At 141 6 on 31 May 2020 ,1 an ASK21 G lider, registered ZK -GTG (the glider), owned and 
+operated by the Taupo Gliding Club  (the club) , departed from the Centennial Park 
+aerodrome  for a 'trial flight ', the second one that day. This type of flight is used by 
+gliding clubs to introduce potential new members to the sport. On board was an 
+instructor (the instructor ) and a member of the public who had joined the club  as a 
+short -term  member  for a trial flight (the student2). 
+2.2 The glider was aerotowed3 to an altitude of  5000 feet  above mean sea level (amsl) , a 
+launch height  of about 3500 feet above the ground level , and released from the tow 
+plane over the northern region  of the Taup ō township. Sometime a fter the release, the 
+instructor  flew south to the south eastern  face of Mount Tauhara  (see Figure 8 for an 
+orientation of the mountain) . 
+2.3 Some walkers on the mountain track  reported that they observed the glider  flying 
+above the south eastern face of Mount  Tauhara  near to points on the ground locally 
+ 
+1 All times in this report are New Zealand Standard Time (NZ ST). 
+2 The report uses the term 'student' to label the person in the front seat of the glider involved in this accident. 
+Gliding New Zealand Advisory Circular 1 -04 Trial Flights refers to them as a student who is a short -term member 
+of a club. That person is defined as a 'crew membe r' under the C ivil Aviation Rules (CARs) . The report's use of the 
+term 'student' should not be confused with a 'student pilot' under the CARs, its being a role not applicable here.  
+3 A powered aeroplane tows the glider with a rope attached to specially designed towing hooks.  Figure 3: Likely  glider path immediately before impact   
+(Base picture from Google Earth Pro)  
+
+ 
+
+<< Page 4 >>
+ Final Report AO-2020 -002 known as Rocky Point and The Trig. Some of these witnesses reported later that they 
+saw the glider fly in a northerly direction to the west of the trig station at the 
+mountain 's peak and then descend and impact with terrain just below  the trig station  
+(see Figure 3). Timing from various sources confirm ed that the accident occurred at 
+about 1433.   
+2.4 Emergency services were called and some people on the mountain went to assist . 
+Neither  the instructor  nor the student  survived the accident .  
+2.5 The accident flight was the second trial flight that day  with the same instructor . The 
+first flight had taken off at 1338 and landed at 1408. The student  in the first flight had 
+taken photogra phs and video during that flight.  
+2.6 The normal plan for trial flights at Taupō  was an aerotow launch to 5000 f eet amsl  
+followed by a flight of 20-30 minutes ' duration . They were  intended to  provide 
+student s with an opportunity to take the controls and get used to the experience of 
+flying in a glider.  
+Personnel  information  
+2.7 The instructor  had started learn ing to fly  gliders in England in 1975 , then stopped in 
+1979  with about 63 hours ' total experience , which included some cross -country  flights.  
+They had recommenced training 35 years later , in New Zealand in 2014 . They  had had 
+the option of having their past gliding experience  recognised4 but had chose n to 
+restart training as a trainee glider pilot in New Zealand  under  the current training 
+scheme  with a new logbook . This would take them through  the A and B certificates  to 
+being a qualified glider pilot . 
+2.8 The instructor  had been  predominantly living in the Northern H emisphere , but had 
+recently been following the global summer  with residence s in both hemisphere s. From 
+2014 they had travel led between New Zealand , England  and France , flying  gliders in all 
+three countries  and using their New Zealand logboo k to record their flight time s. They 
+were  a member of the club and flew at Centennial Park  when in New Zealand.   
+2.9 The instructor  had a New Zealand medical certificate  type DL95, which was current to 
+November 2020 . They  had gained a New Zealand Qualified Glider Pilot certificate in 
+March 201 5 and a passenger rating in December 2016 . In 20 17 they had completed a 
+'Silver ' badge award6 in France  with the cross -country  distance leg . 
+2.10 The instructor  had started training to be  an instructor with the club towards the end of 
+2015  and had gained a 'C' Category instructor rating on 20 February 2018. They had 
+been upgraded to a 'B' Category instructor  rating  by the club 's instructor trainer  on 8 
+March 2019  and their gliding Biennial Flight Review (BFR) was current at the time of the 
+accident  (see Table 1 below).  
+2.11 The instructor  had also learnt to fly powered aircraft from 1989 and had contin ued to 
+fly these , gainin g a private pilot licence (PPL)  and a glider towing rating valid in France 
+ 
+4 The total gliding time shown in Table 1 includes experience recorded in England . It is the corrected amount after 
+reconciling a double entry  by the pilot.   
+5 New Zealand Transport Agency Waka Kotahi, Medical certificate for Driver Licence, form DL9.  
+6 A Silver badge award by the Fédération  Aéronautique  Internationale  has three parts that can be obtained in one 
+flight or separately: a minimum height gain, a minimum duration flight and a minimum cross -country distance 
+flight.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 5 >>
+ and New Zealand . They had also obtained an instrument and aerobatic rating  for 
+powered aircraft.   
+Table 1: Instructor 's flight experience  
+ Total time  Last 90 days  BFR current to  
+Gliding 
+experience  319.3 hrs 10 hr 54 
+mins 20/1/21  
+Powered 
+experience  477.2 hrs 1 hr 10 min s 22/3/20  
+Aircraft information  
+2.12 The glider was a two -seater  Alexander Sc hleicher  GmbH and Co . ASK 21 . It was 
+manufactured in November 2009. The club purchased the aircraft new and registered it 
+with the Civil Aviation Authority  of New Zealand  (CAA)  as ZK -GTG.   
+2.13 The glider was issued with a Certificate of Airworthiness  by the CAA on 12 January 
+2010. Its last maintenance  inspection  was performed on 5 January 2020 . It had 
+accumulated 3027 flight hours as recorded in the logbook on 21 March 2020 . 
+2.14 The last Annual  Review  of Airworthiness was issued on 23 October 2019. All 
+maintenance on the glider was current , but the 24 -month Avionics (and Instrument) 
+Inspection7 was due on the day before  the accident and had not been conducted . 
+2.15 All the applicable Airworthiness Directives and Service Bulletins were found 
+incorporated or complied with at the time of the accident  date. 
+2.16 The glider had a current weight and balance certificate  with an empty weight of 392.9 
+kilograms  (kg), and a minimum cockpit weight of 75 kg was permitted in the front seat . 
+The glider's flight manual stated a maximum of 110 kg was permitted in each seat. 
+2.17 The glider had a maximum take-off weight of 600 kg. The cockpit loading must  not 
+exceed the aircraft take -off weight limit and it must be distributed to maintain aircraft 
+balance  within the range of acceptable movement for the centre of gravity , from 234 
+millimetres  (mm) aft of datum for the heaviest load back to 469 mm aft of datum8 for 
+the lightest load.  
+2.18 The glider was fitted with a mechanical variometer system with an indicator in the front 
+cockpit instrument panel. An elect ric variometer with audio  was also installed  with 
+display s in the front and back cockpits . When switched on, t he audio  emitted a tone 
+that change d in pitch , depending  on whether the glider was experiencing lift or si nk9 
+conditions . This allowed the pilot to focus their attention outside while soaring and to 
+see and avoid other gliders in thermals . It was controlled from the front -seat position  
+where the student  was seated . The audio was selected off for the two trial flights.  
+2.19 It is standard practice  for gliders in New Zealand to carry dail y inspection book s. They 
+are used to meet the Civil Aviation Rule ( CAR) requirement10 for a technical log  to be 
+ 
+7 This inspection included an altitude encoder and an air traffic control (ATC) transponder unit used to show the 
+glider's position and altitude to the ATC when in controlled airspace.  
+8 The datum point for the ASK 21 is at the leading edge of the wing.  
+9 Sink is the opposite of lift. It is air flowing downwards towards the ground.  
+10 CAR Part 104.113  Technical Log - the requirements for this are met by using GNZ form TECH 19a and the 
+yellow DI book.  
+ 
+
+<< Page 6 >>
+ Final Report AO-2020 -002 carried in an aeroplane for pre-flight plan ning. The daily insp ection book for this 
+aircraft was usually stowed in a side pocket in the rear cockpit , but was not found  with 
+the wreckage  or at the club pre mises.  
+Meteorological  information  
+2.20 The MetService forecast for the area on the afternoon of 31 May 2020 was nil 
+significant cloud or wind with a 30 k ilometre  visibility. The forecast wind for Central 
+Plateau at 3000  feet was 070  degrees (°) true11 at 15 knots ( kt) and at 5000 f eet it was 
+060° true at 10 kt. The observed  cloud formation consisted of high cirrus cloud cover 
+and a lower layer of scattered cumulous clouds, with a local cloud base height of 
+around 4800 feet.  
+2.21 The automatic weather station at Taupō  aerodrome recorded the wind at 1530 on that 
+day as being 110 ° true at 13 kt. 
+2.22 The wind at the club site, from photo graph s of the windsock , was approximately 
+aligned with Runway 07 at about 15 kt, which is from 090° true. 
+2.23 The wind strength and direction at Mount Tauhara on the day was estimated from : 
+witness reports  and; the crabbing12 angle as observed in the first student's GoPro 
+video, that the glider flew to maintain track over the ridge.  The estimated wind  
+strength was 12-16 kt from about  120° true.  
+Communic ations and aids to navigation  
+2.24 The glider was fitted with a single , very-high-frequency  transmitter/receiver radio . It 
+had multi ple channels and was selected to the Centennial Park aerodrome  frequency . 
+2.25 The glider was fitted with an altitude encoder and transponder , but was not required to 
+have an emergency locator t ransmitter  and none was fitted.  
+Aerodrome information  
+2.26 The club operate s from the Centennial Park aerodrome located north of Mount 
+Tauhara  and east of Taupō . It is an unattended and non-certified  aerodrome at an 
+approximate elevation  of 1500  feet amsl. The aerodrome has a  grass strip with two 
+vectors . On the day of the accident , gliders were taking off on Runway  04 with a slight 
+crosswind from the right and  landing directly into wind on  Runway  07.  
+Recorded data  
+2.27 No flight track information was available  for the accident flight.   
+2.28 Video  of the first tr ial flight was obtained  from the first student 's GoPro . It was possible 
+that the student  in the accident flight took photos or video s on their cell phone , but no 
+data could be recovered from it. 
+  
+ 
+11 A bearing relative to the Geographical North Pole rather than the Magnetic North Pole. At Taupō  in 2020 it was 
+21° east of the Magnetic North Pole. 
+12 A technique to compensate for a crosswind during flight to maintain a desired track over ground.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 7 >>
+ Site and wreckage information  
+2.29 The glider's flight path immediately before impact , as confirmed by witness  reports and 
+ground impact scars, was at a height that was about level with the trig station and 
+slightly to the west. The glider was seen heading in a northerly direction ( see Figure 3). 
+Along the glider's flight path , the ground level dropped away to a crater valley . That 
+valley ended at a saddle at the edge of the mountain .  
+2.30 The wreckage was located on Mount Tauhara approximately 110 metres north and 60 
+metres below  the trig station ( see Figure 4). The first part of the glider to impact the 
+terrain was the left wing  tip (see Figure 5). It cut a clearly defined left-hand , curved slice 
+through the scrub and bush canopy  (the red curved line in  Figure 4). The glider 
+fuselage impacted later during the accident sequence  (near the arrowhead in Figure 4) 
+in an almost vertical nose -down attitude .  
+ 
+ 
+Figure 5: Left -wing tip  
+damage  
+Figure 4: Glider impact path (looking south ) 
+ 
+
+<< Page 8 >>
+ Final Report AO-2020 -002 2.31 The glider continued to slide through the bush , with the right wing leading and the 
+fuselage near vertical until the right wing  lodged in a tree trunk . The fuselage fell back 
+slightly , twisting the right wing . The tail section broke off just aft of the wings  as the 
+glider came to rest in the bush  (see Figure 6). 
+Ridge soaring  
+2.32 Ridge soaring is a technique glider pilots use to gain altitude  from a wind flow that has 
+been deflected upwards when it  flows over hills . If the glider can remain flying in the 
+rising air it may gain altitude . When the wind  is flowing perpendi cularly to the h ill or 
+ridge line , the glider can be flown  along the ridge and the pilot can convert height gain 
+to forward speed  and distance  (see Figure 7).  
+Figure 6: Wreckage and impact path (red arrow) - top of photo is north  
+ 
+ 
+Final Report AO-2020 -002 |  
+<< Page 9 >>
+  
+ 
+2.33 A glider pilot needs to maintain a forward airspeed so the y fly along the face of a ridge 
+then turn and travel back the other way  (in beats  or regular strokes) . The flight path 
+loosely follows a figure -eight shape , with all turns away from th e ridge and out into the 
+wind. The lift is strongest slightly upwind of the ridge face , as shown in Figure 7. 
+2.34 The pilot  will crab slightly  (fly sideways)  into wind  along each beat to maintain a 
+position relative to the ridge face and the lift. If the glider's air speed is allowed to drop , 
+the glider will drift downwind.  Drifting downwind of a ridge could mean that the pilot 
+no longer has  the height available to convert to airspeed in order to fly back into wind 
+to the area of lift. The wind speed over the ridge top may also increase near the 
+ground due to the venturi  effect,13 making an into-wind flight path more difficult from 
+close to the ridge top.  
+2.35 A list of safety princip les was published in Gliding New Zealand 's (GNZ's) Advisory 
+Circular  (AC) 2-13 Mountain & Ridge Soaring Safety Principles14. Summarised k ey 
+point s are: 
+• safe speed : Always maintain a safe speed near the ground . (GNZ promote d at 
+least three methods for calculating a safe speed,  and they all ensure d a safe 
+margin was maintained above stall speed)  
+• turn away : Always make the first turn away from the ridge  
+• escape route : Always have an escape route planned that leads to lower terrain 
+immediately, with  a safe landing area  
+ 
+13 See plane tary boundary layer (Skybrary, 2023)  and Bernoulli's Principle (Skybrary, 2023,1) . 
+14 This AC was published a month before the accident . Figure 7: Using ridge lift  
+(Graphic copied from a Gliding New Zealand training document)  
+Disturbed  
+airflow  
+Poor lift zone  
+ poor lift zone  
+disturbed  
+airflow  
+clean airflow  
+good lift zone  
+ 
+
+<< Page 10 >>
+ Final Report AO-2020 -002 • dangerous hill tops : Beware of flying low and slow over gently contoured hill 
+tops that have wide , rounded areas . If you need to escape, you may not be 
+able to out -glide the terrain.   
+Soaring the  ridges on Mount Tauhara  
+2.36 Whichever direction the wind blows at Taupō , it may be possible to soar on one of the 
+ridge  faces  of Mount Tauhara  when the wind strength gets above about 12 kt. Unlike  a 
+traditional ridge as shown in Figure 7, Mount Tauhara  is approximately conical . The 
+conical shape presents an obstacle to the wind , which then follows the path of least 
+resistance  over or around it . That could be left or right rather than up and over  the top , 
+and consequently ridge lift at Mount Tauhara can be confined to narrow ba nds 
+(sometimes  called fingers ) and be associated with turbulence.  
+2.37 Mount Tauhara has four main faces that can be soared ( see Figure 8): the north face 
+near the club's base, the southwestern face near the township, the eastern face near a 
+quarry , and the southeastern or back ridge on the opposite side of the mountain from 
+the base. Some faces produce stronger lift than others a nd some are shorter in length. 
+If the wind changes ( in either direction or strength) the lift may also increase or reduce 
+or shift to a different face.  
+2.38 The wind was from the southeast on the day of the accident , as shown with the blue 
+arrow  in Figure 8. The approximate glider flight path on the ridge runs , as determined 
+from the video of the first flight , is shown as a red double -pointed line. 
+ 
+Figure 8: Mount Tauhara  
+ 
+
+ 
+Final Report AO-2020 -002 |  
+<< Page 11 >>
+ Medical and pathol ogical  information  
+2.39 The instructor 's medical history did not contain anything of significance  to the 
+accident .  
+2.40 The pathologist's  autopsy report showed nothing remarkable  with the instructor . It 
+identified the presence of hyper tensive disease . There was no evidence of recreational 
+drugs or alcohol  use. 
+2.41 The autopsy report for the student  found no evidence of recreational drugs or alcohol 
+use. 
+Organisational information  
+2.42 Gliding operations in New Zealand must be  conducted in accordance with CAR Part 
+104. This sets out the minimum require ments  for gliding activities and operations , and 
+any exemptions for gliding activit ies otherwise required  by other rule parts.   
+2.43 GNZ is the aviation recreational  organisation certified under CAR Part 149  to oversee  
+gliding operations in New Zealand . Part 149  sets out the requirement for the 
+organisation to have  a management structure and a documentation system  to ensure 
+that gliding operations are conducted in a safe manner . GNZ's exposition describes  
+how the organisation is to be managed  to achieve the objective of CAR Part 149. Key 
+documentation is the GNZ Manual of Approved Procedures (MOAP)15 and GNZ's  ACs.16 
+2.44 Most glider pilots in New Zealand are members of gliding club s under the umbrella of 
+GNZ. The GNZ President and National Operations Officer (NOO) issue glider pilot 
+certificates and glider instructor ratings17 under delegation from the Director of Civil 
+Aviation New Zealand . 
+2.45 A gliding club must become affiliated to GNZ if it wishes to operate under GNZ's Part 
+149 certificate. Club members must operate in accordance with GNZ's MOAP . Affiliated 
+clubs have  their own sets of rules and operating procedures  that require  their 
+members to comply  with the GNZ MOAP . GNZ audit s affiliated member clubs to 
+ensure compliance with GNZ procedures and provide s Regional Operations Officers 
+(ROO s) to interact with the clubs on a regular basis.  The club was an affiliated member 
+of GNZ.  
+2.46 Gliding is a recreational sport . All positions of responsibility  within GNZ and individual 
+gliding clubs  are held by volunteers .  
+2.47 The CAA audits GNZ , and also samples affiliated clubs , to ensure GNZ operations are 
+compliant  with CAR Part 149.   
+2.48 Commercial  glider operations18 are only permitted to take passenger flights under CAR 
+Part 115 . Under this rule part, a certificated operator must use glider pilots who hold 
+commercial glider pilot licence s (CPL(G) s) to take commercial glider flights . At the  time 
+of the accident  there were  no commercial glider operations active in New Zealand.  
+ 
+15 Current at the time of the accident , MOAP AL32, effec tive date: 22 October 2019.  
+16 The GNZ Advisory Circulars provide advice to affiliates on how to comply with the requirements of the MOAP. 
+They may also provide information of a more general nature.  
+17 Pilot certificates and ratings are issued by GNZ , whereas licences are issued by the CAA ( see Glossary) . 
+18 A commercial glider operation is  a flight for the ca rriage of passengers or goods for hire or reward.  
+ 
+
+<< Page 12 >>
+ Final Report AO-2020 -002 2.49 CARs  also provide for both private and commercial glider pilot licences  to be issued 
+directly by the CAA. These types of licence  require each pilot to have completed a 
+specific training sy llabus and then tested by an independent organisation contracted 
+to the CAA to conduct flight examinations . A CPL(G) is required before a pilot can take 
+passengers or goods for hire or reward . It requires the pilot to have a Class 1 CAA 
+medical. Alternatively,  a glider pilot may apply for a private  pilot glider licence PPL(G) , 
+under which they are only require d to have  a Class 2 CAA medical.   
+2.50 In June 2023  the CAA database showed that there were 13 people in New Zealand with 
+CPL(G) licence s19 and 1 5 people with PPL (G) licence s.20  
+Trial flights  
+2.51 Trial flights assist  gliding clubs to attract new members  by providing them with a 
+means to conduct introductory  instructional  flight s with member s of the public . Trial 
+flights are conducted under GNZ A C 1-04 Trial Flights. The AC states  that "overt 
+advertising of glider  flights as  'joy rides ' or 'scenic ' is not appropriate".    
+2.52 Trial flights must be conducted  for a legitimate or 'bonafide'  reason , with the express 
+intention of attracting new members  to a club. The Transport Accident In vestigation 
+Commission (Commission) analysed  glider launch trends from a sample survey of New 
+Zealand clubs to understand more about the use of trial flight  activity . The results of 
+the survey were inconclusive. The data  indicated a relatively low conversion rate of 
+short -term  club members to full club members ; however , the reason s for this could not 
+be interpreted in any meaningful way.   
+2.53 GNZ statistics showed that in 2020 there were approximately 11,6 00 reported glider 
+launches in New Zealand. Of those launches , approximately 7000  (60 per cent ) were 
+club dual and solo launches and approximately 1 100 (10 per cent ) were trial flights. The 
+remaining launches were private -owner -related flights - 3500 (30 per cent ) (see 
+Appendix 3 ). 
+ 
+ 
+19 Of which only three held current Class  1 CAA medical s to allow them to operate  in that capacity . 
+20 Of which only four held current Class  2 CAA medical s to allow them to operate in that capacity.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 13 >>
+ 3 Analysis  
+Tātaritanga  
+Introduction  
+3.1 This accident occurred during what should have been an uneventful  trial flight 
+intended  to introduce a student  to a new experience of flying in a glider . The flight  was 
+conducted at an altitude  and distance from the aerodrome that would have ensured  
+enough height over the general terrain to allow for an uneventful  glide back to the 
+aerodrome . The glider was seen flying above the walking track on Mount Tauhara and 
+then later as it flew past the trig  station  immediately before it impacted the mountain . 
+The accident  site was approximately  2000 feet above the aerodrome and easily within 
+gliding distance at 4 kilometres away .  
+3.2 The following section analyses the circumstances surrounding the event to identify 
+those factors  that increased the likelihood of the event occurring or increased the 
+severity of its outcome. It also examines any safety issues  that have the potential to 
+adversely affect future operations.  
+What happened  
+3.3 The glider departed  from the club's base for the second trial flight of the day  at about 
+1416.   
+3.4 At about 1435 , witnesses saw the glider fly past the trig  station at about the same 
+height as the trig  station  (see Figure 3). It had approached from  Rocky Point and was to 
+the west of the ridge that ran between the trig  station  and Rocky Point . It was heading 
+in a northerly direction. Several witnesses recalled that the left -hand wing was much 
+lower than the right  as it passed the trig station , and those  at the trig station recalled 
+the glider being very low and close to them  as it flew past .  
+3.5 The glider then impacted the mountain  in a left-wing -down attitude, soon after 
+passing the trig stat ion.  
+Avenues of inquiry  
+3.6 The Commission considered several potential contributing factors for the glider 's 
+impacting the mountain . These  are discussed below.  
+Airworthiness  
+3.7 The glider was reportedly airworthy when it departed from the aerodrome . The daily 
+inspection book was not found with the wreckage or at the club premises. Based on 
+the damage to the glider cockpit area, it is very likely  that the book fell out during the 
+accident sequence and was lost at the accident sit e. Without the daily inspection book , 
+the Commission  was unable to verify that the daily pre -flight  inspection had been 
+completed. The club manager reported seeing the accident instructor conduct the daily 
+pre-flight inspection,  so it was very likely  that it had been completed and signed.   
+3.8 The aircraft logbook showed that all checks and maintenance had been completed  as 
+required  when due , except for the avionics  inspection , which had expired  the day 
+ 
+
+<< Page 14 >>
+ Final Report AO-2020 -002 before . The overdue avionics inspection would not have affect ed the safety of the 
+flight.  
+3.9 The first trial flight of the day was rec orded on video by the student on  board that 
+flight , and it showed that the glider was operating normally. The front seat's  
+mechanical variometer had been working but became stuck on maximum lift  at some 
+point  during the first flight , then subsequently released while the glider was on the 
+landing roll . The instructor  had turn ed on the electric variometer without the audio and 
+the student's video showed that it was working.  Neither of the variomet ers was 
+essential for the flight.  
+3.10 It is therefore very likely  that the glider was airworthy  on the day  of the accident flight  
+and immediately before its impact with the mountain .  
+Weight and balance  
+3.11 A glider must be  operated within its certified weight and balance limits. Based on the 
+instructor 's and the student 's weights recorded by the pathologist, and the absence of 
+the club ballast weights normally placed under the front seat  cushion , the glider 
+weighed 572.9 kg on the accident flight. This was less than the maximum rated take -off 
+mass , and the front -seat load was above the minimum limit . The  calculated centre of 
+gravity for the accident flight was 344 mm aft of datum , which was within  the 
+acceptable range of movement.  
+3.12 Therefore, the glider weight and balance were very likely  within the acceptable weight 
+and balance limits at the time of the accident.  
+Medical  
+3.13 The instructor  had a current medical certificate to operate as both a gliding instructor 
+and a tow pilot. The autopsy report found evidence of hypertensive disease . The 
+Commission's medical advisor reviewed the auto psy report  and the instructor 's medical 
+records from the CAA, and discussed the instructor's records with the CAA's medi cal 
+examiner . There was no evidence to suggest pilot incapacitation.  
+3.14 It is very unlikely that medical factors contribute d to this accident.  
+Flight path over Mount Tauhara  
+3.15 A briefing  was conducted before the first trial flight ; it involv ed the club manager,  the 
+tow pilot, the accident instructor (who was also the club duty instructor  that day) and 
+another instructor. The club manag er's account of the briefing included discussing the 
+runway -in-use and flying conditions . The conditions at Mount Tauhara were also 
+discussed , with there being a 10 -12 kt wind over the east face. The club manager 
+recalled stating , "It would be better to stay over the airfield at 5000 feet21, as the east 
+face [Mount Tauhara ] could be a little rough ."  
+3.16 Video evidence of the first trial flight shows the glider  flew over Mount Tauhara during 
+the flight.  The instructor commented to the ground handler while on the ground 
+between the two t rial flights , that the ridge was working .22 The second trial flight, the 
+accident flight, was also fl own over Mount Tauhara.  
+ 
+21 The Commission clarified the intent of this sta tement with the club manager to be that trial flight s should be 
+conducted within the vicinity of the airfield.  
+22 'Working ' in this context means the ridge was producing lift.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 15 >>
+ 3.17 The Commission could not determine why the trial flight s were conducted over Mount 
+Tauhara , but the flight path as conducted increased the risk of an accident occurring.   
+Glider p ositioning  relative to the mountain  
+3.18 When flying near to a ridge , the position of the glider relative to the slope is important. 
+Pilots must be aware of the wind direction and where the lift is strongest and avoid 
+getting downwind of the ridge face. The glider must maintain an appropriate 
+component of into -wind speed near a ridge to maintain  a relative position over the 
+ground. If this component reduces, the glider will drift downwind.  
+ 
+ 
+Figure 9: Estimated ridge soaring beats for the first flight , from video  
+(Base picture from Google Earth Pro)  
+3.19 Pilots must maintain awareness of  gliders ' relative position s over ridge s, and alert to 
+areas of high risk . If a pilot allows a glider to get too close to the ridge or drift 
+downwind  of the crest , they need to respond promptly and have an escape route in 
+mind that leads to lower ground.  
+3.20 In the first flight, the instructor approached Mount Tauhara from the south over Rocky 
+Point then flew north and to the left of the trig  station  with 50 -100 f eet clearance 
+above the top of the mountain ( see Figure 9).  
+trig station  
+3570 f eet 
+Rocky  Point  
+crash site 
+ 
+
+<< Page 16 >>
+ Final Report AO-2020 -002 3.21 On the accident flight the instructor flew just downwind of the ridge face in the poor 
+lift zone  (see Figure 3 and Figure 7). The glider's very low height above the mountain 
+top reduced the instructor 's margin to manoeuvre the glider away from the mountain . 
+Additionally, t he downwind position resulted in  the glider flying in the wind shadow23 
+of the mountain , and being exposed to a more  disturbed airflow and possibly 
+turbulence . These factors very likely  contributed to the glider 's impact with the terrain.  
+3.22 It is unknown why the instructor allowed the glider to become positioned in such a way 
+that no safe escape options remained  (see Figure 3) . The proximity of the glider to the 
+terrain meant that any remaining margin of safety could very quickly reduce , 
+particularly if the airspeed were allowed to decrease .  
+3.23 Pilots can be distracted by a number of sources inside and outside the cockpit . 
+Alternatively, the y may become overly focused on a particular task  to the detriment of 
+a wider environmental scan.  Regardless, if an instructor's situational awareness24 is 
+compromised, either by their not perceiving subtle cues that the margins are reducing, 
+or by their not fully comprehending how the glider's current position would affect its 
+future dynamics , recovery from the situation would become increasingly difficult.  
+Speed control  
+3.24 The general formula taught by the club instructors at the time for deciding on the 
+minimum safe speed at which to fly near the ridge was : stall speed , plus 10 kt, plus ½ 
+the wind speed .25 The glider's stall speed was estimated at 39 kt from the table on 
+
+<< page 25 >>
+ of the Flight Manual , using the calculated centre  of gravity  with the crew at 
+the time .26 Therefore , with a wind speed of 15 kt, the minimum safe speed near the 
+ridge would have been 56 kt. A more recent version of the formula used by the club in 
+its training PowerPoint is: 1.5 x stall speed + ½ wind speed. The result for the ASK21 
+Glider with this formula would have been 66 kt.  
+3.25 While ridge flying and close to the ground, it is imperative for a glider pilot to 
+constantly monitor and control airspeed.  A glider pilot becomes skilled at detecting 
+instantaneous changes in airspeed by the feel of the controls and the sound of the air 
+flowing past the canopy. The airspeed indicator will lag slightly.   
+3.26 The Flight Manual27 describes the ASK21 Glider's low-speed flight and stall 
+characteristic as benign. Aileron28 control is still effective down to minimum speed29 to 
+maintain level wings , and normal rudder movement with up to 5 per cent yaw will not 
+lead to a wing drop. A rapid pitch increase of 30  per cent to initiate a stall does not 
+cause a wing to drop , but only a gentle drop of the nose. The sink rate will increase 
+near the stall and the effects of turbulence and wind gusts are unpredictable.  A slow 
+ 
+23 A space downwind of an obstacle where the wind flow is affected by the obstacle.  
+24 Situational awareness relates to an individual's understanding of their surroundings. This includes their 
+perception of data from their environment, comprehension of the meaning and significance of the situation, and 
+projection to future states and events.  
+25 The GNZ Moodle  training system for 'Safe Speed Near the Ground' (CAA audit of same , dated 2 June 2020).  
+26 This was calculated to be 337 mm aft of datum.  
+27 Revision TN23, 
+<< page 25 >>
+, section IV.6 . Low speed flight, wing dropping and spins.  
+28 A controllable hinged surface on the trailing edge of a wing, used to roll an aircraft around the longitudinal 
+axis. 
+29 In this sense, minimum speed refers to the speed being near the  minimum sink rate speed or to the stall speed.  
+They are both important for low-speed flight.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 17 >>
+ airspeed could therefore feel as if the controls were responsive,  but the glider would 
+be quieter than normal and sinking more quickly than usual . The sink rate is shown on 
+the variometer.  
+3.27 On the first flight t he instructor  had maintained an airspeed of near to 50 kt while on 
+the ridge , but had allowed it to reduce a few knots as the glider flew into rising air (lift). 
+At one point , when the instructor had allowed the student  to take the controls, the 
+glider's airspeed  had dropped  to 39 kt indicated (the estimated stall speed) as the 
+student  approached Rocky Point  with an indicated altitude of 3600 f eet. A significant 
+period of the first trial flight 's airspeed near the ridge  was at less than the club's 
+minimum safe speed  of 56 kt as calculated above .  
+3.28 There  was no data available for the accident flight , therefore the Commission could not 
+determine if speed control of the glider was a contributing factor   
+Control of gl ider 
+3.29 During t he first trial flight of the day , the student  was offered the controls soon after 
+release , and later they requested another go near the ridge. The instructor  agreed and 
+allowed the student  to have limited control for a short period , then to follow the 
+instructor 's movements.  
+3.30 The Commission could not determine if the student or the instructor was in control of 
+the glider at the time of the accide nt. 
+Pilot competency associated with ridge soaring  
+Safety Issue: The Taupo Gliding Club  had limited systems in place to ensure instructors could 
+positively verify that pilots had appropriate level s of competency to ridge soar on Mount 
+Tauhara and safely conduct training flights on the ridge. This increased the risk of an accident 
+occurring.  
+3.31 The instructor had a current 'B' Category instructor rating  and was qualified to conduct 
+this trial flight. At the time the instructor completed their training  at Taupō , the GNZ 
+syllabus comp rised  the basic manoeuvres and techniques required to fly a glider.  
+Techni ques such as ridge soaring were part of the 'B' certificate training  and were only 
+includ ed in a pilot 's training if the local terrain was suitable  for conduct ing such 
+activities . Sign-offs for ridge soaring techniques could involve  just a classroom lesson 
+and would be either noted in the pilot's logbook ( older -style logbook) or included in 
+the Qualified Glider Pilot  check list . Advanced soaring training was generally self-
+initiated , where a  pilot could seek specific experience at other clubs that had more 
+suitable terrain  for their desired type of  soaring  training .  
+3.32 Soaring in ridge lift at Mount Tauhara was part of initial flying training at Taupō  
+whenever the opportunity arose . The club had some safety guidance written into its 
+rules about flying around the mountain. The club records showed that formal training 
+documents had once been used to train pilots in the  use of ridge lift on each of Mount 
+Tauhara 's four faces . A model of the mountain was often used to demonstrate ridge 
+soaring technique s to pilots during ground training sessions.  
+3.33 Over time , and through members ' changing roles, ridge soar ing training became less 
+formalised . At the time of this accident there was no adequate system  in place  for 
+instructors to verify that pilot s had the appropriate level s of competency to ridge  soar 
+on Mount Tauhara  apart from the standard check lists in logbooks and syllabus 
+content sign -off for GNZ pilot achievement certificates .  
+ 
+
+<< Page 18 >>
+ Final Report AO-2020 -002 Other factors   
+3.34 The airbrakes were extended in the wreckage , as shown in Figure 6. These are typically 
+operated by a pilot pulling the airbrake handle rearwards from the locked position. It is 
+possible the instructor or student activated these . As the cockpit and all the control 
+linkages were severely disrupted in the accident , the airbrakes were very likely  
+extended by impact forces during the initial stages of the accident sequence.  
+3.35 There was no evidence a bird strike had occurred.  
+Conclusion  
+3.36 The lack of any formal  training for club pilots to soar on Mount Tauhara , and a sign -off 
+to verify that competency had been achieved, meant that the Commission was unable 
+to determine the instructor's ability to safely conduct the two trial flights over the 
+mountain.  
+3.37 The significant contributing factor to the accident was the choice of flight path over 
+Mount Tauhara and the execution of it. The glider 's position relative to the mountain, 
+at a very low altitude  and downwind of the trig station, reduced the options available 
+to the instructor, and increased the risk of an accident occurring.  
+Other factors that affect safety  
+Instructor training at Taupō  
+Safety Issue : The Taupo Gliding Club  did not ensure GNZ instructor training procedures were 
+fully implemented  and GNZ audits did not detect this discrepancy . This increased the risk that 
+instructors were not fully competent  in all required areas .  
+3.38 The club had a small and aging membership. It was run by a core group of volunteer 
+enthusiasts , often supported by their families , and the club environment also provide d 
+social  benefit s to its members . This is a typical situation in small gliding clubs in New 
+Zealand , where a clubs ' survival may depend on a few stalwarts  willing to fulfil the key 
+roles . The leading instructors in the club were in their 70s and the chief flying instructor 
+(CFI) was planning to hand over the role to the accident instructor . 
+Competency reviews  
+3.39 To continue exercising their flying privileges, all glider pilots in New Zealand must 
+undergo BFR s. The club management had recognised the risk s posed by its aging 
+pilots , and changed the rules to require all pilots over age 70 to complete BFRs  
+annual ly.30 
+3.40 GNZ requires i nstructors to undergo competency review s at least every two years , to 
+ensure that they are still competent to instruct and are familiar with current techniques. 
+The MOAP allows instructors to use competency review s to also serve as their BFRs, 
+but the reverse does not apply. The compe tency and BFR reviews are significantly 
+different . The BFR is for pilots . It's a check  that a pilot is current and safe to fly solo by 
+them demonstrating their basic flying skills to ensure their continued ability  to fly 
+safely . The competency review is for instructor  pilots . It's a check that they are  
+competent to instruct all flight training exercises by demonstrating their instructing 
+ 
+30 Taupo Gliding Club  rules 5.11.1(i).  
+ 
+Final Report AO-2020 -002 |  
+<< Page 19 >>
+ technique across the training syllabus . It also has a  provision to limit an instructor 's 
+scope to instructing specific ex ercises.  
+3.41 The competency review is further divided into two categories , each with its own form31: 
+one for new and intermediate instructors , and the other for advanced and senior 
+instructors . The MOAP gives clubs the freedom to reduce the period s between  
+instructor competency reviews to mitigate the effects of aging. A club , for example, 
+could place limitations on an instructor to allow them to perform only a limited part of 
+their role.  
+3.42 The club's practices had diverged from the requirements of GNZ . The CFI used  just the 
+BFR form  to assess  the competency  of instructor  pilots because they considered it 
+covered the same requirements  as the competency review. The CFI said they would 
+conduct a BFR, then sometime later fill in the competency review form. The CFI might 
+discuss with the pilot the exercises listed in the appropriate form. The club's instructor 
+trainer believed that the CFI could request any instructor to submit to a competency 
+review, but they were usually used in special situations (eg, to check overseas pilots or 
+if there were  a particular concern with an instructor's competency).  
+3.43 The club  tracked BFRs  with other pilot records to ensure that all club pilots remain ed 
+current , but there was  no similar system for tracking a competency review where a 
+pilot was also an instructor.  Competency reviews  were not conducted regularly  and 
+were not tracked  to monitor their currency , and not all instructors had completed 
+competency review s in their club file s.  
+3.44 The MOAP32 requires a competency review to be carried out by the CFI , an instructor 
+trainer , a ROO or the NOO . A glider pilot's logbook must be endorsed with a certificate 
+to show appropriate currency and privileges  in accordance with their competency 
+review . The accident instructor's logbook had not been endorsed with a competency 
+review check. The instructor had not logged a glider flight with the club's instructor 
+trainer between the start of 2018 and the accident in May 2020, and the CFI had never  
+flown  with the instructor . The last check flight with a ROO  or NOO  had been on 21 
+January 2018  for the  instructor's  'C' Category  instructor rating. The instructor had 
+completed BFRs in New Zealand and instructors in France had conducted check flights 
+with the instructor since 2018 , but these were not substitute s for a logbook 
+endorsement or a competency review  in New Zealand . The instructor had completed a 
+recent BFR , conducted by another of the club's 'B' Category instructor s, but this was 
+not acceptable under  GNZ procedures to allow the instructor to continue to instruct.   
+3.45 The MOAP  describes the requirement for an instructor to have a competency review 
+less than two years old, and if not , that instructor is not considered current and not 
+permitted to exercise the privileges of an instructor rating.  The instructor did not have 
+a current competency review,  and had not  flown with someone who was authorised to 
+carry out a competency review  in the 24 months prior to  the accident.  
+GNZ audits   
+3.46 GNZ holds an Aviation Recreation Organisation Certification under CAR Part 149 to 
+conduct gliding operations in New Zealand. The club is affiliated to GNZ and thereby 
+ 
+31 Form OPS 08  Competency review - new and intermediate instructors , and form OPS 09 Competency review - 
+Advanced and senior instructors.  (Both forms were dated  June 2020).  
+32 Part 2, section 2 -4 Instructor ratings, item 14 - Currency requirements for instructor ratings.  
+ 
+
+<< Page 20 >>
+ Final Report AO-2020 -002 allowed to operate under  the GNZ Part 149 certificate. The rules for training and 
+instructor qualifications  are defined in GNZ's MOAP , and affiliated club operations are 
+audited to ensure compliance. According to the GNZ quality management system ,33 
+instructor ratings are audited every years two and four in a five-year audit cycle .  
+3.47 A GNZ audit of the Taupō  club activities was conducted in 2013 , but the next one , due 
+in 2015 , was carried out three years late in 2018. The CAA audit ed GNZ in 2016 , issuing 
+a finding that GNZ had not audited three of the Central region clu bs for more than  10 
+years.34 
+3.48 GNZ audits of the club had not identified  any discrepancies between the process that 
+GNZ had set for ensuring instructor competency in the MOAP and how the club 
+conducted local instruction al processes. GNZ responded by stating that  these  audits 
+were not exhaustive and only check ed a sample of the operation at a time. The 2018 
+audit35 noted that there was "Good record keeping and accessibility of BFRs and 
+instructor competency reviews" . Later in the comments , the auditor noted :  
+"The club is an exemplar of best practi se in record keeping and in pro -active 
+monitoring of its member s' flying currency ." 
+3.49 The a uditors were the ROO or the NOO . Their time was mainly voluntary and there was 
+no requirement in their described duties36 for them to have been trained in auditing 
+techniques. A club audit  was usually conducted as part of a  single -day visit to the club 
+and was combined with check flights with selected members  who were there at the 
+time. The CFI at Taupō  advised that they had never been taken by the ROO for a check 
+flight.  
+ 
+33 GNZ AC 1 -01 'Quality Management '. 
+34 CAA finding 17F204.  
+35 GNZ General operations audit report, form OPS 15, audit date 13 October 2018.  
+36 GNZ AC 2 -01 Operations officers  
+ 
+Final Report AO-2020 -002 |  
+<< Page 21 >>
+ 4 Findings  
+Ngā kiteng a 
+ 
+4.1 While the instructor  was conducting a trial flight on the southeastern face of Mount 
+Tauhara, i t is likely  the glider  lost height and drifted downwind  to a point where the 
+instructor  was unable to track back into wind . It is likely  the instructor 's last option to 
+avoid a subsequent collision with the terrain  was to fly towards lower ground located 
+downwind of the trig  station . 
+4.2 It is likely  that the instructor  bank ed to the left as they passed the trig station heading 
+north, to avoid hitting the rising terrain near the trig  station . The left wing would have 
+been in the lee37 of the hill , and it was likely  the pilot was unable to prevent the glider 
+continuing  to roll towards a near-vertical  wing attitude . The subsequent contact made 
+by the left-wing  tip with the scrub  initiated the glider 's full impact  with terrain.  
+4.3 The trial flight path over Mount Tauhara increased the risk of an accident occurring.  
+4.4 It is very likely  that the glider was airworthy at the time of the accident , and there was 
+no evidence  that the accident was influenced by a medical issue  with the instructor  or 
+the student , or an external event.  
+4.5 At the time of this accident, the club  did not have an adequate system in place for 
+instructors  to verify that pilots had the appropriate level s of competency to ridge soar 
+on Mount Tauhara.  
+4.6 The standard set by GNZ for instructor training and their continued competency was 
+not followed by the club. GNZ 's audit procedure was ineffective in detecting the club's 
+non-compliant operations or in taking action to correct them.  
+ 
+ 
+ 
+37 The side of an obstacle that is sheltered from the wind.  
+ 
+
+<< Page 22 >>
+ Final Report AO-2020 -002 5 Safety issues and remedial action  
+Ngā take haumanu me ngā mahi whakatika  
+General  
+5.1 Safety issues are an output from the Commission's analysis. They may not always relate 
+to factors directly contributing to the accident or incident. They typically describe a 
+system problem that has the potential to adversely affect future transport safety.   
+5.2 Safety i ssues may be addressed by safety actions taken by a participant, otherwise the 
+Commission may issue a recommendation to address the issue.   
+Safety issue s 
+Pilot competency associated with ridge soaring  
+Safety Issue : The Taupo Gliding Club  had limited systems in place  to ensure instructors could 
+positively verify that pilots had appropriate level s of competency to ridge soar on Mount 
+Tauhara  and safely  conduct training flights on the ridge. This increased the risk of an accident 
+occurring.  
+5.3 After this accident, the club developed a ridge soaring training PowerPoint 
+presentation for  pilots .38 This was intended as part of a procedure to ensure pilots were 
+more formally trained and approved to ridge soar on Mount Tauhara.  
+5.4 In response to this accident and other recent ridge flying accidents, the GNZ 
+Operations Team developed and issued a document in October 2022 titled , "Ten 
+vicious traps in ridge and mountain flying".  The document was featured in the GNZ 
+newsletter of November 2022  and is published on the GNZ website .  
+5.5 The Commission welcomes this safety action. However, the Commission considers 
+there is still a residual safety risk in the system that needs to be addressed. It relates to 
+the club  instructors being able to positively verify that pilots can demonstrate an 
+appropriate level of competency to ridge soar on Mount Tauhara. Therefore,  the 
+Commission has made a recommendation  to address this issue.  
+Instructor training  at Taupō  
+Safety Issue : The Taupo Gliding Club  did not ensure GNZ instructor training procedures were 
+fully implemented and GNZ audits did not detect this discrepancy . This increased the risk that 
+instructors were not fully competent  in all required areas .  
+5.6 In recent years, GNZ has develop ed a revised Pilot Training Programme  and a 
+revised Instructor Training Programme  (ITP). The new Pilot Training Programme  was 
+accepted by the CAA in June 2020 (just after this accident) and the ITP on 19 
+October 2022.  GNZ began rolling out the ITP to all its affiliated clubs from  August 
+2023 through  an initial series of two -day workshops.  
+5.7 The Commission welcomes this safety action. However, the Commission considers 
+there may still be a residual safety risk in the system until th ese revised  training 
+ 
+38 Called 'Ridge soaring Mount Tauhara'.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 23 >>
+ programmes have been implemented and the affiliated clubs audited to ensure 
+compliance  with the GNZ standards .  
+ 
+
+<< Page 24 >>
+ Final Report AO-2020 -002 6 Recommendations  
+Ngā tūtohutanga  
+General  
+6.1 The Commission issues recommendations to address safety issues found in its  
+investigations. Recommendations may be addressed to organisations or people and 
+can relate to safety issues found within an organisation or within the wider transport 
+system that have the potential to contribute to future transport accidents and 
+incidents .  
+6.2 In the interests of transport safety, it is important that recommendation s are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in 
+the future .  
+New recommendations   
+6.3 On 27 September 2023  the Commission recommended that  the Taupo Gliding Club  
+develop and implement a system approved by GNZ that ensures instructors can 
+positively verify that pilots have an appropriate level of competency to ridge soar on 
+Mount Tauhara and safely conduct training flights on the ridge . (010/23)  
+6.4 On 5 October  2023 , the President  of the Taupo Gliding Club  responded in part :  
+Regarding your letter asking for our intentions regarding the final 
+recommendation. We have accepted and implemented your recommendation.  I 
+will attach a photograph of our logbook entry supplied to those who have 
+attended the compulsory Ridge Soaring Lecture, and also a photograph of the 
+follow -up safety briefings which also cover soaring on Mt. Tauhara . 
+ 
+6.5 On 27 September 2023  the Commission recommended that  Gliding New Zealand 
+review how gliding club instructors are trained,  and clubs are audited , and then take 
+corrective action to ensure that all new instructors are consistently trained to the 
+standards set  out in the Manual of Approved Procedures  (MOAP)  (011/23) 
+6.6 On 13 October 2023, the President of GNZ responded to recommendation (011/23) . 
+Their  response addressed two parts of the recommendation separately. The first part of 
+their response related to Gliding New Zealand review how gliding club instructors are 
+trained:  
+Gliding New Zealand is pleased to report that this recommendation was 
+accepted  and implemented. More than just review how gliding club instructors 
+are trained  GNZ undertook a comprehensive update and rewrite of the 
+instructor training  programme (ITP) and submitted this to the CAA for 
+acceptance on 1st June 2021. A  further period of extensive collaboration and 
+engagement with the CAA was then  undertaken before final acceptance of the 
+updated ITP was received from the CAA  on 19th October 2022. A summary of 
+this fully reviewed and updated programme can  be found at the link below.  
+https://gliding.co.nz/wp -content/uploads/2023/02/ITP -Summary.pdf  
+Since acceptance, a GNZ team led by the Operations Team has been rolling out 
+the updated ITP to club instructors around the country via a series of seminars 
+ 
+Final Report AO-2020 -002 |  
+<< Page 25 >>
+ to ensure  a consistent approach to training using the new system is being 
+adopted.  
+In addition,  it should be noted that there has also been a new publication on the  
+traps of ridge flying, "10 Traps", which was written and issued as a direct 
+response to  this accident. This document has been added to the Pilot Training 
+Program to  sharpen awareness around the potential hazards of ridge flying and 
+is available to  both pilots and instructors.  
+6.7 The second part of the President of GNZ response related to how GNZ audits its 
+affiliated clubs:  
+Gliding New Zealand advises that this recommendation is Under Consideration.  
+Club audits are currently conducted by GNZ Regional Operations Officers 
+(ROO's)  following a templated format. ROO's are volunteers and club audits in 
+their present  format can take an entire weekend for one club. Presently there 
+are three ROO's  covering 19 clubs spread across the length of New Zealand. To 
+extend these audits to  detect gaps in an instructor's knowledge would involve 
+the systematic assessment of  every instructor by the auditor, which is simply not 
+practical, hence the auditor does  rely on the club CFI to attest to each 
+instructor's  knowledge, capability and to provide  evidence of competency via 
+records of assessment, Form OPS 07 and Form OPS 09.   
+To step up another level in auditing would require funding. GNZ notes that 
+CASA in  Australia funds their recreational aviation organisations to carry out 
+their duties,  recognising that by doing so they are saving CASA significant 
+amounts of money in  comparison to what it would cost CASA to do this 
+themselves. GNZ suggest that the  CAA instead of charging Part 149 recreational 
+aviation organisations (which reduces  their budgets available for use on safety 
+measures such as audits) CAA should follow  overseas be st practice and fund 
+these organisations to carry out audits and thus  improve safety.  
+ 
+ 
+
+<< Page 26 >>
+ Final Report AO-2020 -002 7 Key lessons  
+Ngā akoranga matua  
+ 
+7.1 Ridge soaring has inherent risks due to factors such as turbulent wind conditions, 
+unpredictable updrafts and proximity to terrain , and pilots must be competent in the 
+correct techniques to manage these risks.  
+7.2 Trial flights  should be conducted in environment s that meet the intent of the flight s 
+without introducing unnecessary  risks. 
+ 
+Final Report AO-2020 -002 |  
+<< Page 27 >>
+ 8 Data summary  
+Whakarāpopoto raraunga  
+Aircraft particulars  
+Aircraft registration : ZK-GTG 
+Type and serial number:  Alexander GmbH Schleicher ASK21, Serial No: 21865  
+Number and type of 
+engines:  none  
+Year of manufacture:  November 2009  
+Hours in service /tows  3027.5 hours, 7334 tows on 21 March 2020   
+Operator:  Taupo Gliding Club  
+Type of flight:  trial flight 
+Persons on board:  two 
+Crew particulars  
+Pilot's licence  and 
+rating s: glider : Qualified Glider Pilot  and Category B 
+Instructor Rating  
+private pilot licence  aeroplanes : PPL (A) (with Glider 
+Tow Rating ) 
+Pilot's age:  78 
+Pilot's total flying 
+experience:  glider : 319  hrs 
+powered aircraft : 477 hrs 
+Date and time  31 May 2020 , 1433,  NZST 
+Location  Mount Tauhara, Taupō  
+latitude:  176° 9' 45.24" E  
+longitude:   38° 41' 35.23" S  
+Injuries  two fatalities  
+Damage  aircraft destroyed  
+ 
+
+<< Page 28 >>
+ Final Report AO-2020 -002 9 Conduct of the inquiry  
+He tikanga rapunga  
+ 
+9.1 On 31 May 2020  the CAA notified the Commission of the occurrence . The Commission 
+subsequently opened an inquiry under section 13(1) of the Transport Accident 
+Investigation Commission Act 1990  and appointed an Investigator -in-Charge.  
+9.2 On 31 May 2020 a Commission Protection Order (Number 002/01 2020 ) was issued for 
+seven  days to protect  all areas of Mount Tauhara  within 40 metre s of any wreckage of 
+ZK-GTG.  
+9.3 In June 2020 two Commission investigators examined the wreckage site , gathered 
+evidence  and recovered the wreckage . They also interviewed witness es and gathered  
+video footage taken on the accident day . The investigators interviewed people at the 
+club and gathered records.  
+9.4 On 1 July 2020  a Commission Protection Order (Number 002/02 2020 ) was issued for 
+the s eizure  of an Apple iPhone 11  that was found at the wreckage site . 
+9.5 In December  2020 the Commission investigators interviewed more people at the club 
+and people from GNZ. 
+9.6 The Commissioners were briefed on the analysis progress in February 2021. That led to 
+a survey of sample glider clubs about trial flights  and to the engagement of an external 
+gliding consultant to support the Commissioners in their deliberations . 
+9.7 The Commission considered further lines of inquiry and conducted further analysis in 
+the following months .  
+9.8 On 23 August 2022 the Commission approved a draft report for circulation to  seven 
+interested persons for their comment.  
+9.9 The Commission received seven responses  and seven submissions . All submissions 
+were  considered , and changes made in response to those submissions were  included 
+in the draft final report  presented in May 2023 . 
+9.10 The Commission requested further changes  and sought new evidence to check 
+comments from submi tters. The report  was further  revised and considered in  the June 
+2023 meeting.  This was approved for circulation to two interested parties for their 
+comment.  
+9.11 The Commission received two responses and one submission . The submission was 
+considered , and changes made in response to that submission were included in a 
+second draft final report presented in September 2023.  
+9.12 On 27 September  2023 the Commission approved the final report for publication.  
+ 
+Final Report AO-2020 -002 |  
+<< Page 29 >>
+ Abbreviations  
+Whakapotonga  
+Abbreviation  Meaning  
+AC Advisory Circular (GNZ or CAA series ) 
+amsl above mean sea level  
+BFR Biennial Flight Review  
+CAA  Civil Aviation Authority of New Zealand  
+CAR Civil Aviation Rule  
+CFI chief flying instructor  
+CPL(G) Commercial glider pilot licence  
+GNZ Gliding New Zealand Incorporated  
+kg kilogramme  
+kt knot (speed  in nautical miles per hour ) 
+mm millimetre  
+MOAP  Manual of Approved Procedures  
+NOO  National Operations Officer  
+PPL(G) Private pilot glider licence  
+ROO  Regional Operations Officer  (three in total - Northern, Central and 
+Southern ) 
+  
+ 
+
+<< Page 30 >>
+ Final Report AO-2020 -002 Glossary  
+Kuputaka  
+ 
+certificates  
+(gliding)  glider pilot c ertificates of gliding achievement or training , such as the 
+A and B certificate s and the Qualified Glider Pilot  Certificate , issued by 
+GNZ under delegat ed authority from the CAA 
+ratings  (gliding)  glider pilot ratings , such as an instructor or passenger rating , issued 
+by GNZ under a delegated authority from  the CAA 
+  
+ 
+Final Report AO-2020 -002 |  
+<< Page 31 >>
+ Citations  
+Ngā t ohutoru  
+Department of Labour. (2010). Review of risk management and safety in the adventure and 
+outdoor commercial sectors in New Zealand 2009/10.  Retrieved from 
+worksafe.govt.nz, dms document 1496: https://worksafe.govt.nz/dmsdocument/1496 -
+review -of-risk-management -and-safety -in-the-adventure -and-outdoor -commercial -
+sectors -in-nz-200910  
+EASA. (2020, October 1). Sailplane rule book - Easy access rules.  Retrieved from 
+WWW.easa.europa.eu: https://www.easa.europa.eu/en/document -library/easy -
+access -rules/sailplane -rule-book -easy-access -rules  
+Gilbey, A., Tani, K., & Tsui, W. H. (2016). Outcome knowledge and under -reporting of safety 
+concerns in aviation. Applied Cognitive Psychology, 30(2) , 141 -151. 
+Gliding National Centre of Saint -Auban -sur-Durance (CNVV). (2011, December). Safety 
+Information.  Retrieved from Gliding New Zealand: https://gliding.co.nz/wp -
+content/uploads/2014/01/Safety -in-Mountain -Flying -CNVV.pdf  
+Gliding New Zealand. (2020, April). Advisory Circulars.  Retrieved from Gliding New Zealand: 
+https://gliding.co.nz/wp -content/uploads/currentdoc/AC2 -13.pdf  
+Martins, A. P., Kobrich, M. V., Carstengerdes, N., & Biella, M. (2023). All's well that ends well? 
+Outcome bias in pilots during instrument flight rules. Applied Cognitive Pyschology , 
+433-442. 
+Michalski, D. J., & Bearman, C. (2014). Factors affecting the decision making of pilots who fly 
+in Outback Australia. Safety Science, 68 , 288 -293. 
+Paletz, S. B., Bearman, C., Oranasu, J., & Holbrook, J. (August 2009). Socializing the Human 
+Factors Analysis and Classification System: Incorporating Social Psychological 
+Phenomena Into a Human Factors Error Classification System. Human Factors, The 
+Journal of the Human Factors and Ergonomic Society . 
+Skybrary. (2023, March 31). Planetary boundary layer.  Retrieved from Skybrary.aero: 
+https://www.skybrary.aero/articles/planetary -boundary -layer  
+Skybrary. (2023,1, March 31). Bernoulli's Principle.  Retrieved from skybrary.aero: 
+https://skybrary.aero/articles/bernoullis -principle  
+ 
+ 
+  
+ 
+
+<< Page 32 >>
+ Final Report AO-2020 -002 Appendix 1  Centennial Park Aerodrome  
+ 
+
+ 
+Final Report AO-2020 -002 |  
+<< Page 33 >>
+ Appendix 2  Beaufort scal e 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+<< Page 34 >>
+ Final Report AO-2020 -002 Appendix 3  Glider  launch trend data 2006 -2020  
+ 
+Table 2 GNZ launch data  
+ 
+Final Report AO-2020 -002 |  
+<< Page 35 >>
+ Appendix 4  Requirements for passenger flights
+
+ 
+  
+  
+ 
+ Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its four kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ng āti Raukawa, 
+Tūwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedies and how to avoid them. A 'waka whai mārama' (i te ara 
+haumaru) is 'a vessel/vehicle in pur suit of understanding'. Waka is a metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) and Papatūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwe lling within), which brought 
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe' or 'risk free'.  
+Corporate: Te Ara Haumaru - the safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of knowledge 
+that Tāne Māhuta collected from the highest of the heavens to pass their wisdom to humanity. The continual 
+wave is the perpetual line of influence. The succession of humps represent s the individual inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: Ngā hau e wh ā - the four winds  
+ 
+ 
+ 
+ 
+To Sandy, 'Ngā hau e whā ' (the four winds ), commonly used in Te Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for a  'Aviation '.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this Kōwhaiwhai.  
+Maritime: Ara wai - waterways  
+ 
+ 
+ 
+ 
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for ' Maritime .  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwhai.  
+Rail: rerewhenua - flowing across the land  
+ 
+ 
+ 
+ 
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. The letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and everything 
+that dwells within) in the creation of this Kōwhaiwhai.  
+  
+
+ 
+  
+ 
+Recent Aviation Occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+AO-2022 -001 Ultramagic Balloons, N -250, ZK -MET, pilot ejection from basket on landing, Lyndhurst, 
+near Methven, 1 January 2022  
+AO-2021 -001 Kavanagh Balloons E -260, ZK -FBK, hard landing and ejection of occupants, Wakatipu 
+Basin, near Arrowtown, 9 July 2021  
+AO-2019 -007 Air traffic services outage, 30 September 2019  
+AO-2019 -005 BK-117-C1 ZK -IMK controlled flight into terrain (water), Auckland Islands, 22 April 2019  
+AO-2020 -003 Eurocopter EC120 -B, ZK -HEK, Loss of control in flight and collision with terrain, 
+Kekerengu, 50 kilometres northeast of Kaikoura, 15 December 2020  
+AO-2019 -006 Cessna 185A, ZK -CBY and Tecnam P2002, ZK-WAK, Mid -air collision, near Masterton, 
+16 June 2019  
+AO-2019 -002 Bombardiers DHC -8-311, ZK -NEH, and ZK -NEF, 'Loss of seperation' near Wellington, 
+New Zealand, 12 March 2019  
+AO-2020 -001 Pacific Aerospace Cresco 08 -600, ZK -LTK impact with terrain Kourarau Hill, Masterton, 
+24 April 2020  
+AO-2019 -003 Diamond DA42 aeroplane, impact with terrain, 22 nautical miles south -southeast of 
+Taupo, Kaimanawa Ranges, 23 March 2019  
+AO-2018 -005 MD Helicopters 600N, ZK -ILD, Engine control malfunction and forced landing, 
+Ngamatea Station, 14 June 2018  
+AO-2018 -001 Tandem parachute UPT Micro Sigma, registration 31Z, Double malfunction, 
+Queenstown, 10 January 2018  
+AO-2018 -006 Robinson R44, ZK -HTB Loss of control Stevensons Arm, Lake Wanaka 21 July 2018  
+  
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 17.00                                  ISSN 2815 -8717 (Print)   
+      ISSN 2815 -8725 (Online)  

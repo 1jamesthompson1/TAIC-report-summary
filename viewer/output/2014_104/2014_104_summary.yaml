@@ -1,0 +1,57 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue management as a contributing factor in the document provided.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 20
+  explanation: The accident was significantly influenced by human error and assumptions. The rail protection officer assumed that the members of the work group had overheard him giving the train authority over the external loudspeakers on the truck and gave a 'thumbs up' signal, which the excavator driver misinterpreted as an indication to begin work (4.2.3, 4.2.4).
+- name: Training and Competency
+  percentage: 15
+  explanation: The excavator driver had not undergone a safety observation by KiwiRail personnel since 2010, and therefore his qualification was deemed to have expired (4.3.17). Additionally, the rail protection officer did not have the TPA 1.3 qualification required to manage multiple worksites (4.3.6).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no specific mention of issues with training and familiarity with equipment contributing to the accident in the document provided.
+
+    '
+- name: Crew Resource Management
+  percentage: 10
+  explanation: The document indicates that there was a breakdown in communication at the work area assembly point, which is a component of Crew Resource Management (4.2.3). However, it is not the sole focus of the analysis.
+- name: Adherence to Safety Procedures
+  percentage: 25
+  explanation: There were numerous examples of non-compliance with KiwiRail operating standards at the worksite, including the lack of a pre-shift safety briefing on the day of the accident and the rail protection officer not following proper procedures when extending track occupation authority (4.3.8, 4.3.10, 4.3.12).
+- name: Organizational Safety Culture
+  percentage: 5
+  explanation: The document suggests issues with the organizational safety culture, such as the lack of a job plan booklet and the absence of a pre-shift safety briefing (4.3.10). However, it is not identified as a primary cause.
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: The document does not explicitly mention risk management and analysis as a direct contributing factor, but the failure to adhere to safety procedures and the lack of proper planning suggest underlying issues in this area (4.3.19, 4.3.20).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The document mentions that the NZ Transport Agency conducted its own system-focused investigation and required KiwiRail to make improvements in various areas, indicating issues with regulatory oversight and compliance (4.3.20, 4.3.21).
+- name: Situational Awareness
+  percentage: 5
+  explanation: The rail protection officer's assumption and the excavator driver's misinterpretation of the 'thumbs up' signal indicate a lack of situational awareness (4.2.3, 4.2.4).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no mention of emergency response preparedness as a contributing factor in the document provided.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'The document does not indicate that maintenance and inspection regimes were a factor in the accident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention of the use of automation as a contributing factor in the document provided.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions and decision making are not mentioned as factors in the accident.
+
+    '
+- name: Communication Breakdown
+  percentage: 10
+  explanation: The accident was partly caused by a communication breakdown, where the rail protection officer failed to effectively communicate the presence of the northbound train to the work group, leading to the collision (4.2.3, 4.3.12, 4.3.13).

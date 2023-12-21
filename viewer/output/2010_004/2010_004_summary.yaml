@@ -1,0 +1,62 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the incident in the provided document. Therefore, it is not applicable as a safety theme in this context.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 40
+  explanation: The incident involved "unchecked assumptions being made by the loader, first officer and captain about the actions or intended actions of others" (4.2). The first officer assumed the loader had closed and locked the cargo door (4.3), and the crew assumed the door had been checked as required (4.7). These assumptions and human errors were significant contributors to the incident.
+- name: Training and Competency
+  percentage: 10
+  explanation: While there is no direct mention of inadequate training, the failure to follow procedures such as the DDPG requirement for a crew member to check the security of the cargo door (4.2) suggests a potential lapse in training reinforcement or competency in adhering to safety-critical procedures.
+- name: Training and Familiarity with Equipment
+  percentage: 5
+  explanation: The faded paint on the visual lock indicator required a close-up check, which the first officer did not perform (4.3). This indicates a lack of familiarity with the equipment's condition that contributed to the incident.
+- name: Crew Resource Management
+  percentage: 15
+  explanation: The crew's discussion about the illuminated "cargo door open" annunciator light was not robust enough to challenge the mindset that the loader had closed and locked the door (4.7). This lack of effective CRM contributed to the incident.
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The incident occurred because the first officer did not check the cargo door as required (4.2), and the crew did not follow the DDPG requirement (4.2). The lack of adherence to safety procedures was a significant factor in the incident.
+- name: Organizational Safety Culture
+  percentage: 0
+  explanation: 'There is insufficient information in the provided document to assess the impact of organizational safety culture on the incident.
+
+    '
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: 'There is insufficient information in the provided document to assess the impact of risk management and analysis on the incident.
+
+    '
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is insufficient information in the provided document to assess the impact of regulatory oversight and compliance on the incident.
+
+    '
+- name: Situational Awareness
+  percentage: 5
+  explanation: The first officer's situational awareness was compromised when he was interrupted during the final walk-around inspection and did not return to the point in the checklist where he was interrupted (4.4). This lapse in situational awareness contributed to the incident.
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no mention of emergency response preparedness in the context of the incident in the provided document.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 5
+  explanation: The original fault of the cargo door annunciator light not being critical if a crew member visually confirmed the door was locked (4.3) indicates a maintenance issue that contributed to the incident.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no mention of automation playing a role in the incident in the provided document.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'There is no mention of weather conditions affecting the incident in the provided document.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: While there were assumptions and a lack of robust discussion between the pilots (4.7), there is no direct evidence of a communication breakdown as defined by the safety theme.
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the provided document that contributed to the incident.

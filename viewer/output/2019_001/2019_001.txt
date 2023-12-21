@@ -31,7 +31,7 @@ rail accidents and incide nts for New Zealand, and co -ordinating and co -operat
 accident investigation organisations overseas.  
 The principal purpose of its inquiries is to determine the circumstances and causes of 
 occurrences with a view to avoiding similar occurrences  in the future. It is not the 
-Commission’s purpose to ascribe blame to any person or agency or to pursue (or to assist an 
+Commission's purpose to ascribe blame to any person or agency or to pursue (or to assist an 
 agency to pursue) criminal, civil or regulatory action against a person or agency. However, the 
 Commission will not refrain from fully  reporting on the circumstances and factors contributing 
 to an accident because fault or liability may be inferred from the findings.  
@@ -63,7 +63,7 @@ Fire control activity standards in New Zealand  ................................
 Introduction  ................................ ................................ ................................ ................................ ............  15 
 What happened  ................................ ................................ ................................ ................................ ...... 15 
 Why it happened  ................................ ................................ ................................ ................................ .... 16 
-The monsoon bucket ’s aerodynamic stability  ................................ ................................ ......................  16 
+The monsoon bucket 's aerodynamic stability  ................................ ................................ ......................  16 
 Previous occurrences  ................................ ................................ ................................ .....................  16 
 Hook -and-loop fastener  ................................ ................................ ................................ .................  17 
 Bucket design evolution  ................................ ................................ ................................ ................  18 
@@ -124,7 +124,7 @@ been burning throughout the Nelson region over the preceding two weeks.
 1.2. The pilot was the sole occupant whil e the helicopter was operating with an externally 
 suspended  monsoon bucket. After dropping a load of water  on the target area , the 
 helicopter was returning  to a nearby pond  to refill the monsoon bucket . The lifting  line 
-suspending the monsoon bucket made contact with and disabled the helicopter ’s tail 
+suspending the monsoon bucket made contact with and disabled the helicopter 's tail 
 rotor, resulting in a loss of directional control. The pilot initiated a descent for a forced 
 landing. The helicopter descended into a forested area  and landed heavily,  resulting in 
 significant damage . The pilot received minor injuries.  
@@ -162,9 +162,9 @@ Operation Manuals for all Cloudburst buckets to include any recommended operatio
 << Page 2 >>
  Final Report AO -2019 -001 and maintenance procedures, guidelines and limitations , and promulgate this 
 information to all users of this equipment.  
-1.8. All occurrences that have safety implications should be reported through the operators ’ 
+1.8. All occurrences that have safety implications should be reported through the operators ' 
 internal safety management system. The Civil Aviation Authority  should also be notified 
-of all occurrences that meet the Civil Aviation Rules Part 12 – Accidents, Incidents, and 
+of all occurrences that meet the Civil Aviation Rules Part 12 - Accidents, Incidents, and 
 Statistics  criteria. Not reporting a safety -related occurrence is a missed opportunity to 
 prevent a similar occurrence.  
  
@@ -209,7 +209,7 @@ tubes , and the deformation of the front  section of the cabin structure ( Figur
 1 Times are in New Zealand daylight time (co-ordinated universal time + 13 hours) and expressed in the 
 24-hour format.  
 2 One nautical mile equals 1.852 kilometres . 
-3 The rotation of the nose of the helicopter relative to the helicopter’s direction of travel.  
+3 The rotation of the nose of the helicopter relative to the helicopter's direction of travel.  
 4 An international radio distress message indicating a life -threatening emergency.  
 5 A process whereby an  unpowered rotor system produces lift by inducing an airflow up through the 
 main rotor blades as the helicopter descends.  
@@ -238,7 +238,7 @@ in pla ce by hook -and-loop fastener  tabs7 at the top  of the bucket  (Figure 1
 apart  and was displaced.  
                                                         
  
-6 Part of a mechanical linkage  that converted movement of the pilot’s foot pedals into a change in the 
+6 Part of a mechanical linkage  that converted movement of the pilot's foot pedals into a change in the 
 angle of the tail rotor blades. This enabled control of the amount of tail rotor thrust being produced.  
 7 Commonly referred to by the brand name of Velcro® . 
 
@@ -266,20 +266,20 @@ Figure 14: Hook -and-loop fastener tab
 
 << Page 8 >>
  Final Report AO -2019 -001 Aircraft information  
-2.15. The helicopter was constructed in 1982 as a ‘BA’ variant of the AS350 he licopter type. It 
-was later converted to an ‘FX2’ variant. This conversion included, among other things, the 
+2.15. The helicopter was constructed in 1982 as a 'BA' variant of the AS350 he licopter type. It 
+was later converted to an 'FX2' variant. This conversion included, among other things, the 
 replacement of the engine with a Honeywell LTS101 700 D -2, and an increase in the  
 allowable max imum  all-up weight limit with an external load , from 2,250 kilogram s (kg) 
 to 2,500 kg. 
 2.16. The helicopter  had recorded a total flight time  of 5,816.43 hours at the time of the 
-accident. The helicopter had been  maintained in accordance with the operator ’s 
+accident. The helicopter had been  maintained in accordance with the operator 's 
 approved maintenance programme. The maintenance logbooks showed that all 
 scheduled maintenance had been ca rried out as required, and the helicopter had no 
 recorded defects at the time of the accident.  
 2.17. The helicopter was configured to operate with the monsoon bucket suspended from the 
-cargo hook . The right -side pilot’s door had been removed , with the right sliding door 
+cargo hook . The right -side pilot's door had been removed , with the right sliding door 
 locked back in the open position. The left -side sliding door and front doors were both in 
-their closed positions. This  configuration was permitted within the helicopter ’s flight 
+their closed positions. This  configuration was permitted within the helicopter 's flight 
 manual8 but it reduced the maximum allowable airs peed to 110 knots9.  
 Weight and balance  
 2.18. The helicopter had been fuelled to about 55% of capacity (297 litres) at the start of the 
@@ -290,10 +290,10 @@ the accident. This equated to about 173  kg.
 weight on the hook to the pilot in the cockpit. The pilot stated that the load cell weight 
 was used to determine how much water was in the monsoon bucket during filling and 
 that it was usually filled to about 800 kg.  
-2.20. The helicopter ’s empty weight was 1,309.95 kg. The maximum allowable all -up weight of 
+2.20. The helicopter 's empty weight was 1,309.95 kg. The maximum allowable all -up weight of 
 the helicopter with an e xternal load was 2,500 kg. The all -up weight of the helicopter was 
 estimated to have remained below this limit throughout the duration of the flight.  
-2.21. The cargo hook was positioned directly below the main rotor mast. The helicopter ’s 
+2.21. The cargo hook was positioned directly below the main rotor mast. The helicopter 's 
 centre -of-gravity position w as within  the allowable  limits  stated in the flight manual  with 
 the monsoon bucket both full and empty . 
                                                         
@@ -313,7 +313,7 @@ Final Report AO -2019 -001
 in New Zealand b y IMS New Zealand Limited  (IMS) . It had a maximum capacity of 1 ,000 
 litres. The bucket was constructed using a flexible urethane fabric.  
 2.23. The bucket assembly was purchased new by the operator in January 2013 and had been 
-used for 300 hours. It had been  maintained in accordance with the operator’s  Civil 
+used for 300 hours. It had been  maintained in accordance with the operator's  Civil 
 Aviation Authority ( CAA) approved  internal maintenance program me. 
 2.24. The synthetic lifting line was 8. 5 m in length and  attached to  the helicopter cargo hook  
 at its upper end  and to the bucket control head10 at its lower end . The synthetic lifting 
@@ -336,8 +336,8 @@ assembled state  while in storage  to enable rapid  deployment .
 2.28. A small bladder was attached to the inside wall of the bucket. This  bladder could be filled 
 with an additive11. Access t o fill this  bladder was easier with the  top ring installed  than 
 without . Throughout the operation on the day of the accident, the bladder was filled 
-during e very helicopter refuelling cycle.  The operator ’s ground crew member who had 
-carried out this task stated in the operator’s  internal report that the bucket was in good 
+during e very helicopter refuelling cycle.  The operator 's ground crew member who had 
+carried out this task stated in the operator's  internal report that the bucket was in good 
 condition during the last refuelling.  
                                                         
  
@@ -355,14 +355,14 @@ the fire -suppression effectivity of the water.
 role equipment12 to be certificated  or to produce operational information to assist with 
 the safe operation of the ir product s.  
 2.30. The onus was on operator s to identify risks associated with the use of any role 
-equipment and mitigate those risks appropriately. The CAA’s involvement with such 
-equipment was limited to assessing, and if satisfied approving , an operator’s  
+equipment and mitigate those risks appropriately. The CAA's involvement with such 
+equipment was limited to assessing, and if satisfied approving , an operator's  
 exposition13, in which maintenance and operating procedures for th e use of such role 
 equipment were  defined.  
 Personnel information  
 2.31. The pilot held a commercial helicopter pilot licence. All required medical and 
 competency assessments were complete and current in accordance with Civil Aviation 
-Rules and the operator’s exposition.  
+Rules and the operator's exposition.  
 2.32. The pilot had been flying helicopters with  monsoon bucke ts in fire -fighting  operations  
 since  the mid -1970s . The pilot had received r ecurrent  training for the set-up and use of 
 the monsoon bucket on 15 January 2019. At the completion of that training, the pilot 
@@ -371,8 +371,8 @@ monsoon bucket .
 2.33. Drug and alcohol tests were conducted at  the hospital after the accident. The results for 
 these tests were negative  (clear)  for both . 
 Organisational information  
-2.34. The operator held an operator’s certificate issued by the CAA under Civil Aviation Rules 
-Part 135  – Air Operations Helicopters and Small Aeroplane s. The operating certificate 
+2.34. The operator held an operator's certificate issued by the CAA under Civil Aviation Rules 
+Part 135  - Air Operations Helicopters and Small Aeroplane s. The operating certificate 
 permitted the operator to conduct commercial external load operat ions in accordance 
 with its exposition.  
 Meteorological information  
@@ -397,10 +397,10 @@ Final Report AO -2019 -001
 event of an accident , nor was it  equipped with energy attenuating seats14. However , most  
 of the impact forces were absorbed by the forward landing gear and cabin support 
 structure, when they  deform ed, as the helicopter struck the ground vertically . 
-2.38. The pilot’s seat was equipped with a four -point harness. The pilot advised that the  lap 
+2.38. The pilot's seat was equipped with a four -point harness. The pilot advised that the  lap 
 belt component of the harness had been  secured and the shoulder strap had been 
 positioned beneath the arms to enable sufficient movement to view the external load.   
-2.39. The pilot was wearing fireproof overalls and a flight helmet as required by the opera tor’s 
+2.39. The pilot was wearing fireproof overalls and a flight helmet as required by the opera tor's 
 internal checklist for conducting firefighting operations.  
 2.40. The helicopter was equipped with an emergency locat or transmitter. Impact forces 
 during the accident automatically activated this transmitter . The MEOSAR satellite 
@@ -448,13 +448,13 @@ services of aircraft operators for fire -control activities, t he original stand
 with the purpose of facilitating the effective, efficient and safe use of aircraft engaged in 
 these operations . The requirements of the original standard were imposed by the 
 National Rural Fire Authority (as the customer) in addition to Civil A viation Rules .  
-2.44. In 2017, New Zealand’s urban and rural fire services combined into a single, integrated 
+2.44. In 2017, New Zealand's urban and rural fire services combined into a single, integrated 
 fire and emergency service organisation known as Fire and Emergency New Zealand 
 (FENZ). FENZ provided the overarching management of the firefighting res ources, which 
-were utilised on this fire , and procured the operator’s helicopter services.  
+were utilised on this fire , and procured the operator's helicopter services.  
 2.45. On 30 August 2017, FENZ updated and issued a new standard, which was active at the 
 time of the accident (Fire and Emergency New Zealand, 2017) . 
-2.46. Since then FENZ has adopted an ‘all -of-government ’ approach , which has allowed other 
+2.46. Since then FENZ has adopted an 'all -of-government ' approach , which has allowed other 
 New Zealand government  agencies to utilise its new standard.  
 2.47. On 1 May 2020 , FENZ further updat ed the new standard  to serve as an interagency  
 standard for the procurement of aircraft to fight wildfires16.  
@@ -486,7 +486,7 @@ Final Report AO -2019 -001
  3. Analysis  
 Introduction  
 3.1. While the helicopter was being flown with an empty monsoon bucket suspended below 
-it, the lifting line struck the helicopter’s tail rotor . 
+it, the lifting line struck the helicopter's tail rotor . 
 3.2. Helicopter external load operations involve hazards  additional to  normal  helicopter 
 flight . Civil Aviation Rules are in place to minimise these risks by restricting such 
 operations ; however , operators  are required to identify risks specific to their own 
@@ -499,7 +499,7 @@ outcome. It also examines any safety issues that have the potential to adversely
 future operations.  
 What happened  
 3.4. The pilot stated  that while dipping the bucket normally into the dip ping pond 
-immediately before the accident the bucket “looked soft” and did not fill correctly . A 
+immediately before the accident the bucket "looked soft" and did not fill correctly . A 
 second attempt was made to lower the bucket into the water, after which,  the pilot 
 observed , a weight of 800 kg displayed on the load cell17. This confirmed to the pilot that 
 the bucket was filled sufficiently . The pilot recalled the shape of the bucket looking 
@@ -513,7 +513,7 @@ was evidence d by:
  fire service personnel  and anoth er helicopter pilot stating that they saw  the monsoon 
 bucket in close proximity to the tail rotor , followed by the helicopter turning to the 
 left 
- the pilot’s recollection of the accident sequence  
+ the pilot's recollection of the accident sequence  
  damage  to the tail rotor assembly and the nature of the failure of the tail rotor drive 
 shaft  
  the chemical analysis of the material transferred onto the tail rotor assembly , which  
@@ -533,7 +533,7 @@ tail rotor were considered, including :
  environmental  conditions /turbulence  
  the flight regime , i.e. control inputs /airspeed  
  mechanical  failure  
- the bucket ’s aerodynamic stability . 
+ the bucket 's aerodynamic stability . 
 3.9. The environmental  conditions at the time  of the accident  were reported as good , with 
 nearby weather stations recording about 15 knots of wind.  
 3.10. A BK117 helicopte r18 was operating in the same circuit pattern as the accident helicopter. 
@@ -549,7 +549,7 @@ inputs , excessive speed  and any technical /mechanical issues with the helicopt
 eliminated as possible contributing factors by the evidence . Therefore, the investigation 
 focused  on the aerodynamic stability of the bucket , which likely result ed in the contact 
 with the tail rotor . 
-The monso on bucket ’s aerodynamic stability  
+The monso on bucket 's aerodynamic stability  
 Safety issue: the initial design of the Cloudburst monsoon bucket meant the hook -and-loop 
 fastener system had the potential to come undone during operations  
 3.13. As the size , shape  and weight of underslung  loads vary significantly, so does the 
@@ -559,11 +559,11 @@ will result in larger forces, and a lower airspeed will result in lower forces. 
 Commission  was made aware of previous occurrences of this type of bucket becoming 
 unstable in  flight and examined  these occurrences to establish if any similarities existed.  
 Previous occurrences  
-3.14. The operator’s manager  of operations  recalled an earlier incident involving  the same 
+3.14. The operator's manager  of operations  recalled an earlier incident involving  the same 
 bucket used on the accident flight , when they were gaining their initial experience with  it. 
 In that earlier incident the bucket had becom e aerodynamically unstable as the 
-helicopter gained airspeed , and the bucket  had “started to  sail”. The pilot had landed 
-and found that the bucket’s top ring had not been  installed correctly. After  reinstal ling 
+helicopter gained airspeed , and the bucket  had "started to  sail". The pilot had landed 
+and found that the bucket's top ring had not been  installed correctly. After  reinstal ling 
 the top ring , the pilot had been able to continue without further incident.  
                                                         
  
@@ -578,13 +578,13 @@ when dipping into the sea. That pilot noted  that two of the hook -and-loop fast
 had opened. While the ring had remained in place, the fabric of the bucket had no 
 longer been able to maintain its circular shape. Th e pilot had dumped all remaining 
 water from the bucket and returned to the staging area. Th e pilot reported that the 
-bucket had been  ”misbehaving ” and it could not be flown fast. The short flight back to 
+bucket had been  "misbehaving " and it could not be flown fast. The short flight back to 
 the staging area had been  conducted just above translational speed19. 
 3.16. A pilot of a third ope rator also described the bucket not flying correctly due to hook -
 and-loop fastener tabs opening on at least two occasions.  
-3.17. Similarities existed between  the other pilots ’ observation s and the accident  pilot’s  
-description of the bucket “looking soft” while filling. Therefore, the investigation sought 
-to understand the bucket’s hook -and-loop fastener system.  
+3.17. Similarities existed between  the other pilots ' observation s and the accident  pilot's  
+description of the bucket "looking soft" while filling. Therefore, the investigation sought 
+to understand the bucket's hook -and-loop fastener system.  
 Hook -and-loop fastener  
 3.18. The jettisoned bucket was recovered from a forested area  at a location approximately 
 100 m from where the helicopter came to res t. The initial examination  of the bucket  
@@ -613,7 +613,7 @@ Commission was unable to determine whether the displaced hook -and-loop fastener
 were due to incorrect installation, worn material and flight loads, abnormal forces duri ng 
                                                         
  
-19 An airspeed after which a helicopter ’s rotor system generates additional lift for a giv en power setting. 
+19 An airspeed after which a helicopter 's rotor system generates additional lift for a giv en power setting. 
 The exact speed is variable depend ent on helicopter type and environmental conditions, but ranges 
 from about 16 to 24 knots.  
  
@@ -628,8 +628,8 @@ change the shape of the front and top of the bucket. The airflow from forward fl
 acting on the misshapen and collapsed bucket resulted in the bucke t becoming 
 aerodynamically unstable and flying significantly higher and closer to the helicopter.  
 Bucket design evolution  
-3.25. Since  the Cloudburst monsoon bucket’s  initial design, a number of improvements have 
-been incorporated into the bucket’s various compon ents. The early design of the hook -
+3.25. Since  the Cloudburst monsoon bucket's  initial design, a number of improvements have 
+been incorporated into the bucket's various compon ents. The early design of the hook -
 and-loop fastener tabs to retain the tubular, segmented, stainless -steel ring was 
 superseded. The new design was for the ring to be made out of a rigid composite 
 material, in two sections, and for it to be permanently bol ted into the bucket.  
@@ -669,12 +669,12 @@ Final Report AO -2019 -001
 << Page 19 >>
  3.31. IMS had developed recommended limitations regarding airspeed, line length, and empty 
 bucket flight co nfiguration for the Cloudburst monsoon bucket and had also published 
-an ’Operation Manual ‘. This manual provided descriptions of the bucket ’s components, 
+an 'Operation Manual '. This manual provided descriptions of the bucket 's components, 
 but contained no information relating to the aforementioned limitations.  
 3.32. As the aviation regulatory framework did not cover this type of external load equipment , 
 there was no requirement for a manufacture r to promulgate  any operational information  
 or limitations , and IMS had not done so . By comparison, the Commission found that a 
-Canadian manufacturer of  a similar product, known as  a ‘Bambi Bucket ’, had produce d 
+Canadian manufacturer of  a similar product, known as  a 'Bambi Bucket ', had produce d 
 detailed o peration al and service manuals that were accessible to operators  (see 
 Appendices 1 and 2 for relevant extract from the O peration s Manual) . 
 3.33. When conducting external load operations, a pilot has to decide on the length of the 
@@ -688,13 +688,13 @@ tail rotor clearance when using a line length of less than 15 m . The full proce
 included in Appendix 1 of this report. It is summarised below : 
  measure the distance from the cargo hook to the closest point of the helicopter tail 
 rotor  
- determine the bucket overall length – including the suspension cables, from the 
+ determine the bucket overall length - including the suspension cables, from the 
 shackle on the head  to the lowest point of the bucket   
  the tail rotor clearance must be a minimum of 0.15 m. 
-3.35. In June 2019 Airbus  Helicopters  issued S afety Information Notice  No. 3349 -S-25 – 
-‘Follow -up of recommendations and limitations associated with the use of bucket -type 
-fire-fighting systems ’ (see Appendix 3 ). This notice  defined the importance of following 
-manufacture rs’ recommendations, reiterated the proced ure contained in the Bambi 
+3.35. In June 2019 Airbus  Helicopters  issued S afety Information Notice  No. 3349 -S-25 - 
+'Follow -up of recommendations and limitations associated with the use of bucket -type 
+fire-fighting systems ' (see Appendix 3 ). This notice  defined the importance of following 
+manufacture rs' recommendations, reiterated the proced ure contained in the Bambi 
 Bucket Operations Manual  and expanded its sc ope to cover all bucket -type suspended 
 systems used for firefighting.   
 3.36. In summary, this procedure recommended using either a short lifting line configuration 
@@ -714,20 +714,20 @@ agencies.
 << Page 20 >>
  Final Report AO -2019 -001 3.38. The FENZ standard  in place at the time of the accident  did not have a  requirement  for 
 lifting line length  at the time  of the accident . The only reference to lifting line length was 
-that “Strop length shall be optimised with the type of bucket to counter rotor wash on 
-the fire”21.  
+that "Strop length shall be optimised with the type of bucket to counter rotor wash on 
+the fire"21.  
 3.39. The lifting line used on the accident flight was 8.5 m  in length . The Com mission 
 identified  that three additional  accidents had occurred , in New Zealand, Italy and France 
 respectively, involving fire buckets contacting the tail rotor s of AS350 helicopters22. All 
 four of these helicopters  were conf igured with lifting line length s placing the  bucket s 
-within  the recommended  ‘no-go’ zone as defined by the Bambi  Bucket Operations  
+within  the recommended  'no-go' zone as defined by the Bambi  Bucket Operations  
 Manual  and the Airbus Safety Information Notice.   
 3.40. There have been no recorded accidents involving a fire bucket contacting the tail rotor of 
 a helicopter when configured with the recommended length of lifting line.  
 3.41. The Commission is therefore of the opinion that the recommended limitations for tail 
 rotor clearance , such as described in the Bambi Bucket Operations  Manual  and the 
 Airbus Safety Information Not ice, should be appl ied to all monsoon buckets .  
-3.42. At the time of the accident the operator’s procedures did not specify the appropriate line 
+3.42. At the time of the accident the operator's procedures did not specify the appropriate line 
 length  for monsoon bucket operations . It is noted , however , that the Airbus  Safety 
 Information Notice was not published un til after the accident . The operator has since 
 incorporated the Airbus guidance into its operating procedures  and FENZ has included a 
@@ -744,14 +744,14 @@ happening. However, the likely initiating cause of the contact between the tail 
 the bucket rigging differed between the two accidents.  
 3.45. The helicopter involve d in the earlier accident in New Zealand had been  equipped with a 
 camera, which had recorded video of the bucket throughout the flight. This video 
-evidence did not reveal any evidence of anomalies with the Cloudburst bucket ’s tubular 
+evidence did not reveal any evidence of anomalies with the Cloudburst bucket 's tubular 
 segmented steel  top ri ng, or its hook -and-loop fastener retaining system.  
                                                         
  
 21 Fire and Emergency New Zealand. Standard for Use of Aircraft at Wildfires.  Equipment Section 24, Para 
 24.1.  
-22 Sainte -Rose , France, 24 January 2019, AS3 50-B3e, registered F -OFML (Bureau d’Enquêtes et 
-d’Analyses pour la Sécurité de l'Aviation Civile  Final Report , BEA2019 -0023) ; Sardinia , Italy, 21 August 
+22 Sainte -Rose , France, 24 January 2019, AS3 50-B3e, registered F -OFML (Bureau d'Enquêtes et 
+d'Analyses pour la Sécurité de l'Aviation Civile  Final Report , BEA2019 -0023) ; Sardinia , Italy, 21 August 
 2015, AS350 registered I -GBVD ( http://www.ansv.it/cgi -bin/ita/AS350%20I -
 GBVD%20raccomandazioni%20sicurezza.pdf ); Christchurch , New Zealand, 14 February 2017, AS350 
 registered ZK -HKW (Commission inquiry AO -2017 -001).  
@@ -764,17 +764,17 @@ Final Report AO -2019 -001
 through their internal quality and safety management system. As a result, t hat incident 
 had not been advised to the CAA or used internally to promote awareness or improve 
 operational procedures.  
-3.47. The operations manager  advised that since the earlier occurrence the operator’s safety 
+3.47. The operations manager  advised that since the earlier occurrence the operator's safety 
 management system had evolved and that such an occurrence would now be captured 
 and actioned appropriately.  
 3.48. During a separate  Commission inquiry  into an accident involving a different operator23, 
 the Commission had determined that an occurrence that related to the likely cause of 
-that accident had not been  notified either internally in the operator ’s systems or through 
+that accident had not been  notified either internally in the operator 's systems or through 
 the CAA reporting system . That omission  had also resulted  in a lost opportunity to share 
 experiences and learnings and potentially prevent a reoccurrence.   
-3.49. While Civil Aviation Rules  Part 12 – Accidents, Incidents, and Statistics  defined the 
+3.49. While Civil Aviation Rules  Part 12 - Accidents, Incidents, and Statistics  defined the 
 requirements to notify the CAA of accidents and certain incidents, the  reporting of all 
-occurrences through an operator’s internal safety management system should be 
+occurrences through an operator's internal safety management system should be 
 encouraged.  
 3.50. On 6 April 2020 IMS issued on its website a Service Information Letter24 detailing a pre -
 flight checklist for the Cloudburst bucket with the tubular,  segmented, stainless -steel ring 
@@ -792,7 +792,7 @@ instructions in the Cloudburst Fire Bucket Service Information Letter , dated 6 
 issued by IMS.  
 Additional information   
 3.53. During this inquiry the Commission learned that the CAA was in the process of 
-developing an advisory circular to Civil Aviation  Rules  Part 133  – Helicopter External Load 
+developing an advisory circular to Civil Aviation  Rules  Part 133  - Helicopter External Load 
 Operation s. This advisory circular was intended to provide additional information 
 pertinent to the equipment and the conduct of helicopter external -load operations. At 
 the time of writing this report, the specific  content of the advisory circular was not 
@@ -847,7 +847,7 @@ monsoon bucket operations .
 << Page 24 >>
  Final Report AO -2019 -001 5. Safety issues and remedial action  
 General  
-5.1. Safety issues  are an output from the Commission’s analysis. They typically describe a 
+5.1. Safety issues  are an output from the Commission's analysis. They typically describe a 
 system problem that has the potential to adversely affect future operations on a wide 
 scale.  
 5.2. Safety issues  may be addressed by safety actions take n by a participant, otherwise the 
@@ -944,17 +944,17 @@ Type of flight:  fire suppression  with monsoon bucket
 Persons on board:  one 
   
 Crew particulars   
-Pilot’s licence:  commercial pilot licence (helicopter)  
-Pilot’s age:  66 
-Pilot’s total flying experience:  14,980 flight hours (c4 ,000 hours on type)  
+Pilot's licence:  commercial pilot licence (helicopter)  
+Pilot's age:  66 
+Pilot's total flying experience:  14,980 flight hours (c4 ,000 hours on type)  
   
 Date and time  
  17 February 2019 , 1450  
   
 Location  
  Wakefield , Nelson  
- latitude:  41° 19’ 60” S  
- longitude:  173° 02’ 42” E  
+ latitude:  41° 19' 60" S  
+ longitude:  173° 02' 42" E  
   
 Injuries  
  minor  
@@ -969,19 +969,19 @@ Damage
 Commission subsequently opened an inquiry under section 13(1) of the Transport 
 Accident Investigation Commission Act 1990 and appointed an investigator in charge.  
 9.2. In accordance with Annex 13 to the Convention on International Civil Aviation, the 
-Commission notified the aircraft state of manufacture , the Bureau d’Enquêtes et 
-d’Analyses of France (BEA), and the engine state of manufacture, the National 
+Commission notified the aircraft state of manufacture , the Bureau d'Enquêtes et 
+d'Analyses of France (BEA), and the engine state of manufacture, the National 
 Transportation Safety Board of the United States . On 18 Febru ary 2019 the BEA 
 appointed an a ccredited representative for France and appoi nted Airbus Helicopters as 
 its technical a dviser.  
 9.3. On 18 February 2019 Commission investigators travelled to Nelson. They received 
-briefings from the fire service and the police before continuing to the operator’s base to 
+briefings from the fire service and the police before continuing to the operator's base to 
 conduct interviews with the pilot in command and the o perations manager . 
 9.4. On 19 February a site investigati on was conducted and the helicopter wreckage was 
 recovered from the site on the same day. On 20 February the helicopter wreckage was 
 relocated to the Commission secure facility in the Wellington region.  
 9.5. On 28 February the Commission investigators travelled  to the monsoon bucket 
-manufacturer ’s facility  to conduct interviews and gather more information about the 
+manufacturer 's facility  to conduct interviews and gather more information about the 
 Cloudburst monsoon bucket.   
 9.6. On 7 May 2019 a principal consultant metallurgist  from Quest Integrity Group NZL 
 Limited  conducted an examination of the  damaged tail rotor assembly. Replicas of the 
@@ -1001,7 +1001,7 @@ Final Report AO -2019 -001
 << Page 29 >>
  10. Report information  
 Abbreviations  
-BEA Bureau d’Enquêtes et d’Analyses of France  
+BEA Bureau d'Enquêtes et d'Analyses of France  
 CAA  Civil Avia tion Authority of New Zealand  
 Commission  
 FENZ  Transport Accident Investigation Commission of New Zealand  
@@ -1033,7 +1033,7 @@ nautical mile  one nautical mile equals 1.852 kilometres
 Airbus Helicopters. (2019). Safety Information Notice No. 3349 -S-25 Follow -up of 
 recommendations and limitations associated with the use of bucket -type fire -fighting 
 systems.   
-CAA. (2020) Continuing Airworthiness Notice – 05-012.  
+CAA. (2020) Continuing Airworthiness Notice - 05-012.  
 Fire and Emergency New Zealand. (2017). Standard for Use of Aircraft at Wildfires.   
 IMS New Zealand Limited . (n.d.). Cloudburst Fire Bucket Operation Manual.   
 IMS New Zealand Limited . (2020) Safety Information Letter  6 April  2020 . 
@@ -1131,11 +1131,11 @@ YOU CAN UNSUBSCRIBE  HERE.
  TAIC Kōwhaiwhai - Māori scroll designs  
 TAIC commissioned its kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ngati Raukawa, 
 Tuwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
-knowledge to understand transport accident tragedies an d how to prevent them. A ‘waka whai mārama (i te 
-ara haumaru) is ‘a vessel/vehicle in pursuit of understanding’. Waka is metaphor for the Commission. Mārama 
-(from ‘te ao mārama’ – the world of light) is for the separation of Rangitāne (Sky Father) and Papa tūānuku 
+knowledge to understand transport accident tragedies an d how to prevent them. A 'waka whai mārama (i te 
+ara haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) and Papa tūānuku 
 (Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling within), which brought 
-light and thus awareness to the world. ‘Te ara’ is ‘the path’ and ‘haumaru’ is ‘safe or risk free’.  
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe or risk free'.  
 Corporate: Te Ara Haumaru - The safe an d risk free path  
  
 The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
@@ -1146,22 +1146,22 @@ inquiries.
 Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwha i. 
 Aviation: ng ā hau e wh ā - the four winds  
  
-To Sandy, ‘Ngā hau e whā ’ (the four winds ), commonly used in Te Reo Māori to refer to people coming 
+To Sandy, 'Ngā hau e whā ' (the four winds ), commonly used in Te Reo Māori to refer to people coming 
 together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
-cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa’s ‘long 
-white cloud’. The letter ‘A’ is present, standing for aviation.  
+cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for aviation.  
 Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this 
 Kōwhaiwhai.  
 Marine: ara wai - waterways  
  
-The sections of waves flowing across  the design represent the many different ‘ara wai’ (waterways) that ships 
-sail across. The ‘V’ shape is a ship’s prow and its wake. The letter ‘M’ is present, standing for ‘Marine’.  
+The sections of waves flowing across  the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for 'Marine'.  
 Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwh aiwhai.  
 Rail: rerewhenua - flowing across the land  
  
-The design represents the fluid movement of trains across Aotearoa. ‘Rere’ is to flow or fly. ‘Whenua’ is the 
-land. The koru forms represent the earth, land and flora that trains pass over and through. T he letter ‘R’ is 
-present, standing for ‘Rail’.  
+The design represents the fluid movement of trains across Aotearoa. 'Rere' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. T he letter 'R' is 
+present, standing for 'Rail'.  
 Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and everything 
 that dwells within) in the creation of this Kōwhaiwhai.  
   
@@ -1187,7 +1187,7 @@ Interim Report
 AO-2018 -009 MDHI (Hughes) 369D, registration ZK -HOJ, Wanaka, 18 October 2018  
 Interim Report 
 AO-2018 -006 Robinson R44, ZK -HTB, Stevensons Arm, Lake Wanaka, 21 July 2018  
-AO-2016 -008 Robinson R66 helicopter, Partial power loss – forced landing, Hokonui Hills, 
+AO-2016 -008 Robinson R66 helicopter, Partial power loss - forced landing, Hokonui Hills, 
 Southland, 14 November 2016  
 AO-2015 -009 Air traffic control incidents, Hamilton aerodrome,17 December 2015  
 AO-2017 -001 Eurocopter AS350 BA, ZK -HKW, Collision with terrain, Port Hills, Christchurch, 14 

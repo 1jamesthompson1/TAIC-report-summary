@@ -78,7 +78,7 @@ The hazards had been indentified in the past and ignored ("4.5")
                     print("WARNING: The overall summary file does not have the same first row as expected. It will be overwritten.")
                     self.discard_old == True
 
-        if self.discard_old:
+        if self.discard_old or not os.path.exists(self.overall_summary_path):
             with open(self.overall_summary_path, 'w', newline="") as summary_file:
                 writer = csv.writer(summary_file, quotechar='"', quoting=csv.QUOTE_ALL)
                 writer.writerow(start + zipped_themes_titles + ending)
@@ -161,7 +161,7 @@ issues.
         if (summary == None):
             print(f'  Could not summarize {report_id}')
             summary_final = [report_id, str(pages_read).replace(",", " ")]
-            summary_final.extend([pd.NA] * (self.theme_reader.get_num_themes())*3)
+            summary_final.extend([pd.NA] * (self.theme_reader.get_num_themes()+1)*(3))
             summary_final.extend(["false", "Could not summarize report"])
         else:
             weightings, full_summary_parsed = summary # unpack tuple response

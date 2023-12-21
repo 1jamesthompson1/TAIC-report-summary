@@ -169,7 +169,7 @@ Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory 
 action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
-makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s 
+makes this final report inadmissible as evidence in any proceedings with t he exception of a Coroner's 
 inquest.  
  
 Ownership of report  
@@ -178,10 +178,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 made to the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to i ndustry participants only and not 
 discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that  are public ly available are cited.  
+documents referred to during the Commission's inquiry that  are public ly available are cited.  
  
 Photographs, diagrams, pictu res 
 Unless otherwise specified, photographs, diagrams and pictures included in this final report  are 
@@ -287,7 +287,7 @@ RPM  revolutions per m inute
 Glossary  
 annunciator  a light , or panel of lights, that provide s information on the state or condition of 
 systems, components and equipment  
-attitude  the orientation of an aircraft’s axis with respect to the horizon  
+attitude  the orientation of an aircraft's axis with respect to the horizon  
 autorotation  a process of producing lift in an unpowered rotor system by inducing an airflow 
 up through the main rotor blades as the helicopter descends  
 engine test cell  an engine ground testing facility, where an engine is fitted to a test stand, a test 
@@ -315,15 +315,15 @@ Year of manufacture:  1990
 Operator:  Garden City Helicopters Limited  
 Type of flight:  hospital patient transfer  
 Persons on board:  five 
-Pilot’s licence:  commercial pilot licence (helicopter)  
-Pilot’s age:  49 
-Pilot’s total flying experience:  9,336 hours  
+Pilot's licence:  commercial pilot licence (helicopter)  
+Pilot's age:  49 
+Pilot's total flying experience:  9,336 hours  
 Date and time  
  5 May 2014 , 09111 
 Location  
  near Springston , Canterbury  
-latitude:  43°38´40” 
-longitude:  172°25´34” 
+latitude:  43°38´40" 
+longitude:  172°25´34" 
 Injuries  
  nil 
 Damage  
@@ -341,17 +341,17 @@ Christchurch .  The pilot made an emergency landing  without power  onto  farm l
 Springston, with no inju ries sustained by  the occupants and  minor dam age to the helicopter.  
 1.2. It was later determined that the double engine power loss had been caused by lack of fuel 
 flow to the engines, despite there being a large quantity of fuel in the main fuel tank s.  The 
-cause of the lack of fuel flow to the engines wa s the pilot’s incorrect management and 
-configuration of the aircraft’s fuel supply system, which prevented the fuel in the main tanks 
+cause of the lack of fuel flow to the engines wa s the pilot's incorrect management and 
+configuration of the aircraft's fuel supply system, which prevented the fuel in the main tanks 
 getting to the engines.  
-1.3. The pilot’s lack of recent experience on the BK117 was a contributory factor in this event, 
+1.3. The pilot's lack of recent experience on the BK117 was a contributory factor in this event, 
 includ ing the absence of any recent training or competency assessment on the aircraft type.  
 The pilot did not refer to a checklist when carrying out the normal pre -flight, before -start and 
 after -start procedures . Had he referred to a checklist  he would have likely corrected the error 
 in the fuel system configuration before flight.  The company that operated the helicopter did 
 not have any procedures in place to address the lack of recent experience, such as additional 
 training, supervision or a policy on the use of written checklists in such a situation.  
-1.4. A contributing  factor  to the power loss was the pilot’ s inability  to detect the caution lights that  
+1.4. A contributing  factor  to the power loss was the pilot' s inability  to detect the caution lights that  
 would have alerted him to the incorrec tly configured fuel system,  due to the cockpit lighting 
 dimm er switch being left on in daylight .  A modification of the helicopter to enable the use of 
 night vision equipment was found to have adversely affected the readability of the caution 
@@ -363,7 +363,7 @@ fuel transfer pumps after starting the engines
  the pilot should not have operated  the flight  because he had not been assessed for his 
 type-specific knowledge or checked for competency on the BK117 in the previous five 
 years, and he lacked recent experience on the aircraft type 
- the operator’s system for maintaining oversight of its pilots’ proficiency and currency 
+ the operator's system for maintaining oversight of its pilots' proficiency and currency 
 was not  robust enough to ensure  that this pilot was proficient and sufficiently current to 
 fly the BK117  
  a cockpit lighting modification to the helicopter  had adverse ly affected the readability of  
@@ -413,19 +413,19 @@ Final report AO -2014 -002
 2.1. On 6  May 2014 the Transport Accident Investigation Commission (Commission) was notified 
 of the incident by the C ivil Aviation Authority of New Zealand (CAA) , and opened an inquiry 
 under section 13 of the T ransport Accident Investigation Commission A ct 1990 . 
-2.2. The next  day the Commission’s i nvestigator in charge travelled  to Christchurch to join  another 
+2.2. The next  day the Commission's i nvestigator in charge travelled  to Christchurch to join  another 
 Commission investigator and begin the field investigation.  
 2.3. Interview s were h eld later the same day with the pilot and crewman  on the flight, and the 
-helicopter was inspected at the operator’s  maintenance hangar at Christchurch International 
+helicopter was inspected at the operator's  maintenance hangar at Christchurch International 
 Airport . 
 2.4. On 8 May  2014  further interviews were carried out with the doctor and nurse who were on 
-board  the helicopter.  Maintenance documents were reviewed, as well as the operator’s 
+board  the helicopter.  Maintenance documents were reviewed, as well as the operator's 
 manuals and staff training records.  
-2.5. On 9  May 2014  a meeting  was held with the operator’s chief executive officer and the 
+2.5. On 9  May 2014  a meeting  was held with the operator's chief executive officer and the 
 competency  manager to  discuss the incident and obtain background information on the 
 company.  
 2.6. On 21 May  2014 the engines were operationally checked in an engine test cell2 in Auckland, 
-under the  supervis ion of the investigator in charge  and the engine manufacturer’s local 
+under the  supervis ion of the investigator in charge  and the engine manufacturer's local 
 repre sentative . 
 2.7. The design organisation that had validated the night vision imaging system lighting 
 modification on ZK -HJC was contacted to clarify  the certification process.  
@@ -452,7 +452,7 @@ is put on the engine to s imulate operating conditions, and engine parameters ca
 3.1. Narrative  
 3.1.1.  Garden City Helicopters  Limited  (the operator) operated several types of helicopter s for a 
 variety of commercial activities, which included medical evacuations and patient transfers 
-between medical facilities.  The operator’s base was located at Christchurch International 
+between medical facilities.  The operator's base was located at Christchurch International 
 Airport.   
 3.1.2.  On 5 May 2014 one of its  twin-engine Kawasaki BK117  B-2 helicopter s was required  to 
 conduct a patient transfer from Ashburton Hospital to Christchurch Hospital.  The helicopter 
@@ -461,7 +461,7 @@ one crewman  and two medical staff  on board.
 3.1.3.  During the flight to Ashburton  a caution light for the rear door illuminated momentarily in the 
 cockpit4.  The pilot noted the caution light and cancelled the master warning light.  Otherwise 
 the flight was uneventful.  
-3.1.4.  The pilot shut down the helicopter ’s engines after landing in Ashburton .  The pat ient was 
+3.1.4.  The pilot shut down the helicopter 's engines after landing in Ashburton .  The pat ient was 
 taken on board , after which the pilot carried out the before -start procedures  and started both 
 engines .  At 0852 the helicopter departed Ashburton with five people on board for the flight to 
 Christchurch.  
@@ -481,11 +481,11 @@ during  the emergency landing and the he licopter suffered minor damage .
 3.2. Post-incident tests and research  
 3.2.1.  After the emergency landing the pilot checked  the cockpit instruments and switches,  and 
 noted that : 
- the two fuel prime pump switches were ‘on’  (these would normally be off during flight)  
- the two fuel transfer pump switches were ‘off’  (these would normally be on during 
+ the two fuel prime pump switches were 'on'  (these would normally be off during flight)  
+ the two fuel transfer pump switches were 'off'  (these would normally be on during 
 flight)  
  there was a total of 38 0 kilograms (k g) of fuel indicated on the fuel quantity gauges  
- the cockpit light ing dimmer switches were ‘on’ . 
+ the cockpit light ing dimmer switches were 'on' . 
 The pilot confirmed that these switch positions had not been changed during the flight . 
 3.2.2.  Both engines were removed from the helicopter and sent to an engine maintena nce facility in 
 Auckland , where they  were run in a test cell under the supervision of the investigator in charge 
@@ -497,8 +497,8 @@ doors needed adjusting.
 the main rotor blades as the helicopter descends.  
 Final report AO -2014 -002 
 << Page 5 >>
- and the engine manufacturer’s local representative.  Both engines ran successfully  at 
-different power settings, with the recorded parameters all within the manufacturers’ 
+ and the engine manufacturer's local representative.  Both engines ran successfully  at 
+different power settings, with the recorded parameters all within the manufacturers' 
 specific ations.  The engines were subsequently returned to service and refitted to the 
 helicopter.  
 3.2.3.  Fuel samples were taken from the engines and from each fuel tank  and tested .  All samples 
@@ -517,7 +517,7 @@ ambulance flights.
 3.3.2.  The helicopter involved in this incident  had been manufac tured in Japan in 1990 , and had 
 been imported to New Zealand by the operator in 1996.  At the  time of the incident it had 
 accrued 6 ,295 flight  hours .  There were no outstanding maintenance tasks or deferred 
-defects recorded in the aircraft ’s logbooks , and  it had a valid non -terminating airworthiness 
+defects recorded in the aircraft 's logbooks , and  it had a valid non -terminating airworthiness 
 certificate.  
 Fuel sys tem 
 3.3.3.  The fuel tanks were loc ated underneath the cabin floor (see Figure  1)8.  The arrangement 
@@ -545,7 +545,7 @@ that an adequate supply of fuel to the supply tanks , and thus to the engines,  
 7 A magnetic chip detector is a probe installed in an engine or gearbox oil system that attracts ferrous debris.  
 It can be removed and inspected to detect the early signs of impending metal component failu res. 
 8 All diagrams are sourced from the Bolkow BK117 systems training manual.  
-9 Attitude is t he orientation of an aircraft ’s axis with respect to the horizon , in this case the pitch or 
+9 Attitude is t he orientation of an aircraft 's axis with respect to the horizon , in this case the pitch or 
 longitudinal axis.  
 
 << Page 6 >>
@@ -581,15 +581,15 @@ caution lights were installed  to indicate the possible need for future correcti
 pilot.  
 3.3.8.  The central annunciator panel had warning and caution lights for the fuel system , which  
 indicate d low fuel level and /or low fuel pressure conditions , as well as the status of t he fuel 
-transfer pumps.  A ‘FUEL LOW I ’ (left tank ) or ‘FUEL LOW  II’ (right tank ) caution light  
+transfer pumps.  A 'FUEL LOW I ' (left tank ) or 'FUEL LOW  II' (right tank ) caution light  
 illuminated if either the left or right supply tank (respectively) fuel level droppe d to below 23  
-kg.  A ‘FUEL PRESS I ’ (left engine ) or ‘FUEL PRESS II ’ (right engine ) warning light illuminated  if 
+kg.  A 'FUEL PRESS I ' (left engine ) or 'FUEL PRESS II ' (right engine ) warning light illuminated  if 
 the pressure in the left or ri ght (respectively) engine fuel pump inlet dropped  to below 5.8 
 pounds per square inch . 
-3.3.9.  There were two caution lights for the fue l transfer pumps .  The ‘F PUMP XFER FWD ’ or ‘F PUMP 
-XFER AFT ’ light illuminated if either the forward or  rear transfer pump switch  respectively  was 
+3.3.9.  There were two caution lights for the fue l transfer pumps .  The 'F PUMP XFER FWD ' or 'F PUMP 
+XFER AFT ' light illuminated if either the forward or  rear transfer pump switch  respectively  was 
 selected to off.   If any of the warning or caution lights came on in flight , a master warn ing light 
-above the flight instruments illuminated  to catch the pilots’  attention and indicated that there 
+above the flight instruments illuminated  to catch the pilots'  attention and indicated that there 
 was an annunciator panel light on . 
 3.3.10.  All of the warning and caution lights of the fuel system were checked after the incident, and all 
 of them  were found to be serviceable  and functioning as they were designed to.   
@@ -613,13 +613,13 @@ and dim when the dim mer switch  was moved into the variable range.  T here was 
 manually adjusting the brightness of  the warning or caution lights. The  brightness of the  flight 
 instruments and engine indication  gauges was adjusted through the dimmer switch , so that 
 suitable levels of illumination could be set by the pilot for diffe rent ambient light  conditio ns.  
-To assist with the pilot’s night vision  a low setting was typically used for night -time operations , 
+To assist with the pilot's night vision  a low setting was typically used for night -time operations , 
 and a bright setting was used for daytime operations to make  them  more visible in direct 
 sunlight.  
 3.5. Personnel information  
 3.5.1.  The pilot held a commercial pilot licence (helicopter), which had been issued by the CAA in July 
 1988.  He had gained a type rating on the BK117 series helicopter in September 2007, and at 
-the time of the incident had 267 hours ’ flying experience on th at type, and a total of 9,336 
+the time of the incident had 267 hours ' flying experience on th at type, and a total of 9,336 
 hours on helicopters.  
 3.5.2.  The pilot had flown 25 hours i n the previous 30 days and four hours in the previous seven 
 days .  Nearly all of this flying had been in another helicopter type, the AS350 .  The exception 
@@ -636,7 +636,7 @@ Final report AO -2014 -002
 << Page 9 >>
  4. Analysis  
 4.1. Introduction  
-4.1.1.  The inquiry found no mechanical reason for the engines ’ loss of  power on the incident flight.  It 
+4.1.1.  The inquiry found no mechanical reason for the engines ' loss of  power on the incident flight.  It 
 was determined the power losses were due to fuel starvation11. 
 4.1.2.  The following analysis  discusses the circumstances leading up to and cont ributing to the 
 double  engine power loss .  It also discusses a number of safety issues that directly or 
@@ -665,7 +665,7 @@ the engines would have lost power within  seconds  of each other.   The helicopt
 minutes into the flight when both engines lost power within a short space of time.   Therefore it 
 is highly likely that the pilot  had left the fuel transfer pumps  off after starting the engines .  This 
 allowed the supply tanks to run  dry, causing both engines to lose power.  
-4.2.3.  A possible reason for  the pilot’s  omission was his lack of r ecent experience on the BK117 
+4.2.3.  A possible reason for  the pilot's  omission was his lack of r ecent experience on the BK117 
 helicopter.  He had almost exclusively flown the AS350  helicopter type leading up to the 
 incident flight.  The AS350 is a smaller , single -engine helicopter made by a different 
 manufacturer, and has a simpler fuel system than t hat of the BK117.  
@@ -680,10 +680,10 @@ operat ion is a recognised human error .  In the context of human factors in avi
 11 Fuel starvation is where there is adequate fuel on board an aircraft to run the engines, but it is unable to 
 be deli vered to the engine, through  either a blockage or failure in the fuel system or incorrect fuel system 
 management by the pilot.  
-12 This was based on the pilot’s recollection provided to the Commission.  
+12 This was based on the pilot's recollection provided to the Commission.  
 
 << Page 10 >>
- Final report AO -2014 -002 sometimes called ‘negative transfer’13.  Having e xperience and  currency on the helicopter type  
+ Final report AO -2014 -002 sometimes called 'negative transfer'13.  Having e xperience and  currency on the helicopter type  
 is one way of  reducing the likelihood of it happening  (refer to section  4.5).  The use of 
 checklists is another , more reliable method . 
 4.2.6.  Commercial helicopter operators are required by Civil Aviation Rules (CAR)  to have cockpit 
@@ -747,7 +747,7 @@ vision goggles , and that the pilot could see and interpret all the lights in th
 with night vision goggles on or off.  As part of this assessment there was a test to determine if 
 the daylight readability of the lights had been adversely affected  by the modification .  These 
 readability and attention -getting tests were subjective , involving representatives from t he CAA 
-and the  organisation that designed  the modification viewing the lights from the pilot’s position 
+and the  organisation that designed  the modification viewing the lights from the pilot's position 
 in different ambient lighting conditions.  
 4.3.8.  The test procedure guidelines for assessing daylight readability state that if the lights have 
 brightness control (a dimmer ) this test should be conducted at various settings.  H owever , in 
@@ -816,7 +816,7 @@ occurred, and much longer to determine why it has happened. This delay did not a
 time in this case  for the pilot to detect and correct  the fuel transfer pump switch positions 
 before the second engine lost power.  At this stage it was unlikely that power from either 
 engine could be restored immediately  due to the interruption of fuel flow and the air being 
-drawn into the engines’ fuel sys tem.  If this series of events had happened at a low altitude 
+drawn into the engines' fuel sys tem.  If this series of events had happened at a low altitude 
 the only option would have been to carry out an autorotation.   
 4.4.2.  Later helicopter designs that were developed from the BK117 incorporated fuel supply tanks 
 of different capacities.  This meant that in helicopters such as the EC13518, if the transfer 
@@ -867,7 +867,7 @@ flight the day before the incident  the pilot h ad flown it once in January 2014
 2013 and before that in September 2012.  Despite the lack of recent experience on the  
 BK117 , no additional training or check  flights  had been carried out on the type  with the pilot 
 during this period . 
-4.5.6.  A pilot’s knowledge , experience , proficiency and currency  on an aircraft type are key factor s in 
+4.5.6.  A pilot's knowledge , experience , proficiency and currency  on an aircraft type are key factor s in 
 safe operation s.  Meeting  the minimum requirements set out in the CAR , and following robust 
 company procedures that ensur e pilots are adequately trained and current o n an aircraft type , 
 are important f actors in  maintaining pilot competency within an organisation.  
@@ -903,10 +903,10 @@ the currency and competenc y of all pilots.
 4.6.4.  The shared  delegation of  training and competency responsibilities between t hree  managers  
 made it harder for the operator to ensure  that all training and competency requirements under  
 CAR Part 13 5 were being met.  These responsibilities are traditionally  held by one person, a 
-training manager, who controls the pilots’  annual recurrent training program me and 
+training manager, who controls the pilots'  annual recurrent training program me and 
 competency checks and is normally a line pilot who flies with the pilots.  It is easier for a 
 training manager who flies with the pilots, maintains th e training records and conducts  the 
-competency checks to maintain oversight of all pilots’ proficiency and curren cy. 
+competency checks to maintain oversight of all pilots' proficiency and curren cy. 
 4.6.5.  It was unclear from the company operations manual and check and training manual who 
 within the company was ultimately responsible for ensur ing that all pilots were adequately 
 trained, current and competent.  The duplication and overlapping of responsibilities meant 
@@ -929,7 +929,7 @@ transfer pumps after starting the engines.
 5.2 The pilot should not have operated the flight because he had not been assessed for his type -
 specific knowledge or checked for competency on the BK117 in the previous five years, and 
 he lacked recent experience on the aircraft type.  
-5.3 The operator’s system for maintaining oversight of its pilots’ proficiency and currency was not 
+5.3 The operator's system for maintaining oversight of its pilots' proficiency and currency was not 
 robust enough to ensure  that this pilot was proficient and sufficiently current  to fly the BK117.  
 5.4 A cockpit lighting modification to the helicopter had adve rsely affected the readability of the  
 caution lights during daylight , when the dimmer switch was on.  Brightly illuminated caution 
@@ -990,11 +990,11 @@ observations and specific comment to the proposed recommendation.
 Based on those observations and comments, the Director considered that the 
 weight of evidence indicated pilot mismanagement of the engine start 
 process not the annunciator lighting.  Therefore, the subsequent safety 
-lessons are more aligned to the pilot and the operator’s adherence to the 
+lessons are more aligned to the pilot and the operator's adherence to the 
 recommended practices contained within the aircraft flight manual and the 
 observance of rules. Therefore, the Director will not implement the 
 recommendation.  
-7.4. The operator ’s management of pilot competency was found to be insufficiently robust to 
+7.4. The operator 's management of pilot competency was found to be insufficiently robust to 
 ensure that pilots who lacked recent experience on an aircraft type were given additional 
 training and increased supervision.  In this case a pilot who was not proficient or sufficiently 
 current on the aircraft type was allowed to operate the flight.  
@@ -1011,20 +1011,20 @@ incorporated into the company;
  GCH have implemented a new standard operating procedure requiring 
 all pilots conducting EMS work to complete six monthly competency 
 checks. - Effective immediately following incident  
- Additional pilots have been added to the EMS roster. –December 2014  
+ Additional pilots have been added to the EMS roster. -December 2014  
 Final report AO -2014 -002 
 << Page 19 >>
-  The company SOP regarding pilot’s competency has been revised .  A 
+  The company SOP regarding pilot's competency has been revised .  A 
 matrix has now been incorporated to effectively track pilot currency and 
 competency on all aircraft types they are rated to fly.  This also recor ds 
 the aircraft type that the preceding check was completed in, to ensure 
 where possible competency checks are rotated through the aircraft 
-types a pilot is rated to fly. – August 2015  
+types a pilot is rated to fly. - August 2015  
  GCH replaced its training manager with an experience Airline Flight 
-Examiner – October 2015  
+Examiner - October 2015  
  GCH carried out a comprehensive review of its CAA 141 Check and 
 Training Procedures Manual.  The manual has been rewritten and 
-submitted to CAA for approval. – March 2016  
+submitted to CAA for approval. - March 2016  
 Garden City Helicopters would like to thank TAIC for the conside rable time 
 and resources that have been allocated to compiling the report.  GCH have 
 fully implemented all recommendations outlined in the TAIC letter dated 25th 
@@ -1062,7 +1062,7 @@ Final report AO -2014 -002
  9. Citations  
 Bolkow, BK117 systems training manual  
 Civil Aviation Authority ( 2011), Civil Aviation Rules, Part 61, Pilot Licences and Ratings  
-Civil Aviation Authority (2015), Civil Aviation Rules, Part 135, Air Operations  – Helicopter and Small 
+Civil Aviation Authority (2015), Civil Aviation Rules, Part 135, Air Operations  - Helicopter and Small 
 Aeroplanes  
 Flight Safety Foundation (1 999), Helicopter Safety, Volume 25 No. 2  
 National Transportation Safety Board (2009), FTW01LA166, Accident Report N313LS  

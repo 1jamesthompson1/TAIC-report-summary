@@ -1,80 +1,64 @@
-- name: Human Factors - Fatigue and Alertness
+- name: Training and Competency
+  percentage: 30
+  explanation: The report identifies a significant lack of adequate training for the master on the Kea's new control system. The master had a limited understanding of the system's functionality and the various backup functions that could have been used to regain control of the Kea (4.3.3, 4.3.5, 4.3.14, 4.3.15). This lack of training directly contributed to the inability to prevent or mitigate the collision, making it a major factor in the accident.
+- name: Training and Familiarity with Equipment
+  percentage: 20
+  explanation: The master's unfamiliarity with the emergency steering and shutdown mechanisms for the propulsion systems in the event of an emergency was a contributing factor to the accident (4.3.5, 4.3.7). This indicates that not only was the training inadequate, but the master also lacked hands-on experience and familiarity with the new equipment, which is critical for safe operation, especially in emergency situations.
+- name: Adherence to Safety Procedures
+  percentage: 15
+  explanation: The master did not confirm the visual indicators were flashing when transferring control of the propulsion units, and he did not check the graphic display panel to confirm that the transfer had taken place (4.2.8). This lack of adherence to safety procedures contributed to the master's incorrect belief that he had successfully transferred control, leading to the collision.
+- name: Risk Management and Analysis
+  percentage: 15
+  explanation: Fullers failed to undertake a proper risk assessment when reliability issues with the control system were known, and the Kea was allowed to enter and continue service using the follow-up mode despite known faults (4.4.1, 4.4.2, 4.4.5). This lack of risk management and analysis was a significant oversight that allowed the vessel to operate under unsafe conditions.
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The disestablishment of the marine manager position and the lack of clarity on who was responsible for crew training and development under the new structure indicate issues with the organizational safety culture at Fullers (4.3.9, 4.3.10). This contributed to the absence of a structured training program and the master's inadequate preparation for operating the new control system.
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The report suggests that there was insufficient surveyor oversight of the project to replace the Kea's propulsion control system (4.5.1-4.5.9). Although it is a matter of interpretation whether the replacement was a major modification requiring more rigorous surveyor involvement, the critical nature of the control system warranted greater scrutiny, which was not enforced by regulatory oversight.
+- name: Human Error and Assumptions
+  percentage: 5
+  explanation: The master's assumption that he had successfully transferred control of the propulsion units, despite not verifying this with the visual indicators, represents a human error and assumption that contributed to the accident (4.2.8, 4.2.9).
+- name: Emergency Response Preparedness
   percentage: 0
-  explanation: 'There is no mention of fatigue or alertness issues in the document. The master''s physical and mental state is not discussed as a contributing factor to the accident.
+  explanation: 'There is no direct mention in the report of a lack of emergency response preparedness contributing to the accident. The master''s unfamiliarity with emergency procedures is covered under training and familiarity with equipment.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: 'The report does not indicate that maintenance and inspection regimes were a contributing factor to the accident.
+
+    '
+- name: Use of Automation
+  percentage: 0
+  explanation: 'While the report discusses issues with the control system, it does not specifically attribute the accident to the use of automation or over-reliance on automated systems.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'Weather conditions are not mentioned as a contributing factor to the accident in the report.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'The report does not indicate that communication breakdown among crew or between crew and other parties was a contributing factor to the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no mention of issues related to Crew Resource Management contributing to the accident in the report.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'Fatigue is not mentioned as a contributing factor in the report, so it is not considered in the weighting.
 
     '
 - name: Situational Awareness
-  percentage: 10
-  explanation: 'The master''s situational awareness was compromised due to his unfamiliarity with the new control system and the lack of confirmation of the visual indicators during the transfer of control ("4.2.8", "4.2.9").
-
-    '
-- name: Distracted Operation
   percentage: 0
-  explanation: 'There is no evidence in the document that the master was engaged in non-essential activities that could have diverted his attention from controlling the vessel at the time of the accident.
-
-    '
-- name: Human Error and Error Management
-  percentage: 20
-  explanation: 'Human error played a significant role in the accident, as the master likely did not press the ''give-away'' button with sufficient force, and there was a lack of error management in confirming the transfer of control ("4.2.5", "4.2.6", "4.2.8").
-
-    '
-- name: Safety Culture and Organizational Influences
-  percentage: 15
-  explanation: 'The organizational influences and safety culture at Fullers were lacking, as evidenced by the inadequate training and familiarization system, and the absence of a structured training program for the new control system ("4.3", "4.3.15").
-
-    '
-- name: Communication and Crew Resource Management
-  percentage: 5
-  explanation: 'Communication issues were present, particularly the indistinguishable audible alarms and the master''s failure to use all available cues to confirm the status of the propulsion system ("4.2.6", "4.2.9").
-
-    '
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 20
-  explanation: 'The master''s lack of training and preparedness for emergency procedures was a significant factor, as he was not familiar with the emergency steering and shutdown mechanisms that could have averted or reduced the impact of the collision ("4.3.5", "4.3.7").
-
-    '
-- name: Emergency Response Planning and Coordination
-  percentage: 0
-  explanation: 'The document does not provide information on emergency response planning and coordination as a factor in the accident.
-
-    '
-- name: Maintenance Procedures and Compliance
-  percentage: 0
-  explanation: 'There is no indication that maintenance procedures and compliance were an issue in the accident, as the focus was on the new control system''s reliability and the crew''s familiarity with it.
-
-    '
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'Fire detection and suppression systems are not mentioned as a factor in the accident.
-
-    '
-- name: Regulatory Compliance and Safety Management
-  percentage: 10
-  explanation: 'Fullers did not adequately manage the risks associated with the replacement of the Kea''s propulsion control system and the vessel''s re-entry to service, indicating issues with regulatory compliance and safety management ("4.4", "4.5").
-
-    '
-- name: Equipment Design and Specifications
-  percentage: 10
-  explanation: 'The design and specifications of the new control system were a factor, as the follow-up mode was known to be faulty and unreliable, yet the vessel was allowed to enter service with this mode active ("4.4.1", "4.4.4").
-
-    '
-- name: Risk Assessment and Management
-  percentage: 10
-  explanation: 'Fullers'' failure to perform a risk assessment when reliability issues with the control levers were known contributed to the accident ("4.4.1", "4.4.2").
-
-    '
-- name: Weather Information Dissemination and Interpretation
-  percentage: 0
-  explanation: 'Weather is not mentioned as a contributing factor to the accident in the document.
-
-    '
-- name: Structural Integrity and Material Fatigue
-  percentage: 0
-  explanation: 'There is no mention of structural integrity or material fatigue contributing to the accident.
+  explanation: 'While situational awareness is critical, the report does not specifically cite a loss of situational awareness as a contributing factor to the accident. The master''s actions seem to be more related to training and familiarity with the equipment.
 
     '
 - name: Other
   percentage: 0
-  explanation: 'There are no additional safety themes identified in the document that contributed to the accident.
-
-    '
+  explanation: There are no additional safety themes identified in the report that contributed to the accident outside of those already defined.

@@ -178,7 +178,7 @@ Important n otes
 Nature of the final report  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
 against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
-final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
  
 Ownership of report  
 This report remains the intellectual property of the Transport Accident Investigation Commission.   
@@ -186,10 +186,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 to the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to i ndustry participants only and not 
 discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are publicly available are cited.  
+documents referred to during the Commission's inquiry that are publicly available are cited.  
  
 Photographs, diagrams, pictu res 
 Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
@@ -253,18 +253,18 @@ Safety actions addressing safety issues identified during an inquiry  ..........
 General ................................ ................................ ................................ ................................ ....................  19 
 Recommendations made to the NZ Transport Agency  ................................ ................................ ........  19 
 8. Key lessons  ................................ ................................ ................................ ................................ .............  20 
-Appendix 1:  NZ Transport Agency’s Traffic control devices manual Part 9 Level crossings, Appendix B – 
+Appendix 1:  NZ Transport Agency's Traffic control devices manual Part 9 Level crossings, Appendix B - 
 Sight distances at level crossings  ................................ ................................ ................................ .........  21 
  
 
  
 Final report RO -2014 -101 | Page i Figures  
  
-Figure 1   The driver’s first sighting of the truck approaching Te Onetea Road level crossing  ...............  3 
+Figure 1   The driver's first sighting of the truck approaching Te Onetea Road level crossing  ...............  3 
 Figure 2  The approximate position of the heavy motor vehicle before impact ................................ ....... 4 
 Figure 3   Contact  damage to the right side of the locomotive  ................................ ................................ .. 5 
 Figure 4  Damage to the truck  ................................ ................................ ................................ ....................  5 
-Figure 5  The at rest location of the truck’s engine  ................................ ................................ ...................  6 
+Figure 5  The at rest location of the truck's engine  ................................ ................................ ...................  6 
 Figure 6   The WX42 acute -to-right sign  ................................ ................................ ................................ ...... 7 
 Figure 7   Stop assembly for the westbound road approach  ................................ ................................ ..... 7 
 Figure 8   The stopping position when the ground clearance height was set at 150 millimetres  .........  14 
@@ -278,7 +278,7 @@ Figure 10  Gouge mark on the road surface  ................................ ....
 Page ii | Final report RO -2014 -101 Abbreviations  
 ALCAM    Australian Level Crossing Assessment Model  
 Commission   Transport Accident Investigation Commission  
-Traffic Control Devices  the NZ Transport Agency’s Traffic Control Devices Manual , Part 9, Level   
+Traffic Control Devices  the NZ Transport Agency's Traffic Control Devices Manual , Part 9, Level   
 Manual  crossings, second edition, amendment 1  
 the train   the Northern Explorer  passenger train  
 the truck  a Kenworth prime mover hauling a three -axle, low-loader semi -trailer 
@@ -348,8 +348,8 @@ passengers and five crew on board, heading toward s the Te Onetea Road level cro
 Onetea Road, the driver looking for a suitable place to turn his long vehicle around.  The truck 
 was approaching the Te Onetea Road rail level crossing at the  same time  that the train was 
 coming into view.  
-1.3. The Te Onetea Road level crossing had passive controls protected by ‘Stop’ and ‘Look for 
-Trains’ signs.  The truck driver entered the level crossing without stopping and his trailer unit 
+1.3. The Te Onetea Road level crossing had passive controls protected by 'Stop' and 'Look for 
+Trains' signs.  The truck driver entered the level crossing without stopping and his trailer unit 
 grounded on the rise leading up to the rail tracks .  The truck became stuck , with its driving unit 
 obstructing the track along which the train was approaching.  
 1.4. The train driver saw the truck begin to pass over the level crossing and stop in the path of his 
@@ -359,16 +359,16 @@ collided with the driving unit at a speed of 78 kilometres per hour.
 did not derail a nd suffered minor damage to the locomotive only.  None of the train passengers 
 or crew was injured.  
 1.6. The Transport Accident Investigation Commission (Commission) found  that in this case the 
-train, which had its headlight and side ‘ditch lights’ switched on,  would have been visible to the 
+train, which had its headlight and side 'ditch lights' switched on,  would have been visible to the 
 truck driver as his truck reached the stop signs at the level crossing.  Had the driver stopped his 
 truck and looked for trains, the accident would likely not have happened.   However, there were 
 broader safety issues with th e level crossing that in different circumstances may have resulted 
 in the accident, even if the driver had stopped at the limit line of the level crossing.   
 1.7. The Commission identified two safety issues .  The first was that the view lines from the stop 
 limit line on the road, along the rail tracks in both directions, did not comply with the minimum 
-restart sighting distances set out in the NZ Transport Agency’s Traffic Control Devices Manual, 
+restart sighting distances set out in the NZ Transport Agency's Traffic Control Devices Manual, 
 Part 9, Level Crossings.   It was therefore possible that when a tr ain was just out of a truck 
-driver’s view, a fully road -compliant heavy road vehicle would not have sufficient time to pass 
+driver's view, a fully road -compliant heavy road vehicle would not have sufficient time to pass 
 over the level crossing without being struck by the train.  
 1.8. The second safety issue identified was that  level crossing assessment s do not require the road 
 profile and the alignment of roads on the approach  to and passing over level crossings to be  
@@ -393,7 +393,7 @@ occurrence and appointed an investigator in charge.
 conduct a site investigation .  The Commission investi gators maintained contact with on -site 
 personnel  from the N ew Zealand  Police Serious Crash Unit to ensure that volatile evidence was 
 photographed and recorded . 
-2.3. The Commission’s investigators interviewed : the next-of-kin of the driver of the heavy motor 
+2.3. The Commission's investigators interviewed : the next-of-kin of the driver of the heavy motor 
 vehicle; the driver of the Northern Explorer ; the second person travelling in the locomotive ; a 
 KiwiRail engineer responsible for monitoring the condition of the Te Onetea Road  level crossing ; 
 a Waikato District Council road engineer ; a local resident who was  the first person on the scene 
@@ -401,14 +401,14 @@ after the accident ; persons representing the owner of the heavy motor vehicle ;
 from a construction company who assisted in loading the roller on to the trailer of the heavy 
 motor vehicle.  
 2.4. The Commission obtained the following records  and documents  for analysis : 
- the download ed data from the train’s event recorder  
+ the download ed data from the train's event recorder  
  the train control diagram  
  the signal data log  
- the train controller’s voice recordings  
- the train driver’s training records and timesheets  
- the security recordings from the truck operator’s depot  
+ the train controller's voice recordings  
+ the train driver's training records and timesheets  
+ the security recordings from the truck operator's depot  
  the download ed data from the heavy motor vehicle  event recorder  
- the heavy motor vehicle driver’s training records and log book  
+ the heavy motor vehicle driver's training records and log book  
  the Te Onetea Road level crossing site survey data and outputs . 
 2.5. On Saturday 10 May 2014 the Commission held a controlled reconstruction of the accident at  
 the Te Onetea Road  level crossing using a similar driving unit that had the same axle spacing  as 
@@ -434,9 +434,9 @@ travelling southbound from Auckland to Wellington.  The train departed from Auck
 schedule at 0750 .  
 3.1.2.  The train passed through Te Kauwhata  crossing station at about 0937.  On board were 108 
 passengers, the train driver, a driver under training  (in the cab with the driver) , a train manager 
-and two passenger attendants.  The train’s headlight and ditch lights3 were switched on.   The Te 
+and two passenger attendants.  The train's headlight and ditch lights3 were switched on.   The Te 
 Onetea Road public level crossing is about 3.5 kilometres south of Te Kauwhata .  
-3.1.3.  Meanwhile at 0925 a truck consisting of a prime mover and a three -axle heavy ‘low -loader’ 
+3.1.3.  Meanwhile at 0925 a truck consisting of a prime mover and a three -axle heavy 'low -loader' 
 trailer (the truck) used for transporting heavy construction equipment had arrived at a Flet cher 
 Construction site on Te Onetea Road , carrying a 23 -tonne excavator on the trailer.  
 3.1.4.  With the help of an assistant t he truck driver unloaded the excavator.  They then loaded  a roller 
@@ -451,7 +451,7 @@ Figure 1 ).
  
  
 Figure 1  
-The train driver’s first sighting of the truck approaching the Te Onetea Road  level crossing  
+The train driver's first sighting of the truck approaching the Te Onetea Road  level crossing  
 (photograph taken by New Zealand  Police at incident reconstruction held on 10 May 2014)  
                                                         
 3 Ditch lig hts are two lights positioned low down on the front of a locomotive that alternately flash when the 
@@ -475,7 +475,7 @@ Figure 2
 The approximate position of the truck  before impact   
 (photograph taken by N ew Zealand  Police at the incident reconstruction held on 10 May 2014)  
 3.1.9.  The train driver  warned  the driver under training  then  vacated his driving position  and placed  
-himself in a ‘safe position ’ between the brake pedestal and the rear wall of the locomotive cab.  
+himself in a 'safe position ' between the brake pedestal and the rear wall of the locomotive cab.  
 The train was travelling at 78 kilometres per hour when it struck the truck .  The train stopped 
 270 metres past the level crossing .  All the carriages and the locomotive stay ed on the track . 
 None of the 108 passengers or train crew was injured. The truck driver was thrown clear of the 
@@ -486,7 +486,7 @@ The diesel fuel tank was punctured , resulting in slight seepage that was later 
                                                         
 4 The northbound track is the left -hand track when travelling from Wellington to Auckland . 
 5 The southbound track is the left -hand track when travelling from Auckland to Wellington . 
-6 Distance, times and speeds were taken from the train’s event recorder downloaded data.  
+6 Distance, times and speeds were taken from the train's event recorder downloaded data.  
 7 A cowcatcher is a metal structure at the front of a locomotive designed to deflect obstacles on the track 
 that might otherwise derail the train.  
 
@@ -503,14 +503,14 @@ driving unit was damaged beyond repair.
 Figure 4 
 Damage to the truck   
 (photograph provided by N ew Zealand  Police)  
-3.2.3.  The truck’s engine was torn from its mountings and came to rest  46 metres from the 
+3.2.3.  The truck's engine was torn from its mountings and came to rest  46 metres from the 
 southbound line  (see Figure 5). 
 
 
 << Page 6 >>
  Final report RO -2014 -101  
 Figure 5 
-The at-rest location of the truck’s engine  
+The at-rest location of the truck's engine  
 (photograph provided by N ew Zealand  Police)  
 3.2.4.  The semi -trailer had damage to  the right front corner of the skid plate8.  Most  of the hydraulic 
 hoses and fittings at the front of the trailer  were severely damaged .  
@@ -524,12 +524,12 @@ Council,  confirmed that the ma ximum speed limit of 100 kilometres per hour  ap
 3.2.7.  The most recent Te Onetea Road level crossing site survey , carried out on 20 March 2012 , had 
 showed there were 28 road vehicle crossing s and 31 train crossings per day.  
 3.2.8.  The Te Onetea Road public level crossing was equipped with passive controls9.  The NZ 
-Transport Agency’s Traffic  Control Devices Manual , Part 9, Level crossings, second edition, 
+Transport Agency's Traffic  Control Devices Manual , Part 9, Level crossings, second edition, 
 amendment 1  (Traffic  Control Devices Manual ), provided guidance on the use and placement of 
 approved traffic sign s at public level crossings.  
-3.2.9.  The Traffic  Control Devices Manual  required the road controlling authority to erect a ‘level 
-crossing ahead ’ warning sign consisting of a steam train symbol on the left -hand side of the 
-road at a minimum distance of 160 metres before  the level crossing .  The ‘level crossing ahead ’ 
+3.2.9.  The Traffic  Control Devices Manual  required the road controlling authority to erect a 'level 
+crossing ahead ' warning sign consisting of a steam train symbol on the left -hand side of the 
+road at a minimum distance of 160 metres before  the level crossing .  The 'level crossing ahead ' 
 warning sign was missing  on the day of the accident.   
 3.2.10.  The road crossed the railway lines at a 55 -degree angle.  A sign10 advising as such was 
 positioned 75 metres before  the level crossing, in accordance with the Traffic  Control Devices 
@@ -547,10 +547,10 @@ Final report RO -2014 -101
   
 Figure 6 
  The WX42 acute -to-the-right sign  (photograph provided by New Zealand  Police)  
-3.2.11.  Pole-mounted railway stop assembl ies, each consisting of a crossbuck ‘RAILWAY CROSSING’  
-mounted above a ‘STOP ’ sign, were  erected on each side of the road in both directions (four in 
+3.2.11.  Pole-mounted railway stop assembl ies, each consisting of a crossbuck 'RAILWAY CROSSING'  
+mounted above a 'STOP ' sign, were  erected on each side of the road in both directions (four in 
 total ) (see Figure 7) .  Additionally, one pole assembly  in each approach direction had a  yellow 
-‘LOOK  FOR TRAINS’  sign.  Similarly, a ‘2 TRACKS ’ sign warning drivers that there were two 
+'LOOK  FOR TRAINS'  sign.  Similarly, a '2 TRACKS ' sign warning drivers that there were two 
 tracks to cross was attached to the other pole on either side of the crossing .  
  
 Figure 7  
@@ -586,21 +586,21 @@ accident could not be established  due to a disruption of the hydraulic lines ca
 collision . 
 3.4. Environmental conditions  
 3.4.1.  Sunrise at Rangiriri was at 0703 o n 27 February 2014 .  The weather was fine and clear when 
-the accident occurred at about 094 2.  At that time the sun’s azimuth12 was 76.3 degrees at an 
-altitude13 of 30.81 degrees.  On -site observation confirmed that the driver’s sighting of the train 
+the accident occurred at about 094 2.  At that time the sun's azimuth12 was 76.3 degrees at an 
+altitude13 of 30.81 degrees.  On -site observation confirmed that the driver's sighting of the train 
 was unlikely to have been compromised by glare from the sun.  
 3.5. Personnel  
 The train driver  
 3.5.1.  The train driver had been employed by KiwiRail and its predecessors for almost 40 years.  He 
 had been driving freight and passenger trains for all but one year of his employment.  His 
 certification was current at the time of the accident.  
-3.5.2.  The driver’s post -accident drug and alcohol test produced  a negative  result . 
+3.5.2.  The driver's post -accident drug and alcohol test produced  a negative  result . 
 The tru ck driver  
 3.5.3.  The truck driver had  had two work periods with Porter Haulage, having been re -employed on 2 
 September 2013.  He had no known health issues at the time of the accident and no issues 
 were noted on his pre -employment questionnaire .  He had completed  a driver assessment at 
 the start of his first period of employment.   
-3.5.4.  The truck  driver held a current driver’s licence for the class of vehicle he was driving .  His 
+3.5.4.  The truck  driver held a current driver's licence for the class of vehicle he was driving .  His 
 primary duties included the transport of heavy construction equipment such as bulldozers, 
 excavators, forklifts, graders, loaders and rollers.   He was also qualifi ed to drive heavy motor 
 vehicle combinations over weight -restricted bridges without the need for an  accompanying 
@@ -612,13 +612,13 @@ certified pilot.
 Final report RO -2014 -101 
 << Page 9 >>
  3.5.5.  Soon after arriving at work at 054314 he had checked his truck  and then  discussed his work 
-schedule with the dispatcher , who noted nothing unusual in the driver’s demeanour.  He 
+schedule with the dispatcher , who noted nothing unusual in the driver's demeanour.  He 
 departed from his workplace at 0616 .  
-3.5.6.  There was no activity on the truck driver’s mobile phone at the time of the collision.   Post-
+3.5.6.  There was no activity on the truck driver's mobile phone at the time of the collision.   Post-
 accident tests revealed  no evidence of alcohol or other performance -impairing substances . 
                                                         
-14 The truck driver’s work schedule was determined from a combination of workplace security cameras and 
-the truck’s vehicle management system.   
+14 The truck driver's work schedule was determined from a combination of workplace security cameras and 
+the truck's vehicle management system.   
 
 << Page 10 >>
  Final report RO -2014 -101 4. Analysis  
@@ -628,15 +628,15 @@ level crossings, resulting in eight fatalities.
 4.1.2.  Of the 1,320 public road level crossings on the national rail network , 425 (32 %) are protected 
 by flashing lights and bells and 280 (21 %) are protected by half -arm barriers plus flashing lights 
 and bells.  The other 615  public road level crossings  are protected by passive signs .  The Te 
-Onetea Road  level crossing was a public level crossing protected by a passive ‘ STOP ’ sign.  
+Onetea Road  level crossing was a public level crossing protected by a passive ' STOP ' sign.  
 4.1.3.  Statistics show that t he installation  of active protection at public road level crossings does  not 
-eliminate train /motor vehicle collisions  at level crossings .  KiwiRail’s records showed that in the 
+eliminate train /motor vehicle collisions  at level crossings .  KiwiRail's records showed that in the 
 10-year period before this accident , 12% of all level crossing collisions had occurred at 
 crossings protected by half-arm barriers and flashing lights and bel ls, and 37 % of the collisions 
 had occurred at level crossings that were protected by  flashing lights and bells  (49% for all 
 crossings installed with active protection) . 
 4.1.4.  The Railways Act 2005 g ives rail vehicles the right of way over road vehicles at level crossings.  
-The train’s event recorder showed that at the time of the accident the driver was complying with 
+The train's event recorder showed that at the time of the accident the driver was complying with 
 operating procedures .   
 4.1.5.  The National Rail System Standard  6, Engineering Interoperability , require s that locomotive -
 hauled passenger trains be able to stop within a distance of 750 metres when travelling at a 
@@ -665,7 +665,7 @@ crossing , expecting that the dri ver of the truck  would stop at the level cros
 train to pass.  
 4.2.2.  When  the train was about halfway around the curve the driver saw that the truck  was still 
 moving forward and was already obstructing the adjacent northbound track, so he soun ded the 
-train’s whistle to warn the driver of the truck that his train was approaching .  The whistle was 
+train's whistle to warn the driver of the truck that his train was approaching .  The whistle was 
 sounded 11 seconds before reaching the level crossing.  
  
 Final report RO -2014 -101 
@@ -683,9 +683,9 @@ driving axles on the driving unit.
 struck with sufficient force to eject the 500 -kilogram engine 46 metres from the truck.  
 4.2.6.  The driver too was flung from the truck , and from the lack of trauma signs within the truck cab  it 
 appears likely that when the collision occurred he was standing outside the cab, possibly on the 
-running board.  The driver’s door was further evidence supporting this hypothesis.  When it was 
+running board.  The driver's door was further evidence supporting this hypothesis.  When it was 
 examined at the accident site the door latch was noted to be in the open position.   A more 
-detailed examination  of the door ‘catch ’ and ‘latch ’ system was carried out by a qualified 
+detailed examination  of the door 'catch ' and 'latch ' system was carried out by a qualified 
 vehicle inspector the day after the accident.  The inspector determined that neither component 
 had been forced, leading to the conclusion  that the driver had opened it before the collis ion. 
 4.2.7.  It has not been possible to determine at what point the truck driver noticed the train, or whether 
@@ -696,13 +696,13 @@ to have left  the cab  to investigate his truck becoming  stuck on the level cro
 been visible to the truck driver for 19 seconds before it reached the level crossing.  A n analysis 
 of the timing of events show ed that the train would  have been visible to the driver when his 
 truck reached the stop limit lines  at the level crossing . 
-4.2.9.  The train headlight and the ‘ditch ligh ts’ were  alerting mechanisms that the driver may have 
+4.2.9.  The train headlight and the 'ditch ligh ts' were  alerting mechanisms that the driver may have 
 noticed.  Equally, the sound of the whistle could have alerted the truck driver.  However, the 
 post-accident examination determined that the truck windows were closed at the time.  The 
 accident reconstruction showed that with the truck engine running and the windows closed , it 
 would have been difficult for the driver to hear  the train whistle . 
 4.2.10.  The accident reconstruction included two scenarios: stopping at the (stop) limit line  before  
-entering the level crossing; and entering the level cr ossing without stopping .  The trailer’s 
+entering the level crossing; and entering the level cr ossing without stopping .  The trailer's 
 ground clearance was set at 200 millimetres to ensure that it passed over the level crossing 
 without grounding and becoming stuck.   
 4.2.11.  From a standing start at the  limit line it took an average of 14.3 seconds for the test vehicle to 
@@ -716,7 +716,7 @@ The road signage required that the driver stop his truck and look for trains bef
 across the level crossing.  Complying with the road rules for veh icles stopping at stop signs will 
 reduce the risk of an accident by giving drivers more time to look for trains, assess the situation 
 and consider any risk before proceeding.  This is a key lesson arising from this inquiry . 
-4.2.13.  The roadside ‘level crossing ahead’ warning  sign in the direction from which the truck was 
+4.2.13.  The roadside 'level crossing ahead' warning  sign in the direction from which the truck was 
 approaching the level crossing was missing.  However, this is unlikely to have resulted in the 
 driver being unaware that he was approaching a level crossing.  The movement of a large 
 vehicle down s uch a narrow road would have been slow, which is consistent with the train driver 
@@ -743,8 +743,8 @@ collision occurred.
 level crossing in time for him to stop his truck.  
  
 4.3. Sighting distance s at the Te Onetea Road  level crossing  
-Safety issue – The sighting distance available to drivers of long vehicles to cross the Te Onetea 
-Road  level crossing safely did not comply with the N Z Transport Agency’s Traffic Control 
+Safety issue - The sighting distance available to drivers of long vehicles to cross the Te Onetea 
+Road  level crossing safely did not comply with the N Z Transport Agency's Traffic Control 
 Devices Manual . 
 4.3.1.  The Australian Level Crossing Assessment Model (ALCAM) is an assessment tool adopted by 
 New Zealand used to identify key potential risks at level crossings and to assist in the 
@@ -792,26 +792,26 @@ Commission has recommended that the chief executive of the N Z Transport Agency 
 this safety issue . 
 Finding  
 7. The sighting distances for road users of the  Te Onetea Road level crossing did not 
-meet the minimum standards as set out in the NZ  Transport Agency’s Traffic 
+meet the minimum standards as set out in the NZ  Transport Agency's Traffic 
 Control Devices Manual .  It was possible that fully compliant , long, heavy r oad 
 vehicles complying with the compulsory stop signs would have  had insufficient 
 time to clear the level crossing from a standing start . 
  
  
 4.4. The road profile     
-Safety issue – level crossing assessments do  not require the  road  profile and the alignment of 
+Safety issue - level crossing assessments do  not require the  road  profile and the alignment of 
 roads on the approach to and passing over level crossings to be routinely measured .  Therefore 
 there are no check s made to ensure that all road -legal vehicles can pass over level crossing s 
 without becoming stuck . 
 4.4.1.  The minimum ground clearance f or a heavy motor vehicle15 on New Zealand roads is the 
 greater of 100 millimetres or  6% (60 millimetres per metre) of the distance from the nearest 
 axle to the point where the ground clearance is measured.   For the truck involved in this 
-accident  the distance from the trailer’s leading axle to the low point of the trailer underframe  
+accident  the distance from the trailer's leading axle to the low point of the trailer underframe  
 was less than 1.66 metres , therefore a  minimum ground clearance of 100 millimetres applied.   
 The truck complied with this requirement.  
-4.4.2.  At the re construction  exercise t he trailer’s ground clearance was lowered to the minimum 100 
+4.4.2.  At the re construction  exercise t he trailer's ground clearance was lowered to the minimum 100 
 millimetres and the truck  was driven onto the level crossing.  The underframe  in front of the 
-trailer’s leading axle came in  to contact with the road surface before the driving unit reached  
+trailer's leading axle came in  to contact with the road surface before the driving unit reached  
 the southbound track .  Despite the driver applying more power , the truck could not be driven 
 forward.  
                                                         
@@ -839,19 +839,19 @@ Gouge mark on the road surface  (photograph provided by New Zealand  Police)
 4.4.4.  The reconstruction exercise showed that the trailer grounded and the truck became stuck on 
 the level crossing when the trailer height was set at the legal minimum height of 100 
 millimetres .  The exercise was repeated with  the ground clearance height set at 150 millimetres  
-with similar results – the trailer grounded and the truck became stuck  (see Figure 8) .  Only with 
+with similar results - the trailer grounded and the truck became stuck  (see Figure 8) .  Only with 
 the minimum ground clearance height set at 200 millimetres (twice the minimum legal 
 standard ) was the truck able to pass over the level crossing .   
 4.4.5.  The Commission has raised the issue of road profile s over level crossings in a previous report 
 (Commission report 11 -104)16.   
-4.4.6.  In that report the Commission found that “the profile of the Beach Road , Paekakariki, level 
+4.4.6.  In that report the Commission found that "the profile of the Beach Road , Paekakariki, level 
 crossing and the adjacent section of road leading up to the intersection with State Highwa y 1 
-were not well suited for long and low road vehicles ”, and that “the bus [involved in that 
-accident] complied with all aspects of the Land Transport Rule: Vehicle Dimensions and Mass ”. 
+were not well suited for long and low road vehicles ", and that "the bus [involved in that 
+accident] complied with all aspects of the Land Transport Rule: Vehicle Dimensions and Mass ". 
 The same issue arose  with the Te Onetea Road level crossing.  
-4.4.7.  The Commission also found that “changes in the Land Transport Rule: Vehicle Dimensions and 
+4.4.7.  The Commission also found that "changes in the Land Transport Rule: Vehicle Dimensions and 
 Mass have been made with little formal consideration for the compatibility of long and low road 
-vehicles with existing rail level crossings throughout New Zealand” . 
+vehicles with existing rail level crossings throughout New Zealand" . 
 4.4.8.  It is possible that the Te Onetea Road level crossing is one that has been affected by changes in 
 the allowable dimensions of long , low road vehicles.  Unless the profile s of all level crossings 
 are assessed against the current allow able dimensions for long , low vehicles , the potential risk 
@@ -899,7 +899,7 @@ driver door and was outside the cab when the collision occurred.
 5.6. There was adequate signage to warn the truck driver of the presence of the rail level crossin g in 
 time for him to stop his truck.  
 5.7. The sighting distances for road users of the Te Onetea Road level crossing did not meet the 
-minimum standards as set out in  the NZ Transport Agency’s Traffic Control Devices Manual .  It 
+minimum standards as set out in  the NZ Transport Agency's Traffic Control Devices Manual .  It 
 was possible that fully compliant , long, heavy road vehicles complying with the compulsory stop 
 signs would have  had insufficient time to clear the level crossing from a standing start  
 5.8. The profile or vertical alignment of the eastbound road approach to the Te Onetea Road  level 
@@ -936,8 +936,8 @@ crossings
  all Porter Gro up drivers have been instructed to enter the KiwiRail emergency contact 
 number(s) in their smart phones  so that KiwiRail can be advised of any emergency as soon 
 as possible.  
-6.3. On 18 March 2016  the NZ Transport Agency stated that KiwiRail’s emergency number 0800 
-808 400 had been included in NZ Transport Agency “level crossing articles” published recently 
+6.3. On 18 March 2016  the NZ Transport Agency stated that KiwiRail's emergency number 0800 
+808 400 had been included in NZ Transport Agency "level crossing articles" published recently 
 or about to be published  in the following publications : 
  Road Transport Forum online newsletter, M arch 2016  
  Diesel Talk magazine, March 2016  
@@ -1004,8 +1004,8 @@ proceeding .
  
 Final report RO -2014 -101 
 << Page 21 >>
- Appendix 1 : NZ Transport Agency’s Traffic Control Devices Manual , Part 9 , 
-Level crossings, Appendix B – Sight distances at level crossings  
+ Appendix 1 : NZ Transport Agency's Traffic Control Devices Manual , Part 9 , 
+Level crossings, Appendix B - Sight distances at level crossings  
  
  
   
@@ -1083,7 +1083,7 @@ RO-2014 -102 High -speed roll -over, empty passenger Train 5153, Westfield, Sout
 Auckland,  
 2 March 2014  
 RO-2013 -106 Track occupation irregularity, lead ing to near head -on collision,  Otira -
-Arthur’s Pass, 10 June 2013  
+Arthur's Pass, 10 June 2013  
 RO-2012 -102 Train control power failure, 26 April 2012  
 Interim Report  
 RO-2014 -103 Metropolitan passenger train, collision with stop block, Melling Station, 

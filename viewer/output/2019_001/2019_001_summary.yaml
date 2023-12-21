@@ -1,64 +1,58 @@
-- name: Human Factors - Fatigue and Alertness
-  percentage: 0
-  explanation: 'There is no mention of fatigue or alertness issues in the document. The pilot''s physical and mental state was not identified as a contributing factor to the accident.
-
-    '
-- name: Situational Awareness
-  percentage: 10
-  explanation: While situational awareness is not directly cited as a contributing factor, the pilot's perception and understanding of the bucket's condition, specifically the observation that the bucket "looked soft" (3.4), could be related to situational awareness. However, the primary cause of the accident was related to equipment issues rather than the pilot's situational awareness.
-- name: Distracted Operation
-  percentage: 0
-  explanation: 'There is no evidence in the document to suggest that the pilot was distracted during the operation. The accident was not attributed to any distractions.
-
-    '
-- name: Human Error and Error Management
+- name: Human Error and Assumptions
   percentage: 5
-  explanation: Human error is indirectly mentioned as the operator had not reported an earlier incident with the same bucket through their internal quality and safety management system (3.46). This omission could be considered a human error in the organization's safety practices, but it was not the direct cause of the accident.
-- name: Safety Culture and Organizational Influences
+  explanation: The investigation did not provide direct evidence of human error or assumptions contributing to the accident. However, the inability to determine the exact cause for the hook-and-loop fastener tabs becoming undone ("The reason for the hook-and-loop fastener tabs becoming undone could not be determined" (4.3)) suggests a possibility of human error in the installation or inspection process. This percentage is kept low due to the lack of concrete evidence in the document.
+- name: Training and Competency
+  percentage: 5
+  explanation: There is no direct mention of a lack of training and competency contributing to the accident. However, the document does highlight the importance of proper training and familiarity with equipment, which indirectly suggests that training and competency are always underlying factors in safe operations ("the availability of information about safe working practices, developed by subject-matter experts such as bucket manufacturers and technical specialists in the field, assists operators to make well-informed decisions and establish good procedures" (3.30 (unvalidated and unrepairable quote))).
+- name: Training and Familiarity with Equipment
+  percentage: 10
+  explanation: The document indicates that the pilot had previously experienced instability with the same bucket when it became aerodynamically unstable ("The operator's manager of operations recalled an earlier incident involving the same bucket used on the accident flight" (3.14)). This suggests that familiarity with the equipment's behavior in different conditions is crucial, and the lack of it may have contributed to the accident.
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no information in the document that suggests Crew Resource Management was a factor in the accident.
+
+    '
+- name: Adherence to Safety Procedures
   percentage: 15
-  explanation: The document indicates that the operator's procedures did not specify the appropriate line length for monsoon bucket operations (3.42), and there was a previous incident with the same bucket that was not reported (3.46). These organizational oversights suggest that safety culture and organizational influences played a role in the accident.
-- name: Communication and Crew Resource Management
-  percentage: 0
-  explanation: 'There is no indication that communication breakdowns or crew resource management issues contributed to the accident. The document does not provide evidence of communication failures.
-
-    '
-- name: Training and Preparedness for Emergency Procedures
-  percentage: 0
-  explanation: 'The document does not discuss the pilot''s training or preparedness for emergency procedures as a factor in the accident.
-
-    '
-- name: Emergency Response Planning and Coordination
-  percentage: 0
-  explanation: 'Emergency response planning and coordination are not mentioned as factors in the accident. The focus of the document is on the causes leading up to the accident rather than the response to it.
-
-    '
-- name: Maintenance Procedures and Compliance
-  percentage: 0
-  explanation: 'There is no mention of maintenance procedures and compliance issues contributing to the accident. The focus is on the design and operational use of the equipment.
-
-    '
-- name: Fire Detection and Suppression Systems
-  percentage: 0
-  explanation: 'Fire detection and suppression systems are not relevant to the cause of this accident, as there was no fire event that contributed to the occurrence.
-
-    '
-- name: Regulatory Compliance and Safety Management
+  explanation: The document indicates that the manufacturer had not promulgated key operational information on and limitations of the Cloudburst monsoon bucket to operators ("The manufacturer of the Cloudburst monsoon bucket had not promulgated key operational information on and limitations of the Cloudburst monsoon bucket to operators" (3.28)). This lack of information dissemination could have led to a lack of adherence to safety procedures that might have prevented the accident.
+- name: Organizational Safety Culture
   percentage: 10
-  explanation: The document indicates that there was insufficient guidance available to pilots on the appropriate line length for monsoon bucket operations (3.8), and the manufacturer had not promulgated key operational information on the limitations of the Cloudburst monsoon bucket to operators (3.30). This suggests that regulatory compliance and safety management were factors in the accident.
-- name: Equipment Design and Specifications
-  percentage: 40
-  explanation: The primary cause of the accident was related to the design of the monsoon bucket, specifically the hook-and-loop fastener system that had the potential to come undone during operations (3.25, 3.27). The investigation focused on the aerodynamic stability of the bucket, which likely resulted in contact with the tail rotor (3.12, 3.13).
-- name: Risk Assessment and Management
+  explanation: The document mentions an earlier incident with the same bucket that was not reported through the operator's internal quality and safety management system ("The operator had not reported their earlier incident with this same bucket" (3.46)). This indicates a potential issue with the safety culture within the organization, which could have contributed to the accident by not sharing learnings that could have prevented a recurrence.
+- name: Risk Management and Analysis
+  percentage: 20
+  explanation: The document highlights that the investigation focused on the aerodynamic stability of the bucket, which likely resulted in the contact with the tail rotor ("Therefore, the investigation focused on the aerodynamic stability of the bucket, which likely resulted in the contact with the tail rotor" (3.12)). This points to a lack of risk management and analysis regarding the bucket's design and its interaction with the helicopter during operations.
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The document states that there was no requirement for a manufacturer to promulgate any operational information or limitations, and IMS had not done so ("As the aviation regulatory framework did not cover this type of external load equipment, there was no requirement for a manufacturer to promulgate any operational information or limitations" (3.32)). This suggests a gap in regulatory oversight and compliance that may have contributed to the accident.
+- name: Situational Awareness
+  percentage: 5
+  explanation: The document does not provide specific evidence that situational awareness was a direct factor in the accident. However, the pilot's observation of the bucket "looking soft" and not filling correctly could indicate a momentary lapse in situational awareness or a misinterpretation of the bucket's condition ("The pilot stated that while dipping the bucket normally into the dipping pond immediately before the accident the bucket 'looked soft' and did not fill correctly" (3.4)).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no information in the document that suggests Emergency Response Preparedness was a factor in the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
   percentage: 10
-  explanation: The document highlights that operators are required to identify risks specific to their own operations and mitigate these as much as reasonably practicable (3.2). The lack of action following a previous incident with the same bucket (3.46) and the absence of specific operational procedures (3.42) indicate shortcomings in risk assessment and management.
-- name: Weather Information Dissemination and Interpretation
+  explanation: The document mentions that the hook-and-loop fastener tabs had been displaced and the tubular, segmented, stainless-steel ring was no longer in place, which could indicate a maintenance or inspection issue ("The initial examination of the bucket found that a number of the hook-and-loop fastener tabs had been displaced" (3.18)). This suggests that maintenance and inspection regimes may have been a contributing factor.
+- name: Use of Automation
   percentage: 0
-  explanation: Weather conditions were reported as good at the time of the accident (3.9), and weather was not identified as a contributing factor.
-- name: Structural Integrity and Material Fatigue
+  explanation: 'There is no information in the document that suggests the Use of Automation was a factor in the accident.
+
+    '
+- name: Weather Conditions and Decision Making
   percentage: 0
-  explanation: 'The document does not suggest that structural integrity or material fatigue of the helicopter itself was a contributing factor to the accident.
+  explanation: The document indicates that weather conditions were not a contributing factor to the accident ("The environmental conditions at the time of the accident were reported as good" (3.9)).
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no information in the document that suggests Communication Breakdown was a factor in the accident.
+
+    '
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no information in the document that suggests Fatigue Management was a factor in the accident.
 
     '
 - name: Other
-  percentage: 10
-  explanation: '"Other" refers to the specific design evolution of the monsoon bucket and the manufacturer''s subsequent improvements, which were not mandatory at the time of the accident (3.25, 3.27). This theme encompasses the specific equipment design issues that were not covered by the predefined safety themes but were critical to the accident''s occurrence.'
+  percentage: 15
+  explanation: The "Other" category is assigned to the specific design issues with the Cloudburst monsoon bucket, which had a hook-and-loop fastener system that had the potential to come undone during operations ("The monsoon bucket had a hook-and-loop fastener system that had the potential to come undone during operations" (4.5)). This design issue is not covered by the predefined safety themes but was a significant contributing factor to the accident.

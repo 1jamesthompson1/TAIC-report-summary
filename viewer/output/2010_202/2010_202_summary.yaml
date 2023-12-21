@@ -1,0 +1,62 @@
+- name: Fatigue Management
+  percentage: 30
+  explanation: The mate had only had "3.5 hours' sleep in the previous 21 hours" by the time he went on watch at 0400, which likely impaired his performance due to "acute sleep loss" (4.3.10). Additionally, the quality of sleep could have been affected by alcohol consumption (4.3.10). The mate did not take enough opportunity to rest before watchkeeping duties (4.3.9, 5.3).
+- name: Human Error and Assumptions
+  percentage: 25
+  explanation: The mate's deviation from the passage plan and the subsequent grounding of the Anatoki was a direct result of human error (5.1). The mate was not adequately monitoring the progress of the ship against the passage plan and the master's night orders (5.1).
+- name: Training and Competency
+  percentage: 5
+  explanation: While the qualifications held by the crew should have been sufficient to navigate the ship safely, the actual standard of navigation did not meet the requirements, indicating a possible gap in competency or application of training (4.4.3, 5.5).
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: 'There is no specific mention of a lack of training or familiarity with equipment contributing to the accident.
+
+    '
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no specific mention of issues with crew resource management contributing to the accident.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The mate and watchkeeper's consumption of alcohol and the master's tacit acceptance of this behavior indicate a lack of adherence to the company's drug and alcohol policy (4.4.4, 5.7). Additionally, the standard of navigation was not in accordance with recommended practices (4.2.1).
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The owner and the master on board the Anatoki were not effectively managing the standards of navigation and the drug and alcohol policy at the time of the grounding, indicating issues with the organizational safety culture (5.8).
+- name: Risk Management and Analysis
+  percentage: 5
+  explanation: The mate's deviation from the passage plan without adequate risk assessment and the lack of a working bridge watch navigational and alarm system indicate shortcomings in risk management (4.2.2, 5.2).
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: There was uncertainty between Maritime New Zealand and the owner of the Anatoki on what was a suitable level of crewing for a ship of that size and tonnage, which points to issues with regulatory oversight and compliance (5.6).
+- name: Situational Awareness
+  percentage: 10
+  explanation: The mate's failure to monitor the vessel's progress and the incorrect plotting of the ship's position on the chart demonstrate a loss of situational awareness (4.2.4, 4.2.5, 5.1).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no specific mention of emergency response preparedness as a contributing factor to the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The grounding was not a result of any technical or mechanical failure, indicating that maintenance and inspection regimes were not a contributing factor (4.1.1).
+- name: Use of Automation
+  percentage: 0
+  explanation: 'There is no specific mention of the use or misuse of automation contributing to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: 'There is no specific mention of weather conditions affecting decision-making or contributing to the accident.
+
+    '
+- name: Communication Breakdown
+  percentage: 0
+  explanation: 'There is no specific mention of communication breakdown as a contributing factor to the accident.
+
+    '
+- name: Other
+  percentage: 0
+  explanation: 'There are no additional safety themes identified in the document that contributed to the accident.
+
+    '

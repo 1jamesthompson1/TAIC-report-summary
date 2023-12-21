@@ -1,0 +1,993 @@
+﻿ 
+ 
+ 
+ 
+ 
+Final  Report   
+Rail inquiry RO-2020 -104 
+Safe Working Irregularity  
+East Coast Main Trunk Line, Hamilton  - Eureka  
+21 September 2020  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+January  2022  
+
+
+ 
+Final Report RO -2020 -104 | Page i About the Transport Accident Investigation Com mission 
+The Transport Accident Investigation Com mission (the Com mission) is a standing 
+Com mission of Inquiry and an independent Crown entity responsible for inquiring into 
+maritime, aviation and rail accidents and incidents for New Zealand, and coordinating and 
+cooperating with other accident investigation organisations overseas.  
+The principal purpose of its inquiries is to determine the circumstances and causes of 
+occurrences , with a view to avoiding similar occurrences in the future. It is not the 
+Com mission's purpose to ascribe blame to any person or agency or to pursue (or to assist an 
+agency to pursue) criminal, civil or regulatory action against a ny person or agency. However, 
+the Com mission will n ot refrain from fully reporting on the circumstances and factors 
+contributing to an accident because fault or liability may be inferred from the findings.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Final Report RO -2020 -104 | ii Notes about Commission reports  
+Commissioners  
+ Chief Commissioner    Jane Meares  
+ Deputy Chief Commissioner   Stephen Davies Howard  
+ Commissioner     Richard Marchant  
+ Commissioner     Paula Rose QSO  
+Key Commission personnel  
+ Chief Executive    Martin Sawyers  
+ Chief Investigator of Accidents  Harald Hende l 
+ Investigator in Charge    Naveen Mathew Kozhuppakalam   
+ General Counsel    Cathryn Bridge  
+Citations and referencing  
+This report does not cite information derived from interviews during the Commission 's 
+inquiry into the occurrence. Documents normally accessible to industry participants only and 
+not discoverable under the Official Information Act 1982 are referenced as fo otnotes only . 
+Publicly available documents referred to during the Commission 's inquiry are cited.  
+Photographs, diagrams, pictures  
+The Commission  has provided, and owns, the photographs, diagrams and pictures in this 
+report unless otherwise specified.  
+Verba l probability expressions  
+Where possible, the Commission uses standardised terminology in its reports. This is for the 
+benefit of investigation participants, readers of its reports and recipients of its 
+recommendations. One example of this standardisation is in the terminology used to 
+describe the degree of probability (or likelihood) that an event happened or a condition 
+existed in support of a hypothesis.  
+This terminology, set out in the table below, has been adopted by the Commission and is 
+based on the  Intergovernmental Panel on Climate Change (IPCC) and Australian Transport 
+Safety Bureau models. The Commission chose these models due  to their simplicity, usability 
+and international use. The Commission considers the suitability of these models to be  
+reflective of its functions, which include the making of findings and recommendations based 
+on a wide range of evidence received, whether or not it would be admissible in a court of 
+law. 
+ 
+ 
+ 
+ 
+Final Report RO -2020 -104 | Page iii Terminology  Likelihood  Equivalent terms  
+Virtually certain  > 99% probability of occurrence  Almost certain  
+Very likely  > 90% probability  Highly likely, very probable  
+Likely  > 66% probability  Probable  
+About as likely as not  33% to 66% probability  More or less likely  
+Unlikely  < 33% probability  Improbable  
+Very unlikely  < 10% probability  Highly unlikely  
+Exceptionally unlikely  < 1% probability   
+ 
+Final Report RO -2020 -104 | iv  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+(Credit : LINZ)  
+ 
+Figure 1: Location of interest  
+  
+Final Report RO -2020 -104 | Page v Contents   
+1 Executive summary ................................ ................................ ................................ ........................  1 
+What happened  ................................ ................................ ................................ ................................ ...............  1 
+Why it happened  ................................ ................................ ................................ ................................ ............  1 
+What we can learn  ................................ ................................ ................................ ................................ ..........  1 
+Who may benefit?  ................................ ................................ ................................ ................................ ..........  2 
+2 Factual information  ................................ ................................ ................................ .......................  3 
+Background  ................................ ................................ ................................ ................................ .......................  3 
+Narrative ................................ ................................ ................................ ................................ .............................  3 
+Personnel information  ................................ ................................ ................................ ................................ .. 5 
+Meteorological information  ................................ ................................ ................................ ........................  5 
+Recorded data  ................................ ................................ ................................ ................................ ..................  5 
+Train/Vehicle information  ................................ ................................ ................................ ............................  5 
+Previous occurrences  ................................ ................................ ................................ ................................ ..... 5 
+3 Analysis  ................................ ................................ ................................ ................................ ...........  7 
+Introduction  ................................ ................................ ................................ ................................ ......................  7 
+KiwiRail Operating Rule 908 - Blocking  ................................ ................................ ................................ . 7 
+Protection of the worksite  ................................ ................................ ................................ ........................  11 
+Mis 71  ................................ ................................ ................................ ................................ ...............................  11 
+Non-technical skills  ................................ ................................ ................................ ................................ ..... 12 
+Rail protect ion officer ................................ ................................ ................................ ................................ . 13 
+Engineering control measures  ................................ ................................ ................................ ................  13 
+4 Findings  ................................ ................................ ................................ ................................ ........  15 
+5 Safety issues and remedial action  ................................ ................................ ..............................  16 
+General ................................ ................................ ................................ ................................ .............................  16 
+6 Recommendations  ................................ ................................ ................................ .......................  18 
+7 Key lessons  ................................ ................................ ................................ ................................ ... 19 
+8 Data summary  ................................ ................................ ................................ ..............................  20 
+9 Conduct of the inquiry  ................................ ................................ ................................ ................  21 
+10 Report information  ................................ ................................ ................................ .....................  22 
+Abbreviations  ................................ ................................ ................................ ................................ ................  22 
+Glossary  ................................ ................................ ................................ ................................ ...........................  22 
+Appendix 1  Mis 71 Track Occupation Cross Check form  ................................ ..............................  24 
+Appendix 2  Semi -Permanent Bulletin No. 124  ................................ ................................ ..............  25 
+ 
+Final Report RO -2020 -104 | vi Figures   
+Figure 1: Location of interest  ................................ ................................ ................................ ..............................  iv 
+Figure 2: Hamilton to Eureka diagram (not to scale)  (Credit: Transport Accident Investigation 
+Commission)  ................................ ................................ ................................ ................................ ..............................  4 
+Figure 3: Planned off -tracking location  (Credit: Tr ansport Accident Investigation 
+Commission)  ................................ ................................ ................................ ................................ ..............................  4 
+Figure 4: Schematic diagram showing features recorded on the Mis 71 Track  Occupation 
+Cross Check form (Credit: Transport Accident Investigation Commission)  ................................ ....... 9 
+Figure 5: Mis 71 Track Occupation Cross Check form completed by the RPO ..............................  10 
+Figure 6: Recommended hierarchy of safety controls  ................................ ................................ ............  14 
+ 
+  Final Report RO -2020 -104 
+<< Page 1 >>
+ 1 Executive summary  
+What happened  
+1.1 At 0747 on 21 September 2020, a freight train on the East Coast Main Trunk line 
+entered a section of track that the rail protection o fficer  believed was part of a 
+protected work area and which was already occupied by a contractor  operating a hi -
+rail vehicle.  
+1.2 The hi-rail vehicle was working under the protection of a  rail protection officer who 
+was responsible for organising the safety of the work area.  
+1.3 It was intended that the  protected work area extend for a distance of about 15  
+kilometres  between Hamilton and Eureka . However, due to a number of 
+miscommunications , Train Control only protected the track  between Hamilton and 
+Ruakura  for a distance of about 7 kilometres .  
+1.4 It resulted in  the hi-rail vehicle operator unknowingly worki ng on the track  in a section 
+that had not been  protected from rail traffic.   
+1.5 A collision between the train and the hi-rail vehicle  was only avoided because the  hi-
+rail vehicle had voluntarily c leared the track  about five minutes earlier . 
+Why it happened  
+1.6 While establish ing the protected work area, neither the rail protection officer nor the 
+train controller noticed a discrepancy  recording the limits of the protected area that 
+they were referencing . 
+1.7 The rail protection officer was unfamiliar with the area of operation.  
+1.8 The ineffective use of communication skills with erroneous read -backs (hear -back 
+error)  while trying to implement an administrative control measure resulted in a 
+designated procedure not being followed correctly and p rotection arrangements not  
+being  put in to place.  
+What we can learn  
+1.9 The key lessons arising from this inquiry are:  
+• Workers on the national rail network are at risk of serious harm if a rail vehicle  
+enter s the section of track while they are working.  
+• All pe rsonnel involved in safety -critical operations should recogni se non-
+technical , and particularly communication , skills  as an important risk mitigation 
+measure . 
+• The use of engineering contro l measures may enhance the safety of track 
+workers.  
+ 
+Final Report RO -2020 -104 | 2 Who may benefit?  
+1.10 Rail operators  (including train controller s), rail protection officers and track 
+maintenance personnel  may benefit from the findings in this report.  
+ 
+  Final Report RO -2020 -104 
+<< Page 3 >>
+ 2 Factual information   
+Background  
+2.1 A hi-rail vehicle  (HRV) operator  was scheduled to carry out ballast profiling work 
+between Ruakura and Hemopo on the East Coast Main Trunk ( ECMT ) line between 21 
+and 24 September 2020  inclusive . The work was to be carried out between 0700 and 
+1700 daily under the protection of a rail protection officer  (RPO).   
+2.2 Due to a planned ne twork maintenance shutdown , there was  only one train scheduled 
+to pass through the area during  the Monday shutdown period , which was on the 
+morning  of 21 September .  
+Narrative  
+2.3 On Sunday 20 September 2020 , the RPO travelled to  Hamilton in preparation for work 
+on the  ECMT . That evening t he RPO check ed the local Signalling  & Interlocking 
+Diagrams ,1 and the related paperwork ,2 in preparation for  commencing  work the next 
+day.  
+2.4 At about 0630 on Monday 21 September 2020, the HRV operator arrived at Percival 
+Road (see Figure 2)  and unloaded the vehicle .   
+2.5 At about 0700 the RPO arrived at Percival Road and conducted a pre -start meeting 
+with the HRV operator . It included the information contained on the D aily Information 
+Bulletin3 and was followed with a safety briefing . 
+2.6 At 0705 the RPO contacted Train Control (TC)  using t he radio fitted inside the KiwiRail  
+vehicle . Protection  in the form of signal blocking  was requested , which  allow ed the 
+HRV operator  to work on  the track between Hamilton and Eureka  (see Figure 2) . 
+2.7 The RPO  was using  a track occupancy cross check sheet  known as a n Mis 
+(Miscellaneous ) 71. The RPO had already  part-completed the form and described the 
+work area as 'work between Hamilton and Eureka' .  
+2.8 Track occupancy protection was in place  by 0706,  the RPO and HRV operator locked 
+onto4 the RPO 's frame ,5 and the vehicle  on-tracked. The vehicle  made its way towards 
+Eureka, carrying out  ballast work at  pre-designated  places  (see Figure 2). 
+2.9 When the vehicle was safely on  track, the RPO drove his road vehicle to the agreed off -
+tracking point, located about 3 kilometres ( km) to the east (see Figure 2).  
+ 
+ 
+ 
+ 
+1 Diagrams indicating the location of signals and motor points . 
+2 Documentation that includes the Daily Information Bulletin and Signalling  & Interlocking Diagrams . 
+3 The Daily Information Bulletin  was issued by  KiwiRail and  applied  for on the day of the operation only , and 
+include d information on general daily instructions, running of extra trains and maintenance work.  
+4 Before leaving the safe place, all personnel on -site must attach a padlock for themselves and a padlock for any 
+vehicle under their control that will foul the track  to the lock -on frame . 
+5 The l ock-on frame showing people and vehicles within the worksite at any given time.  
+ 
+Final Report RO -2020 -104 | 4  
+ 
+2.10 At about 0745 the RPO contacted the  HRV operator to inform them that the  
+blocking protection expired at 0800 , as per the clearance provided by  TC to allow the 
+passing of the train . 
+2.11 After they received the call, the HRV operator made their way to the agreed off -
+tracking safe place.  
+2.12 At about 0747  a train entered the Eureka  to Ruakura section while it was still occupied 
+by the HRV operat or. The train and the vehicle  were separated by a distance of about 5 
+km (see Figure 3). 
+2.13 At about 0750 the HRV was safely removed from the track . 
+2.14 Both the RPO a nd the HRV operator remained  at the designated safe location, clear of 
+the track.  
+2.15 At about 0755 both  the HRV operator and RPO noticed the headlights of a  train 
+approaching from the direction of Eureka. The RPO immediately contacted TC to 
+advise them a train was operating in the ir protected work area (PWA ).  
+2.16 The train passed the designated safe location about 5 m inutes after the  vehicle  had 
+off-tracked .  
+2.17 There was no collision and the train continued to Hamilton  without further incident . 
+2.18 The train controller reported that there had been a potential safe -working incident to 
+the Network Control Manager and an investigation was initiated.  
+Figure 2: Hamilton to Eureka diagram  (not to scale)   
+(Credit : Transport Accident Investigation Commission ) 
+Figure 3: Planned off -tracking location  
+(Credit: Transport Accident Investigation Commission ) 
+ 
+ 
+ 
+  Final Report RO -2020 -104 
+<< Page 5 >>
+ Personnel  infor mation  
+2.19 At the time of the incident , the RPO had 14 years' experience in this role , initially as a n 
+HRV operator  and then for the last few years with KiwiRail. He held current certification 
+for his role. The RPO underwent a post -incident drug and alcohol test that returned a 
+negative (clear) result . 
+2.20 The HRV operator  worked for a subcontractor  to KiwiRail and had 25 years' rail 
+experience, the last 14 years operating a n HRV for their current employer . 
+2.21 The train controller  completed training at the TC school in December 2015.  They were 
+certified on the Auckland Zone desk in July 2016 and then on the ECMT desk in March 
+2020 . The train controller  underwent a post -incident drugs and alcohol test that 
+returned a negative (clear) result . 
+Meteorological inf ormation  
+2.22 On the day of the incident t he weather was fine with clear visibility . 
+Recorded data  
+2.23 The locomotive was fitted with a data recording system known as Tranzlog. The data 
+was obtain ed by the Commission. 
+Train/ Vehicle information  
+2.24 The t rain involved  in the incident was  a DC class locomotive  travelling without any 
+wagons attached.  
+2.25 The Com mission found no evidence that either the condition or the operation of the 
+train contributed to the incident . 
+Previous occurrences  
+2.26 The Com mission has recei ved statistical data from KiwiRail about  track occupancy 
+irregularities where miscommunication was identified as a contributing factor.  
+Table 1 shows that f rom 1 June 2019 until 31 May 2021 , KiwiRail recorded 61 track 
+occupancy irregularities . Twenty -one of the irregularities were due to a discrepancy 
+between the authority and the actual location , whereby  miscommunication  was 
+considered  to be  a contributing factor to the incident.  
+ 
+             Table 1: Track occupancy irregularities between 1 June 2019 until 31 May 2021  
+Cause  1 Jun e 2019 to 31 May 
+2020  1 Jun e 2020 to 31 May 
+2021  
+Rail movement clearance/ 
+protection removed before 
+worksite clear  15 8 
+Discrepancy between authority 
+and actual location  9 12 
+HRV on-track without 
+authority/overran authorised 
+area/overran foul time  3  
+ 
+Final Report RO -2020 -104 | 6 HRV clearance while another 
+HRV movement occurring in 
+section  1  
+Third party inside the rail 
+corridor without protection or 
+authorisation  2 4 
+Incorrect use of individual train 
+protection  method  1 5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Final Report RO -2020 -104 
+<< Page 7 >>
+ 3 Analysis  
+Introduction  
+3.1 The following section analyses the circumstances surrounding the event to identify 
+those factors  that increased the likelihood of it occurring or the severity of its outcome. 
+It also examines any safety issues that have the potential to adversely affect future rail 
+operations.  
+3.2 The safe separation and protection of track workers from rail vehicles is a fundamental 
+premise for rail oper ations . It is therefore essential that proven safe methods of 
+working are in place to prevent the potential for interactions between rail traffic and 
+track workers.   
+3.3 The KiwiRail Track Safety Rules ha ve 10 track protection systems that are available for 
+use, depending on a combination of : the nature and duration of the work activity ; the 
+signalling system on the section of track ; and the number of trains passing over th is 
+section during an 8  hour working day.   
+3.4 KiwiRail Operating Rule 908  - Blocking is use d to protect a track occupation within 
+automatic signalling areas by TC holding signals that govern entry into the PWA  at red 
+(STOP).   
+3.5 In this incident, the RPO and the train controller  did not share a common 
+understanding of the limits of the  PWA . As a r esult, a n HRV  cleared the track outside 
+the PWA  only a few minutes before a locomotive passed through travelling at close to 
+the maximum authorised line speed.   
+3.6 During the incident analysis, fatigue was ruled out as having contributed to this 
+incident, as both the train controller  and the RPO were well rested.  
+3.7 The signal ling system data indicated that the signals were functioning as designed at 
+the time of the incident.  
+3.8 The results of post -incident toxicological tests performed on the KiwiRail staff involv ed 
+in the incident were negative for alcohol and other impairing drugs.  
+KiwiRail Operating Rule 908  - Blocking  
+3.9 Rule 908 required that the person proposing to occupy or obstruct a section of track 
+protected by interlocked signalling ( the addressee) was to personally advise TC of their:  
+• identity  
+• type of protection requested  
+• on-tracking location (at location)  
+• occupation area, including off -tracking location  
+• time required for the work  
+• nature of the work . 
+3.10  Before authorising the track occupati on, the train controller  was required to:  
+ 
+Final Report RO -2020 -104 | 8 • carry out pre -authorisation checks to ensure the proposed occupancy did 
+not conflict with other rail movements , either train or HRV 
+• verify the position of the last train to clear the on-tracking  location  
+• record the details of the track occupation on the TC diagram  
+• apply blocking of signals to prevent trains from entering the occupied area 
+before authorising the track occupation . 
+3.11 The train controller  would  then authorise the track occupation by stating  the: 
+• addressee  
+• commencement time  
+• clearance time  
+• 'At' location  
+• authority to either proceed from (or to), or work between (locations)  
+• last train clear time of the on -tracking 'At' location  
+• section of track verified as blocked .  
+3.12 The addressee obtaining the blocki ng would then  complete a n Mis 71 Track 
+Occupation Cross Check form (see Appendix 1), with the instructions issued by TC, 
+including  the: 
+•  addressee  
+• commencement time  
+• clearance time  
+• 'At' location  
+• authority to either proceed from (or to), or work between (loc ations)  
+• last train clear time of the on-tracking 'At Location ' 
+• section of track verified as blocked.  
+3.13 The next check is for the addressee to read back the instructions recorded on the Mis 
+71 to the train controller , who then verifies or corrects the instructions before the 
+addressee can occupy the PWA . 
+3.14 Features and locations referred to in the communicatio n between the RPO and the 
+train controller  are shown in Figure 4. 
+ 
+  Final Report RO -2020 -104 
+<< Page 9 >>
+  
+Figure 4: Schematic diagram showing features recorded on the Mis 71 Track  
+Occupation Cross Check form  
+(Credit: Transport Accident Investigation Commission ) 
+ 
+3.15 All communication with TC is recorded. A download  of the radio communication 
+between the RPO and the train controller  showed  that at 0705 the RPO made an 
+enqui ry to TC by radio. A transcript of that communication can be seen below : 
+"Good morning control, 70367 [call sign for the RPO] down here requesting blocking thanks 
+mate. Currently at the five decimal nine five kilometre between Te Rapa and Ruakura 
+
+ 
+Final Report RO -2020 -104 | 10 wanting to work between Te Rapa 181 Signal and Eureka 8L  after the next service tha nk 
+you." 
+3.16 After carrying out a pre -authorisation check, the train controller  responded : 
+"Yeah , Roger that 70367, show you on -tracking at the five decimal nine five kilometre mark 
+that is between Ruakura and Hamilton. Show you working between the 181 Signal Hamilton 
+through to  8L Signal Ruakura.  
+Commencement time of 0706, give you through to 0800.  
+Last train to clear the limits was M52. Clearing the limits at 0551.  
+Blocking in place from Signals 185, 183 Hamilton through to 8R Signal at Ruakura , over. " 
+3.17 The RPO accepted the blocking and completed the Mis 71 Track Occupation Cross 
+Check form (see Figure 5) and read  back the instructions to TC at 0706, stating:  
+"Roger, thank you control, 70367 currently at 5 .95 kilometre between Hamilton and 
+Ruakura, commencing 0706 hours clear by 0800.  
+Wanting to work between Hamilton 181 Signal and Eureka 8L  
+Last trai n M52 cleared location at 0551.  
+Blocking has been applied Hamilton 185 Signal 183 and Ruakura 8R Signal .  
+Also authority for 74258. " 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.18  After listening to the readback, the train controller  stated:  
+"Yes, Roger that is all correct . 
+Yes, that also covers 74258. " 
+3.19 The RPO closed the radio communication stating:  
+"Roger, thank you control, 70367 out. " 
+Figure 5: Mis 71 Track Occupation Cross Check 
+form completed by the RPO  
+ 
+  Final Report RO -2020 -104 
+<< Page 11 >>
+ Rule 908  - Blocking should have provided adequate safe -working controls . 
+Although the process for the signal blocking was followed, the RPO and the 
+train controller  did not listen to each  other sufficiently to prevent them having a 
+differ ent understanding of the limits of the  PWA .   
+Protection of the worksite  
+3.20 When t he RPO asked for an authority to work between Te Rapa 181 Signal and Eureka 
+8L Signal , the train controller  gave authority to work between Hamilton  181 Signal and 
+Ruakura 8L Signal. Blocking had been applied to Hamilton 183 and 185 Signals and 
+Ruakura 8R Signal. The RPO's read -back stated that work between Te Rapa 181 Signal 
+and Eureka 8L Signal and blocking ap plied to Signals 183 and 185 Te Rapa and 
+Ruakura 8R.    
+3.21 The train controller  verified the RPO's read -back as being correct , despite the RPO 
+stating a work between limit as Eureka 8L Signal and not Ruak ura 8L as authorised and 
+as drawn on the  TC diagram. Th e opportunity to correct the RPO's understanding of 
+the limits of the track occupation was therefore lost.  
+3.22 It was likely that the RPO's unfamiliarity of the local area contributed to the 
+misunderstanding.  During the interview, the RPO stated that he had pa rtially filled the 
+Mis 71 Track Occupation Cross Check form before arriving on -site. The Mis 71 showed 
+the 'work between limit ' as Eureka 8L Signal and blocking applied at Eureka 8R Signal. 
+These limits were in conflict with the work between limit at Ruaku ra 8L and blocking at 
+Ruakura 8R Signal authorised by the train controller .   
+3.23 Once t he RPO had possession of the track occupation authority , valid  until 0800, both 
+the RPO and the  HRV operator discussed the working limits and a greed that the 
+recommended of f-tracking location would be at a farmer 's private access track at 
+about the 9.35 km mark . The agreed off-tracking location  was about 3 km outside the 
+limit of the  PWA , thereby potentially putting the HRV into the path of the next train 
+travelling towards Te Rapa , Hamilton .  
+3.24 Witness statements confirmed the HRV voluntarily cleared the track at about 0750, 10 
+minutes before the authorised 'clear by' time of 0800. However, at the time of clearing 
+the track the HRV was 3 km outside the limits of the  PWA .   
+3.25 The train was travelling at 60  kilometres per hour . Had the HRV remained on -track until 
+0800 , the time agreed between the train controller  and RPO on the Mis 71 Track 
+Occupation Cross Check form , it would  likely have been struck by the train at about 
+0752.    
+ 
+Mis 71  
+3.26 The Mis 71 is a Track Occupation Cross Check form which i s completed as part of the 
+procedure for  request ing blocking .  
+TC is the authority for authorising track occupation. Whoever is requesting track 
+occupation is required to complete an Mis 71. Along with other information , 
+the form should contain the instructions issued by the train controller  at the 
+time of request (see Appendix 1). 
+ 
+Final Report RO -2020 -104 | 12 3.27 At the time of this incident there was an instruction  in place preventing the RPO 
+completing the form before making the request. On 12 February 2020, about seven 
+months prior to the incident, KiwiRail had promulgated Semi -Permanent Bulletin No. 
+124 (see Appendix 2),  which state d that the only information that could be pre -
+completed on all Operating and Authority documents  (which included Mis 71 s) was the 
+addressee, location and date.   
+3.28 Had the RPO completed the Mis 71 form during the process of request ing track 
+occupation with th e train controller , instead of pre -completing earlier that morning, it 
+is likely  that the discrepancy may have been identified  and the error rectified .  
+ 
+Non-technical skills  
+Safety issue - Implementation of an administrative control measure designed to provide 
+protection for a track worker was unsuccessful due to the poor use of non -technical skills.   
+3.29 Non-technical skills can be defined as the cognitive, social and personal resource skills 
+that complement technical skills and contribute to safe and effective task performance. 
+Sub-categories of non -technical skills include situational awareness, conscientiousness, 
+communication, decision -making and action, teamwork, workload management  and 
+self-management.  
+3.30 The train controller  and the RPO had both undergone training in non -technical skills. 
+Nevertheless, human error will occur,  and this incident highlights the importance of 
+using  effective communication strategies to guard against such occurrences. The 
+likelihood of erroneous read -backs (hear -back error) is increased when those 
+communicating have a preconceived notion of what they are expecting to hear. Whil e 
+expectation bias6 cannot necessarily be eliminated, defences (such as specific  
+phraseology and challenge -respond techniques ) go some way to ensur ing a complete 
+and correct understanding is shared by both parties.  
+3.31 Good communication is a key function of  safety within the rail industry . There were 
+several examples in th is incident whe re the use of good communication skills would 
+have helped to establish a common mental model of the blocking protection that was 
+being requested. Had instructions  been repeated back  clearly , and the ir accuracy 
+challeng ed, a serious error could have potentially been identified and very likely  
+rectified .   
+3.32 On this occasion Rule 908  - Blocking was the required procedure to achieve a PWA . 
+However, the process  was unsuccessful because of the poor use of non -technical skills  
+betw een participants  which did  not detect the error and provide an opportunity to 
+rectify it.    
+ 
+6 Expectation  bias is the predisposition for individuals to perceive information according to what they are 
+expecting to see/hear, as opposed to what is actually seen/heard. This expectancy can make it less likely that any 
+mismatch in the information received is detected.  
+ 
+ 
+  Final Report RO -2020 -104 
+<< Page 13 >>
+ Rail protection officer  
+3.33 'Rail protection officer' is a generic term given to the person responsible for protecting 
+individuals or multiple worksites , depending on the level of competency held. That 
+person has overall responsibility for communicating with TC and coordinating the 
+movement of trains and HRVs through and within the work area.  
+3.34 On this occasion the RPO was providing protection for the o perator  of a HRV in an 
+area he was unfamiliar with and which, under  the Rule 908 - Blocking process, was 
+likely to be the  reason he did not question the train controller 's read -back of the 
+meterage and locations they intended to block.   
+3.35 Operators of HRVs are required by KiwiRail to be location certified. KiwiRail's Track 
+Safety Rule 116 (b) state s in part:  
+Driver without local knowledge : "Where for some reason the driver is not a 
+person with adequate local knowledge, the driver must be accompanied by a 
+second person with such knowledge, who holds the appropriate licence to 
+operate ."  
+3.36 Although the cause of this incident may have been rectified by the use of good non -
+technical skills , the RPO's lack of familiarity with the area was a limitation.  Currently , 
+local knowledge  is not a requirement for RPOs , but given their overall responsibility for 
+providing rail protection within a PWA , a good understanding and knowledge of the 
+local area  may well influence their decision -making and actions. It is a  constraint that 
+should be considered by rail operator s when planning similar operations in the future.  
+Engineering  control measures  
+Safety issue - The use of an administrative control  measure was not  effective  on its own , and 
+the adoption of engineering control measures when establishing PWA s would provide an 
+enhanced level of protection for track workers.  
+3.37 From 1 June 2019 until 31 May 2021 , KiwiRail recorded 61 track occupancy 
+irregularities . Twenty -one of the irregularities were due to a discrepancy between the 
+authority and the location  on-site and poor communication  was considered  to be  a 
+contributing factor .7  
+3.38 The Health and Safety at W ork (General Risk and Workplace Management) Regulations 
+2016 require a Person Conducting a Business or Undertaking to identify hazards and 
+protect against them  using a hierarchy of control measures (see Figure 6), to maintain 
+and review the control measure s, and to provide information, supervision, training and 
+instruction to workers.  
+ 
+ 
+ 
+7 Track occupancy statistics provide by KiwiRail at the request of the Com mission . 
+ 
+Final Report RO -2020 -104 | 14  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6: Recommended hierarchy of safety controls  
+ 
+3.39 Figure 6 explains the effectiveness of the various safety control measures that may be 
+used to help reduce the risk to workers. In this incident , the primary safety control was 
+an administrative control and relied upon those involved following Rule 908 - Blocking 
+completing the correct paperwork, communicating effectively  and identify ing the 
+correct signals to isolate. If the process is  administrated correctly then blockin g control 
+is successfully achieved.  
+3.40 However, as can be seen from the number of track occupancy irregularities, 21 were 
+due to a discrepancy between the authority and  the location on -site. In the hierarchy 
+of safety controls , it is eviden t that administrative controls are the leas t effective and 
+can fail to provide the protection that track workers  (working in the rail corridor and 
+faced with the danger of trains moving through their worksite ) require.  
+3.41 On this occasion there were no fatalities or injuries, but the incident provides an 
+opportunity to learn important safety lessons and try to prevent a future reoccurrence. 
+Administrative controls can be effective whe n implemented correctly . However , given 
+the serious consequence s of an accident occurring in the rail corridor, more effective 
+engineering controls should ideally  be the preferred option to reduce the frequency of 
+similar accidents occurring in the future.    
+3.42 The Com mission has made a recommendation to the Chief Executive of KiwiRail to 
+provide an enhanced level of protection for track workers  by adopting the use of 
+engineering control measures when establishing PWAs . 
+
+ 
+  Final Report RO -2020 -104 
+<< Page 15 >>
+ 4 Findings  
+ 
+4.1 A train entered an area of tra ck that was intended to be blocked for work by a hi-rail 
+vehicle . 
+4.2 The hi-rail vehicle  was off and clear of the track before the train passed through the 
+area.  
+4.3 The rail protection officer was unfamiliar with the area of operation.  
+4.4 The rail protection officer  and the train controller  had a different understanding of 
+where the block ing was required . As a result , both parties had different mental mod els 
+of the area that was being protected  and the Protection Work Area limits .  
+4.5 The rail protection officer  had partially completed the Mis 71 form before commencing 
+the blocking procedure with Train Control .  
+4.6 Had the rail protection officer  completed the Mis 71 form during the process of 
+requesting track occupation with the train controller  it is likely  that the discrepancy 
+may have been identified . 
+4.7 The use of poor non-technical skills between the rail protection officer  and Train 
+Control  resulted in procedural errors being made that went undetected.   
+4.8 There w as no engineering control measure available to mitigate the risk of human 
+error whil e carrying out an administrative procedure.  
+4.9 The train was travelling at 60 kilometres per hour . Had the  hi-rail vehicle  remained on  
+track until 0800, the time agreed between the train controller  and the rail protection 
+officer , it would  likely  have been struck by the train .     
+ 
+ 
+ 
+ 
+ 
+Final Report RO -2020 -104 | 16 5 Safety issues and remedial action  
+General  
+5.1 Safety issues are an output from the Com mission's analysis. Th is output  typically 
+describe s a system problem that has the potential to adversely affect future operations 
+on a wide scale.   
+5.2 Safety issues may be addressed by safety actions taken by a participant, otherwise the 
+Com mission may issue a recommendation to address them .  
+Two new safety i ssues were identified in this report.  
+The use of an administrative control measure was not effective on its own, and 
+the adoption of engineering control measures when establishing PWAs would 
+provide an enhanced level of protection for track workers.   
+5.3 The use of administrative control measures is widely used throughout the rail industry. 
+However, records show that the safety of track workers is  sometimes inadequate 
+because of the ineffective implementation of th is type of control measure.   
+5.4 The Com mission believes that improving the safety of track workers , and reducing the 
+frequency of track occupancy irregularities , should be a priority for fu ture operations 
+and is best achieved by the implementation of more effective engineering  control 
+measures  to minimise risk .   
+5.5 The Com mission has made a recommendation  in Section 6  of this report  to address 
+this issue .  
+The i mplementation of an administrati ve control measure  designed to  provid e 
+protection for a track worker was unsuccessful due to the poor use of non -
+technical skills.   
+5.6 The incident highlights the importance of using proficient non-technical skills when 
+trying to create a safe working environment , particularly for PWAs . 
+5.7 In 2012, as part of Inquiry RO 2011 -101, the Commission issued a recommendation 
+(002/12) to the Chief Executive of the NZ Transport Agency8 that he require the 
+Executive of the National Rail System Standards (NRSS) to d evelop standards to ensure 
+all rail participants meet a consistently high level of Crew Resource Management (now 
+Non-Technical Skills ), and better  communication to staff , which includes the use of 
+standard rail phraseology.  
+On 31 March 2017, the NZ Transpo rt Agency updated the Com mission as 
+follows:  
+It is noted that the Commission issued its most recent recommendation on 
+non-technical skills to the NZ Transport Agency in 2012 and that this is still 
+open. The recommendation required that the practice of non -technical skills be 
+recognised in the NRSS . The NZ Transport Agency continues to work with 
+KiwiRail on this issue, and in December 2016 issued a Safety Improvement Plan 
+Notice in accordance with section 36 of the Railways Act 2005 requiring KiwiRail 
+ 
+8 The NZ Transport Agency  has primary regulatory responsibility for rail safety in New Zealand.  NZ Transport 
+Agency is the previous name for Waka Kotahi NZ Transport Agency .  
+ 
+  Final Report RO -2020 -104 
+<< Page 17 >>
+ to pre pare a Safety Improvement Plan to address the implementation of non -
+technical skills into its rail operations.  
+On 1 November 2017, the NZ Transport Agency updated the Com mission as 
+follows:  
+The NZ Transport Agency approved KiwiRail's Safety Improvement Plan 
+regarding non -technical skills in April 2017. In their most recent update on the 
+Non-Technical Skills project , KiwiRail reported that the project is on time, within 
+budget and meeting the projec t specifications. As of 13 October 2017, the NZ 
+Transport Agency has also agreed to the integration of a stabilised approach 
+and risk -triggered commentary driving into the scope of the Safety 
+Improvement Plan requirements.  
+On 13  September 2021, KiwiRail up dated the Commission as follows:   
+Since January 2020, 4 ,718 employees were enrolled into the course. To date, 
+4,014 have either passed the course through attending a Toolbox briefing, 
+completed the embedded sessions within our existing programmes for new 
+staff, or completed the eLearn within KLE  (KiwiRail Learning Exchange).   
+ 
+Final Report RO -2020 -104 | 18 6 Recommendations  
+General  
+6.1 The Com mission issues recommendations to address safety issues found in its 
+investigations. Recommendations may be addressed to organisations or people , and 
+can relate to safety issues found within an organisation or within the wider transport 
+system that have the potential to contribute to future transport accidents and 
+incidents.  
+6.2 In the interests of transport safety, it is important that recommendations  are 
+implemented without delay  to help prevent similar accidents or incidents occurring in 
+the future.    
+6.3 The use of a single administrative control measure to establish a PWA  was ineffective 
+and did not provide the track worker with adequate protection . 
+New recommendation  
+6.4 On 8 December 2021 , the Com mission recommended that  KiwiRail  carry out an 
+analysis of how it could best incorporate engineering control measures into both 
+its current and future operations  to minimise the risk s that human factors play  in 
+effective protection for track workers . (009/21)  
+On 16 December 2021, KiwiRail replied:  
+KiwiRail agrees with the intent o f this recommendation. Work is currently underway to 
+renew the Train Control system whic h will give us the technology to move to a form of 
+hand-held track worker interaction in the future. 
+The strategy is to deliver a Busines s Case for this next year to be funded and delivered 
+in the 2025 - 2027       funding period. We will have completed implementation of the new 
+Train Control system by 2025. 
+Final Report RO -2020 -104 
+<< Page 19 >>
+ 7 Key lessons  
+7.1 Workers on the national rail network are at risk of serious harm if a rail vehicle  enter s 
+their section of track while they are working.  
+7.2 All personnel involved in safety -critical operations should recogni se non -technical , and 
+particularly communication , skills as an important risk mitigation measure to ensure 
+they have a collective understanding of what is required to operate safely.  
+7.3 The use of engineering control measures will help to further minimise risk and may 
+enhance  the safety of track workers.  
+Final Report RO -2020 -104 | 20 8 Data summary  
+Vehicle particulars  
+Train type and 
+number:  M52 shunt  
+Classification:  DC4951  
+Year of manufacture:  1961 -67 
+Operator:  KiwiRail  
+Date and time  21 September 2020 1200   
+Location  between Ruakura  and Eureka  
+Operating crew  a locomotive engineer  and a rail o perator  
+Injuries  nil 
+Damage  nil 
+ 
+  Final Report RO -2020 -104 
+<< Page 21 >>
+ 9 Conduct of the inquiry  
+9.1 On 21 September 2020 , the NZ Transport Agency ( Waka Kotahi ) notified the 
+Com mission of the occurrence. The Commission subsequently opened an inquiry 
+under section 13(1) of the Transport Accident Investigation Com mission Act 1990  and 
+appointed an Investigator in Charge.  
+9.2 The Com mission interviewed  the: 
+• RPO 
+• HRV operator  
+• train controller . 
+9.3 The Com mission obtained the following documents and records for analysis:  
+• TC communication recordings  between the RPO and TC 
+• training records of the RPO and train controller  
+• TC diagram  
+• the Daily Information Bulletin for 21 September 2020  (R) ECMT   
+• signals data (CT Log) for the section of track between Hamilton and Eureka  
+• Tranzlog data from KiwiRail for train M52 on 21 September 2020  
+• TC communication recordings between M52 and TC. 
+9.4 On 22 September 2021 the Com mission approved a draft report for circulation to  four 
+interested persons for their comment.  
+9.5 The Com mission received four submissions, and changes as a result of these have been 
+included in the final report.  
+9.6 On 8 December 2021 , the Com mission approved the final report for publication.  
+ 
+Final Report RO -2020 -104 | 22 10 Report information  
+Abbreviations  
+ECMT  East Coast Main Trunk  
+HRV hi-rail vehicle  
+km kilometres (s) 
+PWA  protected work area  
+RPO rail protection officer  
+TC Train Control  
+ 
+ 
+ 
+ 
+ 
+Glossary  
+ballast ploughing  application of ballast to a track  
+blocking   
+the process of keeping signals and/or points tagged or collared to 
+prevent a train entering a section of track that the blocking is 
+protecting  
+hi-rail vehicle  a road vehicle with an additional set of rail wheels that can be 
+extended below the normal tyres to enable travel on a railway track  
+lock-on/off frame  a system for ensuring track workers are clear of the rail corridor 
+before a train can pass through a worksite  
+on/off track  
+train/rail operator  the location where an HRV will on -track or off -track  
+ 
+  Final Report RO -2020 -104 
+<< Page 23 >>
+ a qualified person who assists a locomotive engineer with the 
+movement and general working of a train 
+rail protection  
+officer  person with overall responsibility for providing rail protection for a 
+PWA    
+ 
+Train Control   
+the c entre from where the movement of all rail vehicles and track 
+access in a specified area are under the direction and control of a 
+train controller  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Final Report RO -2020 -104 | 24 Appendix 1  Mis 71 Track Occupation Cross Check 
+form  
+ 
+
+ 
+  Final Report RO -2020 -104 
+<< Page 25 >>
+ Appendix 2  Semi -Perman ent Bulletin No. 124 
+  
+ 
+ 
+ 
+
+
+ 
+    
+ 
+ Kōwhaiwhai - Māori scroll designs  
+TAIC commissioned its four kōwhaiwhai, Māori scroll designs, from artist Sandy Rodgers (Ng āti Raukawa, 
+Tūwharetoa, MacDougal).  Sandy began from thinking of the Commission as a vehicle or vessel for seeking 
+knowledge to understand transport accident tragedi es and how to avoid them. A 'waka whai mārama' (i te ara 
+haumaru) is 'a vessel/vehicle in pursuit of understanding'. Waka is a metaphor for the Commission. Mārama 
+(from 'te ao mārama' - the world of light) is for the separation of Rangitāne (Sky Father) an d Papatūānuku 
+(Earth Mother) by their son Tāne Māhuta (god of man, forests and everything dwelling within), which brought 
+light and thus awareness to the world. 'Te ara' is 'the path' and 'haumaru' is 'safe' or 'risk free'.  
+Corporate: Te Ara Haumaru - the safe and risk free path  
+ 
+The eye motif looks to the future, watching the path for obstructions. The encased double koru is the mother 
+and child, symbolising protection, safety and guidance. The triple koru represents the three kete of knowledge 
+that Tāne  Māhuta collected from the highest of the heavens to pass their wisdom to humanity. The continual 
+wave is the perpetual line of influence. The succession of humps represent s the individual inquiries.  
+Sandy acknowledges Tāne Māhuta in the creation of this Kōwhaiwhai.  
+Aviation: Ngā hau e wh ā - the four winds  
+ 
+ 
+ 
+ 
+To Sandy, 'Ngā hau e whā ' (the four winds ), commonly used in Te  Reo Māori to refer to people coming 
+together from across Aotearoa, was also redolent of the aviation environment. The design represents the sky, 
+cloud, and wind. There is a manu (bird) form representing the aircraft that move through Aotearoa's 'long 
+white cloud'. The letter 'A' is present, standing for a  'Aviation '.  
+Sandy acknowledges Ranginui (Sky father) and Tāwhirimātea (God of wind) in the creation of this Kōwhaiwhai.  
+Maritime: Ara wai - waterways  
+ 
+ 
+ 
+ 
+The sections of waves flowing across the design represent the many different 'ara wai' (waterways) that ships 
+sail across. The 'V' shape is a ship's prow and its wake. The letter 'M' is present, standing for ' Maritime .  
+Sandy acknowledges Tangaroa (God of the sea) in the creation of this Kōwhaiwh ai. 
+Rail: rerewhenua - flowing across the land  
+ 
+ 
+ 
+ 
+The design represents the fluid movement of trains across Aotearoa. 'Rere' is to flow or fly. 'Whenua' is the 
+land. The koru forms represent the earth, land and flora that trains pass over and through. Th e letter 'R' is 
+present, standing for 'Rail'.  
+Sandy acknowledges Papatūānuku (Earth Mother) and Tāne Mahuta (God of man and forests and everything 
+that dwells within) in the creation of this Kōwhaiwhai.  
+
+ 
+   
+Recent Rail Occurrence reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+ 
+RO-2020 -103 Collision between bus and locomotive, Clevely Line level crossing, Bunnythorpe, 16 
+September 2020  
+RO-2019 -108 Level crossing collision, Piako  Road, Morrinsville, 7 December 2019  
+RO-2020 -102 Express freight Train 932, strikes hi -rail vehicle, Limeworks Road, 24 April 2020  
+RO-2019 -105 Express freight Train 268, derailment, Wellington, 2 July 2019  
+RO-2019 -107 Passenger service SPAD and near col lision, Wellington, 6 November 2019  
+RO-2019 -106 Passenger train 804, Irregular disembarkation of passengers, Rolleston, Canterbury, 
+3 September 2019  
+RO-2019 -104 Unsafe entry into worksite, Taimate, 5 June 2019  
+RO-2019 -103 Derailment of Train 626, Palmerston North, 4 April 2019  
+RO-2019 -101 Safe-working occurrence, Westfield yard, Ōtāhuhu, Auckland, 24 March 2019  
+RO-2019 -102 Clinton derailment, 29 March 2019  
+RO-2018 -102 Freight train SPAD and wrong -routing, Taimate, 1 October 2018  
+RO-2018 -101 Metropolitan passenger train, derailment, Britomart Transport Centre, Auckland, 9 
+May 2018  
+RO-2017 -106 Mainline locomotives, Wrong -routing and collision with work vehicle, Invercargill, 
+16 November 2017  
+RO-2017 -105 Collision between freight Train 353 and heavy motor vehicle, Lambert Road, level 
+crossing, near Kawerau, 6 October 2017  
+RO-2017 -104 
+ Unauthorised immobilisation of passenger train, at Baldwin Avenue Station, 
+Avondale, 17 September 2017  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 14.50          ISSN 1178 -4164 (Print)  
+ISSN 1179 -9102 (Online)  

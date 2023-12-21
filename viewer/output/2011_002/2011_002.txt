@@ -1,0 +1,1676 @@
+﻿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Inquiry 11 -002:  
+Bombardier DHC -8-311, ZK -NEQ, landing without nose landing gear extended  
+Woodbourne (Blenheim) Aerodrome , 9 February 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been 
+undertaken  for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of implementing 
+any recommendation must always be balanced against its benefits.  Such analysis is a matter for the 
+regulator and the industry.  
+ 
+These report s may be reprinted in whole or in part without charge, providing acknowledgement is made 
+to the Transport Accident Investigation Commission.  
+  
+ 
+  
+      
+ 
+ 
+ 
+ 
+Final Report  
+Aviation inquiry  11-002 
+Bombardier DHC -8-311, ZK -NEQ  
+Landing without nose landing gear  extended  
+Woodbourne (Blenheim) Aerodrome  
+9 February 2011  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication : December 2012  
+  
+
+Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission  
+The Transport Accident Investigation Commission (Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  
+co-ordinating and co -operating with other accident investigation organisations overseas .  The pri ncipal 
+purpose of its inquiries is to determine the circumstances and causes of occurrence s with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  
+or to pursue (or to assist an agency to purs ue) criminal, civil or regulatory action against a person or 
+agency.  The Commission carries out its purpose by informing members of the transport sector, both 
+domestically and internationally, of the lessons that can be learnt from transport accidents and  
+incidents.   
+ 
+Commissioners  
+Chief Commissioner    John Marshall, QC  
+Deputy Chief Commissioner   Helen Cull, QC  
+ 
+Key Commission personnel  
+Chief Executive     Lois Hutchinson  
+Chief Investigator of Accidents   Captain Tim Burfoot  
+Investigator in Charge    Pete r R. Williams  
+General Counsel    Rama Rewi  
+Assessor     Pat Scotter  
+ 
+ 
+Email   inquiries@taic.org.nz  
+Web  www.taic.org.nz    
+Telephone  + 64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax  + 64 4 499 1510  
+Address   Level 16, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+  
+ 
+ Important n otes 
+ 
+Nature of the final report  
+This final report has not been prepared for the purpose of supporting any criminal, civil or regulatory 
+action against any person or agency.  The Transport Accident Investigation Commission Act 1990 
+makes this final report inadmissible as evidence in any proceedings with the exception of a Coroner's 
+inquest.  
+ 
+Ownership of report  
+This report remains the intel lectual property of the Transport Accident Investigation Commission.   
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is 
+made to the Transport Accident Investigation Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this fin al report are 
+provided by, and owned by, the Commission.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bombardier DHC -8-311, ZK -NEQ landing at Woodbourne Aerodrome, 9 February 2011  
+(Photograph copyright: The Marlborough Express ; used with permission)
+
+Location of accident  
+  
+Legend   
+ Hamilton  
+ Wellington  
+ Woodbourne  
+ 
+Source: mapsof.net  
+
+Contents  
+Abbreviations  ................................ ................................ ................................ ................................ .....................  ii 
+Glossary  ................................ ................................ ................................ ................................ .............................  ii 
+Data summary  ................................ ................................ ................................ ................................ ..................  iii 
+1. Executive s ummary  ................................ ................................ ................................ ................................ ... 1 
+2. Conduct of the inquiry  ................................ ................................ ................................ ...............................  3 
+3. Factual information  ................................ ................................ ................................ ................................ ... 5 
+3.1. History of the flight  ................................ ................................ ................................ .......................  5 
+3.2. Aircraft information  ................................ ................................ ................................ ......................  9 
+Hydraulic system  ................................ ................................ ................................ ..........................  9 
+Landing gear description and operation  ................................ ................................ .................  10 
+Alternate landing gear extension  ................................ ................................ .............................  10 
+Training in alternate landing gear extension procedu re ................................ ........................  12 
+Nosewheel steering  ................................ ................................ ................................ ..................  13 
+Flight recorders  ................................ ................................ ................................ .........................  13 
+3.3. Tests a nd research  ................................ ................................ ................................ ....................  14 
+Initial tests  ................................ ................................ ................................ ................................ . 14 
+Failure of all landing gear to extend by the normal system  ................................ ...................  14 
+Failure of nose landing gear to extend by the alternate system  ................................ ............  14 
+Nose landing gear alternate extens ion rigging and operation  ................................ ...............  15 
+Other occurrences  ................................ ................................ ................................ ....................  16 
+3.4. Personnel Information  ................................ ................................ ................................ ...............  16 
+3.5. Aerodrome information  ................................ ................................ ................................ .............  16 
+3.6. Other information  ................................ ................................ ................................ ......................  17 
+Flight simulator requirements  ................................ ................................ ................................ .. 17 
+QRH procedures  ................................ ................................ ................................ ........................  18 
+4. Analysis  ................................ ................................ ................................ ................................ ...................  20 
+Inhibit switch  defect  ................................ ................................ ................................ ..................  20 
+Failure of nose landing gear to extend by alternate system  ................................ ..................  21 
+QRH format and use  ................................ ................................ ................................ .................  23 
+Communications  ................................ ................................ ................................ .......................  24 
+5. Findings  ................................ ................................ ................................ ................................ ..................  25 
+6. Key lessons  ................................ ................................ ................................ ................................ .............  26 
+7. Safety actions  ................................ ................................ ................................ ................................ .........  27 
+General  ................................ ................................ ................................ ................................ ...................  27 
+Safety actions that pre -empted issuing a recommendation  ................................ ...............................  27 
+Safety actions addressing other safety issues  ................................ ................................ .....................  28 
+8. Recommendations  ................................ ................................ ................................ ................................ . 29 
+General  ................................ ................................ ................................ ................................ ...................  29 
+Recommendations  ................................ ................................ ................................ ................................ . 29 
+9. Citations  ................................ ................................ ................................ ................................ ..................  30 
+Appendix:   Proce dures for non -normal gear conditions  ................................ ................................ ...........  31 
+  
+Report 11 -002 | Page i Figures  
+ 
+Figure 1  Landing gear alternate release door (above first officer's seat), with inhibit switch circled  .. 6 
+Figure 2  Landing gear alternate extension  door and nose landing gear uplock release handle  .........  6 
+Figure 3  Damage to ZK -NEQ ................................ ................................ ................................ .....................  9 
+Figure 4  Q300 nose landing gear  ................................ ................................ ................................ ...........  11 
+ 
+ 
+ 
+ 
+  
+Page ii | Report 11 -002 Abbreviations  
+Annex 13  Annex 13 to the Convention on International Civil Aviation  
+Commission   Transport Accident Investigation Commission  
+inhibit switch   Landing Gear Down Select Inhibit Switch  
+kg   kilogram(s)  
+Q300    commercial name for the Bombardier model DHC -8-311 aeropl ane 
+QRH   Quick Reference Handbook  
+UTC   co-ordinated universal time  
+ 
+ 
+ 
+Glossary  
+cycle     one take -off and one landing  
+detent  a notch, or catch, by the release of which machinery (e.g. a lever) is 
+allowed to move  
+fidelity  the accuracy of a flight simulator  in representi ng the layout of an 
+aircraft's flight deck, its aerodynamic and engine performance, the 
+flight controls and forces, and aircraft systems  
+go-around  to abandon a landing approach and climb away  
+Minimum Equipment List  lists those items that may be inoperative for flight, and any operational 
+or maintenance conditions that must  be met for flight with a specific 
+item inoperative  
+Quick Reference Handbook  a condensed version of the emergency and non-normal  procedures and 
+other data, taken from the aircraft flight manual, which is readily 
+available to the pilots  
+verification lights  lights, located under the landing gear alternate extension door in the 
+flight deck floor, that independently show whether the la nding gear legs 
+are locked down  
+  
+  
+Report 11 -002 | Page iii  
+Data summary  
+Aircraft  particulars  
+Aircraft registration : ZK-NEQ 
+Type and serial number:  Bombardier Aerospace DHC-8-311, 636  
+Number and type of engines:  2 Pratt  & Whitney Canada PW12 3 turbo -propeller  
+Year of manufacture:  2007  
+Operator:  Air Nelson Limited  
+Type of flight:  scheduled air transport  
+Persons on board:  44 
+Pilots ' licence s: airline transport pilot licence (aeroplane) , both pilots  
+Pilots ' ages: captain 34, first officer 23 
+Pilots ' total flying experience:  captain : 5549  hours , including 2309 hours on type  
+    first officer : 2243 hours, including 1315 hours on type  
+Date and time  
+ 9 February 2011, 1 4401 
+Location  
+ Woodbourne Aerodrome  
+latitude:  41° 31.1 ´ south  
+longitude:  173° 52.2 ´ east 
+Injuries  
+ nil 
+Damage  
+ minor  
+                                                        
+1 Times in this report are in New Zealand Daylight Time (U TC+13 hours) and expressed in 24 -hour format.  
+
+  
+Report 11 -002 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 9 February 2011 a Bombardier DHC -8-311 aeroplane (known as a "Q300 ") operated by Air 
+Nelson Limited departed from Hamilton Aerodrome on a scheduled flight to Wellington 
+Aerodrome.  On board were 2 pilots, a flight attendant and 41 passengers . 
+1.2. Prior to t aking off from Hamilton, the nosewheel steering malfunctioned because an "inhibit 
+switch " in the cockpit was faulty.  The faulty switch caused a loss of hydraulic pressure to the 
+nosewheel steering .  The nosewheel steering system was considered non -essenti al, so in 
+accordance with the approved Minimum Equipment List, the aeroplane departed Hamilton 
+with the system inoperative.  The trip towards Wellington was uneventful . 
+1.3. The nosewheel steering hydraulic power came from the extend side of  the landing gear  
+hydraulic system .  On the approach to Wellington, none of the landing gear extended when it 
+was selected down.  The pilots carried out a go -around to give them time to perform the 
+relevant procedures  provided in a Quick Reference Handbook (QRH) .  The Q300 was fitted 
+with an alternative system for lowering the landing gear when the normal system failed.  The 
+"Alternate Gear Extension " procedure succeeded in getting the main landing gear to extend , 
+but not the nose landing gear.2  That remained locke d in its retracted position . 
+1.4. There was nothing mechanically wrong with the alternate landing gear extension system.  The 
+nose  landing gear  did not extend because the pilots did not pull hard enough on the handle 
+that s hould have released  the uplock .  If the uplock had released,  the nose  landing gear would 
+have lower ed under gravity and lock ed down . 
+1.5. The pilots decided to divert to Woodbourne Aerodrome and to land with the nose landing gear 
+retracted.  No -one was injured in the landing.  The damage to the aeroplane was confined to 
+the area around the nose landing gear and the lower forward fuselage.  
+1.6. The Minimum Equipment List appeared to have considered the operational consequences 
+only of allowing a Q300 to depart with inoperative nosewheel steering.  The link between a 
+failure of the nosewheel s teering  and a potential failure in the hydraulic system, which would 
+affect  the landing gear , did not appear to have been considered .  The manufacturer has since 
+amend ed the Minimum Equipment List to  requir e a check of the hydraulic system pressure 
+before allowing a depart ure with the nosewheel steering  inoperative . 
+1.7. The operator's pilots were not made aware through their training o f how hard one had to pull 
+the handle to release the nose  landing gear  uplock.  A much lesser pull was required when 
+practi sing the procedure in the operator's flight simulator  and the Alternate Gear Extension 
+procedure did not , at the time,  give any guidance  as to the force required . 
+1.8. Air Nelson  modified its flight simulator so that the forces were more typical of t hose found on 
+the actual aeroplane , and provided its pilots with  more technical information on the Alternate 
+Gear Extension procedure.  The aeroplane manufacturer provided all operators of the Q300 
+with a more comprehensive  description of the Alternate Gear Extension procedure and 
+provided options for pilots to consider should the procedure be unsuccessful.  
+1.9. A recommendation  was made to the Director of Civil Aviation t hat he liaise with Transport 
+Canada t o make other  National Aviation Authorities  aware of this incident and of the 
+desirability of flight simulato rs closely representing the actual forces required for a n alternate  
+landing gear extension.  
+1.10.  Although not contributory to the accident, the report discusses the design of checklists and 
+how they can lead to pilots making errors or missing important items d uring times of high 
+workload.  The Transport Accident Investigation Commission (the Commission) had 
+commented on this issue in a previous inquiry.  A recommendation  was made to the Director 
+of Civil Aviation regarding the format of QRHs . 
+                                                        
+2 Although 'alternative' is the more correct word , the industry -accepted 'alternate' is used in this report.   
+
+<< Page 2 >>
+ Report 11 -002 1.11.  The Commission mad e findings  about the cause of the nosewheel steering and landing gear 
+extension failures , about crew training in alternative procedures , and the importance of having 
+well designed QRHs.  
+1.12.  The Commission also identified the following key lessons : 
+ in their simulator training pilots should be taught how to perform emergency and non -
+normal procedures as robus tly and rigorous ly as if the procedures were being performed 
+on the actual aircraft  
+ pilots should be informed of flight simulat or characteristics that differ from those in the 
+aircraft to ensure that  pilots are not mi sled during actual flight operations  
+ QRHs should be designed to minimise the potential for error as they are used by pilots  
+during times of high workload  and, potentially,  high stress  when dealing with 
+emergencies . 
+ 
+ 
+  
+  
+Report 11 -002 
+<< Page 3 >>
+ 2. Conduct of the inquiry  
+2.1. On 9 February 2011  Air Nelson Limited (the operator) advised the Commission of the accident 
+soon  after it ha d ha ppened .  The Civil Aviation Authority  of New Zealand notified the 
+Commission very soon afterwards in accordance with section 27 of the Civil Aviation Act 1990 .  
+Although t he circumstances appeared similar to those of an incident then  under investigation 
+by the Commission (inquiry 10 -010), a separate inquiry was opened under section  12 of the 
+Transport Accident Investigation  Commission  Act 1990 . 
+2.2. The Commission  gave permission for the aeroplane to be remove d from the runway before the 
+investigator  in charge  arrived on site early the next day .  Following an initial examination of the 
+aeroplane, the inquiry shifted to the operator's maintenance and operational base at Nelson 
+Aerodrome.  The aeroplane was flown  to Nelson on 10 February 2011 for troubleshooting of 
+the defect and repair of the dama ge. 
+2.3. A field service representative of Bombardier Aerospace, the manufacturer , was based at 
+Nelson  at the time and provided assistance t hroughout  the inquiry.  
+2.4. On 10 February 2011  the Transportation Safety Board of Canada , the State of Manufacture,  
+appointed  an Accredited Representative in accordance with section 5.18 of Annex 13 to the 
+International Convention on Civil Aviation (Annex 13).  The Accredited Representative  assisted 
+the Commission by supervising the examination of landing gear system components that had 
+been  returned under quarantine to the aeroplane manufacturer.  Specialist examination s of 
+the components w ere conducted at the facilities of the component manufacturers in Canada.  
+2.5. On 15 February 2011  the cockpit voice recorder was taken to the Aus tralian Transport Safety 
+Bureau laboratory in Canberra for d ownload.  The Bureau appointed an Accredited 
+Representative to assist the Commission, as provided for in section 5.23 of Annex 13.  The 
+downloaded information was protected in accordance with Aust ralian legislation .3  The 2 pilots 
+assisted with the transcript of the record ing.  A further cockpit recording, taken during an 
+alternate landing gear extension in another Q300, was analysed by the Bureau t o help 
+determin e whether the nose landing gear  uplock  had released on the accident flight . 
+2.6. On 14 March 2011  the National Transportation Safety Board of the United States appointed 
+an Accredited Representative , as provided for in section 5.23 of Annex 13,  who arranged the 
+supervision of a specialist exa mination of components at the manufacturers' facilities in the 
+United States.  This was a consequence of  United States legislation.4 
+2.7. The following processes also took place during the inquiry:  
+ interviews of the crew members and discu ssions with operational and maintenance 
+personnel from Air Nelson  
+ analysis of the recorded flight data  
+ examination of the  landing gear operation on other Q300 aeroplanes  
+ discussions and correspondence with the aeroplane and component  manufacturers' 
+repre sentatives  
+ discussions with representatives of the Civil Aviation Authority  
+ reviews of the safety occurrence databases in New Zealand, Australia, Canada and 
+the United Kingdom for relevant occurrences . 
+2.8. The Commission acknowledges the assistance of the Australian Transport Safety Bureau, the 
+Transportation Safety Board of Canada and the Natio nal Transportation Safety Board . 
+2.9. On 29 August 2012  the Commission approved the draft report for circulation to Interested 
+Persons for comment.   Submissions were rece ived from the  2 pilots, Air Nelson, Bombardier 
+Aerospace, the Civil Aviation Authority  and the Australian Transport Safety Bureau .  The 
+Transportation Safety Board of Canada had no comment.  Neither did Transp ort Canada  
+                                                        
+3 Transport Safety Investigation Act 2003.  
+4 International Traffic In Arms Regulations, as prescribed by the Arms Export Control Act (22 USC 2778).  
+
+<< Page 4 >>
+ Report 11 -002 initially but, together with the Civ il Aviation Safety Authority of Australia, it responded to a later 
+request by the Commission regard ing flight simulator certification  requirements . 
+2.10.  The submissions were considered by the Commission before this final report was approved on 
+12 December 2012  for publication . 
+  
+  
+Report 11 -002 
+<< Page 5 >>
+ 3. Factual information  
+3.1. History of the flight  
+3.1.1.  The aeroplane involved in this accident was a Bombardier DHC -8-311 aeroplane , known as a 
+Q300.  It was registered ZK -NEQ and operated by Air Nelson.  At 1235 o n 9 February 2011  the 
+aeroplane taxied for depart ure from Hamilton Aerodrome on a scheduled air transport flight to 
+Wellington  Aerodrome .  On board were 2 pilots, one flight attendant  and 41 passengers.  
+3.1.2.  While taxiing for departure , the nosewheel  steering did not respond to the captain's  hand  
+control  and t he NOSE STEERING  caution light illuminated.   The captain centred the hand 
+control and cycled the system switch off then back on, which initially extinguished the light, 
+but the fault remained .  The pilots then confirmed that they had carried out the actions 
+required by the operator's QRH  (see Appendix).  
+3.1.3.  They also referred to the Minimum Equipment List5 and confirmed that further flight was  
+permitted with the steering system inoperative.  The Minimum Equipme nt List  included an 
+operational limit of 20 knots of crosswind for take -off and landing, which could be met on that 
+sector, and a maintenance requirement to remove the electrical power for the steering 
+system, which the  pilots did by pulling the appropriate  circuit breakers . 
+3.1.4.  The pilots considered that the defect was minor and would be attended to by an engineer after 
+they arrived at Wellington.  Therefore they did not inform the Air Nelson  maintenance control 
+centre  of the defect before taking off .  Before commencing the approach to Wellington , the 
+captain noted that the crosswind was below 20 knots , and the first officer radioed the Air 
+Nelson o perations o ffice at Wellington  with a request for a  terminal  gate that would not 
+require tight  turns whi le taxiing.6 
+3.1.5.  On the approach  to Wellington , when the landing gear selector lever was moved to DOWN , the 
+landing gear system did not respond .  It was later determined that a  faulty Landing Gear Down 
+Select Inhibit Switch  (inhibit switch) , which blocked  hydraulic pressure to the down (extend)  
+side of the landing gear system, had caused th is failure and the earlier steering defect at 
+Hamilton . 
+3.1.6.  The captain commenced  a go-around  and, not knowing the cause  of the landing gear problem,  
+instructed the first officer to leave the selector lever in the down  position .  The pilots  advised 
+air traffic control that they had a landing gear problem and flew clear of the aerodrome in 
+order to carry out  the QRH  "Landing gear fails to extend " procedu re (see Appendix ). 
+3.1.7.  The first steps in this procedure were to ensure that the flight deck controls were correctly 
+configured for normal extension of the landing gear, including that the inhibit switch was in the 
+guarded NORMAL position, which it was.  
+3.1.8.  The alternate release  door, referred to in the checklist, is a flap in the flight deck ceiling above 
+the first officer's seat (see Figure 1) and the alternate extension  door is a flap in the flight 
+deck floor (see Figure 2).  
+                                                        
+5 The Minimum Equipment List is a manual that l ists those items that may be inoperative for flight and any operational or 
+maintenance conditions to be met before commencing a flight with a specific item inoperative .  The manual can be 
+referred to and its provisions applied at any time before take -off. 
+6 Communications between the crew members  and air traffic control , and flight deck sounds, were obtained from the 
+cockpit voice recorder . 
+
+<< Page 6 >>
+ Report 11 -002  
+Figure 1 
+Landing gear alternate release door (above first officer 's seat) , with inhibit switch circled  
+ (Photograph courtesy Air Nelson Limited)  
+ 
+ 
+ 
+Figure 2 
+Landing gear alternate extension door and nose landing gear uplock release handle  
+ 
+ 
+ 
+nose landing 
+gear uplock  
+release handle  
+landing gear 
+alternate 
+extension  door  
+base  of first 
+officer's seat  
+forward  
+  
+Report 11 -002 
+<< Page 7 >>
+ 3.1.9.  The first officer misread part of the "Landing gear fails to extend " checklist , as shown in the 
+comparison between the QRH and the cockpit voice recording below (item 3 in the excerpt ; 
+emphasis added):  
+Item [not 
+numbered 
+in QRH]  QRH item  First officer said 
+1 Landing gear inhibit switch - NORM 
+[normal]  Landing gear inhibit switch to NORM, yes.  
+2 Landing gear alternate release  door - 
+closed  Landing gear alternate release  door is closed . 
+3 Landing gear alternate extension  door - 
+closed  Ah, gear alternate release  door is closed, yes . 
+4 Landing gear extends/indicates normally? 
+YES/NO  Landing gear e xtends indicates normal, no . 
+5 Landing gear alternate extension door - 
+open  Landing gear alternate extension door, open . 
+6 Landing gear  
+down verification light switch - 
+On/Check/Off  
+[Text layout as in QRH - see Appendix]  Landing gear, ah, open.  
+Landing gear down verification light switch, 
+check. No lights.  
+7 Note that either green position advisory 
+light or green downlock verification light 
+means that that gear leg is down and 
+locked  [Not read out. ] 
+8 Is at least one green light illuminated for 
+each Gear Leg position? - YES/NO  Is at least one green light illuminated? No.  
+ 
+3.1.10.  With the landing gear still not extended, the checklist directed the pilots to carry out the 
+Alternate Gear Extension procedure ( see Appendix).  Before doing this, th e captain infor med 
+the passengers of the situation.  
+3.1.11.  The Alternate Gear E xtension procedure checklist was headed:  
+ 
+ 
+ 
+When the first officer pulled the main landing gear uplock  release handle in the ceiling, the 
+main landing gear extended and locked down.  After he pulled the nose landing gear uplock 
+release handle in the floor  (see Figure 2), the nose landing gear doors opened  almost 
+immediately , but  the pilots did not hear the  sound of the gear leg locking down .  The first 
+officer checked the downlock verification lights , which showed  that the left and right main 
+landing gear  legs only w ere down.  
+3.1.12.  The first officer then quickly read through the QRH considerations for landing wi th the nose 
+landing gear not extended  (see Appendix).  He misread the item "If the nose landing gear  is 
+not extended …" as "If the nose landing gear  is not retracted… ", and misidentified the line 
+"Continued on next page " as a part of th is checklist .  Althou gh t hese errors were 
+inconsequential  in this case , their relevance to QRH design and use is discussed in the 
+Analysis section of this report . 
+3.1.13.  The captain con sidered diverting to another  aerodrome  - either Palmerston  North, the 
+planned alternate, or Woodbourne - rather than obstruct  the busy Wellington runway by 
+landing without t he nose landing gear  extend ed.  The Woodbourne weather was fine with a 
+southeast crosswind of about  12 knots  at the time , good visibility and  the lowest cloud at 
+2000 feet.  WARNING  
+Landing gear will not retract following this procedure  
+ 
+
+<< Page 8 >>
+ Report 11 -002 3.1.14.  The Wellington controller then advised that the nose landing gear doors appeared to be open , 
+but the gear leg was not extended fully .  At about this time, the first officer, apparently without 
+direction from the captain , gave the nose landing gear  uplock release handle another pull.  He 
+described it as "an easy pull to the stop ", with the handle coming up to a height about level 
+with the top of the centre instrument console .  However, the uplock still did not release.  
+3.1.15.  After 17 minutes ' holding in the Wellington area , the pilots  advised the controller that they 
+would divert to Woodbourne for an emergency landing and they requested that emergency 
+services  attend .   
+3.1.16.  En route, the captain briefed the flight attendant  and instruct ed her to prepare the cabin for 
+an emergency landing .  He indicated that they would land in about 15 minutes.   Six minutes 
+later, he made a further announcement to inform the passengers .  The pilots completed most 
+of the Q RH items  for a landing wit h the nose landing gear  not extended , apart from some 
+items that they completed shortly before the final approach at Woodbourne . 
+3.1.17.  The pilots decided that another visual check of the landing gear position by the Woodbourne 
+control ler was not required .  Photo graphs taken from the ground at Woodbourne showed that 
+the nose landing gear forward doors were open , but the gear leg was not extended.  
+3.1.18.  Air Nelson had been alerted to the problem by the Wellington controller.  When the aeroplane 
+arrived at Woodbourne , the pilots were asked to hold while Air Nelson technical and 
+operational staff considered t he defect and whether a normal landing could be achieved.  
+Their questions were passed by  telephone to the Woodbourne air traffic control ler, who 
+relayed them to the  pilots .  ZK -NEQ was the only aircraft in the Woodbourne control zone 
+during the 20 minutes these exchanges  took place.  
+3.1.19.  While in the holding  pattern , the pilots a sked the controller to pass to the Air Nelson staff 2 
+sets of information concerning  the nosew heel steering defect at Hamilton .  The staff did not 
+recall receiving that information.  The controller passed to the pilots  a report that the  nose 
+landing gear  front left door appeared to be partially open , and a request from the engineers 
+for the pilots to make a low pass so that a ground observer could attempt to confirm the nose 
+landing gear  position .  Following the low pass, the pilots considered that they had enough fuel 
+for another circuit before t hey should land.  
+3.1.20.  The pilots asked what had been observed during the low pass , but no feedback was given .  
+The controller passed on an Air Nelson  suggest ion that there could be dirt in the hydraulic 
+lines that might shift if the pilots cycled the landing gear.  However , the pilots opt ed not to do 
+so because th ey had no procedure  for reversing the Alternate Gear Extension procedure  and 
+there was doubt about the door positions .  The pilots  then informed the flight attendant and 
+passengers that they were about to make the final approach t o land , but 4 minutes later the 
+controller relayed a further "strong recommendation " from the engineers  to cycle the landing 
+gear.  Again, the pilots declined to do so . 
+3.1.21.  The checklist for landing without the nose landing gear extended called for the cabin 
+announcement "Attention! Attention! Brace  for impact !" to be made wh en the aeroplane was 
+500 feet above the ground, which would normally be about 50 seconds before  touchdown.  In 
+this case, the announcement was made much earlier  in order to complete  the checklist , apart 
+from selecting the final landing flap .  As a result, the flight attendant began yelling the 
+command "Head down ! Stay down! " to the passengers  early , and continued doing so until the 
+aeroplane touched down  more than 2 minutes  later . 
+3.1.22.  At about 1440 the aeroplane landed  and the captain lowered the nose until the nose landing 
+gear doors contacted the runway.  The doors collapsed before the aeroplane came to a stop 
+on the centreline.  The pilots shut down the engines, turned off the  electrical power and 
+ordered a precautionary evacuation of the aeroplane.  No -one was injured  and there was no 
+fire. 
+3.1.23.  Damage was confined to the nose landing gear doors and surrounding structure, and 3 
+antennae on the lower fuselage (see Figure 3).  
+  
+Report 11 -002 
+<< Page 9 >>
+  
+Figure  3 
+Damage to ZK -NEQ 
+3.2. Aircraft information  
+3.2.1.  The Q300 is a Bombardier Aerospace development of the de Havilland Canada "Dash 8 " 
+series of aeroplanes .  It is a high -wing, pressurised aeroplane powered by 2 turbo -prop 
+engines.  The aero plane, as  configured by Air Nelson , had  a crew of 2 pilots and one flight 
+attendant and 50 passenger  seats.  The type certification authority for the Q300 is Transport 
+Canada . 
+3.2.2.  Air Nelson  had a fleet of 23 Q300 aeroplanes that had entered service between Ju ly 2005 
+and June 2009.  ZK-NEQ had been  manufactured in March 2007 and entered service with Air 
+Nelson  that month .  At the time of the accident, it had accrued 8791  flight hours and 10 508 
+cycles .7 
+3.2.3.  According to Air Nelson 's records, the aeroplane had been maintained in accordance with the 
+approved maintenance programme.  The previous scheduled maintenance had been a 7-day 
+line check completed on 2 February 2011.  
+3.2.4.  No nose steering  defect had been reported on ZK -NEQ since the aeroplane  entered service 
+and no relevant landing gear defect had been logged on the aeroplane during the 14 months 
+prior to the incident.  On 9 February 2011 there were 3 deferred maintenance items in the 
+aeroplane  maintenance log , but none  was relevant to this occurrence . 
+Hydraulic sys tem 
+3.2.5.  Hydraulic power to operate various items  on the aeroplane is provided by 2 independent 
+systems.  The No.2 hydraulic system is pressurised by a pump driven by the right engine and 
+powers the landing gear and nosewheel st eering.   Filters in the pressure and return lines 
+remove foreign debris  from the hydraulic oil .  The oil is usually analysed at least once a year . 
+                                                        
+7 A cycle is one take -off and landing.  
+
+
+<< Page 10 >>
+ Report 11 -002 Landing gear description  and operation  
+3.2.6.  The Q300 has a retractable, tricycle landing gear.  The nose landing gear retracts forward into 
+the fuselage nose.  Figure 4 shows some of the nose landing gear  components referred to in 
+this report.   
+3.2.7.  The landing gear operation is controlled by moving the cockpit landing gear selector lever to 
+the UP or DOWN position.  This sends an electrical signal to the appropriate solenoid in the 
+landing gear selector valve  to allow the corresponding landing gear hydraulic lines to be 
+pressurised .  The extend solenoid of the selector valve remains energised  when  the landing 
+gear is dow n to allow hydraulic pressure to the nosewheel steering.8  When the landing gear is 
+selected UP, t he extend solenoid de-energises, removing hydraulic  pressure from the extend 
+lines . 
+3.2.8.  The nose landing gear is enclosed by 2 sets of doors when retracted.  The forward doors are 
+operated hydraulically and the rear doors are mechanically linked to the landing gear leg.  
+When the selector lever is moved to DOWN, hydraulic pressure is applied simultaneously to:  
+ the door actuator, to open the forward doors  
+ the drag s trut actuator, to release the uplock  
+ the nose landing gear extend/retract actuator.  
+3.2.9.  Sequence valves ensure that the components move in the correct order and delay the nose 
+landing gear actuator operation to allow time for the forward doors to open fully before the 
+landing gear leg extends.  Once the nose landing gear is locked down, the forward doors close.  
+A "Land ing Gear INOP " caution light illuminates if any of the landing gear legs and their 
+hydraulically operated doors move out of sequence.  
+3.2.10.  A 2-position (NORMAL and INHIBIT) inhibit switch is located beside the alternate release door 
+in the flight deck ceiling (see Figure 1).9  The switch is used in the "Landing Gear INOP " 
+procedure to prevent landing gear extension when a door might be closed or closing, and it 
+can also be used to simulate a landing gear failure condition.  
+3.2.11.  If the switch i s put to INHIBIT while the landing gear is retracted, the extend solenoid of the 
+landing gear selector valve cannot  energise .  Therefore, no landing gear legs will extend when  
+the landing gear selector lever is next moved to DOWN.  
+3.2.12.  If the switch is put to INHIBIT wh ile the landin g gear is extended, the extend  solenoid will de -
+energise and hydraulic pressure will be removed from the landing gear system, including the 
+nosewheel steering .  However , the landing gear remains in the extended position because of 
+the mechanical over-centr e downlocks .  The position of the switch does not affect l anding gear  
+retraction . 
+Alternate landing gear extension  
+3.2.13.  The alternate landing gear extension controls include:  
+ the main landing gear uplock release handle, behind the alternate release door in the 
+flight deck ceiling above the right -hand pilot's seat (see Figure 1)  
+ the nose landing gear uplock release handle under the alternate extension  door in the 
+floor by the right -hand pilot's seat (see Figure 2).  
+ 
+                                                        
+8 Under normal conditions of electrical power and with the right -hand  engine operating.   
+9 Honeywell single pole -single throw toggle switch, part number MS24523 -33, catalogue listing 1TL1 -31.  
+  
+Report 11 -002 
+<< Page 11 >>
+  
+Figure 4 
+Q300 nose landing gear  
+3.2.14.  The action of opening the overhead alternate release door  connects the pressure and return 
+lines of the landing gear hydraulic system , thereby bypassing the actuators . 
+3.2.15.  When the nose landing gear uplock release handle  in the floor is pulled, the attached cable 
+releases the forward door lock followed by r elease  of the uploc k.  The nose landing gear leg 
+should then lower freely  under gravity , with t he airflow assis ting it to lock down . 
+3.2.16.  A very light force is required to release the door locks, because their opening is facilitated by a 
+spring.  There are no mechanical restrictions, such as a detent , in the sequence for a n 
+alternate  landing gear release, but the much higher force required to release the uplock, 
+compared with that to open the doors, is perceived , and was described,  as a detent.   The Air 
+Nelson Q300 System s Training Manual stated:10 
+  
+                                                        
+10 Air Nelson B ombardier DHC -8 Q300 Systems Training Manual, p.13 -17, 4 August 2007 . 
+drag 
+strut 
+actuator  
+nose landing 
+gear  actuator  
+lower drag strut  
+downlock 
+verification 
+light source  
+downlock 
+verification 
+sensor
+taxi light  
+nosewheels  
+
+<< Page 12 >>
+ Report 11 -002 [The] uplock release handles are detented.  Pulling to the first detent releases 
+the door uplocks and pulling the rest of the way releases the gear uplocks.  The 
+first detent is to facilitate opening the gear doors for ground servicing.  During 
+an alternate extension, the handles should be pulled as far as they will go in 
+one motion . 
+3.2.17.  The Bombardier Q300 Maintenance Manual also referred to a detent when pulling the handle 
+to open the doors in order to perform maintenance on part  of the nose landing gear.11 
+3.2.18.  The nose landing gear retraction actuator will not extend freely  until the forward doors have 
+opened completely and the locking mechanism has been  fully released .  If the pull on the 
+release handle is relaxed while the doors are in the process of  opening and before the locking 
+mechanism  has released, spring tension in the locking mechanism can re-engage the lock .  
+This possibility was not widely known among pilots at the time  of the accident . 
+3.2.19.  The nose landing g ear uplock release handle is operated p rior to an aeroplane's first flight 
+each day .  A pull of approximately 6 to 8 kilograms (kg) is required on the handle to open  the 
+nose landing gear  forward doors  so that pilots  can inspect the inside of the wheel well. 
+Training in alternate landing gear extension procedure  
+3.2.20.  Procedures such as the Alternate Gear Extension  were once p ermitted to be p ractised during  
+air transport flights, which ensured that pilots were aware of the actual force s needed  to 
+release the u plock s, but  training for such  non-normal  procedure s now has to be performed  in 
+a flight simulator.12  In this case the 2  pilots had not performed an alternate landing gear 
+extension in the aeroplane.  
+3.2.21.  The pilot in the right seat usually performs the procedure, including pulling the uplock release 
+handle, but all of the Air Nelson  pilots had practised the procedure in flight simulator s during 
+their aeroplane type rating course s.  Thereafter, it was p ractised when t he recurrent t raining 
+programme  for pi lots included a scenario with that requirement , which was nominally every 18 
+months . 
+3.2.22.  The captain and the first officer had completed their  Q300 ground training course s with Air 
+Nelson staff, and their simulator  training had been  conducted by a certificated  training 
+organisation.  The organisation  advised that it had stressed to trainees that when pulling the 
+release handle the door lock would be felt to have release d but the pull had to be continued 
+as hard as possible until the green position advisory light illuminated .  The green light  
+indicate d that th e nose landing gear had locked down .  If the procedure was not successful, it 
+could be repeated, using both hands on the handle.   Air Nelson said that its ground course at 
+the time did not address  the Bo mbardier advice to pull the handle to the stops and to repeat 
+the action if necessary until the landing gear was  down and locked.  
+3.2.23.  In 1997 Bombardier published a Safety of Flight Supplement that noted that the pull forces 
+required during an alternate landing g ear extension "may exceed those experienced during 
+practice extensions, particularly those experienced in flight simulators ".13  That statement was 
+included in the Bombardier flight manual.  While Air Nelson said that it s practice was to  assess  
+Safety of Flight Supplement s and to incorporate relevant material into manuals and training  
+courses , it acknowledged that the information in the Safety of Flight Supplement concerning 
+the alternate landing gear extension  procedure had not been included in  the ground training 
+course notes provided to the 2 pilots  involved in this accident , nor had it been incorporated 
+into company manuals  at the time . 
+  
+                                                        
+11 Bombardier  Q300  Maintenance Manual , section 32-20-31, p.201. Bombardier later indicated that it would remove 
+that reference,  
+12 Civil Aviation Rule 121.579, Manoeuvres requiring a flight simulator . The Rule was changed before  Air Nelson 
+acquired  Q300  aeroplanes .  
+13 de Havilland Dash 8, Operating Data Manual, Safety of Flight Supplement No.7, 10 January 1997.  
+  
+Report 11 -002 
+<< Page 13 >>
+ 3.2.24.  In late 1997  the Commission published a report on a Dash 8 accident  that had occurred in 
+1995 ("the 1995 accident ") while the pilots were performing an alternate extension of the 
+main landing gear.14  The report noted that the involved airline  (Ansett New Zealand, which  
+ceased operations in 2001 and had no connect ion with Air Nelson) had not include d any 
+refer ence to the required pull force in its QRH  (Transport Accident Investigation Commission, 
+1997, p.86) . 
+3.2.25.  At the time of the ZK -NEQ accident in February 2011, the  Air Nelson QRH Alternate Gear 
+Extension procedure stated that the uplock release handle should be  "pull[ed] fully up ", but 
+did not give a  force required, nor state that the handle had to be pulled as hard and held for 
+as long as it took to release the uplock.  Th e QRH s of both Air Nelson and Bombardier were 
+subsequently  amended to draw attention to the forces required . 
+Nosewheel steering  
+3.2.26.  The nosewheel steer ing system is electrically controlled and hydraulically operated, using a 
+hand control next to the left -hand  pilot's seat or by moving the rudder pedals.  The hydraulic 
+pressure comes from the DOWN , or extend,  side of the landing gear selector valve . 
+3.2.27.  A fault in the electronic control unit is indicated  by the NOSE STEERING caution light.  In that 
+case or if the s ystem is switched off, the steering actuator is depressurised and th e nose wheel 
+castor s freely.  The aeroplane can then be steered using differential brak es and power . 
+Flight recorders  
+3.2.28.  The aeroplane was fitted with a Honeywell flight data recorder , but parameters  relat ing 
+specifically to the nosewheel steering or to the alternate extension of the landing gear were  
+not recorded .  
+3.2.29.  The aeroplane was also fitted with a Honeywell cockpit voice recorder with a 2 -hour recording 
+duration.  Radio transmissions, intercom and cabin announcements, and cockpit area 
+ambient sounds were recorded  on the cockpit voice recorder .  The recorder  was taken to the 
+Australian Transport Safety Bureau laboratory in Canberra where the audio recording was 
+downloaded  and examined .  The separate audio tracks that recorded the last 30 minutes of 
+the captain's and the  first officer's intercom and radio transmissions were of good quality  and 
+included the landing at Woodbourne .  The combined 2 -hour track was also of good sound 
+quality, but after commencing with a short segment (about 90 seconds) on the ground at 
+Hamilton  it skipped to  the climb after departing Hamil ton.  The remainder of the flight  was 
+recorded continuously on the combined track .15  The 2 pilots later assisted the Commission to 
+prepare  a transcri pt of  the recording.  
+3.2.30.  The sound of the nose landing gear  uplock releas ing on the recording might  have been 
+present on the recording and obscured by a radio call made to the Wellington controller  at the 
+same time  as the release handle was pulled .  The recording was compared with another made 
+on a  different Q300 in an attempt  to isolate the "signature " of the uplock releas ing.  This 
+confirmed that the sound of the nose landing gear  uplock releas ing was not recorde d during 
+the alternate extension procedure carried out at Wellington . 
+  
+                                                        
+14 Report 95 -011, de Havilland DHC -8, ZK -NEY, controlled flight into terrain , near Palmerston North, 9 June 1995 . 
+15 The reason for  the recording gap in the combined track was not determined . 
+
+<< Page 14 >>
+ Report 11 -002 3.3. Tests and research  
+Initial tests  
+3.3.1.  After the accident , the doors  in the flight deck that cover ed the uplock release handles  for the 
+main and nose landing gear were found open.  The aeroplane nose was lifted off the runway 
+with a crane. The nose landing gear  was found in the uplock , but it extended under its own 
+weight when the uplock release handle was pulled . 
+3.3.2.  On 10 February 2011, after taking the required  engineering action and obtaining regulatory 
+approval , the aeroplane was flown to the Air Nelson base at Nelson Aerodrome with t he 
+landing gear locked down and the forward nose landing gear  doors removed . 
+3.3.3.  Initial test s found no anomalies in the electrical circuits from the landing gear selector handle 
+to the landing gear selector valve solenoids.  
+Failure of all landing gear to extend by the  normal system  
+3.3.4.  The landing gear selector valve and hydraulic sequencing valve were examined at the 
+premises of the manufacturer, Eaton Aerospace, under the supervision of an investigator of 
+the United States National Transportation Saf ety Board on behalf of the Commission.  Both 
+components passed all functional tests.  
+3.3.5.  During functional testing of the landing gear after the aeroplane had been repaired , an 
+intermittent fault was found with the inhibit switch .  The landing gear did not ext end when it 
+was selected DOWN with the switch in t he NORMAL position , but correct operation could be 
+obtained by bumping the switch.  
+3.3.6.  The connection between the nosewheel steering defect at Hamilton and the landing gear not 
+extending by the normal system at  Wellington was then apparent .  After the inhibit switch was 
+replaced, all functional checks, including those of the nosewheel steering, were satisfactory.   A 
+check of Air Nelson 's Q300 fleet did not find any more defective inhibit switches.  
+3.3.7.  Switches with the same part number were used on the Q300 flight deck for 2 bleed air control 
+switches and for the propeller synchrophaser switch.  Those 3 switches were used daily and 
+Air Nelson had no history of defects with them.  In contrast, the inhibit switch was r arely used.  
+Bombardier advised that the calculated mean time between unscheduled removals of this 
+type of  switch was more than  220 million flight hours.  
+3.3.8.  On 12 February 2011  Air Nelson  suspended the use of the Minimum Equipment List provision 
+to operat e with an inoperative  nosewheel steering  system , because , unless the cause of the 
+defect could be positively determined, normal extension of the landing gear could also be 
+affected .  Bombardier later amended the Minimum Equipment List Procedures Manual to 
+require verification  that hydraulic pressure was available for the normal extension of the nose 
+landing gear  before commencing a flight  with an inoperative nosewheel steering system.  
+Failure of nose landing gear  to extend by the  alternate system  
+3.3.9.  The followin g potential causes of this failure were examined : 
+ the method used by the first officer to pull the uplock  release  handle  
+ a failure of the release cable  to open  the uplock  
+ a restriction or failure of an hydraulic actuator  
+ a failure of the bypass valve  (when opening the alternate release door)  
+ incorrectly rigged mechanical components  
+ a mechanical obstruction of the nose landing gear  doors, wheels or strut.   
+  
+Report 11 -002 
+<< Page 15 >>
+ 3.3.10.  The first 2 possibilities are discussed fully in the next section.  
+3.3.11.  The rigging of the bypass valv e and the nose landing gear  assembly , including the doors, were 
+checked and no fault  was found.   There was no indication of mechanical binding or 
+obstruction.  
+3.3.12.  The nose landing gear  actuator and the drag strut actuator were removed and examined by 
+their man ufacturer, Messier -Dowty INC, under the supervision of an investigator from the 
+Transportation Safety Board of Canada on behalf of the Commission.  No faults were found.  
+3.3.13.  The nose landing gear  door actuator, mechanical sequence valve and steering manifold 
+assembly and steering actuator were examined .  No fault was found.  
+Nose landing gear  alternate extension  rigging and operation  
+3.3.14.  The nose landing gear  uplock did not release at Wellington in spite of the first officer pulling 
+the release handle  with what he b elieved was a lot of force.  He took part in subsequent 
+testing and observed that there was a more marked change in the force required between the 
+doors opening and the uplock releasing than there had been on the accident aeroplane, but 
+that the handle pulled out about as far .  Some of the Air Nelson training captains who took 
+part in these t ests expressed surprise at the force required to release the uplock.  
+3.3.15.  The rigging of the nose landing gear  alternate extension system on ZK -NEQ was checked  and 
+no discrepancy was found.  
+3.3.16.  The Q300 Maintenance Manual procedure for rigging the alternate extension system did not 
+specify a value or range for the uplock release force or for the cable extension.  Bombardier 
+advised that no values had been  specified because aeroplanes had individual mechanical 
+characteristics.  It said that pilots should pull the handle with whatever force and for as long 
+as it takes to release an uplock , and that the release handle should be pulled in one 
+movement.  Air Nelson's training had generally emphasis ed that it was a single movement, 
+noting that after the doors had opened the required force would seem to increase  until the 
+uplock was released.   
+3.3.17.  Air Nelson  undertook a fleet -wide inspection of the nose landing gear alternate extension 
+system and measured the forces required to open the doors and release the uplocks.  There 
+was some variability according to whether the handle was pulled swiftly in one movement, or 
+the tension held while  the doo rs opened and then increased until  the uplock re lease d. 
+3.3.18.  The results of the fleet inspection are summarised below:  
+ if the  uplock release  handle was pulled i n one movement, the highest force was 65 
+kg.  The force increased proportionally with the rate  at which the handle was pulled  
+ if an arbitrary 5 -second delay was observed  between the door  locks releasing and 
+making a further pull to release the uplock , the peak force reduced to as little as 25 
+kg 
+ if the handle was pulled beyond th e point at which the doors opened until an increase 
+in pull force was felt and then held, the additional force required to release the u plock 
+was significantly reduced  
+ the time for the doors to open fully was consistent ly about 2 sec onds16 
+ the release handle could  be pulled fully up  in less than 2 sec onds .  
+3.3.19.  Air Nelson  later advised its pilots when carrying out an alternate extension of the nose landing 
+gear to use a 2 -stage pull: the first was that usually applied  to open the doors for the pre -flight 
+check , followed by a pause for up to 5 second s to allow  the doors to open , and then  a strong, 
+continu ous pull until the advisory position light showed that the nose landing gear had locked 
+                                                        
+16 Bombardier later submitted t hat the time for the nose landing gear doors to open i s reduced for an  aircraft in flight . 
+
+<< Page 16 >>
+ Report 11 -002 down .  Air Nelson  said that with this technique an average force of 30 k g was enough to 
+release th e nose landing gear  uplock.   
+3.3.20.  ZK-NEQ was returned to service on 24 March 2011.  
+Other occurrences  
+3.3.21.  Air Nelson pilots  had resorted to the Alternate Gear E xtension procedure successfully 5 times 
+on air transport flights, with 4 of those occasions having been caused by a loss of system 
+hydraulic pressure.  Th e procedure had not been required previously to deal with  the landing  
+gear not extend ing when selected DOWN.  Even with the 2 recent occurrences, Air Nelson 's 
+rate of landing gear failure -to-extend incidents  was marginally be tter than  the global rate 
+advised by Bombardier (0.029 per 1000 flight hours).  
+3.4. Personnel information  
+3.4.1.  On 9 February the  crew reported for duty at 0655 after an overnight and 10 hours free of duty 
+at Invercargill.  They  flew 3 sectors in ZK -NEQ before arriving at Hamilton . 
+3.4.2.  The captain  had joined Air Nelson  in January 2006  and obtained a Q300 type rating , as a first 
+officer , in September 2007.  He had been  promoted to captain in March 2009.   He held an 
+airline transport pilot licence (aeroplane) , issued in December 2008 , and a valid Class 1 
+medical certificate with no conditions, restrictions or endorsements.   His total flight time 
+experience to 8 February 2011  was about 5550 hours, of which about 2310 hours were on 
+the Q300.   The capt ain's previous flight crew competency check had been  conducted on 29 
+October 2010 and his previous line check on 26 August 2010 . 
+3.4.3.  The captain said that during the Invercargill overnight he had had 7 hours of good sleep.  His 
+last rostered day off had been on 5 February  2011 .  He had flown about 56 hours in the 30 
+days prior to 9 February 2011,  and about 23 hours i n the 7 days prior.  
+3.4.4.  The first officer had joined Air Nelson  in August 2008  and completed the Q300 type rating 
+course that month.  He held an air tr ansport pilot licence (aeroplane) , issued in August 2010 , 
+and a valid Class 1 medical certificate with no conditions, restrictions or endorsements .  His 
+total flight time experience to 9 February 2011 was about 2443 hours, of which abou t 1315 
+hours were on  the Q300.   The first officer had completed a flight crew competency check on 7 
+December 2010 and his previous line check had been  conducted on 1 November 2010 . 
+3.4.5.  The first officer said that during the Invercargill overnight he had had  7 hours of broken, but  
+sufficient sleep.  His last rostered day off had been on 5 February 2011.  He had flown about 
+39 hours in the 30 days prior to 9 February 2011 , and 26 hours in the 7 days prior . 
+3.4.6.  The flight attendant had joined the company in  August 2006 and qualified as a flight 
+attendant on both Saab 340 and Q300 aeroplanes.  Her previous line check had been 
+completed on 24 January 2011.  
+3.5. Aerodrome information  
+3.5.1.  Woodbourne Aerodrome is 6 kilometres west of Blenheim in a broad valley.  The  circuit for the 
+single, sealed runway is , for a Q300 -size aeroplane, comfortably clear of terrain.  ZK-NEQ 
+landed on runway 06.  The a erodrome rescue service  is provided by t he former operator of the 
+aerodrome, the Royal New Zealand Air Force, which still has active facil ities there . 
+  
+  
+Report 11 -002 
+<< Page 17 >>
+ 3.6. Other information  
+Flight simulator requirements  
+3.6.1.  An aircraft flight simulator that is used for type rating training is certificated by the National  
+Aviation Authorities  of the simulator operator and of the airline and pilots who wish to obtain 
+credit for its use.  The certification level depends on the simulator fidelity , that is, how 
+faithfully the simulator  reproduces the flight and system characteristics , or the "look and feel ", 
+of the aircraft.   The e valuation of si mulators entail s objective and subjective tests.17  Objective 
+testing is performed on primary flight controls only, and requires a computer -based 
+comparison of the simulator performance with that of the actual aircraft, using validated 
+reference data .  Each test must meet mandated tolerances.  Generally , the primary flight 
+control forces ex erted by pilots must be within 2.25 k g of the reference forces.   The secondary 
+controls, such as  the alternate landing gear mechanism, are subjectively assessed for their 
+function and performance by approved pilots . 
+3.6.2.  The Civil Aviation Authority approved simulators in accordance with Civil Aviation Rule 121.11, 
+which stated in part:  
+121.11 Flight simulator and other training device approval  
+(a) A holder of an air operator certificate must ensure that each flight simulator, 
+or training device, that is used in the certificate holder's training programme is 
+specifically approved for — 
+(1) use by the certificate holder; and  
+(2) the aeroplane type and, if applicable, the particul ar variant within that 
+type, for which the training or check is being conducted; and  
+(3) the particular manoeuvre, procedure, or crew member function 
+involved.  
+(b) The certificate holder must ensure that any flight simulator or any training 
+device that is used to accrue flight credits — 
+(1) maintains the performance, functional, and other characteristics that 
+are required for approval; and  
+(2) is modified to conform with any modification to the aeroplane being 
+simulated that results in changes to performance , functional, or other 
+characteristics required for approval; and …  
+3.6.3.  The Civil Aviation Authority said that the simulator procedure for an alternate landing gear 
+extension did not require specific approv al.  Prior to Air Nelson  installing a  Q300 simulator  in 
+Auckland,  its pilots had been trained in simulators in Canada and Australia .  The National  
+Aviation  Authorities  of these  3 countries confirmed that the simulated Q300 u plock release 
+force was assessed subjectively.  Transport Canada explained that the we ar caused by 
+unusually frequent use of the simulator alternate landing gear extension mechanism and the 
+variability of wear across operators' fleets made  the isolation of a representative force very 
+difficult .  The Civil Aviation Safety Authority  of Austra lia noted that a recent check of the 
+Australian Q300 simulator "found subjectively that there was sufficient resistant and release 
+forces to indicate to the pilot that the gear up -locks  had been released and the gear had 
+extended ".   
+3.6.4.  The forces required for the alternate nose landing gear extension procedure in Air Nelson's 
+simulator were measured with the same strain gauge that was used for the fleet check .  The 
+average forces were  6.5 k g to open the doors and 8.1 k g to release the uplock .  Depending on 
+the technique used, the actual force required to release the uplock averaged 30 k g on the 
+fleet check, and the maximum measured was 65 k g. 
+                                                        
+17 The standard reference is  the International Civil Aviation Organization Doc 9625 , Manual of criteria for the qualification 
+of flight training simulator devices.  
+
+<< Page 18 >>
+ Report 11 -002 QRH  procedures  
+3.6.5.  The requirement for an operator to provide pilots with a flight check system is given in Civil 
+Aviation Rule 121.77, which states in part:  
+The certificate holder shall ensure that the system enables safe real -time decision 
+making and aeroplane management by conforming with the principles —  
+(1) contained in the aeroplane flight manual; and  
+(2) conta ined in the manufacturer 's technical and safety instructions.  
+3.6.6.  A QRH provide s pilots with the necessary procedures and guidance to deal with most non-
+normal  and emergency situations that might occur.  It is derived from, but subordinate to, the 
+approved aircraft flight manual and is not evaluated as a part of the aircraft type certification 
+process.  Operators may adapt aircraft manufacturers ' QRH s to suit their flight operations 
+philosophy and practice.  Amendments to a QRH must  be notifi ed to the Civil Aviation 
+Authority, but do not require its approval . 
+3.6.7.  The preface to the Bombardier Q300 QRH was similar to those in the QRH s of other aircraft 
+manufacturers in stating (Bombardier, 2009, p.i, ii):  
+It is th e operator's responsibility to ensure the checklists are applicable to their 
+type of operation.  In the event of an inconsistency between any checklist and the 
+approved [aircraft flight manual], the [aircraft flight manual] takes precedence.  
+Pilots must be  aware that checklists cannot be created for all conceivable 
+situations and are not intended to preclude good judgement.  In some cases 
+deviation from the checklists may, at the discretion of the [pilot in command], be 
+necessary…  
+The Non -normal/Emergency c hecklist assumes that if an indicating light 
+associated with a system is not illuminating, the integrity of the bulb is checked 
+prior to referring to the checklist.  
+3.6.8.  The Air Nelson Q300 training course and its QRH had not, prior to this accident , included t he 
+notes in the Bombardier aircraft flight manual concerning the forces required when pulling the 
+landing gear alternate release handles.  The absence of that important information , 
+particularly from  the QRH,  had not been noticed when the Civil Aviation Au thority determin ed 
+the acceptability of Air Nelson's training and operational manual suite.     
+3.6.9.  Air Nelson  was one of a number of Q300 operators that had asked Bombardier to provide a 
+specific procedure  for a landing gear leg not extending when selected DOWN, and for landing s 
+with non-normal  gear configuration s, for example with the nose landing gear  retracted.  In 
+response, in March 2008 Bombardier  issued a Service Letter containing considerations for 
+pilots  if the Alternate Gear Extension procedure did not result in all of the gear lock ing down.18 
+3.6.10.  Air Nelson had customised a procedure, "Landing gear fails to extend ", that was not in the 
+Bombardier QRH , but which was based on information in Bombardier Service Letters .  The Air 
+Nelson procedure firstly checked that a normal extension had not been prevented by the flight 
+deck switches being incorrectly configured, and also involved checking the verification lights.  
+If those checks did not correct the condition, the procedure led to the Alternate Gear 
+Extension procedure . 
+3.6.11.  After this accident, Air Nelson amended its QRH "Landing gear fails to extend " procedure by 
+adding an initial step to cycle the landing gear selector lever .  However, that change was 
+reversed after Bombardier issued Service Letter DH8 -SL-32-030A in Jul y 2011, stating that 
+cycling the landing gear should be considered only as a last resort . 
+3.6.12.  During this accident, the first officer m isread the adjacent items "alternate release door " and 
+"alternate extension door ' in the QRH checklist for "Landing gear fails to extend " (see 
+                                                        
+18 Bom bardier Flight Operations Service Letter DH8 -SL-32-026, 10 March 2008.  
+  
+Report 11 -002 
+<< Page 19 >>
+ paragraph 3.1. 9).  A similar error had occurred prior to the 1995  accident, referred to earlier, 
+even though in that case  the 2 items were separated by another action .19  The steps are also 
+separated in the "Alternate gear extension or 'LDG GEAR INOP ' (Caution Light) " procedure  in 
+the Bombardier flight manual . 
+3.6.13.  The report on the 1995 accident cited the similarly named items in close proximity within an 
+un-numbered checklis t as a contributory factor in that accident .  At that time, t he Commission 
+recommended to Ansett New Zealand that similar equipment names  be eliminated , but t he 
+airline  replied that t he naming of items was a matter for the manufacturer .  The Commission 
+did not then repeat the recommendation to Bombardier .  After  the February 2011 occurrence , 
+Bombardier said that it considered that a pilot mistaking the 2 items in the Alternate Gear 
+Extension procedure was a tra ining issue.  
+3.6.14.  In its report on the 1995 accident, the Commission quoted from  a Flight Safety Foundation 
+report that had recommended n umbering the steps of a non-normal  or emergency procedure 
+checklist as a method for reducing checklist reading errors  (Flight Safety Foundation, 1995, 
+p.5).  However, the Commission at the time did not explicitly make that recommend ation .  
+Bombardier noted after th e February 2011 occurrence  that checklist procedural steps were 
+numbered in its Q300 aeroplane flight manual.  The Commission observed that the practice of 
+numbering the procedural steps in QRH checklists was increasingly followed  for newer aircraft 
+types.  
+                                                        
+19 Transport Accident Investigation Commission, 1997, p.66.  
+
+<< Page 20 >>
+ Report 11 -002 4. Analysis  
+4.1. The landing gear did not extend on arrival at Wellington because of a fault with the inhibit 
+switch.  The aeroplane was required to have  an alternat ive system to extend the landing gear 
+when the normal system failed .  The alternative extension system was capable of getting all of 
+the landing gear down and locked on this occasion.  There was  no technical reason for the 
+nose landing gear not extend ing. 
+4.2. The main point of discussion in the following analysis is centred on why the crew actions did 
+not succeed in getting the nosewheel down and locked using the alternate extension 
+procedure.  
+4.3. The lo ss of nosewheel steering prior to  departure from Hamilton was also linked to the faulty 
+inhibit switch .  The first event was therefore a precursor to the second  and this is also 
+discussed.  
+4.4. Although not contributory to the ac cident , some safety issues around the design and use of 
+QRH checklists and how they are followed were identified.  These are discussed also.  
+Inhibit switch defect  
+4.5. The pilots had no in formation to suggest what had caused  the nosewheel steering failure  at 
+Hamilton .  Their reference to  the QRH and Minimum Equipment List and their decision to 
+continu e the flight w ere appropriate  responses .  However, w ithout  nosewheel steering the 
+aeroplane  was restricted to taking off and landing in  crosswind s of less than  20 knots and 
+would have had difficulty using some airport gates with tight turning circles.  For these reasons 
+it would have been prudent for the pilots to advise  the operator sooner of the defect.  
+4.6. The nosewheel steering failure  was caused by an intermittent defect in the inhibit switch.  
+Although the switch was in the NORMAL position, the defect caused the landing gear extend 
+solenoid  to de -energise .  Consequently  the landing gear system hydraulic extend lines  did not 
+pressurise.  The nosewheel steering system is pressuri sed by the  extend line , which is why  it 
+stopped working.  
+4.7. The inhibit switch position does not affect landing gear retraction .  When the landing gear was 
+selected UP after take -off from Hamilton , the extend solenoid would have gone to the de-
+energise d state  in any case .  However , when the landing gear was selected DOWN at 
+Wellington , the defective  inhibit switch  prevented the extend solenoid energising .  Therefore 
+hydraulic pressure was not directed to extend the landing gear. 
+4.8. The decision to permit operati ons without the nosewheel steering appears to have been based  
+on operational considerations  only and to have not considered the potential for a related 
+system failure.  
+4.9. Air Nelson considered the inhibit switch to have excellent r eliability , and global data from 
+Bombardier confirmed that.  However, in order to reduce  the chance of a similar defect 
+causing multiple system failure s, Bombardier promptly amended the Q300 Minimum 
+Equipment List to require confirm ation  that hydraulic pressure was available for norm al 
+landing gear extension before an aeroplane may be dispatched with the nosewheel steering 
+system  inoperative . 
+4.10.  If the revised requirements  had been in place at the time , the pilots would have  return ed to 
+the gate .  Maintenance staff would have found that no hydraulic pressure was available and 
+the problem would have been rectified before the a eroplane  was released to service.  The 
+landing gear would then have lowered normally when next selected DOWN . 
+  
+  
+Report 11 -002 
+<< Page 21 >>
+ Findings :  
+A faulty inhibit switch caused the loss of nosewheel steering when the aircraft was 
+departing from Hamilton.  
+The same faulty inhibit switch was the cause of the landing gear not extending 
+normally when the aircraft was approaching Wellington.  
+The Minimum Equipment List provision that  had previously  allow ed a flight to 
+commence without  an operative  nosewheel steering system appeared to be based on 
+operational considerations  only, and to have not considered the possibility of a related 
+system failure . 
+ 
+ 
+Failure of nose landing gear  to extend by alternate system   
+4.11.  The nose landing gear was found to be r etracted  when the aeroplane nose was raised from 
+the runway .  The uplock released readily when the release handle was pulled.  Photographs 
+confirmed that the nose landing gear had not extended  before the landing , but they could not 
+prove whether  the uplock had released  during the Alternate Gear E xtension procedure .  
+However, that possibility was discounted for 2 reasons.  The cockpit voice recorder had not 
+recorded the sound of the uplock relea sing; and the aeroplane had settled onto the open nose 
+landing gear doors after touchdown , and not  onto partially  extended nosewheels  that w ould 
+have been  pushed back into the wheel well . 
+4.12.  If the uplock did not release either time that the first officer pul led the release handle , even 
+though he  was sure that he had pulled the handle hard enough, he must have been mistaken  
+as to the force required.   No other explanation wa s found for the nose landing gear not 
+extend ing. 
+4.13.  Bom bardier subsequently published a Service Letter that advis ed that up to 40 k g of force 
+was required to release the landing gear  uplock s manually .  Air Nelson found that t he average 
+force required was 30 k g.  The first officer did manage to release the main landing gear 
+uplock , but there we re at least 3 factors  that might have contributed to his not releas ing the 
+nose landing gear uplock : 
+ the technique described in the Air Nelson publications for pulling the nose landing 
+gear uplock release handle was not consistent , and the information in the Bombardier 
+flight manual and in Safety of Flight Supplement No.7 had not been provided to pilots  
+ pilots were  very used to pulling the nose landing gear uplock release handle  a short 
+distance, enough  to open the forward doors, f or which an average force of 8 k g was 
+sufficient .  They were not used to  the greater  force required to release the uplock  
+ the flight simulator did not accurately reproduce or differentiate the actual forces 
+required to open the nose landing gear doors and uplock on the aeroplane.  
+4.14.  The Air Nelson  Q300 Systems Training Manual described the change in  the required force  
+when the nose landing gear alternate release handle was pulled  as a detent.  Although there 
+was not an actual mechanical detent, p ilots were used to feeling a change in the force  
+requirement from  their experience of open ing the doors only for daily pre -flight external 
+inspection s.  As springs assist ed the doors to open, a light pull force was enough  for that . 
+4.15.  However, t he Training Manual also instructed pilots to pull the handle "in one contin uous 
+motion " when performing an actual alternate extension .  Air Nelson  trials showed that if  the 
+handle was pulled quickly , the uplock would  release immediately , but the mechanical 
+sequence valve could  prevent the landing gear leg mov ing until the forward doors were  open .  
+In that case, a n apparently strong  pull on the handle might  have been  ineffective  if it was 
+relaxed  too early and the uplock then re-engage d before the nose landing gear had begun to 
+move down . 
+
+<< Page 22 >>
+ Report 11 -002 4.16.  Following this accident Air Nelson amended its Q300 pilot training to recommend a 2 -stage 
+pull on the uplock release handle during an alternate extension procedure, a technique that 
+the airline considered reduce d the maximum force required.  If pilots pause after re leasing the 
+door locks, then pull the handle hard  and maintain the tension until the uplock release s, the 
+alternate extension procedure should  be successful.  
+4.17.  The nose landing gear forward doors were open w hen the first officer  tried again to release the 
+uplock .  It is likely that h e used a similar force as on his  first attempt, as he described it as "an 
+easy pull ".  Even if he had pulled harder  and with considerably more force t han he was used to 
+when open ing just the doors, that force might still have been less than was needed  to release 
+the uplock.  There fore,  his training and experience , and the QRH procedure at the time,  had 
+not give n him  adeq uate guidance as to the force r equired.  
+4.18.  During the alternate landing gear  extension s conducted in the hangar after the accident, some 
+senior Air Nelson  pilots expressed surprise at the force required to release the uplock.  Th eir 
+reaction s confirmed that not all of the operator's pilots had been adequately trained for the 
+alternate extension procedure.  
+4.19.  Alternate extensions of the landing gear are performed d uring periodic maintenance and 
+occasional troubleshooting .  Airlines could use th ese maintenance opportunities to give their 
+pilots experience of the actual force s required to release the uplock s. 
+4.20.  If a simulate d characteristic differs significantly from that on the actual aircraft, pilots should 
+be made aware of that during their training and reminded of this in any relevant QRH 
+procedure.  Bombardier and Air Nelson later amended their QRH procedures for alterna te 
+landing gear extension s to include the note (from the Bombardier flight manual) that the 
+release handle forces could  be greater than those experienced in training.  
+4.21.  On the aeroplane, the force to open the doors only ranged between 6 and 8 k g, and the 
+simulator also needed only a pull of 6 k g.  Pilots frequently open ed the doors only, so their arm 
+muscles w ere likely to have a "memory " of th e force  required .  However, whereas a pull of 25 
+to 50 kg or more was required to release the uplock  in the aeroplane, the simulator  force was 
+only 8 kg.  Therefore the simulator did not accurately simulate or differentiate the forces 
+required in the aeroplane.  
+4.22.  The Civil Aviation Authority and 2 other National Aviation Authorities said that subjective 
+testing of the simulated alternate landing gear extension mechanism was sufficient.  The 
+difficulty of determining a reference uplock release force , which would be necessary for 
+objective test ing, is acknowledged .  However, the simulated force  should do more  than simply 
+"indicate to the pilot that the gear up -locks had been released and the gear had extended ".  
+As this accident showed, a major goal of the exercise should be to make pilots familiar with 
+the magnitude of t he force required to release the uplock  compared with that for releasing the 
+door locks .  Therefore , the simulated forces should be very similar t o the actual forces 
+required.   
+4.23.  The previously light forces in the Air Nelson  simulator had resulted in p ilots being mis -trained.   
+Had the simulator more closely represented the actual forces required, it is likely that the first 
+officer would have succeeded with the procedure and that the occurrence would have been 
+avoided.    
+4.24.  Air Nelson later modified its Q300 flight simulator so tha t the forces were at the high end of 
+the range of forces  encountered on the aeroplane . 
+4.25.  Although the sole Dash 8/ Q300 simulator in New Zealand has been modified, the Commission 
+recommends that the Director of Civil Aviation liaise with Transport Canada to make other 
+National Aviation Authorities aware of this incident and of the desirability of Dash 8 flight 
+simulat ors closely represent ing the actual forces required for a landing gear alternate 
+extension.  
+4.26.  The captain's  decision not to cycle the landing gear  and attempt another alternate extension , 
+as the technical staff  recommended , was reasonable .  More than  20 minutes had been spent 
+circling while technical staff sought a solution, so the aeroplane fuel state was low.  He was 
+  
+Report 11 -002 
+<< Page 23 >>
+ responsible for the safety of the aeroplane and t he QRH procedure began w ith a warning that 
+the landing gear  could not be retracted after an alt ernate extension .  At the time, there was no 
+published procedure for reversing the steps of the Alternate Gear Extension  procedure .  A 
+method for retracting the landing gear could have been deduced , and might have been 
+successful , but it would have put the pilots in the unusual position of having to assess the 
+acceptability of an unfamiliar  procedure.  
+Finding s:  
+There was no defect with the alternate extension system that would have prevented 
+any of the landing gear extend ing and locking down.  
+The nose landing gear uplock did not release during the alternate extension procedure 
+because the release handle had not been pulled hard enough or had not been held for 
+as long as it took for the uplock to release.  
+The training that Air Nelson gave its pilots on the alternate landing gear extension 
+procedure did not include  key information provided by Bombardier  concerning the 
+release handle forces , and there was no guidance in the QRH procedure.  
+The simulator that Air Nelson used for training its pilots in the alternate landing gear 
+extension procedure was not representative of the actual forces  required to release 
+the uplock . 
+ 
+ 
+QRH format  and use  
+4.27.  When reading the QRH checklists, t he first officer  made 2 inconsequential errors  that could 
+have been caused , in part,  by his reading them too quickly .  The considerations listed with a 
+QRH non-normal  or emergency procedure must be evaluated carefully if t he procedure is  to be 
+effective , so time must be allowed for both pilots to assimilate each step . 
+4.28.  The misreading of the QRH also highlighted the importance of checklists being formatted so 
+that reader s do not lose their place and omit potentially critical steps, as appeared to happen 
+when the first officer was reading  the "Landing gear fails to extend " procedure  (see paragraph 
+3.1.9).  The tone of his voice suggested that he might have thought he was repeat ing the step 
+for the alternate release  door, then  omitte d the step for the alternate extension door .  
+However, the captain later said that he had seen from the first officer's hand movements that 
+both steps were completed , and both doors were found open after the landing . 
+4.29.  Similarly, the first officer appe ared to  lose his  place before reading the sixth  step in that 
+excerpt , perhaps because successive lines in the checklist beg an with the words "Landing 
+gear".  These minor errors , neither of which contributed to the accident,  show how the 
+checklist format can lead to a step being mistaken or omitte d. 
+4.30.  The potential for confusing  similar items, like  "alternate release door " and "alternate 
+extension door ", when the y are adjacent items in a checklist was referred to  in the report into  
+the 1995 accident . 
+4.31.  Air Nel son had reduced this risk in its "Alternate gear extension " checklist by adding the 
+location of the item (see Appendix, 
+<< page 3 >>
+) .  The airline later advised th e Commission th at the 
+"Landing gear fails to extend " checklist would be similarly improved as part of a project then 
+underway to align its manuals with "airline industry best practice ". 
+4.32.  An additional safeguard against losing one's place when reading a checklist is to number each 
+step in the procedure , as the Commission  recommended to Ansett New Zealand in it s report 
+on the 1995 accident .  In February 2011 the emergency and non -normal procedures in the 
+Bombardier  Q300 flight manual  had numbered steps .  However, neither the Bombardier nor  
+
+<< Page 24 >>
+ Report 11 -002 the Air Nelson QRH did.  Air Nelson later advised that its manual review project would include 
+improvements to QRH  readability, including the numbering of procedural steps . 
+4.33.  The Commission noted with concern that although these QRH formatting issues were 
+identified many years a go, some airlines had been slow to adopt the associated 
+recommendations.  
+4.34.  As the content and format of a QRH are not regulated, unlike the associated aircraft flight 
+manual, and may be varied by operators, the Commission recommends that the Director of 
+Civil Aviation urge operators to adopt QRH checklist formats that reduce the possibility of 
+misreading or omitting a procedural step.  
+Finding  
+The similarity of text in adjacent steps of the QRH  and the lack of numbered steps  
+contributed to the first officer making minor errors in reading the landing gear non-
+normal  procedures.   However, these errors did not contribute to the accident.  
+ 
+Communications  
+4.35.  The pilots kept the flight attendant well  informed, and the passengers we re well informed by 
+both the pilots and  the flight attendant.  The following observations consider opportunities for 
+more effective communication between the pilots , and between them and other airline staff.  
+4.36.  Under normal flight conditions , procedur es that are routine and standardised  are performed 
+by pilots with a minimal amount of direction and co-ordination , and often using  non-verbal 
+communication such as gestures .  However , when a non-normal  or emergency procedure  is 
+required , the actions will be less familiar and the outcomes less certain .  It is important that 
+each pilot knows what the other is doing  when dealing with a non-normal  situation .  In that 
+respect, the first officer ought to  have clearly checked with the captain before  trying to releas e 
+the nose landing gear uplock  the second time . 
+4.37.  The captain was not required to inform Air Nelson of the nosewheel steering defect before the 
+flight depart ed Hamilton .  However, although the pilots later asked for details of the defect to 
+be passed to the operator, th e operator's staff could not recall having received that 
+information .  If the technical staff had known of the steering defect sooner, th ey might have 
+recognise d the connection with the failure of the normal landing gear  exten sion.  Whether that 
+knowledge would have prevent ed the accident cannot be said , but having pertinent  
+information generally assists with better decision -making . 
+4.38.  The QRH procedure for landing with a  non-normal  landing gear configuration specified making 
+the cabin  announcement "Brace  for impact " when the aeroplane was passing 500 feet, or 
+about 45  seconds before touchdown.  On the accident flight the captain made the 
+announcement 2 minutes before landing, in order to complete the checks and let the pilo ts 
+concentra te on the landing.  While the intention was understandable , it resulted in the 
+"Brace! " call being  made much too soon , and obliged the flight attendant to repeat her 
+comman ds over and over  until the aeroplane landed .  The long wait for the landing would have 
+been  likely to cause unnecessary stress  in the cabin  and could have led to some passengers 
+looki ng up from the brace position.  The pilots ought to have adhered to the QRH  guidance . 
+4.39.  The relaying of questions and suggestions between Air Nelson technica l staff and the pilots, 
+via the air traffic control tower, was necessary in this case, but cumbersome .  Fortunately the 
+controller had diverted other traffic from the control zone , an option that was  not usually 
+possible .  Communication through a third par ty takes longer, hinders full discussion and can 
+lead to misunderstanding s and "lost" information , all of which are undesirable when trying to 
+resolve an airborne emergency.  The different reports about whether or how many of the nose 
+doors were open  also did not help the pilots to  understand the situation  correctly .  Having the 
+capability for d irect air-ground -air communication assists airlines in the operational control of  
+their aircraft . 
+  
+Report 11 -002 
+<< Page 25 >>
+ 5. Findings  
+5.1. A faulty inhibit switch caused the loss of nosewheel  steering when the aircraft was departing 
+from Hamilton . 
+5.2. The same faulty inhibit switch was the cause of the landing gear not extending normally when 
+the aircraft was approaching Wellington . 
+5.3. The Minimum Equipment List provision that had previously allowed a flight to commence 
+without an operative  nosewheel steering system appeared to be based on operational 
+considerations only, and to have not considered the possibility of a related system failure.  
+5.4. There was no defect with the alternate extension system tha t would have prevented any of the 
+landing gear extending and locking down.  
+5.5. The nose landing gear uplock did not release during the alternate extension procedure 
+because the release handle had not been pulled hard enough or had not been held for as long 
+as it took for the uplock to release.  
+5.6. The training that Air Nelson gave its pilots on the alternate landing gear extension procedure 
+did not include  key information provided by Bombardier concerning  the release handle forces , 
+and there was no guidance in the QRH procedure.  
+5.7. The simulator that Air Nelson used for training its pilots in the alternate landing gear extension 
+procedure was not representative of the actual forces required to release the uplock.  
+5.8. The similarity of text  in adjacent steps of the QRH and the lack of numbered steps  contributed 
+to the first officer making minor errors in reading the landing gear non -normal procedures .  
+However, these errors did not contribute to the accident.  
+
+<< Page 26 >>
+ Report 11 -002 6. Key lessons  
+6.1. In their simulator training pilots should be taught how to perform emergency and non -normal 
+procedures as robustly and rigorously as if the procedures were being performed on the actual 
+aircraft.  
+6.2. Pilots should be informed of flight simulat or characteristics that differ from those in the 
+aircraft t o ensure t hat pilots are not  misled during actual flight operations.  
+6.3. QRHs should be designed to minimise the potential for error as they are used by pilots during 
+times of high workload and, potentially, high stress when dealing with  emergencies . 
+  
+  
+Report 11 -002 
+<< Page 27 >>
+ 7. Safety a ctions  
+General  
+7.1. The Commission classifies  safety actions  by 2 types : 
+(a) safety actions  taken by the regulator or an operator to address safety issues identified 
+by the Commission that would otherwise have result ed in the Commission issuing a 
+recommendation  
+(b) safety  actions taken by the regulator  or an operator  to address other safety issues that 
+would not normally  have  result ed in the Commission issuing a  recommendation.  
+ Safety a ctions  that pre -empted issuing a recommendation  
+7.2 On 17 February 2011,  8 days after the accident, Bombardier amended the Minimum 
+Equipment List Procedures Manual item 32 -3 to require verification that hydraulic pressure 
+was available for the normal extension of nose landing gear before oper ating with an 
+inoperative nosewheel steering system.  
+7.3 On 2 1 April 2011 Bombardier published Flight Operations Service Letter DH8 -SL-32-030A "to 
+remind Flight Crew of the appropriate procedures for operating the landing gear  utilizing the 
+normal or alternate  extension systems ".  The Service Letter also provided "considerations for 
+Flight Crew if confronted with a non-normal  landing gear  configuration, which cannot be 
+rectified with the existing Aircraft Flight Manual (AFM) procedures established within the sc ope 
+of certification requirements ". 
+7.4 As well as repeating procedures and considerations already  included in the aircraft flight 
+manual  and Bombardier QRH , the Service Letter noted the following:  
+ flight crew should check the serviceability of indication lights when an expected 
+gear configuration is not observed  
+ cycling the gear as an intermediate step to achieve an all gear down -and-locked 
+indication is not approved or recommended  
+ the main and nose  landing gear  release handles are pulled with sufficient force 
+(may exceed 90 pounds [40 kilograms]) to release the doors and uplocks.  Pull 
+forces in the air will likely be greater than th ose experienced on the ground or in 
+a simulator .  Continue pulling with whatever force is necessary to achieve release 
+of all gear uplock s 
+ ensure the alternate gear indication lights are checked with the taxi light OFF . 
+7.5 The Service Letter noted that a defect that prevented normal and alternate extension s of the 
+landing ge ar was outside the aircraft certification standards and would usually result in an 
+emergency landing with an unusual landing gear  configuration.  For such a case , Bombardier 
+introduced with this Service Letter a procedure for  resetting the alternate extens ion system  
+and retracting the landing gear.  If successful, that would give the captain the option of cycling 
+the landing gear  in an  attempt to get all of the landing gear  down and locked.  
+7.6 On 28 May 2011 Bombardier advised Air Nelson  that it would add the following note, which 
+was already in the aircraft flight manual,  to the Bombardier QRH  Alternate Gear Extension  
+procedure : 
+[Landing] g ear release handle loads may exceed those experienced during 
+practice extensions.  
+7.7 In July 2011 Air Nelson am ended its Q300 QRH to incorporate the above procedural changes 
+and advice from Bombardier.  
+7.8 During 2011 Air Nelson modified its Q300 simulator so that the landing gear uplock release 
+handle loads were m ore representative of those required  on the aeroplane.  
+
+<< Page 28 >>
+ Report 11 -002 7.9 On 8 May 2012 Bombardier advised operators of the Dash 8 series of aeroplanes, which 
+included the Q300, that t he following notes would be added to the aircraft flight manuals at 
+the next revision:  
+NOTE  
+The main landing gear release handle pull force will be significantly higher 
+than experienced during practice alternate landing gear extensions.  The 
+required pull force to release the main landing gear uplocks can be as high as 
+ninety pounds [40 kilograms ].  It may require a repeated pull effort to achieve 
+a main landing gear down and locked indication.  
+ 
+NOTE  
+The nose landing gear release handle pull force will be significantly higher 
+than experienced during practice alternate landing gear extensions.  The 
+required pull force to release the nose landing gear uplock can be as high as 
+ninety pounds [40 kilograms] .  It may require a repeated pull effort to achieve 
+a nose landing gear down and locked indication.  
+ 
+7.10 On 31 July 2012 Air Nelson advised the Commission that it was well underway with a project 
+to review all of its policies and procedures to ensure that they  were aligned with recognised 
+airline industry best practice.  Improvement s to the QRH format w ere included in that process.  
+7.11 On 2  December 201 2 the Civil Aviation Authority  advised that it had "strengthened its 
+certification process  for air operator exposi tions to include an evaluation of operator flight 
+procedures for large aircraft against the criteria specified in [Civil Aviation  Rule] 121.77, and 
+in cases where an operator has developed its own procedures, confirmation that these 
+procedures included all  pertinent information provided by the manufacturer ". 
+Safety a ctions  addressing other safety issues  
+7.12 Nil. 
+ 
+  
+  
+Report 11 -002 
+<< Page 29 >>
+ 8. Recommendations  
+General  
+8.1 The Commission may issue, or give notice of , recommendations to any person or organisation 
+that it considers the most appropriate to address the identified safety issues, depending on 
+whether these safety issues are applicable to a single operator only or to the wider transport 
+sector.   In this case , recommendations have been issued to the Civil Aviation Authority . 
+8.2 In the interests of transport safety it is important that these recommendations are 
+implemented without delay  to help prevent  similar accidents or incidents occurring in the 
+future.  
+Recomm endation s 
+8.3 On 14 December 2012  the Commission  recommended to the Director of Civil Aviation that he 
+liaise with Transport Canada to make other National Aviation Authorities aware of this incident 
+and of the desirability of Dash 8 flight simulators closely representing the actual forces 
+required for a landing gear alternate extension .  (036/12)  
+8.4 On 14 December 2012  the Commission recommend ed to the Director of Civil Aviation that he 
+urge operators to adopt QRH checklist formats that reduce the possibility of misreading or 
+omitting a procedural step .  (037/12 ) 
+8.5 On 16 Januray 2013 the Director of Civil Aviation confirmed that the recommendations would 
+be implemented by the Aircraft Cetification Group and the Air Transport and Airworthiness 
+Group (036/12 and 037/1 2, respectively.  Implementation dates had yet to be finalised.  
+  
+
+<< Page 30 >>
+ Report 11 -002 9. Citations  
+Air Nelson. (2005). Q300 Minimum Equipment List and discrepancy procedures guide, rev. 0.  
+Air Nelson. (2010). Q300 Quic k Reference Handbook, rev. 19 . 
+Bombardier. (2004). de Havilland Dash 8 Series 300 Aircraft maintenance manual. Toronto.  
+Bombardier. (2009). PSM1 -83-1B, Model 311, Dash 8, Quick Reference Handbook, Rev. 17 . Toronto.  
+Civil Aviation Authority. (2010). Civil Aviation Rules Part 121, Air operations  - large aircraf t. Wellington.  
+de Havilland. (1995). Dash 8 Operating data manual , series 300. C hapter 18, Landing gear.  Toronto.  
+Flight Safety Foundation. (1995). Flight Safety Digest, vol.14, no.5.  Studies suggest methods for 
+optimizing checklist design and crew perform ance . Flight Safety Foundation; Washington , DC. 
+Transport Accident Investigation Commission. (1997). Report 95 -011, de Havilland DHC -8, ZK -NEY, 
+controlled flight into terrain, near Palmerston North, 9 June 1995 . Wellington.  
+ 
+ 
+ 
+ 
+  
+  
+Report 11 -002 
+<< Page 31 >>
+ Appendix: Procedures for non-normal  landing gear conditions  
+Relevant excerpts from the Air Nelson Q300  QRH  that was current on 9 February 2011.  
+ 
+ 
+Source: Air Nelson Q300 QRH, 
+<< page 14 >>
+.11, April 2010  
+
+
+<< Page 32 >>
+ Report 11 -002   
+
+  
+Report 11 -002 
+<< Page 33 >>
+  
+
+
+<< Page 34 >>
+ Report 11 -002  
+
+  
+Report 11 -002 
+<< Page 35 >>
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+10-010 Bombardier DHC -8-311, ZK -NEB, landing without nose landing gear extended,  
+Woodbourne (Blenheim) Aerodrome, 30 September 20 10 
+12-001 Interim Factual: Cameron Balloons A210 registration ZK -XXF, collision with power 
+line and in -flight fire, 7 January 2012  
+10-009 Walter Fletcher FU24, ZK -EUF, loss of control on take -off and impact with terrain, Fox 
+Glacier aerodrome, South Westland, 4 September 2010  
+10-007 Boeing 737 -800, ZK -PBF and Boeing 737 -800, VH-VXU, airspace incident, near 
+Queenstown Aerodrome, 20 June 2010  
+10-005 Cessna A152, ZK -NPL and Robinson R22 Beta, ZK -HIE, near -collision , New Plymouth 
+Aerodrome, 10 May 2010  
+ 
+10-003 Cessna C208 Caravan ZK -TZR, engine fuel leak and forced landing, Nels on, 10 
+February 2010  
+ 
+10-006 Runway incursion , Dunedin International Airport, 25 May 2010  
+10-001 Aerospatiale -Alenia ATR 72 -212A , ZK-MCP and ZK -MCJ, severe turbulence 
+encounters , about 50 nautical miles north of Christchurch , 30 December 2009  
+09-002 ZK-DGZ, Airborne XT -912, 9 February 2009, and commercial microlight aircraft 
+operations  
+ 
+10-009 Interim Factual: Walter Fletcher FU24, ZK -EUF, loss of control on take -off and impact 
+with terrain, Fox Glacier aerodrome, South Westland, 4 September 2010  
+10-008 Interim Factual: Cessna C152 , ZK-JGB and Cessna C152 , ZK-TOD, mid -air collision, 
+near Feilding, Manawatu, 26 July 2010  
+09-007 Piper PA32 -260, ZK -CNS, impact with ground following a loss of control after take -
+off, near Claris, Great Barrier Island, 29 Septemb er 2009  
+09-005 Cessna 182N , ZK-FGZ and Bombardier DHC -8 Q311 , ZK-NEF, loss of separation and 
+near collision, Mercer, 40 km south of Auckland, 9 August 2009  
+ 
+08-007 Robinson Helicopter Company, R22 Alpha , ZK-HXR, loss of control , Lake Wanaka, 1 
+November 2008  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 36.00                                        ISSN 1179 -9080 (Print)  
+          ISSN 1179 -9099 (Online)  
+ 

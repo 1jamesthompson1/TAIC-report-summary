@@ -1,0 +1,50 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: The investigation "found no evidence that either pilot was likely fatigued during the flight" (3.2), indicating that fatigue management was not a contributing factor to the accident.
+- name: Human Error and Assumptions
+  percentage: 15
+  explanation: The accident had "the characteristics of a 'controlled flight into terrain' accident" (3.2), which often involves human error. The pilots were "generally unaware of the danger until it is too late" (3.2), and the pilot "did not undertake any form of route check or validation of the revised route from TARUA" (3.15), indicating a lack of verification and possible assumptions about the safety of the new route.
+- name: Training and Competency
+  percentage: 10
+  explanation: Both pilots were "appropriately qualified to conduct such a flight" (3.1), but they had "little experience in night instrument-flight-rules navigation" (4.7). This suggests that while they had the necessary qualifications, their level of training and experience may not have been sufficient for the conditions of the flight.
+- name: Training and Familiarity with Equipment
+  percentage: 10
+  explanation: The pilots were expected to be "familiar with the electronic displays and their functions" (3.31), but it is "very likely that the terrain proximity was either not selected or, to assist with the pilots' night vision, the display had been dimmed too far" (3.32). This indicates a potential lack of familiarity with the equipment in use during the flight.
+- name: Crew Resource Management
+  percentage: 5
+  explanation: The presence of a safety pilot did not prevent the accident (4.11), suggesting possible deficiencies in crew resource management. However, there is no direct evidence of CRM failure, so this is given a lower weighting.
+- name: Adherence to Safety Procedures
+  percentage: 20
+  explanation: The pilot "did not follow the operator's authorisation procedures" (4.9), and the operator's procedures were "not sufficiently robust to prevent students and qualified pilots conducting flights without the requisite authorisation" (4.10). This lack of adherence to safety procedures was a significant contributing factor to the accident.
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The operator's flight-authorisation procedures were not followed (4.9), and there was no previous incidence of unapproved flight self-authorisation by the pilot or any other instructor (3.8), suggesting that the organizational safety culture may not have adequately emphasized the importance of following procedures.
+- name: Risk Management and Analysis
+  percentage: 10
+  explanation: The pilots did not properly validate the change in route (4.4), and the operator's standard operating procedures were amended after the accident to require chief flying instructor's approval for certain flights (3.12), indicating that risk management and analysis processes were not adequately applied before the accident.
+- name: Regulatory Oversight and Compliance
+  percentage: 5
+  explanation: The flight deviated from the planned route onto an unevaluated route (4.2), and ATS was not advised of any changes to the filed and cleared flight plan (4.3). This suggests a lack of compliance with regulatory requirements, but there is no direct evidence of inadequate regulatory oversight.
+- name: Situational Awareness
+  percentage: 10
+  explanation: The pilots were likely unaware of the danger as they descended below the minimum safe altitude (3.29), indicating a loss of situational awareness. Additionally, the pilots were focused on the commencement of the instrument approach and not the terrain (3.29).
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'There is no information in the document suggesting that emergency response preparedness was a factor in the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: The investigation "found no evidence of any medical or mechanical issues that may have contributed to the accident" (3.2), indicating that maintenance and inspection regimes were not a contributing factor.
+- name: Use of Automation
+  percentage: 5
+  explanation: The aeroplane was likely being flown using the autopilot (3.24), and the pilots may have updated the flight plan without validating the new plan (3.23). This suggests a potential issue with the use of automation, but it is not clear that this was a major contributing factor.
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: While the weather influenced the pilot's decision to change the flightpath (3.18), there is no indication that the weather conditions themselves were a direct contributing factor to the accident.
+- name: Communication Breakdown
+  percentage: 0
+  explanation: There is no evidence of a communication breakdown contributing to the accident. The pilot was in regular radio communication with the FIO (3.27), and there was no indication of miscommunication.
+- name: Other
+  percentage: 0
+  explanation: There are no additional safety themes identified in the document that contributed to the accident.

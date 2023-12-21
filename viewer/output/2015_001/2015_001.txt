@@ -166,7 +166,7 @@ Address   Level 1 1, 114 The Terrace, PO Box 10 323, Wellington 6143, New Zealan
 Nature of the final r eport  
 This final report  has not been prepared for the purpose of supporting any criminal, civil or regulatory action 
 against any person or agency.  The Transport Accident Investigation Commission Act 1990 makes this 
-final report inadmissible as evidence in any proceedings with t he exception of a Coroner’s inquest.  
+final report inadmissible as evidence in any proceedings with t he exception of a Coroner's inquest.  
  
 Ownership of report  
 This report remains the intellectual property of the Transport Accident Investigation Commission.   
@@ -174,10 +174,10 @@ This report may be reprinted in whole or in part without charge, provided that a
 to the Transport Accident Investigation Commission.  
  
 Citations and referencing  
-Information derived from interviews during the Commission’s inquiry into the occurrence is not cited in 
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
 this final report.  Documents that would normally be accessible to industry participants only and not 
 discoverable under the Official Information Act 1982  have been referenced as footnotes only.  Other 
-documents referred to during the Commission’s inquiry that are p ublicly available are cited.  
+documents referred to during the Commission's inquiry that are p ublicly available are cited.  
  
 Photographs, diagrams, pictures  
 Unless otherwise specified, photographs, diagrams and pictures included in this final report  are provided 
@@ -231,7 +231,7 @@ Tandem masters  ................................ ...............................
 3.3. Aircraft information  ................................ ................................ ................................ ......................  5 
 Alternative engine maintenance programme ................................ ................................ .............  6 
 Compressor  turbine overhaul  ................................ ................................ ................................ ..... 7 
-Operator’s engine handling policy  ................................ ................................ ..............................  8 
+Operator's engine handling policy  ................................ ................................ ..............................  8 
 Recorded data ................................ ................................ ................................ ..............................  9 
 3.4. Medical and pathological information  ................................ ................................ .....................  10 
 3.5. Tests and research  ................................ ................................ ................................ ...................  10 
@@ -274,7 +274,7 @@ Figure 5 Microscopic image of the trailing edge cross -section of the failed bla
  
 Tables  
  
-Table 1 Operator’s power settings compared with flight manual limits  ................................ .......................  9 
+Table 1 Operator's power settings compared with flight manual limits  ................................ .......................  9 
  
  
  
@@ -298,8 +298,8 @@ following parameters: time, temperature and stress. An increase in temperature o
 stress can result in a decreased time before creep occurs  
 ditch  to make an emergency landing of an aircraft onto water  
 hectopascal  international standard unit of pres sure 
-hot section  the turbine section  (or ‘module ’) of a gas turbine (‘jet’) engine  
-Mayday  the internationally recognised message to indicate ‘distress’, which is defined as a 
+hot section  the turbine section  (or 'module ') of a gas turbine ('jet') engine  
+Mayday  the internationally recognised message to indicate 'distress', which is defined as a 
 condition of being threatened by serious and/or imminent danger and that requires  
 immediate assistance  
 supplemental type certificate  a certificate that allow s changes to:  
@@ -309,8 +309,8 @@ supplemental type certificate  a certificate that allow s changes to:
  the operating limitations  
  any special conditions prescribed on the type certificate or type acceptance 
 certificate  
-tandem pair  a tandem pair  in a parachute jump  comprises the tandem ‘master’, who wears the 
-parachute and has complete control of the jump, and a ‘rider’ whose harness is 
+tandem pair  a tandem pair  in a parachute jump  comprises the tandem 'master', who wears the 
+parachute and has complete control of the jump, and a 'rider' whose harness is 
 connected to that of the tandem ma ster 
  
    
@@ -324,15 +324,15 @@ Year of manufacture:  2005
 Operator:  Skydive Taupo  Limited  
 Type of flight:  parachuting  
 Persons on board:  13 
-Pilot’s licence:  commercial pilot licence ( aeroplane)  
-Pilot’s age:  32 
-Pilot’s total flying experience:  588 hours, including 14 hours on type  
+Pilot's licence:  commercial pilot licence ( aeroplane)  
+Pilot's age:  32 
+Pilot's total flying experience:  588 hours, including 14 hours on type  
 Date and time  
  7 January 2015, 12161 
 Location  
  Rotongai ō Bay, Lake Taupō  
-latitude:  38°48.076’ south  
-longitude:  176°03.964’ east  
+latitude:  38°48.076' south  
+longitude:  176°03.964' east  
 Injuries  
  two minor  
  
@@ -346,7 +346,7 @@ Final Report AO -2015 -001
 << Page 1 >>
  1. Executive summary  
 1.1. On 7 January 2015 a Pacific Aerospace Limited 750XL aeroplane was being used for 
-tandem parachuting (or ‘skydiving’) operations at Taupō a erodrome.  During the climb on 
+tandem parachuting (or 'skydiving') operations at Taupō a erodrome.  During the climb on 
 the fourth flight of the day , the Pratt & Whitney Canada PT6A -34 engine failed suddenly .  
 The 12 parachutists  and the pilot baled out of  the a eroplane  and landed without  serious  
 injury.  The aeroplane crashed into Lake Taupō and was destroyed . 
@@ -392,7 +392,7 @@ supplier , but neither this oversight nor th e alternative  maintenance programm
 in the engine failure.  
 
 << Page 2 >>
- Final Report AO -2015 -001 1.9. The pilot did not follow the operator’s recommended procedure for baling out, which put 
+ Final Report AO -2015 -001 1.9. The pilot did not follow the operator's recommended procedure for baling out, which put 
 himself and others at risk  of serious injury.   To reduce the likelihood of this hazard, t he 
 operator improve d the emergency procedures training given to its pilots . 
 1.10.  The Transport Accident Investigation Commission made a recommendation  to Skydive 
@@ -420,18 +420,18 @@ Act 1990 .  Three investigators travelled to Taupō that afternoon  to commence 
 investigation . 
 2.2. The pilot was interviewed on the day of the accident and on two later occasions.  Other 
 persons interviewed included the tandem masters and their passengers, Skydive Taupo  
-Limited ’s (the operator’s ) chief executive and chief pilot, maintenance engineers an d some 
+Limited 's (the operator's ) chief executive and chief pilot, maintenance engineers an d some 
 eyewitnesses.  
 2.3. Police divers completed an underwater video survey of the wreckage and recovered some 
 small items on 8 January  2015 .  All of the wreckage was removed on 9 January 2015  and 
-stored initially  at Taupō  aerodrome , before being taken to the Commission’s wreckage 
+stored initially  at Taupō  aerodrome , before being taken to the Commission's wreckage 
 examination and storage facility near Wellington . 
 2.4. On 8 January 2015 an investigator from the Transportation Safety Board of Canada was 
 appointed as the accredited representative of Canada, being the state of the engine 
 manufacturer.2  The accredited representative appointed Pratt & Whitney Canada ( P&WC ) to 
 be an adviser.  
 2.5. On 14 January 2015 the engine was shipped to the  P&WC  facility in Quebec, Canada.  The 
-engine was examined by P&WC under the supervision of Canada’s accredited 
+engine was examined by P&WC under the supervision of Canada's accredited 
 represe ntative , on behalf of the Commission,  over the period 10 -11 March 2015.  After 
 evidence was found of fatigue failure of a compressor turbine  blade , the compressor turbine 
 assembly was sent to the P&WC  materials laboratory , where more extensive examinations 
@@ -463,20 +463,20 @@ included i n the final report .
 3.1. The accident flight  
 3.1.1.  On Wednesday 7 January 2015 a Pacific Aerospace Limited 750XL aeroplane , registered 
 ZK-SDT (the aeroplane) , was being used for commercial skydiving  at Taupō aerodrome .  The 
-skydiving operator held an air operator’s certificate issued by the CAA under Civil Aviation 
+skydiving operator held an air operator's certificate issued by the CAA under Civil Aviation 
 Rules Part 115 , Adventure Aviation . 
 3.1.2.  The day was fine with light winds.  The air temperature was 22OC and the sea level pressure 
 1,018 hecto pascals .  At approximately 121 5 the aeroplane departed  with six tandem pairs 
 and a pilot (the pilot) on board.3  This was the fourth flight  that day, all of them  flown by the 
-same pilot.  The operator’s records showed that the weight and balance for all of the  flight s 
+same pilot.  The operator's records showed that the weight and balance for all of the  flight s 
 were within the flight manual limits.  
 3.1.3.  After take -off from runway 1 7, the aeroplane climbed straight ahead along the shore of Lake 
 Taupō .  When the aeroplane was approximately 2,100 feet ( ft) above the lake4, a loud bang 
 came  from the engine and sparks emitted  from the e ngine e xhaust.  The propeller stopped  
 quickly .  The pilot shut down the engine , put the aeroplane in to a glide  and broadcast a 
-‘Mayday’ radio call .5 
+'Mayday' radio call .5 
 3.1.4.  The tandem master who was seated nearest  to the pilot  quickly assessed that baling out 
-would be safer for the parachutists than a forced landing , and s houted “Get out! ”  Each  
+would be safer for the parachutists than a forced landing , and s houted "Get out! "  Each  
 tandem master then had to ensure that they were  attached  correctly  to the ir rider  before 
 they shuffl ed to the cabin rear door and ba led out.6 
 3.1.5.  The pilot looked in the cockpit rear-view mirror that showed the cabin  interior .  Sure that all 
@@ -493,12 +493,12 @@ the fuselage with the left wing attached, the right wing, and the tail.
 emergency services were notified promp tly. 
   
                                                         
-3 A tandem pair in a parachute jump comprises the tandem ‘master’, who wears the parachute and has 
-complete control of the jump, and a ‘rider’ whose harness is connected to that of the tandem master  by four 
+3 A tandem pair in a parachute jump comprises the tandem 'master', who wears the parachute and has 
+complete control of the jump, and a 'rider' whose harness is connected to that of the tandem master  by four 
 clips during the actual jump.  
 4 The Taup ō aerodrome is 1 ,335 ft above mean sea level , approximately 160 ft above the lake elevation  of 
 1,172 ft .  Imperial units are still used fo r vertical distances in civil aviation.  
-5 ‘Mayday’ is the internationally recognised message to indicate ‘distress’, which is defined as a condition of 
+5 'Mayday' is the internationally recognised message to indicate 'distress', which is defined as a condition of 
 being threatened by serious and/or imminent danger and which requires immediate assistance.  
 6 To bale ou t is to use a parachute to abandon an aircraft in  flight.  
   
@@ -516,7 +516,7 @@ an aircraft type.
 days , the pilot had flown six hours of skydiving flights  as pilot -in-command under the 
 supervision  of the chief pilot .  On 6 January 2015 the pilot had been issued with a  750XL 
 type rating  and completed an initial crew competency check  with the operator . 
-3.2.4.  The engine failure occurred on the fourth flight of the pilot’s first day of flying without direct 
+3.2.4.  The engine failure occurred on the fourth flight of the pilot's first day of flying without direct 
 supervision.  
 Tandem masters  
 3.2.5.  The operator  employed  tandem masters with a minimum of 750 parachute descents.  The 
@@ -528,9 +528,9 @@ by the CAA in 2003 , initially for the skydiving role, carry ing up to 17 indivi
 More than 100 of the type have been manufactured  in skydiving,  utility,  agricultural and 
 passenger versions . 
 3.3.2.  The aeroplane met the United States Federal Aviation Regulations Part 23, Airworthiness 
-Standards for “normal, utility, acrobatic and commuter category airplanes ”.  There were no 
+Standards for "normal, utility, acrobatic and commuter category airplanes ".  There were no 
 requirements in th ose standards that concerned ditching.9  The aeroplane flight manual 
-warned that “the ditching characteristics of the aeroplane [ were] unknown”  (Pacific 
+warned that "the ditching characteristics of the aeroplane [ were] unknown"  (Pacific 
 Aerospace Limited, pp. 3 -15).  The only known ditching of a 750XL had  had a fatal 
 outcome.10 
 3.3.3.  The standard engine is the P&WC PT6A -34 turboprop  (see Figure 1) .  The airflow through the 
@@ -589,7 +589,7 @@ Final Report AO -2015 -001
  turn will allow an increase in the engine overhaul interval and long term cost savings 
 to the operator.  
 3.3.8.  The MORE programme superseded or added to some P&WC requirements for turbine (or 
-‘hot section ’14) inspection and overhaul intervals15, but did not extend the turbine and 
+'hot section '14) inspection and overhaul intervals15, but did not extend the turbine and 
 compressor service lives , which remained at 8,000 hours .16  The MORE  Instructions for 
 Continued Airworthiness  included the following inspections, among others:  
  oil filter debris analysis and oil sample analysis every 150 hours  
@@ -597,7 +597,7 @@ Continued Airworthiness  included the following inspections, among others:
 3.3.9.  An operator that wished to maintain an engine under the MORE  programme would purchase 
 the right, following which MORE would provide  a customised maintenance programme 
 manual .  The manual explai ned the registration process that the operator should complete 
-within 30 days .  Part of the process was a detailed ‘initial entry inspection’ of the engine.   A 
+within 30 days .  Part of the process was a detailed 'initial entry inspection' of the engine.   A 
 registration was not completed and the STC could not be used until MORE sent the operator 
 a cert ificate.  
 3.3.10.  The United States considered a change to a maintenance programme to be a major 
@@ -608,12 +608,12 @@ advising major modifications.
 3.3.11.  When the operator purchased the STC in 2009 , it did not complete the r egistration process 
 within the required 30 days.  The initial entry inspection  of the engine  had been  completed  
 on 30 November 2011 , but the inspection checklist noted against the Form 337 
-requirement, “Not yet done. Await owner to get aircraft on maintenance programme with 
-CAA”.  The CAA had no record of having received the Form 337 .  MORE had not been sent 
+requirement, "Not yet done. Await owner to get aircraft on maintenance programme with 
+CAA".  The CAA had no record of having received the Form 337 .  MORE had not been sent 
 the required documents and n o certificate had been  issued for the engine .  No-one at the 
 operator or MORE recognised th is until after the engine failure .  
 3.3.12.  Although the MORE registration had not been  completed, the operator compl ied with all of 
-the programme’s inspection tasks and schedules as if it had been.  There had been  no 
+the programme's inspection tasks and schedules as if it had been.  There had been  no 
 revisions to the programme between the assumed registration in 2009 and January 2015.  
 The required inspections and oil analyses had not shown any abnormal engine wear or 
 trend.   
@@ -630,7 +630,7 @@ turbine blade  inspection.
 3.3.15.  The turbine inspection process required  the replacement of the blades with a set of new or 
 overhauled  blades.  The overhaul  process included  cleaning and inspecti ng the blades using 
                                                         
-14 A hot section is the turbine section (or ‘module’) of a gas turbine (‘jet’) engine . 
+14 A hot section is the turbine section (or 'module') of a gas turbine ('jet') engine . 
 15 Namely P&WC Service Bull etins 1303, 1403, 1703 and 1803.  
 16 As specified in P&WC Service Bulletins 1002 and 1302.  
 
@@ -652,11 +652,11 @@ The blades had the appropriate Authorised Release Certificate  from the United S
 (Federal Aviation Administration  Form 8130 -3). 
 3.3.18.  The Australian facility installed the 56 overhauled blades and two new blades into the 
 turbine disk, and issued  the appropriate Authorised Release Certificate s for the work done .  
-3.3.19.  The operator’s maintenance provider  had reassembled the  turbine module and reinstalled 
+3.3.19.  The operator's maintenance provider  had reassembled the  turbine module and reinstalled 
 the engine into the a eroplane.  The aeroplane  had returned to service on 22 May 2013.  
 3.3.20.  The overhauled turbine blades had operated  for 1 ,127.9 hours  before the engine failed  on 7 
 January 2015 . 
-Operator’s engine handling policy  
+Operator's engine handling policy  
 3.3.21.  Prior to August 2014 the operator had not used the maximum  engine (torque and inter -
 turbine temperature ) settings for take -off and climb that were permitted by the flight manual 
 (see Table 1).  The operator had initially chose n to us e lower power settings for its 750XL 
@@ -685,8 +685,8 @@ to the set when it was returned.
   
 Final Report AO -2015 -001 
 << Page 9 >>
-  Operator’s initial 
-power settings  Flight manual limits  Operator’s power 
+  Operator's initial 
+power settings  Flight manual limits  Operator's power 
 settings  after August 
 2014  
 Torque or 
@@ -717,12 +717,12 @@ minutes)  54  730 64.5  790 64 730
 Maximum 
 climb  54  730 54 740 54 730 
 Table 1 
-Operator’s power settings compared to flight manual limits  
+Operator's power settings compared to flight manual limits  
 Recorded data  
 3.3.24.  No flight data recorder w as fitted to the aeroplane, nor w as one  required to be  fitted . 
-3.3.25.  A GPS tracking  unit was installed in the aeroplane to record the aeroplane’s position, 
+3.3.25.  A GPS tracking  unit was installed in the aeroplane to record the aeroplane's position, 
 course , speed and altitude.  E very 25 seconds  the current data was sent as a mobile phone 
-text message  to the operator’s base .  The retrieved data matched the pilot’s rec ollection  of 
+text message  to the operator's base .  The retrieved data matched the pilot's rec ollection  of 
 the flight  path on the accident flight . 
 3.3.26.  An optional  data acquisition alarm monitor , which r ecord ed some engine parameters such 
 as torque and turbine temperature, was installed in the aeroplane.  A display on the cockpit 
@@ -739,7 +739,7 @@ monitoring.20  As a result, t he maintenance provider amended its procedures and
 since electrical power was last applied .  The engine instruments that were of the same 
 design were sent to the ir manufacturer in the United States22 to recover the stored data .  No 
 useful data was obtained .  The instrument manufacturer later advised that the instruments 
-took a ‘snapshot’ of data at pre -set time intervals , and a parameter was only recorded as 
+took a 'snapshot' of data at pre -set time intervals , and a parameter was only recorded as 
 the peak value  if its value at that time was greater than t he previous peak  for three seconds  
 or longer .  A peak value  was not nece ssarily an exceedance  of a flight manual limit .  The 
 instruments did not record parameter values at the time they lost electrical power.   Pacific 
@@ -762,11 +762,11 @@ tested t he pilot later that day.  That test was negative .
 3.5.1.  Between 10 March and 11 March 2015 t he engine was examined at the P&WC plant in 
 Canada under the supervision of the accredited representative of Canada.   There was no 
 sign of foreign object damage to the engine, or of pre -impact thermal stress in the turbine 
-(‘hot’) section.  The damage was consistent with the  engine  having been no t rotat ing at 
+('hot') section.  The damage was consistent with the  engine  having been no t rotat ing at 
 impact.  
 3.5.2.  All of the blades of both turbines were fractured.  A visual examination identified one 
 compressor turbine blade  that was suspect  (the arrowed blade  in Figure 2), because it had  a 
-relatively flat fracture  surface .  The m ark ‘R1’ (reworked once) on the platform of the  blade 
+relatively flat fracture  surface .  The m ark 'R1' (reworked once) on the platform of the  blade 
 showed  that it had been stripped and recoated  previously  (see Figure 3).  Therefore it was 
 very likely that th e blade (and the others in the replacement set)  had been in service for at 
 least 6,100 hours .23  Turbine blades are not identified individually  and can be re -used as 
@@ -778,9 +778,9 @@ the suspect  blade  had two distinct zones : one characteristic of fatigue towar
 edge ; and one characteristic of overload  (see Figure 4).  There was no metallurgical anomaly 
 in the trailing edge zone that could have initiated the fracture.  
 3.5.4.  The trailing edge radius of th e suspect  blade was less than th e dimension  specified for a 
-new blade .  Measurement s of other blades  from the set found that “potentially other blades 
+new blade .  Measurement s of other blades  from the set found that "potentially other blades 
 from the overhauled blades had  under minimum  [trailing edge ] thickness and/or [trailing 
-edge ] radius ” (P&WC, 2015) . 
+edge ] radius " (P&WC, 2015) . 
 3.5.5.  The e xamination determined that the engine failure was initiated by the fracture of a 
 compressor turbine blade.  The P&WC investigation report said, in part  (P&WC, 2015, p. 30) : 
 One compressor turbine blade fractured by fatigue initiating at the trailing edge 
@@ -792,7 +792,7 @@ crack initiation.
 was an associated company of P&WC .  The strip  and recoat process used by the supplier 
 was approved by P&WC  and complied with its aftermarket specification . 
                                                         
-23 This figure is the nominal 5,000 -hours’ inspection interval for new blades plus the 1,128 hours since this 
+23 This figure is the nominal 5,000 -hours' inspection interval for new blades plus the 1,128 hours since this 
 blade set had been installed during the May 2013 compressor turbine module overhaul.  
   
 Final Report AO -2015 -001 
@@ -803,7 +803,7 @@ The failed c ompressor turbine assembly
 (Suspect blade arrowed.  Source: P&WC Service Investigation Report)  
 Figure 3 
 The c ompressor blade suspected to have failed first  
-(‘R1’ rework mark circled)  
+('R1' rework mark circled)  
 (Source: P&WC Service Investigation Report)  
  
 
@@ -814,13 +814,13 @@ Figure 4
 The f racture surface of t he suspect compressor turbine blade  
 (Showing distinct fatigue and overload  fractures .  Source: P&WC Service Investigation Report)  
 3.6. Mission profile review   
-3.6.1.  Aircraft and engine manufacturers collaborate in defining the intended use, or ‘mission 
-profile’, of each aircraft -engine combination.  The mission profile affects the physical design, 
+3.6.1.  Aircraft and engine manufacturers collaborate in defining the intended use, or 'mission 
+profile', of each aircraft -engine combination.  The mission profile affects the physical design, 
 the engine power requirements, and the frequency and content of schedul ed maintenance.  
 3.6.2.  P&WC explained that component life and durability are predicated on operators adhering to 
 the design mission profile, which takes into account factors such as flight duration and 
 power demands.   Significant long -term operation above standar d mission parameters 
-undermines the designers’ assumptions and can lead to reduced lives for components and 
+undermines the designers' assumptions and can lead to reduced lives for components and 
 the aircraft.   In practice, operators are unlikely to know the parameters of the design 
 mission profile . 
 3.6.3.  In 2015 P&WC, in conjunction with Pacific A erospace, reviewed the engine handling 
@@ -852,7 +852,7 @@ because of dual c ertification of the PT6A -34 engine by Canada and the United S
 750XL is manufactured with a PT6A -34 engine.  Although t he CAA had accepted only the 
 Canadian certification for all PT6A -series engines, it certificated the 750XL with reference to 
 the United States engine certification.  The CAA took internal action to correct this anomaly .   
-3.7.2.  A further anomaly concerned t he CAA’s acceptance of the MORE® maintenance programme 
+3.7.2.  A further anomaly concerned t he CAA's acceptance of the MORE® maintenance programme 
 STC for the 750XL.  The STC  is held by a United States company and approved f or the PT6A -
 34 engine certificated by the United States .  Canada had not approved the STC for use with 
 PT6A -34 engines certificated by Canada.   Further investigation led to the identification of 
@@ -963,7 +963,7 @@ that skydiving operators tended to have a higher frequency of operating cycles27
 originally assumed, and that would also affect directly the lives of engine components.  
 4.2.10.  Approximately 15 months after the overhauled turbine module was installed, the operator 
 raised the take -off torque  setting  but retained the turbine temperature limit .  Both settings 
-remained at or below the flight manual limits.  The operator’s engine handling procedure, 
+remained at or below the flight manual limits.  The operator's engine handling procedure, 
 even allowing for  the high frequency of operatin g cycles in the skydiving role, would not have 
 affected unduly the durability of the compressor turbine blades  had all of the blades  
 conformed to the correct specifications for acceptance after repair . 
@@ -980,7 +980,7 @@ inspections but did not specify a minimum measurement for the trailing edge
 radius.  
 4. The higher engine power settings used by the operator since August 2014 
 were within the flight manual limits.  Therefore it was unlikely that the 
-operator’s engine handling policy contributed to the engine failure.  
+operator's engine handling policy contributed to the engine failure.  
 4.3. Maintenance practices  
 Safety issue:  When aircraft maintenance staff do not refer to the current Instructions for 
 Continuing Airworthiness  for a task, perhaps because they are very familiar with  the basic 
@@ -1026,7 +1026,7 @@ turbine  blade s.
 4.3.5.  The Commission has discussed previously  the issue of staff  relying on their memory or 
 habitual procedures when performing maintenance, and not referring to  and following 
 current procedure s in a manual.30  Manufacturers  publish many amendments to manuals 
-and Instructions for Continuing Airworthiness , of which some might not  reach ‘frontline’ 
+and Instructions for Continuing Airworthiness , of which some might not  reach 'frontline' 
 staff.  If staff do not check t hat they are using the current procedure s for tasks related to 
 airworthiness , the intent of the procedure s can be undermined and safety compromised . 
 4.3.6.  The maintenance provider has confirmed, since the accident, that it conducts fully the 
@@ -1055,7 +1055,7 @@ gear extended, Nelson Aerodrome, 11 May 2011.
 
 << Page 18 >>
  Final Report AO -2015 -001 4.3.9.  In this case there had been  no ch anges to the MORE programme for the engine between the 
-operator’s assumed registration in 2009 and the day of the accident.  Fortunately, if there 
+operator's assumed registration in 2009 and the day of the accident.  Fortunately, if there 
 had been changes, the maintenance provider would have been aware of them, because it 
 maintained another 750XL  engine of the operator under the same STC.32 
 4.3.10.  MORE had 12 engines (on nine aeroplanes) in New Zealand registered for this STC.  As at 
@@ -1070,7 +1070,7 @@ alternative maintenance programme, but the registration of the engine into
 that programme had not been  completed.  The administrative oversight did 
 not affect the reliability of the eng ine or contribute to the blade failure.  
 6. It was likely that the maintenance provider had not followed fully the engine 
-manufacturer’s recommended procedure for inspecting the compressor 
+manufacturer's recommended procedure for inspecting the compressor 
 turbine blades.  It could not be determined whether the crack might hav e 
 been present, and potentially detectable, at the most recent borescope 
 inspection.  
@@ -1081,7 +1081,7 @@ downplayed  the possibility of a pilot having to ditch an aeroplane or having to
 emergency parachute when over or near water . 
 Tandem pairs  
 4.4.1.  The last tandem pair to leave the aeropl ane estimated that the bale-out took up to 20 
-seconds.  There was some delay after the call to “Get out! ”, caused by tandem masters 
+seconds.  There was some delay after the call to "Get out! ", caused by tandem masters 
 having to ensure that the y were attached to the ir riders correctly  and by one pair having to 
 release their aeroplane restrai nt.33  The last tandem pair had to wait for the pilot and his 
 deployed chute to clear the rear door.  
@@ -1118,7 +1118,7 @@ provid ing its drop pilots with flotation device s.
 4.4.7.  Pilots are trained to put their aeroplane s into a gliding descent if they have to make a forced 
 landing.  The pilot, with minimal experience of the 750XL and parachuting operations, 
 determined that he could not reach a suitable area on land.  Although ditching in the lake 
-was an option, he was aware that the flig ht manual warned that the aeroplane’s ditching 
+was an option, he was aware that the flig ht manual warned that the aeroplane's ditching 
 characteristics were unknown .  Therefore he chose to abandon the aeroplane.  
 4.4.8.  The operator trained its pilots to bale out of the cabin rear door after others had gone, and 
 to pull the emergency parachute ripcord  when clear of the aeroplane.  However, i t was  
@@ -1127,7 +1127,7 @@ bale out  in a manner contrary to their training.
 4.4.9.  The pilot  did not intend to bale out before the last of the parachuti sts.  However,  by doing so 
 he left the aeroplane uncontrolled , and it began to roll and dive shortly afterwards .  If 
 anyone still on board  had had difficult y exiting the aeroplane , their survivability could have 
-been jeopardised by the aeroplane’s rapidly changing  attitude.   In this case the proximity to 
+been jeopardised by the aeroplane's rapidly changing  attitude.   In this case the proximity to 
 people and property also meant that the unoccupied aeroplane was a threat.  
 4.4.10.  The operator suggested t hat it was likely that the pilot did not s ee in the cockpit mirror that 
 there were people in the cabin , bec ause the dark -coloured jumpsuits they were wearing 
@@ -1141,7 +1141,7 @@ If he had exited through the cabin rear door  he would have been sure t hat he w
 leave and would not have put others at risk.  
 Training of p arachute  drop pilots  for emergenc ies 
 4.4.12.  The chief pilot and chief parachute instructor were jointly responsible for training drop pilots 
-in the use of emergency parachute s and in emergency procedures .  The pilot’s  training 
+in the use of emergency parachute s and in emergency procedures .  The pilot's  training 
 record , signed by the instructor and counter -signed by the pilot,  indicated that this 
 comprehensive training had been  done.   However, his  hasty exit through the cockpit door 
                                                         
@@ -1153,7 +1153,7 @@ emergency parachutes .
 << Page 20 >>
  Final Report AO -2015 -001 before everyone else had baled out , and his immediate deployment of the parachute , were  
 contrary to what he had been instructed . 
-4.4.13.  The pilot’s reaction was understandable given  that the e ngine failure  happened on his first 
+4.4.13.  The pilot's reaction was understandable given  that the e ngine failure  happened on his first 
 day of solo flying in the role  and at a relatively low height .  However, his training had been 
 completed so recently that the correct procedures , if they had been thoroughly un derstood,  
 should have been fresh in his mind . 
@@ -1165,8 +1165,8 @@ for ensuring that their  emergency parachute (and any other emergency parachutes
 were serviceable , at the least by inspecting the parachute packing card.  
 4.4.15.  In order to be able to comply with these Rule requirements, p arachute drop pilots must have 
 a thorough understanding of the emergency procedures  applicable to their aircraft .  Training 
-in emergency pr ocedures typically requires rote learning so that one’s response to an 
-emergency is instinctive and correct.   The pilot’s response to the engine failure , along  with 
+in emergency pr ocedures typically requires rote learning so that one's response to an 
+emergency is instinctive and correct.   The pilot's response to the engine failure , along  with 
 his later comment that he had n ever personally inspected the emergency parachute , 
 indicated  that he had not fully understood  the procedures.  Therefore it was likely  that his 
 emergency training had not been  adequate . 
@@ -1177,7 +1177,7 @@ Findings
 7. The operator had not equipped its pilots with flotation device s to cover  the 
 possibility of a ditching or an emergency bale -out over or nea r water.  
 8. The pilot had demonstrated that he was competent and he had the required 
-ratings.  However, it was likely that the operator’s training of the pilot in 
+ratings.  However, it was likely that the operator's training of the pilot in 
 emergency procedures was inadequate .  This contributed to the pilot  making 
 a hasty exit from the  aeroplane that jeopardised others.  
   
@@ -1195,20 +1195,20 @@ radius having been  below the specification for a new blade.
 overhauled, had generic requirements for trailing edge thickness inspections but did not 
 specify a minimum measurement for the trailing edge radius.  
 5.4. The higher engine power settings used by the operator sin ce August 2014 were within the 
-flight manual limits.  Therefore it was unlikely that the operator’s engine handling policy 
+flight manual limits.  Therefore it was unlikely that the operator's engine handling policy 
 contributed to the engine failure . 
 5.5. The operator had maintained the engine in accordance with an approved, alternative 
 maintenance pro gramme, but the registration of the engine into that programme had not 
 been completed .  The administrative oversight did not affect the reliability of the engine or 
 contribute to the blade failure.  
-5.6. It was likely that the maintenance provider had not follow ed fully the engine manufacturer’s 
+5.6. It was likely that the maintenance provider had not follow ed fully the engine manufacturer's 
 recommended procedure for inspecti ng the compressor turbine blades.  It could  not be 
 determined whether the crack might have been present, and potentially detectable, at the 
 most recent  borescope inspection.  
 5.7. The operator had not equipped its pilots with flotation device s to cover  the possibility of a 
 ditching or an emergency bale -out over or near water.  
 5.8. The pilot had demonstrated that he was competent and he had the required ratings.  
-However, it was likely th at the operator’s training of the pilot in emergency procedures was 
+However, it was likely th at the operator's training of the pilot in emergency procedures was 
 inadequate .  This contributed to the pilot  making a hasty exit from the aeroplane that 
 jeopardised others . 
  
@@ -1295,7 +1295,7 @@ Final Report AO -2015 -001
 MORE Company Inc. (2004). Maintenance on Reliable Engines.  Minden, Nevada: MORE Company Inc.  
 Pratt & Whitney Canada . (2015). Engine/Component Investigation Report 15SIE00006.  Montreal: 
 Pratt & Whitney Canada.  
-Pacific Aerospace Limited. (2003). Pilot’s Operating Handb ook and Approved Flight Manu al. 
+Pacific Aerospace Limited. (2003). Pilot's Operating Handb ook and Approved Flight Manu al. 
 Hamilton, New Zealand: Pacific Aerospace Limited.  
   
  
@@ -1305,14 +1305,14 @@ Hamilton, New Zealand: Pacific Aerospace Limited.
 << Page 26 >>
  Final Report AO -2015 -001 Appendix 1: P&WC information on engine over -temperature events  
 1. In 2004 P &WC issued Service Information Letter PT6A -125 outlining the detrimental effects 
-of engine over -temperature events.  The letter described compressor turbine  blade ‘creep’38 
+of engine over -temperature events.  The letter described compressor turbine  blade 'creep'38 
 and gave recommendations for better engine handling, including the recovery action that 
 pilots should take in the event of an over -temperature.  
 2. In 2010 P&WC issued Service Information Letter GEN PT6A -028, applicable to all its turbine 
 engines.  This letter explained that an engine operated beyond the recommended power 
 limits would experience hot section distress.  This would accelerate the deterioration of power 
 margins39 and reduce the engine reliability and durability.  
-3. In 2011 P&WC issued Service Bulletin  1690 to introduce ‘single -crystal’40 compressor turbine  
+3. In 2011 P&WC issued Service Bulletin  1690 to introduce 'single -crystal'40 compressor turbine  
 blades as an improvement to PT6A -34-series engines.    
 4. In 2013 P&WC issued Service Information Letter PT6A -146R1 to further draw attention to 
 concerns relating to compressor turbine  blade maintenance,  engine handling and hot section 
@@ -1364,7 +1364,7 @@ carried in t he aircraft unless the parachute assembly —
 (1) meets the requirements of Appendix A.25; and  
 (2) has been adequately protected from damage from any condition or substance that may be harmful to 
 the materials from which the parachute assembly has been constr ucted; and  
-(3) has been maintained in accordance with the manufacturer’s instructions and packed within the 
+(3) has been maintained in accordance with the manufacturer's instructions and packed within the 
 preceding calendar year by — 
 (i) the holder of a parachute technician rating issued by a parachute organisation; or  
 (ii) the parachute manufacturer; or 
@@ -1392,7 +1392,7 @@ Recent Aviation Occurrence Reports published by
 the Transport Accident Investigation Commission  
 (most recent at top of list)  
  
-AO-2013 -010 Aérospatiale  AS350B2 ‘Squirrel’, ZK -IMJ, collision with parked helicopter, near 
+AO-2013 -010 Aérospatiale  AS350B2 'Squirrel', ZK -IMJ, collision with parked helicopter, near 
 Mount Tyndall, Otago, 28 October 2013  
 Addendum to final 
 report  

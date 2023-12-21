@@ -1,0 +1,58 @@
+- name: Fatigue Management
+  percentage: 0
+  explanation: 'There is no mention of fatigue or overwork contributing to the pilot''s performance or decision-making in the document. Therefore, it is not considered a contributing factor in this accident.
+
+    '
+- name: Human Error and Assumptions
+  percentage: 30
+  explanation: The pilot's misjudgment of his separation from the parked helicopter is a significant factor. "The pilot clearly misjudged his spacing twice" (4.6.2), and "the possibility that the pilot had reverted to his previously reported behaviour and misjudged his approach could not be excluded" (6.2). This indicates that human error played a role in the accident.
+- name: Training and Competency
+  percentage: 10
+  explanation: While the pilot's training and performance monitoring were in accordance with the operator's policies and procedures (6.1), there were concerns about the operator's record-keeping standards not meeting best practice (6.3). This could imply issues with training oversight, but it is not directly linked to the accident.
+- name: Training and Familiarity with Equipment
+  percentage: 0
+  explanation: The pilot was familiar with the helicopter and the type of operation (4.1.1). There is no evidence to suggest that a lack of training or familiarity with the equipment contributed to the accident.
+- name: Crew Resource Management
+  percentage: 0
+  explanation: 'There is no information provided in the document that suggests CRM was a factor in the accident. The pilot was flying solo, and there is no mention of teamwork or communication issues with ground or other air support that could have contributed to the accident.
+
+    '
+- name: Adherence to Safety Procedures
+  percentage: 10
+  explanation: The operator had not specified a procedure for landing multiple helicopters at a single landing area (4.2.2), and the operator's procedures regarding the use of standard loading plans did not ensure compliance with Civil Aviation Rules (6.10). This indicates a potential issue with adherence to safety procedures, which could have contributed to the accident.
+- name: Organizational Safety Culture
+  percentage: 10
+  explanation: The operator's standard of record-keeping for the pilot's training and performance monitoring did not meet generally accepted best practice (6.3), which could reflect on the organizational safety culture. However, there is no direct evidence linking safety culture to the accident.
+- name: Risk Management and Analysis
+  percentage: 0
+  explanation: There is no mention of risk management and analysis issues directly contributing to the accident. The analysis considered potential causes but did not identify a specific risk management failure that led to the accident (4.6).
+- name: Regulatory Oversight and Compliance
+  percentage: 0
+  explanation: 'There is no evidence in the document to suggest that regulatory oversight and compliance, or lack thereof, were factors in the accident.
+
+    '
+- name: Situational Awareness
+  percentage: 20
+  explanation: 'Loss of situational awareness is mentioned as a likely reason for the go-around: "It was very likely that the pilot carried out the go-around because he lost his depth perception and sight of the other helicopter in blowing snow" (6.6). This indicates that situational awareness was a factor in the accident.'
+- name: Emergency Response Preparedness
+  percentage: 0
+  explanation: 'The document does not provide information suggesting that emergency response preparedness was a factor in the accident.
+
+    '
+- name: Maintenance and Inspection Regimes
+  percentage: 0
+  explanation: No technical defect was found that might have contributed to the accident (6.8), indicating that maintenance and inspection regimes were not a contributing factor.
+- name: Use of Automation
+  percentage: 0
+  explanation: 'The document does not mention any issues related to automation that could have contributed to the accident.
+
+    '
+- name: Weather Conditions and Decision Making
+  percentage: 0
+  explanation: The weather and snow conditions were favorable (6.4), and there is no evidence to suggest that weather conditions or decision-making regarding weather contributed to the accident.
+- name: Communication Breakdown
+  percentage: 0
+  explanation: There is no evidence of a communication breakdown contributing to the accident. The pilot did not communicate any difficulties flying the helicopter (4.5.6), and there is no mention of communication issues with other parties.
+- name: Other
+  percentage: 20
+  explanation: The cause of the collision was not determined (6.12), and there may be factors not covered by the predefined safety themes. For example, the possibility of a medical condition that contributed to the accident could not be excluded (6.11), and an obscure psychological effect was considered unlikely but not definitively ruled out (4.5.10-4.5.14). These "other" factors are included to account for the undetermined nature of the accident's cause.
