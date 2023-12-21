@@ -1,20 +1,30 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
 from urllib.parse import parse_qs
 import json
 import os
 import argparse
-from . import search  # Assuming this is your custom module for searching
+from . import Search, ReportCreation
+import tempfile
 
 import engine.Extract_Analyze.Themes as Themes
 import engine.Modes as Modes
 
 app = Flask(__name__)
 
+def parseFormSerial(form_serial):
+    form_data = parse_qs(form_serial)
+    form_data = {k: v[0] for k, v in form_data.items()}
+
+    return form_data
+
 @app.route('/')
 def index():
     return render_template('index.html')
 
 def get_search(form):
+    if form is None or len(form) == 0:
+        print("No form data")
+
     search_query = form.get('searchQuery')
     settings = {
         'use_synonyms': form.get('useSynonyms') == "on",
@@ -25,7 +35,9 @@ def get_search(form):
     }
 
     # Theme ranges
-    theme_slider_values = list(map(lambda tuple: (tuple[0][6:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-'), form.items())))
+    theme_slider_values = list(map(
+        lambda tuple: (tuple[0][6:], tuple[1]),
+        filter(lambda tuple: tuple[0].startswith('theme-') and not tuple[0].startswith('theme-group'), form.items())))
 
     theme_slider_values_dict = dict()
     for theme, value in theme_slider_values:
@@ -35,6 +47,7 @@ def get_search(form):
             theme_slider_values_dict[theme_stripped] = (int(value), theme_slider_values_dict.get(theme_stripped, (None, None))[1])
         else:
             theme_slider_values_dict[theme_stripped] = (theme_slider_values_dict.get(theme_stripped, (None, None))[0], int(value))
+
 
     # Theme group ranges
     theme_group_slider_values = list(map(lambda tuple: (tuple[0][12:], tuple[1]), filter(lambda tuple: tuple[0].startswith('theme-group-'), form.items())))
@@ -53,7 +66,6 @@ def get_search(form):
                 theme_group_slider_values_dict.get(theme_group_stripped, (None, None))[0],
                 int(value))
             
-    print(theme_group_slider_values_dict)
 
     # Modes
     modes_list = list()
@@ -70,14 +82,15 @@ def get_search(form):
 
     return search_query, settings, theme_slider_values_dict, theme_group_slider_values_dict, modes_list, year_range
 
-@app.route('/search', methods=['POST'])
-def search_reports():    
-    searcher = search.Searcher()
-    results = searcher.search(*get_search(request.form))
+def format_search_results(results):
+    searcher = Search.Searcher()
 
     if results is None:
         return jsonify({'html_table': "<p class='text-center'>No results found</p>"})
     
+    # Remove extra columns that are not needed
+    results = results.filter(regex='^(?!Complete)')
+
     results['NoMatches'] = results.apply(lambda row: f'<a href="#" class="no-matches-link" data-report-id="{row["ReportID"]}">{row["NoMatches"]}</a>', axis=1)
 
     results['ThemeSummary'] = results.apply(lambda row: f'<a href="#" class="theme-summary-link" data-report-id="{row["ReportID"]}">{row["ThemeSummary"]}</a>', axis=1)
@@ -92,17 +105,20 @@ def search_reports():
     
     return jsonify({'html_table': html_table})
 
+@app.route('/search', methods=['POST'])
+def search_reports():    
+    results = Search.Searcher().search(*get_search(request.form))
+
+    return format_search_results(results)
+
 @app.route('/get_report_text', methods=['GET'])
 def get_report_text():
-    form_serial = request.args.get('form')
-
-    form_data = parse_qs(form_serial)
-    form_data = {k: v[0] for k, v in form_data.items()}
+    form_data = parseFormSerial(request.args.get('form'))
 
     search_query, settings, _, _, _, _ = get_search(form_data)
     report_id = request.args.get('report_id')
 
-    searcher = search.Searcher()
+    searcher = Search.Searcher()
     highlighted_report_text = searcher.get_highlighted_report_text(report_id, search_query, settings)
 
     return jsonify({'title': report_id, 'main': highlighted_report_text})
@@ -112,7 +128,7 @@ def get_weighting_explanation():
     report_id = request.args.get('report_id')
     theme = request.args.get('theme')
 
-    explanation = search.Searcher().get_weighting_explanation(report_id, theme)
+    explanation = Search.Searcher().get_weighting_explanation(report_id, theme)
 
     return jsonify({'title': f"{theme} for {report_id}", 'main': explanation})
 
@@ -120,7 +136,7 @@ def get_weighting_explanation():
 def get_theme_text():
     report_id = request.args.get('report_id')
 
-    theme_text = search.Searcher().get_theme_text(report_id)
+    theme_text = Search.Searcher().get_theme_text(report_id)
 
     return jsonify({'title': f"Theme summary for {report_id}", 'main': theme_text})
 
@@ -128,15 +144,43 @@ def get_theme_text():
 def get_safety_issues():
     report_id = request.args.get('report_id')
 
-    safety_issues = search.Searcher().get_safety_issues(report_id)
+    safety_issues = Search.Searcher().get_safety_issues(report_id)
 
-    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
+    return jsonify({'title': f"Safety issues for {report_id}", 'main': "<br><br>".join(safety_issues)})
 
 @app.route('/get_theme_groups', methods=['GET'])
 def get_theme_groups():
-    titles = Themes.ThemeReader(search.Searcher().input_dir).get_groups()
+    titles = Themes.ThemeReader(Search.Searcher().input_dir).get_groups()
 
     return jsonify({'themeGroups': titles})
+
+@app.route('/get_results_summary_report', methods=['POST'])
+def get_results_summary_report():
+
+    search_data = get_search(request.form)
+
+    search_results = Search.Searcher().search(*search_data)
+    generated_report = ReportCreation.ReportGenerator(
+        search_results,
+        search_data
+        ).generate()
+
+    return send_file(generated_report, download_name='report.pdf')
+
+@app.route('/get_results_as_csv', methods=['POST'])
+def get_results_as_csv():
+    search_data = get_search(request.form)
+
+    search_results = Search.Searcher().search(*search_data)
+
+        # Create a temporary file
+    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+
+    # Write the CSV data to the file
+    search_results.to_csv(temp.name, index=False)
+
+    # Send the file
+    return send_file(temp.name, as_attachment=True, download_name='search_results.csv')
 
 def run():
     parser = argparse.ArgumentParser()

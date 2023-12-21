@@ -53,7 +53,11 @@ class ReportDownloader:
             for i in id_range:
                 url = base_url.format(mode.name, year, i)
                 report_id = f"{year}_{i}"
-                if self.download_report(report_id, url):
+                outcome = self.download_report(report_id, url)
+                if outcome == "End of reports for this year":
+                    print(" Reached end of reports for this year")
+                    break
+                elif outcome:
                     number_for_year += 1
                 
                 if number_for_year >= self.max_per_year:
@@ -73,6 +77,9 @@ class ReportDownloader:
             return True
 
         soup = BeautifulSoup(response.content, "html.parser")
+
+        if soup.find("h1", text="Page not found"):
+            return "End of reports for this year"
 
         # Find all the links that end with .pdf and download them       
 

@@ -8,11 +8,48 @@ $(document).ready(function() {
         $.post('/search', $('form').serialize(), function(data) {
             // Update the results placeholder with the received HTML table
             updateResults(data.html_table);
+            $('#searchResultsHeader').show();
             // Hide the loading sign after results are loaded
             $('#loading').hide();
             
         });
     });
+
+    $('#downloadResultsSummary').click(function() {
+        var formData = $('form').serialize();
+        var form = $('<form>', {
+            action: '/get_results_summary_report',
+            method: 'post',
+            target: '_blank'
+        });
+        $.each(formData.split('&'), function(i, v) {
+            var parts = v.split('=');
+            form.append($('<input>', {
+                type: 'hidden',
+                name: decodeURIComponent(parts[0]),
+                value: decodeURIComponent(parts[1])
+            }));
+        });
+        form.appendTo('body').submit().remove();
+    });
+
+    $('#downloadResultsCSV').click(function() {
+        var formData = $('form').serialize();
+        var form = $('<form>', {
+            action: '/get_results_as_csv',
+            method: 'post'
+        });
+        $.each(formData.split('&'), function(i, v) {
+            var parts = v.split('=');
+            form.append($('<input>', {
+                type: 'hidden',
+                name: decodeURIComponent(parts[0]),
+                value: decodeURIComponent(parts[1])
+            }));
+        });
+        form.appendTo('body').submit().remove();
+    });
+
     $('#advancedSearchBtn').click(function() {
         $('#resetBtn').toggle();
         $('#advancedSearch').toggleClass('expanded')
@@ -183,20 +220,19 @@ function createThemeSliders() {
 }
 
 function updateResults(htmlTable) {
-    document.getElementById('searchResults').innerHTML = htmlTable;
-    $('#dataTable').DataTable( {
+    $('#searchResultsTableWrapper').html(htmlTable);
+    $('#dataTable').DataTable({
         autoWidth: false,
         fixedColumns: true,
         fixedHeader: true,
         paging: false,
         searching: false,
-        "order": [ 1, 'dsc' ],
-        "columnDefs": [ 
-            { "targets": 2, "orderable": false},
+        order: [1, 'desc'],
+        columnDefs: [
+            { targets: 2, orderable: false }
         ]
-    } );
+    });
 }
-
 // -----   Popups on results table ----- //
 
 

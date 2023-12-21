@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TAIC Search Result Summary</title>
+    <style>
+        body { font-family: Helvetica; }
+        p { font-size: 0.9em; } 
+
+        .section { 
+            padding: 10px;
+            margin: 5px;
+        }
+
+        #links {
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            align-content: center;
+            justify-content: space-evenly;
+        }
+
+        #links a {
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TAIC Search Result Summary</h1>
+    <p>Date: {{ date }}</p>
+
+    <div id="links">
+        <a href="#quick_facts">Quick Facts</a>  
+        <a href="#safety_themes">Safety Themes</a>  
+        <a href="#safety_issues">Safety Issues</a>  
+        <a href="#appendix">Appendix</a>
+
+    </div>
+
+
+    <div style="border-style: dotted; border-width: 2px; align-items: center;" class="section">
+        <h3 id="quick_facts">Quick facts</h3>
+        {{ general_information }}
+    </div>
+
+    <div class="section">
+        <h3 id="safety_themes">Safety themes</h3>
+        {{ safety_themes }}
+    </div>
+    
+
+    <div class="section">
+        <h3 id="safety_issues">Safey Issues</h3>
+        {{ safety_issues }}
+    </div>
+    
+    <h2 id="appendix">Appendix</h2>
+
+    <div class="section">
+        <h3 id="search_info">Search Information</h3>
+        {{ search_info }}
+    </div>
+
+    <div class="section">
+        <h3 id="predefined_themes">Predefined Themes</h3>
+        {{ safety_themes_for_weighting }}
+    </div>
+
+</body>
+</html>

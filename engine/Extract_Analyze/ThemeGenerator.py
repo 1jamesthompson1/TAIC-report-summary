@@ -29,7 +29,7 @@ class ThemeGenerator:
         print(f"  Report theme template: {self.report_theme_template}")
 
 
-        # self.output_folder_reader.process_reports(self._get_theme, self.modes)
+        self.output_folder_reader.process_reports(self._get_theme, self.modes)
 
         print(" Themes generated for each report")
 

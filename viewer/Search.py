@@ -95,9 +95,10 @@ class Searcher:
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.num_matches(),
-                "ThemeSummary": "<br>".join([theme['name'] for theme in theme_summary_obj]) if theme_summary_obj is not None else "Could not be completed",
-                "SafetyIssues": str(len(safety_issues)) + "<!--" + "\n\n".join(safety_issues) +  "-->",
-
+                "ThemeSummary": "<br><br>".join([theme['name'] for theme in theme_summary_obj]) if theme_summary_obj is not None else "Could not be completed",
+                "CompleteThemeSummary": theme_summary,
+                "SafetyIssues": str(len(safety_issues)),
+                "CompleteSafetyIssues": safety_issues,
             }
 
             inside_theme_range = True
@@ -110,6 +111,7 @@ class Searcher:
                     break
 
                 report_row[theme] = round(theme_weighting[theme], 6) if reportID_summary_row['Complete'].values[0] else "N/A"
+                report_row["Complete"+theme+"Reasoning"]  = reportID_summary_row[theme + "_explanation"].values[0]
 
 
             # Check the theme group ranges        
@@ -283,7 +285,7 @@ class Searcher:
         with open(safety_issues_path, "r") as f:
             safety_issues = yaml.safe_load(f)
         
-        return "<br><br>".join(safety_issues)
+        return safety_issues
             
 
 
