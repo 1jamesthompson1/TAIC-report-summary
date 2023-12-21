@@ -211,6 +211,7 @@ Each report was compared against {{ num_themes }} safety themes to find out whic
 {% endfor %}
                                                                 
 <h4>Short AI generated summary of safety issues present:</h4>
+<p style="font-size: 0.6em;">This summary is largely untested, so may not be accurate. It's main purpose is to demonstrate what sort of things could be done with LLM (AI)</p>
 <p>{{ safety_issues_summary }}</p>
 """)
         
