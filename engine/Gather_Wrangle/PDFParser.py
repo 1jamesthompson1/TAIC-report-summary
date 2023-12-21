@@ -43,7 +43,7 @@ def formatText(text, style):
     """
     
     # Clean up page numbers
-    text = re.sub(r'(\| )?(Page \d+)( \|)?', r'\n<< \2 >>\n', text)
+    text = re.sub(r'(\| )?((Page) {1,3}(\d+))( \|)?', r'\n<< \3 \4 >>\n', text, flags=re.IGNORECASE)
 
     return text
 
