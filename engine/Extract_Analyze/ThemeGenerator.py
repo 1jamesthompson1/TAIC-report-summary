@@ -95,7 +95,11 @@ issues.
             temp = 0
         )
 
+        print("  Global theme created")
+
         themes_data = yaml.safe_load(summarized_themes)
+
+        print("  Now grouping themes")
 
         while True:
 
@@ -154,6 +158,10 @@ issues.
                 large_model=True,
                 temp = 0
             )
+
+            if theme_groups[:7] == "```yaml":
+                theme_groups = theme_groups[7:-3]
+                
 
             groups_data = yaml.safe_load(theme_groups)
 
@@ -223,7 +231,7 @@ Quotes should be weaved into your answer.
 
 Question:
 Please provide me 3 - 6 safety themes that are most related to this accident.
-For each theme provide a paragraph explaining what the theme is and reasoning as to why it is relevant to this accident. Provide evidence for your reasoning with inline quotes. More than 1 quote may be needed and direct quotes are preferable.
+For each theme provide a paragraph explaining what the theme is and reasoning (about 75 words) as to why it is relevant to this accident. Provide evidence for your reasoning with inline quotes. More than 1 quote may be needed and direct quotes are preferable.
 
 Please output your answer in yaml. There should be no opening or closing code block just straight yaml. The yaml format should have a name and explanation field (which uses a literal scalar block) for each safety theme.
 
@@ -258,6 +266,9 @@ issues.
 
         if report_themes_str is None:
             return
+        
+        if report_themes_str[:7] == "```yaml":    
+            report_themes_str = report_themes_str[7:-3]
 
         try :
             report_themes = yaml.safe_load(report_themes_str)
