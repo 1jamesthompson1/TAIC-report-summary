@@ -16,22 +16,33 @@ $(document).ready(function() {
     });
 
     $('#downloadResultsSummary').click(function() {
+        $('#loading').show();   
+
         var formData = $('form').serialize();
-        var form = $('<form>', {
-            action: '/get_results_summary_report',
-            method: 'post',
-            target: '_blank'
+        $.ajax({
+            type: 'POST',
+            url: '/get_results_summary_report',
+            data: formData,
+            success: function(data) {
+                checkResult();
+            }
         });
-        $.each(formData.split('&'), function(i, v) {
-            var parts = v.split('=');
-            form.append($('<input>', {
-                type: 'hidden',
-                name: decodeURIComponent(parts[0]),
-                value: decodeURIComponent(parts[1])
-            }));
-        });
-        form.appendTo('body').submit().remove();
     });
+    
+    function checkResult() {
+        $.ajax({
+            type: 'GET',
+            url: '/get_result',
+            success: function(data, status, xhr) {
+                if (xhr.status === 202) {
+                    setTimeout(checkResult, 1000);
+                } else {
+                    $('#loading').hide();
+                    window.location.href = '/get_result';
+                }
+            }
+        });
+    }
 
     $('#downloadResultsCSV').click(function() {
         var formData = $('form').serialize();

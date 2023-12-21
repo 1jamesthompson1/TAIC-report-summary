@@ -18,6 +18,15 @@ class ReportGenerator:
         self.output_config = Config.configReader.get_config()['engine']['output']
         self.input_dir = os.path.join("viewer", self.output_config.get("folder_name"))
         self.theme_reader = Themes.ThemeReader(self.input_dir)
+
+    def generate_pdf(html_out=None):
+        pdf = weasyprint.HTML(string=html_out).write_pdf()
+
+        buffer = BytesIO(pdf)
+        buffer.seek(0)
+
+        return buffer
+    
     def generate(self):
         # Set up Jinja2 environment
         env = Environment(loader=PackageLoader('viewer'))
@@ -40,13 +49,7 @@ class ReportGenerator:
                     }
         html_out = template.render(data)
 
-        # Convert the HTML to PDF
-        pdf = weasyprint.HTML(string=html_out).write_pdf()
-
-        # Create a BytesIO object from the PDF
-        buffer = BytesIO(pdf)
-        buffer.seek(0)
-        return buffer
+        return html_out
     
     def generate_search_parameter_string(self):
         # template 

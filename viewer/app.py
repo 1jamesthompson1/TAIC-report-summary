@@ -4,6 +4,8 @@ import json
 import os
 import argparse
 from . import Search, ReportCreation
+from threading import Thread
+from werkzeug.wsgi import FileWrapper
 import tempfile
 
 import engine.Extract_Analyze.Themes as Themes
@@ -154,10 +156,19 @@ def get_theme_groups():
 
     return jsonify({'themeGroups': titles})
 
+result = None
+
 @app.route('/get_results_summary_report', methods=['POST'])
 def get_results_summary_report():
+    global result
+    result = None
+    thread = Thread(target=get_results_summary_report_task, args=(request.form,))
+    thread.start()
+    return jsonify({'message': 'Task started'}), 202
 
-    search_data = get_search(request.form)
+def get_results_summary_report_task(form_data):
+    global result
+    search_data = get_search(form_data)
 
     search_results = Search.Searcher().search(*search_data)
     generated_report = ReportCreation.ReportGenerator(
@@ -165,7 +176,17 @@ def get_results_summary_report():
         search_data
         ).generate()
 
-    return send_file(generated_report, download_name='report.pdf')
+    result = generated_report
+
+@app.route('/get_result', methods=['GET'])
+def get_result():
+    global result
+    if result is None:
+        # The result is not ready yet
+        return jsonify({'message': 'Result not ready'}), 202
+    else:
+        # The result is ready, send it as a file
+        return send_file(ReportCreation.ReportGenerator.generate_pdf(result), download_name='report.pdf')
 
 @app.route('/get_results_as_csv', methods=['POST'])
 def get_results_as_csv():
