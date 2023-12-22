@@ -16,6 +16,10 @@ class Mode(Enum):
             return "Marine"
         else:
             return None
+        
+    @classmethod
+    def as_char(cls, mode):
+        return Mode.as_string(mode).lower()[0]
 
 all_modes = [Mode.a, Mode.r, Mode.m]
 
