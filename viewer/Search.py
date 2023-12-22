@@ -137,7 +137,7 @@ class Searcher:
             # Add other weighting
             report_row['Other'] = reportID_summary_row['Other_weighting'].values[0]
 
-            report_link = f"https://www.taic.org.nz/inquiry/mo-{dir.replace('_', '-')}"
+            report_link = f"https://www.taic.org.nz/inquiry/{Modes.Mode.as_char(Modes.get_report_mode_from_id(dir))}o-{dir.replace('_', '-')}"
             report_row["PDF"] = f'<a href="{report_link}" target="_blank">🌐</a>'
             if settings['include_incomplete_reports'] == True:
                 report_row['ErrorMessage'] = reportID_summary_row['ErrorMessage'].values[0]
