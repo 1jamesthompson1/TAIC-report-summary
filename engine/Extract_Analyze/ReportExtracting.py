@@ -158,8 +158,8 @@ class ReportExtractor:
         
         # Search for safety issues throughout the report
         safety_issues_regexes = [
-            preamble_regex + r'(' + safety_regex + r' -' +  ')' + end_regex + postamble_regex,
-            preamble_regex + r'(' + safety_regex + r': ' +  ')' + end_regex + postamble_regex
+            preamble_regex + r'(' + safety_regex + r' ?-' +  ')' + end_regex + postamble_regex,
+            preamble_regex + r'(' + safety_regex + r' ?: ' +  ')' + end_regex + postamble_regex,
         ]
         safety_issues_regexes = [re.compile(regex, re.MULTILINE | re.IGNORECASE) for regex in safety_issues_regexes]
 
