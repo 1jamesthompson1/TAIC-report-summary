@@ -6,3 +6,4 @@ __pycache__
 python/.env
 .env
 personal/
+playground.ipynb
