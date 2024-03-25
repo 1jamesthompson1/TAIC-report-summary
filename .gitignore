@@ -1,8 +1,10 @@
 output/
 !viewer/output
 viewer/output/*/*.pdf
-
 __pycache__
 python/.env
 .env
 personal/
+
+# This folder is for various notebooks and stuff I want handy while developing
+workbench/
