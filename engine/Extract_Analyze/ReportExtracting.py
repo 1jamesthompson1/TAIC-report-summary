@@ -187,6 +187,7 @@ class ReportExtractor:
         for regex in safety_issues_regexes:
             if len(safety_issue_matches) > 0 and regex.search(self.report_text):
                 print("Error: multiple regexes matched")
+                return None
 
             if len(safety_issue_matches) == 0 and regex.search(self.report_text):
                 safety_issue_matches.extend(regex.findall(self.report_text))
