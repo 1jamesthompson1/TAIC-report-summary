@@ -235,12 +235,15 @@ Please just return the cleaned version of the text. Without starting with Safety
 {text}
         
 =Instructions=
+
+I want to know the safety issues which this investigation has found.
+
 Can your response please be in yaml format.
 
 - |
-    blablabla
+    bla bla bla
 - |
-    bla bla lba
+    bla bla bla bla
 
 There is no need to enclose the yaml in any tags.
 
@@ -271,7 +274,29 @@ You are going help me read a transport accident investigation report.
 
  I want you to please read the report and respond with the safety issues identified in the report.
 
-Please only respond with safety issues that are quite clear and important.
+Please only respond with safety issues that are quite clearly stated and/or implied.
+
+It should be noted that the number of safety issues in a report has a minimum of 1 an 0.25 quantile of 1, median of 2, 0.75 quantile of 3 and a maximum of 13. You should try make your answers match this distribution and on average a report will have only 2 safety issues.
+
+Remember the definitions give
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
             """,
             message(important_text),
             large_model=True,
@@ -280,8 +305,12 @@ Please only respond with safety issues that are quite clear and important.
         if response[:7] == '"""yaml' or response[:7] == '```yaml':
             response = response[7:-3]
         
-        
-        safety_issues = yaml.safe_load(response)
+        try:
+            safety_issues = yaml.safe_load(response)
+        except yaml.YAMLError as exc:
+            print(exc)
+            print("  Assuming that there are no safety issues in the report.")
+            return None
         
         return safety_issues
 
