@@ -67,11 +67,12 @@ class ReportDownloader:
         report_dir = os.path.join(self.output_dir, self.report_dir_template.replace(r"{{report_id}}", report_id))
 
         file_name = os.path.join(report_dir, self.file_name_template.replace(r"{{report_id}}", report_id))
-        response = requests.get(url)
 
         if not self.refresh and os.path.exists(file_name):
             print(f"  {file_name} already exists, skipping download")
             return True
+
+        response = requests.get(url)
 
         soup = BeautifulSoup(response.content, "html.parser")
 
