@@ -147,9 +147,28 @@ class ReportExtractor:
     
     def extract_safety_issues(self):
         """
-        Safety issues representation vary throughout the reports.
+        Extract safety issues from a report.
         """
 
+        safety_issues = self.__extract_safety_issues_with_regex()
+        exact_safety_issues = True
+
+        if safety_issues == None:
+            exact_safety_issues = False
+            safety_issues = self.__extract_safety_issues_with_inference()
+
+        # Add the quality of safety issue to the yaml
+        if safety_issues == None:
+            return None
+        
+        safety_issues_with_quality = [{"safety_issue": issue, "quality": "exact" if exact_safety_issues else "inferred"} for issue in safety_issues ]
+
+        return safety_issues_with_quality
+        
+    def __extract_safety_issues_with_regex(self):
+        """
+        Search for safety issues using regex
+        """
         safety_regex = r's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?'
         end_regex = r'([\s\S]*?)(?=(\d+\.(\d+\.)?(\d+)?)|(^ [A-Z]))'
         preamble_regex = r'([\s\S]{50})'
@@ -178,6 +197,10 @@ class ReportExtractor:
         ## Remove excess whitespace
         safety_issues_removed_whitespace = [issue.strip().replace("\n", " ") for issue in safety_issues_uncleaned]
 
+        if len(safety_issues_removed_whitespace) == 0:
+            print("  Could not find any safety issues using regex.")
+            return None
+
         ## Clean up characters with llm
         clean_text = lambda text: openAICaller.query(
             """
@@ -196,7 +219,71 @@ Please just return the cleaned version of the text. Without starting with Safety
         safety_issues_cleaned = [clean_text(issue) for issue in safety_issues_removed_whitespace]
 
         return safety_issues_cleaned
+
+    def __extract_safety_issues_with_inference(self):
+        """
+        Search for safety issues using inference from GPT 4 turbo.
+        """
+
+        important_text, pages_to_read = self.extract_important_text()
+
+        if important_text == None:
+            return None
         
+        message = lambda text: f'''
+{text}
+        
+=Instructions=
+Can your response please be in yaml format.
+
+- |
+    blablabla
+- |
+    bla bla lba
+
+There is no need to enclose the yaml in any tags.
+
+=Here are some definitions=
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+'''
+        
+        response = openAICaller.query(
+            """
+You are going help me read a transport accident investigation report.
+
+ I want you to please read the report and respond with the safety issues identified in the report.
+
+Please only respond with safety issues that are quite clear and important.
+            """,
+            message(important_text),
+            large_model=True,
+            temp=0)
+        
+        if response[:7] == '"""yaml' or response[:7] == '```yaml':
+            response = response[7:-3]
+        
+        
+        safety_issues = yaml.safe_load(response)
+        
+        return safety_issues
+
 
 class ReportExtractingProcessor:
 
