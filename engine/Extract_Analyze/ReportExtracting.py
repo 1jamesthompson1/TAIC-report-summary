@@ -137,7 +137,7 @@ class ReportExtractor:
             print("Warning: could not find section")
             print(f"  startMatch: {startMatch} with regex {startRegex} \n  endMatch: {endMatch} with regex {endRegex}")
             print("  Attempting to extract section using page numbers")
-            return self.__extract_safety_issues_with_inference()
+            return self.__extract_section_using_LLM(section_str)
 
         if endMatch.end() < startMatch.end():
             print(f"Error: endMatch is before startMatch")
@@ -152,7 +152,7 @@ class ReportExtractor:
         print(f"Error: could not find section")
         return None
     
-    def __extract_section_using_page_numbers(self, section):
+    def __extract_section_using_LLM(self, section):
         """
         A helper function to extract_section that will read the content section and find the page numbers then extract it from there.
         """
@@ -178,7 +178,10 @@ The section number I am looking for is {section}
             temp = 0)
         
         if pages == "None":
+            print(f"  Failed to find the section using the LLM, it responded with '{pages}'. The search was for section '{section}'")            
             return None
+        
+        print(" Found the section using the LLM" + pages)
 
         pages_to_read = [int(num) for num in pages.split(",")]
 
@@ -190,6 +193,34 @@ The section number I am looking for is {section}
 
         return section_text
 
+class SafetyIssuesAndRecommendationsExtractor(ReportExtractor):
+    def __init__(self, report_text, report_id):
+        super().__init__(report_text, report_id)
+
+    def extract_recommendation_section(self):
+        content_section = self.extract_contents_section()
+        
+        if content_section == None:
+            print(f'  Without content section the recommendation section cannot be found')
+            return None
+        
+        add_whitespace = lambda text: r"\s{0,2}".join(text)
+
+        search_regex = rf'(\d{{1,3}})\s{{0,2}}\.?\s{{0,2}}(({add_whitespace("safety")})?\s?{add_whitespace("recommendations")}?).*?(\d{{1,3}})'
+
+        recommendation_match = re.search(search_regex, content_section, re.IGNORECASE)
+
+        if recommendation_match == None:
+            print(f'  Could not find the recommendation section')
+            return None
+        
+        print(f'  Found the recommendation section it was {recommendation_match.group(1)}')
+        
+        recommendation_section = self.extract_section(recommendation_match.group(1))
+
+        return  recommendation_section
+
+        
     
     def extract_safety_issues(self):
         """
@@ -370,7 +401,7 @@ class ReportExtractingProcessor:
         self.file_name_template = file_name_template
         self.refresh = refresh
 
-    def _output_safety_issues(self, report_id, report_text):
+    def __output_safety_issues(self, report_id, report_text):
 
         print("  Extracting safety issues from " + report_id)
 
@@ -383,7 +414,7 @@ class ReportExtractingProcessor:
             print(f"   {output_path} already exists")
             return
 
-        safety_issues = ReportExtractor(report_text, report_id).extract_safety_issues()
+        safety_issues = SafetyIssuesAndRecommendationsExtractor(report_text, report_id).extract_safety_issues()
 
         if safety_issues == None:
             print(f"  Could not extract safety issues from {report_id}")
@@ -395,6 +426,6 @@ class ReportExtractingProcessor:
             yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
 
     def extract_safety_issues_from_reports(self):
-        self.output_folder_reader.process_reports(self._output_safety_issues)
+        self.output_folder_reader.process_reports(self.__output_safety_issues)
 
         
