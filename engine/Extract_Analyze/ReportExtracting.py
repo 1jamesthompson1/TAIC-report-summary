@@ -99,7 +99,7 @@ class ReportExtractor:
         return pages_to_read
 
     def extract_section(self, section_str: str):
-        base_regex_template = lambda section: fr"(( {section}) {{1,3}}(?![\s\S]*^{section}))|((^{section}) {{1,3}})(?![\S\s()]{{1,100}}\.{{2,}})"
+        base_regex_template = lambda section: fr"(?<!\.{{3,}} {{0,4}}\d{{1,3}} ?\s)((( {section}) {{1,3}}(?![\s\S]*^{section}))|((^{section}) {{1,3}}))(?![\S\s()]{{1,100}}\.{{2,}})"
 
         split_section = section_str.split(".")
         section = split_section[0]
