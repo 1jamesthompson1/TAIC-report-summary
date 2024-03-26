@@ -208,11 +208,19 @@ class SafetyIssuesAndRecommendationsExtractor(ReportExtractor):
 
         search_regex = rf'(\d{{1,3}})\s{{0,2}}\.?\s{{0,2}}(({add_whitespace("safety")})?\s?{add_whitespace("recommendations")}?).*?(\d{{1,3}})'
 
-        recommendation_match = re.search(search_regex, content_section, re.IGNORECASE)
+        recommendation_matches = [*re.finditer(search_regex, content_section, re.IGNORECASE)]
 
-        if recommendation_match == None:
+        # Can't find the recommendation section and assuming that there are no recommendations
+        if len(recommendation_matches) == 0:
             print(f'  Could not find the recommendation section')
             return None
+        
+        # The regex matches multiple times so will assume it is the last one as any earlier matches are probably from the executive summary
+        if len(recommendation_matches) > 1:
+            print(f'  Found multiple recommendation sections, assuming the last one is the correct one')
+            recommendation_match = recommendation_matches[-1]
+        else:
+            recommendation_match = recommendation_matches[0]
         
         print(f'  Found the recommendation section it was {recommendation_match.group(1)}')
         
