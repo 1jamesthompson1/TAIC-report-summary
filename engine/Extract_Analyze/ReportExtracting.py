@@ -99,6 +99,10 @@ class ReportExtractor:
         return pages_to_read
 
     def extract_section(self, section_str: str):
+        """
+        This function extract a numbered section from the report.
+        You need to give it a string like 5, 5.1, 5.1.1, etc. It can struggle with the last or second to last section in the report. In this case it utilses AI
+        """
         base_regex_template = lambda section: fr"(?<!\.{{3,}} {{0,4}}\d{{1,3}} ?\s)((( {section}) {{1,3}}(?![\s\S]*^{section}))|((^{section}) {{1,3}}))(?![\S\s()]{{1,100}}\.{{2,}})"
 
         split_section = section_str.split(".")
@@ -130,7 +134,10 @@ class ReportExtractor:
                 break
 
         if startMatch == None or endMatch == None:
-            return None
+            print("Warning: could not find section")
+            print(f"  startMatch: {startMatch} with regex {startRegex} \n  endMatch: {endMatch} with regex {endRegex}")
+            print("  Attempting to extract section using page numbers")
+            return self.__extract_safety_issues_with_inference()
 
         if endMatch.end() < startMatch.end():
             print(f"Error: endMatch is before startMatch")
@@ -144,6 +151,45 @@ class ReportExtractor:
 
         print(f"Error: could not find section")
         return None
+    
+    def __extract_section_using_page_numbers(self, section):
+        """
+        A helper function to extract_section that will read the content section and find the page numbers then extract it from there.
+        """
+
+        content_section = self.extract_contents_section()
+
+        pages = openAICaller.query(
+            """
+            You are helping me read a content section.
+
+I will send you a content section and a section and you will return the pages with which that section will cover.
+
+Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the section number given then just return "None".
+            """,
+            f"""
+'''
+{content_section}
+'''
+
+The section number I am looking for is {section}
+            """,
+            large_model=True,
+            temp = 0)
+        
+        if pages == "None":
+            return None
+
+        pages_to_read = [int(num) for num in pages.split(",")]
+
+        # Make the array every page between first and last
+        pages_to_read = list(range(pages_to_read[0], pages_to_read[-1] + 1))
+
+        # Retrieve that actual text for the page numbers.
+        section_text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
+
+        return section_text
+
     
     def extract_safety_issues(self):
         """
