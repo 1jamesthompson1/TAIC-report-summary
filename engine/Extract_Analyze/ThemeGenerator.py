@@ -91,7 +91,7 @@ Safety theme - Indication of recurring circumstances or causes, either across tr
 cover a single safety issue, or two or more related safety
 issues.         
 """,
-            large_model=True,
+            model="gpt-4",
             temp = 0
         )
 
@@ -155,7 +155,7 @@ issues.
     cover a single safety issue, or two or more related safety
     issues. 
     """,
-                large_model=True,
+                model="gpt-4",
                 temp = 0
             )
 
@@ -260,7 +260,7 @@ issues.
         report_themes_str = self.open_ai_caller.query(
             system_message,
             user_message,
-            large_model=True,
+            model="gpt-4",
             temp = 0
         )
 

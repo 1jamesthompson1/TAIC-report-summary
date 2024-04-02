@@ -171,7 +171,7 @@ Your response is only a list of integers. No words are allowed in your response.
 
 The section number I am looking for is {section}
             """,
-            large_model=True,
+            model="gpt-4",
             temp = 0)
         
         if pages == "None":
@@ -288,7 +288,7 @@ However I would like to get just as the safety issue without any of the random t
 Please just return the cleaned version of the text. Without starting with Safety issue.
 """,
             text,
-            large_model=True,
+            model="gpt-4",
             temp=0)
 
         safety_issues_cleaned = [clean_text(issue) for issue in safety_issues_removed_whitespace]
@@ -373,7 +373,7 @@ cover a single safety issue, or two or more related safety
 issues.
             """,
             message(important_text),
-            large_model=True,
+            model="gpt-3.5-ft-SIExtraction",
             temp=0)
         
         if response[:7] == '"""yaml' or response[:7] == '```yaml':
