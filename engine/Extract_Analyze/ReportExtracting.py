@@ -39,21 +39,18 @@ class ReportExtractor:
 
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
-        pattern = r"<< Page {} >>.*<< Page {} >>".format(page_number_1, page_number_2)
-        matches = re.findall(pattern, self.report_text, re.DOTALL | re.IGNORECASE)
+        pattern = fr"(?:<< Page {page_number_1} >>)((?:(?!<< Page \d{{1,3}} >>)[\s\S])*)(?=(?:<< Page {page_number_2} >>|$))"
+        matches = re.findall(pattern, self.report_text, re.MULTILINE)
 
+        if len(matches) == 0:
+            print(f"  Could not find text between pages {page_number_1} and {page_number_2}")
+            return None
+    
+        if len(matches) > 1:
+            print(f"  Found multiple matches for text between pages {page_number_1} and {page_number_2}")
+            return None
 
-        if matches:
-            return matches[0]
-        else:
-            # Return everything after the first page number match
-            pattern = r"<< Page {} >>.*".format(page_number_1)
-            matches = re.findall(pattern, self.report_text, re.DOTALL)
-            if matches:
-                return matches[0]
-            else:
-                print("Error: Could not find text between pages " + str(page_number_1) + " and " + str(page_number_2))
-                return None
+        return matches[0]
 
     def extract_contents_section(self) -> str:
         startRegex = r'((Content)|(content)|(Contents)|(contents))([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*\.{5,})'
