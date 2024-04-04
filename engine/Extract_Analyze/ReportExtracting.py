@@ -312,7 +312,11 @@ Please just return the cleaned version of the text. Without starting with Safety
 
 I want to know the safety issues which this investigation has found.
 
-I also ned to know what is the quality of this safety issue. Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Other reports however wont have exact safety issues,yet safety issues will still be present in this case they are "inferred" safety issues.
+For each safety issue you find I need to know what is the quality of this safety issue.
+Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Now that the text may have extra spaces or characters in it.
+
+However if no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
+
 
 Can your response please be in yaml format as shown below.
 
@@ -321,7 +325,7 @@ Can your response please be in yaml format as shown below.
   quality: exact
 - safety_issue: |
     bla bla talking about this and that bla bla bla
-  quality: exact
+  quality: inferred
 
 
 There is no need to enclose the yaml in any tags.
@@ -351,9 +355,9 @@ issues.
             """
 You are going help me read a transport accident investigation report.
 
- I want you to please read the report and respond with the safety issues identified in the report.
+I want you to please read the report and respond with the safety issues identified in the report.
 
-Please only respond with safety issues that are quite clearly stated and/or implied.
+Please only respond with safety issues that are quite clearly stated and/or implied. More instruction will be given in the question.
 
 Remember the definitions give
 
