@@ -312,12 +312,17 @@ Please just return the cleaned version of the text. Without starting with Safety
 
 I want to know the safety issues which this investigation has found.
 
-Can your response please be in yaml format.
+I also ned to know what is the quality of this safety issue. Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Other reports however wont have exact safety issues,yet safety issues will still be present in this case they are "inferred" safety issues.
 
-- |
-    bla bla bla
-- |
-    bla bla bla bla
+Can your response please be in yaml format as shown below.
+
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+
 
 There is no need to enclose the yaml in any tags.
 
@@ -349,8 +354,6 @@ You are going help me read a transport accident investigation report.
  I want you to please read the report and respond with the safety issues identified in the report.
 
 Please only respond with safety issues that are quite clearly stated and/or implied.
-
-It should be noted that the number of safety issues in a report has a minimum of 1 an 0.25 quantile of 1, median of 2, 0.75 quantile of 3 and a maximum of 13. You should try make your answers match this distribution and on average a report will have only 2 safety issues.
 
 Remember the definitions give
 
