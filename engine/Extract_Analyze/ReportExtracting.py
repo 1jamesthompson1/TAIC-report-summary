@@ -13,6 +13,7 @@ class ReportExtractor:
         self.report_id = report_id
 
     def extract_important_text(self) -> (str, list):
+        print(f"Getting important text... for {self.report_id}")
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections == None:
@@ -27,30 +28,45 @@ class ReportExtractor:
 
         # Retrieve that actual text for the page numbers.
         print(f"  I am going to be reading these pages: {pages_to_read}")
-        text = ""
-        for page in pages_to_read: # Loop through the pages and extract the text
-            extracted_text = self.extract_text_between_page_numbers(page, page+1)
-            if extracted_text == None:
-                print(f"  Could not extract text from page {page}")
-                continue
-            text += extracted_text
+    
+        # Try and read the pages. If it fails try and read to the next page three times. Then give up.
+        text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
+
 
         return text, pages_to_read
 
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
-        pattern = fr"(?:<< Page {page_number_1} >>)((?:(?!<< Page \d{{1,3}} >>)[\s\S])*)(?=(?:<< Page {page_number_2} >>|$))"
+
+        page = lambda num: f"<< Page {num} >>"
+        middle_pages = "[\s\S]*"
+        pattern = page(page_number_1) + middle_pages + page(page_number_2)
+
         matches = re.findall(pattern, self.report_text, re.MULTILINE)
 
-        if len(matches) == 0:
-            print(f"  Could not find text between pages {page_number_1} and {page_number_2}")
-            return None
-    
         if len(matches) > 1:
             print(f"  Found multiple matches for text between pages {page_number_1} and {page_number_2}")
             return None
+        
+        if len(matches) == 1:
+            return matches[0]
 
-        return matches[0]
+        print(f"  Could not find text between pages {page_number_1} and {page_number_2}")
+
+        if len(re.findall(page(page_number_1), self.report_text, re.MULTILINE)) == 0:
+            if page_number_1 < 2:
+                print("     giving up search for text between pages")
+                return None
+            return self.extract_text_between_page_numbers(page_number_1-1, page_number_2)
+        
+        if len(re.findall(page(page_number_2), self.report_text, re.MULTILINE)) == 0:
+            if page_number_2 > 100:
+                print("     giving up search for text between pages")
+                return None
+            return self.extract_text_between_page_numbers(page_number_1, page_number_2+1)
+        
+        if page_number_1 > 1 and page_number_2 < 100:
+            return self.extract_text_between_page_numbers(page_number_1-1, page_number_2+1)
 
     def extract_contents_section(self) -> str:
         startRegex = r'((Content)|(content)|(Contents)|(contents))([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*\.{5,})'
@@ -87,8 +103,6 @@ class ReportExtractor:
 
                 pages_to_read = [int(num) for num in model_response.split(",")]
 
-                # Make the array every page between first and last
-                pages_to_read = list(range(pages_to_read[0], pages_to_read[-1] + 1))
                 break
             except ValueError:
                 print(f"  Incorrect response from model retrying. \n  Response was: '{model_response}'")
