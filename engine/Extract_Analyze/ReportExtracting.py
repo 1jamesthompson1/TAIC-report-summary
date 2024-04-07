@@ -1,7 +1,5 @@
 from engine.OpenAICaller import openAICaller
 
-from engine.Extract_Analyze import OutputFolderReader
-
 import yaml
 import os
 import regex as re
@@ -13,6 +11,7 @@ class ReportExtractor:
         self.report_id = report_id
 
     def extract_important_text(self) -> (str, list):
+        print(f"Getting important text... for {self.report_id}")
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections == None:
@@ -27,33 +26,45 @@ class ReportExtractor:
 
         # Retrieve that actual text for the page numbers.
         print(f"  I am going to be reading these pages: {pages_to_read}")
-        text = ""
-        for page in pages_to_read: # Loop through the pages and extract the text
-            extracted_text = self.extract_text_between_page_numbers(page, page+1)
-            if extracted_text == None:
-                print(f"  Could not extract text from page {page}")
-                continue
-            text += extracted_text
+    
+        # Try and read the pages. If it fails try and read to the next page three times. Then give up.
+        text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
+
 
         return text, pages_to_read
 
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
-        pattern = r"<< Page {} >>.*<< Page {} >>".format(page_number_1, page_number_2)
-        matches = re.findall(pattern, self.report_text, re.DOTALL | re.IGNORECASE)
 
+        page = lambda num: f"<< Page {num} >>"
+        middle_pages = "[\s\S]*"
+        pattern = page(page_number_1) + middle_pages + page(page_number_2)
 
-        if matches:
+        matches = re.findall(pattern, self.report_text, re.MULTILINE)
+
+        if len(matches) > 1:
+            print(f"  Found multiple matches for text between pages {page_number_1} and {page_number_2}")
+            return None
+        
+        if len(matches) == 1:
             return matches[0]
-        else:
-            # Return everything after the first page number match
-            pattern = r"<< Page {} >>.*".format(page_number_1)
-            matches = re.findall(pattern, self.report_text, re.DOTALL)
-            if matches:
-                return matches[0]
-            else:
-                print("Error: Could not find text between pages " + str(page_number_1) + " and " + str(page_number_2))
+
+        print(f"  Could not find text between pages {page_number_1} and {page_number_2}")
+
+        if len(re.findall(page(page_number_1), self.report_text, re.MULTILINE)) == 0:
+            if page_number_1 < 2:
+                print("     giving up search for text between pages")
                 return None
+            return self.extract_text_between_page_numbers(page_number_1-1, page_number_2)
+        
+        if len(re.findall(page(page_number_2), self.report_text, re.MULTILINE)) == 0:
+            if page_number_2 > 100:
+                print("     giving up search for text between pages")
+                return None
+            return self.extract_text_between_page_numbers(page_number_1, page_number_2+1)
+        
+        if page_number_1 > 1 and page_number_2 < 100:
+            return self.extract_text_between_page_numbers(page_number_1-1, page_number_2+1)
 
     def extract_contents_section(self) -> str:
         startRegex = r'((Content)|(content)|(Contents)|(contents))([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*\.{5,})'
@@ -90,8 +101,6 @@ class ReportExtractor:
 
                 pages_to_read = [int(num) for num in model_response.split(",")]
 
-                # Make the array every page between first and last
-                pages_to_read = list(range(pages_to_read[0], pages_to_read[-1] + 1))
                 break
             except ValueError:
                 print(f"  Incorrect response from model retrying. \n  Response was: '{model_response}'")
@@ -174,7 +183,7 @@ Your response is only a list of integers. No words are allowed in your response.
 
 The section number I am looking for is {section}
             """,
-            large_model=True,
+            model="gpt-4",
             temp = 0)
         
         if pages == "None":
@@ -193,120 +202,23 @@ The section number I am looking for is {section}
 
         return section_text
 
-class SafetyIssuesAndRecommendationsExtractor(ReportExtractor):
+class SafetyIssueExtractor(ReportExtractor):
     def __init__(self, report_text, report_id):
         super().__init__(report_text, report_id)
-
-    def extract_recommendation_section(self):
-        content_section = self.extract_contents_section()
         
-        if content_section == None:
-            print(f'  Without content section the recommendation section cannot be found')
-            return None
-        
-        add_whitespace = lambda text: r"\s{0,2}".join(text)
-
-        search_regex = rf'(\d{{1,3}})\s{{0,2}}\.?\s{{0,2}}(({add_whitespace("safety")})?\s?{add_whitespace("recommendations")}?).*?(\d{{1,3}})'
-
-        recommendation_matches = [*re.finditer(search_regex, content_section, re.IGNORECASE)]
-
-        # Can't find the recommendation section and assuming that there are no recommendations
-        if len(recommendation_matches) == 0:
-            print(f'  Could not find the recommendation section')
-            return None
-        
-        # The regex matches multiple times so will assume it is the last one as any earlier matches are probably from the executive summary
-        if len(recommendation_matches) > 1:
-            print(f'  Found multiple recommendation sections, assuming the last one is the correct one')
-            recommendation_match = recommendation_matches[-1]
-        else:
-            recommendation_match = recommendation_matches[0]
-        
-        print(f'  Found the recommendation section it was {recommendation_match.group(1)}')
-        
-        recommendation_section = self.extract_section(recommendation_match.group(1))
-
-        return  recommendation_section
-
-        
-    
     def extract_safety_issues(self):
         """
         Extract safety issues from a report.
         """
-
-        safety_issues = self.__extract_safety_issues_with_regex()
-        exact_safety_issues = True
-
-        if safety_issues == None:
-            exact_safety_issues = False
-            safety_issues = self.__extract_safety_issues_with_inference()
+        safety_issues = self._extract_safety_issues_with_inference()
 
         # Add the quality of safety issue to the yaml
         if safety_issues == None:
             return None
         
-        safety_issues_with_quality = [{"safety_issue": issue, "quality": "exact" if exact_safety_issues else "inferred"} for issue in safety_issues ]
-
-        return safety_issues_with_quality
+        return safety_issues
         
-    def __extract_safety_issues_with_regex(self):
-        """
-        Search for safety issues using regex
-        """
-        safety_regex = r's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?'
-        end_regex = r'([\s\S]*?)(?=(\d+\.(\d+\.)?(\d+)?)|(^ [A-Z]))'
-        preamble_regex = r'([\s\S]{50})'
-        postamble_regex = r'([\s\S]{300})'
-
-        
-        # Search for safety issues throughout the report
-        safety_issues_regexes = [
-            preamble_regex + r'(' + safety_regex + r' ?-' +  ')' + end_regex + postamble_regex,
-            preamble_regex + r'(' + safety_regex + r' ?: ' +  ')' + end_regex + postamble_regex,
-        ]
-        safety_issues_regexes = [re.compile(regex, re.MULTILINE | re.IGNORECASE) for regex in safety_issues_regexes]
-
-        safety_issue_matches = []
-        # Only one of the regexes should match
-        for regex in safety_issues_regexes:
-            if len(safety_issue_matches) > 0 and regex.search(self.report_text):
-                print("Error: multiple regexes matched")
-                return None
-
-            if len(safety_issue_matches) == 0 and regex.search(self.report_text):
-                safety_issue_matches.extend(regex.findall(self.report_text))
-
-        # Collapse the tuples into a string
-        safety_issues_uncleaned = [''.join(match) for match in safety_issue_matches]
-
-        ## Remove excess whitespace
-        safety_issues_removed_whitespace = [issue.strip().replace("\n", " ") for issue in safety_issues_uncleaned]
-
-        if len(safety_issues_removed_whitespace) == 0:
-            print("  Could not find any safety issues using regex.")
-            return None
-
-        ## Clean up characters with llm
-        clean_text = lambda text: openAICaller.query(
-            """
-I need some help extracting the safety issues from a section of text.
-
-This text has been extracted from a pdf and then using regex this section was found. It contains text before the safety issue then the safety issue that starts with safety issue, follow by the some text after the safety issue. The complete safety issue will always be in the given text.
-
-However I would like to get just as the safety issue without any of the random text (headers footers etc and white spaces) that is added by the pdf.
-
-Please just return the cleaned version of the text. Without starting with Safety issue.
-""",
-            text,
-            large_model=True,
-            temp=0)
-
-        safety_issues_cleaned = [clean_text(issue) for issue in safety_issues_removed_whitespace]
-
-        return safety_issues_cleaned
-
-    def __extract_safety_issues_with_inference(self):
+    def _extract_safety_issues_with_inference(self):
         """
         Search for safety issues using inference from GPT 4 turbo.
         """
@@ -323,12 +235,21 @@ Please just return the cleaned version of the text. Without starting with Safety
 
 I want to know the safety issues which this investigation has found.
 
-Can your response please be in yaml format.
+For each safety issue you find I need to know what is the quality of this safety issue.
+Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Now that the text may have extra spaces or characters in it.
 
-- |
-    bla bla bla
-- |
-    bla bla bla bla
+However if no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
+
+
+Can your response please be in yaml format as shown below.
+
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+
 
 There is no need to enclose the yaml in any tags.
 
@@ -357,11 +278,9 @@ issues.
             """
 You are going help me read a transport accident investigation report.
 
- I want you to please read the report and respond with the safety issues identified in the report.
+I want you to please read the report and respond with the safety issues identified in the report.
 
-Please only respond with safety issues that are quite clearly stated and/or implied.
-
-It should be noted that the number of safety issues in a report has a minimum of 1 an 0.25 quantile of 1, median of 2, 0.75 quantile of 3 and a maximum of 13. You should try make your answers match this distribution and on average a report will have only 2 safety issues.
+Please only respond with safety issues that are quite clearly stated ("inferred" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
 
 Remember the definitions give
 
@@ -384,9 +303,13 @@ cover a single safety issue, or two or more related safety
 issues.
             """,
             message(important_text),
-            large_model=True,
+            model="gpt-3.5-ft-SIExtraction",
             temp=0)
-        
+
+        if response == None:
+            print("  Could not get safety issues from the report.")
+            return None
+
         if response[:7] == '"""yaml' or response[:7] == '```yaml':
             response = response[7:-3]
         
@@ -498,7 +421,6 @@ You will be given a section and a question and you will need to respond in the f
 class ReportExtractingProcessor:
 
     def __init__(self, output_dir, report_dir_template, file_name_template, refresh):
-        self.output_folder_reader = OutputFolderReader.OutputFolderReader()
         self.output_dir = output_dir
         self.report_dir_template = report_dir_template
         self.file_name_template = file_name_template
@@ -517,7 +439,7 @@ class ReportExtractingProcessor:
             print(f"   {output_path} already exists")
             return
 
-        safety_issues = SafetyIssuesAndRecommendationsExtractor(report_text, report_id).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues()
 
         if safety_issues == None:
             print(f"  Could not extract safety issues from {report_id}")
@@ -528,7 +450,10 @@ class ReportExtractingProcessor:
         with open(output_path, 'w') as f:
             yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
 
-    def extract_safety_issues_from_reports(self):
+    def extract_safety_issues_from_reports(self, output_folder_reader == None):
+        if output_folder_reader == None:
+            raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
+        
         self.output_folder_reader.process_reports(self.__output_safety_issues)
 
         

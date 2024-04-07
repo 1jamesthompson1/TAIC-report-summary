@@ -281,7 +281,7 @@ Here is the source text:
         valid = openAICaller.query(
             system_message,
             user_message,
-            large_model=True,
+            model="gpt-4",
             temp = 0
         )
 

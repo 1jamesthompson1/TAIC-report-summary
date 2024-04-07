@@ -4,7 +4,17 @@ viewer/output/*/*.pdf
 __pycache__
 python/.env
 .env
-personal/
 
 # This folder is for various notebooks and stuff I want handy while developing
 workbench/
+
+# Ignore all files inside the notebook folder except jupyter notebooks.
+notebooks/*.*
+notebooks/*/*
+!notebooks/*/*.ipynb
+!notebooks/readme.md
+
+
+# Always include igniore files
+
+!.gitignore
