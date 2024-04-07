@@ -200,7 +200,7 @@ issues.
                 self.system_prompt,
                 self.user_message_template(text, mode),
                 n=numberOfResponses,
-                large_model=True,
+                model="gpt-4",
                 temp = 0)
             
             if responses == None:

@@ -1,4 +1,4 @@
-from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer, ReportExtracting
+from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer, ReportExtracting, OutputFolderReader
 
 from .Gather_Wrangle import PDFDownloader, PDFParser
 
@@ -34,7 +34,7 @@ def download_extract(output_dir, download_config, output_config,modes, refresh):
     ReportExtracting.ReportExtractingProcessor(output_dir,
                                                reports_config.get('folder_name'),
                                                   reports_config.get('safety_issues'),
-                                                  refresh).extract_safety_issues_from_reports()
+                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
 
 
 def generate_themes(output_dir, reports_config, modes, refresh):
