@@ -202,112 +202,23 @@ The section number I am looking for is {section}
 
         return section_text
 
-class SafetyIssuesAndRecommendationsExtractor(ReportExtractor):
+class SafetyIssueExtractor(ReportExtractor):
     def __init__(self, report_text, report_id):
         super().__init__(report_text, report_id)
-
-    def extract_recommendation_section(self):
-        content_section = self.extract_contents_section()
-        
-        if content_section == None:
-            print(f'  Without content section the recommendation section cannot be found')
-            return None
-        
-        add_whitespace = lambda text: r"\s{0,2}".join(text)
-
-        search_regex = rf'(\d{{1,3}})\s{{0,2}}\.?\s{{0,2}}(({add_whitespace("safety")})?\s?{add_whitespace("recommendations")}?).*?(\d{{1,3}})'
-
-        recommendation_match = re.search(search_regex, content_section, re.IGNORECASE)
-
-        if recommendation_match == None:
-            print(f'  Could not find the recommendation section')
-            return None
-        
-        print(f'  Found the recommendation section it was {recommendation_match.group(1)}')
-        
-        recommendation_section = self.extract_section(recommendation_match.group(1))
-
-        return  recommendation_section
-
-        
-    
+ 
     def extract_safety_issues(self):
         """
         Extract safety issues from a report.
         """
-
-        safety_issues = self.__extract_safety_issues_with_regex()
-        exact_safety_issues = True
-
-        if safety_issues == None:
-            exact_safety_issues = False
-            safety_issues = self.__extract_safety_issues_with_inference()
+        safety_issues = self._extract_safety_issues_with_inference()
 
         # Add the quality of safety issue to the yaml
         if safety_issues == None:
             return None
         
-        safety_issues_with_quality = [{"safety_issue": issue, "quality": "exact" if exact_safety_issues else "inferred"} for issue in safety_issues ]
-
-        return safety_issues_with_quality
+        return safety_issues
         
-    def __extract_safety_issues_with_regex(self):
-        """
-        Search for safety issues using regex
-        """
-        safety_regex = r's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?'
-        end_regex = r'([\s\S]*?)(?=(\d+\.(\d+\.)?(\d+)?)|(^ [A-Z]))'
-        preamble_regex = r'([\s\S]{50})'
-        postamble_regex = r'([\s\S]{300})'
-
-        
-        # Search for safety issues throughout the report
-        safety_issues_regexes = [
-            preamble_regex + r'(' + safety_regex + r' ?-' +  ')' + end_regex + postamble_regex,
-            preamble_regex + r'(' + safety_regex + r' ?: ' +  ')' + end_regex + postamble_regex,
-        ]
-        safety_issues_regexes = [re.compile(regex, re.MULTILINE | re.IGNORECASE) for regex in safety_issues_regexes]
-
-        safety_issue_matches = []
-        # Only one of the regexes should match
-        for regex in safety_issues_regexes:
-            if len(safety_issue_matches) > 0 and regex.search(self.report_text):
-                print("Error: multiple regexes matched")
-                return None
-
-            if len(safety_issue_matches) == 0 and regex.search(self.report_text):
-                safety_issue_matches.extend(regex.findall(self.report_text))
-
-        # Collapse the tuples into a string
-        safety_issues_uncleaned = [''.join(match) for match in safety_issue_matches]
-
-        ## Remove excess whitespace
-        safety_issues_removed_whitespace = [issue.strip().replace("\n", " ") for issue in safety_issues_uncleaned]
-
-        if len(safety_issues_removed_whitespace) == 0:
-            print("  Could not find any safety issues using regex.")
-            return None
-
-        ## Clean up characters with llm
-        clean_text = lambda text: openAICaller.query(
-            """
-I need some help extracting the safety issues from a section of text.
-
-This text has been extracted from a pdf and then using regex this section was found. It contains text before the safety issue then the safety issue that starts with safety issue, follow by the some text after the safety issue. The complete safety issue will always be in the given text.
-
-However I would like to get just as the safety issue without any of the random text (headers footers etc and white spaces) that is added by the pdf.
-
-Please just return the cleaned version of the text. Without starting with Safety issue.
-""",
-            text,
-            model="gpt-4",
-            temp=0)
-
-        safety_issues_cleaned = [clean_text(issue) for issue in safety_issues_removed_whitespace]
-
-        return safety_issues_cleaned
-
-    def __extract_safety_issues_with_inference(self):
+    def _extract_safety_issues_with_inference(self):
         """
         Search for safety issues using inference from GPT 4 turbo.
         """
@@ -337,7 +248,7 @@ Can your response please be in yaml format as shown below.
   quality: exact
 - safety_issue: |
     bla bla talking about this and that bla bla bla
-  quality: inferred
+  quality: exact
 
 
 There is no need to enclose the yaml in any tags.
@@ -369,7 +280,7 @@ You are going help me read a transport accident investigation report.
 
 I want you to please read the report and respond with the safety issues identified in the report.
 
-Please only respond with safety issues that are quite clearly stated and/or implied. More instruction will be given in the question.
+Please only respond with safety issues that are quite clearly stated ("inferred" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
 
 Remember the definitions give
 
@@ -394,7 +305,11 @@ issues.
             message(important_text),
             model="gpt-3.5-ft-SIExtraction",
             temp=0)
-        
+
+        if response == None:
+            print("  Could not get safety issues from the report.")
+            return None
+
         if response[:7] == '"""yaml' or response[:7] == '```yaml':
             response = response[7:-3]
         
@@ -411,7 +326,6 @@ issues.
 class ReportExtractingProcessor:
 
     def __init__(self, output_dir, report_dir_template, file_name_template, refresh):
-        self.output_folder_reader = OutputFolderReader.OutputFolderReader()
         self.output_dir = output_dir
         self.report_dir_template = report_dir_template
         self.file_name_template = file_name_template
