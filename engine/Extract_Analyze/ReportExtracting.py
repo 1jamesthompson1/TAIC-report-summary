@@ -1,7 +1,5 @@
 from engine.OpenAICaller import openAICaller
 
-from engine.Extract_Analyze import OutputFolderReader
-
 import yaml
 import os
 import regex as re
@@ -432,7 +430,7 @@ class ReportExtractingProcessor:
             print(f"   {output_path} already exists")
             return
 
-        safety_issues = SafetyIssuesAndRecommendationsExtractor(report_text, report_id).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues()
 
         if safety_issues == None:
             print(f"  Could not extract safety issues from {report_id}")
@@ -443,7 +441,10 @@ class ReportExtractingProcessor:
         with open(output_path, 'w') as f:
             yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
 
-    def extract_safety_issues_from_reports(self):
+    def extract_safety_issues_from_reports(self, output_folder_reader == None):
+        if output_folder_reader == None:
+            raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
+        
         self.output_folder_reader.process_reports(self.__output_safety_issues)
 
         
