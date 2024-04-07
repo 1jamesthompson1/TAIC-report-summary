@@ -205,7 +205,7 @@ The section number I am looking for is {section}
 class SafetyIssueExtractor(ReportExtractor):
     def __init__(self, report_text, report_id):
         super().__init__(report_text, report_id)
- 
+        
     def extract_safety_issues(self):
         """
         Extract safety issues from a report.
@@ -321,6 +321,101 @@ issues.
             return None
         
         return safety_issues
+
+
+class RecommendationsExtractor(ReportExtractor):
+    def __init__(self, report_text, report_id):
+        super().__init__(report_text, report_id)
+
+    def extract_recommendations(self):
+        """
+        Extract recommendations from a report.
+        """
+
+        recommendation_section = self._extract_recommendation_section_text()
+
+        if recommendation_section == None:
+            print("  Could not get recommendations as there was no recommendation section")
+            return None
+
+        # Parse the  recommendation section and get a list
+
+        message = lambda text: f'''
+"""        
+{text}
+"""
+
+=Instructions=
+
+This is the recommendation section of the report.  I want to have a list of all of the distinct recommendations that were made. It is important that the recommendations are copied verbatim
+
+Can your response please be in yaml format.
+
+- |
+    bla bla bla
+- |
+    bla bla bla bla
+
+There is no need to enclose the yaml in any tags.
+'''
+        response = openAICaller.query(
+            """
+You are going help me read and parse a transport accident investigation report.
+
+You will be given a section and a question and you will need to respond in the format that is specified.
+""",
+            message(recommendation_section),
+            model="gpt-4",
+            temp=0)
+
+        if response[:7] == '"""yaml' or response[:7] == '```yaml':
+            response = response[7:-3]
+        
+        try:
+            recommendations = yaml.safe_load(response)
+        except yaml.YAMLError as exc:
+            print(exc)
+            print("  Assuming that there are no recommendations in the report.")
+            print(f"  The response was: {response}")
+            return None
+
+        return recommendations
+
+    def _extract_recommendation_section_text(self):
+        """
+        Extract the text of the recommendation section from the report.
+        """
+        content_section = self.extract_contents_section()
+        
+        if content_section == None:
+            print(f'  Without content section the recommendation section cannot be found')
+            return None
+        
+        add_whitespace = lambda text: r"\s{0,2}".join(text)
+
+        search_regex = rf'(\d{{1,3}})\s{{0,2}}\.?\s{{0,2}}(({add_whitespace("safety")})?\s?{add_whitespace("recommendations")}?).*?(\d{{1,3}})'
+
+        recommendation_matches = [*re.finditer(search_regex, content_section, re.IGNORECASE)]
+
+        # Can't find the recommendation section and assuming that there are no recommendations
+        if len(recommendation_matches) == 0:
+            print(f'  Could not find the recommendation section')
+            return None
+        
+        # The regex matches multiple times so will assume it is the last one as any earlier matches are probably from the executive summary
+        if len(recommendation_matches) > 1:
+            print(f'  Found multiple recommendation sections, assuming the last one is the correct one')
+            recommendation_match = recommendation_matches[-1]
+        else:
+            recommendation_match = recommendation_matches[0]
+        
+        print(f'  Found the recommendation section it was {recommendation_match.group(1)}')
+        
+        recommendation_section = self.extract_section(recommendation_match.group(1))
+
+        return  recommendation_section
+
+        
 
 
 class ReportExtractingProcessor:
