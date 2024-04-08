@@ -450,7 +450,7 @@ class ReportExtractingProcessor:
         with open(output_path, 'w') as f:
             yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
 
-    def extract_safety_issues_from_reports(self, output_folder_reader == None):
+    def extract_safety_issues_from_reports(self, output_folder_reader = None):
         if output_folder_reader == None:
             raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
         
