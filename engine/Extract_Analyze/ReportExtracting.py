@@ -40,7 +40,7 @@ class ReportExtractor:
         middle_pages = "[\s\S]*"
         pattern = page(page_number_1) + middle_pages + page(page_number_2)
 
-        matches = re.findall(pattern, self.report_text, re.MULTILINE)
+        matches = re.findall(pattern, self.report_text, re.MULTILINE | re.IGNORECASE)
 
         if len(matches) > 1:
             print(f"  Found multiple matches for text between pages {page_number_1} and {page_number_2}")
@@ -230,6 +230,35 @@ class SafetyIssueExtractor(ReportExtractor):
             return None
         
         return safety_issues
+
+    def _extract_safety_issues_with_regex(self, important_text = None):
+        """
+        This function will use regex and search the text for any safety issues.
+        It will not be used in the main engine pipeline but it useful for development purposes while we dont have a reliable inference extraction.
+        """
+        if important_text == None:
+            raise Exception("  No important text provided to extract safety issues from")
+
+
+        safety_regex = lambda x: fr's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s? {{0,3}}{x} {{0,3}}'
+        end_regex = r'([\s\S]+?)(?=(?:\d+\.(?:\d+\.)?(?:\d+)?)|(?:s ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?))'
+
+        uncompiled_regexes = ["(" + safety_regex(sep) + end_regex + ")" for sep in ["-", ":"]]
+
+        safety_issue_regexes = [re.compile(regex , re.MULTILINE | re.IGNORECASE) for regex in uncompiled_regexes]
+
+        safety_issues_from_report = []
+
+        matches = [regex.findall(important_text) for regex in safety_issue_regexes]
+
+        # Choose one of the matches that has the most matches
+        matches = max(matches, key=lambda x: len(x))
+
+        for full_match, safety_issue_match in matches:
+            safety_issues_from_report.append(safety_issue_match)
+
+        return safety_issues_from_report
+
         
     def _extract_safety_issues_with_inference(self):
         """
