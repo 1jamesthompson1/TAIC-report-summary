@@ -96,8 +96,16 @@ class ReportExtractor:
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = openAICaller.query(
-                        "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'",
+                        """
+You are helping me read the content section of a report.
+
+I am only interested in two sections "Analysis" and "Findings".
+Can you please tell me which page Analysis starts on and which page the Findings section ends on.
+
+Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'
+""",
                         content_section,
+                        model="gpt-4",
                         temp = 0)
 
                 if model_response == "None":
