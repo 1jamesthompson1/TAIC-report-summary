@@ -88,7 +88,11 @@ class ReportExtractor:
 
     def extract_pages_to_read(self, content_section) -> list:
 
-        while True: # Repeat until the LLMs gives a valid response
+        attempts_left = 5
+
+        pages_to_read = None
+
+        while attempts_left > 0: # Repeat until the LLMs gives a valid response
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = openAICaller.query(
@@ -104,6 +108,7 @@ class ReportExtractor:
                 break
             except ValueError:
                 print(f"  Incorrect response from model retrying. \n  Response was: '{model_response}'")
+                attempts_left -= 1
 
         return pages_to_read
 
