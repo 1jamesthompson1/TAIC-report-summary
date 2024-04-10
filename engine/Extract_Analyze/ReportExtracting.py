@@ -236,7 +236,7 @@ class SafetyIssueExtractor(ReportExtractor):
 I want to know the safety issues which this investigation has found.
 
 For each safety issue you find I need to know what is the quality of this safety issue.
-Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Now that the text may have extra spaces or characters in it.
+Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.
 
 However if no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
 
@@ -303,7 +303,7 @@ cover a single safety issue, or two or more related safety
 issues.
             """,
             message(important_text),
-            model="gpt-3.5-ft-SIExtraction",
+            model="gpt-4",
             temp=0)
 
         if response == None:
@@ -450,7 +450,7 @@ class ReportExtractingProcessor:
         with open(output_path, 'w') as f:
             yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
 
-    def extract_safety_issues_from_reports(self, output_folder_reader == None):
+    def extract_safety_issues_from_reports(self, output_folder_reader = None):
         if output_folder_reader == None:
             raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
         
