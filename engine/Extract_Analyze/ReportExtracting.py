@@ -10,8 +10,23 @@ class ReportExtractor:
         self.report_text = report_text
         self.report_id = report_id
 
-    def extract_important_text(self) -> (str, list):
+    def extract_important_text(self, output_folder, important_text_template = "{{report_id}}_important_text.yaml") -> (str, list):
         print(f"Getting important text... for {self.report_id}")
+
+        report_output_folder = os.path.join(output_folder, self.report_id)
+
+        # Search for existing file first
+        potential_location = os.path.join(report_output_folder, important_text_template.replace(r'{{report_id}}', self.report_id))
+        if os.path.isfile(potential_location):
+            print(f"  {important_text_template.replace(r'{{report_id}}', self.report_id)} already exists")
+            with (open(potential_location, "r")) as f:
+                yaml_obj = yaml.safe_load(f)
+                if yaml_obj != None:
+                    return yaml_obj.get("text"), yaml_obj.get("pages_read")
+            
+        
+        print(f" Generating {important_text_template.replace(r'{{report_id}}', self.report_id)}")
+
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections == None:
@@ -30,6 +45,14 @@ class ReportExtractor:
         # Try and read the pages. If it fails try and read to the next page three times. Then give up.
         text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
 
+
+        if text != None:
+            print(f"  Saving the text to file with len {len(text)}")
+            with open(os.path.join(report_output_folder, important_text_template.replace(r'{{report_id}}', self.report_id)), "w") as f:
+                yaml.dump({
+                    "text": text,
+                    "pages_read": pages_to_read
+                }, f)
 
         return text, pages_to_read
 
@@ -88,12 +111,24 @@ class ReportExtractor:
 
     def extract_pages_to_read(self, content_section) -> list:
 
-        while True: # Repeat until the LLMs gives a valid response
+        attempts_left = 5
+
+        pages_to_read = None
+
+        while attempts_left > 0: # Repeat until the LLMs gives a valid response
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = openAICaller.query(
-                        "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'",
+                        """
+    You are helping me read the content section of a report.
+
+    I am only interested in two sections "Analysis" and "Findings".
+    Can you please tell me which page Analysis starts on and which page the Findings section ends on.
+
+    Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'
+    """,
                         content_section,
+                        model="gpt-4",
                         temp = 0)
 
                 if model_response == "None":
@@ -104,6 +139,7 @@ class ReportExtractor:
                 break
             except ValueError:
                 print(f"  Incorrect response from model retrying. \n  Response was: '{model_response}'")
+                attempts_left -= 1
 
         return pages_to_read
 
@@ -206,24 +242,22 @@ class SafetyIssueExtractor(ReportExtractor):
     def __init__(self, report_text, report_id):
         super().__init__(report_text, report_id)
         
-    def extract_safety_issues(self):
+    def extract_safety_issues(self, output_folder):
         """
         Extract safety issues from a report.
         """
-        safety_issues = self._extract_safety_issues_with_inference()
+        # This abstraction allows the development of various extraction techniques whether it be regex or inferences.
 
-        # Add the quality of safety issue to the yaml
-        if safety_issues == None:
-            return None
+        safety_issues = self._extract_safety_issues_with_inference(output_folder)
         
         return safety_issues
         
-    def _extract_safety_issues_with_inference(self):
+    def _extract_safety_issues_with_inference(self, output_folder):
         """
         Search for safety issues using inference from GPT 4 turbo.
         """
 
-        important_text, pages_to_read = self.extract_important_text()
+        important_text, pages_to_read = self.extract_important_text(output_folder)
 
         if important_text == None:
             return None
@@ -419,6 +453,9 @@ You will be given a section and a question and you will need to respond in the f
 
 
 class ReportExtractingProcessor:
+    """
+    This is the class that interacts with the report extracting classes. It however is the ones that actually connects to the folder structure.
+    """
 
     def __init__(self, output_dir, report_dir_template, file_name_template, refresh):
         self.output_dir = output_dir
@@ -439,7 +476,7 @@ class ReportExtractingProcessor:
             print(f"   {output_path} already exists")
             return
 
-        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues(self.output_dir)
 
         if safety_issues == None:
             print(f"  Could not extract safety issues from {report_id}")
@@ -454,6 +491,8 @@ class ReportExtractingProcessor:
         if output_folder_reader == None:
             raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
         
-        self.output_folder_reader.process_reports(self.__output_safety_issues)
+        output_folder_reader.process_reports(self.__output_safety_issues)
+
+        
 
         

@@ -148,7 +148,9 @@ def get_safety_issues():
 
     safety_issues = Search.Searcher().get_safety_issues(report_id)
 
-    return jsonify({'title': f"Safety issues for {report_id}", 'main': "<br><br>".join(safety_issues)})
+    safety_issues += "<br><br><em>These safety issues are identified using a LLM model this means that they could not be 100% accurate.</em>"
+
+    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
 
 @app.route('/get_theme_groups', methods=['GET'])
 def get_theme_groups():

@@ -150,7 +150,7 @@ issues.
 
 
         # Get the pages that should be read
-        text_to_be_summarized, pages_read = ReportExtractor(report_text, report_id).extract_important_text()
+        text_to_be_summarized, pages_read = ReportExtractor(report_text, report_id).extract_important_text(self.output_folder)
         if text_to_be_summarized == None:
             print(f'  Could not extract text to be summarized from {report_id}')
             summary_str = report_id + "," + "Error" + "," + "N/A" + ",false" + ",Could not extract text to summarize report with" + "\n"

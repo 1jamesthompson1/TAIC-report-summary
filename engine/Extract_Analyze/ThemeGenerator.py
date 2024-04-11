@@ -201,7 +201,7 @@ issues.
             print(f"  Themes for {report_id} already exists")
             return
 
-        important_text = ReportExtractor(report_text, report_id).extract_important_text()[0]
+        important_text = ReportExtractor(report_text, report_id).extract_important_text(self.output_folder)[0]
 
         if important_text is None:
             return
