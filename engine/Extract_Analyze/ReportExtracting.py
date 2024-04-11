@@ -217,27 +217,27 @@ The section number I am looking for is {section}
         return section_text
 
 class SafetyIssueExtractor(ReportExtractor):
-    def __init__(self, report_text, report_id):
+    def __init__(self, report_text, report_id, important_text):
         super().__init__(report_text, report_id)
+
+        if important_text is None:
+            raise ValueError("important_text cannot be None")
+        self.important_text = important_text
         
-    def extract_safety_issues(self, important_text):
+    def extract_safety_issues(self):
         """
         Extract safety issues from a report.
         """
         # This abstraction allows the development of various extraction techniques whether it be regex or inferences.
 
-        safety_issues = self._extract_safety_issues_with_inference(important_text)
+        safety_issues = self._extract_safety_issues_with_inference()
         
         return safety_issues
         
-    def _extract_safety_issues_with_inference(self, important_text):
+    def _extract_safety_issues_with_inference(self):
         """
         Search for safety issues using inference from GPT 4 turbo.
-        """
-
-        if important_text == None:
-            return None
-        
+        """        
         message = lambda text: f'''
 {text}
         
@@ -312,7 +312,7 @@ Safety theme - Indication of recurring circumstances or causes, either across tr
 cover a single safety issue, or two or more related safety
 issues.
             """,
-            message(important_text),
+            message(self.important_text),
             model="gpt-4",
             temp=0)
 
@@ -441,7 +441,7 @@ class ReportExtractingProcessor:
 
     def __output_safety_issues(self, report_id, report_text):
 
-        print("  Extracting safety issues from " + report_id)
+        print(" Extracting safety issues from " + report_id)
 
         folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
         output_file = self.reports_config.get('safety_issues').replace(r'{{report_id}}', report_id)
@@ -452,10 +452,15 @@ class ReportExtractingProcessor:
             print(f"   {output_path} already exists")
             return
 
-        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues(self.get_important_text(report_id))
+        important_text = self.get_important_text(report_id)
+        if important_text is None:
+            print(f"  Could not extract important text from {report_id}")
+            return
+
+        safety_issues = SafetyIssueExtractor(report_text, report_id, important_text).extract_safety_issues()
 
         if safety_issues == None:
-            print(f"  Could not extract safety issues from {report_id}")
+            print(f" Could not extract safety issues from {report_id}")
             return
         
         print(f"   Found {len(safety_issues)} safety issues")
@@ -473,7 +478,7 @@ class ReportExtractingProcessor:
         """
         This is a wrapper ground the extract_important_text function. This adds the support for reading and writing to the folder structure.
         """
-        print(f"Getting important text... for {report_id}")
+        print(f"  Getting important text... for {report_id}")
         folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
         output_file = self.reports_config.get('important_text_file_name').replace(r'{{report_id}}', report_id)
         output_path = os.path.join(self.output_dir, folder_dir, output_file)
