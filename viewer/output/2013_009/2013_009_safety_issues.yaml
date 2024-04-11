@@ -1,1 +1,10 @@
-[]
+- safety_issue: 'The absence of the 1225 special weather report and the delay in sending the 1332 special weather report, while unlikely to have altered the outcome, need to be examined further to ensure that safety-critical information is passed to crews in a timely manner.
+
+    '
+  quality: exact
+- safety_issue: 'There was a low likelihood of the weather conditions at the Pegasus Field aerodrome deteriorating below minima after an aeroplane passed the point of safe return. However, the potential consequences of that happening were elevated for the Boeing 757 aircraft, because of the lack of alternative approach procedures and aerodromes suitable for this aircraft type.
+
+    '
+  quality: exact
+- safety_issue: "There are four factors that were not, but should have been, considered when assessing the risk of using the Boeing 757 aircraft for Antarctic operations:\n\uF0B7 the weather criteria for an aeroplane passing the point of safe return should consider the presence of low cloud and fog below the main cloud base as a limiting factor\n\uF0B7 there is an increased likelihood of weather conditions deteriorating below minima early in the summer season\n\uF0B7 the accuracy of instrument approaches should be treated with caution prior to calibration flights being conducted early in the summer season\n\uF0B7 the Royal New Zealand Air Force Boeing aircraft is capable of completing only one type of instrument approach in Antarctica.\n"
+  quality: exact

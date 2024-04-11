@@ -1,0 +1,247 @@
+pages_read:
+- 12
+- 19
+text: "<< Page 12 >>\n Final Report AO -2016 -008 4. Analysis  \n4.1. Introduction\
+  \  \n4.1.1.  The pilot was forced to attempt a run -on landing when the helicopter\
+  \ had insufficient height \nand forward speed to recover from a low rotor RPM situation\
+  \ .  It was the second  low rotor RPM \nin quick succession.  \n4.1.2.  The pilot\
+  \ said that the first RPM decrease  had been  dismissed as being a result of control\
+  \ \ninputs  demandi ng power more quickly than the engine was able to provide. \
+  \ So when the rotor \nRPM recovered, the flight  was continued to descend and line\
+  \ up for the spray run . \n4.1.3.  The engine  was still operating during the initial\
+  \ impact with the ground and continue d to \nproduc e power until the pilot shut\
+  \ it down.  \n4.1.4.  This analysis discusses what could have caused  the two low\
+  \ rotor RPM events .  Data from the \nEMU  indicated  that a momentary reduction\
+  \ in available power occurred.  This is discussed in \nmore detail below.  Consideration\
+  \ is also given to  whether  the faulty sprag clutch was a factor \nin the accid\
+  \ ent. \n4.1.5.  The analysis also discusses a safety issue whereby more educational\
+  \ material is needed to \nalert operators to the risk of contaminated fuel when\
+  \ operating and refuelling in remot e, dusty \nenvironments . \n4.2. Momentary reduction\
+  \ in  engine  power  \n4.2.1.  The downloaded EMU data record was combined with\
+  \ position data obtained from the \nTracMap spray guidance system  to analys e the\
+  \ sequence of events leading up to and during \nthe accident.  A graphic representation\
+  \ of the final minu te of EMU data is shown in Appendix \n3. \n4.2.2.  The two spray\
+  \ runs immediately before the accident flight were normal.   As shown in the graph\
+  \ \nin Appendix 4, the output shaft RPM  increased  to about 100% and was controlled\
+  \ to remain \nnear that value until the pilot closed the throttle.  The graph also\
+  \ shows the torque increasing \nand decreasing  as the aerodynamic load changed\
+  \ throughout the flight .  The gas temperature  \nfollow ed the torque loading.\
+  \  This demonstrates how the power  turbine governor  and fuel \ncontrol unit  worked\
+  \ together to maintain output shaft RPM  at 100%.  \n4.2.3.  The accident sequence\
+  \ started  first with a decrease  in the  gas temperature , followed by a \ndecrease\
+  \  in the gas generator RPM . The output shaft RPM  then decreased  to 94.4%.  \
+  \ During \nnormal engine operation a decreasing output shaft RPM  would be detected\
+  \ by the power \nturbine governor , which would then signal the fuel control unit\
+  \ to schedule more fuel to \nincrease the  output shaft  RPM. The addition of more\
+  \ fuel to the  engine would result in an \nincrease in the gas temperature . \n\
+  4.2.4.  However, in this case both the gas producer RPM  and the output shaft RPM\
+  \  were  initially \ndecreasing , but the expected  corresponding increase in  the\
+  \ gas temperature  did not \nimmediately occur.  This indicat es that the fuel flow\
+  \ had not been increased to correct the \ndecrease  in output shaft RPM .  The output\
+  \ shaft RPM  was below the normal operating \nparameters  for approximately three\
+  \  seconds before the gas temperature  started to increase . \n4.2.5.  The gas temperature\
+  \  peaked  from th is initial recovery  then immediately began to decrease  \nagain\
+  \ .  The gas producer RPM  and output shaft RPM  followed the d ecrease  in gas\
+  \ \ntemperature . At this point the pilot received  the second  low rotor RPM warning\
+  \  and had no \noption but to  attempt a run-on landing . \n4.2.6.  The graph  shows\
+  \  the point at which the mai n rotor blades struck the ground  as a spike in the\
+  \ \ntorque value .  At the same time the gas temperature  increase d, and after\
+  \ approximately  three  \nseconds the  output  shaft RPM  rapidly increased  and\
+  \ remained within the normal operating \nparameters for another five seconds until\
+  \ the engine was  shut down  by the pilot .  This rapid \n \nFinal Report AO -2016\
+  \ -008 \n<< Page 13 >>\n increase in shaft RPM coincided with the partial loss of\
+  \ the main rotor blades after striking  the \nground.  \n4.2.7.  No mechanical defects\
+  \ were found in the engine , the power turbine governor  or the fuel \ncontrol unit\
+  \  that could  have prevent ed normal operation.  In the absence of any mechanical\
+  \ \ndefects, the lack of an increasing  gas temperature  to correct the decrease\
+  \  in RPM suggests \nthat there was either insufficient fuel flow  available  or\
+  \ poor fuel quality .  \n4.2.8.  There were  four possible  reasons for the low\
+  \ gas temperature:   \n\uF0B7 the throttle was closed  \n\uF0B7 fuel exhaustion\
+  \  \n\uF0B7 fuel control system fault  \n\uF0B7 contamina ted fuel or r estricted\
+  \ fuel flow . \n4.2.9.  In relation to  the first point, c losing the twist -grip\
+  \ throttle would have result ed in a decrease  in \nengine  RPM  and temperature\
+  \  similar to that seen in the EMU data.  \n4.2.10.  The majority of the pilot's\
+  \ flight experience was flying  variants of Robinson  helicopters, all of \nwhich\
+  \ employ ed similar twist -grip throttle s. The same spray routine had been conduct\
+  \ ed for \nmost of the day.  Therefore,  it is very unlikely that the pilot inadvertently\
+  \ closed the throttle at \na time when more power  was being  demand ed to overcome\
+  \ a low rotor  RPM warning . \n4.2.11.  In relation to  the second point, i t is\
+  \ virtually certain that fuel exhaustion was not a factor . \nThere were  at least\
+  \ 36 litres remaining in the fuel tank after the accident, which equated to \napproximately\
+  \ 24 minutes of run time16.  Also, t he engine continued to run until the pilot\
+  \ shut \nit down  manually , and wh en the eng ine was  later  inspected the fu\
+  \ el hose  leading to the fuel \nnozzle was still full of fuel.  \n4.2.12.  In relation\
+  \ to  the third point, it is very unlikely  that a fault with the fuel control system\
+  \  was a \nfactor in the accident .  The power turbine governor  and fuel control\
+  \ unit  were removed from \nthe engine and sent to Honeywell  Aerospace  for testing.\
+  \ They were visually inspected  then set \nup on test rig s and operated in the\
+  \ condition  in which  they had been  received.  After checking \nkey control test\
+  \ point results, they were stripped and inspect ed for internal damage  or faults.\
+  \   \nNo faults were found and the control settings were within normal toler ances.\
+  \  No evidence of \nfuel contamination was found  in these two components .  \n\
+  4.2.13.  Additionally, the fuel control unit  operat ed correctly by maintaining\
+  \ the output shaft RPM at \n100% immediately before the pilot shut down the engine\
+  \ .   \nContaminated fuel or r estricted fuel flow  \n4.2.14.  During the engine\
+  \ investigation , contaminants were  found in : the fuel filter housing ( Figure\
+  \ 4); \nthe fuel hose assembly  running to the fuel nozzle (Figure 5); and the fuel\
+  \ nozzle  itself .  With \nrespect to these contaminants t he Defence Technology\
+  \ Agency  concluded:  \n\u2026 the majority of particles were comprised mainly of\
+  \ silicon and aluminium with \nvarying quantities of other metal elements such as\
+  \ sodium, magnesium, calcium, \niron and zinc. The appearance and composition of\
+  \ the particles strongly suggest \nthat they are an aluminosilicate cl ay material.\
+  \ Clays are common components of \nmost soils.  \n4.2.15.  The fuel nozzle was removed\
+  \ from the engine after the accident and tested by an independent \nmaintenance\
+  \ provider  using the standard test procedure for a Rolls -Royce fuel nozzle . \
+  \ More \ndried contaminants were found  within the fuel hose assembly  and the outer\
+  \ air shroud of the \nfuel nozzle. The nozzle was installed on a test rig to assess\
+  \ the spray pattern and flow rates at \nvarious fuel pressures , using clean fuel.\
+  \  \n                                                        \n16 Civil Aviation\
+  \ Rules 137.65 requires a helicopter conducting agricultural operations to maintain\
+  \ minimum \nfuel reserves of \"3 times the anticipated flight time or 30 minutes'\
+  \ flight time, whichever is the  lesser\".  \n\n<< Page 14 >>\n Final Report AO\
+  \ -2016 -008 4.2.16.  Some anomalies were apparent i n the spray pattern , which\
+  \ became  more defined as the fuel \npressure was increased.  \n4.2.17.  It is likely\
+  \ that  the anomalies  were the res ult of fine contaminates restricting the movement\
+  \ of \nthe needle valve and slider within  the fuel nozzle's inner spray tip assemb\
+  \ ly.  The anomalies \nas observed may have caused some hot spots within the combustion\
+  \ chamber , but were \nunlikely to have been sufficient to cause the reduction in\
+  \ power that led to the low rotor  RPM . \n4.2.18.  The fuel sample  recovered from\
+  \ the hose  between the  fuel control unit  and the fuel nozzle was \na muddy brown\
+  \ colour.  This contamination could have had t wo effects : either a slug of \n\
+  contaminated fuel passed into the combustion chamber that did not have the same\
+  \ heat \noutput as clean fuel, or the sludge temporarily  restricted the fuel flow\
+  \ through the spray tip \nassembly  within the fuel nozzle .  Either scenario could\
+  \ have cause d a short -term reduction in \navailable power.  \n4.3. Source of fuel\
+  \ c ontamination  \nFuel filtering  \n4.3.1.  The fuel samples taken from the helicopter\
+  \ main tank and from the supply tank on the support \nvehicle did not contain any\
+  \ of the contaminants found in the downst ream components, or any \nother impurities\
+  \ that would have been detrimental to the normal functioning of the engine.  \n\
+  4.3.2.  Fuel-filtering elements are design ed to prevent contaminants  reach ing\
+  \ engine  components  \nthat could affect the normal running of an engine .  The\
+  \ engine  fuel filter element w as found to \nbe clear of residue.   This is partially\
+  \ explained by the fact that t he engine fuel filter element \nhad a nominal rating17\
+  \ of five microns18 and an absolute rating19 of 15 microns , whereas  a \nhigh percentage\
+  \ of the contaminate particles found within the fuel hose assembly  were three \n\
+  to five microns, smaller than the filter rating .  A lesser number of larger partic\
+  \ les measur ed \n20-30 microns.  \n4.3.3.  Installing  an additional airframe fuel\
+  \ filter  to provide secondary protection  is an option \navailable on  other light\
+  \ turbine helicopters  when operating from unpaved surfaces .  Rolls -\nRoyce ,\
+  \ on 7 February 2011, had  issued Notice to Operators - No: RR300 -015, recommending\
+  \ \nthe fitting  of such additional fuel filters when :  \n\u2026 operating aircraft\
+  \ from isolated locations where the fuel is stored in drums or \nsimilar extended\
+  \ fuel storage containers.  \n4.3.4.  In relation to the  R66 helicopter, the  fuel\
+  \ system is gravity fed . Therefore, i nstalling  an \nadditional airframe  fuel\
+  \ filter would restrict the fuel flow , potentially requiring  an additional \n\
+  fuel pump to maintain the required fuel pressure.  In view of thi s technical limitation\
+  \ , Robinson \nHelicopters has not developed an optional airframe fuel filter for\
+  \ the R66.  \n4.3.5.  Operators of helicopters need to be alert to the risk of fuel\
+  \ contamination when operating in \nremote areas and mitigate the risk with  good\
+  \ fuel -handling procedures.  \n \n \n  \n                                     \
+  \                   \n17 The diameter of the largest spherical particle that will\
+  \ pass through the filter a defined percentage of the \ntime.  \n18 A metric unit\
+  \ of measurement equal to one -millionth of a metre.  \n19 The diameter of the largest\
+  \ spherical particle that will pass  through the filter under laboratory conditions.\
+  \  \n \nFinal Report AO -2016 -008 \n<< Page 15 >>\n Refuelling procedure s \nSafety\
+  \ issue: more educational material is needed to alert operators to the risk of \n\
+  contaminated fuel when operating and refuelling in remote , dusty environments.\
+  \   \n4.3.6.  The operat or's procedures left several oppor tunities for fuel contamination\
+  \ .  \n4.3.7.  The operator 's fleet consisted of both turbine  and piston -engine\
+  \ helicopters that use d different \nfuel types .  Procedures  were in place to\
+  \ avoid cross -contamination of fuel types .  The fuel \nfound in the accident helicopter\
+  \ was of the right t ype for the engine . \n4.3.8.  The operator's procedures for\
+  \ supplying  jet fuel to the helicop ter involved multiple transfers : \n\uF0B7\
+  \ the jet fuel was purchased from a commercial supplier at the local airport and\
+  \ pumped \ninto a 4 ,000-litre, truck -mounted fuel tank \n\uF0B7 from this tank,\
+  \ the fuel was pumped into a smaller supply  tank mounted on the back of \nthe support\
+  \ vehicle  to enable  refuelling at  remote  sites \n\uF0B7 depending on the loading\
+  \ site, the helicopter would be refuelled  directly  from the \nsmaller supply tank\
+  \ or from 20-litre fuel containers  \n\uF0B7 the 20-litre fuel containers  were\
+  \  refilled from the smaller supply  tank.  \n4.3.9.  No contaminants were identified\
+  \ in the fuel supply path from  the bulk supply tanker at the \noperator's base\
+  \  to the helicopter fuel tank  on the day .   \n4.3.10.  The R66 fue l filler port\
+  \  differ ed from that used on R 22 and R 44 helicopters .  The filler port \nwas\
+  \ larger and sat flush within a flat area under a hinged cowling  (Figure 8).  The\
+  \ R 22 and \nR44 fuel ports , by comparison  (Figure 9), were  mounted on the top\
+  \ surface and had raise d \nedge s around them.  \n4.3.11.  A foot  step for accessing\
+  \ and inspecting the rotor head was located adjacent  to the refuelling \nport on\
+  \ the R66.   This foot step  was a point where dirt could potentially accumulate.\
+  \ The pilot \nalso made use of this  foot step  area to stow a fuel pourer spout\
+  \ .  The pilot said that the spout \nwas always inspected before use . It was  nevertheless\
+  \  a possible source of contamination.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n\
+  \n<< Page 16 >>\n Final Report AO -2016 -008  \n \nhinged cowling in \nthe 'open'\
+  \ position  \nfoot step for rotor \nhead access  \nopen area below the \nstrengthener,\
+  \ between \nfoot step and filler port  \nfuel filler port, sitting \nflush with\
+  \ the deck  \nfuel pourer spout   \nresidual dried mud  \nFigure 8 \nFuel filler\
+  \ port on R66 ZK -HAG \nauxiliary  fuel \ntank filler port  \nmain fuel tank \n\
+  filler port  \nFigure 9 \nComparison Robinson Helicopters R22 refuelling ports \
+  \ \n \nFinal Report AO -2016 -008 \n<< Page 17 >>\n  \n4.3.12.  Another potential\
+  \  point of contaminate ent ry was the fuel nozzle for the supply tank mounted \n\
+  on the support vehicle . The vehicle routinely operate d from gravel roads, paddocks\
+  \ and \ngenerally unpaved surfaces , but the nozzle was not covered or protected\
+  \ from contamination  \n(Figure 10).  \n \n4.3.13.  The frequent  refuelling cycles\
+  \ for this helicopter , with the engine running  and rotor  blade s \nturning in\
+  \ a dusty environment,  increased the risk of the fuel becoming contaminat ed. \
+  \ This \noperating environment created the potential for a one -off fuel contamination\
+  \ event or for \ncumulative contamination to build up over time . \n4.3.14.  The\
+  \ operator had experienced two previous instances of fuel contamination with the\
+  \ accident \nhelicopter , both  of which were  corrected by the maintenance provider.\
+  \  The first instance had \nbeen on 10 August 2015 at 1,080 flight hours and the\
+  \ second on 15 January 2016 at 1,385 \nflight hours. The maintenance provider had\
+  \ not analyse d the composition of the earlier \ncontaminants, but described them\
+  \ as being different from  the clay found after the accident \nflight.  \n4.3.15.\
+  \  The pilot subsequently explained that the  earlier two incident s had been due\
+  \ to water in  a \ntruck -mounted fuel t ank that initiated the growth of a fuel\
+  \ bug20. Corr ective action was \nreported to have include d: treating the fuel\
+  \ bug with a biocide21; draining and cleaning the  fuel \ntank; and raising awareness\
+  \ of  the water contamination issue at an internal safety meeting.   \n4.3.16. \
+  \ Three fuel contamination occurrences  in a 15-month  period  suggest that  opportunities\
+  \ existed \nto improv e the operator's fuel handling  practices . It is good practi\
+  \ ce for operator s to have \ndocumented  procedures, guidance material  and recorded\
+  \ training for the handling of aviation \nfuels .  The operator did not have any\
+  \ such documentation . \n \n \n                                                \
+  \        \n20 A commonly accepted term for a number of contaminants that include\
+  \ microbial bacteria, fungi and algae . \n21 A chemical substance or microorganism\
+  \ intended to destroy, deter, render harmless or exert a contro lling \neffect on\
+  \ any harmful organism by chemical or biological means.  \nfilter \njet fuel \n\
+  container \n(yellow)  \npetrol fuel \ncontainer \n(red) \nfuel \nmeter \nnozzle\
+  \ , with \nexposed \nopen end  \nFigure 10 \nSupply tank mounted on support vehicle\
+  \  \n\n<< Page 18 >>\n Final Report AO -2016 -008 4.4. Sprag clutch  \n4.4.1.  The\
+  \ investigation examined  whether the damage observed in the sprag clutch was a\
+  \ result of \nthe accident or was a pre -existing condition that contributed to\
+  \ the decrease  in rotor RPM.  \n4.4.2.  The Comm ission obtained the EMU data from\
+  \ the accident helicopter . This data was then \nforwarded  to Robinson Helicopters\
+  \ to compare with data from a test helicopter.  The engine \nRPM for both helicopters\
+  \ decreased  at about the same rate, which indicates that the accident \nhelicopter\
+  \ sprag clutch was operating normally.  For the accident helicopter t he engine\
+  \ RPM \nwas noted to decrease  faster tha n the main rotor RPM , which is considered\
+  \ normal .  The two \nRPM indications were  displayed on one gauge  in the cockpit,\
+  \  which made a difference (or \n'RPM split ') immediately obvious  to a pilot .\
+  \   \n4.4.3.  If the sprag clutch had failed and been unable to disengage the driveline,\
+  \ the engine RPM \nwould have decreased  at a slower rate on shut -down because\
+  \ it would still have been  driven \nby the rotor system.  Robinson Helicopters\
+  \ therefore con cluded  that the sprag clutch on the \nhelicopter was functioning\
+  \ correctly the last time the helicopter was shut down.  \n4.4.4.  For these reasons\
+  \ it is very unlikely that the damage found in the sprag clutch assembly \ncontributed\
+  \ to the low rotor RPM event.  \n4.4.5.  Turning to the issue of the damage found\
+  \ to the sprag clutch, t he shutdown procedure in the  \npilot's operating handbook22\
+  \ include d a requirement for the pilot to confirm  that the sprag \nclutch ha d\
+  \ disengaged  by checking for the needle split indication on the co mbined \nengine/main\
+  \ rotor RPM gauge .  This was a daily check on sprag clutch performance.  \n4.4.6.\
+  \  No scheduled inspections of the sprag clutch were  prescribed in the maintenance\
+  \ manual. \nThe sprag clutch was a life -limited component and a replacement was\
+  \ included in the 2,000-\nhour  maintenance and inspection kit . \n4.4.7.  Robinson\
+  \ Helicopters advised that it was  aware of previous cases where the R66 sprag clutch\
+  \ \noil seal had failed . The R66 sprag clutch had been  redesigned in November\
+  \ 2015 and the \nmanufacturing process improved to prevent oil seal failure. The\
+  \ earlier -design sprag clutches \nwere still performing their intended function\
+  \ and Robinson  Helicopters  was not aware of any \nfunctional problems  caused\
+  \ by  oil loss.  Consequently,  it did not see the need to issue  a \nservice bulletin\
+  \ requir ing the immediate replacement of sprag clutch es.  All new and \nreplacement\
+  \ units would be of the improved design.  \n4.4.8.  A defect report detailing the\
+  \ condition of the sprag clutch was submitted to the C ivil Aviation \nAuthority\
+  \  by the component overhaul facility conducting the inspection.  \n4.4.9.  In view\
+  \ of the above, the Commission saw no need to recommend any further action.  \n\
+  \  \n                                                        \n22 A controlled document\
+  \ accessible to the pilot from within the cockpit to provide information , including\
+  \ \nsystem descriptions, limitations, and normal and emergency procedures . \n \n\
+  Final Report AO -2016 -008 \n<< Page 19 >>"

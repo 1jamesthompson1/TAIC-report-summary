@@ -282,13 +282,24 @@ class Searcher:
 
         safety_issues_path = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', report_id))
 
+        formatted_SI = ""
+
         if not os.path.exists(safety_issues_path):
-            return "No safety issues found.<br><br>Not that some safety issues may of been missed when extracting. Furthermore older reports <2012 do not support safety issue extracting at all."
+            formatted_SI =  "No safety issues found for this report. This may be because none were identified in the report or due to problems when extracting them."
     
         with open(safety_issues_path, "r") as f:
             safety_issues = yaml.safe_load(f)
+
+        if len(safety_issues) == 0:
+            return formatted_SI
         
-        return safety_issues
+        formatted_SI = "<br><br>".join([x['safety_issue'] for x in safety_issues])
+
+        quality = safety_issues[0]['quality']
+
+        formatted_SI += f"<br><br>These issues have been identified in the report as {quality}."
+        
+        return formatted_SI
             
 
 

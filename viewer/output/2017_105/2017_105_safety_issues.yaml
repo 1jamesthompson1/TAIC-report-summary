@@ -1,2 +1,8 @@
-- Sighting distances for road users at level crossings are one of the factors used to determine the appropriate level of protection required, yet the growth in vegetation around railway level crossings can change sighting distances in a relatively short time and render the level crossings unsafe.
-- The legislation is not clear on the allocation of responsibility between licensed rail access providers and road controlling authorities for ensuring the safety of road and rail users at public road level crossings.
+- safety_issue: 'Sighting distances for road users at level crossings are one of the factors used to determine the appropriate level of protection required, yet the growth in vegetation around railway level crossings can change sighting distances in a relatively short time and render the level crossings unsafe.
+
+    '
+  quality: exact
+- safety_issue: 'The legislation is not clear on the allocation of responsibility between licensed rail access providers and road controlling authorities for ensuring the safety of road and rail users at public road level crossings.
+
+    '
+  quality: exact

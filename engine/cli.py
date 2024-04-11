@@ -32,9 +32,8 @@ def download_extract(output_dir, download_config, output_config,modes, refresh):
                                 refresh)
     
     ReportExtracting.ReportExtractingProcessor(output_dir,
-                                               reports_config.get('folder_name'),
-                                                  reports_config.get('safety_issues'),
-                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
+                                               reports_config).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader
+                                               (output_dir))
 
 
 def generate_themes(output_dir, reports_config, modes, refresh):

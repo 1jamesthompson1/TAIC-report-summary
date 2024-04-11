@@ -1,1 +1,12 @@
-- The primary means for navigation on board the L'Austral, the ECDIS, was not being used to its full potential as a tool for planning and monitoring the ship's passage, and the crew were not fully conversant with its safety features.
+- safety_issue: 'The primary means for navigation on board the L''Austral, the ECDIS, was not being used to its full potential as a tool for planning and monitoring the ship''s passage, and the crew were not fully conversant with its safety features.
+
+    '
+  quality: exact
+- safety_issue: 'The standard of bridge resource management on board the L''Austral during the Milford Sound pilotage did not meet good industry practice.
+
+    '
+  quality: exact
+- safety_issue: 'Conducting blind pilotage with large ships in confined waters represented risks that had not been fully considered by Environment Southland, the regional authority that regulates maritime activity in the area.
+
+    '
+  quality: exact

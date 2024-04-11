@@ -1,1 +1,12 @@
-[]
+- safety_issue: 'Foreign objects left inside an aircraft and around safety-critical components such as flight control systems are a threat to the safe operation of the aircraft. Loose articles can move inside an aircraft and become trapped under moving components, such as control cables and levers, disrupting the normal operation of aircraft systems and damaging system components.
+
+    '
+  quality: inferred
+- safety_issue: 'The lack of a requirement for controlling or recording the use of rags during maintenance and cleaning tasks in the flight deck area and in the electronics and equipment compartment allows for the possibility of foreign objects being left behind, which can compromise the integrity of critical aircraft systems.
+
+    '
+  quality: inferred
+- safety_issue: 'Despite the general acceptance of final inspections after all work has been completed and before the aeroplane is returned to service as best aeronautical engineering practice, incidents of rags being left in the aircraft occurred, indicating a need for more thorough inspections and adherence to procedures developed to prevent foreign objects from being left behind after maintenance.
+
+    '
+  quality: inferred

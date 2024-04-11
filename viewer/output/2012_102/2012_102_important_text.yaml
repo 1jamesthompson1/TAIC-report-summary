@@ -1,0 +1,348 @@
+pages_read:
+- 6
+- 14
+text: "<< Page 6 >>\n Final report RO -2012 -102 4. Analysis  \n4.1. Introduction\
+  \  \n4.1.1.  As a result of a circuit breaker tripping in Wellington train control\
+  \ , train control services for the \nentire Auckland metro rail network were disabled\
+  \ .  The electrical distribution system for train \ncontrol was supposed to ha ve\
+  \ been designed to prevent a single point failure from affecting \nthe complete\
+  \ system . \n4.1.2.  There was no risk of trains colliding or proceeding down wrong\
+  \ route s when the train control \nworkstations lost power because the system defaulted\
+  \ to safe mode , as it was  designed to do.  \nThe train routes remained as they\
+  \ had been  set before the power failure occurred and the \nsignals automatically\
+  \ reverted to red  (\"Stop\") , eventually stopping all trains on the network. \
+  \ \n4.1.3.  Members of the general public using controlled pedestr ian and road\
+  \ crossings at the time of \nthe power failure were not at risk.  These systems\
+  \ detected the presence of trains near to the \ncrossing s and operated automatically\
+  \ without input from the train controllers.  \n4.1.4.  In this case the train control\
+  \ systems were reinstated within one hour and the situation was \nwell controlled\
+  \ by the train operator.  There are , however , consequential risks with containing\
+  \ \npassengers on  immobile  trains for any length of time, particularly when the\
+  \ trains are at \nlocations where they cannot be safely disembarked.  \n4.1.5. \
+  \ The following analysis discusses why the power failure occurred and why that resulted\
+  \ in a \ntotal loss of train control function for the Auckland area.  The analysis\
+  \ also discusses the \nfollowing safety issues:  \n\uF0B7 the project team responsible\
+  \ for the Auckland train control centralisation project lacked \nthe appropriate\
+  \ expertise for designing and installing the emergency power supply \nsystem  \n\
+  \uF0B7 the management and maintenance of the emergency power supply system for train\
+  \ \ncontrol were  not sufficient to ensure the integrity of what had been designated\
+  \ an \n\"essential service \" \n\uF0B7 KiwiRail's Risk Management Policy for \"\
+  continuity of core services\" did not give proper \nconsideration to the safety\
+  \ of passengers and crew when a core service such as tr ain \ncontrol failed , causing\
+  \ the widespread stoppage of an entire metropolitan passenger rail \nsystem.  \n\
+  4.2. The power failure  \n4.2.1.  Figure 2 is a simplified schematic of the emergency\
+  \ power distribution system for Wellington \ntrain control.  The train control workstatio\
+  \ ns were considered by KiwiRail to be \"essential \nservices \".  For this reason\
+  \ a  generator was provided as a n automatic  back -up if the external \nmains power\
+  \ to the entire building were  lost.  However, in this case t here was no loss of\
+  \ \nexternal mains power  to the building.  Instead, the loss of power affected\
+  \ only the Auckland \ncontrol room within the building , so the back -up generator\
+  \ was not required and did not start.\n \nFinal report RO -2012 -102 \n<< Page 7\
+  \ >>\n  \nFigure 2 \nSingle line power schematic of train control\n\n \n\n<< Page\
+  \ 8 >>\n Final report RO -2012 -102 4.2.2.  Five u ninter ruptable power supply\
+  \ (UPS) devices were  installed in the emergency power \ndistribution system to\
+  \ ensure a constant power supply to the train control workstation s.  If the \n\
+  mains power supply failed, or was interrupted for any reason, a battery within each\
+  \  UPS \ncontinue d to supply power to the wall socket into which the various computers\
+  \ and screens \nmaking up the workstation  were  plugged.  \n4.2.3.  UPS number\
+  \ five (UPS5)  supplied power to all UPS power sockets in the Auckland control \n\
+  room.  The various computers and mon itor screens making up each of the four Auckland\
+  \ \nworkstation s were plugged into UPS power socket outlets , and where more connections\
+  \ were \nrequired multi -boxes were  used .  Groups of power socket outlets were\
+  \ protected by circuit \nbreaker s. \n4.2.4.  When the fault dev eloped in one of\
+  \ the  multi -boxes , or in a device that was plugged into the \nmulti -box, this\
+  \ should have tripped the closest protection device to that fault (circuit breaker\
+  \ \nU34).   Had this occurred , only one of the four Auckland workstation s would\
+  \ have been  lost.  \nInstead , the next protection device up the line (circuit\
+  \ breaker W14) tripped first , which  caused \na loss of power to all four Auckland\
+  \ workstation s. \n4.2.5.  Normally, fault s downstream of UPS5 would have been\
+  \  isolated from the UPS by a \ndownstream circuit b reaker tripping , but in this\
+  \ case UPS5 tried to feed the fault.  However, the \nstatic inverter7 in UPS5 was\
+  \ electronically \"current limited \", and as the fault current continued \nto flow\
+  \ through the static  inverter it heated towards its maximum operating tempe rature.\
+  \  \nWhen the static inverter temperature reached its limit , UPS5 registered a\
+  \ \"thermal overload \" \nalarm in the memory and protected itself by switching\
+  \ over to \"internal bypass \" mode.  This \nhad the effect of the fault current\
+  \ passing through both  the W14 and U34 circuit breakers in \nseries.  \n4.2.6.\
+  \  The situation where a fault current flow s through two circuit breakers  is normal\
+  \ , but an \nelectrical designer's task is to anticipate potential fault situations\
+  \ and select protection trip \ncharacteristic curves8 that ensure a proper discrimination\
+  \  between the two circuit breakers .  \nThat is , the circuit breaker  closest\
+  \ to the fault would trip first to isolate the fault current and \nallow the rest\
+  \ of the connected distribution to remain operational  (see Appendix 3 for \nexam\
+  \ ples of C- and D -type trip curves) .   \n4.2.7.  The UPS manufacturer's installation\
+  \ manual recommended that the input circuit breaker \n(W14) have  a 32 -amp rating\
+  \ but with a D -type trip curve.  It also recommended that the UPS \noutput distribution\
+  \ circuit breakers  (U34 ) have  six-amp rating s with C -type trip curve s.  Instead\
+  \ , \nboth circuit breaker s were  installed with C -type trip curve s.  W14 was\
+  \ rated at 32 amps but \ncircuit breaker U34 had a 20 -amp rating  instead of the\
+  \ recommended six-amp rating .  Without \nthe appropriat e discrimination between\
+  \ the two circuit breakers, after a period of less than \none second from the initial\
+  \ fault occurring circuit breaker W14 tripped, causing the loss of \npower to all\
+  \ four Auckland workstation s. \n4.2.8.  As UPS5 had already switched to \"internal\
+  \ b ypass \" mode to protect itself from feeding the \nfault, it was unable to use\
+  \ stored energy from  its batteries to maintain  power to the \nworkstation s. \
+  \ Consequently power was lost to all four workstations contro lling the Auckland\
+  \ \nrail network, bringing  all tra ins on the Auckland network to  a halt.  \n\
+  \  \n                                                        \n7 UPS5 converted\
+  \ the direct current (DC) internal battery voltage to alternating current (AC) through\
+  \ an \nelectronic static inverter and supplied this through a distribution board\
+  \ and circuit breaker U34 to the socket \noutlet.  \n8 This is a diagram that graphs\
+  \ current against time for a particul ar circuit breaker and plots the points where\
+  \ \nthat circuit breaker will trip.  \n \nFinal report RO -2012 -102 \n<< Page 9\
+  \ >>\n Finding s  \n1. Train control services in the Auckland metropolitan rail\
+  \ network were lost when an \nelectrical fault at one of the four workstation s\
+  \ that were being used to control \ntrains in the Auckland area tripped a circuit\
+  \ breaker feeding power to all  four \nworkstation s. \n2. Weaknesses  in the design\
+  \ and installation of the emergency power distribution \nsystem for train control\
+  \ resulted in an electrical fault that should have been \ndetected and contained\
+  \ in one part of the elec trical distribution system, causing a \npower outage to\
+  \ a much wider portion of the system.  \n4.3. Design  of the electrical systems\
+  \  \nSafety issue - The project team responsible for the Auckland train control\
+  \ centralisation project lacked \nthe appropriate expertise f or designing and installing\
+  \ the emergency power supply  system.  \n4.3.1.  Emergency power supply systems\
+  \ are commonly used in many el ectrical facilities that require \na reliable , continuous\
+  \ supply of electricity .  The technology used in them is mature and well \nknown.\
+  \   \n4.3.2.  The e lectrical design of UPS distribution systems requires a different\
+  \ approach from  that used \nfor standard office fit -outs.   Specific needs are\
+  \ consider ed, such as what would happen to \ntrain control workstation s if a UPS\
+  \ failed or if it had to be taken out of the circuit for \nmaintenance .  The designer\
+  \ has to consider  how to combine the UPS protection system with \nother protection\
+  \ devices.  \n4.3.3.  The manager of the KiwiRail project management office initiated\
+  \ the train control \ncentralisation project through the KiwiRail property department.\
+  \  They engag ed a well proven \nand experienced architect to provide conceptual\
+  \ drawings.  The manager  then appointed an \ninternal project manager from the\
+  \ project management office to run the project for KiwiRail.  \n4.3.4.  The building\
+  \ arc hitect (construction team project manager) for the train control centralisation\
+  \ \nproject engaged an electrical design company on behalf of KiwiRail to design\
+  \ the electrical \ndistribution for the new rooms that were to house the Auckland\
+  \ train control worksta tions.  \nThe scope of work asked for was for a standard\
+  \ office fit -out.  Therefore, e xpanding  the UPS \ncapacity for Wellington train\
+  \ control was not included in  the electrical design scope of works.   \n4.3.5.\
+  \  The KiwiRail Board had previously approved the project bu dget, which  included\
+  \ an allowance \nto review  the UPS capacity  and distribution .  This work  was\
+  \ designated to be carried out  during \nthe design/construction phase.   However,\
+  \ the architect engaged the electrical design \ncompany  before the KiwiRail project\
+  \ manag er had been appointed.  The contractual electrical \ndesign scope of work\
+  \ did not include any work associated with the  UPS devices.  \n4.3.6.  Once the\
+  \ K iwiRail project manager  had been  appointed , he included in his  strategic\
+  \ project \nplan9 that expanding the U PS capabi lity was part of the electrical\
+  \ designer's scope.  This \nstrategic project p lan was an internal planning document\
+  \ that had no contractual significance.   \nThe KiwiRail project manager was unaware\
+  \ at this time that increasing UPS capacity had not \nbeen included  in the electrical\
+  \ design scope of work . \n4.3.7.  During May 2010 t he electrical design company\
+  \  eventually realised  that decisions were \nrequired about the UPS capacity .\
+  \  It included additional UPS capacity  as a design option in a \n\"Developed Design\
+  \ Report \" dated 11 May 2010 , for a decision by KiwiRail.  The Developed \nDesign\
+  \ Report explained how existing train control workstations were protected by UPS\
+  \ and \nanticipated that there would be sufficient spare existing UPS capacity for\
+  \ the new \nworkstations .  However , if Kiw iRail was unable to confirm that the\
+  \ UPS had sufficient capacity , \n                                             \
+  \           \n9 Strategic project plan, NTCC [National Train Control Centre] Auckland\
+  \ signal box centralisation, version 1.0, \n24/6/10.  \n \n\n<< Page 10 >>\n Final\
+  \ report RO -2012 -102 the electrical design company offered two other options .\
+  \  They were to (a) design the new \nworkstations without providing UPS power, and\
+  \ (b) upgrade the existing UPS to provide UPS -\nbacked pow er outlets to all new\
+  \ workstations.  The report also said that o nce KiwiRail had \nconfirmed its requirement,\
+  \ the electrical design company would proceed with assessing the \nimpact s on existing\
+  \ infrastructure.  KiwiRail verbally confirmed on 3 June 2010 that the new \nworkstations\
+  \ were to be connected to UPS power .  \n4.3.8.  The electrical design company \
+  \ raised the question about the UPS design scope again during a \ndesign team meeting\
+  \ with the architect on 27 May 2010 , but it was not pursued formally  and \nthe\
+  \ contract sco pe did not change. Instead KiwiRail purchased  two new UPS units\
+  \  in late July \n2010 that were identical to  the ones that were already in use\
+  \ at train control.  The electrical \ndesign company agreed  to duplicat e the existing\
+  \ UPS distribution drawings and descr ibe the \nrequired modifications to the existing\
+  \ UPS distribution board to facilitate the installation of the \nnew UPS  units\
+  \ .  The design documentation was issued for tender on 24 June 2010.  The UPS \n\
+  coverage had been designed to match the office room layout as would be typical in\
+  \ a standard \noffice fit -out design .  UPS5 fed all the power socket outlets in\
+  \ the Auckland control room, and \nUPS4 fed the power sockets in another room that\
+  \ was to house traction control10 and the rail \nnetwork helpdesk operators .  \
+  \ \n4.3.9.  The result was that all four of the Auckland train controller workstations\
+  \ were connected to the \nsame UPS , creating a single point of failure for Auckland's\
+  \ train control , thus not achieving an \nappropriate level of redundancy for such\
+  \ an essential service .   \n4.3.10.  Several key examples during the project works\
+  \ demonstrated that the UPS -specific design was \nnot part of the electrical design\
+  \ scope:  \n\uF0B7 the electrical designer was not responsible for selecting the\
+  \ UPS  devices , just for \nreplicating existing UPS specifications  and distribution\
+  \ drawings copied from the others \non-site to enable the physical connection of\
+  \ the two new UPS devices  \n\uF0B7 the UPS installation manual cautioned about\
+  \ providing adequate circuit breaker \ndiscrimination for UPS distribution , and\
+  \ provided examples .  KiwiRail did not provide the \nelectrical designer with a\
+  \ copy of the UPS installation manual, so t his advice was not \nreflected in the\
+  \ design drawings  \n\uF0B7 no allowance was made in the design drawings for UPS\
+  \ redundancy  to ensure that if \none UPS failed, part o r all of KiwiRail's critical\
+  \ train -control service s could still operate . \nThe electrical design company\
+  \ was not briefed by KiwiRail about how it intended to \noperate the new workstations\
+  \ , nor did the design company seek this information.  Two \nnew UPS devices  were\
+  \  installed for the train control centralisation project.  Splitting the \nfour\
+  \ workstation s between the two new UPS devices would have provided an \nappropriate\
+  \ level of redundancy  \n\uF0B7 the electrical designer did not formally check that\
+  \ the new UPS  devices  had sufficient \ncapacity for the loads that KiwiRail wanted\
+  \ to connect.  Calculations made after the \nincident , based on information provided\
+  \ to the electrical design company at the start of \nits engagement , showed that\
+  \ the capacity of UPS5 would have been  exce eded once the \nAuckland train control\
+  \ room was fully operational . \n4.3.11.  The design process for the portion of\
+  \ the signal upgrade works in Auckland was guided by a \nwell proven international\
+  \ standard11 for the design of safety -related systems.   The standard \nwas focused\
+  \ on the functional safety of electric, electronic and programmable electronic \n\
+  control systems that had safety implications , such as railway signalling systems.\
+  \  This involved \ndefining potential hazards in a safety function then a desired\
+  \ safety integri ty level of reliability \nthat the safety function would be performed\
+  \ satisfactorily.  For the Auckland design team, it \nincluded actions such as preliminary\
+  \ designs being reviewed by an independent design team, \nand extensive fai lure-mode\
+  \ analysis and proof -of-design testing.   \n                                  \
+  \                      \n10 The monitoring and control of the electric train  overhe\
+  \ ad power network.  \n11 Functional safety requirements in accordance with International\
+  \ Electrotechnical Commission Standards \nIEC 61508.  \n \nFinal report RO -2012\
+  \ -102 \n<< Page 11 >>\n 4.3.12.  The same or similar design assurance standards\
+  \ were not applied to the Wellington portion of \nthe Auckland train control facility\
+  \ , even  though it was part of the same system  and provided \nthe only human -operator\
+  \  interface for the railway signalling system .  It became a commercial \nbuilding\
+  \ refit project but should have been a mix of that plus a complex systems engineering\
+  \ \nproject.  The electrical design was reviewed by a KiwiRail engineer , but he\
+  \ said he was more  \nfamiliar with line-type dia grams than the plan layout format\
+  \ used in the commercial electrical \ndesign specifications , and he did not see\
+  \ any associated UPS load calculations .  The UPS  \nsupport technician allocated\
+  \ to the project team left KiwiRail during the project design phase , \nbut his\
+  \ replacement was not familiar with UPS systems and no alternative was arranged.\
+  \  The \ndesign team in Auckland responsible for the rest of the train control system\
+  \ was not involved \nin the Wellington project.  \n4.3.13.  Soon after the power\
+  \ failure, KiwiRail engaged  an independent electrical consultant to \nexamine and\
+  \ review the existing train control  power arrangements , and report12.  That report\
+  \ \nconfirmed the safety issues identified during this investigation , identified\
+  \ others and made 16 \nrecommendations for improve ment.  A paragraph  from the\
+  \ executive summary of the report \nstated:  \nThe report agrees that the original\
+  \ design concept of the power system for NTCC  \n[the National Train Control Centre\
+  \ ] was fit for purpose however the extension of \nthis design for Auckland t rain\
+  \ control did not fully implement the control \nredundancy provisions of other sections\
+  \ of train control.  There are design detail \nand implementation shortcomings in\
+  \ the entire National Train Control Centre \npower system that make it highly likely\
+  \ that if an electrical fault occurs the \nresultant power outage will be more wide\
+  \ spread through the train control suite \nthan expected . \nFinding  \n3. The project\
+  \ team responsible for the Auckland train control centralisation project \ndid not\
+  \ apply the appropriate expertis e to scoping,  designing and installing the \n\
+  power management system.  \n \n4.4. Risk management  \nSafety issue - KiwiRail's\
+  \ Risk Management Policy for \"continuity of core services\" did not give proper\
+  \ \nconsideration to the safety of passengers and crew when a core serv ice such\
+  \ as train control failed , \ncausing the widespread stoppage of an entire metropolitan\
+  \ passenger rail system.  \n4.4.1.  KiwiRail's Risk Management Policy13 required\
+  \ all business units within KiwiRail to apply the \ncorporate Risk Management Policy\
+  \ and use the asso ciated ri sk rating assessment matrix.  It \nwas used by the\
+  \ project management team for the train control centralisation project.  The risk\
+  \ \nelement in the matrix that was  most  appropriate for assessing train control\
+  \ was called \n\"continuity of core services\" , but it was based on freight train\
+  \ operations only and did not \nfeature passenger services.  Risk assessment s for\
+  \ that element were  driven by the premise \nthat train control could be out of\
+  \ action for several hours with minimal impact on KiwiRail \nbusinesses.  The Chief\
+  \ Executive of KiwiRail reiterated this in a report to Auckland Transport \nabout\
+  \ the resilience of a centralised train control after this power failure , saying\
+  \  that, \"The \nsafety impacts are very small [referring to disaster recovery after\
+  \ a failure  of train control]; in \nthe event of a failure the lights go red and\
+  \ trains stop\" (KiwiRail, 2012) . \n4.4.2.  Just prior to the power failure, KiwiRail\
+  \ had sought an external review14 of the train control \nfacility to assess its\
+  \ vulnerabilit y. That review was referred to by KiwiRail in its report to \nAuckland\
+  \ Transport above.  The external review noted, among other points, that there was\
+  \ a \ngreater risk to the continuity of the Auckland train service while all of\
+  \ the Auckland train \ncontrollers were located in a single room , and it recommended\
+  \ that KiwiRail reconsider the \n                                              \
+  \          \n12 KiwiRail National Train Control Centre - Power system review, J4035,\
+  \ May 2012.  \n13 KiwiRail Risk Management Policy, effecti ve from 30 August 2010.\
+  \  \n14 NTCC Risk Analysis Report, revision 1.0, 7 December 2011.  \n \n\n<< Page\
+  \ 12 >>\n Final report RO -2012 -102 risk consequences for the element in its risk\
+  \ assessment matrix called  \"continuity of core \nservices\" . \n4.4.3.  There\
+  \ did not appear anywhere in the KiwiRail Risk Management Policy a cons ideration\
+  \  of the \nrisk to passengers and train crews of a long -term stoppage of metropolitan\
+  \ trains in the \nWellington and Auckland areas, at peak -hour travel times  when\
+  \ crowd control could become a \nsafety issue .  Instead it focused on a fixed period\
+  \ of outa ge involving a single passenger train.  \n4.4.4.  For example, there is\
+  \ a risk that passengers will decide  to leave a train  forcefully  and walk \n\
+  along the railway track to the nearest exit from the rail corridor.  Passengers\
+  \ trespassing within \nthe rail corridor are ex posed to a high level of risk, not\
+  \ least the risk of  trains beginning to \nmove as the system begins to recover.\
+  \  Recent incidents in both Wellington15 and Auckland16 \nand one in Melbourne after\
+  \ the Flemington races (TMSI, 2008)  have shown that self -initiated \npassenger\
+  \ evacuation is a real risk.  Following this incident most affected train drivers\
+  \ \nresponded to a questionnaire about the impact s that  the power failure had\
+  \  had on their train s, \nand some reiterated this risk.  The trains in Auckland\
+  \ did not have toilets so there was a \nnatural limit to passive passenger containment\
+  \ and some passengers became  aggressive \ntowards train crew.   \n4.4.5.  The p\
+  \ assengers ' safety was promptly managed by Veolia.  Veolia had anticipated the\
+  \ \npossibility of trains being  stranded . Veolia  immediately activated its emergency\
+  \ plan and  \nstepped up its response actions further when the delay reached 10\
+  \ minutes , and again after  \nthe delay passed 30 minutes.  Veolia communicated\
+  \ with the public and helped to subdue any \npotentially unsafe crowd action.  However,\
+  \ h ad the power failure occurred during peak travel \ntimes and continued for longer,\
+  \ the Veolia response plan would have been at increasing risk of \nnot being able\
+  \ to contain the situation.  \n4.4.6.  A proper assessment of the sa fety risk s\
+  \ of such an outage would arguably increase the rating \nof continuous train control\
+  \ services from \"essential \" to \"safety -critical \". \nFinding  \n4. KiwiRail's\
+  \ Risk Management Policy for \"continuity of core services\" did not give \nproper\
+  \ consideration to the  safety of passengers and crew when a core service \nsuch\
+  \ as train control failed , causing the widespread stoppage of an entire \nmetropolitan\
+  \ passenger rail system.  \n \n4.5. Management and maintenance of the emergency\
+  \ power supply system  \nSafety issue - The managemen t and maintenance of the emergency\
+  \ power supply system for train control \nwere not sufficient to ensure the integrity\
+  \ of what had been designated an \"essential service \". \n4.5.1.  KiwiRail technicians\
+  \ responsible for the maintenance of the facility said that they wer e not \nfamiliar\
+  \ with the operation of the UPS .  They had not been trained on the equipment an\
+  \ d at no \ntime during the 18 months in which the system had been operating had\
+  \ they carried  out a \nregular test program me of the emergency power supply system\
+  \ to simul ate a power supply \nfailure .  The as -built documentation required\
+  \ at the end of the construction phase of the train \ncontrol c entralisation project\
+  \ was not available on -site when the power failed .  Later , when \ntrouble -shooting\
+  \ the cause of the failure, elect rical engineers were provided with hand -\nannotated\
+  \ diagrams to work with.   No-one had regularly checked the UPS loading or alarm\
+  \ \nstatus on the UPS  front panel displays .  The alarm history  showed that UPS5\
+  \ had overloaded \nseveral times after it was commission ed, including at the time\
+  \ the power failed .  The alarms \nrecorded in the UPS5 event log showed that: \
+  \ \n                                                        \n15 The Wellington\
+  \ incidents occurred on 4 September 2009, 15 February 2010 and 17 February 2010.\
+  \  \n16 The Auckland incidents occurred on 9 September 2011, 26 April 2012 (this\
+  \ i ncident) and 14 November \n2012.  \n \nFinal report RO -2012 -102 \n<< Page\
+  \ 13 >>\n \uF0B7 on 30 September 2010 the UPS inverter exceeded its safe operating\
+  \ limits  \n\uF0B7 on 20 December 2010 the UPS inverter exceeded its safe operating\
+  \ limits  \n\uF0B7 on 19 Janua ry 2012 the UPS inverter exceeded its safe operating\
+  \ limits  \n\uF0B7 on 26 April 2012 the UPS inverter shut down due to thermal overload\
+  \ ( the power failure \nevent)  \n\uF0B7 the UPS had recorded about six months out\
+  \ of about 18 months ' total time in service \nwhere it had been operating above\
+  \ its \"over -temperature\" limit17 \n\uF0B7 the UPS ambient air temperature, measured\
+  \ where it passes through the UPS, was 26 \ndegrees Celsius.   \n4.5.2.  During\
+  \ each of these alarm s the UPS would have switched to internal bypass , which meant\
+  \ \nthat the connected lo ads would have been exposed to mains power fluctuations\
+  \ during that \ntime. The total time that UPS5 had been operated  in the internal\
+  \ bypass mode since the UPS \nwas commissioned was 382 minutes ( more than six \
+  \ hours).  \n4.5.3.  It is good practice  to monitor closely UPS units'  health\
+  \ status remotely , particularly when they \nare supplying an essential service\
+  \ .  Optional a larm module s for remote alarm monitoring are \navailable for the\
+  \ UPS units installed, but this option was not included in the design scope .  \n\
+  KiwiRail purc hased and installed UPS remote alarm monitors as part of its safety\
+  \ actions \nfollowing the power failure . \n4.5.4.  The multi -boxes purchased for\
+  \ connecting the workstation  equipment to the UPS power \nsocket s were not the\
+  \ type fitted with circuit breaker s.  These mult i-boxes would have provided \n\
+  an additional safeguard against more important critical circuit breakers tripping\
+  \ further up the \nline.  Also, there was little control on what equipment was connected\
+  \ to the UPS power \nsockets .  An electrical audit carried out th roughout the\
+  \ train control  facility after the power \nfailure18 found several examples  where\
+  \ non -essential equipment , such as printers , was \nplugged into UPS power sockets\
+  \ .  Some non-essential closed -circuit television monitors had \nbeen connected\
+  \ to UPS5 and would have contributed to its overloaded state . \n4.5.5.  Solid -state\
+  \ power devices as used in these UPSs are prone to self -destruct from thermal \n\
+  runaway if the device  operating temperature exceeds a safe limit . While the particular\
+  \ UPSs \nare rated to operate at up to  40 degrees Celsius , it is usual to maintain\
+  \ the room temperature \nfor critical computer equipment room s and datacentres\
+  \ at between  18 and 27  degrees \nCelsius19.  Hot spots should be avoided by an\
+  \ appropriate direction of airflow through the \nequipment racks a nd monitoring\
+  \  temperatures at critical points. The train control  equipment \nroom temperature\
+  \ was set to 20 degrees Celsius . Combined with a likely less -than -optimum \n\
+  cooled air supply to the UPS,  it possibly contributed to the high recorded  UPS\
+  \ average  input  \ncooling air temperature of 26 degrees Cel sius. \nFinding  \n\
+  5. The management and maintenance of the emergency power supply system for \ntrain\
+  \ control were  not sufficient to ensure the reliability of what had been \ndesignated\
+  \ an \"essential service \". \n  \n                                            \
+  \            \n17 Load was above 90% of its rated capacity.  \n18 KiwiRail engaged\
+  \ an electrical consultant to investigate and report.  \n19 American Society of\
+  \ Heating, Refrigeration and Air -Conditioning Engineers (ASHRAE) and \nTelecommunications\
+  \ In dustry Association (TIA) \"TIA -942, Telecommunications Infrastructure Standard\
+  \ for \nData Centres\" recommendations.  \n \n\n<< Page 14 >>"

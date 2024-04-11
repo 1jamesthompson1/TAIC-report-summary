@@ -1,0 +1,811 @@
+pages_read:
+- 15
+- 33
+text: "<< Page 15 >>\n Final report AO -2014 -006  4. Analysis  \n4.1     Introduction\
+  \  \n4.1.1.  This accident was the first confirmed in -flight break -up of an R44\
+  \ in New Zealand, although \nthere had been 13 in-flight break -up accidents in\
+  \ New Zealand involving the R22 mode l (see \nAppendix 5) .  An in-flight break\
+  \ -up of an R66  occurred in March 201331, and another R44  in-\nflight break -up\
+  \ occurred in February 2015 (see footnote 42). \n4.1.2.  The conditions that can\
+  \ lead to in -flight break -ups are well known, and are commonly \ndiscussed during\
+  \ accident investigations and in safety information provided by manufacturer s.\
+  \  \nThe three main causal factors that can each lead to  an in-flight break -up\
+  \ are: \n\uF0B7 main rotor RPM below the normal operating range (low main rotor\
+  \ RPM)  \n\uF0B7 abrupt or inappropriate cyclic control32 movements  \n\uF0B7 low-G\
+  \ conditions  resulting in  mast -bump ing. \n4.1.3.  In this accident t he damage\
+  \ to the main rotor blades, teeter stops and blade spindles \nindicated that a mast\
+  \ -bump occurred prior to the in -flight break -up.  Mast -bumping is when the \n\
+  main rotor teeters (or see -saws) beyond the normal operating limits and repeatedly\
+  \ contacts \nthe teeter stops on the main rotor driveshaft (or 'mast'). In a severe\
+  \ case of mast -bump ing the \nteeter stops are crushed, the mast itself is contacted,\
+  \ an d an in -flight break -up occurs.  \n4.1.4.  It is difficult to determine the\
+  \ exact sequence of events tha t lead to  severe mast -bumping  and \nin-flight\
+  \ break -ups, as they are  always fatal and happen extremely quickly.  The level\
+  \ of \ndestruction and the historic al lack of witness es or any recording devices\
+  \ on light helicopters \nmake the task of analysing break -ups difficult . \n4.1.5.\
+  \  There had been two recent non-fatal mast -bump ing incidents  involving R22s\
+  \ in New Zealand, \nof which one was investigated by the Commission33.  These incidents\
+  \  have helped the \nunderstand ing of  what happens during mast -bump ing, and\
+  \ in particular the conditions that \nlead to it developing and the pilot's successful\
+  \ recovery of the situation.  \n4.1.6.  The following  section s discuss  what likely\
+  \ happened leading up to the in -flight break -up, the \nthree main  causal factors,\
+  \ and the Robinson  main rotor system design and dynamic behaviour \nin low-G conditions.\
+  \  Low-G in turbulence, pilot training  requirements  and operating limitations\
+  \ \nfor Robinson helicopters are also discussed , as are aerodynamic  and design\
+  \  factors  that could  \ncontribute to  low-G mast -bump ing, and low-G recovery\
+  \ techniques.  \n4.2.       What happened  \n4.2.1.  The damage to the cabin , rear\
+  \ skid cross tube  and one of the main rotor blades showed that \nthe main rotor\
+  \  blade  struck the cabin and initiated the in -flight break -up. The pitch change\
+  \ \nlinks that control led the angle of the main rotor blades failed34, which likely\
+  \ happened after \nthe teeter stops had been crushed and prior to the break -up.\
+  \  When  both pitch  change links \nfail in  flight , the main rotor blades can\
+  \ rotate  uncontrolled  around th eir spindles , which \nchanges their pitch angle\
+  \ s (see Figure 5) .  Depending on a number of variables, including \naerodynamic\
+  \  loads  and flight control inputs  at the time of failure , the main rotor blades\
+  \ can go \ninto either  a positive or  a negative angle of attack  (see Figure 5)\
+  \ , causing them to fly up or \ndown . \n                                      \
+  \                  \n31 Refer Commission inquiry AO-2013-003, Robinson R66 ZK -IHU,\
+  \ mast bump and  in-flight b reak-up, Kaweka Range, 9 \nMarch 2013 . \n32 The movement\
+  \ of the cyclic flight control causes the rotor blade pitch angles to change, which\
+  \ causes the rotor 'disc' \nto tilt in the same direction in which the pilot has\
+  \ moved the control. The helicopter then moves in that direction . \n33 Refer Commission\
+  \ inquiry AO-2013-005, Robinson R22 ZK -HIE, in -flight loss of control, New Plymouth,\
+  \ 30 March 2013 . \n34 The pitch change links can fail in compression or tension\
+  \ as a result of reverse cycle bending during extreme teetering \nof the main rotor\
+  \ system outside the normal operating limits , due to contact with the pitch change\
+  \ horn.  \n\n<< Page 16 >>\n Final report AO -2014 -006  \nFigure 5  \nMain rotor\
+  \ blade angles (source : AAIB)  \n4.2.2.  One of the main rotor blades was bent\
+  \ in an upward direction, with creases in the upper \nsurface of the blade.  This\
+  \ could have  been caused by exc essive coning of the blade  in a low -\nrotor -RPM\
+  \ situation , where  the lift produced and the  centrifu gal forces on the blade\
+  \ would \nhave been  overcome by  the weight of the helicopter, and the blade bent\
+  \ up towards the tips.  \nIt could  also have been caused by an uncon trolled  blade\
+  \ going into a very high angle of \nattack35, with the subsequent high aerodynamic\
+  \ drag loads resulting in bending in an upward s \nand rearwards  direction  opposite\
+  \ to the direction of rotation .  \n4.2.3.  The other main rotor blade had bent\
+  \ in a downwards direction and entered the cabin , before \nfolding underneath the\
+  \ helicopter and striking the rear skid cross tube , which broke off the \noutboard\
+  \ thr ee-foot section of the blade.  It is likely that this happened as a result\
+  \ of the \nfailure of the blade 's pitch change link and the blade 's subsequent\
+  \ rotation into a negative \nangle of attack. If the blade had gone  into a negative\
+  \ angle of attack, instead o f producing lift \nin the normal upward direction,\
+  \ a downward aerodynamic reac tion would have forced  the \nblade into the cabin.\
+  \  This is a form of main rotor 'divergence '36, where the main rotor disc37 \n\
+  goes in an undesired or unco mmanded  direction , and is typical  of a low -G-induced\
+  \ mast -bump  \n(see Appendix 10) . \n4.2.4.  Once the blade entered the cabin and\
+  \ struck the rear skid cross tube , a sudden overload of \nthe main rotor drive\
+  \ system occurred.  The bending and torsional failure  of the thick steel main \n\
+  rotor drive shaft  likely happened at this point, and indicates that a significant\
+  \ amount of power \nwas being delivered by the engine at the time .  The main rotor\
+  \ then separated from the \nhelicopter and the fuselage fell to the ground.    \n\
+  Finding  \n1. A mast -bump occurred, wh ich led to rotor divergence and the in -flight\
+  \ break -up. \n \nIn-flight break -up causal factors  \n4.3.      Low main rotor\
+  \ RPM  \n4.3.1.  If the m ain rotor RPM is allowed to reduc e below the normal operating\
+  \ range , main rotor stall \nand an in -flight break -up can result  (see Appendix\
+  \ 6, safety notice 10) .  A reduction in RPM \ncan be caused by overpitching38 the\
+  \ blades to the point where the engine can no longer \nmaintain rotor RPM, or by\
+  \ not reducing the angle of attack of the blades quickly  enough after \nan engine\
+  \ failure.   A main rotor divergence  caused by low rotor RPM  is different from\
+  \  that \ncaused by low-G mast -bumping, with the rearward travel ling blade normally\
+  \ moving in a \n                                                        \n35 Damage\
+  \ seen on  blades and rotor hub outboard surface s show the blades can rotate 90\
+  \ degrees  or more , which could \nresult in the blad es being perpendicular to\
+  \ the airflow . \n36 A main rotor divergence refers to a main rotor disc tilting\
+  \ or moving in an undesired or uncommanded direction.  \n37 The main rotor disc\
+  \ is the area or space taken up by the blades in one revolution . \n38 Overpitching\
+  \ is where the pilot increases the angle of attack of the main rotor blades to the\
+  \ point where the \naerodynamic drag on the blades cannot be overcome by the engine\
+  \ and the main rotor RPM decreases . \n\n \n\n<< Page 17 >>\n Final report AO -2014\
+  \ -006  downward direction . In most low-G mast -bump in -flight break -ups, the\
+  \ forward travelling blade \nmoves in a downward direction.   \n4.3.2.  The speed\
+  \ of a helicopter in forward flight cr eates a dissymmetry of lift39 across  the\
+  \ rotor disc \ndue to the higher speed through the air40 of the forward travelling\
+  \ blade compared with the \nrearward  travelling blade  (see Figure 6).  The unequal\
+  \ lift produced by  the rotor disc is \nnormally compensated for by reducing the\
+  \ effective angle of attack of the forward -travelling \nblade by teetering  (flapping)\
+  \  the rotor blade  up with each revolution, and the opposite \nrearward -travelling\
+  \ b lade down to increase its effective angle of attack (see Appendix 4).  If the\
+  \ \nmain rotor RPM reduces below the normal operating range, the speed of the rearward\
+  \ \ntravelling blade through the air can fall below that required to maintain the\
+  \ airflow over the \nupper surface of the blade.  T he blade will then  experience\
+  \ an  aerodynamic stall and lose lift.   \n \nFigure 6  \nDissymmetry of lift due\
+  \ to forward airspeed  (source: FAA)  \n4.3.3.  In this situation t he forward travelling\
+  \ blade with its higher speed through the air has not \nstalled and is still producing\
+  \ lift, so the net effect is that the rearward trave lling blade  'wants' \nto dive\
+  \  and the forward travelling blade 'wants' to climb .  Due  to gyroscopic precession41\
+  \ (see \nAppendix 4), the result of thi s type of divergence is tha t the rotor\
+  \ disc tilts rearwards  and the \nrotor blades strike  or sever the tail boom .\
+  \  \n4.3.4.  In both  of these cases of rotor divergence the teeter stops are crushed\
+  \ ; the main difference is \nwhether the c abin or the tail boom is struck  by the\
+  \ blades.  In this accident the  tail boom of \nthe helicopter was not  struck by\
+  \ the main rotor and the forward travelling blade moved \ndownward  and entered\
+  \ the cabin.  \nFinding  \n2. The in -flight break -up was very unlikely to have\
+  \ been caused by low main rotor  \nRPM  (revolutions per minute) . \n \n       \
+  \                                                 \n39 Dissymmetry of lift is the\
+  \ unequal production of lift across t he rotor disc as a result of forward airspeed\
+  \ . \n40 Airspeed refers to the speed of an aircraft ; the speed of a rotor through\
+  \ the air is the helicopter's airspeed plus the \nspeed or rotation (RPM) for the\
+  \ forward travelling blade, or minus for the rearward tra velling blade . \n41 Gyroscopic\
+  \ precession is when  a force applied to a spinning gyroscope is transmitted 90\
+  \ degrees in the direction of \nrotation i.e. pushing the front of a clockwise spinning\
+  \ disc down results in it tilting to the right . \n\n\n<< Page 18 >>\n Final report\
+  \ AO -2014 -006 4.4.     Abrupt, inappropriate  or inadvertent  cyclic control movement\
+  \  \n4.4.1.  The flight controls of all Robinson helicopter  models  are very sensitive.\
+  \  S mall movements of \nthe cyclic control are required to avoid  over-controlling\
+  \ and producing high stresses on critical \ncontrol components , which can  cause\
+  \ catastrophic failures  (see 3.3. 6).   \n4.4.2.  Many in -flight break -up accident\
+  \ reports have concluded  that due to the absence of \nmechanical failures, the\
+  \ causal factor was likely  an inappropria te cyclic control input from the \npilot\
+  \ that led to mast -bump ing.  However, i t is impossible to determine  if a pilot\
+  \ had made an \ninappropriate  cyclic control input without a flight data recorder\
+  \ on  board that records the \npilot's inputs leading up to the bre ak-up.  In respo\
+  \ nse to a number of unexplained  fatal \naccidents involving Robinson helicopters,\
+  \ the Commission has made a recommendation to the \nMinistry of Transport that it\
+  \  promote the  installation of lightweight flight data or video \nrecorder s42\
+  \ in small  helicopters , in an effort to collect data that would help to determine\
+  \ the \ncause s of similar  accident s. \n4.4.3.  A common factor  identified in\
+  \ some early mast -bumping and in -flight break -up accidents was \nthat the pilots\
+  \ were relatively inexperienced on helicopters  and had more experience flying \n\
+  aeroplanes (see Appendix 6, safety notice 29).  However , in New Zealand , recent\
+  \ mast -\nbumping accidents43 have involved pilots with significant experience on\
+  \ Robinson helicopters \nand very little experience on aeroplanes, which  suggests\
+  \  that other factors are involved.   \n4.4.4.  Certain  flight control inputs used\
+  \ by pilots in aeroplanes, such as pushing forward on a control \ncolumn to descend\
+  \ , can become  automatic  over time.  Such control input s can produce a low -\n\
+  G or weightless44 conditi on felt by the occupants as strain against their seat\
+  \ belts , which is \ngenerally safe in an aeroplane.  However, these habits should\
+  \ not be transferred and used in \nhelicopter s, as the low -G condition can lead\
+  \ to mast -bumping in a two -blade d, semi -rigid, \nteetering rotor system.  The\
+  \ pilot of a Robinson helicopter must make gentle movements of \nthe cyclic control\
+  \ and use the collective lever45 to descend to avoid inducing an inadvertent \n\
+  low-G condition or aggravating it in turbulent conditions.   \n4.4.5.  The pilot\
+  \ did n ot have a lot of experience on  Robinson helicopters , but he  had completed\
+  \ \nsafety awareness training for the R22 . He should have  been aware of the risk\
+  \ of applying an \ninappropriate  cyclic control input and w as unlikely to have\
+  \ done  this intentionally .  However, if \na pilot were  suddenly surprised by\
+  \ something, such as an impending collision with a bird or \nanother aircraft, or\
+  \ if a helicopter suddenly roll ed or pitche d to an extreme angle, a natural or\
+  \ \ninstinctual reaction could  result in an abrupt control input to avoid a conflict\
+  \ or correct an \nunusual attitude.   \n4.4.6.  Pilots must also try to prevent\
+  \ inadvertent cyclic inputs during severe turbulence when \nunrestrained arms and\
+  \ legs can move the cyclic control, which would be particularly difficult in \n\
+  a near -weightless condition or right roll during a low -G encounter.   A lightly\
+  \ loaded helicopter \nwould also be more susceptible to being 'bounced' around in\
+  \ turbulence.   \n4.4.7.  The pilot was relatively  inexperience d on helicopters\
+  \ , but had flown Robins on helicopters \nexclusively , and learnt to fly in the\
+  \ mountains of the South Island  where turbulence is \ncommon .  Although he had\
+  \ more experience flying aeroplanes  than helicopters,  he was also  \nrelatively\
+  \ inexperienced  in flying aeroplanes .  It was not possible  to establis h whether\
+  \  the pilot \nmade a control input that contributed to  the in-flight break -up,\
+  \ and it could not be excluded  as \na potential factor . \n \n                \
+  \                                        \n42 Refer to Commission  inquiry AO-2015-002\
+  \ R44 ZK -IPY, in-flight break -up, Lochy River, 19 February 2015 . \n43 Refer to\
+  \ Commission inquiries 08 -007 Robinson  R22 ZK -HXR, loss of control, Lake Wanaka,\
+  \ 1 November 2008 and \n11-003, in-flight break -up ZK -HMU, Robinson R22, near\
+  \ Mt Aspiring, 27 April 2011 . \n44 A low -G condition occurs when an object is\
+  \ subjected to a net vertical force less than the force of gravity. When the \n\
+  vertical force is zero, the object is described as being 'weightless'.   \n45 The\
+  \ collective lever changes the ang le of attack of all main rotor blades simultaneously,\
+  \ thus changing the amount of \nlift produced by the main rotor making the helicopter\
+  \ climb or descend . \n \n\n<< Page 19 >>\n Final report AO -2014 -006  Finding\
+  \  \n3. An abrupt, inappropriate  or inadvertent  cyclic control input by the pilot\
+  \  could \nnot be ruled out  as havin g contributed to the in -flight break -up.\
+  \ \n4.5.      Low-G in turbulence  \n4.5.1.  The weather forecast for the Tasman\
+  \ area at the time of the flight , and the report given by the \nowner in the second\
+  \ helicopter , suggested that the pilot would have experienced moderate \nturbul\
+  \ ence along the route flown,  particularly around the Flora S addle area.  It was\
+  \ also likely  \nthat he encountered patches of isolated severe turbulence , which\
+  \ had been  predicted in  the \nSIGMET warning issued for the time  of the flight.\
+  \  \n4.5.2.  Robinson had first issue d a safety notice in regard to flying in strong\
+  \  winds or turbulence  in \n1998  (see Appendix 6, safety notice 32) , which recommended\
+  \  in part : \nFlying in high winds or turbulence should be avoided  [this sentence\
+  \ was added  in February  \n2016 ] \n1. Reduce power and use a slower than normal\
+  \ cruise speed.   Mast bumping is less likely at \nlower airspeeds.  \n2. For significant\
+  \ turbulence, reduce airspeed to  60-70 knots . \n3. Tighten seat belt and rest\
+  \ right forearm on right leg to minimise unintentional control \ninputs.  \n4. Do\
+  \ not overcont rol. Allow aircraft to go with turbulence, then restore level flight\
+  \ with \nsmooth, gentle control inputs.  \n5. Avoid flying on  the downwind side\
+  \ of hills, ridges, or tall buildings where turbulence will \nlikely be most severe.\
+  \    \n4.5.3.  The R44 flight manual  contained th e following caution  in the 'Normal\
+  \ Procedures : Cruise ' \nsection : \nCAUTION  \nIf turbulence is expected, reduce\
+  \ power and  \nuse a slower than normal cruise  speed  \n4.5.4.  The flight tracking\
+  \ information and the data recovered from the on -board GPS unit showed \nthat the\
+  \ pilot was flying at  70-90 knots groundspeed for most of the flight.  Allowing\
+  \ for a 10 -\n20 knot tailwind based on  the forecast wind speed and dir ection,\
+  \ the pilot would have kept to  \nan airspeed of 60 -70 kno ts for most of the flight.\
+  \  This  suggested that he slowed down  as per \nthe safety notice and the caution\
+  \ in the flight manual,  very likely due to experiencing \nsignificant  turbulence\
+  \ during the flight .   \n4.5.5.  As the pilot flew up the Flora Stream towards\
+  \ the Flora S addle his groundspeed was about 83 \nknots, and as  the forecast wind\
+  \ was a direct crosswind from right to left at this point, this \nwould  have also\
+  \ been  close to his  airspeed . Shortly after crossing the r idge to the south\
+  \ of the \nFlora S addle , the helicopter turned to the right towards the downwind\
+  \ side of Mt Arthur and \nstarted to  slow down  and descend.  The helicopter then\
+  \ flew toward s the more turbulent air in \nthe lee of Mt Arthur and increased \
+  \ its descent  once it was northeast of the summit .  The wind \nwas coming from\
+  \ the opposite direction, the southwest.   The turn to the right may have been \n\
+  made to avoid cloud in the Flora Saddle  area , and the start of the descent could\
+  \ have been \nintentional in order to descend over the lower terrain in the Pearce\
+  \ River valley to find \nsmoother air beneath.  The increase i n descent could also\
+  \  have been due to a downdraught  \nproduced by the disturbed  airflow over Mt\
+  \ Arthur.  \n4.5.6.  Turbulence, updraught s and downdraught s are present in mountainous\
+  \ areas when there are \nstrong win ds above  about 15 knots.  T he severity and\
+  \ amount of turbulence depend on the \nheight and shape of the land and the direction\
+  \  from which  the wind is coming.  Steep ridges \n\n<< Page 20 >>\n Final report\
+  \ AO -2014 -006 and mountains with long and sharp peaks, together with a strong\
+  \ wind at a perpendicular \nangle to the terrain , produce the worst turbulence\
+  \ conditions.  Updraught s are created on the \nupwind side of mountains and valleys,\
+  \ which are relatively smooth , and increase the G-\nloading46 on an aircraft when\
+  \ first encountered.  Downdraught s and turbulence are created on \nthe downwind\
+  \ or lee side of mountai ns and valleys, producing  unstable 'rough' air , and reduce\
+  \ \nthe G -loading  on an aircraft when first encountered.  \n4.5.7.  With the forecast\
+  \ wind of 30 -40 knots from the southwest there would have been moderate to \nsevere\
+  \ turbulence in the lee of and below the height of Mt Arthur , extending  to the\
+  \ northeast \nof its summit  and below 6 ,000 feet  above mean sea level .  The\
+  \ helicopter increased its \ndescent then broke  up to the northeast of Mt Arthur\
+  \ at an altitude of about 3 ,800 feet .  The \nowner  (who was flying the second\
+  \ , heavier helicopter ) experienced moderate turbulence at  \nabout  the same altitude\
+  \  over the Flora carpark , which increased after passing the Saddle.  The \nFlora\
+  \ carpark was  also to the northeast of Mt Arthur , but further away  from it and\
+  \ on the \nwindward side o f a ridgeline .  It was very likely that the pilot experienced\
+  \ moderate to severe \nturbulence as he crossed the ridge to the south of the Flora\
+  \ Saddle , and he likely  encountered \na severe  downdraught  in the lee of Mt\
+  \ Arthur  and the ridgeline he had just cross ed. \n4.5.8.  Moderate turbulence\
+  \ can produce G-loading  fluctuations of +/- 0.5-1.0G, while in severe \nturbulen\
+  \ ce the fluctuations can be greater than  +/- 1.0G47.  Turbulence is normally in\
+  \ isolated \npatches , however, and encountered momentarily as the aircraft flies\
+  \ through it into 'clean ' air.  \nSevere  downdraught s can  initially  produce\
+  \ a reduct ion of up to 1G, providing a  weightless \ncondition of  zero G.  Downdraught\
+  \ s can also last longer than turbulence, so a reduced or low -G \ncondition c ould\
+  \ persist .  The pilot likely encountered a s evere  downdraught , whic h would\
+  \ have \nlikely reduced the G -loading  on the helicopter (by 0.5G to 1G ) to a\
+  \ near weightless condition , \nover a period of several seconds .  \nFinding s\
+  \ \n4. The actual wind and turbulence at the time  of the accident were very likely\
+  \ \nto have been the same as, or stronger  than, the forecast  conditions .   \n\
+  5. The helicopter very likely encountered moderate to severe turbulence and \nan\
+  \ associated  severe  downdraught  in the lee of Mt Arthur , which likely \ncreated\
+  \ a prolonged low-G condition.  \n \nHistory of  low-G mast -bump ing \n4.5.9. \
+  \ Mast-bumping was first discovered  in the 1960s as the result of a number of unexplained\
+  \ \naccidents that occurred whilst  pilots were  training for , and in action during\
+  \ , the V ietnam war.  \nThe United States A rmy was losing helicopters on a regular\
+  \ basis w hile they were  being flown  \nat low level s over undulating  terrain.\
+  \  The type s of helicopter involved were  the Bell UH -1 \n'Iroqu ois' and Bell\
+  \ AH-1 'Cobra' , which both had two-bladed , semi -rigid teetering main rotor s.\
+  \  \nIt was determined that the in -flight break -ups of these helicopters were\
+  \ cause d by low -G mast -\nbumping that had been induced by the pilot s' flying\
+  \ techniques.   \n4.5.10.  Other helicopter types in use at t he time , including\
+  \ the Hughes OH -648, had rigid rotor head s \nand were not susceptible to low -G\
+  \ mast -bumping as they did not teeter.  Pilots of these \nhelicopters flew them\
+  \ in a similar way to aeroplanes when flying over and following low terrain \nin\
+  \ that they pushed forward on the cyclic control s to descend over ridges and hills.\
+  \  When \npilots of Bell helicopters did this aggressively , the subsequent low-G\
+  \ condition s sometimes led \nto mast -bumping and catastrophic failure of the rotor\
+  \ system s.  A technique involv ing the use \n                                 \
+  \                       \n46 G-force is the force of g ravity or weight acting on\
+  \ an object. When s tationary or in balanced f light an aircraft \nexperiences 1\
+  \ G; so does a human being standing still.  \n47 Refer  International Civil Aviation\
+  \ Organization and World Meteorological O ffice turbulence code table and categories.\
+  \  \n48 The Hughes OH -6 was later developed into a civilian variant called the\
+  \ Hughes 500 , which is commonly used in New \nZealand, particularly around mountainous\
+  \ terrain because it handles turbulence well . \n \n\n<< Page 21 >>\n Final report\
+  \ AO -2014 -006  of the collective lever to climb and descend over undulating terrain\
+  \ was introduced for the Bell \ntypes to avoid low -G conditions, and mast -bumping\
+  \ accidents w ere almost eliminated . \n4.5.11.  Bell Helicopter  made a commercial\
+  \ variant of the UH -1, designated the B205.  It also \ndeveloped a smaller civilian\
+  \ utility helicopter called the B206 ' JetRanger'49, which used a two-\nbladed ,\
+  \ semi -rigid main rotor system similar to the one s on the UH -1 and B205.  Neither\
+  \ the \nB205 nor the B206 had issues with low -G mast -bumping in service, and the\
+  \ problems with the \nmilitary models were put down to aggressive flying at low\
+  \ level s and cyclic pushovers that led \nto the in -flight break -ups. \n4.5.12.\
+  \  There were relatively few case s of in-flight break -up caused by low -G mast\
+  \ -bump ing in the \n1970s, even though there were a number of helicopters in civilian\
+  \ use with  two-bladed , semi -\nrigid teetering  rotors.  These were mostly  the\
+  \ Bell helicopter series , including the  older  Bell \n4750 and the Hiller UH -12\
+  \ helicopter s51.   \nRobinson helicopters  \n4.5.13.  In the early 1980s the Robinson\
+  \ R22 entered service and was frequently used as a training or \nprivate aircraft\
+  \ due to its lower operating costs.  A number of unexplained in -flight break -up\
+  \ \naccidents started to occur  throughout the 1980s and into the early 1990s. \
+  \  \n4.5.14.  The majority of the se accidents involved the R22 helic opter , and\
+  \ this prompted the FAA  to \ncarry out a special review of the R22 certification\
+  \ process in the early 1980s and again in the \nearly 1990s. A main rotor flapping\
+  \ survey was carried out by the manufacturer in 1982 for the \nR22, and in 1995\
+  \ for the R44.  After reviewing the survey results t he FAA found that the R22 \
+  \ \nand R44  were safe \"when flown within its operating limitations \", and Robinson\
+  \ subsequently \nadded a  limitation in th e flight manual that prohibited cyclic\
+  \ pushovers.   \n4.5.15.  Concerned with the number of 'loss of rotor control' accidents\
+  \ involving the R22, the NTSB \nopened  an investigation  into the certification\
+  \ and flight characteristics of the R22 and R44  in \n1994  (see Appendi x 3). \
+  \ The NTSB  subsequently recommended to the FAA that it introduce \nspecial training\
+  \ for pilots of Robinson helicopters and impose limitations on their operation \n\
+  until a study was carrie d out into the causes of the loss of rotor control and\
+  \ the dynamic \nbehaviour  of the Robinson rotor system.  The study was partially\
+  \ completed but ended due to \nlack of funds . Crucially , the dynamic behaviour\
+  \  of the Robinson rotor system during  low-G \nmast -bumping was not fully explored.\
+  \   \n4.5.16.  The R22 flight manual contains the following message  as required\
+  \ by FAA AD 95 -26-04: \nUntil the FAA completes its research into the conditions\
+  \  \nand aircraft characteristics that lead to main rotor blade/  \nfuselage contact\
+  \ accidents, and corrective type design  \nchanges and operating limitations are\
+  \ identified, Model  \nR22 pilots are strongly urged to become familiar with the\
+  \  \nfollowing information and comply with these recommended  \nprocedures:  \n\
+  Mast Bumping:  Mast bumping may occur with a teetering  \nrotor system when excessive\
+  \ main rotor flapping resul ts \nfrom low \"G\"  (load factor below 1.0) or abrupt\
+  \ control  \ninput. A low \"G\" flight condition can result from an abrupt  \ncyclic\
+  \ pushover in forward flight. High forward airspeed,  \nturbulence, and excessive\
+  \ sideslip can accentuate the  \nadverse effects of these c ontrol movements. The\
+  \ excessive  \nflapping results in the main rotor hub assembly striking  \nthe main\
+  \ rotor mast with subsequent main rotor system  \n                             \
+  \                           \n49 The B206 'JetRanger ' has been used in New Zealand\
+  \ since the late 1970s in a number of roles including search and \nrescue, ag ricultural\
+  \ spraying, scenic flights, firefighting and training.  \n50 The Bell 47 was a two\
+  \ -seat training and utility helicopter first flown in 1945 and used in New Zealand\
+  \ since the early \n1960s by the Royal New Zealand Air Force  for training, and\
+  \ in the civil ian sector for deer recover y and commercial work  in \nthe mountains\
+  \ . \n51 The Hiller UH -12 has been used in New Zealand since the late 1950s for\
+  \ commercial work, and was also used in the \nmountains for deer  capture and  recovery.\
+  \  \n\n<< Page 22 >>\n Final report AO -2014 -006 separation from the helicopter.\
+  \  \nTo avoid these conditions, pilots are strongly urged to follow  \nthese recommendations:\
+  \  \n1) Maintain cruise airspeeds between 60 [knots] and less than 0.9 Vne, but\
+  \ \nno lower than 57 [knots] \u2026 \n2) Avoid large, rapid forward cyclic inputs\
+  \ in forward flight, and abrupt \ncontrol inputs in turbulence.  \n4.5.17.  The\
+  \ FAA issued Airworthiness Directives for both  the R22 and R44 (see Appendix 7\
+  \ ) in 1995 \nthat mandated special awareness training52 for both types .  The training\
+  \  included the subject \nof low -G mast -bumping , and minimum levels of experience\
+  \  were introduced before a pilot \ncould manipulat e the fligh t controls or fly\
+  \ solo.  The following limitations were  incorporated \ninto the flight manual s\
+  \ of the R22 and R44 , and applied to  pilots with less t han 200 hours on \nhelicopters\
+  \ or  less than 50 hours on Robinson helicopters:  \n1. Flight when surface winds\
+  \ exceed 25 knots, including gusts, is prohibited.  \n2. Flight when surface wind\
+  \ gust spreads exceed 15 knots is prohibited.  \n3. Continued flight in moderate,\
+  \ severe, or extreme turbulence is prohibited.  \n                 The following\
+  \  flight manual  limitation applied to all  pilots of R22 and R44 helicopters:\
+  \  \nAdjust forward airspeed to between 60 knots indicated  \nairspeed (KIAS) and\
+  \ 0.7 Vne  but no lower than 57 KIAS,  \nupon inadvertently encountering moderate,\
+  \ severe, or  \nextreme turbulence  \n4.5.18.  The flight manual  limitations were\
+  \ later removed from the R44 as it was deemed to be a more \nstable design than\
+  \ the R22.  The decision was based on the accident  rates of the R44 , which \n\
+  were not as high as the R22 , and the fact that the R44 had not had the same issues\
+  \ with \nmain rotor loss of contr ol that affected the R22 .  However, t he special\
+  \ awareness training  \nrequirement remained for  the R44  in the United States\
+  \ , and in 2009 the FAA made it \npermanent for both the R22 and the R4453. \nNew\
+  \ Zealand situation  \n4.5.19.  In New Zealand the CAA adopted the  limitations\
+  \ and  special awareness training requirements \nfor the R22  and R44 , although\
+  \ it called it safety awareness training and made some minor \nchange s to the wording\
+  \ (see Appendix 7 ).  The CAA change d the wording of the wind speed \nlimitation\
+  \ to remove the word 'surface', which meant that any wind above 25 knots would \n\
+  prohibit flying for a pilot with less than the minimum flight experience of 200\
+  \ hours on \nhelicopter s or 50 hours on type.  The CAA  initially applied t he\
+  \ limitations to the R44  as well , \nbut then  followed the FAA by  removing the\
+  \ limitation s from the R44 in 2004.  The CAA also \nremoved the safety awareness\
+  \ training requirement for the R44  at the same time . \n4.5.20.  Had th ose limitation\
+  \ s still applied to the R44 at t he time of the accident, the pilot would have\
+  \ \nbeen prohibited from carrying out the flight as he had less than 200 hours on\
+  \ helicopters and \nbecause the wind speed was over 25 knots. He would have also\
+  \ b een prohibited from \ncontinuing the  flight if he had encountered moderate\
+  \ turbulence.   If he had been flying an R22 \nthe flight would have been  prohibited\
+  \ , as those  limitations still applied  to that model.  \n \n \n \n           \
+  \                                             \n52 Special Federal Aviation Regulation\
+  \ (SFAR) No. 73 , issued on 27 February 1995 . \n53 The FAA decided not to extend\
+  \ the special awareness training to the R66 when it was certified in 2010.  \n \n\
+  \n<< Page 23 >>\n Final report AO -2014 -006  Finding  \n6. Had a previous  limitation\
+  \ on maximum wind speeds for inexperienced R44 \npilots remained in place , as per\
+  \ that for R22 pilots , the pilot would have \nbeen p rohibited from flying at the\
+  \ time  of the accident due to the forecast \nstrong  winds  and turbulence . \n\
+  \ \n4.5.21.  The rate of low-G mast -bumping accident s in New Zealand has increased\
+  \ since the early \n1990s, and i n the period 201 2-2015 there were s ix low-G mast\
+  \ -bumping occurrences  (see \nAppendix 5).  There ha ve been no reported accidents\
+  \ in New Zealand that occurred as a result \nof low -G, involving a type of helicopter\
+  \ other than the Robinson.  There are nearly  900 \nhelicopters flying in New Zealand,\
+  \ with Robinson models  making up over a third of this \nnumber.  Two bladed , semi-rigid\
+  \ teetering rotor helicopters , including Bell models, account for  \nover half\
+  \ of all helicopters in New Zealand54.  According to t he CAA's database of helicopter\
+  \ \naccidents, the rate of loss -of-control accidents, which include mast -bumping,\
+  \ has increased \nsince the year 2000, while rates for most of the other categories\
+  \  have stayed the same or \nreduced.  The number of Robinson helicopters i n New\
+  \ Zealand has tripled in the same period.  \n4.5.22.  In response to  the increased\
+  \ rate of mast -bumping , and two recommendation s made by the \nCommission in 201455,\
+  \ the CAA  in 2015 reviewed the content and delivery of the safety \nawareness training\
+  \ for the R22  in New Zealand and  how the requirements issued by the FAA \nwere\
+  \ being implemented.  The result  of the review  was that training standards and\
+  \ experience \nrequirements were brought in  to line with those in the United States,\
+  \ and the R44 was \nincluded in the sa fety awareness training.  The  wind  limitations\
+  \ remained unchanged and still \nonly apply to the R22.  In the consultation document\
+  \ for the proposed changes, the R66 was \nto be included in the safety awareness\
+  \ training, but after the submission process the CAA  \ndecided not to include the\
+  \ R66.  \n4.5.23.  As a result of the increase in the rate of low-G mast -bumping\
+  \ accidents involving Robinson \nhelicopters, the Commission decided to add this\
+  \ issue  to its ' Watchlist'56 in August 2016. Low-\nG mast-bumping accidents involving\
+  \ Robinson helicopters  will be closely monitored in New \nZealand to help identify\
+  \ a ll of the factors contributing to this problem . \nR44 and R66 Models  \n4.5.24.\
+  \  There have been several recent in -flight break -up accidents involving R44 and\
+  \ R66 types in  \nthe United States , Asia and Europe .  An accident in France that\
+  \ occurred on 3  September \n2012 involved an R44 with two people on  board that\
+  \ broke up in  flight while flying over \nmountainous terrain in high winds.  The\
+  \ accident report  included  a Safety  Recommendation to  \namend the flight manual\
+  \ s of the R22 and R44 to include information relating to flight in \nturbulence\
+  \ in the 'Limitations ' section57. \n4.5.25.  All three Robinson types  share the\
+  \ same  basic  rotor design and flight control components , and \nare subject to\
+  \ the same dynamic forces .  The higher overall rate of R22 accidents can in part\
+  \ \nbe explained by their use as training helicopter s and the level of experience\
+  \ of their pilots.  \nHowever, all three types have now been involved in low -G\
+  \ mast -bumping accidents58, and the \nsame ris k of encountering low -G conditions\
+  \  in turbulence applies to all of them.  \n4.5.26.  With a lower rotor loading\
+  \ and less inertia , small  helicopters  like the R22  are more  prone  to \nlow-G\
+  \ conditions in turbulence .  Large r helicopters such as  the R44 and R66  are\
+  \ also \n                                                        \n54 Refer New\
+  \ Zealand Helicopter Association safety bulletin issue 4 , 2014.  \n55 Refer Commission\
+  \ inqu iry 11 -003, Safety Recommendations 14/003  and 14/004 . \n56 The Watch list\
+  \ highlights the most pressing of the Commission's concerns with respect to safety\
+  \ across the three \ntransport modes that fall within its  mandate . Refer to www.taic.org.nz.\
+  \  \n57 Refer BEA accident report ec -t120903 April 2016 and Recommendation 2015\
+  \ -030. \nhttps://www.bea.aero/uploads/tx_elydbrapports/ec -t120903.en.pdf  \n58\
+  \ Refer to Commission inquires AO-11-003, AO-2013-003, and AO -2015-002. \n\n<<\
+  \ Page 24 >>\n Final report AO -2014 -006 susc eptible to turbulence when lightly\
+  \ loaded , as was the case with the helicopter in this \naccident.   This is recognised\
+  \ in Robinson Safety Notice 32 (see Appendix 6)  High Winds and \nTurbulenc e, which\
+  \  was amended in May 2013 and Feb ruary  2016 , after one R66 and  two \nR44 in\
+  \ -flight break -ups occurred in New Zealand .  The following words were added:\
+  \  \n\uF0B7 Flying in high winds or turbulence should be avoided  [added Feb ruary\
+  \  2016)  \n\uF0B7 The helicopter is more susceptible to turbulence at light weight.\
+  \ Reduce \nspeed and use caution  when flying solo or lightly loaded  [added May\
+  \ 2013]  \n4.5.27.  The Safety Notice s produced by Robinson apply to all three\
+  \ models, the R22 , the R44 and the \nR66.  Likewise, the same cauti ons regarding\
+  \ abrupt control movements and cyclic pushovers, \nand the prohibition of low -G\
+  \ pushovers , appear in all three flight manuals.  The manufacturer \nrecognised\
+  \ that these same risks applied across the three models and treated them the same\
+  \ \nwhen issuing safety notices and cautions.  However, the training and experience\
+  \ requirement s \nand limitations in  regard to flying in  turbulence had not been\
+  \ extended by the airworthiness \nauthorities to cover all three models . \nFinding\
+  \  \n7. All three Robinson helicopter models are susceptible to low -G mast -\n\
+  bumping, and any preventive  measures should app ly to all of them . \n \n4.6. \
+  \     Low-G right roll  in Robinson helicopters  \n4.6.1.  Test pilots flying the\
+  \ Robinson helicopters during certification, and instructors who had \npreviously\
+  \ demonstrate d59 the effects of low -G to students , discovered that all three\
+  \ models \nhad a tendency to roll to the right in low -G condition s, in some situations\
+  \ very rapidly.  During \nthe safety awareness training given to pilots, an instructional\
+  \ video supplied by Robinson \nstates that in some cas es the rate of right roll\
+  \ can reach nearly  100 degrees per second  in \nless than a second60.   \n4.6.2.\
+  \  A helicopter with a single main rotor is fitted with a tail rotor to counteract\
+  \ the torque reaction \nfrom the engine driving the main rotor, otherwise the helicopter\
+  \ would spin uncontrollably in \nthe opposite dire ction to the main rotor .  The\
+  \ tail rotor 's thrust  stops the helicopter spinning  \nclockwise , but it creates\
+  \ a sideways thrust as a result and would make the helicopter dr ift in \nthe same\
+  \ direction as the thrust.  I n the case of Robinson helicopters  this is to  the\
+  \ right (see \nFigure 7). \n                                                   \
+  \     \n59 Demonstrat ions of  the effects of low -G in flight used to be carried\
+  \ out by in structors, but due to a number  of incidents \nand one fatal accident\
+  \ during  a demonstration they were determined  to be too risky , and the effects\
+  \  should  only be \ndiscussed on the ground now . \n60 Refer to www.gyronimosystems.com/SFAR\
+  \ . \n \n\n<< Page 25 >>\n Final report AO -2014 -006   \nFigure 7  \nTail rotor\
+  \ drift  (source: FAA)  \n4.6.3.  The horizontal tail rotor thrust acts in a line\
+  \ that is above the helicopter 's centre of gravity , \nwhich if not compensated\
+  \ for would make the helicopter roll to the right. The  sideways drift \nand roll\
+  \ are counteracted in flight by tilting the main rotor to the left slightly to produce\
+  \ a \nsideways component in the lift produced by the main rotor, which o ffsets\
+  \ the right drift  and \nright roll from the tail rotor.  \n4.6.4.  For the R44,\
+  \ the  angle of the left tilt or teeter of the main rotor to offset tail rotor drift\
+  \  and \ncorrect the dissymmetry of lift across the main rotor  is typically about\
+  \  3 degrees in the \ncruise61.  This leaves  about  4.4 degrees of movement before\
+  \ the main rotor blade spindles \ncontact  the teeter stops at a combined total\
+  \ of 7.4  degrees of teetering.  The maximum \namount of teetering from the horizontal\
+  \ , before the blade spindles strike the driveshaft  or \nmast, is 15.1 degrees.\
+  \   \n4.6.5.  The helicopter is ' under slung' at the teeter hinge , with its weight\
+  \ hanging from the teeter bolt.  \nThe main rotor provides a lifting force upwards\
+  \ and slightly to the left , which keeps the \nhelicopter upright against the force\
+  \ of gr avity and the tail rotor right roll, through a balanced  \npivot point at\
+  \ the teeter hinge.  In a low -G condition , the main rotor  loading  is reduced\
+  \ and the \nforces a re no longer in balance.  There is n ot as much weight acting\
+  \ in a downwards direction  \nto keep the helicopter slung upright underneath the\
+  \ main rotor, so the tail rotor thrust starts to \nroll the helicopter to th e right.\
+  \  During a downdraught  or cyclic pushover, the angle of attack of \nthe main \
+  \ rotor blades is decreased  due to the change in relative airflow  (see Figure\
+  \ 8), and the \namount of lift produced by the main rotor is reduced.  As a result,\
+  \ the rotor is further unloaded \nand t he sideways component of lift is reduced\
+  \ , allowing  the tail roto r to roll the aircraft even \nfaster to the right. \
+  \ \n                                                        \n61 The a ctual angle\
+  \ depends on the airspeed  and lateral centre of gravity;  at a speed of 40 knots\
+  \ the angle is about 4 \ndegrees, and at a speed of 120 knots it is about 2 degrees\
+  \ (based on a rotor flapping survey carried out by Robinson - \nRTR473).  \n\n\n\
+  << Page 26 >>\n Final report AO -2014 -006  \nFigure 8  \nChange of relative airflow\
+  \ in a downdraught  (source: FAA)  \n4.6.6.  Another factor that affects the rate\
+  \ of tail rotor roll is the height of the tail in relation to the \nnose of the\
+  \ helicopter.  The higher the tail , the greater the distance the tail rotor thrust\
+  \ line will \nbe above the helicopter's centre of gravity , which  results in  a\
+  \ faster roll rate.  This is one of the \nreasons why Robinson r ecommend s slowing\
+  \  down in turbulence, as a lower speed equates to \na lower  tail (see Appendix\
+  \ 8) .  A slower speed also requires  less power from the engine, so less \nthrust\
+  \ will be needed from the tail rotor to counteract the torque reaction , and the\
+  \ rate of roll \nwill be slower . \nAerodynamic and rotor dynamic  factors  during\
+  \  low-G in severe turbulence  \n4.6.7.  There have been no survivors of turbulen\
+  \ ce-related  low-G mast -bumping ac cidents, and there \nis a lack of eye witnesses\
+  \ and evidence to confirm what exactly happens if a right roll fully \ndevelops\
+  \ in severe turbulence  or downdraughts .  The Commission has previously \nrecommended\
+  \ to the FAA that the study into two -bladed , semi -rigid rotor system dynamic\
+  \ \nbehaviour, including the effects of low -G, be reinstat ed and complete d62.\
+  \  Until this  is done, \nthe actu al behaviour of these rotor systems  during prolonged\
+  \ or severe  low-G encounters will \nnot be fully understood.  The following  paragraphs\
+  \ discuss  factors  that are considered likely to \ncontribut e to an in -flight\
+  \ break -up during  low-G-conditions  in severe  turbulence.  \n4.6.8.  In a severe\
+  \ downdraught  the weight acting on the main rotor is reduce d by the sudden \n\
+  decrease in the G - loading , and the reduction in the angle of attack  rapidly\
+  \ decreases the \naerodynamic drag  on the main rotor  blades.  This would unload\
+  \ the  main rotor and therefore \nthe engine , which  would decrease the torque\
+  \ reaction experienced by the helicopter.  The tail \nrotor would then be  producing\
+  \ more thrust than required to ba lance the  lower torque reaction \nfrom the eng\
+  \ ine, and  the res ult would  be a faster right roll  due to  the excess  thrust\
+  \ from the \ntail rotor.  \n4.6.9.  Low-G conditions due to  cyclic  pushovers \
+  \ are likely  to occur  at a slower rate and  can be quickly  \ncorrected by removing\
+  \ the forward cyclic input and apply ing gentle aft cyclic to 'reload' the \nmain\
+  \ rotor .  In most situations  when  turbulence is encountered it is momentary,\
+  \ and the \nhelicopter flies through the  rough air into smooth air , reloading\
+  \ the main rotor.  In both cases \nthe effects of low -G are only experi enced briefly\
+  \  and the right roll produ ced by the tail rotor \ndoes not fully develop , and\
+  \ stops once the rotor is reloaded. However, if a s evere  downdraught  \nis encountered\
+  \ the low -G condition may persist for longer , allowing the tail rotor roll to\
+  \ fully \ndeve lop and reach a high rate . \n4.6.10.  Because the main rotor is\
+  \ unloaded when the tail rotor thrust rolls the hel icopter , it does  not \nroll\
+  \ with the rest of the helicopter and initially  remain s level.  The main ro tor\
+  \ disc behave s like \na gyroscope and  would  remain  in its  plane of rotation\
+  \ until a pitch change  were  made to  the \nblades to  change it .  After a short\
+  \ delay , the main rotor disc would start to follow the  tilting \ndriveshaft  due\
+  \ to the changing angles of attack on  the blades.  The angle of attack of the aft\
+  \ \n                                                        \n62 Recommendation\
+  \ 005/16, inquiry report AO-2013-003. \n\n \n\n<< Page 27 >>\n Final report AO -2014\
+  \ -006  blade would decrease and the forward blade's would increase due to the right\
+  \ tilting hub63, \nwhich would result in a right tilt of the rotor disc.   However,\
+  \ d uring flight testing at high \nairspeeds in normal (1G) flight, maximum roll\
+  \ rates  through pitch angle  changes  were between \n40 and 60 degrees per second\
+  \ , which  is significantly less than the roll rates due to low-G (see \n4.6.1.\
+  \ and 4.6.12.) . \n4.6.11.  Once mast -bumping starts, a driveshaft that is tilting\
+  \ to the right begins to contact the main \nrotor blade spindle s.  The main rotor\
+  \ driveshaft is now trying to force the rotor disc to tilt to the \nright ; however\
+  \ , this force is transmitted 90 degrees in the direction of rotation due to \n\
+  gyroscopic precession, which in the case of the Robinson is anticlockwise when viewed\
+  \ f rom \nabove.  The resultant force would make the rotor disc tilt forward, and\
+  \ again have  the same \neffect as a cyclic pushover, making the low -G condition\
+  \ worse and aggravating the right roll.   \n4.6.12.  During a study commissioned\
+  \ by the FAA and carried out by the Georgia Institute of \nTech nology  in the United\
+  \ States in 199564, a mathematical  model65 was used to  assess  the \neffects of\
+  \  flight control inputs and reduced G conditions to try to understand what happens\
+  \ \nduring mast -bumping  in R22s .  It was calculated that during a low -G condition\
+  \ caused by a \ncyclic pushover lasting one second , after half a second the roll\
+  \  rate and teetering angle s \nincrease ra pidly once the G -loading reduces  to\
+  \ less than 0.5G , and the teeter stops are  \nconta cted a 10th  of a second later.\
+  \  The  calculated ma ximum roll rate was over 100 degrees \nto the right, and severe\
+  \ mast -bumping would have occurred after  0.1G was reached  in less \nthan  a second.\
+  \  \n4.6.13.  The main rotor flapping surveys carried out by Robinson for the R22,\
+  \ R44  and R66 confirmed \nthe high r ates of roll that can be encountered during\
+  \ low -G conditions. The survey test flights \nincluded cyclic pushovers that caused\
+  \ a momentary  reduction in G to between +0.3 G and \n+0.6 G, followed by an immediate\
+  \ aft cyclic recovery to reload the main rotor disc. Despite  \nhighly experienced\
+  \  test pilots  conduct ing these tests , and the ant icipated reduction in G that\
+  \ \nallowed  them to prepare  for and make a prompt  recovery, the teeter limits\
+  \ were exc eeded  for \nboth  the R44 and the R66 .  Roll ra tes of up to 40 degrees\
+  \ per second were recorded during \nthe brief excursions into reduced G .  A sudden\
+  \ and sustained reduction in G  below +0.3G \nwould very likely lead to much higher\
+  \ roll rates and severe mast bumping.  \nEffects of Robinson main rotor design during\
+  \ a low -G right roll  \n4.6.14.  When a  Robinson  helicopter rolls to the right\
+  \ and its main  rotor remain s level , as is the case \ninitially with a right roll\
+  \ due to low -G, the pitch angle s of the main rotor blades are changed  \nthrough\
+  \ the pitch change links  (see Figure  9).  This  secondary effect  is du e to the\
+  \ Robinson \nrotor design  (see Appendix 4), as the pitch ch ange horn is  located\
+  \ outboard of  the teeter hinge  \naxis.  This delta -three offset66 arrangement\
+  \ introduces a teetering  (flap) -pitch coupling of the \nmain rotor blades, wher\
+  \ e a change in the teetering angle changes the pitch angle of the rotor \nblades.\
+  \  Other two -bladed , semi -rigid rotor designs such as  that of  the B ell 206\
+  \ (see Appendix \n4) have the pitch change input closer to  or in line with  the\
+  \ teeter hinge  axis, so if the d riveshaft  \nis tilted due to turbulence or  low-G,\
+  \ the change in blade pitch a ngle is smaller in comparison, \nor in some cases\
+  \ is non-existent.  \n                                                        \n\
+  63 When the hub is aligned with the helicopter in a fore and aft direction, the\
+  \ hub is forced to tilt with the driveshaft as \nthe teeter hinge bolt is perpendicular\
+  \ to the axis of ro ll. When the hub is in a left to right orientation, the hub\
+  \ is allowed to \nteeter as the teeter bolt is now parallel to the roll axis.  \n\
+  64 FlightSim Project No. 950101 , Georgia Institute of Technology Rotorcraft Flight\
+  \ Simulation Laboratory.  \n65 The m athematical model was not validated by comparison\
+  \ with fligh t test  data  as this was not available  \n66 Robinson designs include\
+  \ a delta -three offset or lag of about 18 degrees in the pitch change input, so\
+  \ instead of it \nbeing made 90  degrees  in advance to com pensate for gyroscopic\
+  \ precession, it is made 72  degrees  in advance. This is to \neliminate some 'undesirable\
+  \ characteristics' of rotor discs  as they tilt forward, and during flight  at high\
+  \ airspeeds.  \n\n<< Page 28 >>\n Final report AO -2014 -006                   \
+  \                \nFigure 9  \nTeeter  (flap) -pitch coupling  (delta -three hinge)\
+  \  and contact between pitch  link and pitch change horn  \n \n4.6.15.  During normal\
+  \ operations  with a vertical driveshaft , the teetering  (flapping)  to compensate\
+  \ for \ndissymmetry of lift across the rotor disc produces low teetering angles\
+  \ and a small teeter  (flap ) \n-pitch coupling.  However, during  a low -G right\
+  \ roll with a tilting driveshaft,  high t eetering \nangles and a larger teeter\
+  \ -pitch coupling is produced.   The increase in the pitch angle on the \nrearward\
+  \ travelling blade creates a higher angle of attack and more lift, while the forward\
+  \ \ntravelling blade experiences a decrease in angle of attack a nd less lift. \
+  \ The result is a force \ntrying to tilt the blade to the right ; however , due\
+  \ to gyroscopic precession  (see Figure 10) the \nrotor disc will tilt forward ,\
+  \ creating the same effect as a cyclic pushover and a worsening of the \nlow-G condition.\
+  \  \n4.6.16.  Another unique design feature of the Robinson rotor head is that the\
+  \ pitch horn input is \ninboard of the coning hinge  axis (see Figure 9  and Appendix\
+  \ 4) , which means that a change in \na blade's coning angle  results in a change\
+  \ to  its pitch angle. During  the low-G conditions in the \nmain rotor flapping\
+  \  survey flights , while  the main rotor wa s partially unloaded, t he coning \n\
+  angle of both blades wa s reduced  by about 5 degrees , which would result in a\
+  \ decrease in the \npitch angle of both blades by about 2 degrees. Although a small\
+  \ decrease, it would reduce the \nlift produced by the main rotor during low -G\
+  \ conditions and lead to  a further reduction in G.  \n \nFigure 10  \nGyroscopic\
+  \ precession  (source:  FAA) \ncontact \nbetween \npitch \nhorn and \npitch link\
+  \  \nthe b lade \non the left \nhas a  4o \nlower pitch \nangle than \nthe blade\
+  \ \non the right  \n\n \n\n<< Page 29 >>\n Final report AO -2014 -006  4.6.17. \
+  \ At some point after the mast -bumping starts and the rotor hub has teetered beyond\
+  \ the limits, \nthe pitch change links fail due to excessive reverse bending cycles\
+  \  and compression loads , \nlikely  after contact  with the pitch change horns\
+  \  (see Figure s 9 and 1 1) due to the limited range \nof movement the connection\
+  \ allows67.  This would render the main rotor blades uncontrollable  \nin pitch,\
+  \  and they could  assume extreme positive or negative angles of attack , causing\
+  \  rotor \ndivergence .  The centre of gravity of the bla des is forward of the\
+  \ pitch change axis, which \ncreates pitch instability  during blade rotation .\
+  \  A blade rotating with a negative  angle of attack \nproduces lift  in a downwards\
+  \ direction  and would bend down into the cabin and underneath \nthe helicopter\
+  \ with the airflow.   \n \nFigure 11  \nContact between the pitch link and the pitch\
+  \ horn at the teeter limit (7.4 degrees)  \n4.6.18.  When a main rotor blade  strikes\
+  \ the cabin and skids  under rotation , a massive torque \noverload occurs on the\
+  \ driveshaft , leading to a torsional failure and separation of the main \nrotor\
+  \ system.  In the scenario described above, t he time taken from e ntering the low\
+  \ -G \ncondition and the  development of the right roll , to the mast -bump ing\
+  \ and main rotor \nseparation , would  likely be under a second , which is  less\
+  \ than the reaction time of an alert \npilot.  \nFinding  \n8. Due to their unique\
+  \ main rotor design, d uring  a sudden and prolonged low -\nG condition Robinson\
+  \ helicopter s can roll rapidly to the right and likely \nbreak  up before a pilot\
+  \ can recover . \n \nLow-G recovery techniques  \n4.6.19.  When the tendency of\
+  \ Robinson helicopters to roll to the right during low -G conditions was first \n\
+  discovered, a recovery technique was developed by the manufacturer.  During flight\
+  \ testing the \nlow-G condition was induced by slowly pushing forward on the cyc\
+  \ lic, which led to a right roll.  \nThis was relatively easy to anticipate and\
+  \ negate by removing the forward cyclic input to stop \nthe low -G condition worsening,\
+  \ and applying gentle aft cyclic to 'reload' the rotor dis c before \nthe right\
+  \ roll developed  further .   \n4.6.20.  Once the rotor disc was reloaded the cyclic\
+  \ could be moved to the left to level the helicopter.  \nHowever, i f the cyclic\
+  \ were  moved to the left before the rotor disc was reloaded , the main rotor \n\
+  \                                                        \n67 Other two -blade d\
+  \ helicopters, such as  the Bell 206 , incorporate a connection that allows the\
+  \ main rotor to teeter well \nbeyond the limits before the pitch link contacts the\
+  \ horn, meaning a mast separation is likely to happen before a rotor \ndivergence\
+  \ can occur . \n \n\n\n<< Page 30 >>\n Final report AO -2014 -006 would respond\
+  \ to the cyclic input and tilt to the left  but the helicopter  would not  follow\
+  \ , which \ncould lead to a mast -bump.  \n4.6.21.  The main issue with using this\
+  \ recovery technique  during a low -G situation  is that applying aft \ncyclic \
+  \ is not a pilot 's natural reaction to  a sudden right roll .  During an un expect\
+  \ ed abrupt roll \nto the right, the pilot 's most instinctive  reaction would be\
+  \ to tr y to level the helicopter  by \napplying left cyclic.  If the pilot did\
+  \ this in a low -G-induced abrupt right roll , the result could be \nmast -bumping\
+  \ and an in -flight break -up.   \n4.6.22.  Following t he prohibition of in -flight\
+  \ low-G demonstrations and  practising low -G recovery \ntechniques, the training\
+  \ of pilots  on what to do in the event of encountering low -G was \nconfined to\
+  \ verbal briefings only .  The prohibition has likely  made it harder for pilots\
+  \ to  \nrecognise a low-G-induced roll and for them to resist the most instinctive\
+  \ reaction  to that  roll.  \nInstead t hey are told to use a technique that is\
+  \ not  intuitive  and not allowed to be \ndemonstrated or practiced  in-flight.\
+  \  \n4.6.23.  In some  of the early mast -bumping accidents attributed to low -G,\
+  \ the suspected cause of the \nin-flight break -up was  an 'incorrect ' recovery\
+  \ technique applied by the pilot , such as moving \nthe cyclic to the left while\
+  \ the rotor disc was still unloaded68.  However, in ev ery case it has not \nbeen\
+  \  possible to determine if a pilot applied an incorrect recovery technique, applied\
+  \ the \ncorrect recovery technique, or did not have time to apply any recovery technique,\
+  \ before the \nhelicopter broke up.  \n4.6.24.  If a pilot is  not braced for turbulence,\
+  \ or even if braced during severe turbulence or \ndowndraught s, the pilot 's unrestrained\
+  \ arms and legs  can move the cycli c unintentionally \nduring a violent upset,\
+  \ which could lead to a mast -bump.   A pilot  with a  loosely restrained \nupper\
+  \ body is likely to remain upright initially during a  sudden  right roll , which\
+  \ could result in a \nleft cyclic input as the helicopter rolls to the right.  The\
+  \ seat belt s normally69 used in Robinson  \nhelicopters  are three -point inertia\
+  \ reel automotive type units, which are not as effective in \nrestraining occupant\
+  \ s' upper bodies  as four- or five -point harness es with fixed -length  self-\n\
+  locking  lap belt s.  Although this was not a survivable accident, four - or five\
+  \ -point harnesses \nprovide better restraint of occupants during accidents , and\
+  \ the ir use can reduce the severity of  \ninjuries.   \n \nFinding  \n9. A pilot's\
+  \ instinctive reaction to a n unexpected  right roll, or the unintentional  \nmovement\
+  \ of a pilot 's limbs or upper body  during severe turbulence  or low -\nG, could\
+  \ lead to mast -bump ing. \n \n4.6.25.  The recovery technique published in the\
+  \ flight manual was proven to be effective during flight \ntesting in low-G conditions\
+  \ down to about +0.3G , which produced  roll rates of up to 4 0 \ndegrees per second\
+  \ . However , the reduced G was  induced slowly and experienced \nmomentarily ,\
+  \ with the test pilot being able to anticipate the effects of the forward cyclic\
+  \ input \nand stop the roll before it fully developed.  In a low -G condition brought\
+  \ on by turbulence or a \nstrong downdraught , a pilot may not be able to anticipate\
+  \ the sudden reduc tion in  G, and  the \nright roll may  occur suddenly and  fully\
+  \ develop d ue to a longer exposure to the condition .   \n4.6.26.  In response\
+  \ to the ongoing occurrence of mast -bumping accidents , and due to doubts over\
+  \ the \neffec tiveness of the manufacturer 's technique, some helicopter instructors\
+  \ in New Zealand  \ndeveloped  or used alternative recovery techniques.   Their\
+  \ action s were also partially driven by \n                                    \
+  \                    \n68 Refer Commission accident report 91 -001, Robins on R22\
+  \ Beta ZK -HDC, main rotor separation  after mast -bumping  in \nturbulence, near\
+  \ Hukerenui, 4 January 1991 . \n69 A five-point harness is an option available on\
+  \ the R44 and R66, but most Robinson helicopters are man ufactured with \nthree\
+  \ -point seat belts , as this helicopter was . \n \n\n<< Page 31 >>\n Final report\
+  \ AO -2014 -006  the lack of  effective in-flight training in the approved recovery\
+  \ technique , in addition to  the \nprohibition of low -G demonstrations . \n4.6.27.\
+  \  The instructor  involved in  the first  R22 non-fatal mast -bumping incident\
+  \ in New Zealand  used  \na right cyclic  control input  to tilt the rotor disc\
+  \ to the right to 'follow' the helicopter that had \nrapidly roll ed to the right\
+  \  and pitched nose -down .  This allowed him to prevent an in -flight \nbreak -up\
+  \ after mast -bumping began .  However, a  significant amount of height was lost\
+  \ during \nthe recovery.  \n4.6.28.  Another suggested technique involved lowering\
+  \ the collective lever to reduc e the amount of \ntail rotor thrust , by decreasin\
+  \ g engine  power through the correlat or70.  This recove ry technique \nrequire\
+  \ d co-ordination with the other flight controls, as a sudd en reduction in  the\
+  \ main rotor \nblade pitch angles  create s secondary effects.  The pitch angle\
+  \ of the tail rotors would have to \nbe reduced through the tail rotor pedals ,\
+  \ to avoid exc ess thrust acting against  the reduced \ntorque reaction  and smaller\
+  \ horizontal  component of lift  from the main rotor.  \n4.6.29.  The simultaneous\
+  \  reduction of both  main rotor blade pitch angles would also lead to the rotor\
+  \ \ndisc flapping forward71, and if not compensated for by  immediate ly applying\
+  \  aft cyclic,  the \nnose of the helicopter would  drop and the low -G condition\
+  \  could worsen .  \n4.6.30.  In response to  the proposed alternative recovery\
+  \ techniques, Robinson Helicopters made the \nfollowing comments about factors that\
+  \ can affect low -G conditions and the right roll:  \n1. At slower speeds the effect\
+  \ of the turbulence, hence the amount of low -\nG, is greatly reduced.  \n2. Less\
+  \ power means less tail rotor thrust to roll the helicopter.  \n3. At slower speeds\
+  \ the location of the tail rotor relative to the aircraft's \ncentre of gravity\
+  \ will reduce rolling tendencies.  \nThere seems to be a growing perception in New\
+  \ Zealan d that lowering \nthe collective is a preferable method and a more instinctive\
+  \ response to \nrecover from a low -G condition.  \nWe think the most important\
+  \ focus should be on the weightless feeling \ncaused by the low -G condition, which\
+  \ can occur before the roll e ven \nstarts and is when a recovery should be initiated.\
+  \  \nLowering the collective will cause a momentary pitching down of the \nnose,\
+  \ which could aggravate the roll.  \n4.6.31.  Lowering the collective during a low\
+  \ -G condition will also further unload the rotor disc, delay ing \nthe reloading\
+  \ of the disc  and th e recovery to level flight .  The reduction in lift from the\
+  \ main \nrotor  would also mean a greater loss of height during recovery.   The\
+  \ instructor involved in the \nsecond R22 non -fatal mast -bumping incident in New\
+  \ Zealand could only attempt a recovery by \nlowering  the collective , because\
+  \  his student ' froze ' and  locked the cyclic control in a forward \nposition.\
+  \  Again, a significant amount of height was lost during the recovery , but the\
+  \ helicopter \ndid not break -up and the pilot  was able to land safely.  \n \n\
+  4.6.32.  The pilot of the helicopter in the Kahurangi accident was aware of  the\
+  \ alternative technique of \nlowering the collective during a low -G encou nter,\
+  \ as it had been discussed  during  his private \npilot licence flight test .  However,\
+  \ he had been taught the manufacturer 's approved recovery \ntechnique during his\
+  \ Robinson safety awareness training.  T here is no way of knowing which \nrecovery\
+  \ technique , if any,  he used prior to the break -up.   \n                    \
+  \                                    \n70 The correlat or (or anticipator)  helps\
+  \  to control the engine RPM within a set range and is a link between  the collective\
+  \ \nlever  and the engine's fuel control unit . Lowering the collective lever unloads\
+  \ the main rotor blades and therefo re the \nengine, and the correlat or senses\
+  \ the lever movement and reduces the engine power through the fuel control unit\
+  \ to help \nkeep the RPM constant. It is vice versa for raising the collective lever\
+  \ and loading the main rotor blades. There is a slight  \ndelay in its operation.\
+  \  \n71 When the angle of attack is reduced on the main rotor blades through the\
+  \ collective lever in forward flight, the amount \nof lift produced by the forward\
+  \ travelling blade is reduced more than  the rearward travelling blade, resulting\
+  \ in  the main \nrotor disc 'flapping forward' i .e. the front of the disc 'dives'\
+  \ due to gyroscopic precession.  The nose of the helicopter also \ndrops due to\
+  \ the reduced downforce from the horizontal stabiliser, as a result of the decreased\
+  \ downwash from the rotor . \n\n<< Page 32 >>\n Final report AO -2014 -006  \n4.6.33.\
+  \  The use of aft cyclic is not an intuitive reaction to  an unexpected and sudden\
+  \ right roll  (which \nin some cases can occur immediately  after low -G is first\
+  \ felt) , and this  technique has not been \nproven in severe or  prolonged low\
+  \ -G conditions .  However , the manufacturer 's low -G recovery \ntechnique has\
+  \  been proven during  cyclic pushovers , and remains the only approved recovery\
+  \ \ntechnique.   The key to applying the manufacturer 's recovery technique successfully,\
+  \ is the \nearly recognition or anticipation of low -G, and  the immediate gentle\
+  \ application of aft cyclic  \nbefore the right roll develops . \nFinding  \n10.\
+  \ Although not an intuitive reaction to a sudden right roll, the aft cyclic \ntechnique\
+  \ is the only approved recovery technique, and should be used as \nsoon as low -G\
+  \ is felt to 'reload' the main rotor disc and help  reduce any \nright roll.  \n\
+  \ \n4.7.   Conclusion s \n4.7.1.  The pilot had completed the necessary safety awareness\
+  \ training for Robinson helicopters,  \nand had flown the helicopter within the\
+  \ limitations in place at the time of the accident.  The \npilot had slowed the\
+  \ helicopter  down as recommended by the manufacturer during an \nencounter with\
+  \ moderate or severe  turbulence.  He had been taught the manufacturer 's \napproved\
+  \ recov ery technique, and was aware of  the alternative technique of lowering the\
+  \ \ncollective during a low -G encounter .  However,  there is no way of knowing\
+  \ whether he used \neither  technique  during the event.   \n4.7.2.  The helicopter\
+  \ was lightly loaded,  which would have made it more susceptible to tu rbulence\
+  \ \nand the effects of reduced G.  The helicopter  started to descend northeast\
+  \ of Mt Arthur and in \nthe lee of a ridgeline it had just crossed.   It also turned\
+  \ to the right  towards the lee of Mt Arthur \nand very likely encountered a s evere\
+  \  downdraught , possibly while i n a nose -low attitude72 due \nto an intentional\
+  \  descent  by the pilot .  The combination of the above factors  occurring  at\
+  \ the \nsame time led to a sudden onset of low -G and a rapid roll to the right\
+  \ that was likely to o fast \nfor the pilot to recov er from , result ing in mast\
+  \ -bump ing and the in-flight  break -up. \n        \n                         \
+  \                               \n72 The helicopter would initially assume a nose\
+  \ -low attitude during a descent, whether the pilot used cyclic or collective \n\
+  input alone to initiate it.  \n \n\n<< Page 33 >>"

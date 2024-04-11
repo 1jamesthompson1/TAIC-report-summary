@@ -1,1 +1,16 @@
-[]
+- safety_issue: 'The difficulty in identifying the underlying causes of mast bump accidents involving Robinson helicopters due to the usually fatal nature of these accidents and the destructive impact of in-flight break-ups, which complicates efforts to make meaningful recommendations for preventing similar accidents.
+
+    '
+  quality: inferred
+- safety_issue: 'The lack of requirement for flight data recorders in small and medium helicopters under current International Civil Aviation Organisation (ICAO) standards, which limits the availability of reliable data concerning specific accidents.
+
+    '
+  quality: inferred
+- safety_issue: 'The variability in the content, understanding, and delivery of Robinson safety awareness training among instructors in New Zealand, which may affect the effectiveness of training related to preventing mast bumping incidents.
+
+    '
+  quality: inferred
+- safety_issue: 'The non-performance of the Emergency Locator Transmitter (ELT) in guiding search and rescue to the accident site in a timely manner, which in survivable accidents could mean the difference between survival and not.
+
+    '
+  quality: inferred

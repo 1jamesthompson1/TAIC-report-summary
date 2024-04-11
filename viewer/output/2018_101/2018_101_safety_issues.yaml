@@ -1,1 +1,32 @@
-[]
+- safety_issue: 'The left-hand switch rail fractured and misaligned due to a fatigue crack initiated from a chatter mark introduced during the machining process, leading to the derailment.
+
+    '
+  quality: inferred
+- safety_issue: 'The signalling system provided a proceed signal into the damaged section because the electrical circuit was completed despite the switch rail being fractured, which did not prevent the train from entering the faulty track section.
+
+    '
+  quality: inferred
+- safety_issue: 'The rail fracture examination revealed that the fracture was consistent with a fatigue crack, and the rail as manufactured met all standards and specifications required, yet it failed in service, indicating potential inadequacies in the rail manufacturing or inspection processes.
+
+    '
+  quality: inferred
+- safety_issue: 'The supply agreement did not specify a surface roughness standard for machined components, allowing for the presence of chatter marks that reduced the fatigue and fracture resistance of the rail.
+
+    '
+  quality: inferred
+- safety_issue: 'KiwiRail was unable to provide the Commission with the certificate of compliance for the fractured switch rail, indicating a potential gap in recordkeeping or quality assurance processes.
+
+    '
+  quality: inferred
+- safety_issue: 'Current inspection procedures were unable to detect the chatter marks on the outer foot of the installed switch rail, indicating a limitation in the effectiveness of track inspection methods to identify potential rail defects.
+
+    '
+  quality: inferred
+- safety_issue: 'Ultrasonic testing, designed to detect cracks in the head and web of the rail, is unable to detect defects originating from the foot of the rail unless such defects propagate into the web, indicating a limitation in the technology''s ability to detect certain types of rail defects.
+
+    '
+  quality: inferred
+- safety_issue: 'The axle-counter system used for signalling does not detect broken rails as effectively as traditional track-circuited systems might, potentially increasing the risk of incidents related to rail fractures not being detected.
+
+    '
+  quality: inferred

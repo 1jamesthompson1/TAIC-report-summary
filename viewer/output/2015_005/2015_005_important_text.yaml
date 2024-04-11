@@ -1,0 +1,527 @@
+pages_read:
+- 8
+- 20
+text: "<< Page 8 >>\n Final Report AO -2015 -005 4. Analysis  \n4.1. Introduction\
+  \  \n4.1.1.  This incident could have presented a significant  risk to the safety\
+  \ of air transport  if the \nnetwork  had not recovered after a few minutes.  Fortunately\
+  \ the outage occurred in  daytime , \nwhile  the weather across the country was\
+  \ good  and before the evening peak traffic period .  \nThese factors  minimise\
+  \ d the potential consequences .  \n4.1.2.  The outage exposed a vulnerability in\
+  \ the digital data network , which  Airways had previously \nbelieved  was reliable\
+  \ and resilient to disturbances.  The vulnerability was the existence of a \nsingle\
+  \ point of failure  that could disable all New Zealand 's domestic ATC services\
+  \ , including  \nback -up radio communication  systems , and adversely affect ATC\
+  \ services in this country's \noceanic control area .    \n4.1.3.  The controllers\
+  \  had trained for scenarios in which  they lost radio communications or \nsurveillance\
+  \ systems , but not both simultaneously.  Airways had  considered that concurrent\
+  \ \nfailures were  unlikely .  The duty manager and controllers adapted standard\
+  \ procedures with \nwhich  they were familiar and managed the outage safely and\
+  \ effectively .  Airways promptly \nidentified  the reasons for th e outage and\
+  \ made  changes to its organisation , the network \narchitecture  and its operational\
+  \ procedures to prevent a reoccurrence.  \n4.1.4.  Two safety issues were identified\
+  \ during this inquiry : \n\uF0B7 Airways ' digital data network  did not have the\
+  \ resilience necessary to support \nan ATC service  \n\uF0B7 the CAA lacked the\
+  \ capability to determine  independently  if the Airways ATN \nwould perform as\
+  \ the rules required . \n4.1.5.  The following analysis explains what happened ,\
+  \ discusses  these safety issues and \nrecommends  actions to prevent a reoccurrence.\
+  \  \n4.2. What happened  \nInformal  work on the network  \n4.2.1.  A formal work\
+  \ plan had been set up to transfer one of the few existing services to the new \n\
+  network .  This service comprised  the air -ground radio communication links between\
+  \ the back -\nup OCS workstation located in the Christchurch control centre  and\
+  \ the high-frequency radio \ncontrol system located at Seagrove, Auckland.  \n4.2.2.\
+  \  The project engineers decided that it would be more efficient  to conduct a pre\
+  \ -test to ensure \nthat the Christchurch workstation could communicate through\
+  \ the new network to the radio \ncontrol system in Auckland  before the migration\
+  \ work was started .  This would be a simple \ncomputer -to-computer communication\
+  \ link test  through the network and not require any \nphysical changes (see Figure\
+  \ 2).  The engineers did not intend to operate the high-frequency  \nradios.   \n\
+  4.2.3.  The engineers considered  the pre -test to be  a minor task that did not\
+  \ require the approval of a \nformal plan.  They considered it to be low risk because\
+  \ it was for a service related to a fourth  \nlevel of back -up to the OCS.  The\
+  \ main operations for OCS were based in Auckland and this \nwork would not affect\
+  \ them .  The engineers therefore considered that they needed  just the \napproval\
+  \ of the tech nical  co-ordinator  on the day to proceed  with the pre -test, and\
+  \ th is was \nobtained .   \n \n \n \n \nFinal Report AO -2015 -005 \n<< Page 9\
+  \ >>\n  \nFigure 2  \nWhere the broadcast storm started9 \n4.2.4.  The network test\
+  \ traffic between the two computers would be transported on the same virtual \n\
+  local area network ( VLAN )10 that carried all services that were essential for\
+  \ the operation of \nthe control centre , but this commonality was not considered\
+  \ at the time to be a risk for the \npre-test.   \n4.2.5.  The pre -test was conducted\
+  \ on 16 June 2015 , with a radio engineer operating the \nChristchurch OCS contingency\
+  \ workstation  adjacent to the control centre .  The radio engineer \nwas unable\
+  \ to get the t wo computer devices to communicate , so another pre -test was \n\
+  scheduled for  23 June 2015 with a network engineer present to assist .  \nFurther\
+  \ informal work led to outage  \n4.2.6.  On 23 June 2015 , the two engineers received\
+  \ approval from the technical co-ordinator to \nconduct the second pre -test.  After\
+  \ it failed again , the network engineer connected his laptop \nto the network management\
+  \ system and confirmed that the remote and local computer \nnetwork interface cards\
+  \ were  connected and configured correctly  (see Figure 2).  He found \nthat the\
+  \ operating software (firmware11) in the local network interface card  between the\
+  \ OCS \ncontingency workstation and the digital network was the factory default\
+  \ version and had to be  \nupgraded.    \n4.2.7.  At the time i t was normal procedure\
+  \ for Airways ' network engineers to upgrade firmware in \nnetwork equipment remotely\
+  \ and while the equipment  was in  an operational mode.  The \nfacilities to enable\
+  \ remote network management were standard provisions in the network \nmanagement\
+  \ software and network equipment.  The network team manager  explained that \nremote\
+  \ network maintenance was preferable to sending members of his team to distant sites\
+  \ \nwhen he had limited  resources.  \n                                        \
+  \                \n9 MPLS = label system.  \n10 A VLAN extends across multiple networks\
+  \ to connect equipment as if they are on the same local area network.  \n11 Firmware\
+  \ is software that has been saved onto a non -volatile memory chip fitted to a hardware\
+  \ devi ce. The firmware \ncontrols how that hardware device operates.  \n\n\n<<\
+  \ Page 10 >>\n Final Report AO -2015 -005 4.2.8.  The network  engineer proceeded\
+  \ with th e firmware  upgrade  without hesitation. He remotely \ndownloaded the\
+  \ new firmware to the network interface card , then rebooted it to commence \nthe\
+  \ installation process .  After a delay that he considered was too long, the network\
+  \ interface \ncard had not come back online , so he went to the equipment room \
+  \ to remove the card  from \nthe mounting rack  (see Figure 3).   \n4.2.9.  In doing\
+  \ so h e walked through the ATC room  and past the technical co-ordinators to the\
+  \ \nequipment room .  He partially extracted the network interface card  to disconnect\
+  \ it from the \npower  supply , then left it in the mounting rack  while he went\
+  \ to get an antistatic bag to take \nthe card  back to the workshop.  He was diverted\
+  \ from that task to assist with a major problem \nthat had developed in the control\
+  \ centre .  This was the outage.  \n4.2.10.  The outage had started when the engineer\
+  \ rebooted the network interface card , and the \ndisruption began to subside  when\
+  \ he disconnected the card from the power supply .  He had \nno idea at the time\
+  \ that his actions had  both  initiated and stopped the outage.  The reboot had\
+  \ \ncreated a 'broadcast storm' within the network , and specifically within the\
+  \ VLAN that carried \nall services to the ATC workstations . The storm  had prevented\
+  \ legitimate data packets  \ntransported within the VLAN from reach ing their intended\
+  \ destination s. \nWhat is a b roadcast storm ? \n4.2.11.  An example of a  'broadcast\
+  \ message ' is the message packet initiated by a digital network \nswitch to find\
+  \ out  what devices it is connected to .  In this case the switch broadcast s an\
+  \ \n'address request'  message  to all connected devices to request the ir address\
+  \ details , then \nuses the responses to update its switching table .  The switch\
+  \ read s the destination address \ndetails of all incoming data packet s, checks\
+  \ its switching table  and forwards the d ata packets \nto their correct destinations\
+  \ .   \nFigure 3 \nDigital data network cabinet  \n \nFinal Report AO -2015 -005\
+  \ \n<< Page 11 >>\n 4.2.12.  A broadcast storm can be created under certain conditions\
+  \ if a network switch gets a confused \nresponse about which devices are connected\
+  \ to its ports, which can then corrupt the switching \ntable .  For example , if\
+  \ two ports on a switch are unintentionally looped together through \nexternal cables\
+  \ or connections , the switch will send broadcast messages to both ports and \n\
+  they will be received  by the same switch  through the port at the other end of\
+  \ the loop. Each \nincoming broadcast message from the loop is re -broadcast to\
+  \ all other ports. This sequence \nkeeps repeating and will rapidly  generate a\
+  \ storm of 'address request ' messages  unless some \naction is taken  to quell\
+  \ them .   \n4.2.13.  The network switching equipment must still manage the address\
+  \ request messages , but the \nvolume of such messages in a storm can overload a\
+  \ switch.  An overload prevents the switch  \npassing genuine packets to the appropriate\
+  \ port s and on to their respective destinations.  \nOnce genuine packets are hindered,\
+  \ dropped or blocked from passing through the network, \nuser services are affected.\
+  \   \n4.2.14.  Broadcast storms are a known phenomenon within data networks.  Commercial\
+  \  network \nequipment usually has standard configuration settings and software\
+  \ protocols ,12 such as 'loop \ndetection' , 'storm control' and 'Spanning Tree\
+  \ Protocol' , to detect the conditions that could \ninitiate a broadcast storm and\
+  \ prevent one building.  \nWhat started  the broadcast storm ? \n4.2.15.  The firmware\
+  \  in the network interface card  had a dormant code  error  that had escaped the\
+  \ \nmanufacturer's quality assurance tests .  It was found later to have an effect\
+  \ only when the \nfirmware was upgraded from the factory default version to the\
+  \ version current at the time  of \nthe pre -test. Airways ' engineers were not\
+  \ aware that the code error  existed either , because \nthey had not made this particular\
+  \ firmware version upgrade .  The network interface card  was \nconnected to the\
+  \ switch by  two separate ports to provide redundancy if one path failed.  When\
+  \ \nthe engineer  rebooted the network interface card  to install the upgraded firmware\
+  \ , the code  \nerror  took effect.  It unintentionally bridged the two ports on\
+  \ the network interface card , which \nformed a loop in the  switch and thereby\
+  \ created the conditions  for a broadcast storm . \n4.2.16.  The switch (called\
+  \ the IPMux switch) to which  this interface card was connected had the \ncapability\
+  \ to protect itself against loops and broadcast storms , but this had been disabled\
+  \ in \nthe configuration settings for other reasons (see paragraph 4.3.19 ). Consequently\
+  \ , a \nbroadcast storm built rapidly and escalated out of control.   \nHow did\
+  \ the broadcast storm cause the outage?  \n4.2.17.  Airways ' networ k was arranged\
+  \ so that  all operational telephones, radio , surveillance  and \nrunway information\
+  \  services  were connected to one common VLAN across the country  (called \nthe\
+  \ IPMux VLAN).  Other VLANs were also used for related ATC services .  \n4.2.18.\
+  \  The storm was initiated and contained within the IPMux VLAN , but moved through\
+  \ the \nadjacent , upstream  network switch to the firewall s.  Both switches were\
+  \ very  high-performance \ntypes and had ample  processing capacity to handle the\
+  \ broadcast messages and the ir normal \npacket traffic , but the firewall s were\
+  \ affected .  The firewall s were not able to process  both the \nstorm of broadcast\
+  \ messages and apply the security rules to the normal data traffic .  The \nfirewalls\
+  \  dropped connections  from the normal data traffic  in order to respond to the\
+  \ \nbroadcast messages .   \n4.2.19.  The dropped data traffic was the radio and\
+  \ telephone conversations that controllers were \nconducting and the incoming raw\
+  \ radar data for the ATC data -processing system.   \n4.2.20.  The controllers'\
+  \  digital desk phone system for radio and telephone conversations used the \ndigital\
+  \ data network to make external connections  to control towers and radio equipment\
+  \ \naround the country .  As the broadcast storm built, n ew telephone calls  and\
+  \ radio \ncommunications to and from the control centre  could not be connected\
+  \  to Airways ' network .   \n                                                 \
+  \       \n12 A protocol is a set of rules that governs some activity.  \n\n<< Page\
+  \ 12 >>\n Final Report AO -2015 -005 4.2.21.  The controllers ' alternative radio\
+  \ frequencies were accessed through the same digital desk \nphone system and were\
+  \ dependent on the network , so they became  unusable.  Some of the \nstandby radio\
+  \ systems were connec ted to the digital telephone exchange and some were hard -\n\
+  wired to an adjacent building.  All those connected to the digital telephone exchange\
+  \ were \ndisabled by the blockage at the firewalls.  \n4.2.22.  At the same time\
+  \ , the processed surveillance and flight planning information displayed at \ncontrollers\
+  \ ' workstations started to degrade as raw data from sources outside the control\
+  \ \ncentre  was blocked  from updating the ATC data -processing system .   \n4.2.23.\
+  \  The surveillance data from the southern area of the South Island was not a ffected\
+  \ by  the \nbroadcast storm and was displayed as normal .  This data traffic travelled\
+  \ through the same \nphysical firewall s, but the data  packet s were logically13\
+  \ associated with  another VLAN \n(independent of the IPMux VLAN ), so were  isolated\
+  \ from the broadcast storm.    \nEffect on airport control towers  \n4.2.24.  All\
+  \ airport  towers receive d their processed radar  targets and flight planning information\
+  \ from \nthe data -processing centre  at Christchurch , so they suffered the same\
+  \ degradation of \nproce ssed data as the controllers  in the control centre . \
+  \ \n4.2.25.  International control towers had  a local radar data -processing capability\
+  \ that was \nsynchronised with the Christchurch  system .  However, they  also had\
+  \ links to alternative raw \nradar data directly from  their local surveillance\
+  \ radar heads , so they were able to continue to \noperate  with reduced capability\
+  \ in  bypass mode.   The telephone and radio worked normally for \nlocal calls and\
+  \ airport radio frequencies.  \n4.2.26.  Regional towers did not have local data\
+  \ -processing  capabilit ies, so those controllers lost all \nprocessed data  from\
+  \ their workstation displays.  The telephone s and radio s worked normally \nfor\
+  \ local calls and local radio equipment , but radio s that were  physically remote\
+  \ and \nconnected through the network would not have worked.  \n4.2.27.  All airport\
+  \ tower controllers were unable to contact the sector controllers in Christchurch\
+  \ using \nAirways ' phone system, but could by cell phone.  \nFindings  \n1. The\
+  \ loss of ATC services occurred when a broadcast storm in the Airways digital \n\
+  data network blocked normal communications and raw radar data traffic to and \n\
+  from the control centre.  \n2. A dormant programming code error in the firmware\
+  \ of a network interface card \ncreated a bridge between its two ports during a\
+  \ firmware reboot.  Both ports \nwere connected to a network switch at the time,\
+  \ which created a loop and \ninitiated the broadcast storm.  \n3. The IPMux network\
+  \ switch had the capability to detect and prevent broadcast \nstorms escalating,\
+  \ but Airways had temporarily disabled these mitigation \nprotocols when it configured\
+  \ the switch due to an unexpected side effect. \nAirways had not made alternative\
+  \ arrangements to protect against broadcast \nstorm events.  \n \n \n \n \n    \
+  \                                                    \n13 This means that the digital\
+  \ code in the data packets separated them from packets in other VLANs.  \n \nFinal\
+  \ Report AO -2015 -005 \n<< Page 13 >>\n 4.3. Airways ' network resilience  \nSafety\
+  \ issue  - Airways' digital data network  did not have the resilience necessary\
+  \ to support  an \nATC  service.  \n4.3.1.  Resilience is the ability of a system\
+  \ to recover quickly and provide at least a basic service if \nsome part of it fail\
+  \ s or is disabled.   In terms of the ATN, resilience is the product of good \n\
+  design  with built -in redundancy , sound maintenance processes , and testing to\
+  \ ensure  that the \noverall system remains  resilient.  This section explains why\
+  \ Airways ' ATN lacked sufficient \nresilience for  its intended purpose.  \nCompliance\
+  \ documentation  \n4.3.2.  The Airways Engineering and Maintenance Group's exposition\
+  \ define d how the group w ould \nmeet its obligations under  CAR Part 171.  The\
+  \ exposition  linked to the Engineering and \nMaintenance  Group's Information F\
+  \ ramework for details of the policy and process es.   \n4.3.3.  The standard Airways\
+  \ design and development process start ed with a concept design , then \nprogresse\
+  \ d through p reliminary design to the detailed design phase .  Each phase require\
+  \ d an \napproval process to start , and a check and approval process to end.  The\
+  \ design certificates \nfor the preliminary and detailed design phases define d\
+  \ the infor mation required for each \nphase and provide d a record of the completed\
+  \ design.  The completed design package had to  \nbe in a final, approved state\
+  \ and certified to that effect on the design certificate before \ninstallation could\
+  \ commence.  \n4.3.4.  The new portion of the digital data network contained within\
+  \ the IPMux project was designed \nand built by the network team from  the Airways\
+  \ Engineering and M aintenance Group .   \n4.3.5.  A contract of service between\
+  \ the Engineering and Maintenance Group and the Service \nDelivery Group  was defined\
+  \ in an Airways document called the Letter of Agreement.  The letter \ninclude d\
+  \ the process for seeking approval to carry out any work on the network and the\
+  \ \nequipment  that was regarded as critical to service delivery.   \nNetwork design\
+  \  control  \n4.3.6.  When t he Airways IPMux Project Charter was authorised on\
+  \ 1 July 2013, the next step  was the \ndetailed design phase .  The detailed design\
+  \ certificate (DDC) should have been up to date and \napproved before installation\
+  \ work started , but the most recent version  (obtained five months \nafter the\
+  \ outage ) was dated 5 August 2014.   It was an old draft version  with obvious\
+  \ \ndifferences  from the system that was installed .   \n4.3.7.  The list of design\
+  \ standards in the DDC omitted  some standards that were considered critical , \n\
+  and listed  others that were  critical  but had not been complied with in the design.\
+  \ For exam ple, \nICAO (International Civil Aviation Organization )14 Annex 10,\
+  \ Vol ume 3 describe d the basic \nrequirements for an ATN to transport communications\
+  \ and digital data, but was not listed . \nEuropean Organisation for Civil Aviation\
+  \ Electronics  (EUROCAE )15 standards ED-136 and ED -\n138, which  described the\
+  \ operational and technical requirements for ATNs that transport ed \ndigitised\
+  \ voice communications ,16 were  listed  but not met .    \n4.3.8.  The minimum\
+  \ standard required  by EUROCAE  ED-138 is for  data and voice services to be \n\
+  separated logically or physically to maintain their independence .17  The requirement\
+  \ for \nseparation was specified  in Airways' DDC , but was not implemented in the\
+  \  IPMux network .  An \nacceptable option would have been to transport voice and\
+  \ surv eillance data  on different \nVLANs . Airways had used VLANs to separate\
+  \  other ATC  services in previous network iterations  \nand carried the same grouping\
+  \ over to  this new design for the IPMux project . Had the \n                  \
+  \                                      \n14 The ICAO is a UN specialised agency\
+  \  established by states in 1944 to manage the administration and governance of\
+  \ \nthe Convention on International Civil Aviation (Chicago Convention).  \n15 EUROCAE\
+  \ is a European forum focusing on electronic equipment for air transport, which\
+  \ deals exclusively wit h \naviation standardisation for both airborne and ground\
+  \ systems and equipment.  \n16 Commonly called VoIP.  \n17 ED-138, Part 1, section\
+  \ 3.5.3.  \n\n<< Page 14 >>\n Final Report AO -2015 -005 surveillance  and voice\
+  \  services  been logically separated into separate VLANs , the outage may \nhave\
+  \ been limited to just communications or surveillance , rather than both.  \n4.3.9.\
+  \  The DDC had not been updated to reflect the equipment change s made during the\
+  \ design \nprocess. The design team had decided to change th e network switches\
+  \ to a type from a \ndifferent manufacturer .  The new equipment had different broadcast\
+  \ storm mitigation \nprotocols  that were found to have an unexpected side effect\
+  \ , so these  protocols had been  \ntemporarily disabled. This unrecorded design\
+  \ ch ange therefore had a significant consequence  \nduring the  events leading\
+  \  to the outage.  \n4.3.10.  The DDC proposed that device configuration settings\
+  \ be recorded in the different network  \nmanagement tools specific to each manufacturer's\
+  \ products , and in a design docum ent for \neach major component of the new network.\
+  \  Configuration settings for network switches and \nrouters are critical parts\
+  \ of a design that define how the network will operate.  It was not clear \nhow,\
+  \ or whether,  these settings were designed and approved.      \nNetwork drawings\
+  \  \n4.3.11.  The standard for drawings and documentation required by a DDC for\
+  \ a completed design was \ndefined in the Airways exposition. The exposition required\
+  \ design documents to be traceable \nand approved with  a level of detail 'sufficient\
+  \ to allow the installation engineer to meet the \ncustomer requirements '.  It\
+  \ went  on to state  that, 'The watermark shall state \"Approved for \nDetailed\
+  \ Design Purposes, or Installation Purposes as applicable \"'. Appendix A in the\
+  \ DDC was \nsupposed to be a register of design documentation , but was blank. \
+  \  \n4.3.12.  The network design  drawings  obtained immediately after the outage\
+  \ had not been  approved , \nnor did they show their revision status.  The drawings\
+  \  focused on detail ed aspects of the \ndigital data network  without  the high-level\
+  \ system information  that would  have  provide d an \nend-to-end view of how each\
+  \  service would use the digital data network.  Several drawings \nwere generic\
+  \ and had been copied to use for other equipment , but the unique connection  \n\
+  details did not match . Several drawings with the same number were obviously different\
+  \ and \nothers did not match the equipment t hat had been  installed.   \n4.3.13.\
+  \  The drawing set was incomplete and sh ould not have been used to install  the\
+  \ new network  in \nthe control centre .  However,  the physical installation was\
+  \ complete and had been in \noperational  service for some time  when the outage\
+  \ occurred . \nDesign review    \n4.3.14.  A normal step during a design process\
+  \ is for an independent designer to review the design \ndocuments against the design\
+  \ objectives and check key points to ensure that the design  can \nbe built and\
+  \ th at th e documentation is complete .18  A design review team was nominated in\
+  \ \nthe DDC , but a review did not take place.    \n4.3.15.  After the outage Airways\
+  \ arranged for an independe nt technical review of its entire ATN and \nthe new\
+  \ network design .  The extensive report made many observations  and listed 26 \n\
+  recommendations in the subject areas of network design and configuration, network\
+  \ \noperations, network security and general processe s and management.  Key recommendations\
+  \ \nwere to strengthen the governance, form an operations support centre and increase\
+  \ staff \nresources of the network team to match its importance to Airways ' service\
+  \ delivery.  This \nincluded establishing a new network man agement position that\
+  \ was closer to the General \nManager System Operator.    \n                   \
+  \                                     \n18 A typical design process that was in\
+  \ accordance with the ISO 9001 standard would include these processes and \nchecks.\
+  \  \n \nFinal Report AO -2015 -005 \n<< Page 15 >>\n Risk management  by the network\
+  \ team  \n4.3.16.  The Airways network team  had a risk management process  for\
+  \ maintenance on the network ,19 \nbut it was not used in every instance  and nor\
+  \ was it effective .  This section  discusses the \nadequacy of the risk management\
+  \ processes for network maintenance activities.  \n4.3.17.  The network engineering\
+  \ team considered it  normal practice to update firmware  on network \nequipment\
+  \ while the equipment was in s ervice  and without taking any special precautions\
+  \ .  \nThis activity should not have been permitted in a data centre where the \
+  \ risk of something \ngoing wrong c ould have safety implications.   It was also\
+  \ contrary to the expectations of the \ncontract for service between the Engineering\
+  \ and Maintenance Group and the ATC Service \nDelivery  Group . \n4.3.18.  The Letter\
+  \ of Agreement list ed 'network equipment ' in the highest  level of criticality\
+  \ for \nAirways ' ability to manage aircraft safety.  Under the terms of the agreement\
+  \ ,20 the network \nengineer should have sought formal approval to upgrade the firmware\
+  \ on the network \ninterface card .  However , as he had already commissioned about\
+  \ 100 of these network \ninterface card s and upgraded their firmware  at various\
+  \ times during the IPMux  project  without \na problem , and he was about to undertake\
+  \ what the network team considered a 'normal \npractice ' of upgrading equipment\
+  \ while it was in service,  he did not seek formal approval . \n4.3.19.  When the\
+  \ new IPMux network switches were first installed and con figured, the engineers\
+  \ had \ndiscovered a conflict between  the broadcast storm mitigation software within\
+  \ the switch es and \nanother network service.  The project manager's decision for\
+  \ dealing with this conflict and \nhigher priority work was to  temporarily disable\
+  \ the broadcast storm protocols in the IPMux \nswitches until it could be resolved\
+  \ at a later date.  The ramification was that  all IPMux switch es \ninstalled from\
+  \ that date would have been unable to suppress a broadcast storm.   \n4.3.20.  If\
+  \ the disabling of the  broadcast storm mitigation  had been logged as a system\
+  \ risk , and the \nengineer had considered that risk when he was thinking about\
+  \ upgrading the network \ninterface card 's operating software, the outcome may\
+  \ have been different.  Similarly, if the \npractice of u pgrading equipment within\
+  \ an operational environment without taking any \nadditional precautions had included\
+  \ some basic risk management steps, the broadcast storm \nwould not have been created.\
+  \  \n4.3.21.  Any of the following actions would have minimised or eliminated the\
+  \ risk of a broadcast storm.  \nThe engineer could have removed the network interface\
+  \ card  and upgraded it in the test lab  \nthen reinstalled it.  Alternatively ,\
+  \ he could have removed one of the network connections from \nthe card and upgraded\
+  \ it in situ , or he could have  replaced the card with a pre -tested unit.  If\
+  \ \nhe had sought approval from the Service Delivery Group, the decision may have\
+  \ been to \npostpone the pre-test to a time with minimal impact s on air traffic.\
+  \  \nRisk management during historical network  maintenance  \n4.3.22.  Samples\
+  \ of t he maintenance work planning process es in the six months leading up to \
+  \ the \noutage21 were  reviewed and found to lack adequate risk management.  These\
+  \ contain ed \ngeneric and non -specific information that was copied from one plan\
+  \ to ano ther with minim al \nchange.  The sampled plans did not have drawings \
+  \ associated with them .  The plans did not \nconsider  the possibility of a problem\
+  \  or include 'back -out' actions if the work could not be \ncompleted in the approved\
+  \ timeframe.  \n4.3.23.  In the six months  before the outage in  2015  and for\
+  \ up to 12 months after wards , Airways \nnotified the CAA of  several  network\
+  \ incidents.  This period coincided with the commissioning \nand migration  of services\
+  \ to the new network.  These incidents were reviewed  as part of this  \ninquiry\
+  \ in order to understand the work that was being performed and to identify any common\
+  \  \n                                                        \n19 Defined in the\
+  \ Engineering and Maintenance Group Information Framework.  \n20 Section 9.2 of\
+  \ the Letter of Agreement.  \n21 These were Network Engineering Notices.  \n\n<<\
+  \ Page 16 >>\n Final Report AO -2015 -005 themes.  Eleven  of the incidents that\
+  \ had some similarities to the outage were examined  \nfurther in conjunction with\
+  \ Airways.   \n4.3.24.  Two themes were appa rent.  First , the incidents had surprise\
+  \ d the engineers involved because \nthey had initially assessed the work as being\
+  \ non -intrusive to operations.  Secondly, the \nnetwork configuration  did not\
+  \ seem to have had the diversity and self -repairing ability that \nengineers said\
+  \ it was designed to have.  The incidents had been  disruptive , but digital services\
+  \ \nhad not always  transferred  automatically to a secondary path  when the primary\
+  \ path failed .  \nBoth themes point ed to inadequate consideration s of risk management\
+  \ during  the design of \nthe network and for the maintenance . \n4.3.25.  The examples\
+  \ of unexpected problems caused during maintenance  indicate that the network \n\
+  team's risk management processes were not mature .  The Commission previously \n\
+  investigated two incidents involving Airways ' systems in 1997 and 2000 that had\
+  \ similar \nthemes to the more recent events (see Appendix 1).  International data\
+  \ on such events was \nnot readily available , which could have indicate d either\
+  \  that such incidents were  not normally \nreported to , or investigated  by, aviation\
+  \ authorities  or that they were  rare.  Either way , the \nlessons have not been\
+  \ made available to the public.  \nRisk management for the IPMux project  \n4.3.26.\
+  \  The design and installation of the new network was managed by a dedicated project\
+  \ manager , \nbut at least two major project risks  could only be resolved with\
+  \ corporate input  - equipment \ndelivery delays and a lack of project staff resources\
+  \ .  Both risks had been identified in the \nIPMux Project Charter when the project\
+  \ received corporate approval  and both materialised  \nwith detrimental impact\
+  \ s on the project 's delivery.    \n4.3.27.  The telco had set a fixed deadline\
+  \ for Airways to upgrade its network equipment in order to \nmaintain connectivity\
+  \ , and th at drove the project timeline.  When an international supplier \ndelay\
+  \ ed its equipment delivery , Airways ' response was to reduce the planned equipment\
+  \ test \nprogram to meet  the external deadline .  During the installation phase\
+  \ the small team of \nengineers was working long hours and away from home for extended\
+  \ periods.  The lac k of \nteam resources became a significant risk to  the success\
+  \ of the project , and for Airways in \nterms of the health and safety  of the network\
+  \ installation team . \n4.3.28.  A test lab oratory  had been  proposed , where\
+  \ engineers could create a replica network and test \nnew equipment interfaces,\
+  \ new software and configuration changes before placing them into \na production\
+  \ environment.  Funding for this laboratory was not approved  by Airways ' senior\
+  \ \nmanagement until after the outage.   \nATN vulnerabilities exposed by th e outage\
+  \  \n4.3.29.  The outage presented a real situation to test the resilience of the\
+  \ ATN.  It exposed a major \nweakness in that  all air traffic services delivered\
+  \ from the control centre  were subject to a \nsingle point of network failure \
+  \ along with other design vulnerabilities .   \n4.3.30.  Airways had taken steps\
+  \ in its design of the ATN to avoid single points of failure . These \nincluded\
+  \ : equipment duplication and physical separation between items of equipment ; diverse\
+  \ \ncable routes; back -up and uninterruptable power supplies; and telco independence\
+  \ .  In spite \nof these efforts the network itself remained  common to all services.\
+  \   \n4.3.31.  The standby radio s were  connected to the same digital telephone\
+  \ exchange as the main and \nalternat ive radio frequencies , and the primary telephones\
+  \ .  When the broadcast storm \noccurred, the digital telephone exchange was unable\
+  \ to make connections through the \nnetwork to locations outside the building ,\
+  \ so the standby radio s did not have the intended \nindependence.  \n4.3.32.  Transporting\
+  \ voice communications for teleph one and radio on the same logical VLAN as radar\
+  \ \ndata meant that they shared a common potential point of failure.   This was\
+  \ contrary to the \nbest advice provided in EUROCAE 's minimum specification , ED-138.\
+  \  \n \nFinal Report AO -2015 -005 \n<< Page 17 >>\n 4.3.33.  The earlier postponement\
+  \ of efforts to  resolv e the q uestion of  why the broadcast storm \nmitigation\
+  \ protocols of the IPMux switches did not work  with other network services , and\
+  \ the \ndecision to disable this feature  temporarily  left the network vulnerable\
+  \ to further loss of \nservices .   \n4.3.34.  An analysis of the configuration\
+  \ tables of the two switches directly involved in the outage \nrevealed an other\
+  \ deficiency  that could have made the  network  less resilient.  Some VLAN \nservices\
+  \ passing in parallel between  the two switches to the two firewalls would  not\
+  \ have had  \nan alternative route if the primary route had failed .  In that event\
+  \  information would have been \nlost.   \n4.3.35.  The two firewalls were also\
+  \ effectively placed in the centre of the internal network , rather than \nat the\
+  \ periphery . That  was an inappropr iate location  for the network architecture\
+  \ , because it  \nwould  likely have required the firewalls to make routing decisions\
+  \ for the data packets , as well \nas perform their  prime function of making  security\
+  \ decisions about through -traffic.  This extra \nprocessing load for an already\
+  \ complex operating characteristic turned  the firewalls  into a \nsingle point\
+  \ of failure when they were faced with the broadcast storm  from inside  the network.\
+  \  \nTraining  \n4.3.36.  The Engineering and Maintenance Group p rocedures required\
+  \ work requests  to be reviewed \nand approved by technical co-ordinators.  The\
+  \ technical co-ordinators on duty at the time of \nthis outage , in common with\
+  \ other technical co-ordinators, did not have sufficient technical \nknowledge of\
+  \ the netwo rk structure and operation to assess  properly  the impact risk  of\
+  \ \nnetwork maintenance  tasks on ATC.  \n4.3.37.  The technical co-ordinators were\
+  \ familiar with aeronautical navigation systems , but less so \nwith digital data\
+  \ networks.  In general they had not been trained on the digital data network ,\
+  \ \nso they lacked the knowledge and skill s to make informed decisions about the\
+  \ risk s to ATC \nservices  of proposed network maintenance.  There was a  lack\
+  \ of system drawings and \nexplanatory documentation to show the technica l co-ordinators\
+  \ how the ATC system used the \nnetwork , so they had to rely on the advice of the\
+  \ network engineers.   \n4.3.38.  Airways realised this weakness after the outage\
+  \ and implemented network familiarisation \ntraining for the technical co-ordinators\
+  \ and others who had an interest.  Formal training \nmodules have been put in place\
+  \  and now there is more contact and information  sharing \nbetween the technical\
+  \ co-ordinators and the network engineers.   \n4.3.39.  Airways also realised that\
+  \ network engineers lacked the skills to evaluate  risk at a corporate  \nlevel.\
+  \  Formal training in risk management has been conducted with the network engineering\
+  \ \nteam.  \nThe network team management  \n4.3.40.  The network engineering team\
+  \ had been  formed relatively recently, whereas the ATN (in \nvarious arrangements\
+  \ ) had been managed by Airways for a long time and had establish ed a \ntrack record\
+  \ of reliability . \n4.3.41.  The network engineering team's importance and responsibility\
+  \ had grown significantly as the \nATN had become more dependent on digital d ata\
+  \ networking to connect Airways ' \ninfrastructure.   Airways ' organisational structure\
+  \ had not been altered to reflect  the growing \nsignificance, which meant the team's\
+  \  management was several levels removed  from the \nGeneral Manager  System Operator\
+  \ .  This dis tance was likely as not a factor in the team being \nunder -resourced\
+  \ for the IPMux project, and its inadequate approach to risk management.  \n4.3.42.\
+  \  Airways has made changes to improve the management and functioning of the network\
+  \ team \nto improve its  performance  (see section 6) .   \n \n \n \n\n<< Page 18\
+  \ >>\n Final Report AO -2015 -005 Findings  \n4. Airways ' policy was not followed\
+  \ in the design process for the new digital data \nnetwork.  This resulted in design\
+  \ documentation that was not controlled or \napproved , and contained errors and\
+  \ omissions that made the documentat ion \nunfit for purpose.  \n5. The risk management\
+  \ process generally used by Airways ' network engineers for \nplanned network maintenance\
+  \ did not take proper account of the context of the \nwork , or whether it was appropriate\
+  \ to be performed in the production \nenvironm ent, and therefore created some unexpected\
+  \ service disruptions to air \nnavigation services.  \n6. The digital data network\
+  \ in the control centre  had design vulnerabilities that had \nnot been adequately\
+  \ considered or tested. This led to the outage being \nunexpected and having a greater\
+  \ effect on the ATC system than anticipated.   \n7. Airways had not trained the\
+  \ technical co-ordinators adequately to allow them to \nmake informed decisions\
+  \ about the risk s to service delivery of proposed \nmaintenance on the digital\
+  \ data networ k.    \n8. The team responsible for the design, procurement, installation\
+  \ and \ncommissioning of the new network did not have sufficient authority to manage\
+  \ \nsignificant project risks properly.  \n \n4.4. The CAA overview  of the Airways\
+  \ network  \nSafety issue - The CAA  did not have the appropriate capability to\
+  \ determine  independently  if the \nAirways ATN  would perform as the rules required\
+  \ . \n4.4.1.  The CAA audited the provision of ATN services against CAR Part 171.\
+  \  The rule s listed specific \nair navigation  services such as non-directional\
+  \ beacon s, distance measuring equipment and \nradio navigation aids.  Further system\
+  \ and t echnical specifications were expected to comply  \nwith ICAO Annex 10, Volume\
+  \ s 1, 3 and 4 , where appropriate . The rule define d the \nrequirements in  terms\
+  \ of t he services required, documentation, manuals, operation, \nmaintenance, management\
+  \ and quality assurance. Service provider s such as Airways  \ndescribe d in their\
+  \ exposition s how these requirements would be met . \n4.4.2.  ICAO Annex 10 contain\
+  \ ed standards and recommended practices , but  left options up to the \nrespective\
+  \ states ' civil aviation authorit ies. CAR Part 171 did not specify  the options\
+  \ from ICAO \nAnnex  10 that were appropriate for New Zealand.  \n4.4.3.  CAR Part\
+  \ 171  was written in 1992 and had not been updated since to accommodate  changes\
+  \ \nin the technology  typically used by  an ATN certificate holder in 2017.  For\
+  \ example, the non -\ndirectional beacons listed were  planned to be decommissioned\
+  \ in the near future and data \nnetworks were  not mentioned .  The digital data\
+  \ network s are  an essential component of \nAirways' business, linking the ATN\
+  \ and ATC services, both of which incorporate increasingly \nadvanced subsystems\
+  \ .  \n4.4.4.  Although Part 171  was outdated , Airways had adopted new technology\
+  \ to modernise the AT C \nsystem, and had revised its exposition to reflect the\
+  \ changes.   As Airways was the sole \nprovider of both ATC and the ATN , it was\
+  \ able to define  its technical requirements for the ATN \nin the Letter of A greement\
+  \ between the two internal groups of Airways .  The Letter of \nAgreement was o\
+  \ utside the CAA's audit scope . \n4.4.5.  This arrangement led the CAA to stand\
+  \  back from auditing the wider network systems and \nprocesses that were  not in\
+  \  CAR Part 171 and to concentrate  on the traditional equipment and \nsystems covered\
+  \ by the rule  and ICAO Annex 10.   However , by adopting this position  the CAA\
+  \ \nallowed its internal technical knowledge and familiarity with Airways ' systems\
+  \ to decline.  \n \nFinal Report AO -2015 -005 \n<< Page 19 >>\n 4.4.6.  From the\
+  \ mid -1990s , digital data networks bec ame more prevalent in the primary systems\
+  \ \nthat underpin ned Airways ' ATN, but they were  not listed in the Airways  exposition.\
+  \  The CAA did \nnot enquire into the design or  maintenance of the digital data\
+  \ network systems or the ATC \nsoftware systems , but did consider their overall\
+  \ performance as part of the complete ATN .  At \nthe time of the outage  the CAA\
+  \ did not have the expertise necessary to conduct an effective  \naudit  of the\
+  \ technology  or processes that Airways used to support the digital data netw ork.\
+  \ The \nCAA Part 171 auditor in 2015 had no experience with digital data networks\
+  \  and retired shortly \nafter  the outage, leaving the position vacant.   \n4.4.7.\
+  \  At the time of the outage the digital data network was not listed in the exposition\
+  \ as one of the \nfacilities that Airways provide d, so it would not have been a\
+  \ focus for CAA audits either.  \n4.4.8.  The future of New Zealand's controlled\
+  \ airspace has been set out in  a plan called the New \nSouthern Sk y, which is\
+  \ led by the CAA in association with Airways and the Ministry of \nTransport.  This\
+  \ is part of an international ICAO plan to update the global  air navigation \n\
+  systems.  A crucial part of this new plan is the digital data network that will\
+  \ support all the \nvarious aspects of the air navigation service .   \n4.4.9. \
+  \ As the performance of the New Southern Sky will have a high dependency on digital\
+  \ data \nnetworks, the CAA will need to maintain an  active role to ensure that\
+  \ network performance \nand resilience are maintained at acceptable level s for\
+  \ the global system . This will include \nhaving the in-house technical capability\
+  \ and familiarity with all  technology and software \nsystems that Airways uses\
+  \ to provide the air navi gation system , so that the CAA can  \nunderstand how\
+  \ they work, how  they are  used  and what performance to expect , and ensure \n\
+  that any potential vulnerabilities  are managed.   \n \n  Findings  \n9. CAR Part\
+  \ 171 , which  defines the requirements for an  aeronautical \ntelecommunications\
+  \  certificat e holder, is not contemporary for regulating a \nmodern  aeronautical\
+  \ telecommunications  system  that uses  technology  such as \ndigital data networks\
+  \ . \n10. CAR Part 171 limited the  CAA to an  audit scope that reflected the technology\
+  \ \nenvironment of aeronautical telecommunications that were in place  in 1992 \
+  \ \nwhen the Rule Part was developed .  \n11. The digital data network was a major\
+  \ part of the air navigation system provided \nby Airways , but the CAA did not\
+  \ have the capability in-house to audit or review \nthe network 's performance and\
+  \ management.   \n\n<< Page 20 >>"

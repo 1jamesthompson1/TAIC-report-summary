@@ -1,16 +1,64 @@
-- The standard of passage planning on board the Rena often, and in some respects, did not comply with the company safety management system, or with the vessel's safety management system, or with the STCW Convention.
-- The Rena crew occasionally deviated from the passage plan in an ad-hoc manner and did not always incorporate those deviations into the plan - nor did they adequately monitor the ship's progress against the deviations. Deviating from the passage plan was one factor directly contributing to the grounding.
-- The standard of watchkeeping on board the Rena for the accident voyage and particularly the watch period during which the grounding occurred, in almost all respects, did not comply with the industry best practice described in the IMO Voyage Planning Guidelines and The Nautical Institute's Bridge Team Management - a Practical Guide.
-- The crew were not adequately monitoring and fixing the Rena's position as the ship approached Astrolabe Reef and the port of Tauranga.
-- The watchkeeper was not making the most effective use of the bridge navigation equipment on board the Rena before the grounding.
-- The compass error was infrequently checked and was not checked at all on the voyage from Napier to Tauranga. A ship's compasses are principal pieces of navigational equipment and they have an inherent margin of error. Knowing the error in each is critical to safe navigation, particularly when navigating close to hazards and in narrow channels.
-- There was no clear delineation of who had control of the Rena at the time of the grounding, and the master, having assumed that he had taken control, had received virtually no information on where the ship was, where it was heading, and what immediate dangers to navigation he needed to consider.
-- The performance of both the master and the second mate was likely to have been at least mildly affected by fatigue during the work period midnight to 0215, the period leading up to the grounding.
-- The CIEL oversight of the safety management system as applied on board the Rena was not sufficient to prevent a high number of port state control deficiencies and violations of some company procedures for voyage planning and navigation.
-- '- The number of port state control deficiencies identified against the Rena and its detention in Fremantle for non-compliance with statutory requirements indicates that the safety management system as applied on board the Rena was not meeting the objectives of the ISM Code.
+- safety_issue: 'The standard of passage planning on board the Rena often, and in some respects, did not comply with the company safety management system, or with the vessel''s safety management system, or with the STCW Convention.
 
+    '
+  quality: exact
+- safety_issue: 'The Rena crew occasionally deviated from the passage plan in an ad-hoc manner and did not always incorporate those deviations into the plan - nor did they adequately monitor the ship''s progress against the deviations. Deviating from the passage plan was one factor directly contributing to the grounding.
 
-  - Eight of the 12 vessels managed by CIEL had higher rates of deficiencies per inspection than the average of all other vessels subjected to port state control inspections in the Asia-Pacific region in the same period. The Rena''s deficiency rate was almost twice the average. This indicated that the CIEL safety management system for the vessels operating in the Asia-Pacific region, and for the Rena, was not functioning as it could have been according to the ISM Code.'
-- Independent audits had found that the Philippine seafarer training system did not meet the standards specified by the STCW Convention at both systemic and training institute levels.
-- The Liberian Registry recognized by endorsement certificates issued by the Philippines in accordance with STCW Convention Regulation I/10, when independent audits found that the Philippines' maritime education, training and certification system did not meet the standards specified in the STCW [95] Convention.
-- The STCW Convention protocols for auditing countries' maritime education, training, and certification systems lacked the transparency that would assist other countries to assess whether to recognize the qualification certificates issued by those countries as compliant with STCW standards.
+    '
+  quality: exact
+- safety_issue: 'The standard of watchkeeping on board the Rena for the accident voyage and particularly the watch period during which the grounding occurred, in almost all respects, did not comply with the industry best practice described in the IMO Voyage Planning Guidelines and The Nautical Institute''s Bridge Team Management - a Practical Guide.
+
+    '
+  quality: exact
+- safety_issue: 'The crew were not adequately monitoring and fixing the Rena''s position as the ship approached Astrolabe Reef and the port of Tauranga.
+
+    '
+  quality: exact
+- safety_issue: 'The watchkeeper was not making the most effective use of the bridge navigation equipment on board the Rena before the grounding.
+
+    '
+  quality: exact
+- safety_issue: 'The compass error was infrequently checked and was not checked at all on the voyage from Napier to Tauranga.
+
+    '
+  quality: exact
+- safety_issue: 'There was no clear delineation of who had control of the Rena at the time of the grounding, and the master, having assumed that he had taken control, had received virtually no information on where the ship was, where it was heading and what immediate dangers to navigation he needed to consider.
+
+    '
+  quality: exact
+- safety_issue: 'The performance of both the master and the second mate was likely to have been at least mildly affected by fatigue during the work period midnight to 0215, the period leading up to the grounding.
+
+    '
+  quality: exact
+- safety_issue: 'The CIEL oversight of the safety management system as applied on board the Rena was not sufficient to prevent a high number of port state control deficiencies and violations of some company procedures for voyage planning and navigation.
+
+    '
+  quality: exact
+- safety_issue: 'The number of port state control deficiencies identified against the Rena and its detention in Fremantle for non-compliance with statutory requirements indicates that the safety management system as applied on board the Rena was not meeting the objectives of the ISM Code.
+
+    '
+  quality: exact
+- safety_issue: 'Eight of the 12 vessels managed by CIEL had higher rates of deficiencies per inspection than the average of all other vessels subjected to port state control inspections in the Asia-Pacific region in the same period. The Rena''s deficiency rate was almost twice the average. This indicated that the CIEL safety management system for the vessels operating in the Asia-Pacific region, and for the Rena, was not functioning as it could have been according to the ISM Code.
+
+    '
+  quality: exact
+- safety_issue: 'Independent audits had found that the Philippine seafarer training system did not meet the standards specified by the STCW Convention at both systemic and training institute levels.
+
+    '
+  quality: exact
+- safety_issue: 'The Liberian Registry recognised by endorsement certificates issued by the Philippines in accordance with STCW Convention Regulation I/10, when independent audits found that the Philippines'' maritime education, training and certification system did not meet the standards specified in the STCW [95] Convention.
+
+    '
+  quality: exact
+- safety_issue: 'The STCW Convention protocols for auditing countries'' maritime education, training and certification systems lacked the transparency that would assist other countries to assess easily whether to recognise the qualification certificates issued by those countries as compliant with STCW standards.
+
+    '
+  quality: exact
+- safety_issue: 'A light beacon placed on Astrolabe Reef is another measure that probably would have alerted or reminded the bridge team to the presence of Astrolabe Reef, and would likely have prevented the Rena grounding. However, this needs to be seen in the context of the number of other dangerous rocks and reefs around the New Zealand coastline, the cost versus the benefits of fitting and maintaining light beacons on all such rocks and reefs, the availability and prevalent use of more modern and accurate navigation systems for avoiding such navigational dangers, further advanced systems such as virtual and synthetic aids to navigation that are likely to replace physical light beacons in future, and relevant Resource Management Act considerations.
+
+    '
+  quality: exact
+- safety_issue: 'The use of virtual aids to navigation could be one alternative method for highlighting dangers to navigation. However, they should not be introduced before proper research into, and the development of performance standards for them have been completed.
+
+    '
+  quality: exact

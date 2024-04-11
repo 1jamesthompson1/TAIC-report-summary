@@ -3,15 +3,16 @@ import yaml
 
 from ..OpenAICaller import openAICaller
 from . import OutputFolderReader
-from .ReportExtracting import ReportExtractor
+from .ReportExtracting import ReportExtractingProcessor
 from . import Themes, ReferenceChecking
 
 class ThemeGenerator:
-    def __init__(self, output_folder, report_dir_template, report_theme_template, modes, discard_old):
+    def __init__(self, output_folder, reports_config, modes, discard_old):
         self.output_folder = output_folder
         self.open_ai_caller = openAICaller
-        self.report_dir_template = report_dir_template
-        self.report_theme_template = report_theme_template
+        self.reports_config = reports_config
+        self.report_dir_template = reports_config.get("folder_name")
+        self.report_theme_template = reports_config.get("themes_file_name")
         self.all_themes = ""
         self.output_folder_reader = OutputFolderReader.OutputFolderReader()
         self.modes = modes
@@ -201,7 +202,7 @@ issues.
             print(f"  Themes for {report_id} already exists")
             return
 
-        important_text = ReportExtractor(report_text, report_id).extract_important_text()[0]
+        important_text = ReportExtractingProcessor(self.output_folder, self.reports_config).get_important_text(report_id)
 
         if important_text is None:
             return

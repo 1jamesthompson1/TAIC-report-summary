@@ -1,2 +1,12 @@
-- The initial design of the Cloudburst monsoon bucket meant the hook-and-loop fastener system had the potential to come undone during operations.
-- The manufacturer of the Cloudburst monsoon bucket had not promulgated key operational information on and limitations of the Cloudburst monsoon bucket to operators. There was insufficient guidance to pilots on the appropriate line length for monsoon bucket operations.
+- safety_issue: 'the initial design of the Cloudburst monsoon bucket meant the hook-and-loop fastener system had the potential to come undone during operations
+
+    '
+  quality: exact
+- safety_issue: 'The manufacturer of the Cloudburst monsoon bucket had not promulgated key operational information on and limitations of the Cloudburst monsoon bucket to operators.
+
+    '
+  quality: exact
+- safety_issue: 'There was insufficient guidance to pilots on the appropriate line length for monsoon bucket operations.
+
+    '
+  quality: exact

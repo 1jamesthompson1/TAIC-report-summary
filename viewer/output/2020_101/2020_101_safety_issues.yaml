@@ -1,3 +1,12 @@
-- SFAIRP assessments were not being routinely carried out for risk treatments recommended in LCSIA reports. No process, and minimal guidance, on SFAIRP assessment for level crossing risk treatments was available in industry documents.
-- Level crossing safety scores (LCSS) have little influence on the prioritisation of level crossing upgrades.
-- Selection of level crossings for regular risk review LCSIAs, and often upgrade, is not being effectively prioritized towards those with greatest estimated risk. Level crossing safety assessment and upgrade should be prioritized to select level crossings with the greatest associated risk. This is especially true where available funding and resources for upgrades is constrained.
+- safety_issue: 'SFAIRP assessments were not being routinely carried out for risk treatments recommended in LCSIA reports. No process, and minimal guidance, on SFAIRP assessment for level crossing risk treatments was available in industry documents.
+
+    '
+  quality: exact
+- safety_issue: 'Level crossing safety scores (LCSS) have little influence on the prioritisation of level crossing upgrades.
+
+    '
+  quality: exact
+- safety_issue: 'Selection of level crossings for regular risk review LCSIAs, and often upgrade, is not being effectively prioritised towards those with greatest estimated risk.
+
+    '
+  quality: exact

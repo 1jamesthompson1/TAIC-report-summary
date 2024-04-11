@@ -1,0 +1,240 @@
+pages_read:
+- 7
+- 14
+text: "<< Page 7 >>\n 4 Analysis  \n4.1 Introduction  \n4.1.1  The circumstances and\
+  \ causes of this incident can be  described as a combination of active and \nlatent\
+  \ failures leading to a near miss.   \n4.1.2  'Active failure ' is a term used to\
+  \ describe unsafe acts that can be directly linked to an accident, \ntypically the\
+  \ actions of the people involved.  'Latent failures ' are contributing factors that\
+  \ lie \ndormant in the wider system for days, weeks or , as with this incident,\
+  \ even years.  \n4.1.3  The potential collision was averted through  the actions\
+  \ taken by  both train drivers . The \nsignalling system ensured that the signals\
+  \ in front of each train remained at stop.  \n4.1.4  The following analysis discusses\
+  \ the circumstances that led to  the shunt locomotive being \ndiverted into the\
+  \ path of the north bound passenger train . The analysis also discus ses two key\
+  \ \nsafety issue s:  \n\uF0B7 the process for upgrading the signal box display had\
+  \ not ensured that the mimic screen  \nmatched the physical track layout , and had\
+  \ not detect ed the absence of an interlock8 to \nprevent the signallers setting\
+  \ the points to a configuration over which it  was not possible for \nrail traffic\
+  \ to travel  \n\uF0B7 the signallers lacked some familiarity with the physical layout\
+  \ and equipment capabilit ies in \nthe Wellington yard that they were controlling.\
+  \  \n4.1.5  The incident occurred in an  area where train speed was limited to a\
+  \ maximum of 20 kilometres \nper hour . The shunt locomotive was inadvertently routed\
+  \ towards a track that had been \nprepared for a depart ing passenger train.  \n\
+  4.2 What happened  \n4.2.1  The signalling system for the Wellington yard is a logic\
+  \ -based system that interprets  electronic \nfeedback from signalling equipment\
+  \ to determine if the correct conditions are met before \nactions are allowed .\
+  \  For example, if the system recognises that a set of points is in the correct\
+  \ \nposition and the track in advance is unoccupied, a proceed signal will be given\
+  \ into that section \nwhen  requested .  Conversely, if the signallin g system recognises\
+  \ that the require d conditions \nare not met, a proceed signal will be rejected\
+  \ and the signal will remain at stop  (red) .  \n4.2.2  The signalling system can\
+  \ also be enhanced by interlocks, which prevent operators setting \nconflicting\
+  \ signalling conditions . For example , an interlock wo uld not allow an operator\
+  \ to move \na set of points if the signal controlling entry to that section were\
+  \  displaying green . In order to \nmove the points, the operator would have to\
+  \  satisfy the safety conditions of the interlocking \ndesign by placing  the signal\
+  \ to stop first.  \n4.2.3  Signallers  are authorised to  give verbal authority\
+  \ to train drivers to pass signals at stop if the \nsignalling system is unable\
+  \ to provide a proceed signal.  Because t his is an override of the \nsignalling\
+  \ system , procedures are in place to regulate its use (see section 4.4.3). \n4.2.4\
+  \  At the time of the incident t here was a track fault, referred to as a 'dropped\
+  \ track '9, that was \naffecting the normal operating method of directing trains\
+  \ in to and out of platforms  8 and 9  (see \nFigure 5). The fault was causing the\
+  \ signalling system to read the track as being occupied and \ncould not provide\
+  \ a proceed signal into the affected track section , or set the points for trains\
+  \ to \nenter the section .  That was why the signaller or the maintainer w as required\
+  \ to hand -wind the \naffected  points rather than operate them from the signal\
+  \ box.  \n                                                        \n8 Controls fitted\
+  \ between  points and signals that prevent the signaller setting conflicting routes\
+  \ . \n9 A dropped track occurs when the signalling system shows an unoccupied section\
+  \ of track as occupied, usually due to an electri cal \ncircuit fault but potentially\
+  \ because of a broken rail. This is a method of fail -safe protection that prevents\
+  \ signals being cleared into the \naffected section or points being remotely moved\
+  \ from their current position s. \n\n<< Page 8 >>\n Final Report RO -2017 -102 \
+  \ \nFigure 5 \nNormal route of shunt locomotive towards platforms 8 and 9 \n4.2.5\
+  \  An alternative route existed that would hav e placed the shunt locomotive at\
+  \  the intended  \nlocation . Howev er, the alternative  route utilised the main\
+  \ passenger running lines , and for this \nreason the signallers were  in the habit\
+  \ of avoiding it if  possible  (see Figure 6).  If this route had \nbeen set the\
+  \ signalling system should have been able to provide a proceed indication  on the\
+  \ \nfirst signal facing the shunt locomotive , thereby  negating the need for signaller\
+  \ A to give verbal \nauthority  to the RCO  for the shunt locomotive to proceed\
+  \  past a red signal .   \n \nFigure 6 \nAlternative route available towards platforms\
+  \  8 and 9 \n4.2.6  Instead, the route shown in Figure 7 was selected. However ,\
+  \ because of the single slip switch \ndesign it was not physically  possible  for\
+  \ trains to travel over this route and t here was no \ninterlock fitted to the levers\
+  \ in the signal box to prevent it being s elected . Furthermore, an \ninaccuracy\
+  \  in the mimic display allowed a valid route to be displayed.   These two failures\
+  \ are \ndiscussed further in the following sections.  \nsignal box  track fault\
+  \ \nin this area  \nplatforms \n8 & 9  \nplatforms \n8 & 9  \n \nFinal Report RO\
+  \ -2017 -102 \n<< Page 9 >>\n  \nFigure 7 \nRoute displayed on mimic screen as being\
+  \ a valid route  \n4.2.7  The signalling system also prevented the passe nger train\
+  \ receiving a proceed signal  because of \nthe conflicting way the points had been\
+  \ set  for the shunt locomotive .  The signalling system \nperformed as designed\
+  \ and therefore should have prevented a collision . \n4.3 Latent failures in t he\
+  \ signalling system  \nSafety issue - The process for upgrading the signal box display\
+  \ had not ensure d that the mimic  \nscreen matched the physical track layout, and\
+  \ had not detect ed the absence of an interlock to \nprevent the signallers setting\
+  \ the points to a configuration over which it  was not possible for rail \ntraffic\
+  \ to travel.  \nMimic screen  \n4.3.1  From their signal box, signallers were not\
+  \ able to physically see the entire Wellington yard.  \nTherefore the mimic display\
+  \ was their primary tool for  knowing the status of the signals and the \nroutes\
+  \ that were set for trains.  Any fault in the mimic display  was therefore serious.\
+  \  \n4.3.2  Figure 8 shows a screenshot of the mimic display in the Wellington signal\
+  \ box as it was \nobserved by the signallers at the time of the incident.  Based\
+  \ on the information displayed, they \nwere led to believe  that the shunt locomotive\
+  \ would follow the path of the red arrow , when really \nthe route was set for the\
+  \ shunt locomotive to follow the blue arrow , toward s the path set for the \npassenger\
+  \ train.   \n \nFigure 8 \nMimic screen as seen by signaller  \n4.3.3  The display\
+  \ error had been a latent failure lying dormant in the system for seven years ,\
+  \ and as \nfar as could be determined it had never been noticed or reported . \n\
+  single slip \nswitch \nswitchswi\ntch This route not possible over single slip switch\
+  \  \nsignal box \ntrack fault  \n\n<< Page 10 >>\n Final Report RO -2017 -102 4.3.4\
+  \  The mimic screen had been  designed in 2010  by an independent contractor.  \
+  \ The process of \ncommissioning the mimic screen  had involved testing that electronic\
+  \ inputs from signalling \nequipment matched what was being displayed on the screen.\
+  \  The testing regime had included \nan electrical wire count and continuity checks,\
+  \ circuit ch ecks and functional tests.  All testing \nhad proved correct in that\
+  \ the mimic screen was displaying exactly the information it had been \nprovided\
+  \ .  However, the layout of the physical track, specifically the location of the\
+  \ single slip \nswitch , meant that an error had been  introduced that was not identified\
+  \ until this incident \noccurred.  The f inal acceptance of the system had been\
+  \  signed off by KiwiRail's predecessor , \nNew Zealand Railways Corporation . \n\
+  4.3.5  The investigation found that the particular points configur ation resulting\
+  \ in the mimic screen \nshowing an impossible  route through the single slip switch\
+  \  had not form ed part of the \ncommissioning process.  No evidence was found to\
+  \ suggest that the single slip switch \nconfiguration had been  considered at any\
+  \ time during the design, implementation and testing of \nthe mimic screen.    \n\
+  \ \n \nFigure 9 \nSchematic drawing  of signal box panel before replacement by mimic\
+  \ screen  \n4.3.6  Figure 9 is a schematic drawing of the signal box display panel\
+  \ before it was replaced by the \nelectronic mimic screen display.  This provided\
+  \  a more accurate display of the limitations of the \nsingle slip switch .  The\
+  \ schematic shows that using number 42 points (shown in red ) it is \npossible to\
+  \ cross the yellow line and continue through number 43 points (shown in blue ) (the\
+  \ \nroute the shunt locomotive took) , but it is not possible to v eer left onto\
+  \ the yellow line  (where \nthe signallers intended the shunt to go) .  However,\
+  \  the mi mic screen  gave  the signallers  the \nfalse impression that rail traffic\
+  \ could  move  from the red to the yellow line s as shown in  Figure \n8.  A comparison\
+  \ between  the schematic drawing and the functionality of the mimic screen \nwould\
+  \ have revealed this anomaly.  \n4.3.7  The omission  of the single slip switch\
+  \ configuration during the design, testing and \ncommissioning processes was an\
+  \ oversight that  had introduced a latent failure to the \nWellington signal box\
+  \ system.  \nTrack interlocking  \n4.3.8  There was one other set of points of the\
+  \ same single slip switch configuration in the Wellington \nsignal box controlled\
+  \ area .  This set of points was  fitted with  locking protection  (an interlock)\
+  \ on \nthe levers in the signal box  to prevent any incorrect alignment .  No suc\
+  \ h interlock  had been  \nfitted to  the points involved in this occurrence . \
+  \ KiwiRail advised that it had checked all \navailable records dating back to the\
+  \ 1950s and had been  unable to establish why locking \nprotection had not been\
+  \ fitted to  both sets of single slip switches . \n\n \nFinal Report RO -2017 -102\
+  \ \n<< Page 11 >>\n 4.3.9  An interlock  would have prevented the  points being\
+  \ incorrectly a ligned and conse quently the \nmimic screen would not have displayed\
+  \ a n incorrect route. The signaller authorised the shunt \nlocomotive movement\
+  \ based on the in correct information displayed on the mimic screen.  \n4.3.10 \
+  \ Having  an interlock preventing the points being incorrectly configured was another\
+  \ important \ndefence that would  have prevented the incident  - this was a latent\
+  \ failure that had gone \nunnoticed or undetected  for at least  60 years.  If the\
+  \ process for upgrading the signal box display \nhad included a failure mode effect\
+  \ analysis, this omission may have been identified.  \n4.3.11  KiwiRail has since\
+  \ changed the mimic display so that it accurately reflects the functionality o f\
+  \ \nthe equipment in the yard , and fitted an interlock to the levers in the signal\
+  \ box to prevent \nsignallers attempting to set incorrect route s through the single\
+  \ slip switch.  \n4.4  Active failures  \nSafety issue - The signallers lacked some\
+  \ familiarity with the physical layout and equipment \ncapabilit ies in the Wellington\
+  \ yard that they were controlling.  \n4.4.1  Before even reaching the first set\
+  \  of points, the shunt locomotive had to pass a signal that was \nshowing red.\
+  \  Signall er A said he had assumed  that the signal would not be able  to be placed\
+  \ at \nproceed because of the track fault in the adjacent section of track.  Based\
+  \ on this belief, he did \nnot instruct signaller B to  change the signal to proceed\
+  \ by activating the request  lever in the \nsignal box.  This was an incorrect assumption.\
+  \  The track fault was not affecting the \nperformance of the signal  and under\
+  \ normal circumstances, had the request lever  been \nactivated , the shunt locomotive\
+  \ would have received a proceed signal . \n4.4.2  However,  the signalling system\
+  \ was preventing  the signal being placed at proceed because the \nroute displayed\
+  \ on the mimic screen was not physically possible due to the design of the points.\
+  \   \nThe route was partially set in the wrong direction , which the sig nalling\
+  \ system recognised as a \nconflict .  The signalling system was working as designed.\
+  \  Having assumed that he would not  \nsucceed in obtaining a proceed indication\
+  \ on the signal facing the shunt locomotive , signaller A \ngave verbal authority\
+  \ for the shunt locomotive to pass it at red.  KiwiRail had a procedure that \n\
+  the signaller was required  to follow before doing that.  \n4.4.3  KiwiRail's Operating\
+  \ Rules stated in part:  \n93(c) Authorising Passing of Signals at \"Stop\"  \n\
+  (i) Any signal, except a Departure or Intermediate si gnal, may be passed at \"\
+  Stop\" on instruction \nfrom the Signaller who directly controls that signal.  \n\
+  (ii) Permission to pass a signal at \"Stop\" must not be given when a fixed signal\
+  \ can be used for this \nmovement.  \n(iii) Permission to pass a signal at \"Stop\"\
+  \ must only be  given when the train is stopped at the signal . \n(iv) The Signaller,\
+  \ before giving permission to pass a signal at \"Stop\", must:  \n\uF0A7 Ensure\
+  \ all points are correctly set and secure for the intended movement.  \n\uF0A7 Ensure\
+  \ that the route is clear up to the next fixed signal i n advance.  \n\uF0A7 Ensure\
+  \ another train has not encroached onto the section of track.  \n\uF0A7 Ensure that\
+  \ a conflicting movement has not been signalled or authorised . \n\uF0A7 If an obstruction\
+  \ exists check it is safe for the proposed movement and the Locomotive \nEngineer\
+  \ is briefe d. \n\uF0A7 Operate the lever or computer command to 'clear' the signal\
+  \ (a lever must be left in this \nposition until the movement has cleared the points\
+  \ over which the movement is being \nauthorised).  \nNOTE:  This prevents opposing\
+  \ signals being cleared, also activates  level crossing alarms in close \nproximity\
+  \ to the signal.  \n4.4.4  Although the rules  did not stipulate the measures that\
+  \ signallers s hould take to ensure  that all \npoints were  correctly set and secure\
+  \ for the intended movement , arguably the signallers in this \nincident  complied\
+  \ with this requirement  (the first bullet point) .  The maintainer had confirmed\
+  \ \nwith signaller A  that the points affected by the track fault  had been manually\
+  \ set for platform 9 , \n\n<< Page 12 >>\n Final Report RO -2017 -102 and the mimic\
+  \ screen in front of them was indicating that the  route was correctly set, even\
+  \ \nthough it was not.   \n4.4.5  The second to fifth b ullet points were complied\
+  \ with ; however , the last bullet point was not.  T he \nsignal lever was not operated\
+  \ to clear the signal and left in that position .  As mentioned above, \nthe sig\
+  \ nallers did not do this because they were working on the assumption that they\
+  \ would not \nbe able to clear the signal because of the track fault.  Under the\
+  \ circumstances, this failure to \nfollow procedure was not a factor contributing\
+  \ to the incident.  Even if the lever request had \nbeen operated , the signal facing\
+  \ the shunt locomotive  would have remained red  because of the \nincorrect route\
+  \ setting.  Not being able to clear the signal would  likely have confirm ed signaller\
+  \ \nA's belief that he would be unable to clear the signal because of the track\
+  \ fault.  Neverthe less, it \nis of concern that he did not follow that part of\
+  \ the procedure.  \n4.4.6  Notwithstanding the fault in the mimic screen, the signallers\
+  \  had a surprising lack of familiarity \nwith the physical layout of the yard they\
+  \ were controlling, particularly  as one of the signallers \nhad some 13 years'\
+  \ experience  in the Wellington signal box.  The fact that no -one was aware \n\
+  that the mimic screen was not representative of the actual yard la yout is an issue.\
+  \ If any one had \nbeen aware of the anomaly, it would be equally surprising that\
+  \ they had not raised the issue.  \nSignallers ' familiarity with the Wellington\
+  \ yard layout is an issue that KiwiRail need s to address.  \n4.5 Summary  \n4.5.1\
+  \  A number of events an d conditions aligned on the day to allow the potential\
+  \  collision to occur.  \nFortunately an actual collision was averted due to  the\
+  \ d iligence of the two train drivers involved.  \nHowever, to manage risk well\
+  \ and prevent similar incidents or actual coll isions in future, it is \nbetter\
+  \  to address the safety issues further up the  causal chain, the system issues,\
+  \ rather than \nrely on the final defence to prevent accidents  occurring . \n4.5.2\
+  \  The lack of an interlock on the relevant control box levers and the  errors that\
+  \ were made when \nthe signal box was modernised to include a mimic screen to replace\
+  \ a schematic diagram were \nlatent failures , and the absence of either could have\
+  \ prevented the wrong -routing of the shunt \nlocomotive.  \n4.5.3  The presence\
+  \ of a track fault was a condition on the day that, in the busy peak period for\
+  \ the \nWellington yard, created the need for the signallers to adapt the normal\
+  \ route for the shunt  \nlocomotive . Their  lack of familiarity with the equipment\
+  \ in the yard was a knowledge -based \nissue, because they were unaware that the\
+  \ route they set for the shunt locomotive was not \nphysically possible.  \n4.5.4\
+  \  The signallers taking actions based on an erroneous assumption that the starting\
+  \ signal  would \nbe affected by the track fault was not a factor contributi ng\
+  \ to the wrong -routing .  However, \nbased on that assumption they omitted to follow\
+  \ a required procedure that in different \ncircumstances could contribute to incidents\
+  \ and accidents in future.  \n \n \nFinal Report RO -2017 -102 \n<< Page 13 >>\n\
+  \ 5 Findings  \n5.1 The mimic screen in the sign al box was the primary tool for\
+  \ the signal  box operators  to identify \nthe location and status of rail traffic\
+  \ and signalling equipment , yet it was giving them \nerroneous information about\
+  \ the validity of the chosen route for the shunt locomotive .  \n \n5.2 Neither\
+  \ of the signal box operators on duty at the time was aware that they had wrong\
+  \ -routed \nthe shunt locomotive , because they were unaware of the limitations\
+  \ of the single slip switch  \nthat prevented the shunt locomotive travelling along\
+  \ the chosen route.  \n \n5.3 The error on the mimic screen was the result of a\
+  \ n equipment upgrade program me that had \noverlooked the single slip switch configuration\
+  \ and had not ensure d that  the new system was \nfully representative of the actual\
+  \ track layout.  \n \n5.4 The signal box was not fitted with an  interlock , which\
+  \  would have  prevent ed the signal  box \noperators  setting a n incorrect route\
+  \ for the shunt locomotive . \n \n5.5 The signalling system that recognised a potential\
+  \ conflict and kept the signals at stop was a \nfurther and final defence that \
+  \ prevented the trains colliding.  \n \n5.6 The vigilance of the driver s of the\
+  \ passenger train and the shunt locomotive resulted in both \ntrains stopping before\
+  \ a collision occurred.  \n \n \n\n<< Page 14 >>"

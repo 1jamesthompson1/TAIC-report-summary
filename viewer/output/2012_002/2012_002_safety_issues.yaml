@@ -1,1 +1,8 @@
-- The non-transmission, non-receipt or mismanagement of engine condition reports, especially those containing significant deviations from normal, can deprive flight crew and maintenance personnel of the opportunity to identify a potential problem early.
+- safety_issue: 'The non-transmission, non-receipt or mismanagement of engine condition reports, especially those containing significant deviations from normal, can deprive flight crew and maintenance personnel of the opportunity to identify a potential problem early.
+
+    '
+  quality: exact
+- safety_issue: 'Indications that the right-hand engine was not performing well were not detected by the Maintenance Operation Control due to programming logic errors in the automated engine condition report system. However, even if they had been it is unlikely that any subsequent action would have prevented the engine compressor stall event on landing at Auckland.
+
+    '
+  quality: exact

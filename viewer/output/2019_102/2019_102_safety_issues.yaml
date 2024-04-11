@@ -1,1 +1,16 @@
-[]
+- safety_issue: 'Excessive speed, combined with a track twist within code and the high centre of gravity of the load on the derailed wagons, led to the derailment due to dynamic interaction.
+
+    '
+  quality: inferred
+- safety_issue: 'The driver''s distraction by checking the route paperwork during a critical time of controlling train speed on a downhill gradient contributed to the inability to manage train speed effectively.
+
+    '
+  quality: inferred
+- safety_issue: 'The relatively high centre of gravity of the loaded coal wagons, while within permissible limits, contributed to the overall effect of dynamic interaction, reducing the stability of the wagons.
+
+    '
+  quality: inferred
+- safety_issue: 'The existing system allowed for heavy trains to use the crossing loop, which had previously been identified as a risk following a similar derailment in 2016, but no preventive measures were implemented until after this incident.
+
+    '
+  quality: inferred

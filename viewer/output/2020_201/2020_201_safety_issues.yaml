@@ -1,3 +1,8 @@
-- The situational awareness of the bridge team on the Rose Harmony was adversely affected by poor bridge resource management, exacerbated by the presence and distracting influence of passengers on the bridge in pilotage waters.
-- The deckhand keeping watch on board the Leila Jo was not sufficiently familiar with the collision-prevention rules to be left in sole charge of the watch.
-- The situational awareness of the bridge team on the Rose Harmony was adversely affected by poor bridge resource management, exacerbated by the presence and distracting influence of having passengers on the bridge in pilotage waters.
+- safety_issue: 'The situational awareness of the bridge team on the Rose Harmony was adversely affected by poor bridge resource management, exacerbated by the presence and distracting influence of passengers on the bridge in pilotage waters.
+
+    '
+  quality: exact
+- safety_issue: 'The deckhand keeping watch on board the Leila Jo was not sufficiently familiar with the collision-prevention rules to be left in sole charge of the watch.
+
+    '
+  quality: exact
