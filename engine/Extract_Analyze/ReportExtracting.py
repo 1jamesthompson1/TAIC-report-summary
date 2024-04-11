@@ -238,6 +238,35 @@ class SafetyIssueExtractor(ReportExtractor):
         """
         Search for safety issues using inference from GPT 4 turbo.
         """        
+
+        system_message = """
+You are going help me read a transport accident investigation report.
+
+I want you to please read the report and respond with the safety issues identified in the report.
+
+Please only respond with safety issues that are quite clearly stated ("exact" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
+
+Remember the definitions give
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+"""
+
         message = lambda text: f'''
 {text}
         
@@ -248,7 +277,7 @@ I want to know the safety issues which this investigation has found.
 For each safety issue you find I need to know what is the quality of this safety issue.
 Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.
 
-However if no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
+If no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
 
 
 Can your response please be in yaml format as shown below.
@@ -284,53 +313,40 @@ cover a single safety issue, or two or more related safety
 issues.
 '''
         
-        response = openAICaller.query(
-            """
-You are going help me read a transport accident investigation report.
+        temp = 0
+        while temp < 0.1:
+            response = openAICaller.query(
+                system_message,
+                message(self.important_text),
+                model="gpt-4",
+                temp=temp)
 
-I want you to please read the report and respond with the safety issues identified in the report.
+            if response == None:
+                print("  Could not get safety issues from the report.")
+                return None
 
-Please only respond with safety issues that are quite clearly stated ("inferred" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
+            if response[:7] == '"""yaml' or response[:7] == '```yaml':
+                response = response[7:-3]
+            
+            try:
+                safety_issues = yaml.safe_load(response)
+            except yaml.YAMLError as exc:
+                print(exc)
+                print('  Problem with formatting, trying again with slightly higher temp\n\Response was is \n"""\n{response}\n"""')
+                temp += 0.01
+                continue
 
-Remember the definitions give
+            if not isinstance(safety_issues, list):
+                print(f'  Response was not a yaml list. It was instead {type(safety_issues)}.\n\nWhich is \n"""\n{response}\n"""')
+                print(f'  Safety issues are:\n{safety_issues}')
 
-Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
-increase the likelihood of an occurrence, and/or the
-severity of any adverse consequences associated with the
-occurrence.
+                temp+=0.01
+                continue
 
-Safety issue - A safety factor that:
-• can reasonably be regarded as having the
-potential to adversely affect the safety of future
-operations, and
-• is characteristic of an organisation, a system, or an
-operational environment at a specific point in time.
-Safety Issues are derived from safety factors classified
-either as Risk Controls or Organisational Influences.
-
-Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
-cover a single safety issue, or two or more related safety
-issues.
-            """,
-            message(self.important_text),
-            model="gpt-4",
-            temp=0)
-
-        if response == None:
-            print("  Could not get safety issues from the report.")
-            return None
-
-        if response[:7] == '"""yaml' or response[:7] == '```yaml':
-            response = response[7:-3]
+            return safety_issues
         
-        try:
-            safety_issues = yaml.safe_load(response)
-        except yaml.YAMLError as exc:
-            print(exc)
-            print("  Assuming that there are no safety issues in the report.")
-            return None
-        
-        return safety_issues
+        print("  Could not extract safety issues with inference")
+        return None
 
 
 class RecommendationsExtractor(ReportExtractor):
