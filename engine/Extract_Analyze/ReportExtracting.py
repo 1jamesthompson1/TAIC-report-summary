@@ -10,22 +10,9 @@ class ReportExtractor:
         self.report_text = report_text
         self.report_id = report_id
 
-    def extract_important_text(self, output_folder, important_text_template = "{{report_id}}_important_text.yaml") -> (str, list):
-        print(f"Getting important text... for {self.report_id}")
-
-        report_output_folder = os.path.join(output_folder, self.report_id)
-
-        # Search for existing file first
-        potential_location = os.path.join(report_output_folder, important_text_template.replace(r'{{report_id}}', self.report_id))
-        if os.path.isfile(potential_location):
-            print(f"  {important_text_template.replace(r'{{report_id}}', self.report_id)} already exists")
-            with (open(potential_location, "r")) as f:
-                yaml_obj = yaml.safe_load(f)
-                if yaml_obj != None:
-                    return yaml_obj.get("text"), yaml_obj.get("pages_read")
-            
-        
-        print(f" Generating {important_text_template.replace(r'{{report_id}}', self.report_id)}")
+    def extract_important_text(self):
+                 
+        print(f" Generating important text for {self.report_id}")
 
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
@@ -44,15 +31,6 @@ class ReportExtractor:
     
         # Try and read the pages. If it fails try and read to the next page three times. Then give up.
         text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
-
-
-        if text != None:
-            print(f"  Saving the text to file with len {len(text)}")
-            with open(os.path.join(report_output_folder, important_text_template.replace(r'{{report_id}}', self.report_id)), "w") as f:
-                yaml.dump({
-                    "text": text,
-                    "pages_read": pages_to_read
-                }, f)
 
         return text, pages_to_read
 
@@ -242,22 +220,20 @@ class SafetyIssueExtractor(ReportExtractor):
     def __init__(self, report_text, report_id):
         super().__init__(report_text, report_id)
         
-    def extract_safety_issues(self, output_folder):
+    def extract_safety_issues(self, important_text):
         """
         Extract safety issues from a report.
         """
         # This abstraction allows the development of various extraction techniques whether it be regex or inferences.
 
-        safety_issues = self._extract_safety_issues_with_inference(output_folder)
+        safety_issues = self._extract_safety_issues_with_inference(important_text)
         
         return safety_issues
         
-    def _extract_safety_issues_with_inference(self, output_folder):
+    def _extract_safety_issues_with_inference(self, important_text):
         """
         Search for safety issues using inference from GPT 4 turbo.
         """
-
-        important_text, pages_to_read = self.extract_important_text(output_folder)
 
         if important_text == None:
             return None
@@ -457,10 +433,10 @@ class ReportExtractingProcessor:
     This is the class that interacts with the report extracting classes. It however is the ones that actually connects to the folder structure.
     """
 
-    def __init__(self, output_dir, report_dir_template, file_name_template, refresh):
+    def __init__(self, output_dir, reports_config, refresh = False):
         self.output_dir = output_dir
-        self.report_dir_template = report_dir_template
-        self.file_name_template = file_name_template
+        self.reports_config = reports_config
+        self.report_dir_template = reports_config.get("folder_name")
         self.refresh = refresh
 
     def __output_safety_issues(self, report_id, report_text):
@@ -468,7 +444,7 @@ class ReportExtractingProcessor:
         print("  Extracting safety issues from " + report_id)
 
         folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
-        output_file = self.file_name_template.replace(r'{{report_id}}', report_id)
+        output_file = self.reports_config.get('safety_issues').replace(r'{{report_id}}', report_id)
         output_path = os.path.join(self.output_dir, folder_dir, output_file)
 
         # Skip if the file already exists
@@ -476,7 +452,7 @@ class ReportExtractingProcessor:
             print(f"   {output_path} already exists")
             return
 
-        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues(self.output_dir)
+        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues(self.get_important_text(report_id))
 
         if safety_issues == None:
             print(f"  Could not extract safety issues from {report_id}")
@@ -493,6 +469,42 @@ class ReportExtractingProcessor:
         
         output_folder_reader.process_reports(self.__output_safety_issues)
 
+    def get_important_text(self, report_id, with_pages_read = False):
+        """
+        This is a wrapper ground the extract_important_text function. This adds the support for reading and writing to the folder structure.
+        """
+        print(f"Getting important text... for {report_id}")
+        folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
+        output_file = self.reports_config.get('important_text_file_name').replace(r'{{report_id}}', report_id)
+        output_path = os.path.join(self.output_dir, folder_dir, output_file)
         
+        if os.path.exists(output_path):
+            with open(output_path, 'r') as f:
+                yaml_obj = yaml.safe_load(f)
+                return yaml_obj['text']
+            
+        print(f"  {output_path} does not exist, extracting important text from report text")
+
+        # Getting the text file
+        text_file_path = os.path.join(self.output_dir, folder_dir, self.reports_config.get('text_file_name').replace(r'{{report_id}}', report_id))
+        if not os.path.exists(text_file_path):
+            print(f"  {text_file_path} does not exist")
+            return None
+        with open(text_file_path, 'r') as f:
+            report_text = f.read()
+        
+        text, pages_to_read = ReportExtractor(report_text, report_id).extract_important_text()
+
+        print(f"  Saving the text to file with len {len(text)if text != None else 0}")
+        with open(output_path, "w") as f:
+            yaml.dump({
+                "text": text,
+                "pages_read": pages_to_read
+            }, f)
+
+        if with_pages_read:
+            return text, pages_to_read
+        return text
+
 
         

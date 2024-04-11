@@ -7,7 +7,7 @@ import pandas as pd
 
 from .Themes import ThemeReader
 from .OutputFolderReader import OutputFolderReader
-from .ReportExtracting import ReportExtractor
+from .ReportExtracting import ReportExtractingProcessor
 from . import ReferenceChecking
 
 from .. import Modes
@@ -21,11 +21,14 @@ class ReportSummarizer:
         self.modes = modes
         self.discard_old = discard_old
 
+        self.reports_config = output_config.get("reports")
+
         self.overall_summary_path = os.path.join(self.output_folder, output_config.get("summary_file_name"))
 
-        self.report_dir = output_config.get("reports").get("folder_name")
-        self.report_summary_file_name = output_config.get("reports").get("full_summary_file_name")
-        self.report_weightings_file_name = output_config.get("reports").get("weightings_file_name")
+        self.report_dir = self.reports_config.get("folder_name")
+        self.report_summary_file_name = self.reports_config.get("full_summary_file_name")
+        self.report_weightings_file_name = self.reports_config.get("weightings_file_name")
+        
 
         self.system_prompt = '''
 You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. There may be multiple citations needed. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must include quotes with citation. Each sentence with a new claim should be cited. It is best to have inline quotes.
@@ -150,7 +153,7 @@ issues.
 
 
         # Get the pages that should be read
-        text_to_be_summarized, pages_read = ReportExtractor(report_text, report_id).extract_important_text(self.output_folder)
+        text_to_be_summarized, pages_read = ReportExtractingProcessor(self.report_dir, self.reports_config).get_important_text(report_id, True)
         if text_to_be_summarized == None:
             print(f'  Could not extract text to be summarized from {report_id}')
             summary_str = report_id + "," + "Error" + "," + "N/A" + ",false" + ",Could not extract text to summarize report with" + "\n"
