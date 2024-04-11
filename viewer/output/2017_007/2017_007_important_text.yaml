@@ -1,0 +1,206 @@
+pages_read:
+- 10
+- 15
+text: "<< Page 10 >>\n Final Report AO -2017 -007 4. Analysis  \n4.1. Introduction\
+  \  \n4.1.1.  The flight was a scheduled passenger service between Wellington and\
+  \ Christchurch , operating \nunder instrument flight rules .  As the aeroplane approached\
+  \ Christchurch it descended  below \nminimum altitudes on two accounts.  First ,\
+  \ it descended below the clearance limit of 3,000 \nfeet before reachi ng the GOMPI\
+  \ waypoint .  Second, it descended below the  minimum safe \naltitude  of 2,500\
+  \ f eet.  \n4.1.2.  Minimum clearance and safe altitudes are set for a good reason\
+  \ : to provide a safety margin  \nbetween aircraft and terrain or obstacles.  When\
+  \ an a ircraft  breaches these limits , it is \noperating one step closer to a serious\
+  \ incident or accident.  When an air traffic services safety \nsystem does not detect\
+  \ or respond to this type of breach , there is a risk of such events \nbecoming\
+  \ normalised and undermining the safety of t he system.  \n4.1.3.  The following\
+  \ analysis discusses what happened and how relying less on aircraft automation \n\
+  and more on human performance can increase the risk to safe flight operations in\
+  \ some \ncases.  \n4.2. Descent below minimum permitted  altitude  \n4.2.1.  The\
+  \ captain had not flown domestically within New Zealand for s everal years , and\
+  \ was \ntherefore less familiar with flying between  Wellington and Christchurch\
+  \ than the first officer.  \n4.2.2.  The first officer was more familiar with the\
+  \ route .  It had also become common practice for the  \nfirst officer to delay\
+  \  commencing the descen t into Christchurch and to set the aeroplane's \nnavigation\
+  \ systems to open -descent mode before commen cing the instrument approach.   \n\
+  Using open -descent mode was not inconsistent with the operator's standard operating\
+  \ \nprocedures.  \n4.2.3.  In open -descent mode the aeroplane was programmed to\
+  \ descend directly to the altitude set \nin the FCU  (2,000 feet) , ignoring the\
+  \ intermediate altitude restrictions  contained in the \nstandard arrival route\
+  \ .  The first officer had used th is descent profile previously  at \nChristchurch\
+  \ and was confident of being able to maintain a steady descent to the \ncommencement\
+  \ altitude for the  instrument  approach.  \n4.2.4.  However , on this occasion\
+  \ the aeroplane descended below the intended profile and \nconsequently below the\
+  \ 3,000 -foot minim um altitude limit between GUKAM and GOMPI , and \nalso below\
+  \ the 2,500 -foot minimum safe altitude limit until past GOMPI .  The 3,000 -foot\
+  \ limit \nwas a procedur e limit, while the  2,500 -foot minimum safe altitude limit\
+  \ prov ided separat ion \nfrom  terra in along the GUKAM -to-GOMPI track.  \n4.3.\
+  \ Defences   \n4.3.1.  To help ensure  that arrival procedure requirements were\
+  \ met, a range of safeguards was \navailable to the flight crew, including:  \n\uF0B7\
+  \ the FMGS  \n\uF0B7 the navigation display  \n\uF0B7 the operator's standard operating\
+  \ procedures  \n\uF0B7 crew resource management17 \n\uF0B7 air traffic control .\
+  \ \n                                                        \n17 The effective use\
+  \ of all available re sources for flight crew personnel to  assure a safe and efficient\
+  \ \noperation, reducing error, avoiding stress and increasing efficiency . \nFinal\
+  \ Report AO -2017 -007 \n<< Page 11 >>\n Flight management guidance system  \n4.3.2.\
+  \  The FMGS , when used in 'managed -descent ' mode , automatically direct s an\
+  \ aeroplane  to \nfollow a  programmed  arrival procedure  and en sures that it\
+  \ remains within the allowable limits .  \nLittle pilot input is required because\
+  \  the auto -flight system control s the a eroplane .  When  \nopen-descent mode\
+  \ is used , the aeroplane  follow s the same lateral navigation element, but \n\
+  the FMGS command s a descen t directly to the altitude the pilot sets in the FCU.\
+  \  The pilot is \nthen required to ensure  that the aeroplane  remains above any\
+  \ intermediate altitude  \nrestrictions .   \n4.3.3.  The operator advised that\
+  \  open -descent mode was regularly used by pilots in both Australia \nand New Zealand,\
+  \ and no specific descent mode was preferred .  Each mode ha d its \nadvantages\
+  \ and limitations .  For example , managed -descent  mode cannot  be used  during\
+  \ \nradar vectoring , where a contro ller give s heading, and probably altitude,\
+  \ instructions for the \naeroplane to  follow.   \n4.3.4.  The operator 's procedures\
+  \  did not  require pilots using open -descent mode to reset the FCU to \nthe next\
+  \ intermediate altitude  restriction .  The operator explained  that rese tting\
+  \ the FCU to \neach intermediate altitude restriction during a descent could  cause\
+  \ issues with mode \nreversion and reduce the efficien cy of the descent profile\
+  \ because  the aeroplane  attempts to \ncapture each altitude.   If the FCU is reset\
+  \ to the next altitude restriction just as the aircraft  \napproaches the current\
+  \ limit,  the pitch mode of the autopilot may change or revert from either \nmanaged\
+  \ or selected open -descent  mode to vertical -speed mode, which can cause \nconfusion.18\
+  \  The operator advised that it had had \" many \" instances of mode reversion.\
+  \  \n4.3.5.  The Commission reviewed the f light management procedures for two other\
+  \ operators that flew \nthe A320.  One operator advised that its pilots were directed\
+  \ to fly in managed -descent  mode \nwhere possible, and were only to use open -descent\
+  \  mode in exceptional circumstances.  \nShould an open descent be flown , pilots\
+  \ were required to set the FCU altitude to the next \nintermediate altitude or restriction\
+  \ .  This FCU requirement was also contained in the descent \nprocedures for the\
+  \ third  operator . \n4.3.6.  The procedures for each of the three operator s all\
+  \ referred to  the same information on mode \nreversion  provided by the manufacturer,\
+  \ Airbus .  However, t he deputy training manag er \nresponsible for A320 standards\
+  \ and training  for one of the operators explained  that mode \nreversion was not\
+  \ a significant issue  for them.  Th e manager explain ed that this was likely \n\
+  because their  pilots didn't often conduct open descent s, and thus their pilots\
+  \ were probably  \nmore proactive in managing descent s, which would include  resetting\
+  \ the FCU to avoid any \nincompatibility.  If a mode reversion occur red, the pilots\
+  \ were immediately aware of it and \nreacted accordingly.  \n4.3.7.  Jetstar did\
+  \ not have  procedures requiring the FCU be set  to the next intermediate altitude\
+  \ \nrestriction, which  meant that adherence to any altitude restriction relied\
+  \ less on the \naeroplane's automation and more on the pilots' performance.   This\
+  \ is discussed further in the \nfollowing sectio ns. \nNavigation display      \n\
+  4.3.8.  The FMGS  and the auto -flight system  are intended to ea se a pilot's workload,\
+  \ allowing the \ncrew to focus on ensuring  the continued safe operation of the\
+  \ a eroplane .  In managed -descent  \nmode the FMGS follows a programme d procedure.\
+  \   However, i n some conditions  the \naeroplane  may deviate from the planned\
+  \  flight  path.  To protect against this, pilots need to  \nmonitor the performance\
+  \ of their aeroplane  continually , and intervene  to avoid any  potential  \nlimit\
+  \ exceedance.   For the A320, t his monitoring  information is presented to the\
+  \ pilots by a \nnumber of means, primarily the navigation display.  \n         \
+  \                                               \n18 The Airbus flight crew operating\
+  \ manual states that when the FCU altitude is set to \"a target not compatible \n\
+  with the a ctive open mode, a mode reversion occurs and V/S [vertical speed]  engages\
+  \ on current V/S\".   \n\n<< Page 12 >>\n Final Report AO -2017 -007 4.3.9.  The\
+  \ n avigation display provide s a pilot with a view of the intended track the aeroplane\
+  \ is \nprogramme d to fly, and the position of the aeroplane alo ng that track \
+  \ (see Figure 4 ).19  The \ndisplay can also show any restrictions  along the track,\
+  \ for example not below 3,000 feet until \npast GOMPI .  By checking the navigation\
+  \ display, including a vertical situation display if \nfitted20, and if required\
+  \ cross -checking this against the procedure chart, a pilot should be able \nto\
+  \ confirm  quickly  their position on the procedure and that they are compl ying\
+  \ with any \nrestriction . \n4.3.10.  This information was available to the pilots\
+  \ on the aeroplane 's navigation display, but w as \neither not refer red to by\
+  \ the pilots or not clearly appreciated . \nStandard operating procedures   \n4.3.11.\
+  \  Standard operating procedures  help to promote safety through consistency of\
+  \ performance \nand efficiency, while reducing miscommunication and non -compliance.\
+  \  Standard operating \nprocedures  have been developed to cover every aspect of\
+  \ flight deck activity , embracing \nnormal, abnormal and emergency situations.\
+  \   \n4.3.12.  The operator's procedures included reference s to Airbus' s 'Golden\
+  \ Rules ', which \"take into \naccount the p rinciples of flight crew interaction\
+  \ with automated systems, and the principles of \ncrew resource management\" (discussed\
+  \ in the next section ). The Golden Rules are:  \n1. Fly, Navigate and Communicate\
+  \  \n2. Use the appropriate level of Automation at all times  \n3. Understand the\
+  \ Flight Mode Annunciator  \n4. Take action if things do not go as expected.  \n\
+  4.3.13.  In following these rules, the crew could have given more consideration\
+  \ to the captain's \nunfamiliarity with the route and the standard arrival route\
+  \  being flown, and therefo re used the \nfull automation available.  However, descending\
+  \ in open -descent  mode would have worked \nhad the pilots followed rule #1 and\
+  \ cross -referred to their approach chart and navigation \ndisplay to confirm their\
+  \ progress and predict the aeroplane's posit ion in relation to minimum \nsafe altitudes\
+  \  (commonly referred to as 'staying ahead of the aeroplane' ).   \nCrew resource\
+  \ management  \n4.3.14.  Crew resource management  recognises the integral role\
+  \ of each crew member, flight crew and \ncabin crew in achieving a safe flight .\
+  \  Major airlines train crew members in crew resource \nmanagement , focus ing on\
+  \ interpersonal communication, leadership and decision -making.  \n4.3.15.  The\
+  \ aeroplane was approximately  600 feet (180 m) above the minimum altitude restriction\
+  \  of \n4,000 feet as it flew over  the GUKAM  waypoint .  It was then that the\
+  \ pilots needed to check \nthe next altitude restriction , as depicted on the approach\
+  \ chart and thei r navigation displays, \nand ensure that the restriction would\
+  \ be met .  The pilots later acknowledged that if they did do \nthis they did not\
+  \ discuss it with each other . \n4.3.16.  Communication and cross -checking at key\
+  \ points are important for pilots maintaining \nsituat ional awareness21 and are\
+  \ an important aspect of crew resource management.  \n                         \
+  \                               \n19 This complements the arrival chart (Figure\
+  \ 2) carried on the aeroplane.  \n20 A vertical situation display provides a profile\
+  \ view of an aircraft along its programmed descent path, and \ncan include terrain.\
+  \  \n21 The perception of the elements in the environment within a volume of  time\
+  \ and space, the comprehension \nof their meaning and the projection of their status\
+  \ in the near future . \nFinal Report AO -2017 -007 \n<< Page 13 >>\n  Air traffic\
+  \ control  \n4.3.17.  In this incident the controller observed an aeroplane that\
+  \ had descended below the next \nwaypoint altitude limit of 3,000 feet and the route\
+  \ minimum sa fe altitude  limit of 2,500 feet.  \nThere were no complicating circumstances\
+  \ in terms of traffic flow or density.  \n4.3.18.  The Manual of Air Traffic Services\
+  \ sets out the procedures for respond ing to air traffic \nsituations.  The preface\
+  \ to the manual states that it is not pract icable for the document to \ncater for\
+  \ all combinations of air traffic situations, and that controllers are to use their\
+  \ \njudgement.  However, in a straightforward  situation with no complicating circumstances,\
+  \ the \ncontroller has no reason to deviate from the standard procedure.  \n4.3.19.\
+  \  In this case the standard procedure was to inform the crew  immediately  and\
+  \ direct a climb , or \nat least to alert the aeroplane crew to the exceedance.\
+  \  The controller took neither of these \nactions.22  The controller and planne\
+  \ r said they had observed the aeroplane level at 2,000 \nfeet and, seeing that\
+  \ it was not descending further , the controller decided not to alert the crew \n\
+  for concern it might distract them at a critical phase of the flight . \n4.3.20.\
+  \  When it is appropriate to do so,  controllers should normally  follow standard\
+  \ procedures .  To do \notherwise would risk normalising non -standard responses\
+  \ to air traffic situations , which could \nresult in a permanent reduction in safety\
+  \ standards.  \nSummary  \n4.3.21.  Had the arrival procedure been flown in  managed\
+  \ -descent  mode, all procedure requirements \nwould highly likely have been achieved.\
+  \  However, the flight crew, as permitted by the \noperator's procedures, elected\
+  \ to use open -descent  mode and to set the FCU altitude to the \nfinal altitude\
+  \ cleared by ai r traffic control .  However, the controller gave the pilots clearance\
+  \ to \n2,000 feet via the standard arrival route.  The standard arrival route included\
+  \ several \nintermediate altitude restriction s along the arrival route.  Had the\
+  \ pilots opted to use \nmanage d-descent mode, the aeroplane would automatically\
+  \ have levelled off rather than \ndescend below any of the intermediate altitude\
+  \ restrictions, the aeroplane's automation thus \nproviding an additional defence\
+  \ against the aeroplane exceeding published minima.  \n4.3.22.  The crew instead\
+  \ opted to fly in open -descent  mode, which required them to either manually \n\
+  enter  the intermediate minimum altitudes or continuously monitor the aeroplane's\
+  \ progress \nalong the approach path and intervene manually to ensure it remain\
+  \ ed above minima.  \nHowever, t he crew did not discuss the progress of the aeroplane\
+  \ against the standard arrival \nroute altitude restrictions .  As a result , they\
+  \ did not detect that the  aeroplane had descend ed \nbelow a minimum altitude limit\
+  \  for the procedure . \n4.3.23.  The Australian Transp ort Safety Bureau  investigation\
+  \ into the similar 2012 incident involving \nthe same operator  had identified mode\
+  \ awareness as a central issue .  The  crew in that case \nhad relied on their prospective\
+  \ memory to remember to change the mode fr om open descent \nto managed descent\
+  \  once they had regained the intended flight  path .  The crew had \nsubsequently\
+  \ forgot ten to chan ge mode and the aeroplane had descended  below the \napproach\
+  \ altitude restrictions for two of the segments of the arrival procedure . A missed\
+  \ mode \nchange was not the issue in this latest incident , as the flight crew deliberately\
+  \ selected open -\ndescent  mode and intended to maintain that unti l partway through\
+  \  the arrival procedure.  \nRather the issue  was the flight crew not maint aining\
+  \ full situational awareness .    \n4.3.24.  The crew  could have followed the operator's\
+  \ procedures  more actively  and used the on -board \nsystems, such as the navigation\
+  \ display, to 'stay ahead ' of the aeroplane .  This was especially \nso as the\
+  \ aeroplane  descended in open -descent  mode, with the automated defences that\
+  \ \nwould have been available in managed -descent mode now disabled.  As the aeroplane\
+  \ passed \neach segment of the arrival procedure they should have  refer red to\
+  \ the navigation chart or \n                                                   \
+  \     \n22 Aircraft operating under radar control and flying the same route could\
+  \ be approved to operate as low as \n2,000 feet, with a minimum radar terrain separation\
+  \ of 1,600 feet (487 m) around GOMPI.   \n\n<< Page 14 >>\n Final Report AO -2017\
+  \ -007 display and  remind ed themselves of the next restriction , and ensure d\
+  \ that the aeroplane \nwould meet  it. \n4.3.25.  There is nothing wrong with following\
+  \ such an arrival procedure using the open -descent mode.  \nHowever, the aircraft\
+  \ automation in managed -descent mode provides an i mportant defence \nagainst aircraft\
+  \ descending below minima .  Using  open -descent mode relies more heavily on \n\
+  crew performance to manage the de scent, so if it is to be used, operators need\
+  \ to have  \nprocedures that ensure a high standard of  crew resource manage ment\
+  \ to provide a \ncomparable level of flight safety.  \n \n  \nFinal Report AO -2017\
+  \ -007 \n<< Page 15 >>"

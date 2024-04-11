@@ -1,1 +1,24 @@
-[]
+- safety_issue: 'The quality of the fit achieved between the tapered propeller tail shaft and the propeller hub when the new propeller was fitted during the extension project was likely to have been the reason for the fretting.
+
+    '
+  quality: inferred
+- safety_issue: 'Fretting between the starboard propeller hub and the tail shaft and corrosion on the metal surface of the tail shaft would have likely decreased its fatigue strength.
+
+    '
+  quality: inferred
+- safety_issue: 'The ISO standards for large-propeller manufacturing might not be suitable for more modern, high-efficiency propellers that operate closer to cavitation margins.
+
+    '
+  quality: inferred
+- safety_issue: 'The cracks in the starboard rudder stock were fatigue cracks. Owing to their position and depth, they were most probably linked to cavitation forces applied to the starboard rudder from the starboard propeller. These forces were likely outside those expected in normal operations.
+
+    '
+  quality: inferred
+- safety_issue: 'A lack of documentation from KiwiRail meant that there was no evidence that appropriate checks and balances had been in place to ensure that the new propellers were well fitted.
+
+    '
+  quality: inferred
+- safety_issue: 'KiwiRail did not follow the manufacturer''s advice on the best way to fit the new propellers and modify the propulsion system for optimum results. If it had, some of the conditions that contributed to the failure of the tail shaft would have been less likely to occur.
+
+    '
+  quality: inferred

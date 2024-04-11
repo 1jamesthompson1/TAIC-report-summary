@@ -1,1 +1,18 @@
-[]
+- safety_issue: "the maintenance regime that Fullers followed did not correspond to W\xE4rtsil\xE4's (the engine manufacturer's) recommended maintenance programme, but also W\xE4rtsil\xE4 would not explain the rationale behind its recommended maintenance programme\n"
+  quality: exact
+- safety_issue: 'the system of transferring passengers to another vessel as a means of evacuation was not documented or practised during evacuation drills.
+
+    '
+  quality: exact
+- safety_issue: 'only half of the fixed CO2 fire-suppression system was released into the engine room, which might not have extinguished a sustained fire if one had occurred.
+
+    '
+  quality: exact
+- safety_issue: 'A clear placard should be placed at the control station for the fixed CO2 fire-suppression systems on all passenger ferries, alerting them to the exact number of CO2 bottles needed to extinguish a fire in each of the protected compartments.
+
+    '
+  quality: exact
+- safety_issue: 'When an accident or incident occurs that requires a passenger ferry operating in Auckland''s congested Hauraki Gulf to abandon ship, it is highly likely that this will be achieved by a ship-to-ship transfer of passengers and crew. This scenario should be included in emergency response training and drills, and passenger ferries from all companies operating in the same area should be designed to minimise the risks of such an operation.
+
+    '
+  quality: exact

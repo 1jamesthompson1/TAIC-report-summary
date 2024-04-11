@@ -1,2 +1,8 @@
-- Implementation of an administrative control measure designed to provide protection for a track worker was unsuccessful due to the poor use of non-technical skills.
-- The use of an administrative control measure was not effective on its own, and the adoption of engineering control measures when establishing PWAs would provide an enhanced level of protection for track workers.
+- safety_issue: 'Implementation of an administrative control measure designed to provide protection for a track worker was unsuccessful due to the poor use of non-technical skills.
+
+    '
+  quality: exact
+- safety_issue: 'The use of an administrative control measure was not effective on its own, and the adoption of engineering control measures when establishing PWAs would provide an enhanced level of protection for track workers.
+
+    '
+  quality: exact

@@ -1,1 +1,8 @@
-[]
+- safety_issue: 'The pilot operated over water without having a life jacket on board, contrary to Civil Aviation Rules. Not wearing a life jacket reduced his chances of survival.
+
+    '
+  quality: exact
+- safety_issue: 'The pilot''s rescue was due to the fortuitous presence of witnesses on shore. Had he arranged flight-following and made a timely emergency radio call, his rescue might have been more assured even without witnesses.
+
+    '
+  quality: exact

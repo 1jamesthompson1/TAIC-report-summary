@@ -1,1 +1,24 @@
-[]
+- safety_issue: 'The fish hatch was susceptible to being left fully or partially open because it was hydraulically closed from the wheelhouse and could not be latched closed.
+
+    '
+  quality: exact
+- safety_issue: 'The bilge pumping system on the Jubilee was not fitted with any means of automatically alerting the crew when the water in the fish hold reached an abnormal level. If the crew had been alerted to the level of water in the fish hold, it is as likely as not that the sinking would have been prevented.
+
+    '
+  quality: exact
+- safety_issue: 'The absence of a visual indicator in the wheelhouse that would have alerted the crew when the bilge pump was running meant that the bilge pumping system was non-compliant with Maritime Rules. There was no other means fitted to the fish hold bilge system to alert the crew to excess water in the fish hold.
+
+    '
+  quality: exact
+- safety_issue: 'The means of escape from the Jubilee''s wheelhouse in the event of an emergency afforded the crew too few options for escaping in the event of capsize or sinking.
+
+    '
+  quality: exact
+- safety_issue: 'The means of escape from the Jubilee''s wheelhouse and accommodation space may not have met the intent of the Maritime Rules for providing escape for crew in the event of fire.
+
+    '
+  quality: exact
+- safety_issue: 'There is a lack of advice and guidance in the Maritime Rules on what is an acceptable standard for surveyors to approve when the Maritime Rules defer to the surveyors'' discretion.
+
+    '
+  quality: exact

@@ -1,1 +1,16 @@
-[]
+- safety_issue: 'The absence of selcall capability on the Wellington passenger fleet meant there was a delay in train control being made aware of the collision and in turn calling the emergency services. In this case the next train coming from the opposite direction arrived at about the same time that the derailment occurred. In other circumstances a delay in train control becoming aware of such an event in double-track territory is a lost opportunity to warn other trains in the vicinity. The delay can be overcome by fitting an improved radio system with selcall capability to the Wellington commuter rail fleet.
+
+    '
+  quality: inferred
+- safety_issue: 'Most of the passenger trains in the Wellington commuter fleet are not equipped with selcall-capable radio equipment, which means that in the event of an emergency brake application or other event that causes a rapid reduction in air brake pipe pressure, there could be a critical delay in train control being alerted in time to prevent the event escalating.
+
+    '
+  quality: inferred
+- safety_issue: 'The driving compartments on Trains 6250 and 6247 were damaged during the collision sequence to such an extent that had the drivers not vacated their driving positions before impact they would likely have been fatally injured.
+
+    '
+  quality: inferred
+- safety_issue: 'The Ganz trains were generally strong and well-built and had met the crashworthiness standards at the time of build some 30 years earlier, but they did not perform as well as a modern train during a similar front-end collision, thereby increasing the risk of injury to the drivers and possibly passengers seated near the ends of the trains.
+
+    '
+  quality: inferred

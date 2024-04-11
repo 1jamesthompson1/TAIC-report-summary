@@ -1,2 +1,12 @@
-- Changes in the size and shape of the Hamilton zone have shifted some VFR traffic congestion to prominent points outside the zone, and likely increased the risk of collision in those areas.
-- Some aerodrome controllers are 'over-controlling' VFR traffic in and around the zone, which is unnecessarily congesting the radio frequencies and risks causing difficulties for inexperienced pilots and those for whom English is their second language.
+- safety_issue: 'The standard of team resource management in the Hamilton ATC tower did not match good industry practice.
+
+    '
+  quality: exact
+- safety_issue: 'Changes in the size and shape of the Hamilton zone have shifted some VFR traffic congestion to prominent points outside the zone, and likely increased the risk of collision in those areas.
+
+    '
+  quality: exact
+- safety_issue: 'Some aerodrome controllers are ''over-controlling'' VFR traffic in and around the zone, which is unnecessarily congesting the radio frequencies and risks causing difficulties for inexperienced pilots and those for whom English is their second language.
+
+    '
+  quality: exact

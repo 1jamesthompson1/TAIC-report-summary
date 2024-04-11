@@ -1,1 +1,28 @@
-- Inadequate aircraft inspection and maintenance; pilot performance deficiencies in basic airmanship tasks, such as pre-flight inspections, weight and balance calculations, and emergency and recovery procedures; inadequate FAA oversight and direct surveillance of parachuting operations.
+- safety_issue: 'The engineering company that modified ZK-EUF for parachuting operations did not follow the proper processes required by civil aviation rules and guidance. Two of the modifications had been approved for a different aircraft type, one modification belonged to another design holder and a fourth was not referred to in the aircraft maintenance logbook.
+
+    '
+  quality: exact
+- safety_issue: 'The flight manual for ZK-EUF had not been updated to reflect the new role of the aeroplane and was limited in its usefulness to the aeroplane owner for calculating weight and balance.
+
+    '
+  quality: exact
+- safety_issue: 'The aeroplane owner and their pilots did not comply with civil aviation rules and did not follow good, sound aviation practice by failing to conduct weight and balance calculations on the aeroplane. This resulted in the aeroplane being routinely flown overweight and outside the aft centre of gravity allowable limit whenever it carried 8 parachutists.
+
+    '
+  quality: exact
+- safety_issue: 'The Director of Civil Aviation delegated the task of assessing and overseeing major modifications to Rule Part 146 design organisations and individual holders of "inspection authorisations". The delegations did not absolve the Director of his responsibility to monitor compliance with civil aviation rules and guidance.
+
+    '
+  quality: exact
+- safety_issue: 'The delegations increased the risk that unless properly managed the CAA could lose control of 2 safety-critical functions: design and inspection. The Director had not appropriately managed that risk with the current oversight programme.
+
+    '
+  quality: exact
+- safety_issue: 'The CAA''s oversight and surveillance of commercial parachuting were not adequate to ensure that operators were functioning in a safe manner.
+
+    '
+  quality: exact
+- safety_issue: 'An alcohol and drug testing regime needs to be initiated for persons performing activities critical to flight safety, to detect and deter the use of performance-impairing substances.
+
+    '
+  quality: exact

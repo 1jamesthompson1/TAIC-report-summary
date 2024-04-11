@@ -1,6 +1,12 @@
-- Poor 'housekeeping' practices on board that prevented the bilge-pumping system working; a lack of sufficient crew training for emergency equipment, meaning the crew were unable to control the flooding; the wave-height/speed operating restrictions for the vessel were not conspicuously promulgated and enforced.
-- 'Crew awareness of the operating limitations of the vessel.
+- safety_issue: 'crew awareness of the operating limitations of the vessel
 
-  Crew operating knowledge of on-board emergency systems.
+    '
+  quality: exact
+- safety_issue: 'crew operating knowledge of on-board emergency systems
 
-  Housekeeping practices on board affecting the safe operation of the vessel.'
+    '
+  quality: exact
+- safety_issue: 'housekeeping practices on board affecting the safe operation of the vessel.
+
+    '
+  quality: exact

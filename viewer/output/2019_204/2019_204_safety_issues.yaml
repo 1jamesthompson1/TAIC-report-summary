@@ -1,1 +1,12 @@
-- Operators have insufficient stability information to make informed decisions, because there is no requirement for small commercial craft to be provided with stability data.
+- safety_issue: 'The operator had not included predefined weather criteria in its MTOP. This resulted in the skipper having to make a critical safety decision on the weather without any criteria against which to assess it.
+
+    '
+  quality: exact
+- safety_issue: 'The operator of the Henerata had not assessed the risk of a capsize occurring. As a result, there were no documented controls for preventing one occurring or for minimising the consequences should one occur.
+
+    '
+  quality: exact
+- safety_issue: 'Operators have insufficient stability information to make informed decisions, because there is no requirement for small commercial craft to be provided with stability data.
+
+    '
+  quality: exact

@@ -1,1 +1,16 @@
-[]
+- safety_issue: 'The pilot lacked recent experience and training on the aircraft type.
+
+    '
+  quality: exact
+- safety_issue: 'There was no aural warning to alert the pilot to the potential fuel starvation of both engines, which could have prevented the loss of power.
+
+    '
+  quality: exact
+- safety_issue: 'The modification of the cockpit lighting adversely affected the readability of the caution lights during daylight, when the dimmer was on.
+
+    '
+  quality: exact
+- safety_issue: 'The design of the BK117 fuel system meant that both engines would lose power at nearly the same time if a pilot mismanaged the fuel system and did not see the low-fuel-level warnings.
+
+    '
+  quality: exact

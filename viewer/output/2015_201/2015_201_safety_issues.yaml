@@ -1,4 +1,16 @@
-- The Fullers training and familiarisation system failed to ensure that the master was properly trained in and familiar with the Kea's propulsion control system.
-- the Fullers system allowed the Kea to enter and continue service using the follow-up mode of operation, despite the company knowing that there were faults with that mode that could (and did) result in incidents.
-- Neither the operator nor the surveyor ensured an appropriate level of surveyor oversight of the project to replace the Kea's propulsion control system.
-- Fullers had not assessed the risk of operating ferries with unsecured passenger seating.
+- safety_issue: 'the Fullers training and familiarisation system failed to ensure that the master was properly trained in and familiar with the Kea''s propulsion control system.
+
+    '
+  quality: exact
+- safety_issue: 'the Fullers system allowed the Kea to enter and continue service using the follow-up mode of operation, despite the company knowing that there were faults with that mode that were resulting in incidents.
+
+    '
+  quality: exact
+- safety_issue: 'neither the operator nor the surveyor ensured an appropriate level of surveyor oversight of the project to replace the Kea''s propulsion control system.
+
+    '
+  quality: exact
+- safety_issue: 'Fullers had not assessed the risk of operating ferries with unsecured passenger seating.
+
+    '
+  quality: exact
