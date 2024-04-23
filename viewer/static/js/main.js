@@ -303,6 +303,15 @@ $(document).ready(function() {
         
     });
 
+    $(document).on('click', '.recommendations-link', function() {
+        var reportId = $(this).data('report-id');
+        
+        $.get('/get_recommendations', {report_id: reportId}, function(data) {
+            openReportPopup(data);
+        })
+        return false
+    });
+
     $('#closeModal').click(function() {
         closeModal();
     });

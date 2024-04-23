@@ -40,6 +40,8 @@ class Searcher:
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
+        self.recommendations = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("recommendation_file_name")))
+
     def search(self, query: str, settings, theme_ranges, theme_group_ranges, transport_modes, year_range) -> pd.DataFrame:
         reports = []
 
@@ -96,6 +98,8 @@ class Searcher:
                 with open(safety_issues_file, "r") as f:
                     safety_issues = yaml.safe_load(f)
 
+            report_recommendations = self.get_recommendations(dir)
+
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.num_matches(),
@@ -103,6 +107,8 @@ class Searcher:
                 "CompleteThemeSummary": theme_summary,
                 "SafetyIssues": str(len(safety_issues)),
                 "CompleteSafetyIssues": safety_issues,
+                "Recommendations": str(len(report_recommendations)),
+                "CompleteRecommendations": report_recommendations
             }
 
             inside_theme_range = True
@@ -290,7 +296,10 @@ class Searcher:
         
         return safety_issues
             
-
+    def get_recommendations(self, report_id):
+        reports_recommendations = self.recommendations.loc[self.recommendations["report_id"] == report_id]['recommendation'].to_list()
+       
+        return reports_recommendations
 
     def read_theme_file(self, report_id):
         report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))

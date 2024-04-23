@@ -17,6 +17,7 @@ engine:
       themes_file_name: "{{report_id}}_themes.yaml"
       full_summary_file_name: "{{report_id}}_summary.yaml"
       weightings_file_name: "{{report_id}}_weightings.txt"
+    recommendation_file_name: "TAIC_recommendations.csv"
   validation:
     folder_name: "validation"
     

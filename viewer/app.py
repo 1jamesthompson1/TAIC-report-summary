@@ -99,6 +99,8 @@ def format_search_results(results):
 
     results['SafetyIssues'] = results.apply(lambda row: f'<a href="#" class="safety-issues-link" data-report-id="{row["ReportID"]}">{row["SafetyIssues"]}</a>', axis=1)
 
+    results['Recommendations'] = results.apply(lambda row: f'<a href="#" class="recommendations-link" data-report-id="{row["ReportID"]}">{row["Recommendations"]}</a>', axis=1)
+
     for theme in searcher.themes + ["Other"]:
         results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
 
@@ -149,6 +151,16 @@ def get_safety_issues():
     safety_issues = Search.Searcher().get_safety_issues(report_id)
 
     return jsonify({'title': f"Safety issues for {report_id}", 'main': "<br><br>".join(safety_issues)})
+
+@app.route('/get_recommendations', methods=['GET'])
+def get_recommendations():
+    report_id = request.args.get('report_id')
+
+    recommendations = Search.Searcher().get_recommendations(report_id)
+
+    main_text = "<br><br>".join(recommendations) if len(recommendations) > 0 else "No recommendations found"
+
+    return jsonify({'title': f"Recommendations for {report_id}", 'main': main_text})
 
 @app.route('/get_theme_groups', methods=['GET'])
 def get_theme_groups():
