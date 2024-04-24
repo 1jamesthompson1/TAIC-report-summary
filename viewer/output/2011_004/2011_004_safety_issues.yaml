@@ -1,1 +1,12 @@
-- an inadequate standard of maintenance performed by a range of organisations and persons on the aeroplane; the standard of maintenance for general aviation aircraft in New Zealand needs to be improved.
+- safety_issue: 'Improper repair and maintenance practices spanning several maintenance organisations and individual maintenance engineers over several years contributed to a series of defects and incidents involving the nose landing gear assembly on the aeroplane.
+
+    '
+  quality: exact
+- safety_issue: 'Repairing and replacing defective components without identifying the reason for their failure in the first place is a serious safety issue that will likely result in repeat accidents and incidents for the same reasons.
+
+    '
+  quality: exact
+- safety_issue: 'Although much aircraft maintenance is done under supervision, the requirement for a duplicate check after maintenance is limited to a few defined control systems. The landing gear is not one of those systems, but an undetected maintenance error in the landing gear system has the potential to cause a serious incident or accident.
+
+    '
+  quality: exact

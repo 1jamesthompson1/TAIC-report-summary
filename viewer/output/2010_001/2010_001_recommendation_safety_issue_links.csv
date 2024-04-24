@@ -1,0 +1,13 @@
+report_id,recommendation_id,recommendation,extra_recommendation_context,safety_issue,quality,link
+2010_001,045/10,"The interpretation of SIGMETs could be improved by the use of clearer reference to geographical regions, although the requirement to conform to ICAO Standards and Recommended Procedures is appreciated.",,"Limitations in the operator's dispatch system for updating flight information might have been a cause of the crews not receiving updated weather information, including SIGMET 28, after they had completed briefing.
+",inferred,Possible
+2010_001,045/10,"The interpretation of SIGMETs could be improved by the use of clearer reference to geographical regions, although the requirement to conform to ICAO Standards and Recommended Procedures is appreciated.",,"The first air traffic controller did not hear the PAN call from NZ5046, and as PAN was not used when the crew repeated their message, he did not recognise that their situation was one of urgency.
+",inferred,None
+2010_001,045/10,"The interpretation of SIGMETs could be improved by the use of clearer reference to geographical regions, although the requirement to conform to ICAO Standards and Recommended Procedures is appreciated.",,"Airways required all pireps to be passed to MetService, but the first controller said he decided not to pass on the pirep from NZ5046 because he had earlier passed on one from an ATR.
+",inferred,None
+2010_001,045/10,"The interpretation of SIGMETs could be improved by the use of clearer reference to geographical regions, although the requirement to conform to ICAO Standards and Recommended Procedures is appreciated.",,"Airways also required controllers to pass pireps to other aircraft that could be affected, but pireps were not in the AIP list of information that ATC would pass to aircraft.
+",inferred,None
+2010_001,045/10,"The interpretation of SIGMETs could be improved by the use of clearer reference to geographical regions, although the requirement to conform to ICAO Standards and Recommended Procedures is appreciated.",,"The report of loose objects on one flight deck suggested pilots should take more care to secure items under their control.
+",inferred,None
+2010_001,045/10,"The interpretation of SIGMETs could be improved by the use of clearer reference to geographical regions, although the requirement to conform to ICAO Standards and Recommended Procedures is appreciated.",,"The safety issue whereby SIGMETs can be misleading or lack clarity because of insufficient reference to recognisable geographic regions.
+",inferred,Confirmed

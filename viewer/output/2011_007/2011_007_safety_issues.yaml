@@ -1,2 +1,8 @@
-- The captain and first officer did not adhere to company standard operating procedures for a "monitored approach" to the runway in poor meteorological conditions, which eroded safety margins built into the procedures and compromised the safety of the flight.
-- The operator was aware of the captain's tendency over a period of at least three years to not always follow standard communication procedures. The informal method the company used to address the issue did not result in any measurable improvement.
+- safety_issue: 'The captain and first officer did not adhere to company standard operating procedures for a "monitored approach" to the runway in poor meteorological conditions, which eroded safety margins built into the procedures and compromised the safety of the flight.
+
+    '
+  quality: exact
+- safety_issue: 'The operator was aware of the captain''s tendency over a period of at least three years to not always follow standard communication procedures. The informal method the company used to address the issue did not result in any measurable improvement.
+
+    '
+  quality: exact

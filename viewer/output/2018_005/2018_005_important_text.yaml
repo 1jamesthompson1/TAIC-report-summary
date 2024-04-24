@@ -1,0 +1,428 @@
+pages_read:
+- 18
+- 30
+text: "<< Page 18 >>\n Final Report AO -2018 -005 3 Analysis  \nIntroduction  \n3.1\
+  \ During a visual survey flight over Ngamatea Station, the pilot experienced a n\
+  \ engine \ncontrol  problem and as a result  conducted a forced landing. The helicopter\
+  \ struck the \nground  heavily  and the main rotor blades struck the tail  boom.\
+  \ The helicopter became \nairborne again before settling on the ground. While on\
+  \ the ground, the helicopter \nshook violently due to the now out -of-balance ,\
+  \ damaged rotor system being driven at \nhigh power by the engine. As a result,\
+  \  the helicopter  broke  up and parts  were \npropelled  some distance  from the\
+  \ main wreckage . The pilot and two occupants  \nreceived severe head injuries and\
+  \ became unconscious. One of those occupants died in \nhospital t he followin g\
+  \ day . \n3.2 The following section analyses the circumstances surrounding the occurrence\
+  \ to \nidentify those factors, which increased the severity of its outcome. It also\
+  \ examines any \nsafety issues, which have the potential to adversely affect future\
+  \ operations.    \nWhat happened  \n3.3 The data records from the FADEC system showed\
+  \ that approximately 17 minutes after \ncommencing the survey flight, the ECU primary\
+  \ channel failed. The ECU reverted to the \nreversionary governor and continued\
+  \ to provide automatic engine governin g for a \nfurther eight minutes before it\
+  \ also failed. The FADEC system subsequently reverted to \nfuel flow fixed mode\
+  \ and remained in that mode for another 68 seconds until after the \nhelicopter\
+  \ struck the ground.  \nECU failure  \n3.4 The ECU primary channel compared fuel\
+  \ -flow measurements from two different \nsources within the HMU. The ECU data showed\
+  \ that during the accident flight the \ndifference between these two measurements\
+  \ exceeded a predefined value. This \ndiscrepancy caused the primary channel to\
+  \ declare  a 'step count fault'20 and then fail, \nat which point the  FADEC system\
+  \ changed to the  reversionary governor  mode .  \n3.5 The reversionary governor\
+  \ measured the rate of engine speed change using two sets \nof measurements. About\
+  \ seven minutes and 55 seconds after t aking control, the \ndifference between these\
+  \ two measured values exceeded limit s, resulting in the \nreversionary governor\
+  \ also failing.  \n3.6 With both the ECU's primary channel and the reversionary\
+  \ governor having failed, the \nFADEC system reverted  to fuel flow f ixed mode,\
+  \ as designed.  \n3.7 The pilot needed to select manual , using the auto/manual\
+  \ switch on the collective to \nbe able to control the main rotor speed , with the\
+  \ FADEC system in fuel flow fixed \nmode . The recorded ECU data showed that the\
+  \ auto/manual  switch on the collective \nlever was not selected to manual  at any\
+  \ stage  during the accident flight .  \n \n20 A fault relating to the incremental\
+  \ positioning of a stepper motor.  \n \n  Final Report AO -2018 -005 \n<< Page 19\
+  \ >>\n Ground strike and subsequent injuries  \n3.8 One of the occupants described\
+  \ the initial ground strike as \"not overly substantial\". \nThis observation was\
+  \ supported by the energy -absorbing seat bases only partially \ncollapsing. The\
+  \ occupants survived the initial impact. However, the ground strike had \nlikely\
+  \ resulted in the rotor system becoming imbalanced due to the rotor blades \nstriking\
+  \ the tail boom.  \n3.9 The ECU data showed that  the FADEC system remained in fuel\
+  \ flow fixed mode until \napproximately five seconds after the initial ground strike,\
+  \ at which point the ECU \nexperienced an electrical power interruption. This power\
+  \ interruption caused the \nFADEC system to revert to manual  mode. The position\
+  \ of the throttle at that time \nresulted in a rapid increase in fuel flow and consequently\
+  \ high engine and rotor \nspeeds. The engine power turbine subsequently burst from\
+  \ an over-speed \napproximately two seconds later.  \n3.10 The high rotor speed\
+  \ and  imbalanced rotor system likely resulted in the destruction of \nthe helicopter\
+  \ and the severe post-impact injuries. The two occupants seated in the \nmiddle\
+  \ row of the cabin estimated  that the entire ground shaking sequence lasted for\
+  \ \nabout 30 seconds.  \n3.11 The en gine could have been shut down by moving the\
+  \ throttle twistgrip completely to \nthe cut -off position or by pulling the fuel\
+  \ shut -off valve located on the left side of the \nconsole. However, the fuel shut\
+  \ -off valve was found in the open position and the \nrecord ed ECU data showed\
+  \ the throttle remained open. It could not be positively \ndetermined why the pilot\
+  \ did not shut  down  the engine post the helicopter striking the \nterrain . It\
+  \ is as likely as not that the severe vibration  created by the imbalanced rotor\
+  \ \nsyste m, may have hindered  the pilot actions .  \n3.12 The engine suffered\
+  \ a catastrophic overspeed after the helicopter struck the terrain , \nresulting\
+  \ in an uncontained failure of the power turbine. Parts of the power turbine \n\
+  disc and blades were ejected through the side of the engine and associated airframe\
+  \ \nstructure . This resulted in combustion section flame escaping from the engine\
+  \ and \ncausing localised bur ning of the surrounding external airframe structure.\
+  \  Source of \nFADEC system faults  \nThe manufacturer of the ECU and HMU analyse\
+  \ d the recorded data and advised that \nthe initial step count fault and the reversionary\
+  \ governor fault were \"indirectly \nrelated , in that both indicate d a problem\
+  \ controlling the one stepper motor \". \n3.13 During the post -accident testing\
+  \ of the FADEC system components, the HMU (which \nincluded the stepper motor) underwent\
+  \ multiple tests in an attempt to recreate the \nfaults that were recorded on the\
+  \ accident flight. These faults could not be recreated \nand the reason  for the\
+  \ recorded faults could not be identified.  \n3.14 At the time of the accident \
+  \ the heli copter was compliant with all required airframe and \nengine  Service\
+  \ Bulletins (SBs). There was on e engine  SB21 relating to the ECU \nreversionary\
+  \ governor, that was due for compliance with the SBs instructions  at the \nnext\
+  \ removal of th e ECU from the helicopter engine  for any reason .  \n \n21 Rolls\
+  \ -Royce CEB 73 -6063 (Triumph SB73 -12). \n \n\n<< Page 20 >>\n Final Report AO\
+  \ -2018 -005 3.15 The SB requirement did not make the ECU unserviceable for continued\
+  \ operation . The \npost-accident testing of the ECU did not replicate any of the\
+  \ data fault codes \nassociated with the fault the ECU SB was aimed at addressing.\
+  \  \nPrevious FADEC system faults with the accident helicopter  \n3.16 The ECU data\
+  \ showed that the pri mary channel had failed on two prior occasions  since \nthe\
+  \ operator had acquired the helicopter.  In the first instance the primary channel\
+  \ had \nfailed, the reversionary governor had not take n control and the engine\
+  \ had \ntransitioned directly to fuel flow fixed  mode. In the second instance the\
+  \ primary \nchannel had failed,  and the reversionary  governor had taken over control\
+  \ and \ncontinued to operate until it also failed. The helicopter's maintenance\
+  \ records \ncontained no entries of any diagnostic or corrective maintenance associated\
+  \ with these \nearlier two faults. The Commission sought to understand the fault\
+  \ diagno sis process \nand the circumstances surrounding the faults.  \n3.17 The\
+  \ ECU data also recorded three collective potentiometer22 faults. A collective \n\
+  potentiometer fault had degraded the ECU's governing ability but  had not result\
+  \ ed in \nthe primary channel failing. Th e pilot in command recalled being alerted\
+  \ to these \npotentiometer faults by the illumination of a caution light, and had\
+  \ subsequently \nlanded and called the LAME.  All three occurrences of the potentiometer\
+  \ faults and \nassociated corrective actions had been  documented in the helicopter's\
+  \ maintenance \nrecords. The engine manufacturer advised that they had not been\
+  \ related to the step \ncount faults.  \nFault diagnosis process  \n3.18 When a\
+  \ helicopter is electrically powered up , the ECU conducts a self -test. If the\
+  \ ECU \ndetec ts a fault at that time,  it illuminates a caution light in the cockpit.\
+  \ The LAME can \nthen interrogate the ECU using a computerised maintenance tool\
+  \ to identify the fault.   \n3.19 The LAME did not have access to a computerised\
+  \ maintenance tool, and therefore used \nthe flashing light method to diagnose FADEC\
+  \ system faults . This required the LAME to \nobserve a sequence of flashing caution\
+  \ lights . The LAME then  had to compare  the \nsequence  of flashing lights  to\
+  \ a list of  faults in the maintenance manual .  \n3.20 Only the current and 'last\
+  \ engine run '23 faults could be displayed using the flashing \nlight method. This\
+  \ method also relied on the position of the throttle twistgrip. If the \ntwistgrip\
+  \ were  positioned to cut -off, both current and last-engine -run faults were \n\
+  present ed; if the throttle were  positioned to 'ground idle '24, only current faults\
+  \ were \npresented.  \n3.21 The discrepancy in fuel flow rates that initiated the\
+  \ step count faults could not  have \nbeen  a current fault without the engine running.\
+  \ Therefore, when the ECU powe red up, \nthe fault could only have been recorded\
+  \ as a last -engine -run fault and would have \nresulted in the caution light illuminating\
+  \ only if the twistgrip were positioned at cut -off. \n \n22 A device that measures\
+  \ the position of the collective lever and provides that information to the ECU\
+  \ to assist \nwith computing power requirements.  \n23 The engine run immediately\
+  \ prior to the engine run for which the fault diagnosis is being conducted.  \n\
+  24 A low engine and rotor speed state at wh ich the helicopter cannot take off.\
+  \  \n \n  Final Report AO -2018 -005 \n<< Page 21 >>\n First recorded primary channel\
+  \ failure  \n3.22 During interviews, the LAME and th e pilot both recalled an incident\
+  \ while carrying out \none of the first ground runs of the helicopter after  its\
+  \ initial reassembly in New \nZealand.  \n3.23 The helicopter engine had been started\
+  \ using an external electrical power source. After \nstart-up and with the engine\
+  \ stabilised at ground idle, the aircraft had been switched \nto its own electrical\
+  \ power source and the ground power had been removed. At that \ntime the engine\
+  \ had momentarily shut down before automatically relighting. The \nshutdown and\
+  \ r elight process had lasted less than a second and  resulted in some \naircraft\
+  \ instrumentation being reset.  \n3.24 The engine had then been advanced to flight\
+  \ idle, where the engine and rotor RPM \nwere both at the normal flight speed of\
+  \ 100%. The LAME  had then carrie d out the \nintended checks.  \n3.25 After the\
+  \ checks had been completed, the pilot commenced the shutdown procedure \nby returning\
+  \ the throttle twistgrip to the ground idle position; however, the engine had \n\
+  remained at flight idle. The LAME and the pilot had collect ively referred to the\
+  \ flight \nmanual, after which they decided to switch the engine control to manual\
+  \ mode. The \npilot had adjusted the twistgrip  and moved the auto/manual  switch\
+  \ to the manual  \nposition, after which the engine had quickly accelerated. The\
+  \ pil ot had reduced the \nthrottle twistgrip to stop the engine acceleration before\
+  \ any limitations were exceeded, \nthen continued to shut down the engine.  \n3.26\
+  \ Neither the pilot nor the LAME recall ed any caution or warning lights illuminating\
+  \ while \nthe engine was at flight idle25. The LAME recalled  that the three FADEC\
+  \ caution lights \nhad been  illuminated after the engine was reduced to ground\
+  \ idle.  \n3.27 After the engine had been  shut down, the LAME had interrogated\
+  \ the ECU fault \nrecords by utilising the flashing light meth od. Three faults\
+  \ had been  presented at that \ntime, of which one was a step count fault26.  \n\
+  3.28 The LAME had discussed this incident and the fault codes that had been presented\
+  \ \nwith the chief engineer and the pilot. The LAME  had then reviewed the fault\
+  \ codes by \nutilising the flashing light method once more. At that time the fault\
+  \ codes had no \nlonger presented.  \n3.29 The chief engineer had emailed the helicopter\
+  \ manufacturer seeking more information \non the uncommanded shutdown when the ground\
+  \ power was removed. The response \nfrom the manufacturer had advised:  \nBasically\
+  \ put, it is normal. The flameout occurs due to the split -second \nbetween power\
+  \ sources when moving the switch. The Permanent Magnet \nAlternator (PMA) on the\
+  \ ECU does not provi de power until about 85% N2 \nso the split second of switching\
+  \ at idle makes the ECU reset.  \nThe flameout should not occur if the start is\
+  \ done on battery power.  \n \n25 With the engine running in fuel flow fixed  mode,\
+  \ the flight manual specified that the \"ECU FAIL\" warning light \nwould be illuminated.\
+  \  \n26 The LAME recalled that one of the other faults was a temperature exceedance,\
+  \ but th ey could not remember \nwhat the third fault was. The LAME attributed both\
+  \  faults to the momentary engine shutdown and resetting of \nthe electronic instrumentation.\
+  \  \n \n\n<< Page 22 >>\n Final Report AO -2018 -005 3.30 There was also a note\
+  \ in the normal procedures section of the flight manual providing \nsimilar inf\
+  \ ormation. That note stated:  \nIf aircraft electrical power is interrupted at\
+  \ ground idle speed, engine \nflameout may occur. If flameout occurs return twistgrip\
+  \ to CUTOFF.  \n3.31 With the feedback provided by  the manufacturer and the fault\
+  \ codes no longer \npresent, th e LAME, chief engineer and pilot  had reasoned that\
+  \ the engine being locked \nat flight idle, and the fault codes identified, were\
+  \ connected. The group had believed \nthat these anomalies were a result of the\
+  \ power interruption after starting the engine.   \n3.32 The p ilot had conducted\
+  \ several  subsequent ground runs and no further anomalies or \nfault codes had\
+  \ been observed for the remainder of the ground run and test flight \nprocess. The\
+  \ helicopter had then been released to service.  \nSecond recorded primary channel\
+  \ failu re \n3.33 The same fault had been recorded in the ECU data 14 engine hours\
+  \ after the first step \ncount fault. The helicopter 's and the pilot's logbooks\
+  \ showed that this step count fault \nhad occurred during a day that included two\
+  \ hours of flying time in the helico pter and \nthree separate engine starts.  \n\
+  3.34 The data showed that, when the fault had been detected, the primary channel\
+  \ had \nfailed and the ECU  had transitioned control to the reversionary governor.\
+  \ The \nreversionary governor  had continued to operate for 11 minut es and 28 seconds\
+  \ before \nit also stopped controlling . The ECU manufacturer had advised that the\
+  \  reversionary \ngovernor had likely stopped controlling after the helicopter landed\
+  \ and the engine \nRPM decreased to ground idle, as the reversionary governor would\
+  \  not have \nfunction ed when the engine RPM was below 85%.  \n3.35 Neither the\
+  \ pilot nor the LAME had reported being aware of this step count fault \noccurring\
+  \ , therefore no ECU interrogation or rectification had been carried out and no\
+  \ \nrelevant entries had been made into the helicopter 's maintenance records. \
+  \ \n3.36 The investigation had been unable to determine if the caution light had\
+  \ illuminated \nand the pilot had not observe d it, or if a fault within a common\
+  \ part of the F ADEC \nsystem  had resulted in the light not illuminating.  \nContinuation\
+  \ of flight with degraded FADEC  system   \n3.37 Earlier in the accident flight,\
+  \ when the primary channel failed and control transitioned \nto degraded FADEC system\
+  \ under the reversionary governor, the helicopter was flying \nover open farmland.\
+  \ Several  options for a precautionary landing were available at t he \ntime, including\
+  \ a return to the point of departure , which  was less than two minutes \naway.\
+  \ However, t he pilot continued toward a more remote area with fewer options for\
+  \ \na safe precautionary landing and no practical mode of communication from ground\
+  \ \nlevel. \n\n \n\n<< Page 24 >>\n Final Report AO -2018 -005 The possibility that\
+  \ the FADEC system malfunction was not indicated to the pilot by the \ncaution and\
+  \ warning system  \n3.41 When the earlier two step count faults caused the primary\
+  \ channel to fail, the pilot had \nexperienc ed both the reversionary governor and\
+  \ the fuel flow fixed modes. Although \nthe pilot was unable to recall the accident\
+  \ flight, the pilot did remember the first \nprimary channel failure when the FADEC\
+  \ system had reverted to fuel  flow fixed mode \nduring the gro und run. Neither\
+  \ the pilot nor the LAME had recalled any caution or \nwarning lights illuminating\
+  \ as described in the flight manual.  \n3.42 The pilot also reported being unaware\
+  \ of the second primary channel failure. In that \ninstance, when the reversionary\
+  \ governo r had taken  control, the flight had continued \nas normal. On the accident\
+  \ flight, when the reversionary governor was in control, the \npilot's actions replicated\
+  \ those of that preceding occurrence by continuing the flight as \nplanned.  \n\
+  3.43 The ECU was installed on  test equipment during the post -accident inspection\
+  \ and \ntesting. During this testing, the caution and warning system functioned\
+  \ correctly.  \n3.44 It was not possible to test the components together within\
+  \ the accident airframe after \nthe accident. Therefore,  the functioning of the\
+  \ caution and warning system as it was \ninstalled within the accident airframe\
+  \ could not be fully determined.  \n3.45 A light dimmer switch was also installed\
+  \ on the MD 600N instrument panel. This was a \ndual-function switch ; when rotated\
+  \ left and r ight it modulated the brightness of the \ninstrument lights. When pushed\
+  \ inward the amber caution lights were dimmed \n(excluding the red warning lights).\
+  \ The caution lights did not return to bright until \nelectrical power was removed\
+  \ , either by switching power to the helicopter off or by \npulling the applicable\
+  \ circuit breaker.  \n3.46 Neither the pilot  in command  nor any other MD 600N\
+  \ pilots interviewed throughout \nthe inquiry were aware of the caution light dimming\
+  \ function. However, it was unlikely \nthat the pilot would have inadvertently pushed\
+  \ the dim mer switch on multiple \noccasions, coinciding with the ECU faults.  \n\
+  The possibility that the pilot did not observe the caution and warnings  \n3.47\
+  \ Studies on the topic of inattentional blindness28 have identified th at during\
+  \ times of \nhigh mental workload, cognitive resources can reach a saturation point\
+  \ and fail to \nregister information that is not subconsciously deemed a priority\
+  \  (Mack, 1998) .  \n3.48 Inattentional blindness would correspond wit h a situation\
+  \ where a pilot's mental \nworkload is high. On  the accident flight the reversionary\
+  \ governor took control during \na phase of flight coinciding with a comparatively\
+  \ low mental -workload requirement . \nTherefore,  if the caution and warning lights\
+  \ had illuminated  it is unlikely that  the pilot  \nwould have  suffered  inattentional\
+  \ blindness . \n3.49 Due to the pilot not being able to recall the accident flight,\
+  \ the investigation was \nunable to determine if the pilot observed any illuminated\
+  \ caution and warning lights . \n \n28 A phenomenon where  there is an inability\
+  \ to perceive. This sighted blindness (observed during tests) seemed to \nbe caused\
+  \ by the fact that subjects did not attend to a critical stimulus but instead attend\
+  \ ed to something else  \nthat acted as a d istractor (Mack, 1998).  \n \n  Final\
+  \ Report AO -2018 -005 \n<< Page 25 >>\n The possibility that the pilot observed\
+  \ the caution and warnings and elected to continue \nthe flight  \n3.50 The FADEC\
+  \ system transitioning to reversionary governor should not on its own \njeopardise\
+  \ flight safety. The ECU data showed that the reversionary governor \ncontinued\
+  \ to provide automatic governing of power delivery within normal operating \nparameters.\
+  \  \n3.51 The MD 600N flight manual procedure applicable to the reversionary governor\
+  \ being \nin control advised pilots to \"land as soon as practical \", which was\
+  \ further defined as:  \nExtended flight is not recommended. Whether to complete\
+  \ the \nplanned flight is at the discretion of the pilot -in-command. \nHowever,\
+  \ the nature of the specific problem or malfunction may \ndictate termination of\
+  \ the flight before reaching the destination29.  \n3.52 On the previous flights,\
+  \ when the ECU had detected the collective potentiometer faults \nand illuminated\
+  \ the 'ECU DE -GRADE' caution light  (refer to  paragraph 3.17), the pilot \nelected\
+  \ to return, land the helicopter and contact the  LAME for rectification. It is\
+  \ likely \nthat the pilot would have repeated this response and returned to land\
+  \ if they had been \npresented with and observed the three caution lights indicating\
+  \ that the reversionary \ngovernor was in control. There was no reason to suppose\
+  \ that the pilot would have \nacted differently if presented with other caution\
+  \ lights.  \nManagement of the fuel flow fixed mode   \n3.53 Whether or not the\
+  \ fuel flow fixed mode  was correctly indicated to or observed by the \npilot, the\
+  \ diverging rotor RPM during the final minute of flight would have been \napparent\
+  \ to the pilot. The first paragraph in the 'FADEC Malfunctions' section of the \n\
+  MD 600N rotorcraft flight manual stated:  \nNot all FADEC system failure modes are\
+  \ annunciated to the pilot via \nthe warning/caution indicator panel or voice warning\
+  \ system. \nShould abnormal rotor/engine control occur without cockpit \nannunciation,\
+  \ the pilot should take necessary action to avoid \nexceedin g limits. Refer to\
+  \ \"Other FADEC Malfunctions\" at the end of \nthis paragraph.  \n3.54 The MD 600N\
+  \ rotorcraft flight manual procedure for 'Other FADEC Malfunctions' was \nessentially\
+  \ the same as for the fuel flow fixed mode : \n\u2022 Adjust collective as necessary\
+  \ to control ro tor RPM  \n\u2022 Auto/Manual switch to MANUAL  \n\u2022 Twistgrip:\
+  \ immediately reduce a given amount based on power \nsetting  \n\u2022 Twistgrip:\
+  \ manually control Np/Nr at 100%  \n\u2022 Land as soon as practical  \n3.55 The\
+  \ helicopter was at about 300 feet (91 metres) above ground level and had an \n\
+  airspeed of between 80 and 100 knots when the FADEC system transitioned to fuel\
+  \ \nflow fixed mode. The engine power output  at that time was not enough  to maintain\
+  \ a \n \n29 This means landing as soon as possible in an open area where a safe\
+  \ landing can be conducted.  \n \n\n<< Page 26 >>\n Final Report AO -2018 -005 straight\
+  \ and level flight ; however , it was sufficient for the h elicopter to remain airborne\
+  \ \nfor at least one minute while the helicopter descended. There would have been\
+  \ time \nfor the pilot to select manual mode and reconfigure the helicopter to maintain\
+  \ \ncontrolled flight to a suitable landing site. The following were considered\
+  \ as possible \nfactors contributing to why this did not happen:  \n\u2022 the effects\
+  \ of 'startle' and 'surprise'  \n\u2022 the k nowledge and understanding of the\
+  \ FADEC system . \nThe effects of startle and surprise  \n3.56 Startle and surprise\
+  \ are normal human reactions to une xpected stimulus30. Where the \nstimulus is\
+  \ appraised as threatening, the activation of the sympathetic nervous system \n\
+  institutes widespread changes in the body. This arousal, which is also associated\
+  \ with \nthe acute stress reaction, is generally known as the  fight or flight reaction\
+  \ and has been \nshown to have significant effects on cognitive and psychomotor\
+  \ processes  (Martin, \nMurray, & Bates) .  \n3.57 On the accident flight, the engine\
+  \ control reverting to fuel flow fixed mode and the \nconsequences of that would\
+  \ likely have been unexpected. It could not be determined \nwhether such a physiological\
+  \ phenomenon would have affected the pilot's ability to \ninterpret and respond\
+  \ to the malfunction.  \nKnowledge and understanding of the FADEC system  \n3.58\
+  \ The nature of the head injury sustained by the pilot meant that two months elapsed\
+  \ \nbefore an interview was possible . The pilot had no memory of the accident flight\
+  \ , but \nwas able to recall the earlier training and experiences with the accident\
+  \ helico pter. At \nthe time of that initial interview the pilot did not describe\
+  \ correctly some aspects of the \nMD 600N FADEC system and the prescribed response\
+  \ s to various malfunctions.  \n3.59 The pilot expressed a reluctance to use the\
+  \ manual mode in flight and could not \ndescribe its operation  correctly .  \n\
+  3.60 During the earlier ground -running incident ( refer to paragraph 3.23), when\
+  \ the pilot \nhad moved the auto/manual  switch to the manual  position, the throttle\
+  \ had not \nimmediately reduced as required, resulting in the engine quickly accelerating.\
+  \ No \nlimitations had been exceeded, but it is likely that this incident contributed\
+  \ to the \npilot's reluctance to use manual en gine control in flight and the misunderstanding\
+  \ of \nwhen its use would be appropriate.  \n3.61 The pilot had completed a written\
+  \ examination as part of the MD 600N type rating. \nOne question in the examination\
+  \ had asked them to detail the action to be taken with \nthe illumination of the\
+  \ 'ECU fail ' light (indicating fuel flow fixed mode). The pilot's \nwritten answer\
+  \ had made no mention of the correct actions required involving the \nauto/manual\
+  \  switch or the use of manual throttle control  in the specified situation.  \n\
+  3.62 The pilot's answer in this exam had been  marked as incorrect and no correction\
+  \ had \nbeen  annotated on the exam by the instructor. The instructor had completed\
+  \ the \n \n30 The terms 'startle' and 'surprise' are often used interchangeably\
+  \ in various academic and technical reports; \nhowever , there are distinct differences\
+  \ between the startle reflex and the surprise emotion. The article ' Startle \n\
+  and Surprise on the Flight Deck: Similarities, Differences, and Prevalence ' (Rivera,\
+  \ Talone, Boesser, Jentsch, & \nYeh, 2014)  provides  a more detailed definition\
+  \ of the two as well as an analysis of their usage in previous \noccurrence investigation\
+  \ reports.  \n \n  Final Report AO -2018 -005 \n<< Page 27 >>\n required CAA form31.\
+  \ Under the heading Emergency Procedures - Other, an entry \n'FADEC/ECU ' had been\
+  \ written in and initialled as indicating the pilot had been  \nassessed as competent.\
+  \  \n3.63 There was only a small number of pilots with MD 600N experience in New\
+  \ Zealand. The \npilot had been communicating with some of them in an effort to\
+  \ gain knowledge.  \n3.64 Two pilots in this group with whom Commission investigators\
+  \ spoke, including the \npilot's instructor, were not aware of the existence of\
+  \ the reversionary governor, and \nboth expressed a re luctance to use the manual\
+  \ mode in the event of a malfunction or \nduring training.  \n3.65 The pilot of\
+  \ the accident flight had significantly more experience  in flying other light \n\
+  helicopters powered by non -FADEC variants of the RR -250 engine. On the accident\
+  \ \nflight, while the helicopter was flying in fuel flow fixed mode, the pilot reduce\
+  \ d the \nthrottle on the collective twistgrip, as shown by the ECU data . This\
+  \ was the prescribed \nprocedure for a fuel control system malfunction resulting\
+  \ in a high rotor RPM with th e \nnon-FADEC RR -250 engine variants.  \nPilots'\
+  \ concern about  using manual mode  \nSafety issue: There was not an appropriate\
+  \ means for pilots to gain experience in match ing \nthrottle position and required\
+  \ engine speed when transitioning to FADEC manual mode.  \n3.66 A NASA (National\
+  \ Aeronautics and Space Administration) study of airline crew \nperformance found\
+  \ that 85 % of \"textbook\" emergencies (those that crews had trained \nfor) were\
+  \ handled well, while only 7% of \"new\" emergency situations were handled with\
+  \ \nthe same deg ree of success (Peterson, 2007) . \n3.67 The pilot of the accident\
+  \ helicopter and the two other MD 600N pilots interviewed \nexpressed some concern\
+  \ regarding the use of, and training in, manual mode. This \nconcern was predominantly\
+  \ associ ated with the risk of over -speeding the engine  and \nrotor32 when transitioning\
+  \ from automatic to manual mode.  \n3.68 The MD 600N rotorcraft flight manual procedure\
+  \ advised pilots to:  \nImmediately reduce the twistgrip (throttle) a given amount\
+  \ based \non power settin g. \n3.69 An additional note advised:  \nThe amount of\
+  \ twistgrip reduction required is based on power \nsetting (torque). Low power settings\
+  \ require a larger reduction to \nprevent Np/Nr overspeed . \n3.70 However, the\
+  \ flight manual provided no guidance as to how much physical movement \nof the twistgrip\
+  \ the \"given amount\" represented. With no reference to a corresponding \ntwistgrip\
+  \ position, when the FADEC system completed the transition to manual mode \nthere\
+  \ was the possibility of the engine and rotor speeds rapidly increasing bey ond\
+  \ \nallowable limits , as occurred in the incident described in paragraph 3.25.\
+  \ \n \n31 CAA form 24061 /21 - 'Helicopter Competency Demonstration Records' . \n\
+  32 Over -speeding the engine and rotor systems can result in damage and requires\
+  \ a specific maintenance \ninspection after an overspeed event.  \n\n<< Page 28\
+  \ >>\n Final Report AO -2018 -005 Training requirements and guidance  \nSafety issue:\
+  \ The helicopter manufacturer did not provide information to assist instructors\
+  \ in \ntraining for flying in manual mode.  \n3.71 The requirements and guidelines\
+  \ for the issuing of a helicopter type rating are \ndescribed in CAA documents ,\
+  \ including : Civil Aviation Rules Part 61 ; Advisory Circular \n61-10: Pilot Licences\
+  \ and Ratings - Type Ratings;  and Demonstration of Competency -\nType Rating -\
+  \ Helicopter.\n3.72 For the simulation of emergency procedures training, the Demonstration\
+  \ of \nCompetency guide allowed some discretion to demonstrate 'knowledge of' rather\
+  \ than \nthe performance of actual emergency procedure s, which was not always practical.\
+  \ \nThere were some eme rgency procedures for which simulation s posed greater risk\
+  \ s \nthan the likelihood of the emergencies themselves . \n3.73 Both the pilot\
+  \ and the pilot's instructor said that  in-flight practice on the use of manual\
+  \ \nthrottle was not performed by the pilot during traini ng, due to the perceived\
+  \ risk of \nover-speeding the  engine and  rotor.  \n3.74 The instructor had spoken\
+  \ about this procedure with the Category A flight instructor \nwho issued the instructor\
+  \ 's type rating  in 2003 , and the Category A flight instructor  had \nadvised\
+  \ that the procedure  should not be practised by the pilot . The pilot and the \n\
+  instructor only discussed the procedure for the rating assessment, because of th\
+  \ e \nperceived  risk. \n3.75 The 'emergency procedures' section of the CAA standard\
+  \ form CAA 24061/21 , \nHelicopte r Competency Demonstration R ecord , completed\
+  \ by the instructor during the \npilot's type rating, had a handwritten entry 'FADEC/ECU'\
+  \ , and the competency \ndemonstration column had been signed  by the instructor.\
+  \  This record had been sent to \nthe CAA after the ra ting was issued.  \n3.76\
+  \ The helicopter manufacturer advised the Commission that a procedure existed for\
+  \ \ntraining pilots in the use of manual mode. However, this procedure was proprietary\
+  \ \ninformation and not available outside the manufacturer's own training organ\
+  \ isation.  \n3.77 To assist in training, some other helicopter types are equipped\
+  \ with a throttle position  \nindicator.  This assists  the pilot to more accurately\
+  \ select the required throttle setting \nwhen conducting emergency procedures training.\
+  \  \n3.78 The manufacturer also advised that it had no record of any accidents or\
+  \ incidents \nrelated to the transitioning to,  or the use of, manual mode control\
+  \ during training. \n3.79 It was likely that the reluctance of the instructor to\
+  \ practise the use of manual mode in \nthe MD 600N during training was perpetuated\
+  \ by a lack of information and guidance , \nresulting in a perceived high  level\
+  \ of risk.  \n3.80 The content of the  instructor's technical examination (refer\
+  \ to paragraph  3.75), \ncompleted by the pilot for the type rating , had previously\
+  \ been accepted by the CAA \non 20 October 2003. However, the depth of flight training\
+  \ provided to the pilot was at \nthe discretion of the flight instructor.   \n3.81\
+  \ The MD 600N  has systems that are  technically advanced . The Commission believes\
+  \ this \nis an example of a helicopter type that likely warranted  more emphasis\
+  \  by the \ninstructor on the need to conduct practical demonstration s of the manual\
+  \ fuel control \nas part of the  flight training syllabus .  \n \n  Final Report\
+  \ AO -2018 -005 \n<< Page 29 >>\n Use of helmets  \nSafety issue: The tendency to\
+  \ not  wear  helmets  increased the risk of injury . \n3.82 Neither the pilot nor\
+  \ any of the occupants were weari ng helmet s on the accident flight. \nThe pilot\
+  \ was unable to recall why this was the case. Other pilots from the operator \n\
+  advised that pilots wore helmets  on agricultural spraying operations, but not normally\
+  \ \nwhile conducting passenger flights. However, ther e was no written policy in\
+  \ the \noperator's documentation. The re was no  Civil Aviation Rule  to mandate\
+  \ the wearing  of \nhelmets.  \n3.83 Due to the complex sequence of events that\
+  \ occurred in this accident, the Commission \nwas unable to determine if the use\
+  \ of helmet s would have minimised the severity of \nthe injuries received by the\
+  \ pilot and the occupants .  \n3.84 A significant amount of research exists on the\
+  \ benefits of aircraft occupants wearing \nappropriate helmets . MD Helicopters\
+  \ (2019), the CAA (CAA, p.g. 9 , 2013 ), the Transport \nSafety Board of Canada\
+  \ (TSB 1997 and n.d .) and the United States Federal Aviation \nAdministration,\
+  \ through the Rotorcraft Occupant Protection Working Group (ROPWG , \n2018 ), have\
+  \ all documented the benefits of wearing helmets on board helicopt ers to \nprevent\
+  \ head injuries . This is especially so for pilots during occurrence events, when\
+  \ \nthey need to maintain awareness and act quickly . The ROPWG (p.g. 89, 2018)\
+  \ \ndocuments the issue well :  \nBlunt impact injury to the head has also been\
+  \ identified as one of the most \ncommon and severe types of injuries sustained\
+  \ by occupants in survivable \nhelicopter crashes. While numerous studies have documented\
+  \ the \neffectiveness of helmets in preventing injury in military helicopter crashes\
+  \ \nand motorcycle and bicycle crashes, flight helmets are unfortunately not as\
+  \ \nwidely used in helicopter flight operations as the ROPWG believes they \nshould\
+  \ be.  \n3.85 After the accident the operator implemented a formal policy for its\
+  \ pilots to wear \nhelmets on all flights.  \n \n\n<< Page 30 >>"

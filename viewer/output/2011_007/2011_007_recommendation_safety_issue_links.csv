@@ -1,0 +1,5 @@
+report_id,recommendation_id,recommendation,extra_recommendation_context,safety_issue,quality,link
+2011_007,015/14,"Note that the pilot check process can interfere with safe flight operations if not properly managed, and raise this potential safety issue with industry in the most appropriate manner.",,"The captain and first officer did not adhere to company standard operating procedures for a ""monitored approach"" to the runway in poor meteorological conditions, which eroded safety margins built into the procedures and compromised the safety of the flight.
+",exact,Possible
+2011_007,015/14,"Note that the pilot check process can interfere with safe flight operations if not properly managed, and raise this potential safety issue with industry in the most appropriate manner.",,"The operator was aware of the captain's tendency over a period of at least three years to not always follow standard communication procedures. The informal method the company used to address the issue did not result in any measurable improvement.
+",exact,None

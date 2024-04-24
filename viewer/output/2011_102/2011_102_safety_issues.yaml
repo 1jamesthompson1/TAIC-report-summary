@@ -1,1 +1,32 @@
-- A planned change to the train controller's workload was not assessed and managed in a way that recognised its higher-than-usual level of risk.
+- safety_issue: 'A planned change to the train controller''s workload was not assessed and managed in a way that recognised its higher-than-usual level of risk.
+
+    '
+  quality: exact
+- safety_issue: 'Train control''s workplace culture at the time of the incident did not encourage train controllers to ask for help.
+
+    '
+  quality: exact
+- safety_issue: 'The train controller, who was performing a safety-critical function with a higher-than-usual level of risk, was able to become highly stressed and mentally fatigued during her shift without anyone being aware of, or anticipating, this.
+
+    '
+  quality: exact
+- safety_issue: 'Minimal training and education about detecting and managing stress and fatigue was provided to the train controller (and other train controllers) before the incident, even though she was performing a safety-critical function.
+
+    '
+  quality: exact
+- safety_issue: 'The train controller received insufficient support and supervision during her shift even though she was performing a safety-critical function with a higher-than-usual level of risk.
+
+    '
+  quality: exact
+- safety_issue: 'Train control protocols required train controllers to work their shifts without any certainty of reasonable breaks.
+
+    '
+  quality: exact
+- safety_issue: 'Poor planning and co-ordination of track infrastructure activities unnecessarily exacerbated the complexity of the train controller''s work on the day of the incident. Train controllers are responsible for co-ordinating and managing high volumes of routine and unplanned track infrastructure activities. This increases the complexity of their role. In these situations, mistakes can occur.
+
+    '
+  quality: exact
+- safety_issue: 'A large number of rail movements and track activities are not electronically visible to train control at any given time.
+
+    '
+  quality: exact

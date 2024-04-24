@@ -1,1 +1,24 @@
-- Inadequate aircraft inspection and maintenance; pilot performance deficiencies in basic airmanship tasks, such as pre-flight inspections, weight and balance calculations, and emergency and recovery procedures; inadequate FAA oversight and direct surveillance of parachuting operations.
+- safety_issue: 'aspects of the way the operator and aeroplane owner operated the aircraft
+
+    '
+  quality: exact
+- safety_issue: 'the management of the weight and balance of the aircraft
+
+    '
+  quality: exact
+- safety_issue: 'problems with the process for converting the aircraft for parachuting
+
+    '
+  quality: exact
+- safety_issue: 'the CAA''s oversight of the conversion to parachuting
+
+    '
+  quality: exact
+- safety_issue: 'the CAA''s oversight of the parachuting industry
+
+    '
+  quality: exact
+- safety_issue: 'the wearing of restraints in parachute-drop aircraft.
+
+    '
+  quality: exact

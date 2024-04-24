@@ -1,1 +1,12 @@
-- the operator's standard operating procedures did not require its pilots to routinely calculate the performance capabilities of their helicopters for the intended flights. There was a risk of not knowing an aircraft's capability when using standard passenger weights, and therefore of pilots operating close to the limits of their aircraft's performance.
+- safety_issue: 'The operator''s standard operating procedures did not require its pilots to routinely calculate the performance capabilities of their helicopters for the intended flights.
+
+    '
+  quality: exact
+- safety_issue: 'There was a risk of not knowing an aircraft''s capability when using standard passenger weights, and therefore of pilots operating close to the limits of their aircraft''s performance.
+
+    '
+  quality: exact
+- safety_issue: 'Some New Zealand helicopter pilots may have a culture of operating their aircraft beyond the manufacturers'' published and placarded limits, with the possibility that such a culture has become normalised.
+
+    '
+  quality: exact

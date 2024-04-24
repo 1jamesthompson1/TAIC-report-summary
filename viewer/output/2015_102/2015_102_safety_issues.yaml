@@ -1,3 +1,12 @@
-- The high-voltage cable assembly had been in service for less than 12 months, but the records available did not show if it was new or repurposed, or detail the results of any test(s) performed on the cable assembly to ensure that it was in serviceable condition.
-- the operating procedures and training given to train crews to respond effectively in the event of a fire on a train were inconsistent across New Zealand's main rail operators.
-- the New Zealand Rail Regulatory System has no minimum standards for fire detection or suppression systems on freight locomotives and passenger trains on the New Zealand rail network.
+- safety_issue: 'the high-voltage cable assembly had been in service for less than 12 months, but the records available did not show if it was new or repurposed, or detail the results of any test(s) performed on the cable assembly to ensure that it was in serviceable condition.
+
+    '
+  quality: exact
+- safety_issue: 'the operating procedures and training given to train crews to respond effectively in the event of a fire on a train were inconsistent across New Zealand''s main rail operators.
+
+    '
+  quality: exact
+- safety_issue: 'the New Zealand Rail Regulatory System has no minimum standards for fire detection or suppression systems on freight locomotives and passenger trains on the New Zealand rail network.
+
+    '
+  quality: exact

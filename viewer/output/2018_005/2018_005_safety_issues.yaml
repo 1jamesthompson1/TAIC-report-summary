@@ -1,3 +1,12 @@
-- There was not an appropriate means for pilots to gain experience in matching throttle position and required engine speed when transitioning to FADEC manual mode.
-- The helicopter manufacturer did not provide information to assist instructors in training for flying in manual mode.
-- The tendency to not wear helmets increased the risk of injury. Neither the pilot nor any of the occupants were wearing helmets on the accident flight. The pilot was unable to recall why this was the case. Other pilots from the operator advised that pilots wore helmets on agricultural spraying operations, but not normally while conducting passenger flights.
+- safety_issue: 'Pilots'' concern about using manual mode
+
+    '
+  quality: exact
+- safety_issue: 'The helicopter manufacturer did not provide information to assist instructors in training for flying in manual mode.
+
+    '
+  quality: exact
+- safety_issue: 'The tendency to not wear helmets increased the risk of injury.
+
+    '
+  quality: exact

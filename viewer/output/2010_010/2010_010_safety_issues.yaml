@@ -1,1 +1,44 @@
-[]
+- safety_issue: 'The failure of the nose landing gear to extend fully was most likely caused by debris in the hydraulic fluid blocking orifices within the nose landing gear extend/retract hydraulic actuator. The debris probably came from damaged seals within the actuator.
+
+    '
+  quality: exact
+- safety_issue: 'The damage to the seals within the extend/retract hydraulic actuator could have initially been caused by a manufacturing defect in the seals or by an incorrect assembly technique. The damage may have been exacerbated by debris in the hydraulic fluid that originated from excessive wear in another actuator in the system, the one that opened and closed the forward nose landing gear doors.
+
+    '
+  quality: exact
+- safety_issue: 'With the nose landing gear stuck in a partially extended position, light from the taxi light was likely detected by the sensor for the down-lock verification system, causing it to give a false green light.
+
+    '
+  quality: exact
+- safety_issue: 'The false green light on the verification system misled the pilots of ZK-NEB into believing that the nose landing gear was fully down and locked.
+
+    '
+  quality: exact
+- safety_issue: 'The verification system for checking if the landing gear is down and locked on the Dash 8 series of aircraft is not reliable enough for pilots to place total trust in it when trying to establish the status of the landing gear.
+
+    '
+  quality: exact
+- safety_issue: 'Had the pilots known that the nose landing gear was not down and locked and then tried the alternate extension procedure, that action would have been unlikely to succeed because debris would probably still have been blocking the restrictor within the hydraulic actuator.
+
+    '
+  quality: exact
+- safety_issue: 'Assuming that the reason for the nose landing gear not fully extending was debris in the hydraulic fluid, it is possible that cycling the landing gear up and down again would have succeeded in getting all of the landing gear down and locked. However, that action was not recommended by the aeroplane manufacturer at the time.
+
+    '
+  quality: exact
+- safety_issue: 'The aural warnings that not all of the landing gear was locked down were genuine warnings. Pilots must respect warnings. In this case, the pilots should have responded by performing a go-around, which would have given them more time to consider the situation.
+
+    '
+  quality: exact
+- safety_issue: 'The pilots did not use all of the available resources to confirm the nose landing gear position. If they had asked the controller to confirm the status of the nose landing gear, it is likely that they would have taken further action in an attempt to get the nose landing gear locked down.
+
+    '
+  quality: exact
+- safety_issue: 'The captain should have explained to the flight attendant the reason for the go-around, even though he believed that the situation had been resolved. The flight attendant would have been better prepared should the landing have been less favourable.
+
+    '
+  quality: exact
+- safety_issue: 'The captain''s predetermination of what was going to be required to get the landing gear down and locked interfered with the proper following of the QRH checklist; nevertheless, all of the items were covered.
+
+    '
+  quality: exact

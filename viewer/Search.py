@@ -43,8 +43,6 @@ class Searcher:
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
-        self.recommendations = pd.read_csv(os.path.join(self.input_dir, self.config.get('data').get("recommendations_file_name")))
-
     def search(self, query: str, settings, theme_ranges, theme_group_ranges, transport_modes, year_range) -> pd.DataFrame:
         reports = []
 
@@ -300,9 +298,20 @@ class Searcher:
         return safety_issues
             
     def get_recommendations(self, report_id):
-        reports_recommendations = self.recommendations.loc[self.recommendations["report_id"] == report_id]['recommendation'].to_list()
-       
-        return reports_recommendations
+        """
+        Reads the reports recommendations from a csv file and return a string
+        """
+        csv_file_path = os.path.join(self.input_dir,
+                                     self.output_config.get('reports').get('folder_name').replace(r'{{report_id}}', report_id),
+                                     self.output_config.get("reports").get("recommendations_file_name").replace(r'{{report_id}}', report_id))
+        
+        if not os.path.exists(csv_file_path):
+            print(f"  Could not find {csv_file_path} for {report_id}, skipping report.")
+            return []
+        
+        reports_recommendation = pd.read_csv(csv_file_path)['recommendation'].tolist()
+
+        return reports_recommendation
 
     def read_theme_file(self, report_id):
         report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))

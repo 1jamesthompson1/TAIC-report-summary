@@ -1,1 +1,16 @@
-- The radio communication between the train controller and the train driver was open loop, and after it had ended neither party really understood the other's intentions.
+- safety_issue: 'The safety issue arising from this incident was the misunderstanding between the train controller and the driver during the recovery sequence, which resulted in a potential head-on collision with another train.
+
+    '
+  quality: exact
+- safety_issue: 'The radio communication between the train controller and the train driver was open loop, and after it had ended neither party really understood the other''s intentions.
+
+    '
+  quality: exact
+- safety_issue: 'Miscommunication between the train driver and the train controller resulted in each having a different understanding of how the train would be recovered to its correct route.
+
+    '
+  quality: exact
+- safety_issue: 'The miscommunication between the driver and the train controller arose from a casual and ambiguous conversation at a time when a set of clear and precise instructions should have been issued.
+
+    '
+  quality: exact

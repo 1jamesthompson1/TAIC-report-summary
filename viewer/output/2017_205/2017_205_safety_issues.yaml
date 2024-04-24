@@ -1,3 +1,12 @@
-- The operator's safety management system had not fully mitigated the risk of fire caused by cargo hold lighting, in spite of an earlier incident involving similar circumstances.
-- The responsibilities of the various authorities involved in responding to the fire were not clearly documented and understood by all parties.
-- The FENZ training standards did not fully cover the special considerations for responding to shipboard fires.
+- safety_issue: 'The operator''s safety management system had not fully mitigated the risk of fire caused by cargo hold lighting, in spite of an earlier incident involving similar circumstances.
+
+    '
+  quality: exact
+- safety_issue: 'The responsibilities of the various authorities involved in responding to the fire were not clearly documented and understood by all parties.
+
+    '
+  quality: exact
+- safety_issue: 'The FENZ training standards did not fully cover the special considerations for responding to shipboard fires.
+
+    '
+  quality: exact

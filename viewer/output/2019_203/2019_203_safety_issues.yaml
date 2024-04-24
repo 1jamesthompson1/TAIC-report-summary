@@ -1,1 +1,4 @@
-- The operator's safety management system was not supported by an effective safety assessment of log-cargo-securing operations, which should have identified the hazards present. This resulted in ineffective controls to mitigate the risks to crew when completing these tasks.
+- safety_issue: 'The operator''s safety management system was not supported by an effective safety assessment of log-cargo-securing operations, which should have identified the hazards present. This resulted in ineffective controls to mitigate the risks to crew when completing these tasks.
+
+    '
+  quality: exact
