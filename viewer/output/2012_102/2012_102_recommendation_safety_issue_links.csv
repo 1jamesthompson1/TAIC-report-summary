@@ -1,13 +1,13 @@
 report_id,recommendation_id,recommendation,extra_recommendation_context,safety_issue,quality,link
 2012_102,022/14,"the Commission recommended that the Chief Executive of KiwiRail revise the risk rating assessment matrix in its Risk Management Policy to reflect the fact that train control is a safety-critical service, and to consider the safety of people in crowds when assessing and mitigating the risks.","KiwiRail's Risk Management Policy for ""continuity of core services"" did not give proper consideration to the safety of passengers and crew when a core service such as train control failed, causing the widespread stoppage of an entire metropolitan passenger rail system.
 
-On 29 October 2014 ","The project team responsible for the Auckland train control centralisation project lacked the appropriate expertise for designing and installing the emergency power supply system.
-",exact,Possible
-2012_102,022/14,"the Commission recommended that the Chief Executive of KiwiRail revise the risk rating assessment matrix in its Risk Management Policy to reflect the fact that train control is a safety-critical service, and to consider the safety of people in crowds when assessing and mitigating the risks.","KiwiRail's Risk Management Policy for ""continuity of core services"" did not give proper consideration to the safety of passengers and crew when a core service such as train control failed, causing the widespread stoppage of an entire metropolitan passenger rail system.
-
 On 29 October 2014 ","KiwiRail's Risk Management Policy for ""continuity of core services"" did not give proper consideration to the safety of passengers and crew when a core service such as train control failed, causing the widespread stoppage of an entire metropolitan passenger rail system.
 ",exact,Confirmed
 2012_102,022/14,"the Commission recommended that the Chief Executive of KiwiRail revise the risk rating assessment matrix in its Risk Management Policy to reflect the fact that train control is a safety-critical service, and to consider the safety of people in crowds when assessing and mitigating the risks.","KiwiRail's Risk Management Policy for ""continuity of core services"" did not give proper consideration to the safety of passengers and crew when a core service such as train control failed, causing the widespread stoppage of an entire metropolitan passenger rail system.
 
 On 29 October 2014 ","The management and maintenance of the emergency power supply system for train control were not sufficient to ensure the integrity of what had been designated an ""essential service"".
-",exact,Possible
+",exact,None
+2012_102,022/14,"the Commission recommended that the Chief Executive of KiwiRail revise the risk rating assessment matrix in its Risk Management Policy to reflect the fact that train control is a safety-critical service, and to consider the safety of people in crowds when assessing and mitigating the risks.","KiwiRail's Risk Management Policy for ""continuity of core services"" did not give proper consideration to the safety of passengers and crew when a core service such as train control failed, causing the widespread stoppage of an entire metropolitan passenger rail system.
+
+On 29 October 2014 ","The project team responsible for the Auckland train control centralisation project lacked the appropriate expertise for designing and installing the emergency power supply system.
+",exact,None

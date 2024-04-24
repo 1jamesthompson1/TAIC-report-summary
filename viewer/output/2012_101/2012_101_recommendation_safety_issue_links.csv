@@ -1,4 +1,16 @@
 report_id,recommendation_id,recommendation,extra_recommendation_context,safety_issue,quality,link
+2012_101,008/14,The Commission recommends that the Chief Executive of KiwiRail take steps to ensure that appropriate training is given to all staff involved in load security and that staff responsible for checking load security at the various stages of a train journey are discharging their duties in a manner consistent with the KiwiRail Freight Handling Code.,"None of KiwiRail's staff involved with loading and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code.
+
+KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being undertaken. It had to ensure that the loading and stowage of goods on railway wagons were carried out by people with the appropriate training and certification.
+
+","No-one involved with loading, shifting and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code.
+",exact,Confirmed
+2012_101,008/14,The Commission recommends that the Chief Executive of KiwiRail take steps to ensure that appropriate training is given to all staff involved in load security and that staff responsible for checking load security at the various stages of a train journey are discharging their duties in a manner consistent with the KiwiRail Freight Handling Code.,"None of KiwiRail's staff involved with loading and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code.
+
+KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being undertaken. It had to ensure that the loading and stowage of goods on railway wagons were carried out by people with the appropriate training and certification.
+
+","The MDD class special-movement wagon allocated to transport the load from Dunedin to Christchurch had not been furnished with the appropriate load-securing equipment.
+",exact,None
 2012_101,009/14,The Commission recommends that the Chief Executive of the NZ Transport Agency ensure that KiwiRail addresses the above recommendation.,"No-one involved with loading, shifting and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code.
 
 KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being undertaken. It had to ensure that the loading and stowage of goods on railway wagons were carried out by people with the appropriate training and certification.
@@ -19,15 +31,3 @@ It is important that KiwiRail address the above recommendation, which addresses 
 
 ","The MDD class special-movement wagon allocated to transport the load from Dunedin to Christchurch had not been furnished with the appropriate load-securing equipment.
 ",exact,Confirmed
-2012_101,008/14,The Commission recommends that the Chief Executive of KiwiRail take steps to ensure that appropriate training is given to all staff involved in load security and that staff responsible for checking load security at the various stages of a train journey are discharging their duties in a manner consistent with the KiwiRail Freight Handling Code.,"None of KiwiRail's staff involved with loading and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code.
-
-KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being undertaken. It had to ensure that the loading and stowage of goods on railway wagons were carried out by people with the appropriate training and certification.
-
-","No-one involved with loading, shifting and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code.
-",exact,Confirmed
-2012_101,008/14,The Commission recommends that the Chief Executive of KiwiRail take steps to ensure that appropriate training is given to all staff involved in load security and that staff responsible for checking load security at the various stages of a train journey are discharging their duties in a manner consistent with the KiwiRail Freight Handling Code.,"None of KiwiRail's staff involved with loading and securing the wagon body was sufficiently familiar with the KiwiRail Freight Handling Code to realise that the securing arrangement was not compliant with the Code.
-
-KiwiRail had a responsibility to ensure that staff was trained and competent in all tasks being undertaken. It had to ensure that the loading and stowage of goods on railway wagons were carried out by people with the appropriate training and certification.
-
-","The MDD class special-movement wagon allocated to transport the load from Dunedin to Christchurch had not been furnished with the appropriate load-securing equipment.
-",exact,Possible

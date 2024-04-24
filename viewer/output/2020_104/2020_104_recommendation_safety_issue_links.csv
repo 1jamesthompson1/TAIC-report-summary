@@ -1,5 +1,5 @@
 report_id,recommendation_id,recommendation,extra_recommendation_context,safety_issue,quality,link
 2020_104,009/21,"On 8 December 2021, the Commission recommended that KiwiRail carry out an analysis of how it could best incorporate engineering control measures into both its current and future operations to minimise the risks that human factors play in effective protection for track workers. (009/21)",,"Implementation of an administrative control measure designed to provide protection for a track worker was unsuccessful due to the poor use of non-technical skills.
-",exact,Possible
+",exact,None
 2020_104,009/21,"On 8 December 2021, the Commission recommended that KiwiRail carry out an analysis of how it could best incorporate engineering control measures into both its current and future operations to minimise the risks that human factors play in effective protection for track workers. (009/21)",,"The use of an administrative control measure was not effective on its own, and the adoption of engineering control measures when establishing PWAs would provide an enhanced level of protection for track workers.
 ",exact,Confirmed

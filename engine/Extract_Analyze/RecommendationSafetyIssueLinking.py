@@ -134,15 +134,20 @@ class RecommendationSafetyIssueLinker:
             combined_df = pd.read_csv(links_csv_path)
         else:
             combined_df['link'] = combined_df.apply(lambda x: self._link_recommendation_with_safety_issue(x['recommendation'], x['safety_issue']), axis=1)
+            
+            
+        combined_df = RecommendationSafetyIssueLinkUpgrader().upgrade_unlinked_recommendations(combined_df)
 
-            combined_df.to_csv(links_csv_path, index=False) 
-        
+        combined_df['link'] = combined_df['link'].apply(lambda x: 'Confirmed' if x == 'Confirmed' else "None")
+
+        combined_df.to_csv(links_csv_path, index=False)  
+   
         visual_path = os.path.join(self.output_folder,
                                self.reports_config.get("folder_name").replace(r'{{report_id}}', report_id),
                                self.reports_config.get("recommendation_safety_issue_links_visual_file_name").replace(r'{{report_id}}', report_id))
         
-        if not os.path.exists(visual_path):
-            self._generate_visualization_of_links(combined_df, report_id,visual_path)
+        # if not os.path.exists(visual_path):
+        self._generate_visualization_of_links(combined_df, report_id,visual_path)
         
 
     def evaluate_links_for_report(self):
@@ -152,3 +157,56 @@ class RecommendationSafetyIssueLinker:
         output_folder_reader = OutputFolderReader()
 
         output_folder_reader.process_reports_with_specific_files(self._evaluate_all_possible_links, ["recommendations_file_name", "safety_issues"])
+
+class RecommendationSafetyIssueLinkUpgrader:
+    def __init__(self):
+        pass
+    
+    def find_unlinked_recommendations(self, df):
+        all_recommendations = df.drop_duplicates(['report_id', 'recommendation', 'safety_issue'])
+
+        linked_recommendations = df[df['link'] == "Confirmed"]
+
+        unlinked_recommendations = all_recommendations[~all_recommendations['recommendation'].isin(linked_recommendations['recommendation'])]
+
+        return unlinked_recommendations
+    
+    def upgrade_unlinked_recommendations(self, df):
+
+        # Find unlinked recommendations
+        unlinked_recommendations = self.find_unlinked_recommendations(df)
+
+        if unlinked_recommendations.shape[0] == 0:
+            print("No unlinked recommendations found. No upgrades needed.")
+            return df
+
+        print(f"There are {unlinked_recommendations.drop_duplicates(['report_id', 'recommendation']).shape[0]} unlinked recommendations. This is {unlinked_recommendations.drop_duplicates(['report_id', 'recommendation']).shape[0]/df.drop_duplicates(['report_id', 'recommendation']).shape[0]*100:.2f}% of all recommendations.")
+
+        # Find which links should be upgraded
+        link_to_upgrade = unlinked_recommendations[unlinked_recommendations['link'] == "Possible"]
+        link_to_upgrade['link'] = "Confirmed"
+
+        # Upgrade links in original df
+        upgraded_df = df.merge(link_to_upgrade, how = 'outer')
+
+        upgraded_df.drop_duplicates(subset=['report_id', 'safety_issue', 'recommendation'], keep = 'first', inplace = True)
+
+        # These excessive try catch blocks are here because of the case that new confirmed links were added or existed in the first place.
+        try:
+            new_confirmed_links = upgraded_df.value_counts('link')['Confirmed']
+        except:
+            new_confirmed_links = 0
+
+        try:
+            old_confirmed_links = df.value_counts('link')['Confirmed']
+        except:
+            old_confirmed_links = 0
+        
+        num_upgraded_links = new_confirmed_links - old_confirmed_links
+
+        print(f"{num_upgraded_links} links were upgraded.\n This represents {num_upgraded_links/df.shape[0]*100:.2f}% of all links and {num_upgraded_links/df[df['link'] == 'Possible'].shape[0]*100:.2f}% of possible links.")
+
+        still_unlinked_recommendations = self.find_unlinked_recommendations(upgraded_df).drop_duplicates(['report_id', 'recommendation'])[["report_id", "recommendation"]]
+        print(f"After performing the upgrading there are still {still_unlinked_recommendations.shape[0]} unlinked recommendations which is {still_unlinked_recommendations.shape[0]/df.drop_duplicates(['report_id', 'recommendation']).shape[0]*100:.2f}% of all recommendations.")
+
+        return upgraded_df

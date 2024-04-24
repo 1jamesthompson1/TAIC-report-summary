@@ -18,7 +18,7 @@ report_id,recommendation_id,recommendation,extra_recommendation_context,safety_i
 2014_006,008/17,"On 23 February 2017 the Commission:
 - gave notice to the Director of Civil Aviation that recommendation 007/17 had been made to the Administrator of the FAA, which recommended the FAA extend the limitations and requirements of FAA AD 95-26-04 to the R44 and R66, and to all Robinson pilots regardless of their experience levels
 - recommended to the Director of Civil Aviation that until such time as recommendation 007/17 is actioned by the FAA, he extend the limitations and requirements of FAA AD 95-26-04 to R44 and R66 helicopters in New Zealand, and to all pilots of Robinson helicopters in New Zealand regardless of their experience.",,"The helicopter very likely encountered moderate to severe turbulence and an associated severe downdraught in the lee of Mt Arthur, which likely created a prolonged low-G condition.
-",exact,Possible
+",exact,None
 2014_006,008/17,"On 23 February 2017 the Commission:
 - gave notice to the Director of Civil Aviation that recommendation 007/17 had been made to the Administrator of the FAA, which recommended the FAA extend the limitations and requirements of FAA AD 95-26-04 to the R44 and R66, and to all Robinson pilots regardless of their experience levels
 - recommended to the Director of Civil Aviation that until such time as recommendation 007/17 is actioned by the FAA, he extend the limitations and requirements of FAA AD 95-26-04 to R44 and R66 helicopters in New Zealand, and to all pilots of Robinson helicopters in New Zealand regardless of their experience.",,"Had a previous limitation on maximum wind speeds for inexperienced R44 pilots remained in place, as per that for R22 pilots, the pilot would have been prohibited from flying at the time of the accident due to the forecast strong winds and turbulence.
@@ -38,7 +38,7 @@ report_id,recommendation_id,recommendation,extra_recommendation_context,safety_i
 2014_006,008/17,"On 23 February 2017 the Commission:
 - gave notice to the Director of Civil Aviation that recommendation 007/17 had been made to the Administrator of the FAA, which recommended the FAA extend the limitations and requirements of FAA AD 95-26-04 to the R44 and R66, and to all Robinson pilots regardless of their experience levels
 - recommended to the Director of Civil Aviation that until such time as recommendation 007/17 is actioned by the FAA, he extend the limitations and requirements of FAA AD 95-26-04 to R44 and R66 helicopters in New Zealand, and to all pilots of Robinson helicopters in New Zealand regardless of their experience.",,"Although not an intuitive reaction to a sudden right roll, the aft cyclic technique is the only approved recovery technique, and should be used as soon as low-G is felt to 'reload' the main rotor disc and help reduce any right roll.
-",exact,Possible
+",exact,None
 2014_006,007/17,"On 23 February 2017 the Commission recommended to the Administrator of the FAA that he:
 - extend the limitations and requirements of FAA AD 95-26-04 that currently apply to the R22, in regard to operating in strong winds and turbulence, to the R44 and R66 models; and
 - extend those limitations and requirements so that they apply to all R22, R44 and R66 pilots regardless of their experience levels.",,"A mast-bump occurred, which led to rotor divergence and the in-flight break-up.
@@ -50,7 +50,7 @@ report_id,recommendation_id,recommendation,extra_recommendation_context,safety_i
 2014_006,007/17,"On 23 February 2017 the Commission recommended to the Administrator of the FAA that he:
 - extend the limitations and requirements of FAA AD 95-26-04 that currently apply to the R22, in regard to operating in strong winds and turbulence, to the R44 and R66 models; and
 - extend those limitations and requirements so that they apply to all R22, R44 and R66 pilots regardless of their experience levels.",,"An abrupt, inappropriate or inadvertent cyclic control input by the pilot could not be ruled out as having contributed to the in-flight break-up.
-",exact,Possible
+",exact,None
 2014_006,007/17,"On 23 February 2017 the Commission recommended to the Administrator of the FAA that he:
 - extend the limitations and requirements of FAA AD 95-26-04 that currently apply to the R22, in regard to operating in strong winds and turbulence, to the R44 and R66 models; and
 - extend those limitations and requirements so that they apply to all R22, R44 and R66 pilots regardless of their experience levels.",,"The actual wind and turbulence at the time of the accident were very likely to have been the same as, or stronger than, the forecast conditions.
@@ -78,4 +78,4 @@ report_id,recommendation_id,recommendation,extra_recommendation_context,safety_i
 2014_006,007/17,"On 23 February 2017 the Commission recommended to the Administrator of the FAA that he:
 - extend the limitations and requirements of FAA AD 95-26-04 that currently apply to the R22, in regard to operating in strong winds and turbulence, to the R44 and R66 models; and
 - extend those limitations and requirements so that they apply to all R22, R44 and R66 pilots regardless of their experience levels.",,"Although not an intuitive reaction to a sudden right roll, the aft cyclic technique is the only approved recovery technique, and should be used as soon as low-G is felt to 'reload' the main rotor disc and help reduce any right roll.
-",exact,Possible
+",exact,None
