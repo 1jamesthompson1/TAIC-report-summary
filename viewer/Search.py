@@ -101,6 +101,8 @@ class Searcher:
 
             report_recommendations = self.get_recommendations(dir)
 
+            links_visual_file = self.get_links_visual_path(dir)
+
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.num_matches(),
@@ -109,7 +111,8 @@ class Searcher:
                 "SafetyIssues": str(len(safety_issues)),
                 "CompleteSafetyIssues": safety_issues,
                 "Recommendations": str(len(report_recommendations)),
-                "CompleteRecommendations": report_recommendations
+                "CompleteRecommendations": report_recommendations,
+                "linksVisual": os.path.exists(links_visual_file)
             }
 
             inside_theme_range = True
@@ -312,6 +315,14 @@ class Searcher:
         reports_recommendation = pd.read_csv(csv_file_path)['recommendation'].tolist()
 
         return reports_recommendation
+
+    def get_links_visual_path(self, report_id):
+        report_dir = os.path.join(
+            self.input_dir,
+            self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))
+        
+        return os.path.join(report_dir,
+                     self.output_config.get("reports").get("recommendation_safety_issue_links_visual_file_name").replace(r'{{report_id}}', report_id))
 
     def read_theme_file(self, report_id):
         report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))

@@ -8,6 +8,8 @@ from threading import Thread
 from werkzeug.wsgi import FileWrapper
 import tempfile
 
+import base64
+
 import engine.Extract_Analyze.Themes as Themes
 import engine.Modes as Modes
 
@@ -101,6 +103,8 @@ def format_search_results(results):
 
     results['Recommendations'] = results.apply(lambda row: f'<a href="#" class="recommendations-link" data-report-id="{row["ReportID"]}">{row["Recommendations"]}</a>', axis=1)
 
+    results['linksVisual'] = results.apply(lambda row: f'<a href="#" class="links-visual-link" data-report-id="{row["ReportID"]}">Visualization of recommendation and safety issue links</a>' if row['linksVisual'] else 'No links to show', axis=1)
+
     for theme in searcher.themes + ["Other"]:
         results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
 
@@ -161,6 +165,21 @@ def get_recommendations():
     main_text = "<br><br>".join(recommendations) if len(recommendations) > 0 else "No recommendations found"
 
     return jsonify({'title': f"Recommendations for {report_id}", 'main': main_text})
+
+@app.route('/get_links_visual', methods=['GET'])
+def get_links_visual():
+    report_id = request.args.get('report_id')
+
+    link = Search.Searcher().get_links_visual_path(report_id)
+
+    # read image and encode
+
+    with open(link, "rb") as image:
+        encoded = base64.b64encode(image.read()).decode()
+
+    return jsonify({'title': f"Links visual for {report_id}", 'main': f"<br><br><img src='data:image/png;base64,{encoded}'></img>"})
+
+
 
 @app.route('/get_theme_groups', methods=['GET'])
 def get_theme_groups():

@@ -312,6 +312,15 @@ $(document).ready(function() {
         return false
     });
 
+    $(document).on('click', '.links-visual-link', function() {
+        var reportId = $(this).data('report-id');
+        
+        $.get('/get_links_visual', {report_id: reportId}, function(data) {
+            openReportPopup(data);
+        })
+        return false
+    });
+
     $('#closeModal').click(function() {
         closeModal();
     });
