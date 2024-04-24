@@ -35,12 +35,15 @@ class SearchResult:
 
 class Searcher:
     def __init__(self):
-        self.output_config = Config.configReader.get_config()['engine']['output']
+        self.config = Config.configReader.get_config()['engine']
+
+        self.output_config = self.config['output']
+
         self.input_dir = os.path.join("viewer", self.output_config.get("folder_name"))
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
 
-        self.recommendations = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("recommendation_file_name")))
+        self.recommendations = pd.read_csv(os.path.join(self.input_dir, self.config.get('data').get("recommendations_file_name")))
 
     def search(self, query: str, settings, theme_ranges, theme_group_ranges, transport_modes, year_range) -> pd.DataFrame:
         reports = []

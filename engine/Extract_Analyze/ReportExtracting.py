@@ -496,6 +496,6 @@ class ReportExtractingProcessor:
         if output_folder_reader == None:
             raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
         
-        self.output_folder_reader.process_reports(self.__output_safety_issues)
+        output_folder_reader.process_reports(self.__output_safety_issues)
 
         

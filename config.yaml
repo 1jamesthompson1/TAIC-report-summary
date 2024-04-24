@@ -17,7 +17,10 @@ engine:
       themes_file_name: "{{report_id}}_themes.yaml"
       full_summary_file_name: "{{report_id}}_summary.yaml"
       weightings_file_name: "{{report_id}}_weightings.txt"
-    recommendation_file_name: "TAIC_recommendations.csv"
+      recommendations_file_name: "{{report_id}}_recommendations.csv"
+      recommendation_safety_issue_links_file_name: "{{report_id}}_recommendation_safety_issue_links.csv"
+  data:
+    recommendations_file_name: "cleaned_TAIC_recommendations_2024_04_04.csv"
   validation:
     folder_name: "validation"
     
