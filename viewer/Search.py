@@ -35,7 +35,10 @@ class SearchResult:
 
 class Searcher:
     def __init__(self):
-        self.output_config = Config.configReader.get_config()['engine']['output']
+        self.config = Config.configReader.get_config()['engine']
+
+        self.output_config = self.config['output']
+
         self.input_dir = os.path.join("viewer", self.output_config.get("folder_name"))
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
@@ -96,6 +99,24 @@ class Searcher:
                 with open(safety_issues_file, "r") as f:
                     safety_issues = yaml.safe_load(f)
 
+            report_recommendations = self.get_recommendations(dir)
+            
+            links_file_path = os.path.join(
+                self.input_dir,
+                self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir),
+                self.output_config.get("reports").get("recommendation_safety_issue_links_file_name").replace(r'{{report_id}}', dir))
+
+            links_visual_file = self.get_links_visual_path(dir)
+
+            if not os.path.exists(links_file_path):
+                print(f"  Could not find {links_file_path} for {dir}, skipping report.")
+                links_file = None
+            else:
+                print(f"  Found {links_file_path} for {dir}, loading links")
+
+                links_file = pd.read_csv(links_file_path)
+
+                
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.num_matches(),
@@ -103,6 +124,10 @@ class Searcher:
                 "CompleteThemeSummary": theme_summary,
                 "SafetyIssues": str(len(safety_issues)),
                 "CompleteSafetyIssues": safety_issues,
+                "Recommendations": str(len(report_recommendations)),
+                "CompleteRecommendations": report_recommendations,
+                "Completelinks": links_file,
+                "linksVisual": os.path.exists(links_visual_file)
             }
 
             inside_theme_range = True
@@ -301,7 +326,29 @@ class Searcher:
         
         return formatted_SI
             
+    def get_recommendations(self, report_id):
+        """
+        Reads the reports recommendations from a csv file and return a string
+        """
+        csv_file_path = os.path.join(self.input_dir,
+                                     self.output_config.get('reports').get('folder_name').replace(r'{{report_id}}', report_id),
+                                     self.output_config.get("reports").get("recommendations_file_name").replace(r'{{report_id}}', report_id))
+        
+        if not os.path.exists(csv_file_path):
+            print(f"  Could not find {csv_file_path} for {report_id}, skipping report.")
+            return []
+        
+        reports_recommendation = pd.read_csv(csv_file_path)['recommendation'].tolist()
 
+        return reports_recommendation
+
+    def get_links_visual_path(self, report_id):
+        report_dir = os.path.join(
+            self.input_dir,
+            self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))
+        
+        return os.path.join(report_dir,
+                     self.output_config.get("reports").get("recommendation_safety_issue_links_visual_file_name").replace(r'{{report_id}}', report_id))
 
     def read_theme_file(self, report_id):
         report_dir = os.path.join(self.input_dir, self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', report_id))

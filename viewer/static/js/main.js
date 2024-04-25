@@ -43,40 +43,10 @@ $(document).ready(function() {
             }
         });
     }
-
-    $('#downloadResultsCSV').click(function() {
-        var formData = $('form').serialize();
-        var form = $('<form>', {
-            action: '/get_results_as_csv',
-            method: 'post'
-        });
-        $.each(formData.split('&'), function(i, v) {
-            var parts = v.split('=');
-            form.append($('<input>', {
-                type: 'hidden',
-                name: decodeURIComponent(parts[0]),
-                value: decodeURIComponent(parts[1])
-            }));
-        });
-        form.appendTo('body').submit().remove();
+    $('[id^="downloadCSVBtn"]').click(function() {
+        var actionUrl = $(this).attr('id').replace('downloadCSVBtn', '/get') + '_as_csv';
+        downloadCSV(actionUrl);
     });
-
-    $('#downloadResultsSafetyIssues').click(function() {
-        var formData = $('form').serialize();
-        var form = $('<form>', {
-            action: '/get_results_safety_issues_as_csv',
-            method: 'post'
-        });
-        $.each(formData.split('&'), function(i, v) {
-            var parts = v.split('=');
-            form.append($('<input>', {
-                type: 'hidden',
-                name: decodeURIComponent(parts[0]),
-                value: decodeURIComponent(parts[1])
-            }));
-        });
-        form.appendTo('body').submit().remove();
-    })
 
     $('#advancedSearchBtn').click(function() {
         $('#resetBtn').toggle();
@@ -116,6 +86,23 @@ $(document).on('click', '.showIndividualThemeSlidersBtn', function() {
         $(this).text('Expand to individual themes');
     }
 });
+
+function downloadCSV(actionUrl) {
+    var formData = $('form').serialize();
+    var form = $('<form>', {
+        action: actionUrl,
+        method: 'post'
+    });
+    $.each(formData.split('&'), function(i, v) {
+        var parts = v.split('=');
+        form.append($('<input>', {
+            type: 'hidden',
+            name: decodeURIComponent(parts[0]),
+            value: decodeURIComponent(parts[1])
+        }));
+    });
+    form.appendTo('body').submit().remove();
+}
 
 function createYearSlider() {
     const $minInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-min` });
@@ -318,6 +305,24 @@ $(document).ready(function() {
         })
         return false
         
+    });
+
+    $(document).on('click', '.recommendations-link', function() {
+        var reportId = $(this).data('report-id');
+        
+        $.get('/get_recommendations', {report_id: reportId}, function(data) {
+            openReportPopup(data);
+        })
+        return false
+    });
+
+    $(document).on('click', '.links-visual-link', function() {
+        var reportId = $(this).data('report-id');
+        
+        $.get('/get_links_visual', {report_id: reportId}, function(data) {
+            openReportPopup(data);
+        })
+        return false
     });
 
     $('#closeModal').click(function() {

@@ -1,0 +1,85 @@
+report_id,recommendation_id,recommendation,extra_recommendation_context,safety_issue,quality,link
+2013_104,020/13,"the Commission recommended that the Chief Executive of KiwiRail urgently address this safety issue by ensuring that at the Wellington maintenance depot, and other maintenance depots under KiwiRail control:
+- maintenance is undertaken in accordance with good railway engineering practice
+- manufacturersâ€™ inspection, repair and maintenance instructions are documented and followed
+- safety-critical components are identified and documented
+- work instructions are issued for maintaining all equipment
+- work on safety-critical components is signed off by someone other than the person responsible for carrying out the maintenance work
+- all maintenance work is recorded.","There were 2 safety issues identified with the Wellington maintenance depot processes:
+- there were no individual task instructions on how each job was to be done
+- there was no check sheet associated with each task to record that important steps and checks for the task had been completed.
+
+Instead, the depot relied on the knowledge of the depot staff to complete each task satisfactorily.
+
+These shortcomings in maintenance control could be indicators of other safety issues within the wider maintenance system at the Wellington maintenance depot.
+
+On 13 August 2013 ","The standard of maintenance for a safety-critical braking system, particularly the procedures for ensuring that maintenance was conducted in accordance with best engineering practice and that there were independent final checks of critical systems before electric multiple units were released back into service.
+",inferred,Confirmed
+2013_104,020/13,"the Commission recommended that the Chief Executive of KiwiRail urgently address this safety issue by ensuring that at the Wellington maintenance depot, and other maintenance depots under KiwiRail control:
+- maintenance is undertaken in accordance with good railway engineering practice
+- manufacturersâ€™ inspection, repair and maintenance instructions are documented and followed
+- safety-critical components are identified and documented
+- work instructions are issued for maintaining all equipment
+- work on safety-critical components is signed off by someone other than the person responsible for carrying out the maintenance work
+- all maintenance work is recorded.","There were 2 safety issues identified with the Wellington maintenance depot processes:
+- there were no individual task instructions on how each job was to be done
+- there was no check sheet associated with each task to record that important steps and checks for the task had been completed.
+
+Instead, the depot relied on the knowledge of the depot staff to complete each task satisfactorily.
+
+These shortcomings in maintenance control could be indicators of other safety issues within the wider maintenance system at the Wellington maintenance depot.
+
+On 13 August 2013 ","The Wellington metro maintenance depot lacked documented task instructions for performing safety-critical tasks on the Ganz Mavag fleet, and there was no means of recording progress against the individual steps in the task.
+",inferred,Confirmed
+2013_104,020/13,"the Commission recommended that the Chief Executive of KiwiRail urgently address this safety issue by ensuring that at the Wellington maintenance depot, and other maintenance depots under KiwiRail control:
+- maintenance is undertaken in accordance with good railway engineering practice
+- manufacturersâ€™ inspection, repair and maintenance instructions are documented and followed
+- safety-critical components are identified and documented
+- work instructions are issued for maintaining all equipment
+- work on safety-critical components is signed off by someone other than the person responsible for carrying out the maintenance work
+- all maintenance work is recorded.","There were 2 safety issues identified with the Wellington maintenance depot processes:
+- there were no individual task instructions on how each job was to be done
+- there was no check sheet associated with each task to record that important steps and checks for the task had been completed.
+
+Instead, the depot relied on the knowledge of the depot staff to complete each task satisfactorily.
+
+These shortcomings in maintenance control could be indicators of other safety issues within the wider maintenance system at the Wellington maintenance depot.
+
+On 13 August 2013 ","No systematic assessment had been undertaken to identify safety-critical systems and their components, and there were no mandatory checks by people independent of those doing the work that the work had been performed in accordance with the Code.
+",inferred,Confirmed
+2013_104,021/13,The Commission recommends that the Chief Executive of the NZ Transport Agency take all appropriate steps to ensure that KiwiRail addresses the above recommendation.,"The Commission has made an urgent recommendation to the Chief Executive of KiwiRail that he ensure that at the Wellington maintenance depot, and other maintenance depots under KiwiRail control:
+- maintenance is undertaken in accordance with good railway engineering practice
+- manufacturers' inspection, repair and maintenance instructions are documented and followed
+- safety-critical components are identified and documented
+- work instructions are issued for maintaining all equipment
+- work on safety-critical components is signed off by someone other than the maintainer
+- all maintenance work is recorded.
+
+It is important that KiwiRail addresses this urgent safety recommendation. The NZ Transport Agency has various powers under the Railways Act 2005 to monitor and ensure KiwiRailâ€™s performance and compliance.
+
+","The standard of maintenance for a safety-critical braking system, particularly the procedures for ensuring that maintenance was conducted in accordance with best engineering practice and that there were independent final checks of critical systems before electric multiple units were released back into service.
+",inferred,Confirmed
+2013_104,021/13,The Commission recommends that the Chief Executive of the NZ Transport Agency take all appropriate steps to ensure that KiwiRail addresses the above recommendation.,"The Commission has made an urgent recommendation to the Chief Executive of KiwiRail that he ensure that at the Wellington maintenance depot, and other maintenance depots under KiwiRail control:
+- maintenance is undertaken in accordance with good railway engineering practice
+- manufacturers' inspection, repair and maintenance instructions are documented and followed
+- safety-critical components are identified and documented
+- work instructions are issued for maintaining all equipment
+- work on safety-critical components is signed off by someone other than the maintainer
+- all maintenance work is recorded.
+
+It is important that KiwiRail addresses this urgent safety recommendation. The NZ Transport Agency has various powers under the Railways Act 2005 to monitor and ensure KiwiRailâ€™s performance and compliance.
+
+","The Wellington metro maintenance depot lacked documented task instructions for performing safety-critical tasks on the Ganz Mavag fleet, and there was no means of recording progress against the individual steps in the task.
+",inferred,Confirmed
+2013_104,021/13,The Commission recommends that the Chief Executive of the NZ Transport Agency take all appropriate steps to ensure that KiwiRail addresses the above recommendation.,"The Commission has made an urgent recommendation to the Chief Executive of KiwiRail that he ensure that at the Wellington maintenance depot, and other maintenance depots under KiwiRail control:
+- maintenance is undertaken in accordance with good railway engineering practice
+- manufacturers' inspection, repair and maintenance instructions are documented and followed
+- safety-critical components are identified and documented
+- work instructions are issued for maintaining all equipment
+- work on safety-critical components is signed off by someone other than the maintainer
+- all maintenance work is recorded.
+
+It is important that KiwiRail addresses this urgent safety recommendation. The NZ Transport Agency has various powers under the Railways Act 2005 to monitor and ensure KiwiRailâ€™s performance and compliance.
+
+","No systematic assessment had been undertaken to identify safety-critical systems and their components, and there were no mandatory checks by people independent of those doing the work that the work had been performed in accordance with the Code.
+",inferred,Confirmed

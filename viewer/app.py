@@ -7,6 +7,9 @@ from . import Search, ReportCreation
 from threading import Thread
 from werkzeug.wsgi import FileWrapper
 import tempfile
+import pandas as pd
+
+import base64
 
 import engine.Extract_Analyze.Themes as Themes
 import engine.Modes as Modes
@@ -99,6 +102,10 @@ def format_search_results(results):
 
     results['SafetyIssues'] = results.apply(lambda row: f'<a href="#" class="safety-issues-link" data-report-id="{row["ReportID"]}">{row["SafetyIssues"]}</a>', axis=1)
 
+    results['Recommendations'] = results.apply(lambda row: f'<a href="#" class="recommendations-link" data-report-id="{row["ReportID"]}">{row["Recommendations"]}</a>', axis=1)
+
+    results['linksVisual'] = results.apply(lambda row: f'<a href="#" class="links-visual-link" data-report-id="{row["ReportID"]}">Visualization of recommendation and safety issue links</a>' if row['linksVisual'] else 'No links to show', axis=1)
+
     for theme in searcher.themes + ["Other"]:
         results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
 
@@ -152,6 +159,31 @@ def get_safety_issues():
 
     return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
 
+@app.route('/get_recommendations', methods=['GET'])
+def get_recommendations():
+    report_id = request.args.get('report_id')
+
+    recommendations = Search.Searcher().get_recommendations(report_id)
+
+    main_text = "<br><br>".join(recommendations) if len(recommendations) > 0 else "No recommendations found"
+
+    return jsonify({'title': f"Recommendations for {report_id}", 'main': main_text})
+
+@app.route('/get_links_visual', methods=['GET'])
+def get_links_visual():
+    report_id = request.args.get('report_id')
+
+    link = Search.Searcher().get_links_visual_path(report_id)
+
+    # read image and encode
+
+    with open(link, "rb") as image:
+        encoded = base64.b64encode(image.read()).decode()
+
+    return jsonify({'title': f"Links visual for {report_id}", 'main': f"<br><br><img src='data:image/png;base64,{encoded}'></img>"})
+
+
+
 @app.route('/get_theme_groups', methods=['GET'])
 def get_theme_groups():
     titles = Themes.ThemeReader(Search.Searcher().input_dir).get_groups()
@@ -190,27 +222,44 @@ def get_result():
         # The result is ready, send it as a file
         return send_file(ReportCreation.ReportGenerator.generate_pdf(result), download_name='report.pdf')
 
+def send_csv_file(df, name):
+    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+
+    # Write the CSV data to the file
+    df.to_csv(temp.name, index=False)
+
+    # Send the file
+    return send_file(temp.name, as_attachment=True, download_name=name)
+
 @app.route('/get_results_as_csv', methods=['POST'])
 def get_results_as_csv():
     search_data = get_search(request.form)
 
     search_results = Search.Searcher().search(*search_data)
 
-        # Create a temporary file
-    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+    return send_csv_file(search_results, 'search_results.csv')
 
-    # Write the CSV data to the file
-    search_results.to_csv(temp.name, index=False)
+@app.route('/get_si_recs_links_as_csv', methods=['POST'])
+def get_si_recs_links_as_csv():
 
-    # Send the file
-    return send_file(temp.name, as_attachment=True, download_name='search_results.csv')
-
-@app.route('/get_results_safety_issues_as_csv', methods=['POST'])
-def get_results_safety_issues_as_csv():
     search_data = get_search(request.form)
 
     search_results = Search.Searcher().search(*search_data)
 
+    recommendations = search_results['Completelinks'].tolist()
+
+    print(recommendations)
+
+    all_recommendations = pd.concat(filter(lambda x: x is not None, recommendations), axis=0)
+
+    return send_csv_file(all_recommendations, 'safety_issue_recommendation_links.csv')
+
+@app.route('/get_safety_issues_as_csv', methods=['POST'])
+def get_safety_issues_as_csv():
+    search_data = get_search(request.form)
+
+    search_results = Search.Searcher().search(*search_data)
+  
     search_results_safety_issues = search_results[['ReportID', 'CompleteSafetyIssues']]
     
     search_results_safety_issues = search_results_safety_issues.explode('CompleteSafetyIssues')
@@ -222,14 +271,7 @@ def get_results_safety_issues_as_csv():
 
     search_results_safety_issues = search_results_safety_issues[['ReportID', 'SafetyIssue', 'SafetyIssueIndicatedQuality']]
 
-    # Create a temporary file
-    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
-
-    # Write the CSV data to the file
-    search_results_safety_issues.to_csv(temp.name, index=False)
-
-    # Send the file
-    return send_file(temp.name, as_attachment=True, download_name='safety_issues.csv')
+    return send_csv_file(search_results_safety_issues, 'safety_issues.csv')
 
 def run():
     parser = argparse.ArgumentParser()
