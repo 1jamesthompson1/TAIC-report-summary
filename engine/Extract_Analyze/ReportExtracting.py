@@ -40,7 +40,7 @@ class ReportExtractor:
         middle_pages = "[\s\S]*"
         pattern = page(page_number_1) + middle_pages + page(page_number_2)
 
-        matches = re.findall(pattern, self.report_text, re.MULTILINE)
+        matches = re.findall(pattern, self.report_text, re.MULTILINE | re.IGNORECASE)
 
         if len(matches) > 1:
             print(f"  Found multiple matches for text between pages {page_number_1} and {page_number_2}")
@@ -92,7 +92,14 @@ class ReportExtractor:
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = openAICaller.query(
-                        "What page does the analysis start on. What page does the findings finish on? Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'",
+                        """
+You are helping me read the content section of a report.
+
+I am only interested in two sections "Analysis" and "Findings".
+Can you please tell me which page Analysis starts on and which page the Findings section ends on.
+
+Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'
+""",
                         content_section,
                         temp = 0)
 
@@ -217,6 +224,35 @@ class SafetyIssueExtractor(ReportExtractor):
             return None
         
         return safety_issues
+
+    def _extract_safety_issues_with_regex(self, important_text = None):
+        """
+        This function will use regex and search the text for any safety issues.
+        It will not be used in the main engine pipeline but it useful for development purposes while we dont have a reliable inference extraction.
+        """
+        if important_text == None:
+            raise Exception("  No important text provided to extract safety issues from")
+
+
+        safety_regex = lambda x: fr's ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s? {{0,3}}{x} {{0,3}}'
+        end_regex = r'([\s\S]+?)(?=(?:\d+\.(?:\d+\.)?(?:\d+)?)|(?:s ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?))'
+
+        uncompiled_regexes = ["(" + safety_regex(sep) + end_regex + ")" for sep in ["-", ":"]]
+
+        safety_issue_regexes = [re.compile(regex , re.MULTILINE | re.IGNORECASE) for regex in uncompiled_regexes]
+
+        safety_issues_from_report = []
+
+        matches = [regex.findall(important_text) for regex in safety_issue_regexes]
+
+        # Choose one of the matches that has the most matches
+        matches = max(matches, key=lambda x: len(x))
+
+        for full_match, safety_issue_match in matches:
+            safety_issues_from_report.append(safety_issue_match)
+
+        return safety_issues_from_report
+
         
     def _extract_safety_issues_with_inference(self):
         """
@@ -454,6 +490,43 @@ class ReportExtractingProcessor:
         if output_folder_reader == None:
             raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
         
-        self.output_folder_reader.process_reports(self.__output_safety_issues)
+        output_folder_reader.process_reports(self.__output_safety_issues)
+
+    def get_important_text(self, report_id, with_pages_read = False):
+        """
+        This is a wrapper ground the extract_important_text function. This adds the support for reading and writing to the folder structure.
+        """
+        print(f"  Getting important text... for {report_id}")
+        folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
+        output_file = self.reports_config.get('important_text_file_name').replace(r'{{report_id}}', report_id)
+        output_path = os.path.join(self.output_dir, folder_dir, output_file)
+        
+        if os.path.exists(output_path):
+            with open(output_path, 'r') as f:
+                yaml_obj = yaml.safe_load(f)
+                return yaml_obj['text']
+            
+        print(f"  {output_path} does not exist, extracting important text from report text")
+
+        # Getting the text file
+        text_file_path = os.path.join(self.output_dir, folder_dir, self.reports_config.get('text_file_name').replace(r'{{report_id}}', report_id))
+        if not os.path.exists(text_file_path):
+            print(f"  {text_file_path} does not exist")
+            return None
+        with open(text_file_path, 'r') as f:
+            report_text = f.read()
+        
+        text, pages_to_read = ReportExtractor(report_text, report_id).extract_important_text()
+
+        print(f"  Saving the text to file with len {len(text)if text != None else 0}")
+        with open(output_path, "w") as f:
+            yaml.dump({
+                "text": text,
+                "pages_read": pages_to_read
+            }, f)
+
+        if with_pages_read:
+            return text, pages_to_read
+        return text
 
         
