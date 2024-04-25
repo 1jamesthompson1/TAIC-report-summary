@@ -7,6 +7,7 @@ from . import Search, ReportCreation
 from threading import Thread
 from werkzeug.wsgi import FileWrapper
 import tempfile
+import pandas as pd
 
 import base64
 
@@ -233,6 +234,27 @@ def get_results_as_csv():
 
     # Send the file
     return send_file(temp.name, as_attachment=True, download_name='search_results.csv')
+
+@app.route('/get_SI_recs_links_as_csv', methods=['POST'])
+def get_SI_recs_links_as_csv():
+    search_data = get_search(request.form)
+
+    search_results = Search.Searcher().search(*search_data)
+
+    recommendations = search_results['links'].tolist()
+
+    print(recommendations)
+
+    all_recommendations = pd.concat(filter(lambda x: x is not None, recommendations), axis=0)
+
+    # Create a temporary file
+    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+
+    # Write the CSV data to the file
+    all_recommendations.to_csv(temp.name, index=False)
+
+    # Send the file
+    return send_file(temp.name, as_attachment=True, download_name='safety_issue_recommendation_links.csv')
 
 def run():
     parser = argparse.ArgumentParser()

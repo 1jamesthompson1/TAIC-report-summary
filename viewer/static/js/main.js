@@ -61,6 +61,23 @@ $(document).ready(function() {
         form.appendTo('body').submit().remove();
     });
 
+    $('#downloadRecsSILinks').click(function() {
+        var formData = $('form').serialize();
+        var form = $('<form>', {
+            action: '/get_SI_recs_links_as_csv',
+            method: 'post'
+        });
+        $.each(formData.split('&'), function(i, v) {
+            var parts = v.split('=');
+            form.append($('<input>', {
+                type: 'hidden',
+                name: decodeURIComponent(parts[0]),
+                value: decodeURIComponent(parts[1])
+            }));
+        });
+        form.appendTo('body').submit().remove();
+    });
+
     $('#advancedSearchBtn').click(function() {
         $('#resetBtn').toggle();
         $('#advancedSearch').toggleClass('expanded')

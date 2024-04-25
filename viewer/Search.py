@@ -100,9 +100,23 @@ class Searcher:
                     safety_issues = yaml.safe_load(f)
 
             report_recommendations = self.get_recommendations(dir)
+            
+            links_file_path = os.path.join(
+                self.input_dir,
+                self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir),
+                self.output_config.get("reports").get("recommendation_safety_issue_links_file_name").replace(r'{{report_id}}', dir))
 
             links_visual_file = self.get_links_visual_path(dir)
 
+            if not os.path.exists(links_file_path):
+                print(f"  Could not find {links_file_path} for {dir}, skipping report.")
+                links_file = None
+            else:
+                print(f"  Found {links_file_path} for {dir}, loading links")
+
+                links_file = pd.read_csv(links_file_path)
+
+                
             report_row = {
                 "ReportID": dir,
                 "NoMatches": search_result.num_matches(),
@@ -112,6 +126,7 @@ class Searcher:
                 "CompleteSafetyIssues": safety_issues,
                 "Recommendations": str(len(report_recommendations)),
                 "CompleteRecommendations": report_recommendations,
+                "links": links_file,
                 "linksVisual": os.path.exists(links_visual_file)
             }
 
