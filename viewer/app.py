@@ -241,7 +241,7 @@ def get_SI_recs_links_as_csv():
 
     search_results = Search.Searcher().search(*search_data)
 
-    recommendations = search_results['links'].tolist()
+    recommendations = search_results['Completelinks'].tolist()
 
     print(recommendations)
 

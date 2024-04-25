@@ -126,7 +126,7 @@ class Searcher:
                 "CompleteSafetyIssues": safety_issues,
                 "Recommendations": str(len(report_recommendations)),
                 "CompleteRecommendations": report_recommendations,
-                "links": links_file,
+                "Completelinks": links_file,
                 "linksVisual": os.path.exists(links_visual_file)
             }
 
