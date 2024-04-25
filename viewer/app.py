@@ -222,23 +222,25 @@ def get_result():
         # The result is ready, send it as a file
         return send_file(ReportCreation.ReportGenerator.generate_pdf(result), download_name='report.pdf')
 
+def send_csv_file(df, name):
+    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+
+    # Write the CSV data to the file
+    df.to_csv(temp.name, index=False)
+
+    # Send the file
+    return send_file(temp.name, as_attachment=True, download_name=name)
+
 @app.route('/get_results_as_csv', methods=['POST'])
 def get_results_as_csv():
     search_data = get_search(request.form)
 
     search_results = Search.Searcher().search(*search_data)
 
-        # Create a temporary file
-    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+    return send_csv_file(search_results, 'search_results.csv')
 
-    # Write the CSV data to the file
-    search_results.to_csv(temp.name, index=False)
-
-    # Send the file
-    return send_file(temp.name, as_attachment=True, download_name='search_results.csv')
-
-@app.route('/get_SI_recs_links_as_csv', methods=['POST'])
-def get_SI_recs_links_as_csv():
+@app.route('/get_si_recs_links_as_csv', methods=['POST'])
+def get_si_recs_links_as_csv():
 
     search_data = get_search(request.form)
 
@@ -250,18 +252,11 @@ def get_SI_recs_links_as_csv():
 
     all_recommendations = pd.concat(filter(lambda x: x is not None, recommendations), axis=0)
 
-    # Create a temporary file
-    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+    return send_csv_file(all_recommendations, 'safety_issue_recommendation_links.csv')
 
-    # Write the CSV data to the file
-    all_recommendations.to_csv(temp.name, index=False)
-
-    # Send the file
-    return send_file(temp.name, as_attachment=True, download_name='safety_issue_recommendation_links.csv')
-
-@app.route('/get_results_safety_issues_as_csv', methods=['POST'])
-def get_results_safety_issues_as_csv():
-     search_data = get_search(request.form)
+@app.route('/get_safety_issues_as_csv', methods=['POST'])
+def get_safety_issues_as_csv():
+    search_data = get_search(request.form)
 
     search_results = Search.Searcher().search(*search_data)
   
@@ -276,10 +271,7 @@ def get_results_safety_issues_as_csv():
 
     search_results_safety_issues = search_results_safety_issues[['ReportID', 'SafetyIssue', 'SafetyIssueIndicatedQuality']]
 
-    search_results_safety_issues.to_csv(temp.name, index=False)
-
-    # Send the file
-    return send_file(temp.name, as_attachment=True, download_name='safety_issues.csv')
+    return send_csv_file(search_results_safety_issues, 'safety_issues.csv')
 
 def run():
     parser = argparse.ArgumentParser()
