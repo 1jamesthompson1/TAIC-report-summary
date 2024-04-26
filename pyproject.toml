@@ -23,6 +23,8 @@ pytest = "^7.4.3"
 pytest-xdist = "^3.5.0"
 openai = "^1.4.0"
 weasyprint = "^60.2"
+matplotlib = "^3.8.3"
+networkx = "^3.2.1"
 
 [tool.poetry.group.viewer.dependencies]
 jinja2 = "^3.1.2"
@@ -32,8 +34,6 @@ nltk = "^3.8.1"
 
 
 [tool.poetry.group.dev.dependencies]
-matplotlib = "^3.8.3"
-networkx = "^3.2.1"
 ipykernel = "^6.29.4"
 notebook = "^7.1.2" 
 openpyxl = "^3.1.2"
