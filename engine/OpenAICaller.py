@@ -59,6 +59,9 @@ class OpenAICaller:
             return [choice.message.content for choice in completion.choices]
         
     def get_tokens(self, texts):
+        '''
+        Convert texts to the lens of tokens. It uses gpt 3.5 encoding as this is used by all of modern open ai LLMs.
+        '''
         # No need to check for model as all models have the same encoding
         enc = tiktoken.encoding_for_model("gpt-3.5-turbo-16k")
         return [len(enc.encode(text)) for text in texts]

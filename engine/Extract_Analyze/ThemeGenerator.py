@@ -23,14 +23,14 @@ class ThemeGenerator:
                             self.report_dir_template.replace(r'{{report_id}}', report_id),
                             self.report_theme_template.replace(r'{{report_id}}', report_id))
 
-    def generate_themes(self):
+    def generate_safety_themes(self):
         print("Generating themes from reports with config:")
         print(f"  Output folder: {self.output_folder}")
         print(f"  Report directory template: {self.report_dir_template}")
         print(f"  Report theme template: {self.report_theme_template}")
 
 
-        self.output_folder_reader.process_reports(self._get_theme, self.modes)
+        self.output_folder_reader.process_reports(self._get_safety_theme_for_individual_report, self.modes)
 
         print(" Themes generated for each report")
 
@@ -42,7 +42,121 @@ class ThemeGenerator:
             f.write(self.all_themes)
             
         print("  Summarizing themes...")
-        summarized_themes = self.open_ai_caller.query(
+
+        safety_themes = self.summarize_themes(self.all_themes)
+
+        print("  Global safety themes created")
+
+        print("  Grouping themes")
+
+        safety_theme_groups = self.group_themes(safety_themes)
+
+        # Sort the themes in the themes_data so that they are in the assigned groups order
+        flattened_groups = [
+            theme
+            for safety_theme_group in  safety_theme_groups
+            for theme in safety_theme_group['themes']
+        ]
+
+
+        safety_themes = sorted(safety_themes, key=lambda theme: flattened_groups.index(theme['title']))
+
+        # Create a new dictionary with 'themes' and 'groups' branches
+        combined_data = {'themes': safety_themes, 'groups': safety_theme_groups}
+
+        
+        Themes.ThemeWriter().write_themes(combined_data)
+
+        print(" Themes summarized and written to file")        
+
+    def _group_safety_themes (self, themes):
+        all_themes = [theme['title'] for theme in themes]
+
+        while True:
+
+            theme_groups_response = self.open_ai_caller.query(
+                system="""
+    You are going to help me group some items.
+
+    The items will be given to you in a yaml format with triple quotes.
+    Each item will have a name and description
+
+    You response should be in pure yaml. It will have a title, description and list of items in this group for each group.
+
+    It is important that the list of themes uses the theme titles verbatim.
+
+    The yaml should not be enclosed and follow this exact format.
+    - title: |-
+        tile goes here
+    description: |
+        description of the group goes here
+    themes:
+        - theme1
+        - theme2
+
+    Each item can only be in one group.
+    """,
+                user=f"""
+    '''
+    {themes}
+    '''
+
+    question:
+
+    I have some safety themes that have been identified by reading a lot of accident investigation reports.
+
+    Please put these into groups of related themes. Can you please have about 4-6 groups
+
+    Here are some definition of what the various terms might mean:
+    Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+    increase the likelihood of an occurrence, and/or the
+    severity of any adverse consequences associated with the
+    occurrence.
+
+    Safety issue - A safety factor that:
+    • can reasonably be regarded as having the
+    potential to adversely affect the safety of future
+    operations, and
+    • is characteristic of an organization, a system, or an
+    operational environment at a specific point in time.
+    Safety Issues are derived from safety factors classified
+    either as Risk Controls or Organizational Influences.
+
+    Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+    cover a single safety issue, or two or more related safety
+    issues. 
+    """,
+                model="gpt-4",
+                temp = 0
+            )
+
+            if theme_groups_response[:7] == "```yaml":
+                theme_groups_response = theme_groups_response[7:-3]
+                
+
+            theme_groups_data = yaml.safe_load(theme_groups_response)
+
+            # Validate that the themes and groups are valid.
+            theme_groups_themes = [
+                theme 
+                for group in theme_groups_data
+                for theme in group['themes']
+            ]
+
+            if sorted(all_themes) != sorted(theme_groups_themes):
+                print(f"  Themes and groups are not valid retrying grouping")
+
+                print(f"  Themes: {all_themes}")
+                print(f"  Groups: {theme_groups_themes}")
+
+                continue
+            
+            break
+
+        return theme_groups_data
+
+    def _get_safety_themes_from_reports(self, per_report_information):
+        global_safety_themes = self.open_ai_caller.query(
             system="""
 You are going to help me summarize the given source text.
 
@@ -51,25 +165,25 @@ The source text will be provided inbetween triple quotes. Below that will be the
             ,
             user=f"""
 '''
-{self.all_themes}
+{per_report_information}
 '''
             
 Question:
-These are some safety issues and themes for each report.
+These are safety issues for each report.
 
 I would like to know the global safety themes.
 For each safety theme you need to provide a clear explanation of what this safety theme really means.
-Each safety theme will need to be given with transport modes it is applicable. These modes are a for aviation, r for rail and m for marine. Safety themes can go across multiple modes of transport are prefered.
+Each safety theme will need to be given with transport modes it is applicable. These modes are a for aviation, r for rail and m for marine. Safety themes can go across multiple modes of transport are preferred.
 
 There should be no more than 15 safety themes.
 
 Your output needs to be in yaml format. Just output the yaml structure with no extra text (This means no ```yaml and ```) . It will look something like this:
-  - title: |-
-      title of the theme goes here
+- title: |-
+    title of the theme goes here
     description: |
-      Multi line description of the theme goes here.
+    Multi line description of the theme goes here.
     modes:
-      - modes that should be included. One per row
+    - modes that should be included. One per row
 
 
 =Here are some definitions=
@@ -83,121 +197,29 @@ Safety issue - A safety factor that:
 • can reasonably be regarded as having the
 potential to adversely affect the safety of future
 operations, and
-• is characteristic of an organisation, a system, or an
+• is characteristic of an organization, a system, or an
 operational environment at a specific point in time.
 Safety Issues are derived from safety factors classified
-either as Risk Controls or Organisational Influences.
+either as Risk Controls or Organizational Influences.
 
 Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
 cover a single safety issue, or two or more related safety
 issues.         
 """,
             model="gpt-4",
-            temp = 0
+            temp = 0,
         )
 
-        print("  Global theme created")
+        safety_theme = yaml.safe_load(global_safety_themes)
 
-        themes_data = yaml.safe_load(summarized_themes)
-
-        print("  Now grouping themes")
-
-        while True:
-
-            theme_groups = self.open_ai_caller.query(
-                system="""
-    You are going to help me group some items.
-
-    The items will be given to you in a yaml format with triple qoutes.
-    Each item will have a name and description
-
-    You response should be in pure yaml. It will have a title, description and list of items in this group for each group.
-
-    It is important that the list of themes uses the theme titles verbatim.
-
-    The yaml should not be enclosed and folllow this exact format.
-    - title: |-
-        tile goes here
-    description: |
-        description of the group goes here
-    themes:
-        - theme1
-        - theme2
-
-    Each item can only be in one group.
-    """,
-                user=f"""
-    '''
-    {summarized_themes}
-    '''
-
-    question:
-
-    I have some safety themes that have been identifed by reading alot of accident investigation reports.
-
-    Please put these into groups of related themes. Can you please have about 4-6 groups
-
-    Here are some defintion of what the various terms might mean:
-    Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
-    increase the likelihood of an occurrence, and/or the
-    severity of any adverse consequences associated with the
-    occurrence.
-
-    Safety issue - A safety factor that:
-    • can reasonably be regarded as having the
-    potential to adversely affect the safety of future
-    operations, and
-    • is characteristic of an organisation, a system, or an
-    operational environment at a specific point in time.
-    Safety Issues are derived from safety factors classified
-    either as Risk Controls or Organisational Influences.
-
-    Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
-    cover a single safety issue, or two or more related safety
-    issues. 
-    """,
-                model="gpt-4",
-                temp = 0
-            )
-
-            if theme_groups[:7] == "```yaml":
-                theme_groups = theme_groups[7:-3]
-                
-
-            groups_data = yaml.safe_load(theme_groups)
-
-            # Validate that the themes and groups are valid
-
-            all_themes = [theme['title'] for theme in themes_data]
-            groups_themes = [group['themes'] for group in groups_data]
-
-            # Check that all themes are in a group
-            for theme in all_themes:
-                if not any(theme in group for group in groups_themes):
-                    print(f"  Theme {theme} not in any group retrying grouping")
-                    continue
-            
-            break
-
-        # Sort the themes in the themes_data so that they are in the assigned groups order
-        flattened_groups = [theme for group_themes in groups_themes for theme in group_themes]
-
-        themes_data = sorted(themes_data, key=lambda theme: flattened_groups.index(theme['title']))
-
-        # Create a new dictionary with 'themes' and 'groups' branches
-        combined_data = {'themes': themes_data, 'groups': groups_data}
-
+        return safety_theme
         
-        Themes.ThemeWriter().write_themes(combined_data)
 
-        print(" Themes summaried and written to file")        
-
-
-    def _get_theme(self, report_id, report_text):
+    def _get_safety_theme_for_individual_report(self, report_id, report_text):
 
         print(f" Generating themes for report {report_id}")
 
-        # Check to see if it alreaady exists
+        # Check to see if it already exists
         if os.path.exists(self._get_theme_file_path(report_id)) and not self.discard_old:
             print(f"  Themes for {report_id} already exists")
             return
@@ -276,7 +298,7 @@ issues.
         except yaml.YAMLError as exc:
             print(exc)
             print("  Error parsing yaml for themes")
-            return self._get_theme(report_id, report_text)
+            return self._get_safety_theme_for_individual_report(report_id, report_text)
         
         print(f"  Themes for {report_id} generated now validating references")
 
@@ -293,7 +315,7 @@ issues.
                 continue
             elif isinstance(result, str):
                 print(f"  Invalid format")
-                return self._get_theme(report_id, report_text)
+                return self._get_safety_theme_for_individual_report(report_id, report_text)
 
             processed_text, num_references, num_updated_references = result
             updated_themes_counter += num_updated_references

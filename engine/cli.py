@@ -51,7 +51,7 @@ def generate_themes(output_dir, reports_config, modes, refresh):
     ThemeGenerator.ThemeGenerator(output_dir,
                                   reports_config.get("folder_name"),
                                   reports_config.get("themes_file_name"),
-                                  modes, refresh).generate_themes()
+                                  modes, refresh).generate_safety_themes()
 
 def summarize(output_config, use_predefined, modes, refresh):
     Summarizer.ReportSummarizer(output_config,
