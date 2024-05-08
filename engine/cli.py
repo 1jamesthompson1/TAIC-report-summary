@@ -1,11 +1,10 @@
-from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer, ReportExtracting, OutputFolderReader, RecommendationSafetyIssueLinking
+from .Extract_Analyze import ThemeGenerator, APICostEstimator, Summarizer, ReportExtracting, OutputFolderReader, RecommendationSafetyIssueLinking, RecommendationResponseClassification
 
 from .Gather_Wrangle import PDFDownloader, PDFParser, RecommendationSplitting
 
 from .Verify import ThemeComparer, WeightingComparer
 
 from . import Config, Modes
-
 
 import pandas as pd
 import os
@@ -36,14 +35,28 @@ def download_extract(output_dir, config, modes, refresh):
     RecommendationSplitting.split_recommendations(config)
     
 
-def safety_issue_and_recommendations(output_dir, reports_config, refresh):
+def safety_issue_and_recommendations(output_dir, config, refresh):
 
-    ReportExtracting.ReportExtractingProcessor(output_dir,
-                                               reports_config.get('folder_name'),
-                                                  reports_config.get('safety_issues'),
-                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
+    reports_config = config.get('output').get('reports')
+
+    # ReportExtracting.ReportExtractingProcessor(output_dir,
+    #                                            reports_config.get('folder_name'),
+    #                                               reports_config.get('safety_issues'),
+    #                                               refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
     
-    RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
+    # RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
+
+    RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(
+            os.path.join(
+                'data',
+                config.get('data').get('recommendations_file_name')
+            )
+            ,
+            os.path.join(
+                output_dir,
+                config.get('output').get('recommendation_responses_file_name')
+            )
+        )
     
 
 
@@ -109,7 +122,7 @@ def cli():
             
         case "safety_issues_and_recommendations":
             safety_issue_and_recommendations(output_path,
-                                             engine_settings.get('output').get('reports'),
+                                             engine_settings,
                                              args.refresh)
 
         case "themes":
