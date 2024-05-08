@@ -10,8 +10,10 @@ class ReportExtractor:
         self.report_text = report_text
         self.report_id = report_id
 
-    def extract_important_text(self) -> (str, list):
-        print(f"Getting important text... for {self.report_id}")
+    def extract_important_text(self):
+                 
+        print(f" Generating important text for {self.report_id}")
+
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections == None:
@@ -29,7 +31,6 @@ class ReportExtractor:
     
         # Try and read the pages. If it fails try and read to the next page three times. Then give up.
         text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
-
 
         return text, pages_to_read
 
@@ -88,7 +89,11 @@ class ReportExtractor:
 
     def extract_pages_to_read(self, content_section) -> list:
 
-        while True: # Repeat until the LLMs gives a valid response
+        attempts_left = 5
+
+        pages_to_read = None
+
+        while attempts_left > 0: # Repeat until the LLMs gives a valid response
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = openAICaller.query(
@@ -101,6 +106,7 @@ Can you please tell me which page Analysis starts on and which page the Findings
 Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'
 """,
                         content_section,
+                        model="gpt-4",
                         temp = 0)
 
                 if model_response == "None":
@@ -111,6 +117,7 @@ Your response is only a list of integers. No words are allowed in your response.
                 break
             except ValueError:
                 print(f"  Incorrect response from model retrying. \n  Response was: '{model_response}'")
+                attempts_left -= 1
 
         return pages_to_read
 
@@ -210,18 +217,20 @@ The section number I am looking for is {section}
         return section_text
 
 class SafetyIssueExtractor(ReportExtractor):
-    def __init__(self, report_text, report_id):
+    def __init__(self, report_text, report_id, important_text):
         super().__init__(report_text, report_id)
+
+        if important_text is None:
+            raise ValueError("important_text cannot be None")
+        self.important_text = important_text
         
     def extract_safety_issues(self):
         """
         Extract safety issues from a report.
         """
-        safety_issues = self._extract_safety_issues_with_inference()
+        # This abstraction allows the development of various extraction techniques whether it be regex or inferences.
 
-        # Add the quality of safety issue to the yaml
-        if safety_issues == None:
-            return None
+        safety_issues = self._extract_safety_issues_with_inference()
         
         return safety_issues
 
@@ -257,13 +266,36 @@ class SafetyIssueExtractor(ReportExtractor):
     def _extract_safety_issues_with_inference(self):
         """
         Search for safety issues using inference from GPT 4 turbo.
-        """
+        """        
 
-        important_text, pages_to_read = self.extract_important_text()
+        system_message = """
+You are going help me read a transport accident investigation report.
 
-        if important_text == None:
-            return None
-        
+I want you to please read the report and respond with the safety issues identified in the report.
+
+Please only respond with safety issues that are quite clearly stated ("exact" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
+
+Remember the definitions give
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+"""
+
         message = lambda text: f'''
 {text}
         
@@ -272,9 +304,9 @@ class SafetyIssueExtractor(ReportExtractor):
 I want to know the safety issues which this investigation has found.
 
 For each safety issue you find I need to know what is the quality of this safety issue.
-Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Now that the text may have extra spaces or characters in it.
+Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.
 
-However if no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
+If no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
 
 
 Can your response please be in yaml format as shown below.
@@ -310,53 +342,40 @@ cover a single safety issue, or two or more related safety
 issues.
 '''
         
-        response = openAICaller.query(
-            """
-You are going help me read a transport accident investigation report.
+        temp = 0
+        while temp < 0.1:
+            response = openAICaller.query(
+                system_message,
+                message(self.important_text),
+                model="gpt-4",
+                temp=temp)
 
-I want you to please read the report and respond with the safety issues identified in the report.
+            if response == None:
+                print("  Could not get safety issues from the report.")
+                return None
 
-Please only respond with safety issues that are quite clearly stated ("inferred" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
+            if response[:7] == '"""yaml' or response[:7] == '```yaml':
+                response = response[7:-3]
+            
+            try:
+                safety_issues = yaml.safe_load(response)
+            except yaml.YAMLError as exc:
+                print(exc)
+                print('  Problem with formatting, trying again with slightly higher temp\n\Response was is \n"""\n{response}\n"""')
+                temp += 0.01
+                continue
 
-Remember the definitions give
+            if not isinstance(safety_issues, list):
+                print(f'  Response was not a yaml list. It was instead {type(safety_issues)}.\n\nWhich is \n"""\n{response}\n"""')
+                print(f'  Safety issues are:\n{safety_issues}')
 
-Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
-increase the likelihood of an occurrence, and/or the
-severity of any adverse consequences associated with the
-occurrence.
+                temp+=0.01
+                continue
 
-Safety issue - A safety factor that:
-• can reasonably be regarded as having the
-potential to adversely affect the safety of future
-operations, and
-• is characteristic of an organisation, a system, or an
-operational environment at a specific point in time.
-Safety Issues are derived from safety factors classified
-either as Risk Controls or Organisational Influences.
-
-Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
-cover a single safety issue, or two or more related safety
-issues.
-            """,
-            message(important_text),
-            model="gpt-3.5-ft-SIExtraction",
-            temp=0)
-
-        if response == None:
-            print("  Could not get safety issues from the report.")
-            return None
-
-        if response[:7] == '"""yaml' or response[:7] == '```yaml':
-            response = response[7:-3]
+            return safety_issues
         
-        try:
-            safety_issues = yaml.safe_load(response)
-        except yaml.YAMLError as exc:
-            print(exc)
-            print("  Assuming that there are no safety issues in the report.")
-            return None
-        
-        return safety_issues
+        print("  Could not extract safety issues with inference")
+        return None
 
 
 class RecommendationsExtractor(ReportExtractor):
@@ -455,19 +474,22 @@ You will be given a section and a question and you will need to respond in the f
 
 
 class ReportExtractingProcessor:
+    """
+    This is the class that interacts with the report extracting classes. It however is the ones that actually connects to the folder structure.
+    """
 
-    def __init__(self, output_dir, report_dir_template, file_name_template, refresh):
+    def __init__(self, output_dir, reports_config, refresh = False):
         self.output_dir = output_dir
-        self.report_dir_template = report_dir_template
-        self.file_name_template = file_name_template
+        self.reports_config = reports_config
+        self.report_dir_template = reports_config.get("folder_name")
         self.refresh = refresh
 
     def __output_safety_issues(self, report_id, report_text):
 
-        print("  Extracting safety issues from " + report_id)
+        print(" Extracting safety issues from " + report_id)
 
         folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
-        output_file = self.file_name_template.replace(r'{{report_id}}', report_id)
+        output_file = self.reports_config.get('safety_issues').replace(r'{{report_id}}', report_id)
         output_path = os.path.join(self.output_dir, folder_dir, output_file)
 
         # Skip if the file already exists
@@ -475,10 +497,15 @@ class ReportExtractingProcessor:
             print(f"   {output_path} already exists")
             return
 
-        safety_issues = SafetyIssueExtractor(report_text, report_id).extract_safety_issues()
+        important_text = self.get_important_text(report_id)
+        if important_text is None:
+            print(f"  Could not extract important text from {report_id}")
+            return
+
+        safety_issues = SafetyIssueExtractor(report_text, report_id, important_text).extract_safety_issues()
 
         if safety_issues == None:
-            print(f"  Could not extract safety issues from {report_id}")
+            print(f" Could not extract safety issues from {report_id}")
             return
         
         print(f"   Found {len(safety_issues)} safety issues")
@@ -486,7 +513,7 @@ class ReportExtractingProcessor:
         with open(output_path, 'w') as f:
             yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
 
-    def extract_safety_issues_from_reports(self, output_folder_reader == None):
+    def extract_safety_issues_from_reports(self, output_folder_reader = None):
         if output_folder_reader == None:
             raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
         

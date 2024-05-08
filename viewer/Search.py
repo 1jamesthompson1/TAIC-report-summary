@@ -39,6 +39,10 @@ class Searcher:
 
         self.output_config = self.config['output']
 
+        self.config = Config.configReader.get_config()['engine']
+
+        self.output_config = self.config['output']
+
         self.input_dir = os.path.join("viewer", self.output_config.get("folder_name"))
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
@@ -314,8 +318,10 @@ class Searcher:
 
         safety_issues_path = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', report_id))
 
+        formatted_SI = ""
+
         if not os.path.exists(safety_issues_path):
-            return "No safety issues found.<br><br>Not that some safety issues may of been missed when extracting. Furthermore older reports <2012 do not support safety issue extracting at all."
+            formatted_SI =  "No safety issues found for this report. This may be because none were identified in the report or due to problems when extracting them."
     
         with open(safety_issues_path, "r") as f:
             safety_issues = yaml.safe_load(f)

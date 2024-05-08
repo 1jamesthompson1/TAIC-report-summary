@@ -1,0 +1,292 @@
+pages_read:
+- 13
+- 19
+text: "<< Page 13 >>\n 4. Analysis  \n4.1. Introduction  \n4.1.1.  The engine failure\
+  \  on the approach to land at Auckland was the result of the continued \noper ation\
+  \ of the engine damage d in the earlier bird strike as the aeroplane was landing\
+  \ at \nWellington.  The possibility of a second bird strike on the same engine was\
+  \ considered highly \nunlikely for several reasons.  Firstly, the engine failure\
+  \  occurred at a height where, according \nto bird strike data, a strike from  a\
+  \ black -backed gull would not normally be expected.  \nSecondly , the DNA collected\
+  \ at Wellington and Auckland corresponded to the same bird \nspecies  and sex and,\
+  \ as far as testing allow ed, the same bird.   Finally,  and perhaps most \nimportantly,\
+  \ there was clear evidence of a change in engine performance when the aeroplane\
+  \ \ndepart ed Wellington . \n4.1.2.  The engineer who carried out the inspection\
+  \ at Wellington followed the prescribed procedure \nfor a bird strike.  He also\
+  \ performed several additional actions to identify any damage.  With no \ndamage\
+  \ found , and after consulting the operator's  MOC, he released the aeroplane back\
+  \ into \nrevenue service in accordance with the fly -on allowance.  The engine subsequently\
+  \ failed early \nin the 10 -hour allowance.  \n4.1.3.  There were several opportunities\
+  \ after the return of the aeroplane to service in Wellington for \nthe performance\
+  \ of the engine to alert either the crew or MOC  to a potential problem.  \nHowever,\
+  \ even if the alerts had been received and acted upon , the resulting action may\
+  \ have \nsimply been to reduce power or continue to monitor the suspect engine,\
+  \ which might not have \nprevent ed the failure .  Nevertheless, the failure of\
+  \ these established detection systems is a \nconcern and is examined further , along\
+  \ with the fly-on allowance . Bird strikes and the \nmanagement of this hazard are\
+  \ also examined , as well as the crew's actions in Auckland .   \n4.2. Engine certification\
+  \ and risk management  \n4.2.1.  The bird strike  at Wellington occurred at a stage\
+  \ of flight  when engine power and fan speed \nwere near their lowest, increasing\
+  \ the likelihood of the bird or parts of it being ingested  into \nthe core of the\
+  \ engine.  At higher fan speeds , for example during take -off, items are more likely\
+  \ \nto be thrown outwards and thereby bypass the cor e, causing little or no damage.\
+  \  \n4.2.2.  The ingestion of the bird into the core of the engine forced the blades\
+  \ out of alignment, \ncausing blade movement during the flight to Auckland.  This\
+  \ movement r esulted in the \nclappers17 shingling18 and a crack forming and growing\
+  \  under the stresses present.  \nEventually the crack ruptured and the blade separated,\
+  \ causing the engine surge.  It is also \npossible that because of the disrupted\
+  \ airflow from the then exces sive blade movement and \nshingling, the engine surged\
+  \ , causing the section of blade to rupture and separate.  \nRegardless of the final\
+  \ sequence of events, the initiator was the bird strike and the resulting \nsoft\
+  \ impact damage.  \n4.2.3.  After the initial surge at Auc kland the engine continued\
+  \ to operate at idle power, and neither \nthe release of the section of compressor\
+  \ blade nor the use of reverse thrust after landing \ncaused any external damage\
+  \ .  The c ontainment of damage to inside the engine is a required \ndesign feature\
+  \ for which the engine is certified.  \n                                       \
+  \                 \n17 A clapper is a c ompressor blade mid -span support designed\
+  \ to prevent aerodynamic instability and \nvibrations . \n18 Shingling is t he overlapping\
+  \ m ovement of the blade clapper platform mating edge with the adjacent blade \n\
+  clapper platform edge . \n\n<< Page 14 >>\n Final report AO -2012 -002 4.2.4.  The\
+  \ regulatory continued airworthiness threshold for a dual-engine  in-flight shutdown\
+  \ per \naircraft flying hour for the V2500 engine was 1.0E -9 per flight hour.19\
+  \ This mean t that for every \nflight hour there was a 0.000000001 or one-in-a-billion\
+  \ risk of a dual -engine shutdown.  \n4.2.5.  The engine manufacturer perform ed\
+  \ mathematical risk assessments based on the regulator 's \nrequirements and develop\
+  \ ed the aircraft maintenance manual  inspection schedules based on \nthe mathemat\
+  \ ical results.  The less-than -10-hour s or two -flight -cycle s fly-on allowance\
+  \ , under \nwhich the engine in this incident was released , was developed in this\
+  \ manner.  \n4.2.6.  According to IAE, based on V2500 fleet experience at the time\
+  \ of the occurrence , the single -\nengine bird strike event rate was 4.1E -5 per\
+  \ engine cycle.20  Based on V2500 -A5 experience,  \n28% (535) of the reported \
+  \ bird strikes on engines resulted in core ingestion.  Of the 535 core \ningestions,\
+  \  41% (219) caus ed damage  to the engine s.  The single -engine -event analysis\
+  \ \ncalculation of  the probability of an in-flight shutdown due to bird strike\
+  \ was then worked out \nusing the following equation:  \n   4.1 E -5         x \
+  \           0.28             x           0.41          =   4.7E -6 per cycle  \n\
+  \ \n \n \n4.2.7.  IAE stated that of the 41% of cases where damage resulted from\
+  \ known core ingestion s, 75% \n(164) of the aeroplanes were not able to take  off\
+  \ on their next scheduled flight s.  In these \ncases, typically t he damage was\
+  \ identified either during the initial inspection or by noting a \ndeterioration\
+  \ in engine performance before the aeroplane could take  off.  \n4.2.8.  On 55 occasions21\
+  \ or 25% of the damaging events, equivalent to 10.3% of  the known core \ningestion\
+  \ events ,22 the aeroplane s were  able to get airborne using the fly -on allowance\
+  \ with \nundetected damage to the engine s (at that time) .   \n4.2.9.  The current\
+  \ du al-engine bird strike event rate for the V2500 engine was 1.0E -6 per aircraft\
+  \ \ncycle.  Using the known core ingestion  and damage rates identified in the above\
+  \ calculation, \nthe possibility of a dual -engine shutdown is calculated below.\
+  \   \n         1.0E -6      x       (0.28) \xB2       x     (0.41) \xB2       x\
+  \  (0.25) \xB2  = 8.1E -10 per cycle  =   4.1E -10 AFH23 \n \n4.2.10.  According\
+  \ to IAE the data  show ed that the risk of a  dual-engine  in-flight shutdown rate\
+  \ of 4.1E -\n10 AFH was below the regulatory continued airworthiness threshold of\
+  \ 1.0E -9 per aircraft \nflying hour. The manufacturer sa id that the assessment\
+  \ support ed the use of  the aircraft \nmaintenance manual fly -on allowance of\
+  \ less than 10 hours ' flying  or two flight cycles when \nonly one engine was subject\
+  \ to bird strike.    \n4.2.11.  However, what is not known is  when in the 10 -hour\
+  \ or two -flight -cycle tolerance period the \nborescope inspections were completed\
+  \ on any of the engines with high-pressure -compressor \ndamage.  For example ,\
+  \ did any of the aeroplanes released under the fly -on allowance use the \nfull\
+  \ fly-on allowance?  Or were all the borescope inspections completed within one\
+  \ or two \nhours? The average length of a flight was about two hours  and the maximum\
+  \ was about five \nhours . \n                                                  \
+  \      \n19 This is the worst case scenario, as the A320 is capable of operating\
+  \ on a single engine for any phase of \nnormal flight.  \n20 5686 V2500 engines\
+  \ that have flown  more than 65 million cycles in 122.3 million hours.  \n21 Of\
+  \ the 219 damage events, the damage was detected on 165 occasions, leaving 55 undetected.\
+  \  \n22 Fifty-five out of a total 535 core ingestion events.  \n23 AFH - aircraft\
+  \ flight hour.  Bird strike  Down Core  Damaging  \nBird strike  Core ingestion\
+  \  Bird damage  In flight  Down bypass  Non-damaging  Single Event  \n \nFinal report\
+  \ AO -2012 -002 \n<< Page 15 >>\n 4.2.12.  The risk analysis calculations provided\
+  \ by the manufacturer were based  on an aeroplane with \ntwo good engines.  When\
+  \ ZK -OJQ took  off from Wellington with 172 persons on board, it had \nalready\
+  \ suffered a bird strike that required further inspection for damage.  Because there\
+  \ was \nclear evidence of a core ingestion of the bird, b ased on historical data\
+  \ there was theoretically \na 41% probability of some damage being present.24 \n\
+  4.2.13.  The manufacturer advised that th is occurrence was the first recorded event\
+  \ of a blade release \nwithin the aircraft maintenance manual fly-on allowance .\
+  \  The man ufacture r also reported that \nuntil the incident on 20 June 2012 there\
+  \ had been no in -flight shutdowns on any of the 55 \npreceding flights operating\
+  \ under the fly -on allowance.   While this may give confidence in the \nrobustness\
+  \ of the engine to withstand the core ingestion of a medium -sized bird, the engine\
+  \ \nsurge on approach to Auckland occurred within 45 minutes of the aeroplane departing\
+  \ \nWellington - well inside the 10-hour limit.  The engine run at Wellington was\
+  \ a low -power run \nof short duration only and was not  considered part of the\
+  \ fly -on allowance .   \n4.2.14.  The IAE technical services report on the incident\
+  \ contained the following recommendation:  \nEFI/0945/002:  It is recommended that\
+  \ IAE review the fly -on time limit in \nthe AMM  [aircraft maintenance manual ]\
+  \ inspection (task 72 -00-00-200-\n010A), to determine whether or not it remains\
+  \ an appropriate timescale that \nwill mitigate future in -service blade release\
+  \ occurrences resulting from \nsimilar core ingestion events.  \n4.2.15.  The manufacturer\
+  \  later  advised tha t after review ing the information available , no change to\
+  \ \nthe fly -on allowance  was proposed \"as the IFSD [in -flight shutdown] risk\
+  \ across the fleet has \nsufficient margin to the prescribed , Regulatory threshold\
+  \ for Continued Airworthiness\".25  The \nmanufacturer had surveyed three major\
+  \ operators of the V2500 engine26 to gauge their \nactions following bird strike.\
+  \  The three operators advised that they followed the \nmanufacturer's maintenance\
+  \ manual and would use the allowance  if required.  \n4.2.16.  The Commission ,\
+  \ through BEA, sought comment from Airbus and EASA as the airworthines s \nauthority\
+  \ for the Airbus A320.   BEA advised that Airbus was in agreement with IAE's risk\
+  \ \nanalysis.  The fly -on allowance remained valid , with the risk of either a\
+  \ dual engine failure or a \nsingle engine failure following the satisfactory completion\
+  \ of the bird strike inspection \nprocedure sufficiently low as not to require amending.\
+  \  \n4.2.17.  EASA advised that an aircraft maintenance manual formed part of \"\
+  the Instructions for \nContinued Airworthiness \" that a manufacturer must provide\
+  \ to operators.  Only its \nairworthiness limitations section had to  be approved\
+  \ by EASA and fly -on allowances were \nusually not part of this.  The fly -on allowance\
+  \ contained in the aircraft maintenance manual \nwas therefore th e responsibility\
+  \ of Airbus.  \n4.2.18.  EASA's certification specifications for engines  specified\
+  \ no single turbine engine shutdown  \nrate, which was defined as  a \"Minor Engine\
+  \ Effect \" (EASA , 2010) .27 EASA contended that the \nfleet-wide safety objective\
+  \ for the V2500 engine ha d been achieved , and both BEA and EASA \nwere only concerned\
+  \ if both engines had been subjected to bird strike and core ingestion.  \n4.2.19.\
+  \  An IAE Pratt & Whitney technical services representative confirmed that after\
+  \ bei ng \nquestioned by the Commission and again  review ing engine reliability\
+  \ data , no changes to the \nfly-on allowance were planned.  The representative\
+  \ explained that while there was a 41% \npossibility of damage following a core\
+  \ ingestion, a core ingestion was mo st likely to occur at \nlow engine speed on\
+  \ approach to land.  These ingestion s typically result ed in minor tip curl of\
+  \ \nthe blades , which did not pose an immediate danger  to the aircraft .  The\
+  \ aeroplane involved in \n                                                     \
+  \   \n24 The 41% probability was  determined as a result of the review undertaken\
+  \ by the engine manufacturer post \nthis occurrence.  \n25 Email dated 15 November\
+  \ 2013.  \n26 United Airline s - 302 engines, US Airways - 256 engines and British\
+  \ Airways - 174 engines.  \n27 EASA Certification Specifications for Engines, Subpart\
+  \ D - Turbine Engines; Design and Construction, CS -E \n510 Safety Analysis.   \n\
+  \n<< Page 16 >>\n Final report AO -2012 -002 this incident  was the only example\
+  \ of sever e damage and blade failure when operating under \nthe fly -on allowance.\
+  \  \n4.2.20.  However, IAE did acknowledge that the wording in the maintenance manual\
+  \ relating to the fly -\non allowance could be confusing.  The intention was to\
+  \ limit the allowance to less than 10 \nhours' flying and fewer  than two cycles\
+  \ ; in other words a maximum of 9.9 hours ' flying and one \ncycle only.  IAE is\
+  \ going to put out information to all operators clarifying what the fly -on \nallowance\
+  \ is.  \n4.2.21.  This analysis  of the risk following a single -engine bird s trike\
+  \ event involving the IAE engine \ninclude d a review of that risk assessment by\
+  \ the various regulators and aeroplane and engine \nmanufacturers.  The argument\
+  \ support ed the hypothesis that a single -engine bird strike on \nthis type of\
+  \ aeroplane fitted with t his type of engine was highly unlikely to result in an\
+  \ \nunacceptable risk to flight safety.  Accordingly the Commission has no recommendation\
+  \ to \nmake on that matter.  \nFindings  \n1. It is highly likely that this contained\
+  \ engine failure was the result of a single bird strike \nevent on the previous\
+  \ flight when the aeroplane was landing at Wellington Aerodrome, \nwhen a black\
+  \ -backed gull was ingested into the engine core.  \n2. The maintenance actions\
+  \ taken by the operator following the bird strike exceeded the \nengine manufacturer's\
+  \ re quirements . \n3. Releasing the aeroplane to service under the \"fly-on allowance\
+  \ \" would have been  \nhighly unlikely to result in an unacceptable risk to flight\
+  \ safety.  \n4.3. Departure report and inflight monitoring  \nSafety issue:  The\
+  \ non-transmission, non -receipt or mismanagement of engine condition \nreports,\
+  \ especially those containing significant deviations from norm al, can deprive flight\
+  \ crew \nand maintenance personnel of the opportunity to identify a potential problem\
+  \ early.    \n4.3.1.  The departure report was not sent because of an unusual combination\
+  \ of programming logic \nand the low -power ground run.  The cruise report was sent\
+  \ to a holding tray because of an \nincorrect character in the text.  Conceivably,\
+  \ if one or both reports  had been correctly sent, \nmaintenance operations control\
+  \ ( MOC ) may have recognised the sudden split in EGT readings \nfor the two engines\
+  \ and attributed it to the earlier bird strike.   The operator has since \nremedied\
+  \ this programming logic error.  \n4.3.2.  In this case t he mo st likely action\
+  \ would have been for MOC to contact the crew, alerting them \nto the EGT split\
+  \ and instructing them to continue to monitor the engine.  However, in other \n\
+  circumstances the consequence of MOC  not receiving the departure report could \
+  \ have been \nmore significant .  Recorded aeroplane data showed that there was\
+  \ little change in the EGT \nsplit during the climb , so the crew would have had\
+  \ no warning of an impending failure.  \n4.3.3.  The EGT divergence monitoring form\
+  \ was not required to be completed on such a s hort flight  \nbecause the aeroplane\
+  \ was not in the cr uise long enough for the engine temperatures to \nstabilise\
+  \ .  In this case  the aeroplane  was in the cruise  for about two minutes only.\
+  \   There was \nno reason to shut down the engine at this time.   No alerts had\
+  \ been generated and no limits \nexceeded.  The engine still performed  satisfactorily\
+  \ , albeit in a reduced capacity , for the \nremainder of the flight.   The crew's\
+  \ priority was the descent and landing.  \n4.3.4.  The request by the engineer for\
+  \ the flight crew to check  engine performance before take -off \nwas a positive\
+  \ action that focused the crew's attention on detecting any obvious abnormality\
+  \ , \nat least for the take -off phase of flight.  The departure and cruise reports,\
+  \ and monitoring \nform, may have singularly or coll ectively alerted the crew to\
+  \ a potential problem during the \nflight.  \n \nFinal report AO -2012 -002 \n<<\
+  \ Page 17 >>\n 4.3.5.  The aeroplane was flying under a special fly -on allowance\
+  \ with the consequential added risk of \na single -engine issue developing during\
+  \ the flight to Auckland .  The operator might want to \nconsider a  more proactive\
+  \ approach in future by actively  monitoring aeroplane s (either directly \nby MOC\
+  \ or through increased monitoring by the pilots)  during flight rather than relying\
+  \ on \nautomated reports.  \n4.3.6.  Borescope equipment was not available at Wellington\
+  \ .  Had the inspecting engineer found \ndamage when following the checklist, a\
+  \ team and equipment would have needed to be flown \nin from either Auckland or\
+  \ Christchurch .  The operator advised that it would be its continued \npreference\
+  \ to follow this procedure a nd not have to locat e equipment at Wellington and\
+  \ \nprovide initial and ongoing training for a number of staff there.   Wellington\
+  \ was one of many \nairports into which  it operate d that did not have such equipment.\
+  \  \n4.3.7.  Given the low risk of an engine actually failing in flight in the manner\
+  \ it did on this occasion, \nand the even lower risk of having a double engine failure\
+  \ following a single -engine bird strike \nevent, the operator's preference is unlikely\
+  \ to create an unacceptable risk to flight safety.  \nFindings  \n4. Indications\
+  \ that the right -hand engine was not performing well were not detected by \nthe\
+  \ Maintenance Operation C ontrol  due to programming logic errors in the automated\
+  \ \nengine condition report system.  However , even if they had been it is unlikely\
+  \ that an y \nsubsequent action would have prevented the engine compressor stall\
+  \  event on \nlanding at Auckland.   \n \n4.4. Wildlife management  \n4.4.1.  The\
+  \ regular analysis of bird strike data by the CAA, aircraft operators and aerodrome\
+  \ operators \nis critical in determining whether a hazard management program me\
+  \ is working. The regular \nmonitoring of the data allows the interested parties\
+  \ to look closely at bird strike trends and \ndetermine if they are increasing,\
+  \ declining or static. It provides a benchmark for airport \noperators to ensure\
+  \  that their wildlife hazar d management program mes are effective and \nallows\
+  \ them to make changes accordingly.      \n4.4.2.  A review of bird strike data\
+  \ held by the CAA showed that at the time of this incident Wellington \nwas considered\
+  \ a \"low risk \" at 2.5 bird strikes per 10,000 aircraft move ments.28  \"Low risk\
+  \ \" \nwas considered to be fewer  than five strikes per 10,000 movements , \"medium\
+  \ \" five to fewer  \nthan 10, and \"high\" 10 or more .  Of the seven main international\
+  \ aerodromes in New Zealand, \nWellington ranked second behind Hamilton (2.1) and\
+  \ ahead of Palmerston North (2.8), \nAuckland (3.1), Christchurch (3.6), Queenstown\
+  \ (3.6) and Dunedin (5.3).     \n4.4.3.  The data also showed that the rate of bird\
+  \ strikes in Wellington had been trending upward.29  \nSimilar trends had been \
+  \ observed at Auckland, Christchurch  and Dunedin.  The Queenstown \nrate was constant,\
+  \ while Hamilton and Palmerston North were trending downwards.  The \ncombination\
+  \ of risk category and trend determined any CAA action to ensure  that an \naerodrome\
+  \ was actively minimising the risk.  At the time o f releasing this report the risk\
+  \ was \nstill assessed as low.    \n4.4.4.  An examination of the bird hazard management\
+  \ plan for Wellington showed  that a wide range \nof activities were being undertaken\
+  \ to mitigate the risk of bird strikes.  The activities included \nbuild ing modifications\
+  \ ( the addition of wires and spikes), grass height variations, bird scarers \n\
+  (shotguns, noise makers, horns and sirens) and culling both on and off the aerodrome.\
+  \  \nWellington airport was also about to trial a new type of grass called AvanexTM.\
+  \  The grass \ncontains a fungus that affects birds but does not harm them.  The\
+  \ grass is currently in use at \n                                              \
+  \          \n28 A movement is a take -off or a landing.  \n29 The trend analysis\
+  \ allowed for seasonal variations that were common.  \n\n<< Page 18 >>\n Final report\
+  \ AO -2012 -002 Auckland, Christchurch and Hamilton aerodromes, and has proven successful\
+  \ in reducing bird \nnumbers by 87%.  \n4.4.5.  Wellington airport undertook annual\
+  \ monitoring of the black -backed gull breeding population \nnear the aerodrome.\
+  \  The most recent  report , dated 20 January 2012 , showed a steady \nincrease\
+  \ in the number of nests since about 2006.  \n4.4.6.  In November 2011 Wellington\
+  \ airport commissioned an ecological survey of the aerodrome \nand surrounds out\
+  \ to 13 kilometres.  The study 's report , dated 31 January 2012 , noted that a\
+  \ \nwet winter had created boggy areas on the aerodrome that were attractive to\
+  \ plovers and \ngulls , and that an increase in  recrea tional  fishing activity\
+  \ around the nearby shoreline had \nresulted in bait and bycatch attracting gulls.\
+  \  Feeding of birds was also a problem.  Wellington \nairport in conjunction with\
+  \ Wellington City Council was running an education problem to try to \ndissuade\
+  \  the public from feeding the birds or leaving food behind.  \n Findings  \n5.\
+  \ Wellington International Airport is providing an effective bird management programme\
+  \  \nthat is keeping the risk of bird strikes as low as reasonably practicable.\
+  \  \n \n4.5. Crew actions   \n4.5.1.  Regardless of how well a crew manage s a situation\
+  \ , there will often be useful lessons for other \npilots and operators to consider.\
+  \  \n4.5.2.  The crew's initial actions on becoming aware of a problem with the\
+  \ right engine on approach \nto Auckland were in accordance with the quick reference\
+  \ handbook checklist .  The captain \npromptly retarded the right thrust lever to\
+  \ idle , which stopped the engine surging.  The runway \nwas clear but a rain shower\
+  \ was approaching the far end of the aerodrome .  The captain's \ndecision to  prioritise\
+  \ landing the aeroplane rather than trying to analyse the problem  was \nappropriate\
+  \ in the circumstances, where he had one fully functional engine (the left engine)\
+  \  \nand was still able to use the second engine (the right engine) if necessary\
+  \ .  In the short time \navailable the captain briefed the use of medium braking\
+  \ after landing and made an urgency \ncall to alert air traffic control and rescue\
+  \ services.  \n4.5.3.  The use of reverse thrust on both engines after landing was\
+  \ an instinctive response, done \nmany hundr eds of times before.  While understandable,\
+  \ a quick reminder by either pilot before \nor after landing may have helped to\
+  \ prompt the captain not to use reverse thrust on the right \nengine.  There was\
+  \ ample runway available to avoid  hard braking or reverse thr ust.  \n4.5.4.  The\
+  \ cabin was prepared for landing when the engine surge occurred.  The cabin crew\
+  \ 's \ndecision to not contact the f light crew at this critical time allow ed them\
+  \ to concentrate on \nflying the aeroplane.  The safest course of action might have\
+  \ been for the cabin crew to \ninstruct passengers to adopt a brace position, even\
+  \ though they were confident that at least \none engine was working and the aeroplane\
+  \ was under control.  This could , however , have \nresult ed in an  unco-ordinated\
+  \ warning to passengers that ma y have generated confusion and \npossibly panic\
+  \ . \n \nFinal report AO -2012 -002 \n<< Page 19 >>"

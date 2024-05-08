@@ -1,1 +1,8 @@
-- The track warrant control method of protection was reliant on the addressee (the holder of the track warrant) complying with all instructions.
+- safety_issue: 'The track warrant control method of protection was reliant on the addressee (the holder of the track warrant) complying with all instructions.
+
+    '
+  quality: exact
+- safety_issue: 'Issuing track warrants to infrastructure staff, hi-rail vehicles and trolley users that are conditional on the departure of trains from an "at location" presents a risk to these groups if they do not adhere to a warrant''s conditions.
+
+    '
+  quality: exact

@@ -1,1 +1,32 @@
-[]
+- safety_issue: 'The lack of a consistent procedure for rigging an accommodation ladder while still at sea.
+
+    '
+  quality: inferred
+- safety_issue: 'The design and failure of the wire that the bosun had connected his safety harness to.
+
+    '
+  quality: inferred
+- safety_issue: 'The shipboard emergency response to the bosun falling into the sea.
+
+    '
+  quality: inferred
+- safety_issue: 'The use of plastic-coated wire for any rigging that is required to be inspected frequently is unsafe.
+
+    '
+  quality: inferred
+- safety_issue: 'Encasing steel wire in plastic sheathing when it is to be used in the marine environment has significant implications for maritime safety, especially when the wire must be regularly inspected and maintained in order to remain fit for purpose.
+
+    '
+  quality: inferred
+- safety_issue: 'The vessel''s managing company had not conducted a risk assessment and had not developed a formal procedure for rigging any of the four accommodation ladders on board the Madinah, and neither had the senior on-board management or the crew who were performing the task.
+
+    '
+  quality: inferred
+- safety_issue: 'It is an unsafe practice to use a vessel''s handrails as an anchor point for safety harnesses, because the material condition and strength of the rails are unknown.
+
+    '
+  quality: inferred
+- safety_issue: 'The actions of the Madinah''s bridge team were not intuitive in response to a man-overboard scenario, including not noting the ship''s position, not releasing a lifebuoy with a light and smoke signal, not sounding the appropriate signal on the ship''s whistle, or not sounding the general alarm.
+
+    '
+  quality: inferred

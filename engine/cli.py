@@ -14,6 +14,9 @@ import shutil
 def download_extract(output_dir, config, modes, refresh):
     reports_config = config.get('output').get('reports')
     download_config = config.get('download')
+def download_extract(output_dir, config, modes, refresh):
+    reports_config = config.get('output').get('reports')
+    download_config = config.get('download')
 
     # Download the PDFs
     PDFDownloader.ReportDownloader(output_dir,
@@ -32,6 +35,11 @@ def download_extract(output_dir, config, modes, refresh):
                                 reports_config.get('folder_name'),
                                 refresh)
     
+    RecommendationSplitting.split_recommendations(config)
+    
+
+def safety_issue_and_recommendations(output_dir, reports_config, refresh):
+
     RecommendationSplitting.split_recommendations(config)
     
 
@@ -57,6 +65,9 @@ def safety_issue_and_recommendations(output_dir, config, refresh):
                 config.get('output').get('recommendation_responses_file_name')
             )
         )
+    
+    
+    RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
     
 
 
@@ -93,6 +104,7 @@ def cli():
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
     parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
     parser.add_argument("-t", "--run_type", choices=["download", "safety_issues_and_recommendations", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validation check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
+    parser.add_argument("-t", "--run_type", choices=["download", "safety_issues_and_recommendations", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validation check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
     parser.add_argument("-p", "--predefined", help="Use predefined themes that will be used for the summarize weightings. The predefined themes must follow a psecifc format, be in the outputfolder and be called predefined_themes.yaml (or whatever the config.yaml file is set it as). It will also skip the themes step if you run all.", action="store_true", default=False)
     parser.add_argument("-m", "--modes", choices=["a", "r", "m"], nargs="+", help="The modes of the reports to be processed. a for aviation, r for rail, m for marine. Defaults to all.", default=["a", "r", "m"])
 
@@ -117,6 +129,7 @@ def cli():
     match args.run_type:
         case "download":
             download_extract(output_path,
+                             engine_settings,
                              engine_settings,
                              modes, args.refresh)
             

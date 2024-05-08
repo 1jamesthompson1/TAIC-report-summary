@@ -1,1 +1,16 @@
-[]
+- safety_issue: 'differences between the intensity settings used on the night of this incident for runway and taxiway lights and the ICAO-recommended settings for similar conditions
+
+    '
+  quality: exact
+- safety_issue: 'administrative errors were identified in the advisory circular AC139-6 current at the time of this incident, which had the potential to create ambiguity in the way the relevant ICAO standards and recommended practices for airport design and operations were interpreted.
+
+    '
+  quality: exact
+- safety_issue: 'variances in lighting seen at Auckland Airport are a safety issue that the Commission is recommending that the chief executive of Auckland Airport address.
+
+    '
+  quality: exact
+- safety_issue: 'The CAA''s use of ''should'' in advisory circulars could be misleading, because one could infer that full adherence to the chosen means of compliance is optional.
+
+    '
+  quality: exact

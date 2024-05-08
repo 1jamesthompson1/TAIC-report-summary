@@ -1,3 +1,12 @@
-- The project team responsible for the Auckland train control centralisation project lacked the appropriate expertise for designing and installing the emergency power supply system.
-- KiwiRail's Risk Management Policy for "continuity of core services" did not give proper consideration to the safety of passengers and crew when a core service such as train control failed, causing the widespread stoppage of an entire metropolitan passenger rail system.
-- The management and maintenance of the emergency power supply system for train control were not sufficient to ensure the integrity of what had been designated an "essential service". KiwiRail technicians responsible for the maintenance of the facility said that they were not familiar with the operation of the UPS. They had not been trained on the equipment and at no time during the 18 months in which the system had been operating had they carried out a regular test.
+- safety_issue: 'The project team responsible for the Auckland train control centralisation project lacked the appropriate expertise for designing and installing the emergency power supply system.
+
+    '
+  quality: exact
+- safety_issue: 'KiwiRail''s Risk Management Policy for "continuity of core services" did not give proper consideration to the safety of passengers and crew when a core service such as train control failed, causing the widespread stoppage of an entire metropolitan passenger rail system.
+
+    '
+  quality: exact
+- safety_issue: 'The management and maintenance of the emergency power supply system for train control were not sufficient to ensure the integrity of what had been designated an "essential service".
+
+    '
+  quality: exact

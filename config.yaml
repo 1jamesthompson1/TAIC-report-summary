@@ -13,6 +13,7 @@ engine:
     # Report ID is the only available variable.
       folder_name: "{{report_id}}" # This folder name should always have the report_id variable.
       text_file_name: "{{report_id}}.txt"
+      important_text_file_name: "{{report_id}}_important_text.yaml"
       safety_issues: "{{report_id}}_safety_issues.yaml"
       pdf_file_name: "{{report_id}}.pdf"
       themes_file_name: "{{report_id}}_themes.yaml"

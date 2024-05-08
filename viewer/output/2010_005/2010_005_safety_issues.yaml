@@ -1,2 +1,40 @@
-- Unfortunately, the text provided seems to be incomplete and does not contain the full safety issue. The safety issue starts with "the aviation community, including the regulator, Airways, aerodrome operators and aircraft operators, does not have a consistent approach to reducing the collision risks associated with simultaneous opposed circuits at aerodromes," but it appears to be cut off. To extract the complete safety issue, I would need the full text that contains the entire description of the safety issue. Please provide the complete section of text that includes the entire safety issue for accurate extraction.
-- the aviation community, including the regulator, Airways, aerodrome operators and aircraft operators, does not have a consistent approach to reducing the risk of simultaneous opposed circuits at aerodromes. Simultaneous opposed circuits can exist as a result of locally agreed procedures.
+- safety_issue: 'The controller''s instructions were valid for Class D airspace, but he did not manage the increased risk of collision presented by the aeroplane descending to circuit altitude in the opposite direction.
+
+    '
+  quality: exact
+- safety_issue: 'The aviation community, including the regulator, Airways, aerodrome operators and aircraft operators, does not have a consistent approach to reducing the collision risks associated with simultaneous opposed circuits at aerodromes.
+
+    '
+  quality: exact
+- safety_issue: 'Civil Aviation Rule 91.223 can be interpreted ambiguously in non-standard traffic situations, which could contribute to the collision risk at aerodromes.
+
+    '
+  quality: exact
+- safety_issue: 'The descriptions of and requirements for the standard overhead circuit joining procedure that are published in Civil Aviation Rules, the Aeronautical Information Publication and the Flight Instructor''s Guide can be misinterpreted or misapplied in non-standard traffic situations. This could contribute to the collision risk at aerodromes.
+
+    '
+  quality: exact
+- safety_issue: 'The controller recognised the potential for a conflict, but he provided traffic information to the pilots of the aeroplane only, and not to the pilots of the helicopter.
+
+    '
+  quality: exact
+- safety_issue: 'The incident would not have occurred had either of the aeroplane pilots stopped the descent when he lost sight of the helicopter.
+
+    '
+  quality: exact
+- safety_issue: 'The incident would have been less likely to occur had the aeroplane pilots immediately broadcast that they had lost sight of the helicopter.
+
+    '
+  quality: exact
+- safety_issue: 'Local aerodrome user groups benefit their participants by providing information about their respective activities. Aerodrome operators, in order to manage their operational risks, should require their relevant tenants and users to participate fully in such groups.
+
+    '
+  quality: exact
+- safety_issue: 'The see-and-avoid principle continues to have relevance, provided pilots and controllers counter its well-known limitations by the appropriate sharing of traffic information.
+
+    '
+  quality: exact
+- safety_issue: 'Some VFR pilots continue to misconstrue ATC traffic information and instructions in Class C and D airspace as the provision of traffic separation.
+
+    '
+  quality: exact

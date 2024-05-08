@@ -1,2 +1,12 @@
-- A failure by KiwiRail to follow its operating rules and procedures at the planning stage of the work assignment resulted in the work group being under-resourced to manage the protection and safety of the track maintenance workers effectively.
-- Numerous examples of non-compliance with KiwiRail operating standards were evident at the worksite, of which some were contributory to the accident.
+- safety_issue: 'A failure by KiwiRail to follow its operating rules and procedures at the planning stage of the work assignment resulted in the work group being under-resourced to manage the protection and safety of the track maintenance workers effectively.
+
+    '
+  quality: exact
+- safety_issue: 'Numerous examples of non-compliance with KiwiRail operating standards were evident at the worksite, of which some were contributory to the accident.
+
+    '
+  quality: exact
+- safety_issue: 'Non-compliance with KiwiRail''s procedures by the track maintenance work group and the network authority is a safety issue.
+
+    '
+  quality: exact

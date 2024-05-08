@@ -1,1 +1,28 @@
-[]
+- safety_issue: 'The incident was a result of the door not being closed properly by the loader and then the first officer not checking that it was locked as he was required to do. It also involved a number of unchecked assumptions being made by the loader, first officer, and captain about the actions or intended actions of others.
+
+    '
+  quality: inferred
+- safety_issue: 'The original fault of the cargo door annunciator light remaining illuminated after the door was closed and locked was not critical provided a crew member visually confirmed the door was locked. However, the faded paint on the visual lock indicator meant positive confirmation of the door being closed required a close-up check of the indicator.
+
+    '
+  quality: inferred
+- safety_issue: 'The practice of allowing a loader to close and lock the cargo door probably led the first officer to believe the loader had done so on this occasion, but this was no defence for him not to follow a specific instruction; to check it himself.
+
+    '
+  quality: inferred
+- safety_issue: 'The closed-circuit television recording suggested that the loader was waiting by the cargo door for the last passenger to arrive and might not have fully engaged the lock mechanism, assuming the door was either locked or simply caught to stop it swinging open.
+
+    '
+  quality: inferred
+- safety_issue: 'The use of "threat and error management" (TEM) skills by the crew could have prevented the incident. If both pilots had recognised the defective cargo door warning system as a "threat" to safety of flight, they almost certainly would have paid close attention to the requirement for a crew member to confirm visually that the door was locked before flight.
+
+    '
+  quality: inferred
+- safety_issue: 'The examination of the handle confirmed that it was possible to align the handle about horizontal, but owing to the play in the handle the locks would not engage until the handle had been pushed firmly slightly past the horizontal and the button had popped. The fading of the button colour degraded its effectiveness as an indicator and as a warning to pilots that the door was possibly insecure.
+
+    '
+  quality: inferred
+- safety_issue: 'With the locks not being fully engaged, the vibration generated during the taxi to the take-off position was sufficient to cause the locks to back off. The locks finally released and the door opened at about the point of rotation during take-off, indicating that the locking mechanism''s integrity was compromised by vibration and incomplete engagement.
+
+    '
+  quality: inferred

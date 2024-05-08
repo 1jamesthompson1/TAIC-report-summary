@@ -1,1 +1,4 @@
-- The system for recording and monitoring the effects of track repair and maintenance was not picking up that the repair and maintenance work was not remedying identified track defects.
+- safety_issue: 'The system for recording and monitoring the effects of track repair and maintenance was not picking up that the repair and maintenance work was not remedying identified track defects.
+
+    '
+  quality: exact

@@ -1,2 +1,8 @@
-- The operator's system for training its pilots did not comply fully with the Civil Aviation Rules or the operator's operations specifications, and did not adequately prepare the pilot for the role and responsibilities required for flight operations that day.
-- The operator had been allowed to continue providing helicopter air operations with little or no intervention from the CAA, in spite of the CAA having identified significant non-compliances with the operator's training system and managerial oversight.
+- safety_issue: 'The operator''s system for training its pilots did not comply fully with the Civil Aviation Rules or the operator''s operations specifications, and did not adequately prepare the pilot for the role and responsibilities required for flight operations that day.
+
+    '
+  quality: exact
+- safety_issue: 'The operator had been allowed to continue providing helicopter air operations with little or no intervention from the CAA, in spite of the CAA having identified significant non-compliances with the operator''s training system and managerial oversight.
+
+    '
+  quality: exact

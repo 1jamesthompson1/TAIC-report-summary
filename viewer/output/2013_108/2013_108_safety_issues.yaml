@@ -1,1 +1,8 @@
-[]
+- safety_issue: 'The near collision occurred at the convergence of several busy metro passenger lines and there was no automatic protection applied to preventing such a collision in the event of a driver failing to stop at Signal 38.
+
+    '
+  quality: exact
+- safety_issue: 'There was a potential for drivers of metro passenger trains to be distracted by non-operational interactions with other train staff.
+
+    '
+  quality: exact

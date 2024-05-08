@@ -1,3 +1,12 @@
-- the KiwiRail medical assessment process did not ensure that the employee being assessed completed the online medical questionnaire themselves. There is some evidence that the system could potentially allow managers or others to complete the questionnaire on the employees' behalf.
-- KiwiRail did not have a mature fatigue risk management system to ensure that relevant personnel performed at adequate levels of alertness.
-- The eProtect KMC module on the locomotive had been transmitting error messages for three weeks before the incident, but the activity database was not being monitored for this type of error.
+- safety_issue: 'the KiwiRail medical assessment process did not ensure that the employee being assessed completed the online medical questionnaire themselves. There is some evidence that the system could potentially allow managers or others to complete the questionnaire on employees'' behalf.
+
+    '
+  quality: exact
+- safety_issue: 'KiwiRail did not have a mature fatigue risk management system to ensure that relevant personnel performed at adequate levels of alertness.
+
+    '
+  quality: exact
+- safety_issue: 'The eProtect KMC module on board the locomotive had been transmitting error messages for three weeks before the incident, but the activity database was not being monitored for this type of error.
+
+    '
+  quality: exact

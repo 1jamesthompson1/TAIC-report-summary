@@ -10,6 +10,9 @@ import tempfile
 import pandas as pd
 
 import base64
+import pandas as pd
+
+import base64
 
 import engine.Extract_Analyze.Themes as Themes
 import engine.Modes as Modes
@@ -101,6 +104,10 @@ def format_search_results(results):
     results['ThemeSummary'] = results.apply(lambda row: f'<a href="#" class="theme-summary-link" data-report-id="{row["ReportID"]}">{row["ThemeSummary"]}</a>', axis=1)
 
     results['SafetyIssues'] = results.apply(lambda row: f'<a href="#" class="safety-issues-link" data-report-id="{row["ReportID"]}">{row["SafetyIssues"]}</a>', axis=1)
+
+    results['Recommendations'] = results.apply(lambda row: f'<a href="#" class="recommendations-link" data-report-id="{row["ReportID"]}">{row["Recommendations"]}</a>', axis=1)
+
+    results['linksVisual'] = results.apply(lambda row: f'<a href="#" class="links-visual-link" data-report-id="{row["ReportID"]}">Visualization of recommendation and safety issue links</a>' if row['linksVisual'] else 'No links to show', axis=1)
 
     results['Recommendations'] = results.apply(lambda row: f'<a href="#" class="recommendations-link" data-report-id="{row["ReportID"]}">{row["Recommendations"]}</a>', axis=1)
 
@@ -231,12 +238,56 @@ def send_csv_file(df, name):
     # Send the file
     return send_file(temp.name, as_attachment=True, download_name=name)
 
+def send_csv_file(df, name):
+    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+
+    # Write the CSV data to the file
+    df.to_csv(temp.name, index=False)
+
+    # Send the file
+    return send_file(temp.name, as_attachment=True, download_name=name)
+
 @app.route('/get_results_as_csv', methods=['POST'])
 def get_results_as_csv():
     search_data = get_search(request.form)
 
     search_results = Search.Searcher().search(*search_data)
 
+    return send_csv_file(search_results, 'search_results.csv')
+
+@app.route('/get_si_recs_links_as_csv', methods=['POST'])
+def get_si_recs_links_as_csv():
+
+    search_data = get_search(request.form)
+
+    search_results = Search.Searcher().search(*search_data)
+
+    recommendations = search_results['Completelinks'].tolist()
+
+    print(recommendations)
+
+    all_recommendations = pd.concat(filter(lambda x: x is not None, recommendations), axis=0)
+
+    return send_csv_file(all_recommendations, 'safety_issue_recommendation_links.csv')
+
+@app.route('/get_safety_issues_as_csv', methods=['POST'])
+def get_safety_issues_as_csv():
+    search_data = get_search(request.form)
+
+    search_results = Search.Searcher().search(*search_data)
+  
+    search_results_safety_issues = search_results[['ReportID', 'CompleteSafetyIssues']]
+    
+    search_results_safety_issues = search_results_safety_issues.explode('CompleteSafetyIssues')
+
+    search_results_safety_issues.dropna(subset=['CompleteSafetyIssues'], inplace=True)
+
+    search_results_safety_issues['SafetyIssue'] = search_results_safety_issues['CompleteSafetyIssues'].apply(lambda x: x['safety_issue'])
+    search_results_safety_issues['SafetyIssueIndicatedQuality'] = search_results_safety_issues['CompleteSafetyIssues'].apply(lambda x: x['quality'])
+
+    search_results_safety_issues = search_results_safety_issues[['ReportID', 'SafetyIssue', 'SafetyIssueIndicatedQuality']]
+
+    return send_csv_file(search_results_safety_issues, 'safety_issues.csv')
     return send_csv_file(search_results, 'search_results.csv')
 
 @app.route('/get_si_recs_links_as_csv', methods=['POST'])

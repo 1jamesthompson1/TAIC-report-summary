@@ -1,1 +1,32 @@
-[]
+- safety_issue: 'There was no procedure for an Avsec officer to check with the airport night security agent for any expected aircraft movements before the officer entered the runway outside the normal hours of ATC.
+
+    '
+  quality: inferred
+- safety_issue: 'The Avsec officer''s actions were indicative of a ''tunnel'' focus on completing his own tasks with little regard for the bigger picture of the aerodrome operation.
+
+    '
+  quality: inferred
+- safety_issue: 'Drivers of airport vehicles, including Avsec officers, were not trained or required to follow the good aviation practice of checking in both directions before moving onto runways, even when given permission to do so by ATC.
+
+    '
+  quality: inferred
+- safety_issue: 'The practice of using the runway for perimeter checks outside ATC hours of operation was not standardized, creating an unnecessary risk to airport operations.
+
+    '
+  quality: inferred
+- safety_issue: 'Avsec and airport company procedures had made no provision for vehicles to enter the runway without an ATC clearance outside the hours of operation of ATC, except in the case of an emergency.
+
+    '
+  quality: inferred
+- safety_issue: 'The Avsec officer did not appreciate that flights could be delayed or that aircraft movements could occur at any time, nor did he appreciate that the illuminated runway lights meant the runway was active.
+
+    '
+  quality: inferred
+- safety_issue: 'There were no established procedures for entering the runway when the control tower was not operational, including a lack of pre-duty briefing or team meetings to discuss such procedures.
+
+    '
+  quality: inferred
+- safety_issue: 'The Avsec officer lacked a thorough knowledge of the operational environment, including the meaning of the aerodrome lighting.
+
+    '
+  quality: inferred
