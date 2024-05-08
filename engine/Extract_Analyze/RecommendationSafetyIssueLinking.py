@@ -124,8 +124,6 @@ class RecommendationSafetyIssueLinker:
         combined_df = pd.merge(recommendations, safety_issues, how='cross')
         
         # Check for previous links
-        
-
         links_csv_path = os.path.join(self.output_folder,
                          self.reports_config.get("folder_name").replace(r'{{report_id}}', report_id),
                          self.reports_config.get("recommendation_safety_issue_links_file_name").replace(r'{{report_id}}', report_id))
