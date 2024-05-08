@@ -165,7 +165,7 @@ def get_recommendations():
 
     recommendations = Search.Searcher().get_recommendations(report_id)
 
-    main_text = "<br><br>".join(recommendations) if len(recommendations) > 0 else "No recommendations found"
+    main_text = "<br><br>".join(recommendations).replace('\n', '<br>') if len(recommendations) > 0 else "No recommendations found"
 
     return jsonify({'title': f"Recommendations for {report_id}", 'main': main_text})
 
