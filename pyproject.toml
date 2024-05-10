@@ -43,6 +43,7 @@ openpyxl = "^3.1.2"
 sentence-transformers = "^2.7.0"
 transformers = "^4.40.1"
 voyageai = "^0.2.2"
+plotnine = "^0.13.6"
 
 
 [tool.poetry.scripts]
