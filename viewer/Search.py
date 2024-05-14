@@ -318,15 +318,14 @@ class Searcher:
 
         safety_issues_path = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', report_id))
 
-        formatted_SI = ""
-
         if not os.path.exists(safety_issues_path):
-            formatted_SI =  "No safety issues found for this report. This may be because none were identified in the report or due to problems when extracting them."
-    
+            return "No safety issues found for this report. This may be because none were identified in the report or due to problems when extracting them."
+
         with open(safety_issues_path, "r") as f:
             safety_issues = yaml.safe_load(f)
         
-        return safety_issues
+        return "\n".join([f"* {issue['safety_issue']} (with indicated quality - {issue['quality']})" for issue in safety_issues])
+
             
     def get_recommendations(self, report_id):
         """
@@ -341,7 +340,6 @@ class Searcher:
         recommendation_text_list = []
         for index, row in reports_recommendation.iterrows():
             recommendation_text_list.append(f"==Recommendation ({row['recommendation_id']})== \n'''\n{row['recommendation']}\n'''\nThis recommendation is directed at {row['recipient']} and was {row['response_category']} (quality: {row['response_category_quality']})\nResponse: {row['reply_text']}")
-
 
         return recommendation_text_list
 

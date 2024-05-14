@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, send_file
+from flask import Flask, render_template, request, jsonify, send_file, Markup
 from urllib.parse import parse_qs
 import json
 import os
@@ -164,7 +164,7 @@ def get_safety_issues():
 
     safety_issues += "<br><br><em>These safety issues are identified using a LLM model this means that they could not be 100% accurate.</em>"
 
-    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
+    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues.replace('\n', '<br>')})
 
 @app.route('/get_recommendations', methods=['GET'])
 def get_recommendations():
