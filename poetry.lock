@@ -385,13 +385,13 @@ lxml = ["lxml"]
 
 [[package]]
 name = "bertopic"
-version = "0.16.1"
+version = "0.16.2"
 description = "BERTopic performs topic Modeling with state-of-the-art transformer models."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "bertopic-0.16.1-py2.py3-none-any.whl", hash = "sha256:1c5ff1844b816827aacfce347524c098aebe18c95918cfea90c76832394e5b09"},
-    {file = "bertopic-0.16.1.tar.gz", hash = "sha256:1a7c0dbd862e1c1a02ff8b6db5198ef54d3a310471975cdc8ec3cb7545b819d9"},
+    {file = "bertopic-0.16.2-py2.py3-none-any.whl", hash = "sha256:7b550f8fcb50fabbebb51625b9fd3a31b4d86aa758c2591cd68899eb22d5c34c"},
+    {file = "bertopic-0.16.2.tar.gz", hash = "sha256:b5edc46f068a40535b7ef69814523636adb5153258ddda0b8d0136304b87aa2d"},
 ]
 
 [package.dependencies]
@@ -5626,4 +5626,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d908c2c2491829104c7145ca3762df792ca2d8d2b51dd2cd6fb7b7ec162150a9"
+content-hash = "2f0090a8fb061143b6951c50ef2bde9f844c7ee85bf5160a91e3d5c38c235e65"
