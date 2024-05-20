@@ -1,7 +1,7 @@
 engine:
   download:
-    end_year: 2020
-    max_per_year: 1
+    end_year: 2024
+    max_per_year: 100
     start_year: 2010
   output:
     folder_name: "output"
