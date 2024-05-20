@@ -14,9 +14,6 @@ import shutil
 def download_extract(output_dir, config, modes, refresh):
     reports_config = config.get('output').get('reports')
     download_config = config.get('download')
-def download_extract(output_dir, config, modes, refresh):
-    reports_config = config.get('output').get('reports')
-    download_config = config.get('download')
 
     # Download the PDFs
     PDFDownloader.ReportDownloader(output_dir,
@@ -28,7 +25,7 @@ def download_extract(output_dir, config, modes, refresh):
                                 modes,
                                 refresh).download_all()
 
-    # Extract the text from the PDFs
+    # Extract the text from the PDFsconfig
     PDFParser.convertPDFToText(output_dir,
                                 reports_config.get('pdf_file_name'),
                                 reports_config.get('text_file_name'),
@@ -56,11 +53,9 @@ def safety_issue_and_recommendations(output_dir, config, refresh):
             os.path.join(
                 output_dir,
                 config.get('output').get('recommendation_responses_file_name')
-            )
+            ),
+            (config.get('download').get('start_year'), config.get('download').get('end_year'))
         )
-    
-    
-    RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
     
 
 
@@ -121,7 +116,6 @@ def cli():
     match args.run_type:
         case "download":
             download_extract(output_path,
-                             engine_settings,
                              engine_settings,
                              modes, args.refresh)
             

@@ -17,7 +17,7 @@ class OpenAICaller:
         # Limits have to be manually set as API has no way of retrieving them.
         self.models = {
             'gpt-3.5': {"name": "gpt-3.5-turbo-16k", "limit": 16_385},
-            'gpt-4': {"name": "gpt-4-0125-preview", "limit": 128_000},
+            'gpt-4': {"name": "gpt-4o", "limit": 128_000},
             'gpt-3.5-ft-SIExtraction': {"name": "ft:gpt-3.5-turbo-0125:personal::9AU7vXs3", "limit": 16_385},
         }
 
