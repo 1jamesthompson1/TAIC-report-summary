@@ -2,6 +2,8 @@
 from engine.OpenAICaller import openAICaller
 
 import pandas as pd
+from tqdm import tqdm
+tqdm.pandas()
 import numpy as np
 
 class RecommendationResponseClassifier:
@@ -74,10 +76,13 @@ class RecommendationResponseClassificationProcessor:
             'response_category'
         ]
 
-    def process(self, input_path, output_path):
+    def process(self, input_path, output_path, year_ranges):
         """
         This will read the DataFrame of recommendations from the data folder and then add a response category column and a response category quality column then save the DataFrame in the output folder.
         """
+
+        print("Classifying recommendations...")
+
 
         recommendations_df = pd.read_csv(input_path)
 
@@ -85,6 +90,12 @@ class RecommendationResponseClassificationProcessor:
         if not all([column in recommendations_df.columns for column in self.required_columns]):
             missing_columns = [column for column in self.required_columns if column not in recommendations_df.columns]
             raise RuntimeError(f"Required column/s {missing_columns} not found in DataFrame given\nPath of DataFrame file: {input_path}\nDataFrame columns: {list(recommendations_df.columns)}")
+
+        start_date = f"{year_ranges[0]}-01-01"
+        end_date = f"{year_ranges[1]}-12-31"
+
+        # Filter out so that it is only within the years specified
+        recommendations_df.query('made >= @start_date & made <= @end_date', inplace=True)
 
         recommendations_df = self._process(recommendations_df)
 
@@ -102,9 +113,11 @@ class RecommendationResponseClassificationProcessor:
         
         classified_responses['response_category_quality'] = 'exact'
 
+        print(f" Out of all {len(recommendations)} recommendations, {len(unclassified_responses)} need to be classified")
+
         # For all empty response_category infer the response category
 
-        unclassified_responses['response_category'] = unclassified_responses.apply(
+        unclassified_responses['response_category'] = unclassified_responses.progress_apply(
             lambda x: 
             self.recommendation_response_classifier.classify_response(
                 x['reply_text'],
