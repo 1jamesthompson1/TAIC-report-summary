@@ -121,7 +121,7 @@ Your response is only a list of integers. No words are allowed in your response.
 
         return pages_to_read
 
-    def extract_section(self, section_str: str):
+    def extract_section(self, section_str: str, useLLM = True):
         """
         This function extract a numbered section from the report.
         You need to give it a string like 5, 5.1, 5.1.1, etc. It can struggle with the last or second to last section in the report. In this case it utilses AI
@@ -156,23 +156,26 @@ Your response is only a list of integers. No words are allowed in your response.
             if endMatch:
                 break
 
-        if startMatch == None or endMatch == None:
-            print("Warning: could not find section")
-            print(f"  startMatch: {startMatch} with regex {startRegex} \n  endMatch: {endMatch} with regex {endRegex}")
-            print("  Attempting to extract section using page numbers")
-            return self.__extract_section_using_LLM(section_str)
+        if startMatch == None or endMatch == None :
+            # print("Warning: could not find section")
+            # print(f"  startMatch: {startMatch} with regex {startRegex} \n  endMatch: {endMatch} with regex {endRegex}")
+            # print("  Attempting to extract section using page numbers")
+            if useLLM:
+                return self.__extract_section_using_LLM(section_str)
+            else:
+                return None
 
         if endMatch.end() < startMatch.end():
-            print(f"Error: endMatch is before startMatch")
-            print(f"  startMatch: {startMatch[0]} \n  endMatch: {endMatch[0]}")
-            print(f"  Regexs: {startRegex} \n  {endRegex}")
+            # print(f"Error: endMatch is before startMatch")
+            # print(f"  startMatch: {startMatch[0]} \n  endMatch: {endMatch[0]}")
+            # print(f"  Regexs: {startRegex} \n  {endRegex}")
             return None
 
         if startMatch and endMatch:
             section_text = self.report_text[startMatch.start():endMatch.end()]
             return section_text
 
-        print(f"Error: could not find section")
+        # print(f"Error: could not find section")
         return None
     
     def __extract_section_using_LLM(self, section):
