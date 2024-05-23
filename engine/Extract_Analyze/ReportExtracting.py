@@ -38,7 +38,7 @@ class ReportExtractor:
         # Create a regular expression pattern to match the page numbers and the text between them
 
         page = lambda num: f"<< Page {num} >>"
-        middle_pages = "[\s\S]*"
+        middle_pages = r"[\s\S]*"
         pattern = page(page_number_1) + middle_pages + page(page_number_2)
 
         matches = re.findall(pattern, self.report_text, re.MULTILINE | re.IGNORECASE)
@@ -121,103 +121,6 @@ Your response is only a list of integers. No words are allowed in your response.
 
         return pages_to_read
 
-    def extract_section(self, section_str: str, useLLM = True):
-        """
-        This function extract a numbered section from the report.
-        You need to give it a string like 5, 5.1, 5.1.1, etc. It can struggle with the last or second to last section in the report. In this case it utilses AI
-        """
-        base_regex_template = lambda section: fr"(?<!\.{{3,}} {{0,4}}\d{{1,3}} ?\s)((( {section}) {{1,3}}(?![\s\S]*^{section}))|((^{section}) {{1,3}}))(?![\S\s()]{{1,100}}\.{{2,}})"
-
-        split_section = section_str.split(".")
-        section = split_section[0]
-        endRegex_nextSection = base_regex_template(fr"{int(section)+1}\.1\.?")
-        startRegex = base_regex_template(fr"{int(section)}\.1\.?")
-        endRegexs = [endRegex_nextSection]
-        if len(split_section) > 1:
-            paragraph = split_section[1]
-            endRegex_nextParagraph = base_regex_template(fr"{section}\.{int(paragraph)+1}\.?")
-            endRegexs.insert(0, endRegex_nextParagraph)
-            startRegex = base_regex_template(fr"{section}\.{int(paragraph)}\.?")
-
-        if len(split_section) > 2:
-            sub_paragraph = split_section[2]
-            endRegex_nextSubParagraph = base_regex_template(fr"{section}\.{paragraph}\.{int(sub_paragraph)+1}\.?")
-            endRegexs.insert(0, endRegex_nextSubParagraph)
-            startRegex = base_regex_template(fr"{section}\.{paragraph}\.{int(sub_paragraph)}\.?")
-
-        # Get the entire string between the start and end regex
-        # Start by looking for just the next subparagraph, then paragraph, then section
-        startMatch = re.search(startRegex, self.report_text, re.MULTILINE)
-
-        endMatch = None
-
-        for endRegex in endRegexs:
-            endMatch = re.search(endRegex, self.report_text, re.MULTILINE)
-            if endMatch:
-                break
-
-        if startMatch == None or endMatch == None :
-            # print("Warning: could not find section")
-            # print(f"  startMatch: {startMatch} with regex {startRegex} \n  endMatch: {endMatch} with regex {endRegex}")
-            # print("  Attempting to extract section using page numbers")
-            if useLLM:
-                return self.__extract_section_using_LLM(section_str)
-            else:
-                return None
-
-        if endMatch.end() < startMatch.end():
-            # print(f"Error: endMatch is before startMatch")
-            # print(f"  startMatch: {startMatch[0]} \n  endMatch: {endMatch[0]}")
-            # print(f"  Regexs: {startRegex} \n  {endRegex}")
-            return None
-
-        if startMatch and endMatch:
-            section_text = self.report_text[startMatch.start():endMatch.end()]
-            return section_text
-
-        # print(f"Error: could not find section")
-        return None
-    
-    def __extract_section_using_LLM(self, section):
-        """
-        A helper function to extract_section that will read the content section and find the page numbers then extract it from there.
-        """
-
-        content_section = self.extract_contents_section()
-
-        pages = openAICaller.query(
-            """
-            You are helping me read a content section.
-
-I will send you a content section and a section and you will return the pages with which that section will cover.
-
-Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the section number given then just return "None".
-            """,
-            f"""
-'''
-{content_section}
-'''
-
-The section number I am looking for is {section}
-            """,
-            model="gpt-4",
-            temp = 0)
-        
-        if pages == "None":
-            print(f"  Failed to find the section using the LLM, it responded with '{pages}'. The search was for section '{section}'")            
-            return None
-        
-        print(" Found the section using the LLM" + pages)
-
-        pages_to_read = [int(num) for num in pages.split(",")]
-
-        # Make the array every page between first and last
-        pages_to_read = list(range(pages_to_read[0], pages_to_read[-1] + 1))
-
-        # Retrieve that actual text for the page numbers.
-        section_text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
-
-        return section_text
 
 class SafetyIssueExtractor(ReportExtractor):
     def __init__(self, report_text, report_id, important_text):
@@ -364,7 +267,7 @@ issues.
                 safety_issues = yaml.safe_load(response)
             except yaml.YAMLError as exc:
                 print(exc)
-                print('  Problem with formatting, trying again with slightly higher temp\n\Response was is \n"""\n{response}\n"""')
+                print('  Problem with formatting, trying again with slightly higher temp\nResponse was is \n"""\n{response}\n"""')
                 temp += 0.01
                 continue
 
@@ -380,8 +283,212 @@ issues.
         print("  Could not extract safety issues with inference")
         return None
 
+        
+class ReportSectionExtractor(ReportExtractor):
+    def __init__(self, report_text, report_id):
+        super().__init__(report_text, report_id)
 
-class RecommendationsExtractor(ReportExtractor):
+    def _get_previous_section(self, section_str: str):
+        """
+        This function will get the previous section name from a section name.
+        You need to give it a string like 5, 5.1, 5.1.1, etc.
+        5.3.2 -> 5.3.1, 3.1 -> 2 etc
+
+        """
+        split_section = section_str.split(".")
+
+        if len(split_section) == 3:
+            if int(split_section[2]) == 1:
+                split_section = [split_section[0], split_section[1]]
+            else:    
+                return split_section[0] + "." + split_section[1] + "." + str(int(split_section[2]) - 1)
+
+        if len(split_section) == 2:
+            if int(split_section[1]) == 1:
+                split_section = [split_section[0]]
+            else:
+                return split_section[0] + "." + str(int(split_section[1]) - 1)
+        
+        if len(split_section) == 1:
+            if int(split_section[0]) == 1:
+                return split_section[0]
+            return str(int(split_section[0]) - 1)
+
+    def _get_section_start_end_regexs(self, section_str: str):
+        """
+        This function will get the start and end regex for a section
+        You need to give it a string like 5, 5.1, 5.1.1, etc.
+        It will return a tuple of (start_regex, [end_regexs])
+
+        note that the end_regexs will have extras incrase the next section is missing.
+        """
+        base_regex_template = lambda section: fr"((( {section}(?! ?(m )|(metre))) {{1,3}}(?![\s\S]*^{section} ))|((^{section}) {{1,3}}))(?![\S\s()]{{1,100}}\.{{2,}})"
+
+        split_section = section_str.split(".")
+        section = split_section[0]
+        endRegex_nextSection = base_regex_template(fr"{int(section)+1}\.1\.?")
+        startRegex = base_regex_template(fr"{int(section)}\.1\.?")
+        endRegexs = [endRegex_nextSection]
+        if len(split_section) > 1:
+            paragraph = split_section[1]
+            # Added to prevent single unfindable section ruining search
+            endRegex_nextnextSubSection = base_regex_template(fr"{section}\.{int(paragraph)+2}\.?")
+            endRegexs.insert(0, endRegex_nextnextSubSection)
+            endRegex_nextSubSection = base_regex_template(fr"{section}\.{int(paragraph)+1}\.?")
+            endRegexs.insert(0, endRegex_nextSubSection)
+            startRegex = base_regex_template(fr"{section}\.{int(paragraph)}\.?")
+
+        if len(split_section) > 2:
+            sub_paragraph = split_section[2]
+            endRegex_nextnextParagraph = base_regex_template(fr"{section}\.{paragraph}\.{int(sub_paragraph)+2}\.?")
+            endRegexs.insert(0, endRegex_nextnextParagraph)
+            endRegex_nextParagraph = base_regex_template(fr"{section}\.{paragraph}\.{int(sub_paragraph)+1}\.?")
+            endRegexs.insert(0, endRegex_nextParagraph)
+            startRegex = base_regex_template(fr"{section}\.{paragraph}\.{int(sub_paragraph)}\.?")
+
+        return (startRegex, endRegexs)
+    
+    def _get_section_search_bounds(self, section_str: str, endRegexs):
+        ## 
+        # Figure out when to start the search from.
+        ##
+        
+        # At the start of the rpoert there can be factual information that can has numbers formatted like sections
+        page_regex = r'<< Page 1 >>'
+        page_regex_match = re.search(page_regex, self.report_text)
+        if page_regex_match:
+            first_page_pos = page_regex_match.end()
+        else:
+            first_page_pos = 0
+
+        # As there can be other random numbers in the report or references to latter sections this rules out anything before hand.
+        # Note that it relies on the assumption that the prevous few sections exists and are findable.
+        previous_section_pos = 0
+        attempt = 3
+        previous_section_str = section_str
+        while previous_section_pos == 0 and attempt > 0:
+            previous_section_str = self._get_previous_section(previous_section_str)
+            previous_section_regex, _ = self._get_section_start_end_regexs(previous_section_str)
+            previous_section_match = re.search(previous_section_regex, self.report_text, re.MULTILINE, pos = first_page_pos-1)
+            if previous_section_match:
+                previous_section_pos = previous_section_match.end()
+            else:
+                attempt -= 1
+
+        # Adding the 10 so that it still captures the first seciton of a report.
+        start_pos = max(max(previous_section_pos, first_page_pos)-10, 0)
+
+        ##
+        # Figure out when to end the search
+        ##
+        # This wil be done by looking for the next big section as that will give an upper bound
+
+        next_section_match = re.search(endRegexs[-1], self.report_text, re.MULTILINE, pos = start_pos)
+
+        end_pos = next_section_match.end() + 10 if next_section_match else len(self.report_text)
+
+        return (start_pos, end_pos)
+
+    def extract_section(self, section_str: str, useLLM = True):
+        """
+        This function extract a numbered section from the report.
+        You need to give it a string like 5, 5.1, 5.1.1, etc. It can struggle with the last or second to last section in the report. In this case it utilses AI
+        """
+
+        startRegex, endRegexs = self._get_section_start_end_regexs(section_str)
+
+        start_pos, end_pos = self._get_section_search_bounds(section_str, endRegexs)
+
+        ##
+        # Search the report for start and end of the section
+        ##
+
+        startMatch = re.search(startRegex, self.report_text, re.MULTILINE | re.IGNORECASE, pos = start_pos, endpos= end_pos)
+
+        endMatch = None
+
+        if startMatch : 
+
+            endRegexMatches = [
+                re.search(endRegex, self.report_text, re.MULTILINE | re.IGNORECASE, pos = start_pos, endpos= end_pos)
+                for endRegex in
+                endRegexs
+            ]
+
+            endMatch = min(endRegexMatches, key = lambda x: x.start() if x else len(self.report_text))
+
+        if startMatch == None or endMatch == None :
+            # print("Warning: could not find section")
+            # print(f"  startMatch: {startMatch} with regex {startRegex} \n  endMatch: {endMatch} with regex {endRegex}")
+     
+            if useLLM:
+                print("  Attempting to extract section using page numbers and LLMs")
+                return self.__extract_section_using_LLM(section_str)
+            else:
+                return None
+
+        if endMatch.end() < startMatch.end():
+            # print(f"Error: endMatch is before startMatch")
+            # print(f"  startMatch: {startMatch[0]} \n  endMatch: {endMatch[0]}")
+            # print(f"  Regexs: {startRegex} \n  {endRegex}")
+            return None
+        
+        # if endMatch.end() - startMatch.end() > 16_000:
+        #     # print(f"Error: section is too long")
+        #     return None
+
+        if startMatch and endMatch:
+            section_text = self.report_text[startMatch.start():endMatch.start()]
+
+
+            return section_text.strip()
+
+        # print(f"Error: could not find section")
+        return None
+    
+    def __extract_section_using_LLM(self, section):
+        """
+        A helper function to extract_section that will read the content section and find the page numbers then extract it from there.
+        """
+
+        content_section = self.extract_contents_section()
+
+        pages = openAICaller.query(
+            """
+            You are helping me read a content section.
+
+I will send you a content section and a section and you will return the pages with which that section will cover.
+
+Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the section number given then just return "None".
+            """,
+            f"""
+'''
+{content_section}
+'''
+
+The section number I am looking for is {section}
+            """,
+            model="gpt-4",
+            temp = 0)
+        
+        if pages == "None":
+            print(f"  Failed to find the section using the LLM, it responded with '{pages}'. The search was for section '{section}'")            
+            return None
+        
+        print(" Found the section using the LLM" + pages)
+
+        pages_to_read = [int(num) for num in pages.split(",")]
+
+        # Make the array every page between first and last
+        pages_to_read = list(range(pages_to_read[0], pages_to_read[-1] + 1))
+
+        # Retrieve that actual text for the page numbers.
+        section_text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
+
+        return section_text
+
+
+class RecommendationsExtractor(ReportSectionExtractor):
     def __init__(self, report_text, report_id):
         super().__init__(report_text, report_id)
 
@@ -472,9 +579,6 @@ You will be given a section and a question and you will need to respond in the f
         recommendation_section = self.extract_section(recommendation_match.group(1))
 
         return  recommendation_section
-
-        
-
 
 class ReportExtractingProcessor:
     """
