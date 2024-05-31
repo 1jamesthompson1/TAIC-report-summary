@@ -3,7 +3,7 @@ from engine.OpenAICaller import openAICaller
 import yaml
 import os
 import regex as re
-
+import pandas as pd
 
 class ReportExtractor:
     def __init__(self, report_text, report_id):
@@ -620,11 +620,26 @@ class ReportExtractingProcessor:
         with open(output_path, 'w') as f:
             yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
 
-    def extract_safety_issues_from_reports(self, output_folder_reader = None):
+    def extract_safety_issues_from_reports(self, output_folder_reader = None, output_file = None):
         if output_folder_reader == None:
             raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
         
         output_folder_reader.process_reports(self.__output_safety_issues)
+
+        # Read all safety issues and write them to a single csv file
+
+        all_safety_issues  = []
+        output_folder_reader.process_reports_with_specific_files(
+            lambda report_id, safety_issues: all_safety_issues.extend([sis | {'report_id': report_id} for sis in yaml.safe_load(safety_issues)]),
+            ["safety_issues"]
+        )
+        print(all_safety_issues)
+
+        si_df = pd.DataFrame(all_safety_issues)
+
+        print(all_safety_issues)
+
+        si_df.to_csv(os.path.join(self.output_dir, output_file), index=False)
 
     def get_important_text(self, report_id, with_pages_read = False):
         """

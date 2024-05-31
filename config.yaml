@@ -7,6 +7,7 @@ engine:
     folder_name: "output"
     predefined_themes_file_name: "predefined_themes.yaml"
     recommendation_responses_file_name: "recommendation_responses.csv"
+    all_safety_issues: 'safety_issues.csv'
     themes_file_name: "themes.yaml"
     summary_file_name: "summary.csv"
     reports:
