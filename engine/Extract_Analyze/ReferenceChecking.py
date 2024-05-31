@@ -1,6 +1,6 @@
 from enum import Enum
 import re, copy
-from .ReportExtracting import ReportExtractor
+from .ReportExtracting import ReportSectionExtractor
 from ..OpenAICaller import openAICaller
 
 class ReferenceType(Enum):
@@ -228,11 +228,11 @@ class ReferenceValidator():
         """
         Checks if the given reference is valid or not.
         """
-        reportExtractor = ReportExtractor(self.original_text, "Not known")
+        sectionExtractor = ReportSectionExtractor(self.original_text, "Not known")
         if reference.invalid:
             print(f"   Invalid reference (note this wa a bug fix and the program shouldnt ever make it here.) {reference.to_string()}")
             return reference
-        source_sections = list(map(lambda reference: reportExtractor.extract_section(reference), reference.reference))
+        source_sections = list(map(lambda reference: sectionExtractor.extract_section(reference), reference.reference))
 
         if all(v is None for v in source_sections):
             reference.set_invalid()

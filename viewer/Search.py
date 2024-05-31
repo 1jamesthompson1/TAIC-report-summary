@@ -6,6 +6,7 @@ from nltk.corpus import wordnet
 import nltk
 nltk.download('wordnet')
 
+
 import engine.Config as Config
 import engine.Modes as Modes
 import engine.Extract_Analyze.Themes as Themes
@@ -129,7 +130,7 @@ class Searcher:
 
                 
             report_row = {
-                "ReportID": dir,
+                "report_id": dir,
                 "NoMatches": search_result.num_matches(),
                 "ThemeSummary": "<br><br>".join([theme['name'] for theme in theme_summary_obj]) if theme_summary_obj is not None else "Could not be completed",
                 "CompleteThemeSummary": theme_summary,

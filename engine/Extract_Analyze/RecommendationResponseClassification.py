@@ -106,7 +106,6 @@ class RecommendationResponseClassificationProcessor:
         '''
         Take a DataFrame of recommendations and provide a response_category column. There will be a response_category quality column
         '''
-
         # Splits into two DataFrames based on whether response_category is already filled out.
         unclassified_responses = recommendations[recommendations['response_category'].isnull()]
         classified_responses = recommendations[~recommendations['response_category'].isnull()]
@@ -129,4 +128,3 @@ class RecommendationResponseClassificationProcessor:
         unclassified_responses['response_category_quality'] = 'inferred'
 
         return pd.concat([classified_responses, unclassified_responses])
-

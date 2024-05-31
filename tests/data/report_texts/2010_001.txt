@@ -1,0 +1,1141 @@
+﻿  
+ 
+ |   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Report 10 -001: Aerospatiale -Alenia ATR 72 -212A , ZK-MCP  and ZK -MCJ , 
+severe turbulence encounters , about 50 nautical miles north of Christchurch , 30 December 2009  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Transport Accident Investigation Commission is an independent Crown entity established to 
+determine the circumstances and causes of accidents and incidents with a view to avoiding similar 
+occurrences in the future.  Accordingly it is inappropriate that  reports should be used to assign fault or 
+blame or determine liability, since neither the investigation nor the reporting process has been undertaken 
+for that purpose.  
+ 
+The Commission may make recommendations to improve transport safety.  The cost of impl ementing any 
+recommendation must always be balanced against its benefits.  Such analysis is a matter for the regulator 
+and the industry.  
+ 
+These reports may be reprinted in whole or in part without charge, provid ing acknowledgement is made 
+to the Transport Accident Investigation Commission.
+  
+Report 10 -001 | Page i  
+ 
+ 
+ 
+ 
+ 
+ 
+Final Report  
+ 
+Aviation inquiry 10-001 
+Aerospatiale -Alenia ATR 72 -212A , ZK-MCP  and ZK -MCJ, 
+severe  turbulence encounters , 
+about 50 nautical miles north of Christchurch , 
+30 December 2009  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Approved for publication:  December 2010    
+
+Page ii | Report 10 -001 Transport Accident Investigation Commission  
+ 
+About the Transport Accident Investigation Commission and this report  
+The Transport Accident Investigation Commission ( the Commission) is an independent Crown entity 
+responsible for inquiring into maritime, aviation and rail accidents and incidents for New Zealand, and  co-
+ordinating and co -operating with other accident investigation organisations overseas .  The principal 
+purpose of its inquiries is to determine the cir cumstances and causes of occurrence s with a view to 
+avoiding similar occurrences in the future.  Its purpose is not to ascribe blame to any person or agency  or 
+to pursue (or to assist an agency to pursue) criminal, civil or regulatory action against a pers on or agency.  
+The Commission carries out its purpose by informing members of the transport sector, both domestically 
+and internationally, of the lessons that can be learnt from transport accidents and incidents.  
+ 
+Commissioners  
+Chief Commissioner    John Ma rshall, QC  
+Deputy Chief Commissioner   Pauline Winter  
+Commissioner    Bryan Wyness   
+Assessor     Richard Rayward  
+  
+ 
+Key Commission personnel  
+Chief Executive:    Lois Hutchinson  
+Chief Investigator of Accidents:  Captain Tim Burfoot  
+Investigator in Charge:   Peter R. Williams  
+General Counsel:    Rama Rewi  
+ 
+ 
+ 
+Email:   inquiries@taic.org.nz  
+Web:   www.taic.org.nz    
+Telephone:  +64 4 473 3112 (24 hrs) or 0800 188 926  
+Fax:  + 64 4 499 1510  
+Address:   Level 16, AXA Centre, 80 The Terrace, PO Box 10 323, Wellington 6143, New Zealand  
+ 
+  
+  
+Report 10 -001 | Page iii Important n otes 
+ 
+Nature of the final report  
+This final report may not be used to pursue criminal, civil or regulatory action against any person or 
+agency.  The Transport Accident Investigation Commission Act 1990 makes this final report inadmissible 
+as evidence in any proceedings with the exception of a Coroner's inquest.  
+ 
+Ownership of report  
+This report remains the intellectual property of the Commission.  
+This report may be reprinted in whole or in part without charge, provided that acknowledgement is made 
+to the Commission.  
+ 
+Citations and referencing  
+Information derived from interviews during the Commission's inquiry into the occurrence is not cited in 
+this final report.  Documents that would normally be accessible to industry participants only and not 
+discoverable under the Official Information Act 1980 have been referenced as footnotes only.  Other 
+documents referred to during the Commission's inquiry that are publicly available are cited.  
+ 
+Photographs, diagrams, pictures  
+Unless otherwise specified, photographs, diagrams and pictures included in this final report are provided 
+by, and owned by, the Commission.  
+ 
+ 
+Submissions  
+Submissions were received from the operator, Airways Corporation of New Zealand and one of the air 
+traffic controllers, the Civil Aviation Authority and the Meteorological Service of New Zealand Limited.  
+Their submissions were considered during the preparation of the final report.  
+  
+Page iv | Report 10 -001  
+ 
+ 
+ 
+Figure 1 Aerospatiale -Alenia ATR 72 -212A, ZK -MCP  
+(photograph used with permission)  
+  
+
+  
+Report 10 -001 | Page v  
+Figure 2 Location of incidents  
+ 
+Legend  
+ 
+ Reporting point GRETA  
+    
+     
+SIGMET references  
+  
+  
+ 
+ 
+ 
+  
+  
+ 
+ 
+ Source: mapsof.net  Nelson  
+Woodbourne  
+Kaikoura  
+Mt Cook  Westport  Taupo  
+Wellington  
+Christchurch  
+Page vi | Report 10 -001 Contents  
+ 
+Abbreviations  ................................ ................................ ................................ ................................ ......................  vii 
+Glossary  ................................ ................................ ................................ ................................ ..............................  vii 
+Data summary  ................................ ................................ ................................ ................................ ...................  viii 
+1. Executive summary  ................................ ................................ ................................ .............................  1 
+2. Factual Information  ................................ ................................ ................................ .............................  2 
+2.1. History of the flights  ................................ ................................ ................................ ............  2 
+First event, flight NZ5046  ................................ ................................ ................................ .. 2 
+Second event, flight NZ5034  ................................ ................................ .............................  3 
+2.2. Personnel information  ................................ ................................ ................................ ........  3 
+2.3. Aircraft information  ................................ ................................ ................................ .............  4 
+2.4. Meteorological information  ................................ ................................ ................................  4 
+2.5. Air traffic services  ................................ ................................ ................................ ................  6 
+2.6. Additional information  ................................ ................................ ................................ ........  7 
+3. Analysis  ................................ ................................ ................................ ................................ ................  8 
+4. Findings  ................................ ................................ ................................ ................................ .............  10 
+5. Recommendations  ................................ ................................ ................................ ............................  11 
+General  ................................ ................................ ................................ ................................ ..............  11 
+Recommendation  ................................ ................................ ................................ ..............................  11 
+6. References  ................................ ................................ ................................ ................................ ........  12 
+Appendix A: Turbul ence Reporting Criteria Table  ................................ ................................ ............................  13 
+Appendix B: SIGMET issued and PIREP received by MetService, 30 December 2009  ................................  14 
+ 
+ 
+Figures  
+ 
+Figure 1  Aerospatiale -Alenia ATR 72 -212A, ZK -MCP  ................................ ................................ ...........  iv 
+Figure 2  Location of incidents  ................................ ................................ ................................ .................  v 
+ 
+ 
+  
+  
+Report 10 -001 | Page vii Abbreviations  
+ 
+AIP  Aeronautical Information Publication New Zealand  
+Airways   Airways Corporation of New Zealand Limited  
+ATC  air traffic control  
+ATR 72   Aerospatiale -Alenia ATR 72 -212A  
+ 
+Commission  Transport Accident Investigation Commission  
+ 
+G  the acceleration due to gravity  
+ 
+ICAO   International Civil Aviation Organi zation  
+ 
+kt  knots  
+ 
+MetService  Meteorological Service of New Zealand Limited  
+ 
+nm  nautical mile(s)  
+ 
+pirep   pilot report  
+ 
+Rules   Civil Aviation Rules  
+ 
+UTC  coordinated universal time  
+ 
+ 
+Glossary  
+ 
+bug a moveable m arker  fitted to an airspeed indicator to show a reference speed  
+ 
+flight level  height expressed in hundreds of feet above a reference datum  
+ 
+G the acceleration experienced by an object due to the Earth's gravity at sea level (called 
+one G).  The total acceleration (often incorrectly called the total force) on an object can 
+be expressed as a multiple of G  
+ 
+load factor  the ratio of the total acceleration experienced by an object and the acceleration due to 
+gravity  
+ 
+SIGMET   information concerning en -route weather phenomena that might  affect the safety of 
+aircraft operations  
+ 
+stick -shaker  a device that vibrates the pilots' control columns to provide a tactile (and usually an 
+aural) warning of an approach to a stall 
+ 
+Page viii | Report 10 -001 Data summary  
+ 
+Aircraft registrations:  (i) ZK-MCP  and ZK -MCJ 
+Type and serial number:  Aerospatiale -Alenia ATR 72 -212A  
+(i) 630             (ii) 624  
+ 
+Number and type of engines:  2 Pratt & Whitney Canada PW127F turboprops  
+Year of manufacture:  1999 (both)  
+Operator:  Mount Cook Airline Limited  
+Date and time:  30 December 2009  at 
+(i) 12191         (ii) 1247  
+Location:  about 50 nautical miles north of Christchurch  
+ latitude:  43° south  
+ longitude:  173° east  
+Type of flight:  scheduled air transport  
+Persons on board:  crew:      (i)   4    (ii)   4  
+passengers:      (i) 65    (ii) 66  
+Injuries:  nil       
+Nature of damage:  nil 
+Pilots' licences:  airline transport pilot 's licence (aeroplane)  
+Pilots' total flying experience:  (i) 6500 hours total, 3500 on type  
+(ii) 18 500 hours total, 9000 on type  
+  
+                                                      
+1 Times in this report are New Zealand Daylight Time (UTC + 13 hours) expressed in the 24-hour  format.  
+  
+Report 10 -001 
+<< Page 1 >>
+ 1. Executive summary  
+1.1. On 30 December 2009, an Aerospatiale -Alenia ATR 72 -212A  (ATR 72) aeroplane flying between 
+Christchurch and Wellington encountered severe turbulence when about 50 n m north of 
+Christchurch.  Approximately 35 minutes later, another ATR 72 aeroplane, also flying from 
+Christchurch to Wellington, encountered severe turbulence in the same general area.  
+1.2. Although no injuries or damage result ed from  these incidents, the Transp ort Accident 
+Investigation Commission (the Commission) decided to inquire into the adequacy of the 
+meteorological information available to the pilots before and during the flights, the operator and 
+flight crew action taken to minimise the risk s of severe t urbulence encounter s, and the 
+processes followed by the providers of air traffic and meteorological services in response to 
+pilot reports of significant weather hazards.  
+1.3. The investigation found that the events might have been avoided or been less severe ha d the 
+operator had a more robust flight dispatch system, and had the air traffic service complied fully 
+with a requirement to pass flight information to pilots on first contact.  The Commission made a 
+safety recommendation regarding the clarity of informat ion about  hazardous meteorological 
+conditions.  
+ 
+
+<< Page 2 >>
+ Report 10 -001 2. Factual Information  
+2.1. History of the flight s 
+First event, f light NZ5046  
+ 
+2.1.1.  At 1301 on 30 December 2009, an ATR 72 aeroplane registered ZK -MCP departed 
+Christchurch Aerodrome as scheduled flight NZ5046 to Wellington .  On board were 2 pilots , 2 
+flight attendants  and 65 passengers .  The flight was conducted under instrument flight rules  
+along the standard route that followed  the east coast of the South Island . 
+2.1.2.  The crew had requested and been  cleared by air traffic control (ATC)  to cruise at flight level 
+1702, above  an area of forecast severe turbulence .3  The captain had anticipated turbulence for 
+much of the flight, so he had i nstructed th at passengers and flight attendants were to remain 
+seated with their seat belts  on.  The aeroplane was in cloud  for most of the climb, and t he pilots 
+had activated icing protection and were using the aeroplane  radar to avoid areas of heavy rain . 
+2.1.3.  At 131 4, when about 50 n m north of Christchurch, the aeroplane encountered  severe 
+turbulence  at about flight level 150 .  Recorde d aeroplane data showed the airspeed decrease d 
+quick ly from about 170  knots (kt) to 14 4 kt, which was below the minimum speed for flight in 
+icing conditions with flap retracted.  The angle of  attack increase d rapidly, which activat ed 
+momentarily the stick -shaker  and caus ed the autopilot to disengage .  The instantaneous rate  of 
+descent briefly exceeded 5500 feet per minute.   Loose objects on the flight deck were thrown 
+about, and periods of negative G momentarily activated the engine low -oil- pressure warnings.  
+2.1.4.  The wind vector displayed on the flight instruments changed from a 55 kt westerly to a 140 kt 
+southerly in less tha n a minute.  However, t he data recorder showed that during the worst 30 
+seconds of the event , the wind direction swung through 45  degrees  and the wind speed varied 
+erratically between  80 and 27 kt before steadily returning towards the earlier value . 
+2.1.5.  Shortl y after the stick -shake r activation , the non-flying pilot lowered the flaps to 15  degrees  to 
+provide a greater margin above the stall speed in the prevailing icing conditions .  However,  the 
+flap select ion coincided with a large pitch down of the aeroplane that caused the airspeed to 
+increase  rapidly  to 205 kt, exceeding the limit speed  for the flap setting . 
+2.1.6.  The non -flying pilot broadcast an urgency call , prefaced with the appropriate 'PAN  PAN', and 
+said they were in severe turbulence an d unable to maintain altitude.  The controller , who said 
+he did not hear the transmission  clearly , replied, 'Mount Cook 46, say again your request'.   The 
+pilot repeated th e information , but without the PAN prefix this time,  and said they would have to 
+manoeuvre ' as required '.  The controller replied 'R oger' only. 
+2.1.7.  As the turbulence eased, the pilots continued the climb, although there was a brief, marked 
+reduction in climb performance, possibly due to mountain waves in the lee of the coastal 
+ranges.  The pilots then advised  that the aeroplane was under control  and they were continu ing 
+to Wellington.  Th e controller acknowledged with ' Roger'.  The pilots offered  more information 
+on the conditions and that  they had been unable to  maintain altitude , to which the controller 
+again replied 'Roger'. 
+2.1.8.  No-one was injured  during the turbulence , the worst of which lasted  for a little over one minute . 
+2.1.9.  The controller later said there had been a number of pilot reports (pireps) that day of severe 
+turbulenc e across the South Island  and many aircraft had been unable to maintain their 
+assigned altitude s or track s.  Th ose pireps  had been  passed to MetService  by the relevant 
+controllers using direct telephone lines at their stations.  He said he had earlier pass ed to 
+MetService a report of modera te-to-severe turbulence at flight level 220 that had been sent by  
+an ATR 72 south -bound to Christchurch, and he had thought it unnecessary to pass on the 
+report from NZ5046 . 
+                                                      
+2 Flight levels are heights in hundreds of feet above a reference datum.  Flight level 160 is 16 000 f eet above the 
+datum . 
+3 The perceived severity of turbulence is a function of aircraft type  and its mass, altitude, configuration and airspeed.  
+The International Civil Aviation Organization (ICAO) classification is given in Appendix A.  
+  
+Report 10 -001 
+<< Page 3 >>
+ 2.1.10.  At 1319, NZ5046 requested a higher flight  level, which was approved by a  different controller 
+who had taken over the position in a routine changeover.   The replacement  controller 
+subsequently cleared NZ5046 to de viate east of track as required . 
+2.1.11.  At 1329, the replacement  controller  broa dcast  revised  SIGMET reports , including  SIGMET 4, 
+which  amended an earlier warn ing of severe turbulence between flight levels 160 and 240, 
+south east of a line from Kaikoura to Mount Cook .  That region  included the point  where NZ5046 
+had struck  turbulence , but the SIGMET was based on a pirep made 2 hours earlier at a point 84 
+nm southwest of Christchurch . 
+2.1.12.  At 13 40, MetService logged the NZ5046 e ncounter .  The time of the event was not recorded, 
+and the altitude was erroneously given as flight level 170, the a eroplane's initial  cruise level . 
+2.1.13.  At Wellington, the captain reported t hat severe  turbulence had been encountered and the flap  
+limit speed exceeded.  The data recorder showed that the vertical acceleration  range had been 
+from +2.12 G to -0.59  G.  The required maintenance inspections found no damage or defects . 
+Second event, flight NZ5034  
+ 
+2.1.14.  On the same day a t 1334 , another ATR 72, registered ZK -MCJ, departed Christchurch 
+Aerodrome as scheduled flight NZ5034, also bound for Wellington  along the same route and at 
+flight level 170 .  On board wer e 2 pilots , 2 flight attendants  and 66 passengers.   The pilots  had 
+been told by the operator's flight dispatcher of the earlier flight's encounter  with turbulence, so 
+the flight attendants were inst ructed to remain seated for the flight.  The aeroplane weather 
+radar was in use.  The same (replacement) controller  advised NZ5034 that an unidentified 
+preceding aircraft (almost certainly NZ5046) had encountered severe turbulence  and that 
+altitude or track deviations were available if needed . 
+2.1.15.  NZ5034 had already deviated east of the planned  route  when the pilots  requested more direct 
+tracking towards Wellington , which  would have taken the flight further east.  However, a  Boeing 
+737 descending o n the Wellington -to-Christchurch  route  prevented ATC from approving the 
+request immediately.  NZ5034 then requested to climb from flight level 170 to flight level 190 
+to get above moderate turbulence.  
+2.1.16.  At 1350, ATC approved the higher level and in the same transmission gave NZ 5034  its arrival 
+clearance for Wellington .  The crew's read -back of the clearance was interrupted when they 
+encountered severe turbulence  while in cloud , about 51 n m north of Christchurch . 
+2.1.17.  The aeroplane's data recorder showed that, coincident with a wind shift through 55  degrees  
+and 34 kt  over 20 seconds, the aeroplane pitched  up then sharply down, giving a vertical 
+acceleration change of 2.5  G in less than 1.5 seconds.  The stick -shaker activated momentarily 
+and the engine low -oil pressure warning for one of the engines also illuminated briefly.  
+2.1.18.  A minute later, ATC asked NZ5034 to read back the arrival clearance, and was told 'Standby'.  
+ATC then asked the Boeing 737 to report its flight conditions and was told that there was 
+'moderate -to-severe turbulence at times'.  T he controller then advised controllers of the 
+adjacent ATC sectors that he was applying increased vertical separation between flights.   The 
+crew of NZ5034 did not broadcast an urgency message advising of the severe turbulence.  
+2.1.19.  After landing at Wellington, th e captain reported the severe turbulence event, which he also 
+described as extreme and the worst he had experienced in 40 years of flying.  The data recorder 
+showed that the vertical acceleration range had been from +1.84 G to -0.73 G.  The required 
+mainte nance inspections found no damage or defects.  
+2.1.20.  No-one was injured on NZ5034, although one of the flight attendants later reported minor neck 
+discomfort that might have been related to the event.  
+2.2. Personnel information  
+2.2.1.  Both pilots of NZ5046 had captain  rank , but NZ5034 had a normal crew composition of captain 
+and first officer.  All had extensive airline experience in New Zealand an d in flying ATR 72s. 
+ 
+
+<< Page 4 >>
+ Report 10 -001 2.2.2.  The ATC controller s were employed by Airways.  The controller of  NZ5046 when the aeroplane 
+struck the severe turbulence had been  issued with a New Zealand air traffic controller licence 
+on 8 April 2009 , but he had had 10 years ' prior experience as a controller  overseas .  He held 
+the appropriate controller ratings and a valid medical certificate.  His previous ann ual 
+proficiency assessment had been  completed on 19 October 2009.  On 30 December 2009 h e 
+commenced duty at 0830  and was scheduled to finish at 1600 .  He had worked from 1330 
+until 2030  the previous day , with 2 da ys off duty before  that. 
+2.3. Aircraft informati on 
+2.3.1.  The ATR  72 was a high -wing aeroplane powered by 2 turboprop engines  and various versions 
+had been in service with the operator since 1994.   The operator's configuration seat ed 66 
+passengers, in addition to the 2 pilots a nd 2 flight attendants.  
+2.3.2.  The aerop lane load factor limits were +2.5 G to -1.0 G with the flaps retracted, and +2 G to 0 G 
+with any flap extended.  
+2.3.3.  The operator's standard procedure was to 'bug' the minimum enroute airspeed for the flaps -up 
+configuration in icing conditions.  Th e bug g ave pilots an immediate visual cue for th e minimum 
+speed , which varied directly with the aeroplane weight . 
+2.3.4.  The ATR 72 was fitted with  a Honeywell Primus® 660 weather radar , which, l ike other modern 
+weather radars, was designed primarily to detect water droplet s rather than turbulence.  T he 
+display was colour-coded according to the rain intensity.  The handbook noted there was a 
+'100% probability of light turbulence occurring in any area of light rain' and that the probability 
+of any severity of turbulence incre ased as the rain intensity increased (Honeywell , 1999).  
+2.4. Meteorological information  
+2.4.1.  According to Civil Aviation Rules  (Rules) , the pilot -in-command was responsible for obtaining 
+and becoming familiar with the current meteorological information relevant to t he proposed 
+flight, and the operator was responsible for ensuring that the appropriate information (which 
+would include known potentially hazardous meteorological conditions) was made available to 
+the pilot -in-command to prepare for that flight.4  The oper ator was required to use 
+meteorological information that had been provided for aviation purposes by an  aviation 
+meteorological service organisation certificated under Rules Part 174.5 
+2.4.2.  The primary meteorological service organi sation in New Zealand was MetService , which was  
+certificated by the Civil Aviation Authority to provide forecasts, disseminate meteorological 
+information, provide briefings and routine reports, and  provide  a meteorological watch service  
+'over meteorological conditions affecting ai rcraft operations ' (Airways, 2010 a, p.GEN 3.5 -2, 
+effective 19 November 2009) . 
+2.4.3.  An analysis provided by MetService showed that at midday o n 30 December 2009, an 
+anticyclone wa s centred east of Tasmania and a deep trough of low pressure lay east of New 
+Zealan d.  At sea level, a s trong southwest air flow covered the South Island and a cold front was 
+situated north of Christchurch.  The trough was present through a deep layer, which included 
+the planned cruise levels of these flights, with the maximum wind speed s present over a broad 
+swath from Fiordland to Canterbury.  
+2.4.4.  The operator had a contract with MetService for the provision of web -based flight briefings that 
+were updated 3 times an hour.  The briefing accessed by the pilots of the first flight had been 
+issued at 1136 and wa rned of  occasional moderate turbulence below flight level 160 south of a 
+line from Nelson to Woodbourne (Blenheim) , and severe turbul ence as follows:  
+SIGMET 24, issued 0844,  valid between 0844 and 1244, severe turbulence 
+forecast below  flight level 140 about the ranges south of Nelson  to Woodbourne.  
+Intensity no  change.  
+                                                      
+4 Rules 91.217, Pre-flight action , and 121.59, Flight preparation.  
+5 Rule 121.153, Meteorological information . 
+  
+Report 10 -001 
+<< Page 5 >>
+ 2.4.5.  The briefing also warned of occasional moderate turbulence at the relevant time between flight 
+levels 160 and 260 south of a li ne from Westport to Kaikoura , and noted t hat a SIGMET for 
+severe turbulence was possible.  Isolated embedded cumulonimbus ('thunderstorm') clouds 
+were forecast adjacent to the planned routes of the  flight.  No significant icing was forecast.  
+2.4.6.  At 1144, as a result of a pirep made at 1130 by an aeroplane then 84 n m southwest of 
+Christchurch , the anticipated S IGMET was issued .  This read, in part:  
+SIGMET 28, valid between  1144 and 1544, New Zealand Flight Information 
+Region,  forecast severe turbulence  betw een flight levels 160 and 240 southeast  
+[of a line from] Kaikoura to Mount Cook. Moving northeast at 30 kt. Intensity no 
+change.  
+2.4.7.  The area descr ibed in SIGMET 28 included the locations of the 2 ATR incidents.  
+2.4.8.  MetService issued a revised flight briefing to t he operator at 1201 .  The included route forecast 
+was essentially  the same as th at in th e 1136  briefing , but SIGMET  24 was replaced by SIGMET 
+27, which raised  the top of the lower band of severe turbulence to flight level 1 60. 
+2.4.9.  At 1205 , SIGMET 31 was issued, extend ing the region of forecast lower -atmosphere severe 
+turbulence to the North Island.  SIGMET 31 read, in part:  
+SIGMET 31, valid between 1205 and 1605, forecast sev ere turbulence below 
+flight level 160 about the ranges north  of Nelson -Woodbo urne , south of Taupo .  
+Intensity no change.  
+2.4.10.  Ten minutes prior to the estimated departure time of a flight, one of the operator's dispatchers 
+would send  the latest  weather package and related flight information  to a personal digital 
+assistant -type device in the aeroplane.   This procedure  could provide crew s with relevant flight 
+information received since the y had prepared for their  flight s.  The device s were used  by crew s 
+to access the information only when the aeroplane s were parked.  
+2.4.11.  Whether the pilots of either flight had read SIGMET 28 and 31 was not determined.  The pilots 
+did not recall precisely which SIGMETs they had read, and the time that web-based weather  
+briefings were accessed, and by whom, was not recorded  by the operator .  The operator could 
+not confirm that the latest weather packages had been sent prior to departure to the devices on 
+NZ5046 and NZ5034, and did not ordinarily require crews to retain printed briefing papers.  
+2.4.12.  The operator later advised that it was exploring ways to improve the content and delivery of 
+flight information to crews before departure.  
+2.4.13.  At 1327, which was after  NZ5046 had already encountered turbulence  and when NZ5034 was 
+about to depart, MetService re -issued SIGMET 28  as SIGMET 46 and issued SIGMET 5, which in 
+effect combined SIGMET s 27 and 31.  SIGMET 5 read, in part:  
+SIGMET 5, valid between 1327 and 1727, New Zealand Flight Information 
+Region, forecast severe turbulence below flight level 160 about the ranges south 
+of Taupo. Intensity  no change.  
+2.4.14.  The forecast wind for the route was south -west erly, increasing from 70 kt to 90 kt bet ween flight 
+levels 150 and 190.   The wind recorded on the aeroplane data recorders  was, for the first flight, 
+similar to that forecast,  but was generally at a lower speed for the second flight.  
+2.4.15.  If SIGMET s were to be adequate, accurate and timely, MetService needed real-time information 
+such as pireps .  The Aeronautical Information Publication New Zealand ( AIP) required pilots to 
+make pirep s immediately when : 
+hazardous meteorological conditions are encountered or observed which, in the 
+opinion of the pilot are, or may become severe enough to warrant a SIGMET, 
+regardless of any reports from other aircraft and regardless of any SIGMET 
+issued ( Airways, 2010a, p.GEN 3.5 -25, effective 5 June 2008).  
+                                                      
+6 SIGMET s were sequentially numbered from the start of the UTC day.  
+ 
+
+<< Page 6 >>
+ Report 10 -001 2.4.16.  Airways was certificated to disseminate meteorological information and to supply routine 
+meteorological reports.  The AIP listed SIGMET s, but not pireps,  among the information that ATC 
+would adv ise to affected aircraft wit hin their area s of responsibility  (Airways, 2010a, p.GEN 3.5) , 
+but Airways ' did require controllers to pass pireps to  (Airways, 2010b, p.MET 2) : 
+ other aircraft likely to be affected  
+ other [air traffic service]  units whose area of responsibility is adjacent to 
+the reported conditions, and  
+ MetService.  
+2.4.17.  The ICAO standard for ATC to forward pireps to the meteorological watch office was 'without 
+delay' (IC AO, 2007 b, para graph 5.8).  Airways  expected controller s to forward pireps to 
+MetService 'as soon as practicable ', but Airways later inform ed the Commission that its 
+standard would be aligned with that of ICAO . 
+2.4.18.  On 30 December 2009, MetService logged the receipt of  14 pireps, including 9 for severe 
+turbulence .  Of those, 5 were made between 1215 and 1445 and related to encounters west 
+and north of Christchurch .  All but one of tho se reports were passed to MetService by ATC  staff.  
+The p irep made by NZ5046 at 1314 was not logged by M etService  until 1340. 
+2.4.19.  MetService  said that the preparation of SIGMET s was the highest priority of the aviation 
+forecasting desk .  Therefore, the receipt of information that suggested the criteria for the issue 
+of a SIGMET had been met was also given t op priority.  If a pirep w ere consist ent with a current 
+SIGMET, the report w ould be  considered to validate the SIGMET and no further action w ould be  
+taken.  If there w ere no relevant SIGMET or the pirep indicated  that a SIGMET required 
+amendment, a new issue or amendment w ould be  completed as soon as practicable.   The 
+sequence of SIGMET s issued and pireps received by MetService on 30 December 20 09 is 
+shown in Appendix  B. 
+2.4.20.  The MetService criteria for the amendment of a forecast of turbulence (or icing) were: 
+Newly expected occurrence; error in expected position of phenomena; intensity 
+increasing; intensity decreasing from severe to light or nil, or from moderate to nil 
+(Airways, 2010a, p.GEN 3.5 -44, effective 9 April 2009).  
+2.5. Air traffic services  
+2.5.1.  Air traffic services included ATC, flight informati on services and an alerting service.  The 
+separation and control of aircraft w ere the first priority for controllers, but they were also tasked 
+with providi ng flight information service s.  Any relevant information that could affect the safe 
+and efficient c onduct of flights was to be passed 'as soon as practicable' to flights  known to be 
+affected by the information .  That information included SIGMET s and 'significant information 
+received from other flights' (Airways, 20 10b, p.RAC 10 -1, effective 12 April 2007) . 
+2.5.2.  An air traffic service provider was required by the Rules to have procedures that ensured that 
+available and relevant flight information, such as SIGMET s, was provided to aircraft that were 
+provided with an ATC service.7 
+2.5.3.  The AIP (Airways, 20 10a) stated, in part  (p.GEN 3.3 -7, effective 30 July 2009) : 
+On first contact with [air traffic services] , the pilot of an IFR aircraft commencing 
+a flight for which a flight plan has been filed will be provided with flight 
+information  … received within the 90 minu tes preceding the activation of the 
+plan.  
+2.5.4.  A flight plan was activated when an aircraft took off.  In practice, the time between a crew 
+briefing for a flight and their making first contact with ATC, usually to request permission from 
+aerodrome control to start engines or to taxi for take -off, was less than an hour.  Airways 
+advised that meteorological and other flight information was retained for 90 minutes after being 
+received and the information  was not necessarily offered to all aircr aft when they first c ontact ed 
+ATC.  The Commission was un able to determine whether the involved ATR crews had been  
+                                                      
+7 Rule 172.93, Flight information service . 
+  
+Report 10 -001 
+<< Page 7 >>
+ offered the latest SIGMET  by ATC b efore start -up, but other updates were broadcast by ATC on 
+the area control frequency, as noted in paragraph 2.1.11.  
+2.5.5.  Airways later informed  the Commission that it was reviewing its procedures to ensure the  
+90-minute requirement was met.  
+2.5.6.  The ATC radars in New Zealand did not display weather and radar controller s relied on 
+MetService information and pireps to form picture s of the location s of adverse w eather.  
+2.5.7.  An alerting service was provided by Airways to initiate and/or assist in search and rescue action 
+for any flight known or thought to require assistance.  The 3 alerting  service phases we re 
+(Airways, 2010b, p.RAC  7-4, effective 17 March 2005):  
+Uncertainty : when uncertainty exists as to the safety of an aircraft and its 
+occupants  
+Alert : when apprehension exists as to the safety of an aircraft and its occupants, 
+and 
+Distress : when there is a reasonable certainty that an aircraft and its occupants 
+are threatened by grave and imminent danger and require immediate assistance.  
+2.5.8.  Airways ' procedures (Airways, 2010b) required that 'except when no doubt exists for the safety 
+of an aircraft and its occupants, an uncertainty phase s hall be declared when … [it is] 
+experiencing hazardous meteorological conditions', and that 'an alert phase shall be declared 
+when … [it] is known or believed to be experiencing impaired operating efficiency to the extent 
+that it is having difficulty in ma intaining height' (p.RAC 7 -6, effective 17 March 2005).  
+2.5.9.  The AIP (Airways, 2010a) defined urgency  as 'a condition concerning the safety of an aircraft, or 
+of some person on board or within sight, but which does not require immediate assistance.   The 
+pilot o f an aircraft reporting an urgency condition must transmit on the air -ground frequency in 
+use at the time the urgency signal PAN PAN , preferably spoken three times, followed by the 
+urgency message ' (p.ENR 1.15 -2, effective 25 November 2004) . 
+2.5.10.  All communicat ions between the incident flights and ATC were conducted on very  
+high-frequency radio that was unaffected by the weather conditions at the time.  Airways staff 
+considered that the traffic density during these occurrences was light.  
+2.6. Additional information  
+2.6.1.  The operator had no direct guidance in its manuals on the planning or conduct of flights in 
+areas where moderate or severe turbulence was observed or forecast.  Final selection of a route 
+and altitude, and the precautions taken enroute, were the prerogativ e of the pilot -in-command.   
+Most  airlines recommend ed avoid ing flight through known or forecast severe turbulence , and 
+larger airline s with specialist flight planning section s might pre -select route s to avoid forecast 
+turbulence (and the potential unplanned diversions) because fuel and load planning were  
+critical.  
+2.6.2.  The reports on the CAA's audits of the operator's Enroute Operations and Management and 
+General Operations from 2005 until 2010 were reviewed .  No findings or observations releva nt 
+to these events were found.  
+2.6.3.  A review of the CAA occurrence database found that about 50 notifications of turbulence, other 
+than wake turbulence, were made between November 2005 and November 2010.  Half of the 
+reports described the encounter as severe, b ut only 2 reports said a PAN call had been made 
+and only one report referred to a SIGMET.  The text of the notifications generally did not provide 
+sufficient information to assess the role of forecasts and flight planning in the occurrences.  
+2.6.4.  The operator's  recurrent training programme for 2010 specified that e ach pilot would be trained  
+in stall identification and recovery in icing and non -icing conditions, and in the identification of 
+and recovery from unusual attitudes in icing conditions  during their 6 -monthly simulator check 
+(Mount Cook, 2009) .  Each pilot performed 2 or 3 recoveries in these sessions . 
+2.6.5.  Some of the involved pilots said that the unusual attitudes in the simulator scenarios were 
+surprisingly similar to those experienced during the  severe tur bulence . 
+ 
+
+<< Page 8 >>
+ Report 10 -001 3. Analysis  
+3.1. Two ATR 72 aeroplanes from the same operator encountered t urbulence 35 minutes apart, in 
+about the same  location but at al titude s separated by 2000 f eet.  The flight loads recorded on 
+the flight data recorders and the difficulty  that the pilots had  briefly in controlling the aeroplane s 
+indicated that the turbulence was severe.   The focus of this inquiry was on the effectiveness of 
+the system for the reporting and updating of severe weather information that could affect 
+aircraft operations . 
+3.2. The operator had made current  weather information available to both crews to enable them to 
+plan their flights .  However, which weather briefings were used could not be confirmed , and it 
+was possible that neither crew was aware of SIGMET s 28 and  31, which direct ly affected  the 
+planned route s and level s of their flights.  Both crews  had expected moderate turbulence to be 
+present along the route , and had therefore  chosen to cruise at flight level  170, above the 
+turbulent level forecast in SIGMET 24 .  That SIGMET was to expire  before NZ5046 departed 
+Christchurch , but the weather situation and the term 'intensity no change' would have alerted 
+the pilots  to the likelihood that the SIGMET would be  re-issued.  
+3.3. There were 3 ways in which a flight crew coul d receive SIGMETs before departure.  The first was 
+from the operator's flight briefing package (usually accessed less than a n hour before 
+departure); the second was from the personal digital assistant device on the aeroplane 10 
+minutes before departure (pr ovided the dispatcher had sent the information); and the third was 
+by the first air traffic controller offering them information that had been received by ATC in the 
+preceding 90 minutes.  
+3.4. Limitations in the operator's dispatch system for updating flight information m ight have been a 
+cause of the c rews not receiving updated weather  information , including SIGMET 28 , after they 
+had completed briefing .  Although the information  was automatically collated , a flight dispatcher 
+had to send it  manually .  However,  the crew of NZ5034 did know  that the preceding  NZ5046 
+had encountered severe turbulence . 
+3.5. The Rules indicated that the responsibility for ensuring that crews had the latest weather 
+informa tion was shared by the operator and  the pilot -in-command , and ATC where an ATC 
+service was provided.  The Airways procedure for providing this information when a pilot made 
+first contact was a useful defence against 'last minute' changes that might affect a flight, and 
+therefore the procedure warranted strict co mpliance.  
+3.6. Had the crew s been a ware of SIGMET 28, even as late as when they were about to taxi for 
+departure, they might have been prompted to revise their flight plan s and might have avoided or 
+reduced the severity of the turbulence  encounters . 
+3.7. The intende d actions of the operator and Airways to improve their respective systems for 
+passing information to flight crews  should ensure that  in future crews receive the most current 
+flight information, including weather warnings, before departure.  
+3.8. The complete  avoidance of flight into an area of forecast severe turbulence was not always 
+practical , because the forecast strength and location of the hazard  were sometimes inaccurate .  
+Hence, pireps were essential to allow MetService and similar agencies to advise of ob served 
+areas of turbulence and to improve their forecasts.  
+3.9. Experience, such as that which the involved pilots had gained from years of flying over the 
+South Island, gave pilots an appropriate level of respect for weather hazards and guided them 
+in route an d flight level selection to minimise their risk s.  For the flights involved, an additional 
+route was available further east of the coast, but it was not requested by either crew.  At the 
+time the y were flight planning, the eastern route might have looked less likely  to be affected by  
+turbulence , although  pireps from south -bound aeroplanes showed it had been similarly 
+affected.  
+3.10.  The report of loose objects on one flight deck suggested pilots should take more care to secure 
+items under their control, just as they expect the cabin and its occupants to be secured.  
+  
+Report 10 -001 
+<< Page 9 >>
+ 3.11.  The use of minimum speed bugs on the airspeed indicator was effective in provid ing the pilots 
+with an immediate cue to the degraded performance and, in the case of NZ5046, to the need to 
+extend flap pr omptly.  In spite of the subsequent unavoidable exceedance of the flap limit 
+speed, extending the flap likely prevented a more extreme upset.  
+3.12.  The suggestions by some of the pilots that the aeroplane s' behaviour during the turbulence w as 
+very similar to that experienced in earlier simulator training proved the value of such training .  
+The pilots' prior experience likely assisted the m to r ecognis e and promptly recover from the 
+upsets  without incurring injury or damage.  
+3.13.  The first controller did not hear the PA N call from NZ5046 , and as PAN was not used when the 
+crew repeated their message, he did not recognise that their  situation was one of urgency.  The 
+crew advised  that they were unable to maintain altitude, but the controller did not clear the 
+flight to dev iate from altitude as required, which would have been the expected response , 
+especially as he had been aware that other aeroplanes had had a similar need during his shift .  
+Rather than show  he understood the situation , the controller acknowledged  the calls from 
+NZ5046 with 'Roger', a term that only means ' I have received all of your last transmission '. 
+3.14.  The passive controlling  contrasted  with th at of the replacement controller  who offered NZ5034 
+some flexibility of route and altitude, and later advised controllers of adjacent sectors that he 
+was increas ing the minimum vertical separation between aeroplanes that could be subjected to 
+altitude excursions.  
+3.15.  Airways required all pireps to be passed to MetService, but the first controller said he decided 
+not t o pass on the pirep from NZ5046  because he had earlier passed on one from an ATR .  The 
+pirep from NZ5046 was also received  at a time when the controller was likely briefing the 
+incoming controller.  The decision to not pass it on did not appear to have affected the 
+timeliness or accuracy of later SIGMET s. 
+3.16.  Airways also required controllers to pass pireps  to other aircraft that could be affected , 
+presumably because one  could not rely on potentially affected pilots overhearing the initial 
+transmission s of pirep s.  However, pireps were not in the AIP list of  information that ATC would 
+pass to aircraft.  I f the AIP page GEN 3.5 w ere amended to i nclud e pireps in the list of in-flight 
+services, pilots might better appreciate the mutual benefit of making reports whenever a severe 
+meteorological phenomenon was encountered.  
+3.17.  Comparison of the MetService pirep log with the issue d SIGMET s showed th at MetService had 
+conformed to its  stated criteria for  the issue and timelines s of SIGMET s. 
+3.18.  The meteorological situation generated turbulence over a wide area of the country, a nd pireps 
+confirmed the general accuracy of the forecasts .  MetService used the pireps to refine the 
+series of SIG METs issued for limited regions and altitude bands, until a point was reached in the 
+early afternoon where  some regions could be combined  and the number of SIGMET s reduced.  
+Hence, SIGMETs 27 and 31 were combined into SIGMET 5.  
+3.19.  It was important that pilots  and flight dispatchers interpreted SIGMET s correctly, because the 
+abbreviated text, although standardised, could be misleading .  For example, in SIGMET 5 it was 
+clear that 'south of Taupo  aerodrome ' included the southern half of the North Island, 
+particul arly with the attached reference to observed severe turbulence near Napier .  However, 
+the SIGMET applied to all of the New Zealand Flight Information Region  and therefore included 
+all of the South Island .  The correct interpretation was not obvious unless one analys ed the 
+sequence of issues and amendments.  
+3.20.  Greater use of plain language, within the constraints of international conventions, would assist 
+in making SIGMET s easier to read .  The Commission made a recommendation to the Director of 
+Civil Aviation t hat he address the safety issue whereby SIGMET s can be misleading or lack 
+clarity because of insufficient reference to  recognisable geographic regions . 
+  
+ 
+
+<< Page 10 >>
+ Report 10 -001 4. Findings  
+ Findings are listed in order of development and not in order of priority.  
+ 
+4.1. An accurate pre-flight  weather briefing package was  provided by MetService and the pilots of 
+both flights made appropriate initial selections of route and flight level  based on th e briefing s 
+that th ey likely used .  However, whether the pilots were  aware of the later issue of SIGMET 28, 
+which  directly af fected the ir plann ed flight s, was not known . 
+4.2. Had the pilots been aware of  SIGMET 28 before departing , the y might have revise d their flight 
+plans an d the turbulence encounters might have been avoided,  or less sever e. 
+4.3. The severe turbulence encounters did not result in any injury because the pilots had anticipat ed 
+moderate turbulence and had instructed their passengers and cabin crew to remain seated.  
+4.4. The dislodging of items in the flight deck of one aer oplane was a reminder to pilots to prepare 
+their flight deck s in the same way that they instruct ed the cabin  to be prepared  for turbulence.  
+4.5. The value of the operator's unusual -attitudes training was proven  by the pilots' prompt 
+recogniti on and recovery from the upsets, which also avoided aeroplane damage.  
+4.6. Although the controller of Flight NZ5046 did not recognise that the flight was in a state of 
+urgency, because he did not hear the pilot call 'P AN', the controller's brief response to the 
+subsequent info rmation that the crew was having difficulty maintaining altitude did little to 
+assist them to manage the severe turbulence event . 
+4.7. The severe turbulence encounters were reported by pilots, as required, to ATC without delay, 
+and post -flight to the operator's  maintenance staff.  
+4.8. The delay in ATC passing the pirep from NZ5046 to MetService had no bearing on the 
+subsequent encounter by NZ5034, but s uggested the procedure within ATC could be improved . 
+4.9. MetService conformed to its stated criteria for the issue and t imeliness of SIGMET s. 
+4.10.  The interpretation of SIGMET s could be improved by clearer  reference to recognisable  
+geographic regions . 
+  
+  
+Report 10 -001 
+<< Page 11 >>
+ 5. Recommendations  
+General  
+5.1. The Commission may issue, or give notice of, recommendations to any person or organisation 
+that it cons iders the most appropriate to address the identified safety issues, depending on 
+whether these safety  issues are applicable to a single operator only or to the wider transport 
+sector.   In this case, a recommendation  has been issued to the Director of Civil  Aviation . 
+5.2. In the interests of transport safety , it is important that recommendation s are  implemented 
+without delay  to help prevent  similar accidents or incidents occurring in the future.  
+Recommendation  
+5.3. On 31 August  2010 , the Commission made a preliminary recommend ation  that t he Director of 
+Civil Aviation address the following safety issue:  
+The interpretation of SIGMET s could be improved by the use of clearer reference 
+to geographical regions, although the requirement to conform to ICAO Standards 
+and Recomm ended Procedures is appreciated  (045/10) . 
+ On 10 September 2010, the Director of Civil Aviation replied , in part : 
+The Authority accepts in principle the proposed safety recommendation.  
+  
+ 
+
+<< Page 12 >>
+ Report 10 -001 6. References  
+Airways New Zealand.  (2010a).   Aeronautical  Information Publication New Zealand.   Retrieved  
+8 January 2010 from http://www.aip.net.nz  
+Airways New Zealand.  (2010b).  Manual of Air Traffic Services.  Wellington: Airways.  
+Honeywell Inc.  (1999).  Primus® 660 digit al weather radar system -pilot's manual.   Phoenix: Honeywell.  
+International Civil Aviation Organization.  (2007a).  Document 4444.  Air traffic management , 15th ed. 
+Montreal.  
+International Civil Aviation Organization.  (2007b).  Annex  3 to the Convention on International Civil 
+Aviation: Meteorological Service for International Air Navigation, 16th ed.  Montreal.  
+Mount Cook Airline.  (2009).  Recurrent training programme 01 -1010.  
+  
+  
+Report 10 -001 
+<< Page 13 >>
+ Appendix  A: Turbulence Reporting Criteria Table  
+Light  Conditions less than moderate turbulence.  Changes in accelerometer readings less 
+than 0.5 G at the aircraft's centre of gravity.  
+ 
+Moderate  Conditions in which moderate changes in aircraft attitude and/or altitude may occur 
+but the aircraft remains in positive control at all times.  Usually, small variations in 
+airspeed.  Changes in accelerometer readings of 0.5 G to 1.0 G at the aircraft's ce ntre 
+of gravity.  Difficulty in walking.  Occupants feel strain against seat belts. Loose objects 
+move about.  
+ 
+Severe  Conditions in which abrupt changes in aircraft attitude and/or altitude occur; aircraft 
+may be out of control for short periods.  Usually, large variations in airspeed.  Changes 
+in accelerometer readings greater than 1.0 G at the aircraft's centre of gravity.  
+Occupants are forced violently against seat belts.  Loose objects are tossed about.  
+ 
+Source: ICAO, 2007 b, appendix 1, p.A1 -4.
+ 
+
+<< Page 14 >>
+ Report 10 -001 Appendix  B: SIGMET issued and PIREP received by MetService, 30 December 2009  
+ 
+WSNZ21 NZKL 291615  
+NZZC SIGMET 19  VALID 
+291615/292015  
+NZKLNZZC  NEW 
+ZEALAND FIR SEV TURB  
+FCST BLW  FL100 ABT/E 
+OF RANGES N  OF 
+NZWS/NZWB S OF 
+NZNP/NZNR  NC WSNZ21 NZKL 291616  
+NZZC SIGMET 20  VALID 
+291616/292016  
+NZKLNZZC  
+NEW ZEALAND FIR SEV 
+TURB  
+FCST BLW FL120 
+ABOUT/E OF  
+RANGES S OF 
+NZNS/NZWB NC    
+WSNZ21 NZKL 291941  
+NZZC SIGMET 23  VALID 
+291941/292341  
+NZKL NZZC   NEW 
+ZEALAND FIR SEV TURB   
+FCST BLW FL100 ABT/E 
+OF RANGES N  OF 
+NZNS/NZWB S OF NZAP 
+NC WSNZ21 NZKL 291944  
+NZZC SIGMET 24  VALID 
+291944/292344  
+NZKLNZZC   NEW 
+ZEALAND FIR SEV 
+TURB   FCST BLW FL140 
+ABT RANGES S OF  
+NZNS/NZWB NC   Two PIREP s at 1035 
+and 1054 NZDT  
+(2135 and 2154 UTC) of 
+wind shear  
+and mod. turb. 30 -40 
+nm north of  
+NZCH  
+WSNZ21 NZKL 292247  
+NZZC SIGMET 29  VALID 
+292247/300247  
+NZKLNZZC   NEW 
+ZEALAND FIR SEV TURB  
+FCST BLW FL100 ABT/E 
+OF RANGES N  OF 
+NZNS/NZWB S OF NZAP 
+NC NZZC SIGMET 27  VALID 
+292239/300239  
+NZKLNZZC  
+NEW ZEALAND FIR SEV 
+TURB  
+FCST BLW FL160 ABT 
+RANGES S OF  
+NZNS/NZWB NC  WSNZ21 NZKL 292244  
+NZZC SIGMET 28  VALID 
+292244/300244  
+NZKLNZZC   NEW 
+ZEALAND FIR SEV TURB  
+OBS AT 2230Z 84NM SW OF 
+NZCH BTN  FL180/200 FCST 
+SEV TURB FL160/240 SE  OF 
+NZKI/NZMC/NZMO MOV 
+NE 30KT NC  PIREP at 1133 NZDT 
+(2233 UTC)  
+about sev. turb. 84nm 
+SW of NZCH  
+mentioned in SIGMET 
+28 
+WSNZ21 NZKL 292305  
+NZZC SIGMET 31  VALID 
+292305/300305  
+NZKLNZZC   NEW 
+ZEALAND FIR SEV TURB  
+OBS AT 2300Z 25NM SW 
+OF NZNR AT  FL160 FCST 
+SEV TURB BLW FL160 
+ABT  RANGES N OF 
+NZNS/NZWB S OF  NZAP 
+NC   PIREP at 1202 NZDT 
+(2302 UTC)  
+about sev. downdrafts 
+25nm SW of  
+NZNR mentioned in 
+SIGMET 31.  
+PIREP at 1215 NZDT 
+(2315 UTC) of  
+sev. turb. 40 -50nm W of 
+NZCH  
+corroborates SIGMET 
+28 
+WSNZ21 NZKL 300027  
+NZZC SIGMET 5  VALID 
+300027/300427  
+NZKLNZZC   NEW 
+ZEALAND FIR SEV TURB  
+OBS AT 2300Z 25NM SW 
+OF NZNR AT  FL160 FCST 
+SEV TURB BLW FL160 
+ABT  RANGES S OF NZAP 
+NC  WSNZ21 NZKL 300027  
+NZZC SIGMET 4  VALID 
+300027/300427  
+NZKLNZZC   NEW 
+ZEALAND FIR SEV TURB  
+OBS AT 2230Z 84NM SW OF 
+NZCH BTN  FL180/200 FCST 
+SEV TURB FL160/240 SE  OF 
+NZKI/NZMC/NZMO MOV 
+NE 30KT  
+NC PIREP at 1340 NZDT 
+(0040 UTC)  
+of sev. turb. 50nm N of 
+NZCH  
+corroborates SIGMET 
+4. 
+PIREPs at 1425, 1447 
+NZDT (0125,  
+0147 UTC) of sev. turb.  
+NZCH  / Kaikoura 
+corroborates  SIGMET 
+4. 
+PIREP at 1448 NZDT 
+(0148 UTC) of  
+mod. turb. near NZCH.   
+PIREP at 1633 NZDT 
+(0333 UTC) of  mod. to 
+sev. turb. near NZWB 
+and NZWN.  
+ 
+ 
+WSNZ21 NZKL 300420  
+NZZC SIGMET 9  VALID WSNZ21 NZKL 300422  
+NZZC SIGMET 10  VALID WSNZ21 NZKL 300413  
+NZZC SIGMET 8  VALID PIREPs at 1831 and 
+1835 NZDT (0531  
+  
+Report 10 -001 
+<< Page 15 >>
+ 300420/300820  
+NZKLNZZC  
+NEW ZEALAND FIR 
+FCST SEV  
+TURB BLW FL160 ABT/E 
+RANGES S OF  
+NZNP/NZGS NC  300422/300822  
+NZKLNZZC  
+NEW ZEALAND FIR SEV 
+TURB  
+FCST BLW 8000FT 
+ABOUT/E RANGES  
+NZNP/NZGS TO NZAA 
+NC 300413/300813  
+NZKLNZZC  
+NEW ZEALAND FIR FCST 
+SEV 
+TURB FL160/220 ABOUT/E 
+SOUTH  
+ISLAND RANGES N OF 
+NZWF MOV NE  
+20KT NC  and 0535 UTC) 
+corroborates SIGMET  
+8. 
+ 
+  
+  
+  
+ 
+  
+ 
+ 
+Recent Aviation Occurrence Reports published by  
+the Transport Accident Investigation Commission  
+(most recent at top of list)  
+ 
+09-002 ZK-DGZ, Airborne XT -912, 9 February 2009,  and commercial microlight aircraft 
+operations  
+ 
+10-009 Interim Factual: Cessna C152 ZK -JGB and Cessna C152 ZK -TOD, mid -air collision, 
+near Feilding, Manawatu, 26 July  2010  
+09-007 Piper PA32 -260, ZK -CNS, impact with ground following a loss of control after take -
+off, near Claris, Great Barrier Island, 29 September 2009  
+09-005 Cessna 182N ZK -FGZ  and Bombardier DHC -8 Q311 ZK-NEF ,  
+loss o f separation and near collision, Mercer , 40 km south of Auckland , 9 August 
+2009   
+ 
+08-007 Robinson Helicopter Company , R22 Alpha  ZK-HXR, loss of control,   
+Lake Wanaka, 1 November 2008  
+ 
+09-006 Cessna 207, ZK-DEW  aircraft starting incident resulting in runway incursion, 
+Queenstown Aerodrome. 5 September 2009   
+09-004 Britten Norman BN2A -Mk III Trislander , ZK-LOU  loss of engine propeller 
+assembly , near Claris, Great Barrier Island , 5 July 2009  
+08-005 Kawasaki -Hughes 369D , ZK-HWE , un-commanded yaw and loss of control , Maori 
+Saddle, near Haast, Westland , 11 August 2008  
+08-001 Cessna 152 ZK -ETY and  Robinson R22 ZK -HGV, mid -air collision, Paraparaumu, 
+17 February 2008  
+07-006 Hawker Beechcraft Corporation 1900D, ZK-EAK , landing gear malfunction and 
+subsequent wheels -up landing, Woodbourne Aerodrome, Blenheim, 18 June 2007  
+07-010 Fletcher FU24 -950, ZK-DZG , in-flight vertical fin failure, loss of control and ground 
+impact , 5 kilometres west of Whangarei  (Pukenui Forest) , 22 November 2005  
+07-011 Cessna A152 Aerobat, ZK-KID, impact with terrain, Te Urewera National Park, 23 
+kilometres south -east of Murupara, 26 October 2007  
+07-012 Fletcher FU24 -950EX, ZK -EGV, collision with terrainnear Opotiki, 10 
+November 2007  
+ 
+   
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Price $ 24.00                                      ISSN 1179 -9080 (Print)
+        ISSN 1179 -9099 (Online)  
+ 
