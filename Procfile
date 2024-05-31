@@ -1,1 +1,1 @@
-web: pip install poetry && poetry install && poetry run viewer
+web: pip install poetry && poetry install --without dev && poetry run viewer

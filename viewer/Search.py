@@ -39,9 +39,21 @@ class Searcher:
 
         self.output_config = self.config['output']
 
+        self.config = Config.configReader.get_config()['engine']
+
+        self.output_config = self.config['output']
+
         self.input_dir = os.path.join("viewer", self.output_config.get("folder_name"))
         self.themes = Themes.ThemeReader(self.input_dir).get_theme_titles()
         self.summary = pd.read_csv(os.path.join(self.input_dir, self.output_config.get("summary_file_name")))
+
+        csv_file_path = os.path.join(self.input_dir,
+                                     self.output_config.get("recommendation_responses_file_name"))
+        
+        if not os.path.exists(csv_file_path):
+            raise RuntimeError(f"Could not find recommendation responses file at {csv_file_path}")
+        
+        self.all_recommendations = pd.read_csv(csv_file_path)
 
     def search(self, query: str, settings, theme_ranges, theme_group_ranges, transport_modes, year_range) -> pd.DataFrame:
         reports = []
@@ -100,21 +112,20 @@ class Searcher:
                     safety_issues = yaml.safe_load(f)
 
             report_recommendations = self.get_recommendations(dir)
+
+            links_file = None
+
+            if not len(report_recommendations) == 0:
             
-            links_file_path = os.path.join(
-                self.input_dir,
-                self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir),
-                self.output_config.get("reports").get("recommendation_safety_issue_links_file_name").replace(r'{{report_id}}', dir))
+                links_file_path = os.path.join(
+                    self.input_dir,
+                    self.output_config.get("reports").get("folder_name").replace(r'{{report_id}}', dir),
+                    self.output_config.get("reports").get("recommendation_safety_issue_links_file_name").replace(r'{{report_id}}', dir))
+                
+                if os.path.exists(links_file_path):
 
-            links_visual_file = self.get_links_visual_path(dir)
+                    links_file = pd.read_csv(links_file_path)
 
-            if not os.path.exists(links_file_path):
-                print(f"  Could not find {links_file_path} for {dir}, skipping report.")
-                links_file = None
-            else:
-                print(f"  Found {links_file_path} for {dir}, loading links")
-
-                links_file = pd.read_csv(links_file_path)
 
                 
             report_row = {
@@ -127,7 +138,7 @@ class Searcher:
                 "Recommendations": str(len(report_recommendations)),
                 "CompleteRecommendations": report_recommendations,
                 "Completelinks": links_file,
-                "linksVisual": os.path.exists(links_visual_file)
+                "linksVisual": os.path.exists(self.get_links_visual_path(dir))
             }
 
             inside_theme_range = True
@@ -307,40 +318,30 @@ class Searcher:
 
         safety_issues_path = os.path.join(report_dir, self.output_config.get("reports").get("safety_issues").replace(r'{{report_id}}', report_id))
 
-        formatted_SI = ""
-
         if not os.path.exists(safety_issues_path):
-            formatted_SI =  "No safety issues found for this report. This may be because none were identified in the report or due to problems when extracting them."
-    
+            return "No safety issues found for this report. This may be because none were identified in the report or due to problems when extracting them."
+
         with open(safety_issues_path, "r") as f:
             safety_issues = yaml.safe_load(f)
-
-        if len(safety_issues) == 0:
-            return formatted_SI
         
-        formatted_SI = "<br><br>".join([x['safety_issue'] for x in safety_issues])
+        return "\n".join([f"* {issue['safety_issue']} (with indicated quality - {issue['quality']})" for issue in safety_issues])
 
-        quality = safety_issues[0]['quality']
-
-        formatted_SI += f"<br><br>These issues have been identified in the report as {quality}."
-        
-        return formatted_SI
             
     def get_recommendations(self, report_id):
         """
         Reads the reports recommendations from a csv file and return a string
         """
-        csv_file_path = os.path.join(self.input_dir,
-                                     self.output_config.get('reports').get('folder_name').replace(r'{{report_id}}', report_id),
-                                     self.output_config.get("reports").get("recommendations_file_name").replace(r'{{report_id}}', report_id))
-        
-        if not os.path.exists(csv_file_path):
-            print(f"  Could not find {csv_file_path} for {report_id}, skipping report.")
-            return []
-        
-        reports_recommendation = pd.read_csv(csv_file_path)['recommendation'].tolist()
+        reports_recommendation = self.all_recommendations[self.all_recommendations["report_id"] == report_id]
 
-        return reports_recommendation
+        if len(reports_recommendation) == 0:
+            print(f"  Could not find recommendations for report {report_id}")
+            return []
+
+        recommendation_text_list = []
+        for index, row in reports_recommendation.iterrows():
+            recommendation_text_list.append(f"==Recommendation ({row['recommendation_id']})== \n'''\n{row['recommendation']}\n'''\nThis recommendation is directed at {row['recipient']} and was {row['response_category']} (quality: {row['response_category_quality']})\nResponse: {row['reply_text']}")
+
+        return recommendation_text_list
 
     def get_links_visual_path(self, report_id):
         report_dir = os.path.join(

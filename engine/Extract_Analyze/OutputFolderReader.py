@@ -1,6 +1,7 @@
 import os
 from .. import Config, Modes
 import regex as re
+from tqdm import tqdm
 class OutputFolderReader:
     def __init__(self, output_folder = None):
         self.output_config = Config.ConfigReader().get_config()['engine']['output']
@@ -38,14 +39,14 @@ class OutputFolderReader:
             r'{{report_id}}', report_id))
 
             if not os.path.exists(text_path):
-                print(f"  Could not find {text_path} for {report_id}, skipping report.")
+                tqdm.write(f"  Could not find {text_path} for {report_id}, skipping report.")
                 break
             
             with open(text_path, 'r', encoding='utf-8', errors='replace') as f:
                 retrieved_text = f.read()
 
             if len(retrieved_text) < 5:
-                print(f"  Text file for {report_id} is too short, skipping report.")
+                tqdm.write(f"  Text file for {report_id} is too short, skipping report.")
                 break
 
             retrieved_files.append(retrieved_text)
@@ -54,7 +55,7 @@ class OutputFolderReader:
     
     def _read_file_from_each_report_dir(self, file_name_templates: list[str] | str, processing_function, filter_report = lambda report_id: True):
 
-        for report_dir, report_id in zip(self._get_report_dirs(), self._get_report_ids()):
+        for report_dir, report_id in tqdm(zip(self._get_report_dirs(), self._get_report_ids())):
 
             if not filter_report(report_id):
                 continue
@@ -64,7 +65,6 @@ class OutputFolderReader:
             retrieved_files = self.__get_requested_files(report_dir, report_id, file_name_templates)
 
             if len(retrieved_files) != len(file_name_templates):
-                print(f" Could not find all files for {report_id}, skipping report.")
                 continue
 
 
@@ -97,7 +97,8 @@ class OutputFolderReader:
         self.process_reports_with_specific_files(processing_function, ["weightings_file_name"])
 
     def process_reports(self, processing_function, modes = Modes.all_modes):
-        self.process_reports_with_specific_files(processing_function, ["full_summary_file_name"], lambda report_id: Modes.get_report_mode_from_id(report_id) in modes)
+        self.process_reports_with_specific_files(processing_function, ["text_file_name"], lambda report_id: Modes.get_report_mode_from_id(report_id) in modes)
 
 
         
+

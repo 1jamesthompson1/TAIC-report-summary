@@ -22,7 +22,6 @@ class RecommendationSafetyIssueLinker:
         Create a picture that shows both the recommendations and the safety issues fro a report. There will be arrows showing the link between the two.
         '''
         # Create a directed graph
-        print("Creating visualization")
         G = nx.DiGraph()
 
         NODE_WIDTH = 50
@@ -115,8 +114,6 @@ class RecommendationSafetyIssueLinker:
         return 'undetermined'
     
     def _evaluate_all_possible_links(self, report_id, recommendations, safety_issues):
-
-        print(" Evaluating links for report " + report_id)
         
         recommendations = pd.read_csv(io.StringIO(recommendations))
         safety_issues = pd.DataFrame(yaml.safe_load(safety_issues))
@@ -150,7 +147,7 @@ class RecommendationSafetyIssueLinker:
 
     def evaluate_links_for_report(self):
         
-        print("  Linking recommendations with safety issues")
+        print("  Linking recommendations with extracted safety issues")
 
         output_folder_reader = OutputFolderReader()
 
@@ -175,10 +172,9 @@ class RecommendationSafetyIssueLinkUpgrader:
         unlinked_recommendations = self.find_unlinked_recommendations(df)
 
         if unlinked_recommendations.shape[0] == 0:
-            print("No unlinked recommendations found. No upgrades needed.")
             return df
 
-        print(f"There are {unlinked_recommendations.drop_duplicates(['report_id', 'recommendation']).shape[0]} unlinked recommendations. This is {unlinked_recommendations.drop_duplicates(['report_id', 'recommendation']).shape[0]/df.drop_duplicates(['report_id', 'recommendation']).shape[0]*100:.2f}% of all recommendations.")
+        # print(f"There are {unlinked_recommendations.drop_duplicates(['report_id', 'recommendation']).shape[0]} unlinked recommendations. This is {unlinked_recommendations.drop_duplicates(['report_id', 'recommendation']).shape[0]/df.drop_duplicates(['report_id', 'recommendation']).shape[0]*100:.2f}% of all recommendations.")
 
         # Find which links should be upgraded
         link_to_upgrade = unlinked_recommendations[unlinked_recommendations['link'] == "Possible"]
@@ -202,9 +198,9 @@ class RecommendationSafetyIssueLinkUpgrader:
         
         num_upgraded_links = new_confirmed_links - old_confirmed_links
 
-        print(f"{num_upgraded_links} links were upgraded.\n This represents {num_upgraded_links/df.shape[0]*100:.2f}% of all links and {num_upgraded_links/df[df['link'] == 'Possible'].shape[0]*100:.2f}% of possible links.")
+        # print(f"{num_upgraded_links} links were upgraded.\n This represents {num_upgraded_links/df.shape[0]*100:.2f}% of all links and {num_upgraded_links/df[df['link'] == 'Possible'].shape[0]*100:.2f}% of possible links.")
 
         still_unlinked_recommendations = self.find_unlinked_recommendations(upgraded_df).drop_duplicates(['report_id', 'recommendation'])[["report_id", "recommendation"]]
-        print(f"After performing the upgrading there are still {still_unlinked_recommendations.shape[0]} unlinked recommendations which is {still_unlinked_recommendations.shape[0]/df.drop_duplicates(['report_id', 'recommendation']).shape[0]*100:.2f}% of all recommendations.")
+        # print(f"After performing the upgrading there are still {still_unlinked_recommendations.shape[0]} unlinked recommendations which is {still_unlinked_recommendations.shape[0]/df.drop_duplicates(['report_id', 'recommendation']).shape[0]*100:.2f}% of all recommendations.")
 
         return upgraded_df

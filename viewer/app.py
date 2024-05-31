@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, send_file
+from flask import Flask, render_template, request, jsonify, send_file, Markup
 from urllib.parse import parse_qs
 import json
 import os
@@ -7,6 +7,9 @@ from . import Search, ReportCreation
 from threading import Thread
 from werkzeug.wsgi import FileWrapper
 import tempfile
+import pandas as pd
+
+import base64
 import pandas as pd
 
 import base64
@@ -106,6 +109,10 @@ def format_search_results(results):
 
     results['linksVisual'] = results.apply(lambda row: f'<a href="#" class="links-visual-link" data-report-id="{row["ReportID"]}">Visualization of recommendation and safety issue links</a>' if row['linksVisual'] else 'No links to show', axis=1)
 
+    results['Recommendations'] = results.apply(lambda row: f'<a href="#" class="recommendations-link" data-report-id="{row["ReportID"]}">{row["Recommendations"]}</a>', axis=1)
+
+    results['linksVisual'] = results.apply(lambda row: f'<a href="#" class="links-visual-link" data-report-id="{row["ReportID"]}">Visualization of recommendation and safety issue links</a>' if row['linksVisual'] else 'No links to show', axis=1)
+
     for theme in searcher.themes + ["Other"]:
         results[theme] = results.apply(lambda row: f'<a href="#" class="weighting-link" data-report-id="{row["ReportID"]}" data-theme="{theme}">{row[theme]}</a>', axis=1)
 
@@ -157,7 +164,7 @@ def get_safety_issues():
 
     safety_issues += "<br><br><em>These safety issues are identified using a LLM model this means that they could not be 100% accurate.</em>"
 
-    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues})
+    return jsonify({'title': f"Safety issues for {report_id}", 'main': safety_issues.replace('\n', '<br>')})
 
 @app.route('/get_recommendations', methods=['GET'])
 def get_recommendations():
@@ -165,7 +172,7 @@ def get_recommendations():
 
     recommendations = Search.Searcher().get_recommendations(report_id)
 
-    main_text = "<br><br>".join(recommendations) if len(recommendations) > 0 else "No recommendations found"
+    main_text = "<br><br>".join(recommendations).replace('\n', '<br>') if len(recommendations) > 0 else "No recommendations found"
 
     return jsonify({'title': f"Recommendations for {report_id}", 'main': main_text})
 
@@ -231,6 +238,15 @@ def send_csv_file(df, name):
     # Send the file
     return send_file(temp.name, as_attachment=True, download_name=name)
 
+def send_csv_file(df, name):
+    temp = tempfile.NamedTemporaryFile(suffix='.csv', delete=False)
+
+    # Write the CSV data to the file
+    df.to_csv(temp.name, index=False)
+
+    # Send the file
+    return send_file(temp.name, as_attachment=True, download_name=name)
+
 @app.route('/get_results_as_csv', methods=['POST'])
 def get_results_as_csv():
     search_data = get_search(request.form)
@@ -247,8 +263,6 @@ def get_si_recs_links_as_csv():
     search_results = Search.Searcher().search(*search_data)
 
     recommendations = search_results['Completelinks'].tolist()
-
-    print(recommendations)
 
     all_recommendations = pd.concat(filter(lambda x: x is not None, recommendations), axis=0)
 

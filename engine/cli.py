@@ -25,7 +25,7 @@ def download_extract(output_dir, config, modes, refresh):
                                 modes,
                                 refresh).download_all()
 
-    # Extract the text from the PDFs
+    # Extract the text from the PDFsconfig
     PDFParser.convertPDFToText(output_dir,
                                 reports_config.get('pdf_file_name'),
                                 reports_config.get('text_file_name'),
@@ -33,18 +33,16 @@ def download_extract(output_dir, config, modes, refresh):
                                 refresh)
     
     RecommendationSplitting.split_recommendations(config)
-    
 
 def safety_issue_and_recommendations(output_dir, config, refresh):
 
     reports_config = config.get('output').get('reports')
 
-    # ReportExtracting.ReportExtractingProcessor(output_dir,
-    #                                            reports_config.get('folder_name'),
-    #                                               reports_config.get('safety_issues'),
-    #                                               refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
+    ReportExtracting.ReportExtractingProcessor(output_dir,
+                                               reports_config,
+                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
     
-    # RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
+    RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
 
     RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(
             os.path.join(
@@ -55,7 +53,8 @@ def safety_issue_and_recommendations(output_dir, config, refresh):
             os.path.join(
                 output_dir,
                 config.get('output').get('recommendation_responses_file_name')
-            )
+            ),
+            (config.get('download').get('start_year'), config.get('download').get('end_year'))
         )
     
 
@@ -92,7 +91,7 @@ def cli():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
     parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
-    parser.add_argument("-t", "--run_type", choices=["download", "safety_issues_and_recommendations", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extraact the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validation check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
+    parser.add_argument("-t", "--run_type", choices=["download", "safety_issues_and_recommendations", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extract the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validation check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
     parser.add_argument("-p", "--predefined", help="Use predefined themes that will be used for the summarize weightings. The predefined themes must follow a psecifc format, be in the outputfolder and be called predefined_themes.yaml (or whatever the config.yaml file is set it as). It will also skip the themes step if you run all.", action="store_true", default=False)
     parser.add_argument("-m", "--modes", choices=["a", "r", "m"], nargs="+", help="The modes of the reports to be processed. a for aviation, r for rail, m for marine. Defaults to all.", default=["a", "r", "m"])
 
