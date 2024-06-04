@@ -23,6 +23,7 @@ def download_extract(output_dir, config, modes, refresh):
                                 download_config.get('end_year'),
                                 download_config.get('max_per_year'),
                                 modes,
+                                config.get('download').get('ignored_reports'),
                                 refresh).download_all()
 
     # Extract the text from the PDFsconfig
