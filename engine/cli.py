@@ -41,7 +41,7 @@ def safety_issue_and_recommendations(output_dir, config, refresh):
 
     ReportExtracting.ReportExtractingProcessor(output_dir,
                                                reports_config,
-                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
+                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir), config.get('output').get('all_safety_issues'))
     
     RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
 

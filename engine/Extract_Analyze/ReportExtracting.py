@@ -637,7 +637,9 @@ class ReportExtractingProcessor:
 
         si_df = pd.DataFrame(all_safety_issues)
 
-        print(all_safety_issues)
+        # Add id to safety issues. This sohuld be report_id + safety issue number
+        si_df['safety_issue_id'] = si_df['report_id'] + "_" + si_df.groupby('report_id').cumcount().astype(str)
+
 
         si_df.to_csv(os.path.join(self.output_dir, output_file), index=False)
 
