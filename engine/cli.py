@@ -23,6 +23,7 @@ def download_extract(output_dir, config, modes, refresh):
                                 download_config.get('end_year'),
                                 download_config.get('max_per_year'),
                                 modes,
+                                config.get('download').get('ignored_reports'),
                                 refresh).download_all()
 
     # Extract the text from the PDFsconfig
@@ -40,7 +41,7 @@ def safety_issue_and_recommendations(output_dir, config, refresh):
 
     ReportExtracting.ReportExtractingProcessor(output_dir,
                                                reports_config,
-                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir))
+                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir), config.get('output').get('all_safety_issues'))
     
     RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
 

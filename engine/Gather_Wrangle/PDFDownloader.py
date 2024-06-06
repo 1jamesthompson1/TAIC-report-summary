@@ -11,7 +11,7 @@ class ReportDownloader:
     Class that will take the output templates and download all the reports from the TAIC website
     These reports can be found manually by going to https://www.taic.org.nz/inquiries
     """
-    def __init__(self, output_dir, report_dir_template, file_name_template, start_year, end_year, max_per_year, modes: list[Modes.Mode], refresh):
+    def __init__(self, output_dir, report_dir_template, file_name_template, start_year, end_year, max_per_year, modes: list[Modes.Mode], ignored_report_ids: list[str], refresh):
         self.output_dir = output_dir
         self.report_dir_template = report_dir_template
         self.file_name_template = file_name_template
@@ -20,6 +20,7 @@ class ReportDownloader:
         self.max_per_year = max_per_year
         self.modes = modes
         self.refresh = refresh
+        self.ignored_report_ids = ignored_report_ids
 
     def download_all(self):
         print("Downloading reports from TAIC website with config: ")
@@ -29,6 +30,7 @@ class ReportDownloader:
         print(f"  Start year: {self.start_year},  End year: {self.end_year}")
         print(f"  Max reports per year: {self.max_per_year}")
         print(f"  Modes: {self.modes}")
+        print(f"  Ignoring report ids: {self.ignored_report_ids}")
 
         # Create a folder to store the downloaded PDFs
         if not os.path.exists(self.output_dir):
@@ -53,6 +55,8 @@ class ReportDownloader:
             for i in id_range:
                 url = base_url.format(mode.name, year, i)
                 report_id = f"{year}_{i}"
+                if report_id in self.ignored_report_ids:
+                    continue
                 outcome = self.download_report(report_id, url)
                 if outcome == "End of reports for this year":
                     print(" Reached end of reports for this year")

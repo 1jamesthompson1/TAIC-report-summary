@@ -47,7 +47,7 @@ class OpenAICaller:
                 {"role": "system", "content": system},
                 {"role": "user", "content": user}
             ],
-            temperature=temp, n = n,
+            temperature=temp, n = n, seed = 42
             )
         except openai.BadRequestError as e:
             print(f'Too many tokens in request OpenAI declined:\n {e}')
