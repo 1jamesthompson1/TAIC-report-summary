@@ -18,3 +18,4 @@ notebooks/*/*
 # Always include igniore files
 
 !.gitignore
+.vscode/settings.json
