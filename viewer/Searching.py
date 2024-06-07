@@ -83,6 +83,17 @@ class SearchResult:
     def getContext(self) -> pd.DataFrame:
         return self.context
     
+    def getContextCleaned(self) -> pd.DataFrame:
+        """
+        This method retrieves the context dataframe and makes sure that it has a standard format.
+        """
+        context_df = self.getContext().copy()
+
+        context_df.rename(columns = {'si': 'safety_issue', '_distance': 'relevance'}, inplace = True)
+        context_df['relevance'] = 1- context_df['relevance'] 
+
+        context_df = context_df[['relevance', 'report_id', 'safety_issue_id', 'safety_issue', 'year']]
+        return context_df
     def getSummary(self) -> str | None:
         return self.summary
 
@@ -96,6 +107,13 @@ class Searcher:
         self.vo = voyageai.Client()
 
     def search(self, search: Search, with_rag = True) -> SearchResult:
+
+        if search.getQuery() == "":
+            return SearchResult(
+                self.si_table.search().limit(None).to_pandas().assign(relevance=1),
+                "Not applicable as no query was given"
+            )
+
         if with_rag:
             return RAG().rag_search(search.getQuery(), self.safety_issue_search_with_report_relevance)
         else:
@@ -132,9 +150,9 @@ class Searcher:
 
     def safety_issue_search_with_report_relevance(self, query: str) -> pd.DataFrame:
         
-        report_sections_search = lambda query, limit = 100, type = 'vector': self._table_search(query = query, table = self.report_sections_table, limit = limit, type = type)
-        report_sections_search_results = report_sections_search(query, limit = 50000, type = 'fts')
+        report_sections_search_results = self._table_search(query = query, table = self.report_sections_table, limit = 5000, type = 'fts')
 
+        print(report_sections_search_results)
         reports_relevance =  report_sections_search_results.groupby('report_id').head(50).groupby('report_id')['section_relevance_score'].mean().sort_values(ascending=False).to_dict()
 
         safety_issues_search = lambda query, limit: self.si_table.search(self._embed_query(query)) \

@@ -8,41 +8,14 @@ $(document).ready(function() {
         $.post('/search', $('form').serialize(), function(data) {
             // Update the results placeholder with the received HTML table
             updateResults(data.html_table);
-            $('#searchResultsHeader').show();
+            updateSummary(data.summary);
+            $('#searchResults').show();
             // Hide the loading sign after results are loaded
             $('#loading').hide();
             
         });
     });
 
-    $('#downloadResultsSummary').click(function() {
-        $('#loading').show();   
-
-        var formData = $('form').serialize();
-        $.ajax({
-            type: 'POST',
-            url: '/get_results_summary_report',
-            data: formData,
-            success: function(data) {
-                checkResult();
-            }
-        });
-    });
-    
-    function checkResult() {
-        $.ajax({
-            type: 'GET',
-            url: '/get_result',
-            success: function(data, status, xhr) {
-                if (xhr.status === 202) {
-                    setTimeout(checkResult, 1000);
-                } else {
-                    $('#loading').hide();
-                    window.location.href = '/get_result';
-                }
-            }
-        });
-    }
     $('[id^="downloadCSVBtn"]').click(function() {
         var actionUrl = $(this).attr('id').replace('downloadCSVBtn', '/get') + '_as_csv';
         downloadCSV(actionUrl);
@@ -76,17 +49,6 @@ $(document).ready(function() {
     });
 });
 
-$(document).on('click', '.showIndividualThemeSlidersBtn', function() {
-    $(this).siblings('.indivudalThemeSliders').toggle();
-
-    if ($(this).text() == 'Expand to individual themes') {
-        $(this).text('Collapse to theme group');
-    }
-    else {
-        $(this).text('Expand to individual themes');
-    }
-});
-
 function downloadCSV(actionUrl) {
     var formData = $('form').serialize();
     var form = $('<form>', {
@@ -118,7 +80,7 @@ function createYearSlider() {
             $(this).children('.ui-slider-handle').each(function(i) {
                 $(this).append($('<div>').addClass('handle-value').text($("#yearSlider").slider('values', i)));
             });
-            // Update the hidden inputs with the slider values
+           // Update the hidden inputs with the slider values
             $minInput.val($("#yearSlider").slider('values', 0));
             $maxInput.val($("#yearSlider").slider('values', 1));
         },
@@ -134,104 +96,8 @@ function createYearSlider() {
         }
     });
 }
-
-function createThemeSliders() {
-    $.get('/get_theme_groups', (data) => {
-        const themeGroups = data.themeGroups;
-        const $themeSliders = $('#themeSliders');
-    
-        // Create a range slider for each theme title
-        themeGroups.forEach((group) => {
-            const $groupDiv = $('<div>').addClass('theme-group');
-            const $groupLabel = $('<label>').text(group.title).addClass('theme-group-label');
-
-            // Add overall group slider
-            const $div = $('<div>').attr({ id: `theme-group-slider-${group.title}` }).addClass('slider');
-            const $sliderWrapper = $('<div>').addClass('slider-wrapper theme-group-slider-wrapper');
-
-            $div.slider({
-                range: true,
-                min: 0,
-                max: 100,
-                values: [0, 100],
-                create: function() {
-                    // Add divs to the handles
-                    $(this).children('.ui-slider-handle').each(function(i) {
-                        $(this).append($('<div>').addClass('handle-value').text($div.slider('values', i)));
-                    });
-                },
-                slide: function(_, ui) {
-                    // Update the text of the handle divs
-                    $(this).children('.ui-slider-handle').each(function(i) {
-                        $(this).children('.handle-value').text(ui.values[i]);
-                    });
-            
-                    // Update the hidden inputs with the slider values
-                    $minInput.val(ui.values[0]);
-                    $maxInput.val(ui.values[1]);
-                }
-            });
-
-            const $minInput = $('<input>').attr({ type: 'hidden', name: `theme-group-${group.title}-min` });
-            const $maxInput = $('<input>').attr({ type: 'hidden', name: `theme-group-${group.title}-max` });
-
-            $minInput.val($div.slider('values', 0));
-            $maxInput.val($div.slider('values', 1));
-            $sliderWrapper.append($div, $minInput, $maxInput);
-            $groupDiv.append($groupLabel, $sliderWrapper);
-
-            const $themeSlidersDiv = $('<div>').addClass('indivudalThemeSliders')
-
-            const $expandButton = $('<button>').addClass('showIndividualThemeSlidersBtn').text('Expand to individual themes').attr({ type: 'button' });
-
-            group.themes.forEach((title) => {
-                const $label = $('<label>').text(title).addClass('slider-label');
-
-
-                const $div = $('<div>').attr({ id: `theme-${title}` }).addClass('slider');
-                const $sliderWrapper = $('<div>').addClass('slider-wrapper');
-
-                const $minInput = $('<input>').attr({ type: 'hidden', name: `theme-${title}-min` });
-                const $maxInput = $('<input>').attr({ type: 'hidden', name: `theme-${title}-max` });
-        
-                $sliderWrapper.append($label, $div, $minInput, $maxInput);
-                $themeSlidersDiv.append($sliderWrapper);
-
-        
-                // Initialize the range slider
-                $div.slider({
-                    range: true,
-                    min: 0,
-                    max: 100,
-                    values: [0, 100],
-                    create: function() {
-                        // Add divs to the handles
-                        $(this).children('.ui-slider-handle').each(function(i) {
-                            $(this).append($('<div>').addClass('handle-value').text($div.slider('values', i)));
-                        });
-                    },
-                    slide: function(_, ui) {
-                        // Update the text of the handle divs
-                        $(this).children('.ui-slider-handle').each(function(i) {
-                            $(this).children('.handle-value').text(ui.values[i]);
-                        });
-                
-                        // Update the hidden inputs with the slider values
-                        $minInput.val(ui.values[0]);
-                        $maxInput.val(ui.values[1]);
-                    }
-                });
-                
-                // Set text and hidden input to default value
-                $minInput.val($div.slider('values', 0));
-                $maxInput.val($div.slider('values', 1));
-
-            });
-
-            $groupDiv.append($expandButton,$themeSlidersDiv);
-            $themeSliders.append($groupDiv);
-        });
-    });
+function updateSummary(summary) {
+    $('#searchResultsSummaryText').html(marked.parse(summary));
 }
 
 function updateResults(htmlTable) {
@@ -242,10 +108,7 @@ function updateResults(htmlTable) {
         fixedHeader: true,
         paging: false,
         searching: false,
-        order: [1, 'desc'],
-        columnDefs: [
-            { targets: 2, orderable: false }
-        ]
+        order: [[0, 'desc']],
     });
 }
 // -----   Popups on results table ----- //
@@ -267,54 +130,7 @@ function closeModal() {
 }
 
 $(document).ready(function() {     
-    $(document).on('click', '.no-matches-link', function() {    
-        var reportId = $(this).data('report-id');
-        var formData = $('#searchForm').serialize();
-         
-        $.get('/get_report_text', {report_id: reportId, form: formData}, function(data) {
 
-            openReportPopup(data);
-        })
-        return false;
-    });
-
-    $(document).on('click', '.weighting-link', function() {
-        var reportId = $(this).data('report-id');
-        var theme = $(this).data('theme');
-
-        $.get('/get_weighting_explanation', {report_id: reportId, theme: theme}, function(data) {
-            openReportPopup(data);
-        })
-        return false
-    });
-
-    $(document).on('click', '.theme-summary-link', function() {
-        var reportId = $(this).data('report-id');
-
-        $.get('/get_theme_text', {report_id: reportId}, function(data) {
-            openReportPopup(data);
-        })
-        return false
-    });
-
-    $(document).on('click', '.safety-issues-link', function() {
-        var reportId = $(this).data('report-id');
-
-        $.get('/get_safety_issues', {report_id: reportId}, function(data) {
-            openReportPopup(data);
-        })
-        return false
-        
-    });
-
-    $(document).on('click', '.recommendations-link', function() {
-        var reportId = $(this).data('report-id');
-        
-        $.get('/get_recommendations', {report_id: reportId}, function(data) {
-            openReportPopup(data);
-        })
-        return false
-    });
 
     $(document).on('click', '.links-visual-link', function() {
         var reportId = $(this).data('report-id');

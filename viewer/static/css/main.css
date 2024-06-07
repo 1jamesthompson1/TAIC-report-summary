@@ -12,6 +12,12 @@ body {
     align-items: center;
 }
 
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0cccc;
+}
 h1 {
     color: #333;
     text-align: center;

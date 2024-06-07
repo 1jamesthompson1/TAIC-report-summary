@@ -1,3 +1,47 @@
+/*
+============== FORM ================
+*/
+form, #searchResults {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: fit-content;
+}
+
+
+form label, form input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 60%; 
+    align-self: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/*
+======== Loading sign =============
+*/
+
 #loading {
     display: none;
     text-align: center;
@@ -12,30 +56,58 @@
     100% { transform: rotate(360deg); }
 }
 
-form {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin: auto;
-    margin-bottom: 10x;
-    display: flex;
+/*
+======== Search settings =============i
+*/
+
+#advancedSearch {
+    display: none;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
-    width:fit-content;
 }
 
-
-#advancedSearch, form label, form input {
+.advancedSearchSection {
+    border: 1px solid black;
+    padding: 15px;
     margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#advancedSearchButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+button[type="reset"] {
+    display: none;
 }
 
-#reportYearRange .ui-slider-handle {
+input[type="text"], input[type="number"] {
+    width: max(50%, 300px);
+    border: 1px solid #ccc;
+}
+
+/*
+===== Year slider =====
+*/
+
+#reportYearRange h5 {
+    margin-bottom: 30px;
+}
+
+#reportYearRange .ui-slider-handle, 
+.ui-slider-handle {
     width: 15px;
     height: 15px;
+    text-align: center;
+    width: fit-content;
+    padding: 5px;
 }
 
 #reportYearRange .ui-slider-handle .handle-value {
@@ -56,106 +128,11 @@ form {
     font-weight: bold;
 }
 
-button[type="reset"] {
-    display: none;
-}
-
-input[type="text"], input[type="number"] {
-    width: max(50%, 300px);
-    border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    width: 60%; 
-    align-self: center;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-#advancedSearch {
-    display: none;
-    flex-direction: column;
-
-    align-items: center;
-}
-
-#checkboxes {
-    order: 1;
-}
-
-
-
-/* Transport modes */
-.advancedSearchSection {
-    border: 1px solid black;
-    padding: 15px;
-    margin: 5px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-#reportYearRange h5 {
-    margin-bottom: 30px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-/* Theme sliders */
-
-#themeSliders {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
-    gap: 20px;
-    order: 2;
-    align-items: center;
-    height: auto;
-    overflow: hidden;
-    transition: height 0.5s ease;
-    padding: 20px;
-    justify-content: space-evenly;
-}
-
-
-.showIndividualThemeSlidersBtn {
-    margin-top: 20px;
-}
-
-.theme-group {
-    border-style: dotted;
-    padding: 15px;
-    display: grid;
-}
-
-.indivudalThemeSliders {
-    display: none
-}
-
 .slider-label {
     display: flex;
     justify-content: space-between;
     width: 100%;
     font-size: smaller;
-}
-
-.ui-slider-handle {
-    text-align: center;
-    width: fit-content;
-    padding: 5px;
-}
-
-#themeSliders .ui-slider-handle {
-    padding: 15px;
 }
 
 .slider-wrapper {
@@ -166,10 +143,10 @@ input[type="submit"]:hover {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+/*
+===== Modes =====
+*/
 
-#advancedSearchButton {
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
+#checkboxes {
+    order: 1;
 }
-
