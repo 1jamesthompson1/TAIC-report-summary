@@ -35,16 +35,13 @@ $(document).ready(function() {
 
     $(function() {
         createYearSlider();
-        createThemeSliders();
     
         $('button[type="reset"]').click(function() {
             // Remove the old sliders
             $('#yearSlider').slider('destroy');
-            $('#themeSliders').empty();
     
             // Create new sliders
             createYearSlider();
-            createThemeSliders();
         });
     });
 });
@@ -72,9 +69,9 @@ function createYearSlider() {
     $('#yearSlider').append($minInput, $maxInput);
     $("#yearSlider").slider({
         range: true,
-        min: 2010,
-        max: 2022,
-        values: [2010, 2022],
+        min: 2000,
+        max: 2024,
+        values: [2000, 2024],
         create: function() {
             // Add divs to the handles
             $(this).children('.ui-slider-handle').each(function(i) {
@@ -97,6 +94,11 @@ function createYearSlider() {
     });
 }
 function updateSummary(summary) {
+    if (!summary) {
+        $('#searchResultsSummary').toggle();
+        return;
+    }
+    $('#searchResultsSummary').show();
     $('#searchResultsSummaryText').html(marked.parse(summary));
 }
 

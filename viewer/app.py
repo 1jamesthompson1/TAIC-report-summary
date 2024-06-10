@@ -23,7 +23,7 @@ from threading import Thread
 
 app = Flask(__name__)
 
-searcher = Searching.Searcher('./viewer/vector_db')
+searcher = Searching.SearchEngine('./viewer/vector_db')
 
 @app.route('/')
 def index():
@@ -50,7 +50,7 @@ def search_reports():
 def get_links_visual():
     report_id = request.args.get('report_id')
 
-    link = Searching.Searcher().get_links_visual_path(report_id)
+    link = Searching.SearchEngine().get_links_visual_path(report_id)
 
     # read image and encode
 
@@ -79,7 +79,7 @@ def get_si_recs_links_as_csv():
 
     search_data = get_search(request.form)
 
-    search_results = Searching.Searcher().search(search_data)
+    search_results = Searching.SearchEngine().search(search_data)
 
     recommendations = search_results['Completelinks'].tolist()
 
@@ -91,7 +91,7 @@ def get_si_recs_links_as_csv():
 def get_safety_issues_as_csv():
     search_data = get_search(request.form)
 
-    search_results = Searching.Searcher().search(search_data)
+    search_results = Searching.SearchEngine().search(search_data)
   
     search_results_safety_issues = search_results[['ReportID', 'CompleteSafetyIssues']]
     

@@ -54,12 +54,13 @@ class Search:
 
             # Modes
             modes_list = list()
+            print(form)
 
-            if form['includeModeAviation'] == "on":
+            if 'includeModeAviation' in form.keys():
                 modes_list.append(Modes.Mode.a)
-            if form['includeModeRail'] == "on":
+            if 'includeModeRail' in form.keys():
                 modes_list.append(Modes.Mode.r)
-            if form['includeModeMarine'] == "on":
+            if 'includeModeMarine' in form.keys():
                 modes_list.append(Modes.Mode.m)
 
             # Year
@@ -89,58 +90,72 @@ class SearchResult:
         """
         context_df = self.getContext().copy()
 
-        context_df.rename(columns = {'si': 'safety_issue', '_distance': 'relevance'}, inplace = True)
+        context_df.rename(columns = {'si': 'safety_issue', 'section_relevance_score': 'relevance'}, inplace = True)
         context_df['relevance'] = 1- context_df['relevance'] 
 
-        context_df = context_df[['relevance', 'report_id', 'safety_issue_id', 'safety_issue', 'year']]
+        context_df = context_df[['relevance', 'report_id', 'safety_issue_id', 'safety_issue', 'year', 'mode']]
         return context_df
     def getSummary(self) -> str | None:
         return self.summary
 
-class Searcher:
+class SearchEngine:
     def __init__(self, db_uri: str):
         self.db = lancedb.connect(db_uri)
 
-        self.report_sections_table = self.db.open_table('report_section_embeddings')
         self.si_table = self.db.open_table('safety_issue_embeddings')
+        self.report_sections_table = self.db.open_table('report_section_embeddings')
 
         self.vo = voyageai.Client()
 
     def search(self, search: Search, with_rag = True) -> SearchResult:
+        '''
+        This function takes a search object with some parameters and will create the right `SearchEngineSearcher`
+        '''
 
-        if search.getQuery() == "":
-            return SearchResult(
-                self.si_table.search().limit(None).to_pandas().assign(relevance=1),
-                "Not applicable as no query was given"
-            )
+        searchEngineSearcher = SearchEngineSearcher(search, self.si_table, self.report_sections_table, self.vo)
 
-        if with_rag:
-            return RAG().rag_search(search.getQuery(), self.safety_issue_search_with_report_relevance)
+        if with_rag and search.getQuery() != "":
+            return searchEngineSearcher.rag_search()
         else:
-            results = self.safety_issue_search_with_report_relevance(search.getQuery())
+            results = searchEngineSearcher.safety_issue_search_with_report_relevance()
             return SearchResult(results, None)
     
+class SearchEngineSearcher:
+    def __init__(self, search: Search, si_table: lancedb.table.Table, report_sections_table: lancedb.table.Table, vo: voyageai.Client):
+        self.query = search.getQuery()
+        self.settings = search.getSettings()
+
+        self.report_sections_table = report_sections_table
+        self.si_table = si_table
+
+        self.vo = vo
+
     def _embed_query(self, query: str) -> list[float]:
 
         return self.vo.embed(query, model="voyage-large-2-instruct", input_type="query", truncation=False).embeddings[0]
         
-    def _table_search(self, table: lancedb.table.Table, query: str, limit = 100, type: str = ['hybrid', 'fts', 'vector']) -> pd.DataFrame:
+    def _table_search(self, filter: str, table: lancedb.table.Table, limit = 100, type: str = ['hybrid', 'fts', 'vector']) -> pd.DataFrame:
+
         if type == 'hybrid':
-            results = table.search((self._embed_query(query), query),  query_type='hybrid') \
+            results = table.search((self._embed_query(self.query), self.query),  query_type='hybrid') \
                 .metric("cosine") \
+                .where(filter, prefilter=True) \
                 .limit(limit) \
                 .to_pandas()
             results.rename(columns={'_relevance_score': 'section_relevance_score'}, inplace = True)
         elif type == 'fts':
-            results = table.search(query,  query_type='fts') \
+            results = table.search(self.query,  query_type='fts') \
                 .limit(limit) \
+                .where(filter, prefilter=True) \
                 .to_pandas()
             results.rename(columns={'score': 'section_relevance_score'}, inplace = True)
         else: # type == 'vector'
-            results = table.search(self._embed_query(query),  query_type='vector') \
+            results = table.search(self._embed_query(self.query),  query_type='vector') \
                 .metric("cosine") \
                 .limit(limit) \
+                .where(filter, prefilter=True) \
                 .to_pandas()
+            print(results)
             results.rename(columns={'_distance': 'section_relevance_score'}, inplace = True)
             results['section_relevance_score'] = 1 - results['section_relevance_score']
 
@@ -148,34 +163,30 @@ class Searcher:
 
         return results
 
-    def safety_issue_search_with_report_relevance(self, query: str) -> pd.DataFrame:
+    def safety_issue_search_with_report_relevance(self) -> pd.DataFrame:
+
+        where_statement = " AND ".join([
+            f"year >= {str(self.settings.getYearRange()[0])} AND year <= {str(self.settings.getYearRange()[1])}",
+            f"mode IN {tuple([mode.value for mode in self.settings.getModes()])}"
+        ])
         
-        report_sections_search_results = self._table_search(query = query, table = self.report_sections_table, limit = 5000, type = 'fts')
+        if self.query == "" or self.query is None:
+            return self.si_table.search().limit(None).where(where_statement, prefilter=True).to_pandas().assign(section_relevance_score = 0)
+        report_sections_search_results = self._table_search(table = self.report_sections_table, limit = 5000, filter = where_statement, type = 'fts')
 
-        print(report_sections_search_results)
-        reports_relevance =  report_sections_search_results.groupby('report_id').head(50).groupby('report_id')['section_relevance_score'].mean().sort_values(ascending=False).to_dict()
+        reports_relevance = report_sections_search_results.groupby('report_id').head(50).groupby('report_id')['section_relevance_score'].mean().sort_values(ascending=False).to_dict()
 
-        safety_issues_search = lambda query, limit: self.si_table.search(self._embed_query(query)) \
-            .metric("cosine") \
-            .where("year > 2006", prefilter=True) \
-            .limit(limit) \
-            .to_pandas()
+        safety_issues_search_results = self._table_search(table = self.si_table, type = 'vector', filter = where_statement, limit = 500)
 
-        safety_issues_search_results = safety_issues_search(query, limit = 500)
+        safety_issues_search_results['section_relevance_score'] = safety_issues_search_results.apply(lambda row: row['section_relevance_score'] * (1 -reports_relevance[row['report_id']] if row['report_id'] in reports_relevance else 1), axis = 1)
 
-        safety_issues_search_results['_distance'] = safety_issues_search_results.apply(lambda row: row['_distance'] * (1 -reports_relevance[row['report_id']] if row['report_id'] in reports_relevance else 1), axis = 1)
-
-        safety_issues_search_results.sort_values(by = '_distance', inplace=True)
+        safety_issues_search_results.sort_values(by = 'section_relevance_score', inplace=True)
 
         safety_issues_search_results.reset_index(drop=False, inplace=True)
 
         return safety_issues_search_results
 
-class RAG():
-    def __init__(self):
-        pass
-
-    def get_rag_prompt(self, query: str, context: str):
+    def _get_rag_prompt(self, query: str, context: str):
         return f"""
         Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know.
         My question is: {query}
@@ -183,10 +194,10 @@ class RAG():
         Here are relevant safety issues as context:
         {context}
 
-        It is important to provide references to specifc reports and safety issues in your answer.
+        It is important to provide references to specific reports and safety issues in your answer.
         """
 
-    def rag_search(self, query, search_function: Callable[[str], pd.DataFrame]):
+    def rag_search(self):
 
         print((f"Understanding query..."))
 
@@ -194,21 +205,23 @@ class RAG():
             system = """
     You are a helpful agent inside a RAG system.
 
-    You will recieve a query from the user and return a query that should be sent to a vector database.
+    You will receive a query from the user and return a query that should be sent to a vector database.
 
     The database will search a dataset of safety issues from transport accident investigation reports.  It will use both embeddings and full text search.
     """,
-            user = query,
+            user = self.query,
             model="gpt-4",
             temp = 0.0
         )
         print(f' Going to run query: "{formatted_query}"')
 
         print(f"Getting relevant safety issues...")
-        
-        search_results = search_function(formatted_query).head(50)
 
-        user_message = "\n".join(f"{id} from report {report} with relevance {rel} - {si}" for id, report, si, rel in zip(search_results['safety_issue_id'], search_results['report_id'], search_results['si'], search_results['_distance'])) 
+        self.query = formatted_query
+        
+        search_results = self.safety_issue_search_with_report_relevance().head(50)
+
+        user_message = "\n".join(f"{id} from report {report} with relevance {rel} - {si}" for id, report, si, rel in zip(search_results['safety_issue_id'], search_results['report_id'], search_results['si'], search_results['section_relevance_score'])) 
 
         print(f"Summarizing relevant safety issues...")
         response = openAICaller.query(
@@ -217,7 +230,7 @@ class RAG():
 
     The questions are from investigators and researchers from the Transport Accident Investigation Commission. The context you will be given are safety issues extracted from all of TAICs reports.
 
-    A couple of useful defintions for you are:
+    A couple of useful definitions for you are:
 
     Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
     increase the likelihood of an occurrence, and/or the
@@ -228,7 +241,7 @@ class RAG():
     • can reasonably be regarded as having the
     potential to adversely affect the safety of future
     operations, and
-    • is characteristic of an organisation, a system, or an
+    • is characteristic of an organization, a system, or an
     operational environment at a specific point in time.
     Safety Issues are derived from safety factors classified
     either as Risk Controls or Organisational Influences.
@@ -237,7 +250,7 @@ class RAG():
     cover a single safety issue, or two or more related safety
     issues.  
     """,       
-        user=self.get_rag_prompt(query, user_message),
+        user=self._get_rag_prompt(self.query, user_message),
         model="gpt-4",
         temp = 0.2
         )

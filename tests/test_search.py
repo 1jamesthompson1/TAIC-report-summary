@@ -57,7 +57,7 @@ class TestSearch:
 
 class TestSearcher:
 
-    searcher = Searching.Searcher('./viewer/vector_db')
+    searcher = Searching.SearchEngine('./viewer/vector_db')
 
     def test_search(self):
         search = Searching.Search("hello", Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2000, 2020)))
@@ -74,3 +74,15 @@ class TestSearcher:
         assert result
         assert isinstance(result.getSummary(), str)
         assert isinstance(result.getContext(), pd.DataFrame)
+
+    def test_filtered_search(self):
+        search = Searching.Search("pilot", Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2010, 2015)))
+        result = self.searcher.search(search, with_rag = False)
+
+        assert result
+        assert result.getSummary() is None
+        assert isinstance(result.getContext(), pd.DataFrame)
+
+        assert result.getContext()['year'].isin([2010, 2011, 2012, 2013, 2014, 2015]).all()
+
+        assert result.getContext()['mode'].isin([0, 1]).all()
