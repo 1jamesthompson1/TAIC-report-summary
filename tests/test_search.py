@@ -86,3 +86,28 @@ class TestSearcher:
         assert result.getContext()['year'].isin([2010, 2011, 2012, 2013, 2014, 2015]).all()
 
         assert result.getContext()['mode'].isin([0, 1]).all()
+    
+    def test_filtered_search_single_mode(self):
+        search = Searching.Search("pilot", Searching.SearchSettings([Modes.Mode.a], (2010, 2015)))
+        result = self.searcher.search(search, with_rag = False)
+
+        assert result
+        assert result.getSummary() is None
+        assert isinstance(result.getContext(), pd.DataFrame)
+
+        assert result.getContext()['year'].isin([2010, 2011, 2012, 2013, 2014, 2015]).all()
+
+        assert result.getContext()['mode'].isin([0]).all()
+
+    def test_filtered_search_no_query(self):
+        search = Searching.Search("", Searching.SearchSettings([Modes.Mode.m, Modes.Mode.r], (2002, 2005)))
+
+        result = self.searcher.search(search, with_rag = False)
+
+        assert result
+        assert result.getSummary() is None
+        assert isinstance(result.getContext(), pd.DataFrame)
+
+        assert result.getContext()['year'].isin([2002, 2003, 2004, 2005]).all()
+
+        assert result.getContext()['mode'].isin([2, 1]).all()

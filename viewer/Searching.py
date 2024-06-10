@@ -167,9 +167,8 @@ class SearchEngineSearcher:
 
         where_statement = " AND ".join([
             f"year >= {str(self.settings.getYearRange()[0])} AND year <= {str(self.settings.getYearRange()[1])}",
-            f"mode IN {tuple([mode.value for mode in self.settings.getModes()])}"
+            f"mode IN {tuple([mode.value for mode in self.settings.getModes()])}" if len(self.settings.getModes()) > 1 else f"mode = {self.settings.getModes()[0].value}"
         ])
-        
         if self.query == "" or self.query is None:
             return self.si_table.search().limit(None).where(where_statement, prefilter=True).to_pandas().assign(section_relevance_score = 0)
         report_sections_search_results = self._table_search(table = self.report_sections_table, limit = 5000, filter = where_statement, type = 'fts')
