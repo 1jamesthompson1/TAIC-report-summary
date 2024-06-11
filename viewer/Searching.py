@@ -173,7 +173,7 @@ class SearchEngineSearcher:
         report_sections_search_results['section_relevance_score'] = (report_sections_search_results['section_relevance_score'] - report_sections_search_results['section_relevance_score'].min()) / (report_sections_search_results['section_relevance_score'].max() - report_sections_search_results['section_relevance_score'].min())
         reports_relevance = report_sections_search_results.groupby('report_id').head(50).groupby('report_id')['section_relevance_score'].mean().sort_values(ascending=False).to_dict()
         
-        safety_issues_search_results = self._table_search(table = self.si_table, type = 'vector', filter = where_statement + ' AND year >= 2006', limit = 500)
+        safety_issues_search_results = self._table_search(table = self.si_table, type = 'vector', filter = where_statement, limit = 500)
         safety_issues_search_results['section_relevance_score'] = safety_issues_search_results.apply(lambda row: row['section_relevance_score'] * (1-reports_relevance[row['report_id']] if row['report_id'] in reports_relevance else 1), axis = 1)
 
         safety_issues_search_results.sort_values(by = 'section_relevance_score', inplace=True )
