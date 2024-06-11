@@ -54,7 +54,6 @@ class Search:
 
             # Modes
             modes_list = list()
-            print(form)
 
             if 'includeModeAviation' in form.keys():
                 modes_list.append(Modes.Mode.a)
