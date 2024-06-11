@@ -1,8 +1,8 @@
 import os
 import yaml
 
-from ..OpenAICaller import openAICaller
-from . import OutputFolderReader
+from ..utils.OpenAICaller import openAICaller
+from ..utils import OutputFolderReader
 from .ReportExtracting import ReportExtractingProcessor
 from . import Themes, ReferenceChecking
 

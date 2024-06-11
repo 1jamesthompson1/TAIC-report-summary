@@ -1,4 +1,4 @@
-from engine.OpenAICaller import openAICaller
+from engine.utils.OpenAICaller import openAICaller
 
 import yaml
 import os

@@ -1,5 +1,5 @@
-from engine.OpenAICaller import openAICaller
-from engine.Extract_Analyze.OutputFolderReader import OutputFolderReader
+from engine.utils.OpenAICaller import openAICaller
+from engine.utils.OutputFolderReader import OutputFolderReader
 
 import pandas as pd
 import yaml

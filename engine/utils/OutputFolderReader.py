@@ -1,5 +1,7 @@
 import os
-from .. import Config, Modes
+
+from ..utils import Config
+from ..utils import Modes
 import regex as re
 from tqdm import tqdm
 class OutputFolderReader:

@@ -1,7 +1,7 @@
 # Local
 
-import engine.Extract_Analyze.Themes as Themes
-import engine.Modes as Modes
+import engine.extract.Themes as Themes
+import engine.utils.Modes as Modes
 
 from . import Searching
 

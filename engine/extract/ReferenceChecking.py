@@ -1,7 +1,7 @@
 from enum import Enum
 import re, copy
 from .ReportExtracting import ReportSectionExtractor
-from ..OpenAICaller import openAICaller
+from ..utils.OpenAICaller import openAICaller
 
 class ReferenceType(Enum):
     """

@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from enum import Enum
-from .. import Modes
+from ..utils import Modes
 
 
 

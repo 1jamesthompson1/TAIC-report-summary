@@ -1,5 +1,5 @@
 
-from engine.OpenAICaller import openAICaller
+from engine.utils.OpenAICaller import openAICaller
 
 import pandas as pd
 from tqdm import tqdm

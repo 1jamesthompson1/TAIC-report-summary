@@ -1,6 +1,6 @@
 import viewer.Searching as Searching
 
-import engine.Modes as Modes
+import engine.utils.Modes as Modes
 
 import pandas as pd
 import pytest

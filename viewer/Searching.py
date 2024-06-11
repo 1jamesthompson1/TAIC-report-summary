@@ -1,7 +1,7 @@
 
 # Local
-from engine.OpenAICaller import openAICaller
-import engine.Modes as Modes
+from engine.utils.OpenAICaller import openAICaller
+import engine.utils.Modes as Modes
 
 # Third party
 import pandas as pd

@@ -1,6 +1,8 @@
 import yaml
 import os
-from .. import Config, Modes
+
+from ..utils import Config
+from ..utils import Modes
 # Example usage of class
 # theme_reader = ThemeReader()
 # print(theme_reader.get_theme_str())
