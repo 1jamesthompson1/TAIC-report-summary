@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TAIC Report Viewer</title>
+    <title>TAIC safety issues Searcher</title>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
@@ -22,23 +22,15 @@
     <script type="text/javascript" src="/static/js/main.js"></script>
 </head>
 <body>
-    <h1>TAIC Report Viewer</h1>
+    <h1>TAIC safety issues Searcher</h1>
     <form method="post" id="searchForm" action="/search">
-        <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter search query">
         <div class="row">
+            <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter search query">
             <button type="button" id="advancedSearchBtn">Search settings</button>
             <button type="reset" id="resetBtn">Reset</button>    
+            <input type="submit" value="Search">
         </div>
         <div id="advancedSearch">
-            <div id="generalCheckboxes" class="advancedSearchSection">
-                <h5>General</h5>
-                <label><input type="checkbox" id="useSynonyms" name="useSynonyms">Use Synonyms</label>
-                <label><input type="checkbox" id="searchReport"  name="searchReport" checked>Search Report</label>
-                <label><input type="checkbox" id="searchSummary"  name="searchSummary" checked>Search Summary</label>
-                <label><input type="checkbox" id="searchWeightingReasoning"  name="searchWeightingReasoning" checked>Search weighting</label>
-                <label><input type="checkbox" id="includeIncompleteReports"  name="includeIncompleteReports" checked>Include Incomplete reports</label>
-            </div>
-            <br>
             <div class="row">
                 <div id="transportModes" class="advancedSearchSection">
                     <h5>Transport Modes</h5>
@@ -51,15 +43,8 @@
                     <div id="yearSlider"></div>
                 </div>
             </div>
-
-            <br>
-            <div class="advancedSearchSection">
-                <h5>Theme weightings</h5>
-                <div id="themeSliders"></div>
-            </div>
         </div>
-        <br>
-        <input type="submit" value="Search">
+        
     </form>
 
     <br>
@@ -68,15 +53,19 @@
     <div id="loading"><br><br>Loading...</div>
 
     <!-- Placeholder for displaying search results -->
-    <div id="searchResults">
-        <div id="searchResultsHeader">
-            <h3>Search Results</h3>
-            <button type="button" id="downloadResultsSummary" >Download summary PDF</button>
+    <div id="searchResults" style="display: none;">
+        <h2>Search Results</h2>
+        <div id="resultButtons" class="resultsSection">
             <button type="button" id="downloadCSVBtn_results" >Download CSV</button>
-            <button type="button" id="downloadCSVBtn_safety_issues" >Download Safety Issues</button>
-            <button type="button" id="downloadCSVBtn_si_recs_links" >Download Recommendations and Safety issue links</button>
         </div>
-        <div id="searchResultsTableWrapper"></div>
+        <div id="searchResultsSummary" class="resultsSection">
+            <h3>Summary of Search (AI generated)</h3>
+            <div id="searchResultsSummaryText"></div>
+        </div>
+        <div class="resultsSection">
+            <h3>Relevant safety issues</h3>
+            <div id="searchResultsTableWrapper"></div>
+        </div>
     </div>
 
     <div id="modalContainer">
@@ -89,6 +78,9 @@
             </div>
         </div>
     </div>
-    
+    <footer>
+        <p>Created by <a href="https://github.com/1jamesthompson1">James Thompson</a> for the <a href="https://www.taic.org.nz">New Zealand Transport Accident Investigation Commision.</a></p>
+        <p>Contact directed to <a href="mailto:1jamesthompson1@gmail.com">1jamesthompson1@gmail.com</a>, project is being developed openly on <a href="https://github.com/1jamesthompson1/TAIC-report-summary">https://github.com/1jamesthompson1/TAIC-report-summary</a></p>
+    </footer>
 </body>
 </html>

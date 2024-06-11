@@ -52,18 +52,27 @@
 /*    Results table    */
 /*---------------------*/
 
-.match-highlight {
-    background-color: yellow;
+#searchResults {
+    width: fit-content;
 }
 
-#searchResultsHeader {
-    display: none;
+.resultsSection {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.185);
 }
 
-#searchResultsHeader button {
+.resultsSection h3 {
+    text-align: center;
+}
+
+#resultButtons button {
     border-style: dotted;
     border-width: 1px;
+}
+
+#searchResults pre {
+    text-wrap: balance;
 }
