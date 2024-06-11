@@ -91,7 +91,6 @@ class SearchResult:
         context_df = self.getContext().copy()
 
         context_df.rename(columns = {'si': 'safety_issue', 'section_relevance_score': 'relevance'}, inplace = True)
-        context_df['relevance'] = 1- context_df['relevance'] 
 
         context_df = context_df[['relevance', 'report_id', 'safety_issue_id', 'safety_issue', 'year', 'mode']]
         return context_df
@@ -155,12 +154,10 @@ class SearchEngineSearcher:
                 .limit(limit) \
                 .where(filter, prefilter=True) \
                 .to_pandas()
-            print(results)
             results.rename(columns={'_distance': 'section_relevance_score'}, inplace = True)
-            results['section_relevance_score'] = 1 - results['section_relevance_score']
 
-        results['section_relevance_score'] = (results['section_relevance_score'] - results['section_relevance_score'].min()) / (results['section_relevance_score'].max() - results['section_relevance_score'].min())
-
+        results.sort_values(by='section_relevance_score', ascending=False, inplace=True)
+        
         return results
 
     def safety_issue_search_with_report_relevance(self) -> pd.DataFrame:
@@ -171,15 +168,15 @@ class SearchEngineSearcher:
         ])
         if self.query == "" or self.query is None:
             return self.si_table.search().limit(None).where(where_statement, prefilter=True).to_pandas().assign(section_relevance_score = 0)
-        report_sections_search_results = self._table_search(table = self.report_sections_table, limit = 5000, filter = where_statement, type = 'fts')
-
+        
+        report_sections_search_results = self._table_search(table = self.report_sections_table, limit = 50000, filter = where_statement, type = 'fts')
+        report_sections_search_results['section_relevance_score'] = (report_sections_search_results['section_relevance_score'] - report_sections_search_results['section_relevance_score'].min()) / (report_sections_search_results['section_relevance_score'].max() - report_sections_search_results['section_relevance_score'].min())
         reports_relevance = report_sections_search_results.groupby('report_id').head(50).groupby('report_id')['section_relevance_score'].mean().sort_values(ascending=False).to_dict()
+        
+        safety_issues_search_results = self._table_search(table = self.si_table, type = 'vector', filter = where_statement + ' AND year >= 2006', limit = 500)
+        safety_issues_search_results['section_relevance_score'] = safety_issues_search_results.apply(lambda row: row['section_relevance_score'] * (1-reports_relevance[row['report_id']] if row['report_id'] in reports_relevance else 1), axis = 1)
 
-        safety_issues_search_results = self._table_search(table = self.si_table, type = 'vector', filter = where_statement, limit = 500)
-
-        safety_issues_search_results['section_relevance_score'] = safety_issues_search_results.apply(lambda row: row['section_relevance_score'] * (1 -reports_relevance[row['report_id']] if row['report_id'] in reports_relevance else 1), axis = 1)
-
-        safety_issues_search_results.sort_values(by = 'section_relevance_score', inplace=True)
+        safety_issues_search_results.sort_values(by = 'section_relevance_score', inplace=True )
 
         safety_issues_search_results.reset_index(drop=False, inplace=True)
 
