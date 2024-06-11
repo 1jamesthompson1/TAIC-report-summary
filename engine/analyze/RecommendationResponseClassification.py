@@ -6,6 +6,8 @@ from tqdm import tqdm
 tqdm.pandas()
 import numpy as np
 
+import os
+
 class RecommendationResponseClassifier:
     '''
     This class will take a response to a recommendation and provide a string classification of it. There are going to be 4 classifications ranging from Rejected to Accepted and Implemented.
@@ -83,7 +85,6 @@ class RecommendationResponseClassificationProcessor:
 
         print("Classifying recommendations...")
 
-
         recommendations_df = pd.read_csv(input_path)
 
         # Check to make sure it has all of the required columns
@@ -97,7 +98,16 @@ class RecommendationResponseClassificationProcessor:
         # Filter out so that it is only within the years specified
         recommendations_df.query('made >= @start_date & made <= @end_date', inplace=True)
 
-        recommendations_df = self._process(recommendations_df)
+        # Check to see the for previously classified responses
+        if os.path.exists(output_path):
+            output_df = pd.read_csv(output_path)
+
+        # Combine two dataframes to find unclassified responses
+        merged_df = pd.merge(recommendations_df, output_df, on= ["report_id","recommendation_id","recipient","made","recommendation","recommendation_text","extra_recommendation_context","reply_text"], how='outer')
+        merged_df.drop(columns=['response_category_x'], inplace=True)
+        merged_df.rename(columns={'response_category_y':'response_category'}, inplace=True)
+
+        recommendations_df = self._process(merged_df)
 
         recommendations_df.to_csv(output_path, index=False)
 
@@ -110,7 +120,7 @@ class RecommendationResponseClassificationProcessor:
         unclassified_responses = recommendations[recommendations['response_category'].isnull()]
         classified_responses = recommendations[~recommendations['response_category'].isnull()]
         
-        classified_responses['response_category_quality'] = 'exact'
+        classified_responses['response_category_quality'].apply(lambda x: 'exact' if x is None else x)
 
         print(f" Out of all {len(recommendations)} recommendations, {len(unclassified_responses)} need to be classified")
 

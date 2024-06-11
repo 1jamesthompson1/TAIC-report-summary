@@ -633,11 +633,10 @@ class ReportExtractingProcessor:
             lambda report_id, safety_issues: all_safety_issues.extend([sis | {'report_id': report_id} for sis in yaml.safe_load(safety_issues)]),
             ["safety_issues"]
         )
-        print(all_safety_issues)
 
         si_df = pd.DataFrame(all_safety_issues)
 
-        # Add id to safety issues. This sohuld be report_id + safety issue number
+        # Add id to safety issues. This should be report_id + safety issue number
         si_df['safety_issue_id'] = si_df['report_id'] + "_" + si_df.groupby('report_id').cumcount().astype(str)
 
 

@@ -7,7 +7,7 @@ from .analyze import RecommendationSafetyIssueLinking, RecommendationResponseCla
 import os
 import argparse
 
-def download_extract(output_dir, config, modes, refresh):
+def gather(output_dir, config, modes, refresh):
     reports_config = config.get('output').get('reports')
     download_config = config.get('download')
 
@@ -31,15 +31,19 @@ def download_extract(output_dir, config, modes, refresh):
     
     RecommendationSplitting.split_recommendations(config)
 
-def safety_issue_and_recommendations(output_dir, config, refresh):
+def extract(output_dir, config, refresh):
 
     reports_config = config.get('output').get('reports')
 
     ReportExtracting.ReportExtractingProcessor(output_dir,
                                                reports_config,
                                                   refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir), config.get('output').get('all_safety_issues'))
-    
-    RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
+
+def analyze(output_dir, config, refresh):
+
+    reports_config = config.get('output').get('reports')
+
+    # RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
 
     RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(
             os.path.join(
@@ -55,41 +59,11 @@ def safety_issue_and_recommendations(output_dir, config, refresh):
         )
     
 
-
-def generate_themes(output_dir, reports_config, modes, refresh):
-    ThemeGenerator.ThemeGenerator(output_dir,
-                                  reports_config.get("folder_name"),
-                                  reports_config.get("themes_file_name"),
-                                  modes, refresh).generate_themes()
-
-def summarize(output_config, use_predefined, modes, refresh):
-    Summarizer.ReportSummarizer(output_config,
-                                use_predefined,
-                                modes, refresh).summarize_reports()
-
-def printout_cost_summary(run_type):
-    summary_strs = APICostEstimator.APICostEstimator().get_cost_summary_strings()
-
-    match run_type:
-        case "download":
-            print(f"Downloading does not cost anything")
-        case "summarize":
-            print(summary_strs["summarize"])
-        case "themes":
-            print(summary_strs["themes"])
-        case "all":
-            print(summary_strs["all"])
-
-def validate():
-    ThemeComparer.ThemeComparer().compare_themes()
-    WeightingComparer.WeightingComparer().compare_weightings()
-
 def cli():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")
     parser.add_argument("-c", "--calculate_cost", help="Calculate the API cost of doing a summarize. Note this action itself will use some API token, however it should be a negligible amount. Currently not going to give an accurate response", action="store_true")
-    parser.add_argument("-t", "--run_type", choices=["download", "safety_issues_and_recommendations", "themes", "summarize", "all", "validate"], required=True, help="The type of action the program will do. Download will download the PDFs and extract the text. themes generates the themes from all of the downloaded reports. While Summarize will summarize the downloaded text using the themes extracted. All will do all actions. validate will run through and do all of the validation check to make sure the engine is working correctly. It will require the output folder to exist as well as some human generated output in a validation folder (which will follow the same structure as the output folder).")
-    parser.add_argument("-p", "--predefined", help="Use predefined themes that will be used for the summarize weightings. The predefined themes must follow a psecifc format, be in the outputfolder and be called predefined_themes.yaml (or whatever the config.yaml file is set it as). It will also skip the themes step if you run all.", action="store_true", default=False)
+    parser.add_argument("-t", "--run_type", choices=["gather", "extract", "analyze", "all"], required=True, help="This is the sort of actions you want to")
     parser.add_argument("-m", "--modes", choices=["a", "r", "m"], nargs="+", help="The modes of the reports to be processed. a for aviation, r for rail, m for marine. Defaults to all.", default=["a", "r", "m"])
 
     args = parser.parse_args()
@@ -105,43 +79,18 @@ def cli():
     if not os.path.exists(output_path):
         # Create the directory
         os.makedirs(output_path)
-
-    if args.calculate_cost:
-        get_cost = printout_cost_summary(args.run_type)
-        return
         
     match args.run_type:
-        case "download":
-            download_extract(output_path,
-                             engine_settings,
-                             modes, args.refresh)
-            
-        case "safety_issues_and_recommendations":
-            safety_issue_and_recommendations(output_path,
-                                             engine_settings,
-                                             args.refresh)
-
-        case "themes":
-            generate_themes(output_path,
-                            engine_settings.get('output').get('reports'),
-                            modes, args.refresh)
-        case "summarize":
-            summarize(engine_settings.get('output'),
-                      args.predefined,
-                      modes, args.refresh)
+        case "gather":
+            gather(output_path, engine_settings, modes, args.refresh)
+        case "extract":
+            extract(output_path, engine_settings, args.refresh)
+        case "analyze":
+            analyze(output_path, engine_settings, args.refresh)
         case "all":
-            download_extract(output_path,
-                             engine_settings,
-                             modes, args.refresh)
-            if not args.predefined:
-                generate_themes(output_path,
-                                engine_settings.get('output').get('reports'),
-                                modes, args.refresh)
-            summarize(engine_settings.get('output'),
-                      args.predefined , 
-                      modes, args.refresh)
-        case "validate":
-            validate()
+            gather(output_path, engine_settings, modes, args.refresh)
+            extract(output_path, engine_settings, args.refresh)
+            analyze(output_path, engine_settings, args.refresh)
 
 if __name__ == "__main__":
     cli()

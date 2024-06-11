@@ -2,7 +2,7 @@ from pypdf import PdfReader
 import os
 import re
 
-from ..Extract_Analyze.OutputFolderReader import OutputFolderReader
+from ..utils.OutputFolderReader import OutputFolderReader
 
 def convertPDFToText(output_dir, pdf_file_name_template, text_file_name_template, report_dir_template, refresh):
     if not os.path.exists(output_dir):
