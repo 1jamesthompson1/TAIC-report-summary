@@ -1,6 +1,6 @@
 from .utils import Config, OutputFolderReader, Modes
 
-from .gather import PDFDownloader, PDFParser, RecommendationSplitting
+from .gather import PDFDownloader, PDFParser, DataDownloading
 from .extract import ReportExtracting 
 from .analyze import RecommendationSafetyIssueLinking, RecommendationResponseClassification
 
@@ -8,28 +8,27 @@ import os
 import argparse
 
 def gather(output_dir, config, modes, refresh):
-    reports_config = config.get('output').get('reports')
+    output_config = config.get('output')
     download_config = config.get('download')
 
     # Download the PDFs
-    PDFDownloader.ReportDownloader(output_dir,
-                                reports_config.get('folder_name'),
-                                reports_config.get('pdf_file_name'),
+    PDFDownloader.ReportDownloader(os.path.join(output_dir, output_config.get('report_pdf_folder_name')),
+                                output_config.get('report_pdf_file_name'),
                                 download_config.get('start_year'),
                                 download_config.get('end_year'),
                                 download_config.get('max_per_year'),
                                 modes,
-                                config.get('download').get('ignored_reports'),
+                                download_config.get('ignored_reports'),
                                 refresh).download_all()
 
     # Extract the text from the PDFsconfig
-    PDFParser.convertPDFToText(output_dir,
-                                reports_config.get('pdf_file_name'),
-                                reports_config.get('text_file_name'),
-                                reports_config.get('folder_name'),
+    PDFParser.convertPDFToText(os.path.join(output_dir, output_config.get('report_pdf_folder_name')),
+                               output_config.get('parsed_reports_df_file_name'),
                                 refresh)
     
-    RecommendationSplitting.split_recommendations(config)
+    DataDownloading.get_recommendations(config.get('data').get('data_hosted_folder_location') + config.get('data').get('recommendations_file_name'),
+                                                output_config.get('recommendations_df_file_name'),
+                                                refresh)
 
 def extract(output_dir, config, refresh):
 
@@ -43,7 +42,7 @@ def analyze(output_dir, config, refresh):
 
     reports_config = config.get('output').get('reports')
 
-    # RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
+    RecommendationSafetyIssueLinking.RecommendationSafetyIssueLinker(output_dir, reports_config).evaluate_links_for_report()
 
     RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(
             os.path.join(

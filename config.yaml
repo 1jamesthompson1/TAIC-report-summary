@@ -6,8 +6,10 @@ engine:
     ignored_reports: ['2022_202', '2022_203']
   output:
     folder_name: "output"
-    predefined_themes_file_name: "predefined_themes.yaml"
-    recommendation_responses_file_name: "recommendation_responses.csv"
+    report_pdf_folder_name: "report_pdfs"
+    report_pdf_file_name: "{{report_id}}.pdf"
+    parsed_reports_df_file_name: "parsed_reports.pkl"
+    recommendations_df_file_name: "recommendations.pkl"
     all_safety_issues: 'safety_issues.csv'
     themes_file_name: "themes.yaml"
     summary_file_name: "summary.csv"
@@ -25,6 +27,7 @@ engine:
       recommendation_safety_issue_links_file_name: "{{report_id}}_recommendation_safety_issue_links.csv"
       recommendation_safety_issue_links_visual_file_name: "{{report_id}}_links_visual.png"
   data:
+    data_hosted_folder_location: "https://raw.githubusercontent.com/1jamesthompson1/TAIC-report-summary/main/data/"
     recommendations_file_name: "cleaned_TAIC_recommendations_2024_04_04.csv"
   validation:
     folder_name: "validation"
