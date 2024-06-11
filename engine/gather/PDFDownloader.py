@@ -63,7 +63,6 @@ class ReportDownloader:
                     continue
                 outcome = self.download_report(report_id, url, inner_pbar)
                 if outcome == "End of reports for this year":
-                    tqdm.write(" Reached end of reports for this year")
                     break
                 elif outcome:
                     number_for_year += 1
@@ -93,9 +92,18 @@ class ReportDownloader:
         if (len(pdf_links) == 0):
             return False
         if (len(pdf_links) > 1):
-            if pbar:
-                pbar.write(f"WARNING: Found more than one PDF for {report_id} at {url}. Will not download any")
-            return False
+            # Only take one that has "final" but not "interim"
+            filtered_pdf_links = [link for link in pdf_links if "final" in link.lower() and "interim" not in link.lower()]
+            if len(filtered_pdf_links) > 1:
+                if pbar:
+                    links_str = "\n".join(filtered_pdf_links)
+                    pbar.write(f"WARNING: Found more than one PDF for {report_id} at {url}. Will not download any.\n Here are the links: \n {links_str}")
+                return False
+            if len(filtered_pdf_links) == 0:
+                if pbar:
+                    links_str = "\n".join(pdf_links)
+                    pbar.write(f"WARNING: Found no suitable PDF link for {report_id} at {url}. Will not download any.\n Here are the links: \n {links_str}")
+                return False
 
         link = pdf_links[0]
 

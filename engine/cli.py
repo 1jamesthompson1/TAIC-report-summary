@@ -23,7 +23,7 @@ def gather(output_dir, config, modes, refresh):
 
     # Extract the text from the PDFsconfig
     PDFParser.convertPDFToText(os.path.join(output_dir, output_config.get('report_pdf_folder_name')),
-                               output_config.get('parsed_reports_df_file_name'),
+                               os.path.join(output_dir, output_config.get('parsed_reports_df_file_name')),
                                 refresh)
     
     DataDownloading.get_recommendations(config.get('data').get('data_hosted_folder_location') + config.get('data').get('recommendations_file_name'),
