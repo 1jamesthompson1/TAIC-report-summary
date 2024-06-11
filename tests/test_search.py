@@ -35,7 +35,6 @@ class TestSearch:
             "searchQuery": "hello",
             "includeModeAviation": "on",
             "includeModeRail": "on",
-            "includeModeMarine": "off",
             "yearSlider-min": "2000",
             "yearSlider-max": "2020"
         }
