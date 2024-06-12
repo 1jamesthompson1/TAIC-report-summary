@@ -32,7 +32,7 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
 
     for report_pdf_path in (pbar := tqdm(report_pdf_paths)):
         pbar.set_description(f"Extracting text from report PDFs, currently processing {report_pdf_path}")
-        report_id = report_pdf_path[:-4]
+        report_id = os.path.basename(os.path.normpath(report_pdf_path))[:-4]
         # Go into each folder and find the pdf
         if report_id in parsed_reports_df['report_id'].values:
             continue
