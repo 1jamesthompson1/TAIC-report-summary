@@ -27,8 +27,8 @@ def gather(output_dir, config, modes, refresh):
                                 refresh)
     
     DataDownloading.get_recommendations(config.get('data').get('data_hosted_folder_location') + config.get('data').get('recommendations_file_name'),
-                                                output_config.get('recommendations_df_file_name'),
-                                                refresh)
+                                        os.path.join(output_dir, output_config.get('recommendations_df_file_name')),
+                                        refresh)
 
 def extract(output_dir, config, refresh):
 
@@ -39,6 +39,9 @@ def extract(output_dir, config, refresh):
     report_extractor.extract_safety_issues_from_reports(os.path.join(output_dir, output_config.get('important_text_df_file_name')),os.path.join(output_dir, output_config.get('safety_issues_df_file_name')))
 
     report_extractor.extract_sections_from_text(15, os.path.join(output_dir, output_config.get('report_sections_df_file_name')))
+
+    # Merge all of the dataframes togather
+
 
 
 def analyze(output_dir, config, refresh):
