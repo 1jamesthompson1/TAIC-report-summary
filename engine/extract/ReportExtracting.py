@@ -4,6 +4,7 @@ import yaml
 import os
 import regex as re
 import pandas as pd
+from tqdm import tqdm
 
 class ReportExtractor:
     def __init__(self, report_text, report_id):
@@ -11,24 +12,16 @@ class ReportExtractor:
         self.report_id = report_id
 
     def extract_important_text(self):
-                 
-        print(f" Generating important text for {self.report_id}")
-
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections == None:
-            print(f'  Could not find contents section in {self.report_id}')
             return None, None
 
         pages_to_read = self.extract_pages_to_read(contents_sections)
 
         if pages_to_read == None:
-            print(f'  Could not find the findings or analysis section for {self.report_id}')
             return None, None
 
-        # Retrieve that actual text for the page numbers.
-        print(f"  I am going to be reading these pages: {pages_to_read}")
-    
         # Try and read the pages. If it fails try and read to the next page three times. Then give up.
         text = self.extract_text_between_page_numbers(pages_to_read[0], pages_to_read[-1])
 
@@ -50,17 +43,13 @@ class ReportExtractor:
         if len(matches) == 1:
             return matches[0]
 
-        print(f"  Could not find text between pages {page_number_1} and {page_number_2}")
-
         if len(re.findall(page(page_number_1), self.report_text, re.MULTILINE)) == 0:
             if page_number_1 < 2:
-                print("     giving up search for text between pages")
                 return None
             return self.extract_text_between_page_numbers(page_number_1-1, page_number_2)
         
         if len(re.findall(page(page_number_2), self.report_text, re.MULTILINE)) == 0:
             if page_number_2 > 100:
-                print("     giving up search for text between pages")
                 return None
             return self.extract_text_between_page_numbers(page_number_1, page_number_2+1)
         
@@ -77,7 +66,6 @@ class ReportExtractor:
         if endMatches:
             endMatch = endMatches[-1]
         else:
-            print("Error cant find the end of the contents section")
             return None
 
         if startMatch and endMatch:
@@ -585,95 +573,90 @@ class ReportExtractingProcessor:
     This is the class that interacts with the report extracting classes. It however is the ones that actually connects to the folder structure.
     """
 
-    def __init__(self, output_dir, reports_config, refresh = False):
-        self.output_dir = output_dir
-        self.reports_config = reports_config
-        self.report_dir_template = reports_config.get("folder_name")
+    def __init__(self, report_text_df_path: str, refresh = False):
+        if not os.path.exists(report_text_df_path):
+            raise ValueError(f"{report_text_df_path} does not exist")
+        self.report_text_df = pd.read_pickle(report_text_df_path)
+
         self.refresh = refresh
 
-    def __output_safety_issues(self, report_id, report_text):
+        self.important_text_df = None
 
-        print(" Extracting safety issues from " + report_id)
+    def __get_safety_issues(self, important_text_df_path, report_id, report_text):
 
-        folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
-        output_file = self.reports_config.get('safety_issues').replace(r'{{report_id}}', report_id)
-        output_path = os.path.join(self.output_dir, folder_dir, output_file)
-
-        # Skip if the file already exists
-        if os.path.exists(output_path) and not self.refresh:
-            print(f"   {output_path} already exists")
-            return
-
-        important_text = self.get_important_text(report_id)
-        if important_text is None:
-            print(f"  Could not extract important text from {report_id}")
-            return
+        important_text = self.get_important_text(important_text_df_path, report_id)
+        if important_text == None:
+            return f"  Could not extract important text from {report_id}"
 
         safety_issues = SafetyIssueExtractor(report_text, report_id, important_text).extract_safety_issues()
 
         if safety_issues == None:
-            print(f" Could not extract safety issues from {report_id}")
-            return
-        
-        print(f"   Found {len(safety_issues)} safety issues")
+            return f" Could not extract safety issues from {report_id}"
 
-        with open(output_path, 'w') as f:
-            yaml.safe_dump(safety_issues, f, default_flow_style=False, width=float('inf'), sort_keys=False)
+        return safety_issues
 
-    def extract_safety_issues_from_reports(self, output_folder_reader = None, output_file = None):
-        if output_folder_reader == None:
-            raise Exception("  No output folder reader provided so safety issue extraction cannot happen")
-        
-        output_folder_reader.process_reports(self.__output_safety_issues)
+    def extract_safety_issues_from_reports(self, important_text_df_path, output_file):
 
-        # Read all safety issues and write them to a single csv file
+        # Get previously extracted safety issues
+        if os.path.exists(output_file) and not self.refresh:
+            all_safety_issues_df = pd.read_pickle(output_file)
+        else:
+            all_safety_issues_df = pd.DataFrame(columns = ['report_id', 'safety_issues'])
 
-        all_safety_issues  = []
-        output_folder_reader.process_reports_with_specific_files(
-            lambda report_id, safety_issues: all_safety_issues.extend([sis | {'report_id': report_id} for sis in yaml.safe_load(safety_issues)]),
-            ["safety_issues"]
-        )
+        new_safety_issues = []
 
-        si_df = pd.DataFrame(all_safety_issues)
+        for _, report_id, report_text in (pbar := tqdm(list(self.report_text_df.itertuples()))):
+            pbar.set_description(f"Extracting safety issues from {report_id}")
+            if report_id in all_safety_issues_df['report_id'].values: 
+                continue
 
-        # Add id to safety issues. This should be report_id + safety issue number
-        si_df['safety_issue_id'] = si_df['report_id'] + "_" + si_df.groupby('report_id').cumcount().astype(str)
+            safety_issues_list = self.__get_safety_issues(important_text_df_path, report_id, report_text)
+            if isinstance(safety_issues_list, str):
+                pbar.write(safety_issues_list + " therefore skipping report.")
+                continue
+            safety_issues_df = pd.DataFrame(safety_issues_list)
+            safety_issues_df['safety_issue_id'] = [report_id + "_" + str(i) for i in safety_issues_df.index]
 
+            new_safety_issues.append({
+                'report_id': report_id,
+                'safety_issues': safety_issues_df
+            })
+            if len(new_safety_issues) > 50:
+                all_safety_issues_df = pd.concat([all_safety_issues_df, pd.DataFrame(new_safety_issues)])
+                all_safety_issues_df.to_pickle(output_file)
+                pbar.write(f" Saving {len(new_safety_issues)} safety issues to bring it to a total of {len(all_safety_issues_df)} of safety issues.")
+                new_safety_issues = []
 
-        si_df.to_csv(os.path.join(self.output_dir, output_file), index=False)
+        all_safety_issues_df = pd.concat([all_safety_issues_df, pd.DataFrame(new_safety_issues)])
+        all_safety_issues_df.to_pickle(output_file)
 
-    def get_important_text(self, report_id, with_pages_read = False):
+    def get_important_text(self, important_text_df_path: str, report_id, with_pages_read = False):
         """
         This is a wrapper ground the extract_important_text function. This adds the support for reading and writing to the folder structure.
         """
-        print(f"  Getting important text... for {report_id}")
-        folder_dir = self.report_dir_template.replace(r'{{report_id}}', report_id)
-        output_file = self.reports_config.get('important_text_file_name').replace(r'{{report_id}}', report_id)
-        output_path = os.path.join(self.output_dir, folder_dir, output_file)
-        
-        if os.path.exists(output_path):
-            with open(output_path, 'r') as f:
-                yaml_obj = yaml.safe_load(f)
-                return yaml_obj['text']
-            
-        print(f"  {output_path} does not exist, extracting important text from report text")
-
-        # Getting the text file
-        text_file_path = os.path.join(self.output_dir, folder_dir, self.reports_config.get('text_file_name').replace(r'{{report_id}}', report_id))
-        if not os.path.exists(text_file_path):
-            print(f"  {text_file_path} does not exist")
+        # Check if full text exists
+        if self.report_text_df.query(f'report_id == "{report_id}"').empty:
             return None
-        with open(text_file_path, 'r') as f:
-            report_text = f.read()
-        
-        text, pages_to_read = ReportExtractor(report_text, report_id).extract_important_text()
 
-        print(f"  Saving the text to file with len {len(text)if text != None else 0}")
-        with open(output_path, "w") as f:
-            yaml.dump({
-                "text": text,
-                "pages_read": pages_to_read
-            }, f)
+        # Check if important text df exists
+        if self.important_text_df is None:
+            if not os.path.exists(important_text_df_path):
+                self.important_text_df = pd.DataFrame(columns=['report_id', 'text', 'pages_read'])
+            else:
+                self.important_text_df = pd.read_pickle(important_text_df_path)
+
+         # Either read important text of extract it.       
+        if not self.important_text_df.query(f'report_id == "{report_id}"').empty:
+            current_extracted_row = self.important_text_df.query(f'report_id == "{report_id}"').to_dict('records')[0]
+            text = current_extracted_row['text']
+            pages_to_read = current_extracted_row['pages_read']
+        else:
+            report_text = self.report_text_df.query(f'report_id == "{report_id}"')['text'].values[0]
+            text, pages_to_read = ReportExtractor(report_text, report_id).extract_important_text()
+            if text == None:
+                return None
+            self.important_text_df = pd.concat([self.important_text_df, pd.DataFrame({'report_id': report_id, 'text': text, 'pages_read': pages_to_read})])
+            self.important_text_df.to_pickle(important_text_df_path)
 
         if with_pages_read:
             return text, pages_to_read

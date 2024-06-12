@@ -32,11 +32,12 @@ def gather(output_dir, config, modes, refresh):
 
 def extract(output_dir, config, refresh):
 
-    reports_config = config.get('output').get('reports')
+    output_config = config.get('output')
 
-    ReportExtracting.ReportExtractingProcessor(output_dir,
-                                               reports_config,
-                                                  refresh).extract_safety_issues_from_reports(OutputFolderReader.OutputFolderReader(output_dir), config.get('output').get('all_safety_issues'))
+    report_extractor = ReportExtracting.ReportExtractingProcessor(os.path.join(output_dir, output_config.get('parsed_reports_df_file_name')), refresh)
+
+    report_extractor.extract_safety_issues_from_reports(os.path.join(output_dir, output_config.get('important_text_df_file_name')),os.path.join(output_dir, output_config.get('safety_issues_df_file_name')))
+
 
 def analyze(output_dir, config, refresh):
 

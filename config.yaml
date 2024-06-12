@@ -10,9 +10,9 @@ engine:
     report_pdf_file_name: "{{report_id}}.pdf"
     parsed_reports_df_file_name: "parsed_reports.pkl"
     recommendations_df_file_name: "recommendations.pkl"
-    all_safety_issues: 'safety_issues.csv'
-    themes_file_name: "themes.yaml"
-    summary_file_name: "summary.csv"
+    extracted_reports_df_file_name: "extracted_reports.pkl"
+    important_text_df_file_name: "important_text.pkl"
+    safety_issues_df_file_name: "safety_issues.pkl"
     reports:
     # Report ID is the only available variable.
       folder_name: "{{report_id}}" # This folder name should always have the report_id variable.
