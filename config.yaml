@@ -13,6 +13,7 @@ engine:
     report_sections_df_file_name: "report_sections.pkl"
     important_text_df_file_name: "important_text.pkl"
     safety_issues_df_file_name: "safety_issues.pkl"
+    extracted_reports_df_file_name: "extracted_reports.pkl"
     reports:
     # Report ID is the only available variable.
       folder_name: "{{report_id}}" # This folder name should always have the report_id variable.

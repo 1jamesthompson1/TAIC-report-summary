@@ -641,26 +641,26 @@ class ReportExtractingProcessor:
         # Check if important text df exists
         if self.important_text_df is None:
             if not os.path.exists(important_text_df_path):
-                self.important_text_df = pd.DataFrame(columns=['report_id', 'text', 'pages_read'])
+                self.important_text_df = pd.DataFrame(columns=['report_id', 'important_text', 'pages_read'])
             else:
                 self.important_text_df = pd.read_pickle(important_text_df_path)
 
          # Either read important text of extract it.       
         if not self.important_text_df.query(f'report_id == "{report_id}"').empty:
             current_extracted_row = self.important_text_df.query(f'report_id == "{report_id}"').to_dict('records')[0]
-            text = current_extracted_row['text']
+            important_text = current_extracted_row['important_text']
             pages_to_read = current_extracted_row['pages_read']
         else:
             report_text = self.report_text_df.query(f'report_id == "{report_id}"')['text'].values[0]
-            text, pages_to_read = ReportExtractor(report_text, report_id).extract_important_text()
-            if text == None:
+            important_text, pages_to_read = ReportExtractor(report_text, report_id).extract_important_text()
+            if important_text == None:
                 return None
-            self.important_text_df = pd.concat([self.important_text_df, pd.DataFrame({'report_id': report_id, 'text': text, 'pages_read': pages_to_read})])
+            self.important_text_df = pd.concat([self.important_text_df, pd.DataFrame({'report_id': report_id, 'important_text': important_text, 'pages_read': pages_to_read})])
             self.important_text_df.to_pickle(important_text_df_path)
 
         if with_pages_read:
-            return text, pages_to_read
-        return text
+            return important_text, pages_to_read
+        return important_text
 
     
     def __extract_sections(num_sections, all_potential_sections, report_text, debug = False):

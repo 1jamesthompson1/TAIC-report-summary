@@ -5,6 +5,7 @@ from .extract import ReportExtracting
 from .analyze import RecommendationSafetyIssueLinking, RecommendationResponseClassification
 
 import os
+import pandas as pd
 import argparse
 
 def gather(output_dir, config, modes, refresh):
@@ -40,8 +41,20 @@ def extract(output_dir, config, refresh):
 
     report_extractor.extract_sections_from_text(15, os.path.join(output_dir, output_config.get('report_sections_df_file_name')))
 
-    # Merge all of the dataframes togather
+    # Merge all of the dataframes into one extracted dataframe
+    dataframes = [
+        pd.read_pickle(os.path.join(output_dir, file_name)).set_index('report_id')
+        for file_name in [
+            output_config.get('parsed_reports_df_file_name'),
+            output_config.get('important_text_df_file_name'),
+            output_config.get('safety_issues_df_file_name'),
+            output_config.get('report_sections_df_file_name')
+        ]
+    ]
 
+    combined_df = dataframes[0].join(dataframes[1:], how='inner')
+
+    combined_df.to_pickle(os.path.join(output_dir, output_config.get('extracted_reports_df_file_name')))
 
 
 def analyze(output_dir, config, refresh):
