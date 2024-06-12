@@ -662,4 +662,108 @@ class ReportExtractingProcessor:
             return text, pages_to_read
         return text
 
+    
+    def __extract_sections(num_sections, all_potential_sections, report_text, debug = False):
+        get_parts_regex = r'(((\d{1,2}).\d{1,2}).\d{1,2})'
         
+        extractor = ReportSectionExtractor(report_text, num_sections)
+
+        sections = []
+
+        for section in all_potential_sections:
+            if debug: print(f"Looking at section {re.search(get_parts_regex, section[0][0]).group(3)}")
+
+            subsection_missing_count = 0
+            for sub_section in section:
+                sub_section_str = re.search(get_parts_regex, sub_section[0]).group(2)
+                if debug: print(f" Looking at subsection {sub_section_str}")
+
+                paragraph_missing_count = 0
+
+                paragraphs = []
+                for paragraph in sub_section:
+                    if debug: print(f"  Looking for paragraph {paragraph}")
+
+                    paragraph_text = extractor.extract_section(paragraph, useLLM = False)
+
+                    if paragraph_text is None and (paragraph_missing_count > 0 or paragraph[-1] == '1'):
+                        break
+                    elif paragraph_text is None:
+                        paragraph_missing_count += 1
+                        continue
+
+                    paragraphs.append({'section': paragraph, 'section_text': paragraph_text})
+
+                if len(paragraphs) == 0:
+                    if debug: print(f" No paragraphs found ")
+                    sub_section_text = extractor.extract_section(sub_section_str, useLLM = False)
+
+                    if sub_section_text is None and subsection_missing_count > 0:
+                        if debug: print(f" No subsection found")
+                        break
+                    elif sub_section_text is None:
+                        subsection_missing_count += 1
+                        continue
+
+                    sections.append({'section': sub_section_str, 'section_text': sub_section_text})
+                else:
+                    sections.extend(paragraphs)
+
+        df = pd.DataFrame(sections)
+
+        return df
+
+    def extract_sections_from_text(self, num_sections, output_file_path):
+        sections = list(map(str, range(1,15)))
+
+        subsections = [
+            [
+                section + '.' + str(subsection)
+                for subsection in
+                range(1,100)
+            ]
+            for section in 
+            sections
+        ]
+
+        paragraphs = [
+            [
+                [
+                    subsection + '.' + str(paragraph)
+                    for paragraph in
+                    range(1,100)
+                ]
+                for subsection in
+                section
+            ]
+            for section in 
+            subsections
+        ]
+
+        if os.path.exists(output_file_path):
+            report_sections_df = pd.read_pickle(output_file_path)
+        else:
+            report_sections_df = pd.DataFrame(columns=['report_id', 'sections'])
+
+        new_reports = []
+
+        for _, report_id, report_text in (pbar := tqdm(list(self.report_text_df.itertuples()))):
+            pbar.set_description(f"Extracting sections from {report_id}")
+            if report_id in report_sections_df['report_id'].values:
+                continue
+
+            sections_df = ReportExtractingProcessor.__extract_sections(num_sections, paragraphs, report_text, debug = False)
+            sections_df['report_id'] = report_id
+
+            new_reports.append({
+                'report_id': report_id,
+                'sections': sections_df
+            })
+            if len(new_reports) > 50:
+                report_sections_df = pd.concat([report_sections_df, pd.DataFrame(new_reports)], ignore_index=True)
+                report_sections_df.to_pickle(output_file_path)
+                pbar.write(f" Saving {len(new_reports)} new extracted reports to bring it to a total of {len(report_sections_df)} of extracted reports.")
+                new_reports = []
+
+        report_sections_df = pd.concat([report_sections_df, pd.DataFrame(new_reports)], ignore_index=True)
+        report_sections_df.to_pickle(output_file_path)
