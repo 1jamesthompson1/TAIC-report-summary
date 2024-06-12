@@ -582,11 +582,10 @@ class ReportExtractingProcessor:
 
         self.important_text_df = None
 
-    def __get_safety_issues(self, important_text_df_path, report_id, report_text):
+    def __get_safety_issues(self, important_text, report_id, report_text):
 
-        important_text = self.get_important_text(important_text_df_path, report_id)
-        if important_text == None:
-            return f"  Could not extract important text from {report_id}"
+        if important_text is None:
+            raise ValueError("important_text cannot be None")
 
         safety_issues = SafetyIssueExtractor(report_text, report_id, important_text).extract_safety_issues()
 
@@ -605,12 +604,25 @@ class ReportExtractingProcessor:
 
         new_safety_issues = []
 
-        for _, report_id, report_text in (pbar := tqdm(list(self.report_text_df.itertuples()))):
+        if os.path.exists(important_text_df_path):
+            important_text_df = pd.read_pickle(important_text_df_path)
+        else:
+            raise ValueError(f"{important_text_df_path} does not exist")
+        
+        merged_df = self.report_text_df.merge(important_text_df, on='report_id', how='outer')
+
+        print(merged_df)
+
+        for _, report_id, report_text, important_text, _ in (pbar := tqdm(list(merged_df.itertuples()))):
             pbar.set_description(f"Extracting safety issues from {report_id}")
             if report_id in all_safety_issues_df['report_id'].values: 
                 continue
 
-            safety_issues_list = self.__get_safety_issues(important_text_df_path, report_id, report_text)
+            if pd.isna(important_text):
+                pbar.write(f"  No important text found for {report_id}")
+                continue
+
+            safety_issues_list = self.__get_safety_issues(important_text, report_id, report_text)
             if isinstance(safety_issues_list, str):
                 pbar.write(safety_issues_list + " therefore skipping report.")
                 continue
@@ -629,40 +641,26 @@ class ReportExtractingProcessor:
 
         all_safety_issues_df = pd.concat([all_safety_issues_df, pd.DataFrame(new_safety_issues)])
         all_safety_issues_df.to_pickle(output_file)
-
-    def get_important_text(self, important_text_df_path: str, report_id, with_pages_read = False):
-        """
-        This is a wrapper ground the extract_important_text function. This adds the support for reading and writing to the folder structure.
-        """
-        # Check if full text exists
-        if self.report_text_df.query(f'report_id == "{report_id}"').empty:
-            return None
-
-        # Check if important text df exists
-        if self.important_text_df is None:
-            if not os.path.exists(important_text_df_path):
-                self.important_text_df = pd.DataFrame(columns=['report_id', 'important_text', 'pages_read'])
-            else:
-                self.important_text_df = pd.read_pickle(important_text_df_path)
-
-         # Either read important text of extract it.       
-        if not self.important_text_df.query(f'report_id == "{report_id}"').empty:
-            current_extracted_row = self.important_text_df.query(f'report_id == "{report_id}"').to_dict('records')[0]
-            important_text = current_extracted_row['important_text']
-            pages_to_read = current_extracted_row['pages_read']
-        else:
-            report_text = self.report_text_df.query(f'report_id == "{report_id}"')['text'].values[0]
-            important_text, pages_to_read = ReportExtractor(report_text, report_id).extract_important_text()
-            if important_text == None:
-                return None
-            self.important_text_df = pd.concat([self.important_text_df, pd.DataFrame({'report_id': report_id, 'important_text': important_text, 'pages_read': pages_to_read})])
-            self.important_text_df.to_pickle(important_text_df_path)
-
-        if with_pages_read:
-            return important_text, pages_to_read
-        return important_text
-
     
+    def extract_important_text_from_reports(self, output_file):
+        if os.path.exists(output_file):
+            important_text_df = pd.read_pickle(output_file)
+        else:
+            important_text_df = pd.DataFrame(columns=['report_id', 'important_text', 'pages_read'])
+
+        for _, report_id, report_text in (pbar := tqdm(list(self.report_text_df.itertuples()))):
+            pbar.set_description(f"Extracting important text from {report_id}")
+            if report_id in important_text_df['report_id'].values:
+                continue
+            important_text, pages_read = ReportExtractor(report_text, report_id).extract_important_text()
+            if important_text == None:
+                pbar.write(f"  Could not extract important text from {report_id}")
+                continue
+            important_text_df.loc[len(important_text_df)] = [report_id, important_text, pages_read]
+            important_text_df.to_pickle(output_file)
+
+        important_text_df.to_pickle(output_file)
+
     def __extract_sections(num_sections, all_potential_sections, report_text, debug = False):
         get_parts_regex = r'(((\d{1,2}).\d{1,2}).\d{1,2})'
         

@@ -37,6 +37,8 @@ def extract(output_dir, config, refresh):
 
     report_extractor = ReportExtracting.ReportExtractingProcessor(os.path.join(output_dir, output_config.get('parsed_reports_df_file_name')), refresh)
 
+    report_extractor.extract_important_text_from_reports(os.path.join(output_dir, output_config.get('important_text_df_file_name')))
+
     report_extractor.extract_safety_issues_from_reports(os.path.join(output_dir, output_config.get('important_text_df_file_name')),os.path.join(output_dir, output_config.get('safety_issues_df_file_name')))
 
     report_extractor.extract_sections_from_text(15, os.path.join(output_dir, output_config.get('report_sections_df_file_name')))
@@ -52,7 +54,7 @@ def extract(output_dir, config, refresh):
         ]
     ]
 
-    combined_df = dataframes[0].join(dataframes[1:], how='inner')
+    combined_df = dataframes[0].join(dataframes[1:], how='outer')
 
     combined_df.to_pickle(os.path.join(output_dir, output_config.get('extracted_reports_df_file_name')))
 

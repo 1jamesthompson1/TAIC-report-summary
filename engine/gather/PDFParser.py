@@ -50,7 +50,7 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
                 new_parsed_reports.append({'report_id': report_id, 'text': text})
 
                 if len(new_parsed_reports) > 50:
-                    parsed_reports_df = pd.concat([parsed_reports_df, pd.DataFrame(new_parsed_reports)])
+                    parsed_reports_df = pd.concat([parsed_reports_df, pd.DataFrame(new_parsed_reports)], ignore_index=True)
                     parsed_reports_df.to_pickle(parsed_reports_df_file_name)
                     pbar.write(f"  Saving {len(new_parsed_reports)} reports to {parsed_reports_df_file_name}. There are now {len(parsed_reports_df)} reports in the parsed dataframe.")
                     new_parsed_reports = []
@@ -59,7 +59,7 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
             pbar.write(f'Error processing {report_pdf_path}: {e}')
 
     if len(new_parsed_reports) > 0:
-        parsed_reports_df = pd.concat([parsed_reports_df, pd.DataFrame(new_parsed_reports)])
+        parsed_reports_df = pd.concat([parsed_reports_df, pd.DataFrame(new_parsed_reports)], ignore_index=True)
         parsed_reports_df.to_pickle(parsed_reports_df_file_name)
 
 
