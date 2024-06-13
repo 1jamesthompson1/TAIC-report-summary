@@ -8,13 +8,11 @@ import io
 import matplotlib.pyplot as plt
 import networkx as nx
 import textwrap
+from tqdm import tqdm
 
 class RecommendationSafetyIssueLinker:
 
-    def __init__(self, output_folder, reports_config):
-        self.output_folder = output_folder
-
-        self.reports_config = reports_config
+    def __init__(self):
         pass
 
     def _generate_visualization_of_links(self, df, report_id, output_path):
@@ -100,65 +98,67 @@ class RecommendationSafetyIssueLinker:
 
             Now can you please respond with one of three options
 
-            - None (The recommendation is not directly related to the safety issue)
-            - Possible (The recommendation is reasonably likely to directly address the safety issue)
-            - Confirmed (The recommendation explicitly mention that safety issue that it is trying address)
+            - None
+            - Possible
+            - Confirmed
             """,
             model = "gpt-4",
             temp = 0)
         
-        if response in ['None', 'Possible', 'Confirmed']:
+        if response.strip() in ['None', 'Possible', 'Confirmed']:
             return response
         
         print(f"Model response is incorrect and is {response}")
         return 'undetermined'
     
-    def _evaluate_all_possible_links(self, report_id, recommendations, safety_issues):
+    def _evaluate_all_possible_links(self, recommendations: pd.DataFrame, safety_issues: pd.DataFrame):
         
-        recommendations = pd.read_csv(io.StringIO(recommendations))
-        safety_issues = pd.DataFrame(yaml.safe_load(safety_issues))
-
-        combined_df = pd.merge(recommendations, safety_issues, how='cross')
+        potential_links = pd.merge(recommendations, safety_issues, how='cross')
         
-        # Check for previous links
-        links_csv_path = os.path.join(self.output_folder,
-                         self.reports_config.get("folder_name").replace(r'{{report_id}}', report_id),
-                         self.reports_config.get("recommendation_safety_issue_links_file_name").replace(r'{{report_id}}', report_id))
+        potential_links['link'] = potential_links.apply(lambda x: self._link_recommendation_with_safety_issue(x['recommendation'], x['safety_issue']), axis=1)
+            
+        upgraded_links = RecommendationSafetyIssueLinkUpgrader().upgrade_unlinked_recommendations(potential_links)
 
-        if os.path.exists(links_csv_path):
-            combined_df = pd.read_csv(links_csv_path)
+        filtered_links = upgraded_links.assign(link = upgraded_links['link'].apply(lambda x: 'Confirmed' if x == 'Confirmed' else "None"))
+
+        return filtered_links
+
+    def evaluate_links_for_report(self, extracted_df_path, output_file_path):
+
+        print(f"==================================================")
+        print(f"---------------  Evaluating links   --------------")
+        print(f"==================================================")
+
+        if os.path.exists(output_file_path):
+            links_df = pd.read_pickle(output_file_path)
         else:
-            combined_df['link'] = combined_df.apply(lambda x: self._link_recommendation_with_safety_issue(x['recommendation'], x['safety_issue']), axis=1)
-            
-            
-        combined_df = RecommendationSafetyIssueLinkUpgrader().upgrade_unlinked_recommendations(combined_df)
+            links_df = pd.DataFrame(columns = ['report_id', 'recommendation_links'])
 
-        combined_df['link'] = combined_df['link'].apply(lambda x: 'Confirmed' if x == 'Confirmed' else "None")
-
-        combined_df.to_csv(links_csv_path, index=False)  
-   
-        visual_path = os.path.join(self.output_folder,
-                               self.reports_config.get("folder_name").replace(r'{{report_id}}', report_id),
-                               self.reports_config.get("recommendation_safety_issue_links_visual_file_name").replace(r'{{report_id}}', report_id))
+        if os.path.exists(extracted_df_path):
+            extracted_df = pd.read_pickle(extracted_df_path)
+        else:
+            raise ValueError(f"{extracted_df_path} does not exist")
         
-        # if not os.path.exists(visual_path):
-        self._generate_visualization_of_links(combined_df, report_id,visual_path)
-        
+        for report_id, recommendations, safety_issues in (pbar := tqdm(list(extracted_df[['recommendations', 'safety_issues']].itertuples()))):
+            pbar.set_description(f"Linking recommendations with safety issues for {report_id}")
 
-    def evaluate_links_for_report(self):
-        
-        print("  Linking recommendations with extracted safety issues")
+            if not isinstance(recommendations, pd.DataFrame) or not isinstance(safety_issues, pd.DataFrame):
+                continue
+            if report_id in links_df['report_id'].values:
+                continue
 
-        output_folder_reader = OutputFolderReader()
+            report_links = self._evaluate_all_possible_links(recommendations, safety_issues)
 
-        output_folder_reader.process_reports_with_specific_files(self._evaluate_all_possible_links, ["recommendations_file_name", "safety_issues"])
+            links_df.loc[len(links_df)] = [report_id, report_links]
+
+            links_df.to_pickle(output_file_path)
 
 class RecommendationSafetyIssueLinkUpgrader:
     def __init__(self):
         pass
     
     def find_unlinked_recommendations(self, df):
-        all_recommendations = df.drop_duplicates(['report_id', 'recommendation', 'safety_issue'])
+        all_recommendations = df.drop_duplicates(['recommendation', 'safety_issue'])
 
         linked_recommendations = df[df['link'] == "Confirmed"]
 
@@ -183,24 +183,6 @@ class RecommendationSafetyIssueLinkUpgrader:
         # Upgrade links in original df
         upgraded_df = df.merge(link_to_upgrade, how = 'outer')
 
-        upgraded_df.drop_duplicates(subset=['report_id', 'safety_issue', 'recommendation'], keep = 'first', inplace = True)
-
-        # These excessive try catch blocks are here because of the case that new confirmed links were added or existed in the first place.
-        try:
-            new_confirmed_links = upgraded_df.value_counts('link')['Confirmed']
-        except:
-            new_confirmed_links = 0
-
-        try:
-            old_confirmed_links = df.value_counts('link')['Confirmed']
-        except:
-            old_confirmed_links = 0
-        
-        num_upgraded_links = new_confirmed_links - old_confirmed_links
-
-        # print(f"{num_upgraded_links} links were upgraded.\n This represents {num_upgraded_links/df.shape[0]*100:.2f}% of all links and {num_upgraded_links/df[df['link'] == 'Possible'].shape[0]*100:.2f}% of possible links.")
-
-        still_unlinked_recommendations = self.find_unlinked_recommendations(upgraded_df).drop_duplicates(['report_id', 'recommendation'])[["report_id", "recommendation"]]
-        # print(f"After performing the upgrading there are still {still_unlinked_recommendations.shape[0]} unlinked recommendations which is {still_unlinked_recommendations.shape[0]/df.drop_duplicates(['report_id', 'recommendation']).shape[0]*100:.2f}% of all recommendations.")
+        upgraded_df.drop_duplicates(subset=['safety_issue', 'recommendation'], keep = 'first', inplace = True)
 
         return upgraded_df
