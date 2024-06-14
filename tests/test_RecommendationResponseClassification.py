@@ -7,9 +7,9 @@ import os
 import pytest
 
 @pytest.mark.parametrize("response, expected", [
-    pytest.param("The CAA has issued a new reminder to all aircraft operators and pilots about the importance of seatbelts.", "Accepted and Implemented", id="Accepted and Implemented"), 
-    pytest.param("The CAA will work on adding a new reminder to aircraft operators in the next quarterly industry newsletter", "Accepted", id="Accepted"),
-    pytest.param("The CAA will think about a reminder and whether it fits in with the current industry standards", "Under consideration", id="Under consideration"),
+    pytest.param("The CAA has issued a new reminder to all aircraft operators and pilots about the importance of seatbelts.", "accepted and implemented", id="Accepted and Implemented"), 
+    pytest.param("The CAA will work on adding a new reminder to aircraft operators in the next quarterly industry newsletter", "accepted", id="Accepted"),
+    pytest.param("The CAA will think about a reminder and whether it fits in with the current industry standards", "under consideration", id="Under consideration"),
     pytest.param("The CAA believes that reminders are not needed as they are very ineffective.", "Rejected", id="Rejected")
 ])
 def test_classify_response(response, expected):

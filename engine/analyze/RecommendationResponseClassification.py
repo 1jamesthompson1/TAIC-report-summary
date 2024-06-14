@@ -104,13 +104,14 @@ class RecommendationResponseClassificationProcessor:
 
         # Filter out so that it is only within the years specified
         recommendations_df.query('made >= @start_date & made <= @end_date', inplace=True)
-
+        
         columns = ['report_id','recommendation_id','recipient','made','recommendation','recommendation_text','extra_recommendation_context','reply_text']
 
         # Check to see the for previously classified responses
         if os.path.exists(output_path):
             output_df = pd.read_pickle(output_path)
             merged_df = pd.merge(recommendations_df, output_df, on= columns, how='outer')
+            merged_df = merged_df.drop_duplicates(subset=columns)
             merged_df.drop(columns=['response_category_x'], inplace=True)
             merged_df.rename(columns={'response_category_y':'response_category'}, inplace=True)
         else:
@@ -139,6 +140,9 @@ class RecommendationResponseClassificationProcessor:
 
         print(f" Out of all {len(recommendations)} recommendations, {len(unclassified_responses)} need to be classified")
 
+        if len(unclassified_responses) == 0:
+            return recommendations
+
         # For all empty response_category infer the response category
 
         unclassified_responses['response_category'] = unclassified_responses.progress_apply(
@@ -152,4 +156,4 @@ class RecommendationResponseClassificationProcessor:
         
         unclassified_responses['response_category_quality'] = 'inferred'
 
-        return pd.concat([classified_responses, unclassified_responses])
+        return pd.concat([classified_responses, unclassified_responses], ignore_index=True)
