@@ -18,7 +18,7 @@ def get_recommendations(data_location, output_file_name, refresh):
     df = pd.read_csv(data_location)
 
 
-    report_groups = [v.drop(columns='report_id').reset_index(drop=True) for k ,v in df.groupby('report_id')]
+    report_groups = [v.reset_index(drop=True) for k ,v in df.groupby('report_id')]
 
     widened_df = pd.DataFrame({
         'report_id': df.groupby('report_id').groups.keys(),

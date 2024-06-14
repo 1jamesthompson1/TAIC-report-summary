@@ -70,17 +70,10 @@ def analyze(output_dir, config, refresh):
     )
 
     RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(
-            os.path.join(
-                'data',
-                config.get('data').get('recommendations_file_name')
-            )
-            ,
-            os.path.join(
-                output_dir,
-                config.get('output').get('recommendation_responses_file_name')
-            ),
+            os.path.join('data',output_config.get('recommendations_df_file_name')),
+            os.path.join(output_dir, config.get('output').get('recommendation_responses_file_name')),
             (config.get('download').get('start_year'), config.get('download').get('end_year'))
-        )
+    )
     
 
 def cli():

@@ -78,15 +78,22 @@ class RecommendationResponseClassificationProcessor:
             'response_category'
         ]
 
-    def process(self, input_path, output_path, year_ranges):
+    def process(self, input_path: str, output_path: str, year_ranges):
         """
         This will read the DataFrame of recommendations from the data folder and then add a response category column and a response category quality column then save the DataFrame in the output folder.
         """
+        print("=============================================================================================================================")
+        print("                                         ...Classifying recommendations...")
+        print("=============================================================================================================================")
 
-        print("Classifying recommendations...")
+        if not os.path.exists(input_path):
+            raise ValueError(f"{input_path} does not exist")
 
-        recommendations_df = pd.read_csv(input_path)
+        # Load the data
+        recommendations_df = pd.read_pickle(input_path)
 
+        recommendations_df = pd.concat(list(recommendations_df['recommendations'].dropna()), ignore_index=True)
+        
         # Check to make sure it has all of the required columns
         if not all([column in recommendations_df.columns for column in self.required_columns]):
             missing_columns = [column for column in self.required_columns if column not in recommendations_df.columns]
@@ -98,27 +105,33 @@ class RecommendationResponseClassificationProcessor:
         # Filter out so that it is only within the years specified
         recommendations_df.query('made >= @start_date & made <= @end_date', inplace=True)
 
+        columns = ['report_id','recommendation_id','recipient','made','recommendation','recommendation_text','extra_recommendation_context','reply_text']
+
         # Check to see the for previously classified responses
         if os.path.exists(output_path):
-            output_df = pd.read_csv(output_path)
-
-        # Combine two dataframes to find unclassified responses
-        merged_df = pd.merge(recommendations_df, output_df, on= ["report_id","recommendation_id","recipient","made","recommendation","recommendation_text","extra_recommendation_context","reply_text"], how='outer')
-        merged_df.drop(columns=['response_category_x'], inplace=True)
-        merged_df.rename(columns={'response_category_y':'response_category'}, inplace=True)
+            output_df = pd.read_pickle(output_path)
+            merged_df = pd.merge(recommendations_df, output_df, on= columns, how='outer')
+            merged_df.drop(columns=['response_category_x'], inplace=True)
+            merged_df.rename(columns={'response_category_y':'response_category'}, inplace=True)
+        else:
+            merged_df = recommendations_df
 
         recommendations_df = self._process(merged_df)
 
-        recommendations_df.to_csv(output_path, index=False)
+        recommendations_df.to_pickle(output_path)
 
 
     def _process(self, recommendations: pd.DataFrame) -> pd.DataFrame:
         '''
-        Take a DataFrame of recommendations and provide a response_category column. There will be a response_category quality column
+        Take a long form DataFrame of recommendations and provide a response_category column. There will be a response_category quality column
         '''
         # Splits into two DataFrames based on whether response_category is already filled out.
         unclassified_responses = recommendations[recommendations['response_category'].isnull()]
         classified_responses = recommendations[~recommendations['response_category'].isnull()]
+
+        # Add response_category quality column if it doesnt exist
+        if 'response_category_quality' not in classified_responses.columns:
+            classified_responses['response_category_quality'] = None
         
         classified_responses['response_category_quality'].apply(lambda x: 'exact' if x is None else x)
 
