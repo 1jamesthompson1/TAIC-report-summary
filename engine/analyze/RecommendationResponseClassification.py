@@ -61,7 +61,7 @@ class RecommendationResponseClassifier:
             return openai_response
         else:
             print(f"Did not match any of the categories - {openai_response}")
-            return None
+            return 'Classification Error'
 
 class RecommendationResponseClassificationProcessor:
     '''
@@ -118,6 +118,8 @@ class RecommendationResponseClassificationProcessor:
 
         recommendations_df = self._process(merged_df)
 
+        recommendations_df['response_category'] = recommendations_df['response_category'].apply(lambda x: x.lower() if isinstance(x, str) else "Classification Error")
+
         recommendations_df.to_pickle(output_path)
 
 
@@ -132,8 +134,8 @@ class RecommendationResponseClassificationProcessor:
         # Add response_category quality column if it doesnt exist
         if 'response_category_quality' not in classified_responses.columns:
             classified_responses['response_category_quality'] = None
-        
-        classified_responses['response_category_quality'].apply(lambda x: 'exact' if x is None else x)
+
+        classified_responses['response_category_quality'] = classified_responses['response_category_quality'].apply(lambda x: 'exact' if x is None else x)
 
         print(f" Out of all {len(recommendations)} recommendations, {len(unclassified_responses)} need to be classified")
 

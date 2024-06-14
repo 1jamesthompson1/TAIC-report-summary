@@ -22,7 +22,7 @@ def test_classify_response(response, expected):
     assert response_category == expected
 
 
-@pytest.mark.parametrize("input, expected_category, expected_quality", [
+@pytest.mark.parametrize("input", [
     pytest.param(
         "tests/data/extracted_reports.pkl",
         id="from scratch"),
@@ -30,7 +30,7 @@ def test_classify_response(response, expected):
         "tests/data/response_classification_partly_classified.pkl",
         id="some already classified"),
 ])
-def test_classification_process(input, expected_category, expected_quality):
+def test_classification_process(input):
     output = "tests/data/response_classification_temp.pkl"
     RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(input, output, [2000, 2020])
 
@@ -42,3 +42,7 @@ def test_classification_process(input, expected_category, expected_quality):
     assert isinstance(dataframe, pd.DataFrame)
     assert 'response_category' in dataframe.columns
     assert 'response_category_quality' in dataframe.columns
+
+    print(dataframe[['recommendation_id', 'response_category', 'response_category_quality']])
+
+    assert dataframe['response_category_quality'].isnull().sum() == 0
