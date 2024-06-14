@@ -2,7 +2,7 @@ from .utils import Config, OutputFolderReader, Modes
 
 from .gather import PDFDownloader, PDFParser, DataDownloading
 from .extract import ReportExtracting 
-from .analyze import RecommendationSafetyIssueLinking, RecommendationResponseClassification
+from .analyze import RecommendationSafetyIssueLinking, RecommendationResponseClassification, Embedding
 
 import os
 import pandas as pd
@@ -74,8 +74,23 @@ def analyze(output_dir, config, refresh):
             os.path.join(output_dir, output_config.get('recommendation_response_classification_df_file_name')),
             (config.get('download').get('start_year'), config.get('download').get('end_year'))
     )
-    
 
+    # Generate embeddings
+
+    embeddings_config = output_config.get('embeddings')
+    embedding_folder = os.path.join(output_dir, embeddings_config.get('folder_name'))
+    if not os.path.exists(embedding_folder):
+        os.makedirs(embedding_folder)
+    Embedding.Embedder().process_extracted_reports(
+        os.path.join(output_dir, output_config.get('extracted_reports_df_file_name')),
+        [
+            ('safety_issues', 'safety_issue', os.path.join(embedding_folder, embeddings_config.get('safety_issues_file_name'))),
+            ('recommendations', 'recommendation', os.path.join(embedding_folder, embeddings_config.get('recommendations_file_name'))),
+            ('sections', 'section', os.path.join(embedding_folder, embeddings_config.get('report_sections_file_name'))),
+            ('important_text', 'important_text', os.path.join(embedding_folder, embeddings_config.get('important_text_file_name')))
+        ]
+
+    )
 def cli():
     parser = argparse.ArgumentParser(description='A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/')
     parser.add_argument("-r", "--refresh", help="Clears the output directory, otherwise functions will be run with what is already there.", action="store_true")

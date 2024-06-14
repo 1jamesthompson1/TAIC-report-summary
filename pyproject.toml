@@ -24,6 +24,9 @@ weasyprint = "^60.2"
 matplotlib = "^3.8.3"
 networkx = "^3.2.1"
 lancedb = "^0.8.2"
+voyageai = "^0.2.3"
+tenacity = "^8.3.0"
+transformers = "^4.41.2"
 
 [tool.poetry.group.viewer.dependencies]
 jinja2 = "^3.1.2"
@@ -49,8 +52,6 @@ scipy = "1.12"
 lbl2vec = "^1.0.2"
 ipywidgets = "^8.1.2"
 python-docx = "^1.1.0"
-tenacity = "^8.3.0"
-
 
 [tool.poetry.scripts]
 engine = "engine.cli:cli"
