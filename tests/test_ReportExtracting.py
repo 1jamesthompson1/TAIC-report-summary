@@ -1,4 +1,4 @@
-from engine.Extract_Analyze.ReportExtracting import ReportExtractor, SafetyIssueExtractor, ReportSectionExtractor
+from engine.extract.ReportExtracting import ReportExtractor, SafetyIssueExtractor, ReportSectionExtractor
 
 import os
 
@@ -25,7 +25,7 @@ maritime transport operator plan14 were scheduled to happen four times each year
 """
         safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
         assert len(safety_issues) == 1
-        assert safety_issues[0] == "Some aspects of the crew response to the fire did not follow industry good practice."
+        assert safety_issues[0]['safety_issue'] == "Some aspects of the crew response to the fire did not follow industry good practice."
 
     def test_basic_multi_colon(self):
         report_text = """
@@ -88,7 +88,7 @@ Fisheries Act) are required  to meet applicable design , construction and equipm
 """
         safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
         assert len(safety_issues) == 2
-        assert safety_issues == ["Some aspects of the crew response to the fire did not follow industry good practice.",
+        assert [safety_issue['safety_issue'] for safety_issue in safety_issues] == ["Some aspects of the crew response to the fire did not follow industry good practice.",
                                  "Inconsistencies in the application of Rule 40D may have resulted in up to 12 fishing vessels operating under the New Zealand Flag not complying fully with the relevant safety standards. A further 50 fishing vessels have been afforded grandparent rights that will allow them to operate indefinitely without meeting contemporary safety standards under the current Maritime Rules."]
         
     def test_basic_hypen(self):
@@ -110,7 +110,7 @@ at the other end.
 """
         safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
         assert len(safety_issues) == 1
-        assert safety_issues[0] == "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons."
+        assert safety_issues[0]['safety_issue'] == "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons."
 
     def test_basic_multi_hypen(self):
         report_text = """
@@ -182,7 +182,7 @@ skills in other transport modes.
 """
         safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
         assert len(safety_issues) == 2
-        assert safety_issues == [
+        assert [s['safety_issue'] for s in safety_issues] == [
             "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons.",
             "When the three staff members came together to couple the third locomotive to the disabled train at Glenbrook, no challenge and confirm actions were taken to complete a fundamental brake test procedure, which was designed to ensure that the trains' air brakes were functioning correctly."
         ]
@@ -209,7 +209,7 @@ joint SFAIRP assessment  between KiwiRail and the Council .
 """
         safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
         assert len(safety_issues) == 1
-        assert safety_issues[0] == "SFAIRP assessments were not being routinely carried out for risk treatments recommended in LCSIA reports. No process, and minimal guidance, on SFAIRP assessment for level crossing risk treatments was available in industry documents."
+        assert safety_issues[0]['safety_issue'] == "SFAIRP assessments were not being routinely carried out for risk treatments recommended in LCSIA reports. No process, and minimal guidance, on SFAIRP assessment for level crossing risk treatments was available in industry documents."
 
 
 class TestSectionExtraction:

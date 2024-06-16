@@ -253,6 +253,7 @@ issues.
             
             try:
                 safety_issues = yaml.safe_load(response)
+                safety_issues = [{'safety_issue': safety_issue['safety_issue'].strip(), 'quality': safety_issue['quality']} for safety_issue in safety_issues]
             except yaml.YAMLError as exc:
                 print(exc)
                 print('  Problem with formatting, trying again with slightly higher temp\nResponse was is \n"""\n{response}\n"""')

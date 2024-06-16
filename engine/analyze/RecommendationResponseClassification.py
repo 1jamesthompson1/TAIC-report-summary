@@ -58,7 +58,7 @@ class RecommendationResponseClassifier:
         )
 
         if openai_response in [category['category'] for category in self.response_categories] + ['N/A']:
-            return openai_response
+            return openai_response.lower()
         else:
             print(f"Did not match any of the categories - {openai_response}")
             return 'Classification Error'
