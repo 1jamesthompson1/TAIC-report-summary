@@ -1,0 +1,55 @@
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: v0.4.9
+  hooks:
+    # Run the linter.
+    - id: ruff
+    # Run the formatter.
+    - id: ruff-format
+- repo: local
+  hooks:
+    - id: clear-notebook-output
+      name: Clear Jupyter Notebook Output
+      entry: |
+        bash -c '
+        for f in $(git diff --name-only --cached); do
+            if [[ $f == *.ipynb ]]; then
+                jupyter nbconvert --clear-output --inplace $f
+                git add $f
+            fi
+        done
+        if git diff --name-only --cached --exit-code; then
+            echo "No changes detected after removing notebook output"
+            exit 1
+        fi'
+      language: system
+      stages: [pre-commit]
+    - id: check-and-update-poetry-lock
+      name: Check and Update Poetry Lock
+      entry: |
+        bash -c '
+        if ! poetry check --lock; then
+            echo "poetry.lock is out of date. You need to update it"
+            exit 1
+        else
+            echo "poetry.lock is up-to-date with pyproject.toml."
+        fi'
+      language: system
+      stages: [pre-commit]
+    - id: update-requirements
+      name: Update Requirements
+      entry: |
+        bash -c '
+        if git diff --cached --name-only | grep -q "poetry.lock"; then
+            echo "Poetry lock is staged; updating requirements file..."
+            poetry export --without-hashes --without dev -f requirements.txt --output requirements.txt
+            git add requirements.txt
+            echo "requirements.txt file updated and staged"
+        else
+            echo "poetry.lock is not staged therefore requirements file need not be updated"
+        fi'
+      language: system
+      stages: [pre-commit]
+
+fail_fast: true
