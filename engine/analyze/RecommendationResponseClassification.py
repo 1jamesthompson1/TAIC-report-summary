@@ -1,12 +1,10 @@
 from engine.utils.OpenAICaller import openAICaller
 
 import pandas as pd
+import os
 from tqdm import tqdm
 
 tqdm.pandas()
-import numpy as np
-
-import os
 
 
 class RecommendationResponseClassifier:
@@ -137,7 +135,7 @@ class RecommendationResponseClassificationProcessor:
 
         # Filter out so that it is only within the years specified
         recommendations_df.query(
-            "made >= @start_date & made <= @end_date", inplace=True
+            f"made >= '{start_date}' & made <= '{end_date}'", inplace=True
         )
 
         columns = [

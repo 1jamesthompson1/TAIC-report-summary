@@ -15,12 +15,10 @@ class TestSearchSettings:
 
     def test_failed_creation(self):
         with pytest.raises(TypeError):
-            settings = Searching.SearchSettings(
-                [Modes.Mode.a, Modes.Mode.r], (2001, "2020")
-            )
+            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2001, "2020"))
 
         with pytest.raises(TypeError):
-            settings = Searching.SearchSettings(["a", "r"], (2001, 2020))
+            Searching.SearchSettings(["a", "r"], (2001, 2020))
 
 
 class TestSearch:
@@ -53,7 +51,7 @@ class TestSearch:
         form = {"query": "hello"}
 
         with pytest.raises(ValueError):
-            search = Searching.Search.from_form(form)
+            Searching.Search.from_form(form)
 
 
 class TestSearcher:

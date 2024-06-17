@@ -2,7 +2,6 @@ import viewer.app as app
 
 import pandas as pd
 import json
-import pytest
 
 
 def test_index():

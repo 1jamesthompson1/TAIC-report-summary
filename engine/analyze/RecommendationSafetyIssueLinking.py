@@ -1,10 +1,7 @@
 from engine.utils.OpenAICaller import openAICaller
-from engine.utils.OutputFolderReader import OutputFolderReader
 
 import pandas as pd
-import yaml
 import os
-import io
 import matplotlib.pyplot as plt
 import networkx as nx
 import textwrap
@@ -117,7 +114,7 @@ class RecommendationSafetyIssueLinker:
         self, recommendation: str, safety_issue: str
     ):
         response = openAICaller.query(
-            system=f"""
+            system="""
             You are going to help me find find links between recommendations and safety issues identified in transport accident investigation reports.
 
             Each transport accident investigation report will identify safety issues. These reports will then issue recommendation that will address one or more of the safety issues identified in the report.
@@ -181,9 +178,9 @@ class RecommendationSafetyIssueLinker:
         return filtered_links
 
     def evaluate_links_for_report(self, extracted_df_path, output_file_path):
-        print(f"==================================================")
-        print(f"---------------  Evaluating links   --------------")
-        print(f"==================================================")
+        print("==================================================")
+        print("---------------  Evaluating links   --------------")
+        print("==================================================")
 
         if os.path.exists(output_file_path):
             links_df = pd.read_pickle(output_file_path)

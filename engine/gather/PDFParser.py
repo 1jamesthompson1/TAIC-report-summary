@@ -4,8 +4,6 @@ import os
 import re
 from tqdm import tqdm
 
-from ..utils.OutputFolderReader import OutputFolderReader
-
 
 def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
     print(
@@ -15,7 +13,7 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
         "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
     )
     print(
-        f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - Converting PDFs to text - - - - - - - - - - - - - - - - - - - - - -"
+        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - Converting PDFs to text - - - - - - - - - - - - - - - - - - - - - -"
     )
     print(
         "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"

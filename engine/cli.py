@@ -1,4 +1,4 @@
-from .utils import Config, OutputFolderReader, Modes
+from .utils import Config, Modes
 
 from .gather import PDFDownloader, PDFParser, DataDownloading
 from .extract import ReportExtracting

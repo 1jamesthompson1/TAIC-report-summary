@@ -1,8 +1,6 @@
-from math import exp
-import time
 import os
 import openai
-from openai import OpenAI, BadRequestError
+from openai import OpenAI
 from dotenv import load_dotenv
 import tiktoken
 

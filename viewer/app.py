@@ -1,25 +1,19 @@
 # Local
 
-import engine.extract.Themes as Themes
-import engine.utils.Modes as Modes
 
 from . import Searching
 
 # Third party
 
-from flask import Flask, render_template, request, jsonify, send_file, Markup
-from werkzeug.wsgi import FileWrapper
+from flask import Flask, render_template, request, jsonify, send_file
 import pandas as pd
 import base64
 
 # built in
 
-from urllib.parse import parse_qs
 import tempfile
-import json
 import os
 import argparse
-from threading import Thread
 
 app = Flask(__name__)
 

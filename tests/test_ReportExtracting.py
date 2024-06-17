@@ -1,5 +1,4 @@
 from engine.extract.ReportExtracting import (
-    ReportExtractor,
     SafetyIssueExtractor,
     ReportSectionExtractor,
 )

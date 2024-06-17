@@ -294,7 +294,7 @@ issues.
                 print("  No references found in theme")
                 continue
             elif isinstance(result, str):
-                print(f"  Invalid format")
+                print("  Invalid format")
                 return self._get_theme(report_id, report_text)
 
             processed_text, num_references, num_updated_references = result

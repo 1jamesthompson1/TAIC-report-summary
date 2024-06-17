@@ -15,12 +15,12 @@ class ReportExtractor:
     def extract_important_text(self):
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
-        if contents_sections == None:
+        if contents_sections is None:
             return None, None
 
         pages_to_read = self.extract_pages_to_read(contents_sections)
 
-        if pages_to_read == None:
+        if pages_to_read is None:
             return None, None
 
         # Try and read the pages. If it fails try and read to the next page three times. Then give up.
@@ -33,7 +33,9 @@ class ReportExtractor:
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
 
-        page = lambda num: f"<< Page {num} >>"
+        def page(num):
+            return f"<< Page {num} >>"
+
         middle_pages = r"[\s\S]*"
         pattern = page(page_number_1) + middle_pages + page(page_number_2)
 
@@ -146,14 +148,14 @@ class SafetyIssueExtractor(ReportExtractor):
         This function will use regex and search the text for any safety issues.
         It will not be used in the main engine pipeline but it useful for development purposes while we dont have a reliable inference extraction.
         """
-        if important_text == None:
+        if important_text is None:
             raise Exception(
                 "  No important text provided to extract safety issues from"
             )
 
-        safety_regex = (
-            lambda x: rf"s ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s? {{0,3}}{x} {{0,3}}"
-        )
+        def safety_regex(x):
+            return f"s ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s? {{0,3}}{x} {{0,3}}"
+
         end_regex = r"([\s\S]+?)(?=(?:\d+\.(?:\d+\.)?(?:\d+)?)|(?:s ?a ?f ?e ?t ?y ? ?i ?s ?s ?u ?e ?s?))"
 
         uncompiled_regexes = [
@@ -210,53 +212,8 @@ cover a single safety issue, or two or more related safety
 issues.
 """
 
-        message = (
-            lambda text: f"""
-{text}
-        
-=Instructions=
-
-I want to know the safety issues which this investigation has found.
-
-For each safety issue you find I need to know what is the quality of this safety issue.
-Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.
-
-If no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
-
-
-Can your response please be in yaml format as shown below.
-
-- safety_issue: |
-    bla bla talking about this and that bla bla bla
-  quality: exact
-- safety_issue: |
-    bla bla talking about this and that bla bla bla
-  quality: exact
-
-
-There is no need to enclose the yaml in any tags.
-
-=Here are some definitions=
-
-Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
-increase the likelihood of an occurrence, and/or the
-severity of any adverse consequences associated with the
-occurrence.
-
-Safety issue - A safety factor that:
-• can reasonably be regarded as having the
-potential to adversely affect the safety of future
-operations, and
-• is characteristic of an organisation, a system, or an
-operational environment at a specific point in time.
-Safety Issues are derived from safety factors classified
-either as Risk Controls or Organisational Influences.
-
-Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
-cover a single safety issue, or two or more related safety
-issues.
-"""
-        )
+        def message(text):
+            return f'\n{text}\n        \n=Instructions=\n\nI want to know the safety issues which this investigation has found.\n\nFor each safety issue you find I need to know what is the quality of this safety issue.\nSome reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.\n\nIf no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.\n\n\nCan your response please be in yaml format as shown below.\n\n- safety_issue: |\n    bla bla talking about this and that bla bla bla\n  quality: exact\n- safety_issue: |\n    bla bla talking about this and that bla bla bla\n  quality: exact\n\n\nThere is no need to enclose the yaml in any tags.\n\n=Here are some definitions=\n\nSafety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would\nincrease the likelihood of an occurrence, and/or the\nseverity of any adverse consequences associated with the\noccurrence.\n\nSafety issue - A safety factor that:\n• can reasonably be regarded as having the\npotential to adversely affect the safety of future\noperations, and\n• is characteristic of an organisation, a system, or an\noperational environment at a specific point in time.\nSafety Issues are derived from safety factors classified\neither as Risk Controls or Organisational Influences.\n\nSafety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may\ncover a single safety issue, or two or more related safety\nissues.\n'
 
         temp = 0
         while temp < 0.1:
@@ -264,7 +221,7 @@ issues.
                 system_message, message(self.important_text), model="gpt-4", temp=temp
             )
 
-            if response == None:
+            if response is None:
                 print("  Could not get safety issues from the report.")
                 return None
 
@@ -347,9 +304,9 @@ class ReportSectionExtractor(ReportExtractor):
 
         note that the end_regexs will have extras incrase the next section is missing.
         """
-        base_regex_template = (
-            lambda section: rf"((( {section}(?! ?(m )|(metre))) {{1,3}}(?![\s\S]*^{section} ))|((^{section}) {{1,3}}))(?![\S\s()]{{1,100}}\.{{2,}})"
-        )
+
+        def base_regex_template(section):
+            return f"((( {section}(?! ?(m )|(metre))) {{1,3}}(?![\\s\\S]*^{section} ))|((^{section}) {{1,3}}))(?![\\S\\s()]{{1,100}}\\.{{2,}})"
 
         split_section = section_str.split(".")
         section = split_section[0]
@@ -479,7 +436,7 @@ class ReportSectionExtractor(ReportExtractor):
                 endRegexMatches, key=lambda x: x.start() if x else len(self.report_text)
             )
 
-        if startMatch == None or endMatch == None:
+        if startMatch is None or endMatch is None:
             # print("Warning: could not find section")
             # print(f"  startMatch: {startMatch} with regex {startRegex} \n  endMatch: {endMatch} with regex {endRegex}")
 
@@ -565,7 +522,7 @@ class RecommendationsExtractor(ReportSectionExtractor):
 
         recommendation_section = self._extract_recommendation_section_text()
 
-        if recommendation_section == None:
+        if recommendation_section is None:
             print(
                 "  Could not get recommendations as there was no recommendation section"
             )
@@ -573,26 +530,9 @@ class RecommendationsExtractor(ReportSectionExtractor):
 
         # Parse the  recommendation section and get a list
 
-        message = (
-            lambda text: f'''
-"""        
-{text}
-"""
+        def message(text):
+            return f'\n"""        \n{text}\n"""\n\n=Instructions=\n\nThis is the recommendation section of the report.  I want to have a list of all of the distinct recommendations that were made. It is important that the recommendations are copied verbatim\n\nCan your response please be in yaml format.\n\n- |\n    bla bla bla\n- |\n    bla bla bla bla\n\nThere is no need to enclose the yaml in any tags.\n'
 
-=Instructions=
-
-This is the recommendation section of the report.  I want to have a list of all of the distinct recommendations that were made. It is important that the recommendations are copied verbatim
-
-Can your response please be in yaml format.
-
-- |
-    bla bla bla
-- |
-    bla bla bla bla
-
-There is no need to enclose the yaml in any tags.
-'''
-        )
         response = openAICaller.query(
             """
 You are going help me read and parse a transport accident investigation report.
@@ -623,13 +563,14 @@ You will be given a section and a question and you will need to respond in the f
         """
         content_section = self.extract_contents_section()
 
-        if content_section == None:
+        if content_section is None:
             print(
-                f"  Without content section the recommendation section cannot be found"
+                "  Without content section the recommendation section cannot be found"
             )
             return None
 
-        add_whitespace = lambda text: r"\s{0,2}".join(text)
+        def add_whitespace(text):
+            return "\\s{0,2}".join(text)
 
         search_regex = rf'(\d{{1,3}})\s{{0,2}}\.?\s{{0,2}}(({add_whitespace("safety")})?\s?{add_whitespace("recommendations")}?).*?(\d{{1,3}})'
 
@@ -639,13 +580,13 @@ You will be given a section and a question and you will need to respond in the f
 
         # Can't find the recommendation section and assuming that there are no recommendations
         if len(recommendation_matches) == 0:
-            print(f"  Could not find the recommendation section")
+            print("  Could not find the recommendation section")
             return None
 
         # The regex matches multiple times so will assume it is the last one as any earlier matches are probably from the executive summary
         if len(recommendation_matches) > 1:
             print(
-                f"  Found multiple recommendation sections, assuming the last one is the correct one"
+                "  Found multiple recommendation sections, assuming the last one is the correct one"
             )
             recommendation_match = recommendation_matches[-1]
         else:
@@ -682,7 +623,7 @@ class ReportExtractingProcessor:
             report_text, report_id, important_text
         ).extract_safety_issues()
 
-        if safety_issues == None:
+        if safety_issues is None:
             return f" Could not extract safety issues from {report_id}"
 
         return safety_issues
@@ -764,7 +705,7 @@ class ReportExtractingProcessor:
             important_text, pages_read = ReportExtractor(
                 report_text, report_id
             ).extract_important_text()
-            if important_text == None:
+            if important_text is None:
                 pbar.write(f"  Could not extract important text from {report_id}")
                 continue
             important_text_df.loc[len(important_text_df)] = [
@@ -820,14 +761,14 @@ class ReportExtractingProcessor:
 
                 if len(paragraphs) == 0:
                     if debug:
-                        print(f" No paragraphs found ")
+                        print(" No paragraphs found ")
                     sub_section_text = extractor.extract_section(
                         sub_section_str, useLLM=False
                     )
 
                     if sub_section_text is None and subsection_missing_count > 0:
                         if debug:
-                            print(f" No subsection found")
+                            print(" No subsection found")
                         break
                     elif sub_section_text is None:
                         subsection_missing_count += 1

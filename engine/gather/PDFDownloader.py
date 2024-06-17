@@ -1,7 +1,6 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from enum import Enum
 from ..utils import Modes
 from tqdm import tqdm
 
@@ -40,7 +39,7 @@ class ReportDownloader:
             "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
         )
         print(
-            f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs - - - - - - - - - - - - - - - - - - - - - -"
+            "- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs - - - - - - - - - - - - - - - - - - - - - -"
         )
         print(
             "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"

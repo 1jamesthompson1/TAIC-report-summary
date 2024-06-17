@@ -8,7 +8,6 @@ import lancedb
 import voyageai
 
 # built in
-from typing import Callable
 
 
 class SearchSettings:
@@ -49,7 +48,7 @@ class Search:
         if form is None or not isinstance(form, dict):
             raise TypeError(f"Form data is not a dictionary but {type(form)}")
         if len(form) == 0:
-            raise ValueError(f"Form data is empty")
+            raise ValueError("Form data is empty")
 
         try:
             # Query
@@ -281,7 +280,7 @@ class SearchEngineSearcher:
         """
 
     def rag_search(self):
-        print((f"Understanding query..."))
+        print(("Understanding query..."))
 
         formatted_query = openAICaller.query(
             system="""
@@ -297,7 +296,7 @@ class SearchEngineSearcher:
         )
         print(f' Going to run query: "{formatted_query}"')
 
-        print(f"Getting relevant safety issues...")
+        print("Getting relevant safety issues...")
 
         self.query = formatted_query
 
@@ -313,7 +312,7 @@ class SearchEngineSearcher:
             )
         )
 
-        print(f"Summarizing relevant safety issues...")
+        print("Summarizing relevant safety issues...")
         response = openAICaller.query(
             system="""
     You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.

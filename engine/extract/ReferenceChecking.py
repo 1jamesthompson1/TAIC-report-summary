@@ -1,5 +1,6 @@
 from enum import Enum
-import re, copy
+import re
+import copy
 from .ReportExtracting import ReportSectionExtractor
 from ..utils.OpenAICaller import openAICaller
 
@@ -60,7 +61,7 @@ class Reference:
             try:
                 start_section = list(map(int, start_section.split(".")))
                 end_section = list(map(int, end_section.split(".")))
-            except:
+            except ValueError:
                 self.set_invalid()
                 return None
 
@@ -175,11 +176,11 @@ class ReferenceValidator:
 
         try:
             references = self._extract_references(text)
-        except Exception as e:
+        except Exception:
             return "Invalid format"
 
         if references is None:
-            self._print(f"   No references found")
+            self._print("   No references found")
             return None
         updated_references_counter = 0
         for reference in references:
@@ -239,7 +240,7 @@ class ReferenceValidator:
         invalid_reference_regex = r'\("\d.\d{1,2}(.\d{1,2})?"\)'
         if re.search(invalid_reference_regex, text):
             self._print(
-                f"""  Reference formatted with ("3.45") style which is not allowed."""
+                """  Reference formatted with ("3.45") style which is not allowed."""
             )
             raise Exception("Invalid reference format")
 
@@ -337,7 +338,7 @@ Here is the source text:
         valid = openAICaller.query(system_message, user_message, model="gpt-4", temp=0)
 
         if valid.lower() == "yes":
-            self._print(f"    Validated citation")
+            self._print("    Validated citation")
             citation.set_validated()
             return citation
         elif valid.lower() != "no":
@@ -364,17 +365,19 @@ Here is the source text:
         """
         Checks if the given quote is valid or not. This is done by just using Regex. If the quote cant be found in the source section then it is invalid. There may be extra problems with additional spaces that can be added into the source section by the text extraction from a pdf.
         """
-        format_punctuation = lambda text: re.sub(
-            r"""(('')|['"])""", r"""(('')|['"])""", text
-        ).replace(",", r",?")
+
+        def format_punctuation(text):
+            return re.sub(r"""(('')|['"])""", r"""(('')|['"])""", text).replace(
+                ",", r",?"
+            )
 
         if attempt_repair:
             self._print(
                 f"   Validating quote: {quote.text} with reference {quote.reference_str}"
             )
         quote_regex = re.compile(quote.text, re.MULTILINE | re.IGNORECASE)
-        if not re.search(quote_regex, source_section) is None:
-            self._print(f"   Validated quote")
+        if re.search(quote_regex, source_section) is not None:
+            self._print("   Validated quote")
             quote.set_validated()
             return quote
 
@@ -383,8 +386,8 @@ Here is the source text:
             format_punctuation(r"\s*".join(list(quote.text.strip()))),
             re.MULTILINE | re.IGNORECASE,
         )
-        if not re.search(quote_regex, source_section) is None:
-            self._print(f"   Validated quote with extra spaces")
+        if re.search(quote_regex, source_section) is not None:
+            self._print("   Validated quote with extra spaces")
             quote.set_validated()
             return quote
 

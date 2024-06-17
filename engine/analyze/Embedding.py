@@ -147,9 +147,9 @@ class Embedder:
             return embedded_df
 
     def process_extracted_reports(self, extracted_df_path, embeddings_config):
-        print(f"==================================================")
-        print(f"---------------  Embedding reports  --------------")
-        print(f"==================================================")
+        print("==================================================")
+        print("---------------  Embedding reports  --------------")
+        print("==================================================")
 
         extracted_df = pd.read_pickle(extracted_df_path)
         extracted_df["report_id"] = extracted_df.index

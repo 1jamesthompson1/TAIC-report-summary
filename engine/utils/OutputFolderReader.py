@@ -25,7 +25,7 @@ class OutputFolderReader:
 
         report_ids = map(extract_report_id, directory_names)
 
-        return list(filter(lambda ele: ele != None, report_ids))
+        return list(filter(lambda ele: ele is not None, report_ids))
 
     def _get_report_dirs(self):
         report_dir_template = self.output_config.get("reports").get("folder_name")
