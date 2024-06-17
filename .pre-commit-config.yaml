@@ -43,7 +43,7 @@ repos:
         bash -c '
         if git diff --cached --name-only | grep -q "poetry.lock"; then
             echo "Poetry lock is staged; updating requirements file..."
-            poetry export --without-hashes --without dev -f requirements.txt --output requirements.txt
+            poetry export --without-hashes --only main,viewer -f requirements.txt --output requirements.txt
             git add requirements.txt
             echo "requirements.txt file updated and staged"
         else
