@@ -1,9 +1,13 @@
-from engine.extract.ReportExtracting import ReportExtractor, SafetyIssueExtractor, ReportSectionExtractor
+from engine.extract.ReportExtracting import (
+    ReportExtractor,
+    SafetyIssueExtractor,
+    ReportSectionExtractor,
+)
 
 import os
 
-class TestSafetyIssueExtraction:
 
+class TestSafetyIssueExtraction:
     def test_basic_colon(self):
         report_text = """
 3.18. Regardless of w hy the system did not activate automatically, there were manual push -
@@ -23,9 +27,14 @@ This would normally have been achieved during th e crew induction on board and f
 and emergency drills, which according to the operator's (DW New Zealand Limited 's) 
 maritime transport operator plan14 were scheduled to happen four times each year.  
 """
-        safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(
+            report_text, "test report", report_text
+        ).extract_safety_issues()
         assert len(safety_issues) == 1
-        assert safety_issues[0]['safety_issue'] == "Some aspects of the crew response to the fire did not follow industry good practice."
+        assert (
+            safety_issues[0]["safety_issue"]
+            == "Some aspects of the crew response to the fire did not follow industry good practice."
+        )
 
     def test_basic_multi_colon(self):
         report_text = """
@@ -86,11 +95,15 @@ Maritime Rules.
 3.29. Fishing ships entered into the Fishing Vessel Register under the Fisheries Act 1996 (the 
 Fisheries Act) are required  to meet applicable design , construction and equipment rules 
 """
-        safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(
+            report_text, "test report", report_text
+        ).extract_safety_issues()
         assert len(safety_issues) == 2
-        assert [safety_issue['safety_issue'] for safety_issue in safety_issues] == ["Some aspects of the crew response to the fire did not follow industry good practice.",
-                                 "Inconsistencies in the application of Rule 40D may have resulted in up to 12 fishing vessels operating under the New Zealand Flag not complying fully with the relevant safety standards. A further 50 fishing vessels have been afforded grandparent rights that will allow them to operate indefinitely without meeting contemporary safety standards under the current Maritime Rules."]
-        
+        assert [safety_issue["safety_issue"] for safety_issue in safety_issues] == [
+            "Some aspects of the crew response to the fire did not follow industry good practice.",
+            "Inconsistencies in the application of Rule 40D may have resulted in up to 12 fishing vessels operating under the New Zealand Flag not complying fully with the relevant safety standards. A further 50 fishing vessels have been afforded grandparent rights that will allow them to operate indefinitely without meeting contemporary safety standards under the current Maritime Rules.",
+        ]
+
     def test_basic_hypen(self):
         report_text = """
 4.3.5.  The servic ing staff and the train driver were qualified for their roles and all had experience in 
@@ -108,9 +121,14 @@ that had brake handles permanently fitted to both cabs.   It required train driv
 locomotive  and train brake handles correctly before vacating a cab and relocating to the cab 
 at the other end.    
 """
-        safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(
+            report_text, "test report", report_text
+        ).extract_safety_issues()
         assert len(safety_issues) == 1
-        assert safety_issues[0]['safety_issue'] == "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons."
+        assert (
+            safety_issues[0]["safety_issue"]
+            == "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons."
+        )
 
     def test_basic_multi_hypen(self):
         report_text = """
@@ -180,13 +198,15 @@ situation, use all of its available resources  and work better with one another.
 skills and practices form a significant component of what has become known as non -technical 
 skills in other transport modes.
 """
-        safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(
+            report_text, "test report", report_text
+        ).extract_safety_issues()
         assert len(safety_issues) == 2
-        assert [s['safety_issue'] for s in safety_issues] == [
+        assert [s["safety_issue"] for s in safety_issues] == [
             "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons.",
-            "When the three staff members came together to couple the third locomotive to the disabled train at Glenbrook, no challenge and confirm actions were taken to complete a fundamental brake test procedure, which was designed to ensure that the trains' air brakes were functioning correctly."
+            "When the three staff members came together to couple the third locomotive to the disabled train at Glenbrook, no challenge and confirm actions were taken to complete a fundamental brake test procedure, which was designed to ensure that the trains' air brakes were functioning correctly.",
         ]
-    
+
     def test_complex_colon(self):
         report_text = """
 24 A condition that occurs in vehicles when the angle of sunligh t hitting a windscreen creates glare that is very 
@@ -207,21 +227,29 @@ below . The path overlaid in green  show s the process  that crossing closure sh
 followed,  arriving at 'Is treatment  suitable given constraints? ' This step represents a 
 joint SFAIRP assessment  between KiwiRail and the Council . 
 """
-        safety_issues = SafetyIssueExtractor(report_text, 'test report', report_text).extract_safety_issues()
+        safety_issues = SafetyIssueExtractor(
+            report_text, "test report", report_text
+        ).extract_safety_issues()
         assert len(safety_issues) == 1
-        assert safety_issues[0]['safety_issue'] == "SFAIRP assessments were not being routinely carried out for risk treatments recommended in LCSIA reports. No process, and minimal guidance, on SFAIRP assessment for level crossing risk treatments was available in industry documents."
+        assert (
+            safety_issues[0]["safety_issue"]
+            == "SFAIRP assessments were not being routinely carried out for risk treatments recommended in LCSIA reports. No process, and minimal guidance, on SFAIRP assessment for level crossing risk treatments was available in industry documents."
+        )
 
 
 class TestSectionExtraction:
-
     def __load_report_text(self, report_id):
-        with open(os.path.join('tests', 'data', 'report_texts', f'{report_id}.txt'), 'r') as f:
+        with open(
+            os.path.join("tests", "data", "report_texts", f"{report_id}.txt"), "r"
+        ) as f:
             report_text = f.read()
         return report_text
-    
+
     def __test_section_extraction(self, report_id, section):
         report_text = self.__load_report_text(report_id)
-        section = ReportSectionExtractor(report_text, 'test report').extract_section(section, useLLM = False)
+        section = ReportSectionExtractor(report_text, "test report").extract_section(
+            section, useLLM=False
+        )
         return section
 
     def test_section(self):
@@ -341,9 +369,13 @@ then flew the helicopter back to Queenstown to meet up with the ski groups.
 safety briefing in preparation for the day's activities.  A heli -ski guide loaded  the first group of 
 five, group A, and their gear onto the h
 """
-        section = ReportSectionExtractor(report_text, 1).extract_section("2", useLLM= False)
+        section = ReportSectionExtractor(report_text, 1).extract_section(
+            "2", useLLM=False
+        )
 
-        assert section == """2.1. On the afternoon of Saturday 16 August 2014, the Civil Aviation Authority (CAA) notified the 
+        assert (
+            section
+            == """2.1. On the afternoon of Saturday 16 August 2014, the Civil Aviation Authority (CAA) notified the 
 Transport Accident Investigation Commission  (the Commission)  of the accident.  The 
 Commission opened an inquiry under section 13(1)b of the Transport Accid ent Investigation 
 Commission Act 1990, and appointed an investigator in charge.  
@@ -404,6 +436,7 @@ notification the prosecution pro ceedings were not proceeding to trial.
 Final Report AO -2014 -005 
 << Page 5 >>
  3. Factual information"""
+        )
 
     def test_subsection(self):
         report_text = """
@@ -437,10 +470,14 @@ master then assumed control of the ship , having received virtually no informati
 the ship was , where it was heading , and what immediate dangers to navigation he needed to 
 consider.  
 """
-        section = ReportSectionExtractor(report_text, 'test report').extract_section("1.4", useLLM = False)
+        section = ReportSectionExtractor(report_text, "test report").extract_section(
+            "1.4", useLLM=False
+        )
 
         assert section is not None
-        assert section == """1.4. The planned course t o the Tauranga pilot station was to pass two nautical miles north of 
+        assert (
+            section
+            == """1.4. The planned course t o the Tauranga pilot station was to pass two nautical miles north of 
 Astrolabe Reef before making the final adjustment in course to the pilot station.   The second  
 mate decided to reduce the two miles to one mile in order to save time.  The second  mate 
 then made a series of small course adjustments towards Astrolabe Reef to make the shortcut . 
@@ -448,12 +485,14 @@ In doing so he altered the course 5 degrees past the required track and did not 
 allowance for any compass error or sideways "drift", and as a conseque nce the Rena  was 
 making a ground track directly for Astrolabe Reef.  Meanwhile the master had been woken 
 and arrived on the bridge to prepare for arrival at the port."""
+        )
 
     def test_section_full_report(self):
+        section = self.__test_section_extraction("2016_204", "4.3")
 
-        section = self.__test_section_extraction("2016_204", '4.3')
-
-        assert section == """4.3. Passage planning  
+        assert (
+            section
+            == """4.3. Passage planning  
 Safety issue: The vessel 's bridge team and the pilot did not have a shared understanding of  a 
 common passage plan before the pilotage began.  Consequently,  the pilot and the vessel 's 
 bridge team had different understanding s of the planned track to be followed and their 
@@ -540,6 +579,7 @@ not available at the time of the accident and therefore was not able to be us ed
 team on this occasion.    
 4.3.12.  The Commission has made recommendations to Maritime New Zealand to promote the use of 
 standard passage plans by all New Zealand harbour authorities."""
+        )
 
     def test_paragraph(self):
         report_text = """
@@ -567,11 +607,16 @@ aware of the imminent danger.
 Findings:  
 """
 
-        section = ReportSectionExtractor(report_text, 'test report').extract_section("4.2.24", useLLM=False)
-        assert section == """4.2.24.  The second  mate did none of the above.  T he alteration to the gyro heading  was not a single 
+        section = ReportSectionExtractor(report_text, "test report").extract_section(
+            "4.2.24", useLLM=False
+        )
+        assert (
+            section
+            == """4.2.24.  The second  mate did none of the above.  T he alteration to the gyro heading  was not a single 
 change to the vessel 's heading but rather a progressive change over about 30 minutes.  The 
 true course between the pin-prick  he made on the chart  and the new intended alteration point 
 one nautical mile north of the reef was about 260 degrees."""
+        )
 
     def test_paragraph_to_next_sub_section(self):
         report_text = """
@@ -646,9 +691,13 @@ the age of each cylinder based on  its manufacture date , rather than its instal
 
 Final Report MO -2017 -203 
 """
-        section = ReportSectionExtractor(report_text, 'test report').extract_section("4.2.3", useLLM=False)
+        section = ReportSectionExtractor(report_text, "test report").extract_section(
+            "4.2.3", useLLM=False
+        )
 
-        assert section == """4.2.3.  There was no evidence of any pre -existing crack occurring before the failure.  The source of 
+        assert (
+            section
+            == """4.2.3.  There was no evidence of any pre -existing crack occurring before the failure.  The source of 
 the leak in the system that the crew were trying to remedy was neve r found.  
  
 Final Report MO -2017 -203 
@@ -656,12 +705,14 @@ Final Report MO -2017 -203
   
 Figure 15 
 Location of burst on failed cylinder"""
+        )
 
     def test_paragraph_to_next_section_full(self):
+        section = self.__test_section_extraction("2014_004", "4.2.5")
 
-        section = self.__test_section_extraction("2014_004", '4.2.5')
-
-        assert section == """4.2.5.  A toxicologic al examination of the pilot found no performance -impairing substances and the 
+        assert (
+            section
+            == """4.2.5.  A toxicologic al examination of the pilot found no performance -impairing substances and the 
 carbon monoxide level in his blood was in the normal range for a smoker.  It was therefore 
 very unlikely that the pilot had been physically incapacitated before the stall.  
                                                         
@@ -671,6 +722,7 @@ very unlikely that the pilot had been physically incapacitated before the stall.
 
 << Page 14 >>
  Final report AO -2014 -004"""
+        )
 
     def test_paragraph_to_next_section(self):
         report_text = """
@@ -716,9 +768,13 @@ installations, which has resulted in a wide variation in, and in some case inade
 standards applied by flag state administrations, classification societies and authorised 
 service providers  
 """
-        section = ReportSectionExtractor(report_text, 'test report').extract_section("3.6.5", useLLM=False)
+        section = ReportSectionExtractor(report_text, "test report").extract_section(
+            "3.6.5", useLLM=False
+        )
 
-        assert section == """3.6.5.  The five-yearly inspection  report  prepared by the authorised service provider14 stated that the 
+        assert (
+            section
+            == """3.6.5.  The five-yearly inspection  report  prepared by the authorised service provider14 stated that the 
 nitrogen cylinders on  board the Emerald Princess  were aged and the company should 
 consider swap ping them with new nitrogen cylinders.   The report also stated th at at least one  
 accumulator was  corroded and the operator should  consider engaging the equipment 
@@ -730,24 +786,28 @@ equipment.
 Final Report MO -2017 -203 
 << Page 17 >>
  4. Analysis"""
+        )
 
     def test_missing_next_section(self):
+        section = self.__test_section_extraction("2010_204", "3.1.9")
 
-        section = self.__test_section_extraction("2010_204", '3.1.9')
-
-        assert section == """3.1.9.  At about 1957 the vessel was approximately abeam of No.4 buoy .  The pilot was unable to 
+        assert (
+            section
+            == """3.1.9.  At about 1957 the vessel was approximately abeam of No.4 buoy .  The pilot was unable to 
 ascertain from the master what the problem was with the main  engine , so he radioed  the tugs 
 to return and stand  by to assist as soon as possible.  
   
 
 << Page 6 >>
  Report 10 -204"""
-        
+        )
+
     def test_suitable_match_after_real_section(self):
+        section = self.__test_section_extraction("2016_204", "4.2.10")
 
-        section = self.__test_section_extraction("2016_204", '4.2.10')
-
-        assert section == """4.2.10.  The pilot realised that  something was wrong when he , along with the rest of the bridge team , 
+        assert (
+            section
+            == """4.2.10.  The pilot realised that  something was wrong when he , along with the rest of the bridge team , 
 felt a bump .  He noticed that the speed of the vessel was slowing and the vessel's bow was 
 swing ing to starboard despite  his havin g just applied port hel m.  He realised from these 
 indicators that the vessel was grounding  and immediately ordered the engine  to stop and then 
@@ -777,13 +837,14 @@ Molly Manx 's course made
 good  
 Final Report MO -2016 -204 
 << Page 14 >>"""
-
+        )
 
     def test_skipped_section_mismatch(self):
+        section = self.__test_section_extraction("2010_001", "1.3")
 
-        section = self.__test_section_extraction("2010_001", '1.3')
-
-        assert section == """1.3. The investigation found that the events might have been avoided or been less severe ha d the 
+        assert (
+            section
+            == """1.3. The investigation found that the events might have been avoided or been less severe ha d the 
 operator had a more robust flight dispatch system, and had the air traffic service complied fully 
 with a requirement to pass flight information to pilots on first contact.  The Commission made a 
 safety recommendation regarding the clarity of informat ion about  hazardous meteorological 
@@ -792,6 +853,7 @@ conditions.
 
 << Page 2 >>
  Report 10 -001 2. Factual Information"""
+        )
 
     def test_no_section(self):
         report_text = """
@@ -856,13 +918,14 @@ and the cylinder s are  allowed back into service .
 
 """
 
-        section = ReportSectionExtractor(report_text, 'test report').extract_section("8.6", useLLM = False)
+        section = ReportSectionExtractor(report_text, "test report").extract_section(
+            "8.6", useLLM=False
+        )
         assert section is None
 
     def test_no_section_prior_match(self):
+        section = self.__test_section_extraction("2022_101", "4.5")
 
-        section = self.__test_section_extraction("2022_101", '4.5')
-        
         assert section is None
 
     def test_section_with_fallback_next_section(self):
@@ -870,9 +933,11 @@ and the cylinder s are  allowed back into service .
         There can be a situation where it will go from a sub paragraph to the next paragraph, as the subsection is not findable.
         """
 
-        section = self.__test_section_extraction("2010_009", '3.6.59')
+        section = self.__test_section_extraction("2010_009", "3.6.59")
 
-        assert section == """3.6.59.  Between 11 and 18 August 2010, in anticipation of the introduction of R ule Part 115 
+        assert (
+            section
+            == """3.6.59.  Between 11 and 18 August 2010, in anticipation of the introduction of R ule Part 115 
 Adventure Aviation  and to get an indication of the level of safety of parachute operations , the 
 HSE Unit completed audit inspections o f4 of the larger parachuting operators  located in the 
 central North Island.  Rule Part 115  was intended to cover commercial activities previously 
@@ -889,22 +954,26 @@ Employment Act 1992 Prime Ministerial Designation Pursuant to Section 28B of the
 
 << Page 20 >>
  Report 10 -009"""
-        
+        )
+
     def test_first_section(self):
+        section = self.__test_section_extraction("2019_106", "1.1")
 
-        section = self.__test_section_extraction('2019_106', '1.1')
-
-        assert section == """1.1 At about 1802  on 3 September 2019 , the daily TranzAlpine service was approaching 
+        assert (
+            section
+            == """1.1 At about 1802  on 3 September 2019 , the daily TranzAlpine service was approaching 
 Rolleston station on a return journey from Greymouth to Christchurch. The train was 
 incorrectly routed onto the West Main Line. The platform at Rolleston could not be 
 accessed from this track , and two passenge rs who disembarked walked across the East 
 Main Line without the knowledge of train control ."""
+        )
 
     def test_two_early_references(self):
+        section = self.__test_section_extraction("2014_102", "6.3.2")
 
-        section = self.__test_section_extraction('2014_102', '6.3.2')
-
-        assert section == """6.3.2.  On 30 January 2015  KiwiRail advised that it had taken the following safety actions:  
+        assert (
+            section
+            == """6.3.2.  On 30 January 2015  KiwiRail advised that it had taken the following safety actions:  
  KiwiRail is presently working with a Driver Subject Matter Expert Group in an R&D project 
 to help develop a Risk Triggered Commentary Driving procedure that is intended to include 
 a stabilis ed approach procedure for non -ETCS trains.  This work is based on international 
@@ -916,42 +985,45 @@ wider rail industry .
 
 << Page 14 >>
  Final report RO -2014 -102 7. Recommendations"""
+        )
 
     def test_one_early_reference_with_missing_previous_section(self):
-
-        section = self.__test_section_extraction('2020_202', '4.9')
+        section = self.__test_section_extraction("2020_202", "4.9")
 
         assert section is None
 
     def test_one_reference_in_content_section_with_missing_previous_section(self):
-
-        section = self.__test_section_extraction('2016_204', '7.5')
+        section = self.__test_section_extraction("2016_204", "7.5")
 
         assert section is None
 
     def test_previous_section_paragraph(self):
-
-        section = ReportSectionExtractor("test report", 'test report id')._get_previous_section("5.3.2")
+        section = ReportSectionExtractor(
+            "test report", "test report id"
+        )._get_previous_section("5.3.2")
         assert section == "5.3.1"
-    
-    def test_previous_section_subsection(self):
 
-        section = ReportSectionExtractor("test report", 'test report id')._get_previous_section("5.3")
+    def test_previous_section_subsection(self):
+        section = ReportSectionExtractor(
+            "test report", "test report id"
+        )._get_previous_section("5.3")
         assert section == "5.2"
 
     def test_previous_section_fallback_paragraph(self):
-
-        section = ReportSectionExtractor("test report", 'test report id')._get_previous_section("5.3.1")
+        section = ReportSectionExtractor(
+            "test report", "test report id"
+        )._get_previous_section("5.3.1")
         assert section == "5.2"
-    
-    def test_previous_section_fallback_subsection(self):
 
-        section = ReportSectionExtractor("test report", 'test report id')._get_previous_section("5.1")
+    def test_previous_section_fallback_subsection(self):
+        section = ReportSectionExtractor(
+            "test report", "test report id"
+        )._get_previous_section("5.1")
         assert section == "4"
 
     def test_prevoius_section_first_section(self):
-
-        section = ReportSectionExtractor("test report", 'test report id')._get_previous_section("1.1")
+        section = ReportSectionExtractor(
+            "test report", "test report id"
+        )._get_previous_section("1.1")
 
         assert section == "1"
-        

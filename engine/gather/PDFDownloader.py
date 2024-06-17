@@ -6,13 +6,23 @@ from ..utils import Modes
 from tqdm import tqdm
 
 
-
 class ReportDownloader:
     """
     Class that will take the output templates and download all the reports from the TAIC website
     These reports can be found manually by going to https://www.taic.org.nz/inquiries
     """
-    def __init__(self, output_dir, file_name_template, start_year, end_year, max_per_year, modes: list[Modes.Mode], ignored_report_ids: list[str], refresh):
+
+    def __init__(
+        self,
+        output_dir,
+        file_name_template,
+        start_year,
+        end_year,
+        max_per_year,
+        modes: list[Modes.Mode],
+        ignored_report_ids: list[str],
+        refresh,
+    ):
         self.output_dir = output_dir
         self.file_name_template = file_name_template
         self.start_year = start_year
@@ -23,11 +33,21 @@ class ReportDownloader:
         self.ignored_report_ids = ignored_report_ids
 
     def download_all(self):
-        print("=============================================================================================================================\n")
-        print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n")
-        print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs - - - - - - - - - - - - - - - - - - - - - -")
-        print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n")
-        print("=============================================================================================================================\n")
+        print(
+            "=============================================================================================================================\n"
+        )
+        print(
+            "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
+        )
+        print(
+            f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs - - - - - - - - - - - - - - - - - - - - - -"
+        )
+        print(
+            "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
+        )
+        print(
+            "=============================================================================================================================\n"
+        )
         print(f"  Output directory: {self.output_dir}")
         print(f"  File name template: {self.file_name_template}")
         print(f"  Start year: {self.start_year},  End year: {self.end_year}")
@@ -42,19 +62,21 @@ class ReportDownloader:
         # Loop through each mode
         for mode in self.modes:
             self.download_mode(mode)
-            
+
     def download_mode(self, mode):
         print(f"======== Downloading reports for mode: {mode.name}==========")
-            
+
         # Define the base URL and report ids and download all reports for the mode.
         mode_id_base = mode.value * 100 + 1
 
-        year_range = [year for year in range(self.start_year, self.end_year+1)]
-        id_range = ["{0:03d}".format(i) for i in range(mode_id_base, mode_id_base+99)]
+        year_range = [year for year in range(self.start_year, self.end_year + 1)]
+        id_range = ["{0:03d}".format(i) for i in range(mode_id_base, mode_id_base + 99)]
 
         base_url = "https://www.taic.org.nz/inquiry/{}o-{}-{}"
         for year in (pbar := tqdm(year_range)):
-            pbar.set_description(f"Downloading reports for mode: {mode.name}, currently doing year: {year}")
+            pbar.set_description(
+                f"Downloading reports for mode: {mode.name}, currently doing year: {year}"
+            )
             number_for_year = 0
             for i in (inner_pbar := tqdm(id_range)):
                 url = base_url.format(mode.name, year, i)
@@ -66,12 +88,15 @@ class ReportDownloader:
                     break
                 elif outcome:
                     number_for_year += 1
-                
+
                 if number_for_year >= self.max_per_year:
                     break
 
-    def download_report(self, report_id, url, pbar = None):
-        file_name = os.path.join(self.output_dir, self.file_name_template.replace(r"{{report_id}}", report_id))
+    def download_report(self, report_id, url, pbar=None):
+        file_name = os.path.join(
+            self.output_dir,
+            self.file_name_template.replace(r"{{report_id}}", report_id),
+        )
 
         if not self.refresh and os.path.exists(file_name):
             if pbar:
@@ -85,31 +110,43 @@ class ReportDownloader:
         if soup.find("h1", text="Page not found"):
             return "End of reports for this year"
 
-        # Find all the links that end with .pdf and download them       
+        # Find all the links that end with .pdf and download them
 
-        pdf_links = [a["href"] for a in soup.find_all("a", href=True) if a["href"].endswith(".pdf")]
+        pdf_links = [
+            a["href"]
+            for a in soup.find_all("a", href=True)
+            if a["href"].endswith(".pdf")
+        ]
 
-        if (len(pdf_links) == 0):
+        if len(pdf_links) == 0:
             return False
-        if (len(pdf_links) > 1):
+        if len(pdf_links) > 1:
             # Only take one that has "final" but not "interim"
-            filtered_pdf_links = [link for link in pdf_links if "final" in link.lower() and "interim" not in link.lower()]
+            filtered_pdf_links = [
+                link
+                for link in pdf_links
+                if "final" in link.lower() and "interim" not in link.lower()
+            ]
             if len(filtered_pdf_links) > 1:
                 if pbar:
                     links_str = "\n".join(filtered_pdf_links)
-                    pbar.write(f"WARNING: Found more than one PDF for {report_id} at {url}. Will not download any.\n Here are the links: \n {links_str}")
+                    pbar.write(
+                        f"WARNING: Found more than one PDF for {report_id} at {url}. Will not download any.\n Here are the links: \n {links_str}"
+                    )
                 return False
             if len(filtered_pdf_links) == 0:
                 if pbar:
                     links_str = "\n".join(pdf_links)
-                    pbar.write(f"WARNING: Found no suitable PDF link for {report_id} at {url}. Will not download any.\n Here are the links: \n {links_str}")
+                    pbar.write(
+                        f"WARNING: Found no suitable PDF link for {report_id} at {url}. Will not download any.\n Here are the links: \n {links_str}"
+                    )
                 return False
 
         link = pdf_links[0]
 
         with open(file_name, "wb") as f:
-            f.write(requests.get(link, allow_redirects=True).content)                
+            f.write(requests.get(link, allow_redirects=True).content)
             if pbar:
-                pbar.set_description(f"  Downloaded {file_name}") 
-        
+                pbar.set_description(f"  Downloaded {file_name}")
+
         return True
