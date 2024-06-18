@@ -58,7 +58,7 @@ ruff = "^0.4.9"
 pre-commit = "^3.7.1"
 
 [tool.poetry.scripts]
-engine = "engine.cli:cli"
+engine = "engine.utils.cli:cli"
 viewer = "viewer.app:run"
 
 [tool.coverage.report]
