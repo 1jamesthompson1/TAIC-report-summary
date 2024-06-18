@@ -1,12 +1,12 @@
-from tqdm import tqdm
-import voyageai
-import pandas as pd
-from tenacity import retry, wait_random_exponential
-from transformers import AutoTokenizer
-
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import multiprocessing
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import pandas as pd
+import voyageai
+from tenacity import retry, wait_random_exponential
+from tqdm import tqdm
+from transformers import AutoTokenizer
 
 
 class Embedder:

@@ -1,10 +1,11 @@
-from engine.utils.OpenAICaller import openAICaller
-
-import yaml
 import os
-import regex as re
+
 import pandas as pd
+import regex as re
+import yaml
 from tqdm import tqdm
+
+from engine.utils.OpenAICaller import openAICaller
 
 
 class ReportExtractor:

@@ -1,10 +1,9 @@
-import engine.analyze.RecommendationResponseClassification as RecommendationResponseClassification
+import os
 
 import pandas as pd
-
-
-import os
 import pytest
+
+import engine.analyze.RecommendationResponseClassification as RecommendationResponseClassification
 
 
 @pytest.mark.parametrize(

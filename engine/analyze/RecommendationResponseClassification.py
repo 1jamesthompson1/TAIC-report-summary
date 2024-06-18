@@ -1,8 +1,9 @@
-from engine.utils.OpenAICaller import openAICaller
+import os
 
 import pandas as pd
-import os
 from tqdm import tqdm
+
+from engine.utils.OpenAICaller import openAICaller
 
 tqdm.pandas()
 

@@ -1,9 +1,8 @@
-import viewer.Searching as Searching
-
-import engine.utils.Modes as Modes
-
 import pandas as pd
 import pytest
+
+import engine.utils.Modes as Modes
+import viewer.Searching as Searching
 
 
 class TestSearchSettings:

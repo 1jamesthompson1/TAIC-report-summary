@@ -1,5 +1,6 @@
-import pandas as pd
 import os
+
+import pandas as pd
 
 
 def get_recommendations(data_location, output_file_name, refresh):

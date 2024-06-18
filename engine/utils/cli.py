@@ -1,16 +1,16 @@
-from . import Config, Modes
-
-from ..gather import PDFDownloader, PDFParser, DataDownloading
-from ..extract import ReportExtracting
-from ..analyze import (
-    RecommendationSafetyIssueLinking,
-    RecommendationResponseClassification,
-    Embedding,
-)
-
-import os
-import pandas as pd
 import argparse
+import os
+
+import pandas as pd
+
+from ..analyze import (
+    Embedding,
+    RecommendationResponseClassification,
+    RecommendationSafetyIssueLinking,
+)
+from ..extract import ReportExtracting
+from ..gather import DataDownloading, PDFDownloader, PDFParser
+from . import Config, Modes
 
 
 def gather(output_dir, config, modes, refresh):

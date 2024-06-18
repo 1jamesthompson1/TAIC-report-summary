@@ -1,10 +1,10 @@
-import engine.analyze.Embedding as Embedding
+import os
+import tempfile
 
 import pandas as pd
 import pytest
 
-import os
-import tempfile
+import engine.analyze.Embedding as Embedding
 
 
 @pytest.mark.parametrize(

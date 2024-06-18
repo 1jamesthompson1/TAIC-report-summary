@@ -1,9 +1,9 @@
-from engine.extract.ReportExtracting import (
-    SafetyIssueExtractor,
-    ReportSectionExtractor,
-)
-
 import os
+
+from engine.extract.ReportExtracting import (
+    ReportSectionExtractor,
+    SafetyIssueExtractor,
+)
 
 
 class TestSafetyIssueExtraction:

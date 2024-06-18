@@ -1,7 +1,8 @@
-import pandas as pd
-from pypdf import PdfReader
 import os
 import re
+
+import pandas as pd
+from pypdf import PdfReader
 from tqdm import tqdm
 
 

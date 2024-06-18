@@ -1,11 +1,12 @@
-from engine.utils.OpenAICaller import openAICaller
-
-import pandas as pd
 import os
+import textwrap
+
 import matplotlib.pyplot as plt
 import networkx as nx
-import textwrap
+import pandas as pd
 from tqdm import tqdm
+
+from engine.utils.OpenAICaller import openAICaller
 
 
 class RecommendationSafetyIssueLinker:

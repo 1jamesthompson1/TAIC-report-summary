@@ -1,10 +1,10 @@
-import viewer.app as app
+import json
+import os
+from io import StringIO
 
 import pandas as pd
-from io import StringIO
-import json
 
-import os
+import viewer.app as app
 
 os.environ["db_URI"] = "./tests/data/vector_db"
 

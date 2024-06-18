@@ -1,10 +1,10 @@
-from engine.analyze.RecommendationSafetyIssueLinking import (
-    RecommendationSafetyIssueLinker,
-)
+import os
 
 import pandas as pd
 
-import os
+from engine.analyze.RecommendationSafetyIssueLinking import (
+    RecommendationSafetyIssueLinker,
+)
 
 
 class TestRecommendationSafetyIssueLinking:

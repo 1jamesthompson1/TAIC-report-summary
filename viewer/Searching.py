@@ -1,11 +1,12 @@
 # Local
-from engine.utils.OpenAICaller import openAICaller
-import engine.utils.Modes as Modes
+import lancedb
 
 # Third party
 import pandas as pd
-import lancedb
 import voyageai
+
+import engine.utils.Modes as Modes
+from engine.utils.OpenAICaller import openAICaller
 
 # built in
 

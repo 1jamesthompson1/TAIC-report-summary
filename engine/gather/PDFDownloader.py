@@ -1,8 +1,10 @@
 import os
+
 import requests
 from bs4 import BeautifulSoup
-from ..utils import Modes
 from tqdm import tqdm
+
+from ..utils import Modes
 
 
 class ReportDownloader:
