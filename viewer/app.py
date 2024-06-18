@@ -1,11 +1,9 @@
 # Local
-
-
 from . import Searching
 
 # Third party
 
-from flask import Flask, render_template, request, jsonify, send_file
+from flask import Flask, render_template, request, jsonify, send_file, g
 import pandas as pd
 import base64
 
@@ -17,7 +15,12 @@ import argparse
 
 app = Flask(__name__)
 
-searcher = Searching.SearchEngine("./viewer/vector_db")
+
+def get_searcher():
+    if "searcher" not in g:
+        g.searcher = Searching.SearchEngine(os.environ["db_URI"])
+
+    return g.searcher
 
 
 @app.route("/")
@@ -44,7 +47,7 @@ def format_search_results(results: Searching.SearchResult):
 
 @app.route("/search", methods=["POST"])
 def search_reports():
-    results = searcher.search(get_search(request.form))
+    results = get_searcher().search(get_search(request.form))
 
     return format_search_results(results)
 
@@ -80,7 +83,7 @@ def send_csv_file(df: pd.DataFrame, name: str):
 
 @app.route("/get_results_as_csv", methods=["POST"])
 def get_results_as_csv():
-    search_results = searcher.search(get_search(request.form), with_rag=False)
+    search_results = get_searcher().search(get_search(request.form), with_rag=False)
 
     return send_csv_file(search_results.getContextCleaned(), "search_results.csv")
 
@@ -89,6 +92,8 @@ def run():
     parser = argparse.ArgumentParser()
     parser.add_argument("--debug", action="store_true", help="Enable debug mode")
     args = parser.parse_args()
+
+    os.environ["db_URI"] = "./viewer/vector_db"
 
     port = int(os.environ.get("PORT", 5001))
     app.run(port=port, host="0.0.0.0", debug=args.debug)

@@ -3,6 +3,10 @@ import viewer.app as app
 import pandas as pd
 import json
 
+import os
+
+os.environ["db_URI"] = "./tests/data/vector_db"
+
 
 def test_index():
     with app.app.test_client() as c:
