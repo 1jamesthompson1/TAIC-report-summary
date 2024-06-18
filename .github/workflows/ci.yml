@@ -26,7 +26,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest pytest-cov
       - name: Run tests and collect coverage
-        run: pytest --cov=. ${{ env.CODECOV_ATS_TESTS }}
+        run: pytest --cov=. --cov-report=xml
         env:
             OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
             VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}

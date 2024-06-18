@@ -15,7 +15,8 @@ class TestRecommendationSafetyIssueLinking:
         test_dataframe = self.get_test_dataframe()
 
         links = RecommendationSafetyIssueLinker()._evaluate_all_possible_links(
-            test_dataframe["recommendations"][0], test_dataframe["safety_issues"][0]
+            test_dataframe["recommendations"].iloc[0],
+            test_dataframe["safety_issues"].iloc[0],
         )
 
         assert isinstance(links, pd.DataFrame)

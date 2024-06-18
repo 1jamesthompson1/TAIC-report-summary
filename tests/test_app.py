@@ -1,6 +1,7 @@
 import viewer.app as app
 
 import pandas as pd
+from io import StringIO
 import json
 
 import os
@@ -30,7 +31,7 @@ def test_form_submit():
             follow_redirects=True,
         )
         assert rv.status == "200 OK"
-        df = pd.read_html(json.loads(rv.data)["html_table"])[0]
+        df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
         assert df.shape[0] == 184
 
 
@@ -50,7 +51,7 @@ def test_form_submit_filtered():
 
         assert rv.status == "200 OK"
 
-        df = pd.read_html(json.loads(rv.data)["html_table"])[0]
+        df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
 
         assert df["year"].isin(range(2010, 2025)).all()
         assert df["mode"].isin([1, 2]).all()
@@ -69,7 +70,7 @@ def test_form_submit_no_results():
             follow_redirects=True,
         )
         assert rv.status == "200 OK"
-        df = pd.read_html(json.loads(rv.data)["html_table"])[0]
+        df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
 
         assert df.shape[0] == 0
 
@@ -87,6 +88,6 @@ def test_form_with_query():
             follow_redirects=True,
         )
         assert rv.status == "200 OK"
-        pd.read_html(json.loads(rv.data)["html_table"])[0]
+        pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
 
         assert json.loads(rv.data)["summary"]

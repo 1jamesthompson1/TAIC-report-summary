@@ -1,8 +1,8 @@
-from .utils import Config, Modes
+from . import Config, Modes
 
-from .gather import PDFDownloader, PDFParser, DataDownloading
-from .extract import ReportExtracting
-from .analyze import (
+from ..gather import PDFDownloader, PDFParser, DataDownloading
+from ..extract import ReportExtracting
+from ..analyze import (
     RecommendationSafetyIssueLinking,
     RecommendationResponseClassification,
     Embedding,
