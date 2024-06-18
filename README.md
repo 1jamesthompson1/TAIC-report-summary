@@ -1,8 +1,8 @@
 ﻿# TAIC report analysis
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Ftaic-viewer-72e8675c1c03.herokuapp.com%2F&up_message=live&down_message=not%20available&label=webapp%20demo&link=https%3A%2F%2Ftaic-viewer-72e8675c1c03.herokuapp.com%2F)
-[![tests](https://github.com/1jamesthompson1/TAIC-report-summary/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/1jamesthompson1/TAIC-report-summary/actions/workflows/ci.yml)
-![Codecov](https://img.shields.io/codecov/c/github/1jamesthompson1/TAIC-report-summary)
+[![tests](https://github.com/1jamesthompson1/TAIC-report-summary/actions/workflows/ci.yml/badge.svg)](https://github.com/1jamesthompson1/TAIC-report-summary/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/1jamesthompson1/TAIC-report-summary/graph/badge.svg?token=3IMJCA4B49)](https://codecov.io/gh/1jamesthompson1/TAIC-report-summary)
 
 
 ***
