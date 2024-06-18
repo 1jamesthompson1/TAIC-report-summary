@@ -67,6 +67,9 @@ include_namespace_packages = true
 [tool.coverage.run]
 omit = ["tests/*"]
 
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
