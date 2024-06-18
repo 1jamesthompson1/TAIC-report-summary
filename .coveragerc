@@ -1,9 +1,0 @@
-[report]
-include_namespace_packages = true
-
-# might also be convenient to add one of these:
-omit = **/__init__.py
-skip_empty = true
-
-[run]
-omit = tests/*

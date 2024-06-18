@@ -61,9 +61,11 @@ pre-commit = "^3.7.1"
 engine = "engine.cli:cli"
 viewer = "viewer.app:run"
 
-[tool.pytest.ini_options]
-pythonpath = ["."]
+[tool.coverage.report]
+include_namespace_packages = true
 
+[tool.coverage.run]
+omit = ["tests/*"]
 
 [build-system]
 requires = ["poetry-core"]
