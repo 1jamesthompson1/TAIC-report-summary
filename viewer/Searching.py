@@ -236,6 +236,10 @@ class SearchEngineSearcher:
             report_sections_search_results["section_relevance_score"].max()
             - report_sections_search_results["section_relevance_score"].min()
         )
+        if report_sections_search_results.shape[0] == 0:
+            return self._table_search(
+                table=self.si_table, type="vector", filter=where_statement, limit=500
+            )
         reports_relevance = (
             report_sections_search_results.groupby("report_id")
             .head(50)

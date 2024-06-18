@@ -55,7 +55,7 @@ class TestSearch:
 
 
 class TestSearcher:
-    searcher = Searching.SearchEngine("./viewer/vector_db")
+    searcher = Searching.SearchEngine("./tests/data/vector_db")
 
     def test_search(self):
         search = Searching.Search(
@@ -125,3 +125,14 @@ class TestSearcher:
         assert result.getContext()["year"].isin([2002, 2003, 2004, 2005]).all()
 
         assert result.getContext()["mode"].isin([2, 1]).all()
+
+    def test_search_without_results(self):
+        search = Searching.Search(
+            "hello",
+            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (1997, 1999)),
+        )
+        result = self.searcher.search(search, with_rag=False)
+
+        assert result
+        assert result.getSummary() is None
+        assert result.getContext().empty

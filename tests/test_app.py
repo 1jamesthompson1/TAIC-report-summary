@@ -27,7 +27,7 @@ def test_form_submit():
         )
         assert rv.status == "200 OK"
         df = pd.read_html(json.loads(rv.data)["html_table"])[0]
-        assert df.shape[0] == 1841
+        assert df.shape[0] == 184
 
 
 def test_form_submit_filtered():
@@ -50,6 +50,24 @@ def test_form_submit_filtered():
 
         assert df["year"].isin(range(2010, 2025)).all()
         assert df["mode"].isin([1, 2]).all()
+
+
+def test_form_submit_no_results():
+    with app.app.test_client() as c:
+        rv = c.post(
+            "/search",
+            data={
+                "searchQuery": "pilot",
+                "includeModeAviation": "on",
+                "yearSlider-min": "1900",
+                "yearSlider-max": "1924",
+            },
+            follow_redirects=True,
+        )
+        assert rv.status == "200 OK"
+        df = pd.read_html(json.loads(rv.data)["html_table"])[0]
+
+        assert df.shape[0] == 0
 
 
 def test_form_with_query():
