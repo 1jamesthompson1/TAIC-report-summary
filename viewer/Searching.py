@@ -201,6 +201,8 @@ class SearchEngineSearcher:
             results.rename(
                 columns={"_distance": "section_relevance_score"}, inplace=True
             )
+            # THe section relevance score should always be ascending. Therefore I need to flip the distance which is ascending.
+            results["section_relevance_score"] = 1 - results["section_relevance_score"]
 
         results.sort_values(by="section_relevance_score", ascending=False, inplace=True)
 
@@ -257,16 +259,16 @@ class SearchEngineSearcher:
             safety_issues_search_results.apply(
                 lambda row: row["section_relevance_score"]
                 * (
-                    1 - reports_relevance[row["report_id"]]
+                    reports_relevance[row["report_id"]]
                     if row["report_id"] in reports_relevance
-                    else 1
+                    else 0
                 ),
                 axis=1,
             )
         )
 
         safety_issues_search_results.sort_values(
-            by="section_relevance_score", inplace=True
+            by="section_relevance_score", inplace=True, ascending=False
         )
 
         safety_issues_search_results.reset_index(drop=False, inplace=True)
@@ -276,12 +278,14 @@ class SearchEngineSearcher:
     def _get_rag_prompt(self, query: str, context: str):
         return f"""
         Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know.
+        Your answer should be only a couple of sentences long.
         My question is: {query}
 
         Here are relevant safety issues as context:
         {context}
 
         It is important to provide references to specific reports and safety issues in your answer.
+        Remember to keep your answers only a couple of sentences long.
         """
 
     def rag_search(self):
@@ -305,7 +309,9 @@ class SearchEngineSearcher:
 
         self.query = formatted_query
 
-        search_results = self.safety_issue_search_with_report_relevance().head(50)
+        search_results = self.safety_issue_search_with_report_relevance()
+        print(search_results)
+        search_results = search_results.head(50)
 
         user_message = "\n".join(
             f"{id} from report {report} with relevance {rel} - {si}"
@@ -348,4 +354,8 @@ class SearchEngineSearcher:
             model="gpt-4",
             temp=0.2,
         )
-        return SearchResult(search_results, response)
+        formatted_response = f"""Query made to the database was: '{self.query}'
+
+{response}
+        """
+        return SearchResult(search_results, formatted_response)
