@@ -42,5 +42,3 @@ repos:
         fi'
       language: system
       stages: [pre-commit]
-
-fail_fast: true
