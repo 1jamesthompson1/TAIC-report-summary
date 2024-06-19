@@ -8,6 +8,7 @@ engine:
     folder_name: "output"
     report_pdf_folder_name: "report_pdfs"
     report_pdf_file_name: "{{report_id}}.pdf"
+    report_titles_df_file_name: "report_titles.pkl"
     parsed_reports_df_file_name: "parsed_reports.pkl"
     recommendations_df_file_name: "recommendations.pkl"
     report_sections_df_file_name: "report_sections.pkl"

@@ -20,6 +20,7 @@ def gather(output_dir, config, modes, refresh):
     # Download the PDFs
     WebsiteScraping.ReportScraping(
         os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         output_config.get("report_pdf_file_name"),
         download_config.get("start_year"),
         download_config.get("end_year"),
