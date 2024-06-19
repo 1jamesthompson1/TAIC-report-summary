@@ -9,7 +9,7 @@ from ..analyze import (
     RecommendationSafetyIssueLinking,
 )
 from ..extract import ReportExtracting
-from ..gather import DataDownloading, PDFDownloader, PDFParser
+from ..gather import DataDownloading, PDFParser, WebsiteScraping
 from . import Config, Modes
 
 
@@ -18,7 +18,7 @@ def gather(output_dir, config, modes, refresh):
     download_config = config.get("download")
 
     # Download the PDFs
-    PDFDownloader.ReportDownloader(
+    WebsiteScraping.ReportScraping(
         os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
         output_config.get("report_pdf_file_name"),
         download_config.get("start_year"),
@@ -27,7 +27,7 @@ def gather(output_dir, config, modes, refresh):
         modes,
         download_config.get("ignored_reports"),
         refresh,
-    ).download_all()
+    ).collect_all()
 
     # Extract the text from the PDFsconfig
     PDFParser.convertPDFToText(

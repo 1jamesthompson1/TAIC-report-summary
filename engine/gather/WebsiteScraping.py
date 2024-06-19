@@ -7,7 +7,7 @@ from tqdm import tqdm
 from ..utils import Modes
 
 
-class ReportDownloader:
+class ReportScraping:
     """
     Class that will take the output templates and download all the reports from the TAIC website
     These reports can be found manually by going to https://www.taic.org.nz/inquiries
@@ -33,7 +33,7 @@ class ReportDownloader:
         self.refresh = refresh
         self.ignored_report_ids = ignored_report_ids
 
-    def download_all(self):
+    def collect_all(self):
         print(
             "=============================================================================================================================\n"
         )
@@ -64,7 +64,7 @@ class ReportDownloader:
         for mode in self.modes:
             self.download_mode(mode)
 
-    def download_mode(self, mode):
+    def collect_mode(self, mode):
         print(f"======== Downloading reports for mode: {mode.name}==========")
 
         # Define the base URL and report ids and download all reports for the mode.
