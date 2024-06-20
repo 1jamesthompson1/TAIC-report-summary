@@ -104,12 +104,18 @@ class SearchResult:
             [
                 "relevance",
                 "report_id",
+                "type",
                 "safety_issue_id",
                 "safety_issue",
                 "year",
                 "mode",
             ]
         ]
+
+        # Make mode a string
+        context_df["mode"] = context_df["mode"].apply(
+            lambda x: Modes.Mode.as_string(Modes.Mode(x))
+        )
         return context_df
 
     def getSummary(self) -> str | None:
