@@ -1,4 +1,3 @@
-# Local
 import argparse
 import base64
 import os
@@ -8,12 +7,6 @@ import pandas as pd
 from flask import Flask, g, jsonify, render_template, request, send_file
 
 from . import Searching
-
-# Third party
-
-
-# built in
-
 
 app = Flask(__name__)
 
@@ -44,7 +37,23 @@ def format_search_results(results: Searching.SearchResult):
         escape=False,
     )
 
-    return jsonify({"html_table": html_table, "summary": results.getSummary()})
+    mode_pie_chart = results.getModePieChart().to_json()
+
+    year_hist = results.getYearHistogram().to_json()
+
+    most_common_event_types = results.getMostCommonEventTypes().to_json()
+
+    return jsonify(
+        {
+            "html_table": html_table,
+            "results_summary_info": {
+                "mode_pie_chart": mode_pie_chart,
+                "year_histogram": year_hist,
+                "most_common_event_types": most_common_event_types,
+            },
+            "summary": results.getSummary(),
+        }
+    )
 
 
 @app.route("/search", methods=["POST"])

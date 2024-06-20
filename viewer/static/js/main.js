@@ -9,6 +9,7 @@ $(document).ready(function() {
             // Update the results placeholder with the received HTML table
             updateResults(data.html_table);
             updateSummary(data.summary);
+            updateResultsSummaryInfo(data.results_summary_info);
             $('#searchResults').show();
             // Hide the loading sign after results are loaded
             $('#loading').hide();
@@ -19,6 +20,11 @@ $(document).ready(function() {
     $('[id^="downloadCSVBtn"]').click(function() {
         var actionUrl = $(this).attr('id').replace('downloadCSVBtn', '/get') + '_as_csv';
         downloadCSV(actionUrl);
+    });
+    
+    // Add logic for toggle button to show/hide summary results info
+    $('#toggleResultsSummaryInfo').click(function() {
+        $('#searchResultsSummaryInfo').toggle();
     });
 
     $('#advancedSearchBtn').click(function() {
@@ -113,6 +119,21 @@ function updateResults(htmlTable) {
         order: [[0, 'desc']],
     });
 }
+
+function updateResultsSummaryInfo(summary) {
+    var most_common_event_types = JSON.parse(summary.most_common_event_types);
+
+    Plotly.newPlot('MostCommonEventTypes', most_common_event_types);
+
+    var mode_pie_chart = JSON.parse(summary.mode_pie_chart);
+
+    Plotly.newPlot('ModePieChart', mode_pie_chart);
+
+    var year_histogram = JSON.parse(summary.year_histogram);
+
+    Plotly.newPlot('YearHistogram', year_histogram);
+}
+
 // -----   Popups on results table ----- //
 
 

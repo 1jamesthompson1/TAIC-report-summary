@@ -1,14 +1,10 @@
-# Local
 import lancedb
-
-# Third party
 import pandas as pd
+import plotly.express as px
 import voyageai
 
 import engine.utils.Modes as Modes
 from engine.utils.OpenAICaller import openAICaller
-
-# built in
 
 
 class SearchSettings:
@@ -117,6 +113,72 @@ class SearchResult:
             lambda x: Modes.Mode.as_string(Modes.Mode(x))
         )
         return context_df
+
+    def addVisualLayout(self, fig):
+        fig = fig.update_layout(width=500)
+
+        # If fig a pie chart
+        if fig.data[0].type == "pie":
+            fig.update_traces(
+                textposition="inside",
+                textinfo="percent+label",
+                insidetextorientation="radial",
+            )
+
+            # Remove legend
+            fig.update_layout(showlegend=False)
+
+        return fig
+
+    def getModePieChart(self):
+        context_df = self.getContextCleaned()["mode"].value_counts().reset_index()
+        context_df.columns = ["mode", "count"]
+        fig = px.pie(
+            context_df,
+            values="count",
+            names="mode",
+            title="Mode distribution in search results",
+        )
+
+        return self.addVisualLayout(fig)
+
+    def getYearHistogram(self):
+        context_df = self.getContextCleaned()
+        fig = px.histogram(
+            context_df,
+            x="year",
+            title="Year distribution in search results",
+        )
+        return self.addVisualLayout(fig)
+
+    def getMostCommonEventTypes(self):
+        context_df = self.getContextCleaned()
+        type_counts = context_df.groupby("type")["safety_issue"].count()
+
+        top_5_types = type_counts.nlargest(5).reset_index()
+
+        others_count = type_counts[~type_counts.index.isin(top_5_types["type"])].sum()
+
+        combined_df = pd.concat(
+            [
+                top_5_types,
+                pd.DataFrame(
+                    [["Others", others_count]], columns=["type", "safety_issue"]
+                ),
+            ],
+            ignore_index=True,
+        )
+
+        combined_df.columns = ["Event type", "Count"]
+
+        fig = px.pie(
+            combined_df,
+            values="Count",
+            names="Event type",
+            title="Top 5 most common event types in search results",
+        )
+
+        return self.addVisualLayout(fig)
 
     def getSummary(self) -> str | None:
         return self.summary
