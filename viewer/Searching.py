@@ -1,14 +1,11 @@
-# Local
 import lancedb
-
-# Third party
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 import voyageai
 
 import engine.utils.Modes as Modes
 from engine.utils.OpenAICaller import openAICaller
-
-# built in
 
 
 class SearchSettings:
@@ -117,6 +114,58 @@ class SearchResult:
             lambda x: Modes.Mode.as_string(Modes.Mode(x))
         )
         return context_df
+
+    def getModePieChart(self):
+        context_df = self.getContextCleaned()["mode"].value_counts().reset_index()
+        context_df.columns = ["mode", "count"]
+        fig = px.pie(
+            context_df,
+            values="count",
+            names="mode",
+            title="Mode distribution in search results",
+        )
+
+        return fig
+
+    def getYearHistogram(self):
+        context_df = self.getContextCleaned()
+        fig = px.histogram(
+            context_df, x="year", title="Year distribution in search results"
+        )
+        return fig
+
+    def getMostCommonEventTypes(self):
+        context_df = self.getContextCleaned()
+
+        # get the top 5 most common event types df
+        context_df = (
+            context_df.groupby("type")["safety_issue"]
+            .count()
+            .sort_values(ascending=False)
+            .reset_index()
+        )
+        context_df = context_df.head(5)
+
+        print(context_df.type)
+
+        fig = go.Figure(
+            data=[
+                go.Table(
+                    header=dict(
+                        values=["EventType", "Count"],
+                        fill_color="paleturquoise",
+                        align="center",
+                    ),
+                    cells=dict(
+                        values=[context_df.type, context_df.safety_issue],
+                        fill_color="lavender",
+                        align="center",
+                    ),
+                )
+            ]
+        )
+
+        return fig
 
     def getSummary(self) -> str | None:
         return self.summary

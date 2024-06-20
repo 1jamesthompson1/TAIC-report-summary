@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
     
@@ -63,6 +63,15 @@
             <div id="searchResultsSummaryText"></div>
         </div>
         <div class="resultsSection">
+            <button type="button" id="toggleResultsSummaryInfo">Toggle summary info</button>
+            <div id="searchResultsSummaryInfo">
+                <h4>Results information</h4>
+                <div id="resultsSummaryVisuals">
+                    <div id="MostCommonEventTypes" class="resultsSummaryInfoSection"></div>
+                    <div id="YearHistogram" class="resultsSummaryInfoSection"></div>
+                    <div id="ModePieChart"class="resultsSummaryInfoSection"></div>
+                </div>
+                </div>
             <h3>Relevant safety issues</h3>
             <div id="searchResultsTableWrapper"></div>
         </div>
