@@ -194,14 +194,18 @@ class Embedder:
 
             if os.path.exists(output_file_path):
                 previously_embedded_df = pd.read_pickle(output_file_path)
+                columns_intersection = list(
+                    set(dataframe_to_embed.columns).intersection(
+                        previously_embedded_df.columns
+                    )
+                )
                 dataframe_to_embed = dataframe_to_embed.merge(
                     previously_embedded_df,
-                    on=list(
-                        set(dataframe_to_embed.columns).intersection(
-                            set(previously_embedded_df.columns)
-                        )
-                    ),
+                    on=columns_intersection,
                     how="outer",
+                )
+                dataframe_to_embed.drop_duplicates(
+                    subset=columns_intersection, inplace=True
                 )
 
             self.embed_dataframe(
