@@ -165,23 +165,53 @@ class Embedder:
             if isinstance(
                 extracted_df[dataframe_column_name].dropna().iloc[0], pd.DataFrame
             ):
+                filtered_extracted_df = extracted_df.dropna(
+                    subset=[dataframe_column_name]
+                )
                 dataframe_to_embed = pd.concat(
-                    list(extracted_df[dataframe_column_name].dropna()),
+                    [
+                        df.assign(report_id=report_id, type=type)
+                        for df, report_id, type in zip(
+                            filtered_extracted_df[dataframe_column_name],
+                            filtered_extracted_df["report_id"],
+                            filtered_extracted_df["type"],
+                        )
+                    ],
                     ignore_index=True,
                 )
             else:
                 dataframe_to_embed = extracted_df[
-                    ["report_id", dataframe_column_name]
+                    ["report_id", "type", dataframe_column_name]
                 ].dropna()
 
             if os.path.exists(output_file_path):
-                previously_embedded_df = pd.read_pickle(output_file_path)
+                previously_embedded_df = pd.read_pickle(output_file_path)[
+                    list(dataframe_to_embed.columns)
+                    + [document_column_name + "_embedding"]
+                ]
+                columns_intersection = list(
+                    set(dataframe_to_embed.columns).intersection(
+                        previously_embedded_df.columns
+                    )
+                )
+                print(dataframe_to_embed)
+                print(previously_embedded_df)
                 dataframe_to_embed = dataframe_to_embed.merge(
                     previously_embedded_df,
-                    on=list(dataframe_to_embed.columns),
+                    on=columns_intersection,
                     how="outer",
                 )
+                dataframe_to_embed.drop_duplicates(
+                    subset=columns_intersection, inplace=True
+                )
 
+            # Add mode and year to the embeddings
+            dataframe_to_embed["year"] = [
+                int(x.split("_")[0]) for x in dataframe_to_embed["report_id"]
+            ]
+            dataframe_to_embed["mode"] = [
+                int(x.split("_")[1][0]) for x in dataframe_to_embed["report_id"]
+            ]
             self.embed_dataframe(
                 dataframe_to_embed, document_column_name, output_file_path
             )

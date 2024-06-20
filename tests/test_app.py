@@ -32,7 +32,7 @@ def test_form_submit():
         )
         assert rv.status == "200 OK"
         df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
-        assert df.shape[0] == 184
+    assert df.shape[0] == 198
 
 
 def test_form_submit_filtered():
@@ -54,7 +54,7 @@ def test_form_submit_filtered():
         df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
 
         assert df["year"].isin(range(2010, 2025)).all()
-        assert df["mode"].isin([1, 2]).all()
+        assert df["mode"].isin(["Rail", "Marine"]).all()
 
 
 def test_form_submit_no_results():

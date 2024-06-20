@@ -104,12 +104,18 @@ class SearchResult:
             [
                 "relevance",
                 "report_id",
+                "type",
                 "safety_issue_id",
                 "safety_issue",
                 "year",
                 "mode",
             ]
         ]
+
+        # Make mode a string
+        context_df["mode"] = context_df["mode"].apply(
+            lambda x: Modes.Mode.as_string(Modes.Mode(x))
+        )
         return context_df
 
     def getSummary(self) -> str | None:
@@ -318,7 +324,7 @@ class SearchEngineSearcher:
             for id, report, si, rel in zip(
                 search_results["safety_issue_id"],
                 search_results["report_id"],
-                search_results["si"],
+                search_results["safety_issue"],
                 search_results["section_relevance_score"],
             )
         )
