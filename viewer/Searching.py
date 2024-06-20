@@ -324,7 +324,7 @@ class SearchEngineSearcher:
             for id, report, si, rel in zip(
                 search_results["safety_issue_id"],
                 search_results["report_id"],
-                search_results["si"],
+                search_results["safety_issue"],
                 search_results["section_relevance_score"],
             )
         )
