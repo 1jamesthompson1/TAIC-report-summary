@@ -184,21 +184,18 @@ class Embedder:
                     ["report_id", "type", dataframe_column_name]
                 ].dropna()
 
-            # Add mode and year to the embeddings
-            dataframe_to_embed["year"] = [
-                int(x.split("_")[0]) for x in dataframe_to_embed["report_id"]
-            ]
-            dataframe_to_embed["mode"] = [
-                x.split("_")[1] for x in dataframe_to_embed["report_id"]
-            ]
-
             if os.path.exists(output_file_path):
-                previously_embedded_df = pd.read_pickle(output_file_path)
+                previously_embedded_df = pd.read_pickle(output_file_path)[
+                    list(dataframe_to_embed.columns)
+                    + [document_column_name + "_embedding"]
+                ]
                 columns_intersection = list(
                     set(dataframe_to_embed.columns).intersection(
                         previously_embedded_df.columns
                     )
                 )
+                print(dataframe_to_embed)
+                print(previously_embedded_df)
                 dataframe_to_embed = dataframe_to_embed.merge(
                     previously_embedded_df,
                     on=columns_intersection,
@@ -208,6 +205,13 @@ class Embedder:
                     subset=columns_intersection, inplace=True
                 )
 
+            # Add mode and year to the embeddings
+            dataframe_to_embed["year"] = [
+                int(x.split("_")[0]) for x in dataframe_to_embed["report_id"]
+            ]
+            dataframe_to_embed["mode"] = [
+                int(x.split("_")[1][0]) for x in dataframe_to_embed["report_id"]
+            ]
             self.embed_dataframe(
                 dataframe_to_embed, document_column_name, output_file_path
             )
