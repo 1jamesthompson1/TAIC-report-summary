@@ -132,7 +132,6 @@ function updateResultsSummaryInfo(summary) {
     var year_histogram = JSON.parse(summary.year_histogram);
 
     Plotly.newPlot('YearHistogram', year_histogram);
-
 }
 
 // -----   Popups on results table ----- //

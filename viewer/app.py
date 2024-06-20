@@ -41,10 +41,6 @@ def format_search_results(results: Searching.SearchResult):
 
     year_hist = results.getYearHistogram().to_json()
 
-    # most_common_event_types = results.getMostCommonEventTypes()
-    # most_common_event_types.columns = ["Event Type", "Count"]
-    # most_common_event_types_html_table = most_common_event_types.to_html(index=False, justify="center")
-
     most_common_event_types = results.getMostCommonEventTypes().to_json()
 
     return jsonify(

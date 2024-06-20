@@ -1,7 +1,6 @@
 import lancedb
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import voyageai
 
 import engine.utils.Modes as Modes
@@ -116,7 +115,20 @@ class SearchResult:
         return context_df
 
     def addVisualLayout(self, fig):
-        return fig.update_layout(autosize=True)
+        fig = fig.update_layout(width=500)
+
+        # If fig a pie chart
+        if fig.data[0].type == "pie":
+            fig.update_traces(
+                textposition="inside",
+                textinfo="percent+label",
+                insidetextorientation="radial",
+            )
+
+            # Remove legend
+            fig.update_layout(showlegend=False)
+
+        return fig
 
     def getModePieChart(self):
         context_df = self.getContextCleaned()["mode"].value_counts().reset_index()
@@ -126,7 +138,6 @@ class SearchResult:
             values="count",
             names="mode",
             title="Mode distribution in search results",
-            width=300,
         )
 
         return self.addVisualLayout(fig)
@@ -142,32 +153,29 @@ class SearchResult:
 
     def getMostCommonEventTypes(self):
         context_df = self.getContextCleaned()
+        type_counts = context_df.groupby("type")["safety_issue"].count()
 
-        # get the top 5 most common event types df
-        context_df = (
-            context_df.groupby("type")["safety_issue"]
-            .count()
-            .sort_values(ascending=False)
-            .reset_index()
-        )
-        context_df = context_df.head(5)
+        top_5_types = type_counts.nlargest(5).reset_index()
 
-        fig = go.Figure(
-            data=[
-                go.Table(
-                    header=dict(
-                        values=["EventType", "Count"],
-                        fill_color="paleturquoise",
-                        align="center",
-                    ),
-                    cells=dict(
-                        values=[context_df.type, context_df.safety_issue],
-                        fill_color="lavender",
-                        align="center",
-                    ),
-                )
+        others_count = type_counts[~type_counts.index.isin(top_5_types["type"])].sum()
+
+        combined_df = pd.concat(
+            [
+                top_5_types,
+                pd.DataFrame(
+                    [["Others", others_count]], columns=["type", "safety_issue"]
+                ),
             ],
-            layout=go.Layout(title="Most common event types in search results"),
+            ignore_index=True,
+        )
+
+        combined_df.columns = ["Event type", "Count"]
+
+        fig = px.pie(
+            combined_df,
+            values="Count",
+            names="Event type",
+            title="Top 5 most common event types in search results",
         )
 
         return self.addVisualLayout(fig)
