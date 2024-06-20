@@ -115,6 +115,9 @@ class SearchResult:
         )
         return context_df
 
+    def addVisualLayout(self, fig):
+        return fig.update_layout(autosize=True)
+
     def getModePieChart(self):
         context_df = self.getContextCleaned()["mode"].value_counts().reset_index()
         context_df.columns = ["mode", "count"]
@@ -123,16 +126,19 @@ class SearchResult:
             values="count",
             names="mode",
             title="Mode distribution in search results",
+            width=300,
         )
 
-        return fig
+        return self.addVisualLayout(fig)
 
     def getYearHistogram(self):
         context_df = self.getContextCleaned()
         fig = px.histogram(
-            context_df, x="year", title="Year distribution in search results"
+            context_df,
+            x="year",
+            title="Year distribution in search results",
         )
-        return fig
+        return self.addVisualLayout(fig)
 
     def getMostCommonEventTypes(self):
         context_df = self.getContextCleaned()
@@ -145,8 +151,6 @@ class SearchResult:
             .reset_index()
         )
         context_df = context_df.head(5)
-
-        print(context_df.type)
 
         fig = go.Figure(
             data=[
@@ -162,10 +166,11 @@ class SearchResult:
                         align="center",
                     ),
                 )
-            ]
+            ],
+            layout=go.Layout(title="Most common event types in search results"),
         )
 
-        return fig
+        return self.addVisualLayout(fig)
 
     def getSummary(self) -> str | None:
         return self.summary

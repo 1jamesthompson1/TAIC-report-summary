@@ -121,29 +121,17 @@ function updateResults(htmlTable) {
 }
 
 function updateResultsSummaryInfo(summary) {
-    var layout = {
-        responsive: true,
-        autosize: false,
-        width: 400,
-        height: 400,
-        margin: {
-            l: 40,
-            r: 40,
-            b: 40,
-            t: 40,
-        },
-    };
     var most_common_event_types = JSON.parse(summary.most_common_event_types);
 
-    Plotly.newPlot('MostCommonEventTypes', most_common_event_types, layout);
+    Plotly.newPlot('MostCommonEventTypes', most_common_event_types);
 
     var mode_pie_chart = JSON.parse(summary.mode_pie_chart);
 
-    Plotly.newPlot('ModePieChart', mode_pie_chart, layout);
+    Plotly.newPlot('ModePieChart', mode_pie_chart);
 
     var year_histogram = JSON.parse(summary.year_histogram);
 
-    Plotly.newPlot('YearHistogram', year_histogram, layout);
+    Plotly.newPlot('YearHistogram', year_histogram);
 
 }
 
