@@ -191,6 +191,10 @@ class SearchEngine:
         self.si_table = self.db.open_table("safety_issue_embeddings")
         self.report_sections_table = self.db.open_table("report_section_embeddings")
 
+        self.safety_issue_recommendations = self.db.open_table(
+            "safety_issue_recommendations"
+        )
+
         self.vo = voyageai.Client()
 
     def search(self, search: Search, with_rag=True) -> SearchResult:
@@ -207,6 +211,13 @@ class SearchEngine:
         else:
             results = searchEngineSearcher.safety_issue_search_with_report_relevance()
             return SearchResult(results, None)
+
+    def get_recommendations_for_safety_issue(self, safety_issue_id: str):
+        return (
+            self.safety_issue_recommendations.search()
+            .where(f"safety_issue_id == '{safety_issue_id}'")
+            .to_pandas()
+        )
 
 
 class SearchEngineSearcher:
