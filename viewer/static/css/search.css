@@ -30,12 +30,16 @@ input[type="submit"] {
     color: #fff;
     border: none;
     cursor: pointer;
-    width: 60%; 
+    width: 30%; 
     align-self: center;
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+#searchQuery {
+    transition: width 0.3s ease;
 }
 
 /*
