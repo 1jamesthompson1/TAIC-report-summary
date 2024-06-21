@@ -103,6 +103,7 @@ class SearchResult:
                 "type",
                 "safety_issue_id",
                 "safety_issue",
+                "recommendations",
                 "year",
                 "mode",
             ]
@@ -206,11 +207,23 @@ class SearchEngine:
             search, self.si_table, self.report_sections_table, self.vo
         )
 
+        response = None
+
         if with_rag and search.getQuery() != "":
-            return searchEngineSearcher.rag_search()
+            response = searchEngineSearcher.rag_search()
         else:
             results = searchEngineSearcher.safety_issue_search_with_report_relevance()
-            return SearchResult(results, None)
+            response = SearchResult(results, None)
+
+        response.getContext()["recommendations"] = response.getContext()[
+            "safety_issue_id"
+        ].apply(
+            lambda safety_issue_id: len(
+                self.get_recommendations_for_safety_issue(safety_issue_id)
+            )
+        )
+
+        return response
 
     def get_recommendations_for_safety_issue(self, safety_issue_id: str):
         return (
@@ -389,7 +402,6 @@ class SearchEngineSearcher:
         self.query = formatted_query
 
         search_results = self.safety_issue_search_with_report_relevance()
-        print(search_results)
         search_results = search_results.head(50)
 
         user_message = "\n".join(
