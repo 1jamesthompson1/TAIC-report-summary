@@ -37,6 +37,15 @@ $(document).ready(function() {
         }
     });
     
+    $('#searchQuery').on('input', function() {
+        const textLength = $(this).val().length;
+        const minWidth = 30;
+        const maxWidth = 200;
+        const requiredWidth = textLength * 1.2; // Adjust the multiplier as needed
+
+        const newWidth = Math.min(Math.max(minWidth, requiredWidth), maxWidth);
+        $(this).css('width', newWidth + 'ch');
+    });
 
 
     $(function() {
