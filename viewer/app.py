@@ -27,12 +27,33 @@ def get_search(form) -> Searching.Search:
     return Searching.Search.from_form(form)
 
 
+def format_report_id_as_weblink(report_id):
+    """
+    Formats a report id like it has to be on the taic.org.nz website and hubstream links
+    2011_002 -> AO-2011-002
+    2018_206 -> MO-2018-206
+    2020_120 -> RO-2020-020
+    """
+    letters = ["a", "r", "m"]
+
+    return f"{letters[int(report_id[5])]}o-{report_id[0:4]}-{report_id[5:8]}"
+
+
 def format_search_results(results: Searching.SearchResult):
     context_df = results.getContextCleaned()
 
     context_df["recommendations"] = context_df.apply(
         lambda row: f"<a href='#' data-safety-issue-id='{row['safety_issue_id']}' class='safety-issue-recommendations-link'>{row['recommendations']}</a>",
         axis=1,
+    )
+
+    # Add link columns
+
+    context_df["Hubstream"] = context_df["report_id"].apply(
+        lambda x: f'<a href="https://taic.hubstreamonline.com/#/search/Investigation/{format_report_id_as_weblink(x)}" target="_blank">Open in Hubstream</a>'
+    )
+    context_df["report_id"] = context_df["report_id"].apply(
+        lambda x: f'<a href="https://taic.org.nz/inquiry/{format_report_id_as_weblink(x)}" target="_blank">{x}</a>'
     )
 
     html_table = context_df.to_html(
