@@ -69,6 +69,7 @@ function downloadCSV(actionUrl) {
     form.appendTo('body').submit().remove();
 }
 
+
 function createYearSlider() {
     const $minInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-min` });
     const $maxInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-max` });
@@ -96,20 +97,20 @@ function createYearSlider() {
             // Update the hidden inputs with the slider values
             $minInput.val(ui.values[0]);
             $maxInput.val(ui.values[1]);
-        }
+            }
     });
-}
+    }
 function updateSummary(summary) {
     if (!summary) {
         $('#searchResultsSummary').toggle();
         return;
-    }
-    $('#searchResultsSummary').show();
+        }
+        $('#searchResultsSummary').show();
     $('#searchResultsSummaryText').html(marked.parse(summary));
-}
-
-function updateResults(htmlTable) {
-    $('#searchResultsTableWrapper').html(htmlTable);
+    }
+    
+    function updateResults(htmlTable) {
+        $('#searchResultsTableWrapper').html(htmlTable);
     $('#dataTable').DataTable({
         autoWidth: false,
         fixedColumns: true,
@@ -118,29 +119,29 @@ function updateResults(htmlTable) {
         searching: false,
         order: [[0, 'desc']],
     });
-}
+    }
 
-function updateResultsSummaryInfo(summary) {
+    function updateResultsSummaryInfo(summary) {
     var most_common_event_types = JSON.parse(summary.most_common_event_types);
 
     Plotly.newPlot('MostCommonEventTypes', most_common_event_types);
-
+    
     var mode_pie_chart = JSON.parse(summary.mode_pie_chart);
 
     Plotly.newPlot('ModePieChart', mode_pie_chart);
 
     var year_histogram = JSON.parse(summary.year_histogram);
-
+    
     Plotly.newPlot('YearHistogram', year_histogram);
-}
+    }
 
-// -----   Popups on results table ----- //
+    // -----   Popups on results table ----- //
+    
 
-
-function openReportPopup(data) {
-    // Set the content of the modal
-    $('#modalText').html(data.main);
-
+    function openReportPopup(data) {
+        // Set the content of the modal
+        $('#modalText').html(data.main);
+        
     $('#modalTitle').html(data.title);
 
     // Display the modal
@@ -153,8 +154,18 @@ function closeModal() {
 }
 
 $(document).ready(function() {     
+    $(document).on('click', '.safety-issue-recommendations-link', function() {
+        var safety_issue_id = $(this).data('safety-issue-id');
+    
+        $.get('/get_safety_issue_recommendations', {safety_issue_id: safety_issue_id}, function(data) {
+            openReportPopup(data);
+        })
 
-
+        return false
+    
+    });
+    
+    
     $(document).on('click', '.links-visual-link', function() {
         var reportId = $(this).data('report-id');
         

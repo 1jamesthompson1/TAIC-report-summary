@@ -135,3 +135,19 @@ class TestSearcher:
         assert result
         assert result.getSummary() is None
         assert result.getContext().empty
+
+    @pytest.mark.parametrize(
+        "safety_issue_id, expected_num",
+        [
+            pytest.param("2001_007_1", 2),
+            pytest.param("2002_007_2", 0),
+        ],
+    )
+    def test_safety_issues_recommendation_retrieval(
+        self, safety_issue_id: str, expected_num
+    ):
+        recommendations_df = self.searcher.get_recommendations_for_safety_issue(
+            safety_issue_id
+        )
+
+        assert len(recommendations_df) == expected_num

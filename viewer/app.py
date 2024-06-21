@@ -29,6 +29,12 @@ def get_search(form) -> Searching.Search:
 
 def format_search_results(results: Searching.SearchResult):
     context_df = results.getContextCleaned()
+
+    context_df["recommendations"] = context_df.apply(
+        lambda row: f"<a href='#' data-safety-issue-id='{row['safety_issue_id']}' class='safety-issue-recommendations-link'>{row['recommendations']}</a>",
+        axis=1,
+    )
+
     html_table = context_df.to_html(
         classes="table table-bordered table-hover align-middle",
         table_id="dataTable",
@@ -61,6 +67,24 @@ def search_reports():
     results = get_searcher().search(get_search(request.form))
 
     return format_search_results(results)
+
+
+@app.route("/get_safety_issue_recommendations", methods=["GET"])
+def get_safety_issue_recommendations():
+    safety_issue_id = request.args.get("safety_issue_id")
+
+    recommendations = get_searcher().get_recommendations_for_safety_issue(
+        safety_issue_id
+    )
+    recommendations = recommendations.drop(columns=["safety_issue_id"])
+    recommendations.columns = ["Recommendation ID", "Recommendation", "Recipient"]
+
+    return jsonify(
+        {
+            "title": f"Recommendations for {safety_issue_id}",
+            "main": f"<br>{recommendations.to_html(index=False, justify='center') if recommendations.shape[0] > 0 else 'No recommendations found'}<br><br><em>These recommendations are linked to the safety issue using AI so won't be 100% accurate.</em>",
+        }
+    )
 
 
 @app.route("/get_links_visual", methods=["GET"])

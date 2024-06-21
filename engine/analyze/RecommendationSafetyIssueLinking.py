@@ -141,15 +141,18 @@ class RecommendationSafetyIssueLinker:
             - None
             - Possible
             - Confirmed
+
+            Your response should just be a single word that is either None, Possible, or Confirmed. No other text is required.
             """,
             model="gpt-4",
             temp=0,
         )
+        # Validate response
 
-        if response.strip() in ["None", "Possible", "Confirmed"]:
+        if response.strip().lower() in ["none", "possible", "confirmed"]:
             return response
 
-        print(f"Model response is incorrect and is {response}")
+        print(f"Model response is incorrect and is '{response}'")
         return "undetermined"
 
     def _evaluate_all_possible_links(
@@ -212,6 +215,7 @@ class RecommendationSafetyIssueLinker:
             report_links = self._evaluate_all_possible_links(
                 recommendations, safety_issues
             )
+            print(report_links)
 
             links_df.loc[len(links_df)] = [report_id, report_links]
 
