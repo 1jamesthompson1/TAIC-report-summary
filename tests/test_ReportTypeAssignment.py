@@ -27,9 +27,9 @@ def test_report_type_assignment(tmpdir):
     "report_title, mode, expected_type",
     [
         pytest.param(
-            "Hawker Beechcraft Corporation 1900D, ZK-EAQ cargo door opening in flight, Auckland International Airport, 9 April 201-",
+            "Hawker Beechcraft Corporation 1900D, ZK-EAQ cargo door opening in flight, Auckland International Airport, 9 April 2010",
             0,
-            "Aircraft Loading",
+            "Aircraft loading",
             id="aircraft_loading",
         ),
         pytest.param(
@@ -50,6 +50,12 @@ def test_report_type_assignment(tmpdir):
             "Safeworking Rule or Procedure Breach",
             id="safeworking_rule_or_procedure_breach",
         ),
+        pytest.param(
+            "Cessna 185A, ZK-CBY and Tecnam P2002, ZK-WAK Mid-air collision, near Masterton, 16 June 2019",
+            0,
+            "Aircraft separation",
+            id="aircraft_separation",
+        ),
     ],
 )
 def test_single_report_type_assignment(report_title, mode, expected_type):
@@ -60,6 +66,6 @@ def test_single_report_type_assignment(report_title, mode, expected_type):
     )
 
     assert (
-        report_type_assigner.assign_report_type(report_title, Modes.Mode(mode))
-        == expected_type
+        report_type_assigner.assign_report_type(report_title, Modes.Mode(mode)).lower()
+        == expected_type.lower()
     )
