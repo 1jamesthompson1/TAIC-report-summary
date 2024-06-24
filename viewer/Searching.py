@@ -335,6 +335,7 @@ class SearchEngineSearcher:
             return self._table_search(
                 table=self.si_table, type="vector", filter=where_statement, limit=500
             )
+
         reports_relevance = (
             report_sections_search_results.groupby("report_id")
             .head(50)
@@ -347,6 +348,7 @@ class SearchEngineSearcher:
         safety_issues_search_results = self._table_search(
             table=self.si_table, type="vector", filter=where_statement, limit=500
         )
+
         safety_issues_search_results["section_relevance_score"] = (
             safety_issues_search_results.apply(
                 lambda row: row["section_relevance_score"]
@@ -365,7 +367,41 @@ class SearchEngineSearcher:
 
         safety_issues_search_results.reset_index(drop=False, inplace=True)
 
+        reranked = self._reranked_results(safety_issues_search_results)
+
+        return reranked
         return safety_issues_search_results
+
+    def _reranked_results(self, results: pd.DataFrame) -> pd.DataFrame:
+        """
+        This method will take the results from the `safety_issue_search_with_report_relevance` and will filter the results ot only show the most relevant. Safety issues.
+        """
+
+        top_results = results.head(200)
+
+        reranking_results = self.vo.rerank(
+            documents=top_results["safety_issue"].tolist(),
+            query=self.query,
+            model="rerank-1",
+            truncation=False,
+        ).results
+
+        reranked_indices = [result.index for result in reranking_results]
+        reranked_relevance_scores = [
+            result.relevance_score for result in reranking_results
+        ]
+
+        top_results.loc[reranked_indices, "section_relevance_score"] = (
+            reranked_relevance_scores
+        )
+
+        top_results.sort_values(
+            by="section_relevance_score", ascending=False, inplace=True
+        )
+
+        top_results.reset_index(drop=False, inplace=True)
+
+        return top_results
 
     def _get_rag_prompt(self, query: str, context: str):
         return f"""
