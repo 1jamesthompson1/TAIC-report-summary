@@ -96,6 +96,8 @@ class SearchResult:
             inplace=True,
         )
 
+        context_df["relevance"] = context_df["relevance"].apply(lambda x: f"{x:.4f}")
+
         context_df = context_df[
             [
                 "relevance",
@@ -367,9 +369,9 @@ class SearchEngineSearcher:
 
         safety_issues_search_results.reset_index(drop=False, inplace=True)
 
-        reranked = self._reranked_results(safety_issues_search_results)
+        # reranked = self._reranked_results(safety_issues_search_results)
 
-        return reranked
+        # return reranked
         return safety_issues_search_results
 
     def _reranked_results(self, results: pd.DataFrame) -> pd.DataFrame:
@@ -402,6 +404,9 @@ class SearchEngineSearcher:
         top_results.reset_index(drop=False, inplace=True)
 
         return top_results
+
+    def _filter_results(self, results: pd.DataFrame) -> pd.DataFrame:
+        return results.query("section_relevance_score > 0.01")
 
     def _get_rag_prompt(self, query: str, context: str):
         return f"""
@@ -438,7 +443,7 @@ class SearchEngineSearcher:
         self.query = formatted_query
 
         search_results = self.safety_issue_search_with_report_relevance()
-        search_results = search_results.head(50)
+        # search_results = self._filter_results(search_results)
 
         user_message = "\n".join(
             f"{id} from report {report} with relevance {rel} - {si}"
