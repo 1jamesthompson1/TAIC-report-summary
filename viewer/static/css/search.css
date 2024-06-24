@@ -154,3 +154,12 @@ input[type="text"], input[type="number"] {
 #checkboxes {
     order: 1;
 }
+
+
+/*
+===== Relevance slider =====
+*/
+
+#relevanceCutoffSlider {
+    padding: 0;
+}

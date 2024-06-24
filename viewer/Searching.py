@@ -8,7 +8,12 @@ from engine.utils.OpenAICaller import openAICaller
 
 
 class SearchSettings:
-    def __init__(self, modes: list[Modes.Mode], year_range: tuple[int, int]):
+    def __init__(
+        self,
+        modes: list[Modes.Mode],
+        year_range: tuple[int, int],
+        relevanceCutoff: float,
+    ):
         """
         Initializes a new instance of the SearchSettings class.
         These are all the settings that the `Search` class will have that the `Searcher` class will use.
@@ -28,11 +33,18 @@ class SearchSettings:
             raise TypeError("modes must be a list of Modes.Mode objects")
         self.modes = modes
 
+        if not isinstance(relevanceCutoff, float):
+            raise TypeError("relevanceCutoff must be an integer")
+        self.relevanceCutoff = relevanceCutoff
+
     def getYearRange(self) -> tuple[int, int]:
         return self.year_range
 
     def getModes(self) -> list[Modes.Mode]:
         return self.modes
+
+    def getRelevanceCutoff(self) -> int:
+        return self.relevanceCutoff
 
 
 class Search:
@@ -66,7 +78,17 @@ class Search:
                 int(form.get("yearSlider-min")),
                 int(form.get("yearSlider-max")),
             )
-            return cls(search_query, settings=SearchSettings(modes_list, year_range))
+
+            # Relevance
+
+            relevance_cutoff = float(form.get("relevanceCutoff", 0))
+
+            print(form)
+
+            return cls(
+                search_query,
+                settings=SearchSettings(modes_list, year_range, relevance_cutoff),
+            )
         except KeyError as e:
             raise ValueError(f"Form data is missing key: {e}")
 
@@ -406,7 +428,9 @@ class SearchEngineSearcher:
         return top_results
 
     def _filter_results(self, results: pd.DataFrame) -> pd.DataFrame:
-        return results.query("section_relevance_score > 0.01")
+        return results.query(
+            f"section_relevance_score > {self.settings.getRelevanceCutoff()}"
+        )
 
     def _get_rag_prompt(self, query: str, context: str):
         return f"""
@@ -443,7 +467,7 @@ class SearchEngineSearcher:
         self.query = formatted_query
 
         search_results = self.safety_issue_search_with_report_relevance()
-        # search_results = self._filter_results(search_results)
+        search_results = self._filter_results(search_results)
 
         user_message = "\n".join(
             f"{id} from report {report} with relevance {rel} - {si}"
