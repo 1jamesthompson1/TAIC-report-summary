@@ -71,32 +71,41 @@ class ReportTypeAssigner:
     def assign_report_type(self, report_title: str, mode: Modes.Mode):
         mode_event_types_str = self.event_types_for_mode[mode]
 
-        type = openAICaller.query(
-            system="""
+        system_message = f"""
 You are helping me extract and assign event types to reports based off their titles.
-""",
-            user=f"""
+
 Can you please extract the accident event type from the report title.
 
 Here is a list of the possible event types:
 {mode_event_types_str}
 
-Here area few examples of what you are to do:
-Input:
-Hawker Beechcraft Corporation 1900D, ZK-EAQ cargo door opening in flight, Auckland International Airport, 9 April 2010
-Output:
+Some events types overlap so make sure to read the entire list and choose the most specific one.
+
+Your response will be a single event type without any other words.
+"""
+
+        user_message = f"""
+Here are examples of what the classification should look like:
+
+Extract event category from "Hawker Beechcraft Corporation 1900D, ZK-EAQ cargo door opening in flight, Auckland International Airport, 9 April 2010":
 Aircraft Loading
 
-Input:
-Chokyo Maru No.68, ran aground, Hauraki Gulf, New Zealand, 16 April 2024
-Output:
+Extract event category from "Chokyo Maru No.68, ran aground, Hauraki Gulf, New Zealand, 16 April 2024":
 Grounding
 
-Here is the report title:
-{report_title}
+Extract event category from "Cessna 152 ZK-ETY and Robinson R22 ZK-HGV, mid-air collision, Paraparaumu, 17 February 2008":
+Collision
 
-Your response should be just a singe event type without any other text.
-""",
+Extract event category from "{report_title}":
+
+Here are the possible event types:
+{mode_event_types_str}
+"""
+        print(user_message)
+
+        type = openAICaller.query(
+            system=system_message,
+            user=user_message,
             model="gpt-4",
             temp=0,
         )
