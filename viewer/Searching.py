@@ -186,48 +186,85 @@ class SearchResult:
 
 
 class SearchEngine:
-    def __init__(self, db_uri: str):
-        self.db = lancedb.connect(db_uri)
+    def __init__(self):
+        self.vo = voyageai.Client()
 
+    @classmethod
+    def create(cls, db_uri: str):
+        self = cls()
+
+        self.remote_db = db_uri[2:5] == "://"
+        if self.remote_db:
+            raise ValueError("Remote db not supported call the async create function")
+
+        self.db = lancedb.connect(db_uri)
         self.si_table = self.db.open_table("safety_issue_embeddings")
         self.report_sections_table = self.db.open_table("report_section_embeddings")
-
-        self.safety_issue_recommendations = self.db.open_table(
+        self.safety_issue_recommendations_table = self.db.open_table(
             "safety_issue_recommendations"
         )
 
-        self.vo = voyageai.Client()
+        return self
 
-    def search(self, search: Search, with_rag=True) -> SearchResult:
+    @classmethod
+    async def async_create(cls, db_uri: str):
+        self = cls()
+        self.remote_db = db_uri[2:5] == "://"
+        if not self.remote_db:
+            raise ValueError("Local db not supported call the regular create function")
+        self.db = await lancedb.connect_async(db_uri)
+
+        self.si_table = await self.db.open_table("safety_issue_embeddings")
+        self.report_sections_table = await self.db.open_table(
+            "report_section_embeddings"
+        )
+        self.safety_issue_recommendations_table = await self.db.open_table(
+            "safety_issue_recommendations"
+        )
+
+        return self
+
+    async def search(self, search: Search, with_rag=True) -> SearchResult:
         """
         This function takes a search object with some parameters and will create the right `SearchEngineSearcher`
         """
 
         searchEngineSearcher = SearchEngineSearcher(
-            search, self.si_table, self.report_sections_table, self.vo
+            search, self.si_table, self.report_sections_table, self.vo, self.remote_db
         )
 
         response = None
 
         if with_rag and search.getQuery() != "":
-            response = searchEngineSearcher.rag_search()
+            response = await searchEngineSearcher.rag_search()
         else:
-            results = searchEngineSearcher.safety_issue_search_with_report_relevance()
+            if self.remote_db:
+                results = await searchEngineSearcher.async_safety_issue_search_with_report_relevance()
+            else:
+                results = (
+                    searchEngineSearcher.safety_issue_search_with_report_relevance()
+                )
             response = SearchResult(results, None)
+
+        async def get_num_recommendations(report_id):
+            return await self.get_recommendations_for_safety_issue(report_id)
 
         response.getContext()["recommendations"] = response.getContext()[
             "safety_issue_id"
-        ].apply(
-            lambda safety_issue_id: len(
-                self.get_recommendations_for_safety_issue(safety_issue_id)
-            )
-        )
+        ].apply(get_num_recommendations)
 
         return response
 
-    def get_recommendations_for_safety_issue(self, safety_issue_id: str):
+    async def get_recommendations_for_safety_issue(self, safety_issue_id: str):
+        if self.remote_db:
+            return (
+                await self.safety_issue_recommendations_table.query()
+                .where(f"safety_issue_id == '{safety_issue_id}'")
+                .to_pandas()
+            )
+
         return (
-            self.safety_issue_recommendations.search()
+            self.safety_issue_recommendations_table.search()
             .where(f"safety_issue_id == '{safety_issue_id}'")
             .to_pandas()
         )
@@ -240,6 +277,7 @@ class SearchEngineSearcher:
         si_table: lancedb.table.Table,
         report_sections_table: lancedb.table.Table,
         vo: voyageai.Client,
+        remote_db: bool,
     ):
         self.query = search.getQuery()
         self.settings = search.getSettings()
@@ -249,10 +287,46 @@ class SearchEngineSearcher:
 
         self.vo = vo
 
+        self.remote_db = remote_db
+
+        self.where_statement = " AND ".join(
+            [
+                f"year >= {str(self.settings.getYearRange()[0])} AND year <= {str(self.settings.getYearRange()[1])}",
+                f"mode IN {tuple([mode.value for mode in self.settings.getModes()])}"
+                if len(self.settings.getModes()) > 1
+                else f"mode = {self.settings.getModes()[0].value}",
+            ]
+        )
+
     def _embed_query(self, query: str) -> list[float]:
         return self.vo.embed(
             query, model="voyage-large-2-instruct", input_type="query", truncation=False
         ).embeddings[0]
+
+    async def _async_table_search(
+        self,
+        filter: str,
+        table: lancedb.table.Table,
+        limit=100,
+        type: str = ["hybrid", "fts", "vector"],
+    ):
+        if type == "hybrid" or type == "fts":
+            raise NotImplementedError("fts not implemented on remote db")
+        else:  # type == 'vector'
+            results = (
+                await table.vector_search(self._embed_query(self.query))
+                .distance_type("cosine")
+                .limit(limit)
+                .where(filter)
+                .to_pandas()
+            )
+            results.rename(
+                columns={"_distance": "section_relevance_score"}, inplace=True
+            )
+            # THe section relevance score should always be ascending. Therefore I need to flip the distance which is ascending.
+            results["section_relevance_score"] = 1 - results["section_relevance_score"]
+        results.sort_values(by="section_relevance_score", ascending=False, inplace=True)
+        return results
 
     def _table_search(
         self,
@@ -293,27 +367,59 @@ class SearchEngineSearcher:
             results.rename(
                 columns={"_distance": "section_relevance_score"}, inplace=True
             )
-            # THe section relevance score should always be ascending. Therefore I need to flip the distance which is ascending.
+            # The section relevance score should always be ascending. Therefore I need to flip the distance which is ascending.
             results["section_relevance_score"] = 1 - results["section_relevance_score"]
 
         results.sort_values(by="section_relevance_score", ascending=False, inplace=True)
 
         return results
 
-    def safety_issue_search_with_report_relevance(self) -> pd.DataFrame:
-        where_statement = " AND ".join(
-            [
-                f"year >= {str(self.settings.getYearRange()[0])} AND year <= {str(self.settings.getYearRange()[1])}",
-                f"mode IN {tuple([mode.value for mode in self.settings.getModes()])}"
-                if len(self.settings.getModes()) > 1
-                else f"mode = {self.settings.getModes()[0].value}",
-            ]
-        )
+    async def async_safety_issue_search_with_report_relevance(self) -> pd.DataFrame:
+        if not self.remote_db:
+            raise TypeError(
+                "async_safety_issue_search_with_report_relevance not implemented on local db"
+            )
         if self.query == "" or self.query is None:
             return (
                 self.si_table.search()
                 .limit(None)
-                .where(where_statement, prefilter=True)
+                .where(self.where_statement, prefilter=True)
+                .to_pandas()
+                .assign(section_relevance_score=0)
+            )
+
+        report_sections_search_results = await self._async_table_search(
+            filter=self.where_statement,
+            table=self.report_sections_table,
+            limit=50000,
+            type="vector",
+        )
+
+        if report_sections_search_results.shape[0] == 0:
+            return await self._async_table_search(
+                table=self.si_table,
+                type="vector",
+                filter=self.where_statement,
+                limit=500,
+            )
+        safety_issues_search_results = await self._async_table_search(
+            table=self.si_table, type="vector", filter=self.where_statement, limit=500
+        )
+
+        return self._combine_results(
+            safety_issues_search_results, report_sections_search_results
+        )
+
+    def safety_issue_search_with_report_relevance(self) -> pd.DataFrame:
+        if self.remote_db:
+            raise TypeError(
+                "safety_issue_search_with_report_relevance not implemented on remote db"
+            )
+        if self.query == "" or self.query is None:
+            return (
+                self.si_table.search()
+                .limit(None)
+                .where(self.where_statement, prefilter=True)
                 .to_pandas()
                 .assign(section_relevance_score=0)
             )
@@ -321,9 +427,29 @@ class SearchEngineSearcher:
         report_sections_search_results = self._table_search(
             table=self.report_sections_table,
             limit=50000,
-            filter=where_statement,
-            type="fts",
+            filter=self.where_statement,
+            type="vector",
         )
+        if report_sections_search_results.shape[0] == 0:
+            return self._table_search(
+                table=self.si_table,
+                type="vector",
+                filter=self.where_statement,
+                limit=500,
+            )
+        safety_issues_search_results = self._table_search(
+            table=self.si_table, type="vector", filter=self.where_statement, limit=500
+        )
+
+        return self._combine_results(
+            safety_issues_search_results, report_sections_search_results
+        )
+
+    def _combine_results(
+        self,
+        safety_issues_search_results: pd.DataFrame,
+        report_sections_search_results: pd.DataFrame,
+    ):
         report_sections_search_results["section_relevance_score"] = (
             report_sections_search_results["section_relevance_score"]
             - report_sections_search_results["section_relevance_score"].min()
@@ -331,10 +457,6 @@ class SearchEngineSearcher:
             report_sections_search_results["section_relevance_score"].max()
             - report_sections_search_results["section_relevance_score"].min()
         )
-        if report_sections_search_results.shape[0] == 0:
-            return self._table_search(
-                table=self.si_table, type="vector", filter=where_statement, limit=500
-            )
         reports_relevance = (
             report_sections_search_results.groupby("report_id")
             .head(50)
@@ -344,9 +466,6 @@ class SearchEngineSearcher:
             .to_dict()
         )
 
-        safety_issues_search_results = self._table_search(
-            table=self.si_table, type="vector", filter=where_statement, limit=500
-        )
         safety_issues_search_results["section_relevance_score"] = (
             safety_issues_search_results.apply(
                 lambda row: row["section_relevance_score"]
@@ -380,7 +499,7 @@ class SearchEngineSearcher:
         Remember to keep your answers only a couple of sentences long.
         """
 
-    def rag_search(self):
+    async def rag_search(self):
         print(("Understanding query..."))
 
         formatted_query = openAICaller.query(
@@ -401,7 +520,12 @@ class SearchEngineSearcher:
 
         self.query = formatted_query
 
-        search_results = self.safety_issue_search_with_report_relevance()
+        if self.remote_db:
+            search_results = (
+                await self.async_safety_issue_search_with_report_relevance()
+            )
+        else:
+            search_results = self.safety_issue_search_with_report_relevance()
         search_results = search_results.head(50)
 
         user_message = "\n".join(
