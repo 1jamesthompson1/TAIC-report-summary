@@ -240,21 +240,24 @@ class SearchEngine:
             response = SearchResult(results, None)
 
         response.getContext()["recommendations"] = response.getContext()[
-            "safety_issue_id"
-        ].apply(
-            lambda safety_issue_id: len(
-                self.get_recommendations_for_safety_issue(safety_issue_id)
-            )
-        )
+            "recommendations"
+        ].apply(len)
 
         return response
 
     def get_recommendations_for_safety_issue(self, safety_issue_id: str):
-        return (
-            self.safety_issue_recommendations.search()
+        search_results = (
+            self.si_table.search()
             .where(f"safety_issue_id == '{safety_issue_id}'")
-            .to_pandas()
+            .limit(1)
+            .select(["recommendations"])
+            .to_list()
         )
+
+        if len(search_results) == 0:
+            return []
+
+        return search_results[0]["recommendations"]
 
 
 class SearchEngineSearcher:
@@ -469,15 +472,30 @@ class SearchEngineSearcher:
         search_results = self.safety_issue_search_with_report_relevance()
         search_results = self._filter_results(search_results)
 
-        user_message = "\n".join(
-            f"{id} from report {report} with relevance {rel} - {si}"
-            for id, report, si, rel in zip(
+        user_message = "\n\n".join(
+            f"""{id} from report {report} of type {type} with relevance {rel:.4f}:
+'{si}'
+{f"This safety issue had recommendations: {recs}" if recs != "" else "No recommendations were made"}
+"""
+            for id, report, type, si, rel, recs in zip(
                 search_results["safety_issue_id"],
                 search_results["report_id"],
+                search_results["type"],
                 search_results["safety_issue"],
                 search_results["section_relevance_score"],
+                [
+                    "\n".join(
+                        [
+                            f"Recommendation {rec['recommendation_id']} made to {rec['recipient']}: {rec['recommendation']}"
+                            for rec in recs
+                        ]
+                    )
+                    for recs in search_results["recommendations"]
+                ],
             )
         )
+
+        print("\n\nUser message:\n\n", user_message)
 
         print("Summarizing relevant safety issues...")
         response = openAICaller.query(

@@ -97,13 +97,18 @@ def get_safety_issue_recommendations():
     recommendations = get_searcher().get_recommendations_for_safety_issue(
         safety_issue_id
     )
-    recommendations = recommendations.drop(columns=["safety_issue_id"])
-    recommendations.columns = ["Recommendation ID", "Recommendation", "Recipient"]
+
+    columns = ["recommendation_id", "recommendation", "recipient"]
+
+    recommendations_df = pd.DataFrame(recommendations, columns=columns)
+
+    recommendations_df = recommendations_df[columns]
+    recommendations_df.columns = ["Recommendation ID", "Recommendation", "Recipient"]
 
     return jsonify(
         {
             "title": f"Recommendations for {safety_issue_id}",
-            "main": f"<br>{recommendations.to_html(index=False, justify='center') if recommendations.shape[0] > 0 else 'No recommendations found'}<br><br><em>These recommendations are linked to the safety issue using AI so won't be 100% accurate.</em>",
+            "main": f"<br>{recommendations_df.to_html(index=False, justify='center') if recommendations_df.shape[0] > 0 else 'No recommendations found'}<br><br><em>These recommendations are linked to the safety issue using AI so won't be 100% accurate.</em>",
         }
     )
 
