@@ -435,44 +435,8 @@ class SearchEngineSearcher:
             f"section_relevance_score > {self.settings.getRelevanceCutoff()}"
         )
 
-    def _get_rag_prompt(self, query: str, context: str):
-        return f"""
-        Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know.
-        Your answer should be only a couple of sentences long.
-        My question is: {query}
-
-        Here are relevant safety issues as context:
-        {context}
-
-        It is important to provide references to specific reports and safety issues in your answer.
-        Remember to keep your answers only a couple of sentences long.
-        """
-
-    def rag_search(self):
-        print(("Understanding query..."))
-
-        formatted_query = openAICaller.query(
-            system="""
-    You are a helpful agent inside a RAG system.
-
-    You will receive a query from the user and return a query that should be sent to a vector database.
-
-    The database will search a dataset of safety issues from transport accident investigation reports.  It will use both embeddings and full text search.
-    """,
-            user=self.query,
-            model="gpt-4",
-            temp=0.0,
-        )
-        print(f' Going to run query: "{formatted_query}"')
-
-        print("Getting relevant safety issues...")
-
-        self.query = formatted_query
-
-        search_results = self.safety_issue_search_with_report_relevance()
-        search_results = self._filter_results(search_results)
-
-        user_message = "\n\n".join(
+    def _get_rag_prompt(self, query: str, search_results: pd.DataFrame):
+        context = "\n\n".join(
             f"""{id} from report {report} of type {type} with relevance {rel:.4f}:
 '{si}'
 {f"This safety issue had recommendations: {recs}" if recs != "" else "No recommendations were made"}
@@ -494,15 +458,26 @@ class SearchEngineSearcher:
                 ],
             )
         )
+        return f"""
+        My question is: {query}
 
-        print("\n\nUser message:\n\n", user_message)
+        Use the following pieces of retrieved context and your common knowledge to answer the question. If you don't know the answer, just say that you don't know.
+        {context}
 
-        print("Summarizing relevant safety issues...")
-        response = openAICaller.query(
+        It is important to provide references to specific reports and safety issues in your answer.
+        Remember to keep your answer concise and no longer than a few sentences. If you feel it necessary you can format our answer with markdown but no links.
+        """
+
+    def rag_search(self):
+        print(("Understanding query..."))
+
+        formatted_query = openAICaller.query(
             system="""
-    You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.
+    You will receive a query from the user and return a query that is optimized for a vector search of a safety issue and recommendation database.
 
-    The questions are from investigators and researchers from the Transport Accident Investigation Commission. The context you will be given are safety issues extracted from all of TAICs reports.
+    The vector database is an embedded dataset of safety issues from the New Zealand Transport Accident Investigation Commission.
+
+    Please don't include the words "report" or "safety issue" in your query.
 
     A couple of useful definitions for you are:
 
@@ -524,9 +499,51 @@ class SearchEngineSearcher:
     cover a single safety issue, or two or more related safety
     issues.  
     """,
-            user=self._get_rag_prompt(self.query, user_message),
+            user=self.query,
             model="gpt-4",
-            temp=0.2,
+            temp=0.0,
+        )
+        print(f' Going to run query: "{formatted_query}"')
+
+        print("Getting relevant safety issues...")
+        original_query = self.query
+        self.query = formatted_query
+
+        search_results = self.safety_issue_search_with_report_relevance()
+        search_results = self._filter_results(search_results)
+
+        print("Summarizing relevant safety issues...")
+        response = openAICaller.query(
+            system="""
+    You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.
+
+    The questions are from investigators and researchers from the Transport Accident Investigation Commission. The context you will be given are safety issues extracted from all of TAICs reports.
+
+    You will be given a question and some context documents. You will then need to answer the question as best you can. It might be possible that hte question can't be answered with the given context which you should just say that.
+
+    A couple of useful definitions for you are:
+
+    Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+    increase the likelihood of an occurrence, and/or the
+    severity of any adverse consequences associated with the
+    occurrence.
+
+    Safety issue - A safety factor that:
+    • can reasonably be regarded as having the
+    potential to adversely affect the safety of future
+    operations, and
+    • is characteristic of an organization, a system, or an
+    operational environment at a specific point in time.
+    Safety Issues are derived from safety factors classified
+    either as Risk Controls or Organisational Influences.
+
+    Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+    cover a single safety issue, or two or more related safety
+    issues.  
+    """,
+            user=self._get_rag_prompt(original_query, search_results),
+            model="gpt-4",
+            temp=0,
         )
         formatted_response = f"""Query made to the database was: '{self.query}'
 
