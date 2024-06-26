@@ -99,3 +99,9 @@
 #searchResults pre {
     text-wrap: balance;
 }
+
+#searchResultsSummary {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
