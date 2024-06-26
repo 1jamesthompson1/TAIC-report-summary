@@ -29,14 +29,6 @@ from engine.utils.AICaller import AICaller
         ),
         pytest.param(
             "claude-3.5-sonnet",
-            "No n support",
-            0,
-            2,
-            False,
-            id="claude-3.5 multiple responses",
-        ),
-        pytest.param(
-            "claude-3.5-sonnet",
             "Testing over the limit." * (10**6),
             0,
             1,
@@ -61,3 +53,27 @@ def test_ai_caller(model, user, temp, n, expected_response):
     assert len(response) == n
 
     assert all([isinstance(res, str) for res in response])
+
+
+def test_ai_caller_invalid_model():
+    with pytest.raises(Exception):
+        AICaller.query(
+            model="gpt-6",
+            system="",
+            user="Hello this is a test",
+            temp=0,
+            n=1,
+            max_tokens=100,
+        )
+
+
+def test_ai_caller_invalid_n():
+    with pytest.raises(Exception):
+        AICaller.query(
+            model="claude-3.5-sonnet",
+            system="",
+            user="Hello this is a test",
+            temp=0,
+            n=2,
+            max_tokens=100,
+        )
