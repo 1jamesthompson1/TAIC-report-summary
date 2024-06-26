@@ -542,9 +542,9 @@ class SearchEngineSearcher:
     issues.  
     """,
             user=self._get_rag_prompt(original_query, search_results),
-            model="gpt-4",
+            model="claude-3.5-sonnet",
             temp=0,
-            max_tokens=8000,
+            max_tokens=4096,
         )
         formatted_response = f"""Query made to the database was: '{self.query}'
 

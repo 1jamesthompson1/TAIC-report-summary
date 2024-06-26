@@ -223,7 +223,7 @@ issues.
                 message(self.important_text),
                 model="gpt-4",
                 temp=temp,
-                max_tokens=8000,
+                max_tokens=4096,
             )
 
             if response is None:
