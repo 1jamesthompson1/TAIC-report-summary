@@ -7,7 +7,9 @@ import viewer.Searching as Searching
 
 class TestSearchSettings:
     def test_basic_creation(self):
-        settings = Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2000, 2020))
+        settings = Searching.SearchSettings(
+            [Modes.Mode.a, Modes.Mode.r], (2000, 2020), 0.1
+        )
 
         assert settings.getModes() == [Modes.Mode.a, Modes.Mode.r]
         assert settings.getYearRange() == (2000, 2020)
@@ -24,7 +26,7 @@ class TestSearch:
     def test_basic_creation(self):
         search = Searching.Search(
             "hello",
-            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2000, 2020)),
+            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2000, 2020), 0.1),
         )
 
         assert search.getQuery() == "hello"
@@ -59,7 +61,7 @@ class TestSearcher:
     def test_search(self):
         search = Searching.Search(
             "hello",
-            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2000, 2020)),
+            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2000, 2020), 0.1),
         )
         result = self.searcher.search(search, with_rag=False)
 
@@ -69,7 +71,8 @@ class TestSearcher:
 
     def test_search_with_summary(self):
         search = Searching.Search(
-            "pilot incapacity", Searching.SearchSettings(Modes.all_modes, (2000, 2020))
+            "pilot incapacity",
+            Searching.SearchSettings(Modes.all_modes, (2000, 2020), 0.1),
         )
         result = self.searcher.search(search, with_rag=True)
 
@@ -80,7 +83,7 @@ class TestSearcher:
     def test_filtered_search(self):
         search = Searching.Search(
             "pilot",
-            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2010, 2015)),
+            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (2010, 2015), 0.1),
         )
         result = self.searcher.search(search, with_rag=False)
 
@@ -96,7 +99,7 @@ class TestSearcher:
 
     def test_filtered_search_single_mode(self):
         search = Searching.Search(
-            "pilot", Searching.SearchSettings([Modes.Mode.a], (2010, 2015))
+            "pilot", Searching.SearchSettings([Modes.Mode.a], (2010, 2015), 0.1)
         )
         result = self.searcher.search(search, with_rag=False)
 
@@ -112,7 +115,8 @@ class TestSearcher:
 
     def test_filtered_search_no_query(self):
         search = Searching.Search(
-            "", Searching.SearchSettings([Modes.Mode.m, Modes.Mode.r], (2002, 2005))
+            "",
+            Searching.SearchSettings([Modes.Mode.m, Modes.Mode.r], (2002, 2005), 0.1),
         )
 
         result = self.searcher.search(search, with_rag=False)
@@ -128,7 +132,7 @@ class TestSearcher:
     def test_search_without_results(self):
         search = Searching.Search(
             "hello",
-            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (1997, 1999)),
+            Searching.SearchSettings([Modes.Mode.a, Modes.Mode.r], (1997, 1999), 0.1),
         )
         result = self.searcher.search(search, with_rag=False)
 
@@ -139,7 +143,7 @@ class TestSearcher:
     @pytest.mark.parametrize(
         "safety_issue_id, expected_num",
         [
-            pytest.param("2001_007_1", 2),
+            pytest.param("2001_007_0", 2),
             pytest.param("2002_007_2", 0),
         ],
     )

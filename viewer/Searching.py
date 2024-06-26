@@ -8,7 +8,12 @@ from engine.utils.OpenAICaller import openAICaller
 
 
 class SearchSettings:
-    def __init__(self, modes: list[Modes.Mode], year_range: tuple[int, int]):
+    def __init__(
+        self,
+        modes: list[Modes.Mode],
+        year_range: tuple[int, int],
+        relevanceCutoff: float,
+    ):
         """
         Initializes a new instance of the SearchSettings class.
         These are all the settings that the `Search` class will have that the `Searcher` class will use.
@@ -28,11 +33,18 @@ class SearchSettings:
             raise TypeError("modes must be a list of Modes.Mode objects")
         self.modes = modes
 
+        if not isinstance(relevanceCutoff, float):
+            raise TypeError("relevanceCutoff must be an integer")
+        self.relevanceCutoff = relevanceCutoff
+
     def getYearRange(self) -> tuple[int, int]:
         return self.year_range
 
     def getModes(self) -> list[Modes.Mode]:
         return self.modes
+
+    def getRelevanceCutoff(self) -> int:
+        return self.relevanceCutoff
 
 
 class Search:
@@ -66,7 +78,17 @@ class Search:
                 int(form.get("yearSlider-min")),
                 int(form.get("yearSlider-max")),
             )
-            return cls(search_query, settings=SearchSettings(modes_list, year_range))
+
+            # Relevance
+
+            relevance_cutoff = float(form.get("relevanceCutoff", 0))
+
+            print(form)
+
+            return cls(
+                search_query,
+                settings=SearchSettings(modes_list, year_range, relevance_cutoff),
+            )
         except KeyError as e:
             raise ValueError(f"Form data is missing key: {e}")
 
@@ -95,6 +117,8 @@ class SearchResult:
             columns={"si": "safety_issue", "section_relevance_score": "relevance"},
             inplace=True,
         )
+
+        context_df["relevance"] = context_df["relevance"].apply(lambda x: f"{x:.4f}")
 
         context_df = context_df[
             [
@@ -216,21 +240,24 @@ class SearchEngine:
             response = SearchResult(results, None)
 
         response.getContext()["recommendations"] = response.getContext()[
-            "safety_issue_id"
-        ].apply(
-            lambda safety_issue_id: len(
-                self.get_recommendations_for_safety_issue(safety_issue_id)
-            )
-        )
+            "recommendations"
+        ].apply(len)
 
         return response
 
     def get_recommendations_for_safety_issue(self, safety_issue_id: str):
-        return (
-            self.safety_issue_recommendations.search()
+        search_results = (
+            self.si_table.search()
             .where(f"safety_issue_id == '{safety_issue_id}'")
-            .to_pandas()
+            .limit(1)
+            .select(["recommendations"])
+            .to_list()
         )
+
+        if len(search_results) == 0:
+            return []
+
+        return search_results[0]["recommendations"]
 
 
 class SearchEngineSearcher:
@@ -335,6 +362,7 @@ class SearchEngineSearcher:
             return self._table_search(
                 table=self.si_table, type="vector", filter=where_statement, limit=500
             )
+
         reports_relevance = (
             report_sections_search_results.groupby("report_id")
             .head(50)
@@ -347,6 +375,7 @@ class SearchEngineSearcher:
         safety_issues_search_results = self._table_search(
             table=self.si_table, type="vector", filter=where_statement, limit=500
         )
+
         safety_issues_search_results["section_relevance_score"] = (
             safety_issues_search_results.apply(
                 lambda row: row["section_relevance_score"]
@@ -365,7 +394,46 @@ class SearchEngineSearcher:
 
         safety_issues_search_results.reset_index(drop=False, inplace=True)
 
+        # reranked = self._reranked_results(safety_issues_search_results)
+
+        # return reranked
         return safety_issues_search_results
+
+    def _reranked_results(self, results: pd.DataFrame) -> pd.DataFrame:
+        """
+        This method will take the results from the `safety_issue_search_with_report_relevance` and will filter the results ot only show the most relevant. Safety issues.
+        """
+
+        top_results = results.head(200)
+
+        reranking_results = self.vo.rerank(
+            documents=top_results["safety_issue"].tolist(),
+            query=self.query,
+            model="rerank-1",
+            truncation=False,
+        ).results
+
+        reranked_indices = [result.index for result in reranking_results]
+        reranked_relevance_scores = [
+            result.relevance_score for result in reranking_results
+        ]
+
+        top_results.loc[reranked_indices, "section_relevance_score"] = (
+            reranked_relevance_scores
+        )
+
+        top_results.sort_values(
+            by="section_relevance_score", ascending=False, inplace=True
+        )
+
+        top_results.reset_index(drop=False, inplace=True)
+
+        return top_results
+
+    def _filter_results(self, results: pd.DataFrame) -> pd.DataFrame:
+        return results.query(
+            f"section_relevance_score > {self.settings.getRelevanceCutoff()}"
+        )
 
     def _get_rag_prompt(self, query: str, context: str):
         return f"""
@@ -402,17 +470,32 @@ class SearchEngineSearcher:
         self.query = formatted_query
 
         search_results = self.safety_issue_search_with_report_relevance()
-        search_results = search_results.head(50)
+        search_results = self._filter_results(search_results)
 
-        user_message = "\n".join(
-            f"{id} from report {report} with relevance {rel} - {si}"
-            for id, report, si, rel in zip(
+        user_message = "\n\n".join(
+            f"""{id} from report {report} of type {type} with relevance {rel:.4f}:
+'{si}'
+{f"This safety issue had recommendations: {recs}" if recs != "" else "No recommendations were made"}
+"""
+            for id, report, type, si, rel, recs in zip(
                 search_results["safety_issue_id"],
                 search_results["report_id"],
+                search_results["type"],
                 search_results["safety_issue"],
                 search_results["section_relevance_score"],
+                [
+                    "\n".join(
+                        [
+                            f"Recommendation {rec['recommendation_id']} made to {rec['recipient']}: {rec['recommendation']}"
+                            for rec in recs
+                        ]
+                    )
+                    for recs in search_results["recommendations"]
+                ],
             )
         )
+
+        print("\n\nUser message:\n\n", user_message)
 
         print("Summarizing relevant safety issues...")
         response = openAICaller.query(

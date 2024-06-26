@@ -47,6 +47,12 @@ $(document).ready(function() {
         $(this).css('width', newWidth + 'ch');
     });
 
+    $('#relevanceCutoffSlider').on('input', function() {
+        const value = $(this).val();
+        $('#relevanceCutoffSliderLabel').text(value);
+
+    });
+
 
     $(function() {
         createYearSlider();
@@ -57,6 +63,12 @@ $(document).ready(function() {
     
             // Create new sliders
             createYearSlider();
+
+            // Reset the form
+            $('form').trigger('reset');
+
+            $('#relevanceCutoffSliderLabel').text($('#relevanceCutoffSlider').val());
+
         });
     });
 });
