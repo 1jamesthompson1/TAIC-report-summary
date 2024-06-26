@@ -4,7 +4,7 @@ import plotly.express as px
 import voyageai
 
 import engine.utils.Modes as Modes
-from engine.utils.OpenAICaller import openAICaller
+from engine.utils.AICaller import AICaller
 
 
 class SearchSettings:
@@ -471,7 +471,7 @@ class SearchEngineSearcher:
     def rag_search(self):
         print(("Understanding query..."))
 
-        formatted_query = openAICaller.query(
+        formatted_query = AICaller.query(
             system="""
     You will receive a query from the user and return a query that is optimized for a vector search of a safety issue and recommendation database.
 
@@ -513,7 +513,7 @@ class SearchEngineSearcher:
         search_results = self._filter_results(search_results)
 
         print("Summarizing relevant safety issues...")
-        response = openAICaller.query(
+        response = AICaller.query(
             system="""
     You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.
 
@@ -544,6 +544,7 @@ class SearchEngineSearcher:
             user=self._get_rag_prompt(original_query, search_results),
             model="gpt-4",
             temp=0,
+            max_tokens=8000,
         )
         formatted_response = f"""Query made to the database was: '{self.query}'
 

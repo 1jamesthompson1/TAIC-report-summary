@@ -4,7 +4,7 @@ import pandas as pd
 from tqdm import tqdm
 
 import engine.utils.Modes as Modes
-from engine.utils.OpenAICaller import openAICaller
+from engine.utils.AICaller import AICaller
 
 tqdm.pandas()
 
@@ -103,7 +103,7 @@ Here are the possible event types:
 """
         print(user_message)
 
-        type = openAICaller.query(
+        type = AICaller.query(
             system=system_message,
             user=user_message,
             model="gpt-4",

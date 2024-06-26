@@ -5,7 +5,7 @@ import regex as re
 import yaml
 from tqdm import tqdm
 
-from engine.utils.OpenAICaller import openAICaller
+from engine.utils.AICaller import openAICaller
 
 
 class ReportExtractor:
@@ -219,7 +219,11 @@ issues.
         temp = 0
         while temp < 0.1:
             response = openAICaller.query(
-                system_message, message(self.important_text), model="gpt-4", temp=temp
+                system_message,
+                message(self.important_text),
+                model="gpt-4",
+                temp=temp,
+                max_tokens=8000,
             )
 
             if response is None:
