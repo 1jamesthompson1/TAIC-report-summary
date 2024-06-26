@@ -6,7 +6,7 @@ import networkx as nx
 import pandas as pd
 from tqdm import tqdm
 
-from engine.utils.OpenAICaller import openAICaller
+from engine.utils.AICaller import AICaller
 
 
 class RecommendationSafetyIssueLinker:
@@ -114,7 +114,7 @@ class RecommendationSafetyIssueLinker:
     def _link_recommendation_with_safety_issue(
         self, recommendation: str, safety_issue: str
     ):
-        response = openAICaller.query(
+        response = AICaller.query(
             system="""
             You are going to help me find find links between recommendations and safety issues identified in transport accident investigation reports.
 

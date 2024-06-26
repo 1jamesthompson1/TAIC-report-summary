@@ -5,7 +5,7 @@ import regex as re
 import yaml
 from tqdm import tqdm
 
-from engine.utils.OpenAICaller import openAICaller
+from engine.utils.AICaller import AICaller
 
 
 class ReportExtractor:
@@ -97,7 +97,7 @@ class ReportExtractor:
         while attempts_left > 0:  # Repeat until the LLMs gives a valid response
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
-                model_response = openAICaller.query(
+                model_response = AICaller.query(
                     """
 You are helping me read the content section of a report.
 
@@ -218,8 +218,12 @@ issues.
 
         temp = 0
         while temp < 0.1:
-            response = openAICaller.query(
-                system_message, message(self.important_text), model="gpt-4", temp=temp
+            response = AICaller.query(
+                system_message,
+                message(self.important_text),
+                model="gpt-4",
+                temp=temp,
+                max_tokens=4096,
             )
 
             if response is None:
@@ -472,7 +476,7 @@ class ReportSectionExtractor(ReportExtractor):
 
         content_section = self.extract_contents_section()
 
-        pages = openAICaller.query(
+        pages = AICaller.query(
             """
             You are helping me read a content section.
 
@@ -534,7 +538,7 @@ class RecommendationsExtractor(ReportSectionExtractor):
         def message(text):
             return f'\n"""        \n{text}\n"""\n\n=Instructions=\n\nThis is the recommendation section of the report.  I want to have a list of all of the distinct recommendations that were made. It is important that the recommendations are copied verbatim\n\nCan your response please be in yaml format.\n\n- |\n    bla bla bla\n- |\n    bla bla bla bla\n\nThere is no need to enclose the yaml in any tags.\n'
 
-        response = openAICaller.query(
+        response = AICaller.query(
             """
 You are going help me read and parse a transport accident investigation report.
 
