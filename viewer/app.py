@@ -79,6 +79,7 @@ def format_search_results(results: Searching.SearchResult):
                 "most_common_event_types": most_common_event_types,
             },
             "summary": results.getSummary(),
+            "llm_messages": results.getLLMMessages(),
         }
     )
 

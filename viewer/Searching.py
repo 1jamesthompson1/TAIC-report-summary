@@ -100,9 +100,12 @@ class Search:
 
 
 class SearchResult:
-    def __init__(self, context: pd.DataFrame, summary: str = None):
+    def __init__(
+        self, context: pd.DataFrame, summary: str = None, llm_messages: list = None
+    ):
         self.context = context
         self.summary = summary
+        self.llm_messages = llm_messages
 
     def getContext(self) -> pd.DataFrame:
         return self.context
@@ -207,6 +210,9 @@ class SearchResult:
 
     def getSummary(self) -> str | None:
         return self.summary
+
+    def getLLMMessages(self) -> list | None:
+        return self.llm_messages
 
 
 class SearchEngine:
@@ -501,7 +507,7 @@ class SearchEngineSearcher:
     """,
             user=self.query,
             model="gpt-4",
-            temp=0.0,
+            temp=0,
         )
         print(f' Going to run query: "{formatted_query}"')
 
@@ -512,9 +518,10 @@ class SearchEngineSearcher:
         search_results = self.safety_issue_search_with_report_relevance()
         search_results = self._filter_results(search_results)
 
-        print("Summarizing relevant safety issues...")
-        response = AICaller.query(
-            system="""
+        conversation = [
+            {
+                "role": "system",
+                "content": """
     You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.
 
     The questions are from investigators and researchers from the Transport Accident Investigation Commission. The context you will be given are safety issues extracted from all of TAICs reports.
@@ -541,7 +548,17 @@ class SearchEngineSearcher:
     cover a single safety issue, or two or more related safety
     issues.  
     """,
-            user=self._get_rag_prompt(original_query, search_results),
+            },
+            {
+                "role": "user",
+                "content": self._get_rag_prompt(original_query, search_results),
+            },
+        ]
+
+        print("Summarizing relevant safety issues...")
+        response = AICaller.query(
+            system=conversation[0]["content"],
+            user=conversation[1]["content"],
             model="claude-3.5-sonnet",
             temp=0,
             max_tokens=4096,
@@ -550,4 +567,5 @@ class SearchEngineSearcher:
 
 {response}
         """
-        return SearchResult(search_results, formatted_response)
+        conversation.append({"role": "assistant", "content": response})
+        return SearchResult(search_results, formatted_response, conversation)
