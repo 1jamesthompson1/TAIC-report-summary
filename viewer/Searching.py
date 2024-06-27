@@ -12,6 +12,7 @@ class SearchSettings:
         self,
         modes: list[Modes.Mode],
         year_range: tuple[int, int],
+        document_types: list[str],
         relevanceCutoff: float,
     ):
         """
@@ -37,6 +38,8 @@ class SearchSettings:
             raise TypeError("relevanceCutoff must be an integer")
         self.relevanceCutoff = relevanceCutoff
 
+        self.document_types = document_types
+
     def getYearRange(self) -> tuple[int, int]:
         return self.year_range
 
@@ -45,6 +48,9 @@ class SearchSettings:
 
     def getRelevanceCutoff(self) -> int:
         return self.relevanceCutoff
+
+    def getDocumentTypes(self) -> list[str]:
+        return self.document_types
 
 
 class Search:
@@ -83,11 +89,22 @@ class Search:
 
             relevance_cutoff = float(form.get("relevanceCutoff", 0))
 
+            # Document Types
+            document_types = list()
+            if "includeSafetyIssues" in form.keys():
+                document_types.append("safety_issue")
+            if "includeRecommendations" in form.keys():
+                document_types.append("recommendation")
+            if "includeReportSection" in form.keys():
+                document_types.append("report_section")
+
             print(form)
 
             return cls(
                 search_query,
-                settings=SearchSettings(modes_list, year_range, relevance_cutoff),
+                settings=SearchSettings(
+                    modes_list, year_range, document_types, relevance_cutoff
+                ),
             )
         except KeyError as e:
             raise ValueError(f"Form data is missing key: {e}")
@@ -123,11 +140,11 @@ class SearchResult:
         context_df = context_df[
             [
                 "relevance",
+                "document_type",
+                "document_id",
                 "report_id",
                 "type",
-                "safety_issue_id",
-                "safety_issue",
-                "recommendations",
+                "document",
                 "year",
                 "mode",
             ]
@@ -178,7 +195,7 @@ class SearchResult:
 
     def getMostCommonEventTypes(self):
         context_df = self.getContextCleaned()
-        type_counts = context_df.groupby("type")["safety_issue"].count()
+        type_counts = context_df.groupby("type")["document"].count()
 
         top_5_types = type_counts.nlargest(5).reset_index()
 
@@ -187,9 +204,7 @@ class SearchResult:
         combined_df = pd.concat(
             [
                 top_5_types,
-                pd.DataFrame(
-                    [["Others", others_count]], columns=["type", "safety_issue"]
-                ),
+                pd.DataFrame([["Others", others_count]], columns=["type", "document"]),
             ],
             ignore_index=True,
         )
@@ -212,13 +227,7 @@ class SearchResult:
 class SearchEngine:
     def __init__(self, db_uri: str):
         self.db = lancedb.connect(db_uri)
-
-        self.si_table = self.db.open_table("safety_issue_embeddings")
-        self.report_sections_table = self.db.open_table("report_section_embeddings")
-
-        self.safety_issue_recommendations = self.db.open_table(
-            "safety_issue_recommendations"
-        )
+        self.all_document_types_table = self.db.open_table("all_document_types")
 
         self.vo = voyageai.Client()
 
@@ -228,7 +237,7 @@ class SearchEngine:
         """
 
         searchEngineSearcher = SearchEngineSearcher(
-            search, self.si_table, self.report_sections_table, self.vo
+            search, self.all_document_types_table, self.vo
         )
 
         response = None
@@ -236,12 +245,8 @@ class SearchEngine:
         if with_rag and search.getQuery() != "":
             response = searchEngineSearcher.rag_search()
         else:
-            results = searchEngineSearcher.safety_issue_search_with_report_relevance()
+            results = searchEngineSearcher.search()
             response = SearchResult(results, None)
-
-        response.getContext()["recommendations"] = response.getContext()[
-            "recommendations"
-        ].apply(len)
 
         return response
 
@@ -264,15 +269,13 @@ class SearchEngineSearcher:
     def __init__(
         self,
         search: Search,
-        si_table: lancedb.table.Table,
-        report_sections_table: lancedb.table.Table,
+        vector_db_table: lancedb.table.Table,
         vo: voyageai.Client,
     ):
         self.query = search.getQuery()
         self.settings = search.getSettings()
 
-        self.report_sections_table = report_sections_table
-        self.si_table = si_table
+        self.vector_db_table = vector_db_table
 
         self.vo = vo
 
@@ -327,77 +330,36 @@ class SearchEngineSearcher:
 
         return results
 
-    def safety_issue_search_with_report_relevance(self) -> pd.DataFrame:
+    def search(self) -> pd.DataFrame:
         where_statement = " AND ".join(
             [
                 f"year >= {str(self.settings.getYearRange()[0])} AND year <= {str(self.settings.getYearRange()[1])}",
+                f"document_type IN {tuple(self.settings.getDocumentTypes())}"
+                if len(self.settings.getDocumentTypes()) > 1
+                else f"document_type = '{self.settings.getDocumentTypes()[0]}'",
                 f"mode IN {tuple([mode.value for mode in self.settings.getModes()])}"
                 if len(self.settings.getModes()) > 1
                 else f"mode = {self.settings.getModes()[0].value}",
             ]
         )
+        print(where_statement)
         if self.query == "" or self.query is None:
             return (
-                self.si_table.search()
+                self.vector_db_table.search()
                 .limit(None)
                 .where(where_statement, prefilter=True)
                 .to_pandas()
                 .assign(section_relevance_score=0)
             )
 
-        report_sections_search_results = self._table_search(
-            table=self.report_sections_table,
-            limit=50000,
+        search_results = self._table_search(
+            table=self.vector_db_table,
+            type="vector",
             filter=where_statement,
-            type="fts",
-        )
-        report_sections_search_results["section_relevance_score"] = (
-            report_sections_search_results["section_relevance_score"]
-            - report_sections_search_results["section_relevance_score"].min()
-        ) / (
-            report_sections_search_results["section_relevance_score"].max()
-            - report_sections_search_results["section_relevance_score"].min()
-        )
-        if report_sections_search_results.shape[0] == 0:
-            return self._table_search(
-                table=self.si_table, type="vector", filter=where_statement, limit=500
-            )
-
-        reports_relevance = (
-            report_sections_search_results.groupby("report_id")
-            .head(50)
-            .groupby("report_id")["section_relevance_score"]
-            .mean()
-            .sort_values(ascending=False)
-            .to_dict()
+            limit=5000,
         )
 
-        safety_issues_search_results = self._table_search(
-            table=self.si_table, type="vector", filter=where_statement, limit=500
-        )
-
-        safety_issues_search_results["section_relevance_score"] = (
-            safety_issues_search_results.apply(
-                lambda row: row["section_relevance_score"]
-                * (
-                    reports_relevance[row["report_id"]]
-                    if row["report_id"] in reports_relevance
-                    else 0
-                ),
-                axis=1,
-            )
-        )
-
-        safety_issues_search_results.sort_values(
-            by="section_relevance_score", inplace=True, ascending=False
-        )
-
-        safety_issues_search_results.reset_index(drop=False, inplace=True)
-
-        # reranked = self._reranked_results(safety_issues_search_results)
-
-        # return reranked
-        return safety_issues_search_results
+        return search_results
 
     def _reranked_results(self, results: pd.DataFrame) -> pd.DataFrame:
         """
@@ -437,25 +399,16 @@ class SearchEngineSearcher:
 
     def _get_rag_prompt(self, query: str, search_results: pd.DataFrame):
         context = "\n\n".join(
-            f"""{id} from report {report} of type {type} with relevance {rel:.4f}:
-'{si}'
-{f"This safety issue had recommendations: {recs}" if recs != "" else "No recommendations were made"}
+            f"""{document_type}:{id} from report {report} of type {report_type} with relevance {rel:.4f}:
+'{document}'
 """
-            for id, report, type, si, rel, recs in zip(
-                search_results["safety_issue_id"],
+            for id, report, report_type, document_type, document, rel in zip(
+                search_results["document_id"],
                 search_results["report_id"],
                 search_results["type"],
-                search_results["safety_issue"],
+                search_results["document_type"],
+                search_results["document"],
                 search_results["section_relevance_score"],
-                [
-                    "\n".join(
-                        [
-                            f"Recommendation {rec['recommendation_id']} made to {rec['recipient']}: {rec['recommendation']}"
-                            for rec in recs
-                        ]
-                    )
-                    for recs in search_results["recommendations"]
-                ],
             )
         )
         return f"""
@@ -509,7 +462,7 @@ class SearchEngineSearcher:
         original_query = self.query
         self.query = formatted_query
 
-        search_results = self.safety_issue_search_with_report_relevance()
+        search_results = self.search()
         search_results = self._filter_results(search_results)
 
         print("Summarizing relevant safety issues...")

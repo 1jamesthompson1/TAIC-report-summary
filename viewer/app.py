@@ -42,13 +42,6 @@ def format_report_id_as_weblink(report_id):
 def format_search_results(results: Searching.SearchResult):
     context_df = results.getContextCleaned()
 
-    context_df["recommendations"] = context_df.apply(
-        lambda row: f"<a href='#' data-safety-issue-id='{row['safety_issue_id']}' class='safety-issue-recommendations-link'>{row['recommendations']}</a>",
-        axis=1,
-    )
-
-    # Add link columns
-
     context_df["Hubstream"] = context_df["report_id"].apply(
         lambda x: f'<a href="https://taic.hubstreamonline.com/#/search/Investigation/{format_report_id_as_weblink(x)}" target="_blank">Open in Hubstream</a>'
     )

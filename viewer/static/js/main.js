@@ -136,7 +136,7 @@ function updateSummary(summary) {
         autoWidth: false,
         fixedColumns: true,
         fixedHeader: true,
-        paging: false,
+        paging: true,
         searching: false,
         order: [[0, 'desc']],
     });
