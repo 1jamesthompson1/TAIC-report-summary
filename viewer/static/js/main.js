@@ -1,6 +1,13 @@
 $(document).ready(function() {
     $('form').submit(function(event) {
         event.preventDefault();  // Prevent the default form submission
+
+        if (!checkBoxesAreTicked()) {
+            setSearchErrorMessage('Please select at least one checkbox');
+            return false
+        } else {
+            setSearchErrorMessage('');
+        }
         
         // Show the loading sign with animation
         $('#loading').show();
@@ -72,6 +79,27 @@ $(document).ready(function() {
         });
     });
 });
+function setSearchErrorMessage(message) {
+    if (message == '') {
+        $('#searchErrorMessage').hide();
+    } else {
+        $('#searchErrorMessage').text(message).show();
+        $('#searchErrorMessage').css('color', 'red');
+    }
+}
+function atLeastOneChecked($group) {
+        return $group.find('input[type="checkbox"]:checked').length > 0;
+    }
+function checkBoxesAreTicked() {
+    /** Check each checkbox group and make sure that atleast one is ticked */
+    checkBoxesPass = true
+    $('.checkbox-group.required').each(function() {
+        if (!atLeastOneChecked($(this))) {
+            checkBoxesPass = false
+        }
+    });
+    return checkBoxesPass;
+}
 
 function downloadCSV(actionUrl) {
     var formData = $('form').serialize();

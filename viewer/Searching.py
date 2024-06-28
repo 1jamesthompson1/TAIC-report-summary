@@ -32,12 +32,20 @@ class SearchSettings:
             isinstance(mode, Modes.Mode) for mode in modes
         ):
             raise TypeError("modes must be a list of Modes.Mode objects")
+        if len(modes) == 0:
+            raise ValueError("modes must contain at least one Modes.Mode object")
         self.modes = modes
 
         if not isinstance(relevanceCutoff, float):
             raise TypeError("relevanceCutoff must be an integer")
         self.relevanceCutoff = relevanceCutoff
 
+        if not isinstance(document_types, list) or not all(
+            isinstance(document_type, str) for document_type in document_types
+        ):
+            raise TypeError("document_types must be a list of strings")
+        if len(document_types) == 0:
+            raise ValueError("document_types must contain at least one string")
         self.document_types = document_types
 
     def getYearRange(self) -> tuple[int, int]:
