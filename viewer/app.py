@@ -57,6 +57,8 @@ def format_search_results(results: Searching.SearchResult):
         escape=False,
     )
 
+    document_type_pie_chart = results.getDocumentTypePieChart().to_json()
+
     mode_pie_chart = results.getModePieChart().to_json()
 
     year_hist = results.getYearHistogram().to_json()
@@ -67,6 +69,7 @@ def format_search_results(results: Searching.SearchResult):
         {
             "html_table": html_table,
             "results_summary_info": {
+                "document_type_pie_chart": document_type_pie_chart,
                 "mode_pie_chart": mode_pie_chart,
                 "year_histogram": year_hist,
                 "most_common_event_types": most_common_event_types,

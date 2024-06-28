@@ -105,6 +105,8 @@ class Search:
                 document_types.append("recommendation")
             if "includeReportSection" in form.keys():
                 document_types.append("report_section")
+            if "includeImportantText" in form.keys():
+                document_types.append("important_text")
 
             print(form)
 
@@ -145,6 +147,12 @@ class SearchResult:
 
         context_df["relevance"] = context_df["relevance"].apply(lambda x: f"{x:.4f}")
 
+        context_df["document"] = context_df["document"].apply(
+            lambda doc: doc
+            if len(doc) < 1200
+            else doc[:1200] + "... (Document too long too display)"
+        )
+
         context_df = context_df[
             [
                 "relevance",
@@ -165,7 +173,7 @@ class SearchResult:
         return context_df
 
     def addVisualLayout(self, fig):
-        fig = fig.update_layout(width=500)
+        fig = fig.update_layout(width=400)
 
         # If fig a pie chart
         if fig.data[0].type == "pie":
@@ -179,6 +187,20 @@ class SearchResult:
             fig.update_layout(showlegend=False)
 
         return fig
+
+    def getDocumentTypePieChart(self):
+        context_df = (
+            self.getContextCleaned()["document_type"].value_counts().reset_index()
+        )
+        context_df.columns = ["document_type", "count"]
+        fig = px.pie(
+            context_df,
+            values="count",
+            names="document_type",
+            title="Document type distribution in search results",
+        )
+
+        return self.addVisualLayout(fig)
 
     def getModePieChart(self):
         context_df = self.getContextCleaned()["mode"].value_counts().reset_index()

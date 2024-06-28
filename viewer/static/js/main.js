@@ -171,6 +171,8 @@ function updateSummary(summary) {
     }
 
     function updateResultsSummaryInfo(summary) {
+    var most_common_document_types = JSON.parse(summary.document_type_pie_chart);
+    Plotly.newPlot('MostCommmonDocumentTypes', most_common_document_types);
     var most_common_event_types = JSON.parse(summary.most_common_event_types);
 
     Plotly.newPlot('MostCommonEventTypes', most_common_event_types);
