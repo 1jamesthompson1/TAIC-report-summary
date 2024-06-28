@@ -24,6 +24,7 @@
 <body>
     <h1>TAIC safety issues Searcher</h1>
     <form method="post" id="searchForm" action="/search">
+        <p id="searchErrorMessage" style="display: none;"></p>
         <div class="row">
             <input type="search" size="30" id="searchQuery" name="searchQuery" placeholder="Enter search query" autocomplete="on" autofocus>  
             <button type="button" id="advancedSearchBtn">Search settings</button>
@@ -34,9 +35,11 @@
             <div class="row">
                 <div id="transportModes" class="advancedSearchSection">
                     <h5>Transport Modes</h5>
-                    <label><input type="checkbox" name="includeModeAviation" checked>Aviation</label>
-                    <label><input type="checkbox" name="includeModeRail" checked>Rail</label>
-                    <label><input type="checkbox" name="includeModeMarine" checked>Marine</label>
+                    <div class="checkbox-group required">
+                        <label><input type="checkbox" name="includeModeAviation" checked>Aviation</label>
+                        <label><input type="checkbox" name="includeModeRail" checked>Rail</label>
+                        <label><input type="checkbox" name="includeModeMarine" checked>Marine</label>
+                    </div>
                 </div>
                 <div id="reportYearRange" class="advancedSearchSection">
                     <h5>Report year range</h5>
@@ -47,8 +50,17 @@
                 <div id="relevanceCutoff" class="advancedSearchSection">
                     <h5>Relevance cutoff</h5>
                     <div class="relevanceCutoffSliderWrapper">
-                        <label for="relevanceCutoffSlider" id="relevanceCutoffSliderLabel">0.1</label><br>
-                        <input type="range" name="relevanceCutoff" min="0" max="1" value="0.1" class="slider" step ="0.01" id="relevanceCutoffSlider">
+                        <label for="relevanceCutoffSlider" id="relevanceCutoffSliderLabel">0.6</label><br>
+                        <input type="range" name="relevanceCutoff" min="0" max="1" value="0.6" class="slider" step ="0.01" id="relevanceCutoffSlider">
+                    </div>
+                </div>
+                <div id="documentTyes" class="advancedSearchSection">
+                    <h5>Document Types</h5>
+                    <div class="checkbox-group required">
+                        <label><input type="checkbox" name="includeSafetyIssues" checked>Safety issues</label>
+                        <label><input type="checkbox" name="includeRecommendations" checked>Recommendations</label>
+                        <label><input type="checkbox" name="includeReportSection" checked>Report sections</label>
+                        <label><input type="checkbox" name="includeImportantText" checked>Entire report</label>
                     </div>
                 </div>
             </div>
@@ -75,6 +87,7 @@
             <div id="searchResultsSummaryInfo">
                 <h4>Results information</h4>
                 <div id="resultsSummaryVisuals">
+                    <div id="MostCommmonDocumentTypes" class="resultsSummaryInfoSection"></div>
                     <div id="MostCommonEventTypes" class="resultsSummaryInfoSection"></div>
                     <div id="YearHistogram" class="resultsSummaryInfoSection"></div>
                     <div id="ModePieChart"class="resultsSummaryInfoSection"></div>

@@ -1,2 +1,0 @@
-$65f003e9-b13b-4226-b97e-53342c6c1d90²à%safety_issue ÿÿÿÿÿÿÿÿÿ*string08"quality ÿÿÿÿÿÿÿÿÿ*string08*safety_issue_id ÿÿÿÿÿÿÿÿÿ*string08$	report_id ÿÿÿÿÿÿÿÿÿ*string08type ÿÿÿÿÿÿÿÿÿ*string085vector ÿÿÿÿÿÿÿÿÿ*fixed_size_list:float:102408year ÿÿÿÿÿÿÿÿÿ*int6408mode ÿÿÿÿÿÿÿÿÿ*int6408/recommendations ÿÿÿÿÿÿÿÿÿ*list.struct08item	 *struct0	recipient
- 	*string08 recommendation 	*string08#recommendation_id 	*string08

@@ -27,12 +27,16 @@ def test_form_submit():
                 "includeModeMarine": "on",
                 "yearSlider-min": "2000",
                 "yearSlider-max": "2024",
+                "relevanceCutoff": "0.5",
+                "includeSafetyIssues": "on",
+                "includeRecommendations": "on",
+                "includeReportSection": "on",
             },
             follow_redirects=True,
         )
         assert rv.status == "200 OK"
         df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
-    assert df.shape[0] == 198
+    assert df.shape[0] == 5822
 
 
 def test_form_submit_filtered():
@@ -45,6 +49,10 @@ def test_form_submit_filtered():
                 "includeModeMarine": "on",
                 "yearSlider-min": "2010",
                 "yearSlider-max": "2024",
+                "relevanceCutoff": "0.7",
+                "includeSafetyIssues": "on",
+                "includeRecommendations": "on",
+                "includeReportSection": "on",
             },
             follow_redirects=True,
         )
@@ -66,6 +74,8 @@ def test_form_submit_no_results():
                 "includeModeAviation": "on",
                 "yearSlider-min": "1900",
                 "yearSlider-max": "1924",
+                "relevanceCutoff": "0.5",
+                "includeSafetyIssues": "on",
             },
             follow_redirects=True,
         )
@@ -84,6 +94,8 @@ def test_form_with_query():
                 "includeModeAviation": "on",
                 "yearSlider-min": "2000",
                 "yearSlider-max": "2024",
+                "relevanceCutoff": "0.7",
+                "includeSafetyIssues": "on",
             },
             follow_redirects=True,
         )

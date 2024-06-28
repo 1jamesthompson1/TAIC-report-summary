@@ -1,6 +1,13 @@
 $(document).ready(function() {
     $('form').submit(function(event) {
         event.preventDefault();  // Prevent the default form submission
+
+        if (!checkBoxesAreTicked()) {
+            setSearchErrorMessage('Please select at least one checkbox');
+            return false
+        } else {
+            setSearchErrorMessage('');
+        }
         
         // Show the loading sign with animation
         $('#loading').show();
@@ -72,6 +79,27 @@ $(document).ready(function() {
         });
     });
 });
+function setSearchErrorMessage(message) {
+    if (message == '') {
+        $('#searchErrorMessage').hide();
+    } else {
+        $('#searchErrorMessage').text(message).show();
+        $('#searchErrorMessage').css('color', 'red');
+    }
+}
+function atLeastOneChecked($group) {
+        return $group.find('input[type="checkbox"]:checked').length > 0;
+    }
+function checkBoxesAreTicked() {
+    /** Check each checkbox group and make sure that atleast one is ticked */
+    checkBoxesPass = true
+    $('.checkbox-group.required').each(function() {
+        if (!atLeastOneChecked($(this))) {
+            checkBoxesPass = false
+        }
+    });
+    return checkBoxesPass;
+}
 
 function downloadCSV(actionUrl) {
     var formData = $('form').serialize();
@@ -99,7 +127,7 @@ function createYearSlider() {
         range: true,
         min: 2000,
         max: 2024,
-        values: [2000, 2024],
+        values: [2007, 2024],
         create: function() {
             // Add divs to the handles
             $(this).children('.ui-slider-handle').each(function(i) {
@@ -136,13 +164,15 @@ function updateSummary(summary) {
         autoWidth: false,
         fixedColumns: true,
         fixedHeader: true,
-        paging: false,
+        paging: true,
         searching: false,
         order: [[0, 'desc']],
     });
     }
 
     function updateResultsSummaryInfo(summary) {
+    var most_common_document_types = JSON.parse(summary.document_type_pie_chart);
+    Plotly.newPlot('MostCommmonDocumentTypes', most_common_document_types);
     var most_common_event_types = JSON.parse(summary.most_common_event_types);
 
     Plotly.newPlot('MostCommonEventTypes', most_common_event_types);
