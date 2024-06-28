@@ -1,5 +1,4 @@
 import argparse
-import base64
 import os
 import tempfile
 
@@ -84,48 +83,6 @@ def search_reports():
     results = get_searcher().search(get_search(request.form))
 
     return format_search_results(results)
-
-
-@app.route("/get_safety_issue_recommendations", methods=["GET"])
-def get_safety_issue_recommendations():
-    safety_issue_id = request.args.get("safety_issue_id")
-
-    recommendations = get_searcher().get_recommendations_for_safety_issue(
-        safety_issue_id
-    )
-
-    columns = ["recommendation_id", "recommendation", "recipient"]
-
-    recommendations_df = pd.DataFrame(recommendations, columns=columns)
-
-    recommendations_df = recommendations_df[columns]
-    recommendations_df.columns = ["Recommendation ID", "Recommendation", "Recipient"]
-
-    return jsonify(
-        {
-            "title": f"Recommendations for {safety_issue_id}",
-            "main": f"<br>{recommendations_df.to_html(index=False, justify='center') if recommendations_df.shape[0] > 0 else 'No recommendations found'}<br><br><em>These recommendations are linked to the safety issue using AI so won't be 100% accurate.</em>",
-        }
-    )
-
-
-@app.route("/get_links_visual", methods=["GET"])
-def get_links_visual():
-    report_id = request.args.get("report_id")
-
-    link = Searching.SearchEngine().get_links_visual_path(report_id)
-
-    # read image and encode
-
-    with open(link, "rb") as image:
-        encoded = base64.b64encode(image.read()).decode()
-
-    return jsonify(
-        {
-            "title": f"Links visual for {report_id}",
-            "main": f"<br><br><img src='data:image/png;base64,{encoded}'></img>",
-        }
-    )
 
 
 def send_csv_file(df: pd.DataFrame, name: str):

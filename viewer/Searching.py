@@ -280,20 +280,6 @@ class SearchEngine:
 
         return response
 
-    def get_recommendations_for_safety_issue(self, safety_issue_id: str):
-        search_results = (
-            self.si_table.search()
-            .where(f"safety_issue_id == '{safety_issue_id}'")
-            .limit(1)
-            .select(["recommendations"])
-            .to_list()
-        )
-
-        if len(search_results) == 0:
-            return []
-
-        return search_results[0]["recommendations"]
-
 
 class SearchEngineSearcher:
     def __init__(
@@ -390,37 +376,6 @@ class SearchEngineSearcher:
         )
 
         return search_results
-
-    def _reranked_results(self, results: pd.DataFrame) -> pd.DataFrame:
-        """
-        This method will take the results from the `safety_issue_search_with_report_relevance` and will filter the results ot only show the most relevant. Safety issues.
-        """
-
-        top_results = results.head(200)
-
-        reranking_results = self.vo.rerank(
-            documents=top_results["safety_issue"].tolist(),
-            query=self.query,
-            model="rerank-1",
-            truncation=False,
-        ).results
-
-        reranked_indices = [result.index for result in reranking_results]
-        reranked_relevance_scores = [
-            result.relevance_score for result in reranking_results
-        ]
-
-        top_results.loc[reranked_indices, "section_relevance_score"] = (
-            reranked_relevance_scores
-        )
-
-        top_results.sort_values(
-            by="section_relevance_score", ascending=False, inplace=True
-        )
-
-        top_results.reset_index(drop=False, inplace=True)
-
-        return top_results
 
     def _filter_results(self, results: pd.DataFrame) -> pd.DataFrame:
         return results.query(
