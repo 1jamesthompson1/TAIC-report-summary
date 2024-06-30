@@ -159,19 +159,19 @@ class ReportScraping:
             return False
         if len(pdf_links) > 1:
             # Only take one that has "final" but not "interim"
-            filtered_pdf_links = [
+            pdf_links = [
                 link
                 for link in pdf_links
                 if "final" in link.lower() and "interim" not in link.lower()
             ]
-            if len(filtered_pdf_links) > 1:
+            if len(pdf_links) > 1:
                 if pbar:
-                    links_str = "\n".join(filtered_pdf_links)
+                    links_str = "\n".join(pdf_links)
                     pbar.write(
                         f"WARNING: Found more than one PDF for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
                     )
                 return False
-            if len(filtered_pdf_links) == 0:
+            if len(pdf_links) == 0:
                 if pbar:
                     links_str = "\n".join(pdf_links)
                     pbar.write(
@@ -180,10 +180,15 @@ class ReportScraping:
                 return False
 
         link = pdf_links[0]
-
-        with open(file_name, "wb") as f:
-            f.write(requests.get(link, allow_redirects=True).content)
+        try:
+            with open(file_name, "wb") as f:
+                f.write(requests.get(link, allow_redirects=True, timeout=10).content)
+                if pbar:
+                    pbar.set_description(f"  Downloaded {file_name}")
+        except requests.ReadTimeout:
+            os.remove(file_name)
             if pbar:
-                pbar.set_description(f"  Downloaded {file_name}")
+                pbar.write(f"  {file_name} timed out")
+            return False
 
         return True
