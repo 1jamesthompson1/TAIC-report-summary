@@ -43,11 +43,11 @@ class ReportTypeAssigner:
         if os.path.exists(self.report_types_df_path):
             report_types_df = pd.read_pickle(self.report_types_df_path)
         else:
-            report_types_df = pd.DataFrame(columns=["report_id", "type"])
+            report_types_df = pd.DataFrame(columns=["report_id", "type", "title"])
 
         # Get all unassigned report_types
         merged_df = report_types_df.merge(
-            self.report_titles_df, on="report_id", how="outer"
+            self.report_titles_df, on=["report_id", "title"], how="outer"
         )
 
         unassigned_df = merged_df[merged_df["type"].isna()]
@@ -101,7 +101,6 @@ Extract event category from "{report_title}":
 Here are the possible event types:
 {mode_event_types_str}
 """
-        print(user_message)
 
         type = AICaller.query(
             system=system_message,
@@ -110,5 +109,4 @@ Here are the possible event types:
             temp=0,
         )
 
-        print(f"Assigned report type: {type}")
         return type
