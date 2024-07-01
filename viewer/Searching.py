@@ -131,7 +131,20 @@ class SearchResult:
         self.context = context
         self.summary = summary
 
+        self.context_required_columns = [
+            "relevance",
+            "document_type",
+            "document_id",
+            "report_id",
+            "type",
+            "document",
+            "year",
+            "mode",
+        ]
+
     def getContext(self) -> pd.DataFrame:
+        if self.context is None:
+            return pd.DataFrame(columns=self.context_required_columns)
         return self.context
 
     def getContextCleaned(self) -> pd.DataFrame:
@@ -141,7 +154,7 @@ class SearchResult:
         context_df = self.getContext().copy()
 
         context_df.rename(
-            columns={"si": "safety_issue", "section_relevance_score": "relevance"},
+            columns={"section_relevance_score": "relevance"},
             inplace=True,
         )
 
@@ -153,18 +166,7 @@ class SearchResult:
             else doc[:1200] + "... (Document too long too display)"
         )
 
-        context_df = context_df[
-            [
-                "relevance",
-                "document_type",
-                "document_id",
-                "report_id",
-                "type",
-                "document",
-                "year",
-                "mode",
-            ]
-        ]
+        context_df = context_df[self.context_required_columns]
 
         # Make mode a string
         context_df["mode"] = context_df["mode"].apply(
@@ -271,13 +273,14 @@ class SearchEngine:
         )
 
         response = None
-
-        if with_rag and search.getQuery() != "":
-            response = searchEngineSearcher.rag_search()
-        else:
+        if search.getQuery() == "" or search.getQuery() is None or not with_rag:
             results = searchEngineSearcher.search()
             response = SearchResult(results, None)
-
+        elif search.getQuery()[0] == '"' and search.getQuery()[-1] == '"':
+            results = searchEngineSearcher.search()
+            response = SearchResult(results, None)
+        elif with_rag and search.getQuery() != "":
+            response = searchEngineSearcher.rag_search()
         return response
 
 
@@ -370,11 +373,13 @@ class SearchEngineSearcher:
 
         search_results = self._table_search(
             table=self.vector_db_table,
-            type="vector",
+            type="fts" if self.query[0] == '"' and self.query[-1] == '"' else "vector",
             filter=where_statement,
             limit=5000,
         )
 
+        if len(search_results) == 0:
+            return None
         return search_results
 
     def _filter_results(self, results: pd.DataFrame) -> pd.DataFrame:
@@ -448,6 +453,8 @@ class SearchEngineSearcher:
         self.query = formatted_query
 
         search_results = self.search()
+        if search_results is None:
+            return SearchResult(None, None)
         search_results = self._filter_results(search_results)
 
         print("Summarizing relevant safety issues...")
