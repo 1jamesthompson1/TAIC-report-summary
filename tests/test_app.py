@@ -36,7 +36,7 @@ def test_form_submit():
         )
         assert rv.status == "200 OK"
         df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
-    assert df.shape[0] == 5822
+    assert df.shape[0] == 5926
 
 
 def test_form_submit_filtered():

@@ -273,15 +273,14 @@ class SearchEngine:
         )
 
         response = None
-
-        if search.getQuery()[0] == '"' and search.getQuery()[-1] == '"':
+        if search.getQuery() == "" or search.getQuery() is None or not with_rag:
+            results = searchEngineSearcher.search()
+            response = SearchResult(results, None)
+        elif search.getQuery()[0] == '"' and search.getQuery()[-1] == '"':
             results = searchEngineSearcher.search()
             response = SearchResult(results, None)
         elif with_rag and search.getQuery() != "":
             response = searchEngineSearcher.rag_search()
-        else:
-            results = searchEngineSearcher.search()
-            response = SearchResult(results, None)
         return response
 
 
@@ -454,6 +453,8 @@ class SearchEngineSearcher:
         self.query = formatted_query
 
         search_results = self.search()
+        if search_results is None:
+            return SearchResult(None, None)
         search_results = self._filter_results(search_results)
 
         print("Summarizing relevant safety issues...")
