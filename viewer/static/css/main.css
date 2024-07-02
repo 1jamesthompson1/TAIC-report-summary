@@ -23,6 +23,27 @@ h1 {
     text-align: center;
 }
 
+h5 {
+    color: #4f4f4f;
+    text-align: center;
+}
+
+#webappinfo {
+    position: relative;
+    width: 100%;
+}
+
+#titleBlock {
+    text-align: center;
+}
+
+#sesstionInfo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
 
 button {
     transition: background-color 0.1s ease;
