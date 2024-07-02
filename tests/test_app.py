@@ -13,7 +13,7 @@ def test_index():
     with app.app.test_client() as c:
         rv = c.get("/")
         assert rv.status == "200 OK"
-        assert b"<title>TAIC safety issues Searcher</title>" in rv.data
+        assert b"<title>TAIC Document Searcher</title>" in rv.data
 
 
 def test_form_submit():
