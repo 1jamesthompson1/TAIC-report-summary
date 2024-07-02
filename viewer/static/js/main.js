@@ -151,7 +151,7 @@ function createYearSlider() {
     }
 function updateSummary(summary) {
     if (!summary) {
-        $('#searchResultsSummary').toggle();
+        $('#searchResultsSummary').hide();
         return;
         }
         $('#searchResultsSummary').show();
