@@ -67,7 +67,8 @@ $(document).ready(function() {
         $('button[type="reset"]').click(function() {
             // Remove the old sliders
             $('#yearSlider').slider('destroy');
-    
+            // Remove hidden inputs within the sliders
+            $('#yearSlider input[type="hidden"]').remove();
             // Create new sliders
             createYearSlider();
 
