@@ -163,7 +163,7 @@ class SearchResult:
         context_df["document"] = context_df["document"].apply(
             lambda doc: doc
             if len(doc) < 1200
-            else doc[:1200] + "... (Document too long too display)"
+            else doc[:1200] + "... (Document too long to display)"
         )
 
         context_df = context_df[self.context_required_columns]
