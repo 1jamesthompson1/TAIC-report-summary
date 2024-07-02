@@ -163,7 +163,7 @@ class SearchResult:
         context_df["document"] = context_df["document"].apply(
             lambda doc: doc
             if len(doc) < 1200
-            else doc[:1200] + "... (Document too long too display)"
+            else doc[:1200] + "... (Document too long to display)"
         )
 
         context_df = context_df[self.context_required_columns]
@@ -491,6 +491,8 @@ class SearchEngineSearcher:
             temp=0,
             max_tokens=4096,
         )
+        if response is None:
+            response = "Too many relevant documents so could not summarize. Try increasing the relevance cutoff in search settings."
         formatted_response = f"""Query made to the database was: '{self.query}'
 
 {response}
