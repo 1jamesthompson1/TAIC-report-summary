@@ -491,6 +491,8 @@ class SearchEngineSearcher:
             temp=0,
             max_tokens=4096,
         )
+        if response is None:
+            response = "Too many relevant documents so could not summarize. Try increasing the relevance cutoff in search settings."
         formatted_response = f"""Query made to the database was: '{self.query}'
 
 {response}
