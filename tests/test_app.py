@@ -16,6 +16,12 @@ def test_index():
         assert b"<title>TAIC Document Searcher</title>" in rv.data
 
 
+def test_no_login_search():
+    with app.app.test_client() as c:
+        rv = c.post("/search")
+        assert rv.status_code == 302
+
+
 def test_form_submit():
     with app.app.test_client() as c:
         rv = c.post(

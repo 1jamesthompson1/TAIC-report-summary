@@ -147,6 +147,10 @@ def format_search_results(results: Searching.SearchResult):
 
 @app.route("/search", methods=["POST"])
 def search_reports():
+    if not auth.get_user():
+        # return render_template("auth_error.html", result={"error": "Not logged in", "error_description": "You must be logged in to search"}, version=__version__)
+        return redirect(url_for("login"))
+
     results = get_searcher().search(get_search(request.form))
 
     return format_search_results(results)
