@@ -2,7 +2,19 @@
 
 {% block title %}Login Error{% endblock %}
 
+{% block stylesheets %}
+<style>
+    #auth-error {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+{% endblock %}
+
 {% block content %}
+<div id="auth-error">
     <h2>Login Failure</h2>
     <dl>
       <dt>{{ result.get("error") }}</dt>
@@ -10,4 +22,5 @@
     </dl>
     <hr>
     <a href="{{ url_for('index') }}">Homepage</a>
+</div>
 {% endblock %}

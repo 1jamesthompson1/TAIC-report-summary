@@ -2,6 +2,7 @@ import argparse
 import os
 import tempfile
 
+import dotenv
 import identity.web
 import pandas as pd
 from flask import (
@@ -20,6 +21,8 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 from flask_session import Session
 
 from . import Searching, app_config
+
+dotenv.load_dotenv("../.env")
 
 __version__ = "1.0.0-beta"
 
@@ -59,7 +62,7 @@ def login():
 def auth_response():
     result = auth.complete_log_in(request.args)
     if "error" in result:
-        return render_template("auth_error.html", result=result)
+        return render_template("auth_error.html", result=result, version=__version__)
     return redirect(url_for("index"))
 
 
