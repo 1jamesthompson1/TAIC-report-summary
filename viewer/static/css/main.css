@@ -1,9 +1,3 @@
-/* CSS for manging the search form */
-@import "search.css";
-
-/* CSS for styling the results table */
-@import "results.css";
-
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
