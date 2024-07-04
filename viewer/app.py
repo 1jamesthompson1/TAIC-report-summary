@@ -107,7 +107,8 @@ def run():
     parser.add_argument("--debug", action="store_true", help="Enable debug mode")
     args = parser.parse_args()
 
-    os.environ["db_URI"] = "./viewer/vector_db"
+    if "db_URI" not in os.environ:
+        os.environ["db_URI"] = "./viewer/vector_db"
 
     port = int(os.environ.get("PORT", 5001))
     app.run(port=port, host="0.0.0.0", debug=args.debug)
