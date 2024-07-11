@@ -1,20 +1,29 @@
 import argparse
 import os
 import tempfile
+import uuid
+from threading import Thread
 
 import pandas as pd
-from flask import Flask, g, jsonify, render_template, request, send_file
+from flask import Flask, jsonify, render_template, request, send_file
 
 from . import Searching
 
 app = Flask(__name__)
 
+tasks_status = {}
+tasks_results = {}
+
+
+@app.route("/task-status/<task_id>", methods=["GET"])
+def task_status(task_id):
+    status = tasks_status.get(task_id, "not found")
+    result = tasks_results.get(task_id, {})
+    return jsonify({"task_id": task_id, "status": status, "result": result})
+
 
 def get_searcher():
-    if "searcher" not in g:
-        g.searcher = Searching.SearchEngine(os.environ["db_URI"])
-
-    return g.searcher
+    return Searching.SearchEngine(os.environ["db_URI"])
 
 
 @app.route("/")
@@ -64,25 +73,34 @@ def format_search_results(results: Searching.SearchResult):
 
     most_common_event_types = results.getMostCommonEventTypes().to_json()
 
-    return jsonify(
-        {
-            "html_table": html_table,
-            "results_summary_info": {
-                "document_type_pie_chart": document_type_pie_chart,
-                "mode_pie_chart": mode_pie_chart,
-                "year_histogram": year_hist,
-                "most_common_event_types": most_common_event_types,
-            },
-            "summary": results.getSummary(),
-        }
-    )
+    return {
+        "html_table": html_table,
+        "results_summary_info": {
+            "document_type_pie_chart": document_type_pie_chart,
+            "mode_pie_chart": mode_pie_chart,
+            "year_histogram": year_hist,
+            "most_common_event_types": most_common_event_types,
+        },
+        "summary": results.getSummary(),
+    }
 
 
 @app.route("/search", methods=["POST"])
-def search_reports():
-    results = get_searcher().search(get_search(request.form))
+def search():
+    form_data = request.form
+    task_id = str(uuid.uuid4())
+    tasks_status[task_id] = "in progress"
+    task_thread = Thread(target=search_reports, args=(task_id, form_data))
+    task_thread.start()
+    return jsonify({"task_id": task_id}), 202
 
-    return format_search_results(results)
+
+def search_reports(task_id, form_data):
+    results = get_searcher().search(get_search(form_data))
+
+    with app.app_context():
+        tasks_results[task_id] = format_search_results(results)
+        tasks_status[task_id] = "completed"
 
 
 def send_csv_file(df: pd.DataFrame, name: str):

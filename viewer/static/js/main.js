@@ -4,7 +4,7 @@ $(document).ready(function() {
 
         if (!checkBoxesAreTicked()) {
             setSearchErrorMessage('Please select at least one checkbox');
-            return false
+            return false;
         } else {
             setSearchErrorMessage('');
         }
@@ -13,16 +13,31 @@ $(document).ready(function() {
         $('#loading').show();
         
         $.post('/search', $('form').serialize(), function(data) {
-            // Update the results placeholder with the received HTML table
-            updateResults(data.html_table);
-            updateSummary(data.summary);
-            updateResultsSummaryInfo(data.results_summary_info);
-            $('#searchResults').show();
-            // Hide the loading sign after results are loaded
-            $('#loading').hide();
-            
+            // Get the task ID from the response
+            const taskId = data.task_id;
+            // Poll for task status
+            checkStatus(taskId);
         });
     });
+
+    function checkStatus(taskId) {
+        $.get('/task-status/' + taskId, function(data) {
+            if (data.status === 'completed') {
+                // Update the results placeholder with the received HTML table
+                updateResults(data.result.html_table);
+                updateSummary(data.result.summary);
+                updateResultsSummaryInfo(data.result.results_summary_info);
+                $('#searchResults').show();
+                // Hide the loading sign after results are loaded
+                $('#loading').hide();
+            } else {
+                // Continue polling every 5 seconds
+                setTimeout(function() {
+                    checkStatus(taskId);
+                }, 5000);  // Poll every 5 seconds
+            }
+        });
+    }
 
     $('[id^="downloadCSVBtn"]').click(function() {
         var actionUrl = $(this).attr('id').replace('downloadCSVBtn', '/get') + '_as_csv';
