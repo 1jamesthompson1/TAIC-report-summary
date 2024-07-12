@@ -92,6 +92,7 @@ class TestSearcher:
 
         assert result
         assert result.getSummary() is None
+        assert isinstance(result.getSearchDuration(), str)
         assert isinstance(result.getContext(), pd.DataFrame)
 
     def test_search_with_summary(self):

@@ -3,10 +3,29 @@ import os
 from io import StringIO
 
 import pandas as pd
+import pytest
 
 import viewer.app as app
 
 os.environ["db_URI"] = "./tests/data/vector_db"
+
+
+@pytest.fixture
+def client():
+    with app.app.test_client() as c:
+        yield c
+
+
+def perform_search_and_wait(c, form_data):
+    rv = c.post("/search", data=form_data, follow_redirects=True)
+
+    assert rv.status == "202 ACCEPTED"
+
+    while True:
+        task_status = c.get("/task-status/" + json.loads(rv.data)["task_id"])
+        parsed = json.loads(task_status.data)
+        if parsed["status"] == "completed" or parsed["status"] == "failed":
+            return parsed
 
 
 def test_index():
@@ -16,90 +35,75 @@ def test_index():
         assert b"<title>TAIC Document Searcher</title>" in rv.data
 
 
-def test_form_submit():
-    with app.app.test_client() as c:
-        rv = c.post(
-            "/search",
-            data={
-                "searchQuery": "",
-                "includeModeAviation": "on",
-                "includeModeRail": "on",
-                "includeModeMarine": "on",
-                "yearSlider-min": "2000",
-                "yearSlider-max": "2024",
-                "relevanceCutoff": "0.5",
-                "includeSafetyIssues": "on",
-                "includeRecommendations": "on",
-                "includeReportSection": "on",
-            },
-            follow_redirects=True,
-        )
-        assert rv.status == "200 OK"
-        df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
+def test_form_submit(client):
+    rv = perform_search_and_wait(
+        client,
+        {
+            "searchQuery": "",
+            "includeModeAviation": "on",
+            "includeModeRail": "on",
+            "includeModeMarine": "on",
+            "yearSlider-min": "2000",
+            "yearSlider-max": "2024",
+            "relevanceCutoff": "0.5",
+            "includeSafetyIssues": "on",
+            "includeRecommendations": "on",
+            "includeReportSection": "on",
+        },
+    )
+    assert rv["status"] == "completed"
+    df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
     assert df.shape[0] == 5926
 
 
-def test_form_submit_filtered():
-    with app.app.test_client() as c:
-        rv = c.post(
-            "/search",
-            data={
-                "searchQuery": "",
-                "includeModeRail": "on",
-                "includeModeMarine": "on",
-                "yearSlider-min": "2010",
-                "yearSlider-max": "2024",
-                "relevanceCutoff": "0.7",
-                "includeSafetyIssues": "on",
-                "includeRecommendations": "on",
-                "includeReportSection": "on",
-            },
-            follow_redirects=True,
-        )
-
-        assert rv.status == "200 OK"
-
-        df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
-
-        assert df["year"].isin(range(2010, 2025)).all()
-        assert df["mode"].isin(["Rail", "Marine"]).all()
+def test_form_submit_filtered(client):
+    rv = perform_search_and_wait(
+        client,
+        {
+            "searchQuery": "",
+            "includeModeRail": "on",
+            "includeModeMarine": "on",
+            "yearSlider-min": "2010",
+            "yearSlider-max": "2024",
+            "relevanceCutoff": "0.7",
+            "includeSafetyIssues": "on",
+            "includeRecommendations": "on",
+            "includeReportSection": "on",
+        },
+    )
+    df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
+    assert df["year"].isin(range(2010, 2025)).all()
+    assert df["mode"].isin(["Rail", "Marine"]).all()
 
 
-def test_form_submit_no_results():
-    with app.app.test_client() as c:
-        rv = c.post(
-            "/search",
-            data={
-                "searchQuery": "pilot",
-                "includeModeAviation": "on",
-                "yearSlider-min": "1900",
-                "yearSlider-max": "1924",
-                "relevanceCutoff": "0.5",
-                "includeSafetyIssues": "on",
-            },
-            follow_redirects=True,
-        )
-        assert rv.status == "200 OK"
-        df = pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
-
-        assert df.shape[0] == 0
+def test_form_submit_no_results(client):
+    rv = perform_search_and_wait(
+        client,
+        {
+            "searchQuery": "pilot",
+            "includeModeAviation": "on",
+            "yearSlider-min": "1900",
+            "yearSlider-max": "1924",
+            "relevanceCutoff": "0.5",
+            "includeSafetyIssues": "on",
+        },
+    )
+    df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
+    assert df.shape[0] == 0
 
 
-def test_form_with_query():
-    with app.app.test_client() as c:
-        rv = c.post(
-            "/search",
-            data={
-                "searchQuery": "pilot",
-                "includeModeAviation": "on",
-                "yearSlider-min": "2000",
-                "yearSlider-max": "2024",
-                "relevanceCutoff": "0.7",
-                "includeSafetyIssues": "on",
-            },
-            follow_redirects=True,
-        )
-        assert rv.status == "200 OK"
-        pd.read_html(StringIO(json.loads(rv.data)["html_table"]))[0]
-
-        assert json.loads(rv.data)["summary"]
+def test_form_with_query(client):
+    rv = perform_search_and_wait(
+        client,
+        {
+            "searchQuery": "pilot",
+            "includeModeAviation": "on",
+            "yearSlider-min": "2000",
+            "yearSlider-max": "2024",
+            "relevanceCutoff": "0.7",
+            "includeSafetyIssues": "on",
+        },
+    )
+    df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
+    assert df.shape[0] > 0
+    assert rv["result"]["summary"]
