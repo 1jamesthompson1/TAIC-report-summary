@@ -30,11 +30,15 @@ $(document).ready(function() {
                 $('#searchResults').show();
                 // Hide the loading sign after results are loaded
                 $('#loading').hide();
+            } else if (data.status === 'failed') {
+                // Show an error message
+                $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
+                // Hide the loading sign
+                $('#loading').hide();
             } else {
-                // Continue polling every 5 seconds
                 setTimeout(function() {
                     checkStatus(taskId);
-                }, 5000);  // Poll every 5 seconds
+                }, 2000); 
             }
         });
     }

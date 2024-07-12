@@ -96,7 +96,12 @@ def search():
 
 
 def search_reports(task_id, form_data):
-    results = get_searcher().search(get_search(form_data))
+    try:
+        results = get_searcher().search(get_search(form_data))
+    except Exception as e:
+        tasks_results[task_id] = repr(e)
+        tasks_status[task_id] = "failed"
+        return
 
     with app.app_context():
         tasks_results[task_id] = format_search_results(results)
