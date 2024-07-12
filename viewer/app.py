@@ -80,6 +80,8 @@ def format_search_results(results: Searching.SearchResult):
             "mode_pie_chart": mode_pie_chart,
             "year_histogram": year_hist,
             "most_common_event_types": most_common_event_types,
+            "duration": results.getSearchDuration(),
+            "num_results": context_df.shape[0],
         },
         "summary": results.getSummary(),
     }

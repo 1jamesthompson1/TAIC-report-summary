@@ -1,3 +1,5 @@
+import time
+
 import lancedb
 import pandas as pd
 import plotly.express as px
@@ -127,9 +129,12 @@ class Search:
 
 
 class SearchResult:
-    def __init__(self, context: pd.DataFrame, summary: str = None):
+    def __init__(
+        self, context: pd.DataFrame, summary: str = None, duration: int = None
+    ):
         self.context = context
         self.summary = summary
+        self.duration = duration
 
         self.context_required_columns = [
             "relevance",
@@ -141,6 +146,9 @@ class SearchResult:
             "year",
             "mode",
         ]
+
+    def getSearchDuration(self) -> str:
+        return time.strftime("%M:%S", time.gmtime(self.duration))
 
     def getContext(self) -> pd.DataFrame:
         if self.context is None:
@@ -268,17 +276,19 @@ class SearchEngine:
         This function takes a search object with some parameters and will create the right `SearchEngineSearcher`
         """
 
+        search_start_time = time.time()
+
         searchEngineSearcher = SearchEngineSearcher(
-            search, self.all_document_types_table, self.vo
+            search, self.all_document_types_table, self.vo, search_start_time
         )
 
         response = None
         if search.getQuery() == "" or search.getQuery() is None or not with_rag:
             results = searchEngineSearcher.search()
-            response = SearchResult(results, None)
+            response = SearchResult(results, None, time.time() - search_start_time)
         elif search.getQuery()[0] == '"' and search.getQuery()[-1] == '"':
             results = searchEngineSearcher.search()
-            response = SearchResult(results, None)
+            response = SearchResult(results, None, time.time() - search_start_time)
         elif with_rag and search.getQuery() != "":
             response = searchEngineSearcher.rag_search()
         return response
@@ -290,11 +300,14 @@ class SearchEngineSearcher:
         search: Search,
         vector_db_table: lancedb.table.Table,
         vo: voyageai.Client,
+        start_time,
     ):
         self.query = search.getQuery()
         self.settings = search.getSettings()
 
         self.vector_db_table = vector_db_table
+
+        self.start_time = start_time
 
         self.vo = vo
 
@@ -497,4 +510,6 @@ class SearchEngineSearcher:
 
 {response}
         """
-        return SearchResult(search_results, formatted_response)
+        search_time = time.time() - self.start_time
+
+        return SearchResult(search_results, formatted_response, search_time)
