@@ -100,7 +100,7 @@ def test_form_with_query(client):
             "includeModeAviation": "on",
             "yearSlider-min": "2000",
             "yearSlider-max": "2024",
-            "relevanceCutoff": "0.7",
+            "relevanceCutoff": "0.6",
             "includeSafetyIssues": "on",
         },
     )
