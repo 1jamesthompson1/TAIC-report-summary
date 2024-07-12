@@ -22,7 +22,7 @@ from flask_session import Session
 
 from . import Searching, app_config
 
-dotenv.load_dotenv("../.env")
+dotenv.load_dotenv(override=True)
 
 __version__ = "1.0.0-beta"
 
@@ -168,6 +168,8 @@ def send_csv_file(df: pd.DataFrame, name: str):
 
 @app.route("/get_results_as_csv", methods=["POST"])
 def get_results_as_csv():
+    if not auth.get_user():
+        return redirect(url_for("login"))
     search_results = get_searcher().search(get_search(request.form), with_rag=False)
 
     return send_csv_file(search_results.getContextCleaned(), "search_results.csv")
