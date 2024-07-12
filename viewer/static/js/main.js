@@ -4,7 +4,7 @@ $(document).ready(function() {
 
         if (!checkBoxesAreTicked()) {
             setSearchErrorMessage('Please select at least one checkbox');
-            return false
+            return false;
         } else {
             setSearchErrorMessage('');
         }
@@ -13,16 +13,35 @@ $(document).ready(function() {
         $('#loading').show();
         
         $.post('/search', $('form').serialize(), function(data) {
-            // Update the results placeholder with the received HTML table
-            updateResults(data.html_table);
-            updateSummary(data.summary);
-            updateResultsSummaryInfo(data.results_summary_info);
-            $('#searchResults').show();
-            // Hide the loading sign after results are loaded
-            $('#loading').hide();
-            
+            // Get the task ID from the response
+            const taskId = data.task_id;
+            // Poll for task status
+            checkStatus(taskId);
         });
     });
+
+    function checkStatus(taskId) {
+        $.get('/task-status/' + taskId, function(data) {
+            if (data.status === 'completed') {
+                // Update the results placeholder with the received HTML table
+                updateResults(data.result.html_table);
+                updateSummary(data.result.summary);
+                updateResultsSummaryInfo(data.result.results_summary_info);
+                $('#searchResults').show();
+                // Hide the loading sign after results are loaded
+                $('#loading').hide();
+            } else if (data.status === 'failed') {
+                // Show an error message
+                $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
+                // Hide the loading sign
+                $('#loading').hide();
+            } else {
+                setTimeout(function() {
+                    checkStatus(taskId);
+                }, 2000); 
+            }
+        });
+    }
 
     $('[id^="downloadCSVBtn"]').click(function() {
         var actionUrl = $(this).attr('id').replace('downloadCSVBtn', '/get') + '_as_csv';
@@ -171,7 +190,10 @@ function updateSummary(summary) {
     });
     }
 
-    function updateResultsSummaryInfo(summary) {
+function updateResultsSummaryInfo(summary) {
+
+    $('#resultsSummaryText').replaceWith("<p>Found " + summary.num_results + " relevant documents in " + summary.duration + " minutes</p>");
+
     var most_common_document_types = JSON.parse(summary.document_type_pie_chart);
     Plotly.newPlot('MostCommmonDocumentTypes', most_common_document_types);
     var most_common_event_types = JSON.parse(summary.most_common_event_types);
