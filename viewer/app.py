@@ -20,8 +20,7 @@ from flask import (
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 from flask_session import Session
-
-from . import Searching, app_config
+from viewer import Searching, app_config
 
 dotenv.load_dotenv(override=True)
 
@@ -210,4 +209,4 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    app.run()
