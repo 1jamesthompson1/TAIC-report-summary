@@ -75,7 +75,7 @@ def log_search_results(results):
             "RowKey": results.search.uuid.hex,
             "duration": results.duration,
             "summary": results.getSummary(),
-            "search_results": results.getContextCleaned().to_json(),
+            "search_results": results.getContextCleaned().head(100).to_json(),
             "num_results": results.context.shape[0],
         }
         print(results_log)
