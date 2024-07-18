@@ -474,7 +474,7 @@ class SearchEngineSearcher:
 
         search_results = self.search()
         if search_results is None:
-            return SearchResult(None, None)
+            return SearchResult(self.search_obj, None, None)
         search_results = self._filter_results(search_results)
 
         print("Summarizing relevant safety issues...")
