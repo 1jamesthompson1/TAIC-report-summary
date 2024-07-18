@@ -76,7 +76,7 @@ def log_search_results(results):
             "duration": results.duration,
             "summary": results.getSummary(),
             "search_results": results.getContextCleaned().head(100).to_json(),
-            "num_results": results.context.shape[0],
+            "num_results": results.getContext().shape[0],
         }
         print(results_log)
         try:
@@ -214,18 +214,17 @@ def search():
 def search_reports(task_id, form_data):
     try:
         search = get_search(form_data)
-        with app.app_context():
-            log_search(search)
+        log_search(search)
         results = get_searcher().search(search)
+
+        tasks_results[task_id] = format_search_results(results)
+        log_search_results(results)
+        tasks_status[task_id] = "completed"
+
     except Exception as e:
         tasks_results[task_id] = repr(e)
         tasks_status[task_id] = "failed"
         return
-
-    with app.app_context():
-        tasks_results[task_id] = format_search_results(results)
-        log_search_results(results)
-        tasks_status[task_id] = "completed"
 
 
 def send_csv_file(df: pd.DataFrame, name: str):

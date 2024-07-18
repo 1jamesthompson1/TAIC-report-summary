@@ -64,7 +64,7 @@ def test_form_submit(client):
             "includeReportSection": "on",
         },
     )
-    df = pd.read_html(StringIO(rv["results"]["html_table"]))[0]
+    df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
     assert df.shape[0] == 5926
 
 
