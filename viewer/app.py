@@ -7,8 +7,10 @@ from threading import Thread
 import dotenv
 import identity.web
 import pandas as pd
+from azure.data.tables import TableServiceClient
 from flask import (
     Flask,
+    copy_current_request_context,
     jsonify,
     redirect,
     render_template,
@@ -41,6 +43,48 @@ auth = identity.web.Auth(
     client_id=app.config["CLIENT_ID"],
     client_credential=app.config["CLIENT_SECRET"],
 )
+
+
+connection_string = f"AccountName={os.getenv('AZURE_STORAGE_ACCOUNT_NAME')};AccountKey={os.getenv('AZURE_STORAGE_ACCOUNT_KEY')};EndpointSuffix=core.windows.net"
+client = TableServiceClient.from_connection_string(conn_str=connection_string)
+searchlogs = client.create_table_if_not_exists(table_name="searchlogs")
+resultslogs = client.create_table_if_not_exists(table_name="resultslogs")
+
+
+def log_search(search):
+    if searchlogs:
+        search_log = {
+            "PartitionKey": auth.get_user()["name"],
+            "RowKey": search.uuid.hex,
+            "query": search.getQuery(),
+            "start_time": search.creation_time,
+            **search.getSettings().to_dict(),
+        }
+        try:
+            searchlogs.create_entity(entity=search_log)
+        except Exception as e:
+            print(e)
+    else:
+        print("Error table does not exist")
+
+
+def log_search_results(results):
+    if resultslogs:
+        results_log = {
+            "PartitionKey": auth.get_user()["name"],
+            "RowKey": results.search.uuid.hex,
+            "duration": results.duration,
+            "summary": results.getSummary(),
+            "search_results": results.getContextCleaned().to_json(),
+            "num_results": results.context.shape[0],
+        }
+        print(results_log)
+        try:
+            resultslogs.create_entity(entity=results_log)
+        except Exception as e:
+            print(e)
+    else:
+        print("Error table does not exist")
 
 
 @app.route("/login")
@@ -160,14 +204,19 @@ def search():
     form_data = request.form
     task_id = str(uuid.uuid4())
     tasks_status[task_id] = "in progress"
-    task_thread = Thread(target=search_reports, args=(task_id, form_data))
+    task_thread = Thread(
+        target=copy_current_request_context(search_reports), args=(task_id, form_data)
+    )
     task_thread.start()
     return jsonify({"task_id": task_id}), 202
 
 
 def search_reports(task_id, form_data):
     try:
-        results = get_searcher().search(get_search(form_data))
+        search = get_search(form_data)
+        with app.app_context():
+            log_search(search)
+        results = get_searcher().search(search)
     except Exception as e:
         tasks_results[task_id] = repr(e)
         tasks_status[task_id] = "failed"
@@ -175,6 +224,7 @@ def search_reports(task_id, form_data):
 
     with app.app_context():
         tasks_results[task_id] = format_search_results(results)
+        log_search_results(results)
         tasks_status[task_id] = "completed"
 
 

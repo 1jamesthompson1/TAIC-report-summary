@@ -1,4 +1,5 @@
 import time
+import uuid
 
 import lancedb
 import pandas as pd
@@ -62,11 +63,22 @@ class SearchSettings:
     def getDocumentTypes(self) -> list[str]:
         return self.document_types
 
+    def to_dict(self) -> dict:
+        return {
+            "setting_min_year": self.year_range[0],
+            "setting_max_year": self.year_range[1],
+            "setting_modes": str([mode.value for mode in self.modes]),
+            "setting_relevanceCutoff": self.relevanceCutoff,
+            "setting_document_types": str(self.document_types),
+        }
+
 
 class Search:
     def __init__(self, query: str, settings: SearchSettings):
         self.query = query
         self.settings = settings
+        self.creation_time = time.time()
+        self.uuid = uuid.uuid4()
 
     @classmethod
     def from_form(cls, form: dict):
@@ -129,12 +141,11 @@ class Search:
 
 
 class SearchResult:
-    def __init__(
-        self, context: pd.DataFrame, summary: str = None, duration: int = None
-    ):
+    def __init__(self, search: Search, context: pd.DataFrame, summary: str = None):
+        self.search = search
         self.context = context
         self.summary = summary
-        self.duration = duration
+        self.duration = search.creation_time - time.time()
 
         self.context_required_columns = [
             "relevance",
@@ -276,19 +287,17 @@ class SearchEngine:
         This function takes a search object with some parameters and will create the right `SearchEngineSearcher`
         """
 
-        search_start_time = time.time()
-
         searchEngineSearcher = SearchEngineSearcher(
-            search, self.all_document_types_table, self.vo, search_start_time
+            search, self.all_document_types_table, self.vo
         )
 
         response = None
         if search.getQuery() == "" or search.getQuery() is None or not with_rag:
             results = searchEngineSearcher.search()
-            response = SearchResult(results, None, time.time() - search_start_time)
+            response = SearchResult(search, results, None)
         elif search.getQuery()[0] == '"' and search.getQuery()[-1] == '"':
             results = searchEngineSearcher.search()
-            response = SearchResult(results, None, time.time() - search_start_time)
+            response = SearchResult(search, results, None)
         elif with_rag and search.getQuery() != "":
             response = searchEngineSearcher.rag_search()
         return response
@@ -300,14 +309,12 @@ class SearchEngineSearcher:
         search: Search,
         vector_db_table: lancedb.table.Table,
         vo: voyageai.Client,
-        start_time,
     ):
+        self.search_obj = search
         self.query = search.getQuery()
         self.settings = search.getSettings()
 
         self.vector_db_table = vector_db_table
-
-        self.start_time = start_time
 
         self.vo = vo
 
@@ -510,6 +517,5 @@ class SearchEngineSearcher:
 
 {response}
         """
-        search_time = time.time() - self.start_time
 
-        return SearchResult(search_results, formatted_response, search_time)
+        return SearchResult(self.search_obj, search_results, formatted_response)

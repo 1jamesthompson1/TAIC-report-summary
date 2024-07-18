@@ -382,6 +382,23 @@ typing-extensions = ">=4.6.0"
 aio = ["aiohttp (>=3.0)"]
 
 [[package]]
+name = "azure-data-tables"
+version = "12.5.0"
+description = "Microsoft Azure Azure Data Tables Client Library for Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "azure-data-tables-12.5.0.tar.gz", hash = "sha256:eea393a6380c42eb03e807825c037832003d09c823294831da15e81155a0b4e6"},
+    {file = "azure_data_tables-12.5.0-py3-none-any.whl", hash = "sha256:fa45330f45c0d7a45db353c196cb4265bdf03fb1de9e1e726c30b8dd5ea55e5d"},
+]
+
+[package.dependencies]
+azure-core = ">=1.29.4,<2.0.0"
+isodate = ">=0.6.1,<1.0.0"
+typing-extensions = ">=4.3.0"
+yarl = ">=1.0,<2.0"
+
+[[package]]
 name = "azure-datalake-store"
 version = "0.0.53"
 description = "Azure Data Lake Store Filesystem Client Library for Python"
@@ -3323,9 +3340,9 @@ files = [
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
     {version = ">=1.22.4", markers = "python_version < \"3.11\""},
     {version = ">=1.23.2", markers = "python_version == \"3.11\""},
+    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -3743,8 +3760,8 @@ files = [
 annotated-types = ">=0.4.0"
 pydantic-core = "2.20.1"
 typing-extensions = [
-    {version = ">=4.12.2", markers = "python_version >= \"3.13\""},
     {version = ">=4.6.1", markers = "python_version < \"3.13\""},
+    {version = ">=4.12.2", markers = "python_version >= \"3.13\""},
 ]
 
 [package.extras]
@@ -5698,4 +5715,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "0c6f2256fed32a9b4939bc57cc2c5a0a8dee1c17e6f55571b32ce9f1de0471c2"
+content-hash = "479b6e2882adda4a41de675531765b061a5d5bf767426015b7d29babbc1956fe"
