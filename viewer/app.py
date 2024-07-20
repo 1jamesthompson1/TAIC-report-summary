@@ -117,10 +117,6 @@ def logout():
 
 @app.route("/")
 def index():
-    if not (app.config["CLIENT_ID"] and app.config["CLIENT_SECRET"]):
-        # This check is not strictly necessary.
-        # You can remove this check from your production code.
-        return render_template("config_error.html")
     if not auth.get_user():
         return redirect(url_for("login"))
     return render_template("index.html", user=auth.get_user(), version=__version__)
@@ -250,9 +246,6 @@ def run():
     parser = argparse.ArgumentParser()
     parser.add_argument("--debug", action="store_true", help="Enable debug mode")
     args = parser.parse_args()
-
-    if "db_URI" not in os.environ:
-        os.environ["db_URI"] = "./viewer/vector_db"
 
     app.run(port=5000, host="localhost", debug=args.debug)
 

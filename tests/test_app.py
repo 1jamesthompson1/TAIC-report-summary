@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from io import StringIO
 
 import pandas as pd
@@ -33,6 +34,7 @@ def perform_search_and_wait(c, form_data):
         parsed = json.loads(task_status.data)
         if parsed["status"] == "completed" or parsed["status"] == "failed":
             return parsed
+        time.sleep(2)
 
 
 def test_index():
