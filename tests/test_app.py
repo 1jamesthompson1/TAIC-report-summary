@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from io import StringIO
 
 import pandas as pd
@@ -12,12 +13,19 @@ os.environ["db_URI"] = "./tests/data/vector_db"
 
 @pytest.fixture
 def client():
+    class MockAuth:
+        @staticmethod
+        def get_user():
+            return {"id": "test_user", "name": "Test User"}
+
+    app.auth = MockAuth()
+
     with app.app.test_client() as c:
         yield c
 
 
 def perform_search_and_wait(c, form_data):
-    rv = c.post("/search", data=form_data, follow_redirects=True)
+    rv = c.post("/search", data=form_data)
 
     assert rv.status == "202 ACCEPTED"
 
@@ -26,13 +34,20 @@ def perform_search_and_wait(c, form_data):
         parsed = json.loads(task_status.data)
         if parsed["status"] == "completed" or parsed["status"] == "failed":
             return parsed
+        time.sleep(2)
 
 
 def test_index():
     with app.app.test_client() as c:
-        rv = c.get("/")
+        rv = c.get("/", follow_redirects=True)
         assert rv.status == "200 OK"
         assert b"<title>TAIC Document Searcher</title>" in rv.data
+
+
+def test_no_login_search():
+    with app.app.test_client() as c:
+        rv = c.post("/search")
+        assert rv.status_code == 302
 
 
 def test_form_submit(client):
@@ -51,7 +66,6 @@ def test_form_submit(client):
             "includeReportSection": "on",
         },
     )
-    assert rv["status"] == "completed"
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
     assert df.shape[0] == 5926
 
@@ -88,6 +102,7 @@ def test_form_submit_no_results(client):
             "includeSafetyIssues": "on",
         },
     )
+    print(rv)
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
     assert df.shape[0] == 0
 

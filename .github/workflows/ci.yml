@@ -28,9 +28,13 @@ jobs:
       - name: Run tests and collect coverage
         run: pytest --cov=. --cov-report=xml
         env:
-            OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-            VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
-            ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
+          AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:

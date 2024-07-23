@@ -1,39 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>TAIC Document Searcher</title>
+{% extends 'base.html' %}
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/static/favicon.png">
+{% block title %}TAIC Document Searcher{% endblock %}
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/results.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/search.css') }}">
+{% endblock %}
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-2.33.0.min.js" charset="utf-8"></script>
-    
-    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
-    
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
-
-    <!-- Custom Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
-
-    <!-- Custom JavaScript-->
-    <script type="text/javascript" src="/static/js/main.js"></script>
-</head>
-<body>
-    <div id="webappinfo">
-        <div id="titleBlock">
-            <h1>TAIC Document Searcher</h1>
-            <h5>Version 1.0 beta</h5>
-        </div>
-        <div id="sesstionInfo">
-            <p>Data last updated: 2024-07-01</p>
-        </div>
-    </div>
+{% block content %}
     <form method="post" id="searchForm" action="/search">
         <p id="searchErrorMessage" style="display: none;"></p>
         <div class="row">
@@ -120,9 +94,5 @@
             </div>
         </div>
     </div>
-    <footer>
-        <p>Created by <a href="https://github.com/1jamesthompson1">James Thompson</a> for the <a href="https://www.taic.org.nz">New Zealand Transport Accident Investigation Commission.</a></p>
-        <p>Contact directed to <a href="mailto:james.thompson@taic.org.nz">james.thompson@taic.org.nz</a>, project is being developed openly on <a href="https://github.com/1jamesthompson1/TAIC-report-summary">https://github.com/1jamesthompson1/TAIC-report-summary</a></p>
-    </footer>
-</body>
-</html>
+
+{% endblock %}
