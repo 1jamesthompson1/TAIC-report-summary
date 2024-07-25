@@ -2,6 +2,7 @@ import argparse
 import os
 import tempfile
 import uuid
+from io import StringIO
 from threading import Thread
 
 import dotenv
@@ -19,6 +20,8 @@ from flask import (
     session,
     url_for,
 )
+from openpyxl import Workbook
+from openpyxl.utils.dataframe import dataframe_to_rows
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 from flask_session import Session
@@ -43,7 +46,6 @@ auth = identity.web.Auth(
     client_id=app.config["CLIENT_ID"],
     client_credential=app.config["CLIENT_SECRET"],
 )
-
 
 connection_string = f"AccountName={os.getenv('AZURE_STORAGE_ACCOUNT_NAME')};AccountKey={os.getenv('AZURE_STORAGE_ACCOUNT_KEY')};EndpointSuffix=core.windows.net"
 client = TableServiceClient.from_connection_string(conn_str=connection_string)
@@ -78,7 +80,6 @@ def log_search_results(results):
             "search_results": results.getContextCleaned().head(100).to_json(),
             "num_results": results.getContext().shape[0],
         }
-        print(results_log)
         try:
             resultslogs.create_entity(entity=results_log)
         except Exception as e:
@@ -130,6 +131,8 @@ tasks_results = {}
 def task_status(task_id):
     status = tasks_status.get(task_id, "not found")
     result = tasks_results.get(task_id, {})
+    if status == "completed":
+        session["search_results"] = result
     return jsonify({"task_id": task_id, "status": status, "result": result})
 
 
@@ -190,6 +193,9 @@ def format_search_results(results: Searching.SearchResult):
             "num_results": context_df.shape[0],
         },
         "summary": results.getSummary(),
+        "settings": results.search.getSettings().to_dict(),
+        "start_time": results.search.getStartTime(),
+        "query": results.search.getQuery(),
     }
 
 
@@ -237,9 +243,61 @@ def send_csv_file(df: pd.DataFrame, name: str):
 def get_results_as_csv():
     if not auth.get_user():
         return redirect(url_for("login"))
-    search_results = get_searcher().search(get_search(request.form), with_rag=False)
+    if session.get("search_results") is None:
+        return jsonify({"error": "No results found"}), 404
 
-    return send_csv_file(search_results.getContextCleaned(), "search_results.csv")
+    search_results = session.get("search_results")
+
+    # Create a temporary file
+    temp = tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False)
+    temp.close()  # Close the file so it can be opened by openpyxl
+
+    # Create a new Workbook
+    wb = Workbook()
+
+    # Write summary information to the first sheet
+    summary_info = search_results["results_summary_info"]
+    summary_sheet = wb.active
+    summary_sheet.title = "Summary"
+
+    summary_sheet["A1"] = "Search Query:"
+    summary_sheet["A2"] = search_results["query"]
+
+    summary_sheet["A4"] = "Start Time:"
+    summary_sheet["A5"] = search_results["start_time"]
+
+    summary_sheet["A7"] = "Settings:"
+    summary_sheet["A8"] = repr(search_results["settings"])
+
+    summary_sheet["A10"] = "Search Duration:"
+    summary_sheet["A11"] = summary_info["duration"]
+
+    summary_sheet["A13"] = "Number of Results:"
+    summary_sheet["A14"] = summary_info["num_results"]
+
+    summary_sheet["A16"] = "Summary:"
+    summary_sheet["A17"] = search_results["summary"]
+
+    # Create a second sheet and write the search results using pandas
+    results_df = pd.read_html(StringIO(search_results["html_table"]))[0]
+
+    results_sheet = wb.create_sheet(title="Search Results")
+
+    for r_idx, row in enumerate(
+        dataframe_to_rows(results_df, index=False, header=True), 1
+    ):
+        for c_idx, value in enumerate(row, 1):
+            results_sheet.cell(row=r_idx, column=c_idx, value=value)
+
+    # Save the workbook to the temporary file
+    wb.save(temp.name)
+
+    # Send the file as a response
+    search_query = search_results["query"]
+    search_start_time = search_results["start_time"]
+    download_name = f"{search_query}-{search_start_time}.xlsx"
+
+    return send_file(temp.name, as_attachment=True, download_name=download_name)
 
 
 def run():
