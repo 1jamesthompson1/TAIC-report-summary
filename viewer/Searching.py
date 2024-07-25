@@ -139,6 +139,9 @@ class Search:
     def getSettings(self) -> SearchSettings:
         return self.settings
 
+    def getStartTime(self) -> str:
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.creation_time))
+
 
 class SearchResult:
     def __init__(self, search: Search, context: pd.DataFrame, summary: str = None):
