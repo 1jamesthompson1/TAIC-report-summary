@@ -1,4 +1,53 @@
 $(document).ready(function() {
+    // Function to extract URL parameters
+    function getUrlParams() {
+        const params = new URLSearchParams(window.location.search);
+        let formData = {};
+        for (const [key, value] of params.entries()) {
+            formData[key] = value;
+        }
+        return formData;
+    }
+
+    // Function to perform search with URL parameters
+    function performSearchWithParams(params) {
+        $('#loading').show();
+
+        $.get('/search', params, function(data) {
+            const taskId = data.task_id;
+            checkStatus(taskId);
+        });
+    }
+
+    // Function to check if URL has search parameters
+    function hasSearchParams() {
+        return window.location.search.length > 0;
+    }
+
+    // Function to initialize form with URL parameters if they exist
+    function initializeFormWithParams(params) {
+        for (const key in params) {
+            if (params.hasOwnProperty(key)) {
+                const element = $('[name="' + key + '"]');
+                if (element.attr('type') === 'checkbox') {
+                    // Check the checkbox if the parameter value is "on" or "true"
+                    element.prop('checked', params[key] === 'on' || params[key] === 'true');
+                } else if (element.attr('type') === 'range') {
+                    // Set the range slider value
+                    element.val(params[key]);
+                    // Update the corresponding label if it exists
+                    const label = $('[for="' + element.attr('id') + '"]');
+                    if (label.length) {
+                        label.text(params[key]);
+                    }
+                } else {
+                    // Set the value for other types of inputs
+                    element.val(params[key]);
+                }
+            }
+        }
+    }
+    // Check for URL parameters and perform search if present
     $('form').submit(function(event) {
         event.preventDefault();  // Prevent the default form submission
 
@@ -97,6 +146,11 @@ $(document).ready(function() {
             $('#relevanceCutoffSliderLabel').text($('#relevanceCutoffSlider').val());
 
         });
+        
+        if (hasSearchParams()) {
+            let params = getUrlParams();
+            initializeFormWithParams(params);
+        }
     });
 });
 function setSearchErrorMessage(message) {

@@ -1,4 +1,5 @@
 import time
+import urllib.parse
 import uuid
 
 import lancedb
@@ -141,6 +142,39 @@ class Search:
 
     def getStartTime(self) -> str:
         return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.creation_time))
+
+    def to_url_params(self) -> str:
+        params = {
+            "searchQuery": self.query,
+            "yearSlider-min": self.settings.year_range[0],
+            "yearSlider-max": self.settings.year_range[1],
+            "relevanceCutoff": self.settings.relevanceCutoff,
+        }
+
+        params["includeModeAviation"] = (
+            "on" if Modes.Mode.a in self.settings.modes else "off"
+        )
+        params["includeModeRail"] = (
+            "on" if Modes.Mode.r in self.settings.modes else "off"
+        )
+        params["includeModeMarine"] = (
+            "on" if Modes.Mode.m in self.settings.modes else "off"
+        )
+
+        params["includeSafetyIssues"] = (
+            "on" if "safety_issue" in self.settings.document_types else "off"
+        )
+        params["includeRecommendations"] = (
+            "on" if "recommendation" in self.settings.document_types else "off"
+        )
+        params["includeReportSection"] = (
+            "on" if "report_section" in self.settings.document_types else "off"
+        )
+        params["includeImportantText"] = (
+            "on" if "important_text" in self.settings.document_types else "off"
+        )
+
+        return urllib.parse.urlencode(params)
 
 
 class SearchResult:
