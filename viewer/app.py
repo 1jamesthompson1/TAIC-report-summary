@@ -51,6 +51,7 @@ connection_string = f"AccountName={os.getenv('AZURE_STORAGE_ACCOUNT_NAME')};Acco
 client = TableServiceClient.from_connection_string(conn_str=connection_string)
 searchlogs = client.create_table_if_not_exists(table_name="searchlogs")
 resultslogs = client.create_table_if_not_exists(table_name="resultslogs")
+errorlogs = client.create_table_if_not_exists(table_name="errorlogs")
 
 
 def log_search(search):
@@ -85,6 +86,21 @@ def log_search_results(results):
         }
         try:
             resultslogs.create_entity(entity=results_log)
+        except Exception as e:
+            print(e)
+    else:
+        print("Error table does not exist")
+
+
+def log_search_error(e, search):
+    if errorlogs:
+        error_log = {
+            "PartitionKey": auth.get_user()["name"],
+            "RowKey": search.uuid.hex,
+            "error": repr(e),
+        }
+        try:
+            errorlogs.create_entity(entity=error_log)
         except Exception as e:
             print(e)
     else:
@@ -221,12 +237,12 @@ def search_reports(task_id, form_data):
         search = get_search(form_data)
         log_search(search)
         results = get_searcher().search(search)
-
         tasks_results[task_id] = format_search_results(results)
         log_search_results(results)
         tasks_status[task_id] = "completed"
 
     except Exception as e:
+        log_search_error(e, search)
         tasks_results[task_id] = repr(e)
         tasks_status[task_id] = "failed"
         return
