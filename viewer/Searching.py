@@ -148,7 +148,7 @@ class SearchResult:
         self.search = search
         self.context = context
         self.summary = summary
-        self.duration = search.creation_time - time.time()
+        self.duration = time.time() - search.creation_time
 
         self.context_required_columns = [
             "relevance",
@@ -410,7 +410,7 @@ class SearchEngineSearcher:
             f"section_relevance_score > {self.settings.getRelevanceCutoff()}"
         )
 
-    def _get_rag_prompt(self, query: str, search_results: pd.DataFrame):
+    def _get_rag_prompt(self, search: str, search_results: pd.DataFrame):
         context = "\n\n".join(
             f"""{document_type}:{id} from report {report} of type {report_type} with relevance {rel:.4f}:
 '{document}'
@@ -425,9 +425,13 @@ class SearchEngineSearcher:
             )
         )
         return f"""
-        My question is: {query}
+        My question is: {search.getQuery()}
 
-        Use the following pieces of retrieved context and your common knowledge to answer the question. If you don't know the answer, just say that you don't know.
+        Use the following pieces of retrieved context and your common knowledge to answer the question. Here is what my search settings looked like:
+        
+        {search.getSettings().to_dict()}
+
+        If you don't know the answer, just say that you don't know.
         {context}
 
         It is important to provide references to specific reports and safety issues in your answer.
@@ -444,6 +448,10 @@ class SearchEngineSearcher:
     The vector database is an embedded dataset of safety issues from the New Zealand Transport Accident Investigation Commission.
 
     Please don't include the words "report" or "safety issue" in your query.
+
+    I don't want you to in any way change the meaning of the search just remove unnecessary words.
+
+    "What are common elements in floatation devices and fires?" -> "Flotation devices and fires"
 
     A couple of useful definitions for you are:
 
@@ -472,7 +480,6 @@ class SearchEngineSearcher:
         print(f' Going to run query: "{formatted_query}"')
 
         print("Getting relevant safety issues...")
-        original_query = self.query
         self.query = formatted_query
 
         search_results = self.search()
@@ -487,7 +494,7 @@ class SearchEngineSearcher:
 
     The questions are from investigators and researchers from the Transport Accident Investigation Commission. The context you will be given are safety issues extracted from all of TAICs reports.
 
-    You will be given a question and some context documents. You will then need to answer the question as best you can. It might be possible that hte question can't be answered with the given context which you should just say that.
+    You will be given a question and some context documents. You will then need to answer the question as best you can. It might be possible that the question can't be answered with the given context which you should just say that.
 
     A couple of useful definitions for you are:
 
@@ -509,7 +516,7 @@ class SearchEngineSearcher:
     cover a single safety issue, or two or more related safety
     issues.  
     """,
-            user=self._get_rag_prompt(original_query, search_results),
+            user=self._get_rag_prompt(self.search_obj, search_results),
             model="claude-3.5-sonnet",
             temp=0,
             max_tokens=4096,
