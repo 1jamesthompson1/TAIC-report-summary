@@ -148,7 +148,7 @@ class SearchResult:
         self.search = search
         self.context = context
         self.summary = summary
-        self.duration = search.creation_time - time.time()
+        self.duration = time.time() - search.creation_time
 
         self.context_required_columns = [
             "relevance",
