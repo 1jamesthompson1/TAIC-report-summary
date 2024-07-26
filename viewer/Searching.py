@@ -445,6 +445,10 @@ class SearchEngineSearcher:
 
     Please don't include the words "report" or "safety issue" in your query.
 
+    I don't want you to in any way change the meaning of the search just remove unnecessary words.
+
+    "What are common elements in floatation devices and fires?" -> "Flotation devices and fires"
+
     A couple of useful definitions for you are:
 
     Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
