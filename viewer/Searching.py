@@ -1,5 +1,7 @@
 import time
+import urllib.parse
 import uuid
+from ast import literal_eval
 
 import lancedb
 import pandas as pd
@@ -40,7 +42,7 @@ class SearchSettings:
         self.modes = modes
 
         if not isinstance(relevanceCutoff, float):
-            raise TypeError("relevanceCutoff must be an integer")
+            raise TypeError("relevanceCutoff must be an float")
         self.relevanceCutoff = relevanceCutoff
 
         if not isinstance(document_types, list) or not all(
@@ -71,6 +73,17 @@ class SearchSettings:
             "setting_relevanceCutoff": self.relevanceCutoff,
             "setting_document_types": str(self.document_types),
         }
+
+    @classmethod
+    def from_dict(cls, data: dict):
+        if data is None or not isinstance(data, dict):
+            raise TypeError(f"Data is not a dictionary but {type(data)}")
+        return cls(
+            modes=[Modes.Mode(mode) for mode in literal_eval(data["setting_modes"])],
+            year_range=(int(data["setting_min_year"]), int(data["setting_max_year"])),
+            document_types=literal_eval(data["setting_document_types"]),
+            relevanceCutoff=float(data["setting_relevanceCutoff"]),
+        )
 
 
 class Search:
@@ -122,8 +135,6 @@ class Search:
             if "includeImportantText" in form.keys():
                 document_types.append("important_text")
 
-            print(form)
-
             return cls(
                 search_query,
                 settings=SearchSettings(
@@ -141,6 +152,39 @@ class Search:
 
     def getStartTime(self) -> str:
         return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.creation_time))
+
+    def to_url_params(self) -> str:
+        params = {
+            "searchQuery": self.query,
+            "yearSlider-min": self.settings.year_range[0],
+            "yearSlider-max": self.settings.year_range[1],
+            "relevanceCutoff": self.settings.relevanceCutoff,
+        }
+
+        params["includeModeAviation"] = (
+            "on" if Modes.Mode.a in self.settings.modes else "off"
+        )
+        params["includeModeRail"] = (
+            "on" if Modes.Mode.r in self.settings.modes else "off"
+        )
+        params["includeModeMarine"] = (
+            "on" if Modes.Mode.m in self.settings.modes else "off"
+        )
+
+        params["includeSafetyIssues"] = (
+            "on" if "safety_issue" in self.settings.document_types else "off"
+        )
+        params["includeRecommendations"] = (
+            "on" if "recommendation" in self.settings.document_types else "off"
+        )
+        params["includeReportSection"] = (
+            "on" if "report_section" in self.settings.document_types else "off"
+        )
+        params["includeImportantText"] = (
+            "on" if "important_text" in self.settings.document_types else "off"
+        )
+
+        return urllib.parse.urlencode(params)
 
 
 class SearchResult:

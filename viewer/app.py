@@ -175,6 +175,11 @@ def format_report_id_as_weblink(report_id):
     return f"{letters[int(report_id[5])]}o-{report_id[0:4]}-{report_id[5:8]}"
 
 
+def getUpdatedRelevanceSearch(search, new_relevance):
+    search.settings.relevanceCutoff = new_relevance
+    return search.to_url_params()
+
+
 def format_search_results(results: Searching.SearchResult):
     context_df = results.getContextCleaned()
 
@@ -183,6 +188,11 @@ def format_search_results(results: Searching.SearchResult):
     )
     context_df["report_id"] = context_df["report_id"].apply(
         lambda x: f'<a href="https://taic.org.nz/inquiry/{format_report_id_as_weblink(x)}" target="_blank">{x}</a>'
+    )
+
+    context_df["relevance"] = context_df.apply(
+        lambda x: f"""<a href="/?{getUpdatedRelevanceSearch(results.search, x['relevance'])}">{x['relevance']}</a>""",
+        axis=1,
     )
 
     html_table = context_df.to_html(
@@ -222,7 +232,9 @@ def format_search_results(results: Searching.SearchResult):
 def search():
     if not auth.get_user():
         return redirect(url_for("login"))
+
     form_data = request.form
+
     task_id = str(uuid.uuid4())
     tasks_status[task_id] = "in progress"
     task_thread = Thread(
@@ -280,6 +292,10 @@ def get_results_as_csv():
     summary_sheet.title = "Summary"
 
     summary_sheet["A1"] = "Search Query:"
+    summary_sheet["D1"] = "Redo search:"
+    summary_sheet[
+        "E1"
+    ].hyperlink = f"""https://taic-document-searcher-cfdkgxgnc3bxgbeg.australiaeast-01.azurewebsites.net/?{Searching.Search(search_results["query"], settings=Searching.SearchSettings.from_dict(search_results["settings"])).to_url_params()}"""
     summary_sheet["A2"] = search_results["query"]
 
     summary_sheet["A4"] = "Start Time:"
