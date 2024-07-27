@@ -1,6 +1,7 @@
 import time
 import urllib.parse
 import uuid
+from ast import literal_eval
 
 import lancedb
 import pandas as pd
@@ -41,7 +42,7 @@ class SearchSettings:
         self.modes = modes
 
         if not isinstance(relevanceCutoff, float):
-            raise TypeError("relevanceCutoff must be an integer")
+            raise TypeError("relevanceCutoff must be an float")
         self.relevanceCutoff = relevanceCutoff
 
         if not isinstance(document_types, list) or not all(
@@ -72,6 +73,18 @@ class SearchSettings:
             "setting_relevanceCutoff": self.relevanceCutoff,
             "setting_document_types": str(self.document_types),
         }
+
+    @classmethod
+    def from_dict(cls, data: dict):
+        if data is None or not isinstance(data, dict):
+            raise TypeError(f"Data is not a dictionary but {type(data)}")
+        print(data)
+        return cls(
+            modes=[Modes.Mode(mode) for mode in literal_eval(data["setting_modes"])],
+            year_range=(int(data["setting_min_year"]), int(data["setting_max_year"])),
+            document_types=literal_eval(data["setting_document_types"]),
+            relevanceCutoff=float(data["setting_relevanceCutoff"]),
+        )
 
 
 class Search:
@@ -160,6 +173,8 @@ class Search:
         params["includeModeMarine"] = (
             "on" if Modes.Mode.m in self.settings.modes else "off"
         )
+
+        print(self.settings.document_types)
 
         params["includeSafetyIssues"] = (
             "on" if "safety_issue" in self.settings.document_types else "off"

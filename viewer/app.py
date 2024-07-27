@@ -292,6 +292,10 @@ def get_results_as_csv():
     summary_sheet.title = "Summary"
 
     summary_sheet["A1"] = "Search Query:"
+    summary_sheet["D1"] = "Redo search:"
+    summary_sheet[
+        "E1"
+    ].hyperlink = f"""https://taic-document-searcher-cfdkgxgnc3bxgbeg.australiaeast-01.azurewebsites.net/?{Searching.Search(search_results["query"], settings=Searching.SearchSettings.from_dict(search_results["settings"])).to_url_params()}"""
     summary_sheet["A2"] = search_results["query"]
 
     summary_sheet["A4"] = "Start Time:"
