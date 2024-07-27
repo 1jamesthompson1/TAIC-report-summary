@@ -78,7 +78,6 @@ class SearchSettings:
     def from_dict(cls, data: dict):
         if data is None or not isinstance(data, dict):
             raise TypeError(f"Data is not a dictionary but {type(data)}")
-        print(data)
         return cls(
             modes=[Modes.Mode(mode) for mode in literal_eval(data["setting_modes"])],
             year_range=(int(data["setting_min_year"]), int(data["setting_max_year"])),
@@ -136,8 +135,6 @@ class Search:
             if "includeImportantText" in form.keys():
                 document_types.append("important_text")
 
-            print(form)
-
             return cls(
                 search_query,
                 settings=SearchSettings(
@@ -173,8 +170,6 @@ class Search:
         params["includeModeMarine"] = (
             "on" if Modes.Mode.m in self.settings.modes else "off"
         )
-
-        print(self.settings.document_types)
 
         params["includeSafetyIssues"] = (
             "on" if "safety_issue" in self.settings.document_types else "off"
