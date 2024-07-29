@@ -30,6 +30,15 @@
 <body>
 
     <div id="webappinfo">
+        {% if user.get("name") %}
+        <div id="feedbackFormButton">
+            {% if feedback_form_loaded %}
+            <a href="/" class="button">Home</a>
+            {% else %}
+            <a href="/feedback" target="_blank" class="button">Feedback</a>
+            {% endif %}
+        </div>
+        {% endif %}
         <div id="titleBlock">
             <h1>{% block title %}{% endblock %}</h1>
             <h5>Version: {{ version }}</h5>
