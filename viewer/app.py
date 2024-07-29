@@ -142,6 +142,18 @@ def index():
     return render_template("index.html", user=auth.get_user(), version=__version__)
 
 
+@app.route("/feedback")
+def feedback():
+    if not auth.get_user():
+        return redirect(url_for("login"))
+    return render_template(
+        "feedback_form.html",
+        user=auth.get_user(),
+        version=__version__,
+        feedback_form_loaded=True,
+    )
+
+
 tasks_status = {}
 tasks_results = {}
 
