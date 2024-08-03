@@ -57,6 +57,7 @@ python-docx = "^1.1.0"
 ruff = "^0.4.9"
 pre-commit = "^3.7.1"
 deptry = "^0.18.0"
+sentence-transformers = "^3.0.1"
 
 [tool.poetry.scripts]
 engine = "engine.utils.cli:cli"
@@ -74,3 +75,6 @@ pythonpath = ["."]
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.deptry]
+ignore = ["DEP004"]
