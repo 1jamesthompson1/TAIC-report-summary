@@ -19,7 +19,12 @@ import engine.analyze.Embedding as Embedding
     ],
 )
 def test_basic_embedding(dataframe_column_name, document_column_name):
-    extracted_df = pd.read_pickle("tests/data/extracted_reports.pkl")
+    extracted_df = pd.read_pickle(
+        os.path.join(
+            pytest.output_config["folder_name"],
+            pytest.output_config["extracted_reports_df_file_name"],
+        )
+    )
     extracted_df["report_id"] = extracted_df.index
     extracted_df = extracted_df.reset_index(drop=True)
 

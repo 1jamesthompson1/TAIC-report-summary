@@ -45,18 +45,22 @@ def test_classify_response(response, expected):
     assert response_category == expected
 
 
-@pytest.mark.parametrize(
-    "input",
-    [
-        pytest.param("tests/data/extracted_reports.pkl", id="from scratch"),
-        pytest.param(
-            "tests/data/response_classification_partly_classified.pkl",
-            id="some already classified",
+def test_classification_process(tmpdir):
+    for path_name in [
+        os.path.join(
+            pytest.output_config["folder_name"],
+            pytest.output_config["extracted_reports_df_file_name"],
         ),
-    ],
-)
-def test_classification_process(input):
-    output = "tests/data/response_classification_temp.pkl"
+        os.path.join(
+            pytest.output_config["folder_name"],
+            pytest.output_config["recommendation_response_classification_df_file_name"],
+        ),
+    ]:
+        output = tmpdir.join("response_classification_temp.pkl")
+        perform_test(path_name, output)
+
+
+def perform_test(input, output):
     RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(
         input, output, [2000, 2020]
     )

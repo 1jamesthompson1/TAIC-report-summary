@@ -136,10 +136,13 @@ class TestSearch:
         assert parsed_params["includeImportantText"][0] == "off"
 
 
-class TestSearcher:
-    searcher = Searching.SearchEngine("./tests/data/vector_db")
+@pytest.fixture(scope="session")
+def searcher():
+    return Searching.SearchEngine(pytest.config["viewer"]["db_uri"])
 
-    def test_search(self):
+
+class TestSearcher:
+    def test_search(self, searcher):
         search = Searching.Search(
             "hello",
             Searching.SearchSettings(
@@ -149,27 +152,27 @@ class TestSearcher:
                 0.1,
             ),
         )
-        result = self.searcher.search(search, with_rag=False)
+        result = searcher.search(search, with_rag=False)
 
         assert result
         assert result.getSummary() is None
         assert isinstance(result.getSearchDuration(), str)
         assert isinstance(result.getContext(), pd.DataFrame)
 
-    def test_search_with_summary(self):
+    def test_search_with_summary(self, searcher):
         search = Searching.Search(
             "pilot incapacity",
             Searching.SearchSettings(
                 Modes.all_modes, (2000, 2020), ["safety_issue", "recommendation"], 0.8
             ),
         )
-        result = self.searcher.search(search, with_rag=True)
+        result = searcher.search(search, with_rag=True)
 
         assert result
         assert isinstance(result.getSummary(), str)
         assert isinstance(result.getContext(), pd.DataFrame)
 
-    def test_filtered_search(self):
+    def test_filtered_search(self, searcher):
         search = Searching.Search(
             "pilot",
             Searching.SearchSettings(
@@ -179,7 +182,7 @@ class TestSearcher:
                 0.7,
             ),
         )
-        result = self.searcher.search(search, with_rag=False)
+        result = searcher.search(search, with_rag=False)
 
         assert result
         assert result.getSummary() is None
@@ -191,14 +194,14 @@ class TestSearcher:
 
         assert result.getContext()["mode"].isin([0, 1]).all()
 
-    def test_filtered_search_single_mode(self):
+    def test_filtered_search_single_mode(self, searcher):
         search = Searching.Search(
             "pilot",
             Searching.SearchSettings(
                 [Modes.Mode.a], (2010, 2015), ["safety_issue", "recommendation"], 0.5
             ),
         )
-        result = self.searcher.search(search, with_rag=False)
+        result = searcher.search(search, with_rag=False)
 
         assert result
         assert result.getSummary() is None
@@ -210,7 +213,7 @@ class TestSearcher:
 
         assert result.getContext()["mode"].isin([0]).all()
 
-    def test_filtered_search_no_query(self):
+    def test_filtered_search_no_query(self, searcher):
         search = Searching.Search(
             "",
             Searching.SearchSettings(
@@ -221,7 +224,7 @@ class TestSearcher:
             ),
         )
 
-        result = self.searcher.search(search, with_rag=False)
+        result = searcher.search(search, with_rag=False)
 
         assert result
         assert result.getSummary() is None
@@ -231,7 +234,7 @@ class TestSearcher:
 
         assert result.getContext()["mode"].isin([2, 1]).all()
 
-    def test_search_without_results(self):
+    def test_search_without_results(self, searcher):
         search = Searching.Search(
             "hello",
             Searching.SearchSettings(
@@ -241,7 +244,7 @@ class TestSearcher:
                 0.6,
             ),
         )
-        result = self.searcher.search(search, with_rag=False)
+        result = searcher.search(search, with_rag=False)
 
         assert result
         assert result.getSummary() is None

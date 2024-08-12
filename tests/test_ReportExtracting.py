@@ -1,5 +1,8 @@
 import os
 
+import pandas as pd
+import pytest
+
 from engine.extract.ReportExtracting import (
     ReportSectionExtractor,
     SafetyIssueExtractor,
@@ -238,11 +241,14 @@ joint SFAIRP assessment  between KiwiRail and the Council .
 
 class TestSectionExtraction:
     def __load_report_text(self, report_id):
-        with open(
-            os.path.join("tests", "data", "report_texts", f"{report_id}.txt"), "r"
-        ) as f:
-            report_text = f.read()
-        return report_text
+        extracted_reports = pd.read_pickle(
+            os.path.join(
+                pytest.output_config["folder_name"],
+                pytest.output_config["extracted_reports_df_file_name"],
+            )
+        )
+
+        return extracted_reports.loc[report_id]["text"]
 
     def __test_section_extraction(self, report_id, section):
         report_text = self.__load_report_text(report_id)
