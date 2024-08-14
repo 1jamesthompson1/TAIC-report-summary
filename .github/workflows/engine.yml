@@ -19,8 +19,8 @@ jobs:
                   python-version: '3.10'
             - name: Install dependencies
               run: |
-                pip install -r requirements.txt
                 pip install poetry
+                poetry install --witout dev
             - name: Run Engine
               run: poetry run engine -t all
               env:
