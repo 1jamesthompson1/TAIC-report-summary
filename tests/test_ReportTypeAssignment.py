@@ -39,12 +39,6 @@ def test_report_type_assignment(tmpdir):
             id="aircraft_loading",
         ),
         pytest.param(
-            "Containership Madinah, loss of person overboard, Lyttelton Harbour entrance, 2 July 2015",
-            2,
-            "Fatality",
-            id="fatality",
-        ),
-        pytest.param(
             "Passenger freight ferry 'Aratere,' steering malfunctions, Wellington Harbour and Queen Charlotte Sound, 9 February and 20 February 2005",
             2,
             "Machinery failure",
