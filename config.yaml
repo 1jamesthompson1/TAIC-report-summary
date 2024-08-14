@@ -6,6 +6,7 @@ engine:
     ignored_reports: ['2022_202', '2022_203']
   output:
     folder_name: "output"
+    container_name: "engineoutput"
     report_pdf_folder_name: "report_pdfs"
     report_pdf_file_name: "{{report_id}}.pdf"
     report_titles_df_file_name: "report_titles.pkl"

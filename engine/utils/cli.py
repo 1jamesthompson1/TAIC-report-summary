@@ -10,7 +10,18 @@ from ..analyze import (
 )
 from ..extract import ReportExtracting, ReportTypeAssignment
 from ..gather import DataGetting, PDFParser, WebsiteScraping
-from . import Config, Modes
+from . import Config, EngineOutputStorage, Modes
+
+
+def download(container, output_dir):
+    downloader = EngineOutputStorage.EngineOutputDownloader(
+        os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
+        os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
+        container,
+        output_dir,
+    )
+
+    downloader.download_latest_output()
 
 
 def gather(output_dir, config, modes, refresh):
@@ -168,6 +179,28 @@ def analyze(output_dir, config, refresh):
     )
 
 
+def upload(container_name, output_dir, output_config):
+    embeddings = list(output_config["embeddings"].values())[1:]
+    embedding_paths = [
+        os.path.join(
+            output_config["folder_name"],
+            output_config["embeddings"]["folder_name"],
+            file,
+        )
+        for file in embeddings
+    ]
+    uploader = EngineOutputStorage.EngineOutputUploader(
+        os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
+        os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
+        container_name,
+        output_dir,
+        os.environ["db_URI"],
+        *embedding_paths,
+    )
+
+    uploader.upload_latest_output()
+
+
 def cli():
     parser = argparse.ArgumentParser(
         description="A engine that will download, extract, and summarize PDFs from the marine accident investigation reports. More information can be found here: https://github.com/1jamesthompson1/TAIC-report-summary/"
@@ -187,9 +220,9 @@ def cli():
     parser.add_argument(
         "-t",
         "--run_type",
-        choices=["gather", "extract", "analyze", "all"],
+        choices=["download", "gather", "extract", "analyze", "upload", "all"],
         required=True,
-        help="This is the sort of actions you want to",
+        help="This is function that you want to run.",
     )
     parser.add_argument(
         "-m",
@@ -215,16 +248,30 @@ def cli():
         os.makedirs(output_path)
 
     match args.run_type:
+        case "download":
+            download(engine_settings.get("output").get("container_name"), output_path)
         case "gather":
             gather(output_path, engine_settings, modes, args.refresh)
         case "extract":
             extract(output_path, engine_settings, args.refresh)
         case "analyze":
             analyze(output_path, engine_settings, args.refresh)
+        case "upload":
+            upload(
+                engine_settings.get("output").get("container_name"),
+                output_path,
+                engine_settings.get("output"),
+            )
         case "all":
+            download(engine_settings.get("output").get("container_name"), output_path)
             gather(output_path, engine_settings, modes, args.refresh)
             extract(output_path, engine_settings, args.refresh)
             analyze(output_path, engine_settings, args.refresh)
+            upload(
+                engine_settings.get("output").get("container_name"),
+                output_path,
+                engine_settings.get("output"),
+            )
 
 
 if __name__ == "__main__":

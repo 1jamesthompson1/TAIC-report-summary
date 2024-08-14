@@ -56,4 +56,5 @@ def test_download_outputs(tmpdir):
 
     downloader.download_latest_output()
 
-    assert len(os.listdir(tmpdir.strpath)) == 4
+    downloaded_files = [len(f[2]) for f in os.walk(tmpdir.strpath)]
+    assert sum(downloaded_files) == 8
