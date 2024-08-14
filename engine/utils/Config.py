@@ -1,3 +1,5 @@
+import os
+
 import yaml
 
 
@@ -5,10 +7,16 @@ class ConfigFile:
     def __init__(self, file_path="config.yaml"):
         self._file_path = file_path
 
+        if not self._file_exists():
+            raise ValueError(f"{file_path} does not exist")
+
+    def _file_exists(self) -> bool:
+        return os.path.exists(self._file_path)
+
 
 class ConfigReader(ConfigFile):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, file_path="config.yaml"):
+        super().__init__(file_path)
         self._config = self._read_config()
 
     def _read_config(self) -> dict:

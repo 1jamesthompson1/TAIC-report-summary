@@ -96,6 +96,12 @@ Grounding
 Extract event category from "Cessna 152 ZK-ETY and Robinson R22 ZK-HGV, mid-air collision, Paraparaumu, 17 February 2008":
 Collision
 
+Extract event category from "f.v. Pacific Challenger, crewmember missing, off Waimarama coast, 1 April 2024":
+Missing assumed lost
+
+Extract event category from "Stern trawler Pantas No.1, fatality while working cargo, No.5 berth, Island Harbour, Bluff, 22 April 2009":
+Fatality
+
 Extract event category from "{report_title}":
 
 Here are the possible event types:

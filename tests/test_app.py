@@ -8,8 +8,6 @@ import pytest
 
 import viewer.app as app
 
-os.environ["db_URI"] = "./tests/data/vector_db"
-
 
 @pytest.fixture
 def client():
@@ -20,6 +18,7 @@ def client():
 
     app.auth = MockAuth()
 
+    os.environ["db_URI"] = pytest.config["viewer"]["db_uri"]
     with app.app.test_client() as c:
         yield c
 

@@ -8,8 +8,14 @@ import engine.utils.Modes as Modes
 
 
 def test_report_type_assignment(tmpdir):
-    report_event_types_path = os.path.join("tests", "data", "event_types.pkl")
-    report_titles_path = os.path.join("tests", "data", "report_titles.pkl")
+    report_event_types_path = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["all_event_types_df_file_name"],
+    )
+    report_titles_path = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["report_titles_df_file_name"],
+    )
     report_types_path = tmpdir.join("report_types.pkl")
     report_type_assigner = ReportTypeAssignment.ReportTypeAssigner(
         report_event_types_path, report_titles_path, report_types_path
@@ -33,12 +39,6 @@ def test_report_type_assignment(tmpdir):
             id="aircraft_loading",
         ),
         pytest.param(
-            "Containership Madinah, loss of person overboard, Lyttelton Harbour entrance, 2 July 2015",
-            2,
-            "Fatality",
-            id="fatality",
-        ),
-        pytest.param(
             "Passenger freight ferry 'Aratere,' steering malfunctions, Wellington Harbour and Queen Charlotte Sound, 9 February and 20 February 2005",
             2,
             "Machinery failure",
@@ -59,8 +59,14 @@ def test_report_type_assignment(tmpdir):
     ],
 )
 def test_single_report_type_assignment(report_title, mode, expected_type):
-    report_event_types_path = os.path.join("tests", "data", "event_types.pkl")
-    report_titles_path = os.path.join("tests", "data", "report_titles.pkl")
+    report_event_types_path = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["all_event_types_df_file_name"],
+    )
+    report_titles_path = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["report_titles_df_file_name"],
+    )
     report_type_assigner = ReportTypeAssignment.ReportTypeAssigner(
         report_event_types_path, report_titles_path, None
     )

@@ -5,11 +5,9 @@ engine:
     start_year: 2000
     ignored_reports: ['2022_202', '2022_203']
   output:
-    folder_name: "output"
-    container_name: "engineoutput"
+    folder_name: "tests/data/output"
     report_pdf_folder_name: "report_pdfs"
     report_pdf_file_name: "{{report_id}}.pdf"
-    report_titles_df_file_name: "report_titles.pkl"
     parsed_reports_df_file_name: "parsed_reports.pkl"
     recommendations_df_file_name: "recommendations.pkl"
     all_event_types_df_file_name: "all_event_types.pkl"
@@ -20,13 +18,15 @@ engine:
     safety_issues_df_file_name: "safety_issues.pkl"
     extracted_reports_df_file_name: "extracted_reports.pkl"
     recommendation_safety_issue_links_df_file_name: "recommendation_safety_issue_links.pkl"
-    recommendation_response_classification_df_file_name: "recommendation_response_classification.pkl"
+    recommendation_response_classification_df_file_name: "response_classification_partly_classified.pkl"
     embeddings:
       folder_name: "embeddings"
       safety_issues_file_name: "safety_issues_embeddings.pkl"
       recommendations_file_name: "recommendations_embeddings.pkl"
       report_sections_file_name: "report_sections_embeddings.pkl"
       important_text_file_name: "important_text_embeddings.pkl"
+    storage:
+      container: "testengineoutput"
   data:
     data_remote_folder_location: "https://raw.githubusercontent.com/1jamesthompson1/TAIC-report-summary/main/data/"
     data_local_folder_location: "data"
@@ -34,4 +34,5 @@ engine:
     event_types_file_name: "event_types.csv"
   validation:
     folder_name: "validation"
-    
+viewer:
+  db_uri: "./tests/data/vector_db"   

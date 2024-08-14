@@ -1,6 +1,5 @@
 output/
-!viewer/output
-viewer/output/*/*.pdf
+!tests/data/*
 __pycache__
 python/.env
 .env
@@ -19,3 +18,4 @@ notebooks/*/*
 
 !.gitignore
 .vscode/settings.json
+flask_session
