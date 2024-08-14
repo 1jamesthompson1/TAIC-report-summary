@@ -110,6 +110,15 @@ class ReportScraping:
         self.report_titles_df.to_pickle(self.report_titles_file_path)
 
     def collect_report(self, report_id, url, pbar=None):
+        file_name = os.path.join(
+            self.report_dir,
+            self.file_name_template.replace(r"{{report_id}}", report_id),
+        )
+
+        if not self.refresh and os.path.exists(file_name):
+            if pbar:
+                pbar.set_description(f"  {file_name} already exists, skipping download")
+            return True
         webpage = requests.get(url)
 
         soup = BeautifulSoup(webpage.content, "html.parser")
@@ -117,7 +126,7 @@ class ReportScraping:
         if soup.find("h1", text="Page not found"):
             return "End of reports for this year"
 
-        outcome = self.download_report(report_id, soup, pbar)
+        outcome = self.download_report(report_id, file_name, soup, pbar)
         if not outcome:
             return False
 
@@ -136,17 +145,9 @@ class ReportScraping:
 
         pass
 
-    def download_report(self, report_id: str, soup: BeautifulSoup, pbar=None):
-        file_name = os.path.join(
-            self.report_dir,
-            self.file_name_template.replace(r"{{report_id}}", report_id),
-        )
-
-        if not self.refresh and os.path.exists(file_name):
-            if pbar:
-                pbar.set_description(f"  {file_name} already exists, skipping download")
-            return True
-
+    def download_report(
+        self, report_id: str, file_name: str, soup: BeautifulSoup, pbar=None
+    ):
         # Find all the links that end with .pdf and download them
 
         pdf_links = [
