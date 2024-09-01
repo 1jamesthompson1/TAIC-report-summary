@@ -54,15 +54,11 @@ resultslogs = client.create_table_if_not_exists(table_name="resultslogs")
 errorlogs = client.create_table_if_not_exists(table_name="errorlogs")
 
 
-def get_searcher():
-    return Searching.SearchEngine(os.environ["db_URI"])
+searcher = Searching.SearchEngine(os.environ["db_URI"])
 
-
-data_last_updated_date = (
-    get_searcher()
-    .all_document_types_table.list_versions()[-1]["timestamp"]
-    .strftime("%Y-%m-%d")
-)
+data_last_updated_date = searcher.all_document_types_table.list_versions()[-1][
+    "timestamp"
+].strftime("%Y-%m-%d")
 
 
 def log_search(search):
@@ -279,7 +275,7 @@ def search_reports(task_id, form_data):
     try:
         search = get_search(form_data)
         log_search(search)
-        results = get_searcher().search(search)
+        results = searcher.search(search)
         tasks_results[task_id] = format_search_results(results)
         log_search_results(results)
         tasks_status[task_id] = "completed"
