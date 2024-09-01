@@ -79,3 +79,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.deptry]
 ignore = ["DEP004"]
+
+[tool.ruff]
+extend-exclude = ["*.ipynb"]
