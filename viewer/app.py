@@ -54,6 +54,17 @@ resultslogs = client.create_table_if_not_exists(table_name="resultslogs")
 errorlogs = client.create_table_if_not_exists(table_name="errorlogs")
 
 
+def get_searcher():
+    return Searching.SearchEngine(os.environ["db_URI"])
+
+
+data_last_updated_date = (
+    get_searcher()
+    .all_document_types_table.list_versions()[-1]["timestamp"]
+    .strftime("%Y-%m-%d")
+)
+
+
 def log_search(search):
     if searchlogs:
         search_log = {
@@ -119,6 +130,7 @@ def login():
             ),  # Optional. If present, this absolute URL must match your app's redirect_uri registered in Microsoft Entra admin center
             prompt="select_account",  # Optional.
         ),
+        data_last_updated_date=data_last_updated_date,
     )
 
 
@@ -126,7 +138,12 @@ def login():
 def auth_response():
     result = auth.complete_log_in(request.args)
     if "error" in result:
-        return render_template("auth_error.html", result=result, version=__version__)
+        return render_template(
+            "auth_error.html",
+            result=result,
+            version=__version__,
+            data_last_updated_date=data_last_updated_date,
+        )
     return redirect(url_for("index"))
 
 
@@ -139,7 +156,12 @@ def logout():
 def index():
     if not auth.get_user():
         return redirect(url_for("login"))
-    return render_template("index.html", user=auth.get_user(), version=__version__)
+    return render_template(
+        "index.html",
+        user=auth.get_user(),
+        version=__version__,
+        data_last_updated_date=data_last_updated_date,
+    )
 
 
 @app.route("/feedback")
@@ -151,6 +173,7 @@ def feedback():
         user=auth.get_user(),
         version=__version__,
         feedback_form_loaded=True,
+        data_last_updated_date=data_last_updated_date,
     )
 
 
@@ -165,10 +188,6 @@ def task_status(task_id):
     if status == "completed":
         session["search_results"] = result
     return jsonify({"task_id": task_id, "status": status, "result": result})
-
-
-def get_searcher():
-    return Searching.SearchEngine(os.environ["db_URI"])
 
 
 def get_search(form) -> Searching.Search:
