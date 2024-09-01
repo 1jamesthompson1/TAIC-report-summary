@@ -34,5 +34,3 @@ engine:
     event_types_file_name: "event_types.csv"
   validation:
     folder_name: "validation"
-viewer:
-  db_uri: "./tests/data/vector_db"   

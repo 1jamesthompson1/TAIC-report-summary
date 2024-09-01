@@ -1,5 +1,4 @@
 import json
-import os
 import time
 from io import StringIO
 
@@ -18,7 +17,6 @@ def client():
 
     app.auth = MockAuth()
 
-    os.environ["db_URI"] = pytest.config["viewer"]["db_uri"]
     with app.app.test_client() as c:
         yield c
 

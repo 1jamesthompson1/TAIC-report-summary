@@ -44,7 +44,7 @@
             <h5>Version: {{ version }}</h5>
         </div>
         <div id="sesstionInfo">
-            <p>Data last updated: 2024-07-01</p>
+            <p>Data last updated: {{ data_last_updated_date }}</p>
             {% if user %}
             <p>Logged in user: {{ user.get("name") }}</p>
             <p><a href="/logout">Logout</a></p>

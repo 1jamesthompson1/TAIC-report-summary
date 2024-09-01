@@ -1,3 +1,4 @@
+import os
 import urllib.parse
 
 import pandas as pd
@@ -138,7 +139,7 @@ class TestSearch:
 
 @pytest.fixture(scope="session")
 def searcher():
-    return Searching.SearchEngine(pytest.config["viewer"]["db_uri"])
+    return Searching.SearchEngine(os.environ["db_URI"])
 
 
 class TestSearcher:
