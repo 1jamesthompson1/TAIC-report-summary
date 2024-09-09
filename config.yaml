@@ -4,6 +4,8 @@ engine:
     max_per_year: 100
     start_year: 2000
     ignored_reports: ['2022_202', '2022_203']
+    modes: ['a', 'r', 'm']
+    agencies: ['ATSB']
   output:
     folder_name: "output"
     container_name: "engineoutput"

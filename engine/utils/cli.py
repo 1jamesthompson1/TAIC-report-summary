@@ -24,22 +24,27 @@ def download(container, output_dir):
     downloader.download_latest_output()
 
 
-def gather(output_dir, config, modes, refresh):
+def gather(output_dir, config, refresh):
     output_config = config.get("output")
     download_config = config.get("download")
 
     # Download the PDFs
-    WebsiteScraping.ReportScraping(
+    report_scraping_settings = WebsiteScraping.ReportScraperSettings(
         os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         output_config.get("report_pdf_file_name"),
         download_config.get("start_year"),
         download_config.get("end_year"),
         download_config.get("max_per_year"),
-        modes,
+        [Modes.Mode[mode] for mode in download_config.get("modes")],
         download_config.get("ignored_reports"),
         refresh,
-    ).collect_all()
+    )
+
+    for agency in download_config.get("agencies"):
+        WebsiteScraping.get_agency_scraper(
+            agency, report_scraping_settings
+        ).collect_all()
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(
@@ -224,18 +229,8 @@ def cli():
         required=True,
         help="This is function that you want to run.",
     )
-    parser.add_argument(
-        "-m",
-        "--modes",
-        choices=["a", "r", "m"],
-        nargs="+",
-        help="The modes of the reports to be processed. a for aviation, r for rail, m for marine. Defaults to all.",
-        default=["a", "r", "m"],
-    )
 
     args = parser.parse_args()
-
-    modes = [Modes.Mode[arg] for arg in args.modes]
 
     # Get the config settings for the engine.
     engine_settings = Config.configReader.get_config()["engine"]
@@ -251,7 +246,7 @@ def cli():
         case "download":
             download(engine_settings.get("output").get("container_name"), output_path)
         case "gather":
-            gather(output_path, engine_settings, modes, args.refresh)
+            gather(output_path, engine_settings, args.refresh)
         case "extract":
             extract(output_path, engine_settings, args.refresh)
         case "analyze":
@@ -264,7 +259,7 @@ def cli():
             )
         case "all":
             download(engine_settings.get("output").get("container_name"), output_path)
-            gather(output_path, engine_settings, modes, args.refresh)
+            gather(output_path, engine_settings, args.refresh)
             extract(output_path, engine_settings, args.refresh)
             analyze(output_path, engine_settings, args.refresh)
             upload(

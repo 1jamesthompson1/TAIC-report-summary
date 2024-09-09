@@ -8,12 +8,7 @@ from tqdm import tqdm
 from ..utils import Modes
 
 
-class ReportScraping:
-    """
-    Class that will take the output templates and download all the reports from the TAIC website
-    These reports can be found manually by going to https://www.taic.org.nz/inquiries
-    """
-
+class ReportScraperSettings:
     def __init__(
         self,
         report_dir,
@@ -32,11 +27,27 @@ class ReportScraping:
         self.start_year = start_year
         self.end_year = end_year
         self.max_per_year = max_per_year
-        self.modes = modes
         self.refresh = refresh
+        self.modes = modes
         self.ignored_report_ids = ignored_report_ids
-        if os.path.exists(self.report_titles_file_path):
-            self.report_titles_df = pd.read_pickle(self.report_titles_file_path)
+        self.agency = "Undefined"
+
+
+class ReportScraper:
+    """
+    Class that will take the output templates and download all the reports from the TAIC website
+    These reports can be found manually by going to https://www.taic.org.nz/inquiries
+    """
+
+    def __init__(
+        self,
+        settings: ReportScraperSettings,
+    ):
+        self.settings = settings
+        if os.path.exists(self.settings.report_titles_file_path):
+            self.report_titles_df = pd.read_pickle(
+                self.settings.report_titles_file_path
+            )
         else:
             self.report_titles_df = pd.DataFrame(columns=["report_id", "title"])
 
@@ -56,25 +67,32 @@ class ReportScraping:
         print(
             "=============================================================================================================================\n"
         )
-        print(f"  Output directory: {self.report_dir}")
-        print(f"  File name template: {self.file_name_template}")
-        print(f"  Start year: {self.start_year},  End year: {self.end_year}")
-        print(f"  Max reports per year: {self.max_per_year}")
-        print(f"  Modes: {self.modes}")
-        print(f"  Ignoring report ids: {self.ignored_report_ids}")
+        print(f"  Output directory: {self.settings.report_dir}")
+        print(f"  File name template: {self.settings.file_name_template}")
+        print(
+            f"  Start year: {self.settings.start_year},  End year: {self.settings.end_year}"
+        )
+        print(f"  Max reports per year: {self.settings.max_per_year}")
+        print(f"  Modes: {self.settings.modes}")
+        print(f"  Ignoring report ids: {self.settings.ignored_report_ids}")
 
         # Create a folder to store the downloaded PDFs
-        if not os.path.exists(self.report_dir):
-            os.makedirs(self.report_dir)
+        if not os.path.exists(self.settings.report_dir):
+            os.makedirs(self.settings.report_dir)
 
         # Loop through each mode
-        for mode in self.modes:
+        for mode in self.settings.modes:
             self.collect_mode(mode)
+
+    def get_url_from_template(self, mode, year, num):
+        raise NotImplementedError
 
     def collect_mode(self, mode):
         print(f"======== Downloading reports for mode: {mode.name}==========")
 
-        year_range = [year for year in range(self.start_year, self.end_year + 1)]
+        year_range = [
+            year for year in range(self.settings.start_year, self.settings.end_year + 1)
+        ]
 
         for year in (pbar := tqdm(year_range)):
             pbar.set_description(
@@ -88,13 +106,12 @@ class ReportScraping:
         mode_id_base = mode.value * 100 + 1
         id_range = ["{0:03d}".format(i) for i in range(mode_id_base, mode_id_base + 99)]
 
-        base_url = "https://www.taic.org.nz/inquiry/{}o-{}-{}"
         number_for_year = 0
         for i in (inner_pbar := tqdm(id_range)):
-            url = base_url.format(mode.name, year, i)
-            report_id = f"{year}_{i}"
+            url = self.get_url_from_template(mode.name, year, i)
+            report_id = f"{self.agency}_{mode.name}_{year}_{i}"
 
-            if report_id in self.ignored_report_ids:
+            if report_id in self.settings.ignored_report_ids:
                 continue
 
             outcome = self.collect_report(report_id, url, inner_pbar)
@@ -104,18 +121,18 @@ class ReportScraping:
             elif outcome:
                 number_for_year += 1
 
-            if number_for_year >= self.max_per_year:
+            if number_for_year >= self.settings.max_per_year:
                 break
 
-        self.report_titles_df.to_pickle(self.report_titles_file_path)
+        self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
 
     def collect_report(self, report_id, url, pbar=None):
         file_name = os.path.join(
-            self.report_dir,
-            self.file_name_template.replace(r"{{report_id}}", report_id),
+            self.settings.report_dir,
+            self.settings.file_name_template.replace(r"{{report_id}}", report_id),
         )
 
-        if not self.refresh and os.path.exists(file_name):
+        if not self.settings.refresh and os.path.exists(file_name):
             if pbar:
                 pbar.set_description(f"  {file_name} already exists, skipping download")
             return True
@@ -193,3 +210,19 @@ class ReportScraping:
             return False
 
         return True
+
+
+class TAICReportScraper(ReportScraper):
+    def __init__(self, settings: ReportScraperSettings):
+        super().__init__(settings)
+        self.agency = "TAIC"
+
+    def get_url_from_template(self, mode, year, num):
+        return f"https://www.taic.org.nz/inquiry/{mode}o-{year}-{num}"
+
+
+def get_agency_scraper(agency: str, settings: ReportScraperSettings) -> ReportScraper:
+    if agency == "TAIC":
+        return TAICReportScraper(settings)
+    else:
+        raise ValueError(f"Unknown agency: {agency}")
