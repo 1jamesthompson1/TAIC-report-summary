@@ -1,3 +1,4 @@
+import itertools
 import os
 
 import pandas as pd
@@ -94,3 +95,34 @@ def test_collect_all(tmpdir):
     report_titles = pd.read_pickle(report_titles)
 
     assert len(report_titles) == 11
+
+
+@pytest.mark.parametrize(
+    "agency, expected_urls",
+    [
+        pytest.param("TSB", [54, 1, 1, 1, 1, 1, 1, 1, 1], id="TSB"),
+        pytest.param("TAIC", [13, 1, 1, 1, 1, 1, 1, 1, 1], id="TAIC"),
+    ],
+)
+def test_agency_website_scraper(report_scraping_settings, agency, expected_urls):
+    scraper = WebsiteScraping.get_agency_scraper(agency, report_scraping_settings)
+
+    assert scraper
+
+    assert scraper.agency == agency
+
+    assert isinstance(scraper.agency_reports, pd.DataFrame)
+
+    print(scraper.agency_reports)
+
+    for (mode, year), expected_len in zip(
+        itertools.product(
+            [Modes.Mode.a, Modes.Mode.r, Modes.Mode.m], [2005, 2013, 2020]
+        ),
+        expected_urls,
+    ):
+        urls = scraper.get_report_urls(mode, year)
+
+        print(urls)
+
+        assert len(urls) == expected_len

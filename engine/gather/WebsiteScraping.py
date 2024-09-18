@@ -1,4 +1,5 @@
 import os
+import re
 from urllib.parse import urljoin, urlparse
 
 import pandas as pd
@@ -126,9 +127,7 @@ class ReportScraper:
 
             outcome = self.collect_report(report_id, url, inner_pbar)
 
-            if outcome == "End of reports for this year":
-                break
-            elif outcome:
+            if outcome:
                 number_for_year += 1
 
             if number_for_year >= self.settings.max_per_year:
@@ -165,9 +164,6 @@ class ReportScraper:
             return False
         elif webpage.status_code == 404:
             return False
-
-        if soup.find("h1", text="Page not found"):
-            return "End of reports for this year"
 
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
@@ -247,7 +243,9 @@ class ReportScraper:
 
         return True
 
-    def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
+    def get_report_metadata(
+        self, report_id: str, soup: BeautifulSoup, pbar=None
+    ) -> tuple[str, str, str]:
         raise NotImplementedError
 
     def __add_report_metadata_to_df(self, report_id: str, title: str, event_type: str):
@@ -264,14 +262,53 @@ class TAICReportScraper(ReportScraper):
         super().__init__(settings)
         self.agency = "TAIC"
 
+        self.agency_reports = self.__get_taic_investigations()
+
+    def __get_taic_investigations(self):
+        """TAICs websits provides an investigation table than can be easily read by pandas read_html"""
+        pages = []
+        page_num = 0
+        while True:
+            try:
+                pages.append(
+                    pd.read_html(
+                        requests.get(
+                            f"https://www.taic.org.nz/inquiries?page={page_num}",
+                            headers=self.headers,
+                        ).content,
+                        flavor="lxml",
+                    )[0]
+                )
+                page_num += 1
+            except ValueError:
+                break
+
+        investigations = pd.concat(pages, ignore_index=True)
+
+        investigations.set_index(
+            investigations["Number and name"].map(lambda x: Modes.Mode[x[0].lower()]),
+            inplace=True,
+        )
+
+        investigations["year"] = investigations["Occurrence Date  Sort ascending"].map(
+            lambda x: int(x[-4:])
+        )
+
+        investigations["id"] = investigations["Number and name"].map(
+            lambda x: re.search(r"(?:[MAR]O-\d{4}-)\d{3}", x).group(0)
+        )
+
+        return investigations[["id", "year", "Status"]]
+
     def get_report_urls(self, mode, year):
-        taic_ids = [f"{mode.value}{num:02}" for num in range(100)]
         return [
             (
                 self.get_report_id(mode, year, taic_id),
                 f"https://www.taic.org.nz/inquiry/{mode.name}o-{year}-{taic_id}",
             )
-            for taic_id in taic_ids
+            for taic_id in self.agency_reports.loc[mode]
+            .query(f"year == {year} & Status == 'Closed'")["id"]
+            .to_list()
         ]
 
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
@@ -301,48 +338,79 @@ class TSBReportScraper(ReportScraper):
         super().__init__(settings)
         self.agency = "TSB"
 
-    def __get_tsb_mode_letters(self, mode):
-        match mode:
-            case Modes.Mode.a:
-                return ["A", "W", "O", "C", "P", "Q"]
+        self.agency_reports = self.__get_tsb_investigations()
 
-            case Modes.Mode.r:
-                return ["H", "T", "W", "C", "D", "V", "M", "E", "S", "Q", "H"]
+    def __get_tsb_investigations(self):
+        """
+        The TSB is very well setup and works friendly with the pandas read_html. Therefore I can just read all of the investigation tables from the TSB website and then have the exact IDs I need.
+        """
+        modes = ["aviation", "rail", "marine"]
 
-            case Modes.Mode.m:
-                return ["C", "A", "P", "F", "M", "H", "L", "W", "N"]
-
-    def get_report_urls(self, mode, year):
-        yy_year = year % 100
-        tsb_id = [
-            f"{mode.name}{yy_year}{letter}{num:04}"
-            for letter in self.__get_tsb_mode_letters(mode)
-            for num in range(500)
+        modes_df = [
+            pd.read_html(
+                requests.get(
+                    f"https://www.tsb.gc.ca/eng/rapports-reports/{mode}/index.html",
+                    headers=self.headers,
+                ).content
+            )[0]
+            for mode in modes
         ]
 
+        # Add dataframes togatehr with extra column identifier
+
+        merged_modes_df = pd.concat(
+            modes_df, keys=[Modes.Mode.a, Modes.Mode.r, Modes.Mode.m]
+        )
+
+        merged_modes_df["Occurrence date"] = pd.to_datetime(
+            merged_modes_df["Occurrence date"], format="%Y-%m-%d", errors="coerce"
+        )
+
+        merged_modes_df["year"] = merged_modes_df["Occurrence date"].dt.year
+
+        return merged_modes_df
+
+    def get_report_urls(self, mode, year):
         return [
             (
                 self.get_report_id(mode, year, tsb_id[-5:]),
                 f"https://www.tsb.gc.ca/eng/rapports-reports/{Modes.Mode.as_string(mode)}/{year}/{tsb_id}/{tsb_id}.html".lower(),
             )
-            for tsb_id in tsb_id
+            for tsb_id in self.agency_reports.loc[mode]
+            .query(f"year == {year} & `Investigation status` == 'Completed'")[
+                "Investigation number"
+            ]
+            .to_list()
         ]
 
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
         title_block = soup.find("div", class_="field--name-field-occurrence")
-
-        event_type = title_block.find("strong").text
+        if title_block is None:
+            return report_id, None, None
+        else:
+            event_type = title_block.find("strong")
+            if event_type:
+                event_type = event_type.text
 
         legacy_text_div = title_block.find(
             "div", class_="field--name-field-occurrence-legacy-text"
         )
-        paragraph = legacy_text_div.find("p")
-        paragraph_text = [text for text in paragraph.stripped_strings]
-        date_text = (
-            title_block.find("div", class_="field--name-field-occurrence-date")
-            .find("time")
-            .text
-        )
+        paragraph_text = []
+        if legacy_text_div:
+            # Handle case where <p> tag is present
+            paragraph = legacy_text_div.find("p")
+            if paragraph:
+                paragraph_text = [text for text in paragraph.stripped_strings]
+            else:
+                # Handle case where <p> tag is not present
+                paragraph_text = [text for text in legacy_text_div.stripped_strings]
+
+        date_div = title_block.find("div", class_="field--name-field-occurrence-date")
+        date_text = ""
+        if date_div:
+            time_tag = date_div.find("time")
+            if time_tag:
+                date_text = time_tag.text
 
         all_text = ", ".join(paragraph_text + [date_text])
 

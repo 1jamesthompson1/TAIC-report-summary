@@ -2,10 +2,10 @@ engine:
   download:
     end_year: 2024
     max_per_year: 100
-    start_year: 2020
+    start_year: 2002
     ignored_reports: ['2022_202', '2022_203']
-    modes: [ 'm']
-  agencies: ['TSB']
+    modes: ['a', 'r','m']
+    agencies: ['TSB', 'TAIC']
   output:
     folder_name: "output"
     container_name: "engineoutput"
