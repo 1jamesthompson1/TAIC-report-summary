@@ -52,7 +52,7 @@ class DataGetter:
 
         widened_df.to_pickle(output_file_name)
 
-    def get_event_types(self, data_location, output_file_name):
+    def get_generic_data(self, data_location, output_file_name):
         """
         Gets the data from a datasource and stores it in the output file location.
         The output location is expected to be in the output folder

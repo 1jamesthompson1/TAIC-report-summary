@@ -14,13 +14,32 @@ def report_scraping_settings(tmpdir):
         os.path.join(tmpdir, "report_folder"),
         os.path.join(tmpdir, "report_titles_df.pkl"),
         "{{report_id}}.pdf",
-        2010,
+        2000,
         2020,
         1,
         [Modes.Mode.a],
         [],
         False,
     )
+
+
+def get_agency_scraper(
+    agency: str, settings: WebsiteScraping.ReportScraperSettings
+) -> WebsiteScraping.ReportScraper:
+    if agency == "TAIC":
+        return WebsiteScraping.TAICReportScraper(settings)
+    elif agency == "ATSB":
+        return WebsiteScraping.ATSBReportScraper(
+            settings,
+            os.path.join(
+                pytest.output_config.get("folder_name"),
+                pytest.output_config.get("atsb_historic_aviation_df_file_name"),
+            ),
+        )
+    elif agency == "TSB":
+        return WebsiteScraping.TSBReportScraper(settings)
+    else:
+        raise ValueError(f"Unknown agency: {agency}")
 
 
 @pytest.mark.parametrize(
@@ -102,10 +121,11 @@ def test_collect_all(tmpdir):
     [
         pytest.param("TSB", [54, 1, 1, 1, 1, 1, 1, 1, 1], id="TSB"),
         pytest.param("TAIC", [13, 1, 1, 1, 1, 1, 1, 1, 1], id="TAIC"),
+        pytest.param("ATSB", [1, 1, 1, 1, 1, 1, 1, 1, 1], id="ATSB"),
     ],
 )
 def test_agency_website_scraper(report_scraping_settings, agency, expected_urls):
-    scraper = WebsiteScraping.get_agency_scraper(agency, report_scraping_settings)
+    scraper = get_agency_scraper(agency, report_scraping_settings)
 
     assert scraper
 
@@ -113,8 +133,7 @@ def test_agency_website_scraper(report_scraping_settings, agency, expected_urls)
 
     assert isinstance(scraper.agency_reports, pd.DataFrame)
 
-    print(scraper.agency_reports)
-
+    errors = []
     for (mode, year), expected_len in zip(
         itertools.product(
             [Modes.Mode.a, Modes.Mode.r, Modes.Mode.m], [2005, 2013, 2020]
@@ -123,6 +142,10 @@ def test_agency_website_scraper(report_scraping_settings, agency, expected_urls)
     ):
         urls = scraper.get_report_urls(mode, year)
 
-        print(urls)
+        try:
+            assert len(urls) == expected_len
+        except AssertionError:
+            errors.append(f"{agency} {mode} {year}: {len(urls)} != {expected_len}")
 
-        assert len(urls) == expected_len
+    if errors:
+        pytest.fail("\n" + "\n".join(errors))

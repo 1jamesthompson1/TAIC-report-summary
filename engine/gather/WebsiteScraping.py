@@ -2,8 +2,9 @@ import os
 import re
 from urllib.parse import urljoin, urlparse
 
+import hrequests
+import hrequests.exceptions
 import pandas as pd
-import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
@@ -94,7 +95,7 @@ class ReportScraper:
         for mode in self.settings.modes:
             self.collect_mode(mode)
 
-    def get_report_urls(self, mode: str, year: int) -> list[tuple[str, str]]:
+    def get_report_urls(self, mode: Modes.Mode, year: int) -> list[tuple[str, str]]:
         """
         Retrieves all the potential report urls and ids for a given mode and year
         """
@@ -149,8 +150,8 @@ class ReportScraper:
             return True
 
         try:
-            webpage = requests.get(url, headers=self.headers, timeout=10)
-        except requests.exceptions.Timeout:
+            webpage = hrequests.get(url, headers=self.headers, timeout=10)
+        except hrequests.exceptions.BrowserTimeoutException:
             if pbar:
                 pbar.write(f"  Failed to collect {url}, timeout error")
             return False
@@ -229,13 +230,13 @@ class ReportScraper:
         try:
             with open(file_name, "wb") as f:
                 f.write(
-                    requests.get(
+                    hrequests.get(
                         link, allow_redirects=True, headers=self.headers, timeout=10
                     ).content
                 )
                 if pbar:
                     pbar.set_description(f"  Downloaded {file_name}")
-        except requests.ReadTimeout:
+        except hrequests.exceptions.BrowserTimeoutException:
             os.remove(file_name)
             if pbar:
                 pbar.write(f"  {file_name} timed out")
@@ -265,14 +266,14 @@ class TAICReportScraper(ReportScraper):
         self.agency_reports = self.__get_taic_investigations()
 
     def __get_taic_investigations(self):
-        """TAICs websits provides an investigation table than can be easily read by pandas read_html"""
+        """TAICs websites provides an investigation table than can be easily read by pandas read_html"""
         pages = []
         page_num = 0
         while True:
             try:
                 pages.append(
                     pd.read_html(
-                        requests.get(
+                        hrequests.get(
                             f"https://www.taic.org.nz/inquiries?page={page_num}",
                             headers=self.headers,
                         ).content,
@@ -303,8 +304,8 @@ class TAICReportScraper(ReportScraper):
     def get_report_urls(self, mode, year):
         return [
             (
-                self.get_report_id(mode, year, taic_id),
-                f"https://www.taic.org.nz/inquiry/{mode.name}o-{year}-{taic_id}",
+                self.get_report_id(mode, year, taic_id[-3:]),
+                f"https://www.taic.org.nz/inquiry/{taic_id}",
             )
             for taic_id in self.agency_reports.loc[mode]
             .query(f"year == {year} & Status == 'Closed'")["id"]
@@ -318,18 +319,107 @@ class TAICReportScraper(ReportScraper):
 
 
 class ATSBReportScraper(ReportScraper):
-    def __init__(self, settings: ReportScraperSettings):
+    def __init__(
+        self,
+        settings: ReportScraperSettings,
+        historic_aviation_investigations_path=None,
+    ):
         super().__init__(settings)
         self.agency = "ATSB"
+        self.agency_reports = self.__get_atsb_investigations(
+            historic_aviation_investigations_path
+        )
+
+    def __get_atsb_investigations(self, historic_aviation_investigations_path=None):
+        """ATSBs websites provides an investigation table than can be easily read by pandas read_html. The only catch is that the aviation goes all the way back to 1960s and so only the first few pages of the aviation table is scraped. It will then be combined with a complete scrape of the table to find the new ids."""
+        if historic_aviation_investigations_path is None:
+            historic_aviation_investigations = pd.DataFrame(
+                columns=[
+                    "Investigation title",
+                    "Investigation number",
+                    "Occurrence date",
+                    "Report status",
+                    "Report release",
+                ]
+            )
+        else:
+            historic_aviation_investigations = pd.read_pickle(
+                historic_aviation_investigations_path
+            )
+
+        dfs = []
+        for mode in ["aviation", "rail", "marine"]:
+            pages = []
+            page_num = 0
+            while True:
+                try:
+                    page = hrequests.get(
+                        f"https://www.atsb.gov.au/{mode}-investigation-reports?page={page_num}"
+                    ).content
+
+                    page_df = pd.read_html(
+                        page,
+                        flavor="lxml",
+                    )[0]
+
+                    if mode == "aviation":
+                        # Check if any investigation number match.
+                        new_investigations = page_df[
+                            ~page_df["Investigation number"].isin(
+                                historic_aviation_investigations["Investigation number"]
+                            )
+                        ]
+                        if len(new_investigations) == 0:
+                            break
+                        else:
+                            pages.append(new_investigations)
+                    else:
+                        pages.append(page_df)
+
+                    page_num += 1
+                except (ValueError, TypeError) as e:
+                    print(f"Failed to scrape {mode} page {page_num}: {e}")
+                    print(f"Assuming end of {mode} reports")
+                    break
+
+            mode_investigations = pd.concat(
+                pages
+                + ([historic_aviation_investigations] if mode == "aviation" else []),
+                ignore_index=True,
+            )
+
+            dfs.append(mode_investigations)
+
+        df = pd.concat(dfs, axis=0, keys=[Modes.Mode.a, Modes.Mode.r, Modes.Mode.m])
+
+        df["year"] = pd.to_datetime(
+            df["Occurrence date"], format="%d/%m/%Y", errors="coerce"
+        ).dt.year
+
+        df = df.query(f"year >= {self.settings.start_year}")
+
+        df["id"] = df["Investigation number"].map(
+            lambda x: re.search(r"(\d{3})$|(?:(?:\d{5})(\d{4}))$", str(x))
+        )
+
+        df = df.dropna(subset=["id"])
+        df["id"] = df["id"].map(
+            lambda x: x.group(1) if x.group(1) is not None else x.group(2)
+        )
+
+        return df
 
     def get_report_urls(self, mode, year):
-        atsb_ids = [f"{mode.value}{num:02}" for num in range(100)]
         return [
             (
-                self.get_report_id(mode, year, atsb_id),
-                f"https://www.atsb.gov.au/publications/investigation_reports/{year}/report/{mode.name}o-{year}-{atsb_id}",
+                self.get_report_id(mode, year, str(atsb_id)[-3:]),
+                f"https://www.atsb.gov.au/publications/investigation_reports/{year}/{f'{mode.as_char(mode)}air' if year < 2023 else 'aviation'}/{atsb_id}",
             )
-            for atsb_id in atsb_ids
+            for atsb_id in self.agency_reports.loc[mode]
+            .query(f"year == {year} & `Report status` == 'Final'")[
+                "Investigation number"
+            ]
+            .to_list()
         ]
 
 
@@ -348,7 +438,7 @@ class TSBReportScraper(ReportScraper):
 
         modes_df = [
             pd.read_html(
-                requests.get(
+                hrequests.get(
                     f"https://www.tsb.gc.ca/eng/rapports-reports/{mode}/index.html",
                     headers=self.headers,
                 ).content
@@ -356,7 +446,7 @@ class TSBReportScraper(ReportScraper):
             for mode in modes
         ]
 
-        # Add dataframes togatehr with extra column identifier
+        # Add dataframes togather with extra column identifier
 
         merged_modes_df = pd.concat(
             modes_df, keys=[Modes.Mode.a, Modes.Mode.r, Modes.Mode.m]
@@ -415,14 +505,3 @@ class TSBReportScraper(ReportScraper):
         all_text = ", ".join(paragraph_text + [date_text])
 
         return report_id, all_text, event_type
-
-
-def get_agency_scraper(agency: str, settings: ReportScraperSettings) -> ReportScraper:
-    if agency == "TAIC":
-        return TAICReportScraper(settings)
-    elif agency == "ATSB":
-        return ATSBReportScraper(settings)
-    elif agency == "TSB":
-        return TSBReportScraper(settings)
-    else:
-        raise ValueError(f"Unknown agency: {agency}")

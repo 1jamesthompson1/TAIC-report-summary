@@ -28,6 +28,33 @@ def gather(output_dir, config, refresh):
     output_config = config.get("output")
     download_config = config.get("download")
 
+    print("Getting all data needed for engine")
+
+    dataGetter = DataGetting.DataGetter(
+        config.get("data").get("data_local_folder_location"),
+        config.get("data").get("data_remote_folder_location"),
+        refresh,
+    )
+
+    dataGetter.get_recommendations(
+        config.get("data").get("recommendations_file_name"),
+        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
+    )
+    print("Got recommendations")
+    dataGetter.get_generic_data(
+        config.get("data").get("event_types_file_name"),
+        os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
+    )
+    print("Got event types")
+
+    dataGetter.get_generic_data(
+        config.get("data").get("atsb_historic_aviation"),
+        os.path.join(
+            output_dir, output_config.get("atsb_historic_aviation_df_file_name")
+        ),
+    )
+    print("Got ATSB historic aviation investigations")
+
     # Download the PDFs
     report_scraping_settings = WebsiteScraping.ReportScraperSettings(
         os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
@@ -42,9 +69,21 @@ def gather(output_dir, config, refresh):
     )
 
     for agency in download_config.get("agencies"):
-        WebsiteScraping.get_agency_scraper(
-            agency, report_scraping_settings
-        ).collect_all()
+        match agency:
+            case "TSB":
+                WebsiteScraping.TSBReportScraper(report_scraping_settings).collect_all()
+            case "TAIC":
+                WebsiteScraping.TAICReportScraper(
+                    report_scraping_settings
+                ).collect_all()
+            case "ATSB":
+                WebsiteScraping.ATSBReportScraper(
+                    report_scraping_settings,
+                    os.path.join(
+                        output_dir,
+                        output_config.get("atsb_historic_aviation_df_file_name"),
+                    ),
+                ).collect_all()
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(
@@ -52,25 +91,6 @@ def gather(output_dir, config, refresh):
         os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
         refresh,
     )
-
-    print("Getting all data needed for engine")
-
-    dataGetter = DataGetting.DataGetter(
-        config.get("data").get("data_local_folder_location"),
-        config.get("data").get("data_remote_folder_location"),
-        refresh,
-    )
-
-    dataGetter.get_recommendations(
-        config.get("data").get("recommendations_file_name"),
-        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
-    )
-    print("Got recommendations")
-    dataGetter.get_event_types(
-        config.get("data").get("event_types_file_name"),
-        os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
-    )
-    print("Got event types")
 
 
 def extract(output_dir, config, refresh):
