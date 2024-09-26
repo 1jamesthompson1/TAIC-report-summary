@@ -347,6 +347,10 @@ class SearchEngine:
             response = SearchResult(search, results, None)
         elif with_rag and search.getQuery() != "":
             response = searchEngineSearcher.rag_search()
+
+        print(
+            f"Search engine response: {response.summary}, with context {response.context}"
+        )
         return response
 
 
@@ -377,6 +381,9 @@ class SearchEngineSearcher:
         limit=100,
         type: str = ["hybrid", "fts", "vector"],
     ) -> pd.DataFrame:
+        print(
+            f"Conducting search with filter: {filter}, limit: {limit}, type: {type} for query: {self.query}"
+        )
         if type == "hybrid":
             results = (
                 table.search(
@@ -392,12 +399,12 @@ class SearchEngineSearcher:
             )
         elif type == "fts":
             results = (
-                table.search(self.query, query_type="fts")
+                table.search(self.query[1:-1], query_type="fts")
                 .limit(limit)
                 .where(filter, prefilter=True)
                 .to_pandas()
             )
-            results.rename(columns={"score": "section_relevance_score"}, inplace=True)
+            results.rename(columns={"_score": "section_relevance_score"}, inplace=True)
         else:  # type == 'vector'
             results = (
                 table.search(self._embed_query(self.query), query_type="vector")
@@ -428,7 +435,6 @@ class SearchEngineSearcher:
                 else f"mode = {self.settings.getModes()[0].value}",
             ]
         )
-        print(where_statement)
         if self.query == "" or self.query is None:
             return (
                 self.vector_db_table.search()

@@ -183,6 +183,7 @@ def task_status(task_id):
     result = tasks_results.get(task_id, {})
     if status == "completed":
         session["search_results"] = result
+    print(f"Task status: '{status}'")
     return jsonify({"task_id": task_id, "status": status, "result": result})
 
 
@@ -276,7 +277,8 @@ def search_reports(task_id, form_data):
         search = get_search(form_data)
         log_search(search)
         results = searcher.search(search)
-        tasks_results[task_id] = format_search_results(results)
+        formatted_results = format_search_results(results)
+        tasks_results[task_id] = formatted_results
         log_search_results(results)
         tasks_status[task_id] = "completed"
 
