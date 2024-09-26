@@ -24,29 +24,9 @@ def download(container, output_dir):
     downloader.download_latest_output()
 
 
-def gather(output_dir, config, modes, refresh):
+def gather(output_dir, config, refresh):
     output_config = config.get("output")
     download_config = config.get("download")
-
-    # Download the PDFs
-    WebsiteScraping.ReportScraping(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
-        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
-        output_config.get("report_pdf_file_name"),
-        download_config.get("start_year"),
-        download_config.get("end_year"),
-        download_config.get("max_per_year"),
-        modes,
-        download_config.get("ignored_reports"),
-        refresh,
-    ).collect_all()
-
-    # Extract the text from the PDFs
-    PDFParser.convertPDFToText(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
-        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
-        refresh,
-    )
 
     print("Getting all data needed for engine")
 
@@ -61,11 +41,56 @@ def gather(output_dir, config, modes, refresh):
         os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
     )
     print("Got recommendations")
-    dataGetter.get_event_types(
+    dataGetter.get_generic_data(
         config.get("data").get("event_types_file_name"),
         os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
     )
     print("Got event types")
+
+    dataGetter.get_generic_data(
+        config.get("data").get("atsb_historic_aviation"),
+        os.path.join(
+            output_dir, output_config.get("atsb_historic_aviation_df_file_name")
+        ),
+    )
+    print("Got ATSB historic aviation investigations")
+
+    # Download the PDFs
+    report_scraping_settings = WebsiteScraping.ReportScraperSettings(
+        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        output_config.get("report_pdf_file_name"),
+        download_config.get("start_year"),
+        download_config.get("end_year"),
+        download_config.get("max_per_year"),
+        [Modes.Mode[mode] for mode in download_config.get("modes")],
+        download_config.get("ignored_reports"),
+        refresh,
+    )
+
+    for agency in download_config.get("agencies"):
+        match agency:
+            case "TSB":
+                WebsiteScraping.TSBReportScraper(report_scraping_settings).collect_all()
+            case "TAIC":
+                WebsiteScraping.TAICReportScraper(
+                    report_scraping_settings
+                ).collect_all()
+            case "ATSB":
+                WebsiteScraping.ATSBReportScraper(
+                    report_scraping_settings,
+                    os.path.join(
+                        output_dir,
+                        output_config.get("atsb_historic_aviation_df_file_name"),
+                    ),
+                ).collect_all()
+
+    # Extract the text from the PDFs
+    PDFParser.convertPDFToText(
+        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
+        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
+        refresh,
+    )
 
 
 def extract(output_dir, config, refresh):
@@ -224,18 +249,8 @@ def cli():
         required=True,
         help="This is function that you want to run.",
     )
-    parser.add_argument(
-        "-m",
-        "--modes",
-        choices=["a", "r", "m"],
-        nargs="+",
-        help="The modes of the reports to be processed. a for aviation, r for rail, m for marine. Defaults to all.",
-        default=["a", "r", "m"],
-    )
 
     args = parser.parse_args()
-
-    modes = [Modes.Mode[arg] for arg in args.modes]
 
     # Get the config settings for the engine.
     engine_settings = Config.configReader.get_config()["engine"]
@@ -251,7 +266,7 @@ def cli():
         case "download":
             download(engine_settings.get("output").get("container_name"), output_path)
         case "gather":
-            gather(output_path, engine_settings, modes, args.refresh)
+            gather(output_path, engine_settings, args.refresh)
         case "extract":
             extract(output_path, engine_settings, args.refresh)
         case "analyze":
@@ -264,7 +279,7 @@ def cli():
             )
         case "all":
             download(engine_settings.get("output").get("container_name"), output_path)
-            gather(output_path, engine_settings, modes, args.refresh)
+            gather(output_path, engine_settings, args.refresh)
             extract(output_path, engine_settings, args.refresh)
             analyze(output_path, engine_settings, args.refresh)
             upload(

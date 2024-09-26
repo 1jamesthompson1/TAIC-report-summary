@@ -4,12 +4,13 @@ engine:
     max_per_year: 100
     start_year: 2000
     ignored_reports: ['2022_202', '2022_203']
+    modes: ['a', 'r','m']
+    agencies: ['ATSB', 'TSB', 'TAIC']
   output:
     folder_name: "output"
     container_name: "engineoutput"
     report_pdf_folder_name: "report_pdfs"
     report_pdf_file_name: "{{report_id}}.pdf"
-    report_titles_df_file_name: "report_titles.pkl"
     parsed_reports_df_file_name: "parsed_reports.pkl"
     recommendations_df_file_name: "recommendations.pkl"
     all_event_types_df_file_name: "all_event_types.pkl"
@@ -21,6 +22,7 @@ engine:
     extracted_reports_df_file_name: "extracted_reports.pkl"
     recommendation_safety_issue_links_df_file_name: "recommendation_safety_issue_links.pkl"
     recommendation_response_classification_df_file_name: "recommendation_response_classification.pkl"
+    atsb_historic_aviation_df_file_name: "atsb_historic_aviation_investigations.pkl"
     embeddings:
       folder_name: "embeddings"
       safety_issues_file_name: "safety_issues_embeddings.pkl"
@@ -32,6 +34,7 @@ engine:
     data_local_folder_location: "data"
     recommendations_file_name: "cleaned_TAIC_recommendations_2024_04_04.csv"
     event_types_file_name: "event_types.csv"
+    atsb_historic_aviation: "atsb_historic_aviation_investigations.csv"
   validation:
     folder_name: "validation"
     

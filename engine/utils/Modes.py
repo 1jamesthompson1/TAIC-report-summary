@@ -27,7 +27,11 @@ all_modes = [Mode.a, Mode.r, Mode.m]
 
 
 def get_report_mode_from_id(report_id: str):
-    if match := re.search(r"(\d{4})_(\d{3})", report_id):
+    if match := re.search(r"_([amr])_", report_id):
+        report_mode = Mode[match.group(1)]
+        return report_mode
+    # Leaving in the old id format for backwards compatibility. Once integration of ATSB and TSB is complete and the test sets are updated this can be removed.
+    elif match := re.search(r"(\d{4})_(\d{3})", report_id):
         report_mode = Mode(int(match.group(2)[0]))
         return report_mode
     else:
