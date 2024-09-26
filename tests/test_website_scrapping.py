@@ -78,7 +78,7 @@ def get_agency_scraper(
     ],
 )
 def test_report_collection(report_scraping_settings, agency, url, expected):
-    scraper = WebsiteScraping.get_agency_scraper(agency, report_scraping_settings)
+    scraper = get_agency_scraper(agency, report_scraping_settings)
 
     result = scraper.collect_report("test_report_id", url)
 
