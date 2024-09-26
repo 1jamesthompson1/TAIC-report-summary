@@ -150,7 +150,18 @@ class ReportScraper:
             return True
 
         try:
-            webpage = hrequests.get(url, headers=self.headers, timeout=10)
+            webpage = hrequests.get(url, headers=self.headers, timeout=30)
+        except hrequests.exceptions.ClientException as e:
+            if pbar:
+                pbar.write(
+                    f"  Timed out while trying to collect {url}, {e}\n\nRetrying..."
+                )
+            try:
+                webpage = hrequests.get(url, headers=self.headers, timeout=30)
+            except hrequests.exceptions.ClientException as e:
+                if pbar:
+                    pbar.write(f"  Failed to collect {url}, {e}")
+                return False
         except hrequests.exceptions.BrowserTimeoutException:
             if pbar:
                 pbar.write(f"  Failed to collect {url}, timeout error")
@@ -195,6 +206,9 @@ class ReportScraper:
             if a["href"].endswith(".pdf")
         ]
 
+        # Remove duplicates
+        pdf_links = list(dict.fromkeys(pdf_links))
+
         if len(pdf_links) == 0:
             if pbar:
                 pbar.write(
@@ -231,7 +245,7 @@ class ReportScraper:
             with open(file_name, "wb") as f:
                 f.write(
                     hrequests.get(
-                        link, allow_redirects=True, headers=self.headers, timeout=10
+                        link, allow_redirects=True, headers=self.headers, timeout=30
                     ).content
                 )
                 if pbar:
@@ -247,7 +261,23 @@ class ReportScraper:
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
     ) -> tuple[str, str, str]:
-        raise NotImplementedError
+        """
+        Gets the investigation webpage and scrapes extra information about the report.
+
+        Parameters
+        ----------
+        report_id : str
+            The identifier of the report
+        soup : BeautifulSoup
+            The BeautifulSoup object for the page
+        pbar : tqdm, optional
+            The progress bar to update, by default None
+
+        Returns
+        -------
+        tuple[str, str, str]
+            A tuple containing the report_id, title, event_type
+        """
 
     def __add_report_metadata_to_df(self, report_id: str, title: str, event_type: str):
         if self.report_titles_df.query("report_id == @report_id").empty:
@@ -281,6 +311,9 @@ class TAICReportScraper(ReportScraper):
                     )[0]
                 )
                 page_num += 1
+            except hrequests.exceptions.ClientException as e:
+                print(f"Timeout while scraping TAIC investigations: {e}")
+                print(f"Retrying page {page_num}")
             except ValueError:
                 break
 
@@ -332,11 +365,14 @@ class ATSBReportScraper(ReportScraper):
 
     def __get_atsb_investigations(self, historic_aviation_investigations_path=None):
         """ATSBs websites provides an investigation table than can be easily read by pandas read_html. The only catch is that the aviation goes all the way back to 1960s and so only the first few pages of the aviation table is scraped. It will then be combined with a complete scrape of the table to find the new ids."""
-        if historic_aviation_investigations_path is None:
+        if historic_aviation_investigations_path is None or not os.path.exists(
+            historic_aviation_investigations_path
+        ):
             historic_aviation_investigations = pd.DataFrame(
                 columns=[
                     "Investigation title",
                     "Investigation number",
+                    "Investigation webpage",
                     "Occurrence date",
                     "Report status",
                     "Report release",
@@ -347,6 +383,11 @@ class ATSBReportScraper(ReportScraper):
                 historic_aviation_investigations_path
             )
 
+        url = "https://www.atsb.gov.au/{mode}-investigation-reports?page={page_num}"
+
+        parsed = urlparse(url)
+        base_url = f"{parsed.scheme}://{parsed.netloc}"
+
         dfs = []
         for mode in ["aviation", "rail", "marine"]:
             pages = []
@@ -354,13 +395,20 @@ class ATSBReportScraper(ReportScraper):
             while True:
                 try:
                     page = hrequests.get(
-                        f"https://www.atsb.gov.au/{mode}-investigation-reports?page={page_num}"
+                        url.format(mode=mode, page_num=page_num), headers=self.headers
                     ).content
 
                     page_df = pd.read_html(
                         page,
                         flavor="lxml",
+                        extract_links="body",
                     )[0]
+
+                    page_df["Investigation webpage"] = page_df[
+                        "Investigation title"
+                    ].apply(lambda x: urljoin(base_url, x[1]))
+
+                    page_df = page_df.map(lambda x: x[0] if isinstance(x, tuple) else x)
 
                     if mode == "aviation":
                         # Check if any investigation number match.
@@ -377,6 +425,10 @@ class ATSBReportScraper(ReportScraper):
                         pages.append(page_df)
 
                     page_num += 1
+                except hrequests.exceptions.ClientException as e:
+                    print(f"Timeout while trying to scrape {mode} page {page_num}: {e}")
+                    print("Retrying...")
+                    continue
                 except (ValueError, TypeError) as e:
                     print(f"Failed to scrape {mode} page {page_num}: {e}")
                     print(f"Assuming end of {mode} reports")
@@ -411,16 +463,35 @@ class ATSBReportScraper(ReportScraper):
 
     def get_report_urls(self, mode, year):
         return [
-            (
-                self.get_report_id(mode, year, str(atsb_id)[-3:]),
-                f"https://www.atsb.gov.au/publications/investigation_reports/{year}/{f'{mode.as_char(mode)}air' if year < 2023 else 'aviation'}/{atsb_id}",
-            )
-            for atsb_id in self.agency_reports.loc[mode]
-            .query(f"year == {year} & `Report status` == 'Final'")[
-                "Investigation number"
+            (self.get_report_id(mode, year, str(atsb_id)[-3:]), url)
+            for atsb_id, url in self.agency_reports.loc[mode]
+            .query(f"year == {year} & `Report status` == 'Final'")
+            .dropna(subset=["Investigation webpage"])[
+                [
+                    "Investigation number",
+                    "Investigation webpage",
+                ]
             ]
-            .to_list()
+            .to_records(index=False)
         ]
+
+    def get_report_metadata(
+        self, report_id: str, soup: BeautifulSoup, pbar=None
+    ) -> tuple[str, str, str]:
+        report_mode = Modes.get_report_mode_from_id(report_id)
+        event_type = None
+        if report_mode is Modes.Mode.a:
+            event_type_div = soup.find(
+                "div", class_="field--name-field-aviation-occurrence-type"
+            )
+            if event_type_div is not None:
+                event_type = event_type_div.find("div", class_="field__item").text
+
+        title_div = soup.find("div", class_="field--name-title")
+
+        title = title_div.text
+
+        return report_id, title, event_type
 
 
 class TSBReportScraper(ReportScraper):

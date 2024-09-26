@@ -27,8 +27,8 @@ all_modes = [Mode.a, Mode.r, Mode.m]
 
 
 def get_report_mode_from_id(report_id: str):
-    if match := re.search(r"(\d{4})_(\d{3})", report_id):
-        report_mode = Mode(int(match.group(2)[0]))
+    if match := re.search(r"_([amr])_", report_id):
+        report_mode = Mode[match.group(1)]
         return report_mode
     else:
         return None

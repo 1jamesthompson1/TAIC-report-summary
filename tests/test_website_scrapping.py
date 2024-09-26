@@ -14,10 +14,10 @@ def report_scraping_settings(tmpdir):
         os.path.join(tmpdir, "report_folder"),
         os.path.join(tmpdir, "report_titles_df.pkl"),
         "{{report_id}}.pdf",
-        2000,
-        2020,
+        2005,
+        2015,
         1,
-        [Modes.Mode.a],
+        [Modes.Mode.a, Modes.Mode.r, Modes.Mode.m],
         [],
         False,
     )
@@ -85,43 +85,12 @@ def test_report_collection(report_scraping_settings, agency, url, expected):
     assert result == expected
 
 
-def test_collect_all(tmpdir):
-    report_folder = tmpdir.join("report_folder")
-    report_titles = tmpdir.join("report_titles_df.pkl")
-
-    scraper = WebsiteScraping.ReportScraping(
-        report_folder,
-        report_titles,
-        "report_{{report_id}}.pdf",
-        2010,
-        2020,
-        1,
-        [Modes.Mode.a],
-        [],
-        False,
-    )
-
-    try:
-        scraper.collect_all()
-    except Exception as e:
-        pytest.fail("Error occurred while collecting all reports\n" + str(e))
-
-    assert os.path.exists(report_folder)
-
-    assert len(os.listdir(report_folder)) == 11
-
-    assert os.path.exists(report_titles)
-    report_titles = pd.read_pickle(report_titles)
-
-    assert len(report_titles) == 11
-
-
 @pytest.mark.parametrize(
     "agency, expected_urls",
     [
-        pytest.param("TSB", [54, 1, 1, 1, 1, 1, 1, 1, 1], id="TSB"),
-        pytest.param("TAIC", [13, 1, 1, 1, 1, 1, 1, 1, 1], id="TAIC"),
-        pytest.param("ATSB", [1, 1, 1, 1, 1, 1, 1, 1, 1], id="ATSB"),
+        pytest.param("TSB", [54, 24, 20, 13, 19, 10, 15, 10, 13], id="TSB"),
+        pytest.param("TAIC", [13, 11, 3, 29, 8, 4, 12, 3, 5], id="TAIC"),
+        pytest.param("ATSB", [93, 179, 50, 6, 25, 17, 15, 8, 3], id="ATSB"),
     ],
 )
 def test_agency_website_scraper(report_scraping_settings, agency, expected_urls):
@@ -149,3 +118,23 @@ def test_agency_website_scraper(report_scraping_settings, agency, expected_urls)
 
     if errors:
         pytest.fail("\n" + "\n".join(errors))
+
+
+@pytest.mark.parametrize(
+    "agency, expected_count",
+    [
+        pytest.param("TSB", 33, id="TSB"),
+        pytest.param("TAIC", 33, id="TAIC"),
+        pytest.param("ATSB", 33, id="ATSB"),
+    ],
+)
+def test_agency_website_scraper_collecting_all_reports(
+    report_scraping_settings, agency, expected_count
+):
+    scraper = get_agency_scraper(agency, report_scraping_settings)
+
+    assert scraper
+
+    scraper.collect_all()
+
+    assert len(os.listdir(report_scraping_settings.report_dir)) == expected_count
