@@ -26,11 +26,16 @@ def perform_search_and_wait(c, form_data):
 
     assert rv.status == "202 ACCEPTED"
 
+    start_time = time.time()
+
     while True:
         task_status = c.get("/task-status/" + json.loads(rv.data)["task_id"])
         parsed = json.loads(task_status.data)
         if parsed["status"] == "completed" or parsed["status"] == "failed":
             return parsed
+
+        if time.time() - start_time > 120:
+            raise TimeoutError("Search timed out")
         time.sleep(2)
 
 
@@ -119,3 +124,37 @@ def test_form_with_query(client):
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
     assert df.shape[0] > 0
     assert rv["result"]["summary"]
+
+
+def test_form_with_fts_with_results(client):
+    rv = perform_search_and_wait(
+        client,
+        {
+            "searchQuery": '"work needed"',
+            "includeModeAviation": "on",
+            "yearSlider-min": "2000",
+            "yearSlider-max": "2024",
+            "relevanceCutoff": "0.6",
+            "includeSafetyIssues": "on",
+        },
+    )
+
+    df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
+    assert df.shape[0] > 0
+
+
+def test_form_with_fts_no_results(client):
+    rv = perform_search_and_wait(
+        client,
+        {
+            "searchQuery": '""More work needed""',
+            "includeModeAviation": "on",
+            "yearSlider-min": "2000",
+            "yearSlider-max": "2024",
+            "relevanceCutoff": "0.6",
+            "includeSafetyIssues": "on",
+        },
+    )
+
+    df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
+    assert df.shape[0] == 0
