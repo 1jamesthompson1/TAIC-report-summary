@@ -77,6 +77,7 @@ $(document).ready(function() {
         $.get('/task-status/' + taskId, function(data) {
             console.log("  status: " + data.status)
             if (data.status === 'completed') {
+                console.log("  Search completed")
                 // Update the results placeholder with the received HTML table
                 updateResults(data.result.html_table);
                 updateSummary(data.result.summary);
@@ -86,6 +87,7 @@ $(document).ready(function() {
                 $('#loading').hide();
             } else if (data.status === 'failed') {
                 // Show an error message
+                console.log("  error: " + data.result)
                 $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
                 // Hide the loading sign
                 $('#loading').hide();

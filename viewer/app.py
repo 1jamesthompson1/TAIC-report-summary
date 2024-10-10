@@ -1,4 +1,5 @@
 import argparse
+import copy
 import os
 import tempfile
 import uuid
@@ -184,7 +185,8 @@ def task_status(task_id):
     if status == "completed":
         session["search_results"] = result
     print(f"Task status: '{status}'")
-    return jsonify({"task_id": task_id, "status": status, "result": result})
+    jsonified = jsonify({"task_id": task_id, "status": status, "result": result})
+    return jsonified
 
 
 def get_search(form) -> Searching.Search:
@@ -219,7 +221,7 @@ def format_search_results(results: Searching.SearchResult):
     )
 
     context_df["relevance"] = context_df.apply(
-        lambda x: f"""<a href="/?{getUpdatedRelevanceSearch(results.search, x['relevance'])}">{x['relevance']}</a>""",
+        lambda x: f"""<a href="/?{getUpdatedRelevanceSearch(copy.deepcopy(results.search), x['relevance'])}">{x['relevance']}</a>""",
         axis=1,
     )
 
@@ -281,7 +283,6 @@ def search_reports(task_id, form_data):
         tasks_results[task_id] = formatted_results
         log_search_results(results)
         tasks_status[task_id] = "completed"
-
     except Exception as e:
         log_search_error(e, search)
         tasks_results[task_id] = repr(e)
