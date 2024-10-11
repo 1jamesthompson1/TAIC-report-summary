@@ -224,7 +224,7 @@ class TestSearcher:
                 0.6,
             ),
         )
-
+        assert search.getSearchType() == "none"
         result = searcher.search(search, with_rag=False)
 
         assert result
@@ -245,6 +245,7 @@ class TestSearcher:
                 0.6,
             ),
         )
+        assert search.getSearchType() == "vector"
         result = searcher.search(search, with_rag=False)
 
         assert result
@@ -261,6 +262,7 @@ class TestSearcher:
                 0.6,
             ),
         )
+        assert search.getSearchType() == "fts"
         result = searcher.search(search, with_rag=False)
 
         assert result
@@ -278,6 +280,7 @@ class TestSearcher:
                 0.6,
             ),
         )
+        assert search.getSearchType() == "fts"
         result = searcher.search(search, with_rag=False)
 
         assert result
