@@ -13,6 +13,8 @@ $(document).ready(function() {
     function performSearchWithParams(params) {
         $('#loading').show();
 
+        console.log("Doing search")
+
         $.get('/search', params, function(data) {
             const taskId = data.task_id;
             checkStatus(taskId);
@@ -60,8 +62,9 @@ $(document).ready(function() {
         
         // Show the loading sign with animation
         $('#loading').show();
-        
+        console.log("Conducting search")        
         $.post('/search', $('form').serialize(), function(data) {
+
             // Get the task ID from the response
             const taskId = data.task_id;
             // Poll for task status
@@ -70,8 +73,11 @@ $(document).ready(function() {
     });
 
     function checkStatus(taskId) {
+        console.log("Checking status: " + taskId)
         $.get('/task-status/' + taskId, function(data) {
+            console.log("  status: " + data.status)
             if (data.status === 'completed') {
+                console.log("  Search completed")
                 // Update the results placeholder with the received HTML table
                 updateResults(data.result.html_table);
                 updateSummary(data.result.summary);
@@ -81,6 +87,7 @@ $(document).ready(function() {
                 $('#loading').hide();
             } else if (data.status === 'failed') {
                 // Show an error message
+                console.log("  error: " + data.result)
                 $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
                 // Hide the loading sign
                 $('#loading').hide();

@@ -224,7 +224,7 @@ class TestSearcher:
                 0.6,
             ),
         )
-
+        assert search.getSearchType() == "none"
         result = searcher.search(search, with_rag=False)
 
         assert result
@@ -245,8 +245,45 @@ class TestSearcher:
                 0.6,
             ),
         )
+        assert search.getSearchType() == "vector"
         result = searcher.search(search, with_rag=False)
 
         assert result
         assert result.getSummary() is None
         assert result.getContext().empty
+
+    def test_fts_search(self, searcher):
+        search = Searching.Search(
+            '"work"',
+            Searching.SearchSettings(
+                Modes.all_modes,
+                (2000, 2020),
+                ["safety_issue", "recommendation"],
+                0.6,
+            ),
+        )
+        assert search.getSearchType() == "fts"
+        result = searcher.search(search, with_rag=False)
+
+        assert result
+        assert result.getSummary() is None
+
+        assert result.getContext().shape[0] == 22
+
+    def test_fts_search_no_results(self, searcher):
+        search = Searching.Search(
+            '""More work needed""',
+            Searching.SearchSettings(
+                Modes.all_modes,
+                (2000, 2020),
+                ["safety_issue", "recommendation"],
+                0.6,
+            ),
+        )
+        assert search.getSearchType() == "fts"
+        result = searcher.search(search, with_rag=False)
+
+        assert result
+        assert result.getSummary() is None
+
+        assert result.getContext().shape[0] == 0

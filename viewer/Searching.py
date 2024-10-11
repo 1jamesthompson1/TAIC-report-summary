@@ -93,6 +93,12 @@ class Search:
         self.creation_time = time.time()
         self.uuid = uuid.uuid4()
 
+        self.search_type = (
+            "none"
+            if (query == "" or query is None)
+            else ("fts" if query[0] == '"' and query[-1] == '"' else "vector")
+        )
+
     @classmethod
     def from_form(cls, form: dict):
         if form is None or not isinstance(form, dict):
@@ -149,6 +155,9 @@ class Search:
 
     def getSettings(self) -> SearchSettings:
         return self.settings
+
+    def getSearchType(self) -> str:
+        return self.search_type
 
     def getStartTime(self) -> str:
         return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.creation_time))
@@ -339,14 +348,22 @@ class SearchEngine:
         )
 
         response = None
-        if search.getQuery() == "" or search.getQuery() is None or not with_rag:
+        # All situations that results in a search without rag
+        if (
+            search.getQuery() == ""
+            or search.getQuery() is None
+            or not with_rag
+            or search.getSearchType() == "fts"
+        ):
             results = searchEngineSearcher.search()
             response = SearchResult(search, results, None)
-        elif search.getQuery()[0] == '"' and search.getQuery()[-1] == '"':
-            results = searchEngineSearcher.search()
-            response = SearchResult(search, results, None)
+        # Otherwise do a rag search
         elif with_rag and search.getQuery() != "":
             response = searchEngineSearcher.rag_search()
+
+        print(
+            f"Search engine response: {response.summary}, with context {response.context}"
+        )
         return response
 
 
@@ -377,6 +394,9 @@ class SearchEngineSearcher:
         limit=100,
         type: str = ["hybrid", "fts", "vector"],
     ) -> pd.DataFrame:
+        print(
+            f"Conducting search with filter: {filter}, limit: {limit}, type: {type} for query: {self.query}"
+        )
         if type == "hybrid":
             results = (
                 table.search(
@@ -392,12 +412,12 @@ class SearchEngineSearcher:
             )
         elif type == "fts":
             results = (
-                table.search(self.query, query_type="fts")
+                table.search(self.query[1:-1], query_type="fts")
                 .limit(limit)
                 .where(filter, prefilter=True)
                 .to_pandas()
             )
-            results.rename(columns={"score": "section_relevance_score"}, inplace=True)
+            results.rename(columns={"_score": "section_relevance_score"}, inplace=True)
         else:  # type == 'vector'
             results = (
                 table.search(self._embed_query(self.query), query_type="vector")
@@ -428,8 +448,7 @@ class SearchEngineSearcher:
                 else f"mode = {self.settings.getModes()[0].value}",
             ]
         )
-        print(where_statement)
-        if self.query == "" or self.query is None:
+        if self.search_obj.getSearchType() == "none":
             return (
                 self.vector_db_table.search()
                 .limit(None)
@@ -440,7 +459,7 @@ class SearchEngineSearcher:
 
         search_results = self._table_search(
             table=self.vector_db_table,
-            type="fts" if self.query[0] == '"' and self.query[-1] == '"' else "vector",
+            type=self.search_obj.getSearchType(),
             filter=where_statement,
             limit=5000,
         )
