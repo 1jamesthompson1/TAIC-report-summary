@@ -34,7 +34,7 @@ def perform_search_and_wait(c, form_data):
         if parsed["status"] == "completed" or parsed["status"] == "failed":
             return parsed
 
-        if time.time() - start_time > 120:
+        if time.time() - start_time > 180:
             raise TimeoutError("Search timed out")
         time.sleep(2)
 
