@@ -250,7 +250,10 @@ class ReportScraper:
                 )
                 if pbar:
                     pbar.set_description(f"  Downloaded {file_name}")
-        except hrequests.exceptions.BrowserTimeoutException:
+        except (
+            hrequests.exceptions.BrowserTimeoutException
+            or hrequests.exceptions.ClientException
+        ):
             os.remove(file_name)
             if pbar:
                 pbar.write(f"  {file_name} timed out")
@@ -389,7 +392,9 @@ class ATSBReportScraper(ReportScraper):
         base_url = f"{parsed.scheme}://{parsed.netloc}"
 
         dfs = []
-        for mode in ["aviation", "rail", "marine"]:
+        for mode in [
+            Modes.Mode.as_string(mode).lower() for mode in self.settings.modes
+        ]:
             pages = []
             page_num = 0
             while True:
@@ -442,7 +447,16 @@ class ATSBReportScraper(ReportScraper):
 
             dfs.append(mode_investigations)
 
-        df = pd.concat(dfs, axis=0, keys=[Modes.Mode.a, Modes.Mode.r, Modes.Mode.m])
+        df = pd.concat(dfs, axis=0, keys=self.settings.modes)
+
+        df.rename(
+            {
+                "Occurrence date  Sort descending": "Occurrence date",
+                "Occurrence date  Sort ascending": "Occurrence date",
+            },
+            axis=1,
+            inplace=True,
+        )
 
         df["year"] = pd.to_datetime(
             df["Occurrence date"], format="%d/%m/%Y", errors="coerce"
