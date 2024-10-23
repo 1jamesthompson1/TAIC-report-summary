@@ -59,29 +59,24 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
         if report_id in parsed_reports_df["report_id"].values:
             continue
         try:
-            with open(report_pdf_path, "rb") as pdf_file:
-                reader = PdfReader(pdf_file)
-                text = ""
-                for i, page in enumerate(reader.pages):
-                    text += f"\n\n--- Page {i} start ---\n" + page.extract_text()
+            text = extractTextFromPDF(report_pdf_path)
 
-                text = cleanText(text)
-                text, valid = formatText(text, report_id)
+            text, valid = formatText(text, report_id)
 
-                new_parsed_reports.append(
-                    {"report_id": report_id, "text": text, "valid": valid}
+            new_parsed_reports.append(
+                {"report_id": report_id, "text": text, "valid": valid}
+            )
+
+            if len(new_parsed_reports) > 50:
+                parsed_reports_df = pd.concat(
+                    [parsed_reports_df, pd.DataFrame(new_parsed_reports)],
+                    ignore_index=True,
                 )
-
-                if len(new_parsed_reports) > 50:
-                    parsed_reports_df = pd.concat(
-                        [parsed_reports_df, pd.DataFrame(new_parsed_reports)],
-                        ignore_index=True,
-                    )
-                    parsed_reports_df.to_pickle(parsed_reports_df_file_name)
-                    pbar.write(
-                        f"  Saving {len(new_parsed_reports)} reports to {parsed_reports_df_file_name}. There are now {len(parsed_reports_df)} reports in the parsed dataframe."
-                    )
-                    new_parsed_reports = []
+                parsed_reports_df.to_pickle(parsed_reports_df_file_name)
+                pbar.write(
+                    f"  Saving {len(new_parsed_reports)} reports to {parsed_reports_df_file_name}. There are now {len(parsed_reports_df)} reports in the parsed dataframe."
+                )
+                new_parsed_reports = []
 
         except Exception as e:
             pbar.write(f"Error processing {report_pdf_path}: {e}")
@@ -93,12 +88,26 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
         parsed_reports_df.to_pickle(parsed_reports_df_file_name)
 
 
+def extractTextFromPDF(pdf_path):
+    with open(pdf_path, "rb") as pdf_file:
+        reader = PdfReader(pdf_file)
+        text = ""
+        for i, page in enumerate(reader.pages):
+            text += f"\n\n--- Page {i} start ---\n" + page.extract_text()
+    return text
+
+
 def formatText(text, report_id):
     """Format the string
-    This function will format the text so that the section headers and page numbers are easier to find.
+    This function will take the raw PDF text extraction and format so that the rest of the engine can work with it.
 
-    Specifically, the page numbers will be replaced with << Page number >>
+    It will:
+    - Replace the page numbers with << Page X >>, so that page numbers are easy to search
+    - Replace uncommon characters with more common characters.
+
     """
+
+    text = cleanText(text)
 
     match report_id[0:4]:
         case "ATSB":
@@ -121,7 +130,7 @@ def formatATSBText(text, report_id):
 
     page_number_matches = list(
         re.finditer(
-            r"^ ?[->][ ]{0,2}((\d{1,3})|([LXVI]{1,8}))[ ]{1,2}[-<]",
+            r"^ ?[->][ ]{0,2}((\d{1,3})|([XVI]{1,4}))[ ]{0,2}[-<]",
             text,
             flags=re.IGNORECASE + re.MULTILINE,
         )
@@ -131,21 +140,23 @@ def formatATSBText(text, report_id):
     if len(page_number_matches) == 0:
         page_number_matches = list(
             re.finditer(
-                r"^ ?(\d{1,3}|[LXVI]{1,8}) ?$", text, flags=re.MULTILINE + re.IGNORECASE
+                r"^ ?(\d{1,3}|[XVI]{1,4}) ?$", text, flags=re.MULTILINE + re.IGNORECASE
             )
         )
+        if all([match.group(1).isnumeric() for match in page_number_matches]):
+            page_number_matches.extend(
+                re.finditer(r"^ ?([xvi]{2,8}) ?[\w\W]{0,10}$", text, flags=re.MULTILINE)
+            )
     else:
         page_number_matches.extend(
-            re.finditer(
-                r"^ ?([LXVI]{1,8}) ?$", text, flags=re.MULTILINE + re.IGNORECASE
-            )
+            re.finditer(r"^ ?([XVI]{1,8}) ?$", text, flags=re.MULTILINE + re.IGNORECASE)
         )
 
-    print(f"Found {len(page_number_matches)} page numbers in {report_id}")
-    print(f"Before formatting: {[match.group(1) for match in page_number_matches]}")
     pdf_page_matches = list(
         re.finditer(r"^--- Page (\d+) start ---$", text, re.MULTILINE)
     )
+    # sort page_matches by span
+    page_number_matches.sort(key=lambda x: x.span()[0])
     replacement_numbers = sync_page_numbers(page_number_matches, pdf_page_matches)
 
     valid_page_numbers = validate_page_numbers(replacement_numbers)
@@ -163,9 +174,6 @@ def formatATSBText(text, report_id):
 
     results.append(text[last_end:])
     text = "".join(results)
-
-    # for page_number_match in page_number_matches:
-    #     text = re.sub(page_number_match.group(0), '', text, re.MULTILINE)
 
     return text, valid_page_numbers
 
@@ -194,12 +202,11 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
             ['', '', 'i', 'ii', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
     """
 
+    # Default to just labelling the pages 1,n
     if len(page_number_matches) == 0:
-        return []
+        return [num + 1 for num in range(len(pdf_page_matches))]
 
     # Line up pdf page numbers with read page numbers. I need to figure out if there are pages before page one?
-    print([match.group(1) for match in pdf_page_matches])
-    print([match.group(1) for match in page_number_matches])
 
     # Filter out regex matched pages that are higher than actual PDF.
     page_number_matches = [
@@ -214,10 +221,31 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
             ]
         )
     ]
+    # Remove roman numerals that are found after multiple consecutive integers
+    is_int = [match.group(1).isdecimal() for match in page_number_matches]
+
+    found_start_int = False
+    indices_to_delete = []
+    for i in range(1, len(is_int)):
+        if is_int[i] and is_int[i - 1]:
+            if (
+                int(page_number_matches[i - 1].group(1))
+                == int(page_number_matches[i].group(1)) - 1
+            ):
+                found_start_int = True
+
+        if not is_int[i] and found_start_int:
+            indices_to_delete.append(i)
+
+    if len(indices_to_delete) > 0:
+        page_number_matches = [
+            page_number_matches[i]
+            for i in range(len(page_number_matches))
+            if i not in indices_to_delete
+        ]
 
     # Remove integers that are found before a roman numeral
     is_int = [match.group(1).isdecimal() for match in page_number_matches]
-    anchors = []
     if not all(is_int):
         last_numeral = max([i for i, x in enumerate(is_int) if not x])
 
@@ -227,8 +255,6 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
             if (x and i > last_numeral) or (not x and i <= last_numeral)
         ]
         page_number_matches = [page_number_matches[i] for i in kept_indicies]
-
-    print(f"Cleaned page numbers: {[match.group(1) for match in page_number_matches]}")
 
     # Find the first and last roman numeral and integer
     last_numeral = (
@@ -240,6 +266,7 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
         if not all(is_int)
         else -1
     )
+    anchors = []
     if last_numeral != -1:
         anchors = [page_number_matches[0]]
         if last_numeral != 0:
@@ -256,10 +283,6 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
                 page_number_matches[-1],
             ]
         )
-
-    print(page_number_matches)
-    print(anchors)
-    print(pdf_page_matches)
 
     # Create a template that can be filled out for all of the correct page numbers.
 
@@ -283,10 +306,7 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
             anchors.pop(0)
             break
 
-    print(f"Template: {final_page_numbers}")
     final_page_numbers = populate_final_page_numbers(final_page_numbers)
-
-    print(f"Cleaned pdf page numbers: {final_page_numbers}")
 
     return final_page_numbers
 
@@ -300,7 +320,6 @@ def populate_final_page_numbers(final_page_numbers):
     current_int = None
 
     for i in range(0, len(final_page_numbers)):
-        print(f"{i}: {result}")
         # Append the preceding empty string if needed
         if (
             (final_page_numbers[i] is None)
@@ -314,7 +333,6 @@ def populate_final_page_numbers(final_page_numbers):
         if final_page_numbers[i] is None:
             if current_int:
                 current_int += 1
-                print(f"Adding {current_int} from None")
                 result.append(current_int)
             elif current_roman_numeral:
                 current_roman_numeral += 1
@@ -344,8 +362,8 @@ def populate_final_page_numbers(final_page_numbers):
         # Found a digit
         if final_page_numbers[i].group(1).isdecimal():
             current_int = int(final_page_numbers[i].group(1))
-            if current_int > 1:
-                # The first number found is not the first page. This could be an error in the PDF or the page number was missed.
+            if current_int > 1 and i > 0 and isinstance(result[i - 1], str):
+                # The first number found is not the first page. This could be an error in the PDF or the page number was missed. Therefore we will replace the result until we reach the start or roman numerals
                 fixing_index = i - 1
                 fixing_current_int = current_int - 1
                 while (
@@ -356,9 +374,7 @@ def populate_final_page_numbers(final_page_numbers):
                     result[fixing_index] = fixing_current_int
                     fixing_current_int -= 1
                     fixing_index -= 1
-            print(f"Adding {current_int} as looking at {final_page_numbers[i]}")
             result.append(current_int)
-            print(result)
             continue
 
     return result
@@ -368,11 +384,12 @@ def validate_page_numbers(page_numbers: list) -> bool:
     """
     Takes a list of page_numbers and returns if they are valid and complete.
 
-    There are four rules:
+    There are five rules:
     1. Roman numerals before decimals
     2. No missing pages in the decimals
     3. only empty spaces before the roman numerals
     4. First decimal must be equal to `1` or `last_numeral + 1`
+    5. Most use integers
     """
     last_roman_numeral = None
     last_int = None
@@ -414,12 +431,15 @@ def validate_page_numbers(page_numbers: list) -> bool:
                 return False
 
             last_roman_numeral = roman_num
-
             continue
 
         raise NotImplementedError(
             f"It should never reach here page-number is: {page_number}"
         )
+
+    # 5
+    if not last_int:
+        return False
 
     return True
 
