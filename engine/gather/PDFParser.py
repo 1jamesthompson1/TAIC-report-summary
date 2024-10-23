@@ -445,7 +445,43 @@ def validate_page_numbers(page_numbers: list) -> bool:
 
 
 def formatTSBText(text, report_id):
-    return text, True
+    print(f"Formatting TSB text for {report_id}")
+
+    page_number_matches = list(
+        re.finditer(r"^ ?- ?(\d+) ?- ?$", text, flags=re.IGNORECASE + re.MULTILINE)
+    )
+    if len(page_number_matches) == 0:
+        print("Page numbers not found")
+        page_number_matches = list(
+            re.finditer(
+                r"[\|■] {0,2}(\d+) ?$", text, flags=re.IGNORECASE + re.MULTILINE
+            )
+        )
+
+    pdf_page_matches = list(
+        re.finditer(r"^--- Page (\d+) start ---$", text, re.MULTILINE)
+    )
+
+    page_number_matches.sort(key=lambda x: x.span()[0])
+    replacement_numbers = sync_page_numbers(page_number_matches, pdf_page_matches)
+
+    valid_page_numbers = validate_page_numbers(replacement_numbers)
+
+    results = []
+    last_end = 0
+    for page_number_match, replacement_number in zip(
+        pdf_page_matches, replacement_numbers
+    ):
+        start, end = page_number_match.span()
+        results.append(text[last_end:start])
+        if replacement_number != "":
+            results.append(f"<< Page {replacement_number} >>")
+        last_end = end
+
+    results.append(text[last_end:])
+    text = "".join(results)
+
+    return text, valid_page_numbers
 
 
 def formatTAICText(text, report_id):

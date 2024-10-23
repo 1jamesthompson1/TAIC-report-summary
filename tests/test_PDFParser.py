@@ -69,7 +69,13 @@ import engine.gather.PDFParser as PDFParser
                 19,
                 20,
             ],
-            id="ATSB_a_2002_646 (Leniant regex match of roman numerals causing error)",
+            id="ATSB_a_2002_646 (Lenient regex match of roman numerals causing error)",
+        ),
+        pytest.param(
+            "TSB_m_2021_A0041", [i for i in range(1, 57)], id="TSB_m_2021_A0041"
+        ),
+        pytest.param(
+            "TSB_a_2011_F0012", [i for i in range(1, 20)], id="TSB_a_2011_F0012"
         ),
     ],
 )
@@ -92,10 +98,13 @@ def test_formatText(report_id, expected):
 
     assert valid
 
-    assert [
+    matched = [
         int(match.group(1)) if match.group(1).isnumeric() else match.group(1)
         for match in page_number_matches
-    ] == expected
+    ]
+    print(f"found: {matched}")
+    print(f"expected: {expected}")
+    assert matched == expected
 
 
 def test_PDFParser(tmpdir):
