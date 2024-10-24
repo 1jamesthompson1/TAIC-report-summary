@@ -77,6 +77,42 @@ import engine.gather.PDFParser as PDFParser
         pytest.param(
             "TSB_a_2011_F0012", [i for i in range(1, 20)], id="TSB_a_2011_F0012"
         ),
+        pytest.param(
+            "TAIC_r_2004_121",
+            [
+                "i",
+                "ii",
+                "iii",
+                "iv",
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+            ],
+            id="TAIC_r_2004_121",
+        ),
+        pytest.param(
+            "TAIC_r_2014_103",
+            ["i", "ii", "iii", "iv"] + list(range(1, 39)),
+            id="TAIC_r_2014_103",
+        ),
+        pytest.param(
+            "TAIC_a_2019_006",
+            ["i", "ii", "iii", "iv", "v", "vi"] + list(range(1, 64)),
+            id="TAIC_a_2019_006 (removing duplicate matches on the same page)",
+        ),
     ],
 )
 def test_formatText(report_id, expected):

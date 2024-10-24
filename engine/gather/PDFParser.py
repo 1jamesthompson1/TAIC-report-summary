@@ -109,23 +109,51 @@ def formatText(text, report_id):
 
     text = cleanText(text)
 
+    page_number_matches = None
     match report_id[0:4]:
         case "ATSB":
-            return formatATSBText(text, report_id)
-
+            page_number_matches = getATSBPageNumbers(text)
         case "TSB_":
-            return formatTSBText(text, report_id)
-
+            page_number_matches = getTSBPageNumbers(text)
         case "TAIC":
-            return formatTAICText(text, report_id)
-
+            page_number_matches = getTAICPageNumbers(text)
         case _:
             raise ValueError(
                 f"Unknown report type: {report_id[0:4]} for report '{report_id}'"
             )
 
+    pdf_page_matches = list(
+        re.finditer(r"^--- Page (\d+) start ---$", text, re.MULTILINE)
+    )
 
-def formatATSBText(text, report_id):
+    page_number_matches.sort(key=lambda x: x.span()[0])
+    print(f"{report_id}: ")
+    print([match.group(1) for match in page_number_matches])
+    replacement_numbers = sync_page_numbers(page_number_matches, pdf_page_matches)
+
+    print(f"{replacement_numbers}")
+    valid_page_numbers = validate_page_numbers(replacement_numbers)
+
+    # Perform the replacement of the PDF page numbers with the internal page numbers
+    # This process leaves the original page numbers in the text
+    results = []
+    last_end = 0
+    for page_number_match, replacement_number in zip(
+        pdf_page_matches, replacement_numbers
+    ):
+        start, end = page_number_match.span()
+        results.append(text[last_end:start])
+        if replacement_number != "":
+            results.append(f"<< Page {replacement_number} >>")
+        last_end = end
+
+    results.append(text[last_end:])
+    text = "".join(results)
+
+    return text, valid_page_numbers
+
+
+def getATSBPageNumbers(text):
     # Page numbers
 
     page_number_matches = list(
@@ -152,30 +180,34 @@ def formatATSBText(text, report_id):
             re.finditer(r"^ ?([XVI]{1,8}) ?$", text, flags=re.MULTILINE + re.IGNORECASE)
         )
 
-    pdf_page_matches = list(
-        re.finditer(r"^--- Page (\d+) start ---$", text, re.MULTILINE)
+    return page_number_matches
+
+
+def getTSBPageNumbers(text):
+    page_number_matches = list(
+        re.finditer(r"^ ?- ?(\d+) ?- ?$", text, flags=re.IGNORECASE + re.MULTILINE)
     )
-    # sort page_matches by span
-    page_number_matches.sort(key=lambda x: x.span()[0])
-    replacement_numbers = sync_page_numbers(page_number_matches, pdf_page_matches)
+    if len(page_number_matches) == 0:
+        print("Page numbers not found")
+        page_number_matches = list(
+            re.finditer(
+                r"[\|■] {0,2}(\d+) ?$", text, flags=re.IGNORECASE + re.MULTILINE
+            )
+        )
 
-    valid_page_numbers = validate_page_numbers(replacement_numbers)
+    return page_number_matches
 
-    results = []
-    last_end = 0
-    for page_number_match, replacement_number in zip(
-        pdf_page_matches, replacement_numbers
-    ):
-        start, end = page_number_match.span()
-        results.append(text[last_end:start])
-        if replacement_number != "":
-            results.append(f"<< Page {replacement_number} >>")
-        last_end = end
 
-    results.append(text[last_end:])
-    text = "".join(results)
+def getTAICPageNumbers(text):
+    page_number_matches = list(
+        re.finditer(
+            r"\|? ?Page {1,3}(\d+|[ivx]+) \|?(?!start)",
+            text,
+            flags=re.IGNORECASE + re.MULTILINE,
+        )
+    )
 
-    return text, valid_page_numbers
+    return page_number_matches
 
 
 def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
@@ -256,6 +288,20 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
         ]
         page_number_matches = [page_number_matches[i] for i in kept_indicies]
 
+    # Remove any duplicate matches that happen on the same page
+    for i in range(len(pdf_page_matches) - 1):
+        page_start = pdf_page_matches[i].start()
+        page_end = pdf_page_matches[i + 1].start()
+
+        matches_in_page = [
+            match
+            for match in page_number_matches
+            if match.span()[0] >= page_start and match.span()[1] <= page_end
+        ]
+        if len(matches_in_page) > 1:
+            for j in range(1, len(matches_in_page)):
+                page_number_matches.remove(matches_in_page[j])
+
     # Find the first and last roman numeral and integer
     last_numeral = (
         max(
@@ -305,6 +351,8 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
             final_page_numbers[i + 1] = anchors[0]
             anchors.pop(0)
             break
+
+    print(f"template: {final_page_numbers}")
 
     final_page_numbers = populate_final_page_numbers(final_page_numbers)
 
@@ -442,57 +490,6 @@ def validate_page_numbers(page_numbers: list) -> bool:
         return False
 
     return True
-
-
-def formatTSBText(text, report_id):
-    print(f"Formatting TSB text for {report_id}")
-
-    page_number_matches = list(
-        re.finditer(r"^ ?- ?(\d+) ?- ?$", text, flags=re.IGNORECASE + re.MULTILINE)
-    )
-    if len(page_number_matches) == 0:
-        print("Page numbers not found")
-        page_number_matches = list(
-            re.finditer(
-                r"[\|■] {0,2}(\d+) ?$", text, flags=re.IGNORECASE + re.MULTILINE
-            )
-        )
-
-    pdf_page_matches = list(
-        re.finditer(r"^--- Page (\d+) start ---$", text, re.MULTILINE)
-    )
-
-    page_number_matches.sort(key=lambda x: x.span()[0])
-    replacement_numbers = sync_page_numbers(page_number_matches, pdf_page_matches)
-
-    valid_page_numbers = validate_page_numbers(replacement_numbers)
-
-    results = []
-    last_end = 0
-    for page_number_match, replacement_number in zip(
-        pdf_page_matches, replacement_numbers
-    ):
-        start, end = page_number_match.span()
-        results.append(text[last_end:start])
-        if replacement_number != "":
-            results.append(f"<< Page {replacement_number} >>")
-        last_end = end
-
-    results.append(text[last_end:])
-    text = "".join(results)
-
-    return text, valid_page_numbers
-
-
-def formatTAICText(text, report_id):
-    # Clean up page numbers
-    text = re.sub(
-        r"(\| )?((Page) {1,3}(\d+))( \|)?",
-        r"\n<< \3 \4 >>\n",
-        text,
-        flags=re.IGNORECASE,
-    )
-    return text, True
 
 
 def cleanText(text):
