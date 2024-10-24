@@ -110,7 +110,7 @@ import engine.gather.PDFParser as PDFParser
         ),
         pytest.param(
             "TAIC_a_2019_006",
-            ["i", "ii", "iii", "iv", "v", "vi"] + list(range(1, 64)),
+            ["i", "ii", "iii", "iv", "v", "vi"] + list(range(1, 65)),
             id="TAIC_a_2019_006 (removing duplicate matches on the same page)",
         ),
     ],
