@@ -127,11 +127,8 @@ def formatText(text, report_id):
     )
 
     page_number_matches.sort(key=lambda x: x.span()[0])
-    print(f"{report_id}: ")
-    print([match.group(1) for match in page_number_matches])
     replacement_numbers = sync_page_numbers(page_number_matches, pdf_page_matches)
 
-    print(f"{replacement_numbers}")
     valid_page_numbers = validate_page_numbers(replacement_numbers)
 
     # Perform the replacement of the PDF page numbers with the internal page numbers
@@ -188,7 +185,6 @@ def getTSBPageNumbers(text):
         re.finditer(r"^ ?- ?(\d+) ?- ?$", text, flags=re.IGNORECASE + re.MULTILINE)
     )
     if len(page_number_matches) == 0:
-        print("Page numbers not found")
         page_number_matches = list(
             re.finditer(
                 r"[\|■] {0,2}(\d+) ?$", text, flags=re.IGNORECASE + re.MULTILINE
@@ -351,8 +347,6 @@ def sync_page_numbers(page_number_matches: list, pdf_page_matches: list):
             final_page_numbers[i + 1] = anchors[0]
             anchors.pop(0)
             break
-
-    print(f"template: {final_page_numbers}")
 
     final_page_numbers = populate_final_page_numbers(final_page_numbers)
 
