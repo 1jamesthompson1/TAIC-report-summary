@@ -75,11 +75,13 @@ class ReportExtractor:
         endRegex = r"(?<!<< Page \d+ >>[,/.\w\s]*)[\.]{2,} {1,2}[\d]{1,2}"
 
         # Get the entire string between the start and end regex
-        startMatch = re.search(startRegex, self.report_text)
+        startMatch = re.search(startRegex, self.report_text, re.IGNORECASE)
         endMatches = list(re.finditer(endRegex, self.report_text))
         if endMatches:
             endMatch = endMatches[-1]
         else:
+            if startMatch:
+                print(f"Found a start but no end: {startMatch} for {self.report_id}")
             return None
 
         if startMatch and endMatch:
