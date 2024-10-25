@@ -330,9 +330,11 @@ class TAICReportScraper(ReportScraper):
             inplace=True,
         )
 
-        investigations["year"] = investigations["Occurrence Date  Sort ascending"].map(
-            lambda x: int(x[-4:])
+        investigations["Published Date"] = pd.to_datetime(
+            investigations["Published Date"], errors="coerce", format="%d %b %Y"
         )
+
+        investigations["year"] = investigations["Published Date"].dt.year
 
         investigations["id"] = investigations["Number and name"].map(
             lambda x: re.search(r"(?:[MAR]O-\d{4}-)\d{3}", x).group(0)
