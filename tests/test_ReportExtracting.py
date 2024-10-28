@@ -9,6 +9,49 @@ from engine.extract.ReportExtracting import (
 )
 
 
+@pytest.mark.parametrize(
+    "report_id, expected",
+    [
+        pytest.param(
+            "TAIC_m_2016_204",
+            ["Contents  \n \nAb", "...........  16", 6570],
+            id="TAIC_m_2016_204",
+        ),
+        pytest.param(
+            "TAIC_r_2002_122",
+            ["Contents \nAbbre", "..............19", 8178],
+            id="TAIC_r_2002_122",
+        ),
+        pytest.param(
+            "TAIC_a_2010_001",
+            ["Contents  \n \nAb", "...........  14", 3188],
+            id="TAIC_a_2010_001",
+        ),
+    ],
+)
+def test_content_section_extraction(report_id, expected):
+    extracted_reports = pd.read_pickle(
+        os.path.join(
+            pytest.output_config["folder_name"],
+            pytest.output_config["parsed_reports_df_file_name"],
+        )
+    )
+
+    assert not extracted_reports.loc[report_id].empty
+
+    report_text = extracted_reports.loc[report_id, "text"]
+
+    assert report_text is not None
+
+    extractor = ReportSectionExtractor(report_text, report_id)
+
+    content_section = extractor.extract_contents_section()
+
+    assert content_section[: len(expected[0])] == expected[0]
+    assert content_section[-len(expected[1]) :] == expected[1]
+    assert len(content_section) == expected[2]
+
+
 class TestSafetyIssueExtraction:
     def test_basic_colon(self):
         report_text = """
@@ -244,7 +287,7 @@ class TestSectionExtraction:
         extracted_reports = pd.read_pickle(
             os.path.join(
                 pytest.output_config["folder_name"],
-                pytest.output_config["extracted_reports_df_file_name"],
+                pytest.output_config["parsed_reports_df_file_name"],
             )
         )
 
@@ -493,7 +536,7 @@ and arrived on the bridge to prepare for arrival at the port."""
         )
 
     def test_section_full_report(self):
-        section = self.__test_section_extraction("2016_204", "4.3")
+        section = self.__test_section_extraction("TAIC_m_2016_204", "4.3")
 
         assert (
             section
@@ -551,10 +594,10 @@ planning in particular. They include: the United Kingdom's Maritime and Coastgua
 Chapter V, Safety of Navigation, of the Annex to the International Convention for the Safety of Life at Sea ; the 
 Nautical Institute's Bridge Team Management - A practical guide; and the International Chamber of 
 Shipping's Bridge Procedures Guide.  
- 
-Final Report MO -2016 -204 
+
 << Page 15 >>
- 4.3.8.  One method of ensuring that an approved passage plan is available on board would be for 
+ 
+Final Report MO -2016 -204 | Page 15 4.3.8.  One method of ensuring that an approved passage plan is available on board would be for 
 port companies or harbour authorities to make available to vessel s properly constructed and 
 validated passage plan s that meet the  port-specific standards  and guidelines included in  
 Chapter V, Safety of Navigation , of the Annex to the International Convention for the Safety of 
@@ -713,7 +756,7 @@ Location of burst on failed cylinder"""
         )
 
     def test_paragraph_to_next_section_full(self):
-        section = self.__test_section_extraction("2014_004", "4.2.5")
+        section = self.__test_section_extraction("TAIC_a_2014_004", "4.2.5")
 
         assert (
             section
@@ -726,7 +769,7 @@ very unlikely that the pilot had been physically incapacitated before the stall.
 1. Pilot incapacitation was very unlikely to have been a contributing factor.  
 
 << Page 14 >>
- Final report AO -2014 -004"""
+Page 14 | Final report AO -2014 -004"""
         )
 
     def test_paragraph_to_next_section(self):
@@ -794,7 +837,7 @@ Final Report MO -2017 -203
         )
 
     def test_missing_next_section(self):
-        section = self.__test_section_extraction("2010_204", "3.1.9")
+        section = self.__test_section_extraction("TAIC_m_2010_204", "3.1.9")
 
         assert (
             section
@@ -804,11 +847,11 @@ to return and stand  by to assist as soon as possible.
   
 
 << Page 6 >>
- Report 10 -204"""
+Page 6 | Report 10 -204"""
         )
 
     def test_suitable_match_after_real_section(self):
-        section = self.__test_section_extraction("2016_204", "4.2.10")
+        section = self.__test_section_extraction("TAIC_m_2016_204", "4.2.10")
 
         assert (
             section
@@ -825,10 +868,10 @@ starboard of the intended track .
 2. The bridge team , including the pilot , did not realise how far the vessel  had 
 deviated from the intended track because they were not monitoring the vessel 's 
 progress effectively and by all available means . 
- 
-Final Report MO -2016 -204 
+
 << Page 13 >>
- Figure 5  
+ 
+Final Report MO -2016 -204 | Page 13 Figure 5  
 Passage plan track of the Molly Manx  (green) and actual track (red)  
   
 passage plan track  
@@ -840,12 +883,13 @@ ebb tide direction
 grounding position  
 Molly Manx 's course made 
 good  
-Final Report MO -2016 -204 
-<< Page 14 >>"""
+
+<< Page 14 >>
+Final Report MO -2016 -204 | Page 14"""
         )
 
     def test_skipped_section_mismatch(self):
-        section = self.__test_section_extraction("2010_001", "1.3")
+        section = self.__test_section_extraction("TAIC_a_2010_001", "1.3")
 
         assert (
             section
@@ -854,10 +898,10 @@ operator had a more robust flight dispatch system, and had the air traffic servi
 with a requirement to pass flight information to pilots on first contact.  The Commission made a 
 safety recommendation regarding the clarity of informat ion about  hazardous meteorological 
 conditions.  
- 
 
 << Page 2 >>
- Report 10 -001 2. Factual Information"""
+ 
+Page 2 | Report 10 -001 2. Factual Information"""
         )
 
     def test_no_section(self):
@@ -929,7 +973,7 @@ and the cylinder s are  allowed back into service .
         assert section is None
 
     def test_no_section_prior_match(self):
-        section = self.__test_section_extraction("2022_101", "4.5")
+        section = self.__test_section_extraction("TAIC_r_2022_101", "4.5")
 
         assert section is None
 
@@ -938,7 +982,7 @@ and the cylinder s are  allowed back into service .
         There can be a situation where it will go from a sub paragraph to the next paragraph, as the subsection is not findable.
         """
 
-        section = self.__test_section_extraction("2010_009", "3.6.59")
+        section = self.__test_section_extraction("TAIC_a_2010_009", "3.6.59")
 
         assert (
             section
@@ -958,11 +1002,11 @@ educational material was later passed to the NZPIA f or distribution to member o
 Employment Act 1992 Prime Ministerial Designation Pursuant to Section 28B of the Health and Safety in Employment Act 1992.  
 
 << Page 20 >>
- Report 10 -009"""
+Page 20 | Report 10 -009"""
         )
 
     def test_first_section(self):
-        section = self.__test_section_extraction("2019_106", "1.1")
+        section = self.__test_section_extraction("TAIC_r_2019_106", "1.1")
 
         assert (
             section
@@ -974,7 +1018,7 @@ Main Line without the knowledge of train control ."""
         )
 
     def test_two_early_references(self):
-        section = self.__test_section_extraction("2014_102", "6.3.2")
+        section = self.__test_section_extraction("TAIC_r_2014_102", "6.3.2")
 
         assert (
             section
@@ -989,16 +1033,16 @@ wider rail industry .
  
 
 << Page 14 >>
- Final report RO -2014 -102 7. Recommendations"""
+Page 14 | Final report RO -2014 -102 7. Recommendations"""
         )
 
     def test_one_early_reference_with_missing_previous_section(self):
-        section = self.__test_section_extraction("2020_202", "4.9")
+        section = self.__test_section_extraction("TAIC_m_2020_202", "4.9")
 
         assert section is None
 
     def test_one_reference_in_content_section_with_missing_previous_section(self):
-        section = self.__test_section_extraction("2016_204", "7.5")
+        section = self.__test_section_extraction("TAIC_m_2016_204", "7.5")
 
         assert section is None
 
