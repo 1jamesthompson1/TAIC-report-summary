@@ -27,6 +27,26 @@ from engine.extract.ReportExtracting import (
             ["Contents  \n \nAb", "...........  14", 3188],
             id="TAIC_a_2010_001",
         ),
+        pytest.param(
+            "TAIC_m_2020_202",
+            ["Contents    \n1 ", "...........  22", 8763],
+            id="TAIC_m_2020_202",
+        ),
+        pytest.param(
+            "TAIC_r_2019_106",
+            ["Contents   \n1 E", "............  8", 5693],
+            id="TAIC_r_2019_106",
+        ),
+        pytest.param(
+            "TAIC_a_2018_006",
+            ["Contents  \n1. E", "...........  11", 9590],
+            id="TAIC_a_2018_006",
+        ),
+        pytest.param(
+            "TAIC_m_2010_204",
+            ["Contents  \nAbbr", "....... .... 20", 6157],
+            id="TAIC_m_2010_204",
+        ),
     ],
 )
 def test_content_section_extraction(report_id, expected):
