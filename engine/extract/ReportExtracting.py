@@ -71,25 +71,58 @@ class ReportExtractor:
             )
 
     def extract_contents_section(self) -> str:
-        startRegex = r"((Content)|(content)|(Contents)|(contents))([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*\.{5,})"
-        endRegex = r"(?<!<< Page \d+ >>[,/.\w\s]*)[\.]{2,} {1,2}[\d]{1,2}"
+        startRegex = r"(contents?)([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*[ \.]{5,})"
+        endRegex = (
+            r"^(.*(\.{5,}|(\. ){5,}).*[\dxvi]+.{0,5}?)|((\d+\.){1,3}\d+\.?.* \d+)$"
+        )
+
+        endOfContentSection = len(self.report_text) / 4
 
         # Get the entire string between the start and end regex
         startMatch = re.search(startRegex, self.report_text, re.IGNORECASE)
-        endMatches = list(re.finditer(endRegex, self.report_text))
+        if startMatch:
+            if startMatch.end() > endOfContentSection:
+                startMatch = None
+        endMatches = list(
+            re.finditer(endRegex, self.report_text, re.MULTILINE | re.IGNORECASE)
+        )
         if endMatches:
+            endMatches = [
+                endMatch
+                for endMatch in endMatches
+                if endMatch.start() < endOfContentSection
+            ]
+
+        if startMatch:
+            if len(endMatches) == 0:
+                print(f"Found a start {self.report_id} but no end: {startMatch}")
+                return None
+            endMatches = [
+                endMatch
+                for endMatch in endMatches
+                if endMatch.start() - startMatch.end() < 15_000
+            ]
+            if len(endMatches) == 0:
+                print(
+                    f"Found a start {self.report_id} but no end that isn't too far away: {startMatch}"
+                )
+                return None
+            endMatch = endMatches[-1]
+        elif len(endMatches) > 1:
+            endMatches = [
+                endMatch
+                for endMatch in endMatches
+                if endMatch.start() - endMatches[0].end() < 15_000
+            ]
+
+            startMatch = endMatches[0]
             endMatch = endMatches[-1]
         else:
-            if startMatch:
-                print(f"Found a start but no end: {startMatch} for {self.report_id}")
+            if len(endMatches) > 0:
+                print(f"Found an end {self.report_id} but no start: {endMatches[-1]}")
             return None
 
-        if startMatch and endMatch:
-            contents_section = self.report_text[startMatch.start() : endMatch.end()]
-        else:
-            return None
-
-        return contents_section
+        return self.report_text[startMatch.start() : endMatch.end()]
 
     def extract_pages_to_read(self, content_section) -> list:
         attempts_left = 5

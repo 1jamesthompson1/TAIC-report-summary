@@ -12,6 +12,7 @@ from engine.extract.ReportExtracting import (
 @pytest.mark.parametrize(
     "report_id, expected",
     [
+        # TAIC reports
         pytest.param(
             "TAIC_m_2016_204",
             ["Contents  \n \nAb", "...........  16", 6570],
@@ -24,7 +25,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TAIC_a_2010_001",
-            ["Contents  \n \nAb", "...........  14", 3188],
+            ["Contents  \n \nAb", "............  v", 3495],
             id="TAIC_a_2010_001",
         ),
         pytest.param(
@@ -34,7 +35,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TAIC_r_2019_106",
-            ["Contents   \n1 E", "............  8", 5693],
+            ["Contents   \n1 E", "........... . 8", 5844],
             id="TAIC_r_2019_106",
         ),
         pytest.param(
@@ -46,6 +47,32 @@ from engine.extract.ReportExtracting import (
             "TAIC_m_2010_204",
             ["Contents  \nAbbr", "....... .... 20", 6157],
             id="TAIC_m_2010_204",
+        ),
+        # ATSB reports
+        pytest.param(
+            "ATSB_m_2000_157",
+            ["Contents\nSummar", ". . . . . . .30", 4202],
+            id="ATSB_m_2000_157 (spaces in the dots)",
+        ),
+        pytest.param(
+            "ATSB_a_2007_012",
+            ["CONTENTS \n \nTAB", ".............74", 14736],
+            id="ATSB_a_2007_012 (long content section)",
+        ),
+        pytest.param(
+            "ATSB_a_2023_011",
+            None,
+            id="ATSB_a_2023_011 (No content section)",
+        ),
+        pytest.param(
+            "ATSB_m_2001_170",
+            ["CONTENTS\nSummar", "speed of 7 to 7", 5906],
+            id="ATSB_m_2001_170 (discarding matches outside of content section)",
+        ),
+        pytest.param(
+            "ATSB_r_2021_002",
+            ["Contents  \nSafe", "okmark not defi", 11280],
+            id="ATSB_r_2021_002 (Long content section)",
         ),
     ],
 )
@@ -67,9 +94,13 @@ def test_content_section_extraction(report_id, expected):
 
     content_section = extractor.extract_contents_section()
 
-    assert content_section[: len(expected[0])] == expected[0]
-    assert content_section[-len(expected[1]) :] == expected[1]
-    assert len(content_section) == expected[2]
+    if expected:
+        assert content_section[: len(expected[0])] == expected[0]
+        assert content_section[-len(expected[1]) :] == expected[1]
+        assert len(content_section) == expected[2]
+
+    else:
+        assert content_section is None
 
 
 class TestSafetyIssueExtraction:
