@@ -89,11 +89,13 @@ def test_report_collection(report_scraping_settings, agency, url, expected):
     "agency, expected_urls",
     [
         pytest.param("TSB", [54, 24, 20, 13, 19, 10, 15, 10, 13], id="TSB"),
-        pytest.param("TAIC", [13, 11, 3, 29, 8, 4, 12, 3, 5], id="TAIC"),
-        pytest.param("ATSB", [93, 179, 50, 6, 25, 17, 15, 8, 3], id="ATSB"),
+        pytest.param("TAIC", [6, 7, 11, 29, 4, 6, 15, 3, 4], id="TAIC"),
+        pytest.param("ATSB", [93, 179, 50, 6, 25, 17, 15, 8, 2], id="ATSB"),
     ],
 )
 def test_agency_website_scraper(report_scraping_settings, agency, expected_urls):
+    report_scraping_settings.start_year = 2004
+    report_scraping_settings.end_year = 2021
     scraper = get_agency_scraper(agency, report_scraping_settings)
 
     assert scraper

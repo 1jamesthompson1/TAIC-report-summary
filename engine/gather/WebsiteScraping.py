@@ -52,7 +52,7 @@ class ReportScraper:
             )
         else:
             self.report_titles_df = pd.DataFrame(
-                columns=["report_id", "title", "event_type"]
+                columns=["report_id", "title", "event_type", "misc"]
             )
 
         self.headers = {
@@ -134,8 +134,6 @@ class ReportScraper:
             if number_for_year >= self.settings.max_per_year:
                 break
 
-        self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
-
     def collect_report(self, report_id, url, pbar=None):
         file_name = os.path.join(
             self.settings.report_dir,
@@ -160,7 +158,7 @@ class ReportScraper:
                 webpage = hrequests.get(url, headers=self.headers, timeout=30)
             except hrequests.exceptions.ClientException as e:
                 if pbar:
-                    pbar.write(f"  Failed to collect {url}, {e}")
+                    pbar.write(f"{e}")
                 return False
         except hrequests.exceptions.BrowserTimeoutException:
             if pbar:
@@ -263,7 +261,7 @@ class ReportScraper:
 
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
-    ) -> tuple[str, str, str]:
+    ) -> tuple[str, str, str, dict]:
         """
         Gets the investigation webpage and scrapes extra information about the report.
 
@@ -278,17 +276,22 @@ class ReportScraper:
 
         Returns
         -------
-        tuple[str, str, str]
-            A tuple containing the report_id, title, event_type
+        tuple[str, str, str, dict]
+            A tuple containing the report_id, title, event_type, misc
         """
 
-    def __add_report_metadata_to_df(self, report_id: str, title: str, event_type: str):
+    def __add_report_metadata_to_df(
+        self, report_id: str, title: str, event_type: str, misc: dict
+    ):
         if self.report_titles_df.query("report_id == @report_id").empty:
             self.report_titles_df.loc[len(self.report_titles_df)] = [
                 report_id,
                 title,
                 event_type,
+                misc,
             ]
+
+            self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
 
 
 class TAICReportScraper(ReportScraper):
@@ -327,9 +330,11 @@ class TAICReportScraper(ReportScraper):
             inplace=True,
         )
 
-        investigations["year"] = investigations["Occurrence Date  Sort ascending"].map(
-            lambda x: int(x[-4:])
+        investigations["Published Date"] = pd.to_datetime(
+            investigations["Published Date"], errors="coerce", format="%d %b %Y"
         )
+
+        investigations["year"] = investigations["Published Date"].dt.year
 
         investigations["id"] = investigations["Number and name"].map(
             lambda x: re.search(r"(?:[MAR]O-\d{4}-)\d{3}", x).group(0)
@@ -351,7 +356,7 @@ class TAICReportScraper(ReportScraper):
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
-        return report_id, title, None
+        return report_id, title, None, {}
 
 
 class ATSBReportScraper(ReportScraper):
@@ -386,21 +391,37 @@ class ATSBReportScraper(ReportScraper):
                 historic_aviation_investigations_path
             )
 
-        url = "https://www.atsb.gov.au/{mode}-investigation-reports?page={page_num}"
+        url_start_date = (
+            f"field_occurence_date_value%5Bmin%5D={self.settings.start_year}-01-01"
+        )
+        url_end_date = (
+            f"field_occurence_date_value%5Bmax%5D={self.settings.end_year}-12-31"
+        )
+
+        url = "https://www.atsb.gov.au/{mode}-investigation-reports?order=field_occurence_date&sort=desc&page={page_num}&field_investigation_type_target_id=162&field_report_status_target_id=93&{url_start_date}&{url_end_date}"
 
         parsed = urlparse(url)
         base_url = f"{parsed.scheme}://{parsed.netloc}"
 
         dfs = []
-        for mode in [
-            Modes.Mode.as_string(mode).lower() for mode in self.settings.modes
-        ]:
+        for mode in (
+            pbar := tqdm(
+                [Modes.Mode.as_string(mode).lower() for mode in self.settings.modes]
+            )
+        ):
             pages = []
             page_num = 0
             while True:
+                pbar.set_description(f"Scraping mode: {mode}, page: {page_num}")
                 try:
                     page = hrequests.get(
-                        url.format(mode=mode, page_num=page_num), headers=self.headers
+                        url.format(
+                            mode=mode,
+                            page_num=page_num,
+                            url_start_date=url_start_date,
+                            url_end_date=url_end_date,
+                        ),
+                        headers=self.headers,
                     ).content
 
                     page_df = pd.read_html(
@@ -414,6 +435,15 @@ class ATSBReportScraper(ReportScraper):
                     ].apply(lambda x: urljoin(base_url, x[1]))
 
                     page_df = page_df.map(lambda x: x[0] if isinstance(x, tuple) else x)
+
+                    page_df.rename(
+                        {
+                            "Occurrence date  Sort ascending": "Occurrence date",
+                            "Occurrence date  Sort descending": "Occurrence date",
+                        },
+                        axis=1,
+                        inplace=True,
+                    )
 
                     if mode == "aviation":
                         # Check if any investigation number match.
@@ -449,18 +479,9 @@ class ATSBReportScraper(ReportScraper):
 
         df = pd.concat(dfs, axis=0, keys=self.settings.modes)
 
-        df.rename(
-            {
-                "Occurrence date  Sort descending": "Occurrence date",
-                "Occurrence date  Sort ascending": "Occurrence date",
-            },
-            axis=1,
-            inplace=True,
-        )
-
         df["year"] = pd.to_datetime(
-            df["Occurrence date"], format="%d/%m/%Y", errors="coerce"
-        ).dt.year
+            df["Occurrence date"].to_list(), format="%d/%m/%Y", errors="coerce"
+        ).year
 
         df = df.query(f"year >= {self.settings.start_year}")
 
@@ -501,11 +522,24 @@ class ATSBReportScraper(ReportScraper):
             if event_type_div is not None:
                 event_type = event_type_div.find("div", class_="field__item").text
 
+        investigation_level = soup.find(
+            "div", class_="field--name-field-investigation-level"
+        )
+        if investigation_level is not None:
+            investigation_level = investigation_level.find(
+                "div", class_="field__item"
+            ).text
+
         title_div = soup.find("div", class_="field--name-title")
 
         title = title_div.text
 
-        return report_id, title, event_type
+        return (
+            report_id,
+            title,
+            event_type,
+            [{"investigation_level": investigation_level}],
+        )
 
 
 class TSBReportScraper(ReportScraper):
@@ -528,7 +562,7 @@ class TSBReportScraper(ReportScraper):
                     headers=self.headers,
                 ).content
             )[0]
-            for mode in modes
+            for mode in tqdm(modes)
         ]
 
         # Add dataframes togather with extra column identifier
@@ -589,4 +623,4 @@ class TSBReportScraper(ReportScraper):
 
         all_text = ", ".join(paragraph_text + [date_text])
 
-        return report_id, all_text, event_type
+        return report_id, all_text, event_type, {}

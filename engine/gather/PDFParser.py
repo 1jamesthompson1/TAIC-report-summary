@@ -42,7 +42,9 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
     if os.path.exists(parsed_reports_df_file_name) and not refresh:
         parsed_reports_df = pd.read_pickle(parsed_reports_df_file_name)
     else:
-        parsed_reports_df = pd.DataFrame(columns=["report_id", "text", "valid"])
+        parsed_reports_df = pd.DataFrame(
+            columns=["report_id", "text", "valid", "headers"]
+        )
 
     new_parsed_reports = []
 
@@ -59,12 +61,23 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
         if report_id in parsed_reports_df["report_id"].values:
             continue
         try:
-            text = extractTextFromPDF(report_pdf_path)
+            text, headers = extractTextFromPDF(report_pdf_path)
 
-            text, valid = formatText(text, report_id)
+            text, valid, pdf_to_internal_page_numbers = formatText(text, report_id)
+
+            updated_headers = (
+                updateHeaders(headers, pdf_to_internal_page_numbers)
+                if not headers.empty
+                else None
+            )
 
             new_parsed_reports.append(
-                {"report_id": report_id, "text": text, "valid": valid}
+                {
+                    "report_id": report_id,
+                    "text": text,
+                    "valid": valid,
+                    "headers": updated_headers,
+                }
             )
 
             if len(new_parsed_reports) > 50:
@@ -88,13 +101,43 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
         parsed_reports_df.to_pickle(parsed_reports_df_file_name)
 
 
+def process_outline(outline, reader, level=1):
+    headers = []
+    if not outline:
+        return headers
+    for item in outline:
+        if isinstance(item, list):
+            headers.extend(process_outline(item, reader, level + 1))
+        else:
+            if isinstance(item["/Page"], dict) and "/StructParents" in item["/Page"]:
+                headers.append(
+                    {
+                        "Title": item["/Title"],
+                        "Level": level,
+                        "Page": reader.get_destination_page_number(item),
+                    }
+                )
+
+    return headers
+
+
+def updateHeaders(headers, pdf_to_internal_page_numbers):
+    converter = pd.DataFrame(pdf_to_internal_page_numbers).set_index(0)
+
+    headers["Page"] = headers["Page"].apply(lambda x: converter.loc[x][1])
+
+    return headers
+
+
 def extractTextFromPDF(pdf_path):
     with open(pdf_path, "rb") as pdf_file:
         reader = PdfReader(pdf_file)
         text = ""
         for i, page in enumerate(reader.pages):
             text += f"\n\n--- Page {i} start ---\n" + page.extract_text()
-    return text
+
+        headers = pd.DataFrame(process_outline(reader.outline, reader))
+    return text, headers
 
 
 def formatText(text, report_id):
@@ -135,9 +178,8 @@ def formatText(text, report_id):
     # This process leaves the original page numbers in the text
     results = []
     last_end = 0
-    for page_number_match, replacement_number in zip(
-        pdf_page_matches, replacement_numbers
-    ):
+    pdf_to_internal_page_numbers = list(zip(pdf_page_matches, replacement_numbers))
+    for page_number_match, replacement_number in pdf_to_internal_page_numbers:
         start, end = page_number_match.span()
         results.append(text[last_end:start])
         if replacement_number != "":
@@ -147,7 +189,12 @@ def formatText(text, report_id):
     results.append(text[last_end:])
     text = "".join(results)
 
-    return text, valid_page_numbers
+    pdf_to_internal_page_numbers = [
+        (int(pdf_page_match.group(1)), replacement_number)
+        for (pdf_page_match, replacement_number) in pdf_to_internal_page_numbers
+    ]
+
+    return text, valid_page_numbers, pdf_to_internal_page_numbers
 
 
 def getATSBPageNumbers(text):
