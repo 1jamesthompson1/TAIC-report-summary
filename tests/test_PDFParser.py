@@ -116,7 +116,7 @@ import engine.gather.PDFParser as PDFParser
     ],
 )
 def test_formatText(report_id, expected):
-    text = PDFParser.extractTextFromPDF(
+    text, headers = PDFParser.extractTextFromPDF(
         os.path.join(
             pytest.output_config["folder_name"],
             pytest.output_config["report_pdf_folder_name"],
@@ -124,7 +124,7 @@ def test_formatText(report_id, expected):
         )
     )
 
-    text, valid = PDFParser.formatText(text, report_id)
+    text, valid, _ = PDFParser.formatText(text, report_id)
 
     page_number_matches = list(
         re.finditer(
