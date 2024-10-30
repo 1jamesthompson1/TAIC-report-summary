@@ -4,6 +4,7 @@ import pandas as pd
 import pytest
 
 from engine.extract.ReportExtracting import (
+    ReportExtractor,
     ReportSectionExtractor,
     SafetyIssueExtractor,
 )
@@ -74,6 +75,11 @@ from engine.extract.ReportExtracting import (
             ["Contents  \nSafe", "okmark not defi", 11280],
             id="ATSB_r_2021_002 (Long content section)",
         ),
+        pytest.param(
+            "TSB_r_2020_V0230",
+            ["               ", "ge      2     7", 1169],
+            id="TSB_r_2020_V0230 (Using the pdf headers)",
+        ),
     ],
 )
 def test_content_section_extraction(report_id, expected):
@@ -90,7 +96,7 @@ def test_content_section_extraction(report_id, expected):
 
     assert report_text is not None
 
-    extractor = ReportSectionExtractor(report_text, report_id)
+    extractor = ReportExtractor(report_text, report_id)
 
     content_section = extractor.extract_contents_section()
 
@@ -346,9 +352,9 @@ class TestSectionExtraction:
 
     def __test_section_extraction(self, report_id, section):
         report_text = self.__load_report_text(report_id)
-        section = ReportSectionExtractor(report_text, "test report").extract_section(
-            section, useLLM=False
-        )
+        section = ReportSectionExtractor(
+            report_text, "test report", "Empty"
+        ).extract_section(section, useLLM=False)
         return section
 
     def test_section(self):

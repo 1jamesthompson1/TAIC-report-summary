@@ -9,9 +9,10 @@ from engine.utils.AICaller import AICaller
 
 
 class ReportExtractor:
-    def __init__(self, report_text, report_id):
+    def __init__(self, report_text, report_id, headers="Empty"):
         self.report_text = report_text
         self.report_id = report_id
+        self.headers = headers
 
     def extract_important_text(self):
         # Get the pages that should be read
@@ -76,6 +77,9 @@ class ReportExtractor:
             r"^(.*(\.{5,}|(\. ){5,}).*[\dxvi]+.{0,5}?)|((\d+\.){1,3}\d+\.?.* \d+)$"
         )
 
+        if not (isinstance(self.headers, pd.DataFrame) or self.headers is None):
+            raise ValueError("headers cannot be left to default value")
+
         endOfContentSection = len(self.report_text) / 4
 
         # Get the entire string between the start and end regex
@@ -96,7 +100,7 @@ class ReportExtractor:
         if startMatch:
             if len(endMatches) == 0:
                 print(f"Found a start {self.report_id} but no end: {startMatch}")
-                return None
+                return self.headers
             endMatches = [
                 endMatch
                 for endMatch in endMatches
@@ -106,7 +110,7 @@ class ReportExtractor:
                 print(
                     f"Found a start {self.report_id} but no end that isn't too far away: {startMatch}"
                 )
-                return None
+                return self.headers
             endMatch = endMatches[-1]
         elif len(endMatches) > 1:
             endMatches = [
@@ -120,7 +124,7 @@ class ReportExtractor:
         else:
             if len(endMatches) > 0:
                 print(f"Found an end {self.report_id} but no start: {endMatches[-1]}")
-            return None
+            return self.headers
 
         return self.report_text[startMatch.start() : endMatch.end()]
 
@@ -301,8 +305,8 @@ issues.
 
 
 class ReportSectionExtractor(ReportExtractor):
-    def __init__(self, report_text, report_id):
-        super().__init__(report_text, report_id)
+    def __init__(self, report_text, report_id, headers):
+        super().__init__(report_text, report_id, headers)
 
     def _get_previous_section(self, section_str: str):
         """
@@ -552,8 +556,8 @@ The section number I am looking for is {section}
 
 
 class RecommendationsExtractor(ReportSectionExtractor):
-    def __init__(self, report_text, report_id):
-        super().__init__(report_text, report_id)
+    def __init__(self, report_text, report_id, headers):
+        super().__init__(report_text, report_id, headers)
 
     def extract_recommendations(self):
         """
@@ -758,11 +762,11 @@ class ReportExtractingProcessor:
         important_text_df.to_pickle(output_file)
 
     def __extract_sections(
-        num_sections, all_potential_sections, report_text, debug=False
+        num_sections, all_potential_sections, report_text, debug=False, headers=None
     ):
         get_parts_regex = r"(((\d{1,2}).\d{1,2}).\d{1,2})"
 
-        extractor = ReportSectionExtractor(report_text, num_sections)
+        extractor = ReportSectionExtractor(report_text, num_sections, headers)
 
         sections = []
 
@@ -847,7 +851,7 @@ class ReportExtractingProcessor:
 
         new_reports = []
 
-        for _, report_id, report_text in (
+        for _, report_id, report_text, _, headers in (
             pbar := tqdm(list(self.report_text_df.itertuples()))
         ):
             pbar.set_description(f"Extracting sections from {report_id}")
@@ -855,7 +859,7 @@ class ReportExtractingProcessor:
                 continue
 
             sections_df = ReportExtractingProcessor.__extract_sections(
-                num_sections, paragraphs, report_text, debug=False
+                num_sections, paragraphs, report_text, debug=False, headers=headers
             )
             sections_df["report_id"] = report_id
 
