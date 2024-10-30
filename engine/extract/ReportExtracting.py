@@ -12,7 +12,9 @@ class ReportExtractor:
     def __init__(self, report_text, report_id, headers="Empty"):
         self.report_text = report_text
         self.report_id = report_id
-        self.headers = headers
+        self.headers = (
+            headers.to_string() if isinstance(headers, pd.DataFrame) else headers
+        )
 
     def extract_important_text(self):
         # Get the pages that should be read
@@ -77,7 +79,7 @@ class ReportExtractor:
             r"^(.*(\.{5,}|(\. ){5,}).*[\dxvi]+.{0,5}?)|((\d+\.){1,3}\d+\.?.* \d+)$"
         )
 
-        if not (isinstance(self.headers, pd.DataFrame) or self.headers is None):
+        if not (isinstance(self.headers, str) or self.headers is None):
             raise ValueError("headers cannot be left to default value")
 
         endOfContentSection = len(self.report_text) / 4
@@ -305,7 +307,7 @@ issues.
 
 
 class ReportSectionExtractor(ReportExtractor):
-    def __init__(self, report_text, report_id, headers):
+    def __init__(self, report_text, report_id, headers="Empty"):
         super().__init__(report_text, report_id, headers)
 
     def _get_previous_section(self, section_str: str):

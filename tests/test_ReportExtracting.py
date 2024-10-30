@@ -93,10 +93,11 @@ def test_content_section_extraction(report_id, expected):
     assert not extracted_reports.loc[report_id].empty
 
     report_text = extracted_reports.loc[report_id, "text"]
+    headers = extracted_reports.loc[report_id, "headers"]
 
     assert report_text is not None
 
-    extractor = ReportExtractor(report_text, report_id)
+    extractor = ReportExtractor(report_text, report_id, headers)
 
     content_section = extractor.extract_contents_section()
 
@@ -353,7 +354,7 @@ class TestSectionExtraction:
     def __test_section_extraction(self, report_id, section):
         report_text = self.__load_report_text(report_id)
         section = ReportSectionExtractor(
-            report_text, "test report", "Empty"
+            report_text, "test report", None
         ).extract_section(section, useLLM=False)
         return section
 
