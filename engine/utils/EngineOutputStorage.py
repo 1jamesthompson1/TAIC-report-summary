@@ -171,7 +171,18 @@ class EngineOutputUploader(EngineOutputManager):
 
         all_document_types = pd.concat(all_document_dfs, axis=0, ignore_index=True)
 
-        self.db.create_table("all_document_types", all_document_types, mode="overwrite")
+        table = self.db.create_table(
+            "all_document_types", all_document_types, mode="overwrite"
+        )
+
+        table.create_fts_index(
+            "document",
+            use_tantivy=False,
+            language="English",
+            stem=True,
+            ascii_folding=True,
+            replace=True,
+        )
 
     def upload_latest_output(self):
         self._upload_folder(
