@@ -13,26 +13,72 @@ class ReportExtractor:
         self.report_text = report_text
         self.report_id = report_id
         self.headers = (
-            headers.to_string() if isinstance(headers, pd.DataFrame) else headers
+            headers.assign(Page=headers["Page"].replace("", "0")).to_string(index=False)
+            if isinstance(headers, pd.DataFrame)
+            else headers
         )
 
+        self.max_important_text_len = (
+            128_000 * 3
+        )  # This account for the fact that a token is about 4 characters and at the moment the LLMs have limits of about 128,000 tokens
+
     def extract_important_text(self):
+        # In cases where the content section doesnt exist or is not adequate we will try to read the entire report.
+        pages = list(
+            re.finditer(
+                r"<< Page (\d+|[xvi]+) >>",
+                self.report_text,
+                re.MULTILINE | re.IGNORECASE,
+            )
+        )
+        default_response = (
+            (self.report_text, f"{pages[0].group(1)},{pages[-1].group(1)}")
+            if len(self.report_text) < self.max_important_text_len
+            else (None, None)
+        )
+
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections is None:
-            return None, None
+            return default_response
 
         pages_to_read = self.extract_pages_to_read(contents_sections)
 
         if pages_to_read is None:
-            return None, None
+            return default_response
 
-        # Try and read the pages. If it fails try and read to the next page three times. Then give up.
-        text = self.extract_text_between_page_numbers(
-            pages_to_read[0], pages_to_read[-1]
+        text = "\n".join(
+            map(
+                lambda x: x if x is not None else "",
+                [self.extract_page(page_to_read) for page_to_read in pages_to_read],
+            )
         )
 
         return text, pages_to_read
+
+    def extract_page(self, page_to_read):
+        if page_to_read in ["0", 0]:
+            first_page = re.search(
+                r"<< Page \d+|[xvi]+ >>", self.report_text, re.MULTILINE | re.IGNORECASE
+            )
+            return self.report_text[: first_page.start()]
+
+        page = re.search(
+            rf"<< Page {page_to_read} >>[\s\S]+<< Page (\d+|[xvi]+) >>",
+            self.report_text,
+            re.MULTILINE | re.IGNORECASE,
+        )
+        if page is None:
+            final_page = re.search(
+                rf"<< Page {page_to_read} >>[\s\S]+",
+                self.report_text,
+                re.MULTILINE | re.IGNORECASE,
+            )
+            if final_page is None:
+                return None
+            return final_page.group(0)
+        else:
+            return page.group(0)
 
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
@@ -139,32 +185,96 @@ class ReportExtractor:
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = AICaller.query(
+                    # You are helping me read the content section of a report.
+                    # I am wanting to find the pages that useful for finding the safety issues.
+                    # This generally means I am want to know about "Analysis" and "Findings".
+                    # I want you to first identify the sections that you want me to read. These should be:
+                    # - analysis (all pages)
+                    # - findings (all pages)
+                    # - executive summary / summary
+                    # - any other section you think is relevant to safety issues. (safety actions sections are not but safety issues/actions sections are)
+                    # Then can you please respond with which pages I need to read to make sure that I have read all of the sections that you have come up with above as well as the analysis and findings sections.
+                    # Note that if you want to include section 3. then I should include every page from 3. and 4 (eg if 3. is on page 13 and 4. is on page 18, you would include 13,14,15,16,17,18).
+                    # If you can't find any analysis or findings section then you can just return None. You should also return None if the toc really doesn't look like a table of content.
+                    # Your response is only a list of integers, include all pages that I need to read. No words are allowed in your response.
+                    # example response might look ike: "1,2,7,8,9,10,11,12" or "7,8,9,11,12,13"
                     """
 You are helping me read the content section of a report.
 
-I am only interested in two sections "Analysis" and "Findings".
-Can you please tell me which page Analysis starts on and which page the Findings section ends on.
+I want to find the pages that are useful for identifying safety issues. This generally means sections related to "Analysis" and "Findings". Please follow these steps:
 
-Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'
+1. **Identify Relevant Sections**:
+   - Look for sections that contain the following keywords:
+     - Analysis
+     - Findings
+     - Executive Summary / Summary
+     - Safety Issues / Actions
+     - Any other section explicitly related to safety issues
+
+2. **List All Pages in Identified Sections**:
+   - For each identified section, list all the pages from the start to the end of the section.
+   - If a section starts on page X and ends on page Y, include all pages from X to Y. For example, if section 3 starts on page 13 and section 4 starts on page 18, include pages 13 to 18. You must always add an extra page to make sure you have the end of the section.
+
+3. **Ensure Continuity**:
+   - Ensure there are no gaps between pages in the same section. List all consecutive pages without skipping any.
+
+4. **Check for None Condition**:
+   - If no sections match the specified keywords, or if the table of contents does not look like a table of contents, return None.
+
+Your response should only include the list of page numbers. No words are allowed in your response. Ensure there are no duplicate page numbers in the list.
+
+Example response: "1,2,7,8,9,10,11,12", "i, 4,5,6,7,8" or "7,8,9,11,12,13"
 """,
                     content_section,
-                    model="gpt-4",
+                    model="gpt-4o-mini",
                     temp=0,
                 )
 
-                if model_response == "None":
+                cleaned_response = model_response.strip().replace("'", "")
+
+                if cleaned_response == "None":
                     return None
 
-                pages_to_read = [int(num) for num in model_response.split(",")]
+                cleaned_pages = [page.strip() for page in cleaned_response.split(",")]
+                pages_to_read = [
+                    int(num)
+                    if num.isdigit()
+                    else (num if set(num).issubset(set("vix")) else int(num))
+                    for num in cleaned_pages
+                ]
 
                 break
-            except ValueError:
-                print(
-                    f"  Incorrect response from model retrying. \n  Response was: '{model_response}'"
-                )
+            except ValueError as e:
+                print(f"  Incorrect response from model retrying, error: {e}'")
                 attempts_left -= 1
 
-        return pages_to_read
+        if pages_to_read is None:
+            return None
+
+        # Fill in missing pages if there is only a gap less than 3.
+        filled_out_pages_to_read = []
+        previous_roman = False
+        for page in pages_to_read:
+            filled_out_pages_to_read.append(page)
+            if isinstance(page, str):
+                previous_roman = True
+                continue
+            if (
+                (not previous_roman)
+                and len(filled_out_pages_to_read) > 1
+                and (
+                    1
+                    < (filled_out_pages_to_read[-1] - filled_out_pages_to_read[-2])
+                    < 4
+                )
+            ):
+                filled_out_pages_to_read.insert(-1, filled_out_pages_to_read[-2] + 1)
+                if filled_out_pages_to_read[-1] - filled_out_pages_to_read[-2] == 2:
+                    filled_out_pages_to_read.insert(
+                        -1, filled_out_pages_to_read[-2] + 1
+                    )
+            previous_roman = False
+        return filled_out_pages_to_read
 
 
 class SafetyIssueExtractor(ReportExtractor):
