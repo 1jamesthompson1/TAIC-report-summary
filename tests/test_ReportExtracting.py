@@ -115,35 +115,39 @@ def test_content_section_extraction(report_id, expected):
     "report_id, expected",
     [
         pytest.param(
-            "TAIC_r_2019_102", [1, 2, 7, 8, 9, 10, 11, 12, 13, 14], id="TAIC_m_2019_102"
+            "TAIC_r_2019_102",
+            [(1, 2), (7, 13), (13, 14), (14, 15)],
+            id="TAIC_m_2019_102",
         ),
         pytest.param(
             "ATSB_a_2017_117",
-            [1, 2, 3, 4, 5, 6],
+            [(0, 1), (3, 5)],
             id="ATSB_a_2017_117 reading pdf headers",
         ),
-        pytest.param("ATSB_a_2014_073", None, id="ATSB_a_2014_073 no enough"),
+        pytest.param("ATSB_a_2014_073", None, id="ATSB_a_2014_073 noy enough"),
         pytest.param(
-            "TSB_m_2002_C0018", None, id="TSB_m_2002_C0018 random pdf headers"
+            "TSB_m_2002_C0018",
+            None,
+            id="TSB_m_2002_C0018 random pdf headers not a content section",
         ),
         pytest.param(
             "TSB_a_2005_C0187",
-            [19, 20, 21, 22, 23, 24, 25],
+            [(19, 23), (23, 25)],
             id="TSB_a_2005_C0187 relevant sections with different names",
         ),
         pytest.param(
             "ATSB_m_2017_003",
-            [10, 11, 12, 13, 14, 15, 16, 17, 18],
+            [(10, 16), (17, 18)],
             id="ATSB_m_2017_003 needing to fill in the missing pages",
         ),
         pytest.param(
             "ATSB_a_2021_018",
-            ["i", 15, 16, 17, 18, 19, 20, 21],
+            [("i", 1), (15, 17), (17, 18), (18, 21)],
             id="ATSB_a_2021_018 getting the extra safety issues section",
         ),
         pytest.param(
             "TSB_a_2020_P0013",
-            [31, 32, 33, 34, 35, 36, 37, 38],
+            [(31, 36), (36, 38)],
             id="TSB_a_2020_P0013 getting long content section",
         ),
         # pytest.param("TSB_a_2004_H0001", [29,30,31,32,33,34,35,36,37], id="TSB_a_2004_H0001 really messy content section") removed from testing as was too hard to read and get it too work. Extra long import
@@ -169,12 +173,13 @@ def test_content_section_reading(report_id, expected):
     content_section = extractor.extract_contents_section()
     pages_to_read = extractor.extract_pages_to_read(content_section)
     print(f"Expected {expected} and got {pages_to_read}")
+    print(f"Reading {content_section}")
 
     if expected is None:
         assert pages_to_read is None
     else:
         assert set(expected).issubset(pages_to_read)
-        assert len(pages_to_read) <= math.ceil(len(expected) * 1.6)
+        assert len(pages_to_read) <= math.ceil(len(expected) * 1.2)
 
 
 class TestSafetyIssueExtraction:
