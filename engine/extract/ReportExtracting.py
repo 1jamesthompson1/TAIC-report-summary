@@ -213,16 +213,22 @@ class ReportExtractor:
 You are a helpful assistant. You will just respond with the answer no need to explain.
 """,
             user=f"""
-Can you please format this content section? Please include in the format the section number (if it has one) the section title and section page number. Make sure to include all of the pages the the table of contents has even it they are roman numerals.
+Can you please format this table of contents? Please include in the format the section number (if it has one) the section title and section page number. Make sure to include all of the pages the the table of contents has even it they are roman numerals.
 
 It should go like this:
-Section number  Section title  Page number
+[Section number*] - [Section title] [Page number]
+
+Section numbers are optional. They should only be included if they are present in the original table of contents.
+You should not include the figures or tables section of the table of contents.
 
 {raw_content_section}
 """,
             temp=0,
+            max_tokens=4_000,
             model="gpt-4o-mini",
         )
+
+        cleaned_content_section = cleaned_content_section.replace("```", "").strip("\n")
         return cleaned_content_section
 
     def extract_pages_to_read(self, content_section) -> list:
@@ -237,7 +243,7 @@ Section number  Section title  Page number
                 model_response = AICaller.query(
                     system="""
 You are helping me read the content section of a report from a transport accident investigation.
-The content section is either a text extraction from the pdf or a parsing of the pdf header links. This means it may be malformed. However 
+The content section is either a text extraction from the pdf or a parsing of the pdf header links. Note that the content section may be malformed.
 I am looking to find the section of the reports that will help me identify safety issues. I need to the page ranges I need to read.
 
 The sections I want you to find:

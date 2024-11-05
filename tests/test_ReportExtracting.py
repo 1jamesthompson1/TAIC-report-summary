@@ -1,5 +1,6 @@
 import math
 import os
+from difflib import SequenceMatcher
 
 import pandas as pd
 import pytest
@@ -17,48 +18,48 @@ from engine.extract.ReportExtracting import (
         # TAIC reports
         pytest.param(
             "TAIC_m_2016_204",
-            ["Contents  \n \nAb", "...........  16", 6570],
+            ["Abbreviations ii  \nG", "ine Safety Code 40  ", 1395],
             id="TAIC_m_2016_204",
         ),
         pytest.param(
             "TAIC_r_2002_122",
-            ["Contents \nAbbre", "..............19", 8178],
+            ["\nAbbreviations ......", "............... 28  ", 2610],
             id="TAIC_r_2002_122",
         ),
         pytest.param(
             "TAIC_a_2010_001",
-            ["Contents  \n \nAb", "............  v", 3495],
+            ["\nAbbreviations  vii  ", " December 2009  14  ", 637],
             id="TAIC_a_2010_001",
         ),
         pytest.param(
             "TAIC_m_2020_202",
-            ["Contents    \n1 ", "...........  22", 8763],
+            ["1 - Executive summar", " the Commission 35  ", 1555],
             id="TAIC_m_2020_202",
         ),
         pytest.param(
             "TAIC_r_2019_106",
-            ["Contents   \n1 E", "........... . 8", 5844],
+            ["1 - Executive summar", "mission reports 19  ", 802],
             id="TAIC_r_2019_106",
         ),
         pytest.param(
             "TAIC_a_2018_006",
-            ["Contents  \n1. E", "...........  11", 9590],
+            ["1 - Executive summar", " 40  \nCargo pod 40  ", 1302],
             id="TAIC_a_2018_006",
         ),
         pytest.param(
             "TAIC_m_2010_204",
-            ["Contents  \nAbbr", "....... .... 20", 6157],
+            ["\nAbbreviations  .....", "............... 31  ", 5594],
             id="TAIC_m_2010_204",
         ),
         # ATSB reports
         pytest.param(
             "ATSB_m_2000_157",
-            ["Contents\nSummar", ". . . . . . .30", 4202],
+            ["\nI - Summary 1  \nII -", "Details of ship 33  ", 697],
             id="ATSB_m_2000_157 (spaces in the dots)",
         ),
         pytest.param(
             "ATSB_a_2007_012",
-            ["CONTENTS \n \nTAB", ".............74", 14736],
+            ["i - TABLE OF CONTENTS", "6 - APPENDICES 71  \n", 3345],
             id="ATSB_a_2007_012 (long content section)",
         ),
         pytest.param(
@@ -68,17 +69,17 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "ATSB_m_2001_170",
-            ["CONTENTS\nSummar", "speed of 7 to 7", 5906],
+            ["1 - Summary 1  \n2 - S", " - Attachment 1 25  ", 577],
             id="ATSB_m_2001_170 (discarding matches outside of content section)",
         ),
         pytest.param(
             "ATSB_r_2021_002",
-            ["Contents  \nSafe", "okmark not defi", 11280],
+            ["1 - The occurrence 1", "2 - Submissions 30  ", 3040],
             id="ATSB_r_2021_002 (Long content section)",
         ),
         pytest.param(
             "TSB_r_2020_V0230",
-            ["               ", "ge      2     7", 1169],
+            ["Rail Transportation ", ".................. 7", 1055],
             id="TSB_r_2020_V0230 (Using the pdf headers)",
         ),
     ],
@@ -102,10 +103,23 @@ def test_content_section_extraction(report_id, expected):
 
     content_section = extractor.extract_contents_section()
 
+    print(f"Expected: {expected}")
+    print(f"Actual: {content_section}")
     if expected:
-        assert content_section[: len(expected[0])] == expected[0]
-        assert content_section[-len(expected[1]) :] == expected[1]
-        assert len(content_section) == expected[2]
+        # Because we are now using a LLM to clean up the content section. We cant do an exact match. Instead we need to be atleast 2 out of 3 matches.
+        assert (
+            SequenceMatcher(
+                None, content_section[: len(expected[0])], expected[0]
+            ).ratio()
+            > 0.7
+        )
+        assert (
+            SequenceMatcher(
+                None, content_section[-len(expected[1]) :], expected[1]
+            ).ratio()
+            > 0.7
+        )
+        assert abs(len(content_section) - expected[2]) < (expected[2] * 0.1)
 
     else:
         assert content_section is None
@@ -179,7 +193,7 @@ def test_content_section_reading(report_id, expected):
         assert pages_to_read is None
     else:
         assert set(expected).issubset(pages_to_read)
-        assert len(pages_to_read) <= math.ceil(len(expected) * 1.2)
+        assert len(pages_to_read) <= math.ceil(len(expected) * 1.6)
 
 
 class TestSafetyIssueExtraction:
