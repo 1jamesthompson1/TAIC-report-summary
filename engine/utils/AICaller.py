@@ -14,7 +14,7 @@ openai_client = openai.OpenAI(
 anthropic_client = anthropic.Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 
-class BaseALCaller:
+class BaseAICaller:
     def __init__(self, client, model, limit):
         self.client = client
         self.model = model
@@ -29,7 +29,7 @@ class BaseALCaller:
         return sum(self.get_tokens([query])) > self.limit
 
 
-class OpenAICaller(BaseALCaller):
+class OpenAICaller(BaseAICaller):
     def __init__(self, client, model, limit):
         super().__init__(client, model, limit)
 
@@ -61,7 +61,7 @@ class OpenAICaller(BaseALCaller):
             return [choice.message.content for choice in completion.choices]
 
 
-class AnthropicCaller(BaseALCaller):
+class AnthropicCaller(BaseAICaller):
     def __init__(self, client, model, limit):
         super().__init__(client, model, limit)
 
@@ -89,6 +89,7 @@ class AICaller:
         self.models = {
             "gpt-3.5": OpenAICaller(openai_client, "gpt-3.5-turbo-16k", 16_385),
             "gpt-4": OpenAICaller(openai_client, "gpt-4o", 128_000),
+            "gpt-4o-mini": OpenAICaller(openai_client, "gpt-4o-mini", 128_000),
             "gpt-3.5-ft-SIExtraction": OpenAICaller(
                 openai_client, "ft:gpt-3.5-turbo-0125:personal::9AU7vXs3", 16_385
             ),

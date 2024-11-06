@@ -1,3 +1,4 @@
+import concurrent.futures
 import os
 
 import pandas as pd
@@ -13,65 +14,145 @@ class ReportExtractor:
         self.report_text = report_text
         self.report_id = report_id
         self.headers = (
-            headers.to_string() if isinstance(headers, pd.DataFrame) else headers
+            self.create_hierarchy(headers.assign(Page=headers["Page"].replace("", "0")))
+            if isinstance(headers, pd.DataFrame)
+            else headers
         )
 
+        self.max_important_text_len = (
+            128_000 * 3
+        )  # This account for the fact that a token is about 4 characters and at the moment the LLMs have limits of about 128,000 tokens
+
+    def create_hierarchy(self, df):
+        hierarchy = []
+        df["Level_indent"] = df["Level"].apply(lambda x: "- - " * (x - 1))
+        max_title_length = df.apply(
+            lambda x: len(x["Title"]) + len(x["Level_indent"]), axis=1
+        ).max()
+        width = max(30, max_title_length + 10)
+        for _, row in df.iterrows():
+            title = f"{row['Level_indent']}{row['Title']}"
+            if row["Page"]:
+                page_indentation = "." * (width - len(title) - 2)
+                title += f" {page_indentation} {row['Page']}"
+            hierarchy.append(title)
+        return "\n".join(hierarchy)
+
     def extract_important_text(self):
+        # In cases where the content section doesnt exist or is not adequate we will try to read the entire report.
+        pages = list(
+            re.finditer(
+                r"<< Page (\d+|[xvi]+) >>",
+                self.report_text,
+                re.MULTILINE | re.IGNORECASE,
+            )
+        )
+        default_response = (
+            (self.report_text, f"{pages[0].group(1)},{pages[-1].group(1)}")
+            if len(self.report_text) < self.max_important_text_len
+            else (None, None)
+        )
+
         # Get the pages that should be read
         contents_sections = self.extract_contents_section()
         if contents_sections is None:
-            return None, None
+            return default_response
 
         pages_to_read = self.extract_pages_to_read(contents_sections)
 
         if pages_to_read is None:
-            return None, None
+            return default_response
 
-        # Try and read the pages. If it fails try and read to the next page three times. Then give up.
-        text = self.extract_text_between_page_numbers(
-            pages_to_read[0], pages_to_read[-1]
+        text = "\n".join(
+            map(
+                lambda x: x if x is not None else "",
+                [
+                    self.extract_text_between_page_numbers(
+                        page_to_read[0], page_to_read[1]
+                    )
+                    if (len(page_to_read) == 2)
+                    else self.extract_page(page_to_read[0])
+                    for page_to_read in pages_to_read
+                ],
+            )
         )
 
+        # Remove duplicate page numbers in the text, assuming that roman numerals wont be duped.
+        # This is because the LLM can have issues with reading the section numbers as page numbers and end up with overlapping pages to read.
+        page_numbers = list(re.finditer(r"<< Page (\d+) >>", text))
+        if len(page_numbers) == 0:
+            return text
+        first_page_number = int(page_numbers[0].group(1))
+        last_page_number = int(page_numbers[-1].group(1))
+
+        for page_number in range(first_page_number, last_page_number + 1):
+            if text.count(f"<< Page {page_number} >>") > 1:
+                # Delete all but first version of this page
+                text = re.sub(
+                    rf"(?<=<< Page {page_number} >>[\s\S]+)(<< Page {page_number} >>[\s\S]+?)(<< Page \d+ >>)",
+                    r"\2",
+                    text,
+                    flags=re.MULTILINE | re.IGNORECASE,
+                )
+
         return text, pages_to_read
+
+    def extract_page(self, page_to_read):
+        if page_to_read in ["0", 0]:
+            first_page = re.search(
+                r"<< Page \d+|[xvi]+ >>", self.report_text, re.MULTILINE | re.IGNORECASE
+            )
+            return self.report_text[: first_page.start()]
+
+        page = re.search(
+            rf"<< Page {page_to_read} >>[\s\S]+<< Page (\d+|[xvi]+) >>",
+            self.report_text,
+            re.MULTILINE | re.IGNORECASE,
+        )
+        if page is None:
+            final_page = re.search(
+                rf"<< Page {page_to_read} >>[\s\S]+",
+                self.report_text,
+                re.MULTILINE | re.IGNORECASE,
+            )
+            if final_page is None:
+                return None
+            return final_page.group(0)
+        else:
+            return page.group(0)
 
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
 
-        def page(num):
-            return f"<< Page {num} >>"
+        if page_number_1 != 0:
+            starting_page_match = re.search(
+                rf"<< Page {page_number_1} >>",
+                self.report_text,
+                re.MULTILINE | re.IGNORECASE,
+            )
+            if starting_page_match is None:
+                print(
+                    f" {self.report_id} No starting page number for text between pages {page_number_1} and {page_number_2}"
+                )
+                return None
 
-        middle_pages = r"[\s\S]*"
-        pattern = page(page_number_1) + middle_pages + page(page_number_2)
+            starting_index = starting_page_match.start()
+        else:
+            starting_index = 0
 
-        matches = re.findall(pattern, self.report_text, re.MULTILINE | re.IGNORECASE)
+        ending_page_match = re.search(
+            rf"<< Page {page_number_2} >>",
+            self.report_text,
+            re.MULTILINE | re.IGNORECASE,
+        )
 
-        if len(matches) > 1:
+        if ending_page_match is None:
             print(
-                f"  Found multiple matches for text between pages {page_number_1} and {page_number_2}"
+                f"  {self.report_id} No ending page number for text between pages {page_number_1} and {page_number_2}"
             )
             return None
 
-        if len(matches) == 1:
-            return matches[0]
-
-        if len(re.findall(page(page_number_1), self.report_text, re.MULTILINE)) == 0:
-            if page_number_1 < 2:
-                return None
-            return self.extract_text_between_page_numbers(
-                page_number_1 - 1, page_number_2
-            )
-
-        if len(re.findall(page(page_number_2), self.report_text, re.MULTILINE)) == 0:
-            if page_number_2 > 100:
-                return None
-            return self.extract_text_between_page_numbers(
-                page_number_1, page_number_2 + 1
-            )
-
-        if page_number_1 > 1 and page_number_2 < 100:
-            return self.extract_text_between_page_numbers(
-                page_number_1 - 1, page_number_2 + 1
-            )
+        return self.report_text[starting_index : ending_page_match.end()]
 
     def extract_contents_section(self) -> str:
         startRegex = r"(contents?)([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*[ \.]{5,})"
@@ -128,7 +209,30 @@ class ReportExtractor:
                 print(f"Found an end {self.report_id} but no start: {endMatches[-1]}")
             return self.headers
 
-        return self.report_text[startMatch.start() : endMatch.end()]
+        raw_content_section = self.report_text[startMatch.start() : endMatch.end()]
+
+        cleaned_content_section = AICaller.query(
+            system="""
+You are a helpful assistant. You will just respond with the answer no need to explain.
+""",
+            user=f"""
+Can you please format this table of contents? Please include in the format the section number (if it has one) the section title and section page number. Make sure to include all of the pages the the table of contents has even it they are roman numerals.
+
+It should go like this:
+[Section number*] - [Section title] [Page number]
+
+Section numbers are optional. They should only be included if they are present in the original table of contents.
+You should not include the figures or tables section of the table of contents.
+
+{raw_content_section}
+""",
+            temp=0,
+            max_tokens=4_000,
+            model="gpt-4o-mini",
+        )
+
+        cleaned_content_section = cleaned_content_section.replace("```", "").strip("\n")
+        return cleaned_content_section
 
     def extract_pages_to_read(self, content_section) -> list:
         attempts_left = 5
@@ -136,33 +240,60 @@ class ReportExtractor:
         pages_to_read = None
 
         while attempts_left > 0:  # Repeat until the LLMs gives a valid response
+            model_response = None
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
                 model_response = AICaller.query(
-                    """
-You are helping me read the content section of a report.
+                    system="""
+You are helping me read the content section of a report from a transport accident investigation.
+The content section is either a text extraction from the pdf or a parsing of the pdf header links. Note that the content section may be malformed.
+I am looking to find the section of the reports that will help me identify safety issues. I need to the page ranges I need to read.
 
-I am only interested in two sections "Analysis" and "Findings".
-Can you please tell me which page Analysis starts on and which page the Findings section ends on.
+The sections I want you to find:
+     - Analysis
+     - Findings (any section that mentions findings)
+     - Executive Summary / Summary / Safety summary (normally at the start of the report, but it does not always exist)
+     - Safety issues (any section the explicitly mentions safety issues) 
 
-Your response is only a list of integers. No words are allowed in your response. e.g '12,45' or '10,23'. If you cant find the analysis and findings section just return 'None'
+I want to know the page ranges of the sections you found in the report. Include the start page and end page, where the end page is the page number that the next section starts on. For sections you can't find just omit them from your response. If no sections were found just return "None".
+
+Your response should only include the page numbers of the sections. For each section found put the starting and ending page numbers separate by a comma. Then separate each section with a space.
+
+Example responses: 
+"1,2 7,17"
+"1 4,8 12,16"
+"7,13 20"
 """,
-                    content_section,
+                    user=content_section,
                     model="gpt-4",
                     temp=0,
                 )
 
-                if model_response == "None":
+                cleaned_response = model_response.strip(" '\"")
+
+                if cleaned_response == "None":
                     return None
 
-                pages_to_read = [int(num) for num in model_response.split(",")]
+                sections = [page.strip() for page in cleaned_response.split(" ")]
+                pages_to_read = [
+                    tuple(
+                        int(num)
+                        if num.isdigit()
+                        else (num if set(num).issubset(set("vixVXI")) else int(num))
+                        for num in section.split(",")
+                    )
+                    for section in sections
+                ]
 
                 break
-            except ValueError:
+            except ValueError as e:
                 print(
-                    f"  Incorrect response from model retrying. \n  Response was: '{model_response}'"
+                    f"  Incorrect response '{model_response}' from model retrying, error: {e}'"
                 )
                 attempts_left -= 1
+
+        if pages_to_read is None:
+            return None
 
         return pages_to_read
 
@@ -741,6 +872,51 @@ class ReportExtractingProcessor:
             important_text_df = pd.DataFrame(
                 columns=["report_id", "important_text", "pages_read"]
             )
+
+        def process_report(report_id, report_text, important_text_df, header):
+            if report_id in important_text_df["report_id"].values:
+                return None
+            important_text, pages_read = ReportExtractor(
+                report_text, report_id, header
+            ).extract_important_text()
+            if important_text is None:
+                return None  # Indicates failure
+            return report_id, important_text, pages_read
+
+        def save_result(result, important_text_df, output_file):
+            report_id, important_text, pages_read = result
+            if important_text is None:
+                print(f"  Could not extract important text from {report_id}")
+            else:
+                important_text_df.loc[len(important_text_df)] = [
+                    report_id,
+                    important_text,
+                    pages_read,
+                ]
+                important_text_df.to_pickle(output_file)
+
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = []
+            for _, report_id, report_text, _, header in (
+                pbar := tqdm(list(self.report_text_df.itertuples()))
+            ):
+                pbar.set_description(f"Extracting important text from {report_id}")
+                futures.append(
+                    executor.submit(
+                        process_report,
+                        report_id,
+                        report_text,
+                        important_text_df,
+                        header,
+                    )
+                )
+
+            for future in tqdm(
+                concurrent.futures.as_completed(futures), total=len(futures)
+            ):
+                result = future.result()
+                if result is not None:
+                    save_result(result, important_text_df, output_file)
 
         for _, report_id, report_text in (
             pbar := tqdm(list(self.report_text_df.itertuples()))
