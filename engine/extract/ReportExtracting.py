@@ -1,3 +1,4 @@
+import concurrent.futures
 import os
 
 import pandas as pd
@@ -79,6 +80,8 @@ class ReportExtractor:
         # Remove duplicate page numbers in the text, assuming that roman numerals wont be duped.
         # This is because the LLM can have issues with reading the section numbers as page numbers and end up with overlapping pages to read.
         page_numbers = list(re.finditer(r"<< Page (\d+) >>", text))
+        if len(page_numbers) == 0:
+            return text
         first_page_number = int(page_numbers[0].group(1))
         last_page_number = int(page_numbers[-1].group(1))
 
@@ -129,7 +132,7 @@ class ReportExtractor:
             )
             if starting_page_match is None:
                 print(
-                    f"  No starting page number for text between pages {page_number_1} and {page_number_2}"
+                    f" {self.report_id} No starting page number for text between pages {page_number_1} and {page_number_2}"
                 )
                 return None
 
@@ -145,7 +148,7 @@ class ReportExtractor:
 
         if ending_page_match is None:
             print(
-                f"  No ending page number for text between pages {page_number_1} and {page_number_2}"
+                f"  {self.report_id} No ending page number for text between pages {page_number_1} and {page_number_2}"
             )
             return None
 
@@ -276,7 +279,7 @@ Example responses:
                     tuple(
                         int(num)
                         if num.isdigit()
-                        else (num if set(num).issubset(set("vix")) else int(num))
+                        else (num if set(num).issubset(set("vixVXI")) else int(num))
                         for num in section.split(",")
                     )
                     for section in sections
@@ -291,26 +294,6 @@ Example responses:
 
         if pages_to_read is None:
             return None
-
-        # compressed_pages_to_read = []
-
-        # for section in pages_to_read:
-        #     if len(compressed_pages_to_read) == 0:
-        #         compressed_pages_to_read.append(section)
-        #     else:
-        #         if len(compressed_pages_to_read[-1]) == 1 or isinstance(compressed_pages_to_read[-1][1], str):
-        #             compressed_pages_to_read.append(section)
-        #         elif section[0] - compressed_pages_to_read[-1][1] < 3:
-        #             compressed_pages_to_read[-1] = (
-        #                 compressed_pages_to_read[-1][0],
-        #                 section[1],
-        #             )
-        #         else:
-        #             compressed_pages_to_read.append(section)
-
-        # print(f"  Compressed pages to read: {compressed_pages_to_read}")
-
-        # return compressed_pages_to_read
 
         return pages_to_read
 
@@ -889,6 +872,51 @@ class ReportExtractingProcessor:
             important_text_df = pd.DataFrame(
                 columns=["report_id", "important_text", "pages_read"]
             )
+
+        def process_report(report_id, report_text, important_text_df, header):
+            if report_id in important_text_df["report_id"].values:
+                return None
+            important_text, pages_read = ReportExtractor(
+                report_text, report_id, header
+            ).extract_important_text()
+            if important_text is None:
+                return None  # Indicates failure
+            return report_id, important_text, pages_read
+
+        def save_result(result, important_text_df, output_file):
+            report_id, important_text, pages_read = result
+            if important_text is None:
+                print(f"  Could not extract important text from {report_id}")
+            else:
+                important_text_df.loc[len(important_text_df)] = [
+                    report_id,
+                    important_text,
+                    pages_read,
+                ]
+                important_text_df.to_pickle(output_file)
+
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = []
+            for _, report_id, report_text, _, header in (
+                pbar := tqdm(list(self.report_text_df.itertuples()))
+            ):
+                pbar.set_description(f"Extracting important text from {report_id}")
+                futures.append(
+                    executor.submit(
+                        process_report,
+                        report_id,
+                        report_text,
+                        important_text_df,
+                        header,
+                    )
+                )
+
+            for future in tqdm(
+                concurrent.futures.as_completed(futures), total=len(futures)
+            ):
+                result = future.result()
+                if result is not None:
+                    save_result(result, important_text_df, output_file)
 
         for _, report_id, report_text in (
             pbar := tqdm(list(self.report_text_df.itertuples()))
