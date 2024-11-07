@@ -93,6 +93,13 @@ def gather(output_dir, config, refresh):
         refresh,
     )
 
+    WebsiteScraping.ATSBSafetyIssueScraper(
+        os.path.join(
+            output_dir, output_config.get("atsb_website_safety_issues_file_name")
+        ),
+        refresh,
+    )
+
 
 def extract(output_dir, config, refresh):
     output_config = config.get("output")

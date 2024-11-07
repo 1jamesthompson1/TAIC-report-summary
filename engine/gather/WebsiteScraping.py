@@ -35,7 +35,18 @@ class ReportScraperSettings:
         self.ignored_report_ids = ignored_report_ids
 
 
-class ReportScraper:
+class WebsiteScraper:
+    def __init__(self):
+        self.headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://www.google.com/",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Connection": "keep-alive",
+        }
+
+
+class ReportScraper(WebsiteScraper):
     """
     Class that will take the output templates and download all the reports from the TAIC website
     These reports can be found manually by going to https://www.taic.org.nz/inquiries
@@ -45,6 +56,7 @@ class ReportScraper:
         self,
         settings: ReportScraperSettings,
     ):
+        super().__init__()
         self.settings = settings
         if os.path.exists(self.settings.report_titles_file_path):
             self.report_titles_df = pd.read_pickle(
@@ -54,14 +66,6 @@ class ReportScraper:
             self.report_titles_df = pd.DataFrame(
                 columns=["report_id", "title", "event_type", "misc"]
             )
-
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Referer": "https://www.google.com/",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-            "Connection": "keep-alive",
-        }
 
         # Create a folder to store the downloaded PDFs
         os.makedirs(self.settings.report_dir, exist_ok=True)
@@ -624,3 +628,87 @@ class TSBReportScraper(ReportScraper):
         all_text = ", ".join(paragraph_text + [date_text])
 
         return report_id, all_text, event_type, {}
+
+
+class ATSBSafetyIssueScraper(WebsiteScraper):
+    def __init__(self, output_file_path: str, refresh: bool = False):
+        super().__init__()
+        self.output_file_path = output_file_path
+        self.refresh = refresh
+
+    def extract_safety_issues_from_website(self):
+        if os.path.exists(self.output_file_path) and not self.refresh:
+            safety_issues_df = pd.read_pickle(self.output_file_path)
+        else:
+            safety_issues_df = pd.DataFrame(columns=["safety_issue_id", "safety_issue"])
+
+        base_url = "https://www.atsb.gov.au/safety-issues-and-actions?field_issue_number_value={mode}O&page={page}"
+
+        for mode in (pbar := tqdm(["A", "R", "M"])):
+            current_page = 0
+            pbar.set_description(f"Scraping {mode} safety issues")
+
+            failed = 0
+            while True:
+                pbar.set_description(f"Scraping page {current_page} of mode {mode}")
+                url = base_url.format(mode=mode, page=current_page)
+                response = hrequests.get(url, headers=self.headers)
+
+                if response.status_code != 200:
+                    pbar.write(
+                        f"Failed to scrape page {current_page} of mode {mode}\nWith error {response.status_code}"
+                    )
+                    failed += 1
+                    if failed > 5:
+                        failed = 0
+                        current_page += 1
+                    continue
+
+                soup = BeautifulSoup(response.content, "html.parser")
+
+                if not soup.find("div", class_="view-content"):
+                    pbar.write(
+                        f"Failed to scrape page {current_page} of mode {mode}. No table found"
+                    )
+                    break
+
+                safety_issues = [
+                    {
+                        field.find(class_="field__label").get_text(
+                            strip=True
+                        ): field.find(class_="field__item").get_text(strip=True)
+                        for field in row.find_all(class_="field--label-inline")
+                    }
+                    for row in soup.find("div", class_="view-content").children
+                    if not isinstance(row, str)
+                ]
+                table = pd.DataFrame(safety_issues)
+
+                if "Safety issue title" not in table.columns:
+                    break
+
+                table["safety_issue"] = table.apply(
+                    lambda row: f"{row['Safety issue title']}\n{row['Safety Issue Description']}",
+                    axis=1,
+                )
+
+                table["safety_issue_id"] = table["Issue number"].map(
+                    lambda number: f"ATSB_{number}"
+                )
+
+                new_safety_issues = table[
+                    ~table["safety_issue_id"].isin(safety_issues_df["safety_issue_id"])
+                ]
+
+                if new_safety_issues.empty:
+                    break
+
+                safety_issues_df = pd.concat(
+                    [safety_issues_df, new_safety_issues], ignore_index=True
+                )
+
+                current_page += 1
+
+        safety_issues_df = safety_issues_df.drop_duplicates(subset=["safety_issue_id"])
+
+        safety_issues_df.to_pickle(self.output_file_path)
