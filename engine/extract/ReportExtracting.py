@@ -81,7 +81,7 @@ class ReportExtractor:
         # This is because the LLM can have issues with reading the section numbers as page numbers and end up with overlapping pages to read.
         page_numbers = list(re.finditer(r"<< Page (\d+) >>", text))
         if len(page_numbers) == 0:
-            return text
+            return text, pages_to_read
         first_page_number = int(page_numbers[0].group(1))
         last_page_number = int(page_numbers[-1].group(1))
 
@@ -687,6 +687,36 @@ The section number I am looking for is {section}
 
         return section_text
 
+    def split_into_paragraphs(self):
+        raw_splits = [
+            paragraph.strip()
+            for paragraph in re.split(r"\n *\n", self.report_text)
+            if len(paragraph.strip()) > 0
+        ]
+
+        splits_df = pd.DataFrame(raw_splits, columns=["section_text"])
+
+        splits_df["page"] = splits_df["section_text"].map(
+            lambda x: re.match(r"<< Page (\d+|[xvi]+) >>", x).group(1)
+            if re.match(r"<< Page (\d+|[xvi]+) >>", x)
+            else None
+        )
+        splits_df.ffill(inplace=True)
+        splits_df.replace({pd.NA: "0", None: "0"}, inplace=True)
+        splits_df["paragraph_num"] = splits_df.groupby(["page"]).cumcount()
+        splits_df["section"] = (
+            "p" + splits_df["page"] + "." + splits_df["paragraph_num"].astype(str)
+        )
+
+        splits_df = splits_df[
+            splits_df["section_text"].map(
+                lambda x: len(re.sub(r"<< Page (\d+|[xvi]+) >>", "", x).strip())
+            )
+            > 8
+        ]
+
+        return splits_df[["section", "section_text"]]
+
 
 class RecommendationsExtractor(ReportSectionExtractor):
     def __init__(self, report_text, report_id, headers):
@@ -918,25 +948,6 @@ class ReportExtractingProcessor:
                 if result is not None:
                     save_result(result, important_text_df, output_file)
 
-        for _, report_id, report_text in (
-            pbar := tqdm(list(self.report_text_df.itertuples()))
-        ):
-            pbar.set_description(f"Extracting important text from {report_id}")
-            if report_id in important_text_df["report_id"].values:
-                continue
-            important_text, pages_read = ReportExtractor(
-                report_text, report_id
-            ).extract_important_text()
-            if important_text is None:
-                pbar.write(f"  Could not extract important text from {report_id}")
-                continue
-            important_text_df.loc[len(important_text_df)] = [
-                report_id,
-                important_text,
-                pages_read,
-            ]
-            important_text_df.to_pickle(output_file)
-
         important_text_df.to_pickle(output_file)
 
     def __extract_sections(
@@ -1002,9 +1013,15 @@ class ReportExtractingProcessor:
                 else:
                     sections.extend(paragraphs)
 
-        df = pd.DataFrame(sections)
+        df = pd.DataFrame(sections, columns=["section", "section_text"])
 
-        return df
+        # Check if this worked. Otherwise extract with paragraph splitting.
+
+        if len(df) > 4 and df["section_text"].map(len).mean() < 2_000:
+            return df
+
+        else:
+            return extractor.split_into_paragraphs()
 
     def extract_sections_from_text(self, num_sections, output_file_path):
         sections = list(map(str, range(1, 15)))
