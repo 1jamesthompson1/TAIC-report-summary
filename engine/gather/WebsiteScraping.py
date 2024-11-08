@@ -516,7 +516,7 @@ class ATSBReportScraper(ReportScraper):
 
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
-    ) -> tuple[str, str, str]:
+    ) -> tuple[str, str, str, dict]:
         report_mode = Modes.get_report_mode_from_id(report_id)
         event_type = None
         if report_mode is Modes.Mode.a:
@@ -542,7 +542,7 @@ class ATSBReportScraper(ReportScraper):
             report_id,
             title,
             event_type,
-            [{"investigation_level": investigation_level}],
+            {"investigation_level": investigation_level},
         )
 
 
@@ -685,6 +685,9 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
                 table = pd.DataFrame(safety_issues)
 
                 if "Safety issue title" not in table.columns:
+                    pbar.write(
+                        f"Failed to scrape page {current_page} of mode {mode}. Page contains no safety issues"
+                    )
                     break
 
                 table["safety_issue"] = table.apply(
@@ -701,6 +704,9 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
                 ]
 
                 if new_safety_issues.empty:
+                    pbar.write(
+                        f"No new safety issues found on page {current_page} of mode {mode}, moving onto next mode"
+                    )
                     break
 
                 safety_issues_df = pd.concat(
