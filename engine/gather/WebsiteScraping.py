@@ -1,5 +1,6 @@
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse
 
 import hrequests
@@ -115,12 +116,18 @@ class ReportScraper(WebsiteScraper):
             year for year in range(self.settings.start_year, self.settings.end_year + 1)
         ]
 
-        for year in (pbar := tqdm(year_range)):
-            pbar.set_description(
-                f"Downloading reports for mode: {mode.name}, currently doing year: {year}"
-            )
+        with ThreadPoolExecutor() as executor:
+            futures = {
+                executor.submit(self.collect_year, year, mode): year
+                for year in year_range
+            }
 
-            self.collect_year(year, mode)
+            for future in tqdm(as_completed(futures), total=len(futures)):
+                year = futures[future]
+                try:
+                    future.result()
+                except Exception as exc:
+                    print(f"Year {year} generated an exception: {exc}")
 
     def collect_year(self, year, mode):
         # Define the base URL and report ids and download all reports for the mode.
@@ -717,4 +724,37 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
 
         safety_issues_df = safety_issues_df.drop_duplicates(subset=["safety_issue_id"])
 
-        safety_issues_df.to_pickle(self.output_file_path)
+        safety_issues_df["report_id"] = safety_issues_df["safety_issue_id"].map(
+            lambda x: re.sub(
+                r"([AMR])O",
+                lambda m: m.group(1).lower(),
+                "_".join(re.split(r"[_-]", x)[:4]),
+            )
+        )
+        safety_issues_df["quality"] = "exact"
+        safety_issues_df = safety_issues_df[
+            ["report_id", "safety_issue_id", "safety_issue", "quality"]
+        ]
+
+        def to_df(group):
+            return pd.DataFrame(
+                {
+                    "safety_issue_id": group["safety_issue_id"].tolist(),
+                    "safety_issue": group["safety_issue"].tolist(),
+                    "quality": group["quality"].tolist(),
+                }
+            )
+
+        compact_df = safety_issues_df.groupby("report_id").apply(to_df)
+
+        formatted_df = pd.DataFrame(
+            {
+                "report_id": compact_df.index.get_level_values(0).unique(),
+                "safety_issues": [
+                    compact_df.loc[id]
+                    for id in compact_df.index.get_level_values(0).unique()
+                ],
+            }
+        )
+
+        formatted_df.to_pickle(self.output_file_path)
