@@ -1,6 +1,5 @@
 import os
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse
 
 import hrequests
@@ -65,7 +64,14 @@ class ReportScraper(WebsiteScraper):
             )
         else:
             self.report_titles_df = pd.DataFrame(
-                columns=["report_id", "title", "event_type", "misc"]
+                columns=[
+                    "report_id",
+                    "title",
+                    "event_type",
+                    "investigation_type",
+                    "misc",
+                    "url",
+                ]
             )
 
         # Create a folder to store the downloaded PDFs
@@ -116,18 +122,12 @@ class ReportScraper(WebsiteScraper):
             year for year in range(self.settings.start_year, self.settings.end_year + 1)
         ]
 
-        with ThreadPoolExecutor() as executor:
-            futures = {
-                executor.submit(self.collect_year, year, mode): year
-                for year in year_range
-            }
+        for year in (pbar := tqdm(year_range)):
+            pbar.set_description(
+                f"Downloading reports for mode: {mode.name}, currently doing year: {year}"
+            )
 
-            for future in tqdm(as_completed(futures), total=len(futures)):
-                year = futures[future]
-                try:
-                    future.result()
-                except Exception as exc:
-                    print(f"Year {year} generated an exception: {exc}")
+            self.collect_year(year, mode)
 
     def collect_year(self, year, mode):
         # Define the base URL and report ids and download all reports for the mode.
@@ -193,8 +193,11 @@ class ReportScraper(WebsiteScraper):
         if not outcome:
             return False
 
+        report_id, title, event_type, investigation_type, misc = (
+            self.get_report_metadata(report_id, soup, pbar)
+        )
         self.__add_report_metadata_to_df(
-            *self.get_report_metadata(report_id, soup, pbar)
+            report_id, title, event_type, investigation_type, misc, report_url=url
         )
 
         return True
@@ -272,7 +275,7 @@ class ReportScraper(WebsiteScraper):
 
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
-    ) -> tuple[str, str, str, dict]:
+    ) -> tuple[str, str, str, str, dict]:
         """
         Gets the investigation webpage and scrapes extra information about the report.
 
@@ -288,20 +291,27 @@ class ReportScraper(WebsiteScraper):
         Returns
         -------
         tuple[str, str, str, dict]
-            A tuple containing the report_id, title, event_type, misc
+            A tuple containing the report_id, title, event_type, investigation_type,misc
         """
 
     def __add_report_metadata_to_df(
-        self, report_id: str, title: str, event_type: str, misc: dict
+        self,
+        report_id: str,
+        title: str,
+        event_type: str,
+        investigation_type,
+        misc: dict,
+        report_url,
     ):
         if self.report_titles_df.query("report_id == @report_id").empty:
             self.report_titles_df.loc[len(self.report_titles_df)] = [
                 report_id,
                 title,
                 event_type,
+                investigation_type,
                 misc,
+                report_url,
             ]
-
             self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
 
 
@@ -367,7 +377,7 @@ class TAICReportScraper(ReportScraper):
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
-        return report_id, title, None, {}
+        return report_id, title, None, "full", {}
 
 
 class ATSBReportScraper(ReportScraper):
@@ -549,6 +559,11 @@ class ATSBReportScraper(ReportScraper):
             report_id,
             title,
             event_type,
+            "unknown"
+            if investigation_level is None
+            else "full"
+            if investigation_level in ["Defined", "Systemic"]
+            else "short",
             {"investigation_level": investigation_level},
         )
 
@@ -604,14 +619,28 @@ class TSBReportScraper(ReportScraper):
         ]
 
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
+        # Due to TSB having the metadata on a page separate from the report pdf link, we need to get the new page
+        split_id = report_id.split("_")
+        tsb_id = f"{split_id[1]}{split_id[2][2:4]}{split_id[3]}"
+        page = hrequests.get(
+            f"https://www.tsb.gc.ca/eng/enquetes-investigations/{Modes.Mode.as_string(Modes.get_report_mode_from_id(report_id))}/{split_id[2]}/{tsb_id}/{tsb_id}.html",
+            headers=self.headers,
+            timeout=30,
+        )
+        overview_page = BeautifulSoup(page.content, "html.parser")
+
+        if (
+            soup.find("h1", string="Page not found") is None
+        ):  # Some of the older reports dont have the overview page
+            soup = overview_page
+
         title_block = soup.find("div", class_="field--name-field-occurrence")
         if title_block is None:
-            return report_id, None, None
+            return report_id, None, None, None, None
         else:
             event_type = title_block.find("strong")
             if event_type:
                 event_type = event_type.text
-
         legacy_text_div = title_block.find(
             "div", class_="field--name-field-occurrence-legacy-text"
         )
@@ -634,7 +663,27 @@ class TSBReportScraper(ReportScraper):
 
         all_text = ", ".join(paragraph_text + [date_text])
 
-        return report_id, all_text, event_type, {}
+        # Get investigation level
+        investigation_level = None
+
+        h3_element = soup.find("h3", string="Class of investigation")
+        if h3_element:
+            text = h3_element.find_next_sibling("p").text
+            match = re.match(r"This is a class (\d) investigation", text)
+            if match:
+                investigation_level = match.group(1)
+
+        return (
+            report_id,
+            all_text,
+            event_type,
+            "unknown"
+            if investigation_level is None
+            else "full"
+            if investigation_level in ["1", "2", "3"]
+            else "short",
+            {"investigation_class": investigation_level},
+        )
 
 
 class ATSBSafetyIssueScraper(WebsiteScraper):
