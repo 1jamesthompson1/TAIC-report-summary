@@ -849,8 +849,6 @@ class ReportExtractingProcessor:
         else:
             all_safety_issues_df = pd.DataFrame(columns=["report_id", "safety_issues"])
 
-        new_safety_issues = []
-
         # Get atsb safety_issue_dataset
         if os.path.exists(atsb_safety_issues_df_path):
             atsb_safety_issues_df = pd.read_pickle(atsb_safety_issues_df_path)
@@ -877,11 +875,12 @@ class ReportExtractingProcessor:
             raise ValueError(f"{report_titles_df_path} does not exist")
 
         ## -- Merging datasets together -- ##
-        merged_df = self.report_text_df.merge(
-            important_text_df, on="report_id", how="outer"
-        ).merge(report_titles_df, on="report_id", how="outer")
+        merged_df = (
+            self.report_text_df.merge(important_text_df, on="report_id", how="outer")
+            .merge(report_titles_df, on="report_id", how="outer")
+            .reset_index(drop=True)
+        )
 
-        print(merged_df)
         print(
             f"There are {len(merged_df)} total reports. There are {len(merged_df[merged_df['important_text'].isna()])} reports without important text and {len(all_safety_issues_df)} reports with safety issues. "
         )
@@ -890,15 +889,60 @@ class ReportExtractingProcessor:
         )
         merged_df = merged_df[merged_df["investigation_type"] != "short"]
 
-        ## TODO:
-        # Handle the unknown report types. Not all of them are short or long. I will use the pages_read and the length to make some judgements. It might depend on the agency as so the rules.
-        for _, report_id, report_text, important_text in (
+        print(
+            f"There are {len(merged_df[merged_df['report_id'].isin(all_safety_issues_df['report_id'])])} reports that already have safety issues"
+        )
+        new_safety_issues = []
+        for (
+            _,
+            report_id,
+            report_text,
+            important_text,
+            investigation_type,
+            pages_read,
+        ) in (
             pbar := tqdm(
-                list(merged_df[["report_id", "text", "important_text"]].itertuples())
+                list(
+                    merged_df[
+                        [
+                            "report_id",
+                            "text",
+                            "important_text",
+                            "investigation_type",
+                            "pages_read",
+                        ]
+                    ].itertuples()
+                )
             )
         ):
+            agency = report_id.split("_")[0]
+            year = int(report_id.split("_")[2])
+            important_text_len = len(important_text)
+            # Confirm that this report should be included and have its safety issues extracted
+            match agency:
+                case "ATSB":
+                    continue  # For now we wont include any atsb reports
+                    ## TODO: Figure out a better way to include pre 2008 atsb reports.
+                    if year >= 2008 or (
+                        investigation_type == "unknown"
+                        and (
+                            important_text_len < 40_000 and isinstance(pages_read, str)
+                        )
+                    ):
+                        continue
+                case "TSB":
+                    if investigation_type == "unknown" and (
+                        important_text_len < 40_000 and isinstance(pages_read, str)
+                    ):
+                        continue
+                case "TAIC":
+                    pass
+                case _:
+                    raise ValueError(f"Unknown agency: {agency} for report {report_id}")
+
             pbar.set_description(f"Extracting safety issues from {report_id}")
-            if report_id in all_safety_issues_df["report_id"].values:
+            if report_id in all_safety_issues_df["report_id"].tolist():
+                tqdm.write("Report already has safety issues")
                 continue
 
             if pd.isna(important_text):
@@ -922,7 +966,7 @@ class ReportExtractingProcessor:
             if len(new_safety_issues) > 50:
                 all_safety_issues_df = pd.concat(
                     [all_safety_issues_df, pd.DataFrame(new_safety_issues)]
-                )
+                ).reset_index(drop=True)
                 all_safety_issues_df.to_pickle(output_file)
                 pbar.write(
                     f" Saving {len(new_safety_issues)} safety issues to bring it to a total of {len(all_safety_issues_df)} of safety issues."
@@ -931,7 +975,7 @@ class ReportExtractingProcessor:
 
         all_safety_issues_df = pd.concat(
             [all_safety_issues_df, pd.DataFrame(new_safety_issues)]
-        )
+        ).reset_index(drop=True)
         all_safety_issues_df.to_pickle(output_file)
 
     def extract_important_text_from_reports(self, output_file):
