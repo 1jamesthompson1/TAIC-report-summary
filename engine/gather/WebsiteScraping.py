@@ -630,7 +630,7 @@ class TSBReportScraper(ReportScraper):
         overview_page = BeautifulSoup(page.content, "html.parser")
 
         if (
-            soup.find("h1", string="Page not found") is None
+            overview_page.find("h1", string="Page not found") is None
         ):  # Some of the older reports dont have the overview page
             soup = overview_page
 

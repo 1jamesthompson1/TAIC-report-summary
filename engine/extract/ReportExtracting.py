@@ -835,7 +835,14 @@ class ReportExtractingProcessor:
 
         return safety_issues
 
-    def extract_safety_issues_from_reports(self, important_text_df_path, output_file):
+    def extract_safety_issues_from_reports(
+        self,
+        important_text_df_path,
+        report_titles_df_path,
+        atsb_safety_issues_df_path,
+        output_file,
+    ):
+        ## -- Safety issue datasets -- ##
         # Get previously extracted safety issues
         if os.path.exists(output_file) and not self.refresh:
             all_safety_issues_df = pd.read_pickle(output_file)
@@ -844,19 +851,51 @@ class ReportExtractingProcessor:
 
         new_safety_issues = []
 
+        # Get atsb safety_issue_dataset
+        if os.path.exists(atsb_safety_issues_df_path):
+            atsb_safety_issues_df = pd.read_pickle(atsb_safety_issues_df_path)
+        else:
+            raise ValueError(f"{atsb_safety_issues_df_path} does not exist")
+
+        all_safety_issues_df = pd.concat(
+            [all_safety_issues_df, atsb_safety_issues_df]
+        ).drop_duplicates("report_id", keep="first")
+
+        ## -- metadata datasets -- ##
+        # Get the important text
         if os.path.exists(important_text_df_path):
-            important_text_df = pd.read_pickle(important_text_df_path)
+            important_text_df = pd.read_pickle(important_text_df_path)[
+                ["report_id", "important_text", "pages_read"]
+            ]
         else:
             raise ValueError(f"{important_text_df_path} does not exist")
 
+        # Get the report titles
+        if os.path.exists(report_titles_df_path):
+            report_titles_df = pd.read_pickle(report_titles_df_path)
+        else:
+            raise ValueError(f"{report_titles_df_path} does not exist")
+
+        ## -- Merging datasets together -- ##
         merged_df = self.report_text_df.merge(
             important_text_df, on="report_id", how="outer"
-        )
+        ).merge(report_titles_df, on="report_id", how="outer")
 
         print(merged_df)
+        print(
+            f"There are {len(merged_df)} total reports. There are {len(merged_df[merged_df['important_text'].isna()])} reports without important text and {len(all_safety_issues_df)} reports with safety issues. "
+        )
+        print(
+            f"Removing {len(merged_df[merged_df['investigation_type'] == 'short'])} short reports."
+        )
+        merged_df = merged_df[merged_df["investigation_type"] != "short"]
 
-        for _, report_id, report_text, important_text, _ in (
-            pbar := tqdm(list(merged_df.itertuples()))
+        ## TODO:
+        # Handle the unknown report types. Not all of them are short or long. I will use the pages_read and the length to make some judgements. It might depend on the agency as so the rules.
+        for _, report_id, report_text, important_text in (
+            pbar := tqdm(
+                list(merged_df[["report_id", "text", "important_text"]].itertuples())
+            )
         ):
             pbar.set_description(f"Extracting safety issues from {report_id}")
             if report_id in all_safety_issues_df["report_id"].values:
