@@ -140,3 +140,21 @@ def test_agency_website_scraper_collecting_all_reports(
     scraper.collect_all()
 
     assert len(os.listdir(report_scraping_settings.report_dir)) == expected_count
+
+
+def test_ATSB_safety_issue_scrape(tmpdir):
+    output_path = os.path.join(tmpdir, "test_ATSB_safety_issue_scrape.pkl")
+    atsb_webscraper = WebsiteScraping.ATSBSafetyIssueScraper(
+        output_file_path=output_path, refresh=True
+    )
+
+    atsb_webscraper.extract_safety_issues_from_website()
+
+    output = pd.read_pickle(output_path)
+
+    assert len(output) >= 985
+
+    required_ids = ["ATSB_MO-2008-013-SI-04", "ATSB_AO-2023-008-SI-01"]
+
+    for id in required_ids:
+        assert id in output["safety_issue_id"].unique()

@@ -364,7 +364,7 @@ I want you to please read the report and respond with the safety issues identifi
 
 Please only respond with safety issues that are quite clearly stated ("exact" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
 
-Remember the definitions give
+Remember the definitions given
 
 Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
 increase the likelihood of an occurrence, and/or the
@@ -386,7 +386,75 @@ issues.
 """
 
         def message(text):
-            return f'\n{text}\n        \n=Instructions=\n\nI want to know the safety issues which this investigation has found.\n\nFor each safety issue you find I need to know what is the quality of this safety issue.\nSome reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.\n\nIf no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.\n\n\nCan your response please be in yaml format as shown below.\n\n- safety_issue: |\n    bla bla talking about this and that bla bla bla\n  quality: exact\n- safety_issue: |\n    bla bla talking about this and that bla bla bla\n  quality: exact\n\n\nThere is no need to enclose the yaml in any tags.\n\n=Here are some definitions=\n\nSafety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would\nincrease the likelihood of an occurrence, and/or the\nseverity of any adverse consequences associated with the\noccurrence.\n\nSafety issue - A safety factor that:\n• can reasonably be regarded as having the\npotential to adversely affect the safety of future\noperations, and\n• is characteristic of an organisation, a system, or an\noperational environment at a specific point in time.\nSafety Issues are derived from safety factors classified\neither as Risk Controls or Organisational Influences.\n\nSafety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may\ncover a single safety issue, or two or more related safety\nissues.\n'
+            agency = self.report_id.split("_")[0]
+            match agency:
+                case "TSB":
+                    instruction_core = """
+I want to know the safety issues which this investigation has found. If the safety issues are not explicitly stated you will need to infer them. You need to respond with what safety issues this report has identified. Note that sometimes will not have any relevant safety issues. In this case you can respond with an empty list.
+
+If no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues."""
+                case "TAIC":
+                    instruction_core = """
+I want to know the safety issues which this investigation has found.
+
+For each safety issue you find I need to know what is the quality of this safety issue.
+Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.
+
+If no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
+"""
+                case _:
+                    raise ValueError(
+                        f"{agency} is not a supported agency for safety issue extraction"
+                    )
+
+            return f"""
+{text}
+
+=Instructions=
+
+{instruction_core}
+
+Can your response please be in yaml format as shown below.
+
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+
+or it could be 
+
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: inferred
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: inferred
+
+
+There is no need to enclose the yaml in any tags.
+
+=Here are some definitions=
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+"""
 
         temp = 0
         while temp < 0.1:
@@ -395,7 +463,7 @@ issues.
                 message(self.important_text),
                 model="gpt-4",
                 temp=temp,
-                max_tokens=4096,
+                max_tokens=9096,
             )
 
             if response is None:
@@ -835,31 +903,114 @@ class ReportExtractingProcessor:
 
         return safety_issues
 
-    def extract_safety_issues_from_reports(self, important_text_df_path, output_file):
+    def extract_safety_issues_from_reports(
+        self,
+        important_text_df_path,
+        report_titles_df_path,
+        atsb_safety_issues_df_path,
+        output_file,
+    ):
+        ## -- Safety issue datasets -- ##
         # Get previously extracted safety issues
         if os.path.exists(output_file) and not self.refresh:
             all_safety_issues_df = pd.read_pickle(output_file)
         else:
             all_safety_issues_df = pd.DataFrame(columns=["report_id", "safety_issues"])
 
-        new_safety_issues = []
+        # Get atsb safety_issue_dataset
+        if os.path.exists(atsb_safety_issues_df_path):
+            atsb_safety_issues_df = pd.read_pickle(atsb_safety_issues_df_path)
+        else:
+            raise ValueError(f"{atsb_safety_issues_df_path} does not exist")
 
+        all_safety_issues_df = pd.concat(
+            [all_safety_issues_df, atsb_safety_issues_df]
+        ).drop_duplicates("report_id", keep="first")
+
+        ## -- metadata datasets -- ##
+        # Get the important text
         if os.path.exists(important_text_df_path):
-            important_text_df = pd.read_pickle(important_text_df_path)
+            important_text_df = pd.read_pickle(important_text_df_path)[
+                ["report_id", "important_text", "pages_read"]
+            ]
         else:
             raise ValueError(f"{important_text_df_path} does not exist")
 
-        merged_df = self.report_text_df.merge(
-            important_text_df, on="report_id", how="outer"
+        # Get the report titles
+        if os.path.exists(report_titles_df_path):
+            report_titles_df = pd.read_pickle(report_titles_df_path)
+        else:
+            raise ValueError(f"{report_titles_df_path} does not exist")
+
+        ## -- Merging datasets together -- ##
+        merged_df = (
+            self.report_text_df.merge(important_text_df, on="report_id", how="outer")
+            .merge(report_titles_df, on="report_id", how="outer")
+            .reset_index(drop=True)
         )
 
-        print(merged_df)
+        print(
+            f"There are {len(merged_df)} total reports. There are {len(merged_df[merged_df['important_text'].isna()])} reports without important text and {len(all_safety_issues_df)} reports with safety issues. "
+        )
+        print(
+            f"Removing {len(merged_df[merged_df['investigation_type'] == 'short'])} short reports."
+        )
+        merged_df = merged_df[merged_df["investigation_type"] != "short"]
 
-        for _, report_id, report_text, important_text, _ in (
-            pbar := tqdm(list(merged_df.itertuples()))
+        print(
+            f"There are {len(merged_df[merged_df['report_id'].isin(all_safety_issues_df['report_id'])])} reports that already have safety issues"
+        )
+        new_safety_issues = []
+        for (
+            _,
+            report_id,
+            report_text,
+            important_text,
+            investigation_type,
+            pages_read,
+        ) in (
+            pbar := tqdm(
+                list(
+                    merged_df[
+                        [
+                            "report_id",
+                            "text",
+                            "important_text",
+                            "investigation_type",
+                            "pages_read",
+                        ]
+                    ].itertuples()
+                )
+            )
         ):
+            agency = report_id.split("_")[0]
+            year = int(report_id.split("_")[2])
+            important_text_len = len(important_text)
+            # Confirm that this report should be included and have its safety issues extracted
+            match agency:
+                case "ATSB":
+                    continue  # For now we wont include any atsb reports
+                    ## TODO: Figure out a better way to include pre 2008 atsb reports.
+                    if year >= 2008 or (
+                        investigation_type == "unknown"
+                        and (
+                            important_text_len < 40_000 and isinstance(pages_read, str)
+                        )
+                    ):
+                        continue
+                case "TSB":
+                    if investigation_type == "unknown" and (
+                        important_text_len < 40_000 and isinstance(pages_read, str)
+                    ):
+                        continue
+                case "TAIC":
+                    pass
+                case _:
+                    raise ValueError(f"Unknown agency: {agency} for report {report_id}")
+
             pbar.set_description(f"Extracting safety issues from {report_id}")
-            if report_id in all_safety_issues_df["report_id"].values:
+            if report_id in all_safety_issues_df["report_id"].tolist():
+                tqdm.write("Report already has safety issues")
                 continue
 
             if pd.isna(important_text):
@@ -883,7 +1034,7 @@ class ReportExtractingProcessor:
             if len(new_safety_issues) > 50:
                 all_safety_issues_df = pd.concat(
                     [all_safety_issues_df, pd.DataFrame(new_safety_issues)]
-                )
+                ).reset_index(drop=True)
                 all_safety_issues_df.to_pickle(output_file)
                 pbar.write(
                     f" Saving {len(new_safety_issues)} safety issues to bring it to a total of {len(all_safety_issues_df)} of safety issues."
@@ -892,7 +1043,7 @@ class ReportExtractingProcessor:
 
         all_safety_issues_df = pd.concat(
             [all_safety_issues_df, pd.DataFrame(new_safety_issues)]
-        )
+        ).reset_index(drop=True)
         all_safety_issues_df.to_pickle(output_file)
 
     def extract_important_text_from_reports(self, output_file):

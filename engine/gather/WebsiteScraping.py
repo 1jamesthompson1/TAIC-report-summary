@@ -35,7 +35,18 @@ class ReportScraperSettings:
         self.ignored_report_ids = ignored_report_ids
 
 
-class ReportScraper:
+class WebsiteScraper:
+    def __init__(self):
+        self.headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://www.google.com/",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Connection": "keep-alive",
+        }
+
+
+class ReportScraper(WebsiteScraper):
     """
     Class that will take the output templates and download all the reports from the TAIC website
     These reports can be found manually by going to https://www.taic.org.nz/inquiries
@@ -45,6 +56,7 @@ class ReportScraper:
         self,
         settings: ReportScraperSettings,
     ):
+        super().__init__()
         self.settings = settings
         if os.path.exists(self.settings.report_titles_file_path):
             self.report_titles_df = pd.read_pickle(
@@ -52,16 +64,15 @@ class ReportScraper:
             )
         else:
             self.report_titles_df = pd.DataFrame(
-                columns=["report_id", "title", "event_type", "misc"]
+                columns=[
+                    "report_id",
+                    "title",
+                    "event_type",
+                    "investigation_type",
+                    "misc",
+                    "url",
+                ]
             )
-
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Referer": "https://www.google.com/",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-            "Connection": "keep-alive",
-        }
 
         # Create a folder to store the downloaded PDFs
         os.makedirs(self.settings.report_dir, exist_ok=True)
@@ -182,8 +193,11 @@ class ReportScraper:
         if not outcome:
             return False
 
+        report_id, title, event_type, investigation_type, misc = (
+            self.get_report_metadata(report_id, soup, pbar)
+        )
         self.__add_report_metadata_to_df(
-            *self.get_report_metadata(report_id, soup, pbar)
+            report_id, title, event_type, investigation_type, misc, report_url=url
         )
 
         return True
@@ -261,7 +275,7 @@ class ReportScraper:
 
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
-    ) -> tuple[str, str, str, dict]:
+    ) -> tuple[str, str, str, str, dict]:
         """
         Gets the investigation webpage and scrapes extra information about the report.
 
@@ -277,20 +291,27 @@ class ReportScraper:
         Returns
         -------
         tuple[str, str, str, dict]
-            A tuple containing the report_id, title, event_type, misc
+            A tuple containing the report_id, title, event_type, investigation_type,misc
         """
 
     def __add_report_metadata_to_df(
-        self, report_id: str, title: str, event_type: str, misc: dict
+        self,
+        report_id: str,
+        title: str,
+        event_type: str,
+        investigation_type,
+        misc: dict,
+        report_url,
     ):
         if self.report_titles_df.query("report_id == @report_id").empty:
             self.report_titles_df.loc[len(self.report_titles_df)] = [
                 report_id,
                 title,
                 event_type,
+                investigation_type,
                 misc,
+                report_url,
             ]
-
             self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
 
 
@@ -356,7 +377,7 @@ class TAICReportScraper(ReportScraper):
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
-        return report_id, title, None, {}
+        return report_id, title, None, "full", {}
 
 
 class ATSBReportScraper(ReportScraper):
@@ -512,7 +533,7 @@ class ATSBReportScraper(ReportScraper):
 
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
-    ) -> tuple[str, str, str]:
+    ) -> tuple[str, str, str, dict]:
         report_mode = Modes.get_report_mode_from_id(report_id)
         event_type = None
         if report_mode is Modes.Mode.a:
@@ -538,7 +559,12 @@ class ATSBReportScraper(ReportScraper):
             report_id,
             title,
             event_type,
-            [{"investigation_level": investigation_level}],
+            "unknown"
+            if investigation_level is None
+            else "full"
+            if investigation_level in ["Defined", "Systemic"]
+            else "short",
+            {"investigation_level": investigation_level},
         )
 
 
@@ -593,14 +619,28 @@ class TSBReportScraper(ReportScraper):
         ]
 
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
+        # Due to TSB having the metadata on a page separate from the report pdf link, we need to get the new page
+        split_id = report_id.split("_")
+        tsb_id = f"{split_id[1]}{split_id[2][2:4]}{split_id[3]}"
+        page = hrequests.get(
+            f"https://www.tsb.gc.ca/eng/enquetes-investigations/{Modes.Mode.as_string(Modes.get_report_mode_from_id(report_id))}/{split_id[2]}/{tsb_id}/{tsb_id}.html",
+            headers=self.headers,
+            timeout=30,
+        )
+        overview_page = BeautifulSoup(page.content, "html.parser")
+
+        if (
+            overview_page.find("h1", string="Page not found") is None
+        ):  # Some of the older reports dont have the overview page
+            soup = overview_page
+
         title_block = soup.find("div", class_="field--name-field-occurrence")
         if title_block is None:
-            return report_id, None, None
+            return report_id, None, None, None, None
         else:
             event_type = title_block.find("strong")
             if event_type:
                 event_type = event_type.text
-
         legacy_text_div = title_block.find(
             "div", class_="field--name-field-occurrence-legacy-text"
         )
@@ -623,4 +663,147 @@ class TSBReportScraper(ReportScraper):
 
         all_text = ", ".join(paragraph_text + [date_text])
 
-        return report_id, all_text, event_type, {}
+        # Get investigation level
+        investigation_level = None
+
+        h3_element = soup.find("h3", string="Class of investigation")
+        if h3_element:
+            text = h3_element.find_next_sibling("p").text
+            match = re.match(r"This is a class (\d) investigation", text)
+            if match:
+                investigation_level = match.group(1)
+
+        return (
+            report_id,
+            all_text,
+            event_type,
+            "unknown"
+            if investigation_level is None
+            else "full"
+            if investigation_level in ["1", "2", "3"]
+            else "short",
+            {"investigation_class": investigation_level},
+        )
+
+
+class ATSBSafetyIssueScraper(WebsiteScraper):
+    def __init__(self, output_file_path: str, refresh: bool = False):
+        super().__init__()
+        self.output_file_path = output_file_path
+        self.refresh = refresh
+
+    def extract_safety_issues_from_website(self):
+        if os.path.exists(self.output_file_path) and not self.refresh:
+            safety_issues_df = pd.read_pickle(self.output_file_path)
+        else:
+            safety_issues_df = pd.DataFrame(columns=["safety_issue_id", "safety_issue"])
+
+        base_url = "https://www.atsb.gov.au/safety-issues-and-actions?field_issue_number_value={mode}O&page={page}"
+
+        for mode in (pbar := tqdm(["A", "R", "M"])):
+            current_page = 0
+            pbar.set_description(f"Scraping {mode} safety issues")
+
+            failed = 0
+            while True:
+                pbar.set_description(f"Scraping page {current_page} of mode {mode}")
+                url = base_url.format(mode=mode, page=current_page)
+                response = hrequests.get(url, headers=self.headers)
+
+                if response.status_code != 200:
+                    pbar.write(
+                        f"Failed to scrape page {current_page} of mode {mode}\nWith error {response.status_code}"
+                    )
+                    failed += 1
+                    if failed > 5:
+                        failed = 0
+                        current_page += 1
+                    continue
+
+                soup = BeautifulSoup(response.content, "html.parser")
+
+                if not soup.find("div", class_="view-content"):
+                    pbar.write(
+                        f"Failed to scrape page {current_page} of mode {mode}. No table found"
+                    )
+                    break
+
+                safety_issues = [
+                    {
+                        field.find(class_="field__label").get_text(
+                            strip=True
+                        ): field.find(class_="field__item").get_text(strip=True)
+                        for field in row.find_all(class_="field--label-inline")
+                    }
+                    for row in soup.find("div", class_="view-content").children
+                    if not isinstance(row, str)
+                ]
+                table = pd.DataFrame(safety_issues)
+
+                if "Safety issue title" not in table.columns:
+                    pbar.write(
+                        f"Failed to scrape page {current_page} of mode {mode}. Page contains no safety issues"
+                    )
+                    break
+
+                table["safety_issue"] = table.apply(
+                    lambda row: f"{row['Safety issue title']}\n{row['Safety Issue Description']}",
+                    axis=1,
+                )
+
+                table["safety_issue_id"] = table["Issue number"].map(
+                    lambda number: f"ATSB_{number}"
+                )
+
+                new_safety_issues = table[
+                    ~table["safety_issue_id"].isin(safety_issues_df["safety_issue_id"])
+                ]
+
+                if new_safety_issues.empty:
+                    pbar.write(
+                        f"No new safety issues found on page {current_page} of mode {mode}, moving onto next mode"
+                    )
+                    break
+
+                safety_issues_df = pd.concat(
+                    [safety_issues_df, new_safety_issues], ignore_index=True
+                )
+
+                current_page += 1
+
+        safety_issues_df = safety_issues_df.drop_duplicates(subset=["safety_issue_id"])
+
+        safety_issues_df["report_id"] = safety_issues_df["safety_issue_id"].map(
+            lambda x: re.sub(
+                r"([AMR])O",
+                lambda m: m.group(1).lower(),
+                "_".join(re.split(r"[_-]", x)[:4]),
+            )
+        )
+        safety_issues_df["quality"] = "exact"
+        safety_issues_df = safety_issues_df[
+            ["report_id", "safety_issue_id", "safety_issue", "quality"]
+        ]
+
+        def to_df(group):
+            return pd.DataFrame(
+                {
+                    "safety_issue_id": group["safety_issue_id"].tolist(),
+                    "safety_issue": group["safety_issue"].tolist(),
+                    "quality": group["quality"].tolist(),
+                }
+            )
+
+        compact_df = safety_issues_df.groupby("report_id").apply(to_df)
+
+        formatted_df = pd.DataFrame(
+            {
+                "report_id": compact_df.index.get_level_values(0).unique(),
+                "safety_issues": [
+                    compact_df.loc[id]
+                    for id in compact_df.index.get_level_values(0).unique()
+                ],
+            }
+        )
+
+        formatted_df.to_pickle(self.output_file_path)
