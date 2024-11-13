@@ -364,7 +364,7 @@ I want you to please read the report and respond with the safety issues identifi
 
 Please only respond with safety issues that are quite clearly stated ("exact" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
 
-Remember the definitions give
+Remember the definitions given
 
 Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
 increase the likelihood of an occurrence, and/or the
@@ -386,7 +386,75 @@ issues.
 """
 
         def message(text):
-            return f'\n{text}\n        \n=Instructions=\n\nI want to know the safety issues which this investigation has found.\n\nFor each safety issue you find I need to know what is the quality of this safety issue.\nSome reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.\n\nIf no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.\n\n\nCan your response please be in yaml format as shown below.\n\n- safety_issue: |\n    bla bla talking about this and that bla bla bla\n  quality: exact\n- safety_issue: |\n    bla bla talking about this and that bla bla bla\n  quality: exact\n\n\nThere is no need to enclose the yaml in any tags.\n\n=Here are some definitions=\n\nSafety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would\nincrease the likelihood of an occurrence, and/or the\nseverity of any adverse consequences associated with the\noccurrence.\n\nSafety issue - A safety factor that:\n• can reasonably be regarded as having the\npotential to adversely affect the safety of future\noperations, and\n• is characteristic of an organisation, a system, or an\noperational environment at a specific point in time.\nSafety Issues are derived from safety factors classified\neither as Risk Controls or Organisational Influences.\n\nSafety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may\ncover a single safety issue, or two or more related safety\nissues.\n'
+            agency = self.report_id.split("_")[0]
+            match agency:
+                case "TSB":
+                    instruction_core = """
+I want to know the safety issues which this investigation has found. If the safety issues are not explicitly stated you will need to infer them. You need to respond with what safety issues this report has identified. Note that sometimes will not have any relevant safety issues. In this case you can respond with an empty list.
+
+If no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues."""
+                case "TAIC":
+                    instruction_core = """
+I want to know the safety issues which this investigation has found.
+
+For each safety issue you find I need to know what is the quality of this safety issue.
+Some reports will have safety issues explicitly stated with something like "safety issue - ..." or "safety issue: ...", these are "exact" safety issues. Note that the text may have extra spaces or characters in it. Furthermore findings do not count as safety issues.
+
+If no safety issues are stated explicitly, then you need to inferred them. These inferred safety issues are "inferred" safety issues.
+"""
+                case _:
+                    raise ValueError(
+                        f"{agency} is not a supported agency for safety issue extraction"
+                    )
+
+            return f"""
+{text}
+
+=Instructions=
+
+{instruction_core}
+
+Can your response please be in yaml format as shown below.
+
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: exact
+
+or it could be 
+
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: inferred
+- safety_issue: |
+    bla bla talking about this and that bla bla bla
+  quality: inferred
+
+
+There is no need to enclose the yaml in any tags.
+
+=Here are some definitions=
+
+Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
+increase the likelihood of an occurrence, and/or the
+severity of any adverse consequences associated with the
+occurrence.
+
+Safety issue - A safety factor that:
+• can reasonably be regarded as having the
+potential to adversely affect the safety of future
+operations, and
+• is characteristic of an organisation, a system, or an
+operational environment at a specific point in time.
+Safety Issues are derived from safety factors classified
+either as Risk Controls or Organisational Influences.
+
+Safety theme - Indication of recurring circumstances or causes, either across transport modes or over time. A safety theme may
+cover a single safety issue, or two or more related safety
+issues.
+"""
 
         temp = 0
         while temp < 0.1:
@@ -395,7 +463,7 @@ issues.
                 message(self.important_text),
                 model="gpt-4",
                 temp=temp,
-                max_tokens=4096,
+                max_tokens=9096,
             )
 
             if response is None:
