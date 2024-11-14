@@ -72,6 +72,7 @@ class ReportScraper(WebsiteScraper):
                     "investigation_type",
                     "misc",
                     "url",
+                    "agency_id",
                 ]
             )
 
@@ -194,11 +195,17 @@ class ReportScraper(WebsiteScraper):
         if not outcome:
             return False
 
-        report_id, title, event_type, investigation_type, misc = (
+        report_id, title, event_type, investigation_type, agency_id, misc = (
             self.get_report_metadata(report_id, soup, pbar)
         )
         self.__add_report_metadata_to_df(
-            report_id, title, event_type, investigation_type, misc, report_url=url
+            report_id,
+            title,
+            event_type,
+            investigation_type,
+            misc,
+            report_url=url,
+            agency_id=agency_id,
         )
 
         return True
@@ -303,6 +310,7 @@ class ReportScraper(WebsiteScraper):
         investigation_type,
         misc: dict,
         report_url,
+        agency_id,
     ):
         if self.report_titles_df.query("report_id == @report_id").empty:
             self.report_titles_df.loc[len(self.report_titles_df)] = [
@@ -312,6 +320,7 @@ class ReportScraper(WebsiteScraper):
                 investigation_type,
                 misc,
                 report_url,
+                agency_id,
             ]
             self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
 
@@ -378,7 +387,9 @@ class TAICReportScraper(ReportScraper):
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
-        return report_id, title, None, "full", {}
+        agency_id = soup.find("h1", class_="page-title").get_text().strip()
+
+        return report_id, title, None, "full", agency_id, {}
 
 
 class ATSBReportScraper(ReportScraper):
@@ -556,6 +567,10 @@ class ATSBReportScraper(ReportScraper):
 
         title = title_div.text
 
+        agency_id = soup.find("div", class_="field--name-field-report-id")
+        if agency_id is not None:
+            agency_id = agency_id.find("div", class_="field__item").text.strip()
+
         return (
             report_id,
             title,
@@ -565,6 +580,7 @@ class ATSBReportScraper(ReportScraper):
             else "full"
             if investigation_level in ["Defined", "Systemic"]
             else "short",
+            agency_id,
             {"investigation_level": investigation_level},
         )
 
@@ -674,6 +690,10 @@ class TSBReportScraper(ReportScraper):
             if match:
                 investigation_level = match.group(1)
 
+        agency_id = soup.find("h1", class_="page-header").text
+        if agency_id is not None:
+            agency_id = agency_id.strip().split(" ")[-1]
+
         return (
             report_id,
             all_text,
@@ -683,6 +703,7 @@ class TSBReportScraper(ReportScraper):
             else "full"
             if investigation_level in ["1", "2", "3"]
             else "short",
+            agency_id,
             {"investigation_class": investigation_level},
         )
 
