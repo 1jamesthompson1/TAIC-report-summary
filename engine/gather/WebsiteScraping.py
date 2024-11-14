@@ -1,5 +1,6 @@
 import os
 import re
+from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
 import hrequests
@@ -807,3 +808,148 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
         )
 
         formatted_df.to_pickle(self.output_file_path)
+
+
+class TSBRecommendationsScraper(WebsiteScraper):
+    def __init__(self, output_file_path, refresh=False):
+        super().__init__()
+
+        self.output_file_path = output_file_path
+
+        self.refresh = refresh
+
+    def extract_recommendations_from_website(self):
+        recommendations_df = None
+        columns = [
+            "recommendation_id",
+            "recommendation",
+            "report_id",
+            "current_assesment",
+            "status",
+            "watchlist",
+            "url",
+            "recommendation_text",
+            "made",
+            "extra_recommendation_context",
+        ]
+        if not self.refresh and os.path.exists(self.output_file_path):
+            recommendations_df = pd.read_pickle(self.output_file_path)
+        else:
+            recommendations_df = pd.DataFrame(columns=columns)
+
+        base_url = "https://www.tsb.gc.ca"
+
+        new_recommendations = pd.DataFrame(columns=columns)
+        for mode in (phbar := tqdm(["rail", "marine", "aviation"])):
+            phbar.set_description(f"Scraping recommendations for mode {mode}")
+
+            url = f"{base_url}/eng/recommandations-recommendations/{mode}/index.html"
+
+            response = hrequests.get(url, headers=self.headers)
+
+            if response.status_code != 200:
+                raise ValueError(
+                    f"Failed to scrape recommendations for mode {mode}. Error code {response.status_code}"
+                )
+
+            table = pd.read_html(response.content, flavor="lxml", extract_links="body")[
+                0
+            ]
+
+            if table.empty:
+                raise ValueError(
+                    f"Failed to scrape recommendations for mode {mode}. No table found"
+                )
+
+            # filter out older recommendations
+            table = table[
+                table["Number"]
+                .map(
+                    lambda x: int(
+                        re.match(r"[amr](\d{2})-\d{2}", x[0], re.IGNORECASE).group(1)
+                    )
+                )
+                .between(0, 80)
+            ]
+
+            table["url"] = table["Number"].map(
+                lambda x: f"{base_url}{x[1]}" if x[1] else None
+            )
+
+            table = table.map(lambda x: x[0] if isinstance(x, tuple) else x)
+
+            table.columns = columns[:7]
+            table["recommendation"] = table["recommendation"].map(
+                lambda x: "The TSB recommended that " + x
+            )
+
+            new_recommendations = pd.concat(
+                [new_recommendations, table], ignore_index=True
+            )
+
+        recommendations_df = pd.concat(
+            [recommendations_df, new_recommendations], ignore_index=True
+        )
+        recommendations_df.drop_duplicates(subset=["recommendation_id"], inplace=True)
+
+        new_recommendations_to_process = recommendations_df[
+            ~recommendations_df["url"].isna()
+            & (
+                recommendations_df["made"].isna()
+                & recommendations_df["extra_recommendation_context"].isna()
+            )
+        ]
+
+        for i, row in (phbar := tqdm(new_recommendations_to_process.iterrows())):
+            phbar.set_description(
+                f"Processing recommendation {row['recommendation_id']} from {row['report_id']} with i:{i}"
+            )
+            recommendation, date, context = self.extract_recommendation_data(row["url"])
+            recommendations_df.at[i, "recommendation_text"] = recommendation
+            recommendations_df.at[i, "made"] = date
+            recommendations_df.at[i, "extra_recommendation_context"] = context
+
+        recommendations_df.to_pickle(self.output_file_path)
+
+    def extract_recommendation_data(self, url):
+        """
+        This will read the webpage and extract:
+        - recommendation (This is because sometimes the recommendation inside the website table is not complete)
+        - recommednation date
+        - recommendation context
+        ## TODO: Add in the recipient and reply text. This is not done at the moment as it is not needed
+        - recipient
+        - reply text
+        """
+
+        response = hrequests.get(url, headers=self.headers)
+
+        if response.status_code != 200:
+            raise ValueError(
+                f"Failed to scrape recommendations from {url}. Error code {response.status_code}"
+            )
+
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        recommendation = soup.find(
+            "div", class_="field--name-field-recommendation-well"
+        )
+        recommendation = recommendation.get_text() if recommendation else None
+
+        recommendation_date = soup.find(
+            "div", class_="field--name-field-recommendation-issued"
+        )
+        if recommendation_date is not None:
+            recommendation_date = recommendation_date.find("time")["datetime"]
+            recommendation_date = datetime.fromisoformat(
+                recommendation_date.replace("Z", "+00:00")
+            )
+
+        context = soup.find("div", class_="field--name-field-recommendation-rationale")
+        recommendation_context = None
+        if context is not None:
+            recommendation_context = "\n".join(
+                [child.get_text() for child in context.children if child.name == "p"]
+            )
+
+        return recommendation, recommendation_date, recommendation_context

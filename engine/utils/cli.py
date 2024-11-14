@@ -100,6 +100,13 @@ def gather(output_dir, config, refresh):
         refresh,
     )
 
+    WebsiteScraping.TSBRecommendationsScraper(
+        os.path.join(
+            output_dir, output_config.get("tsb_website_recommendations_file_name")
+        ),
+        refresh,
+    )
+
 
 def extract(output_dir, config, refresh):
     output_config = config.get("output")
