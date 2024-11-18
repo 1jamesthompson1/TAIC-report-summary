@@ -6,6 +6,7 @@ import pandas as pd
 import pytest
 
 from engine.extract.ReportExtracting import (
+    RecommendationsExtractor,
     ReportExtractor,
     ReportSectionExtractor,
     SafetyIssueExtractor,
@@ -1220,3 +1221,150 @@ Page 14 | Final report RO -2014 -102 7. Recommendations"""
         )._get_previous_section("1.1")
 
         assert section == "1"
+
+
+class TestRecommendationExtraction:
+    @classmethod
+    def setup_class(cls):
+        cls.test_data = pd.read_pickle("tests/data/recommendation_test_data.pkl")
+
+    @pytest.mark.parametrize(
+        "report_id, expected",
+        [
+            pytest.param(
+                "ATSB_a_2003_980",
+                [26, 28],
+                id="ATSB_a_2003_980",
+            ),
+            pytest.param(
+                "ATSB_m_2006_234",
+                [19, 21],
+                id="ATSB_m_2006_234",
+            ),
+            pytest.param(
+                "ATSB_r_2004_004",
+                [23, 25],
+                id="ATSB_r_2004_004",
+            ),
+            pytest.param(
+                "ATSB_a_2017_105",
+                None,
+                id="ATSB_a_2017_105",
+            ),
+            pytest.param(
+                "ATSB_r_2014_024",
+                [12, 14],
+                id="ATSB_r_2014_024",
+            ),
+            pytest.param(
+                "ATSB_a_2002_710",
+                [36, 36],
+                id="ATSB_a_2002_710 (Safety section is last section)",
+            ),
+            pytest.param(
+                "ATSB_m_2001_163",
+                [21, 23],
+                id="ATSB_m_2001_163 (No safety action section)",
+            ),
+        ],
+    )
+    def test_content_section_reading(self, report_id, expected):
+        report_data = self.test_data.loc[report_id]
+
+        extractor = RecommendationsExtractor("", "", None)
+
+        pages = extractor._get_recommendation_pages(report_data["content_section"])
+
+        assert pages == expected
+
+    @pytest.mark.parametrize(
+        "report_id",
+        [
+            pytest.param(
+                "ATSB_a_2002_780",
+                id="ATSB_a_2002_780 (List of recommendations from other agency)",
+            ),
+            pytest.param(
+                "ATSB_m_2005_215",
+                id="ATSB_m_2005_215 (Simple stated recommendations still have recommendation_id)",
+            ),
+            pytest.param(
+                "ATSB_a_2021_005",
+                id="ATSB_a_2021_005 (Modern complete stated recommendations)",
+            ),
+            pytest.param(
+                "ATSB_m_2008_012",
+                id="ATSB_m_2008_012 (No recommendations only safety issues)",
+            ),
+            pytest.param(
+                "ATSB_r_2015_007",
+                id="ATSB_r_2015_007 (Modern complete recommendations)",
+            ),
+        ],
+    )
+    def test_recommendation_extraction(self, report_id):
+        report_data = self.test_data.loc[report_id]
+
+        extractor = RecommendationsExtractor(
+            report_data["text"], report_id, report_data["headers"]
+        )
+
+        extracted_recommendations = extractor._extract_recommendations_from_text(
+            report_data["recommendation_section"]
+        )
+
+        expected_recommendations = report_data["recommendations"]
+
+        if expected_recommendations is None:
+            assert extracted_recommendations is None
+            return
+        elif extracted_recommendations is None:
+            pytest.fail(f"Expected recommendations for report {report_id} but got None")
+
+        assert len(extracted_recommendations) == len(expected_recommendations)
+
+        for extracted, expected in zip(
+            extracted_recommendations, expected_recommendations
+        ):
+            assert extracted["recommendation"] == expected["recommendation"]
+            assert extracted["recommendation_id"] == expected["recommendation_id"]
+            assert (
+                SequenceMatcher(
+                    None, extracted["recipient"], expected["recipient"]
+                ).ratio()
+                > 0.8
+            )
+
+    @pytest.mark.parametrize(
+        "report_id, expected",
+        [
+            pytest.param(
+                "ATSB_a_2014_096",
+                0,
+                id="ATSB_a_2014_096 (No recommendations)",
+            ),
+            pytest.param(
+                "ATSB_m_2013_011",
+                2,
+                id="ATSB_m_2013_011 (Modern recommednation)",
+            ),
+        ],
+    )
+    def test_complete_process(self, report_id, expected):
+        report_data = pd.read_pickle(
+            os.path.join(
+                pytest.output_config["folder_name"],
+                pytest.output_config["parsed_reports_df_file_name"],
+            )
+        ).loc[report_id]
+
+        extractor = RecommendationsExtractor(
+            report_data["text"], report_id, report_data["headers"]
+        )
+
+        extracted_recommendations = extractor.extract_recommendations()
+
+        if expected == 0:
+            assert extracted_recommendations is None
+        else:
+            assert len(extracted_recommendations) == expected
