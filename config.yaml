@@ -35,7 +35,7 @@ engine:
   data:
     data_remote_folder_location: "https://raw.githubusercontent.com/1jamesthompson1/TAIC-report-summary/main/data/"
     data_local_folder_location: "data"
-    recommendations_file_name: "cleaned_TAIC_recommendations_2024_04_04.csv"
+    recommendations_file_name: "cleaned_TAIC_recommendations_2024_11_19.csv"
     event_types_file_name: "event_types.csv"
     atsb_historic_aviation: "atsb_historic_aviation_investigations.csv"
   validation:
