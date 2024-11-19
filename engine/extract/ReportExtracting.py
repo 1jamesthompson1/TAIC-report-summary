@@ -123,7 +123,8 @@ class ReportExtractor:
 
     def extract_text_between_page_numbers(self, page_number_1, page_number_2) -> str:
         # Create a regular expression pattern to match the page numbers and the text between them
-
+        if page_number_1 == page_number_2:
+            return self.extract_page(page_number_1)
         if page_number_1 != 0:
             starting_page_match = re.search(
                 rf"<< Page {page_number_1} >>",
@@ -803,24 +804,63 @@ class RecommendationsExtractor(ReportSectionExtractor):
             )
             return None
 
-        # Parse the  recommendation section and get a list
+        extracted_recommendations = self._extract_recommendations_from_text(
+            recommendation_section
+        )
 
-        def message(text):
-            return f'\n"""        \n{text}\n"""\n\n=Instructions=\n\nThis is the recommendation section of the report.  I want to have a list of all of the distinct recommendations that were made. It is important that the recommendations are copied verbatim\n\nCan your response please be in yaml format.\n\n- |\n    bla bla bla\n- |\n    bla bla bla bla\n\nThere is no need to enclose the yaml in any tags.\n'
+        return extracted_recommendations
+
+    def _extract_recommendations_from_text(self, text):
+        """
+        This will look for the recommendations that are present in the given text
+        """
+
+        agency = self.report_id.split("_")[0]
+        if agency == "ATSB":
+            agency_text = "ATSB (Australia Transport Safety Bureau)"
+        else:
+            raise NotImplementedError(
+                f"{agency} is not currently supported yet for recommendation extraction."
+            )
 
         response = AICaller.query(
-            """
+            f"""
 You are going help me read and parse a transport accident investigation report.
+This is the section of a report that may or may not contain recommendations. I want to have a list of all of the distinct recommendations that were made. It is important that the recommendations are copied verbatim.
 
-You will be given a section and a question and you will need to respond in the format that is specified.
+Recommendations are made to those who can make the changes needed to address safety issues identified during an inquiry.  I only want recommendations that were made by the {agency_text}.
+
+If no appropriate recommendations were made then return "None".
+
+Can your response please be in yaml format.
+
+- recommendation: |
+    bla bla stating the recommendation that was made.
+  recommendation_id: 
+  recipient: organization who it was directed at.
+  recommendation_context: |
+    Extra context around why the recommendation was made. Potentially teh safety issue that prompted the recommendation.
+  made: date the recommendation was made. Leave empty if not known.
+- recommendation: |
+    bla bla stating the recommendation that was made.
+  recommendation_id: 
+  recipient: organization who it was directed at.
+  recommendation_context: |
+    Extra context around why the recommendation was made. Potentially teh safety issue that prompted the recommendation.
+  made: date the recommendation was made. Leave empty if not known.
+
+There is no need to enclose the yaml in any tags.
 """,
-            message(recommendation_section),
+            text,
             model="gpt-4",
             temp=0,
         )
 
-        if response[:7] == '"""yaml' or response[:7] == "```yaml":
-            response = response[7:-3]
+        response = response.strip().strip(" `").replace("yaml", "")
+
+        if response == "None":
+            print("  No recommendations were found")
+            return None
 
         try:
             recommendations = yaml.safe_load(response)
@@ -834,7 +874,7 @@ You will be given a section and a question and you will need to respond in the f
 
     def _extract_recommendation_section_text(self):
         """
-        Extract the text of the recommendation section from the report.
+        Extract the text of the recommendation section from the report. This is usually in the safety action section.
         """
         content_section = self.extract_contents_section()
 
@@ -844,36 +884,50 @@ You will be given a section and a question and you will need to respond in the f
             )
             return None
 
-        def add_whitespace(text):
-            return "\\s{0,2}".join(text)
+        recommendation_pages_to_read = self._get_recommendation_pages(content_section)
 
-        search_regex = rf'(\d{{1,3}})\s{{0,2}}\.?\s{{0,2}}(({add_whitespace("safety")})?\s?{add_whitespace("recommendations")}?).*?(\d{{1,3}})'
-
-        recommendation_matches = [
-            *re.finditer(search_regex, content_section, re.IGNORECASE)
-        ]
-
-        # Can't find the recommendation section and assuming that there are no recommendations
-        if len(recommendation_matches) == 0:
-            print("  Could not find the recommendation section")
+        if recommendation_pages_to_read is None:
+            print("  Could not find recommendation pages")
             return None
 
-        # The regex matches multiple times so will assume it is the last one as any earlier matches are probably from the executive summary
-        if len(recommendation_matches) > 1:
-            print(
-                "  Found multiple recommendation sections, assuming the last one is the correct one"
-            )
-            recommendation_match = recommendation_matches[-1]
-        else:
-            recommendation_match = recommendation_matches[0]
-
-        print(
-            f"  Found the recommendation section it was {recommendation_match.group(1)}"
+        recommendation_text = self.extract_text_between_page_numbers(
+            recommendation_pages_to_read[0], recommendation_pages_to_read[-1]
         )
 
-        recommendation_section = self.extract_section(recommendation_match.group(1))
+        return recommendation_text
 
-        return recommendation_section
+    def _get_recommendation_pages(self, content_section):
+        """
+        This will get the pages that need to be read to get the recommendations section
+        """
+        model_response = AICaller.query(
+            system="""
+You are helping me read the content sections of a report.
+
+Can you please find the starting and end sections of the recommendations or safety actions section. The end of it is the same as the start of the next section. Note that generally the page number will be on the right.
+If neither of these sections exist just return "None".
+
+Your response should just be 2 numbers for example: 23,26.
+""",
+            user=content_section,
+            model="gpt-4",
+            temp=0,
+        )
+
+        if model_response.strip() == "None":
+            return None
+
+        parsed_model_response = model_response.strip().split(",")
+
+        if len(parsed_model_response) != 2:
+            print(f"  Error: Could not parse the pages to read: {model_response}")
+            return None
+
+        try:
+            return [int(x) for x in parsed_model_response]
+        except ValueError:
+            print(f"  Error: Could not parse the pages to read: {model_response}")
+            return None
 
 
 class ReportExtractingProcessor:
@@ -1224,3 +1278,56 @@ class ReportExtractingProcessor:
             [report_sections_df, pd.DataFrame(new_reports)], ignore_index=True
         )
         report_sections_df.to_pickle(output_file_path)
+
+    def extract_recommendations(
+        self, output_path, tsb_recommendations_path, taic_recommendations_path
+    ):
+        if os.path.exists(output_path) and not self.refresh:
+            recommendations_df = pd.read_pickle(output_path)
+        else:
+            recommendations_df = pd.DataFrame(columns=["report_id", "recommendations"])
+        if os.path.exists(tsb_recommendations_path):
+            tsb_recommendations_df = pd.read_pickle(tsb_recommendations_path)
+        else:
+            tsb_recommendations_df = pd.DataFrame(
+                columns=["report_id", "recommendations"]
+            )
+
+        if os.path.exists(taic_recommendations_path):
+            taic_recommendations_df = pd.read_pickle(taic_recommendations_path)
+        else:
+            taic_recommendations_df = pd.DataFrame(
+                columns=["report_id", "recommendations"]
+            )
+
+        recommendations_df = pd.concat(
+            [recommendations_df, tsb_recommendations_df, taic_recommendations_df],
+            ignore_index=True,
+        ).drop_duplicates("report_id")
+
+        atsb_reports = self.report_text_df[
+            self.report_text_df["report_id"].map(lambda x: x.split("_")[0]) == "ATSB"
+        ]
+        new_reports = recommendations_df.merge(
+            atsb_reports, how="right", on="report_id"
+        )
+        new_reports = new_reports[new_reports["recommendations"].isna()]
+
+        print(recommendations_df)
+        for _, report_id, report_text, headers in (
+            pbar := tqdm(new_reports[["report_id", "text", "headers"]].itertuples())
+        ):
+            pbar.set_description(f"Extracting sections from {report_id}")
+            if report_id in recommendations_df["report_id"].values:
+                continue
+
+            recommendations = RecommendationsExtractor(
+                report_text, report_id, headers
+            ).extract_recommendations()
+
+            recommendations_df.loc[len(recommendations_df)] = [
+                report_id,
+                recommendations,
+            ]
+
+        recommendations_df.to_pickle(output_path)

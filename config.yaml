@@ -24,6 +24,8 @@ engine:
     recommendation_response_classification_df_file_name: "recommendation_response_classification.pkl"
     atsb_historic_aviation_df_file_name: "atsb_historic_aviation_investigations.pkl"
     atsb_website_safety_issues_file_name: "atsb_website_safety_issues.pkl"
+    tsb_website_recommendations_file_name: "tsb_website_recommendations.pkl"
+    taic_website_recommendations_file_name: "taic_website_recommendations.pkl"
     embeddings:
       folder_name: "embeddings"
       safety_issues_file_name: "safety_issues_embeddings.pkl"
@@ -33,7 +35,7 @@ engine:
   data:
     data_remote_folder_location: "https://raw.githubusercontent.com/1jamesthompson1/TAIC-report-summary/main/data/"
     data_local_folder_location: "data"
-    recommendations_file_name: "cleaned_TAIC_recommendations_2024_04_04.csv"
+    recommendations_file_name: "cleaned_TAIC_recommendations_2024_11_19.csv"
     event_types_file_name: "event_types.csv"
     atsb_historic_aviation: "atsb_historic_aviation_investigations.csv"
   validation:

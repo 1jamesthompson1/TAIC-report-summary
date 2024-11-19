@@ -33,25 +33,6 @@ class DataGetter:
                 f"Could not find {data_name} on the internet ({remote_path}) or locally at {local_path}"
             )
 
-    def get_recommendations(self, data_name, output_file_name):
-        if os.path.exists(output_file_name) and not self.refresh:
-            return
-
-        data_path = self.get_data_path(data_name)
-
-        df = pd.read_csv(data_path)
-
-        report_groups = [v.reset_index(drop=True) for k, v in df.groupby("report_id")]
-
-        widened_df = pd.DataFrame(
-            {
-                "report_id": df.groupby("report_id").groups.keys(),
-                "recommendations": report_groups,
-            }
-        )
-
-        widened_df.to_pickle(output_file_name)
-
     def get_generic_data(self, data_location, output_file_name):
         """
         Gets the data from a datasource and stores it in the output file location.

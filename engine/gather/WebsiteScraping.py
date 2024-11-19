@@ -1,5 +1,7 @@
 import os
 import re
+import time
+from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
 import hrequests
@@ -71,6 +73,7 @@ class ReportScraper(WebsiteScraper):
                     "investigation_type",
                     "misc",
                     "url",
+                    "agency_id",
                 ]
             )
 
@@ -153,7 +156,10 @@ class ReportScraper(WebsiteScraper):
         if pbar:
             pbar.set_description(f"  Collecting {url}")
 
-        if not self.settings.refresh and os.path.exists(file_name):
+        if not self.settings.refresh and (
+            os.path.exists(file_name)
+            or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
+        ):
             if pbar:
                 pbar.set_description(f"  {file_name} already exists, skipping download")
             return True
@@ -190,16 +196,22 @@ class ReportScraper(WebsiteScraper):
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
 
         outcome = self.download_report(report_id, file_name, soup, base_url, pbar)
+        if self.report_titles_df.query("report_id == @report_id").empty:
+            report_id, title, event_type, investigation_type, agency_id, misc = (
+                self.get_report_metadata(report_id, soup, pbar)
+            )
+            self.__add_report_metadata_to_df(
+                report_id,
+                title,
+                event_type,
+                investigation_type,
+                misc,
+                report_url=url,
+                agency_id=agency_id,
+            )
+
         if not outcome:
             return False
-
-        report_id, title, event_type, investigation_type, misc = (
-            self.get_report_metadata(report_id, soup, pbar)
-        )
-        self.__add_report_metadata_to_df(
-            report_id, title, event_type, investigation_type, misc, report_url=url
-        )
-
         return True
 
     def download_report(
@@ -302,6 +314,7 @@ class ReportScraper(WebsiteScraper):
         investigation_type,
         misc: dict,
         report_url,
+        agency_id,
     ):
         if self.report_titles_df.query("report_id == @report_id").empty:
             self.report_titles_df.loc[len(self.report_titles_df)] = [
@@ -311,6 +324,7 @@ class ReportScraper(WebsiteScraper):
                 investigation_type,
                 misc,
                 report_url,
+                agency_id,
             ]
             self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
 
@@ -377,7 +391,9 @@ class TAICReportScraper(ReportScraper):
     def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
-        return report_id, title, None, "full", {}
+        agency_id = soup.find("h1", class_="page-title").get_text().strip()
+
+        return report_id, title, None, "full", agency_id, {}
 
 
 class ATSBReportScraper(ReportScraper):
@@ -555,6 +571,10 @@ class ATSBReportScraper(ReportScraper):
 
         title = title_div.text
 
+        agency_id = soup.find("div", class_="field--name-field-report-id")
+        if agency_id is not None:
+            agency_id = agency_id.find("div", class_="field__item").text.strip()
+
         return (
             report_id,
             title,
@@ -564,6 +584,7 @@ class ATSBReportScraper(ReportScraper):
             else "full"
             if investigation_level in ["Defined", "Systemic"]
             else "short",
+            agency_id,
             {"investigation_level": investigation_level},
         )
 
@@ -673,6 +694,10 @@ class TSBReportScraper(ReportScraper):
             if match:
                 investigation_level = match.group(1)
 
+        agency_id = soup.find("h1", class_="page-header").text
+        if agency_id is not None:
+            agency_id = agency_id.strip().split(" ")[-1]
+
         return (
             report_id,
             all_text,
@@ -682,6 +707,7 @@ class TSBReportScraper(ReportScraper):
             else "full"
             if investigation_level in ["1", "2", "3"]
             else "short",
+            agency_id,
             {"investigation_class": investigation_level},
         )
 
@@ -807,3 +833,293 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
         )
 
         formatted_df.to_pickle(self.output_file_path)
+
+
+class RecommendationScraper(WebsiteScraper):
+    def __init__(self, output_file_path, report_titles_file_path, refresh=False):
+        super().__init__()
+
+        self.output_file_path = output_file_path
+
+        if os.path.exists(report_titles_file_path):
+            report_titles_df = pd.read_pickle(report_titles_file_path)
+        else:
+            raise ValueError(f"{report_titles_file_path} does not exist")
+
+        self.id_converter = {
+            agency_id: report_id
+            for report_id, agency_id in report_titles_df[
+                ["report_id", "agency_id"]
+            ].values
+        }
+
+        self.refresh = refresh
+
+    def extract_recommendations_from_website(self):
+        if not self.refresh and os.path.exists(self.output_file_path):
+            recommendations_df = pd.read_pickle(self.output_file_path)
+        else:
+            recommendations_df = pd.DataFrame(columns=["report_id", "recommendations"])
+
+        new_recommendations = pd.DataFrame(columns=self.columns)
+        for element in (phbar := tqdm(self.loop_iter)):
+            phbar.set_description(f"Scraping recommendations for {element}")
+
+            url = self.get_url(element)
+
+            response = hrequests.get(url, headers=self.headers)
+
+            if response.status_code != 200:
+                raise ValueError(
+                    f"Failed to scrape recommendations for {element}. Error code {response.status_code}"
+                )
+
+            table = pd.read_html(response.content, flavor="lxml", extract_links="body")
+
+            if len(table) == 0 or table[0].empty:
+                break
+            table = table[0]
+
+            table = self.process_new_table(table)
+
+            if len(recommendations_df) > 0:
+                table = table[
+                    ~table["recommendation_id"].isin(
+                        pd.concat(recommendations_df["recommendations"].tolist())[
+                            "recommendation_id"
+                        ]
+                    )
+                ]
+
+            if len(table) == 0:
+                break
+            new_recommendations = pd.concat(
+                [new_recommendations, table], ignore_index=True
+            )
+
+        for i, row in (phbar := tqdm(list(new_recommendations.iterrows()))):
+            phbar.set_description(
+                f"Processing recommendation {row['recommendation_id']} from {row['agency_id']} with i:{i}"
+            )
+            recommendation_data = self.extract_recommendation_data(row["url"])
+            for key, value in recommendation_data.items():
+                new_recommendations.at[i, key] = value
+
+        new_recommendations["report_id"] = new_recommendations["agency_id"].map(
+            lambda x: self.id_converter.get(x)
+        )
+
+        print(new_recommendations)
+        recommendations_df = pd.concat(
+            [
+                recommendations_df,
+                pd.DataFrame(
+                    {
+                        "report_id": new_recommendations.groupby(
+                            "report_id"
+                        ).groups.keys(),
+                        "recommendations": [
+                            group.reset_index(drop=True)
+                            for _, group in new_recommendations.groupby(
+                                "report_id"
+                            ).groups
+                        ],
+                    }
+                ),
+            ],
+            ignore_index=True,
+        )
+
+        recommendations_df.to_pickle(self.output_file_path)
+
+    def extract_recommendation_data(self, url):
+        """
+        Goes to the URL and extracts the needed data.
+        """
+        raise NotImplementedError
+
+    def process_new_table(self, table):
+        """
+        This takes a recently read table and processes it
+        """
+        raise NotImplementedError
+
+
+class TSBRecommendationsScraper(RecommendationScraper):
+    def __init__(self, output_file_path, report_titles_file_path, refresh=False):
+        super().__init__(output_file_path, report_titles_file_path, refresh)
+        self.columns = [
+            "recommendation_id",
+            "recommendation",
+            "agency_id",
+            "current_assesment",
+            "status",
+            "watchlist",
+            "url",
+            "recommendation_text",
+            "made",
+            "extra_recommendation_context",
+        ]
+        self.base_url = "https://www.tsb.gc.ca"
+
+        self.loop_iter = ["rail", "marine", "aviation"]
+
+    def get_url(self, mode):
+        return f"{self.base_url}/eng/recommandations-recommendations/{mode}/index.html"
+
+    def extract_recommendation_data(self, url, retry=3):
+        """
+        This will read the webpage and extract:
+        - recommendation (This is because sometimes the recommendation inside the website table is not complete)
+        - recommednation date
+        - recommendation context
+        ## TODO: Add in the recipient and reply text. This is not done at the moment as it is not needed
+        - recipient
+        - reply text
+        """
+        if url is None:
+            return {
+                "recommendation": None,
+                "recommendation_date": None,
+                "recommendation_context": None,
+            }
+
+        response = hrequests.get(url, headers=self.headers)
+
+        if response.status_code != 200:
+            if retry > 0:
+                time.sleep(1)
+                return self.extract_recommendation_data(url, retry - 1)
+            raise ValueError(
+                f"Failed to scrape recommendations from {url}. Error code {response.status_code}"
+            )
+
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        recommendation = soup.find(
+            "div", class_="field--name-field-recommendation-well"
+        )
+        recommendation = recommendation.get_text() if recommendation else None
+
+        recommendation_date = soup.find(
+            "div", class_="field--name-field-recommendation-issued"
+        )
+        if recommendation_date is not None:
+            recommendation_date = recommendation_date.find("time")["datetime"]
+            recommendation_date = datetime.fromisoformat(
+                recommendation_date.replace("Z", "+00:00")
+            )
+
+        context = soup.find("div", class_="field--name-field-recommendation-rationale")
+        recommendation_context = None
+        if context is not None:
+            recommendation_context = "\n".join(
+                [child.get_text() for child in context.children if child.name == "p"]
+            )
+
+        return {
+            "recommendation_text": recommendation,
+            "made": recommendation_date,
+            "extra_recommendation_context": recommendation_context,
+        }
+
+    def process_new_table(self, table):
+        # filter out older recommendations
+        table = table[
+            table["Number"]
+            .map(
+                lambda x: int(
+                    re.match(r"[amr](\d{2})-\d{2}", x[0], re.IGNORECASE).group(1)
+                )
+            )
+            .between(0, 80)
+        ]
+
+        table["url"] = table["Number"].map(
+            lambda x: f"{self.base_url}{x[1]}" if x[1] else None
+        )
+
+        table = table.map(lambda x: x[0] if isinstance(x, tuple) else x)
+
+        table.columns = self.columns[:7]
+        table["recommendation"] = table["recommendation"].map(
+            lambda x: "The TSB recommended that " + x
+        )
+        return table
+
+
+class TAICRecommendationScraper(RecommendationScraper):
+    def __init__(self, output_file_path, report_titles_file_path, refresh=False):
+        super().__init__(output_file_path, report_titles_file_path, refresh)
+
+        self.columns = [
+            "recommendation_id",
+            "made",
+            "agency_id",
+            "recipient",
+            "recommendation_text",
+            "reply_text",
+            "report_id",
+        ]
+        self.base_url = "https://www.taic.org.nz"
+
+        self.loop_iter = range(300)
+
+    def get_url(self, page):
+        return f"{self.base_url}/recommendations?page={page}"
+
+    def process_new_table(self, table):
+        table = table.iloc[:, :4]
+
+        table.columns = self.columns[:4]
+        table["url"] = table["recommendation_id"].map(lambda x: self.base_url + x[1])
+
+        table = table.map(lambda x: x[0] if isinstance(x, tuple) else x)
+
+        table["recommendation_id"] = table["recommendation_id"].map(
+            lambda x: re.sub(" (Aviation)|(Rail)|(Marine)", "", x)
+        )
+        table = table[
+            table["recommendation_id"]
+            .map(
+                lambda x: int(re.match(r"\d{3}\w?/(\d{2})", x, re.IGNORECASE).group(1))
+            )
+            .between(0, 80)
+        ]
+
+        return table
+
+    def extract_recommendation_data(self, url):
+        """
+        This will extract information that is not found in the able
+        - recommendation_text
+        - reply_text
+        """
+
+        if url is None:
+            return None, None
+
+        response = hrequests.get(url, headers=self.headers)
+
+        if response.status_code != 200:
+            retry = 3
+            if retry > 0:
+                time.sleep(1)
+                return self.extract_recommendation_data(url, retry - 1)
+            raise ValueError(
+                f"Failed to scrape recommendations from {url}. Error code {response.status_code}"
+            )
+
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        text = soup.find("div", class_="field--name-field-sr-text")
+
+        recommendation_text = list(text.children)[-1].get_text() if text else None
+
+        reply_text = soup.find("div", class_="field--name-field-sr-replytext")
+        reply_text = list(reply_text.children)[-1].get_text() if reply_text else None
+
+        return {
+            "recommendation_text": recommendation_text,
+            "reply_text": reply_text,
+        }
