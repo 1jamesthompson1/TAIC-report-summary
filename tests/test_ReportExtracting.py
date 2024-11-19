@@ -193,7 +193,7 @@ def test_content_section_reading(report_id, expected):
     if expected is None:
         assert pages_to_read is None
     else:
-        assert set(expected).issubset(pages_to_read)
+        assert set(pages_to_read).issuperset(expected)
         assert len(pages_to_read) <= math.ceil(len(expected) * 1.6)
 
 
@@ -218,7 +218,7 @@ and emergency drills, which according to the operator's (DW New Zealand Limited 
 maritime transport operator plan14 were scheduled to happen four times each year.  
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 1
         assert (
@@ -286,7 +286,7 @@ Maritime Rules.
 Fisheries Act) are required  to meet applicable design , construction and equipment rules 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 2
         assert [safety_issue["safety_issue"] for safety_issue in safety_issues] == [
@@ -312,7 +312,7 @@ locomotive  and train brake handles correctly before vacating a cab and relocati
 at the other end.    
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 1
         assert (
@@ -389,7 +389,7 @@ skills and practices form a significant component of what has become known as no
 skills in other transport modes.
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 2
         assert [s["safety_issue"] for s in safety_issues] == [
@@ -418,7 +418,7 @@ followed,  arriving at 'Is treatment  suitable given constraints? ' This step re
 joint SFAIRP assessment  between KiwiRail and the Council . 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 1
         assert (
