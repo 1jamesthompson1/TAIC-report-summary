@@ -1278,3 +1278,56 @@ class ReportExtractingProcessor:
             [report_sections_df, pd.DataFrame(new_reports)], ignore_index=True
         )
         report_sections_df.to_pickle(output_file_path)
+
+    def extract_recommendations(
+        self, output_path, tsb_recommendations_path, taic_recommendations_path
+    ):
+        if os.path.exists(output_path) and not self.refresh:
+            recommendations_df = pd.read_pickle(output_path)
+        else:
+            recommendations_df = pd.DataFrame(columns=["report_id", "recommendations"])
+        if os.path.exists(tsb_recommendations_path):
+            tsb_recommendations_df = pd.read_pickle(tsb_recommendations_path)
+        else:
+            tsb_recommendations_df = pd.DataFrame(
+                columns=["report_id", "recommendations"]
+            )
+
+        if os.path.exists(taic_recommendations_path):
+            taic_recommendations_df = pd.read_pickle(taic_recommendations_path)
+        else:
+            taic_recommendations_df = pd.DataFrame(
+                columns=["report_id", "recommendations"]
+            )
+
+        recommendations_df = pd.concat(
+            [recommendations_df, tsb_recommendations_df, taic_recommendations_df],
+            ignore_index=True,
+        ).drop_duplicates("report_id")
+
+        atsb_reports = self.report_text_df[
+            self.report_text_df["report_id"].map(lambda x: x.split("_")[0]) == "ATSB"
+        ]
+        new_reports = recommendations_df.merge(
+            atsb_reports, how="right", on="report_id"
+        )
+        new_reports = new_reports[new_reports["recommendations"].isna()]
+
+        print(recommendations_df)
+        for _, report_id, report_text, headers in (
+            pbar := tqdm(new_reports[["report_id", "text", "headers"]].itertuples())
+        ):
+            pbar.set_description(f"Extracting sections from {report_id}")
+            if report_id in recommendations_df["report_id"].values:
+                continue
+
+            recommendations = RecommendationsExtractor(
+                report_text, report_id, headers
+            ).extract_recommendations()
+
+            recommendations_df.loc[len(recommendations_df)] = [
+                report_id,
+                recommendations,
+            ]
+
+        recommendations_df.to_pickle(output_path)

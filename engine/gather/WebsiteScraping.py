@@ -1,5 +1,6 @@
 import os
 import re
+import time
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
@@ -832,10 +833,22 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
 
 
 class TSBRecommendationsScraper(WebsiteScraper):
-    def __init__(self, output_file_path, refresh=False):
+    def __init__(self, output_file_path, report_titles_file_path, refresh=False):
         super().__init__()
 
         self.output_file_path = output_file_path
+
+        if os.path.exists(report_titles_file_path):
+            report_titles_df = pd.read_pickle(report_titles_file_path)
+        else:
+            raise ValueError(f"{report_titles_file_path} does not exist")
+
+        self.id_converter = {
+            agency_id: report_id
+            for report_id, agency_id in report_titles_df[
+                ["report_id", "agency_id"]
+            ].values
+        }
 
         self.refresh = refresh
 
@@ -844,7 +857,7 @@ class TSBRecommendationsScraper(WebsiteScraper):
         columns = [
             "recommendation_id",
             "recommendation",
-            "report_id",
+            "agency_id",
             "current_assesment",
             "status",
             "watchlist",
@@ -856,7 +869,7 @@ class TSBRecommendationsScraper(WebsiteScraper):
         if not self.refresh and os.path.exists(self.output_file_path):
             recommendations_df = pd.read_pickle(self.output_file_path)
         else:
-            recommendations_df = pd.DataFrame(columns=columns)
+            recommendations_df = pd.DataFrame(columns=["report_id", "recommendations"])
 
         base_url = "https://www.tsb.gc.ca"
 
@@ -908,31 +921,51 @@ class TSBRecommendationsScraper(WebsiteScraper):
                 [new_recommendations, table], ignore_index=True
             )
 
-        recommendations_df = pd.concat(
-            [recommendations_df, new_recommendations], ignore_index=True
-        )
-        recommendations_df.drop_duplicates(subset=["recommendation_id"], inplace=True)
-
-        new_recommendations_to_process = recommendations_df[
-            ~recommendations_df["url"].isna()
-            & (
-                recommendations_df["made"].isna()
-                & recommendations_df["extra_recommendation_context"].isna()
-            )
+        new_recommendations_to_process = new_recommendations[
+            ~new_recommendations["agency_id"]
+            .map(lambda x: self.id_converter.get(x))
+            .isin(recommendations_df["report_id"])
+            & new_recommendations["url"].notna()
         ]
 
-        for i, row in (phbar := tqdm(new_recommendations_to_process.iterrows())):
+        for i, row in (phbar := tqdm(list(new_recommendations_to_process.iterrows()))):
             phbar.set_description(
-                f"Processing recommendation {row['recommendation_id']} from {row['report_id']} with i:{i}"
+                f"Processing recommendation {row['recommendation_id']} from {row['agency_id']} with i:{i}"
             )
             recommendation, date, context = self.extract_recommendation_data(row["url"])
-            recommendations_df.at[i, "recommendation_text"] = recommendation
-            recommendations_df.at[i, "made"] = date
-            recommendations_df.at[i, "extra_recommendation_context"] = context
+            new_recommendations_to_process.at[i, "recommendation_text"] = recommendation
+            new_recommendations_to_process.at[i, "made"] = date
+            new_recommendations_to_process.at[i, "extra_recommendation_context"] = (
+                context
+            )
+
+        new_recommendations_to_process["report_id"] = new_recommendations_to_process[
+            "agency_id"
+        ].map(lambda x: self.id_converter.get(x))
+        print(new_recommendations_to_process)
+        recommendations_df = pd.concat(
+            [
+                recommendations_df,
+                pd.DataFrame(
+                    {
+                        "report_id": new_recommendations_to_process.groupby(
+                            "report_id"
+                        ).groups.keys(),
+                        "recommendations": [
+                            group.reset_index(drop=True)
+                            for _, group in new_recommendations_to_process.groupby(
+                                "report_id"
+                            )
+                        ],
+                    }
+                ),
+            ],
+            ignore_index=True,
+        )
 
         recommendations_df.to_pickle(self.output_file_path)
 
-    def extract_recommendation_data(self, url):
+    def extract_recommendation_data(self, url, retry=3):
         """
         This will read the webpage and extract:
         - recommendation (This is because sometimes the recommendation inside the website table is not complete)
@@ -946,6 +979,9 @@ class TSBRecommendationsScraper(WebsiteScraper):
         response = hrequests.get(url, headers=self.headers)
 
         if response.status_code != 200:
+            if retry > 0:
+                time.sleep(1)
+                return self.extract_recommendation_data(url, retry - 1)
             raise ValueError(
                 f"Failed to scrape recommendations from {url}. Error code {response.status_code}"
             )

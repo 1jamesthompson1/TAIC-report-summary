@@ -25,6 +25,7 @@ engine:
     atsb_historic_aviation_df_file_name: "atsb_historic_aviation_investigations.pkl"
     atsb_website_safety_issues_file_name: "atsb_website_safety_issues.pkl"
     tsb_website_recommendations_file_name: "tsb_website_recommendations.pkl"
+    taic_website_recommendations_file_name: "taic_website_recommendations.pkl"
     embeddings:
       folder_name: "embeddings"
       safety_issues_file_name: "safety_issues_embeddings.pkl"
