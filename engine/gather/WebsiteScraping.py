@@ -156,7 +156,10 @@ class ReportScraper(WebsiteScraper):
         if pbar:
             pbar.set_description(f"  Collecting {url}")
 
-        if not self.settings.refresh and os.path.exists(file_name):
+        if not self.settings.refresh and (
+            os.path.exists(file_name)
+            or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
+        ):
             if pbar:
                 pbar.set_description(f"  {file_name} already exists, skipping download")
             return True
@@ -193,22 +196,22 @@ class ReportScraper(WebsiteScraper):
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
 
         outcome = self.download_report(report_id, file_name, soup, base_url, pbar)
+        if self.report_titles_df.query("report_id == @report_id").empty:
+            report_id, title, event_type, investigation_type, agency_id, misc = (
+                self.get_report_metadata(report_id, soup, pbar)
+            )
+            self.__add_report_metadata_to_df(
+                report_id,
+                title,
+                event_type,
+                investigation_type,
+                misc,
+                report_url=url,
+                agency_id=agency_id,
+            )
+
         if not outcome:
             return False
-
-        report_id, title, event_type, investigation_type, agency_id, misc = (
-            self.get_report_metadata(report_id, soup, pbar)
-        )
-        self.__add_report_metadata_to_df(
-            report_id,
-            title,
-            event_type,
-            investigation_type,
-            misc,
-            report_url=url,
-            agency_id=agency_id,
-        )
-
         return True
 
     def download_report(
