@@ -832,7 +832,7 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
         formatted_df.to_pickle(self.output_file_path)
 
 
-class TSBRecommendationsScraper(WebsiteScraper):
+class RecommendationScraper(WebsiteScraper):
     def __init__(self, output_file_path, report_titles_file_path, refresh=False):
         super().__init__()
 
@@ -851,6 +851,11 @@ class TSBRecommendationsScraper(WebsiteScraper):
         }
 
         self.refresh = refresh
+
+
+class TSBRecommendationsScraper(RecommendationScraper):
+    def __init__(self, output_file_path, report_titles_file_path, refresh=False):
+        super().__init__(output_file_path, report_titles_file_path, refresh)
 
     def extract_recommendations_from_website(self):
         recommendations_df = None
@@ -1010,3 +1015,150 @@ class TSBRecommendationsScraper(WebsiteScraper):
             )
 
         return recommendation, recommendation_date, recommendation_context
+
+
+class TAICRecommendationScraper(RecommendationScraper):
+    def __init__(self, output_file_path, report_titles_file_path, refresh=False):
+        super().__init__(output_file_path, report_titles_file_path, refresh)
+
+    def extract_recommendations_from_website(self):
+        if os.path.exists(self.output_file_path) and not self.refresh:
+            recommendations_df = pd.read_pickle(self.output_file_path)
+        else:
+            recommendations_df = pd.DataFrame(columns=["report_id", "recommendations"])
+
+        columns = [
+            "recommendation_id",
+            "made",
+            "agency_id",
+            "recipient",
+            "recommendation_text",
+            "reply_text",
+            "report_id",
+        ]
+
+        new_recommendations = pd.DataFrame(columns=columns)
+
+        base_url = "https://www.taic.org.nz"
+
+        current_page = 0
+        while True:
+            print(f"Scraping page {current_page}")
+            response = hrequests.get(
+                f"{base_url}/recommendations?page={current_page}", headers=self.headers
+            )
+
+            if response.status_code != 200:
+                raise ValueError(
+                    f"Failed to scrape recommendations from page {current_page}. Error code {response.status_code}"
+                )
+
+            table = pd.read_html(response.content, flavor="lxml", extract_links="body")
+
+            if len(table) == 0 or table[0].empty:
+                break
+            table = table[0]
+            table = table.iloc[:, :4]
+
+            table.columns = columns[:4]
+            table["url"] = table["recommendation_id"].map(lambda x: base_url + x[1])
+
+            table = table.map(lambda x: x[0] if isinstance(x, tuple) else x)
+
+            table["recommendation_id"] = table["recommendation_id"].map(
+                lambda x: re.sub(" (Aviation)|(Rail)|(Marine)", "", x)
+            )
+            table = table[
+                table["recommendation_id"]
+                .map(
+                    lambda x: int(
+                        re.match(r"\d{3}\w?/(\d{2})", x, re.IGNORECASE).group(1)
+                    )
+                )
+                .between(0, 80)
+            ]
+
+            # Remove already extracted reports
+            if len(recommendations_df) > 0:
+                table = table[
+                    ~table["recommendation_id"].isin(
+                        pd.concat(recommendations_df["recommendations"].tolist())[
+                            "recommendation_id"
+                        ]
+                    )
+                ]
+
+            if len(table) == 0:
+                break
+
+            new_recommendations = pd.concat(
+                [new_recommendations, table], ignore_index=True
+            )
+
+            current_page += 1
+
+        for index, row in tqdm(list(new_recommendations.iterrows())):
+            recommendation_text, reply_text = self.extract_recommendation_data(
+                row["url"]
+            )
+
+            new_recommendations.at[index, "recommendation_text"] = recommendation_text
+            new_recommendations.at[index, "reply_text"] = reply_text
+
+        new_recommendations["report_id"] = new_recommendations["agency_id"].map(
+            lambda x: self.id_converter.get(x)
+        )
+
+        recommendations_df = pd.concat(
+            [
+                recommendations_df,
+                pd.DataFrame(
+                    {
+                        "report_id": new_recommendations.groupby(
+                            "report_id"
+                        ).groups.keys(),
+                        "recommendations": [
+                            group.reset_index(drop=True)
+                            for _, group in new_recommendations.groupby(
+                                "report_id"
+                            ).groups
+                        ],
+                    }
+                ),
+            ],
+            ignore_index=True,
+        )
+
+        recommendations_df.to_pickle(self.output_file_path)
+
+    def extract_recommendation_data(self, url):
+        """
+        This will extract information that is not found in the able
+        - recommendation_text
+        - reply_text
+        """
+
+        if url is None:
+            return None, None
+
+        response = hrequests.get(url, headers=self.headers)
+
+        if response.status_code != 200:
+            retry = 3
+            if retry > 0:
+                time.sleep(1)
+                return self.extract_recommendation_data(url, retry - 1)
+            raise ValueError(
+                f"Failed to scrape recommendations from {url}. Error code {response.status_code}"
+            )
+
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        text = soup.find("div", class_="field--name-field-sr-text")
+
+        recommendation_text = list(text.children)[-1].get_text() if text else None
+
+        reply_text = soup.find("div", class_="field--name-field-sr-replytext")
+        reply_text = list(reply_text.children)[-1].get_text() if reply_text else None
+
+        return recommendation_text, reply_text

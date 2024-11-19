@@ -36,12 +36,6 @@ def gather(output_dir, config, refresh):
         refresh,
     )
 
-    dataGetter.get_recommendations(
-        config.get("data").get("recommendations_file_name"),
-        os.path.join(
-            output_dir, output_config.get("taic_website_recommendations_file_name")
-        ),
-    )
     print("Got recommendations")
     dataGetter.get_generic_data(
         config.get("data").get("event_types_file_name"),
@@ -106,6 +100,15 @@ def gather(output_dir, config, refresh):
         os.path.join(
             output_dir, output_config.get("tsb_website_recommendations_file_name")
         ),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        refresh,
+    )
+
+    WebsiteScraping.TAICRecommendationsScraper(
+        os.path.join(
+            output_dir, output_config.get("taic_website_recommendations_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         refresh,
     )
 
