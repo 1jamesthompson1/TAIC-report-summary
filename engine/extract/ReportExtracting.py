@@ -215,16 +215,31 @@ class ReportExtractor:
         cleaned_content_section = AICaller.query(
             system="""
 You are a helpful assistant. You will just respond with the answer no need to explain.
-""",
-            user=f"""
 Can you please format this table of contents? Please include in the format the section number (if it has one) the section title and section page number. Make sure to include all of the pages the the table of contents has even it they are roman numerals.
 
 It should go like this:
 [Section number*] - [Section title] [Page number]
 
-Section numbers are optional. They should only be included if they are present in the original table of contents.
-You should not include the figures or tables section of the table of contents.
+*Section numbers are optional. They should only be included if they are present in the original table of contents.
+You should not include the figures or tables section of the table of contents. However appendices should be included.
 
+Example output
+Executive summary i
+1 - Introduction 1
+2 - Narrative 2
+3.0 - Analysis 4
+3.1 - Introduction 4
+3.2 - Why did the cylinder burst 6
+3.2.1 - Bad construction 6
+3.2.2 - Maintenance 8
+3.3 - Emergency response 10
+4.0 Findings 12
+   - Important 12
+   - Incidental 13
+5.0 Safety actions 14
+
+""",
+            user=f"""
 {raw_content_section}
 """,
             temp=0,
