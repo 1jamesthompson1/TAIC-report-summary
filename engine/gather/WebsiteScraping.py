@@ -1048,7 +1048,7 @@ class TSBRecommendationsScraper(RecommendationScraper):
         return table
 
 
-class TAICRecommendationScraper(RecommendationScraper):
+class TAICRecommendationsScraper(RecommendationScraper):
     def __init__(self, output_file_path, report_titles_file_path, refresh=False):
         super().__init__(output_file_path, report_titles_file_path, refresh)
 
