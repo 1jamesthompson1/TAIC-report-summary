@@ -43,44 +43,56 @@ def get_agency_scraper(
 
 
 @pytest.mark.parametrize(
-    "agency, url, expected",
+    "agency, url, report_id, expected",
     [
         pytest.param(
             "TSB",
             "https://www.tsb.gc.ca/eng/rapports-reports/marine/2020/m20c0101/m20c0101.html",
+            "TSB_m_2020_c01010",
             True,
             id="TSB pass",
         ),
         pytest.param(
             "TSB",
             "https://www.tsb.gc.ca/eng/rapports-reports/marine/2020/m20c0101/m20c0102.html",
+            "TSB_m_2020_c0102",
             False,
             id="TSB fail",
         ),
         pytest.param(
-            "TAIC", "https://www.taic.org.nz/inquiry/mo-2021-205", True, id="TAIC pass"
+            "TAIC",
+            "https://www.taic.org.nz/inquiry/mo-2021-205",
+            "TAIC_m_2021_205",
+            True,
+            id="TAIC pass",
         ),
         pytest.param(
-            "TAIC", "https://www.taic.org.nz/inquiry/mo-2021-255", False, id="TAIC fail"
+            "TAIC",
+            "https://www.taic.org.nz/inquiry/mo-2021-255",
+            "TAIC_m_2021_255",
+            False,
+            id="TAIC fail",
         ),
         pytest.param(
             "ATSB",
             "https://www.atsb.gov.au/publications/investigation_reports/2019/mair/mo-2019-007",
+            "ATSB_m_2019_007",
             True,
             id="ATSB pass",
         ),
         pytest.param(
             "ATSB",
             "https://www.atsb.gov.au/publications/investigation_reports/2019/mair/mo-2019-008",
+            "ATSB_m_2019_008",
             False,
             id="ATSB fail",
         ),
     ],
 )
-def test_report_collection(report_scraping_settings, agency, url, expected):
+def test_report_collection(report_scraping_settings, agency, url, report_id, expected):
     scraper = get_agency_scraper(agency, report_scraping_settings)
 
-    result = scraper.collect_report("test_report_id", url)
+    result = scraper.collect_report(report_id, url)
 
     assert result == expected
 

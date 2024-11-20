@@ -215,16 +215,31 @@ class ReportExtractor:
         cleaned_content_section = AICaller.query(
             system="""
 You are a helpful assistant. You will just respond with the answer no need to explain.
-""",
-            user=f"""
 Can you please format this table of contents? Please include in the format the section number (if it has one) the section title and section page number. Make sure to include all of the pages the the table of contents has even it they are roman numerals.
 
 It should go like this:
 [Section number*] - [Section title] [Page number]
 
-Section numbers are optional. They should only be included if they are present in the original table of contents.
-You should not include the figures or tables section of the table of contents.
+*Section numbers are optional. They should only be included if they are present in the original table of contents.
+You should not include the figures or tables section of the table of contents. However appendices should be included.
 
+Example output
+Executive summary i
+1 - Introduction 1
+2 - Narrative 2
+3.0 - Analysis 4
+3.1 - Introduction 4
+3.2 - Why did the cylinder burst 6
+3.2.1 - Bad construction 6
+3.2.2 - Maintenance 8
+3.3 - Emergency response 10
+4.0 Findings 12
+   - Important 12
+   - Incidental 13
+5.0 Safety actions 14
+
+""",
+            user=f"""
 {raw_content_section}
 """,
             temp=0,
@@ -263,6 +278,7 @@ Your response should only include the page numbers of the sections. For each sec
 Example responses: 
 "1,2 7,17"
 "1 4,8 12,16"
+"i,2 10,12"
 "7,13 20"
 """,
                     user=content_section,
@@ -905,7 +921,7 @@ There is no need to enclose the yaml in any tags.
 You are helping me read the content sections of a report.
 
 Can you please find the starting and end sections of the recommendations or safety actions section. The end of it is the same as the start of the next section. Note that generally the page number will be on the right.
-If neither of these sections exist just return "None".
+If neither of these sections exist just return "None". A single page should just be [25,25]
 
 Your response should just be 2 numbers for example: 23,26.
 """,

@@ -24,7 +24,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TAIC_r_2002_122",
-            ["\nAbbreviations ......", "............... 28  ", 2610],
+            ["\nAbbreviations iii", "Appendix 1 28", 560],
             id="TAIC_r_2002_122",
         ),
         pytest.param(
@@ -39,28 +39,28 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TAIC_r_2019_106",
-            ["1 - Executive summar", "mission reports 19  ", 802],
+            ["1 - Executive summar", "mission reports 19  ", 797],
             id="TAIC_r_2019_106",
         ),
         pytest.param(
             "TAIC_a_2018_006",
-            ["1 - Executive summar", " 40  \nCargo pod 40  ", 1302],
+            ["1 - Executive summar", " 40  \nCargo pod 40  ", 1538],
             id="TAIC_a_2018_006",
         ),
         pytest.param(
             "TAIC_m_2010_204",
-            ["\nAbbreviations  .....", "............... 31  ", 5594],
+            ["\nAbbreviations  .....", "e Hanjin Bombay 31  ", 1177],
             id="TAIC_m_2010_204",
         ),
         # ATSB reports
         pytest.param(
             "ATSB_m_2000_157",
-            ["\nI - Summary 1  \nII -", "Details of ship 33  ", 697],
+            ["\nSummary 1  \nSources of information ", "Appendix 6  30", 619],
             id="ATSB_m_2000_157 (spaces in the dots)",
         ),
         pytest.param(
             "ATSB_a_2007_012",
-            ["i - TABLE OF CONTENTS", "6 - APPENDICES 71  \n", 3345],
+            ["i - Table of Contents", " IRS Mode Selector Unit 84  ", 3695],
             id="ATSB_a_2007_012 (long content section)",
         ),
         pytest.param(
@@ -70,12 +70,12 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "ATSB_m_2001_170",
-            ["1 - Summary 1  \n2 - S", " - Attachment 1 25  ", 577],
+            ["Summary 1  \nS", " - Attachment 1 25  ", 455],
             id="ATSB_m_2001_170 (discarding matches outside of content section)",
         ),
         pytest.param(
             "ATSB_r_2021_002",
-            ["1 - The occurrence 1", "2 - Submissions 30  ", 3040],
+            ["Safety summary 3  ", "logy Error! Bookmark not defined.  ", 3375],
             id="ATSB_r_2021_002 (Long content section)",
         ),
         pytest.param(
@@ -110,13 +110,13 @@ def test_content_section_extraction(report_id, expected):
         # Because we are now using a LLM to clean up the content section. We cant do an exact match. Instead we need to be atleast 2 out of 3 matches.
         assert (
             SequenceMatcher(
-                None, content_section[: len(expected[0])], expected[0]
+                None, content_section[: len(expected[0])].lower(), expected[0].lower()
             ).ratio()
             > 0.7
         )
         assert (
             SequenceMatcher(
-                None, content_section[-len(expected[1]) :], expected[1]
+                None, content_section[-len(expected[1]) :].lower(), expected[1].lower()
             ).ratio()
             > 0.7
         )
@@ -193,7 +193,7 @@ def test_content_section_reading(report_id, expected):
     if expected is None:
         assert pages_to_read is None
     else:
-        assert set(expected).issubset(pages_to_read)
+        assert set(pages_to_read).issuperset(expected)
         assert len(pages_to_read) <= math.ceil(len(expected) * 1.6)
 
 
@@ -218,7 +218,7 @@ and emergency drills, which according to the operator's (DW New Zealand Limited 
 maritime transport operator plan14 were scheduled to happen four times each year.  
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 1
         assert (
@@ -286,7 +286,7 @@ Maritime Rules.
 Fisheries Act) are required  to meet applicable design , construction and equipment rules 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 2
         assert [safety_issue["safety_issue"] for safety_issue in safety_issues] == [
@@ -312,7 +312,7 @@ locomotive  and train brake handles correctly before vacating a cab and relocati
 at the other end.    
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 1
         assert (
@@ -389,7 +389,7 @@ skills and practices form a significant component of what has become known as no
 skills in other transport modes.
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 2
         assert [s["safety_issue"] for s in safety_issues] == [
@@ -418,7 +418,7 @@ followed,  arriving at 'Is treatment  suitable given constraints? ' This step re
 joint SFAIRP assessment  between KiwiRail and the Council . 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
+            report_text, "TAIC_a_2020_001", report_text
         ).extract_safety_issues()
         assert len(safety_issues) == 1
         assert (

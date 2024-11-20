@@ -5,8 +5,15 @@ import pytest
 import engine.gather.DataGetting as DataGetting
 
 
-def test_get_recommendations(tmpdir):
-    output_file = tmpdir.join("recommendations.pkl")
+@pytest.mark.parametrize(
+    "file_name, expected",
+    [
+        pytest.param("event_types.csv", True, id="event_types.csv"),
+        pytest.param("non-existent_file.csv", False, id="Failed attempt"),
+    ],
+)
+def test_get_generic(tmpdir, file_name, expected):
+    output_file = tmpdir.join("test_data.pkl")
 
     dataGetter = DataGetting.DataGetter(
         "data",
@@ -14,21 +21,11 @@ def test_get_recommendations(tmpdir):
         False,
     )
 
-    dataGetter.get_recommendations(
-        "cleaned_TAIC_recommendations_2024_04_04.csv", output_file
-    )
+    if expected:
+        dataGetter.get_generic_data(file_name, output_file)
 
-    assert os.path.exists(output_file)
+        assert os.path.exists(output_file)
 
-
-def test_failed(tmpdir):
-    output_file = tmpdir.join("everyones_names.pkl")
-
-    dataGetter = DataGetting.DataGetter(
-        "data",
-        "https://raw.githubusercontent.com/1jamesthompson1/TAIC-report-summary/main/data/",
-        False,
-    )
-
-    with pytest.raises(FileNotFoundError):
-        dataGetter.get_recommendations("everyones_names.csv", output_file)
+    else:
+        with pytest.raises(FileNotFoundError):
+            dataGetter.get_generic_data(file_name, output_file)
