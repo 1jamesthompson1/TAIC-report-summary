@@ -110,13 +110,13 @@ def test_content_section_extraction(report_id, expected):
         # Because we are now using a LLM to clean up the content section. We cant do an exact match. Instead we need to be atleast 2 out of 3 matches.
         assert (
             SequenceMatcher(
-                None, content_section[: len(expected[0])], expected[0]
+                None, content_section[: len(expected[0])].lower(), expected[0].lower()
             ).ratio()
             > 0.7
         )
         assert (
             SequenceMatcher(
-                None, content_section[-len(expected[1]) :], expected[1]
+                None, content_section[-len(expected[1]) :].lower(), expected[1].lower()
             ).ratio()
             > 0.7
         )

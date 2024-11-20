@@ -278,6 +278,7 @@ Your response should only include the page numbers of the sections. For each sec
 Example responses: 
 "1,2 7,17"
 "1 4,8 12,16"
+"i,2 10,12"
 "7,13 20"
 """,
                     user=content_section,
@@ -920,7 +921,7 @@ There is no need to enclose the yaml in any tags.
 You are helping me read the content sections of a report.
 
 Can you please find the starting and end sections of the recommendations or safety actions section. The end of it is the same as the start of the next section. Note that generally the page number will be on the right.
-If neither of these sections exist just return "None".
+If neither of these sections exist just return "None". A single page should just be [25,25]
 
 Your response should just be 2 numbers for example: 23,26.
 """,
