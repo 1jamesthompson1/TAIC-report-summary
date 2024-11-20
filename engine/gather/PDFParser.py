@@ -3,7 +3,7 @@ import re
 
 import pandas as pd
 import roman
-from pypdf import PdfReader
+from pypdf import PdfReader, errors
 from tqdm import tqdm
 
 
@@ -134,7 +134,11 @@ def extractTextFromPDF(pdf_path):
         reader = PdfReader(pdf_file)
         text = ""
         for i, page in enumerate(reader.pages):
-            text += f"\n\n--- Page {i} start ---\n" + page.extract_text()
+            try:
+                text += f"\n\n--- Page {i} start ---\n" + page.extract_text()
+            except errors.PdfReadError:
+                text += f"\n\n--- Page {i} start ---\n"
+                continue
 
         headers = pd.DataFrame(process_outline(reader.outline, reader))
     return text, headers
