@@ -89,28 +89,33 @@ def gather(output_dir, config, refresh):
         refresh,
     )
 
-    WebsiteScraping.ATSBSafetyIssueScraper(
+    ATSB_si_scraper = WebsiteScraping.ATSBSafetyIssueScraper(
         os.path.join(
             output_dir, output_config.get("atsb_website_safety_issues_file_name")
         ),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         refresh,
     )
 
-    WebsiteScraping.TSBRecommendationsScraper(
+    ATSB_si_scraper.extract_safety_issues_from_website()
+
+    TSB_recs_scraper = WebsiteScraping.TSBRecommendationsScraper(
         os.path.join(
             output_dir, output_config.get("tsb_website_recommendations_file_name")
         ),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         refresh,
     )
+    TSB_recs_scraper.extract_recommendations_from_website()
 
-    WebsiteScraping.TAICRecommendationsScraper(
+    TAIC_recs_scraper = WebsiteScraping.TAICRecommendationsScraper(
         os.path.join(
             output_dir, output_config.get("taic_website_recommendations_file_name")
         ),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         refresh,
     )
+    TAIC_recs_scraper.extract_recommendations_from_website()
 
 
 def extract(output_dir, config, refresh):
