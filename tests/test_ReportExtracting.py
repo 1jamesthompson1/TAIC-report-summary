@@ -49,7 +49,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TAIC_m_2010_204",
-            ["\nAbbreviations  .....", "e Hanjin Bombay 31  ", 1177],
+            ["Abbreviations ii", "e Hanjin Bombay 31  ", 1100],
             id="TAIC_m_2010_204",
         ),
         # ATSB reports
@@ -80,7 +80,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TSB_r_2020_V0230",
-            ["Rail Transportation ", ".................. 7", 1055],
+            ["Rail Transportation ", "- - Safety message 7", 455],
             id="TSB_r_2020_V0230 (Using the pdf headers)",
         ),
     ],
@@ -102,7 +102,7 @@ def test_content_section_extraction(report_id, expected):
 
     extractor = ReportExtractor(report_text, report_id, headers)
 
-    content_section = extractor.extract_contents_section()
+    content_section, _ = extractor.extract_table_of_contents()
 
     print(f"Expected: {expected}")
     print(f"Actual: {content_section}")
@@ -168,7 +168,7 @@ def test_content_section_extraction(report_id, expected):
         # pytest.param("TSB_a_2004_H0001", [29,30,31,32,33,34,35,36,37], id="TSB_a_2004_H0001 really messy content section") removed from testing as was too hard to read and get it too work. Extra long import
     ],
 )
-def test_content_section_reading(report_id, expected):
+def test_safety_issue_content_section_reading(report_id, expected):
     extracted_reports = pd.read_pickle(
         os.path.join(
             pytest.output_config["folder_name"],
@@ -182,10 +182,13 @@ def test_content_section_reading(report_id, expected):
     headers = extracted_reports.loc[report_id, "headers"]
 
     assert report_text is not None
-
     extractor = ReportExtractor(report_text, report_id, headers)
+    content_section, _ = extractor.extract_table_of_contents()
 
-    content_section = extractor.extract_contents_section()
+    extractor = SafetyIssueExtractor(
+        report_text, report_id, content_section, "full", "NA"
+    )
+
     pages_to_read = extractor.extract_pages_to_read(content_section)
     print(f"Expected {expected} and got {pages_to_read}")
     print(f"Reading {content_section}")
@@ -1271,9 +1274,15 @@ class TestRecommendationExtraction:
     def test_content_section_reading(self, report_id, expected):
         report_data = self.test_data.loc[report_id]
 
-        extractor = RecommendationsExtractor("", "", None)
+        extractor = ReportSectionExtractor(
+            report_data["text"], report_id, report_data["headers"]
+        )
+        content_section, _ = extractor.extract_table_of_contents()
+        extractor = RecommendationsExtractor(
+            report_data["text"], report_id, content_section
+        )
 
-        pages = extractor._get_recommendation_pages(report_data["content_section"])
+        pages = extractor.extract_pages_to_read(content_section)
 
         assert pages == expected
 

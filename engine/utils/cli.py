@@ -126,12 +126,16 @@ def extract(output_dir, config, refresh):
         refresh,
     )
 
-    report_extractor.extract_important_text_from_reports(
-        os.path.join(output_dir, output_config.get("important_text_df_file_name"))
+    report_extractor.extract_table_of_contents_from_reports(
+        os.path.join(output_dir, output_config.get("toc_df_file_name"))
     )
 
     report_extractor.extract_safety_issues_from_reports(
-        os.path.join(output_dir, output_config.get("important_text_df_file_name")),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
+        os.path.join(
+            output_dir, output_config.get("atsb_website_safety_issues_file_name")
+        ),
         os.path.join(output_dir, output_config.get("safety_issues_df_file_name")),
     )
 

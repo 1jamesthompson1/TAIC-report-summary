@@ -23,23 +23,13 @@ class ReportExtractor:
             128_000 * 3
         )  # This account for the fact that a token is about 4 characters and at the moment the LLMs have limits of about 128,000 tokens
 
-    def create_hierarchy(self, df):
-        hierarchy = []
-        df["Level_indent"] = df["Level"].apply(lambda x: "- - " * (x - 1))
-        max_title_length = df.apply(
-            lambda x: len(x["Title"]) + len(x["Level_indent"]), axis=1
-        ).max()
-        width = max(30, max_title_length + 10)
-        for _, row in df.iterrows():
-            title = f"{row['Level_indent']}{row['Title']}"
-            if row["Page"]:
-                page_indentation = "." * (width - len(title) - 2)
-                title += f" {page_indentation} {row['Page']}"
-            hierarchy.append(title)
-        return "\n".join(hierarchy)
+    def extract_important_text(self, table_of_contents):
+        """
+        This function extracts the important text for a particular extractor
 
-    def extract_important_text(self):
-        # In cases where the content section doesnt exist or is not adequate we will try to read the entire report.
+        What is determined as important text is decided by the extractors `extract_pages_to_read()` method
+        """
+        # In cases where the content section doesn't exist or is not adequate we will try to read the entire report.
         pages = list(
             re.finditer(
                 r"<< Page (\d+|[xvi]+) >>",
@@ -53,12 +43,7 @@ class ReportExtractor:
             else (None, None)
         )
 
-        # Get the pages that should be read
-        contents_sections = self.extract_contents_section()
-        if contents_sections is None:
-            return default_response
-
-        pages_to_read = self.extract_pages_to_read(contents_sections)
+        pages_to_read = self.extract_pages_to_read(table_of_contents)
 
         if pages_to_read is None:
             return default_response
@@ -155,7 +140,16 @@ class ReportExtractor:
 
         return self.report_text[starting_index : ending_page_match.end()]
 
-    def extract_contents_section(self) -> str:
+    def create_hierarchy(self, df):
+        hierarchy = []
+        df["Level_indent"] = df["Level"].apply(lambda x: "- - " * (x - 1))
+        for _, row in df.iterrows():
+            title = f"{row['Level_indent']}{row['Title']} {row['Page']}"
+            hierarchy.append(title)
+        return "\n".join(hierarchy)
+
+    def extract_table_of_contents(self):
+        max_content_section_length = 40_000
         startRegex = r"(contents?)([ \w]{0,30}.+)([\n\w\d\sāēīōūĀĒĪŌŪ]*)(.*[ \.]{5,})"
         endRegex = (
             r"^(.*(\.{5,}|(\. ){5,}).*[\dxvi]+.{0,5}?)|((\d+\.){1,3}\d+\.?.* \d+)$"
@@ -164,7 +158,7 @@ class ReportExtractor:
         if not (isinstance(self.headers, str) or self.headers is None):
             raise ValueError("headers cannot be left to default value")
 
-        endOfContentSection = len(self.report_text) / 4
+        endOfContentSection = len(self.report_text) / 3.5
 
         # Get the entire string between the start and end regex
         startMatch = re.search(startRegex, self.report_text, re.IGNORECASE)
@@ -184,23 +178,23 @@ class ReportExtractor:
         if startMatch:
             if len(endMatches) == 0:
                 print(f"Found a start {self.report_id} but no end: {startMatch}")
-                return self.headers
+                return self.headers, self.headers
             endMatches = [
                 endMatch
                 for endMatch in endMatches
-                if endMatch.start() - startMatch.end() < 15_000
+                if endMatch.start() - startMatch.end() < max_content_section_length
             ]
             if len(endMatches) == 0:
                 print(
                     f"Found a start {self.report_id} but no end that isn't too far away: {startMatch}"
                 )
-                return self.headers
+                return self.headers, self.headers
             endMatch = endMatches[-1]
         elif len(endMatches) > 1:
             endMatches = [
                 endMatch
                 for endMatch in endMatches
-                if endMatch.start() - endMatches[0].end() < 15_000
+                if endMatch.start() - endMatches[0].end() < max_content_section_length
             ]
 
             startMatch = endMatches[0]
@@ -208,7 +202,7 @@ class ReportExtractor:
         else:
             if len(endMatches) > 0:
                 print(f"Found an end {self.report_id} but no start: {endMatches[-1]}")
-            return self.headers
+            return self.headers, self.headers
 
         raw_content_section = self.report_text[startMatch.start() : endMatch.end()]
 
@@ -243,12 +237,31 @@ Executive summary i
 {raw_content_section}
 """,
             temp=0,
-            max_tokens=4_000,
+            max_tokens=16_000,
             model="gpt-4o-mini",
         )
 
         cleaned_content_section = cleaned_content_section.replace("```", "").strip("\n")
-        return cleaned_content_section
+        return cleaned_content_section, raw_content_section
+
+    def extract_pages_to_read(self, content_section) -> list:
+        """
+        This takes a content section, reads it and then returns the pages that need to be read. It is then used to extract the needed text.
+        """
+        raise NotImplementedError
+
+
+class SafetyIssueExtractor(ReportExtractor):
+    def __init__(
+        self, report_text, report_id, table_of_contents, investigation_type, agency
+    ):
+        super().__init__(report_text, report_id)
+
+        if table_of_contents is None:
+            raise ValueError("table of contents cannot be None")
+        self.table_of_contents = table_of_contents
+        self.investigation_type = investigation_type
+        self.agency = agency
 
     def extract_pages_to_read(self, content_section) -> list:
         attempts_left = 5
@@ -314,24 +327,54 @@ Example responses:
 
         return pages_to_read
 
-
-class SafetyIssueExtractor(ReportExtractor):
-    def __init__(self, report_text, report_id, important_text):
-        super().__init__(report_text, report_id)
-
-        if important_text is None:
-            raise ValueError("important_text cannot be None")
-        self.important_text = important_text
-
     def extract_safety_issues(self):
         """
         Extract safety issues from a report.
+        Return a tuple
+        (safety_issues, text_read, pages_read)
         """
         # This abstraction allows the development of various extraction techniques whether it be regex or inferences.
 
-        safety_issues = self._extract_safety_issues_with_inference()
+        important_text, pages_read = self.extract_important_text(self.table_of_contents)
 
-        return safety_issues
+        if important_text is None:
+            print("  No important text found for report", self.report_id)
+            return None, None, None
+
+        if len(important_text) < 100:
+            print("  Important text too short for report", self.report_id)
+            return None, important_text, pages_read
+
+        important_text_len = len(important_text)
+        # Confirm that this report should be included and have its safety issues extracted
+        match self.agency:
+            case "ATSB":
+                raise NotImplementedError(
+                    f"ATSB not implemented yet, tried to extract safety issues from {self.report_id}"
+                )
+                ## TODO: Figure out a better way to include pre 2008 atsb reports.
+                # if year >= 2008 or (
+                #     investigation_type == "unknown"
+                #     and (
+                #         important_text_len < 40_000 and isinstance(pages_read, str)
+                #     )
+                # ):
+                #     continue
+            case "TSB":
+                if self.investigation_type == "unknown" and (
+                    important_text_len < 40_000 and isinstance(pages_read, str)
+                ):
+                    return None, important_text, pages_read
+            case "TAIC":
+                pass  # All TAIC reports should be extracted from
+            case _:
+                raise ValueError(
+                    f"Unknown agency: {self.agency} for report {self.report_id}"
+                )
+
+        safety_issues = self._extract_safety_issues_with_inference(important_text)
+
+        return safety_issues, important_text, pages_read
 
     def _extract_safety_issues_with_regex(self, important_text=None):
         """
@@ -369,7 +412,7 @@ class SafetyIssueExtractor(ReportExtractor):
 
         return safety_issues_from_report
 
-    def _extract_safety_issues_with_inference(self):
+    def _extract_safety_issues_with_inference(self, important_text):
         """
         Search for safety issues using inference from GPT 4 turbo.
         """
@@ -477,7 +520,7 @@ issues.
         while temp < 0.1:
             response = AICaller.query(
                 system_message,
-                message(self.important_text),
+                message(important_text),
                 model="gpt-4",
                 temp=temp,
                 max_tokens=9096,
@@ -499,10 +542,10 @@ issues.
                     }
                     for safety_issue in safety_issues
                 ]
-            except yaml.YAMLError as exc:
+            except (yaml.YAMLError, TypeError) as exc:
                 print(exc)
                 print(
-                    '  Problem with formatting, trying again with slightly higher temp\nResponse was is \n"""\n{response}\n"""'
+                    f'  Problem with formatting, trying again with slightly higher temp\nResponse was is \n"""\n{response}\n"""'
                 )
                 temp += 0.01
                 continue
@@ -513,6 +556,15 @@ issues.
                 )
                 print(f"  Safety issues are:\n{safety_issues}")
 
+                temp += 0.01
+                continue
+
+            if len(
+                set([safety_issues["safety_issue"] for safety_issues in safety_issues])
+            ) != len(safety_issues):
+                print(
+                    f"Safety issues are not unique. Retrying with higher tempThey are:\n{safety_issues}"
+                )
                 temp += 0.01
                 continue
 
@@ -731,7 +783,7 @@ class ReportSectionExtractor(ReportExtractor):
         A helper function to extract_section that will read the content section and find the page numbers then extract it from there.
         """
 
-        content_section = self.extract_contents_section()
+        content_section = self.extract_table_of_contents()
 
         pages = AICaller.query(
             """
@@ -803,28 +855,32 @@ The section number I am looking for is {section}
         return splits_df[["section", "section_text"]]
 
 
-class RecommendationsExtractor(ReportSectionExtractor):
-    def __init__(self, report_text, report_id, headers):
-        super().__init__(report_text, report_id, headers)
+class RecommendationsExtractor(ReportExtractor):
+    def __init__(self, report_text, report_id, table_of_contents):
+        super().__init__(report_text, report_id)
+
+        self.table_of_contents = table_of_contents
 
     def extract_recommendations(self):
         """
         Extract recommendations from a report.
         """
 
-        recommendation_section = self._extract_recommendation_section_text()
+        recommendation_section, pages_read = self.extract_important_text(
+            self.table_of_contents
+        )
 
         if recommendation_section is None:
             print(
                 "  Could not get recommendations as there was no recommendation section"
             )
-            return None
+            return None, None, None
 
         extracted_recommendations = self._extract_recommendations_from_text(
             recommendation_section
         )
 
-        return extracted_recommendations
+        return extracted_recommendations, recommendation_section, pages_read
 
     def _extract_recommendations_from_text(self, text):
         """
@@ -888,31 +944,7 @@ There is no need to enclose the yaml in any tags.
 
         return recommendations
 
-    def _extract_recommendation_section_text(self):
-        """
-        Extract the text of the recommendation section from the report. This is usually in the safety action section.
-        """
-        content_section = self.extract_contents_section()
-
-        if content_section is None:
-            print(
-                "  Without content section the recommendation section cannot be found"
-            )
-            return None
-
-        recommendation_pages_to_read = self._get_recommendation_pages(content_section)
-
-        if recommendation_pages_to_read is None:
-            print("  Could not find recommendation pages")
-            return None
-
-        recommendation_text = self.extract_text_between_page_numbers(
-            recommendation_pages_to_read[0], recommendation_pages_to_read[-1]
-        )
-
-        return recommendation_text
-
-    def _get_recommendation_pages(self, content_section):
+    def extract_pages_to_read(self, content_section):
         """
         This will get the pages that need to be read to get the recommendations section
         """
@@ -921,7 +953,7 @@ There is no need to enclose the yaml in any tags.
 You are helping me read the content sections of a report.
 
 Can you please find the starting and end sections of the recommendations or safety actions section. The end of it is the same as the start of the next section. Note that generally the page number will be on the right.
-If neither of these sections exist just return "None". A single page should just be [25,25]
+If neither of these sections exist just return "None". A single page should just be 25,25
 
 Your response should just be 2 numbers for example: 23,26.
 """,
@@ -960,32 +992,30 @@ class ReportExtractingProcessor:
 
         self.important_text_df = None
 
-    def __get_safety_issues(self, important_text, report_id, report_text):
-        if important_text is None:
-            raise ValueError("important_text cannot be None")
-
-        safety_issues = SafetyIssueExtractor(
-            report_text, report_id, important_text
-        ).extract_safety_issues()
-
-        if safety_issues is None:
-            return f" Could not extract safety issues from {report_id}"
-
-        return safety_issues
-
     def extract_safety_issues_from_reports(
         self,
-        important_text_df_path,
         report_titles_df_path,
+        toc_df_path,
         atsb_safety_issues_df_path,
         output_file,
     ):
+        print(
+            "-----------------------------------------------------------------------------"
+        )
+        print("                        Extracting safety issues")
+        print(f"    Output file: {output_file}")
+        print(f"    Report titles: {report_titles_df_path}")
+        print(f"    Table of contents: {toc_df_path}")
+        print(f"    ATSB safety issues: {atsb_safety_issues_df_path}")
+
         ## -- Safety issue datasets -- ##
         # Get previously extracted safety issues
         if os.path.exists(output_file) and not self.refresh:
             all_safety_issues_df = pd.read_pickle(output_file)
         else:
-            all_safety_issues_df = pd.DataFrame(columns=["report_id", "safety_issues"])
+            all_safety_issues_df = pd.DataFrame(
+                columns=["report_id", "safety_issues", "important_text", "pages_read"]
+            )
 
         # Get atsb safety_issue_dataset
         if os.path.exists(atsb_safety_issues_df_path):
@@ -999,45 +1029,45 @@ class ReportExtractingProcessor:
 
         ## -- metadata datasets -- ##
         # Get the important text
-        if os.path.exists(important_text_df_path):
-            important_text_df = pd.read_pickle(important_text_df_path)[
-                ["report_id", "important_text", "pages_read"]
-            ]
-        else:
-            raise ValueError(f"{important_text_df_path} does not exist")
-
         # Get the report titles
         if os.path.exists(report_titles_df_path):
             report_titles_df = pd.read_pickle(report_titles_df_path)
         else:
             raise ValueError(f"{report_titles_df_path} does not exist")
+        if not os.path.exists(toc_df_path):
+            raise ValueError(f"{toc_df_path} does not exist")
+        toc_df = pd.read_pickle(toc_df_path)
 
         ## -- Merging datasets together -- ##
         merged_df = (
-            self.report_text_df.merge(important_text_df, on="report_id", how="outer")
-            .merge(report_titles_df, on="report_id", how="outer")
+            self.report_text_df.merge(
+                toc_df[["report_id", "toc"]], on="report_id", how="outer"
+            )
+            .merge(report_titles_df, on="report_id", how="left")
             .reset_index(drop=True)
         )
 
         print(
-            f"There are {len(merged_df)} total reports. There are {len(merged_df[merged_df['important_text'].isna()])} reports without important text and {len(all_safety_issues_df)} reports with safety issues. "
+            f"    There are {len(merged_df)} total reports. There are {len(merged_df[merged_df['toc'].isna()])} reports without a content section and {len(all_safety_issues_df)} reports with safety issues. "
         )
         print(
-            f"Removing {len(merged_df[merged_df['investigation_type'] == 'short'])} short reports."
+            f"    Removing {len(merged_df[merged_df['investigation_type'] == 'short'])} short reports."
         )
         merged_df = merged_df[merged_df["investigation_type"] != "short"]
 
         print(
-            f"There are {len(merged_df[merged_df['report_id'].isin(all_safety_issues_df['report_id'])])} reports that already have safety issues"
+            f"    There are {len(merged_df[merged_df['report_id'].isin(all_safety_issues_df['report_id'])])} reports that already have safety issues"
+        )
+        print(
+            "-----------------------------------------------------------------------------"
         )
         new_safety_issues = []
         for (
             _,
             report_id,
             report_text,
-            important_text,
+            toc,
             investigation_type,
-            pages_read,
         ) in (
             pbar := tqdm(
                 list(
@@ -1045,61 +1075,52 @@ class ReportExtractingProcessor:
                         [
                             "report_id",
                             "text",
-                            "important_text",
+                            "toc",
                             "investigation_type",
-                            "pages_read",
                         ]
                     ].itertuples()
                 )
             )
         ):
-            agency = report_id.split("_")[0]
-            year = int(report_id.split("_")[2])
-            important_text_len = len(important_text)
-            # Confirm that this report should be included and have its safety issues extracted
-            match agency:
-                case "ATSB":
-                    continue  # For now we wont include any atsb reports
-                    ## TODO: Figure out a better way to include pre 2008 atsb reports.
-                    if year >= 2008 or (
-                        investigation_type == "unknown"
-                        and (
-                            important_text_len < 40_000 and isinstance(pages_read, str)
-                        )
-                    ):
-                        continue
-                case "TSB":
-                    if investigation_type == "unknown" and (
-                        important_text_len < 40_000 and isinstance(pages_read, str)
-                    ):
-                        continue
-                case "TAIC":
-                    pass
-                case _:
-                    raise ValueError(f"Unknown agency: {agency} for report {report_id}")
-
             pbar.set_description(f"Extracting safety issues from {report_id}")
+            agency = report_id.split("_")[0]
+
+            if agency == "ATSB":
+                # For now ATSB should just be excluded as their safety issues are webscraped back until 2008
+                continue
+
             if report_id in all_safety_issues_df["report_id"].tolist():
-                tqdm.write("Report already has safety issues")
                 continue
 
-            if pd.isna(important_text):
-                pbar.write(f"  No important text found for {report_id}")
+            if pd.isna(toc):
+                pbar.write(f"  No table of contents found for {report_id}")
                 continue
 
-            safety_issues_list = self.__get_safety_issues(
-                important_text, report_id, report_text
+            safety_issues_results = SafetyIssueExtractor(
+                report_text, report_id, toc, investigation_type, agency
+            ).extract_safety_issues()
+
+            if safety_issues_results is None:
+                pbar.write("Could not extract safety issues")
+                continue
+
+            safety_issues_list, important_text, pages_read = safety_issues_results
+
+            safety_issues_df = pd.DataFrame(
+                safety_issues_list,
+                columns=["safety_issue_id", "safety_issue", "quality"],
             )
-            if isinstance(safety_issues_list, str):
-                pbar.write(safety_issues_list + " therefore skipping report.")
-                continue
-            safety_issues_df = pd.DataFrame(safety_issues_list)
             safety_issues_df["safety_issue_id"] = [
                 report_id + "_" + str(i) for i in safety_issues_df.index
             ]
 
             new_safety_issues.append(
-                {"report_id": report_id, "safety_issues": safety_issues_df}
+                {
+                    "report_id": report_id,
+                    "safety_issues": safety_issues_df,
+                    "important_text": important_text,
+                    "pages_read": pages_read,
+                }
             )
             if len(new_safety_issues) > 50:
                 all_safety_issues_df = pd.concat(
@@ -1116,48 +1137,56 @@ class ReportExtractingProcessor:
         ).reset_index(drop=True)
         all_safety_issues_df.to_pickle(output_file)
 
-    def extract_important_text_from_reports(self, output_file):
+    def extract_table_of_contents_from_reports(self, output_file):
         if os.path.exists(output_file):
-            important_text_df = pd.read_pickle(output_file)
+            toc_df = pd.read_pickle(output_file)
         else:
-            important_text_df = pd.DataFrame(
-                columns=["report_id", "important_text", "pages_read"]
-            )
+            toc_df = pd.DataFrame(columns=["report_id", "toc", "raw_toc"])
 
-        def process_report(report_id, report_text, important_text_df, header):
-            if report_id in important_text_df["report_id"].values:
+        print(
+            "-----------------------------------------------------------------------------"
+        )
+        print(
+            f"    Extracting table of contents from {len(self.report_text_df)} reports."
+        )
+        print(f"    Output file: {output_file}")
+        print(
+            f"    There are {len(toc_df)} reports with table of contents already extracted."
+        )
+        print(
+            "-----------------------------------------------------------------------------"
+        )
+
+        def process_report(report_id, report_text, toc_df, header):
+            if report_id in toc_df["report_id"].values:
                 return None
-            important_text, pages_read = ReportExtractor(
+            table_of_contents, raw_table_of_contents = ReportExtractor(
                 report_text, report_id, header
-            ).extract_important_text()
-            if important_text is None:
-                return None  # Indicates failure
-            return report_id, important_text, pages_read
+            ).extract_table_of_contents()
+            if table_of_contents is None:
+                return None
+            return report_id, table_of_contents, raw_table_of_contents
 
-        def save_result(result, important_text_df, output_file):
-            report_id, important_text, pages_read = result
-            if important_text is None:
-                print(f"  Could not extract important text from {report_id}")
+        def save_result(result, toc_df, output_file):
+            report_id, toc, raw_toc = result
+            if toc is None:
+                print(f"  Could not extract toc from {report_id}")
             else:
-                important_text_df.loc[len(important_text_df)] = [
-                    report_id,
-                    important_text,
-                    pages_read,
-                ]
-                important_text_df.to_pickle(output_file)
+                toc_df.loc[len(toc_df)] = [report_id, toc, raw_toc]
+                toc_df.to_pickle(output_file)
 
         with concurrent.futures.ThreadPoolExecutor() as executor:
             futures = []
             for _, report_id, report_text, _, header in (
                 pbar := tqdm(list(self.report_text_df.itertuples()))
             ):
-                pbar.set_description(f"Extracting important text from {report_id}")
+                pbar.set_description(f"Extracting toc from {report_id}")
                 futures.append(
                     executor.submit(
                         process_report,
                         report_id,
                         report_text,
-                        important_text_df,
+                        toc_df,
                         header,
                     )
                 )
@@ -1167,9 +1196,9 @@ class ReportExtractingProcessor:
             ):
                 result = future.result()
                 if result is not None:
-                    save_result(result, important_text_df, output_file)
+                    save_result(result, toc_df, output_file)
 
-        important_text_df.to_pickle(output_file)
+        toc_df.to_pickle(output_file)
 
     def __extract_sections(
         num_sections, all_potential_sections, report_text, debug=False, headers=None
@@ -1296,12 +1325,18 @@ class ReportExtractingProcessor:
         report_sections_df.to_pickle(output_file_path)
 
     def extract_recommendations(
-        self, output_path, tsb_recommendations_path, taic_recommendations_path
+        self,
+        output_path,
+        tsb_recommendations_path,
+        taic_recommendations_path,
+        toc_df_path,
     ):
         if os.path.exists(output_path) and not self.refresh:
             recommendations_df = pd.read_pickle(output_path)
         else:
-            recommendations_df = pd.DataFrame(columns=["report_id", "recommendations"])
+            recommendations_df = pd.DataFrame(
+                columns=["report_id", "recommendations", "important_text", "pages_read"]
+            )
         if os.path.exists(tsb_recommendations_path):
             tsb_recommendations_df = pd.read_pickle(tsb_recommendations_path)
         else:
@@ -1321,6 +1356,10 @@ class ReportExtractingProcessor:
             ignore_index=True,
         ).drop_duplicates("report_id")
 
+        if not os.path.exists(toc_df_path):
+            raise ValueError(f"{toc_df_path} does not exist")
+        toc_df = pd.read_pickle(toc_df_path)
+
         atsb_reports = self.report_text_df[
             self.report_text_df["report_id"].map(lambda x: x.split("_")[0]) == "ATSB"
         ]
@@ -1329,21 +1368,27 @@ class ReportExtractingProcessor:
         )
         new_reports = new_reports[new_reports["recommendations"].isna()]
 
+        new_reports = new_reports.merge(
+            toc_df[["report_id", "toc"]], how="left", on="report_id"
+        )
+
         print(recommendations_df)
-        for _, report_id, report_text, headers in (
-            pbar := tqdm(new_reports[["report_id", "text", "headers"]].itertuples())
+        for _, report_id, report_text, toc in (
+            pbar := tqdm(new_reports[["report_id", "text", "toc"]].itertuples())
         ):
             pbar.set_description(f"Extracting sections from {report_id}")
             if report_id in recommendations_df["report_id"].values:
                 continue
 
-            recommendations = RecommendationsExtractor(
-                report_text, report_id, headers
+            recommendations, important_text, pages_read = RecommendationsExtractor(
+                report_text, report_id, toc
             ).extract_recommendations()
 
             recommendations_df.loc[len(recommendations_df)] = [
                 report_id,
                 recommendations,
+                important_text,
+                pages_read,
             ]
 
         recommendations_df.to_pickle(output_path)
