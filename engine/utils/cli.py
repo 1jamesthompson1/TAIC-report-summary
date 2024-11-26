@@ -157,6 +157,7 @@ def extract(output_dir, config, refresh):
     ReportTypeAssignment.ReportTypeAssigner(
         os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
         os.path.join(output_dir, output_config.get("report_event_types_df_file_name")),
     ).assign_report_types()
 
