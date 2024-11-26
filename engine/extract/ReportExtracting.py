@@ -1287,6 +1287,10 @@ class ReportExtractingProcessor:
             return extractor.split_into_paragraphs()
 
     def extract_sections_from_text(self, num_sections, output_file_path):
+        print(
+            "-----------------------------------------------------------------------------"
+        )
+        print(f"    Extracting sections from {len(self.report_text_df)} reports.")
         sections = list(map(str, range(1, 15)))
 
         subsections = [
@@ -1309,6 +1313,12 @@ class ReportExtractingProcessor:
 
         new_reports = []
 
+        print(f"    Output file: {output_file_path}")
+        print(f"    Number of sections: {num_sections}")
+        print(f"    Already extracted reports: {len(report_sections_df)}")
+        print(
+            "-----------------------------------------------------------------------------"
+        )
         for _, report_id, report_text, _, headers in (
             pbar := tqdm(list(self.report_text_df.itertuples()))
         ):
