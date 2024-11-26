@@ -161,18 +161,37 @@ def extract(output_dir, config, refresh):
         os.path.join(output_dir, output_config.get("report_event_types_df_file_name")),
     ).assign_report_types()
 
+    print(
+        f"Merging all dataframes into {output_config.get('extracted_reports_df_file_name')}"
+    )
+
     # Merge all of the dataframes into one extracted dataframe
     dataframes = [
         pd.read_pickle(os.path.join(output_dir, file_name)).set_index("report_id")
         for file_name in [
             output_config.get("parsed_reports_df_file_name"),
-            output_config.get("important_text_df_file_name"),
-            output_config.get("safety_issues_df_file_name"),
+            output_config.get("toc_df_file_name"),
             output_config.get("report_sections_df_file_name"),
-            output_config.get("recommendations_df_file_name"),
             output_config.get("report_event_types_df_file_name"),
+            output_config.get("recommendations_df_file_name"),
+            output_config.get("safety_issues_df_file_name"),
         ]
     ]
+
+    dataframes[-2].rename(
+        columns={
+            "important_text": "important_text_recommendation",
+            "pages_read": "pages_read_recommendation",
+        },
+        inplace=True,
+    )
+    dataframes[-1].rename(
+        columns={
+            "important_text": "important_text_safety_issue",
+            "pages_read": "pages_read_safety_issue",
+        },
+        inplace=True,
+    )
 
     combined_df = dataframes[0].join(dataframes[1:], how="outer")
 

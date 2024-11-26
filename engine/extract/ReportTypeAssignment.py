@@ -40,8 +40,6 @@ class ReportTypeAssigner:
         print("==================================================" * 2)
         print("       Assigning report event types")
         print(f"       There are {len(self.all_event_types)} possible event types")
-        print(f"        Report titles: {self.report_titles_df_path}")
-        print(f"        Parsed reports: {self.parsed_reports_df_path}")
         print(f"        output: {self.report_types_df_path}")
         if os.path.exists(self.report_types_df_path):
             report_types_df = pd.read_pickle(self.report_types_df_path)
