@@ -865,6 +865,10 @@ class RecommendationsExtractor(ReportExtractor):
         """
         Extract recommendations from a report.
         """
+        if self.report_id.split("_")[0] != "ATSB":
+            raise NotImplementedError(
+                f"{self.report_id.split('_')[0]} is not currently supported yet for recommendation extraction."
+            )
 
         recommendation_section, pages_read = self.extract_important_text(
             self.table_of_contents
@@ -879,6 +883,16 @@ class RecommendationsExtractor(ReportExtractor):
         extracted_recommendations = self._extract_recommendations_from_text(
             recommendation_section
         )
+        # This is an error as all modern recommendations have a recommendation_id
+        if (
+            extracted_recommendations is not None
+            and int(self.report_id.split("_")[2]) > 2010
+        ):
+            extracted_recommendations = [
+                rec
+                for rec in extracted_recommendations
+                if rec["recommendation_id"] != ""
+            ]
 
         return extracted_recommendations, recommendation_section, pages_read
 
@@ -931,7 +945,6 @@ There is no need to enclose the yaml in any tags.
         response = response.strip().strip(" `").replace("yaml", "")
 
         if response == "None":
-            print("  No recommendations were found")
             return None
 
         try:
@@ -972,7 +985,7 @@ Your response should just be 2 numbers for example: 23,26.
             return None
 
         try:
-            return [int(x) for x in parsed_model_response]
+            return [tuple(int(x) for x in parsed_model_response)]
         except ValueError:
             print(f"  Error: Could not parse the pages to read: {model_response}")
             return None
@@ -1331,6 +1344,15 @@ class ReportExtractingProcessor:
         taic_recommendations_path,
         toc_df_path,
     ):
+        print(
+            "-----------------------------------------------------------------------------"
+        )
+        print("                        Extracting recommendations")
+        print(f"    Output file: {output_path}")
+        print(f"    Table of contents: {toc_df_path}")
+        print(f"    ATSB recommendations: {tsb_recommendations_path}")
+        print(f"    TAIC recommendations: {taic_recommendations_path}")
+
         if os.path.exists(output_path) and not self.refresh:
             recommendations_df = pd.read_pickle(output_path)
         else:
@@ -1366,17 +1388,24 @@ class ReportExtractingProcessor:
         new_reports = recommendations_df.merge(
             atsb_reports, how="right", on="report_id"
         )
-        new_reports = new_reports[new_reports["recommendations"].isna()]
 
         new_reports = new_reports.merge(
             toc_df[["report_id", "toc"]], how="left", on="report_id"
         )
+        new_reports = new_reports[
+            (new_reports["recommendations"].isna()) & (~new_reports["toc"].isna())
+        ]
 
-        print(recommendations_df)
+        print(f"    There are {len(new_reports)} reports with no recommendations.")
+        print(f"    Current recommendations: {len(recommendations_df)}")
+        print(
+            "-----------------------------------------------------------------------------"
+        )
+
         for _, report_id, report_text, toc in (
-            pbar := tqdm(new_reports[["report_id", "text", "toc"]].itertuples())
+            pbar := tqdm(list(new_reports[["report_id", "text", "toc"]].itertuples()))
         ):
-            pbar.set_description(f"Extracting sections from {report_id}")
+            pbar.set_description(f"Extracting recommendations from {report_id}")
             if report_id in recommendations_df["report_id"].values:
                 continue
 
@@ -1390,5 +1419,6 @@ class ReportExtractingProcessor:
                 important_text,
                 pages_read,
             ]
+            recommendations_df.to_pickle(output_path)
 
         recommendations_df.to_pickle(output_path)

@@ -848,12 +848,12 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
 
         widened_safety_issues_df["report_id"] = (
             widened_safety_issues_df["safety_issue_id"]
+            .map(lambda x: "-".join(x.split("_")[1].split("-")[0:3]))
             .map(
-                lambda x: self.id_converter(
-                    "ATSB", "-".join(x.split("_")[1].split("-")[0:3])
-                )
+                lambda x: self.id_converter("ATSB", x)
+                if self.id_converter("ATSB", x)
+                else f"Unmatched ({x})"
             )
-            .map(lambda x: x if x is not None else "Unmatched")
         )
         widened_safety_issues_df["quality"] = "exact"
         widened_safety_issues_df = widened_safety_issues_df[
@@ -949,10 +949,10 @@ class RecommendationScraper(WebsiteScraper):
             for key, value in recommendation_data.items():
                 new_recommendations.at[i, key] = value
 
-        new_recommendations["report_id"] = (
-            new_recommendations["agency_id"]
-            .map(lambda x: self.id_converter(self.agency, x))
-            .map(lambda x: x if x is not None else "Unmatched")
+        new_recommendations["report_id"] = new_recommendations["agency_id"].map(
+            lambda x: self.id_converter(self.agency, x)
+            if self.id_converter(self.agency, x)
+            else f"Unmatched {self.agency} ({x})"
         )
 
         recommendations_df = pd.concat(

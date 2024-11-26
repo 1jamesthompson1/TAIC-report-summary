@@ -139,18 +139,19 @@ def extract(output_dir, config, refresh):
         os.path.join(output_dir, output_config.get("safety_issues_df_file_name")),
     )
 
-    report_extractor.extract_sections_from_text(
-        15, os.path.join(output_dir, output_config.get("report_sections_df_file_name"))
-    )
-
-    report_extractor.extract_recommendations_from_reports(
+    report_extractor.extract_recommendations(
         os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
         os.path.join(
-            output_dir, output_config.get("tsb_website_recommendation_file_name")
+            output_dir, output_config.get("tsb_website_recommendations_file_name")
         ),
         os.path.join(
             output_dir, output_config.get("taic_website_recommendations_file_name")
         ),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
+    )
+
+    report_extractor.extract_sections_from_text(
+        15, os.path.join(output_dir, output_config.get("report_sections_df_file_name"))
     )
 
     ReportTypeAssignment.ReportTypeAssigner(
