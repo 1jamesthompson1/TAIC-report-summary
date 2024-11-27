@@ -217,10 +217,6 @@ def analyze(output_dir, config, refresh):
             output_dir,
             output_config.get("recommendation_response_classification_df_file_name"),
         ),
-        (
-            config.get("download").get("start_year"),
-            config.get("download").get("end_year"),
-        ),
     )
 
     # Generate embeddings

@@ -187,7 +187,7 @@ class RecommendationSafetyIssueLinker:
         print("==================================================")
 
         if not self.refresh and os.path.exists(output_file_path):
-            links_df = pd.read_pickle(output_file_path)
+            links_df = pd.read_pickle(output_file_path).reset_index(drop=True)
         else:
             links_df = pd.DataFrame(columns=["report_id", "recommendation_links"])
 
@@ -195,6 +195,10 @@ class RecommendationSafetyIssueLinker:
             extracted_df = pd.read_pickle(extracted_df_path)
         else:
             raise ValueError(f"{extracted_df_path} does not exist")
+
+        extracted_df = extracted_df[
+            ~extracted_df.index.isin(links_df["report_id"].values)
+        ]
 
         for report_id, recommendations, safety_issues in (
             pbar := tqdm(
@@ -211,8 +215,6 @@ class RecommendationSafetyIssueLinker:
                 or len(recommendations) == 0
                 or len(safety_issues) == 0
             ):
-                continue
-            if report_id in links_df["report_id"].values:
                 continue
 
             report_links = self._evaluate_all_possible_links(

@@ -154,12 +154,10 @@ class RecommendationResponseClassificationProcessor:
         # Check to see the for previously classified responses
         if os.path.exists(output_path):
             output_df = pd.read_pickle(output_path)
-            merged_df = pd.merge(recommendations_df, output_df, on=columns, how="outer")
-            merged_df = merged_df.drop_duplicates(subset=columns)
-            merged_df.drop(columns=["response_category_x"], inplace=True)
-            merged_df.rename(
-                columns={"response_category_y": "response_category"}, inplace=True
+            merged_df = pd.merge(
+                recommendations_df[columns], output_df, on=columns, how="outer"
             )
+            merged_df = merged_df.drop_duplicates(subset=columns)
         else:
             merged_df = recommendations_df
 

@@ -1163,13 +1163,9 @@ class TAICRecommendationsScraper(RecommendationScraper):
 
         text = soup.find("div", class_="field--name-field-sr-text")
 
-        print(text)
-
         recommendation_text = (
             text.find("div", class_="field__item").get_text() if text else None
         )
-
-        print(recommendation_text)
 
         reply_text = soup.find("div", class_="field--name-field-sr-replytext")
         reply_text = (
