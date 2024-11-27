@@ -906,6 +906,8 @@ class RecommendationScraper(WebsiteScraper):
             "----------------------------------------------------------------------------------"
         )
 
+        print("  Reading recommendation tables to get recommendations webpages")
+
         for element in (phbar := tqdm(self.loop_iter)):
             phbar.set_description(f"Scraping recommendations for {element}")
 
@@ -941,6 +943,10 @@ class RecommendationScraper(WebsiteScraper):
                 [new_recommendations, table], ignore_index=True
             )
 
+        print(
+            f"  Found {new_recommendations.shape[0]} new recommendations, reading each individual webpage now"
+        )
+
         for i, row in (phbar := tqdm(list(new_recommendations.iterrows()))):
             phbar.set_description(
                 f"Processing recommendation {row['recommendation_id']} from {row['agency_id']} with i:{i}"
@@ -964,7 +970,7 @@ class RecommendationScraper(WebsiteScraper):
                             "report_id"
                         ).groups.keys(),
                         "recommendations": [
-                            group.reset_index(drop=True)
+                            group.reset_index(drop=True).drop("report_id", axis=1)
                             for _, group in new_recommendations.groupby("report_id")
                         ],
                     }
@@ -995,13 +1001,12 @@ class TSBRecommendationsScraper(RecommendationScraper):
             "recommendation_id",
             "recommendation",
             "agency_id",
-            "current_assesment",
+            "current_assessment",
             "status",
             "watchlist",
             "url",
-            "recommendation_text",
             "made",
-            "extra_recommendation_context",
+            "recommendation_context",
         ]
         self.base_url = "https://www.tsb.gc.ca"
 
@@ -1025,7 +1030,7 @@ class TSBRecommendationsScraper(RecommendationScraper):
         if url is None:
             return {
                 "recommendation": None,
-                "recommendation_date": None,
+                "made": None,
                 "recommendation_context": None,
             }
 
@@ -1063,9 +1068,9 @@ class TSBRecommendationsScraper(RecommendationScraper):
             )
 
         return {
-            "recommendation_text": recommendation,
+            "recommendation": recommendation,
             "made": recommendation_date,
-            "extra_recommendation_context": recommendation_context,
+            "recommendation_context": recommendation_context,
         }
 
     def process_new_table(self, table):
@@ -1087,9 +1092,7 @@ class TSBRecommendationsScraper(RecommendationScraper):
         table = table.map(lambda x: x[0] if isinstance(x, tuple) else x)
 
         table.columns = self.columns[:7]
-        table["recommendation"] = table["recommendation"].map(
-            lambda x: "The TSB recommended that " + x
-        )
+        table.drop("recommendation", axis=1, inplace=True)
         return table
 
 
@@ -1102,9 +1105,8 @@ class TAICRecommendationsScraper(RecommendationScraper):
             "made",
             "agency_id",
             "recipient",
-            "recommendation_text",
+            "recommendation",
             "reply_text",
-            "report_id",
         ]
         self.base_url = "https://www.taic.org.nz"
 
@@ -1161,12 +1163,22 @@ class TAICRecommendationsScraper(RecommendationScraper):
 
         text = soup.find("div", class_="field--name-field-sr-text")
 
-        recommendation_text = list(text.children)[-1].get_text() if text else None
+        print(text)
+
+        recommendation_text = (
+            text.find("div", class_="field__item").get_text() if text else None
+        )
+
+        print(recommendation_text)
 
         reply_text = soup.find("div", class_="field--name-field-sr-replytext")
-        reply_text = list(reply_text.children)[-1].get_text() if reply_text else None
+        reply_text = (
+            reply_text.find("div", class_="field__item").get_text()
+            if reply_text
+            else None
+        )
 
         return {
-            "recommendation_text": recommendation_text,
+            "recommendation": recommendation_text,
             "reply_text": reply_text,
         }

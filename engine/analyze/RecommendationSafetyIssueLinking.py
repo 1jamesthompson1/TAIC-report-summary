@@ -10,8 +10,8 @@ from engine.utils.AICaller import AICaller
 
 
 class RecommendationSafetyIssueLinker:
-    def __init__(self):
-        pass
+    def __init__(self, refresh=False):
+        self.refresh = refresh
 
     def _generate_visualization_of_links(self, df, report_id, output_path):
         """
@@ -186,7 +186,7 @@ class RecommendationSafetyIssueLinker:
         print("---------------  Evaluating links   --------------")
         print("==================================================")
 
-        if os.path.exists(output_file_path):
+        if not self.refresh and os.path.exists(output_file_path):
             links_df = pd.read_pickle(output_file_path)
         else:
             links_df = pd.DataFrame(columns=["report_id", "recommendation_links"])
@@ -205,8 +205,11 @@ class RecommendationSafetyIssueLinker:
                 f"Linking recommendations with safety issues for {report_id}"
             )
 
-            if not isinstance(recommendations, pd.DataFrame) or not isinstance(
-                safety_issues, pd.DataFrame
+            if (
+                not isinstance(recommendations, pd.DataFrame)
+                or not isinstance(safety_issues, pd.DataFrame)
+                or len(recommendations) == 0
+                or len(safety_issues) == 0
             ):
                 continue
             if report_id in links_df["report_id"].values:
@@ -215,7 +218,6 @@ class RecommendationSafetyIssueLinker:
             report_links = self._evaluate_all_possible_links(
                 recommendations, safety_issues
             )
-            print(report_links)
 
             links_df.loc[len(links_df)] = [report_id, report_links]
 

@@ -894,7 +894,18 @@ class RecommendationsExtractor(ReportExtractor):
                 if rec["recommendation_id"] != ""
             ]
 
-        return extracted_recommendations, recommendation_section, pages_read
+        recommendation_df = pd.DataFrame(
+            extracted_recommendations,
+            columns=[
+                "recommendation",
+                "recommendation_id",
+                "recommendation_context",
+                "recipient",
+                "made",
+            ],
+        )
+
+        return recommendation_df, recommendation_section, pages_read
 
     def _extract_recommendations_from_text(self, text):
         """
@@ -944,15 +955,15 @@ There is no need to enclose the yaml in any tags.
 
         response = response.strip().strip(" `").replace("yaml", "")
 
-        if response == "None":
-            return None
-
         try:
             recommendations = yaml.safe_load(response)
         except yaml.YAMLError as exc:
             print(exc)
             print("  Assuming that there are no recommendations in the report.")
             print(f"  The response was: {response}")
+            return None
+
+        if recommendations == "None":
             return None
 
         return recommendations
