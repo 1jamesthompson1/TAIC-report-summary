@@ -197,18 +197,18 @@ class RecommendationSafetyIssueLinker:
             raise ValueError(f"{extracted_df_path} does not exist")
 
         extracted_df = extracted_df[
-            ~extracted_df.index.isin(links_df["report_id"].values)
+            ~extracted_df["report_id"].isin(links_df["report_id"].values)
         ]
 
         for report_id, recommendations, safety_issues in (
             pbar := tqdm(
-                list(extracted_df[["recommendations", "safety_issues"]].itertuples())
+                list(
+                    extracted_df[
+                        ["report_id", "recommendations", "safety_issues"]
+                    ].itertuples(index=False)
+                )
             )
         ):
-            pbar.set_description(
-                f"Linking recommendations with safety issues for {report_id}"
-            )
-
             if (
                 not isinstance(recommendations, pd.DataFrame)
                 or not isinstance(safety_issues, pd.DataFrame)
@@ -216,6 +216,9 @@ class RecommendationSafetyIssueLinker:
                 or len(safety_issues) == 0
             ):
                 continue
+            pbar.set_description(
+                f"Linking recommendations with safety issues for {report_id}"
+            )
 
             report_links = self._evaluate_all_possible_links(
                 recommendations, safety_issues

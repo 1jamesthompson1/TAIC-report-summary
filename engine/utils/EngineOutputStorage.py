@@ -46,6 +46,8 @@ class EngineOutputManager:
             )
             for date in folders
         ]
+        if len(dates) == 0:
+            return None
 
         return folders[dates.index(max(dates))]
 
@@ -256,6 +258,9 @@ class EngineOutputDownloader(EngineOutputManager):
 
     def download_latest_output(self):
         latest_output_folder_name = self._get_latest_output()
+        if latest_output_folder_name is None:
+            print("No latest output found")
+            return
         blobs = self.engine_output_container.list_blobs(
             name_starts_with=latest_output_folder_name
         )

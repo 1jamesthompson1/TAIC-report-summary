@@ -106,6 +106,10 @@ class Embedder:
 
         embeddings = pd.Series(embeddings, index=missing_embeddings.index)
 
+        print(
+            f"  Finished embedding the documents there are {len(embeddings)} embeddings"
+        )
+
         # Update the dataframe with the computed embeddings
         df.loc[missing_embeddings.index, embedding_column_name] = embeddings
 
@@ -149,11 +153,14 @@ class Embedder:
     def process_extracted_reports(self, extracted_df_path, embeddings_config):
         print("==================================================")
         print("---------------  Embedding reports  --------------")
+        print("   Extracted reports: ", extracted_df_path)
+        print(f"   Embeddings {len(embeddings_config)} dataframes")
+        print(
+            f"   Embeddings config: \n{chr(10).join([str(config) for config in embeddings_config])}"
+        )
         print("==================================================")
 
         extracted_df = pd.read_pickle(extracted_df_path)
-        extracted_df["report_id"] = extracted_df.index
-        extracted_df = extracted_df.reset_index(drop=True)
 
         for dataframe_column_name, document_column_name, output_file_path in (
             pbar := tqdm(embeddings_config)
@@ -207,8 +214,6 @@ class Embedder:
                         previously_embedded_df.columns
                     )
                 )
-                print(dataframe_to_embed)
-                print(previously_embedded_df)
                 dataframe_to_embed = dataframe_to_embed.merge(
                     previously_embedded_df,
                     on=columns_intersection,

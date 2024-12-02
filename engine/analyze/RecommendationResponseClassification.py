@@ -63,7 +63,9 @@ class RecommendationResponseClassifier:
     {response}
     "
 
-    in regards to recommendation {recommendation_num}
+    in regards to recommendation {recommendation_num}:
+
+    {recommendation}
     """
 
         openai_response = AICaller.query(
