@@ -883,17 +883,6 @@ class RecommendationsExtractor(ReportExtractor):
         extracted_recommendations = self._extract_recommendations_from_text(
             recommendation_section
         )
-        # This is an error as all modern recommendations have a recommendation_id
-        if (
-            extracted_recommendations is not None
-            and int(self.report_id.split("_")[2]) > 2010
-        ):
-            extracted_recommendations = [
-                rec
-                for rec in extracted_recommendations
-                if rec["recommendation_id"] != ""
-            ]
-
         recommendation_df = pd.DataFrame(
             extracted_recommendations,
             columns=[
@@ -904,6 +893,27 @@ class RecommendationsExtractor(ReportExtractor):
                 "made",
             ],
         )
+        if recommendation_df is not None:
+            # This is an error as all modern recommendations have a recommendation_id, and if some recommendations have ids then all should
+            if (int(self.report_id.split("_")[2]) > 2010) or (
+                recommendation_df["recommendation_id"].isna().sum()
+                < len(recommendation_df)
+            ):
+                recommendation_df = recommendation_df[
+                    ~(
+                        (recommendation_df["recommendation_id"].isna())
+                        | (recommendation_df["recommendation_id"] == "")
+                    )
+                ]
+
+            # If none of them have IDs then we create them
+            if len(recommendation_df) > 0 and all(
+                recommendation_df["recommendation_id"].isin(["", None, pd.NA])
+            ):
+                recommendation_df["recommendation_id"] = [
+                    f"{self.report_id}_rec_{i}"
+                    for i in range(len(extracted_recommendations))
+                ]
 
         return recommendation_df, recommendation_section, pages_read
 

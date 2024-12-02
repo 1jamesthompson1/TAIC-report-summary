@@ -8,12 +8,14 @@ from tenacity import retry, wait_random_exponential
 from tqdm import tqdm
 from transformers import AutoTokenizer
 
+import engine.utils.Modes as Modes
+
 
 class Embedder:
     def __init__(self):
         self.vo = voyageai.Client()
 
-        self.tokenizer = AutoTokenizer.from_pretrained("voyageai/voyage")
+        self.tokenizer = AutoTokenizer.from_pretrained("voyageai/voyage-3")
 
     def tokenize_documents(self, df, document_column_name, tokenization_column_name):
         if tokenization_column_name not in df.columns:
@@ -51,7 +53,7 @@ class Embedder:
         token_length_column_name = f"{embedding_column_name}_token_length"
         df = self.tokenize_documents(df, document_column_name, token_length_column_name)
 
-        df = df.loc[df[token_length_column_name] < 15_000]
+        df = df.loc[df[token_length_column_name] < 30_000]
 
         # check which new columns needs to be computed, i.e
         if embedding_column_name not in df.columns:
@@ -62,12 +64,12 @@ class Embedder:
             return df
 
         tqdm.write(
-            f"There are {len(missing_embeddings)} missing embeddings with {len(df)} number of documents"
+            f"There are {len(missing_embeddings)} missing embeddings with {len(df)} number of documents, total token length {missing_embeddings[token_length_column_name].sum()}"
         )
 
         # Split documents into batches based on max batch size of 120000.
         batches = []
-        for batch_size in reversed(range(1, 25)):
+        for batch_size in reversed(range(1, 100)):
             batches = [
                 missing_embeddings.iloc[i : i + batch_size]
                 for i in range(0, len(missing_embeddings), batch_size)
@@ -77,7 +79,7 @@ class Embedder:
             if (
                 all(
                     [
-                        batch[token_length_column_name].sum() < 110_000
+                        batch[token_length_column_name].sum() < 310_000
                         for batch in batches
                     ]
                 )
@@ -115,7 +117,7 @@ class Embedder:
     def embed_batch(self, batch):
         return self.vo.embed(
             texts=batch,
-            model="voyage-large-2-instruct",
+            model="voyage-3",
             input_type="document",
             truncation=False,
         ).embeddings
@@ -205,13 +207,28 @@ class Embedder:
                     subset=columns_intersection, inplace=True
                 )
 
+            # Drop unmatched
+            dataframe_to_embed = dataframe_to_embed[
+                ~dataframe_to_embed["report_id"].str.contains("nmatched")
+            ]
+
             # Add mode and year to the embeddings
             dataframe_to_embed["year"] = [
-                int(x.split("_")[0]) for x in dataframe_to_embed["report_id"]
+                int(x.split("_")[2]) for x in dataframe_to_embed["report_id"]
             ]
-            dataframe_to_embed["mode"] = [
-                int(x.split("_")[1][0]) for x in dataframe_to_embed["report_id"]
+            dataframe_to_embed["mode"] = dataframe_to_embed["report_id"].map(
+                lambda x: Modes.get_report_mode_from_id(x).value
+            )
+
+            dataframe_to_embed["agency"] = [
+                x.split("_")[0] for x in dataframe_to_embed["report_id"]
             ]
+
+            # Drop columns that are none
+            dataframe_to_embed = dataframe_to_embed.dropna(
+                subset=[document_column_name]
+            )
+
             self.embed_dataframe(
                 dataframe_to_embed, document_column_name, output_file_path
             )

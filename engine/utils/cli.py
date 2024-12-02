@@ -250,10 +250,10 @@ def analyze(output_dir, config, refresh):
                 ),
             ),
             (
-                "important_text",
-                "important_text",
+                "text",
+                "text",
                 os.path.join(
-                    embedding_folder, embeddings_config.get("important_text_file_name")
+                    embedding_folder, embeddings_config.get("report_text_file_name")
                 ),
             ),
         ],
