@@ -183,6 +183,8 @@ def task_status(task_id):
     result = tasks_results.get(task_id, {})
     if status == "completed":
         session["search_results"] = result
+        print("returning complete")
+
     return jsonify({"task_id": task_id, "status": status, "result": result})
 
 
@@ -210,12 +212,11 @@ def getUpdatedRelevanceSearch(search, new_relevance):
 def format_search_results(results: Searching.SearchResult):
     context_df = results.getContextCleaned()
 
-    context_df["Hubstream"] = context_df["report_id"].apply(
-        lambda x: f'<a href="https://taic.hubstreamonline.com/#/search/Investigation/{format_report_id_as_weblink(x)}" target="_blank">Open in Hubstream</a>'
+    context_df["report_id"] = context_df[["report_id", "url"]].apply(
+        lambda x: f'<a href="{x["url"]}" target="_blank">{x["report_id"]}</a>', axis=1
     )
-    context_df["report_id"] = context_df["report_id"].apply(
-        lambda x: f'<a href="https://taic.org.nz/inquiry/{format_report_id_as_weblink(x)}" target="_blank">{x}</a>'
-    )
+
+    context_df = context_df.drop(columns=["url"])
 
     context_df["relevance"] = context_df.apply(
         lambda x: f"""<a href="/?{getUpdatedRelevanceSearch(results.search, x['relevance'])}">{x['relevance']}</a>""",
@@ -238,6 +239,10 @@ def format_search_results(results: Searching.SearchResult):
 
     most_common_event_types = results.getMostCommonEventTypes().to_json()
 
+    agency_distribution = results.getAgencyPieChart().to_json()
+
+    print(f"Formatted results {len(context_df)}")
+
     return {
         "html_table": html_table,
         "results_summary_info": {
@@ -245,6 +250,7 @@ def format_search_results(results: Searching.SearchResult):
             "mode_pie_chart": mode_pie_chart,
             "year_histogram": year_hist,
             "most_common_event_types": most_common_event_types,
+            "agency_pie_chart": agency_distribution,
             "duration": results.getSearchDuration(),
             "num_results": context_df.shape[0],
         },
@@ -279,8 +285,10 @@ def search_reports(task_id, form_data):
         tasks_results[task_id] = format_search_results(results)
         log_search_results(results)
         tasks_status[task_id] = "completed"
+        print(f"Task {task_id} completed")
 
     except Exception as e:
+        print(f"Error: {e}\n{e.with_traceback()}")
         log_search_error(e, search)
         tasks_results[task_id] = repr(e)
         tasks_status[task_id] = "failed"

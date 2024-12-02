@@ -15,6 +15,7 @@ from engine.utils.AICaller import AICaller
 class SearchSettings:
     def __init__(
         self,
+        agencies: list[str],
         modes: list[Modes.Mode],
         year_range: tuple[int, int],
         document_types: list[str],
@@ -29,6 +30,14 @@ class SearchSettings:
             year_range (Tuple[int, int]): A tuple representing the range of years to be included in the search.
 
         """
+        if not isinstance(agencies, list) or not all(
+            agency in ["TAIC", "ATSB", "TSB"] for agency in agencies
+        ):
+            raise TypeError("agencies must be a list of strings")
+        if len(agencies) == 0:
+            raise ValueError("agencies must contain at least one string")
+        self.agencies = agencies
+
         if not isinstance(year_range[0], int) or not isinstance(year_range[1], int):
             raise TypeError("year_range must be a tuple of integers")
         self.year_range = year_range
@@ -53,6 +62,9 @@ class SearchSettings:
             raise ValueError("document_types must contain at least one string")
         self.document_types = document_types
 
+    def getAgencies(self) -> list[str]:
+        return self.agencies
+
     def getYearRange(self) -> tuple[int, int]:
         return self.year_range
 
@@ -72,6 +84,7 @@ class SearchSettings:
             "setting_modes": str([mode.value for mode in self.modes]),
             "setting_relevanceCutoff": self.relevanceCutoff,
             "setting_document_types": str(self.document_types),
+            "setting_agencies": str(self.agencies),
         }
 
     @classmethod
@@ -103,6 +116,16 @@ class Search:
         try:
             # Query
             search_query = form["searchQuery"]
+
+            # Agencies
+            agencies_list = list()
+
+            if "includeTAIC" in form.keys():
+                agencies_list.append("TAIC")
+            if "includeATSB" in form.keys():
+                agencies_list.append("ATSB")
+            if "includeTSB" in form.keys():
+                agencies_list.append("TSB")
 
             # Modes
             modes_list = list()
@@ -138,7 +161,11 @@ class Search:
             return cls(
                 search_query,
                 settings=SearchSettings(
-                    modes_list, year_range, document_types, relevance_cutoff
+                    agencies_list,
+                    modes_list,
+                    year_range,
+                    document_types,
+                    relevance_cutoff,
                 ),
             )
         except KeyError as e:
@@ -184,6 +211,10 @@ class Search:
             "on" if "important_text" in self.settings.document_types else "off"
         )
 
+        params["includeTAIC"] = "on" if "TAIC" in self.settings.agencies else "off"
+        params["includeATSB"] = "on" if "ATSB" in self.settings.agencies else "off"
+        params["includeTSB"] = "on" if "TSB" in self.settings.agencies else "off"
+
         return urllib.parse.urlencode(params)
 
 
@@ -203,6 +234,9 @@ class SearchResult:
             "document",
             "year",
             "mode",
+            "agency",
+            "agency_id",
+            "url",
         ]
 
     def getSearchDuration(self) -> str:
@@ -236,12 +270,12 @@ class SearchResult:
 
         # Make mode a string
         context_df["mode"] = context_df["mode"].apply(
-            lambda x: Modes.Mode.as_string(Modes.Mode(x))
+            lambda x: Modes.Mode.as_string(Modes.Mode(int(x)))
         )
         return context_df
 
     def addVisualLayout(self, fig):
-        fig = fig.update_layout(width=400)
+        fig = fig.update_layout(width=310)
 
         # If fig a pie chart
         if fig.data[0].type == "pie":
@@ -265,7 +299,7 @@ class SearchResult:
             context_df,
             values="count",
             names="document_type",
-            title="Document type distribution in search results",
+            title="Document type distribution",
         )
 
         return self.addVisualLayout(fig)
@@ -277,7 +311,7 @@ class SearchResult:
             context_df,
             values="count",
             names="mode",
-            title="Mode distribution in search results",
+            title="Mode distribution",
         )
 
         return self.addVisualLayout(fig)
@@ -287,7 +321,7 @@ class SearchResult:
         fig = px.histogram(
             context_df,
             x="year",
-            title="Year distribution in search results",
+            title="Year distributions",
         )
         return self.addVisualLayout(fig)
 
@@ -313,7 +347,19 @@ class SearchResult:
             combined_df,
             values="Count",
             names="Event type",
-            title="Top 5 most common event types in search results",
+            title="Top 5 most common event types",
+        )
+
+        return self.addVisualLayout(fig)
+
+    def getAgencyPieChart(self):
+        context_df = self.getContextCleaned()["agency"].value_counts().reset_index()
+        context_df.columns = ["agency", "count"]
+        fig = px.pie(
+            context_df,
+            values="count",
+            names="agency",
+            title="Agency distribution",
         )
 
         return self.addVisualLayout(fig)
@@ -367,7 +413,7 @@ class SearchEngineSearcher:
 
     def _embed_query(self, query: str) -> list[float]:
         return self.vo.embed(
-            query, model="voyage-large-2-instruct", input_type="query", truncation=False
+            query, model="voyage-3", input_type="query", truncation=False
         ).embeddings[0]
 
     def _table_search(
@@ -406,6 +452,7 @@ class SearchEngineSearcher:
                 .where(filter, prefilter=True)
                 .to_pandas()
             )
+
             results.rename(
                 columns={"_distance": "section_relevance_score"}, inplace=True
             )
@@ -423,9 +470,12 @@ class SearchEngineSearcher:
                 f"document_type IN {tuple(self.settings.getDocumentTypes())}"
                 if len(self.settings.getDocumentTypes()) > 1
                 else f"document_type = '{self.settings.getDocumentTypes()[0]}'",
-                f"mode IN {tuple([mode.value for mode in self.settings.getModes()])}"
+                f"mode IN {tuple([str(mode.value) for mode in self.settings.getModes()])}"
                 if len(self.settings.getModes()) > 1
-                else f"mode = {self.settings.getModes()[0].value}",
+                else f"mode = {str(self.settings.getModes()[0].value)}",
+                f"agency IN {tuple(self.settings.getAgencies())}"
+                if len(self.settings.getAgencies()) > 1
+                else f"agency = '{self.settings.getAgencies()[0]}'",
             ]
         )
         print(where_statement)
@@ -531,7 +581,7 @@ class SearchEngineSearcher:
             return SearchResult(self.search_obj, None, None)
         search_results = self._filter_results(search_results)
 
-        print("Summarizing relevant safety issues...")
+        print(f"Summarizing {len(search_results)} documents...")
         response = AICaller.query(
             system="""
     You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.
@@ -561,9 +611,9 @@ class SearchEngineSearcher:
     issues.  
     """,
             user=self._get_rag_prompt(self.search_obj, search_results),
-            model="claude-3.5-sonnet",
+            model="gpt-4",
             temp=0,
-            max_tokens=4096,
+            max_tokens=8096,
         )
         if response is None:
             response = "Too many relevant documents so could not summarize. Try increasing the relevance cutoff in search settings."
@@ -571,5 +621,6 @@ class SearchEngineSearcher:
 
 {response}
         """
+        print("Got summary returning search result")
 
         return SearchResult(self.search_obj, search_results, formatted_response)
