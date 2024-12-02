@@ -3,6 +3,7 @@ from datetime import datetime
 
 import lancedb
 import pandas as pd
+import pyarrow as pa
 import pytz
 from azure.storage.blob import BlobServiceClient
 from tqdm import tqdm
@@ -45,6 +46,8 @@ class EngineOutputManager:
             )
             for date in folders
         ]
+        if len(dates) == 0:
+            return None
 
         return folders[dates.index(max(dates))]
 
@@ -60,14 +63,14 @@ class EngineOutputUploader(EngineOutputManager):
         safety_issues_embeddings_path,
         recommendation_embeddings_path,
         report_sections_embeddings_path,
-        important_text_embeddings_path,
+        report_text_embeddings_path,
     ):
         super().__init__(storage_account_name, storage_account_key, container_name)
 
         self.folder_to_upload = folder_to_upload
         self.db = lancedb.connect(viewer_db_uri)
 
-        self.important_text_embeddings_path = important_text_embeddings_path
+        self.report_text_embeddings_path = report_text_embeddings_path
         self.recommendation_embeddings_path = recommendation_embeddings_path
         self.report_sections_embeddings_path = report_sections_embeddings_path
         self.safety_issues_embeddings_path = safety_issues_embeddings_path
@@ -93,9 +96,9 @@ class EngineOutputUploader(EngineOutputManager):
         report_sections_embeddings = pd.read_pickle(
             self.report_sections_embeddings_path
         ).rename(columns={"section_embedding": "vector"})
-        important_text_embeddings = pd.read_pickle(
-            self.important_text_embeddings_path
-        ).rename(columns={"important_text_embedding": "vector"})
+        report_text_embeddings = pd.read_pickle(
+            self.report_text_embeddings_path
+        ).rename(columns={"text_embedding": "vector"})
         recommendation_embeddings = pd.read_pickle(
             self.recommendation_embeddings_path
         ).rename(columns={"recommendation_embedding": "vector"})
@@ -114,7 +117,10 @@ class EngineOutputUploader(EngineOutputManager):
                     "report_id",
                     "year",
                     "mode",
+                    "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="safety_issue"),
             report_sections_embeddings[
@@ -125,7 +131,10 @@ class EngineOutputUploader(EngineOutputManager):
                     "report_id",
                     "year",
                     "mode",
+                    "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="report_section"),
             recommendation_embeddings[
@@ -136,18 +145,24 @@ class EngineOutputUploader(EngineOutputManager):
                     "report_id",
                     "year",
                     "mode",
+                    "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="recommendation"),
-            important_text_embeddings[
+            report_text_embeddings[
                 [
                     "report_id",
-                    "important_text",
+                    "text",
                     "vector",
                     "report_id",
                     "year",
                     "mode",
+                    "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="important_text"),
         ]
@@ -161,7 +176,10 @@ class EngineOutputUploader(EngineOutputManager):
                     "report_id",
                     "year",
                     "mode",
+                    "agency",
                     "type",
+                    "agency_id",
+                    "url",
                     "document_type",
                 ],
                 axis=1,
@@ -171,7 +189,51 @@ class EngineOutputUploader(EngineOutputManager):
 
         all_document_types = pd.concat(all_document_dfs, axis=0, ignore_index=True)
 
-        self.db.create_table("all_document_types", all_document_types, mode="overwrite")
+        all_document_types["document_id"] = all_document_types.apply(
+            lambda row: row["document_id"]
+            if (
+                isinstance(row["document_id"], str)
+                and row["document_id"].startswith(row["agency"])
+            )
+            else f"{row['agency']}_{row['document_id']}",
+            axis=1,
+        )
+
+        # Converting to pyarrow first as it was having troubles giving a large pd.DataFrame directly
+        all_document_types = pa.Table.from_pandas(all_document_types)
+
+        schema = pa.schema(
+            [
+                ("document_id", pa.string()),
+                ("document", pa.string()),
+                (
+                    "vector",
+                    pa.list_(
+                        pa.float64(), list_size=len(all_document_types["vector"][0])
+                    ),
+                ),
+                ("report_id", pa.string()),
+                ("year", pa.int64()),
+                ("mode", pa.string()),
+                ("agency", pa.string()),
+                ("type", pa.string()),
+                ("agency_id", pa.string()),
+                ("url", pa.string()),
+                ("document_type", pa.string()),
+            ]
+        )
+
+        print("prepare pyarrow table")
+
+        table = self.db.create_table(
+            "all_document_types", all_document_types, schema, mode="overwrite"
+        )
+
+        print("created vector db")
+
+        table.create_fts_index("document", use_tantivy=False)
+
+        print("created fts index")
 
     def upload_latest_output(self):
         self._upload_folder(
@@ -196,6 +258,9 @@ class EngineOutputDownloader(EngineOutputManager):
 
     def download_latest_output(self):
         latest_output_folder_name = self._get_latest_output()
+        if latest_output_folder_name is None:
+            print("No latest output found")
+            return
         blobs = self.engine_output_container.list_blobs(
             name_starts_with=latest_output_folder_name
         )

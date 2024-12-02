@@ -1,84 +1,84 @@
-,Value,mode
-0,Collision,marine
-1,Grounding/stranding,marine
-2,Contact,marine
-3,Fire/explosion,marine
-4,Machinery failure,marine
-5,Equipment failure,marine
-6,Capsizing/listing,marine
-7,Hull failure/failure of watertight openings,marine
-8,Fatality,marine
-9,Serious injury,marine
-10,Damage to ship or equipment,marine
-11,Flooding,marine
-12,Close quarters,marine
-13,Missing assumed lost,marine
-14,Pollution,marine
-15,Other,marine
-16,Foundered,marine
-17,Lifeboat accident,marine
-18,Airframe,aviation
-19,Powerplant / Propulsion,aviation
-20,Systems,aviation
-21,Aircraft separation,aviation
-22,Airspace infringement,aviation
-23,ANSP operational error,aviation
-24,Operational non-compliance,aviation
-25,Breakdown of co-ordination,aviation
-26,Other Airspace,aviation
-27,Encounter with Remotely Piloted Aircraft,aviation
-28,ATM,aviation
-29,Navaids,aviation
-30,Radar / Surveillance,aviation
-31,Runway lighting,aviation
-32,Other Infrastructure,aviation
-33,Interference with aircraft from ground,aviation
-34,Weather,aviation
-35,Wildlife,aviation
-36,Other Environment,aviation
-37,Ditching,aviation
-38,Diversion / Return,aviation
-39,Emergency evacuation,aviation
-40,Emergency / Precautionary descent,aviation
-41,Forced / Precautionary landing,aviation
-42,Fuel dump/burn off,aviation
-43,Missed approach / Go-around,aviation
-44,Rejected take-off,aviation
-45,Other Consequential Event,aviation
-46,Aircraft control,aviation
-47,Aircraft loading,aviation
-48,Communications,aviation
-49,Crew and Cabin Safety,aviation
-50,"Fire, fumes & smoke",aviation
-51,Flight preparation / Navigation,aviation
-52,Fuel related,aviation
-53,Ground operations,aviation
-54,Ground proximity alerts / warnings,aviation
-55,Miscellaneous,aviation
-56,Runway events,aviation
-57,Terrain collisions,aviation
-58,Alcohol or drugs Irregularity,rail
-59,Collision,rail
-60,Communications System Failure,rail
-61,Dangerous Goods,rail
-62,Derailment,rail
-63,Electrical Infrastructure Irregularity,rail
-64,Explosion,rail
-65,Fire,rail
-66,Gas,rail
-67,Level Crossing,rail
-68,Light Rail or Tram Authority Exceeded,rail
-69,Load Irregularity,rail
-70,Not Elsewhere Classified,rail
-71,Proceed Authority Exceeded,rail
-72,Railway network security,rail
-73,Rolling stock Irregularity,rail
-74,Runaway,rail
-75,Safeworking Rule or Procedure Breach,rail
-76,Signalling And Other Proceed Authority System Irregularities,rail
-77,Signals Passed at Danger,rail
-78,"Slip, Trip or Fall",rail
-79,Track and Civil Infrastructure Irregularity,rail
-80,Train Warning and Enforcement System Irregularity,rail
-81,Trespasser,rail
-82,Wrong Side Failure,rail
+Value,mode
+Collision,marine
+Grounding/stranding,marine
+Contact,marine
+Fire/explosion,marine
+Machinery failure,marine
+Equipment failure,marine
+Capsizing/listing,marine
+Hull failure/failure of watertight openings,marine
+Fatality,marine
+Serious injury,marine
+Damage to ship or equipment,marine
+Flooding,marine
+Close quarters,marine
+Missing assumed lost,marine
+Pollution,marine
+Other,marine
+Foundered,marine
+Lifeboat accident,marine
+Airframe,aviation
+Powerplant / Propulsion,aviation
+Systems,aviation
+Aircraft separation,aviation
+Airspace infringement,aviation
+ANSP operational error,aviation
+Operational non-compliance,aviation
+Breakdown of co-ordination,aviation
+Other Airspace,aviation
+Encounter with Remotely Piloted Aircraft,aviation
+ATM,aviation
+Navaids,aviation
+Radar / Surveillance,aviation
+Runway lighting,aviation
+Other Infrastructure,aviation
+Interference with aircraft from ground,aviation
+Weather,aviation
+Wildlife,aviation
+Other Environment,aviation
+Ditching,aviation
+Diversion / Return,aviation
+Emergency evacuation,aviation
+Emergency / Precautionary descent,aviation
+Forced / Precautionary landing,aviation
+Fuel dump/burn off,aviation
+Missed approach / Go-around,aviation
+Rejected take-off,aviation
+Other Consequential Event,aviation
+Aircraft control,aviation
+Aircraft loading,aviation
+Communications,aviation
+Crew and Cabin Safety,aviation
+"Fire, fumes & smoke",aviation
+Flight preparation / Navigation,aviation
+Fuel related,aviation
+Ground operations,aviation
+Ground proximity alerts / warnings,aviation
+Miscellaneous,aviation
+Runway events,aviation
+Terrain collisions,aviation
+Alcohol or drugs Irregularity,rail
+Collision,rail
+Communications System Failure,rail
+Dangerous Goods,rail
+Derailment,rail
+Electrical Infrastructure Irregularity,rail
+Explosion,rail
+Fire,rail
+Gas,rail
+Level Crossing,rail
+Light Rail or Tram Authority Exceeded,rail
+Load Irregularity,rail
+Not Elsewhere Classified,rail
+Proceed Authority Exceeded,rail
+Railway network security,rail
+Rolling stock Irregularity,rail
+Runaway,rail
+Safeworking Rule or Procedure Breach,rail
+Signalling And Other Proceed Authority System Irregularities,rail
+Signals Passed at Danger,rail
+"Slip, Trip or Fall",rail
+Track and Civil Infrastructure Irregularity,rail
+Train Warning and Enforcement System Irregularity,rail
+Trespasser,rail
+Wrong Side Failure,rail

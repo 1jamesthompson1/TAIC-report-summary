@@ -89,28 +89,33 @@ def gather(output_dir, config, refresh):
         refresh,
     )
 
-    WebsiteScraping.ATSBSafetyIssueScraper(
+    ATSB_si_scraper = WebsiteScraping.ATSBSafetyIssueScraper(
         os.path.join(
             output_dir, output_config.get("atsb_website_safety_issues_file_name")
         ),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         refresh,
     )
 
-    WebsiteScraping.TSBRecommendationsScraper(
+    ATSB_si_scraper.extract_safety_issues_from_website()
+
+    TSB_recs_scraper = WebsiteScraping.TSBRecommendationsScraper(
         os.path.join(
             output_dir, output_config.get("tsb_website_recommendations_file_name")
         ),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         refresh,
     )
+    TSB_recs_scraper.extract_recommendations_from_website()
 
-    WebsiteScraping.TAICRecommendationsScraper(
+    TAIC_recs_scraper = WebsiteScraping.TAICRecommendationsScraper(
         os.path.join(
             output_dir, output_config.get("taic_website_recommendations_file_name")
         ),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         refresh,
     )
+    TAIC_recs_scraper.extract_recommendations_from_website()
 
 
 def extract(output_dir, config, refresh):
@@ -121,49 +126,95 @@ def extract(output_dir, config, refresh):
         refresh,
     )
 
-    report_extractor.extract_important_text_from_reports(
-        os.path.join(output_dir, output_config.get("important_text_df_file_name"))
+    report_extractor.extract_table_of_contents_from_reports(
+        os.path.join(output_dir, output_config.get("toc_df_file_name"))
     )
 
     report_extractor.extract_safety_issues_from_reports(
-        os.path.join(output_dir, output_config.get("important_text_df_file_name")),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
+        os.path.join(
+            output_dir, output_config.get("atsb_website_safety_issues_file_name")
+        ),
         os.path.join(output_dir, output_config.get("safety_issues_df_file_name")),
+    )
+
+    report_extractor.extract_recommendations(
+        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
+        os.path.join(
+            output_dir, output_config.get("tsb_website_recommendations_file_name")
+        ),
+        os.path.join(
+            output_dir, output_config.get("taic_website_recommendations_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
     )
 
     report_extractor.extract_sections_from_text(
         15, os.path.join(output_dir, output_config.get("report_sections_df_file_name"))
     )
 
-    report_extractor.extract_recommendations_from_reports(
-        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
-        os.path.join(
-            output_dir, output_config.get("tsb_website_recommendation_file_name")
-        ),
-        os.path.join(
-            output_dir, output_config.get("taic_website_recommendations_file_name")
-        ),
-    )
-
     ReportTypeAssignment.ReportTypeAssigner(
         os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
         os.path.join(output_dir, output_config.get("report_event_types_df_file_name")),
     ).assign_report_types()
+
+    print(
+        f"Merging all dataframes into {output_config.get('extracted_reports_df_file_name')}"
+    )
 
     # Merge all of the dataframes into one extracted dataframe
     dataframes = [
         pd.read_pickle(os.path.join(output_dir, file_name)).set_index("report_id")
         for file_name in [
             output_config.get("parsed_reports_df_file_name"),
-            output_config.get("important_text_df_file_name"),
-            output_config.get("safety_issues_df_file_name"),
+            output_config.get("toc_df_file_name"),
             output_config.get("report_sections_df_file_name"),
-            output_config.get("recommendations_df_file_name"),
             output_config.get("report_event_types_df_file_name"),
+            output_config.get("recommendations_df_file_name"),
+            output_config.get("safety_issues_df_file_name"),
         ]
     ]
 
+    dataframes[-2].rename(
+        columns={
+            "important_text": "important_text_recommendation",
+            "pages_read": "pages_read_recommendation",
+        },
+        inplace=True,
+    )
+    dataframes[-1].rename(
+        columns={
+            "important_text": "important_text_safety_issue",
+            "pages_read": "pages_read_safety_issue",
+        },
+        inplace=True,
+    )
+
     combined_df = dataframes[0].join(dataframes[1:], how="outer")
+
+    # Adding agency_id and url
+    report_titles = pd.read_pickle(
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name"))
+    )
+    combined_df = combined_df.merge(
+        report_titles[["report_id", "agency_id", "url"]], how="left", on="report_id"
+    )
+
+    # Add metadata columns
+
+    combined_df["year"] = [
+        int(x.split("_")[2]) if "_" in x else None for x in combined_df["report_id"]
+    ]
+    combined_df["mode"] = combined_df["report_id"].map(
+        lambda x: str(Modes.get_report_mode_from_id(x).value) if "_" in x else None
+    )
+
+    combined_df["agency"] = [
+        (x.split("_")[0] if "_" in x else None) for x in combined_df["report_id"]
+    ]
 
     combined_df.to_pickle(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name"))
@@ -186,10 +237,6 @@ def analyze(output_dir, config, refresh):
         os.path.join(
             output_dir,
             output_config.get("recommendation_response_classification_df_file_name"),
-        ),
-        (
-            config.get("download").get("start_year"),
-            config.get("download").get("end_year"),
         ),
     )
 
@@ -224,10 +271,10 @@ def analyze(output_dir, config, refresh):
                 ),
             ),
             (
-                "important_text",
-                "important_text",
+                "text",
+                "text",
                 os.path.join(
-                    embedding_folder, embeddings_config.get("important_text_file_name")
+                    embedding_folder, embeddings_config.get("report_text_file_name")
                 ),
             ),
         ],

@@ -38,7 +38,7 @@ class ReportScraperSettings:
 
 
 class WebsiteScraper:
-    def __init__(self):
+    def __init__(self, report_titles_file_path):
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
             "Accept-Language": "en-US,en;q=0.9",
@@ -46,6 +46,30 @@ class WebsiteScraper:
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
             "Connection": "keep-alive",
         }
+
+        if os.path.exists(report_titles_file_path):
+            report_titles_df = pd.read_pickle(report_titles_file_path)
+        else:
+            raise ValueError(f"{report_titles_file_path} does not exist")
+        self.id_dict = {
+            agency: {
+                agency_id: report_id
+                for report_id, agency_id in ids[["report_id", "agency_id"]].values
+            }
+            for agency, ids in report_titles_df.assign(
+                agency=report_titles_df["report_id"].map(lambda x: x.split("_")[0])
+            ).groupby("agency")
+        }
+
+    def id_converter(self, agency, agency_id):
+        """
+        This uses the COMPLETE report titles dataframe and creates a dictionary of agency_id:report_id.
+        The agency argument is needed as some of the agency ids are not globally unique but instead just unique within an agency.
+        """
+        if agency not in self.id_dict:
+            raise ValueError(f"{agency} is not a valid agency")
+        else:
+            return self.id_dict[agency].get(agency_id)
 
 
 class ReportScraper(WebsiteScraper):
@@ -58,7 +82,6 @@ class ReportScraper(WebsiteScraper):
         self,
         settings: ReportScraperSettings,
     ):
-        super().__init__()
         self.settings = settings
         if os.path.exists(self.settings.report_titles_file_path):
             self.report_titles_df = pd.read_pickle(
@@ -76,6 +99,7 @@ class ReportScraper(WebsiteScraper):
                     "agency_id",
                 ]
             )
+        super().__init__(self.settings.report_titles_file_path)
 
         # Create a folder to store the downloaded PDFs
         os.makedirs(self.settings.report_dir, exist_ok=True)
@@ -158,7 +182,7 @@ class ReportScraper(WebsiteScraper):
 
         if not self.settings.refresh and (
             os.path.exists(file_name)
-            or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
+            and self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
         ):
             if pbar:
                 pbar.set_description(f"  {file_name} already exists, skipping download")
@@ -195,7 +219,10 @@ class ReportScraper(WebsiteScraper):
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
 
-        outcome = self.download_report(report_id, file_name, soup, base_url, pbar)
+        outcome = False
+        if not os.path.exists(file_name):
+            outcome = self.download_report(report_id, file_name, soup, base_url, pbar)
+
         if self.report_titles_df.query("report_id == @report_id").empty:
             report_id, title, event_type, investigation_type, agency_id, misc = (
                 self.get_report_metadata(report_id, soup, pbar)
@@ -210,9 +237,7 @@ class ReportScraper(WebsiteScraper):
                 agency_id=agency_id,
             )
 
-        if not outcome:
-            return False
-        return True
+        return outcome
 
     def download_report(
         self,
@@ -275,8 +300,8 @@ class ReportScraper(WebsiteScraper):
                 if pbar:
                     pbar.set_description(f"  Downloaded {file_name}")
         except (
-            hrequests.exceptions.BrowserTimeoutException
-            or hrequests.exceptions.ClientException
+            hrequests.exceptions.BrowserTimeoutException,
+            hrequests.exceptions.ClientException,
         ):
             os.remove(file_name)
             if pbar:
@@ -365,11 +390,9 @@ class TAICReportScraper(ReportScraper):
             inplace=True,
         )
 
-        investigations["Published Date"] = pd.to_datetime(
-            investigations["Published Date"], errors="coerce", format="%d %b %Y"
+        investigations["year"] = investigations["Number and name"].map(
+            lambda x: int(re.search(r"-(\d{4})-", x).group(1))
         )
-
-        investigations["year"] = investigations["Published Date"].dt.year
 
         investigations["id"] = investigations["Number and name"].map(
             lambda x: re.search(r"(?:[MAR]O-\d{4}-)\d{3}", x).group(0)
@@ -713,8 +736,10 @@ class TSBReportScraper(ReportScraper):
 
 
 class ATSBSafetyIssueScraper(WebsiteScraper):
-    def __init__(self, output_file_path: str, refresh: bool = False):
-        super().__init__()
+    def __init__(
+        self, output_file_path: str, report_titles_file_path, refresh: bool = False
+    ):
+        super().__init__(report_titles_file_path)
         self.output_file_path = output_file_path
         self.refresh = refresh
 
@@ -722,9 +747,27 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
         if os.path.exists(self.output_file_path) and not self.refresh:
             safety_issues_df = pd.read_pickle(self.output_file_path)
         else:
-            safety_issues_df = pd.DataFrame(columns=["safety_issue_id", "safety_issue"])
+            safety_issues_df = pd.DataFrame(columns=["report_id", "safety_issues"])
 
         base_url = "https://www.atsb.gov.au/safety-issues-and-actions?field_issue_number_value={mode}O&page={page}"
+        if len(safety_issues_df["safety_issues"]) > 0:
+            widened_safety_issues_df = pd.concat(
+                safety_issues_df["safety_issues"].tolist()
+            )
+        else:
+            widened_safety_issues_df = pd.DataFrame(
+                columns=["safety_issue_id", "safety_issue", "quality"]
+            )
+
+        print(
+            "-------------------------- Scraping safety issues from ATSB ----------------------"
+        )
+        print(f"     Output file: {self.output_file_path}")
+        print(f"     Currently have {widened_safety_issues_df.shape[0]} safety issues")
+        print(f"     Spread across {len(safety_issues_df)} reports")
+        print(
+            "----------------------------------------------------------------------------------"
+        )
 
         for mode in (pbar := tqdm(["A", "R", "M"])):
             current_page = 0
@@ -782,7 +825,9 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
                 )
 
                 new_safety_issues = table[
-                    ~table["safety_issue_id"].isin(safety_issues_df["safety_issue_id"])
+                    ~table["safety_issue_id"].isin(
+                        widened_safety_issues_df["safety_issue_id"]
+                    )
                 ]
 
                 if new_safety_issues.empty:
@@ -791,67 +836,50 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
                     )
                     break
 
-                safety_issues_df = pd.concat(
-                    [safety_issues_df, new_safety_issues], ignore_index=True
+                widened_safety_issues_df = pd.concat(
+                    [widened_safety_issues_df, new_safety_issues], ignore_index=True
                 )
 
                 current_page += 1
 
-        safety_issues_df = safety_issues_df.drop_duplicates(subset=["safety_issue_id"])
+        widened_safety_issues_df = widened_safety_issues_df.drop_duplicates(
+            subset=["safety_issue_id"]
+        )
 
-        safety_issues_df["report_id"] = safety_issues_df["safety_issue_id"].map(
-            lambda x: re.sub(
-                r"([AMR])O",
-                lambda m: m.group(1).lower(),
-                "_".join(re.split(r"[_-]", x)[:4]),
+        widened_safety_issues_df["report_id"] = (
+            widened_safety_issues_df["safety_issue_id"]
+            .map(lambda x: "-".join(x.split("_")[1].split("-")[0:3]))
+            .map(
+                lambda x: self.id_converter("ATSB", x)
+                if self.id_converter("ATSB", x)
+                else f"Unmatched ({x})"
             )
         )
-        safety_issues_df["quality"] = "exact"
-        safety_issues_df = safety_issues_df[
+        widened_safety_issues_df["quality"] = "exact"
+        widened_safety_issues_df = widened_safety_issues_df[
             ["report_id", "safety_issue_id", "safety_issue", "quality"]
         ]
 
-        def to_df(group):
-            return pd.DataFrame(
-                {
-                    "safety_issue_id": group["safety_issue_id"].tolist(),
-                    "safety_issue": group["safety_issue"].tolist(),
-                    "quality": group["quality"].tolist(),
-                }
-            )
+        print(f"  Now there are {widened_safety_issues_df.shape[0]} safety issues")
 
-        compact_df = safety_issues_df.groupby("report_id").apply(to_df)
-
+        grouped = widened_safety_issues_df.groupby("report_id")
         formatted_df = pd.DataFrame(
             {
-                "report_id": compact_df.index.get_level_values(0).unique(),
-                "safety_issues": [
-                    compact_df.loc[id]
-                    for id in compact_df.index.get_level_values(0).unique()
-                ],
+                "report_id": grouped.groups.keys(),
+                "safety_issues": [group.reset_index(drop=True) for _, group in grouped],
             }
         )
+
+        print(f"  Spread across {formatted_df.shape[0]} reports")
 
         formatted_df.to_pickle(self.output_file_path)
 
 
 class RecommendationScraper(WebsiteScraper):
     def __init__(self, output_file_path, report_titles_file_path, refresh=False):
-        super().__init__()
+        super().__init__(report_titles_file_path)
 
         self.output_file_path = output_file_path
-
-        if os.path.exists(report_titles_file_path):
-            report_titles_df = pd.read_pickle(report_titles_file_path)
-        else:
-            raise ValueError(f"{report_titles_file_path} does not exist")
-
-        self.id_converter = {
-            agency_id: report_id
-            for report_id, agency_id in report_titles_df[
-                ["report_id", "agency_id"]
-            ].values
-        }
 
         self.refresh = refresh
 
@@ -862,6 +890,24 @@ class RecommendationScraper(WebsiteScraper):
             recommendations_df = pd.DataFrame(columns=["report_id", "recommendations"])
 
         new_recommendations = pd.DataFrame(columns=self.columns)
+
+        print(
+            "------------------------ Scraping recommendations ------------------------"
+        )
+        print(f"    Output directory: {self.output_file_path}")
+        print(f"    Scraping from base url {self.base_url}")
+        print(
+            f"    Currently have {recommendations_df.shape[0]} reports with recommendations"
+        )
+        print(
+            f"    With {recommendations_df['recommendations'].apply(len).sum()} recommendations"
+        )
+        print(
+            "----------------------------------------------------------------------------------"
+        )
+
+        print("  Reading recommendation tables to get recommendations webpages")
+
         for element in (phbar := tqdm(self.loop_iter)):
             phbar.set_description(f"Scraping recommendations for {element}")
 
@@ -897,6 +943,10 @@ class RecommendationScraper(WebsiteScraper):
                 [new_recommendations, table], ignore_index=True
             )
 
+        print(
+            f"  Found {new_recommendations.shape[0]} new recommendations, reading each individual webpage now"
+        )
+
         for i, row in (phbar := tqdm(list(new_recommendations.iterrows()))):
             phbar.set_description(
                 f"Processing recommendation {row['recommendation_id']} from {row['agency_id']} with i:{i}"
@@ -906,10 +956,11 @@ class RecommendationScraper(WebsiteScraper):
                 new_recommendations.at[i, key] = value
 
         new_recommendations["report_id"] = new_recommendations["agency_id"].map(
-            lambda x: self.id_converter.get(x)
+            lambda x: self.id_converter(self.agency, x)
+            if self.id_converter(self.agency, x)
+            else f"Unmatched {self.agency} ({x})"
         )
 
-        print(new_recommendations)
         recommendations_df = pd.concat(
             [
                 recommendations_df,
@@ -919,10 +970,8 @@ class RecommendationScraper(WebsiteScraper):
                             "report_id"
                         ).groups.keys(),
                         "recommendations": [
-                            group.reset_index(drop=True)
-                            for _, group in new_recommendations.groupby(
-                                "report_id"
-                            ).groups
+                            group.reset_index(drop=True).drop("report_id", axis=1)
+                            for _, group in new_recommendations.groupby("report_id")
                         ],
                     }
                 ),
@@ -952,17 +1001,18 @@ class TSBRecommendationsScraper(RecommendationScraper):
             "recommendation_id",
             "recommendation",
             "agency_id",
-            "current_assesment",
+            "current_assessment",
             "status",
             "watchlist",
             "url",
-            "recommendation_text",
             "made",
-            "extra_recommendation_context",
+            "recommendation_context",
         ]
         self.base_url = "https://www.tsb.gc.ca"
 
         self.loop_iter = ["rail", "marine", "aviation"]
+
+        self.agency = "TSB"
 
     def get_url(self, mode):
         return f"{self.base_url}/eng/recommandations-recommendations/{mode}/index.html"
@@ -980,7 +1030,7 @@ class TSBRecommendationsScraper(RecommendationScraper):
         if url is None:
             return {
                 "recommendation": None,
-                "recommendation_date": None,
+                "made": None,
                 "recommendation_context": None,
             }
 
@@ -1018,9 +1068,9 @@ class TSBRecommendationsScraper(RecommendationScraper):
             )
 
         return {
-            "recommendation_text": recommendation,
+            "recommendation": recommendation,
             "made": recommendation_date,
-            "extra_recommendation_context": recommendation_context,
+            "recommendation_context": recommendation_context,
         }
 
     def process_new_table(self, table):
@@ -1042,9 +1092,7 @@ class TSBRecommendationsScraper(RecommendationScraper):
         table = table.map(lambda x: x[0] if isinstance(x, tuple) else x)
 
         table.columns = self.columns[:7]
-        table["recommendation"] = table["recommendation"].map(
-            lambda x: "The TSB recommended that " + x
-        )
+        table.drop("recommendation", axis=1, inplace=True)
         return table
 
 
@@ -1057,13 +1105,14 @@ class TAICRecommendationsScraper(RecommendationScraper):
             "made",
             "agency_id",
             "recipient",
-            "recommendation_text",
+            "recommendation",
             "reply_text",
-            "report_id",
         ]
         self.base_url = "https://www.taic.org.nz"
 
         self.loop_iter = range(300)
+
+        self.agency = "TAIC"
 
     def get_url(self, page):
         return f"{self.base_url}/recommendations?page={page}"
@@ -1114,12 +1163,18 @@ class TAICRecommendationsScraper(RecommendationScraper):
 
         text = soup.find("div", class_="field--name-field-sr-text")
 
-        recommendation_text = list(text.children)[-1].get_text() if text else None
+        recommendation_text = (
+            text.find("div", class_="field__item").get_text() if text else None
+        )
 
         reply_text = soup.find("div", class_="field--name-field-sr-replytext")
-        reply_text = list(reply_text.children)[-1].get_text() if reply_text else None
+        reply_text = (
+            reply_text.find("div", class_="field__item").get_text()
+            if reply_text
+            else None
+        )
 
         return {
-            "recommendation_text": recommendation_text,
+            "recommendation": recommendation_text,
             "reply_text": reply_text,
         }

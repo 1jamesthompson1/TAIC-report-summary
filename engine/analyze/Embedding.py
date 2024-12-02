@@ -13,7 +13,7 @@ class Embedder:
     def __init__(self):
         self.vo = voyageai.Client()
 
-        self.tokenizer = AutoTokenizer.from_pretrained("voyageai/voyage")
+        self.tokenizer = AutoTokenizer.from_pretrained("voyageai/voyage-3")
 
     def tokenize_documents(self, df, document_column_name, tokenization_column_name):
         if tokenization_column_name not in df.columns:
@@ -51,7 +51,7 @@ class Embedder:
         token_length_column_name = f"{embedding_column_name}_token_length"
         df = self.tokenize_documents(df, document_column_name, token_length_column_name)
 
-        df = df.loc[df[token_length_column_name] < 15_000]
+        df = df.loc[df[token_length_column_name] < 30_000]
 
         # check which new columns needs to be computed, i.e
         if embedding_column_name not in df.columns:
@@ -62,12 +62,12 @@ class Embedder:
             return df
 
         tqdm.write(
-            f"There are {len(missing_embeddings)} missing embeddings with {len(df)} number of documents"
+            f"There are {len(missing_embeddings)} missing embeddings with {len(df)} number of documents, total token length {missing_embeddings[token_length_column_name].sum()}"
         )
 
         # Split documents into batches based on max batch size of 120000.
         batches = []
-        for batch_size in reversed(range(1, 25)):
+        for batch_size in reversed(range(1, 100)):
             batches = [
                 missing_embeddings.iloc[i : i + batch_size]
                 for i in range(0, len(missing_embeddings), batch_size)
@@ -77,7 +77,7 @@ class Embedder:
             if (
                 all(
                     [
-                        batch[token_length_column_name].sum() < 110_000
+                        batch[token_length_column_name].sum() < 310_000
                         for batch in batches
                     ]
                 )
@@ -106,6 +106,10 @@ class Embedder:
 
         embeddings = pd.Series(embeddings, index=missing_embeddings.index)
 
+        print(
+            f"  Finished embedding the documents there are {len(embeddings)} embeddings"
+        )
+
         # Update the dataframe with the computed embeddings
         df.loc[missing_embeddings.index, embedding_column_name] = embeddings
 
@@ -115,7 +119,7 @@ class Embedder:
     def embed_batch(self, batch):
         return self.vo.embed(
             texts=batch,
-            model="voyage-large-2-instruct",
+            model="voyage-3",
             input_type="document",
             truncation=False,
         ).embeddings
@@ -149,11 +153,14 @@ class Embedder:
     def process_extracted_reports(self, extracted_df_path, embeddings_config):
         print("==================================================")
         print("---------------  Embedding reports  --------------")
+        print("   Extracted reports: ", extracted_df_path)
+        print(f"   Embeddings {len(embeddings_config)} dataframes")
+        print(
+            f"   Embeddings config: \n{chr(10).join([str(config) for config in embeddings_config])}"
+        )
         print("==================================================")
 
         extracted_df = pd.read_pickle(extracted_df_path)
-        extracted_df["report_id"] = extracted_df.index
-        extracted_df = extracted_df.reset_index(drop=True)
 
         for dataframe_column_name, document_column_name, output_file_path in (
             pbar := tqdm(embeddings_config)
@@ -170,11 +177,24 @@ class Embedder:
                 )
                 dataframe_to_embed = pd.concat(
                     [
-                        df.assign(report_id=report_id, type=type)
-                        for df, report_id, type in zip(
+                        df.assign(
+                            report_id=report_id,
+                            type=type,
+                            mode=mode,
+                            year=year,
+                            agency=agency,
+                            agency_id=agency_id,
+                            url=url,
+                        )
+                        for df, report_id, type, mode, year, agency, agency_id, url in zip(
                             filtered_extracted_df[dataframe_column_name],
                             filtered_extracted_df["report_id"],
                             filtered_extracted_df["type"],
+                            filtered_extracted_df["mode"],
+                            filtered_extracted_df["year"],
+                            filtered_extracted_df["agency"],
+                            filtered_extracted_df["agency_id"],
+                            filtered_extracted_df["url"],
                         )
                     ],
                     ignore_index=True,
@@ -194,8 +214,6 @@ class Embedder:
                         previously_embedded_df.columns
                     )
                 )
-                print(dataframe_to_embed)
-                print(previously_embedded_df)
                 dataframe_to_embed = dataframe_to_embed.merge(
                     previously_embedded_df,
                     on=columns_intersection,
@@ -205,13 +223,16 @@ class Embedder:
                     subset=columns_intersection, inplace=True
                 )
 
-            # Add mode and year to the embeddings
-            dataframe_to_embed["year"] = [
-                int(x.split("_")[0]) for x in dataframe_to_embed["report_id"]
+            # Drop unmatched
+            dataframe_to_embed = dataframe_to_embed[
+                ~dataframe_to_embed["report_id"].str.contains("nmatched")
             ]
-            dataframe_to_embed["mode"] = [
-                int(x.split("_")[1][0]) for x in dataframe_to_embed["report_id"]
-            ]
+
+            # Drop columns that are none
+            dataframe_to_embed = dataframe_to_embed.dropna(
+                subset=[document_column_name]
+            )
+
             self.embed_dataframe(
                 dataframe_to_embed, document_column_name, output_file_path
             )

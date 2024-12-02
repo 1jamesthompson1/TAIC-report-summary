@@ -63,7 +63,9 @@ class RecommendationResponseClassifier:
     {response}
     "
 
-    in regards to recommendation {recommendation_num}
+    in regards to recommendation {recommendation_num}:
+
+    {recommendation}
     """
 
         openai_response = AICaller.query(
@@ -94,7 +96,7 @@ class RecommendationResponseClassificationProcessor:
             "response_category",
         ]
 
-    def process(self, input_path: str, output_path: str, year_ranges):
+    def process(self, input_path: str, output_path: str):
         """
         This will read the DataFrame of recommendations from the data folder and then add a response category column and a response category quality column then save the DataFrame in the output folder.
         """
@@ -113,10 +115,15 @@ class RecommendationResponseClassificationProcessor:
 
         # Load the data
         recommendations_df = pd.read_pickle(input_path)
-
         recommendations_df = pd.concat(
-            list(recommendations_df["recommendations"].dropna()), ignore_index=True
-        )
+            [
+                df.assign(report_id=id)
+                for id, df in recommendations_df[
+                    ["report_id", "recommendations"]
+                ].itertuples(index=False)
+            ],
+            ignore_index=True,
+        ).assign(response_category=None)
 
         # Check to make sure it has all of the required columns
         if not all(
@@ -131,13 +138,10 @@ class RecommendationResponseClassificationProcessor:
                 f"Required column/s {missing_columns} not found in DataFrame given\nPath of DataFrame file: {input_path}\nDataFrame columns: {list(recommendations_df.columns)}"
             )
 
-        start_date = f"{year_ranges[0]}-01-01"
-        end_date = f"{year_ranges[1]}-12-31"
-
-        # Filter out so that it is only within the years specified
-        recommendations_df.query(
-            f"made >= '{start_date}' & made <= '{end_date}'", inplace=True
-        )
+        # Drop without replyText
+        recommendations_df = recommendations_df[
+            recommendations_df["reply_text"].notna()
+        ]
 
         columns = [
             "report_id",
@@ -145,20 +149,17 @@ class RecommendationResponseClassificationProcessor:
             "recipient",
             "made",
             "recommendation",
-            "recommendation_text",
-            "extra_recommendation_context",
+            "recommendation_context",
             "reply_text",
         ]
 
         # Check to see the for previously classified responses
         if os.path.exists(output_path):
             output_df = pd.read_pickle(output_path)
-            merged_df = pd.merge(recommendations_df, output_df, on=columns, how="outer")
-            merged_df = merged_df.drop_duplicates(subset=columns)
-            merged_df.drop(columns=["response_category_x"], inplace=True)
-            merged_df.rename(
-                columns={"response_category_y": "response_category"}, inplace=True
+            merged_df = pd.merge(
+                recommendations_df[columns], output_df, on=columns, how="outer"
             )
+            merged_df = merged_df.drop_duplicates(subset=columns)
         else:
             merged_df = recommendations_df
 

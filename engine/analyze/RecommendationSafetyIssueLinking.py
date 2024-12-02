@@ -10,8 +10,8 @@ from engine.utils.AICaller import AICaller
 
 
 class RecommendationSafetyIssueLinker:
-    def __init__(self):
-        pass
+    def __init__(self, refresh=False):
+        self.refresh = refresh
 
     def _generate_visualization_of_links(self, df, report_id, output_path):
         """
@@ -186,8 +186,8 @@ class RecommendationSafetyIssueLinker:
         print("---------------  Evaluating links   --------------")
         print("==================================================")
 
-        if os.path.exists(output_file_path):
-            links_df = pd.read_pickle(output_file_path)
+        if not self.refresh and os.path.exists(output_file_path):
+            links_df = pd.read_pickle(output_file_path).reset_index(drop=True)
         else:
             links_df = pd.DataFrame(columns=["report_id", "recommendation_links"])
 
@@ -196,26 +196,33 @@ class RecommendationSafetyIssueLinker:
         else:
             raise ValueError(f"{extracted_df_path} does not exist")
 
+        extracted_df = extracted_df[
+            ~extracted_df["report_id"].isin(links_df["report_id"].values)
+        ]
+
         for report_id, recommendations, safety_issues in (
             pbar := tqdm(
-                list(extracted_df[["recommendations", "safety_issues"]].itertuples())
+                list(
+                    extracted_df[
+                        ["report_id", "recommendations", "safety_issues"]
+                    ].itertuples(index=False)
+                )
             )
         ):
+            if (
+                not isinstance(recommendations, pd.DataFrame)
+                or not isinstance(safety_issues, pd.DataFrame)
+                or len(recommendations) == 0
+                or len(safety_issues) == 0
+            ):
+                continue
             pbar.set_description(
                 f"Linking recommendations with safety issues for {report_id}"
             )
 
-            if not isinstance(recommendations, pd.DataFrame) or not isinstance(
-                safety_issues, pd.DataFrame
-            ):
-                continue
-            if report_id in links_df["report_id"].values:
-                continue
-
             report_links = self._evaluate_all_possible_links(
                 recommendations, safety_issues
             )
-            print(report_links)
 
             links_df.loc[len(links_df)] = [report_id, report_links]
 
