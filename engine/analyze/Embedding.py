@@ -8,8 +8,6 @@ from tenacity import retry, wait_random_exponential
 from tqdm import tqdm
 from transformers import AutoTokenizer
 
-import engine.utils.Modes as Modes
-
 
 class Embedder:
     def __init__(self):
@@ -172,11 +170,24 @@ class Embedder:
                 )
                 dataframe_to_embed = pd.concat(
                     [
-                        df.assign(report_id=report_id, type=type)
-                        for df, report_id, type in zip(
+                        df.assign(
+                            report_id=report_id,
+                            type=type,
+                            mode=mode,
+                            year=year,
+                            agency=agency,
+                            agency_id=agency_id,
+                            url=url,
+                        )
+                        for df, report_id, type, mode, year, agency, agency_id, url in zip(
                             filtered_extracted_df[dataframe_column_name],
                             filtered_extracted_df["report_id"],
                             filtered_extracted_df["type"],
+                            filtered_extracted_df["mode"],
+                            filtered_extracted_df["year"],
+                            filtered_extracted_df["agency"],
+                            filtered_extracted_df["agency_id"],
+                            filtered_extracted_df["url"],
                         )
                     ],
                     ignore_index=True,
@@ -210,18 +221,6 @@ class Embedder:
             # Drop unmatched
             dataframe_to_embed = dataframe_to_embed[
                 ~dataframe_to_embed["report_id"].str.contains("nmatched")
-            ]
-
-            # Add mode and year to the embeddings
-            dataframe_to_embed["year"] = [
-                int(x.split("_")[2]) for x in dataframe_to_embed["report_id"]
-            ]
-            dataframe_to_embed["mode"] = dataframe_to_embed["report_id"].map(
-                lambda x: Modes.get_report_mode_from_id(x).value
-            )
-
-            dataframe_to_embed["agency"] = [
-                x.split("_")[0] for x in dataframe_to_embed["report_id"]
             ]
 
             # Drop columns that are none

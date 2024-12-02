@@ -117,6 +117,8 @@ class EngineOutputUploader(EngineOutputManager):
                     "mode",
                     "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="safety_issue"),
             report_sections_embeddings[
@@ -129,6 +131,8 @@ class EngineOutputUploader(EngineOutputManager):
                     "mode",
                     "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="report_section"),
             recommendation_embeddings[
@@ -141,6 +145,8 @@ class EngineOutputUploader(EngineOutputManager):
                     "mode",
                     "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="recommendation"),
             report_text_embeddings[
@@ -153,6 +159,8 @@ class EngineOutputUploader(EngineOutputManager):
                     "mode",
                     "agency",
                     "type",
+                    "agency_id",
+                    "url",
                 ]
             ].assign(document_type="important_text"),
         ]
@@ -168,6 +176,8 @@ class EngineOutputUploader(EngineOutputManager):
                     "mode",
                     "agency",
                     "type",
+                    "agency_id",
+                    "url",
                     "document_type",
                 ],
                 axis=1,
@@ -205,6 +215,8 @@ class EngineOutputUploader(EngineOutputManager):
                 ("mode", pa.string()),
                 ("agency", pa.string()),
                 ("type", pa.string()),
+                ("agency_id", pa.string()),
+                ("url", pa.string()),
                 ("document_type", pa.string()),
             ]
         )

@@ -195,6 +195,27 @@ def extract(output_dir, config, refresh):
 
     combined_df = dataframes[0].join(dataframes[1:], how="outer")
 
+    # Adding agency_id and url
+    report_titles = pd.read_pickle(
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name"))
+    )
+    combined_df = combined_df.merge(
+        report_titles[["report_id", "agency_id", "url"]], how="left", on="report_id"
+    )
+
+    # Add metadata columns
+
+    combined_df["year"] = [
+        int(x.split("_")[2]) if "_" in x else None for x in combined_df["report_id"]
+    ]
+    combined_df["mode"] = combined_df["report_id"].map(
+        lambda x: str(Modes.get_report_mode_from_id(x).value) if "_" in x else None
+    )
+
+    combined_df["agency"] = [
+        (x.split("_")[0] if "_" in x else None) for x in combined_df["report_id"]
+    ]
+
     combined_df.to_pickle(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name"))
     )
