@@ -221,8 +221,8 @@ and emergency drills, which according to the operator's (DW New Zealand Limited 
 maritime transport operator plan14 were scheduled to happen four times each year.  
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "TAIC_a_2020_001", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 1
         assert (
             safety_issues[0]["safety_issue"]
@@ -289,8 +289,8 @@ Maritime Rules.
 Fisheries Act) are required  to meet applicable design , construction and equipment rules 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "TAIC_a_2020_001", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 2
         assert [safety_issue["safety_issue"] for safety_issue in safety_issues] == [
             "Some aspects of the crew response to the fire did not follow industry good practice.",
@@ -315,8 +315,8 @@ locomotive  and train brake handles correctly before vacating a cab and relocati
 at the other end.    
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "TAIC_a_2020_001", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 1
         assert (
             safety_issues[0]["safety_issue"]
@@ -392,8 +392,8 @@ skills and practices form a significant component of what has become known as no
 skills in other transport modes.
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "TAIC_a_2020_001", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 2
         assert [s["safety_issue"] for s in safety_issues] == [
             "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons.",
@@ -421,8 +421,8 @@ followed,  arriving at 'Is treatment  suitable given constraints? ' This step re
 joint SFAIRP assessment  between KiwiRail and the Council . 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "TAIC_a_2020_001", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 1
         assert (
             safety_issues[0]["safety_issue"]
@@ -1236,17 +1236,17 @@ class TestRecommendationExtraction:
         [
             pytest.param(
                 "ATSB_a_2003_980",
-                [26, 28],
+                [(26, 28)],
                 id="ATSB_a_2003_980",
             ),
             pytest.param(
                 "ATSB_m_2006_234",
-                [19, 21],
+                [(19, 21)],
                 id="ATSB_m_2006_234",
             ),
             pytest.param(
                 "ATSB_r_2004_004",
-                [23, 25],
+                [(23, 25)],
                 id="ATSB_r_2004_004",
             ),
             pytest.param(
@@ -1256,17 +1256,17 @@ class TestRecommendationExtraction:
             ),
             pytest.param(
                 "ATSB_r_2014_024",
-                [12, 14],
+                [(12, 14)],
                 id="ATSB_r_2014_024",
             ),
             pytest.param(
                 "ATSB_a_2002_710",
-                [36, 36],
+                [(36, 36)],
                 id="ATSB_a_2002_710 (Safety section is last section)",
             ),
             pytest.param(
                 "ATSB_m_2001_163",
-                [21, 23],
+                [(21, 23)],
                 id="ATSB_m_2001_163 (No safety action section)",
             ),
         ],
@@ -1315,7 +1315,7 @@ class TestRecommendationExtraction:
         report_data = self.test_data.loc[report_id]
 
         extractor = RecommendationsExtractor(
-            report_data["text"], report_id, report_data["headers"]
+            report_data["text"], report_id, report_data["toc"]
         )
 
         extracted_recommendations = extractor._extract_recommendations_from_text(
@@ -1360,20 +1360,15 @@ class TestRecommendationExtraction:
         ],
     )
     def test_complete_process(self, report_id, expected):
-        report_data = pd.read_pickle(
-            os.path.join(
-                pytest.output_config["folder_name"],
-                pytest.output_config["parsed_reports_df_file_name"],
-            )
-        ).loc[report_id]
+        report_data = self.test_data.loc[report_id]
 
         extractor = RecommendationsExtractor(
-            report_data["text"], report_id, report_data["headers"]
+            report_data["text"], report_id, report_data["toc"]
         )
 
-        extracted_recommendations = extractor.extract_recommendations()
+        extracted_recommendations, _, _ = extractor.extract_recommendations()
 
         if expected == 0:
-            assert extracted_recommendations is None
+            assert len(extracted_recommendations) == 0
         else:
             assert len(extracted_recommendations) == expected

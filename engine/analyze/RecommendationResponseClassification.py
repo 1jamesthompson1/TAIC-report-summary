@@ -118,9 +118,9 @@ class RecommendationResponseClassificationProcessor:
         recommendations_df = pd.concat(
             [
                 df.assign(report_id=id)
-                for id, df in recommendations_df[
-                    ["report_id", "recommendations"]
-                ].itertuples(index=False)
+                for id, df in recommendations_df[["report_id", "recommendations"]]
+                .dropna()
+                .itertuples(index=False)
             ],
             ignore_index=True,
         ).assign(response_category=None)

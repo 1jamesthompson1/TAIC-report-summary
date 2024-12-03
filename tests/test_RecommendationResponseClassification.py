@@ -51,10 +51,6 @@ def test_classification_process(tmpdir):
             pytest.output_config["folder_name"],
             pytest.output_config["extracted_reports_df_file_name"],
         ),
-        os.path.join(
-            pytest.output_config["folder_name"],
-            pytest.output_config["recommendation_response_classification_df_file_name"],
-        ),
     ]:
         output = tmpdir.join("response_classification_temp.pkl")
         perform_test(path_name, output)
@@ -62,7 +58,7 @@ def test_classification_process(tmpdir):
 
 def perform_test(input, output):
     RecommendationResponseClassification.RecommendationResponseClassificationProcessor().process(
-        input, output, [2000, 2020]
+        input, output
     )
 
     assert os.path.exists(output)

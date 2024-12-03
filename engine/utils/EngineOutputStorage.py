@@ -92,7 +92,7 @@ class EngineOutputUploader(EngineOutputManager):
                 pbar.set_description(f"Uploading {file_path} to {uploaded_file_name}")
                 self._upload_file(file_path, uploaded_file_name)
 
-    def _upload_embeddings(self):
+    def _upload_embeddings(self, sample_frac=1):
         report_sections_embeddings = pd.read_pickle(
             self.report_sections_embeddings_path
         ).rename(columns={"section_embedding": "vector"})
@@ -200,7 +200,13 @@ class EngineOutputUploader(EngineOutputManager):
         )
 
         # Converting to pyarrow first as it was having troubles giving a large pd.DataFrame directly
-        all_document_types = pa.Table.from_pandas(all_document_types)
+        all_document_types = pa.Table.from_pandas(
+            all_document_types
+            if sample_frac == 1
+            else all_document_types.sample(
+                frac=sample_frac, random_state=42, ignore_index=True
+            )
+        )
 
         schema = pa.schema(
             [

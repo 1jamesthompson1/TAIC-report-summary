@@ -32,6 +32,9 @@ class ReportTypeAssigner:
 
         if os.path.exists(report_event_type_df_path):
             self.all_event_types = pd.read_pickle(report_event_type_df_path)
+            self.all_event_types["mode"] = self.all_event_types["mode"].map(
+                lambda x: Modes.Mode[x[0]]
+            )
             self.all_event_types.set_index("mode", inplace=True, drop=True)
         else:
             raise ValueError(f"{report_event_type_df_path} does not exist")
@@ -83,9 +86,7 @@ class ReportTypeAssigner:
         combined_df[["report_id", "type", "title"]].to_pickle(self.report_types_df_path)
 
     def process_report(self, index, report_id, report_title, event_type):
-        report_mode = Modes.Mode.as_string(
-            Modes.get_report_mode_from_id(report_id)
-        ).lower()
+        report_mode = Modes.get_report_mode_from_id(report_id)
         if event_type in self.all_event_types.loc[report_mode]["Value"].to_list():
             return index, event_type
         assigned_event_type = self.assign_report_type(

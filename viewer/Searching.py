@@ -96,6 +96,7 @@ class SearchSettings:
             year_range=(int(data["setting_min_year"]), int(data["setting_max_year"])),
             document_types=literal_eval(data["setting_document_types"]),
             relevanceCutoff=float(data["setting_relevanceCutoff"]),
+            agencies=literal_eval(data["setting_agencies"]),
         )
 
 
@@ -460,7 +461,7 @@ class SearchEngineSearcher:
             results = (
                 table.search(self.query[1:-1], query_type="fts")
                 .limit(limit)
-                .where(filter, prefilter=True)
+                .where(filter)
                 .to_pandas()
             )
             results.rename(columns={"_score": "section_relevance_score"}, inplace=True)
@@ -492,7 +493,7 @@ class SearchEngineSearcher:
                 else f"document_type = '{self.settings.getDocumentTypes()[0]}'",
                 f"mode IN {tuple([str(mode.value) for mode in self.settings.getModes()])}"
                 if len(self.settings.getModes()) > 1
-                else f"mode = {str(self.settings.getModes()[0].value)}",
+                else f"mode = '{str(self.settings.getModes()[0].value)}'",
                 f"agency IN {tuple(self.settings.getAgencies())}"
                 if len(self.settings.getAgencies()) > 1
                 else f"agency = '{self.settings.getAgencies()[0]}'",
@@ -501,8 +502,8 @@ class SearchEngineSearcher:
         if self.search_obj.getSearchType() == "none":
             return (
                 self.vector_db_table.search()
-                .limit(None)
                 .where(where_statement, prefilter=True)
+                .limit(1_000_000)
                 .to_pandas()
                 .assign(section_relevance_score=0)
             )

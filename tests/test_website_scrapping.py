@@ -12,7 +12,7 @@ import engine.utils.Modes as Modes
 def report_scraping_settings(tmpdir):
     return WebsiteScraping.ReportScraperSettings(
         os.path.join(tmpdir, "report_folder"),
-        os.path.join(tmpdir, "report_titles_df.pkl"),
+        os.path.join(pytest.output_config["folder_name"], "report_titles.pkl"),
         "{{report_id}}.pdf",
         2005,
         2015,
@@ -156,8 +156,14 @@ def test_agency_website_scraper_collecting_all_reports(
 
 def test_ATSB_safety_issue_scrape(tmpdir):
     output_path = os.path.join(tmpdir, "test_ATSB_safety_issue_scrape.pkl")
+    report_titles = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["report_titles_df_file_name"],
+    )
     atsb_webscraper = WebsiteScraping.ATSBSafetyIssueScraper(
-        output_file_path=output_path, refresh=True
+        output_file_path=output_path,
+        report_titles_file_path=report_titles,
+        refresh=True,
     )
 
     atsb_webscraper.extract_safety_issues_from_website()

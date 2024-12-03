@@ -61,15 +61,18 @@ def test_form_submit(client):
             "includeModeRail": "on",
             "includeModeMarine": "on",
             "yearSlider-min": "2000",
-            "yearSlider-max": "2024",
-            "relevanceCutoff": "0.5",
+            "yearSlider-max": "2025",
+            "relevanceCutoff": "0.0",
             "includeSafetyIssues": "on",
             "includeRecommendations": "on",
             "includeReportSection": "on",
+            "includeTAIC": "on",
+            "includeATSB": "on",
+            "includeTSB": "on",
         },
     )
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
-    assert df.shape[0] == 5926
+    assert df.shape[0] == 2796
 
 
 def test_form_submit_filtered(client):
@@ -85,6 +88,8 @@ def test_form_submit_filtered(client):
             "includeSafetyIssues": "on",
             "includeRecommendations": "on",
             "includeReportSection": "on",
+            "includeATSB": "on",
+            "includeTSB": "on",
         },
     )
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
@@ -102,6 +107,7 @@ def test_form_submit_no_results(client):
             "yearSlider-max": "1924",
             "relevanceCutoff": "0.5",
             "includeSafetyIssues": "on",
+            "includeTAIC": "on",
         },
     )
     print(rv)
@@ -117,8 +123,10 @@ def test_form_with_query(client):
             "includeModeAviation": "on",
             "yearSlider-min": "2000",
             "yearSlider-max": "2024",
-            "relevanceCutoff": "0.6",
+            "relevanceCutoff": "0.3 ",
             "includeSafetyIssues": "on",
+            "includeTAIC": "on",
+            "includeATSB": "on",
         },
     )
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
@@ -136,6 +144,7 @@ def test_form_with_fts_with_results(client):
             "yearSlider-max": "2024",
             "relevanceCutoff": "0.6",
             "includeSafetyIssues": "on",
+            "includeTAIC": "on",
         },
     )
 
@@ -153,6 +162,7 @@ def test_form_with_fts_no_results(client):
             "yearSlider-max": "2024",
             "relevanceCutoff": "0.6",
             "includeSafetyIssues": "on",
+            "includeTSB": "on",
         },
     )
 

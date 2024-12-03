@@ -11,7 +11,7 @@ openai_client = openai.OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
 )
 
-anthropic_client = anthropic.Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
+anthropic_client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 
 class BaseAICaller:
