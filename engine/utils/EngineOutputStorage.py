@@ -231,7 +231,14 @@ class EngineOutputUploader(EngineOutputManager):
 
         print("created vector db")
 
-        table.create_fts_index("document", use_tantivy=False)
+        table.create_fts_index(
+            "document",
+            use_tantivy=False,
+            language="English",
+            stem=True,
+            ascii_folding=True,
+            replace=True,
+        )
 
         print("created fts index")
 
