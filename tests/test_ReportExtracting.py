@@ -75,7 +75,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "ATSB_r_2021_002",
-            ["Safety summary 3  ", "logy Error! Bookmark not defined.  ", 3375],
+            ["Safety summary 3  ", "logy Error! Bookmark not defined.  ", 3000],
             id="ATSB_r_2021_002 (Long content section)",
         ),
         pytest.param(

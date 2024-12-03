@@ -139,6 +139,8 @@ class Embedder:
                 f"Invalid input type: {type(input)} It should be either str or pd.DataFrame"
             )
 
+        print(f"Looking at: {df.columns}")
+
         embedded_df = self.embed_documents(
             df,
             self.embed_batch,

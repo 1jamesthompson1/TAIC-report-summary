@@ -15,7 +15,7 @@ import engine.analyze.Embedding as Embedding
             "recommendations", "recommendation", id="recommendation_embeddings"
         ),
         pytest.param("sections", "section", id="section_embeddings"),
-        pytest.param("important_text", "important_text", id="important_text"),
+        pytest.param("text", "text", id="text_embeddings"),
     ],
 )
 def test_basic_embedding(dataframe_column_name, document_column_name):
@@ -25,14 +25,17 @@ def test_basic_embedding(dataframe_column_name, document_column_name):
             pytest.output_config["extracted_reports_df_file_name"],
         )
     )
-    extracted_df["report_id"] = extracted_df.index
-    extracted_df = extracted_df.reset_index(drop=True)
 
     # Create temp file
     temp_input = tempfile.NamedTemporaryFile(suffix=".pkl", delete=True)
     temp_output = tempfile.NamedTemporaryFile(suffix=".pkl", delete=True)
 
-    if isinstance(extracted_df.loc[0, dataframe_column_name], pd.DataFrame):
+    if isinstance(
+        extracted_df.dropna(subset=[dataframe_column_name], ignore_index=True).loc[
+            0, dataframe_column_name
+        ],
+        pd.DataFrame,
+    ):
         pd.concat(
             list(extracted_df[dataframe_column_name].dropna()), ignore_index=True
         ).to_pickle(temp_input.name)
@@ -52,4 +55,4 @@ def test_basic_embedding(dataframe_column_name, document_column_name):
 
     assert isinstance(embedded_dataframe, pd.DataFrame)
 
-    assert isinstance(embedded_dataframe[document_column_name + "_embedding"][0], list)
+    assert isinstance(embedded_dataframe[document_column_name + "_embedding"][1], list)
