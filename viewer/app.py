@@ -184,8 +184,6 @@ def task_status(task_id):
     result = tasks_results.get(task_id, {})
     if status == "completed":
         session["search_results"] = result
-        print("returning complete")
-
     print(f"Task status: '{status}'")
     jsonified = jsonify({"task_id": task_id, "status": status, "result": result})
     return jsonified
