@@ -211,34 +211,54 @@ class ReportExtractor:
 You are a helpful assistant. You will just respond with the answer no need to explain.
 Can you please format this table of contents? Please include in the format the section number (if it has one) the section title and section page number. Make sure to include all of the pages the the table of contents has even it they are roman numerals.
 
-It should go like this:
+Your output table of contents should look like this:
 [Section number*] - [Section title] [Page number]
 
 *Section numbers are optional. They should only be included if they are present in the original table of contents.
-You should not include the figures or tables section of the table of contents. However appendices should be included.
+Figures and table list should be omitted but appendices should be included.
 
-Example output
+Example output:
 Executive summary i
 1 - Introduction 1
 2 - Narrative 2
 3.0 - Analysis 4
 3.1 - Introduction 4
 3.2 - Why did the cylinder burst 6
-3.2.1 - Bad construction 6
-3.2.2 - Maintenance 8
+      - Bad construction 6
+      - Maintenance 8
 3.3 - Emergency response 10
 4.0 Findings 12
    - Important 12
    - Incidental 13
 5.0 Safety actions 14
 
+Example output:
+Executive summary i
+- The occurrence 1
+- Context 3
+  - Aircraft information 3
+  - Component history 7
+  - Related occurrences 10
+    - R22 crashes 12
+    - R44 crashes 13
+- Safety analysis 15
+  - Failure sequence 16
+  - Tail rotor tip cap adhesive 17
+- Findings 18
+  - Contributing factors 18
+- Safety issues 19
+- General details 20
+- Australian Transport Safety Bureau 21
+  - About the ATSB 21
+  - Purpose of safety investigations 22
+  - Terminology 22
 """,
             user=f"""
 {raw_content_section}
 """,
             temp=0,
             max_tokens=16_000,
-            model="gpt-4o-mini",
+            model="gpt-4",
         )
 
         cleaned_content_section = cleaned_content_section.replace("```", "").strip("\n")
@@ -986,7 +1006,7 @@ There is no need to enclose the yaml in any tags.
             system="""
 You are helping me read the content sections of a report.
 
-Can you please find the starting and end sections of the recommendations or safety actions section. The end of it is the same as the start of the next section. Note that generally the page number will be on the right.
+Can you please find the starting and end sections of the recommendations or safety actions section. The end of it is the same as the start of the next section. Note that generally the page number will be on the right. If it is the final section in the report then just return the last page number.
 If neither of these sections exist just return "None". A single page should just be 25,25
 
 Your response should just be 2 numbers for example: 23,26.

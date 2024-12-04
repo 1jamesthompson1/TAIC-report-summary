@@ -24,7 +24,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TAIC_r_2002_122",
-            ["\nAbbreviations iii", "Appendix 1 28", 560],
+            ["\nAbbreviations iii", "Appendix 1 28", 1180],
             id="TAIC_r_2002_122",
         ),
         pytest.param(
@@ -39,7 +39,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "TAIC_r_2019_106",
-            ["1 - Executive summar", "mission reports 19  ", 797],
+            ["1 - Executive summar", "mission reports 19  ", 897],
             id="TAIC_r_2019_106",
         ),
         pytest.param(
@@ -55,12 +55,12 @@ from engine.extract.ReportExtracting import (
         # ATSB reports
         pytest.param(
             "ATSB_m_2000_157",
-            ["\nSummary 1  \nSources of information ", "Appendix 6  30", 619],
+            ["\nSummary 1  \nSources of information ", "Details of ship 33", 619],
             id="ATSB_m_2000_157 (spaces in the dots)",
         ),
         pytest.param(
             "ATSB_a_2007_012",
-            ["i - Table of Contents", " IRS Mode Selector Unit 84  ", 3695],
+            ["i - Table of Contents", "IRS Mode Selector Unit 84", 3695],
             id="ATSB_a_2007_012 (long content section)",
         ),
         pytest.param(
@@ -75,7 +75,7 @@ from engine.extract.ReportExtracting import (
         ),
         pytest.param(
             "ATSB_r_2021_002",
-            ["Safety summary 3  ", "logy Error! Bookmark not defined.  ", 3000],
+            ["Safety summary 3  ", "Submissions 30", 3000],
             id="ATSB_r_2021_002 (Long content section)",
         ),
         pytest.param(
@@ -1266,7 +1266,7 @@ class TestRecommendationExtraction:
             ),
             pytest.param(
                 "ATSB_m_2001_163",
-                [(21, 23)],
+                [(21, 25)],
                 id="ATSB_m_2001_163 (No safety action section)",
             ),
         ],
@@ -1284,6 +1284,7 @@ class TestRecommendationExtraction:
 
         pages = extractor.extract_pages_to_read(content_section)
 
+        print(f"reading {content_section}")
         assert pages == expected
 
     @pytest.mark.parametrize(

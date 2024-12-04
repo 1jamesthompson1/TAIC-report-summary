@@ -631,7 +631,7 @@ class SearchEngineSearcher:
     issues.  
     """,
             user=self._get_rag_prompt(self.search_obj, search_results),
-            model="gpt-4",
+            model="claude-3.5-sonnet",
             temp=0,
             max_tokens=8096,
         )

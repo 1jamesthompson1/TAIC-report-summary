@@ -174,5 +174,7 @@ def test_ATSB_safety_issue_scrape(tmpdir):
 
     required_ids = ["ATSB_MO-2008-013-SI-04", "ATSB_AO-2023-008-SI-01"]
 
+    output_long = pd.concat(output["safety_issues"].dropna().tolist(), axis=0)
+
     for id in required_ids:
-        assert id in output["safety_issue_id"].unique()
+        assert id in output_long["safety_issue_id"].unique()
