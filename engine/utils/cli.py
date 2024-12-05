@@ -24,29 +24,9 @@ def download(container, output_dir):
     downloader.download_latest_output()
 
 
-def gather(output_dir, config, modes, refresh):
+def gather(output_dir, config, refresh):
     output_config = config.get("output")
     download_config = config.get("download")
-
-    # Download the PDFs
-    WebsiteScraping.ReportScraping(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
-        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
-        output_config.get("report_pdf_file_name"),
-        download_config.get("start_year"),
-        download_config.get("end_year"),
-        download_config.get("max_per_year"),
-        modes,
-        download_config.get("ignored_reports"),
-        refresh,
-    ).collect_all()
-
-    # Extract the text from the PDFs
-    PDFParser.convertPDFToText(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
-        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
-        refresh,
-    )
 
     print("Getting all data needed for engine")
 
@@ -56,16 +36,86 @@ def gather(output_dir, config, modes, refresh):
         refresh,
     )
 
-    dataGetter.get_recommendations(
-        config.get("data").get("recommendations_file_name"),
-        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
-    )
     print("Got recommendations")
-    dataGetter.get_event_types(
+    dataGetter.get_generic_data(
         config.get("data").get("event_types_file_name"),
         os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
     )
     print("Got event types")
+
+    dataGetter.get_generic_data(
+        config.get("data").get("atsb_historic_aviation"),
+        os.path.join(
+            output_dir, output_config.get("atsb_historic_aviation_df_file_name")
+        ),
+    )
+    print("Got ATSB historic aviation investigations")
+
+    # Download the PDFs
+    report_scraping_settings = WebsiteScraping.ReportScraperSettings(
+        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        output_config.get("report_pdf_file_name"),
+        download_config.get("start_year"),
+        download_config.get("end_year"),
+        download_config.get("max_per_year"),
+        [Modes.Mode[mode] for mode in download_config.get("modes")],
+        download_config.get("ignored_reports"),
+        refresh,
+    )
+
+    for agency in download_config.get("agencies"):
+        print("Downloading reports for " + agency)
+        match agency:
+            case "TSB":
+                WebsiteScraping.TSBReportScraper(report_scraping_settings).collect_all()
+            case "TAIC":
+                WebsiteScraping.TAICReportScraper(
+                    report_scraping_settings
+                ).collect_all()
+            case "ATSB":
+                WebsiteScraping.ATSBReportScraper(
+                    report_scraping_settings,
+                    os.path.join(
+                        output_dir,
+                        output_config.get("atsb_historic_aviation_df_file_name"),
+                    ),
+                ).collect_all()
+
+    # Extract the text from the PDFs
+    PDFParser.convertPDFToText(
+        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
+        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
+        refresh,
+    )
+
+    ATSB_si_scraper = WebsiteScraping.ATSBSafetyIssueScraper(
+        os.path.join(
+            output_dir, output_config.get("atsb_website_safety_issues_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        refresh,
+    )
+
+    ATSB_si_scraper.extract_safety_issues_from_website()
+
+    TSB_recs_scraper = WebsiteScraping.TSBRecommendationsScraper(
+        os.path.join(
+            output_dir, output_config.get("tsb_website_recommendations_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        refresh,
+    )
+    TSB_recs_scraper.extract_recommendations_from_website()
+
+    TAIC_recs_scraper = WebsiteScraping.TAICRecommendationsScraper(
+        os.path.join(
+            output_dir, output_config.get("taic_website_recommendations_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        refresh,
+    )
+    TAIC_recs_scraper.extract_recommendations_from_website()
 
 
 def extract(output_dir, config, refresh):
@@ -76,13 +126,28 @@ def extract(output_dir, config, refresh):
         refresh,
     )
 
-    report_extractor.extract_important_text_from_reports(
-        os.path.join(output_dir, output_config.get("important_text_df_file_name"))
+    report_extractor.extract_table_of_contents_from_reports(
+        os.path.join(output_dir, output_config.get("toc_df_file_name"))
     )
 
     report_extractor.extract_safety_issues_from_reports(
-        os.path.join(output_dir, output_config.get("important_text_df_file_name")),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
+        os.path.join(
+            output_dir, output_config.get("atsb_website_safety_issues_file_name")
+        ),
         os.path.join(output_dir, output_config.get("safety_issues_df_file_name")),
+    )
+
+    report_extractor.extract_recommendations(
+        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
+        os.path.join(
+            output_dir, output_config.get("tsb_website_recommendations_file_name")
+        ),
+        os.path.join(
+            output_dir, output_config.get("taic_website_recommendations_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
     )
 
     report_extractor.extract_sections_from_text(
@@ -92,23 +157,64 @@ def extract(output_dir, config, refresh):
     ReportTypeAssignment.ReportTypeAssigner(
         os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
         os.path.join(output_dir, output_config.get("report_event_types_df_file_name")),
     ).assign_report_types()
+
+    print(
+        f"Merging all dataframes into {output_config.get('extracted_reports_df_file_name')}"
+    )
 
     # Merge all of the dataframes into one extracted dataframe
     dataframes = [
         pd.read_pickle(os.path.join(output_dir, file_name)).set_index("report_id")
         for file_name in [
             output_config.get("parsed_reports_df_file_name"),
-            output_config.get("important_text_df_file_name"),
-            output_config.get("safety_issues_df_file_name"),
+            output_config.get("toc_df_file_name"),
             output_config.get("report_sections_df_file_name"),
-            output_config.get("recommendations_df_file_name"),
             output_config.get("report_event_types_df_file_name"),
+            output_config.get("recommendations_df_file_name"),
+            output_config.get("safety_issues_df_file_name"),
         ]
     ]
 
+    dataframes[-2].rename(
+        columns={
+            "important_text": "important_text_recommendation",
+            "pages_read": "pages_read_recommendation",
+        },
+        inplace=True,
+    )
+    dataframes[-1].rename(
+        columns={
+            "important_text": "important_text_safety_issue",
+            "pages_read": "pages_read_safety_issue",
+        },
+        inplace=True,
+    )
+
     combined_df = dataframes[0].join(dataframes[1:], how="outer")
+
+    # Adding agency_id and url
+    report_titles = pd.read_pickle(
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name"))
+    )
+    combined_df = combined_df.merge(
+        report_titles[["report_id", "agency_id", "url"]], how="left", on="report_id"
+    )
+
+    # Add metadata columns
+
+    combined_df["year"] = [
+        int(x.split("_")[2]) if "_" in x else None for x in combined_df["report_id"]
+    ]
+    combined_df["mode"] = combined_df["report_id"].map(
+        lambda x: str(Modes.get_report_mode_from_id(x).value) if "_" in x else None
+    )
+
+    combined_df["agency"] = [
+        (x.split("_")[0] if "_" in x else None) for x in combined_df["report_id"]
+    ]
 
     combined_df.to_pickle(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name"))
@@ -131,10 +237,6 @@ def analyze(output_dir, config, refresh):
         os.path.join(
             output_dir,
             output_config.get("recommendation_response_classification_df_file_name"),
-        ),
-        (
-            config.get("download").get("start_year"),
-            config.get("download").get("end_year"),
         ),
     )
 
@@ -169,10 +271,10 @@ def analyze(output_dir, config, refresh):
                 ),
             ),
             (
-                "important_text",
-                "important_text",
+                "text",
+                "text",
                 os.path.join(
-                    embedding_folder, embeddings_config.get("important_text_file_name")
+                    embedding_folder, embeddings_config.get("report_text_file_name")
                 ),
             ),
         ],
@@ -224,18 +326,8 @@ def cli():
         required=True,
         help="This is function that you want to run.",
     )
-    parser.add_argument(
-        "-m",
-        "--modes",
-        choices=["a", "r", "m"],
-        nargs="+",
-        help="The modes of the reports to be processed. a for aviation, r for rail, m for marine. Defaults to all.",
-        default=["a", "r", "m"],
-    )
 
     args = parser.parse_args()
-
-    modes = [Modes.Mode[arg] for arg in args.modes]
 
     # Get the config settings for the engine.
     engine_settings = Config.configReader.get_config()["engine"]
@@ -251,7 +343,7 @@ def cli():
         case "download":
             download(engine_settings.get("output").get("container_name"), output_path)
         case "gather":
-            gather(output_path, engine_settings, modes, args.refresh)
+            gather(output_path, engine_settings, args.refresh)
         case "extract":
             extract(output_path, engine_settings, args.refresh)
         case "analyze":
@@ -264,7 +356,7 @@ def cli():
             )
         case "all":
             download(engine_settings.get("output").get("container_name"), output_path)
-            gather(output_path, engine_settings, modes, args.refresh)
+            gather(output_path, engine_settings, args.refresh)
             extract(output_path, engine_settings, args.refresh)
             analyze(output_path, engine_settings, args.refresh)
             upload(

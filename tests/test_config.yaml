@@ -19,12 +19,13 @@ engine:
     extracted_reports_df_file_name: "extracted_reports.pkl"
     recommendation_safety_issue_links_df_file_name: "recommendation_safety_issue_links.pkl"
     recommendation_response_classification_df_file_name: "response_classification_partly_classified.pkl"
+    atsb_historic_aviation_df_file_name: "atsb_historic_aviation_investigations.pkl"
     embeddings:
       folder_name: "embeddings"
       safety_issues_file_name: "safety_issues_embeddings.pkl"
       recommendations_file_name: "recommendations_embeddings.pkl"
       report_sections_file_name: "report_sections_embeddings.pkl"
-      important_text_file_name: "important_text_embeddings.pkl"
+      report_text_embeddings_file_name: "report_text_embeddings.pkl"
     storage:
       container: "testengineoutput"
   data:

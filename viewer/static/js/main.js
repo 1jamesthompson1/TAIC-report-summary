@@ -246,7 +246,7 @@ function updateSummary(summary) {
         fixedColumns: true,
         fixedHeader: true,
         paging: true,
-        searching: false,
+        searching: true,
         order: [[0, 'desc']],
     });
     }
@@ -268,6 +268,10 @@ function updateResultsSummaryInfo(summary) {
     var year_histogram = JSON.parse(summary.year_histogram);
     
     Plotly.newPlot('YearHistogram', year_histogram);
+    
+    var agency_pie_chart = JSON.parse(summary.agency_pie_chart);
+    
+    Plotly.newPlot('AgencyPieChart', agency_pie_chart);
     }
 
     // -----   Popups on results table ----- //

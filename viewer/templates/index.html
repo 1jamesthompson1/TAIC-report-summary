@@ -18,6 +18,15 @@
         </div>
         <div id="advancedSearch">
             <div class="row">
+                <div id="agencies" class ="advancedSearchSection">
+                    <h5>Agencies</h5>
+                    <div class="checkbox-group required">
+                        <label><input type="checkbox" name="includeTAIC" checked>TAIC</label>
+                        <label><input type="checkbox" name="includeATSB">ATSB</label>
+                        <label><input type="checkbox" name="includeTSB">TSB</label>
+                    </div>
+                </div>
+
                 <div id="transportModes" class="advancedSearchSection">
                     <h5>Transport Modes</h5>
                     <div class="checkbox-group required">
@@ -65,6 +74,7 @@
         </div>
         <div id="searchResultsSummary" class="resultsSection">
             <h3>Summary of Search (AI generated)</h3>
+            <p><em>This summary is AI generated so it has no guarantee of correctness.</em></p>
             <div id="searchResultsSummaryText"></div>
         </div>
         <div class="resultsSection">
@@ -77,9 +87,11 @@
                     <div id="MostCommonEventTypes" class="resultsSummaryInfoSection"></div>
                     <div id="YearHistogram" class="resultsSummaryInfoSection"></div>
                     <div id="ModePieChart"class="resultsSummaryInfoSection"></div>
+                    <div id="AgencyPieChart" class="resultsSummaryInfoSection"></div>
                 </div>
                 </div>
             <h3>Detailed search results</h3>
+            <p><em>This are the relevant results from the search of the database, there is a no guarantee of its completeness.</em></p>
             <div id="searchResultsTableWrapper"></div>
         </div>
     </div>

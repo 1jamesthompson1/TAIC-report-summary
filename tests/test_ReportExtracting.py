@@ -1,12 +1,203 @@
+import math
 import os
+from difflib import SequenceMatcher
 
 import pandas as pd
 import pytest
 
 from engine.extract.ReportExtracting import (
+    RecommendationsExtractor,
+    ReportExtractor,
     ReportSectionExtractor,
     SafetyIssueExtractor,
 )
+
+
+@pytest.mark.parametrize(
+    "report_id, expected",
+    [
+        # TAIC reports
+        pytest.param(
+            "TAIC_m_2016_204",
+            ["Abbreviations ii  \nG", "ine Safety Code 40  ", 1395],
+            id="TAIC_m_2016_204",
+        ),
+        pytest.param(
+            "TAIC_r_2002_122",
+            ["\nAbbreviations iii", "Appendix 1 28", 1180],
+            id="TAIC_r_2002_122",
+        ),
+        pytest.param(
+            "TAIC_a_2010_001",
+            ["\nAbbreviations  vii  ", " December 2009  14  ", 637],
+            id="TAIC_a_2010_001",
+        ),
+        pytest.param(
+            "TAIC_m_2020_202",
+            ["1 - Executive summar", " the Commission 35  ", 1555],
+            id="TAIC_m_2020_202",
+        ),
+        pytest.param(
+            "TAIC_r_2019_106",
+            ["1 - Executive summar", "mission reports 19  ", 897],
+            id="TAIC_r_2019_106",
+        ),
+        pytest.param(
+            "TAIC_a_2018_006",
+            ["1 - Executive summar", " 40  \nCargo pod 40  ", 1538],
+            id="TAIC_a_2018_006",
+        ),
+        pytest.param(
+            "TAIC_m_2010_204",
+            ["Abbreviations ii", "e Hanjin Bombay 31  ", 1100],
+            id="TAIC_m_2010_204",
+        ),
+        # ATSB reports
+        pytest.param(
+            "ATSB_m_2000_157",
+            ["\nSummary 1  \nSources of information ", "Details of ship 33", 619],
+            id="ATSB_m_2000_157 (spaces in the dots)",
+        ),
+        pytest.param(
+            "ATSB_a_2007_012",
+            ["i - Table of Contents", "IRS Mode Selector Unit 84", 3695],
+            id="ATSB_a_2007_012 (long content section)",
+        ),
+        pytest.param(
+            "ATSB_a_2023_011",
+            None,
+            id="ATSB_a_2023_011 (No content section)",
+        ),
+        pytest.param(
+            "ATSB_m_2001_170",
+            ["Summary 1  \nS", " - Attachment 1 25  ", 455],
+            id="ATSB_m_2001_170 (discarding matches outside of content section)",
+        ),
+        pytest.param(
+            "ATSB_r_2021_002",
+            ["Safety summary 3  ", "Submissions 30", 3000],
+            id="ATSB_r_2021_002 (Long content section)",
+        ),
+        pytest.param(
+            "TSB_r_2020_V0230",
+            ["Rail Transportation ", "- - Safety message 7", 455],
+            id="TSB_r_2020_V0230 (Using the pdf headers)",
+        ),
+    ],
+)
+def test_content_section_extraction(report_id, expected):
+    extracted_reports = pd.read_pickle(
+        os.path.join(
+            pytest.output_config["folder_name"],
+            pytest.output_config["parsed_reports_df_file_name"],
+        )
+    )
+
+    assert not extracted_reports.loc[report_id].empty
+
+    report_text = extracted_reports.loc[report_id, "text"]
+    headers = extracted_reports.loc[report_id, "headers"]
+
+    assert report_text is not None
+
+    extractor = ReportExtractor(report_text, report_id, headers)
+
+    content_section, _ = extractor.extract_table_of_contents()
+
+    print(f"Expected: {expected}")
+    print(f"Actual: {content_section}")
+    if expected:
+        # Because we are now using a LLM to clean up the content section. We cant do an exact match. Instead we need to be atleast 2 out of 3 matches.
+        assert (
+            SequenceMatcher(
+                None, content_section[: len(expected[0])].lower(), expected[0].lower()
+            ).ratio()
+            > 0.7
+        )
+        assert (
+            SequenceMatcher(
+                None, content_section[-len(expected[1]) :].lower(), expected[1].lower()
+            ).ratio()
+            > 0.7
+        )
+        assert abs(len(content_section) - expected[2]) < (expected[2] * 0.1)
+
+    else:
+        assert content_section is None
+
+
+@pytest.mark.parametrize(
+    "report_id, expected",
+    [
+        pytest.param(
+            "TAIC_r_2019_102",
+            [(1, 2), (7, 13), (13, 14), (14, 15)],
+            id="TAIC_m_2019_102",
+        ),
+        pytest.param(
+            "ATSB_a_2017_117",
+            [(0, 1), (3, 5)],
+            id="ATSB_a_2017_117 reading pdf headers",
+        ),
+        pytest.param("ATSB_a_2014_073", None, id="ATSB_a_2014_073 noy enough"),
+        pytest.param(
+            "TSB_m_2002_C0018",
+            None,
+            id="TSB_m_2002_C0018 random pdf headers not a content section",
+        ),
+        pytest.param(
+            "TSB_a_2005_C0187",
+            [(19, 23), (23, 25)],
+            id="TSB_a_2005_C0187 relevant sections with different names",
+        ),
+        pytest.param(
+            "ATSB_m_2017_003",
+            [(10, 16), (17, 18)],
+            id="ATSB_m_2017_003 needing to fill in the missing pages",
+        ),
+        pytest.param(
+            "ATSB_a_2021_018",
+            [("i", 1), (15, 17), (17, 18), (18, 21)],
+            id="ATSB_a_2021_018 getting the extra safety issues section",
+        ),
+        pytest.param(
+            "TSB_a_2020_P0013",
+            [(31, 36), (36, 38)],
+            id="TSB_a_2020_P0013 getting long content section",
+        ),
+        # pytest.param("TSB_a_2004_H0001", [29,30,31,32,33,34,35,36,37], id="TSB_a_2004_H0001 really messy content section") removed from testing as was too hard to read and get it too work. Extra long import
+    ],
+)
+def test_safety_issue_content_section_reading(report_id, expected):
+    extracted_reports = pd.read_pickle(
+        os.path.join(
+            pytest.output_config["folder_name"],
+            pytest.output_config["parsed_reports_df_file_name"],
+        )
+    )
+
+    assert not extracted_reports.loc[report_id].empty
+
+    report_text = extracted_reports.loc[report_id, "text"]
+    headers = extracted_reports.loc[report_id, "headers"]
+
+    assert report_text is not None
+    extractor = ReportExtractor(report_text, report_id, headers)
+    content_section, _ = extractor.extract_table_of_contents()
+
+    extractor = SafetyIssueExtractor(
+        report_text, report_id, content_section, "full", "NA"
+    )
+
+    pages_to_read = extractor.extract_pages_to_read(content_section)
+    print(f"Expected {expected} and got {pages_to_read}")
+    print(f"Reading {content_section}")
+
+    if expected is None:
+        assert pages_to_read is None
+    else:
+        assert set(pages_to_read).issuperset(expected)
+        assert len(pages_to_read) <= math.ceil(len(expected) * 1.6)
 
 
 class TestSafetyIssueExtraction:
@@ -30,8 +221,8 @@ and emergency drills, which according to the operator's (DW New Zealand Limited 
 maritime transport operator plan14 were scheduled to happen four times each year.  
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 1
         assert (
             safety_issues[0]["safety_issue"]
@@ -98,8 +289,8 @@ Maritime Rules.
 Fisheries Act) are required  to meet applicable design , construction and equipment rules 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 2
         assert [safety_issue["safety_issue"] for safety_issue in safety_issues] == [
             "Some aspects of the crew response to the fire did not follow industry good practice.",
@@ -124,8 +315,8 @@ locomotive  and train brake handles correctly before vacating a cab and relocati
 at the other end.    
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 1
         assert (
             safety_issues[0]["safety_issue"]
@@ -201,8 +392,8 @@ skills and practices form a significant component of what has become known as no
 skills in other transport modes.
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 2
         assert [s["safety_issue"] for s in safety_issues] == [
             "Driver B was able to set the brake handles incorrectly because there was no interlock capability between the two driving cabs of the DL-class locomotives. The incorrect brake set-up resulted in driver B not having brake control over the coupled wagons.",
@@ -230,8 +421,8 @@ followed,  arriving at 'Is treatment  suitable given constraints? ' This step re
 joint SFAIRP assessment  between KiwiRail and the Council . 
 """
         safety_issues = SafetyIssueExtractor(
-            report_text, "test report", report_text
-        ).extract_safety_issues()
+            report_text, "TAIC_a_2020_001", report_text, "full", "TAIC"
+        )._extract_safety_issues_with_inference(report_text)
         assert len(safety_issues) == 1
         assert (
             safety_issues[0]["safety_issue"]
@@ -244,7 +435,7 @@ class TestSectionExtraction:
         extracted_reports = pd.read_pickle(
             os.path.join(
                 pytest.output_config["folder_name"],
-                pytest.output_config["extracted_reports_df_file_name"],
+                pytest.output_config["parsed_reports_df_file_name"],
             )
         )
 
@@ -252,9 +443,9 @@ class TestSectionExtraction:
 
     def __test_section_extraction(self, report_id, section):
         report_text = self.__load_report_text(report_id)
-        section = ReportSectionExtractor(report_text, "test report").extract_section(
-            section, useLLM=False
-        )
+        section = ReportSectionExtractor(
+            report_text, "test report", None
+        ).extract_section(section, useLLM=False)
         return section
 
     def test_section(self):
@@ -493,7 +684,7 @@ and arrived on the bridge to prepare for arrival at the port."""
         )
 
     def test_section_full_report(self):
-        section = self.__test_section_extraction("2016_204", "4.3")
+        section = self.__test_section_extraction("TAIC_m_2016_204", "4.3")
 
         assert (
             section
@@ -551,10 +742,10 @@ planning in particular. They include: the United Kingdom's Maritime and Coastgua
 Chapter V, Safety of Navigation, of the Annex to the International Convention for the Safety of Life at Sea ; the 
 Nautical Institute's Bridge Team Management - A practical guide; and the International Chamber of 
 Shipping's Bridge Procedures Guide.  
- 
-Final Report MO -2016 -204 
+
 << Page 15 >>
- 4.3.8.  One method of ensuring that an approved passage plan is available on board would be for 
+ 
+Final Report MO -2016 -204 | Page 15 4.3.8.  One method of ensuring that an approved passage plan is available on board would be for 
 port companies or harbour authorities to make available to vessel s properly constructed and 
 validated passage plan s that meet the  port-specific standards  and guidelines included in  
 Chapter V, Safety of Navigation , of the Annex to the International Convention for the Safety of 
@@ -713,7 +904,7 @@ Location of burst on failed cylinder"""
         )
 
     def test_paragraph_to_next_section_full(self):
-        section = self.__test_section_extraction("2014_004", "4.2.5")
+        section = self.__test_section_extraction("TAIC_a_2014_004", "4.2.5")
 
         assert (
             section
@@ -726,7 +917,7 @@ very unlikely that the pilot had been physically incapacitated before the stall.
 1. Pilot incapacitation was very unlikely to have been a contributing factor.  
 
 << Page 14 >>
- Final report AO -2014 -004"""
+Page 14 | Final report AO -2014 -004"""
         )
 
     def test_paragraph_to_next_section(self):
@@ -794,7 +985,7 @@ Final Report MO -2017 -203
         )
 
     def test_missing_next_section(self):
-        section = self.__test_section_extraction("2010_204", "3.1.9")
+        section = self.__test_section_extraction("TAIC_m_2010_204", "3.1.9")
 
         assert (
             section
@@ -804,11 +995,11 @@ to return and stand  by to assist as soon as possible.
   
 
 << Page 6 >>
- Report 10 -204"""
+Page 6 | Report 10 -204"""
         )
 
     def test_suitable_match_after_real_section(self):
-        section = self.__test_section_extraction("2016_204", "4.2.10")
+        section = self.__test_section_extraction("TAIC_m_2016_204", "4.2.10")
 
         assert (
             section
@@ -825,10 +1016,10 @@ starboard of the intended track .
 2. The bridge team , including the pilot , did not realise how far the vessel  had 
 deviated from the intended track because they were not monitoring the vessel 's 
 progress effectively and by all available means . 
- 
-Final Report MO -2016 -204 
+
 << Page 13 >>
- Figure 5  
+ 
+Final Report MO -2016 -204 | Page 13 Figure 5  
 Passage plan track of the Molly Manx  (green) and actual track (red)  
   
 passage plan track  
@@ -840,12 +1031,13 @@ ebb tide direction
 grounding position  
 Molly Manx 's course made 
 good  
-Final Report MO -2016 -204 
-<< Page 14 >>"""
+
+<< Page 14 >>
+Final Report MO -2016 -204 | Page 14"""
         )
 
     def test_skipped_section_mismatch(self):
-        section = self.__test_section_extraction("2010_001", "1.3")
+        section = self.__test_section_extraction("TAIC_a_2010_001", "1.3")
 
         assert (
             section
@@ -854,10 +1046,10 @@ operator had a more robust flight dispatch system, and had the air traffic servi
 with a requirement to pass flight information to pilots on first contact.  The Commission made a 
 safety recommendation regarding the clarity of informat ion about  hazardous meteorological 
 conditions.  
- 
 
 << Page 2 >>
- Report 10 -001 2. Factual Information"""
+ 
+Page 2 | Report 10 -001 2. Factual Information"""
         )
 
     def test_no_section(self):
@@ -929,7 +1121,7 @@ and the cylinder s are  allowed back into service .
         assert section is None
 
     def test_no_section_prior_match(self):
-        section = self.__test_section_extraction("2022_101", "4.5")
+        section = self.__test_section_extraction("TAIC_r_2022_101", "4.5")
 
         assert section is None
 
@@ -938,7 +1130,7 @@ and the cylinder s are  allowed back into service .
         There can be a situation where it will go from a sub paragraph to the next paragraph, as the subsection is not findable.
         """
 
-        section = self.__test_section_extraction("2010_009", "3.6.59")
+        section = self.__test_section_extraction("TAIC_a_2010_009", "3.6.59")
 
         assert (
             section
@@ -958,11 +1150,11 @@ educational material was later passed to the NZPIA f or distribution to member o
 Employment Act 1992 Prime Ministerial Designation Pursuant to Section 28B of the Health and Safety in Employment Act 1992.  
 
 << Page 20 >>
- Report 10 -009"""
+Page 20 | Report 10 -009"""
         )
 
     def test_first_section(self):
-        section = self.__test_section_extraction("2019_106", "1.1")
+        section = self.__test_section_extraction("TAIC_r_2019_106", "1.1")
 
         assert (
             section
@@ -974,7 +1166,7 @@ Main Line without the knowledge of train control ."""
         )
 
     def test_two_early_references(self):
-        section = self.__test_section_extraction("2014_102", "6.3.2")
+        section = self.__test_section_extraction("TAIC_r_2014_102", "6.3.2")
 
         assert (
             section
@@ -989,16 +1181,16 @@ wider rail industry .
  
 
 << Page 14 >>
- Final report RO -2014 -102 7. Recommendations"""
+Page 14 | Final report RO -2014 -102 7. Recommendations"""
         )
 
     def test_one_early_reference_with_missing_previous_section(self):
-        section = self.__test_section_extraction("2020_202", "4.9")
+        section = self.__test_section_extraction("TAIC_m_2020_202", "4.9")
 
         assert section is None
 
     def test_one_reference_in_content_section_with_missing_previous_section(self):
-        section = self.__test_section_extraction("2016_204", "7.5")
+        section = self.__test_section_extraction("TAIC_m_2016_204", "7.5")
 
         assert section is None
 
@@ -1032,3 +1224,152 @@ wider rail industry .
         )._get_previous_section("1.1")
 
         assert section == "1"
+
+
+class TestRecommendationExtraction:
+    @classmethod
+    def setup_class(cls):
+        cls.test_data = pd.read_pickle("tests/data/recommendation_test_data.pkl")
+
+    @pytest.mark.parametrize(
+        "report_id, expected",
+        [
+            pytest.param(
+                "ATSB_a_2003_980",
+                [(26, 28)],
+                id="ATSB_a_2003_980",
+            ),
+            pytest.param(
+                "ATSB_m_2006_234",
+                [(19, 21)],
+                id="ATSB_m_2006_234",
+            ),
+            pytest.param(
+                "ATSB_r_2004_004",
+                [(23, 25)],
+                id="ATSB_r_2004_004",
+            ),
+            pytest.param(
+                "ATSB_a_2017_105",
+                None,
+                id="ATSB_a_2017_105",
+            ),
+            pytest.param(
+                "ATSB_r_2014_024",
+                [(12, 14)],
+                id="ATSB_r_2014_024",
+            ),
+            pytest.param(
+                "ATSB_a_2002_710",
+                [(36, 36)],
+                id="ATSB_a_2002_710 (Safety section is last section)",
+            ),
+            pytest.param(
+                "ATSB_m_2001_163",
+                [(21, 25)],
+                id="ATSB_m_2001_163 (No safety action section)",
+            ),
+        ],
+    )
+    def test_content_section_reading(self, report_id, expected):
+        report_data = self.test_data.loc[report_id]
+
+        extractor = ReportSectionExtractor(
+            report_data["text"], report_id, report_data["headers"]
+        )
+        content_section, _ = extractor.extract_table_of_contents()
+        extractor = RecommendationsExtractor(
+            report_data["text"], report_id, content_section
+        )
+
+        pages = extractor.extract_pages_to_read(content_section)
+
+        print(f"reading {content_section}")
+        assert pages == expected
+
+    @pytest.mark.parametrize(
+        "report_id",
+        [
+            pytest.param(
+                "ATSB_a_2002_780",
+                id="ATSB_a_2002_780 (List of recommendations from other agency)",
+            ),
+            pytest.param(
+                "ATSB_m_2005_215",
+                id="ATSB_m_2005_215 (Simple stated recommendations still have recommendation_id)",
+            ),
+            pytest.param(
+                "ATSB_a_2021_005",
+                id="ATSB_a_2021_005 (Modern complete stated recommendations)",
+            ),
+            pytest.param(
+                "ATSB_m_2008_012",
+                id="ATSB_m_2008_012 (No recommendations only safety issues)",
+            ),
+            pytest.param(
+                "ATSB_r_2015_007",
+                id="ATSB_r_2015_007 (Modern complete recommendations)",
+            ),
+        ],
+    )
+    def test_recommendation_extraction(self, report_id):
+        report_data = self.test_data.loc[report_id]
+
+        extractor = RecommendationsExtractor(
+            report_data["text"], report_id, report_data["toc"]
+        )
+
+        extracted_recommendations = extractor._extract_recommendations_from_text(
+            report_data["recommendation_section"]
+        )
+
+        expected_recommendations = report_data["recommendations"]
+
+        if expected_recommendations is None:
+            assert extracted_recommendations is None
+            return
+        elif extracted_recommendations is None:
+            pytest.fail(f"Expected recommendations for report {report_id} but got None")
+
+        assert len(extracted_recommendations) == len(expected_recommendations)
+
+        for extracted, expected in zip(
+            extracted_recommendations, expected_recommendations
+        ):
+            assert extracted["recommendation"] == expected["recommendation"]
+            assert extracted["recommendation_id"] == expected["recommendation_id"]
+            assert (
+                SequenceMatcher(
+                    None, extracted["recipient"], expected["recipient"]
+                ).ratio()
+                > 0.8
+            )
+
+    @pytest.mark.parametrize(
+        "report_id, expected",
+        [
+            pytest.param(
+                "ATSB_a_2014_096",
+                0,
+                id="ATSB_a_2014_096 (No recommendations)",
+            ),
+            pytest.param(
+                "ATSB_m_2013_011",
+                2,
+                id="ATSB_m_2013_011 (Modern recommednation)",
+            ),
+        ],
+    )
+    def test_complete_process(self, report_id, expected):
+        report_data = self.test_data.loc[report_id]
+
+        extractor = RecommendationsExtractor(
+            report_data["text"], report_id, report_data["toc"]
+        )
+
+        extracted_recommendations, _, _ = extractor.extract_recommendations()
+
+        if expected == 0:
+            assert len(extracted_recommendations) == 0
+        else:
+            assert len(extracted_recommendations) == expected

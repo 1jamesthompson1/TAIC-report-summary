@@ -18,6 +18,8 @@ def get_test_dataframe_path():
 def test_single_report_linking():
     test_dataframe = pd.read_pickle(get_test_dataframe_path())
 
+    test_dataframe.dropna(subset=["recommendations", "safety_issues"], inplace=True)
+
     links = RecommendationSafetyIssueLinker()._evaluate_all_possible_links(
         test_dataframe["recommendations"].iloc[0],
         test_dataframe["safety_issues"].iloc[0],

@@ -16,9 +16,16 @@ def test_report_type_assignment(tmpdir):
         pytest.output_config["folder_name"],
         pytest.output_config["report_titles_df_file_name"],
     )
+    parsed_report_path = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["parsed_reports_df_file_name"],
+    )
     report_types_path = tmpdir.join("report_types.pkl")
     report_type_assigner = ReportTypeAssignment.ReportTypeAssigner(
-        report_event_types_path, report_titles_path, report_types_path
+        report_event_types_path,
+        report_titles_path,
+        parsed_report_path,
+        report_types_path,
     )
     report_type_assigner.assign_report_types()
 
@@ -67,11 +74,17 @@ def test_single_report_type_assignment(report_title, mode, expected_type):
         pytest.output_config["folder_name"],
         pytest.output_config["report_titles_df_file_name"],
     )
+    parsed_reports = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["parsed_reports_df_file_name"],
+    )
     report_type_assigner = ReportTypeAssignment.ReportTypeAssigner(
-        report_event_types_path, report_titles_path, None
+        report_event_types_path, report_titles_path, parsed_reports, None
     )
 
     assert (
-        report_type_assigner.assign_report_type(report_title, Modes.Mode(mode)).lower()
+        report_type_assigner.assign_report_type(
+            report_title, Modes.Mode(mode), False
+        ).lower()
         == expected_type.lower()
     )

@@ -11,6 +11,7 @@ import viewer.Searching as Searching
 class TestSearchSettings:
     def test_basic_creation(self):
         settings = Searching.SearchSettings(
+            ["ATSB", "TSB"],
             [Modes.Mode.a, Modes.Mode.r],
             (2000, 2020),
             ["safety_issue", "recommendation"],
@@ -23,6 +24,7 @@ class TestSearchSettings:
     def test_failed_creation(self):
         with pytest.raises(TypeError):
             Searching.SearchSettings(
+                ["TAIC", "ATSB", "TSB"],
                 [Modes.Mode.a, Modes.Mode.r],
                 ["safety_issue", "recommendation"],
                 (2001, "2020"),
@@ -33,6 +35,7 @@ class TestSearchSettings:
 
     def test_to_dict(self):
         settings = Searching.SearchSettings(
+            ["ATSB", "TSB"],
             [Modes.Mode.a, Modes.Mode.r],
             (2000, 2020),
             ["safety_issue", "recommendation"],
@@ -45,6 +48,7 @@ class TestSearchSettings:
             "setting_min_year": 2000,
             "setting_document_types": "['safety_issue', 'recommendation']",
             "setting_relevanceCutoff": 0.1,
+            "setting_agencies": "['ATSB', 'TSB']",
         }
 
     def test_from_dict(self):
@@ -55,6 +59,7 @@ class TestSearchSettings:
                 "setting_min_year": 2000,
                 "setting_document_types": "['safety_issue', 'recommendation']",
                 "setting_relevanceCutoff": 0.1,
+                "setting_agencies": "['ATSB', 'TSB']",
             }
         )
 
@@ -69,6 +74,7 @@ class TestSearch:
         search = Searching.Search(
             "hello",
             Searching.SearchSettings(
+                ["ATSB", "TSB"],
                 [Modes.Mode.a, Modes.Mode.r],
                 (2000, 2020),
                 ["safety_issue", "recommendation"],
@@ -79,6 +85,12 @@ class TestSearch:
         assert search.getQuery() == "hello"
         assert search.getSettings().getModes() == [Modes.Mode.a, Modes.Mode.r]
         assert search.getSettings().getYearRange() == (2000, 2020)
+        assert search.getSettings().getRelevanceCutoff() == 0.1
+        assert search.getSettings().getDocumentTypes() == [
+            "safety_issue",
+            "recommendation",
+        ]
+        assert search.getSettings().getAgencies() == ["ATSB", "TSB"]
 
     def test_from_form_creation(self):
         form = {
@@ -90,6 +102,8 @@ class TestSearch:
             "relevanceCutoff": "0.1",
             "includeSafetyIssues": "on",
             "includeRecommendations": "on",
+            "includeATSB": "on",
+            "includeTAIC": "on",
         }
 
         search = Searching.Search.from_form(form)
@@ -113,6 +127,7 @@ class TestSearch:
         search = Searching.Search(
             "hello",
             Searching.SearchSettings(
+                ["ATSB", "TSB"],
                 [Modes.Mode.a, Modes.Mode.r],
                 (2000, 2020),
                 ["safety_issue", "recommendation"],
@@ -134,7 +149,10 @@ class TestSearch:
         assert parsed_params["includeSafetyIssues"][0] == "on"
         assert parsed_params["includeRecommendations"][0] == "on"
         assert parsed_params["includeReportSection"][0] == "off"
-        assert parsed_params["includeImportantText"][0] == "off"
+        assert parsed_params["includeReportText"][0] == "off"
+        assert parsed_params["includeATSB"][0] == "on"
+        assert parsed_params["includeTSB"][0] == "on"
+        assert parsed_params["includeTAIC"][0] == "off"
 
 
 @pytest.fixture(scope="session")
@@ -147,6 +165,7 @@ class TestSearcher:
         search = Searching.Search(
             "hello",
             Searching.SearchSettings(
+                ["ATSB", "TSB"],
                 [Modes.Mode.a, Modes.Mode.r],
                 (2000, 2020),
                 ["safety_issue", "recommendation"],
@@ -164,7 +183,11 @@ class TestSearcher:
         search = Searching.Search(
             "pilot incapacity",
             Searching.SearchSettings(
-                Modes.all_modes, (2000, 2020), ["safety_issue", "recommendation"], 0.8
+                ["ATSB", "TAIC", "TSB"],
+                Modes.all_modes,
+                (2000, 2020),
+                ["safety_issue", "recommendation"],
+                0.8,
             ),
         )
         result = searcher.search(search, with_rag=True)
@@ -177,6 +200,7 @@ class TestSearcher:
         search = Searching.Search(
             "pilot",
             Searching.SearchSettings(
+                ["TAIC"],
                 [Modes.Mode.a, Modes.Mode.r],
                 (2010, 2015),
                 ["safety_issue", "recommendation"],
@@ -189,17 +213,23 @@ class TestSearcher:
         assert result.getSummary() is None
         assert isinstance(result.getContext(), pd.DataFrame)
 
+        assert len(result.getContext()) > 0
+
         assert (
             result.getContext()["year"].isin([2010, 2011, 2012, 2013, 2014, 2015]).all()
         )
 
-        assert result.getContext()["mode"].isin([0, 1]).all()
+        assert result.getContext()["mode"].isin(["0", "1"]).all()
 
     def test_filtered_search_single_mode(self, searcher):
         search = Searching.Search(
             "pilot",
             Searching.SearchSettings(
-                [Modes.Mode.a], (2010, 2015), ["safety_issue", "recommendation"], 0.5
+                ["ATSB", "TSB"],
+                [Modes.Mode.a],
+                (2010, 2015),
+                ["safety_issue", "recommendation"],
+                0.5,
             ),
         )
         result = searcher.search(search, with_rag=False)
@@ -212,12 +242,13 @@ class TestSearcher:
             result.getContext()["year"].isin([2010, 2011, 2012, 2013, 2014, 2015]).all()
         )
 
-        assert result.getContext()["mode"].isin([0]).all()
+        assert result.getContext()["mode"].isin(["0"]).all()
 
     def test_filtered_search_no_query(self, searcher):
         search = Searching.Search(
             "",
             Searching.SearchSettings(
+                ["ATSB", "TSB", "TAIC"],
                 [Modes.Mode.m, Modes.Mode.r],
                 (2002, 2005),
                 ["safety_issue", "recommendation"],
@@ -233,12 +264,13 @@ class TestSearcher:
 
         assert result.getContext()["year"].isin([2002, 2003, 2004, 2005]).all()
 
-        assert result.getContext()["mode"].isin([2, 1]).all()
+        assert result.getContext()["mode"].isin(["2", "1"]).all()
 
     def test_search_without_results(self, searcher):
         search = Searching.Search(
             "hello",
             Searching.SearchSettings(
+                ["ATSB", "TSB"],
                 [Modes.Mode.a, Modes.Mode.r],
                 (1897, 1899),
                 ["safety_issue", "recommendation"],
@@ -256,9 +288,10 @@ class TestSearcher:
         search = Searching.Search(
             '"work"',
             Searching.SearchSettings(
+                ["TAIC"],
                 Modes.all_modes,
                 (2000, 2020),
-                ["safety_issue", "recommendation"],
+                ["safety_issue", "recommendation", "report_section", "report_text"],
                 0.6,
             ),
         )
@@ -268,16 +301,17 @@ class TestSearcher:
         assert result
         assert result.getSummary() is None
 
-        assert result.getContext().shape[0] == 22
+        assert result.getContext().shape[0] == 45
 
     def test_fts_search_no_results(self, searcher):
         search = Searching.Search(
             '""More work needed""',
             Searching.SearchSettings(
+                ["TAIC"],
                 Modes.all_modes,
                 (2000, 2020),
                 ["safety_issue", "recommendation"],
-                0.6,
+                0.3,
             ),
         )
         assert search.getSearchType() == "fts"
