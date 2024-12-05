@@ -30,7 +30,7 @@ from viewer import Searching, app_config
 
 dotenv.load_dotenv(override=True)
 
-__version__ = "1.0.0-beta"
+__version__ = "1.1.0-beta"
 
 app = Flask(__name__)
 app.config.from_object(app_config)
