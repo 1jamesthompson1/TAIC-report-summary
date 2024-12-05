@@ -164,7 +164,7 @@ class EngineOutputUploader(EngineOutputManager):
                     "agency_id",
                     "url",
                 ]
-            ].assign(document_type="important_text"),
+            ].assign(document_type="report_text"),
         ]
 
         all_document_dfs = [

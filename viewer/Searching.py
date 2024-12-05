@@ -9,6 +9,7 @@ import plotly.express as px
 import voyageai
 
 import engine.utils.Modes as Modes
+from engine.analyze import Embedding
 from engine.utils.AICaller import AICaller
 
 
@@ -92,11 +93,22 @@ class SearchSettings:
         if data is None or not isinstance(data, dict):
             raise TypeError(f"Data is not a dictionary but {type(data)}")
         return cls(
-            modes=[Modes.Mode(mode) for mode in literal_eval(data["setting_modes"])],
+            modes=[
+                Modes.Mode(mode)
+                for mode in (
+                    literal_eval(data["setting_modes"])
+                    if isinstance(data["setting_modes"], str)
+                    else data["setting_modes"]
+                )
+            ],
             year_range=(int(data["setting_min_year"]), int(data["setting_max_year"])),
-            document_types=literal_eval(data["setting_document_types"]),
+            document_types=literal_eval(data["setting_document_types"])
+            if isinstance(data["setting_document_types"], str)
+            else data["setting_document_types"],
             relevanceCutoff=float(data["setting_relevanceCutoff"]),
-            agencies=literal_eval(data["setting_agencies"]),
+            agencies=literal_eval(data["setting_agencies"])
+            if isinstance(data["setting_agencies"], str)
+            else data["setting_agencies"],
         )
 
 
@@ -427,12 +439,7 @@ class SearchEngineSearcher:
 
         self.vector_db_table = vector_db_table
 
-        self.vo = vo
-
-    def _embed_query(self, query: str) -> list[float]:
-        return self.vo.embed(
-            query, model="voyage-3", input_type="query", truncation=False
-        ).embeddings[0]
+        self.embedder = Embedding.Embedder()
 
     def _table_search(
         self,
@@ -447,7 +454,8 @@ class SearchEngineSearcher:
         if type == "hybrid":
             results = (
                 table.search(
-                    (self._embed_query(self.query), self.query), query_type="hybrid"
+                    (self.embedder.embed_query(self.query), self.query),
+                    query_type="hybrid",
                 )
                 .metric("cosine")
                 .where(filter, prefilter=True)
@@ -467,7 +475,7 @@ class SearchEngineSearcher:
             results.rename(columns={"_score": "section_relevance_score"}, inplace=True)
         else:  # type == 'vector'
             results = (
-                table.search(self._embed_query(self.query), query_type="vector")
+                table.search(self.embedder.embed_query(self.query), query_type="vector")
                 .metric("cosine")
                 .limit(limit)
                 .where(filter, prefilter=True)
