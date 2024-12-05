@@ -149,7 +149,7 @@ class TestSearch:
         assert parsed_params["includeSafetyIssues"][0] == "on"
         assert parsed_params["includeRecommendations"][0] == "on"
         assert parsed_params["includeReportSection"][0] == "off"
-        assert parsed_params["includeImportantText"][0] == "off"
+        assert parsed_params["includeReportText"][0] == "off"
         assert parsed_params["includeATSB"][0] == "on"
         assert parsed_params["includeTSB"][0] == "on"
         assert parsed_params["includeTAIC"][0] == "off"
@@ -291,7 +291,7 @@ class TestSearcher:
                 ["TAIC"],
                 Modes.all_modes,
                 (2000, 2020),
-                ["safety_issue", "recommendation"],
+                ["safety_issue", "recommendation", "report_section", "report_text"],
                 0.6,
             ),
         )
@@ -301,7 +301,7 @@ class TestSearcher:
         assert result
         assert result.getSummary() is None
 
-        assert result.getContext().shape[0] == 2
+        assert result.getContext().shape[0] == 45
 
     def test_fts_search_no_results(self, searcher):
         search = Searching.Search(

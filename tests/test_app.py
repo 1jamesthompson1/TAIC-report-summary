@@ -66,13 +66,14 @@ def test_form_submit(client):
             "includeSafetyIssues": "on",
             "includeRecommendations": "on",
             "includeReportSection": "on",
+            "includeReportText": "on",
             "includeTAIC": "on",
             "includeATSB": "on",
             "includeTSB": "on",
         },
     )
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
-    assert df.shape[0] == 2796
+    assert df.shape[0] == 2834
 
 
 def test_form_submit_filtered(client):
@@ -93,6 +94,7 @@ def test_form_submit_filtered(client):
         },
     )
     df = pd.read_html(StringIO(rv["result"]["html_table"]))[0]
+    assert len(df) > 0
     assert df["year"].isin(range(2010, 2025)).all()
     assert df["mode"].isin(["Rail", "Marine"]).all()
 
@@ -119,12 +121,14 @@ def test_form_with_query(client):
     rv = perform_search_and_wait(
         client,
         {
-            "searchQuery": "pilot",
+            "searchQuery": "pilots of aircraft",
             "includeModeAviation": "on",
             "yearSlider-min": "2000",
             "yearSlider-max": "2024",
-            "relevanceCutoff": "0.3 ",
+            "relevanceCutoff": "0.1",
             "includeSafetyIssues": "on",
+            "includeRecommendations": "on",
+            "includeReportSection": "on",
             "includeTAIC": "on",
             "includeATSB": "on",
         },
@@ -140,10 +144,13 @@ def test_form_with_fts_with_results(client):
         {
             "searchQuery": '"work needed"',
             "includeModeAviation": "on",
+            "includeModeMarine": "on",
+            "includeModeRail": "on",
             "yearSlider-min": "2000",
             "yearSlider-max": "2024",
             "relevanceCutoff": "0.6",
             "includeSafetyIssues": "on",
+            "includeRecommendations": "on",
             "includeTAIC": "on",
         },
     )

@@ -174,8 +174,8 @@ class Search:
                 document_types.append("recommendation")
             if "includeReportSection" in form.keys():
                 document_types.append("report_section")
-            if "includeImportantText" in form.keys():
-                document_types.append("important_text")
+            if "includeReportText" in form.keys():
+                document_types.append("report_text")
 
             return cls(
                 search_query,
@@ -229,8 +229,8 @@ class Search:
         params["includeReportSection"] = (
             "on" if "report_section" in self.settings.document_types else "off"
         )
-        params["includeImportantText"] = (
-            "on" if "important_text" in self.settings.document_types else "off"
+        params["includeReportText"] = (
+            "on" if "report_text" in self.settings.document_types else "off"
         )
 
         params["includeTAIC"] = "on" if "TAIC" in self.settings.agencies else "off"
@@ -508,6 +508,7 @@ class SearchEngineSearcher:
             ]
         )
         if self.search_obj.getSearchType() == "none":
+            print(f"Searching for everything that matches {where_statement}")
             return (
                 self.vector_db_table.search()
                 .where(where_statement, prefilter=True)
