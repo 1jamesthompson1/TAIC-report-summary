@@ -18,8 +18,8 @@ class TestSearchSettings:
             0.1,
         )
 
-        assert settings.getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert settings.getYearRange() == (2000, 2020)
+        assert settings.get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert settings.get_year_range() == (2000, 2020)
 
     def test_failed_creation(self):
         with pytest.raises(TypeError):
@@ -63,10 +63,10 @@ class TestSearchSettings:
             }
         )
 
-        assert settings.getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert settings.getYearRange() == (2000, 2020)
-        assert settings.getDocumentTypes() == ["safety_issue", "recommendation"]
-        assert settings.getRelevanceCutoff() == 0.1
+        assert settings.get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert settings.get_year_range() == (2000, 2020)
+        assert settings.get_document_types() == ["safety_issue", "recommendation"]
+        assert settings.get_relevance_cutoff() == 0.1
 
 
 class TestSearch:
@@ -82,15 +82,15 @@ class TestSearch:
             ),
         )
 
-        assert search.getQuery() == "hello"
-        assert search.getSettings().getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert search.getSettings().getYearRange() == (2000, 2020)
-        assert search.getSettings().getRelevanceCutoff() == 0.1
-        assert search.getSettings().getDocumentTypes() == [
+        assert search.get_query() == "hello"
+        assert search.get_settings().get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert search.get_settings().get_year_range() == (2000, 2020)
+        assert search.get_settings().get_relevance_cutoff() == 0.1
+        assert search.get_settings().get_document_types() == [
             "safety_issue",
             "recommendation",
         ]
-        assert search.getSettings().getAgencies() == ["ATSB", "TSB"]
+        assert search.get_settings().get_agencies() == ["ATSB", "TSB"]
 
     def test_from_form_creation(self):
         form = {
@@ -108,11 +108,11 @@ class TestSearch:
 
         search = Searching.Search.from_form(form)
 
-        assert search.getQuery() == "hello"
-        assert search.getSettings().getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert search.getSettings().getYearRange() == (2000, 2020)
-        assert search.getSettings().getRelevanceCutoff() == 0.1
-        assert search.getSettings().getDocumentTypes() == [
+        assert search.get_query() == "hello"
+        assert search.get_settings().get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert search.get_settings().get_year_range() == (2000, 2020)
+        assert search.get_settings().get_relevance_cutoff() == 0.1
+        assert search.get_settings().get_document_types() == [
             "safety_issue",
             "recommendation",
         ]
@@ -255,7 +255,7 @@ class TestSearcher:
                 0.6,
             ),
         )
-        assert search.getSearchType() == "none"
+        assert search.get_search_type() == "none"
         result = searcher.search(search, with_rag=False)
 
         assert result
@@ -277,7 +277,7 @@ class TestSearcher:
                 0.6,
             ),
         )
-        assert search.getSearchType() == "vector"
+        assert search.get_search_type() == "vector"
         result = searcher.search(search, with_rag=False)
 
         assert result
@@ -295,7 +295,7 @@ class TestSearcher:
                 0.6,
             ),
         )
-        assert search.getSearchType() == "fts"
+        assert search.get_search_type() == "fts"
         result = searcher.search(search, with_rag=False)
 
         assert result
@@ -314,7 +314,7 @@ class TestSearcher:
                 0.3,
             ),
         )
-        assert search.getSearchType() == "fts"
+        assert search.get_search_type() == "fts"
         result = searcher.search(search, with_rag=False)
 
         assert result

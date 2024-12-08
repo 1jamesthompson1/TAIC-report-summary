@@ -205,13 +205,13 @@ def format_report_id_as_weblink(report_id):
     return f"{letters[int(report_id[5])]}o-{report_id[0:4]}-{report_id[5:8]}"
 
 
-def getUpdatedRelevanceSearch(search, new_relevance):
+def get_updated_relevance_search(search, new_relevance):
     search.settings.relevanceCutoff = new_relevance
     return search.to_url_params()
 
 
 def format_search_results(results: Searching.SearchResult):
-    context_df = results.getContextCleaned()
+    context_df = results.get_context_cleaned()
 
     context_df["report_id"] = context_df[["report_id", "url"]].apply(
         lambda x: f'<a href="{x["url"]}" target="_blank">{x["report_id"]}</a>', axis=1
@@ -220,7 +220,7 @@ def format_search_results(results: Searching.SearchResult):
     context_df = context_df.drop(columns=["url"])
 
     context_df["relevance"] = context_df.apply(
-        lambda x: f"""<a href="/?{getUpdatedRelevanceSearch(copy.deepcopy(results.search), x['relevance'])}">{x['relevance']}</a>""",
+        lambda x: f"""<a href="/?{get_updated_relevance_search(copy.deepcopy(results.search), x['relevance'])}">{x['relevance']}</a>""",
         axis=1,
     )
 
@@ -232,15 +232,15 @@ def format_search_results(results: Searching.SearchResult):
         escape=False,
     )
 
-    document_type_pie_chart = results.getDocumentTypePieChart().to_json()
+    document_type_pie_chart = results.get_document_type_pie_chart().to_json()
 
-    mode_pie_chart = results.getModePieChart().to_json()
+    mode_pie_chart = results.get_mode_pie_chart().to_json()
 
-    year_hist = results.getYearHistogram().to_json()
+    year_hist = results.get_year_histogram().to_json()
 
-    most_common_event_types = results.getMostCommonEventTypes().to_json()
+    most_common_event_types = results.get_most_common_event_types().to_json()
 
-    agency_distribution = results.getAgencyPieChart().to_json()
+    agency_distribution = results.get_agency_pie_chart().to_json()
 
     print(f"Formatted results {len(context_df)}")
 
@@ -252,13 +252,13 @@ def format_search_results(results: Searching.SearchResult):
             "year_histogram": year_hist,
             "most_common_event_types": most_common_event_types,
             "agency_pie_chart": agency_distribution,
-            "duration": results.getSearchDuration(),
+            "duration": results.get_search_duration(),
             "num_results": context_df.shape[0],
         },
-        "summary": results.getSummary(),
-        "settings": results.search.getSettings().to_dict(),
-        "start_time": results.search.getStartTime(),
-        "query": results.search.getQuery(),
+        "summary": results.get_summary(),
+        "settings": results.search.get_settings().to_dict(),
+        "start_time": results.search.get_start_time(),
+        "query": results.search.get_query(),
     }
 
 

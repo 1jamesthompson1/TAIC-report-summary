@@ -63,19 +63,19 @@ class SearchSettings:
             raise ValueError("document_types must contain at least one string")
         self.document_types = document_types
 
-    def getAgencies(self) -> list[str]:
+    def get_agencies(self) -> list[str]:
         return self.agencies
 
-    def getYearRange(self) -> tuple[int, int]:
+    def get_year_range(self) -> tuple[int, int]:
         return self.year_range
 
-    def getModes(self) -> list[Modes.Mode]:
+    def get_modes(self) -> list[Modes.Mode]:
         return self.modes
 
-    def getRelevanceCutoff(self) -> int:
+    def get_relevance_cutoff(self) -> int:
         return self.relevanceCutoff
 
-    def getDocumentTypes(self) -> list[str]:
+    def get_document_types(self) -> list[str]:
         return self.document_types
 
     def to_dict(self) -> dict:
@@ -190,16 +190,16 @@ class Search:
         except KeyError as e:
             raise ValueError(f"Form data is missing key: {e}")
 
-    def getQuery(self) -> str:
+    def get_query(self) -> str:
         return self.query
 
-    def getSettings(self) -> SearchSettings:
+    def get_settings(self) -> SearchSettings:
         return self.settings
 
-    def getSearchType(self) -> str:
+    def get_search_type(self) -> str:
         return self.search_type
 
-    def getStartTime(self) -> str:
+    def get_start_time(self) -> str:
         return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(self.creation_time))
 
     def to_url_params(self) -> str:
@@ -261,19 +261,19 @@ class SearchResult:
             "url",
         ]
 
-    def getSearchDuration(self) -> str:
+    def get_search_duration(self) -> str:
         return time.strftime("%M:%S", time.gmtime(self.duration))
 
-    def getContext(self) -> pd.DataFrame:
+    def get_context(self) -> pd.DataFrame:
         if self.context is None:
             return pd.DataFrame(columns=self.context_required_columns)
         return self.context
 
-    def getContextCleaned(self) -> pd.DataFrame:
+    def get_context_cleaned(self) -> pd.DataFrame:
         """
         This method retrieves the context dataframe and makes sure that it has a standard format.
         """
-        context_df = self.getContext().copy()
+        context_df = self.get_context().copy()
 
         context_df.rename(
             columns={"section_relevance_score": "relevance"},
@@ -296,7 +296,7 @@ class SearchResult:
         )
         return context_df
 
-    def addVisualLayout(self, fig):
+    def add_visual_layout(self, fig):
         fig = fig.update_layout(width=310)
 
         # If fig a pie chart
@@ -312,9 +312,9 @@ class SearchResult:
 
         return fig
 
-    def getDocumentTypePieChart(self):
+    def get_document_type_pie_chart(self):
         context_df = (
-            self.getContextCleaned()["document_type"].value_counts().reset_index()
+            self.get_context_cleaned()["document_type"].value_counts().reset_index()
         )
         context_df.columns = ["document_type", "count"]
         fig = px.pie(
@@ -324,10 +324,10 @@ class SearchResult:
             title="Document type distribution",
         )
 
-        return self.addVisualLayout(fig)
+        return self.add_visual_layout(fig)
 
-    def getModePieChart(self):
-        context_df = self.getContextCleaned()["mode"].value_counts().reset_index()
+    def get_mode_pie_chart(self):
+        context_df = self.get_context_cleaned()["mode"].value_counts().reset_index()
         context_df.columns = ["mode", "count"]
         fig = px.pie(
             context_df,
@@ -336,19 +336,19 @@ class SearchResult:
             title="Mode distribution",
         )
 
-        return self.addVisualLayout(fig)
+        return self.add_visual_layout(fig)
 
-    def getYearHistogram(self):
-        context_df = self.getContextCleaned()
+    def get_year_histogram(self):
+        context_df = self.get_context_cleaned()
         fig = px.histogram(
             context_df,
             x="year",
             title="Year distributions",
         )
-        return self.addVisualLayout(fig)
+        return self.add_visual_layout(fig)
 
-    def getMostCommonEventTypes(self):
-        context_df = self.getContextCleaned()
+    def get_most_common_event_types(self):
+        context_df = self.get_context_cleaned()
         type_counts = context_df.groupby("type")["document"].count()
 
         top_5_types = type_counts.nlargest(5).reset_index()
@@ -372,10 +372,10 @@ class SearchResult:
             title="Top 5 most common event types",
         )
 
-        return self.addVisualLayout(fig)
+        return self.add_visual_layout(fig)
 
-    def getAgencyPieChart(self):
-        context_df = self.getContextCleaned()["agency"].value_counts().reset_index()
+    def get_agency_pie_chart(self):
+        context_df = self.get_context_cleaned()["agency"].value_counts().reset_index()
         context_df.columns = ["agency", "count"]
         fig = px.pie(
             context_df,
@@ -384,9 +384,9 @@ class SearchResult:
             title="Agency distribution",
         )
 
-        return self.addVisualLayout(fig)
+        return self.add_visual_layout(fig)
 
-    def getSummary(self) -> str | None:
+    def get_summary(self) -> str | None:
         return self.summary
 
 
@@ -409,15 +409,15 @@ class SearchEngine:
         response = None
         # All situations that results in a search without rag
         if (
-            search.getQuery() == ""
-            or search.getQuery() is None
+            search.get_query() == ""
+            or search.get_query() is None
             or not with_rag
-            or search.getSearchType() == "fts"
+            or search.get_search_type() == "fts"
         ):
             results = searchEngineSearcher.search()
             response = SearchResult(search, results, None)
         # Otherwise do a rag search
-        elif with_rag and search.getQuery() != "":
+        elif with_rag and search.get_query() != "":
             response = searchEngineSearcher.rag_search()
 
         print(
@@ -434,8 +434,8 @@ class SearchEngineSearcher:
         vo: voyageai.Client,
     ):
         self.search_obj = search
-        self.query = search.getQuery()
-        self.settings = search.getSettings()
+        self.query = search.get_query()
+        self.settings = search.get_settings()
 
         self.vector_db_table = vector_db_table
 
@@ -495,19 +495,19 @@ class SearchEngineSearcher:
     def search(self) -> pd.DataFrame:
         where_statement = " AND ".join(
             [
-                f"year >= {str(self.settings.getYearRange()[0])} AND year <= {str(self.settings.getYearRange()[1])}",
-                f"document_type IN {tuple(self.settings.getDocumentTypes())}"
-                if len(self.settings.getDocumentTypes()) > 1
-                else f"document_type = '{self.settings.getDocumentTypes()[0]}'",
-                f"mode IN {tuple([str(mode.value) for mode in self.settings.getModes()])}"
-                if len(self.settings.getModes()) > 1
-                else f"mode = '{str(self.settings.getModes()[0].value)}'",
-                f"agency IN {tuple(self.settings.getAgencies())}"
-                if len(self.settings.getAgencies()) > 1
-                else f"agency = '{self.settings.getAgencies()[0]}'",
+                f"year >= {str(self.settings.get_year_range()[0])} AND year <= {str(self.settings.get_year_range()[1])}",
+                f"document_type IN {tuple(self.settings.get_document_types())}"
+                if len(self.settings.get_document_types()) > 1
+                else f"document_type = '{self.settings.get_document_types()[0]}'",
+                f"mode IN {tuple([str(mode.value) for mode in self.settings.get_modes()])}"
+                if len(self.settings.get_modes()) > 1
+                else f"mode = '{str(self.settings.get_modes()[0].value)}'",
+                f"agency IN {tuple(self.settings.get_agencies())}"
+                if len(self.settings.get_agencies()) > 1
+                else f"agency = '{self.settings.get_agencies()[0]}'",
             ]
         )
-        if self.search_obj.getSearchType() == "none":
+        if self.search_obj.get_search_type() == "none":
             print(f"Searching for everything that matches {where_statement}")
             return (
                 self.vector_db_table.search()
@@ -519,7 +519,7 @@ class SearchEngineSearcher:
 
         search_results = self._table_search(
             table=self.vector_db_table,
-            type=self.search_obj.getSearchType(),
+            type=self.search_obj.get_search_type(),
             filter=where_statement,
             limit=5000,
         )
@@ -530,7 +530,7 @@ class SearchEngineSearcher:
 
     def _filter_results(self, results: pd.DataFrame) -> pd.DataFrame:
         return results.query(
-            f"section_relevance_score > {self.settings.getRelevanceCutoff()}"
+            f"section_relevance_score > {self.settings.get_relevance_cutoff()}"
         )
 
     def _get_rag_prompt(self, search: str, search_results: pd.DataFrame):
