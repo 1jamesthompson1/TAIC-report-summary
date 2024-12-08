@@ -533,7 +533,7 @@ class SearchEngineSearcher:
             f"section_relevance_score > {self.settings.get_relevance_cutoff()}"
         )
 
-    def _get_rag_prompt(self, search: str, search_results: pd.DataFrame):
+    def _get_rag_prompt(self, search: Search, search_results: pd.DataFrame):
         context = "\n\n".join(
             f"""{document_type}:{id} from report {report} of type {report_type} with relevance {rel:.4f}:
 '{document}'
@@ -548,11 +548,11 @@ class SearchEngineSearcher:
             )
         )
         return f"""
-        My question is: {search.getQuery()}
+        My question is: {search.get_query()}
 
         Use the following pieces of retrieved context and your common knowledge to answer the question. Here is what my search settings looked like:
         
-        {search.getSettings().to_dict()}
+        {search.get_settings().to_dict()}
 
         If you don't know the answer, just say that you don't know.
         {context}

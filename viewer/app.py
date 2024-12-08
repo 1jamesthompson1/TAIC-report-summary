@@ -2,6 +2,7 @@ import argparse
 import copy
 import os
 import tempfile
+import traceback
 import uuid
 from io import StringIO
 from threading import Thread
@@ -62,14 +63,14 @@ data_last_updated_date = searcher.all_document_types_table.list_versions()[-1][
 ].strftime("%Y-%m-%d")
 
 
-def log_search(search):
+def log_search(search: Searching.Search):
     if searchlogs:
         search_log = {
             "PartitionKey": auth.get_user()["name"],
             "RowKey": search.uuid.hex,
-            "query": search.getQuery(),
+            "query": search.get_query(),
             "start_time": search.creation_time,
-            **search.getSettings().to_dict(),
+            **search.get_settings().to_dict(),
         }
         try:
             searchlogs.create_entity(entity=search_log)
@@ -79,18 +80,18 @@ def log_search(search):
         print("Error table does not exist")
 
 
-def log_search_results(results):
+def log_search_results(results: Searching.SearchResult):
     if resultslogs:
         results_log = {
             "PartitionKey": auth.get_user()["name"],
             "RowKey": results.search.uuid.hex,
             "duration": results.duration,
-            "summary": results.getSummary(),
-            "search_results": results.getContextCleaned()
+            "summary": results.get_summary(),
+            "search_results": results.get_context_cleaned()
             .head(100)
             .drop(columns=["document"])
             .to_json(),
-            "num_results": results.getContext().shape[0],
+            "num_results": results.get_context().shape[0],
         }
         try:
             resultslogs.create_entity(entity=results_log)
@@ -100,7 +101,7 @@ def log_search_results(results):
         print("Error table does not exist")
 
 
-def log_search_error(e, search):
+def log_search_error(e, search: Searching.Search):
     if errorlogs:
         error_log = {
             "PartitionKey": auth.get_user()["name"],
@@ -288,7 +289,7 @@ def search_reports(task_id, form_data):
         log_search_results(results)
         tasks_status[task_id] = "completed"
     except Exception as e:
-        print(e.with_traceback())
+        print("".join(traceback.format_exception(e)))
         log_search_error(e, search)
         tasks_results[task_id] = repr(e)
         tasks_status[task_id] = "failed"
