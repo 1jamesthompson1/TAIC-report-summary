@@ -288,7 +288,7 @@ def search_reports(task_id, form_data):
         log_search_results(results)
         tasks_status[task_id] = "completed"
     except Exception as e:
-        print(f"Error: {e}\n{Exception.with_traceback(e)}")
+        print(e.with_traceback())
         log_search_error(e, search)
         tasks_results[task_id] = repr(e)
         tasks_status[task_id] = "failed"
