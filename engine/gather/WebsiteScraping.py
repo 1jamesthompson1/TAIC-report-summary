@@ -182,7 +182,7 @@ class ReportScraper(WebsiteScraper):
 
         if not self.settings.refresh and (
             os.path.exists(file_name)
-            and self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
+            or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
         ):
             if pbar:
                 pbar.set_description(f"  {file_name} already exists, skipping download")

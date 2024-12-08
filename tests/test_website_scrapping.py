@@ -145,6 +145,8 @@ def test_agency_website_scraper(report_scraping_settings, agency, expected_urls)
 def test_agency_website_scraper_collecting_all_reports(
     report_scraping_settings, agency, expected_count
 ):
+    report_scraping_settings.refresh = True
+
     scraper = get_agency_scraper(agency, report_scraping_settings)
 
     assert scraper
