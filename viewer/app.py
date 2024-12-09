@@ -272,18 +272,6 @@ def search_reports(task_id, form_data):
         return
 
 
-def format_report_id_as_weblink(report_id):
-    """
-    Formats a report id like it has to be on the taic.org.nz website and hubstream links
-    2011_002 -> AO-2011-002
-    2018_206 -> MO-2018-206
-    2020_120 -> RO-2020-020
-    """
-    letters = ["a", "r", "m"]
-
-    return f"{letters[int(report_id[5])]}o-{report_id[0:4]}-{report_id[5:8]}"
-
-
 def get_updated_relevance_search(search, new_relevance):
     search.settings.relevanceCutoff = new_relevance
     return search.to_url_params()
@@ -374,9 +362,11 @@ def get_results_as_csv():
 
     summary_sheet["A1"] = "Search Query:"
     summary_sheet["D1"] = "Redo search:"
-    summary_sheet[
-        "E1"
-    ].hyperlink = f"""{request.url_root}?{Searching.Search(search_results["query"], settings=Searching.SearchSettings.from_dict(search_results["settings"])).to_url_params()}"""
+    url_params_for_search = Searching.Search(
+        search_results["query"],
+        settings=Searching.SearchSettings.from_dict(search_results["settings"]),
+    ).to_url_params()
+    summary_sheet["E1"].hyperlink = f"""{request.url_root}?{url_params_for_search}"""
     summary_sheet["A2"] = search_results["query"]
 
     summary_sheet["A4"] = "Start Time:"
