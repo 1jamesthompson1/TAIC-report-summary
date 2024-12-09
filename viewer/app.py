@@ -2,8 +2,10 @@ import argparse
 import copy
 import os
 import tempfile
+import time
 import traceback
 import uuid
+from datetime import datetime, timedelta
 from io import StringIO
 from threading import Thread
 
@@ -175,23 +177,100 @@ def feedback():
     )
 
 
-tasks_status = {}
-tasks_results = {}
+tasks = {}
+
+
+@app.before_request
+def setup_task_deleter():
+    app.before_request_funcs[None].remove(setup_task_deleter)
+    Thread(target=delete_old_tasks, daemon=True).start()
+
+
+def delete_old_tasks():
+    print("Starting delete old task loop")
+    while True:
+        now = datetime.now()
+        one_day_ago = now - timedelta(days=1)
+        tasks_to_delete = [
+            task_id
+            for task_id, task in tasks.items()
+            if task.creation_time < one_day_ago
+        ]
+        for task_id in tasks_to_delete:
+            del tasks[task_id]
+        time.sleep(3600)  # Sleep for one hour
+
+
+class Task:
+    def __init__(self):
+        self.status = "in progress"
+        self.result = None
+
+        self.creation_time = datetime.now()
+
+    def update(self, status, result=None):
+        if self.status == "completed" and result is None:
+            raise ValueError("result must be provided if status is completed")
+
+        self.status = status
+        self.result = result
+
+    def get_status(self):
+        return self.status
+
+    def get_result(self):
+        return self.result
+
+
+def create_task() -> str:
+    task_id = str(uuid.uuid4())
+    tasks[task_id] = Task()
+    return task_id
 
 
 @app.route("/task-status/<task_id>", methods=["GET"])
 def task_status(task_id):
-    status = tasks_status.get(task_id, "not found")
-    result = tasks_results.get(task_id, {})
-    if status == "completed":
-        session["search_results"] = result
+    task = tasks.get(task_id)
+    status = task.get_status() if task else "not found"
     print(f"Task status: '{status}'")
-    jsonified = jsonify({"task_id": task_id, "status": status, "result": result})
+    jsonified = jsonify(
+        {"task_id": task_id, "status": status, "result": task.get_result()}
+    )
+    if status == "completed":
+        session["search_results"] = task.get_result()
+        del tasks[task_id]
     return jsonified
 
 
-def get_search(form) -> Searching.Search:
-    return Searching.Search.from_form(form)
+@app.route("/search", methods=["POST"])
+def search():
+    if not auth.get_user():
+        return redirect(url_for("login"))
+
+    form_data = request.form
+
+    task_id = create_task()
+    task_thread = Thread(
+        target=copy_current_request_context(search_reports), args=(task_id, form_data)
+    )
+    task_thread.start()
+    return jsonify({"task_id": task_id}), 202
+
+
+def search_reports(task_id, form_data):
+    task = tasks.get(task_id)
+    try:
+        search = Searching.Search.from_form(form_data)
+        log_search(search)
+        results = searcher.search(search)
+        formatted_results = format_search_results(results)
+        task.update("completed", formatted_results)
+        log_search_results(results)
+    except Exception as e:
+        print("".join(traceback.format_exception(e)))
+        log_search_error(e, search)
+        task.update("failed", repr(e))
+        return
 
 
 def format_report_id_as_weblink(report_id):
@@ -261,39 +340,6 @@ def format_search_results(results: Searching.SearchResult):
         "start_time": results.search.get_start_time(),
         "query": results.search.get_query(),
     }
-
-
-@app.route("/search", methods=["POST"])
-def search():
-    if not auth.get_user():
-        return redirect(url_for("login"))
-
-    form_data = request.form
-
-    task_id = str(uuid.uuid4())
-    tasks_status[task_id] = "in progress"
-    task_thread = Thread(
-        target=copy_current_request_context(search_reports), args=(task_id, form_data)
-    )
-    task_thread.start()
-    return jsonify({"task_id": task_id}), 202
-
-
-def search_reports(task_id, form_data):
-    try:
-        search = get_search(form_data)
-        log_search(search)
-        results = searcher.search(search)
-        formatted_results = format_search_results(results)
-        tasks_results[task_id] = formatted_results
-        log_search_results(results)
-        tasks_status[task_id] = "completed"
-    except Exception as e:
-        print("".join(traceback.format_exception(e)))
-        log_search_error(e, search)
-        tasks_results[task_id] = repr(e)
-        tasks_status[task_id] = "failed"
-        return
 
 
 def send_csv_file(df: pd.DataFrame, name: str):
