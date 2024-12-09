@@ -1,4 +1,5 @@
 import os
+from datetime import timedelta
 
 AUTHORITY = os.getenv("AUTHORITY")
 
@@ -14,3 +15,5 @@ SCOPE = ["User.Read"]
 
 # Tells the Flask-session extension to store sessions in the filesystem
 SESSION_TYPE = "filesystem"
+PERMANENT_SESSION_LIFETIME = timedelta(days=3)
+SESSION_FILE_THRESHOLD = 50

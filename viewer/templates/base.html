@@ -4,8 +4,7 @@
 <head>
     <title>TAIC Document Searcher</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/static/favicon.png">
+    <link rel="icon" type="image/png" href="/static/favicon.png">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -25,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
 
     <!-- Custom JavaScript-->
-    <script type="text/javascript" src="/static/js/main.js"></script>
+    <script type="module" src="/static/js/main.js"></script>
 </head>
 <body>
     
@@ -43,7 +42,7 @@
             <h1>{% block title %}{% endblock %}</h1>
             <h5>Version: {{ version }}</h5>
         </div>
-        <div id="sesstionInfo">
+        <div id="sessionInfo">
             <p>Data last updated: {{ data_last_updated_date }}</p>
             {% if user %}
             <p>Logged in user: {{ user.get("name") }}</p>

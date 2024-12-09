@@ -18,8 +18,8 @@ class TestSearchSettings:
             0.1,
         )
 
-        assert settings.getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert settings.getYearRange() == (2000, 2020)
+        assert settings.get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert settings.get_year_range() == (2000, 2020)
 
     def test_failed_creation(self):
         with pytest.raises(TypeError):
@@ -63,10 +63,10 @@ class TestSearchSettings:
             }
         )
 
-        assert settings.getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert settings.getYearRange() == (2000, 2020)
-        assert settings.getDocumentTypes() == ["safety_issue", "recommendation"]
-        assert settings.getRelevanceCutoff() == 0.1
+        assert settings.get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert settings.get_year_range() == (2000, 2020)
+        assert settings.get_document_types() == ["safety_issue", "recommendation"]
+        assert settings.get_relevance_cutoff() == 0.1
 
 
 class TestSearch:
@@ -82,15 +82,15 @@ class TestSearch:
             ),
         )
 
-        assert search.getQuery() == "hello"
-        assert search.getSettings().getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert search.getSettings().getYearRange() == (2000, 2020)
-        assert search.getSettings().getRelevanceCutoff() == 0.1
-        assert search.getSettings().getDocumentTypes() == [
+        assert search.get_query() == "hello"
+        assert search.get_settings().get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert search.get_settings().get_year_range() == (2000, 2020)
+        assert search.get_settings().get_relevance_cutoff() == 0.1
+        assert search.get_settings().get_document_types() == [
             "safety_issue",
             "recommendation",
         ]
-        assert search.getSettings().getAgencies() == ["ATSB", "TSB"]
+        assert search.get_settings().get_agencies() == ["ATSB", "TSB"]
 
     def test_from_form_creation(self):
         form = {
@@ -108,11 +108,11 @@ class TestSearch:
 
         search = Searching.Search.from_form(form)
 
-        assert search.getQuery() == "hello"
-        assert search.getSettings().getModes() == [Modes.Mode.a, Modes.Mode.r]
-        assert search.getSettings().getYearRange() == (2000, 2020)
-        assert search.getSettings().getRelevanceCutoff() == 0.1
-        assert search.getSettings().getDocumentTypes() == [
+        assert search.get_query() == "hello"
+        assert search.get_settings().get_modes() == [Modes.Mode.a, Modes.Mode.r]
+        assert search.get_settings().get_year_range() == (2000, 2020)
+        assert search.get_settings().get_relevance_cutoff() == 0.1
+        assert search.get_settings().get_document_types() == [
             "safety_issue",
             "recommendation",
         ]
@@ -175,9 +175,9 @@ class TestSearcher:
         result = searcher.search(search, with_rag=False)
 
         assert result
-        assert result.getSummary() is None
-        assert isinstance(result.getSearchDuration(), str)
-        assert isinstance(result.getContext(), pd.DataFrame)
+        assert result.get_summary() is None
+        assert isinstance(result.get_search_duration(), str)
+        assert isinstance(result.get_context(), pd.DataFrame)
 
     def test_search_with_summary(self, searcher):
         search = Searching.Search(
@@ -193,78 +193,78 @@ class TestSearcher:
         result = searcher.search(search, with_rag=True)
 
         assert result
-        assert isinstance(result.getSummary(), str)
-        assert isinstance(result.getContext(), pd.DataFrame)
+        assert isinstance(result.get_summary(), str)
+        assert isinstance(result.get_context(), pd.DataFrame)
 
-    def test_filtered_search(self, searcher):
-        search = Searching.Search(
-            "pilot",
-            Searching.SearchSettings(
+    @pytest.mark.parametrize(
+        "query, agencies, modes, years, filters, relevance_cutoff, expected_modes, expected_years",
+        [
+            (
+                "pilot",
                 ["TAIC"],
                 [Modes.Mode.a, Modes.Mode.r],
                 (2010, 2015),
                 ["safety_issue", "recommendation"],
                 0.7,
+                ["0", "1"],
+                [2010, 2011, 2012, 2013, 2014, 2015],
             ),
-        )
-        result = searcher.search(search, with_rag=False)
-
-        assert result
-        assert result.getSummary() is None
-        assert isinstance(result.getContext(), pd.DataFrame)
-
-        assert len(result.getContext()) > 0
-
-        assert (
-            result.getContext()["year"].isin([2010, 2011, 2012, 2013, 2014, 2015]).all()
-        )
-
-        assert result.getContext()["mode"].isin(["0", "1"]).all()
-
-    def test_filtered_search_single_mode(self, searcher):
-        search = Searching.Search(
-            "pilot",
-            Searching.SearchSettings(
+            (
+                "pilot",
                 ["ATSB", "TSB"],
                 [Modes.Mode.a],
                 (2010, 2015),
                 ["safety_issue", "recommendation"],
                 0.5,
+                ["0"],
+                [2010, 2011, 2012, 2013, 2014, 2015],
             ),
-        )
-        result = searcher.search(search, with_rag=False)
-
-        assert result
-        assert result.getSummary() is None
-        assert isinstance(result.getContext(), pd.DataFrame)
-
-        assert (
-            result.getContext()["year"].isin([2010, 2011, 2012, 2013, 2014, 2015]).all()
-        )
-
-        assert result.getContext()["mode"].isin(["0"]).all()
-
-    def test_filtered_search_no_query(self, searcher):
-        search = Searching.Search(
-            "",
-            Searching.SearchSettings(
+            (
+                "",
                 ["ATSB", "TSB", "TAIC"],
                 [Modes.Mode.m, Modes.Mode.r],
                 (2002, 2005),
                 ["safety_issue", "recommendation"],
                 0.6,
+                ["2", "1"],
+                [2002, 2003, 2004, 2005],
+            ),
+        ],
+    )
+    def test_filtered_search(
+        self,
+        query,
+        agencies,
+        modes,
+        years,
+        filters,
+        relevance_cutoff,
+        expected_modes,
+        expected_years,
+        searcher,
+    ):
+        search = Searching.Search(
+            query,
+            Searching.SearchSettings(
+                agencies,
+                modes,
+                years,
+                filters,
+                relevance_cutoff,
             ),
         )
-        assert search.getSearchType() == "none"
+
+        if query == "":
+            assert search.get_search_type() == "none"
+
         result = searcher.search(search, with_rag=False)
 
         assert result
-        assert result.getSummary() is None
-        assert isinstance(result.getContext(), pd.DataFrame)
+        assert result.get_summary() is None
+        assert isinstance(result.get_context(), pd.DataFrame)
 
-        assert result.getContext()["year"].isin([2002, 2003, 2004, 2005]).all()
-
-        assert result.getContext()["mode"].isin(["2", "1"]).all()
+        assert result.get_context()["year"].isin(expected_years).all()
+        assert result.get_context()["mode"].isin(expected_modes).all()
 
     def test_search_without_results(self, searcher):
         search = Searching.Search(
@@ -277,12 +277,12 @@ class TestSearcher:
                 0.6,
             ),
         )
-        assert search.getSearchType() == "vector"
+        assert search.get_search_type() == "vector"
         result = searcher.search(search, with_rag=False)
 
         assert result
-        assert result.getSummary() is None
-        assert result.getContext().empty
+        assert result.get_summary() is None
+        assert result.get_context().empty
 
     def test_fts_search(self, searcher):
         search = Searching.Search(
@@ -295,13 +295,13 @@ class TestSearcher:
                 0.6,
             ),
         )
-        assert search.getSearchType() == "fts"
+        assert search.get_search_type() == "fts"
         result = searcher.search(search, with_rag=False)
 
         assert result
-        assert result.getSummary() is None
+        assert result.get_summary() is None
 
-        assert result.getContext().shape[0] == 45
+        assert result.get_context().shape[0] == 45
 
     def test_fts_search_no_results(self, searcher):
         search = Searching.Search(
@@ -314,10 +314,10 @@ class TestSearcher:
                 0.3,
             ),
         )
-        assert search.getSearchType() == "fts"
+        assert search.get_search_type() == "fts"
         result = searcher.search(search, with_rag=False)
 
         assert result
-        assert result.getSummary() is None
+        assert result.get_summary() is None
 
-        assert result.getContext().shape[0] == 0
+        assert result.get_context().shape[0] == 0
