@@ -63,6 +63,10 @@ data_last_updated_date = searcher.all_document_types_table.list_versions()[-1][
     "timestamp"
 ].strftime("%Y-%m-%d")
 
+app.jinja_env.globals.update(
+    version=__version__, data_last_updated_date=data_last_updated_date
+)
+
 
 def log_search(search: Searching.Search):
     if searchlogs:
@@ -140,8 +144,6 @@ def auth_response():
         return render_template(
             "auth_error.html",
             result=result,
-            version=__version__,
-            data_last_updated_date=data_last_updated_date,
         )
     return redirect(url_for("index"))
 
@@ -158,8 +160,6 @@ def index():
     return render_template(
         "index.html",
         user=auth.get_user(),
-        version=__version__,
-        data_last_updated_date=data_last_updated_date,
     )
 
 
@@ -170,9 +170,7 @@ def feedback():
     return render_template(
         "feedback_form.html",
         user=auth.get_user(),
-        version=__version__,
         feedback_form_loaded=True,
-        data_last_updated_date=data_last_updated_date,
     )
 
 
