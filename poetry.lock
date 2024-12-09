@@ -2018,6 +2018,8 @@ files = [
 ]
 
 [package.dependencies]
+flask = {version = "*", optional = true, markers = "extra == \"flask\""}
+Flask-Session = {version = ">=0.3.2,<0.7.0 || >0.7.0,<0.9", optional = true, markers = "extra == \"flask\""}
 msal = ">=1.28,<2"
 requests = ">=2.0.0,<3"
 
@@ -6776,4 +6778,4 @@ testing = ["coverage[toml]", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "41b7538dd1f5af41c4aeb42cf7877fab5e6c2a0e976050a53049424cff7fa013"
+content-hash = "544a994b9584468d1f119d4b83306cf6163ed8569d5a3d0fb158dff1568cb22f"
