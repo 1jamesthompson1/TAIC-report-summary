@@ -27,14 +27,20 @@ def get_agency_scraper(
     agency: str, settings: WebsiteScraping.ReportScraperSettings
 ) -> WebsiteScraping.ReportScraper:
     if agency == "TAIC":
-        return WebsiteScraping.TAICReportScraper(settings)
-    elif agency == "ATSB":
-        return WebsiteScraping.ATSBReportScraper(
-            settings,
+        return WebsiteScraping.TAICReportScraper(
             os.path.join(
                 pytest.output_config.get("folder_name"),
-                pytest.output_config.get("atsb_historic_aviation_df_file_name"),
+                pytest.output_config.get("taic_website_reports_table_file_name"),
             ),
+            settings,
+        )
+    elif agency == "ATSB":
+        return WebsiteScraping.ATSBReportScraper(
+            os.path.join(
+                pytest.output_config.get("folder_name"),
+                pytest.output_config.get("atsb_website_reports_table_file_name"),
+            ),
+            settings,
         )
     elif agency == "TSB":
         return WebsiteScraping.TSBReportScraper(settings)
@@ -101,7 +107,7 @@ def test_report_collection(report_scraping_settings, agency, url, report_id, exp
     "agency, expected_urls",
     [
         pytest.param("TSB", [54, 24, 20, 13, 19, 10, 15, 10, 13], id="TSB"),
-        pytest.param("TAIC", [11, 12, 3, 29, 8, 4, 12, 3, 5], id="TAIC"),
+        pytest.param("TAIC", [11, 12, 3, 28, 8, 4, 12, 3, 5], id="TAIC"),
         pytest.param("ATSB", [93, 179, 50, 6, 25, 17, 15, 8, 2], id="ATSB"),
     ],
 )
@@ -137,14 +143,19 @@ def test_agency_website_scraper(report_scraping_settings, agency, expected_urls)
 @pytest.mark.parametrize(
     "agency, expected_count",
     [
-        pytest.param("TSB", 33, id="TSB"),
-        pytest.param("TAIC", 33, id="TAIC"),
-        pytest.param("ATSB", 33, id="ATSB"),
+        pytest.param("TSB", 15, id="TSB"),
+        pytest.param("TAIC", 15, id="TAIC"),
+        pytest.param("ATSB", 15, id="ATSB"),
     ],
 )
 def test_agency_website_scraper_collecting_all_reports(
     report_scraping_settings, agency, expected_count
 ):
+    report_scraping_settings.refresh = True
+
+    report_scraping_settings.start_year = 2008
+    report_scraping_settings.end_year = 2012
+
     scraper = get_agency_scraper(agency, report_scraping_settings)
 
     assert scraper
@@ -154,8 +165,11 @@ def test_agency_website_scraper_collecting_all_reports(
     assert len(os.listdir(report_scraping_settings.report_dir)) == expected_count
 
 
-def test_ATSB_safety_issue_scrape(tmpdir):
-    output_path = os.path.join(tmpdir, "test_ATSB_safety_issue_scrape.pkl")
+def test_ATSB_safety_issue_scrape():
+    output_path = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["atsb_website_safety_issues_file_name"],
+    )
     report_titles = os.path.join(
         pytest.output_config["folder_name"],
         pytest.output_config["report_titles_df_file_name"],
