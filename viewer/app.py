@@ -2,7 +2,10 @@ import argparse
 import copy
 import os
 import tempfile
+import time
+import traceback
 import uuid
+from datetime import datetime, timedelta
 from io import StringIO
 from threading import Thread
 
@@ -40,7 +43,6 @@ Session(app)
 
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
-app.jinja_env.globals.update(Auth=identity.web.Auth)  # Useful in template for B2C
 auth = identity.web.Auth(
     session=session,
     authority=app.config["AUTHORITY"],
@@ -61,15 +63,19 @@ data_last_updated_date = searcher.all_document_types_table.list_versions()[-1][
     "timestamp"
 ].strftime("%Y-%m-%d")
 
+app.jinja_env.globals.update(
+    version=__version__, data_last_updated_date=data_last_updated_date
+)
 
-def log_search(search):
+
+def log_search(search: Searching.Search):
     if searchlogs:
         search_log = {
             "PartitionKey": auth.get_user()["name"],
             "RowKey": search.uuid.hex,
-            "query": search.getQuery(),
+            "query": search.get_query(),
             "start_time": search.creation_time,
-            **search.getSettings().to_dict(),
+            **search.get_settings().to_dict(),
         }
         try:
             searchlogs.create_entity(entity=search_log)
@@ -79,18 +85,18 @@ def log_search(search):
         print("Error table does not exist")
 
 
-def log_search_results(results):
+def log_search_results(results: Searching.SearchResult):
     if resultslogs:
         results_log = {
             "PartitionKey": auth.get_user()["name"],
             "RowKey": results.search.uuid.hex,
             "duration": results.duration,
-            "summary": results.getSummary(),
-            "search_results": results.getContextCleaned()
+            "summary": results.get_summary(),
+            "search_results": results.get_context_cleaned()
             .head(100)
             .drop(columns=["document"])
             .to_json(),
-            "num_results": results.getContext().shape[0],
+            "num_results": results.get_context().shape[0],
         }
         try:
             resultslogs.create_entity(entity=results_log)
@@ -100,7 +106,7 @@ def log_search_results(results):
         print("Error table does not exist")
 
 
-def log_search_error(e, search):
+def log_search_error(e, search: Searching.Search):
     if errorlogs:
         error_log = {
             "PartitionKey": auth.get_user()["name"],
@@ -138,8 +144,6 @@ def auth_response():
         return render_template(
             "auth_error.html",
             result=result,
-            version=__version__,
-            data_last_updated_date=data_last_updated_date,
         )
     return redirect(url_for("index"))
 
@@ -156,8 +160,6 @@ def index():
     return render_template(
         "index.html",
         user=auth.get_user(),
-        version=__version__,
-        data_last_updated_date=data_last_updated_date,
     )
 
 
@@ -168,50 +170,115 @@ def feedback():
     return render_template(
         "feedback_form.html",
         user=auth.get_user(),
-        version=__version__,
         feedback_form_loaded=True,
-        data_last_updated_date=data_last_updated_date,
     )
 
 
-tasks_status = {}
-tasks_results = {}
+tasks = {}
+
+
+@app.before_request
+def setup_task_deleter():
+    app.before_request_funcs[None].remove(setup_task_deleter)
+    Thread(target=delete_old_tasks, daemon=True).start()
+
+
+def delete_old_tasks():
+    print("Starting delete old task loop")
+    while True:
+        now = datetime.now()
+        one_day_ago = now - timedelta(days=1)
+        tasks_to_delete = [
+            task_id
+            for task_id, task in tasks.items()
+            if task.creation_time < one_day_ago
+        ]
+        for task_id in tasks_to_delete:
+            del tasks[task_id]
+        time.sleep(3600)  # Sleep for one hour
+
+
+class Task:
+    def __init__(self):
+        self.status = "in progress"
+        self.result = None
+
+        self.creation_time = datetime.now()
+
+    def update(self, status, result=None):
+        if self.status == "completed" and result is None:
+            raise ValueError("result must be provided if status is completed")
+
+        self.status = status
+        self.result = result
+
+    def get_status(self):
+        return self.status
+
+    def get_result(self):
+        return self.result
+
+
+def create_task() -> str:
+    task_id = str(uuid.uuid4())
+    tasks[task_id] = Task()
+    return task_id
 
 
 @app.route("/task-status/<task_id>", methods=["GET"])
 def task_status(task_id):
-    status = tasks_status.get(task_id, "not found")
-    result = tasks_results.get(task_id, {})
-    if status == "completed":
-        session["search_results"] = result
+    if not auth.get_user():
+        return redirect(url_for("login"))
+    task = tasks.get(task_id)
+    status = task.get_status() if task else "not found"
     print(f"Task status: '{status}'")
-    jsonified = jsonify({"task_id": task_id, "status": status, "result": result})
+    jsonified = jsonify(
+        {"task_id": task_id, "status": status, "result": task.get_result()}
+    )
+    if status == "completed":
+        session["search_results"] = task.get_result()
+        del tasks[task_id]
     return jsonified
 
 
-def get_search(form) -> Searching.Search:
-    return Searching.Search.from_form(form)
+@app.route("/search", methods=["POST"])
+def search():
+    if not auth.get_user():
+        return redirect(url_for("login"))
+
+    form_data = request.form
+
+    task_id = create_task()
+    task_thread = Thread(
+        target=copy_current_request_context(search_reports), args=(task_id, form_data)
+    )
+    task_thread.start()
+    return jsonify({"task_id": task_id}), 202
 
 
-def format_report_id_as_weblink(report_id):
-    """
-    Formats a report id like it has to be on the taic.org.nz website and hubstream links
-    2011_002 -> AO-2011-002
-    2018_206 -> MO-2018-206
-    2020_120 -> RO-2020-020
-    """
-    letters = ["a", "r", "m"]
+def search_reports(task_id, form_data):
+    task = tasks.get(task_id)
+    try:
+        search = Searching.Search.from_form(form_data)
+        log_search(search)
+        results = searcher.search(search)
+        formatted_results = format_search_results(results)
+        task.update("completed", formatted_results)
+        log_search_results(results)
+    except Exception as e:
+        print("".join(traceback.format_exception(e)))
+        log_search_error(e, search)
+        task.update("failed", repr(e))
+        return
 
-    return f"{letters[int(report_id[5])]}o-{report_id[0:4]}-{report_id[5:8]}"
 
-
-def getUpdatedRelevanceSearch(search, new_relevance):
+def get_updated_relevance_search(search, new_relevance):
     search.settings.relevanceCutoff = new_relevance
     return search.to_url_params()
 
 
 def format_search_results(results: Searching.SearchResult):
-    context_df = results.getContextCleaned()
+    context_df = results.get_context_cleaned()
 
     context_df["report_id"] = context_df[["report_id", "url"]].apply(
         lambda x: f'<a href="{x["url"]}" target="_blank">{x["report_id"]}</a>', axis=1
@@ -220,7 +287,7 @@ def format_search_results(results: Searching.SearchResult):
     context_df = context_df.drop(columns=["url"])
 
     context_df["relevance"] = context_df.apply(
-        lambda x: f"""<a href="/?{getUpdatedRelevanceSearch(copy.deepcopy(results.search), x['relevance'])}">{x['relevance']}</a>""",
+        lambda x: f"""<a href="/?{get_updated_relevance_search(copy.deepcopy(results.search), x['relevance'])}">{x['relevance']}</a>""",
         axis=1,
     )
 
@@ -232,15 +299,15 @@ def format_search_results(results: Searching.SearchResult):
         escape=False,
     )
 
-    document_type_pie_chart = results.getDocumentTypePieChart().to_json()
+    document_type_pie_chart = results.get_document_type_pie_chart().to_json()
 
-    mode_pie_chart = results.getModePieChart().to_json()
+    mode_pie_chart = results.get_mode_pie_chart().to_json()
 
-    year_hist = results.getYearHistogram().to_json()
+    year_hist = results.get_year_histogram().to_json()
 
-    most_common_event_types = results.getMostCommonEventTypes().to_json()
+    most_common_event_types = results.get_most_common_event_types().to_json()
 
-    agency_distribution = results.getAgencyPieChart().to_json()
+    agency_distribution = results.get_agency_pie_chart().to_json()
 
     print(f"Formatted results {len(context_df)}")
 
@@ -252,47 +319,14 @@ def format_search_results(results: Searching.SearchResult):
             "year_histogram": year_hist,
             "most_common_event_types": most_common_event_types,
             "agency_pie_chart": agency_distribution,
-            "duration": results.getSearchDuration(),
+            "duration": results.get_search_duration(),
             "num_results": context_df.shape[0],
         },
-        "summary": results.getSummary(),
-        "settings": results.search.getSettings().to_dict(),
-        "start_time": results.search.getStartTime(),
-        "query": results.search.getQuery(),
+        "summary": results.get_summary(),
+        "settings": results.search.get_settings().to_dict(),
+        "start_time": results.search.get_start_time(),
+        "query": results.search.get_query(),
     }
-
-
-@app.route("/search", methods=["POST"])
-def search():
-    if not auth.get_user():
-        return redirect(url_for("login"))
-
-    form_data = request.form
-
-    task_id = str(uuid.uuid4())
-    tasks_status[task_id] = "in progress"
-    task_thread = Thread(
-        target=copy_current_request_context(search_reports), args=(task_id, form_data)
-    )
-    task_thread.start()
-    return jsonify({"task_id": task_id}), 202
-
-
-def search_reports(task_id, form_data):
-    try:
-        search = get_search(form_data)
-        log_search(search)
-        results = searcher.search(search)
-        formatted_results = format_search_results(results)
-        tasks_results[task_id] = formatted_results
-        log_search_results(results)
-        tasks_status[task_id] = "completed"
-    except Exception as e:
-        print(f"Error: {e}\n{Exception.with_traceback(e)}")
-        log_search_error(e, search)
-        tasks_results[task_id] = repr(e)
-        tasks_status[task_id] = "failed"
-        return
 
 
 def send_csv_file(df: pd.DataFrame, name: str):
@@ -328,9 +362,11 @@ def get_results_as_csv():
 
     summary_sheet["A1"] = "Search Query:"
     summary_sheet["D1"] = "Redo search:"
-    summary_sheet[
-        "E1"
-    ].hyperlink = f"""https://taic-document-searcher-cfdkgxgnc3bxgbeg.australiaeast-01.azurewebsites.net/?{Searching.Search(search_results["query"], settings=Searching.SearchSettings.from_dict(search_results["settings"])).to_url_params()}"""
+    url_params_for_search = Searching.Search(
+        search_results["query"],
+        settings=Searching.SearchSettings.from_dict(search_results["settings"]),
+    ).to_url_params()
+    summary_sheet["E1"].hyperlink = f"""{request.url_root}?{url_params_for_search}"""
     summary_sheet["A2"] = search_results["query"]
 
     summary_sheet["A4"] = "Start Time:"

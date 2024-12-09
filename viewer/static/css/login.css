@@ -1,5 +1,5 @@
 
-#sign-in-btn {
+#signInBtn {
     display: block;
     width: 60%;
     padding: 10px;
@@ -15,11 +15,11 @@
     cursor: pointer;
 }
 
-#sign-in-btn:hover {
+#signInBtn:hover {
     background-color: #0069d9;
 }
 
-#sign-in-container {
+#signInContainer {
     display: flex;
     justify-content: center;
     align-items: center;
