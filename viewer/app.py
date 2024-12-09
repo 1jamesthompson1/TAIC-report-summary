@@ -45,7 +45,9 @@ auth = identity.flask.Auth(
     authority=app.config["AUTHORITY"],
     client_id=app.config["CLIENT_ID"],
     client_credential=app.config["CLIENT_SECRET"],
+    redirect_uri=app.config["REDIRECT_URI"],
 )
+
 
 connection_string = f"AccountName={os.getenv('AZURE_STORAGE_ACCOUNT_NAME')};AccountKey={os.getenv('AZURE_STORAGE_ACCOUNT_KEY')};EndpointSuffix=core.windows.net"
 client = TableServiceClient.from_connection_string(conn_str=connection_string)
