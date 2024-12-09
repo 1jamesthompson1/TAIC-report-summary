@@ -156,8 +156,11 @@ def test_agency_website_scraper_collecting_all_reports(
     assert len(os.listdir(report_scraping_settings.report_dir)) == expected_count
 
 
-def test_ATSB_safety_issue_scrape(tmpdir):
-    output_path = os.path.join(tmpdir, "test_ATSB_safety_issue_scrape.pkl")
+def test_ATSB_safety_issue_scrape():
+    output_path = os.path.join(
+        pytest.output_config["folder_name"],
+        pytest.output_config["atsb_website_safety_issues_file_name"],
+    )
     report_titles = os.path.join(
         pytest.output_config["folder_name"],
         pytest.output_config["report_titles_df_file_name"],
