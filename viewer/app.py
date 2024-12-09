@@ -43,7 +43,6 @@ Session(app)
 
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
-app.jinja_env.globals.update(Auth=identity.web.Auth)  # Useful in template for B2C
 auth = identity.web.Auth(
     session=session,
     authority=app.config["AUTHORITY"],
@@ -230,6 +229,8 @@ def create_task() -> str:
 
 @app.route("/task-status/<task_id>", methods=["GET"])
 def task_status(task_id):
+    if not auth.get_user():
+        return redirect(url_for("login"))
     task = tasks.get(task_id)
     status = task.get_status() if task else "not found"
     print(f"Task status: '{status}'")
