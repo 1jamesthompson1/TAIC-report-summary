@@ -355,27 +355,49 @@ class ReportScraper(WebsiteScraper):
 
 
 class TAICReportScraper(ReportScraper):
-    def __init__(self, settings: ReportScraperSettings):
+    def __init__(self, reports_table_path, settings: ReportScraperSettings):
         super().__init__(settings)
         self.agency = "TAIC"
 
-        self.agency_reports = self.__get_taic_investigations()
+        self.agency_reports = self.__get_taic_investigations(reports_table_path)
 
-    def __get_taic_investigations(self):
+    def __get_taic_investigations(self, reports_table_path):
         """TAICs websites provides an investigation table than can be easily read by pandas read_html"""
-        pages = []
+        if os.path.exists(reports_table_path):
+            investigations = pd.read_pickle(reports_table_path)
+        else:
+            investigations = pd.DataFrame(columns=["id", "year", "Status"])
         page_num = 0
         while True:
             try:
-                pages.append(
-                    pd.read_html(
-                        hrequests.get(
-                            f"https://www.taic.org.nz/inquiries?page={page_num}",
-                            headers=self.headers,
-                        ).content,
-                        flavor="lxml",
-                    )[0]
+                investigation_page = pd.read_html(
+                    hrequests.get(
+                        f"https://www.taic.org.nz/inquiries?page={page_num}",
+                        headers=self.headers,
+                    ).content,
+                    flavor="lxml",
+                )[0]
+
+                investigation_page["year"] = investigation_page["Number and name"].map(
+                    lambda x: int(re.search(r"-(\d{4})-", x).group(1))
                 )
+
+                investigation_page["id"] = investigation_page["Number and name"].map(
+                    lambda x: re.search(r"(?:[MAR]O-\d{4}-)\d{3}", x).group(0)
+                )
+
+                investigation_page = investigation_page.loc[
+                    ~investigation_page["id"].isin(investigations["id"]),
+                    ["id", "year", "Status"],
+                ]
+
+                if investigation_page.empty:
+                    break
+
+                investigations = pd.concat(
+                    [investigations, investigation_page], ignore_index=True
+                )
+
                 page_num += 1
             except hrequests.exceptions.ClientException as e:
                 print(f"Timeout while scraping TAIC investigations: {e}")
@@ -383,22 +405,14 @@ class TAICReportScraper(ReportScraper):
             except ValueError:
                 break
 
-        investigations = pd.concat(pages, ignore_index=True)
-
         investigations.set_index(
-            investigations["Number and name"].map(lambda x: Modes.Mode[x[0].lower()]),
+            investigations["id"].map(lambda x: Modes.Mode[x[0].lower()]),
             inplace=True,
         )
 
-        investigations["year"] = investigations["Number and name"].map(
-            lambda x: int(re.search(r"-(\d{4})-", x).group(1))
-        )
+        investigations.to_pickle(reports_table_path)
 
-        investigations["id"] = investigations["Number and name"].map(
-            lambda x: re.search(r"(?:[MAR]O-\d{4}-)\d{3}", x).group(0)
-        )
-
-        return investigations[["id", "year", "Status"]]
+        return investigations
 
     def get_report_urls(self, mode, year):
         return [
@@ -422,21 +436,19 @@ class TAICReportScraper(ReportScraper):
 class ATSBReportScraper(ReportScraper):
     def __init__(
         self,
+        website_reports_file_name,
         settings: ReportScraperSettings,
-        historic_aviation_investigations_path=None,
     ):
         super().__init__(settings)
         self.agency = "ATSB"
-        self.agency_reports = self.__get_atsb_investigations(
-            historic_aviation_investigations_path
-        )
+        self.agency_reports = self.__get_atsb_investigations(website_reports_file_name)
 
-    def __get_atsb_investigations(self, historic_aviation_investigations_path=None):
+    def __get_atsb_investigations(self, website_reports_file_name=None):
         """ATSBs websites provides an investigation table than can be easily read by pandas read_html. The only catch is that the aviation goes all the way back to 1960s and so only the first few pages of the aviation table is scraped. It will then be combined with a complete scrape of the table to find the new ids."""
-        if historic_aviation_investigations_path is None or not os.path.exists(
-            historic_aviation_investigations_path
+        if website_reports_file_name is None or not os.path.exists(
+            website_reports_file_name
         ):
-            historic_aviation_investigations = pd.DataFrame(
+            investigations = pd.DataFrame(
                 columns=[
                     "Investigation title",
                     "Investigation number",
@@ -447,9 +459,7 @@ class ATSBReportScraper(ReportScraper):
                 ]
             )
         else:
-            historic_aviation_investigations = pd.read_pickle(
-                historic_aviation_investigations_path
-            )
+            investigations = pd.read_pickle(website_reports_file_name)
 
         url_start_date = (
             f"field_occurence_date_value%5Bmin%5D={self.settings.start_year}-01-01"
@@ -505,19 +515,37 @@ class ATSBReportScraper(ReportScraper):
                         inplace=True,
                     )
 
-                    if mode == "aviation":
-                        # Check if any investigation number match.
-                        new_investigations = page_df[
-                            ~page_df["Investigation number"].isin(
-                                historic_aviation_investigations["Investigation number"]
-                            )
-                        ]
-                        if len(new_investigations) == 0:
-                            break
-                        else:
-                            pages.append(new_investigations)
-                    else:
-                        pages.append(page_df)
+                    new_investigations = page_df[
+                        ~page_df["Investigation number"].isin(
+                            investigations["Investigation number"]
+                        )
+                    ]
+
+                    new_investigations.loc[:, "year"] = pd.to_datetime(
+                        new_investigations["Occurrence date"].to_list(),
+                        format="%d/%m/%Y",
+                        errors="coerce",
+                    ).year
+
+                    new_investigations = new_investigations.query(
+                        f"year >= {self.settings.start_year}"
+                    )
+
+                    new_investigations["id"] = new_investigations[
+                        "Investigation number"
+                    ].map(
+                        lambda x: re.search(r"(\d{3})$|(?:(?:\d{5})(\d{4}))$", str(x))
+                    )
+
+                    new_investigations = new_investigations.dropna(subset=["id"])
+                    new_investigations["id"] = new_investigations["id"].map(
+                        lambda x: x.group(1) if x.group(1) is not None else x.group(2)
+                    )
+
+                    if new_investigations.empty:
+                        break
+
+                    pages.append(new_investigations)
 
                     page_num += 1
                 except hrequests.exceptions.ClientException as e:
@@ -529,32 +557,32 @@ class ATSBReportScraper(ReportScraper):
                     print(f"Assuming end of {mode} reports")
                     break
 
+            if len(pages) == 0:
+                print(f"No investigations found for mode: {mode}")
+                continue
+
             mode_investigations = pd.concat(
-                pages
-                + ([historic_aviation_investigations] if mode == "aviation" else []),
+                pages,
                 ignore_index=True,
             )
 
             dfs.append(mode_investigations)
 
-        df = pd.concat(dfs, axis=0, keys=self.settings.modes)
+        if len(dfs) == 0:
+            return investigations
 
-        df["year"] = pd.to_datetime(
-            df["Occurrence date"].to_list(), format="%d/%m/%Y", errors="coerce"
-        ).year
+        new_investigations = pd.concat(
+            dfs, axis=0, keys=self.settings.modes
+        ).reset_index(level=1, drop=True)
 
-        df = df.query(f"year >= {self.settings.start_year}")
-
-        df["id"] = df["Investigation number"].map(
-            lambda x: re.search(r"(\d{3})$|(?:(?:\d{5})(\d{4}))$", str(x))
+        investigations = investigations = pd.concat(
+            [investigations, new_investigations],
+            axis=0,
         )
 
-        df = df.dropna(subset=["id"])
-        df["id"] = df["id"].map(
-            lambda x: x.group(1) if x.group(1) is not None else x.group(2)
-        )
+        investigations.to_pickle(website_reports_file_name)
 
-        return df
+        return investigations
 
     def get_report_urls(self, mode, year):
         return [

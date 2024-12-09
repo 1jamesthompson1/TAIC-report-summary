@@ -27,14 +27,20 @@ def get_agency_scraper(
     agency: str, settings: WebsiteScraping.ReportScraperSettings
 ) -> WebsiteScraping.ReportScraper:
     if agency == "TAIC":
-        return WebsiteScraping.TAICReportScraper(settings)
-    elif agency == "ATSB":
-        return WebsiteScraping.ATSBReportScraper(
-            settings,
+        return WebsiteScraping.TAICReportScraper(
             os.path.join(
                 pytest.output_config.get("folder_name"),
-                pytest.output_config.get("atsb_historic_aviation_df_file_name"),
+                pytest.output_config.get("taic_website_reports_table_file_name"),
             ),
+            settings,
+        )
+    elif agency == "ATSB":
+        return WebsiteScraping.ATSBReportScraper(
+            os.path.join(
+                pytest.output_config.get("folder_name"),
+                pytest.output_config.get("atsb_website_reports_table_file_name"),
+            ),
+            settings,
         )
     elif agency == "TSB":
         return WebsiteScraping.TSBReportScraper(settings)

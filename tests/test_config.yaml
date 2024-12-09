@@ -19,8 +19,11 @@ engine:
     extracted_reports_df_file_name: "extracted_reports.pkl"
     recommendation_safety_issue_links_df_file_name: "recommendation_safety_issue_links.pkl"
     recommendation_response_classification_df_file_name: "response_classification_partly_classified.pkl"
-    atsb_historic_aviation_df_file_name: "atsb_historic_aviation_investigations.pkl"
     atsb_website_safety_issues_file_name: "atsb_website_safety_issues.pkl"
+    tsb_website_recommendations_file_name: "tsb_website_recommendations.pkl"
+    taic_website_recommendations_file_name: "taic_website_recommendations.pkl"
+    atsb_website_reports_table_file_name: "atsb_website_reports_table.pkl"
+    taic_website_reports_table_file_name: "taic_website_reports_table.pkl"
     embeddings:
       folder_name: "embeddings"
       safety_issues_file_name: "safety_issues_embeddings.pkl"
