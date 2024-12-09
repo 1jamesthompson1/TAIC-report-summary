@@ -67,10 +67,10 @@ app.jinja_env.globals.update(
 )
 
 
-def log_search(search: Searching.Search):
+def log_search(search: Searching.Search, user: str):
     if searchlogs:
         search_log = {
-            "PartitionKey": auth.get_user()["name"],
+            "PartitionKey": user,
             "RowKey": search.uuid.hex,
             "query": search.get_query(),
             "start_time": search.creation_time,
@@ -84,10 +84,10 @@ def log_search(search: Searching.Search):
         print("Error table does not exist")
 
 
-def log_search_results(results: Searching.SearchResult):
+def log_search_results(results: Searching.SearchResult, user: str):
     if resultslogs:
         results_log = {
-            "PartitionKey": auth.get_user()["name"],
+            "PartitionKey": user,
             "RowKey": results.search.uuid.hex,
             "duration": results.duration,
             "summary": results.get_summary(),
@@ -105,10 +105,10 @@ def log_search_results(results: Searching.SearchResult):
         print("Error table does not exist")
 
 
-def log_search_error(e, search: Searching.Search):
+def log_search_error(e, search: Searching.Search, user: str):
     if errorlogs:
         error_log = {
-            "PartitionKey": auth.get_user()["name"],
+            "PartitionKey": user,
             "RowKey": search.uuid.hex,
             "error": repr(e),
         }
@@ -118,40 +118,6 @@ def log_search_error(e, search: Searching.Search):
             print(e)
     else:
         print("Error table does not exist")
-
-
-# @app.route("/login")
-# def login():
-#     return render_template(
-#         "login.html",
-#         version=__version__,
-#         **auth.log_in(
-#             scopes=app_config.SCOPE,  # Have user consent to scopes during log-in
-#             redirect_uri=url_for(
-#                 "auth_response", _external=True
-#             ),  # Optional. If present, this absolute URL must match your app's redirect_uri registered in Microsoft Entra admin center
-#             prompt="select_account",  # Optional.
-#         ),
-#         data_last_updated_date=data_last_updated_date,
-#     )
-
-
-# @app.route(app_config.REDIRECT_PATH)
-# def auth_response():
-#     result = auth.complete_log_in(request.args)
-#     if "error" in result:
-#         return render_template(
-#             "auth_error.html",
-#             result=result,
-#             version=__version__,
-#             data_last_updated_date=data_last_updated_date,
-#         )
-#     return redirect(url_for("index"))
-
-
-# @app.route("/logout")
-# def logout():
-#     return redirect(auth.log_out(url_for("index", _external=True)))
 
 
 @app.route("/")
@@ -226,7 +192,7 @@ def create_task() -> str:
 
 @app.route("/task-status/<task_id>", methods=["GET"])
 @auth.login_required
-def task_status(task_id):
+def task_status(task_id, *, context):
     task = tasks.get(task_id)
     status = task.get_status() if task else "not found"
     print(f"Task status: '{status}'")
@@ -241,29 +207,30 @@ def task_status(task_id):
 
 @app.route("/search", methods=["POST"])
 @auth.login_required
-def search():
+def search(*, context):
     form_data = request.form
 
     task_id = create_task()
     task_thread = Thread(
-        target=copy_current_request_context(search_reports), args=(task_id, form_data)
+        target=copy_current_request_context(search_reports),
+        args=(task_id, form_data, context),
     )
     task_thread.start()
     return jsonify({"task_id": task_id}), 202
 
 
-def search_reports(task_id, form_data):
+def search_reports(task_id, form_data, context):
     task = tasks.get(task_id)
     try:
         search = Searching.Search.from_form(form_data)
-        log_search(search)
+        log_search(search, context["user"])
         results = searcher.search(search)
         formatted_results = format_search_results(results)
         task.update("completed", formatted_results)
-        log_search_results(results)
+        log_search_results(results, context["user"])
     except Exception as e:
-        print("".join(traceback.format_exception(e)))
-        log_search_error(e, search)
+        print("Error while doing search\n" + "".join(traceback.format_exception(e)))
+        log_search_error(e, search, context["user"])
         task.update("failed", repr(e))
         return
 
@@ -349,7 +316,7 @@ def send_csv_file(df: pd.DataFrame, name: str):
 
 @app.route("/get_results_as_csv", methods=["POST"])
 @auth.login_required
-def get_results_as_csv():
+def get_results_as_csv(*, context):
     if session.get("search_results") is None:
         return jsonify({"error": "No results found"}), 404
 
