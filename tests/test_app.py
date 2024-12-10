@@ -1,28 +1,54 @@
+import importlib
 import json
 import time
 from io import StringIO
+from unittest.mock import MagicMock, patch
 
 import pandas as pd
 import pytest
 
+# I am reimporting the app so that I can patch the login_required function
+# This seems to be the easiest way for me to make the tests work and allow me to test it even if it is a bit of a hack.
 import viewer.app as app
 
 
-@pytest.fixture
+@pytest.fixture(scope="function")
 def client():
-    class MockAuth:
-        @staticmethod
-        def get_user():
-            return {"id": "test_user", "name": "Test User"}
+    """
+    This returns a client that has a mock Auth instance that acts like it is authenticated.
+    """
+    print("Setting up mock auth")
+    with patch("identity.flask.Auth") as mock_auth:
+        auth_instance = MagicMock()
 
-    app.auth = MockAuth()
+        counter = 0
 
-    with app.app.test_client() as c:
-        yield c
+        def mock_login_required(f):
+            nonlocal counter
+            endpoint_name = f"{f.__name__}_wrapped_{counter}"
+            counter += 1
+            print(f"Mock login_required called for {f.__name__} as {endpoint_name}")
+
+            def wrapped(*args, **kwargs):
+                print(f"Wrapped function called for {f.__name__}")
+                return f(*args, context={"user": "test_user"}, **kwargs)
+
+            wrapped.__name__ = endpoint_name
+            return wrapped
+
+        auth_instance.login_required = mock_login_required
+        mock_auth.return_value = auth_instance
+        importlib.reload(app)
+        with app.app.test_client() as c:
+            yield c
+
+    print("Tearing down mock auth")
 
 
 def perform_search_and_wait(c, form_data):
     rv = c.post("/search", data=form_data)
+
+    print(rv.data)
 
     assert rv.status == "202 ACCEPTED"
 
@@ -40,6 +66,7 @@ def perform_search_and_wait(c, form_data):
 
 
 def test_index():
+    importlib.reload(app)
     with app.app.test_client() as c:
         rv = c.get("/", follow_redirects=True)
         assert rv.status == "200 OK"
@@ -47,9 +74,12 @@ def test_index():
 
 
 def test_no_login_search():
+    importlib.reload(app)
     with app.app.test_client() as c:
         rv = c.post("/search")
-        assert rv.status_code == 302
+        print(rv.data)
+        assert rv.status_code == 200
+        assert b"Sign In" in rv.data
 
 
 def test_form_submit(client):
