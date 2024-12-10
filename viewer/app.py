@@ -230,13 +230,18 @@ def task_status(task_id):
     if not auth.get_user():
         return redirect(url_for("login"))
     task = tasks.get(task_id)
+    result = task.get_result() if task else None
     status = task.get_status() if task else "not found"
     print(f"Task status: '{status}'")
     jsonified = jsonify(
-        {"task_id": task_id, "status": status, "result": task.get_result()}
+        {
+            "task_id": task_id,
+            "status": status,
+            "result": result,
+        }
     )
     if status == "completed":
-        session["search_results"] = task.get_result()
+        session["search_results"] = result
         del tasks[task_id]
     return jsonified
 
