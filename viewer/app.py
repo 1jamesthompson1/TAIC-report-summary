@@ -194,13 +194,18 @@ def create_task() -> str:
 @auth.login_required
 def task_status(task_id, *, context):
     task = tasks.get(task_id)
+    result = task.get_result() if task else None
     status = task.get_status() if task else "not found"
     print(f"Task status: '{status}'")
     jsonified = jsonify(
-        {"task_id": task_id, "status": status, "result": task.get_result()}
+        {
+            "task_id": task_id,
+            "status": status,
+            "result": result,
+        }
     )
     if status == "completed":
-        session["search_results"] = task.get_result()
+        session["search_results"] = result
         del tasks[task_id]
     return jsonified
 
@@ -229,22 +234,10 @@ def search_reports(task_id, form_data, context):
         task.update("completed", formatted_results)
         log_search_results(results, context["user"])
     except Exception as e:
-        print("Error while doing search\n" + "".join(traceback.format_exception(e)))
+        print("Error while doing search:\n" + "".join(traceback.format_exception(e)))
         log_search_error(e, search, context["user"])
         task.update("failed", repr(e))
         return
-
-
-def format_report_id_as_weblink(report_id):
-    """
-    Formats a report id like it has to be on the taic.org.nz website and hubstream links
-    2011_002 -> AO-2011-002
-    2018_206 -> MO-2018-206
-    2020_120 -> RO-2020-020
-    """
-    letters = ["a", "r", "m"]
-
-    return f"{letters[int(report_id[5])]}o-{report_id[0:4]}-{report_id[5:8]}"
 
 
 def get_updated_relevance_search(search, new_relevance):
@@ -336,9 +329,11 @@ def get_results_as_csv(*, context):
 
     summary_sheet["A1"] = "Search Query:"
     summary_sheet["D1"] = "Redo search:"
-    summary_sheet[
-        "E1"
-    ].hyperlink = f"""{request.url_root}?{Searching.Search(search_results["query"], settings=Searching.SearchSettings.from_dict(search_results["settings"])).to_url_params()}"""
+    url_params_for_search = Searching.Search(
+        search_results["query"],
+        settings=Searching.SearchSettings.from_dict(search_results["settings"]),
+    ).to_url_params()
+    summary_sheet["E1"].hyperlink = f"""{request.url_root}?{url_params_for_search}"""
     summary_sheet["A2"] = search_results["query"]
 
     summary_sheet["A4"] = "Start Time:"

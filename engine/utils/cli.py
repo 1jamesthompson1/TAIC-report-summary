@@ -36,20 +36,11 @@ def gather(output_dir, config, refresh):
         refresh,
     )
 
-    print("Got recommendations")
     dataGetter.get_generic_data(
         config.get("data").get("event_types_file_name"),
         os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
     )
     print("Got event types")
-
-    dataGetter.get_generic_data(
-        config.get("data").get("atsb_historic_aviation"),
-        os.path.join(
-            output_dir, output_config.get("atsb_historic_aviation_df_file_name")
-        ),
-    )
-    print("Got ATSB historic aviation investigations")
 
     # Download the PDFs
     report_scraping_settings = WebsiteScraping.ReportScraperSettings(
@@ -71,15 +62,19 @@ def gather(output_dir, config, refresh):
                 WebsiteScraping.TSBReportScraper(report_scraping_settings).collect_all()
             case "TAIC":
                 WebsiteScraping.TAICReportScraper(
-                    report_scraping_settings
+                    os.path.join(
+                        output_dir,
+                        output_config.get("taic_website_reports_file_name"),
+                    ),
+                    report_scraping_settings,
                 ).collect_all()
             case "ATSB":
                 WebsiteScraping.ATSBReportScraper(
-                    report_scraping_settings,
                     os.path.join(
                         output_dir,
-                        output_config.get("atsb_historic_aviation_df_file_name"),
+                        output_config.get("atsb_website_reports_file_name"),
                     ),
+                    report_scraping_settings,
                 ).collect_all()
 
     # Extract the text from the PDFs

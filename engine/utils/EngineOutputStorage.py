@@ -1,3 +1,4 @@
+import math
 import os
 from datetime import datetime
 
@@ -200,42 +201,67 @@ class EngineOutputUploader(EngineOutputManager):
         )
 
         # Converting to pyarrow first as it was having troubles giving a large pd.DataFrame directly
-        all_document_types = pa.Table.from_pandas(
+        pyarrow_table = pa.Table.from_pandas(
             all_document_types
             if sample_frac == 1
             else all_document_types.sample(
                 frac=sample_frac, random_state=42, ignore_index=True
-            )
-        )
-
-        schema = pa.schema(
-            [
-                ("document_id", pa.string()),
-                ("document", pa.string()),
-                (
-                    "vector",
-                    pa.list_(
-                        pa.float64(), list_size=len(all_document_types["vector"][0])
+            ),
+            schema=pa.schema(
+                [
+                    ("document_id", pa.string()),
+                    ("document", pa.string()),
+                    (
+                        "vector",
+                        pa.list_(
+                            pa.float64(), list_size=len(all_document_types["vector"][0])
+                        ),
                     ),
-                ),
-                ("report_id", pa.string()),
-                ("year", pa.int64()),
-                ("mode", pa.string()),
-                ("agency", pa.string()),
-                ("type", pa.string()),
-                ("agency_id", pa.string()),
-                ("url", pa.string()),
-                ("document_type", pa.string()),
-            ]
+                    ("report_id", pa.string()),
+                    ("year", pa.int64()),
+                    ("mode", pa.string()),
+                    ("agency", pa.string()),
+                    ("type", pa.string()),
+                    ("agency_id", pa.string()),
+                    ("url", pa.string()),
+                    ("document_type", pa.string()),
+                ]
+            ),
         )
 
-        print("prepare pyarrow table")
+        print(f"prepared pyarrow table size {pyarrow_table.nbytes/1024/1024:.2f} MB")
+
+        # split the pyarrow table into chunks to uploaded separately
+
+        average_row_size = pyarrow_table.nbytes / pyarrow_table.num_rows
+        number_of_bytes_per_batch = 100_000_000  # 100 MB
+        number_of_rows_per_batch = number_of_bytes_per_batch / average_row_size
+        number_of_batches = math.ceil(pyarrow_table.num_rows / number_of_rows_per_batch)
+
+        chunks = []
+        for i in range(number_of_batches):
+            start = i * number_of_rows_per_batch
+            end = min(start + number_of_rows_per_batch, pyarrow_table.num_rows)
+            chunk = pyarrow_table.slice(start, end - start)
+            chunks.append(chunk)
+
+        print(f"created {len(chunks)} chunks")
 
         table = self.db.create_table(
-            "all_document_types", all_document_types, schema, mode="overwrite"
+            "all_document_types",
+            data=None,
+            schema=pyarrow_table.schema,
+            mode="overwrite",
         )
 
+        for chunk in tqdm(chunks):
+            table.add(chunk, mode="append")
+
         print("created vector db")
+
+        table.cleanup_old_versions()
+
+        print("cleaned up vector db")
 
         table.create_fts_index(
             "document",
