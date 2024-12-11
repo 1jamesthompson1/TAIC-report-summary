@@ -69,6 +69,7 @@ def test_index():
     importlib.reload(app)
     with app.app.test_client() as c:
         rv = c.get("/", follow_redirects=True)
+        print(rv.data)
         assert rv.status == "200 OK"
         assert b"<title>TAIC Document Searcher</title>" in rv.data
 
