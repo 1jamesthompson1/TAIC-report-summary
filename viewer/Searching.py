@@ -261,8 +261,11 @@ class SearchResult:
             "url",
         ]
 
-    def get_search_duration(self) -> str:
-        return time.strftime("%M:%S", time.gmtime(self.duration))
+    def get_search_duration_str(self) -> str:
+        if self.duration < 60:
+            return f"{int(self.duration)} seconds"
+        else:
+            return f"{int(self.duration // 60)} minutes and {int(self.duration % 60)} seconds"
 
     def get_context(self) -> pd.DataFrame:
         if self.context is None:
