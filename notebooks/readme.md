@@ -1,10 +1,6 @@
 # What is this folder about?
 
-This folder is intended as a place for local development work that is worth versioning.
-
-My workflow involves doing a bit of work inside jupyter notebooks. These notebooks I keep clean enough and do important enough thigns that I believe they shoudl be trapped.
-
-If you are working locally and dont want to track and "backup" what you are oding then I recommend just putting them in your workbench folder.
+This folder is intended as a place for local development work that is worth versioning. There are some `admin_notebooks` that will be sued repeatedly but the rest are just my scratch pads. All of the final code is within the `viewer` and `engine` modules.
 
 # Git ignore epxlaination
 
