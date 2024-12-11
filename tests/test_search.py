@@ -156,12 +156,12 @@ class TestSearch:
 
 
 @pytest.fixture(scope="session")
-def searcher():
+def searcher() -> Searching.SearchEngine:
     return Searching.SearchEngine(os.environ["db_URI"])
 
 
 class TestSearcher:
-    def test_search(self, searcher):
+    def test_search(self, searcher: Searching.SearchEngine):
         search = Searching.Search(
             "hello",
             Searching.SearchSettings(
@@ -176,7 +176,7 @@ class TestSearcher:
 
         assert result
         assert result.get_summary() is None
-        assert isinstance(result.get_search_duration(), str)
+        assert isinstance(result.get_search_duration_str(), str)
         assert isinstance(result.get_context(), pd.DataFrame)
 
     def test_search_with_summary(self, searcher):
