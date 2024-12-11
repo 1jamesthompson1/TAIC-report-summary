@@ -99,6 +99,8 @@ function updateResultsSummaryInfo(summary) {
 
     $('#quickSearchSummary').text(summary.quick_search_summary)
 
+    $('#resultsSummaryText').replaceWith("<p>Search took " + summary.duration + "</p>");
+
     var most_common_document_types = JSON.parse(summary.document_type_pie_chart);
     Plotly.newPlot('MostCommmonDocumentTypes', most_common_document_types);
     var most_common_event_types = JSON.parse(summary.most_common_event_types);
