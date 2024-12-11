@@ -658,7 +658,8 @@ class TSBReportScraper(ReportScraper):
                 hrequests.get(
                     f"https://www.tsb.gc.ca/eng/rapports-reports/{mode}/index.html",
                     headers=self.headers,
-                ).content
+                ).content,
+                flavor="lxml",
             )[0]
             for mode in tqdm(modes)
         ]

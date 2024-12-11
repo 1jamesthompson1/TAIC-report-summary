@@ -46,7 +46,7 @@
             <p>Data last updated: {{ data_last_updated_date }}</p>
             {% if user %}
             <p>Logged in user: {{ user.get("name") }}</p>
-            <p><a href="/logout">Logout</a></p>
+            <p><a href="{{ url_for('identity.logout') }}">Logout</a></p>
             {% endif %}
         </div>
     </div>

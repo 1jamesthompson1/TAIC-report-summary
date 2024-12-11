@@ -35,6 +35,8 @@ jobs:
           AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          ROOT_URI: ${{ secrets.ROOT_URI }}
+          AUTHORITY: ${{ secrets.AUTHORITY }}
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:

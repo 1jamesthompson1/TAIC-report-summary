@@ -10,19 +10,17 @@ from io import StringIO
 from threading import Thread
 
 import dotenv
-import identity.web
+import identity.flask
 import pandas as pd
 from azure.data.tables import TableServiceClient
 from flask import (
     Flask,
     copy_current_request_context,
     jsonify,
-    redirect,
     render_template,
     request,
     send_file,
     session,
-    url_for,
 )
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
@@ -40,15 +38,16 @@ app.config.from_object(app_config)
 assert app.config["REDIRECT_PATH"] != "/", "REDIRECT_PATH must not be /"
 Session(app)
 
-
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
-auth = identity.web.Auth(
-    session=session,
+auth = identity.flask.Auth(
+    app,
     authority=app.config["AUTHORITY"],
     client_id=app.config["CLIENT_ID"],
     client_credential=app.config["CLIENT_SECRET"],
+    redirect_uri=app.config["REDIRECT_URI"],
 )
+
 
 connection_string = f"AccountName={os.getenv('AZURE_STORAGE_ACCOUNT_NAME')};AccountKey={os.getenv('AZURE_STORAGE_ACCOUNT_KEY')};EndpointSuffix=core.windows.net"
 client = TableServiceClient.from_connection_string(conn_str=connection_string)
@@ -68,10 +67,10 @@ app.jinja_env.globals.update(
 )
 
 
-def log_search(search: Searching.Search):
+def log_search(search: Searching.Search, user: str):
     if searchlogs:
         search_log = {
-            "PartitionKey": auth.get_user()["name"],
+            "PartitionKey": user,
             "RowKey": search.uuid.hex,
             "query": search.get_query(),
             "start_time": search.creation_time,
@@ -85,10 +84,10 @@ def log_search(search: Searching.Search):
         print("Error table does not exist")
 
 
-def log_search_results(results: Searching.SearchResult):
+def log_search_results(results: Searching.SearchResult, user: str):
     if resultslogs:
         results_log = {
-            "PartitionKey": auth.get_user()["name"],
+            "PartitionKey": user,
             "RowKey": results.search.uuid.hex,
             "duration": results.duration,
             "summary": results.get_summary(),
@@ -106,10 +105,10 @@ def log_search_results(results: Searching.SearchResult):
         print("Error table does not exist")
 
 
-def log_search_error(e, search: Searching.Search):
+def log_search_error(e, search: Searching.Search, user: str):
     if errorlogs:
         error_log = {
-            "PartitionKey": auth.get_user()["name"],
+            "PartitionKey": user,
             "RowKey": search.uuid.hex,
             "error": repr(e),
         }
@@ -121,55 +120,21 @@ def log_search_error(e, search: Searching.Search):
         print("Error table does not exist")
 
 
-@app.route("/login")
-def login():
-    return render_template(
-        "login.html",
-        version=__version__,
-        **auth.log_in(
-            scopes=app_config.SCOPE,  # Have user consent to scopes during log-in
-            redirect_uri=url_for(
-                "auth_response", _external=True
-            ),  # Optional. If present, this absolute URL must match your app's redirect_uri registered in Microsoft Entra admin center
-            prompt="select_account",  # Optional.
-        ),
-        data_last_updated_date=data_last_updated_date,
-    )
-
-
-@app.route(app_config.REDIRECT_PATH)
-def auth_response():
-    result = auth.complete_log_in(request.args)
-    if "error" in result:
-        return render_template(
-            "auth_error.html",
-            result=result,
-        )
-    return redirect(url_for("index"))
-
-
-@app.route("/logout")
-def logout():
-    return redirect(auth.log_out(url_for("index", _external=True)))
-
-
 @app.route("/")
-def index():
-    if not auth.get_user():
-        return redirect(url_for("login"))
+@auth.login_required
+def index(*, context):
     return render_template(
         "index.html",
-        user=auth.get_user(),
+        user=context["user"],
     )
 
 
 @app.route("/feedback")
-def feedback():
-    if not auth.get_user():
-        return redirect(url_for("login"))
+@auth.login_required
+def feedback(*, context):
     return render_template(
         "feedback_form.html",
-        user=auth.get_user(),
+        user=context["user"],
         feedback_form_loaded=True,
     )
 
@@ -226,9 +191,8 @@ def create_task() -> str:
 
 
 @app.route("/task-status/<task_id>", methods=["GET"])
-def task_status(task_id):
-    if not auth.get_user():
-        return redirect(url_for("login"))
+@auth.login_required
+def task_status(task_id, *, context):
     task = tasks.get(task_id)
     result = task.get_result() if task else None
     status = task.get_status() if task else "not found"
@@ -247,32 +211,31 @@ def task_status(task_id):
 
 
 @app.route("/search", methods=["POST"])
-def search():
-    if not auth.get_user():
-        return redirect(url_for("login"))
-
+@auth.login_required
+def search(*, context):
     form_data = request.form
 
     task_id = create_task()
     task_thread = Thread(
-        target=copy_current_request_context(search_reports), args=(task_id, form_data)
+        target=copy_current_request_context(search_reports),
+        args=(task_id, form_data, context),
     )
     task_thread.start()
     return jsonify({"task_id": task_id}), 202
 
 
-def search_reports(task_id, form_data):
+def search_reports(task_id, form_data, context):
     task = tasks.get(task_id)
     try:
         search = Searching.Search.from_form(form_data)
-        log_search(search)
+        log_search(search, context["user"])
         results = searcher.search(search)
         formatted_results = format_search_results(results)
         task.update("completed", formatted_results)
-        log_search_results(results)
+        log_search_results(results, context["user"])
     except Exception as e:
-        print("".join(traceback.format_exception(e)))
-        log_search_error(e, search)
+        print("Error while doing search:\n" + "".join(traceback.format_exception(e)))
+        log_search_error(e, search, context["user"])
         task.update("failed", repr(e))
         return
 
@@ -345,9 +308,8 @@ def send_csv_file(df: pd.DataFrame, name: str):
 
 
 @app.route("/get_results_as_csv", methods=["POST"])
-def get_results_as_csv():
-    if not auth.get_user():
-        return redirect(url_for("login"))
+@auth.login_required
+def get_results_as_csv(*, context):
     if session.get("search_results") is None:
         return jsonify({"error": "No results found"}), 404
 
@@ -390,7 +352,7 @@ def get_results_as_csv():
     summary_sheet["A17"] = search_results["summary"]
 
     # Create a second sheet and write the search results using pandas
-    results_df = pd.read_html(StringIO(search_results["html_table"]))[0]
+    results_df = pd.read_html(StringIO(search_results["html_table"]), flavor="lxml")[0]
 
     results_sheet = wb.create_sheet(title="Search Results")
 
