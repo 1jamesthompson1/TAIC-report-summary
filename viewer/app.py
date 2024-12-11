@@ -352,7 +352,7 @@ def get_results_as_csv(*, context):
     summary_sheet["A17"] = search_results["summary"]
 
     # Create a second sheet and write the search results using pandas
-    results_df = pd.read_html(StringIO(search_results["html_table"]))[0]
+    results_df = pd.read_html(StringIO(search_results["html_table"]), flavor="lxml")[0]
 
     results_sheet = wb.create_sheet(title="Search Results")
 
