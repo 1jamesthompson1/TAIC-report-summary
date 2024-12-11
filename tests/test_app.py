@@ -31,7 +31,7 @@ def client():
 
             def wrapped(*args, **kwargs):
                 print(f"Wrapped function called for {f.__name__}")
-                return f(*args, context={"user": "test_user"}, **kwargs)
+                return f(*args, context={"user": "Test User"}, **kwargs)
 
             wrapped.__name__ = endpoint_name
             return wrapped
