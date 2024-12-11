@@ -97,7 +97,7 @@ function updateResults(htmlTable) {
 
 function updateResultsSummaryInfo(summary) {
 
-    $('#resultsSummaryText').replaceWith("<p>Found " + summary.num_results + " relevant documents in " + summary.duration + " minutes</p>");
+    $('#quickSearchSummary').text(summary.quick_search_summary)
 
     var most_common_document_types = JSON.parse(summary.document_type_pie_chart);
     Plotly.newPlot('MostCommmonDocumentTypes', most_common_document_types);
