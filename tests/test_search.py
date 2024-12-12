@@ -157,7 +157,9 @@ class TestSearch:
 
 @pytest.fixture(scope="session")
 def searcher():
-    return Searching.SearchEngine(os.environ["db_URI"])
+    return Searching.SearchEngine(
+        os.environ["db_URI"], pytest.config["engine"]["output"]["embeddings"]["model"]
+    )
 
 
 class TestSearcher:

@@ -6,7 +6,6 @@ from ast import literal_eval
 import lancedb
 import pandas as pd
 import plotly.express as px
-import voyageai
 
 import engine.utils.Modes as Modes
 from engine.analyze import Embedding
@@ -391,11 +390,10 @@ class SearchResult:
 
 
 class SearchEngine:
-    def __init__(self, db_uri: str):
+    def __init__(self, db_uri: str, model="voyage-large-2-instruct"):
         self.db = lancedb.connect(db_uri)
         self.all_document_types_table = self.db.open_table("all_document_types")
-
-        self.vo = voyageai.Client()
+        self.model = model
 
     def search(self, search: Search, with_rag=True) -> SearchResult:
         """
@@ -403,7 +401,7 @@ class SearchEngine:
         """
 
         searchEngineSearcher = SearchEngineSearcher(
-            search, self.all_document_types_table, self.vo
+            search, self.all_document_types_table, self.model
         )
 
         response = None
@@ -431,7 +429,7 @@ class SearchEngineSearcher:
         self,
         search: Search,
         vector_db_table: lancedb.table.Table,
-        vo: voyageai.Client,
+        embedding_model: str = "voyage-large-2-instruct",
     ):
         self.search_obj = search
         self.query = search.get_query()
@@ -439,7 +437,7 @@ class SearchEngineSearcher:
 
         self.vector_db_table = vector_db_table
 
-        self.embedder = Embedding.Embedder()
+        self.embedder = Embedding.Embedder(embedding_model)
 
     def _table_search(
         self,
@@ -492,7 +490,7 @@ class SearchEngineSearcher:
 
         return results
 
-    def search(self) -> pd.DataFrame:
+    def search(self):
         where_statement = " AND ".join(
             [
                 f"year >= {str(self.settings.get_year_range()[0])} AND year <= {str(self.settings.get_year_range()[1])}",

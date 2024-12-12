@@ -7,7 +7,7 @@
     max_year: 2024
     modes: [0]
     agencies: ["TAIC"]
-    document_types: ["safety_issues", "recommendations", "report_section"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
     relevanceCutoff: 0
 
 - query: "Vortex ring state (or 'settling with power')"
@@ -18,7 +18,7 @@
     max_year: 2024
     modes: [0]
     agencies: ["TAIC"]
-    document_types: ["safety_issues", "recommendations", "report_section"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
     relevanceCutoff: 0
 
 - query: "Maritime New Zealand (MNZ) oversight of surveyors"
@@ -30,7 +30,7 @@
     max_year: 2024
     modes: [2]
     agencies: ["TAIC"]
-    document_types: ["safety_issues", "recommendations", "report_section"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
     relevanceCutoff: 0
 
 - query: "What recommendations have TAIC made for international bodies? (ICAO) (IMO)"
@@ -57,5 +57,152 @@
     max_year: 2024
     modes: [0, 2]
     agencies: ["TAIC"]
-    document_types: ["recommendations"]
+    document_types: ["recommendation"]
+    relevanceCutoff: 0
+
+- query: "Navigation in pilotage waters"
+  expected_reports:
+    - "TAIC_m_2017_202"
+    - "TAIC_m_2017_201"
+    - "TAIC_m_2016_202"
+    - "TAIC_m_2016_204"
+    - "TAIC_m_2018_203"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [2]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
+    relevanceCutoff: 0
+
+- query: "Substance use: regulatory environment for preventing performance impairment."
+  expected_reports:
+    - "TAIC_a_2012_001"
+    - "TAIC_m_2019_202"
+    - "TAIC_m_2018_205"
+    - "TAIC_a_2017_001"
+    - "TAIC_r_2015_103"
+    - "TAIC_r_2015_101"
+    - "TAIC_r_2014_103"
+    - "TAIC_r_2012_104"
+    - "TAIC_m_2012_201"
+    - "TAIC_r_2011_103"
+    - "TAIC_a_2010_009"
+    - "TAIC_m_2009_201"
+    - "TAIC_m_2006_204"
+    - "TAIC_a_2005_003"
+    - "TAIC_m_2004_212"
+    - "TAIC_r_2016_102"
+    - "TAIC_r_2015_103"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [0, 1, 2]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
+    relevanceCutoff: 0
+
+- query: "Safety for workers in the rail corridor"
+  expected_reports:
+    - "TAIC_r_2019_104"
+    - "TAIC_r_2021_102"
+    - "TAIC_r_2014_105"
+    - "TAIC_r_2017_106"
+    - "TAIC_r_2019_101"
+    - "TAIC_r_2014_104"
+    - "TAIC_r_2020_102"
+    - "TAIC_r_2011_101"
+    - "TAIC_r_2020_104"
+    - "TAIC_r_2017_101"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [1]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
+    relevanceCutoff: 0
+
+- query: "The road-rail interface"
+  expected_reports:
+    - "TAIC_r_2014_101"
+    - "TAIC_r_2011_104"
+    - "TAIC_r_2002_113"
+    - "TAIC_r_1996_106"
+    - "TAIC_r_2017_105"
+    - "TAIC_r_2019_108"
+    - "TAIC_r_2020_103"
+    - "TAIC_r_2020_101"
+    - "TAIC_r_2022_103"
+    - "TAIC_r_2022_104"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [1]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
+    relevanceCutoff: 0
+
+- query: "Recreational boat users: impairment from substance use"
+  expected_reports:
+    - "TAIC_m_2009_201"
+    - "TAIC_a_2012_001"
+    - "TAIC_m_2009_201"
+    - "TAIC_m_2019_202"
+    - "TAIC_m_2021_204"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [0, 2]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
+    relevanceCutoff: 0
+
+- query: "Technologies to track and to locate"
+  expected_reports:
+    - "TAIC_a_2011_003"
+    - "TAIC_a_2013_003"
+    - "TAIC_a_2014_006"
+    - "TAIC_a_2019_003"
+    - "TAIC_a_2019_005"
+    - "TAIC_r_2007_108"
+    - "TAIC_m_2006_204"
+    - "TAIC_m_2012_201"
+    - "TAIC_a_2011_003"
+    - "TAIC_a_2011_003"
+    - "TAIC_a_2013_010"
+    - "TAIC_r_2007_108"
+    - "TAIC_r_2011_102"
+    - "TAIC_m_2022_201"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [0, 1, 2]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
+    relevanceCutoff: 0
+
+- query: "Recreational boat users: essential knowledge and skills"
+  expected_reports:
+    - "TAIC_m_2009_201"
+    - "TAIC_m_2021_204"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [2]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
+    relevanceCutoff: 0
+  
+- query: "Robinson helicopters: mast bumping accidents in NZ"
+  expected_reports:
+    - "TAIC_a_2011_003"
+    - "TAIC_a_2015_002"
+    - "TAIC_a_2018_006"
+    - "TAIC_a_2013_003"
+  settings:
+    min_year: 2000
+    max_year: 2024
+    modes: [0]
+    agencies: ["TAIC"]
+    document_types: ["safety_issues", "recommendation", "report_section"]
     relevanceCutoff: 0

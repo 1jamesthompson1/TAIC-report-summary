@@ -9,10 +9,10 @@ from transformers import AutoTokenizer
 
 
 class Embedder:
-    def __init__(self):
+    def __init__(self, model="voyage-large-2-instruct"):
         self.vo = voyageai.Client()
 
-        self.model = "voyage-large-2-instruct"
+        self.model = model
         self.model_context_limit = 16_000
         self.model_batch_limit = 120_000
 

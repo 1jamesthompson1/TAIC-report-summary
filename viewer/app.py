@@ -26,6 +26,7 @@ from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from werkzeug.middleware.proxy_fix import ProxyFix
 
+from engine.utils import Config
 from flask_session import Session
 from viewer import Searching, app_config
 
@@ -56,7 +57,10 @@ resultslogs = client.create_table_if_not_exists(table_name="resultslogs")
 errorlogs = client.create_table_if_not_exists(table_name="errorlogs")
 
 
-searcher = Searching.SearchEngine(os.environ["db_URI"])
+searcher = Searching.SearchEngine(
+    os.environ["db_URI"],
+    Config.configReader.get_config()["engine"]["output"]["embeddings"]["model"],
+)
 
 data_last_updated_date = searcher.all_document_types_table.list_versions()[-1][
     "timestamp"

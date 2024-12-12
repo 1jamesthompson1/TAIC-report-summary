@@ -241,7 +241,7 @@ def analyze(output_dir, config, refresh):
     embedding_folder = os.path.join(output_dir, embeddings_config.get("folder_name"))
     if not os.path.exists(embedding_folder):
         os.makedirs(embedding_folder)
-    Embedding.Embedder().process_extracted_reports(
+    Embedding.Embedder(embeddings_config.get("model")).process_extracted_reports(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name")),
         [
             (
