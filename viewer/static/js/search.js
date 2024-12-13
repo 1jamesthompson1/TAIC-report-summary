@@ -13,9 +13,11 @@ export function formSubmission(event) {
     
     // Show the loading sign with animation
     $('#loading').show();
+    $('#loading_desc').text("");
+    last_found_status = null
     console.log("Conducting search")
     
-    
+
     // Clear previous results
     $('#searchResults').hide();
     
@@ -28,6 +30,8 @@ export function formSubmission(event) {
     });
 }
 
+let last_found_status = null
+
 function checkSearchStatus(taskId) {
     console.log("Checking status: " + taskId)
     $.get('/task-status/' + taskId, function (data) {
@@ -38,15 +42,29 @@ function checkSearchStatus(taskId) {
             updateSummary(data.result.summary);
             updateResultsSummaryInfo(data.result.results_summary_info);
             $('#searchResults').show();
+            $('#loading_desc').text("");
             $('#loading').hide();
         } else if (data.status === 'failed') {
             console.log("  error: " + data.result)
             $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
             $('#loading').hide();
-        } else {
+        } else if (data.status === 'in progress') {
+            $('#loading_desc').text(data.status_desc)
             setTimeout(function () {
                 checkSearchStatus(taskId);
-            }, 2000);
+            }, 500);
+            last_found_status = Date.now()
+        } else if (data.status === 'not found') {
+            if (last_found_status) {
+                if (Date.now() - last_found_status > 120000) {
+                    $('#searchErrorMessage').text("Search timed out please try again").show();
+                    $('#loading').hide();
+                } else {
+                    setTimeout(function () {
+                        checkSearchStatus(taskId);
+                    }, 500);
+                }
+            }
         }
     });
 }

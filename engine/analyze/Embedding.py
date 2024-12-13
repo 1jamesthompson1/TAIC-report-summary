@@ -16,7 +16,9 @@ class Embedder:
         self.model_context_limit = 16_000
         self.model_batch_limit = 120_000
 
-        self.tokenizer = AutoTokenizer.from_pretrained(f"voyageai/{self.model}")
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            f"voyageai/{self.model}", legacy=True
+        )
 
     def tokenize_documents(self, df, document_column_name, tokenization_column_name):
         if tokenization_column_name not in df.columns:
