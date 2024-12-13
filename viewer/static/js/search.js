@@ -12,9 +12,9 @@ export function formSubmission(event) {
     }
     
     // Show the loading sign with animation
+    clearLoadingInfo();
     $('#loading').show();
-    $('#loading_desc').text("");
-    last_found_status = null
+    startLoadingTimer();
     console.log("Conducting search")
     
 
@@ -31,6 +31,8 @@ export function formSubmission(event) {
 }
 
 let last_found_status = null
+let loadingStartTime = null;
+let loadingTimerInterval = null;
 
 function checkSearchStatus(taskId) {
     console.log("Checking status: " + taskId)
@@ -42,14 +44,13 @@ function checkSearchStatus(taskId) {
             updateSummary(data.result.summary);
             updateResultsSummaryInfo(data.result.results_summary_info);
             $('#searchResults').show();
-            $('#loading_desc').text("");
-            $('#loading').hide();
+            clearLoadingInfo()
         } else if (data.status === 'failed') {
             console.log("  error: " + data.result)
             $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
-            $('#loading').hide();
+            clearLoadingInfo()
         } else if (data.status === 'in progress') {
-            $('#loading_desc').text(data.status_desc)
+            $('#loadingDesc').text(data.status_desc)
             setTimeout(function () {
                 checkSearchStatus(taskId);
             }, 500);
@@ -58,7 +59,7 @@ function checkSearchStatus(taskId) {
             if (last_found_status) {
                 if (Date.now() - last_found_status > 120000) {
                     $('#searchErrorMessage').text("Search timed out please try again").show();
-                    $('#loading').hide();
+                    clearLoadingInfo()
                 } else {
                     setTimeout(function () {
                         checkSearchStatus(taskId);
@@ -68,6 +69,23 @@ function checkSearchStatus(taskId) {
         }
     });
 }
+function startLoadingTimer() {
+    loadingStartTime = Date.now(); // Record the start time
+    loadingTimerInterval = setInterval(function () {
+        const elapsedTime = Math.floor((Date.now() - loadingStartTime) / 1000); // Elapsed time in seconds
+        $('#loadingDuration').text('Search duration: ' + elapsedTime + ' seconds');
+    }, 1000); // Update every second
+}
+
+function clearLoadingInfo() {
+    clearInterval(loadingTimerInterval); // Stop the timer
+    $('#loadingDuration').text('');
+    $('#loading').hide(); // Hide the loading indicator
+    $('#loadingDesc').text("");
+    last_found_status = null;
+}
+
+
 function setSearchErrorMessage(message) {
     if (message == '') {
         $('#searchErrorMessage').text('').hide();
