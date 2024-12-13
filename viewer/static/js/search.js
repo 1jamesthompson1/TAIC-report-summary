@@ -12,10 +12,12 @@ export function formSubmission(event) {
     }
     
     // Show the loading sign with animation
+    clearLoadingInfo();
     $('#loading').show();
+    startLoadingTimer();
     console.log("Conducting search")
     
-    
+
     // Clear previous results
     $('#searchResults').hide();
     
@@ -28,28 +30,68 @@ export function formSubmission(event) {
     });
 }
 
+let last_found_status = null
+let loadingStartTime = null;
+let loadingTimerInterval = null;
+
 function checkSearchStatus(taskId) {
     console.log("Checking status: " + taskId)
-    $.get('/task-status/' + taskId, function (data) {
-        console.log("  status: " + data.status)
-        if (data.status === 'completed') {
-            console.log("  Search completed")
-            updateResults(data.result.html_table);
-            updateSummary(data.result.summary);
-            updateResultsSummaryInfo(data.result.results_summary_info);
-            $('#searchResults').show();
-            $('#loading').hide();
-        } else if (data.status === 'failed') {
-            console.log("  error: " + data.result)
-            $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
-            $('#loading').hide();
-        } else {
-            setTimeout(function () {
-                checkSearchStatus(taskId);
-            }, 2000);
-        }
-    });
+    $.get('/task-status/' + taskId)
+        .done(function (data) {
+            console.log("  status: " + data.status)
+            if (data.status === 'completed') {
+                console.log("  Search completed")
+                updateResults(data.result.html_table);
+                updateSummary(data.result.summary);
+                updateResultsSummaryInfo(data.result.results_summary_info);
+                $('#searchResults').show();
+                clearLoadingInfo()
+            } else if (data.status === 'failed') {
+                console.log("  error: " + data.result)
+                $('#searchErrorMessage').text("Error trying to conduct the search: " + data.result).show();
+                clearLoadingInfo()
+            } else if (data.status === 'in progress') {
+                $('#loadingDesc').text(data.status_desc)
+                setTimeout(function () {
+                    checkSearchStatus(taskId);
+                }, 500);
+                last_found_status = Date.now()
+            } else if (data.status === 'not found') {
+                if (last_found_status) {
+                    if (Date.now() - last_found_status > 120000) {
+                        $('#searchErrorMessage').text("Search timed out please try again").show();
+                        clearLoadingInfo()
+                    } else {
+                        setTimeout(function () {
+                            checkSearchStatus(taskId);
+                        }, 500);
+                    }
+                }
+            }
+        })
+        .fail(function(jqXHR, textStatus, errorThrown) {
+            console.error("Error: " + textStatus + ", " + errorThrown);
+            $('#searchErrorMessage').text("Server error, please try again in a couple of minutes.If issue persists please contact the administrator").show();
+            clearLoadingInfo();
+        });
 }
+function startLoadingTimer() {
+    loadingStartTime = Date.now(); // Record the start time
+    loadingTimerInterval = setInterval(function () {
+        const elapsedTime = Math.floor((Date.now() - loadingStartTime) / 1000); // Elapsed time in seconds
+        $('#loadingDuration').text('Search duration: ' + elapsedTime + ' seconds');
+    }, 1000); // Update every second
+}
+
+function clearLoadingInfo() {
+    clearInterval(loadingTimerInterval); // Stop the timer
+    $('#loadingDuration').text('');
+    $('#loading').hide(); // Hide the loading indicator
+    $('#loadingDesc').text("");
+    last_found_status = null;
+}
+
+
 function setSearchErrorMessage(message) {
     if (message == '') {
         $('#searchErrorMessage').text('').hide();

@@ -161,6 +161,13 @@ def searcher() -> Searching.SearchEngine:
 
 
 class TestSearcher:
+    def get_return_value(self, generator):
+        try:
+            while True:
+                next(generator)
+        except StopIteration as e:
+            return e.value
+
     def test_search(self, searcher: Searching.SearchEngine):
         search = Searching.Search(
             "hello",
@@ -172,7 +179,8 @@ class TestSearcher:
                 0.1,
             ),
         )
-        result = searcher.search(search, with_rag=False)
+
+        result = self.get_return_value(searcher.search(search, with_rag=False))
 
         assert result
         assert result.get_summary() is None
@@ -190,7 +198,7 @@ class TestSearcher:
                 0.8,
             ),
         )
-        result = searcher.search(search, with_rag=True)
+        result = self.get_return_value(searcher.search(search, with_rag=True))
 
         assert result
         assert isinstance(result.get_summary(), str)
@@ -257,7 +265,7 @@ class TestSearcher:
         if query == "":
             assert search.get_search_type() == "none"
 
-        result = searcher.search(search, with_rag=False)
+        result = self.get_return_value(searcher.search(search, with_rag=False))
 
         assert result
         assert result.get_summary() is None
@@ -278,7 +286,7 @@ class TestSearcher:
             ),
         )
         assert search.get_search_type() == "vector"
-        result = searcher.search(search, with_rag=False)
+        result = self.get_return_value(searcher.search(search, with_rag=False))
 
         assert result
         assert result.get_summary() is None
@@ -296,7 +304,7 @@ class TestSearcher:
             ),
         )
         assert search.get_search_type() == "fts"
-        result = searcher.search(search, with_rag=False)
+        result = self.get_return_value(searcher.search(search, with_rag=False))
 
         assert result
         assert result.get_summary() is None
@@ -315,7 +323,7 @@ class TestSearcher:
             ),
         )
         assert search.get_search_type() == "fts"
-        result = searcher.search(search, with_rag=False)
+        result = self.get_return_value(searcher.search(search, with_rag=False))
 
         assert result
         assert result.get_summary() is None

@@ -167,18 +167,18 @@ class Task:
     def __init__(self):
         self.status = "in progress"
         self.result = None
-
+        self.status_desc = None
         self.creation_time = datetime.now()
 
-    def update(self, status, result=None):
+    def update(self, status, desc=None, result=None):
         if self.status == "completed" and result is None:
             raise ValueError("result must be provided if status is completed")
-
         self.status = status
         self.result = result
+        self.status_desc = desc
 
     def get_status(self):
-        return self.status
+        return (self.status, self.status_desc)
 
     def get_result(self):
         return self.result
@@ -195,12 +195,13 @@ def create_task() -> str:
 def task_status(task_id, *, context):
     task = tasks.get(task_id)
     result = task.get_result() if task else None
-    status = task.get_status() if task else "not found"
+    status, status_desc = task.get_status() if task else ("not found", None)
     print(f"Task status: '{status}'")
     jsonified = jsonify(
         {
             "task_id": task_id,
             "status": status,
+            "status_desc": status_desc,
             "result": result,
         }
     )
@@ -230,13 +231,21 @@ def search_reports(task_id, form_data, context):
         search = Searching.Search.from_form(form_data)
         log_search(search, context["user"])
         results = searcher.search(search)
+        while True:
+            try:
+                update = next(results)
+                task.update(status="in progress", desc=update)
+            except StopIteration as e:
+                print("Search complete " + str(e))
+                results = e.value
+                break
         formatted_results = format_search_results(results)
-        task.update("completed", formatted_results)
+        task.update("completed", None, formatted_results)
         log_search_results(results, context["user"])
     except Exception as e:
         print("Error while doing search:\n" + "".join(traceback.format_exception(e)))
         log_search_error(e, search, context["user"])
-        task.update("failed", repr(e))
+        task.update("failed", None, repr(e))
         return
 
 

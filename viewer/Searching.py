@@ -6,7 +6,6 @@ from ast import literal_eval
 import lancedb
 import pandas as pd
 import plotly.express as px
-import voyageai
 
 import engine.utils.Modes as Modes
 from engine.analyze import Embedding
@@ -398,7 +397,9 @@ class SearchEngine:
         self.db = lancedb.connect(db_uri)
         self.all_document_types_table = self.db.open_table("all_document_types")
 
-        self.vo = voyageai.Client()
+        print(
+            f"Connected to {db_uri}, which has {self.all_document_types_table.count_rows()} documents"
+        )
 
     def search(self, search: Search, with_rag=True) -> SearchResult:
         """
@@ -406,7 +407,7 @@ class SearchEngine:
         """
 
         searchEngineSearcher = SearchEngineSearcher(
-            search, self.all_document_types_table, self.vo
+            search, self.all_document_types_table
         )
 
         response = None
@@ -417,11 +418,22 @@ class SearchEngine:
             or not with_rag
             or search.get_search_type() == "fts"
         ):
-            results = searchEngineSearcher.search()
-            response = SearchResult(search, results, None)
+            search_gen = searchEngineSearcher.search()
         # Otherwise do a rag search
         elif with_rag and search.get_query() != "":
-            response = searchEngineSearcher.rag_search()
+            search_gen = searchEngineSearcher.rag_search()
+
+        while True:
+            try:
+                yield next(search_gen)
+            except StopIteration as e:
+                print(f"Catching stop iteration: {e}")
+                response = (
+                    e.value
+                    if isinstance(e.value, SearchResult)
+                    else SearchResult(search, e.value, None)
+                )
+                break
 
         print(
             f"Search engine response: {response.summary}, with context {response.context}"
@@ -434,7 +446,6 @@ class SearchEngineSearcher:
         self,
         search: Search,
         vector_db_table: lancedb.table.Table,
-        vo: voyageai.Client,
     ):
         self.search_obj = search
         self.query = search.get_query()
@@ -495,7 +506,7 @@ class SearchEngineSearcher:
 
         return results
 
-    def search(self) -> pd.DataFrame:
+    def search(self):
         where_statement = " AND ".join(
             [
                 f"year >= {str(self.settings.get_year_range()[0])} AND year <= {str(self.settings.get_year_range()[1])}",
@@ -512,6 +523,7 @@ class SearchEngineSearcher:
         )
         if self.search_obj.get_search_type() == "none":
             print(f"Searching for everything that matches {where_statement}")
+            yield "Searching for everything that matches filters"
             return (
                 self.vector_db_table.search()
                 .where(where_statement, prefilter=True)
@@ -520,6 +532,7 @@ class SearchEngineSearcher:
                 .assign(section_relevance_score=0)
             )
 
+        yield "Getting relevant documents"
         search_results = self._table_search(
             table=self.vector_db_table,
             type=self.search_obj.get_search_type(),
@@ -566,7 +579,7 @@ class SearchEngineSearcher:
 
     def rag_search(self):
         print(("Understanding query..."))
-
+        yield "Understanding query..."
         formatted_query = AICaller.query(
             system="""
     You will receive a query from the user and return a query that is optimized for a vector search of a safety issue and recommendation database.
@@ -606,14 +619,18 @@ class SearchEngineSearcher:
         print(f' Going to run query: "{formatted_query}"')
 
         print("Getting relevant safety issues...")
+        yield "Getting relevant documents..."
         self.query = formatted_query
 
-        search_results = self.search()
+        search_results = yield from self.search()
+
         if search_results is None:
+            print("No relevant documents found")
             return SearchResult(self.search_obj, None, None)
         search_results = self._filter_results(search_results)
 
         print(f"Summarizing {len(search_results)} documents...")
+        yield f"Summarizing {len(search_results)} documents..."
         response = AICaller.query(
             system="""
     You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.
@@ -654,5 +671,6 @@ class SearchEngineSearcher:
 {response}
         """
         print("Got summary returning search result")
+        yield "Got summary returning search result"
 
         return SearchResult(self.search_obj, search_results, formatted_response)
