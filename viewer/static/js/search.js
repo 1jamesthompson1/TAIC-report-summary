@@ -4,11 +4,20 @@
 // -------------------------------------------------------------------------- */
 export function formSubmission(event) {
     event.preventDefault(); 
+    $("#searchForm").find(":submit").attr('disabled', 'disabled');
+    setTimeout(function () {
+        $("#searchForm").find(":submit").removeAttr('disabled');
+    }, 1000);
     if (!checkBoxesAreTicked()) {
         setSearchErrorMessage('Please select at least one checkbox');
         return false;
     } else {
         setSearchErrorMessage('');
+    }
+
+    if (searchTimeout) {
+        clearTimeout(searchTimeout);
+        
     }
     
     // Show the loading sign with animation
@@ -27,9 +36,14 @@ export function formSubmission(event) {
         const taskId = data.task_id;
         // Poll for task status
         checkSearchStatus(taskId);
-    });
+        last_found_status = Date.now();
+    }).fail(function (jqXHR, textStatus, errorThrown) {
+        setSearchErrorMessage('Error trying to conduct the search: ' + errorThrown + " please refresh your page and try again");
+        clearLoadingInfo();
+    })
 }
 
+let searchTimeout = null
 let last_found_status = null
 let loadingStartTime = null;
 let loadingTimerInterval = null;
@@ -52,7 +66,7 @@ function checkSearchStatus(taskId) {
                 clearLoadingInfo()
             } else if (data.status === 'in progress') {
                 $('#loadingDesc').text(data.status_desc)
-                setTimeout(function () {
+                searchTimeout = setTimeout(function () {
                     checkSearchStatus(taskId);
                 }, 500);
                 last_found_status = Date.now()
@@ -62,7 +76,7 @@ function checkSearchStatus(taskId) {
                         $('#searchErrorMessage').text("Search timed out please try again").show();
                         clearLoadingInfo()
                     } else {
-                        setTimeout(function () {
+                        searchTimeout = setTimeout(function () {
                             checkSearchStatus(taskId);
                         }, 500);
                     }
