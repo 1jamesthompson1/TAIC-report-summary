@@ -299,6 +299,7 @@ def format_search_results(results: Searching.SearchResult):
             "agency_pie_chart": agency_distribution,
             "duration": results.get_search_duration_str(),
             "quick_search_summary": f"There are {context_df.shape[0]} results across {context_df['report_id'].unique().shape[0]} reports",
+            "num_results": context_df.shape[0],
         },
         "summary": results.get_summary(),
         "settings": results.search.get_settings().to_dict(),
