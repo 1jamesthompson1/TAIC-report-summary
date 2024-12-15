@@ -31,7 +31,7 @@ def client():
 
             def wrapped(*args, **kwargs):
                 print(f"Wrapped function called for {f.__name__}")
-                return f(*args, context={"user": "Test User"}, **kwargs)
+                return f(*args, context={"user": {"name": "Test User"}}, **kwargs)
 
             wrapped.__name__ = endpoint_name
             return wrapped
@@ -57,6 +57,7 @@ def perform_search_and_wait(c, form_data):
     while True:
         task_status = c.get("/task-status/" + json.loads(rv.data)["task_id"])
         parsed = json.loads(task_status.data)
+        print(parsed)
         if parsed["status"] == "completed" or parsed["status"] == "failed":
             return parsed
 

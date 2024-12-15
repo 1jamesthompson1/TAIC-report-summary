@@ -70,7 +70,7 @@ app.jinja_env.globals.update(
 def log_search(search: Searching.Search, user: str):
     if searchlogs:
         search_log = {
-            "PartitionKey": user,
+            "PartitionKey": user["name"],
             "RowKey": search.uuid.hex,
             "query": search.get_query(),
             "start_time": search.creation_time,
@@ -79,7 +79,7 @@ def log_search(search: Searching.Search, user: str):
         try:
             searchlogs.create_entity(entity=search_log)
         except Exception as e:
-            print(e)
+            print(f"Error logging search: {e}")
     else:
         print("Error table does not exist")
 
@@ -87,20 +87,22 @@ def log_search(search: Searching.Search, user: str):
 def log_search_results(results: Searching.SearchResult, user: str):
     if resultslogs:
         results_log = {
-            "PartitionKey": user,
+            "PartitionKey": user["name"],
             "RowKey": results.search.uuid.hex,
             "duration": results.duration,
             "summary": results.get_summary(),
-            "search_results": results.get_context_cleaned()
-            .head(100)
-            .drop(columns=["document"])
-            .to_json(),
+            "search_results": (
+                results.get_context_cleaned()
+                .head(100)
+                .drop(columns=["document"])
+                .to_json()
+            ),
             "num_results": results.get_context().shape[0],
         }
         try:
             resultslogs.create_entity(entity=results_log)
         except Exception as e:
-            print(e)
+            print(f"Error logging results: {e}")
     else:
         print("Error table does not exist")
 
@@ -108,14 +110,14 @@ def log_search_results(results: Searching.SearchResult, user: str):
 def log_search_error(e, search: Searching.Search, user: str):
     if errorlogs:
         error_log = {
-            "PartitionKey": user,
+            "PartitionKey": user["name"],
             "RowKey": search.uuid.hex,
             "error": repr(e),
         }
         try:
             errorlogs.create_entity(entity=error_log)
         except Exception as e:
-            print(e)
+            print(f"Error logging search error: {e}")
     else:
         print("Error table does not exist")
 
@@ -152,7 +154,7 @@ def delete_old_tasks():
     print("Starting delete old task loop")
     while True:
         now = datetime.now()
-        one_day_ago = now - timedelta(days=1)
+        one_day_ago = now - timedelta(minutes=11)
         tasks_to_delete = [
             task_id
             for task_id, task in tasks.items()
@@ -160,7 +162,7 @@ def delete_old_tasks():
         ]
         for task_id in tasks_to_delete:
             del tasks[task_id]
-        time.sleep(3600)  # Sleep for one hour
+        time.sleep(600)  # Sleep for one hour
 
 
 class Task:
@@ -236,7 +238,6 @@ def search_reports(task_id, form_data, context):
                 update = next(results)
                 task.update(status="in progress", desc=update)
             except StopIteration as e:
-                print("Search complete " + str(e))
                 results = e.value
                 break
         formatted_results = format_search_results(results)
