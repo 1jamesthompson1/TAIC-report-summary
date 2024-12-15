@@ -154,7 +154,7 @@ def delete_old_tasks():
     print("Starting delete old task loop")
     while True:
         now = datetime.now()
-        one_day_ago = now - timedelta(days=1)
+        one_day_ago = now - timedelta(minutes=11)
         tasks_to_delete = [
             task_id
             for task_id, task in tasks.items()
@@ -162,7 +162,7 @@ def delete_old_tasks():
         ]
         for task_id in tasks_to_delete:
             del tasks[task_id]
-        time.sleep(3600)  # Sleep for one hour
+        time.sleep(600)  # Sleep for one hour
 
 
 class Task:
