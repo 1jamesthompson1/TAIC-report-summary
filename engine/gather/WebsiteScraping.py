@@ -625,6 +625,7 @@ class ATSBReportScraper(ReportScraper):
         agency_id = soup.find("div", class_="field--name-field-report-id")
         if agency_id is not None:
             agency_id = agency_id.find("div", class_="field__item").text.strip()
+            agency_id = re.sub(r"^\d{3}-M", "M", agency_id, flags=re.IGNORECASE)
 
         return (
             report_id,
