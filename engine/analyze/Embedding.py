@@ -61,10 +61,16 @@ class Embedder:
         token_length_column_name = f"{embedding_column_name}_token_length"
         df = self.tokenize_documents(df, document_column_name, token_length_column_name)
 
-        df = df.loc[df[token_length_column_name] < self.model_context_limit * 2]
+        print(
+            f"There are a total of {df[token_length_column_name].sum()} tokens in {len(df)} documents"
+        )
+
+        to_drop = pd.Series(df[token_length_column_name] < self.model_context_limit * 2)
+
+        df = df.loc[to_drop]
 
         print(
-            f"Dropping documents with more than {self.model_context_limit*2} tokens which is {len(df.loc[df[token_length_column_name] >= self.model_context_limit * 2])} documents"
+            f"Dropping documents with more than {self.model_context_limit*2} tokens which is {len(to_drop) - sum(to_drop)} documents"
         )
 
         # check which new columns needs to be computed, i.e

@@ -64,7 +64,7 @@ def gather(output_dir, config, refresh):
                 WebsiteScraping.TAICReportScraper(
                     os.path.join(
                         output_dir,
-                        output_config.get("taic_website_reports_file_name"),
+                        output_config.get("taic_website_reports_table_file_name"),
                     ),
                     report_scraping_settings,
                 ).collect_all()
@@ -72,7 +72,7 @@ def gather(output_dir, config, refresh):
                 WebsiteScraping.ATSBReportScraper(
                     os.path.join(
                         output_dir,
-                        output_config.get("atsb_website_reports_file_name"),
+                        output_config.get("atsb_website_reports_table_file_name"),
                     ),
                     report_scraping_settings,
                 ).collect_all()
