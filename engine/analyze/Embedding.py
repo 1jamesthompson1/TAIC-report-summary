@@ -1,3 +1,4 @@
+import gc
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -154,7 +155,9 @@ class Embedder:
         self,
         input: str | pd.DataFrame,
         document_column_name,
-        output_file_path: str | None,
+        output_file_path_template: str | None,
+        current_output_df,
+        output_file_start_num: int = 0,
     ):
         if isinstance(input, str):
             df = pd.read_pickle(input)
@@ -166,17 +169,54 @@ class Embedder:
             )
 
         print(f"Looking at: {df.columns}")
+        max_rows = 30000
+        # Check out how many rows the current dataframe cna hold
+        if len(current_output_df) < max_rows:
+            current_output_df = pd.concat(
+                [
+                    current_output_df,
+                    df.iloc[: max_rows - len(current_output_df)],
+                ]
+            )
 
-        embedded_df = self.embed_documents(
-            df,
-            self.embed_batch,
-            document_column_name,
-            document_column_name + "_embedding",
+            df = df.iloc[max_rows - len(current_output_df) :]
+
+        # Split the dataframe into smaller dataframes not more than 30,000 rows
+        total_rows = len(df)
+        num_splits = (total_rows + max_rows - 1) // max_rows  # Ceiling division
+
+        # Split the DataFrame
+        split_dfs = []
+        for i in range(num_splits):
+            start_idx = i * max_rows
+            end_idx = min((i + 1) * max_rows, total_rows)
+            split_df = df.iloc[start_idx:end_idx].copy()
+            split_dfs.append(split_df)
+
+        print(
+            f"Splitting dataframe of size {total_rows} into {len(split_dfs)} dataframes"
         )
-        if output_file_path is not None:
-            embedded_df.to_pickle(output_file_path)
-        else:
-            return embedded_df
+
+        embedded_indexes = []
+
+        for num, split_df in (
+            pbar := tqdm(enumerate(split_dfs, start=(output_file_start_num)))
+        ):
+            pbar.set_description(f"Embedding dataframe {num}")
+            embedded_df = self.embed_documents(
+                split_df,
+                self.embed_batch,
+                document_column_name,
+                document_column_name + "_embedding",
+            )
+            embedded_df.to_pickle(
+                output_file_path_template.replace("{{num}}", str(num))
+            )
+            embedded_indexes.extend(list(embedded_df.index))
+            del embedded_df
+            gc.collect()
+
+        return pd.Series(embedded_indexes)
 
     def process_extracted_reports(self, extracted_df_path, embeddings_config):
         print("==================================================")
@@ -190,11 +230,11 @@ class Embedder:
 
         extracted_df = pd.read_pickle(extracted_df_path)
 
-        for dataframe_column_name, document_column_name, output_file_path in (
+        for dataframe_column_name, document_column_name, output_file_path_template in (
             pbar := tqdm(embeddings_config)
         ):
             pbar.set_description(
-                f"Embedding {dataframe_column_name} into {output_file_path}"
+                f"Embedding {dataframe_column_name} into {output_file_path_template}"
             )
             dataframe_to_embed = None
             if isinstance(
@@ -241,25 +281,6 @@ class Embedder:
                     ]
                 ].dropna()
 
-            if os.path.exists(output_file_path):
-                previously_embedded_df = pd.read_pickle(output_file_path)[
-                    list(dataframe_to_embed.columns)
-                    + [document_column_name + "_embedding"]
-                ]
-                columns_intersection = list(
-                    set(dataframe_to_embed.columns).intersection(
-                        previously_embedded_df.columns
-                    )
-                )
-                dataframe_to_embed = dataframe_to_embed.merge(
-                    previously_embedded_df,
-                    on=columns_intersection,
-                    how="outer",
-                )
-                dataframe_to_embed.drop_duplicates(
-                    subset=columns_intersection, inplace=True
-                )
-
             # Drop unmatched
             dataframe_to_embed = dataframe_to_embed[
                 ~dataframe_to_embed["report_id"].str.contains("nmatched")
@@ -270,6 +291,41 @@ class Embedder:
                 subset=[document_column_name]
             )
 
-            self.embed_dataframe(
-                dataframe_to_embed, document_column_name, output_file_path
+            document_indexes = output_file_path_template.replace("{{num}}", "indexes")
+
+            if os.path.exists(document_indexes):
+                previously_embedded_indexes = pd.read_pickle(document_indexes)
+            else:
+                previously_embedded_indexes = pd.Series([])
+
+            dataframe_to_embed = dataframe_to_embed.drop(previously_embedded_indexes)
+
+            if len(dataframe_to_embed) == 0:
+                print("No documents need to be embedded skipping")
+                continue
+
+            current_output_file_num = len(
+                [
+                    file_num
+                    for file_num in range(1, 1000)
+                    if os.path.exists(
+                        output_file_path_template.replace("{{num}}", str(file_num))
+                    )
+                ]
+            )
+
+            current_output_file = output_file_path_template.replace(
+                "{{num}}", str(current_output_file_num)
+            )
+
+            embedded_indexes = self.embed_dataframe(
+                dataframe_to_embed,
+                document_column_name,
+                output_file_path_template,
+                current_output_file,
+                current_output_file_num,
+            )
+
+            previously_embedded_indexes = pd.concat(
+                [previously_embedded_indexes, embedded_indexes], ignore_index=True
             )
