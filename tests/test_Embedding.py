@@ -45,7 +45,7 @@ def test_basic_embedding(dataframe_column_name, document_column_name):
         )
 
     Embedding.Embedder().embed_dataframe(
-        temp_input.name, document_column_name, temp_output
+        temp_input.name, document_column_name, temp_output.name
     )
 
     assert os.path.exists(temp_output.name)

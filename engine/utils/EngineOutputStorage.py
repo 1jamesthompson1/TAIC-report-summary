@@ -1,3 +1,4 @@
+import gc
 import math
 import os
 from datetime import datetime
@@ -61,20 +62,45 @@ class EngineOutputUploader(EngineOutputManager):
         container_name,
         folder_to_upload,
         viewer_db_uri,
-        safety_issues_embeddings_path,
-        recommendation_embeddings_path,
-        report_sections_embeddings_path,
-        report_text_embeddings_path,
+        safety_issues_embeddings_path_template,
+        recommendation_embeddings_path_template,
+        report_sections_embeddings_path_template,
+        report_text_embeddings_path_template,
     ):
         super().__init__(storage_account_name, storage_account_key, container_name)
 
         self.folder_to_upload = folder_to_upload
         self.db = lancedb.connect(viewer_db_uri)
 
-        self.report_text_embeddings_path = report_text_embeddings_path
-        self.recommendation_embeddings_path = recommendation_embeddings_path
-        self.report_sections_embeddings_path = report_sections_embeddings_path
-        self.safety_issues_embeddings_path = safety_issues_embeddings_path
+        self.report_text_embeddings_path_template = report_text_embeddings_path_template
+        self.recommendation_embeddings_path_template = (
+            recommendation_embeddings_path_template
+        )
+        self.report_sections_embeddings_path_template = (
+            report_sections_embeddings_path_template
+        )
+        self.safety_issues_embeddings_path_template = (
+            safety_issues_embeddings_path_template
+        )
+
+        self.vector_db_schema = pa.schema(
+            [
+                ("document_id", pa.string()),
+                ("document", pa.string()),
+                (
+                    "vector",
+                    pa.list_(pa.float64(), list_size=1024),
+                ),
+                ("report_id", pa.string()),
+                ("year", pa.int64()),
+                ("mode", pa.string()),
+                ("agency", pa.string()),
+                ("type", pa.string()),
+                ("agency_id", pa.string()),
+                ("url", pa.string()),
+                ("document_type", pa.string()),
+            ]
+        )
 
     def _upload_file(self, file_path, uploaded_file_name):
         blob_client = self.engine_output_container.get_blob_client(uploaded_file_name)
@@ -93,104 +119,95 @@ class EngineOutputUploader(EngineOutputManager):
                 pbar.set_description(f"Uploading {file_path} to {uploaded_file_name}")
                 self._upload_file(file_path, uploaded_file_name)
 
-    def _upload_embeddings(self, sample_frac=1):
-        report_sections_embeddings = pd.read_pickle(
-            self.report_sections_embeddings_path
-        ).rename(columns={"section_embedding": "vector"})
-        report_text_embeddings = pd.read_pickle(
-            self.report_text_embeddings_path
-        ).rename(columns={"text_embedding": "vector"})
-        recommendation_embeddings = pd.read_pickle(
-            self.recommendation_embeddings_path
-        ).rename(columns={"recommendation_embedding": "vector"})
-        safety_issue_embeddings = (
-            pd.read_pickle(self.safety_issues_embeddings_path)
-            .rename(columns={"safety_issue_embedding": "vector"})
-            .drop(columns=["safety_issue_embedding_token_length"])
+    def _clean_embedding_dataframe(self, df, type):
+        match type:
+            case "safety_issue":
+                return (
+                    df.rename(columns={"safety_issue_embedding": "vector"})
+                    .drop(columns=["safety_issue_embedding_token_length"])[
+                        [
+                            "safety_issue_id",
+                            "safety_issue",
+                            "vector",
+                            "report_id",
+                            "year",
+                            "mode",
+                            "agency",
+                            "type",
+                            "agency_id",
+                            "url",
+                        ]
+                    ]
+                    .assign(document_type=type)
+                )
+            case "recommendation":
+                return df.rename(columns={"recommendation_embedding": "vector"})[
+                    [
+                        "recommendation_id",
+                        "recommendation",
+                        "vector",
+                        "report_id",
+                        "year",
+                        "mode",
+                        "agency",
+                        "type",
+                        "agency_id",
+                        "url",
+                    ]
+                ].assign(document_type=type)
+            case "report_section":
+                return df.rename(columns={"section_embedding": "vector"})[
+                    [
+                        "section",
+                        "section_text",
+                        "vector",
+                        "report_id",
+                        "year",
+                        "mode",
+                        "agency",
+                        "type",
+                        "agency_id",
+                        "url",
+                    ]
+                ].assign(document_type=type)
+            case "report_text":
+                return df.rename(columns={"text_embedding": "vector"})[
+                    [
+                        "report_id",
+                        "text",
+                        "vector",
+                        "report_id",
+                        "year",
+                        "mode",
+                        "agency",
+                        "type",
+                        "agency_id",
+                        "url",
+                    ]
+                ].assign(document_type=type)
+
+    def _upload_embedding_df(self, df, table, sample_frac):
+        """
+        This takes a dataframe and uploads it to the vector db
+        """
+        df = df.set_axis(
+            [
+                "document_id",
+                "document",
+                "vector",
+                "report_id",
+                "year",
+                "mode",
+                "agency",
+                "type",
+                "agency_id",
+                "url",
+                "document_type",
+            ],
+            axis=1,
         )
 
-        all_document_dfs = [
-            safety_issue_embeddings[
-                [
-                    "safety_issue_id",
-                    "safety_issue",
-                    "vector",
-                    "report_id",
-                    "year",
-                    "mode",
-                    "agency",
-                    "type",
-                    "agency_id",
-                    "url",
-                ]
-            ].assign(document_type="safety_issue"),
-            report_sections_embeddings[
-                [
-                    "section",
-                    "section_text",
-                    "vector",
-                    "report_id",
-                    "year",
-                    "mode",
-                    "agency",
-                    "type",
-                    "agency_id",
-                    "url",
-                ]
-            ].assign(document_type="report_section"),
-            recommendation_embeddings[
-                [
-                    "recommendation_id",
-                    "recommendation",
-                    "vector",
-                    "report_id",
-                    "year",
-                    "mode",
-                    "agency",
-                    "type",
-                    "agency_id",
-                    "url",
-                ]
-            ].assign(document_type="recommendation"),
-            report_text_embeddings[
-                [
-                    "report_id",
-                    "text",
-                    "vector",
-                    "report_id",
-                    "year",
-                    "mode",
-                    "agency",
-                    "type",
-                    "agency_id",
-                    "url",
-                ]
-            ].assign(document_type="report_text"),
-        ]
-
-        all_document_dfs = [
-            df.set_axis(
-                [
-                    "document_id",
-                    "document",
-                    "vector",
-                    "report_id",
-                    "year",
-                    "mode",
-                    "agency",
-                    "type",
-                    "agency_id",
-                    "url",
-                    "document_type",
-                ],
-                axis=1,
-            )
-            for df in all_document_dfs
-        ]
-
-        all_document_types = pd.concat(all_document_dfs, axis=0, ignore_index=True)
-
-        all_document_types["document_id"] = all_document_types.apply(
+        df["document_id"] = df.apply(
             lambda row: row["document_id"]
             if (
                 isinstance(row["document_id"], str)
@@ -199,34 +216,12 @@ class EngineOutputUploader(EngineOutputManager):
             else f"{row['agency']}_{row['document_id']}",
             axis=1,
         )
-
         # Converting to pyarrow first as it was having troubles giving a large pd.DataFrame directly
         pyarrow_table = pa.Table.from_pandas(
-            all_document_types
+            df
             if sample_frac == 1
-            else all_document_types.sample(
-                frac=sample_frac, random_state=42, ignore_index=True
-            ),
-            schema=pa.schema(
-                [
-                    ("document_id", pa.string()),
-                    ("document", pa.string()),
-                    (
-                        "vector",
-                        pa.list_(
-                            pa.float64(), list_size=len(all_document_types["vector"][0])
-                        ),
-                    ),
-                    ("report_id", pa.string()),
-                    ("year", pa.int64()),
-                    ("mode", pa.string()),
-                    ("agency", pa.string()),
-                    ("type", pa.string()),
-                    ("agency_id", pa.string()),
-                    ("url", pa.string()),
-                    ("document_type", pa.string()),
-                ]
-            ),
+            else df.sample(frac=sample_frac, random_state=42, ignore_index=True),
+            schema=self.vector_db_schema,
         )
 
         print(f"prepared pyarrow table size {pyarrow_table.nbytes/1024/1024:.2f} MB")
@@ -247,15 +242,40 @@ class EngineOutputUploader(EngineOutputManager):
 
         print(f"created {len(chunks)} chunks")
 
+        for chunk in tqdm(chunks):
+            table.add(chunk, mode="append")
+
+        del pyarrow_table, chunks, df
+
+    def _upload_embeddings(self, sample_frac=1):
         table = self.db.create_table(
             "all_document_types",
             data=None,
-            schema=pyarrow_table.schema,
+            schema=self.vector_db_schema,
             mode="overwrite",
         )
 
-        for chunk in tqdm(chunks):
-            table.add(chunk, mode="append")
+        for type, path_template in [
+            ("report_text", self.report_text_embeddings_path_template),
+            ("recommendation", self.recommendation_embeddings_path_template),
+            ("report_section", self.report_sections_embeddings_path_template),
+            ("safety_issue", self.safety_issues_embeddings_path_template),
+        ]:
+            print(f"Uploading {type} embeddings")
+            embedding_fie_chunks = [
+                file_num
+                for file_num in range(1, 1000)
+                if os.path.exists(path_template.replace("{{num}}", str(file_num)))
+            ]
+
+            for file_num in (pbar := tqdm(embedding_fie_chunks)):
+                file_path = path_template.replace("{{num}}", str(file_num))
+                pbar.set_description(f"Uploading {file_path}")
+                df = pd.read_pickle(file_path)
+                df = self._clean_embedding_dataframe(df, type)
+                self._upload_embedding_df(df, table, sample_frac)
+                del df
+                gc.collect()
 
         print("created vector db")
 
