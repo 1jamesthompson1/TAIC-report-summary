@@ -156,7 +156,7 @@ class Embedder:
         input: str | pd.DataFrame,
         document_column_name,
         output_file_path_template: str | None,
-        current_output_df,
+        current_output_df=None,
         output_file_start_num: int = 0,
     ):
         if isinstance(input, str):
@@ -170,8 +170,9 @@ class Embedder:
 
         print(f"Looking at: {df.columns}")
         max_rows = 30000
+        split_dfs = []
         # Check out how many rows the current dataframe cna hold
-        if len(current_output_df) < max_rows:
+        if current_output_df and len(current_output_df) < max_rows:
             current_output_df = pd.concat(
                 [
                     current_output_df,
@@ -180,13 +181,13 @@ class Embedder:
             )
 
             df = df.iloc[max_rows - len(current_output_df) :]
+            split_dfs.append(current_output_df)
 
         # Split the dataframe into smaller dataframes not more than 30,000 rows
         total_rows = len(df)
         num_splits = (total_rows + max_rows - 1) // max_rows  # Ceiling division
 
         # Split the DataFrame
-        split_dfs = []
         for i in range(num_splits):
             start_idx = i * max_rows
             end_idx = min((i + 1) * max_rows, total_rows)
@@ -313,10 +314,14 @@ class Embedder:
                     )
                 ]
             )
-
-            current_output_file = output_file_path_template.replace(
-                "{{num}}", str(current_output_file_num)
-            )
+            if current_output_file_num == 0:
+                current_output_file = None
+            else:
+                current_output_file = pd.read_pickle(
+                    output_file_path_template.replace(
+                        "{{num}}", str(current_output_file_num)
+                    )
+                )
 
             embedded_indexes = self.embed_dataframe(
                 dataframe_to_embed,
