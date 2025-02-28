@@ -372,7 +372,7 @@ class TAICReportScraper(ReportScraper):
             try:
                 investigation_page = pd.read_html(
                     hrequests.get(
-                        f"https://www.taic.org.nz/inquiries?page={page_num}",
+                        f"https://www.taic.org.nz/inquiries?page={page_num}&keyword=&occurrence_date[min]=&occurrence_date[max]=&publication_date[min]=&publication_date[max]=&order=field_publication_date&sort=desc",
                         headers=self.headers,
                     ).content,
                     flavor="lxml",
@@ -385,6 +385,22 @@ class TAICReportScraper(ReportScraper):
                 investigation_page["id"] = investigation_page["Number and name"].map(
                     lambda x: re.search(r"(?:[MAR]O-\d{4}-)\d{3}", x).group(0)
                 )
+
+                already_seen_ids = investigation_page["id"].isin(investigations["id"])
+                merged_df = investigation_page.loc[already_seen_ids].merge(
+                    investigations, on="id", how="left"
+                )
+                changed_status = merged_df["Status_x"] != merged_df["Status_y"]
+                investigations_to_remove = merged_df.loc[changed_status]["id"]
+                print(
+                    f"Removing {len(investigations_to_remove)} investigations that have had their status updated"
+                )
+                if len(investigations_to_remove) > 0:
+                    print(investigations_to_remove)
+                # Remove investigations that have had an updated status.
+                investigations = investigations.loc[
+                    ~investigations["id"].isin(investigations_to_remove)
+                ]
 
                 investigation_page = investigation_page.loc[
                     ~investigation_page["id"].isin(investigations["id"]),
@@ -402,13 +418,15 @@ class TAICReportScraper(ReportScraper):
             except hrequests.exceptions.ClientException as e:
                 print(f"Timeout while scraping TAIC investigations: {e}")
                 print(f"Retrying page {page_num}")
-            except ValueError:
+            except ValueError as e:
+                print(f"Failed to scrape page {page_num}: {e}")
                 break
 
         investigations.set_index(
             investigations["id"].map(lambda x: Modes.Mode[x[0].lower()]),
             inplace=True,
         )
+        investigations.index.name = None
 
         investigations.to_pickle(reports_table_path)
 
