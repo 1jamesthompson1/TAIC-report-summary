@@ -1,6 +1,6 @@
 engine:
   download:
-    end_year: 2024
+    end_year: 2025
     max_per_year: 100
     start_year: 2000
     ignored_reports: ['2022_202', '2022_203']
