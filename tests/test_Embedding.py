@@ -78,7 +78,6 @@ def test_basic_embedding(
     assert os.path.exists(output_path)
 
     embedded_dataframe = pd.read_pickle(output_path)
-    print(embedded_dataframe[document_column_name + "_embedding"][0])
 
     assert isinstance(embedded_dataframe, pd.DataFrame)
 
