@@ -1,5 +1,6 @@
 import os
 
+import dotenv
 import pytest
 
 from engine.utils import Config
@@ -11,3 +12,5 @@ def load_test_config():
     pytest.config = config
 
     pytest.output_config = config["engine"]["output"]
+
+    dotenv.load_dotenv()

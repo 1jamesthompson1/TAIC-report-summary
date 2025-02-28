@@ -172,7 +172,10 @@ class Embedder:
         max_rows = 30000
         split_dfs = []
         # Check out how many rows the current dataframe cna hold
-        if current_output_df and len(current_output_df) < max_rows:
+        if (
+            isinstance(current_output_df, pd.DataFrame)
+            and len(current_output_df) < max_rows
+        ):
             current_output_df = pd.concat(
                 [
                     current_output_df,

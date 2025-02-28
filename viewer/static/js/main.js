@@ -60,7 +60,7 @@ function createYearSlider() {
         range: true,
         min: 2000,
         max: new Date().getFullYear(),
-        values: [2007, 2024],
+        values: [2007, 2025],
         create: function () {
             // Add divs to the handles
             $(this).children('.ui-slider-handle').each(function (i) {
