@@ -623,7 +623,8 @@ class SearchEngineSearcher:
         self.query = formatted_query
 
         search_results = yield from self.search()
-        search_results = self._filter_results(search_results)
+        if isinstance(search_results, pd.DataFrame):
+            search_results = self._filter_results(search_results)
 
         if search_results is None or len(search_results) == 0:
             print("No relevant documents found")
