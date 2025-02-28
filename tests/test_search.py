@@ -195,7 +195,7 @@ class TestSearcher:
                 Modes.all_modes,
                 (2000, 2020),
                 ["safety_issue", "recommendation"],
-                0.8,
+                0.6,
             ),
         )
         result = self.get_return_value(searcher.search(search, with_rag=True))

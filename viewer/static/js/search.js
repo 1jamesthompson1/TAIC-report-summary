@@ -68,7 +68,7 @@ function checkSearchStatus(taskId) {
                 $('#loadingDesc').text(data.status_desc)
                 searchTimeout = setTimeout(function () {
                     checkSearchStatus(taskId);
-                }, 500);
+                }, 2000);
                 last_found_status = Date.now()
             } else if (data.status === 'not found') {
                 if (last_found_status) {
@@ -78,7 +78,7 @@ function checkSearchStatus(taskId) {
                     } else {
                         searchTimeout = setTimeout(function () {
                             checkSearchStatus(taskId);
-                        }, 500);
+                        }, 2000);
                     }
                 }
             }

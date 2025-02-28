@@ -618,16 +618,17 @@ class SearchEngineSearcher:
         )
         print(f' Going to run query: "{formatted_query}"')
 
-        print("Getting relevant safety issues...")
+        print("Getting relevant documents...")
         yield "Getting relevant documents..."
         self.query = formatted_query
 
         search_results = yield from self.search()
+        if isinstance(search_results, pd.DataFrame):
+            search_results = self._filter_results(search_results)
 
-        if search_results is None:
+        if search_results is None or len(search_results) == 0:
             print("No relevant documents found")
             return SearchResult(self.search_obj, None, None)
-        search_results = self._filter_results(search_results)
 
         print(f"Summarizing {len(search_results)} documents...")
         yield f"Summarizing {len(search_results)} documents..."
