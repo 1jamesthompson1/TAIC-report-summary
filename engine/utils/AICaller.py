@@ -34,7 +34,7 @@ class OpenAICaller(BaseAICaller):
         super().__init__(client, model, limit)
 
     def query(self, system, user, temp, n, max_tokens=1024):
-        if self.check_query_above_limit(user):
+        if self.check_query_above_limit(system + user):
             print("Too many tokens, not sending to OpenAI")
             return None
 
@@ -69,7 +69,7 @@ class AnthropicCaller(BaseAICaller):
         if n != 1:
             raise ValueError("Anthropic only supports n=1")
 
-        if self.check_query_above_limit(user):
+        if self.check_query_above_limit(system + user):
             print("Too many tokens, not sending to Anthropic")
             return None
 
