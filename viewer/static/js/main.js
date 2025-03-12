@@ -55,12 +55,13 @@ function setupEventHandlers() {
 function createYearSlider() {
     const $minInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-min` });
     const $maxInput = $('<input>').attr({ type: 'hidden', name: `yearSlider-max` });
+    const endyear = new Date().getFullYear()
     $('#yearSlider').append($minInput, $maxInput);
     $("#yearSlider").slider({
         range: true,
         min: 2000,
-        max: new Date().getFullYear(),
-        values: [2007, 2025],
+        max: endyear,
+        values: [2007, endyear],
         create: function () {
             // Add divs to the handles
             $(this).children('.ui-slider-handle').each(function (i) {
