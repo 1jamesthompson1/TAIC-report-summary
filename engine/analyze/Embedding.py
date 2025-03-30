@@ -302,7 +302,9 @@ class Embedder:
             else:
                 previously_embedded_indexes = pd.Series([])
 
-            dataframe_to_embed = dataframe_to_embed.drop(previously_embedded_indexes)
+            dataframe_to_embed = dataframe_to_embed.drop(
+                previously_embedded_indexes, errors="ignore"
+            )
 
             if len(dataframe_to_embed) == 0:
                 print("No documents need to be embedded skipping")
