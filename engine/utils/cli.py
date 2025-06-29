@@ -113,54 +113,7 @@ def gather(output_dir, config, refresh):
     TAIC_recs_scraper.extract_recommendations_from_website()
 
 
-def extract(output_dir, config, refresh):
-    output_config = config.get("output")
-
-    report_extractor = ReportExtracting.ReportExtractingProcessor(
-        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
-        refresh,
-    )
-
-    report_extractor.extract_table_of_contents_from_reports(
-        os.path.join(output_dir, output_config.get("toc_df_file_name"))
-    )
-
-    report_extractor.extract_safety_issues_from_reports(
-        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
-        os.path.join(output_dir, output_config.get("toc_df_file_name")),
-        os.path.join(
-            output_dir, output_config.get("atsb_website_safety_issues_file_name")
-        ),
-        os.path.join(output_dir, output_config.get("safety_issues_df_file_name")),
-    )
-
-    report_extractor.extract_recommendations(
-        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
-        os.path.join(
-            output_dir, output_config.get("tsb_website_recommendations_file_name")
-        ),
-        os.path.join(
-            output_dir, output_config.get("taic_website_recommendations_file_name")
-        ),
-        os.path.join(output_dir, output_config.get("toc_df_file_name")),
-    )
-
-    report_extractor.extract_sections_from_text(
-        15, os.path.join(output_dir, output_config.get("report_sections_df_file_name"))
-    )
-
-    ReportTypeAssignment.ReportTypeAssigner(
-        os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
-        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
-        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
-        os.path.join(output_dir, output_config.get("report_event_types_df_file_name")),
-    ).assign_report_types()
-
-    print(
-        f"Merging all dataframes into {output_config.get('extracted_reports_df_file_name')}"
-    )
-
-    # Merge all of the dataframes into one extracted dataframe
+def create_extracted_reports_df(output_dir, output_config):
     dataframes = [
         pd.read_pickle(os.path.join(output_dir, file_name)).set_index("report_id")
         for file_name in [
@@ -214,6 +167,56 @@ def extract(output_dir, config, refresh):
     combined_df.to_pickle(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name"))
     )
+
+
+def extract(output_dir, config, refresh):
+    output_config = config.get("output")
+
+    report_extractor = ReportExtracting.ReportExtractingProcessor(
+        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
+        refresh,
+    )
+
+    report_extractor.extract_table_of_contents_from_reports(
+        os.path.join(output_dir, output_config.get("toc_df_file_name"))
+    )
+
+    report_extractor.extract_safety_issues_from_reports(
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
+        os.path.join(
+            output_dir, output_config.get("atsb_website_safety_issues_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("safety_issues_df_file_name")),
+    )
+
+    report_extractor.extract_recommendations(
+        os.path.join(output_dir, output_config.get("recommendations_df_file_name")),
+        os.path.join(
+            output_dir, output_config.get("tsb_website_recommendations_file_name")
+        ),
+        os.path.join(
+            output_dir, output_config.get("taic_website_recommendations_file_name")
+        ),
+        os.path.join(output_dir, output_config.get("toc_df_file_name")),
+    )
+
+    report_extractor.extract_sections_from_text(
+        15, os.path.join(output_dir, output_config.get("report_sections_df_file_name"))
+    )
+
+    ReportTypeAssignment.ReportTypeAssigner(
+        os.path.join(output_dir, output_config.get("all_event_types_df_file_name")),
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
+        os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
+        os.path.join(output_dir, output_config.get("report_event_types_df_file_name")),
+    ).assign_report_types()
+
+    print(
+        f"Merging all dataframes into {output_config.get('extracted_reports_df_file_name')}"
+    )
+
+    create_extracted_reports_df(output_dir, output_config)
 
 
 def analyze(output_dir, config, refresh):
@@ -270,6 +273,14 @@ def analyze(output_dir, config, refresh):
                 "text",
                 os.path.join(
                     embedding_folder, embeddings_config.get("report_text_file_name")
+                ),
+            ),
+            (
+                "summaries",
+                "summary",
+                os.path.join(
+                    embedding_folder,
+                    embeddings_config.get("report_summaries_file_name"),
                 ),
             ),
         ],

@@ -1,6 +1,8 @@
 import os
 import re
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
@@ -11,6 +13,47 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 from ..utils import Modes
+
+
+class ReportMetadata:
+    """
+    Small data class to hold the metadata so that it can be passed around easily between the functions.
+    """
+
+    def __init__(
+        self,
+        report_id,
+        title,
+        event_type,
+        investigation_type,
+        summary,
+        misc,
+        report_url,
+        agency_id,
+    ):
+        self.report_id = report_id
+        self.title = title
+        self.event_type = event_type
+        self.investigation_type = investigation_type
+        self.summary = summary
+        self.misc = misc
+        self.report_url = report_url
+        self.agency_id = agency_id
+
+    def __repr__(self):
+        return f"ReportMetadata({self.report_id}, {self.title})"
+
+    def as_report_row(self):
+        return [
+            self.report_id,
+            self.title,
+            self.event_type,
+            self.investigation_type,
+            self.summary,
+            self.misc,
+            self.report_url,
+            self.agency_id,
+        ]
 
 
 class ReportScraperSettings:
@@ -25,6 +68,7 @@ class ReportScraperSettings:
         modes: list[Modes.Mode],
         ignored_report_ids: list[str],
         refresh,
+        refresh_metadata=False,
     ):
         self.report_dir = report_dir
         self.report_titles_file_path = report_titles_file_path
@@ -35,6 +79,7 @@ class ReportScraperSettings:
         self.refresh = refresh
         self.modes = modes
         self.ignored_report_ids = ignored_report_ids
+        self.refresh_metadata = refresh_metadata
 
 
 class WebsiteScraper:
@@ -87,6 +132,8 @@ class ReportScraper(WebsiteScraper):
             self.report_titles_df = pd.read_pickle(
                 self.settings.report_titles_file_path
             )
+            # Make sure index is from 0 to n-1
+            self.report_titles_df.reset_index(drop=True, inplace=True)
         else:
             self.report_titles_df = pd.DataFrame(
                 columns=[
@@ -103,6 +150,10 @@ class ReportScraper(WebsiteScraper):
 
         # Create a folder to store the downloaded PDFs
         os.makedirs(self.settings.report_dir, exist_ok=True)
+
+        # Thread lock for safe printing
+        self._print_lock = threading.Lock()
+        self._metadata_file_lock = threading.Lock()
 
     def collect_all(self):
         print(
@@ -122,6 +173,7 @@ class ReportScraper(WebsiteScraper):
         )
         print(f"  Output directory: {self.settings.report_dir}")
         print(f"  File name template: {self.settings.file_name_template}")
+        print(f"  Report titles file path: {self.settings.report_titles_file_path}")
         print(
             f"  Start year: {self.settings.start_year},  End year: {self.settings.end_year}"
         )
@@ -149,22 +201,59 @@ class ReportScraper(WebsiteScraper):
             year for year in range(self.settings.start_year, self.settings.end_year + 1)
         ]
 
-        for year in (pbar := tqdm(year_range)):
-            pbar.set_description(
-                f"Downloading reports for mode: {mode.name}, currently doing year: {year}"
-            )
+        # Use ThreadPoolExecutor for parallel processing
+        with ThreadPoolExecutor(max_workers=min(len(year_range), 4)) as executor:
+            # Submit all year collection tasks
+            future_to_year = {
+                executor.submit(self.collect_year, year, mode): year
+                for year in year_range
+            }
 
-            self.collect_year(year, mode)
+            completed_years = []
+
+            # Process completed tasks as they finish
+            for future in as_completed(future_to_year):
+                year = future_to_year[future]
+                try:
+                    year_result = future.result()
+                    completed_years.append(year_result)
+
+                    with self._print_lock:
+                        print(
+                            f"==Completed year {year_result['year']} for mode {mode.name}: "
+                            f"{year_result['reports_collected']} reports collected out of {year_result['potential_reports']} in "
+                            f"{year_result['duration']:.2f} seconds=="
+                        )
+
+                except Exception as exc:
+                    with self._print_lock:
+                        print(f"==Year {year} generated an exception: {exc}==")
+
+        # Print final summary
+        total_reports = sum(result["reports_collected"] for result in completed_years)
+        total_time = sum(result["duration"] for result in completed_years)
+        avg_time = total_time / len(completed_years) if completed_years else 0
+
+        with self._print_lock:
+            print(f"==Finished downloading reports for mode: {mode.name}==")
+            print(f"  Total reports collected: {total_reports}")
+            print(f"  Total time: {total_time:.2f} seconds")
+            print(f"  Average time per year: {avg_time:.2f} seconds")
 
     def collect_year(self, year, mode):
-        # Define the base URL and report ids and download all reports for the mode.
+        """Helper method to collect a year's reports with timing information"""
+        start_time = datetime.now()
+
+        with self._print_lock:
+            print(f"==Starting year {year} for mode: {mode.name}==")
 
         number_for_year = 0
-        for report_id, url in (inner_pbar := tqdm(self.get_report_urls(mode, year))):
+        report_urls = self.get_report_urls(mode, year)
+        for report_id, url in report_urls:
             if report_id in self.settings.ignored_report_ids:
                 continue
 
-            outcome = self.collect_report(report_id, url, inner_pbar)
+            outcome = self.collect_report(report_id, url)
 
             if outcome:
                 number_for_year += 1
@@ -172,46 +261,48 @@ class ReportScraper(WebsiteScraper):
             if number_for_year >= self.settings.max_per_year:
                 break
 
-    def collect_report(self, report_id, url, pbar=None):
+        duration = (datetime.now() - start_time).total_seconds()
+
+        return {
+            "year": year,
+            "potential_reports": len(report_urls),
+            "reports_collected": number_for_year,
+            "duration": duration,
+        }
+
+    def collect_report(self, report_id, url):
         file_name = os.path.join(
             self.settings.report_dir,
             self.settings.file_name_template.replace(r"{{report_id}}", report_id),
         )
-        if pbar:
-            pbar.set_description(f"  Collecting {url}")
 
+        # Skip if PDF path already exists.
         if not self.settings.refresh and (
             os.path.exists(file_name)
             or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
         ):
-            if pbar:
-                pbar.set_description(f"  {file_name} already exists, skipping download")
-            return True
+            if (
+                not self.settings.refresh_metadata
+                and not self.report_titles_df.query(f"report_id == '{report_id}'").empty
+            ):
+                return True
 
         try:
             webpage = hrequests.get(url, headers=self.headers, timeout=30)
         except hrequests.exceptions.ClientException as e:
-            if pbar:
-                pbar.write(
-                    f"  Timed out while trying to collect {url}, {e}\n\nRetrying..."
-                )
+            print(f"  Timed out while trying to collect {url}, {e}, Retrying...")
             try:
                 webpage = hrequests.get(url, headers=self.headers, timeout=30)
             except hrequests.exceptions.ClientException as e:
-                if pbar:
-                    pbar.write(f"{e}")
+                print(f"{e}")
                 return False
         except hrequests.exceptions.BrowserTimeoutException:
-            if pbar:
-                pbar.write(f"  Failed to collect {url}, timeout error")
+            print(f"  Failed to collect {url}, timeout error")
             return False
         soup = BeautifulSoup(webpage.content, "html.parser")
 
         if webpage.status_code != 200 and webpage.status_code != 404:
-            if pbar:
-                pbar.write(
-                    f"  Failed to collect {url}, status code: {webpage.status_code}"
-                )
+            print(f"  Failed to collect {url}, status code: {webpage.status_code}")
             return False
         elif webpage.status_code == 404:
             return False
@@ -219,23 +310,19 @@ class ReportScraper(WebsiteScraper):
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
 
-        outcome = False
+        outcome = None
         if not os.path.exists(file_name):
-            outcome = self.download_report(report_id, file_name, soup, base_url, pbar)
+            outcome = self.download_report(report_id, file_name, soup, base_url)
 
-        if self.report_titles_df.query("report_id == @report_id").empty:
-            report_id, title, event_type, investigation_type, agency_id, misc = (
-                self.get_report_metadata(report_id, soup, pbar)
-            )
+        if (
+            self.report_titles_df.query("report_id == @report_id").empty
+            or self.settings.refresh_metadata
+        ):
             self.__add_report_metadata_to_df(
-                report_id,
-                title,
-                event_type,
-                investigation_type,
-                misc,
-                report_url=url,
-                agency_id=agency_id,
+                self.get_report_metadata(report_id, url, soup)
             )
+            if outcome is None:
+                outcome = True
 
         return outcome
 
@@ -245,7 +332,6 @@ class ReportScraper(WebsiteScraper):
         file_name: str,
         soup: BeautifulSoup,
         base_url: str,
-        pbar=None,
     ):
         # Find all the links that end with .pdf and download them
 
@@ -259,37 +345,31 @@ class ReportScraper(WebsiteScraper):
         pdf_links = list(dict.fromkeys(pdf_links))
 
         if len(pdf_links) == 0:
-            if pbar:
-                pbar.write(
-                    f"WARNING: Found no suitable PDF link for {report_id}. Will not download any."
-                )
+            print(
+                f"WARNING: Found no PDFs link for {report_id}. Will not download any."
+            )
             return False
         if len(pdf_links) > 1:
             # Only take one that has "final" but not "interim"
-            pdf_links = [
+            suitable_pdf_links = [
                 link
                 for link in pdf_links
                 if "final" in link.lower() and "interim" not in link.lower()
             ]
-            if len(pdf_links) > 1:
-                if pbar:
-                    links_str = "\n".join(pdf_links)
-                    pbar.write(
-                        f"WARNING: Found more than one PDF for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
-                    )
+            if len(suitable_pdf_links) > 1:
+                links_str = "\n".join(suitable_pdf_links)
+                print(
+                    f"WARNING: Found more than one PDF for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
+                )
                 return False
-            if len(pdf_links) == 0:
-                if pbar:
-                    links_str = "\n".join(pdf_links)
-                    pbar.write(
-                        f"WARNING: Found no suitable PDF link for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
-                    )
+            if len(suitable_pdf_links) == 0:
+                links_str = "\n".join(suitable_pdf_links)
+                print(
+                    f"WARNING: Found no suitable PDF link for {report_id}. Will not download any."
+                )
                 return False
 
         link = urljoin(base_url, pdf_links[0])
-        if pbar:
-            pbar.set_description(f"  Downloading {link}")
-
         try:
             with open(file_name, "wb") as f:
                 f.write(
@@ -297,22 +377,19 @@ class ReportScraper(WebsiteScraper):
                         link, allow_redirects=True, headers=self.headers, timeout=30
                     ).content
                 )
-                if pbar:
-                    pbar.set_description(f"  Downloaded {file_name}")
         except (
             hrequests.exceptions.BrowserTimeoutException,
             hrequests.exceptions.ClientException,
         ):
             os.remove(file_name)
-            if pbar:
-                pbar.write(f"  {file_name} timed out")
+            print(f"  {file_name} timed out")
             return False
 
         return True
 
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
-    ) -> tuple[str, str, str, str, dict]:
+    ) -> ReportMetadata:
         """
         Gets the investigation webpage and scrapes extra information about the report.
 
@@ -331,26 +408,21 @@ class ReportScraper(WebsiteScraper):
             A tuple containing the report_id, title, event_type, investigation_type,misc
         """
 
-    def __add_report_metadata_to_df(
-        self,
-        report_id: str,
-        title: str,
-        event_type: str,
-        investigation_type,
-        misc: dict,
-        report_url,
-        agency_id,
-    ):
-        if self.report_titles_df.query("report_id == @report_id").empty:
-            self.report_titles_df.loc[len(self.report_titles_df)] = [
-                report_id,
-                title,
-                event_type,
-                investigation_type,
-                misc,
-                report_url,
-                agency_id,
-            ]
+    def __add_report_metadata_to_df(self, metadata: ReportMetadata):
+        with self._metadata_file_lock:
+            # Check if report_id exists
+            existing_idx = self.report_titles_df.index[
+                self.report_titles_df["report_id"] == metadata.report_id
+            ].tolist()
+            if existing_idx:
+                # Replace the existing row
+                self.report_titles_df.loc[existing_idx[0]] = metadata.as_report_row()
+            else:
+                # Add as new row
+                self.report_titles_df.loc[len(self.report_titles_df)] = (
+                    metadata.as_report_row()
+                )
+
             self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
 
 
@@ -443,12 +515,34 @@ class TAICReportScraper(ReportScraper):
             .to_list()
         ]
 
-    def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
+    def get_report_metadata(
+        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
+    ):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
         agency_id = soup.find("h1", class_="page-title").get_text().strip()
 
-        return report_id, title, None, "full", agency_id, {}
+        summary_div = soup.find("div", class_="field--name-field-final-summary")
+        if summary_div is not None:
+            summary = summary_div.get_text().strip()
+            # Treat the summary as None if it is less than 200 characters
+            # This is to catch the situations like "Final report not yet published", "New Zealand has completed its support for this inquiry. Please note, TAIC will not be producing a report for this inquiry."
+            if len(summary) < 200:
+                summary = None
+        else:
+            print(f"Failed to get summary for {report_id}")
+            summary = None
+
+        return ReportMetadata(
+            report_url=url,
+            report_id=report_id,
+            title=title,
+            event_type=None,
+            investigation_type="full",
+            agency_id=agency_id,
+            summary=summary,
+            misc={},
+        )
 
 
 class ATSBReportScraper(ReportScraper):
@@ -617,7 +711,7 @@ class ATSBReportScraper(ReportScraper):
         ]
 
     def get_report_metadata(
-        self, report_id: str, soup: BeautifulSoup, pbar=None
+        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
     ) -> tuple[str, str, str, dict]:
         report_mode = Modes.get_report_mode_from_id(report_id)
         event_type = None
@@ -645,17 +739,28 @@ class ATSBReportScraper(ReportScraper):
             agency_id = agency_id.find("div", class_="field__item").text.strip()
             agency_id = re.sub(r"^\d{3}-M", "M", agency_id, flags=re.IGNORECASE)
 
-        return (
-            report_id,
-            title,
-            event_type,
-            "unknown"
+        # Getting the safety summary
+        summary_div = soup.find("div", class_="field--type-text-with-summary")
+        if summary_div is not None:
+            summary = summary_div.get_text().strip()
+            if len(summary) < 200:
+                summary = None
+        else:
+            summary = None
+
+        return ReportMetadata(
+            report_url=url,
+            report_id=report_id,
+            title=title,
+            event_type=event_type,
+            investigation_type="unknown"
             if investigation_level is None
             else "full"
             if investigation_level in ["Defined", "Systemic"]
             else "short",
-            agency_id,
-            {"investigation_level": investigation_level},
+            agency_id=agency_id,
+            summary=summary,  # Currently no support for getting ATSB summary text as it is not always present.
+            misc={"investigation_level": investigation_level},
         )
 
 
@@ -710,7 +815,9 @@ class TSBReportScraper(ReportScraper):
             .to_list()
         ]
 
-    def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
+    def get_report_metadata(
+        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
+    ):
         # Due to TSB having the metadata on a page separate from the report pdf link, we need to get the new page
         split_id = report_id.split("_")
         tsb_id = f"{split_id[1]}{split_id[2][2:4]}{split_id[3]}"
@@ -769,17 +876,19 @@ class TSBReportScraper(ReportScraper):
         if agency_id is not None:
             agency_id = agency_id.strip().split(" ")[-1]
 
-        return (
-            report_id,
-            all_text,
-            event_type,
-            "unknown"
+        return ReportMetadata(
+            report_url=url,
+            report_id=report_id,
+            title=all_text,
+            event_type=event_type,
+            investigation_type="unknown"
             if investigation_level is None
             else "full"
             if investigation_level in ["1", "2", "3"]
             else "short",
-            agency_id,
-            {"investigation_class": investigation_level},
+            agency_id=agency_id,
+            summary=None,  # TSB does not include summary text. However the press releases provide a summary of sorts.
+            misc={"investigation_class": investigation_level},
         )
 
 
