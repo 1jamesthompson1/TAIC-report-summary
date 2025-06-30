@@ -34,6 +34,7 @@ engine:
       recommendations_file_name: "recommendations_embeddings_{{num}}.pkl"
       report_sections_file_name: "report_sections_embeddings_{{num}}.pkl"
       report_text_file_name: "report_text_embeddings_{{num}}.pkl"
+      report_summary_file_name: "report_summary_embeddings_{{num}}.pkl"
   data:
     data_remote_folder_location: "https://raw.githubusercontent.com/1jamesthompson1/TAIC-report-summary/main/data/"
     data_local_folder_location: "data"

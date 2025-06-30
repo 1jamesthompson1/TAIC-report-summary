@@ -22,7 +22,7 @@ class EngineOutputManager:
     def __get_output_container(
         self, storage_account_name, storage_account_key, container_name
     ):
-        connection_string = f"DefaultEndpointsProtocol=https;AccountName={storage_account_name};AccountKey={storage_account_key}==;EndpointSuffix=core.windows.net"
+        connection_string = f"DefaultEndpointsProtocol=https;AccountName={storage_account_name};AccountKey={storage_account_key};EndpointSuffix=core.windows.net"
 
         blob_service_client = BlobServiceClient.from_connection_string(
             connection_string
@@ -315,7 +315,39 @@ class EngineOutputDownloader(EngineOutputManager):
         super().__init__(storage_account_name, storage_account_key, container_name)
         self.downloaded_folder_name = downloaded_folder_name
 
-    def download_latest_output(self):
+    def _should_download_file(self, blob, local_path):
+        """
+        Check if a file should be downloaded based on existence and modification time and that the file sizes match.
+
+        Args:
+            blob: Azure blob object with properties
+            local_path: Local file path to check
+
+        Returns:
+            bool: True if file should be downloaded, False if it's up to date
+        """
+        # If local file doesn't exist, download it
+        if not os.path.exists(local_path):
+            return True
+
+        if blob.size != os.path.getsize(local_path):
+            print(
+                f"File size mismatch: Blob size {blob.size} bytes, Local file size {os.path.getsize(local_path)} bytes"
+            )
+            return True
+
+        # Get local file modification time
+        local_mtime = datetime.fromtimestamp(
+            os.path.getmtime(local_path), tz=pytz.timezone("Pacific/Auckland")
+        )
+
+        # Get blob's last modified time
+        blob_mtime = blob.last_modified.astimezone(pytz.timezone("Pacific/Auckland"))
+
+        # Download if blob is newer than local file
+        return blob_mtime == local_mtime
+
+    def download_latest_output(self, force_download=False):
         latest_output_folder_name = self._get_latest_output()
         if latest_output_folder_name is None:
             print("No latest output found")
@@ -324,16 +356,34 @@ class EngineOutputDownloader(EngineOutputManager):
             name_starts_with=latest_output_folder_name
         )
 
+        downloaded_count = 0
+        skipped_count = 0
+
         for blob in (pbar := tqdm(blobs)):
             blob_client = self.engine_output_container.get_blob_client(blob.name)
-            pbar.set_description(
-                f"Downloading {blob.name} to {self.downloaded_folder_name}"
-            )
             download_path = os.path.join(
                 self.downloaded_folder_name,
                 os.path.relpath(blob.name, latest_output_folder_name),
             )
-            if not os.path.exists(os.path.dirname(download_path)):
-                os.makedirs(os.path.dirname(download_path))
-            with open(download_path, "wb") as data:
-                blob_client.download_blob().readinto(data)
+
+            # Check if file needs to be downloaded
+            should_download = force_download or self._should_download_file(
+                blob, download_path
+            )
+
+            if should_download:
+                pbar.set_description(
+                    f"Downloading {blob.name} to {self.downloaded_folder_name}"
+                )
+                if not os.path.exists(os.path.dirname(download_path)):
+                    os.makedirs(os.path.dirname(download_path))
+                with open(download_path, "wb") as data:
+                    blob_client.download_blob().readinto(data)
+                downloaded_count += 1
+            else:
+                pbar.set_description(f"Skipping {blob.name} (already up to date)")
+                skipped_count += 1
+
+        print(
+            f"Download complete: {downloaded_count} files downloaded, {skipped_count} files skipped"
+        )

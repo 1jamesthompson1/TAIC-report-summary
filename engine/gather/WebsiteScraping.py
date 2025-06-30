@@ -69,6 +69,7 @@ class ReportScraperSettings:
         ignored_report_ids: list[str],
         refresh,
         refresh_metadata=False,
+        scraper_workers=1,
     ):
         self.report_dir = report_dir
         self.report_titles_file_path = report_titles_file_path
@@ -80,6 +81,7 @@ class ReportScraperSettings:
         self.modes = modes
         self.ignored_report_ids = ignored_report_ids
         self.refresh_metadata = refresh_metadata
+        self.scraper_workers = scraper_workers
 
 
 class WebsiteScraper:
@@ -202,7 +204,9 @@ class ReportScraper(WebsiteScraper):
         ]
 
         # Use ThreadPoolExecutor for parallel processing
-        with ThreadPoolExecutor(max_workers=min(len(year_range), 4)) as executor:
+        with ThreadPoolExecutor(
+            max_workers=min(len(year_range), self.settings.scraper_workers)
+        ) as executor:
             # Submit all year collection tasks
             future_to_year = {
                 executor.submit(self.collect_year, year, mode): year
@@ -285,6 +289,7 @@ class ReportScraper(WebsiteScraper):
                 not self.settings.refresh_metadata
                 and not self.report_titles_df.query(f"report_id == '{report_id}'").empty
             ):
+                print(f"Skipping {report_id} as it already exists.")
                 return True
 
         try:
@@ -305,6 +310,7 @@ class ReportScraper(WebsiteScraper):
             print(f"  Failed to collect {url}, status code: {webpage.status_code}")
             return False
         elif webpage.status_code == 404:
+            print(f" Error 404: {url} not found")
             return False
 
         parsed_url = urlparse(url)
@@ -356,6 +362,15 @@ class ReportScraper(WebsiteScraper):
                 for link in pdf_links
                 if "final" in link.lower() and "interim" not in link.lower()
             ]
+            # Remove links that are simply subsets of other links
+            suitable_pdf_links = [
+                link
+                for link in suitable_pdf_links
+                if not any(
+                    link != other and link in other for other in suitable_pdf_links
+                )
+            ]
+
             if len(suitable_pdf_links) > 1:
                 links_str = "\n".join(suitable_pdf_links)
                 print(
@@ -363,9 +378,9 @@ class ReportScraper(WebsiteScraper):
                 )
                 return False
             if len(suitable_pdf_links) == 0:
-                links_str = "\n".join(suitable_pdf_links)
+                links_str = "\n".join(pdf_links)
                 print(
-                    f"WARNING: Found no suitable PDF link for {report_id}. Will not download any."
+                    f"WARNING: Found no suitable PDF link for {report_id}. Will not download any. Here are the original links:\n{links_str}"
                 )
                 return False
 

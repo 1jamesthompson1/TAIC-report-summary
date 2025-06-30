@@ -148,7 +148,9 @@ def create_extracted_reports_df(output_dir, output_config):
         os.path.join(output_dir, output_config.get("report_titles_df_file_name"))
     )
     combined_df = combined_df.merge(
-        report_titles[["report_id", "agency_id", "url"]], how="left", on="report_id"
+        report_titles[["report_id", "agency_id", "url", "summary"]],
+        how="left",
+        on="report_id",
     )
 
     # Add metadata columns
@@ -276,7 +278,7 @@ def analyze(output_dir, config, refresh):
                 ),
             ),
             (
-                "summaries",
+                "summary",
                 "summary",
                 os.path.join(
                     embedding_folder,
