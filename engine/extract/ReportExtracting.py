@@ -853,10 +853,10 @@ The section number I am looking for is {section}
 
         splits_df = pd.DataFrame(raw_splits, columns=["section_text"])
 
+        page_regex = re.compile(r"<< Page (\d+|[xvi]+) >>")
+
         splits_df["page"] = splits_df["section_text"].map(
-            lambda x: re.match(r"<< Page (\d+|[xvi]+) >>", x).group(1)
-            if re.match(r"<< Page (\d+|[xvi]+) >>", x)
-            else None
+            lambda x: page_regex.match(x).group(1) if page_regex.match(x) else None
         )
         splits_df.ffill(inplace=True)
         splits_df.replace({pd.NA: "0", None: "0"}, inplace=True)
@@ -866,9 +866,7 @@ The section number I am looking for is {section}
         )
 
         splits_df = splits_df[
-            splits_df["section_text"].map(
-                lambda x: len(re.sub(r"<< Page (\d+|[xvi]+) >>", "", x).strip())
-            )
+            splits_df["section_text"].map(lambda x: len(page_regex.sub("", x).strip()))
             > 8
         ]
 
@@ -1255,9 +1253,15 @@ class ReportExtractingProcessor:
         toc_df.to_pickle(output_file)
 
     def __extract_sections(
-        num_sections, all_potential_sections, report_text, debug=False, headers=None
+        num_sections,
+        all_potential_sections,
+        report_text,
+        report_id,
+        debug=False,
+        headers=None,
     ):
         get_parts_regex = r"(((\d{1,2}).\d{1,2}).\d{1,2})"
+        get_parts_pattern = re.compile(get_parts_regex)
 
         extractor = ReportSectionExtractor(report_text, num_sections, headers)
 
@@ -1266,12 +1270,12 @@ class ReportExtractingProcessor:
         for section in all_potential_sections:
             if debug:
                 print(
-                    f"Looking at section {re.search(get_parts_regex, section[0][0]).group(3)}"
+                    f"Looking at section {get_parts_pattern.search(section[0][0]).group(3)}"
                 )
 
             subsection_missing_count = 0
             for sub_section in section:
-                sub_section_str = re.search(get_parts_regex, sub_section[0]).group(2)
+                sub_section_str = get_parts_pattern.search(sub_section[0]).group(2)
                 if debug:
                     print(f" Looking at subsection {sub_section_str}")
 
@@ -1321,11 +1325,85 @@ class ReportExtractingProcessor:
 
         # Check if this worked. Otherwise extract with paragraph splitting.
 
+        report_sections = None
+
         if len(df) > 4 and df["section_text"].map(len).mean() < 2_000:
-            return df
+            report_sections = df.copy()
 
         else:
-            return extractor.split_into_paragraphs()
+            report_sections = extractor.split_into_paragraphs()
+
+        # Filter out sections that are irrelevant
+
+        report_sections["section_text_length"] = report_sections["section_text"].map(
+            len
+        )
+
+        source_line = report_sections["section_text"].str.match(r"^Source: [\w\s]+$")
+
+        copyright = report_sections["section_text"].str.match(r"^© [\w\s]+$")
+
+        blank_page = (
+            report_sections["section_text"].str.match(
+                r"^(<< Page \d+ >>)|([A-Z ]+)$", flags=re.MULTILINE
+            )
+        ) & (report_sections["section_text_length"] < 250)
+        to_remove = source_line | copyright | blank_page
+
+        filtered_report_sections = (
+            report_sections[~to_remove]
+            .reset_index(drop=True)
+            .drop(columns=["section_text_length"])
+        )
+
+        # Merge small sections togather
+
+        merged_sections = []
+
+        current_text = ""
+        current_sections = []
+        first_section_id = None
+
+        for idx, row in filtered_report_sections.iterrows():
+            if not current_text:
+                current_text = row["section_text"]
+                current_sections = [row["section"]]
+                first_section_id = row["section"]
+            else:
+                if len(current_text) < 1000:
+                    current_text += "\n" + row["section_text"]
+                    current_sections.append(row["section"])
+                else:
+                    merged_sections.append(
+                        {
+                            "section": f"{first_section_id}-{current_sections[-1]}"
+                            if len(current_sections) > 1
+                            else current_sections[0],
+                            "section_text": current_text,
+                            "report_id": report_id,
+                        }
+                    )
+                    current_text = row["section_text"]
+                    current_sections = [row["section"]]
+                    first_section_id = row["section"]
+
+        # Add any remaining buffer
+        if current_text:
+            merged_sections.append(
+                {
+                    "section": f"{first_section_id}-{current_sections[-1]}"
+                    if len(current_sections) > 1
+                    else current_sections[0],
+                    "section_text": current_text,
+                    "report_id": report_id,
+                }
+            )
+
+        merged_sections = pd.DataFrame(
+            merged_sections, columns=["section", "section_text", "report_id"]
+        )
+
+        return merged_sections
 
     def extract_sections_from_text(self, num_sections, output_file_path):
         print(
@@ -1368,7 +1446,12 @@ class ReportExtractingProcessor:
                 continue
 
             sections_df = ReportExtractingProcessor.__extract_sections(
-                num_sections, paragraphs, report_text, debug=False, headers=headers
+                num_sections,
+                paragraphs,
+                report_text,
+                report_id,
+                debug=False,
+                headers=headers,
             )
             sections_df["report_id"] = report_id
 
