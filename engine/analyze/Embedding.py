@@ -339,3 +339,5 @@ class Embedder:
             previously_embedded_indexes = pd.concat(
                 [previously_embedded_indexes, embedded_indexes], ignore_index=True
             )
+
+            previously_embedded_indexes.to_pickle(document_indexes)

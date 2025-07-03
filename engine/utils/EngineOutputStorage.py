@@ -66,6 +66,7 @@ class EngineOutputUploader(EngineOutputManager):
         recommendation_embeddings_path_template,
         report_sections_embeddings_path_template,
         report_text_embeddings_path_template,
+        report_summary_embeddings_path_template,
     ):
         super().__init__(storage_account_name, storage_account_key, container_name)
 
@@ -81,6 +82,9 @@ class EngineOutputUploader(EngineOutputManager):
         )
         self.safety_issues_embeddings_path_template = (
             safety_issues_embeddings_path_template
+        )
+        self.report_summary_embeddings_path_template = (
+            report_summary_embeddings_path_template
         )
 
         self.vector_db_schema = pa.schema(
@@ -185,6 +189,21 @@ class EngineOutputUploader(EngineOutputManager):
                         "url",
                     ]
                 ].assign(document_type=type)
+            case "summary":
+                return df.rename(columns={"summary_embedding": "vector"})[
+                    [
+                        "report_id",
+                        "summary",
+                        "vector",
+                        "report_id",
+                        "year",
+                        "mode",
+                        "agency",
+                        "type",
+                        "agency_id",
+                        "url",
+                    ]
+                ].assign(document_type=type)
 
     def _upload_embedding_df(self, df, table, sample_frac):
         """
@@ -260,11 +279,12 @@ class EngineOutputUploader(EngineOutputManager):
             ("recommendation", self.recommendation_embeddings_path_template),
             ("report_section", self.report_sections_embeddings_path_template),
             ("safety_issue", self.safety_issues_embeddings_path_template),
+            ("summary", self.report_summary_embeddings_path_template),
         ]:
             print(f"Uploading {type} embeddings")
             embedding_fie_chunks = [
                 file_num
-                for file_num in range(1, 1000)
+                for file_num in range(0, 1000)
                 if os.path.exists(path_template.replace("{{num}}", str(file_num)))
             ]
 

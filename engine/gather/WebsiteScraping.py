@@ -360,7 +360,8 @@ class ReportScraper(WebsiteScraper):
             suitable_pdf_links = [
                 link
                 for link in pdf_links
-                if "final" in link.lower() and "interim" not in link.lower()
+                if "final" in link.lower()
+                and all(x not in link.lower() for x in ["interim", "prelim", "interim"])
             ]
             # Remove links that are simply subsets of other links
             suitable_pdf_links = [
@@ -465,6 +466,13 @@ class TAICReportScraper(ReportScraper):
                     flavor="lxml",
                 )[0]
 
+                if (
+                    investigation_page["Number and name"]
+                    .str.contains("RO-2004-122")
+                    .any()
+                ):
+                    print(f"Found investigation RO-2002-112 on page number {page_num}.")
+
                 investigation_page["year"] = investigation_page["Number and name"].map(
                     lambda x: int(re.search(r"-(\d{4})-", x).group(1))
                 )
@@ -479,10 +487,10 @@ class TAICReportScraper(ReportScraper):
                 )
                 changed_status = merged_df["Status_x"] != merged_df["Status_y"]
                 investigations_to_remove = merged_df.loc[changed_status]["id"]
-                print(
-                    f"Removing {len(investigations_to_remove)} investigations that have had their status updated"
-                )
                 if len(investigations_to_remove) > 0:
+                    print(
+                        f"Removing {len(investigations_to_remove)} investigations that have had their status updated"
+                    )
                     print(investigations_to_remove)
                 # Remove investigations that have had an updated status.
                 investigations = investigations.loc[
@@ -755,13 +763,7 @@ class ATSBReportScraper(ReportScraper):
             agency_id = re.sub(r"^\d{3}-M", "M", agency_id, flags=re.IGNORECASE)
 
         # Getting the safety summary
-        summary_div = soup.find("div", class_="field--type-text-with-summary")
-        if summary_div is not None:
-            summary = summary_div.get_text().strip()
-            if len(summary) < 200:
-                summary = None
-        else:
-            summary = None
+        summary = self.get_summary(soup)
 
         return ReportMetadata(
             report_url=url,
@@ -774,9 +776,48 @@ class ATSBReportScraper(ReportScraper):
             if investigation_level in ["Defined", "Systemic"]
             else "short",
             agency_id=agency_id,
-            summary=summary,  # Currently no support for getting ATSB summary text as it is not always present.
+            summary=summary,
             misc={"investigation_level": investigation_level},
         )
+
+    def get_summary(self, soup):
+        """
+        Gets the summary from the soup object.
+        This is a placeholder as ATSB does not have a summary field in the report metadata.
+        """
+        summary_div = soup.find("div", class_="field--type-text-with-summary")
+        if summary_div is None:
+            return None
+
+        # Try to find h2 with "Executive summary" or "Investigation summary"
+        h2 = None
+        for candidate in summary_div.find_all("h2"):
+            heading = candidate.get_text(strip=True).lower()
+            summary_headings = [
+                "executive summary",
+                "investigation summary",
+                "safety summary",
+            ]
+            if any(h in heading for h in summary_headings):
+                h2 = candidate
+                break
+
+        if h2 is None:  # Return the full text is no summary is found.
+            full_text = summary_div.get_text(" ", strip=True)
+            if full_text and len(full_text) < 2000:
+                summary = full_text
+            else:
+                summary = None
+
+            return summary
+
+        summary_parts = []
+        for sibling in h2.find_next_siblings():
+            if sibling.name == "h2":
+                break
+            summary_parts.append(sibling.get_text(" ", strip=True))
+        summary = "\n".join([part for part in summary_parts if part.strip()])
+        return summary
 
 
 class TSBReportScraper(ReportScraper):
