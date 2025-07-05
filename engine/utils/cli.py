@@ -69,7 +69,6 @@ def gather(output_dir, config, refresh):
     )
 
     for agency in download_config.get("agencies"):
-        print("Downloading reports for " + agency)
         match agency:
             case "TSB":
                 WebsiteScraping.TSBReportScraper(report_scraping_settings).collect_all()

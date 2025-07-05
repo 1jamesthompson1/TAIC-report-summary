@@ -2,6 +2,7 @@ import gc
 import math
 import os
 import tempfile
+import time
 from datetime import datetime
 from typing import List, Optional
 
@@ -277,6 +278,7 @@ class EngineOutputManager(AzureStorageBase):
 
     def _get_latest_output(self):
         """Get the latest output folder based on date."""
+        print("Getting latest output folder...")
         blob_names = self.list_blobs()
         folders = list(set([f.split("/")[0] for f in blob_names if "/" in f]))
 
@@ -346,15 +348,22 @@ class EngineOutputUploader(EngineOutputManager):
 
     def _upload_folder(self, uploaded_folder_name: str):
         """Upload a folder to the container."""
-        for root, _, files in (pbar := tqdm(os.walk(self.folder_to_upload))):
+        items = os.walk(self.folder_to_upload)
+        start_time = time.time()
+        print(
+            f"Going to upload folder {self.folder_to_upload} to {uploaded_folder_name} which has {len(list(items))} items"
+        )
+        for root, _, files in items:
             for file_name in files:
                 file_path = os.path.join(root, file_name)
                 blob_name = os.path.join(
                     uploaded_folder_name,
                     os.path.relpath(file_path, self.folder_to_upload),
                 )
-                pbar.set_description(f"Uploading {file_path} to {blob_name}")
                 self.upload_file(file_path, blob_name)
+        print(
+            f"Uploaded folder {self.folder_to_upload} to {uploaded_folder_name}, took {time.time() - start_time:.2f} seconds"
+        )
 
     def _clean_embedding_dataframe(self, df, type):
         """Clean and standardize embedding dataframes."""
@@ -555,6 +564,7 @@ class EngineOutputDownloader(EngineOutputManager):
 
     def download_latest_output(self):
         """Download the latest output to the specified folder."""
+        print(f"=== Downloading latest output to {self.downloaded_folder_name} ===")
         latest_output_folder_name = self._get_latest_output()
         if latest_output_folder_name is None:
             print("No latest output found")
@@ -562,12 +572,27 @@ class EngineOutputDownloader(EngineOutputManager):
 
         blobs = self.list_blobs(name_starts_with=latest_output_folder_name)
 
-        for blob_name in (pbar := tqdm(blobs)):
-            pbar.set_description(
-                f"Downloading {blob_name} to {self.downloaded_folder_name}"
-            )
+        print(f"Downloading {len(blobs)} blobs from {latest_output_folder_name}")
+
+        successful = 0
+        failed = 0
+        start_time = time.time()
+        for blob_name in blobs:
+            if successful % 1000 == 0:
+                print(f"Downloaded {successful} files so far...")
             download_path = os.path.join(
                 self.downloaded_folder_name,
                 os.path.relpath(blob_name, latest_output_folder_name),
             )
-            self.download_to_file(blob_name, download_path)
+            try:
+                self.download_to_file(blob_name, download_path)
+            except Exception as e:
+                print(f"Failed to download {blob_name}: {e}")
+                failed += 1
+                continue
+            successful += 1
+
+        duration = time.time() - start_time
+        print(
+            f"Downloaded {successful} files successfully, {failed} failed in {duration:.2f}s."
+        )

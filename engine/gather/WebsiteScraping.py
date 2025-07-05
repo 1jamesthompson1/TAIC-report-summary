@@ -101,13 +101,6 @@ class ReportScraper(WebsiteScraper):
                 ]
             )
         super().__init__(self.settings.report_titles_file_path)
-
-        # PDFs are now always stored in the cloud
-        print(
-            f"Using PDF storage container: {self.settings.pdf_storage_manager.container_name}"
-        )
-
-    def collect_all(self):
         print(
             "=============================================================================================================================\n"
         )
@@ -115,7 +108,7 @@ class ReportScraper(WebsiteScraper):
             "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
         )
         print(
-            "- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs - - - - - - - - - - - - - - - - - - - - - -"
+            f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs for {self.agency} - - - - - - - - - - - - - - - - - - - - - -"
         )
         print(
             "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
@@ -134,6 +127,7 @@ class ReportScraper(WebsiteScraper):
         print(f"  Modes: {self.settings.modes}")
         print(f"  Ignoring report ids: {self.settings.ignored_report_ids}")
 
+    def collect_all(self):
         # Loop through each mode
         for mode in self.settings.modes:
             self.collect_mode(mode)
@@ -154,22 +148,22 @@ class ReportScraper(WebsiteScraper):
             year for year in range(self.settings.start_year, self.settings.end_year + 1)
         ]
 
-        for year in (pbar := tqdm(year_range)):
-            pbar.set_description(
-                f"Downloading reports for mode: {mode.name}, currently doing year: {year}"
-            )
-
+        for year in year_range:
             self.collect_year(year, mode)
 
     def collect_year(self, year, mode):
         # Define the base URL and report ids and download all reports for the mode.
 
         number_for_year = 0
-        for report_id, url in (inner_pbar := tqdm(self.get_report_urls(mode, year))):
+        report_urls = self.get_report_urls(mode, year)
+        print(
+            f"Found {len(report_urls)} report URLs for mode: {mode.name}, year: {year}"
+        )
+        for report_id, url in report_urls:
             if report_id in self.settings.ignored_report_ids:
                 continue
 
-            outcome = self.collect_report(report_id, url, inner_pbar)
+            outcome = self.collect_report(report_id, url)
 
             if outcome:
                 number_for_year += 1
@@ -177,44 +171,29 @@ class ReportScraper(WebsiteScraper):
             if number_for_year >= self.settings.max_per_year:
                 break
 
-    def collect_report(self, report_id, url, pbar=None):
-        if pbar:
-            pbar.set_description(f"  Collecting {url}")
-
+    def collect_report(self, report_id, url):
         if not self.settings.refresh and (
             self.settings.pdf_storage_manager.pdf_exists(report_id)
             or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
         ):
-            if pbar:
-                pbar.set_description(
-                    f"  {report_id}.pdf already exists, skipping download"
-                )
             return True
 
         try:
             webpage = hrequests.get(url, headers=self.headers, timeout=30)
         except hrequests.exceptions.ClientException as e:
-            if pbar:
-                pbar.write(
-                    f"  Timed out while trying to collect {url}, {e}\n\nRetrying..."
-                )
+            print(f"  Timed out while trying to collect {url}, {e}\n\nRetrying...")
             try:
                 webpage = hrequests.get(url, headers=self.headers, timeout=30)
             except hrequests.exceptions.ClientException as e:
-                if pbar:
-                    pbar.write(f"{e}")
+                print(f"{e}")
                 return False
         except hrequests.exceptions.BrowserTimeoutException:
-            if pbar:
-                pbar.write(f"  Failed to collect {url}, timeout error")
+            print(f"  Failed to collect {url}, timeout error")
             return False
         soup = BeautifulSoup(webpage.content, "html.parser")
 
         if webpage.status_code != 200 and webpage.status_code != 404:
-            if pbar:
-                pbar.write(
-                    f"  Failed to collect {url}, status code: {webpage.status_code}"
-                )
+            print(f"  Failed to collect {url}, status code: {webpage.status_code}")
             return False
         elif webpage.status_code == 404:
             return False
@@ -224,11 +203,11 @@ class ReportScraper(WebsiteScraper):
 
         outcome = False
         # Download to cloud storage instead of local file
-        outcome = self.download_report(report_id, soup, base_url, pbar)
+        outcome = self.download_report(report_id, soup, base_url)
 
         if self.report_titles_df.query("report_id == @report_id").empty:
             report_id, title, event_type, investigation_type, agency_id, misc = (
-                self.get_report_metadata(report_id, soup, pbar)
+                self.get_report_metadata(report_id, soup)
             )
             self.__add_report_metadata_to_df(
                 report_id,
@@ -254,20 +233,14 @@ class ReportScraper(WebsiteScraper):
         if not self.settings.refresh and self.settings.pdf_storage_manager.pdf_exists(
             report_id
         ):
-            if pbar:
-                pbar.set_description(
-                    f"  {report_id}.pdf already exists in storage, skipping download"
-                )
             return True
 
         # Find PDF links
-        pdf_link = self._find_pdf_links(soup, report_id, pbar)
+        pdf_link = self._find_pdf_links(soup, report_id)
         if not pdf_link:
             return False
 
         link = urljoin(base_url, pdf_link)
-        if pbar:
-            pbar.set_description(f"  Downloading {link} to storage")
 
         try:
             response = hrequests.get(
@@ -277,23 +250,17 @@ class ReportScraper(WebsiteScraper):
                 return False
 
             # Upload to storage
-            uploaded = self.settings.pdf_storage_manager.upload_pdf(
+            self.settings.pdf_storage_manager.upload_pdf(
                 report_id, response.content, overwrite=self.settings.refresh
             )
 
-            if pbar:
-                if uploaded:
-                    pbar.set_description(f"  Uploaded {report_id}.pdf to storage")
-                else:
-                    pbar.set_description(f"  {report_id}.pdf already exists in storage")
             return True
 
         except Exception as e:
-            if pbar:
-                pbar.write(f"  {report_id}.pdf processing failed: {e}")
+            print(f"  {report_id}.pdf processing failed: {e}")
             return False
 
-    def _find_pdf_links(self, soup: BeautifulSoup, report_id: str, pbar=None):
+    def _find_pdf_links(self, soup: BeautifulSoup, report_id: str):
         """Extract PDF links from BeautifulSoup object."""
         # Find all the links that end with .pdf and download them
         pdf_links = [
@@ -306,10 +273,9 @@ class ReportScraper(WebsiteScraper):
         pdf_links = list(dict.fromkeys(pdf_links))
 
         if len(pdf_links) == 0:
-            if pbar:
-                pbar.write(
-                    f"WARNING: Found no suitable PDF link for {report_id}. Will not download any."
-                )
+            print(
+                f"WARNING: Found no suitable PDF link for {report_id}. Will not download any."
+            )
             return None
         if len(pdf_links) > 1:
             # Only take one that has "final" but not "interim"
@@ -319,24 +285,23 @@ class ReportScraper(WebsiteScraper):
                 if "final" in link.lower() and "interim" not in link.lower()
             ]
             if len(pdf_links) > 1:
-                if pbar:
-                    links_str = "\n".join(pdf_links)
-                    pbar.write(
-                        f"WARNING: Found more than one PDF for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
-                    )
+                links_str = "\n".join(pdf_links)
+                print(
+                    f"WARNING: Found more than one PDF for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
+                )
                 return None
             if len(pdf_links) == 0:
-                if pbar:
-                    links_str = "\n".join(pdf_links)
-                    pbar.write(
-                        f"WARNING: Found no suitable PDF link for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
-                    )
+                links_str = "\n".join(pdf_links)
+                print(
+                    f"WARNING: Found no suitable PDF link for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
+                    f"WARNING: Found no suitable PDF link for {report_id}. Will not download any.\n Here are the links: \n {links_str}"
+                )
                 return None
 
         return pdf_links[0]
 
     def get_report_metadata(
-        self, report_id: str, soup: BeautifulSoup, pbar=None
+        self, report_id: str, soup: BeautifulSoup
     ) -> tuple[str, str, str, str, dict]:
         """
         Gets the investigation webpage and scrapes extra information about the report.
@@ -381,8 +346,10 @@ class ReportScraper(WebsiteScraper):
 
 class TAICReportScraper(ReportScraper):
     def __init__(self, reports_table_path, settings: ReportScraperSettings):
-        super().__init__(settings)
         self.agency = "TAIC"
+        super().__init__(
+            settings,
+        )
 
         self.agency_reports = self.__get_taic_investigations(reports_table_path)
 
@@ -468,7 +435,7 @@ class TAICReportScraper(ReportScraper):
             .to_list()
         ]
 
-    def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
+    def get_report_metadata(self, report_id: str, soup: BeautifulSoup):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
         agency_id = soup.find("h1", class_="page-title").get_text().strip()
@@ -482,8 +449,8 @@ class ATSBReportScraper(ReportScraper):
         website_reports_file_name,
         settings: ReportScraperSettings,
     ):
-        super().__init__(settings)
         self.agency = "ATSB"
+        super().__init__(settings)
         self.agency_reports = self.__get_atsb_investigations(website_reports_file_name)
 
     def __get_atsb_investigations(self, website_reports_file_name=None):
@@ -642,7 +609,7 @@ class ATSBReportScraper(ReportScraper):
         ]
 
     def get_report_metadata(
-        self, report_id: str, soup: BeautifulSoup, pbar=None
+        self, report_id: str, soup: BeautifulSoup
     ) -> tuple[str, str, str, dict]:
         report_mode = Modes.get_report_mode_from_id(report_id)
         event_type = None
@@ -686,8 +653,8 @@ class ATSBReportScraper(ReportScraper):
 
 class TSBReportScraper(ReportScraper):
     def __init__(self, settings: ReportScraperSettings):
-        super().__init__(settings)
         self.agency = "TSB"
+        super().__init__(settings)
 
         self.agency_reports = self.__get_tsb_investigations()
 
@@ -735,7 +702,7 @@ class TSBReportScraper(ReportScraper):
             .to_list()
         ]
 
-    def get_report_metadata(self, report_id: str, soup: BeautifulSoup, pbar=None):
+    def get_report_metadata(self, report_id: str, soup: BeautifulSoup):
         # Due to TSB having the metadata on a page separate from the report pdf link, we need to get the new page
         split_id = report_id.split("_")
         tsb_id = f"{split_id[1]}{split_id[2][2:4]}{split_id[3]}"
