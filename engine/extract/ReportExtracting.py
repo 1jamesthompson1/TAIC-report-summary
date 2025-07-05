@@ -1,5 +1,6 @@
 import concurrent.futures
 import os
+from functools import lru_cache
 
 import pandas as pd
 import regex as re
@@ -7,6 +8,11 @@ import yaml
 from tqdm import tqdm
 
 from engine.utils.AICaller import AICaller
+
+
+@lru_cache(maxsize=20000)
+def get_regex(regex_string, flags=0):
+    return re.compile(regex_string, flags)
 
 
 class ReportExtractor:
@@ -84,22 +90,19 @@ class ReportExtractor:
 
     def extract_page(self, page_to_read):
         if page_to_read in ["0", 0]:
-            first_page = re.search(
-                r"<< Page \d+|[xvi]+ >>", self.report_text, re.MULTILINE | re.IGNORECASE
-            )
+            first_page = get_regex(
+                r"<< Page \d+|[xvi]+ >>", re.MULTILINE | re.IGNORECASE
+            ).search(self.report_text)
             return self.report_text[: first_page.start()]
 
-        page = re.search(
+        page = get_regex(
             rf"<< Page {page_to_read} >>[\s\S]+<< Page (\d+|[xvi]+) >>",
-            self.report_text,
             re.MULTILINE | re.IGNORECASE,
-        )
+        ).search(self.report_text)
         if page is None:
-            final_page = re.search(
-                rf"<< Page {page_to_read} >>[\s\S]+",
-                self.report_text,
-                re.MULTILINE | re.IGNORECASE,
-            )
+            final_page = get_regex(
+                rf"<< Page {page_to_read} >>[\s\S]+", re.MULTILINE | re.IGNORECASE
+            ).search(self.report_text)
             if final_page is None:
                 return None
             return final_page.group(0)
@@ -111,11 +114,9 @@ class ReportExtractor:
         if page_number_1 == page_number_2:
             return self.extract_page(page_number_1)
         if page_number_1 != 0:
-            starting_page_match = re.search(
-                rf"<< Page {page_number_1} >>",
-                self.report_text,
-                re.MULTILINE | re.IGNORECASE,
-            )
+            starting_page_match = get_regex(
+                rf"<< Page {page_number_1} >>", re.MULTILINE | re.IGNORECASE
+            ).search(self.report_text)
             if starting_page_match is None:
                 print(
                     f" {self.report_id} No starting page number for text between pages {page_number_1} and {page_number_2}"
@@ -126,11 +127,10 @@ class ReportExtractor:
         else:
             starting_index = 0
 
-        ending_page_match = re.search(
+        ending_page_match = get_regex(
             rf"<< Page {page_number_2} >>",
-            self.report_text,
             re.MULTILINE | re.IGNORECASE,
-        )
+        ).search(self.report_text)
 
         if ending_page_match is None:
             print(
@@ -161,12 +161,12 @@ class ReportExtractor:
         endOfContentSection = len(self.report_text) / 3.5
 
         # Get the entire string between the start and end regex
-        startMatch = re.search(startRegex, self.report_text, re.IGNORECASE)
+        startMatch = get_regex(startRegex, re.IGNORECASE).search(self.report_text)
         if startMatch:
             if startMatch.end() > endOfContentSection:
                 startMatch = None
         endMatches = list(
-            re.finditer(endRegex, self.report_text, re.MULTILINE | re.IGNORECASE)
+            get_regex(endRegex, re.MULTILINE | re.IGNORECASE).finditer(self.report_text)
         )
         if endMatches:
             endMatches = [
@@ -594,6 +594,57 @@ issues.
         return None
 
 
+@lru_cache(maxsize=15000)
+def get_section_start_end_regexs(section_str: str):
+    """
+    This function will get the start and end regex for a section
+    You need to give it a string like 5, 5.1, 5.1.1, etc.
+    It will return a tuple of (start_regex, [end_regexs])
+
+    note that the end_regexs will have extras incrase the next section is missing.
+    """
+
+    def base_regex_template(section):
+        return f"((( {section}(?! ?(m )|(metre))) {{1,3}}(?![\\s\\S]*^{section} ))|((^{section}) {{1,3}}))(?![\\S\\s()]{{1,100}}\\.{{2,}})"
+
+    split_section = section_str.split(".")
+    section = split_section[0]
+    endRegex_nextSection = base_regex_template(rf"{int(section)+1}\.1\.?")
+    startRegex = base_regex_template(rf"{int(section)}\.1\.?")
+    endRegexs = [endRegex_nextSection]
+    if len(split_section) > 1:
+        paragraph = split_section[1]
+        # Added to prevent single unfindable section ruining search
+        endRegex_nextnextSubSection = base_regex_template(
+            rf"{section}\.{int(paragraph)+2}\.?"
+        )
+        endRegexs.insert(0, endRegex_nextnextSubSection)
+        endRegex_nextSubSection = base_regex_template(
+            rf"{section}\.{int(paragraph)+1}\.?"
+        )
+        endRegexs.insert(0, endRegex_nextSubSection)
+        startRegex = base_regex_template(rf"{section}\.{int(paragraph)}\.?")
+
+    if len(split_section) > 2:
+        sub_paragraph = split_section[2]
+        endRegex_nextnextParagraph = base_regex_template(
+            rf"{section}\.{paragraph}\.{int(sub_paragraph)+2}\.?"
+        )
+        endRegexs.insert(0, endRegex_nextnextParagraph)
+        endRegex_nextParagraph = base_regex_template(
+            rf"{section}\.{paragraph}\.{int(sub_paragraph)+1}\.?"
+        )
+        endRegexs.insert(0, endRegex_nextParagraph)
+        startRegex = base_regex_template(
+            rf"{section}\.{paragraph}\.{int(sub_paragraph)}\.?"
+        )
+
+    return (
+        re.compile(startRegex, re.MULTILINE | re.IGNORECASE),
+        [re.compile(endRegex, re.MULTILINE | re.IGNORECASE) for endRegex in endRegexs],
+    )
+
+
 class ReportSectionExtractor(ReportExtractor):
     def __init__(self, report_text, report_id, headers="Empty"):
         super().__init__(report_text, report_id, headers)
@@ -630,52 +681,6 @@ class ReportSectionExtractor(ReportExtractor):
                 return split_section[0]
             return str(int(split_section[0]) - 1)
 
-    def _get_section_start_end_regexs(self, section_str: str):
-        """
-        This function will get the start and end regex for a section
-        You need to give it a string like 5, 5.1, 5.1.1, etc.
-        It will return a tuple of (start_regex, [end_regexs])
-
-        note that the end_regexs will have extras incrase the next section is missing.
-        """
-
-        def base_regex_template(section):
-            return f"((( {section}(?! ?(m )|(metre))) {{1,3}}(?![\\s\\S]*^{section} ))|((^{section}) {{1,3}}))(?![\\S\\s()]{{1,100}}\\.{{2,}})"
-
-        split_section = section_str.split(".")
-        section = split_section[0]
-        endRegex_nextSection = base_regex_template(rf"{int(section)+1}\.1\.?")
-        startRegex = base_regex_template(rf"{int(section)}\.1\.?")
-        endRegexs = [endRegex_nextSection]
-        if len(split_section) > 1:
-            paragraph = split_section[1]
-            # Added to prevent single unfindable section ruining search
-            endRegex_nextnextSubSection = base_regex_template(
-                rf"{section}\.{int(paragraph)+2}\.?"
-            )
-            endRegexs.insert(0, endRegex_nextnextSubSection)
-            endRegex_nextSubSection = base_regex_template(
-                rf"{section}\.{int(paragraph)+1}\.?"
-            )
-            endRegexs.insert(0, endRegex_nextSubSection)
-            startRegex = base_regex_template(rf"{section}\.{int(paragraph)}\.?")
-
-        if len(split_section) > 2:
-            sub_paragraph = split_section[2]
-            endRegex_nextnextParagraph = base_regex_template(
-                rf"{section}\.{paragraph}\.{int(sub_paragraph)+2}\.?"
-            )
-            endRegexs.insert(0, endRegex_nextnextParagraph)
-            endRegex_nextParagraph = base_regex_template(
-                rf"{section}\.{paragraph}\.{int(sub_paragraph)+1}\.?"
-            )
-            endRegexs.insert(0, endRegex_nextParagraph)
-            startRegex = base_regex_template(
-                rf"{section}\.{paragraph}\.{int(sub_paragraph)}\.?"
-            )
-
-        return (startRegex, endRegexs)
-
     def _get_section_search_bounds(self, section_str: str, endRegexs):
         ##
         # Figure out when to start the search from.
@@ -683,7 +688,7 @@ class ReportSectionExtractor(ReportExtractor):
 
         # At the start of the rpoert there can be factual information that can has numbers formatted like sections
         page_regex = r"<< Page 1 >>"
-        page_regex_match = re.search(page_regex, self.report_text)
+        page_regex_match = get_regex(page_regex).search(self.report_text)
         if page_regex_match:
             first_page_pos = page_regex_match.end()
         else:
@@ -696,14 +701,12 @@ class ReportSectionExtractor(ReportExtractor):
         previous_section_str = section_str
         while previous_section_pos == 0 and attempt > 0:
             previous_section_str = self._get_previous_section(previous_section_str)
-            previous_section_regex, _ = self._get_section_start_end_regexs(
+            previous_section_regex, _ = get_section_start_end_regexs(
                 previous_section_str
             )
-            previous_section_match = re.search(
-                previous_section_regex,
+            previous_section_match = previous_section_regex.search(
                 self.report_text,
-                re.MULTILINE,
-                pos=first_page_pos - 1,
+                first_page_pos - 1,
             )
             if previous_section_match:
                 previous_section_pos = previous_section_match.end()
@@ -718,9 +721,7 @@ class ReportSectionExtractor(ReportExtractor):
         ##
         # This wil be done by looking for the next big section as that will give an upper bound
 
-        next_section_match = re.search(
-            endRegexs[-1], self.report_text, re.MULTILINE, pos=start_pos
-        )
+        next_section_match = endRegexs[-1].search(self.report_text, start_pos)
 
         end_pos = (
             next_section_match.end() + 10
@@ -736,7 +737,7 @@ class ReportSectionExtractor(ReportExtractor):
         You need to give it a string like 5, 5.1, 5.1.1, etc. It can struggle with the last or second to last section in the report. In this case it utilses AI
         """
 
-        startRegex, endRegexs = self._get_section_start_end_regexs(section_str)
+        startRegex, endRegexs = get_section_start_end_regexs(section_str)
 
         start_pos, end_pos = self._get_section_search_bounds(section_str, endRegexs)
 
@@ -744,24 +745,20 @@ class ReportSectionExtractor(ReportExtractor):
         # Search the report for start and end of the section
         ##
 
-        startMatch = re.search(
-            startRegex,
+        startMatch = startRegex.search(
             self.report_text,
-            re.MULTILINE | re.IGNORECASE,
-            pos=start_pos,
-            endpos=end_pos,
+            start_pos,
+            end_pos,
         )
 
         endMatch = None
 
         if startMatch:
             endRegexMatches = [
-                re.search(
-                    endRegex,
+                endRegex.search(
                     self.report_text,
-                    re.MULTILINE | re.IGNORECASE,
-                    pos=start_pos,
-                    endpos=end_pos,
+                    start_pos,
+                    end_pos,
                 )
                 for endRegex in endRegexs
             ]
@@ -847,13 +844,13 @@ The section number I am looking for is {section}
     def split_into_paragraphs(self):
         raw_splits = [
             paragraph.strip()
-            for paragraph in re.split(r"\n *\n", self.report_text)
+            for paragraph in get_regex(r"\n *\n").split(self.report_text)
             if len(paragraph.strip()) > 0
         ]
 
         splits_df = pd.DataFrame(raw_splits, columns=["section_text"])
 
-        page_regex = re.compile(r"<< Page (\d+|[xvi]+) >>")
+        page_regex = get_regex(r"<< Page (\d+|[xvi]+) >>")
 
         splits_df["page"] = splits_df["section_text"].map(
             lambda x: page_regex.match(x).group(1) if page_regex.match(x) else None
@@ -1261,7 +1258,7 @@ class ReportExtractingProcessor:
         headers=None,
     ):
         get_parts_regex = r"(((\d{1,2}).\d{1,2}).\d{1,2})"
-        get_parts_pattern = re.compile(get_parts_regex)
+        get_parts_pattern = get_regex(get_parts_regex)
 
         extractor = ReportSectionExtractor(report_text, num_sections, headers)
 
@@ -1272,7 +1269,7 @@ class ReportExtractingProcessor:
                 print(
                     f"Looking at section {get_parts_pattern.search(section[0][0]).group(3)}"
                 )
-
+            subsection_empty = 0
             subsection_missing_count = 0
             for sub_section in section:
                 sub_section_str = get_parts_pattern.search(sub_section[0]).group(2)
@@ -1310,16 +1307,23 @@ class ReportExtractingProcessor:
                     if sub_section_text is None and subsection_missing_count > 0:
                         if debug:
                             print(" No subsection found")
+                        subsection_empty += 1
                         break
                     elif sub_section_text is None:
                         subsection_missing_count += 1
                         continue
+
+                    subsection_empty = 0
 
                     sections.append(
                         {"section": sub_section_str, "section_text": sub_section_text}
                     )
                 else:
                     sections.extend(paragraphs)
+
+            if subsection_empty > 1:
+                # Stop looking at more main sections if two empty subsections in a row happen.
+                break
 
         df = pd.DataFrame(sections, columns=["section", "section_text"])
 
@@ -1470,6 +1474,8 @@ class ReportExtractingProcessor:
             [report_sections_df, pd.DataFrame(new_reports)], ignore_index=True
         )
         report_sections_df.to_pickle(output_file_path)
+
+        get_section_start_end_regexs.cache_clear()
 
     def extract_recommendations(
         self,

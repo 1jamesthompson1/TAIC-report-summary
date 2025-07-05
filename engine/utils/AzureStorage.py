@@ -353,7 +353,7 @@ class EngineOutputUploader(EngineOutputManager):
         print(
             f"Going to upload folder {self.folder_to_upload} to {uploaded_folder_name} which has {len(list(items))} items"
         )
-        for root, _, files in items:
+        for root, _, files in os.walk(self.folder_to_upload):
             for file_name in files:
                 file_path = os.path.join(root, file_name)
                 blob_name = os.path.join(
