@@ -18,7 +18,6 @@ class ReportScraperSettings:
     def __init__(
         self,
         report_titles_file_path,
-        file_name_template,
         start_year,
         end_year,
         max_per_year,
@@ -28,7 +27,6 @@ class ReportScraperSettings:
         pdf_storage_manager: PDFStorageManager,
     ):
         self.report_titles_file_path = report_titles_file_path
-        self.file_name_template = file_name_template
         self.start_year = start_year
         self.end_year = end_year
         self.max_per_year = max_per_year
@@ -119,7 +117,6 @@ class ReportScraper(WebsiteScraper):
         print(
             f"  PDF storage container: {self.settings.pdf_storage_manager.container_name}"
         )
-        print(f"  File name template: {self.settings.file_name_template}")
         print(
             f"  Start year: {self.settings.start_year},  End year: {self.settings.end_year}"
         )
@@ -237,7 +234,7 @@ class ReportScraper(WebsiteScraper):
 
         # Find PDF links
         pdf_link = self._find_pdf_links(soup, report_id)
-        if not pdf_link:
+        if pdf_link is None:
             return False
 
         link = urljoin(base_url, pdf_link)

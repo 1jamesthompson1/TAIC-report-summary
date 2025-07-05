@@ -59,7 +59,6 @@ def gather(output_dir, config, refresh):
     # Download the PDFs
     report_scraping_settings = WebsiteScraping.ReportScraperSettings(
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
-        output_config.get("report_pdf_file_name"),
         download_config.get("start_year"),
         download_config.get("end_year"),
         download_config.get("max_per_year"),

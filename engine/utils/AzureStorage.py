@@ -131,8 +131,8 @@ class AzureStorageBase:
         Returns:
             List[str]: List of blob names
         """
-        blobs = self.container.list_blobs(name_starts_with=name_starts_with)
-        return [blob.name for blob in blobs]
+        blob_names = self.container.list_blob_names(name_starts_with=name_starts_with)
+        return list(blob_names)
 
     def upload_file(
         self, file_path: str, blob_name: str, overwrite: bool = False

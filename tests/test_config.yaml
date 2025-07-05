@@ -6,8 +6,7 @@ engine:
     ignored_reports: ['2022_202', '2022_203']
   output:
     folder_name: "tests/data/output"
-    report_pdf_folder_name: "report_pdfs"
-    report_pdf_file_name: "{{report_id}}.pdf"
+    pdf_container_name: "test-reportpdfs"
     parsed_reports_df_file_name: "parsed_reports.pkl"
     recommendations_df_file_name: "recommendations.pkl"
     all_event_types_df_file_name: "all_event_types.pkl"
