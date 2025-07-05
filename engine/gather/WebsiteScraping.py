@@ -804,16 +804,17 @@ class ATSBReportScraper(ReportScraper):
 
         if h2 is None:  # Return the full text is no summary is found.
             full_text = summary_div.get_text(" ", strip=True)
-            if full_text and len(full_text) < 2000:
-                summary = full_text
-            else:
-                summary = None
-
-            return summary
+            # Could do check to see if it is smale than som uppper bound but for now will just return the full scrap which may be very large.
+            return full_text
 
         summary_parts = []
         for sibling in h2.find_next_siblings():
             if sibling.name == "h2":
+                break
+            if (
+                sibling.find("h2") is not None
+                or sibling.get_text("", strip=True).lower() == "the occurrence"
+            ):
                 break
             summary_parts.append(sibling.get_text(" ", strip=True))
         summary = "\n".join([part for part in summary_parts if part.strip()])
