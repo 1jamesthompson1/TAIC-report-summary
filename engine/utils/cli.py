@@ -1,5 +1,6 @@
 import argparse
 import os
+import time
 
 import pandas as pd
 
@@ -336,6 +337,10 @@ def cli():
 
     args = parser.parse_args()
 
+    # Initialize timing tracker
+    timing_results = {}
+    total_start_time = time.time()
+
     # Get the config settings for the engine.
     engine_settings = Config.configReader.get_config()["engine"]
 
@@ -348,29 +353,93 @@ def cli():
 
     match args.run_type:
         case "download":
+            start_time = time.time()
             download(engine_settings.get("output").get("container_name"), output_path)
+            timing_results["download"] = time.time() - start_time
         case "gather":
+            start_time = time.time()
             gather(output_path, engine_settings, args.refresh)
+            timing_results["gather"] = time.time() - start_time
         case "extract":
+            start_time = time.time()
             extract(output_path, engine_settings, args.refresh)
+            timing_results["extract"] = time.time() - start_time
         case "analyze":
+            start_time = time.time()
             analyze(output_path, engine_settings, args.refresh)
+            timing_results["analyze"] = time.time() - start_time
         case "upload":
+            start_time = time.time()
             upload(
                 engine_settings.get("output").get("container_name"),
                 output_path,
                 engine_settings.get("output"),
             )
+            timing_results["upload"] = time.time() - start_time
         case "all":
+            # Download step
+            start_time = time.time()
             download(engine_settings.get("output").get("container_name"), output_path)
+            timing_results["download"] = time.time() - start_time
+
+            # Gather step
+            start_time = time.time()
             gather(output_path, engine_settings, args.refresh)
+            timing_results["gather"] = time.time() - start_time
+
+            # Extract step
+            start_time = time.time()
             extract(output_path, engine_settings, args.refresh)
+            timing_results["extract"] = time.time() - start_time
+
+            # Analyze step
+            start_time = time.time()
             analyze(output_path, engine_settings, args.refresh)
+            timing_results["analyze"] = time.time() - start_time
+
+            # Upload step
+            start_time = time.time()
             upload(
                 engine_settings.get("output").get("container_name"),
                 output_path,
                 engine_settings.get("output"),
             )
+            timing_results["upload"] = time.time() - start_time
+
+    # Calculate total time
+    total_time = time.time() - total_start_time
+
+    # Print timing summary
+    print("\n" + "=" * 60)
+    print("TIMING SUMMARY")
+    print("=" * 60)
+
+    def format_duration(seconds):
+        """Format duration to show appropriate time units"""
+        if seconds < 60:
+            return f"{seconds:.2f} seconds"
+        elif seconds < 3600:
+            minutes = int(seconds // 60)
+            remaining_seconds = seconds % 60
+            return f"{minutes}m {remaining_seconds:.1f}s ({seconds:.2f} seconds)"
+        else:
+            hours = int(seconds // 3600)
+            minutes = int((seconds % 3600) // 60)
+            remaining_seconds = seconds % 60
+            return (
+                f"{hours}h {minutes}m {remaining_seconds:.1f}s ({seconds:.2f} seconds)"
+            )
+
+    for step, duration in timing_results.items():
+        formatted_time = format_duration(duration)
+        print(f"{step.upper():>10}: {formatted_time}")
+
+    if len(timing_results) > 1:
+        print("-" * 60)
+        formatted_total = format_duration(total_time)
+        print(f"{'TOTAL':>10}: {formatted_total}")
+
+    print("=" * 60)
 
 
 if __name__ == "__main__":

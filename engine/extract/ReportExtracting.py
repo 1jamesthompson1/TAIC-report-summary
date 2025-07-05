@@ -640,8 +640,8 @@ def get_section_start_end_regexs(section_str: str):
         )
 
     return (
-        re.compile(startRegex, re.MULTILINE | re.IGNORECASE),
-        [re.compile(endRegex, re.MULTILINE | re.IGNORECASE) for endRegex in endRegexs],
+        get_regex(startRegex, re.MULTILINE | re.IGNORECASE),
+        [get_regex(endRegex, re.MULTILINE | re.IGNORECASE) for endRegex in endRegexs],
     )
 
 

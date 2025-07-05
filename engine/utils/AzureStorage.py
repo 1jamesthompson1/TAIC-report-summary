@@ -494,6 +494,8 @@ class EngineOutputUploader(EngineOutputManager):
 
     def _upload_embeddings(self, sample_frac=1):
         """Upload all embedding files to the vector database."""
+        print(f"Uploading embeddings with sample_frac={sample_frac}")
+        start_time = time.time()
         table = self.db.create_table(
             "all_document_types",
             data=None,
@@ -507,21 +509,25 @@ class EngineOutputUploader(EngineOutputManager):
             ("report_section", self.report_sections_embeddings_path_template),
             ("safety_issue", self.safety_issues_embeddings_path_template),
         ]:
-            print(f"Uploading {type} embeddings")
-            embedding_fie_chunks = [
+            embedding_file_chunks = [
                 file_num
                 for file_num in range(1, 1000)
                 if os.path.exists(path_template.replace("{{num}}", str(file_num)))
             ]
+            print(
+                f"Uploading {type} embeddings, split into {len(embedding_file_chunks)} files"
+            )
+            df_start = time.time()
 
-            for file_num in (pbar := tqdm(embedding_fie_chunks)):
+            for file_num in embedding_file_chunks:
                 file_path = path_template.replace("{{num}}", str(file_num))
-                pbar.set_description(f"Uploading {file_path}")
                 df = pd.read_pickle(file_path)
                 df = self._clean_embedding_dataframe(df, type)
                 self._upload_embedding_df(df, table, sample_frac)
                 del df
                 gc.collect()
+
+            print(f"Uploaded {type} embeddings in {time.time() - df_start:.2f}s")
 
         print("created vector db")
         table.cleanup_old_versions()
@@ -537,13 +543,18 @@ class EngineOutputUploader(EngineOutputManager):
         )
         print("created fts index")
 
+        duration = time.time() - start_time
+        print(f"Uploaded embeddings in {duration:.2f}s")
+
     def upload_latest_output(self):
         """Upload the latest output folder and embeddings."""
-        self._upload_folder(
-            datetime.now(pytz.timezone("Pacific/Auckland")).strftime(
-                self.output_date_format
-            )
+        print(f"=== Uploading latest output from {self.folder_to_upload} ===\n")
+        output_date_str = datetime.now(pytz.timezone("Pacific/Auckland")).strftime(
+            self.output_date_format
         )
+        print(f"   Destination: {output_date_str}\n{'=' * 80}")
+
+        self._upload_folder(output_date_str)
         self._upload_embeddings()
 
 
@@ -564,7 +575,9 @@ class EngineOutputDownloader(EngineOutputManager):
 
     def download_latest_output(self):
         """Download the latest output to the specified folder."""
-        print(f"=== Downloading latest output to {self.downloaded_folder_name} ===")
+        print(
+            f"=== Downloading latest output to {self.downloaded_folder_name} ===\n\n{'=' * 80}"
+        )
         latest_output_folder_name = self._get_latest_output()
         if latest_output_folder_name is None:
             print("No latest output found")
