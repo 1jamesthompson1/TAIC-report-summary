@@ -171,10 +171,7 @@ def test_formatText(report_id, expected, stable_pdf_storage_manager):
     # Download the PDF from the stable container to a temporary location
     pdf_data = stable_pdf_storage_manager.download_pdf(report_id)
 
-    if pdf_data is None:
-        pytest.skip(
-            f"PDF {report_id}.pdf not found in stable container - please ensure test data is available"
-        )
+    assert pdf_data is not None
 
     # Create a temporary file for the PDF
     import tempfile
