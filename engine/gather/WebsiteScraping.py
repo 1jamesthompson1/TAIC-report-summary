@@ -163,6 +163,7 @@ class ReportScraper(WebsiteScraper):
             outcome = self.collect_report(report_id, url)
 
             if outcome:
+                print(f"  Successfully collected {report_id} from {url}")
                 number_for_year += 1
 
             if number_for_year >= self.settings.max_per_year:
@@ -244,6 +245,7 @@ class ReportScraper(WebsiteScraper):
                 link, allow_redirects=True, headers=self.headers, timeout=30
             )
             if response is None:
+                print(f"  {report_id}.pdf download failed: No response")
                 return False
 
             # Upload to storage
