@@ -10,11 +10,16 @@ from ..analyze import (
 )
 from ..extract import ReportExtracting, ReportTypeAssignment
 from ..gather import DataGetting, PDFParser, WebsiteScraping
-from . import Config, EngineOutputStorage, Modes
+from . import Config, Modes
+from .AzureStorage import (
+    EngineOutputDownloader,
+    EngineOutputUploader,
+    PDFStorageManager,
+)
 
 
 def download(container, output_dir):
-    downloader = EngineOutputStorage.EngineOutputDownloader(
+    downloader = EngineOutputDownloader(
         os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
         os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
         container,
@@ -42,9 +47,16 @@ def gather(output_dir, config, refresh):
     )
     print("Got event types")
 
+    print("Setting up PDF storage manager...")
+    pdf_storage_manager = PDFStorageManager(
+        os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
+        os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
+        output_config["pdf_container_name"],
+    )
+    print(f"PDF storage container: {output_config['pdf_container_name']}")
+
     # Download the PDFs
     report_scraping_settings = WebsiteScraping.ReportScraperSettings(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
         output_config.get("report_pdf_file_name"),
         download_config.get("start_year"),
@@ -53,6 +65,7 @@ def gather(output_dir, config, refresh):
         [Modes.Mode[mode] for mode in download_config.get("modes")],
         download_config.get("ignored_reports"),
         refresh,
+        pdf_storage_manager,
     )
 
     for agency in download_config.get("agencies"):
@@ -79,9 +92,9 @@ def gather(output_dir, config, refresh):
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
         os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
         refresh,
+        pdf_storage_manager,
     )
 
     ATSB_si_scraper = WebsiteScraping.ATSBSafetyIssueScraper(
@@ -286,7 +299,7 @@ def upload(container_name, output_dir, output_config):
         )
         for file in embeddings
     ]
-    uploader = EngineOutputStorage.EngineOutputUploader(
+    uploader = EngineOutputUploader(
         os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
         os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
         container_name,

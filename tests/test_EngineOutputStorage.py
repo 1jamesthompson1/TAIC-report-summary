@@ -5,7 +5,7 @@ import lancedb
 import pytest
 import pytz
 
-from engine.utils.EngineOutputStorage import (
+from engine.utils.AzureStorage import (
     EngineOutputDownloader,
     EngineOutputUploader,
 )
