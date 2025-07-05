@@ -1,5 +1,6 @@
 import argparse
 import os
+import time
 
 import pandas as pd
 
@@ -10,11 +11,16 @@ from ..analyze import (
 )
 from ..extract import ReportExtracting, ReportTypeAssignment
 from ..gather import DataGetting, PDFParser, WebsiteScraping
-from . import Config, EngineOutputStorage, Modes
+from . import Config, Modes
+from .AzureStorage import (
+    EngineOutputDownloader,
+    EngineOutputUploader,
+    PDFStorageManager,
+)
 
 
 def download(container, output_dir):
-    downloader = EngineOutputStorage.EngineOutputDownloader(
+    downloader = EngineOutputDownloader(
         os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
         os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
         container,
@@ -42,21 +48,27 @@ def gather(output_dir, config, refresh):
     )
     print("Got event types")
 
+    print("Setting up PDF storage manager...")
+    pdf_storage_manager = PDFStorageManager(
+        os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
+        os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
+        output_config["pdf_container_name"],
+    )
+    print(f"PDF storage container: {output_config['pdf_container_name']}")
+
     # Download the PDFs
     report_scraping_settings = WebsiteScraping.ReportScraperSettings(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
         os.path.join(output_dir, output_config.get("report_titles_df_file_name")),
-        output_config.get("report_pdf_file_name"),
         download_config.get("start_year"),
         download_config.get("end_year"),
         download_config.get("max_per_year"),
         [Modes.Mode[mode] for mode in download_config.get("modes")],
         download_config.get("ignored_reports"),
         refresh,
+        pdf_storage_manager,
     )
 
     for agency in download_config.get("agencies"):
-        print("Downloading reports for " + agency)
         match agency:
             case "TSB":
                 WebsiteScraping.TSBReportScraper(report_scraping_settings).collect_all()
@@ -79,9 +91,9 @@ def gather(output_dir, config, refresh):
 
     # Extract the text from the PDFs
     PDFParser.convertPDFToText(
-        os.path.join(output_dir, output_config.get("report_pdf_folder_name")),
         os.path.join(output_dir, output_config.get("parsed_reports_df_file_name")),
         refresh,
+        pdf_storage_manager,
     )
 
     ATSB_si_scraper = WebsiteScraping.ATSBSafetyIssueScraper(
@@ -286,7 +298,7 @@ def upload(container_name, output_dir, output_config):
         )
         for file in embeddings
     ]
-    uploader = EngineOutputStorage.EngineOutputUploader(
+    uploader = EngineOutputUploader(
         os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
         os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
         container_name,
@@ -324,6 +336,10 @@ def cli():
 
     args = parser.parse_args()
 
+    # Initialize timing tracker
+    timing_results = {}
+    total_start_time = time.time()
+
     # Get the config settings for the engine.
     engine_settings = Config.configReader.get_config()["engine"]
 
@@ -336,29 +352,93 @@ def cli():
 
     match args.run_type:
         case "download":
+            start_time = time.time()
             download(engine_settings.get("output").get("container_name"), output_path)
+            timing_results["download"] = time.time() - start_time
         case "gather":
+            start_time = time.time()
             gather(output_path, engine_settings, args.refresh)
+            timing_results["gather"] = time.time() - start_time
         case "extract":
+            start_time = time.time()
             extract(output_path, engine_settings, args.refresh)
+            timing_results["extract"] = time.time() - start_time
         case "analyze":
+            start_time = time.time()
             analyze(output_path, engine_settings, args.refresh)
+            timing_results["analyze"] = time.time() - start_time
         case "upload":
+            start_time = time.time()
             upload(
                 engine_settings.get("output").get("container_name"),
                 output_path,
                 engine_settings.get("output"),
             )
+            timing_results["upload"] = time.time() - start_time
         case "all":
+            # Download step
+            start_time = time.time()
             download(engine_settings.get("output").get("container_name"), output_path)
+            timing_results["download"] = time.time() - start_time
+
+            # Gather step
+            start_time = time.time()
             gather(output_path, engine_settings, args.refresh)
+            timing_results["gather"] = time.time() - start_time
+
+            # Extract step
+            start_time = time.time()
             extract(output_path, engine_settings, args.refresh)
+            timing_results["extract"] = time.time() - start_time
+
+            # Analyze step
+            start_time = time.time()
             analyze(output_path, engine_settings, args.refresh)
+            timing_results["analyze"] = time.time() - start_time
+
+            # Upload step
+            start_time = time.time()
             upload(
                 engine_settings.get("output").get("container_name"),
                 output_path,
                 engine_settings.get("output"),
             )
+            timing_results["upload"] = time.time() - start_time
+
+    # Calculate total time
+    total_time = time.time() - total_start_time
+
+    # Print timing summary
+    print("\n" + "=" * 60)
+    print("TIMING SUMMARY")
+    print("=" * 60)
+
+    def format_duration(seconds):
+        """Format duration to show appropriate time units"""
+        if seconds < 60:
+            return f"{seconds:.2f} seconds"
+        elif seconds < 3600:
+            minutes = int(seconds // 60)
+            remaining_seconds = seconds % 60
+            return f"{minutes}m {remaining_seconds:.1f}s ({seconds:.2f} seconds)"
+        else:
+            hours = int(seconds // 3600)
+            minutes = int((seconds % 3600) // 60)
+            remaining_seconds = seconds % 60
+            return (
+                f"{hours}h {minutes}m {remaining_seconds:.1f}s ({seconds:.2f} seconds)"
+            )
+
+    for step, duration in timing_results.items():
+        formatted_time = format_duration(duration)
+        print(f"{step.upper():>10}: {formatted_time}")
+
+    if len(timing_results) > 1:
+        print("-" * 60)
+        formatted_total = format_duration(total_time)
+        print(f"{'TOTAL':>10}: {formatted_total}")
+
+    print("=" * 60)
 
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@ import lancedb
 import pytest
 import pytz
 
-from engine.utils.EngineOutputStorage import (
+from engine.utils.AzureStorage import (
     EngineOutputDownloader,
     EngineOutputUploader,
 )
@@ -34,13 +34,13 @@ def test_upload_outputs(tmpdir):
 
     uploader.upload_latest_output()
 
-    blobs = uploader.engine_output_container.list_blob_names(
+    blobs = uploader.list_blobs(
         name_starts_with=datetime.now(pytz.timezone("Pacific/Auckland")).strftime(
             "%Y-%m-%d_%H"
         )
     )
 
-    assert len(list(blobs)) > 0
+    assert len(blobs) > 0
 
     db = lancedb.connect(vector_db_uri)
     assert "all_document_types" in db.table_names()

@@ -6,8 +6,12 @@ import roman
 from pypdf import PdfReader, errors
 from tqdm import tqdm
 
+from ..utils.AzureStorage import PDFStorageManager
 
-def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
+
+def convertPDFToText(
+    parsed_reports_df_file_name, refresh, pdf_storage_manager: PDFStorageManager
+):
     print(
         "=============================================================================================================================\n"
     )
@@ -23,21 +27,17 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
     print(
         "=============================================================================================================================\n"
     )
-    print(f"Report PDFs folder: {report_pdfs_folder}")
+
+    print("Using PDF storage manager (streaming from cloud)")
     print(f"Output file: {parsed_reports_df_file_name}")
     print(f"Refresh: {refresh}")
-    if not os.path.exists(report_pdfs_folder):
-        print(
-            "No reports have been downloaded so far. Please make sure that reports have been downloaded before running this function."
-        )
-        return
 
-    report_pdf_paths = [
-        os.path.join(report_pdfs_folder, pdf)
-        for pdf in os.listdir(report_pdfs_folder)
-        if pdf.endswith(".pdf")
-    ]
-    report_pdf_paths.sort()
+    # Get PDFs from cloud storage
+    report_ids = pdf_storage_manager.list_pdfs()
+    if not report_ids:
+        print("No PDFs found in storage container.")
+        return
+    print(f"Found {len(report_ids)} PDFs in storage container")
 
     if os.path.exists(parsed_reports_df_file_name) and not refresh:
         parsed_reports_df = pd.read_pickle(parsed_reports_df_file_name)
@@ -49,19 +49,33 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
     new_parsed_reports = []
 
     print(
-        f"Parsing {len(report_pdf_paths)} reports, there are currently {len(parsed_reports_df)} reports in the parsed reports dataframe"
+        f"Parsing {len(report_ids)} reports, there are currently {len(parsed_reports_df)} reports in the parsed reports dataframe"
     )
 
-    for report_pdf_path in (pbar := tqdm(report_pdf_paths)):
+    for report_id in (pbar := tqdm(report_ids)):
         pbar.set_description(
-            f"Extracting text from report PDFs, currently processing {report_pdf_path}"
+            f"Extracting text from report PDFs, currently processing {report_id}"
         )
-        report_id = os.path.basename(os.path.normpath(report_pdf_path))[:-4]
-        # Go into each folder and find the pdf
+
+        # Skip if already processed
         if report_id in parsed_reports_df["report_id"].values:
             continue
+
         try:
-            text, headers = extractTextFromPDF(report_pdf_path)
+            # Stream from storage
+            temp_pdf_path = pdf_storage_manager.stream_pdf_to_temp_file(report_id)
+            if temp_pdf_path is None:
+                pbar.write(f"Failed to download {report_id} from storage")
+                continue
+
+            try:
+                text, headers = extractTextFromPDF(temp_pdf_path)
+            finally:
+                # Clean up temporary file
+                try:
+                    os.unlink(temp_pdf_path)
+                except Exception:
+                    pass
 
             text, valid, pdf_to_internal_page_numbers = formatText(text, report_id)
 
@@ -92,7 +106,7 @@ def convertPDFToText(report_pdfs_folder, parsed_reports_df_file_name, refresh):
                 new_parsed_reports = []
 
         except Exception as e:
-            pbar.write(f"Error processing {report_pdf_path}: {e}")
+            pbar.write(f"Error processing {report_id}: {e}")
 
     if len(new_parsed_reports) > 0:
         parsed_reports_df = pd.concat(

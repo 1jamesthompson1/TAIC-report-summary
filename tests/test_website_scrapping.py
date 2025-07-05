@@ -1,3 +1,19 @@
+"""
+Website scraping tests with automatic Azure container cleanup.
+
+This test module includes a session-scoped fixture that automatically cleans up
+the test-reportpdfs Azure storage container after all tests complete. This helps
+prevent accumulation of test data and associated storage costs.
+
+The cleanup fixture (`cleanup_test_pdf_container`) will:
+1. Run after all tests in the session complete
+2. Connect to the test Azure storage container
+3. Delete all blobs (PDFs and other files) from the test container
+4. Provide status output showing what was cleaned up
+
+To use this in other test files, you can copy the cleanup_test_pdf_container fixture.
+"""
+
 import itertools
 import os
 
@@ -9,17 +25,16 @@ import engine.utils.Modes as Modes
 
 
 @pytest.fixture(scope="function")
-def report_scraping_settings(tmpdir):
+def report_scraping_settings(tmpdir, test_pdf_storage_manager):
     return WebsiteScraping.ReportScraperSettings(
-        os.path.join(tmpdir, "report_folder"),
         os.path.join(pytest.output_config["folder_name"], "report_titles.pkl"),
-        "{{report_id}}.pdf",
         2005,
         2015,
         1,
         [Modes.Mode.a, Modes.Mode.r, Modes.Mode.m],
         [],
         False,
+        test_pdf_storage_manager,
     )
 
 
@@ -162,7 +177,9 @@ def test_agency_website_scraper_collecting_all_reports(
 
     scraper.collect_all()
 
-    assert len(os.listdir(report_scraping_settings.report_dir)) == expected_count
+    # Use PDF storage manager to count collected PDFs instead of local directory
+    pdf_count = len(report_scraping_settings.pdf_storage_manager.list_pdfs())
+    assert pdf_count == expected_count
 
 
 def test_ATSB_safety_issue_scrape():
