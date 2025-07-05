@@ -34,7 +34,7 @@ def test_upload_outputs(tmpdir):
 
     uploader.upload_latest_output()
 
-    blobs = uploader.list_names(
+    blobs = uploader.list_blobs(
         name_starts_with=datetime.now(pytz.timezone("Pacific/Auckland")).strftime(
             "%Y-%m-%d_%H"
         )

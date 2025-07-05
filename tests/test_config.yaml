@@ -7,6 +7,8 @@ engine:
   output:
     folder_name: "tests/data/output"
     pdf_container_name: "test-reportpdfs"
+    stable_pdf_container_name: "test-stable-reportpdfs"
+    report_pdf_folder_name: "report_pdfs"
     parsed_reports_df_file_name: "parsed_reports.pkl"
     recommendations_df_file_name: "recommendations.pkl"
     all_event_types_df_file_name: "all_event_types.pkl"

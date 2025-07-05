@@ -45,6 +45,33 @@ def test_pdf_storage_manager():
     )
 
 
+@pytest.fixture(scope="function")
+def stable_pdf_storage_manager():
+    """
+    Create a PDF storage manager for stable test PDFs.
+
+    This fixture connects to a separate container with a consistent set of test PDFs
+    that are NOT automatically cleaned up. This is useful for tests that need
+    reliable, consistent PDF data.
+
+    Usage:
+    ```python
+    def test_pdf_parsing(stable_pdf_storage_manager):
+        # This container has a known set of test PDFs
+        pdf_list = stable_pdf_storage_manager.list_pdfs()
+        # pdf_list will always contain the same test reports
+    ```
+
+    Note: This container is separate from the regular test container and is not
+    subject to automatic cleanup.
+    """
+    return PDFStorageManager(
+        os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
+        os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
+        pytest.output_config["stable_pdf_container_name"],
+    )
+
+
 @pytest.fixture(scope="function", autouse=True)
 def cleanup_test_containers():
     """
@@ -53,13 +80,16 @@ def cleanup_test_containers():
     This fixture automatically cleans up Azure storage containers after each test
     to prevent accumulation of test data and associated storage costs.
     Available to all tests in the suite.
+
+    NOTE: This does NOT clean up the stable PDF container, which is meant to
+    contain consistent test data.
     """
     # This runs before each test
     yield
 
     # This runs after each test completes
     try:
-        # Clean up PDF container
+        # Clean up regular PDF container (but NOT the stable one)
         pdf_storage_manager = PDFStorageManager(
             os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
             os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
