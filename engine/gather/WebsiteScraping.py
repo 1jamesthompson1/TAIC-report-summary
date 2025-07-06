@@ -1,6 +1,5 @@
 import os
 import re
-import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -13,6 +12,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 from ..utils import Modes
+from ..utils.AzureStorage import PDFStorageManager
 
 
 class ReportMetadata:
@@ -59,21 +59,18 @@ class ReportMetadata:
 class ReportScraperSettings:
     def __init__(
         self,
-        report_dir,
         report_titles_file_path,
-        file_name_template,
         start_year,
         end_year,
         max_per_year,
         modes: list[Modes.Mode],
         ignored_report_ids: list[str],
         refresh,
+        pdf_storage_manager: PDFStorageManager,
         refresh_metadata=False,
         scraper_workers=1,
     ):
-        self.report_dir = report_dir
         self.report_titles_file_path = report_titles_file_path
-        self.file_name_template = file_name_template
         self.start_year = start_year
         self.end_year = end_year
         self.max_per_year = max_per_year
@@ -82,6 +79,7 @@ class ReportScraperSettings:
         self.ignored_report_ids = ignored_report_ids
         self.refresh_metadata = refresh_metadata
         self.scraper_workers = scraper_workers
+        self.pdf_storage_manager = pdf_storage_manager
 
 
 class WebsiteScraper:
@@ -149,15 +147,6 @@ class ReportScraper(WebsiteScraper):
                 ]
             )
         super().__init__(self.settings.report_titles_file_path)
-
-        # Create a folder to store the downloaded PDFs
-        os.makedirs(self.settings.report_dir, exist_ok=True)
-
-        # Thread lock for safe printing
-        self._print_lock = threading.Lock()
-        self._metadata_file_lock = threading.Lock()
-
-    def collect_all(self):
         print(
             "=============================================================================================================================\n"
         )
@@ -165,7 +154,7 @@ class ReportScraper(WebsiteScraper):
             "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
         )
         print(
-            "- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs - - - - - - - - - - - - - - - - - - - - - -"
+            f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - Downloading report PDFs for {self.agency} - - - - - - - - - - - - - - - - - - - - - -"
         )
         print(
             "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
@@ -173,8 +162,9 @@ class ReportScraper(WebsiteScraper):
         print(
             "=============================================================================================================================\n"
         )
-        print(f"  Output directory: {self.settings.report_dir}")
-        print(f"  File name template: {self.settings.file_name_template}")
+        print(
+            f"  PDF storage container: {self.settings.pdf_storage_manager.container_name}"
+        )
         print(f"  Report titles file path: {self.settings.report_titles_file_path}")
         print(
             f"  Start year: {self.settings.start_year},  End year: {self.settings.end_year}"
@@ -183,6 +173,7 @@ class ReportScraper(WebsiteScraper):
         print(f"  Modes: {self.settings.modes}")
         print(f"  Ignoring report ids: {self.settings.ignored_report_ids}")
 
+    def collect_all(self):
         # Loop through each mode
         for mode in self.settings.modes:
             self.collect_mode(mode)
@@ -222,34 +213,28 @@ class ReportScraper(WebsiteScraper):
                     year_result = future.result()
                     completed_years.append(year_result)
 
-                    with self._print_lock:
-                        print(
-                            f"==Completed year {year_result['year']} for mode {mode.name}: "
-                            f"{year_result['reports_collected']} reports collected out of {year_result['potential_reports']} in "
-                            f"{year_result['duration']:.2f} seconds=="
-                        )
+                    print(
+                        f"==Completed year {year_result['year']} for mode {mode.name}: "
+                        f"{year_result['reports_collected']} reports collected out of {year_result['potential_reports']} in "
+                        f"{year_result['duration']:.2f} seconds=="
+                    )
 
                 except Exception as exc:
-                    with self._print_lock:
-                        print(f"==Year {year} generated an exception: {exc}==")
+                    print(f"==Year {year} generated an exception: {exc}==")
 
         # Print final summary
         total_reports = sum(result["reports_collected"] for result in completed_years)
         total_time = sum(result["duration"] for result in completed_years)
         avg_time = total_time / len(completed_years) if completed_years else 0
 
-        with self._print_lock:
-            print(f"==Finished downloading reports for mode: {mode.name}==")
-            print(f"  Total reports collected: {total_reports}")
-            print(f"  Total time: {total_time:.2f} seconds")
-            print(f"  Average time per year: {avg_time:.2f} seconds")
+        print(f"==Finished downloading reports for mode: {mode.name}==")
+        print(f"  Total reports collected: {total_reports}")
+        print(f"  Total time: {total_time:.2f} seconds")
+        print(f"  Average time per year: {avg_time:.2f} seconds")
 
     def collect_year(self, year, mode):
         """Helper method to collect a year's reports with timing information"""
         start_time = datetime.now()
-
-        with self._print_lock:
-            print(f"==Starting year {year} for mode: {mode.name}==")
 
         number_for_year = 0
         report_urls = self.get_report_urls(mode, year)
@@ -275,21 +260,14 @@ class ReportScraper(WebsiteScraper):
         }
 
     def collect_report(self, report_id, url):
-        file_name = os.path.join(
-            self.settings.report_dir,
-            self.settings.file_name_template.replace(r"{{report_id}}", report_id),
-        )
-
-        # Skip if PDF path already exists.
         if not self.settings.refresh and (
-            os.path.exists(file_name)
+            self.settings.pdf_storage_manager.pdf_exists(report_id)
             or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
         ):
             if (
                 not self.settings.refresh_metadata
                 and not self.report_titles_df.query(f"report_id == '{report_id}'").empty
             ):
-                print(f"Skipping {report_id} as it already exists.")
                 return True
 
         try:
@@ -316,14 +294,11 @@ class ReportScraper(WebsiteScraper):
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
 
-        outcome = None
-        if not os.path.exists(file_name):
-            outcome = self.download_report(report_id, file_name, soup, base_url)
+        outcome = False
+        # Download to cloud storage instead of local file
+        outcome = self.download_report(report_id, soup, base_url)
 
-        if (
-            self.report_titles_df.query("report_id == @report_id").empty
-            or self.settings.refresh_metadata
-        ):
+        if self.report_titles_df.query("report_id == @report_id").empty:
             self.__add_report_metadata_to_df(
                 self.get_report_metadata(report_id, url, soup)
             )
@@ -335,12 +310,45 @@ class ReportScraper(WebsiteScraper):
     def download_report(
         self,
         report_id: str,
-        file_name: str,
         soup: BeautifulSoup,
         base_url: str,
     ):
-        # Find all the links that end with .pdf and download them
+        """Download report directly to PDF storage container."""
+        # Check if PDF already exists and we're not refreshing
+        if not self.settings.refresh and self.settings.pdf_storage_manager.pdf_exists(
+            report_id
+        ):
+            return True
 
+        # Find PDF links
+        pdf_link = self._find_pdf_links(soup, report_id)
+        if pdf_link is None:
+            return False
+
+        link = urljoin(base_url, pdf_link)
+
+        try:
+            response = hrequests.get(
+                link, allow_redirects=True, headers=self.headers, timeout=30
+            )
+            if response is None:
+                print(f"  {report_id}.pdf download failed: No response")
+                return False
+
+            # Upload to storage
+            self.settings.pdf_storage_manager.upload_pdf(
+                report_id, response.content, overwrite=self.settings.refresh
+            )
+
+            return True
+
+        except Exception as e:
+            print(f"  {report_id}.pdf processing failed: {e}")
+            return False
+
+    def _find_pdf_links(self, soup: BeautifulSoup, report_id: str):
+        """Extract PDF links from BeautifulSoup object."""
+        # Find all the links that end with .pdf and download them
         pdf_links = [
             a["href"]
             for a in soup.find_all("a", href=True)
@@ -385,23 +393,7 @@ class ReportScraper(WebsiteScraper):
                 )
                 return False
 
-        link = urljoin(base_url, pdf_links[0])
-        try:
-            with open(file_name, "wb") as f:
-                f.write(
-                    hrequests.get(
-                        link, allow_redirects=True, headers=self.headers, timeout=30
-                    ).content
-                )
-        except (
-            hrequests.exceptions.BrowserTimeoutException,
-            hrequests.exceptions.ClientException,
-        ):
-            os.remove(file_name)
-            print(f"  {file_name} timed out")
-            return False
-
-        return True
+        return pdf_links[0]
 
     def get_report_metadata(
         self, report_id: str, soup: BeautifulSoup, pbar=None
@@ -444,8 +436,10 @@ class ReportScraper(WebsiteScraper):
 
 class TAICReportScraper(ReportScraper):
     def __init__(self, reports_table_path, settings: ReportScraperSettings):
-        super().__init__(settings)
         self.agency = "TAIC"
+        super().__init__(
+            settings,
+        )
 
         self.agency_reports = self.__get_taic_investigations(reports_table_path)
 
@@ -574,8 +568,8 @@ class ATSBReportScraper(ReportScraper):
         website_reports_file_name,
         settings: ReportScraperSettings,
     ):
-        super().__init__(settings)
         self.agency = "ATSB"
+        super().__init__(settings)
         self.agency_reports = self.__get_atsb_investigations(website_reports_file_name)
 
     def __get_atsb_investigations(self, website_reports_file_name=None):
@@ -823,8 +817,8 @@ class ATSBReportScraper(ReportScraper):
 
 class TSBReportScraper(ReportScraper):
     def __init__(self, settings: ReportScraperSettings):
-        super().__init__(settings)
         self.agency = "TSB"
+        super().__init__(settings)
 
         self.agency_reports = self.__get_tsb_investigations()
 

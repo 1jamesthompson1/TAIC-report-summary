@@ -9,8 +9,7 @@ engine:
   output:
     folder_name: "output"
     container_name: "engineoutput"
-    report_pdf_folder_name: "report_pdfs"
-    report_pdf_file_name: "{{report_id}}.pdf"
+    pdf_container_name: "prod-reportpdfs"
     parsed_reports_df_file_name: "parsed_reports.pkl"
     recommendations_df_file_name: "recommendations.pkl"
     all_event_types_df_file_name: "all_event_types.pkl"
@@ -28,6 +27,8 @@ engine:
     taic_website_recommendations_file_name: "taic_website_recommendations.pkl"
     atsb_website_reports_table_file_name: "atsb_website_reports_table.pkl"
     taic_website_reports_table_file_name: "taic_website_reports_table.pkl"
+    # PDF Storage Configuration (REQUIRED)
+    # PDFs are now stored in Azure cloud storage instead of local files
     embeddings:
       folder_name: "embeddings"
       safety_issues_file_name: "safety_issues_embeddings_{{num}}.pkl"
@@ -42,4 +43,3 @@ engine:
     atsb_historic_aviation: "atsb_historic_aviation_investigations.csv"
   validation:
     folder_name: "validation"
-    
