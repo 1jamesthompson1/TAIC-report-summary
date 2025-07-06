@@ -577,6 +577,8 @@ class TAICReportScraper(ReportScraper):
             summary = summary_div.get_text().strip()
             # Treat the summary as None if it is less than 200 characters
             # This is to catch the situations like "Final report not yet published", "New Zealand has completed its support for this inquiry. Please note, TAIC will not be producing a report for this inquiry."
+            if summary.startswith("[") and summary.endswith("]") and len(summary) < 500:
+                summary = None
             if len(summary) < 200:
                 summary = None
         else:
