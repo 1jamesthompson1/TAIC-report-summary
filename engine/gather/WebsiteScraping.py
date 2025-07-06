@@ -1,8 +1,11 @@
 import os
 import re
 import time
+from abc import ABC, abstractmethod
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+from threading import Lock
+from typing import Literal
 from urllib.parse import urljoin, urlparse
 
 import hrequests
@@ -82,7 +85,12 @@ class ReportScraperSettings:
         self.pdf_storage_manager = pdf_storage_manager
 
 
-class WebsiteScraper:
+class WebsiteScraper(ABC):
+    """
+    Abstract base class for scraping websites.
+    Provides common functionality for HTTP requests and ID conversion.
+    """
+
     def __init__(self, report_titles_file_path):
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
@@ -117,17 +125,15 @@ class WebsiteScraper:
             return self.id_dict[agency].get(agency_id)
 
 
-class ReportScraper(WebsiteScraper):
+class ReportScraper(WebsiteScraper, ABC):
     """
-    Class that will take the output templates and download all the reports from the TAIC website
-    These reports can be found manually by going to https://www.taic.org.nz/inquiries
+    Abstract base class for scraping reports from different transportation safety agencies.
+    Subclasses must implement abstract methods to handle agency-specific website structures.
     """
 
-    def __init__(
-        self,
-        settings: ReportScraperSettings,
-    ):
+    def __init__(self, settings: ReportScraperSettings, agency: str):
         self.settings = settings
+        self._metadata_file_lock = Lock()
         if os.path.exists(self.settings.report_titles_file_path):
             self.report_titles_df = pd.read_pickle(
                 self.settings.report_titles_file_path
@@ -146,6 +152,7 @@ class ReportScraper(WebsiteScraper):
                     "agency_id",
                 ]
             )
+        self.agency = agency
         super().__init__(self.settings.report_titles_file_path)
         print(
             "=============================================================================================================================\n"
@@ -178,11 +185,27 @@ class ReportScraper(WebsiteScraper):
         for mode in self.settings.modes:
             self.collect_mode(mode)
 
+    @abstractmethod
     def get_report_urls(self, mode: Modes.Mode, year: int) -> list[tuple[str, str]]:
         """
-        Retrieves all the potential report urls and ids for a given mode and year
+        Retrieves all the potential report urls and ids for a given mode and year.
+
+        This method must be implemented by subclasses to handle agency-specific
+        website structures for finding report URLs.
+
+        Parameters
+        ----------
+        mode : Modes.Mode
+            The mode/type of transportation (aviation, rail, marine)
+        year : int
+            The year to search for reports
+
+        Returns
+        -------
+        list[tuple[str, str]]
+            List of tuples containing (report_id, report_url)
         """
-        raise NotImplementedError
+        pass
 
     def get_report_id(self, mode: Modes.Mode, year: int, id: str) -> str:
         return f"{self.agency}_{mode.name}_{year}_{id}"
@@ -322,7 +345,7 @@ class ReportScraper(WebsiteScraper):
 
         # Find PDF links
         pdf_link = self._find_pdf_links(soup, report_id)
-        if pdf_link is None:
+        if pdf_link is False:
             return False
 
         link = urljoin(base_url, pdf_link)
@@ -346,7 +369,9 @@ class ReportScraper(WebsiteScraper):
             print(f"  {report_id}.pdf processing failed: {e}")
             return False
 
-    def _find_pdf_links(self, soup: BeautifulSoup, report_id: str):
+    def _find_pdf_links(
+        self, soup: BeautifulSoup, report_id: str
+    ) -> str | Literal[False]:
         """Extract PDF links from BeautifulSoup object."""
         # Find all the links that end with .pdf and download them
         pdf_links = [
@@ -392,19 +417,26 @@ class ReportScraper(WebsiteScraper):
                     f"WARNING: Found no suitable PDF link for {report_id}. Will not download any. Here are the original links:\n{links_str}"
                 )
                 return False
+            pdf_links = suitable_pdf_links
 
         return pdf_links[0]
 
+    @abstractmethod
     def get_report_metadata(
-        self, report_id: str, soup: BeautifulSoup, pbar=None
+        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
     ) -> ReportMetadata:
         """
         Gets the investigation webpage and scrapes extra information about the report.
+
+        This method must be implemented by subclasses to handle agency-specific
+        metadata extraction from report pages.
 
         Parameters
         ----------
         report_id : str
             The identifier of the report
+        url : str
+            The URL of the report page
         soup : BeautifulSoup
             The BeautifulSoup object for the page
         pbar : tqdm, optional
@@ -412,9 +444,10 @@ class ReportScraper(WebsiteScraper):
 
         Returns
         -------
-        tuple[str, str, str, dict]
-            A tuple containing the report_id, title, event_type, investigation_type,misc
+        ReportMetadata
+            The report metadata object containing extracted information
         """
+        pass
 
     def __add_report_metadata_to_df(self, metadata: ReportMetadata):
         with self._metadata_file_lock:
@@ -436,9 +469,9 @@ class ReportScraper(WebsiteScraper):
 
 class TAICReportScraper(ReportScraper):
     def __init__(self, reports_table_path, settings: ReportScraperSettings):
-        self.agency = "TAIC"
         super().__init__(
             settings,
+            agency="TAIC",
         )
 
         self.agency_reports = self.__get_taic_investigations(reports_table_path)
@@ -568,8 +601,7 @@ class ATSBReportScraper(ReportScraper):
         website_reports_file_name,
         settings: ReportScraperSettings,
     ):
-        self.agency = "ATSB"
-        super().__init__(settings)
+        super().__init__(settings, agency="ATSB")
         self.agency_reports = self.__get_atsb_investigations(website_reports_file_name)
 
     def __get_atsb_investigations(self, website_reports_file_name=None):
@@ -708,8 +740,8 @@ class ATSBReportScraper(ReportScraper):
             [investigations, new_investigations],
             axis=0,
         )
-
-        investigations.to_pickle(website_reports_file_name)
+        if website_reports_file_name is not None:
+            investigations.to_pickle(website_reports_file_name)
 
         return investigations
 
@@ -729,7 +761,7 @@ class ATSBReportScraper(ReportScraper):
 
     def get_report_metadata(
         self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
-    ) -> tuple[str, str, str, dict]:
+    ) -> ReportMetadata:
         report_mode = Modes.get_report_mode_from_id(report_id)
         event_type = None
         if report_mode is Modes.Mode.a:
@@ -817,8 +849,7 @@ class ATSBReportScraper(ReportScraper):
 
 class TSBReportScraper(ReportScraper):
     def __init__(self, settings: ReportScraperSettings):
-        self.agency = "TSB"
-        super().__init__(settings)
+        super().__init__(settings, agency="TSB")
 
         self.agency_reports = self.__get_tsb_investigations()
 
@@ -868,7 +899,7 @@ class TSBReportScraper(ReportScraper):
 
     def get_report_metadata(
         self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
-    ):
+    ) -> ReportMetadata:
         # Due to TSB having the metadata on a page separate from the report pdf link, we need to get the new page
         split_id = report_id.split("_")
         tsb_id = f"{split_id[1]}{split_id[2][2:4]}{split_id[3]}"
@@ -886,7 +917,17 @@ class TSBReportScraper(ReportScraper):
 
         title_block = soup.find("div", class_="field--name-field-occurrence")
         if title_block is None:
-            return report_id, None, None, None, None
+            # Return a minimal ReportMetadata when title_block is not found
+            return ReportMetadata(
+                report_url=url,
+                report_id=report_id,
+                title="Unknown",
+                event_type=None,
+                investigation_type="unknown",
+                summary=None,
+                misc={},
+                agency_id=None,
+            )
         else:
             event_type = title_block.find("strong")
             if event_type:
@@ -1083,13 +1124,30 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
         formatted_df.to_pickle(self.output_file_path)
 
 
-class RecommendationScraper(WebsiteScraper):
-    def __init__(self, output_file_path, report_titles_file_path, refresh=False):
+class RecommendationScraper(WebsiteScraper, ABC):
+    """
+    Abstract base class for scraping recommendations from different transportation safety agencies.
+    Subclasses must implement abstract methods to handle agency-specific website structures.
+    """
+
+    def __init__(
+        self,
+        output_file_path: str,
+        report_titles_file_path: str,
+        columns: list[str],
+        base_url: str,
+        loop_iter: list | range,
+        agency: str,
+        refresh: bool = False,
+    ):
         super().__init__(report_titles_file_path)
 
         self.output_file_path = output_file_path
-
         self.refresh = refresh
+        self.columns = columns
+        self.base_url = base_url
+        self.loop_iter = loop_iter
+        self.agency = agency
 
     def extract_recommendations_from_website(self):
         if not self.refresh and os.path.exists(self.output_file_path):
@@ -1189,23 +1247,70 @@ class RecommendationScraper(WebsiteScraper):
 
         recommendations_df.to_pickle(self.output_file_path)
 
-    def extract_recommendation_data(self, url):
+    @abstractmethod
+    def extract_recommendation_data(self, url) -> dict:
         """
         Goes to the URL and extracts the needed data.
-        """
-        raise NotImplementedError
 
-    def process_new_table(self, table):
+        This method must be implemented by subclasses to handle agency-specific
+        recommendation data extraction from individual recommendation pages.
+
+        Parameters
+        ----------
+        url : str
+            The URL of the recommendation page
+
+        Returns
+        -------
+        dict
+            Dictionary containing extracted recommendation data
         """
-        This takes a recently read table and processes it
+        pass
+
+    @abstractmethod
+    def process_new_table(self, table) -> pd.DataFrame:
         """
-        raise NotImplementedError
+        Takes a recently read table and processes it according to agency-specific rules.
+
+        This method must be implemented by subclasses to handle agency-specific
+        table processing and column mapping.
+
+        Parameters
+        ----------
+        table : pd.DataFrame
+            The raw table data from the website
+
+        Returns
+        -------
+        pd.DataFrame
+            Processed table with standardized columns
+        """
+        pass
+
+    @abstractmethod
+    def get_url(self, element) -> str:
+        """
+        Generates the URL for a given element (page number, mode, etc.).
+
+        This method must be implemented by subclasses to handle agency-specific
+        URL generation patterns.
+
+        Parameters
+        ----------
+        element : Any
+            The element used to generate the URL (e.g., page number, mode)
+
+        Returns
+        -------
+        str
+            The complete URL for the given element
+        """
+        pass
 
 
 class TSBRecommendationsScraper(RecommendationScraper):
     def __init__(self, output_file_path, report_titles_file_path, refresh=False):
-        super().__init__(output_file_path, report_titles_file_path, refresh)
-        self.columns = [
+        columns = [
             "recommendation_id",
             "recommendation",
             "agency_id",
@@ -1216,14 +1321,24 @@ class TSBRecommendationsScraper(RecommendationScraper):
             "made",
             "recommendation_context",
         ]
-        self.base_url = "https://www.tsb.gc.ca"
+        base_url = "https://www.tsb.gc.ca"
+        loop_iter = ["rail", "marine", "aviation"]
+        agency = "TSB"
 
-        self.loop_iter = ["rail", "marine", "aviation"]
+        super().__init__(
+            output_file_path,
+            report_titles_file_path,
+            columns,
+            base_url,
+            loop_iter,
+            agency,
+            refresh,
+        )
 
-        self.agency = "TSB"
-
-    def get_url(self, mode):
-        return f"{self.base_url}/eng/recommandations-recommendations/{mode}/index.html"
+    def get_url(self, element):
+        return (
+            f"{self.base_url}/eng/recommandations-recommendations/{element}/index.html"
+        )
 
     def extract_recommendation_data(self, url, retry=3):
         """
@@ -1306,9 +1421,7 @@ class TSBRecommendationsScraper(RecommendationScraper):
 
 class TAICRecommendationsScraper(RecommendationScraper):
     def __init__(self, output_file_path, report_titles_file_path, refresh=False):
-        super().__init__(output_file_path, report_titles_file_path, refresh)
-
-        self.columns = [
+        columns = [
             "recommendation_id",
             "made",
             "agency_id",
@@ -1316,14 +1429,22 @@ class TAICRecommendationsScraper(RecommendationScraper):
             "recommendation",
             "reply_text",
         ]
-        self.base_url = "https://www.taic.org.nz"
+        base_url = "https://www.taic.org.nz"
+        loop_iter = range(300)
+        agency = "TAIC"
 
-        self.loop_iter = range(300)
+        super().__init__(
+            output_file_path,
+            report_titles_file_path,
+            columns,
+            base_url,
+            loop_iter,
+            agency,
+            refresh,
+        )
 
-        self.agency = "TAIC"
-
-    def get_url(self, page):
-        return f"{self.base_url}/recommendations?page={page}"
+    def get_url(self, element):
+        return f"{self.base_url}/recommendations?page={element}"
 
     def process_new_table(self, table):
         table = table.iloc[:, :4]
@@ -1346,15 +1467,18 @@ class TAICRecommendationsScraper(RecommendationScraper):
 
         return table
 
-    def extract_recommendation_data(self, url):
+    def extract_recommendation_data(self, url) -> dict:
         """
-        This will extract information that is not found in the able
+        This will extract information that is not found in the table
         - recommendation_text
         - reply_text
         """
 
         if url is None:
-            return None, None
+            return {
+                "recommendation": None,
+                "reply_text": None,
+            }
 
         response = hrequests.get(url, headers=self.headers)
 
@@ -1362,7 +1486,7 @@ class TAICRecommendationsScraper(RecommendationScraper):
             retry = 3
             if retry > 0:
                 time.sleep(1)
-                return self.extract_recommendation_data(url, retry - 1)
+                return self.extract_recommendation_data(url)
             raise ValueError(
                 f"Failed to scrape recommendations from {url}. Error code {response.status_code}"
             )
