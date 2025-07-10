@@ -1,4 +1,5 @@
 import os
+import random
 import re
 import time
 from abc import ABC, abstractmethod
@@ -23,6 +24,18 @@ class ReportMetadata:
     Small data class to hold the metadata so that it can be passed around easily between the functions.
     """
 
+    # Define the column order based on property names
+    COLUMN_ORDER = [
+        "report_id",
+        "title",
+        "event_type",
+        "investigation_type",
+        "summary",
+        "misc",
+        "url",
+        "agency_id",
+    ]
+
     def __init__(
         self,
         report_id,
@@ -31,7 +44,7 @@ class ReportMetadata:
         investigation_type,
         summary,
         misc,
-        report_url,
+        url,
         agency_id,
     ):
         self.report_id = report_id
@@ -40,23 +53,20 @@ class ReportMetadata:
         self.investigation_type = investigation_type
         self.summary = summary
         self.misc = misc
-        self.report_url = report_url
+        self.url = url
         self.agency_id = agency_id
 
     def __repr__(self):
         return f"ReportMetadata({self.report_id}, {self.title})"
 
     def as_report_row(self):
-        return [
-            self.report_id,
-            self.title,
-            self.event_type,
-            self.investigation_type,
-            self.summary,
-            self.misc,
-            self.report_url,
-            self.agency_id,
-        ]
+        """Return values in the order defined by COLUMN_ORDER"""
+        return [getattr(self, col) for col in self.COLUMN_ORDER]
+
+    @classmethod
+    def get_column_names(cls):
+        """Return the column names in the correct order"""
+        return cls.COLUMN_ORDER.copy()
 
 
 class ReportScraperSettings:
@@ -142,15 +152,7 @@ class ReportScraper(WebsiteScraper, ABC):
             self.report_titles_df.reset_index(drop=True, inplace=True)
         else:
             self.report_titles_df = pd.DataFrame(
-                columns=[
-                    "report_id",
-                    "title",
-                    "event_type",
-                    "investigation_type",
-                    "misc",
-                    "url",
-                    "agency_id",
-                ]
+                columns=ReportMetadata.get_column_names()
             )
         self.agency = agency
         super().__init__(self.settings.report_titles_file_path)
@@ -186,7 +188,9 @@ class ReportScraper(WebsiteScraper, ABC):
             self.collect_mode(mode)
 
     @abstractmethod
-    def get_report_urls(self, mode: Modes.Mode, year: int) -> list[tuple[str, str]]:
+    def get_report_urls(
+        self, mode: Modes.Mode, year: int
+    ) -> list[tuple[str, str, str | None]]:
         """
         Retrieves all the potential report urls and ids for a given mode and year.
 
@@ -202,8 +206,8 @@ class ReportScraper(WebsiteScraper, ABC):
 
         Returns
         -------
-        list[tuple[str, str]]
-            List of tuples containing (report_id, report_url)
+        list[tuple[str, str, str | None]]
+            List of tuples containing (report_id, report_url, agency_id)
         """
         pass
 
@@ -261,11 +265,11 @@ class ReportScraper(WebsiteScraper, ABC):
 
         number_for_year = 0
         report_urls = self.get_report_urls(mode, year)
-        for report_id, url in report_urls:
+        for report_id, url, agency_id in report_urls:
             if report_id in self.settings.ignored_report_ids:
                 continue
 
-            outcome = self.collect_report(report_id, url)
+            outcome = self.collect_report(report_id, url, agency_id)
 
             if outcome:
                 number_for_year += 1
@@ -282,7 +286,9 @@ class ReportScraper(WebsiteScraper, ABC):
             "duration": duration,
         }
 
-    def collect_report(self, report_id, url):
+    def collect_report(self, report_id, url, agency_id=None):
+        delay = random.uniform(0.5, 2.0)
+        time.sleep(delay)
         if not self.settings.refresh and (
             self.settings.pdf_storage_manager.pdf_exists(report_id)
             or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
@@ -319,7 +325,7 @@ class ReportScraper(WebsiteScraper, ABC):
 
         outcome = False
         # Download to cloud storage instead of local file
-        outcome = self.download_report(report_id, soup, base_url)
+        outcome = self.download_report(report_id, soup, base_url, agency_id)
 
         if self.report_titles_df.query("report_id == @report_id").empty:
             self.__add_report_metadata_to_df(
@@ -335,6 +341,7 @@ class ReportScraper(WebsiteScraper, ABC):
         report_id: str,
         soup: BeautifulSoup,
         base_url: str,
+        agency_id: str | None = None,
     ):
         """Download report directly to PDF storage container."""
         # Check if PDF already exists and we're not refreshing
@@ -343,8 +350,9 @@ class ReportScraper(WebsiteScraper, ABC):
         ):
             return True
 
+        # Use provided agency_id for PDF link filtering
         # Find PDF links
-        pdf_link = self._find_pdf_links(soup, report_id)
+        pdf_link = self._find_pdf_links(soup, report_id, agency_id)
         if pdf_link is False:
             return False
 
@@ -370,7 +378,7 @@ class ReportScraper(WebsiteScraper, ABC):
             return False
 
     def _find_pdf_links(
-        self, soup: BeautifulSoup, report_id: str
+        self, soup: BeautifulSoup, report_id: str, agency_id: str | None = None
     ) -> str | Literal[False]:
         """Extract PDF links from BeautifulSoup object."""
         # Find all the links that end with .pdf and download them
@@ -389,21 +397,43 @@ class ReportScraper(WebsiteScraper, ABC):
             )
             return False
         if len(pdf_links) > 1:
-            # Only take one that has "final" but not "interim"
-            suitable_pdf_links = [
-                link
-                for link in pdf_links
-                if "final" in link.lower()
-                and all(x not in link.lower() for x in ["interim", "prelim", "interim"])
-            ]
             # Remove links that are simply subsets of other links
             suitable_pdf_links = [
                 link
-                for link in suitable_pdf_links
-                if not any(
-                    link != other and link in other for other in suitable_pdf_links
-                )
+                for link in pdf_links
+                if not any(link != other and link in other for other in pdf_links)
             ]
+
+            # Remove duplicates that have the same filename
+            suitable_pdf_links = [
+                link
+                for link in suitable_pdf_links
+                if link.split("/")[-1]
+                not in [
+                    other.split("/")[-1]
+                    for other in suitable_pdf_links
+                    if link != other
+                ]
+            ]
+
+            # If there are still multiple suitable links try and remove all the ones taht have "interim" or "prelim" in them
+            if len(suitable_pdf_links) > 1:
+                suitable_pdf_links = [
+                    link
+                    for link in suitable_pdf_links
+                    if "interim" not in link.lower() and "prelim" not in link.lower()
+                ]
+
+            # If there are still multiple suitable links and we have an agency_id,
+            # filter by links that contain the agency_id
+            if len(suitable_pdf_links) > 1 and agency_id is not None:
+                agency_filtered_links = [
+                    link
+                    for link in suitable_pdf_links
+                    if agency_id.lower() in link.lower()
+                ]
+                if len(agency_filtered_links) > 0:
+                    suitable_pdf_links = agency_filtered_links
 
             if len(suitable_pdf_links) > 1:
                 links_str = "\n".join(suitable_pdf_links)
@@ -423,7 +453,7 @@ class ReportScraper(WebsiteScraper, ABC):
 
     @abstractmethod
     def get_report_metadata(
-        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
+        self, report_id: str, url: str, soup: BeautifulSoup
     ) -> ReportMetadata:
         """
         Gets the investigation webpage and scrapes extra information about the report.
@@ -451,6 +481,19 @@ class ReportScraper(WebsiteScraper, ABC):
 
     def __add_report_metadata_to_df(self, metadata: ReportMetadata):
         with self._metadata_file_lock:
+            # Ensure DataFrame has correct column order
+            expected_columns = ReportMetadata.get_column_names()
+            if list(self.report_titles_df.columns) != expected_columns:
+                # Reorder existing columns and add missing ones
+                existing_data = self.report_titles_df.copy()
+                self.report_titles_df = pd.DataFrame(columns=expected_columns)
+
+                # Copy existing data to new DataFrame with correct column order
+                for col in expected_columns:
+                    if col in existing_data.columns:
+                        self.report_titles_df[col] = existing_data[col]
+                    # Missing columns will be filled with NaN by default
+
             # Check if report_id exists
             existing_idx = self.report_titles_df.index[
                 self.report_titles_df["report_id"] == metadata.report_id
@@ -559,15 +602,14 @@ class TAICReportScraper(ReportScraper):
             (
                 self.get_report_id(mode, year, taic_id[-3:]),
                 f"https://www.taic.org.nz/inquiry/{taic_id}",
+                taic_id,  # This is the agency_id for TAIC
             )
             for taic_id in self.agency_reports.loc[mode]
             .query(f"year == {year} & Status == 'Closed'")["id"]
             .to_list()
         ]
 
-    def get_report_metadata(
-        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
-    ):
+    def get_report_metadata(self, report_id: str, url: str, soup: BeautifulSoup):
         title = soup.find("div", class_="field--name-field-inv-title").text
 
         agency_id = soup.find("h1", class_="page-title").get_text().strip()
@@ -586,7 +628,7 @@ class TAICReportScraper(ReportScraper):
             summary = None
 
         return ReportMetadata(
-            report_url=url,
+            url=url,
             report_id=report_id,
             title=title,
             event_type=None,
@@ -749,7 +791,7 @@ class ATSBReportScraper(ReportScraper):
 
     def get_report_urls(self, mode, year):
         return [
-            (self.get_report_id(mode, year, str(atsb_id)[-3:]), url)
+            (self.get_report_id(mode, year, str(atsb_id)[-3:]), url, str(atsb_id))
             for atsb_id, url in self.agency_reports.loc[mode]
             .query(f"year == {year} & `Report status` == 'Final'")
             .dropna(subset=["Investigation webpage"])[
@@ -762,7 +804,7 @@ class ATSBReportScraper(ReportScraper):
         ]
 
     def get_report_metadata(
-        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
+        self, report_id: str, url: str, soup: BeautifulSoup
     ) -> ReportMetadata:
         report_mode = Modes.get_report_mode_from_id(report_id)
         event_type = None
@@ -793,16 +835,20 @@ class ATSBReportScraper(ReportScraper):
         # Getting the safety summary
         summary = self.get_summary(soup)
 
+        investigation_type = "unknown"
+        if investigation_level is None:
+            investigation_type = "unknown"
+        elif investigation_level in ["Defined", "Systemic"]:
+            investigation_type = "full"
+        else:
+            investigation_type = "short"
+
         return ReportMetadata(
-            report_url=url,
+            url=url,
             report_id=report_id,
             title=title,
+            investigation_type=investigation_type,
             event_type=event_type,
-            investigation_type="unknown"
-            if investigation_level is None
-            else "full"
-            if investigation_level in ["Defined", "Systemic"]
-            else "short",
             agency_id=agency_id,
             summary=summary,
             misc={"investigation_level": investigation_level},
@@ -891,6 +937,7 @@ class TSBReportScraper(ReportScraper):
             (
                 self.get_report_id(mode, year, tsb_id[-5:]),
                 f"https://www.tsb.gc.ca/eng/rapports-reports/{Modes.Mode.as_string(mode)}/{year}/{tsb_id}/{tsb_id}.html".lower(),
+                tsb_id,  # This is the agency_id for TSB
             )
             for tsb_id in self.agency_reports.loc[mode]
             .query(f"year == {year} & `Investigation status` == 'Completed'")[
@@ -900,7 +947,7 @@ class TSBReportScraper(ReportScraper):
         ]
 
     def get_report_metadata(
-        self, report_id: str, url: str, soup: BeautifulSoup, pbar=None
+        self, report_id: str, url: str, soup: BeautifulSoup
     ) -> ReportMetadata:
         # Due to TSB having the metadata on a page separate from the report pdf link, we need to get the new page
         split_id = report_id.split("_")
@@ -921,7 +968,7 @@ class TSBReportScraper(ReportScraper):
         if title_block is None:
             # Return a minimal ReportMetadata when title_block is not found
             return ReportMetadata(
-                report_url=url,
+                url=url,
                 report_id=report_id,
                 title="Unknown",
                 event_type=None,
