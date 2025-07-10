@@ -1331,6 +1331,8 @@ class ReportExtractingProcessor:
 
         report_sections = None
 
+        report_sections = None
+
         if len(df) > 4 and df["section_text"].map(len).mean() < 2_000:
             report_sections = df.copy()
 

@@ -319,7 +319,7 @@ class Embedder:
                     )
                 ]
             )
-            if current_output_file_num == 0:
+            if current_output_file_num == 1:
                 current_output_file = None
             else:
                 current_output_file = pd.read_pickle(
@@ -339,3 +339,5 @@ class Embedder:
             previously_embedded_indexes = pd.concat(
                 [previously_embedded_indexes, embedded_indexes], ignore_index=True
             )
+
+            previously_embedded_indexes.to_pickle(document_indexes)

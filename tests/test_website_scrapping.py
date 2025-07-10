@@ -123,7 +123,7 @@ def test_report_collection(report_scraping_settings, agency, url, report_id, exp
     [
         pytest.param("TSB", [54, 24, 20, 13, 19, 10, 15, 10, 13], id="TSB"),
         pytest.param("TAIC", [11, 12, 3, 28, 8, 4, 12, 3, 5], id="TAIC"),
-        pytest.param("ATSB", [93, 179, 50, 6, 25, 17, 15, 8, 2], id="ATSB"),
+        pytest.param("ATSB", [93, 179, 52, 6, 25, 17, 15, 8, 2], id="ATSB"),
     ],
 )
 def test_agency_website_scraper(report_scraping_settings, agency, expected_urls):

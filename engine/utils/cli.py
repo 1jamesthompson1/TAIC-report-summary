@@ -125,6 +125,64 @@ def gather(output_dir, config, refresh):
     TAIC_recs_scraper.extract_recommendations_from_website()
 
 
+def create_extracted_reports_df(output_dir, output_config):
+    dataframes = [
+        pd.read_pickle(os.path.join(output_dir, file_name)).set_index("report_id")
+        for file_name in [
+            output_config.get("parsed_reports_df_file_name"),
+            output_config.get("toc_df_file_name"),
+            output_config.get("report_sections_df_file_name"),
+            output_config.get("report_event_types_df_file_name"),
+            output_config.get("recommendations_df_file_name"),
+            output_config.get("safety_issues_df_file_name"),
+        ]
+    ]
+
+    dataframes[-2].rename(
+        columns={
+            "important_text": "important_text_recommendation",
+            "pages_read": "pages_read_recommendation",
+        },
+        inplace=True,
+    )
+    dataframes[-1].rename(
+        columns={
+            "important_text": "important_text_safety_issue",
+            "pages_read": "pages_read_safety_issue",
+        },
+        inplace=True,
+    )
+
+    combined_df = dataframes[0].join(dataframes[1:], how="outer")
+
+    # Adding agency_id and url
+    report_titles = pd.read_pickle(
+        os.path.join(output_dir, output_config.get("report_titles_df_file_name"))
+    )
+    combined_df = combined_df.merge(
+        report_titles[["report_id", "agency_id", "url", "summary"]],
+        how="left",
+        on="report_id",
+    )
+
+    # Add metadata columns
+
+    combined_df["year"] = [
+        int(x.split("_")[2]) if "_" in x else None for x in combined_df["report_id"]
+    ]
+    combined_df["mode"] = combined_df["report_id"].map(
+        lambda x: str(Modes.get_report_mode_from_id(x).value) if "_" in x else None
+    )
+
+    combined_df["agency"] = [
+        (x.split("_")[0] if "_" in x else None) for x in combined_df["report_id"]
+    ]
+
+    combined_df.to_pickle(
+        os.path.join(output_dir, output_config.get("extracted_reports_df_file_name"))
+    )
+
+
 def extract(output_dir, config, refresh):
     output_config = config.get("output")
 
@@ -172,60 +230,7 @@ def extract(output_dir, config, refresh):
         f"Merging all dataframes into {output_config.get('extracted_reports_df_file_name')}"
     )
 
-    # Merge all of the dataframes into one extracted dataframe
-    dataframes = [
-        pd.read_pickle(os.path.join(output_dir, file_name)).set_index("report_id")
-        for file_name in [
-            output_config.get("parsed_reports_df_file_name"),
-            output_config.get("toc_df_file_name"),
-            output_config.get("report_sections_df_file_name"),
-            output_config.get("report_event_types_df_file_name"),
-            output_config.get("recommendations_df_file_name"),
-            output_config.get("safety_issues_df_file_name"),
-        ]
-    ]
-
-    dataframes[-2].rename(
-        columns={
-            "important_text": "important_text_recommendation",
-            "pages_read": "pages_read_recommendation",
-        },
-        inplace=True,
-    )
-    dataframes[-1].rename(
-        columns={
-            "important_text": "important_text_safety_issue",
-            "pages_read": "pages_read_safety_issue",
-        },
-        inplace=True,
-    )
-
-    combined_df = dataframes[0].join(dataframes[1:], how="outer")
-
-    # Adding agency_id and url
-    report_titles = pd.read_pickle(
-        os.path.join(output_dir, output_config.get("report_titles_df_file_name"))
-    )
-    combined_df = combined_df.merge(
-        report_titles[["report_id", "agency_id", "url"]], how="left", on="report_id"
-    )
-
-    # Add metadata columns
-
-    combined_df["year"] = [
-        int(x.split("_")[2]) if "_" in x else None for x in combined_df["report_id"]
-    ]
-    combined_df["mode"] = combined_df["report_id"].map(
-        lambda x: str(Modes.get_report_mode_from_id(x).value) if "_" in x else None
-    )
-
-    combined_df["agency"] = [
-        (x.split("_")[0] if "_" in x else None) for x in combined_df["report_id"]
-    ]
-
-    combined_df.to_pickle(
-        os.path.join(output_dir, output_config.get("extracted_reports_df_file_name"))
-    )
+    create_extracted_reports_df(output_dir, output_config)
 
 
 def analyze(output_dir, config, refresh):
@@ -282,6 +287,14 @@ def analyze(output_dir, config, refresh):
                 "text",
                 os.path.join(
                     embedding_folder, embeddings_config.get("report_text_file_name")
+                ),
+            ),
+            (
+                "summary",
+                "summary",
+                os.path.join(
+                    embedding_folder,
+                    embeddings_config.get("report_summary_file_name"),
                 ),
             ),
         ],

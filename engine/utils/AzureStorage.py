@@ -1,8 +1,11 @@
 import gc
 import math
 import os
+import shutil
+import subprocess
 import tempfile
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import List, Optional
 
@@ -11,6 +14,7 @@ import pandas as pd
 import pyarrow as pa
 import pytz
 from azure.storage.blob import BlobServiceClient
+from tenacity import retry, stop_after_attempt, wait_exponential
 from tqdm import tqdm
 
 
@@ -310,6 +314,7 @@ class EngineOutputUploader(EngineOutputManager):
         recommendation_embeddings_path_template: str,
         report_sections_embeddings_path_template: str,
         report_text_embeddings_path_template: str,
+        report_summary_embeddings_path_template,
     ):
         super().__init__(storage_account_name, storage_account_key, container_name)
 
@@ -325,6 +330,9 @@ class EngineOutputUploader(EngineOutputManager):
         )
         self.safety_issues_embeddings_path_template = (
             safety_issues_embeddings_path_template
+        )
+        self.report_summary_embeddings_path_template = (
+            report_summary_embeddings_path_template
         )
 
         self.vector_db_schema = pa.schema(
@@ -347,23 +355,115 @@ class EngineOutputUploader(EngineOutputManager):
         )
 
     def _upload_folder(self, uploaded_folder_name: str):
-        """Upload a folder to the container."""
-        items = os.walk(self.folder_to_upload)
+        """Upload a folder to the container with improved reliability and speed."""
+
         start_time = time.time()
+
+        # Check if Azure CLI is available
+        if shutil.which("az"):
+            print(
+                f"Using Azure CLI to upload folder {self.folder_to_upload} to {uploaded_folder_name}"
+            )
+            try:
+                cmd = [
+                    "az",
+                    "storage",
+                    "blob",
+                    "upload-batch",
+                    "--destination",
+                    self.container_name,
+                    "--source",
+                    self.folder_to_upload,
+                    "--destination-path",
+                    uploaded_folder_name,
+                    "--account-name",
+                    self.storage_account_name,
+                    "--account-key",
+                    self.storage_account_key,
+                    "--overwrite",
+                    "--max-connections",
+                    "10",
+                    # "--no-progress"  # Reduce output noise
+                ]
+
+                subprocess.run(cmd, capture_output=True, text=True, check=True)
+                print(
+                    f"Azure CLI upload completed in {time.time() - start_time:.2f} seconds"
+                )
+                return
+
+            except subprocess.CalledProcessError as e:
+                print(f"Azure CLI upload failed: {e.stderr}")
+                print("Falling back to Python implementation...")
+
+        # Fallback to improved Python implementation
         print(
-            f"Going to upload folder {self.folder_to_upload} to {uploaded_folder_name} which has {len(list(items))} items"
+            f"Using Python implementation to upload folder {self.folder_to_upload} to {uploaded_folder_name}"
         )
+        _, failed = self._upload_folder_python_parallel(
+            uploaded_folder_name, start_time
+        )
+
+        if failed > 0:
+            raise RuntimeError(
+                f"Upload failed with {failed} errors. Please check the logs for details."
+            )
+
+    def _upload_folder_python_parallel(
+        self, uploaded_folder_name: str, start_time: float
+    ):
+        """Parallel Python implementation with retry logic."""
+        # Collect all files to upload
+        files_to_upload = []
         for root, _, files in os.walk(self.folder_to_upload):
             for file_name in files:
                 file_path = os.path.join(root, file_name)
                 blob_name = os.path.join(
                     uploaded_folder_name,
                     os.path.relpath(file_path, self.folder_to_upload),
-                )
-                self.upload_file(file_path, blob_name)
-        print(
-            f"Uploaded folder {self.folder_to_upload} to {uploaded_folder_name}, took {time.time() - start_time:.2f} seconds"
+                ).replace(os.sep, "/")  # Ensure forward slashes for blob names
+                files_to_upload.append((file_path, blob_name))
+
+        print(f"Found {len(files_to_upload)} files to upload")
+
+        @retry(
+            stop=stop_after_attempt(3),
+            wait=wait_exponential(multiplier=1, min=4, max=10),
         )
+        def upload_single_file(file_info):
+            file_path, blob_name = file_info
+            return self.upload_file(file_path, blob_name, overwrite=True)
+
+        successful = 0
+        failed = 0
+
+        # Use ThreadPoolExecutor for parallel uploads
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            # Submit all upload tasks
+            future_to_file = {
+                executor.submit(upload_single_file, file_info): file_info
+                for file_info in files_to_upload
+            }
+
+            # Process completed uploads with progress bar
+            for future in tqdm(
+                as_completed(future_to_file),
+                total=len(files_to_upload),
+                desc="Uploading files",
+            ):
+                file_info = future_to_file[future]
+                try:
+                    future.result()
+                    successful += 1
+                except Exception as e:
+                    print(f"Failed to upload {file_info[0]}: {e}")
+                    failed += 1
+
+        duration = time.time() - start_time
+        print(
+            f"Upload completed: {successful} successful, {failed} failed in {duration:.2f} seconds"
+        )
+        return successful, failed
 
     def _clean_embedding_dataframe(self, df, type):
         """Clean and standardize embedding dataframes."""
@@ -422,6 +522,21 @@ class EngineOutputUploader(EngineOutputManager):
                     [
                         "report_id",
                         "text",
+                        "vector",
+                        "report_id",
+                        "year",
+                        "mode",
+                        "agency",
+                        "type",
+                        "agency_id",
+                        "url",
+                    ]
+                ].assign(document_type=type)
+            case "summary":
+                return df.rename(columns={"summary_embedding": "vector"})[
+                    [
+                        "report_id",
+                        "summary",
                         "vector",
                         "report_id",
                         "year",
@@ -508,10 +623,11 @@ class EngineOutputUploader(EngineOutputManager):
             ("recommendation", self.recommendation_embeddings_path_template),
             ("report_section", self.report_sections_embeddings_path_template),
             ("safety_issue", self.safety_issues_embeddings_path_template),
+            ("summary", self.report_summary_embeddings_path_template),
         ]:
             embedding_file_chunks = [
                 file_num
-                for file_num in range(1, 1000)
+                for file_num in range(0, 1000)
                 if os.path.exists(path_template.replace("{{num}}", str(file_num)))
             ]
             print(
