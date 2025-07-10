@@ -294,7 +294,7 @@ def analyze(output_dir, config, refresh):
                 "summary",
                 os.path.join(
                     embedding_folder,
-                    embeddings_config.get("report_summaries_file_name"),
+                    embeddings_config.get("report_summary_file_name"),
                 ),
             ),
         ],

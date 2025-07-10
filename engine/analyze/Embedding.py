@@ -319,7 +319,7 @@ class Embedder:
                     )
                 ]
             )
-            if current_output_file_num == 0:
+            if current_output_file_num == 1:
                 current_output_file = None
             else:
                 current_output_file = pd.read_pickle(
