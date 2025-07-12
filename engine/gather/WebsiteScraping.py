@@ -90,7 +90,7 @@ class ReportScraperSettings:
         self.refresh = refresh
         self.modes = modes
         self.ignored_report_ids = ignored_report_ids
-        self.refresh_metadata = refresh_metadata
+        self.ignore_metadata = refresh_metadata
         self.scraper_workers = scraper_workers
         self.pdf_storage_manager = pdf_storage_manager
 
@@ -287,24 +287,19 @@ class ReportScraper(WebsiteScraper, ABC):
         }
 
     def collect_report(self, report_id, url, agency_id=None):
-        delay = random.uniform(0.5, 2.0)
-        time.sleep(delay)
-        if not self.settings.refresh and (
-            self.settings.pdf_storage_manager.pdf_exists(report_id)
-            or self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
+        if (
+            not self.settings.ignore_metadata
+            and self.report_titles_df.query(f"report_id == '{report_id}'").shape[0] > 0
         ):
-            if (
-                not self.settings.refresh_metadata
-                and not self.report_titles_df.query(f"report_id == '{report_id}'").empty
-            ):
-                return True
+            return True
 
         try:
-            webpage = hrequests.get(url, headers=self.headers, timeout=30)
+            webpage = hrequests.get(url, headers=self.headers, timeout=5)
         except hrequests.exceptions.ClientException as e:
             print(f"  Timed out while trying to collect {url}, {e}, Retrying...")
             try:
-                webpage = hrequests.get(url, headers=self.headers, timeout=30)
+                time.sleep(random.uniform(0.5, 2.0))
+                webpage = hrequests.get(url, headers=self.headers, timeout=5)
             except hrequests.exceptions.ClientException as e:
                 print(f"{e}")
                 return False
@@ -327,7 +322,11 @@ class ReportScraper(WebsiteScraper, ABC):
         # Download to cloud storage instead of local file
         outcome = self.download_report(report_id, soup, base_url, agency_id)
 
-        if self.report_titles_df.query("report_id == @report_id").empty:
+        if (
+            self.report_titles_df.query("report_id == @report_id").empty
+            or self.settings.ignore_metadata
+            or self.settings.refresh
+        ):
             self.__add_report_metadata_to_df(
                 self.get_report_metadata(report_id, url, soup)
             )

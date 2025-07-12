@@ -313,13 +313,13 @@ class Embedder:
             current_output_file_num = len(
                 [
                     file_num
-                    for file_num in range(1, 1000)
+                    for file_num in range(0, 1000)
                     if os.path.exists(
                         output_file_path_template.replace("{{num}}", str(file_num))
                     )
                 ]
             )
-            if current_output_file_num == 1:
+            if current_output_file_num == 0:
                 current_output_file = None
             else:
                 current_output_file = pd.read_pickle(
