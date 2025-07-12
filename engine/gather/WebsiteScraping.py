@@ -1017,7 +1017,7 @@ class TSBReportScraper(ReportScraper):
             agency_id = agency_id.strip().split(" ")[-1]
 
         return ReportMetadata(
-            report_url=url,
+            url=url,
             report_id=report_id,
             title=all_text,
             event_type=event_type,

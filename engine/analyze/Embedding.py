@@ -290,10 +290,13 @@ class Embedder:
                 ~dataframe_to_embed["report_id"].str.contains("nmatched")
             ]
 
-            # Drop columns that are none
+            # Drop columns that are none or are empty strings
             dataframe_to_embed = dataframe_to_embed.dropna(
                 subset=[document_column_name]
             )
+            dataframe_to_embed = dataframe_to_embed[
+                dataframe_to_embed[document_column_name].str.strip() != ""
+            ]
 
             document_indexes = output_file_path_template.replace("{{num}}", "indexes")
 
