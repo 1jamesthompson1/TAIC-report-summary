@@ -1,5 +1,3 @@
-import gc
-import math
 import os
 import shutil
 import subprocess
@@ -9,9 +7,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import List, Optional
 
-import lancedb
-import pandas as pd
-import pyarrow as pa
 import pytz
 from azure.storage.blob import BlobServiceClient
 from tenacity import retry, stop_after_attempt, wait_exponential
@@ -125,7 +120,7 @@ class AzureStorageBase:
         except Exception:
             return None
 
-    def list_blobs(self, name_starts_with: str = None) -> List[str]:
+    def list_blobs(self, name_starts_with: Optional[str] = None) -> List[str]:
         """
         List all blob names in the container.
 
@@ -300,7 +295,7 @@ class EngineOutputManager(AzureStorageBase):
 
 class EngineOutputUploader(EngineOutputManager):
     """
-    Handles uploading engine outputs including files and vector database embeddings.
+    Handles uploading engine outputs.
     """
 
     def __init__(
@@ -309,50 +304,10 @@ class EngineOutputUploader(EngineOutputManager):
         storage_account_key: str,
         container_name: str,
         folder_to_upload: str,
-        viewer_db_uri: str,
-        safety_issues_embeddings_path_template: str,
-        recommendation_embeddings_path_template: str,
-        report_sections_embeddings_path_template: str,
-        report_text_embeddings_path_template: str,
-        report_summary_embeddings_path_template,
     ):
         super().__init__(storage_account_name, storage_account_key, container_name)
 
         self.folder_to_upload = folder_to_upload
-        self.db = lancedb.connect(viewer_db_uri)
-
-        self.report_text_embeddings_path_template = report_text_embeddings_path_template
-        self.recommendation_embeddings_path_template = (
-            recommendation_embeddings_path_template
-        )
-        self.report_sections_embeddings_path_template = (
-            report_sections_embeddings_path_template
-        )
-        self.safety_issues_embeddings_path_template = (
-            safety_issues_embeddings_path_template
-        )
-        self.report_summary_embeddings_path_template = (
-            report_summary_embeddings_path_template
-        )
-
-        self.vector_db_schema = pa.schema(
-            [
-                ("document_id", pa.string()),
-                ("document", pa.string()),
-                (
-                    "vector",
-                    pa.list_(pa.float64(), list_size=1024),
-                ),
-                ("report_id", pa.string()),
-                ("year", pa.int64()),
-                ("mode", pa.string()),
-                ("agency", pa.string()),
-                ("type", pa.string()),
-                ("agency_id", pa.string()),
-                ("url", pa.string()),
-                ("document_type", pa.string()),
-            ]
-        )
 
     def _upload_folder(self, uploaded_folder_name: str):
         """Upload a folder to the container with improved reliability and speed."""
@@ -465,205 +420,8 @@ class EngineOutputUploader(EngineOutputManager):
         )
         return successful, failed
 
-    def _clean_embedding_dataframe(self, df, type):
-        """Clean and standardize embedding dataframes."""
-        match type:
-            case "safety_issue":
-                return (
-                    df.rename(columns={"safety_issue_embedding": "vector"})
-                    .drop(columns=["safety_issue_embedding_token_length"])[
-                        [
-                            "safety_issue_id",
-                            "safety_issue",
-                            "vector",
-                            "report_id",
-                            "year",
-                            "mode",
-                            "agency",
-                            "type",
-                            "agency_id",
-                            "url",
-                        ]
-                    ]
-                    .assign(document_type=type)
-                )
-            case "recommendation":
-                return df.rename(columns={"recommendation_embedding": "vector"})[
-                    [
-                        "recommendation_id",
-                        "recommendation",
-                        "vector",
-                        "report_id",
-                        "year",
-                        "mode",
-                        "agency",
-                        "type",
-                        "agency_id",
-                        "url",
-                    ]
-                ].assign(document_type=type)
-            case "report_section":
-                return df.rename(columns={"section_embedding": "vector"})[
-                    [
-                        "section",
-                        "section_text",
-                        "vector",
-                        "report_id",
-                        "year",
-                        "mode",
-                        "agency",
-                        "type",
-                        "agency_id",
-                        "url",
-                    ]
-                ].assign(document_type=type)
-            case "report_text":
-                return df.rename(columns={"text_embedding": "vector"})[
-                    [
-                        "report_id",
-                        "text",
-                        "vector",
-                        "report_id",
-                        "year",
-                        "mode",
-                        "agency",
-                        "type",
-                        "agency_id",
-                        "url",
-                    ]
-                ].assign(document_type=type)
-            case "summary":
-                return df.rename(columns={"summary_embedding": "vector"})[
-                    [
-                        "report_id",
-                        "summary",
-                        "vector",
-                        "report_id",
-                        "year",
-                        "mode",
-                        "agency",
-                        "type",
-                        "agency_id",
-                        "url",
-                    ]
-                ].assign(document_type=type)
-
-    def _upload_embedding_df(self, df, table, sample_frac):
-        """Upload a dataframe to the vector database."""
-        df = df.set_axis(
-            [
-                "document_id",
-                "document",
-                "vector",
-                "report_id",
-                "year",
-                "mode",
-                "agency",
-                "type",
-                "agency_id",
-                "url",
-                "document_type",
-            ],
-            axis=1,
-        )
-
-        df["document_id"] = df.apply(
-            lambda row: row["document_id"]
-            if (
-                isinstance(row["document_id"], str)
-                and row["document_id"].startswith(row["agency"])
-            )
-            else f"{row['agency']}_{row['document_id']}",
-            axis=1,
-        )
-
-        # Converting to pyarrow first as it was having troubles giving a large pd.DataFrame directly
-        pyarrow_table = pa.Table.from_pandas(
-            df
-            if sample_frac == 1
-            else df.sample(frac=sample_frac, random_state=42, ignore_index=True),
-            schema=self.vector_db_schema,
-        )
-
-        print(f"prepared pyarrow table size {pyarrow_table.nbytes/1024/1024:.2f} MB")
-
-        # split the pyarrow table into chunks to uploaded separately
-        average_row_size = pyarrow_table.nbytes / pyarrow_table.num_rows
-        number_of_bytes_per_batch = 100_000_000  # 100 MB
-        number_of_rows_per_batch = number_of_bytes_per_batch / average_row_size
-        number_of_batches = math.ceil(pyarrow_table.num_rows / number_of_rows_per_batch)
-
-        chunks = []
-        for i in range(number_of_batches):
-            start = i * number_of_rows_per_batch
-            end = min(start + number_of_rows_per_batch, pyarrow_table.num_rows)
-            chunk = pyarrow_table.slice(start, end - start)
-            chunks.append(chunk)
-
-        print(f"created {len(chunks)} chunks")
-
-        for chunk in tqdm(chunks):
-            table.add(chunk, mode="append")
-
-        del pyarrow_table, chunks, df
-
-    def _upload_embeddings(self, sample_frac=1):
-        """Upload all embedding files to the vector database."""
-        print(f"Uploading embeddings with sample_frac={sample_frac}")
-        start_time = time.time()
-        table = self.db.create_table(
-            "all_document_types",
-            data=None,
-            schema=self.vector_db_schema,
-            mode="overwrite",
-        )
-
-        for type, path_template in [
-            ("report_text", self.report_text_embeddings_path_template),
-            ("recommendation", self.recommendation_embeddings_path_template),
-            ("report_section", self.report_sections_embeddings_path_template),
-            ("safety_issue", self.safety_issues_embeddings_path_template),
-            ("summary", self.report_summary_embeddings_path_template),
-        ]:
-            embedding_file_chunks = [
-                file_num
-                for file_num in range(0, 1000)
-                if os.path.exists(path_template.replace("{{num}}", str(file_num)))
-            ]
-            print(
-                f"Uploading {type} embeddings, split into {len(embedding_file_chunks)} files"
-            )
-            df_start = time.time()
-
-            for file_num in embedding_file_chunks:
-                file_path = path_template.replace("{{num}}", str(file_num))
-                df = pd.read_pickle(file_path)
-                df = self._clean_embedding_dataframe(df, type)
-                self._upload_embedding_df(df, table, sample_frac)
-                del df
-                gc.collect()
-
-            print(f"Uploaded {type} embeddings in {time.time() - df_start:.2f}s")
-
-        print("created vector db")
-        table.cleanup_old_versions()
-        print("cleaned up vector db")
-
-        table.create_fts_index(
-            "document",
-            use_tantivy=False,
-            language="English",
-            stem=True,
-            ascii_folding=True,
-            replace=True,
-        )
-        print("created fts index")
-
-        duration = time.time() - start_time
-        print(f"Uploaded embeddings in {duration:.2f}s")
-
     def upload_latest_output(self):
-        """Upload the latest output folder and embeddings."""
+        """Upload the latest output folder."""
         print(f"=== Uploading latest output from {self.folder_to_upload} ===\n")
         output_date_str = datetime.now(pytz.timezone("Pacific/Auckland")).strftime(
             self.output_date_format
@@ -671,7 +429,6 @@ class EngineOutputUploader(EngineOutputManager):
         print(f"   Destination: {output_date_str}\n{'=' * 80}")
 
         self._upload_folder(output_date_str)
-        self._upload_embeddings()
 
 
 class EngineOutputDownloader(EngineOutputManager):
