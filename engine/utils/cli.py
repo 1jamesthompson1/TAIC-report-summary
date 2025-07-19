@@ -252,50 +252,32 @@ def analyze(output_dir, config, refresh):
         ),
     )
 
-    # Generate embeddings
-
-    embeddings_config = output_config.get("embeddings")
-    embedding_folder = os.path.join(output_dir, embeddings_config.get("folder_name"))
-    if not os.path.exists(embedding_folder):
-        os.makedirs(embedding_folder)
-    Embedding.Embedder().process_extracted_reports(
+    vectordb = Embedding.VectorDB(
+        os.path.join(output_dir, output_config.get("vector_db_document_ids_file_name")),
+        os.environ["db_URI"],
+    )
+    vectordb.process_extracted_reports(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name")),
         [
             (
                 "safety_issues",
                 "safety_issue",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("safety_issues_file_name")
-                ),
             ),
             (
                 "recommendations",
                 "recommendation",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("recommendations_file_name")
-                ),
             ),
             (
                 "sections",
                 "section",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("report_sections_file_name")
-                ),
             ),
             (
                 "text",
                 "text",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("report_text_file_name")
-                ),
             ),
             (
                 "summary",
                 "summary",
-                os.path.join(
-                    embedding_folder,
-                    embeddings_config.get("report_summary_file_name"),
-                ),
             ),
         ],
     )

@@ -1,5 +1,6 @@
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import timedelta
 from typing import ClassVar, List, Union
 
 import lancedb
@@ -40,6 +41,15 @@ class AzureAIEmbeddingFunction(TextEmbeddingFunction):
     _ndims: int
     client: ClassVar = None
 
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self._ndims = kwargs.get("_ndims")
+        if self._ndims is None:
+            raise ValueError(
+                "AzureAIEmbeddingFunction requires _ndims to be set. "
+                "Please provide the number of dimensions for the embeddings."
+            )
+
     def ndims(self):
         return self._ndims
 
@@ -77,7 +87,7 @@ class AzureAIEmbeddingFunction(TextEmbeddingFunction):
             texts = texts.tolist()
 
         # batch process so that no more than 96 texts are sent at once.
-        batch_size = 96
+        batch_size = 96  # Some hard coded number in the API I believe
         embeddings = []
         for i in range(0, len(texts), batch_size):
             rs = AzureAIEmbeddingFunction.client.embed(
@@ -109,8 +119,8 @@ class VectorDB:
 
     def __init__(
         self,
-        local_embedded_ids_path,
-        db_uri: str = "~/.lancedb",
+        local_embedded_ids_path: str,
+        db_uri: str,
         model_name: str = "embed-v-4-0",
         embedded_length: int = 1536,
         context_limit: int = 128_000,
@@ -143,9 +153,18 @@ class VectorDB:
         self.VectorDBSchema = VectorDBSchema
 
         # using Cohere tokenizer for tokenization as a proxy to give me a rough guage.
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            "Cohere/Cohere-embed-english-v3.0"
-        )
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                "Cohere/Cohere-embed-english-v3.0",
+            )
+        except Exception:
+            print("Could not download the tokenizer. Will try again")
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                "Cohere/Cohere-embed-english-v3.0",
+                force_download=True,
+            )
+
+        self.table = self._get_or_create_table()
 
     def _get_or_create_table(self):
         """Get existing table or create new one."""
@@ -228,46 +247,48 @@ class VectorDB:
             f"Dropping documents with more than {self.model_context_limit*2} tokens which is {len(to_drop) - sum(to_drop)} documents"
         )
 
-        # Split documents into batches so that each batch is no bigger than 5 times the size of the context window.
-        batches = []
-        for batch_size in reversed(range(1, 100)):
-            batches = [
-                df.iloc[i : i + batch_size] for i in range(0, len(df), batch_size)
-            ]
+        num_batches = os.cpu_count() or 1
 
-            # Check if any batch size is too big
-            if (
-                all(
-                    [
-                        batch[token_length_column_name].sum()
-                        < (self.model_context_limit * 0.95)
-                        for batch in batches
-                    ]
-                )
-                and len(batches) > 1
-            ):
-                batches = [
-                    batch.drop(token_length_column_name, axis=1) for batch in batches
-                ]
-                break
+        # Split the dataframe into batches based on token length
+        df_sorted = df.sort_values(
+            token_length_column_name, ascending=False
+        ).reset_index(drop=True)
 
-        batch_size = len(batches[0])
+        batches = [[] for _ in range(num_batches)]
+        batch_token_counts = [0] * num_batches
+
+        for idx, row in df_sorted.iterrows():
+            min_batch_idx = min(range(num_batches), key=lambda i: batch_token_counts[i])
+
+            batches[min_batch_idx].append(idx)
+            batch_token_counts[min_batch_idx] += row[token_length_column_name]
+
+        # Convert to DataFrames and drop token length column
+        batches = [
+            df_sorted.iloc[batch_indices].drop(token_length_column_name, axis=1)
+            for batch_indices in batches
+        ]
+
+        for i, (batch, token_count) in enumerate(zip(batches, batch_token_counts)):
+            print(f"Batch {i}: {len(batch)} documents, {token_count} tokens")
 
         def add_documents_to_db(batch: pd.DataFrame):
             pa_table = pa.Table.from_pandas(
-                batch, schema=pa.schema(self._get_or_create_table().schema[1:])
+                batch,
+                schema=pa.schema(
+                    [field for field in self.table.schema if field.name != "vector"]
+                ),
             )
 
             results = (
-                self._get_or_create_table()
-                .merge_insert(on=["document_id"])
+                self.table.merge_insert(on=["document_id"])
                 .when_not_matched_insert_all()
                 .execute(pa_table)
             )
 
             return results
 
-        with ThreadPoolExecutor(max_workers=3) as executor:
+        with ThreadPoolExecutor(max_workers=num_batches) as executor:
             futures = {
                 executor.submit(add_documents_to_db, batch): i
                 for i, batch in enumerate(batches)
@@ -282,7 +303,7 @@ class VectorDB:
                         f"Warning: Batch {batch_index} inserted {merge_result.num_inserted_rows} rows, expected {batches[batch_index].shape[0]} rows."
                     )
 
-        return df
+        return df["document_id"]
 
     def clean_dataframes(
         self, dataframe_to_embed, dataframe_column_name, document_column_name
@@ -305,7 +326,7 @@ class VectorDB:
                     columns={"section_text": "document"}
                 )
                 dataframe_to_embed["document_id"] = dataframe_to_embed.apply(
-                    lambda row: f"{row['section_id']}_{"sec"}_{row['report_id']}",
+                    lambda row: f"{row['section']}_{"sec"}_{row['report_id']}",
                     axis=1,
                 )
                 dataframe_to_embed["document_type"] = "section"
@@ -333,13 +354,8 @@ class VectorDB:
                 )
 
         dataframe_to_embed = dataframe_to_embed[
-            self.VectorDBSchema.model_fields.keys()[1:]
+            list(self.VectorDBSchema.model_fields.keys())[1:]
         ]
-
-        dataframe_to_embed["agency_id"] = dataframe_to_embed["agency_id"].astype(str)
-        dataframe_to_embed["mode"] = dataframe_to_embed["mode"].astype(int)
-        dataframe_to_embed["type"] = dataframe_to_embed["type"].astype(str)
-
         # Drop unmatched
         # Drop unmatched documents and track count
         unmatched_count = dataframe_to_embed["report_id"].str.contains("nmatched").sum()
@@ -358,6 +374,19 @@ class VectorDB:
 
         print(f"Dropped {empty_document_count} documents with empty/null content")
 
+        if dataframe_to_embed.isna().any(axis=1).any():
+            missing_values = dataframe_to_embed[
+                dataframe_to_embed.isna().any(axis=1)
+            ].drop(labels="document", axis=1)
+            print(
+                f"====WARNING====\nDataframe {dataframe_column_name} has {missing_values.shape[0]} missing values. No missing values should be  present at this point. They will be ignored but they should be checked on. Rows with missing values are:\n{missing_values.to_dict(orient="records")}\n{'=' * 50}"
+            )
+            dataframe_to_embed = dataframe_to_embed.dropna()
+
+        dataframe_to_embed["agency_id"] = dataframe_to_embed["agency_id"].astype(str)
+        dataframe_to_embed["mode"] = dataframe_to_embed["mode"].astype(int)
+        dataframe_to_embed["type"] = dataframe_to_embed["type"].astype(str)
+
         return dataframe_to_embed
 
     def process_extracted_reports(self, extracted_df_path, embeddings_config):
@@ -372,12 +401,10 @@ class VectorDB:
 
         extracted_df = pd.read_pickle(extracted_df_path)
 
-        for dataframe_column_name, document_column_name, output_file_path_template in (
+        for dataframe_column_name, document_column_name in (
             pbar := tqdm(embeddings_config)
         ):
-            pbar.set_description(
-                f"Embedding {dataframe_column_name} into {output_file_path_template}"
-            )
+            pbar.set_description(f"Embedding {dataframe_column_name}")
             dataframe_to_embed = None
             if isinstance(
                 extracted_df[dataframe_column_name].dropna().iloc[0], pd.DataFrame
@@ -426,7 +453,7 @@ class VectorDB:
             if os.path.exists(self.local_embedded_ids_path):
                 local_embedded_ids = pd.read_pickle(self.local_embedded_ids_path)
                 cleaned_df = cleaned_df[
-                    ~cleaned_df["document_id"].isin(local_embedded_ids["document_id"])
+                    ~cleaned_df["document_id"].isin(local_embedded_ids)
                 ]
                 print(
                     f"Filtered out {len(local_embedded_ids)} already embedded documents"
@@ -434,13 +461,28 @@ class VectorDB:
             else:
                 local_embedded_ids = pd.Series(dtype=str)
 
-            added_document_ids = self.add_documents(
-                dataframe_to_embed,
-            )
+            if cleaned_df.empty:
+                print(
+                    f"No new documents to embed for {dataframe_column_name}. Skipping."
+                )
+                continue
 
-            pd.concat(
-                [local_embedded_ids, added_document_ids],
-            ).to_pickle(self.local_embedded_ids_path)
+            current_table_version = self.table.version
+            try:
+                added_document_ids = self.add_documents(
+                    cleaned_df,
+                )
+                pd.concat(
+                    [local_embedded_ids, added_document_ids],
+                ).to_pickle(self.local_embedded_ids_path)
 
-            self._get_or_create_table().optimize()
-            self._get_or_create_table().cleanup_old_versions()
+            except Exception as e:
+                print(
+                    f"Error during adding of documents: {e}, going to restore previous state of the table"
+                )
+
+                self.table = self.table.restore(current_table_version)
+
+                raise e
+
+            self.table.optimize(cleanup_older_than=timedelta(days=14))
