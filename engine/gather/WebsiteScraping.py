@@ -1117,9 +1117,7 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
                     axis=1,
                 )
 
-                table["safety_issue_id"] = table["Issue number"].map(
-                    lambda number: f"ATSB_{number}"
-                )
+                table["safety_issue_id"] = table["Issue number"].astype(str)
 
                 new_safety_issues = table[
                     ~table["safety_issue_id"].isin(
@@ -1143,14 +1141,12 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
             subset=["safety_issue_id"]
         )
 
-        widened_safety_issues_df["report_id"] = (
-            widened_safety_issues_df["safety_issue_id"]
-            .map(lambda x: "-".join(x.split("_")[1].split("-")[0:3]))
-            .map(
-                lambda x: self.id_converter("ATSB", x)
-                if self.id_converter("ATSB", x)
-                else f"Unmatched ({x})"
-            )
+        widened_safety_issues_df["report_id"] = widened_safety_issues_df[
+            "safety_issue_id"
+        ].map(
+            lambda x: self.id_converter("ATSB", x)
+            if self.id_converter("ATSB", x)
+            else f"Unmatched ({x})"
         )
         widened_safety_issues_df["quality"] = "exact"
         widened_safety_issues_df = widened_safety_issues_df[

@@ -381,9 +381,10 @@ Example responses:
                 # ):
                 #     continue
             case "TSB":
-                if self.investigation_type == "unknown" and (
-                    important_text_len < 40_000 and isinstance(pages_read, str)
-                ):
+                if (
+                    self.investigation_type == "unknown"
+                    and (important_text_len < 40_000 and isinstance(pages_read, str))
+                ):  # Trying to remove unknown investigation type which might be small ones or ones with foreign influence.
                     return None, important_text, pages_read
             case "TAIC":
                 pass  # All TAIC reports should be extracted from
@@ -1160,7 +1161,7 @@ class ReportExtractingProcessor:
                 columns=["safety_issue_id", "safety_issue", "quality"],
             )
             safety_issues_df["safety_issue_id"] = [
-                report_id + "_" + str(i) for i in safety_issues_df.index
+                str(i) for i in safety_issues_df.index
             ]
 
             new_safety_issues.append(
