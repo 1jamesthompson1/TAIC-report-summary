@@ -28,8 +28,10 @@ jobs:
       - name: Run tests and collect coverage
         run: pytest --cov=. --cov-report=xml
         env:
+          TEST_VECTORDB_URI: ${{ secrets.TEST_VECTORDB_URI }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+          AZURE_AI_ENDPOINT: ${{ secrets.AZURE_AI_ENDPOINT }}
+          AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
           AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}

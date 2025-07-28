@@ -272,10 +272,6 @@ def analyze(output_dir, config, refresh):
                 "section",
             ),
             (
-                "text",
-                "text",
-            ),
-            (
                 "summary",
                 "summary",
             ),

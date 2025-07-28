@@ -17,6 +17,8 @@ from lancedb.pydantic import LanceModel, Vector
 from tqdm import tqdm
 from transformers import AutoTokenizer
 
+from engine.utils import Modes
+
 
 @register("AzureAI")
 class AzureAIEmbeddingFunction(TextEmbeddingFunction):
@@ -43,12 +45,14 @@ class AzureAIEmbeddingFunction(TextEmbeddingFunction):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self._ndims = kwargs.get("_ndims")
-        if self._ndims is None:
-            raise ValueError(
-                "AzureAIEmbeddingFunction requires _ndims to be set. "
-                "Please provide the number of dimensions for the embeddings."
-            )
+        match kwargs.get("name"):
+            case "embed-v-4-0":
+                self._ndims = 1536
+            case _:
+                raise ValueError(
+                    f"Unsupported model name: {kwargs.get('name')}. "
+                    "Please use 'embed-v-4-0' or specify the number of dimensions."
+                )
 
     def ndims(self):
         return self._ndims
@@ -134,7 +138,7 @@ class VectorDB:
         azure_embeddings = (
             EmbeddingFunctionRegistry.get_instance()
             .get("AzureAI")
-            .create(name=model_name, _ndims=embedded_length)
+            .create(name=model_name, ndims=embedded_length)
         )
 
         class VectorDBSchema(LanceModel):
@@ -143,7 +147,7 @@ class VectorDB:
             document_id: str
             report_id: str
             year: int
-            mode: int
+            mode: str
             agency: str
             type: str
             agency_id: str
@@ -244,7 +248,7 @@ class VectorDB:
         df = df.loc[to_drop]
 
         print(
-            f"Dropping documents with more than {self.model_context_limit*2} tokens which is {len(to_drop) - sum(to_drop)} documents"
+            f"Dropping documents with more than {self.model_context_limit * 2} tokens which is {len(to_drop) - sum(to_drop)} documents"
         )
 
         num_batches = os.cpu_count() or 1
@@ -280,11 +284,7 @@ class VectorDB:
                 ),
             )
 
-            results = (
-                self.table.merge_insert(on=["document_id"])
-                .when_not_matched_insert_all()
-                .execute(pa_table)
-            )
+            results = self.table.add(pa_table, mode="append")
 
             return results
 
@@ -295,13 +295,13 @@ class VectorDB:
             }
 
             for future in tqdm(as_completed(futures), total=len(futures)):
-                merge_result = future.result()
-                batch_index = futures[future]
+                future.result()
 
-                if merge_result.num_inserted_rows != batches[batch_index].shape[0]:
-                    raise RuntimeError(
-                        f"Warning: Batch {batch_index} inserted {merge_result.num_inserted_rows} rows, expected {batches[batch_index].shape[0]} rows."
-                    )
+                # As I we are not using merge_insert there is no way of knowing what rows were inserted. Instead we simply add all the documents even if it creates duplicates.
+                # if merge_result.num_inserted_rows != batches[batch_index].shape[0]:
+                #     raise RuntimeError(
+                #         f"Warning: Batch {batch_index} inserted {merge_result.num_inserted_rows} rows, expected {batches[batch_index].shape[0]} rows."
+                #     )
 
         return df["document_id"]
 
@@ -317,7 +317,7 @@ class VectorDB:
                     columns={"recommendation": "document"}
                 )
                 dataframe_to_embed["document_id"] = dataframe_to_embed.apply(
-                    lambda row: f"{row['recommendation_id']}_{"rec"}_{row['report_id']}",
+                    lambda row: f"{row['recommendation_id']}_{'rec'}_{row['report_id']}",
                     axis=1,
                 )
                 dataframe_to_embed["document_type"] = "recommendation"
@@ -326,7 +326,7 @@ class VectorDB:
                     columns={"section_text": "document"}
                 )
                 dataframe_to_embed["document_id"] = dataframe_to_embed.apply(
-                    lambda row: f"{row['section']}_{"sec"}_{row['report_id']}",
+                    lambda row: f"{row['section']}_{'sec'}_{row['report_id']}",
                     axis=1,
                 )
                 dataframe_to_embed["document_type"] = "section"
@@ -335,7 +335,7 @@ class VectorDB:
                     columns={"safety_issue": "document"}
                 )
                 dataframe_to_embed["document_id"] = dataframe_to_embed.apply(
-                    lambda row: f"{row['safety_issue_id']}_{"si"}_{row['report_id']}",
+                    lambda row: f"{row['safety_issue_id']}_{'si'}_{row['report_id']}",
                     axis=1,
                 )
                 dataframe_to_embed["document_type"] = "safety_issue"
@@ -346,7 +346,7 @@ class VectorDB:
                 dataframe_to_embed["document_type"] = dataframe_column_name
 
                 dataframe_to_embed["document_id"] = dataframe_to_embed.apply(
-                    lambda row: f"{"sum"}_{row['report_id']}", axis=1
+                    lambda row: f"sum_{row['report_id']}", axis=1
                 )
             case _:
                 raise ValueError(
@@ -378,13 +378,28 @@ class VectorDB:
             missing_values = dataframe_to_embed[
                 dataframe_to_embed.isna().any(axis=1)
             ].drop(labels="document", axis=1)
+            if missing_values.shape[0] > 200:
+                missing_values = missing_values.sample(n=200)
             print(
-                f"====WARNING====\nDataframe {dataframe_column_name} has {missing_values.shape[0]} missing values. No missing values should be  present at this point. They will be ignored but they should be checked on. Rows with missing values are:\n{missing_values.to_dict(orient="records")}\n{'=' * 50}"
+                f"====WARNING====\nDataframe {dataframe_column_name} has {missing_values.shape[0]} missing values. No missing values should be  present at this point. They will be ignored but they should be checked on. Rows with missing values are:\n{missing_values.to_csv()}\n{'=' * 50}\n"
             )
             dataframe_to_embed = dataframe_to_embed.dropna()
 
+        if dataframe_to_embed.duplicated(keep=False).any():
+            duplicated_rows = dataframe_to_embed[
+                dataframe_to_embed.duplicated(keep=False)
+            ].drop(labels="document", axis=1)
+            print(
+                f"====WARNING====\nDataframe {dataframe_column_name} has {duplicated_rows.shape[0]} duplicated rows. Duplicated rows will be ignored but they should be checked on. Rows with duplicates are:\n{duplicated_rows.to_csv()}\n{'=' * 50}"
+            )
+            dataframe_to_embed = dataframe_to_embed.drop_duplicates()
+
         dataframe_to_embed["agency_id"] = dataframe_to_embed["agency_id"].astype(str)
-        dataframe_to_embed["mode"] = dataframe_to_embed["mode"].astype(int)
+        dataframe_to_embed["mode"] = (
+            dataframe_to_embed["mode"]
+            .map(lambda x: Modes.Mode[x].value if x in Modes.Mode.__members__ else None)
+            .astype(str)
+        )
         dataframe_to_embed["type"] = dataframe_to_embed["type"].astype(str)
 
         return dataframe_to_embed
@@ -440,7 +455,7 @@ class VectorDB:
                 dataframe_to_embed = extracted_df[
                     [
                         dataframe_column_name,
-                        *list(self.VectorDBSchema.model_fields.keys())[2:],
+                        *list(self.VectorDBSchema.model_fields.keys())[3:-1],
                     ]
                 ].dropna()
 
@@ -452,11 +467,10 @@ class VectorDB:
 
             if os.path.exists(self.local_embedded_ids_path):
                 local_embedded_ids = pd.read_pickle(self.local_embedded_ids_path)
-                cleaned_df = cleaned_df[
-                    ~cleaned_df["document_id"].isin(local_embedded_ids)
-                ]
+                already_completed = cleaned_df["document_id"].isin(local_embedded_ids)
+                cleaned_df = cleaned_df[~already_completed]
                 print(
-                    f"Filtered out {len(local_embedded_ids)} already embedded documents"
+                    f"Filtered out {sum(already_completed)} already embedded documents"
                 )
             else:
                 local_embedded_ids = pd.Series(dtype=str)
@@ -472,9 +486,15 @@ class VectorDB:
                 added_document_ids = self.add_documents(
                     cleaned_df,
                 )
+                print(
+                    f"Added {len(added_document_ids)} documents to the database for {dataframe_column_name}"
+                )
                 pd.concat(
                     [local_embedded_ids, added_document_ids],
                 ).to_pickle(self.local_embedded_ids_path)
+                print(
+                    f"Saved updated local embedded IDs to {self.local_embedded_ids_path}"
+                )
 
             except Exception as e:
                 print(
@@ -485,4 +505,6 @@ class VectorDB:
 
                 raise e
 
-            self.table.optimize(cleanup_older_than=timedelta(days=14))
+        print("Finished embedding all reports.")
+        self.table.optimize(cleanup_older_than=timedelta(days=14))
+        print("Optimized the table and cleaned up older entries.")
