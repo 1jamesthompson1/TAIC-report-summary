@@ -55,6 +55,9 @@ class ReportTypeAssigner:
             on=["report_id", "title"],
             how="outer",
         )
+        # Remove duplicates based on report_id and title
+        # TODO: Have a more robust way of handling duplicates something that uses the title from the report_titles_df
+        merged_df = merged_df.drop_duplicates(subset=["report_id"])
 
         unassigned_df = merged_df[merged_df["type"].isna()]
         assigned_df = merged_df[~merged_df["type"].isna()]
