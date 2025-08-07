@@ -14,7 +14,7 @@ def load_test_config():
 
     pytest.output_config = config["engine"]["output"]
 
-    dotenv.load_dotenv()
+    dotenv.load_dotenv(override=True)
 
 
 @pytest.fixture(scope="function")
