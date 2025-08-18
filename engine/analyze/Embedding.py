@@ -277,6 +277,12 @@ class VectorDB:
             f"Dropping documents with more than {self.model_context_limit * 2} tokens which is {len(to_drop) - sum(to_drop)} documents"
         )
 
+        # Truncate all documents to just below the context limit
+        df[document_column_name] = df.apply(
+            lambda x: x[document_column_name][: self.model_context_limit - 50],
+            axis=1,
+        )
+
         num_batches = min(os.cpu_count() or 1, len(df))
 
         # Split the dataframe into batches based on token length
