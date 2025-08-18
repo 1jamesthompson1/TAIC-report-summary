@@ -46,6 +46,7 @@ dependencies = [
     "pytest>=7.4.3",
     "pytest-xdist>=3.5.0",
     "azure-storage-blob>=12.26.0",
+    "pytest-cov>=6.2.1",
 ]
 
 [project.optional-dependencies]
