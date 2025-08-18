@@ -45,6 +45,7 @@ dependencies = [
     "pylance>=0.31.1",
     "pytest>=7.4.3",
     "pytest-xdist>=3.5.0",
+    "azure-storage-blob>=12.26.0",
 ]
 
 [project.optional-dependencies]
