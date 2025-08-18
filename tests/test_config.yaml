@@ -25,13 +25,6 @@ engine:
     taic_website_recommendations_file_name: "taic_website_recommendations.pkl"
     atsb_website_reports_table_file_name: "atsb_website_reports_table.pkl"
     taic_website_reports_table_file_name: "taic_website_reports_table.pkl"
-    embeddings:
-      folder_name: "embeddings"
-      safety_issues_file_name: "safety_issues_embeddings_{{num}}.pkl"
-      recommendations_file_name: "recommendations_embeddings_{{num}}.pkl"
-      report_sections_file_name: "report_sections_embeddings_{{num}}.pkl"
-      report_text_embeddings_file_name: "report_text_embeddings_{{num}}.pkl"
-      report_summary_file_name: "report_summary_embeddings_{{num}}.pkl"
     storage:
       container: "testengineoutput"
   data:
