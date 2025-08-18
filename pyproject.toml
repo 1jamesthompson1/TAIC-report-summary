@@ -43,14 +43,14 @@ dependencies = [
     "lancedb>=0.24.1",
     "azure-ai-inference>=1.0.0b9",
     "pylance>=0.31.1",
+    "pytest>=7.4.3",
+    "pytest-xdist>=3.5.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "ipykernel>=6.29.4",
     "torch>=2.5.1",
-    "pytest>=7.4.3",
-    "pytest-xdist>=3.5.0",
     "notebook>=7.1.2",
     "openpyxl>=3.1.2",
     "ipywidgets>=8.1.2",
