@@ -23,6 +23,9 @@ def test_basic_embedding(tmpdir):
         vector_db = Embedding.VectorDB(
             local_embedded_ids_path=temp_path,
             db_uri=test_db_uri,
+            model_name=pytest.vector_config["model"]["name"],
+            table_name=pytest.vector_config["table_name"],
+            context_limit=pytest.vector_config["model"]["context_limit"],
         )
 
         vector_db.process_extracted_reports(
