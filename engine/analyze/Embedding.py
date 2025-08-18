@@ -17,8 +17,6 @@ from lancedb.pydantic import LanceModel, Vector
 from tqdm import tqdm
 from transformers import AutoTokenizer
 
-from engine.utils import Modes
-
 
 @register("azure-ai-text")
 class AzureAITextEmbeddingFunction(TextEmbeddingFunction):
@@ -422,11 +420,7 @@ class VectorDB:
             dataframe_to_embed = dataframe_to_embed.drop_duplicates()
 
         dataframe_to_embed["agency_id"] = dataframe_to_embed["agency_id"].astype(str)
-        dataframe_to_embed["mode"] = (
-            dataframe_to_embed["mode"]
-            .map(lambda x: Modes.Mode[x].value if x in Modes.Mode.__members__ else None)
-            .astype(str)
-        )
+        dataframe_to_embed["mode"] = dataframe_to_embed["mode"].astype(str)
         dataframe_to_embed["type"] = dataframe_to_embed["type"].astype(str)
 
         return dataframe_to_embed
