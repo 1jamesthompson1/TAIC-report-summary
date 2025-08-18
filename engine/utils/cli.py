@@ -256,10 +256,9 @@ def analyze(output_dir, config, refresh):
     vectordb = Embedding.VectorDB(
         os.path.join(output_dir, output_config.get("vector_db_document_ids_file_name")),
         os.environ["db_URI"],
-        vector_config['table_name'],
-        vector_config['model']['name'],
-        vector_config['model']['context_limit'],
-        
+        vector_config["table_name"],
+        vector_config["model"]["name"],
+        vector_config["model"]["context_limit"],
     )
     vectordb.process_extracted_reports(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name")),
@@ -285,22 +284,11 @@ def analyze(output_dir, config, refresh):
 
 
 def upload(container_name, output_dir, output_config):
-    embeddings = list(output_config["embeddings"].values())[1:]
-    embedding_paths = [
-        os.path.join(
-            output_config["folder_name"],
-            output_config["embeddings"]["folder_name"],
-            file,
-        )
-        for file in embeddings
-    ]
     uploader = EngineOutputUploader(
         os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
         os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
         container_name,
         output_dir,
-        os.environ["db_URI"],
-        *embedding_paths,
     )
 
     uploader.upload_latest_output()
