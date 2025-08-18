@@ -116,9 +116,6 @@ class AzureAITextEmbeddingFunction(TextEmbeddingFunction):
         batch_size = 96
         embeddings = []
         for i in range(0, len(texts), batch_size):
-            print(
-                f"About to embed texts {i} to {i + batch_size}, with model '{self.name}' and dimensions {self.ndims()} with {kwargs}"
-            )
             rs = AzureAITextEmbeddingFunction.client.embed(
                 input=texts[i : i + batch_size],
                 model=self.name,
@@ -151,15 +148,13 @@ class VectorDB:
         self,
         local_embedded_ids_path: str,
         db_uri: str,
-        model_name: str = "text-embedding-3-large",
-        embedded_length: int = 3072,
-        context_limit: int = 8191,
+        model_name: str,
+        context_limit: int,
+        table_name: str,
     ):
         self.local_embedded_ids_path = local_embedded_ids_path
-
         self.model_context_limit = context_limit
-
-        self.table_name = "all_document_types"
+        self.table_name = table_name
         self.db = lancedb.connect(db_uri)
         azure_embeddings = (
             EmbeddingFunctionRegistry.get_instance()

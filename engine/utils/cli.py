@@ -251,10 +251,15 @@ def analyze(output_dir, config, refresh):
             output_config.get("recommendation_response_classification_df_file_name"),
         ),
     )
+    vector_config = config.get("vector")
 
     vectordb = Embedding.VectorDB(
         os.path.join(output_dir, output_config.get("vector_db_document_ids_file_name")),
         os.environ["db_URI"],
+        vector_config['table_name'],
+        vector_config['model']['name'],
+        vector_config['model']['context_limit'],
+        
     )
     vectordb.process_extracted_reports(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name")),
