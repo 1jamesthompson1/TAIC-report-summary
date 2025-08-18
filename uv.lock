@@ -4841,7 +4841,7 @@ wheels = [
 [[package]]
 name = "taic-report-engine"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "anthropic" },
     { name = "azure-ai-inference" },
@@ -4889,7 +4889,6 @@ dev = [
     { name = "python-docx" },
     { name = "ruff" },
     { name = "sentence-transformers" },
-    { name = "torch" },
 ]
 
 [package.metadata]
@@ -4931,7 +4930,6 @@ requires-dist = [
     { name = "sentence-transformers", marker = "extra == 'dev'", specifier = ">=3.0.1" },
     { name = "tenacity", specifier = ">=8.3.0" },
     { name = "tiktoken", specifier = ">=0.8.0" },
-    { name = "torch", marker = "extra == 'dev'", specifier = ">=2.5.1" },
     { name = "tqdm", specifier = ">=4.66.4" },
     { name = "transformers", specifier = ">=4.41.2" },
     { name = "voyageai", specifier = ">=0.2.3" },
