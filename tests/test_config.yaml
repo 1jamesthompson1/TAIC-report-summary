@@ -39,5 +39,3 @@ engine:
     model:
       name: "text-embedding-3-large"
       context_limit: 8191
-  model_name: "text-embedding-3-large"
-  context_limit: 8191

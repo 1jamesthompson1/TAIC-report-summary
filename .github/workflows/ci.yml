@@ -34,21 +34,9 @@ env:
   AUTHORITY: ${{ secrets.AUTHORITY }}
 
 jobs:
-  test:
+  quick-tests:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        test-type:
-          - name: "quick"
-            pytest-args: "-m 'not slow'"
-            condition: "github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'quick'"
-          - name: "slow"
-            pytest-args: "-m 'slow'"
-            condition: "github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'slow'"
-    
-    # Only run this job if the condition is met
-    if: ${{ fromJson(matrix.test-type.condition) }}
-    
+    if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'quick' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -68,8 +56,40 @@ jobs:
       - name: Install dependencies
         run: uv sync
       
-      - name: Run ${{ matrix.test-type.name }} tests
-        run: uv run pytest ${{ matrix.test-type.pytest-args }} --cov=. --cov-report=xml --durations=10 -v
+      - name: Run quick tests
+        run: uv run pytest -m "not slow" --cov=. --cov-report=xml --durations=10 -v
+      
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          verbose: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  slow-tests:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'slow' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      
+      - name: Install dependencies
+        run: uv sync
+      
+      - name: Run slow tests
+        run: uv run pytest -m "slow" --cov=. --cov-report=xml --durations=10 -v
       
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4

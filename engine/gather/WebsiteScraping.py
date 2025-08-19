@@ -154,6 +154,7 @@ class ReportScraper(WebsiteScraper, ABC):
             self.report_titles_df = pd.DataFrame(
                 columns=ReportMetadata.get_column_names()
             )
+            self.report_titles_df.to_pickle(self.settings.report_titles_file_path)
         self.agency = agency
         super().__init__(self.settings.report_titles_file_path)
         print(
