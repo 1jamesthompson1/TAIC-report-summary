@@ -85,10 +85,11 @@ omit = ["tests/*"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
-env = [
-    "db_URI=./tests/data/vector_db",
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "quick: marks tests as quick running tests",
+    "integration: marks tests as integration tests",
 ]
-
 
 [tool.uv]
 package = true

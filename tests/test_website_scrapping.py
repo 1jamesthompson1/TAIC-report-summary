@@ -23,6 +23,9 @@ import pytest
 import engine.gather.WebsiteScraping as WebsiteScraping
 import engine.utils.Modes as Modes
 
+# Mark all tests in this file as slow
+pytestmark = pytest.mark.slow
+
 
 @pytest.fixture(scope="function")
 def report_scraping_settings(tmpdir, test_pdf_storage_manager):

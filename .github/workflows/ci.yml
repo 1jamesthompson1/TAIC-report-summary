@@ -2,6 +2,16 @@ name: tests
 
 on:
     workflow_dispatch:
+      inputs:
+        test-type:
+          description: 'Type of tests to run'
+          required: false
+          default: 'both'
+          type: choice
+          options:
+            - both
+            - quick
+            - slow
     push:
         branches:
             - main
@@ -9,39 +19,58 @@ on:
         branches:
             - main
 
+env:
+  # Common environment variables
+  TEST_VECTORDB_URI: ${{ secrets.TEST_VECTORDB_URI }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  AZURE_AI_ENDPOINT: ${{ secrets.AZURE_AI_ENDPOINT }}
+  AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
+  AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
+  CLIENT_ID: ${{ secrets.CLIENT_ID }}
+  CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+  ROOT_URI: ${{ secrets.ROOT_URI }}
+  AUTHORITY: ${{ secrets.AUTHORITY }}
+
 jobs:
-  run:
+  test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test-type:
+          - name: "quick"
+            pytest-args: "-m 'not slow'"
+            condition: "github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'quick'"
+          - name: "slow"
+            pytest-args: "-m 'slow'"
+            condition: "github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'slow'"
+    
+    # Only run this job if the condition is met
+    if: ${{ fromJson(matrix.test-type.condition) }}
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      
       - name: Install uv
         uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
+      
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version-file: .python-version
+      
       - name: Install dependencies
-        run: |
-          uv sync
-      - name: Run tests and collect coverage
-        run: uv run pytest --cov=. --cov-report=xml
-        env:
-          TEST_VECTORDB_URI: ${{ secrets.TEST_VECTORDB_URI }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          AZURE_AI_ENDPOINT: ${{ secrets.AZURE_AI_ENDPOINT }}
-          AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
-          AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-          ROOT_URI: ${{ secrets.ROOT_URI }}
-          AUTHORITY: ${{ secrets.AUTHORITY }}
+        run: uv sync
+      
+      - name: Run ${{ matrix.test-type.name }} tests
+        run: uv run pytest ${{ matrix.test-type.pytest-args }} --cov=. --cov-report=xml --durations=10 -v
+      
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:

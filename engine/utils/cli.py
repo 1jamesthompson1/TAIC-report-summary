@@ -255,7 +255,7 @@ def analyze(output_dir, config, refresh):
 
     vectordb = Embedding.VectorDB(
         os.path.join(output_dir, output_config.get("vector_db_document_ids_file_name")),
-        os.environ["db_URI"],
+        os.environ["VECTORDB_URI"],
         vector_config["table_name"],
         vector_config["model"]["name"],
         vector_config["model"]["context_limit"],
