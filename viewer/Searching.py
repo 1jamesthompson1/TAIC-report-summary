@@ -9,7 +9,7 @@ import plotly.express as px
 
 import engine.utils.Modes as Modes
 from engine.analyze import Embedding
-from engine.utils.AICaller import AICaller
+from engine.utils.AICaller import ai_caller
 
 
 class SearchSettings:
@@ -580,7 +580,7 @@ class SearchEngineSearcher:
     def rag_search(self):
         print(("Understanding query..."))
         yield "Understanding query..."
-        formatted_query = AICaller.query(
+        formatted_query = ai_caller.query(
             system="""
     You will receive a query from the user and return a query that is optimized for a vector search of a safety issue and recommendation database.
 
@@ -632,7 +632,7 @@ class SearchEngineSearcher:
 
         print(f"Summarizing {len(search_results)} documents...")
         yield f"Summarizing {len(search_results)} documents..."
-        response = AICaller.query(
+        response = ai_caller.query(
             system="""
     You are a helpful AI that is part of a RAG system. You are going to help answer questions about transport accident investigations.
 
@@ -661,7 +661,7 @@ class SearchEngineSearcher:
     issues.  
     """,
             user=self._get_rag_prompt(self.search_obj, search_results),
-            model="claude-3.5-sonnet",
+            model="gpt-4",
             temp=0,
             max_tokens=8096,
         )

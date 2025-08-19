@@ -1,12 +1,11 @@
 import pytest
 
-from engine.utils.AICaller import AICaller
+from engine.utils.AICaller import ai_caller
 
 
 @pytest.mark.parametrize(
     "model, user, temp, n, expected_response",
     [
-        pytest.param("gpt-3.5", "Hello this is a test", 0, 1, True, id="gpt-3.5"),
         pytest.param("gpt-4", "Hello this is a test", 0, 1, True, id="gpt-4"),
         pytest.param(
             "gpt-4",
@@ -24,21 +23,10 @@ from engine.utils.AICaller import AICaller
             True,
             id="gpt-4 multiple responses",
         ),
-        pytest.param(
-            "claude-3.5-sonnet", "Hello this is a test", 0, 1, True, id="claude-3.5"
-        ),
-        pytest.param(
-            "claude-3.5-sonnet",
-            "Testing over the limit." * (10**6),
-            0,
-            1,
-            False,
-            id="claude-3.5 over limit",
-        ),
     ],
 )
 def test_ai_caller(model, user, temp, n, expected_response):
-    response = AICaller.query(
+    response = ai_caller.query(
         model=model, system="", user=user, temp=temp, n=n, max_tokens=100
     )
 
@@ -57,23 +45,11 @@ def test_ai_caller(model, user, temp, n, expected_response):
 
 def test_ai_caller_invalid_model():
     with pytest.raises(Exception):
-        AICaller.query(
+        ai_caller.query(
             model="gpt-6",
             system="",
             user="Hello this is a test",
             temp=0,
             n=1,
-            max_tokens=100,
-        )
-
-
-def test_ai_caller_invalid_n():
-    with pytest.raises(Exception):
-        AICaller.query(
-            model="claude-3.5-sonnet",
-            system="",
-            user="Hello this is a test",
-            temp=0,
-            n=2,
             max_tokens=100,
         )

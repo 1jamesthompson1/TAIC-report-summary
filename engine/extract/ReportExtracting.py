@@ -7,7 +7,7 @@ import regex as re
 import yaml
 from tqdm import tqdm
 
-from engine.utils.AICaller import AICaller
+from engine.utils.AICaller import ai_caller
 
 
 @lru_cache(maxsize=20000)
@@ -206,7 +206,7 @@ class ReportExtractor:
 
         raw_content_section = self.report_text[startMatch.start() : endMatch.end()]
 
-        cleaned_content_section = AICaller.query(
+        cleaned_content_section = ai_caller.query(
             system="""
 You are a helpful assistant. You will just respond with the answer no need to explain.
 Can you please format this table of contents? Please include in the format the section number (if it has one) the section title and section page number. Make sure to include all of the pages the the table of contents has even it they are roman numerals.
@@ -292,7 +292,7 @@ class SafetyIssueExtractor(ReportExtractor):
             model_response = None
             try:
                 # Get 5 responses and only includes pages that are in atleast 3 of the responses
-                model_response = AICaller.query(
+                model_response = ai_caller.query(
                     system="""
 You are helping me read the content section of a report from a transport accident investigation.
 The content section is either a text extraction from the pdf or a parsing of the pdf header links. Note that the content section may be malformed.
@@ -539,7 +539,7 @@ issues.
 
         temp = 0
         while temp < 0.1:
-            response = AICaller.query(
+            response = ai_caller.query(
                 system_message,
                 message(important_text),
                 model="gpt-4",
@@ -803,7 +803,7 @@ class ReportSectionExtractor(ReportExtractor):
 
         content_section = self.extract_table_of_contents()
 
-        pages = AICaller.query(
+        pages = ai_caller.query(
             """
             You are helping me read a content section.
 
@@ -946,7 +946,7 @@ class RecommendationsExtractor(ReportExtractor):
                 f"{agency} is not currently supported yet for recommendation extraction."
             )
 
-        response = AICaller.query(
+        response = ai_caller.query(
             f"""
 You are going help me read and parse a transport accident investigation report.
 This is the section of a report that may or may not contain recommendations. I want to have a list of all of the distinct recommendations that were made. It is important that the recommendations are copied verbatim.
@@ -998,7 +998,7 @@ There is no need to enclose the yaml in any tags.
         """
         This will get the pages that need to be read to get the recommendations section
         """
-        model_response = AICaller.query(
+        model_response = ai_caller.query(
             system="""
 You are helping me read the content sections of a report.
 
