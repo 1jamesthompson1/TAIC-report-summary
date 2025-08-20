@@ -445,6 +445,8 @@ I want you to please read the report and respond with the safety issues identifi
 
 Please only respond with safety issues that are quite clearly stated ("exact" safety issues) or implied ("inferred" safety issues) in the report. Each report will only contain one type of safety issue.
 
+An exact safety issue will start with something like 'safety issue: ...' and will generaly go until the end of the "paragraph" (i.e until it reaches a line that breaks earlier)
+
 Remember the definitions given
 
 Safety factor - Any (non-trivial) events or conditions, which increases safety risk. If they occurred in the future, these would
