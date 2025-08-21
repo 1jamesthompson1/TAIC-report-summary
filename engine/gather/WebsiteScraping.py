@@ -1142,12 +1142,17 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
             subset=["safety_issue_id"]
         )
 
-        widened_safety_issues_df["report_id"] = widened_safety_issues_df[
-            "safety_issue_id"
-        ].map(
-            lambda x: self.id_converter("ATSB", x)
-            if self.id_converter("ATSB", x)
-            else f"Unmatched ({x})"
+        widened_safety_issues_df["report_id"] = (
+            widened_safety_issues_df["safety_issue_id"]
+            .map(
+                # This needed because the safety issue id is simply the agency_id plus some extrae identifiers on the end.
+                lambda x: "-".join(x.split("-")[0:3])
+            )
+            .map(
+                lambda x: self.id_converter("ATSB", x)
+                if self.id_converter("ATSB", x)
+                else f"Unmatched ({x})"
+            )
         )
         widened_safety_issues_df["quality"] = "exact"
         widened_safety_issues_df = widened_safety_issues_df[

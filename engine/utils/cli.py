@@ -166,6 +166,23 @@ def create_extracted_reports_df(output_dir, output_config):
     )
 
     # Add metadata columns
+    problematic_ids = []
+    for report_id in combined_df["report_id"]:
+        # Check to see if they follow the correct format defined by f"{self.agency}_{mode.name}_{year}_{id}"
+        parts = str(report_id).split("_")
+        if len(parts) != 4:
+            problematic_ids.append((report_id, len(parts), parts))
+
+    if problematic_ids:
+        print(f"Found {len(problematic_ids)} problematic report IDs:")
+        # for report_id, num_parts, parts in problematic_ids:
+        #     print(f"  Report ID: '{report_id}' has {num_parts} parts: {parts}")
+        # raise ValueError(f"Report IDs need to follow a particular format, instead found {len(problematic_ids)} problematic IDs. Here are some examples: {problematic_ids[:5]}...")
+
+    # Drop all problematic ids
+    combined_df = combined_df[
+        ~combined_df["report_id"].isin([x[0] for x in problematic_ids])
+    ]
 
     combined_df["year"] = [
         int(x.split("_")[2]) if "_" in x else None for x in combined_df["report_id"]
