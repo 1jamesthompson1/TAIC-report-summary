@@ -270,6 +270,9 @@ class VectorDB:
             f"Dropping documents with more than {self.model_context_limit * 2} tokens which is {len(to_drop) - sum(to_drop)} documents"
         )
 
+        if df.empty:
+            return None
+
         # Truncate all documents to just below the context limit
         df[document_column_name] = df.apply(
             lambda x: x[document_column_name][: self.model_context_limit - 50],
@@ -507,6 +510,9 @@ class VectorDB:
                 added_document_ids = self.add_documents(
                     cleaned_df,
                 )
+                if added_document_ids is None:
+                    print(f"No new documents added for {dataframe_column_name}")
+                    continue
                 print(
                     f"Added {len(added_document_ids)} documents to the database for {dataframe_column_name}"
                 )
