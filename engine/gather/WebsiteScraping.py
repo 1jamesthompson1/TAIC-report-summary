@@ -102,6 +102,17 @@ class WebsiteScraper(ABC):
     """
 
     def __init__(self, report_titles_file_path):
+        # Keep the original headers as a fallback, but we'll use get_randomized_headers() instead
+        self.headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://www.google.com/",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Connection": "keep-alive",
+        }
+
+    def __init__(self, report_titles_file_path):
+        # Keep the original headers as a fallback, but we'll use get_randomized_headers() instead
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
             "Accept-Language": "en-US,en;q=0.9",
@@ -123,6 +134,84 @@ class WebsiteScraper(ABC):
                 agency=report_titles_df["report_id"].map(lambda x: x.split("_")[0])
             ).groupby("agency")
         }
+
+    def get_randomized_headers(self):
+        """
+        Generate randomized headers to avoid bot detection.
+        Returns a random permutation of header options.
+        """
+        # Various User-Agent strings for different browsers and platforms
+        user_agents = [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        ]
+
+        # Various Accept-Language options
+        accept_languages = [
+            "en-US,en;q=0.9",
+            "en-US,en;q=0.8,fr;q=0.6",
+            "en-GB,en;q=0.9,en-US;q=0.8",
+            "en,en-US;q=0.9",
+            "en-US,en;q=0.7,fr;q=0.3",
+        ]
+
+        # Various referer options
+        referers = [
+            "https://www.google.com/",
+            "https://www.bing.com/",
+            "https://duckduckgo.com/",
+            "https://search.yahoo.com/",
+            "https://www.google.co.uk/",
+            "https://www.google.ca/",
+        ]
+
+        # Various Accept headers
+        accept_headers = [
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        ]
+
+        # Various Connection options
+        connections = ["keep-alive", "close"]
+
+        # Optionally include additional headers that browsers might send
+        additional_headers = [
+            ("Accept-Encoding", "gzip, deflate, br"),
+            ("DNT", "1"),
+            ("Upgrade-Insecure-Requests", "1"),
+            ("Sec-Fetch-Dest", "document"),
+            ("Sec-Fetch-Mode", "navigate"),
+            ("Sec-Fetch-Site", "none"),
+            ("Cache-Control", "max-age=0"),
+        ]
+
+        # Build the randomized headers dictionary
+        headers = {
+            "User-Agent": random.choice(user_agents),
+            "Accept": random.choice(accept_headers),
+            "Accept-Language": random.choice(accept_languages),
+            "Referer": random.choice(referers),
+            "Connection": random.choice(connections),
+        }
+
+        # Randomly include some additional headers
+        for header_name, header_value in additional_headers:
+            if random.random() < 0.7:  # 70% chance to include each additional header
+                headers[header_name] = header_value
+
+        # Randomly shuffle the order of headers
+        header_items = list(headers.items())
+        random.shuffle(header_items)
+        
+        return dict(header_items)
 
     def id_converter(self, agency, agency_id):
         """
@@ -295,12 +384,12 @@ class ReportScraper(WebsiteScraper, ABC):
             return True
 
         try:
-            webpage = hrequests.get(url, headers=self.headers, timeout=5)
+            webpage = hrequests.get(url, headers=self.get_randomized_headers(), timeout=5)
         except hrequests.exceptions.ClientException as e:
             print(f"  Timed out while trying to collect {url}, {e}, Retrying...")
             try:
                 time.sleep(random.uniform(0.5, 2.0))
-                webpage = hrequests.get(url, headers=self.headers, timeout=5)
+                webpage = hrequests.get(url, headers=self.get_randomized_headers(), timeout=5)
             except hrequests.exceptions.ClientException as e:
                 print(f"{e}")
                 return False
@@ -360,7 +449,7 @@ class ReportScraper(WebsiteScraper, ABC):
 
         try:
             response = hrequests.get(
-                link, allow_redirects=True, headers=self.headers, timeout=30
+                link, allow_redirects=True, headers=self.get_randomized_headers(), timeout=30
             )
             if response is None:
                 print(f"  {report_id}.pdf download failed: No response")
@@ -531,7 +620,7 @@ class TAICReportScraper(ReportScraper):
                 investigation_page = pd.read_html(
                     hrequests.get(
                         f"https://www.taic.org.nz/inquiries?page={page_num}&keyword=&occurrence_date[min]=&occurrence_date[max]=&publication_date[min]=&publication_date[max]=&order=field_publication_date&sort=desc",
-                        headers=self.headers,
+                        headers=self.get_randomized_headers(),
                     ).content,
                     flavor="lxml",
                 )[0]
@@ -696,7 +785,7 @@ class ATSBReportScraper(ReportScraper):
                             url_start_date=url_start_date,
                             url_end_date=url_end_date,
                         ),
-                        headers=self.headers,
+                        headers=self.get_randomized_headers(),
                     ).content
 
                     page_df = pd.read_html(
@@ -911,7 +1000,7 @@ class TSBReportScraper(ReportScraper):
             pd.read_html(
                 hrequests.get(
                     f"https://www.tsb.gc.ca/eng/rapports-reports/{mode}/index.html",
-                    headers=self.headers,
+                    headers=self.get_randomized_headers(),
                 ).content,
                 flavor="lxml",
             )[0]
@@ -954,7 +1043,7 @@ class TSBReportScraper(ReportScraper):
         tsb_id = f"{split_id[1]}{split_id[2][2:4]}{split_id[3]}"
         page = hrequests.get(
             f"https://www.tsb.gc.ca/eng/enquetes-investigations/{Modes.Mode.as_string(Modes.get_report_mode_from_id(report_id))}/{split_id[2]}/{tsb_id}/{tsb_id}.html",
-            headers=self.headers,
+            headers=self.get_randomized_headers(),
             timeout=30,
         )
         overview_page = BeautifulSoup(page.content, "html.parser")
@@ -1075,7 +1164,7 @@ class ATSBSafetyIssueScraper(WebsiteScraper):
             while True:
                 pbar.set_description(f"Scraping page {current_page} of mode {mode}")
                 url = base_url.format(mode=mode, page=current_page)
-                response = hrequests.get(url, headers=self.headers)
+                response = hrequests.get(url, headers=self.get_randomized_headers())
 
                 if response.status_code != 200:
                     pbar.write(
@@ -1229,7 +1318,7 @@ class RecommendationScraper(WebsiteScraper, ABC):
 
             url = self.get_url(element)
 
-            response = hrequests.get(url, headers=self.headers)
+            response = hrequests.get(url, headers=self.get_randomized_headers())
 
             if response.status_code != 200:
                 raise ValueError(
@@ -1407,7 +1496,7 @@ class TSBRecommendationsScraper(RecommendationScraper):
                 "recommendation_context": None,
             }
 
-        response = hrequests.get(url, headers=self.headers)
+        response = hrequests.get(url, headers=self.get_randomized_headers())
 
         if response.status_code != 200:
             if retry > 0:
@@ -1530,7 +1619,7 @@ class TAICRecommendationsScraper(RecommendationScraper):
                 "reply_text": None,
             }
 
-        response = hrequests.get(url, headers=self.headers)
+        response = hrequests.get(url, headers=self.get_randomized_headers())
 
         if response.status_code != 200:
             retry = 3
