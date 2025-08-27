@@ -21,7 +21,7 @@ repos:
       name: Check UV Lock
       entry: |
         bash -c '
-        if ! uv lock --check; then
+        if ! $HOME/.local/bin/uv lock --check; then
             echo "uv.lock is out of date. You need to update it"
             exit 1
         else

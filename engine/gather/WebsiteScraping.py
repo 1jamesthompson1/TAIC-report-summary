@@ -111,16 +111,6 @@ class WebsiteScraper(ABC):
             "Connection": "keep-alive",
         }
 
-    def __init__(self, report_titles_file_path):
-        # Keep the original headers as a fallback, but we'll use get_randomized_headers() instead
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Referer": "https://www.google.com/",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-            "Connection": "keep-alive",
-        }
-
         if os.path.exists(report_titles_file_path):
             report_titles_df = pd.read_pickle(report_titles_file_path)
         else:
@@ -210,7 +200,7 @@ class WebsiteScraper(ABC):
         # Randomly shuffle the order of headers
         header_items = list(headers.items())
         random.shuffle(header_items)
-        
+
         return dict(header_items)
 
     def id_converter(self, agency, agency_id):
@@ -384,12 +374,16 @@ class ReportScraper(WebsiteScraper, ABC):
             return True
 
         try:
-            webpage = hrequests.get(url, headers=self.get_randomized_headers(), timeout=5)
+            webpage = hrequests.get(
+                url, headers=self.get_randomized_headers(), timeout=5
+            )
         except hrequests.exceptions.ClientException as e:
             print(f"  Timed out while trying to collect {url}, {e}, Retrying...")
             try:
                 time.sleep(random.uniform(0.5, 2.0))
-                webpage = hrequests.get(url, headers=self.get_randomized_headers(), timeout=5)
+                webpage = hrequests.get(
+                    url, headers=self.get_randomized_headers(), timeout=5
+                )
             except hrequests.exceptions.ClientException as e:
                 print(f"{e}")
                 return False
@@ -449,7 +443,10 @@ class ReportScraper(WebsiteScraper, ABC):
 
         try:
             response = hrequests.get(
-                link, allow_redirects=True, headers=self.get_randomized_headers(), timeout=30
+                link,
+                allow_redirects=True,
+                headers=self.get_randomized_headers(),
+                timeout=30,
             )
             if response is None:
                 print(f"  {report_id}.pdf download failed: No response")
