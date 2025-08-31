@@ -13,8 +13,9 @@ def load_test_config():
     pytest.config = config
 
     pytest.output_config = config["engine"]["output"]
+    pytest.vector_config = config["engine"]["vector"]
 
-    dotenv.load_dotenv()
+    dotenv.load_dotenv(override=True)
 
 
 @pytest.fixture(scope="function")

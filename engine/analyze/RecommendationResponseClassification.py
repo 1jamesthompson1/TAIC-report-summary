@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from tqdm import tqdm
 
-from engine.utils.AICaller import AICaller
+from engine.utils.AICaller import ai_caller
 
 tqdm.pandas()
 
@@ -68,7 +68,7 @@ class RecommendationResponseClassifier:
     {recommendation}
     """
 
-        openai_response = AICaller.query(
+        openai_response = ai_caller.query(
             system_prompt, user_prompt, model="gpt-4", temp=0
         )
 

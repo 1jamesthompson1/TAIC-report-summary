@@ -2,6 +2,16 @@ name: tests
 
 on:
     workflow_dispatch:
+      inputs:
+        test-type:
+          description: 'Type of tests to run'
+          required: false
+          default: 'both'
+          type: choice
+          options:
+            - both
+            - quick
+            - slow
     push:
         branches:
             - main
@@ -9,34 +19,78 @@ on:
         branches:
             - main
 
+env:
+  # Common environment variables
+  TEST_VECTORDB_URI: ${{ secrets.TEST_VECTORDB_URI }}
+  AZURE_AI_ENDPOINT: ${{ secrets.AZURE_AI_ENDPOINT }}
+  AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
+  AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+  AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY}}
+  AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
+  AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
+  CLIENT_ID: ${{ secrets.CLIENT_ID }}
+  CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+  ROOT_URI: ${{ secrets.ROOT_URI }}
+  AUTHORITY: ${{ secrets.AUTHORITY }}
+
 jobs:
-  run:
+  quick-tests:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'quick' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v4
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: '3.10'
+          enable-cache: true
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install pytest pytest-cov
-      - name: Run tests and collect coverage
-        run: pytest --cov=. --cov-report=xml
+        run: uv sync
+      
+      - name: Run quick tests
+        run: uv run pytest -m "not slow" --cov=. --cov-report=xml --durations=10 -v
+      
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          verbose: true
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
-          AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-          ROOT_URI: ${{ secrets.ROOT_URI }}
-          AUTHORITY: ${{ secrets.AUTHORITY }}
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  slow-tests:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.test-type == 'both' || github.event.inputs.test-type == 'slow' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      
+      - name: Install dependencies
+        run: uv sync
+      
+      - name: Run slow tests
+        run: uv run pytest -m "slow" --cov=. --cov-report=xml --durations=10 -v
+      
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:

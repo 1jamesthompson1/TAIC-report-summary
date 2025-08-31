@@ -16,6 +16,7 @@ To use this in other test files, you can copy the cleanup_test_pdf_container fix
 
 import itertools
 import os
+import shutil
 
 import pandas as pd
 import pytest
@@ -23,11 +24,14 @@ import pytest
 import engine.gather.WebsiteScraping as WebsiteScraping
 import engine.utils.Modes as Modes
 
+# Mark all tests in this file as slow
+pytestmark = pytest.mark.slow
+
 
 @pytest.fixture(scope="function")
 def report_scraping_settings(tmpdir, test_pdf_storage_manager):
     return WebsiteScraping.ReportScraperSettings(
-        os.path.join(pytest.output_config["folder_name"], "report_titles.pkl"),
+        os.path.join(tmpdir, "report_titles.pkl"),
         2005,
         2015,
         1,
@@ -38,29 +42,36 @@ def report_scraping_settings(tmpdir, test_pdf_storage_manager):
     )
 
 
-def get_agency_scraper(
-    agency: str, settings: WebsiteScraping.ReportScraperSettings
-) -> WebsiteScraping.ReportScraper:
-    if agency == "TAIC":
-        return WebsiteScraping.TAICReportScraper(
-            os.path.join(
-                pytest.output_config.get("folder_name"),
-                pytest.output_config.get("taic_website_reports_table_file_name"),
-            ),
-            settings,
-        )
-    elif agency == "ATSB":
-        return WebsiteScraping.ATSBReportScraper(
-            os.path.join(
-                pytest.output_config.get("folder_name"),
-                pytest.output_config.get("atsb_website_reports_table_file_name"),
-            ),
-            settings,
-        )
-    elif agency == "TSB":
-        return WebsiteScraping.TSBReportScraper(settings)
-    else:
-        raise ValueError(f"Unknown agency: {agency}")
+@pytest.fixture(scope="function")
+def get_agency_scraper(tmpdir, report_scraping_settings):
+    """
+    Fixture that returns a function to create agency scrapers with their own temp directories.
+    Each scraper gets its own temporary directory for file operations.
+    """
+
+    def _get_agency_scraper(agency: str) -> WebsiteScraping.ReportScraper:
+        if agency == "TAIC":
+            return WebsiteScraping.TAICReportScraper(
+                os.path.join(
+                    str(tmpdir),
+                    pytest.output_config.get("taic_website_reports_table_file_name"),
+                ),
+                report_scraping_settings,
+            )
+        elif agency == "ATSB":
+            return WebsiteScraping.ATSBReportScraper(
+                os.path.join(
+                    str(tmpdir),
+                    pytest.output_config.get("atsb_website_reports_table_file_name"),
+                ),
+                report_scraping_settings,
+            )
+        elif agency == "TSB":
+            return WebsiteScraping.TSBReportScraper(report_scraping_settings)
+        else:
+            raise ValueError(f"Unknown agency: {agency}")
+
+    return _get_agency_scraper
 
 
 @pytest.mark.parametrize(
@@ -110,8 +121,8 @@ def get_agency_scraper(
         ),
     ],
 )
-def test_report_collection(report_scraping_settings, agency, url, report_id, expected):
-    scraper = get_agency_scraper(agency, report_scraping_settings)
+def test_report_collection(get_agency_scraper, agency, url, report_id, expected):
+    scraper = get_agency_scraper(agency)
 
     result = scraper.collect_report(report_id, url)
 
@@ -126,10 +137,10 @@ def test_report_collection(report_scraping_settings, agency, url, report_id, exp
         pytest.param("ATSB", [93, 179, 52, 6, 25, 17, 15, 8, 2], id="ATSB"),
     ],
 )
-def test_agency_website_scraper(report_scraping_settings, agency, expected_urls):
-    report_scraping_settings.start_year = 2004
-    report_scraping_settings.end_year = 2021
-    scraper = get_agency_scraper(agency, report_scraping_settings)
+def test_agency_website_scraper(get_agency_scraper, agency, expected_urls):
+    scraper = get_agency_scraper(agency)
+    scraper.settings.start_year = 2004
+    scraper.settings.end_year = 2021
 
     assert scraper
 
@@ -164,46 +175,56 @@ def test_agency_website_scraper(report_scraping_settings, agency, expected_urls)
     ],
 )
 def test_agency_website_scraper_collecting_all_reports(
-    report_scraping_settings, agency, expected_count
+    get_agency_scraper, agency, expected_count
 ):
-    report_scraping_settings.refresh = True
-
-    report_scraping_settings.start_year = 2008
-    report_scraping_settings.end_year = 2012
-
-    scraper = get_agency_scraper(agency, report_scraping_settings)
+    scraper = get_agency_scraper(agency)
+    scraper.settings.refresh = True
+    scraper.settings.start_year = 2008
+    scraper.settings.end_year = 2012
 
     assert scraper
 
     scraper.collect_all()
 
     # Use PDF storage manager to count collected PDFs instead of local directory
-    pdf_count = len(report_scraping_settings.pdf_storage_manager.list_pdfs())
+    pdf_count = len(scraper.settings.pdf_storage_manager.list_pdfs())
     assert pdf_count == expected_count
 
 
-def test_ATSB_safety_issue_scrape():
-    output_path = os.path.join(
+def test_ATSB_safety_issue_scrape(tmpdir):
+    # Copy existing files to temporary directory for automatic cleanup
+    original_output_path = os.path.join(
         pytest.output_config["folder_name"],
         pytest.output_config["atsb_website_safety_issues_file_name"],
     )
-    report_titles = os.path.join(
+    original_report_titles = os.path.join(
         pytest.output_config["folder_name"],
         pytest.output_config["report_titles_df_file_name"],
     )
+
+    # Create temporary paths
+    temp_output_path = os.path.join(str(tmpdir), "atsb_safety_issues.pkl")
+    temp_report_titles = os.path.join(str(tmpdir), "report_titles.pkl")
+
+    # Copy files if they exist
+    if os.path.exists(original_output_path):
+        shutil.copy2(original_output_path, temp_output_path)
+    if os.path.exists(original_report_titles):
+        shutil.copy2(original_report_titles, temp_report_titles)
+
     atsb_webscraper = WebsiteScraping.ATSBSafetyIssueScraper(
-        output_file_path=output_path,
-        report_titles_file_path=report_titles,
+        output_file_path=temp_output_path,
+        report_titles_file_path=temp_report_titles,
         refresh=True,
     )
 
     atsb_webscraper.extract_safety_issues_from_website()
 
-    output = pd.read_pickle(output_path)
+    output = pd.read_pickle(temp_output_path)
 
     assert len(output) >= 388
 
-    required_ids = ["ATSB_MO-2008-013-SI-04", "ATSB_AO-2023-008-SI-01"]
+    required_ids = ["MO-2008-013-SI-04", "AO-2023-008-SI-01"]
 
     output_long = pd.concat(output["safety_issues"].dropna().tolist(), axis=0)
 

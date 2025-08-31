@@ -22,11 +22,11 @@ from flask import (
     send_file,
     session,
 )
+from flask_session import Session
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from werkzeug.middleware.proxy_fix import ProxyFix
 
-from flask_session import Session
 from viewer import Searching, app_config
 
 dotenv.load_dotenv(override=True)
@@ -56,7 +56,7 @@ resultslogs = client.create_table_if_not_exists(table_name="resultslogs")
 errorlogs = client.create_table_if_not_exists(table_name="errorlogs")
 
 
-searcher = Searching.SearchEngine(os.environ["db_URI"])
+searcher = Searching.SearchEngine(os.environ["VECTORDB_URI"])
 
 data_last_updated_date = searcher.all_document_types_table.list_versions()[-1][
     "timestamp"

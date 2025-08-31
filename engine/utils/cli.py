@@ -166,6 +166,23 @@ def create_extracted_reports_df(output_dir, output_config):
     )
 
     # Add metadata columns
+    problematic_ids = []
+    for report_id in combined_df["report_id"]:
+        # Check to see if they follow the correct format defined by f"{self.agency}_{mode.name}_{year}_{id}"
+        parts = str(report_id).split("_")
+        if len(parts) != 4:
+            problematic_ids.append((report_id, len(parts), parts))
+
+    if problematic_ids:
+        print(f"Found {len(problematic_ids)} problematic report IDs:")
+        # for report_id, num_parts, parts in problematic_ids:
+        #     print(f"  Report ID: '{report_id}' has {num_parts} parts: {parts}")
+        # raise ValueError(f"Report IDs need to follow a particular format, instead found {len(problematic_ids)} problematic IDs. Here are some examples: {problematic_ids[:5]}...")
+
+    # Drop all problematic ids
+    combined_df = combined_df[
+        ~combined_df["report_id"].isin([x[0] for x in problematic_ids])
+    ]
 
     combined_df["year"] = [
         int(x.split("_")[2]) if "_" in x else None for x in combined_df["report_id"]
@@ -251,73 +268,44 @@ def analyze(output_dir, config, refresh):
             output_config.get("recommendation_response_classification_df_file_name"),
         ),
     )
+    vector_config = config.get("vector")
 
-    # Generate embeddings
-
-    embeddings_config = output_config.get("embeddings")
-    embedding_folder = os.path.join(output_dir, embeddings_config.get("folder_name"))
-    if not os.path.exists(embedding_folder):
-        os.makedirs(embedding_folder)
-    Embedding.Embedder().process_extracted_reports(
+    vectordb = Embedding.VectorDB(
+        os.path.join(output_dir, output_config.get("vector_db_document_ids_file_name")),
+        os.environ["VECTORDB_URI"],
+        vector_config["model"]["name"],
+        vector_config["model"]["context_limit"],
+        vector_config["table_name"],
+    )
+    vectordb.process_extracted_reports(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name")),
         [
             (
                 "safety_issues",
                 "safety_issue",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("safety_issues_file_name")
-                ),
             ),
             (
                 "recommendations",
                 "recommendation",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("recommendations_file_name")
-                ),
             ),
             (
                 "sections",
                 "section",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("report_sections_file_name")
-                ),
-            ),
-            (
-                "text",
-                "text",
-                os.path.join(
-                    embedding_folder, embeddings_config.get("report_text_file_name")
-                ),
             ),
             (
                 "summary",
                 "summary",
-                os.path.join(
-                    embedding_folder,
-                    embeddings_config.get("report_summary_file_name"),
-                ),
             ),
         ],
     )
 
 
 def upload(container_name, output_dir, output_config):
-    embeddings = list(output_config["embeddings"].values())[1:]
-    embedding_paths = [
-        os.path.join(
-            output_config["folder_name"],
-            output_config["embeddings"]["folder_name"],
-            file,
-        )
-        for file in embeddings
-    ]
     uploader = EngineOutputUploader(
         os.environ["AZURE_STORAGE_ACCOUNT_NAME"],
         os.environ["AZURE_STORAGE_ACCOUNT_KEY"],
         container_name,
         output_dir,
-        os.environ["db_URI"],
-        *embedding_paths,
     )
 
     uploader.upload_latest_output()

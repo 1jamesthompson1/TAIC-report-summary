@@ -17,29 +17,15 @@ repos:
     - id: nb-clean
 - repo: local
   hooks:
-    - id: check-and-update-poetry-lock
-      name: Check and Update Poetry Lock
+    - id: check-uv-lock
+      name: Check UV Lock
       entry: |
         bash -c '
-        if ! poetry check --lock; then
-            echo "poetry.lock is out of date. You need to update it"
+        if ! $HOME/.local/bin/uv lock --check; then
+            echo "uv.lock is out of date. You need to update it"
             exit 1
         else
-            echo "poetry.lock is up-to-date with pyproject.toml."
-        fi'
-      language: system
-      stages: [pre-commit]
-    - id: update-requirements
-      name: Update Requirements
-      entry: |
-        bash -c '
-        if git diff --cached --name-only | grep -q "poetry.lock"; then
-            echo "Poetry lock is staged; updating requirements file..."
-            poetry export --without-hashes --only main,viewer -f requirements.txt --output requirements.txt
-            git add requirements.txt
-            echo "requirements.txt file updated and staged"
-        else
-            echo "poetry.lock is not staged therefore requirements file need not be updated"
+            echo "uv.lock is up-to-date with pyproject.toml."
         fi'
       language: system
       stages: [pre-commit]
