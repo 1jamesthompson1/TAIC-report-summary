@@ -275,7 +275,8 @@ def analyze(output_dir, config, refresh):
         os.environ["VECTORDB_URI"],
         vector_config["model"]["name"],
         vector_config["model"]["context_limit"],
-        vector_config["table_name"],
+        vector_config["all_document_types_table_name"],
+        vector_config["report_text_table_name"],
     )
     vectordb.process_extracted_reports(
         os.path.join(output_dir, output_config.get("extracted_reports_df_file_name")),
@@ -297,6 +298,10 @@ def analyze(output_dir, config, refresh):
                 "summary",
             ),
         ],
+    )
+
+    vectordb.process_report_texts(
+        os.path.join(output_dir, output_config.get("extracted_reports_df_file_name")),
     )
 
 

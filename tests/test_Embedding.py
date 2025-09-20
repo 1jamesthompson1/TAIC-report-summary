@@ -24,7 +24,7 @@ def test_basic_embedding(tmpdir):
             local_embedded_ids_path=temp_path,
             db_uri=test_db_uri,
             model_name=pytest.vector_config["model"]["name"],
-            table_name=pytest.vector_config["table_name"],
+            all_document_types_table_name=pytest.vector_config["table_name"],
             context_limit=pytest.vector_config["model"]["context_limit"],
         )
 
@@ -51,10 +51,12 @@ def test_basic_embedding(tmpdir):
         )
 
         # Verify table exists
-        assert vector_db.table_name in vector_db.db.table_names()
+        assert vector_db.all_document_types_table_name in vector_db.db.table_names()
 
         # Verify that the table has rows
-        assert vector_db.table.count_rows() > 0, "The table should have rows."
+        assert (
+            vector_db.all_document_types_table.count_rows() > 0
+        ), "The table should have rows."
 
     finally:
         if vector_db:

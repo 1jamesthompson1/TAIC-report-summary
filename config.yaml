@@ -36,7 +36,8 @@ engine:
   validation:
     folder_name: "validation"
   vector:
-    table_name: "all_document_types"  # LanceDB table name
+    all_document_types_table_name: "all_document_types"  # LanceDB table name
+    report_text_table_name: "report_text"  # LanceDB table name
     model:
       name: "text-embedding-3-large"
       context_limit: 8191  # Approx token context limit for truncation logic

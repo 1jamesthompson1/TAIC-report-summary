@@ -148,11 +148,14 @@ class VectorDB:
         db_uri: str,
         model_name: str,
         context_limit: int,
-        table_name: str,
+        all_document_types_table_name: str,
+        report_text_table_name: str,
     ):
         self.local_embedded_ids_path = local_embedded_ids_path
         self.model_context_limit = context_limit
-        self.table_name = table_name
+        self.all_document_types_table_name = all_document_types_table_name
+        self.report_text_table_name = report_text_table_name
+
         self.db = lancedb.connect(db_uri)
         azure_embeddings = (
             EmbeddingFunctionRegistry.get_instance()
@@ -160,7 +163,7 @@ class VectorDB:
             .create(name=model_name)
         )
 
-        class VectorDBSchema(LanceModel):
+        class AllDocumentsDBSchema(LanceModel):
             vector: Vector(azure_embeddings.ndims()) = azure_embeddings.VectorField()
             document: str = azure_embeddings.SourceField()
             document_id: str
@@ -173,7 +176,20 @@ class VectorDB:
             url: str
             document_type: str
 
-        self.VectorDBSchema = VectorDBSchema
+        self.allDocumentsDBSchema = AllDocumentsDBSchema
+
+        class ReportTextDBSchema(LanceModel):
+            report_id: str = azure_embeddings.SourceField()
+            text: str
+            year: int
+            mode: str
+            agency: str
+            type: str
+            agency_id: str
+            url: str
+            text_token_length: int
+
+        self.reportTextDBSchema = ReportTextDBSchema
 
         # using Cohere tokenizer for tokenization as a proxy to give me a rough guage.
         try:
@@ -187,15 +203,20 @@ class VectorDB:
                 force_download=True,
             )
 
-        self.table = self._get_or_create_table()
+        self.all_document_types_table = self._get_or_create_all_document_types_table()
 
-    def _get_or_create_table(self):
+        self.report_text_table = self._get_or_create_report_text_table()
+
+    def _get_or_create_all_document_types_table(self):
         """Get existing table or create new one."""
-        if self.table_name in self.db.table_names():
-            return self.db.open_table(self.table_name)
+        if self.all_document_types_table_name in self.db.table_names():
+            return self.db.open_table(self.all_document_types_table_name)
         else:
             table = self.db.create_table(
-                self.table_name, data=None, schema=self.VectorDBSchema, mode="create"
+                self.all_document_types_table_name,
+                data=None,
+                schema=self.allDocumentsDBSchema,
+                mode="create",
             )
 
             # Create FTS index for text search
@@ -209,27 +230,71 @@ class VectorDB:
                     replace=True,
                 )
             except Exception as e:
-                print(f"Warning: Could not create FTS index: {e}")
+                raise RuntimeError(f"Could not create FTS index: {e}")
 
             try:
                 table.create_scalar_index("document_id")
             except Exception as e:
-                print(f"Warning: Could not create scalar index on document_id: {e}")
+                raise RuntimeError(f"Could not create scalar index: {e}")
+
+            return table
+
+    def _get_or_create_report_text_table(self):
+        """Get existing table or create new one."""
+        if self.report_text_table_name in self.db.table_names():
+            return self.db.open_table(self.report_text_table_name)
+        else:
+            table = self.db.create_table(
+                self.report_text_table_name,
+                data=None,
+                schema=self.reportTextDBSchema,
+                mode="create",
+            )
+
+            # Create FTS index for text search
+            try:
+                table.create_fts_index(
+                    "text",
+                    use_tantivy=False,
+                    language="English",
+                    stem=True,
+                    ascii_folding=True,
+                    replace=True,
+                )
+            except Exception as e:
+                raise RuntimeError(f"Could not create FTS index: {e}")
+
+            try:
+                table.create_scalar_index("report_id")
+            except Exception as e:
+                raise RuntimeError(f"Could not create scalar index: {e}")
 
             return table
 
     def tokenize_documents(self, df, document_column_name, tokenization_column_name):
         if tokenization_column_name not in df.columns:
-            df[tokenization_column_name] = df[document_column_name].apply(
-                lambda x: len(self.tokenizer.tokenize(x))
-            )
+            for i in tqdm(
+                range(0, len(df), 100),
+                desc="Tokenizing documents",
+                total=(len(df) + 99) // 100,
+            ):
+                batch_end = min(i + 100, len(df))
+                batch = df[document_column_name].iloc[i:batch_end].tolist()
+                tokenized_lengths = self.tokenizer(
+                    batch,
+                    truncation=False,
+                    padding=False,
+                    return_length=True,
+                )["length"]
+                df.loc[i : batch_end - 1, tokenization_column_name] = tokenized_lengths
         else:
-            df[tokenization_column_name] = df.apply(
-                lambda x: len(self.tokenizer.tokenize(x[document_column_name]))
-                if not isinstance(x[tokenization_column_name], int)
-                else x[tokenization_column_name],
-                axis=1,
-            )
+            # Handle cases where tokenization column already exists
+            def tokenize_row(row):
+                if not isinstance(row[tokenization_column_name], int):
+                    return len(self.tokenizer.tokenize(row[document_column_name]))
+                return row[tokenization_column_name]
+
+            df[tokenization_column_name] = df.apply(tokenize_row, axis=1)
 
         return df
 
@@ -249,9 +314,12 @@ class VectorDB:
         """
 
         # Check if the df follows the schema
-        if df.columns.tolist() != list(self.VectorDBSchema.model_fields.keys())[1:]:
+        if (
+            df.columns.tolist()
+            != list(self.allDocumentsDBSchema.model_fields.keys())[1:]
+        ):
             raise ValueError(
-                f"Dataframe columns {df.columns.tolist()} do not match the expected schema {list(self.VectorDBSchema.model_fields.keys())[1:]}"
+                f"Dataframe columns {df.columns.tolist()} do not match the expected schema {list(self.allDocumentsDBSchema.model_fields.keys())[1:]}"
             )
 
         # Get document lengths
@@ -308,11 +376,15 @@ class VectorDB:
             pa_table = pa.Table.from_pandas(
                 batch,
                 schema=pa.schema(
-                    [field for field in self.table.schema if field.name != "vector"]
+                    [
+                        field
+                        for field in self.all_document_types_table.schema
+                        if field.name != "vector"
+                    ]
                 ),
             )
 
-            results = self.table.add(pa_table, mode="append")
+            results = self.all_document_types_table.add(pa_table, mode="append")
 
             return results
 
@@ -382,7 +454,7 @@ class VectorDB:
                 )
 
         dataframe_to_embed = dataframe_to_embed[
-            list(self.VectorDBSchema.model_fields.keys())[1:]
+            list(self.allDocumentsDBSchema.model_fields.keys())[1:]
         ]
         # Drop unmatched
         # Drop unmatched documents and track count
@@ -479,7 +551,7 @@ class VectorDB:
                 dataframe_to_embed = extracted_df[
                     [
                         dataframe_column_name,
-                        *list(self.VectorDBSchema.model_fields.keys())[3:-1],
+                        *list(self.allDocumentsDBSchema.model_fields.keys())[3:-1],
                     ]
                 ].dropna()
 
@@ -505,7 +577,7 @@ class VectorDB:
                 )
                 continue
 
-            current_table_version = self.table.version
+            current_table_version = self.all_document_types_table.version
             try:
                 added_document_ids = self.add_documents(
                     cleaned_df,
@@ -528,10 +600,112 @@ class VectorDB:
                     f"Error during adding of documents: {e}, going to restore previous state of the table"
                 )
 
-                self.table = self.table.restore(current_table_version)
+                self.all_document_types_table = self.all_document_types_table.restore(
+                    current_table_version
+                )
 
                 raise e
 
         print("Finished embedding all reports.")
-        self.table.optimize(cleanup_older_than=timedelta(days=14))
+        self.all_document_types_table.optimize(cleanup_older_than=timedelta(days=14))
         print("Optimized the table and cleaned up older entries.")
+
+    def process_report_texts(self, extracted_df_path):
+        print("==================================================")
+        print("------------  Processing report texts  -----------")
+        print("   Extracted reports: ", extracted_df_path)
+        print("   Current report text table version: ", self.report_text_table.version)
+        print("   Current report text count: ", self.report_text_table.count_rows())
+        print("==================================================")
+
+        extracted_reports = pd.read_pickle(extracted_df_path)
+
+        if "text" not in extracted_reports.columns:
+            raise ValueError("Extracted reports dataframe does not have a text column")
+
+        if extracted_reports["text"].isna().all():
+            raise ValueError("Extracted reports dataframe has all null text values")
+
+        if extracted_reports["text"].dtype != object:
+            raise ValueError(
+                "Extracted reports dataframe text column is not of type object"
+            )
+
+        extracted_reports = extracted_reports.dropna(subset=["text"])
+
+        extracted_reports = extracted_reports[
+            [
+                "report_id",
+                "text",
+                "year",
+                "mode",
+                "agency",
+                "type",
+                "agency_id",
+                "url",
+            ]
+        ]
+
+        current_ids = (
+            self.report_text_table.search()
+            .select(["report_id"])
+            .to_pandas()["report_id"]
+        )
+
+        extracted_reports = extracted_reports[
+            ~extracted_reports["report_id"].isin(current_ids)
+        ]
+
+        if extracted_reports.empty:
+            print("No new reports to process. Skipping.")
+            return
+
+        extracted_reports = self.tokenize_documents(
+            extracted_reports, "text", "text_token_length"
+        )
+
+        current_table_version = self.report_text_table.version
+
+        print(
+            f"Adding {len(extracted_reports)} new report texts to the database which is {extracted_reports['text_token_length'].sum()} tokens"
+        )
+
+        # Find any rows with missing values
+        if extracted_reports.isna().any(axis=1).any():
+            missing_values = extracted_reports[
+                extracted_reports.isna().any(axis=1)
+            ].drop(labels="text", axis=1)
+            if missing_values.shape[0] > 200:
+                missing_values = missing_values.sample(n=200)
+            print(
+                f"====WARNING====\nExtracted reports dataframe has {missing_values.shape[0]} rows with missing values. No missing values should be  present at this point. They will be ignored but they should be checked on. Rows with missing values are:\n{missing_values.to_csv()}\n{'=' * 50}\n"
+            )
+            extracted_reports = extracted_reports.dropna()
+
+        try:
+            # Add in batches no larger than 100
+            for i in range(0, len(extracted_reports), 100):
+                batch = extracted_reports.iloc[
+                    i : i + min(100, len(extracted_reports) - i)
+                ]
+                pa_table = pa.Table.from_pandas(
+                    batch,
+                    schema=pa.schema(field for field in self.report_text_table.schema),
+                )
+                self.report_text_table.add(pa_table, mode="append")
+
+            print(f"Added {len(extracted_reports)} report texts to the database")
+
+            self.report_text_table.optimize(cleanup_older_than=timedelta(days=14))
+            print("Optimized the table and cleaned up older entries.")
+
+        except Exception as e:
+            print(
+                f"Error during adding of report texts: {e}, going to restore previous state of the table"
+            )
+
+            self.report_text_table = self.report_text_table.restore(
+                current_table_version
+            )
+
+            raise e
